@@ -1,0 +1,45 @@
+---
+title: Услуги предоставления компьютеров, управляемых Майкрософт
+description: В этом разделе перечислены устройства службы и ограничение для управляемых Microsoft Desktop.
+keywords: Службы Microsoft Desktop управляемых, Microsoft 365, документация
+ms.service: m365-md
+author: jdeckerms
+ms.localizationpriority: normal
+ms.date: 09/24/2018
+ms.openlocfilehash: 579f7e5d257d399d803f57ad7f24dbc1242f3ddc
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26870808"
+---
+# <a name="microsoft-managed-desktop-device-services"></a><span data-ttu-id="d3d87-104">Услуги предоставления компьютеров, управляемых Майкрософт</span><span class="sxs-lookup"><span data-stu-id="d3d87-104">Microsoft Managed Desktop device services</span></span>
+
+<span data-ttu-id="d3d87-p101">В этом разделе перечислены службы и ограничение службы Microsoft Desktop управляемых устройств. Для получения дополнительных сведений</span><span class="sxs-lookup"><span data-stu-id="d3d87-p101">This topic lists the services and service limitation for Microsoft Managed Desktop devices. For more information</span></span> 
+
+## <a name="device-services"></a><span data-ttu-id="d3d87-107">Службы устройств</span><span class="sxs-lookup"><span data-stu-id="d3d87-107">Device services</span></span>
+
+<span data-ttu-id="d3d87-p102">Корпорация Майкрософт предоставляет эти службы для Microsoft Desktop управляемых устройств. Дополнительные сведения о программе устройств см [Microsoft Desktop управляемых устройств](device-list.md)</span><span class="sxs-lookup"><span data-stu-id="d3d87-p102">Microsoft will provide these services for Microsoft Managed Desktop devices. For more information on program devices, see [Microsoft Managed Desktop devices](device-list.md)</span></span>
+
+ | 
+ --- | ---
+<span data-ttu-id="d3d87-110">Поддержка</span><span class="sxs-lookup"><span data-stu-id="d3d87-110">Support</span></span> | <span data-ttu-id="d3d87-111">Поддержка агентов будет ответить на вопросы, непосредственно связаны с функциональными возможностями устройства и диагностировать проблемы с устройства.</span><span class="sxs-lookup"><span data-stu-id="d3d87-111">Support agents will answer questions directly related to device functionality and diagnose device issues.</span></span>
+<span data-ttu-id="d3d87-112">Замена</span><span class="sxs-lookup"><span data-stu-id="d3d87-112">Replacement</span></span> | <span data-ttu-id="d3d87-p103">Устройство заменяется аналогичное устройство после запросе благодаря поддержке. Для получения дополнительных сведений покрытия обратитесь к условия гарантии, выбранный при выборе устройство.</span><span class="sxs-lookup"><span data-stu-id="d3d87-p103">The device will be replaced with a similar device after a request is made through support. For coverage details, refer to the warranty terms chosen when selecting your devices.</span></span>
+<span data-ttu-id="d3d87-115">Модернизация</span><span class="sxs-lookup"><span data-stu-id="d3d87-115">Upgrade</span></span> | <span data-ttu-id="d3d87-116">Устройства обновлена и заменен в соответствии с условиями гарантии при выборе.</span><span class="sxs-lookup"><span data-stu-id="d3d87-116">Devices are upgraded and replaced under the terms of the warranty that you select.</span></span>
+<span data-ttu-id="d3d87-117">Inventory</span><span class="sxs-lookup"><span data-stu-id="d3d87-117">Inventory</span></span> | <span data-ttu-id="d3d87-118">Все устройства должны сохраняться на портале Microsoft управляемого рабочего стола администрирования для учета и отслеживания состояния.</span><span class="sxs-lookup"><span data-stu-id="d3d87-118">All devices are tracked in the Microsoft Managed Desktop Admin portal for inventory and status tracking.</span></span>
+<span data-ttu-id="d3d87-119">Устройство отгрузки</span><span class="sxs-lookup"><span data-stu-id="d3d87-119">Device shipment</span></span> |   <span data-ttu-id="d3d87-120">Устройства поставляются непосредственно для пользователей, назначенные или точка распространения ИТ.</span><span class="sxs-lookup"><span data-stu-id="d3d87-120">Devices are shipped directly to the assigned user or IT distribution point.</span></span>
+<span data-ttu-id="d3d87-121">Встроенного аудио- и обновляет драйвера</span><span class="sxs-lookup"><span data-stu-id="d3d87-121">Firmware / driver updates</span></span> | <span data-ttu-id="d3d87-122">Обновления встроенного по и драйверов развертывания и мониторинг для обеспечения совместимости Microsoft.</span><span class="sxs-lookup"><span data-stu-id="d3d87-122">Firmware/Driver updates are deployed and monitored for compatibility by Microsoft.</span></span> 
+<span data-ttu-id="d3d87-123">Стандартные</span><span class="sxs-lookup"><span data-stu-id="d3d87-123">Accessories</span></span> | <span data-ttu-id="d3d87-p104">Стандартные, поставляемых с устройством охвачено те же службы в самом устройстве, но условия гарантии, могут отличаться. Ознакомиться с условиями гарантии, выбранный при выборе устройство.</span><span class="sxs-lookup"><span data-stu-id="d3d87-p104">Accessories that come with your device are covered by the same services as the device itself, but warranty terms may differ. Refer to the warranty terms chosen when selecting your devices.</span></span> 
+<span data-ttu-id="d3d87-126">Настройки устройства.</span><span class="sxs-lookup"><span data-stu-id="d3d87-126">Device setup</span></span>    | <span data-ttu-id="d3d87-127">Устройства будут предварительно настроены с текущей версией Windows и получают их приложения и конфигурации с помощью облака.</span><span class="sxs-lookup"><span data-stu-id="d3d87-127">Devices will be pre-configured with the current version of Windows and receive their apps and configurations via the cloud.</span></span> 
+
+## <a name="device-service-limitations"></a><span data-ttu-id="d3d87-128">Ограничения для службы-устройств</span><span class="sxs-lookup"><span data-stu-id="d3d87-128">Device service limitations</span></span>
+
+<span data-ttu-id="d3d87-129">Корпорация Майкрософт не предоставляет службы для этих элементов.</span><span class="sxs-lookup"><span data-stu-id="d3d87-129">Microsoft will not provide service for these items.</span></span>
+
+ | 
+ --- | ---
+<span data-ttu-id="d3d87-130">Другие стандартные</span><span class="sxs-lookup"><span data-stu-id="d3d87-130">Other accessories</span></span> | <span data-ttu-id="d3d87-131">Поддерживаются только стандартные, поставляемые с устройством.</span><span class="sxs-lookup"><span data-stu-id="d3d87-131">Only accessories shipped with the device are supported.</span></span>
+<span data-ttu-id="d3d87-132">Персонализация</span><span class="sxs-lookup"><span data-stu-id="d3d87-132">Personalization</span></span> | <span data-ttu-id="d3d87-p105">Устройства и стандартные, входящие в состав службы не могут быть настроены. Все устройства и стандартные входящих в состав стандартных фирменной символики, спецификация и сочетания цветов. Приложение конфигурации развертывания и политики обрабатываются ИТ как службы.</span><span class="sxs-lookup"><span data-stu-id="d3d87-p105">Devices and accessories provided with the service are unable to be customized. All devices and accessories are provided with standard branding, specification, and color combinations. Application deployment and policy configurations are handled through IT-as-a-Service.</span></span>
+<span data-ttu-id="d3d87-136">"Восстановить"</span><span class="sxs-lookup"><span data-stu-id="d3d87-136">Repair</span></span> | <span data-ttu-id="d3d87-p106">Устройства не восстановлены. Замена устройства отправляется, как описано выше.</span><span class="sxs-lookup"><span data-stu-id="d3d87-p106">Devices are not repaired. Replacement devices will be shipped as described above.</span></span>
+<span data-ttu-id="d3d87-139">Восстановление данных</span><span class="sxs-lookup"><span data-stu-id="d3d87-139">Data recovery</span></span> | <span data-ttu-id="d3d87-p107">Данные пользователей и групп, включая личные настройки, хранится в OneDrive для бизнеса, с данным кэша, расположенных локально. Если в системе внутреннее хранилище устройства намеренно хранятся данные, любой восстановления данных должен попытка и завершенных перед возвращением устройство в Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="d3d87-p107">User and team data, including personalization, is stored in OneDrive for Business, with only cache data residing locally. If data is intentionally stored on the device’s internal storage system, any data recovery must be attempted and completed prior to returning the device to Microsoft.</span></span>
+<span data-ttu-id="d3d87-142">Настройки устройства.</span><span class="sxs-lookup"><span data-stu-id="d3d87-142">Device setup</span></span> | <span data-ttu-id="d3d87-143">Устройства доставляются адреса клиента, где необходимо включен и настройка клиента.</span><span class="sxs-lookup"><span data-stu-id="d3d87-143">Devices are delivered to the customer address, where they need to be powered on and set up by the customer.</span></span>

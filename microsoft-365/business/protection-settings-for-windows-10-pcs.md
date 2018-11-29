@@ -1,0 +1,76 @@
+---
+title: Настройка параметров защиты устройств для компьютеров с Windows 10
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+ms.audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+search.appverid:
+- BCS160
+- MET150
+ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
+description: Описание по умолчанию и другие параметры, доступные в Microsoft Business 365 для обеспечения безопасности устройств Windows 10.
+ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26870435"
+---
+# <a name="set-device-protection-settings-for-windows-10-pcs"></a><span data-ttu-id="a19a4-103">Настройка параметров защиты устройств для компьютеров с Windows 10</span><span class="sxs-lookup"><span data-stu-id="a19a4-103">Set device protection settings for Windows 10 PCs</span></span>
+
+## <a name="secure-windows-10-devices"></a><span data-ttu-id="a19a4-104">Защита устройств с Windows 10</span><span class="sxs-lookup"><span data-stu-id="a19a4-104">Secure Windows 10 devices</span></span>
+
+<span data-ttu-id="a19a4-105">Просмотрите видео о том, как защитить устройства с Windows 10 с помощью Office 365 бизнес:</span><span class="sxs-lookup"><span data-stu-id="a19a4-105">View a video on how to secure Windows 10 devices with Microsoft 365 Business:</span></span>
+  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
+  
+1. <span data-ttu-id="a19a4-106">Войдите в [Microsoft 365 Business](https://portal.office.com) с учетными данными глобального администратора.</span><span class="sxs-lookup"><span data-stu-id="a19a4-106">Sign in to [Microsoft 365 Business](https://portal.office.com) with global admin credentials.</span></span> 
+    
+2. <span data-ttu-id="a19a4-107">В центре администрирования на карточке **Политики устройств** выберите команду **Добавить политику**.</span><span class="sxs-lookup"><span data-stu-id="a19a4-107">in the admin center, on the **Device policies** card, choose **Add policy**.</span></span>
+    
+    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+  
+3. <span data-ttu-id="a19a4-109">На панели **Добавить политику** введите уникальное имя политики.</span><span class="sxs-lookup"><span data-stu-id="a19a4-109">On the **Add policy** pane, enter a unique name for this policy.</span></span> 
+    
+4. <span data-ttu-id="a19a4-110">В поле **Тип политики** выберите **Конфигурация устройства с Windows 10**.</span><span class="sxs-lookup"><span data-stu-id="a19a4-110">Under **Policy type**, choose **Windows 10 Device Configuration**.</span></span>
+    
+5. <span data-ttu-id="a19a4-p101">Разверните узел **Безопасность устройств Windows 10** \> настройте параметры, как вы. Для получения дополнительных сведений см. [Доступные параметры](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) .</span><span class="sxs-lookup"><span data-stu-id="a19a4-p101">Expand **Secure Windows 10 Devices** \> configure the settings how you would like. See [Available settings](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) for more information.</span></span> 
+    
+    <span data-ttu-id="a19a4-113">Вы всегда можете вернуться к значениям по умолчанию с помощью ссылки **Восстановление параметров по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="a19a4-113">You can alway use the **Reset default settings** link to return to the default setting.</span></span> 
+    
+    ![Add policy pane with Windows 10 Device configuration selected](media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
+  
+6. <span data-ttu-id="a19a4-p102">Далее решить **пользователей, которые получит эти параметры?** Если вы не хотите использовать группы безопасности **всех пользователей** по умолчанию, выбрать **Изменение**поиск для группы пользователей, которые получит эти параметры \> **выберите**.</span><span class="sxs-lookup"><span data-stu-id="a19a4-p102">Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.</span></span>
+    
+7. <span data-ttu-id="a19a4-117">Нажмите кнопку **Готово**, чтобы сохранить политику и назначить ее устройствам.</span><span class="sxs-lookup"><span data-stu-id="a19a4-117">Finally, choose **Done** to save the policy, and assign it to devices.</span></span> 
+    
+## <a name="available-settings"></a><span data-ttu-id="a19a4-118">Доступные параметры</span><span class="sxs-lookup"><span data-stu-id="a19a4-118">Available settings</span></span>
+
+<span data-ttu-id="a19a4-p103">Все параметры **включены** по умолчанию. Доступные параметры перечислены ниже.</span><span class="sxs-lookup"><span data-stu-id="a19a4-p103">By default all settings are **On**. The following settings are available.</span></span>
+  
+<span data-ttu-id="a19a4-121">Дополнительные сведения см. в статье [Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune](map-protection-features-to-intune-settings.md).</span><span class="sxs-lookup"><span data-stu-id="a19a4-121">See [How do protection features in Microsoft 365 Business map to Intune settings](map-protection-features-to-intune-settings.md) for more information.</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="a19a4-122">Параметр</span><span class="sxs-lookup"><span data-stu-id="a19a4-122">Setting</span></span>  <br/> |<span data-ttu-id="a19a4-123">Описание</span><span class="sxs-lookup"><span data-stu-id="a19a4-123">Description</span></span>  <br/> |
+|<span data-ttu-id="a19a4-124">Использование антивирусной программы "Защитник Windows"</span><span class="sxs-lookup"><span data-stu-id="a19a4-124">Help protect PCs from viruses and other threats using Windows Defender Antivirus</span></span>  <br/> |<span data-ttu-id="a19a4-125">Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.</span><span class="sxs-lookup"><span data-stu-id="a19a4-125">Requires that Windows Defender Antivirus is turned on to protect PCs from the dangers of being connected to the internet.</span></span>  <br/> |
+|<span data-ttu-id="a19a4-126">Защитите компьютеры от угроз из Интернета в Microsoft Edge</span><span class="sxs-lookup"><span data-stu-id="a19a4-126">Help protect PCs from web-based threats in Microsoft Edge</span></span>  <br/> |<span data-ttu-id="a19a4-127">Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.</span><span class="sxs-lookup"><span data-stu-id="a19a4-127">Turns on settings in Edge that help protect users from malicious sites and downloads.</span></span>  <br/> |
+|<span data-ttu-id="a19a4-128">Использовать правила для ограничения направлений атак на устройства</span><span class="sxs-lookup"><span data-stu-id="a19a4-128">Use rules that reduce the attack surface of devices</span></span>  <br/> |<span data-ttu-id="a19a4-p104">Если этот параметр включен, ограничение направлений атак позволяет блокировать действия и приложения, которые вредоносные программы обычно используют для заражения устройств. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Уменьшение уязвимой зоны](https://go.microsoft.com/fwlink/?linkid=870417).  </span><span class="sxs-lookup"><span data-stu-id="a19a4-p104">When turned On, attack surface reduction helps block actions and apps typically used by malware to infect devices. This setting is only available if Windows Defender Antivirus is set to On. See [Reduce attack surfaces](https://go.microsoft.com/fwlink/?linkid=870417) to learn more.  </span></span><br/> |
+|<span data-ttu-id="a19a4-132">Защитить папки от угроз, таких как программы-шантажисты</span><span class="sxs-lookup"><span data-stu-id="a19a4-132">Protect folders from threats such as ransomware</span></span>  <br/> |<span data-ttu-id="a19a4-p105">Этот параметр использует управляемый доступ к папкам для защиты корпоративных данных от внесения изменений подозрительными или вредоносными приложениями, такими как программы-шантажисты. Таким приложениям запрещается внесение изменений в защищенных папках. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Защита важных папок с помощью управляемого доступа к папкам](https://go.microsoft.com/fwlink/?linkid=870418).  </span><span class="sxs-lookup"><span data-stu-id="a19a4-p105">This setting uses controlled folder access to protect company data from modification by suspicious or malicious apps, such as ransomware. These types of apps are blocked from making changes in protected folders. This setting is only available if Windows Defender Antivirus is set to On. See [Protect folders with COntrolled folder access](https://go.microsoft.com/fwlink/?linkid=870418) to learn more.  </span></span><br/> |
+|<span data-ttu-id="a19a4-137">Запретить доступ из сети к потенциально вредоносному содержимому в Интернете</span><span class="sxs-lookup"><span data-stu-id="a19a4-137">Prevent network access to potentially malicious content on the Internet</span></span>  <br/> |<span data-ttu-id="a19a4-p106">Этот параметр используется для блокировки исходящих подключений пользователей к интернет-расположениям с низкой репутацией, в которых могут размещается фишинговые сообщения, эксплойты и другое вредоносное содержимое. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Защитите свою сеть](https://go.microsoft.com/fwlink/?linkid=870419).  </span><span class="sxs-lookup"><span data-stu-id="a19a4-p106">Use this setting to block outbound user connections to low-reputation Internet locations that may host phishing scams, exploits or other malicious content. This setting is only available if Windows Defender Antivirus is set to On. See [Protect your network](https://go.microsoft.com/fwlink/?linkid=870419) for more information.  </span></span><br/> |
+|<span data-ttu-id="a19a4-141">Защитить файлы и папки на компьютерах от несанкционированного доступа с помощью BitLocker</span><span class="sxs-lookup"><span data-stu-id="a19a4-141">Help protect files and folders on PCs from unauthorized access with BitLocker</span></span>  <br/> |<span data-ttu-id="a19a4-p107">BitLocker защищает данные от раскрытия в случае потери или кражи компьютера путем шифрования его жестких дисков. Дополнительные сведения см. в статье [Вопросы и ответы по BitLocker](https://go.microsoft.com/fwlink/?linkid=871000).  </span><span class="sxs-lookup"><span data-stu-id="a19a4-p107">Bitlocker protects data by encrypting the computer hard drives and protect against data exposure if a computer is lost or stolen. See [Bitlocker FAQ](https://go.microsoft.com/fwlink/?linkid=871000) for more information.  </span></span><br/> |
+|<span data-ttu-id="a19a4-144">Разрешить пользователям скачивать приложения из Microsoft Store</span><span class="sxs-lookup"><span data-stu-id="a19a4-144">Allow users to download apps from Microsoft Store</span></span>  <br/> |<span data-ttu-id="a19a4-p108">Позволяет пользователям скачивать и устанавливать приложения из Microsoft Store. Это касается любых приложений, от инструментов для повышения производительности до игр, поэтому этот параметр **включен**, но его можно отключить, чтобы обеспечить дополнительную защиту.  </span><span class="sxs-lookup"><span data-stu-id="a19a4-p108">Lets users download and install apps from the Microsoft Store. Apps include everything from games to productivity tools, so we leave this setting **On**, but you can turn it off for extra security.  </span></span><br/> |
+|<span data-ttu-id="a19a4-147">Разрешить пользователям доступ к Кортане</span><span class="sxs-lookup"><span data-stu-id="a19a4-147">Allow users to access Cortana</span></span>  <br/> |<span data-ttu-id="a19a4-p109">Кортана может быть очень полезной. Она умеет включать и отключать для вас параметры, давать рекомендации или следить, чтобы вы не пропустили назначенные встречи, поэтому этот параметр **включен** по умолчанию.  </span><span class="sxs-lookup"><span data-stu-id="a19a4-p109">Cortana can be very helpful! She can turn settings on or off for you, give directions, and make sure you're on time for appointments, so we keep this **On** by default.  </span></span><br/> |
+|<span data-ttu-id="a19a4-150">Разрешить пользователям получать советы и объявления для Windows от Майкрософт</span><span class="sxs-lookup"><span data-stu-id="a19a4-150">Allow users to receive Windows tips and advertisements from Microsoft</span></span>  <br/> |<span data-ttu-id="a19a4-151">Советы для Windows могут оказаться очень кстати. Они помогают пользователям сориентироваться, когда выпускаются новые возможности.</span><span class="sxs-lookup"><span data-stu-id="a19a4-151">Windows tips can be handy and help orient users when new features are released.</span></span>  <br/> |
+|<span data-ttu-id="a19a4-152">Автоматически обновлять устройства с Windows 10</span><span class="sxs-lookup"><span data-stu-id="a19a4-152">Keep Windows 10 devices up to date automatically</span></span>  <br/> |<span data-ttu-id="a19a4-153">Обеспечивает автоматическую установку последних обновлений на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="a19a4-153">Makes sure that Windows 10 devices automatically receive the latest updates.</span></span>  <br/> |
+|<span data-ttu-id="a19a4-154">Выключать экран устройства, если оно неактивно в течение указанного периода времени</span><span class="sxs-lookup"><span data-stu-id="a19a4-154">Turn off device screen when idle for this amount of time</span></span>  <br/> |<span data-ttu-id="a19a4-p110">Обеспечивает защиту корпоративных данных, когда пользователь неактивен. Пользователь может работать в общественном месте, например кафе, и на короткое время отойти или отвлечься. При этом посторонние могут случайно увидеть сведения на экране. Этот параметр управляет временем, на протяжении которого пользователь может оставаться неактивным, прежде чем экран выключится.</span><span class="sxs-lookup"><span data-stu-id="a19a4-p110">Makes sure that company data is protected if a user is idle. A user may be working in a public location, like a coffee shop, and step away or be distracted for just a moment, leaving their device vulnerable to random glances. This setting lets you control how long the user can be idle before the screen shuts off.</span></span>  <br/> |
+   
+  
+
