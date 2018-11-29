@@ -1,0 +1,75 @@
+### YamlMime:YamlDocument
+ms.openlocfilehash: 07a77c646f8aef2440f415fdf143373cd249a641
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26870758"
+documentType: LandingData
+title: Документация по Microsoft Desktop управляемых и ресурсы
+metadata:
+  title: Документация по Microsoft Desktop управляемых
+  description: 
+  keywords: устройство, приложения, управление
+  author: trudyha
+  ms.author: trudyha
+  ms.date: 11/1/2018
+  ms.topic: landing-page
+  ms.devlang: na
+  ms.service: m365-md
+sections:
+- items:
+  - type: markdown
+    text: Это самый простой способ удовлетворить и освободить ИТ.
+- items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: intro/index.md
+      html: <p>Ознакомьтесь со сведениями о возможности Microsoft Desktop управляемых и как это работает.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_overview.svg
+      title: Что собой представляют компьютеры, управляемые Майкрософт?
+    - href: service-description/index.md
+      html: <p>Изучение возможностей, включенных в управляемых Microsoft Desktop.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
+      title: Описание службы
+    - href: get-ready/index.md
+      html: <p>Узнайте, как подготовиться к регистрации в управляемых Microsoft Desktop.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_support.svg
+      title: Приготовиться
+    - href: get-started/index.md
+      html: <p>Узнайте, как для заказа устройств и добавление контактов.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_whats-new.svg
+      title: Начало работы
+    - href: working-with-managed-desktop/index.md
+      html: <p>Сведения об управлении приложения.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_portal.svg
+      title: Работа с компьютерами, управляемыми Майкрософт
+- title: Новые статьи и записи блогов
+  items:
+  - type: paragraph
+    text: Прочитайте последние и интересных сведения, которые необходимо знать.
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/
+      title: '[Блог] Совместная работа с клиентами и партнерами для предоставления современных рабочего стола'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_architecture.svg
+    - href: https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html
+      title: '[Статья] Рабочий стол Microsoft Managed: Всех Windows 10 устройств, управляемых корпорацией Майкрософт'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_guide.svg
+- title: Видео
+  items:
+  - type: markdown
+    text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
