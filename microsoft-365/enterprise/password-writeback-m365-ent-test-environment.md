@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
 ms.openlocfilehash: 748ccaf8601d9e9564d176f2368e3cc71f926208
-ms.sourcegitcommit: 808656803f2bfd30bc872fa3ce3fe5d072385f5d
+ms.sourcegitcommit: 369f07db4e457334900314a2575f2f75cff5ce9c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27187287"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201613"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
 
