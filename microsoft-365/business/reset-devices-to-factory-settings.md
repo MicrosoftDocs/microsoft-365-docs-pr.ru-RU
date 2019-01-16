@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Сведения об использовании Microsoft Business 365 для фабрики сбросить устройство Windows 10. '
 ms.openlocfilehash: ed745ea792f755ada17b3b327032246dab16d94b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870972"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Восстановление заводских настроек для устройств с Windows 10

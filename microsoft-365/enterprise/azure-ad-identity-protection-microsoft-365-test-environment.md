@@ -14,10 +14,10 @@ ms.custom:
 - Ent_TLGs
 description: Настройка защиты удостоверения Azure AD и анализ текущих учетных записей в тестовой среде Microsoft 365 для предприятия.
 ms.openlocfilehash: 165667ad2122839336ef0790ab5661cff53ca32b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870523"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Azure AD защиту для вашего предприятия 365 Microsoft тестовой среды
@@ -29,7 +29,7 @@ Azure AD защиту позволяет определить потенциал
 1. Создание тестовой среды Microsoft 365 для предприятия.
 2. Включение и использование Azure AD защиту.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -65,7 +65,7 @@ Azure AD защиту позволяет определить потенциал
 
 ## <a name="see-also"></a>См. также
 
-[Этап 2. Идентификация](identity-infrastructure.md)
+[Шаг 2. Идентификация](identity-infrastructure.md)
 
 [Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
 

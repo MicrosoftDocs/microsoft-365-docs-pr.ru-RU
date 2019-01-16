@@ -22,10 +22,10 @@ search.appverid:
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Сведения для сброса или стирание устройства, осуществляется с помощью политик защиты.
 ms.openlocfilehash: 7a20627f50ca2c01ffd8cb77cebf89456ec972ba
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870749"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Управление защищенными устройствами с помощью Microsoft 365 Business

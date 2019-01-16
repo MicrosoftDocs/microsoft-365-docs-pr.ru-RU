@@ -20,10 +20,10 @@ search.appverid:
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: Сведения о параметрах, доступных для защиты рабочих файлов в случае потери или кражи устройства пользователя.
 ms.openlocfilehash: 4fafae2dfd25e44dce7083307b3432bcaa25c22b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870946"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Защита рабочих файлов в случае потери или кражи мобильного устройства

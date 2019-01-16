@@ -13,11 +13,11 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройка группы лицензирования и членство в группах динамических в тестовой среде Microsoft 365 для предприятия.
-ms.openlocfilehash: 46d2f0ca063b387d1a4a51b4ea97bd5d60c03fe5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 45a78af202f2d9ab029683aae4d95ed9a3370b08
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870827"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Автоматизировать лицензирования и групповых членство для тестовой среды Microsoft 365 для предприятия
@@ -29,7 +29,7 @@ ms.locfileid: "26870827"
 1. Создание тестовой среды Microsoft 365 для предприятия.
 2. Настройки и тестирования динамических группах и автоматическое лицензирование.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -47,7 +47,7 @@ ms.locfileid: "26870827"
 
 Во-первых создается новая группа продаж и Добавление правила членства динамическую группу, чтобы учетные записи пользователей с отделом, задайте значение продаж, автоматически добавляются в группу.
 
-1. С помощью закрытого экземпляра веб-браузер, войдите в портал Office 365 по [https://portal.office.com](https://portal.office.com) с учетной записью глобального администратора Office 365 E5 пробной подписки.
+1. С помощью закрытого экземпляра веб-браузер, войдите в портал Office по [https://office.com](https://office.com) с учетной записью глобального администратора Office 365 E5 пробной подписки.
 2. На отдельной вкладке браузера перейдите на портале Azure по [https://portal.azure.com](https://portal.azure.com).
 3. На портале Azure последовательно выберите **Azure Active Directory > Пользователи и группы > Все группы**.
 4. На blade **все группы** нажмите кнопку **Создать группу**.
@@ -99,7 +99,7 @@ ms.locfileid: "26870827"
 
 ## <a name="see-also"></a>См. также
 
-[Этап 2. Идентификация](identity-infrastructure.md)
+[Шаг 2. Идентификация](identity-infrastructure.md)
 
 [Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
 
