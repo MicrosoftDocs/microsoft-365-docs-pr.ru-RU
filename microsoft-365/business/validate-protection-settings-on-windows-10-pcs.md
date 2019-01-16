@@ -17,72 +17,72 @@ search.appverid:
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Сведения о проверке параметров защиты Microsoft 365 Business приложения в устройствах Windows 10.
 ms.openlocfilehash: f00dd380103ad9498d77b0e8814bace3de168df4
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870846"
 ---
-# <a name="validate-app-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="dd362-103">Проверка параметров защиты приложений на компьютерах с Windows 10</span><span class="sxs-lookup"><span data-stu-id="dd362-103">Validate app protection settings on Windows 10 PCs</span></span>
+# <a name="validate-app-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="257fb-103">Проверка параметров защиты приложений на компьютерах с Windows 10</span><span class="sxs-lookup"><span data-stu-id="257fb-103">Validate app protection settings on Windows 10 PCs</span></span>
 
-## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a><span data-ttu-id="dd362-104">Проверка отсутствия у пользователей возможности копирования данных компании в личные файлы на корпоративных устройствах</span><span class="sxs-lookup"><span data-stu-id="dd362-104">Verify that users cannot copy company data to personal files on corporate devices</span></span>
+## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a><span data-ttu-id="257fb-104">Проверка отсутствия у пользователей возможности копирования данных компании в личные файлы на корпоративных устройствах</span><span class="sxs-lookup"><span data-stu-id="257fb-104">Verify that users cannot copy company data to personal files on corporate devices</span></span>
 
-<span data-ttu-id="dd362-p101">Политики защиты приложений для пользовательских устройств могут вступить в силу через несколько часов после их [настройки](protection-settings-for-windows-10-devices.md). Если для корпоративных устройств установить значение **Вкл.** для параметра **Запретить копирование данных компании в личные файлы и обязать хранить рабочие файлы в OneDrive для бизнеса**, его действие можно будет проверить на устройстве пользователя после подключения к Azure AD и входа.</span><span class="sxs-lookup"><span data-stu-id="dd362-p101">After you [set up app protection policies](protection-settings-for-windows-10-devices.md), it may take up to a few hours for the policy to take effect on users' devices. If you turned **On** the **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** setting for company owned devices, you can check this on the user's device after they have connected to Azure AD and signed in.</span></span> 
+<span data-ttu-id="257fb-p101">Политики защиты приложений для пользовательских устройств могут вступить в силу через несколько часов после их [настройки](protection-settings-for-windows-10-devices.md). Если для корпоративных устройств установить значение **Вкл.** для параметра **Запретить копирование данных компании в личные файлы и обязать хранить рабочие файлы в OneDrive для бизнеса**, его действие можно будет проверить на устройстве пользователя после подключения к Azure AD и входа.</span><span class="sxs-lookup"><span data-stu-id="257fb-p101">After you [set up app protection policies](protection-settings-for-windows-10-devices.md), it may take up to a few hours for the policy to take effect on users' devices. If you turned **On** the **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** setting for company owned devices, you can check this on the user's device after they have connected to Azure AD and signed in.</span></span> 
   
- <span data-ttu-id="dd362-107">**Проверка параметров подключения**</span><span class="sxs-lookup"><span data-stu-id="dd362-107">**Verify connection settings**</span></span>
+ <span data-ttu-id="257fb-107">**Проверка параметров подключения**</span><span class="sxs-lookup"><span data-stu-id="257fb-107">**Verify connection settings**</span></span>
   
-1. <span data-ttu-id="dd362-p102">После входа с помощью учетных данных Office 365 бизнес и подключения к Azure AD, как описано в статье [Настройка устройств с Windows для пользователей Microsoft 365 бизнес](set-up-windows-devices.md), откройте **Параметры Windows** \> **Учетные записи** \> **Доступ к учетной записи места работы или учебного заведения**. Выберите пункт **Подключено к Azure AD \<имя клиента\>**, а затем нажмите кнопку **Сведения**.</span><span class="sxs-lookup"><span data-stu-id="dd362-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span></span>
+1. <span data-ttu-id="257fb-p102">После входа с помощью учетных данных Office 365 бизнес и подключения к Azure AD, как описано в статье [Настройка устройств с Windows для пользователей Microsoft 365 бизнес](set-up-windows-devices.md), откройте **Параметры Windows** \> **Учетные записи** \> **Доступ к учетной записи места работы или учебного заведения**. Выберите пункт **Подключено к Azure AD \<имя клиента\>**, а затем нажмите кнопку **Сведения**.</span><span class="sxs-lookup"><span data-stu-id="257fb-p102">After you sign in with Microsoft 365 Business credentials and connect to Azure AD as described in [Set up Windows devices for Microsoft 365 Business users](set-up-windows-devices.md), go to **Windows Settings** \> **Accounts** \> **Access work or school**. Choose **Connected to \<tenant name\> Azure AD**, and then choose **Info**.</span></span>
     
     ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. <span data-ttu-id="dd362-111">На странице **Управляется** \<имя клиента\> просмотрите раздел **Сведения о подключении**, который содержит **Адрес сервера управления**, как показано на приведенном ниже рисунке.</span><span class="sxs-lookup"><span data-stu-id="dd362-111">On the **Managed by** \<tenant name\> page you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure.</span></span> 
+2. <span data-ttu-id="257fb-111">На странице **Управляется** \<имя клиента\> просмотрите раздел **Сведения о подключении**, который содержит **Адрес сервера управления**, как показано на приведенном ниже рисунке.</span><span class="sxs-lookup"><span data-stu-id="257fb-111">On the **Managed by** \<tenant name\> page you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure.</span></span> 
     
     ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
- <span data-ttu-id="dd362-113">**Проверка отсутствия возможности вставки данных компании в неуправляемое приложение**</span><span class="sxs-lookup"><span data-stu-id="dd362-113">**Verify that you cannot paste company data to a non-managed app**</span></span>
+ <span data-ttu-id="257fb-113">**Проверка отсутствия возможности вставки данных компании в неуправляемое приложение**</span><span class="sxs-lookup"><span data-stu-id="257fb-113">**Verify that you cannot paste company data to a non-managed app**</span></span>
   
-1. <span data-ttu-id="dd362-114">Откройте приложение Outlook 2016, установленное с помощью Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="dd362-114">Open Outlook 2016 that was installed by Microsoft 365 Business.</span></span>
+1. <span data-ttu-id="257fb-114">Откройте приложение Outlook 2016, установленное с помощью Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="257fb-114">Open Outlook 2016 that was installed by Microsoft 365 Business.</span></span>
     
-2. <span data-ttu-id="dd362-115">Откройте письмо и скопируйте его фрагмент.</span><span class="sxs-lookup"><span data-stu-id="dd362-115">Open an email and copy some content from it.</span></span>
+2. <span data-ttu-id="257fb-115">Откройте письмо и скопируйте его фрагмент.</span><span class="sxs-lookup"><span data-stu-id="257fb-115">Open an email and copy some content from it.</span></span>
     
-    <span data-ttu-id="dd362-116">Откройте Блокнот и попытайтесь вставить в него содержимое.</span><span class="sxs-lookup"><span data-stu-id="dd362-116">Open Notepad and attempt to paste the content in.</span></span>
+    <span data-ttu-id="257fb-116">Откройте Блокнот и попытайтесь вставить в него содержимое.</span><span class="sxs-lookup"><span data-stu-id="257fb-116">Open Notepad and attempt to paste the content in.</span></span>
     
-    <span data-ttu-id="dd362-117">Появляется предупреждение о том, что приложению не удается получить доступ к содержимому.</span><span class="sxs-lookup"><span data-stu-id="dd362-117">You will receive an error that states App can't access content.</span></span>
+    <span data-ttu-id="257fb-117">Появляется предупреждение о том, что приложению не удается получить доступ к содержимому.</span><span class="sxs-lookup"><span data-stu-id="257fb-117">You will receive an error that states App can't access content.</span></span>
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
-    <span data-ttu-id="dd362-119">Однако это же содержимое можно вставить в Word 2016.</span><span class="sxs-lookup"><span data-stu-id="dd362-119">You can, however, paste the same content into Word 2016.</span></span>
+    <span data-ttu-id="257fb-119">Однако это же содержимое можно вставить в Word 2016.</span><span class="sxs-lookup"><span data-stu-id="257fb-119">You can, however, paste the same content into Word 2016.</span></span>
     
-## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-personal-devices"></a><span data-ttu-id="dd362-120">Проверка отсутствия у пользователей возможности копирования данных компании в личные файлы на личных устройствах</span><span class="sxs-lookup"><span data-stu-id="dd362-120">Verify that users cannot copy company data to personal files on personal devices</span></span>
+## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-personal-devices"></a><span data-ttu-id="257fb-120">Проверка отсутствия у пользователей возможности копирования данных компании в личные файлы на личных устройствах</span><span class="sxs-lookup"><span data-stu-id="257fb-120">Verify that users cannot copy company data to personal files on personal devices</span></span>
 
- <span data-ttu-id="dd362-121">**Проверка параметров подключения**</span><span class="sxs-lookup"><span data-stu-id="dd362-121">**Verify connection settings**</span></span>
+ <span data-ttu-id="257fb-121">**Проверка параметров подключения**</span><span class="sxs-lookup"><span data-stu-id="257fb-121">**Verify connection settings**</span></span>
   
-1. <span data-ttu-id="dd362-122">На устройстве личных Windows 10, где вы вошли в качестве локального пользователя, перейдите в раздел **Windows Параметры** и нажмите кнопку коснитесь **учетные записи** \> **доступа к работе и в школе**.</span><span class="sxs-lookup"><span data-stu-id="dd362-122">On your Windows 10 personal device where you are logged in as a local user, go to **Windows Settings** and click or tap **Accounts** \> **Access work or school**.</span></span>
+1. <span data-ttu-id="257fb-122">На устройстве личных Windows 10, где вы вошли в качестве локального пользователя, перейдите в раздел **Windows Параметры** и нажмите кнопку коснитесь **учетные записи** \> **доступа к работе и в школе**.</span><span class="sxs-lookup"><span data-stu-id="257fb-122">On your Windows 10 personal device where you are logged in as a local user, go to **Windows Settings** and click or tap **Accounts** \> **Access work or school**.</span></span>
     
-2. <span data-ttu-id="dd362-123">На странице **Доступ к учетной записи места работы или учебного заведения** выберите команду **Подключить**.</span><span class="sxs-lookup"><span data-stu-id="dd362-123">Under the **Access work or school**, choose **Connect**.</span></span>
+2. <span data-ttu-id="257fb-123">На странице **Доступ к учетной записи места работы или учебного заведения** выберите команду **Подключить**.</span><span class="sxs-lookup"><span data-stu-id="257fb-123">Under the **Access work or school**, choose **Connect**.</span></span>
     
-3. <span data-ttu-id="dd362-124">Введите ваше Microsoft 365 Business учетных данных в **Настройка рабочего или в диалоговом окне учетная запись школа** \> **Вход**.</span><span class="sxs-lookup"><span data-stu-id="dd362-124">Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.</span></span>
+3. <span data-ttu-id="257fb-124">Введите ваше Microsoft 365 Business учетных данных в **Настройка рабочего или в диалоговом окне учетная запись школа** \> **Вход**.</span><span class="sxs-lookup"><span data-stu-id="257fb-124">Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.</span></span>
     
-4. <span data-ttu-id="dd362-125">На странице **Доступ к учетной записи места работы или учебного заведения** выберите элемент **Рабочая или учебная учетная запись** и нажмите кнопку **Сведения**.</span><span class="sxs-lookup"><span data-stu-id="dd362-125">On the **Access work or school** page, choose the **Work or school account**, and then choose **Info**.</span></span>
+4. <span data-ttu-id="257fb-125">На странице **Доступ к учетной записи места работы или учебного заведения** выберите элемент **Рабочая или учебная учетная запись** и нажмите кнопку **Сведения**.</span><span class="sxs-lookup"><span data-stu-id="257fb-125">On the **Access work or school** page, choose the **Work or school account**, and then choose **Info**.</span></span>
     
     ![Click or tap Info on the Work or school account dalog.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
-5. <span data-ttu-id="dd362-127">На странице **Доступ к учетной записи места работы или учебного заведения** просмотрите раздел **Сведения о подключении**, который содержит **Адрес сервера управления** со словами  *wip*  и  *mam*  , как показано на приведенном ниже рисунке.</span><span class="sxs-lookup"><span data-stu-id="dd362-127">On the **Access work or school** page you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure, and includes the words  *wip*  and  *mam*  within.</span></span> 
+5. <span data-ttu-id="257fb-127">На странице **Доступ к учетной записи места работы или учебного заведения** просмотрите раздел **Сведения о подключении**, который содержит **Адрес сервера управления** со словами  *wip*  и  *mam*  , как показано на приведенном ниже рисунке.</span><span class="sxs-lookup"><span data-stu-id="257fb-127">On the **Access work or school** page you can see the **Connection info** that includes a **Management Server Address** like the one shown in the following figure, and includes the words  *wip*  and  *mam*  within.</span></span> 
     
     ![Managed by page shows connection info URL that includes the words mam and wpi.](media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
- <span data-ttu-id="dd362-129">**Проверка отсутствия возможности вставки данных компании в неуправляемое приложение**</span><span class="sxs-lookup"><span data-stu-id="dd362-129">**Verify that you cannot paste company data to a non-managed app**</span></span>
+ <span data-ttu-id="257fb-129">**Проверка отсутствия возможности вставки данных компании в неуправляемое приложение**</span><span class="sxs-lookup"><span data-stu-id="257fb-129">**Verify that you cannot paste company data to a non-managed app**</span></span>
   
-1. <span data-ttu-id="dd362-130">Откройте Outlook 2016, при необходимости добавьте свою учетную запись Office 365 бизнес и выполните вход с помощью учетных данных Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="dd362-130">Open Outlook 2016 and add your Microsoft 365 Business account if necessary and sign in with your Microsoft 365 Business credentials.</span></span>
+1. <span data-ttu-id="257fb-130">Откройте Outlook 2016, при необходимости добавьте свою учетную запись Office 365 бизнес и выполните вход с помощью учетных данных Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="257fb-130">Open Outlook 2016 and add your Microsoft 365 Business account if necessary and sign in with your Microsoft 365 Business credentials.</span></span>
     
-2. <span data-ttu-id="dd362-131">Откройте письмо и скопируйте его фрагмент.</span><span class="sxs-lookup"><span data-stu-id="dd362-131">Open an email and copy some content from it.</span></span>
+2. <span data-ttu-id="257fb-131">Откройте письмо и скопируйте его фрагмент.</span><span class="sxs-lookup"><span data-stu-id="257fb-131">Open an email and copy some content from it.</span></span>
     
-    <span data-ttu-id="dd362-132">Откройте Блокнот и попытайтесь вставить в него содержимое.</span><span class="sxs-lookup"><span data-stu-id="dd362-132">Open Notepad and attempt to paste the content in.</span></span>
+    <span data-ttu-id="257fb-132">Откройте Блокнот и попытайтесь вставить в него содержимое.</span><span class="sxs-lookup"><span data-stu-id="257fb-132">Open Notepad and attempt to paste the content in.</span></span>
     
-    <span data-ttu-id="dd362-133">Появляется предупреждение о том, что приложению не удается получить доступ к содержимому.</span><span class="sxs-lookup"><span data-stu-id="dd362-133">You will receive an error that states App can't access content.</span></span>
+    <span data-ttu-id="257fb-133">Появляется предупреждение о том, что приложению не удается получить доступ к содержимому.</span><span class="sxs-lookup"><span data-stu-id="257fb-133">You will receive an error that states App can't access content.</span></span>
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
-    <span data-ttu-id="dd362-135">Однако это же содержимое можно вставить в Word 2016.</span><span class="sxs-lookup"><span data-stu-id="dd362-135">You can, however, paste the same content into Word 2016.</span></span>
+    <span data-ttu-id="257fb-135">Однако это же содержимое можно вставить в Word 2016.</span><span class="sxs-lookup"><span data-stu-id="257fb-135">You can, however, paste the same content into Word 2016.</span></span>
     
 
