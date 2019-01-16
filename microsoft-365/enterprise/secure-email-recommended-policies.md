@@ -10,11 +10,11 @@ ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
 - goldenconfig
-ms.openlocfilehash: dd1504ac11f0e2eefa56572af24de14b5f87830e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f3d3d72ddf9129997dd4232a578e1f101f113a53
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870449"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
@@ -34,20 +34,20 @@ ms.locfileid: "26870449"
 
 |Уровень защиты|Политики.|Дополнительные сведения|
 |:---------------|:-------|:----------------|
-|**Базовый уровень**|[После входа в риска *Средний* или *высокий* требуют многофакторной проверкой Подлинности](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначениях облачных приложений.|
-|        |[Блокировать клиенты, не поддерживающие современных проверки подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Exchange Online в назначениях облачных приложений.|
-|        |[Определение политик защиты от приложения](identity-access-policies.md#high-risk-users-must-change-password)|Убедитесь, что Outlook включен в списке приложений. Не забудьте обновить политику для каждой платформы (операций ввода-вывода, Android, Windows).|
-|        |[Требовать одобренных приложений](identity-access-policies.md#require-approved-apps)|Включение Exchange Online в списке облачных приложений.|
-|        |[Требовать спецификации ПК](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Exchange Online в список облачных приложений.|
-|        |[Блокировать ActiveSync клиентов](#block-activesync)|Добавление этой новой политики. 
-|**Конфиденциальный**|[После входа в риска *низкий*, *Средний* или *высокий* требуют многофакторной проверкой Подлинности](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Включение Exchange Online в назначениях облачных приложений.|
-|         |[Требовать спецификации ПК *и* мобильных устройств.](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение Exchange Online в списке облачных приложений.|
-|**Строго регулируемый уровень**|[*Всегда* требовать многофакторной проверкой Подлинности](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включить Exchange Online в назначениях облачных приложений |
+|**Базовый уровень**|[После входа в риска *Средний* или *высокий* требуют многофакторной проверкой Подлинности](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включить Exchange Online в назначении облачных приложений|
+|        |[Блокировать клиенты, не поддерживающие современных проверки подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включить Exchange Online в назначении облачных приложений|
+|        |[Определение политик защиты от приложения](identity-access-policies.md#high-risk-users-must-change-password)|Убедитесь, что Outlook включен в списке приложений. Не забудьте изменить политику для каждой платформы (операций ввода-вывода, Android, Windows)|
+|        |[Требовать одобренных приложений](identity-access-policies.md#require-approved-apps)|Включить Exchange Online в списке облачных приложений|
+|        |[Требовать спецификации ПК](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включить Exchange Online в список облачных приложений|
+|        |[Блокировать ActiveSync клиентов](#block-activesync-clients)|Добавление этой новой политики| 
+|**Конфиденциальный**|[После входа в риска *низкий*, *Средний* или *высокий* требуют многофакторной проверкой Подлинности](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Включить Exchange Online в назначении облачных приложений|
+|         |[Требовать спецификации ПК *и* мобильных устройств.](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включить Exchange Online в списке облачных приложений|
+|**Строго регулируемый уровень**|[*Всегда* требовать многофакторной проверкой Подлинности](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включить Exchange Online в назначении облачных приложений|
 
 ## <a name="block-activesync-clients"></a>Блокировать ActiveSync клиентов
 Эта политика запрещает обход другие правила условного доступа клиентов ActiveSync. Конфигурация правило применяется только к клиентов ActiveSync. Выбрав **требуют утвержденных клиентского приложения**, эта политика блокирует клиентов ActiveSync. Чтобы настроить эту политику.
 
-1. Войдите на [портал Azure](https://portal.azure.com) со своими учетными данными. Вы увидите панель мониторинга Azure.
+1. Перейдите в [Azure портала](https://portal.azure.com)и выполнить вход. После того как вы успешно выполнили вход, вы изучите Azure панели мониторинга.
 
 2. В меню слева выберите **Azure Active Directory**.
 
@@ -59,8 +59,10 @@ ms.locfileid: "26870449"
 
 6. Выберите **Облачные приложения**.
 
-7. Выберите команду **выбрать приложения**, выберите Office 365 Exchange Online. Нажмите кнопку **выбрать** и **сделано**.
+7. Выберите команду **выбрать приложения**, выберите **Office 365 Exchange Online**. Нажмите кнопку **выбрать** и **сделано**.
+
 8. Выберите **условия**, а затем выберите **клиентских приложений**.
+
 9. Для **настройки**нажмите кнопку **Да**. Проверьте следующие: **мобильных приложений и настольных клиентов** и **клиентов Exchange ActiveSync**. Нажмите кнопку **Готово**.
 
 10. Выберите **Предоставление** в разделе **Элементы управления доступом**.

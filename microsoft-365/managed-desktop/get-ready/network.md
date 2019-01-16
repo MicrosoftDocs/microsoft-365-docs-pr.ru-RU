@@ -3,14 +3,14 @@ title: Конфигурация сети для Microsoft Desktop управля
 description: ''
 keywords: Службы Microsoft Desktop управляемых, Microsoft 365, документация
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 3eab9237b177ea76faa1296fec2bfda739c78534
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 88f095706c82736d4c2ebc6a555aa3e384eeca09
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870994"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для Microsoft Desktop управляемых
@@ -45,7 +45,7 @@ ms.locfileid: "26870994"
 Центр обновления Windows для бизнеса (WUfB) | [Центр обновления Windows для бизнес-требований брандмауэра и прокси-сервера](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
 Оптимизация доставки | [Требования к прокси-сервера центра обновления Windows](https://support.microsoft.com/help/3175743/proxy-requirements-for-windows-update)
 Microsoft Store для бизнеса | [Список разрешенных хранилища Майкрософт](https://support.microsoft.com/help/2778122/using-authenticated-proxy-servers-together-with-windows-8)
-Office 365 | [URL-адреса Office 365 IP-адресов и диапазоны](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Office 365 | [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) в том числе \*. apibasic.diagnostics.office.com
 Azure Active Directory | [Identity гибридных необходимые порты и протоколы](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports) и [Active Directory и Active Directory доменных служб требования к портам](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Требования к конфигурации сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
 OneDrive для бизнеса <br> | [Необходимые порты для OneDrive и URL-адресов](https://docs.microsoft.com/onedrive/required-urls-and-ports)
