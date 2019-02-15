@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о некоторых возможных способах поэтапного развертывания базовой инфраструктуры для Microsoft 365 корпоративный.
-ms.openlocfilehash: 5ffe00c9eb975a0f8c2d193a71d8b613e827cc70
-ms.sourcegitcommit: f2eae6ec367f7b69043105d117a2a7e3da4153aa
+ms.openlocfilehash: 909526fb4938c8da142b4f667140f10dda660877
+ms.sourcegitcommit: 6f94b7a272e33c492957336eae28f439e438c85b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29538972"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29993240"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Стратегии развертывания базовой инфраструктуры Microsoft 365 корпоративный
 
@@ -53,7 +53,7 @@ ms.locfileid: "29538972"
 
 ![](./media/deployment-strategies-microsoft-365-enterprise/definitions.png) 
 
-Затенение изображения пользовательского развертывания указывает развертывание в организации от 0 до 100 % с использованием структурного или методичного подхода, например по группам, отделам или областям.
+Затенение изображения пользовательского развертывания указывает процентное значение в организации от 0 до 100 % с использованием структурного или методичного подхода, например по группам, отделам или областям.
 
 ## <a name="deployment-strategies"></a>Стратегии развертывания
 
