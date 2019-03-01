@@ -6,12 +6,12 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/27/2019
-ms.openlocfilehash: 9ce6eca8ffcb243b819c22078c4729df4bc2881e
-ms.sourcegitcommit: e13dafb5d6004aaadd92333e5023ae09e713e3a4
+ms.openlocfilehash: d2b5fe34825d44e71a54a895c3de2455eeeeaee1
+ms.sourcegitcommit: e749e2db2a15bb52b1a2857dbccdf55c31cff3d7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30313784"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340099"
 ---
 # <a name="get-started-using-microsoft-managed-desktop-devices"></a>Начало работы с наСтольными устройствами, управляемыми Майкрософт
 
@@ -20,7 +20,7 @@ ms.locfileid: "30313784"
 При настройке устройства для работы с устройством необходимо выполнить несколько действий. С помощью управляемого рабочего стола Майкрософт рекомендуется начать *работу с* руководством по устройству, как показано ниже. В этом загружаемом руководстве представлены основные инструкции по настройке нового устройства для управления наСтольными компьютерами Майкрософт. Это руководство является базовым для ИТ администраторов. Используйте его как есть, или обновите, чтобы добавить действия или сведения, которые помогут вашим пользователям настроить устройства. 
 
 ## <a name="get-started-guide"></a>Руководство по началу работы 
-Вы можете скачать систему [управления рабочим столом Майкрософт, чтобы начать работу с устройством](https://www.microsoft.com/en-us/download/details.aspx?id=57918) .
+Вы можете скачать руководство: [Managed Desktop (Майкрософт Managed Desktop), чтобы начать работу с устройством](https://www.microsoft.com/en-us/download/details.aspx?id=57918).
 
 ## <a name="what-should-i-update-in-the-get-started-guide"></a>Что нужно обновить в руководстве по началу работы?
 
