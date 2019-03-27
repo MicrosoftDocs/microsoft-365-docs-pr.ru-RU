@@ -1,5 +1,5 @@
 ---
-title: Советы по развертыванию современного компьютера
+title: Справка по развертыванию Windows 10 и Office 365 профессиональный плюс
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -12,19 +12,19 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Где найти справочную информацию и поддержку для развертывания современного компьютера.
-ms.openlocfilehash: 7c6f68320165abdfd131a84e84345bd6ff6d47c1
-ms.sourcegitcommit: 73fb9a7cf1b7b1045a304391ed393acb7b909317
+description: Расположение справочных материалов по развертыванию Windows 10 и Office 365 профессиональный плюс.
+ms.openlocfilehash: 78d231dbcb5f965e2b4233bc7980da31fbfcbc2e
+ms.sourcegitcommit: d38c0ce846bac19e876a03a59ed4f268c7bae389
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27241972"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900258"
 ---
-# <a name="find-help-for-your-modern-desktop-deployment"></a>Советы по развертыванию современного компьютера 
+# <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Справка по развертыванию Windows 10 и Office 365 профессиональный плюс 
 
 Если вы планируете развертывание Windows 10 с помощью Microsoft Office 365 профессиональный плюс, существует несколько вариантов получения дополнительной помощи от сертифицированных партнеров корпорации Майкрософт и [Microsoft FastTrack](https://www.microsoft.com/fasttrack).
 
-Ниже представлена схема имеющихся служб, связанных с процессом [развертывания современного компьютера](http://www.aka.ms/howtoshift) для Windows 10, Office 365 профессиональный плюс и Enterprise Mobility + Security, а также существующие предложения от партнеров и FastTrack. Во многих случаях эти службы включены в состав соответствующей подписки на Microsoft 365, Office 365 или Windows 10 Корпоративная. Для служб под руководством партнера, таких как оценка современного компьютера, Майкрософт предоставляет специальные ваучеры. Больше о каждом предложении можно узнать, перейдя по приведенным ниже ссылкам.
+Ниже представлена схема имеющихся служб, связанных с процессом [развертывания современного компьютера](http://www.aka.ms/howtoshift) для Windows 10, Office 365 профессиональный плюс и Enterprise Mobility + Security, а также существующие предложения от партнеров и FastTrack. Во многих случаях эти службы включены в состав соответствующей подписки на Microsoft 365, Office 365 или Windows 10 Корпоративная. Для служб под руководством партнера, таких как оценка компьютера Windows 10 и Office 365 профессиональный плюс, Майкрософт предоставляет специальные ваучеры. Больше о каждом предложении можно узнать, перейдя по указанным ниже ссылкам.
 
 <br>
 
@@ -102,8 +102,8 @@ ms.locfileid: "27241972"
 
 ## <a name="related-resources"></a>**Связанные ресурсы**
 
-  - [Центр развертывания современных компьютеров](http://www.aka.ms/howtoshift)
+  - [Центр развертывания компьютеров](http://www.aka.ms/howtoshift)
 
-  - [Видеоролики серии "Развертывание современных компьютеров" от Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
+  - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
 
-  - [Комплект для анализа развертывания на современных компьютерах и управления ими](https://aka.ms/howtoshiftlabs)
+  - [Комплект для анализа развертывания компьютеров и управления ими](https://aka.ms/howtoshiftlabs)
