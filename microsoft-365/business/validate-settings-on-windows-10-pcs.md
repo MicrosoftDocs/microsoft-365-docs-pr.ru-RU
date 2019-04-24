@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -17,13 +20,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Сведения о проверке параметров защиты Microsoft 365 Business приложения в устройствах Windows 10.
-ms.openlocfilehash: db05c86bd75cc30e22e025034a3dab478d0f5365
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Узнайте, как проверить параметры защиты Microsoft 365 бизнес-приложений на устройствах с Windows 10.
+ms.openlocfilehash: 5ab91d65fa7bd40ebc118df217c9711b7bbfe7a4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286773"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Проверка параметров защиты устройств на компьютерах с Windows 10
 
@@ -31,27 +34,27 @@ ms.locfileid: "26870606"
 
 [Применение политик для устройств](protection-settings-for-windows-10-pcs.md) пользователей может занять до нескольких часов после их настройки. Чтобы убедиться в их применении, вы можете просмотреть несколько экранов параметров Windows на устройствах пользователей. Так как пользователи не смогут изменять параметры Центра обновления Windows и антивирусной программы "Защитник Windows" на своих устройствах Windows 10, многие из них будут затенены.
   
-1. Перейдите на страницу **Параметры** \> **обновление &amp; безопасности** \> **Windows Update** \> **Параметры перезагрузки** и убедитесь, что все параметры имеют серый. 
+1. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out. 
     
     ![All the Restart options are greyed out.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Перейдите на страницу **Параметры** \> **обновление &amp; безопасности** \> **Windows Update** \> **Дополнительные параметры** и убедитесь, что все параметры имеют серый. 
+2. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out. 
     
     ![Windows Advanced updates options are all greyed out.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
-3. Перейдите на страницу **Параметры** \> **обновление &amp; безопасности** \> **Windows Update** \> **Дополнительные параметры** \> **Выберите способ доставки обновлений**.
+3. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.
     
     Убедитесь в том, что красное сообщение "Некоторые параметры скрыты, или ими управляет ваша организация" отображается и все параметры затенены.
     
     ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
-4. Чтобы открыть центр безопасности Защитника Windows, перейдите в раздел **Параметры** \> **обновление &amp; безопасности** \> **Защитник Windows** \> нажмите кнопку **Открыть центр безопасности Защитник Windows** \> **от вирусов &amp; потока Защита** \> **вирус &amp; угроз параметры защиты**. 
+4. To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**. 
     
 5. Убедитесь в том, что все параметры затенены. 
     
     ![The Virus and threat protection settings are greyed out.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
-## <a name="related-topics"></a>См. также:
+## <a name="related-topics"></a>Статьи по теме
 
 [Документы и ресурсы по Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
   

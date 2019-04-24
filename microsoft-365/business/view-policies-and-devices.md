@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Просмотр политик устройств и действия с вход с использованием Microsoft 365 для бизнеса с credintials глобального администратора.
-ms.openlocfilehash: 0018abc6dcf2163dc50c6c792793c9f5d9e29d45
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Просмотр политик и действий устройств путем входа в Microsoft 365 Business с глобальным администратором крединтиалс.
+ms.openlocfilehash: 524e5382fb242ea6b77abd72191073ce4df14f0c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285833"
 ---
 # <a name="view-policies-and-devices"></a>Просмотр политик и устройств
 
@@ -29,7 +32,7 @@ ms.locfileid: "26870439"
 
 1. Войдите в [Microsoft 365 Business](https://portal.office.com) с учетными данными глобального администратора. 
     
-2. В центре администрирования на карточке **политики устройств** выберите **политики устройств** , чтобы открыть страницу **политики устройств** . 
+2. В левой панели навигации выберите пункт **** \> **политики** \> устройств **Добавить**.
     
     На этой странице можно создавать, редактировать и удалять политики, а также изменять целевые группы.
     
@@ -39,7 +42,7 @@ ms.locfileid: "26870439"
 
 1. Войдите в [Microsoft 365 Business](https://portal.office.com) с учетными данными глобального администратора. 
     
-2. В центре администрирования на карточке **действия устройств** выберите **устройство действия** , откройте страницу **действия устройства** . 
+2. In the admin center, on the **Device actions** card, choose **Device actions** to open the **Device actions** page. 
     
     На этой странице можно выбрать одно или несколько устройств и удалить корпоративные данные. Для устройств с Windows 10, для которых уже настроены параметры защиты, также можно восстановить заводские параметры.
     

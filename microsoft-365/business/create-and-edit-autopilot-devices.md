@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Узнайте, как отправка устройств с помощью автопилот в Microsoft 365 Business. Можно назначить профиль устройство или группу устройств.
-ms.openlocfilehash: cc1f81e9efd9b16e27b8abfbb0927d241535077e
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Сведения о том, как отправлять устройства с помощью автоПилота в Microsoft 365 Business. Вы можете назначить профиль устройству или группе устройств.
+ms.openlocfilehash: fff2dbc6af45ef9d4189f23849d638172c19dfb2
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277059"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Создание и изменение устройств AutoPilot
 
@@ -37,16 +40,14 @@ ms.locfileid: "26870688"
 - Windows 10 версии 1703 или более поздней;
     
 - новые устройства, на которых еще не был пройден этап запуска Windows при первом включении.
-    
-1. В Центре администрирования Office 365 бизнес в карточке **Действия устройств** выберите пункт **Развертывание Windows с помощью AutoPilot**. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+
+1. в центре администрирования Microsoft 365 Business выберите элемент **устройства** \> **автопилот** \> **Add**.
   
-2. На странице **Подготовка Windows** откройте вкладку **устройств** \> **Добавить устройств**.
+2. On the **Prepare Windows** page, choose the **Devices** tab \> **Add devices**.
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. На панели **устройств добавить** Обзор, чтобы [список устройств CSV-файла](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) , в котором вы подготовили \> **Сохранить** \> **Закрыть**.
+3. На панели **Add Devices (Добавление устройств** ) перейдите к [списку устройств CSV-файл](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) , для \> которого подготовлено **Сохранение** \> , **Закрыть**.
     
     Эту информацию можно получить у поставщика оборудования или с помощью [сценария PowerShell с именем Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo), который создаст CSV-файл. 
     

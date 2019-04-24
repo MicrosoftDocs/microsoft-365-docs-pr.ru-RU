@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Сведения о проверке параметров защиты Microsoft 365 Business приложения в устройствах Windows 10.
-ms.openlocfilehash: f00dd380103ad9498d77b0e8814bace3de168df4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Узнайте, как проверить параметры защиты Microsoft 365 бизнес-приложений на устройствах с Windows 10.
+ms.openlocfilehash: 4f1f0993dff0ef8d3f6858a3749e063c7b5579c7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280018"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Проверка параметров защиты приложений на компьютерах с Windows 10
 
@@ -57,11 +60,11 @@ ms.locfileid: "26870846"
 
  **Проверка параметров подключения**
   
-1. На устройстве личных Windows 10, где вы вошли в качестве локального пользователя, перейдите в раздел **Windows Параметры** и нажмите кнопку коснитесь **учетные записи** \> **доступа к работе и в школе**.
+1. On your Windows 10 personal device where you are logged in as a local user, go to **Windows Settings** and click or tap **Accounts** \> **Access work or school**.
     
 2. На странице **Доступ к учетной записи места работы или учебного заведения** выберите команду **Подключить**.
     
-3. Введите ваше Microsoft 365 Business учетных данных в **Настройка рабочего или в диалоговом окне учетная запись школа** \> **Вход**.
+3. Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.
     
 4. На странице **Доступ к учетной записи места работы или учебного заведения** выберите элемент **Рабочая или учебная учетная запись** и нажмите кнопку **Сведения**.
     

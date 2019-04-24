@@ -1,57 +1,63 @@
 ---
-title: Конфигурация сети для Microsoft Desktop управляемых
+title: Конфигурация сети для наСтольного компьютера, управляемого Майкрософт
 description: ''
-keywords: Службы Microsoft Desktop управляемых, Microsoft 365, документация
+keywords: НаСтольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 88f095706c82736d4c2ebc6a555aa3e384eeca09
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: f4cfaffe25638de80d23c3e681e50cbb544ca961
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289104"
 ---
-#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для Microsoft Desktop управляемых
+#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для наСтольного компьютера, управляемого Майкрософт
 
 <!--Proxy config -->
 
 
-## <a name="proxy-configuration"></a>Конфигурации прокси-сервера
+## <a name="proxy-configuration"></a>Настройка прокси-сервера
 
-Рабочий стол управляемых Microsoft — это служба управляемых в облаке. Существует набор конечных точек, которые Microsoft Desktop управляемых служб необходимо иметь возможность связаться. Когда пользователи Настройка прокси-сервера или брандмауэра, они только разрешить сетевой трафик от определенных доменов в целях безопасности. В этом разделе перечислены конечных точек, которые должны быть разрешен. 
+Рабочий стол, управляемый корпорацией Майкрософт, — это облачная служба. Существует набор конечных точек, которые должны быть доступны для служб наСтольных компьютеров, управляемых корпорацией Майкрософт. В этом разделе перечислены конечные точки, которые необходимо разрешить для различных аспектов службы управляемых рабочих столов Майкрософт. 
 
-### <a name="proxy-requirement"></a>Требование к прокси-сервера
+Клиенты могут оптимизировать свою сеть, отправив все доверенные сетевые запросы Microsoft 365 напрямую через брандмауэр/прокси-сервер, обходя проверку подлинности и все дополнительные проверки или обработку пакетов. Это сокращает время задержки и требования к мощности периметра. 
 
-Прокси-сервера или брандмауэра должна поддерживать TLS 1.2. В противном случае может потребоваться отключение протокола обнаружения.
+Кроме того, для оптимизации производительности управляемых облачных служб для наСтольных компьютеров с помощью этих конечных точек требуется специальная обработка в клиентских браузерах клиентов и устройствах в пограничной сети. К этим устройствам относятся брандмауэры, средства проверки и перехвата пакетов, устройства проверки пакетов и системы защиты от потери данных.
 
-### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Конечные точки разрешена - определенного рабочего стола управляемых Microsoft
+### <a name="proxy-requirement"></a>Требование прокси-сервера
 
-Эти URL-адреса, необходимо в список разрешенных, чтобы Microsoft Desktop управляемых устройств можно общаться с помощью служб Microsoft.
+Прокси-сервер или брандмауэр должен поддерживать TLS 1,2. В противном случае пользователям может потребоваться отключить обнаружение протокола.
 
-Службы Microsoft  | URL-адреса требуется на белый список 
+### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Разрешенные конечные точки — специфичные для компьютера, управляемого корпорацией Майкрософт
+
+На рабочем столе Майкрософт используется портал Azure для размещения веб-консоли. Следующие URL-адреса в приведенной ниже таблице должны находиться в списке разрешенных прокси-серверов и брандмауэре, чтобы устройства, управляемые корпорацией Майкрософт, могли общаться со службами Майкрософт.  
+
+Обратите внимание, что ниже указан URL-адрес управляемого рабочего стола Майкрософт для всех служб, выполняемых в API клиента. Клиенты должны убедиться в том, что этот URL-адрес всегда доступен в корпоративной сети.
+
+Служба Майкрософт  | Для белого списка требуются URL-адреса 
 --- | --- | ---
-Получение справки | \*. support.services.microsoft.com  <br>inprod.support.Services.Microsoft.com  <br>supportchannels.Services.Microsoft.com  <br>Graph.Windows.NET  <br>Login.Windows.NET  <br>производственного mwaas-services-customerapi.azurewebsites.net
-"Быстрая поддержка" | remoteassistance.support.Services.Microsoft.com <br>Relay.support.Services.Microsoft.com <br>channelwebsdks.azureedge.NET  <br>Web.vortex.Data.Microsoft.com  <br>Gateway.ChannelServices.Microsoft.com <br>\*. lync.com
+Рабочий стол, управляемый корпорацией Майкрософт | PROD-mwaas-Services-customerapi.azurewebsites.NET
+Получение справки | \*. support.Services.Microsoft.com  <br>inprod.support.Services.Microsoft.com  <br>supportchannels.Services.Microsoft.com  <br>Graph.Windows.NET  <br>Login.Windows.NET  <br>PROD-mwaas-Services-customerapi.azurewebsites.NET
+Быстрая помощь | remoteassistance.support.Services.Microsoft.com <br>Relay.support.Services.Microsoft.com <br>channelwebsdks.azureedge.NET  <br>Web.Vortex.Data.Microsoft.com  <br>Gateway.ChannelServices.Microsoft.com <br>\*. Lync.com
+Помощник по поддержке и восстановлению Майкрософт для Office 365 | \*. apibasic.Diagnostics.Office.com  <br>\*. API.Diagnostics.Office.com
  
 
-### <a name="endpoints-allowed---other-microsoft-products"></a>Конечные точки разрешена - другими продуктами корпорации Майкрософт
+### <a name="endpoints-allowed---other-microsoft-products"></a>Разрешенные конечные точки — другие продукты Майкрософт
 
-Существует URL-адреса из нескольких продуктов Майкрософт, которые должны быть в списке разрешенных, чтобы Microsoft Desktop управляемых устройств можно общаться с помощью этих служб Microsoft. Используйте ссылки, чтобы для полного списка для каждого продукта. 
+Есть URL-адреса от нескольких продуктов Майкрософт, которые должны быть включены в список разрешенных, чтобы устройства, управляемые корпорацией Майкрософт, могли общаться с этими службами Майкрософт. Воспользуйтесь ссылками, чтобы просмотреть полный список для каждого продукта. 
 
-Службы Microsoft | Документация источника — URL-адреса требуется на белый список
+Служба Майкрософт | Источник документации: URL-адреса, необходимые в списке разрешений
 --- | ---
-Центр обновления Windows для бизнеса (WUfB) | [Центр обновления Windows для бизнес-требований брандмауэра и прокси-сервера](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
-Оптимизация доставки | [Требования к прокси-сервера центра обновления Windows](https://support.microsoft.com/help/3175743/proxy-requirements-for-windows-update)
-Microsoft Store для бизнеса | [Список разрешенных хранилища Майкрософт](https://support.microsoft.com/help/2778122/using-authenticated-proxy-servers-together-with-windows-8)
-Office 365 | [Office 365 URL-адреса и диапазоны IP-адресов](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) в том числе \*. apibasic.diagnostics.office.com
-Azure Active Directory | [Identity гибридных необходимые порты и протоколы](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports) и [Active Directory и Active Directory доменных служб требования к портам](https://aka.ms/AA26ygm) 
-Microsoft Intune | [Требования к конфигурации сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
-OneDrive для бизнеса <br> | [Необходимые порты для OneDrive и URL-адресов](https://docs.microsoft.com/onedrive/required-urls-and-ports)
-Защитник Windows Advanced защиту от угроз (ATP) | [Конечные точки ATP Защитника Windows](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection)
-SharePoint Online  | [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#bkmk_teams)
-Power BI | [OneNote](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)
+Оптимизация доставки | [Настройка оптимизации доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
+Office 365 | [Диапазоны IP-адресов и URL-адреса для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портАм доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
+Microsoft Intune | [Требования к настройке сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
+Advanced Threat Protection в Защитнике Windows (ATP) | [Конечные точки пакета ATP для защитника Windows] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
+)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

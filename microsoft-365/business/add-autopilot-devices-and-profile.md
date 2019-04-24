@@ -6,6 +6,9 @@ manager: scotv
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 localization_priority: Normal
 ms.custom:
 - Core_O365Admin_Migration
@@ -16,19 +19,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Сведения об использовании Windows автопилот для настройки нового устройства Windows 10 для бизнеса.
-ms.openlocfilehash: 56225424125e9eed9f46867837c564aa5d1c4adc
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Узнайте, как использовать автоПилот Windows для настройки новых устройств с Windows 10 для бизнеса.
+ms.openlocfilehash: e0802ddcc0964d0b8d102f7dbdb9116b33cdcf58
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277158"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
 Решение Windows AutoPilot позволяет настраивать новые устройства с Windows 10, чтобы они были готовы к работе сразу после выдачи сотрудникам.
   
-## <a name="device-requirements"></a>Требования к устройствам
+## <a name="device-requirements"></a>Требования к устройству
 
 Устройства должны отвечать следующим требованиям:
   
@@ -48,7 +51,7 @@ ms.locfileid: "26870437"
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. На странице **загрузки CSV-файл с список устройств,** перейдите к расположения, где у вас есть подготовленной. CSV-файл, затем **Откройте** \> **Далее**. Файл должен иметь три верхних колонтитула:
+3. On the **Upload .csv file with list of devices** page, browse to a locations where you have the prepared .CSV file, then **Open** \> **Next**. The file should have three headers:
     
   - Столбец A: Device Serial Number (Серийный номер устройства)
     

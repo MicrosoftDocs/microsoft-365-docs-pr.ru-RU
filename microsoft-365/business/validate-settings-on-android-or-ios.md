@@ -1,5 +1,5 @@
 ---
-title: Проверка параметров защиты приложения на устройствах Android или операций ввода-вывода
+title: Проверка параметров защиты приложений на устройствах с Android или iOS
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,16 +19,16 @@ search.appverid:
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
 description: 'Learn how to validate the Microsoft 365 Business app protection settings in your Android or iOS devices.  '
-ms.openlocfilehash: 300f59e81a93cc3dfc03fd1d98891be1ac4f7795
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 5ab16d481bd11ec31a1387a7e94d8b08bb3e0abe
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26871017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287422"
 ---
-# <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Проверка параметров защиты приложения на устройствах Android или операций ввода-вывода
+# <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Проверка параметров защиты приложений на устройствах с Android или iOS
 
-Следуйте инструкциям на вкладках, чтобы проверить параметры защиты приложения на устройствах Android или операций ввода-вывода.
+Следуйте инструкциям на вкладках, чтобы проверить параметры защиты приложений на устройствах с Android или iOS.
   
 ## <a name="androidtab"></a>[Android](#tab/)
   
@@ -116,7 +119,7 @@ ms.locfileid: "26871017"
     
     ![An encrypted image file in the Gallery app.](media/25936414-bd7e-421d-824e-6e59b877722d.png)
   
-## <a name="iostab"></a>[операций ввода-вывода](#tab/)
+## <a name="iostab"></a>[iOS](#tab/)
   
 ### <a name="check-that-the-app-protection-settings-are-working-on-user-devices"></a>Проверка работоспособности параметров защиты приложений на пользовательских устройствах
 

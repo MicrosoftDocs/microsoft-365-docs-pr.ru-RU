@@ -8,11 +8,11 @@ ms.localizationpriority: normal
 ms.date: 03/07/2019
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 5c820e36b7b397fe770216ee229e38a1da5b034d
-ms.sourcegitcommit: aba6d1b81e4c579e82e6fad90daec65d775b450a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30573423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289000"
 ---
 # <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Установка Microsoft Project или Microsoft Visio на наСтольных устройствах, управляемых Майкрософт
 
@@ -46,7 +46,7 @@ Microsoft — Office — проект и Visio — установка | Поль
 После назначения этим группам приложения будут доступны на портале компании. Синхронизация может занять несколько минут, но пользователи могут установить приложения с корпоративного портала. 
 
 ## <a name="communicate-changes"></a>Сообщить об изменениях
-ИТ администраторам важно, чтобы пользователи могли узнать, как установить Project и Visio. Это достигается за счет следующего: 
+ИТ администраторам важно, чтобы пользователи могли узнать, как установить Project и Visio. Это включает: 
 - Уведомление пользователей о доступности этих приложений. 
 - Инструкции по установке этих приложений с корпоративного портала.
 

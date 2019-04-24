@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Узнайте, как настраивать Windows устройств под управлением Windows 10 Pro для пользователей Microsoft 365 для бизнеса. '
-ms.openlocfilehash: 482199b175c568bfae420619aa02024303894789
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для Microsoft 365 Business Users. '
+ms.openlocfilehash: f93257bd9a68385fca4f178a2e09c5c11506ee2c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284421"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business
 
@@ -33,7 +36,7 @@ ms.locfileid: "26870652"
   
 Дополнительные сведения о переводе устройств с Windows на версию Windows 10 Pro Creators Update приведены в следующей статье: [Обновление устройств с Windows до Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md)
   
-Чтобы проверить, выполнено ли обновление и работает ли оно, ознакомьтесь со статьей [Проверка перевода устройства на Windows 10 для бизнеса](set-up-windows-devices.md#bkmk_verifywin10). 
+Ознакомьтесь со статьей убедитесь, что [устройство подключено к Azure AD](#verify-the-device-is-connected-to-azure-ad) , чтобы проверить, что у вас есть обновление, или чтобы убедиться в том, что обновление работало. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Добавление устройств с Windows 10 в каталог Azure AD организации
 
@@ -51,7 +54,7 @@ ms.locfileid: "26870652"
     
 3. Завершите настройку Windows 10 на устройстве.
     
-   После завершения этой процедуры пользователь будет добавлен в каталог Azure AD организации. Чтобы проверить, так ли это, ознакомьтесь со статьей [Проверка подключения устройства к Azure AD](set-up-windows-devices.md#bkmk_verifyaad). 
+   После завершения этой процедуры пользователь будет добавлен в каталог Azure AD организации. Чтобы проверить, так ли это, ознакомьтесь со статьей [Проверка подключения устройства к Azure AD](#verify-the-device-is-connected-to-azure-ad). 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Для устройства, на котором уже установлена и настроена система Windows 10 Pro
 
@@ -73,13 +76,13 @@ ms.locfileid: "26870652"
   
    ![Click Join this device to Azure Active Directory](media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
-5. На странице **давайте вы вход** введите свою учетную запись рабочего или школы \> **Далее**.
+5. On the **Let's get you signed in** page, enter your work or school account \> **Next**.
   
-   На странице **Введите пароль** введите пароль \> **Вход**.
+   On the **Enter password** page, enter your password \> **Sign in**.
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. На ** убедитесь, что это организации ** страницы, проверьте правильность информации и нажмите кнопку **присоединиться**.
+6. Убедитесь, что на странице **ваша организация** указана правильная информация, и нажмите кнопку присоединиться ****.
   
    На странице **Готово!** нажмите кнопку **Готово**.
   

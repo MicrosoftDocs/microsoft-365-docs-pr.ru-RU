@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Описание по умолчанию и другие параметры, доступные в Microsoft Business 365 для обеспечения безопасности устройств Windows 10.
-ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Узнайте о том, как использовать по умолчанию и другие параметры, доступные в Microsoft 365 Business для защиты устройств с Windows 10.
+ms.openlocfilehash: f9e890cde7a8290a9a8e81720d32a6a2889c312f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285934"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Настройка параметров защиты устройств для компьютеров с Windows 10
 
@@ -31,23 +34,21 @@ ms.locfileid: "26870435"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. Войдите в [Microsoft 365 Business](https://portal.office.com) с учетными данными глобального администратора. 
+1. Войдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=837890) с учетными данными глобального администратора. 
     
-2. В центре администрирования на карточке **Политики устройств** выберите команду **Добавить политику**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. В левой панели навигации выберите пункт **** \> **политики** \> устройств **Добавить**.
   
 3. На панели **Добавить политику** введите уникальное имя политики. 
     
 4. В поле **Тип политики** выберите **Конфигурация устройства с Windows 10**.
     
-5. Разверните узел **Безопасность устройств Windows 10** \> настройте параметры, как вы. Для получения дополнительных сведений см. [Доступные параметры](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) . 
+5. Expand **Secure Windows 10 Devices** \> configure the settings how you would like. See [Available settings](#available-settings) for more information. 
     
     Вы всегда можете вернуться к значениям по умолчанию с помощью ссылки **Восстановление параметров по умолчанию**. 
     
     ![Add policy pane with Windows 10 Device configuration selected](media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
-6. Далее решить **пользователей, которые получит эти параметры?** Если вы не хотите использовать группы безопасности **всех пользователей** по умолчанию, выбрать **Изменение**поиск для группы пользователей, которые получит эти параметры \> **выберите**.
+6. Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.
     
 7. Нажмите кнопку **Готово**, чтобы сохранить политику и назначить ее устройствам. 
     

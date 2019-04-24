@@ -7,6 +7,7 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,13 +17,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Сведения для управления Microsoft 365 Business связанные задачи администрирования, мобильных устройств, Windows 10PCs и многих задач.
-ms.openlocfilehash: 280bff9f12a884e6a19e26feea5d8a339297a434
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Узнайте, как управлять задачами администрирования, связанными с Microsoft 365 Business, мобильными устройствами, Windows 10PCs и многими подобными задачами.
+ms.openlocfilehash: 993db51ec487237395ca57290e37a6c5edbce8b8
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278582"
 ---
 # <a name="manage-microsoft-365-business"></a>Управление Microsoft 365 Business
 
@@ -32,7 +33,7 @@ ms.locfileid: "26870542"
     
 - [Просмотр политик и устройств](view-policies-and-devices.md)
     
-- [Функции обеспечения безопасности Microsoft 365 для бизнеса](security-features.md)
+- [Функции Microsoft 365 Business Security](security-features.md)
     
 - [Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune](map-protection-features-to-intune-settings.md)
     
@@ -44,7 +45,7 @@ ms.locfileid: "26870542"
     
 - [Настройка параметров защиты приложений для устройств с Android и iOS](app-protection-settings-for-android-and-ios.md)
     
-    В разделе [Параметры защиты Validate приложения для Android или операций ввода-вывода устройства](validate-settings-on-android-or-ios.md) , чтобы убедитесь, что это работает. 
+    Убедитесь, что [Параметры защиты приложений на устройстве с Android или iOS](validate-settings-on-android-or-ios.md) работают. 
     
 - [Удаление данных организации с устройств](remove-company-data.md)
     
@@ -90,9 +91,9 @@ ms.locfileid: "26870542"
     
 - [Настройка Microsoft 365 бизнес с помощью мастера](set-up.md)
     
-- [Миграция на Microsoft 365 бизнес](migrate-to-microsoft-365-business.md)
+- [Переход на Microsoft 365 Бизнес](migrate-to-microsoft-365-business.md)
     
-- [Включение присоединенный к домену устройств Windows 10 для управления Microsoft 365 для бизнеса](manage-windows-devices.md)
+- [Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business](manage-windows-devices.md)
     
 [Дополнительные функции безопасности](security-features.md#additional-security-features)
     

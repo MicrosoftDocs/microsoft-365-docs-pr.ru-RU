@@ -10,17 +10,17 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
-ms.openlocfilehash: 0e758884c063aaa82b5c7fc55051925376f8688b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 38d349fb17303ac9e9979ae9a58682e01578b70a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283481"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Документация и ресурсы по продукту "Microsoft 365 корпоративный"</h1>
-        <P>Сведения о планировании, развертывании и совместного использования Microsoft Office 365, Windows 10 и мобильных устройств предприятия + безопасности в вашей организации. Эти службы обеспечивают интегрированные и безопасной инфраструктуры, которая позволяет командную и разблокирует творческие.</p>
+        <P>Узнайте, как планировать, развертывать и использовать Microsoft Office 365, Windows 10 и Enterprise Mobility + Security вместе в вашей организации. Эти службы предоставляют интегрированную и безопасную инфраструктуру, позволяющую работать с обработами и разблокировками.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -39,9 +39,9 @@ ms.locfileid: "26870444"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Изучение</h3>
+                                                <h3>Обзор</h3>
                                                 <P><a href="microsoft-365-overview.md" target="_blank">Обзор</a></p>
-                                                <P><a href="https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources" target="_blank">Архитектура модели</a></p>
+                                                <P><a href="https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources" target="_blank">Модели архитектуры</a></p>
                                                 <P><a href="http://Microsoft365.com/it" target="_blank">Microsoft 365 для ИТ</a></p>
                                             </div>
                                         </div>
@@ -61,7 +61,7 @@ ms.locfileid: "26870444"
                                                 <h3>Развертывание</h3>
                                                 <P><a href="https://www.microsoft.com/fasttrack/microsoft-365" target="_blank">FastTrack</a></p>
                                                 <P><a href="deploy-microsoft-365-enterprise.md" target="_blank">Руководство по развертыванию</a></p>
-                                                <P><a href="https://aka.ms/howtoshift" target="_blank">Современный развертывание настольных систем</a></p>
+                                                <P><a href="https://aka.ms/howtoshift" target="_blank">Развертывание современного рабочего стола</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -77,10 +77,10 @@ ms.locfileid: "26870444"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Управление безопасностью &amp; соответствия требованиям</h3>
+                                                <h3>Управление соответствием требованиям безопасности &amp;</h3>
                                                 <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">Решения для соответствия требованиям</a></p>
-                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Безопасность Office 365 &amp; соответствия требованиям</a></p>
-                                                <P><a href="microsoft-365-policies-configurations.md" target="_blank">Удостоверение &amp; доступа устройств</a></p>
+                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Соответствие требованиям безопасности &amp; Office 365</a></p>
+                                                <P><a href="microsoft-365-policies-configurations.md" target="_blank">Доступ &amp; к устройству удостоверения</a></p>
                                                 <P><a href="https://docs.microsoft.com/windows/security/threat-protection/index" target="_blank">ATP в Защитнике Windows</a></p>
                                             </div>
                                         </div>
@@ -97,10 +97,11 @@ ms.locfileid: "26870444"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Обучение пользователей</h3>
+                                                <h3>Обучение администраторов _Амп_ пользователей</h3>
+                                                <P><a href="https://docs.microsoft.com/learn/browse/?products=m365" target="_blank">Microsoft 365</a></p>
                                                 <P><a href="https://support.office.com/office-training-center" target="_blank">Office 365</a></p>
-                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Windows 10</a></p>
-                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune &amp; приложения портала компании</a></p>
+                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Windows 10</a></p>
+                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Приложение &amp; корпоративного портала Intune</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +117,7 @@ ms.locfileid: "26870444"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Управление Office 365</h3>
+                                                <h3>Управление Office 365</h3>
                                                 <P><a href="https://docs.microsoft.com/office365/enterprise/" target="_blank">Office 365 корпоративный</a></p>
                                                 <P><a href="https://support.office.com/office365admin" target="_blank">Office 365 бизнес</a></p>
                                                 <P><a href="https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus" target="_blank">Office 365 профессиональный плюс</a></p>
@@ -135,11 +136,11 @@ ms.locfileid: "26870444"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Управление корпоративной мобильности + безопасности</h3>
+                                                <h3>Управление мобильностью и обеспечение безопасности в корпоративной среде</h3>
                                                 <P><a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security" target="_blank">Microsoft Cloud App Security</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune/index" target="_blank">Microsoft Intune</a></p>                              <P><a href="https://docs.microsoft.com/azure/active-directory" target="_blank">Azure Active Directory</a></p>
                                                 <P><a href="https://docs.microsoft.com/azure/information-protection/" target="_blank">Azure Information Protection</a></p>
-                                                <P><a href="https://docs.microsoft.com/azure-advanced-threat-protection/" target="_blank">Azure расширенной защитой</a></p>
+                                                <P><a href="https://docs.microsoft.com/azure-advanced-threat-protection/" target="_blank">Расширенная защита от угроз Azure</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -160,7 +161,7 @@ ms.locfileid: "26870444"
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>Разработка для Microsoft 365</h3>
-                                                        <P><a href="https://developer.microsoft.com/office" target="_blank">Центр разработчиков Office 365</a></p>
+                                                        <P><a href="https://developer.microsoft.com/office" target="_blank">Центр разработки для Office 365</a></p>
                                                         <P><a href="https://developer.microsoft.com/windows/enterprise" target="_blank">Центр разработки для Windows</a></p>
                                                         <P><a href="https://developer.microsoft.com/graph" target="_blank">Microsoft Graph</a></p>
                                                     </div>
@@ -179,7 +180,7 @@ ms.locfileid: "26870444"
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>Другие продукты Microsoft 365</h3>
-                                                        <P><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank">Microsoft 365 бизнес</a></p>
+                                                        <P><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank">Microsoft 365 бизнес</a></p>
                                                         <P><a href="https://docs.microsoft.com/education/" target="_blank">Microsoft 365 для образования</a></p>
                                                     </div>
                                                 </div>
@@ -196,10 +197,10 @@ ms.locfileid: "26870444"
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
-                                                        <h3>Требуется поддержка?</h3>
+                                                        <h3>Нужна поддержка?</h3>
                                                         <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
                                                         <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
-                                                        <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
+                                                        <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
                                                     </div>
                                                 </div>
                                             </div>

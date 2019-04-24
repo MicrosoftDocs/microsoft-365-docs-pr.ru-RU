@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Office 365 профессиональный плюс для Microsoft 365 корпоративный.
-ms.openlocfilehash: 3f6630d4c120609cbb1737ad96644d43eb2fda3c
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: c4fc3805dd2ea97e1a9797e5adfc31ab83f028ae
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290954"
 ---
 # <a name="phase-4-office-365-proplus"></a>Этап 4. Office 365 профессиональный плюс
 
@@ -62,7 +62,7 @@ Office 365 профессиональный плюс делает возможн
 
 После оценки среды следуйте инструкциям из статьи [Планирование развертывания Office 365 профессиональный плюс](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus), чтобы создать план развертывания. Этот план включает следующие решения: 
 
-- способ развертывания Office, в том числе используемое средство (например, System Center Configuration Manger или средство развертывания Office) и источник, из которого устанавливается Office;
+- Как развернуть Office, в том числе какое средство использовать (например, System Center Configuration Manager или средство развертывания Office) и откуда установить Office
 - способ управления обновлениями Office;
 - используемые каналы обновления (каналы обновления Office определяют, как часто пользователи получают обновления функций своих приложений Office);
 - установочные пакеты и группы развертывания Office, которые требуется использовать, в том числе приложения Office и языки, которые требуется установить для тех или иных пользователей.
@@ -89,7 +89,6 @@ Office 365 профессиональный плюс делает возможн
 
 Узнайте, как специалисты корпорации Майкрософт спланировали и развернули Office 365 профессиональный плюс в Microsoft 365 корпоративный, из следующих ресурсов:
 
-- [Подготовка организации к простому развертыванию Office 365 профессиональный плюс 2016](https://www.microsoft.com/itshowcase/Office365adoption)
 - [Развертывание и обновление Microsoft Office 365 профессиональный плюс](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Автоматизация и каналы обновления упрощают развертывание Microsoft Office 365 профессиональный плюс](https://www.microsoft.com/itshowcase/Article/Content/794/Automation-and-update-channels-help-deploy-Microsoft-Office-365-ProPlus) (видео)
 

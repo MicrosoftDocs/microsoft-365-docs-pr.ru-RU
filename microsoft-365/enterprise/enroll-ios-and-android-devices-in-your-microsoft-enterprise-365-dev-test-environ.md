@@ -1,5 +1,5 @@
 ---
-title: Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 корпоративный
+title: Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -8,76 +8,76 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
-description: В этом документе Test Lab Guide используйте для регистрации устройств в тестовой среде Microsoft 365 и удаленного управления.
-ms.openlocfilehash: a78db19099ccacd1b2f62e8438d1749f28d22f52
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Используйте это руководство по лаборатории тестирования для регистрации устройств в тестовой среде Microsoft 365 и удаленного управления ими.
+ms.openlocfilehash: e653b3e6cafb6ee2eb492709a2d060c7b92a6904
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281256"
 ---
-# <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 корпоративный
+# <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise
 
-Выполнив инструкции, приведенные в этой статье, вы сможете регистрация и проверка возможности управления базовой мобильного устройства для iOS и Android в тестовой среде Microsoft 365 для предприятия.
+Следуя инструкциям, приведенным в этой статье, вы сможете регистрировать и тестировать базовые возможности управления мобильными устройствами для устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise.
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
 
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1: Создание масштабирование тестовой среды Microsoft 365 для предприятия
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1: создание тестовой среды Microsoft 365 Enterprise
 
-Если необходимо зарегистрировать iOS и Android в облегченный путь с минимальным требованиям, следуйте инструкциям в [упрощенной базовой конфигурации](lightweight-base-configuration-microsoft-365-enterprise.md).
+Если вы хотите, чтобы вы просто зарегистрировали устройства iOS и Android в упрощенном виде с минимальными требованиями, следуйте инструкциям в [упрощенной базовой конфигурации](lightweight-base-configuration-microsoft-365-enterprise.md).
   
-Если необходимо зарегистрировать iOS и Android в имитации enterprise, следуйте инструкциям в [сквозная проверка подлинности](pass-through-auth-m365-ent-test-environment.md).
+Если вы хотите зарегистрировать устройства с iOS и Android на имитации предприятия, следуйте инструкциям в сквозной [проверке](pass-through-auth-m365-ent-test-environment.md)подлинности.
   
 > [!NOTE]
-> Тестирование автоматизирована лицензирования и членства в группе не требуется тестовой среды имитации предприятия, включающая имитации интрасети, подключенных к Интернету и синхронизации каталогов для леса Windows Server AD. Предоставляется здесь как вариант, чтобы проверка автоматической лицензирования и членство в группах и экспериментировать с его в среде, которая представляет типичное организации. 
+> Для тестирования автоматического лицензирования и членства в группах не требуется имитация тестовой среды предприятия, которая включает имитируемую интрасеть, подключенную к Интернету и синхронизацию каталогов, для леса доменных служб Active Directory (AD DS). Он предоставляется в качестве параметра, чтобы можно было протестировать автоматизированное членство и членство в группах и поэкспериментировать с ним в среде, представляющей типичную организацию. 
 >  
 
-## <a name="phase-2-enroll-your-ios-and-android-devices"></a>Этап 2: Регистрация операций ввода-вывода и Android
+## <a name="phase-2-enroll-your-ios-and-android-devices"></a>Этап 2: регистрация устройств с iOS и Android
 
-Во-первых, используйте инструкции в [установки и войдите в приложение портала компании](https://docs.microsoft.com/intune-user-help/install-and-sign-in-to-the-intune-company-portal-app-ios) для настройки приложения портала компании Майкрософт Intune для тестовой среды.
+Сначала выполните инструкции в разделе [install и войдите в приложение корпоративного портала](https://docs.microsoft.com/intune-user-help/install-and-sign-in-to-the-intune-company-portal-app-ios) , чтобы настроить приложение корпоративного портала Microsoft Intune для тестовой среды.
 
-Затем используйте инструкции из статьи [Настройка доступа к ресурсам компании](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) для подачи заявок на устройстве операций ввода-вывода.
+Затем воспользуйтесь инструкциями в статье [Настройка доступа к ресурсам компании](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-ios) , чтобы зарегистрировать устройство для iOS.
 
-Затем используйте инструкции из статьи [Заявка Android устройство в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android) возможность зачисления Android устройства.
+Затем используйте инструкции, приведенные в статье [Регистрация устройства Android в Intune](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-android) , чтобы зарегистрировать устройство с Android.
 
-## <a name="phase-3-manage-your-ios-and-android-devices-remotely"></a>Этап 3: IOS и Android удаленного управления
+## <a name="phase-3-manage-your-ios-and-android-devices-remotely"></a>Этап 3: удаленное управление устройствами iOS и Android
 
-Microsoft Intune предоставляет удаленного блокировки и код связи для сброса возможности. Если кто-то теряет свои устройства, можно заблокировать устройство удаленно. Если кто-то забудет их код связи, ее можно восстановить удаленно.
+Microsoft Intune предоставляет возможности удаленной блокировки и сброса секретного кода. Если пользователь потеряет свое устройство, вы можете заблокировать это устройство удаленно. Если кто-то забыл свой секретный код, его можно сбросить в удаленном режиме.
   
-Чтобы заблокировать операций ввода-вывода или Android устройство удаленно:
+Чтобы удаленно заблокировать устройство iOS или Android:
 
-1. Войдите в портал Azure в [https://portal.azure.com](https://portal.azure.com) с использованием учетных данных учетной записи глобального администратора.
-2. Выберите **все службы**, введите **Intune**и нажмите кнопку **Intune**.
-3. Нажмите кнопку **устройства > все устройства**.
-4. В списке устройств нажмите кнопку операций ввода-вывода или Android устройства и нажмите кнопку действие **удаленного блокировки** .
+1. Войдите на портал Azure по адресу [https://portal.azure.com](https://portal.azure.com) , используя учетные данные глобального администратора.
+2. Выберите **все службы**, введите **Intune**, а затем щелкните **Intune**.
+3. Нажмите кнопку **Devices _Гт_ All Devices (устройства**).
+4. В списке устройств выберите устройство iOS или Android, а затем щелкните действие **Remote Lock** .
 
     
 Чтобы удаленно сбросить секретный код, сделайте следующее:
 
-1. При необходимости, войдите в портал Azure в [https://portal.azure.com](https://portal.azure.com) с использованием учетных данных учетной записи глобального администратора.
-2. Выберите **все службы**, введите **Intune**и нажмите кнопку **Intune**.
-3. Нажмите кнопку **устройства > все устройства**.
-4. В списке устройств, управление, щелкните операций ввода-вывода или Android устройство и выберите **... Дополнительные**. Выберите действие удаленных устройств **Удалить секретный код** .
+1. При необходимости войдите на портал Azure по адресу [https://portal.azure.com](https://portal.azure.com) , используя учетные данные глобального администратора.
+2. Выберите **все службы**, введите **Intune**, а затем щелкните **Intune**.
+3. Нажмите кнопку **Devices _Гт_ All Devices (устройства**).
+4. В списке управляемых устройств щелкните устройство iOS или Android и выберите **... Дополнительные сведения**. Затем выберите Удаленное действие **удалить секретный код** устройства.
 
-Дополнительные экспериментов в разделе [действия из доступных устройств](https://docs.microsoft.com/intune/device-management#available-device-actions).
+Дополнительные эксперименты приведены в разделе [Доступные действия устройств](https://docs.microsoft.com/intune/device-management#available-device-actions).
 
     
 ## <a name="next-step"></a>Следующее действие
 
-Изучите дополнительное [Управление мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) функций и возможностей в тестовой среде.
+Узнайте о дополнительных возможностях и возможностях [управления мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) в тестовой среде.
 
 ## <a name="see-also"></a>См. также
 
 [Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
   
-[Политики соответствия устройства для вашего предприятия 365 Microsoft тестовой среды](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+[Политики соответствия требованиям устройств для тестовой среды Microsoft 365 корпоративный](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
   
 [Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
 
-[Мобильные решения на предприятиях + безопасности (Командной)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
+[Enterprise Mobility + Security (EMS)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)

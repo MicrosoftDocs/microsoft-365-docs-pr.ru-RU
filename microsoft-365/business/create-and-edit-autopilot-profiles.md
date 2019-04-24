@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: 'Научитесь создание, изменение, удаление и удалять профили автопилот. '
-ms.openlocfilehash: 4658a27e5f2c64a52f8a7d08b3fc13df5e239dc3
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'Узнайте, как создавать, редактировать, удалять и удалять профили автоПилота. '
+ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277167"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Создание и изменение профилей AutoPilot
 
@@ -32,11 +35,9 @@ ms.locfileid: "26870743"
 
 Профиль относится к устройству или группе устройств.
   
-1. В Центре администрирования Office 365 бизнес в карточке **Действия устройств** выберите пункт **Развертывание Windows с помощью AutoPilot**. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. в центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.
   
-2. На странице **Подготовка Windows** перейдите на вкладку **Профили** \> **Создать профиль**.
+2. На странице **автопилот** выберите \> вкладку **Профили** **Создание профиля**.
     
 3. На странице **Создание профиля** введите имя профиля, по которому его можно будет определять, например "Маркетинг", выберите нужные параметры (дополнительные сведения см. в статье [Сведения о параметрах профиля AutoPilot](autopilot-profile-settings.md)) и нажмите кнопку **Сохранить**.
     
@@ -48,7 +49,7 @@ ms.locfileid: "26870743"
   
 1. На странице **Подготовка Windows** перейдите на вкладку **Устройства**. 
     
-2. Выберите флажок рядом с именем устройств и панели **устройства** , выберите профиль из раскрывающегося списка **профилей назначено** \> **Сохранить**.
+2. Click the check-box next to a device name and in the **Device** panel, choose a profile from the **Assigned profile** drop-down \> **Save**.
     
     ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -60,7 +61,7 @@ ms.locfileid: "26870743"
 
 1. На странице **Подготовка Windows** перейдите на вкладку **Профили**. 
     
-2. Установите флажок рядом с именем устройства и в **профиль** панель обновите все доступные параметры \> **Сохранить**.
+2. Click the check-box next to a device name and in the **Profile** panel update any of the available settings \> **Save**.
     
     Если сделать это до того, как устройство подключится к Интернету, профиль будет применен в процессе настройки.
     
@@ -68,7 +69,7 @@ ms.locfileid: "26870743"
 
 1. На странице **Подготовка Windows** перейдите на вкладку **Профили**. 
     
-2. Установите флажок рядом с именем устройств и панели **профилей** нажмите кнопку **Удалить профиль** \> **Сохранить**.
+2. Click the check-box next to a device name and in the **Profile** panel click **Delete profile** \> **Save**.
     
     При удалении профиля он перестает действовать для устройства или группы устройств, которым он был назначен.
     
@@ -76,5 +77,5 @@ ms.locfileid: "26870743"
 
 1. На странице **Подготовка Windows** перейдите на вкладку **Устройства**. 
     
-2. Нажмите кнопку флажок рядом с именем устройств и панели **устройства** , выберите **Нет** из раскрывающегося списка **профилей назначено** \> **Сохранить**.
+2. Click the check-box next to a device name and in the **Device** panel, choose a **None** from the **Assigned profile** drop-down \> **Save**.
     
