@@ -1,20 +1,21 @@
 ---
-title: Часто задаваемые вопросы
+title: Вопросы и ответы
 description: ''
-keywords: Службы Microsoft Desktop управляемых, Microsoft 365, документация
+keywords: НаСтольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 9d48ed471856c01daa381725d2d269cc2efbeb00
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: efb6710c73223b21a7fabf73132526a721a73e7c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289047"
 ---
-# <a name="faq-for-microsoft-managed-desktop"></a><span data-ttu-id="abba4-103">Вопросы и ответы по Microsoft управляемого рабочего стола</span><span class="sxs-lookup"><span data-stu-id="abba4-103">FAQ for Microsoft Managed Desktop</span></span>
+# <a name="faq-for-microsoft-managed-desktop"></a><span data-ttu-id="d7c09-103">ВОПРОСЫ и ответы для компьютеров, управляемых Майкрософт</span><span class="sxs-lookup"><span data-stu-id="d7c09-103">FAQ for Microsoft Managed Desktop</span></span>
 
-## <a name="coming-soon"></a><span data-ttu-id="abba4-104">Скоро</span><span class="sxs-lookup"><span data-stu-id="abba4-104">COMING SOON</span></span>
+## <a name="coming-soon"></a><span data-ttu-id="d7c09-104">Скоро</span><span class="sxs-lookup"><span data-stu-id="d7c09-104">COMING SOON</span></span>
 
-<span data-ttu-id="abba4-p101">На этой странице в ближайшее время. Свяжитесь с нами.</span><span class="sxs-lookup"><span data-stu-id="abba4-p101">This page is coming soon. Please check back with us.</span></span>
+<span data-ttu-id="d7c09-105">Эта страница скоро появится.</span><span class="sxs-lookup"><span data-stu-id="d7c09-105">This page is coming soon.</span></span> <span data-ttu-id="d7c09-106">Ознакомьтесь с нами.</span><span class="sxs-lookup"><span data-stu-id="d7c09-106">Please check back with us.</span></span>
