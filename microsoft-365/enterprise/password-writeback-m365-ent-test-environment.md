@@ -3,7 +3,7 @@ title: Обратная запись пароля для тестовой сре
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/16/2019
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
-ms.openlocfilehash: 11a0efbae09c36098a19725187cd43b53850f4fc
-ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
+ms.openlocfilehash: e2ccbe251c4e62790331b949f163816f789436cb
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291454"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "31901223"
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
   
-## <a name="phase-1-configure-password-hash-synchronization-and-password-reset-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей и сброса паролей для тестовой среды Microsoft 365
+## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
 Сначала выполните инструкции из статьи [Синхронизация хэша паролей](password-hash-sync-m365-ent-test-environment.md). Ниже показана итоговая конфигурация.
   
@@ -50,10 +50,6 @@ ms.locfileid: "31901223"
 - Пробные или платные подписки на Office 365 E5 и EMS E5.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
 - Azure AD Connect работает на APP1 для синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
-
-Затем выполните инструкции [этапа 2 по сбросу пароля](password-reset-m365-ent-test-environment.md#phase-2-configure-and-test-password-reset) из руководства по лаборатории тестирования.
-
-Чтобы использовать обратную запись пароля, необходимо включить сброс пароля.
 
 ## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>Этап 2. Включение обратной записи паролей для домена AD DS TESTLAB
 

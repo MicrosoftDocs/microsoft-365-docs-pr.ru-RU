@@ -2,20 +2,19 @@
 title: Контрольный список готовности к подотчетности для Office 365 в рамках GDPR
 description: Этот контрольный список готовности к подотчетности (ARC) содержит сведения, необходимые для соблюдения требований GDPR при использовании Office 365.
 keywords: Готовность к подотчетности GDPR, контрольный список готовности к подотчетности, Microsoft 365, Microsoft 365 для образования, документация по GDPR, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
-manager: bcarter
+ms.author: heicba
+manager: laurawi
 ms.collection: GDPR
-ms.openlocfilehash: 3fe44b99f33db852d5115295662a2556c3efdee6
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 8c789b233a3fd10745ef718a190d45ec1126e189
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26871042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286537"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Контрольный список готовности к подотчетности для Microsoft Office 365
 

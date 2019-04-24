@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Если у вас уже есть инфраструктура, проверьте условия, необходимые для развертывания Microsoft 365 корпоративный.
-ms.openlocfilehash: 6ade8282e72d18dac78f08ce386dbdf102184ebe
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 7087094bc52196b2002e3b9c657335cc92af51cb
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289670"
 ---
 # <a name="deployment-of-microsoft-365-enterprise-with-existing-infrastructure"></a>Развертывание Microsoft 365 корпоративный в существующей инфраструктуре
 
