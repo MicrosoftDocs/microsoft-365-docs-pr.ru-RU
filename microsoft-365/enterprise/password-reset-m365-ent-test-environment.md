@@ -3,25 +3,25 @@ title: Сброс пароля для тестовой среды Microsoft 365
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/30/2018
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom:
 - TLGS
 - Ent_TLGs
 ms.assetid: ''
 description: 'Сводка: сведения о том, как настроить и проверить сброс пароля для тестовой среды Microsoft 365.'
-ms.openlocfilehash: a90cb362a2831bf0bcf3fe05932e3a4345d52b2e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f5fc8d68493464d6b4a6ffdcda64ed9a0d8c7cdd
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26871021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289470"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Сброс пароля для тестовой среды Microsoft 365
 
@@ -29,26 +29,30 @@ ms.locfileid: "26871021"
 
 В этой статье описано, как настроить и проверить сброс паролей в тестовой среде Microsoft 365 в два этапа:
 
-1.  Создание тестовой среды с синхронизацией хэшей паролей для имитации корпоративной среды Microsoft 365.
+1.  Создайте среду тестирования Microsoft 365 корпоративный.
 2.  Настройте и проверьте сброс паролей для учетной записи "Пользователь 2".
     
 ![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
-  
-## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
-Следуйте инструкциям в статье [Синхронизация хэша паролей для Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Ниже показана итоговая конфигурация.
+## <a name="phase-1-configure-password-hash-synchronization-and-password-writebback-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей и обратной записи паролей для тестовой среды Microsoft 365
+
+Сначала выполните инструкции из статьи [Синхронизация хэша паролей](password-hash-sync-m365-ent-test-environment.md). Ниже показана итоговая конфигурация.
   
-![Смоделированная организация с тестовой средой сквозной проверки подлинности](media/pass-through-auth-m365-ent-test-environment/Phase2.png)
+![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
-Конфигурация состоит из следующих компонентов: 
+Конфигурация состоит из следующих компонентов:  
   
-- Пробные или постоянные подписки на Office 365 E5 и EMS E5.
+- Пробные или платные подписки на Office 365 E5 и EMS E5.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для синхронизации домена Windows Server AD TESTLAB с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
+- Azure AD Connect работает на APP1 для синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
 
+Затем выполните инструкции [этапа 2 по обратной записи пароля](password-writeback-m365-ent-test-environment.md#phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain) из руководства по лаборатории тестирования.
+
+Чтобы использовать сброс пароля, необходимо включить обратную запись пароля.
+  
 ## <a name="phase-2-configure-and-test-password-reset"></a>Этап 2. Настройка и проверка сброса паролей
 
 На этом этапе настраивается и проверяется сброс паролей в клиенте Azure AD благодаря членству в группе.
@@ -75,9 +79,9 @@ ms.locfileid: "26871021"
 6. Войдите в учетную запись "Пользователь 2", введите символы CAPTCHA, нажмите кнопку **Далее**.
 8. Для параметра **Шаг проверки 1** укажите **Письмо на запасной адрес электронной почты** и выберите **Почта**. Когда получите такое сообщение, введите проверочный код и нажмите кнопку **Далее**.
 9. В разделе **Возвращение в учетную запись** введите новый пароль для учетной записи "Пользователь 2" и нажмите кнопку **Готово**. Запишите измененный пароль для учетной записи "Пользователь 2" и сохраните в безопасном расположении.
-10. На отдельной вкладке того же браузера перейдите к [https://portal.office.com](https://portal.office.com), а затем выполните вход, используя новый пароль и имя учетной записи "Пользователь 2". Откроется страница **Домашняя страница Microsoft Office**.
+10. На отдельной вкладке того же браузера перейдите к [https://office.com](https://office.com), а затем выполните вход, используя новый пароль и имя учетной записи "Пользователь 2". Откроется страница **Домашняя страница Microsoft Office**.
 
-Информацию и ссылки для настройки сброса паролей в рабочей среде вы найдете в описании шага [Простой сброс паролей](identity-password-reset.md) этапа "Идентификация".
+Информацию и ссылки для настройки сброса паролей в рабочей среде вы найдете в описании шага [Простой сброс паролей](identity-password-reset.md#identity-pw-reset) этапа "Идентификация".
 
 ## <a name="next-step"></a>Следующий шаг
 

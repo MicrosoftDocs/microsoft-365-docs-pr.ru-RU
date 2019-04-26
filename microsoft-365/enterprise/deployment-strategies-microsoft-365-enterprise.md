@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: Сведения о некоторых возможных способах поэтапного развертывания базовой инфраструктуры для Microsoft 365 корпоративный.
 ms.openlocfilehash: fb4cf301f1e450cd5db9b392c0ca2d8e3767242a
-ms.sourcegitcommit: e749e2db2a15bb52b1a2857dbccdf55c31cff3d7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289576"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Стратегии развертывания базовой инфраструктуры Microsoft 365 корпоративный
 
