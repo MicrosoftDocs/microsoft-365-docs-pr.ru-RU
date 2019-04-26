@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте о возможностях развертывания ОС и обновления компонентов.
-ms.openlocfilehash: 6aae2fb39937bec1eebfdc11e403f3835cb895cd
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: b860a56ba2ed163311a8a92d8dd408dcb8983821
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290105"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Шаг 6. Обновления компонентов и развертывание ОС
-
-Узнайте о возможностях и подготовьтесь к развертыванию операционной системы путем создания образа и применения обновления с помощью System Center Configuration Manager или Microsoft Deployment Toolkit.
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
 
@@ -36,7 +34,7 @@ ms.locfileid: "26870734"
 </table>
 
 >[!NOTE]
->Обновления компонентов и развертывание ОС указаны в описании шестого этапа из рекомендуемой серии статей о процессе развертывания, который охватывает развертывание и обновление ОС Windows 10, а также обновления компонентов. Чтобы просмотреть полный процесс развертывания на компьютере, посетите [центр развертывания на современных компьютерах](https://aka.ms/HowToShift).
+>Обновления компонентов и развертывание ОС — шестой этап рекомендуемого нами процесса развертывания, который охватывает развертывание и обновление ОС Windows 10, а также обновления компонентов. Полный процесс развертывания для настольных ПК описан в статье [Центр развертывания компьютеров](https://aka.ms/HowToShift).
 >
 
 Если вы до настоящего момента следовали инструкциям из серии статей о процессе развертывания, то по крайней мере частично выполнили шаги, касающиеся подготовки устройства и приложения, подготовили инфраструктуру, настроили и собрали пакеты приложений, разработали план переноса файлов пользователей и настройки параметров по умолчанию, а также разработали планы для сохранения существующих средств контроля безопасности и, возможно, развертывания новых.
@@ -109,7 +107,7 @@ ms.locfileid: "26870734"
 
 ### <a name="windows-autopilot"></a>Windows Autopilot
 
-Новая возможность Windows 10 — настройка новых компьютеров в рамках цикла обновления оборудования с помощью Windows Autopilot. В данном случае можно согласовать с поставщиками оборудования, поддерживающими Windows Autopilot, настройку стандартной установки Windows (например, отменить показ пользователям некоторых элементов, таких как лицензионные соглашения и параметры телеметрии).
+Новая возможность Windows 10 — настройка новых компьютеров в рамках цикла обновления оборудования с помощью Windows Autopilot. В данном случае можно согласовать с поставщиками оборудования, поддерживающими Windows Autopilot, настройку стандартной установки Windows (например, отменить показ пользователям некоторых элементов, таких как лицензионные соглашения и параметры диагностических данных).
 
 Когда пользователь во время установки войдет в систему компьютера, указав свои учетные данные Azure AD, устройство зарегистрируется в Microsoft Intune, после чего уже Microsoft Intune продолжит развертывание, применит конфигурации обновления приложений и программного обеспечения, а также политики соответствия требованиям. При необходимости Windows Autopilot может запретить пользователю доступ к первому сеансу, пока не будет завершена подготовка.
 
@@ -117,10 +115,22 @@ ms.locfileid: "26870734"
 
 [Обязательные условия для Windows Autopilot](https://docs.microsoft.com/ru-RU/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
 
-## <a name="next-step"></a>Следующий шаг 
+## <a name="windows-update-for-business-for-feature-updates"></a>Центр обновления Windows для бизнеса для обновления компонентов
 
-## <a name="step-7-windows-and-office-as-a-servicehttpsakamsmdd7"></a>[Шаг 7. Windows и Office как услуга](https://aka.ms/mdd7)
+Центр обновления Windows для бизнеса — это бесплатная служба, которая позволяет ИТ-специалистам обеспечивать актуальность Windows 10 на устройствах, напрямую подключая их к Центру обновления Windows. Центр обновления Windows для бизнеса можно настроить с помощью групповой политики или через решение MDM, например Microsoft Intune, а ИТ-специалисты могут создать [круги развертывания](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-deployment-rings-windows-10-updates) для проверки новых сборок. Эта служба интегрирована в такие средства управления, как Windows Server Update Services (WSUS), System Center Configuration Manager (Current Branch) и Microsoft Intune. Кроме того, Центр обновления Windows для бизнеса поддерживает доставку между одноранговыми узлами, что помогает оптимизировать пропускную способность и снизить загруженность сети.
 
-## <a name="previous-step"></a>Предыдущий шаг
+Дополнительные сведения о Центре обновления Windows для бизнеса см. в указанных ниже статьях.
+
+- [Развертывание обновлений с помощью Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-manage-updates-wufb)
+- [Настройка Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-configure-wufb)
+- [Интеграция Центра обновления Windows для бизнеса с существующими средствами управления](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-integrate-wufb)
+- [Использование групповой политики для настройки Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-wufb-group-policy)
+- [Использование Microsoft Intune для настройки Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/intune/windows-update-for-business-configure)
+
+## <a name="next-step"></a>Следующий этап 
+
+## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[Этап 7. Обслуживание Windows и Office](https://aka.ms/mdd7)
+
+## <a name="previous-step"></a>Предыдущий этап
 
 ## <a name="step-5-security-and-compliance-considerationshttpsakamsmdd5"></a>[Шаг 5. Вопросы по безопасности и соответствию требованиям](https://aka.ms/mdd5)
