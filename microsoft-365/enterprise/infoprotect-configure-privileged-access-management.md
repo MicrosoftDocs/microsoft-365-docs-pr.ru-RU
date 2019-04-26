@@ -1,5 +1,5 @@
 ---
-title: Шаг 4. Настройка управления привилегированным доступом для Office 365
+title: 'Шаг 6: Настройка управления привилегированным доступом для Office 365'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: В этой статье рассказывается, как настроить управление привилегированным доступом для Office 365.
-ms.openlocfilehash: 297d8e042c2a22c93b4ea566081d258e7ca0a5ab
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 60b52825ead068cd0f068f78c1bbce263e8d7720
+ms.sourcegitcommit: 9d4319a015e493fb88c7e1855bca0121654eb39d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286952"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304159"
 ---
-# <a name="step-4-configure-privileged-access-management-for-office-365"></a>Шаг 4. Настройка управления привилегированным доступом для Office 365
+# <a name="step-6-configure-privileged-access-management-for-office-365"></a>Шаг 6: Настройка управления привилегированным доступом для Office 365
 
 *Этот шаг необязательный; он применяется только к планам E5 и Advanced Compliance Microsoft 365 корпоративный.*
 
@@ -43,7 +43,7 @@ ms.locfileid: "32286952"
 
 Результат — это повышение безопасности Office 365 путем включения своевременного управления доступом для ключевых данных и параметров конфигурации вашей организации.
 
-Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step5), при выполнении которых можно считать данный шаг завершенным.
+Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step6), при выполнении которых можно считать данный шаг завершенным.
 
 ## <a name="next-step"></a>Следующий шаг
 
