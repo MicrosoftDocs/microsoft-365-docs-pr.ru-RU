@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: 24aacc1a992e2dfdc683e5e4c4405b105eea7bf5
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a206924e7056d0213dd0721c2259736a031f80d6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291316"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353210"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 Enterprise
 
@@ -64,13 +64,17 @@ Microsoft 365 корпоративный доступен в трех плана
 
 ## <a name="deploying"></a>Внедрение
 
-Существует два способа развертывания продуктов, компонентов и компонентов Microsoft 365 Enterprise:
+Существует три способа развертывания продуктов, компонентов и компонентов Microsoft 365 Enterprise:
 
 1. В связи с FastTrack
   
-   С помощью FastTrack специалисты корпорации Майкрософт помогают вам перейти в облако в собственном темпе. [Сведения о FastTrack для Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
+   С помощью FastTrack специалисты корпорации Майкрософт помогают вам перейти в облако в собственном темпе. См. [FastTrack для Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
   
-2. Самостоятельное выполнение
+2. С помощью консультационной службы Майкрософт или [партнера корпорации Майкрософт](https://partner.microsoft.com/).
+
+   Консультанты могут проанализировать текущую инфраструктуру и помочь вам разработать план внедрения всех программного обеспечения и служб Microsoft 365 Enterprise.
+
+3. Самостоятельное выполнение
 
    [Руководство по развертыванию Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md) позволяет пошаговое руководство по созданию рабочих нагрузок инфраструктуры и продуктивности. 
 
@@ -108,7 +112,7 @@ Microsoft 365 корпоративный доступен в трех плана
 
 ## <a name="next-step"></a>Следующее действие
 
-Начните [путешествие по развертыванию Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md).
+Если вы выполняете развертывание самостоятельно, запустите [развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md).
 
 ## <a name="see-also"></a>См. также
 

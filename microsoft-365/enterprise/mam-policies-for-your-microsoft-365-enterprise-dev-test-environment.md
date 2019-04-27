@@ -12,12 +12,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для добавления политик соответствия требованиям к устройствам Intune в тестовую среду Microsoft 365 Enterprise.
-ms.openlocfilehash: 5b587bd702071f325310ebd9979cf611f20e3205
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d20b050bfc56776656bf1d485b2e107a9debe2f7
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279067"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353191"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Политики соответствия требованиям устройств для тестовой среды Microsoft 365 корпоративный
 
@@ -42,7 +42,7 @@ ms.locfileid: "32279067"
 
 На этом этапе создается политика соответствия требованиям устройств для устройств с Windows 10.
   
-1. Перейдите на портал Office по адресу[https://office.com](https://office.com)() и войдите в пробную подПиску на Office 365 с помощью учетной записи глобального администратора.
+1. Перейдите на портал Office 365 по адресу[https://portal.office.com](https://portal.office.com)() и войдите в свою подписку на тестовую лаборатория Office 365 с помощью учетной записи глобального администратора.
     
 2. На новой вкладке браузера откройте портал Azure по адресу [https://portal.azure.com](https://portal.azure.com).
 

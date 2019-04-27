@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для включения дополнительных параметров безопасности Microsoft 365 для тестовой среды Microsoft 365 Enterprise.
-ms.openlocfilehash: 54e05122dcbe5d4e24f092536897f2a8ad449e05
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 583d815d9f413df8aeb5ec7abaf68cf79a6cc8b9
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283659"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353121"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Повышенная безопасность Microsoft 365 для тестовой среды Microsoft 365 корпоративный
 
@@ -46,16 +46,15 @@ ms.locfileid: "32283659"
 
 Приложения, не поддерживающие современные проверки подлинности, не могут иметь примененные к ним [конфигурации удостоверений и доступа](microsoft-365-policies-configurations.md) к устройствам, которые являются важным элементом защиты подписки Microsoft 365 и ее цифровых активов. 
 
-1. Перейдите на портал Office ([https://office.com](https://office.com)) и войдите в пробную подписку на Office 365 с помощью учетной записи глобального администратора.
+1. Перейдите в центр администрирования Microsoft 365 ([https://portal.microsoft.com](https://portal.microsoft.com)) и войдите в свою подписку на тестовую лаборатория Office 365 с помощью учетной записи глобального администратора.
     
   - Если вы используете упрощенную тестовую среду Microsoft 365, войдите с локального компьютера.
     
   - Если вы используете имитируемую тестовую среду Microsoft 365, используйте [портал Azure](https://portal.azure.com) , чтобы подключиться к ВИРТУАЛЬНОЙ машине CLIENT1, а затем выполните вход с компьютера CLIENT1.
  
-2. На вкладке **центра администрирования Microsoft 365** щелкните элемент **Администратор**.
-3. На новой вкладке **центра администрирования Microsoft 365** выберите пункт **центры администрирования _гт_ SharePoint**.
-4. На вкладке Новая **центр администрирования SharePoint** выберите **Управление доступом**.
-5. В разделе **приложения, для которых не поддерживается современная проверка**подлинности, выберите пункт **блокировать**, а затем нажмите кнопку **ОК**.
+2. На новой вкладке **центра администрирования Microsoft 365** выберите пункт **центры администрирования _гт_ SharePoint**.
+3. На вкладке Новая **центр администрирования SharePoint** выберите **Управление доступом**.
+4. В разделе **приложения, для которых не поддерживается современная проверка**подлинности, выберите пункт **блокировать**, а затем нажмите кнопку **ОК**.
 
 
 ### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>Включение расширенной защиты от угроз для SharePoint, OneDrive для бизнеса и Microsoft Teams
@@ -68,7 +67,7 @@ Office 365 Advanced Threat protection (ATP) для SharePoint, OneDrive и Micro
 
 3. Выберите **включить ATP для SharePoint, OneDrive и Microsoft Teams**.
 
-4. Нажмите кнопку **Сохранить**.
+4. Нажмите кнопку **Сохранить **.
 
 
 ### <a name="enable-anti-malware"></a>Включение защиты от вредоносных программ
@@ -86,20 +85,15 @@ Office 365 Advanced Threat protection (ATP) для SharePoint, OneDrive и Micro
 4. В разделе **общий фильтр типов вложений**нажмите кнопку **_Гт_ Save (сохранить**).
 
 
-## <a name="phase-3-examine-office-365-security-tools-and-logs"></a>Этап 3: изучение журналов и средств безопасности Office 365
-
-На этом этапе вы проучите встроенные службы, которые сообщают о событиях безопасности и измеряют общий уровень безопасности.
-
-### <a name="threat-management-dashboard"></a>Панель мониторинга управления угрозами
+## <a name="phase-3-examine-the-threat-management-dashboard"></a>Этап 3: Проверка панели мониторинга управления угрозами
 
 Управление угрозами Office 365 помогает управлять доступом мобильных устройств к данным вашей организации, защитить организацию от потери данных и защищать входящие и исходящие сообщения от вредоносных программ и спама. Кроме того, управление угрозами используется для защиты репутации домена и определения того, являются ли отправители неумышленно подложными учетными записями из вашего домена. Дополнительные сведения см в разделе [Управление угрозами в центре безопасности Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/threat-management).
 
-
-### <a name="office-365-cloud-app-security-dashboard"></a>Панель мониторинга Cloud App Security для Office 365
-
-Office 365 Cloud App Security (предыдущее название — расширенное управление безопасностью Office 365) позволяет создавать политики, которые отслеживают подозрительные действия в вашей подписке на Office 365 и сообщают вам о них, чтобы вы могли исследовать и исправить проблему. Дополнительные сведения можно найти в статье [Обзор Office 365 Cloud App Security](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview).
-
 <!--
+### Office 365 Cloud App Security dashboard
+
+Office 365 Cloud App Security, previously known as Office 365 Advanced Security Management, allows you to create policies that monitor for and inform you of suspicious activities in your Office 365 subscription, so that you can investigate and take possible remediation action. For more information, see [Overview of Office 365 Cloud App Security](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview).
+
 ### Microsoft 365 Secure Score
 
 1. Create a new tab in your browser and go to the [Microsoft 365 security center](https://security.microsoft.com/), and then click **Secure score**.
