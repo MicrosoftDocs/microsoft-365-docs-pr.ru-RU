@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Узнайте, как обновить устройства Windows до обновления Windows 10 Pro Creators. '
-ms.openlocfilehash: ec1ef0462cc1ba1cd1ae01ee28795096097e01a9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 13a964b19b1fbd43e9c255a90161ca6b48099305
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279872"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33399981"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Обновление устройств с Windows до Windows Pro Creators Update
 
@@ -37,6 +37,9 @@ ms.locfileid: "32279872"
      - Создание установочного носителя с помощью [средства создания мультимедиа](https://go.microsoft.com/fwlink/?LinkID=836960) — выберите этот параметр, чтобы создать Windows 10 Pro Creators Update (USB-устройство флэш-памяти или ISO-файл), чтобы установить Windows 10 на компьютер, отличный от того, который вы используете.
     
         а. Ознакомьтесь с инструкциями по использованию средства и созданием установочного носителя. 
+
+> [!Note]
+> Если у вас есть устройства с Windows, работающие под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8,1 Pro, ваша подписка на Microsoft 365 бизнес дает право на обновление до Windows 10 — вам не требуется ключ продукта.
     
 Чтобы завершить настройку устройств с Windows 10, ознакомьтесь со статьей [Настройка устройств Windows для Microsoft 365 бизнес-пользователей](set-up-windows-devices.md) . 
   

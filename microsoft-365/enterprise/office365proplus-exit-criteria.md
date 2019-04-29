@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для инфраструктуры Office 365 профессиональный плюс.
 ms.openlocfilehash: c9a2afeae8d28170f4e8a15531a08e6b94cb48c2
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291077"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33399993"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Условия, при выполнении которых можно считать развертывание Office 365 профессиональный плюс завершенным
 
