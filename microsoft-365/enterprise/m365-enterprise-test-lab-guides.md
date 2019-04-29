@@ -3,24 +3,24 @@ title: Руководства по лаборатории тестировани
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2018
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 корпоративный.
-ms.openlocfilehash: df723647748532936e40bbdb4e34ff698b9fa650
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 007fac786e7676d219d7e82c435e37fe3c3221df
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870939"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353148"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 корпоративный
 
@@ -41,23 +41,23 @@ ms.locfileid: "26870939"
 
 - Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный только в облачной среде, которая не включает каких-либо локальных компонентов.
 
-- Используйте [базовую конфигурацию "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный в гибридной облачной среде, которая использует локальные компоненты, такие как домен Windows Server Active Directory (AD).
+- Используйте [базовую конфигурацию "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный в гибридной облачной среде, содержащей локальные компоненты такие как домен доменных служб Active Directory (AD DS).
     
-## <a name="identity"></a>Идентификация
+## <a name="identity"></a>Удостоверение
 
 Функции и возможности, связанные с идентификацией, продемонстрированы в следующих статьях:
 
 - [Синхронизация хэшей паролей](password-hash-sync-m365-ent-test-environment.md)
   
-   Включение и проверка синхронизации службы каталогов на основе хэша пароля из контроллера домена Windows Server AD.
+   Включение и тестирование синхронизации службы каталогов на основе хэша пароля из контроллера домена доменных служб Active Directory (AD DS).
 
 - [Сквозная проверка подлинности](pass-through-auth-m365-ent-test-environment.md)
   
-   Включение и проверка сквозной проверки подлинности на контроллер домена Windows Server AD.
+   Включение и тестирование сквозной проверки подлинности на контроллере домена AD DS.
 
 - [Простой единый вход Azure AD](single-sign-on-m365-ent-test-environment.md)
   
-   Обеспечение и проверка простого единого входа Azure AD с использованием контроллера домена Windows Server AD.
+   Включение и тестирование простого единого входа (SSO) Azure AD с контроллером домена AD DS.
 
 - [Многофакторная проверка подлинности](multi-factor-authentication-microsoft-365-test-environment.md)
   
@@ -65,7 +65,11 @@ ms.locfileid: "26870939"
 
 - [Защита учетных записей глобальных администраторов](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   Блокировка учетных записей глобального администратора с помощью Office 365 Cloud App Security и политик условного доступа.
+   Блокирование учетных записей глобальных администраторов с помощью политик условного доступа.
+
+- [Обратная запись пароля](password-writeback-m365-ent-test-environment.md)
+
+   Смена пароля учетной записи пользователя AD DS из Azure AD с помощью обратной записи пароля.
 
 - [Сброс пароля](password-reset-m365-ent-test-environment.md)
 
@@ -79,13 +83,18 @@ ms.locfileid: "26870939"
 
    Проверка текущих учетных записей пользователей на уязвимости.
 
+- [Доступ к удостоверениям и устройствам](identity-device-access-m365-test-environment.md)
+
+   Создание среды для тестирования рекомендуемых конфигураций доступа к удостоверениям и устройствам и политик условного доступа.
+
+
 ## <a name="mobile-device-management"></a>Управление мобильными устройствами
 
 Функции и возможности, связанные с управлением мобильными устройствами, продемонстрированы в следующих статьях:
 
-- [Политики MAM](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+- [Политики соответствия требованиям для устройств](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
     
-   Создание групп пользователей и политик управления мобильными приложениями (MAM) для устройств с iOS и Android.
+   Создайте группу пользователей и политику соответствия требованиям для устройств Windows 10.
     
 - [Регистрация устройств с iOS и Android](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
    
@@ -104,12 +113,10 @@ ms.locfileid: "26870939"
     
    Настройка и присвоение метки Office 365 документу на сайте группы SharePoint Online.
     
-- [Управление привилегированным доступом для вашей тестовой среды Microsoft 365 корпоративный](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
+- [Управление привилегированным доступом](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
    Настройка управления привилегированным доступом для своевременного доступа к задачам, требующим привилегий и разрешений повышенного уровня, в вашей организации Office 365.
 
 ## <a name="see-also"></a>См. также
 
-[Знакомство с Microsoft Cloud при помощи руководств по лаборатории тестирования для внедрения облачных технологий](https://mva.microsoft.com/training-courses/experience-the-microsoft-cloud-with-cloud-adoption-test-lab-guides-17960?l=LXNRdhSLE_1000115881)
-    
-[Схема руководств по лаборатории тестирования для One Microsoft Cloud](http://aka.ms/catlgstack)
+[Тестирование Office 365 с помощью руководств по лабораторному тестированию для внедрения в облако](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)

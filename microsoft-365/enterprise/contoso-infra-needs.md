@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано о базовой структуре локальной ИТ-инфраструктуры компании Contoso и о том, как можно удовлетворить потребности компании с помощью Microsoft 365 корпоративный.
-ms.openlocfilehash: b507d1a44edc0b31b2ac5a3f949ecd8a72913311
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a4a86c56f956361e58730f328ef940a627370ea6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870550"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353140"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -126,8 +126,8 @@ ms.locfileid: "26870550"
 |  | Повышение уровня креативности и инноваций | Windows Ink, Кортана на рабочем месте, PowerPoint |
 | Безопасность |  |  |
 |  | Управление удостоверениями и доступом | Выделенные учетные записи глобальных администраторов с многофакторной проверкой подлинности (MFA) и Azure AD Privileged Identity Management (PIM) <BR> Многофакторная проверка подлинности для всех учетных записей пользователей <BR> Условный доступ <BR> Windows Hello <BR> Credential Guard в Защитнике Windows |
-|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Расширенная защита от угроз <BR> Office 365 Advanced Threat Protection <BR> Office 365 Threat Intelligence <BR> |
-|  | Защита информации | Azure Information Protection (AIP) <BR> Защита от потери данных в Office `365 (DLP) <BR> Windows Information Protection <BR> Microsoft Cloud App Security <BR> Office 365 Cloud App Security (CAS) <BR> Microsoft Intune |
+|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Расширенная защита от угроз <BR> Office 365 Advanced Threat Protection <BR> Анализ угроз и реагирование на них в Office 365 <BR> |
+|  | Защита информации | Azure Information Protection <BR> Защита от потери данных в Office `365 (DLP) <BR> Windows Information Protection <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Управление безопасностью | Центр безопасности Azure  <BR> Центр безопасности Защитника Windows |
 | Удаленный доступ, доступ с мобильных устройств и работа с бизнес-партнерами |  |  |
 |  | Повышение уровня безопасности для удаленных и мобильных сотрудников | Microsoft Intune |

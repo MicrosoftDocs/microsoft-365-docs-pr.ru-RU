@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Office 365 профессиональный плюс для Microsoft 365 корпоративный.
-ms.openlocfilehash: c4fc3805dd2ea97e1a9797e5adfc31ab83f028ae
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 7905bcf37f2cda0e81208a9666c257e2c871110e
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290954"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400233"
 ---
 # <a name="phase-4-office-365-proplus"></a>Этап 4. Office 365 профессиональный плюс
 
@@ -51,7 +51,7 @@ Office 365 профессиональный плюс делает возможн
 Если вы уже развернули Office 365 профессиональный плюс, см. [критерии выхода](office365proplus-exit-criteria.md) для этого этапа, чтобы убедиться, что выполнены обязательные условия для Microsoft 365 корпоративный.
 
 >[!Note]
->Для развертывания Windows 10 Корпоративная и Office 365 профессиональный плюс вместе, а также перехода пользователей на [современные компьютеры](https://www.microsoft.com/microsoft-365/modern-desktop) см. статью [Центр развертывания современных компьютеров](http://aka.ms/howtoshift).
+>Для совместного развертывания Windows 10 Корпоративная и Office 365 профессиональный плюс обратитесь к статье [Центр развертывания компьютеров](desktop-deployment-center-home.md).
 >
 
 ## <a name="step-1-assess-your-environment"></a>Шаг 1. Оценка среды

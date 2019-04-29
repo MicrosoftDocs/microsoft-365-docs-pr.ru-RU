@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
-ms.openlocfilehash: 2cbabb04c79816684f4c566b92003bb64471d22b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 1aade29c8a4f9348b749025818e433981ec19091
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870831"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353110"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Сводка по безопасности Microsoft 365 корпоративный для корпорации Contoso
 
@@ -40,7 +40,7 @@ ms.locfileid: "26870831"
 
 1. Ограниченные учетные записи администраторов для облака
 
-   Компания Contoso провела обширную проверку существующих учетных записей администраторов Windows Server AD и настроила ряд учетных записей администраторов и групп в облаке.
+   Корпорация Contoso провела тщательный анализ существующих учетных записей администратора доменных служб Active Directory (AD DS) и создала ряд облачных учетных записей администраторов и групп.
 
 2. Классификация данных с разделением их на три уровня
 
@@ -56,13 +56,13 @@ ms.locfileid: "26870831"
 
 - Специальные учетные записи глобального администратора с использованием MFA и PIM
 
-  Вместо того чтобы назначить роль глобального администратора обычным учетным записям пользователей, в Contoso создали три специальные учетные записи глобального администратора с очень надежными паролями и защитили их с помощью многофакторной проверки подлинности (MFA) и Azure AD Privileged Identity Management (PIM). 
+  Вместо того чтобы назначить роль глобального администратора обычным учетным записям пользователей, в Contoso создали три специальные учетные записи глобального администратора с очень надежными паролями и защитили их с помощью многофакторной проверки подлинности (MFA) и Azure AD Privileged Identity Management (PIM).  Возможности PIM доступны только в плане Microsoft 365 корпоративный E5.
 
   Вход в учетную запись глобального администратора выполняется только для определенных задач администрирования, пароли известны только специально назначенному персоналу и могут использоваться только в течение времени, указанного в Azure AD PIM. 
 
   Администраторы безопасности в Contoso назначили роли администраторов с меньшими полномочиями учетным записям, которые соответствуют должностным обязанностям ИТ-специалиста.
 
-  Дополнительные сведения см. в статье [Роли администраторов в Office 365](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+  Дополнительные сведения см. в статье [Роли администраторов в Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 
 - Режим многофакторной проверки подлинности для всех учетных записей пользователей
 
@@ -81,7 +81,7 @@ ms.locfileid: "26870831"
 
 - Credential Guard в Защитнике Windows
 
-  Чтобы заблокировать целевые атаки и запуск вредоносных программ в операционной системе с правами администратора, корпорация Contoso включила [Credential Guard в Защитнике Windows](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) с помощью групповой политики Windows Server AD.
+  Для защиты от целевых атак и вредоносных программ, запускаемых в операционной системе с правами администратора, специалисты Contoso активировали [Credential Guard в Защитнике Windows](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard) с помощью групповых политик AD DS.
 
 ## <a name="threat-protection"></a>Защита от угроз
 
@@ -95,9 +95,9 @@ ms.locfileid: "26870831"
 
   Корпорация Contoso также обеспечила ведение журнала аудита почтового ящика, чтобы определять, кто входил в почтовые ящики пользователей, отправлял сообщения и совершал другие действия, выполняемые владельцем почтового ящика, уполномоченным пользователем или администратором.
 
-- Мониторинг и предотвращение атак с помощью Office 365 Threat Intelligence
+- Мониторинг и предотвращение атак с помощью инструмента анализа угроз и реагирования на них в Office 365
 
-  С помощью [Office 365 Threat Intelligence](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) Contoso защищает своих пользователей Office 365, упростив выявление атак, защиту от них, а также предотвращение будущих атак.
+  Contoso использует [анализ угроз и реагирования на них в Office 365](https://docs.microsoft.com/office365/securitycompliance/office-365-ti) для защиты своих пользователей Office 365, облегчая обнаружение и отражение атак, а также предотвращение будущих атак.
 
 - Защита от сложных угроз с помощью Advanced Threat Analytics
 
@@ -105,7 +105,7 @@ ms.locfileid: "26870831"
 
 ## <a name="information-protection"></a>Защита информации
 
-- Защита конфиденциальных и жестко регулируемых цифровых ресурсов с помощью Azure Information Protection
+- Защита конфиденциальных и жестко регулируемых цифровых ресурсов с помощью меток Azure Information Protection
 
   Корпорация Contoso определила три уровня защиты данных и развернула метки [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection), которые пользователи применяют к цифровым ресурсам. Для коммерческих тайн и другой интеллектуальной собственности Contoso использует вспомогательные метки Azure Information Protection в политике области для жестко регулируемых данных. Такая политика шифрует содержимое и ограничивает доступ к определенным группам безопасности.
 
@@ -119,11 +119,7 @@ ms.locfileid: "26870831"
 
 - Мониторинг облака с помощью Microsoft Cloud App Security
 
-  С помощью [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) корпорация Contoso создает схему своей облачной среды, отслеживает ее использование, определяет инциденты и события безопасности. 
-
-- Мониторинг безопасности Office 365 с помощью Office 365 Cloud App Security
-
-  Администраторы безопасности Contoso настроили оповещения с помощью [Office 365 Cloud App Security (CAS)](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview), чтобы получать уведомления о необычных или рискованных действиях пользователей, таких как скачивание больших объемов данных в SharePoint Online или OneDrive для бизнеса, многократные неудачные попытки входа или вход с неизвестных или опасных IP-адресов.
+  С помощью [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) корпорация Contoso создает схему своей облачной среды, отслеживает ее использование, определяет инциденты и события безопасности. Microsoft Cloud App Security предлагается только в плане Microsoft 365 корпоративный E5.
 
 - Управление устройствами с использованием Microsoft Intune
 
