@@ -1,5 +1,5 @@
 ---
-title: Развертывание SharePoint Online для бизнеса для Microsoft 365 корпоративный
+title: Развертывание SharePoint Online и OneDrive для бизнеса для Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/19/2018
@@ -8,19 +8,20 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-collaboration
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Выполните по шагам процесс планирования, развертывания и эффективного использования SharePoint Online в Microsoft 365 корпоративный в вашей организации.
-ms.openlocfilehash: 7a9fc1733c64b3f639d2de0b5b64e20df60e04a9
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 30fe3a971a869a4609d6b8ef2809692b4d4e5420
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870455"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400183"
 ---
-# <a name="deploy-sharepoint-online-for-microsoft-365-enterprise"></a>Развертывание SharePoint Online для Microsoft 365 корпоративный
+# <a name="deploy-sharepoint-online-and-onedrive-for-business-for-microsoft-365-enterprise"></a>Развертывание SharePoint Online и OneDrive для бизнеса для Microsoft 365 корпоративный
 
+*Эта рабочая нагрузка включена в планы E3 и E5 Microsoft 365 корпоративный.*
 
 SharePoint Online и Microsoft Teams служат для хранения файлов и предоставления общего доступа к ним, управления содержимым и взаимодействия. Взятые вместе, они являются основной составляющей Microsoft 365 корпоративный для командной работы. 
 
@@ -28,11 +29,9 @@ SharePoint Online и Microsoft Teams служат для хранения фай
 
 Если вы не знакомы с SharePoint Online, см. статьи [SharePoint Online](https://products.office.com/sharepoint/sharepoint-online-collaboration-software) и [Начало работы с SharePoint](https://support.office.com/article/Get-started-with-SharePoint-3a26444b-08c5-46ad-b80a-cda82b11b27b#ID0EAABAAA=Basics).
 
-Описанные ниже этапы и шаги помогут вам представить себе роль SharePoint Online в организации, подключении организации путем серии поэтапных развертываний и ее внедрении среди пользователей. Вы можете следовать инструкциям по развертыванию только после завершения [базовой инфраструктуры](deploy-foundation-infrastructure.md). 
+Пройдя описанные ниже этапы и выполнив указанные шаги, вы определите роль SharePoint Online в организации, подключите организацию путем проведения поэтапных развертываний и предоставите возможность использовать SharePoint Online. Прежде чем начать, настройте правильные шаги [базовой инфраструктуры](deploy-foundation-infrastructure.md), чтобы на сайтах SharePoint Online были доступны нужные функции безопасности. 
 
->[!Note]
->Инструкции по развертыванию OneDrive для бизнеса для Microsoft 365 корпоративный см. в [руководстве по началу работы OneDrive для предприятий](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise).
->
+Инструкции по развертыванию OneDrive для бизнеса для Microsoft 365 корпоративный см. в [руководстве по началу работы OneDrive для предприятий](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise).
 
 ## <a name="phase-1-envision"></a>Этап 1. Определение
 На этом этапе вы соберете сотрудников для развертывания SharePoint Online и определите, как ваша организация будет использовать эту службу для удовлетворения бизнес-потребностей.

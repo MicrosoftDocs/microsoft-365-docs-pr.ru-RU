@@ -3,22 +3,22 @@ title: Шаг 6. Information Protection
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 04/01/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Information Protection для Microsoft 365 корпоративный.
-ms.openlocfilehash: 6df05479ae1ab7612c4b91d8c5e81f1207bbf0a6
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a0d2c485b05e0969fe45cfd79c86e4e7dcb1d5ff
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26871010"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400003"
 ---
 # <a name="phase-6-information-protection"></a>Шаг 6. Information Protection
 
@@ -40,8 +40,10 @@ Information Protection — это набор политик и технолог
 |:-------|:-----|
 |![](./media/stepnumbers/Step1.png)|[Определение уровней безопасности и создание Information Protection](infoprotect-define-sec-infoprotect-levels.md)|
 |![](./media/stepnumbers/Step2.png)|[Настройка классификации для среды](infoprotect-configure-classification.md)|
-|![](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Office 365](infoprotect-configure-increased-security-office-365.md)|
-|![](./media/stepnumbers/Step4.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
+|![](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Microsoft 365](infoprotect-configure-increased-security-office-365.md)|
+|![](./media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
+|![](./media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
+|![](./media/stepnumbers/Step6.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
 
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](infoprotect-exit-criteria.md) для соответствия требованиям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.

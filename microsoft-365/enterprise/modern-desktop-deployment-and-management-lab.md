@@ -1,5 +1,5 @@
 ---
-title: Комплект Modern Desktop Deployment and Management Lab Kit
+title: Комплект Deployment Lab Kit для Windows и Office
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -12,35 +12,35 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: В этой статье рассказывается о комплекте Modern Desktop Deployment and Management Lab Kit, а также о том, как и где получить его.
-ms.openlocfilehash: 1423b0deb74d306cbbc0dc088fed9827ec01782c
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
+ms.openlocfilehash: 213d53b323cd5a5ca6f803320cf09e168beb1114
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870996"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400081"
 ---
-# <a name="modern-desktop-deployment-and-management-lab-kit"></a>Комплект Modern Desktop Deployment and Management Lab Kit
+# <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
 В этих загружаемых практических занятиях основное внимание уделено развертыванию Windows 10 и Office 365, а также вопросам настройки и управления, выполняемых после развертывания. Мы настоятельно рекомендуем этот курс обучения организациям, которые ведут подготовку к завершению срока службы Windows 7, а также тем организациям, которые уже используют Windows 10 и Office 365 плюс либо Office 2019. В курс включены рекомендации по работе с Windows 10, Office 365 профессиональный плюс, Enterprise Mobility + Security и связанными с ними продуктами и услугами.
 
-Занятия разработаны так, чтобы вы научились планировать, тестировать и проверять процедуры развертывания современных компьютеров с Windows 10 Корпоративная и Office 365 профессиональный плюс и управления ими. В занятиях используются действия и средства, описанные в цикле о развертывании современных компьютеров, в том числе решения System Center Configuration Manager, Windows Analytics, центр развертывания Office, OneDrive, Windows Autopilot и многие другие.
+Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная или Office 365 профессиональный плюс. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, System Center Configuration Manager, Windows Analytics, центр развертывания Office, OneDrive, Windows Autopilot и многое другое.
 
-При [развертывании современных компьютеров](http://www.aka.ms/howtoshift) с Windows 10 и Office 365 профессиональный плюс рекомендуется начать работу с создания изолированной лабораторной среды. Ее можно использовать для изучения обновлений средств развертываний и тестирования средств автоматизации, связанных с процессом развертывания.
+При [развертывании компьютеров](http://www.aka.ms/howtoshift) с Windows 10 и Office 365 профессиональный плюс рекомендуется начать работу с создания изолированной лабораторной среды. Ее можно использовать для изучения обновлений средств развертываний и тестирования средств автоматизации, связанных с процессом развертывания.
 
 Данный комплект занятий можно скачать совершенно бесплатно. При работе с ним вы будете использовать пробные версии программного обеспечения.
 
-[**СКАЧАТЬ**](https://aka.ms/mddlabs_evalcenter)
+### <a name="download-the-windows-and-office-deployment-lab-kithttpswwwmicrosoftcomevalcenterevaluate-lab-kit"></a>[**Скачать комплект Deployment Lab Kit для Windows и Office**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-**Законченная лабораторная среда**
+## <a name="a-complete-lab-environment"></a>**Законченная лабораторная среда**
 
 В этих практических занятиях вы будете использовать автоматически подготовленную к работе виртуальную лабораторную среду, которая включает присоединенные к домену клиенты для настольных ПК, контроллер домена, шлюз Интернета и полностью настроенный экземпляр Configuration Manager. В занятие включены ознакомительные версии указанных ниже продуктов.
 
-  - Windows 10 Корпоративная, версия 1803
-  - Windows 7
-  - Office 365 профессиональный плюс, версия 1807
+  - Windows 10 Корпоративная, версия 1809
+  - Windows 7
+  - Office 365 профессиональный плюс, версия 1901
   - System Center Configuration Manager, версия 1802
-  - Windows Assessment and Deployment Kit для Windows 10, версия 1803
+  - Комплект средств для развертывания и оценки Windows для Windows 10, версия 1809
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V) 5.1
   - Microsoft BitLocker Administration and Monitoring 2.5 с пакетом обновления 1 (SP1)
@@ -55,39 +55,39 @@ ms.locfileid: "26870996"
   - Office 365 корпоративный E5
   - Enterprise Mobility + Security
 
-**Пошаговые практические занятия**
+## <a name="step-by-step-labs"></a>**Пошаговые практические занятия**
 
 С помощью подробно проработанного занятия вы выполните несколько сценариев развертывания и управления, в том числе указанные ниже.
 
-**Проверка готовности устройств и приложений**
+### <a name="device-and-app-readiness"></a>**Проверка готовности устройств и приложений**
 
   - Windows Analytics
   - Режим предприятия и список сайтов режима предприятия и для Internet Explorer
 
-**Проверка готовности каталогов и сети**
+### <a name="directory-and-network-readiness"></a>**Проверка готовности каталогов и сети**
 
   - Базовая настройка Azure Active Directory и Microsoft 365
   - Оптимизация сети с помощью оптимизации доставки, однорангового кэша в Configuration Manager и LEDBAT
-  - **НОВИНКА** Совместное управление с помощью Configuration Manager и Microsoft Intune
-  - **НОВИНКА** Удаленный доступ (VPN)
+  - Совместное управление с помощью Configuration Manager и Microsoft Intune
+  - Удаленный доступ (VPN)
 
-**Доставка приложений Office и бизнес-приложений**
+### <a name="office-and-lob-app-delivery"></a>**Доставка приложений Office и бизнес-приложений**
 
   - Развертывание Office 365 профессиональный плюс c помощью System Center Configuration Manager
   - Развертывание Office 365 профессиональный плюс с помощью Microsoft Intune
   - Развертывание приложений и управление ими с помощью Microsoft Intune
   - Развертывание приложений и установка их по принципу самообслуживания с помощью Microsoft Store для бизнеса
   - Преобразование приложения Desktop Bridge для UWP
-  - **НОВИНКА** Комплект сертификации приложений для Windows
+  - Комплект сертификации приложений для Windows
   - Устранение проблем совместимости браузера с помощью режима предприятия для Internet Explorer
 
-**Перенос параметров и файлов пользователей**
+### <a name="user-file-and-settings-migration"></a>**Перенос параметров и файлов пользователей**
 
   - Средство миграции пользовательской среды в рамках последовательностей задач по обновлению и замене ПК в Configuration Manager и MDT
   - Перемещение известных папок в OneDrive
   - Enterprise State Roaming
 
-**Безопасность и соответствие требованиям**
+### <a name="security-and-compliance"></a>**Безопасность и соответствие требованиям**
 
   - Шифрование устройств с помощью BitLocker
   - Антивирусная программа "Защитник Windows"
@@ -99,7 +99,7 @@ ms.locfileid: "26870996"
   - Управление приложениями в Защитнике Windows
   - Advanced Threat Protection в Защитнике Windows
 
-**Обновление компонентов и развертывание ОС**
+### <a name="os-deployment-and-feature-updates"></a>**Обновление компонентов и развертывание ОС**
 
   - Создание образа ОС
   - Последовательности задач по развертыванию ОС в Configuration Manager
@@ -111,21 +111,21 @@ ms.locfileid: "26870996"
   - Обновление компонентов с помощью последовательностей задач по обновлению в Configuration Manager
   - Windows Autopilot
 
-**Office и Windows как услуга**
+### <a name="windows-and-office-servicing"></a>**Обслуживание Windows и Office**
 
   - Управление обновлением программного обеспечения с помощью Configuration Manager
   - Управление обновлением Office 365 профессиональный плюс в Configuration Manager
   - Применение технологий управления мобильными устройствами к Windows 10 с помощью Microsoft Intune
 
-[**СКАЧАТЬ**](https://aka.ms/mddlabs_evalcenter)
+### <a name="download-the-windows-and-office-deployment-lab-kithttpsakamsmddlabsevalcenter"></a>[**Скачать комплект Deployment Lab Kit для Windows и Office**](https://aka.ms/mddlabs_evalcenter)
 
-*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ объемом 32 ГБ. Срок действия занятия истекает 9 декабря 2018 г. До этой даты будет опубликована новая версия занятия.*
+*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 13 мая 2019 г. До этой даты будет опубликована новая версия занятия.*
 
-**Дополнительные рекомендации**
+## <a name="additional-guidance"></a>**Дополнительные рекомендации**
 
-  - [Центр развертывания современных компьютеров](http://www.aka.ms/howtoshift)
+  - [Центр развертывания компьютеров](http://www.aka.ms/howtoshift)
 
-  - [Видеоролики серии "Развертывание современных компьютеров" от Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
+  - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
 
   - [Развертывание ОС с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/osd/understand/introduction-to-operating-system-deployment)
 
@@ -135,7 +135,7 @@ ms.locfileid: "26870996"
 
   - [<span class="underline">Начало работы с Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 
-> **Связанные ресурсы**
+## <a name="related-resources"></a>**Связанные ресурсы**
 
   - [<span class="underline">Представляем Microsoft 365</span>](https://www.microsoft.com/microsoft-365/default.aspx)
 
