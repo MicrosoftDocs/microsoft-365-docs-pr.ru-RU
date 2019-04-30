@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
-ms.openlocfilehash: e2ccbe251c4e62790331b949f163816f789436cb
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e80c169a8aefa60c9e7b3be874a1fb26c86078b6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291454"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353171"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
 
@@ -55,9 +55,9 @@ ms.locfileid: "32291454"
 
 Сначала настройте учетную запись User 1 с ролью глобального администратора.
 
-1. На [портале Office](https://office.com) выполните вход с помощью учетной записи глобального администратора.
+1. В [Центре администрирования Microsoft 365](https://portal.microsoft.com) выполните вход с помощью учетной записи глобального администратора.
 
-2. Щелкните плитку **Администрирование**. На новой вкладке браузера **Центр администрирования Microsoft 365** щелкните **Активные пользователи**.
+2. Щелкните пункт **Активные пользователи**.
  
 3. На странице **Активные пользователи** щелкните учетную запись **User1**.
 
