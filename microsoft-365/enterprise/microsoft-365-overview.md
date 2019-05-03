@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: a206924e7056d0213dd0721c2259736a031f80d6
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: d3cac3274a93c2f6d2d042a03a5140f16152d8d9
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353210"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553338"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 Enterprise
 
@@ -46,7 +46,7 @@ Microsoft 365 корпоративный доступен в трех плана
 | F1 | Цель — сборка для подключения рабочих задействование к средствам и ресурсам, необходимым для достижения максимальной работы. Сотрудники задействование первыми в строке для привлечения клиентов и представления фирменного стиля и ценности компании, |
 |||
 
-Для получения дополнительных сведений ознакомьтесь [со статьЕй функции и возможности для каждого плана](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Для получения дополнительных сведений ознакомьтесь [со статьей функции и возможности для каждого плана](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
 ## <a name="at-a-glance"></a>"С кратким использованием"
 
@@ -96,21 +96,16 @@ Microsoft 365 корпоративный доступен в трех плана
 
 - [Microsoft 365 для государственных организаций](https://www.microsoft.com/microsoft-365/government)
  
-  ПоВысьте эффективность совместной работы сотрудников государственного сектора США.
-
-
+  Повысьте эффективность совместной работы сотрудников государственного сектора США.
 
 ## <a name="microsoft-365-training"></a>Обучение по Microsoft 365
 
 |||
 |:-------|:-----|
-![](./media/m365-poster/m365-fundamentals.svg)| ПодГотовьтесь к сертификации Microsoft 365 и работайте с ними. <BR> Начните с [основ Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
+![](./media/m365-poster/m365-fundamentals.svg)| Подготовьтесь к сертификации Microsoft 365 и работайте с ними. <BR> Начните с [основ Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
 
 
-
-
-
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Если вы выполняете развертывание самостоятельно, запустите [развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md).
 
