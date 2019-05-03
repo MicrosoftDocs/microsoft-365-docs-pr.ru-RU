@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка сквозной проверки подлинности для тестовой среды Microsoft 365
-ms.openlocfilehash: e925f0b48194c94993e7bf3e08f1f18650b19a23
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: b92700d28a758842d3754bb2b359181b9ee59d2e
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400113"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553358"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Сквозная проверка подлинности для тестовой среды Microsoft 365
 
@@ -48,7 +48,7 @@ ms.locfileid: "33400113"
 Конфигурация состоит из следующих компонентов:  
   
 - Пробные или платные подписки на Office 365 E5 и EMS E5.
-- Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. Azure AD Connect работает на APP1 для периодической синхронизации домена TESTLAB доменных служб Active Directory (AD DS) с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
+- Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. Azure AD Connect работает на APP1 для периодической синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Этап 2. Настройка Azure AD Connect на виртуальной машине APP1 для сквозной проверки подлинности
 
