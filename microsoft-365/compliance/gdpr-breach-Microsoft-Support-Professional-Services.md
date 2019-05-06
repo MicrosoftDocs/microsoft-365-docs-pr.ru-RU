@@ -2,20 +2,20 @@
 title: Служба поддержки и профессионального обслуживания Майкрософт и уведомление о нарушении безопасности согласно требованиям GDPR
 description: Информацию о том, как служба поддержки и профессионального обслуживания Майкрософт защищает от нарушения безопасности персональных данных и как Майкрософт реагирует на такие нарушения и оповещает вас о них.
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 18fa8e4b1b503bfadb6550dc31b17994166f3eb5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a17752773304272938c305649ff6e511ab0d1b0b
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285746"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Служба поддержки и профессионального обслуживания Майкрософт и уведомление о нарушении безопасности согласно требованиям GDPR
 
@@ -102,4 +102,4 @@ ms.locfileid: "26870913"
 -   сведения об обработчике данных второго уровня или поставщике, если они причастны к нарушению.
 
 #### <a name="learn-more"></a>Дополнительные сведения
-Узнайте больше о [профессиональных услугах Майкрософт](<https://www.microsoft.com/microsoftservices/professional_services.aspx>). Ознакомьтесь также с разделом, посвященным службе профессионального обслуживания Майкрософт, на странице Центра управления безопасностью Майкрософт (<https://www.microsoft.com/trustcenter/cloudservices/commercialsupport>). 
+Дополнительные сведения о Профессиональных услугах Майкрософт см. в центре управления безопасностью (<https://www.microsoft.com/trustcenter/professional-services>). 

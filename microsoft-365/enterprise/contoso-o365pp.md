@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано, как в компании Contoso используют System Center Configuration Manager для развертывания Office 365 профессиональный плюс.
-ms.openlocfilehash: 5b98f72561d7a431a4ca4a0b0241c6105c87026f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 0fa0ca1d268dbfd57891804e20959147cd6385e4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283552"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Развертывание Office 365 профессиональный плюс для компании Contoso
 
@@ -71,7 +71,7 @@ ms.locfileid: "26870584"
 7. В Configuration Manager они развернули пакеты Windows и Office в точках распределения в сети, а затем выполнили задачи развертывания Configuration Manager для развертывания пилотного пакета Office 365 профессиональный плюс в пилотной группе.
 8. После решения всех проблем совместимости в пилотной группе специалисты компании Contoso выполнили задачи развертывания полного пакета Office 365 профессиональный плюс в широкой группе.
 
-Так как в компании Contoso предпочли автоматически обновлять устройства из облака, отпала необходимость управлять процессом в Configuration Manger. Устройства автоматически обновлялись непосредственно из облака с использованием канала обновления, выбранного в процессе первоначального развертывания. 
+В компании Contoso включено автоматическое обновление устройств из облака, поэтому нет необходимости управлять процессом в диспетчере конфигураций. Их устройства автоматически обновляются из облака с учетом канала обновления, выбранного в ходе начального развертывания. 
 
 ## <a name="next-step"></a>Следующее действие
 

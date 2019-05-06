@@ -2,20 +2,20 @@
 title: Контрольный список готовности к подотчетности для службы поддержки Майкрософт и профессиональных услуг в рамках GDPR
 description: Позволяет получить доступ к информации, необходимой для поддержки регламента GDPR при использовании профессиональных услуг и служб поддержки Майкрософт.
 keywords: ARC, контрольные списки готовности к подотчетности, Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 95af57f0029fe22803179076bc05feaafa277fa5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: bbdb806648c1f5a438e07b9092a7b432ab0ed81d
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26871112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286500"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>Контрольный список готовности к подотчетности для службы поддержки Майкрософт и профессиональных услуг в рамках GDPR
 
@@ -25,8 +25,6 @@ ms.locfileid: "26871112"
 В этом контрольном списке готовности к подотчетности собрана информация, необходимая для поддержки регламента GDPR при использовании профессиональных услуг и службы поддержки Майкрософт. Содержимое контрольного списка упорядочено по названиям и кодовым номерам (приведенным в скобках для каждой темы списка), назначенным контрольным точкам обеспечения конфиденциальности и безопасности для обработчиков персональных данных, которые определены в стандарте ISO/IEC CD 27552 *Информационные технологии. Методы и средства обеспечения безопасности. Улучшения стандарта ISO/IEC 27001 для управления конфиденциальностью. Требования*.
 
 Такая структура контроля также применяется для упорядочения презентации внутренних средств контроля, реализованных в профессиональных службах Майкрософт для выполнения требований GDPR, которую можно скачать здесь: https://servicetrust.microsoft.com/ViewPage/TrustDocuments.
-
-Чтобы приобрести экземпляр полного проекта стандарта ISO, посетите страницу *https://shop.bsigroup.com/ProductDetail?pid=000000000030372571*.
 
 <br>
 
@@ -152,24 +150,20 @@ ms.locfileid: "26871112"
 | **ИД**                | **Описание**                                                                                            | **URL-адрес**                                                                                                                                                                                                               |
 | 1 <a name="1"> </a>   | ***Приложение о защите данных в профессиональных службах Майкрософт***                                             | (<http://aka.ms/professionalservicesdpa>)                                                                                                                                                                             |
 | 2 <a name="2"> </a>   | ***Документация по безопасности профессиональных служб Майкрософт в центре управления безопасностью***                     | <https://www.microsoft.com/TrustCenter/professional-services-security>                                                                                                                                                |
-| 3 <a name="3"> </a>   | ***Описание программы обучения и осведомленности***                                                           | Доступно по запросу через группу управления учетной записью пользователя.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                                       |
-| 4 <a name="4"> </a>   | ***Защита данных в Microsoft Azure*** (очистка и утечка данных)                                           | <https://blogs.msdn.microsoft.com/walterm/2014/09/04/microsoft-azure-data-security-data-cleansing-and-leakage/>                                                                                                       |
-| 5 <a name="5"> </a>   | ***5. Набор правил для профессиональных служб Майкрософт, определенных в GDPR***                                                 | Доступен для скачивания через диспетчер соответствия требованиям Microsoft Service Trust Portal по адресу <https://aka.ms/GDPRControls> или через диспетчер соответствия требованиям https://servicetrust.microsoft.com/ComplianceManager                                |
-| 6 <a name="6"> </a>   | ***Документация по обеспечению непрерывной деятельности предприятия, предоставляемая корпорацией Майкрософт***                                    | Доступно по запросу через группу управления учетной записью пользователя.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                                       |
-| 7 <a name="7"> </a>   | ***Сведения о том, кто может получить доступ к данным и при каких условиях***                                                           | <https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms>                                                                                                                            |
-| 8 <a name="8"> </a>   | ***Запросы субъектов данных из профессиональных служб Майкрософт, определенные в GDPR***                                   | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-prof-services>                                                                                                                                          |
-| 9 <a name="9"> </a>   | ***Профессиональные службы Майкрософт и уведомления о нарушении безопасности согласно GDPR***                               | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services>                                                                                                             |
-| 10 <a name="10"> </a> | ***Ключевая информация из профессиональных служб Майкрософт об оценках влияния на защиту данных клиентов*** | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services>                                                                                                                                         |
-| 11 <a name="11"> </a> | ***Отчет об аудите согласно ISO 27001***<br>                                                                           |                                                                                                                                                                                                                       |
-|                       | Отчет о сертификации                                                                                       | <https://www.bsigroup.com/Our-services/Certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002> |
-|                       | Отчет об аудите                                                                                               | Доступен по запросу через техническую группу управления учетной записью пользователя.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                             |
-| 12 <a name="12"> </a> | ***Положение о применимости требований ISO/IEC 27001:2013 к СУИБ профессиональных служб Майкрософт***                   | Доступно по запросу через группу управления учетной записью пользователя.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                                              |
-| 13 <a name="13"> </a> | ***Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт***                                                          | <https://www.microsoft.com/trustcenter/compliance/complianceofferings>                                                                                                                                                |
-| 14 <a name="14"> </a> | ***Сведения об ответственном за защиту данных в Майкрософт***                                                                            | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer>                                                                                                                                    |
+| 3 <a name="3"> </a>   | ***Описание программы обучения и осведомленности***                                                           | Доступно по запросу через группу управления учетной записью пользователя.|                                                                                                    |
+| 4 <a name="4"> </a>   | ***Набор правил для профессиональных служб Майкрософт, определенных в GDPR***                                                 | Доступен для скачивания через диспетчер соответствия требованиям Microsoft Service Trust Portal по адресу <https://aka.ms/GDPRControls> или через диспетчер соответствия требованиям https://servicetrust.microsoft.com/ComplianceManager                                |
+| 5 <a name="5"> </a>   | ***Документация по обеспечению непрерывной деятельности предприятия, предоставляемая корпорацией Майкрософт***                                    | Доступно по запросу через группу управления учетной записью пользователя.                                                                     |
+| 6 <a name="6"> </a>   | ***Сведения о том, кто может получить доступ к данным и при каких условиях***                                                           | <https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms>                                                                                                                            |
+| 7 <a name="7"> </a>   | ***Запросы субъектов данных из профессиональных служб Майкрософт, определенные в GDPR***                                   | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-prof-services>                                                                                                                                          |
+| 8 <a name="8"> </a>   | ***Профессиональные службы Майкрософт и уведомления о нарушении безопасности согласно GDPR***                               | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services>                                                                                                             |
+|  9 <a name="9"> </a> | ***Ключевая информация из профессиональных служб Майкрософт об оценках влияния на защиту данных клиентов*** | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services>                                                                                                                                         |
+| 10 <a name="10"> </a> | ***Отчет об аудите согласно ISO 27001***                                                                              |   <https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=7e71ff67-7609-43e6-9d68-4ceea0b41b50&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports>                                                                                                                                            |
+| 11 <a name="11"> </a> | ***Положение о применимости требований ISO/IEC 27001:2013 к СУИБ профессиональных служб Майкрософт***                   | Доступно по запросу через группу управления учетной записью пользователя.|
+| 12 <a name="12"> </a> | ***Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт***                                                          | <https://www.microsoft.com/trustcenter/compliance/complianceofferings>                                                                                                                                                |
+| 13 <a name="13"> </a> | ***Сведения об ответственном за защиту данных в Майкрософт***                                                                            | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer>                                                                                                                                    |
 |                       |                                                                                                            |                                                                                                                                                                                                                       |
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
 [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
 
-[Secure Trust Portal](https://aka.ms/gdprgetstarted)

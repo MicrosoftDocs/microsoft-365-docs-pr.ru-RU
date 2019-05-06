@@ -2,22 +2,22 @@
 title: Миграция в Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/28/2018
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 8fc0e0b117ef55597efeb139e68b6dbdd03de2db
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f165e09b58b5208fa4d9aae24f7d5cdda385c639
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291267"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -31,6 +31,12 @@ ms.locfileid: "26870748"
 
 Выполнение этих операций со временем приблизит вашу организацию к реализации [современного рабочего места](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/) — надежной и интегрированной среды на основе Microsoft 365 корпоративный, которая позволяет работать в команде и способствует творческому решению задач в организации. 
 
+Сведения о миграции пользователей и данных для определенных рабочих нагрузок Office 365:
+
+- Перенос почтовых ящиков пользователей с сервера Exchange в Exchange Online описан в статье [Рабочая нагрузка Exchange Online](exchangeonline-workload.md).
+- Перенос данных SharePoint с сервера SharePoint на SharePoint Online описан в статье [Рабочая нагрузка SharePoint Online](sharepoint-online-onedrive-workload.md).
+- Переход со Скайпа для бизнеса Online на Microsoft Teams описан в статье [Рабочая нагрузка Microsoft Teams](teams-workload.md).
+
 ## <a name="migration-for-microsoft-office-client-products"></a>Перенос клиентских продуктов Microsoft Office
 
 Во многих организациях (как крупных, так и небольших) может использоваться сочетание более ранних версий клиентских продуктов Office, таких как Word, Excel и PowerPoint.
@@ -42,7 +48,7 @@ Microsoft 365 корпоративный включает Office 365 про�
 
 ### <a name="office-2007"></a>Office 2007
 
-Поддержка версий Office в выпуске Office 2007 уже прекращена. Дополнительные сведения см. в статье [План действий после прекращения поддержки Office 2007](https://support.office.com/article/office-2007-end-of-support-roadmap-416c54d8-823c-4def-bb7a-6a9b14ef2745).
+Поддержка версий Office в выпуске Office 2007 уже прекращена. Дополнительные сведения см. в статье [План действий после прекращения поддержки Office 2007](https://docs.microsoft.com/deployoffice/office-2007-end-support-roadmap).
 
 Вместо того чтобы обновлять Office 2007 на компьютерах до Office 2010, Office 2013 или Office 2016, вы можете следующее:
 
@@ -54,7 +60,7 @@ Office 365 профессиональный плюс автоматическ�
 
 ### <a name="office-2010"></a>Office 2010
 
-Поддержка версий Office в выпуске Office 2010 заканчивается 13 октября 2020 г. Дополнительные сведения см. в статье [План действий после прекращения поддержки Office 2010](https://support.office.com/article/office-2010-end-of-support-roadmap-2a58999c-4d83-4e67-9fde-bc96d487105e).
+Поддержка версий Office в выпуске Office 2010 заканчивается 13 октября 2020 г. Дополнительные сведения см. в статье [План действий после прекращения поддержки Office 2010](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap).
 
 Вместо того чтобы обновлять Office 2010 на компьютерах до Office 2013 или Office 2016 (обновление выполняется вручную), вы можете следующее: 
 
@@ -89,11 +95,11 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 Поддержка серверных продуктов из выпуска Office 2007 уже прекращена. Дополнительные сведения см. в следующих статьях:
 
-- [План действий после прекращения поддержки Exchange 2007](https://support.office.com/article/exchange-2007-end-of-support-roadmap-c3024358-326b-404e-9fe6-b618e54d977d);
-- [План действий после прекращения поддержки SharePoint Server 2007](https://support.office.com/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717);
-- [План действий после прекращения поддержки Project Server 2007](https://support.office.com/article/project-server-2007-end-of-support-roadmap-d379018f-72b7-4284-b40a-6c23c8ae38fe);
-- [План действий после прекращения поддержки Office Communications Server](https://support.office.com/article/office-communications-server-end-of-support-roadmap-54f3d5ba-bdf9-4b37-a9e8-f1ab452d4f78);
-- [План действий после прекращения поддержки PerformancePoint Server 2007](https://support.office.com/article/performancepoint-server-2007-end-of-support-roadmap-89d9feee-2285-419c-8c14-0f7f583536e0).
+- [План действий после прекращения поддержки Exchange 2007](https://docs.microsoft.com/office365/enterprise/exchange-2007-end-of-support);
+- [План действий после прекращения поддержки SharePoint Server 2007](https://docs.microsoft.com/office365/enterprise/sharepoint-2007-end-of-support);
+- [План действий после прекращения поддержки Project Server 2007](https://docs.microsoft.com/office365/enterprise/project-server-2007-end-of-support);
+- [План действий после прекращения поддержки Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade);
+- [План действий после прекращения поддержки PerformancePoint Server 2007](https://docs.microsoft.com/office365/enterprise/pps-2007-end-of-support).
 
 Вместо того чтобы обновлять серверные продукты из выпуска Office 2007 до аналогов из выпуска Office 2010, Office 2013 или Office 2016, вы можете следующее:
 
@@ -105,8 +111,8 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 Что касается серверных продуктов в выпуске Office 2010, дата прекращения поддержки была определена для следующих продуктов:
 
-- [Exchange Server 2010](https://support.office.com/article/exchange-2010-end-of-support-roadmap-e150e7b9-c432-4c8d-a0ae-c11847129a7d);
-- [SharePoint Server 2010](https://support.office.com/article/upgrading-from-sharepoint-2010-985a357f-6db7-401f-bf7a-1bafdf1f312c).
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support);
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010).
 
 Вместо того чтобы обновлять серверные продукты из выпуска Office 2010 до аналогов из выпуска Office 2013 или Office 2016, вы можете следующее:
 

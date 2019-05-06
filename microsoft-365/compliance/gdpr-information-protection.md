@@ -4,19 +4,21 @@ description: Защита информации в соответствии с О
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
 author: BrendaCarter
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: bcarter
 manager: laurawi
-ms.collection: GDPR
-ms.openlocfilehash: 371efa4e1c3e3375cd43dcc661d8aa549788baba
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+audience: itpro
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 94ec13437ff297381b4ea8aca0e9370f295f249e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285191"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Защита информации в соответствии с Общим регламентом по защите данных (GDPR) при помощи возможностей Microsoft 365
 
@@ -49,8 +51,7 @@ Azure Active Directory и другие компоненты Microsoft 365 пре
 
 Защита от угроз доступна в службах Microsoft 365. Вот несколько ресурсов для начала:
 - [Схема для обеспечения безопасности в Office 365: приоритеты на первые 30 и 90 дней, а также на большее количество дней.](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) Эта схема включает рекомендации по реализации возможностей. 
-- 
-  [Защита от угроз в Office 365.](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58) Сведения о том, какие действия вам доступны в Центре безопасности и соответствия требованиям Office 365.
+- [Защита от угроз в Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Сведения о мерах защиты, которые вы можете принять, см. в центре безопасности Microsoft 365.
 - [Защита от угроз в Windows.](https://docs.microsoft.com/windows/security/threat-protection/) Сведения об Advanced Threat Protection в Защитнике Windows и других возможностях Windows 10.
 
 

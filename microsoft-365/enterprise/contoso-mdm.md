@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Общие сведения о том, как Contoso использует EMS в Microsoft 365 корпоративный для управления устройствами и работающими на них приложениями.
-ms.openlocfilehash: e6b6f822a8c0ea26b3d899e3531653b19e225d65
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f47d6a1ee608d33802f1c523d3b954af3771f212
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278046"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Управление мобильными устройствами для Contoso
 
@@ -46,7 +46,10 @@ Intune не используется в Contoso для следующего:
 Процедура настройки инфраструктуры управления мобильными устройствами в Contoso:
 
 - Задание Intune в качестве центра управления мобильными устройствами (MDM) и использование Intune на Azure для администрирования содержимого и управления устройствами
-- Создание групп Azure AD для групп устройств, предназначенных для настройки регистрации и Intune, а также политик условного доступа
+- Созданные группы Azure AD для устройств для регистрации и политики условного доступа на основе настроек Intune и устройств
+
+  Для получения дополнительных сведений см. статью [Условные политики доступа Contoso](contoso-identity.md#conditional-access-policies-for-identity-and-device-access).
+
 - Включение платформы устройств Apple для поддержки сотрудников с iPad, iMac, iPhone, а также корпоративными телефонами на базе iPhone
 - Создание политик использования применительно к Contoso, которые отображаются во время установки корпоративного портала для Contoso на мобильных устройствах
 - Задание для незарегистрированных устройств политик управления мобильными приложениями (MAM), требующих проверки подлинности для доступа к службам Office 365
