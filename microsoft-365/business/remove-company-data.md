@@ -19,30 +19,32 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Узнайте, как использовать Microsoft 365 Business для удаления данных компании с пользовательских устройств или с компьютеров с Windows. '
-ms.openlocfilehash: 29aa4452d2d3e7b54fbb28d90880cdef28f50684
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 903b99af5f75531b8187b789510c370f7859f689
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283848"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660635"
 ---
 # <a name="remove-company-data-from-devices"></a>Удаление данных организации с устройств
+
+![Баннер, который указывает https://aka.ms/aboutM365previewна.](media/m365admincenterchanging.png)
 
 ## <a name="remove-company-data"></a>Удаление данных компании
 
 С помощью Office 365 бизнес вы можете удалить данные компании с пользовательских [устройств](app-protection-settings-for-android-and-ios.md) и [компьютеров с Windows](protection-settings-for-windows-10-devices.md), защищенных с помощью Microsoft 365. **После удаления данных компании с устройства их нельзя будет восстановить**. 
   
-1. Войдите в [Microsoft 365 Business](https://portal.office.com) с учетными данными глобального администратора. 
+1. Перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. В левой панели навигации выберите \> **Управление**политиками **устройств** \> **** .
+2. В левой панели навигации выберите Управление **устройствами** \> ****.  
   
 3. На странице " **Управление** " выберите или выполните поиск пользователя, данные которого нужно удалить, и выберите имя. 
     
-4. На следующей панели в списке **Управляемые устройства** выберите устройства, с которых нужно удалить данные, и нажмите **Далее**. 
+4. В следующей области выберите устройство или устройства из списка **устройства** и на панели устройств, которое будет открыто, вы можете восстановить заводские настройки устройства или удалить данные компании в зависимости от типа устройства. 
     
-    ![On the remove comapany data pane, select the device from which you want to remove the data.](media/f3725ff9-ebdb-4c13-9523-b2df362640cf.png)
+    ![On the remove comapany data pane, select the device from which you want to remove the data.](media/resetorremove.png)
   
-5. На панели **Вы действительно хотите удалить данные компании на устройствах?** выберите **Удалить** \> **Закрыть**.
+5. В области подтверждения нажмите кнопку **подтвердить** \> **закрытие**.
     
 
 

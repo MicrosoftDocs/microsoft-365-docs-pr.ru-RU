@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Это руководство по лаборатории тестирования поможет вам создать имитацию предприятия для Microsoft 365 корпоративный.
-ms.openlocfilehash: 173622666420976199709d311ef67a7f0be3d867
-ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
+ms.openlocfilehash: 907bec83ac4ad820ec1cb710209614636a4f54e8
+ms.sourcegitcommit: 1b77b699b8e23df8b98530dfad3a29b4aaa0753c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "33553377"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33867989"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>Базовая конфигурация "имитация предприятия"
 
@@ -123,6 +123,7 @@ New-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $l
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name TestLab
 $nsg=Get-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 Затем создайте виртуальную машину DC1 и настройте ее как контроллер домена для **testlab.**\<ваш публичный домен > домен AD DS и DNS-сервер для виртуальных машин виртуальной сети TestLab. Например, если ваше имя публичного домена — **<span>contoso</span>.com**, виртуальная машина DC1 будет контроллером домена **<span>testlab</span>.contoso.com**.

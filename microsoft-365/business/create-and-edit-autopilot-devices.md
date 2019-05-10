@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Сведения о том, как отправлять устройства с помощью автоПилота в Microsoft 365 Business. Вы можете назначить профиль устройству или группе устройств.
-ms.openlocfilehash: fff2dbc6af45ef9d4189f23849d638172c19dfb2
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Сведения о том, как отправлять устройства с помощью автопилота в Microsoft 365 Business. Вы можете назначить профиль устройству или группе устройств.
+ms.openlocfilehash: 6492f1469a1ac9ea67750e9ffa071d19c88c743f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277059"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660452"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Создание и изменение устройств AutoPilot
 
@@ -41,9 +41,9 @@ ms.locfileid: "32277059"
     
 - новые устройства, на которых еще не был пройден этап запуска Windows при первом включении.
 
-1. в центре администрирования Microsoft 365 Business выберите элемент **устройства** \> **автопилот** \> **Add**.
+1. В центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.
   
-2. On the **Prepare Windows** page, choose the **Devices** tab \> **Add devices**.
+2. На странице "автопилотный **проект** " перейдите на \> вкладку **устройства** , чтобы **Добавить устройства**.
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   

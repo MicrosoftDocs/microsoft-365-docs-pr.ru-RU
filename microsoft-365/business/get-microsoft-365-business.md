@@ -20,18 +20,20 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Сведения о приобретении Microsoft 365 Business из центра партнеров Майкрософт.
-ms.openlocfilehash: 1dcd9c21a598020447308970024a896b157bdae4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: f11e5905915e182faa5f3f1b6b7d3477ecac320b
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278391"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660520"
 ---
 # <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
 
 ## <a name="get-microsoft-365-business-from-microsoft"></a>Получение Microsoft 365 бизнес от корпорации Майкрософт
 
 Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес, вы можете [приобрести его здесь](https://www.microsoft.com/en-US/microsoft-365/business).
+
+Подробные инструкции можно найти [в статье регистрация в Microsoft 365 для бизнеса](sign-up.md) .
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Получение Microsoft 365 Business в Центре партнеров Майкрософт
 

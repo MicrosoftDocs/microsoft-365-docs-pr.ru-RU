@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Узнайте, как использовать автоПилот Windows для настройки новых устройств с Windows 10 для бизнеса.
-ms.openlocfilehash: e0802ddcc0964d0b8d102f7dbdb9116b33cdcf58
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса.
+ms.openlocfilehash: 8c4a14b4b9dcbf7a30c1e6e0bdd53418a1ab8a03
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277158"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660693"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
-Решение Windows AutoPilot позволяет настраивать новые устройства с Windows 10, чтобы они были готовы к работе сразу после выдачи сотрудникам.
+Вы можете использовать автопилот Windows для настройки **новых** устройств с Windows 10 для бизнеса, чтобы они были готовы к эффективному использованию, как только вы передаете их сотрудникам.
   
 ## <a name="device-requirements"></a>Требования к устройству
 
@@ -41,13 +41,17 @@ ms.locfileid: "32277158"
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Создание устройств и профилей с помощью мастера настройки
 
+![Баннер, который указывает https://aka.ms/aboutM365previewна.](media/m365admincenterchanging.png)
+
 Если вы еще не создали группы устройств и профили, лучший способ приступить к работе  воспользоваться пошаговым мастером. Однако вы также можете [добавлять устройства](create-and-edit-autopilot-devices.md) и [назначать им профили](create-and-edit-autopilot-profiles.md) без его помощи. 
   
-1. В Центре администрирования Office 365 бизнес в карточке **Действия устройств** выберите пункт **Развертывание Windows с помощью AutoPilot**.
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+
+2. В левой панели навигации выберите **устройства** \> **автопилот**.
+
+    ![В центре администрирования выберите устройства, а затем — автопилот.](media/AutoPilot.png)
   
-2. На странице **Подготовка Windows** нажмите кнопку **Запустить мастер**.
+2. На странице "автопилотный **проект** " щелкните или нажмите **начать руководство**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
