@@ -1,8 +1,11 @@
-# [Microsoft 365 бизнес](index.md)
-## [Обзор](microsoft-365-business-overview.md)
+# Microsoft 365 бизнес
+## [Microsoft 365](index.md)
+## [Что такое Microsoft 365 Бизнес?](microsoft-365-business-overview.md)
 ## [Получение Microsoft 365 для бизнеса](sign-up.md)
 ## [Предварительные требования для защиты данных](pre-requisites-for-data-protection.md)
-## [Настройка](set-up.md)
+## Настройка
+### [Обзор программы установки](set-up-overview.md)
+### [Настройка Microsoft 365 Business](set-up.md)
 ### [Обновление до версии Windows Pro Creators](upgrade-to-windows-pro-creators-update.md)
 ### [Настройка мобильных устройств](set-up-mobile-devices.md)
 ### [Настройка устройств с Windows](set-up-windows-devices.md)
@@ -14,8 +17,10 @@
 ## [Защита](security-features.md)
 ### [Защитите свою компанию](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Настройка дополнительных функций безопасности](set-up-advanced-security.md)
-## [Управление](manage.md)
+## Пользователи
 ### [Добавление пользователей](add-users-m365b.md)
+### [Удаление сотрудника](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Управление устройствами
 ### [Просмотр и изменение политик и устройств](view-policies-and-devices.md)
 ### [Удаление данных компании](remove-company-data.md)
 ### [Восстановление заводских настроек устройств](reset-devices-to-factory-settings.md)
@@ -26,7 +31,12 @@
 #### [Проверка параметров на компьютерах с Windows 10](validate-settings-on-windows-10-pcs.md)
 ### [Параметры защиты для устройств с Windows 10](protection-settings-for-windows-10-devices.md)
 ## [Переход на Microsoft 365 Бизнес](migrate-to-microsoft-365-business.md)
-## [Добавление устройств и профиля для автопилота](add-autopilot-devices-and-profile.md)
+## Выставление счетов
+### [Ваш счет](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Оплата](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Отмена](/Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## AutoPilot
+### [Добавление устройств и профиля для автопилота](add-autopilot-devices-and-profile.md)
 ### [Создание и изменение профилей AutoPilot](create-and-edit-autopilot-profiles.md)
 ### [Создание и изменение устройств AutoPilot](create-and-edit-autopilot-devices.md)
 ### [Параметры профиля для автопилота](autopilot-profile-settings.md)
