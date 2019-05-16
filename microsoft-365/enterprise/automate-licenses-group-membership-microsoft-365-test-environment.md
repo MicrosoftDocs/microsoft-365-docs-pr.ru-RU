@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 08/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройте лицензирование на основе групп и членство в динамической группе в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: 4ee929b345469d9cab05968a4a4c7f7399635b32
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 179284dce271c69939a560703561a32648af93b1
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353081"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072629"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Автоматизация лицензирования и участия в группах для тестовой среды Microsoft 365 корпоративный
 
@@ -45,7 +45,7 @@ ms.locfileid: "33353081"
   
 ## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a>Этап 2: Настройка и тестирование членства в динамических группах и автоматическое лицензирование
 
-Сначала необходимо создать новую группу продаж и добавить правило членства в динамической группе, чтобы учетные записи пользователей с подРазделением "продажи" автоматически добавлялись в группу "продажи".
+Сначала необходимо создать новую группу продаж и добавить правило членства в динамической группе, чтобы учетные записи пользователей с подразделением "продажи" автоматически добавлялись в группу "продажи".
 
 1. Используя частный экземпляр Интернет-браузера, войдите на портал Office 365 [https://portal.office.com](https://portal.office.com) с учетной записью глобального администратора подписки на тестовую лаборатория Office 365.
 2. На отдельной вкладке браузера перейдите на портал Azure по адресу [https://portal.azure.com](https://portal.azure.com).
@@ -72,7 +72,7 @@ ms.locfileid: "33353081"
 
 Далее вы протестируете сведения о членстве в динамических группах и автоматическом лицензировании для учетной записи User 4. 
 
-1. На вкладке **домашнЯя страница Microsoft Office** в браузере щелкните элемент **Администратор**.
+1. На вкладке **Домашняя страница Microsoft Office** в браузере щелкните элемент **Администратор**.
 2. На вкладке **центра администрирования Microsoft 365** щелкните **Активные пользователи**.
 3. На странице **Активные пользователи** выберите учетную запись **пользователя 4** .
 4. В области **пользователь 4** щелкните **изменить** для параметра **лицензии на продукты**.
@@ -93,7 +93,7 @@ ms.locfileid: "33353081"
 - [Настройка автоматического лицензирования](identity-self-service-group-management.md#identity-group-license)
 - [Настройка динамического членства в группах](identity-self-service-group-management.md#identity-dyn-groups)
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

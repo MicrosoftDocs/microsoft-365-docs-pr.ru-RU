@@ -3,7 +3,7 @@ title: Управление привилегированным доступом 
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Используйте это руководство по лаборатории тестирования для включения привилегированного управления доступом в тестовой среде Microsoft 365 корпоративный.
-ms.openlocfilehash: 9cac4f941ba3eb45bfc2bf79075ba22515a589b9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 306cd8d3cb574fd18a3d184898ead765936bf431
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290774"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073024"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Управление привилегированным доступом для вашей тестовой среды Microsoft 365 корпоративный
 
@@ -36,7 +36,7 @@ ms.locfileid: "32290774"
 Если необходимо настроить управление привилегированным доступом на имитируемой предприятии, следуйте инструкциям в [сквозной проверке](pass-through-auth-m365-ent-test-environment.md)подлинности.
   
 > [!NOTE]
-> Для тестирования привилегированного управления доступом не требуется имитация тестовой среды предприятия, которая включает имитируемую интрасеть, подключенную к Интернету и синхронизацию каталогов, для леса доменных служб Active Directory (AD DS). Он предоставляется в качестве варианта, чтобы можно было тестировать управление привилегированным доступом и поэкспериментировать с ним в среде, представляющей типичную организацию. 
+> Для тестирования привилегированного управления доступом не требуется имитация тестовой среды предприятия, которая включает имитируемую интрасеть, подключенную к Интернету и синхронизацию каталогов для леса AD DS. Он предоставляется в качестве варианта, чтобы можно было тестировать управление привилегированным доступом и поэкспериментировать с ним в среде, представляющей типичную организацию. 
 
 ## <a name="phase-2-configure-privileged-access-management"></a>Этап 2: Настройка управления привилегированным доступом
 
@@ -157,7 +157,7 @@ New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain>
 ```
 3. Просмотр того, что новое правило журнала успешно создано в Exchange Management PowerShell.
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Узнайте о дополнительных возможностях и возможностях [защиты информации](m365-enterprise-test-lab-guides.md#information-protection) в тестовой среде.
 

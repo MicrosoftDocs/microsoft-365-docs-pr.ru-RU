@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/10/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для создания и использования меток хранения Office 365 для документов в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: 3d64cd245e117813cb4c81a6e9099cd1a0120317
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 66e06f9a89b102c131bc29af17c4564fabbab9b4
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283542"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072419"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Классификация данных для тестовой среды Microsoft 365 корпоративный
 
@@ -55,9 +55,9 @@ ms.locfileid: "32283542"
     
 7. В области **Проверьте параметры** нажмите кнопку **Создать эту метку**.
     
-8. Повторите шаги 3-7 для дополнительных меток с указанными именами:
+8. Повторите шаги 3–7 для дополнительных меток с этими именами:
     
-  - Частный
+  - частные
     
   - Конфиденциальный
     
@@ -93,7 +93,7 @@ ms.locfileid: "32283542"
     
 3. На новой вкладке **SharePoint** в браузере выберите **создать сайт**.
     
-4. На странице **Создание сайта** щелкните **Сайт группы**.
+4. На странице **Создайте сайт** щелкните **Сайт группы**.
     
 5. В окне **имя сайта группы**введите **сенситивефилес**.
     
@@ -117,7 +117,7 @@ ms.locfileid: "32283542"
     
 1. В папке Документы щелкните **новый документ Word _гт_**.
     
-2. Введите некоторый текст в пустом документе. ДоЖдитесь сохранения текста.
+2. Введите некоторый текст в пустом документе. Дождитесь сохранения текста.
     
 3. В строке меню выберите пункт **Общие документы**.
     
@@ -131,7 +131,7 @@ ms.locfileid: "32283542"
 
 Сведения и ссылки на сведения о том, как развертывать метки хранения Office 365 в рабочей среде, можно найти в разделе [Настройка классификации для среды](infoprotect-configure-classification.md) на этапе **защиты информации** .
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Узнайте о дополнительных возможностях и возможностях [защиты информации](m365-enterprise-test-lab-guides.md#information-protection) в тестовой среде.
 

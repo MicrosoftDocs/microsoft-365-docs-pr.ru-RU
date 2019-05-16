@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 07/11/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: Используйте это руководство по лаборатории тестирования для регистрации устройств в тестовой среде Microsoft 365 и удаленного управления ими.
-ms.openlocfilehash: e653b3e6cafb6ee2eb492709a2d060c7b92a6904
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b72298df3dbc470358f8cd87e5ca249999812516
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281256"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073719"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise
 
@@ -68,7 +68,7 @@ Microsoft Intune предоставляет возможности удален�
 Дополнительные эксперименты приведены в разделе [Доступные действия устройств](https://docs.microsoft.com/intune/device-management#available-device-actions).
 
     
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Узнайте о дополнительных возможностях и возможностях [управления мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) в тестовой среде.
 

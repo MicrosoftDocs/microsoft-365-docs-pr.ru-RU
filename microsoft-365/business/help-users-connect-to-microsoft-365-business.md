@@ -3,7 +3,7 @@ title: Помощь пользователям с подключением к Mi
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetupComplete
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Сведения о том, что следует ожидать после завершения установки бизнес-Cloud Suite.
-ms.openlocfilehash: 02662341fbe35ce4ed2cf4b370e444b67a684771
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1a777d5ebc733fb286c8d66f85515c148379ffac
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276831"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072057"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Помощь пользователям с подключением к Microsoft 365 Business
 

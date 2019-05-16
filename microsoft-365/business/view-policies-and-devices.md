@@ -3,7 +3,7 @@ title: Просмотр политик и устройств
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Просмотр политик и действий устройств путем входа в Microsoft 365 Business с глобальным администратором крединтиалс.
-ms.openlocfilehash: fa609aad36b945fe9df99392aa1f9f8252baff1c
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 3231cfa61dcc85cda162b05f2c653048e980a8d9
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660227"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072207"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Просмотр политик и устройств и управление ими
 

@@ -3,7 +3,7 @@ title: Создание и изменение профилей AutoPilot
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -21,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: 'Узнайте, как создавать, редактировать, удалять и удалять профили автоПилота. '
-ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: 'Узнайте, как создавать, редактировать, удалять и удалять профили автопилота. '
+ms.openlocfilehash: 7987cafb3ea234d81be72c79aee8e584a3770875
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277167"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073497"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Создание и изменение профилей AutoPilot
 
@@ -35,7 +35,7 @@ ms.locfileid: "32277167"
 
 Профиль относится к устройству или группе устройств.
   
-1. в центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.
+1. В центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.
   
 2. На странице **автопилот** выберите \> вкладку **Профили** **Создание профиля**.
     
