@@ -3,7 +3,7 @@ title: Проверка параметров защиты приложений �
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -21,47 +21,47 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Узнайте, как проверить параметры защиты Microsoft 365 бизнес-приложений на устройствах с Windows 10.
-ms.openlocfilehash: 5ab91d65fa7bd40ebc118df217c9711b7bbfe7a4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 15c2d54c6281369875d15985c9d4ed16f0114176
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286773"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072245"
 ---
-# <a name="validate-device-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="80490-103">Проверка параметров защиты устройств на компьютерах с Windows 10</span><span class="sxs-lookup"><span data-stu-id="80490-103">Validate device protection settings on Windows 10 PCs</span></span>
+# <a name="validate-device-protection-settings-on-windows-10-pcs"></a><span data-ttu-id="759b2-103">Проверка параметров защиты устройств на компьютерах с Windows 10</span><span class="sxs-lookup"><span data-stu-id="759b2-103">Validate device protection settings on Windows 10 PCs</span></span>
 
-## <a name="verify-that-windows-10-device-policies-are-set"></a><span data-ttu-id="80490-104">Проверка настройки политик для устройств Windows 10</span><span class="sxs-lookup"><span data-stu-id="80490-104">Verify that Windows 10 device policies are set</span></span>
+## <a name="verify-that-windows-10-device-policies-are-set"></a><span data-ttu-id="759b2-104">Проверка настройки политик для устройств Windows 10</span><span class="sxs-lookup"><span data-stu-id="759b2-104">Verify that Windows 10 device policies are set</span></span>
 
-<span data-ttu-id="80490-p101">[Применение политик для устройств](protection-settings-for-windows-10-pcs.md) пользователей может занять до нескольких часов после их настройки. Чтобы убедиться в их применении, вы можете просмотреть несколько экранов параметров Windows на устройствах пользователей. Так как пользователи не смогут изменять параметры Центра обновления Windows и антивирусной программы "Защитник Windows" на своих устройствах Windows 10, многие из них будут затенены.</span><span class="sxs-lookup"><span data-stu-id="80490-p101">After you [set up devices policies](protection-settings-for-windows-10-pcs.md), it may take up to a few hours for the policy to take effect on users' devices. You can confirm that the policies took effect by looking at various Windows Settings screens on the users' devices. Because the users won't be able to modify the Windows Update and Windows Defender Antivirus settings on their Windows 10 devices, a lot of those options will be greyed out.</span></span>
+<span data-ttu-id="759b2-p101">[Применение политик для устройств](protection-settings-for-windows-10-pcs.md) пользователей может занять до нескольких часов после их настройки. Чтобы убедиться в их применении, вы можете просмотреть несколько экранов параметров Windows на устройствах пользователей. Так как пользователи не смогут изменять параметры Центра обновления Windows и антивирусной программы "Защитник Windows" на своих устройствах Windows 10, многие из них будут затенены.</span><span class="sxs-lookup"><span data-stu-id="759b2-p101">After you [set up devices policies](protection-settings-for-windows-10-pcs.md), it may take up to a few hours for the policy to take effect on users' devices. You can confirm that the policies took effect by looking at various Windows Settings screens on the users' devices. Because the users won't be able to modify the Windows Update and Windows Defender Antivirus settings on their Windows 10 devices, a lot of those options will be greyed out.</span></span>
   
-1. <span data-ttu-id="80490-108">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out.</span><span class="sxs-lookup"><span data-stu-id="80490-108">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out.</span></span> 
+1. <span data-ttu-id="759b2-108">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out.</span><span class="sxs-lookup"><span data-stu-id="759b2-108">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out.</span></span> 
     
     ![All the Restart options are greyed out.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. <span data-ttu-id="80490-110">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out.</span><span class="sxs-lookup"><span data-stu-id="80490-110">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out.</span></span> 
+2. <span data-ttu-id="759b2-110">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out.</span><span class="sxs-lookup"><span data-stu-id="759b2-110">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out.</span></span> 
     
     ![Windows Advanced updates options are all greyed out.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
-3. <span data-ttu-id="80490-112">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.</span><span class="sxs-lookup"><span data-stu-id="80490-112">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.</span></span>
+3. <span data-ttu-id="759b2-112">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.</span><span class="sxs-lookup"><span data-stu-id="759b2-112">Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.</span></span>
     
-    <span data-ttu-id="80490-113">Убедитесь в том, что красное сообщение "Некоторые параметры скрыты, или ими управляет ваша организация" отображается и все параметры затенены.</span><span class="sxs-lookup"><span data-stu-id="80490-113">Confirm that you can see the message (in red) that some settings are hidden or managed by your organization, and all the options are greyed out.</span></span>
+    <span data-ttu-id="759b2-113">Убедитесь в том, что красное сообщение "Некоторые параметры скрыты, или ими управляет ваша организация" отображается и все параметры затенены.</span><span class="sxs-lookup"><span data-stu-id="759b2-113">Confirm that you can see the message (in red) that some settings are hidden or managed by your organization, and all the options are greyed out.</span></span>
     
     ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
-4. <span data-ttu-id="80490-115">To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**.</span><span class="sxs-lookup"><span data-stu-id="80490-115">To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**.</span></span> 
+4. <span data-ttu-id="759b2-115">To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**.</span><span class="sxs-lookup"><span data-stu-id="759b2-115">To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**.</span></span> 
     
-5. <span data-ttu-id="80490-116">Убедитесь в том, что все параметры затенены.</span><span class="sxs-lookup"><span data-stu-id="80490-116">Verify that all options are greyed out.</span></span> 
+5. <span data-ttu-id="759b2-116">Убедитесь в том, что все параметры затенены.</span><span class="sxs-lookup"><span data-stu-id="759b2-116">Verify that all options are greyed out.</span></span> 
     
     ![The Virus and threat protection settings are greyed out.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
-## <a name="related-topics"></a><span data-ttu-id="80490-118">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="80490-118">Related Topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="759b2-118">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="759b2-118">Related Topics</span></span>
 
-[<span data-ttu-id="80490-119">Документы и ресурсы по Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="80490-119">Microsoft 365 Business documentation and resources</span></span>](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[<span data-ttu-id="759b2-119">Документы и ресурсы по Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="759b2-119">Microsoft 365 Business documentation and resources</span></span>](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[<span data-ttu-id="80490-120">Начало работы с Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="80490-120">Get started with Microsoft 365 Business</span></span>](microsoft-365-business-overview.md)
+[<span data-ttu-id="759b2-120">Начало работы с Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="759b2-120">Get started with Microsoft 365 Business</span></span>](microsoft-365-business-overview.md)
   
-[<span data-ttu-id="80490-121">Управление Microsoft 365 бизнес</span><span class="sxs-lookup"><span data-stu-id="80490-121">Manage Microsoft 365 Business</span></span>](manage.md)
+[<span data-ttu-id="759b2-121">Управление Microsoft 365 бизнес</span><span class="sxs-lookup"><span data-stu-id="759b2-121">Manage Microsoft 365 Business</span></span>](manage.md)
   
-[<span data-ttu-id="80490-122">Настройка параметров защиты устройств для компьютеров с Windows 10</span><span class="sxs-lookup"><span data-stu-id="80490-122">Set device configurations for Windows 10 PCs</span></span>](protection-settings-for-windows-10-pcs.md)
+[<span data-ttu-id="759b2-122">Настройка параметров защиты устройств для компьютеров с Windows 10</span><span class="sxs-lookup"><span data-stu-id="759b2-122">Set device configurations for Windows 10 PCs</span></span>](protection-settings-for-windows-10-pcs.md)
   
 
