@@ -3,7 +3,7 @@ title: Рабочие нагрузки и сценарии Microsoft 365 кор
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Подключите пользователей своей организации к рабочим нагрузкам Microsoft 365 корпоративный.
-ms.openlocfilehash: 30dbf913016687025c6159f1f1fc311462a13d29
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 06dc8683c471de9de7067a3d84673687cddc76c6
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400143"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072409"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 

@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Статья о корпорации Contoso как о деловой организации и о многоуровневой структуре ее офисов по всему миру.
-ms.openlocfilehash: 751f75bd2a5d1e0df401c1d3aa54a0fd5afec8f7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2610cad2db4f5621759578b29e6a6e48c07b3654
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289368"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072529"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Общие сведения о корпорации Contoso
 

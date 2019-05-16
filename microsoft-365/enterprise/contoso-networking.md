@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/18/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано об инфраструктуре сети компании Contoso и о том, как специалисты компании используют разработанную ими технологию SD-WAN для достижения оптимальной производительности сети при подключении к облачным службам Microsoft 365 корпоративный.
-ms.openlocfilehash: 09da5f25a9c2cc49ade470fa8fa7fe98d9f7a20e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 4a2b9f2172def2c62821536e456b2194795158c4
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283774"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072559"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Сеть корпорации Contoso
 

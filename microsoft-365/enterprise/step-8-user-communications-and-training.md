@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 09/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовить пользователей к работе с Windows 10 и Office 365 профессиональный плюс.
-ms.openlocfilehash: cd413ae0f7a85a65c41c2112a64e19b6ed68c987
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 60207ad991acdee2c5378b331ce85aa762722e40
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400193"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073049"
 ---
 # <a name="step-8-user-communications-and-training"></a>Шаг 8. Информирование и обучение пользователей
 
@@ -55,11 +55,12 @@ ms.locfileid: "33400193"
 
 Вы также можете предоставить пользователям средства обеспечения безопасности и соответствия требованиям. Решение Enterprise Mobility + Security, которое состоит из Azure AD и Microsoft Intune, интегрирует дополнительные возможности в Windows 10 и Office 365.
 
-[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/ru-RU/cloud-platform/enterprise-mobility-security)
+[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security)
 
 Например, при включенной многофакторной проверке подлинности используется Azure AD. Для безопасного доступа к ресурсам и службам пользователь должен будет выполнить вход с помощью приложения для телефона или PIN-кода. Azure Information Protection упрощает классификацию и маркировку документов.
 
-[Настройка многофакторной проверки подлинности для пользователей Office 365](https://support.office.com/ru-RU/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+
+  [Настройка многофакторной проверки подлинности для пользователей Office 365](https://support.office.com/ru-RU/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 В распоряжении пользователей появятся новые возможности, некоторые из них станут приятным (или не столь приятным) сюрпризом. Такие сюрпризы, особенно меняющие привычный рабочий процесс, могут привести к увеличению числа звонков и запросов в службу технической поддержки.
 

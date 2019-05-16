@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 09/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как перенести файлы и параметры пользователей.
-ms.openlocfilehash: 99cc252181627d5f0cf07fdf46f63b3ba526e20a
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 6cd445a41fd8e2c4a83e13e2d8e5f7d9ef76e2d8
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400123"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073009"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Этап 4. Перенос файлов и параметров пользователя
 
@@ -59,31 +59,33 @@ USMT собирает учетные записи пользователей, и
 
 Если вы восстанавливаете компьютер, не форматируя основной раздел Windows, вы также можете использовать USMT совместно с хранилищем миграции с жесткими связями. В ходе этого процесса на компьютере сохраняется среда пользователя, а старые приложения и операционная система удаляются и восстанавливаются. При восстановлении из того же локального раздела этот вариант обеспечивает существенное повышение производительности и сокращает сетевой трафик.
 
-[Обзор средства миграции пользовательской среды (USMT)](https://docs.microsoft.com/ru-RU/windows/deployment/usmt/usmt-overview)
+
+  [Обзор средства миграции пользовательской среды (USMT)](https://docs.microsoft.com/ru-RU/windows/deployment/usmt/usmt-overview)
 
 ## <a name="onedrive-known-folder-move"></a>Перемещение известных папок OneDrive
 
 Если ваши пользователи работают с OneDrive или вы добавляете OneDrive в ходе развертывания, то вам будет доступен этот новый вариант. Используя облако для синхронизации файлов пользователей, функция перемещения известных папок OneDrive обеспечивает гибкость, недостижимую при миграции по локальной сети. Включив эту функцию до миграции, вы получите безопасный доступ к новым или восстановленным компьютерам. Кроме того, вам не потребуется создавать временные хранилища для миграции на своих серверах. При этом обеспечивается полная прозрачность для пользователей.
 
-[Перенаправление и перенос известных папок Windows в OneDrive](https://docs.microsoft.com/ru-RU/onedrive/redirect-known-folders)
 
-Если вы уже используете OneDrive, то вам известно, что пользователи могут выбирать папки и расположения из OneDrive и SharePoint, синхронизируемые с их устройствами, но это по сути возлагает обязанности по настройке на пользователей. При переносе известных папок вы можете выбрать папки "Документы", "Рабочий стол" и "Изображения" из профиля пользователя и защищать эти данные в OneDrive. Пользователь может сделать это самостоятельно, либо (что важно для данного сценария) вы можете [принудительно применить эти параметры с помощью групповой политики](https://docs.microsoft.com/en-us/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c).
+  [Перенаправление и перенос известных папок Windows в OneDrive](https://docs.microsoft.com/ru-RU/onedrive/redirect-known-folders)
+
+Если вы уже используете OneDrive, то вам известно, что пользователи могут выбирать папки и расположения из OneDrive и SharePoint, синхронизируемые с их устройствами, но это по сути возлагает обязанности по настройке на пользователей. При переносе известных папок вы можете выбрать папки "Документы", "Рабочий стол" и "Изображения" из профиля пользователя и защищать эти данные в OneDrive. Пользователь может сделать это самостоятельно, либо (что важно для данного сценария) вы можете [принудительно применить эти параметры с помощью групповой политики](https://docs.microsoft.com/ru-RU/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c).
 
 При переносе известных папок пользователи не меняют свой рабочий процесс — во время синхронизации с OneDrive и после нее все выглядит так же, как и раньше. С помощью групповой политики вы даже можете выбрать, следует ли сообщать пользователям, что их документы, изображения и рабочие столы защищены в OneDrive. Если вы решите не уведомлять пользователей, миграция будет незаметно выполнена в фоновом режиме. Пользователи узнают только о доставке нового компьютера или восстановлении имеющегося. Когда пользователь войдет в свою учетную запись OneDrive, эти файлы снова станут доступны и будут восстановлены на новом компьютере. Конечно же, в OneDrive пользователи также смогут безопасно хранить свои файлы с телефонов и других устройств.
 
 Проверка подлинности для OneDrive основана на платформе Azure Active Directory, поэтому для дополнительной защиты вы можете легко включить многофакторную проверку подлинности. Кроме того, вы можете задавать политики, чтобы управлять полосой пропускания для отправки и скачивания, которую OneDrive использует для ограничения сетевой активности.
 
-Вам не нужно переносить всех пользователей одновременно. Вы можете поэтапно развертывать параметры групповой политики или [ограничить синхронизацию файлов компьютерами, присоединенными к домену](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOTenantSyncClientRestriction?view=sharepoint-ps).
+Вам не нужно переносить всех пользователей одновременно. Вы можете поэтапно развертывать параметры групповой политики или [ограничить синхронизацию файлов компьютерами, присоединенными к домену](https://docs.microsoft.com/ru-RU/powershell/module/sharepoint-online/Set-SPOTenantSyncClientRestriction?view=sharepoint-ps).
 
 ## <a name="start-menu-and-task-bar-customization"></a>Настройка меню "Пуск" и панели задач
 
 Служба OneDrive предназначена для синхронизации и защиты файлов и папок. Она не синхронизирует параметры приложений и Windows. Для этого в прошлом вы могли использовать способ с копированием профиля, чтобы настраивать структуру меню "Пуск" и панели задач для пользователей. В Windows 10 Pro, Windows 10 Корпоративная и Windows 10 для образовательных учреждений можно использовать групповую политику, MDM, PowerShell или подготовку пакетов, чтобы развертывать [пользовательскую структуру меню "Пуск" и панели задач](https://docs.microsoft.com/ru-RU/windows/configuration/windows-10-start-layout-options-and-policies). Переустановка из образа не требуется, а для обновления структуры достаточно заменить соответствующий XML-файл.
 
-Чтобы создать новую структуру, просто настройте эталонную систему и используйте командлет PowerShell [Export-StartLayout](https://docs.microsoft.com/en-us/powershell/module/startlayout/export-startlayout?view=win10-ps), чтобы создать XML-файл, а затем поместите этот файл в сетевую папку или кэшируйте ее локально в ходе развертывания. Когда пользователь входит в систему, эта папка должна быть доступна ему только для чтения. Затем вы можете ссылаться на этот файл с помощью политики или командлета [Import-StartLayout](https://docs.microsoft.com/en-us/powershell/module/startlayout/import-startlayout?view=win10-ps).
+Чтобы создать новую структуру, просто настройте эталонную систему и используйте командлет PowerShell [Export-StartLayout](https://docs.microsoft.com/ru-RU/powershell/module/startlayout/export-startlayout?view=win10-ps), чтобы создать XML-файл, а затем поместите этот файл в сетевую папку или кэшируйте ее локально в ходе развертывания. Когда пользователь входит в систему, эта папка должна быть доступна ему только для чтения. Затем вы можете ссылаться на этот файл с помощью политики или командлета [Import-StartLayout](https://docs.microsoft.com/ru-RU/powershell/module/startlayout/import-startlayout?view=win10-ps).
 
 ## <a name="removing-unwanted-in-box-apps"></a>Удаление ненужных встроенных приложений
 
-Стандартная установка Windows 10 включает множество полезных встроенных приложений, но вам может потребоваться удалить некоторые из них (например, XBOX или "Музыка Zune") с управляемых компьютеров или даже запретить установку этих приложений. Вы можете получить список этих приложений с помощью команды [PowerShell Get-AppxPackage](https://technet.microsoft.com/ru-RU/library/hh856044.aspx) и удалять ненужные программы с помощью команды [Remove-AppxPackage](https://technet.microsoft.com/ru-RU/library/hh856038.aspx). Кроме того, вы можете подключить файл образа Windows (IMG) в автономном режиме перед развертыванием и извлекать ненужные пакеты с помощью [системы обслуживания образов развертывания и управления ими (DISM)](https://docs.microsoft.com/ru-RU/windows-hardware/manufacture/desktop/what-is-dism) и команды [Remove-AppxProvisionedPackage](https://docs.microsoft.com/en-us/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps).
+Стандартная установка Windows 10 включает множество полезных встроенных приложений, но вам может потребоваться удалить некоторые из них (например, XBOX или "Музыка Zune") с управляемых компьютеров или даже запретить установку этих приложений. Вы можете получить список этих приложений с помощью команды [PowerShell Get-AppxPackage](https://technet.microsoft.com/ru-RU/library/hh856044.aspx) и удалять ненужные программы с помощью команды [Remove-AppxPackage](https://technet.microsoft.com/ru-RU/library/hh856038.aspx). Кроме того, вы можете подключить файл образа Windows (IMG) в автономном режиме перед развертыванием и извлекать ненужные пакеты с помощью [системы обслуживания образов развертывания и управления ими (DISM)](https://docs.microsoft.com/ru-RU/windows-hardware/manufacture/desktop/what-is-dism) и команды [Remove-AppxProvisionedPackage](https://docs.microsoft.com/ru-RU/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps).
 
 ## <a name="next-step"></a>Следующий этап
 

@@ -3,7 +3,7 @@ title: Развертывание Microsoft Teams для Microsoft 365 корп
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Выполните по шагам процесс планирования, развертывания и эффективного использования Microsoft Teams в Microsoft 365 корпоративный в вашей организации.
-ms.openlocfilehash: bfc9e76211779aa960ff7633dd7d59b2b01e9f98
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 1e7519817a10eb4aa710dff2d4c74c9390c9f6f6
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400213"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072859"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Развертывание Microsoft Teams для Microsoft 365 корпоративный
 
@@ -99,7 +99,7 @@ Teams делает возможными эти стратегические би
 - [Управление доступом пользователей к Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/user-access)
 - [Работа с клиентами для Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
 - [Включение Microsoft Teams в организации Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up)
-- [Управление функциями Microsoft Teams в организации Office 365](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+- [Управление функциями Microsoft Teams в организации Office 365](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)
 
 #### <a name="result"></a>Результат
 
