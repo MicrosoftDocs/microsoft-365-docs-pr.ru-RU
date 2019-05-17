@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 04/23/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 корпоративный в организации.
-ms.openlocfilehash: dca9d5938a5db9cb3bc00e4e34d1f939700a1182
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: ac3e023f6a9364f6b9de23cd5b91d0d6fb6dbf1b
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400067"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072499"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Развертывание Microsoft 365 корпоративный
 
@@ -136,60 +136,23 @@ FastTrack — это текущая и стандартная возможнос
   
 ### <a name="how-microsoft-uses-microsoft-365-enterprise"></a>Как Майкрософт использует Microsoft 365 корпоративный
 
-Узнайте, как ИТ-служба Майкрософт развертывала Microsoft 365 корпоративный и как его ежедневно используют сотрудники Майкрософт.
+Определение цифровой культуры является основным приоритетом для каждого руководителя, стремящегося к созданию современного рабочего места. Microsoft 365 предназначен для поддержки такого культурного сдвига, помогая руководителям предоставлять возможности всем пользователям в компании для реализации творческого потенциала и выполнения совместной работы. В корпорации Майкрософт формирование базовой инфраструктуры обеспечило именно такой цифровой культурный сдвиг. Внедрение Microsoft 365 корпоративный позволило нам развернуть технологию совместной работы, включая Microsoft Teams и Exchange Online, и обмениваться конфиденциальными данными по сети с помощью безопасных сайтов интрасети SharePoint.
 
-#### <a name="networking"></a>Организация сети
+В то же время интеллектуальные функции безопасности и интеграция продуктов помогают оптимизировать управление и уменьшить общую стоимость владения в течение жизненного цикла ИТ-службы. 
 
-- [Оптимизация производительности сети для Microsoft Office 365](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365)
+Узнайте, как группа проектирования основных служб и операций (прежнее название — ИТ-отдел Майкрософт) [спланировала и развернула основу](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365) для поддержки приложений и служб, раскрывающих творческие возможности и поощряющих совместную работу в безопасной среде.
 
-#### <a name="identity"></a>Идентификация
-
-- [Управление удостоверениями пользователей и защита доступа в Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/931/Managing-user-identities-and-secure-access-at-Microsoft)
-- [Использование Azure AD Privileged Identity Management для повышения прав доступа](https://www.microsoft.com/itshowcase/Article/Content/887/Using-Azure-AD-Privileged-Identity-Management-for-elevated-access)
-
-#### <a name="windows-10-enterprise"></a>Windows 10 Корпоративная
-
-- [Подготовка организации к простому развертыванию Windows 10](https://www.microsoft.com/itshowcase/windows10deployment?wt.mc_id=bmkg_itsc)
-- [Внедрение модели "Windows как услуга" в Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/851/Adopting-Windows-as-a-service-at-Microsoft)
-- [Развертывание Windows 10 в Майкрософт путем обновления на месте](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)
-- [Обеспечение надежной аутентификации пользователей с помощью Windows Hello для бизнеса](https://www.microsoft.com/itshowcase/Article/Content/756/Implementing-strong-user-authentication-with-Windows-Hello-for-Business)
-- [Развертывание Windows 10: советы от ИТ-специалистов Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT) (видео)
-- [ATP в Защитнике Windows помогает определять современные угрозы](https://www.microsoft.com/itshowcase/Article/Content/854/Windows-Defender-ATP-helps-detect-sophisticated-threats)
-- [Защита современного предприятия с помощью Защитника Windows и ATP в Защитнике Windows](https://www.microsoft.com/itshowcase/Article/Content/903/Securing-the-modern-enterprise-with-Windows-Defender-and-Windows-Defender-ATP) (видео)
-
-#### <a name="office-365-proplus"></a>Office 365 профессиональный плюс
-
-- [Развертывание и обновление Microsoft Office 365 профессиональный плюс](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
-- [Автоматизация и каналы обновления упрощают развертывание Microsoft Office 365 профессиональный плюс](https://www.microsoft.com/itshowcase/Article/Content/794/Automation-and-update-channels-help-deploy-Microsoft-Office-365-ProPlus) (видео)
-
-#### <a name="mobility-and-device-management"></a>Управление мобильностью и устройствами
-
-- [Управление современными средствами обеспечивания производительности при использовании мобильных устройств с помощью Enterprise Mobility + Security](https://www.microsoft.com/itshowcase/Article/Content/972/Managing-modern-mobile-productivity-with-Enterprise-Mobility--Security)
-- [Доступ к корпоративным ресурсам на устройстве с Windows 10 благодаря Microsoft Intune](https://www.microsoft.com/itshowcase/Article/Content/783/Connecting-to-work-on-your-Windows-10-device-with-Microsoft-Intune)
-- [Обеспечение производительности при использовании мобильных устройств с iOS, OS X и Android в корпорации Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/773/Enabling-mobile-productivity-for-iOS-OS-X-and-Android-devices-at-Microsoft)
-
-#### <a name="security-and-information-protection"></a>Безопасность и защита информации
-
-- [Защита файлов в облаке с помощью Azure Information Protection](https://www.microsoft.com/itshowcase/Article/Content/924/Protecting-files-in-the-cloud-with-Azure-Information-Protection)
-- [Корпорация Майкрософт использует аналитику угроз для защиты, обнаружения угроз и реагирования на них](https://www.microsoft.com/itshowcase/Article/Content/934/Microsoft-uses-threat-intelligence-to-protect-detect-and-respond-to-threats)
-- [Корпорация Майкрософт предотвращает попытки фишинга с помощью Office 365](https://www.microsoft.com/itshowcase/Article/Content/956/Microsoft-thwarts-phishing-attempts-with-Office-365)
-
-#### <a name="microsoft-teams"></a>Microsoft Teams
-
-- [Развертывание Microsoft Teams упрощает совместную работу и помогает работать в команде](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
-- [Microsoft Teams оптимизирует совместную работу на современном рабочем месте в корпорации Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
-
-#### <a name="data-migration"></a>Перенос данных
-
-- [Корпорация Майкрософт переносит 150 000 почтовых ящиков в Exchange Online](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
-- [Из SharePoint в облако: сведения о том, как корпорация Майкрософт перенесла свои данные](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
+> [!Note]
+> Эта веб-страница доступна только на английском языке.
 
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Как корпорация Contoso выполнила развертывание Microsoft 365 корпоративный
 
 Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат с главным офисом в Париже. Узнайте, [как в корпорации Contoso развертывался Microsoft 365 корпоративный](contoso-case-study.md) и рассматривались основные проектные решения и детали внедрения сети, удостоверений, Windows 10 Корпоративная, Office 365 профессиональный плюс, управления мобильными устройствами, защиты информации и системы безопасности. 
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step-to-deploy-microsoft-365-enterprise"></a>Следующий этап развертывания Microsoft 365 корпоративный
 
 Чтобы воспользоваться прямой помощью Майкрософт, используйте [FastTrack](https://fasttrack.microsoft.com/microsoft365).
+
+Чтобы воспользоваться услугами консультанта, обратитесь в службу Microsoft Consulting Services или к [партнеру Майкрософт](https://partner.microsoft.com/).
 
 Чтобы приступить к работе самостоятельно, см. статью [Базовая инфраструктура](deploy-foundation-infrastructure.md).
