@@ -12,12 +12,12 @@ manager: douge
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: b3711e0a68600152750d85e6287be735e204a92d
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 91ab1c1e23b2f4f9aab5c4327c29ac6cea52d080
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285097"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431780"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr"></a>Запросы субъектов данных служб Azure DevOps для GDPR
 

@@ -2,21 +2,21 @@
 title: Уведомление о нарушении безопасности данных Office 365 согласно GDPR
 description: Сведения о том, как корпорация Майкрософт защищает от нарушения безопасности персональных данных, реагирует на такие нарушения и оповещает о них.
 keywords: Office 365, Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 6b91b489d8d69faffa0852c3e352a6b2e9e9d496
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 69c626d874e0afd59e1447c494ec1b84c7a4cb7a
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286369"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431870"
 ---
 # <a name="office-365-breach-notification-under-the-gdpr"></a>Уведомление о нарушении безопасности данных Office 365 согласно GDPR
 

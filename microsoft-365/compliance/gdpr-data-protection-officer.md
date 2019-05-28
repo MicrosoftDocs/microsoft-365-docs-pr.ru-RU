@@ -2,21 +2,20 @@
 title: Специалист по защите данных корпорации Майкрософт
 description: Сведения о специалисте по защите данных корпорации Майкрософт в ЕС, действующем в рамках GDPR
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.date: ''
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 2401613de3c57bc02af67ed527eb37c314528930
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 3e7950872a1af8abaa34725756f157f8645da637
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286599"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431829"
 ---
 # <a name="microsofts-data-protection-officer"></a>Специалист по защите данных корпорации Майкрософт
 
@@ -44,7 +43,7 @@ D18 P521<br>
 Ireland (Ирландия)<br>
 Телефон: +353 (0) 1 295-3826<br>
 
-Контактные данные о специалисте по защите данных были переданы надзорному органу корпорации Майкрософт.   
+Контактные данные специалиста по защите данных были переданы надзорному органу корпорации Майкрософт.
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
