@@ -10,12 +10,12 @@ author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 049d12f5e8cb738fc7f1d53f6d08c592c8c52c46
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: 5d61c98290387563762c75d10c32476c35b9e9a4
+ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431826"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34544906"
 ---
 # <a name="data-protection-impact-assessments"></a>Оценка влияния на защиту данных
 
@@ -32,6 +32,4 @@ ms.locfileid: "34431826"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-[Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
-
-
+- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
