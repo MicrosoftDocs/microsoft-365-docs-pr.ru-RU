@@ -7,17 +7,18 @@
 ### [Обзор программы установки](set-up-overview.md)
 ### [Настройка Microsoft 365 Business](set-up.md)
 ### [Обновление до версии Windows Pro Creators](upgrade-to-windows-pro-creators-update.md)
-### [Настройка мобильных устройств](set-up-mobile-devices.md)
-### [Настройка устройств с Windows](set-up-windows-devices.md)
 ### [Подготовка к развертыванию клиента Office](prepare-for-office-client-deployment.md)
 ### [Автоматическая установка и удаление Office](auto-install-or-uninstall-office.md)
 ### [Доступ к локальным ресурсам]()
 #### [Включение управления подключенных к домену устройств с Windows 10](manage-windows-devices.md)
 #### [Доступ к ресурсам с устройства, подключенного к Azure AD](access-resources.md)
+## Настройка устройства пользователя
+### [Настройка мобильных устройств](set-up-mobile-devices.md)
+### [Настройка устройств с Windows](set-up-windows-devices.md)
 ## [Защита](security-features.md)
 ### [Защитите свою компанию](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Настройка дополнительных функций безопасности](set-up-advanced-security.md)
-## Пользователи
+## Управление пользователями
 ### [Добавление пользователей](add-users-m365b.md)
 ### [Удаление сотрудника](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Управление устройствами
@@ -41,6 +42,6 @@
 ### [Создание и изменение устройств AutoPilot](create-and-edit-autopilot-devices.md)
 ### [Параметры профиля для автопилота](autopilot-profile-settings.md)
 ### [Состояния устройств](device-states.md)
-## [ВОПРОСЫ и ответы по бизнес-статье Майкрософт 365](support/microsoft-365-business-faqs.md)
+## [Вопросы и ответы по бизнес-статье Майкрософт 365](support/microsoft-365-business-faqs.md)
 # [Office 365 корпоративный](https://docs.microsoft.com/office365/enterprise)
 # [Документация по Microsoft 365](https://docs.microsoft.com/microsoft-365)
