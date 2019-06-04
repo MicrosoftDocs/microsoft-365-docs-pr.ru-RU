@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует условиям Microsoft 365 корпоративный для служб и инфраструктуры, основанных на удостоверениях.
-ms.openlocfilehash: aabd9f5db223b4b1aba0173dcfb739fe27553555
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 19eefe3cd153668239d9cf15f71c90e8ac9571e1
+ms.sourcegitcommit: e87c9aa4d6f4756c0a761d3de7c70492b43bf0b9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072129"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "34681046"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 
@@ -51,7 +51,7 @@ ms.locfileid: "34072129"
 
 Чтобы убедиться, что ваши учетные записи глобальных администраторов защищены, выполните указанные ниже действия.
 
-1. Выполните указанную ниже команду Azure AD V2 в командной строке PowerShell. Должен отобразиться только список выделенных учетных записей глобальных администраторов.
+1. Выполните указанную ниже команду Azure Active Directory PowerShell для Graph в командной строке PowerShell. Должен отобразиться только список выделенных учетных записей глобальных администраторов.
    ```
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
