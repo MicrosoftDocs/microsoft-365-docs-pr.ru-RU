@@ -5,18 +5,17 @@ keywords: Azure, Microsoft 365, Microsoft 365 для образования, д�
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.date: 04/13/2018
-ms.author: heicba
-author: herviicban
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: a0d4f66bb765ae0f4f10ccb1ddefa86b90172352
-ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
+ms.openlocfilehash: 7e614554f73f154828536cb4064a5dcf9ec23c26
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34544856"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698331"
 ---
 # <a name="azure-and-breach-notification-under-the-gdpr"></a>Azure и уведомление о нарушении безопасности данных, определенном в GDPR
 
