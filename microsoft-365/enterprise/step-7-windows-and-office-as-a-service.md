@@ -3,7 +3,7 @@ title: Этап 7. Обслуживание Windows и Office
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 09/14/2018
+ms.date: 05/20/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовиться к обслуживанию Windows и Office в вашей среде.
-ms.openlocfilehash: 68598f92b5b29f1c0bc20ecb402b60b45128ca6a
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 9cc550ca87c1c71ef4a01030ce93b6300fcc019d
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400253"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814600"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Этап 7. Обслуживание Windows и Office
 
@@ -39,7 +39,7 @@ ms.locfileid: "33400253"
 
 Как в Windows 10, так и в Office 365 профессиональный плюс представлены новые варианты обслуживания, модели поддержки и расписания обновления. Эти изменения помогают своевременно добавлять новые возможности. Вместе с этими обновлениями предоставляются новые параметры конфигурации, позволяющие использовать подходящие вам планы обслуживания. Узнайте, как подготовиться к обновлениям Semi-Annual Channel с новыми компонентами и возможностями в Windows 10 и Office 365 профессиональный плюс, а также использовать новые возможности в System Center Configuration Manager (Current Branch).
 
-[Как мы помогаем клиентам перейти на Windows 10 и Office 365 профессиональный плюс](https://www.microsoft.com/ru-RU/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
+[Как мы помогаем клиентам перейти на Windows 10 и Office 365 профессиональный плюс](https://www.microsoft.com/en-us/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
 ## <a name="update-types"></a>Типы обновлений
 
@@ -59,9 +59,11 @@ ms.locfileid: "33400253"
 
 Во-первых, мы отказались от старой модели, которая создавала огромные волны перемен примерно каждые три года, в пользу небольших добавочных изменений с выпуском обновлений компонентов дважды в год. Почему? Технологии, как и угрозы безопасности, стремительно развиваются, поэтому возможности и защиту требуется поддерживать в актуальном состоянии. Например, некоторые обновления, связанные с безопасностью, невозможно просто доставлять в ежемесячных обновлениях для системы безопасности или файлах сигнатур антивируса. Это могут быть низкоуровневые изменения платформы, например защиты на основе виртуализации.
 
-[Краткое руководство по модели "Windows как услуга"](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-quick-start)
 
-[Устранение угроз с помощью функций безопасности Windows 10](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/overview-of-threat-mitigations-in-windows-10%20%20)
+  [Краткое руководство по модели "Windows как услуга"](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-quick-start)
+
+
+  [Устранение угроз с помощью функций безопасности Windows 10](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/overview-of-threat-mitigations-in-windows-10%20%20)
 
 ### <a name="cumulative-update-model-benefits"></a>Преимущества модели накопительных пакетов обновления
 
@@ -71,7 +73,7 @@ ms.locfileid: "33400253"
 
 ### <a name="expanded-validation-of-updates"></a>Расширенная проверка обновлений
 
-Еще одно преимущество заключается в том, что перед широким развертыванием обновлений мы сначала выпускаем сборки через программы предварительной оценки [Office](https://products.office.com/en-us/office-insider?tab=Windows-Desktop) и [Windows](https://insider.windows.com/ru-RU/), что позволяет нам собирать диагностические данные и отзывы до выпуска общедоступной версии. В настоящее время программы предварительной оценки открыты для всех, поэтому вы можете заранее осваивать новые обновления. К моменту выпуска мы собираем диагностические данные с миллионов конфигураций, поэтому можем быть уверены в качестве общедоступных обновлений.
+Еще одно преимущество заключается в том, что перед широким развертыванием обновлений мы сначала выпускаем сборки через программы предварительной оценки [Office](https://products.office.com/ru-RU/office-insider?tab=Windows-Desktop) и [Windows](https://insider.windows.com/en-us/), что позволяет нам собирать диагностические данные и отзывы до выпуска общедоступной версии. В настоящее время программы предварительной оценки открыты для всех, поэтому вы можете заранее осваивать новые обновления. К моменту выпуска мы собираем диагностические данные с миллионов конфигураций, поэтому можем быть уверены в качестве общедоступных обновлений.
 
 И еще: сборки для участников программы предварительной оценки Office 365 профессиональный плюс основаны на обновлениях Monthly Channel, поэтому если вы используете Semi-Annual Channel для Office, чтобы доставлять обновления компонентов дважды в год, как и для Windows, то вы можете проверять эти сборки заранее, а также использовать выпуски для Semi-Annual Channel.
 
@@ -79,29 +81,37 @@ ms.locfileid: "33400253"
 
 Мы также продумали удобное развертывание обновлений. System Center Configuration Manager (Current Branch) часто обновляется для поддержки новых возможностей и развертывания этих обновлений в Windows и Office.
 
-[Развертывание обновлений Windows 10 с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+  [Развертывание обновлений Windows 10 с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-manage-updates-configuration-manager)
+
+
+  [Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Общие сведения о каналах для Windows и Office
 
 Для Windows 10 предлагается три канала обслуживания:
 
-- [**Программа предварительной оценки Windows**](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-overview#windows-insider) для тестирования организациями новых возможностей обновления и предоставления отзыва о них
+- 
+  [
+  **Программа предварительной оценки Windows**](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-overview#windows-insider) для тестирования организациями новых возможностей обновления и предоставления отзыва о них
 - **Semi-Annual Channel** предоставляет новые функции в выпусках обновления компонентов два раза в год
 - **Long Term Servicing Channel** предназначен только для специальных устройств, которым требуется вариант обслуживания с более длительным сроком действия
 
 Для Office 365 предлагается четыре канала обслуживания:
 
-- [**Программа предварительной оценки Office**](https://support.office.com/ru-RU/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16) для тестирования организациями новых возможностей и функций Office, которые находятся в разработке, и предоставления отзыва о них
+- 
+  [
+  **Программа предварительной оценки Office**](https://support.office.com/ru-RU/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16) для тестирования организациями новых возможностей и функций Office, которые находятся в разработке, и предоставления отзыва о них
 - **Monthly Channel** для предоставления пользователям новейших возможностей Office по мере их выпуска
 - **Semi-Annual Channel** предоставляет новые функции в новых компонентах только два раза в год
 - **Semi-Annual Channel (Targeted)**  — полностью поддерживаемая сборка Office, которая позволяет пилотным пользователям и тестировщикам совместимости приложений тестировать и проверять следующий выпуск Semi-Annual Channel
 
 Подробные сведения о каналах обслуживания Windows и Office см. в указанных ниже статьях.
 
-- [Обзор модели "Windows как услуга"](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-overview#servicing-channels)
-- [Обзор каналов обновления Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- 
+  [Обзор модели "Windows как услуга"](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-overview#servicing-channels)
+- 
+  [Обзор каналов обновления Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>Поэтапное развертывание обновлений
 
@@ -137,9 +147,11 @@ ms.locfileid: "33400253"
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
 
-[Windows Semi-Annual Channel](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Semi-Annual Channel для Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+  [Windows Semi-Annual Channel](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-overview#semi-annual-channel)
+
+
+  [Semi-Annual Channel для Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Последовательности задач обновления
 
@@ -151,11 +163,12 @@ ms.locfileid: "33400253"
 
 Если вы уже используете последовательности задач для переноса компьютеров с Windows 7 на Windows 10 и хорошо владеете этими инструментами, то это отличная отправная точка, предоставляющая полный контроль. Вы можете использовать одну последовательность задач для всего обновления, но во многих организациях используется две последовательности. Одна гарантирует, что компьютеры готовы к обновлению, незаметно подготавливая все необходимые установочные файлы на целевых компьютерах, а другая выполняет само обновление. Этот подход обеспечивает меньшее воздействие на продуктивность пользователей.
 
-[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+
+  [Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>Поддержка обновлений компонентов в полугодовом канале
 
-[Как было объявлено в сентябре 2018 г.](https://www.microsoft.com/ru-RU/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/), сроки поддержки обновлений Semi-Annual Channel будут основаны на описанной ниже модели.
+[Как было объявлено в сентябре 2018 г.](https://www.microsoft.com/en-us/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/), сроки поддержки обновлений Semi-Annual Channel будут основаны на описанной ниже модели.
 
   - Все поддерживаемые в данный момент обновления компонентов Windows 10 Корпоративная и Windows 10 для образовательных учреждений, начиная с версии 1607, будут поддерживаться в течение 30 месяцев со дня их первоначального выпуска.
 
@@ -169,7 +182,8 @@ ms.locfileid: "33400253"
 
 Если вы не используете последовательности задач обновления, то теперь вы можете выполнять дополнительные действия или применять файлы драйверов во время обновления компонентов до установки (до того, как программа установки выполнит проверки совместимости) или до фиксации (применения обновления).
 
-[Что нового в программе установки Windows 10 версии 1803](https://docs.microsoft.com/ru-RU/windows/whats-new/whats-new-windows-10-version-1803%23windows-setup)
+
+  [Что нового в программе установки Windows 10 версии 1803](https://docs.microsoft.com/ru-RU/windows/whats-new/whats-new-windows-10-version-1803%23windows-setup)
 
 ## <a name="next-step"></a>Следующий этап 
 

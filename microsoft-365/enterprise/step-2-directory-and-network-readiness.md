@@ -3,7 +3,7 @@ title: Этап 2. Готовность каталогов и сети
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 09/14/2018
+ms.date: 05/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как оценить готовность каталогов и сети в среде.
-ms.openlocfilehash: cc3dcc1dd9c2e8d9c79f52de76b116ef7f9dffac
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: d9ab05c9ff7d0b926f147ee4f924d95f01ccffd1
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400173"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814620"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Этап 2. Готовность каталогов и сети
 
@@ -77,7 +77,8 @@ ms.locfileid: "33400173"
 
 Один из способов ограничить влияние сетевого трафика при развертывании — регулировать его при помощи параметров BITS (фоновой интеллектуальной службы передачи) в клиенте. BITS использует переменную скорость (ABR), чтобы регулировать полосу пропускания, доступную для развертывания. Эти параметры можно настраивать в клиентах с помощью групповой политики.
 
-[Сведения о BITS](https://docs.microsoft.com/ru-RU/windows/desktop/bits/about-bits)
+
+  [Сведения о BITS](https://docs.microsoft.com/ru-RU/windows/desktop/bits/about-bits)
 
 Если вы используете System Center Configuration Manager, вы также можете настроить точки распространения с поддержкой BITS или включить многоадресную рассылку с WDS.
 
@@ -119,7 +120,8 @@ ms.locfileid: "33400173"
 
 **Двоичное разностное сжатие.** Office 365 профессиональный плюс использует двоичное разностное сжатие, чтобы уменьшить полосу пропускания, используемую при переходе с последнего выпуска Office 365 профессиональный плюс на новый. Извлекая только изменения по сравнению с предыдущим выпуском на двоичном уровне, можно свести к минимуму влияние ежемесячного роста накопительных пакетов обновления. В перспективе это поможет ежемесячно экономить по несколько сотен мегабайт данных на компьютер. Однако при использовании этой возможности неприемлемо пропускать выпуски. В противном случае потребуется скачать накопительный пакет обновления полностью.
 
-[Скачивание обновлений для Office 365](https://docs.microsoft.com/ru-RU/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
+
+  [Скачивание обновлений для Office 365](https://docs.microsoft.com/ru-RU/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
 
 **Файлы данных Outlook.** Outlook часто настраивают на локальное кэширование всего почтового ящика пользователя для автономного использования. При любом развертывании Windows, кроме обновления на месте, для этого требуется, чтобы файлы данных Outlook пользователя восстановились после обновления. Этот процесс автоматизирован, но так как ограничения почтовых ящиков Outlook обычно составляют 100 ГБ, для повторного локального кэширования всего почтового ящика потребуется передать много данных Чтобы снизить нагрузку на сеть, вы можете использовать групповую политику, уменьшив значение параметра "Почта, которая должна храниться локально". В Outlook из набора Office 365 профессиональный плюс и Office 2016 по умолчанию задано значение 12 месяцев. Рекомендуем задать срок действия автономного кэша от 1 до 6 месяцев. Изменение этого параметра не повлияет на размер почтового ящика в Интернете, и при наличии сетевого подключения по-прежнему можно будет выполнять поиск по всему почтовому ящику через Outlook.
 
@@ -131,7 +133,7 @@ ms.locfileid: "33400173"
 
 [Настройка переноса известных папок](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/Migrate-Your-Files-to-OneDrive-Easily-with-Known-Folder-Move/ba-p/207076)
 
-[Файлы OneDrive по запросу](https://www.microsoft.com/ru-RU/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
+[Файлы OneDrive по запросу](https://www.microsoft.com/en-us/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
 
 Если вы уже развернули OneDrive, то переход с Windows 7 на Windows 10 станет отличной возможностью для включения службы OneDrive. Кроме того, она отлично интегрируется с Office 365 профессиональный плюс. Рекомендуем начать это развертывание при подготовке приложений и устройств. Благодаря этому синхронизация файлов начнется до перемещения образов Windows и развертывания приложений в сети.
 

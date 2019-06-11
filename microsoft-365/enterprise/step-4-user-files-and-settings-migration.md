@@ -3,8 +3,8 @@ title: Этап 4. Перенос файлов и параметров поль�
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 09/14/2018
-audience: ITPro
+ms.date: 06/10/2019
+ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как перенести файлы и параметры пользователей.
-ms.openlocfilehash: 6cd445a41fd8e2c4a83e13e2d8e5f7d9ef76e2d8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a35874121c348dff15a0959aa766b405c75b3d65
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073009"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814570"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Этап 4. Перенос файлов и параметров пользователя
 
