@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0eabd3c90e0aae2812b2ee9fd6fb4d1768e90c1e
-ms.sourcegitcommit: 8102751ae20c93439e19afded396c4e6ee5ea5a5
+ms.openlocfilehash: c3674df0bfd797b9076bbf52379444665b1ce4d8
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34104223"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857312"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -40,7 +40,7 @@ ms.locfileid: "34104223"
 
 - На рабочем столе, управляемом Майкрософт, утверждено изображение. При заказе устройств убедитесь, что они используются с настольными компьютерами, управляемыми корпорацией Майкрософт.
 - Не выполнили интерфейс первого запуска Windows.
-- Быть зарегистрированы с помощью [Windows](https://docs.microsoft.com/en-us/windows/deployment/windows-autopilot/user-driven-aad) автопилота и иметь назначенный профиль автопилота для управляемого рабочего стола Майкрософт.
+- Будьте зарегистрированы в Microsoft Managed Десткоп с помощью функции [Device Registration](https://aka.ms/mmddrhelp)
 
 #### <a name="additional-help"></a>Дополнительная справка
 
