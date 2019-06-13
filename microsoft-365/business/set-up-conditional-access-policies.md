@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как настроить политики условного доступа для Microsoft 365 Business.
-ms.openlocfilehash: 6ca3995113f090ccf2b119abde059a68ce562970
-ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
+ms.openlocfilehash: a0cc4a9085bdfe6a8d40acc69a020af1c5861fcf
+ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34806832"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913010"
 ---
 # <a name="set-up-conditional-access-policies-for-microsoft-365-business"></a>Настройка политик условного доступа для Microsoft 365 Business
 
@@ -52,9 +52,9 @@ ms.locfileid: "34806832"
     ![Страница, на которой перечисляются базовые политики для условного доступа.](media/baslinepolicies.png)
 1. Для каждой политики ознакомьтесь с приведенными ниже инструкциями.
 
-    - [Требовать MFA для администраторов](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-
-    -   [Требовать MFA для пользователей](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
-    - [Блокировать устаревшую проверку подлинности](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [Требовать MFA для администраторов](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [Рикуире MFA для пользователей](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [Блокировать устаревшую проверку подлинности](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [Запрос MFA для управления службами](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 Можно настроить множество дополнительных политик, например требование утвержденных клиентских приложений. Для получения дополнительных сведений ознакомьтесь с [документацией по условному доступу](https://docs.microsoft.com/azure/active-directory/conditional-access/) .
