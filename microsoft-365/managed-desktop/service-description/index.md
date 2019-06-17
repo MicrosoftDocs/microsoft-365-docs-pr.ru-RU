@@ -1,26 +1,38 @@
 ---
 title: Описание службы "управляемые компьютеры Майкрософт"
-description: Описание службы управляемых рабочих столов Майкрософт включает устройство в качестве службы и его как службу.
-keywords: НаСтольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+description: Сведения о том, что входит в состав управляемого рабочего стола Майкрософт в качестве службы
+keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 02/06/2019
-ms.openlocfilehash: abce237a7e9608d50c79f8676033a1362fd9931e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 59344a338e051b32225574c18609ffde09716c8c
+ms.sourcegitcommit: 83338be246ae104724d7f38af12fe7f6546fec27
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283441"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933548"
 ---
-# <a name="microsoft-managed-desktop-service-description"></a><span data-ttu-id="ab50d-104">Описание службы "управляемые компьютеры Майкрософт"</span><span class="sxs-lookup"><span data-stu-id="ab50d-104">Microsoft Managed Desktop service description</span></span>
-<span data-ttu-id="ab50d-105">На компьютере, управляемом Майкрософт, включены следующие службы:</span><span class="sxs-lookup"><span data-stu-id="ab50d-105">Microsoft Managed Desktop includes these services:</span></span> 
+# <a name="microsoft-managed-desktop-service-description"></a><span data-ttu-id="f20d6-104">Описание службы "управляемые компьютеры Майкрософт"</span><span class="sxs-lookup"><span data-stu-id="f20d6-104">Microsoft Managed Desktop service description</span></span>
 
-- [<span data-ttu-id="ab50d-106">Программные устройства</span><span class="sxs-lookup"><span data-stu-id="ab50d-106">Program devices</span></span>](device-list.md)
-- [<span data-ttu-id="ab50d-107">Службы устройств</span><span class="sxs-lookup"><span data-stu-id="ab50d-107">Device services</span></span>](device-services.md)
-- [<span data-ttu-id="ab50d-108">Настройка устройства</span><span class="sxs-lookup"><span data-stu-id="ab50d-108">Device configuration</span></span>](device-policies.md)
-- [<span data-ttu-id="ab50d-109">Безопасность</span><span class="sxs-lookup"><span data-stu-id="ab50d-109">Security</span></span>](security.md)
-- [<span data-ttu-id="ab50d-110">Updates</span><span class="sxs-lookup"><span data-stu-id="ab50d-110">Updates</span></span>](updates.md)
-- [<span data-ttu-id="ab50d-111">Поддержка</span><span class="sxs-lookup"><span data-stu-id="ab50d-111">Support</span></span>](support.md)
-- [<span data-ttu-id="ab50d-112">Операции и мониторинг</span><span class="sxs-lookup"><span data-stu-id="ab50d-112">Operations and monitoring</span></span>](operations-and-monitoring.md)
-- [<span data-ttu-id="ab50d-113">Требования к приложениям</span><span class="sxs-lookup"><span data-stu-id="ab50d-113">Application requirements</span></span>](mmd-app-requirements.md)
+<span data-ttu-id="f20d6-105">Microsoft Managed Desktop — это служба, которая обеспечивает безопасность современного современного интерфейса и всегда поддерживает актуальные устройства с последними версиями Windows 10 Корпоративная, Office 365 профессиональный плюс и Microsoft Security Services, в том числе:</span><span class="sxs-lookup"><span data-stu-id="f20d6-105">Microsoft Managed Desktop is a service that provides your users with a secure modern experience and always keeps devices up to date with the latest versions of Windows 10 Enterprise edition, Office 365 ProPlus, and Microsoft security services, including:</span></span>
+
+- <span data-ttu-id="f20d6-106">Конфигурация устройств</span><span class="sxs-lookup"><span data-stu-id="f20d6-106">Configuration of devices</span></span>
+- <span data-ttu-id="f20d6-107">Функции, обеспечивающие безопасность пользователей и устройств, в том числе Windows Hello, BitLocker, Секуребут и безопасность на основе виртуализации в соответствии с рекомендациями Майкрософт</span><span class="sxs-lookup"><span data-stu-id="f20d6-107">Features to keep users and devices secure, including Windows Hello, BitLocker, SecureBoot, and virtualization-based security according to Microsoft best practices</span></span>
+- <span data-ttu-id="f20d6-108">Наблюдение за безопасностью устройств и службы исправлений</span><span class="sxs-lookup"><span data-stu-id="f20d6-108">Device security monitoring and remediation services</span></span>
+- <span data-ttu-id="f20d6-109">Совместимость приложений с помощью [классического приложения](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)</span><span class="sxs-lookup"><span data-stu-id="f20d6-109">App compatibility, through [Desktop App Assure](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)</span></span>
+- <span data-ttu-id="f20d6-110">Управление обновлениями для приложений Windows 10 и Office 365 профессиональный плюс</span><span class="sxs-lookup"><span data-stu-id="f20d6-110">Management of updates for Windows 10 and Office 365 ProPlus apps</span></span>
+- <span data-ttu-id="f20d6-111">Аналитические данные об использовании устройств и приложений</span><span class="sxs-lookup"><span data-stu-id="f20d6-111">Analytical data about device and app usage</span></span>
+- <span data-ttu-id="f20d6-112">Поддержка ИТ для конечных пользователей</span><span class="sxs-lookup"><span data-stu-id="f20d6-112">IT support for your end users</span></span>
+- <span data-ttu-id="f20d6-113">Оперативная поддержка для ИТ-специалистов</span><span class="sxs-lookup"><span data-stu-id="f20d6-113">Operational support for IT Pros</span></span>
+
+<span data-ttu-id="f20d6-114">Подробные сведения о конкретных службах, включенных в систему управления рабочим столом Майкрософт, представлены в других подразделах этого раздела.</span><span class="sxs-lookup"><span data-stu-id="f20d6-114">For details about the specific services included with Microsoft Managed Desktop, see the other topics in this section.</span></span> <span data-ttu-id="f20d6-115">Если вы уже определили, что вы уже решили, что ваш компьютер с управляемым Майкрософт предназначен для вас, темы, описанные в статье Подготовка к [регистрации на рабочем столе Майкрософт](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/) , помогут вам подготовиться к присоединение к службе.</span><span class="sxs-lookup"><span data-stu-id="f20d6-115">If you've already decided that Microsoft Managed Desktop is for you, the topics in [Get ready for enrollment in Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/get-ready/) provide you with the steps to prepare to join the service.</span></span>
+
+- <span data-ttu-id="f20d6-116">[Поддерживаемые на настольных компьютерах Майкрософт регионы и языки](regions-languages.md) поясняют, какие регионы и языки поддерживаются в службе.</span><span class="sxs-lookup"><span data-stu-id="f20d6-116">[Microsoft Managed Desktop supported regions and languages](regions-languages.md) explains which regions and languages are supported with the service.</span></span>
+- <span data-ttu-id="f20d6-117">Чтобы обеспечить оптимальное взаимодействие с конечными пользователями, на компьютере, управляемом Майкрософт, поддерживается только определенное устройство.</span><span class="sxs-lookup"><span data-stu-id="f20d6-117">To guarantee the best experience for your end users, only certain devices are supported by Microsoft Managed Desktop.</span></span> <span data-ttu-id="f20d6-118">[Программные устройства](device-list.md) указывает точные модели устройств и конфигурации, которые можно использовать со службой, будь то вы их предоставите или работаете с партнером.</span><span class="sxs-lookup"><span data-stu-id="f20d6-118">[Program devices](device-list.md) specifies the exact device models and configurations you can use with the service, whether you provide them or work with a partner.</span></span>
+- <span data-ttu-id="f20d6-119">[Службы устройств](device-services.md) задают связанные с устройствами службы, которые корпорация Майкрософт предоставит подписчикам.</span><span class="sxs-lookup"><span data-stu-id="f20d6-119">[Device services](device-services.md) specifies the device-related services that Microsoft will provide to subscribers.</span></span>
+- <span data-ttu-id="f20d6-120">[Настройка устройств](device-policies.md) приводит к уточнению политик управления мобильными устройствами по умолчанию и связанных с безопасностью, которые служба будет применять к зарегистрированным устройствам.</span><span class="sxs-lookup"><span data-stu-id="f20d6-120">[Device configuration](device-policies.md) clarifies the default and security-related Mobile Device Management policies that the service will apply to enrolled devices.</span></span>
+- <span data-ttu-id="f20d6-121">[Security](security.md) указывает данные, полученные от зарегистрированных устройств, а также функции и политики, связанные с безопасностью устройств, управлением удостоверениями и доступом, безопасностью сети и информационной безопасностью.</span><span class="sxs-lookup"><span data-stu-id="f20d6-121">[Security](security.md) specifies the data collected from enrolled devices, as well as the features and policies related to device security, identity and access management, network security, and information security.</span></span>
+- <span data-ttu-id="f20d6-122">[](updates.md) В этой статье описываются различные группы обновлений, которые использует Microsoft Managed Desktop для развертывания обновлений на устройствах.</span><span class="sxs-lookup"><span data-stu-id="f20d6-122">[Updates](updates.md) describes the various update groups that Microsoft Managed Desktop uses to roll out updates to your devices.</span></span>
+- <span data-ttu-id="f20d6-123">[Поддержка](support.md) Майкрософт предоставляет пользователям сведения о поддержке вашей организации и конечных пользователей.</span><span class="sxs-lookup"><span data-stu-id="f20d6-123">[Support](support.md) clarifies the support Microsoft provides for your organization and end users.</span></span>
+- <span data-ttu-id="f20d6-124">[Операции и мониторинг](operations-and-monitoring.md) поясняется, как управление изменениями осуществляется с помощью управляемого рабочего стола Майкрософт, в том числе стандартных процедур для запроса и подготовки изменений в развертывании.</span><span class="sxs-lookup"><span data-stu-id="f20d6-124">[Operations and monitoring](operations-and-monitoring.md) explains how change management works with Microsoft Managed Desktop, including standard procedures for requesting and preparing for changes in the deployment.</span></span>
+- <span data-ttu-id="f20d6-125">[Требования к приложениям](mmd-app-requirements.md) описание типов приложений и поведений, разрешенных в управляемом Майкрософт рабочем столе, а также разделение ролей и обязанностей для развертывания и управления приложениями.</span><span class="sxs-lookup"><span data-stu-id="f20d6-125">[Application requirements](mmd-app-requirements.md) describes the types of apps and behaviors allowed in Microsoft Managed Desktop and the division of roles and responsibilities for app deployment and management.</span></span>
