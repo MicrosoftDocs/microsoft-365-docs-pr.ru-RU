@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 86bdf37ca56c5779042ee78be091dd14ee63b80e
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 4b69047c2c595b899fd29593c9c02a3531ffbd53
+ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814550"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017501"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -36,18 +36,17 @@ ms.locfileid: "34814550"
 
 В этих практических занятиях вы будете использовать автоматически подготовленную к работе виртуальную лабораторную среду, которая включает присоединенные к домену клиенты для настольных ПК, контроллер домена, шлюз Интернета и полностью настроенный экземпляр Configuration Manager. В занятие включены ознакомительные версии указанных ниже продуктов.
 
-  - Windows 10 Корпоративная, версия 1809
-  - Windows 7
-  - Office 365 профессиональный плюс, версия 1901
-  - System Center Configuration Manager, версия 1802
-  - Комплект средств для развертывания и оценки Windows для Windows 10, версия 1809
+  - Windows 10 Корпоративная, версия 1903
+  - Windows 7 Корпоративная
+  - System Center Configuration Manager, версия 1902
+  - Комплект средств для развертывания и оценки Windows для Windows 10, версия 1903
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V) 5.1
   - Microsoft BitLocker Administration and Monitoring 2.5 с пакетом обновления 1 (SP1)
-  - Windows Server 2016
-  - Microsoft SQL Server 2014
+  - Windows Server 2019
+  - Microsoft SQL Server 2017
 
-Кроме того, занятие разработано так, что предполагает подключение к пробным версиям указанных ниже продуктов.
+Кроме того, занятие разработано так, что предполагает подключение к пробным версиям указанных ниже продуктов. 
 
   - Microsoft 365 корпоративный E5
 
@@ -119,7 +118,7 @@ ms.locfileid: "34814550"
 
 ### <a name="download-the-windows-and-office-deployment-lab-kithttpsakamsmddlabsevalcenter"></a>[**Скачать комплект Deployment Lab Kit для Windows и Office**](https://aka.ms/mddlabs_evalcenter)
 
-*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 13 мая 2019 г. До этой даты будет опубликована новая версия занятия.*
+*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 27 августа 2019 г. До этой даты будет опубликована новая версия занятия.*
 
 ## <a name="additional-guidance"></a>**Дополнительные рекомендации**
 
