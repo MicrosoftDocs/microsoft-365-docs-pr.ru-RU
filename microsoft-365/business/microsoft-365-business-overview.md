@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.date: 9/20/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: eb3d611d2be0480fdd0ff897ec5ba69b17695041
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 6fd328ebd4a8d3fbcde836c4aa87b56b9775c3cd
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660481"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114969"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Общие сведения о Microsoft 365 Business
 
@@ -60,3 +60,5 @@ Microsoft 365 бизнес помогает защитить данные в к�
 - Если у вас есть партнер, он получит Office 365 бизнес, как описано в статье [Получение Microsoft 365 Business в Центре партнеров Майкрософт](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - Если у вас нет партнера и вы хотите получить Microsoft 365 Business, вы можете [приобрести его здесь](https://www.microsoft.com/microsoft-365/business) и выполнить инструкции по [регистрации](sign-up.md) .
+
+- Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.
