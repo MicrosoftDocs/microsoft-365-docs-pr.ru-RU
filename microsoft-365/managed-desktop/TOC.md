@@ -4,6 +4,7 @@
 ### [Технологии на настольных компьютерах, управляемых Майкрософт](intro/technologies.md)
 ## [Описание службы "управляемые компьютеры Майкрософт"](service-description/index.md)
 ### [Поддерживаемые регионы и языки](service-description/regions-languages.md)
+### [Жизненный цикл продукта](service-description/device-lifecycle.md)
 ### [Программные устройства](service-description/device-list.md)
 #### [Архивированные устройства программ](service-description/archived-device-list.md)
 ### [Службы устройств](service-description/device-services.md)
