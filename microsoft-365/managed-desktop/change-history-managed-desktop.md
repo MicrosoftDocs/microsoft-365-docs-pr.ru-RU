@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 4cd61e333773ddeddc866481be7e1cfa283e4386
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: 65602cb3175f8a930537746d831bb85f26de0383
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913030"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390366"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации на настольных компьютерах, управляемых Майкрософт
 
@@ -25,6 +25,8 @@ ms.locfileid: "34913030"
 [Приложения на настольном компьютере, управляемом Майкрософт](get-ready/apps.md) | Обновленная тема
 [Работа со службами консультационной службы Майкрософт](get-ready/apps-mcs.md) | Новый раздел
 [Управляемые роли и обязанности на рабочем столе Майкрософт](intro/roles-and-responsibilities.md) | Обновленная тема
+[Жизненный цикл продуктов для настольных ПК, управляемых Майкрософт](service-description/device-lifecycle.md) | Новый раздел
+
 
 
 ## <a name="may-2019"></a>Май 2019 г.

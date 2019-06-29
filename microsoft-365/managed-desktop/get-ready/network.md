@@ -1,31 +1,31 @@
 ---
-title: Конфигурация сети для наСтольного компьютера, управляемого Майкрософт
+title: Конфигурация сети для настольного компьютера, управляемого Майкрософт
 description: ''
-keywords: НаСтольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f4cfaffe25638de80d23c3e681e50cbb544ca961
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 333fb51fe9d7df7c5ec47c2e7a812cd489c36d23
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289104"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390496"
 ---
-#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для наСтольного компьютера, управляемого Майкрософт
+#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для настольного компьютера, управляемого Майкрософт
 
 <!--Proxy config -->
 
 
 ## <a name="proxy-configuration"></a>Настройка прокси-сервера
 
-Рабочий стол, управляемый корпорацией Майкрософт, — это облачная служба. Существует набор конечных точек, которые должны быть доступны для служб наСтольных компьютеров, управляемых корпорацией Майкрософт. В этом разделе перечислены конечные точки, которые необходимо разрешить для различных аспектов службы управляемых рабочих столов Майкрософт. 
+Рабочий стол, управляемый корпорацией Майкрософт, — это облачная служба. Существует набор конечных точек, которые должны быть доступны для служб настольных компьютеров, управляемых корпорацией Майкрософт. В этом разделе перечислены конечные точки, которые необходимо разрешить для различных аспектов службы управляемых рабочих столов Майкрософт. 
 
 Клиенты могут оптимизировать свою сеть, отправив все доверенные сетевые запросы Microsoft 365 напрямую через брандмауэр/прокси-сервер, обходя проверку подлинности и все дополнительные проверки или обработку пакетов. Это сокращает время задержки и требования к мощности периметра. 
 
-Кроме того, для оптимизации производительности управляемых облачных служб для наСтольных компьютеров с помощью этих конечных точек требуется специальная обработка в клиентских браузерах клиентов и устройствах в пограничной сети. К этим устройствам относятся брандмауэры, средства проверки и перехвата пакетов, устройства проверки пакетов и системы защиты от потери данных.
+Кроме того, для оптимизации производительности управляемых облачных служб для настольных компьютеров с помощью этих конечных точек требуется специальная обработка в клиентских браузерах клиентов и устройствах в пограничной сети. К этим устройствам относятся брандмауэры, средства проверки и перехвата пакетов, устройства проверки пакетов и системы защиты от потери данных.
 
 ### <a name="proxy-requirement"></a>Требование прокси-сервера
 
@@ -39,10 +39,10 @@ ms.locfileid: "32289104"
 
 Служба Майкрософт  | Для белого списка требуются URL-адреса 
 --- | --- | ---
-Рабочий стол, управляемый корпорацией Майкрософт | PROD-mwaas-Services-customerapi.azurewebsites.NET
-Получение справки | \*. support.Services.Microsoft.com  <br>inprod.support.Services.Microsoft.com  <br>supportchannels.Services.Microsoft.com  <br>Graph.Windows.NET  <br>Login.Windows.NET  <br>PROD-mwaas-Services-customerapi.azurewebsites.NET
-Быстрая помощь | remoteassistance.support.Services.Microsoft.com <br>Relay.support.Services.Microsoft.com <br>channelwebsdks.azureedge.NET  <br>Web.Vortex.Data.Microsoft.com  <br>Gateway.ChannelServices.Microsoft.com <br>\*. Lync.com
-Помощник по поддержке и восстановлению Майкрософт для Office 365 | \*. apibasic.Diagnostics.Office.com  <br>\*. API.Diagnostics.Office.com
+Рабочий стол, управляемый корпорацией Майкрософт | prod-mwaas-services-customerapi.azurewebsites.net
+Получение справки | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+Быстрая помощь | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
+Помощник по поддержке и восстановлению Майкрософт для Office 365 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed---other-microsoft-products"></a>Разрешенные конечные точки — другие продукты Майкрософт
@@ -54,7 +54,7 @@ ms.locfileid: "32289104"
 Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)
 Оптимизация доставки | [Настройка оптимизации доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Office 365 | [Диапазоны IP-адресов и URL-адреса для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портАм доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
+Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портам доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Требования к настройке сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
 Advanced Threat Protection в Защитнике Windows (ATP) | [Конечные точки пакета ATP для защитника Windows] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
 )

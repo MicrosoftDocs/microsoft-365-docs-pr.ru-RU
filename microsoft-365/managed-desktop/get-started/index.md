@@ -1,23 +1,23 @@
 ---
 title: Начало работы с управляемыми рабочими столами Майкрософт
 description: ''
-keywords: НаСтольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: ecc61e33af77e44ef0cc79b6a40cd537b99ae696
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a79b71a836444ff745e2e9c64fce023db81c1d17
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289084"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390506"
 ---
 # <a name="get-started-with-microsoft-managed-desktop"></a>Начало работы с управляемыми рабочими столами Майкрософт
 
 С помощью управляемого рабочего стола Майкрософт Управление устройствами для настольных систем осуществляется в облачной инфраструктуре предприятия. 
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 - [Добавление контактов администратора](add-admin-contacts.md)
 - [Заказ устройств](devices.md)
