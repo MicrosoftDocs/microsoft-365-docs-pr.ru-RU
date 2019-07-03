@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 40927b18b0d047eae848b5a2a938d98fa6de3119
-ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
+ms.openlocfilehash: 06ec98ebc7ea44a1bf3d8039e3a3ab7102521d3e
+ms.sourcegitcommit: ef749c44d72b5258706be86a4af1aeca4154ead2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857332"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35447531"
 ---
 # <a name="register-devices-in-microsoft-managed-desktop-for-partners"></a>Регистрация устройств на компьютере, управляемом Майкрософт, для партнеров
 
@@ -20,7 +20,7 @@ ms.locfileid: "34857332"
 
 
 ## <a name="prepare-for-registration"></a>Подготовка к регистрации 
-Прежде чем завершить регистрацию клиента, необходимо сначала установить связь с ними в [центре партнеров](https://partner.microsoft.com/dashboard). Дополнительные сведения см. в [справке центра партнеров](https://docs.microsoft.com/en-us/partner-center/request-a-relationship-with-a-customer).
+Прежде чем завершить регистрацию клиента, необходимо сначала установить связь с ними в [центре партнеров](https://partner.microsoft.com/dashboard). Установите флажок **включить делегированные права администрирования для Azure Active Directory и Office 365**. Дополнительные сведения см. в [справке центра партнеров](https://docs.microsoft.com/en-us/partner-center/request-a-relationship-with-a-customer).
 
 Чтобы завершить регистрацию клиента, сначала создайте CSV-файл.
 
