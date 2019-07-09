@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте о возможностях развертывания ОС и обновления компонентов.
-ms.openlocfilehash: e26bbea4e0507c66102931eb102ce96d2620cfc7
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 16af9a57623ffbdd73d97d44993c36ce57889eaf
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814630"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584545"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Шаг 6. Обновления компонентов и развертывание ОС
 
@@ -49,7 +49,7 @@ ms.locfileid: "34814630"
 
 При создании образа нужна максимальная автоматизация. Это поможет добиться как можно лучшего качества образа и обеспечит повторяемость процесса. Для большинства вариантов развертывания рекомендуем выполнять как можно меньше настроек и добавлять как можно меньше предварительно установленных приложений в Windows перед записью. Это так называемый подход "тонкого" образа, позволяющий не перегружать полосу пропускания сети за счет уменьшения количества приложений в образе. Взяв "тонкий" образ за основу, можно добавить требуемые приложения, языки и конфигурации, динамически созданные для пользователей.
 
-Во время сборки и записи такие средства, как System Center Configuration Manager и Microsoft Deployment Toolkit, используют средство Sysprep наряду с командой "Generalize", чтобы запечатать образ перед записью устанавливаемой Windows 10 в виде образа.
+Во время сборки и записи такие средства, как System Center Configuration Manager (Current Branch) и Microsoft Deployment Toolkit, используют средство Sysprep наряду с командой "Generalize", чтобы запечатать образ перед записью устанавливаемой Windows 10 в виде образа.
 
 Записанный образ будет иметь формат образа Windows (WIM), как в случае стандартного установочного носителя Windows. После создания специального файла WIM можно использовать другую последовательность задач в рамках развертывания ОС в System Center Configuration Manager или Microsoft Deployment Toolkit для выполнения задач, связанных с развертыванием, чтобы применить образ и выполнить задачи до и после применения образа Windows.
 
@@ -76,7 +76,7 @@ ms.locfileid: "34814630"
 
 ### <a name="in-place-upgrade-using-task-sequence-automation"></a>Обновление на месте с автоматизацией последовательности задач
 
-Помимо упомянутых типов развертывания, существует еще один новый вариант — последовательность задач System Center Configuration Manager в Windows 10 и обновление на месте с помощью последовательности задач обновления.
+Помимо упомянутых типов развертывания, существует еще один новый вариант — последовательность задач System Center Configuration Manager (Current Branch) в Windows 10 и обновление на месте с помощью последовательности задач обновления.
 
 Для обновления предыдущей версии Windows на месте последовательность задач не требуется, но этот подход рекомендуется при развертывании в масштабах корпорации. Обновление на месте не позволяет применить специальный образ с приложениями, однако можно обновить используемый по умолчанию образ install.wim путем автономного обслуживания. Например, можно принудительно применить последние обновления Windows перед установкой новой версии.
 
@@ -100,7 +100,7 @@ ms.locfileid: "34814630"
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
 
-### <a name="recommended-tools-system-center-configuration-manager-and-the-microsoft-deployment-toolkit"></a>Рекомендуемые средства: System Center Configuration Manager и Microsoft Deployment Toolkit
+### <a name="recommended-tools-system-center-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>Рекомендуемые средства: System Center Configuration Manager (Current Branch) и Microsoft Deployment Toolkit
 
 Любой выбранный вариант развертывания нужно максимально автоматизировать, чтобы добиться прогнозируемых и повторяемых результатов. Корпорация Майкрософт предлагает два решения для автоматизации развертывания операционной системы с помощью автоматизированных последовательностей задач, описанные ниже.
 

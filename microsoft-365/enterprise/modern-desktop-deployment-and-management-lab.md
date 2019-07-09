@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: c056aba81edc079f0577dea8d4ef535d7e6cc32a
-ms.sourcegitcommit: a84cf473bc61a7bb1cfca221cf435e0a418305b2
+ms.openlocfilehash: ba1cd7e88766b6393bafcbd7381ceeb98f030d51
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "35576509"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584535"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
 В этих загружаемых практических занятиях основное внимание уделено развертыванию Windows 10 и Office 365, а также вопросам настройки и управления, выполняемых после развертывания. Мы настоятельно рекомендуем этот курс обучения организациям, которые ведут подготовку к завершению срока службы Windows 7, а также тем организациям, которые уже используют Windows 10 и Office 365 плюс либо Office 2019. В курс включены рекомендации по работе с Windows 10, Office 365 профессиональный плюс, Enterprise Mobility + Security и связанными с ними продуктами и услугами.
 
-Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная или Office 365 профессиональный плюс. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, System Center Configuration Manager, Windows Analytics, центр развертывания Office, OneDrive, Windows Autopilot и многое другое.
+Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная или Office 365 профессиональный плюс. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, включая System Center Configuration Manager, Аналитика компьютеров, центр развертывания Office, OneDrive, Windows Autopilot и т. д.
 
 При [развертывании компьютеров](http://www.aka.ms/howtoshift) с Windows 10 и Office 365 профессиональный плюс рекомендуется начать работу с создания изолированной лабораторной среды. Ее можно использовать для изучения обновлений средств развертываний и тестирования средств автоматизации, связанных с процессом развертывания.
 
@@ -60,8 +60,8 @@ ms.locfileid: "35576509"
 
 ### <a name="device-and-app-readiness"></a>**Проверка готовности устройств и приложений**
 
-  - Windows Analytics
-  - Режим предприятия и список сайтов режима предприятия и для Internet Explorer
+  - Аналитика компьютеров
+  - Режим предприятия и список сайтов режима предприятия для Internet Explorer
 
 ### <a name="directory-and-network-readiness"></a>**Проверка готовности каталогов и сети**
 
