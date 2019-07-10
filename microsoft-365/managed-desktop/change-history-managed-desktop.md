@@ -8,16 +8,21 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 65602cb3175f8a930537746d831bb85f26de0383
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 4915bf5d1b89720c65a5134b23d9d837febff357
+ms.sourcegitcommit: 184957e2878388e0d427a7ee47577d29c4e3c483
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390366"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35605968"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации на настольных компьютерах, управляемых Майкрософт
 
 В этом разделе перечислены новые и обновленные статьи, посвященные [управляемой документации на рабочем столе Майкрософт](index.yml).
+
+## <a name="july-2019"></a>2019 июля
+Новый или измененный раздел | Описание
+--- | ---
+[Работа со службами консультационной службы Майкрософт](get-ready/apps-mcs.md) | Обновленная тема
 
 ## <a name="june-2019"></a>Июнь 2019
 Новый или измененный раздел | Описание
