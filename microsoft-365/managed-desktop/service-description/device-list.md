@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: c991dd20dcab50c824784c233e03ecc8cdc25f94
-ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
+ms.openlocfilehash: f16989960d999e65ad904fd11894d5fe8bca98f0
+ms.sourcegitcommit: 1bd18fb00aad37bad8d1411a916f444e1d1a38cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857292"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756901"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -47,7 +47,6 @@ ms.locfileid: "34857292"
 | [Книга Surface 2](https://www.microsoft.com/en-us/p/surface-book-2-for-business/8x4htznfgg38/lbh3?cid=msft_web_collection&CustomerIntent=Consumer) | 512 ГБ/Intel i7/16 ГБ ОЗУ | 15 х дюймовых дисплеев | 16 ноября 2019 г. | 16 ноября 2022 г. |
 | [Переход на поверхность](https://www.microsoft.com/en-us/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 ГБ/Intel 4415Y/8 ГБ ОЗУ | Нет | Авг 2, 2020 | Авг 2, 2023 |
 | [Ноутбук 2](https://www.microsoft.com/en-us/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
-|[Surface Pro (5-й Gen)](https://www.microsoft.com/en-us/p/surface-pro-5th-gen-for-business/907tds4dgwwv/kkzn?cid=msft_web_collection&CustomerIntent=Consumer) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **15 июня 2019 г.** | 15 июня 2022 г. |
 | [Surface Pro 6](https://www.microsoft.com/en-us/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
 
 Кроме того, устройство также должно:     
