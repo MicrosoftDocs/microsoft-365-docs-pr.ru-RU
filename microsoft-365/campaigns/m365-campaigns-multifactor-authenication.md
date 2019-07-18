@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка многофакторной проверки подлинности.
-ms.openlocfilehash: 0538709f6052a82e04652f0c7676afe8c429b44b
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+ms.openlocfilehash: cd14bb0d0f24215c64579851fe6982c5bf1ddc3e
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35081145"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772496"
 ---
 # <a name="set-up-multifactor-authentication"></a>Настройка многофакторной проверки подлинности
 
-Многофакторная проверка подлинности обеспечивает дополнительную безопасность для вашего бизнеса.  После того как администратор запрашивает использование MFA, вы можете настроить приложение Microsoft Authenticator для безопасного входа в ключевые приложения с телефона. 
+Многофакторная проверка подлинности обеспечивает дополнительную безопасность для вашего бизнеса. После того как администратор запрашивает использование MFA, вы можете настроить приложение Microsoft Authenticator для безопасного входа в ключевые приложения с телефона. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR] 
 

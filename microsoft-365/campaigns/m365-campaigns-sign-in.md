@@ -20,18 +20,18 @@ search.appverid:
 - BCS160
 - MET150
 description: Войдите в Microsoft 365 для кампаний. Защитите свою кампанию от угроз циберсекурити для электронной почты, данных и общения.
-ms.openlocfilehash: 2bf147f1d062ecbccabade355e50cff16bf30089
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: be24db2a7614e312bff96e5689f58a439de224a6
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183396"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772446"
 ---
 # <a name="sign-in-to-microsoft-365-for-campaigns"></a>Вход в Microsoft 365 для кампаний
 
 ## <a name="for-campaign-admins"></a>Для администраторов кампании
 Если вы зарегистрировались в Microsoft 365 для кампаний, вы являетесь администратором Microsoft 365. Вот как выполнить вход: 
-1. Найдите имя пользователя и пароль, которые мы отправили на адрес электронной почты, который вы задали в шаге 2 [действий для регистрации](m365-campaigns-sign-up.md#steps-to-sign-up).
+1. Найдите имя пользователя и пароль, которые мы отправили на адрес электронной почты, который вы дали в шаге 2 [действий для регистрации](m365-campaigns-sign-up.md#steps-to-sign-up).
 2. В браузере перейдите в центр администрирования Microsoft 365 по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
 3. Введите имя пользователя и пароль. Нажмите кнопку **войти**.
 4. В правом верхнем углу страницы найдите **Предварительный просмотр на** панели управления. Нажмите кнопку **Предварительный просмотр** , чтобы вы могли использовать все элементы управления, описанные в разделе "как сделать так, чтобы обеспечить [защиту кампании](m365-campaigns-security-overview.md)".

@@ -21,15 +21,15 @@ search.appverid:
 - MET150
 - MOE150
 description: Что можно сделать, чтобы помочь защитить свою кампанию от цифровых атак.
-ms.openlocfilehash: 819be1c526b2daf5fa69a732d3cee6a4e54624d3
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+ms.openlocfilehash: 8e1c958b7434019067c5f85ea534811611a0d037
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35081133"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772506"
 ---
 ## <a name="infographic-help-protect-yourself-and-your-campaign-from-digital-threats"></a>Инфографики: Защитите себя и свою кампанию от цифровых угроз 
-Ссылки для PowerPoint и PDF-файла, приведенные ниже, можно скачать и распечатать в формате таблоид (также известном как книги учета, 11 x 17 или a3).
+Следующие ссылки на PowerPoint и PDF можно скачать и распечатать в формате таблоид (также известном как книги учета, 11 x 17 или a3).
 
 [![Изображение для безопасного программного обеспечения Защитите свою информацию о кампании](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
