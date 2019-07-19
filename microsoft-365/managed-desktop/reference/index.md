@@ -1,4 +1,0 @@
-<span data-ttu-id="1c43e-101">– Title: описание ссылки на Рабочий стол, управляемое Майкрософт: Подробная информация о некоторых ключевых средствах для настольных ПК Майкрософт: управляемый Microsoft Desktop, Microsoft 365, служба, документация MS. Service: m365 — MD author: жаимео MS. локализатионприорити: обычная</span><span class="sxs-lookup"><span data-stu-id="1c43e-101">-- title: Microsoft Managed Desktop reference description: Detailed information on certain Microsoft Managed Desktop features keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation ms.service: m365-md author: jaimeo ms.localizationpriority: normal</span></span>
----
-
-# <a name="microsoft-managed-desktop-reference"></a><span data-ttu-id="1c43e-102">Справочник по управляемому рабочему столу Майкрософт</span><span class="sxs-lookup"><span data-stu-id="1c43e-102">Microsoft Managed Desktop reference</span></span>
