@@ -3,16 +3,16 @@ title: Получение поддержки для компьютеров, уп
 description: ''
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 11/28/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a073a5dfe61b036cbdc3bf9b0be08bc559acb548
-ms.sourcegitcommit: 720881c1a9c5f708e1b4adf7e5ea4ff8da48ea99
+ms.openlocfilehash: 1e98ef5a7c800ed3fb7fe1b7355e535ed3576c1e
+ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970476"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35853168"
 ---
 # <a name="getting-help-for-end-users"></a>Вызов справки для конечных пользователей
 
@@ -41,7 +41,7 @@ ms.locfileid: "33970476"
 - Австралия: + 61 180 037 0619
 
 >[!NOTE]
->Если вы звоните, попросите своего серийного номера устройства подготовиться к работе. 
+>Попросите свой адрес электронной почты организации, если вы звоните, чтобы подтвердить свою личность. 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Поддержка администраторов для настольных компьютеров, управляемых Майкрософт](admin-support.md). 
