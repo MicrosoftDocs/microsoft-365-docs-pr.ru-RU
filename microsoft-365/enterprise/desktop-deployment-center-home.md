@@ -13,32 +13,29 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Обзор центра развертывания компьютеров.
-ms.openlocfilehash: b19c2f5df6368fd6066b6506a17ed81ddf57f8c6
-ms.sourcegitcommit: 275d5c2d74e55ef6488594165367b02e735dc540
+ms.openlocfilehash: 222a7a565a48a39aa7701ab4a737cf404ebaa548
+ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35834032"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35853178"
 ---
 # <a name="desktop-deployment-center"></a>Центр развертывания компьютеров
 
-<table border="0">
- <tr>
- <td>
-  <strong>Переход с Windows 7 на Windows 10 </strong><p>Расширенная поддержка Windows 7 завершается 14 января 2020 г. Обновление на месте с Windows 7 до Windows 10 — это самый быстрый способ развертывания. Вы можете <a href="https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">обновить один компьютер</a> или <a href="https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">тысячи компьютеров с помощью System Center Configuration Manager</a>. При обновлениях на месте вам не нужно беспокоиться о доставке приложений, переносе файлов, настраиваемых образах и включении облачных служб. Для обновления существующих компьютеров можно использовать имеющиеся инструменты и сосредоточиться на следующих шагах развертывания: </td>
- </tr>
- <tr>
- <td>
-    <table border="0">
+<strong>Переход с Windows 7 на Windows 10 </strong>
+<p>Расширенная поддержка Windows 7 завершается 14 января 2020 г. Обновление на месте с Windows 7 до Windows 10 — это самый быстрый способ развертывания. Вы можете <a href="https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">обновить один компьютер</a> или <a href="https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">тысячи компьютеров с помощью System Center Configuration Manager</a>. При обновлениях на месте вам не нужно беспокоиться о доставке приложений, переносе файлов, настраиваемых образах и включении облачных служб. Для обновления существующих компьютеров можно использовать имеющиеся инструменты и сосредоточиться на следующих шагах развертывания: </p>
+
+<p>
+<table>
      <tr>
      <td>
         <table border="0">
              <tr>
                   <td>
-                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Upgrade ConfigMgr" height="144" width="144" />
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Upgrade ConfigMgr" height="100" width="100" />
               </td>
               <td>
-              <strong>Обновление ConfigMgr до Current Branch</strong>
+              <strong>Обновление Configuration Manager до Current Branch</strong>
                   </td>
                  </tr>
                 </table>
@@ -47,7 +44,7 @@ ms.locfileid: "35834032"
         <table border="0">
              <tr>
                   <td>
-                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Device and App Readiness" height="144" width="144" />
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Device and App Readiness" height="100" width="100" />
               </td>
               <td>
               <strong>Проверка готовности устройств и приложений</strong>
@@ -59,26 +56,25 @@ ms.locfileid: "35834032"
         <table border="0">
              <tr>
                   <td>
-                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Upgrade Windows 7 PCs" height="144" width="144" />
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Upgrade Windows 7 PCs" height="100" width="100" />
               </td>
               <td>
               <strong>Обновление компьютеров с Windows 7 до Windows 10</strong>
                   </td>
                  </tr>
                 </table>
-        </td>
-        </tr>
     </td>
     </tr>
     <tr>
     <td>
-Часть этапа проверки готовности каталогов и сети для организаций, использующих SCCM </td>
+Часть этапа проверки готовности каталогов и сети для организаций, использующих System Center Configuration Manager </td>
     <td>
 Часть этапа проверки готовности устройств и приложений; справка доступна в службе Assure для классических приложений </td>
     <td>
 Часть этапа развертывания ОС и обновления компонентов для компьютеров пользователей </td>
     </tr>
 </table>
+</p>
 
 <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
 
