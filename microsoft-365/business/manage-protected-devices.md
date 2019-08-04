@@ -3,7 +3,7 @@ title: Управление защищенными устройствами с �
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_DevicesManageLM
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Сведения о том, как сбросить или очистить устройство, управляемое с помощью политик защиты.
-ms.openlocfilehash: f7ae01e8325e977b2e9eca3e374fa41bcc541491
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278467"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074677"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Управление защищенными устройствами с помощью Microsoft 365 Business
 

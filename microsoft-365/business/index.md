@@ -2,8 +2,8 @@
 layout: HubPage
 hide_bc: true
 ms.topic: hub-page
-ms.author: robmazz
-author: robmazz
+ms.author: sirkkuw
+author: sirkkuw
 keywords: Microsoft 365 бизнес, Microsoft 365, Бизнес, SMB, малый и средний бизнес, Microsoft 365 бизнес-документация, документы, документация, техническая информация
 localization_priority: Normal
 audience: microsoft-business
@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: Microsoft 365 Бизнес-ресурсы
 description: Узнайте, как планировать, развертывать и использовать Microsoft Office 365, Windows 10 и Enterprise Mobility + Security вместе в вашей организации для интегрированной и безопасной инфраструктуры, позволяющей работать с обделами и разблокировками.
-ms.openlocfilehash: 3c5cc341734896cb9a42565c8647f3f5ac37fc5b
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: a7b6ef6b3c86868ffd9dd2ab912c427911075911
+ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660298"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34653053"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -61,7 +61,7 @@ ms.locfileid: "33660298"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Настройка</h3>
-                                              <P><a href="get-microsoft-365-business.md" target="_blank">Получение Microsoft 365 для бизнеса</a></p>
+                                              <P><a href="sign-up.md" target="_blank">Получение Microsoft 365 для бизнеса</a></p>
                                                <P><a href="set-up.md" target="_blank">Настройка Microsoft 365 Business</a></p>
                                                 <P><a href="set-up-windows-devices.md" target="_blank">Настройка устройств с Windows 10</a></p>
                                                 <P><a href="set-up-mobile-devices.md" target="_blank">Настройка устройств iPhone и Android</a></p>
@@ -99,7 +99,6 @@ ms.locfileid: "33660298"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Защита бизнес-данных и устройств</h3>
-                                                 <P><a href="https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data"target="_blank">10 основных способов обеспечения безопасности Microsoft 365 Бизнес</a></p>
                                                 <P><a href="security-features.md" target="_blank">Дополнительные сведения о функциях безопасности</a></p>
                                                 <P><a href="remove-company-data.md" target="_blank">Удаление данных с устройств</a></p>
                                                 <P><a href="reset-devices-to-factory-settings.md" target="_blank">Сброс устройств</a></p>

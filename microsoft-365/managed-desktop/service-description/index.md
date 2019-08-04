@@ -5,17 +5,18 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 59344a338e051b32225574c18609ffde09716c8c
-ms.sourcegitcommit: 83338be246ae104724d7f38af12fe7f6546fec27
+ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
+ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933548"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35830497"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Описание службы "управляемые компьютеры Майкрософт"
 
 Microsoft Managed Desktop — это служба, которая обеспечивает безопасность современного современного интерфейса и всегда поддерживает актуальные устройства с последними версиями Windows 10 Корпоративная, Office 365 профессиональный плюс и Microsoft Security Services, в том числе:
 
+- Упрощенная регистрация новых устройств
 - Конфигурация устройств
 - Функции, обеспечивающие безопасность пользователей и устройств, в том числе Windows Hello, BitLocker, Секуребут и безопасность на основе виртуализации в соответствии с рекомендациями Майкрософт
 - Наблюдение за безопасностью устройств и службы исправлений

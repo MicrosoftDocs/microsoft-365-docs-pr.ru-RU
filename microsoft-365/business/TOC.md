@@ -15,9 +15,10 @@
 ## Настройка устройства пользователя
 ### [Настройка мобильных устройств](set-up-mobile-devices.md)
 ### [Настройка устройств с Windows](set-up-windows-devices.md)
-## [Защита](security-features.md)
-### [Защитите свою компанию](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
-### [Настройка дополнительных функций безопасности](set-up-advanced-security.md)
+## [Защитите свою компанию](security-features.md)
+### [Повышение защиты от угроз](increase-threat-protection.md)
+### [Начало работы с условным доступом](set-up-conditional-access-policies.md)
+### [Настройка функций обеспечения соответствия требованиям](set-up-compliance.md)
 ## Управление пользователями
 ### [Добавление пользователей](add-users-m365b.md)
 ### [Удаление сотрудника](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)

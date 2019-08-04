@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 09/18/2018
 ms.author: greglin
-ms.openlocfilehash: 88517c6b8de95c54ee9a2e47d4545266eb198249
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 450b14fb82483bd83e0c83dace173540d0281868
+ms.sourcegitcommit: 12fbb429dba7517220191d90816e235583943fe0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289443"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33623133"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Шаг 3. Windows 10 Корпоративная
 
@@ -60,7 +60,7 @@ Windows 10 позволяет выполнять эти стратегическ
 Подробнее о Windows 10 можно узнать в следующих статьях:
 
 - [Страница продукта Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)
-- [Windows 10](https://docs.microsoft.com/windows/windows-10)
+- [Windows 10](https://docs.microsoft.com/windows/windows-10)
 - [Развертывание и обновление Windows 10](https://docs.microsoft.com/windows/deployment/)
 
 
@@ -85,15 +85,7 @@ Windows 10 предоставляет функции, помогающие за�
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Чтобы узнать, как компания планируется, развернута и развернута, а также управляет обновлениями для Windows 10, ознакомьтесь со статьей:
-
-- [Подготовка организации к простому развертыванию Windows 10](https://www.microsoft.com/itshowcase/windows10deployment?wt.mc_id=bmkg_itsc)
-- [Внедрение модели "Windows как услуга" в Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/851/Adopting-Windows-as-a-service-at-Microsoft)
-- [Развертывание Windows 10 в Майкрософт путем обновления на месте](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)
-- [Обеспечение надежной аутентификации пользователей с помощью Windows Hello для бизнеса](https://www.microsoft.com/itshowcase/Article/Content/756/Implementing-strong-user-authentication-with-Windows-Hello-for-Business)
-- [Развертывание Windows 10: советы от ИТ-специалистов Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT) (видео)
-- [ATP в Защитнике Windows помогает определять современные угрозы](https://www.microsoft.com/itshowcase/Article/Content/854/Windows-Defender-ATP-helps-detect-sophisticated-threats)
-- [Защита современного предприятия с помощью Защитника Windows и ATP в Защитнике Windows](https://www.microsoft.com/itshowcase/Article/Content/903/Securing-the-modern-enterprise-with-Windows-Defender-and-Windows-Defender-ATP) (видео)
+Изучите Майкрософт и Узнайте, как компания развернула [Windows 10 Корпоративная и использует надежную проверку подлинности, Intune и пакет ATP для защитника Windows](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR6).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 
@@ -101,7 +93,7 @@ Windows 10 предоставляет функции, помогающие за�
 
 ![](./media/contoso-overview/contoso-icon.png)
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|

@@ -1,17 +1,17 @@
 ---
-title: Является наСтольным правом, управляемым Майкрософт
+title: Является настольным правом, управляемым Майкрософт
 description: ''
-keywords: НаСтольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 10/24/2018
-ms.openlocfilehash: 6b78586f4ce1f81795e01873161a9cbf7768c2ac
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c0866dc4ff4a768bbae2488cdea2655470978f94
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283451"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390696"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Что такое "управляемый" Рабочий стол Майкрософт?
 
@@ -24,10 +24,10 @@ ms.locfileid: "32283451"
 
 <table>
 <tr><th>Оптимальное взаимодействие</th><th>Новейшая технология</th><th>Резервная копия корпорации Майкрософт</th></tr>
-<tr><td><p>Windows 10</p><p>Office 365 профессиональный плюс</p><p></p><p>Windows Autopilot</p><p>Современное устройство</p></td><td><p>Всегда актуальная дата</p><p>Полугодовые обновления компонентов </p><p>Обновление устройства (2 или 3 года)</p></td><td><p>Настройка устройства</p><p>Мониторинг и исправление безопасности</p><p>Развертывание приложения</p><p>Управление обновлениями</p><p>Desktop Analytics</p><p>Круглосуточная поддержка конечных пользователей</p></td></tr>
+<tr><td><p>Windows 10.</p><p>Office 365 профессиональный плюс</p><p></p><p>Windows Autopilot</p><p>Современное устройство</p></td><td><p>Всегда актуальная дата</p><p>Полугодовые обновления компонентов </p><p>Обновление устройства (2 или 3 года)</p></td><td><p>Настройка устройства</p><p>Мониторинг и исправление безопасности</p><p>Развертывание приложения</p><p>Управление обновлениями</p><p>Desktop Analytics</p><p>Круглосуточная поддержка конечных пользователей</p></td></tr>
 </table>
 
-НаСтольные компьютеры, управляемые корпорацией Майкрософт, предоставляют пользователям исчерпывающее ИТ-решение, которое освобождает пользователей и освобождает ИТ-ресурсы для более важных задач. Мы разработали эту службу на основе отзывов, которые мы обычно слышу:
+Настольные компьютеры, управляемые корпорацией Майкрософт, предоставляют пользователям исчерпывающее ИТ-решение, которое освобождает пользователей и освобождает ИТ-ресурсы для более важных задач. Мы разработали эту службу на основе отзывов, которые мы обычно слышу:
 - Мои пользователи хотят использовать новейшие технологии.
 - Требуются более предсказуемые затраты.
 - Я хочу сосредоточиться на моей основной компании. 
@@ -39,12 +39,12 @@ ms.locfileid: "32283451"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Описание службы "управляемые компьютеры Майкрософт"](../service-description/index.md)
-- [Необходимые компоненты для управляемОго рабочего стола Майкрософт](../get-ready/prerequisites.md).
+- [Необходимые компоненты для управляемого рабочего стола Майкрософт](../get-ready/prerequisites.md).
 
 <!--When you enroll in Microsoft Managed Desktop, Microsoft provides you with devices that are configured to join your Azure Active Directory tenant. Windows 10, Office 365, and some apps and features associated with [Microsoft 365 Enterprise E5](https://www.microsoft.com/en-us/microsoft-365/compare-all-microsoft-365-plans) are installed (by Microsoft) on your devices. When your employees who are using these devices need help, they contact Microsoft Managed Desktop support (provided by Microsoft) through a custom chat app.--> 
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
  
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 - [Роли и обязанности](roles-and-responsibilities.md)
 - [Технологически](technologies.md)

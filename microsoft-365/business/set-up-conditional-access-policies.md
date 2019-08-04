@@ -1,5 +1,5 @@
 ---
-title: Настройка политик условного доступа
+title: Настройка политик условного доступа для кампаний Microsoft 365
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,15 +19,15 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Узнайте, как настроить политики условного доступа для Microsoft 365 Business.
-ms.openlocfilehash: a0cc4a9085bdfe6a8d40acc69a020af1c5861fcf
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+description: Узнайте, как настроить политики условного доступа для кампаний Microsoft 365.
+ms.openlocfilehash: 7d8e1f16019d151478aae57b1593b0e0758e5b19
+ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913010"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35076313"
 ---
-# <a name="set-up-conditional-access-policies-for-microsoft-365-business"></a>Настройка политик условного доступа для Microsoft 365 Business
+# <a name="set-up-conditional-access-policies"></a>Настройка политик условного доступа
 
 Политики [условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) добавляют субстанЦиал дополнительной безопасности. Корпорация Майкрософт предоставляет набор базовых политик условного доступа, рекомендуемых для всех клиентов. Базовые политики это набор предопределенных политик, которые помогают защитить организации от многих распространенных атак. Эти распространенные атаки могут включать распылителя, преобразования и фишинга паролей.
 

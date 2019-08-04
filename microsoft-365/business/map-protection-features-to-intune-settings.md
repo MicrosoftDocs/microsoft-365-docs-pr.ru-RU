@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.date: 8/13/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Узнайте, как функции защиты в Microsoft 365 Business сопоставляются с параметрами Intune. Подписка предоставляет лицензию на изменение параметров Intune.
-ms.openlocfilehash: ddd520cd059c84e5d64e967fe5631fe2f6bce0d4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a6aaf6cc06c31b870eb85582f5aa47699919d75d
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278562"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074267"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune
 
@@ -37,7 +37,7 @@ ms.locfileid: "32278562"
   
 Чтобы найти параметр Intune, войдя в систему с учетными данными Microsoft 365 Business Admin, перейдите в **центр администрирования**, а затем **Intune**.
   
- **Важно!** Подписка на Microsoft 365 Business предоставляет лицензию на изменение всех параметров Intune. Чтобы приступить к работе, ознакомьтесь [со статьЕй введение в Intune.](https://docs.microsoft.com/intune/introduction-intune)
+ **Важно!** Подписка на Microsoft 365 Business предоставляет лицензию на изменение всех параметров Intune. Чтобы приступить к работе, ознакомьтесь [со статьей введение в Intune.](https://docs.microsoft.com/intune/introduction-intune)
   
 Щелкните имя нужной политики, например "Политика приложений для Android", и выберите пункт **Параметры политики**.
   
@@ -88,7 +88,7 @@ ms.locfileid: "32278562"
 
 В приведенной ниже таблице показано сопоставление параметров конфигурации устройств для Windows 10 с параметрами Intune.
   
-чтобы найти параметр Intune, войдя в систему с учетными данными Microsoft 365 Business admin, перейдите [на портал Azure](https://portal.azure.com), выберите **пункт дополнительные службы**и введите в поле intune в **фильтр**, выбрав **intune** \> **Device ** \> **Профили**конфигурации. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
+Чтобы найти параметр Intune, войдя в систему с учетными данными Microsoft 365 Business Admin, перейдите [на портал Azure](https://portal.azure.com), выберите **пункт Дополнительные службы**и введите в поле Intune в **Фильтр**, выбрав **Intune** \> **Device ** \> **Профили**конфигурации. Then select **Device policy for Windows 10** \> **Properties** \> **Settings**.
   
 |**Параметр политики устройств для Windows 10**|**Параметры Intune**|
 |:-----|:-----|

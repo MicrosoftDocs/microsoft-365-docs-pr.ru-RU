@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 08/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройка многофакторной проверки подлинности с помощью текстовых сообщений, отправленных на смарт-телефон в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: ab346934ea639e819e4e45dd6560093629ee9cde
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 319f8058aa4504c52cacf5f0d97982d115c41c8a
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353181"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074219"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Многофакторная проверка подлинности для тестовой среды Microsoft 365 корпоративный
 
@@ -52,9 +52,9 @@ ms.locfileid: "33353181"
   
 1. Откройте отдельный частный экземпляр браузера, перейдите в центр администрирования Microsoft 365 ([https://portal.microsoft.com](https://portal.microsoft.com)), а затем войдите с помощью учетной записи глобального администратора.
     
-2. На панели навигации слева выберите элементы **Пользователи > Активные пользователи**.
+2. На панели навигации слева выберите **Пользователи > Активные пользователи**.
     
-3. В области активные пользователи щелкните **Дополнительные настройки многофакторной проверки подлиннОсти _гт_**.
+3. В области активные пользователи щелкните **дополнительные > настройке многофакторной проверки**подлинности.
     
 4. В списке выберите учетную запись **пользователя 2** .
     
@@ -97,7 +97,7 @@ ms.locfileid: "33353181"
 
 Чтобы получить сведения и ссылки для развертывания многофакторной проверки подлинности в рабочей среде, просмотрите этап " [Настройка многофакторной проверки](identity-multi-factor-authentication.md#identity-mfa) подлинности" на этапе идентификации.
     
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

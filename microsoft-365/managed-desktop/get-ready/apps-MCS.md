@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 39a5102d045d9ed79b631a3b477bd1c72dea76de
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: 3687966fd49db3fd58c4ecbb3917e45ec6dfa3c3
+ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34918738"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35425742"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Работа со службами консультационной службы Майкрософт
 
@@ -22,7 +22,7 @@ ms.locfileid: "34918738"
 Для работы с упаковкой приложений MCS **необходимо предоставить следующие элементы**:
 
 - Исходные файлы установщика (например, Setup. exe или. msi).
-- Инструкции по установке, указывающие сведения о том, как должна выглядеть Последняя установка. Например, должно ли приложение иметь ярлык на рабочем столе? Какова видимость приложения? Должно ли приложение подключиться к серверу, и если да, то какое из них? <!--For details, see the [application packaging request template](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx). -->
+- Инструкции по установке, указывающие сведения о том, как должна выглядеть Последняя установка. Например, должно ли приложение иметь ярлык на рабочем столе? Какова видимость приложения? Должно ли приложение подключиться к серверу, и если да, то какое из них? Дополнительные сведения см. в статье [шаблон запроса упаковки приложений](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx).
 - Чтобы убедиться, что приложение работает так же, как в вашей среде, необходимо выполнить собственный приемочный тест.
 
 **MCS будет выполнять следующие действия:**

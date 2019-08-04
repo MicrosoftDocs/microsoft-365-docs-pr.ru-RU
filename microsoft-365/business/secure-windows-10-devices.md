@@ -3,7 +3,7 @@ title: Защита устройств с Windows 10
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4WindowsConfig
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 'Узнайте о том, как по умолчанию и другие параметры для защиты устройств с Windows 10. '
-ms.openlocfilehash: 6f06936c2075710210ad9e29ee92905b3b49917a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: b56aac0c760aa0e57d48683b5f1726c9add16d20
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278064"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074427"
 ---
 # <a name="secure-windows-10-devices"></a>Защита устройств с Windows 10
 
@@ -39,7 +39,7 @@ ms.locfileid: "32278064"
   
 |||
 |:-----|:-----|
-|Параметр  <br/> |Описание  <br/> |
+|Setting  <br/> |Описание  <br/> |
 |Использование антивирусной программы "Защитник Windows"  <br/> |Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.  <br/> |
 |Защитите компьютеры от угроз из Интернета в Microsoft Edge  <br/> |Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.  <br/> |
 |Выключать экран устройства, если оно неактивно в течение указанного периода времени  <br/> |Обеспечивает защиту корпоративных данных, когда пользователь неактивен. Пользователь может работать в общественном месте, например кафе, и на короткое время отойти или отвлечься. При этом посторонние могут случайно увидеть сведения на экране. Этот параметр управляет временем, на протяжении которого пользователь может оставаться неактивным, прежде чем экран выключится.  <br/> |
