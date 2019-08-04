@@ -4,7 +4,7 @@ ms.author: greglin
 author: greg-lindsay
 manager: laurawi
 ms.date: 03/05/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для Windows 10 Корпоративная.
-ms.openlocfilehash: 1e8a2e748f42431465c027acbc468f4c5891d320
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 29ab2373321485d8de892a29132d1af07a318b7b
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289521"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074109"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>Этап 3. Условия, при выполнении которых можно считать инфраструктуру Windows 10 Корпоративная настроенной
 

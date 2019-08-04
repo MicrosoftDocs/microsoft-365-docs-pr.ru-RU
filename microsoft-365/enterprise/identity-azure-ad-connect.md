@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 02/25/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается о параметрах удостоверений и настройке Azure AD Connect для синхронизации локальных доменных служб Active Directory с Azure AD.
-ms.openlocfilehash: 6e582a3e3c68b00968faac17fd60b922eaaf7121
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0b494047f984d9fd830e840d2d1f4fafa06fe8ab
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289609"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073829"
 ---
 # <a name="step-3-configure-hybrid-identity"></a>Шаг 3. Настройка гибридного удостоверения
 

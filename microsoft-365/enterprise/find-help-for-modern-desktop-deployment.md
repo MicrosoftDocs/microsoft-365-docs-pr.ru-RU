@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 11/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Расположение справочных материалов по развертыванию Windows 10 и Office 365 профессиональный плюс.
-ms.openlocfilehash: b1700e5ff1ec6475f11120e036e01c056dd6a15c
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 7e8bd661d1698decaee1e9a61332316589fd3e9b
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281450"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073909"
 ---
 # <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Справка по развертыванию Windows 10 и Office 365 профессиональный плюс 
 
@@ -43,21 +43,21 @@ ms.locfileid: "32281450"
 <td><p><strong>Проверка готовности каталогов и сети</strong></p>
 <ul>
 <li><p>
-  <a href="https://docs.microsoft.com/en-us/fasttrack/o365-onboarding-and-migration#core">Начало переноса.</a> Специалисты Microsoft FastTrack обеспечивают интеграцию удостоверений между имеющейся службой каталогов и Azure Active Directory. Это необходимо для Office 365 профессиональный плюс, Microsoft Intune, OneDrive и других облачных служб Office 365 и EMS в рамках развертывания.</p></li>
+  <a href="https://docs.microsoft.com/ru-RU/fasttrack/o365-onboarding-and-migration#core">Начало переноса.</a> Специалисты Microsoft FastTrack обеспечивают интеграцию удостоверений между имеющейся службой каталогов и Azure Active Directory. Это необходимо для Office 365 профессиональный плюс, Microsoft Intune, OneDrive и других облачных служб Office 365 и EMS в рамках развертывания.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
 <td><p><strong>Доставка приложений Office и бизнес-приложений</strong></p>
 <ul>
-<li><p>Настройка и развертывание<a href="https://docs.microsoft.com/en-us/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий, настройке параметров установки и обновления для технологии "нажми и работай", а также в создании пакетов, если ваша организация использует System Center Configuration Manager.</p></li>
+<li><p>Настройка и развертывание<a href="https://docs.microsoft.com/ru-RU/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий, настройке параметров установки и обновления для технологии "нажми и работай", а также в создании пакетов, если ваша организация использует System Center Configuration Manager.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="step 4" height="144" width="144" /></td>
 <td><p><strong>Перенос параметров и файлов пользователей</strong></p>
 <ul>
-<li><p>Настройка и внедрение <a href="https://docs.microsoft.com/en-us/fasttrack/o365-onboarding-and-migration#onedrive-for-business">OneDrive.</a> Специалисты Microsoft FastTrack оказывают помощь при подготовке пользовательских лицензий и настройке параметров клиента синхронизации OneDrive. Для организаций с соответствующей подпиской предусмотрен <a href="https://docs.microsoft.com/en-us/fasttrack/data-migration">перенос данных в OneDrive с использованием FastTrack</a>.</p></li>
+<li><p>Настройка и внедрение <a href="https://docs.microsoft.com/ru-RU/fasttrack/o365-onboarding-and-migration#onedrive-for-business">OneDrive.</a> Специалисты Microsoft FastTrack оказывают помощь при подготовке пользовательских лицензий и настройке параметров клиента синхронизации OneDrive. Для организаций с соответствующей подпиской предусмотрен <a href="https://docs.microsoft.com/ru-RU/fasttrack/data-migration">перенос данных в OneDrive с использованием FastTrack</a>.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -65,7 +65,7 @@ ms.locfileid: "32281450"
 <td><p><strong>Вопросы безопасности и соответствия требованиям</strong></p>
 <ul>
 <li><p>
-  <a href="https://docs.microsoft.com/en-us/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Azure AD Premium.</a> Специалисты Microsoft FastTrack оказывают помощь при активации служб для повышения уровней защиты и информационной безопасности в процессе внедрения Microsoft 365. Данные службы включают многофакторную идентификацию Azure, самостоятельный сброс пароля, условный доступ к Azure Active Directory и многое другое. Для обеспечения безопасности устройства и конечной точки Microsoft FastTrack также можно использовать для подготовки <a href="https://docs.microsoft.com/en-us/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a> и соответствующих политик.</p></li>
+  <a href="https://docs.microsoft.com/ru-RU/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Azure AD Premium.</a> Специалисты Microsoft FastTrack оказывают помощь при активации служб для повышения уровней защиты и информационной безопасности в процессе внедрения Microsoft 365. Данные службы включают многофакторную идентификацию Azure, самостоятельный сброс пароля, условный доступ к Azure Active Directory и многое другое. Для обеспечения безопасности устройства и конечной точки Microsoft FastTrack также можно использовать для подготовки <a href="https://docs.microsoft.com/ru-RU/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a> и соответствующих политик.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -73,7 +73,7 @@ ms.locfileid: "32281450"
 <td><p><strong>Обновление компонентов и развертывание ОС</strong></p>
 <ul>
 <li><p>
-  <a href="https://docs.microsoft.com/en-us/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий и настройке Windows Autopilot на новых устройствах, подготовке и настройке политик MDM для Windows 10 и прочих мобильных устройств, включая развертывание приложений, профилей Wi-Fi и VPN, совместного управления с System Center Configuration Manager и т. д.</p></li>
+  <a href="https://docs.microsoft.com/ru-RU/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий и настройке Windows Autopilot на новых устройствах, подготовке и настройке политик MDM для Windows 10 и прочих мобильных устройств, включая развертывание приложений, профилей Wi-Fi и VPN, совместного управления с System Center Configuration Manager и т. д.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -81,7 +81,7 @@ ms.locfileid: "32281450"
 <td><p><strong>Office и Windows как услуга</strong></p>
 <ul>
 <li><p>
-  <a href="https://docs.microsoft.com/en-us/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в настройке политик обновления для Windows 10 и Office 365 профессиональный плюс. <a href="https://docs.microsoft.com/en-us/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Здесь Microsoft FastTrack также может предоставить инструкции по настройке кругов развертывания, чтобы держать вас в курсе событий.</p></li>
+  <a href="https://docs.microsoft.com/ru-RU/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в настройке политик обновления для Windows 10 и Office 365 профессиональный плюс. <a href="https://docs.microsoft.com/ru-RU/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Здесь Microsoft FastTrack также может предоставить инструкции по настройке кругов развертывания, чтобы держать вас в курсе событий.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

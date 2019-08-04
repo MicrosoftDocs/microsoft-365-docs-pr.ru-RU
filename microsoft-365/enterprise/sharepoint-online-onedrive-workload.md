@@ -3,7 +3,7 @@ title: Развертывание SharePoint Online и OneDrive для бизн�
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/19/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Выполните по шагам процесс планирования, развертывания и эффективного использования SharePoint Online в Microsoft 365 корпоративный в вашей организации.
-ms.openlocfilehash: 30fe3a971a869a4609d6b8ef2809692b4d4e5420
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: fab2a368a936fc3ffb4a56a9dc81ba6b3e0b0910
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400183"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074119"
 ---
 # <a name="deploy-sharepoint-online-and-onedrive-for-business-for-microsoft-365-enterprise"></a>Развертывание SharePoint Online и OneDrive для бизнеса для Microsoft 365 корпоративный
 

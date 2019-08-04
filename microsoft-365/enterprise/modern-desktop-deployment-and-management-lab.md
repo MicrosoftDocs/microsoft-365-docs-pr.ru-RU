@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: ba1cd7e88766b6393bafcbd7381ceeb98f030d51
-ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
+ms.openlocfilehash: a19c9d2de0cb4cb5436a8c3364bab0e24bb866ee
+ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35584535"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35830507"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -116,7 +116,7 @@ ms.locfileid: "35584535"
   - Управление обновлением Office 365 профессиональный плюс в Configuration Manager
   - Применение технологий управления мобильными устройствами к Windows 10 с помощью Microsoft Intune
 
-### <a name="download-the-windows-and-office-deployment-lab-kithttpsakamsmddlabsevalcenter"></a>[**Скачать комплект Deployment Lab Kit для Windows и Office**](https://aka.ms/mddlabs_evalcenter)
+### <a name="download-the-windows-and-office-deployment-lab-kithttpswwwmicrosoftcomevalcenterevaluate-lab-kit"></a>[**Скачать комплект Deployment Lab Kit для Windows и Office**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
 *Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 27 августа 2019 г. До этой даты будет опубликована новая версия занятия.*
 
