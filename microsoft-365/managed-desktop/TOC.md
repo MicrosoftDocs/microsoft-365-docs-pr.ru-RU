@@ -2,6 +2,7 @@
 ## [Что такое "управляемый" Рабочий стол Майкрософт?](intro/index.md)
 ### [Роли и обязанности](intro/roles-and-responsibilities.md)
 ### [Технологии на настольных компьютерах, управляемых Майкрософт](intro/technologies.md)
+### [Управляемые корпорацией Майкрософт настольные и ITIL](MMD-and-ITSM.md)
 ## [Описание службы "управляемые компьютеры Майкрософт"](service-description/index.md)
 ### [Поддерживаемые регионы и языки](service-description/regions-languages.md)
 ### [Жизненный цикл продукта](service-description/device-lifecycle.md)

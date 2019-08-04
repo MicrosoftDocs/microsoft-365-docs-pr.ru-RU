@@ -3,7 +3,7 @@ title: Настройка параметров защиты приложений
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - Win10AppPolicy
@@ -24,45 +24,45 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Узнайте, как создать политику управления приложениями и защитить рабочие файлы на устройствах с Windows 10.
-ms.openlocfilehash: f649454417dceae05255df6b37760af99c0b8d4f
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 670184a2e81721fb5cc063e854822e9b271164d9
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660412"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074617"
 ---
-# <a name="set-application-protection-settings-for-windows-10-devices"></a><span data-ttu-id="a6ac2-103">Настройка параметров защиты приложений для устройств с Windows 10</span><span class="sxs-lookup"><span data-stu-id="a6ac2-103">Set application protection settings for Windows 10 devices</span></span>
+# <a name="set-application-protection-settings-for-windows-10-devices"></a><span data-ttu-id="9e65d-103">Настройка параметров защиты приложений для устройств с Windows 10</span><span class="sxs-lookup"><span data-stu-id="9e65d-103">Set application protection settings for Windows 10 devices</span></span>
 
-## <a name="create-an-app-management-policy-for-windows-10"></a><span data-ttu-id="a6ac2-104">Создание политики управления приложениями для Windows 10</span><span class="sxs-lookup"><span data-stu-id="a6ac2-104">Create an app management policy for Windows 10</span></span>
+## <a name="create-an-app-management-policy-for-windows-10"></a><span data-ttu-id="9e65d-104">Создание политики управления приложениями для Windows 10</span><span class="sxs-lookup"><span data-stu-id="9e65d-104">Create an app management policy for Windows 10</span></span>
 
-<span data-ttu-id="a6ac2-105">Если у ваших пользователей есть личные устройства с Windows 10, используемые для выполнения рабочих задач, на этих устройствах также можно настроить защиту данных компании.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-105">If your users have personal Windows 10 devices on which they perform work tasks, you can protect your data on those devices as well.</span></span>
+<span data-ttu-id="9e65d-105">Если у ваших пользователей есть личные устройства с Windows 10, используемые для выполнения рабочих задач, на этих устройствах также можно настроить защиту данных компании.</span><span class="sxs-lookup"><span data-stu-id="9e65d-105">If your users have personal Windows 10 devices on which they perform work tasks, you can protect your data on those devices as well.</span></span>
   
-1. <span data-ttu-id="a6ac2-106">Перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span> 
+1. <span data-ttu-id="9e65d-106">Перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="9e65d-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span> 
     
-2. <span data-ttu-id="a6ac2-107">В левой панели навигации выберите пункт \*\*\*\* \> **политики** \> устройств **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-107">On the left nav, choose **Devices** \> **Policies** \> **Add**.</span></span>
+2. <span data-ttu-id="9e65d-107">В левой панели навигации выберите пункт \*\*\*\* \> **политики** \> устройств **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="9e65d-107">On the left nav, choose **Devices** \> **Policies** \> **Add**.</span></span>
 
-3. <span data-ttu-id="a6ac2-108">На панели **Добавить политику** введите уникальное имя политики.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-108">On the **Add policy** pane, enter a unique name for this policy.</span></span> 
+3. <span data-ttu-id="9e65d-108">На панели **Добавить политику** введите уникальное имя политики.</span><span class="sxs-lookup"><span data-stu-id="9e65d-108">On the **Add policy** pane, enter a unique name for this policy.</span></span> 
     
-4. <span data-ttu-id="a6ac2-109">В поле **Тип политики** выберите **Управление приложениями для Windows 10**.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-109">Under **Policy type**, choose **Application Management for Windows 10**.</span></span>
+4. <span data-ttu-id="9e65d-109">В поле **Тип политики** выберите **Управление приложениями для Windows 10**.</span><span class="sxs-lookup"><span data-stu-id="9e65d-109">Under **Policy type**, choose **Application Management for Windows 10**.</span></span>
     
-5. <span data-ttu-id="a6ac2-110">В разделе **тип устройства**выберите **персональный** или **принадлежащий компании**.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-110">Under **Device type**, choose either **Personal** or **Company Owned**.</span></span>
+5. <span data-ttu-id="9e65d-110">В разделе **тип устройства**выберите **персональный** или **принадлежащий компании**.</span><span class="sxs-lookup"><span data-stu-id="9e65d-110">Under **Device type**, choose either **Personal** or **Company Owned**.</span></span>
     
-6. <span data-ttu-id="a6ac2-111">Параметр **Шифровать рабочие файлы** включается автоматически.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-111">The **Encrypt work files** is turned on automatically.</span></span> 
+6. <span data-ttu-id="9e65d-111">Параметр **Шифровать рабочие файлы** включается автоматически.</span><span class="sxs-lookup"><span data-stu-id="9e65d-111">The **Encrypt work files** is turned on automatically.</span></span> 
     
-7. <span data-ttu-id="a6ac2-112">Если вы не хотите, чтобы пользователи сохраняли рабочие файлы на компьютере, **включите** параметр **Запретить копирование данных компании в личные файлы и обязать хранить рабочие файлы в OneDrive для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-112">Set **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** to **On** if you don't want the users to save work files on their PC.</span></span> 
+7. <span data-ttu-id="9e65d-112">Если вы не хотите, чтобы пользователи сохраняли рабочие файлы на компьютере, **включите** параметр **Запретить копирование данных компании в личные файлы и обязать хранить рабочие файлы в OneDrive для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="9e65d-112">Set **Prevent users from copying company data to personal files and force them to save work files to OneDrive for Business** to **On** if you don't want the users to save work files on their PC.</span></span> 
     
-9. <span data-ttu-id="a6ac2-113">Разверните раздел **Восстановление данных на устройствах с Windows**. Рекомендуется его **включить**.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-113">Expand **Recover data on Windows devices** and it is recommended that you turn it **On**.</span></span>
+9. <span data-ttu-id="9e65d-113">Разверните раздел **Восстановление данных на устройствах с Windows**. Рекомендуется его **включить**.</span><span class="sxs-lookup"><span data-stu-id="9e65d-113">Expand **Recover data on Windows devices** and it is recommended that you turn it **On**.</span></span>
     
-    <span data-ttu-id="a6ac2-p101">Прежде чем выбирать сертификат агента восстановления данных, необходимо создать его. Инструкции см. в статье [Создание и проверка сертификата агента восстановления данных (DRA) шифрованной файловой системы (EFS)](https://go.microsoft.com/fwlink/p/?linkid=853700).</span><span class="sxs-lookup"><span data-stu-id="a6ac2-p101">Before you can browse to the location of the Data Recovery Agent certificate, you have to first create one. For instructions see, [Create and verify an Encrypting File System (EFS) Data Recovery Agent (DRA) certificate](https://go.microsoft.com/fwlink/p/?linkid=853700).</span></span>
+    <span data-ttu-id="9e65d-p101">Прежде чем выбирать сертификат агента восстановления данных, необходимо создать его. Инструкции см. в статье [Создание и проверка сертификата агента восстановления данных (DRA) шифрованной файловой системы (EFS)](https://go.microsoft.com/fwlink/p/?linkid=853700).</span><span class="sxs-lookup"><span data-stu-id="9e65d-p101">Before you can browse to the location of the Data Recovery Agent certificate, you have to first create one. For instructions see, [Create and verify an Encrypting File System (EFS) Data Recovery Agent (DRA) certificate](https://go.microsoft.com/fwlink/p/?linkid=853700).</span></span>
     
-    <span data-ttu-id="a6ac2-p102">По умолчанию рабочие файлы шифруются с помощью секретного ключа, хранящегося на устройстве и связанного с профилем пользователя. Открыть и расшифровать файл может только пользователь. Однако в случае потери устройства или удаления пользователя файл может остаться в зашифрованном виде. Для расшифровки этого файла администратор может воспользоваться сертификатом агента восстановления данных.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-p102">By default, work files are encrypted using a secret key that is stored on the device and associated with the user's profile. Only the user can open and decrypt the file. However, if a device is lost or a user is removed, a file can be stuck in an encrypted state. The Data Recovery Agent (DRA) certificate can be used by an admin to decrypt the file.</span></span>
+    <span data-ttu-id="9e65d-p102">По умолчанию рабочие файлы шифруются с помощью секретного ключа, хранящегося на устройстве и связанного с профилем пользователя. Открыть и расшифровать файл может только пользователь. Однако в случае потери устройства или удаления пользователя файл может остаться в зашифрованном виде. Для расшифровки этого файла администратор может воспользоваться сертификатом агента восстановления данных.</span><span class="sxs-lookup"><span data-stu-id="9e65d-p102">By default, work files are encrypted using a secret key that is stored on the device and associated with the user's profile. Only the user can open and decrypt the file. However, if a device is lost or a user is removed, a file can be stuck in an encrypted state. The Data Recovery Agent (DRA) certificate can be used by an admin to decrypt the file.</span></span>
     
     ![Browse to Data Recovery Agent certificate.](media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. <span data-ttu-id="a6ac2-p103">Если вы хотите добавить еще домены или расположения SharePoint Online, чтобы защитить файлы во всех указанных приложениях, разверните параметр **Защитить дополнительные сетевые и облачные расположения**. Если в каком-либо поле вам нужно ввести несколько элементов, разделяйте их точкой с запятой (;).</span><span class="sxs-lookup"><span data-stu-id="a6ac2-p103">Expand **Protect additional network and cloud locations** if you want to add additional domains or SharePoint Online locations to make sure that files in all the listed apps will be protected. If you need to enter more than one item for either field, use a semicolon (;) between the items.</span></span>
+10. <span data-ttu-id="9e65d-p103">Если вы хотите добавить еще домены или расположения SharePoint Online, чтобы защитить файлы во всех указанных приложениях, разверните параметр **Защитить дополнительные сетевые и облачные расположения**. Если в каком-либо поле вам нужно ввести несколько элементов, разделяйте их точкой с запятой (;).</span><span class="sxs-lookup"><span data-stu-id="9e65d-p103">Expand **Protect additional network and cloud locations** if you want to add additional domains or SharePoint Online locations to make sure that files in all the listed apps will be protected. If you need to enter more than one item for either field, use a semicolon (;) between the items.</span></span>
     
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   
-11. <span data-ttu-id="a6ac2-p104">Next decide **Who will get these settings?** If you don't want to use the default **All Users** security group, choose **Change**, choose the security groups who will get these settings \> **Select**.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-p104">Next decide **Who will get these settings?** If you don't want to use the default **All Users** security group, choose **Change**, choose the security groups who will get these settings \> **Select**.</span></span>
+11. <span data-ttu-id="9e65d-p104">Next decide **Who will get these settings?** If you don't want to use the default **All Users** security group, choose **Change**, choose the security groups who will get these settings \> **Select**.</span><span class="sxs-lookup"><span data-stu-id="9e65d-p104">Next decide **Who will get these settings?** If you don't want to use the default **All Users** security group, choose **Change**, choose the security groups who will get these settings \> **Select**.</span></span>
     
-12. <span data-ttu-id="a6ac2-126">Нажмите кнопку **Добавить**, чтобы сохранить политику и назначить ее устройствам.</span><span class="sxs-lookup"><span data-stu-id="a6ac2-126">Finally, choose **Add** to save the policy, and assign it to devices.</span></span> 
+12. <span data-ttu-id="9e65d-126">Нажмите кнопку **Добавить**, чтобы сохранить политику и назначить ее устройствам.</span><span class="sxs-lookup"><span data-stu-id="9e65d-126">Finally, choose **Add** to save the policy, and assign it to devices.</span></span> 
