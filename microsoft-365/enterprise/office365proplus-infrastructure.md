@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/18/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Office 365 профессиональный плюс для Microsoft 365 корпоративный.
-ms.openlocfilehash: 7905bcf37f2cda0e81208a9666c257e2c871110e
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: cf698e4dbee17a811a4d2bc01d08d4d97d1961c1
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400233"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074179"
 ---
 # <a name="phase-4-office-365-proplus"></a>Этап 4. Office 365 профессиональный плюс
 
@@ -87,10 +87,7 @@ Office 365 профессиональный плюс делает возможн
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Узнайте, как специалисты корпорации Майкрософт спланировали и развернули Office 365 профессиональный плюс в Microsoft 365 корпоративный, из следующих ресурсов:
-
-- [Развертывание и обновление Microsoft Office 365 профессиональный плюс](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
-- [Автоматизация и каналы обновления упрощают развертывание Microsoft Office 365 профессиональный плюс](https://www.microsoft.com/itshowcase/Article/Content/794/Automation-and-update-channels-help-deploy-Microsoft-Office-365-ProPlus) (видео)
+Узнайте, как эксперты Майкрософт [развертывают обновления для Office 365 профессиональный плюс и управляют ими](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR7).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 

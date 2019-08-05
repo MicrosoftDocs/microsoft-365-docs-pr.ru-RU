@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 10/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть сетевую инфраструктуру для Microsoft 365 корпоративный.
-ms.openlocfilehash: 9b8c23d543eca97147801d70e42de7105266c52d
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 4c1ea87e243d72920a3a56df270fab33bd722834
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33399963"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074319"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Шаг 1. Сетевая инфраструктура для Microsoft 365 корпоративный
 
@@ -48,11 +48,11 @@ Microsoft 365 корпоративный включает Office 365 и Micros
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Загляните в корпорацию Майкрософт и узнайте, как компания подготовила и оптимизировала сеть Майкрософт для облачных служб Office 365, в этом вам поможет статья [Оптимизация производительности сети для Microsoft Office 365](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365).
+Познакомьтесь ближе с Майкрософт и узнайте, как компания [оптимизировала сеть Майкрософт для облачных служб](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR4).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 
-Посмотрите, как корпорация Contoso, вымышленная многонациональная компания, [оптимизировала свою сеть](contoso-networking.md) для облачных служб Microsoft 365.
+Посмотрите, как корпорация Contoso, вымышленная представительская многонациональная компания, [оптимизировала сетевые устройства и подключения к Интернету](contoso-networking.md) для облачных служб Microsoft 365.
 
 ![](./media/contoso-overview/contoso-icon.png)
 
