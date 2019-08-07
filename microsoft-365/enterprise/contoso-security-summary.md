@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
-ms.openlocfilehash: 1aade29c8a4f9348b749025818e433981ec19091
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 3de3b748659d713d4db8375d4bcc51ce89573d79
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353110"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054971"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Сводка по безопасности Microsoft 365 корпоративный для корпорации Contoso
 
@@ -123,7 +123,7 @@ ms.locfileid: "33353110"
 
 - Управление устройствами с использованием Microsoft Intune
 
-  Корпорация Contoso использует [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) из набора Enterprise Management + Security (EMS) для регистрации, контроля и настройки доступа для мобильных устройств и приложений, которые на них выполняются. В соответствии с политиками условного доступа для устройств также необходимо использовать утвержденные приложения, а также компьютеры и мобильные устройства, соответствующие требованиям.
+  Корпорация Contoso использует [Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) для регистрации, контроля и настройки доступа для мобильных устройств и приложений, которые на них выполняются. Кроме того, в соответствии с политиками условного доступа для устройств необходимо использовать утвержденные приложения, а также компьютеры и мобильные устройства, соответствующие требованиям.
 
 ## <a name="security-management"></a>Управление безопасностью
 

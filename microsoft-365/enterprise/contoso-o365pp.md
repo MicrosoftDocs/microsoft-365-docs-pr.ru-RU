@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано, как в компании Contoso используют System Center Configuration Manager для развертывания Office 365 профессиональный плюс.
-ms.openlocfilehash: 0fa0ca1d268dbfd57891804e20959147cd6385e4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8367f6456b6e32c62e03f611114177f4dbe6622f
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283552"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36055001"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Развертывание Office 365 профессиональный плюс для компании Contoso
 
@@ -73,9 +73,9 @@ ms.locfileid: "32283552"
 
 В компании Contoso включено автоматическое обновление устройств из облака, поэтому нет необходимости управлять процессом в диспетчере конфигураций. Их устройства автоматически обновляются из облака с учетом канала обновления, выбранного в ходе начального развертывания. 
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
-[Узнайте](contoso-mdm.md), как компания Contoso использует продукт Enterprise Mobility + Security (EMS) в Microsoft 365 корпоративный для управления устройствами и работающими на них приложениями в организации.
+[Узнайте](contoso-mdm.md), как в компании Contoso используют Intune в Microsoft 365 корпоративный для управления устройствами и работающими на них приложениями в организации.
 
 ## <a name="see-also"></a>См. также
 

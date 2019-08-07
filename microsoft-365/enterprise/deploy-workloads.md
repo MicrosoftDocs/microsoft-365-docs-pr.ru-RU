@@ -2,7 +2,7 @@
 title: Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/15/2019
+ms.date: 07/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Подключите пользователей своей организации к рабочим нагрузкам Microsoft 365 корпоративный.
-ms.openlocfilehash: 06dc8683c471de9de7067a3d84673687cddc76c6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 0c81f93b117645974e93870f20d4dfb469dae3ac
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072409"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054931"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 
@@ -39,6 +39,10 @@ ms.locfileid: "34072409"
 Вот рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 корпоративный:
 
 ![](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+
+Дополнительные сценарии см. в [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/). На этой веб-странице введите строку поиска или щелкните **Фильтровать по** и укажите отрасль, роли (отделы) и продукты в Microsoft 365.
+
+В списке результатов щелкните карту, чтобы ознакомиться с инструкциями, которые помогут вам приступить к работе.
 
 ## <a name="foundation-infrastructure-prerequisites"></a>Необходимые компоненты базовой инфраструктуры
 

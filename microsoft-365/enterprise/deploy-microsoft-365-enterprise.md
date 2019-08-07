@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 корпоративный в организации.
-ms.openlocfilehash: 9f67c8b6ac28557e8a37a31ec8ca9e0b318cb79a
-ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
+ms.openlocfilehash: bc678a4bd1b6f4e7332589186767894ee46aa83e
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35937411"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054951"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Развертывание Microsoft 365 корпоративный
 
-Microsoft 365 корпоративный — это сочетание продуктов Office 365, Enterprise Mobility + Security (EMS) и Windows 10 Корпоративная с перечисленными ниже функциями и возможностями. 
+Microsoft 365 корпоративный — это сочетание местных и облачных приложений и служб с Windows 10 Корпоративной со следующими характеристиками:  
 
 - Наличие интеллектуальной системы безопасности.
 - Интеграция для простоты использования.
