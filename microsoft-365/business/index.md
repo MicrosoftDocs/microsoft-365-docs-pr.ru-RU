@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: Microsoft 365 Бизнес-ресурсы
 description: Узнайте, как планировать, развертывать и использовать Microsoft Office 365, Windows 10 и Enterprise Mobility + Security вместе в вашей организации для интегрированной и безопасной инфраструктуры, позволяющей работать с обделами и разблокировками.
-ms.openlocfilehash: a7b6ef6b3c86868ffd9dd2ab912c427911075911
-ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
+ms.openlocfilehash: 2d937f777ab5aebb0dcdf3eee40c62c109256d82
+ms.sourcegitcommit: 99d3facce4dc02ab9a5a8956bb49de6581b3562d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34653053"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36213346"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "34653053"
                                                 <h3>Обзор</h3>
                                                 <P><a href="https://support.office.com/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a" target="_blank">Обзор видео</a></p>
                                                 <P><a href="microsoft-365-business-overview.md" target="_blank">Что такое Microsoft 365 Бизнес</a></p>
-                                                <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-service-description" target="_blank">Описание служб</a></p>
+                                                <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description" target="_blank">Описание служб</a></p>
                                                 <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">Вопросы и ответы</a></p>
                                             </div>
                                         </div>
