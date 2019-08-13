@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Подключите пользователей своей организации к рабочим нагрузкам Microsoft 365 корпоративный.
-ms.openlocfilehash: 0c81f93b117645974e93870f20d4dfb469dae3ac
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 3e7e030e3684606a906a57856d08ea25c7dc2001
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054931"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297869"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 
@@ -77,3 +77,4 @@ ms.locfileid: "36054931"
 Хотя слой **Сеть** является базовым и очень важен с точки хранения производительности, его развертывание можно выполнять одновременно с подключением пользователей к рабочим нагрузкам. При этом вы должны понимать, что изначально производительность приложений и служб Microsoft 365 будет не оптимальной и улучшится со временем.
 
 Это особенно актуально для крупных организаций с несколькими местоположениями, где пограничные устройства используется вместе с подключениями к Интернету.
+
