@@ -3,7 +3,7 @@ title: Обзор Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/30/2019
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: ec2a8f0d60f50503f8f5cf457c2999598e248053
-ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
+ms.openlocfilehash: de67f9e99fbb7a3a6e85001ec675f16672f4ef22
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35937429"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297899"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 Enterprise
 
@@ -59,15 +59,26 @@ Microsoft 365 корпоративный доступен в трех плана
 
 [Microsoft 365 корпоративный плакат](http://aka.ms/m365eposter) — это центральное расположение, которое вы можете просмотреть:
 
-- Преимущества Microsoft 365 корпоративный и их сопоставления с информационными уровнями
+- Преимущества Microsoft 365 корпоративный и как приложения и службы сопоставляются с его информационными уровнями
 - Планы Microsoft 365 корпоративный и какие компоненты они содержат 
 - Основные компоненты современного рабочего места, которые Microsoft 365 корпоративный позволяет
-- Основные сценарии работы Microsoft 365 Enterprise и службы и продукты, которые делают их.
+- Библиотека производительности и характерные сценарии [Microsoft 365](https://www.microsoft.com/microsoft-365/success/) для некоторых распространенных отделов Организации.
 - План внедрения, на котором выделяется руководство по [развертыванию](deploy-microsoft-365-enterprise.md) Microsoft 365 корпоративный
 
 ![](./media/m365-poster/m365e-poster.png)
 
 Чтобы скачать копию афиши, щелкните [здесь](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf).
+
+
+## <a name="transition-your-entire-organization"></a>Переход на всю организацию
+
+Чтобы узнать больше о том, как перенести всю организацию в продукты и службы в Microsoft 365 Enterprise, скачайте афишу для [перехода](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf)на новую версию.
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+Эта 2-страничная Афиша — это быстрый способ инвентаризации существующей инфраструктуры и рекомендации по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. Она включает продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, такие как управление устройствами, идентификация, сведения и защита от угроз.
+
+Этот плакат можно распечатать в форматах Letter, Legal или таблоид (11 x 17).
 
 ## <a name="deploying"></a>Внедрение
 
