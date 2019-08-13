@@ -2,7 +2,7 @@
 title: Миграция в Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 171a0d1b9db5c6dad89d091e81413fbdd785b3b4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f82e65cdff674884466fe70a299250c92f356186
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073299"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297887"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -27,7 +27,11 @@ ms.locfileid: "34073299"
 
 - клиента Office, установленного на компьютерах для Office 365 профессиональный плюс;
 - серверов Office, установленных на серверах для эквивалентных служб в Office 365;
-- Windows 7 и Windows 8.1, установленных на устройствах для Windows 10 Корпоративная.
+- Обновление устройств с Windows 7 и Windows 8.1 до Windows 10 Корпоративная
+
+>[!Note]
+>Поддержка Windows 7 прекращается 14 января 2020 г. Дополнительные сведения см. [здесь](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
+>
 
 Выполнение этих операций со временем приблизит вашу организацию к реализации [современного рабочего места](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/) — надежной и интегрированной среды на основе Microsoft 365 корпоративный, которая позволяет работать в команде и способствует творческому решению задач в организации. 
 
@@ -151,6 +155,16 @@ Microsoft 365 корпоративный включает Office 365, в то
 - [Из SharePoint в облако: узнайте, как корпорация Майкрософт выполнила свою миграцию](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
 - [Развертывание Windows 10 в корпорации Майкрософт путем обновления на месте](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)
 - [Развертывание Windows 10: советы от ИТ-специалистов Майкрософт](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT) (видео)
+
+## <a name="transition-your-entire-organization"></a>Переход всей организации
+
+Чтобы лучше понять, как перевести всю организацию в Microsoft 365 корпоративный, скачайте [плакат по переходу](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf).
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+Этот двухстраничный плакат содержит быстрый способ определения элементов существующей инфраструктуры и руководство по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. На нем представлены продукты, описанные в этой статье, а также другие элементы инфраструктуры и безопасности, например управление устройствами, удостоверения, защита информации и защита от угроз.
+
+Вы можете распечатать этот плакат в формате письма, юридического документа или газетном формате (11 х 17).
 
 ## <a name="result"></a>Результат
 
