@@ -126,8 +126,7 @@ ms.locfileid: "35830507"
 
   - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
 
-  - 
-  [Развертывание ОС с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [Развертывание ОС с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Планирование развертывания Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

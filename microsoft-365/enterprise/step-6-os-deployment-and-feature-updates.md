@@ -53,11 +53,9 @@ ms.locfileid: "35584545"
 
 Записанный образ будет иметь формат образа Windows (WIM), как в случае стандартного установочного носителя Windows. После создания специального файла WIM можно использовать другую последовательность задач в рамках развертывания ОС в System Center Configuration Manager или Microsoft Deployment Toolkit для выполнения задач, связанных с развертыванием, чтобы применить образ и выполнить задачи до и после применения образа Windows.
 
+[Создание эталонного образа Windows 10](https://docs.microsoft.com/ru-RU/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-  [Создание эталонного образа Windows 10](https://docs.microsoft.com/ru-RU/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
-
-
-  [Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>Типы развертывания
 
@@ -71,8 +69,7 @@ ms.locfileid: "35584545"
 
 Все три сценария подразумевают выполнение последовательности задач, в каждом случае можно применять специальный образ.
 
-
-  [Дополнительные сведения о сценариях развертывания Windows 10](https://docs.microsoft.com/ru-RU/windows/deployment/windows-10-deployment-scenarios)
+[Дополнительные сведения о сценариях развертывания Windows 10](https://docs.microsoft.com/ru-RU/windows/deployment/windows-10-deployment-scenarios)
 
 ### <a name="in-place-upgrade-using-task-sequence-automation"></a>Обновление на месте с автоматизацией последовательности задач
 
@@ -88,11 +85,9 @@ ms.locfileid: "35584545"
 
 С помощью сценария обновления на месте можно перейти на Windows 10 с устаревших версий Windows, а также выполнить обновление предыдущих версий Windows 10. Когда программа установки Windows завершит обновление, ваша последовательность задач может выполняться и дальше, обновляя приложения Office, заменяя драйверы и применяя параметры персонализации. Можно также использовать последовательность задач обновления, чтобы перед установкой выполнить задачи или проверки, необходимые для установки новой версии.
 
+[Обновление на месте до Windows 10 с помощью диспетчера конфигураций](https://docs.microsoft.com/ru-RU/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-  [Обновление на месте до Windows 10 с помощью диспетчера конфигураций](https://docs.microsoft.com/ru-RU/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
-
-
-  [Создание последовательности задач для обновления операционной системы в диспетчере конфигураций](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Создание последовательности задач для обновления операционной системы в диспетчере конфигураций](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>Поэтапное развертывание
 
@@ -104,9 +99,7 @@ ms.locfileid: "35584545"
 
 Любой выбранный вариант развертывания нужно максимально автоматизировать, чтобы добиться прогнозируемых и повторяемых результатов. Корпорация Майкрософт предлагает два решения для автоматизации развертывания операционной системы с помощью автоматизированных последовательностей задач, описанные ниже.
 
-  - 
-  **
-  [System Center Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/core/understand/introduction)** (ConfigMgr), помимо средств управления распространением программного обеспечения и его обновлением, имеет встроенные возможности развертывания операционной системы. ConfigMgr широко применяется организациями всех размеров и поддерживает все четыре типа развертывания Windows. При желании можно интегрировать ConfigMgr в Microsoft Intune, добавив дополнительные возможности развертывания и управления устройствами.
+  - **[System Center Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/core/understand/introduction)** (ConfigMgr), помимо средств управления распространением программного обеспечения и его обновлением, имеет встроенные возможности развертывания операционной системы. ConfigMgr широко применяется организациями всех размеров и поддерживает все четыре типа развертывания Windows. При желании можно интегрировать ConfigMgr в Microsoft Intune, добавив дополнительные возможности развертывания и управления устройствами.
 
   - Другой популярный вариант развертывания — бесплатное средство **[Microsoft Deployment Toolkit](https://docs.microsoft.com/ru-RU/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)** (MDT), с помощью которого обычно развертывают операционные системы в компаниях малого и среднего бизнеса. В этом случае требуется очень небольшая инфраструктура. MDT интегрируется со службами развертывания Windows (WDS) для загрузки из сети и поддерживает все четыре типа развертывания, а также установку приложений, драйверов и параметров. Разумеется, MDT можно интегрировать с диспетчером конфигураций.
 
@@ -118,11 +111,9 @@ ms.locfileid: "35584545"
 
 Когда пользователь во время установки войдет в систему компьютера, указав свои учетные данные Azure AD, устройство зарегистрируется в Microsoft Intune, после чего уже Microsoft Intune продолжит развертывание, применит конфигурации обновления приложений и программного обеспечения, а также политики соответствия требованиям. При необходимости Windows Autopilot может запретить пользователю доступ к первому сеансу, пока не будет завершена подготовка.
 
+[Обзор Windows Autopilot](https://docs.microsoft.com/ru-RU/windows/deployment/windows-autopilot/windows-10-autopilot)
 
-  [Обзор Windows Autopilot](https://docs.microsoft.com/ru-RU/windows/deployment/windows-autopilot/windows-10-autopilot)
-
-
-  [Обязательные условия для Windows Autopilot](https://docs.microsoft.com/ru-RU/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
+[Обязательные условия для Windows Autopilot](https://docs.microsoft.com/ru-RU/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
 
 ## <a name="windows-update-for-business-for-feature-updates"></a>Центр обновления Windows для бизнеса для обновления компонентов
 
@@ -130,16 +121,11 @@ ms.locfileid: "35584545"
 
 Дополнительные сведения о Центре обновления Windows для бизнеса см. в указанных ниже статьях.
 
-- 
-  [Развертывание обновлений с помощью Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-manage-updates-wufb)
-- 
-  [Настройка Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-configure-wufb)
-- 
-  [Интеграция Центра обновления Windows для бизнеса с существующими средствами управления](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-integrate-wufb)
-- 
-  [Использование групповой политики для настройки Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-wufb-group-policy)
-- 
-  [Использование Microsoft Intune для настройки Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/intune/windows-update-for-business-configure)
+- [Развертывание обновлений с помощью Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-manage-updates-wufb)
+- [Настройка Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-configure-wufb)
+- [Интеграция Центра обновления Windows для бизнеса с существующими средствами управления](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-integrate-wufb)
+- [Использование групповой политики для настройки Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/windows/deployment/update/waas-wufb-group-policy)
+- [Использование Microsoft Intune для настройки Центра обновления Windows для бизнеса](https://docs.microsoft.com/ru-RU/intune/windows-update-for-business-configure)
 
 ## <a name="next-step"></a>Следующий этап 
 
