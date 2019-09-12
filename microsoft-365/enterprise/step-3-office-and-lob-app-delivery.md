@@ -43,8 +43,7 @@ ms.locfileid: "34814610"
 
 Существует множество способов и моделей установки приложений в Windows, поэтому рассмотрим варианты доставки.
 
-
-  [Управление приложениями для Windows 10](https://docs.microsoft.com/ru-RU/windows/application-management/)
+[Управление приложениями для Windows 10](https://docs.microsoft.com/ru-RU/windows/application-management/)
 
 ## <a name="msi-based-deployments"></a>Развертывания на основе MSI
 
@@ -62,11 +61,9 @@ ms.locfileid: "34814610"
 
 Если вы хотите включить Office 365 профессиональный плюс в свой образ, помните, что в нем используется активация отдельных пользователей. Его не может активировать системный администратор. Используйте средство развертывания Office, чтобы заранее установить Office на устройстве, с которого будет создаваться образ, пропустив вход пользователя. После развертывания образа конечные пользователи смогут войти, используя свои учетные данные Office 365, и активировать Office 365 профессиональный плюс.
 
+[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-  [Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/ru-RU/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
-
-
-  [Развертывание Office 365 профессиональный плюс в составе образа операционной системы](https://docs.microsoft.com/ru-RU/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Развертывание Office 365 профессиональный плюс в составе образа операционной системы](https://docs.microsoft.com/ru-RU/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Технология "нажми и работай" в Office 
 
@@ -82,17 +79,13 @@ Office 365 профессиональный плюс устанавливает
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
+[Руководство по развертыванию Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/deployoffice/deployment-guide-for-office-365-proplus)
 
-  [Руководство по развертыванию Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/deployoffice/deployment-guide-for-office-365-proplus)
+[Удаление существующих версий MSI Office при переходе на Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/deployoffice/upgrade-from-msi-version)
 
+[Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/sum/deploy-use/manage-office-365-proplus-updates)
 
-  [Удаление существующих версий MSI Office при переходе на Office 365 профессиональный плюс](https://docs.microsoft.com/ru-RU/deployoffice/upgrade-from-msi-version)
-
-
-  [Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/sum/deploy-use/manage-office-365-proplus-updates)
-
-
-  [Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune](https://docs.microsoft.com/ru-RU/intune/apps-add-office365)
+[Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune](https://docs.microsoft.com/ru-RU/intune/apps-add-office365)
 
 ## <a name="browser-based-apps"></a>Браузерные приложения
 
@@ -100,8 +93,7 @@ Office 365 профессиональный плюс устанавливает
 
 Кроме того, если вы знаете, что сайты в вашей интрасети не будут должным образом работать с Microsoft Edge, то вы можете сделать так, чтобы все эти сайты автоматически открывались с помощью Internet Explorer 11. В этом процессе используется XML-файл, в котором указано, используется ли IE11 для каждого сайта, а параметры принудительно применяются с помощью групповой политики.
 
-
-  [Что такое режим предприятия](https://docs.microsoft.com/ru-RU/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
+[Что такое режим предприятия](https://docs.microsoft.com/ru-RU/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
 
 На данный момент мы рассказали об известных способах развертывания. Но вам следует рассмотреть два новых подхода к развертыванию приложений.
 
