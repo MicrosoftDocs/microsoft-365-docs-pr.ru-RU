@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Важные вопросы по безопасности и соответствию требованиям в Windows и Office.
-ms.openlocfilehash: 791006a6a836f28adb8d71b20e0e887b903752ba
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 472a838c68ed06560f5b81f7854b05b1b2e8eefd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814590"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981760"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Шаг 5. Вопросы по безопасности и соответствию требованиям
 
@@ -111,7 +111,7 @@ ms.locfileid: "34814590"
 
 **[Управление приложениями в Защитнике Windows](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)** затрагивает в Windows 10 утвержденный список разрешенных и запрещенных приложений, проверенных корпорацией Майкрософт для безопасности, а также все, что управляется политиками защиты конечных точек с помощью Microsoft Intune.
 
-**[Advanced Threat Protection в Защитнике Windows ](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-atp/overview)** — это единая платформа для профилактической защиты, определения произошедших нарушений, автоматизированного расследования и реагирования. Это решение защищает конечные точки от киберугроз, выявляет расширенные атаки и нарушения безопасности данных, автоматизирует инциденты безопасности и повышает уровень безопасности.
+**[Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-atp/overview)** — это единая платформа для профилактической защиты, определения произошедших нарушений, автоматизированного расследования и реагирования. Это решение защищает конечные точки от киберугроз, выявляет расширенные атаки и нарушения безопасности данных, автоматизирует инциденты безопасности и повышает уровень безопасности.
 
 **[Exploit Guard](https://docs.microsoft.com/ru-RU/windows/security/threat-protection/windows-defender-exploit-guard/windows-defender-exploit-guard)** помогает уменьшить масштаб атак на работающие приложения, предотвращая проникновение вредоносных программ в Windows и блокируя ненадежные процессы, препятствуя их доступу к защищенным папкам.
 

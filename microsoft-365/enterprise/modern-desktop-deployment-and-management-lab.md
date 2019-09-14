@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: a19c9d2de0cb4cb5436a8c3364bab0e24bb866ee
-ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
+ms.openlocfilehash: 045f0e0fd2375c4342896668f69ce1305f4a1d43
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35830507"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981700"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -96,7 +96,7 @@ ms.locfileid: "35830507"
   - Application Guard в Защитнике Windows
   - Exploit Guard в Защитнике Windows
   - Управление приложениями в Защитнике Windows
-  - Advanced Threat Protection в Защитнике Windows
+  - Advanced Threat Protection в Microsoft Defender
 
 ### <a name="os-deployment-and-feature-updates"></a>**Обновление компонентов и развертывание ОС**
 
@@ -118,7 +118,7 @@ ms.locfileid: "35830507"
 
 ### <a name="download-the-windows-and-office-deployment-lab-kithttpswwwmicrosoftcomevalcenterevaluate-lab-kit"></a>[**Скачать комплект Deployment Lab Kit для Windows и Office**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 27 августа 2019 г. До этой даты будет опубликована новая версия занятия.*
+*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 16 ноября 2019 г. До этой даты будет опубликована новая версия занятия.*
 
 ## <a name="additional-guidance"></a>**Дополнительные рекомендации**
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучение и развертывание Windows Information Protection в Microsoft 365.
-ms.openlocfilehash: e32b09c20e86ff927748f7aedd8b8d769e07916e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a89d61367d3e07cabff0576f16fa359a06dc1ecc
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073569"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981820"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Шаг 4. Настройка Windows Information Protection
 
@@ -30,7 +30,7 @@ ms.locfileid: "34073569"
 
 Windows Information Protection (WIP) обеспечивает защиту от утечки данных такого рода на устройствах с Windows 10. Дополнительные сведения см. в статье [Защита корпоративных данных с помощью WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
-В Microsoft 365 корпоративный WIP представляет собой сочетание операционной системы Windows 10 Корпоративная и службы Microsoft Intune, которая входит в состав решения Enterprise Mobility + Security (EMS) в вашей подписке. 
+В Microsoft 365 корпоративный WIP представляет собой сочетание операционной системы Windows 10 Корпоративная и службы Microsoft Intune, которая входит в вашу подписку. 
 
 Для развертывания WIP в организации с использованием Microsoft 365 корпоративный выполните следующие действия.
 
@@ -46,7 +46,6 @@ Windows Information Protection (WIP) обеспечивает защиту от 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step4), при выполнении которых можно считать данный шаг завершенным.
 
 ## <a name="next-step"></a>Следующее действие
-
 
 |||
 |:-------|:-----|

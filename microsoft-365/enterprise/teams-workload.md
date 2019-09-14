@@ -2,7 +2,7 @@
 title: Развертывание Microsoft Teams для Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/16/2018
+ms.date: 08/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Выполните по шагам процесс планирования, развертывания и эффективного использования Microsoft Teams в Microsoft 365 корпоративный в вашей организации.
-ms.openlocfilehash: 1e7519817a10eb4aa710dff2d4c74c9390c9f6f6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: fd2e72ddb0dfbcc437d30dee16241fbccc81b05b
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072859"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982620"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Развертывание Microsoft Teams для Microsoft 365 корпоративный
 
@@ -50,14 +50,6 @@ Teams можно использовать для множества различ
 Вы должны нацелить Teams на решение потребностей высокоподвижных групп, которые ведут большие объемы совместной работы, тесно работают вместе и для которых требуется намного больше средств, чем просто почта, работу с которой обеспечивает Exchange Online. В качестве примеров можно привести групповые чаты в реальном времени с записью сообщений в журнале, а также общее место для хранения файлов и заметок, которое легко найти. 
 
 Один из способов оценить преимущества Teams — изучить, как взаимодействуют участники группы или виртуальной группы, а затем найти соответствующий сценарий Teams, который позволит заменить личное взаимодействие и обеспечит более простые способы совместной работы и дополнительные возможности.
-
-Teams делает возможными эти стратегические бизнес-сценарии в отношении Microsoft 365 корпоративный:
-
-- общение с членами команды, обеспечивающее информированность, слаженную работу и согласованность мнений;
-- задействование сотрудников без компьютеров для обеспечения цифровой трансформации;
-- понимание своего привычного стиля работы для совершенствования методов влияния.
-
-Дополнительные сведения см. в статье [Цифровая трансформация с помощью Microsoft 365](http://transform.microsoft.com). 
 
 #### <a name="microsoft-teams-for-highly-regulated-data"></a>Microsoft Teams для строго регулируемых данных
 
@@ -99,7 +91,7 @@ Teams делает возможными эти стратегические би
 - [Управление доступом пользователей к Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/user-access)
 - [Работа с клиентами для Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
 - [Включение Microsoft Teams в организации Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up)
-- [Управление функциями Microsoft Teams в организации Office 365](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)
+- [Управление функциями Microsoft Teams в организации Office 365](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 
 #### <a name="result"></a>Результат
 
