@@ -3,7 +3,7 @@ title: Шаг 2. Идентификация
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/16/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру идентификации для Microsoft 365 корпоративный.
-ms.openlocfilehash: 6acd462a0fcd4169a42a0b1d0e1738ffcba597f5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 07f95a249912826b80e0654cac4063b3d5763267
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073899"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981958"
 ---
 # <a name="phase-2-identity"></a>Шаг 2. Идентификация
 
@@ -26,15 +26,23 @@ ms.locfileid: "34073899"
 
 В Microsoft 365 корпоративный хорошо спланированная и реализованная инфраструктура идентификации позволяет усилить защиту и предоставлять доступ к рабочим нагрузкам и их данным только пользователям и устройствам, прошедшим проверку подлинности.
 
+Просмотрите это видео с обзором моделей удостоверений и проверки подлинности для Microsoft 365 корпоративный.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
+
 >[!Note]
 >Если вы уже развернули инфраструктуру идентификации, см. перечень обязательных и необязательных [условий](identity-exit-criteria.md), при выполнении которых можно считать инфраструктуру идентификации для Microsoft 365 корпоративный настроенной.
 >
 
+Сведения о функциях удостоверений для каждого плана Microsoft 365 корпоративный, роли Azure Active Directory (Azure AD), локальных и облачных компонентах, а также самых распространенных настройках проверки подлинности см. на [плакате инфраструктуры удостоверений](media/identity-infrastructure/M365E-ID-Infra.pdf).
+
+[![Плакат инфраструктуры удостоверений](./media/identity-infrastructure/m365e-identity-arch-poster.png)](media/identity-infrastructure/M365E-ID-Infra.pdf)
+
+Эту двухстраничный плакат позволяет быстро ознакомиться с основными понятиями и настройками Microsoft 365 корпоративный.
+
+Вы также можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/identity-infrastructure/M365E-ID-Infra.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
+
 ## <a name="plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure"></a>Планирование и развертывание инфраструктуры идентификации Microsoft 365 корпоративный 
-
-Перед началом работы посмотрите это видео с обзором моделей удостоверений и проверки подлинности для Microsoft 365.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
 Выполните указанные ниже шаги, чтобы спланировать и развернуть новую инфраструктуру идентификации в облаке. Кроме того, с помощью этих шагов можно адаптировать имеющуюся у вас локальную или гибридную инфраструктуру идентификации для работы с Microsoft 365 корпоративный. 
 
@@ -46,8 +54,9 @@ ms.locfileid: "34073899"
 |![](./media/stepnumbers/Step4.png)| [Настройка безопасной проверки подлинности пользователей](identity-multi-factor-authentication.md) |
 |![](./media/stepnumbers/Step5.png)| [Упрощение доступа для пользователей](identity-password-reset.md) |
 |![](./media/stepnumbers/Step6.png)| [Упрощение управления с помощью групп](identity-self-service-group-management.md) |
+|![](./media/stepnumbers/Step7.png)| [Настройка управления удостоверениями](identity-governance.md) |
 
-Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](identity-exit-criteria.md) для соответствия требованиям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
+Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](identity-exit-criteria.md) для соответствия требованиям к удостоверениям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
 
 ## <a name="identity-and-device-access-recommendations"></a>Рекомендации по доступу для удостоверений и устройств
 
@@ -58,7 +67,7 @@ ms.locfileid: "34073899"
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Узнайте, как ИТ-специалисты в корпорации Майкрософт [управляют удостоверениями и обеспечивают безопасный доступ](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR5).
+Узнайте, как ИТ-специалисты в корпорации Майкрософт [управляют удостоверениями и обеспечивают безопасный доступ](https://www.microsoft.com/ru-RU/itshowcase/deploying-and-managing-microsoft-365#primaryR5).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 
