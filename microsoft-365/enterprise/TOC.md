@@ -16,6 +16,7 @@
 #### [Шаг 4. Настройка безопасной проверки подлинности пользователя](identity-multi-factor-authentication.md)
 #### [Шаг 5. Упрощение доступа для пользователей](identity-password-reset.md)
 #### [Шаг 6. Упрощение управления с помощью групп](identity-self-service-group-management.md)
+#### [Шаг 7: Настройка управления удостоверениями](identity-governance.md)
 #### [Критерии выхода для удостоверения](identity-exit-criteria.md)
 ### [Шаг 3. Windows 10 Корпоративная](windows10-infrastructure.md)
 #### [Шаг 1: подготовка Организации](windows10-prepare-your-org.md)
@@ -96,7 +97,6 @@
 ## [Автоматические обновления для Windows 7 до Windows 10](windows-7-to-windows-10-upgrade-automated.md)
 ## [Развертывание Windows и Office и комплект лабораторий](modern-desktop-deployment-and-management-lab.md)
 ## [Поиск справки по развертыванию](find-help-for-modern-desktop-deployment.md)
-## [Обеспечение поддержки руководителей: определение ценности и экономическое обоснование](https://transform.microsoft.com)
 
 # [Конфигурации доступа для удостоверений и устройств](microsoft-365-policies-configurations.md)
 ##[Предварительные действия](identity-access-prerequisites.md)
