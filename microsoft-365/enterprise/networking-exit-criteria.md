@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для сетевой инфраструктуры.
-ms.openlocfilehash: 533707eec17483c8291b232821035752c9d09e43
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9d818a97e79465d639c52f96901bd1cbaa31144a
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074209"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982780"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Шаг 1. Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной
 
@@ -30,7 +30,7 @@ ms.locfileid: "34074209"
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Обязательное: ваша сеть готова к Microsoft 365 корпоративный
 
 - Пропускная способность интернет-канала в ваших офисах является достаточной для трафика Microsoft 365, в том числе установки и обновлений Office 365, Microsoft Intune и Windows 10 Корпоративная.
-- В целом ваша сеть соответствует эталонной архитектуре Office 365.
+- В целом ваша сеть соответствует [эталонной архитектуре Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - Выполнено пилотное развертывание и тестирование изменений в вашей сети, и они соответствуют вашим требованиям к задержке трафика. 
 
 Чтобы выполнить это требование, см. [шаг 1](networking-provide-bandwidth-cloud-services.md).

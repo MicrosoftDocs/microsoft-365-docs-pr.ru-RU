@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте безопасный сайт группы SharePoint Online или группы Microsoft Teams для хранения наиболее ценных и конфиденциальных цифровых активов.
-ms.openlocfilehash: d9740a27cdb90f8d490a6c9a323e968725876deb
-ms.sourcegitcommit: e87c9aa4d6f4756c0a761d3de7c70492b43bf0b9
+ms.openlocfilehash: d056acc9598abc2b896c775e0979451f4961e3fb
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "34681074"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982760"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>Сайты Microsoft Teams и SharePoint Online для жестко регламентированных данных
 
@@ -67,7 +67,6 @@ ms.locfileid: "34681074"
 Описанные ниже поэтапные шаги помогут выполнить проектирование, настройку и внедрение сайтов и групп SharePoint Online для жестко регламентированных данных.
 
 Чтобы узнать, как вымышленная корпорация Contoso, которая представляет типичные международные компании, разработала сайт SharePoint Online для исследовательских групп, см. [пример конфигурации](contoso-sharepoint-online-site-for-highly-confidential-assets.md).
-
 
 Группа для жестко регламентированных данных требует предварительного создания сайта группы SharePoint Online для жестко регламентированных данных и группы Office 365. Чтобы узнать больше, см. этап 2, шаг 4.
 

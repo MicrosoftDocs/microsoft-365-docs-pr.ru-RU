@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Настройте веб-браузеры и пограничные устройства для обхода трафика в доверенные места Office 365.
-ms.openlocfilehash: c7d4391d3274fd36a3f6fbf208cd94ce7b0f9339
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 416c93fd3f44e1cd9edba52a9d6117ac6d133760
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074229"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982790"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Шаг 4. Настройка обхода трафика
 
-*Этот шаг — необязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
+*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
 ![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
@@ -40,7 +40,8 @@ ms.locfileid: "34074229"
 
 Корпорация Майкрософт рекомендует:
 
-- использовать скрипты PAC в интернет-браузерах локальных компьютеров для обхода прокси-серверов для доменных имен DNS облачных служб Microsoft 365. Последний скрипт PAC для Microsoft 365 — Get-Pacfile;
+- использовать скрипты PAC в интернет-браузерах локальных компьютеров для обхода прокси-серверов для доменных имен DNS облачных служб Microsoft 365. Последний скрипт PAC для Microsoft 365 — [Get-Pacfile](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints#use-a-pac-file-for-direct-routing-of-vital-office-365-traffic);
+- 
 - проанализировать пограничные устройства, чтобы определить двойную обработку, а затем настроить пересылку трафика в конечные точки "Оптимизировать" и "Разрешить" без обработки. Это известно как обход трафика. 
 
 К пограничным устройствам относятся брандмауэры, устройства расшифровки и анализа SSL-трафика, устройства анализа пакетов и системы защиты от потери данных. Чтобы настроить и обновить конфигурации пограничных устройств, используйте скрипт или вызов REST для получения структурированного списка конечных точек из веб-службы Office 365 Endpoints. Дополнительную информацию см. в статье [Веб-служба IP-адресов и URL-адресов в Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).

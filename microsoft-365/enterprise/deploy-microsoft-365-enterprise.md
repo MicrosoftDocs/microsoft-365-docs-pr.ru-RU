@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 корпоративный в организации.
-ms.openlocfilehash: 2f527c8d3afe2d3d0690661c6f01efefd5b0d435
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: 896ac2ec0f9964344a416d583858e90a1a59e8fd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297909"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982078"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Развертывание Microsoft 365 корпоративный
 
@@ -87,13 +87,13 @@ FastTrack — это текущая и стандартная возможнос
 
 ## <a name="transition-your-entire-organization"></a>Переход всей организации
 
-Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный, скачайте [плакат по переходу](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf).
+Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный ознакомьтесь с плакатом [Переход организации на Microsoft 365](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
-![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+[![Плакат "Переход организации на Microsoft 365"](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 Этот двухстраничный плакат содержит быстрый способ определения элементов существующей инфраструктуры и руководство по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. На нем представлены продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, например управление устройствами, удостоверения, защита информации и защита от угроз.
 
-Вы можете распечатать этот плакат в формате письма, юридического документа или газетном формате (11 х 17).
+Вы можете [скачать этот плакат по переходу](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
 
 ## <a name="how-did-others-do-it"></a>Как делают другие?
 
@@ -115,7 +115,7 @@ FastTrack — это текущая и стандартная возможнос
 
 В то же время интеллектуальные функции безопасности и интеграция продуктов помогают оптимизировать управление и уменьшить общую стоимость владения в течение жизненного цикла ИТ-службы. 
 
-Узнайте, как группа проектирования основных служб и операций (прежнее название — ИТ-отдел Майкрософт) [спланировала и развернула основу](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365) для поддержки приложений и служб, раскрывающих творческие возможности и поощряющих совместную работу в безопасной среде.
+Узнайте, как группа проектирования основных служб и операций (прежнее название — ИТ-отдел Майкрософт) [спланировала и развернула основу](https://www.microsoft.com/ru-RU/itshowcase/deploying-and-managing-microsoft-365) для поддержки приложений и служб, раскрывающих творческие возможности и поощряющих совместную работу в безопасной среде.
 
 > [!Note]
 > Эта веб-страница доступна только на английском языке.

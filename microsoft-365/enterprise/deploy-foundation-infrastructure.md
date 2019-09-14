@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Рассказ об основных этапах развертывания базовой инфраструктуры Microsoft 365 корпоративный в организации, также называемого базовым развертыванием.
-ms.openlocfilehash: 0b54225d3ce9043564788e28ddd88426dae611e9
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: c66a328becf03a179b3ef0526c3110783904e741
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297919"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982100"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Базовая инфраструктура Microsoft 365 корпоративный
 
@@ -60,7 +60,7 @@ ms.locfileid: "36297919"
 
 ## <a name="at-a-glance"></a>Краткий обзор
 
-[Плакат базовой инфраструктуры Microsoft 365 корпоративный](http://aka.ms/m365efoundinfraposter) — это основное место для просмотра следующих элементов для каждого этапа:
+[Плакат базовой инфраструктуры Microsoft 365 корпоративный](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf) — это основное место для просмотра следующих элементов для каждого этапа:
 
 - Общие цели этапа для администраторов и пользователей
 - Службы, функции и средства
@@ -69,7 +69,7 @@ ms.locfileid: "36297919"
 - Процесс адаптации нового пользователя
 - Способ отслеживания и обновления
 
-![](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)
+[![Плакат с изображением базовой инфраструктуры Microsoft 365 корпоративный](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
 Чтобы скачать копию плаката, щелкните [здесь](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf).
 

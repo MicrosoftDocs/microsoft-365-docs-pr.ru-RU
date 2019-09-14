@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть сетевую инфраструктуру для Microsoft 365 корпоративный.
-ms.openlocfilehash: 4c1ea87e243d72920a3a56df270fab33bd722834
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 35c65515854bb0c47a45e48d8e3c6af6a80d907c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074319"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982800"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Шаг 1. Сетевая инфраструктура для Microsoft 365 корпоративный
 
 ![](./media/deploy-foundation-infrastructure/networking_icon.png)
 
-Microsoft 365 корпоративный включает Office 365 и Microsoft Intune в составе Enterprise Management + Security (EMS). Для обеих этих облачных служб используются безопасные, производительные и надежные подключения с клиентских устройств через Интернет или выделенные каналы. Чтобы разместить эти службы и сделать их доступными клиентам по всему миру, корпорация Майкрософт разработала сетевую инфраструктуру, в которой основное внимание уделено производительности и интеграции. 
+Microsoft 365 корпоративный включает Office 365, Microsoft Intune и различные службы удостоверений и безопасности Microsoft Azure. Для всех этих облачных служб используются безопасные, производительные и надежные подключения с клиентских устройств через Интернет или выделенные каналы. Чтобы разместить эти службы и сделать их доступными клиентам по всему миру, корпорация Майкрософт разработала сетевую инфраструктуру, в которой основное внимание уделено производительности и интеграции. 
 
 На этом шаге вы постепенно рассмотрите ключевые вопросы создания производительного подключения к облачным службам Microsoft 365 корпоративный. Общие сведения см. в статье [Принципы работы сети Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
@@ -48,7 +48,7 @@ Microsoft 365 корпоративный включает Office 365 и Micros
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Познакомьтесь ближе с Майкрософт и узнайте, как компания [оптимизировала сеть Майкрософт для облачных служб](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR4).
+Познакомьтесь ближе с Майкрософт и узнайте, как компания [оптимизировала сеть Майкрософт для облачных служб](https://www.microsoft.com/ru-RU/itshowcase/deploying-and-managing-microsoft-365#primaryR4).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 
