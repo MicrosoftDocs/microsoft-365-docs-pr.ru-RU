@@ -5,14 +5,13 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 11/28/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1e98ef5a7c800ed3fb7fe1b7355e535ed3576c1e
-ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
+ms.openlocfilehash: 0af9134880f018cf814715a8ca3a3b7dc55c5fcd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35853168"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982400"
 ---
 # <a name="getting-help-for-end-users"></a>Вызов справки для конечных пользователей
 
@@ -46,3 +45,4 @@ ms.locfileid: "35853168"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Поддержка администраторов для настольных компьютеров, управляемых Майкрософт](admin-support.md). 
 - [Поддержка настольного компьютера, управляемого корпорацией Майкрософт](../service-description/support.md).
+- Если вы уже подписались на Рабочий стол, управляемые корпорацией Майкрософт, вы можете найти подробные процедуры, процессы, рабочие инструкции и вопросы в руководстве по администрированию управляемого рабочего стола Майкрософт в разделе **ресурсы в сети** , посвященной [администратору управляемых рабочих столов Майкрософт. Портал](https://aka.ms/mwaasportal).

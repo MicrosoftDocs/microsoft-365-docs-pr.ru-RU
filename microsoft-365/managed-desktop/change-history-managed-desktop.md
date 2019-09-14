@@ -8,16 +8,36 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 7d09e2fbf9d21497aa9bd43d308978979a6c73c6
-ms.sourcegitcommit: c6ee468b4aeb3684d332cb79f5cd121f60f32d3e
+ms.openlocfilehash: a9755d1caae20694f1198dec0bf3e659bccee8ee
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35795625"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982610"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации на настольных компьютерах, управляемых Майкрософт
 
 В этом разделе перечислены новые и обновленные статьи, посвященные [управляемой документации на рабочем столе Майкрософт](index.yml).
+
+## <a name="september-2019"></a>Сентябрь 2019 г.
+Новый или измененный раздел | Описание
+--- | ---
+[Предварительные требования для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная тема
+[Настройка управляемых устройств для настольных ПК Майкрософт](get-started/set-up-devices.md) | Новый раздел
+[Самостоятельное регистрация новых устройств](get-started/register-devices-self.md) | Обновленная тема
+[Самостоятельное регистрация имеющихся устройств](get-started/register-reused-devices-self.md) | Новый раздел
+[Способ обработки обновлений на настольных компьютерах, управляемых Майкрософт](service-description/updates.md) | Обновленная тема
+
+## <a name="august-2019"></a>Август 2019
+Новый или измененный раздел | Описание
+--- | ---
+[Работа со службами консультационной службы Майкрософт](get-ready/apps-mcs.md) | Обновленная тема
+[Поддержка администраторов для настольных компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная тема
+[Вызов справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная тема
+[Предварительные требования для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная тема
+[Управляемые технологии для настольных ПК Майкрософт](intro/technologies.md) | Обновленная тема
+
+
 
 ## <a name="july-2019"></a>2019 июля
 Новый или измененный раздел | Описание
@@ -46,7 +66,7 @@ ms.locfileid: "35795625"
 [Подготовка сопоставленных дисков для настольных компьютеров, управляемых Майкрософт](get-ready/mapped-drives.md) | Новый раздел
 [Подготовка сертификатов и сетевых профилей для настольного компьютера, управляемого Майкрософт](get-ready/certs-wifi-lan.md) | Новый раздел
 [Заказ управляемых устройств для настольных ПК Майкрософт](get-started/devices.md) | Обновленная тема
-
+[Вызов справки для конечных пользователей](working-with-managed-desktop/end-user-support.md)
 
 ## <a name="april-2019"></a>Апрель 2019 г.
 Новый или измененный раздел | Описание

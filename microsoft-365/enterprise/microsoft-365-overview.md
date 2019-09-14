@@ -3,7 +3,7 @@ title: Обзор Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/12/2019
+ms.date: 08/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: de67f9e99fbb7a3a6e85001ec675f16672f4ef22
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: b1750e1810556b8dadd4a16481c9ada3195f6c3c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297899"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982840"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 Enterprise
 
@@ -46,7 +46,7 @@ Microsoft 365 корпоративный доступен в трех плана
 | F1 | Подключайтесь к сотрудникам задействование с помощью готовых средств и ресурсов, позволяющих им выполнять свои действия. |
 |||
 
-Если у вас есть Microsoft 365 Ентеприсе E3, вы также можете воспользоваться [](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)следующими разрешениями:
+Если у вас есть Microsoft 365 Ентеприсе E3, вы также можете воспользоваться [следующими разрешениями:](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)
 
 - Идентификация & защиты от угроз
 - & соответствие требованиям к защите информации
@@ -55,9 +55,9 @@ Microsoft 365 корпоративный доступен в трех плана
 
 Для получения дополнительных сведений ознакомьтесь [со статьей функции и возможности для каждого плана](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
-## <a name="at-a-glance"></a>"С кратким использованием"
+## <a name="get-the-big-picture"></a>Получение крупного изображения
 
-[Microsoft 365 корпоративный плакат](http://aka.ms/m365eposter) — это центральное расположение, которое вы можете просмотреть:
+[Microsoft 365 корпоративный плакат](media/Microsoft365Enterprise.pdf) — это центральное расположение, которое вы можете просмотреть:
 
 - Преимущества Microsoft 365 корпоративный и как приложения и службы сопоставляются с его информационными уровнями
 - Планы Microsoft 365 корпоративный и какие компоненты они содержат 
@@ -65,22 +65,42 @@ Microsoft 365 корпоративный доступен в трех плана
 - Библиотека производительности и характерные сценарии [Microsoft 365](https://www.microsoft.com/microsoft-365/success/) для некоторых распространенных отделов Организации.
 - План внедрения, на котором выделяется руководство по [развертыванию](deploy-microsoft-365-enterprise.md) Microsoft 365 корпоративный
 
-![](./media/m365-poster/m365e-poster.png)
+[![Изображение афиши Microsoft 365 корпоративный](./media/m365-poster/m365e-poster.png)](media/Microsoft365Enterprise.pdf)
 
 Чтобы скачать копию афиши, щелкните [здесь](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf).
 
 
 ## <a name="transition-your-entire-organization"></a>Переход на всю организацию
 
-Чтобы узнать больше о том, как перенести всю организацию в продукты и службы в Microsoft 365 Enterprise, скачайте афишу для [перехода](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf)на новую версию.
+Чтобы узнать больше о том, как перенести всю организацию в продукты и службы в Microsoft 365 Enterprise, скачайте [афишу для перехода](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)на новую версию.
 
-![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+[![Изображение перехода на плакат Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 Эта 2-страничная Афиша — это быстрый способ инвентаризации существующей инфраструктуры и рекомендации по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. Она включает продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, такие как управление устройствами, идентификация, сведения и защита от угроз.
 
-Этот плакат можно распечатать в форматах Letter, Legal или таблоид (11 x 17).
+Вы можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) и напечатать его в форматах Letter, Legal или таблоид (11 x 17).
 
-## <a name="deploying"></a>Внедрение
+## <a name="avoid-end-of-support-for-office-2010-clients-and-servers-and-windows-7"></a>Предотвращение завершения поддержки клиентов и серверов Office 2010 и Windows 7
+
+Следующие продукты достигают конца поддержки **14 января 2010 г**.:
+
+- [Windows 7](https://aka.ms/win7upgrade)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support);
+
+Следующие продукты достигают конца поддержки **13 октября 2020 г**.:
+
+- [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010).
+
+Для наглядной сводки по обновлению, переносу и переходу на облачные варианты для этих продуктов, ознакомьтесь с разрешениями в [конце поддержки](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
+
+[![Изображение завершения поддержки клиентов и серверов Office 2010 и афиши Windows 7](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+
+Эта одностраничная Афиша позволяет быстро разобраться с различными путями, которые можно предпринять, чтобы запретить клиенту Office 2010 и серверным продуктам и Windows 7 достичь конца поддержки, с предпочитаемыми путями и поддержкой параметров в Microsoft 365 корпоративный выделенный.
+
+Вы можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) и напечатать его в форматах Letter, Legal или таблоид (11 x 17).
+
+## <a name="deploy"></a>Развертывание
 
 Существует три способа развертывания продуктов, компонентов и компонентов Microsoft 365 Enterprise:
 

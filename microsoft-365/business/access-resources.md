@@ -17,17 +17,22 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры из Azure Active Directory, подключенной к устройству Windows 10.
-ms.openlocfilehash: fa3cf640e799feb81ff08c5b7b81d57f707e0152
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ab9049e78617372463b8446dc8f8bc0089d8c117
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072037"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981668"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business
 
-Все устройства с Windows 10, которые присоединены к Azure Active Directory, будут иметь доступ ко всем облачным ресурсам, таким как приложения Office 365, и могут быть защищены корпорацией Майкрософт 365 Business. Чтобы разрешить доступ к локальным ресурсам, таким как бизнес-приложения, общие папки и принтеры, необходимо синхронизировать локальную службу Active Directory с Azure Active Directory с помощью [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). Чтобы узнать больше, ознакомьтесь со статьей [Введение в Управление устройствами в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) . 
-  
+Все устройства с Windows 10, которые присоединены к Azure Active Directory, будут иметь доступ ко всем облачным ресурсам, таким как приложения Office 365, и могут быть защищены корпорацией Майкрософт 365 Business. Чтобы разрешить доступ к локальным ресурсам, таким как бизнес-приложения, общие папки и принтеры, необходимо синхронизировать локальную службу Active Directory с Azure Active Directory с помощью [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). В следующих видеороликах описаны действия по настройке для наиболее распространенного сценария.
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
+
+Чтобы узнать больше, ознакомьтесь со статьей [Введение в Управление устройствами в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) .
+Эти действия также описаны в следующих разделах.
+
 ## <a name="run-azure-ad-connect"></a>Запуск Azure AD Connect
 
 Выполните следующие действия, чтобы разрешить подключенным устройствам Azure AD в организации получать доступ к локальным ресурсам.
@@ -52,4 +57,4 @@ ms.locfileid: "34072037"
 
 - Пользователи не смогут проходить проверку подлинности в приложениях, зависящих от проверки подлинности Active Directory. Для этого оцените использование устаревшего приложения и при возможности обновите приложение, использующее современные проверки подлинности.
 
-- Обнаружение принтеров Active Directory не будет работать. Чтобы устранить эту проблему, предоставьте прямые пути к принтерам для всех пользователей или используйте [Печать](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy)в гибридном облаке.
+- Обнаружение принтеров Active Directory не будет работать. Чтобы устранить эту проблему, предоставьте прямые пути к принтерам для всех пользователей или используйте [Печать в гибридном облаке](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).

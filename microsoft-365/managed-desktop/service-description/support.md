@@ -5,14 +5,13 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 11/7/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 69e8463ce6bfffcd2ee5e8dd0f7f724910b13802
-ms.sourcegitcommit: d137cb1bd67a79d8af84357dc156824830d35aa7
+ms.openlocfilehash: 6c30f9e9a9f45ac8a68c285f4c594b238874f768
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35924882"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982510"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Поддержка для настольных компьютеров, управляемых Майкрософт
 
@@ -34,7 +33,7 @@ ms.locfileid: "35924882"
 Поддерживаемые продукты:
 
 - Windows 10 с Advanced Threat Protection в защитнике Microsoft 
-- Подмножество набора Office 365: Outlook, Word, PowerPoint, Excel, Skype для бизнеса, клиент Microsoft Teams 
+- Эти приложения Office 365 профессиональный плюс: Outlook, Word, PowerPoint, Excel, Skype для бизнеса клиент, Microsoft Teams 
 - Microsoft Store для бизнеса 
 - Клиент OneDrive для бизнеса 
 
@@ -43,7 +42,7 @@ ms.locfileid: "35924882"
 - Current: Северная Америка, Канада (за исключением Квебека), Великобритания, Австралия и только Новая Зеландия (24x7x365) 
 - Английский — единственный поддерживаемый язык для бесед с клиентами по телефону и чата. 
 - Мы предоставляем, а не заменяя вашу корпоративную службу поддержки; Бизнес-приложения (LOB), сетевые ресурсы и т. д. по-прежнему обрабатываются вашей службой технической поддержки 
-- Для управляемых устройств Майкрософт, расположенных в тестовой группе и на настольных компьютерах, управляемых другими Майкрософт, не хватает области 
+- Устройства, управляемые корпорацией Майкрософт, в группе "тест" и на устройствах, не входящих в состав рабочего стола Майкрософт, выходят за рамки 
 
 
 ## <a name="related-topics"></a>Статьи по теме
