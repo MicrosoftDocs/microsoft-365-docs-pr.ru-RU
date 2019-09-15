@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано об инфраструктуре сети компании Contoso и о том, как специалисты компании используют разработанную ими технологию SD-WAN для достижения оптимальной производительности сети при подключении к облачным службам Microsoft 365 корпоративный.
-ms.openlocfilehash: 4a2b9f2172def2c62821536e456b2194795158c4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 8eb6f17ffd7974169c0131fa81f05939a54854e1
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072559"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982110"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Сеть корпорации Contoso
 
@@ -50,7 +50,7 @@ ms.locfileid: "34072559"
 
 ## <a name="use-of-sd-wan-for-optimal-network-connectivity-to-microsoft"></a>Использование технологии SD-WAN для оптимального подключения к ресурсам Майкрософт
 
-В компании Contoso следуют указанным ниже [принципам подключения к сети для Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles).
+В компании Contoso следуют указанным ниже [принципам подключения к сети для Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles):
 
 1. Определение и дифференциация сетевого трафика Office 365.
 2. Локальная организация исходящего трафика для сетевых подключений.
