@@ -19,19 +19,9 @@
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: Ведомости и платежи
       items:
-        - name: Общие сведения о счете
-          href: /microsoft-store/billing-understand-your-invoice-msfb?context=/microsoft-365/commerce/context/context-commerce
-        - name: Управление методами оплаты
-          href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
-        - name: Управление профилями выставления счетов
-          href: /microsoft-store/billing-profile?context=/microsoft-365/commerce/context/context-commerce
-        - name: История заказа
-          href: /microsoft-store/manage-orders-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
-    - name: Счет для выставления счетов
-      items:
         - name: Управление сведениями учетных записей для выставления счетов
           href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
         - name: Связать клиент с моей учетной записью выставления счетов
           href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
     - name: Управление связями с моими партнерами
-      href: /microsoft-store/work-with-partner-microsoft-store-business?context=/microsoft-365/commerce/context/context-commerce
+      href: manage-partners.md
