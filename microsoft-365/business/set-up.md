@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: ac9c8b828ff131a15bf057fa8bdc0bf56dd00987
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 1efb7379930f639cf10875cf5aa6731001bb41c8
+ms.sourcegitcommit: 2e5ae52bb641ee1f72c077260b5d0f35622935fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772574"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "37005205"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Настройка Microsoft 365 Business в мастере установки
 
@@ -55,9 +55,9 @@ ms.locfileid: "35772574"
     ![Снимок страницы "Персонализация" страницы входа.](media/personalizesignin.png)
 
     
-4. Следуйте указаниям мастера, чтобы [создать записи DNS на любом поставщике услуг хостинга DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) , который подтверждает, что вы владеете доменом. Если вы знаете узел домена, ознакомьтесь с инструкциями, характерными для [узла](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Следуйте указаниям мастера, чтобы [создать записи DNS на любом поставщике услуг хостинга DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) , который подтверждает, что вы владеете доменом. Если вы знаете узел домена, ознакомьтесь с [инструкциями, характерными для узла](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
-    Если поставщик услуг хостинга — GoDaddy, процесс будет выполняться легко, и вам будет автоматически предложено войти и проверить подлинность Майкрософт от вашего имени.
+    Если поставщик услуг размещения — GoDaddy, или другой узел, включенный с [подключением к домену](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), процесс будет прост, и вам будет автоматически предложено войти и проверить подлинность Майкрософт от вашего имени.
 
     ![На странице "Подтверждение доступа GoDaddy" выберите авторизовать.](media/godaddyauth.png)
 
@@ -89,7 +89,8 @@ ms.locfileid: "35772574"
   
 1. Мастер настройки обычно определяет регистратора и предоставляет ссылку на пошаговые инструкции по обновлению записей NS на его сайте. Если это не так, [измените серверов доменных имен, чтобы настроить Office 365 для любого регистратора доменных](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2)имен. 
 
-    - Если у вас есть существующие записи DNS, например существующий веб-сайт, вам будет необходимо управлять собственными записями DNS, чтобы убедиться, что существующие службы остаются подключенными. Более подробную информацию можно узнать в разделе [domain основы доменов](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
+    - Если у вас есть существующие записи DNS, например существующий веб-сайт, но ваш узел DNS включен для [подключения к домену](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), нажмите кнопку **добавить записи**. 
+    - Если у вас есть существующие записи DNS с другими узлами DNS (не включены для подключения к домену), вам потребуется управлять собственными записями DNS, чтобы убедиться, что существующие службы остаются подключенными. Более подробную информацию можно узнать в разделе [domain основы доменов](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
 
         ![Подсоедините страницу домена, чтобы управлять собственными записями DNS.](media/connectyourdomainpage.png)
 
