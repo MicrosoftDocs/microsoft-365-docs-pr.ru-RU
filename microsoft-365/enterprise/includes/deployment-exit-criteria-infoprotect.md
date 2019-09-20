@@ -18,7 +18,7 @@
 
 - Политики управления угрозами в Центре безопасности Microsoft 365
 - Дополнительные параметры, используемые во всем клиенте Exchange Online
-- Политики общего доступа для всего клиента в центре администрирования SharePoint Online
+- Политики общего доступа для всего клиента в Центре администрирования SharePoint Online
 - Параметры в Azure Active Directory (Azure AD)
 
 Вы также [включили Office 365 Advanced Threat Protection для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/turn-on-atp-for-spo-odb-and-teams).
@@ -41,7 +41,7 @@
 
 
 <a name="crit-infoprotect-step4"></a>
-### <a name="optional-windows-information-protection-is-deployed-across-your-environment"></a>Необязательно: Windows Information Protection развернуто в вашей среде
+### <a name="optional-windows-information-protection-is-deployed-across-your-environment"></a>Необязательно: функция Windows Information Protection развернута в вашей среде
 
 На ваших зарегистрированных устройствах Windows 10 Корпоративная развернута и применена политика Intune, которая определяет:
 
@@ -60,10 +60,24 @@
 
 Чтобы выполнить это требование, см. [шаг 5](../infoprotect-data-loss-prevention.md) (при необходимости). 
 
-
 <a name="crit-infoprotect-step6"></a>
+### <a name="optional-email-encryption-is-configured"></a>Необязательное требование: настроено шифрование электронной почты
+
+Вы настроили следующий метод шифрования электронной почты в соответствии с требованиями организации:
+
+|||
+|:-------|:-----|
+| **Метод шифрования** | **При отправке почты** |
+| [Шифрование сообщений Office 365 (OME)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | За пределы организации с шифрованием |
+| [Управление правами на доступ к данным (IRM)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | С шифрованием и разрешениями |
+| [Secure/Multipurpose Internet Mail Extensions (S/MIME)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | С шифрованием и цифровыми подписями с использованием шифрования с открытым ключом |
+|||
+
+Чтобы выполнить это требование, см. [шаг 6](../infoprotect-email-encryption.md) (при необходимости).
+
+<a name="crit-infoprotect-step7"></a>
 ### <a name="optional-configure-privileged-access-management-in-office-365"></a>Необязательное требование: настроено управление привилегированным доступом для Office 365
 
 С помощью сведений в статье [Настройка управления привилегированным доступом в Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) вы включили привилегированный доступ и создали одну или несколько политик привилегированного доступа в организации. Вы настроили эти политики и включили своевременный доступ для получения доступа к конфиденциальным данным или важным параметрам конфигурации.
 
-Чтобы выполнить это требование, см. [шаг 6](../infoprotect-configure-privileged-access-management.md) (при необходимости). 
+Чтобы выполнить это требование, см. [шаг 7](../infoprotect-configure-privileged-access-management.md) (при необходимости). 
