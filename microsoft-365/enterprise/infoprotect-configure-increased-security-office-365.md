@@ -3,7 +3,7 @@ title: Шаг 3. Настройка усиленной защиты для Micr
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/10/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как настроить усиленную защиту для Microsoft 365.
-ms.openlocfilehash: 81c39eb6a51e7596a72721c72084f1f255f7f451
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073639"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047282"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Шаг 3. Настройка усиленной защиты для Microsoft 365
 
@@ -28,14 +28,14 @@ ms.locfileid: "34073639"
 
 Чтобы защитить вашу подписку на Microsoft 365 и ее данные от вредоносных угроз, настройте следующее:
 
-- [Политики управления угрозами](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-office-365-security--compliance-center)
+- [Политики управления угрозами](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-microsoft-365-security-center)
 - [Дополнительные параметры, используемые во всем клиенте Exchange Online](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-additional-exchange-online-tenant-wide-settings)
 - [Политики общего доступа для всего клиента в Центре администрирования SharePoint](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-tenant-wide-sharing-policies-in-sharepoint-admin-center)
 - [Параметры в Azure Active Directory (Azure AD)](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-settings-in-azure-active-directory)
 
 После настройки вы сможете получать сведения о состоянии системы обеспечения безопасности из указанных ниже источников.
 
-- [Панели мониторинга и отчеты в Центре безопасности Майкрософт](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security--compliance-center)
+- [Панели мониторинга и отчеты в Центре безопасности Майкрософт](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security-and-compliance-centers)
 - [Оценка безопасности (Майкрософт)](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)
 
 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) — это дополнительная функция защиты, обеспечивающая более безопасную совместную работу в вашей организации благодаря указанным ниже средствам.
