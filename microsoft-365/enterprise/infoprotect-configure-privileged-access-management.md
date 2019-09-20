@@ -1,5 +1,5 @@
 ---
-title: 'Шаг 6: Настройка управления привилегированным доступом для Office 365'
+title: 'Шаг 7: Настройка управления привилегированным доступом для Office 365'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: В этой статье рассказывается, как настроить управление привилегированным доступом для Office 365.
-ms.openlocfilehash: fdfb0bc69d1dc05cffd717951cb493995d2123d4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7ed7a69b89a519895e62b78be4a27cfb7fff2f74
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072099"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047292"
 ---
-# <a name="step-6-configure-privileged-access-management-for-office-365"></a>Шаг 6: Настройка управления привилегированным доступом для Office 365
+# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Шаг 7: Настройка управления привилегированным доступом для Office 365
 
 *Этот шаг необязательный; он применяется только к планам E5 и Advanced Compliance Microsoft 365 корпоративный.*
 
@@ -39,11 +39,13 @@ ms.locfileid: "34072099"
 
 Дополнительные сведения см. в статье [Управление привилегированным доступом в Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview).
 
-## <a name="results"></a>Результаты
 
-Результат — это повышение безопасности Office 365 путем включения своевременного управления доступом для ключевых данных и параметров конфигурации вашей организации.
+|||
+|:-------|:-----|
+|![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Чтобы попрактиковаться в этой конфигурации в тестовой лабораторной среде, ознакомьтесь с [руководством по лаборатории тестирования управления привилегированным доступом](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
+|||
 
-Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step6), при выполнении которых можно считать данный шаг завершенным.
+Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step7), при выполнении которых можно считать данный шаг завершенным.
 
 ## <a name="next-step"></a>Следующий шаг
 

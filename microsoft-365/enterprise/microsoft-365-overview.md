@@ -3,7 +3,7 @@ title: Обзор Microsoft 365 Enterprise
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: b1750e1810556b8dadd4a16481c9ada3195f6c3c
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: f08682709cc47dc8fa6b4fcd48dc4511ff251ba1
+ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982840"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37050290"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 Enterprise
 
@@ -78,27 +78,27 @@ Microsoft 365 корпоративный доступен в трех плана
 
 Эта 2-страничная Афиша — это быстрый способ инвентаризации существующей инфраструктуры и рекомендации по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. Она включает продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, такие как управление устройствами, идентификация, сведения и защита от угроз.
 
-Вы можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) и напечатать его в форматах Letter, Legal или таблоид (11 x 17).
+Вы также можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) и распечатать его в форматах Letter, Legal или таблоид (11 x 17).
 
-## <a name="avoid-end-of-support-for-office-2010-clients-and-servers-and-windows-7"></a>Предотвращение завершения поддержки клиентов и серверов Office 2010 и Windows 7
+## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Предотвращение завершения поддержки клиентов и серверов Windows 7 и Office 2010
 
-Следующие продукты достигают конца поддержки **14 января 2010 г**.:
+Следующие продукты достигают конца поддержки **14 января 2020 г**.:
 
 - [Windows 7](https://aka.ms/win7upgrade)
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support);
 
 Следующие продукты достигают конца поддержки **13 октября 2020 г**.:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support);
 - [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010).
 
 Для наглядной сводки по обновлению, переносу и переходу на облачные варианты для этих продуктов, ознакомьтесь с разрешениями в [конце поддержки](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
 
 [![Изображение завершения поддержки клиентов и серверов Office 2010 и афиши Windows 7](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
-Эта одностраничная Афиша позволяет быстро разобраться с различными путями, которые можно предпринять, чтобы запретить клиенту Office 2010 и серверным продуктам и Windows 7 достичь конца поддержки, с предпочитаемыми путями и поддержкой параметров в Microsoft 365 корпоративный выделенный.
+Эта одностраничная Афиша позволяет быстро разобраться с различными путями, которые можно предпринять, чтобы предотвратить достижение конца поддержки клиентскими и серверными продуктами Windows 7 и Office 2010 с использованием предпочитаемых путей и поддержки в Microsoft 365 корпоративный выделенный.
 
-Вы можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) и напечатать его в форматах Letter, Legal или таблоид (11 x 17).
+Вы также можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) и распечатать его в форматах Letter, Legal или таблоид (11 x 17).
 
 ## <a name="deploy"></a>Развертывание
 
