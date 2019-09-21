@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-author: CelesteDG
+author: robmazz
 localization_priority: Normal
-ms.author: celested
+ms.author: robmazz
 ms.topic: hub-page
 keywords: Microsoft 365, Microsoft 365, Microsoft 365 для бизнеса, Microsoft 365 для предприятий, Microsoft 365 для образовательных учреждений, корпоративных, Бизнес, образования, документов, документации
 title: Документация по Microsoft 365
 description: Найдите документацию и ресурсы для Microsoft 365 — полное, интеллектуальное решение, в том числе Office 365, Windows 10 и Enterprise Mobility + Security, благодаря этому все пользователи могут работать совместно.
-ms.date: 07/01/2018
-ms.openlocfilehash: 255d60ba415b6af7435aeadbb0ee74c8bc760908
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6026926ad2dd8638a3a9165e99a36b454eeac6bc
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289020"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071768"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -82,6 +81,46 @@ ms.locfileid: "32289020"
                                                     <br />
                                                     <h3>Microsoft 365 для образования</h3>
                                                     <p>Microsoft 365 образование позволяет преподавателям разкрывать творческие возможности, повышать их и обеспечивать простое и безопасное взаимодействие в едином, доступном для образования решении.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365/compliance/" target="blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Compliance-400x140.svg" alt="Microsoft 365 compliance documentation and resources" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <br />
+                                                    <h3>Соответствие требованиям Microsoft 365</h3>
+                                                    <p>Решения для обеспечения соответствия требованиям Microsoft 365 помогают организации соответствовать юридическим и нормативным стандартам.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365/security/" target="blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Security-400x140.svg" alt="Microsoft 365 security documentation and resources" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <br />
+                                                    <h3>Microsoft 365 Security</h3>
+                                                    <p>Решения по обеспечению безопасности Microsoft 365 помогают защитить предприятие от поверхностей атак.</p>
                                                 </div>
                                             </div>
                                         </div>
