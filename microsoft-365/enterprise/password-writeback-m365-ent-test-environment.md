@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
-ms.openlocfilehash: 815021fe2fd33d242ea41bb29174047e852043db
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7a0574fbb06a6652943cad24325d8a063f38c832
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073069"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071588"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
 
@@ -129,7 +129,7 @@ ms.locfileid: "34073069"
 - Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Office 365 и EMS E5, с доменом AD DS TESTLAB. 
 - Обратная запись паролей включена, поэтому пользователи могут сменить свои пароли через Azure AD без необходимости подключения к упрощенной интрасети.
 
-Информацию и ссылки для настройки обратной записи паролей в рабочей среде вы найдете в описании шага [Упрощение процедуры обновления паролей](identity-password-reset.md#identity-pw-writeback) этапа "Идентификация".
+Информацию и ссылки для настройки обратной записи паролей в рабочей среде вы найдете в описании шага [Упрощение процедуры обновления паролей](identity-add-user-accounts.md#identity-pw-writeback) этапа "Идентификация".
 
 ## <a name="next-step"></a>Следующее действие
 

@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Сводка: сведения о том, как настроить и проверить сброс пароля для тестовой среды Microsoft 365.'
-ms.openlocfilehash: de025d6b54b3cc1b69c8e50fec428f58d7754dcb
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 8be1e898d0b995ddbed7b63c2f0ce07c969592c8
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073119"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071598"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Сброс пароля для тестовой среды Microsoft 365
 
@@ -85,7 +85,7 @@ ms.locfileid: "34073119"
 9. В разделе **Возвращение в учетную запись** введите новый пароль для учетной записи "Пользователь 2" и нажмите кнопку **Готово**. Запишите измененный пароль для учетной записи "Пользователь 2" и сохраните в безопасном расположении.
 10. На отдельной вкладке того же браузера перейдите к [https://portal.office.com](https://portal.office.com), а затем выполните вход, используя новый пароль и имя учетной записи "Пользователь 2". Откроется **Домашняя страница Microsoft Office**.
 
-Информацию и ссылки для настройки сброса паролей в рабочей среде вы найдете в описании шага [Простой сброс паролей](identity-password-reset.md#identity-pw-reset) этапа "Идентификация".
+Информацию и ссылки для настройки сброса паролей в рабочей среде вы найдете в описании шага [Простой сброс паролей](identity-secure-your-passwords.md#identity-pw-reset) этапа "Идентификация".
 
 ## <a name="next-step"></a>Следующий шаг
 
