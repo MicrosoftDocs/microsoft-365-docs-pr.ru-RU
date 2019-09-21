@@ -1,9 +1,9 @@
 ---
-title: Шаг 2. Идентификация
+title: Этап 2. Идентификация
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/06/2019
+ms.date: 09/20/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,20 +13,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру идентификации для Microsoft 365 корпоративный.
-ms.openlocfilehash: 07f95a249912826b80e0654cac4063b3d5763267
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 2d9ffcc5122b5a5dfc94fb007167655e879d6799
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981958"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071698"
 ---
-# <a name="phase-2-identity"></a>Шаг 2. Идентификация
+# <a name="phase-2-identity"></a>Этап 2. Идентификация
 
 ![](./media/deploy-foundation-infrastructure/identity_icon.png)
 
 В Microsoft 365 корпоративный хорошо спланированная и реализованная инфраструктура идентификации позволяет усилить защиту и предоставлять доступ к рабочим нагрузкам и их данным только пользователям и устройствам, прошедшим проверку подлинности.
 
 Просмотрите это видео с обзором моделей удостоверений и проверки подлинности для Microsoft 365 корпоративный.
+
+<p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
@@ -48,13 +50,12 @@ ms.locfileid: "36981958"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Планирование пользователей и групп](identity-plan-users-groups.md) |
-|![](./media/stepnumbers/Step2.png)| [Защита привилегированных удостоверений](identity-designate-protect-admin-accounts.md) |
-|![](./media/stepnumbers/Step3.png)| [Настройка гибридного удостоверения](identity-azure-ad-connect.md) |
-|![](./media/stepnumbers/Step4.png)| [Настройка безопасной проверки подлинности пользователей](identity-multi-factor-authentication.md) |
-|![](./media/stepnumbers/Step5.png)| [Упрощение доступа для пользователей](identity-password-reset.md) |
-|![](./media/stepnumbers/Step6.png)| [Упрощение управления с помощью групп](identity-self-service-group-management.md) |
-|![](./media/stepnumbers/Step7.png)| [Настройка управления удостоверениями](identity-governance.md) |
+|![](./media/stepnumbers/Step1.png)| [Создание и защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md) |
+|![](./media/stepnumbers/Step2.png)| [Защита паролей](identity-secure-your-passwords.md) |
+|![](./media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |
+|![](./media/stepnumbers/Step4.png)| [Добавление учетных записей пользователей](identity-add-user-accounts.md) |
+|![](./media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |
+|![](./media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](identity-exit-criteria.md) для соответствия требованиям к удостоверениям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
 
@@ -80,4 +81,4 @@ ms.locfileid: "36981958"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Планирование пользователей и групп](identity-plan-users-groups.md) |
+|![](./media/stepnumbers/Step1.png)| [Создание и защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md) |
