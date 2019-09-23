@@ -3,7 +3,7 @@ title: Этап 5. Настройка защиты от потери данны
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/25/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о защите от потери данных для Office 365 в Microsoft 365 и ее развертывании.
-ms.openlocfilehash: f6b9291a2965552837f989c98b32674f6093b383
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: dbe88885812e51b0daefa89dae123af5907c60a8
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073565"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047252"
 ---
 # <a name="step-5-configure-office-365-data-loss-prevention"></a>Этап 5. Настройка защиты от потери данных Office 365
 
@@ -54,11 +54,10 @@ ms.locfileid: "34073565"
 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step5), при выполнении которых можно считать данный шаг завершенным.
 
-## <a name="next-step"></a>Следующий шаг
-
+## <a name="next-step"></a>Следующий этап
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step6.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
+|![](./media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
 
 

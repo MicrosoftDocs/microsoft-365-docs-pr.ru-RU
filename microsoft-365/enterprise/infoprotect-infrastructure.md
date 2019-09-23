@@ -3,7 +3,7 @@ title: Шаг 6. Information Protection
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/01/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Information Protection для Microsoft 365 корпоративный.
-ms.openlocfilehash: a00f61cbf2f8d00929a67dae6d401fd99014ec26
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 3174790d1ee6c9ed05605dd1c3c75405e3eac42b
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073689"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047312"
 ---
 # <a name="phase-6-information-protection"></a>Шаг 6. Information Protection
 
@@ -43,14 +43,15 @@ Information Protection — это набор политик и технолог
 |![](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Microsoft 365](infoprotect-configure-increased-security-office-365.md)|
 |![](./media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
 |![](./media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
-|![](./media/stepnumbers/Step6.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
-
+|![](./media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
+|![](./media/stepnumbers/Step7.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
+|||
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](infoprotect-exit-criteria.md) для соответствия требованиям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Узнайте, как ИТ-специалисты корпорации Майкрософт используют [Azure Information Protection](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR9)и обеспечивают безопасность данных.
+Узнайте, как ИТ-специалисты корпорации Майкрософт используют [Azure Information Protection](https://www.microsoft.com/ru-RU/itshowcase/deploying-and-managing-microsoft-365#primaryR9)и обеспечивают безопасность данных.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 

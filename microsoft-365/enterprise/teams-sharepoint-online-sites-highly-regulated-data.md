@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте безопасный сайт группы SharePoint Online или группы Microsoft Teams для хранения наиболее ценных и конфиденциальных цифровых активов.
-ms.openlocfilehash: d056acc9598abc2b896c775e0979451f4961e3fb
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 04984be44ddb2cc1aabc2032970f92e71899b268
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982760"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047348"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>Сайты Microsoft Teams и SharePoint Online для жестко регламентированных данных
 
@@ -145,7 +145,7 @@ ms.locfileid: "36982760"
 - создания и заполнения групп доступа для каждого уровня разрешений SharePoint, используемого на этом сайте;
 - создания и настройки изолированного сайта группы.
 
-### <a name="step-2-configure-the-site-for-an-office-365-retention-label-dlp-policy"></a>Шаг 2. Настройка сайта для соблюдения политики защиты от потери данных метки хранения Office 365
+### <a name="step-2-configure-the-site-for-an-office-365-retention-label"></a>Шаг 2. Настройка сайта для использования метки хранения Office 365
 
 Используйте инструкции, изложенные в статье [Защита файлов SharePoint Online с помощью меток Office 365 и DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp), для:
 
