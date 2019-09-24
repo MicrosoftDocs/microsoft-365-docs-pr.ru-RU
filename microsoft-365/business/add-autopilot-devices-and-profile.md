@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса.
-ms.openlocfilehash: 9a70978156fb26ac3aad08f1758b7ee125067d38
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ee4b4a9b06c08b8f9456822b680542665c27baf3
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072157"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121205"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
@@ -41,7 +41,7 @@ ms.locfileid: "34072157"
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Создание устройств и профилей с помощью мастера настройки
 
-![Баннер, который указывает https://aka.ms/aboutM365previewна.](media/m365admincenterchanging.png)
+[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Если вы еще не создали группы устройств и профили, лучший способ приступить к работе  воспользоваться пошаговым мастером. Однако вы также можете [добавлять устройства](create-and-edit-autopilot-devices.md) и [назначать им профили](create-and-edit-autopilot-profiles.md) без его помощи. 
   
@@ -51,7 +51,7 @@ ms.locfileid: "34072157"
 
     ![В центре администрирования выберите устройства, а затем — автопилот.](media/AutoPilot.png)
   
-2. На странице "автопилотный **проект** " щелкните или нажмите **начать руководство**.
+2. На странице " **Автопилотный проект** " щелкните или нажмите **начать руководство**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   

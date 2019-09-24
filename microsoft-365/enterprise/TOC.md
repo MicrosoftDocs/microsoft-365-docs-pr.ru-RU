@@ -104,43 +104,11 @@
 ## [Рекомендуемые политики доступа Exchange Online](secure-email-recommended-policies.md)
 ## [Рекомендуемые политики доступа SharePoint Online](sharepoint-file-access-policies.md)
 
-# [Решения для соответствия требованиям](../compliance/compliance-solutions-overview.md?toc=/microsoft-365/enterprise/toc.json)
-## [ISO — рекомендуемый план действий](../compliance/iso-action-plan.md)
-## [NIST — Рекомендуемый план действий](../compliance/nist-action-plan.md) 
-## [GDPR](../compliance/gdpr.md?toc=/microsoft-365/enterprise/toc.json)
+# [Соответствие требованиям Microsoft 365](../compliance/index.yml)
+# [Microsoft 365 Security](../security/index.yml)
 
-### [Рекомендуемый план действий для GDPR](../compliance/gdpr-action-plan.md)
-
-### [Контрольные списки готовности к отчетности](../compliance/gdpr-arc.md)
-#### [Office 365](../compliance/gdpr-arc-Office365.md)
-#### [Azure](../compliance/gdpr-arc-Azure.md)
-#### [Dynamics 365](../compliance/gdpr-arc-Dynamics365.md)
-#### [Служба поддержки и профессионального обслуживания Майкрософт](../compliance/gdpr-arc-prof-services.md)
-
-
-### [Защита информации](../compliance/gdpr-information-protection.md?toc=/microsoft-365/enterprise/toc.json)
-
-### [Запросы субъектов данных](../compliance/gdpr-data-subject-requests.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Office 365](../compliance/gdpr-dsr-Office365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Azure](../compliance/gdpr-dsr-Azure.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Intune](../compliance/gdpr-dsr-Intune.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Dynamics 365](../compliance/gdpr-dsr-Dynamics365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Семейство Visual Studio](../compliance/gdpr-dsr-visual-studio-family.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Azure DevOps Services](../compliance/gdpr-dsr-vsts.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Служба поддержки и профессионального обслуживания Майкрософт](../compliance/gdpr-dsr-prof-services.md?toc=/microsoft-365/enterprise/toc.json)
-
-### [Уведомление о нарушении](../compliance/gdpr-breach-notification.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Office 365](../compliance/gdpr-breach-Office365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Azure](../compliance/gdpr-breach-Azure.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Dynamics 365](../compliance/gdpr-breach-Dynamics365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Служба поддержки и профессионального обслуживания Майкрософт](../compliance/gdpr-breach-Microsoft-Support-Professional-Services.md?toc=/microsoft-365/enterprise/toc.json)
-
-### [Оценка влияния на защиту данных](../compliance/gdpr-data-protection-impact-assessments.md)
-#### [Office 365](../compliance/gdpr-dpia-office365.md)
-#### [Azure](../compliance/gdpr-dpia-azure.md)
-#### [Dynamics](../compliance/gdpr-dpia-dynamics.md)
-#### [Служба поддержки и профессионального обслуживания Майкрософт](../compliance/gdpr-dpia-prof-services.md)
-
-### [Сотрудник Майкрософт по защите данных](../compliance/gdpr-data-protection-officer.md)
-
-# [Решения для обеспечения безопасности](../security/index.yml)
+# [Управление непрерывным корпоративным предприятием (ЕБКМ) с облачными службами](ebcm-understanding-ebcm-with-cloud-services.md)
+## [Обязанности по ЕБКМ для клиентов и облачных партнеров](ebcm-customer-and-cloud-partner-ebcm-responsibilities.md)
+## [Устойчивость облачных служб Microsoft 365](ebcm-m365-service-resiliency.md)
+## [Разработка плана непрерывной работы](ebcm-developing-your-ebcm-plan.md)
+## [Сценарии устранения инцидентов служб](ebcm-microsoft-365-mitigations.md)

@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Просмотр политик и действий устройств путем входа в Microsoft 365 Business с глобальным администратором крединтиалс.
-ms.openlocfilehash: 3231cfa61dcc85cda162b05f2c653048e980a8d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ea53276f4ee8430031105f2b9c516471c702e839
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072207"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121285"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Просмотр политик и устройств и управление ими
 
-![Баннер, который указывает https://aka.ms/aboutM365previewна.](media/m365admincenterchanging.png)
+[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="view-and-edit-device-policies"></a>Просмотр и изменение политик устройств
 

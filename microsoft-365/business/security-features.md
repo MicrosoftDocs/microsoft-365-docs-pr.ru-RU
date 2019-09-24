@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Сведения о функциях безопасности, входящих в состав Microsoft 365 Business.
-ms.openlocfilehash: bd61ad3bf1b34635a7b80f1c9ccf63fa98d31915
-ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
+ms.openlocfilehash: 6b8fc215b95913e1beef3a3715119b947a7af406
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017529"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121165"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
 
@@ -32,7 +32,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Функции безопасности центра администрирования Microsoft 365 Business
 
-![Баннер, который указывает https://aka.ms/aboutM365previewна.](media/m365admincenterchanging.png)
+[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Вы можете управлять многими функциями Microsoft 365 Business Security в центре администрирования, что позволяет включать и отключать эти функции в упрощенном виде. В центре администрирования можно выполнить следующие действия:
   
@@ -82,7 +82,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     - Доступ на [основе приложения](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
     - [Доступ на основе расположения](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  разрешить доступ только из надежных диапазонов IP-адресов или определенных стран 
     - Требовать MFA для Access
-    - Блокировка доступа к приложениям, использующим [устаревшую проверку](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) подлинности
+    - Блокировка доступа к приложениям, использующим [устаревшую проверку подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
     - Требовать приложения TP использовать [защиту приложений Intune](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
     - Настраиваемая проверка подлинности, например MFA, с сторонними поставщиками (например, DUO).
    
