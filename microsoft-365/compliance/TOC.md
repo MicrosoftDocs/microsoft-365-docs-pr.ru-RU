@@ -7,15 +7,17 @@
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
 
-# Управление рисками для оценки
+# Управление внутренними рисками
 ## [Защита доступа пользователей и устройств](protect-access-to-data-and-services.md)
-## [Управление привилегированным доступом](privileged-access-management-overview.md)
-## [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 ## [Защищенное хранилище пользователя](customer-lockbox-requests.md)
+## [Управление привилегированным доступом]()
+### [Сведения об управлении привилегированным доступом](privileged-access-management-overview.md)
+### [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 ## Ключ клиента
 ### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
 ### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
-## [Контроль взаимодействия](supervision-policies.md)
+## [Надзор в общении]()
+### [Сведения о надзоре в общении](supervision-policies.md)
 ### [Настройка политик контроля для организации](configure-supervision-policies.md)
 ## [Препятствия для информации](information-barriers.md)
 ### [Определение политик барьера информации](information-barriers-policies.md)
@@ -285,6 +287,7 @@
 ## [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md)
 ## [Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365](set-up-compliance-boundaries.md)
 ## [Серия решений для обнаружения электронных данных. Поиск и очистка в сценарии утечки данных](data-spillage-scenariosearch-and-purge.md)
+## [Устранение распространенных проблем с обнаружением электронных данных](ediscovery-troubleshooting-common-issues.md)
 
 ## Управление случаями удержания
 ### [Создание запроса на удержание в случае обнаружения электронных данных](ediscovery-cases.md#step-4-place-content-locations-on-hold)
