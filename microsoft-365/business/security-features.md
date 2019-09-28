@@ -10,21 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-security-compliance
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Сведения о функциях безопасности, входящих в состав Microsoft 365 Business.
-ms.openlocfilehash: 6b8fc215b95913e1beef3a3715119b947a7af406
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: 8e45d5fdb6a78f3966c46542189aa30ddd80998e
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37121165"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288462"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
 
@@ -61,7 +58,7 @@ Microsoft 365 Business предлагает упрощенные функции 
 
 Расширенные возможности Microsoft 365 Business помогут вам защитить бизнес от угроз кибератак и защищать конфиденциальные данные.
   
-- **[Office 365 Advanced Threat protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
     Advanced Threat protection (ATP) помогает защитить бизнес от атак с помощью изощренных фишинговых и мошеннических атак, которые предназначены для взлома сведений о сотрудниках и клиентах. Поддерживаются перечисленные ниже возможности. 
     

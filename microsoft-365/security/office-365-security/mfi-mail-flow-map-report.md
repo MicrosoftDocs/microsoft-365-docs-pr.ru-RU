@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: Администраторы могут узнать о отчете карты почтовых ящиков в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 00ed128f4d295f1ea7a1c3073feea6028f833be5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a72cfed9bca57a0f3cecd13d83a6c87f05d40a1a
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091293"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306143"
 ---
 # <a name="mail-flow-map-report"></a>Отчет о карте почтового процесса
 
@@ -28,7 +28,7 @@ ms.locfileid: "37091293"
 
 ![Стрелки влево и вправо в мини-приложении "карта процесса почты"](../media/mail-flow-map-widget.png)
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Щелкнув мини-приложение **карты почтовых ящиков** , вы перейдете к отчету **карты процесса обработки почты** . Вы можете увидеть более детализированный уровень отчетов, щелкнув таблица Просмотр сведений для просмотра подробных данных. Вы также можете скачать подробный отчет, щелкнув запрос отчет.
 

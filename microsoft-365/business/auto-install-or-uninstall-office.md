@@ -10,26 +10,22 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Установка или удаление Office на устройствах с Windows 10 из центра администрирования Microsoft 365 бизнес. '
-ms.openlocfilehash: 1e962f51882ddfd97da566858a0a1e6fb56ecbb8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: d82ab8292211d1adacba732922bf693dd2157ad6
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071967"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287542"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Автоматическая установка и удаление Office на устройствах с Windows 10
 
-![Баннер, который указывает https://aka.ms/aboutM365previewна.](media/m365admincenterchanging.png)
+[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Из центра администрирования Office 365 бизнес вы можете легко и быстро установить Office на компьютерах с Windows 10.
   

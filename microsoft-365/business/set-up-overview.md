@@ -13,21 +13,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Обзор процедуры настройки для Microsoft 365 Business.
-ms.openlocfilehash: ae7ed0aab36a6e759e0f0c1fbc3d3183273a284e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074409"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288582"
 ---
 # <a name="overview-of-setup"></a>Обзор программы установки
 
@@ -36,7 +33,7 @@ ms.locfileid: "34074409"
 
 ## <a name="step-1-add-your-domain-and-users"></a>Шаг 1: Добавление домена и пользователей
 
-   - **[Добавление домена](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели свой домен во время [регистрации](sign-up.md), этот шаг уже выполнен.)
+   - **[Добавьте свой домен](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели свой домен во время [регистрации](sign-up.md), этот шаг уже выполнен).
 
     - **Добавление пользователей**. Это можно сделать одним из трех способов:
         - В [мастере](set-up.md#add-users-in-the-wizard).
@@ -58,7 +55,7 @@ ms.locfileid: "34074409"
 
           Чтобы приступить к работе, [Настройте дополнительные политики безопасности](set-up-advanced-security.md).
 
-        Кроме того, вы можете ознакомиться с десятью рекомендациями по обеспечению безопасности [Microsoft 365 для бизнеса](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) в плане рекомендаций по обеспечению безопасности.
+        Кроме того, вы можете ознакомиться с десятью рекомендациями по [обеспечению безопасности Microsoft 365 для бизнеса](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) в плане рекомендаций по обеспечению безопасности.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Шаг 3: Настройка устройств с Windows 10 и управление ими
 

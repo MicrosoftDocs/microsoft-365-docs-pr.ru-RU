@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Отправка и ответ на зашифрованное S/MIME-сообщение в Microsoft Outlook очень похоже на взаимодействие с незашифрованными сообщениями.
-ms.openlocfilehash: 9b7ba86039fe774570c38d58a15591b7f1521302
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 63f45688946f1946f0b0a63cec748d0f0c6a50ee
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090738"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305933"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Отправка и получение зашифрованных и зашифрованных сообщений S/MIME в Exchange Online
 
