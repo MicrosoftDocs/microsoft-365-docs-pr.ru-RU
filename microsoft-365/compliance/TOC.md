@@ -1,7 +1,7 @@
 # [Соответствие требованиям Microsoft 365](index.yml)
 
 # Начало работы
-## [Новые возможности центра соответствия требованиям](whats-new.md)
+## [Новые возможности Центра соответствия требованиям](whats-new.md)
 ## [Центр соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
@@ -11,19 +11,19 @@
 ## [Защита доступа пользователей и устройств](protect-access-to-data-and-services.md)
 ## [Защищенное хранилище пользователя](customer-lockbox-requests.md)
 ## [Управление привилегированным доступом]()
-### [Сведения об управлении привилегированным доступом](privileged-access-management-overview.md)
+### [Подробнее об управлении привилегированным доступом](privileged-access-management-overview.md)
 ### [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 ## Ключ клиента
 ### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
 ### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
-## [Надзор в общении]()
-### [Сведения о надзоре в общении](supervision-policies.md)
+## [Контроль взаимодействия]()
+### [Подробнее о контроле взаимодействия](supervision-policies.md)
 ### [Настройка политик контроля для организации](configure-supervision-policies.md)
-## [Препятствия для информации](information-barriers.md)
-### [Определение политик барьера информации](information-barriers-policies.md)
-### [Атрибуты политик барьера информации](information-barriers-attributes.md)
-### [Устранение неполадок, связанных с информацией](information-barriers-troubleshooting.md)
-### [Изменение политик барьера информации](information-barriers-edit-segments-policies.md.md)
+## [Информационные барьеры](information-barriers.md)
+### [Определение политик информационных барьеров](information-barriers-policies.md)
+### [Атрибуты для политик информационных барьеров](information-barriers-attributes.md)
+### [Устранение проблем с информационными барьерами](information-barriers-troubleshooting.md)
+### [Изменение политик информационных барьеров](information-barriers-edit-segments-policies.md.md)
 
 # [Управление защитой информации](protect-information.md)
 ## [Метки конфиденциальности](sensitivity-labels.md)
@@ -31,7 +31,7 @@
 ### [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)
 ### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
 
-## [Предотвращение потери данных (DLP)](data-loss-prevention-policies.md)
+## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ### [DLP и Microsoft Teams](dlp-microsoft-teams.md)
 ### [Расширенный обзор защиты от потери данных](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ### Настройка защиты от потери данных
@@ -50,14 +50,14 @@
 ### [Что позволяют искать типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md)
 ### [Сведения, для обнаружения которых используются функции защиты от потери данных](what-the-dlp-functions-look-for.md)
 ### [Расширенный обзор настройки защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852306)
-### [Настройка встроенных типов конфиденциальных данных](customize-a-built-in-sensitive-information-type.md)
+### [Настройка встроенных типов конфиденциальной информации](customize-a-built-in-sensitive-information-type.md)
 ### [Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md)
-### [Создание пользовательских типов конфиденциальной информации с классификацией на основе точного совпадения данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-### [Создание пользовательского типа конфиденциальной информации в центре безопасности & соответствия требованиям](create-a-custom-sensitive-information-type.md)
+### [Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+### [Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям](create-a-custom-sensitive-information-type.md)
 ### [Создание пользовательского типа конфиденциальной информации с помощью PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [Создание словаря ключевых слов](create-a-keyword-dictionary.md)
 ### [Создание отпечатка документа](document-fingerprinting.md)
-### [Функции DLP для конфиденциальной информации](what-the-dlp-functions-look-for.md)
+### [Функции защиты от потери данных для конфиденциальной информации](what-the-dlp-functions-look-for.md)
 ### [Расширенный обзор настройки защиты от потери данных](https://go.microsoft.com/fwlink/?linkid=852306)
 
 ## [Шифрование электронной почты](email-encryption.md)
@@ -80,7 +80,7 @@
 #### [Сведения об устаревших продуктах для службы шифрования сообщений Office 365](legacy-information-for-message-encryption.md)
 #### [Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
 
-# Управление сведениями
+# Управление информацией
 ## [Импорт данных](importing-pst-files-to-office-365.md)
 ### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
 ### [Импорт PST-файлов с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
@@ -90,9 +90,9 @@
 ### [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md)
 ### [Архивация сторонних данных в Office 365](archiving-third-party-data.md)
 #### [Использование образца соединителя для архивации данных Facebook](archive-facebook-data-with-sample-connector.md)
-#### [Использование образца соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
+#### [Использование примера соединителя для архивации данных Twitter](archive-twitter-data-with-sample-connector.md)
 #### [Настройка соединителя для архивации данных LinkedIn](archive-linkedin-data.md)
-#### [Настройка соединителя для архивации данных мгновенных Bloomberg](archive-instant-bloomberg-data.md)
+#### [Настройка соединителя для архивации данных Instant Bloomberg](archive-instant-bloomberg-data.md)
 #### [Архивация сторонних данных при помощи партнера](work-with-partner-to-archive-third-party-data.md)
 ## Сохранение данных
 ### [Включение архивных почтовых ящиков](enable-archive-mailboxes.md)
@@ -104,7 +104,7 @@
 ### [Диспетчер планов хранения](file-plan-manager.md)
 ### [Метки хранения](labels.md)
 ### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [Хранение на основе событий](event-driven-retention.md)
 ### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
 ## [Удаление данных](disposition-reviews.md)
@@ -121,20 +121,20 @@
 ## Дополнительные сведения об управлении данными
 ### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
 ## Управление записями
-### [Управление записями](records-management.md)
-### План файлов
+### [управление записями](records-management.md)
+### План хранения
 #### [Диспетчер планов хранения](file-plan-manager.md)
 #### [Метки хранения](labels.md)
-#### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-#### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
+#### [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [Просмотр использования меток с помощью аналитики меток](label-analytics.md)
 #### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
 #### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
 ### События
 #### [Хранение на основе событий](event-driven-retention.md)
 #### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
-### [Ликвидации](disposition-reviews.md)
+### [Ликвидация](disposition-reviews.md)
 ### Дополнительные сведения об управлении записями
-#### [Просмотр видеороликов об управлении записями](https://go.microsoft.com/fwlink/?linkid=867039)
+#### [Посмотрите видео об управлении записями](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [Поиск контента](search-for-content.md)
 ## [Использование поиска контента](content-search.md)
@@ -191,7 +191,7 @@
 #### [Исправление ошибок при обработке данных](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 
 ### [Сбор данных для дела](collecting-data-for-ediscovery.md)
-#### [Create a search](create-search-to-collect-data.md)
+#### [Создание поискового запроса](create-search-to-collect-data.md)
 #### [Создание поисковых запросов](building-search-queries.md)
 #### [Статистика поиска](search-statistics.md)
 #### [Добавление результатов поиска в набор для проверки](add-data-to-review-set.md)
@@ -205,7 +205,7 @@
 #### [Просмотр документов в наборе для проверки](view-documents-in-review-set.md)
 #### [Запрос данных в наборе для проверки](review-set-search.md)
 #### [Добавление тегов к документам в наборе для проверки](tagging-documents.md)
-#### [Настройка юриста — обнаружение прав клиента](attorney-privilege-detection.md)
+#### [Настройка определения адвокатской тайны](attorney-privilege-detection.md)
 
 ### [Анализ данных дела](analyzing-data-in-review-set.md)
 #### [Обнаружение схожих документов (почти дубликатов)](near-duplicate-detection-in-advanced-ediscovery.md)
@@ -229,7 +229,7 @@
 #### [Ограничения в Advanced eDiscovery](limits-ediscovery20.md)
 #### [Поддерживаемые типы файлов](supported-filetypes-ediscovery20.md)
 #### [Поля метаданных документа](document-metadata-fields-in-advanced-ediscovery.md)
-#### [Наборы проверки бесед](conversation-review-sets.md)
+#### [Наборы для проверки бесед](conversation-review-sets.md)
 #### [Устранение неполадок AzCopy](troubleshooting-azcopy.md)
 
 ## [Управление делами по обнаружению электронных данных](ediscovery-cases.md)
@@ -344,12 +344,12 @@
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
 ## [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
-## [Экспорт, Настройка и просмотр записей журнала аудита](export-view-audit-log-records.md)
+## [Экспорт, настройка и просмотр записей журнала аудита](export-view-audit-log-records.md)
 ## [Использование журнала аудита для устранения неполадок в типовых сценариях](auditing-troubleshooting-scenarios.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
 
-# Управление рисками для обеспечения соответствия требованиям
+# Управление рисками, связанными с соответствием требованиям
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 ## [Диспетчер соответствия требованиям (классический)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [Диспетчер соответствия требованиям (предварительная версия)](compliance-manager-overview.md)
@@ -374,19 +374,19 @@
 ### [GDPR для сервера Office Web Apps и Office Online Server](gdpr-for-office-online-server.md)
 ### [GDPR для локальных общих папок Windows Server](gdpr-for-on-premises-file-shares.md)
 
-# [Планы действий соответствия нормативным требованиям](compliance-solutions-overview.md)
+# [Планы действий по соответствию нормативным требованиям](compliance-solutions-overview.md)
 
-## [ISO — рекомендуемый план действий](iso-action-plan.md)
-## [NIST — Рекомендуемый план действий](nist-action-plan.md) 
+## [ISO: рекомендуемый план действий](iso-action-plan.md)
+## [NIST: рекомендуемый план действий](nist-action-plan.md) 
 
 ## [GDPR](gdpr.md)
 ### [Рекомендуемый план действий для GDPR](gdpr-action-plan.md)
 
-### [Контрольные списки готовности к отчетности]()
-#### [Контрольные списки готовности к отчетности](gdpr-arc.md)
+### [Контрольные списки готовности к подотчетности]()
+#### [Контрольные списки готовности к подотчетности](gdpr-arc.md)
 #### [Azure](gdpr-arc-azure.md)
 #### [Dynamics 365](gdpr-arc-dynamics365.md)
-#### [Службы поддержки & профессиональные службы Майкрософт](gdpr-arc-prof-services.md)
+#### [Служба поддержки и Профессиональные услуги Майкрософт](gdpr-arc-prof-services.md)
 #### [Office 365](gdpr-arc-office365.md)
 
 ### [Защита информации](gdpr-information-protection.md)
@@ -397,7 +397,7 @@
 #### [Azure DevOps Services](gdpr-dsr-vsts.md)
 #### [Dynamics 365](gdpr-dsr-dynamics365.md)
 #### [Intune](gdpr-dsr-intune.md)
-#### [Службы поддержки & профессиональные службы Майкрософт](gdpr-dsr-prof-services.md)
+#### [Служба поддержки и Профессиональные услуги Майкрософт](gdpr-dsr-prof-services.md)
 #### [Office 365](gdpr-dsr-office365.md)
 #### [Семейство Visual Studio](gdpr-dsr-visual-studio-family.md)
 
@@ -405,22 +405,22 @@
 #### [Уведомление о нарушении](gdpr-breach-notification.md)
 #### [Azure](gdpr-breach-azure.md)
 #### [Dynamics 365](gdpr-breach-dynamics365.md)
-#### [Службы поддержки & профессиональные службы Майкрософт](gdpr-breach-microsoft-support-professional-services.md)
+#### [Служба поддержки и Профессиональные услуги Майкрософт](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
 ### [Оценка влияния на защиту данных]()
 #### [Оценка влияния на защиту данных](gdpr-data-protection-impact-assessments.md)
 #### [Azure](gdpr-dpia-azure.md)
 #### [Dynamics 365](gdpr-dpia-dynamics.md)
-#### [Службы поддержки & профессиональные службы Майкрософт](gdpr-dpia-prof-services.md)
+#### [Служба поддержки и Профессиональные услуги Майкрософт](gdpr-dpia-prof-services.md)
 #### [Office 365](gdpr-dpia-office365.md)
 
-### [Сотрудник Майкрософт по защите данных](gdpr-data-protection-officer.md)
+### [Специалист Майкрософт по защите данных](gdpr-data-protection-officer.md)
 
-# Гибридные возможности обеспечения соответствия требованиям
+# Гибридные возможности по соответствию требованиям.
 ## [Шифрование почты Exchange Online с помощью AD RMS](information-rights-management-in-exchange-online.md)
 ### [Настройка управления правами на доступ к данным для использования локального сервера AD RMS](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 
 # [Office 365 корпоративный](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 бизнес](https://docs.microsoft.com/office365/admin/admin-home)
-# [Microsoft 365 Security](https://docs.microsoft.com/microsoft-365/security/)
+# [Безопасность в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/)
