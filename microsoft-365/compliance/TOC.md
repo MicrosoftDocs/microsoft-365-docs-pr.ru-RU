@@ -340,7 +340,9 @@
 ### [Поля метаданных документа](document-metadata-fields.md)
 ### [Управление заданиями](manage-jobs.md)
 
-# [Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md)
+# Управление политиками аудита и оповещений
+## [Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md)
+## [Управление политиками оповещений](alert-policies.md)
 ## [Включение и отключение поиска в журнале аудита](turn-audit-log-search-on-or-off.md)
 ## [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)

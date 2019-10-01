@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Средство "Поиск контента" можно использовать в Центре соответствия требованиям в Office 365 или Microsoft 365 для поиска содержимого в почтовых ящиках, на сайтах SharePoint Online, в учетных записях OneDrive, Microsoft Teams, группах Office 365 и беседах Skype для бизнеса. Чтобы сузить результаты поиска, можно использовать поиск по ключевым словам и условиям поиска. Затем можно предварительно просмотреть и экспортировать результаты поиска. Поиск контента также является эффективным средством поиска содержимого, связанного с запросом субъекта данных GDPR.
-ms.openlocfilehash: ae09d49bdb0b51986e58db72f578de7fa2a0c931
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e3553ff2e3c8398ac4bc00258e41e8d9607b3639
+ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089783"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37334259"
 ---
 # <a name="content-search-in-office-365"></a>Поиск контента в Office 365
 
@@ -409,4 +409,4 @@ New-ComplianceSecurityFilter -FilterName "SPMultiGeo-APC" -Users ediscovery-apc@
 
 - Параметр **Регион** не управляет поиском в почтовых ящиках Exchange. При поиске в почтовых ящиках будет выполняться поиск во всех центрах обработки данных. 
     
-Дополнительные сведения об использовании фильтров разрешений поиска в нескольких географических средах см. раздел “Поиск и экспорт контента в средах с поддержкой нескольких регионов” в статье [Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365](tagging-and-assessment-in-advanced-ediscovery.md#searching-and-exporting-content-in-multi-geo-environments)
+Дополнительные сведения об использовании фильтров разрешений поиска в средах с поддержкой нескольких регионов см. в разделе "Поиск и экспорт контента в средах с поддержкой нескольких регионов" статьи [Настройка границ соответствия для расследований дел обнаружения электронных данных](set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments).
