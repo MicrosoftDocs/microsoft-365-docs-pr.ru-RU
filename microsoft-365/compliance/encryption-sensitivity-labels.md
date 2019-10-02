@@ -1,7 +1,7 @@
 ---
 title: Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: ea7eda3558313389bfa2bc752a469e00cc7ae577
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: be41f60f8d0210c779fb6c5a8fdc783cf23fcc19
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148483"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369450"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
 
@@ -135,7 +135,7 @@ ms.locfileid: "37148483"
 
 Этот вариант можно использовать, чтобы позволить пользователям назначать разрешения, когда они вручную применяют метку конфиденциальности к содержимому.
 
-- В Outlook пользователь может использовать ограничения, эквивалентные параметру **Не пересылать**. Этот параметр является встроенным в Outlook для Windows и не требует установки клиента унифицированных меток Azure Information Protection.
+- В Outlook пользователь может использовать ограничения, эквивалентные параметру [Не пересылать](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails). Этот параметр является встроенным в Outlook для Windows и не требует установки клиента унифицированных меток Azure Information Protection.
 - В Word, PowerPoint и Excel пользователю предлагается выбрать уровень разрешения для определенных пользователей, групп или организаций. Этот параметр не является встроенным в данных приложениях Office, поэтому вашим пользователям потребуется установить клиент унифицированных меток Azure Information Protection.
 
 Данные параметры определяют, в каких приложениях будет отображаться метка конфиденциальности.

@@ -1,5 +1,5 @@
 ---
-title: 'Шаг 7: Настройка управления привилегированным доступом для Office 365'
+title: Шаг 7. Настройка управления привилегированным доступом для Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,18 +13,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: В этой статье рассказывается, как настроить управление привилегированным доступом для Office 365.
-ms.openlocfilehash: 7ed7a69b89a519895e62b78be4a27cfb7fff2f74
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: e9c68e4fafb1e9537b403965b4360806938c6a6f
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047292"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370426"
 ---
-# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Шаг 7: Настройка управления привилегированным доступом для Office 365
+# <a name="step-7-configure-privileged-access-management-for-office-365"></a>Шаг 7. Настройка управления привилегированным доступом для Office 365
 
 *Этот шаг необязательный; он применяется только к планам E5 и Advanced Compliance Microsoft 365 корпоративный.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6: защита информации](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Управление привилегированным доступом включается посредством настройки политик, определяющих своевременный доступ для действий на основе задач в вашем клиенте Office 365. Вашей организации может понадобиться защита от нарушений с использованием существующих привилегированных учетных записей администратора с постоянным доступом к конфиденциальным данным или доступом к критическим параметрам конфигурации. Например, можно настроить политику управления привилегированным доступом так, чтобы требовалось явное утверждение для доступа к параметрам почтового ящика организации и их изменения в клиенте Office 365.
 

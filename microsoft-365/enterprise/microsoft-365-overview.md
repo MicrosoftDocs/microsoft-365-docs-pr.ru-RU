@@ -1,5 +1,5 @@
 ---
-title: Обзор Microsoft 365 Enterprise
+title: Обзор Microsoft 365 корпоративный
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: f08682709cc47dc8fa6b4fcd48dc4511ff251ba1
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: 8ae6462c2d1de32aa44820f4f417b92bad6db7d3
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050290"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370466"
 ---
-# <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 Enterprise
+# <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 корпоративный
 
 Microsoft 365 корпоративный — это комплексное интеллектуальное решение, которое позволяет использовать все возможности для безопасного и совместной работы. 
 
@@ -31,7 +31,7 @@ Microsoft 365 предприятие состоит из следующих ко
 |||
 |:-------|:-----|
 | Локальные и облачные приложения и службы производительности на основе облака | Включает Office 365 профессиональный плюс, последние приложения Office для ПК и Mac (например, Word, Excel, PowerPoint, Outlook и другие), а также полный набор веб-служб для электронной почты, хранения файлов и совместной работы, собраний и многого другого. |
-| Windows 10 Корпоративная | Решает потребности в крупных и средних организациях, предоставляя пользователям самую эффективную и безопасную версию Windows и ИТ-специалистов с полным развертыванием, устройствами и управлением приложениями. |
+| Windows 10 Корпоративная | Решает потребности в крупных и средних организациях, предоставляя пользователям самую эффективную и безопасную версию Windows и ИТ-специалистов с полным развертыванием, устройствами и управлением приложениями. |
 | Управление устройствами и дополнительные службы безопасности | Включает Microsoft Intune, которая является облачной службой управления мобильными мобильными службами (EMM), которая помогает повысить производительность труда при защите корпоративных данных. |
 |||
 
@@ -140,7 +140,7 @@ Microsoft 365 корпоративный доступен в трех плана
 
 |||
 |:-------|:-----|
-![](./media/m365-poster/m365-fundamentals.svg)| Подготовьтесь к сертификации Microsoft 365 и работайте с ними. <BR> Начните с [основ Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
+![Основы обучения Microsoft 365](./media/m365-poster/m365-fundamentals.svg)| Подготовьтесь к сертификации Microsoft 365 и работайте с ними. <BR> Начните с [основ Microsoft 365](https://docs.microsoft.com/learn/paths/m365-fundamentals/).
 |||
 
 
