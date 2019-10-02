@@ -2,6 +2,7 @@
 
 # Начало работы
 ## [Новые возможности Центра соответствия требованиям](whats-new.md)
+## [Последние обновления для контента соответствия требованиям](recently-updated-topics-mcc.md)
 ## [Центр соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
@@ -104,7 +105,7 @@
 ### [Диспетчер планов хранения](file-plan-manager.md)
 ### [Метки хранения](labels.md)
 ### [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [Хранение на основе событий](event-driven-retention.md)
 ### [Автоматизация хранения на основе событий](automate-event-driven-retention.md)
 ## [Удаление данных](disposition-reviews.md)
@@ -125,7 +126,7 @@
 ### План хранения
 #### [Диспетчер планов хранения](file-plan-manager.md)
 #### [Метки хранения](labels.md)
-#### [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/ru-RU/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 #### [Просмотр использования меток с помощью аналитики меток](label-analytics.md)
 #### [Просмотр действий с метками для документов](view-label-activity-for-documents.md)
 #### [Просмотр отчетов об управлении данными](view-the-data-governance-reports.md)
