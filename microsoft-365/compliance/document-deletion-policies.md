@@ -1,7 +1,7 @@
 ---
 title: Обзор политик удаления документов
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: Вашей организации может потребоваться сохранять документы в течение определенного периода времени согласно требованиям соответствия, законодательным или деловым нормам. Тем не менее если сохранять документы дольше, чем требуется, организация может быть подвержена ненужному юридическому риску. С помощью политики удаления документов вы можете снизить риск, удалив документы на сайте по истечении определенного периода времени, например, вы можете удалять документы в OneDrive для бизнеса сайтов пользователей через пять лет после создания документов.
-ms.openlocfilehash: 59bc100a19f3597aa1bf16506bf6c7049a35af3b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 87d79f6b8f4381693bf043bc0e04fcfe4359fa90
+ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089518"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37342952"
 ---
 # <a name="overview-of-document-deletion-policies"></a>Обзор политик удаления документов
 
@@ -44,7 +44,7 @@ ms.locfileid: "37089518"
 
 Помимо политик удаления документов Office 365 предоставляет следующие политики хранения для контента веб-сайта.
   
-- [Управление записями](https://go.microsoft.com/fwlink/p/?LinkID=404250)
+- [управление записями](https://go.microsoft.com/fwlink/p/?LinkID=404250)
     
 - [Политики управления сведениями для типов контента, списков и библиотек](https://go.microsoft.com/fwlink/p/?LinkID=404239)
     

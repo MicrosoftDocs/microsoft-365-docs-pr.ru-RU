@@ -1,7 +1,7 @@
 ---
 title: Как определяется содержимое для рекомендаций по управлению данными
 ms.author: brendonb
-author: stephow-MSFT
+author: laurawi
 manager: laurawi
 ms.date: 1/15/2019
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Центр безопасности и соответствия требованиям Office 365 предоставляет рекомендации для управления данными на основе текущей настройки вашей организации и позволяет выполнить подготовку за пару щелчков. Некоторые из этих рекомендаций определяют конкретное содержимое в организации и указывают рекомендованные действия по управлению этим содержимым. Например, рекомендация может обнаружить элементы, содержащие важный деловой контент (например, связанные с адвокатской тайной сведения или соглашения о неразглашении) и затем позволяет автоматически присвоить метки хранения к этим элементам, чтобы обеспечить их конфиденциальность и правильное хранение. В этой статье перечислены рекомендации по управлению данными, которые вы можете встретить, и описано, какое содержимое обнаруживается для срабатывания каждой из них.
-ms.openlocfilehash: 3d96b7c15d5b6a0f6ec3bbf467bd8a1099af559a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 10752afb97fd0ae2993d88b4e3af9159d61de708
+ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089604"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37342942"
 ---
 # <a name="how-content-is-identified-for-data-governance-recommendations"></a>Как определяется содержимое для рекомендаций по управлению данными
 
@@ -28,7 +28,7 @@ ms.locfileid: "37089604"
 
 ## <a name="clean-up-voicemail"></a>Очистить голосовую почту
 
-Эта рекомендация отображается, если в почтовых ящиках пользователей обнаружен тип сообщений электронной почты, определенный как "голосовая почта". Узнайте больше о [свойствах сообщений в Exchange](https://docs.microsoft.com/ru-RU/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators?view=exchserver-2019#searchable-properties-in-exchange).
+Эта рекомендация отображается, если в почтовых ящиках пользователей обнаружен тип сообщений электронной почты, определенный как "голосовая почта". Узнайте больше о [свойствах сообщений в Exchange](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/ediscovery/message-properties-and-search-operators?view=exchserver-2019#searchable-properties-in-exchange).
 
 ## <a name="label-attorney-client-privilege-content"></a>Пометить контент, содержащий адвокатскую тайну 
 

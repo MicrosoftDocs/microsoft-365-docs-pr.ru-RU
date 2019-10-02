@@ -1,7 +1,7 @@
 ---
 title: Применение или удаление политики удаления документов для сайта
-ms.author: stephow
-author: stephow-msft
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 6/29/2018
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: e3e92668-f9b2-46ee-8e5e-c623870588b6
 description: Организациям часто приходится хранить документы в течение определенного периода времени в соответствии с нормативными, законодательными или другими требованиями. Однако хранение документов дольше, чем требуется, может привести к возникновению юридических рисков. Поэтому организации могут создать политику удаления документов для сайта. Например, общие бизнес-документы могут в обязательном порядке удаляться через пять лет после их создания.
-ms.openlocfilehash: c826d6c9e163e79c4e72510e3362328ae902c80c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3f5228c26cc4e12c129a57e2141e3eea50d029a2
+ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089942"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37342962"
 ---
 # <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>Применение или удаление политики удаления документов для сайта
 

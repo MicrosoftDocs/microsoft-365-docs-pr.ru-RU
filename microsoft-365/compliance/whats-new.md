@@ -15,12 +15,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
-ms.openlocfilehash: 558a35d255171ffa09f5e8610cdfc0d6ba63c9fe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b80edfb0425904b03426ef0ff3cdd1d251e638ea
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090837"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369640"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -29,11 +29,25 @@ ms.locfileid: "37090837"
 > [!TIP]
 > Хотите узнать, что происходит в других центрах администрирования? Ознакомьтесь со следующими статьями:<br>[Новые возможности центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 
-## <a name="august-2019"></a>Август 2019
+## <a name="september-2019"></a>Сентябрь 2019 г.
 
 Хотите узнать, почему она скрыта в выпуске за этот месяц? Мы празднуем создание новых, инновационных решений для обеспечения соответствия требованиям, которые будут представили в [Microsoft Ignite](https://www.microsoft.com/ignite) в ноябре. Оставайтесь в курсе.
 
-## <a name="july-2019"></a>2019 июля
+### <a name="new-encryption-options-for-sensitivity-labels"></a>Новые параметры шифрования для меток конфиденциальности 
+
+При настройке шифрования для метки конфиденциальности теперь у вас есть два параметра, которые позволяют пользователям назначать разрешения, когда они вручную применяют эту метку к электронной почте и документам:<br>
+- При применении метки к **электронной почте Outlook**пользователи могут применять ограничения, эквивалентные параметру "не пересылать". Получатели смогут прочитать сообщение, но не пересылать, печатать или копировать содержимое.
+- При применении метки к **файлам Word, PowerPoint и Excel**пользователям будет предложено назначить разрешения на доступ определенным пользователям и группам.
+
+[Подробнее](encryption-sensitivity-labels.md#let-users-assign-permissions)
+
+## <a name="august-2019"></a>Август 2019 г.
+
+### <a name="update-to-data-investigations"></a>Обновление для расследования данных
+
+При проведении расследования данных теперь можно удалять элементы из их исходных расположений. Это означает, что вы можете удалять элементы из почтовых ящиков Exchange, сайтов SharePoint и учетных записей OneDrive в Организации. Так как вы собрали элементы в качестве свидетельства, у вас будут копии, сохраненные в наборе свидетельств, вы сможете исследовать дальнейшие действия или просто хранить их в качестве справочных материалов. [Подробнее](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) 
+
+## <a name="july-2019"></a>Июль 2019 г.
 
 ### <a name="new-admin-roles"></a>Новые роли администраторов
 
@@ -49,34 +63,3 @@ ms.locfileid: "37090837"
 Прокручивать изображения в море отчетов, чтобы найти нужные. Теперь вы можете искать отчеты (на основе их названий) и фильтровать по категориям, например "метки" и "соответствие", а также источники, такие как "Office 365" и "Microsoft Cloud App Security".
 
 ![Снимок экрана кнопок поиска и фильтров для отчетов с примененным фильтром](media/mcc_report_filtering.png)
-
-### <a name="help-content"></a>Содержимое справки
-
-Вытяните кресло из кресла, Возьмите чашку кофе и позвольте нам получить последние документы о соответствии.
-
-**Advanced eDiscovery**
-- [Обзор бесед в Advanced eDiscovery](conversation-review-sets.md) Впервые
-- [Устранение неполадок AzCopy в Advanced eDiscovery](troubleshooting-azcopy.md)
-- [Загрузка не относящихся к Office 365 данных в набор для проверки](load-non-office365-data.md)
-- [Исправление ошибок при обработке данных](error-remediation.md)
-
-**Архивация сторонних данных**
-- [Настройка соединителя для архивации данных мгновенных Bloomberg в Office 365](archive-instant-bloomberg-data.md)
-
-**Аудит**
-- [Аудит общего доступа с помощью журнала аудита Office 365](use-sharing-auditing.md)
-- [Справочник по API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)
-- [Устранение неполадок, связанных с API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)
-- [Поиск в журнале аудита в центре безопасности & соответствия требованиям](search-the-audit-log-in-security-and-compliance.md)
-
-**Шифрование**
-- [Сведения об устаревших продуктах для службы шифрования сообщений Office 365](legacy-information-for-message-encryption.md)
-
-**Уровней**
-- [Создание пользовательских типов конфиденциальной информации с классификацией на основе точного совпадения данных](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
-
-**Управление данными**
-- [Обзор политик хранения](retention-policies.md)
-
-**Контроля**
-- [Политики контроля в Office 365](supervision-policies.md)
