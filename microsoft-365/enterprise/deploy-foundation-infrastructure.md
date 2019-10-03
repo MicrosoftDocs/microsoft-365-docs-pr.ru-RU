@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Рассказ об основных этапах развертывания базовой инфраструктуры Microsoft 365 корпоративный в организации, также называемого базовым развертыванием.
-ms.openlocfilehash: 016764333b7234681aa06e511227b203f9c9eaea
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: c18e4d770aec63da091ad38fc341a87f9d71e9be
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050310"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370356"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Базовая инфраструктура Microsoft 365 корпоративный
 
@@ -28,12 +28,12 @@ ms.locfileid: "37050310"
 
 | | Этап | Результаты |
 |:-------|:-----|:-----|
-|![](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Шаг 1. Сеть](networking-infrastructure.md)| Сеть оптимизирована для доступа к облачным службам Microsoft 365. |
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Шаг 2. Идентификация](identity-infrastructure.md)| Учетные записи администраторов защищены, пользователи и группы, синхронизированы, а проверка подлинности пользователя обладает высокой надежностью. |
-|![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Шаг 3. Windows 10 Корпоративная](windows10-infrastructure.md)| На действующих компьютерах под управлением Windows операционную систему можно обновить до Windows 10 Корпоративная, а на новых устройствах сразу устанавливается Windows 10 Корпоративная. |
-|![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Шаг 4. Office 365 профессиональный плюс](office365proplus-infrastructure.md)| Для существующих пользователей можно обновить Microsoft Office до Office 365 профессиональный плюс. |
-|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Шаг 5. Управление мобильными устройствами](mobility-infrastructure.md)| Ваши устройства можно регистрировать и контролировать. |
-|![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Шаг 6. Защита данных](infoprotect-infrastructure.md)| Средства безопасности Office 365 включены, а метки и политики для защиты документов и электронной почты готовы. |
+|![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Этап 1. Сеть](networking-infrastructure.md)| Сеть оптимизирована для доступа к облачным службам Microsoft 365. |
+|![Этап 2. Идентификация](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Этап 2. Идентификация](identity-infrastructure.md)| Учетные записи администраторов защищены, пользователи и группы, синхронизированы, а проверка подлинности пользователя обладает высокой надежностью. |
+|![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Этап 3. Windows 10 Корпоративная](windows10-infrastructure.md)| На действующих компьютерах под управлением Windows операционную систему можно обновить до Windows 10 Корпоративная, а на новых устройствах сразу устанавливается Windows 10 Корпоративная. |
+|![Этап 4. Office 365 профессиональный плюс](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Этап 4. Office 365 профессиональный плюс](office365proplus-infrastructure.md)| Для существующих пользователей можно обновить лицензию Microsoft Office до Office 365 профессиональный плюс. |
+|![Этап 5. Управление мобильными устройствами](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Этап 5. Управление мобильными устройствами](mobility-infrastructure.md)| Ваши устройства можно регистрировать и контролировать. |
+|![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Этап 6. Защита данных](infoprotect-infrastructure.md)| Средства безопасности Office 365 включены, а метки и политики для защиты документов и электронной почты готовы. |
 
 Этапы начинаются с самых основных (сеть и идентификация), а затем создаются уровни параметров инфраструктуры и групп, чтобы:
 
@@ -56,7 +56,7 @@ ms.locfileid: "37050310"
 
 Базовая инфраструктура в общем руководстве по развертыванию Microsoft 365 корпоративный:
 
-![](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
+![Базовая инфраструктура в общем руководстве по развертыванию Microsoft 365 корпоративный](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
 ## <a name="at-a-glance"></a>Краткий обзор
 

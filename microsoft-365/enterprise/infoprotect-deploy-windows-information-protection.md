@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучение и развертывание Windows Information Protection в Microsoft 365.
-ms.openlocfilehash: b624db45c4fe3bd75b2158f225176b7a78ba30f8
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 5d327ea97a24d4b1015940688b7702dc761e826d
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047272"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370126"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>Шаг 4. Настройка Windows Information Protection
 
-*Этот шаг необязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
+*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Чем больше персональных устройств используется для работы, тем выше становится риск утечки конфиденциальных данных организаций через приложения и устройства. Например, сотрудник может случайно отправить на сайт социальной сети рисунок с маркетинговым планом будущего продукта или сохранить в общедоступном облачном хранилище файл, содержащий совершенно секретную информацию. 
 
@@ -34,7 +34,7 @@ Windows Information Protection (WIP) обеспечивает защиту от 
 
 Для развертывания WIP в организации с использованием Microsoft 365 корпоративный выполните следующие действия.
 
-1. Зарегистрируйте свои устройства Windows в Intune. Это уже должно быть сделано на [Шаге 5. Управление мобильными устройствами](mobility-infrastructure.md).
+1. Зарегистрируйте свои устройства Windows в Intune. Это уже должно быть сделано на [Этапе 5. Управление мобильными устройствами](mobility-infrastructure.md).
 2. Создайте [политику Intune для WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).
   - Убедитесь, что список защищенных приложений заполнен.
   - Выберите уровень защиты WIP.
@@ -45,10 +45,10 @@ Windows Information Protection (WIP) обеспечивает защиту от 
 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step4), при выполнении которых можно считать данный шаг завершенным.
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
+|![Шаг 5](./media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
 
 

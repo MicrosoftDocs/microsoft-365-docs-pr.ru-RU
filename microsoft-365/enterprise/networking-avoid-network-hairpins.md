@@ -3,7 +3,7 @@ title: Шаг 3. Удаление разворотов пакетов
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2018
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,20 +13,26 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Удалите развороты пакетов для повышения производительности.
-ms.openlocfilehash: eb233c02d1d4c0198c11d520acca1d680df78a82
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 8d3c971c1295f8f1112c594635bfd791b251bd68
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073289"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370336"
 ---
 # <a name="step-3-avoid-network-hairpins"></a>Шаг 3. Удаление разворотов пакетов
 
 *Этот шаг — обязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-[Разворот пакетов](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) происходит, когда трафик вместо пункта назначения сначала направляется в локальный стек безопасности, брокер доступа в облако или облачный веб-шлюз. Разворот пакетов также может объясняться плохой маршрутизацией в Интернете из-за поставщиков сетевых услуг. Разворот увеличивает задержку и может перенаправлять трафик далеко от пункта назначения.
+[Разворот пакетов](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) происходит, когда трафик вместо пункта назначения сначала направляется в локальный стек безопасности, брокер доступа в облако или облачный веб-шлюз. Пример:
+
+![Пример разворота пакетов](./media/networking-avoid-network-hairpins/network-hairpin-example.png)
+
+Разворот пакетов также может объясняться плохой маршрутизацией в Интернете из-за поставщиков сетевых услуг. 
+
+Разворот увеличивает задержку и может перенаправлять трафик далеко от пункта назначения.
 
 Чтобы оптимизировать производительность для трафика в облачные службы Microsoft 365, проверьте, есть ли у поставщика локального подключения к Интернету прямой обмен трафиком с глобальной сетью Майкрософт в непосредственной близости от этого места. Эти подключения не имеют разворотов.
 
@@ -38,10 +44,12 @@ ms.locfileid: "34073289"
 
 По возможности настройте пограничные маршрутизаторы так, чтобы они передавали доверенный трафик Microsoft 365 напрямую, не перенаправляя его через стороннее облако или облачную службу безопасности сети, которая обрабатывает ваш интернет-трафик. 
 
-Прежде чем перейти к следующему шагу, проверьте [условия](networking-exit-criteria.md#crit-networking-step3), при выполнении которых можно считать данный шаг завершенным.
+![Пример обхода разворота пакетов](./media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
+
+Прежде чем переходить к следующему этапу, проверьте [условия](networking-exit-criteria.md#crit-networking-step3), при выполнении которых можно считать данный этап завершенным.
 
 ## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|
+|![Шаг 4](./media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|
