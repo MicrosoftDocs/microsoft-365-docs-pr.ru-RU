@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Вы можете создавать пользовательские входы на устройствах с Windows и в Microsoft 365 более безопасным образом.
-ms.openlocfilehash: edf51b344ed8f9c8e13587cc2ccf0ba1ed081da6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6f45d61694cabd10587ff13bd787fa42bdaeac01
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090811"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370196"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>Шаг 3. Защита пользовательских входов и управление ими
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 
 <a name="identity-windows-hello"></a>
@@ -92,4 +92,4 @@ ms.locfileid: "37090811"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)| [Добавление учетных записей пользователей](identity-add-user-accounts.md) |
+|![Шаг 4](./media/stepnumbers/Step4.png)| [Добавление учетных записей пользователей](identity-add-user-accounts.md) |

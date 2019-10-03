@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Необходимо обеспечить надежность и управляемость ваших паролей в масштабах организации.
-ms.openlocfilehash: 06d936a68432b55912b1c10839336dc94e698f51
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7bb4e0f296b320aa8a24916ded40089246308a20
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090810"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370406"
 ---
 # <a name="step-2-secure-your-passwords"></a>Шаг 2. Защита паролей
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>Запрет слабых паролей
@@ -98,4 +98,4 @@ ms.locfileid: "37090810"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |
+|![Шаг 3](./media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |

@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Добавляйте учетные записи пользователей и группы непосредственно в облаке или с помощью синхронизации с локальным каталогом.
-ms.openlocfilehash: ce831a6866f61342f6eb93836d44637742007c03
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 559ea58a5fcee5860a797893230b587adc33a17d
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090816"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370226"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Шаг 4. Добавление учетных записей пользователей
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-cloud-only"></a>
 ## <a name="create-your-user-accounts-for-cloud-only-identity"></a>Создание учетных записей пользователей, если используется только облачная идентификация
@@ -126,4 +126,4 @@ Azure AD Connect — это поддерживаемое корпорацией
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |
+|![Шаг 5](./media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |

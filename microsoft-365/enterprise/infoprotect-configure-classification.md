@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как настроить различные способы классификации данных в организации.
-ms.openlocfilehash: ca1b4aefca7ee63f1c8fe098c115fc4f0074d9f6
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: e1f0a6b9bdc4b6844037e7e873ed321942e8258e
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047302"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370416"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Шаг 2. Настройка классификации для среды
 
-*Этот шаг — необязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
+*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 На этом шаге вы проведете работу с юридическим отделом и отделом соответствия требованиям и определите схему классификации данных в своей организации.
 
@@ -109,5 +109,5 @@ ms.locfileid: "37047302"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Office 365](infoprotect-configure-increased-security-office-365.md)|
+|![Шаг 3](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Office 365](infoprotect-configure-increased-security-office-365.md)|
 

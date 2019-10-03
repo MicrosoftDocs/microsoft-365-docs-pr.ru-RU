@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Обзор и настройка управления удостоверениями для клиента Azure AD.
-ms.openlocfilehash: 7ba54db29335f4f8f6eefff0cafbdefe3c522d7a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3bc0872eefa71288d25ce83ebb8f3c51d8959678
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090813"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370386"
 ---
 # <a name="step-7-configure-identity-governance"></a>Шаг 7. Настройка управления удостоверениями
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 Управление удостоверениями заключается в защите, контроле и проверке доступа к важным ресурсам с обеспечением производительности сотрудников. Например, с помощью управления удостоверениями вы можете обеспечить соответствующим пользователям подходящий доступ к нужным ресурсам и определить, изменяется ли этот доступ со временем.
 

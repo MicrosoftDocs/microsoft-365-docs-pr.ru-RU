@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру идентификации для Microsoft 365 корпоративный.
-ms.openlocfilehash: 2d9ffcc5122b5a5dfc94fb007167655e879d6799
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cb5b714afcacd1e21951ec9f83fd7f09cbd88662
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071698"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370446"
 ---
 # <a name="phase-2-identity"></a>Этап 2. Идентификация
 
-![](./media/deploy-foundation-infrastructure/identity_icon.png)
+![Этап 2. Идентификация](./media/deploy-foundation-infrastructure/identity_icon.png)
 
 В Microsoft 365 корпоративный хорошо спланированная и реализованная инфраструктура идентификации позволяет усилить защиту и предоставлять доступ к рабочим нагрузкам и их данным только пользователям и устройствам, прошедшим проверку подлинности.
 
@@ -50,12 +50,12 @@ ms.locfileid: "37071698"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Создание и защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md) |
-|![](./media/stepnumbers/Step2.png)| [Защита паролей](identity-secure-your-passwords.md) |
-|![](./media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |
-|![](./media/stepnumbers/Step4.png)| [Добавление учетных записей пользователей](identity-add-user-accounts.md) |
-|![](./media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |
-|![](./media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |
+|![Шаг 1](./media/stepnumbers/Step1.png)| [Создание и защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md) |
+|![Шаг 2](./media/stepnumbers/Step2.png)| [Защита паролей](identity-secure-your-passwords.md) |
+|![Шаг 3](./media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |
+|![Шаг 4](./media/stepnumbers/Step4.png)| [Добавление учетных записей пользователей](identity-add-user-accounts.md) |
+|![Шаг 5](./media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |
+|![Шаг 6](./media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](identity-exit-criteria.md) для соответствия требованиям к удостоверениям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
 
@@ -74,11 +74,11 @@ ms.locfileid: "37071698"
 
 Посмотрите, как Contoso, вымышленная, но типичная многонациональная корпорация, [развернула инфраструктуру гибридных удостоверений](contoso-identity.md) для облачных служб Microsoft 365.
 
-![](./media/contoso-overview/contoso-icon.png)
+![Корпорация Contoso](./media/contoso-overview/contoso-icon.png)
 
 
 ## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Создание и защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md) |
+|![Шаг 1](./media/stepnumbers/Step1.png)| [Создание и защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md) |

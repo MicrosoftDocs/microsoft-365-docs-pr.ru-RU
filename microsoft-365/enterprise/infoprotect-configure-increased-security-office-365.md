@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как настроить усиленную защиту для Microsoft 365.
-ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 290b10dd8e0bf9a7180bae72669b22f3d575f914
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047282"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370176"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Шаг 3. Настройка усиленной защиты для Microsoft 365
 
 *Этот шаг — обязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Чтобы защитить вашу подписку на Microsoft 365 и ее данные от вредоносных угроз, настройте следующее:
 
@@ -52,11 +52,11 @@ ms.locfileid: "37047282"
 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step3), при выполнении которых можно считать данный шаг завершенным.
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
+|![Шаг 4](./media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
 
 

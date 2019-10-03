@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Группы позволяют автоматизировать управление некоторыми административными задачами.
-ms.openlocfilehash: 01bbce00457362ed0eb089e126f0d17f31237eb4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 769fc0dd69b13978dbb9cf91d890ad271a7d9bb5
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090809"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370186"
 ---
-# <a name="step-5-use-groups-for-management"></a>Шаг 5. Управление с помощью групп.
+# <a name="step-5-use-groups-for-management"></a>Шаг 5. Управление с помощью групп
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-self-service-groups"></a>
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>Разрешение пользователям создавать собственные группы и управлять ими
@@ -104,4 +104,4 @@ ms.locfileid: "37090809"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |
+|![Шаг 6](./media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |
