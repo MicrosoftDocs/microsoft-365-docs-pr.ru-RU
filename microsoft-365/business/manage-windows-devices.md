@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Сведения о том, как включить Microsoft 365 для защиты локальных подключенных устройств AD к Windows 10.
-ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 452e884f952a4b2c2e87148bb7203ed48a48d944
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288042"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37376102"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business
 
@@ -37,9 +37,9 @@ ms.locfileid: "37288042"
 
 Перед синхронизацией пользователей и компьютеров из локального домена Active Directory просмотрите статью подготовка к [синхронизации каталогов в Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). В частности:
 
-   - Убедитесь, что в каталоге нет дубликатов для следующих атрибутов: **mail**, **proxyAddresses**и **userPrincipalName**. Эти значения должны быть уникальными и удаляться все дубликаты..
+   - Убедитесь, что в каталоге нет дубликатов для следующих атрибутов: **mail**, **proxyAddresses**и **userPrincipalName**. Эти значения должны быть уникальными и удаляться все дубликаты.
    
-   - Рекомендуется, чтобы атрибут **userPrincipalName** (UPN) для каждой локальной учетной записи пользователя настроился так, чтобы соответствовать основному адресу электронной почты, соответствующему лицензированному пользователю Microsoft 365. Например *, Мэри. шеллэй @<span>contoso.<span> com* вместо *Мэри @ contoso. local*
+   - Рекомендуется, чтобы атрибут **userPrincipalName** (UPN) для каждой локальной учетной записи пользователя настроился так, чтобы соответствовать основному адресу электронной почты, соответствующему лицензированному пользователю Microsoft 365. Например, *Mary.Shelley@contoso.com* вместо *Мэри @ contoso. local*
    
    - Если домен Active Directory завершается в немаршрутизируемый суффиксе, например. *Local* или *. LAN*, вместо суффикса с маршрутизацией в Интернете, например *. com* или *. org*, необходимо сначала настроить суффикс UPN локальных учетных записей пользователей, как описано в статье [Подготовьте домен, не поддерживающий маршрутизацию, для синхронизации службы каталогов](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
@@ -75,6 +75,6 @@ ms.locfileid: "37288042"
 
 ## <a name="6-set-up-windows-hello-for-business"></a>6. Настройка Windows Hello для бизнеса
 
- Windows Hello для бизнеса заменяет пароли на строгую двухфакторную проверку подлинности (2FA) для входа на локальный компьютер. Один фактор является асимметричной, а другой — ПИН-кодом или другим локальным жестом, таким как "отпечаток пальца" или "распознавание лица", если устройство поддерживает его. Мы рекомендуем заменять пароли на 2FA и Windows Hello для бизнеса там, где это возможно.
+ Windows Hello для бизнеса заменяет пароли на строгую двухфакторную проверку подлинности (2FA) для входа на локальный компьютер. Один фактор является асимметричной, а другой — ПИН-кодом или другим локальным жестом, таким как "отпечаток пальца" или "распознавание лица", если устройство поддерживает его. Мы рекомендуем заменять пароли на 2FA и Windows Hello для бизнеса, где это возможно.
 
 Чтобы настроить гибридную Windows Hello для бизнеса, изучите [необходимые условия для развертывания гибридных ключей в Windows Hello для бизнеса](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs). Затем следуйте инструкциям в статье [Настройка параметров доверия для гибридных ключей Windows Hello для бизнеса](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings). 

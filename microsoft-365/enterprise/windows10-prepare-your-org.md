@@ -10,18 +10,18 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: josephd
-ms.openlocfilehash: 5deae85ae614079c23a373d4ecae7ce81aeb3fcd
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: aafd629b4efcfa1307a25bf8e340236f183998b5
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071778"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370246"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>Шаг 1: подготовка Организации для Windows 10 Корпоративная
 
 *Эта статья относится как к корпоративным, так и к версиям Microsoft 365 для Microsoft*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Перед обновлением устройств до Windows 10 Корпоративная рассмотрите следующие возможности:
 
@@ -67,7 +67,7 @@ ms.locfileid: "37071778"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)| [Развертывание Windows 10 Корпоративная для существующих устройств в качестве обновления на месте](windows10-deploy-inplaceupgrade.md) |
+|![Текст в списке 1](./media/stepnumbers/Step2.png)| [Развертывание Windows 10 Корпоративная для существующих устройств в качестве обновления на месте](windows10-deploy-inplaceupgrade.md) |
 
 
 
