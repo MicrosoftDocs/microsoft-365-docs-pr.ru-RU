@@ -31,6 +31,7 @@
 ### [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](encryption-sensitivity-labels.md)
 ### [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)
 ### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
+### [Метки конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)
 
 ## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
 ### [DLP и Microsoft Teams](dlp-microsoft-teams.md)
