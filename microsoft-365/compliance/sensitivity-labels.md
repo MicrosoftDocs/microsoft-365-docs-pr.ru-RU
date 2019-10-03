@@ -1,7 +1,7 @@
 ---
 title: Обзор меток конфиденциальности
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью меток конфиденциальности вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: d732303db1c2b138349a88fde45bd2aefb745c89
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: c0f7438d0ee8de873122cdf9bf08878a7edebaf6
+ms.sourcegitcommit: c7f7ff463141f7d7f0970b64e5a04341db7e4fa8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148523"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37378621"
 ---
 # <a name="overview-of-sensitivity-labels"></a>Обзор меток конфиденциальности
 
@@ -47,6 +47,8 @@ ms.locfileid: "37148523"
 Метки конфиденциальности создаются в Центре соответствия требованиям Microsoft 365, Центре безопасности Microsoft 365 и Центре безопасности и соответствия требованиям Office 365 в разделе **Классификация** > **Метки конфиденциальности**. Эти метки конфиденциальности могут использоваться в Azure Information Protection, приложениях Office и службах Office 365.
 
 Для клиентов Azure Information Protection можно использовать свои метки Azure Information Protection в других центрах администрирования, которые будут синхронизированы с порталом Azure, если вы решите выполнить дополнительную или расширенную настройку. **Метки Azure Information Protection и метки конфиденциальности Office 365 полностью совместимы друг с другом.** Это означает, например, что при наличии контента с меткой Azure Information Protection вам не потребуется изменять классификацию или метку вашего контента.
+
+>Примечание. Метки конфиденциальности поддерживаются только для клиентов в глобальном (общедоступном) облаке. Метки конфиденциальности не поддерживаются для клиентов в других облаках, например [национальных облаках](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud).
 
 ## <a name="what-a-sensitivity-label-is"></a>Что такое метка конфиденциальности
 
@@ -204,8 +206,9 @@ ms.locfileid: "37148523"
 
 ### <a name="more-information-on-sensitivity-labels-in-office-apps"></a>Дополнительные сведения о метках конфиденциальности в приложениях Office
 
-- [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+- [Применение меток конфиденциальности к документам и сообщениям электронной почты в Office](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
 - [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.office.com/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Как метки конфиденциальности действуют в приложениях Office](sensitivity-labels-office-apps.md)
 
 ## <a name="how-sensitivity-labels-work-with-existing-azure-information-protection-labels"></a>Как метки конфиденциальности взаимодействуют с существующими метками Azure Information Protection
 

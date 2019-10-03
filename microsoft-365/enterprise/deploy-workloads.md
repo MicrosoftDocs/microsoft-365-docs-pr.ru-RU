@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Подключите пользователей своей организации к рабочим нагрузкам Microsoft 365 корпоративный.
-ms.openlocfilehash: 6446e73f79a3dd92d60fa3299e6007e1a5a3fdeb
-ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
+ms.openlocfilehash: 9416efe6171f8f3aefee504e5f39d19a2a909073
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37329216"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369430"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 
@@ -42,12 +42,9 @@ ms.locfileid: "37329216"
 
 Вот рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 корпоративный:
 
-![](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+![Рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 корпоративный](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
 Дополнительные сценарии см. в [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/). 
-
-1. На этой веб-странице введите строку поиска или щелкните **Фильтровать по** и укажите отрасль, роли (отделы) и продукты в Microsoft 365.
-2. В списке результатов щелкните карту, чтобы ознакомиться с инструкциями, которые помогут вам приступить к работе.
 
 ## <a name="foundation-infrastructure-prerequisites"></a>Необходимые компоненты базовой инфраструктуры
 

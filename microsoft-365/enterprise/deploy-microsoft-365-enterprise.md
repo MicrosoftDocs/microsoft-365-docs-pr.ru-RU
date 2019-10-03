@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 корпоративный в организации.
-ms.openlocfilehash: ce4b3dfeb3c13f68b0218f5aea5740b6dc5252d0
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: 1d88ed400d20b15823d3991a1cd099bbb16ffa84
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050280"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369540"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Развертывание Microsoft 365 корпоративный
 
@@ -65,7 +65,7 @@ FastTrack — это текущая и стандартная возможнос
 
 Так выглядит связь между базовой инфраструктурой и рабочими процессами и сценариями.
 
-![](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![Связь между базовой инфраструктурой и рабочими процессами и сценариями](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
 Рабочие нагрузки и сценарии функционируют поверх базовой инфраструктуры. Тем не менее, вам не обязательно выполнять все этапы создания базовой инфраструктуры, чтобы использовать рабочие нагрузки для эффективной работы и взаимодействия.
 
