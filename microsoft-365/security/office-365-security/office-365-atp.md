@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 03/28/2019
+ms.date: 10/03/2019
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection включает безопасные вложения, безопасные ссылки, расширенные антифишинговые средства, инструменты создания отчетов и возможности аналитики угроз.
-ms.openlocfilehash: 3981d2bb37b1c9b91ed2b0a93f57a33940a25186
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9f2bedaa436aa5f38d8929e6bc8eda2e34896575
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091225"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37386156"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -87,9 +87,16 @@ Office 365 ATP (план 2) включает лучшие [средства ан
     
 ## <a name="save-time-with-automated-investigation-and-response"></a>Экономия времени благодаря автоматизированному анализу угроз и реагированию на них
 
-(**НОВИНКА!**) При анализе потенциальных кибератак время играет ключевую роль. Чем раньше вы сможете выявить и устранить угрозы, тем лучше для организации. Office 365 ATP (план 2) теперь включает [автоматизированный анализ угроз и реагирование на них (AIR)](automated-investigation-response-office.md). Если у вас еще нет этих возможностей, вы скоро получите их вместе с ATP (план 2).
+(**НОВИНКА!**) При анализе потенциальных кибератак время играет ключевую роль. Чем раньше вы сможете выявить и устранить угрозы, тем лучше для организации. Перечисленные ниже подписки теперь включают [автоматизированный анализ угроз и реагирование на них (AIR)](automated-investigation-response-office.md). (Если у вас еще нет этих возможностей, вы скоро получите их при наличии одной из этих подписок.)
 
-AIR включает сборники схем безопасности, которые можно запускать автоматически (например, при активации оповещения) или вручную (например, с помощью представления в обозревателе). AIR сэкономит время и усилия группы специалистов по безопасности, помогая эффективно устранять угрозы. Дополнительные сведения см. в статье [Автоматизированный анализ угроз и реагирование на них (AIR) в Office 365](automated-investigation-response-office.md).
+AIR Office 365 входит в состав следующих подписок:
+
+- Microsoft 365 E5
+- Безопасность Microsoft 365 E5
+- Office 365 E5
+- Office 365 Advanced Threat Protection (план 2)
+
+AIR включает сборники схем безопасности, которые можно запускать автоматически (например, при активации оповещения) или вручную (например, с помощью представления в обозревателе). AIR экономит время и усилия группы специалистов по безопасности, помогая эффективно устранять угрозы. Дополнительные сведения см. в статье [Автоматизированный анализ угроз и реагирование на них (AIR) в Office 365](automated-investigation-response-office.md).
 
 ## <a name="permissions-required-to-use-atp-features"></a>Разрешения, необходимые для использования возможностей ATP
 
