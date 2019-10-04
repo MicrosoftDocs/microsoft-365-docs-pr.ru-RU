@@ -1,10 +1,10 @@
 ---
-title: Автоматическое исследование угроз в Office 365 и реагирование на них
+title: Автоматическое изучение угроз и реагирование на них в Office 365
 keywords: ВОЗДУШный, Аутоир, ATP, автоматизированный, исследование, ответ, исправление, угрозы, усовершенствованный, угроза, защита
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/18/2019
+ms.date: 10/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,18 +14,19 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированными возможностями реагирования на инциденты в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 5def4ab38c14629f2840e4b833fa9430d234e75c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 293b567cf24e9c6b0e33e28e9dd1ca0453fd0cd1
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091226"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37385736"
 ---
-# <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Автоматическое исследование угроз в Office 365 и реагирование на них
+# <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Автоматическое изучение угроз и реагирование на них в Office 365
 
 ## <a name="overview"></a>Общие сведения
 
-[Office 365 Advanced Threat protection](office-365-atp.md) План 2 включает автоматизированные возможности реагирования на инциденты, которые могут сэкономить время и усилия группы управления безопасностью при работе с оповещениями и угрозами. 
+В зависимости от вашей подписки [Office 365 Advanced Threat protection](office-365-atp.md) может включать автоматизированные возможности реагирования на инциденты, которые могут сэкономить время и усилия группы управления безопасностью при работе с оповещениями и угрозами.
+
 - Чтобы приступить к работе с возможностями AIR в Office 365, используйте эту статью. 
 - Чтобы узнать, как работает воздух, ознакомьтесь со статьей [автоматизированного реагирования на инциденты (AIR) в Office 365](automated-investigation-response-office.md).
 
@@ -37,6 +38,12 @@ ms.locfileid: "37091226"
 
 > [!NOTE]
 > Для выполнения задач, описанных в этой статье, необходимо быть глобальным администратором, администратором безопасности, оператором безопасности или средством чтения безопасности. Чтобы узнать больше, ознакомьтесь [со статьей Microsoft 365 Security Center: Roles and Permissions](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions).
+
+ВОЗДУХ включен в следующие подписки:
+- Microsoft 365 E5
+- Microsoft 365 E5 Security
+- Office 365
+- Office 365 Advanced Threat protection (план 2)
 
 ## <a name="view-details-of-an-investigation"></a>Просмотр сведений о расследовании
 

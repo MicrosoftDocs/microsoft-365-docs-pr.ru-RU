@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
-ms.openlocfilehash: 38d349fb17303ac9e9979ae9a58682e01578b70a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c96656495e9433703b85fb1c5f3610a617100253
+ms.sourcegitcommit: 4dc7b5b1ccdb7e8f683104f1b9eec90025b3ad0e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283481"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391212"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -78,8 +78,9 @@ ms.locfileid: "32283481"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Управление соответствием требованиям безопасности &amp;</h3>
-                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">Решения для соответствия требованиям</a></p>
-                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Соответствие требованиям безопасности &amp; Office 365</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">Планы действий по обеспечению соответствия требованиям</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/" target="_blank">Соответствие требованиям Microsoft 365</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/security/" target="_blank">Безопасность в Microsoft 365</a></p>
                                                 <P><a href="microsoft-365-policies-configurations.md" target="_blank">Доступ &amp; к устройству удостоверения</a></p>
                                                 <P><a href="https://docs.microsoft.com/windows/security/threat-protection/index" target="_blank">ATP в Защитнике Windows</a></p>
                                             </div>
@@ -97,10 +98,10 @@ ms.locfileid: "32283481"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Обучение администраторов _Амп_ пользователей</h3>
+                                                <h3>Обучение администраторов & пользователей</h3>
                                                 <P><a href="https://docs.microsoft.com/learn/browse/?products=m365" target="_blank">Microsoft 365</a></p>
                                                 <P><a href="https://support.office.com/office-training-center" target="_blank">Office 365</a></p>
-                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Windows 10</a></p>
+                                                <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Windows 10</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Приложение &amp; корпоративного портала Intune</a></p>
                                             </div>
                                         </div>
@@ -117,7 +118,7 @@ ms.locfileid: "32283481"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Управление Office 365</h3>
+                                                <h3>Управление Office 365</h3>
                                                 <P><a href="https://docs.microsoft.com/office365/enterprise/" target="_blank">Office 365 корпоративный</a></p>
                                                 <P><a href="https://support.office.com/office365admin" target="_blank">Office 365 бизнес</a></p>
                                                 <P><a href="https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus" target="_blank">Office 365 профессиональный плюс</a></p>
@@ -180,7 +181,7 @@ ms.locfileid: "32283481"
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>Другие продукты Microsoft 365</h3>
-                                                        <P><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank">Microsoft 365 бизнес</a></p>
+                                                        <P><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank">Microsoft 365 бизнес</a></p>
                                                         <P><a href="https://docs.microsoft.com/education/" target="_blank">Microsoft 365 для образования</a></p>
                                                     </div>
                                                 </div>
@@ -200,7 +201,7 @@ ms.locfileid: "32283481"
                                                         <h3>Нужна поддержка?</h3>
                                                         <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
                                                         <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
-                                                        <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
+                                                        <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
                                                     </div>
                                                 </div>
                                             </div>

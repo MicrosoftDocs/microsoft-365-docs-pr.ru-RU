@@ -2,10 +2,10 @@
 title: Критерии выхода инфраструктуры управления мобильными устройствами
 description: Microsoft 365 Enterprise включает управление мобильными устройствами с помощью Microsoft Intune. Ознакомьтесь с требованиями и необходимыми условиями, настройте Intune, используя ресурс Azure Active Directory, регистрацию устройств iOS, macOS, Android и Windows, развертывание приложений, создание профиля, использование политики соответствия и включение условного доступа для мобильных устройств Управление устройствами с помощью Microsoft 365 корпоративный.
 keywords: Microsoft 365, Microsoft 365 корпоративный, документация по Microsoft 365, управление мобильными устройствами, Intune
-author: MandiOhlinger
-ms.author: mandia
-manager: dougeby
-ms.date: 03/05/2019
+author: JoeDavies-MSFT
+ms.author: josephd
+manager: laurawi
+ms.date: 10/03/2019
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 ms.service: ''
@@ -13,28 +13,26 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 14f216fe352d9108fe69028731f4c94dfb9d19f7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e8f8f53224b334f92142e2c03ed05eaa9e38787a
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291236"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37385726"
 ---
 # <a name="mobile-device-management-infrastructure-exit-criteria"></a>Критерии выхода инфраструктуры управления мобильными устройствами
 
-![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
+![Этап 5: Управление мобильными устройствами](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
 
 *Это относится к версиям Microsoft 365 корпоративный для E3 и "# $"*
 
 Убедитесь, что ваша конфигурация соответствует следующим требованиям для инфраструктуры управления мобильными устройствами.
 
-- Настройка Intune, в том числе для создания групп и пользователей Azure AD, выполняется для применения правил организации к устройствам.
+- Настроена Intune, в том числе создание пользователей и групп Azure Active Directory (Azure AD) для применения правил вашей организации к устройствам.
 - Ваши устройства зарегистрированы в Intune, чтобы они могли получать политики, которые вы создаете.
 - На устройства добавляются приложения, чтобы пользователи могли получать доступ к облачным службам Microsoft 365 организации, таким как Exchange Online и SharePoint Online.
 - Настройка и применение функций и параметров для устройств выполняется с указанием создаваемых вами групп и пользователей Azure AD. Такая настройка может предусматривать включение антивирусной программы и ограничение работы определенных приложений.
-- Настроены политики соответствия требованиям для проверки наличия брандмауэра или длины пароля на устройстве. Если устройство не соответствует требованиям, политика условного доступа блокирует доступ к данным организации.
-
-
+- Политики соответствия требованиям зависят от того, требуется ли брандмауэр или длина пароля на устройстве. Если устройство не соответствует требованиям, условный доступ блокирует доступ к данным вашей организации.
 
 ## <a name="results-and-next-steps"></a>Результаты и дальнейшие действия
 
@@ -42,4 +40,4 @@ ms.locfileid: "32291236"
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Если вы подписаны на стадии комплексного развертывания Microsoft 365 Enterprise, следующий этап — [Защита информации](infoprotect-infrastructure.md). |
+|![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Если вы подписаны на стадии комплексного развертывания Microsoft 365 Enterprise, следующий этап — [Защита информации](infoprotect-infrastructure.md). |
