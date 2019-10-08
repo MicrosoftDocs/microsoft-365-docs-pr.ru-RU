@@ -14,12 +14,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Как распознать компрометацию учетной записи электронной почты в Office 365 и какие меры принять
-ms.openlocfilehash: 98a254ad6e356cecd44dac57bbe9f83171ddad73
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 239e880bbdd1b2ef7cbbde7e42fb8392777563a5
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091381"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417578"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Реагирование на компрометацию учетной записи электронной почты в Office 365
 
@@ -94,7 +94,7 @@ ms.locfileid: "37091381"
 ### <a name="step-4-unblock-the-user-from-sending-mail"></a>Шаг 4. Разблокируйте отправку почты для пользователя
 
 Если подозрительный на компрометацию почтовый ящик незаконно использовался для отправки нежелательной почты, скорее всего, отправка почты из него запрещена.
-1. Чтобы разблокировать отправку почты из почтового ящика, выполните действия в статье [Удаление пользователя, домена или IP-адреса из списка блокировок после отправки нежелательных сообщений](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email ).
+1. Чтобы разблокировать отправку почты из почтового ящика, выполните действия в статье [Удаление пользователя, домена или IP-адреса из списка блокировок после отправки нежелательных сообщений](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam).
 
 ### <a name="step-5-optional-block-the-user-account-from-signing-in"></a>Шаг 5 (необязательно). Запретите вход в учетную запись пользователя
 
