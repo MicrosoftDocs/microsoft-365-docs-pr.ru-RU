@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 корпоративный в организации.
-ms.openlocfilehash: 1d88ed400d20b15823d3991a1cd099bbb16ffa84
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: 0dcbe9e39f33cab65dff6033f0b78ceb7e1c42cc
+ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369540"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37437869"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Развертывание Microsoft 365 корпоративный
 
@@ -124,7 +124,11 @@ FastTrack — это текущая и стандартная возможнос
 
 Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат с главным офисом в Париже. Узнайте, [как в корпорации Contoso развертывался Microsoft 365 корпоративный](contoso-case-study.md) и рассматривались основные проектные решения и детали внедрения сети, удостоверений, Windows 10 Корпоративная, Office 365 профессиональный плюс, управления мобильными устройствами, защиты информации и системы безопасности. 
 
-## <a name="next-step"></a>Следующее действие
+## <a name="stay-current-with-deployment-content"></a>Отслеживание содержимого развертывания
+
+Последние изменения содержимого см. в [этой статье](microsoft-365-deploment-guide-changes.md).
+
+## <a name="next-step"></a>Следующий шаг
 
 Чтобы воспользоваться прямой помощью Майкрософт, используйте [FastTrack](https://fasttrack.microsoft.com/microsoft365).
 

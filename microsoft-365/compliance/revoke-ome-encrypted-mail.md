@@ -7,23 +7,23 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 4/30/2019
+ms.date: 10/8/2019
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 search.appverid:
 - MET150
 description: Администратор Office 365 может отозвать определенные сообщения электронной почты, зашифрованные с помощью расширенного шифрования сообщений Office 365.
-ms.openlocfilehash: e55129f68c7add589bd973b36f069d7cdbf631cf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7adc5713c8753e0caf780bbacf98519665458c52
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090784"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435553"
 ---
 # <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
 
-Отзыв электронной почты предлагается как часть расширенного шифрования сообщения Office 365. Расширенное шифрование сообщений Office 365 в определенных подписках доступно на основе шифрования сообщений Office 365. Расширенное шифрование сообщений включено в [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 Enterprise и Office 365 образования A5. Если в вашей организации есть подписка на Office 365, которая не включает расширенное шифрование сообщений Office 365, вы можете приобрести дополнительное шифрование сообщений в качестве надстройки с соответствием требованиям к расширенному набору для обеспечения соответствия требованиям.
+Отзыв электронной почты предлагается как часть расширенного шифрования сообщения Office 365. Расширенное шифрование сообщений Office 365 включено в [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365, Microsoft 365, Microsoft (ценообразование для сотрудников), Office 365 Enterprise и Office 365 образование A5. Если в вашей организации есть подписка, не включающая в себя приложение Office 365 Advanced Message Encryption, вы можете приобрести его с помощью надстройки Microsoft 365 с поддержкой соответствия требованиям для Microsoft 365 E3, Microsoft 365 E3 (ценообразование для некоммерческих сотрудников) или Office 365 Advanced Надстройка SKU для обеспечения соответствия требованиям для Microsoft 365 E3, Microsoft 365 E3 (ценообразование для некоммерческих сотрудников) или SKU Office 365.
 
 Эта статья входит в набор статей, посвященных [шифрованию сообщений Office 365](ome.md).
 

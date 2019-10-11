@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Обзор процедуры настройки для Microsoft 365 Business.
-ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4be0a8aa1b050ee3e20a045eb2c07666765118ed
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288582"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440544"
 ---
-# <a name="overview-of-setup"></a>Обзор программы установки
+# <a name="overview-of-setup"></a>Обзор настройки
 
 Большинство этапов настройки можно выполнить в мастере установки, но Кроме того, указаны другие параметры.
 
@@ -41,7 +41,7 @@ ms.locfileid: "37288582"
         - Вы также можете [Добавить пользователей позже](add-users-m365b.md) в центре администрирования.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Шаг 2: Настройка политик безопасности и настройка устройств 
 
-  - Используйте [Мастер установки](set-up.md#set-up-security-policies-and-device-configurations) для настройки политик устройств и безопасности. 
+  - Используйте [Мастер установки](set-up.md#protect-data-and-devices) для настройки политик устройств и безопасности. 
   - Вы также можете добавить дополнительные или изменить их позже в [центре администрирования](view-policies-and-devices.md) и [портале Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - В дополнение к параметрам безопасности в мастере установки вы можете повысить уровень безопасности, добавив следующие параметры:
 
@@ -62,7 +62,7 @@ ms.locfileid: "37288582"
    Когда вы присоединяете устройство Windows 10 к Azure AD, политики, которые вы настроили в [шаге 2](#step-2-set-up-security-policies-and-configure-devices) , будут применены к нему.
 
    - Windows 10 профессиональная — это [Предварительный компонент](pre-requisites-for-data-protection.md) для Microsoft 365 Business, но если у вас есть Windows 7 Профессиональная, Windows 8 Профессиональная или Windows 8,1 Pro, ваша подписка дает вам возможность [выполнить обновление до Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Используйте [Мастер установки](set-up.md#set-up-security-policies-and-device-configurations) для настройки политик для устройств с Windows 10.
+    - Используйте [Мастер установки](set-up.md#protect-data-and-devices) для настройки политик для устройств с Windows 10.
 
 ## <a name="stes-4-install-office-365-business"></a>Стес 4: установка Office 365 для бизнеса
 - Вы можете автоматически установить Office на устройствах с Windows с помощью [мастера установки](set-up.md#deploy-office-365-client-apps).

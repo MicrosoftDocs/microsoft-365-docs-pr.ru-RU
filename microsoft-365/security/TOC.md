@@ -19,6 +19,13 @@
 
 ### [Управление билетами с помощью ServiceNow](./mtp/tickets.md)
 
+
+## [Конфигурации доступа для удостоверений и устройств](../enterprise/microsoft-365-policies-configurations.md)
+### [Необходимая работа](../enterprise/identity-access-prerequisites.md)
+### [Основные политики идентификации и доступа для устройств](../enterprise/identity-access-policies.md)
+### [Рекомендуемые политики доступа Exchange Online](../enterprise/secure-email-recommended-policies.md)
+### [Рекомендуемые политики доступа SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
+
 ## [Безопасность Office 365]()
 ### [Начало работы]()
 #### [Схема обеспечения безопасности Office 365](./office-365-security/security-roadmap.md)
@@ -43,7 +50,6 @@
 ##### [Вопросы и ответы по защите от вредоносных программ](./office-365-security/anti-malware-protection-faq-eop.md)
 ##### [Защита от нежелательной почты и вредоносных программ в Office 365](./office-365-security/anti-malware-protection.md)
 ##### [Вопросы и ответы по защите от нежелательной почты](./office-365-security/anti-spam-protection-faq.md)
-##### [Контроль над исходящим спамом в Office 365](./office-365-security/controlling-outbound-spam-in-Office-365.md)
 ##### [Запрет недопустимых символов в правилах фильтрации спама и политике фильтрации спама](./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md)
 ##### [Списки надежных и заблокированных отправителей в Exchange Online](./office-365-security/safe-sender-and-blocked-sender-lists-faq.md)
 ##### [Советы по безопасности для сообщений электронной почты в Office 365](./office-365-security/safety-tips-in-office-365.md)
@@ -55,7 +61,7 @@
 ##### [Защита от нежелательной почты в Office 365](./office-365-security/anti-spam-protection.md)
 ##### [Как объединяются политики и средства защиты](./office-365-security/how-policies-and-protections-are-combined.md)
 ##### [Как уменьшить количество нежелательных сообщений в Office 365](./office-365-security/reduce-spam-email.md)
-##### [Контроль над исходящим спамом в Office 365](./office-365-security/outbound-spam-controls.md)
+##### [Контроль над исходящей нежелательной почтой в Office 365](./office-365-security/outbound-spam-controls.md)
 ##### [Блокировка спама с помощью фильтра нежелательной почты Office 365 для предотвращения ложноотрицательных результатов](./office-365-security/reduce-spam-email.md)
 ##### [Автоматическая очистка для защиты от нежелательной почты и вредоносных программ](./office-365-security/zero-hour-auto-purge.md)
 ##### [Настройка гарантированной отправки нежелательной почты в соответствующую папку каждого пользователя](./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
@@ -253,4 +259,8 @@
 
 ### [Office 365 корпоративный](https://docs.microsoft.com/office-365-security/Enterprise)
 ### [Office 365 для бизнеса](https://docs.microsoft.com/office-365-security/admin/admin-home)
+
+
+
+
 ## [Соответствие требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/)

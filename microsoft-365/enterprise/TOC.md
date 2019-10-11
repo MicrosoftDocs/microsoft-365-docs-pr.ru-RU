@@ -83,7 +83,7 @@
 ### [Защита данных](contoso-info-protect.md)
 ### [Сводка по безопасности](contoso-security-summary.md)
 ### [Сайт SharePoint для строго регулируемых данных](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
-
+## [Изменения содержимого развертывания Microsoft 365 корпоративный](microsoft-365-deploment-guide-changes.md)
 # [Центр развертывания компьютеров](desktop-deployment-center-home.md)
 ## [Начало работы. Руководство по пользователям, процессу и технологии](getting-started.md)
 ## [Шаг 1. Готовность устройств и приложений](step-1-device-and-app-readiness.md)

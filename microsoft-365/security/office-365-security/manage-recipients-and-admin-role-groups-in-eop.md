@@ -1,26 +1,26 @@
 ---
 title: Управление получателями и группами ролей администратора в EOP
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 3/9/2015
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2041a048-8d78-4b76-a91f-43ea43a858bd
 description: Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. В следующих разделах и связанных подразделах представлены сведения и процедуры настройки для управления получателями и назначения разрешений групп ролей администраторов.
-ms.openlocfilehash: 74b1cf273aa2f4f97515c2295ffa42d9d3b211c0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d69183c009f12dd33aec28d6ee353bf4177601f5
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091315"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441446"
 ---
 # <a name="manage-recipients-and-admin-role-groups-in-eop"></a>Управление получателями и группами ролей администратора в EOP
 
 Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. В следующих разделах и связанных подразделах представлены сведения и процедуры настройки для управления получателями и назначения разрешений групп ролей администраторов.
-  
+
 |**Статья**|**Описание**|
 |:-----|:-----|
 |[Управление получателями в EOP](manage-recipients-in-eop.md)|Описаны типы получателей в EOP (почтовые пользователи и группы) и приведена информация о добавлении, удалении и изменении получателей, их расположении в Центре администрирования Exchange, а также другие сведения об управлении получателями.|

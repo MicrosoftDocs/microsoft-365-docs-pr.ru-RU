@@ -1,7 +1,7 @@
 ---
 title: Управление записями в Microsoft 365
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью управления записями в Microsoft 365 вы можете применять определенные графики хранения вашей организации к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией для поддержки полного жизненного цикла контента.
-ms.openlocfilehash: b860c807fd936865c7a5a646096e212f138a2e79
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 97b5c1981cf2596554571e8b53059aa718aa561c
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091001"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440676"
 ---
 # <a name="records-management-in-microsoft-365"></a>Управление записями в Microsoft 365
 
@@ -38,6 +38,6 @@ ms.locfileid: "37091001"
 
 - **Просмотр ликвидированных элементов с помощью проверки перед ликвидацией** и [экспорт отчета о ликвидации](disposition-reviews.md#export-the-disposition-items) для дальнейшей проверки и создания отчетов.
 
-- **Настройка определенных разрешений** для [предоставления правильного доступа](/security/office-365-security/protect-against-threats.md) функциям диспетчера записей в организации.
+- **Настройка определенных разрешений** для [предоставления правильного доступа](../security/office-365-security/permissions-in-the-security-and-compliance-center.md) функциям диспетчера записей в организации.
 
 С помощью решения для управления записями в Microsoft 365 вы можете внедрять графики хранения вашей организации в план файлов, чтобы управлять хранением, объявлением записей и ликвидацией для поддержки полного жизненного цикла контента.

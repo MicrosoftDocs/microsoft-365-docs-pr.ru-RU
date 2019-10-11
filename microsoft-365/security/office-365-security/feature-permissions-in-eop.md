@@ -10,23 +10,23 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Разрешения, необходимые для выполнения задач по управлению службой Microsoft Exchange Online Protection (EOP), зависят от управляемых функций.
-ms.openlocfilehash: 411132bf009f7eb76556d64a8c887b94d92b36f4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 06223b0ec11df0b5a7bedc538913a55ca5998a01
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090091"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441556"
 ---
 # <a name="feature-permissions-in-eop"></a>Разрешения на функции в службе EOP
 
 Разрешения, необходимые для выполнения задач по управлению Exchange Online Protection (EOP), зависят от компонента, который вы управляете.
-  
+
 Для настройки EOP ваша ученая запись должна обладать правами глобального администратора Office 365 или администратора компании Exchange (группа ролей управления организацией).
-  
+
 ## <a name="exchange-online-protection-permissions"></a>Разрешения Exchange Online Protection
 
 Чтобы узнать, какие нужны разрешения для управления функциями EOP, обратитесь к таблице ниже. Если для функции указано несколько групп ролей, то для ее использования достаточно относиться к одной из этих групп.
-  
+
 |**Функция**|**Необходимые разрешения**|
 |:-----|:-----|
 |Функции защиты от вредоносных программ|[Управление организацией](http://technet.microsoft.com/library/0bfd21c1-86ac-4369-86b7-aeba386741c8.aspx) <br/> [Управление санацией](http://technet.microsoft.com/library/fc0a9ec2-9c3d-42f6-8442-8603fb29d464.aspx)|
