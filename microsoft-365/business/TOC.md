@@ -29,9 +29,9 @@
 ### [Сопоставление функций защиты и настроек Intune](map-protection-features-to-intune-settings.md)
 ### [Параметры защиты приложений для Android и iOS](app-protection-settings-for-android-and-ios.md)
 #### [Проверка настроек в Android или iOS](validate-settings-on-android-or-ios.md)
-### [Параметры защиты компьютеров с Windows 10](protection-settings-for-windows-10-pcs.md)
+### [Параметры защиты устройств для компьютеров с Windows 10](protection-settings-for-windows-10-pcs.md)
 #### [Проверка настроек на компьютерах с Windows 10](validate-settings-on-windows-10-pcs.md)
-### [Параметры защиты устройств с Windows 10](protection-settings-for-windows-10-devices.md)
+### [Параметры защиты приложений для компьютеров с Windows 10](protection-settings-for-windows-10-devices.md)
 ## [Миграция на Microsoft 365 бизнес](migrate-to-microsoft-365-business.md)
 ## Выставление счетов
 ### [Ваш счет](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
