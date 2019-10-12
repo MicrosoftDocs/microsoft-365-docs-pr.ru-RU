@@ -3,7 +3,7 @@ title: Изменения содержимого развертывания Micr
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/09/2019
+ms.date: 10/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: 3ec4c3fd15e0c04a319f2fa78b5298d00835bd0d
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 67d0f51dd1f2602a21d199da1ed7ca6ba6e41c09
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437879"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453995"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 корпоративный
 
 ## <a name="october-2019"></a>Октябрь 2019 г.
+
+### <a name="new-content"></a>Новое содержимое 
+
+- [Плакат "Возможности для удаленных работников"](empower-people-to-work-remotely.md#poster)
+
+  [![Плакат "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
+ 
 
 ### <a name="updates-and-enhancements"></a>Обновления и улучшения
 

@@ -99,11 +99,6 @@
 ## [Комплект Deployment and Lab Kit для Windows и Office](modern-desktop-deployment-and-management-lab.md)
 ## [Поиск справки для вашего развертывания](find-help-for-modern-desktop-deployment.md)
 
-# [Конфигурации доступа для удостоверений и устройств](microsoft-365-policies-configurations.md)
-##[Необходимая работа](identity-access-prerequisites.md)
-## [Основные политики идентификации и доступа для устройств](identity-access-policies.md)
-## [Рекомендуемые политики доступа Exchange Online](secure-email-recommended-policies.md)
-## [Рекомендуемые политики доступа SharePoint Online](sharepoint-file-access-policies.md)
 
 # [Соответствие требованиям Microsoft 365](../compliance/index.yml)
 # [Безопасность в Microsoft 365](../security/index.yml)
