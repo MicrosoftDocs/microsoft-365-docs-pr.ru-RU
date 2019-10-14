@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Настройте инфраструктуру и систему безопасности, позволяющую вашим сотрудникам удаленно работать из любого места и в любое время.
-ms.openlocfilehash: 198b01205e7419c4a3aa874c1e6213cce5284576
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: 9a9520f5246ec70a2b9947536c259c661a5bd44f
+ms.sourcegitcommit: 68c54a45dd663027528b99f883c6ef04b04b19b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453953"
+ms.locfileid: "37469161"
 ---
 # <a name="empower-remote-workers"></a>Возможности для удаленных работников
 
@@ -74,7 +74,7 @@ ms.locfileid: "37453953"
 
 [![Афиша "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
 
-Вы также можете [скачать эту афишу](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
+Вы также можете [скачать эту афишу](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
 
 
 ## <a name="phase-1-deploy-microsoft-365-features-and-capabilities-for-remote-workers"></a>Этап 1. Развертывание функций и возможностей Microsoft 365 для удаленных сотрудников
