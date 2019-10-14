@@ -3,7 +3,7 @@ title: Возможности для удаленных работников
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/27/2019
+ms.date: 10/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Настройте инфраструктуру и систему безопасности, позволяющую вашим сотрудникам удаленно работать из любого места и в любое время.
-ms.openlocfilehash: b73e16a52741a6587e9ed903cab6ddfedf896973
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 198b01205e7419c4a3aa874c1e6213cce5284576
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403258"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453953"
 ---
 # <a name="empower-remote-workers"></a>Возможности для удаленных работников
 
@@ -69,6 +69,13 @@ ms.locfileid: "37403258"
   - В организациях с гибридными удостоверениями могут использоваться прокси-приложения Azure AD вместо подключений по виртуальной частной сети (VPN)
 
 Следующие этапы являются пошаговым развертыванием функции Microsoft 365 корпоративный для удаленного доступа и ее внедрения для удаленных работников. Если вы уже развернули элементы из этих этапов, убедитесь в их соответствии указанным требованиям перед переходом к следующему элементу.
+
+<a name="poster"></a> 1-страничное краткое описание этого сценария приведено на [афише "Возможности для удаленных работников"](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
+
+[![Афиша "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+
+Вы также можете [скачать эту афишу](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
+
 
 ## <a name="phase-1-deploy-microsoft-365-features-and-capabilities-for-remote-workers"></a>Этап 1. Развертывание функций и возможностей Microsoft 365 для удаленных сотрудников
 

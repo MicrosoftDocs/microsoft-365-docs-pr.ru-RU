@@ -1,14 +1,31 @@
 # [Безопасность в Microsoft 365](index.yml)
 
+## Начало работы
+### [Безопасность в Microsoft 365 для BDM](Microsoft-365-security-for-bdm.md)
+### [Оценка безопасности](./mtp/microsoft-secure-score.md)
+### [Учебный семинар для руководителя по информационной безопасности (CISO)](./office-365-security/ciso-workshop.md)
+#### [Модуль 1 — информационная справка по кибербезопасности Майкрософт](./office-365-security/ciso-workshop-module-1.md)
+#### [Модуль 2 — управление безопасностью](./office-365-security/ciso-workshop-module-2.md)
+#### [Модуль 3 — управление удостоверениями и доступом](./office-365-security/ciso-workshop-module-3.md)
+#### [Модуль 4a — стратегия защиты от угроз, часть I](./office-365-security/ciso-workshop-module-4a.md)
+#### [Модуль 4б — стратегия защиты от угроз, часть II](./office-365-security/ciso-workshop-module-4b.md)
+#### [Модуль 5 — защита информации](./office-365-security/ciso-workshop-module-5.md)
+
+
+## [Конфигурации доступа для удостоверений и устройств](../enterprise/microsoft-365-policies-configurations.md)
+### [Необходимая работа](../enterprise/identity-access-prerequisites.md)
+### [Основные политики идентификации и доступа для устройств](../enterprise/identity-access-policies.md)
+### [Рекомендуемые политики доступа Exchange Online](../enterprise/secure-email-recommended-policies.md)
+### [Рекомендуемые политики доступа SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
+
+
 ## Защита от угроз (Майкрософт)
 ### [Обзор]()
 #### [Что такое защита от угроз (Майкрософт)?](mtp/microsoft-threat-protection.md)
 #### [Центр безопасности Microsoft 365](mtp/overview-security-center.md)
 
-
 ### [Выслеживание в Microsoft 365](./mtp/hunting.md)
 
-### [Оценка безопасности](./mtp/microsoft-secure-score.md)
 
 ### [Отчеты]()
 #### [Мониторинг и просмотр отчетов](./mtp/monitoring-and-reporting.md)
@@ -20,12 +37,6 @@
 ### [Управление билетами с помощью ServiceNow](./mtp/tickets.md)
 
 
-## [Конфигурации доступа для удостоверений и устройств](../enterprise/microsoft-365-policies-configurations.md)
-### [Необходимая работа](../enterprise/identity-access-prerequisites.md)
-### [Основные политики идентификации и доступа для устройств](../enterprise/identity-access-policies.md)
-### [Рекомендуемые политики доступа Exchange Online](../enterprise/secure-email-recommended-policies.md)
-### [Рекомендуемые политики доступа SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
-
 ## [Безопасность Office 365]()
 ### [Начало работы]()
 #### [Схема обеспечения безопасности Office 365](./office-365-security/security-roadmap.md)
@@ -34,13 +45,8 @@
 #### [Разрешения в Центре безопасности и соответствия требованиям](./office-365-security/permissions-in-the-security-and-compliance-center.md)
 #### [Предоставление пользователям доступа к Центру безопасности](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
-#### [Учебный семинар для руководителя по информационной безопасности (CISO)](./office-365-security/ciso-workshop.md)
-##### [Модуль 1 — информационная справка по кибербезопасности Майкрософт](./office-365-security/ciso-workshop-module-1.md)
-##### [Модуль 2 — управление безопасностью](./office-365-security/ciso-workshop-module-2.md)
-##### [Модуль 3 — управление удостоверениями и доступом](./office-365-security/ciso-workshop-module-3.md)
-##### [Модуль 4a — стратегия защиты от угроз, часть I](./office-365-security/ciso-workshop-module-4a.md)
-##### [Модуль 4б — стратегия защиты от угроз, часть II](./office-365-security/ciso-workshop-module-4b.md)
-##### [Модуль 5 — защита информации](./office-365-security/ciso-workshop-module-5.md)
+
+
 
 
 ### [Защита от угроз](./office-365-security/protect-against-threats.md)
