@@ -16,8 +16,8 @@
 ### [Настройка мобильных устройств](set-up-mobile-devices.md)
 ### [Настройка устройств с Windows](set-up-windows-devices.md)
 ## [Защита компании](security-features.md)
+### [Настройка MFA](set-up-mfa.md)
 ### [Улучшение защиты от угроз](increase-threat-protection.md)
-### [Начало работы с условным доступом](set-up-conditional-access-policies.md)
 ### [Настройка функций обеспечения соответствия требованиям](set-up-compliance.md)
 ## Управление пользователями
 ### [Добавление пользователей](add-users-m365b.md)
