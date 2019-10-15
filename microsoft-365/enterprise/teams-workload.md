@@ -2,7 +2,7 @@
 title: Развертывание Microsoft Teams для Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/28/2019
+ms.date: 10/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,163 +11,200 @@ ms.collection:
 - M365-collaboration
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Выполните по шагам процесс планирования, развертывания и эффективного использования Microsoft Teams в Microsoft 365 корпоративный в вашей организации.
-ms.openlocfilehash: fd2e72ddb0dfbcc437d30dee16241fbccc81b05b
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+description: Пошаговое изучение с последующим развертыванием Microsoft Teams в организации.
+ms.openlocfilehash: 2e34c4fcada0f80c597faf89b221321ffa9183ba
+ms.sourcegitcommit: 31392b9599f4b4e9981a1278d6beb9f0a2839ecf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982620"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37503395"
 ---
-# <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a><span data-ttu-id="d2c18-103">Развертывание Microsoft Teams для Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="d2c18-103">Deploy Microsoft Teams for Microsoft 365 Enterprise</span></span>
+# <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a><span data-ttu-id="8bbfa-103">Развертывание Microsoft Teams для Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="8bbfa-103">Deploy Microsoft Teams for Microsoft 365 Enterprise</span></span>
 
-<span data-ttu-id="d2c18-104">*Эта рабочая нагрузка включена в планы E3 и E5 Microsoft 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="d2c18-104">*This workload is included in both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
+<span data-ttu-id="8bbfa-104">*Эта рабочая нагрузка включена в планы E3 и E5 Microsoft 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="8bbfa-104">*This workload is included in both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
 
-<span data-ttu-id="d2c18-p101">В Microsoft Teams объединены функции чата, конференций, общего доступа к документам и бесед с несколькими ветками. Это сделано так, чтобы упростить создание контента и предоставление общего доступа к нему в группах. Teams — это способ выполнения групповой и совместной работы в Microsoft 365 корпоративный и ключевой элемент значения Built for Teamwork в Microsoft 365. Если вы не знакомы с Teams, прочитайте статью [Обзор Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p101">Microsoft Teams brings together chat, conferencing, document sharing, and threaded conversations in a way that makes it easy to create and share content across groups. Teams is the way you do teamwork and collaboration for Microsoft 365 Enterprise and is a key element of the Built for Teamwork value of Microsoft 365. If you are brand new to Teams, see [Overview of Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview).</span></span>
+<span data-ttu-id="8bbfa-p101">В Microsoft Teams объединены функции чата, конференций, общего доступа к документам и бесед с несколькими ветками. Это сделано так, чтобы упростить создание контента и предоставление общего доступа к нему в группах. Teams — это способ выполнения групповой и совместной работы в Microsoft 365 корпоративный и ключевой элемент преимущества, созданного для командной работы в Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="8bbfa-p101">Microsoft Teams brings together chat, conferencing, document sharing, and threaded conversations in a way that makes it easy to create and share content across groups. Teams is the way you do teamwork and collaboration for Microsoft 365 Enterprise and is a key element of the Built for Teamwork value of Microsoft 365. If you are brand new to Teams, see Overview of Microsoft Teams.</span></span> 
+
+<span data-ttu-id="8bbfa-107">Если вы не знакомы с Teams, прочитайте статью [Знакомство с Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview).</span><span class="sxs-lookup"><span data-stu-id="8bbfa-107">If you're brand new to Teams, see [Welcome to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview).</span></span> 
+
+
+## <a name="roll-out-teams-to-your-organization"></a><span data-ttu-id="8bbfa-108">Развертывание Teams в организации</span><span class="sxs-lookup"><span data-stu-id="8bbfa-108">Step 1: Roll out Teams to the rest of your organization</span></span>
+
+<span data-ttu-id="8bbfa-109">Подготовка:</span><span class="sxs-lookup"><span data-stu-id="8bbfa-109">Before you begin:</span></span>
+
+- <span data-ttu-id="8bbfa-110">Настройте правильные этапы [базовой инфраструктуры](deploy-foundation-infrastructure.md), чтобы в ваших командах имелись учетные записи пользователей и нужные функции безопасности.</span><span class="sxs-lookup"><span data-stu-id="8bbfa-110">Before you begin, make sure you've configured the right [foundation infrastructure](deploy-foundation-infrastructure.md) phases so that your teams have the security capabilities you need.</span></span> <span data-ttu-id="8bbfa-111">Этапы идентификации и защиты данных являются наиболее важными для входа и использования защиты почты и файлов с помощью меток хранения и конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="8bbfa-111">The Identity and Information Protection phases are the most important for signing on and using securing email and files with retention and sensitivity labels.</span></span>
+- <span data-ttu-id="8bbfa-112">Сведения о безопасности и соответствии требованиям в Teams см. в [этой статье](https://docs.microsoft.com/microsoftteams/security-compliance-overview).</span><span class="sxs-lookup"><span data-stu-id="8bbfa-112">Learn about security and compliance in Teams with [this article](https://docs.microsoft.com/microsoftteams/security-compliance-overview).</span></span>
+- <span data-ttu-id="8bbfa-113">Сведения о лицензировании Office 365 для Teams см. в [этой статье](https://docs.microsoft.com/microsoftteams/office-365-licensing).</span><span class="sxs-lookup"><span data-stu-id="8bbfa-113">Learn about Office 365 licensing for Teams with [this article](https://docs.microsoft.com/microsoftteams/office-365-licensing).</span></span>
+
+<span data-ttu-id="8bbfa-114">Чтобы развернуть Teams в организации, ознакомьтесь со статьей [Способ развертывания Teams](https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams).</span><span class="sxs-lookup"><span data-stu-id="8bbfa-114">To roll out Teams in your organization, read [How to roll out Teams](https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams).</span></span>
+
+<span data-ttu-id="8bbfa-115">Для знакомства с первоначальным набором функций Teams см. статью [Чат, команды, каналы и приложения в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page).</span><span class="sxs-lookup"><span data-stu-id="8bbfa-115">For your first set of Teams capabilities, see [Chat, teams, channels, and apps in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page).</span></span>
+
+<span data-ttu-id="8bbfa-116">Сведения о дополнительных функциях Teams см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="8bbfa-116">For more advanced Teams capabilities, see:</span></span>
+
+- [<span data-ttu-id="8bbfa-117">Собрания и конференции</span><span class="sxs-lookup"><span data-stu-id="8bbfa-117">Meetings and Conferencing</span></span>](https://docs.microsoft.com/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
+- <span data-ttu-id="8bbfa-118">[Облачные решения для голосовой связи](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) (требуется Microsoft 365 корпоративный E5)</span><span class="sxs-lookup"><span data-stu-id="8bbfa-118">[Cloud voice](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) (requires Microsoft 365 Enterprise E5)</span></span>
+
+<span data-ttu-id="8bbfa-119">Чтобы отслеживать использование Teams в организации, ознакомьтесь со следующими статьями:</span><span class="sxs-lookup"><span data-stu-id="8bbfa-119">To monitor your organization's usage of Teams, see:</span></span>
+
+- [<span data-ttu-id="8bbfa-120">Аналитика командной и межкомандной работы в Teams</span><span class="sxs-lookup"><span data-stu-id="8bbfa-120">Cross-team and per-team analytics in Teams</span></span>](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/cross-team-per-team-analytics)
+- [<span data-ttu-id="8bbfa-121">Аналитика и отчеты</span><span class="sxs-lookup"><span data-stu-id="8bbfa-121">Analytics and reporting</span></span>](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
+
+
+## <a name="upgrade-to-teams"></a><span data-ttu-id="8bbfa-122">Переход на Teams</span><span class="sxs-lookup"><span data-stu-id="8bbfa-122">Upgrade to Teams</span></span>
+
+<span data-ttu-id="8bbfa-123">Если это еще не произошло, вы скоро перейдете со Skype для бизнеса на Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="8bbfa-123">If it hasn’t happened already, you will soon upgrade from Skype for Business to Microsoft Teams.</span></span> <span data-ttu-id="8bbfa-124">Независимо от того, начинаете ли вы работу с Teams, уже используете Teams наряду со Skype для бизнеса или полностью готовы к переходу, мы стремимся, чтобы у вас было все необходимое для успешного перехода на Teams.</span><span class="sxs-lookup"><span data-stu-id="8bbfa-124">Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.</span></span>
+
+<span data-ttu-id="8bbfa-125">При переходе со Skype для бизнеса Online или из локальной среды Skype для бизнеса на Teams структура обновления поможет вам выполнить все необходимые действия в соответствии с вашим бизнес-сценарием.</span><span class="sxs-lookup"><span data-stu-id="8bbfa-125">Whether you are upgrading from Skype for Business Online to Teams or from a Skype for Business on-premises environment to Teams, the upgrade framework will guide you through the process based on your business scenario.</span></span>
  
-<span data-ttu-id="d2c18-p102">Если вы используете Skype для бизнеса, то вам будет полезно знать, что мы ведем работу по внедрению функций Skype для бизнеса в Teams. Со временем эта работа будет завершена, и в конечном итоге Teams станет единым клиентом. Так как вы — ценный клиент Skype для бизнеса, Корпорация Майкрософт готова предоставить вам поддержку. Дополнительные сведения см. в статье [Переход со Skype для бизнеса на Microsoft Teams](https://docs.microsoft.com/microsoftteams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p102">If you’re currently using Skype for Business, we’re building Skype for Business capabilities into Teams. This will happen over time, and ultimately Teams will become the single client experience. As a valued Skype for Business customer, Microsoft is here to support you. See the [Journey from Skype for Business to Microsoft Teams](https://docs.microsoft.com/microsoftteams/journey-skypeforbusiness-teams) for more information.</span></span>
+<span data-ttu-id="8bbfa-126">Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="8bbfa-126">See the [Getting started with your Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here) for more information.</span></span>
 
-<span data-ttu-id="d2c18-112">С помощью описанных ниже этапов и действий вы пройдете процесс оценки роли Teams в вашей организации, адаптируете свою организацию к Teams, выполнив ряд последовательных развертываний и предоставите своим пользователям возможность использовать Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-112">The following phases and steps guide you through the process of envisioning the role of Teams in your organization, onboarding your organization to Teams through a series of progressive rollouts, and driving usage of Teams and its value to your end users.</span></span> 
+## <a name="how-microsoft-does-microsoft-365-enterprise"></a><span data-ttu-id="8bbfa-127">Как корпорация Майкрософт реализует Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="8bbfa-127">How Microsoft does Microsoft 365 Enterprise</span></span>
 
-<span data-ttu-id="d2c18-113">Прежде чем начать, настройте правильные шаги [базовой инфраструктуры](deploy-foundation-infrastructure.md), чтобы в ваших командах были доступны нужные функции безопасности.</span><span class="sxs-lookup"><span data-stu-id="d2c18-113">Before you begin, make sure you've configured the right [foundation infrastructure](deploy-foundation-infrastructure.md) phases so that your teams have the security capabilities you need.</span></span>
+<span data-ttu-id="8bbfa-128">Загляните в корпорацию Майкрософт и узнайте, как мы развернули и используем Teams для совместной работы, прочтя следующие статьи:</span><span class="sxs-lookup"><span data-stu-id="8bbfa-128">To peek inside Microsoft and learn how the company deployed and is using Microsoft Teams for collaboration, see:</span></span>
 
-## <a name="phase-1-envision"></a><span data-ttu-id="d2c18-114">Этап 1. Определение</span><span class="sxs-lookup"><span data-stu-id="d2c18-114">Phase 1: Envision</span></span>
+- [<span data-ttu-id="8bbfa-129">Стратегия внедрения Microsoft Teams готовит сотрудников к новой культуре работы</span><span class="sxs-lookup"><span data-stu-id="8bbfa-129">Microsoft Teams adoption strategy prepares employees for a new culture of work</span></span>](https://www.microsoft.com/ru-RU/itshowcase/microsoft-teams-adoption-strategy-prepares-employees-for-a-new-culture-of-work)
+- [<span data-ttu-id="8bbfa-130">Благодаря комнатам Microsoft Teams предоставляется глобально масштабируемый современный интерфейс для собраний</span><span class="sxs-lookup"><span data-stu-id="8bbfa-130">With Microsoft Teams Rooms, comes a globally scalable modern meeting experience</span></span>](https://www.microsoft.com/ru-RU/itshowcase/with-microsoft-teams-rooms-comes-a-globally-scalable-modern-meeting-experience)
 
-<span data-ttu-id="d2c18-115">На этом шаге вы соберете сотрудников для развертывания Teams и определите, как ваша организация будет использовать Teams для удовлетворения своих бизнес-потребностей.</span><span class="sxs-lookup"><span data-stu-id="d2c18-115">In this phase, you gather the people for your Teams deployment and determine how your organization will use Teams to address its business needs.</span></span>
+## <a name="next-steps"></a><span data-ttu-id="8bbfa-131">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="8bbfa-131">Next steps</span></span>
 
-### <a name="step-1-gather-your-teams-deployment-members"></a><span data-ttu-id="d2c18-116">Шаг 1. Сбор группы развертывания Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-116">Step 1: Gather your Teams deployment members</span></span>
-<span data-ttu-id="d2c18-p103">Чтобы успешно развернуть Teams на основе [базовой инфраструктуры](deploy-foundation-infrastructure.md) Microsoft 365, вам необходимо правильно подобрать людей для получения данных и обратной связи. Ключевые люди — это лица, принимающие бизнес-решения, сотрудники ИТ-подразделений, например архитекторы и реализаторы, а также представители пользователей.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p103">For a successful deployment of Teams on top of the Microsoft 365 [foundation infrastructure](deploy-foundation-infrastructure.md), you need to get the right people for input and feedback. Key people include business decision makers, IT staff such as architects and implementers, and advocates for your end users.</span></span> 
+- [<span data-ttu-id="8bbfa-132">Управление функциями Microsoft Teams в организации</span><span class="sxs-lookup"><span data-stu-id="8bbfa-132">Manage Microsoft Teams features in your Office 365 organization</span></span>](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+- [<span data-ttu-id="8bbfa-133">Обучение администратора для работы с Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8bbfa-133">Admin training for Microsoft Teams</span></span>](https://docs.microsoft.com/microsoftteams/itadmin-readiness)
 
-<span data-ttu-id="d2c18-119">Используя эти три группы, вы гарантируете, что при развертывании Teams будут учтены бизнес-потребности и технические аспекты лицензирования и обеспечения безопасности, а также что обычные пользователи будут использовать Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-119">These three groups ensure that your Teams deployment includes considerations that address business needs, technical aspects of licensing and security, and that Teams will be something that your typical users will use.</span></span>
+<!--
 
-#### <a name="result"></a><span data-ttu-id="d2c18-120">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-120">Result</span></span>
+## Phase 1: Envision
 
-<span data-ttu-id="d2c18-121">Список людей, представляющих бизнес- и техническое подразделение, а также пользователей в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="d2c18-121">A list of people that represent the business, technical, and end user aspects of your organization.</span></span>
+In this phase, you gather the people for your Teams deployment and determine how your organization will use Teams to address its business needs.
 
-### <a name="step-2-determine-and-prioritize-your-teams-business-scenarios"></a><span data-ttu-id="d2c18-122">Шаг 2. Определение бизнес-сценариев и приоритетов для Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-122">Step 2: Determine and prioritize your Teams business scenarios</span></span>
-<span data-ttu-id="d2c18-p104">Teams можно использовать для множества различных целей. Вам необходимо определить, какие цели соответствуют вашим бизнес-потребностям на отдельных уровнях вашей организации, бизнес-групп, отделов и отдельных рабочих и проектных групп. См. примеры сценариев использования Teams в статье [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/?rtc=1).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p104">Teams can be used for many different purposes. You need to figure out which purposes map to your business needs on the separate levels of your organization, your business groups, your departments, and individual working and project teams. Take a look at the [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/?rtc=1) for examples to help you define Teams scenarios.</span></span> 
+### Step 1: Gather your Teams deployment members
 
-<span data-ttu-id="d2c18-p105">Вы должны нацелить Teams на решение потребностей высокоподвижных групп, которые ведут большие объемы совместной работы, тесно работают вместе и для которых требуется намного больше средств, чем просто почта, работу с которой обеспечивает Exchange Online. В качестве примеров можно привести групповые чаты в реальном времени с записью сообщений в журнале, а также общее место для хранения файлов и заметок, которое легко найти.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p105">You should target Teams to address fast-moving and highly collaborative teams that work closely together and require many more facilities than just email with Exchange Online can provide. Examples are live group chats with a recorded history and a common and easy-to-find place to store files and notes.</span></span> 
+For a successful deployment of Teams on top of the Microsoft 365 [foundation infrastructure](deploy-foundation-infrastructure.md), you need to get the right people for input and feedback. Key people include business decision makers, IT staff such as architects and implementers, and advocates for your end users. 
 
-<span data-ttu-id="d2c18-128">Один из способов оценить преимущества Teams — изучить, как взаимодействуют участники группы или виртуальной группы, а затем найти соответствующий сценарий Teams, который позволит заменить личное взаимодействие и обеспечит более простые способы совместной работы и дополнительные возможности.</span><span class="sxs-lookup"><span data-stu-id="d2c18-128">One way to see the benefits of Teams is to examine how a team or v-team interacts today, and then find an appropriate Teams scenario that replaces the interaction and provides easier ways to collaborate and provide additional capabilities.</span></span>
+These three groups ensure that your Teams deployment includes considerations that address business needs, technical aspects of licensing and security, and that Teams is something that your typical users will use.
 
-#### <a name="microsoft-teams-for-highly-regulated-data"></a><span data-ttu-id="d2c18-129">Microsoft Teams для строго регулируемых данных</span><span class="sxs-lookup"><span data-stu-id="d2c18-129">Microsoft Teams for highly regulated data</span></span>
+#### Result
 
-<span data-ttu-id="d2c18-p106">Строго регулируемые данные управляются региональными нормативными требованиями или являются наиболее ценными данными организации, например коммерческие тайны, сведения о финансах и персонале и стратегия организации. Вы можете настроить в группе ограниченный доступ, классификацию данных, защиту от потери данных и шифрование для этого типа данных. Дополнительные сведения см. в статье [Сайты Microsoft Teams и SharePoint Online для строго регулируемых данных](teams-sharepoint-online-sites-highly-regulated-data.md).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p106">Highy regulated data is subject to regional regulations or is the most valuable data for your organization, such as trade secrets, financial or human resources information, and organization strategy. You can configure a team for restricted access, data classification, data loss prevention, and encryption for this type of data. For the details, see [Microsoft Teams and SharePoint Online sites for highly regulated data](teams-sharepoint-online-sites-highly-regulated-data.md).</span></span>
+A list of people that represent the business, technical, and end user perspectives of your organization.
 
-#### <a name="result"></a><span data-ttu-id="d2c18-133">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-133">Result</span></span>
+### Step 2: Determine and prioritize your Teams business scenarios
+Teams can be used for many different purposes. You need to figure out which purposes map to your business needs on the separate levels of your organization, your business groups, your departments, and individual working and project teams. Take a look at the [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/?rtc=1) for examples to help you define Teams scenarios. 
 
-<span data-ttu-id="d2c18-134">Список сценариев Teams, удовлетворяющих потребности вашей организации, связанные с совместной работой и работой в группах.</span><span class="sxs-lookup"><span data-stu-id="d2c18-134">A list of Teams scenarios that address your organization’s needs for collaboration and teamwork.</span></span>
+You should target Teams to address fast-moving and highly collaborative teams that work closely together and require many more facilities than just email with Exchange Online can provide. Examples are live group chats with a recorded history and a common and easy-to-find place to store files and notes. 
 
-## <a name="phase-2-onboard"></a><span data-ttu-id="d2c18-135">Шаг 2. Адаптация</span><span class="sxs-lookup"><span data-stu-id="d2c18-135">Phase 2: Onboard</span></span>
+One way to see the benefits of Teams is to examine how a team or v-team interacts today, and then find an appropriate Teams scenario that replaces the interaction and provides easier ways to collaborate and provide additional capabilities.
 
-<span data-ttu-id="d2c18-136">На этом этапе вы спланируете технические аспекты развертывания Teams и начнете развертывание Teams для отдельных групп пользователей.</span><span class="sxs-lookup"><span data-stu-id="d2c18-136">In this phase, you plan for the technical aspects of a Teams deployment and start rolling out Teams to selected groups of users.</span></span>
+#### Microsoft Teams for highly regulated data
 
-### <a name="prerequisites-identity-and-device-access-configuration"></a><span data-ttu-id="d2c18-137">Необходимые компоненты. Конфигурации доступа для идентификации и устройств</span><span class="sxs-lookup"><span data-stu-id="d2c18-137">Prerequisites: Identity and device access configuration</span></span>
+Highly regulated data is subject to regional regulations or is the most valuable data for your organization, such as trade secrets, financial or human resources information, and organization strategy. You can configure a team for restricted access, data classification, data loss prevention, and encryption for this type of data. For the details, see [Microsoft Teams and SharePoint Online sites for highly regulated data](teams-sharepoint-online-sites-highly-regulated-data.md).
 
-<span data-ttu-id="d2c18-138">Чтобы защитить доступ к группам, убедитесь, что вы настроили [политики идентификации и доступа к устройству](identity-access-policies.md), а также [рекомендуемые политики доступа к SharePoint Online](sharepoint-file-access-policies.md).</span><span class="sxs-lookup"><span data-stu-id="d2c18-138">To protect access to teams, ensure that you have configured [identity and device access policies](identity-access-policies.md) and the [recommended SharePoint Online access policies](sharepoint-file-access-policies.md).</span></span>
+#### Result
 
-### <a name="step-1-complete-your-technical-planning"></a><span data-ttu-id="d2c18-139">Шаг 1. Завершение технического планирования</span><span class="sxs-lookup"><span data-stu-id="d2c18-139">Step 1: Complete your technical planning</span></span>
+A list of Teams scenarios that address your organization’s needs for collaboration and teamwork.
 
-<span data-ttu-id="d2c18-p107">Прежде чем начать техническое планирование, решите, собираетесь ли вы использовать FastTrack. Если в вашей организации более 50 рабочих мест, и она использует [план, предоставляющий соответствующие возможности](https://technet.microsoft.com/library/dn783224.aspx), вы можете использовать услугу [FastTrack для Microsoft 365](https://fasttrack.microsoft.com/microsoft365), которая предоставляется бесплатно для помощи в планировании, развертывании и внедрении служб. Кроме того, вы можете выполнить эту работу самостоятельно, используя наши мастера миграции FastTrack, которые будут доступны вам в [FastTrack](https://fasttrack.microsoft.com/) после того как вы войдете в систему, используя свою учетную запись Office 365.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p107">Before you begin technical planning, determine whether you want to use FastTrack. If your organization has over 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, which are available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account.</span></span>
+## Phase 2: Onboard
 
-<span data-ttu-id="d2c18-p108">Если вы самостоятельно выполняете планирование (или совместно с FastTrack), вам потребуется определить, готовы ли ваша сеть и организация к использованию Teams. Особенно важно, чтобы вы выполнили соответствующие условия для сети в своей [базовой инфраструктуре](deploy-foundation-infrastructure.md), уделяя особое внимание полосе пропускания и задержкам трафика, чтобы достичь максимальной производительности для собраний на основе Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p108">If you are doing your own planning (or in conjunction with FastTrack), you need to determine if your network and organization are ready for Teams. It is especially important that you meet the exit criteria for networking in your [foundation infrastructure](deploy-foundation-infrastructure.md), with special attention to bandwidth, throughput, and traffic delays to maximize performance for Teams-based meetings.</span></span>
+In this phase, you plan for the technical aspects of a Teams deployment and start rolling out Teams to selected groups of users.
 
-<span data-ttu-id="d2c18-145">С помощью указанных ниже ресурсов подготовьте технические аспекты своей организации для развертывания Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-145">Use these resources to prepare the technical aspects of your organization for a Teams rollout:</span></span> 
+### Prerequisites: Identity and device access configuration
 
-- [<span data-ttu-id="d2c18-146">Проверка готовности среды для Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-146">Check your environment's readiness for Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/environment-readiness)
-- [<span data-ttu-id="d2c18-147">Подготовка сети организации к использованию Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-147">Prepare your network for Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/prepare-network)
-- [<span data-ttu-id="d2c18-148">URL-адреса и диапазоны IP-адресов для Office 365</span><span class="sxs-lookup"><span data-stu-id="d2c18-148">Office 365 URLs and IP address ranges</span></span>](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)
+To protect access to teams, ensure that you have configured [identity and device access policies](identity-access-policies.md) and the [recommended SharePoint Online access policies](sharepoint-file-access-policies.md).
 
-<span data-ttu-id="d2c18-149">Чтобы лучше понять принципы работы системы безопасности в Teams, изучите указанные ниже дополнительные ресурсы.</span><span class="sxs-lookup"><span data-stu-id="d2c18-149">For a better understanding of security in Teams, review the following additional resources:</span></span>
+### Step 1: Complete your technical planning
 
-- [<span data-ttu-id="d2c18-150">Обзор обеспечения безопасности и соответствия в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-150">Overview of security and compliance in Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview)
-- [<span data-ttu-id="d2c18-151">Группы Office 365 и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-151">Office 365 groups and Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
-- [<span data-ttu-id="d2c18-152">Гостевой доступ в Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-152">Guest access in Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
+Before you begin technical planning, determine whether you want to use FastTrack. If your organization has over 50 seats and is participating in an [eligible plan](https://docs.microsoft.com/fasttrack/O365-fasttrack-benefit-for-office-365, you can use [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365), *available at no additional cost* to guide you through planning, deployment and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, which are available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Microsoft 365 account.
 
-<span data-ttu-id="d2c18-153">Далее с помощью указанных ниже ресурсов разберитесь в вопросах лицензирования Teams и научитесь настраивать Teams для своей организации.</span><span class="sxs-lookup"><span data-stu-id="d2c18-153">Next, use these resources to understand Teams licensing and to perform the setup of Teams for your organization:</span></span>
+If you are doing your own planning (or in conjunction with FastTrack), you need to determine if your network and organization are ready for Teams. It is especially important that you meet the exit criteria for [networking](networking-infrastructure.md) in your foundation infrastructure for users connected to your organization network. Pay special attention to bandwidth, throughput, and traffic delays to maximize performance for Teams-based meetings.
 
-- [<span data-ttu-id="d2c18-154">Лицензирование Office 365 для Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-154">Office 365 licensing for Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)
-- [<span data-ttu-id="d2c18-155">Управление доступом пользователей к Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-155">Manage user access to Microsoft Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/user-access)
-- [<span data-ttu-id="d2c18-156">Работа с клиентами для Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-156">Get clients for Microsoft Teams</span></span>](https://docs.microsoft.com/MicrosoftTeams/get-clients)
-- [<span data-ttu-id="d2c18-157">Включение Microsoft Teams в организации Office 365</span><span class="sxs-lookup"><span data-stu-id="d2c18-157">Turn on Microsoft Teams in your Office 365 organization</span></span>](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up)
-- [<span data-ttu-id="d2c18-158">Управление функциями Microsoft Teams в организации Office 365</span><span class="sxs-lookup"><span data-stu-id="d2c18-158">Manage Microsoft Teams features in your Office 365 organization</span></span>](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
+Use these resources to prepare the technical aspects of your organization for a Teams rollout: 
 
-#### <a name="result"></a><span data-ttu-id="d2c18-159">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-159">Result</span></span>
+- [Check your environment's readiness for Teams](https://docs.microsoft.com/MicrosoftTeams/environment-readiness)
+- [Prepare your network for Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)
+- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)
 
-<span data-ttu-id="d2c18-160">Вы спланировали сеть, систему безопасности и порядок лицензирования Office 365 и теперь готовы развернуть Teams для отдельных групп в своей организации.</span><span class="sxs-lookup"><span data-stu-id="d2c18-160">Your network, security, and Office 365 licensing planning is done and you are ready to begin rolling out Teams to selected groups in your organization.</span></span>
+For a better understanding of security in Teams, review the following additional resources:
 
-### <a name="step-2-run-an-it-pilot"></a><span data-ttu-id="d2c18-161">Шаг 2. Запуск пилотного ИТ-развертывания</span><span class="sxs-lookup"><span data-stu-id="d2c18-161">Step 2: Run an IT pilot</span></span>
+- [Overview of security and compliance in Teams](https://docs.microsoft.com/MicrosoftTeams/security-compliance-overview)
+- [Office 365 groups and Teams](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
+- [Guest access in Teams](https://docs.microsoft.com/microsoftteams/guest-access)
 
-<span data-ttu-id="d2c18-p109">В большинстве средних и крупных организаций следует запустить пилотное ИТ-развертывание для заинтересованных лиц, упомянутых на шаге 1, а также для ранних последователей и энтузиастов техники. В процессе пилотного ИТ-развертывания вы выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p109">In most medium-sized and large organizations, you should run an IT pilot with your stakeholders from Phase 1 and early adopters and technical enthusiasts. During the IT pilot:</span></span>
+Next, use these resources to understand Teams licensing and to perform the setup of Teams for your organization:
 
-- <span data-ttu-id="d2c18-p110">Вы выберете бизнес-сценарий Teams, в котором смогут попрактиковаться участники пилотного ИТ-развертывания. Идеи см. в статье [о наборе для начала работы с Microsoft Teams](http://microsoft.com/download/56505).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p110">Choose a Teams business scenario in which your IT pilot participants can practice. See the [Microsoft Teams getting started kit](http://microsoft.com/download/56505) for ideas.</span></span>
-- <span data-ttu-id="d2c18-166">Попросите участников пилотного ИТ-развертывания выполнить ряд заданий, чтобы протестировать чаты, функции хранения данных, собрания и другие возможности Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-166">Give your pilot participants a set of exercises to test Teams-based chats, file storage, meetings, and other capabilities.</span></span>
-- <span data-ttu-id="d2c18-p111">Определите свою стратегию управления изменениями и создайте материалы для внедрения Teams во всей организации. Материалы по управлению изменениями могут включать текст уведомлений по электронной почте, внутренние планы обучения, плакаты в коридорах и презентации. Эти материалы служат для информирования сотрудников организации о Teams и его преимуществах. Ваша цель — повысить осведомленность и стимулировать использование. Идеи см. в статье [Создание стратегии по управлению изменениями для Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p111">Determine your change management strategy and produce materials to drive organization-wide user adoption. Change management materials can include email announcement text, internal training plans, hallway posters, and presentations. These materials will inform your organization about Teams and its benefits with the goals of raising awareness and driving usage. See [change management strategy for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy) for some ideas.</span></span>
-- <span data-ttu-id="d2c18-p112">Попросите участников пилотного ИТ-развертывания изучить материалы о стратегии управления изменениями и оценить их на основе их опыта. Они могут дать рекомендации о том, как лучше всего описать преимущества Teams и как использовать его для совместной работы и работы в группах.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p112">Have your IT pilot participants review the change management strategy materials based on their experiences. They can provide tips on best practices and advice on how to best describe the benefits of Teams and how to use it for collaboration and teamwork.</span></span>
+- [Office 365 licensing for Teams](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)
+- [Manage user access to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/user-access)
+- [Get clients for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
+- [Turn on Microsoft Teams in your organization](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up)
+- [Manage Microsoft Teams features for your organization](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)
 
-#### <a name="result"></a><span data-ttu-id="d2c18-173">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-173">Result</span></span>
+#### Result
 
-<span data-ttu-id="d2c18-174">Выполнено пилотное ИТ-развертывание, разработаны, проверены и уточнены первоначальные материалы по управлению изменениями.</span><span class="sxs-lookup"><span data-stu-id="d2c18-174">Your Teams IT pilot is complete and the initial change management materials have been developed, reviewed, and refined.</span></span>
+Your network, security, and Microsoft 365 licensing planning are done and you are ready to begin rolling out Teams to selected groups in your organization.
 
-### <a name="step-3-roll-out-to-a-business-group"></a><span data-ttu-id="d2c18-175">Шаг 3. Развертывание в бизнес-группе</span><span class="sxs-lookup"><span data-stu-id="d2c18-175">Step 3: Roll out to a business group</span></span>
+### Step 2: Run an IT pilot
 
-<span data-ttu-id="d2c18-p113">После завершения пилотного ИТ-развертывания разверните Teams в бизнес-группе или отделе вашей организации. Такое развертывание должно включать указанные ниже элементы.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p113">After completing your IT pilot, roll out Teams to a business group or department in your organization. This rollout should include:</span></span>
+In most medium-sized and large organizations, you should run an IT pilot with your stakeholders from Phase 1, early adopters, and technical enthusiasts. During the IT pilot:
 
-- <span data-ttu-id="d2c18-178">Идентификация ключевых бизнес-сценариев для Teams в бизнес-группе.</span><span class="sxs-lookup"><span data-stu-id="d2c18-178">Identification of key business scenarios for Teams within the business group.</span></span>
-- <span data-ttu-id="d2c18-179">Выпуск объявлений для информирования пользователей об ожиданиях и временных шкалах для использования Teams в отделах, рабочих группах или группах проектов.</span><span class="sxs-lookup"><span data-stu-id="d2c18-179">Announcement activities to inform users of the expectations and timelines for Teams usage for departmental, work, or project teams.</span></span>
-- <span data-ttu-id="d2c18-180">Непосредственное обучение пользователей работе в Teams или ссылки на ресурсы с обзорами Teams и инструкциями по его использованию.</span><span class="sxs-lookup"><span data-stu-id="d2c18-180">Direct user training on Teams or links to resources to introduce Teams and how to use it.</span></span>
-- <span data-ttu-id="d2c18-181">Механизм обратной связи, например центральная группа, в которую входят все пользователи бизнес-группы, для сбора комментариев и сообщений о проблемах от пользователей в бизнес-группах.</span><span class="sxs-lookup"><span data-stu-id="d2c18-181">A feedback mechanism, such as a central team containing everyone in the business group, to collect comments and issues from users in the business group.</span></span>
+- Choose a Teams business scenario in which your IT pilot participants can practice. See the [Microsoft Teams getting started kit](http://microsoft.com/download/56505) for ideas.
+- Give your pilot participants a set of exercises to test Teams-based chats, meetings, file storage, meetings, and other capabilities.
+- Determine your change management strategy and produce materials to drive organization-wide user adoption. 
 
-<span data-ttu-id="d2c18-182">В процессе развертывания вы можете уточнить свои материалы по управлению изменениями при подготовке к развертыванию в масштабах всей организации.</span><span class="sxs-lookup"><span data-stu-id="d2c18-182">During the rollout, you can refine your change management materials in preparation for the organization-wide rollout.</span></span>
+  Change management materials can include email announcement text, internal training plans, hallway posters, and presentations. These materials will inform your organization about Teams and its benefits with the goals of raising awareness and driving usage. See [change management strategy for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy) for some ideas.
 
-#### <a name="result"></a><span data-ttu-id="d2c18-183">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-183">Result</span></span>
+- Have your IT pilot participants review the change management strategy materials based on their experiences. They can provide tips on best practices and advice on how to best describe the benefits of Teams and how to use it for collaboration.
 
-<span data-ttu-id="d2c18-184">Создана и работает бизнес-группа, использующая Teams; материалы по управлению изменениями протестированы и уточнены.</span><span class="sxs-lookup"><span data-stu-id="d2c18-184">A business group is up and running with Teams and the change management materials have been tested and refined.</span></span>
+#### Result
 
-## <a name="phase-3-drive-value"></a><span data-ttu-id="d2c18-185">Шаг 3. Создание пользы</span><span class="sxs-lookup"><span data-stu-id="d2c18-185">Phase 3: Drive value</span></span>
+Your Teams IT pilot is complete and the initial change management materials have been developed, reviewed, and refined.
 
-<span data-ttu-id="d2c18-186">На этом этапе вы завершите развертывание Teams в своей организации и организуете поддержку для своих пользователей, чтобы они поняли преимущества Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-186">In this phase, you complete the rollout of Teams to your organization and support your users so that they are realizing its benefits.</span></span>
+### Step 3: Roll out to a business group
 
-### <a name="step-1-roll-out-teams-to-the-rest-of-your-organization"></a><span data-ttu-id="d2c18-187">Шаг 1. Развертывание Teams в оставшейся части организации</span><span class="sxs-lookup"><span data-stu-id="d2c18-187">Step 1: Roll out Teams to the rest of your organization</span></span>
+After completing your IT pilot, roll out Teams to a business group or department in your organization. This rollout should include:
 
-<span data-ttu-id="d2c18-p114">После завершения развертывания для целевой бизнес-группы разверните Teams для остальной части организации. Такое развертывание должно включать указанные ниже элементы.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p114">After completing your rollout to a targeted business group, roll out Teams to the rest of your organization. This rollout should include:</span></span>
+- Identification of key business scenarios for Teams within the business group.
+- Announcement activities to inform users of the expectations and timelines for Teams usage for departmental, work, or project teams.
+- Delivery of [user training on Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) or links to resources to introduce Teams and how to use it.
+- A feedback mechanism, such as a central team containing everyone in the business group, to collect comments and issues from users in the business group.
 
-- <span data-ttu-id="d2c18-190">Идентификация ключевых бизнес-сценариев для Teams в отдельных бизнес-группах.</span><span class="sxs-lookup"><span data-stu-id="d2c18-190">Identification of key business scenarios for Teams within your separate business groups.</span></span>
-- <span data-ttu-id="d2c18-191">Использование уточненных материалов по управлению изменениями для выпуска объявлений для информирования пользователей в организации об ожиданиях и временных шкалах для использования Teams в отделах, рабочих группах или группах проектов.</span><span class="sxs-lookup"><span data-stu-id="d2c18-191">Use of your refined change management materials for announcement activities to inform your organization of the expectations and timelines for Teams usage for departmental, work, or project teams.</span></span>
-- <span data-ttu-id="d2c18-p115">Обучение пользователей работе с Teams или предоставление ссылок на ресурсы с общими сведениями о Teams и о том, как использовать его. См. обучающие ресурсы в статье [Обучение конечных пользователей для работы с Microsoft Teams](https://docs.microsoft.com/microsoftteams/enduser-training).</span><span class="sxs-lookup"><span data-stu-id="d2c18-p115">Delivering user training on Teams or links to resources to introduce Teams and how to use it. See the training resources at [End user training for Microsoft Teams](https://docs.microsoft.com/microsoftteams/enduser-training).</span></span>
-- <span data-ttu-id="d2c18-p116">Механизм обратной связи, например центральная группа, содержащая всех пользователей, предназначенный для сбора комментариев и реагирования на сообщения о проблемах от пользователей в организации. Если в вашей организации меньше 2500 сотрудников, воспользуйтесь общедоступным каналом в Teams. В противном случае используйте общедоступную группу в Yammer.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p116">A feedback mechanism, such as a central team containing everyone, to collect comments and act on issues from organization users. If your organization has less than 2500 individuals, use a public channel in Teams. Otherwise, use a public group in Yammer.</span></span>
+During the rollout, you can refine your change management materials in preparation for the organization-wide rollout.
 
-#### <a name="result"></a><span data-ttu-id="d2c18-197">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-197">Result</span></span>
+#### Result
 
-<span data-ttu-id="d2c18-198">Ваша организация создана и работает, и вы используете стратегию управления изменениями для информирования и обучения пользователей работе с Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-198">Your organization is up and running and your change management strategy is in place to inform, train, and enable users to begin using Teams.</span></span>
+A business group is up and running with Teams and the change management materials have been tested and refined.
 
-### <a name="step-2-measure-usage-manage-satisfaction-and-drive-adoption"></a><span data-ttu-id="d2c18-199">Шаг 2. Измерение показателей использования, управление удовлетворенностью и стимулирование внедрения</span><span class="sxs-lookup"><span data-stu-id="d2c18-199">Step 2: Measure usage, manage satisfaction, and drive adoption</span></span>
+## Phase 3: Drive value
 
-<span data-ttu-id="d2c18-200">После развертывания Teams во всей организации вы должны продолжить использовать стратегию управления изменениями для указанных ниже целей.</span><span class="sxs-lookup"><span data-stu-id="d2c18-200">After rolling out Teams to your entire organization, you must continue to employ your change management strategy to:</span></span>
+In this phase, you complete the rollout of Teams to your organization and support your users so that they are realizing its benefits.
 
-- <span data-ttu-id="d2c18-201">Попросите руководителей организации продвигать Teams в качестве средства для совместной работы и работы в группах в организации.</span><span class="sxs-lookup"><span data-stu-id="d2c18-201">Have your leadership promote Teams as the teamwork and collaboration tool for the organization.</span></span>
-- <span data-ttu-id="d2c18-202">Стимулируйте пользователей использовать Teams для связи и совместной работы внутри бизнес-групп, отделов рабочих групп и групп проектов.</span><span class="sxs-lookup"><span data-stu-id="d2c18-202">Encourage individuals to use it for business group, departmental, work, and project team communications and collaboration.</span></span>
+### Step 1: Roll out Teams to the rest of your organization
 
-<span data-ttu-id="d2c18-203">Ниже приведены некоторые рекомендуемые действия.</span><span class="sxs-lookup"><span data-stu-id="d2c18-203">Here are some suggested activities:</span></span>
+After completing your rollout to a targeted business group, roll out Teams to the rest of your organization. This rollout should include:
 
-- <span data-ttu-id="d2c18-204">Рекомендации по внедрению облачных служб см. в статье [с рекомендациями оп внедрению Office 365](https://aka.ms/successfactors).</span><span class="sxs-lookup"><span data-stu-id="d2c18-204">See [Office 365 adoption guidance](https://aka.ms/successfactors) to learn about general best practices for cloud service adoption.</span></span> 
-- <span data-ttu-id="d2c18-p117">Сведения об использовании служб Office 365 в организации см. в статье [Отчеты об активности в Центре администрирования Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263). Если вы не являетесь глобальным администратором Office 365 в своей организации, попросите глобального администратора предоставить вашей учетной записи пользователя разрешения для чтения отчетов, чтобы вы могли получать доступ к отчетам о действиях.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p117">See [Office 365 activity reports](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263) to understand Office 365 service usage across your organization. If you aren’t an Office 365 global admin for your organization, ask someone who is to grant your user account Reports Reader permissions so you can access activity reports.</span></span>
-- <span data-ttu-id="d2c18-p118">Отслеживайте канал обратной связи (общедоступный канал в центральной группе в Yammer), чтобы своевременно получать отзывы и сообщения о проблемах от пользователей Teams. Как можно быстрее отвечайте на вопросы и помогайте решать проблемы, чтобы не допустить разочарования и отказ пользователей от использования Teams.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p118">Monitor your feedback venue (a public channel in a central team or Yammer) for issues and feedback from individuals about their experiences with Teams. Address questions and issues as quickly as you can to prevent frustration and abandonment of Teams by individuals.</span></span>
-- <span data-ttu-id="d2c18-p119">Определите и воспитайте чемпионов в каждой бизнес-группе и обращайте внимание на их достижения и рекомендации по использованию Teams. Освещайте их успехи в организации, чтобы показать успех проекта и его внедрение. Одобрение со стороны технических лидеров в бизнес-группах может оказать сильное влияние на лидеров и других сотрудников.</span><span class="sxs-lookup"><span data-stu-id="d2c18-p119">Identify and nurture your champions in each business group and highlight their accomplishments and best practices using Teams. Reflect their successes out to the organization to show project success and adoption. Endorsement by technical leaders within a business group can exert a powerful influence over leaders and peers.</span></span>
+- Identification of key business scenarios for Teams within your separate business groups.
+- Use of your refined change management materials for announcement activities to inform your organization of the expectations and timelines for Teams usage for departmental, work, or project teams.
+- Delivery of [user training on Teams](https://docs.microsoft.com/microsoftteams/training-microsoft-teams-landing-page) or links to resources to introduce Teams and how to use it.
+- A feedback mechanism, such as a central team containing everyone, to collect comments and act on issues from organization users. If your organization has less than 2500 individuals, use a public team or channel in Teams. Otherwise, use a public group in Yammer.
 
-#### <a name="result"></a><span data-ttu-id="d2c18-212">Результат</span><span class="sxs-lookup"><span data-stu-id="d2c18-212">Result</span></span>
+#### Result
 
-<span data-ttu-id="d2c18-213">Teams внедрен в вашей организации в качестве средства для совместной работы и работы в группах.</span><span class="sxs-lookup"><span data-stu-id="d2c18-213">Your organization has adopted Teams as its collaboration and teamwork tool.</span></span>
+Your organization is up and running and your change management strategy is in place to inform, train, and enable users to begin using Teams.
 
-## <a name="how-microsoft-does-microsoft-365-enterprise"></a><span data-ttu-id="d2c18-214">Как корпорация Майкрософт реализует Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="d2c18-214">How Microsoft does Microsoft 365 Enterprise</span></span>
+### Step 2: Measure usage, manage satisfaction, and drive adoption
 
-<span data-ttu-id="d2c18-215">Загляните в корпорацию Майкрософт и узнайте, как компания развернула и использует Microsoft Teams для совместной работы, прочтя следующие статьи:</span><span class="sxs-lookup"><span data-stu-id="d2c18-215">To peek inside Microsoft and learn how the company deployed and is using Microsoft Teams for collaboration, see:</span></span>
+After rolling out Teams to your entire organization, you must continue to employ your change management strategy to:
 
-- [<span data-ttu-id="d2c18-216">Развертывание Microsoft Teams упрощает совместную работу и помогает работать в команде</span><span class="sxs-lookup"><span data-stu-id="d2c18-216">Deploying Microsoft Teams streamlines collaboration and improves teamwork</span></span>](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
-- [<span data-ttu-id="d2c18-217">Microsoft Teams оптимизирует совместную работу на современном рабочем месте в корпорации Майкрософт</span><span class="sxs-lookup"><span data-stu-id="d2c18-217">Microsoft Teams increases collaboration in the modern workplace at Microsoft</span></span>](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+- Have your leadership promote Teams as the teamwork and collaboration tool for the organization.
+- Encourage individuals to use it for business group, departmental, work, and project team communications and collaboration.
 
-## <a name="next-steps"></a><span data-ttu-id="d2c18-218">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="d2c18-218">Next steps</span></span>
+Here are some suggested activities:
 
-- [<span data-ttu-id="d2c18-219">Управление функциями Microsoft Teams в организации Office 365</span><span class="sxs-lookup"><span data-stu-id="d2c18-219">Manage Microsoft Teams features in your Office 365 organization</span></span>](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
-- [<span data-ttu-id="d2c18-220">Обучение ИТ-администратора для работы с Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d2c18-220">Admin training for Microsoft Teams</span></span>](https://docs.microsoft.com/microsoftteams/itadmin-readiness)
+- See [Success factors for Office 365](https://aka.ms/successfactors) to learn about general best practices for cloud service adoption. 
+- See [Office 365 activity reports](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263) to understand Office 365 service usage across your organization. If you aren’t an Office 365 global admin for your organization, ask someone who is to grant your user account Reports Reader permissions so you can access activity reports.
+- Monitor your feedback venue (a public channel in a central team or a public Yammer group) for issues and feedback from individuals about their experiences with Teams. Address questions and issues as quickly as you can to prevent frustration and abandonment of Teams by individuals.
+- Identify and nurture your champions in each business group and highlight their accomplishments and best practices using Teams. Reflect their successes out to the organization to show project success and adoption. Endorsement by technical leaders within a business group can exert a powerful influence over leaders and peers.
+
+#### Result
+
+Your organization has adopted Teams as its collaboration and teamwork tool.
+
+
+--> 
