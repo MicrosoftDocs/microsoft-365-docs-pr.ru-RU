@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: Сводка. в этой статье описывается, как Office 365 использует запись The SPF TXT Framework (SPF) в DNS, чтобы убедиться в том, что конечные системы электронной почты доверяют сообщениям, отправленным из собственного домена. Это относится к исходящей почте, отправленной из Office 365. Сообщения, отправленные из Office 365 получателю в Office 365, всегда проходят проверку SPF.
-ms.openlocfilehash: 2845fc9b20b337764159d9debc04f165dcb4bf62
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7db1259f4ec15fffe46955ba2166b244c5737d43
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090049"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510556"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Office 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 
@@ -244,6 +244,6 @@ cust-spf.exacttarget.com
 ## <a name="for-more-information"></a>Дополнительные сведения
 <a name="SPFTroubleshoot"> </a>
 
-Нужна помощь, чтобы добавить запись TXT инфраструктуры политики отправителей? Доступны [пошаговые инструкции](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) для обновления таких записей на веб-сайтах различных популярных регистраторов доменных имен. [Заголовки сообщений по защите от нежелательной почты](anti-spam-message-headers.md) включает синтаксис и поля заголовков, которые Office 365 использует для проверок с помощью инфраструктуры политики отправителей. 
+Нужна помощь, чтобы добавить запись TXT инфраструктуры политики отправителей? Ознакомьтесь со статьей [Создание DNS-записей на любом поставщике услуг хостинга DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide#add-a-txt-record-for-spf-to-help-prevent-email-spam) для получения подробных сведений об использовании платформы политики отправителей с настраиваемым доменом в Office 365. [Заголовки сообщений по защите от нежелательной почты](anti-spam-message-headers.md) включает синтаксис и поля заголовков, которые Office 365 использует для проверок с помощью инфраструктуры политики отправителей. 
   
 
