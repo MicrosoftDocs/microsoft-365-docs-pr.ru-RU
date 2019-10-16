@@ -1,8 +1,8 @@
 ---
 title: Семинар по информационному директоре по безопасности (ЦИСО)
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 95bfc90211b90e129e6b208ab09b6123c61ccaae
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6987f5fcb0504ad4b5bee91a417ff632faa11623
+ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090454"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37523624"
 ---
 # <a name="chief-information-security-officer-ciso-workshop-training"></a>Обучение руководителю информационной безопасности (ЦИСО) для семинара
 
@@ -32,7 +32,7 @@ ms.locfileid: "37090454"
 
 - [Модуль 2: Управление безопасностью](ciso-workshop-module-2.md): Узнайте, как улучшить видимость и контролировать гибридную корпоративную область с помощью интегрированных руководств, автоматизированного применения политик и мониторинга.
 
-- [Модуль 3: Управление удостоверениями и доступом](ciso-workshop-module-3.md): в связи с тем, что большинство современных атак включает в себя взлом удостоверений пользователей, Узнайте, как создать новый периметр безопасности удостоверений для защиты активов за пресбоями в корпоративной сети.
+- [Module 3: Модуль 3 — Идентификация и отсутствие доверия для пользователя](ciso-workshop-module-3.md): Узнайте, как включать в стратегию идентификации и доступа пользователей нулевые концепции доверия для лучшей защиты корпоративных данных внутри и за пределами периметра сети.
 
 - [Module 4A: стратегия защиты от угроз, часть I](ciso-workshop-module-4a.md): Изучите основные сведения о защите от угроз, развитии безопасности, стратегиях и картах безопасности.
 

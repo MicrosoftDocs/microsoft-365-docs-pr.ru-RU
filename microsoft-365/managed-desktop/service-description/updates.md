@@ -1,17 +1,17 @@
 ---
 title: Способ обработки обновлений на настольных компьютерах, управляемых Майкрософт
-description: Поддержание управляемого рабочего стола с управлением корпорацией Майкрософт — это баланс скорости и стабильности.
+description: Своевременное обновление управляемых компьютеров Майкрософт — это баланс скорости и стабильности.
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c2ab48c87f1239c21e6620ea00640bb3dabbdd45
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: ed95d7d854422fe0cd2379e21b5de36a0c680c4b
+ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981640"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37523584"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Способ обработки обновлений на настольных компьютерах, управляемых Майкрософт
 
@@ -55,10 +55,10 @@ ms.locfileid: "36981640"
 <tr><th colspan="5">Обновление параметров развертывания</th></tr>
 <tr><th>Тип обновления</th><th>Тестирование</th><th>Первый</th><th>Быстро</th><th>Общие</th></tr>
 <tr><td>Обновления качества операционной системы</td><td>0 дней</td><td>0 дней</td><td>0 дней</td><td>за 3 дня;</td></tr>
-<tr><td>Обновления компонентов для операционной системы</td><td>0 дней</td><td>30 дней</td><td>60 дней.</td><td>90 дней</td></tr>
+<tr><td>Обновления компонентов для операционной системы</td><td>0 дней</td><td>30 дней</td><td>60 дней.</td><td>90 дней</td></tr>
 <tr><td>Драйверы и встроенное по</td><td colspan="4">Соответствует календарному плану для обновлений качества</td></tr>
 <tr><td>Определение антивирусной защиты</td><td colspan="4">Обновлено с каждым сканированием</td></tr>
-<tr><td>Office 365 профессиональный плюс</td><td colspan="4">Следующий месячный канал Office
+<tr><td>Office 365 профессиональный плюс</td><td colspan="4">Следующий месячный канал Office
 </table>
 
 Дополнительные сведения о месячном канале для Office 365 профессиональный плюс приведены в [статье Обзор каналов обновления для office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus).

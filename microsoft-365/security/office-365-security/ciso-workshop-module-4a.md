@@ -1,8 +1,8 @@
 ---
 title: 'Семинар по информационному директоре по безопасности (ЦИСО), Module 4A: стратегия защиты от угроз'
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 0bbc9cf6cb102067aadcacdb416f6f538bb2555b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f136f8ccb12ac09048b0b6a9de22ebb37fcc40dd
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090459"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517578"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4A: стратегия защиты от угроз
 
 Изучите основные сведения о защите от угроз, развитии безопасности, стратегиях и картах безопасности.
 
 - Загрузка PDF-файла: [модуль 4A: стратегия защиты от угроз](../media/ciso-workshop-4a-threat-protection.pdf)
-- Загрузка сводки по PowerPoint: [модуль 4A: стратегия защиты от угроз](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-4a-threat-protection.pptx)
+- Загрузка сводки по PowerPoint: [модуль 4A: стратегия защиты от угроз](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-4a-threat-protection.pptx)
 
 ## <a name="introduction-threat-protection-strategy-437"></a>Введение: стратегия защиты от угроз (4:37)
 
