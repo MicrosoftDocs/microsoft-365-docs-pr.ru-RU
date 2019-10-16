@@ -425,6 +425,165 @@
 ## [Шифрование почты Exchange Online с помощью AD RMS](information-rights-management-in-exchange-online.md)
 ### [Настройка управления правами на доступ к данным для использования локального сервера AD RMS](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 
+# Предложения для соответствия требованиям
+## [Предложения Майкрософт для соответствия требованиям](offering-home.md)
+
+## Глобальные
+### [Контрольная точка CIS](offering-cis-benchmark.md)
+### [Аттестация CSA-STAR](offering-csa-star-attestation.md)
+### [Сертификация CSA-STAR](offering-csa-star-certification.md)
+### [Самостоятельная оценка CSA-STAR](offering-csa-star-self-assessment.md)
+### [ISO 20000-1:2011](offering-iso-20000-1-2011.md)
+### [ISO 22301](offering-iso-22301.md)
+### [ISO 27001](offering-iso-27001.md)
+### [ISO 27017](offering-iso-27017.md)
+### [ISO 27018](offering-iso-27018.md)
+### [ISO 27701](offering-iso-27701.md)
+### [ISO-9001](offering-iso-9001.md)
+### [SOC](offering-soc.md)
+### [WCAG 2.1](offering-wcag-2-1.md)
+
+## Государственные организации
+### [CJIS](offering-cjis.md)
+### [CNSSI 1253](offering-cnssi-1253.md)
+### [DFARS](offering-dfars.md)
+### [DoD DISA L2,L4,L5](offering-dod-disa-l2-l4-l5.md)
+### [DoE 10 CFR Part 810](offering-doe-10-cfr-part-810.md)
+### [EAR (правила экспортного контроля США)](offering-ear.md)
+### [FedRAMP](offering-fedramp.md)
+### [FIPS 140-2](offering-fips-140-2.md)
+### [IRS 1075](offering-irs-1075.md)
+### [ITAR](offering-itar.md)
+### [NIST 800-171](offering-nist-sp-800-171.md)
+### [NIST CSF](offering-nist-csf.md)
+### [Раздел 508 VPATS](offering-section-508-vpats.md)
+
+## Отраслевые
+### Образование
+#### [FERPA](offering-ferpa.md)
+
+### Энергетика
+#### [NERC](offering-nerc-cip.md)
+
+### Финансы
+#### [23 NYCRR часть 500](offering-23-nycrr-part-500.md)
+#### [AFM + DNB (Нидерланды)](offering-afm-dnb-netherlands.md)
+#### [APRA (Австралия)](offering-apra-australia.md)
+#### [AMF и ACPR (Франция)](offering-amf-acpr-france.md)
+#### [EBA (ЕС)](offering-eba-eu.md)
+#### [FCA (Соединенное Королевство)](offering-fca-uk.md)
+#### [FFIEC (США)](offering-ffiec-us.md)
+#### [FINMA (Швейцария)](offering-finma-switzerland.md)
+#### [FINRA 4511](offering-finra-4511.md)
+#### [FISC (Япония)](offering-fisc-japan.md)
+#### [FSA (Дания)](offering-fsa-denmark.md)
+#### [GLBA](offering-glba.md)
+#### [KNF (Польша)](offering-knf-poland.md)
+#### [MAS + ABS (Сингапур)](offering-mas-abs-singapore.md)
+#### [NBB + FSMA (Бельгия)](offering-nbb-fsma-belgium.md)
+#### [OSFI (Канада)](offering-osfi-canada.md)
+#### [PCI DSS](offering-pci-dss.md)
+#### [RBI + IRDAI (Индия)](offering-rbi-irdai-india.md)
+#### [SEC 17a-4](offering-sec-17a-4.md)
+#### [SOC](offering-soc.md)
+#### [SOX](offering-sox.md)
+#### [TruSight](offering-trusight.md)
+
+### Здравоохранение
+#### [HDS (Франция)](offering-hds-france.md)
+#### [HIPAA/HITECH](offering-hipaa-hitech.md)
+#### [HITRUST](offering-hitrust.md)
+#### [MARS-E](offering-mars-e.md)
+#### [NEN-7510 (Нидерланды)](offering-nen-7510-netherlands.md)
+#### [Набор средств NHS IG (Соединенное королевство)](offering-nhs-ig-toolkit-uk.md)
+
+### Производство
+#### [FDA CFR Раздел 21 часть 11](offering-fda-cfr-title-21-part-11.md)
+#### [GxP](offering-gxp.md)
+#### [TISAX (Германия)](offering-tisax-germany.md)
+
+### СМИ
+#### [CDSA](offering-cdsa.md)
+#### [DPP (Соединенное Королевство)](offering-dpp-uk.md)
+#### [FACT (Соединенное Королевство)](offering-fact-uk.md)
+#### [MPAA](offering-mpaa.md)
+
+### Розничная торговля
+#### [23 NYCRR часть 500](offering-23-nycrr-part-500.md)
+#### [AFM + DNB (Нидерланды)](offering-afm-dnb-netherlands.md)
+#### [AMF и ACPR (Франция)](offering-amf-acpr-france.md)
+#### [CDSA](offering-cdsa.md)
+#### [Контрольная точка CIS](offering-cis-benchmark.md)
+#### [Аттестация CSA-STAR](offering-csa-star-attestation.md)
+#### [DoE 10 CFR Part 810](offering-doe-10-cfr-part-810.md)
+#### [DPP (Соединенное Королевство)](offering-dpp-uk.md)
+#### [EAR (правила экспортного контроля США)](offering-ear.md)
+#### [ENISA IAF (ЕС)](https://aka.ms/ENISA)
+#### [Типовые статьи ЕС](offering-eu-model-clauses.md)
+#### [EBA (ЕС)](offering-eba-eu.md)
+#### [Соглашение о правилах обмена конфиденциальной информацией между ЕС и США](offering-eu-us-privacy-shield.md)
+#### [FACT (Соединенное Королевство)](offering-fact-uk.md)
+#### [FCA (Соединенное Королевство)](offering-fca-uk.md)
+#### [FFIEC (США)](offering-ffiec-us.md)
+#### [FINMA (Швейцария)](offering-finma-switzerland.md)
+#### [GDPR (ЕС)](offering-gdpr-eu.md)
+#### [GLBA](offering-glba.md)
+#### [HITRUST](offering-hitrust.md)
+#### [IRS 1075](offering-irs-1075.md)
+#### [ISO 27018](offering-iso-27018.md)
+#### [ISO-9001](offering-iso-9001.md)
+#### [ITAR](offering-itar.md)
+#### [KNF (Польша)](offering-knf-poland.md)
+#### [MARS-E](offering-mars-e.md)
+#### [MPAA](offering-mpaa.md)
+#### [NBB + FSMA (Бельгия)](offering-nbb-fsma-belgium.md)
+#### [Набор средств NHS IG (Соединенное королевство)](offering-nhs-ig-toolkit-uk.md)
+#### [NIST CSF](offering-nist-csf.md)
+#### [PCI DSS](offering-pci-dss.md)
+#### [Раздел 508 VPATS](offering-section-508-vpats.md)
+#### [Общие оценки](offering-shared-assessments.md)
+#### [SOC](offering-soc.md)
+#### [LOPD (Испания)](offering-lopd-spain.md)
+#### [Cyber Essentials Plus (Соединенное Королевство)](offering-cyber-essentials-plus-uk.md)
+#### [G-Cloud (Соединенное Королевство)](offering-g-cloud-uk.md)
+
+## Региональные
+### Азия
+#### [CS Mark (Gold) (Япония))](offering-cs-mark-gold-japan.md)
+#### [DJCP (Китай)](https://www.trustcenter.cn/compliance/default.html#DJCP)
+#### [GB 18030 (Китай)](https://www.trustcenter.cn/compliance/default.html#GB18030)
+#### [ISMS (Республика Корея)](offering-ISMS-korea.md)
+#### [MeitY (Индия)](offering-meity-india.md)
+#### [MTCS (Сингапур)](offering-mtcs-singapore.md)
+#### [My Number (Япония)](offering-my-number-act-japan.md)
+#### [TRUCS (Китай)](https://aka.ms/TRUCS-Compliance)
+
+### Австралия и Тихоокеанский регион
+#### [CCSL/IRAP (Австралия)](offering-CCSL-IRAP-Australia.md)
+#### [Платформа NZ CC (Новая Зеландия)](offering-nz-cc-framework-nz.md)
+
+### Европа
+#### [BIR 2012 (Нидерланды)](offering-bir-2012-netherlands.md)
+#### [C5 (Германия)](offering-c5-germany.md)
+#### [Cyber Essentials Plus (Соединенное Королевство)](offering-cyber-essentials-plus-uk.md)
+#### [EN 301 549 (ЕС)](offering-en-301-549-eu.md)
+#### [ENS (Испания)](offering-ens-spain.md)
+#### [ENISA IAF (ЕС)](https://aka.ms/ENISA)
+#### [Типовые статьи ЕС](offering-eu-model-clauses.md)
+#### [Соглашение о правилах обмена конфиденциальной информацией между ЕС и США](offering-eu-us-privacy-shield.md)
+#### [GDPR (ЕС)](offering-gdpr-eu.md)
+#### [G-Cloud (Соединенное Королевство)](offering-g-cloud-uk.md)
+#### [IDW PS 951 (Германия)]()
+#### [IT Grundschutz Workbook (Германия)](offering-it-grundschutz-workbook-germany.md)
+#### [LOPD (Испания)](offering-lopd-spain.md)
+#### [PASF (Соединенное королевство)](offering-pasf-uk.md)
+
+### Северная Америка
+#### [Канадские законы о защите конфиденциальности](offering-canadian-privacy-laws.md)
+
+### Южная Америка
+#### [PDPA (Аргентина)](offering-pdpa-argentina.md)
+
 # [Office 365 корпоративный](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 бизнес](https://docs.microsoft.com/office365/admin/admin-home)
 # [Безопасность в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/)
