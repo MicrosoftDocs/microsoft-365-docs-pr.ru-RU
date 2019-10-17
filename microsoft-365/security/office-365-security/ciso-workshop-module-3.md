@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 08698a0c8e9bf79ef4c464ef4800d737df1421fc
-ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
+ms.openlocfilehash: be27e92c44ef6764906448828a94a207bd38bb18
+ms.sourcegitcommit: 96eae24db7ce1c9d794da4598c1a392487df8437
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37523594"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37554136"
 ---
 # <a name="ciso-workshop-module-3-identity-and-zero-trust-user-access"></a>Модуль семинара ЦИСО 3: идентификация и нулевое доверие пользователя доступ
 
 Так как большинство современных атак включает в себя взлом удостоверений пользователей, Узнайте, как создать новый периметр безопасности удостоверений для защиты активов за пресбоями в корпоративной сети.
 
-- Загрузите документ PDF: [модуль 3: Управление удостоверениями и доступом](../media/ciso-workshop-3-identity-protection.pdf)
-- Загрузка сводки по PowerPoint: [модуль 3: Управление удостоверениями и доступом](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-3-identity-protection.pptx)
+- Загрузка сводки PDF: [модуль 3: удостоверение и доступ пользователя с нулевым доверием](../media/ciso-workshop-3-identity-and-zero-trust-user-access.pdf)
+- Загрузка сводки по PowerPoint: [модуль 3: Управление удостоверениями и доступом](../media/ciso-workshop-3-identity-and-zero-trust-user-access.pptx)
 
 ## <a name="part-1-identity-and-zero-trust-history-933"></a>Часть 1: журнал удостоверений и нулевого доверия (9:33)
 
