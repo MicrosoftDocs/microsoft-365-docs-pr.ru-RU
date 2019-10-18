@@ -24,7 +24,7 @@ ms.locfileid: "36982090"
 # <a name="desktop-deployment-center"></a>Центр развертывания компьютеров
 
 <strong>Переход с Windows 7 на Windows 10 </strong>
-<p>Расширенная поддержка Windows 7 завершается 14 января 2020 г. Обновление на месте с Windows 7 до Windows 10 — это самый быстрый способ развертывания. Вы можете <a href="https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">обновить один компьютер</a> или <a href="https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">тысячи компьютеров с помощью System Center Configuration Manager</a>. При обновлениях на месте вам не нужно беспокоиться о доставке приложений, переносе файлов, настраиваемых образах и включении облачных служб. Для обновления существующих компьютеров можно использовать имеющиеся инструменты и сосредоточиться на следующих шагах развертывания: </p>
+<p>Расширенная поддержка Windows 7 завершается 14 января 2020 г. Обновление на месте с Windows 7 до Windows 10 — это самый быстрый способ развертывания. Вы можете <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">обновить один компьютер</a> или <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">тысячи компьютеров с помощью System Center Configuration Manager</a>. При обновлениях на месте вам не нужно беспокоиться о доставке приложений, переносе файлов, настраиваемых образах и включении облачных служб. Для обновления существующих компьютеров можно использовать имеющиеся инструменты и сосредоточиться на следующих шагах развертывания: </p>
 
 <p>
 </p>

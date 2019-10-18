@@ -87,9 +87,9 @@ ms.locfileid: "37091230"
 
 -   [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/ru-RU/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   [Поиск в журнале аудита](https://support.office.com/ru-RU/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [Поиск в журнале аудита](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   [Search-UnifiedAuditLog](https://technet.microsoft.com/ru-RU//library/mt238501(v=exchg.160).aspx) (командлет) 
+-   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx) (командлет) 
 
 -   [Подробные свойства в журнале аудита Office 365](https://support.office.com/ru-RU/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
