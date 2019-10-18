@@ -10,24 +10,29 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Узнайте, как добавлять новых пользователей, защищать их устройства и назначать роли в Microsoft 365 Business.
-ms.openlocfilehash: 9451be8a13c78230d0314e6d4ac74a6c9d7564ae
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 0ea3a4845e46ed1d13abf966eea895aa394aebca
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287442"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574765"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Добавление пользователей в Microsoft 365 Business
 
 ## <a name="add-new-users"></a>Добавление новых пользователей
 
-1. Перейдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
 2. В левой панели навигации выберите **Пользователи** \> **Активные пользователи**.
 1. На странице **Активные пользователи** выберите **Добавить пользователя**.
  4. На панели **Новый пользователь** введите нужные сведения. 

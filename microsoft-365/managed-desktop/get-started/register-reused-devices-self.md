@@ -1,18 +1,18 @@
 ---
-title: Самостоятельное регистрация имеющихся устройств
+title: Самостоятельная регистрация существующих устройств
 description: Регистрация повторно используемых устройств. возможно, у вас уже есть права для управления на настольном компьютере, управляемом Майкрософт
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: c2527b18c422d53060398f90b7470db8b4959afa
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 51db9c88710605c6203023b343edc4359556d57d
+ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982952"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37577775"
 ---
-# <a name="register-existing-devices-yourself"></a>Самостоятельное регистрация имеющихся устройств
+# <a name="register-existing-devices-yourself"></a>Самостоятельная регистрация существующих устройств
 
 >[!NOTE]
 >В этом разделе описываются действия, которые необходимо выполнить, чтобы повторно использовать уже имеющиеся устройства и зарегистрировать их в системе, управляемой корпорацией Майкрософт. Если вы работаете с новыми устройствами, выполните действия, описанные в статье [Регистрация новых устройств на компьютере, управляемом Майкрософт](register-devices-self.md) , вместо этого.
@@ -176,7 +176,7 @@ Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistration
 
 Если вы собрали хэш-данные оборудования вручную с помощью методов PowerShell или устройства флэш-памяти, то теперь необходимо объединить данные CSV-файлов в один файл для завершения регистрации. Вот пример сценария PowerShell для упрощения:
 
-`Get-ChildItem -Filter *.csv |Select-Object -expandproperty FullName | Import-Csv |ConvertTo-Csv -NoTypeInformation | %{$_.Replace('"','')}| Out-File -Append .\joinedcsv\aggregatedDevices.csv`
+`Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
 После объединения хэш-данных в один CSV-файл можно приступить к [регистрации устройств](#register-devices).
 

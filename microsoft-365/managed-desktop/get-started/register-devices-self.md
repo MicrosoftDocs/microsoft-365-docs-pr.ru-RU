@@ -1,18 +1,18 @@
 ---
-title: Самостоятельное регистрация новых устройств
+title: Самостоятельная регистрация новых устройств
 description: Самостоятельное регистрация устройств для управления настольными компьютерами, управляемыми Майкрософт
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 1e42ebe38cea87b3fedc7ebd7bdb52ceb2f1b2c5
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 952fac18db8ecc31fcd041dbfdf45e6ee8edee75
+ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981730"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37577765"
 ---
-# <a name="register-new-devices-yourself"></a>Самостоятельное регистрация новых устройств
+# <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
 Рабочий стол, управляемый Майкрософт, может работать с новыми устройствами или можно повторно использовать уже имеющиеся устройства (которые потребуют их повторного создания образа). Вы можете зарегистрировать устройства с помощью управляемого рабочего стола Майкрософт на портале Azure.
 
@@ -64,7 +64,7 @@ ms.locfileid: "36981730"
 
 Для завершения регистрации необходимо объединить данные CSV-файлов в один файл. Вот пример сценария PowerShell для упрощения:
 
-`Get-ChildItem -Filter *.csv |Select-Object -expandproperty FullName | Import-Csv |ConvertTo-Csv -NoTypeInformation | %{$_.Replace('"','')}| Out-File -Append .\joinedcsv\aggregatedDevices.csv`
+`Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
 
 ### <a name="register-devices"></a>Регистрация устройств
 

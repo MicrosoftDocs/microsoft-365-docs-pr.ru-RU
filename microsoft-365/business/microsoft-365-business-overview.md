@@ -11,22 +11,27 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: 8568232eb65485f1e016342bb13de9a07f706c00
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: e6f99d6d2f2d7951303591a806a3618615a25310
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288542"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575925"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Общие сведения о Microsoft 365 Business
 
-## <a name="what-is-microsoft-365-business"></a>Что такое Microsoft 365 бизнес
+## <a name="what-is-microsoft-365-business"></a>Что такое Microsoft 365 Бизнес
 
 Microsoft 365 бизнес  это полный набор постоянно обновляемых офисных программ и средств для совместной работы, таких как Outlook, Word, Excel и другие продукты Office. Благодаря простой службе безопасности корпоративного уровня вы сможете надежно защитить свои рабочие файлы на устройствах с iOS, Android и Windows 10.
   

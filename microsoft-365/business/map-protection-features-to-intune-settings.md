@@ -12,18 +12,23 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Узнайте, как функции защиты в Microsoft 365 Business сопоставляются с параметрами Intune. Подписка предоставляет лицензию на изменение параметров Intune.
-ms.openlocfilehash: 316dc8efbe69057f049bf8fadd3c3f41c358a33e
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 2e26bffe289170eb17b07325ab8b57285eecee38
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287976"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575945"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune
 
