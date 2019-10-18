@@ -20,28 +20,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 09/14/2019
 ms.locfileid: "36981900"
 ---
-# <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a><span data-ttu-id="b6aae-103">Удостоверения и доступ к устройствам для тестовой среды Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b6aae-103">Identity and device access for your Microsoft 365 test environment</span></span>
+# <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a><span data-ttu-id="29d29-103">Удостоверения и доступ к устройствам для тестовой среды Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="29d29-103">Identity and device access for your Microsoft 365 test environment</span></span>
 
-<span data-ttu-id="b6aae-104">[Конфигурации удостоверений и доступа к устройствам](microsoft-365-policies-configurations.md) — это набор функций и политик условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD), включая Office 365 и Microsoft Intune в Microsoft 365 корпоративный.</span><span class="sxs-lookup"><span data-stu-id="b6aae-104">[Identity and device access configurations](microsoft-365-policies-configurations.md) are a set of features and conditional access policies to protect access to all services that are integrated with Azure Active Directory (Azure AD), including Office 365 and Enterprise Mobility + Security (EMS) in Microsoft 365 Enterprise.</span></span>
+<span data-ttu-id="29d29-104">[Конфигурации удостоверений и доступа к устройствам](microsoft-365-policies-configurations.md) — это набор функций и политик условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD), включая Office 365 и Microsoft Intune в Microsoft 365 корпоративный.</span><span class="sxs-lookup"><span data-stu-id="29d29-104">[Identity and device access configurations](microsoft-365-policies-configurations.md) are a set of features and conditional access policies to protect access to all services that are integrated with Azure Active Directory (Azure AD), including Office 365 and Enterprise Mobility + Security (EMS) in Microsoft 365 Enterprise.</span></span>
 
-<span data-ttu-id="b6aae-105">Чтобы создать тестовую среду с применением этих политик:</span><span class="sxs-lookup"><span data-stu-id="b6aae-105">To create a test environment that has these policies in place:</span></span>
+<span data-ttu-id="29d29-105">Чтобы создать тестовую среду с применением этих политик:</span><span class="sxs-lookup"><span data-stu-id="29d29-105">To create a test environment that has these policies in place:</span></span>
 
-1. <span data-ttu-id="b6aae-106">Настройте тестовую среду с использованием предварительных требований к функциям удостоверений и безопасности с учетом выбора модели удостоверений и метода проверки подлинности:</span><span class="sxs-lookup"><span data-stu-id="b6aae-106">Configure your test environment with the prerequisite identity and security features based on your choice of identity model and authentication method:</span></span>
+1. <span data-ttu-id="29d29-106">Настройте тестовую среду с использованием предварительных требований к функциям удостоверений и безопасности с учетом выбора модели удостоверений и метода проверки подлинности:</span><span class="sxs-lookup"><span data-stu-id="29d29-106">Configure your test environment with the prerequisite identity and security features based on your choice of identity model and authentication method:</span></span>
 
-  - [<span data-ttu-id="b6aae-107">Только облако</span><span class="sxs-lookup"><span data-stu-id="b6aae-107">Cloud only</span></span>](cloud-only-prereqs-m365-test-environment.md)
-  - [<span data-ttu-id="b6aae-108">Синхронизация хэша паролей (PHS)</span><span class="sxs-lookup"><span data-stu-id="b6aae-108">Password hash sync (PHS)</span></span>](phs-prereqs-m365-test-environment.md)
-  - [<span data-ttu-id="b6aae-109">Сквозная проверка подлинности (PTA)</span><span class="sxs-lookup"><span data-stu-id="b6aae-109">Pass-through authentication (PTA)</span></span>](pta-prereqs-m365-test-environment.md)
+  - [<span data-ttu-id="29d29-107">Только облако</span><span class="sxs-lookup"><span data-stu-id="29d29-107">Cloud only</span></span>](cloud-only-prereqs-m365-test-environment.md)
+  - [<span data-ttu-id="29d29-108">Синхронизация хэша паролей (PHS)</span><span class="sxs-lookup"><span data-stu-id="29d29-108">Password hash sync (PHS)</span></span>](phs-prereqs-m365-test-environment.md)
+  - [<span data-ttu-id="29d29-109">Сквозная проверка подлинности (PTA)</span><span class="sxs-lookup"><span data-stu-id="29d29-109">Pass-through authentication (PTA)</span></span>](pta-prereqs-m365-test-environment.md)
 
-2. <span data-ttu-id="b6aae-110">Используйте статью [Основные политики доступа для удостоверений и устройств](identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и проверить защиту для удостоверений и устройств.</span><span class="sxs-lookup"><span data-stu-id="b6aae-110">Use [Common identity and device access policies](identity-access-policies.md) to configure the policies that build on the prerequisites and test protection for identities and devices.</span></span>
+2. <span data-ttu-id="29d29-110">Используйте статью [Основные политики доступа для удостоверений и устройств](identity-access-policies.md), чтобы настроить политики, созданные на основе предварительных требований, и проверить защиту для удостоверений и устройств.</span><span class="sxs-lookup"><span data-stu-id="29d29-110">Use [Common identity and device access policies](identity-access-policies.md) to configure the policies that build on the prerequisites and test protection for identities and devices.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b6aae-111">См. также</span><span class="sxs-lookup"><span data-stu-id="b6aae-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="29d29-111">См. также</span><span class="sxs-lookup"><span data-stu-id="29d29-111">See also</span></span>
 
-[<span data-ttu-id="b6aae-112">Руководства по лаборатории тестирования для дополнительного удостоверения</span><span class="sxs-lookup"><span data-stu-id="b6aae-112">Additional identity Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md#identity)
+[<span data-ttu-id="29d29-112">Руководства по лаборатории тестирования для дополнительного удостоверения</span><span class="sxs-lookup"><span data-stu-id="29d29-112">Additional identity Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md#identity)
 
-[<span data-ttu-id="b6aae-113">Шаг 2. Идентификация</span><span class="sxs-lookup"><span data-stu-id="b6aae-113">Phase 2: Identity</span></span>](identity-infrastructure.md)
+[<span data-ttu-id="29d29-113">Шаг 2. Идентификация</span><span class="sxs-lookup"><span data-stu-id="29d29-113">Phase 2: Identity</span></span>](identity-infrastructure.md)
 
-[<span data-ttu-id="b6aae-114">Руководства по лаборатории тестирования для Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="b6aae-114">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="29d29-114">Руководства по лаборатории тестирования для Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="29d29-114">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="b6aae-115">Развертывание Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="b6aae-115">Microsoft 365 Enterprise deployment</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="29d29-115">Развертывание Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="29d29-115">Microsoft 365 Enterprise deployment</span></span>](deploy-microsoft-365-enterprise.md)
 
-[<span data-ttu-id="b6aae-116">Документация по Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="b6aae-116">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
+[<span data-ttu-id="29d29-116">Документация по Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="29d29-116">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
