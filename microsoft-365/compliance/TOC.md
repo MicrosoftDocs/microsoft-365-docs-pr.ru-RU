@@ -17,7 +17,7 @@
 ## Ключ клиента
 ### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
 ### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
-## [Контроль]()
+## [Контроль взаимодействия]()
 ### [Сведения о политиках контроля](supervision-policies.md)
 ### [Настройка политик контроля для организации](configure-supervision-policies.md)
 ## [Информационные барьеры](information-barriers.md)
@@ -124,6 +124,7 @@
 ### [Просмотр видеороликов от группы управления данными Майкрософт](https://go.microsoft.com/fwlink/?linkid=867039)
 ## Управление записями
 ### [управление записями](records-management.md)
+### [Записи](records.md)
 ### План хранения
 #### [Диспетчер планов хранения](file-plan-manager.md)
 #### [Метки хранения](labels.md)
@@ -349,7 +350,7 @@
 ## [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
 ## [Подробные свойства в журнале аудита](detailed-properties-in-the-office-365-audit-log.md)
 ## [Экспорт, настройка и просмотр записей журнала аудита](export-view-audit-log-records.md)
-## [Использование журнала аудита для устранения неполадок в типовых сценариях](auditing-troubleshooting-scenarios.md)
+## [Использование журнала аудита для изучения распространенных проблем](auditing-troubleshooting-scenarios.md)
 ## [Использование аудита общего доступа в журнале аудита](use-sharing-auditing.md)
 ## [Поиск действий по обнаружению электронных данных в журнале аудита](search-for-ediscovery-activities-in-the-audit-log.md)
 
