@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Защита от фишинга и других атак с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 4902a2273eef110ced9ae16c3b91f39ac990a736
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 66708fe214815640baf08adace292dee683e382b
+ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772486"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37593864"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Защита от фишинга и других атак
 
@@ -47,7 +47,7 @@ ms.locfileid: "35772486"
 **Сообщить!**
 
 Сообщите о phishing-атаках и других мошеннических сообщениях электронной почты. Выберите сообщение, а затем на ленте выберите пункт **сообщение отчета** .
-Ниже приведены дополнительные сведения о сообщениях о нежелательных [и фишинговых сообщениях](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+Ниже приведены дополнительные сведения о сообщениях о [нежелательных и фишинговых сообщениях](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
 **Как избежать фишинга**
 - Никогда не отвечайте на сообщения электронной почты с запросом на отправку личных сведений или сведений об учетной записи.
@@ -66,7 +66,7 @@ ms.locfileid: "35772486"
 
 Загрузите эту инфографики с советами и участниками группы кампаний:
 
-[! Ваша графическая информация по защите от кампании](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)] (Downloads/M365CampaignsWhatCanUsersDoToSecure. PDF)
+[![Ваша графическая информация по защите от кампании](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx) в формате PDF
 

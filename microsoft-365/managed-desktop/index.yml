@@ -1,20 +1,19 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: 'Документация и ресурсы для наСтольного компьютера, управляемые корпорацией Майкрософт'
+title: 'Документация и ресурсы для настольного компьютера, управляемые корпорацией Майкрософт'
 metadata:
   title: Документация по управляемому рабочему столу Майкрософт
   description: null
   keywords: 'устройство, приложение, управление'
-  author: trudyha
-  ms.author: trudyha
-  ms.date: 11/1/2018
+  author: jaimeo
+  ms.author: jaimeo
   ms.topic: landing-page
   ms.devlang: na
   ms.service: m365-md
 sections:
   - items:
       - type: markdown
-        text: Самый простой способ сведения пользователей и освободить его.
+        text: 'Рабочий стол, управляемый Майкрософт, объединяет вместе Microsoft 365 Enterprise, облачное Управление устройствами Майкрософт и мониторинг безопасности, позволяя разработчикам ИТ-отделов сосредоточиться на основных бизнес-задачах.'
   - items:
       - type: list
         style: cards
@@ -22,30 +21,30 @@ sections:
         columns: 2
         items:
           - href: intro/index.md
-            html: '<p>Узнайте о том, что такое управляемый Рабочий стол, и как он работает.</p>'
+            html: '<p>Общие сведения о компьютерах, управляемых корпорацией Майкрософт, для лиц, принимающих решения, а также о том, как оно работает и что можно сделать для вас</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_overview.svg'
-            title: Что такое "управляемый" Рабочий стол Майкрософт?
+            title: 'Что собой представляют компьютеры, управляемые Майкрософт?'
           - href: service-description/index.md
-            html: '<p>Сведения о том, что входит в наСтольные компьютеры, управляемые корпорацией Майкрософт.</p>'
+            html: '<p>Подробное описание всех частей компьютера, управляемого корпорацией Майкрософт</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_get-started.svg'
             title: Описание службы
           - href: get-ready/index.md
-            html: '<p>Узнайте, как подготовиться к регистрации на наСтольном компьютере, управляемом Майкрософт.</p>'
+            html: <p>Все действия по обеспечению готовности среды и Организации к работе со службой</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_support.svg'
-            title: Приготовиться
+            title: Подготовка
           - href: get-started/index.md
-            html: '<p>Сведения о том, как заказать устройства и добавить контакты.</p>'
+            html: '<p>Познакомьтесь с вашей организацией с помощью управляемого рабочего стола Майкрософт, в том числе Настройка устройств и развертывание приложений</p>'
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_whats-new.svg'
             title: Начало работы
           - href: working-with-managed-desktop/index.md
-            html: <p>Сведения об управлении приложениями.</p>
+            html: <p>Обо всех повседневных операциях со службой</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_portal.svg'
-            title: 'Работа с наСтольными компьютерами, управляемыми Майкрософт'
+            title: 'Работа с компьютерами, управляемыми Майкрософт'
   - title: Новые статьи и записи в блогах
     items:
       - type: paragraph
