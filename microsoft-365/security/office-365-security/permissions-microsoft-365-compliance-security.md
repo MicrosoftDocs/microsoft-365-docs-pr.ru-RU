@@ -1,7 +1,7 @@
 ---
 title: Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
-ms.openlocfilehash: b777d063b625181c8786ae558e5f3c8dcc119f20
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2a5f5b13bcf00c8a8c17042efbf241028aac2263
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091206"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37343372"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
