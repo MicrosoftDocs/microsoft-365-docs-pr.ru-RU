@@ -37,4 +37,4 @@
 ## [Восстановление заводских настроек для устройств](../business/reset-devices-to-factory-settings.md?toc=/microsoft-365/campaigns/toc.json)
 
 # Управление инцидентами, связанными с безопасностью
-## [Реагирование на компрометацию учетной записи электронной почты](../compliance/responding-to-a-compromised-email-account?toc=/microsoft-365/campaigns/toc.json)
+## [Реагирование на компрометацию учетной записи электронной почты](https://docs.microsoft.com/microsoft-365/compliance/responding-to-a-compromised-email-account)

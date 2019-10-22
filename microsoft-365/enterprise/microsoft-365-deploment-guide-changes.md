@@ -3,7 +3,7 @@ title: Изменения содержимого развертывания Micr
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/10/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: 67d0f51dd1f2602a21d199da1ed7ca6ba6e41c09
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: e872b0c289a002b4a0e0459a9ee19aa78b039b31
+ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453995"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37617247"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 корпоративный
 
 ## <a name="october-2019"></a>Октябрь 2019 г.
 
 ### <a name="new-content"></a>Новое содержимое 
+
+- [Teams для сценария со строго регулируемыми данными](secure-teams-highly-regulated-data-scenario.md)
+
+  [![Teams для сценария со строго регулируемыми данными](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)](secure-teams-highly-regulated-data-scenario.md)
 
 - [Плакат "Возможности для удаленных работников"](empower-people-to-work-remotely.md#poster)
 
@@ -34,7 +38,7 @@ ms.locfileid: "37453995"
 ### <a name="updates-and-enhancements"></a>Обновления и улучшения
 
 - Обновление [практического примера Contoso](contoso-case-study.md)
-- Обновление рабочей нагрузки [Exchange Online](exchangeonline-workload.md)
+- Обновление рабочих нагрузок [Microsoft Teams](teams-workload.md), [Exchange Online](exchangeonline-workload.md) и [SharePoint Online](sharepoint-online-onedrive-workload.md)
 - Обновление сценария [сайтов SharePoint для жестко регламентированных данных](teams-sharepoint-online-sites-highly-regulated-data.md)
  
   [![Сценарий сайтов SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)](teams-sharepoint-online-sites-highly-regulated-data.md)
