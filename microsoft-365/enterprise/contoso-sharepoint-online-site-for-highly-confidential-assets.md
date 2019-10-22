@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso реализовала сайт SharePoint для строго регулируемых данных, чтобы упростить совместную работу между ее справочными группами.
-ms.openlocfilehash: bb3c178ee64d5925f82aef9887c06ceafe51f4ee
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 08676f9fa89d9cbf932f9d70664ad1d17a153e3b
+ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403234"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37617257"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Сайт SharePoint для строго конфиденциальных цифровых активов корпорации Contoso
 
@@ -96,12 +96,12 @@ ms.locfileid: "37403234"
 
 Конечный результат — это безопасная среда, в которой исходящие работники могут совместно работать в среде Contoso в безопасной среде для файлов, содержащих справочные сведения. 
 
-Если справочный документ с подметкой **исследовательских групп** оставляет сайт **справочных** материалов, он шифруется и доступен только участникам групп " **исследование** Office 365" с действительными учетными данными учетной записи пользователя.
+Если справочный документ с подметкой **исследовательских групп** оставляет сайт **справочных** материалов, он шифруется и доступен только участникам группы **исследование** Office 365 с действительными учетными данными учетной записи пользователя.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующее действие
 
 [Deploy (развертывание](deploy-microsoft-365-enterprise.md) ) Microsoft 365 корпоративный в Организации.
 
-## <a name="see-also"></a>Дополнительные ресурсы
+## <a name="see-also"></a>См. также
 
-[Библиотека производительности Microsoft 365](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
+[Microsoft 365 Productivity Library](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
