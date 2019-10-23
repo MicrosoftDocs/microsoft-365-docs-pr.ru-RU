@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Сведения о функциях безопасности, входящих в состав Microsoft 365 Business.
-ms.openlocfilehash: 668b83e363a40e61391cbe56b0dbfab88cae7c43
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0d1c35192bf82ac61e59356cda4d9fb29cb3d995
+ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575705"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37636779"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
 
@@ -48,7 +48,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 - [Настройка параметров защиты устройств для устройств с Windows 10](protection-settings-for-windows-10-pcs.md) . 
     
-    Шифрование [BitLocker](https://go.microsoft.com/fwlink/p/?linkid=871405) можно включить для защиты данных в случае потери или кражи устройства, а также для обеспечения дополнительной защиты от программы-шантажистом с помощью [Windows эксплойтов](https://go.microsoft.com/fwlink/p/?linkid=871404) . 
+    Шифрование [BitLocker](https://go.microsoft.com/fwlink/p/?linkid=871405) можно включить для защиты данных в случае потери или кражи устройства, а также для обеспечения дополнительной защиты от программы-шантажистом с помощью [Windows эксплойтов](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) . 
     
 - [Удаление данных организации с устройств](remove-company-data.md)
     
@@ -62,7 +62,7 @@ Microsoft 365 Business предлагает упрощенные функции 
 
 Расширенные возможности Microsoft 365 Business помогут вам защитить бизнес от угроз кибератак и защищать конфиденциальные данные.
   
-- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
     Advanced Threat protection (ATP) помогает защитить бизнес от атак с помощью изощренных фишинговых и мошеннических атак, которые предназначены для взлома сведений о сотрудниках и клиентах. Поддерживаются перечисленные ниже возможности. 
     
