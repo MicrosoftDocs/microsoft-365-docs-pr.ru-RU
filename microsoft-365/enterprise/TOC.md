@@ -46,6 +46,7 @@
 ### [SharePoint и OneDrive для бизнеса](sharepoint-online-onedrive-workload.md)
 ### [Миграция](migration-microsoft-365-enterprise-workload.md)
 ### [Возможности для удаленных работников](empower-people-to-work-remotely.md)
+### [Teams для жестко регламентированных данных](secure-teams-highly-regulated-data-scenario.md)
 ### [Сайты SharePoint для строго регулируемых данных](teams-sharepoint-online-sites-highly-regulated-data.md)
 ## [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md)
 ### [Базовая конфигурация]()
