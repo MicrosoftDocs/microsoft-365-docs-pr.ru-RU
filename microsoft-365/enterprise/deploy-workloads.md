@@ -2,7 +2,7 @@
 title: Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/30/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Подключите пользователей своей организации к рабочим нагрузкам Microsoft 365 корпоративный.
-ms.openlocfilehash: a68b3a436daf6f1474f55676c6a167ecd4bdd39c
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 2fbc3b5063ab0ed675b9d1a3873877e5486a3d6c
+ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403248"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37608600"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Рабочие нагрузки и сценарии Microsoft 365 корпоративный
 
@@ -38,7 +38,12 @@ ms.locfileid: "37403248"
 - данные, на которые распространяется действие региональных нормативных актов;
 - наиболее важные для предприятия данные, например коммерческие тайны, информация о финансовой деятельности или данные о персонале и стратегии организации.
 
-Сведения о защите этих данных от внутренних и внешних угроз см. в статье [Сайты Microsoft Teams и SharePoint для жестко регламентированных данных](teams-sharepoint-online-sites-highly-regulated-data.md). В этом сценарии содержатся действия по настройке сайта SharePoint или команды Microsoft Teams для безопасного хранения наиболее ценных данных.
+Сведения о том, как защитить эти данные от внутренних и внешних угроз, см. в статьях:
+
+- [Teams для жестко регламентированных данных](secure-teams-highly-regulated-data-scenario.md)
+- [Сайты SharePoint для жестко регламентированных данных](teams-sharepoint-online-sites-highly-regulated-data.md). 
+
+В этих сценариях содержатся действия по настройке команды Microsoft Teams или сайта SharePoint для безопасного хранения наиболее ценных данных.
 
 Вот рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 корпоративный:
 
