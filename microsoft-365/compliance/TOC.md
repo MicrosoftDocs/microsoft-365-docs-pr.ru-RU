@@ -11,13 +11,13 @@
 # Управление внутренними рисками
 ## [Защита доступа пользователей и устройств](protect-access-to-data-and-services.md)
 ## [Защищенное хранилище пользователя](customer-lockbox-requests.md)
-## [Управление привилегированным доступом]()
+## Управление привилегированным доступом
 ### [Подробнее об управлении привилегированным доступом](privileged-access-management-overview.md)
 ### [Настройка управления привилегированным доступом](privileged-access-management-configuration.md)
 ## Ключ клиента
 ### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
 ### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
-## [Контроль взаимодействия]()
+## Контроль взаимодействия
 ### [Сведения о политиках контроля](supervision-policies.md)
 ### [Настройка политик контроля для организации](configure-supervision-policies.md)
 ## [Информационные барьеры](information-barriers.md)
@@ -387,7 +387,7 @@
 ## [GDPR](gdpr.md)
 ### [Рекомендуемый план действий для GDPR](gdpr-action-plan.md)
 
-### [Контрольные списки готовности к подотчетности]()
+### Контрольные списки готовности к подотчетности
 #### [Контрольные списки готовности к подотчетности](gdpr-arc.md)
 #### [Azure](gdpr-arc-azure.md)
 #### [Dynamics 365](gdpr-arc-dynamics365.md)
@@ -396,7 +396,7 @@
 
 ### [Защита информации](gdpr-information-protection.md)
 
-### [Запросы субъектов данных]()
+### Запросы субъектов данных
 #### [Запросы субъектов данных](gdpr-data-subject-requests.md)
 #### [Azure](gdpr-dsr-azure.md)
 #### [Azure DevOps Services](gdpr-dsr-vsts.md)
@@ -406,14 +406,14 @@
 #### [Office 365](gdpr-dsr-office365.md)
 #### [Семейство Visual Studio](gdpr-dsr-visual-studio-family.md)
 
-### [Уведомление о нарушении]()
+### Уведомление о нарушении
 #### [Уведомление о нарушении](gdpr-breach-notification.md)
 #### [Azure](gdpr-breach-azure.md)
 #### [Dynamics 365](gdpr-breach-dynamics365.md)
 #### [Служба поддержки и Профессиональные услуги Майкрософт](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
-### [Оценка влияния на защиту данных]()
+### Оценка влияния на защиту данных
 #### [Оценка влияния на защиту данных](gdpr-data-protection-impact-assessments.md)
 #### [Azure](gdpr-dpia-azure.md)
 #### [Dynamics 365](gdpr-dpia-dynamics.md)
@@ -574,7 +574,7 @@
 #### [Соглашение о правилах обмена конфиденциальной информацией между ЕС и США](offering-eu-us-privacy-shield.md)
 #### [GDPR (ЕС)](offering-gdpr-eu.md)
 #### [G-Cloud (Соединенное Королевство)](offering-g-cloud-uk.md)
-#### [IDW PS 951 (Германия)]()
+#### IDW PS 951 (Германия)
 #### [IT Grundschutz Workbook (Германия)](offering-it-grundschutz-workbook-germany.md)
 #### [LOPD (Испания)](offering-lopd-spain.md)
 #### [PASF (Соединенное королевство)](offering-pasf-uk.md)
