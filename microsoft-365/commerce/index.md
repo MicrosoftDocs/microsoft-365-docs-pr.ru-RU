@@ -10,12 +10,12 @@ ms.author: TrudyHa
 ms.date: 5/29/2019
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.openlocfilehash: ec73b208bf9e2e80f4a27649ad92ff43ac175d73
-ms.sourcegitcommit: a263fc5a598363ca809a3cb990d41393bf38d3b7
+ms.openlocfilehash: e1c16deaeb61a497a4ec4fc1dc2cd9af672d55c7
+ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34592367"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "37646365"
 ---
 # <a name="manage-commercial-purchases-in-microsoft-365-admin-center"></a>Управление коммерческими покупками в центре администрирования Microsoft 365
 
@@ -27,9 +27,9 @@ ms.locfileid: "34592367"
 | [Приобретение лицензий](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide) | Приобретение лицензий на Office 365 для вашей организации. |
 | [Назначение лицензий](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) | Назначьте лицензии на Office 365 для вашей организации. |
 | [Удаление лицензий из подписки](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-subscription?view=o365-worldwide) | Удаление лицензий из подписки на Office 365. |
-| [Знакомство со счетом](https://docs.microsoft.com/microsoft-store/billing-understand-your-invoice-msfb) | Сведения о накладных для элементов, приобретенных в соглашении о клиентах Майкрософт. |
+| [Знакомство со счетом](/microsoft-365/commerce/billing-and-payments/understand-your-invoice) | Сведения о накладных для элементов, приобретенных в центре администрирования Microsoft 365. |
 | [Управление методами оплаты](https://docs.microsoft.com/microsoft-store/payment-methods) | Добавление, изменение и удаление способов оплаты. |
-| [Управление профилями выставления счетов](https://docs.microsoft.com/microsoft-store/billing-profile) | Настройка способа выставления счетов для различных товаров в счете.  |
+| [Управление профилями выставления счетов](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles) | Настройка способа выставления счетов для различных товаров в счете.  |
 | [История заказа](https://docs.microsoft.com/microsoft-store/manage-orders-microsoft-store-for-business) | Отслеживание коммерческих заказов. |
 | [Управление сведениями учетных записей для выставления счетов](https://docs.microsoft.com/microsoft-store/update-microsoft-store-for-business-account-settings) | Счета для выставления счетов позволяют управлять сведениями об организации, соглашениями о покупках и утверждениями от Майкрософт. |
 | [Связать клиент с учетной записью выставления счетов](https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business) | Клиент или клиенты, добавленные в учетную запись покупки, контролируют, как можно назначить продукты пользователям в Организации. |

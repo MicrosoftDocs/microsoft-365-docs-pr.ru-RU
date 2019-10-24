@@ -3,7 +3,6 @@
   expanded: true
   items:
     - name: Продукты и службы
-      expanded: true
       items:
         - name: Управление сторонними приложениями
           href: manage-saas-apps.md
@@ -18,6 +17,18 @@
         - name: Подписки на обновление
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: Ведомости и платежи
+      items:
+        - name: Знакомство со счетом
+          href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
+        - name: Управление методами оплаты
+          href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
+        - name: Управление профилями выставления счетов
+          href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
+        - name: История заказа
+          href: /microsoft-store/manage-orders-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+        - name: Директива служб платежей 2 и надежная проверка подлинности клиентов
+          href: /microsoft-365/commerce/billing-and-payments/psd2.md
+    - name: Счета выставления счетов
       items:
         - name: Управление сведениями учетных записей для выставления счетов
           href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
