@@ -16,14 +16,14 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: Документ для администраторов изолированной службы EOP по предотвращению ложных отрицательных результатов для спама
-ms.openlocfilehash: 5094caf8a5ceded71d68e9bddc5206f6ceb0e493
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ddd26c3ce8c2670118d85fafa2fc912f3d20dddf
+ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090469"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37662545"
 ---
-## <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Параметры для настройки фильтра нежелательной почты Office 365
+# <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Параметры для настройки фильтра нежелательной почты Office 365
 
 Администратор может использовать ряд параметров фильтра нежелательной почты Office 365, чтобы предотвратить попадание спама в папку "Входящие" пользователя. При использовании указанных здесь параметров фильтр нежелательной почты Office 365 научится лучше блокировать спам и избегать ошибочных результатов. В этом контексте под ошибочными результатами подразумевается попадание спама или других нежелательных сообщений в папку "Входящие" пользователя.
   
