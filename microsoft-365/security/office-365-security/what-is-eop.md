@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
 description: Этот вводный документ поможет вам изучить Exchange Online Protection (EOP) и некоторую важную терминологию. Это необходимо для пользователей Office 365, защищающих облачные почтовые ящики Exchange Online и автономных клиентов EOP, которые защищают локальные почтовые ящики, такие как Exchange Server 2016.
-ms.openlocfilehash: 0ca3e8215eb57a08362dd836b4519aedd0b6ab84
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2e4de0b62b24498b1153c713523418193e8694b4
+ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090955"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37662525"
 ---
-## <a name="what-is-exchange-online-protection-eop"></a>Что такое Exchange Online Protection (EOP)
+# <a name="what-is-exchange-online-protection-eop"></a>Что такое Exchange Online Protection (EOP)
 
 Exchange Online Protection (EOP) — это облачная служба фильтрации электронной почты, которая помогает защитить организацию от нежелательной почты и вредоносных программ. Если у вас есть почтовые ящики в Office 365, они автоматически защищаются службой EOP, так как она является частью службы. Сюда входят организации, у которых есть почтовые ящики как в Office 365, так и на локальном уровне, который обычно называется гибридным сценарием. EOP standalone также доступен для пользователей, у которых нет почтовых ящиков в облаке, но необходимо защищать их локальные почтовые ящики.
 
