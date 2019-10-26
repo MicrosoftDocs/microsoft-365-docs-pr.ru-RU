@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 3e37cebc1721a1bdcce0a30223a8beeb38868e82
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 69edcd65ada007ead9e0c0d628b96f6390e34696
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370086"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733466"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Шаг 2: развертывание Windows 10 Корпоративная для существующих устройств в качестве обновления на месте
 
@@ -28,6 +28,17 @@ ms.locfileid: "37370086"
 Если у вас есть компьютеры под управлением Windows 7 или Windows 8,1, рекомендуем этот путь, если ваша организация развертывает Windows 10. При этом будет использоваться программа установки Windows (Setup. exe) для выполнения обновления на месте, которое автоматически сохраняет все данные, параметры, приложения и драйверы из существующей версии операционной системы. Это требует наименьшей ИТ-силы, так как нет необходимости в сложной инфраструктуре развертывания.
 
 Выполните следующие действия, чтобы настроить и развернуть образ Windows 10 Корпоративная с помощью Configuration Manager в качестве обновления на месте.
+
+## <a name="the-windows-10-deployment-with-system-center-configuration-manager-poster"></a>Развертывание Windows 10 с плакатом System Center Configuration Manager
+
+Афиша диспетчера конфигураций — одна страница в альбомном режиме (17x11). Щелкните изображение ниже, чтобы просмотреть документ PDF в браузере. 
+
+[![Развертывание Windows 10 с плакатом Configuration Manager](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=tKD38RgLAoOCAWJ5ppEbLevBAHk7KHtWrXldy2Jl6mY%3D&st=2019-10-24T22%3A16%3A08Z&se=2019-10-25T22%3A26%3A08Z&sp=r)
+
+<!--
+
+You can also download this poster in [PDF](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) or [Visio](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx) format.
+-->
 
 ## <a name="part-1-verify-readiness-to-upgrade-windows"></a>Часть 1: Проверка готовности к обновлению Windows
 
@@ -141,7 +152,7 @@ ms.locfileid: "37370086"
 
 |||
 |:-------|:-----|
-|![Действие 3](./media/stepnumbers/Step3.png)| [Развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилот](windows10-deploy-autopilot.md) |
+|![Шаг 3](./media/stepnumbers/Step3.png)| [Развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилот](windows10-deploy-autopilot.md) |
 
 
 

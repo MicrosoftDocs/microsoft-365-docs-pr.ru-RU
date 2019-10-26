@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 2ce02826ae2b0661d3b893c1074e692ce93cf9f3
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 131c48e89a5bb82381347e766b3f00451a852410
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370286"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733467"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Шаг 3: развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилота
 
@@ -23,9 +23,21 @@ ms.locfileid: "37370286"
 
 ![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-Если у вас есть новые компьютеры с Windows 10, вы можете использовать автопилот Windows для настройки готового к работе (OOBE) для вашей организации и развертывания новой системы с приложениями и настройками, которые уже настроены. Нет изображений для развертывания, нет драйверов для вставки и нет инфраструктуры для управления. Пользователи могут проходить через процесс развертывания независимо, без необходимости обращаться к ИТ ИТ ИТ.
+Если у вас есть новые компьютеры с Windows 10, вы можете использовать автопилот Windows для настройки готового к работе (OOBE) для вашей организации и развертывания новой системы с приложениями и настройками, которые уже настроены. Вам не придется развертывать образы, устанавливать драйверы и управлять инфраструктурой. Пользователи могут проходить через процесс развертывания независимо, без необходимости обращаться к ИТ ИТ ИТ.
 
 Вы можете настроить и предварительно настроить новые устройства с Windows 10 и подготовить их к эффективному использованию с помощью Windows "Автопилот". Для получения дополнительных сведений о Windows автопилоте, в том числе о преимуществах и сценариях Windows для автопилота, ознакомьтесь со статьей [Обзор Windows автопилот](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot). Когда вы будете готовы, выполните следующие части, чтобы начать настройку новых устройств.
+
+## <a name="the-windows-autopilot-deployment-process-poster"></a>Плакат процесса развертывания Windows для автопилота
+
+Афиша автопилота Windows — две страницы в режиме книжной ориентации (11x17). Щелкните изображение ниже, чтобы просмотреть документ PDF в браузере. 
+
+[![Развертывание Windows 10 с помощью афиши автопилота](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=bfzlEl8SrShCQyj8E2QUf6LJfxlKre6ortODE4qHjrc%3D&st=2019-10-24T22%3A18%3A33Z&se=2019-10-25T22%3A28%3A33Z&sp=r)
+
+<!--
+
+You can also download this poster in [PDF](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) or [Visio](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx) format.
+
+-->
 
 ## <a name="part-1-start-windows-autopilot-deployment"></a>Часть 1: запуск развертывания Windows для автопилота
 Просмотрите [Обзор Windows Автопилот для выполнения](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot) следующих действий:
@@ -54,7 +66,7 @@ ms.locfileid: "37370286"
 2. Узнайте о программе развертывания Windows и выберите ее для своей организации. Вы можете выбрать из следующих программ развертывания:
     - **Microsoft Store для бизнеса**
     - **Microsoft Intune**
-    - **Партнерский центр**
+    - **Центр партнеров**
 
 ## <a name="part-2-set-up-a-windows-10-device-for-microsoft-365"></a>Часть 2: Настройка устройства Windows 10 для Microsoft 365
 Прежде чем настраивать устройства Windows для пользователей Microsoft 365, убедитесь, что все устройства Windows работают под управлением Windows 10, версия 1703 (создатели) или более поздней версии.

@@ -24,8 +24,6 @@
           href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
         - name: Управление профилями выставления счетов
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
-        - name: История заказа
-          href: /microsoft-store/manage-orders-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
         - name: Директива служб платежей 2 и надежная проверка подлинности клиентов
           href: /microsoft-365/commerce/billing-and-payments/psd2.md
     - name: Счета выставления счетов

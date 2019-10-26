@@ -10,12 +10,12 @@ ms.author: TrudyHa
 ms.date: 5/29/2019
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.openlocfilehash: e1c16deaeb61a497a4ec4fc1dc2cd9af672d55c7
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: a094057ba635a6ca848b822fc2888b4bc717573a
+ms.sourcegitcommit: a372c634c3befcb488a4cc85a593e17c53fe36e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646365"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "37732873"
 ---
 # <a name="manage-commercial-purchases-in-microsoft-365-admin-center"></a>Управление коммерческими покупками в центре администрирования Microsoft 365
 
@@ -30,7 +30,6 @@ ms.locfileid: "37646365"
 | [Знакомство со счетом](/microsoft-365/commerce/billing-and-payments/understand-your-invoice) | Сведения о накладных для элементов, приобретенных в центре администрирования Microsoft 365. |
 | [Управление методами оплаты](https://docs.microsoft.com/microsoft-store/payment-methods) | Добавление, изменение и удаление способов оплаты. |
 | [Управление профилями выставления счетов](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles) | Настройка способа выставления счетов для различных товаров в счете.  |
-| [История заказа](https://docs.microsoft.com/microsoft-store/manage-orders-microsoft-store-for-business) | Отслеживание коммерческих заказов. |
 | [Управление сведениями учетных записей для выставления счетов](https://docs.microsoft.com/microsoft-store/update-microsoft-store-for-business-account-settings) | Счета для выставления счетов позволяют управлять сведениями об организации, соглашениями о покупках и утверждениями от Майкрософт. |
 | [Связать клиент с учетной записью выставления счетов](https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business) | Клиент или клиенты, добавленные в учетную запись покупки, контролируют, как можно назначить продукты пользователям в Организации. |
 | [Управление отношениями партнеров](https://docs.microsoft.com/microsoft-store/work-with-partner-microsoft-store-business) | Работайте с поставщиками решений, сертифицированными корпорацией Майкрософт, для приобретения и управления продуктами и службами в организации или учебном заведении. |
