@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 корпоративный.
-ms.openlocfilehash: 6293e6a4ee17453fd842cde27f909412bb34dab0
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 082d110ca7b25d3613ee276b30066683cd0232b5
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073479"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733430"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 корпоративный
 
@@ -49,7 +49,7 @@ ms.locfileid: "34073479"
 
 - [Синхронизация хэшей паролей](password-hash-sync-m365-ent-test-environment.md)
   
-   Включение и проверка синхронизации службы каталогов на основе хэша пароля из контроллера домена AD DS.
+   Включение и тестирование синхронизации службы каталогов на основе хэша пароля из контроллера домена AD DS.
 
 - [Сквозная проверка подлинности](pass-through-auth-m365-ent-test-environment.md)
   
