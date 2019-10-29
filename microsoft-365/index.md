@@ -8,12 +8,12 @@ ms.topic: hub-page
 keywords: Microsoft 365, Microsoft 365, Microsoft 365 для бизнеса, Microsoft 365 для предприятий, Microsoft 365 для образовательных учреждений, корпоративных, Бизнес, образования, документов, документации
 title: Документация по Microsoft 365
 description: Найдите документацию и ресурсы для Microsoft 365 — полное, интеллектуальное решение, в том числе Office 365, Windows 10 и Enterprise Mobility + Security, благодаря этому все пользователи могут работать совместно.
-ms.openlocfilehash: 6026926ad2dd8638a3a9165e99a36b454eeac6bc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 137479d7e9705a579a6c5aa20cb3a0ae935a1fd8
+ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071768"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749151"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -24,7 +24,7 @@ ms.locfileid: "37071768"
                 <ul id="home">
                     <li>
                         <a href="#home-all"></a>
-                        <ul id="home-all" class="cardsW">
+                        <ul id="home-all" class="cardsK">
                             <li class="fullSpan intro"><a href="https://www.microsoft.com/microsoft-365/default.aspx" data-raw-source="[Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)">Microsoft 365</a> — это комплексное интеллектуальное решение, в том числе Office 365, Windows 10 и Enterprise Mobility + Security, которое позволяет всем пользователям творческо работать и работать вместе.
                             </li>
                             <li>
@@ -40,7 +40,7 @@ ms.locfileid: "37071768"
                                                 <div class="cardText">
                                                     <br />
                                                     <h3>Microsoft 365 Enterprise</h3>
-                                                    <p>Microsoft 365 корпоративный предназначен для крупных организаций и интеграции Office 365 корпоративный, Windows 10 Корпоративная и Enterprise Mobility + Security.</p>
+                                                    <p>Microsoft 365 корпоративный предназначен для крупных организаций и интеграции Office 365 корпоративный, Windows 10 Корпоративная и Enterprise Mobility + Security.<br></br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -59,7 +59,7 @@ ms.locfileid: "37071768"
                                                 </div>
                                                 <div class="cardText">
                                                     <br />
-                                                    <h3>Microsoft 365 бизнес</h3>
+                                                    <h3>Microsoft 365 бизнес</h3>
                                                     <p>Microsoft 365 Business — это новое решение, разработанное для малых и средних предприятий (SMB), объединяющее лучшие возможности обеспечения производительности и совместной работы в Office 365 с помощью решений по управлению устройствами и обеспечению безопасности для защиты бизнес-данных.</p>
                                                 </div>
                                             </div>
@@ -80,7 +80,7 @@ ms.locfileid: "37071768"
                                                 <div class="cardText">
                                                     <br />
                                                     <h3>Microsoft 365 для образования</h3>
-                                                    <p>Microsoft 365 образование позволяет преподавателям разкрывать творческие возможности, повышать их и обеспечивать простое и безопасное взаимодействие в едином, доступном для образования решении.</p>
+                                                    <p>Microsoft 365 для образования — доступное решение, которое позволяет преподавателям раскрывать творческий потенциал, стимулировать совместную работу и обеспечивать простое и безопасное взаимодействие.<br></br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -121,6 +121,26 @@ ms.locfileid: "37071768"
                                                     <br />
                                                     <h3>Microsoft 365 Security</h3>
                                                     <p>Решения по обеспечению безопасности Microsoft 365 помогают защитить предприятие от поверхностей атак.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365/campaigns/" target="blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Campaigns-Tile-400x140-new2.svg" alt="Microsoft 365 for Campaigns documentation and resources" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <br />
+                                                    <h3>Microsoft 365 для кампаний</h3>
+                                                    <p>Помогите обеспечить надежную работу с данными и связями вашей кампании и вашей организации с этой рекомендуемой конфигурацией для Microsoft 365 Business.</p>
                                                 </div>
                                             </div>
                                         </div>

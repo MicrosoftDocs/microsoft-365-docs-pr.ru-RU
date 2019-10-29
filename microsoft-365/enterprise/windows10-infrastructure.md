@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: 7253ea698613a38988bd7a6942a4908e9c797e2a
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: b1f655e5befd16058870542f2e595d36599006fd
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37372770"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746711"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Этап 3. Windows 10 Корпоративная
 
@@ -30,7 +30,7 @@ Microsoft 365 Enterprise включает Windows 10 Корпоративная,
 Вам потребуется ознакомиться с различными способами развертывания операционной системы Windows 10 и выбора подправности для вашей организации. В зависимости от вашей подписки на Microsoft 365 Enterprise существуют также службы и функции безопасности Windows 10, которые необходимо настроить для максимально возможного использования Windows 10.
 
 >[!Note]
->Для развертывания Windows 10 Корпоративная и Office 365 профессиональный плюс вместе, а также перехода пользователей на [современные компьютеры](https://www.microsoft.com/microsoft-365/modern-desktop) см. статью [Центр развертывания современных компьютеров](http://aka.ms/howtoshift).
+>Для развертывания Windows 10 Корпоративная и Office 365 профессиональный плюс вместе, а также перехода пользователей на [современные компьютеры](https://www.microsoft.com/microsoft-365/modern-desktop) см. статью [Центр развертывания современных компьютеров](https://aka.ms/howtoshift).
 >
 
 ## <a name="windows-10-deployment"></a>Развертывание Windows 10
