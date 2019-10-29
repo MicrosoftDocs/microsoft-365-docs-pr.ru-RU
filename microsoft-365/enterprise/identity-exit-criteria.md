@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует условиям Microsoft 365 корпоративный для служб и инфраструктуры, основанных на удостоверениях.
-ms.openlocfilehash: 4a93d0a9fb497daccba4fd2641fd5faf9c4fb384
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 84c2b97e064d3dba8a97767a31cc9fe7ccc6dd8c
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370206"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746525"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 
@@ -96,7 +96,7 @@ ms.locfileid: "37370206"
 <a name="crit-identity-custom-sign-in"></a>
 ## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>Необязательное требование: экран входа в Office 365 персонализирован для вашей организации
 
-Вы добавили фирменную символику своей организации на страницу входа Office 365 с помощью функции [добавления фирменной символики своей компании на страницы входа и панели доступа](http://aka.ms/aadpaddbranding).
+Вы добавили фирменную символику своей организации на страницу входа Office 365 с помощью функции [добавления фирменной символики своей компании на страницы входа и панели доступа](https://aka.ms/aadpaddbranding).
 
 Если вы не выполните это требование, для ваших пользователей будет отображаться стандартный экран входа в Office 365, и они, возможно, не будут точно знать, что выполняют вход на сайт вашей организации.
 
