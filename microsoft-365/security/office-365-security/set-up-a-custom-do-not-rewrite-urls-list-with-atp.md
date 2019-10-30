@@ -15,17 +15,17 @@ ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
 description: При настройке политик безопасных ссылок ATP можно включить список URL-адресов Do-not-Rewrite, чтобы разрешить некоторым пользователям в Организации посещать сайты, включенные в список.
-ms.openlocfilehash: 7debc03fd11ddcdf6fd930779c56d686e30fb389
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 512d4ce507c191b00bc2d21f61d5efbf2dffcb57
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090730"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772143"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка "не перезаписывать URL-адреса" с помощью безопасных ссылок Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для корпоративных клиентов, у которых есть [Office 365 Advanced Threat protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 В [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) в организации могут быть [Настраиваемые Заблокированные URL-адреса](set-up-a-custom-blocked-urls-list-wtih-atp.md), например, если пользователи щелкают веб-адреса (URL-адреса) в сообщениях электронной почты или определенных документах Office, они не смогут переходить к этим URL-адресам. В организации также могут быть настроены списки "не переопределять" для определенных групп в Организации. Список "не переопределять" позволяет некоторым пользователям посещать URL-адреса, которые в противном случае блокируются [безопасными ссылками ATP в Office 365](atp-safe-links.md). 
   
@@ -39,9 +39,9 @@ ms.locfileid: "37090730"
 
 |Role  |Где/как назначено  |
 |---------|---------|
-|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
-|администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Управление организацией Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
+|Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
+|Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> или  <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
 
 > [!TIP]
 > Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
@@ -69,19 +69,19 @@ ms.locfileid: "37090730"
 
 - Все URL-адреса, указанные в списке "не перезаписывать", будут исключены из проверки безопасных ссылок ATP для указанных получателей.
  
-- Если у вас уже есть список URL-адресов в списке "не переопределять", обязательно просмотрите список и добавьте подстановочные знаки. Например, если у имеющегося списка есть запись, `http://contoso.com/a` а вы хотите включить подпути, такие как `http://contoso.com/a/b` в вашей политике, добавьте к записи подстановочный знак, чтобы он выглядел `http://contoso.com/a*`так:
+- Если у вас уже есть список URL-адресов в списке "не переопределять", обязательно просмотрите список и добавьте подстановочные знаки. Например, если у имеющегося списка есть запись, `http://contoso.com/a` а вы хотите включить подпути, такие как `http://contoso.com/a/b` в вашей политике, добавьте к записи подстановочный знак, чтобы он выглядел `http://contoso.com/a/*`так:
     
 - Не включайте косую черту (/) в URL-адресах, указанных в списке "не переопределять". Например, вместо того, чтобы `contoso.com/` вводить в списке "не переопределять", введите `contoso.com`.
 
-- При указании списка "не переопределять" для политики безопасных ссылок ATP можно добавить до трех символов "звездочка" (\*). Подстановочные знаки\*() используются для явного включения префиксов или поддоменов, например `http://` или `https://`. Запись, например `contoso.com` , не совпадает `*contoso.com*` со списком "не переопределять". `*contoso.com*` Если вы хотите разрешить пользователям посещать домен и его дочерние домены и пути.
+- При указании списка "не переопределять" для политики безопасных ссылок ATP можно добавить до трех символов "звездочка" (\*). Подстановочные знаки\*() используются для явного включения префиксов или поддоменов, например `http://` или `https://`. Запись, например `contoso.com` , не совпадает `*.contoso.com/*` со списком "не переопределять". `*.contoso.com/*` Если вы хотите разрешить пользователям посещать домен и его дочерние домены и пути.
     
 В следующей таблице приведены примеры того, что можно ввести и какие действия имеют эти записи.
     
 |**Пример записи**|**Что он делает**|
 |:-----|:-----|
 |`contoso.com`|Позволяет получателям посещать сайт, как `http://contoso.com` , например, без поддоменов или путей.|
-|`*contoso.com*`  <br/> |Позволяет получателям посещать домен, дочерние домены и пути, например `http://www.contoso.com`, `https://www.contoso.com` `https://maps.contoso.com`,, или`http://www.contoso.com/a`  <br/> |
+|`*.contoso.com/*`  <br/> |Позволяет получателям посещать домен, дочерние домены и пути, например `http://www.contoso.com`, `https://www.contoso.com` `https://maps.contoso.com`,, или`http://www.contoso.com/a`  <br/> |
 |`http://contoso.com/a`  <br/> |Позволяет конкретным получателям посетить сайт, например `http://contoso.com/a`, недопустимые подпути, такие как`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a*`  <br/> |Позволяет конкретным получателям посещать подобные `http://contoso.com/a` и вложенные пути, такие как`http://contoso.com/a/b`  <br/> |
+|`http://contoso.com/a/*`  <br/> |Позволяет конкретным получателям посещать подобные `http://contoso.com/a` и вложенные пути, такие как`http://contoso.com/a/b`  <br/> |
    
  

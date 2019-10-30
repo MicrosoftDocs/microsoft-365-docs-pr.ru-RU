@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft Exchange Online Protection (EOP) — это облачная служба фильтрации электронной почты, которая помогает защитить организацию от нежелательной почты и вредоносных программ, а также включает функции, позволяющие защитить организацию от нарушения политики обмена сообщениями.
-ms.openlocfilehash: e091946792e78f47f5c0ab5a001bf45ca4de6b08
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: b00de649bf0517d3c5cda99f1c20579ad1dfeec5
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440456"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772273"
 ---
 # <a name="exchange-online-protection-overview"></a>Обзор Exchange Online Protection
 
@@ -56,13 +56,13 @@ Microsoft Exchange Online Protection (EOP)  это облачная служб
 
 ## <a name="eop-plans-and-features"></a>Планы и возможности EOP
 
-Ниже приведены доступные планы подписки EOP:
+Доступные планы подписки на EOP:
 
-- **EOP standalone**: где EOP защищает ваши локальные почтовые ящики.
+- **EOP standalone**: вы регистрируетесь в EOP, чтобы защитить локальную почтовую организацию.
 
-- **Функции EOP в Exchange Online**: где EOP защищает облачные почтовые ящики Exchange Online.
+- **Функции EOP в Exchange Online**: любая подписка, включающая Exchange Online (изолированная или в составе Office 365), использует EOP для защиты почтовых ящиков Exchange Online.
 
-- **Клиентская лицензия на Exchange Enterprise со службами**: где EOP защищает ваши локальные почтовые ящики, например EOP, и включает защиту от потери данных (DLP) и создание отчетов с помощью веб-служб.
+- **Клиентская лицензия Exchange Enterprise CAL со службами**: если у вас есть локальная организация Exchange, в которой вы приобрели дополнительные лицензии на Exchange Enterprise CAL со СЛУЖБАМИ, EOP является частью включенных служб.
 
 Сведения о требованиях, ограничениях и доступности функций во всех планах подписки EOP см. на странице [Описание службы Exchange Online Protection](https://go.microsoft.com/fwlink/p/?LinkId=320619).
 
