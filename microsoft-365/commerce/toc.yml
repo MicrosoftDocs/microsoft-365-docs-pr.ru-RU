@@ -25,7 +25,7 @@
         - name: Управление профилями выставления счетов
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
         - name: Директива служб платежей 2 и надежная проверка подлинности клиентов
-          href: /microsoft-365/commerce/billing-and-payments/psd2.md
+          href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: Счета выставления счетов
       items:
         - name: Управление сведениями учетных записей для выставления счетов
