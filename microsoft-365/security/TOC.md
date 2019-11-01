@@ -14,7 +14,9 @@
 
 ## [Конфигурации доступа для удостоверений и устройств](../enterprise/microsoft-365-policies-configurations.md)
 ### [Необходимая работа](../enterprise/identity-access-prerequisites.md)
-### [Основные политики идентификации и доступа для устройств](../enterprise/identity-access-policies.md)
+### [Основные политики доступа для удостоверений и устройств](../enterprise/identity-access-policies.md)
+### [Политики для гостей и внешних пользователей](../enterprise/identity-access-policies-guest-access.md)
+### [Рекомендуемые политики доступа Teams](../enterprise/teams-access-policies.md)
 ### [Рекомендуемые политики доступа Exchange Online](../enterprise/secure-email-recommended-policies.md)
 ### [Рекомендуемые политики доступа SharePoint Online](../enterprise/sharepoint-file-access-policies.md)
 

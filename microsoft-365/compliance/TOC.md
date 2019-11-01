@@ -82,6 +82,12 @@
 #### [Сведения об устаревших продуктах для службы шифрования сообщений Office 365](legacy-information-for-message-encryption.md)
 #### [Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
 
+## [Общие сведения о классификации данных (предварительная версия)](data-classification-overview.md)
+### [Просмотр действий с метками (предварительная версия)](data-classification-activity-explorer.md)
+### [Начало работы с обучаемыми классификаторами (предварительная версия)](classifier-getting-started-with.md)
+### [Использование готового классификатора (предварительная версия)](classifier-using-a-ready-to-use-classifier.md)
+### [Создание и обучение классификатора (предварительная версия)](classifier-creating-a-trainable-classifier.md)
+
 # Управление информацией
 ## [Импорт данных](importing-pst-files-to-office-365.md)
 ### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
@@ -357,11 +363,16 @@
 
 # Управление рисками, связанными с соответствием требованиям
 ## [Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
-## [Диспетчер соответствия требованиям (классический)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-## [Диспетчер соответствия требованиям (предварительная версия)](compliance-manager-overview.md)
-### [Что изменилось в диспетчере соответствия требованиям (предварительная версия)](compliance-manager-release-notes.md)
-### [Работа с диспетчером соответствия требованиям (предварительная версия)](working-with-compliance-manager.md)
-### [Принцип вычисления рейтинга (предварительная версия)](compliance-score-methodology.md)
+## Рейтинг соответствия требованиям и диспетчер соответствия требованиям
+### [Рейтинг соответствия требованиям (предварительная версия)](compliance-score.md)
+### [Настройка рейтинга соответствия требованиям (предварительная версия)](compliance-score-setup.md)
+### [Работа с рейтингом соответствия требованиям (предварительная версия)](working-with-compliance-score.md)
+### [Расчет рейтинга соответствия требованиям (предварительная версия)](compliance-score-methodology.md)
+### [Заметки о выпуске рейтинга соответствия требованиям (предварительная версия)](compliance-score-release-notes.md)
+### [Диспетчер соответствия требованиям (предварительная версия)](compliance-manager-overview.md)
+#### [Что изменилось в диспетчере соответствия требованиям (предварительная версия)](compliance-manager-release-notes.md)
+#### [Работа с диспетчером соответствия требованиям (предварительная версия)](working-with-compliance-manager.md)
+#### [Диспетчер соответствия требованиям (устаревшая версия)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [Средство запросов субъектов данных GDPR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Защита информации в Office 365 в соответствии с GDPR](office-365-information-protection-for-gdpr.md)
