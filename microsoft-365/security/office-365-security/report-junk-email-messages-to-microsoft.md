@@ -14,12 +14,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Надстройка сообщения о нежелательной почте корпорации Майкрософт для Microsoft Office Outlook предоставляет несколько способов отправки отчетов о сообщениях нежелательной почты.
-ms.openlocfilehash: 622463be7aea51b0912965ff713c76e8961c51d3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4b53f6df11f2b0ee8fe6b20d3797d6e317c9a73e
+ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090995"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37964445"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Отправка отчетов о нежелательных сообщениях корпорации Майкрософт
 
@@ -34,7 +34,7 @@ ms.locfileid: "37090995"
 Надстройка сообщения о нежелательной почте позволяет отправлять отчеты службе Microsoft Exchange Online Protection (EOP). Если ваш почтовый ящик не защищен этой службой, отправка вами отчетов о нежелательной почте не повлияет на ваши фильтры нежелательной почты. Дополнительные параметры нежелательной почты, которые применяются для всей организации, описаны в статьях [Как убедиться, что сообщение не помечено как нежелательное](https://go.microsoft.com/fwlink/p/?LinkId=534224) и [Блокировка нежелательной почты с помощью фильтра нежелательной почты Office 365 для предотвращения проблем с ложными отрицательными результатами](https://go.microsoft.com/fwlink/p/?LinkId=534225). Эти статьи пригодятся вам, если у вас есть права уровня администратора и вы хотите предотвратить ложные положительные и отрицательные результаты.
   
 > [!TIP]
-> Вы также можете отправлять нежелательные сообщения непосредственно в корпорацию Майкрософт, используя адрес электронной почты [Junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) и ложные положительные сообщения (Нежелательная почта), используя адрес электронной почты [not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com) . Дополнительные сведения о том, [как отправлять сообщения о нежелательной почте и мошеннических сообщениях в корпорацию Майкрософт для анализа](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md). 
+> Вы также можете отправлять нежелательные сообщения непосредственно в корпорацию Майкрософт, используя адрес электронной почты [Junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) и ложные положительные сообщения (Нежелательная почта), используя адрес электронной почты [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) . Дополнительные сведения о том, [как отправлять сообщения о нежелательной почте и мошеннических сообщениях в корпорацию Майкрософт для анализа](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md). 
   
 ### <a name="to-report-junk-email-messages-from-outlook"></a>Отправка отчетов о нежелательных сообщениях электронной почты из Outlook
 
