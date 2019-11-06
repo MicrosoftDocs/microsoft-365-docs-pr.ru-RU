@@ -3,7 +3,7 @@ title: Руководства по лаборатории тестировани
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/19/2019
+ms.date: 11/04/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 корпоративный.
-ms.openlocfilehash: 082d110ca7b25d3613ee276b30066683cd0232b5
-ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
+ms.openlocfilehash: dadde9d6366e2d5d12bf632d0b77bf60ba9cdbab
+ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "37733430"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37964433"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 корпоративный
 
@@ -32,9 +32,10 @@ ms.locfileid: "37733430"
   
 ![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-> [!TIP]
-> Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
-  
+Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+
+[![Руководства по лаборатории тестирования для Microsoft 365 корпоративный](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)
+
 ## <a name="base-configuration"></a>Базовая настройка
 
 Вначале нужно создать тестовую среду для [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Ви можете создать два типа базовой конфигурации.
@@ -117,6 +118,4 @@ ms.locfileid: "37733430"
     
    Настройка управления привилегированным доступом для своевременного доступа к задачам, требующим привилегий и разрешений повышенного уровня, в вашей организации Office 365.
 
-## <a name="see-also"></a>См. также
 
-[Тестирование Office 365 с помощью руководств по лабораторному тестированию для внедрения в облако](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
