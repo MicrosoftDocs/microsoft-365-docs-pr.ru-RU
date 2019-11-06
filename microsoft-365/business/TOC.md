@@ -1,5 +1,5 @@
 # Microsoft 365 бизнес
-## [Microsoft 365](index.md)
+## [Microsoft 365](index.yml)
 ## [Что такое Microsoft 365 бизнес?](microsoft-365-business-overview.md)
 ## [Получение Microsoft 365 бизнес](sign-up.md)
 ## [Предварительные требования для защиты данных](pre-requisites-for-data-protection.md)
@@ -32,7 +32,10 @@
 ### [Параметры защиты устройств для компьютеров с Windows 10](protection-settings-for-windows-10-pcs.md)
 #### [Проверка настроек на компьютерах с Windows 10](validate-settings-on-windows-10-pcs.md)
 ### [Параметры защиты приложений для компьютеров с Windows 10](protection-settings-for-windows-10-devices.md)
-## [Миграция на Microsoft 365 бизнес](migrate-to-microsoft-365-business.md)
+## Миграция на Microsoft 365 бизнес
+### [Миграция с Office 365 бизнес премиум](migrate-to-microsoft-365-business.md)
+### [Миграция с Office 365 E3](migrate-from-e3.md)
+### [Миграция на Microsoft 365 корпоративный](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Выставление счетов
 ### [Ваш счет](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Оплата](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
