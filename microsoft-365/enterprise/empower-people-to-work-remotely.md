@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Настройте инфраструктуру и систему безопасности, позволяющую вашим сотрудникам удаленно работать из любого места и в любое время.
-ms.openlocfilehash: bc36343d1bdce0f01ff91a5d3cece2b111c22dcb
-ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
+ms.openlocfilehash: 95b48112928902a046d837e5d02f025149028135
+ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "37733480"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37929202"
 ---
 # <a name="empower-remote-workers"></a>Возможности для удаленных работников
 
@@ -72,9 +72,9 @@ ms.locfileid: "37733480"
 
 <a name="poster"></a> 1-страничное краткое описание этого сценария приведено на [плакате "Возможности для удаленных работников"](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
 
-[![Плакат "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+[![Плакат "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
 
-Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/Empower-Remote-Workers-Poster.pptx) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/Empower-Remote-Workers-Poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
 
 ## <a name="phase-1-deploy-microsoft-365-features-and-capabilities-for-remote-workers"></a>Этап 1. Развертывание функций и возможностей Microsoft 365 для удаленных сотрудников

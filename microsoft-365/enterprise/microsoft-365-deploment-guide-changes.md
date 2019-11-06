@@ -3,7 +3,7 @@ title: Изменения содержимого развертывания Micr
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/30/2019
+ms.date: 10/31/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,31 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: 6c965efcbbfebe4fd80ac983674a7d183793e946
-ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
+ms.openlocfilehash: 605805d715243c9ef00f681616976be0f4b6b705
+ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37889938"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37929282"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 корпоративный
 
 ## <a name="october-2019"></a>Октябрь 2019 г.
 
 ### <a name="new-content"></a>Новое содержимое 
+
+
+- Плакат [Teams для строго регулируемых данных](secure-teams-highly-regulated-data-scenario.md#poster)
+
+  [Плакат ![Teams для строго регулируемых данных](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+
+  Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) и распечатать его на бумаге размера legal или tabloid (11 x 17).
+
+- Плакат [Сайты SharePoint для жестко регламентированных данных](teams-sharepoint-online-sites-highly-regulated-data.md#poster)
+
+  [Плакат ![Сайты SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
+
+  Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf) и распечатать его на бумаге размера legal или tabloid (11 x 17).
 
 - [Плакат "Развертывание Windows 10 с помощью Autopilot"](windows10-deploy-autopilot.md) 
 
@@ -47,7 +60,7 @@ ms.locfileid: "37889938"
 
 - [Плакат "Возможности для удаленных работников"](empower-people-to-work-remotely.md#poster)
 
-  [![Плакат "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
+  [![Плакат "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
  
 
 ### <a name="updates-and-enhancements"></a>Обновления и улучшения

@@ -3,7 +3,7 @@ title: Teams для строго регулируемых данных
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте защищенную команду для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: d917e14719744dad8a681e15a8547655c3a0457f
-ms.sourcegitcommit: d95aab99d7827dbb9248280044748ca05ebec786
+ms.openlocfilehash: c4a7c724b6fbb4515deba1a207eea31902f822e0
+ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37657806"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37929230"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams для строго регулируемых данных
 
 Эта статья содержит рекомендации и инструкции по настройке закрытой команды в Microsoft Teams, разрешающей доступ к функциям Teams, таким как чаты, собрания и файлы, только участникам и владельцам группы Office 365 команды. 
 
 Помимо закрытого доступа на основе группы Office 365, в этой статье описывается способ настройки базового закрытого сайта группы SharePoint, доступного из раздела **Файлы** канала команды. Это обеспечивает дополнительную защиту, требующуюся для хранения строго регулируемых данных. На этом сайте группы SharePoint можно хранить файлы, страницы, общий календарь, задачи, записную книжку и списки, а также совместно работать над ними.
+
+>[!Note]
+> Похожий сценарий, в котором используется SharePoint, см. [здесь](teams-sharepoint-online-sites-highly-regulated-data.md).
+>
 
 Элементы настройки команды для работы со строго регулируемыми данными:
 
@@ -39,7 +43,13 @@ ms.locfileid: "37657806"
 Ниже показана итоговая конфигурация с меткой конфиденциальности.
 
 ![Настройка сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
- 
+
+<a name="poster"></a> Одностраничную сводку этого сценария см. на плакате [Teams для строго регулируемых данных](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf).
+
+[Плакат ![Teams для строго регулируемых данных](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) и распечатать его на бумаге размера legal или tabloid (11 x 17).
+
 ## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>Этап 1. Настройка команды для строго регулируемых данных
 
 Полная настройка состоит из следующих этапов:
