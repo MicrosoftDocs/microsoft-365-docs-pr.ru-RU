@@ -23,27 +23,27 @@ sections:
           - href: intro/index.md
             html: '<p>Общие сведения о компьютерах, управляемых корпорацией Майкрософт, для лиц, принимающих решения, а также о том, как оно работает и что можно сделать для вас</p>'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_overview.svg'
+              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
             title: 'Что собой представляют компьютеры, управляемые Майкрософт?'
           - href: service-description/index.md
             html: '<p>Подробное описание всех частей компьютера, управляемого корпорацией Майкрософт</p>'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_get-started.svg'
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
             title: Описание службы
           - href: get-ready/index.md
             html: <p>Все действия по обеспечению готовности среды и Организации к работе со службой</p>
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_support.svg'
+              src: 'https://docs.microsoft.com/media/common/i_support.svg'
             title: Подготовка
           - href: get-started/index.md
             html: '<p>Познакомьтесь с вашей организацией с помощью управляемого рабочего стола Майкрософт, в том числе Настройка устройств и развертывание приложений</p>'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_whats-new.svg'
+              src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
             title: Начало работы
           - href: working-with-managed-desktop/index.md
             html: <p>Обо всех повседневных операциях со службой</p>
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_portal.svg'
+              src: 'https://docs.microsoft.com/media/common/i_portal.svg'
             title: 'Работа с компьютерами, управляемыми Майкрософт'
   - title: Новые статьи и записи в блогах
     items:
@@ -57,11 +57,11 @@ sections:
           - href: 'https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/'
             title: Блог Сотрудничество с клиентами и партнерами для доставки современного рабочего стола
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_architecture.svg'
+              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
           - href: 'https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html'
             title: 'Настоящей Управляемый Microsoft Desktop: все устройства с Windows 10, управляемые корпорацией Майкрософт'
             image:
-              src: 'https://docs.microsoft.com/en-us/media/common/i_guide.svg'
+              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
   - title: Видео
     items:
       - type: markdown
