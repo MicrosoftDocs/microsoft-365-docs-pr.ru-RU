@@ -1,18 +1,18 @@
 ---
-title: Действия для регистрации устройств для партнеров
+title: Этапы регистрации устройств для партнеров
 description: Как партнеры могут регистрировать устройства, чтобы они могли управляться с помощью Microsoft Managed Desktop
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 69d9387047cbb14a97f3da1d401b30a97bd7fd90
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 971b17d3f9fad15d5c254d47af9b6eb30b66633c
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982720"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011950"
 ---
-# <a name="steps-for-partners-to-register-devices"></a>Действия для регистрации устройств для партнеров
+# <a name="steps-for-partners-to-register-devices"></a>Этапы регистрации устройств для партнеров
 
 
 В этом разделе описываются действия, которые необходимо выполнить партнерам для регистрации устройств. Процесс регистрации устройств самостоятельно описывается в разделе [Регистрация устройств на рабочем столе, управляемом Майкрософт](register-devices-self.md).
@@ -20,7 +20,7 @@ ms.locfileid: "36982720"
 
 
 ## <a name="prepare-for-registration"></a>Подготовка к регистрации 
-Прежде чем завершить регистрацию клиента, необходимо сначала установить связь с ними в [центре партнеров](https://partner.microsoft.com/dashboard). Установите флажок **включить делегированные права администрирования для Azure Active Directory и Office 365**. Дополнительные сведения см. в [справке центра партнеров](https://docs.microsoft.com/en-us/partner-center/request-a-relationship-with-a-customer).
+Прежде чем завершить регистрацию клиента, необходимо сначала установить связь с ними в [центре партнеров](https://partner.microsoft.com/dashboard). Установите флажок **включить делегированные права администрирования для Azure Active Directory и Office 365**. Дополнительные сведения см. в [справке центра партнеров](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer).
 
 Чтобы завершить регистрацию клиента, сначала создайте CSV-файл.
 
@@ -49,7 +49,7 @@ ms.locfileid: "36982720"
 
 ## <a name="register-devices-by-using-the-azure-portal"></a>Регистрация устройств с помощью портала Azure
 
-Регистрация с помощью портала Azure выполняется так же, как и для самообслуживания, за исключением того, что вы обращаетесь к порталу по-другому. Выполните следующие действия:
+Регистрация с помощью портала Azure выполняется так же, как и для самообслуживания, за исключением того, что вы обращаетесь к порталу по-другому. Выполните следующие действия.
 
 1. Переход в [Центр партнеров](https://partner.microsoft.com/dashboard)
 2. Выберите **Customers (клиенты**).

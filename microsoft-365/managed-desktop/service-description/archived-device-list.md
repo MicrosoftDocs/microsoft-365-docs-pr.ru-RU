@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: c3674df0bfd797b9076bbf52379444665b1ce4d8
-ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
+ms.openlocfilehash: 70cde49eb162e33ee99d59eb2ba9782ac1b7db30
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857312"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012314"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -32,8 +32,8 @@ ms.locfileid: "34857312"
 
 | Модель  | Минимальные спецификации  | Дополнительные требования   | Дата выбытия |
 |---------|---------|---------|---------|
-|[Ноутбук поверхности](https://www.microsoft.com/en-us/p/surface-laptop-1st-gen-for-business/8w36k32zm453/g4vs?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **20 мая 2022 г.** |
-|[Surface Pro](https://www.microsoft.com/en-us/p/surface-pro-5th-gen-for-business/907tds4dgwwv/kkzn?cid=msft_web_collection&CustomerIntent=Consumer) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **15 июня 2022 г.** |
+|[Ноутбук поверхности](https://www.microsoft.com/p/surface-laptop-1st-gen-for-business/8w36k32zm453/g4vs?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **20 мая 2022 г.** |
+|[Surface Pro](https://www.microsoft.com/p/surface-pro-5th-gen-for-business/907tds4dgwwv/kkzn?cid=msft_web_collection&CustomerIntent=Consumer) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **15 июня 2022 г.** |
 
 
 Кроме того, устройство также должно:
