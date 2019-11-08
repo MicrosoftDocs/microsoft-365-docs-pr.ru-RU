@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Руководство по переходу с Windows 7 на Windows 10 в ручном режиме.
-ms.openlocfilehash: f148815a72c9315db2a6d55f7b8433cc9dddf448
-ms.sourcegitcommit: 12c4d5444d6e0e8825fc85e3e8453fa376746495
+ms.openlocfilehash: 13cdb56b52655ed81932601dd3ff97c90c1daad8
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395398"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033684"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Пошаговое руководство по переходу с Windows 7 на Windows 10 в ручном режиме
 
@@ -26,7 +26,7 @@ ms.locfileid: "35395398"
 
 ## <a name="windows-10-upgrades-using-the-media-creation-tool-or-iso-files"></a>Обновления до Windows 10 с помощью средства создания мультимедиа или ISO-файлов
 
-Вы можете сразу перейти на Windows 10 с помощью [средства создания мультимедиа](https://www.microsoft.com/en-us/software-download/windows10ISO) или использовать его, чтобы скачать Windows 10 в виде ISO-файла. Нужно учитывать архитектуру текущей системы (32- или 64-разрядная), язык системы по умолчанию и выпуск Windows 7 (например, Домашняя, Профессиональная или Корпоративная). В Windows 7 эта информация находится в разделе "Панель управления" \> "Система и безопасность" \> "Система". Средство создания мультимедиа не поддерживает Windows 10 Корпоративная для обновлений, создания установочного носителя или скачивания ISO-файлов. Если вы обновляетесь с Windows 7 Корпоративная, требуется Windows 10 Корпоративная.
+Вы можете сразу перейти на Windows 10 с помощью [средства создания мультимедиа](https://www.microsoft.com/software-download/windows10ISO) или использовать его, чтобы скачать Windows 10 в виде ISO-файла. Нужно учитывать архитектуру текущей системы (32- или 64-разрядная), язык системы по умолчанию и выпуск Windows 7 (например, Домашняя, Профессиональная или Корпоративная). В Windows 7 эта информация находится в разделе "Панель управления" \> "Система и безопасность" \> "Система". Средство создания мультимедиа не поддерживает Windows 10 Корпоративная для обновлений, создания установочного носителя или скачивания ISO-файлов. Если вы обновляетесь с Windows 7 Корпоративная, требуется Windows 10 Корпоративная.
 
 ![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
 
@@ -108,6 +108,6 @@ ms.locfileid: "35395398"
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>Переход на Windows 10 на новом компьютере
 
-Другой рекомендуемый вариант: переход на Windows 10 на новом компьютере. Если выбран этот вариант, вы сможете перенести файлы со старого компьютера, используя резервное копирование [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [функцию резервного копирования и восстановления, встроенную в Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), вручную используя [внешнее запоминающее устройство](https://support.microsoft.com/en-us/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) или такие средства, как [PCmover Express от Laplink](https://www.microsoft.com/en-us/windows/transfer-your-data). При использовании любого из этих вариантов по-прежнему потребуется переустановка всех необходимых приложений, не входящих в состав Windows 10. Дополнительные сведения о возможностях ручного перехода с существующего компьютера под управлением Windows 7 на новый компьютер с Windows 10 см. в статье [Переход на компьютер с Windows 10](https://support.microsoft.com/en-us/help/4229823?ocid=MoveToWindows10) в службе поддержки Windows.
+Другой рекомендуемый вариант: переход на Windows 10 на новом компьютере. Если выбран этот вариант, вы сможете перенести файлы со старого компьютера, используя резервное копирование [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [функцию резервного копирования и восстановления, встроенную в Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), вручную используя [внешнее запоминающее устройство](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) или такие средства, как [PCmover Express от Laplink](https://www.microsoft.com/windows/transfer-your-data). При использовании любого из этих вариантов по-прежнему потребуется переустановка всех необходимых приложений, не входящих в состав Windows 10. Дополнительные сведения о возможностях ручного перехода с существующего компьютера под управлением Windows 7 на новый компьютер с Windows 10 см. в статье [Переход на компьютер с Windows 10](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) в службе поддержки Windows.
 
 ## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[Центр развертывания компьютеров](https://aka.ms/howtoshift)

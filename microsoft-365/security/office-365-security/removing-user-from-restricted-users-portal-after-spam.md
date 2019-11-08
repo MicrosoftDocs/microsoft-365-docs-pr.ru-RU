@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 'Если пользователь постоянно рассылает из Office 365 нежелательную почту, он может лишиться возможности отправлять сообщения. '
-ms.openlocfilehash: d0409a16a8584e7561f04a30fcc4184bfa41d87c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4abb37bbda20d17b19144d6f62b4ef1a4fc8fb4c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090943"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032164"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты
 
@@ -34,7 +34,7 @@ ms.locfileid: "37090943"
 
 Предполагаемое время для завершения: 5 минут.
   
-Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
+Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
 
 Следующую процедуру также можно выполнить через удаленную оболочку PowerShell. Используйте командлет Get-BlockedSenderAddress, чтобы получить список пользователей с ограниченными правами, и командлет Remove-BlockedSenderAddress, чтобы снять ограничение. Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
@@ -81,10 +81,10 @@ ms.locfileid: "37090943"
 
 [Реагирование на компрометацию учетной записи электронной почты в Office 365](../../compliance/responding-to-a-compromised-email-account.md)
 
-[Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](https://docs.microsoft.com/ru-RU/office365/securitycompliance/alert-policies)
+[Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](https://docs.microsoft.com/office365/securitycompliance/alert-policies)
 
 [Пул доставки сообщений с высоким уровнем опасности](high-risk-delivery-pool-for-outbound-messages.md)
 
 [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 
-[Политики оповещений в центре безопасности и соответствия требованиям](https://docs.microsoft.com/ru-RU/office365/securitycompliance/alert-policies)
+[Политики оповещений в центре безопасности и соответствия требованиям](https://docs.microsoft.com/office365/securitycompliance/alert-policies)

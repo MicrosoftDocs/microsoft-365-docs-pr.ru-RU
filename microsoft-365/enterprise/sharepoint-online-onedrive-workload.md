@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Выполните по шагам процесс планирования, развертывания и эффективного использования SharePoint в вашей организации.
-ms.openlocfilehash: 0cad129cdca5f5dcc072f583b2b651a2547fc5fd
-ms.sourcegitcommit: 68c54a45dd663027528b99f883c6ef04b04b19b0
+ms.openlocfilehash: 74ab3b65597cdf1752dd5dbf9179724464c998a3
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37469151"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031644"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Развертывание SharePoint и OneDrive для Microsoft 365 корпоративный
 
@@ -165,7 +165,7 @@ SharePoint можно использовать для разных целей. �
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Чтобы заглянуть внутрь корпорации Майкрософт и узнать, как в ней выполнено развертывание SharePoint, см. статью [SharePoint в облаке: сведения о том, как корпорации Майкрософт удалось выполнить миграцию](https://www.microsoft.com/ru-RU/itshowcase/sharepoint-to-the-cloud-learn-how-microsoft-ran-its-own-migration).
+Чтобы заглянуть внутрь корпорации Майкрософт и узнать, как в ней выполнено развертывание SharePoint, см. статью [SharePoint в облаке: сведения о том, как корпорации Майкрософт удалось выполнить миграцию](https://www.microsoft.com/itshowcase/sharepoint-to-the-cloud-learn-how-microsoft-ran-its-own-migration).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

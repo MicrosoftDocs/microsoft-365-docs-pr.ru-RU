@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
-ms.openlocfilehash: 394120f811057258afe1bd29e60733e42bf5191a
-ms.sourcegitcommit: 4acd6fc368f547eb7a25d04799cb1a77003b143d
+ms.openlocfilehash: ada72460adffce46951b8784d90b6cfa29b35bc3
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37372720"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031104"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Сводка по безопасности Microsoft 365 корпоративный для корпорации Contoso
 
@@ -111,7 +111,7 @@ ms.locfileid: "37372720"
 
 - Предотвращение утечки данных интрасети с помощью защиты от потери данных Office 365
 
-  Корпорация Contoso настроила политики [защиты от потери данных](https://docs.microsoft.com/ru-RU/microsoft-365/compliance/data-loss-prevention-policies) для Exchange Online, SharePoint и OneDrive для бизнеса, чтобы пользователи не могли случайно или намеренно передавать конфиденциальные данные.
+  Корпорация Contoso настроила политики [защиты от потери данных](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) для Exchange Online, SharePoint и OneDrive для бизнеса, чтобы пользователи не могли случайно или намеренно передавать конфиденциальные данные.
 
 - Предотвращение утечек данных на устройстве с помощью Windows Information Protection
 

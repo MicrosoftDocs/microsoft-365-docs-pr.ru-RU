@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое изучение с последующим развертыванием Microsoft Teams в организации.
-ms.openlocfilehash: e6a4ccc1b7ec5989707e2195b66fa1cf987cd091
-ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
+ms.openlocfilehash: 3f4ed40f3c28e9b8ce5c22dfa9bd93e9b1a9e1cb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37889928"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033604"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Развертывание Microsoft Teams для Microsoft 365 корпоративный
 
@@ -63,8 +63,8 @@ ms.locfileid: "37889928"
 
 Загляните в корпорацию Майкрософт и узнайте, как мы развернули и используем Teams для совместной работы, прочтя следующие статьи:
 
-- [Стратегия внедрения Microsoft Teams готовит сотрудников к новой культуре работы](https://www.microsoft.com/ru-RU/itshowcase/microsoft-teams-adoption-strategy-prepares-employees-for-a-new-culture-of-work)
-- [Благодаря комнатам Microsoft Teams предоставляется глобально масштабируемый современный интерфейс для собраний](https://www.microsoft.com/ru-RU/itshowcase/with-microsoft-teams-rooms-comes-a-globally-scalable-modern-meeting-experience)
+- [Стратегия внедрения Microsoft Teams готовит сотрудников к новой культуре работы](https://www.microsoft.com/itshowcase/microsoft-teams-adoption-strategy-prepares-employees-for-a-new-culture-of-work)
+- [Благодаря комнатам Microsoft Teams предоставляется глобально масштабируемый современный интерфейс для собраний](https://www.microsoft.com/itshowcase/with-microsoft-teams-rooms-comes-a-globally-scalable-modern-meeting-experience)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 045f0e0fd2375c4342896668f69ce1305f4a1d43
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: b8d6ae3a6721a3563cc68fcec9dd7f9d470bb31e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981700"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031114"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -26,7 +26,7 @@ ms.locfileid: "36981700"
 
 Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная или Office 365 профессиональный плюс. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, включая System Center Configuration Manager, Аналитика компьютеров, центр развертывания Office, OneDrive, Windows Autopilot и т. д.
 
-При [развертывании компьютеров](http://www.aka.ms/howtoshift) с Windows 10 и Office 365 профессиональный плюс рекомендуется начать работу с создания изолированной лабораторной среды. Ее можно использовать для изучения обновлений средств развертываний и тестирования средств автоматизации, связанных с процессом развертывания.
+При [развертывании компьютеров](https://www.aka.ms/howtoshift) с Windows 10 и Office 365 профессиональный плюс рекомендуется начать работу с создания изолированной лабораторной среды. Ее можно использовать для изучения обновлений средств развертываний и тестирования средств автоматизации, связанных с процессом развертывания.
 
 Данный комплект занятий можно скачать совершенно бесплатно. При работе с ним вы будете использовать пробные версии программного обеспечения.
 
@@ -122,11 +122,11 @@ ms.locfileid: "36981700"
 
 ## <a name="additional-guidance"></a>**Дополнительные рекомендации**
 
-  - [Центр развертывания компьютеров](http://www.aka.ms/howtoshift)
+  - [Центр развертывания компьютеров](https://www.aka.ms/howtoshift)
 
-  - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](http://www.aka.ms/watchhowtoshift)
+  - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 
-  - [Развертывание ОС с помощью System Center Configuration Manager](https://docs.microsoft.com/ru-RU/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [Развертывание ОС с помощью System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Планирование развертывания Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

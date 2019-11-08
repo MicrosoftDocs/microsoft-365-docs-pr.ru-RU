@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте о трех средствах, которые можно использовать для отслеживания утечек персональных данных.
-ms.openlocfilehash: 51e681d751e9d36872a47fcde1390c3dda8a2184
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b4ca34f3446a0067c6497d844e5b79a78d0eb35e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091230"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032244"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Отслеживание утечек персональных данных
 
@@ -59,7 +59,7 @@ ms.locfileid: "37091230"
 
 Отчеты защиты от потери данных (DLP) можно просмотреть в Центре безопасности и Центре соответствия требованиям. Откройте Отчеты \> Просмотр отчетов. В разделе Защита от потери данных (DLP) перейдите либо по в раздел «Совпадения по правилу и политике защиты от потери данных», или в раздел «Ложные срабатывания и переопределения функции защиты от потери данных».
 
-Дополнительные сведения см. в статье [Просмотр отчетов о защите от потери данных](https://support.office.com/ru-RU/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
+Дополнительные сведения см. в статье [Просмотр отчетов о защите от потери данных](https://support.office.com/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
 
 ![Отчет, в котором показаны совпадения по политике защиты от потери данных](../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -77,21 +77,21 @@ ms.locfileid: "37091230"
 
 Кроме того, группы по обеспечению информационной безопасности могут выполнять поиск в журнале аудита для исследования потенциальных нарушений безопасности данных, определяя как первопричины, так и степень этих нарушений. Эта встроенная возможность позволяет обеспечить соответствие требованиям статей 33 и 34 регламента GDPR, согласно которым в течение определенного периода времени о нарушении безопасности данных требуется уведомить как надзорный орган GDPR, так и самих субъектов данных. Записи журнала аудита сохраняются в службе только на протяжении 90 дней. Тем не менее эти журналы часто рекомендуется хранить в течение большего периода времени (и так поступают многие организации).
 
-Доступны решения, которые обеспечивают подписку на единые журналы аудита с помощью API действий управления Microsoft, сохранение записей журналов (при необходимости) и предоставление расширенных панелей мониторинга и оповещений. Пример такого решения — [Microsoft Operations Management Suite (OMS)](https://docs.microsoft.com/ru-RU/azure/operations-management-suite/oms-solution-office-365).
+Доступны решения, которые обеспечивают подписку на единые журналы аудита с помощью API действий управления Microsoft, сохранение записей журналов (при необходимости) и предоставление расширенных панелей мониторинга и оповещений. Пример такого решения — [Microsoft Operations Management Suite (OMS)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365).
 
 Дополнительные сведения о политиках оповещений и поиске в журнале аудита:
 
--   [Политики оповещений в Центре безопасности и соответствия требованиям Microsoft 365](https://support.office.com/ru-RU/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+-   [Политики оповещений в Центре безопасности и соответствия требованиям Microsoft 365](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
--   [Поиск действий пользователей и администраторов в журнале аудита в Office 365](https://support.office.com/ru-RU/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (введение)
+-   [Поиск действий пользователей и администраторов в журнале аудита в Office 365](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (введение)
 
--   [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/ru-RU/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+-   [Включение и отключение поиска в журнале аудита Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   [Поиск в журнале аудита](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [Поиск в журнале аудита](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx) (командлет) 
+-   [Search-UnifiedAuditLog](https://technet.microsoft.com/library/mt238501(v=exchg.160).aspx) (командлет) 
 
--   [Подробные свойства в журнале аудита Office 365](https://support.office.com/ru-RU/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+-   [Подробные свойства в журнале аудита Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -125,11 +125,11 @@ Microsoft Cloud App Security — это полнофункциональная 
 
 Дополнительные сведения:
 
--   [Развертывание Cloud App Security](https://docs.microsoft.com/ru-RU/cloud-app-security/getting-started-with-cloud-app-security)
+-   [Развертывание Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Дополнительные сведения о Microsoft Cloud App Security](https://www.microsoft.com/ru-RU/cloud-platform/cloud-app-security)
+-   [Дополнительные сведения о Microsoft Cloud App Security](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
--   [Блокировка скачивания конфиденциальных данных с помощью прокси-сервера Microsoft Cloud App Security](https://docs.microsoft.com/ru-RU/cloud-app-security/use-case-proxy-block-session-aad)
+-   [Блокировка скачивания конфиденциальных данных с помощью прокси-сервера Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>Примеры политик файлов и действий для обнаружения случаев предоставления общего доступа к персональным данным
 
@@ -141,7 +141,7 @@ Microsoft Cloud App Security — это полнофункциональная 
 <thead>
 <tr class="header">
 <th align="left"><strong>Элемент управления</strong></th>
-<th align="left"><strong>Параметры</strong></th>
+<th align="left"><strong>Настройки</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -216,7 +216,7 @@ Microsoft Cloud App Security — это полнофункциональная 
 <thead>
 <tr class="header">
 <th align="left"><strong>Элемент управления</strong></th>
-<th align="left"><strong>Параметры</strong></th>
+<th align="left"><strong>Настройки</strong></th>
 </tr>
 </thead>
 <tbody>

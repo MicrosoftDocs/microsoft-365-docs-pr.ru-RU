@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Описание раздела, посвященного устойчивости
-ms.openlocfilehash: 4c718674a70186b004d8fefc5381074dba81c164
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: f2fd50a662076904daf3133e0edf45808ef2c39d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122289"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031054"
 ---
 # <a name="built-in-resiliency"></a>Встроенная устойчивость
 
@@ -26,7 +26,7 @@ ms.locfileid: "37122289"
 
 **"Простой SharePoint Online**: любой период времени, в течение которого пользователи не могут читать или записывать какие-либо части семейства сайтов SharePoint Online, для которых у них есть соответствующие разрешения”.
 
-Определения простоя для каждой службы можно найти в [Соглашениях об уровнях обслуживания](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+Определения простоя для каждой службы можно найти в [Соглашениях об уровнях обслуживания](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
 
 Чтобы свести к минимуму простои, как запланированные, так и непредвиденные, службы Microsoft 365 разработаны и работают таким образом, чтобы обеспечивать высокую доступность и устойчивость к сбоям, при этом в них сделан акцент на четырех областях:
 

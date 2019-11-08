@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
-ms.openlocfilehash: 6cf9fb03c66f1cf4d1f20287f5dc121474898d5b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ca72ee800287bf8a90fe45f4aaa1de3400cb71e1
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090804"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038888"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -134,7 +134,7 @@ ms.locfileid: "37090804"
   
 Затем введите название организации, адрес и общий пароль и выполните эти команды в командной строке PowerShell или интегрированной среде сценариев (ISE):
   
-```
+```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
 $location="<the ISO ALPHA2 country code, such as US for the United States>"
 $commonPassword="<common password for all the new accounts>"
@@ -169,31 +169,31 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 Чтобы проверить динамическое членство в группах и групповое лицензирование:
   
 1. На вкладке браузера **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
-    
+
 2. На новой вкладке браузера**Центр администрирования Microsoft 365** щелкните **Пользователи**.
-    
+
 3. В списке пользователей выберите **Кандидат**.
-    
+
 4. В области свойств учетной записи **Кандидат** убедитесь, что:
-    
+
   - она входит в состав группы **Старший и стратегический персонал** (в разделе **Членство в группах**);
-    
+
   - ей назначены лицензии на **Enterprise Mobility + Security E5** и **Office 365 корпоративный E5** (в разделе **Лицензии на продукты**).
-    
+
 5. Закройте область учетной записи пользователя **Кандидат**.
-    
+
 ## <a name="record-values-for-future-reference"></a>Запишите значения для дальнейшего использования
 
 Запишите эти значения для работы с пробными подписками Office 365 и EMS для этой среды разработки и тестирования:
   
 - Название вашей организации: ![](../media/Common-Images/TableLine.png) 
-    
+
     Например, для доменного имени contoso.onmicrosoft.com название организации — "contoso".
-    
+
 - Имя глобального администратора Office 365: ![](../media/Common-Images/TableLine.png).onmicrosoft.com
-    
+
     Запишите пароль для этой учетной записи и общий первоначальный пароль для других учетных записей пользователей в надежном месте.
-    
+
 ## <a name="next-step"></a>Следующий этап
 
 Создайте четыре типа для сайтов группы SharePoint Online в этой среде разработки и тестирования, следуя инструкциям из статьи [Создание сайтов группы в среде разработки и тестирования для политической кампании](create-team-sites-in-a-political-campaign-dev-test-environment.md).
@@ -207,7 +207,3 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 [Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-

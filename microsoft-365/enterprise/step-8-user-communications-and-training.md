@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовить пользователей к работе с Windows 10 и Office 365 профессиональный плюс.
-ms.openlocfilehash: 6592734c89ea280a658007f53020641a0bc956b8
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 46a9a21fe60d2cf16f0e24483c5e6ab261714b23
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814560"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033664"
 ---
 # <a name="step-8-user-communications-and-training"></a>Шаг 8. Информирование и обучение пользователей
 
@@ -55,11 +55,11 @@ ms.locfileid: "34814560"
 
 Вы также можете предоставить пользователям средства обеспечения безопасности и соответствия требованиям. Решение Enterprise Mobility + Security, которое состоит из Azure AD и Microsoft Intune, интегрирует дополнительные возможности в Windows 10 и Office 365.
 
-[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/ru-RU/cloud-platform/enterprise-mobility-security)
+[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
 
 Например, при включенной многофакторной проверке подлинности используется Azure AD. Для безопасного доступа к ресурсам и службам пользователь должен будет выполнить вход с помощью приложения для телефона или PIN-кода. Azure Information Protection упрощает классификацию и маркировку документов.
 
-[Настройка многофакторной проверки подлинности для пользователей Office 365](https://support.office.com/ru-RU/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[Настройка многофакторной проверки подлинности для пользователей Office 365](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 В распоряжении пользователей появятся новые возможности, некоторые из них станут приятным (или не столь приятным) сюрпризом. Такие сюрпризы, особенно меняющие привычный рабочий процесс, могут привести к увеличению числа звонков и запросов в службу технической поддержки.
 
@@ -101,7 +101,7 @@ ms.locfileid: "34814560"
 
 Вам будет проще собирать обучающие материалы, если вы пройдете полный видеокурс с пошаговыми инструкциями в библиотеке производительности Microsoft FastTrack.
 
-[Библиотека производительности Microsoft FastTrack](https://www.microsoft.com/en-us/microsoft-365/success/?rtc=2)
+[Библиотека производительности Microsoft FastTrack](https://www.microsoft.com/microsoft-365/success/?rtc=2)
 
 В библиотеке сотни тем, посвященных важным для вашей организации аспектам: созданию более впечатляющего содержимого, совместному использованию сайтов и содержимого, трансформации командной работы и значительному повышению производительности с помощью современных устройств.
 
