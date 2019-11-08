@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 'Ниже приведены ответы на самые распространенные общие вопросы об облачной службе фильтрации электронной почты Microsoft Exchange Online Protection (EOP). Другие разделы, посвященные вопросам и ответам, можно найти по следующим ссылкам:'
-ms.openlocfilehash: b49bb92cea781dc2c2120f1c0512a9de5182f16a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 838e69ad52dbb7f2012c5d8605e41c91ba4c6b7e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441506"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033870"
 ---
 # <a name="eop-general-faq"></a>Общие вопросы и ответы по EOP
 
@@ -33,7 +33,7 @@ ms.locfileid: "37441506"
 
 - [Вопросы и ответы по защите от вредоносных программ](anti-malware-protection-faq-eop.md)
 
-- [Вопросы и ответы по трассировке сообщений](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
+- [Вопросы и ответы по трассировке сообщений](https://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
 
 **Вопрос. Что такое EOP?**
   
@@ -63,7 +63,7 @@ ms.locfileid: "37441506"
   
 Ответ. В центре администрирования Microsoft 365 будет указана часть этих сведений. Если вы оказываете влияние на событие уровня обслуживания, то после входа в центр администрирования Microsoft 365 вы увидите оповещение о связи (обычно сопровождается значком колокольчика). Рекомендуем прочитать его и выполнить необходимые действия.
   
-Новые возможности EOP подробно рассматриваются в статье [Схема обновлений Office 365 для бизнеса](https://www.microsoft.com/microsoft-365/roadmap?filters=O365). Кроме того, мы будем отправлять статьи блогов о новых возможностях на веб-сайт [блогов Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/blog/) .
+Новые возможности EOP подробно рассматриваются в статье [Схема обновлений Office 365 для бизнеса](https://www.microsoft.com/microsoft-365/roadmap?filters=O365). Кроме того, мы будем отправлять статьи блогов о новых возможностях на веб-сайт [блогов Microsoft 365](https://www.microsoft.com/microsoft-365/blog/) .
   
 **Вопрос. Работает ли служба с прежними версиями Exchange (например, с Exchange Server 2010) и средами, не основанными на Exchange?**
   

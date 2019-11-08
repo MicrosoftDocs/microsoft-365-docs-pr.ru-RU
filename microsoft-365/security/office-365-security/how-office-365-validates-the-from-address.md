@@ -15,12 +15,12 @@ ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
 description: Чтобы защититься от фишинга, Office 365 и Outlook.com теперь требуют соответствия требованиям RFC для адресов:.
-ms.openlocfilehash: da1728b59ce100d988538d572a24ca1a44fa9a7b
-ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
+ms.openlocfilehash: ca3ec0ca6e9a2267c84549f26498b46479f74401
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749161"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032354"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Как Office 365 проверяет адрес отправителя для предотвращения фишинга
 
@@ -121,7 +121,7 @@ From: "Office 365" <sender@contoso.com> (Sent by a process)
 
 Для: адреса, включающие значение для отображаемого имени, применяются следующие правила.
   
-- Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки. Пример:
+- Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки. Например:
     
     Приведенный ниже пример является допустимым:
     
@@ -227,6 +227,6 @@ From: "Office 365" <sender@contoso.com> (Sent by a process)
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Подложные уведомления о недоставленном сообщении и EOP](https://technet.microsoft.com/en-us/library/dn499795%28v=exchg.150%29.aspx)
+[Подложные уведомления о недоставленном сообщении и EOP](https://technet.microsoft.com/library/dn499795%28v=exchg.150%29.aspx)
   
 

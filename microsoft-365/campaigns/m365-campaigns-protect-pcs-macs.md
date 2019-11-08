@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Защита от фишинга и других атак с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 686a69a7e712e80c4f58cade24a69465fb4e7d33
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 2533710ccb7b173f5cc1fd19b185fcd32b7801c9
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772456"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031294"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Защитите неуправляемые компьютеры с Windows 10 и Mac
 
@@ -48,9 +48,9 @@ ms.locfileid: "35772456"
 ## <a name="windows-10tabwindows10"></a>[Windows 10](#tab/Windows10)
 **Включение шифрования устройств**<p>
 
-Шифрование устройств доступно для широкого спектра устройств Windows и защищает данные путем их шифрования. Если включено шифрование устройства, только авторизованные пользователи смогут получать доступ к устройству и данным. Инструкции по [включению шифрования устройств](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption) .
+Шифрование устройств доступно для широкого спектра устройств Windows и защищает данные путем их шифрования. Если включено шифрование устройства, только авторизованные пользователи смогут получать доступ к устройству и данным. Инструкции по [включению шифрования устройств](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) .
 
- Если шифрование устройства недоступно на вашем устройстве, вместо этого можно включить стандартное [Шифрование BitLocker](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption) . (BitLocker недоступен в Windows 10 Home Edition.) 
+ Если шифрование устройства недоступно на вашем устройстве, вместо этого можно включить стандартное [Шифрование BitLocker](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) . (BitLocker недоступен в Windows 10 Home Edition.) 
 
 
 
@@ -59,10 +59,10 @@ ms.locfileid: "35772456"
 
 Центр обновления Windows автоматически загружает обновления для безопасности Windows, чтобы защитить компьютер и защитить его от угроз.
 
-Если вы используете более раннюю версию Windows и используете Microsoft Security Essentials, рекомендуется переместиться в систему безопасности Windows. Дополнительную информацию [можно узнать в статье Защита устройства с помощью безопасности Windows](https://support.microsoft.com/en-us/help/17464/windows-10-help-protect-my-device-with-windows-security) .
+Если вы используете более раннюю версию Windows и используете Microsoft Security Essentials, рекомендуется переместиться в систему безопасности Windows. Дополнительную информацию [можно узнать в статье Защита устройства с помощью безопасности Windows](https://support.microsoft.com/help/17464/windows-10-help-protect-my-device-with-windows-security) .
 
 **Включение брандмауэра Windows**<p>
-Следует всегда запускать брандмауэр Windows, даже если включен другой брандмауэр. Отключение брандмауэра Windows может сделать устройство (и сеть, если она есть) более уязвимым для несанкционированного доступа. Инструкции по [включению и отключению брандмауэра Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off)
+Следует всегда запускать брандмауэр Windows, даже если включен другой брандмауэр. Отключение брандмауэра Windows может сделать устройство (и сеть, если она есть) более уязвимым для несанкционированного доступа. Инструкции по [включению и отключению брандмауэра Windows](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off)
 
 ## <a name="mactabmac"></a>[Mac](#tab/Mac)
 **Использование Филеваулт для шифрования диска Mac**<p>

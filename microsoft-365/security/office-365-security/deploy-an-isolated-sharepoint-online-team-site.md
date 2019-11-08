@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: Сводка. С помощью этих пошаговых инструкций можно развернуть новый изолированный сайт группы SharePoint Online.
-ms.openlocfilehash: bd5915f43c6ff70477077f0047e0f2dfc97a874b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 67c6a5304e067ac847c9f8158d48a588ca118220
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091137"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38039118"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Развертывание изолированного сайта группы SharePoint Online
 
@@ -70,7 +70,7 @@ ms.locfileid: "37091137"
     
 4. В новой колонке **группы** :
     
-  - Выберите пункт **Безопасность** в **группе Тип**.
+  - В разделе **Тип группы** выберите **Безопасность**.
     
   - Введите имя группы в поле **имя**.
     
@@ -89,7 +89,7 @@ ms.locfileid: "37091137"
   
 ![Три группы доступа для развертывания изолированного сайта SharePoint Online.](../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
   
-### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>Шаг 5. Добавление учетных записей пользователей в группы доступа
+### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>Этап 5. Добавление учетных записей пользователей в группы доступа
 
 На этом шаге выполните указанные ниже действия.
   
@@ -109,7 +109,7 @@ ms.locfileid: "37091137"
   
 Затем используйте следующий блок команд для добавления отдельной учетной записи пользователя в группу доступа:
   
-```
+```powershell
 $userUPN="<UPN of the user account>"
 $grpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -120,7 +120,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalN
   
 Если вы сохранили имена участников-пользователей для учетных записей пользователей какой-либо из групп доступа в текстовом файле, воспользуйтесь следующим блоком команд PowerShell, чтобы добавить их все сразу:
   
-```
+```powershell
 $grpName="<display name of the access group>"
 $fileName="<path and name of the file containing the list of account UPNs>"
 $grpID=(Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -129,7 +129,7 @@ Get-Content $fileName | ForEach { $userUPN=$_; Add-AzureADGroupMember -RefObject
 
 Для добавления отдельной группы в группу доступа PowerShell используйте следующий блок команд:
   
-```
+```powershell
 $nestedGrpName="<display name of the group to add to the access group>"
 $grpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $nestedGrpName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -146,7 +146,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
     
 Проверяйте список участников группы для каждой группы доступа с помощью центра администрирования Microsoft 365 или с помощью следующего блока команд PowerShell:
   
-```
+```powershell
 $grpName="<display name of the access group>"
 Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID | Sort UserPrincipalName | Select UserPrincipalName,DisplayName,UserType
 ```
@@ -185,7 +185,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 3. На новой вкладке браузера **Разрешения** щелкните **Параметры запроса доступа**.
     
-4. В диалоговом окне **параметры запросов на доступ** снимите **флажок Разрешить участнику предоставлять общий доступ к сайту, отдельным файлам и папкам** и **разрешать запросы на доступ** (чтобы снять все три флажка), а затем нажмите кнопку **ОК**.
+4. В диалоговом окне **Параметры запросов на доступ** снимите флажки **Разрешить участникам совместный доступ к этому сайту, а также отдельным файлам и папкам** и **Разрешить запросы на доступ** (все три флажка должны быть сняты), а затем нажмите кнопку **OK**.
     
 5. На вкладке **разрешения** в браузере щелкните ** \<имя сайта> участников** в списке.
     

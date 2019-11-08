@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: Сводка. в этой статье описывается, как Office 365 использует запись The SPF TXT Framework (SPF) в DNS, чтобы убедиться в том, что конечные системы электронной почты доверяют сообщениям, отправленным из собственного домена. Это относится к исходящей почте, отправленной из Office 365. Сообщения, отправленные из Office 365 получателю в Office 365, всегда проходят проверку SPF.
-ms.openlocfilehash: 9a0cbbe29a43a223a006b1a8495d2522ca2386c4
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: 189b97de92386a7dc1a7a264ee1bb58cd367839a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772223"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033920"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Office 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 
@@ -127,7 +127,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 Воспользуйтесь сведениями о синтаксисе, представленными в этой статье, чтобы создать запись SPF TXT для личного домена. Здесь описаны наиболее часто используемые варианты синтаксиса, но существуют и другие. После создания записи необходимо обновить ее у регистратора доменных имен.
   
-Сведения о доменах, которые необходимо включить для Office 365, см. в статье [Внешние записи DNS для Office 365](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US). Следуйте [пошаговому руководству](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) по обновлению записей инфраструктуры политики отправителей (TXT) для своего регистратора доменных имен. Если ваш регистратор не указан, вам потребуется связаться с ним в личном порядке, чтобы узнать, как обновить запись. 
+Сведения о доменах, которые необходимо включить для Office 365, см. в статье [Внешние записи DNS для Office 365](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US). Следуйте [пошаговому руководству](https://office.microsoft.com/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) по обновлению записей инфраструктуры политики отправителей (TXT) для своего регистратора доменных имен. Если ваш регистратор не указан, вам потребуется связаться с ним в личном порядке, чтобы узнать, как обновить запись. 
   
 ### <a name="spf-txt-record-syntax-for-office-365"></a>Синтаксис записи SPF TXT для Office 365
 <a name="SPFSyntaxO365"> </a>

@@ -13,23 +13,23 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Используйте это руководство по лаборатории тестирования для включения привилегированного управления доступом в тестовой среде Microsoft 365 корпоративный.
-ms.openlocfilehash: df3a2138de105b45f472ff0a862af2afe6dd2a34
-ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
+ms.openlocfilehash: f701f3f8f74036966de2c516d662ef77341f4842
+ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "37733428"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033614"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Управление привилегированным доступом для вашей тестовой среды Microsoft 365 корпоративный
 
 С помощью инструкций, описанных в этой статье, вы настраиваете управление привилегированным доступом для повышения безопасности в тестовой среде Microsoft 365 Enterprise.
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Щелкните [здесь](https://aka.ms/m365etlgstack), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1: создание тестовой среды Microsoft 365 Enterprise
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1. Создание собственной тестовой среды Microsoft 365 корпоративный
 
 Если вы хотите просто настроить управление привилегированным доступом в упрощенной среде с минимальными требованиями, следуйте инструкциям в разделе [облегченная настройка конфигурации](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -44,15 +44,16 @@ ms.locfileid: "37733428"
 
 Выполните следующие действия, чтобы настроить и использовать привилегированный доступ в организации Office 365:
 
-- [Шаг 1: создание группы утверждающего](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration#step-1---create-an-approvers-group)
+- [Шаг 1: создание группы утверждающего](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-1-create-an-approvers-group)
 
     Прежде чем приступить к работе с правами на доступ к данным, определите, кто будет иметь право на утверждение входящих запросов на доступ к задачам с повышенными правами и привилегированным пользователям. Любой пользователь, являющийся участником группы утверждающих, сможет утверждать запросы на доступ. Эта возможность включена путем создания группы безопасности с включенной поддержкой почты в Office 365. Создайте в тестовой среде новую группу безопасности с именем "User-утверждающие права доступа" и добавьте "пользователь 3", созданный ранее в ходе предыдущего руководства по лаборатории тестирования.
 
-- [Шаг 2: включение привилегированного доступа](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration#step-2---enable-privileged-access)
+- [Шаг 2: включение привилегированного доступа](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-2-enable-privileged-access)
 
     Привилегированный доступ должен быть явно включен в Office 365 с группой утверждающих по умолчанию и включать набор системных учетных записей, которые необходимо исключить из управления доступом для управления привилегированным доступом. Обязательно включите привилегированный доступ в организации Office 365, прежде чем запускать 3 этапа этого руководства.
 
 ## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>Этап 3: Проверка необходимости утверждения для повышенных и привилегированных задач
+
 На этом этапе проверяется работоспособность политики привилегированного доступа, и пользователям требуется утверждение для выполнения определенных повышенных и привилегированных задач.
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>Возможность тестирования для выполнения задачи, не определенной в привилегированной политике доступа
@@ -63,9 +64,10 @@ ms.locfileid: "37733428"
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
-```
+```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -JournalEmailAddress barbara@adatum.com -Scope Global -Enabled $true
 ```
+
 4. Просмотр того, что новое правило журнала успешно создано в Exchange Management PowerShell.
 
 ### <a name="create-a-new-privileged-access-policy-for-the-new-journalrule-task"></a>Создание новой политики привилегированного доступа для новой задачи JournalRule
@@ -82,7 +84,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 4. Выберите пункт **Настройка политик** и нажмите кнопку **Добавить политику**.
 
 5. В раскрывающихся полях выберите или введите следующие значения:
-    
+
     **Тип политики**: задача
 
     **Область действия политики**: Exchange
@@ -97,16 +99,17 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 ### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>Проверка требования утверждения для новой задачи JournalRule, определенной в политике привилегированного доступа
 
-1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online с помощью учетной записи глобального администратора для тестирования. Environment.
+1. На локальном компьютере откройте и войдите в модуль > удаленного PowerShell Exchange Online в удаленном модуле PowerShell **** Microsoft**Exchange Online** с помощью учетной записи глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
-```
+```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
+
 3. В консоли управления Exchange PowerShell появляется сообщение об ошибке "Инсуффиент Permissions":
 
-```
+```ExchangeManagementPowerShell
 Insufficient permissions. Please raise an elevated access request for this task.
     + CategoryInfo          : NotSpecified: (:) [], LocalizedException
     + FullyQualifiedErrorId : [Server=CY1PR00MB0220,RequestId=7b8c7470-ddd0-4528-a01e-5e20ecc9bd54,TimeStamp=9/19/2018
@@ -152,12 +155,13 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
-```
+```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
+
 3. Просмотр того, что новое правило журнала успешно создано в Exchange Management PowerShell.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующее действие
 
 Узнайте о дополнительных возможностях и возможностях [защиты информации](m365-enterprise-test-lab-guides.md#information-protection) в тестовой среде.
 

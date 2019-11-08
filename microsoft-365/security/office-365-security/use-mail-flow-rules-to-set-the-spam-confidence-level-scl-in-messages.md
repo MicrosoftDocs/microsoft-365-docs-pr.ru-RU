@@ -14,12 +14,12 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать вероятность нежелательной почты для сообщений в Exchange Online Protection.
-ms.openlocfilehash: 627284a1c2a7463989ca3050b2becbff780cf3d6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8da95c5356f7cde47d378d93c721057959554631
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091190"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030633"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Указание вероятности нежелательной почты (SCL) в сообщениях с помощью правил потока обработки почты
 
@@ -29,7 +29,7 @@ ms.locfileid: "37091190"
   
 - Предполагаемое время для завершения каждой процедуры: 10 минут.
     
-- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "правила обработки почтового процесса" в разделе [разрешения функций в Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) или [в разделе разрешения компонентов в EOP](feature-permissions-in-eop.md). 
+- Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "правила обработки почтового процесса" в разделе [разрешения функций в Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) или [в разделе разрешения компонентов в EOP](feature-permissions-in-eop.md). 
     
 - Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
     

@@ -13,12 +13,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Вы можете создать правило для почтового процесса Exchange, чтобы пользователи не могли отправлять сообщения электронной почты в корпорацию Майкрософт для анализа и использовать их в собственных процессах безопасности.
-ms.openlocfilehash: 16075605892bcb6d7b99269a64c9c6acd0d3254e
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: d1b67d60d10ea9ce5d3ed47e20959c85d785e437
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441166"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030643"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты
 
@@ -28,7 +28,7 @@ ms.locfileid: "37441166"
 
 Предполагаемое время для завершения: 5 минут.
 
-Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "правила обработки почтового ящика" в разделе "правила обработки сообщений" в разделе " [Политика обмена сообщениями и соответствие требованиям](http://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) " и записи "Outlook в веб-почтовых ящиках" в разделе " [Клиенты и мобильные устройства](http://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx) ".
+Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "правила обработки почтового ящика" в разделе "правила обработки сообщений" в разделе " [Политика обмена сообщениями и соответствие требованиям](https://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) " и записи "Outlook в веб-почтовых ящиках" в разделе " [Клиенты и мобильные устройства](https://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx) ".
 
 Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 

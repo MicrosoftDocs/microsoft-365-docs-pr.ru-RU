@@ -14,12 +14,12 @@ ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
 description: Для получения справки по начальному этапу защиты данных, начиная с июля 2018 все подходящие клиенты, соответствующие требованиям Azure Information Protection, будут иметь функции защиты в Azure Information Protection, включенные по умолчанию. Функции защиты в Azure Information Protection ранее были известны в Office 365 как Rights Management или Azure RMS. Если у вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, вы получите головной офис, чтобы защитить информацию с помощью Azure Information Protection при выполнении этих функций.
-ms.openlocfilehash: 29fdadbe3c1126791dc31a78991a6060516d870a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: da10cdf9db7c17b2b9c9faadbcfbe953c7b625b2
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090503"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38039128"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Функции защиты в Azure Information Protection, выполняемые при развертывании существующих клиентов Office 365
 
@@ -30,14 +30,14 @@ ms.locfileid: "37090503"
 Начиная с 1 июля 2018 г. Корпорация Майкрософт включит функцию защиты в Azure Information Protection для всех клиентов Office 365, имеющих один из следующих планов подписки:
   
 - Шифрование сообщений Office 365 предлагается в составе Office 365 E3 и "3: E3", Microsoft E3 и "\", Office 365 a1, A3 и A5, а также Office 365 G3 и G5. Дополнительные лицензии не требуются для получения новых возможностей защиты на базе Azure Information Protection. 
-    
+
 - Вы также можете добавить план Azure Information Protection Plan 1 в следующие планы, чтобы получить новые возможности шифрования сообщений Office 365: Exchange Online (план 1), Exchange Online (план 2), Office 365 F1, Office 365 бизнес Essentials, Office 365 бизнес премиум или Office 365 корпоративный E1.
-    
+
 - Для каждого из пользователей, использующих шифрование сообщений Office 365, необходимо лицензироваться с помощью этой функции.
-    
+
 - В полном списке содержатся [описания служб Exchange Online](https://technet.microsoft.com/library/exchange-online-service-description.aspx) для шифрования сообщений Office 365. 
-    
-Администраторы клиентов могут проверить состояние защиты на портале администрирования Office 365. 
+
+Администраторы клиентов могут проверить состояние защиты на портале администрирования Office 365.
   
 ![Снимок экрана, на котором показано, что Управление правами в Office 365 активировано.](../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
   
@@ -62,29 +62,27 @@ ms.locfileid: "37090503"
 1. Несмотря на то, что дополнительные развертывания службы управления правами Active Directory публикуют точку подключения службы (SCP) в Active Directory, чтобы компьютеры домена могли обнаружить кластер AD RMS. 
   
 Используйте команду ADSI Edit, чтобы узнать, есть ли в Active Directory SCP, опубликованные в Active Directory: CN = Configuration [имя сервера], CN = Services, CN = Ригхтсманажементсервицес, CN = SCP
-    
-2. Если вы не используете точку подключения службы, то компьютеры с Windows, подключающиеся к кластеру AD RMS, должны быть настроены для обнаружения служб на стороне клиента или для перенаправления лицензирования с помощью реестра Windows: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\ServiceLocation или HKEY_ LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation 
+
+2. Если вы не используете точку подключения службы, то компьютеры с Windows, подключающиеся к кластеру AD RMS, должны быть настроены на обнаружение служб на стороне клиента или на перенаправление лицензирования с помощью реестра Windows: HKEY_LOCAL_MACHINE \Софтваре\микрософт\мсипк\сервицелокатион или HKEY_ LOCAL_MACHINE \SOFTWARE\Wow6432Node\Microsoft\MSIPC\ServiceLocation
   
 Для получения дополнительных сведений об этих конфигурациях реестра, ознакомьтесь со статьей [Включение обнаружения служб на стороне клиента с помощью реестра Windows](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#enabling-client-side-service-discovery-by-using-the-windows-registry) и [перенаправления трафика сервера лицензирования](https://docs.microsoft.com/azure/information-protection/rms-client/client-deployment-notes#redirecting-licensing-server-traffic).
-    
+
 ## <a name="i-use-ad-rms-how-do-i-opt-out"></a>Как отказаться от использования AD RMS?
 
 Чтобы отказаться от предстоящего изменения, выполните указанные ниже действия.
   
 1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в организации Office 365 запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
-    
+
 2. Выполните командлет Set – IRMConfiguration, используя следующий синтаксис:
-    
-  ```
-  Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false 
+
+  ```powershell
+  Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
   ```
 
 ## <a name="what-can-i-expect-after-this-change-has-been-made"></a>Что можно ожидать после внесения этого изменения?
 
-Если этот параметр включен, то вы можете начать использовать новую версию Office 365 Message Encryption, которая была объявлена в [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) и использует возможности шифрования и защиты данных Azure. Защитить. 
+Если этот параметр включен, то вы можете начать использовать новую версию Office 365 Message Encryption, которая была объявлена в [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) и использует возможности шифрования и защиты Azure Information Protection.
   
 ![Снимок экрана, на котором показано защищенное сообщение OME в Outlook в Интернете.](../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
   
 Более подробную информацию о новых возможностях можно узнать в статье [Шифрование сообщений в Office 365](../../compliance/ome.md).
-  
-

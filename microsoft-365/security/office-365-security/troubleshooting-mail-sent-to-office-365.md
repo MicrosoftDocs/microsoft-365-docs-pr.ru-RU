@@ -14,12 +14,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
-ms.openlocfilehash: 59c02b31b759870892846947940744e123c73788
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: b87b0745c95cd043987f49ed7f21118339d3e592
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441186"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030703"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
 
@@ -71,7 +71,7 @@ ms.locfileid: "37441186"
 
 Некоторые проблемы с доставкой возникают из-за того, что IP-адрес отправителя блокируется корпорацией Майкрософт или из-за того, что учетная запись пользователя заблокирована за рассылку спама. Если вы считаете, что получили отчет о недоставке по ошибке, то сначала выполните приведенные в нем инструкции.
 
-Дополнительные сведения о полученной ошибке см. в полном списке кодов ошибок SMTP в статье [DSNs and NDRs in On-Premises Exchange 2013 and Office 365](http://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx).
+Дополнительные сведения о полученной ошибке см. в полном списке кодов ошибок SMTP в статье [DSNs and NDRs in On-Premises Exchange 2013 and Office 365](https://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx).
 
  Например, если вы получаете указанный ниже отчет о недоставке, ваш IP-адрес отправителя заблокирован корпорацией Майкрософт.
 
@@ -108,7 +108,7 @@ ms.locfileid: "37441186"
 
 ### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Я не получаю почту от пользователей Office 365
 
- Чтобы получать сообщения от наших пользователей, убедитесь, что в вашей сети разрешены подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Для получения дополнительных сведений обратитесь к разделу [IP-адреса Exchange Online Protection](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges).
+ Чтобы получать сообщения от наших пользователей, убедитесь, что в вашей сети разрешены подключения с IP-адресов, которые EOP использует в наших центрах обработки данных. Для получения дополнительных сведений обратитесь к разделу [IP-адреса Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Рекомендации по массовой рассылке почты пользователям Office 365
 

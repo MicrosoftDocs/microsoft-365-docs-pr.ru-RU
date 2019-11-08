@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: В этом разделе объясняется, как настроить Microsoft Exchange Online Protection (EOP). Если вы приступите отсюда в мастере доменов Office 365, вернитесь к мастеру доменов Office 365, если вы не хотите использовать Exchange Online Protection. Если вы ищете дополнительные сведения о настройке соединителей, обратитесь к разделу Настройка обработки почты с помощью соединителей в Office 365.
-ms.openlocfilehash: ea8b1acd558c7231355412556df1330bd8a91ca1
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 189c3bb08609eb2604e77b5140e866711e8f1a09
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441216"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032004"
 ---
 # <a name="set-up-your-eop-service"></a>Настройка службы EOP
 
@@ -48,7 +48,7 @@ ms.locfileid: "37441216"
 
 ## <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>Действие 2. Добавление получателей и включение при необходимости пограничной блокировки на основе каталогов (DBEB)
 
-Перед настройкой передачи почты через службу EOP мы рекомендуем добавить в службу получателей. Это можно сделать несколькими способами, как описано в разделе [Управление почтовыми пользователями в EOP](manage-mail-users-in-eop.md). Кроме того, если вы хотите включить функцию пограничной блокировки на основе каталогов (DBEB) для принудительной проверки получателей в службе после их добавления, необходимо задать тип домена как "Уполномоченный". Дополнительные сведения о пограничной блокировке на основе каталогов см. в разделе [Use Directory Based Edge Blocking to Reject Messages Sent to Invalid Recipients](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-directory-based-edge-blocking).
+Перед настройкой передачи почты через службу EOP мы рекомендуем добавить в службу получателей. Это можно сделать несколькими способами, как описано в разделе [Управление почтовыми пользователями в EOP](manage-mail-users-in-eop.md). Кроме того, если вы хотите включить функцию пограничной блокировки на основе каталогов (DBEB) для принудительной проверки получателей в службе после их добавления, необходимо задать тип домена как "Уполномоченный". Дополнительные сведения о пограничной блокировке на основе каталогов см. в разделе [Use Directory Based Edge Blocking to Reject Messages Sent to Invalid Recipients](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking).
 
 ## <a name="step-3-use-the-eac-to-set-up-mail-flow"></a>Действие 3. Использование Центра администрирования Exchange для настройки потока обработки почты
 
@@ -60,7 +60,7 @@ ms.locfileid: "37441216"
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Действие 4. Разрешение доступа к входящему порту 25 для трафика SMTP
 
-После настройки соединителей подождите 72 часа, чтобы обновления записи DNS распространились. После этого настройте входящий порт 25 для трафика SMTP в брандмауэре или на почтовых серверах для приема почты только от центров данных EOP, в частности от IP-адресов, указанных в [IP-адреса службы Exchange Online Protection](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
+После настройки соединителей подождите 72 часа, чтобы обновления записи DNS распространились. После этого настройте входящий порт 25 для трафика SMTP в брандмауэре или на почтовых серверах для приема почты только от центров данных EOP, в частности от IP-адресов, указанных в [IP-адреса службы Exchange Online Protection](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges
 ). Так вы защитите локальную среду, ограничив область входящих сообщений, которые можете принимать. Кроме того, если на почтовом сервере настроены параметры, определяющие IP-адреса, которым разрешено подключаться для ретрансляции почты, обновите и эти параметры.
 
 > [!TIP]

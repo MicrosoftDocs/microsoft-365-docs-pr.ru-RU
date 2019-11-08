@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 description: С помощью Exchange Online Protection (EOP) для организации Exchange можно создавать группы с включенной поддержкой почты. EOP также позволяет определять или обновлять свойства групп, указывающие членство, адреса электронной почты и другие данные групп.
-ms.openlocfilehash: 1efbb32635d6dd2a66c1039b04f57c4910d927c4
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: af7198b9130236ff74b0c6d147ebae5a8916d7b0
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441526"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032314"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -42,7 +42,7 @@ ms.locfileid: "37441526"
 
 - В процедурах PowerShell, приведенных в этом разделе, используется метод пакетной обработки, который приводит к задержке распространения в течение нескольких минут до того, как результаты команд будут видны.
 
-- Чтобы узнать, как использовать Windows PowerShell для подключения к Exchange Online Protection, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell?view=exchange-ps).
+- Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell?view=exchange-ps).
 
 - Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
@@ -148,7 +148,7 @@ Get-Recipient "Seattle Employees" | Format-List "PrimarySmtpAddress"
 Update-EOPDistributionGroupMember -Identity "Seattle Employees" -Members @("Member1","Member2","Member3","Member4","Member5")
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в [статье Update – еопдистрибутионграупмембер](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/update-eopdistributiongroupmember).
+Подробные сведения о синтаксисе и параметрах можно найти в [статье Update – еопдистрибутионграупмембер](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/update-eopdistributiongroupmember).
 
 Чтобы получить список всех участников группы сотрудники в Сиэтле, выполните следующую команду:
 

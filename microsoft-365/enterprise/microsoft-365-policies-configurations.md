@@ -14,24 +14,24 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 1fae59706a77663090d4f29cc6a34b339c11e92c
-ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
+ms.openlocfilehash: eba186233efa5bebb980c4e16aafb0fe854910c9
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2019
-ms.locfileid: "37481307"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031324"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
 В этой серии статей описано, как настроить безопасный доступ к облачным службам с помощью продуктов Enterprise Mobility + Security (EMS), реализовав рекомендуемую среду и конфигурацию, в том числе заранее определенный набор политик условного доступа и связанные возможности. EMS — это основной компонент Microsoft 365. С помощью этого руководства вы можете защитить доступ ко всем службам, интегрированным с Azure Active Directory, включая службы Office 365, другие службы SaaS и локальные приложения, опубликованные с помощью прокси приложения Azure AD. 
 
-Эти рекомендации выравниваются с помощью оценки безопасности Майкрософт, а также [оценки удостоверения в Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score), и увеличивают эти показатели для вашей организации. Кроме того, эти рекомендации помогут вам реализовать эти [пять действий для защиты инфраструктуры удостоверений](https://docs.microsoft.com/en-us/azure/security/azure-ad-secure-steps). 
+Эти рекомендации выравниваются с помощью оценки безопасности Майкрософт, а также [оценки удостоверения в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score), и увеличивают эти показатели для вашей организации. Кроме того, эти рекомендации помогут вам реализовать эти [пять действий для защиты инфраструктуры удостоверений](https://docs.microsoft.com/azure/security/azure-ad-secure-steps). 
 
 Корпорация Майкрософт понимает, что некоторые организации имеют уникальные требования к среде или сложные сложности. Если вы используете одну из этих организаций, используйте эти рекомендации в качестве отправной точки. Тем не менее, в большинстве организаций эти рекомендации могут быть реализованы в соответствии с предписанными рекомендациями. 
 
 ## <a name="intended-audience"></a>Целевая аудитория
 
-Эти рекомендации предназначены для корпоративных архитекторов и ИТ-специалистов, знакомых с [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) и [Microsoft Enterprise Mobility + Security](http://microsoft.com/ems), которые включают, среди прочих, Azure Active Directory (идентификация), Майкрософт Intune (Управление устройствами) и Azure Information Protection (защита данных).
+Эти рекомендации предназначены для корпоративных архитекторов и ИТ-специалистов, знакомых с [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) и [Microsoft Enterprise Mobility + Security](https://microsoft.com/ems), которые включают, среди прочего, Azure Active Directory (идентификация), Microsoft Intune (Управление устройствами) и Azure Information Protection (защита данных).
 
 ### <a name="customer-environment"></a>Клиентская среда
 
@@ -69,7 +69,7 @@ ms.locfileid: "37481307"
 
 **Решения для защиты файлов в Office 365**<br/>
 ![Эскиз "решения для защиты файлов в Office 365"](../images/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
-[PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
 
 ## <a name="security-and-productivity-trade-offs"></a>Баланс между безопасностью и производительностью
 

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Защита от фишинга и других атак с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 66708fe214815640baf08adace292dee683e382b
-ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
+ms.openlocfilehash: be00cdc0c70c2a2f6ac9292e933031280b7c4616
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37593864"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029063"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Защита от фишинга и других атак
 
@@ -42,12 +42,12 @@ ms.locfileid: "37593864"
 
 **Уменьшение количества нежелательных сообщений**
 
-Следуйте этим [десятьм советам по уменьшению нежелательных сообщений](https://support.office.com/en-us/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6).
+Следуйте этим [десятьм советам по уменьшению нежелательных сообщений](https://support.office.com/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6).
 
 **Сообщить!**
 
 Сообщите о phishing-атаках и других мошеннических сообщениях электронной почты. Выберите сообщение, а затем на ленте выберите пункт **сообщение отчета** .
-Ниже приведены дополнительные сведения о сообщениях о [нежелательных и фишинговых сообщениях](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+Ниже приведены дополнительные сведения о сообщениях о [нежелательных и фишинговых сообщениях](https://support.office.com/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
 **Как избежать фишинга**
 - Никогда не отвечайте на сообщения электронной почты с запросом на отправку личных сведений или сведений об учетной записи.
@@ -56,11 +56,11 @@ ms.locfileid: "37593864"
 - Если электронное письмо поступило из компании, обратитесь в службу поддержки клиентов компании по телефону или через веб-браузер, чтобы проверить, является ли это сообщение подлинным.
 - Выполните поиск в Интернете по строке темы сообщения электронной почты, а затем слово "мошенники", чтобы узнать, сообщил ли кто-то другому о мошенничестве.
 
-Узнайте о пяти распространенных типах мошенничества, которые [работают с нарушениями, фишингом и подменой](https://support.office.com/en-us/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3).
+Узнайте о пяти распространенных типах мошенничества, которые [работают с нарушениями, фишингом и подменой](https://support.office.com/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3).
 
 **Проверка подлинности электронной почты для других пользователей**
 
-Помогите своим клиентам доверять вашим сообщениям, добавив цифровую подпись, чтобы подтвердить, что она поступает от вас. Просмотр [защищенных сообщений с помощью цифровой подписи](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
+Помогите своим клиентам доверять вашим сообщениям, добавив цифровую подпись, чтобы подтвердить, что она поступает от вас. Просмотр [защищенных сообщений с помощью цифровой подписи](https://support.office.com/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6).
 
 ## <a name="help-protect-your-campaign-from-online-threats"></a>Защитите свою кампанию от угроз из Интернета
 
@@ -75,6 +75,6 @@ ms.locfileid: "37593864"
 ## <a name="set-it-up"></a>Настройка
 
 Узнайте больше о том, как:
-- [Обеспечение безопасности файлов и коммуникаций в Office](https://support.office.com/en-us/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
-- [Оставайтесь в курсе безопасности и конфиденциальности на работе](https://support.office.com/en-us/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
+- [Обеспечение безопасности файлов и коммуникаций в Office](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
+- [Оставайтесь в курсе безопасности и конфиденциальности на работе](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
   

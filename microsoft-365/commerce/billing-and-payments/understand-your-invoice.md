@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 description: Сведения о том, как читать и изучать продукты Майкрософт для бизнеса.
 keywords: счета выставления счетов, сведения об организации, счета
-ms.openlocfilehash: e0af9ec0808de97e55ef550c6feb51a146dbb5f6
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 79d652f56617837019322b7329d918488283659a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646456"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029043"
 ---
 # <a name="understand-your-invoice"></a>Знакомство со счетом
 
 В счете представлена сводная информация о расходах и инструкциях по оплате. Вы можете [Просмотреть свою электронную накладную](#view-your-online-invoice) в центре администрирования Microsoft 365. Вы также можете скачать его в формате переносимых документов (. PDF) для отправки по электронной почте.
 
-Если у вас есть подписка на Office 365, ознакомьтесь со статьей [Просмотр счета для office 365 для бизнеса](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice).
+Если у вас есть подписка на Office 365, ознакомьтесь со статьей [Просмотр счета для office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice).
 
 ## <a name="understand-the-invoice-header"></a>Общие сведения о заголовке счета
 
@@ -50,13 +50,13 @@ ms.locfileid: "37646456"
 | --- | --- |
 | Отчисления|Общее количество продуктов, приобретенных для этого расчетного периода, а также связанные с ними расходы и налоги. Продажи объединяются, чтобы обеспечить краткий обзор вашей ведомости. |
 | Сведения об авторах |Кредиты, полученные от возврата |
-| Применяются кредиты Azure |Кредиты Azure, которые автоматически применяются к платежам за Azure за каждый расчетный период. Если у вас нет кредитов в Azure, это поле скрыто. Для получения дополнительных сведений о кредитах Azure обратитесь к разделу [Отслеживание кредитного баланса Azure по соглашению для клиентов](https://docs.microsoft.com/en-us/azure/billing/billing-mca-check-azure-credits-balance). |
+| Применяются кредиты Azure |Кредиты Azure, которые автоматически применяются к платежам за Azure за каждый расчетный период. Если у вас нет кредитов в Azure, это поле скрыто. Для получения дополнительных сведений о кредитах Azure обратитесь к разделу [Отслеживание кредитного баланса Azure по соглашению для клиентов](https://docs.microsoft.com/azure/billing/billing-mca-check-azure-credits-balance). |
 | Промежуточный итог |Подлежащие оплате сумма до уплаты |
 | Налог |Тип и сумма налога, который вы оплачиваете, в зависимости от страны профиля выставления счетов. Если вам не требуется платить налог, налог не отображается в счете. |
 
 ### <a name="understand-your-charges"></a>Общие сведения о расходах
 
-На страницах расходов показаны затраты на разбиение по продуктам. Для клиентов Azure сборы могут упорядочиваться по разделу "счет". Для получения дополнительных сведений о том, как разделы счетов используются с продуктами Azure, ознакомьтесь с [разделами накладных](https://docs.microsoft.com/en-us/azure/billing/billing-mca-overview#invoice-sections) в [начале работы с учетной записью выставления счетов для соглашения с клиентами Майкрософт](https://docs.microsoft.com/en-us/azure/billing/billing-mca-overview). В каждом заказе на продукты затраты разбиваются на семейство услуг.
+На страницах расходов показаны затраты на разбиение по продуктам. Для клиентов Azure сборы могут упорядочиваться по разделу "счет". Для получения дополнительных сведений о том, как разделы счетов используются с продуктами Azure, ознакомьтесь с [разделами накладных](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections) в [начале работы с учетной записью выставления счетов для соглашения с клиентами Майкрософт](https://docs.microsoft.com/azure/billing/billing-mca-overview). В каждом заказе на продукты затраты разбиваются на семейство услуг.
 
 | Термин |Описание |
 | --- | --- |
@@ -76,7 +76,7 @@ ms.locfileid: "37646456"
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-Если у вас есть расходы на поставку Azure по счету, о которых вы хотели бы больше узнать, ознакомьтесь со статьей общие сведения о [соглашении о клиентах корпорации Майкрософт](https://docs.microsoft.com/en-us/azure/billing/billing-mca-understand-your-bill).
+Если у вас есть расходы на поставку Azure по счету, о которых вы хотели бы больше узнать, ознакомьтесь со статьей общие сведения о [соглашении о клиентах корпорации Майкрософт](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill).
 
 ## <a name="understand-the-last-invoice-page"></a>Знакомство со страницей последней накладной
 
@@ -110,4 +110,4 @@ ms.locfileid: "37646456"
 
 Если у вас возникли вопросы или вам нужна помощь по кредиту Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">Создайте запрос в службу поддержки с помощью службы Azure</a>.
 
-Если у вас возникли вопросы или вам нужна помощь по работе с накладной в центре администрирования Microsoft 365, [обратитесь в службу поддержки продуктов для бизнеса](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products).
+Если у вас возникли вопросы или вам нужна помощь по работе с накладной в центре администрирования Microsoft 365, [обратитесь в службу поддержки продуктов для бизнеса](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).

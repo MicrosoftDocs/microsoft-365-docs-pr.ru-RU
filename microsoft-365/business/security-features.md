@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Сведения о функциях безопасности, входящих в состав Microsoft 365 Business.
-ms.openlocfilehash: 0d1c35192bf82ac61e59356cda4d9fb29cb3d995
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636779"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031452"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
 
@@ -33,7 +33,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Функции безопасности центра администрирования Microsoft 365 Business
 
-[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Вы можете управлять многими функциями Microsoft 365 Business Security в центре администрирования, что позволяет включать и отключать эти функции в упрощенном виде. В центре администрирования можно выполнить следующие действия:
   
@@ -73,7 +73,7 @@ Microsoft 365 Business предлагает упрощенные функции 
 - **[Все возможности Intune на портале Azure](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
     Доступ к центру администрирования Intune на портале Azure позволяет настраивать дополнительные функции безопасности, такие как управление устройствами MacOS, iPhone и Android, а также расширенное управление устройствами для Windows, которые недоступны в корпорации Майкрософт 365 центр администрирования предприятия.
-- **Такой же [Условный доступ](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) , как и в плане Azure AD P1**
+- **Такой же [Условный доступ](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) , как и в плане Azure AD P1**
 
     Условный доступ поможет защитить организацию от риска входа в систему, попыток доступа к неожиданному сетевому или языковому стандарту, попыток доступа к небезопасным типам устройств и т. д. Политики условного доступа принудительно применяются после завершения первой проверки подлинности и используют сигналы из первого события проверки подлинности, чтобы определить, следует ли утверждать, отменять или больше проверять подлинность при подлинности (например, в качестве второй формы идентификации). Обязательно.
 

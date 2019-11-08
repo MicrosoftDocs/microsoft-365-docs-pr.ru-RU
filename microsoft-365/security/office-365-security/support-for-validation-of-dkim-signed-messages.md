@@ -13,12 +13,12 @@ ms.assetid: a4c95148-a00c-4d12-85ed-88520b547d97
 ms.collection:
 - M365-security-compliance
 description: Сведения о проверке подлинности подписанных сообщений DKIM в Exchange Online Protection и Exchange Online
-ms.openlocfilehash: 75c104af4b3e6126bac37024de2c7f6ab337a028
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 347b47c0b182aab32d032abaa864357cc5b242ce
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091438"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031714"
 ---
 # <a name="support-for-validation-of-dkim-signed-messages"></a>Поддержка проверки сообщений, подписанных с помощью DKIM
 
@@ -28,6 +28,6 @@ DKIM проверяет сообщение с цифровой подписью,
   
  `Authentication-Results: <contoso.com>; dkim=pass (signature was verified) header.d=example.com;`
   
-Администраторы могут создавать правила для [почтовых ящиков](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) Exchange (которые также называются правилами транспорта) на результаты проверки DKIM для фильтрации и маршрутизации сообщений по мере необходимости. 
+Администраторы могут создавать правила для [почтовых ящиков](https://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) Exchange (которые также называются правилами транспорта) на результаты проверки DKIM для фильтрации и маршрутизации сообщений по мере необходимости. 
   
 

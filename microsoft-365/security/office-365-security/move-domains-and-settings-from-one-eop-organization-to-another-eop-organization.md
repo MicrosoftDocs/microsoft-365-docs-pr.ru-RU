@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: В связи с изменением бизнес-требований иногда может понадобиться разделить отдельную организацию Microsoft Exchange Online Protection (EOP) (клиент) на две отдельные организации, объединить две организации в одну или переместить домены и настройки EOP из одной организации в другую.
-ms.openlocfilehash: 89f62a158801dc269cebafcb37f72bb5cb8c93b8
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: d1e2913b9263879b1d9a1ca9d20b6b623f2208cf
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441456"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032224"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Перемещение доменов и настроек из одной организации EOP в другую
 
@@ -51,11 +51,11 @@ ms.locfileid: "37441456"
   > [!NOTE]
   > Поддержка командлетов для экспорта и импорта коллекции правил обработки почты в настоящее время поддерживается только для планов подписки EOP Premium.
 
-Самый простой способ собрать все параметры — использовать PowerShell. Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](http://technet.microsoft.com/library/054e0fd7-d465-4572-93f8-a00a9136e4d1.aspx).
+Самый простой способ собрать все параметры — использовать PowerShell. Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://technet.microsoft.com/library/054e0fd7-d465-4572-93f8-a00a9136e4d1.aspx).
 
 После этого вы можете собрать все настройки и экспортировать их в XML-файл для импорта в целевой клиент. Как правило, выходные данные командлета **Get** для каждой настройки можно передать в командлет **Export-Clixml**, чтобы сохранить настройки в XML-файлах, как показано в приведенном ниже примере кода.
 
-В PowerShell Exchange Online Protection создайте каталог с именем Export в месте, которое легко найти и изменить в этом каталоге. Пример:
+В PowerShell Exchange Online Protection создайте каталог с именем Export в месте, которое легко найти и изменить в этом каталоге. Например:
 
 ```PowerShell
 mkdir C:\EOP\Export

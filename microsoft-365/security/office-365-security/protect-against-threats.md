@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Используйте эту статью в качестве руководства по настройке функций защиты от угроз.
-ms.openlocfilehash: 7d18c8901b1edcc9e5238ed092bdb27bec684b1b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7bad500d50deb5afb8a1adf984332446f6de1086
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091202"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032184"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
@@ -29,7 +29,7 @@ Office 365 включает различные функции защиты от 
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Подписки
 
@@ -37,8 +37,8 @@ Office 365 включает различные функции защиты от 
 
 |Тип защиты  |Требование к подписке  |
 |---------|---------|
-|Защита от вредоносных программ    | [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) EOP        |
-|Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office    | [Office 365 Advanced Threat protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) ПАКЕТА       |
+|Защита от вредоносных программ    | [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) (EOP)        |
+|Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office    | [Office 365 Advanced Threat protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP)       |
 |Защита от фишинга    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)      |
 |Расширенная защита от фишинга    | [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)   |
 |Защита от нежелательной почты     | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)       |
@@ -47,13 +47,13 @@ Office 365 включает различные функции защиты от 
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 
-Необходимо назначить соответствующую роль для настройки политик в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). В следующей таблице приводятся некоторые примеры. 
+Необходимо назначить соответствующую роль для настройки политик в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). В таблице приведено несколько примеров. 
 
 |Роль или группа ролей  |Дополнительные сведения  |
 |---------|---------|
-|Глобальный администратор Office 365 |[Роли администраторов в Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
-|администратор безопасности (Security Administrator). |[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Управление организацией Exchange Online |[Разрешения в Exchange Online](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
+|Глобальный администратор Office 365 |[Роли администраторов в Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|Администратор безопасности |[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Управление организациями в Exchange Online |[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
 Чтобы узнать больше, ознакомьтесь с [разрешениями в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
 
@@ -135,7 +135,7 @@ Office 365 включает различные функции защиты от 
 
 6. Нажмите кнопку **Сохранить**.
 
-Чтобы узнать больше, ознакомьтесь со статьей [Настройка политик безопасных ссылок на Office 365 ATP](set-up-atp-safe-links-policies.md). 
+Дополнительные сведения см. в статье [Настройка политик безопасных ссылок ATP в Office 365](set-up-atp-safe-links-policies.md). 
 
 ## <a name="part-3---anti-phishing-protection"></a>Часть 3 — Защита от фишинга
 
@@ -193,7 +193,7 @@ Office 365 включает различные функции защиты от 
 
 ### <a name="zero-hour-auto-purge-for-email"></a>Автоматическая очистка электронной почты с нулевым часовым значением
 
-[Автоматическое удаление нулевых часов](zero-hour-auto-purge.md) (ZAP) доступен в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description). Эта защита включается по умолчанию; Однако для вступления в последствия защиты должны выполняться следующие условия:
+[Автоматическая очистка](zero-hour-auto-purge.md) (ZAP) с нулевым часовым циклом доступна в подписках, включающих [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description). Эта защита включается по умолчанию; Однако для вступления в последствия защиты должны выполняться следующие условия:
 
 - Для действий нежелательной почты настраивается **Перемещение сообщения в папку нежелательной почты** в [политиках защиты от нежелательной почты](anti-spam-protection.md).
 
@@ -209,7 +209,7 @@ Office 365 включает различные функции защиты от 
 
 После того как вы настроили функции защиты от угроз, следите за тем, как работают эти функции, изучите и измените свои политики, а также следите за новыми функциями и обновлениями служб.
 
-|Действия  |Ресурсы для получения дополнительных сведений  |
+|Действия  |Дополнительные ресурсы  |
 |---------|---------|
 |Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты    |[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](../../compliance/view-email-security-reports.md)<br/>[Отчеты для Office 365 ATP](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)    |
 |При необходимости периодически проверяйте и изменяйте политики защиты от угроз.    |[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз для Office 365 и функции реагирования](keep-users-safe-with-office-365-ti.md)          |

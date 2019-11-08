@@ -15,17 +15,17 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection. Заблокированные URL-адреса будут применяться к сообщениям электронной почты и документам Office в соответствии с политиками безопасных ссылок ATP.
-ms.openlocfilehash: 738509978bfafb44cd289113ef77c3d12fb79a78
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ab79f86646ffd195b31d46980c3bd3bd3bb8f444
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090733"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032064"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для корпоративных клиентов, у которых есть [Office 365 Advanced Threat protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 В [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) в Организации может быть настроен список блокируемых адресов веб-сайтов (URL-адресов). Если URL-адрес заблокирован, пользователи, которые щелкают ссылки на заблокированный URL-адрес, отправляются на [страницу предупреждения](atp-safe-links-warning-pages.md) , напоминающую следующему изображению: 
   
@@ -43,9 +43,9 @@ ms.locfileid: "37090733"
 
 |Role  |Где/как назначено  |
 |---------|---------|
-|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
-|администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Управление организацией Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
+|Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
+|Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> или  <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
 
 > [!TIP]
 > Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
@@ -66,7 +66,7 @@ ms.locfileid: "37090733"
 
 При добавлении URL-адресов в список учитывайте следующие моменты. 
 
-- Не включайте косую черту ( **/**) в конце URL-адреса. Например, вместо ввода `http://www.contoso.com/`введите. `http://www.contoso.com`
+- Не включайте косую черту ( **/**) в конце URL-адреса. Например, вместо ввода `https://www.contoso.com/`введите. `https://www.contoso.com`
     
 - Можно указать URL-адрес только для домена (например `contoso.com` , `tailspintoys.com`или). При этом будут заблокированы нажатия на любой URL-адрес, содержащий домен.
 
@@ -76,10 +76,10 @@ ms.locfileid: "37090733"
     
 |**Пример записи**|**Что он делает**|
 |:-----|:-----|
-|`contoso.com` или `*contoso.com*`  <br/> |Блокирует домен, дочерние домены и пути, например `https://www.contoso.com`, и `http://sub.contoso.com``http://contoso.com/abc`  <br/> |
-|`http://contoso.com/a`  <br/> |Блокирует сайт `http://contoso.com/a` , но не дополнительные подпути, такие как`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a*`  <br/> |Блокирует сайт `http://contoso.com/a` и дополнительные подпути, такие как`http://contoso.com/a/b`  <br/> |
-|`http://toys.contoso.com*`  <br/> |Блокирует поддомен (в данном случае — "Toys"), но разрешить переход на другие URL-адреса доменов `http://contoso.com` ( `http://home.contoso.com`например, или).  <br/> |
+|`contoso.com` или `*contoso.com*`  <br/> |Блокирует домен, дочерние домены и пути, например `https://www.contoso.com`, и `https://sub.contoso.com``https://contoso.com/abc`  <br/> |
+|`https://contoso.com/a`  <br/> |Блокирует сайт `https://contoso.com/a` , но не дополнительные подпути, такие как`https://contoso.com/a/b`  <br/> |
+|`https://contoso.com/a*`  <br/> |Блокирует сайт `https://contoso.com/a` и дополнительные подпути, такие как`https://contoso.com/a/b`  <br/> |
+|`https://toys.contoso.com*`  <br/> |Блокирует поддомен (в данном случае — "Toys"), но разрешить переход на другие URL-адреса доменов `https://contoso.com` ( `https://home.contoso.com`например, или).  <br/> |
    
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Определение исключений для определенных пользователей в Организации

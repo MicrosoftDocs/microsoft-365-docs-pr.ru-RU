@@ -1,5 +1,5 @@
 ---
-title: Совместное использование файлов и видео
+title: Общий доступ к файлам и видео
 ms.author: stevhord
 author: twerner
 manager: scotv
@@ -22,14 +22,14 @@ search.appverid:
 - MET150
 - MOE150
 description: Совместное использование файлов и видеороликов в вашей кампании с помощью Microsoft Teams и SharePoint.
-ms.openlocfilehash: c554ba2b4e7945cefa9a1e7114b3726efa58561e
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 14daa826e7df961baefaf7f6e7a17530842aad25
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772346"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031194"
 ---
-# <a name="share-files-and-videos"></a>Совместное использование файлов и видео
+# <a name="share-files-and-videos"></a>Общий доступ к файлам и видео
 
 Если вам нужно контролировать, кто может просматривать, и кто может редактировать файлы, вам нужно хранить их в надежном месте, где можно убедиться в том, что разрешения применяются надлежащим образом. Вы можете использовать Microsoft Teams для хранения файлов, а затем совместно использовать их в или за пределами кампании с Microsoft Teams или путем отправки ссылок SharePoint. Отправка ссылки, а не вложения электронной почты, означает, что вы знаете, кто просматривает и изменяет файлы, и их нельзя просматривать или изменять без вашего разрешения. 
 
@@ -62,7 +62,7 @@ ms.locfileid: "35772346"
 
 Чтобы создать видео и предоставить к нему общий доступ, выполните указанные ниже действия.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWrv0F]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrv0F]
 
 Скачайте инфографики в [формате PDF](https://go.microsoft.com/fwlink/?linkid=2079435) или [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) , чтобы получить краткий обзор способов предоставления общего доступа к файлам.
 

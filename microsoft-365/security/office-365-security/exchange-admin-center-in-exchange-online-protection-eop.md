@@ -14,18 +14,18 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: "Центр администрирования Exchange \x97 это веб-консоль управления для Microsoft Exchange Online Protection."
-ms.openlocfilehash: 3c83e87e6fa88e8fbcc0f16a0043707a9c9ec93a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: bc825f7ebefa5d2d73a6e9cb954389a7d76cbd73
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441576"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032384"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Центр администрирования Exchange в Exchange Online Protection
 
 Центр администрирования Exchange  это веб-консоль управления для Microsoft Exchange Online Protection.
 
-Ищете версию этой статьи в Exchange Server? Обратитесь к [центру администрирования Exchange в exchange 2013](http://technet.microsoft.com/library/a9aea11a-6ba3-4f4a-a76e-79072e7cfc7d.aspx).
+Ищете версию этой статьи в Exchange Server? Обратитесь к [центру администрирования Exchange в exchange 2013](https://technet.microsoft.com/library/a9aea11a-6ba3-4f4a-a76e-79072e7cfc7d.aspx).
 
 Ищете версию этой статьи для Exchange Online? Обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 

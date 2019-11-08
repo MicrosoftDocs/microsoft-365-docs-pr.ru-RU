@@ -1,5 +1,5 @@
 ---
-title: 'Отправка отчетов о нежелательной почте и phishing-атаках в Outlook в Интернете '
+title: 'Создание отчетов о нежелательной почте и мошеннических сообщениях (фишинге) в Outlook в Интернете '
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +14,14 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Microsoft Outlook в Интернете может сообщать о нежелательной почте и phishing-атаках с помощью встроенных параметров отчетов электронной почты. Вы также можете сообщить корпорации Майкрософт, что сообщение было неправильно определено как нежелательное (спам).
-ms.openlocfilehash: 0191394c1e0c0f43c65af977c219630c65b6a292
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f066181e912060b137437893dee545787fa405a2
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089411"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031804"
 ---
-# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Отправка отчетов о нежелательной почте и phishing-атаках в Outlook в Интернете 
+# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Создание отчетов о нежелательной почте и мошеннических сообщениях (фишинге) в Outlook в Интернете 
 
 Неприятно, когда пользователи организации получают нежелательную почту или упускают из виду важное письмо, потому что оно ошибочно распознано как спам. Мы постоянно совершенствуем фильтры нежелательной почты Exchange Online Protection (EOP), делая их более точными. Вы и ваши пользователи можете помочь нам в этом. Пользователи Microsoft Outlook в Интернете могут сообщать о спаме и фишинговых сообщениях по электронной почте, используя соответствующие встроенные функции. Кроме того, вы можете сообщать сотрудникам корпорации Майкрософт о случаях, когда электронное письмо по ошибке определяется как нежелательная почта (спам).
   
@@ -64,7 +64,7 @@ ms.locfileid: "37089411"
 
 [Сведения о нежелательной почте и фишинге](https://go.microsoft.com/fwlink/p/?LinkId=270068)
 
-[Надстройка для создания отчетов о нежелательной почте для Microsoft Outlook](https://docs.microsoft.com/en-us/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
+[Надстройка для создания отчетов о нежелательной почте для Microsoft Outlook](https://docs.microsoft.com/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
   
   
 

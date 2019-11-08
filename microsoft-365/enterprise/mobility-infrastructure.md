@@ -13,16 +13,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: dd73f32ff3c830104777aeefb1271178031a5b0d
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: 72ddad03486bf2c7dcba682453fa3bcfbdd1162b
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37386146"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031154"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Этап 5: Управление мобильными устройствами для Microsoft 365 корпоративный
 
-![Этап 5: Управление мобильными устройствами](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
+![Этап 5. Управление мобильными устройствами](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
 
 *Эта функция применима к версиям Microsoft 365 корпоративный для E3 и, а также*
 
@@ -151,7 +151,7 @@ Intune — это мощная служба, включающая множест
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 
-Узнайте, как специалисты корпорации Майкрософт [управляют устройствами с помощью EMS](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR8).
+Узнайте, как специалисты корпорации Майкрософт [управляют устройствами с помощью EMS](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR8).
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Как корпорация Contoso реализовала Microsoft 365 корпоративный
 

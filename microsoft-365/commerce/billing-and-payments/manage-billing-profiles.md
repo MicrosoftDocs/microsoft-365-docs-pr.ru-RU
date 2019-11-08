@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Узнайте, как профили выставления счетов поддерживают накладные.
 keywords: Профиль выставления счетов, счета, расходы, управляемые расходы
-ms.openlocfilehash: bd963ff993a064615f0f7ad06c8f2cc5c3401ad2
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 9db8b949cb07c8386505234d9d88aa2627a752b5
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646455"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029053"
 ---
 # <a name="manage-billing-profiles"></a>Управление профилями выставления счетов
 Для коммерческих клиентов, которые покупают продукты и услуги от Майкрософт, профили выставления счетов позволяют настраивать, какие товары включаются в счет, а также как вы оплачиваете счета.
@@ -70,4 +70,4 @@ ms.locfileid: "37646455"
 
 Если у вас возникли вопросы или вам нужна помощь по работе с платами Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">Создайте запрос в службу поддержки с поддержкой Azure</a>.
 
-Если у вас возникли вопросы или вам нужна помощь по профилю выставления счетов в центре администрирования Microsoft 365, [обратитесь в службу поддержки продуктов для бизнеса](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products).
+Если у вас возникли вопросы или вам нужна помощь по профилю выставления счетов в центре администрирования Microsoft 365, [обратитесь в службу поддержки продуктов для бизнеса](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).

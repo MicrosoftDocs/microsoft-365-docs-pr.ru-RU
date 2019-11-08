@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
-ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
+ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37697772"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038956"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Общие сведения о Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Что такое Microsoft 365 Бизнес
 
-Microsoft 365 бизнес  это полный набор постоянно обновляемых офисных программ и средств для совместной работы, таких как Outlook, Word, Excel и другие продукты Office. Благодаря простой службе безопасности корпоративного уровня вы сможете надежно защитить свои рабочие файлы на устройствах с iOS, Android и Windows 10.
+Microsoft 365 Business — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от киберугрозами, защиты данных и управления устройствами.
   
 Microsoft 365 Business предназначено для использования до 300 лицензий, если вам требуется больше лицензий, обратитесь к разделу [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) Documentation для получения дополнительных сведений.
 
@@ -98,4 +98,4 @@ Microsoft 365 бизнес помогает **защититься от угро
 
 - Если у вас нет партнера и вы хотите получить Microsoft 365 Business, вы можете [приобрести его здесь](https://www.microsoft.com/microsoft-365/business) и выполнить инструкции по [регистрации](sign-up.md) .
 
-- Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.
+- Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.

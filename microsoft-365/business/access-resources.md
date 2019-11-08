@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры из Azure Active Directory, подключенной к устройству Windows 10.
-ms.openlocfilehash: 92e8ccb99dfece7687c25db84b81fc7bc7158d71
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 2af5d4b4f84f39f5b157313e5b38ef030da7263d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574685"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030541"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business
 
-Все устройства с Windows 10, которые присоединены к Azure Active Directory, будут иметь доступ ко всем облачным ресурсам, таким как приложения Office 365, и могут быть защищены корпорацией Майкрософт 365 Business. Чтобы разрешить доступ к локальным ресурсам, таким как бизнес-приложения, общие папки и принтеры, необходимо синхронизировать локальную службу Active Directory с Azure Active Directory с помощью [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). 
+Все устройства с Windows 10, которые присоединены к Azure Active Directory, будут иметь доступ ко всем облачным ресурсам, таким как приложения Office 365, и могут быть защищены корпорацией Майкрософт 365 Business. Чтобы разрешить доступ к локальным ресурсам, таким как бизнес-приложения, общие папки и принтеры, необходимо синхронизировать локальную службу Active Directory с Azure Active Directory с помощью [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect). 
 
-Чтобы узнать больше, ознакомьтесь со статьей [Введение в Управление устройствами в Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) .
+Чтобы узнать больше, ознакомьтесь со статьей [Введение в Управление устройствами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction) .
 Эти действия также описаны в следующих разделах.
 
 ## <a name="run-azure-ad-connect"></a>Запуск Azure AD Connect

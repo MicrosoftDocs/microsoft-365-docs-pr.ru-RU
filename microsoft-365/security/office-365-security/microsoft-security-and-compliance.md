@@ -11,22 +11,22 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: Подготовьтесь к работе с всеми новыми центрами безопасности и соответствия требованиям Microsoft 365
-ms.openlocfilehash: 839fe075f0d7d9038a3f3820f633ea9c643f3cf2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7b2cf40c812afc59116d42687cff6ceb0e7b0423
+ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091243"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034350"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>Новый центр безопасности Microsoft 365 и центр соответствия требованиям корпорации Майкрософт 365, как правило, доступны
 
 **Мы рады сообщить, что в настоящее время доступны все новые [центры безопасности Microsoft 365](#microsoft-365-security-center) и [центр соответствия требованиям Microsoft 365](#microsoft-365-compliance-center)**. В этой статье приводятся общие сведения о новых возможностях, [ожидаемых](#what-to-expect)и [необязательных лицензиях и разрешениях](#required-licenses-and-permissions).
 
-## <a name="microsoft-365-security-center"></a>Центр безопасности Microsoft 365
+## <a name="microsoft-365-security-center"></a>Центр безопасности Microsoft 365
 
 Новый [Центр безопасности Microsoft 365](../mtp/overview-security-center.md) содержит панель мониторинга, которая поможет вам управлять безопасностью и отслеживать их, а также управлять своими удостоверениями, данными, устройствами, приложениями и инфраструктурой. Вы также сможете легко получить доступ ко всем новым [оценкам безопасности Майкрософт](../mtp/microsoft-secure-score.md), новым отчетам об угрозе, новым сообщениям об угрозе и Cloud App Security Reports. 
 
-[![Новый центр безопасности Microsoft 365](../media/m365-security-center.png)](../mtp/overview-security-center.md)
+[![Новый Центр безопасности Microsoft 365](../media/m365-security-center.png)](../mtp/overview-security-center.md)
 
 Когда вы впервые используете Центр безопасности Microsoft 365, вы увидите сведения в верхней части экрана, чтобы помочь вам приступить к работе. Кроме того, вы узнаете, как легко перейти к функциям безопасности, которые вы заинтересованы в изучении. Чтобы узнать больше, ознакомьтесь [со статьей Обзор центра обеспечения безопасности Microsoft 365](../mtp/overview-security-center.md).
 
@@ -35,13 +35,13 @@ ms.locfileid: "37091243"
 > [!NOTE]
 > Для доступа к центру обеспечения безопасности Microsoft 365 необходимо назначить допустимую роль Azure Active Directory. Чтобы узнать больше, ознакомьтесь с разделом [необходимые лицензии и разрешения](#required-licenses-and-permissions) (в этой статье).
 
-## <a name="microsoft-365-compliance-center"></a>Центр соответствия требованиям Microsoft 365
+## <a name="microsoft-365-compliance-center"></a>Центр соответствия требованиям Microsoft 365
 
-Новый [центр соответствия требованиям microsoft 365](../../compliance/microsoft-365-compliance-center.md) обеспечивает отображение в диспетчере соответствия требованиям, которое отражает общую возможность обеспечения соответствия требованиям и предоставляет вам Рекомендуемые действия по настройке параметров для удовлетворения сложного соответствия требованиям. кодом. 
+Новый [центр соответствия требованиям microsoft 365](../../compliance/microsoft-365-compliance-center.md) обеспечивает отображение в диспетчере соответствия требованиям Майкрософт, которое отражает общую возможность обеспечения соответствия требованиям и предоставляет рекомендуемые действия по настройке параметров для удовлетворения сложных обязательств по обеспечению соответствия требованиям. 
 
 Вы получите простой доступ к меткам и меткам хранения и политикам, предотвращению потери данных (DLP), управлению данными, обнаружению электронных данных, запросам субъектов данных (DSR), управлению делами и Cloud App Security. Кроме того, вы можете получить аналитические сведения о действиях и использовать интеллектуальную автоматизацию, чтобы уменьшить риски, связанные с обеспечением соответствия требованиям, и защитить цифровое пространство. 
 
-[![Центр соответствия требованиям Microsoft 365](../media/m365-compliance-center.png)](../../compliance/microsoft-365-compliance-center.md)
+[![Центр соответствия требованиям Microsoft 365](../media/m365-compliance-center.png)](../../compliance/microsoft-365-compliance-center.md)
 
 При первом использовании центра соответствия требованиям Microsoft 365 вы увидите сведения в верхней части экрана, чтобы помочь вам начать работу. Вы узнаете, как легко перейти к функциям соответствия, которые вы заинтересованы в изучении. Чтобы узнать больше, ознакомьтесь со статьей " [Добро пожаловать в новый центр соответствия требованиям Microsoft 365](../../compliance/microsoft-365-compliance-center.md)".
 
@@ -60,24 +60,24 @@ ms.locfileid: "37091243"
 
 ### <a name="easy-access"></a>Простота доступа!
 
-Благодаря улучшенной навигации, интегрированным решениям и упрощенному интерфейсу вы сможете просматривать и получать доступ к интересующей информации, а также использовать преимущества мощных решений по обеспечению безопасности и соответствия требованиям в Microsoft 365. В то время как в ближайшие месяцы добавляются дополнительные функции и решения, центр обеспечения безопасности & Office 365 ([https://protection.microsoft.com](https://protection.microsoft.com)) по-прежнему доступен.
+Благодаря улучшенной навигации, интегрированным решениям и упрощенному интерфейсу вы сможете просматривать и получать доступ к интересующей информации, а также использовать преимущества мощных решений по обеспечению безопасности и соответствия требованиям в Microsoft 365. В то время как в ближайшие месяцы добавляются дополнительные функции и решения, центр обеспечения безопасности & Office 365 ([https://protection.office.com](https://protection.office.com)) по-прежнему доступен.
 
 Чтобы получить доступ к центру & безопасности Office 365, на панели навигации в левой части экрана выберите пункт **Дополнительные ресурсы**. Затем в разделе **центр & безопасности Office 365**нажмите кнопку **Открыть**.
 
 ### <a name="smooth-transition"></a>Плавный переход!
 
-Вы можете ожидать плавного перехода на новые центры. Наконец, бывший центр соответствия требованиям Microsoft 365 Security & ([https://protection.microsoft.com](https://protection.microsoft.com)) будет отменен. Несмотря на то, что взаимодействие с администратором изменится, это не повлияет на текущие настройки безопасности и соответствия требованиям. Если у вашей организации есть Microsoft 365 корпоративный E3 или "е", администраторы безопасности и соответствия требованиям могут:
+Вы можете ожидать плавного перехода на новые центры. В конечном итоге, бывший центр соответствия требованиям Microsoft 365 по безопасности & будет снят. Несмотря на то, что взаимодействие с администратором изменится, это не повлияет на текущие настройки безопасности и соответствия требованиям. Если у вашей организации есть Microsoft 365 корпоративный E3 или "е", администраторы безопасности и соответствия требованиям могут:
 
-- Перейти непосредственно к [https://security.microsoft.com](https://security.microsoft.com) разделу и [https://compliance.microsoft.com](https://compliance.microsoft.com); <br>или  
+- Перейти непосредственно к [https://security.microsoft.com](https://security.microsoft.com) разделу и [https://compliance.microsoft.com](https://compliance.microsoft.com); <br> или   
 - Перейдите в[https://admin.microsoft.com](https://admin.microsoft.com)центр администрирования Microsoft 365 () и перейдите к нему (в области навигации щелкните **Показать все**, а затем выберите **Безопасность** или **соответствие требованиям**).
 
-Кроме того, вы по-прежнему можете настраивать параметры и управлять ими в существующем центре обеспечения безопасности & Office[https://protection.office.com](http://protection.office.com)365 (). Ваши конфигурации будут поддерживаться как в существующем центре безопасности Office 365 & соответствие требованиям, так и в новом центре безопасности Microsoft 365 и центре безопасности Майкрософт 365.  
+Кроме того, вы по-прежнему можете настраивать параметры и управлять ими в существующем центре обеспечения безопасности & Office[https://protection.office.com](https://protection.office.com)365 (). Ваши конфигурации будут поддерживаться как в существующем центре безопасности Office 365 & соответствие требованиям, так и в новом центре безопасности Microsoft 365 и центре безопасности Майкрософт 365.  
 
 ## <a name="required-licenses-and-permissions"></a>Необходимые лицензии и разрешения
 
 ### <a name="licenses"></a>Лицензии
 
-Чтобы получить новый центр безопасности Microsoft 365 и центр соответствия требованиям Microsoft 365, ваша организация должна иметь подписку на Microsoft 365 E3 или элемент управления "Корпоративная", а также в том, что входит в состав Office 365 E3, Enterprise Mobility + Security E3 или, а также Windows 10 Корпоративная, E3 и т. д. Чтобы узнать больше об этих планах, ознакомьтесь со статьей [найти решение Microsoft 365, которое вам подходит](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+Чтобы получить новый центр безопасности Microsoft 365 и центр соответствия требованиям Microsoft 365, ваша организация должна иметь подписку на Microsoft 365 E3 или "1 Корпоративная" или эквивалент корпоративного лицензирования (который состоит из Office 365 E3 или 5-10, Enterprise Mobility + Security E3 или "/1", а также для Windows 10 Корпоративная/1/10). Чтобы узнать больше об этих планах, ознакомьтесь со статьей [найти решение Microsoft 365, которое вам подходит](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
 ### <a name="roles-and-permissions"></a>Роли и разрешения
 
@@ -95,16 +95,16 @@ ms.locfileid: "37091243"
 
 |Узла |Глобальный администратор |Администратор безопасности, оператор безопасности или средство чтения безопасности|Администратор соответствия требованиям или администратор данных соответствия требованиям |
 |---------|---------|---------|---------|
-|[Центр безопасности & соответствия требованиям](https://protection.office.com) |Да |Да  |Да |
+|[Центр безопасности и соответствия требованиям Office 365](https://protection.office.com) |Да |Да  |Да |
 |[Центр безопасности Microsoft 365](https://security.microsoft.com) |Да  | Да  | Нет        |
 |[Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com) | Да | Нет | Да |
 |[Диспетчер соответствия требованиям](https://aka.ms/compliancemanager) |Да | Да |Да  |
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |Да |Да |Нет |
 |[Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/)  |Да |Да |Нет |
 |[Расширенная защита от угроз Azure](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |Да |Да |Нет |
-|[Пакет ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) |Да |Да |Нет |
-|[Защита удостоверений](https://docs.microsoft.com/azure/active-directory/identity-protection)     |Да |Да |Нет |
-|[Управление привилегированными пользователями (PIM)](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |Да |Да |Нет |
+|[ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) |Да |Да |Нет |
+|[Защита идентификации](https://docs.microsoft.com/azure/active-directory/identity-protection)     |Да |Да |Нет |
+|[Управление привилегированными пользователями](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |Да |Да |Нет |
 |[Intune](https://docs.microsoft.com/intune)     |Да |Да |Да |
 |[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |Да |Да |Да |
 |[Оценка безопасности](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |Да |Да |Нет |

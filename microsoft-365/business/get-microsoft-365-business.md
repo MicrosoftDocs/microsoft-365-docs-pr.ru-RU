@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Сведения о приобретении Microsoft 365 Business из центра партнеров Майкрософт.
-ms.openlocfilehash: cd13db200292f84ea736bbd27af69608e576e586
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 09d2f24fba1725278b663d5c3159163a56dcdc59
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574915"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038926"
 ---
 # <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
 
@@ -36,7 +36,7 @@ ms.locfileid: "37574915"
 
 Подробные инструкции можно найти [в статье регистрация в Microsoft 365 для бизнеса](sign-up.md) .
 
-Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.
+Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Получение Microsoft 365 Business в Центре партнеров Майкрософт
 
@@ -46,7 +46,7 @@ ms.locfileid: "37574915"
     
     ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. На странице **Подписка** выбранного клиента нажмите кнопку "Добавить подписку", выберите в каталоге вариант для малого бизнеса, а затем  **Microsoft 365 бизнес**.
+3. На странице " **Подписка** клиента" выберите **Добавить подписку**, выберите параметр малый бизнес в разделе Каталог, а затем выберите **Microsoft 365 бизнес**.
     
     Выберите нужное количество лицензий (не более 300). Если у вас больше 300 пользователей, ознакомьтесь со статьей [Microsoft 365 корпоративный](https://go.microsoft.com/fwlink/p/?linkid=862316) . 
     

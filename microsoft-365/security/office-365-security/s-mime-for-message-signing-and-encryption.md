@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Администраторы могут узнать об использовании S/MIME в Exchange Online.
-ms.openlocfilehash: 9b7ad73f1a7dd55abdc5a88a2f86344f5a2f0f5b
-ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
+ms.openlocfilehash: 64a76d1e9eebea86e548a06bf05d0030b0396d3d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608590"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032154"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME для подписи и шифрования сообщений в Exchange Online
 
@@ -76,6 +76,6 @@ S/MIME можно настроить для работы со следующим
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-[Outlook в Интернете](http://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[Outlook в Интернете](https://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
 
-[Безопасная почта (2000)](https://technet.microsoft.com/en-us/library/cc962043.aspx)
+[Безопасная почта (2000)](https://technet.microsoft.com/library/cc962043.aspx)

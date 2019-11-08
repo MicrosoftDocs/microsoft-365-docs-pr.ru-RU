@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 для кампаний
-ms.openlocfilehash: 02fb7f62466f5830f83128126a89f7e6a830dc16
-ms.sourcegitcommit: 204deabd34e5ee38b59d4742d75e74e3873cf892
+ms.openlocfilehash: d80e25aedaf3a0160fc6ed926222dd3c12cf7466
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35183393"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029083"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 для кампаний
 ===========================
@@ -65,7 +65,7 @@ ms.locfileid: "35183393"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -134,7 +134,7 @@ ms.locfileid: "35183393"
                     <div class="cardText">
                         <h3>Шифрование или маркировка конфиденциальной электронной почты</h3>
                         <p>Используйте метки шифрования и конфиденциальности, чтобы защитить электронную почту, содержащую конфиденциальную или конфиденциальную информацию.</p>
-                        <p><a href="send-encrypted-email.md">Отправка зашифрованного сообщения электронной почты</a></p>
+                        <p><a href="send-encrypted-email.md">Отправка зашифрованных писем</a></p>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ ms.locfileid: "35183393"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Совместное использование файлов и видео</h3>
+                        <h3>Общий доступ к файлам и видео</h3>
                         <p>Сохраните файлы и видео в облаке, чтобы они были доступны всем пользователям.</p>
                         <p><a href="share-files-and-videos.md">Начало общего доступа</a></p>
                     </div>

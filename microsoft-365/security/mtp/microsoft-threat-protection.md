@@ -1,5 +1,5 @@
 ---
-title: Защита от угроз Майкрософт
+title: Защита от угроз (Майкрософт)
 description: Защита от угроз Майкрософт — это решение для защиты от угроз, предназначенное для защиты устройств, удостоверений, данных и приложений.
 keywords: Общие сведения о защите от угроз Майкрософт, безопасности кибератак, повышенной постоянной угрозе, корпоративной безопасности, устройствах, устройствах, удостоверениях, пользователях, данных, приложениях, инцидентах, автоматическом расследовании и исправлении, расширенное Поиск
 search.product: eADQiWindows 10XVcnh
@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 305f4e213d03f4ee7fccca5fee9bea8efb3d1e9e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6e2ca4405838f6e72603bcdb3024b8c0f70e3e99
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091559"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034300"
 ---
-# <a name="microsoft-threat-protection"></a>Защита от угроз Майкрософт
+# <a name="microsoft-threat-protection"></a>Защита от угроз (Майкрософт)
 
 Защита от угроз Майкрософт — это комплексное решение по обеспечению безопасности, обеспечивающее широкие возможности обеспечения безопасности, позволяющие современным организациям: 
 
@@ -38,7 +38,7 @@ ms.locfileid: "37091559"
 <center><h2>Службы защиты от угроз Майкрософт</center></h2>
 <table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Advanced Threat Protection в защитнике Майкрософт</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Office 365 Advanced Threat protection</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/en-us/azure-advanced-threat-protection/"><b>Служба Advanced Threat Protection в Azure</b></a></center></td>
+<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Служба Advanced Threat Protection в Azure</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/azure/security-center/"><b>Центр безопасности Azure</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Microsoft Cloud App Security</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/azure/sentinel/overview"><b>Sentinel (Microsoft Azure)</b></a></center></td>

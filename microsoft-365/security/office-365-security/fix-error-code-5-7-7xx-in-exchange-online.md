@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: d55bc1f8a051a7f9932528a75aac8f1efa18911c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 28ed444d821cbe00cfcb92872de15bb43a65ae28
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090079"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033880"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -49,16 +49,16 @@ Office 365 позволяет клиентам ретранслировать н
 
 Существует несколько действий, которые необходимо выполнить, если клиент блокирует отправку сообщений электронной почты.
 
-1. Убедитесь, что зарегистрированы все домены в центре администрирования Microsoft 365. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Убедитесь, что зарегистрированы все домены в центре администрирования Microsoft 365. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-2. Ищите необычные соединители. Вредоносные субъекты часто создают новые входящие соединители в клиенте Office 365 для отправки спама. Дополнительные сведения о проверке соединителей можно найти [здесь](https://docs.microsoft.com/en-us/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps). 
+2. Ищите необычные соединители. Вредоносные субъекты часто создают новые входящие соединители в клиенте Office 365 для отправки спама. Дополнительные сведения о проверке соединителей можно найти [здесь](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps). 
 
 3. Заблокируйте локальные серверы и убедитесь, что они не скомпрометированы.
 
 > [!TIP]
 > Здесь приводятся многие факторы, особенно если это серверы сторонних производителей. Несмотря на то, что вам потребуется подтвердить, что вся почта, покидает серверы, будет незаконной.
 
-4. После этого вам потребуется позвонить в службу поддержки Майкрософт и попросить предоставить свой клиент незаблокированным для отправки от незарегистрированных доменов.  Указание кода ошибки полезно, но вам необходимо убедиться, что ваша среда защищена, а нежелательная почта не будет отправлена повторно. Дополнительные сведения о том, как открыть обращение в службу поддержки, можно найти [здесь](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b#ID0EAADAAA=online).
+4. После этого вам потребуется позвонить в службу поддержки Майкрософт и попросить предоставить свой клиент незаблокированным для отправки от незарегистрированных доменов.  Указание кода ошибки полезно, но вам необходимо убедиться, что ваша среда защищена, а нежелательная почта не будет отправлена повторно. Дополнительные сведения о том, как открыть обращение в службу поддержки, можно найти [здесь](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b#ID0EAADAAA=online).
   
 ## <a name="for-more-information"></a>Дополнительные сведения
 
@@ -66,8 +66,8 @@ Office 365 позволяет клиентам ретранслировать н
 
 [Отчеты о недоставке сообщений электронной почты в Office 365](https://support.office.com/article/email-non-delivery-reports-in-office-365-51daa6b9-2e35-49c4-a0c9-df85bf8533c3)
 
-[Настройка переадресации электронной почты для почтового ящика](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
+[Настройка переадресации электронной почты для почтового ящика](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
 
-[Как настроить отправку электронной почты с помощью Office 365 на многофункциональном устройстве или в приложении](https://support.office.com/en-us/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
+[Как настроить отправку электронной почты с помощью Office 365 на многофункциональном устройстве или в приложении](https://support.office.com/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
 
-[Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+[Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).

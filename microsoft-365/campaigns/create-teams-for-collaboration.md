@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создайте пространство для совместной работы для группы с помощью Microsoft Teams.
-ms.openlocfilehash: 18a28364b02b15af9d7d4c69c432ecd26d61b802
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 9b501daa61998b0b2daedd84c333552b42e5338f
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772526"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031354"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Создание Teams для совместной работы в Microsoft Teams
 
@@ -46,9 +46,9 @@ Microsoft Teams — это приложение для совместной ра
 
 Когда вы создаете команду, вот что еще создаете:
 
-- Новая [Группа Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-groups)
-- Сайт [SharePoint Online](https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact) и библиотека документов для хранения файлов группы
-- Общий почтовый ящик [Exchange Online](https://docs.microsoft.com/en-us/MicrosoftTeams/exchange-teams-interact) и календарь
+- Новая [Группа Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
+- Сайт [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) и библиотека документов для хранения файлов группы
+- Общий почтовый ящик [Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) и календарь
 - Записная книжка OneNote
 - Привязывается к другим приложениям Office 365, таким как планировщик и Power BI
 
@@ -79,9 +79,9 @@ Microsoft Teams — это приложение для совместной ра
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
-Дополнительные сведения о Microsoft Teams в [Microsoft Teams в технической документации](https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams)
+Дополнительные сведения о Microsoft Teams в [Microsoft Teams в технической документации](https://docs.microsoft.com/microsoftteams/microsoft-teams)
 
 ## <a name="admin-settings"></a>Параметры администрирования
 
-Для создания группы на уровне Организации необходимо быть администратором. Для получения дополнительных сведений Узнайте, [что такое Администратор в Office 365?](https://support.office.com/en-us/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).
+Для создания группы на уровне Организации необходимо быть администратором. Для получения дополнительных сведений Узнайте, [что такое Администратор в Office 365?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).
   
