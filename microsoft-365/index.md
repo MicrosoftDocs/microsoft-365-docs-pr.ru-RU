@@ -8,12 +8,12 @@ ms.topic: hub-page
 keywords: Microsoft 365, Microsoft 365, Microsoft 365 для бизнеса, Microsoft 365 для предприятий, Microsoft 365 для образовательных учреждений, корпоративных, Бизнес, образования, документов, документации
 title: Документация по Microsoft 365
 description: Найдите документацию и ресурсы для Microsoft 365 — полное, интеллектуальное решение, в том числе Office 365, Windows 10 и Enterprise Mobility + Security, благодаря этому все пользователи могут работать совместно.
-ms.openlocfilehash: 137479d7e9705a579a6c5aa20cb3a0ae935a1fd8
-ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
+ms.openlocfilehash: 00b714811e10af9dfb135aec4b090b17cf4fda73
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749151"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031654"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -34,7 +34,7 @@ ms.locfileid: "37749151"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Enterprise-400x140.svg" alt="Microsoft 365 Enterprise documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Enterprise-400x140.svg" alt="Microsoft 365 Enterprise documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -54,7 +54,7 @@ ms.locfileid: "37749151"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Business-400x140.svg" alt="Microsoft 365 Business documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Business-400x140.svg" alt="Microsoft 365 Business documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -74,7 +74,7 @@ ms.locfileid: "37749151"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Education-400x140.svg" alt="Microsoft 365 Education documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Education-400x140.svg" alt="Microsoft 365 Education documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -119,7 +119,7 @@ ms.locfileid: "37749151"
                                                 </div>
                                                 <div class="cardText">
                                                     <br />
-                                                    <h3>Microsoft 365 Security</h3>
+                                                    <h3>Безопасность в Microsoft 365</h3>
                                                     <p>Решения по обеспечению безопасности Microsoft 365 помогают защитить предприятие от поверхностей атак.</p>
                                                 </div>
                                             </div>
