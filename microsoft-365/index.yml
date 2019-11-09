@@ -1,0 +1,67 @@
+### YamlMime:Hub
+title: Центр справки Microsoft 365 для администраторов и ИТ-специалистов
+summary: Изучите ресурсы центра справки и обучения корпорации Майкрософт 365.
+brand: m365
+metadata:
+  title: Центр справки Microsoft 365 для администраторов и ИТ-специалистов
+  description: Настройка, развертывание и управление Microsoft 365 для поддержки Организации, малых организаций, кампаний, преподавателей и учащихся
+  services: office-365-security-compliance
+  ms.service: O365-seccomp
+  ms.topic: hub-page
+  ms.collection: m365-security-compliance
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/08/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 770cd0927ebab80a545b56de04ed3d4de0226989
+  ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 11/08/2019
+  ms.locfileid: "38076378"
+highlightedContent:
+  items:
+  - title: Обучение для администраторов и ИТ-специалистов
+    itemType: learn
+    url: https://docs.microsoft.com/learn/m365/
+  - title: Обучение конечных пользователей
+    itemType: learn
+    url: https://support.microsoft.com
+  - title: Обучение для малых предприятий
+    itemType: learn
+    url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
+  - title: Руководства по лаборатории тестирования для ИТ-специалистов
+    itemType: how-to-guide
+    url: ./enterprise/m365-enterprise-test-lab-guides.md
+  - title: Сообщество Майкрософт 365 Tech
+    itemType: get-started
+    url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
+  - title: Ресурсы для разработчиков
+    itemType: reference
+    url: https://developer.microsoft.com/microsoft-365
+additionalContent:
+  sections:
+  - title: Получение справки по Microsoft 365
+    summary: Выберите карточку, чтобы узнать больше о Microsoft 365.
+    items:
+    - title: Microsoft 365 бизнес
+      summary: Предназначено для малых и средних предприятий. Запустите свой бизнес с помощью последней версии приложений для Windows и Office, например Excel и Outlook. Используйте преимущества защиты и защиты данных, которая распространяется на все ваши бизнес-устройства.
+      url: ./business/index.yml
+    - title: Microsoft 365 корпоративный
+      summary: Предназначено для крупных организаций. Защитите свой бизнес и преобразуйте способ работы с приложениями Office, Windows 10 и Enterprise Mobility + Security.
+      url: ./enterprise/index.md
+    - title: Microsoft 365 для образования
+      summary: Предназначено для преподавателей, позволяющих разкрывать творческие творческие способности, повышать их и обеспечивать простое и безопасное взаимодействие в едином, доступном для образования решении.
+      url: https://docs.microsoft.com/education/
+    - title: Соответствие требованиям Microsoft 365
+      summary: Помогите вашей организации управлять информацией, защищаться от рисков и соблюдать юридический или нормативный стандарт.
+      url: ./compliance/index.yml
+    - title: Безопасность в Microsoft 365
+      summary: Помогите защитить предприятие от поверхностей атак.
+      url: ./security/index.yml
+    - title: Microsoft 365 для кампаний
+      summary: Чтобы обеспечить безопасность кампании или бизнес-данных и коммуникаций, рекомендуется использовать эту конфигурацию для Microsoft 365 Business.
+      url: ./campaigns/index.md
+    - title: Новый — обучающие материалы по Microsoft 365 и сертификация корпорации Майкрософт
+      summary: Новые пути для обучения для повышения квалификации Майкрософт 365 и получения сертификатов.
+      url: https://docs.microsoft.com/learn/m365/
