@@ -4,15 +4,15 @@ description: ''
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5b2b1a147659bf58c9b8ded26d6774994a3c1682
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: a6397f1c78bb15e198ed75be50c51953b049ed68
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012214"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074698"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для настольного компьютера, управляемого Майкрософт
 
@@ -23,19 +23,19 @@ ms.locfileid: "38012214"
 
 Рабочий стол, управляемый корпорацией Майкрософт, — это облачная служба. Существует набор конечных точек, которые должны быть доступны для служб настольных компьютеров, управляемых корпорацией Майкрософт. В этом разделе перечислены конечные точки, которые необходимо разрешить для различных аспектов службы управляемых рабочих столов Майкрософт. 
 
-Клиенты могут оптимизировать свою сеть, отправив все доверенные сетевые запросы Microsoft 365 напрямую через брандмауэр/прокси-сервер, обходя проверку подлинности и все дополнительные проверки или обработку пакетов. Это сокращает время задержки и требования к мощности периметра. 
+Клиенты могут оптимизировать свою сеть, отправив все доверенные сетевые запросы Microsoft 365 напрямую через брандмауэр или прокси-сервер, обходя проверку подлинности и все дополнительные проверки или обработку на уровне пакетов. Это сокращает время задержки и требования к мощности периметра. 
 
 Кроме того, для оптимизации производительности управляемых облачных служб для настольных компьютеров с помощью этих конечных точек требуется специальная обработка в клиентских браузерах клиентов и устройствах в пограничной сети. К этим устройствам относятся брандмауэры, средства проверки и перехвата пакетов, устройства проверки пакетов и системы защиты от потери данных.
 
 ### <a name="proxy-requirement"></a>Требование прокси-сервера
 
-Прокси-сервер или брандмауэр должен поддерживать TLS 1,2. В противном случае пользователям может потребоваться отключить обнаружение протокола.
+Прокси-сервер или брандмауэр должен поддерживать TLS 1,2. В противном случае может потребоваться отключить обнаружение протокола.
 
 ### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Разрешенные конечные точки — специфичные для компьютера, управляемого корпорацией Майкрософт
 
 На рабочем столе Майкрософт используется портал Azure для размещения веб-консоли. Следующие URL-адреса в приведенной ниже таблице должны находиться в списке разрешенных прокси-серверов и брандмауэре, чтобы устройства, управляемые корпорацией Майкрософт, могли общаться со службами Майкрософт.  
 
-Обратите внимание, что ниже указан URL-адрес управляемого рабочего стола Майкрософт для всех служб, выполняемых в API клиента. Клиенты должны убедиться в том, что этот URL-адрес всегда доступен в корпоративной сети.
+Обратите внимание, что ниже указан URL-адрес управляемого рабочего стола Майкрософт для всех служб, выполняемых в API клиента. Необходимо убедиться, что этот URL-адрес всегда доступен в корпоративной сети.
 
 Служба Майкрософт  | Для белого списка требуются URL-адреса 
 --- | --- | ---
@@ -53,11 +53,10 @@ ms.locfileid: "38012214"
 --- | ---
 Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>time.windows.com
 Оптимизация доставки | [Настройка оптимизации доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
-Office 365 | [Диапазоны IP-адресов и URL-адреса для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Office 365 | [Диапазоны IP-адресов и URL-адреса для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портам доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Требования к настройке сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
-Advanced Threat Protection в защитнике Майкрософт (ATP) | [Конечные точки ATP для защитника Майкрософт] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
-)
+Advanced Threat Protection в защитнике Майкрософт (ATP) | [Конечные точки ATP защитника (Майкрософт)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

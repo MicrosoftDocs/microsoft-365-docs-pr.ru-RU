@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Автоматический переход с Windows 7 на Windows 10 для крупных организаций
-ms.openlocfilehash: 4d1601c23d160d5618d491cd168583c78b54181c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6cf7b25c584b94b077b95b35be58f6cd5ef75ac5
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38078088"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Автоматический переход на месте с Windows 7 на Windows 10 для крупных организаций
 
@@ -44,7 +44,7 @@ ms.locfileid: "38033634"
 
 ## <a name="upgrading-a-small-number-of-computers"></a>Обновление небольшого числа компьютеров
 
-Для одного или нескольких компьютеров обновление вручную обычно является оптимальным способом по сравнению с более автоматизированными подходами. Необходимое программное обеспечение и лицензии можно найти в магазине [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), у других продавцов программного обеспечения или на сайте [Volume Licensing Service Center](https://www.microsoft.com/licensing/servicecenter/default.aspx), если вы используете корпоративную лицензию. Подробные инструкции по переводу одного компьютера на Windows 10, а также о вариантах восстановления после обновления см. в статье [Пошаговое руководство по переходу с Windows 7 на Windows 10 в ручном режиме](https://docs.microsoft.com/ru-RU/microsoft-365/enterprise/windows-7-to-windows-10-upgrade).
+Для одного или нескольких компьютеров обновление вручную обычно является оптимальным способом по сравнению с более автоматизированными подходами. Необходимое программное обеспечение и лицензии можно найти в магазине [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), у других продавцов программного обеспечения или на сайте [Volume Licensing Service Center](https://www.microsoft.com/licensing/servicecenter/default.aspx), если вы используете корпоративную лицензию. Подробные инструкции по переводу одного компьютера на Windows 10, а также о вариантах восстановления после обновления см. в статье [Пошаговое руководство по переходу с Windows 7 на Windows 10 в ручном режиме](https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade).
 
 ## <a name="how-to-upgrade-many-computers"></a>Обновление большого числа компьютеров
 

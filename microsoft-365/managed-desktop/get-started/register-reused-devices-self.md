@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 51db9c88710605c6203023b343edc4359556d57d
-ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
+ms.openlocfilehash: e11b72228dceb5a4999e6b9398efde02a41ca163
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37577775"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074741"
 ---
 # <a name="register-existing-devices-yourself"></a>Самостоятельная регистрация существующих устройств
 
@@ -41,7 +41,7 @@ ms.locfileid: "37577775"
 - Запустите сценарий Windows PowerShell, используя [Active Directory](#active-directory-powershell-script-method) или [вручную](#manual-powershell-script-method) на каждом устройстве, и соберите результаты в файл.
 - Запустите каждое устройство, но не завершите работу с программой установки Windows, и [Соберите хэши на съемном носителе флэш-памяти](#flash-drive-method).
 
-#### <a name="configuration-manager"></a>Configuration Manager
+#### <a name="configuration-manager"></a>Configuration Manager;
 
 С помощью System Center Configuration Manager можно собирать аппаратные хэши с существующих устройств, которые вы хотите зарегистрировать с помощью управляемого рабочего стола Майкрософт.
 
@@ -71,25 +71,30 @@ ms.locfileid: "37577775"
 4. В **построителе отчетов**выберите **источник данных:**. Выберите источник данных по умолчанию, который должен начинаться с "Аутожен". 
 5. Выберите **тип запроса в текстовом поле**, а затем введите следующий запрос:
 
-```
 
+
+
+```sql
 SELECT comp.manufacturer0      AS Manufacturer,  
        comp.model0             AS Model,  
        bios.serialnumber0      AS Serial_Number,  
        mdm.devicehardwaredata0 AS HardwareHash  
-FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp  
+FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
+
        INNER JOIN Fn_rbac_gs_pc_bios(@UserSIDs) bios  
                ON comp.resourceid = bios.resourceid  
        INNER JOIN Fn_rbac_gs_mdm_devdetail_ext01(@UserSIDs) mdm  
                ON comp.resourceid = mdm.resourceid
-
-
 ```
+
+
+
+
 5. Перейдите на вкладку **поле** , значения Вехре для **имени поля** и **Источник поля** уже должны быть заполнены. Если это не так, нажмите кнопку **Добавить**, а затем выберите **поле запрос**. Введите **имя поля** и **Источник поля**.
 6. Повторите эти значения для каждого из этих значений: 
     - Вычислитель 
     - Модель 
-    - Дата_в_числовом_формате 
+    - Serial_Number 
     - хардварехаш
 7. Нажмите кнопку **ОК**.
 
@@ -115,7 +120,7 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp 
 
 
 > [!IMPORTANT]
-> В запросе в диспетчере конфигурации не допускаются пробелы в именах экспортированных столбцов; Вот почему вы вводили "Дата_в_числовом_формате" и "Хардварехаш". Теперь, когда у вас есть экспортированный CSV-файл, необходимо изменить заголовки отчетов для чтения *серийного номера* и *аппаратного хеша* , как показано ниже, прежде чем переходить к регистрации устройства.
+> В запросе в диспетчере конфигурации не допускаются пробелы в именах экспортированных столбцов; Вот почему вы вводили пункты "Serial_Number" и "Хардварехаш". Теперь, когда у вас есть экспортированный CSV-файл, необходимо изменить заголовки отчетов для чтения *серийного номера* и *аппаратного хеша* , как показано ниже, прежде чем переходить к регистрации устройства.
 
 Теперь вы можете перейти к [регистрации устройств с помощью портала Azure](#register-devices-by-using-the-azure-portal).
 
@@ -211,7 +216,7 @@ Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistration
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Выполните следующие действия:
+Выполните следующие действия.
 
 1. В поле **Отправка файла**укажите путь к созданному ранее CSV-файлу.
 2. При необходимости вы можете добавить **идентификатор заказа** или **идентификатор покупки** для собственных целей отслеживания. Для этих значений не предусмотрены требования к формату.
