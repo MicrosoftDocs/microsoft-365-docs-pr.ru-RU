@@ -3,6 +3,7 @@
 ## Начало работы
 ### [Безопасность в Microsoft 365 для BDM](Microsoft-365-security-for-bdm.md)
 ### [Оценка безопасности](./mtp/microsoft-secure-score.md)
+### [Оценка безопасности (предварительная версия)](./mtp/microsoft-secure-score-preview.md)
 ### [Учебный семинар для руководителя по информационной безопасности (CISO)](./office-365-security/ciso-workshop.md)
 #### [Модуль 1 — информационная справка по кибербезопасности Майкрософт](./office-365-security/ciso-workshop-module-1.md)
 #### [Модуль 2 — управление безопасностью](./office-365-security/ciso-workshop-module-2.md)
@@ -201,18 +202,18 @@
 ### [Решения для обеспечения безопасности]()
 #### [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](./office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 ##### [Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании](./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
-##### [Создание сайтов групп в среде разработки и тестирования для политической кампании](./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md)
+##### [Создание сайтов группы в среде разработки и тестирования для политической кампании](./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md)
+
+#### [Защита файлов в Microsoft Teams](./office-365-security/secure-files-in-teams.md)
+##### [Развертывание команд с тремя уровнями защиты файлов](./office-365-security/deploy-teams-three-tiers.md)
+##### [Защита файлов в командах с помощью меток хранения и защиты от потери данных](./office-365-security/deploy-teams-retention-DLP.md)
+##### [Защита файлов в командах с помощью меток конфиденциальности](./office-365-security/deploy-teams-sensitivity-labels.md)
+##### [Защита файлов в среде разработки и тестирования в Teams](./office-365-security/secure-team-for-files-in-a-dev-test-environment.md)
 
 #### [Безопасность сайтов и файлов SharePoint Online](./office-365-security/secure-sharepoint-online-sites-and-files.md)
 ##### [Защита сайтов SharePoint Online в среде разработки и тестирования](./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md)
 
-#### [Изолированные сайты групп SharePoint Online](./office-365-security/isolated-sharepoint-online-team-sites.md)
-##### [Разработка изолированного сайта группы SharePoint Online](./office-365-security/design-an-isolated-sharepoint-online-team-site.md)
-##### [Развертывание изолированного сайта группы SharePoint Online](./office-365-security/deploy-an-isolated-sharepoint-online-team-site.md)
-##### [Управление изолированным сайтом группы SharePoint Online](./office-365-security/manage-an-isolated-sharepoint-online-team-site.md)
-##### [Среда разработки и тестирования изолированного сайта группы SharePoint Online](./office-365-security/isolated-sharepoint-online-team-site-dev-test-environment.md)
 #### [Интеграция сервера SIEM](./office-365-security/siem-server-integration.md)
-
 
 #### [Exchange Online Protection](./office-365-security/exchange-online-protection-overview.md)
 ##### [Функции EOP](./office-365-security/eop-features.md)
