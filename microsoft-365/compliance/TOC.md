@@ -4,6 +4,7 @@
 ## [Новые возможности Центра соответствия требованиям](whats-new.md)
 ## [Последние обновления сведений о соответствии требованиям](recently-updated-topics-mcc.md)
 ## [Центр соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md)
+## [Каталог решений Microsoft 365 (предварительная версия)](microsoft-365-solution-catalog.md)
 ## [Переход в Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md)
 ## [Использование бесплатной подписки на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Планирование безопасности и соответствия требованиям в Office 365](plan-for-security-and-compliance.md)
@@ -17,9 +18,13 @@
 ## Ключ клиента
 ### [Контроль данных в Office 365 с помощью ключа клиента](controlling-your-data-using-customer-key.md)
 ### [Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365](service-encryption-with-customer-key-faq.md)
-## Контроль взаимодействия
-### [Сведения о политиках контроля](supervision-policies.md)
-### [Настройка политик контроля для организации](configure-supervision-policies.md)
+## Соответствие коммуникаций требованиям
+### [Сведения о соответствии коммуникаций требованиям (предварительная версия)](communication-compliance.md)
+### [Настройка соответствия коммуникаций требованиям в Microsoft 365 (предварительная версия)](communication-compliance-configure.md)
+### [Анализ и устранений оповещений относительно соответствия коммуникаций требованиям (предварительная версия)](communication-compliance-investigate-remediate.md)
+### [Справка по соответствию коммуникаций требованиям (предварительная версия)](communication-compliance-feature-reference.md)
+### [Политики контроля в Office 365](supervision-policies.md)
+### [Настройка политик контроля в Office 365](configure-supervision-policies.md)
 ## [Информационные барьеры](information-barriers.md)
 ### [Определение политик информационных барьеров](information-barriers-policies.md)
 ### [Атрибуты для политик информационных барьеров](information-barriers-attributes.md)
@@ -30,7 +35,9 @@
 ## [Метки конфиденциальности](sensitivity-labels.md)
 ### [Ограничение доступа к контенту с помощью шифрования в метках конфиденциальности](encryption-sensitivity-labels.md)
 ### [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)
-### [Просмотр использования меток с помощью Аналитики меток](label-analytics.md)
+### [Просмотр использования меток с помощью аналитики меток](label-analytics.md)
+### [Использование меток конфиденциальности для команд, групп и сайтов](sensitivity-labels-teams-groups-sites.md)
+### [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
 ### [Метки конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)
 
 ## [Защита от потери данных (DLP)](data-loss-prevention-policies.md)
@@ -83,12 +90,14 @@
 #### [Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365](set-up-azure-rms-for-previous-version-message-encryption.md)
 
 ## [Общие сведения о классификации данных (предварительная версия)](data-classification-overview.md)
+### [Просмотр содержимого с метками (предварительная версия)](data-classification-content-explorer.md)
 ### [Просмотр действий с метками (предварительная версия)](data-classification-activity-explorer.md)
 ### [Начало работы с обучаемыми классификаторами (предварительная версия)](classifier-getting-started-with.md)
 ### [Использование готового классификатора (предварительная версия)](classifier-using-a-ready-to-use-classifier.md)
 ### [Создание и обучение классификатора (предварительная версия)](classifier-creating-a-trainable-classifier.md)
 
 # Управление информацией
+## [Управление информацией](manage-information-governance.md)
 ## [Импорт данных](importing-pst-files-to-office-365.md)
 ### [Импорт PST-файлов с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
 ### [Импорт PST-файлов с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
@@ -199,6 +208,7 @@
 ### [Работа с ошибками обработки](processing-data-for-case.md)
 #### [Расширенная индексация данных хранителя](indexing-custodian-data.md)
 #### [Исправление ошибок при обработке данных](error-remediation-when-processing-data-in-advanced-ediscovery.md)
+#### [Исправление ошибки одного элемента](single-item-error-remediation.md)
 
 ### [Сбор данных для дела](collecting-data-for-ediscovery.md)
 #### [Создание поискового запроса](create-search-to-collect-data.md)
@@ -372,7 +382,7 @@
 ### [Диспетчер соответствия требованиям (предварительная версия)](compliance-manager-overview.md)
 #### [Что изменилось в диспетчере соответствия требованиям (предварительная версия)](compliance-manager-release-notes.md)
 #### [Работа с диспетчером соответствия требованиям (предварительная версия)](working-with-compliance-manager.md)
-#### [Диспетчер соответствия требованиям (устаревшая версия)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+#### [Диспетчер соответствия требованиям (классический)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [Средство запросов субъектов данных GDPR](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [Защита информации в Office 365 в соответствии с GDPR](office-365-information-protection-for-gdpr.md)
@@ -394,8 +404,8 @@
 # [Планы действий по соответствию нормативным требованиям](compliance-solutions-overview.md)
 
 ## [ISO: рекомендуемый план действий](iso-action-plan.md)
-## [NIST: рекомендуемый план действий](nist-action-plan.md) 
-
+## [NIST: рекомендуемый план действий](nist-action-plan.md)
+## [CCPA: вопросы и ответы](ccpa-faq.md)
 ## [GDPR](gdpr.md)
 ### [Рекомендуемый план действий для GDPR](gdpr-action-plan.md)
 
@@ -420,8 +430,7 @@
 
 ### Уведомление о нарушении
 #### [Уведомление о нарушении](gdpr-breach-notification.md)
-#### [Azure](gdpr-breach-azure.md)
-#### [Dynamics 365](gdpr-breach-dynamics365.md)
+#### [Azure и Dynamics 365](gdpr-breach-azure-dynamics.md)
 #### [Служба поддержки и Профессиональные услуги Майкрософт](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
@@ -456,7 +465,7 @@
 ### [SOC](offering-soc.md)
 ### [WCAG 2.1](offering-wcag-2-1.md)
 
-## Государственные организации
+## Государственные учреждения США
 ### [CJIS](offering-cjis.md)
 ### [CNSSI 1253](offering-cnssi-1253.md)
 ### [DFARS](offering-dfars.md)
@@ -592,6 +601,7 @@
 #### [PASF (Соединенное королевство)](offering-pasf-uk.md)
 
 ### Северная Америка
+#### [Закон Калифорнии о конфиденциальности данных California Consumer Privacy Act (CCPA)](offering-ccpa.md)
 #### [Канадские законы о защите конфиденциальности](offering-canadian-privacy-laws.md)
 
 ### Южная Америка
