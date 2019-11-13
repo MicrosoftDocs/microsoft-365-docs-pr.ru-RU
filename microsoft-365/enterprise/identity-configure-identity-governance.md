@@ -13,14 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Обзор и настройка управления удостоверениями для клиента Azure AD.
-ms.openlocfilehash: 3bc0872eefa71288d25ce83ebb8f3c51d8959678
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: d9a9a63f46230a07b35052a3b02231f7b5315d9e
+ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370386"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38302926"
 ---
-# <a name="step-7-configure-identity-governance"></a>Шаг 7. Настройка управления удостоверениями
+# <a name="step-6-configure-identity-governance"></a>Шаг 6. Настройка управления удостоверениями
 
 ![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
