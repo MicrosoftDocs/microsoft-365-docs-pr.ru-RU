@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Сведения о приобретении Microsoft 365 Business из центра партнеров Майкрософт.
-ms.openlocfilehash: 09d2f24fba1725278b663d5c3159163a56dcdc59
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: be38ba6869ed9419b2c34e6b4f86ce4aad6a6c52
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038926"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320175"
 ---
 # <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
 
@@ -36,23 +36,23 @@ ms.locfileid: "38038926"
 
 Подробные инструкции можно найти [в статье регистрация в Microsoft 365 для бизнеса](sign-up.md) .
 
-Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.
+Кроме того, вы можете приступить к работе с Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) , чтобы приобрести справку Microsoft 365 для бизнеса и получить справку по программе установки.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Получение Microsoft 365 Business в Центре партнеров Майкрософт
 
 1. Войдите в [Центр партнеров Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=849910) с учетными данными, созданными при регистрации в программе поставщика облачных решений. 
     
-2. Перед получением Office 365 бизнес выберите своего клиента или добавьте нового на панели мониторинга для партнеров в разделе "Клиенты".
+2. На информационной панели партнера выберите **Клиенты**, а затем выберите клиента или добавьте нового клиента, прежде чем приступать к работе с Microsoft 365 Business.
     
-    ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![В центре партнеров Майкрософт добавьте клиента.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
 3. На странице " **Подписка** клиента" выберите **Добавить подписку**, выберите параметр малый бизнес в разделе Каталог, а затем выберите **Microsoft 365 бизнес**.
     
     Выберите нужное количество лицензий (не более 300). Если у вас больше 300 пользователей, ознакомьтесь со статьей [Microsoft 365 корпоративный](https://go.microsoft.com/fwlink/p/?linkid=862316) . 
     
-    ![On the New subscription page choose small business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![На странице Создание подписки выберите пункт Малый бизнес.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    Выполните последующие инструкции по добавлению нового клиента (включая название организации).
+    Выполните остальные действия по добавлению нового клиента, в том числе название организации.
     
 
 
