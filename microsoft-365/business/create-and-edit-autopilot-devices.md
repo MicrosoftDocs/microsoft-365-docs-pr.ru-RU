@@ -23,24 +23,24 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Сведения о том, как отправлять устройства с помощью автопилота в Microsoft 365 Business. Вы можете назначить профиль устройству или группе устройств.
-ms.openlocfilehash: 4eadaa800aa174bcd9cac50375f68c8471e1684e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 1dd6b1a574166379e29465bf3699e47e3b155e0b
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575415"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320265"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Создание и изменение устройств AutoPilot
 
 ## <a name="upload-a-list-of-devices"></a>Отправка списка устройств
 
-Добавить устройства можно с помощью [пошагового мастера](add-autopilot-devices-and-profile.md), а также на вкладке **Устройства**. 
+Вы можете использовать [Пошаговое руководство](add-autopilot-devices-and-profile.md) по отправке устройств, но вы также можете загрузить устройства на вкладке " **устройства** ". 
   
 Устройства должны отвечать следующим требованиям:
   
-- Windows 10 версии 1703 или более поздней;
+- Windows 10 версии 1703 или более поздней версии
     
-- новые устройства, на которых еще не был пройден этап запуска Windows при первом включении.
+- Новые устройства, которые не прошли предварительный интерфейс Windows
 
 1. В центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.
   
@@ -48,13 +48,13 @@ ms.locfileid: "37575415"
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. На панели **Add Devices (Добавление устройств** ) перейдите к [списку устройств CSV-файл](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) , для которого подготовлено \> **Сохранение** \> , **Закрыть**.
+3. На панели **Add Devices (Добавление устройств** ) перейдите к [CSV-файлу списка устройств](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) , подготовленный \> для **сохранения** \> **.**
     
-    Эту информацию можно получить у поставщика оборудования или с помощью [сценария PowerShell с именем Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo), который создаст CSV-файл. 
+    Эту информацию можно получить у поставщика оборудования или с помощью [сценария PowerShell Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) , чтобы создать CSV-файл. 
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Назначение профиля устройству или группе устройств
 
-1. На странице **Подготовка Windows** перейдите на вкладку **Устройства** и установите флажки рядом с одним или несколькими устройствами. 
+1. На странице **Подготовка Windows** перейдите на вкладку **устройства** и установите флажок рядом с одним или несколькими устройствами. 
     
 2. На панели **Устройство** выберите профиль в раскрывающемся списке **Назначенный профиль**. 
     
