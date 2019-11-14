@@ -21,38 +21,38 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Сведения о приобретении Microsoft 365 Business из центра партнеров Майкрософт.
-ms.openlocfilehash: 09d2f24fba1725278b663d5c3159163a56dcdc59
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: be38ba6869ed9419b2c34e6b4f86ce4aad6a6c52
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038926"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320175"
 ---
-# <a name="get-microsoft-365-business"></a><span data-ttu-id="f509f-103">Получение Microsoft 365 бизнес</span><span class="sxs-lookup"><span data-stu-id="f509f-103">Get Microsoft 365 Business</span></span>
+# <a name="get-microsoft-365-business"></a><span data-ttu-id="5c03f-103">Получение Microsoft 365 бизнес</span><span class="sxs-lookup"><span data-stu-id="5c03f-103">Get Microsoft 365 Business</span></span>
 
-## <a name="get-microsoft-365-business-from-microsoft"></a><span data-ttu-id="f509f-104">Получение Microsoft 365 бизнес от корпорации Майкрософт</span><span class="sxs-lookup"><span data-stu-id="f509f-104">Get Microsoft 365 Business from Microsoft</span></span>
+## <a name="get-microsoft-365-business-from-microsoft"></a><span data-ttu-id="5c03f-104">Получение Microsoft 365 бизнес от корпорации Майкрософт</span><span class="sxs-lookup"><span data-stu-id="5c03f-104">Get Microsoft 365 Business from Microsoft</span></span>
 
-<span data-ttu-id="f509f-105">Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес, вы можете [приобрести его здесь](https://www.microsoft.com/en-US/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="f509f-105">If you don't have a partner and want to get Microsoft 365 Business, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
+<span data-ttu-id="5c03f-105">Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес, вы можете [приобрести его здесь](https://www.microsoft.com/en-US/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="5c03f-105">If you don't have a partner and want to get Microsoft 365 Business, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
 
-<span data-ttu-id="f509f-106">Подробные инструкции можно найти [в статье регистрация в Microsoft 365 для бизнеса](sign-up.md) .</span><span class="sxs-lookup"><span data-stu-id="f509f-106">See [sign up for Microsoft 365 Business](sign-up.md) for detailed instructions.</span></span>
+<span data-ttu-id="5c03f-106">Подробные инструкции можно найти [в статье регистрация в Microsoft 365 для бизнеса](sign-up.md) .</span><span class="sxs-lookup"><span data-stu-id="5c03f-106">See [sign up for Microsoft 365 Business](sign-up.md) for detailed instructions.</span></span>
 
-<span data-ttu-id="f509f-107">Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.</span><span class="sxs-lookup"><span data-stu-id="f509f-107">You can also head over to a [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) to both buy Microsoft 365 Business and get set-up help.</span></span>
+<span data-ttu-id="5c03f-107">Кроме того, вы можете приступить к работе с Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) , чтобы приобрести справку Microsoft 365 для бизнеса и получить справку по программе установки.</span><span class="sxs-lookup"><span data-stu-id="5c03f-107">You can also head over to a [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) to buy Microsoft 365 Business and get setup help.</span></span>
   
-## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a><span data-ttu-id="f509f-108">Получение Microsoft 365 Business в Центре партнеров Майкрософт</span><span class="sxs-lookup"><span data-stu-id="f509f-108">Get Microsoft 365 Business from Microsoft Partner Center</span></span>
+## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a><span data-ttu-id="5c03f-108">Получение Microsoft 365 Business в Центре партнеров Майкрософт</span><span class="sxs-lookup"><span data-stu-id="5c03f-108">Get Microsoft 365 Business from Microsoft Partner Center</span></span>
 
-1. <span data-ttu-id="f509f-109">Войдите в [Центр партнеров Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=849910) с учетными данными, созданными при регистрации в программе поставщика облачных решений.</span><span class="sxs-lookup"><span data-stu-id="f509f-109">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
+1. <span data-ttu-id="5c03f-109">Войдите в [Центр партнеров Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=849910) с учетными данными, созданными при регистрации в программе поставщика облачных решений.</span><span class="sxs-lookup"><span data-stu-id="5c03f-109">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
     
-2. <span data-ttu-id="f509f-110">Перед получением Office 365 бизнес выберите своего клиента или добавьте нового на панели мониторинга для партнеров в разделе "Клиенты".</span><span class="sxs-lookup"><span data-stu-id="f509f-110">On the Partner Dashboard, choose Customers, then select your customer or add a new customer before you get Microsoft 365 Business.</span></span>
+2. <span data-ttu-id="5c03f-110">На информационной панели партнера выберите **Клиенты**, а затем выберите клиента или добавьте нового клиента, прежде чем приступать к работе с Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="5c03f-110">On the Partner Dashboard, choose **Customers**, then select your customer or add a new customer before you get Microsoft 365 Business.</span></span>
     
-    ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![В центре партнеров Майкрософт добавьте клиента.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. <span data-ttu-id="f509f-112">На странице " **Подписка** клиента" выберите **Добавить подписку**, выберите параметр малый бизнес в разделе Каталог, а затем выберите **Microsoft 365 бизнес**.</span><span class="sxs-lookup"><span data-stu-id="f509f-112">On the customer's **Subscription** page, select **Add subscription**, choose the Small business option under Catalog, and then choose **Microsoft 365 Business**.</span></span>
+3. <span data-ttu-id="5c03f-112">На странице " **Подписка** клиента" выберите **Добавить подписку**, выберите параметр малый бизнес в разделе Каталог, а затем выберите **Microsoft 365 бизнес**.</span><span class="sxs-lookup"><span data-stu-id="5c03f-112">On the customer's **Subscription** page, select **Add subscription**, choose the Small business option under Catalog, and then choose **Microsoft 365 Business**.</span></span>
     
-    <span data-ttu-id="f509f-113">Выберите нужное количество лицензий (не более 300).</span><span class="sxs-lookup"><span data-stu-id="f509f-113">Select the number of licenses you need (up to 300).</span></span> <span data-ttu-id="f509f-114">Если у вас больше 300 пользователей, ознакомьтесь со статьей [Microsoft 365 корпоративный](https://go.microsoft.com/fwlink/p/?linkid=862316) .</span><span class="sxs-lookup"><span data-stu-id="f509f-114">If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
+    <span data-ttu-id="5c03f-113">Выберите нужное количество лицензий (не более 300).</span><span class="sxs-lookup"><span data-stu-id="5c03f-113">Select the number of licenses you need (up to 300).</span></span> <span data-ttu-id="5c03f-114">Если у вас больше 300 пользователей, ознакомьтесь со статьей [Microsoft 365 корпоративный](https://go.microsoft.com/fwlink/p/?linkid=862316) .</span><span class="sxs-lookup"><span data-stu-id="5c03f-114">If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
     
-    ![On the New subscription page choose small business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![На странице Создание подписки выберите пункт Малый бизнес.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    <span data-ttu-id="f509f-116">Выполните последующие инструкции по добавлению нового клиента (включая название организации).</span><span class="sxs-lookup"><span data-stu-id="f509f-116">Complete the rest of the steps for adding a new customer including the business name.</span></span>
+    <span data-ttu-id="5c03f-116">Выполните остальные действия по добавлению нового клиента, в том числе название организации.</span><span class="sxs-lookup"><span data-stu-id="5c03f-116">Complete the rest of the steps for adding a new customer, including the business name.</span></span>
     
 
 
