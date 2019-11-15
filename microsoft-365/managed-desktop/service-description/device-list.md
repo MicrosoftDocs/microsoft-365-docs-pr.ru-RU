@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: cfa46fa61483f68031ef508779dd71bd43fa92ae
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11cbdaf47e06536afd996fd41c3ea603967e2685
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034250"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640351"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -33,13 +33,14 @@ ms.locfileid: "38034250"
 
 | Модель    | Минимальные спецификации  | Дополнительные требования    | Дата архивации   | Дата выбытия   |
 |----------|----------------|---------------------------|----------------|--------------------|
-|[Dell Precision 3530](https://www.dell.com/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 22 мая 2020 г.  | 22 мая 2023 г. |
-|[Dell Latitude 5300/5400/5500](https://www.dell.com/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 июня 2021 г.  | 1 июня 2024 г.  |
-[Dell Latitude 5490](https://www.dell.com/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 9 января 2020 г.  | 9 января 2023 г.  |
-[Dell Latitude 7200 2-in-1/7300/7400](https://www.dell.com/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 мая 2021 г.  | 1 мая 2024 г.  |
-[Dell Latitude 7390 7390 2 — in – 1/7490](https://www.dell.com/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297)   | 256 ГБ/Intel i5/8 ГБ ОЗУ   | Необходима ИК-камера | 9 января 2020 г. | 9 января 2023 г. |
+| [Dell Precision 3530](https://www.dell.com/en-us/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 22 мая 2020 г.  | 22 мая 2023 г. |
+| [Dell Latitude 5300/5400/5500](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 июня 2021 г.  | 1 июня 2024 г.  |
+| [Dell Latitude 5490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 9 января 2020 г.  | 9 января 2023 г.  |
+| [Dell Latitude 7200 2-in-1/7300/7400](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 мая 2021 г.  | 1 мая 2024 г.  |
+| [Dell Latitude 7390 7390 2 — in – 1/7490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 ГБ/Intel i5/8 ГБ ОЗУ   | Необходима ИК-камера | 9 января 2020 г. | 9 января 2023 г. |
+| [HP об 830/840/850 G6 Notebook PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 30 ноября 2020 г. | 30 ноября 2023 г. |
+| [HP об x360 830 G6 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 30 ноября 2020 г. | 30 ноября 2023 г. |
 | [HP елите x2 1013 G3](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-1013-3074457345617296670--1#!&tab=features) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS03AV, необходима ИК-камера | 14 мая 2020 г. | 14 мая 2023 г. |
-| [HP об 830/840/850 G5](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 15 февраля 2020 г. | 15 февраля 2023 г. |
 | [HP об x360 1030 G3](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1030-g2--1#tab=features) | 56 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера | 14 мая 2020 г. | 14 мая 2023 г. |
 | [HP об x360 1040 G5](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1040-3074457345617328670--1#!&tab=features) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера | 23 октября 2020 г. | 23 октября 2023 г. |
 | [HP Елитедеск 800 G4 DM DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | 18 июля 2020 г. | 18 июля 2023 г. |
@@ -51,7 +52,9 @@ ms.locfileid: "38034250"
 | [Ноутбук 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
 
-Кроме того, устройство также должно:     
+
+
+Кроме того, устройство также должно удовлетворять следующим условиям:     
 
 - На рабочем столе, управляемом Майкрософт, утверждено изображение. При заказе устройств убедитесь, что они используются с настольными компьютерами, управляемыми корпорацией Майкрософт.
 - Не выполнили интерфейс первого запуска Windows.
@@ -63,7 +66,7 @@ ms.locfileid: "38034250"
 
 - Для получения дополнительных вопросов на устройствах Dell свяжитесь с <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>.
 
-- Дополнительные вопросы по связи с устройствами HP: Америки (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Европа, Ближний Восток и Африка (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Азиатско-Тихоокеанский регион/Япония (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Глобальная (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
+- Для получения дополнительных вопросов о устройствах HP и инструкциях по упорядочиванию устройств обратитесь по адресу: Америки (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Европа, Ближний Восток и Африка (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Азиатско-Тихоокеанский регион/Япония (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Глобальная (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
 
 
 

@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 72ddad03486bf2c7dcba682453fa3bcfbdd1162b
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: c507db0d2867b006772f5aca83d8b5342e55113d
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031154"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627433"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Этап 5: Управление мобильными устройствами для Microsoft 365 корпоративный
 
@@ -62,7 +62,7 @@ Intune предоставляет возможности для управлен
 
 3. **[Войдите в Intune](https://docs.microsoft.com/intune/account-sign-up)**. При входе вам может быть предложено ввести сведения о вашей организации. Intune входит в состав Microsoft 365, и ее можно открыть непосредственно из [центра администрирования Microsoft 365](https://admin.microsoft.com). Вы также можете открыть Intune напрямую на [портале Azure](https://portal.azure.com).
 
-4. **[Выберите конфигурацию управления мобильными устройствами](https://docs.microsoft.com/intune/mdm-authority-set)**. При первом использовании Intune необходимо включить управление устройствами. Intune можно использовать в качестве облачной службы, гибридной среды с Intune и System Center Configuration Manager, а также с помощью функции управления мобильными устройствами для Office 365. Вы можете выбрать, какая программа установки лучше всего подходит для вашей организации.
+4. **[Выберите конфигурацию управления мобильными устройствами](https://docs.microsoft.com/intune/mdm-authority-set)**. При первом использовании Intune необходимо включить управление устройствами. Intune можно использовать в качестве облачной службы, гибридной среды с Intune и диспетчером конфигурации конечных точек Майкрософт, а также с помощью управления мобильными устройствами для Office 365. Вы можете выбрать, какая программа установки лучше всего подходит для вашей организации.
 
 5. **[Добавление пользователей](https://docs.microsoft.com/intune/users-add)** и **[Добавление групп](https://docs.microsoft.com/intune/groups-add)**. 
 

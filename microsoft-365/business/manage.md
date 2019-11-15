@@ -18,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Узнайте, как управлять задачами администрирования, связанными с Microsoft 365 Business, мобильными устройствами, Windows 10PCs и многими подобными задачами.
-ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Узнайте, как управлять задачами администрирования, связанными с Microsoft 365 Business, мобильными устройствами, компьютерами с Windows 10 и многими подобными задачами.
+ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575965"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633316"
 ---
 # <a name="manage-microsoft-365-business"></a>Управление Microsoft 365 Business
 
@@ -32,7 +32,7 @@ ms.locfileid: "37575965"
 
 Большая часть [содержимого для администраторов](/Office365/Admin/admin-home.md) Office 365 для бизнеса также применима к Microsoft 365 Business.
 
-- [Добавление пользователей в Microsoft 365 бизнес](add-users-m365b.md)
+- [Добавление пользователей в Microsoft 365 Business](add-users-m365b.md)
     
 - [Просмотр политик и устройств](view-policies-and-devices.md)
     
@@ -40,7 +40,7 @@ ms.locfileid: "37575965"
     
 - [Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune](map-protection-features-to-intune-settings.md)
     
-В следующих разделах вы найдете сведения об использовании Office 365 бизнес для защиты корпоративных данных на компьютерах и мобильных устройствах.
+В следующих разделах описано, как использовать Microsoft 365 Business для защиты данных вашей организации на компьютерах и мобильных устройствах.
   
 ## <a name="manage-mobile-devices"></a>Управление мобильными устройствами
 
@@ -48,7 +48,7 @@ ms.locfileid: "37575965"
     
 - [Настройка параметров защиты приложений для устройств с Android и iOS](app-protection-settings-for-android-and-ios.md)
     
-    Убедитесь, что [Параметры защиты приложений на устройстве с Android или iOS](validate-settings-on-android-or-ios.md) работают. 
+    Чтобы убедиться в этом, ознакомьтесь со [статьей Проверка параметров защиты приложений на устройстве с Android или iOS](validate-settings-on-android-or-ios.md). 
     
 - [Удаление данных организации с устройств](remove-company-data.md)
     
@@ -62,11 +62,11 @@ ms.locfileid: "37575965"
     
 - [Настройка параметров защиты устройств для устройств с Windows 10](protection-settings-for-windows-10-pcs.md)
     
-    Чтобы узнать, как проверить их работоспособность, см. статью [Проверка параметров защиты устройств на устройствах с Windows 10](validate-settings-on-windows-10-pcs.md). 
+    Чтобы убедиться в этом, ознакомьтесь со [статьей Проверка параметров защиты устройств на устройствах с Windows 10](validate-settings-on-windows-10-pcs.md). 
     
 - [Настройка параметров защиты приложений для устройств с Windows 10](protection-settings-for-windows-10-devices.md)
     
-    Чтобы узнать, как проверить их работоспособность, см. статью [Проверка параметров защиты приложений на компьютерах с Windows 10](validate-protection-settings-on-windows-10-pcs.md). 
+    Чтобы убедиться в этом, ознакомьтесь со [статьей Проверка параметров защиты приложений на компьютерах с Windows 10](validate-protection-settings-on-windows-10-pcs.md). 
     
 - [Удаление данных организации с устройств](remove-company-data.md)
     
@@ -88,9 +88,9 @@ ms.locfileid: "37575965"
     
 - [Сведения о параметрах профиля AutoPilot](autopilot-profile-settings.md)
     
-## <a name="set-up-and-pre-requisite-information"></a>Информация о настройке и предварительных требованиях
+## <a name="set-up-and-prerequisite-information"></a>Настройка и предварительные сведения
 
-- [Предварительные требования для защиты данных на устройствах с помощью Microsoft 365 бизнес](pre-requisites-for-data-protection.md)
+- [Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 Business](pre-requisites-for-data-protection.md)
     
 - [Настройка Microsoft 365 бизнес с помощью мастера](set-up.md)
     
@@ -98,8 +98,4 @@ ms.locfileid: "37575965"
     
 - [Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business](manage-windows-devices.md)
     
-[Дополнительные функции безопасности](security-features.md#additional-security-features)
-    
-
-  
-
+- [Дополнительные функции безопасности](security-features.md#additional-security-features)

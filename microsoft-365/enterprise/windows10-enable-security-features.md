@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: 0f7b4ddec9c52861b4ecf4a7e86831efcce402d6
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: c1c39745b2dc891b4dc079ecd657eaf0d883af23
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370266"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627463"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Шаг 5: развертывание компонентов безопасности Windows 10 Корпоративная
 
@@ -33,7 +33,7 @@ Windows 10 предоставляет функции безопасности д
 
 * [Антивирусная программа "Защитник Windows"](#windows-defender-antivirus)
 * [Exploit Guard в Защитнике Windows](#windows-defender-exploit-guard)
-* [Advanced Threat Protection в защитнике Майкрософт](#windows10-sec-atp)
+* [Advanced Threat Protection в Microsoft Defender](#windows10-sec-atp)
 
 <a name="windows10-sec-av"></a>
 ## <a name="windows-defender-antivirus"></a>Антивирусная программа "Защитник Windows"
@@ -58,7 +58,7 @@ Windows 10 предоставляет функции безопасности д
 Вы можете использовать [руководство по проверке защиты от вирусов защитника Windows](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/evaluate-windows-defender-antivirus) для оценки уровня защиты и воздействия защитника Windows в сети. Это также может быть полезно при создании начальной конфигурации или в кратком руководстве и регулярно обновляется для предоставления наиболее полезной рекомендации по настройке и включению функций для обеспечения максимальной защиты.
 
 ### <a name="reporting"></a>Reporting
-Вы можете получить отчеты с помощью средства настройки, такого как System Center Configuration Manager или Microsoft Intune. Вы также можете получить отчеты о соответствии обновления (OMS) или с помощью журналов событий Windows в SIEM. Если у вас есть лицензия на пакет ATP для защитника Microsoft, вы также можете получить отчеты об обнаружении Windows Defender AV и выполнить базовое исправление. Более подробную информацию можно найти в следующих ресурсах:
+Вы можете получить отчеты с помощью средства настройки, например Microsoft Endpoint Configuration Manager или Microsoft Intune. Вы также можете получить отчеты о соответствии обновления (OMS) или с помощью журналов событий Windows в SIEM. Если у вас есть лицензия на пакет ATP для защитника Microsoft, вы также можете получить отчеты об обнаружении Windows Defender AV и выполнить базовое исправление. Более подробную информацию можно найти в следующих ресурсах:
 * [Развертывание, управление и составление отчетов о Защитнике Windows (AV)](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/deploy-manage-report-windows-defender-antivirus)
 * [Отчет о защите от вирусов защитника Windows](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/report-monitor-windows-defender-antivirus)
 * [Общие сведения о портале ATP для защитника Майкрософт](https://go.microsoft.com/fwlink/?linkid=861596)
@@ -82,7 +82,7 @@ Windows 10 предоставляет функции безопасности д
 Вы можете использовать серию статей, посвященных оценке уровня защиты и влиянии системы защиты от использования защитника Windows в вашей сети. Это также может пригодиться при создании начальной конфигурации или в виде краткого руководства по началу, а также регулярно обновлять темы и рекомендации по настройке и включению функций, обеспечивающих максимальную защиту. Для получения дополнительных сведений [оцените защиту от использования защитника Windows](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/evaluate-windows-defender-exploit-guard).
 
 ### <a name="reporting"></a>Reporting
-Вы можете получить отчеты с помощью средства настройки, такого как System Center Configuration Manager или Intune. Кроме того, вы можете получить отчеты, используя журналы событий Windows в SIEM. Если у вас есть лицензия на пакет ATP для защитника Microsoft, вы также можете получить отчеты об обнаружении Windows Defender AV и выполнить базовое исправление. Более подробную информацию можно найти в следующих ресурсах:
+Вы можете получить отчеты с помощью средства настройки, например Configuration Manager или Intune. Кроме того, вы можете получить отчеты, используя журналы событий Windows в SIEM. Если у вас есть лицензия на пакет ATP для защитника Microsoft, вы также можете получить отчеты об обнаружении Windows Defender AV и выполнить базовое исправление. Более подробную информацию можно найти в следующих ресурсах:
 * [Просмотр событий эксплойта Windows Defender Guard](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
 * [Общие сведения о портале ATP для защитника Майкрософт](https://go.microsoft.com/fwlink/?linkid=861596)
 
@@ -91,10 +91,10 @@ Windows 10 предоставляет функции безопасности д
 
 
 <a name="windows10-sec-atp"></a>
-## <a name="microsoft-defender-advanced-threat-protection"></a>Advanced Threat Protection в защитнике Майкрософт
+## <a name="microsoft-defender-advanced-threat-protection"></a>Advanced Threat Protection в Microsoft Defender
 Защитник Майкрософт, доступный только с планом Microsoft 365 корпоративный, — это служба безопасности, позволяющая корпоративным клиентам обнаруживать, изучать и отвечать на дополнительные угрозы в своих сетях. Для получения дополнительных сведений о Microsoft Defender ATP, минимальных требованиях и способах управления этой функцией обратитесь к разделу:
 
-* [Пакет ATP для защитника Майкрософт](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
+* [ATP в Microsoft Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 * [Минимальные требования](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/minimum-requirements-windows-defender-advanced-threat-protection)
 
 ### <a name="deployment-management-and-configuration"></a>Развертывание, управление и настройка
@@ -128,6 +128,6 @@ Windows 10 предоставляет функции безопасности д
 * [Устранение проблем с входящей миграции](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-onboarding-windows-defender-advanced-threat-protection)
 * [Устранение неполадок в защитнике Microsoft](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшее действие
 
 [Критерии выхода инфраструктуры Windows 10 Корпоративная](windows10-exit-criteria.md)

@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 31a6c85b7fd19006e4be26dce36fc1f821f38e44
-  ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+  ms.openlocfilehash: ddf37ec091aace486b2e4f199cf31f3c720d93a1
+  ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 11/11/2019
-  ms.locfileid: "38231624"
+  ms.lasthandoff: 11/14/2019
+  ms.locfileid: "38627065"
 highlightedContent:
   items:
   - title: Обучение для администраторов и ИТ-специалистов
@@ -26,7 +26,7 @@ highlightedContent:
     url: https://docs.microsoft.com/learn/m365/
   - title: Обучение конечных пользователей
     itemType: learn
-    url: https://support.microsoft.com
+    url: https://support.office.com/modernworkplace
   - title: Обучение для малых предприятий
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
@@ -56,7 +56,7 @@ additionalContent:
     - title: Соответствие требованиям Microsoft 365
       summary: Помогите вашей организации управлять информацией, защищаться от рисков и соблюдать юридический или нормативный стандарт.
       url: ./compliance/index.yml
-    - title: Безопасность в Microsoft 365
+    - title: Microsoft 365 Security
       summary: Узнайте о надежных решениях и службах обеспечения безопасности в Microsoft 365, чтобы вы могли лучше защитить организацию от поверхностей атак.
       url: ./security/index.yml
     - title: Microsoft 365 для кампаний
