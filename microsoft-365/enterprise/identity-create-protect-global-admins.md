@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Учетные записи глобальных администраторов нуждаются в особой обработке, чтобы защитить их от компрометации учетных данных.
-ms.openlocfilehash: 72de7d683a9c2a080f7be69e585d16d8122cd46d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 257caf197df74d32b438a17158598237cf4c58b5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370216"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627085"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>Шаг 1. Создание и защита учетных записей глобальных администраторов
 
@@ -47,7 +47,7 @@ ms.locfileid: "37370216"
 Ниже перечислены результаты, которые вы получите после выполнения инструкций с данного этапа.
 
 - Роль глобального администратора имеют только новые специальные учетные записи глобального администратора. Проверьте это с помощью указанной ниже команды Azure Active Directory PowerShell для Graph: 
-  ```
+  ```powershell
   Get-AzureADDirectoryRole | Where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 - Всем остальным учетным записям пользователей, которые управляют вашей подпиской, назначены роли администраторов, соответствующие должностным обязанностям этих пользователей.

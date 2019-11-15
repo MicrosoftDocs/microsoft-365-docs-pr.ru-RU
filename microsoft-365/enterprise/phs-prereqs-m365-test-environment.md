@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для проверки подлинности с синхронизацией хэша паролей.
-ms.openlocfilehash: 274f73b1cd6a925b972ab14417c9d854c48c2f00
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9544f59f638eb590ad5f43158b33229ec5703580
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074159"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627513"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для синхронизации хэша паролей в тестовой среде Microsoft 365
 
@@ -96,13 +96,13 @@ ms.locfileid: "34074159"
 
 2. Выполните указанную ниже команду.
 
-  ```
+  ```powershell
   Set-CsOAuthConfiguration -ClientAdalAuthOverride Allowed
   ```
 
 3. Проверьте успешность изменения с помощью указанной ниже команды.
 
-  ```
+  ```powershell
   Get-CsOAuthConfiguration
   ```
 
