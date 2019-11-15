@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Статья о корпорации Contoso как о деловой организации и о многоуровневой структуре ее офисов по всему миру.
-ms.openlocfilehash: ad2b3cce0e40161199513616a07ecd0a83a3e1b1
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: 429d74c66198c1b4a3dea735127a4fb569aa7bb0
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369560"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627345"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Общие сведения о корпорации Contoso
 
@@ -64,7 +64,7 @@ ms.locfileid: "37369560"
 
 - Разные географические расположения с местным законодательством и требованиями по соответствию нормам
 - Центр обработки данных центральной интрасети в главном офисе и региональные серверы приложений, в которых размещаются внутренние бизнес-приложения
-- Существующая инфраструктура System Center Configuration Manager
+- Существующая инфраструктура Microsoft Endpoint Configuration Manager
 - Сочетание клиентских компьютеров, включая устройства на Windows, Mac и Linux
 - Сочетание личных и корпоративных мобильных устройств, включая смартфоны и планшеты на iOS (iPhone и iPad) и Android
 - Много удаленных и мобильных сотрудников

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: 59f40ad2870be8d1b74b03123a7c161b132e565d
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 47a8f538993a4bb8a26787e4b592eb7f985d6ade
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302966"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627443"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 корпоративный
 
@@ -44,7 +44,7 @@ ms.locfileid: "38302966"
 
   Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) или [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx).
 
-- [Плакат "Развертывание Windows 10 с помощью System Center Configuration Manager"](windows10-deploy-inplaceupgrade.md)
+- [Плакат "Развертывание Windows 10 с помощью Microsoft Endpoint Configuration Manager"](windows10-deploy-inplaceupgrade.md)
 
   [![Плакат "Развертывание Windows 10 с помощью System Center Configuration Manager"](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=jjP0k8Y9ClANZptzS5IPwxs61kocwCg6bLUBdjZp6lY%3D&st=2019-11-12T23%3A51%3A28Z&se=2019-11-14T00%3A01%3A28Z&sp=r)
 
