@@ -24,19 +24,21 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Сведения о том, как сбросить или очистить устройство, управляемое с помощью политик защиты.
-ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074677"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633336"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business"></a><span data-ttu-id="cd7e4-103">Управление защищенными устройствами с помощью Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="cd7e4-103">Manage protected devices with Microsoft 365 Business</span></span>
+# <a name="manage-protected-devices-with-microsoft-365-business"></a><span data-ttu-id="2fb85-103">Управление защищенными устройствами с помощью Microsoft 365 Business</span><span class="sxs-lookup"><span data-stu-id="2fb85-103">Manage protected devices with Microsoft 365 Business</span></span>
 
-<span data-ttu-id="cd7e4-p101">После того, как пользователь подключит свое устройство к организации и войдет на нем в систему или в приложение Office с помощью своей рабочей учетной записи, устройство будет защищено с помощью настроенных вами политик и отобразится на странице **Устройства**. На этой странице можно будет удалить корпоративные данные с устройства в случае его потери или кражи. Кроме того, вы можете восстановить заводские настройки на устройствах с Windows 10, чтобы удалить все пользовательские параметры. Дополнительные сведения о задачах, которые можно выполнять при управлении устройствами, см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="cd7e4-p101">After a user connects their device to your organization, by signing in with their work account to the device or to Office apps on the device, we're able to protect the device with the policies that you set up and it will be listed on the **Devices** page. If a device is lost or stolen, you can manage it from this page to remove any company data. You can also reset Windows 10 devices to their factory settings to wipe out any custom settings. For more information on the tasks you can perform to manage devices, please see these articles:</span></span> 
+<span data-ttu-id="2fb85-104">После того как пользователь подключил устройство к Организации, войдя с помощью своей рабочей учетной записи на устройство или в приложения Office на устройстве, вы можете защитить это устройство с помощью настроенных политик.</span><span class="sxs-lookup"><span data-stu-id="2fb85-104">After a user connects their device to your organization by signing in with their work account to the device or to Office apps on the device, you can protect the device with the policies you set up.</span></span> <span data-ttu-id="2fb85-105">Подключенные устройства перечислены на странице " **устройства** ".</span><span class="sxs-lookup"><span data-stu-id="2fb85-105">Connected devices are listed on the **Devices** page.</span></span> <span data-ttu-id="2fb85-106">Если устройство утрачено или украдено, вы можете управлять им с этой страницы, чтобы удалить все данные компании.</span><span class="sxs-lookup"><span data-stu-id="2fb85-106">If a device is lost or stolen, you can manage it from this page to remove any company data.</span></span> <span data-ttu-id="2fb85-107">Вы также можете сбросить устройства Windows 10 в соответствии с их фабричными настройками, чтобы очистить все настраиваемые параметры.</span><span class="sxs-lookup"><span data-stu-id="2fb85-107">You can also reset Windows 10 devices to their factory settings to wipe out any custom settings.</span></span> 
+
+<span data-ttu-id="2fb85-108">Дополнительные сведения о задачах, которые можно использовать для управления устройствами, представлены в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="2fb85-108">For more information on the tasks you can use to manage devices, see these articles:</span></span> 
   
-[<span data-ttu-id="cd7e4-108">Удаление данных организации с устройств</span><span class="sxs-lookup"><span data-stu-id="cd7e4-108">Remove company data from devices</span></span>](remove-company-data.md)
+[<span data-ttu-id="2fb85-109">Удаление данных организации с устройств</span><span class="sxs-lookup"><span data-stu-id="2fb85-109">Remove company data from devices</span></span>](remove-company-data.md)
   
-[<span data-ttu-id="cd7e4-109">Восстановление заводских настроек для устройств с Windows 10</span><span class="sxs-lookup"><span data-stu-id="cd7e4-109">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
+[<span data-ttu-id="2fb85-110">Восстановление заводских настроек для устройств с Windows 10</span><span class="sxs-lookup"><span data-stu-id="2fb85-110">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
   
 
