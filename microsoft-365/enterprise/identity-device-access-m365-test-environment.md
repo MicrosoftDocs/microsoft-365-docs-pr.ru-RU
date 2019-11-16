@@ -13,14 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам.
-ms.openlocfilehash: c8d7aed1422f9d0c5891157e6fb7d3d30d976c4a
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: e86ff814f0b2b986de7eb26e7de362f17cd355e9
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981900"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38672595"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Удостоверения и доступ к устройствам для тестовой среды Microsoft 365
+
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
 
 [Конфигурации удостоверений и доступа к устройствам](microsoft-365-policies-configurations.md) — это набор функций и политик условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD), включая Office 365 и Microsoft Intune в Microsoft 365 корпоративный.
 

@@ -15,14 +15,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Это руководство по лаборатории тестирования поможет вам создать простую тестовую среду для Microsoft 365 корпоративный.
-ms.openlocfilehash: c654dc80620b98d09cf508e309d4410d9cf4a4dc
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: ff9577fb461429fd8d4628dc0eea6b8a35664fbc
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639919"
+ms.locfileid: "38672745"
 ---
 # <a name="the-lightweight-base-configuration"></a>Простая базовая конфигурация
+
+*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 В этой статье представлены пошаговые инструкции по созданию упрощенной среды с подпиской на Microsoft 365 E5 и компьютером с ОС Windows 10 Корпоративная. 
 

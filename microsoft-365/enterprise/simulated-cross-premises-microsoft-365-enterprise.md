@@ -14,17 +14,17 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 description: Сводка. Создание имитации распределенной виртуальной сети в Microsoft Azure как тестовой среды Microsoft 365.
-ms.openlocfilehash: 7fc3035db5e0b6e924d8b55e81cbee5eca38bfbf
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: be753251670f882b277305f808354791efc38547
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640718"
+ms.locfileid: "38673315"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Имитация распределенной виртуальной сети в тестовой среде Microsoft 365
 
- **Сводка.** Создание имитации распределенной виртуальной сети в Microsoft Azure как среды разработки и тестирования.
-  
+*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+
 В этой статье описаны действия по созданию имитации гибридной облачной среды в Microsoft Azure с помощью двух виртуальных сетей Azure. Ниже показана итоговая конфигурация. 
   
 ![Этап 3: создание имитации распределенной виртуальной сети как среды разработки и тестирования (с виртуальной машиной DC2 в сети XPrem)](media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)

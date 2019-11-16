@@ -16,14 +16,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
-ms.openlocfilehash: d946aefa38884923d70d2c530d61f84861cc914e
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: f0f10d34cd761f7e7e3c60a1816bd79eea8ecd9b
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639759"
+ms.locfileid: "38673365"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
+
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
 
 Обратная запись пароля позволяет пользователям обновлять их пароли с помощью Azure Active Directory (Azure AD), которые затем реплицируются в локальных доменных службах Active Directory (AD DS). Благодаря функции обратной записи паролей пользователям не нужно обновлять свои пароли в локальных службах AD DS, где хранятся исходные учетные записи пользователей. Это помогает удаленным пользователям и пользователям, находящимся в пути, у которых нет подключения для удаленного доступа к сети локальной среды.
 

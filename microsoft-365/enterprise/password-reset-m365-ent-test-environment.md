@@ -16,14 +16,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Сводка: сведения о том, как настроить и проверить сброс пароля для тестовой среды Microsoft 365.'
-ms.openlocfilehash: 4ddcb0718fbb5546a0e37b648b698b46d7e55ec0
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 3ad5a1477bfc40b541c0b048b9b68b896a748e0a
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640728"
+ms.locfileid: "38673375"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Сброс пароля для тестовой среды Microsoft 365
+
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
 
 Функция самостоятельного сброса паролей (SSPR) Azure Active Directory (Azure AD) позволяет пользователям сбрасывать пароли и разблокировать учетные записи. 
 
