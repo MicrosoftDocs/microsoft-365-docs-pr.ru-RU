@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Office 365 профессиональный плюс для Microsoft 365 корпоративный.
-ms.openlocfilehash: 05615c4c9020326da6b2e3e97b162dbb8d132854
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a51a37a321b450d233d7f9fd6da28b5828514d13
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033654"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627453"
 ---
 # <a name="phase-4-office-365-proplus"></a>Этап 4. Office 365 профессиональный плюс
 
@@ -44,7 +44,7 @@ ms.locfileid: "38033654"
 
 После оценки среды следуйте инструкциям из статьи [Планирование развертывания Office 365 профессиональный плюс](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus), чтобы создать план развертывания. Этот план включает следующие решения: 
 
-- способ развертывания Office, в том числе используемое средство (например, System Center Configuration Manager или средство развертывания Office) и источник, из которого устанавливается Office;
+- способ развертывания Office, в том числе используемое средство (например, Microsoft Endpoint Configuration Manager или средство развертывания Office) и источник, из которого устанавливается Office;
 - способ управления обновлениями Office;
 - используемые каналы обновления (каналы обновления Office определяют, как часто пользователи получают обновления функций своих приложений Office);
 - установочные пакеты и группы развертывания Office, которые требуется использовать, в том числе приложения Office и языки, которые требуется установить для тех или иных пользователей.
@@ -55,7 +55,7 @@ ms.locfileid: "38033654"
 
 В соответствии с планом развертывания выберите способ развертывания.
 
-- **[Развертывание Office 365 профессиональный плюс с помощью System Center Configuration Manager](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager):** управляйте развертыванием с помощью Configuration Manager, скачав и установив Office из точек распространения в сети.
+- **[Развертывание Office 365 профессиональный плюс с помощью Microsoft Configuration Manager](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager):** управляйте развертыванием с помощью Configuration Manager, загружая и устанавливая Office из точек распространения в сети.
 
 - **[Развертывание Office 365 профессиональный плюс с помощью ODT из облака](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-from-the-cloud):** управляйте развертыванием с помощью ODT, установив Office на клиентских устройствах непосредственно из сети CDN Office
  

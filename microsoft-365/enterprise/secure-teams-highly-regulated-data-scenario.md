@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте защищенную команду для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: 97cc19b0b0067dc0eaca845dd16621be823f1334
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: f787951748cc1fb0b6b207b4b3aca0de1c29e3d7
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302956"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627503"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams для строго регулируемых данных
 
@@ -125,7 +125,7 @@ ms.locfileid: "38302956"
 
 ![Шаг 4 настройки сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-step4.png)
  
-### <a name="step-5-create-the-label-or-a-sublabel-of-the-highly-regulated-label"></a>Шаг 5. Создание метки или вложенной метки для метки строго регулируемых данных
+### <a name="step-5-create-a-sensitivity-label-or-a-sublabel-of-the-highly-regulated-sensitivity-label"></a>Шаг 5. Создание метки конфиденциальности или вложенной метки для строго регулируемых данных
 
 В отличие от метки конфиденциальности для строго регулируемых данных, которую любой пользователь может применить к любому файлу, защищенной команде требуется собственная метка или вложенная метка, чтобы файлы, которым она назначена:
 
