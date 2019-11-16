@@ -49,9 +49,6 @@
 #### [Предоставление пользователям доступа к Центру безопасности](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
 
-
-
-
 ### [Защита от угроз](./office-365-security/protect-against-threats.md)
 #### [Защита от нежелательной почты и вредоносных программ](./office-365-security/anti-spam-and-anti-malware-protection.md)
 ##### [Расширенные параметры фильтрации нежелательной почты](./office-365-security/advanced-spam-filtering-asf-options.md)
@@ -141,7 +138,6 @@
 ##### [Просмотр сведений о вредоносных файлах](./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md)
 
 
-
 ### [Расширенная защита от угроз](./office-365-security/office-365-atp.md)
 #### [Новые возможности]()
 ##### [Новые возможности Office 365 ATP](office-365-security/whats-new-in-office-365-atp.md)
@@ -182,6 +178,7 @@
 #### [Реагирование на инциденты, связанные с безопасностью, в Office 365](./office-365-security/office365-security-incident-response-overview.md)
 #### [Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365](./office-365-security/detect-and-remediate-illicit-consent-grants.md)
 #### [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md)
+#### [Реагирование на компрометацию учетной записи электронной почты в Office 365](office-365-security/responding-to-a-compromised-email-account.md)
 
 ### [Поток обработки почты]()
 #### [Включение надстройки Report Message](./office-365-security/enable-the-report-message-add-in.md)
@@ -222,7 +219,7 @@
 
 ##### [Настройка службы EOP](./office-365-security/set-up-your-eop-service.md)
 ###### [Рекомендации по настройке EOP](./office-365-security/best-practices-for-configuring-eop.md)
-###### [Рекомендации по настройке EOP и безопасности Office365 ATP](./office-365-security/best-practices-for-eop-office365-atp.md)
+###### [Рекомендуемые параметры для настройки безопасности EOP и Office 365 ATP](./office-365-security/recommended-settings-for-eop-and-office365-atp.md)
 ###### [Пример скрипта для применения параметров EOP к нескольким клиентам](./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md)
 ###### [Перемещение доменов и настроек из одной организации EOP в другую](./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
 ###### [Переход на EOP с Google Postini, Barracuda Spam and Virus Firewall или Cisco IronPort](./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)
