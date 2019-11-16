@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
-ms.openlocfilehash: ada72460adffce46951b8784d90b6cfa29b35bc3
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b49312b94aef35afc5febeae0fd4dc71b7c642af
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031104"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38672685"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Сводка по безопасности Microsoft 365 корпоративный для корпорации Contoso
-
-**Сводка.** Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
 
 Чтобы ИТ-отдел безопасности утвердил развертывание Microsoft 365 корпоративный, была проведена тщательная проверка безопасности. Ниже приведены требования Contoso к безопасности для облака.
 

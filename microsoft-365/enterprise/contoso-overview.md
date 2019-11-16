@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Статья о корпорации Contoso как о деловой организации и о многоуровневой структуре ее офисов по всему миру.
-ms.openlocfilehash: 429d74c66198c1b4a3dea735127a4fb569aa7bb0
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: f1c758b92915845a0786c24aec611cb221c70186
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627345"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673155"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Общие сведения о корпорации Contoso
-
-**Сводка.** Статья о корпорации Contoso как о деловой организации и о многоуровневой структуре ее офисов по всему миру.
 
 ![Корпорация Contoso](./media/contoso-overview/contoso-icon.png)
 

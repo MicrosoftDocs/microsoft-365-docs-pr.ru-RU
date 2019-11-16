@@ -13,16 +13,14 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Показательный пример внедрения Microsoft 365 корпоративный вымышленной глобальной организацией
-ms.openlocfilehash: 0d5453a5f55314207e0c8403837a83dd66eb70d3
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: e7c79612b18bdd21d8fd137abe11f8f26cfd6eff
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369620"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673225"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 корпоративный для корпорации Contoso
-
-**Сводка.** Показательный пример внедрения Microsoft 365 корпоративный вымышленной глобальной организацией
 
 Microsoft 365 корпоративный — это первоклассное облачное предложение корпорации Майкрософт, сочетающее местные и облачные приложения и службы, Windows 10 Корпоративную и дополнительные средства безопасности в одном комплексном интеллектуальном решении, которое открывает перед пользователями возможность безопасной творческой и совместной работы. 
 
