@@ -13,14 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройка защиты идентификации Azure AD и анализ текущих учетных записей в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: a21b20f4ca774ad38990e44abc18d666426e74d5
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: bc98ebbdd45e06481e2d95687fb4eb8c986533a3
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640408"
+ms.locfileid: "38673245"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Защита удостоверений Azure AD для тестовой среды Microsoft 365 корпоративный
+
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 Enterprise.*
 
 Защита удостоверений Azure AD позволяет обнаруживать потенциальные уязвимости, затрагивающие удостоверения вашей организации, настраивать автоматические ответы и изучению инцидентов. В этой статье описывается включение защиты удостоверений Azure AD и Просмотр анализа учетных записей тестовой среды.
 
@@ -29,7 +31,7 @@ ms.locfileid: "38640408"
 1. Создайте среду тестирования Microsoft 365 корпоративный.
 2. Включение и использование защиты удостоверений Azure AD.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -59,7 +61,7 @@ ms.locfileid: "38640408"
 
 Чтобы получить сведения и ссылки на странице "Защита удостоверений Azure AD" в рабочей среде, ознакомьтесь со статьей " [Защита от кражи учетных данных](identity-secure-user-sign-ins.md#identity-ident-prot) " на этапе идентификации.
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

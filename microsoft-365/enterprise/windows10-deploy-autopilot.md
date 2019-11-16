@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 244aa9a2749c41471760c5263a6df6d745e5ade6
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 98585f744b9aeabe84cdb31c6f7e3c2f9ddf0a05
+ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302946"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38669688"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Шаг 3: развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилота
 
@@ -31,7 +31,7 @@ ms.locfileid: "38302946"
 
 Афиша автопилота Windows — две страницы в режиме книжной ориентации (11x17). Щелкните изображение ниже, чтобы просмотреть документ PDF в браузере. 
 
-[![Плакат "Развертывание Windows 10 с помощью Autopilot"](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=RWOcP%2BhJZYpYcGKMhuTUEL6lcuWdBFefqR%2BQQfmj6IM%3D&st=2019-11-12T23%3A48%3A59Z&se=2019-11-13T23%3A58%3A59Z&sp=r)
+[![Плакат "Развертывание Windows 10 с помощью Autopilot"](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) или [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx).
 

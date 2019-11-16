@@ -12,18 +12,20 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для добавления политик соответствия требованиям к устройствам Intune в тестовую среду Microsoft 365 Enterprise.
-ms.openlocfilehash: dbe0592dfcac7090da194c85db8e788e8e64a0e7
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 6f37a898461ea67bc2927fcbac1a0f1b15adb036
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639809"
+ms.locfileid: "38672565"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Политики соответствия требованиям устройств для тестовой среды Microsoft 365 корпоративный
 
+*Это руководство по лаборатории тестирования можно использовать только с тестовой средой Microsoft 365 Enterprise.*
+
 С помощью инструкций, описанных в этой статье, вы добавите политику соответствия требованиям для устройств Intune в тестовую среду Microsoft 365 Enterprise.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -92,7 +94,7 @@ ms.locfileid: "38639809"
 
 Теперь у вас есть политика соответствия требованиям устройств для тестирования выбранных приложений в политике соответствия требованиям устройств для **Windows 10** и для членов группы **управляемых пользователей устройств Windows 10** . Обратите внимание, что при выборе пункта Office 365 в качестве типа группы будут созданы дополнительные ресурсы. 
   
-## <a name="next-step"></a>Дальнейшее действие
+## <a name="next-step"></a>Следующий шаг
 
 Узнайте о дополнительных возможностях и возможностях [управления мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) в тестовой среде.
 

@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте больше о Microsoft 365 Business.
-ms.openlocfilehash: 03e16c336a2d6d3d8ffd5875ed7419bba3c7e378
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633406"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676091"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Общие сведения о Microsoft 365 Business
 
@@ -98,4 +98,7 @@ Microsoft 365 бизнес помогает **защититься от угро
 
 - Если у вас нет партнера и вы хотите получить Microsoft 365 Business, вы можете [приобрести его здесь](https://www.microsoft.com/microsoft-365/business) и выполнить инструкции по [регистрации](sign-up.md) .
 
-- Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) для приобретения Microsoft 365 Business и получения справки по настройке.
+- Вы также можете подписаться на [магазин Майкрософт](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) для приобретения Microsoft 365 Business и получения справки по настройке.
+
+    > [!NOTE]
+    > Эта ссылка предназначена только для хранилищ в США

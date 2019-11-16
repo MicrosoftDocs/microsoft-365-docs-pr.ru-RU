@@ -13,14 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Используйте следующие действия для защиты учетных записей глобального администратора в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: c7ee5bca3f5841ac7751e497ca88391daf965301
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 89985f99f5471aab87189e78035062add2c6bad9
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640361"
+ms.locfileid: "38673335"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Защита учетных записей глобального администратора в тестовой среде Microsoft 365 Enterprise
+
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 Enterprise.*
 
 Вы можете предотвратить цифровые атаки в Организации, убедившись, что учетные записи администраторов максимально надежны. В этой статье описывается, как использовать политики условного доступа Azure Active Directory (Azure AD) для защиты учетных записей глобальных администраторов.
 
@@ -29,7 +31,7 @@ ms.locfileid: "38640361"
 1.  Создайте среду тестирования Microsoft 365 корпоративный.
 2.  Защитите выделенную учетную запись глобального администратора.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -95,7 +97,7 @@ ms.locfileid: "38640361"
 
 Сведения и ссылки для защиты учетных записей глобального администратора в рабочей среде приведены в статье [Защита учетных записей глобальных администраторов](identity-create-protect-global-admins.md#identity-global-admin) на этапе идентификации.
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

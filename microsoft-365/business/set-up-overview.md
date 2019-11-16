@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Обзор процедуры настройки для Microsoft 365 Business.
-ms.openlocfilehash: 50f172c235aa06aa78fec60fc119ac7f568df308
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3e1cf240db673a7b961ec8aa574f3e09efee476b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575595"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676035"
 ---
 # <a name="overview-of-setup"></a>Обзор настройки
 
@@ -70,7 +70,6 @@ ms.locfileid: "37575595"
 
 ## <a name="stes-4-install-office-365-business"></a>Стес 4: установка Office 365 для бизнеса
 - Вы можете автоматически установить Office на устройствах с Windows с помощью [мастера установки](set-up.md#deploy-office-365-client-apps).
-- Автоматическая [Установка Office](auto-install-or-uninstall-office.md) из центра администрирования.
 - Разрешите пользователям [устанавливать приложения Office](https://docs.microsoft.com/office365/admin/setup/install-applications) для Windows и устройств.
      
 ## <a name="advanced"></a>Дополнительно
@@ -82,6 +81,6 @@ ms.locfileid: "37575595"
 
      - Если ваша организация использует локальную службу Windows Server Active Directory, вы можете настроить Microsoft 365 бизнес для защиты устройств с Windows 10, сохраняя доступ к локальным ресурсам, требующим локальной проверки подлинности. Выполните действия, описанные в разделе " [Включение устройств, присоединенных к домену" с Windows 10 для управления в Microsoft 365 Business](manage-windows-devices.md) , чтобы настроить. Это предпочитаемый метод и устройства в этом состоянии называются гибридными подключенными устройствами Azure AD.
 
-    - Если в вашей организации есть локальная служба Active Directory, содержащая некоторые локальные ресурсы (например, файловые ресурсы и принтеры), вы можете предоставить подключенным устройствам Azure AD доступ к этим ресурсам, выполнив действия, описанные здесь: [доступ к локальным ресурсам из Подключенное к Azure AD устройство в Microsoft 365 Business](access-resources.md).
+    - Если в вашей организации есть локальная служба Active Directory, содержащая некоторые локальные ресурсы (например, файловые ресурсы и принтеры), вы можете предоставить подключенным устройствам Azure AD доступ к этим ресурсам, выполнив действия, описанные здесь: [доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business](access-resources.md).
 
   

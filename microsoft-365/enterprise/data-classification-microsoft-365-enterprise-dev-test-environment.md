@@ -12,18 +12,20 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для создания и использования меток хранения Office 365 для документов в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: 1bcd3ab2d8069ad85d48ecf682d3b7d49e7cf739
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: e0186bcfc786356b34aff45b1b1e67f54dd40001
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639789"
+ms.locfileid: "38672665"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Классификация данных для тестовой среды Microsoft 365 корпоративный
 
+*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 Enterprise и Office 365 Enterprise.*
+
 С помощью инструкций, описанных в этой статье, вы настраиваете классификацию данных с помощью меток хранения Office 365 в тестовой среде Microsoft 365 Enterprise.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -131,7 +133,7 @@ ms.locfileid: "38639789"
 
 Сведения и ссылки на сведения о том, как развертывать метки хранения Office 365 в рабочей среде, можно найти в разделе [Настройка классификации для среды](infoprotect-configure-classification.md) на этапе **защиты информации** .
 
-## <a name="next-step"></a>Дальнейшее действие
+## <a name="next-step"></a>Следующий шаг
 
 Узнайте о дополнительных возможностях и возможностях [защиты информации](m365-enterprise-test-lab-guides.md#information-protection) в тестовой среде.
 

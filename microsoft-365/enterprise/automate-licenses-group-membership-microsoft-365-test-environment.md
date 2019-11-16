@@ -13,14 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройте лицензирование на основе групп и членство в динамической группе в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: c3b515a9b453275f9b79ba2b90d5a4c14611c2aa
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: fe6380d94919556904a1fb1ac0624fac3496fe30
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639799"
+ms.locfileid: "38673255"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Автоматизация лицензирования и участия в группах для тестовой среды Microsoft 365 корпоративный
+
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 Enterprise.*
 
 Лицензирование на основе групп автоматически назначает или удаляет лицензии для учетной записи пользователя в соответствии с членством в группе. Членство в динамической группе добавляет или удаляет членов группы на основе свойств учетной записи пользователя, например отдела или страны. В этой статье описывается демонстрация обеих сред в тестовой среде Microsoft 365 Enterprise.
 
@@ -29,7 +31,7 @@ ms.locfileid: "38639799"
 1. Создайте среду тестирования Microsoft 365 корпоративный.
 2. Настройка и проверка членства в динамических группах и автоматическое лицензирование.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -93,7 +95,7 @@ ms.locfileid: "38639799"
 - [Настройка автоматического лицензирования](identity-use-group-management.md#identity-group-license)
 - [Настройка динамического членства в группах](identity-use-group-management.md#identity-dyn-groups)
 
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

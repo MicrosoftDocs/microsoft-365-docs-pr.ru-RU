@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка расширенной защиты от угроз для Office 365 и защита конфиденциальных данных.
-ms.openlocfilehash: 00a40ceb6d51add2ebe8cc7ca4c299fe07a10b89
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320115"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676015"
 ---
 # <a name="increase-threat-protection"></a>Улучшение защиты от угроз
 
@@ -86,7 +86,7 @@ ms.locfileid: "38320115"
    
 Подробнее:
   
-- [Как работать с программой «шантажистом»](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
+- [Как работать с программой «шантажистом»](https://go.microsoft.com/fwlink/?linkid=2016501)
     
 - [Восстановление OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
@@ -178,7 +178,7 @@ ms.locfileid: "38320115"
 |Перенаправление вложения при обнаружении  <br/> |Включить перенаправление (установите это поле) введите учетную запись администратора или почтового ящика для карантина.          Применить вышеуказанный вариант, если во время сканирования вредоносных программ для вложений поступает сообщение об ошибке (установите это поле).  <br/> |
 |Применяется к  <br/> |Доменом получателя является. . . Выберите свой домен.  <br/> |
    
-Дополнительные сведения см. в статье [Настройка политик защиты от фишинга для Office 365 ATP](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
+Дополнительные сведения см. в статье [Настройка политик защиты от фишинга для Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 
 
