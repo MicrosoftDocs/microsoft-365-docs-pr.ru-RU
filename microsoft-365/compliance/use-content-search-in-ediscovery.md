@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 55f31488-288a-473a-9b9e-831a11e3711a
 description: 'Используйте сценарий PowerShell для создания поискового запроса на обнаружение электронных данных на месте в Exchange Online на основе поиска, созданного в центре безопасности & соответствия требованиям. '
-ms.openlocfilehash: f3d5eb76dfa91334bccae42e0ddb66a71f739a6f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a16bf747da2d2eb8219ac4c13f4ff8c34d37b2c3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090662"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687565"
 ---
 # <a name="use-content-search-in-your-ediscovery-workflow"></a>Поиск содержимого при обнаружении электронных данных
 
@@ -48,7 +48,7 @@ ms.locfileid: "37090662"
     
 4. В разделе **Где нужно искать?** выберите **Поиск во всех почтовых ящиках** и нажмите кнопку **Далее**.
     
-5. В поле **Что вы ищете?** введите поисковый запрос. Можно указать ключевые слова или свойства сообщений, например даты отправки и получения, или свойства документов, например имена файлов или дату последнего изменения. Можно использовать более сложные запросы, использующие логический оператор (например, AND, OR, NOT или NEAR), а также выполнять поиск конфиденциальной информации (например, номера социального страхования) в сообщениях. Дополнительные сведения о создании поисковых запросов см. в статье [Keyword queries for Content Search](keyword-queries-and-search-conditions.md).
+5. В поле **Что вы ищете?** введите поисковый запрос. Вы можете указать ключевые слова или свойства сообщений, например даты отправки и получения, или свойства документов, например имена файлов или дату последнего изменения. Можно использовать более сложные запросы, использующие логический оператор (например, AND, OR, NOT или NEAR), а также выполнять поиск конфиденциальной информации (например, номера социального страхования) в сообщениях. Дополнительные сведения о создании поисковых запросов см. в статье [Keyword queries for Content Search](keyword-queries-and-search-conditions.md).
     
 6. Щелкните **Поиск**, чтобы сохранить параметры поиска и начать поиск. 
     
@@ -62,11 +62,11 @@ ms.locfileid: "37090662"
   
 Ниже приведен пример использования PowerShell для поиска всех почтовых ящиков в Организации. Этот поисковый запрос возвращает все сообщения, отправленные в период с 1 января по 30 июня 2015 г. и содержащие фразу "financial report" (финансовый отчет) в строке темы. Первая команда создает поиск, а вторая выполняет его. 
   
-```
+```powershell
 New-ComplianceSearch -Name "Search All-Financial Report" -ExchangeLocation all -ContentMatchQuery 'sent>=01/01/2015 AND sent<=06/30/2015 AND subject:"financial report"'
 ```
 
-```
+```powershell
 Start-ComplianceSearch -Identity "Search All-Financial Report"
 ```
 
@@ -80,7 +80,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 1. Сохраните приведенный ниже текст в файле скрипта PowerShell с помощью суффикса имени файла. ps1. Например, вы можете сохранить его в файл с именем `SourceMailboxes.ps1`.
     
-  ```
+  ```powershell
   [CmdletBinding()]
   Param(
       [Parameter(Mandatory=$True,Position=1)]
@@ -112,7 +112,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
 
 2. В PowerShell центра безопасности & соответствия требованиям перейдите к папке, в которой расположен скрипт, созданный на предыдущем шаге, и запустите его. Например:
     
-    ```
+    ```powershell
     .\SourceMailboxes.ps1
     ```
 
@@ -128,7 +128,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс .ps1 в имени файла. Например, вы можете сохранить его в файл с именем `ConnectEXO-CC.ps1`.
     
-    ```
+    ```powershell
     $UserCredential = Get-Credential
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session -DisableNameChecking
@@ -139,7 +139,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
 
 2. На локальном компьютере откройте Windows PowerShell, перейдите к папке, в которой расположен скрипт, созданный на предыдущем шаге, и запустите его. Например:
     
-    ```
+    ```powershell
     .\ConnectEXO-CC.ps1
     ```
 
@@ -157,7 +157,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
     
 - Создает поиск с обнаружением электронных данных на месте с указанными ниже свойствами. Обратите внимание, что новый поиск не запускается. Он запускается на шаге 4.
     
-  - **Name** — имя нового поиска использует следующий формат: \<имя _MBSearch1 поиска\>контента. Если выполнить сценарий повторно и использовать тот же Поиск исходного контента, будет использоваться \<имя _MBSearch2 поиска\>контента.
+  - **Name** — имя нового поиска использует следующий формат: \<имя _MBSearch1 поиска\>контента. Если выполнить сценарий повторно и использовать тот же поиск контента источника, поиск будет называться \<имя _MBSearch2 поиска\>контента.
     
   - **Исходные почтовые ящики** — все почтовые ящики из поиска контента, содержащие результаты поиска. 
     
@@ -167,7 +167,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
     
 1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс .ps1 в имени файла. Например, вы можете сохранить его в файл с именем `CreateMBSearchFromComplianceSearch.ps1`.
     
-  ```
+  ```powershell
   [CmdletBinding()]
   Param(
       [Parameter(Mandatory=$True,Position=1)]
@@ -231,12 +231,11 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   {
     New-MailboxSearch "$msPrefix$i" -SourceMailboxes $mailboxes -SearchQuery $query -EstimateOnly;
   }
-  
   ```
 
 2. В сеансе Windows PowerShell, созданном на шаге 2, перейдите к папке, в которой расположен скрипт, созданный на предыдущем шаге, и запустите его. Например:
     
-    ```
+    ```powershell
     .\CreateMBSearchFromComplianceSearch.ps1
     ```
 

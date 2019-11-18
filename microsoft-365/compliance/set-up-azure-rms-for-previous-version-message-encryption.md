@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: Предыдущая версия шифрования сообщений Office 365 зависит от Microsoft Azure Rights Management (ранее известной как Windows Azure Active Directory Rights Management).
-ms.openlocfilehash: 84922a57c6245cf3214f17ba922417b5e025b796
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a6ba18982a65ff9687374b9e5dc370646817d96d
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090596"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38687413"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
 
@@ -63,52 +63,52 @@ TPD — это XML-файл, который содержит сведения о
 |:-----|:-----|
 |Северная Америка  <br/> |https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Европейский Союз  <br/> |https://sp-rms.eu.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
-|Региона  <br/> |https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
+|Азия  <br/> |https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Южная Америка  <br/> |https://sp-rms.sa.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Office 365 для государственных организаций (облако сообщества госучреждений)  <br/> Это расположение для общего доступа к ключам RMS зарезервировано для клиентов, которые приобрели Office 365 для государственных учреждений.  <br/> |https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
    
 3. Настройте расположение для общего доступа к ключам, выполнив командлет [Set – IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.160%29.aspx) следующим образом: 
     
-  ```
+  ```powershell
   Set-IRMConfiguration -RMSOnlineKeySharingLocation "<RMSKeySharingURL >"
   ```
 
     Например, чтобы настроить расположение для общего доступа к ключам, если ваша организация находится в Северной Америке:
-    
-  ```
+
+  ```powershell
   Set-IRMConfiguration -RMSOnlineKeySharingLocation "https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc"
   ```
 
 4. Выполните командлет [Import – RMSTrustedPublishingDomain](https://technet.microsoft.com/library/jj200724%28v=exchg.150%29.aspx) с параметром – рмсонлине, чтобы импортировать TPD из службы управления правами Azure: 
-    
-  ```
+
+  ```powershell
   Import-RMSTrustedPublishingDomain -RMSOnline -Name "<TPDName> "
   ```
 
     Где *тпднаме* — это имя, которое вы хотите использовать для TPD. Например, "Contoso Северная Америка TPD". 
-    
+
 5. Чтобы убедиться, что ваша организация Office 365 успешно настроена на использование службы управления правами Azure, запустите командлет [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.160%29.aspx) с параметром-рмсонлине следующим образом: 
-    
-  ```
+
+  ```powershell
   Test-IRMConfiguration -RMSOnline
   ```
 
     Помимо прочего, этот командлет проверяет возможность подключения к службе управления правами Azure, загружает TPD и проверяет его допустимость.
-    
+
 6. Выполните командлет [Set-IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) , как показано ниже, чтобы отключить доступ к шаблонам управления правами Azure в Outlook в Интернете и Outlook: 
-    
-  ```
+
+  ```powershell
   Set-IRMConfiguration -ClientAccessServerEnabled $false
   ```
 
 7. Выполните командлет [Set – IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) , как показано ниже, чтобы включить управление правами Azure для облачной организации электронной почты и настроить его для использования службы управления правами Azure для шифрования сообщений Office 365: 
-    
-  ```
+
+  ```powershell
   Set-IRMConfiguration -InternalLicensingEnabled $true
   ```
 
 8. Чтобы убедиться, что вы успешно импортировали TPD и включили управление правами Azure, используйте командлет Test-IRMConfiguration для проверки функции управления правами Azure. Дополнительные сведения: "Пример 1" в разделе [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.150%29.aspx).
-    
+
 ## <a name="i-have-the-previous-version-of-ome-set-up-with-active-directory-rights-management-not-azure-information-protection-what-do-i-do"></a>В предыдущей версии OME настроено управление правами Active Directory, а не Azure Information Protection, что делать?
 <a name="importTPDs"> </a>
 
@@ -129,5 +129,3 @@ TPD — это XML-файл, который содержит сведения о
 [Техническая справка по шифрованию в Office 365](technical-reference-details-about-encryption.md)
   
 [Что такое управление правами Azure?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
-  
-

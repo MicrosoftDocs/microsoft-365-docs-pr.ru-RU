@@ -1,5 +1,5 @@
 ---
-title: Экспорт, Настройка и просмотр записей журнала аудита
+title: Экспорт, настройка и просмотр записей журнала аудита
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: После экспорта и загрузки результатов поиска в журнал аудита Office 365 в CSV-файл можно использовать функцию преобразования JSON в редакторе Power Query в Excel, чтобы разделить каждое свойство в объекте JSON в столбце Аудитдата на отдельный столбец. Это поможет быстро найти конкретные искомые данные аудита.
-ms.openlocfilehash: 7dac373e8f25ead38dddbe2663e521b35b3153ef
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9b422877c10f086553a695e43c50f02d389dd2b5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090235"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687528"
 ---
-# <a name="export-configure-and-view-audit-log-records"></a>Экспорт, Настройка и просмотр записей журнала аудита
+# <a name="export-configure-and-view-audit-log-records"></a>Экспорт, настройка и просмотр записей журнала аудита
 
 После поиска в журнале аудита Office 365 и загрузки результатов поиска в CSV-файл файл содержит столбец с именем **аудитдата**, который содержит дополнительные сведения о каждом событии. Данные в этом столбце отформатированы как объект JSON, который содержит несколько свойств, которые настроены как пары *свойство: значение* , разделенные запятыми. Можно использовать функцию преобразования JSON в редакторе Power Query в Excel, чтобы разделить каждое свойство в объекте JSON в столбце **аудитдата** на несколько столбцов, чтобы каждое свойство было иметь собственный столбец. Это позволяет сортировать и фильтровать по одному или нескольким из этих свойств, которые могут помочь быстро найти конкретные искомые данные аудита.
 
@@ -108,11 +108,11 @@ CSV-файл открывается в **редакторе запросов**. 
 
    В этом примере выполните следующие команды, чтобы возвратить все записи, связанные с операциями общего доступа SharePoint. 
    
-   ```
+   ```powershell
    $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointSharingOperation
    ```
 
-   ```
+   ```powershell
    $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
    ```
 
@@ -122,10 +122,10 @@ CSV-файл открывается в **редакторе запросов**. 
    
    - Для этого параметра можно указать только одно значение. Для поиска записей аудита для других типов записей необходимо повторно выполнить две приведенные выше команды, чтобы указать другой тип записи и добавить эти результаты в исходный CSV-файл. Например, эти две команды можно использовать для добавления действий с файлами SharePoint из одного диапазона дат в файл Повершеллаудитлог. csv.
 
-       ```
+       ```powershell
       $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
       ```
 
-      ```
+      ```powershell
       $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
-      ```
+      ```powershell

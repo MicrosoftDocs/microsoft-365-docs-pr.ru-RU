@@ -13,29 +13,30 @@ search.appverid:
 ms.assetid: f2cd475a-e592-46cf-80a3-1bfb0fa17697
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: Узнайте, как настроить ключ клиента для Office 365 для Exchange Online, Skype для бизнеса, SharePoint Online и OneDrive для бизнеса. С помощью ключа клиента вы можете управлять ключами шифрования вашей организации, а затем настроить Office 365 на их использование для шифрования данных на REST в центрах обработки данных Майкрософт.
-ms.openlocfilehash: d3e10a32aeedc90dc06257a29b63df8657157a0b
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: 500adf03469833784228e13e26d8272716acc56c
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435533"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687466"
 ---
 # <a name="controlling-your-data-in-office-365-using-customer-key"></a>Контроль данных в Office 365 с помощью ключа клиента
 
 С помощью ключа клиента вы можете управлять ключами шифрования вашей организации, а затем настроить Office 365 на их использование для шифрования данных на REST в центрах обработки данных Майкрософт. Другими словами, ключ клиента позволяет клиентам добавлять к ним слой шифрования с их ключами. К ним относятся данные из Exchange Online и Skype для бизнеса, хранящиеся в почтовых ящиках, а также файлы, хранящиеся в SharePoint Online и OneDrive для бизнеса.
-  
+
 Вы должны настроить Azure, прежде чем вы сможете использовать ключ клиента для Office 365. В этом разделе описываются действия, которые необходимо выполнить, чтобы создать и настроить необходимые ресурсы Azure, а затем пошаговые инструкции по настройке ключа клиента в Office 365. После завершения установки Azure Определите политику и, следовательно,, какие ключи необходимо назначить почтовым ящикам и файлам в Организации. Почтовые ящики и файлы, для которых не назначена политика, будут использовать политики шифрования, контролируемые и управляемые корпорацией Майкрософт. Для получения дополнительных сведений о ключе клиента или общем обзоре обратитесь к [разделу клиент для Office 365 вопросы и ответы](service-encryption-with-customer-key-faq.md).
   
 > [!IMPORTANT]
-> Мы настоятельно рекомендуем следовать рекомендациям, приведенным в этой статье. Они вызываются в качестве **Совета** и **важны**. Ключ клиента позволяет контролировать корневые ключи шифрования, область действия которых может быть такой же, как и вся Организация. Это означает, что ошибки, выполненные с помощью этих ключей, могут оказать широкое влияние и могут привести к перерыву в обслуживании или потере данных ирревокабле. 
+> Мы настоятельно рекомендуем следовать рекомендациям, приведенным в этой статье. Они вызываются в качестве **Совета** и **важны**. Ключ клиента позволяет контролировать корневые ключи шифрования, область действия которых может быть такой же, как и вся Организация. Это означает, что ошибки, выполненные с помощью этих ключей, могут оказать широкое влияние и могут привести к перерыву в обслуживании или потере данных ирревокабле.
   
 ## <a name="before-you-begin-setting-up-customer-key"></a>Прежде чем приступить к настройке ключа клиента
 <a name="Beforeyoustart"> </a>
 
 Прежде чем приступить к работе, убедитесь, что у вас есть подходящие лицензии для вашей организации. Ключ клиента в Office 365 предлагается в Office 365 а или в расширенном соответствии с КОНФИГУРАЦИей.
   
-Затем, чтобы ознакомиться с основными понятиями и процедурами, описанными в этом разделе, ознакомьтесь с документацией по [Azure Key Vault](https://azure.microsoft.com/en-us/documentation/services/key-vault/) . Кроме того, ознакомьтесь с терминами, используемыми в Azure, например, " [клиент](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)".
+Затем, чтобы ознакомиться с основными понятиями и процедурами, описанными в этом разделе, ознакомьтесь с документацией по [Azure Key Vault](https://azure.microsoft.com/documentation/services/key-vault/) . Кроме того, ознакомьтесь с терминами, используемыми в Azure, например, " [клиент](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)".
   
 Чтобы оставить отзыв о ключе клиента, в том числе документации, отправьте свои идеи, предложения и перспективы в customerkeyfeedback@microsoft.com.
   
@@ -49,33 +50,33 @@ ms.locfileid: "37435533"
 Для выполнения большинства этих задач необходимо удаленно подключиться к Azure PowerShell. Для достижения лучших результатов используйте Azure PowerShell версии 4.4.0 или более поздней версии.
   
 - [Создание двух новых подписок Azure](controlling-your-data-using-customer-key.md#Create2newsubs)
-    
+
 - [Регистрация подписок Azure для использования обязательного периода хранения](controlling-your-data-using-customer-key.md#RegisterSubsforMRP)
-    
+
     Регистрация может занять от одного до пяти рабочих дней.
-    
+
 - [Отправьте запрос на активацию ключа клиента для Office 365](controlling-your-data-using-customer-key.md#FastTrack)
-    
+
     После создания двух новых подписок Azure вам потребуется отправить соответствующий запрос клиентского ключа, заполнив веб-форму, размещенную на портале Microsoft FastTrack. **Команда FastTrack не предоставляет помощь с ключом клиента. Office просто использует портал FastTrack, чтобы разрешить отправку формы и помощь в отслеживании соответствующих предложений для ключа клиента**.
   
 После того как вы отправили ключ клиента, корпорация Майкрософт просматривает запрос и уведомляет вас, когда можете продолжить выполнение всех задач программы установки. Этот процесс может занять до пяти рабочих дней.
-    
+
 - [Создание расширенного Azure Key Vault в каждой подписке](controlling-your-data-using-customer-key.md#CreateKeyVault)
-    
+
 - [Назначение разрешений для каждого хранилища ключей](controlling-your-data-using-customer-key.md#KeyVaultPerms)
-    
+
 - [Включение и подтверждение обратимого удаления в ключевых хранилищах](controlling-your-data-using-customer-key.md#SoftDelete)
-    
+
 - [Добавление ключа в каждое основное хранилище с помощью создания или импорта ключа](controlling-your-data-using-customer-key.md#AddKeystoKeyVault)
-    
+
 - [Проверка уровня восстановления ключей](controlling-your-data-using-customer-key.md#CheckKeyRecoveryLevel)
-    
+
 - [Резервное копирование Azure Key Vault](controlling-your-data-using-customer-key.md#BackupAzureKeyVaultkeys)
-    
+
 - [Проверка параметров конфигурации Azure Key Vault](controlling-your-data-using-customer-key.md#Validateconfiguration)
-    
+
 - [Получение URI для каждого ключа Azure Key Vault](controlling-your-data-using-customer-key.md#GetKeyURI)
-    
+
 **В Office 365:**
   
 Exchange Online и Skype для бизнеса:
@@ -100,7 +101,7 @@ SharePoint Online и OneDrive для бизнеса:
 ### <a name="create-two-new-azure-subscriptions"></a>Создание двух новых подписок Azure
 <a name="Create2newsubs"> </a>
 
-Для ключа клиента требуются две подписки Azure. Рекомендуется создавать новые подписки Azure для использования с ключом клиента. Ключи Azure Key Vault могут быть авторизованы только для приложений в том же клиенте Azure Active Directory (AAD), поэтому необходимо создать новые подписки, используя тот же клиент Azure AD, который используется в организации Office 365, в которой будет назначена ДЕПС. Например, с помощью рабочей или учебной учетной записи, имеющей права глобального администратора в организации Office 365. Подробное описание действий приведено в разделе [Регистрация в Azure в качестве организации](https://azure.microsoft.com/en-us/documentation/articles/sign-up-organization/).
+Для ключа клиента требуются две подписки Azure. Рекомендуется создавать новые подписки Azure для использования с ключом клиента. Ключи Azure Key Vault могут быть авторизованы только для приложений в том же клиенте Azure Active Directory (AAD), поэтому необходимо создать новые подписки, используя тот же клиент Azure AD, который используется в организации Office 365, в которой будет назначена ДЕПС. Например, с помощью рабочей или учебной учетной записи, имеющей права глобального администратора в организации Office 365. Подробное описание действий приведено в разделе [Регистрация в Azure в качестве организации](https://azure.microsoft.com/documentation/articles/sign-up-organization/).
   
 > [!IMPORTANT]
 > Для ключа клиента требуются два ключа для каждой политики шифрования данных (DEP). Чтобы добиться этого, необходимо создать две подписки Azure. Кроме того, корпорация Майкрософт рекомендует, чтобы отдельные члены вашей организации настроили один ключ в каждой подписке. Кроме того, эти подписки Azure следует использовать только для управления ключами шифрования для Office 365. Это позволяет защитить организацию, если один из операторов случайно, намеренно или злонамеренно удаляет или случайно управляет ключами, для которых они отвечают. <br/> Рекомендуется настроить новые подписки Azure, которые используются исключительно для управления ресурсами Azure Key Vault для использования с ключом клиента. Количество подписок Azure, которые можно создать для Организации, не ограничено. Следуйте приведенным ниже рекомендациям, чтобы свести к минимуму влияние человеческих ошибок, помогая управлять ресурсами, используемыми ключом клиента. 
@@ -143,7 +144,7 @@ SharePoint Online и OneDrive для бизнеса:
     
 2. Выполните командлет Register – Азурермпровидерфеатуре, чтобы зарегистрировать подписки для использования обязательного периода хранения.
     
-  ```
+  ```powershell
   Register-AzureRmProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.Resources
   ```
 
@@ -155,20 +156,20 @@ SharePoint Online и OneDrive для бизнеса:
     
 4. После получения уведомления от корпорации Майкрософт о завершении регистрации проверьте состояние регистрации, выполнив командлет Get-Азурермпровидерфеатуре следующим образом:
     
-  ```
+  ```powershell
   Get-AzureRmProviderFeature -ProviderNamespace Microsoft.Resources -FeatureName mandatoryRetentionPeriodEnabled
   ```
 
 5. После проверки того, что свойство **состояния регистрации** из командлета Get – азурермпровидерфеатуре возвращает значение **зарегистрировано**, выполните следующую команду для завершения процесса:
     
-  ```
+  ```powershell
   Register-AzureRmResourceProvider -ProviderNamespace "Microsoft.KeyVault"
   ```
 
 ### <a name="create-a-premium-azure-key-vault-in-each-subscription"></a>Создание расширенного Azure Key Vault в каждой подписке
 <a name="CreateKeyVault"> </a>
 
-Действия, необходимые для создания хранилища ключей, описаны в статье [Начало работы с Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started/), в которой описывается установка и запуск Azure PowerShell, подключение к подписке Azure, создание группы ресурсов и создание хранилища ключей в этой Группа ресурсов.
+Действия, необходимые для создания хранилища ключей, описаны в статье [Начало работы с Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started/), в которой описывается установка и запуск Azure PowerShell, подключение к подписке Azure, создание группы ресурсов и создание хранилища ключей в этой группе ресурсов.
   
 При создании хранилища ключей необходимо выбрать значение SKU: Standard или Premium. Стандартное SKU позволяет защищать ключи Azure Key Vault с помощью программного обеспечения — отсутствует защита ключа для аппаратного модуля безопасности (HSM), а Расширенная конфигурация обеспечивает использование Хсмс для защиты ключей основного хранилища. Ключ клиента принимает ключевые хранилища, использующие любой SKU, хотя корпорация Майкрософт настоятельно рекомендует использовать только Premium SKU. Затраты на операции с ключами любого типа одинаковы, поэтому единственная разница в затратах — это затраты на месяц для каждого ключа, защищенного с помощью HSM. Дополнительные сведения: основные сведения о [ценах на хранилище](https://azure.microsoft.com/pricing/details/key-vault/) . 
   
@@ -200,14 +201,14 @@ SharePoint Online и OneDrive для бизнеса:
     
 - Выполните командлет Set – Азурермкэйваултакцессполици, чтобы назначить необходимые разрешения.
     
-  ```
+  ```powershell
   Set-AzureRmKeyVaultAccessPolicy -VaultName <vaultname> 
   -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
   ```
 
   Пример:
     
-  ```
+  ```powershell
   Set-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 
   -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
   ```
@@ -216,7 +217,7 @@ SharePoint Online и OneDrive для бизнеса:
     
 - Если вы планируете использовать ключ клиента в Exchange Online и Skype для бизнеса, вам необходимо предоставить разрешение на Office 365 для использования хранилища ключей от имени Exchange Online и Skype для бизнеса. Аналогичным образом, если вы планируете использовать ключ клиента с SharePoint Online и OneDrive для бизнеса, вам необходимо добавить разрешение для Office 365, чтобы использовать основное хранилище от имени SharePoint Online и OneDrive для бизнеса. Чтобы предоставить разрешение на доступ к Office 365, выполните командлет **Set – азурермкэйваултакцессполици** , используя следующий синтаксис: 
     
-  ```
+  ```powershell
   Set-AzureRmKeyVaultAccessPolicy -VaultName <vaultname> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Office 365 appID>
   ```
 
@@ -230,14 +231,14 @@ SharePoint Online и OneDrive для бизнеса:
     
   Пример: Настройка разрешений для Exchange Online и Skype для бизнеса:
     
-  ```
+  ```powershell
   Set-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 
   -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000002-0000-0ff1-ce00-000000000000
   ```
 
   Пример: Настройка разрешений для SharePoint Online и OneDrive для бизнеса
-    
-  ```
+
+  ```powershell
   Set-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1 
   -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
   ```
@@ -250,24 +251,22 @@ SharePoint Online и OneDrive для бизнеса:
 Чтобы включить обратимое удаление в своих ключевых хранилищах, выполните следующие действия:
   
 1. Войдите в свою подписку на Azure с помощью Windows PowerShell. Инструкции см в разделе [Вход в систему с помощью Azure PowerShell](https://docs.microsoft.com/powershell/azure/authenticate-azureps).
-    
+
 2. Выполните командлет [Get – азурермкэйваулт](https://docs.microsoft.com/powershell/module/azurerm.keyvault/get-azurermkeyvault) . В этом примере *ваултнаме* — это имя хранилища ключей, для которого вы включите обратимое удаление: 
-    
-   ```
+
+   ```powershell
    $v = Get-AzureRmKeyVault -VaultName <vaultname>
    $r = Get-AzureRmResource -ResourceId $v.ResourceId
    $r.Properties | Add-Member -MemberType NoteProperty -Name enableSoftDelete -Value 'True'
    Set-AzureRmResource -ResourceId $r.ResourceId -Properties $r.Properties
-   ``` 
-    
-3. Подтвердите, что параметр "обратимое удаление" настроен для хранилища ключей, выполнив командлет **Get-азурермкэйваулт** . Если функция обратимого удаления настроена правильно для хранилища ключей, то функция обратимого удаления включена? свойство возвращает значение **true**: 
-    
    ```
+
+3. Подтвердите, что параметр "обратимое удаление" настроен для хранилища ключей, выполнив командлет **Get-азурермкэйваулт** . Если функция обратимого удаления настроена правильно для хранилища ключей, то функция обратимого удаления включена? свойство возвращает значение **true**: 
+
+   ```powershell
    Get-AzureRmKeyVault -VaultName <vaultname> | fl
    ```
 
-   
-    
 ### <a name="add-a-key-to-each-key-vault-either-by-creating-or-importing-a-key"></a>Добавление ключа в каждое основное хранилище с помощью создания или импорта ключа
 <a name="AddKeystoKeyVault"> </a>
 
@@ -275,24 +274,24 @@ SharePoint Online и OneDrive для бизнеса:
   
 Чтобы создать ключ непосредственно в своем хранилище ключей, выполните командлет [Add – азурекэйваулткэй](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Add-AzureKeyVaultKey) следующим образом: 
   
-```
+```powershell
 Add-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname> -Destination <HSM|Software> -KeyOps wrapKey,unwrapKey
 ```
 
 Где:
   
--  *ваултнаме* это имя хранилища ключей, в котором вы хотите создать ключ. 
-    
--  *keyName* — это имя, которое вы хотите назначить новому ключу. 
-    
+- *ваултнаме* это имя хранилища ключей, в котором вы хотите создать ключ.
+
+- *keyName* — это имя, которое вы хотите назначить новому ключу.
+
     > [!TIP]
     > Для ключей имен используется аналогичное соглашение об именовании, описанное выше для ключевых хранилищ. Таким образом, в средствах, в которых отображается только имя ключа, строка является самоописанием. 
   
 - Если вы планируете защитить ключ с помощью HSM, убедитесь, что в качестве значения параметра _Destination_ указан **HSM** , в противном случае укажите **программное обеспечение**.
-    
+
 For example,
   
-```
+```powershell
 Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination Software -KeyOps wrapKey,unwrapKey
 ```
 
@@ -301,9 +300,9 @@ Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-N
 Некоторые организации предпочитают этот подход для определения проверенных ключей, и этот метод также предоставляет следующие сведения:
   
 - Набор средств, используемый для импорта, включает аттестацию из Салес, что ключ обмена ключами (Кек), используемый для шифрования созданного ключа, не экспортируется и создается в подлинном HSM-сервере, изготовленном Салес.
-    
+
 - Набор инструментов включает аттестацию из Салес, что мир безопасности Azure Key Vault также был создан в подлинном HSM, изготовленном Салес. Эта аттестация удостоверяется в том, что корпорация Майкрософт также использует подлинное оборудование Салес.
-    
+
 Обратитесь к группе безопасности, чтобы определить, требуются ли вышеперечисленные подтверждения. Для получения подробных инструкций по созданию ключа на локальном уровне и его импорту в хранилище ключей ознакомьтесь [со статьей Создание и передача ключей, защищенных с помощью HSM, для Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/). С помощью инструкций Azure создайте ключ в каждом хранилище ключей.
   
 ### <a name="check-the-recovery-level-of-your-keys"></a>Проверка уровня восстановления ключей
@@ -313,11 +312,11 @@ Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-N
   
 Чтобы проверить уровень восстановления ключа, в Azure PowerShell выполните командлет Get – Азурекэйваулткэй следующим образом:
   
-```
-(Get-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname>).Attributes 
+```powershell
+(Get-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname>).Attributes
 ```
 
-Если свойство _Level Recovery_ возвращает что-либо, кроме значения **восстанавливаемого + протектедсубскриптион**, вам потребуется ознакомиться с этой статьей и убедиться в том, что вы выполнили все действия по размещению подписки в списке "не отменять" и на каждом из ваших ключевых хранилищ включено обратимое удаление.
+Если свойство _Level Recovery_ имеет значение, отличное от значения для **восстанавливаемого + протектедсубскриптион**, вам потребуется ознакомиться с этой статьей и убедиться в том, что вы выполнили все действия по размещению подписки в списке "не отменять" и в каждом из ваших ключевых хранилищ включено обратимое удаление.
   
 ### <a name="backup-azure-key-vault"></a>Резервное копирование Azure Key Vault
 <a name="BackupAzureKeyVaultkeys"> </a>
@@ -325,10 +324,10 @@ Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-N
 Сразу же после создания или изменения ключа выполните резервное копирование и сохранение копий резервной копии, как в Интернете, так и в автономном режиме. Автономные копии не должны подключаться к сети, например, в физическом надежном или коммерческом хранилище. По крайней мере одна копия резервной копии должна храниться в расположении, которое будет доступно в случае аварии. Резервные объекты резервного копирования являются единственным способом восстановления ключевого материала, который должен быть безвозвратно удален или отображаться в неработоспособном виде. Ключи, являющиеся внешними по отношению к Azure Key Vault и импортированные в хранилище ключей Azure, не являются резервными копиями, так как метаданные, необходимые для использования ключа клиента для использования ключа, не существуют с внешним ключом. Для операций восстановления с ключом клиента можно использовать только резервную копию, полученную из Azure Key Vault. Поэтому важно создать резервную копию Azure Key Vault после отправки или создания ключа.
   
 Чтобы создать резервную копию ключа Azure Key Vault, выполните командлет [BACKUP – азурекэйваулткэй](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Backup-AzureKeyVaultKey) следующим образом:
-```
-Backup-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname> 
--OutputFile <filename .backup>
 
+```powershell
+Backup-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname>
+-OutputFile <filename .backup>
 ```
 
 Убедитесь, что выходной файл использует суффикс `.backup`.
@@ -336,11 +335,11 @@ Backup-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname>
 Выходной файл, полученный из этого командлета, шифруется и не может использоваться за пределом Azure Key Vault. Резервное копирование можно восстановить только в подписке Azure, из которой была создана резервная копия.
   
 > [!TIP]
-> В качестве выходного файла выберите сочетание имени хранилища и имени ключа. Это сделает имя файла самоописанием. Кроме того, это гарантирует, что имена файлов резервных копий не будут конфликтовать. 
+> В качестве выходного файла выберите сочетание имени хранилища и имени ключа. Это сделает имя файла самоописанием. Кроме того, это гарантирует, что имена файлов резервных копий не будут конфликтовать.
   
 Пример:
   
-```
+```powershell
 Backup-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
 ```
 
@@ -351,9 +350,9 @@ Backup-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365E
   
 Чтобы убедиться, что для ключей включены операции Get, Врапкэй и Унврапкэй:
   
-Выполните командлет [Get – азурермкэйваулт](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Get-AzureRmKeyVault) следующим образом: 
+Выполните командлет [Get – азурермкэйваулт](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Get-AzureRmKeyVault) следующим образом:
   
-```
+```powershell
 Get-AzureRMKeyVault -VaultName <vaultname>
 ```
 
@@ -361,41 +360,41 @@ Get-AzureRMKeyVault -VaultName <vaultname>
   
 Если конфигурация политики доступа неверна, выполните командлет Set-Азурермкэйваултакцессполици следующим образом:
   
-```
+```powershell
 Set-AzureRmKeyVaultAccessPolicy -VaultName <vaultname> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Office 365 appID>
 ```
 
 Например, для Exchange Online и Skype для бизнеса:
   
-```
+```powershell
 Set-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 
 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000002-0000-0ff1-ce00-000000000000
 ```
 
 Например, для SharePoint Online и OneDrive для бизнеса:
   
-```
+```powershell
 Set-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1 
 -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName TBD
 ```
 
-Чтобы убедиться, что срок действия для ключей не задан, запустите командлет [Get-азурекэйваулткэй](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Get-AzureKeyVaultKey) следующим образом: 
+Чтобы убедиться, что срок действия для ключей не задан, запустите командлет [Get-азурекэйваулткэй](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Get-AzureKeyVaultKey) следующим образом:
   
-```
-Get-AzureKeyVaultKey -VaultName <vaultname> 
+```powershell
+Get-AzureKeyVaultKey -VaultName <vaultname>
 ```
 
 Ключ клиента не может использовать ключ с истекшим сроком действия, который пытается выполнить операции с истекшим сроком действия, что может привести к сбою службы. Настоятельно рекомендуется, чтобы ключи, используемые с ключом клиента, не были иметь срок действия. Дата окончания срока действия, после установки, не может быть удалена, но ее можно изменить на другую дату. Если необходимо использовать ключ с установленным сроком действия, измените значение срока действия на 12/31/9999. Ключи со сроком действия, для которых задана дата, отличная от 12/31/9999, не проходят проверку Office 365.
   
-Чтобы изменить срок действия, для которого задано значение, отличное от 12/31/9999, выполните командлет [Set – азурекэйваулткэйаттрибуте](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Set-AzureKeyVaultKeyAttribute) следующим образом: 
+Чтобы изменить срок действия, для которого задано значение, отличное от 12/31/9999, выполните командлет [Set – азурекэйваулткэйаттрибуте](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Set-AzureKeyVaultKeyAttribute) следующим образом:
   
-```
+```powershell
 Set-AzureKeyVaultKeyAttribute -VaultName <vaultname> -Name <keyname> 
 -Expires (Get-Date -Date "12/31/9999")
 ```
 
 > [!CAUTION]
-> Не устанавливайте даты истечения срока действия ключей шифрования, которые вы используете с ключом клиента. 
+> Не устанавливайте даты истечения срока действия ключей шифрования, которые вы используете с ключом клиента.
   
 ### <a name="obtain-the-uri-for-each-azure-key-vault-key"></a>Получение URI для каждого ключа Azure Key Vault
 <a name="GetKeyURI"> </a>
@@ -404,7 +403,7 @@ Set-AzureKeyVaultKeyAttribute -VaultName <vaultname> -Name <keyname>
   
 В Azure PowerShell:
   
-```
+```powershell
 (Get-AzureKeyVaultKey -VaultName <vaultname>).Id
 ```
 
@@ -418,49 +417,49 @@ Set-AzureKeyVaultKeyAttribute -VaultName <vaultname> -Name <keyname>
 ### <a name="create-a-data-encryption-policy-dep-for-use-with-exchange-online-and-skype-for-business"></a>Создание политики шифрования данных (DEP) для использования в Exchange Online и Skype для бизнеса
 <a name="CreateDEP4EXOSkype"> </a>
 
-Функция DEP связана с набором ключей, сохраненных в Azure Key Vault. Вы назначаете функцию предотвращения выполнения данных для почтового ящика в Office 365. После этого Office 365 будет использовать ключи, указанные в политике, для шифрования почтового ящика. Для создания функции DEP необходимы ранее полученные URI для хранилища ключей. Чтобы получить инструкции, ознакомьтесь со статьей [Получение URI для каждого ключа Azure Key Vault](controlling-your-data-using-customer-key.md#GetKeyURI) . 
+Функция DEP связана с набором ключей, сохраненных в Azure Key Vault. Вы назначаете функцию предотвращения выполнения данных для почтового ящика в Office 365. После этого Office 365 будет использовать ключи, указанные в политике, для шифрования почтового ящика. Для создания функции DEP необходимы ранее полученные URI для хранилища ключей. Чтобы получить инструкции, ознакомьтесь со статьей [Получение URI для каждого ключа Azure Key Vault](controlling-your-data-using-customer-key.md#GetKeyURI) .
   
 Запоминающее! При создании функции DEP необходимо указать два ключа, которые находятся в двух различных хранилищах ключей Azure. Убедитесь, что эти ключи размещены в двух отдельных регионах Azure для обеспечения геоизбыточности.
   
 Чтобы создать DEP, выполните указанные ниже действия.
   
-1. На локальном компьютере с помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в организации Office 365, [подключитесь к Exchange Online PowerShell](https://technet.microsoft.com/en-us/library/jj984289%28v=exchg.160%29.aspx) , открыв Windows PowerShell и выполнив указанную ниже команду. 
-    
-   ```
+1. На локальном компьютере с помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в организации Office 365, [подключитесь к Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx) , открыв Windows PowerShell и выполнив указанную ниже команду.
+
+   ```powershell
    $UserCredential = Get-Credential
    ```
 
-2. В диалоговом окне Запрос учетных данных Windows PowerShell введите сведения о рабочей или учебной учетной записи, нажмите кнопку **ОК**, а затем введите следующую команду. 
-    
-   ```
+2. В диалоговом окне Запрос учетных данных Windows PowerShell введите сведения о рабочей или учебной учетной записи, нажмите кнопку **ОК**, а затем введите следующую команду.
+
+   ```powershell
    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
    ```
 
 3. Выполните следующую команду.
-    
-   ```
+
+   ```powershell
    Import-PSSession $Session
    ```
 
 4. Чтобы создать DEP, используйте командлет New – Dataencryptionpolicy используется, введя следующую команду:
-    
-   ```
+
+   ```powershell
    New-DataEncryptionPolicy -Name <PolicyName> -Description "PolicyDescription " -AzureKeyIDs <KeyVaultURI1>, <KeyVaultURI2>
    ```
 
    Где:
-    
-   -  *PolicyName* — имя, которое вы хотите использовать для этой политики. Имена не могут содержать пробелы. Например, USA_mailboxes. 
-    
-   -  *Полицидескриптион* — понятное описание политики, с помощью которого вы сможете запомнить, для чего предназначена эта политика. В описание можно включить пробелы. Например, корневой ключ для почтовых ящиков в США и его территориях. 
-    
-   -  *KeyVaultURI1* — универсальный код ресурса (URI) для первого ключа в политике. Например, https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01. 
-    
-   -  *KeyVaultURI2* — универсальный код ресурса (URI) для второго ключа в политике. Например, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02. Разделяйте два URI запятыми и пробелом. 
-    
-   Пример.
+
+   -  *PolicyName* — имя, которое вы хотите использовать для этой политики. Имена не могут содержать пробелы. Например, USA_mailboxes.
+
+   -  *Полицидескриптион* — понятное описание политики, с помощью которого вы сможете запомнить, для чего предназначена эта политика. В описание можно включить пробелы. Например, корневой ключ для почтовых ящиков в США и его территориях.
+
+   -  *KeyVaultURI1* — универсальный код ресурса (URI) для первого ключа в политике. Например, https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01.
+
+   -  *KeyVaultURI2* — универсальный код ресурса (URI) для второго ключа в политике. Например, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02. Разделяйте два URI запятыми и пробелом.
+
+   Пример:
   
-   ```
+   ```powershell
    New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02
    ```
 
@@ -469,7 +468,7 @@ Set-AzureKeyVaultKeyAttribute -VaultName <vaultname> -Name <keyname>
 
 Назначьте DEP почтовому ящику с помощью командлета Set — Mailbox. После назначения политики Office 365 может зашифровать почтовый ящик с помощью ключа, указанного в функции DEP.
   
-```
+```powershell
 Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
 ```
 
@@ -482,7 +481,7 @@ Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
   
 Используйте командлет Get-MailboxStatistics, чтобы определить, зашифрован ли почтовый ящик.
   
-```
+```powershell
 Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEncrypted
 ```
 
@@ -490,14 +489,14 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
 Время, в течение которого перемещаются почтовые ящики, зависит от количества почтовых ящиков, для которых была назначена функция DEP в первый раз, а также от размера почтовых ящиков. Если почтовые ящики не шифруются по прошествии недели с момента назначения функции DEP, запустите командлет New – MoveRequest, чтобы переместить почтовые ящики в незашифрованные почтовые ящики.
 
-```
+```powershell
 New-MoveRequest <mailbox alias>
-``` 
+```
 
 ## <a name="office-365-setting-up-customer-key-for-sharepoint-online-and-onedrive-for-business"></a>Office 365: Настройка ключа клиента для SharePoint Online и OneDrive для бизнеса
 <a name="AzureSteps"> </a>
 
-Прежде чем приступать к работе, убедитесь, что выполнены все задачи, необходимые для настройки Azure Key Vault. Для получения дополнительных сведений просмотрите [полные задачи в Azure Key Vault и Microsoft FastTrack для ключа клиента](controlling-your-data-using-customer-key.md#AzureSteps) . 
+Прежде чем приступать к работе, убедитесь, что выполнены все задачи, необходимые для настройки Azure Key Vault. Для получения дополнительных сведений просмотрите [полные задачи в Azure Key Vault и Microsoft FastTrack для ключа клиента](controlling-your-data-using-customer-key.md#AzureSteps) .
   
 Чтобы настроить ключ клиента для SharePoint Online и OneDrive для бизнеса, вам потребуется выполнить эти действия, используя удаленное подключение к SharePoint Online с помощью Windows PowerShell.
   
@@ -511,51 +510,51 @@ New-MoveRequest <mailbox alias>
 Для создания функции DEP необходимо удаленно подключиться к SharePoint Online с помощью Windows PowerShell.
   
 1. На локальном компьютере с помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в организации Office 365, [подключитесь к SharePoint Online PowerShell](https://technet.microsoft.com/library/fp161372.aspx).
-    
-2. В командной консоли Microsoft SharePoint Online выполните командлет [Register-сподатаенкриптионполици](https://technet.microsoft.com/library/mt843950.aspx) , как показано ниже. 
-    
-   ```
+
+2. В командной консоли Microsoft SharePoint Online выполните командлет [Register-сподатаенкриптионполици](https://technet.microsoft.com/library/mt843950.aspx) , как показано ниже.
+
+   ```powershell
    Register-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl> -PrimaryKeyVaultName <PrimaryKeyVaultName> -PrimaryKeyName <PrimaryKeyName> -PrimaryKeyVersion <PrimaryKeyVersion> -SecondaryKeyVaultName <SecondaryKeyVaultName> -SecondaryKeyName <SecondaryKeyName> -SecondaryKeyVersion <SecondaryKeyVersion>
    ```
 
    При регистрации функции DEP шифрование начинается с данных в Geo. Это может занять некоторое время.
-    
+
 ### <a name="validate-encryption-of-group-sites-team-sites-and-onedrive-for-business"></a>Проверка шифрования сайтов групп, сайтов групп и OneDrive для бизнеса
 <a name="validateencryptionSPO"> </a>
 
 Состояние шифрования можно проверить, выполнив командлет Get – Сподатаенкриптионполици следующим образом:
   
-```
+```powershell
 Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 ```
 
 Выходные данные этого командлета включают:
   
 - Универсальный код ресурса (URI) первичного ключа.
-    
+
 - Универсальный код ресурса (URI) вторичного ключа.
-    
+
 - Состояние шифрования для Geo. Возможные состояния:
-    
-  - **Регистрация незарегистрирована:** Шифрование ключей клиентов еще не применено. 
-    
-  - **Регистрация:** Шифрование ключей клиентов применено, а файлы находятся в процессе шифрования. Если ваше географическое состояние находится в этом состоянии, вы также увидите сведения о том, какой процент сайтов в географическом расположении является полным, чтобы можно было отслеживать ход шифрования. 
-    
-  - **Зарегистрировано:** Шифрование ключей клиентов применено, а все файлы на всех сайтах зашифрованы. 
-    
-  - **Пошаговое руководство:** Выполняется основной этап. Если ваше географическое состояние находится в этом состоянии, вы также увидите сведения о том, на каком проценте сайтов выполнялась операция отката ключа, чтобы можно было отслеживать ход выполнения. 
-    
+
+  - **Регистрация незарегистрирована:** Шифрование ключей клиентов еще не применено.
+
+  - **Регистрация:** Шифрование ключей клиентов применено, а файлы находятся в процессе шифрования. Если ваше географическое состояние находится в этом состоянии, вы также увидите сведения о том, какой процент сайтов в географическом расположении является полным, чтобы можно было отслеживать ход шифрования.
+
+  - **Зарегистрировано:** Шифрование ключей клиентов применено, а все файлы на всех сайтах зашифрованы.
+
+  - **Пошаговое руководство:** Выполняется основной этап. Если ваше географическое состояние находится в этом состоянии, вы также увидите сведения о том, на каком проценте сайтов выполнялась операция отката ключа, чтобы можно было отслеживать ход выполнения.
+
 ## <a name="managing-customer-key-for-office-365"></a>Управление ключом клиента для Office 365
 <a name="ManageCustomerKey"> </a>
 
 После того как вы настроили ключ клиента для Office 365, вы можете выполнить эти дополнительные задачи по управлению.
   
 - [Восстановление ключей Azure Key Vault](controlling-your-data-using-customer-key.md#RestoreAzureKeyVaultKeys)
-    
+
 - [Пошаговое или вращение ключа в хранилище ключей Azure, которое вы используете с ключом клиента](controlling-your-data-using-customer-key.md#RollCKkey)
-    
+
 - [Управление разрешениями для хранилища ключей](controlling-your-data-using-customer-key.md#Managekeyvaultperms)
-    
+
 - [Определение функции DEP, назначенной для почтового ящика](controlling-your-data-using-customer-key.md#DeterminemailboxDEP)
     
 ### <a name="restore-azure-key-vault-keys"></a>Восстановление ключей Azure Key Vault
@@ -563,13 +562,13 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 
 Перед выполнением восстановления используйте возможности восстановления, предоставляемые функцией обратимого удаления. Для всех ключей, используемых с ключом клиента, необходимо включить функцию обратимого удаления. Обратимое удаление действует как корзина и позволяет выполнить восстановление до 90 дней без необходимости восстановления. Восстановление должно требоваться только в крайних или необычных обстоятельствах, например, при потере ключа или основного хранилища ключей. Если необходимо восстановить ключ для использования с ключом клиента, в Azure PowerShell запустите командлет Restore – Азурекэйваулткэй следующим образом:
   
-```
+```powershell
 Restore-AzureKeyVaultKey -VaultName <vaultname> -InputFile <filename>
 ```
 
 Пример:
   
-```
+```powershell
 Restore-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
 ```
 
@@ -581,17 +580,17 @@ Restore-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso
 Для Azure Key Vault или с помощью ключа клиента не требуются чередующиеся ключи. Кроме того, ключи, защищенные с помощью HSM, практически невозможны для взлома. Даже если корневой ключ был в наличии вредоносного субъекта, использовать его для расшифровки данных невозможно, так как только код Office 365 знает, как его использовать. Однако ключ клиента поддерживает пошаговое обновление.
   
 > [!CAUTION]
-> Только отменяйте ключ шифрования, который вы используете с ключом клиента, если существует четкая техническая причина, или требованием соответствия требованиям является поэтапное развертывание ключа. Кроме того, не удаляйте ключи, которые не были связаны с политиками. При откате ключей будет использоваться содержимое, зашифрованное с помощью предыдущих ключей. Например, несмотря на то, что активные почтовые ящики будут повторно зашифрованы, неактивные, отключенные и отключенные почтовые ящики, могут быть зашифрованы с помощью предыдущих ключей. SharePoint Online выполняет резервное копирование контента для восстановления и восстановления, поэтому по-прежнему можно заархивировать содержимое, используя старые ключи. <br/> Чтобы обеспечить безопасность данных, SharePoint Online разрешит одновременное выполнение нескольких операций отката. Если вы хотите выполнить оба этих ключа в каждом хранилище ключей, необходимо дождаться, пока первая операция отката ключа будет полностью завершена. Наша рекомендация состоит в том, чтобы пополнить основные операции с разными интервалами, чтобы избежать возникновения такой ситуации. 
+> Только отменяйте ключ шифрования, который вы используете с ключом клиента, если существует четкая техническая причина, или требованием соответствия требованиям является поэтапное развертывание ключа. Кроме того, не удаляйте ключи, которые не были связаны с политиками. При откате ключей будет использоваться содержимое, зашифрованное с помощью предыдущих ключей. Например, несмотря на то, что активные почтовые ящики будут повторно зашифрованы, неактивные, отключенные и отключенные почтовые ящики, могут быть зашифрованы с помощью предыдущих ключей. SharePoint Online выполняет резервное копирование контента для восстановления и восстановления, поэтому по-прежнему можно заархивировать содержимое, используя старые ключи. <br/> Чтобы обеспечить безопасность данных, SharePoint Online разрешит одновременное выполнение нескольких операций отката. Если вы хотите выполнить оба этих ключа в каждом хранилище ключей, необходимо дождаться, пока первая операция отката ключа будет полностью завершена. Наша рекомендация состоит в том, чтобы пополнить основные операции с разными интервалами, чтобы избежать возникновения такой ситуации.
   
 При выполнении отката ключа вы запрашиваете новую версию существующего ключа. Чтобы запросить новую версию существующего ключа, используйте тот же командлет [Add – азурекэйваулткэй](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Add-AzureKeyVaultKey)с тем же синтаксисом, который использовался для создания ключа в первую очередь.
   
 Пример:
   
-```
+```powershell
 Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination HSM -KeyOps @('wrapKey','unwrapKey') -NotBefore (Get-Date -Date "12/27/2016 12:01 AM")
 ```
 
-В этом примере, так как ключ с именем **contoso – O365EX — Na – VaultA1 – Key001** уже существует в хранилище **contoso — O365EX, Na/VaultA1** , будет создана новая версия ключа. При выполнении операции добавляется новая версия ключа. В этой операции предыдущие основные версии сохраняются в журнале версий ключа, поэтому данные, зашифрованные с помощью этого ключа, можно по-прежнему расшифровывать. После того как вы передаете какой-либо ключ, связанный с DEP, необходимо запустить дополнительный командлет, чтобы ключ клиента начал использовать новый ключ. 
+В этом примере, так как ключ с именем **contoso – O365EX — Na – VaultA1 – Key001** уже существует в хранилище **contoso — O365EX, Na/VaultA1** , будет создана новая версия ключа. При выполнении операции добавляется новая версия ключа. В этой операции предыдущие основные версии сохраняются в журнале версий ключа, поэтому данные, зашифрованные с помощью этого ключа, можно по-прежнему расшифровывать. После того как вы передаете какой-либо ключ, связанный с DEP, необходимо запустить дополнительный командлет, чтобы ключ клиента начал использовать новый ключ.
   
 #### <a name="enable-exchange-online-and-skype-for-business-to-use-a-new-key-after-you-roll-or-rotate-keys-in-azure-key-vault"></a>Разрешите Exchange Online и Skype для бизнеса использовать новый ключ после прокрутки или вращения ключей в Azure Key Vault
 
@@ -599,23 +598,23 @@ Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-N
   
 Чтобы назначить ключ клиента для шифрования почтовых ящиков в Office 365, выполните командлет Set – Dataencryptionpolicy используется следующим образом:
   
-```
-Set-DataEncryptionPolicy <policyname> -Refresh 
+```powershell
+Set-DataEncryptionPolicy <policyname> -Refresh
 ```
 
-В течение 48 часов активные почтовые ящики, зашифрованные с помощью этой политики, будут связаны с обновленным ключом. Выполните действия, описанные в статье [Определение функции DEP, назначенного для почтового ящика](controlling-your-data-using-customer-key.md#DeterminemailboxDEP) , чтобы проверить значение свойства датаенкриптионполициид для почтового ящика. Значение этого свойства изменится после применения обновленного ключа. 
+В течение 48 часов активные почтовые ящики, зашифрованные с помощью этой политики, будут связаны с обновленным ключом. Выполните действия, описанные в статье [Определение функции DEP, назначенного для почтового ящика](controlling-your-data-using-customer-key.md#DeterminemailboxDEP) , чтобы проверить значение свойства датаенкриптионполициид для почтового ящика. Значение этого свойства изменится после применения обновленного ключа.
   
 #### <a name="enable-sharepoint-online-and-onedrive-for-business-to-use-a-new-key-after-you-roll-or-rotate-keys-in-azure-key-vault"></a>Включение SharePoint Online и OneDrive для бизнеса для использования нового ключа после прокрутки или вращения ключей в Azure Key Vault
 
 При выполнении одного из ключей Azure Key Vault, связанных с функцией DEP, используемой в SharePoint Online и OneDrive для бизнеса, необходимо выполнить командлет [Update-сподатаенкриптионполици](https://technet.microsoft.com/library/mt843948.aspx) , чтобы обновить компонент DEP и включить Office 365, чтобы начать использовать новый ключ. 
   
-```
+```powershell
 Update-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl> -KeyVaultName <ReplacementKeyVaultName> -KeyName <ReplacementKeyName> -KeyVersion <ReplacementKeyVersion> -KeyType <Primary | Secondary>
 ```
 
 При этом будет запущена операция полного развертывания SharePoint Online и OneDrive для бизнеса. Это действие не является медленным. Чтобы просмотреть ход выполнения операции с ключом, выполните командлет Get – Сподатаенкриптионполици следующим образом:
   
-```
+```powershell
 Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 ```
 
@@ -626,27 +625,27 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
   
 Чтобы просмотреть разрешения на доступ к хранилищу ключей, запустите командлет Get – Азурермкэйваулт:
   
-```
+```powershell
 Get-AzureRmKeyVault -VaultName <vaultname>
 ```
 
 Пример:
   
-```
+```powershell
 Get-AzureRmKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 ```
 
 Чтобы удалить разрешения администратора, запустите командлет Remove – Азурермкэйваултакцессполици:
   
-```
-Remove-AzureRmKeyVaultAccessPolicy -VaultName <vaultname> 
+```powershell
+Remove-AzureRmKeyVaultAccessPolicy -VaultName <vaultname>
 -UserPrincipalName <UPN of user>
 ```
 
 Пример:
   
-```
-Remove-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 
+```powershell
+Remove-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1
 -UserPrincipalName alice@contoso.com
 ```
 
@@ -655,7 +654,7 @@ Remove-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1
 
 Чтобы определить, какая функция DEP назначена почтовому ящику, используйте командлет Get – MailboxStatistics. Командлет возвращает уникальный идентификатор (GUID).
   
-```
+```powershell
 Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataEncryptionPolicyID
 ```
 
@@ -663,10 +662,8 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataE
   
 Используйте GUID, чтобы узнать понятное имя DEP, которому назначен почтовый ящик, выполнив следующий командлет.
   
-```
+```powershell
 Get-DataEncryptionPolicy <GUID>
 ```
 
-Где *GUID* — это идентификатор GUID, возвращенный командлетом Get-MailboxStatistics на предыдущем шаге. 
-  
-
+Где *GUID* — это идентификатор GUID, возвращенный командлетом Get-MailboxStatistics на предыдущем шаге.

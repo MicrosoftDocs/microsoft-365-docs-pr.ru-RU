@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Помогает объяснить различия между версиями шифрования сообщений в Office 365.
-ms.openlocfilehash: 29c30c1630e6fbf24e9037837c162b4ac67950e2
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: 1d4016e3fa0576a52ef9627539ecd96416a53fae
+ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435523"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "38687293"
 ---
 # <a name="compare-versions-of-ome"></a>Сравнение версий OME
 
@@ -72,11 +72,9 @@ ms.locfileid: "37435523"
 
 ## <a name="unique-characteristics-of-office-365-message-encryption-in-a-gcc-high-deployment"></a>Уникальные характеристики шифрования сообщений Office 365 при высоком развертывании GCC
 
-Расширенное шифрование сообщений Office 365 недоступно в среде с большим уровнем GCC. Вы по-прежнему можете использовать один шаблон фирменной символики в высокой среде GCC.
+Расширенное шифрование сообщений Office 365 недоступно в среде с большим уровнем GCC. Вы по-прежнему можете использовать и настраивать один шаблон фирменной символики в высокой среде GCC.
 
 Кроме того, если вы планируете использовать шифрование сообщений Office 365 в среде с большим числом GCC, существуют уникальные характеристики взаимодействия с получателем.
-
-Расширенное шифрование сообщений Office 365 не поддерживается в GCC High.
 
 ### <a name="encrypted-email-from-gcc-high-to-gcc-high-recipients"></a>Зашифрованные сообщения от GCC High до GCC High Recipients
 

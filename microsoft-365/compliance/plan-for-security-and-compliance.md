@@ -3,7 +3,7 @@ title: Планирование соответствия требованиям 
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 3/15/2018
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Целевая страница для плана безопасности и соответствия требованиям
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3619a5e22a5bc957b001dd4f42a9569a7543e6b5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 86eef432f30ea9a437f0857f693d62eb23f4ba8d
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090756"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38687434"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Планирование соответствия требованиям &amp; безопасности в Office 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "37090756"
 
 Просмотрите и запланируйте функции защиты файлов, сгруппированные по трем уровням защиты.
   
-[PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
 ## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>Шаг 5: использование центра безопасности &amp; и соответствия требованиям Microsoft 365
 
@@ -59,9 +59,9 @@ ms.locfileid: "37090756"
   
 - [Переход в центр безопасности &amp; и соответствия требованиям Office 365](go-to-the-securitycompliance-center.md)
     
-- [Permissions in the Office 365 Security &amp; Compliance Center](/security/office-365-security/protect-against-threats.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](~/security/office-365-security/protect-against-threats.md)
     
-- [Предоставление пользователям доступа к центру безопасности &amp; и соответствия требованиям Office 365](/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [Предоставление пользователям доступа к центру безопасности &amp; и соответствия требованиям Office 365](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>Шаг 6: использование сквозных сценариев безопасности в качестве отправных точек
 
@@ -69,16 +69,14 @@ ms.locfileid: "37090756"
   
 - [Безопасные политики электронной почты и конфигурации](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
     
-- [Contoso в Microsoft Cloud](http://aka.ms/cloudarchcontoso)
+- [Contoso в Microsoft Cloud](https://aka.ms/cloudarchcontoso)
     
 ## <a name="microsoft-365-admin-centers-and-dashboards"></a>Центры администрирования и панели мониторинга Microsoft 365
 
 Настройте параметры безопасности и соответствия требованиям в этих центрах администрирования и панелях мониторинга, чтобы защитить среду Office 365
   
-|**Подписки**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
+|**Subscription**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
 |:-----|:-----|:-----|
-|Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
-|Enterprise Mobility + Security;  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
-|Enterprise Mobility + Security;  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
-   
-
+|Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
+|Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
+|Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |

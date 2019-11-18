@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 84a595b8-cd77-4f66-ac52-57a33ddd4773
 description: Узнайте, как использовать отправку по сети для импорта PST-файлов, зашифрованных RMS, в почтовые ящики пользователей в Office 365.
-ms.openlocfilehash: e14c5a7260bc8b2092075dd2ab711f4da2d3b9c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c31658ead08fd1c72447f1182af28c32db421842
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091489"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687586"
 ---
 # <a name="use-network-upload-to-import-rms-encrypted-pst-files-to-office-365"></a>Импорт зашифрованных с помощью RMS PST-файлов в Office 365 с помощью отправки по сети
 
@@ -110,7 +110,7 @@ ms.locfileid: "37091489"
     
 2. Чтобы задать URL-адрес для общего доступа к ключам RMS, выполните указанную ниже команду.
     
-    ```
+    ```powershell
     Set-IRMConfiguration -RMSOnlineKeySharingLocation <RMS key sharing location>
     ```
 
@@ -120,7 +120,7 @@ ms.locfileid: "37091489"
     |:-----|:-----|
     |Северная Америка  <br/> | `https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc` <br/> |
     |Европейский Союз  <br/> | `https://sp-rms.eu.aadrm.com/TenantManagement/ServicePartner.svc` <br/> |
-    |Региона  <br/> | `https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc` <br/> |
+    |Азия  <br/> | `https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc` <br/> |
     |Южная Америка  <br/> | `https://sp-rms.sa.aadrm.com/TenantManagement/ServicePartner.svc` <br/> |
     |Office 365 для государственных организаций (облако сообщества госучреждений)  <br/> | `https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc`<sup>1,1</sup> <br/> |
    
@@ -129,13 +129,13 @@ ms.locfileid: "37091489"
   
     Например, эта команда настраивает расположение для общего доступа к ключам RMS Online в Exchange Online для клиента, расположенного в Северной Америке.
     
-    ```
+    ```powershell
     Set-IRMConfiguration -RMSOnlineKeySharingLocation "https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc"
     ```
 
 3. Выполните следующую команду, чтобы импортировать доверенный домен публикации (TPD) из службы управления правами Active Directory в организацию Office 365. 
     
-    ```
+    ```powershell
     Import-RMSTrustedPublishingDomain -RMSOnline -Name "RMS Online"
     ```
 
@@ -143,7 +143,7 @@ ms.locfileid: "37091489"
     
 4. Выполните следующую команду, чтобы включить управление правами на доступ к данным для организации Office 365.
     
-    ```
+    ```powershell
     Set-IRMConfiguration -InternalLicensingEnabled $true
     ```
 
@@ -151,7 +151,7 @@ ms.locfileid: "37091489"
 
 Последнее, что необходимо сделать в этом разделе, — скачать клиент RMS версии 2.1. Это программное обеспечение помогает защитить доступ к службе Azure RMS и защиту данных, передаваемых через приложения, использующие Azure RMS. Установите клиент RMS на том же компьютере, который будет использоваться для шифрования и отправки PST-файлов на шаге 5. 
   
-1. Скачивание [клиента службы управления правами 2,1](https://www.microsoft.com/en-us/download/details.aspx?id=38396).
+1. Скачивание [клиента службы управления правами 2,1](https://www.microsoft.com/download/details.aspx?id=38396).
     
 2. Установите клиент, запустив мастер клиента Active Directory RMS версии 2.1.
 
@@ -163,7 +163,7 @@ ms.locfileid: "37091489"
     
 2. Выполните указанную ниже команду, чтобы подключиться к службе Microsoft Online.
     
-    ```
+    ```powershell
     Connect-MsolService
     ```
 
@@ -171,7 +171,7 @@ ms.locfileid: "37091489"
     
 4. Чтобы создать ключ шифрования (симметричный ключ), выполните указанную ниже команду. Вы сделаете это, создав субъект шифрования PST-файлов.
     
-    ```
+    ```powershell
     New-MsolServicePrincipal -DisplayName PstEncryptionPrincipal
     ```
 
@@ -192,7 +192,7 @@ ms.locfileid: "37091489"
   
 1. В модуле Azure Active Directory для Windows PowerShell (подключенном к Microsoft Online Service) выполните следующую команду, чтобы подключиться к службе Azure RMS в организации Office 365.
     
-    ```
+    ```powershell
     Connect-AadrmService 
     ```
 
@@ -200,7 +200,7 @@ ms.locfileid: "37091489"
     
 3. Выполните следующую команду, чтобы отобразить идентификатор клиента для службы Azure RMS в организации Office 365.
     
-    ```
+    ```powershell
     Get-AadrmConfiguration | FL BPOSId
     ```
 
@@ -208,7 +208,7 @@ ms.locfileid: "37091489"
     
 4. Выполните следующую команду, чтобы отобразить место лицензирования для службы Azure RMS.
     
-    ```
+    ```powershell
     Get-AadrmConfiguration | FL LicensingIntranetDistributionPointUrl
     ```
 
@@ -260,7 +260,7 @@ ms.locfileid: "37091489"
     
 3. Выполните следующую команду, чтобы зашифровать и отправить PST-файлы в Office 365.
     
-    ```
+    ```powershell
     O365ImportTool.exe /srcdir:<Location of PST files> /protect-rmsserver:<RMS licensing location> /protect-tenantid:<BPOSId> /protect-key:<Symmetric key> /transfer:upload /upload-dest:<Network upload URL> /upload-destSAS:<SAS key>
     ```
 
@@ -273,13 +273,13 @@ ms.locfileid: "37091489"
     | `/protect-tenantid:` <br/> |Задает идентификатор организации службы управления правами Azure. Используйте значение `BPOSId` свойства, полученное на шаге 3.  <br/> | `/protect-tenantid:42745b33-2a5c-4726-8a2a-ca43caa0f74b` <br/> |
     | `/protect-key:` <br/> |Задает симметричный ключ, который вы получили в действии 2. Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `/protect-key:"l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867="` <br/> |
     | `/transfer:` <br/> |Указывает, будете ли вы отправлять PST-файлы по сети или на жестких дисках. Значение `upload` указывает на то, что вы отправляете файлы по сети. Значение `drive` указывает на то, что вы отправляюте PST на жесткий диск.  <br/> | `/transfer:upload` <br/> |
-    | `/upload-dest:` <br/> |Задает конечную точку в Office 365, куда будут отправлены ваши PST-файлы; Это место хранения Azure для вашей организации. Значение этого параметра состоит из URL-адреса отправки в сети из URL-адреса SAS, скопированного на шаге 4. Обязательно заключите значение этого параметра в кавычки (" ").  <br/><br/> **Совет:** Необязательно Вы можете указать вложенную папку в хранилище Azure для отправки зашифрованных PST-файлов в. Для этого добавляется расположение вложенной папки (после "ingestiondata") в URL-адресе отправки в сети. В первом примере не указывается вложенная папка; Это означает, что PST-файлы будут отправлены в корневую папку хранилища Azure (с именем *ingestiondata* ). Второй пример передает PST-файлы в подпапку (с именем *енкриптедпстс* ) в месте хранения Azure.           | `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata"` <br/> или  <br/>  `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs"` <br/> |
+    | `/upload-dest:` <br/> |Задает конечную точку в Office 365, куда будут отправлены ваши PST-файлы; Это место хранения Azure для вашей организации. Значение этого параметра состоит из URL-адреса отправки в сети из URL-адреса SAS, скопированного на шаге 4. Обязательно заключите значение этого параметра в кавычки (" ").  <br/><br/> **Совет:** (необязательно) вы можете указать вложенную папку в хранилище Azure для отправки ЗАШИФРОВАНных PST-файлов в. Для этого добавляется расположение вложенной папки (после "ingestiondata") в URL-адресе отправки в сети. В первом примере не указывается вложенная папка; Это означает, что PST-файлы будут отправлены в корневую папку хранилища Azure (с именем *ingestiondata* ). Второй пример передает PST-файлы в подпапку (с именем *енкриптедпстс* ) в месте хранения Azure.           | `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata"` <br/> или  <br/>  `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs"` <br/> |
     | `/upload-destSAS:` <br/> |Задает ключ SAS для вашей организации. Значение этого параметра состоит из ключа SAS из URL-адреса SAS, скопированного на шаге 4. Обратите внимание, что первый символ в ключе SAS — вопросительный знак ("?"). Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `/upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
     | `/recurse` <br/> |Этот необязательный параметр указывает на рекурсивный режим, в результате которого средство O365ImportTool. exe скопирует PST-файлы, расположенные в подпапках в исходном каталоге, указанном `/srcdir:` параметром.  <br/><br/> **Примечание:** Если этот параметр включен, PST-файлы в подпапках будут иметь другой путь к файлу хранилища Azure после отправки. Вам потребуется указать точный путь в CSV-файле, который вы создадите в действии 7.           | `/recurse` <br/> |
    
     Вот пример синтаксиса для средства O365ImportTool.exe, в котором использованы действительные значения для каждого параметра:
     
-    ```
+    ```powershell
     O365ImportTool.exe /srcdir:\\FILESERVER01\PSTs /protect-rmsserver:"https://afcbd8ec-cb2b-4a1a-8246-0b4bc22d1978.rms.na.aadrm.com/_wmcs/licensing" /protect-tenantid:42745b33-2a5c-4726-8a2a-ca43caa0f74b  /protect-key:"l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867=" /transfer:upload /upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata" /upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"
     ```
 
@@ -339,7 +339,7 @@ ms.locfileid: "37091489"
     
 2. Откройте или сохраните этот CSV-файл на локальный компьютер. В примере ниже показан готовый файл сопоставления для импорта PST-файлов (открытый в Блокноте). Для редактирования CSV-файла намного удобнее использовать Microsoft Excel.
     
-    ```
+    ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
     Exchange,,annb.pst.pfile,annb@contoso.onmicrosoft.com,FALSE,/,,,,
     Exchange,,annb_archive.pst.pfile,annb@contoso.onmicrosoft.com,TRUE,/ImportedPst,,,,
@@ -434,7 +434,7 @@ ms.locfileid: "37091489"
     
 - Ниже приведен пример ключей, идентификаторов и URL-адресов, получаемых в шагах 2, 3 и 4. Этот пример также содержит синтаксис команды, выполняемой в средстве O365ImportTool. exe, для шифрования и отправки PST-файлов в Office 365. Необходимо защитить эти ключи так же, как вы защищаете пароли и другую информацию, связанную с обеспечением безопасности.
     
-  ```
+  ```text
   Symmetric key: l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867=
 
   BPOSId: 42745b33-2a5c-4726-8a2a-ca43caa0f74b

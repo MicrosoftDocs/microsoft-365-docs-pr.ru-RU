@@ -10,12 +10,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. Отпечатки документов упрощают защиту этих сведений путем определения стандартных форм, используемых в пределах всей организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
-ms.openlocfilehash: 776410ec042e629e32fa6b03a2cb4fe0f2bacd2e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8ac8e0f44c71f0f52d362f6c6c84f7fc9e55face
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070122"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38687429"
 ---
 # <a name="document-fingerprinting"></a>Создание отпечатка документа
 
@@ -51,7 +51,7 @@ ms.locfileid: "37070122"
   
 ### <a name="supported-file-types"></a>Поддерживаемые типы файлов
 
-Отпечатки документов поддерживают те же типы файлов, что и в правилах для обработки почты (также называемых правилами транспорта). Список поддерживаемых типов файлов приведен в разделе [Поддерживаемые типы файлов для проверки содержимого правила для почтового процесса](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection). Одна быстрая заметка о типах файлов: правила обработки почтового ящика и отпечатки документов поддерживают тип файла. dotx, который может быть запутанным из-за того, что это файл шаблона в Word. Если вы видите слово "Template" (шаблон) в этой и другой теме отпечатка пальца документа, он ссылается на документ, который вы установили как стандартную форму, а не тип файла шаблона.
+Отпечатки документов поддерживают те же типы файлов, что и в правилах для обработки почты (также называемых правилами транспорта). Список поддерживаемых типов файлов приведен в разделе [Поддерживаемые типы файлов для проверки содержимого правила для почтового процесса](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection). Одна быстрая заметка о типах файлов: правила обработки почтового ящика и отпечатки документов поддерживают тип файла. dotx, который может быть запутанным из-за того, что это файл шаблона в Word. Если вы видите слово "Template" (шаблон) в этой и другой теме отпечатка пальца документа, он ссылается на документ, который вы установили как стандартную форму, а не тип файла шаблона.
   
 #### <a name="limitations-of-document-fingerprinting"></a>Ограничения относительно отпечатков документов
 
@@ -65,18 +65,18 @@ ms.locfileid: "37070122"
     
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Создание пакета правил классификации на основе отпечатков документов с помощью PowerShell
 
-Обратите внимание, что в настоящее время вы можете создать отпечаток документа только &amp; с помощью PowerShell в центре безопасности и соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьей подключение к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Обратите внимание, что в настоящее время вы можете создать отпечаток документа только &amp; с помощью PowerShell в центре безопасности и соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьей подключение к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
-DLP использует пакеты правил классификации для обнаружения конфиденциального содержимого. Чтобы создать пакет правил классификации на основе отпечатка документа, используйте командлеты **New – длпфинжерпринт** и **New – DlpSensitiveInformationType** . Так как результаты **New-длпфинжерпринт** не хранятся вне правила классификации данных, всегда выполняются командлеты **New-длпфинжерпринт** и **New-DlpSensitiveInformationType** или **Set-DlpSensitiveInformationType** в той же Сеанс PowerShell. В примере ниже создается новый отпечаток документа на основе файла C:\My Documents\Contoso Employee Template.docx. Новый отпечаток хранится в качестве переменной, поэтому его можно использовать с командлетом **New-DlpSensitiveInformationType** во время одного сеанса PowerShell. 
+DLP использует пакеты правил классификации для обнаружения конфиденциального содержимого. Чтобы создать пакет правил классификации на основе отпечатка документа, используйте командлеты **New – длпфинжерпринт** и **New – DlpSensitiveInformationType** . Так как результаты **New-длпфинжерпринт** не хранятся вне правила классификации данных, всегда выполняются командлет **New-длпфинжерпринт** и **New-DlpSensitiveInformationType** или **Set-DlpSensitiveInformationType** в том же сеансе PowerShell. В примере ниже создается новый отпечаток документа на основе файла C:\My Documents\Contoso Employee Template.docx. Новый отпечаток хранится в качестве переменной, поэтому его можно использовать с командлетом **New-DlpSensitiveInformationType** во время одного сеанса PowerShell.
   
-```
+```powershell
 $Employee_Template = Get-Content "C:\My Documents\Contoso Employee Template.docx" -Encoding byte -ReadCount 0
 $Employee_Fingerprint = New-DlpFingerprint -FileData $Employee_Template -Description "Contoso Employee Template"
 ```
 
 Давайте создадим новое правило классификации данных с именем "Contoso Employee Confidential", использующее отпечаток документа из файла C:\My Documents\Contoso Customer Information Form.docx.
   
-```
+```powershell
 $Customer_Form = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
 $Customer_Fingerprint = New-DlpFingerprint -FileData $Customer_Form -Description "Contoso Customer Information Form"
 New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerprints $Customer_Fingerprint -Description "Message contains Contoso customer information." 
@@ -86,15 +86,14 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
   
 Наконец, добавьте пакет правил классификации данных "Contoso Customer Confidential" в политику защиты от потери данных в центре &amp; соответствия требованиям безопасности. В этом примере показано, как добавить правило к существующей политике защиты от потери данных с именем "Конфидентиалполици".
 
-```
+```powershell
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-Вы также можете использовать пакет правил классификации данных в правилах обработки почтового ящика в Exchange Online, как показано в следующем примере. Чтобы выполнить эту команду, сначала необходимо [подключиться к Exchange Online PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Также обратите внимание на то, что пакет правил должен синхронизироваться с центром &amp; безопасности Exchange в центре администрирования Exchange.
+Вы также можете использовать пакет правил классификации данных в правилах обработки почтового ящика в Exchange Online, как показано в следующем примере. Чтобы выполнить эту команду, сначала необходимо [подключиться к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Также обратите внимание на то, что пакет правил должен синхронизироваться с центром &amp; безопасности Exchange в центре администрирования Exchange.
   
-```
+```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
-
 ```
 
 Теперь DLP обнаруживает документы, которые совпадают с отпечаткой документа Contoso Customer Form. docx.

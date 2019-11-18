@@ -14,19 +14,20 @@ search.appverid:
 ms.assetid: 6501b5ef-6bf7-43df-b60d-f65781847d6c
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: Понимание основных элементов шифрования данных для обеспечения их защиты в OneDrive для бизнеса и SharePoint Online.
-ms.openlocfilehash: c8ac6f0a4364117c475637e0288d7a1a790d57c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a1ed9f511f77883428b23ff224956593763403e1
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089602"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687467"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>Шифрование данных в OneDrive для бизнеса и SharePoint Online
 
 Понимание основных элементов шифрования данных для обеспечения их защиты в OneDrive для бизнеса и SharePoint Online.
   
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Office 365  высокобезопасная среда, обеспечивающая расширенную защиту на нескольких уровнях: физическую безопасность центра обработки данных, сетевую безопасность, безопасность доступа, безопасность приложений и данных. Данная статья посвящена вопросам защиты данных, которые хранятся и передаются, благодаря их шифрованию для OneDrive для бизнеса и SharePoint Online.
   

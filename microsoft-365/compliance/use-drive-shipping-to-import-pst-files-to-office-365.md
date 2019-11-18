@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: 'Для администраторов: Узнайте, как массово импортировать PST-файлы вашей организации в почтовые ящики Office 365, скопировав PST-файлы на жесткий диск и отгрузите его в корпорацию Майкрософт. '
-ms.openlocfilehash: 033eee7a5ec33a8839542c8a942c4a1178968cec
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 977da95d4b335507122594910d2b4c5be00b9f2d
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440666"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687558"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>Использование доставки дисков для импорта PST-файлов Организации в Office 365
 
@@ -48,7 +48,7 @@ ms.locfileid: "37440666"
   
 Часто задаваемые вопросы об использовании доставки дисков для импорта PST-файлов в Office 365 приведены в статье [вопросы и ответы по использованию функции доставки дисков для импорта PST-файлов](faqimporting-pst-files-to-office-365.md#using-drive-shipping-to-import-pst-files). 
   
-## <a name="before-you-begin"></a>Подготовка к работе
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Необходимо назначить роль экспорта для импорта почтовых ящиков в Exchange Online, чтобы импортировать PST-файлы в почтовые ящики Office 365. По умолчанию эта роль не назначается ни одной группе ролей в Exchange Online. You can add the Mailbox Import Export role to the Organization Management role group. Вы также можете создать группу ролей, назначить роль импорта почтовых ящиков, а затем добавить себя в качестве участника. Дополнительные сведения можно найти в разделах "Добавление роли в группу ролей" или "Создание группы ролей" в разделе [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     
@@ -131,9 +131,9 @@ ms.locfileid: "37440666"
     
     ![Скопируйте ключ Secure Storage и скачайте средство импорта Azure Import Export на странице "Импорт данных"](media/e22e0b48-e5ce-48e0-95bc-0490a2b3b983.png)
   
-    а. В шаге 2 щелкните **Копировать ключ безопасного хранения**. После отображения ключа хранилища нажмите кнопку **Копировать в буфер обмена** , а затем вставьте его и сохраните в файл, чтобы получить к нему доступ позже.
+    а) В шаге 2 щелкните **Копировать ключ безопасного хранения**. После отображения ключа хранилища нажмите кнопку **Копировать в буфер обмена** , а затем вставьте его и сохраните в файл, чтобы получить к нему доступ позже.
     
-    б. На шаге 3 **Скачайте средство импорта и экспорта Azure** , чтобы скачать и установить средство импорта и экспорта Azure (версия 1).
+    б) На шаге 3 **Скачайте средство импорта и экспорта Azure** , чтобы скачать и установить средство импорта и экспорта Azure (версия 1).
     
     - Во всплывающем окне нажмите **сохранить** \> **Сохранить как** , чтобы сохранить файл WaImportExportV1. zip в папку на локальном компьютере. 
     
@@ -159,7 +159,7 @@ ms.locfileid: "37440666"
     
 3. При первом использовании средства WAImportExport.exe для копирования PST-файлов на жесткие диски выполните указанную ниже команду.
 
-    ```
+    ```powershell
     WAImportExport.exe PrepImport /j:<Name of journal file> /t:<Drive letter> /id:<Name of session> /srcdir:<Location of PST files> /dstdir:<PST file path> /sk:<Storage account key> /blobtype:BlockBlob /encrypt /logdir:<Log file location>
     ```
 
@@ -179,7 +179,7 @@ ms.locfileid: "37440666"
    
     Вот пример синтаксиса для средства WAImportExport.exe, в котором использованы действительные значения для каждого параметра:
     
-    ```
+    ```powershell
     WAImportExport.exe PrepImport /j:PSTHDD1.jrn /t:f /id:driveship1 /srcdir:"\\FILESERVER01\PSTs" /dstdir:"ingestiondata/" /sk:"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ==" blobtype:BlockBlob /encrypt /logdir:"c:\users\admin\desktop\PstImportLogs"
     ```
 
@@ -187,13 +187,13 @@ ms.locfileid: "37440666"
     
 4. Выполняйте эту команду при каждом последующем запуске средства WAImportExport.exe для копирования PST-файлов на тот же жесткий диск.
 
-    ```
+    ```powershell
     WAImportExport.exe PrepImport /j:<Name of journal file> /id:<Name of new session> /srcdir:<Location of PST files> /dstdir:<PST file path> /blobtype:BlockBlob 
     ```
 
     Вот пример синтаксиса для запуска последующих сеансов копирования PST-файлов на тот же жесткий диск.  
 
-    ```
+    ```powershell
     WAImportExport.exe PrepImport /j:PSTHDD1.jrn /id:driveship2 /srcdir:"\\FILESERVER01\PSTs\SecondBatch" /dstdir:"ingestiondata/" /blobtype:BlockBlob
     ```
 
@@ -205,7 +205,7 @@ ms.locfileid: "37440666"
     
 2. Откройте или сохраните этот CSV-файл на локальный компьютер. В примере ниже показан готовый файл сопоставления для импорта PST-файлов (открытый в Блокноте). Для редактирования CSV-файла намного удобнее использовать Microsoft Excel.
 
-    ```
+    ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
     Exchange,FILESERVER01/PSTs,annb.pst,annb@contoso.onmicrosoft.com,FALSE,/,,,,
     Exchange,FILESERVER01/PSTs,annb_archive.pst,annb@contoso.onmicrosoft.com,TRUE,/ImportedPst,,,,
@@ -373,13 +373,13 @@ ms.locfileid: "37440666"
   
 6. Выполните одно из указанных ниже действий.
     
-    а. Чтобы обрезать импортируемые данные, нажмите кнопку **Да, я хочу отфильтровать их перед импортом**.
+    а) Чтобы обрезать импортируемые данные, нажмите кнопку **Да, я хочу отфильтровать их перед импортом**.
     
     Подробное пошаговое руководство по фильтрации данных в PST-файлах и последующем запуске задания импорта описано в статье [Filter Data при импорте PST-файлов в Office 365](filter-data-when-importing-pst-files.md).
     
     или
     
-    б. Чтобы импортировать все данные в PST-файлах, нажмите кнопку **нет, импортировать все,** а затем нажмите кнопку **Далее**.
+    б) Чтобы импортировать все данные в PST-файлах, нажмите кнопку **нет, импортировать все,** а затем нажмите кнопку **Далее**.
     
 7. Если вы решили импортировать все данные, нажмите кнопку **Импорт данных** , чтобы запустить задание импорта. 
     
@@ -464,7 +464,7 @@ ms.locfileid: "37440666"
 - Ниже показаны примеры ключа учетной записи защищенного хранилища и ключа шифрования BitLocker. В этом примере также показан синтаксис команды WAImportExport.exe, которую необходимо запустить для копирования PST-файлов на жесткий диск. Необходимо защитить эти ключи так же, как вы защищаете пароли и другую информацию, связанную с обеспечением безопасности.
     
 
-    ```
+    ```text
     Secure storage account key: 
 
     yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ==
@@ -493,7 +493,7 @@ ms.locfileid: "37440666"
 
   WAImportExport.exe PrepImport /j:PSTHDD1.jrn /id:driveship2 /srcdir:"\\FILESERVER1\PSTs\SecondBatch" /dstdir:"ingestiondata/" /blobtype:BlockBlob
     ```
-   
+
 - Как описывалось ранее, служба импорта Office 365 включает параметр удержания хранения (в течение неопределенной длительности) после импорта PST-файлов в почтовый ящик. Это означает, что для свойства *рентионхолденаблед* задано значение `True` , чтобы политика хранения, назначенная почтовому ящику, не была обработана. Это дает владельцу почтового ящика время на управление недавно импортированными сообщениями, предотвращая удаление или архивирование устаревших сообщений политикой удаления или архивации. Ниже приведены действия по управлению удержанием хранения. 
     
   - По истечении определенного периода времени вы можете отключить удержание хранения, выполнив `Set-Mailbox -RetentionHoldEnabled $false` команду. Инструкции приведены в разделе [Помещение почтового ящика на](https://go.microsoft.com/fwlink/p/?LinkId=544749)хранение.

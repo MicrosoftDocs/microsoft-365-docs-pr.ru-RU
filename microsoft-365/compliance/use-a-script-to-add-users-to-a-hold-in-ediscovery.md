@@ -7,6 +7,8 @@ ms.date: 1/23/2017
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -14,26 +16,26 @@ search.appverid:
 - MBS150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: Запустите сценарий, чтобы быстро добавить почтовые ящики и сайты OneDrive для бизнеса в новое удержание, связанное с вариантом обнаружения электронных данных в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: c680e584a6f729b3d6d0d74b84ddd0e03da6dc9a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7a7ea582391e2fbfcef8b63d331d64f52db4460c
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090660"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687562"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-security--compliance-center"></a>Использование скрипта для добавления пользователей в удержание в случае обнаружения электронных данных в центре безопасности & соответствия требованиям
 
 Центр безопасности & соответствия требованиям предоставляет множество командлетов Windows PowerShell, позволяющих автоматизировать задачи, связанные с созданием и управлением делами обнаружения электронных данных. В настоящее время с помощью средства обнаружения электронных данных в центре безопасности & соответствия требованиям для размещения большого количества расположений содержимого хранитель на удержание занимается время и подготовка. Например, перед созданием удержания необходимо собрать URL-адрес для каждого сайта OneDrive для бизнеса, который необходимо разместить на удержании. Затем для каждого пользователя, который необходимо разместить на удержании, необходимо добавить свой почтовый ящик и сайт OneDrive для бизнеса в удержание. В будущих выпусках центра безопасности & соответствия требованиям это будет проще. До этого вы можете автоматизировать этот процесс с помощью сценария, описанного в этой статье.
   
-Сценарий запрашивает имя домена личного сайта Организации (например, **contoso** в URL-адресе https://contoso-my.sharepoint.com), имя существующего случая обнаружения электронных данных, имя нового удержания, связанное с обращением, список адресов электронной почты нужных пользователей. для размещения на удержании и поискового запроса, который необходимо использовать, если требуется создать удержание на основе запроса. Затем сценарий получает URL-адрес сайта OneDrive для бизнеса для каждого пользователя в списке, создает новое удержание, а затем добавляет сайт "почтовый ящик и OneDrive для бизнеса" для каждого пользователя из списка в удержание. Скрипт также создает файлы журнала, содержащие сведения о новом удержании. 
+В сценарии запрашивается имя домена личного сайта Организации (например, **contoso** в URL-адресе https://contoso-my.sharepoint.com), имя существующего случая обнаружения электронных данных, имя нового удержания, связанное с обращением, список адресов электронной почты пользователей, которые необходимо включить в удержание, а также поисковый запрос, который будет использоваться, если необходимо создать удержание на основе запроса. Затем сценарий получает URL-адрес сайта OneDrive для бизнеса для каждого пользователя в списке, создает новое удержание, а затем добавляет сайт "почтовый ящик и OneDrive для бизнеса" для каждого пользователя из списка в удержание. Скрипт также создает файлы журнала, содержащие сведения о новом удержании. 
   
 Выполните следующие действия:
   
 [Шаг 1. Установка командной консоли SharePoint Online](#step-1-install-the-sharepoint-online-management-shell)
   
-[Шаг 2: Создание списка пользователей](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step2)
+[Шаг 2: Создание списка пользователей](#step-2-generate-a-list-of-users)
   
-[Шаг 3: запуск скрипта для создания удержания и добавления пользователей](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step3)
+[Шаг 3: запуск скрипта для создания удержания и добавления пользователей](#step-3-run-the-script-to-create-a-hold-and-add-users)
   
 ## <a name="before-you-begin"></a>Перед началом работы
 
@@ -56,22 +58,18 @@ ms.locfileid: "37090660"
 Перейдите к разделу [Настройка среды Windows PowerShell в командной консоли SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=286318) и выполните действия 1 и 2, чтобы установить командную консоль SharePoint Online на локальный компьютер. 
 
 ## <a name="step-2-generate-a-list-of-users"></a>Шаг 2: Создание списка пользователей
-<a name="step2"> </a>
 
 Сценарий в действии 3 создаст удержание, связанное с вариантом обнаружения электронных данных, а также сайты "Добавление почтовых ящиков и OneDrive для бизнеса" списка пользователей в удержание. Вы можете просто ввести адреса электронной почты в текстовом файле или выполнить команду в Windows PowerShell, чтобы получить список адресов электронной почты и сохранить их в файле (расположенном в той же папке, в которой вы сохранили сценарий на шаге 3).
   
 Вот команда PowerShell (которая запускается с помощью удаленной оболочки PowerShell, подключенной к организации Exchange Online), чтобы получить список адресов электронной почты для всех пользователей в Организации и сохранить их в текстовый файл с именем Холдусерс. txt.
   
-```
+```powershell
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
 После выполнения этой команды откройте текстовый файл и удалите заголовок, содержащий имя свойства `PrimarySmtpAddress`. Затем удалите все адреса электронной почты, кроме тех, для пользователей, которые нужно добавить в удержание, созданное на шаге 3. Убедитесь, что в списке адресов электронной почты нет пустых строк.
   
-
-  
 ## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>Шаг 3: запуск скрипта для создания удержания и добавления пользователей
-<a name="step3"> </a>
 
 При выполнении скрипта на этом этапе будут предложены следующие сведения. Перед выполнением скрипта обязательно убедитесь, что эти сведения готовы к работе.
   
@@ -87,11 +85,11 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 - Независимо от того, можно **ли включать удержание** , вы можете включить удержание после его создания или создать сценарий хранения без его включения. Если у вас нет скрипта, который включает удержание, вы можете включить его позже в центре безопасности & соответствия требованиям или выполнив следующие команды PowerShell: 
     
-  ```
+  ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
   ```
 
-  ```
+  ```powershell
   Set-CaseHoldRule -Identity <name of the hold> -Disabled $false
   ```
 
@@ -101,7 +99,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   
 1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс имени файла PS1; Пример: `AddUsersToHold.ps1`.
     
-  ```
+  ```powershell
   #script begin
   " " 
   write-host "***********************************************"
@@ -119,7 +117,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
           return;
       }
   # Load the SharePoint assemblies from the SharePoint Online Management Shell
-  # To install, go to http://go.microsoft.com/fwlink/p/?LinkId=255251
+  # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
   if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
   {
       $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
@@ -127,7 +125,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
       $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
       if (!$SharePointClient)
       {
-          Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: http://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
+          Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
           return;
       }
   }
@@ -278,7 +276,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 3. Запуск скрипта; Например:
     
-      ```
+      ```powershell
     .\AddUsersToHold.ps1
       ```
 

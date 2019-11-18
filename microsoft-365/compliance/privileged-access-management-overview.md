@@ -1,5 +1,5 @@
 ---
-title: Управление привилегированным доступом в Office 365
+title: Управление привилегированным доступом в Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,14 +15,14 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: В этом разделе вы найдете дополнительные сведения об управлении привилегированным доступом в Office 365
-ms.openlocfilehash: 7547568d6ea2a13de5391d5a827df2921833838c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9bc2aab9c9758daf35aa14a41d7997a0bff5764f
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091034"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687398"
 ---
-# <a name="privileged-access-management-in-office-365"></a>Управление привилегированным доступом в Office 365
+# <a name="privileged-access-management-in-office-365"></a>Управление привилегированным доступом в Office 365
 
 > [!IMPORTANT]
 > В этом разделе рассматривается руководство по развертыванию и настройке для функций, доступных в Office 365 и расширенных конфигураций соответствия требованиям.
@@ -94,4 +94,4 @@ ms.locfileid: "37091034"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-[Интерактивное руководство: мониторинг и управление задачами администрирования с помощью привилегированного управления доступом](https://content.cloudguides.com/en-us/guides/Privileged%20Access%20Management)
+[Интерактивное руководство: мониторинг и управление задачами администрирования с помощью привилегированного управления доступом](https://content.cloudguides.com/guides/Privileged%20Access%20Management)

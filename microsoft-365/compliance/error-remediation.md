@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 614397a81fd898975e5163c669fb8693fcdfe77c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c7bc6043722059b04d7fb99663a7dfb8815de697
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090277"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687378"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>Устранение ошибок при обработке данных для расследования
 
@@ -54,7 +54,7 @@ ms.locfileid: "37090277"
     >Для оптимальной производительности рекомендуется использовать локальный путь к файлу вместо удаленного сетевого пути.
 
     > [!NOTE]
-    > Если вы не установили AzCopy, вы можете установить его отсюда:https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
+    > Если вы не установили AzCopy, вы можете установить его отсюда:https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
 
 6. Скопируйте предопределенную команду, нажав кнопку **Копировать в буфер обмена**. Запустите командную строку Windows, вставьте команду и нажмите клавишу **Ввод**.  
 

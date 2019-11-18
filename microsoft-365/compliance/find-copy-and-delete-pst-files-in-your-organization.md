@@ -11,12 +11,12 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: С помощью средства Microsoft PST Collection выполните поиск по сети организации, чтобы получить список PST-файлов, которые размещаются в пределах организации. После того как вы найдете PST-файлы, вы можете использовать средство сбора PST-файлов, чтобы скопировать их в центральном расположении, чтобы их можно было импортировать в Office 365.
-ms.openlocfilehash: 000da8aec988e85f935a96aabe9faa48932aaeaa
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 703208b574a723eb4f91aad0a892d6ea4abf427b
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090340"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687525"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>Поиск, копирование и удаление PST-файлов в Организации с помощью средства сбора PST-файлов
 
@@ -78,7 +78,7 @@ ms.locfileid: "37090340"
     
 4. Выполните следующую команду, чтобы найти PST-файлы в указанном расположении.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Find -JobName <Name> -Locations <Locations to search for PSTs> -LogLocation <Location to store log files> -ConfigurationLocation <Location to store configuration files>
     ```
 
@@ -97,7 +97,7 @@ ms.locfileid: "37090340"
    
     Ниже приведен пример синтаксиса для команды Датаколлектормастер. exe, использующей фактические значения для каждого параметра:
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Find -JobName PstSearch1 -Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com";"CN=FILESERVER02,CN=Computers,DC=contoso,DC=com" -LogLocation "c:\users\admin\desktop\PSTCollection" -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration"
     ```
 
@@ -138,7 +138,7 @@ ms.locfileid: "37090340"
     
 3. Выполните следующую команду, чтобы заблокировать доступ к PST-файлам, найденным на шаге 1.
 
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Block -JobName <Name of job from Step 1> -ConfigurationLocation <Location of configuration files from Step 1> -BlockChangesToFiles -BlockNewFiles
     ```
 
@@ -156,10 +156,10 @@ ms.locfileid: "37090340"
    
     Ниже приведен пример синтаксиса для команды Датаколлектормастер. exe, использующей фактические значения для каждого параметра:
 
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Block -JobName PstSearch1 -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration" -LogLocation "c:\users\admin\desktop\PSTCollection" -BlockChangesToFiles -BlockNewFiles
     ```
-    
+
     Вам будет предложено подтвердить блокировку новых PST-файлов или изменений существующих PST-файлов. После подтверждения того, что вы хотите продолжить и успешное выполнение команды, появится сообщение о том, что создан новый объект групповой политики с именем "элементы управления использованием PST".
     
 ## <a name="step-3-copy-the-pst-files-to-a-collection-location"></a>Шаг 3: копирование PST-файлов в расположение коллекции
@@ -175,7 +175,7 @@ ms.locfileid: "37090340"
     
 3. Выполните следующую команду, чтобы скопировать PST-файлы в указанное расположение.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Collect -JobName <Name of job from Step 1> -Locations <same locations from Step 1> -ConfigurationLocation <Location of configuration files from Step 1> -CopyLocation <Location to copy PST files to>
     ```
 
@@ -190,11 +190,11 @@ ms.locfileid: "37090340"
     | `ConfigurationLocation` <br/> |Указывает папку, которая содержит XML-файл конфигурации, созданный при запуске средства в режиме поиска. Используйте то же значение, которое использовалось для этого параметра на шаге 1.  <br/> | `-ConfigurationLocation "c:\users\admin\desktop \PSTCollection\Configuration"` <br/> |
     | `CopyLocation` <br/> |Задает расположение коллекции, в которую будут скопированы PST-файлы. Можно копировать файлы на файловый сервер, в общую сетевую папку или на жесткий диск. Расположение должно существовать до запуска средства в режиме сбора данных. Средство не создает расположение и возвращает сообщение об ошибке, сообщающее о том, что оно не существует.  <br/> Кроме того, необходимо записать разрешения в расположение коллекции, заданное этим параметром.  <br/> | `-CopyLocation "\\FILESERVER03\PSTs"` <br/> |
     | `LogLocation` <br/> |Указывает папку, в которую будет скопирован файл журнала для режима сбора. Это необязательный параметр. Если он не указан, файл журнала копируется в папку, в которую вы скачали средство сбора PST-файлов. Рекомендуется использовать тот же путь к журналу, который использовался при запуске средства в режиме поиска на шаге 1, чтобы все файлы журнала сохранялись в одной папке.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `ForceRestart` <br/> |Этот необязательный параметр позволяет повторно запустить средство в режиме коллекции для существующего задания сбора PST-файлов. Если вы ранее запустили средство в режиме сбора, а затем снова запустили его в режиме поиска с `ForceRestart` переключателем для повторного сканирования расположений для PST-файлов, можно использовать этот параметр для повторного запуска средства в режиме сбора и повторного копирования PST-файлов, обнаруженных при повторно просканировать расположения; При использовании `ForceRestart` параметра в режиме сбора средство игнорирует все предыдущие операции сбора и пытается скопировать PST-файлы с нуля.  <br/> | `-ForceRestart` <br/> |
+    | `ForceRestart` <br/> |Этот необязательный параметр позволяет повторно запустить средство в режиме коллекции для существующего задания сбора PST-файлов. Если вы ранее запустили средство в режиме сбора, а затем снова запустили его в режиме поиска с `ForceRestart` переключателем для повторного сканирования расположений для PST-файлов, можно использовать этот параметр для повторного запуска средства в режиме сбора и повторного копирования PST-файлов, найденных при повторном просканировании расположений. При использовании `ForceRestart` параметра в режиме сбора средство игнорирует все предыдущие операции сбора и пытается скопировать PST-файлы с нуля.  <br/> | `-ForceRestart` <br/> |
    
     Ниже приведен пример синтаксиса для средства Датаколлектормастер. exe, использующего фактические значения для каждого параметра:
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Collect -JobName PstSearch1 -Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com";"CN=FILESERVER02,CN=Computers,DC=contoso,DC=com" -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration" -CopyLocation "\\FILESERVER03\PSTs" -LogLocation "c:\users\admin\desktop\PSTCollection"
     ```
 
@@ -230,7 +230,7 @@ ms.locfileid: "37090340"
     
 3. Выполните следующую команду, чтобы удалить PST-файлы.
 
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Delete -JobName <Name of job from Step 1> -ConfigurationLocation <Location of configuration files from Step 1> -CopyLocation <Location to copy PST files to>
     ```
 
@@ -243,14 +243,14 @@ ms.locfileid: "37090340"
     | `JobName` <br/> |Задает имя существующего задания сбора PST-файлов. Необходимо использовать такое же имя задания, которое использовалось при запуске средства в режиме поиска и в режиме сбора на этапе 1 и на шаге 3. Это имя задания также добавляется в имя файла журнала, который создается при запуске средства в режиме удаления.  <br/> | `-JobName PstSearch1` <br/> |
     | `ConfigurationLocation` <br/> |Указывает папку, которая содержит XML-файл конфигурации, созданный при запуске средства в режиме сбора. Используйте то же значение, которое использовалось для этого параметра на шаге 3.  <br/> | `-ConfigurationLocation "c:\users\admin\ desktop\PSTCollection\Configuration"` <br/> |
     | `LogLocation` <br/> |Указывает папку, в которую будет скопирован файл журнала для режима удаления. Это необязательный параметр. Если он не указан, файл журнала копируется в папку, в которую вы скачали средство сбора PST-файлов. Рассмотрите использование того же расположения журнала, которое использовалось при запуске средства в режимах "найти и собрать" на этапе 1 и 3, чтобы все файлы журнала сохранялись в одной папке.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `ForceRestart` <br/> |Этот необязательный параметр позволяет повторно запустить средство в режиме удаления для существующего задания сбора PST-файлов. Если вы ранее запустили средство в режиме удаления, а затем снова запустили его в режиме поиска с `ForceRestart` параметром для повторного сканирования расположений для PST-файлов, можно использовать этот параметр для повторного запуска средства в режиме удаления и удаления PST-файлов, найденных при повторной связи. ннед расположения. При использовании `ForceRestart` параметра в режиме удаления средство игнорирует все предыдущие операции удаления и пытается снова удалить PST-файлы.  <br/> | `-ForceRestart` <br/> 
+    | `ForceRestart` <br/> |Этот необязательный параметр позволяет повторно запустить средство в режиме удаления для существующего задания сбора PST-файлов. Если вы ранее запустили средство в режиме удаления, а затем снова запустили его в режиме поиска с `ForceRestart` переключателем для повторного сканирования расположений для PST-файлов, можно использовать этот параметр для повторного запуска средства в режиме удаления и удаления PST-файлов, найденных при повторном просканировании расположений. При использовании `ForceRestart` параметра в режиме удаления средство игнорирует все предыдущие операции удаления и пытается снова удалить PST-файлы.  <br/> | `-ForceRestart` <br/> 
 
     Ниже приведен пример синтаксиса для средства Датаколлектормастер. exe, использующего фактические значения для каждого параметра:
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Delete -JobName PstSearch1 -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration" -LogLocation "c:\users\admin\desktop\PSTCollection"
     ```
-   
+
     После выполнения команды отображаются подробные сообщения о состоянии, показывающие ход удаления PST-файлов, найденных на этапе 1 и собранных на шаге 3. Через некоторое время в итоговое сообщение о состоянии отображается сообщение о том, что возникли ошибки, и место, куда копируется журнал. Такие же сообщения о состоянии копируются в файл журнала.
     
 ### <a name="results-of-running-datacollectormasterexe-in-the-delete-mode"></a>Результаты выполнения Датаколлектормастер. exe в режиме удаления

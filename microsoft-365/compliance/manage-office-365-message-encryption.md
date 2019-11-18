@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку Защита в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
-ms.openlocfilehash: 5e087211ec72c9cc37896a9a48cc01ce3c1a8d07
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 780be179485fa18f7e0da0fabc7bb5365238da94
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090386"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687381"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
@@ -32,7 +32,7 @@ ms.locfileid: "37090386"
   
 ### <a name="to-manage-whether-recipients-can-use-social-ids-to-sign-in-to-the-ome-portal"></a>Чтобы управлять тем, могут ли получатели использовать социальные идентификаторы для входа на портал OME
   
-1. [Подключитесь к Exchange Online с помощью удаленной оболочки PowerShell](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
+1. [Подключитесь к Exchange Online с помощью удаленной оболочки PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
 
 2. Выполните командлет Set – OMEConfiguration с параметром СоЦиалидсигнин следующим образом:
 

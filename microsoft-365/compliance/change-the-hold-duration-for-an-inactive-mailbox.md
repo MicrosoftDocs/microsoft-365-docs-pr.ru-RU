@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Когда почтовый ящик Office 365 становится неактивным, вы можете изменить продолжительность удержания или политики хранения Office 365, назначенной неактивному почтовому ящику. Срок хранения определяет, как долго удерживаются элементы в папке "элементы с возможностью восстановления".
-ms.openlocfilehash: 7840131af3df32b8b8e5a0faa1b101f9ec8ef541
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c07c360a557dfad5b13447bbc9fbf800f96e75d5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089850"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687499"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Изменение срока хранения неактивного почтового ящика в Office 365
 
@@ -48,16 +48,16 @@ ms.locfileid: "37089850"
   
 Выполните следующую команду в PowerShell Exchange Online, чтобы отобразить сведения об удержании для всех неактивных почтовых ящиков в организации.
   
-```
+```powershell
 Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,LitigationHoldEnabled,LitigationHoldDuration,InPlaceHolds
 ```
-   
+
 Значение **True** свойства **LitigationHoldEnabled** указывает, что неактивный почтовый ящик находится на хранении для судебного разбирательства. Если для неактивного почтового ящика включено удержание на месте, удержание для обнаружения электронных данных или политика хранения Office 365, их GUID отображается как значение свойства **InPlaceHolds**. Например, ниже показаны результаты для 5 неактивных почтовых ящиков. 
   
 ||
 |:-----|
 |
-```
+```text
 DisplayName           : Ann Beebe
 Name                  : annb
 IsInactiveMailbox     : True
@@ -93,7 +93,7 @@ LitigationHoldEnabled : False
 LitigationHoldDuration: Unlimited
 InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 ```
-   
+
 В следующей таблице перечислены пять типов удержания, использовавшиеся для отключения каждого почтового ящика.
   
 |**Неактивный почтовый ящик**|**Тип удержания**|**Как определить удержание для неактивного почтового ящика**|
@@ -114,7 +114,7 @@ InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 
 Ниже описано, как изменить срок хранения неактивного почтового ящика для судебного разбирательства с помощью Exchange Online PowerShell. Использовать Центр администрирования Exchange нельзя. Чтобы изменить срок хранения, выполните указанную ниже команду. В этом примере срок хранения изменяется на неограниченный период времени.
   
-```
+```powershell
 Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -LitigationHoldDuration unlimited
 ```
 
@@ -131,7 +131,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. Если вы знаете имя инцидента хранения на месте, который требуется изменить, можно перейти к следующему шагу. В противном случае выполните указанную ниже команду, чтобы получить имя инцидента хранения на месте для неактивного почтового ящика. Используйте идентификатор GUID хранения на месте, полученный на [шаге 1](#step-1-identify-the-holds-on-an-inactive-mailbox).
 
-    ```
+    ```powershell
     Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
     ```
 
@@ -155,13 +155,13 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. Если вы знаете имя инцидента хранения на месте, который требуется изменить, можно перейти к следующему шагу. В противном случае выполните указанную ниже команду, чтобы получить имя инцидента хранения на месте для неактивного почтового ящика. Используйте идентификатор GUID хранения на месте, полученный на [шаге 1](#step-1-identify-the-holds-on-an-inactive-mailbox).
 
-    ```
+    ```powershell
     Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
     ```
 
 2. Чтобы изменить срок хранения, выполните следующую команду. В этом примере срок хранения изменяется на 2555 дней (приблизительно 7 лет). 
     
-    ```
+    ```powershell
     Set-MailboxSearch <identity of In-Place Hold> -ItemHoldPeriod 2555
     ```
 
@@ -179,22 +179,22 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
 - **Чтобы проверить новый срок удержания, выполните одну из приведенных ниже команд.** Первая команда предназначена для хранения для судебного разбирательства, а вторая  для хранения на месте. 
 
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | FL LitigationHoldDuration
     ```
 
-    ```
+    ```powershell
     Get-MailboxSearch <identity of In-Place Hold> | FL ItemHoldPeriod
     ```
 
 - **Помощник по обслуживанию управляемых папок (MFA) также обрабатывает неактивные почтовые ящики, как и обычные почтовые ящики.** В Exchange Online MFA обрабатывает почтовые ящики приблизительно каждые 7 дней. После изменения срока удержания для неактивного почтового ящика вы можете использовать командлет **Start-ManagedFolderAssistant** для немедленного запуска обработки нового срока удержания неактивного почтового ящика. Выполните следующую команду: 
 
-    ```
+    ```powershell
     Start-ManagedFolderAssistant -InactiveMailbox <identity of inactive mailbox>
     ```
    
 - **Если к неактивному почтовому ящику применено большое количество удержаний, будут отображены не все GUID.** Чтобы просмотреть GUID всех удержаний (кроме хранения для судебного разбирательства), выполните следующую команду: 
     
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | Select-Object -ExpandProperty InPlaceHolds
     ```

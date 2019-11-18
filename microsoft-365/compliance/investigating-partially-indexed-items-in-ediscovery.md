@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: Частично индексированные элементы (Кроме того, вызывают неиндексированные элементы) — это элементы почтовых ящиков Exchange и документы на сайтах SharePoint и OneDrive, по которым не удалось полностью индексироваться для поиска контента. В этой статье рассказывается, почему не удается индексировать элементы для поиска и возвращаются как частично индексированные элементы, Идентифицируйте ошибки поиска для частично индексированных элементов и используйте скрипт PowerShell для определения экспозиции Организации с частично индексированной электронной почтой. Недавние.
-ms.openlocfilehash: 78ce6fc9816707e4d8bb18da71ca2ee89386b9b8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4e1430fe80c01b1cc9e67777c6955790ea1c6540
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089432"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687522"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Исследование частично индексированных элементов в функции обнаружения электронных данных в Office 365
 
@@ -84,7 +84,7 @@ ms.locfileid: "37089432"
 
 Теги ошибок состоят из двух частей информации, ошибки и типа файла. Например, в этой ошибке или указанном сочетании:
 
-```
+```text
  parseroutputsize_xls
 ```
 
@@ -120,7 +120,7 @@ ms.locfileid: "37089432"
   
 1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс имени файла PS1; Пример: `PartiallyIndexedItems.ps1`.
 
-```
+```powershell
   write-host "**************************************************"
   write-host "     Security & Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
   write-host "   eDiscovery Partially Indexed Item Statistics   " -foregroundColor yellow -backgroundcolor darkgreen
@@ -163,15 +163,15 @@ ms.locfileid: "37089432"
   }
   
 ```
-   
+
 2. [Подключитесь к PowerShell центра безопасности & соответствия требованиям](https://go.microsoft.com/fwlink/p/?linkid=627084).
     
 3. В PowerShell центра безопасности & соответствия требованиям перейдите в папку, в которой сохранен сценарий на шаге 1, а затем запустите сценарий. Например:
 
-    ```
+    ```powershell
     .\PartiallyIndexedItems.ps1
     ```
-   
+
 Ниже приведен пример выходных данных, возвращаемых сценарием.
   
 ![Пример выходных данных из скрипта, который создает отчет о экспозиции Организации для частично индексированных элементов электронной почты](media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)

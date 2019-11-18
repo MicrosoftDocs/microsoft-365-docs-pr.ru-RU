@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Воспользуйтесь средством поиска обнаружения электронных данных поиска контента для поиска элементов, импортированных в почтовые ящики в Office 365, из стороннего источника данных. Можно создать запрос для поиска всех импортированных элементов или создать запрос для поиска определенных типов данных третьих сторон. В этой статье перечислены значения, которые можно использовать в запросе с ключевыми словами для поиска в сторонних типах данных, которые можно импортировать в Office 365.
-ms.openlocfilehash: 2d531557054398be4ca963a9b09943f1bf583d10
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 57a39049ae1df3707a96311c9138195b7cc4c83a
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090641"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687559"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-to-office-365"></a>Поиск данных сторонних поставщиков, импортированных в Office 365, с помощью поиска контента
 
@@ -29,7 +29,7 @@ ms.locfileid: "37090641"
 
 Чтобы выполнить поиск (или поместиться на удержании) любого типа сторонних данных, импортированных в Office 365, можно использовать параметр `kind:externaldata` Message-value в поле ключевое слово для поиска контента или при создании удержания на основе запроса. Например, чтобы найти элементы, импортированные из стороннего источника данных и содержащие слово "contoso" в свойстве subject импортированного элемента, используйте следующий запрос: 
   
-```
+```powershell
 kind:externaldata AND subject:contoso
 ```
 
@@ -41,13 +41,13 @@ kind:externaldata AND subject:contoso
 
 Вместо того чтобы искать все типы сторонних данных, можно создавать запросы, которые ищут только сведения об указанном типе сторонних данных, используя следующую комбинацию *свойств Message: value* в поле ключевое слово для поиска контента:
   
-```
+```powershell
 itemclass:ipm.externaldata.<third-party data type>* 
 ```
 
 Например, чтобы найти данные Facebook, содержащие слово "contoso" в свойстве subject, используйте следующий запрос:
   
-```
+```powershell
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 

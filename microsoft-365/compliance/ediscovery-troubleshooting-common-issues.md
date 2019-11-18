@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: ''
 description: Проанализируйте, устраните и устраните распространенные проблемы, связанные с обнаружением электронных данных в Office 365.
 siblings_only: true
-ms.openlocfilehash: 0d411976ecf6adba9df1f75eb8a45409647b3e1a
-ms.sourcegitcommit: c7f7ff463141f7d7f0970b64e5a04341db7e4fa8
+ms.openlocfilehash: 37e92e480759601f9dfe61430bdd647b20df051d
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37378641"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687537"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -29,7 +29,7 @@ ms.locfileid: "37378641"
 
 ## <a name="errorissue-ambiguous-location"></a>Ошибка/Ошибка: неоднозначное расположение
 
-Если вы попытаетесь добавить расположение почтового ящика пользователя в поиск, и в каталоге Exchange Online Protection (EOP) имеются дублирующиеся или конфликтующие объекты с тем же userID, появится следующее сообщение `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous`об ошибке:. 
+Если попытаться добавить в поиск расположение почтового ящика пользователя, а в каталоге Exchange Online Protection (EOP) имеются повторяющиеся или конфликтующие объекты с тем же userID, возникает следующая ошибка `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous`:. 
 
 ### <a name="resolution"></a>Разрешение
 
@@ -37,19 +37,19 @@ ms.locfileid: "37378641"
 
 1. Подключение к [PowerShell центра безопасности & центра соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
-2. Получите все экземпляры имени пользователя, введите:
+2. Выполните следующую команду, чтобы получить все экземпляры имени пользователя:
 
     ```powershell
     Get-Recipient <username>
     ```
 
-Выходные данные для "useralias@contoso.com" будут выглядеть следующим образом:
+   Выходные данные для "useralias@contoso.com" будут выглядеть следующим образом:
 
-> 
-> |Имя  |RecipientType  |
-> |---------|---------|
-> |Псевдоним, пользователь     |MailUser         |
-> |Псевдоним, пользователь     |Пользователь         |
+   > 
+   > |Имя  |RecipientType  |
+   > |---------|---------|
+   > |Псевдоним, пользователь     |MailUser         |
+   > |Псевдоним, пользователь     |Пользователь         |
 
 3. Если возвращается несколько пользователей, разместите и устраните конфликтующий объект.
 
@@ -58,13 +58,13 @@ ms.locfileid: "37378641"
 Поиск обнаружения электронных данных или контента может привести к возникновению следующей ошибки:
 >Поиск завершился с ошибками (#).  Вы хотите повторить поиск в расположениях с ошибками?
 
-![Снимок экрана с определенным расположением для поиска со сбоем]( media/edisc-tshoot-specific-location-search-fails.png)
+![Снимок экрана с расположением для поиска со сбоем]( media/edisc-tshoot-specific-location-search-fails.png)
 
 ### <a name="resolution"></a>Разрешение
 
 При возникновении этой ошибки рекомендуется проверить расположения, в которых произошел сбой, а затем повторить поиск только в расположениях, на которых не удалось выполнить поиск.
 
-1. Подключитесь к [оболочке PowerShell центра & безопасности Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и введите следующую команду:
+1. Подключитесь к [оболочке PowerShell центра безопасности & Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и выполните следующую команду:
 
     ```powershell
     Get-ComplianceSearch <searchname> | FL 
@@ -74,11 +74,11 @@ ms.locfileid: "37378641"
 
 3. Повторите поиск обнаружения электронных данных для неудачных расположений.
 
-4. Если вы продолжаете получать эти ошибки, обратитесь к разделу [Retry Fail Failed Locations](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/retry-failed-content-search) for more Errors.
+4. Если вы продолжаете получать эти ошибки, обратитесь к разделу [Retry Fail Failed Locations](https://docs.microsoft.com/Office365/SecurityCompliance/retry-failed-content-search) for more Errors.
 
 ## <a name="errorissue-file-not-found"></a>Ошибка/Ошибка: файл не найден
 
-При выполнении поиска обнаружения электронных данных, включающего SharePoint Online и один диск для размещения бизнеса, может появиться сообщение `File Not Found` об ошибке, несмотря на то, что файл находится на сайте. Эта ошибка будет находиться в разделе Экспорт предупреждений и ошибок. CSV или пропущенных элементов. csv. Это может произойти, если файл не удается найти на сайте или индекс устарел. Вот текст фактической ошибки с добавленным выделением.
+При выполнении поиска обнаружения электронных данных, включающего SharePoint Online и один диск для размещения бизнеса, может появиться сообщение `File Not Found` об ошибке, несмотря на то, что файл находится на сайте. Эта ошибка будет находиться в разделе Экспорт предупреждений и ошибок. CSV или пропущенных элементов. csv. Это может произойти, если не удается найти файл на сайте или индекс устарел. Вот текст фактической ошибки (с добавленным выделением).
   
 > 28.06.2019 10:02:19_FailedToExportItem_Failed для скачивания контента. Дополнительные диагностические сведения: Microsoft. Office. соответствие. EDiscovery. Експортворкер. Exceptions. Контентдовнлоадтемпорарифаилуре: не удалось скачать из контента 6ea52149 — 91cd – 4965 – b5bb – 82ca6a3ec9be типа Document. Идентификатор корреляции: 3bd84722-937b-4c23-b61b-08d6fba9ec32. Серверерроркоде: – 2147024894---> Microsoft. SharePoint. Client. Серверексцептион: ***файл не найден***. в Microsoft. SharePoint. Client. Клиентрекуест. Процессреспонсестреам (Stream Респонсестреам) на сайте Microsoft. SharePoint. Client. Клиентрекуест. Процессреспонсе ()---конец трассировки стека внутренних исключений---
 
@@ -86,7 +86,7 @@ ms.locfileid: "37378641"
 
 1. Проверьте расположение, указанное в поиске, чтобы убедиться в том, что расположение файла указано правильно и добавляется в расположений для поиска.
 
-2. Используйте процедуры при [ручном запросе на обход контента и повторной индексации сайта, библиотеки или списка](https://docs.microsoft.com/en-us/sharepoint/crawl-site-content) для повторного индексирования сайта.
+2. Используйте процедуры при [ручном запросе на обход контента и повторной индексации сайта, библиотеки или списка](https://docs.microsoft.com/sharepoint/crawl-site-content) , чтобы переиндексировать сайт.
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Ошибка/Ошибка: не удается выполнить поиск, так как получатель не найден
 
@@ -96,7 +96,7 @@ ms.locfileid: "37378641"
 
 1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
-2. Проверьте, синхронизирован ли объект пользователя с типом защиты Exchange Online:
+2. Выполните следующую команду, чтобы проверить, синхронизирован ли пользователь с Exchange Online Protection:
 
     ```powershell
     Get-Recipient <userId> | FL
@@ -110,9 +110,9 @@ ms.locfileid: "37378641"
 
 ### <a name="resolution"></a>Разрешение
 
-1.  Попробуйте использовать шаги, описанные в статье, чтобы [увеличить скорость загрузки](https://docs.microsoft.com/en-us/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
+1.  Попробуйте использовать шаги, описанные в статье, чтобы [увеличить скорость загрузки](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
 
-2.  Если проблема не устранена, подключитесь к [PowerShell в центре безопасности Office 365 &](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и введите следующую команду:
+2.  Если проблема не устранена, подключитесь к [PowerShell в центре безопасности Office 365 &](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
 
     ```powershell
     Get-ComplianceSearch <searchname> | FL
@@ -120,7 +120,7 @@ ms.locfileid: "37378641"
 
 4. Найдите объем данных для загрузки в параметрах SearchResults и Сеарчстатистикс.
 
-5. Введите следующую команду:
+5. Выполните следующую команду:
 
    ```powershell
    Get-ComplianceSearchAction | FL
@@ -140,15 +140,15 @@ ms.locfileid: "37378641"
 
 1. Разбейте Поиск на небольшие поиски и снова запустите поиск.  Попробуйте использовать меньший диапазон дат или ограничить количество искомых расположений.
 
-2. Подключитесь к [оболочке PowerShell центра & безопасности Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и введите следующую команду:
+2. Подключитесь к [оболочке PowerShell центра безопасности & Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и выполните следующую команду:
 
-    ```powershell
+    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
     Get-ComplianceSearch <searchname> | FL
     ```
 
 3. Изучите выходные данные для результатов и ошибок.
 
-4. Изучите файл Trace. log. Он будет находиться в той же папке, куда вы отправили экспорт.
+4. Изучите файл Trace. log. Он находится в той же папке, в которую вы экспортировали результаты поиска.
 
 5. Обратитесь в службу поддержки корпорации Майкрософт.
 
@@ -156,21 +156,42 @@ ms.locfileid: "37378641"
 
 Ошибка распространения синхронизации политики обнаружения электронных данных для обнаружения электронных данных. Сообщение об ошибке выглядит следующим образом:
 
-> "Resources: для развертывания политики требуется больше времени, чем ожидалось. Обновление последнего состояния развертывания может занять два часа, поэтому выполните проверку в течение нескольких часов. "
+> "Resources: для развертывания политики требуется больше времени, чем ожидалось. Для обновления состояния развертывания может потребоваться еще 2 часа, поэтому выполните проверку в течение нескольких часов. "
 
 ### <a name="resolution"></a>Разрешение
 
-1.  Подключитесь к [оболочке PowerShell центра & безопасности Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и введите следующую команду:
+1.  Подключитесь к [оболочке PowerShell центра & безопасности Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) и выполните следующую команду, чтобы сохранить регистр для обнаружения электронных данных:
 
     ```powershell
-    Get-RetentionCompliancePolicy  <policyname> - DistributionDetail | FL
+    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
+    ```
+
+    Для политики хранения выполните следующую команду:
+
+    ```powershell
+    Get-RetentionCompliancePolicy <policyname> - DistributionDetail | FL
     ```
 
 2. Проверьте значение параметра Дистрибутиондетаил на наличие ошибок, как показано ниже.
+ 
+   > Ошибка: Resources: для развертывания политики требуется больше времени, чем ожидалось. Для обновления состояния развертывания может потребоваться еще 2 часа, поэтому выполните проверку в течение нескольких часов. " 
+   
+3. Попробуйте выполнить параметр Ретридистрибутион для рассматриваемой политики:
+   
+    
+    Для дел eDiscovery содержит:
 
-   > Если ошибка существует, создайте укрупнение для PG, чтобы принудительно выполнить повторную синхронизацию вручную для политики.
+    ```powershell
+    Set-CaseHoldPolicy <policyname> -RetryDistribution
+    ```
 
-3. Обратитесь в службу поддержки корпорации Майкрософт.
+    Для политик хранения:
+
+    ```powershell
+    Set-RetentionCompliancePolicy <policyname> -RetryDistribution
+    ``` 
+
+4. Обратитесь в службу поддержки корпорации Майкрософт.
 
 ## <a name="see-also"></a>См. также
 

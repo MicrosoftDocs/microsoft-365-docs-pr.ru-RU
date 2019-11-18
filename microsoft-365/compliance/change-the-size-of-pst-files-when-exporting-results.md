@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: Вы можете изменить размер PST-файлов по умолчанию, которые будут загружаться на компьютер при экспорте результатов поиска обнаружения электронных данных.
-ms.openlocfilehash: 82a3d80cae04cd8d08b126c800ec2b4a1995f262
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b3bba45ce336b143ed948db384673f0a1a5a456f
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089854"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687498"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>Изменение размера PST-файлов при экспорте результатов поиска с обнаружением электронных данных
 
@@ -33,7 +33,7 @@ ms.locfileid: "37089854"
     
 2. Сохраните приведенный ниже текст в файле реестра Window с использованием суффикса имени файла reg; Например, Пстекспортсизе. reg. 
     
-    ```
+    ```text
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool]
     "PstSizeLimitInBytes"="1073741824"

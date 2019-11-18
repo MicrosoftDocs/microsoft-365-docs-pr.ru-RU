@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Узнайте, как администраторы могут использовать Exchange Online PowerShell и CSV-файл для массового импорта внешних контактов в глобальный список адресов.
-ms.openlocfilehash: 08fe7666f03c7fe60555133292be9e27a9ffa413
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 272223d9ab61b2c5ae17043cf4523d49da306de9
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089853"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687496"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Массовый импорт внешних контактов в Exchange Online
 
@@ -47,10 +47,10 @@ ms.locfileid: "37089853"
     > [!TIP]
     > Если в вашем языке есть специальные символы (например, **å**, **ä**и **ö** в шведском языке), сохраните CSV-файл в кодировке UTF-8 или другой кодировке Юникод при сохранении файла в блокноте. 
   
-    ```
+    ```text
     ExternalEmailAddress,Name,FirstName,LastName,StreetAddress,City,StateorProvince,PostalCode,Phone,MobilePhone,Pager,HomePhone,Company,Title,OtherTelephone,Department,CountryOrRegion,Fax,Initials,Notes,Office,Manager
     danp@fabrikam.com,Dan Park,Dan,Park,1234 23rd Ave,Golden,CO,80215,206-111-1234,303-900-1234,555-1212,123-456-7890,Fabrikam,Shipping clerk,555-5555,Shipping,US,123-4567,R.,Good worker,31/1663,Dan Park
-    pilar@contoso.com,Pilar Pinilla,Pilar,Pinilla,1234 Main St.,Seattle,WA,98017,206-555-0100,206-555-0101,206-555-0102,206-555-1234,Contoso,HR Manager,206-555-0104,Executive,US,206-555-0105,P.,Technical decision maker,31/1000,Dan Park 
+    pilar@contoso.com,Pilar Pinilla,Pilar,Pinilla,1234 Main St.,Seattle,WA,98017,206-555-0100,206-555-0101,206-555-0102,206-555-1234,Contoso,HR Manager,206-555-0104,Executive,US,206-555-0105,P.,Technical decision maker,31/1000,Dan Park
     ```
 
     В первой строке (строке заголовков) CSV-файла перечислены свойства контактов, которые можно использовать при импорте в Exchange Online. Каждое имя свойства отделяется запятыми. Каждая строка под строкой заголовков представляет значения свойств для импорта одного внешнего контакта. 
@@ -75,7 +75,7 @@ ms.locfileid: "37089853"
     
 3. Выполните следующую команду, чтобы создать внешние контакты:
 
-    ```
+    ```powershell
     Import-Csv .\ExternalContacts.csv|%{New-MailContact -Name $_.Name -DisplayName $_.Name -ExternalEmailAddress $_.ExternalEmailAddress -FirstName $_.FirstName -LastName $_.LastName}
     ```
 
@@ -86,7 +86,7 @@ ms.locfileid: "37089853"
     > [!TIP]
     > Инструкции по подключению к [центру администрирования Exchange находятся в центре администрирования Exchange в Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=328197). 
   
-5. При необходимости нажмите кнопку **Обновить** ![значок](media/O365-MDM-Policy-RefreshIcon.gif) обновления, чтобы обновить список и просмотреть импортированные внешние контакты. 
+5. При необходимости нажмите кнопку **Обновить** , чтобы обновить список и просмотреть внешние контакты, которые были импортированы. 
     
     Импортированные контакты будут отображаться в общей адресной книге Outlook и Outlook в Интернете.
     
@@ -103,12 +103,12 @@ ms.locfileid: "37089853"
     
 3. Выполните две следующие команды, чтобы добавить другие свойства из CSV-файла во внешние контакты, созданные в шаге 2.
     
-    ```
+    ```powershell
     $Contacts = Import-CSV .\ExternalContacts.csv
   
     ```
 
-    ```
+    ```powershell
     $contacts | ForEach {Set-Contact $_.Name -StreetAddress $_.StreetAddress -City $_.City -StateorProvince $_.StateorProvince -PostalCode $_.PostalCode -Phone $_.Phone -MobilePhone $_.MobilePhone -Pager $_.Pager -HomePhone $_.HomePhone -Company $_.Company -Title $_.Title -OtherTelephone $_.OtherTelephone -Department $_.Department -Fax $_.Fax -Initials $_.Initials -Notes  $_.Notes -Office $_.Office -Manager $_.Manager}
     ```
 
@@ -140,19 +140,19 @@ ms.locfileid: "37089853"
     
 2. Чтобы скрыть один внешний контакт, выполните следующую команду.
     
-    ```
+    ```powershell
     Set-MailContact <external contact> -HiddenFromAddressListsEnabled $true 
     ```
- 
+
     Например, чтобы скрыть Pilar Pinilla из общей адресной книги, выполните следующую команду:
 
-    ```
+    ```powershell
     Set-MailContact "Pilar Pinilla" -HiddenFromAddressListsEnabled $true
     ```
-   
+
 3. Чтобы скрыть все внешние контакты из общей адресной книги, выполните следующую команду:
 
-    ```
+    ```powershell
     Get-Contact -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'MailContact')} | Set-MailContact -HiddenFromAddressListsEnabled $true  
     ```
 

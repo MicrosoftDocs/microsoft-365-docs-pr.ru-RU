@@ -7,18 +7,20 @@ ms.date: 6/26/2018
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Сведения об автоматизации задач поиска контента, таких как создание поисковых запросов и выполнение отчетов с помощью скриптов PowerShell в центре безопасности & соответствия требованиям в Office 365.
-ms.openlocfilehash: 75caf75d576ac4a24779de15f5b05cb7fe8fa724
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 43f6046521ef121f52b2a5abe26d2cd6a322d22c
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089670"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687551"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>Создание и удаление нескольких поисков содержимого, а также получение отчетов по ним
 
@@ -42,7 +44,7 @@ ms.locfileid: "37089670"
   
 1. Скопируйте и вставьте приведенный ниже текст в текстовый файл с помощью блокнота. Сохраните этот файл в папку на локальном компьютере. Кроме того, вы также сохраните другие сценарии в этой папке.
     
-    ```
+    ```text
     ExchangeLocation,SharePointLocation,ContentMatchQuery,StartDate,EndDate
     sarad@contoso.onmicrosoft.com,https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com,(lawsuit OR legal),1/1/2000,12/31/2005
     sarad@contoso.onmicrosoft.com,https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com,(lawsuit OR legal),1/1/2006,12/31/2010
@@ -72,7 +74,7 @@ ms.locfileid: "37089670"
   
 1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс имени файла PS1; Пример: `ConnectSCC.ps1`. Сохраните файл в той же папке, в которой вы сохранили CSV-файл, на шаге 1.
     
-    ```
+    ```powershell
     # Get login credentials 
     $UserCredential = Get-Credential 
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
@@ -82,15 +84,15 @@ ms.locfileid: "37089670"
 
 2. На локальном компьютере откройте Windows PowerShell, перейдите к папке, в которой расположен скрипт, созданный на предыдущем шаге, и запустите его. Например:
     
-    ```
+    ```powershell
     .\ConnectSCC.ps1
     ```
-  
+
 ## <a name="step-3-run-the-script-to-create-and-start-the-searches"></a>Шаг 3: запуск скрипта для создания и запуска операций поиска
 
 Сценарий на этом шаге создаст отдельный поиск контента для каждой строки в CSV-файле, созданном на этапе 1. При выполнении этого сценария выводится приглашение указать два значения:
   
-- **Идентификатор группы поиска** — это имя обеспечивает простой способ упорядочения операций поиска, создаваемых из CSV-файла. Каждый созданный Поиск называется ИДЕНТИФИКАТОРом группы поиска, а затем к имени поиска добавляется номер. Например, если ввести **контосокасе** для идентификатора группы поиска, то поиск будет называться **ContosoCase_1**, **ContosoCase_2**, **ContosoCase_3**и т. д. Обратите внимание, что введенное имя задается с учетом регистра. При использовании идентификатора группы поиска на этапе 4 и 5 необходимо использовать тот же сценарий, что и при его создании. 
+- **Идентификатор группы поиска** — это имя обеспечивает простой способ упорядочения операций поиска, создаваемых из CSV-файла. Каждый созданный Поиск называется ИДЕНТИФИКАТОРом группы поиска, а затем к имени поиска добавляется номер. Например, если ввести **контосокасе** для идентификатора группы поиска, поиск будет называться **ContosoCase_1**, **ContosoCase_2**, **ContosoCase_3**и т. д. Обратите внимание, что введенное имя задается с учетом регистра. При использовании идентификатора группы поиска на этапе 4 и 5 необходимо использовать тот же сценарий, что и при его создании. 
     
 - **CSV-файл** — имя CSV-файла, созданного в шаге 1. Обязательно укажите полное имя файла, включая расширение CSV-файла; Пример: `ContosoCase.csv`.
     

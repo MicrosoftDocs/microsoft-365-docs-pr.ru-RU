@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ba85ef90570dfbf2228148bf5211a4b041a1cb61
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a6259d839dd9a0ca196bae37afe374d1d8f21d53
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089457"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38687437"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Расширенная индексация данных хранителя
 
@@ -29,14 +29,17 @@ ms.locfileid: "37089457"
 
 - [Поддерживаемые типы файлов в Advanced eDiscovery](supported-filetypes-ediscovery20.md)
 - [Частично индексированные элементы в средстве "Поиск контента" в Office 365](partially-indexed-items-in-content-search.md)
-- [Форматы файлов, индексируемые службой поиска Exchange](https://docs.microsoft.com/en-us/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
-- [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+- [Форматы файлов, индексируемые службой поиска Exchange](https://docs.microsoft.com/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
+- [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
 
 ## <a name="viewing-advanced-indexing-results"></a>Просмотр результатов расширенного индексирования
 
 После выполнения расширенного процесса индексирования можно получить сведения о эффективности повторной обработки.  В представлении индексирования хранитель на диаграмме перечислены все элементы, добавленные в *гибридный индекс*.  Гибридный индекс — там, где Advanced eDiscovery сохраняет повторно обработанное содержимое.
 
-На диаграмме также представлено количество элементов, для которых требуется исправление, и еще один график ошибок по типам файлов. Дополнительные сведения см. в разделе [Устранение ошибок при обработке данных](error-remediation.md).
+На диаграмме также представлено количество элементов, для которых требуется исправление, и еще один график ошибок по типам файлов. Подробнее:
+
+- [Исправление ошибок при обработке данных](error-remediation.md)
+- [Исправление ошибки одного элемента](single-item-error-remediation.md)
 
 ## <a name="updating-advanced-indexes-for-custodians"></a>Обновление расширенных индексов для custodians
 

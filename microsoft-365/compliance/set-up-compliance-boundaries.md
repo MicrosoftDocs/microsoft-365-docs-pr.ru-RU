@@ -10,17 +10,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: Используйте границы соответствия требованиям для создания логических границ в организации Office 365, которые управляют расположениями пользователей, которые диспетчер обнаружения электронных данных может выполнять поиск. Ограничения на соответствие требованиям — фильтрация разрешений на поиск (также называемая фильтрами безопасности соответствия) для управления почтовыми ящиками, сайтами SharePoint и учетными записями OneDrive для поиска определенных пользователей.
-ms.openlocfilehash: 1e87926910ad7dd356696368ad6759bfacfe37c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 13f45ce55f23d91a81068031691436383ec87ba3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090594"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687571"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Настройка границ соответствия для расследований дел обнаружения электронных данных в Office 365
 
@@ -106,10 +107,10 @@ ms.locfileid: "37090594"
   
 Ниже приведен синтаксис, который используется для создания фильтра разрешений поиска, используемого для границ соответствия требованиям.
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_<ComplianceAttribute>  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'" -Action <Action >
 ```
-  
+
 Ниже приведено описание каждого параметра в команде.
   
 -  `FilterName`: Задает имя фильтра. Используйте имя, описывающее или идентифицирующее агентство, в котором используется фильтр. 
@@ -135,13 +136,13 @@ New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -
   
  **Четвертый кофе**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_ComplianceAttribute -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL
 ```
-   
+
  **Coho Winery**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL
 ```
 
@@ -220,30 +221,30 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 Ниже приведены примеры использования параметра **Region** при создании фильтров разрешений поиска для границ соответствия требованиям. Предполагается, что Четвертый филиал компании находится в Северной Америке, а Coho Winery — в Европе. 
   
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_Department -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL -Region NAM
 ```
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_Department -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL -Region EUR
 ```
-   
+
 При поиске и экспорте контента в средах с поддержкой нескольких регионов учитывайте следующие моменты.
   
-- Параметр **Region** не управляет поиском в почтовых ящиках Exchange. При поиске в почтовых ящиках будут выполняться поиск во всех центрах обработки данных. Чтобы ограничить область поиска почтовых ящиков Exchange, используйте параметр **Filters** при создании или изменении фильтра разрешений поиска. 
+- Параметр **Регион** не управляет поиском в почтовых ящиках Exchange. При поиске в почтовых ящиках будут выполняться поиск во всех центрах обработки данных. Чтобы ограничить область поиска почтовых ящиков Exchange, используйте параметр **Filters** при создании или изменении фильтра разрешений поиска. 
     
 - Если диспетчер обнаружения электронных данных необходим для поиска в нескольких регионах SharePoint, необходимо создать другую учетную запись пользователя для этого диспетчера eDiscovery, чтобы указать область, в которой сайты SharePoint или OneDrive размещаются учетные записи. Дополнительные сведения об этом можно найти в разделе "Поиск содержимого в среде с поддержкой нескольких регионов SharePoint" в разделе [Поиск контента в Office 365](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment).
     
 - При поиске контента в SharePoint и OneDrive параметр **Region** указывает, что выполняется поиск в основном или вспомогательном расположении, в котором диспетчер обнаружения электронных данных будет проводить расследования обнаружения электронных данных. Если диспетчер обнаружения электронных данных выполняет поиск в сайтах SharePoint и OneDrive за пределами области, указанной в фильтре разрешений поиска, результаты поиска не возвращаются. 
     
-- При экспорте результатов поиска содержимое из всех расположений контента (включая Exchange, Skype для бизнеса, SharePoint, OneDrive и другие службы Office 365, которые можно искать с помощью средства поиска контента), передаются в расположение хранилища Azure в центр обработки данных, заданный параметром **Region** . Это помогает организациям оставаться в пределах соответствия требованиям, не позволяя экспортировать контент через контролируемые границы. Если в фильтре разрешений поиска область не указана, содержимое будет отправлено в область по умолчанию для Организации. 
+- При экспорте результатов поиска содержимое из всех расположений контента (включая Exchange, Skype для бизнеса, SharePoint, OneDrive и другие службы Office 365, которые можно выполнять поиск с помощью средства поиска контента), передаются в расположение хранилища Azure в центре данных, заданном параметром **Region** . Это помогает организациям оставаться в пределах соответствия требованиям, не позволяя экспортировать контент через контролируемые границы. Если в фильтре разрешений поиска область не указана, содержимое будет отправлено в область по умолчанию для Организации. 
     
 - Вы можете изменить существующий фильтр разрешений поиска, чтобы добавить или изменить область, выполнив следующую команду:
 
-    ```
+    ```powershell
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
- 
+
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
  **Кто может создавать фильтры разрешений поиска и управлять ими (с помощью командлетов New-ComplianceSecurityFilter и Set-ComplianceSecurityFilter)?**

@@ -1,5 +1,5 @@
 ---
-title: Восстановление неактивного почтового ящика в Office 365
+title: Возврат неактивного почтового ящика в Office 365
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: 'Если первый сотрудник возвращается в организацию, или если новый сотрудник применяет ответственность за обязанности сотрудника, вы можете восстановить содержимое неактивного почтового ящика в Office 365. При восстановлении неактивного почтового ящика он преобразуется в новый почтовый ящик, содержащий содержимое неактивного почтового ящика. '
-ms.openlocfilehash: be7935472363e406a978c09f926776e69c3024fe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9caa5d8f8c44ee5a916129e7f181532c8c0dd1a2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091353"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687579"
 ---
-# <a name="recover-an-inactive-mailbox-in-office-365"></a>Восстановление неактивного почтового ящика в Office 365
+# <a name="recover-an-inactive-mailbox-in-office-365"></a>Возврат неактивного почтового ящика в Office 365
 
 Неактивный почтовый ящик (тип обратимо удаленного почтового ящика) используется для сохранения электронной почты бывшего сотрудника после ухода из организации. Если этот сотрудник возвращается в вашу организацию или если другой сотрудник занимается должностными обязанностями бывшего сотрудника, существует два способа сделать содержимое неактивного почтового ящика доступным для пользователя: 
   
@@ -40,7 +40,7 @@ ms.locfileid: "37091353"
     
 - Выполните следующую команду, чтобы отобразить сведения о неактивных почтовых ящиках в организации. 
 
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly | FL Name,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
     ```
 
@@ -54,16 +54,16 @@ ms.locfileid: "37091353"
   
 1. Создайте переменную, содержащую свойства неактивного почтового ящика. 
     
-    ```
+    ```powershell
     $InactiveMailbox = Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox>
     ```
-   
+
     > [!IMPORTANT]
     > В предыдущей команде используйте значение свойства **DistinguishedName** или **ExchangeGUID** для определения неактивного почтового ящика. Эти свойства уникальны для каждого почтового ящика в организации, тогда как у активного и неактивного почтового ящика может быть один и тот же основной SMTP-адрес. 
   
 2. В этом примере используются свойства, полученные в предыдущей команде, а неактивный почтовый ящик восстанавливается в активный почтовый ящик пользователя Ann Beebe. Убедитесь, что значения, указанные для параметров *Name* и *MicrosoftOnlineServicesID* , уникальны в пределах вашей организации. 
 
-    ```
+    ```powershell
     New-Mailbox -InactiveMailbox $InactiveMailbox.DistinguishedName -Name annbeebe -FirstName Ann -LastName Beebe -DisplayName "Ann Beebe" -MicrosoftOnlineServicesID Ann.Beebe@contoso.com -Password (ConvertTo-SecureString -String 'P@ssw0rd' -AsPlainText -Force) -ResetPasswordOnNextLogon $true
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "37091353"
     
 - **Как узнать, истек ли срок хранения обратимо удаленного неактивного почтового ящика?** Выполните следующую команду. 
     
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL ExternalDirectoryObjectId
   ```
 

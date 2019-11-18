@@ -7,17 +7,19 @@ ms.date: 1/3/2017
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: Используйте поиск контента и сценарий, описанный в этой статье, для поиска группы пользователей в почтовых ящиках и на сайтах OneDrive для бизнеса.
-ms.openlocfilehash: 9c8de90f8d2faee73ba269466f90478bc72b708e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 02b89646fdb4175d30dce8840ac069f62995cbbc
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090747"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687510"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>Использование поиска содержимого для поиска списка пользователей в почтовом ящике и на сайте OneDrive для бизнеса
 
@@ -45,7 +47,7 @@ ms.locfileid: "37090747"
   
 Ниже приведена команда [PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=517283) , которую можно рунт, чтобы получить список адресов электронной почты для всех пользователей в Организации и сохранить его в текстовом файле с именем `Users.txt`. 
   
-```
+```powershell
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > Users.txt
 ```
 
@@ -70,7 +72,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс имени файла PS1; Пример: `SearchEXOOD4B.ps1`. Сохраните файл в ту же папку, в которой вы сохранили список пользователей, указанных в шаге 2.
     
-  ```
+  ```powershell
   # This PowerShell script will prompt you for the following information:
   #    * Your user credentials 
   #    * The name of your organization's MySite domain                                              
@@ -106,7 +108,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
       }
   }
   # Load the SharePoint assemblies from the SharePoint Online Management Shell
-  # To install, go to http://go.microsoft.com/fwlink/p/?LinkId=255251
+  # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
   if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
   {
       $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
@@ -114,7 +116,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
       $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
       if (!$SharePointClient)
       {
-          Write-Error "SharePoint Online Management Shell isn't installed, please install from: http://go.microsoft.com/fwlink/p/?LinkId=255251 and then run this script again"
+          Write-Error "SharePoint Online Management Shell isn't installed, please install from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then run this script again"
           return;
       }
   }
@@ -164,7 +166,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 3. Запустите сценарий; Например:
     
-    ```
+    ```powershell
     .\SearchEXOOD4B.ps1
     ```
 
@@ -180,4 +182,4 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
     - Поисковый запрос (оставьте это поле пустым, чтобы возвратить все элементы в расположениях контента).
     
-    Сценарий получает URL-адреса для каждого сайта OneDrive для бизнеса, а затем создает и запускает поиск. Вы можете запустить командлет **Get-ComplianceSearch** в консоли безопасности & центра соответствия требованиям, чтобы отобразить статистику и результаты поиска, или можно перейти на страницу **поиска содержимого** в центре безопасности & соответствия требованиям для просмотра сведений о поиске. 
+    Сценарий получает URL-адреса для каждого сайта OneDrive для бизнеса, а затем создает и запускает поиск. Вы можете запустить командлет **Get-ComplianceSearch** в консоли безопасности & центра соответствия требованиям, чтобы отобразить статистику и результаты поиска, или можно перейти на страницу **поиска содержимого** в центре безопасности & соответствия для просмотра сведений о поиске. 

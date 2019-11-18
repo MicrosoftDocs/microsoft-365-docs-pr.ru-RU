@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью отчетов DLP в Office 365 вы можете быстро просмотреть количество совпадений политики защиты от потери данных, переопределений или ложных срабатываний. Проверьте, не заходите ли они вверх или вниз по времени; отфильтровать отчет различными способами; и просмотрите дополнительные сведения, выбрав точку на линии на диаграмме.
-ms.openlocfilehash: f3161854a19f9f9a04390eec508ae43e92119f96
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 94569ef24814204263820fb5fdb7a8cb72da20e4
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090855"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687373"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>Просмотр отчетов о защите от потери данных
 
@@ -85,18 +85,18 @@ ms.locfileid: "37090855"
 
 Чтобы использовать большинство командлетов для центра обеспечения безопасности &amp; , необходимо:
   
-1. [Подключитесь к Центру безопасности и соответствия требованиям Office 365 с помощью удаленного сеанса PowerShell](http://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409).
+1. [Подключитесь к Центру безопасности и соответствия требованиям Office 365 с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409).
     
-2. Используйте любой из этих [командлетов центра &amp; безопасности и соответствия требованиям Office 365](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
+2. Используйте любой из этих [командлетов центра &amp; безопасности и соответствия требованиям Office 365](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)
     
 Однако отчеты DLP требуют извлечения данных из Office 365, в том числе Exchange Online. По этой причине командлеты для отчетов DLP доступны в Exchange Online PowerShell, а не в интерфейсе PowerShell &amp; центра соответствия требованиям безопасности. Таким образом, чтобы использовать командлеты для отчетов DLP, необходимо выполнить следующие действия:
   
-1. [Connect to Exchange Online using remote PowerShell](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
+1. [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
     
 2. Используйте любой из этих командлетов для отчетов о защите от потери данных:
     
-      - [Get — DlpDetectionsReport](http://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
+      - [Get — DlpDetectionsReport](https://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
     
-      - [Get — DlpDetailReport](http://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
+      - [Get — DlpDetailReport](https://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
     
 

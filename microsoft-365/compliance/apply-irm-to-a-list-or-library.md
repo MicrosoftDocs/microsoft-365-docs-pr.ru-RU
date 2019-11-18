@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: С помощью управления правами на доступ к данным (IRM) можно управлять файлами, загруженными из списков или библиотек, и защищать их.
-ms.openlocfilehash: 3c350a3648b77992dd8e86ee47498efc327b2af8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 82cbbf7fdea4a534c2bc73bf0f817d6fc3a249de
+ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089937"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687481"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Применение управления правами на доступ к данным (IRM) к списку или библиотеке
 

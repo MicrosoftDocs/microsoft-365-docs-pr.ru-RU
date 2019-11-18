@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: Отредактируйте реестр Windows на локальном компьютере, чтобы отключить отчеты при экспорте результатов поиска контента из центра безопасности & соответствия требованиям в Office 365. Отключение этих отчетов может ускорить загрузку и сэкономить место на диске.
-ms.openlocfilehash: f6abcf8afe70bc6ce04f0f9343e28879f7fed885
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f9b999eaf3f1924012c9d4899b0e234f0893fc2c
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089533"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687541"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>Отключение отчетов при экспорте результатов поиска контента
 
@@ -34,7 +34,7 @@ ms.locfileid: "37089533"
     
       Сохраните приведенный ниже текст в файле реестра Windows, используя суффикс имени файла. reg; Например, Дисаблересултсксв. reg.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d False 
       ```
@@ -43,7 +43,7 @@ ms.locfileid: "37089533"
     
       Сохраните приведенный ниже текст в файле реестра Windows, используя суффикс имени файла. reg; Например, Дисаблеманифестксмл. reg.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultEdrmEnabled /t REG_SZ /d False 
       ```
@@ -68,7 +68,7 @@ ms.locfileid: "37089533"
     
         Откройте файл Дисаблересултсксв. reg в блокноте, измените значение `False` на `True`, а затем сохраните файл. Например, после редактирования файла он выглядит следующим образом:
     
-        ```
+        ```text
         Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d True
         ```
@@ -77,7 +77,7 @@ ms.locfileid: "37089533"
     
         Откройте файл Дисаблеманифестксмл. reg в блокноте, измените значение `False` на `True`, а затем сохраните файл. Например, после редактирования файла он выглядит следующим образом:
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultEdrmEnabled /t REG_SZ /d True
       ```
@@ -91,7 +91,6 @@ ms.locfileid: "37089533"
     Редактор реестра выводит сообщение о том, что параметр был успешно добавлен в реестр.
   
 ## <a name="frequently-asked-questions-about-disabling-export-reports"></a>Часто задаваемые вопросы об отключении отчетов об экспорте
-<a name="faqs"> </a>
 
  **Что такое отчеты Results. csv и manifest. XML?**
   

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Для администраторов: удаление элементов из папки "элементы с возможностью восстановления" для почтового ящика Exchange Online, даже если этот почтовый ящик размещен на удержании по юридическим причинам. Это эффективный способ удаления данных, которые были случайно перенесены в Office 365.'
-ms.openlocfilehash: 9da469af900c2610762338029aa80d31c7f10363
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1954ac4db8b978b0b1c3cdc8cee080cc0f0e6c22
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070738"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687544"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Удаление элементов из папки "элементы с возможностью восстановления" в облачных почтовых ящиках в справке для удержания
 
@@ -71,7 +71,7 @@ ms.locfileid: "37070738"
     
 2. Выполните следующую команду, чтобы получить сведения об использовании восстановления отдельных элементов и периода хранения удаленных элементов.
 
-    ```
+    ```powershell
     Get-Mailbox <username> | FL SingleItemRecoveryEnabled,RetainDeletedItemsFor
     ```
 
@@ -79,7 +79,7 @@ ms.locfileid: "37070738"
     
 3. Выполните следующую команду, чтобы получить параметры доступа к почтовому ящику для почтового ящика. 
     
-    ```
+    ```powershell
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
 
@@ -87,7 +87,7 @@ ms.locfileid: "37070738"
     
 4. Выполните следующую команду, чтобы получить сведения о удержаниях и политиках хранения Office 365, применяемых к почтовому ящику.
     
-    ```
+    ```powershell
     Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
     ```
 
@@ -97,9 +97,10 @@ ms.locfileid: "37070738"
   
 5. Выполните следующую команду, чтобы получить сведения о политиках хранения Office 365 для всей Организации. 
 
-    ```
+    ```powershell
     Get-OrganizationConfig | FL InPlaceHolds
     ```
+   
    Если в Организации есть политики хранения Office 365 на уровне Организации, необходимо исключить почтовый ящик из этих политик на шаге 3.
 
    > [!TIP]
@@ -107,7 +108,7 @@ ms.locfileid: "37070738"
   
 6. Выполните следующую команду, чтобы получить текущий размер и общее количество элементов в папках и вложенных папках в папке "элементы с возможностью восстановления" в основном почтовом ящике пользователя. 
 
-    ```
+    ```powershell
     Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
     ```
 
@@ -138,19 +139,19 @@ ms.locfileid: "37070738"
     ```   
     Set-CASMailbox <username> -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
     ```
-   
+
    > [!NOTE]
     > Отключение всех методов клиентского доступа к почтовому ящику может занять до 60 минут. Обратите внимание, что отключение этих методов доступа не отключит владельца почтового ящика, в котором они вошли в систему. Если владелец не вошел в систему, он не сможет получить доступ к своему почтовому ящику после отключения этих методов доступа. 
   
 2. Выполните следующую команду, чтобы увеличить срок хранения удаленных элементов максимум 30 дней. Предполагается, что текущее значение меньше 30 дней. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -RetainDeletedItemsFor 30
     ```
 
 3. Выполните следующую команду, чтобы отключить восстановление отдельных элементов.
     
-    ```
+    ```powershell
     Set-Mailbox <username> -SingleItemRecoveryEnabled $false
     ```
 
@@ -159,7 +160,7 @@ ms.locfileid: "37070738"
   
 4. Выполните следующую команду, чтобы предотвратить обработку почтового ящика помощником для управляемых папок. Как было сказано ранее, помощник для управляемых папок можно отключить только в том случае, если к почтовому ящику не применяется политика хранения Office 365 с блокировкой сохранения. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $true
     ```
 
@@ -174,7 +175,7 @@ ms.locfileid: "37070738"
   
 Выполните следующую команду в Exchange Online PowerShell, чтобы удалить удержание для судебного разбирательства из почтового ящика.
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $false
 ```
 
@@ -186,31 +187,31 @@ Set-Mailbox <username> -LitigationHoldEnabled $false
   
 Выполните следующую команду в Exchange Online PowerShell, чтобы определить удержание на месте, которое размещено в почтовом ящике. Используйте GUID для хранения на месте, определенного в действии 1. 
 
-```
+```powershell
 Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
 ```
-   
+
 Определив удержание на месте, вы можете удалить почтовый ящик из удержания с помощью центра администрирования Exchange или Exchange Online PowerShell. Дополнительные сведения см. [в статье Создание или удаление удержания на месте](https://go.microsoft.com/fwlink/?linkid=852668).
   
  ### <a name="office-365-retention-policies-applied-to-specific-mailboxes"></a>Политики хранения Office 365, применяемые к определенным почтовым ящикам
   
 Выполните следующую команду в [PowerShell центра безопасности & соответствия требованиям](https://go.microsoft.com/fwlink/?linkid=627084) , чтобы определить политику хранения Office 365, применяемую к почтовому ящику. Используйте GUID (не включая `mbx` `skp` префикс) для политики хранения, определенной на шаге 1. 
 
-```
+```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
-   
+
 Определив политику хранения, перейдите на страницу " **Хранение** управления **датой** \> " в центре безопасности & соответствия требованиям, измените политику хранения, определенную на предыдущем шаге, и удалите почтовый ящик из списка получателей, включенных в политику хранения. 
   
  ### <a name="organization-wide-office-365-retention-policies"></a>Политики хранения Office 365 на уровне Организации
   
 Политики хранения Office 365 на уровне Организации и Exchange применяются ко всем почтовым ящикам в Организации. Они применяются на уровне Организации (не на уровне почтового ящика) и возвращаются при выполнении командлета **Get-OrganizationConfig** на этапе 1. Выполните следующую команду в [PowerShell центра безопасности & соответствия требованиям](https://go.microsoft.com/fwlink/?linkid=627084) , чтобы определить политики хранения Office 365 для всей Организации. Используйте идентификатор GUID (не включая `mbx` префикс) для политик хранения на уровне Организации, определенных на этапе 1. 
 
-```
+```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-Определив политики хранения Office 365 в масштабах всей Организации, перейдите на страницу " **Управление** \> датами **хранения** " в центре безопасности & соответствия требованиям, измените каждую политику хранения на уровне Организации, определенную в разделе предыдущий шаг и добавьте почтовый ящик в список исключенных получателей. Это приведет к удалению почтового ящика пользователя из политики хранения. 
+Определив политики хранения Office 365 на уровне Организации, перейдите на страницу **хранения** управления **датой** \> в центре безопасности & соответствия требованиям, измените каждую политику хранения на уровне Организации, определенную на предыдущем шаге, и добавьте почтовый ящик в список исключенных получателей. Это приведет к удалению почтового ящика пользователя из политики хранения. 
 
 ### <a name="office-365-retention-labels"></a>Метки хранения Office 365
 
@@ -218,7 +219,7 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 
 Чтобы просмотреть значение свойства *комплианцетагхолдапплиед* , выполните следующую команду в Exchange Online PowerShell:
 
-```
+```powershell
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
@@ -230,15 +231,15 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
   
 Выполните следующие команды в консоли [безопасности & соответствия требованиям PowerShell](https://go.microsoft.com/fwlink/?linkid=627084) , чтобы определить удержание, связанное с вариантом обнаружения электронных данных, который применяется к почтовому ящику. Используйте GUID (не включая `UniH` префикс) для удержания обнаружения электронных данных, определенного в действии 1. Обратите внимание, что во второй команде отображается имя случая обнаружения электронных данных, с которым связана удержание. Третья команда отображает имя удержания. 
   
-```
+```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
 ```
 
-```
+```powershell
 Get-ComplianceCase $CaseHold.CaseId | FL Name
 ```
 
-```
+```powershell
 $CaseHold.Name
 ```
 
@@ -250,7 +251,7 @@ $CaseHold.Name
 
 Прежде чем удалять элементы на шаге 5, необходимо удалить их из почтового ящика. Сначала определите, применяется ли задержка хранения к почтовому ящику, выполнив следующую команду в Exchange Online PowerShell:
 
-```
+```powershell
 Get-Mailbox <username> | FL DelayHoldApplied
 ```
 
@@ -258,9 +259,10 @@ Get-Mailbox <username> | FL DelayHoldApplied
 
 Если для свойства *делайхолдапплиед* задано значение **true**, выполните следующую команду, чтобы удалить отложенную блокировку:
 
-```
+```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
+
 Обратите внимание, что для использования параметра *ремоведелайхолдапплиед* необходимо назначить роль юридического удержания в Exchange Online.
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>Шаг 5: удаление элементов из папки "элементы с возможностью восстановления"
@@ -284,7 +286,7 @@ Set-Mailbox <username> -RemoveDelayHoldApplied
 
 В этом примере показано, как скопировать все элементы из папки "элементы с возможностью восстановления" пользователя в папку почтового ящика поиска обнаружения в Организации. Это позволяет просматривать элементы перед их окончательным удалением.
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>"
 ```
 
@@ -294,15 +296,15 @@ Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox
 
 В этом примере показано, как скопировать все элементы из папки "элементы с возможностью восстановления" пользователя в папку почтового ящика поиска обнаружения и затем удалить их из папки "элементы с возможностью восстановления" пользователя.
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>" -DeleteContent
 ```
- 
+
 ### <a name="example-3"></a>Пример 3
 
 В этом примере удаляются все элементы в папке "элементы с возможностью восстановления", не копируя их в целевой почтовый ящик. 
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
 ```
 
@@ -312,41 +314,41 @@ Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
   
 В этом примере возвращаются сообщения, содержащие определенную фразу в поле Subject.
   
-```
+```powershell
 SearchQuery 'subject:"MAIL_BOX VALIDATION/UPGRADE!!!"' 
 ```
 
 В этом примере возвращаются сообщения, отправленные в указанный диапазон дат.
   
-```
+```powershell
 SearchQuery 'sent>=06/01/2016 AND sent<=09/01/2016'
 ```
- 
+
 В этом примере возвращаются сообщения, отправленные указанному пользователю.
 
-```
+```powershell
 SearchQuery 'to:garthf@alpinehouse.com'
 ```
-   
+
 ### <a name="verify-that-items-were-deleted"></a>Проверка того, что элементы были удалены
 
 Чтобы убедиться, что вы успешно удалили элементы из папки "элементы с возможностью восстановления" почтового ящика, используйте командлет **Get-MailboxFolderStatistics** в Exchange Online PowerShell, чтобы проверить размер и количество элементов в папке "элементы с возможностью восстановления". Вы можете сравнить статистику с теми, которые были собраны на шаге 1. 
   
 Выполните следующую команду, чтобы получить текущий размер и общее количество элементов в папках и вложенных папках в папке "элементы с возможностью восстановления" в основном почтовом ящике пользователя. 
   
-```
+```powershell
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
-   
+
 Выполните следующую команду, чтобы получить размер и общее количество элементов в папках и вложенных папках в папке "элементы с возможностью восстановления" в архивном почтовом ящике пользователя. 
 
-```
+```powershell
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
-  
+
 ## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>Шаг 6: возврат к предыдущему состоянию почтового ящика
 
-Последним шагом будет возврат к предыдущей конфигурации почтового ящика. Это означает, что вы переопределяете свойства, измененные в шаге 2, и повторно примените удержания, которые вы удалили на шаге 3. Это включает:
+Последним шагом будет возврат к предыдущей конфигурации почтового ящика. Это означает, что вы переопределяете свойства, измененные в шаге 2, и повторно примените удержания, которые вы удалили на шаге 3. К ним относятся:
   
 - Возврат к предыдущему значению срока хранения удаленного элемента. Кроме того, можно просто оставить это значение 30 дней, максимальное значение в Exchange Online.
     
@@ -365,29 +367,29 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | 
   
 1. Выполните следующую команду, чтобы вернуться к исходному значению срока хранения удаленного элемента. Предполагается, что предыдущее значение меньше 30 дней; Например, 14 дней. 
     
-    ```
+    ```powershell
     Set-Mailbox <username> -RetainDeletedItemsFor 14
     ```
-   
+
 2. Выполните следующую команду, чтобы снова включить восстановление отдельных элементов.
    
-    ```
+    ```powershell
     Set-Mailbox <username> -SingleItemRecoveryEnabled $true
     ```
 
 3. Выполните следующую команду, чтобы снова включить все методы клиентского доступа к почтовому ящику.
     
-    ```
+    ```powershell
     Set-CASMailbox <username> -EwsEnabled $true -ActiveSyncEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
     ```
-   
+
 4. Повторно примените удержания, которые вы удалили на шаге 3. В зависимости от типа удержания используйте одну из следующих процедур.
     
     **Судебное удержание**
     
     Выполните следующую команду, чтобы снова включить удержание для судебного разбирательства для почтового ящика.
     
-    ```
+    ```powershell
     Set-Mailbox <username> -LitigationHoldEnabled $true
     ```
 
@@ -409,20 +411,20 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | 
     
 5. Выполните следующую команду, чтобы разрешить помощнику для управляемых папок повторно обработать почтовый ящик. Как было сказано ранее, мы рекомендуем подождать 24 часа после повторного применения политики хранения или политики хранения Office 365 (и проверить, что она находится на месте) до повторного включения помощника для управляемых папок. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $false
     ```
-   
+
 6. Чтобы убедиться, что почтовый ящик возвращен в предыдущую конфигурацию, можно выполнить следующие команды, а затем сравнить параметры с теми, которые были собраны на шаге 1.
 
-    ```
+    ```powershell
     Get-Mailbox <username> | FL ElcProcessingDisabled,InPlaceHolds,LitigationHoldEnabled,RetainDeletedItemsFor,SingleItemRecoveryEnabled
     ```
 
-    ```
+    ```powershell
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
-  
+
 ## <a name="more-information"></a>Дополнительные сведения
 
 Ниже приведена таблица, в которой описывается, как определить различные типы удержаний на основе значений в свойстве *InPlaceHolds* при запуске командлетов **Get-Mailbox** или **Get-OrganizationConfig** . Более подробную информацию можно узнать в статье [как определить тип удержания, размещенного в почтовом ящике Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md).

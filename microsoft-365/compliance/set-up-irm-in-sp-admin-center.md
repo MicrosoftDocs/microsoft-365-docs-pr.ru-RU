@@ -7,22 +7,24 @@ ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 search.appverid:
 - SPO160
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: 6fc51eaaf7f5d5d22167d10ab70d45dbf03cc6d2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4ed50b5c683215394222628153c03c58ee23e6a0
+ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090593"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687479"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
-## <a name="introduction"></a>Общие сведения
+## <a name="introduction"></a>Введение
 
 В SharePoint Online защита IRM применяется к файлам на уровне списка и библиотеки. Прежде чем ваша организация сможет использовать защиту IRM, сначала необходимо настроить управление правами. Служба управления правами на доступ к данным Azure использует службу управления правами Azure из Azure Information Protection для шифрования и назначения ограничений на использование. Некоторые планы Office 365 включают в себя управление правами Azure, но не все. Чтобы узнать больше, прочитайте [о том, как приложения и службы Office поддерживают управление правами Azure](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support).
   

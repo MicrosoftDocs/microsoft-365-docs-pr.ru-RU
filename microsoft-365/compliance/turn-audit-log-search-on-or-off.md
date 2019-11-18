@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: Вы можете включить функцию поиска журнала аудита в центре безопасности & соответствия требованиям. Если вы передумали, вы можете включить его в любое время. Если поиск в журнале аудита отключен, администраторы не могут выполнять поиск действий пользователей и администраторов в журнале аудита Office 365 в Организации.
-ms.openlocfilehash: 83ef355c4acd5e0af4fd7ffbf13157307bcac930
-ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
+ms.openlocfilehash: 4e382c9916a9460d2c837a336607734427416a1a
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37334249"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687563"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Включение и отключение поиска в журнале аудита Office 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "37334249"
     > [!IMPORTANT]
     > Пользователям необходимо назначить разрешения в Exchange Online, чтобы включить или отключить поиск в журнале аудита. Если вы назначили пользователям роль "журналы аудита" на странице " **разрешения** " центра безопасности & соответствия требованиям, они не смогут включать или отключать поиск в журнале аудита. Это вызвано тем, что базовый командлет является командлетом Exchange Online. 
   
-- Если вы отключите Поиск журнала аудита в Office 365, вы не сможете использовать API действий управления Office 365 для доступа к данным аудита в Организации. Отключение поиска в журнале аудита с помощью действий, описанных в этой статье, означает, что при поиске в журнале аудита с помощью центра безопасности & соответствия требованиям или при запуске командлета **Search-UnifiedAuditLog** в Exchange Online PowerShell не будет возвращено никаких результатов . Это также означает, что журналы аудита не будут доступны через API действий управления Office 365.  
+- Если вы отключите Поиск журнала аудита в Office 365, вы не сможете использовать API действий управления Office 365 для доступа к данным аудита в Организации. Чтобы отключить поиск в журнале аудита, выполнив действия, описанные в этой статье, это означает, что при поиске в журнале аудита с помощью центра безопасности & соответствия требованиям или при запуске командлета **Search-UnifiedAuditLog** в Exchange Online PowerShell не будет возвращено никаких результатов. Это также означает, что журналы аудита не будут доступны через API действий управления Office 365.  
     
 - Пошаговые инструкции по поиску в журнале аудита Office 365 можно узнать в статье [Поиск в журнале аудита в центре безопасности & соответствия требованиям](search-the-audit-log-in-security-and-compliance.md).
     
@@ -61,7 +61,7 @@ ms.locfileid: "37334249"
     
 2. Выполните следующую команду PowerShell, чтобы включить поиск журнала аудита в Office 365.
     
-    ```
+    ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
     ```
 
@@ -75,7 +75,7 @@ ms.locfileid: "37334249"
     
 2. Выполните следующую команду PowerShell, чтобы отключить поиск в журнале аудита в Office 365.
     
-    ```
+    ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
     ```
 
@@ -83,12 +83,12 @@ ms.locfileid: "37334249"
     
     - В PowerShell выполните следующую команду:
 
-            ```
-            Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
-            ```
+    ```powershell
+    Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+    ```
 
-           The value of  `False` for the  _UnifiedAuditLogIngestionEnabled_ property indicates that audit log search is turned off. 
+      Значение `False` свойства _унифиедаудитлогинжестионенаблед_ указывает на то, что поиск журнала аудита отключен. 
     
     - В центре безопасности & соответствия требованиям выберите Поиск в **** \> **журнале аудита**поиска.
     
-           A banner is displayed saying that auditing has to be turned on in order to record user and admin activity.
+      Отображается баннер, в котором необходимо включить аудит для записи действий пользователей и администраторов.

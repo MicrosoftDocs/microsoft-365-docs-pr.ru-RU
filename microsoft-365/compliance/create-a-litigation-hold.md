@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-ms.openlocfilehash: e6201fc938f7481a524a8d3c4171d4c1b67997e9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 720381c067ba17614df253ffdf0543821a0bf192
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089724"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687505"
 ---
 # <a name="create-a-litigation-hold"></a>Создание запроса на хранение для судебного разбирательства
 
@@ -64,17 +64,17 @@ ms.locfileid: "37089724"
 
 Вы также можете создать удержание для судебного разбирательства, выполнив следующую команду в [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell):
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true
 ```
 
 В предыдущей команде сохраняются неограниченные элементы, так как срок хранения не указан. Чтобы создать удержание на основе времени, используйте следующую команду:
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-Дополнительные сведения см. в разделе [Set/Mailbox](https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/set-mailbox).
+Дополнительные сведения см. в разделе [Set/Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
 
 ## <a name="how-does-litigation-hold-work"></a>Как работает хранение для судебного разбирательства?
 
