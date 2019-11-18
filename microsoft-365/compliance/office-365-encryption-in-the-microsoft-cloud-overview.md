@@ -14,12 +14,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: Общие сведения о шифровании в Microsoft Cloud.
-ms.openlocfilehash: 36bb50cda5f39461401b14ca3e7ada77a6e2cc0d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1ca3d1711589ab2d65a27a8d1eeb6da265ce727b
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091061"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38690887"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Шифрование в Microsoft Cloud
 
@@ -27,11 +27,11 @@ ms.locfileid: "37091061"
 
 Независимо от конфигурации клиента, данные клиентов, хранящиеся в корпоративных облачных службах Майкрософт, защищаются с помощью одной или нескольких форм шифрования. (Проверка политики шифрования и ее принудительное выполнение независимо проверяются несколькими сторонними аудиториями, а отчеты об этих аудитах доступны на [портале доверия службы](https://aka.ms/stp).)
 
-Корпорация Майкрософт предоставляет технологии на стороне обслуживания, которые шифруют данные клиентов на месте и в транзитном месте. Например, для данных клиента, Microsoft Azure использует [BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) и [DM-](https://en.wikipedia.org/wiki/Dm-crypt)Encryption, а Microsoft Office 365 использует BitLocker, [Шифрование службы хранилища Azure](https://azure.microsoft.com/documentation/articles/storage-service-encryption/), [Диспетчер распределенных ключей](https://support.office.com/article/989ba10c-f73f-4efb-ad1b-af3322e5f376) (DKM) и службу Office 365. шифрования. Для данных клиентов в транзитном, Azure, Office 365, Microsoft Dynamics 365, Microsoft Power BI и Visual Studio Team Services используются стандартные безопасные протоколы транспорта, такие как безопасность протокола IP (IPsec) и Протокол TLS (Transport Layer Security), между центрами обработки данных Майкрософт и устройствами пользователя и центрами обработки данных Майкрософт.
+Корпорация Майкрософт предоставляет технологии на стороне обслуживания, которые шифруют данные клиентов на месте и в транзитном месте. Например, для данных клиента, Microsoft Azure использует [BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) и [DM-](https://en.wikipedia.org/wiki/Dm-crypt)Encryption, а Microsoft Office 365 использует BitLocker, [Шифрование службы хранилища Azure](https://azure.microsoft.com/documentation/articles/storage-service-encryption/), [Диспетчер распределенных ключей](https://support.office.com/article/989ba10c-f73f-4efb-ad1b-af3322e5f376) (DKM) и шифрование службы Office 365. Для данных клиентов в транзитном, Azure, Office 365, Microsoft Dynamics 365, Microsoft Power BI и Visual Studio Team Services используются стандартные безопасные протоколы транспорта, такие как безопасность протокола IP (IPsec) и Протокол TLS (Transport Layer Security), между центрами обработки данных Майкрософт и устройствами пользователя и центрами обработки данных Майкрософт.
 
 Помимо базового уровня криптографической безопасности, предоставляемого корпорацией Майкрософт, наши облачные службы также включают дополнительные параметры криптографии, которыми вы можете управлять. Например, вы можете включить шифрование трафика между виртуальными машинами Azure (ВМ) и их пользователями. С помощью [виртуальных сетей Azure](https://azure.microsoft.com/services/virtual-network/)можно использовать стандартный протокол IPsec для шифрования трафика между корпоративным VPN-шлюзом и Azure, а также между виртуальными машинами, расположенными в виртуальной сети. Кроме того, [новые возможности шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md) позволяют отправлять зашифрованные сообщения всем пользователям.
 
-В соответствии со стандартным стандартом безопасности инфраструктуры открытых ключей, который является компонентом [политики безопасности Майкрософт](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5868ecc8-50b7-4f91-b43f-640e2b99e86e&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers), корпорация Майкрософт использует возможности шифрования, включенные в операционную систему Windows для сертификатов и механизмы проверки подлинности, включающие использование криптографических модулей, соответствующих [Федеральному стандарту федеральной обработки информации](http://csrc.nist.gov/publications/PubsFIPS.html) США (FIPS) 140-2 Standard. (Важные номера сертификатов NIST для Майкрософт можно найти по адресу:http://csrc.nist.gov/groups/STM/cmvp/documents/140-1/1401vend.htm.)
+В соответствии со стандартным стандартом безопасности инфраструктуры открытых ключей, который является компонентом [политики безопасности Майкрософт](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5868ecc8-50b7-4f91-b43f-640e2b99e86e&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers), корпорация Майкрософт использует возможности шифрования, включенные в операционную систему Windows для сертификатов и механизмов проверки подлинности, в том числе использование криптографических модулей, соответствующих [федеральным стандартам обработки информации](https://csrc.nist.gov/publications/PubsFIPS.html) (FIPS) сша (FIPS) 140-2 Standard. (Важные номера сертификатов NIST для Майкрософт можно найти по адресу:https://csrc.nist.gov/groups/STM/cmvp/documents/140-1/1401vend.htm.)
 
 > НОТЕ Чтобы получить доступ к политике безопасности Майкрософт в качестве ресурса, необходимо войти в систему с помощью рабочей или учебной учетной записи. Если у вас еще нет подписки, [вы можете подписаться на бесплатную пробную версию](https://servicetrust.microsoft.com/Home/TrialSubscriptions).
 

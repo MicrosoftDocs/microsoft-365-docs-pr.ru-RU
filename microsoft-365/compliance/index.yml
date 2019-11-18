@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: c502be734ec6fdc86a64968ecf1859587869cdf9
-  ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
+  ms.openlocfilehash: b6c5cf658bcd10b4ec7f7ffafad2532efdeb7b58
+  ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/30/2019
-  ms.locfileid: "37329187"
+  ms.lasthandoff: 11/01/2019
+  ms.locfileid: "38690876"
 landingContent:
 - title: Управление защитой информации
   linkLists:
@@ -56,12 +56,12 @@ landingContent:
     links:
     - text: Защита доступа пользователей и устройств
       url: protect-access-to-data-and-services.md
-    - text: управление привилегированным доступом;
+    - text: Управление привилегированным доступом
       url: privileged-access-management-overview.md
     - text: Защищенное хранилище пользователя
       url: customer-lockbox-requests.md
-    - text: Контроль взаимодействия
-      url: supervision-policies.md
+    - text: Соответствие коммуникаций требованиям
+      url: communication-compliance.md
     - text: Информационные барьеры
       url: information-barriers.md
     - text: Ключ клиента
@@ -82,8 +82,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Диспетчер соответствия требованиям
-      url: compliance-manager-overview.md
+    - text: Оценка соответствия требованиям
+      url: compliance-score.md
     - text: План действий по обеспечению соответствия требованиям GDPR
       url: gdpr-action-plan.md
     - text: Защита информации для GDPR

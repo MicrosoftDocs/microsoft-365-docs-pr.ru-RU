@@ -15,18 +15,18 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: 'Сводка: политика шифрования сообщений Office 365 для типов конфиденциальной информации.'
-ms.openlocfilehash: d74712798ba9d46614b5fc916e4b1ce111582304
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8632a0419b443d2810afd3554da572ab2197ae2a
+ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091176"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38690879"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-office-365-message-encryption"></a>Создание политики типов конфиденциальной информации для организации с помощью шифрования сообщений Office 365
 
 Для создания политики типов конфиденциальной информации с помощью шифрования сообщений Office 365 можно использовать правила для обработки почты Exchange или предотвращение потери данных (DLP) Office 365. Чтобы создать правило для процесса обработки почты Exchange, можно использовать центр администрирования Exchange или PowerShell.
 
-### <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>Создание политики с помощью правил для почтового процесса в центре администрирования Exchange
+## <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>Создание политики с помощью правил для почтового процесса в центре администрирования Exchange
 
 Войдите в центр администрирования Exchange и перейдите к разделу**правила**для обработки **почтового процесса** > . На странице Правила создайте правило, которое применяет шифрование сообщений Office 365. Вы можете создать правило на основе таких условий, как присутствие определенных ключевых слов или типов конфиденциальной информации в сообщении или вложении.
 
@@ -34,9 +34,9 @@ ms.locfileid: "37091176"
 
 Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365, запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell). Используйте командлеты Set – IRMConfiguration и New – TransportRule для создания политики.
 
-### <a name="example-mail-flow-rule-created-with-powershell"></a>Пример правила для процесса обработки почты, созданного с помощью PowerShell
+## <a name="example-mail-flow-rule-created-with-powershell"></a>Пример правила для процесса обработки почты, созданного с помощью PowerShell
 
-Выполните следующие команды в PowerShell, чтобы создать правило потока обработки почты Exchange, которое автоматически шифрует сообщения, отправляемые за границы Организации, с помощью политики *только для шифрования* , если сообщения электронной почты или их вложения содержат следующие конфиденциальные сведения типом
+Выполните следующие команды в PowerShell, чтобы создать правило потока обработки почты Exchange, которое автоматически шифрует сообщения, отправляемые за границы Организации, с помощью политики *только для шифрования* , если сообщения электронной почты или их вложения содержат следующие типы конфиденциальной информации:
 
 - Номер маршрутизации код банка ABA
 - Номер кредитной карты
@@ -51,7 +51,7 @@ Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
 
-Дополнительные сведения см. в статье [Set – IRMConfiguration](https://docs.microsoft.com/en-us/powershell/module/exchange/encryption-and-certificates/set-irmconfiguration?view=exchange-ps) и [New – TransportRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance/New-TransportRule?view=exchange-ps).
+Дополнительные сведения см. в статье [Set – IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-irmconfiguration?view=exchange-ps) и [New – TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule?view=exchange-ps).
 
 ## <a name="how-recipients-access-attachments"></a>Как получатели обращаются к вложениям
 
@@ -61,7 +61,7 @@ New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -S
 
 Вам может потребоваться обновить любую документацию конечного пользователя и обучающие материалы, чтобы подготовить пользователей в Организации к этому изменению. Предоставьте им доступ к этим ресурсам по шифрованию сообщений Office 365, используя соответствующие пользователи:
 
-- [Отправка, просмотр зашифрованных сообщений и ответ на них в Outlook для компьютера](https://support.office.com/article/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
+- [Отправка, просмотр зашифрованных сообщений и ответ на них в Outlook для компьютера](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980)
 - [Видео Office 365 Essentials: шифрование сообщений Office](https://youtu.be/CQR0cG_iEUc)
 
 ## <a name="view-these-changes-in-the-audit-log"></a>Просмотр изменений в журнале аудита
@@ -74,4 +74,4 @@ Office 365 выполняет аудит этого действия и дела
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>Отключение или Настройка политики типов конфиденциальной информации
 
-После создания правила для почтовых ящиков Exchange вы можете [отключить или изменить правило](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) , перейдя к**правилам** обработки **почтового ящика** > в центре администрирования Exchange, и отключить правило "*шифровать исходящие сообщения электронной почты от"* . ".
+После создания правила для процесса обработки почты Exchange можно [отключить или изменить правило](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) , перейдя к**правилам** обработки **почтового ящика** > в центре администрирования Exchange, и отключить правило "*шифровать исходящие сообщения электронной почты от*".

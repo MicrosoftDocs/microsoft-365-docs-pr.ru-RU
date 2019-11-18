@@ -13,13 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
+- SPO_Content
 description: 'Сводка: описание шифрования для Skype, OneDrive, SharePoint и Exchange Online.'
-ms.openlocfilehash: 55141f671e6cb3d7ea837bfcf9701e37a18fb7ba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 220f3060bd9581b22183bbb56e68c3ec930d0c24
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091069"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38690970"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Шифрование Office 365 для Skype для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online
 
@@ -63,7 +64,7 @@ Office 365  высокобезопасная среда, обеспечива�
 > [!NOTE]
 > Для клиентов Office 365 U.S. для государственных учреждений большие двоичные объекты хранятся в хранилище для государственных учреждений в Azure США. Кроме того, доступ к ключам SharePoint Online в Office 365 U.S. правительством ограничен только сотрудниками Office 365, которые были специально настроены на экран. Сотрудники Microsoft Azure U.S. для государственных учреждений не имеют доступа к хранилищу ключей SharePoint Online, который используется для шифрования больших двоичных объектов данных.
 
-Дополнительные сведения о шифровании данных в SharePoint Online и OneDrive для бизнеса приведены [в статье шифрование данных в onedrive для бизнеса и SharePoint Online](https://technet.microsoft.com/en-us/library/dn905447.aspx).
+Дополнительные сведения о шифровании данных в SharePoint Online и OneDrive для бизнеса приведены [в статье шифрование данных в onedrive для бизнеса и SharePoint Online](https://technet.microsoft.com/library/dn905447.aspx).
 
 ### <a name="list-items-in-sharepoint-online"></a>Элементы списка в SharePoint Online
 
