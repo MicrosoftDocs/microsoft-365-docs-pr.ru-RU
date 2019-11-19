@@ -1,24 +1,26 @@
 ---
 title: Просмотр действий с метками для документов
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 5/9/2018
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
 description: При помощи обозревателя действий с метками в Центре безопасности и соответствия требованиям Office 365 вы можете быстро искать и просматривать весь контент в SharePoint и OneDrive для бизнеса за последние 30 дней. Эти данные обновляются в реальном времени и дают вам хорошее представление о том, что происходит в клиенте.
-ms.openlocfilehash: 6b68c82e364432107d616c5184959cd879cdcb9a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 99e3f461ed1ff38b2f204a2823299a3c441c995f
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090861"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38710126"
 ---
 # <a name="view-label-activity-for-documents"></a>Просмотр действий с метками для документов
 
@@ -36,7 +38,7 @@ ms.locfileid: "37090861"
     
 - Просматривать действия с метками для папок, а также отдельных документов. В скором времени появится возможность просматривать количество файлов в той или иной папке, помеченных в результате применения метки к этой папке.
     
-Обозреватель действий с метками можно открыть из Центра безопасности и соответствия требованиям, выбрав пункты **Управление данными** > **Обозреватель действий с метками**.
+Обозреватель действий с метками можно открыть из Центра безопасности &amp; соответствия требованиям, выбрав пункты **Управление информацией** > **Обозреватель действий с метками**.
   
 Обратите внимание, что для использования обозревателя действий с метками необходима подписка на Office 365 корпоративный E5.
   
