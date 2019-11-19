@@ -15,18 +15,18 @@ ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
 ms.collection:
 - M365-security-compliance
 description: Сравнение параметров шифрования в Office 365, в том числе шифрования сообщений Office (OME), S/MIME, службы управления правами на доступ к данным (IRM), и сведения о протоколе TLS.
-ms.openlocfilehash: 79a7ddd13e437255fa671e949236c879b235c2ba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 70c22f9627c804c201cb23b7b3c38a4f6a349ece
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090316"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708197"
 ---
 # <a name="email-encryption-in-office-365"></a>Шифрование электронной почты в Office 365
 
 В этой статье сравниваются параметры шифрования в Office 365, в том числе шифрования сообщений Office (OME), S/MIME, службы управления правами на доступ к данным (IRM), и описывается протокол TLS.
   
-Office 365 предоставляет несколько вариантов шифрования для защиты электронной почты. В этой статье описаны три способа шифрования электронной почты в Office 365. Если вы хотите подробнее узнать о всех функциях безопасности в Office 365, посетите [Центр управления безопасностью Office 365](http://go.microsoft.com/fwlink/p/?LinkID=282470). В этой статье описаны три типа шифрования, доступные администраторам Office 365 для защиты электронной почты в Office 365:
+Office 365 предоставляет несколько вариантов шифрования для защиты электронной почты. В этой статье описаны три способа шифрования электронной почты в Office 365. Если вы хотите подробнее узнать о всех функциях безопасности в Office 365, посетите [Центр управления безопасностью Office 365](https://go.microsoft.com/fwlink/p/?LinkID=282470). В этой статье описаны три типа шифрования, доступные администраторам Office 365 для защиты электронной почты в Office 365:
   
 - шифрование сообщений Microsoft (OME);
 
@@ -66,7 +66,7 @@ Office 365 предоставляет несколько вариантов ши
 
 ## <a name="what-encryption-options-are-available-for-my-office-365-subscription"></a>Какие варианты шифрования доступны для подписки на Office 365?
 
-Дополнительные сведения о вариантах шифрования электронной почты для подписки на Office 365 см. в статье [Описание службы Exchange Online](https://technet.microsoft.com/ru-RU/library/exchange-online-service-description.aspx). Здесь вы найдете сведения о следующих функциях шифрования:
+Дополнительные сведения о вариантах шифрования электронной почты для подписки на Office 365 см. в статье [Описание службы Exchange Online](https://technet.microsoft.com/library/exchange-online-service-description.aspx). Здесь вы найдете сведения о следующих функциях шифрования:
   
 - Azure RMS, включая возможности IRM и OME;
 
@@ -92,7 +92,7 @@ Office 365 предоставляет несколько вариантов ши
   
 **IRM**
   
-[Управление правами на доступ к данным в Exchange Online](https://technet.microsoft.com/ru-RU/library/jj983436%28v=exchg.150%29.aspx)
+[Управление правами на доступ к данным в Exchange Online](https://technet.microsoft.com/library/jj983436%28v=exchg.150%29.aspx)
   
 [Управление правами Azure](https://technet.microsoft.com/library/jj585026)
   
@@ -106,4 +106,4 @@ Office 365 предоставляет несколько вариантов ши
   
 **TLS**
   
-[Настройка потока обработки почты с помощью соединителей в Office 365](https://technet.microsoft.com/ru-RU/library/jj723138%28v=exchg.150%29.aspx)
+[Настройка потока обработки почты с помощью соединителей в Office 365](https://technet.microsoft.com/library/jj723138%28v=exchg.150%29.aspx)

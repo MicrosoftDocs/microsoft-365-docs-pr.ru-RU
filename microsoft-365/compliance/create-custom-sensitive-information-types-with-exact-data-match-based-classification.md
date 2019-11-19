@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
-ms.openlocfilehash: 3d4936a03ab9b2e5d766f514472ea862009da553
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a639c71753602ffd381c9240cf6e7273f3ba8bbe
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089711"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708201"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
@@ -82,7 +82,7 @@ ms.locfileid: "37089711"
 (Вы можете скопировать, изменить и использовать наш пример.)
 
  ```xml
-<EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
+<EdmSchema xmlns="https://schemas.microsoft.com/office/2018/edm">
       <DataStore name="PatientRecords" description="Schema for patient records" version="1">
             <Field name="PatientID" searchable="true" />
             <Field name="MRN" searchable="true" />
@@ -186,7 +186,7 @@ Remove-DlpEdmSchema -Identity patientrecords
 
 Настраивая пакет правил, убедитесь, что в нем используются правильные ссылки на CSV-файл и файл edm.xml. Вы можете скопировать, изменить и использовать наш пример. В этом примере XML для создания типа конфиденциальной информации EDM должны быть настроены перечисленные ниже поля.
 
-- **Идентификаторы RulePack и ExactMatch**. Используйте командлет [New-GUID](https://docs.microsoft.com/ru-RU/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) для создания GUID.
+- **Идентификаторы RulePack и ExactMatch**. Используйте командлет [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) для создания GUID.
 
 - **Datastore**. В этом поле указывается, какое хранилище данных подстановки EDM будет использоваться. Вы указываете имя источника данных для настроенной схемы EDM.
 
@@ -201,7 +201,7 @@ Remove-DlpEdmSchema -Identity patientrecords
   - Редактирование имени и описания схемы: меняйте их по мере необходимости.
 
 ```xml
-<RulePackage xmlns="http://schemas.microsoft.com/office/2018/edm">
+<RulePackage xmlns="https://schemas.microsoft.com/office/2018/edm">
   <RulePack id="fd098e03-1796-41a5-8ab6-198c93c62b11">
     <Version build="0" major="2" minor="0" revision="0" />
     <Publisher id="eb553734-8306-44b4-9ad5-c388ad970528" />
@@ -488,7 +488,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
-[New-DlpEdmSchema](https://docs.microsoft.com/ru-RU/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
+[New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
 
 ## <a name="feedback"></a>Обратная связь
 

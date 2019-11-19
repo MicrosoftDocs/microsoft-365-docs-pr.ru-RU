@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как настроить операции бизнес-процесса, чтобы автоматизировать хранение с помощью событий, используя REST API Microsoft 365.
-ms.openlocfilehash: 1b687ab89e0d29910c9c0781540b6f9113e53ed6
-ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
+ms.openlocfilehash: 5977b79c47166fdafc76dfdb122b4fd37b63a875
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37342972"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708206"
 ---
 # <a name="automate-event-based-retention"></a>Автоматизация хранения на основе событий
 
@@ -85,7 +85,7 @@ ms.locfileid: "37342972"
         
     - Создает библиотеку SharePoint: задает метку на основе события на уровне библиотеки. Дополнительные сведения см. в разделе "Применение метки хранения по умолчанию ко всему контенту в библиотеке SharePoint, папке или набору документов" [этой статьи](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
           
-    - Настраивает набор документов в SharePoint. Дополнительные сведения см. в статье [Общие сведения о наборах документов](https://support.office.com/ru-RU/article/Introduction-to-Document-Sets-3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234).
+    - Настраивает набор документов в SharePoint. Дополнительные сведения см. в статье [Общие сведения о наборах документов](https://support.office.com/article/Introduction-to-Document-Sets-3DBCD93E-0BED-46B7-B1BA-B31DE2BCD234).
       
 1. Назначает идентификатор ресурса (то есть название продукта или код, используемые в организации, например в роли идентификатора ресурса может выступать код сотрудника) каждому набору документов сотрудника. (При назначении идентификатора ресурса папке каждый элемент в папке автоматически наследует тот же идентификатор ресурса. То есть период хранения всех элементов запускается одним событием.)
 
@@ -103,7 +103,7 @@ ms.locfileid: "37342972"
 
 - **PowerShell или HTTP-клиент для вызова REST API**. Используйте PowerShell (версии 6 или выше) для вызова REST API Microsoft 365, чтобы создать события. 
 
-REST API — это конечная точка службы, поддерживающая операции (методы) HTTP, которая предоставляет права на создание, получение, обновление или удаление ресурсов службы. Дополнительные сведения см. в разделе "Компоненты запроса/ответа REST API" [этой статьи](https://docs.microsoft.com/ru-RU/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). В этом случае используя REST API Microsoft 365, можно создавать или получать события с помощью операций (методов) POST и GET.
+REST API — это конечная точка службы, поддерживающая операции (методы) HTTP, которая предоставляет права на создание, получение, обновление или удаление ресурсов службы. Дополнительные сведения см. в разделе "Компоненты запроса/ответа REST API" [этой статьи](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). В этом случае используя REST API Microsoft 365, можно создавать или получать события с помощью операций (методов) POST и GET.
 
 ## <a name="example-scenarios"></a>Примеры сценариев
 
@@ -181,10 +181,10 @@ REST API — это конечная точка службы, поддержи�
 <tr class="odd">
 <td>Основной текст</td>
 <td><p>&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'</p>
-<p>xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
-<p>xmlns='http://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
+<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices'</p>
+<p>xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
+<p>xmlns='https://www.w3.org/2005/Atom'&gt;</p>
+<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
 <p>&lt;updated&gt;9/9/2017 10:50:00 PM&lt;/updated&gt;</p>
 <p>&lt;content type='application/xml'&gt;</p>
 <p>&lt;m:properties&gt;</p>
@@ -372,10 +372,10 @@ REST API — это конечная точка службы, поддержи�
 <p>$EventName=&quot;EventByRESTPost-$(([Guid]::NewGuid()).ToString('N'))&quot;</p>
 <p>Write-Host &quot;Start to create an event with name: $EventName&quot;</p>
 <p>$body = &quot;&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'</p>
-<p>xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
-<p>xmlns='http://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
+<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices'</p>
+<p>xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
+<p>xmlns='https://www.w3.org/2005/Atom'&gt;</p>
+<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
 <p>&lt;updated&gt;7/14/2017 2:03:36 PM&lt;/updated&gt;</p>
 <p>&lt;content type='application/xml'&gt;</p>
 <p>&lt;m:properties&gt;</p>

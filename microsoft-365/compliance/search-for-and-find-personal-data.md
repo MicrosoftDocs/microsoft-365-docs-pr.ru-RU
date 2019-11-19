@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как находить персональные данные в Office 365.
-ms.openlocfilehash: b63cf930a38feab6df815b5350d60184a6339927
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f553f29ac1327fa84c2d52f80379593c9291d610
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090753"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38710118"
 ---
 # <a name="search-for-and-find-personal-data"></a>Поиск персональных данных
 
@@ -44,7 +44,7 @@ ms.locfileid: "37090753"
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Этап</strong></th>
+<th align="left"><strong>Шаг</strong></th>
 <th align="left"><strong>Описание</strong></th>
 </tr>
 </thead>
@@ -79,7 +79,7 @@ ms.locfileid: "37090753"
 
 Эта статья включает список некоторых типов конфиденциальной информации, которые применяются для граждан стран Европейского союза. Проверьте информацию в центре безопасности и центре соответствия требованиям на наличие новых дополнений, которые могут помочь вам соблюсти требования GDPR.
 
-Кроме того, см. статью, в которой приведен [список типов конфиденциальной информации и описано назначение каждого из них](https://support.office.com/ru-RU/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
+Кроме того, см. статью, в которой приведен [список типов конфиденциальной информации и описано назначение каждого из них](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
 
 Типы конфиденциальной информации определяют автоматические процессы, позволяющие распознавать типы определенных сведений, такие как номера банковских счетов, служб здравоохранения и кредитных карт. Типы конфиденциальной информации также называются условиями. Тип конфиденциальной информации определяется шаблоном, который можно идентифицировать с помощью регулярного выражения или функции. Кроме того, для идентификации типа конфиденциальной информации могут использоваться подкрепляющие доказательства, такие как ключевые слова и контрольные суммы. Кроме того, в процессе оценки используются уровень вероятности, а также расположение слов и знаков.
 
@@ -90,14 +90,14 @@ ms.locfileid: "37090753"
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Этап</strong></th>
+<th align="left"><strong>Шаг</strong></th>
 <th align="left"><strong>Дополнительные сведения</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd"><td align="left"><p>Переход в раздел "Поиск контента" в Центре безопасности и соответствия требованиям</p></td>
 <td align="left"><p>В расположенной слева области Центра безопасности и соответствия требованиям щелкните **Поиск и исследования** &gt; **Поиск контента**.</p>
-<p>См. статью <a href="https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Поиск содержимого в Центре безопасности и соответствия требованиям Office 365</a>.</p></td>
+<p>См. статью <a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Поиск содержимого в Центре безопасности и соответствия требованиям Office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>Создание искомого элемента для каждого типа конфиденциальной информации</p></td>
@@ -110,14 +110,14 @@ ms.locfileid: "37090753"
 <p>SensitiveType:&quot;Номер паспорта гражданина Франции&quot;</p>
 </blockquote>
 <p>Ограничьте область поиска средой SharePoint (в том числе OneDrive для бизнеса). Убедитесь в точности синтаксиса, а также отсутствии опечаток и лишних пробелов.</p>
-<p>См. статью <a href="https://support.office.com/ru-RU/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">Создание запроса для поиска конфиденциальных данных на сайтах</a>.</p></td>
+<p>См. статью <a href="https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">Создание запроса для поиска конфиденциальных данных на сайтах</a>.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>Просмотр результатов каждого запроса</p></td>
 <td align="left"><p>Проверьте запрос на наличие проблем следующего характера, чтобы убедиться в его точности:</p>
 <p><li>большое количество ложных срабатываний;</li></p>
 <p><li>отсутствие известных экземпляров данных.</li></p>
-<p>См. статью <a href="https://support.office.com/ru-RU/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Экспорт результатов поиска контента из Центра безопасности и соответствия требованиям Office 365</a>.</p>
+<p>См. статью <a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Экспорт результатов поиска контента из Центра безопасности и соответствия требованиям Office 365</a>.</p>
 <p>Примечание. Если вы используете Mozilla Firefox или Chrome, возможно, вам потребуется сначала скачать отчеты с помощью браузера Internet Explorer или Edge, чтобы установить необходимую надстройку.</p></td>
 </tr>
 </tbody>
@@ -217,4 +217,4 @@ ms.locfileid: "37090753"
 
 Примечание. Элемент "SensitiveType" чувствителен к регистру, а остальные компоненты запроса — нет.
 
-Для уточнения запросов вы также можете использовать свойства и операторы. Дополнительные сведения и примеры см. в статье [Создание запроса для поиска конфиденциальных данных на сайтах](https://support.office.com/ru-RU/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836).
+Для уточнения запросов вы также можете использовать свойства и операторы. Дополнительные сведения и примеры см. в статье [Создание запроса для поиска конфиденциальных данных на сайтах](https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836).

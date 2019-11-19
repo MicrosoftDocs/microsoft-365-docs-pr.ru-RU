@@ -12,12 +12,12 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 8ee0d1d8dd20dac6a865e39ca12dea8b07352e6e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5c43a0e26dfc052c23cbaf349bd541d996dca558
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071458"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "38710114"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>План обеспечения соответствия NIST 800-53 для Microsoft 365: основные приоритеты на первые 30, 90 и больше дней
 
@@ -77,6 +77,6 @@ Microsoft 365 позволяет управлять предприятием с
 
 ## <a name="learn-more"></a>Подробнее
 
-Узнайте больше о связи [служб Майкрософт и Cyber Security Framework (CSF) NIST](https://www.microsoft.com/trustcenter/compliance/NIST_CSF), в том числе о соответствии NIST 800-53.
+Узнайте больше о связи [служб Майкрософт и Cyber Security Framework (CSF) NIST](offering-nist-csf.md), в том числе о соответствии NIST 800-53.
 
 [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)

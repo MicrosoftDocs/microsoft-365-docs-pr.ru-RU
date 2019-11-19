@@ -13,16 +13,17 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- SPO_Content
 ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сводка. Сведения о создании и настройке сайтов группы в SharePoint Online для применения различных уровней защиты информации.
-ms.openlocfilehash: 2ddf3de7180d384c387bdc335afda6214508e3c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4ff892d57d4fe6e707e4cbcb4f1562a3594fe70b
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070722"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38708214"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Развертывание сайтов SharePoint Online с тремя уровнями защиты
 
@@ -46,7 +47,7 @@ ms.locfileid: "37070722"
     
 4. На странице **Создание сайта** щелкните **Сайт группы**.
     
-5. В поле **Имя сайта** введите имя для открытого сайта группы. 
+5. В поле **Имя сайта** введите имя для открытого сайта группы.
     
 6. В поле **Описание сайта группы** введите описание назначения сайта.
     
@@ -70,7 +71,7 @@ ms.locfileid: "37070722"
     
 4. На странице **Создание сайта** щелкните **Сайт группы**.
     
-5. В поле **Имя сайта** введите имя для частного сайта группы. 
+5. В поле **Имя сайта** введите имя для частного сайта группы.
     
 6. В поле **Описание сайта группы** введите описание назначения сайта.
     

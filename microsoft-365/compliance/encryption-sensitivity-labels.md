@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: be41f60f8d0210c779fb6c5a8fdc783cf23fcc19
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: aae46b8a6fa18c9af32005bca87ad80638b5b6c0
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369450"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708196"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
 
@@ -44,7 +44,7 @@ ms.locfileid: "37369450"
 
 ## <a name="how-encryption-works"></a>Как работает шифрование
 
-Шифрование использует службу Microsoft Azure AD Rights Management (Microsoft Azure RMS). Служба Microsoft Azure RMS использует шифрование, удостоверения и политики авторизации. Дополнительные сведения см. в статье [Что представляет собой служба Microsoft Azure AD Rights Management?](https://docs.microsoft.com/ru-RU/azure/information-protection/what-is-azure-rms)
+Шифрование использует службу Microsoft Azure AD Rights Management (Microsoft Azure RMS). Служба Microsoft Azure RMS использует шифрование, удостоверения и политики авторизации. Дополнительные сведения см. в статье [Что представляет собой служба Microsoft Azure AD Rights Management?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)
 
 ## <a name="how-to-turn-on-encryption-for-a-sensitivity-label"></a>Как включить шифрование для метки конфиденциальности
 
@@ -77,7 +77,7 @@ ms.locfileid: "37369450"
 
 Помимо повторной проверки подлинности переоцениваются политики и принадлежность пользователя к группе. Это означает, что результаты доступа к одну и тому же документу или электронной почте для пользователей могут быть разными, если будут изменения в политике или принадлежности к группе со времени последнего доступа к содержимому.
 
-Чтобы узнать, как изменить стандартный параметр 30-дневного срока действия, см. раздел [Лицензия на использования службы Microsoft Azure AD Rights Management](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#rights-management-use-license).
+Чтобы узнать, как изменить стандартный параметр 30-дневного срока действия, см. раздел [Лицензия на использования службы Microsoft Azure AD Rights Management](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-use-license).
 
 ### <a name="assign-permissions-to-specific-users-or-groups"></a>Назначение разрешений определенным пользователям или группам
 
@@ -106,10 +106,10 @@ ms.locfileid: "37369450"
 
 При выборе того, какие разрешения следует предоставить определенным пользователям или группам, вы можете выбрать один из приведенных ниже вариантов.
 
-- [Заранее определенный уровень разрешений](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) с предварительно заданной группой прав, например "Соавтор" или "Рецензент".
+- [Заранее определенный уровень разрешений](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels) с предварительно заданной группой прав, например "Соавтор" или "Рецензент".
 - Настраиваемая группа прав, в которой вы можете выбрать, какие разрешения вам нужны.
 
-Дополнительные сведения по каждому конкретному виду разрешений см. в статье [Права на использование и их описание](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
+Дополнительные сведения по каждому конкретному виду разрешений см. в статье [Права на использование и их описание](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions).  
 
 ![Варианты выбора предварительных установок или настраиваемые разрешения](media/Sensitivity-Choose-permissions-settings.png)
 
@@ -129,7 +129,7 @@ ms.locfileid: "37369450"
 - Издатель в службе управления правами всегда может получить доступ к документу или электронной почте в режиме автономной работы.
 - Издатель в службе управления правами по-прежнему может открывать документ после того, как тот будет отозван.
 
-Дополнительные сведения см. в статье [Издатель в службе управления правами и владелец в службе управления правами](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner).
+Дополнительные сведения см. в статье [Издатель в службе управления правами и владелец в службе управления правами](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner).
 
 ## <a name="let-users-assign-permissions"></a>Предоставление пользователям возможности назначать разрешения
 
@@ -197,7 +197,7 @@ ms.locfileid: "37369450"
 
 Следует иметь в виду, что когда шифрование применяется к файлам, которые хранятся в OneDrive и SharePoint, служба не может обработать содержимое этих файлов. Это означает, что такие функции, как совместное редактирование, обнаружение электронных данных, поиск, Delve и другие функции совместной работы, неактивны. Кроме того, политики защиты от потери данных (DLP) могут работать только с метаданными (включая метки Office 365), но не с содержимым зашифрованных файлов (например, номерами кредитных карт в файлах).
 
-Это применяется только к содержимому, которое хранится в OneDrive и SharePoint. В Exchange Online правила потока обработки почты (также называемые правилами транспорта) используют [учетную запись привилегированного пользователя](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-super-users), чтобы можно было просканировать зашифрованное содержимое и применить политики DLP.
+Это применяется только к содержимому, которое хранится в OneDrive и SharePoint. В Exchange Online правила потока обработки почты (также называемые правилами транспорта) используют [учетную запись привилегированного пользователя](https://docs.microsoft.com/azure/information-protection/configure-super-users), чтобы можно было просканировать зашифрованное содержимое и применить политики DLP.
 
 ## <a name="important-prerequisites"></a>Важные предварительные условия
 
@@ -205,7 +205,7 @@ ms.locfileid: "37369450"
 
 ### <a name="activating-azure-rights-management"></a>Активация Microsoft Azure AD Rights Management
 
-Чтобы использовать шифрование в метках конфиденциальности, службу Microsoft Azure AD Rights Management необходимо активировать в вашем клиенте. В более новых клиентах служба включена по умолчанию, однако может понадобиться вручную активировать ее. Дополнительные сведения см. в статье [Активация службы Microsoft Azure AD Rights Management](https://docs.microsoft.com/ru-RU/azure/information-protection/activate-service).
+Чтобы использовать шифрование в метках конфиденциальности, службу Microsoft Azure AD Rights Management необходимо активировать в вашем клиенте. В более новых клиентах служба включена по умолчанию, однако может понадобиться вручную активировать ее. Дополнительные сведения см. в статье [Активация службы Microsoft Azure AD Rights Management](https://docs.microsoft.com/azure/information-protection/activate-service).
 
 ### <a name="configure-exchange-for-azure-information-protection"></a>Настройка Exchange для Microsoft Azure Information Protection
 
@@ -215,5 +215,5 @@ ms.locfileid: "37369450"
 
 Чтобы убедиться в том, что служба Exchange сможет поддерживать такие дополнительные сценарии, см. ниже.
 
-- Для Exchange Online см. инструкции для [Exchange Online: настройка IRM](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-office365#exchange-online-irm-configuration).
-- Для использования Exchange в локальной среде необходимо развертывание [соединителя RMS и настройка серверов Exchange](https://docs.microsoft.com/ru-RU/azure/information-protection/deploy-rms-connector). 
+- Для Exchange Online см. инструкции для [Exchange Online: настройка IRM](https://docs.microsoft.com/azure/information-protection/configure-office365#exchange-online-irm-configuration).
+- Для использования Exchange в локальной среде необходимо развертывание [соединителя RMS и настройка серверов Exchange](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector). 

@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: Узнайте, как изменить или создать типы конфиденциальной информации в Office 365 для соблюдения регламента GDPR.
-ms.openlocfilehash: 264e310c019c47d1b3109b20fbdd61b323ec5530
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 81717e10de794f5ab5885470d0bcbcd795e43044
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089616"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708204"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>Настройка и создание типа конфиденциальной информации
 
@@ -71,7 +71,7 @@ ms.locfileid: "37089616"
 
 7.  Передайте новый тип конфиденциальной информации.
 
-8.  Выполните повторный обход контента, чтобы идентифицировать конфиденциальную информацию. См. статью [Ручной запрос обхода контента и переиндексации сайта](https://support.office.com/ru-RU/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E).
+8.  Выполните повторный обход контента, чтобы идентифицировать конфиденциальную информацию. См. статью [Ручной запрос обхода контента и переиндексации сайта](https://support.office.com/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E).
 
 ## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>Пример: изменение типа конфиденциальной информации "Номер банковской карты для ЕС"
 
@@ -141,15 +141,15 @@ ms.locfileid: "37089616"
 
 Для формулирования и оптимизации запросов с помощью KQL используйте эти ресурсы:
 
--   [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/ru-RU/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+-   [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
--   [Выполнение поиска контента](https://support.office.com/ru-RU/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
+-   [Выполнение поиска контента](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
 
-Поиск контента предоставляет еще один ресурс, который помогает создавать запросы KQL и типы конфиденциальной информации, — ключевые слова. Зачем использовать список ключевых слов? Вы можете получить статистические данные о том, сколько элементов соответствуют каждому ключевому слову. Это поможет быстро определить наиболее (и наименее) эффективные ключевые слова. Дополнительные сведения о статистике поиска см. в статье [Просмотр статистики ключевых слов для результатов поиска контента](https://support.office.com/ru-RU/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
+Поиск контента предоставляет еще один ресурс, который помогает создавать запросы KQL и типы конфиденциальной информации, — ключевые слова. Зачем использовать список ключевых слов? Вы можете получить статистические данные о том, сколько элементов соответствуют каждому ключевому слову. Это поможет быстро определить наиболее (и наименее) эффективные ключевые слова. Дополнительные сведения о статистике поиска см. в статье [Просмотр статистики ключевых слов для результатов поиска контента](https://support.office.com/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
 
 Ключевые слова в каждой строке соединяются с помощью оператора OR в созданном поисковом запросе. В строке также можно использовать ключевую фразу (которая заключается в скобки).
 
-Подробнее см. в статье [Запросы ключевых слов и условия поиска контента](https://support.office.com/ru-RU/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3).
+Подробнее см. в статье [Запросы ключевых слов и условия поиска контента](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3).
 
 ### <a name="exampleusing-content-search-to-identify-email-addresses"></a>Пример: использование веб-части "Поиск контента" для определения адресов электронной почты
 
@@ -200,7 +200,7 @@ ms.locfileid: "37089616"
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Этап</strong></th>
+<th align="left"><strong>Шаг</strong></th>
 <th align="left"><strong>Изменение</strong></th>
 <th align="left"><strong>Пример синтаксиса XML</strong></th>
 </tr>
@@ -299,9 +299,9 @@ ms.locfileid: "37089616"
 <table>
 <thead>
 <tr class="header">
-<th align="left"><strong>Этап</strong></th>
+<th align="left"><strong>Шаг</strong></th>
 <th align="left"><strong>Действие </strong></th>
-<th align="left"><strong>Result</strong></th>
+<th align="left"><strong>Результат</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -374,7 +374,7 @@ ms.locfileid: "37089616"
 ```xml
 \<?xml version="1.0" encoding="utf-8"?\>
 
-\<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"\>
+\<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce"\>
 
 \<RulePack id="130ae63b-a91e-4a12-9e02-a90e36a83d7f"\>
 

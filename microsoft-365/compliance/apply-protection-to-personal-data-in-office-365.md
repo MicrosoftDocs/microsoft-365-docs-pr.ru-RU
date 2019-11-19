@@ -11,17 +11,18 @@ ms.collection:
 - Strat_O365_Enterprise
 - GDPR
 - M365-security-compliance
+- SPO_Content
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать политики защиты от потери данных для защиты персональных данных в Office 365.
-ms.openlocfilehash: f6d6d69f7c776b9b49ea360367117a9ce86293b2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12d6de9b8012062e26daec922d5c55fa0f52381a
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089935"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38708211"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Применение защиты к персональным данным в Office 365
 
@@ -41,7 +42,7 @@ ms.locfileid: "37089935"
 
 -   просматривать отчеты DLP, в которых перечисляется содержимое, нарушающее политики защиты от потери данных вашей организации.
 
-Подробнее см. в статье [Обзор политик защиты от потери данных](https://support.office.com/ru-RU/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
+Подробнее см. в статье [Обзор политик защиты от потери данных](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
 
 ![Способы создания политики защиты от потери данных](Media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
@@ -119,7 +120,7 @@ ms.locfileid: "37089935"
 <thead>
 <tr class="header">
 <th align="left"><strong>Элемент управления</strong></th>
-<th align="left"><strong>Параметры</strong></th>
+<th align="left"><strong>Настройки</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -142,7 +143,7 @@ ms.locfileid: "37089935"
 <tr class="odd">
 <td align="left">Уведомление пользователей о соответствии содержимого параметрам политики</td>
 <td align="left"><p>Установите этот флажок ("Отображать подсказки политик пользователям и отправлять уведомление по электронной почте").</p>
-<p>Щелкните "Настройка подсказки и уведомления по электронной почте" и обновите эти элементы в своей среде. Описание стандартных уведомлений см. в статье <a href="https://support.office.com/ru-RU/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Отправка уведомлений и отображение подсказок для политик защиты от потери данных</a>.</p></td>
+<p>Щелкните "Настройка подсказки и уведомления по электронной почте" и обновите эти элементы в своей среде. Описание стандартных уведомлений см. в статье <a href="https://support.office.com/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">Отправка уведомлений и отображение подсказок для политик защиты от потери данных</a>.</p></td>
 </tr>
 <tr class="even">
 <td align="left">Обнаружение случаев одновременного предоставления общего доступа к конфиденциальной информации в определенном объеме</td>
@@ -300,7 +301,7 @@ ms.locfileid: "37089935"
 
 Дополнительные сведения:
 
--   [Управление внешним доступом для среды SharePoint Online](https://support.office.com/ru-RU/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [Управление внешним доступом для среды SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
 -   [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/ru-RU/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
@@ -351,7 +352,7 @@ ms.locfileid: "37089935"
 </tbody>
 </table>
 
-Дополнительные сведения: [Центр администрирования SharePoint Online. Управление доступом с неуправляемых устройств](https://support.office.com/ru-RU/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
+Дополнительные сведения: [Центр администрирования SharePoint Online. Управление доступом с неуправляемых устройств](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US).
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>Защита при доступе к службам для пользователей и устройств
 
@@ -359,9 +360,9 @@ ms.locfileid: "37089935"
 
 Защита доступа для пользователей и устройств обеспечивает базовую безопасность, гарантируя защиту удостоверений и устройств, а также изолирование и безопасность данных организации, расположенных на устройствах.
 
-Начальные рекомендации и указания по настройке см. в статье [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](https://docs.microsoft.com/ru-RU/microsoft-365-enterprise/microsoft-security-guidance).
+Начальные рекомендации и указания по настройке см. в статье [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance).
 
-Инструкции для сред с гибридными удостоверениями и AD FS см. в статье, посвященной [рекомендуемым политикам и конфигурациям безопасности](https://docs.microsoft.com/ru-RU/microsoft-365-enterprise/microsoft-security-guidance).
+Инструкции для сред с гибридными удостоверениями и AD FS см. в статье, посвященной [рекомендуемым политикам и конфигурациям безопасности](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance).
 
 Ниже показано, как связаны между собой облачные службы (SaaS, PaaS), типы учетных записей (учетные записи доменов клиента и учетные записи типа "бизнес-бизнес") и возможности доступа к службам. Важно отметить, какие возможности можно использовать с учетными записями типа "бизнес-бизнес".
 
