@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 121771dd2474d58e7bd6a0d56218563c8785d4bf
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 4e83983ae7b8b936b639382f025f1f88eeca0762
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38011960"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699679"
 ---
 # <a name="install-intune-company-portal-on-on-devices"></a>Установка корпоративного портала Intune на устройствах
 
@@ -42,7 +42,7 @@ ms.locfileid: "38011960"
 ## <a name="step-3---communicate-change-to-your-users"></a>Шаг 3: уведомление об изменении пользователей
 Администратору ИТ необходимо предоставить пользователям сведения о том, как использовать корпоративный портал в вашей организации. Для рабочих столов, управляемых Майкрософт, рекомендуется:
 - Действия по установке приложений с корпоративного портала. Дополнительные сведения можно найти [в статье Установка и совместное использование приложений на устройстве](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows).
-- Отправка запросов ИТ администраторам для приложений, которые в настоящее время недоступны.
+- Отправка запросов ИТ администраторам для приложений, которые в настоящее время недоступны. Дополнительные сведения см. [в статье Request a for work или School](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows#request-an-app-for-work-or-school).  
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Действия для начала работы с управляемым рабочим столом Майкрософт
 
@@ -50,7 +50,7 @@ ms.locfileid: "38011960"
 2. [Настройка условного доступа](conditional-access.md)
 3. [Назначение лицензий](assign-licenses.md)
 4. Развертывание портала компании Intune (этот раздел)
-5. [Включение роуминга состояния предприятия](enterprise-state-roaming.md)
+5. [Включение службы Enterprise State Roaming](enterprise-state-roaming.md)
 6. [Настройка устройств](set-up-devices.md)
 7. [Подготовка пользователей к работе с устройствами](get-started-devices.md)
 8. [Развертывание приложений](deploy-apps.md)

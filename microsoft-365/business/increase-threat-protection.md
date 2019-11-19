@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка расширенной защиты от угроз для Office 365 и защита конфиденциальных данных.
-ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 87a5c79636a2eefe394b4a30e72971eb851e3ecb
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676015"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704082"
 ---
 # <a name="increase-threat-protection"></a>Улучшение защиты от угроз
 
@@ -233,4 +233,4 @@ ms.locfileid: "38676015"
 
 3. После появления результатов выберите пункт начать рядом с **Microsoft Intune** , чтобы сделать его более удобным и легко находить позже.
 
-Кроме центра администрирования, вы можете использовать Intune, чтобы регистрировать устройства Организации и управлять ими. Дополнительные сведения см. [в статье возможности с помощью метода регистрации для устройств Windows](https://docs.microsoft.com/intune/enrollment-method-capabs) и [параметров регистрации для устройств под управлением Intune](https://docs.microsoft.com/intune/enrollment-options).
+Кроме центра администрирования, вы можете использовать Intune, чтобы регистрировать устройства Организации и управлять ими. Дополнительные сведения см. [в статье возможности с помощью метода регистрации для устройств Windows](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) и [параметров регистрации для устройств под управлением Intune](https://docs.microsoft.com/intune/enrollment-options).

@@ -12,16 +12,16 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для добавления политик соответствия требованиям к устройствам Intune в тестовую среду Microsoft 365 Enterprise.
-ms.openlocfilehash: 6f37a898461ea67bc2927fcbac1a0f1b15adb036
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: c323779399f6f440e1f9104e6611023a18ffe59e
+ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672565"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38694106"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Политики соответствия требованиям устройств для тестовой среды Microsoft 365 корпоративный
 
-*Это руководство по лаборатории тестирования можно использовать только с тестовой средой Microsoft 365 Enterprise.*
+*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
 
 С помощью инструкций, описанных в этой статье, вы добавите политику соответствия требованиям для устройств Intune в тестовую среду Microsoft 365 Enterprise.
 
@@ -94,7 +94,7 @@ ms.locfileid: "38672565"
 
 Теперь у вас есть политика соответствия требованиям устройств для тестирования выбранных приложений в политике соответствия требованиям устройств для **Windows 10** и для членов группы **управляемых пользователей устройств Windows 10** . Обратите внимание, что при выборе пункта Office 365 в качестве типа группы будут созданы дополнительные ресурсы. 
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 Узнайте о дополнительных возможностях и возможностях [управления мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) в тестовой среде.
 
