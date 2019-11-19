@@ -83,6 +83,7 @@
 ### [Управление мобильными устройствами](contoso-mdm.md)
 ### [Защита данных](contoso-info-protect.md)
 ### [Сводка по безопасности](contoso-security-summary.md)
+### [Команда для сверхсекретного проекта](contoso-team-for-top-secret-project.md)
 ### [Сайт SharePoint для строго регулируемых данных](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
 ## [Изменения содержимого развертывания Microsoft 365 корпоративный](microsoft-365-deploment-guide-changes.md)
 # [Центр развертывания компьютеров](desktop-deployment-center-home.md)
