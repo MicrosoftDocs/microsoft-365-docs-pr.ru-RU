@@ -3,7 +3,7 @@ title: Microsoft 365 корпоративный для корпорации Cont
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
+ms.date: 11/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: Показательный пример внедрения Microsoft 365 корпоративный вымышленной глобальной организацией
-ms.openlocfilehash: e7c79612b18bdd21d8fd137abe11f8f26cfd6eff
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 08f2adfac801ad317fc9aeb812685c2ca061eb3c
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673225"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699699"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Microsoft 365 корпоративный для корпорации Contoso
 
@@ -65,6 +65,10 @@ Microsoft 365 корпоративный — это первоклассное �
 - [Сводка по безопасности Microsoft 365 корпоративный](contoso-security-summary.md)
 
   В корпорации Contoso используется весь набор функций безопасности Microsoft 365 корпоративный для управления доступом, идентификацией и безопасностью, а также для защиты от угроз и защиты информации.
+
+- [Команда для сверхсекретного проекта](contoso-team-for-top-secret-project.md)
+
+  Чтобы создать безопасную среду для совместной работы над проектом с наивысшей степенью секретности, компания Contoso использовала команду для строго регулируемых данных.
 
 - [Сайт SharePoint Online для строго конфиденциальных цифровых ресурсов](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
 
