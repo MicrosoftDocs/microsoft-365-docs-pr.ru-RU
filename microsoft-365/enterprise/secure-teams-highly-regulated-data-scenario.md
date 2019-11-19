@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте защищенную команду для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: f787951748cc1fb0b6b207b4b3aca0de1c29e3d7
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d875c3148a019774e038d18a75bb6fb2c2413463
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627503"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699769"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams для строго регулируемых данных
 
@@ -48,7 +48,7 @@ ms.locfileid: "38627503"
 
 [Плакат ![Teams для строго регулируемых данных](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
-Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) и распечатать его на бумаге размера legal или tabloid (11 x 17).
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
 ## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>Этап 1. Настройка команды для строго регулируемых данных
 
@@ -213,6 +213,10 @@ ms.locfileid: "38627503"
   Вы можете узнать, каким файлам присвоены метки, просмотрев папку в SharePoint и добавив столбец **Конфиденциальность** с помощью параметра **Показать/скрыть столбцы** элемента **Добавить столбец**.
 
 При необходимости следует провести повторное обучение пользователей.
+
+## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Как корпорация Contoso использовала защищенную команду для сверхсекретного проекта
+
+Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат. Посмотрите, как корпорация Contoso настроила и внедрила [защищенную команду](contoso-team-for-top-secret-project.md) для сверхсекретного проекта по разработке и выводу на рынок нового набора продуктов и услуг. 
 
 ## <a name="see-also"></a>См. также
 

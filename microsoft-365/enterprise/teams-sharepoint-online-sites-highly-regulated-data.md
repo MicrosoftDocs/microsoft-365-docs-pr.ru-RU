@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте безопасный сайт группы SharePoint для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: cfa1f7d85f7dd4d20b293c73b0b8f7d8e2577d02
-ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
+ms.openlocfilehash: f8ccda85256e1f590f80a9302897e2950c59d154
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37929250"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699749"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>Сайты SharePoint для жестко регламентированных данных
 
@@ -72,7 +72,8 @@ ms.locfileid: "37929250"
 
 [Плакат ![Сайты SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
 
-Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf) и распечатать его на бумаге размера legal или tabloid (11 x 17).
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePoint-Sites-Highly-Regulated-Data.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
+
 
 ## <a name="identity-and-device-access-prerequisites"></a>Необходимые компоненты для идентификации и доступа к устройству
 
@@ -211,7 +212,7 @@ ms.locfileid: "37929250"
 
 Файлы с жестко регламентированными данными хранятся только на сайтах SharePoint для жестко регламентированных данных, а к наиболее конфиденциальным файлам применяется метка или вложенная метка конфиденциальности для сайта.
 
-## <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Как корпорация Contoso выполнила развертывание Microsoft 365 корпоративный
+## <a name="how-the-contoso-corporation-used-a-sharepoint-site-for-highly-regulated-data"></a>Как корпорация Contoso использовала сайт SharePoint для строго регулируемых данных
 
 Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат. Посмотрите, как корпорация Contoso разработала, настроила и внедрила [надежный сайт SharePoint](contoso-sharepoint-online-site-for-highly-confidential-assets.md) для исследовательских команд в Париже, Москве, Нью-Йорке, Пекине и Бангалоре. 
 
