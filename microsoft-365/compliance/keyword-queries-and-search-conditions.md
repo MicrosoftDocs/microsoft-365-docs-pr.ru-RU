@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Сведения об электронной почте и свойствах файлов, которые можно искать в почтовых ящиках Exchange Online и SharePoint или OneDrive для бизнеса с помощью средства поиска контента в центре безопасности & соответствия требованиям.  '
-ms.openlocfilehash: e01953c6397c8c7ca9f38780537f3f7546b238fb
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: c4135e52f88f72cde171cbc6c897359cd8e13e05
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687517"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699689"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Запросы ключевых слов и условия поиска контента
 
@@ -145,7 +145,7 @@ ms.locfileid: "38687517"
 |**Оператор**|**Использование**|**Описание**|
 |:-----|:-----|:-----|
 |AND|keyword1 AND keyword2|Возвращает элементы, которые включают все указанные ключевые слова или `property:value` выражения. Например, `from:"Ann Beebe" AND subject:northwind` возвращает все сообщения, отправленные Анна Beebe, которые содержат слово Northwind в строке темы. <sup>2</sup>|
-|+|keyword1 + keyword2 + keyword3|Возвращает элементы, которые содержат  *либо*  `keyword2` , либо  `keyword3`,  *а также*  `keyword1`. Следовательно, этот пример аналогичен запросу  `(keyword2 OR keyword3) AND keyword1`.  <br/> Запрос `keyword1 + keyword2` (с пробелом после **+** символа) не совпадает с использованием оператора * * и * *. This query would be equivalent to  `"keyword1 + keyword2"` and return items with the exact phase  `"keyword1 + keyword2"`.|
+|+|keyword1 + keyword2 + keyword3|Возвращает элементы, которые содержат  *либо*  `keyword2` , либо  `keyword3`,  *а также*  `keyword1`. Следовательно, этот пример аналогичен запросу  `(keyword2 OR keyword3) AND keyword1`.  <br/> Запрос `keyword1 + keyword2` (с пробелом после **+** символа) не совпадает с оператором **и** . This query would be equivalent to  `"keyword1 + keyword2"` and return items with the exact phase  `"keyword1 + keyword2"`.|
 |OR|keyword1 OR keyword2|Возвращает элементы, которые включают одно или несколько указанных ключевых слов или `property:value` выражений. <sup>2</sup>|
 |NOT|keyword1 NOT keyword2  <br/> NOT from:"Анна Ермолаева"  <br/> НЕ вид: мгновенные сообщения|Исключает элементы, указанные ключевым словом или `property:value` выражением. Во втором примере исключаются сообщения, отправленные Анна Beebe. В третьем примере исключены беседы с обменом мгновенными сообщениями, такие как беседы Skype для бизнеса, которые сохраняются в папке журнала бесед в почтовом ящике. <sup>2</sup>|
 |-|keyword1 -keyword2|Аналогичен оператору **NOT**. Таким образом, этот запрос возвращает элементы `keyword1` , содержащие элементы, которые содержат `keyword2`.|
