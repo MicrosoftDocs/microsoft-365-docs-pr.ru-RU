@@ -20,32 +20,31 @@ search.appverid:
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: Просмотр политик и действий устройств путем входа в Microsoft 365 Business с учетными данными глобального администратора.
-ms.openlocfilehash: c961630f0698ed864bfb94b4672f92825089ea4c
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 982c1f410802f9589d40073a11768b7dd68567c0
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575455"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718926"
 ---
-# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="c4e1e-103">Просмотр политик и устройств и управление ими</span><span class="sxs-lookup"><span data-stu-id="c4e1e-103">View and manage policies and devices</span></span>
+# <a name="view-and-manage-policies-and-devices"></a><span data-ttu-id="336d3-103">Просмотр политик и устройств и управление ими</span><span class="sxs-lookup"><span data-stu-id="336d3-103">View and manage policies and devices</span></span>
 
-<span data-ttu-id="c4e1e-104">[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="c4e1e-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
+<span data-ttu-id="336d3-104">[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="336d3-104">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-## <a name="view-and-edit-device-policies"></a><span data-ttu-id="c4e1e-105">Просмотр и изменение политик устройств</span><span class="sxs-lookup"><span data-stu-id="c4e1e-105">View and edit device policies</span></span>
+## <a name="view-and-edit-device-policies"></a><span data-ttu-id="336d3-105">Просмотр и изменение политик устройств</span><span class="sxs-lookup"><span data-stu-id="336d3-105">View and edit device policies</span></span>
 
-1.  <span data-ttu-id="c4e1e-106">Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="c4e1e-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
-2. <span data-ttu-id="c4e1e-107">В левой панели навигации выберите пункт \*\*\*\* \> **политики**устройств.</span><span class="sxs-lookup"><span data-stu-id="c4e1e-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
+1.  <span data-ttu-id="336d3-106">Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="336d3-106">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
+2. <span data-ttu-id="336d3-107">В левой панели навигации выберите пункт \*\*\*\* \> **политики**устройств.</span><span class="sxs-lookup"><span data-stu-id="336d3-107">On the left nav, choose **Devices** \> **Policies**.</span></span>
 
-    <span data-ttu-id="c4e1e-108">На этой странице можно создавать, редактировать и удалять политики, а также изменять целевые группы.</span><span class="sxs-lookup"><span data-stu-id="c4e1e-108">On this page you can create, edit, change target group, or delete a policy.</span></span>
+    <span data-ttu-id="336d3-108">На этой странице можно создать, изменить, изменить целевую группу или удалить политику.</span><span class="sxs-lookup"><span data-stu-id="336d3-108">On this page, you can create, edit, change target group, or delete a policy.</span></span>
 
     ![Screenshot of the Policies page](media/devicepolicies.png)
   
-## <a name="view-and-manage-devices"></a><span data-ttu-id="c4e1e-110">Просмотр устройств и управление ими</span><span class="sxs-lookup"><span data-stu-id="c4e1e-110">View and manage devices</span></span>
+## <a name="view-and-manage-devices"></a><span data-ttu-id="336d3-110">Просмотр устройств и управление ими</span><span class="sxs-lookup"><span data-stu-id="336d3-110">View and manage devices</span></span>
 
-
-1. <span data-ttu-id="c4e1e-111">В левой панели навигации выберите Управление **устройствами** \> \*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="c4e1e-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
+1. <span data-ttu-id="336d3-111">В левой панели навигации выберите Управление **устройствами** \> \*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="336d3-111">On the left nav, choose **Devices** \> **Manage**.</span></span> 
     
-    <span data-ttu-id="c4e1e-p101">На этой странице можно выбрать одно или несколько устройств и удалить корпоративные данные. Для устройств с Windows 10, для которых уже настроены параметры защиты, также можно восстановить заводские параметры.</span><span class="sxs-lookup"><span data-stu-id="c4e1e-p101">On this page you can select one or more devices and either remove company data. For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
+    <span data-ttu-id="336d3-112">На этой странице вы можете выбрать одно или несколько устройств и удалить данные компании.</span><span class="sxs-lookup"><span data-stu-id="336d3-112">On this page, you can select one or more devices and remove company data.</span></span> <span data-ttu-id="336d3-113">Для устройств с Windows 10, для которых уже настроены параметры защиты, также можно восстановить заводские параметры.</span><span class="sxs-lookup"><span data-stu-id="336d3-113">For Windows 10 devices that you have set device protections settings for, you can also choose to reset the device to factory settings.</span></span>
   
    ![Страница "Управление устройствами"](media/devicesmanage.png)
 
