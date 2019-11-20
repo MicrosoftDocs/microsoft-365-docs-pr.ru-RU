@@ -9,13 +9,16 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: b605bfa3d549b3359f8bb780cfffa7306db44d2d
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.collection:
+- GDPR
+- M365-security-compliance
+hideEdit: true
+ms.openlocfilehash: 92d7e08c17d2f67781b5d261e103717ab57578d9
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982419"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749977"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>Контрольный список готовности к подотчетности для Azure в рамках GDPR
 
@@ -125,7 +128,7 @@ ms.locfileid: "36982419"
 ||||
 |:-----|:-----|:-------|
 |**ИД**|**Описание или ссылка**|
-| 1 <a name="1"> </a> | [Условия использования веб-служб](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
+| 1 <a name="1"> </a> | [Условия использования веб-служб](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 | 2 <a name="2"></a>  | [Документация по системе безопасности Azure](https://docs.microsoft.com/azure/security/), см. раздел "Система управления и соответствие требованиям", GDPR |
 | 3 <a name="3"> </a> | [План защиты системы FedRAMP (SSP), средний уровень](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=e46a519a-bcf6-4dc2-8f60-6d0e4e00a85e&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports) |
 | 4 <a name="4"> </a>   | [Политика безопасности Microsoft Cloud](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5868ecc8-50b7-4f91-b43f-640e2b99e86e&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)  |
@@ -138,7 +141,7 @@ ms.locfileid: "36982419"
 | 11 <a name="11"> </a> | [Ключевая информация из Azure об оценках влияния на защиту данных клиентов](https://aka.ms/DPIAAzure) |
 | 12 <a name="12"> </a> | [Отчет об аудите SOC 2, тип 2 [12]](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=3c7123a5-f507-48b7-8dce-cd948e6150e6&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC_%2F_SSAE_16_Reports) |
 | 13 <a name="13"> </a> | [Положение о применимости требований ISO/IEC 27001:2013 к СУИБ Microsoft Azure (полностью)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
-| 14 <a name="14"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter/compliance/complianceofferings)  |
+| 14 <a name="14"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](offering-home.md)  |
 | 15 <a name="15"> </a> | [Конфиденциальность и персональные данные в Intune](https://review.docs.microsoft.com/intune/privacy-personal-data) |
 | 16 <a name="16"> </a> | [Полный набор правил GDPR для Azure](https://aka.ms/GDPRControls) или [диспетчер соответствия требованиям](https://servicetrust.microsoft.com/ComplianceManager) |
 | 17 <a name="17"> </a> | [Сведения об ответственном за защиту данных в Майкрософт](https://aka.ms/GDPRDPO) |

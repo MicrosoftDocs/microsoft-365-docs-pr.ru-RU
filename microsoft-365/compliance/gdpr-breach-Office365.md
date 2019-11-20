@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 6ead62d09ee2f87f05342c3248166125266849e4
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 689a85ddf46650ad1f89dd3cf723c4ad469803bd
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698401"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749968"
 ---
 # <a name="office-365-breach-notification-under-the-gdpr"></a>Уведомление о нарушении безопасности данных Office 365 согласно GDPR
 

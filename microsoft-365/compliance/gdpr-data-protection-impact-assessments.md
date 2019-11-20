@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 7c4e66988c57754324fbc18de95e97d409ab0a53
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: c6f01e5b82d0021c4698dfa7b4fddc5152c7d737
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078919"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749965"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Оценка влияния на защиту данных в рамках GDPR
 

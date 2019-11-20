@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 11bf048dd1cd913d8344929b5025a65638d47f4b
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: cfd39d25689785be2af80008b6d823beb5a7bc01
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078939"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749953"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Обзор общего регламента по защите данных
 
@@ -27,7 +29,7 @@ ms.locfileid: "35078939"
 
 ## <a name="terminology"></a>Терминология
 
-Определения терминов GDPR, используемых в этом документе:
+Полезные определения терминов GDPR, используемых в этом документе:
 
 - *Управляющий данными (управляющий)* — юридическое лицо, орган государственной власти, агентство или другое лицо, которое отдельно от других или вместе с ними определяет цели и средства обработки персональных данных.  
 - *Персональные данные* и *субъект данных* — все сведения, относящиеся к определенному или определяемому физическому лицу ("субъект данных"). Определяемым физическим лицом считается лицо, которого можно прямо или косвенно определить.  
@@ -66,7 +68,7 @@ GDPR предоставляет людям права по управлению 
 - **Какие действия требуются для выполнения DSR?** Запросы DSR включают шесть действий: обнаружение, доступ, уточнение, ограничение, экспорт и удаление.
 - **Что является источниками данных?** Значительная часть данных организации создается в [приложениях Office](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs), таких как Excel и Outlook. Данные, относящиеся к DSR, также можно найти в [аналитике](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365), создаваемой продуктами и службами Майкрософт, а также в [системных журналах](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs).
 - **В каких типах данных необходимо выполнять поиск?** Персональные данные можно найти в данных клиента, аналитике продуктов и служб Майкрософт и системных журналах.
-- **Как выполняется поиск персональных данных?** Поиск персональных данных может зависеть от продуктов и служб Майкрософт. Средства поиска включают [поиск контента](https://docs.microsoft.com/ru-RU/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) и возможность [поиска в приложении](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs). Администраторы могут получать доступ к [системным журналам](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs), связанным с действиями пользователя.  
+- **Как выполняется поиск персональных данных?** Поиск персональных данных может зависеть от продуктов и служб Майкрософт. Средства поиска включают [поиск контента](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) и возможность [поиска в приложении](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs). Администраторы могут получать доступ к [системным журналам](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs), связанным с действиями пользователя.  
 - **В каких форматах должны быть доступны персональные данные?** Понятие GDPR "право на переносимость данных" позволяет субъекту данных запрашивать копию персональных данных в "структурированном широко распространенном формате, пригодном для использования на компьютерах" и требовать, чтобы ваша организация передала эти файлы другому управляющему данными.
 
 ### <a name="data-protection-impact-assessment"></a>Оценка влияния на защиту данных

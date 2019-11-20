@@ -8,13 +8,16 @@ ms.topic: article
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.collection: GDPR
-ms.openlocfilehash: c1d671e125eca07f1d559fdeded7ae590c5b8b38
-ms.sourcegitcommit: aace6acb94c3a944fe5863b3a52d74f9054dcd23
+ms.collection:
+- GDPR
+- M365-security-compliance
+hideEdit: true
+ms.openlocfilehash: 66a3478ed625b3c7453992e04070d57beef173eb
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35921130"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749978"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Контрольный список готовности к подотчетности для Microsoft Office 365
 
@@ -127,19 +130,19 @@ ms.locfileid: "35921130"
 |||
 |:-----|:-----|
 |**ИД**|**Описание или ссылка**|
-| 1 <a name="1"> </a> | [Условия использования веб-служб](http://aka.ms/ost) |
+| 1 <a name="1"> </a> | [Условия использования веб-служб](https://aka.ms/ost) |
 | 2 <a name="2"> </a> | [Документация по безопасности Office 365](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) |
 | 3 <a name="3"> </a> | [План защиты системы FedRAMP (SSP), средний уровень](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=053666de-e359-43ef-a7bb-3cf379208ed8&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports) |
 | 4 <a name="4"> </a> | [Политика безопасности Microsoft Cloud](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) |
 | 5 <a name="5"> </a> | [Защита информации в Office 365 в соответствии с GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) |
 | 6 <a name="6"> </a> | [Сведения о том, кто может получить доступ к данным и при каких условиях](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms) |
-| 7 <a name="7"> </a> | [Контракты для субобработчиков: контракты с корпорацией Майкрософт](https://www.microsoft.com/en-us/procurement/supplier-contracting.aspx#SSPA) |
+| 7 <a name="7"> </a> | [Контракты для субобработчиков: контракты с корпорацией Майкрософт](https://www.microsoft.com/procurement/supplier-contracting.aspx#SSPA) |
 | 8 <a name="8"> </a> | [Запросы субъектов данных Office 365, определенные в GDPR](https://aka.ms/DSROffice365) |
 | 9 <a name="9"> </a> | [Office 365 и уведомление о нарушении безопасности, определенное в GDPR](https://aka.ms/BreachOffice365) |
 | 10 <a name="10"> </a> | [Ключевая информация из Office 365 об оценках влияния на защиту данных клиентов](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365) |
 | 11 <a name="11"> </a> | [Отчет об аудите SOC 2, тип 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=0cf2cce9-972d-4a64-865f-b8e6eba4ed5e&docTab=4ce99610-c9c0-11e7-8c2c-) |
 | 12 <a name="12"> </a> | [Положение о применимости СУИБ согласно ISO/IEC 27001:2013 для Microsoft Office 365](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=d7255c90-03e3-48a6-938d-e69d8f723c7a&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
-| 13 <a name="13"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter/compliance/complianceofferings) |
+| 13 <a name="13"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](offering-home.md) |
 | 14 <a name="14"> </a> | [Руководство по СУИБ для Office 365](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=72821313-c175-4857-b1f7-e3c5e6eb2db4&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 15 <a name="15"> </a> | [Использование ограничений клиентов для управления доступом к облачным приложениям SaaS](https://docs.microsoft.com/azure/active-directory/active-directory-tenant-restrictions) |
 | 16 <a name="16"> </a> | [Поиск по журналу аудита в Центре безопасности и соответствия требованиям Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) |

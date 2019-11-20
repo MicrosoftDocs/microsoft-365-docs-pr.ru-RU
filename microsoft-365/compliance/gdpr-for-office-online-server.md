@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как обеспечивать соблюдение требований GDPR в локальном развертывании Exchange Server.
-ms.openlocfilehash: 9b15934f598adcd692d8c47358db357bcea58814
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b1cf86beeeb195396e45e0bc262f1d1b81b21057
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089502"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749956"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>GDPR для сервера Office Web Apps и Office Online Server
 
-Данные телеметрии Office Online Server и сервера Office Web Apps хранятся в виде журналов ULS. С помощью приложения [ULS Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=44020) вы можете просматривать журналы ULS из локального клиента.
+Данные телеметрии Office Online Server и сервера Office Web Apps хранятся в виде журналов ULS. С помощью приложения [ULS Viewer](https://www.microsoft.com/download/details.aspx?id=44020) вы можете просматривать журналы ULS из локального клиента.
 
 Каждая строка журнала содержит CorrelationID. Связанные строки журнала имеют одинаковое значение CorrelationID. Каждое значение CorrelationID привязано к одному значению SessionID, а одно значение SessionID может быть связано с несколькими значениями CorrelationID. Каждое значение SessionID может быть связано с одним UserID, но некоторые сеансы могут быть анонимными (с ними не связано значение UserID). Чтобы определить, какие данные связаны с определенным пользователем, можно сопоставить одно значение UserID со значениями SessionID, связанными с этим пользователем, эти значения SessionID — с соответствующими значениями CorrelationID, а эти значения CorrelationID — со всеми журналами для этих сопоставлений. На приведенной ниже схеме показаны отношения между разными идентификаторами.
 
