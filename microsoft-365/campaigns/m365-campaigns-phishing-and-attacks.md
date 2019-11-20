@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Защита от фишинга и других атак с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: be00cdc0c70c2a2f6ac9292e933031280b7c4616
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 04779d1c69b57811cf493a9f48185eed2435c82e
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029063"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748260"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Защита от фишинга и других атак
 
@@ -36,7 +36,6 @@ ms.locfileid: "38029063"
 - **Фишинг** Фишинг — это почтовые сообщения, которые кажутся действительными, но пытаются получить ваши личные сведения или украсть деньги.
 - **Подмена** Скаммерс также может использовать метод подмены, чтобы он отображался так, как если бы вы получили электронное письмо от самого себя. 
 - **Вредоносные** программы — это вредоносное программное обеспечение, которое можно установить на компьютер, обычно устанавливаемое после щелчка ссылки или открытия документа из сообщения электронной почты. Существует несколько типов вредоносных программ (например, программа-шантажистом, когда компьютер передается), но вам не нужны какие-либо из них. 
-
 
 ## <a name="best-practices"></a>Рекомендации
 
@@ -70,11 +69,9 @@ ms.locfileid: "38029063"
 
 [](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx) в формате PDF
 
- 
-
 ## <a name="set-it-up"></a>Настройка
 
 Узнайте больше о том, как:
-- [Обеспечение безопасности файлов и коммуникаций в Office](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
-- [Оставайтесь в курсе безопасности и конфиденциальности на работе](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
+- [Храните файлы и коммуникации в Office](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f).
+- [Оставайтесь в курсе безопасности и конфиденциальности на работе](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d).
   

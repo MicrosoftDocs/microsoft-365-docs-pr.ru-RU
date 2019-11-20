@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание коммуникационного сайта для кампании.
-ms.openlocfilehash: 8473aa3a5b4e091b25d57939a0897eb257513b75
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e8f7730d1ec407bf24a819df7366d9bedd78d390
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029093"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748280"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>Создание коммуникационного сайта для кампании
 
@@ -55,7 +55,7 @@ ms.locfileid: "38029093"
 ## <a name="set-it-up"></a>Настройка
 
 1. Выполните вход в https://Office.comсистему.
-2. В левом верхнем углу страницы щелкните значок средства запуска приложений, а затем выберите плитку **SharePoint** . If you don't see the **SharePoint** tile, click the **Sites** tile or **All** if SharePoint is not visible.
+2. В левом верхнем углу страницы щелкните значок средства запуска приложений, а затем выберите плитку **SharePoint** . Если плитка **SharePoint** не отображается, щелкните плитку **сайты** или **все** , если SharePoint не отображается.
 3. В верхней части домашней страницы SharePoint нажмите кнопку **+ создать сайт** и выберите параметр сайт для **общения** .
 
 Узнайте больше [о сайтах](https://support.office.com/article/What-is-a-SharePoint-communication-site-94A33429-E580-45C3-A090-5512A8070732) для общения и о том, как [создать сайт для общения в SharePoint Online](https://support.office.com/article/Create-a-communication-site-in-SharePoint-Online-7FB44B20-A72F-4D2C-9173-FC8F59BA50EB).

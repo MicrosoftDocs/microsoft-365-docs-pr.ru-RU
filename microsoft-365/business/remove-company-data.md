@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Узнайте, как использовать Microsoft 365 Business для удаления данных компании с пользовательских устройств или с компьютеров с Windows. '
-ms.openlocfilehash: 169bc7d849bb934de2788daebb90308b1a086111
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 59e94a08e149a5cb119aabbbe816ccd2f4a9f9fb
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575745"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715239"
 ---
 # <a name="remove-company-data-from-devices"></a>Удаление данных организации с устройств
 
-[![Метка, с помощью которой вы узнаете, что центр администрирования изменяется, и вы можете получить дополнительные сведения по адресу aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="remove-company-data"></a>Удаление данных компании
 
@@ -41,9 +41,9 @@ ms.locfileid: "37575745"
   
 3. На странице " **Управление** " выберите или выполните поиск пользователя, данные которого нужно удалить, и выберите имя. 
     
-4. В следующей области выберите устройство или устройства из списка **устройства** и на панели устройств, которое будет открыто, вы можете восстановить заводские настройки устройства или удалить данные компании в зависимости от типа устройства. 
+4. В следующей области выберите устройство или устройства из списка **устройства** . В открывшейся области устройств вы можете выбрать устройство для установки в фабричном режиме или удалить данные компании в зависимости от типа устройства. 
     
-    ![On the remove comapany data pane, select the device from which you want to remove the data.](media/resetorremove.png)
+    ![На панели удаление данных компании выберите устройство, из которого необходимо удалить данные.](media/resetorremove.png)
   
 5. В области подтверждения нажмите кнопку **подтвердить** \> **закрытие**.
     

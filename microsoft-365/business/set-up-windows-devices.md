@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для Microsoft 365 Business Users. '
-ms.openlocfilehash: 7b6fa2ce3243500c3ddcff7883fa9d8da27dcf86
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575575"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718886"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business
 
@@ -41,7 +41,7 @@ ms.locfileid: "37575575"
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Добавление устройств с Windows 10 в каталог Azure AD организации
 
-После перевода всех корпоративных устройств с Windows 10 на версию Windows 10 Pro Creators Update их можно добавить в каталог Azure Active Directory организации. Добавленные устройства автоматически переводятся на версию Windows 10 для бизнеса, которая входит в состав подписки на Microsoft 365 Business.
+Когда все устройства с Windows в вашей организации обновлены до версии Windows 10 профессиональная Creators или уже запущены обновление Windows 10 Pro Creators, вы можете присоединить эти устройства к Azure Active Directory вашей организации. После подключения к устройствам они будут автоматически обновлены до Windows 10 Business, которая входит в состав подписки на Microsoft 365 Business.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Для новых (или недавно переведенных) устройств с Windows 10 Pro
 
@@ -89,7 +89,7 @@ ms.locfileid: "37575575"
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Если вы добавляете файлы в OneDrive для бизнеса, синхронизируйте их в обратном направлении. Если вы используете стороннюю программу для переноса профиля и файлов, синхронизируйте их тоже с новым профилем.
+Если вы добавляете файлы в OneDrive для бизнеса, синхронизируйте их в обратном направлении. Если для переноса профилей и файлов использовалось стороннее средство, также синхронизируйте их с новым профилем.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Проверка подключения устройства к Azure AD
 
@@ -97,7 +97,7 @@ ms.locfileid: "37575575"
   
 На странице состояния синхронизации нажмите кнопку "Синхронизировать", чтобы получить сведения о последних политиках мобильных устройств на компьютере.
   
-Чтобы начать пользоваться учетной записью Office 365 бизнес, перейдите в **начальное** меню Windows, щелкните правой кнопкой мыши картинку текущей учетной записи и выберите команду **Сменить учетную запись**. Войдите, используя адрес электронной почты и пароль организации.
+Чтобы начать работу с учетной записью Microsoft 365 Business, перейдите к кнопке **Пуск** Windows, щелкните правой кнопкой мыши текущий рисунок учетной записи, а затем **Переключить учетную запись**. Войдите, используя адрес электронной почты и пароль организации.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   

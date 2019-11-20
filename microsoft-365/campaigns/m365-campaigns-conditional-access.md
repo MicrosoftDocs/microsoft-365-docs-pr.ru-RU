@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о том, как запрашивать MFA и настраивать политики условного доступа для Microsoft 365 Business.
-ms.openlocfilehash: b4ea67037339ae1a00f12d7b51e4584d259264e4
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0279fff8dd4143c883b2f1633907ac197c65f04a
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031344"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748290"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Требуется многофакторная проверка подлинности и Настройка политик условного доступа
 
@@ -59,7 +59,7 @@ ms.locfileid: "38031344"
     ![Сделайте вход в систему с более безопасной картой.](media/setupmfa.png)
 3. На странице Создание безопасного входа нажмите кнопку **начать работу**.
  
-4. В области безопасность при входе установите флажки Включить **многофакторную проверку подлинности для администраторов** и **требовать, чтобы пользователи регистрировали многофакторную проверку подлинности и блокировали доступ в случае обнаружения риска**.
+4. В области безопасность при входе установите флажки **требовать многофакторную проверку подлинности для администраторов** и **требовать, чтобы пользователи регистрировали многофакторную проверку подлинности и блокировали доступ в случае обнаружения риска**.
     Обязательно исключите из требования к MFA учетную запись администратора для [экстренного](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) реагирования или "размыкатель" из требования MFA в поле " **найти пользователей** ".
     
     ![Веб-страница усиления безопасности.](media/requiremfa.png)
@@ -70,16 +70,14 @@ ms.locfileid: "38031344"
 
 1. Перейдите на [портал Azure](https://portal.azure.com), а затем перейдите к **условному доступу**к **Azure Active Directory** \> .
     
-    Базовые политики перечислены на странице, и вы можете увидеть, что запрос MFA для администраторов и защита конечных пользователей уже включены после выполнения действий, описанных в статье [требования к MFA](#require-mfa).
+    Базовые политики перечислены на странице, и вы можете увидеть, что **запрос MFA для администраторов** и **Защита конечных пользователей** уже включены после выполнения действий, описанных в статье [требования к MFA](#require-mfa).
 
     ![Страница, на которой перечисляются базовые политики для условного доступа.](media/casettings.png)
 2. Для каждой политики ознакомьтесь с приведенными ниже инструкциями.
 
     - [Требовать MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-
-       
-    -   [Требовать MFA для пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+    - [Требовать MFA для пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
     - [Блокировать устаревшую проверку подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
     - [Запрос MFA для управления службами](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-Можно настроить дополнительные политики, например требования утвержденных клиентских приложений. Для получения дополнительных сведений ознакомьтесь с [документацией по условному доступу](https://docs.microsoft.com/azure/active-directory/conditional-access/) .
+Можно настроить дополнительные политики, например требования утвержденных клиентских приложений. Дополнительные сведения см. в [документации по условному доступу](https://docs.microsoft.com/azure/active-directory/conditional-access/).

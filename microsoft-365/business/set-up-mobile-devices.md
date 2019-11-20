@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Установите Office на iPhone или телефоне с Android, и ваши рабочие файлы в приложениях Office будут защищены корпорацией Microsoft 365 Business.
-ms.openlocfilehash: 6dd18569f0d4b3c71f00004706c2430eb7c5ae43
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: e09db43705d601df0c0b30a46ee36cf0295ecae3
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575615"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718946"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Настройка мобильных устройств для пользователей Microsoft 365 Business
 
@@ -58,11 +58,11 @@ Enter your work email address on the **Add Email Account** screen \> **Add Accou
   
 ![Sign in to your work account](media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-Если организация защищает файлы в приложениях, появится диалоговое окно с соответствующим сообщением и просьбой перезапустить приложение, чтобы продолжить. Нажмите **ОК** и закройте Outlook. 
+Если ваша организация защищает файлы в приложениях, появится диалоговое окно с сообщением о том, что ваша организация теперь защищает данные в приложении, и вам потребуется перезапустить приложение, чтобы продолжить его использование. Нажмите **ОК** и закройте Outlook. 
   
-![Screenshot that showa your organization is now protecting your Outlook app](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Снимок экрана, на котором показывается, что ваша организация теперь защищает приложение Outlook](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
-Найдите приложение Outlook на iPhone и перезапустите его. При появлении соответствующего запроса введите ПИН-код и подтвердите его. Теперь приложение Outlook на iPhone готово к работе.
+Найдите приложение Outlook на iPhone и перезапустите его. При появлении соответствующего запроса введите ПИН-код и проверьте его. Теперь приложение Outlook на iPhone готово к работе.
   
 ![Set a PIN to access your organization's data](media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
@@ -72,11 +72,11 @@ Enter your work email address on the **Add Email Account** screen \> **Add Accou
   
 ![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-В поле поиска Google Play введите Microsoft Outlook и нажмите **Установить**.После завершения установки Outlook нажмите **Открыть**.
+В поле поиска Google воспроизведите введите Microsoft Outlook и нажмите кнопку **установить**. После завершения установки Outlook нажмите кнопку **Открыть**.
   
 ![Tap Open to open Outlook app](media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-In the Outlook app tap **Get Started**, then add your Microsoft 365 Business email account \> **Continue**, and sign in with your organization credentials.
+В приложении Outlook нажмите кнопку " **начать работу** \> **"**, а затем добавьте учетную запись электронной почты Microsoft 365 и войдите с помощью учетных данных вашей организации.
   
 ![Sign in to your organizational account in Outlook](media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -84,7 +84,7 @@ In the Outlook app tap **Get Started**, then add your Microsoft 365 Business ema
   
 ![Tap on Go to store to get Intune Company Portal app](media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Установите корпоративный портал Intune из Play Маркета.
+В магазине для игр установите корпоративный портал Intune.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
