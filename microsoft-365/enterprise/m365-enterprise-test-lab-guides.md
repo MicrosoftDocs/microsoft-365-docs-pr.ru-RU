@@ -3,7 +3,7 @@ title: Руководства по лаборатории тестировани
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/04/2019
+ms.date: 11/20/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -15,111 +15,115 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 корпоративный.
-ms.openlocfilehash: 2f6fd8c17096c9c25a0f1af886894e68d33e939d
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 5f2f6b9fb137cf9d1ea9dc21ca12a3792d79e249
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672575"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757838"
 ---
-# <a name="microsoft-365-enterprise-test-lab-guides"></a><span data-ttu-id="bff24-103">Руководства по лаборатории тестирования для Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="bff24-103">Microsoft 365 Enterprise Test Lab Guides</span></span>
+# <a name="microsoft-365-enterprise-test-lab-guides"></a><span data-ttu-id="e5fed-103">Руководства по лаборатории тестирования для Microsoft 365 корпоративный</span><span class="sxs-lookup"><span data-stu-id="e5fed-103">Microsoft 365 Enterprise Test Lab Guides</span></span>
 
-<span data-ttu-id="bff24-104">*Это относится к Microsoft 365 корпоративный и Office 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="bff24-104">*This applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
+<span data-ttu-id="e5fed-104">*Это относится к Microsoft 365 корпоративный и Office 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="e5fed-104">*This applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*</span></span>
 
-<span data-ttu-id="bff24-p101">Руководства по лаборатории тестирования помогают быстро знакомиться с продуктами Майкрософт. Они содержат инструкции по настройке упрощенных и наглядных тестовых сред. Эти среды можно использовать для демонстрации и настройки, а также создания сложных экспериментов на протяжении срока действия пробной или платной подписки.</span><span class="sxs-lookup"><span data-stu-id="bff24-p101">Test Lab Guides (TLGs) help you quickly learn about Microsoft products. They provide prescriptive instructions to configure simplified but representative test environments. You can use these environments for demonstration, customization, or creation of complex proofs of concept for the duration of a trial or paid subscription.</span></span> 
+<span data-ttu-id="e5fed-p101">Руководства по лаборатории тестирования помогают быстро знакомиться с продуктами Майкрософт. Они содержат инструкции по настройке упрощенных и наглядных тестовых сред. Эти среды можно использовать для демонстрации и настройки, а также создания сложных экспериментов на протяжении срока действия пробной или платной подписки.</span><span class="sxs-lookup"><span data-stu-id="e5fed-p101">Test Lab Guides (TLGs) help you quickly learn about Microsoft products. They provide prescriptive instructions to configure simplified but representative test environments. You can use these environments for demonstration, customization, or creation of complex proofs of concept for the duration of a trial or paid subscription.</span></span> 
 
-<span data-ttu-id="bff24-p102">Руководства по лаборатории тестирования делятся на модули. Каждый из них дополняет предыдущие, отображая несколько конфигураций, наиболее соответствующих вашим требованиям к учебной или тестовой конфигурации. Непосредственное знакомство с новым продуктом или сценарием помогает вам понять требования к его развертыванию, чтобы лучше спланировать его размещение в рабочей среде.</span><span class="sxs-lookup"><span data-stu-id="bff24-p102">TLGs are designed to be modular. They build upon each other to create multiple configurations that more closely match your learning or test configuration needs. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or scenario so you can better plan for hosting it in production.</span></span>
+<span data-ttu-id="e5fed-p102">Руководства по лаборатории тестирования делятся на модули. Каждый из них дополняет предыдущие, отображая несколько конфигураций, наиболее соответствующих вашим требованиям к учебной или тестовой конфигурации. Непосредственное знакомство с новым продуктом или сценарием помогает вам понять требования к его развертыванию, чтобы лучше спланировать его размещение в рабочей среде.</span><span class="sxs-lookup"><span data-stu-id="e5fed-p102">TLGs are designed to be modular. They build upon each other to create multiple configurations that more closely match your learning or test configuration needs. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or scenario so you can better plan for hosting it in production.</span></span>
 
-<span data-ttu-id="bff24-111">Кроме того, с помощью этих руководств можно создавать типичные среды для разработки и тестирования.</span><span class="sxs-lookup"><span data-stu-id="bff24-111">You can also use TLGs to create representative environments for development and testing of applications, also known as dev/test environments.</span></span>
+<span data-ttu-id="e5fed-111">Кроме того, с помощью этих руководств можно создавать типичные среды для разработки и тестирования.</span><span class="sxs-lookup"><span data-stu-id="e5fed-111">You can also use TLGs to create representative environments for development and testing of applications, also known as dev/test environments.</span></span>
   
 ![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-<span data-ttu-id="bff24-113">Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.</span><span class="sxs-lookup"><span data-stu-id="bff24-113">Click [here](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+<span data-ttu-id="e5fed-113">Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.</span><span class="sxs-lookup"><span data-stu-id="e5fed-113">Click [here](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
 
-<span data-ttu-id="bff24-114">[![Руководства по лаборатории тестирования для Microsoft 365 корпоративный](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span><span class="sxs-lookup"><span data-stu-id="bff24-114">[![The Microsoft 365 Enterprise Test Lab Guide stack](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span></span>
+<span data-ttu-id="e5fed-114">[![Руководства по лаборатории тестирования для Microsoft 365 корпоративный](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span><span class="sxs-lookup"><span data-stu-id="e5fed-114">[![The Microsoft 365 Enterprise Test Lab Guide stack](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)</span></span>
 
-## <a name="base-configuration"></a><span data-ttu-id="bff24-115">Базовая настройка</span><span class="sxs-lookup"><span data-stu-id="bff24-115">Base configuration</span></span>
+## <a name="base-configuration"></a><span data-ttu-id="e5fed-115">Базовая настройка</span><span class="sxs-lookup"><span data-stu-id="e5fed-115">Base configuration</span></span>
 
-<span data-ttu-id="bff24-p103">Вначале нужно создать тестовую среду для [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Ви можете создать два типа базовой конфигурации.</span><span class="sxs-lookup"><span data-stu-id="bff24-p103">First, you create a test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) that includes Office 365 E5, Enterprise Mobility + Security (EMS) E5, and Windows 10 Enterprise. You can create two different types of base configurations:</span></span>
+<span data-ttu-id="e5fed-p103">Вначале нужно создать тестовую среду для [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Ви можете создать два типа базовой конфигурации.</span><span class="sxs-lookup"><span data-stu-id="e5fed-p103">First, you create a test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) that includes Office 365 E5, Enterprise Mobility + Security (EMS) E5, and Windows 10 Enterprise. You can create two different types of base configurations:</span></span>
 
-- <span data-ttu-id="bff24-118">Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный только в облачной среде, которая не включает каких-либо локальных компонентов.</span><span class="sxs-lookup"><span data-stu-id="bff24-118">Use the [lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 Enterprise features and capabilities in a cloud-only environment, which does not include any on-premises components.</span></span>
+- <span data-ttu-id="e5fed-118">Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный только в облачной среде, которая не включает каких-либо локальных компонентов.</span><span class="sxs-lookup"><span data-stu-id="e5fed-118">Use the [lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 Enterprise features and capabilities in a cloud-only environment, which does not include any on-premises components.</span></span>
 
-- <span data-ttu-id="bff24-119">Используйте [базовую конфигурацию "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный в гибридной облачной среде, содержащей локальные компоненты такие как домен доменных служб Active Directory (AD DS).</span><span class="sxs-lookup"><span data-stu-id="bff24-119">Use the [simulated enterprise base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 Enterprise features and capabilities in a hybrid cloud environment, which uses on-premises components such as an Active Directory Domain Services (AD DS) domain.</span></span>
+- <span data-ttu-id="e5fed-119">Используйте [базовую конфигурацию "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный в гибридной облачной среде, содержащей локальные компоненты такие как домен доменных служб Active Directory (AD DS).</span><span class="sxs-lookup"><span data-stu-id="e5fed-119">Use the [simulated enterprise base configuration](simulated-ent-base-configuration-microsoft-365-enterprise.md) when you want to configure and demonstrate Microsoft 365 Enterprise features and capabilities in a hybrid cloud environment, which uses on-premises components such as an Active Directory Domain Services (AD DS) domain.</span></span>
 
-<span data-ttu-id="bff24-120">Кроме того, вы можете создавать тестовые среды для Office 365 E5, не добавляя лицензию Microsoft 365 E5 в пробную или рабочую тестовую среду.</span><span class="sxs-lookup"><span data-stu-id="bff24-120">You can also create test environments for Office 365 E5 by not adding the Microsoft 365 E5 license to your trial or production test environment.</span></span>
+<span data-ttu-id="e5fed-120">Кроме того, вы можете создавать тестовые среды для Office 365 E5, не добавляя лицензию Microsoft 365 E5 в пробную или рабочую тестовую среду.</span><span class="sxs-lookup"><span data-stu-id="e5fed-120">You can also create test environments for Office 365 E5 by not adding the Microsoft 365 E5 license to your trial or production test environment.</span></span>
     
-## <a name="identity"></a><span data-ttu-id="bff24-121">Удостоверение</span><span class="sxs-lookup"><span data-stu-id="bff24-121">Identity</span></span>
+## <a name="identity"></a><span data-ttu-id="e5fed-121">Удостоверение</span><span class="sxs-lookup"><span data-stu-id="e5fed-121">Identity</span></span>
 
-<span data-ttu-id="bff24-122">Функции и возможности, связанные с идентификацией, продемонстрированы в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="bff24-122">To demonstrate identity-related features and capabilities, see:</span></span>
+<span data-ttu-id="e5fed-122">Функции и возможности, связанные с идентификацией, продемонстрированы в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="e5fed-122">To demonstrate identity-related features and capabilities, see:</span></span>
 
-- [<span data-ttu-id="bff24-123">Синхронизация хэшей паролей</span><span class="sxs-lookup"><span data-stu-id="bff24-123">Password hash synchronization</span></span>](password-hash-sync-m365-ent-test-environment.md)
+- [<span data-ttu-id="e5fed-123">Синхронизация хэшей паролей</span><span class="sxs-lookup"><span data-stu-id="e5fed-123">Password hash synchronization</span></span>](password-hash-sync-m365-ent-test-environment.md)
   
-   <span data-ttu-id="bff24-124">Включение и тестирование синхронизации службы каталогов на основе хэша пароля из контроллера домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="bff24-124">Enable and test password hash-based directory synchronization from an AD DS domain controller.</span></span>
+   <span data-ttu-id="e5fed-124">Включение и тестирование синхронизации службы каталогов на основе хэша пароля из контроллера домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="e5fed-124">Enable and test password hash-based directory synchronization from an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="bff24-125">Сквозная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="bff24-125">Pass-through authentication</span></span>](pass-through-auth-m365-ent-test-environment.md)
+- [<span data-ttu-id="e5fed-125">Сквозная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="e5fed-125">Pass-through authentication</span></span>](pass-through-auth-m365-ent-test-environment.md)
   
-   <span data-ttu-id="bff24-126">Включение и тестирование сквозной проверки подлинности на контроллере домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="bff24-126">Enable and test pass-through authentication to an AD DS domain controller.</span></span>
+   <span data-ttu-id="e5fed-126">Включение и тестирование сквозной проверки подлинности на контроллере домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="e5fed-126">Enable and test pass-through authentication to an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="bff24-127">Простой единый вход Azure AD</span><span class="sxs-lookup"><span data-stu-id="bff24-127">Azure AD Seamless Single Sign-on</span></span>](single-sign-on-m365-ent-test-environment.md)
+- [<span data-ttu-id="e5fed-127">Федеративная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="e5fed-127">Federated authentication</span></span>](federated-identity-for-your-office-365-dev-test-environment.md)
   
-   <span data-ttu-id="bff24-128">Включение и тестирование простого единого входа (SSO) Azure AD с контроллером домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="bff24-128">Enable and test Azure AD Seamless Single Sign-on (SSO) with an AD DS domain controller.</span></span>
+   <span data-ttu-id="e5fed-128">Включение и тестирование федеративной проверки подлинности на контроллере домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="e5fed-128">Enable and test pass-through authentication to an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="bff24-129">Многофакторная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="bff24-129">Multi-factor authentication</span></span>](multi-factor-authentication-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e5fed-129">Простой единый вход Azure AD</span><span class="sxs-lookup"><span data-stu-id="e5fed-129">Azure AD Seamless Single Sign-on</span></span>](single-sign-on-m365-ent-test-environment.md)
   
-   <span data-ttu-id="bff24-130">Включение и тестирование многофакторной проверки подлинности с использованием смартфона для определенной учетной записи.</span><span class="sxs-lookup"><span data-stu-id="bff24-130">Enable and test smart phone-based multi-factor authentication for a specific user account.</span></span>
+   <span data-ttu-id="e5fed-130">Включение и тестирование простого единого входа (SSO) Azure AD с контроллером домена AD DS.</span><span class="sxs-lookup"><span data-stu-id="e5fed-130">Enable and test Azure AD Seamless Single Sign-on (SSO) with an AD DS domain controller.</span></span>
 
-- [<span data-ttu-id="bff24-131">Защита учетных записей глобальных администраторов</span><span class="sxs-lookup"><span data-stu-id="bff24-131">Protect global administrator accounts</span></span>](protect-global-administrator-accounts-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e5fed-131">Многофакторная проверка подлинности</span><span class="sxs-lookup"><span data-stu-id="e5fed-131">Multi-factor authentication</span></span>](multi-factor-authentication-microsoft-365-test-environment.md)
+  
+   <span data-ttu-id="e5fed-132">Включение и тестирование многофакторной проверки подлинности с использованием смартфона для определенной учетной записи.</span><span class="sxs-lookup"><span data-stu-id="e5fed-132">Enable and test smart phone-based multi-factor authentication for a specific user account.</span></span>
+
+- [<span data-ttu-id="e5fed-133">Защита учетных записей глобальных администраторов</span><span class="sxs-lookup"><span data-stu-id="e5fed-133">Protect global administrator accounts</span></span>](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   <span data-ttu-id="bff24-132">Блокирование учетных записей глобальных администраторов с помощью политик условного доступа.</span><span class="sxs-lookup"><span data-stu-id="bff24-132">Lock down your global administrator accounts with conditional access policies.</span></span>
+   <span data-ttu-id="e5fed-134">Блокирование учетных записей глобальных администраторов с помощью политик условного доступа.</span><span class="sxs-lookup"><span data-stu-id="e5fed-134">Lock down your global administrator accounts with conditional access policies.</span></span>
 
-- [<span data-ttu-id="bff24-133">Обратная запись пароля</span><span class="sxs-lookup"><span data-stu-id="bff24-133">Password writeback</span></span>](password-writeback-m365-ent-test-environment.md)
+- [<span data-ttu-id="e5fed-135">Обратная запись пароля</span><span class="sxs-lookup"><span data-stu-id="e5fed-135">Password writeback</span></span>](password-writeback-m365-ent-test-environment.md)
 
-   <span data-ttu-id="bff24-134">Смена пароля учетной записи пользователя AD DS из Azure AD с помощью обратной записи пароля.</span><span class="sxs-lookup"><span data-stu-id="bff24-134">Use password writeback to change the password on your AD DS user account from Azure AD.</span></span>
+   <span data-ttu-id="e5fed-136">Смена пароля учетной записи пользователя AD DS из Azure AD с помощью обратной записи пароля.</span><span class="sxs-lookup"><span data-stu-id="e5fed-136">Use password writeback to change the password on your AD DS user account from Azure AD.</span></span>
 
-- [<span data-ttu-id="bff24-135">Сброс пароля</span><span class="sxs-lookup"><span data-stu-id="bff24-135">Password reset</span></span>](password-reset-m365-ent-test-environment.md)
+- [<span data-ttu-id="e5fed-137">Сброс пароля</span><span class="sxs-lookup"><span data-stu-id="e5fed-137">Password reset</span></span>](password-reset-m365-ent-test-environment.md)
 
-   <span data-ttu-id="bff24-136">Используйте функцию самостоятельного сброса пароля (SSPR) для сброса пароля.</span><span class="sxs-lookup"><span data-stu-id="bff24-136">Use self-service password reset (SSPR) to reset your password.</span></span>
+   <span data-ttu-id="e5fed-138">Используйте функцию самостоятельного сброса пароля (SSPR) для сброса пароля.</span><span class="sxs-lookup"><span data-stu-id="e5fed-138">Use self-service password reset (SSPR) to reset your password.</span></span>
 
-- [<span data-ttu-id="bff24-137">Автоматическое лицензирование и членство в группах</span><span class="sxs-lookup"><span data-stu-id="bff24-137">Automatic licensing and group membership</span></span>](automate-licenses-group-membership-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e5fed-139">Автоматическое лицензирование и членство в группах</span><span class="sxs-lookup"><span data-stu-id="e5fed-139">Automatic licensing and group membership</span></span>](automate-licenses-group-membership-microsoft-365-test-environment.md)
 
-   <span data-ttu-id="bff24-138">Упрощение администрирования новых учетных записей с помощью автоматического лицензирования и динамического членства в группах.</span><span class="sxs-lookup"><span data-stu-id="bff24-138">Make administering new accounts easier than ever with automatic licensing and dynamic group membership.</span></span>
+   <span data-ttu-id="e5fed-140">Упрощение администрирования новых учетных записей с помощью автоматического лицензирования и динамического членства в группах.</span><span class="sxs-lookup"><span data-stu-id="e5fed-140">Make administering new accounts easier than ever with automatic licensing and dynamic group membership.</span></span>
 
-- [<span data-ttu-id="bff24-139">Защита идентификации Azure AD</span><span class="sxs-lookup"><span data-stu-id="bff24-139">Azure AD Identity Protection</span></span>](azure-ad-identity-protection-microsoft-365-test-environment.md)
+- [<span data-ttu-id="e5fed-141">Защита идентификации Azure AD</span><span class="sxs-lookup"><span data-stu-id="e5fed-141">Azure AD Identity Protection</span></span>](azure-ad-identity-protection-microsoft-365-test-environment.md)
 
-   <span data-ttu-id="bff24-140">Проверка текущих учетных записей пользователей на уязвимости.</span><span class="sxs-lookup"><span data-stu-id="bff24-140">Scan your current user accounts for vulnerabilities.</span></span>
+   <span data-ttu-id="e5fed-142">Проверка текущих учетных записей пользователей на уязвимости.</span><span class="sxs-lookup"><span data-stu-id="e5fed-142">Scan your current user accounts for vulnerabilities.</span></span>
 
-- [<span data-ttu-id="bff24-141">Доступ к удостоверениям и устройствам</span><span class="sxs-lookup"><span data-stu-id="bff24-141">Identity and device access</span></span>](identity-device-access-m365-test-environment.md)
+- [<span data-ttu-id="e5fed-143">Доступ к удостоверениям и устройствам</span><span class="sxs-lookup"><span data-stu-id="e5fed-143">Identity and device access</span></span>](identity-device-access-m365-test-environment.md)
 
-   <span data-ttu-id="bff24-142">Создание среды для тестирования рекомендуемых конфигураций доступа к удостоверениям и устройствам и политик условного доступа.</span><span class="sxs-lookup"><span data-stu-id="bff24-142">Create an environment to test recommended identity and device access configurations and conditional access policies.</span></span>
+   <span data-ttu-id="e5fed-144">Создание среды для тестирования рекомендуемых конфигураций доступа к удостоверениям и устройствам и политик условного доступа.</span><span class="sxs-lookup"><span data-stu-id="e5fed-144">Create an environment to test recommended identity and device access configurations and conditional access policies.</span></span>
 
 
-## <a name="mobile-device-management"></a><span data-ttu-id="bff24-143">Управление мобильными устройствами</span><span class="sxs-lookup"><span data-stu-id="bff24-143">Mobile device management</span></span>
+## <a name="mobile-device-management"></a><span data-ttu-id="e5fed-145">Управление мобильными устройствами</span><span class="sxs-lookup"><span data-stu-id="e5fed-145">Mobile device management</span></span>
 
-<span data-ttu-id="bff24-144">Функции и возможности, связанные с управлением мобильными устройствами, продемонстрированы в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="bff24-144">To demonstrate mobile device management-related features and capabilities, see:</span></span>
+<span data-ttu-id="e5fed-146">Функции и возможности, связанные с управлением мобильными устройствами, продемонстрированы в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="e5fed-146">To demonstrate mobile device management-related features and capabilities, see:</span></span>
 
-- [<span data-ttu-id="bff24-145">Политики соответствия требованиям для устройств</span><span class="sxs-lookup"><span data-stu-id="bff24-145">Device compliance policies</span></span>](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e5fed-147">Политики соответствия требованиям для устройств</span><span class="sxs-lookup"><span data-stu-id="e5fed-147">Device compliance policies</span></span>](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="bff24-146">Создайте группу пользователей и политику соответствия требованиям для устройств Windows 10.</span><span class="sxs-lookup"><span data-stu-id="bff24-146">Create a user group and a device compliance policy for Windows 10 devices.</span></span>
+   <span data-ttu-id="e5fed-148">Создайте группу пользователей и политику соответствия требованиям для устройств Windows 10.</span><span class="sxs-lookup"><span data-stu-id="e5fed-148">Create a user group and a device compliance policy for Windows 10 devices.</span></span>
     
-- [<span data-ttu-id="bff24-147">Регистрация устройств с iOS и Android</span><span class="sxs-lookup"><span data-stu-id="bff24-147">Enroll iOS and Android devices</span></span>](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
+- [<span data-ttu-id="e5fed-149">Регистрация устройств с iOS и Android</span><span class="sxs-lookup"><span data-stu-id="e5fed-149">Enroll iOS and Android devices</span></span>](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
    
-   <span data-ttu-id="bff24-148">Регистрация устройств с iOS или Android и удаленное управление ими.</span><span class="sxs-lookup"><span data-stu-id="bff24-148">Enroll iOS or Android devices and manage them remotely.</span></span>
+   <span data-ttu-id="e5fed-150">Регистрация устройств с iOS или Android и удаленное управление ими.</span><span class="sxs-lookup"><span data-stu-id="e5fed-150">Enroll iOS or Android devices and manage them remotely.</span></span>
 
 
-## <a name="information-protection"></a><span data-ttu-id="bff24-149">Защита информации</span><span class="sxs-lookup"><span data-stu-id="bff24-149">Information protection</span></span>
+## <a name="information-protection"></a><span data-ttu-id="e5fed-151">Защита информации</span><span class="sxs-lookup"><span data-stu-id="e5fed-151">Information protection</span></span>
 
-<span data-ttu-id="bff24-150">Функции и возможности, связанные с защитой информации, продемонстрированы в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="bff24-150">To demonstrate information protection-related features and capabilities, see:</span></span>
+<span data-ttu-id="e5fed-152">Функции и возможности, связанные с защитой информации, продемонстрированы в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="e5fed-152">To demonstrate information protection-related features and capabilities, see:</span></span>
 
-- [<span data-ttu-id="bff24-151">Усиленная защита Office 365</span><span class="sxs-lookup"><span data-stu-id="bff24-151">Increased Office 365 security</span></span>](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e5fed-153">Усиленная защита Office 365</span><span class="sxs-lookup"><span data-stu-id="e5fed-153">Increased Office 365 security</span></span>](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="bff24-152">Настройка параметров для усиления защиты Office 365 и изучение встроенных средств безопасности.</span><span class="sxs-lookup"><span data-stu-id="bff24-152">Configure settings for increased Office 365 security and investigate built-in security tools.</span></span>
+   <span data-ttu-id="e5fed-154">Настройка параметров для усиления защиты Office 365 и изучение встроенных средств безопасности.</span><span class="sxs-lookup"><span data-stu-id="e5fed-154">Configure settings for increased Office 365 security and investigate built-in security tools.</span></span>
   
-- [<span data-ttu-id="bff24-153">Классификация данных</span><span class="sxs-lookup"><span data-stu-id="bff24-153">Data classification</span></span>](data-classification-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e5fed-155">Классификация данных</span><span class="sxs-lookup"><span data-stu-id="e5fed-155">Data classification</span></span>](data-classification-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="bff24-154">Настройка и присвоение метки Office 365 документу на сайте группы SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="bff24-154">Configure and apply Office 365 labels to a document in a SharePoint Online team site.</span></span>
+   <span data-ttu-id="e5fed-156">Настройка и присвоение метки Office 365 документу на сайте группы SharePoint Online.</span><span class="sxs-lookup"><span data-stu-id="e5fed-156">Configure and apply Office 365 labels to a document in a SharePoint Online team site.</span></span>
     
-- [<span data-ttu-id="bff24-155">Управление привилегированным доступом</span><span class="sxs-lookup"><span data-stu-id="bff24-155">Privileged access management</span></span>](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
+- [<span data-ttu-id="e5fed-157">Управление привилегированным доступом</span><span class="sxs-lookup"><span data-stu-id="e5fed-157">Privileged access management</span></span>](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
-   <span data-ttu-id="bff24-156">Настройка управления привилегированным доступом для своевременного доступа к задачам, требующим привилегий и разрешений повышенного уровня, в вашей организации Office 365.</span><span class="sxs-lookup"><span data-stu-id="bff24-156">Configure privileged access management for just-in-time access to elevated and privileged tasks in your Office 365 organization.</span></span>
+   <span data-ttu-id="e5fed-158">Настройка управления привилегированным доступом для своевременного доступа к задачам, требующим привилегий и разрешений повышенного уровня, в вашей организации Office 365.</span><span class="sxs-lookup"><span data-stu-id="e5fed-158">Configure privileged access management for just-in-time access to elevated and privileged tasks in your Office 365 organization.</span></span>
 
 
