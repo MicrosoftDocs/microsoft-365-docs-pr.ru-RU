@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
-ms.openlocfilehash: f0f10d34cd761f7e7e3c60a1816bd79eea8ecd9b
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 98838bd61fb5664e0b8c8aed4f4b20dee39e0dec
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673365"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757686"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
 
@@ -47,11 +47,11 @@ ms.locfileid: "38673365"
   
 ![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
-Конфигурация состоит из следующих компонентов:  
+Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Office 365 E5 и EMS E5.
+- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
+- Azure AD Connect работает на APP1 для синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подпиской на Microsoft 365 или Office 365.
 
 ## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>Этап 2. Включение обратной записи паролей для домена AD DS TESTLAB
 
@@ -124,11 +124,11 @@ ms.locfileid: "38673365"
 
 ![Смоделированная организации с тестовой средой сквозной проверки подлинности](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
 
-Конфигурация состоит из следующих компонентов: 
+Конфигурация состоит из следующих компонентов:
 
-- Пробные или платные подписки на Office 365 E5 и EMS E5 с зарегистрированным доменом DNS TESTLAB.\<доменное имя>.
+- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS TESTLAB.\<доменное имя>.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Office 365 и EMS E5, с доменом AD DS TESTLAB. 
+- Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Microsoft 365 или Office 365, с доменом AD DS TESTLAB. 
 - Обратная запись паролей включена, поэтому пользователи могут сменить свои пароли через Azure AD без необходимости подключения к упрощенной интрасети.
 
 Информацию и ссылки для настройки обратной записи паролей в рабочей среде вы найдете в описании шага [Упрощение процедуры обновления паролей](identity-add-user-accounts.md#identity-pw-writeback) этапа "Идентификация".

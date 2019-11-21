@@ -3,7 +3,7 @@ title: Руководства по лаборатории тестировани
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/04/2019
+ms.date: 11/20/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 корпоративный.
-ms.openlocfilehash: 2f6fd8c17096c9c25a0f1af886894e68d33e939d
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 5f2f6b9fb137cf9d1ea9dc21ca12a3792d79e249
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672575"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757838"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 корпоративный
 
@@ -59,6 +59,10 @@ ms.locfileid: "38672575"
 - [Сквозная проверка подлинности](pass-through-auth-m365-ent-test-environment.md)
   
    Включение и тестирование сквозной проверки подлинности на контроллере домена AD DS.
+
+- [Федеративная проверка подлинности](federated-identity-for-your-office-365-dev-test-environment.md)
+  
+   Включение и тестирование федеративной проверки подлинности на контроллере домена AD DS.
 
 - [Простой единый вход Azure AD](single-sign-on-m365-ent-test-environment.md)
   
