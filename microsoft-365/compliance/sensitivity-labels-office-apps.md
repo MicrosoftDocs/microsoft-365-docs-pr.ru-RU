@@ -1,242 +1,153 @@
 ---
-title: Как метки конфиденциальности действуют в приложениях Office
-ms.author: greglin
-author: greg-lindsay
+title: Метки конфиденциальности в приложениях Office
+ms.author: krowley
+author: kccross
 manager: laurawi
-ms.date: ''
+ms.date: 11/20/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: С помощью меток конфиденциальности вы можете классифицировать и защищать конфиденциальное содержимое, не мешая совместной работе и производительности пользователей. Метки конфиденциальности можно использовать для применения параметров защиты, например шифрования или подложек для содержимого с метками.
-ms.openlocfilehash: f702423f0b1074b5619ef1c321cc5e9f1daef1d7
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
-ms.translationtype: HT
+description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
+ms.openlocfilehash: 1b472185df2d45717cba6cfca30176768bf9cd4e
+ms.sourcegitcommit: 5f96fa472cbdca30c2cfe24d66c9c6fcaedb1a6b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417568"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38755597"
 ---
-# <a name="how-sensitivity-labels-work-in-office-apps"></a>Как метки конфиденциальности действуют в приложениях Office
+# <a name="sensitivity-labels-in-office-apps"></a>Метки конфиденциальности в приложениях Office
 
-## <a name="what-prerequisites-are-there-to-use-sensitivity-labels-in-office-applications"></a>Какие предварительные требования существуют для использования меток конфиденциальности в приложениях Office?
+В этой статье описываются:
 
-### <a name="common-requirements"></a>Общие требования 
+- Требования к среде, прежде чем применять метки конфиденциальности к электронной почте, файлам и вложениям.
+- Какие возможности меток чувствительности поддерживаются каждым приложением Office.
+- Что происходит при сочетании меток конфиденциальности с другими технологиями безопасности и соответствия Майкрософт, которые работают с приложениями Office.
+- Сведения о том, как сотрудники Организации могут использовать метки конфиденциальности при работе с приложениями Office для Windows и приложениями Office для Интернета.
+- Где, чтобы перейти к разделу "получение людей в организации" с метками конфиденциальности.
 
-- Унифицированные метки конфиденциальности должны быть [настроены и опубликованы в Центре безопасности и соответствия требованиям](https://aka.ms/managemip).
-- Пользователи должны выполнить вход в Office с помощью рабочей учетной записи.
-- Пользователям должны быть назначены лицензии Office 365 E3 или выше.
+## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>Требования к подписке и лицензированию для меток конфиденциальности
 
-### <a name="additional-requirements-for-office-for-windows"></a>Дополнительные требования к Office для Windows 
+Пользователям должна быть назначена по крайней мере одна из следующих лицензий:
 
-- Клиент Azure Information Protection не должен быть запущен в Office. См. также: [Могут ли метки конфиденциальности одновременно использоваться в клиенте Azure Information Protection в Office для Windows?](#can-sensitivity-labels-run-alongside-the-azure-information-protection-client-in-office-for-windows).
+- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) или более поздняя версия
 
-### <a name="additional-requirements-for-outlook-on-all-platforms"></a>Дополнительные требования для Outlook на всех платформах 
+- [Office 365 E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software) или более поздней версии
 
-- Если при настройке меток отключена маркировка содержимого, требуется использовать Exchange Online, чтобы маркировка содержимого была добавлена при переносе.
+- [Azure Information Protection Premium P1](https://azure.microsoft.com/pricing/details/information-protection/) или выше
 
-## <a name="what-sensitivity-label-capabilities-are-supported-in-office-today"></a>Какие возможности меток конфиденциальности в настоящее время поддерживаются в Office? 
+Встроенный клиент меток Office поддерживает метки конфиденциальности с версией Office для подписки. Клиент не поддерживает автономные версии, например Office 2016 или Office 2019.
 
-<table border="1" cellspacing="0" cellpadding="0">
-<th><font size="-1">Возможность<th><font size="-1">Windows<th><font size="-1">Mac<th colspan="2"><font size="-1">iOS<th colspan="2"><font size="-1">Android<th colspan="2"><font size="-1">Интернет</tr>
-<tr><td>
+Чтобы использовать автоматические или Рекомендуемые метки чувствительности, пользователям необходима одна из следующих лицензий:
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint<br>
-Outlook
+- [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) в ~ или более поздней версии
 
+- [Office 365](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software) в ~ или более поздней версии
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint<br>
-Outlook
+- [Azure Information Protection Premium P2](https://azure.microsoft.com/pricing/details/information-protection/) или выше
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint
-<td><font size="-1"> Outlook
+## <a name="support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Поддержка возможностей меток конфиденциальности в Word, Excel и PowerPoint
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint
-<td><font size="-1"> Outlook
+Для каждой возможности в следующей таблице перечислены минимальные версии, необходимые для этого приложения. Это означает, что вы не можете использовать эту возможность на этой платформе.
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint
-<td><font size="-1"> Outlook </b>
-</tr>
+|Возможность                                                                                                        |Рабочий стол Windows |Настольный компьютер Mac |iOS    |Android      |Web                                                         |
+|------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
+|[Вручную применить, изменить или удалить метку](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | Подлежит уточнению.                                                        |
+|[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Предоставление ссылки на страницу настраиваемой справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Маркировка содержимого](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Назначение разрешений сразу](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Подлежит определению.            | Подлежит определению.        | Подлежит определению.   | Подлежит определению.         | Подлежит определению.                                                        |
+|[Просмотр использования меток с помощью аналитики меток](label-analytics.md) и отправка данных для администраторов                      | Подлежит определению.            | Подлежит определению.        | Подлежит определению.   | Подлежит определению.         | Подлежит определению.                                                        |
+|
+  [Требование применения пользователями метки к электронной почте и документам](sensitivity-labels.md#what-label-policies-can-do)   | Подлежит определению.            | Подлежит определению.        | Подлежит определению.   | Подлежит определению.         | Подлежит определению.                                                        |
+|[Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)                    | Предварительный просмотр: при развертывании в [программе предварительной оценки Office](https://office.com/insider)                                  | Подлежит определению. | Подлежит определению. | Подлежит определению. | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|Поддержка [автосохранения](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) и [совместного редактирования](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) для помеченных и защищенных документов | Подлежит определению. | Подлежит определению. | Подлежит определению. | Подлежит определению. | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|
 
-<tr>
-<td><font size="-1">Применение, изменение или удаление метки вручную<td><font size="-1"><b>Да</b><br><font size="-1">1910 и выше</font>
+## <a name="support-for-sensitivity-label-capabilities-in-outlook"></a>Поддержка возможностей меток конфиденциальности в Outlook
 
-<td><font size="-1"><b>Да</b><br><font size="-1">16.21.0 и выше</font>
+Для каждой возможности в следующей таблице перечислены минимальные версии, необходимые для этого приложения. Это означает, что вы не можете использовать эту возможность на этой платформе.
 
-<td><font size="-1"><b>Да</b><br><font size="-1">2.21 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">16.0.11231 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup><td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
+|Возможность                                                                                                        |Рабочий стол Outlook для Windows |Настольные компьютеры с Outlook на Mac  |Outlook для iOS |Outlook для Android |Outlook в Интернете |
+|------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
+|[Вручную применить, изменить или удалить метку](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Предоставление ссылки на страницу настраиваемой справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Маркировка содержимого](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Назначение разрешений сразу](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Просмотр использования меток с помощью аналитики меток](label-analytics.md) и отправка данных для администраторов                      | Подлежит определению.                       | Подлежит определению.                    | Подлежит определению.           | Подлежит определению.               | Подлежит определению.               |
+|
+  [Требование применения пользователями метки к электронной почте и документам](sensitivity-labels.md#what-label-policies-can-do)   | Подлежит определению.                       | Подлежит определению.                    | Подлежит определению.           | Подлежит определению.               | Подлежит определению.               |
+|[Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)                    | Подлежит определению.                       | Подлежит определению.                    | Подлежит определению.           | Подлежит определению.               | Предварительный просмотр: при развертывании в [целевом выпуске](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide) |
+|
 
-<tr>
-<td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">Применение стандартной метки</a>
-<td><font size="-1"><b>Да</b><br><font size="-1">1910 и выше</font>
+## <a name="about-the-office-built-in-labeling-client"></a>О встроенном клиенте меток для Office
 
-<td><font size="-1"><b>Да</b><br><font size="-1">16.21.0 и выше</font>
+Встроенный клиент наклеек Office загружает метки и параметры политики из следующих центров администрирования:
 
-<td><font size="-1"><b>Да</b><br><font size="-1">2.21 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">16.0.11231 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
+- Центр безопасности и соответствия требованиям Office 365
 
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">Требование обоснования для изменения метки</a><sup>1</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">1910 и выше</font>
+- Центр безопасности Microsoft 365
 
-<td><font size="-1"><b>Да</b><br><font size="-1">16.21.0 и выше</font>
+- Центр соответствия требованиям Microsoft 365
 
-<td><font size="-1"><b>Да</b><br><font size="-1">2.21 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">16.0.11231 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
+Встроенный клиент меток Office автоматически включается для пользователей с одной или несколькими [политиками меток, опубликованными](sensitivity-labels.md#what-label-policies-can-do) для них.
 
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">Предоставление ссылки на страницу настраиваемой справки</a>
-<td><font size="-1"><b>Да</b><br><font size="-1">1910 и выше</font>
+Чтобы использовать встроенный клиент меток в Office в Windows, вы не можете одновременно запустить надстройку Azure Information Protection в Office. Клиент Azure Information Protection можно либо временно удалить, либо оставить без возможности восстановления, а также настроить Office, чтобы предотвратить его запуск.
 
-<td><font size="-1"><b>Да</b><br><font size="-1">16.21.0 и выше</font>
+1. Выполните одно из следующих действий:
 
-<td><font size="-1"><b>Да</b><br><font size="-1">2.21 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">16.0.11231 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
+    **Для нескольких компьютеров:** Настройка **использования функции учета конфиденциальности в Office для применения и просмотра** параметров групповой политики меток конфиденциальности. Этот параметр находится в разделе **Конфигурация пользователя/Административные шаблоны/Microsoft Office 2016/параметры безопасности**. Разверните этот параметр с помощью групповой политики или [службы Microsoft Cloud Policy Service](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
 
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-sensitivity-labels-can-do">Маркировка содержимого</a>
-<td><font size="-1"><b>Да</b><br><font size="-1">1910 и выше</font>
-
-<td><font size="-1"><b>Да</b><br><font size="-1">16.21.0 и выше</font>
-
-<td><font size="-1"><b>Да</b><br><font size="-1">2.21 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">16.0.11231 и выше</font
-><td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-
-<tr><td><font size="-1">
-  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/encryption-sensitivity-labels#assign-permissions-now">Назначение предопределенных разрешений</a>
-<td><font size="-1"><b>Да</b><br><font size="-1">1910 и выше</font>
-
-<td><font size="-1"><b>Да</b><br><font size="-1">16.21.0 и выше</font>
-
-<td><font size="-1"><b>Да</b><br><font size="-1">2.21 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1"><b>Да</b><br><font size="-1">16.0.11231 и выше</font>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions">Предоставление пользователям возможности назначать разрешения</a>
-<td><font size="-1"><b>Да</b><sup>2</sup><br><font size="-1">1910 и выше</font>
-
-<td><font size="-1"><b>Да</b><sup>2</sup><br><font size="-1">16.21.0 и выше</font>
-
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Подлежит уточнению<td
-><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Ожидается в ближайшее время<sup>3</sup>
-
-<tr><td><font size="-1">Отправка данных <a href="https://docs.microsoft.com/microsoft-365/compliance/label-analytics">аналитики меток</a> для администраторов
-<td><font size="-1">Подлежит уточнению
-
-<td><font size="-1">Подлежит уточнению
-
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-
-<tr><td><font size="-1">
-  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">Требование применения пользователями метки к электронной почте и документам</a>
-<td><font size="-1">Подлежит уточнению
-
-<td><font size="-1">Подлежит уточнению
-
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically">Автоматическое применение метки конфиденциальности к содержимому</a>
-<td><font size="-1">Подлежит уточнению
-
-<td><font size="-1">Подлежит уточнению
-
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-<td><font size="-1">Подлежит уточнению
-</table>
-
-<br><sup>1</sup>Если настроено, пользователям потребуется обосновать понижение уровня метки. Однако данные обоснования пока недоступны администраторам. Они станут доступны, когда будет поддерживаться функция "Отправка данных аналитики меток для администраторов".
-<br><sup>2</sup>Возможность назначения разрешений пользователями в настоящее время доступна только в Outlook для Windows и Mac. Доступность для Word, Excel и PowerPoint подлежит уточнению.
-<br><sup>3</sup>Ожидается в 4 квартале 2019 г.
-
-## <a name="when-do-content-marks-or-encryption-get-applied-after-content-is-given-a-sensitivity-label"></a>Когда к содержимому применяется маркировка или шифрование после присвоения метки конфиденциальности?
-
-| Приложение | Маркировка содержимого | Шифрование
-| --- | --- | --- |
-| Word, Excel, PowerPoint на всех платформах | Сразу | Сразу |
-| Outlook для ПК и Mac | После отправки сообщения электронной почты службой Exchange Online | Сразу |
-| Outlook в Интернете, для iOS и Android | После отправки сообщения электронной почты службой Exchange Online | После отправки сообщения электронной почты службой Exchange Online |
-
-## <a name="can-sensitivity-labels-run-alongside-the-azure-information-protection-client-in-office-for-windows"></a>Могут ли метки конфиденциальности одновременно использоваться в клиенте Azure Information Protection в Office для Windows?
-
-Нет. Метки конфиденциальности отключены, если клиент Azure Information Protection загружен в Office для Windows.
-
-Если у вас установлен клиент Azure Information Protection, но вы хотите вместо него использовать метки конфиденциальности, можно выполнить следующие действия:
-
-1. Настройте параметр групповой политики  **Использование функции "Конфиденциальность" в Office для применения и просмотра меток конфиденциальности**, находящийся в разделе **Конфигурация пользователя/Административные шаблоны/Microsoft Office 2016/Параметры безопасности**.
-
-  >Примечание. Этот параметр можно развернуть с помощью традиционных механизмов развертывания групповой политики или с помощью [службы политики облака Office](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service). 
- 
-  Кроме того, вы можете удалить или  [отключить](https://support.office.com/article/view-manage-and-install-add-ins-in-office-programs-16278816-1948-4028-91e5-76dca5380f8d) клиент Azure Information Protection. 
+    **Для одного компьютера:** В разделе "Просмотр, управление и установка надстроек в приложениях Office" и [окончательное отключение или удаление](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) надстройки Azure Information Protection на одном компьютере.
 
 2. Перезапустите все приложения Office.
 
-## <a name="will-sensitivity-labels-be-supported-in-non-subscription-versions-of-office-like-office-2016-or-office-2019"></a>Поддерживаются ли метки конфиденциальности в версиях Office без подписки, таких как Office 2016 и Office 2019?
+Дополнительные сведения о клиентских приложениях для защиты данных можно найти [на клиентской стороне Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/use-client).
 
-Нет. Метки конфиденциальности поддерживаются только в версии Office 365 с подпиской и не поддерживаются в версиях без подписки. Однако в версиях Office без подписки можно использовать клиент унифицированных меток Azure Information Protection. 
+## <a name="protection-templates-and-sensitivity-labels"></a>Шаблоны защиты и метки конфиденциальности
 
-## <a name="i-previously-deployed-protection-templates-before-setting-up-sensitivity-labels-where-did-they-go"></a>Перед настройкой меток конфиденциальности я развернул шаблоны защиты. Куда они делись?
+[Шаблоны защиты](https://docs.microsoft.com/azure/information-protection/configure-policy-templates), определенные администратором, например, указанные для шифрования сообщений Office 365, скрыты в пользовательском интерфейсе Office, когда метки чувствительности включены, так как они избыточны с метками конфиденциальности с включенным шифрованием.
 
-Определяемые администратором [шаблоны защиты](https://docs.microsoft.com/azure/information-protection/configure-policy-templates) скрываются из пользовательского интерфейса Office, когда включаются метки конфиденциальности, так как они являются избыточными при применении меток конфиденциальности, в которых включено шифрование. 
+## <a name="apply-sensitivity-labels-to-files-emails-and-attachments"></a>Применение меток конфиденциальности к файлам, сообщениям электронной почты и вложениям
 
-## <a name="can-a-file-or-email-have-more-than-one-classification"></a>Может ли файл или сообщение электронной почты иметь несколько классификаций?
+Пользователи могут одновременно применять только одну метку для каждого документа или электронной почты.
 
-Нет. Пользователи могут одновременно выбрать только одну метку для каждого документа или сообщения электронной почты.
+Если вы настроили метку сообщения электронной почты с вложениями, то вложения не наследуют метку. Если вложение снабжено меткой, оно будет храниться в отдельной метке. Если у вложения нет метки, вложения сохраняются без метки. Однако если метка для сообщения электронной почты обеспечивает применение защиты, эта защита применяется к вложениям Office.
 
-## <a name="when-an-email-is-labeled-do-any-attachments-automatically-get-the-same-labeling"></a>Когда метка присваивается сообщению электронной почты, получают ли все вложения такую же метку автоматически?
+## <a name="sensitivity-label-compatibility"></a>Совместимость меток конфиденциальности
 
-Нет. Если метка присваивается сообщению электронной почты с вложениями, эти вложения не наследуют такую же метку. Вложения остаются без метки или сохраняют отдельно присвоенную метку. Однако если метка для сообщения электронной почты обеспечивает применение защиты, эта защита применяется к вложениям Office.
+**С приложениями RMS – енлигхтенед**. Если вы откроете подписанный _и зашифрованный_ документ или электронную почту в [приложении RMS-енлигхтенед](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) , не поддерживающем метки конфиденциальности, приложение по-прежнему будет применять шифрование и управление правами.
 
-## <a name="additional-resources"></a>Дополнительные ресурсы
+**С клиентом Azure Information Protection**. Вы можете просматривать и изменять метки конфиденциальности, которые применяются к документам и сообщениям электронной почты с помощью встроенного клиента с метками Office с помощью клиента Azure Information Protection и наоборот.
 
-[Вопросы и ответы о классификации и присвоении меток в Azure Information Protection](https://docs.microsoft.com/azure/information-protection/faqs-infoprotect)<br>
-[Применение меток конфиденциальности к документам и сообщениям электронной почты в Office](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+**С другими версиями Office**. Любой уполномоченный пользователь может открывать помеченные документы и сообщения электронной почты в других версиях Office. Тем не менее, вы можете просматривать и изменять метки в поддерживаемых версиях Office или в клиенте Azure Information Protection. Поддерживаемые версии приложений Office перечислены в таблицах этой статьи.
+
+## <a name="support-for-sharepoint-and-onedrive-files-protected-by-sensitivity-labels"></a>Поддержка файлов SharePoint и OneDrive, защищенных с помощью меток конфиденциальности
+
+Чтобы использовать встроенный клиент наклеек Office в Office в Интернете, документ должен находиться в экземпляре OneDrive для бизнеса или SharePoint Online, который выбрал параметр [Включить метки конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
+
+## <a name="when-office-365-applies-marks-and-encryption-to-content"></a>Когда Office 365 применяет метки и шифрование к содержимому
+
+Office 365 применяет метки содержимого или шифрование по-разному в зависимости от используемого приложения.
+
+| Приложение | Маркировка содержимого | Шифрование |
+| --- | --- | --- |
+| Word, Excel, PowerPoint на всех платформах | Сразу | Сразу |
+| Outlook для ПК и Mac | После отправки электронной почты в Exchange Online | Сразу |
+| Outlook в Интернете, для iOS и Android | После отправки электронной почты в Exchange Online | После отправки электронной почты в Exchange Online |
+|
+
+## <a name="more-resources"></a>Дополнительные ресурсы
+
+[Вопросы и ответы о классификации и присвоении меток в Azure Information Protection](https://docs.microsoft.com/azure/information-protection/faqs-infoprotect)
+
+[Применение меток конфиденциальности к документам и сообщениям электронной почты в Office](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)

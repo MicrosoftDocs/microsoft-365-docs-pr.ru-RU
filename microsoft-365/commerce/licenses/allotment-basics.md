@@ -12,12 +12,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: Сведения о новых функциях.
-ms.openlocfilehash: 3414fce02844629826edc6d9474f746aa27cfa2e
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: fff63b3c61ad95696e7f7677a34154ad65e82259
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012502"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753578"
 ---
 # <a name="allotment-basics"></a>Основы объема услуг
 
@@ -47,4 +47,4 @@ ms.locfileid: "38012502"
 
 ## <a name="getting-started"></a>Начало работы
 
-Функция "предоставление услуг" доступна в частном предварительном просмотре только для небольшого числа клиентов. Если вы хотите присоединиться, заполните эту форму:[https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup)
+Функция "предоставление услуг" доступна в частном предварительном просмотре только для небольшого числа клиентов. Если вы хотите присоединиться, заполните эту форму [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup):.
