@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Office 365 профессиональный плюс для Microsoft 365 корпоративный.
-ms.openlocfilehash: a51a37a321b450d233d7f9fd6da28b5828514d13
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 30e3956eba0e990d8d07a41dae924c3005f34d75
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627453"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757756"
 ---
 # <a name="phase-4-office-365-proplus"></a>Этап 4. Office 365 профессиональный плюс
 
@@ -59,7 +59,7 @@ ms.locfileid: "38627453"
 
 - **[Развертывание Office 365 профессиональный плюс с помощью ODT из облака](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-from-the-cloud):** управляйте развертыванием с помощью ODT, установив Office на клиентских устройствах непосредственно из сети CDN Office
  
-- **[Самостоятельная установка Office 365 профессиональный плюс с портала Office](https://support.office.com/article/Download-and-install-or-reinstall-Office-365-or-Office-2016-on-a-PC-or-Mac-4414EAAF-0478-48BE-9C42-23ADC4716658):** управляйте развертыванием на портале Office. Пользователи будут устанавливать Office на своих клиентских устройствах непосредственно с портала.
+- **[Самостоятельная установка Office 365 профессиональный плюс с портала Office](https://docs.microsoft.com/deployoffice/manage-software-download-settings-office-365):** управляйте развертыванием на портале Office. Пользователи будут устанавливать Office на своих клиентских устройствах непосредственно с портала.
 
 Во многих организациях для разных пользователей используются разные варианты. Например, для большинства пользователей развертывание Office может быть выполнено с помощью Configuration Manager, но для небольшая группа сотрудников, которые нечасто подключаются ко внутренней сети, установит Office самостоятельно. 
 
