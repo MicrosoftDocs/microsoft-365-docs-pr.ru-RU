@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройте и протестируйте эффективный единый вход Azure AD для тестовой среды Microsoft 365.
-ms.openlocfilehash: 2845b3ec7d1725219fcbbb14ed4c1067a11a90bc
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: a32dca8c37d9e6788aef801e9f99a90b724e86b1
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673295"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757676"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Эффективный единый вход Azure AD для тестовой среды Microsoft 365
 
@@ -47,11 +47,11 @@ ms.locfileid: "38673295"
   
 ![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
-Конфигурация состоит из следующих компонентов:  
+Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Office 365 E5 и EMS E5.
+- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для периодической синхронизации домена TESTLAB доменных служб Active Directory (AD DS) с клиентом Azure AD, связанным с подписками на Office 365 и EMS E5.
+- Azure AD Connect работает на APP1 для периодической синхронизации домена TESTLAB доменных служб Active Directory (AD DS) с клиентом Azure AD, связанным с подпиской на Microsoft 365 или Office 365.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso"></a>Этап 2. Настройка эффективного единого входа Azure AD через Azure AD Connect на APP1
 
@@ -104,11 +104,11 @@ ms.locfileid: "38673295"
 ![Смоделированная организации с тестовой средой сквозной проверки подлинности](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
 
  
-Конфигурация состоит из перечисленных ниже компонентов.
+Конфигурация состоит из следующих компонентов:
 
-- Пробные или платные подписки на Office 365 E5 и EMS E5 с зарегистрированным доменом DNS testlab.\<доменное имя>.
+- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS testlab.\<доменное имя>.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Office 365 и EMS E5, с доменом AD DS TESTLAB. 
+- Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Microsoft 365 или Office 365, с доменом AD DS TESTLAB. 
 - Эффективный единый вход Azure AD включен, поэтому при входе в облачные ресурсы Microsoft 365 с компьютеров в моделируемой интрасети не требуется указывать пароль учетной записи пользователя.
 
 Информацию и ссылки для настройки эффективного единого входа Azure AD в эксплуатационной среде вы найдете в описании шага [Упрощение входа пользователей](identity-secure-your-passwords.md#identity-sso) этапа "Идентификация".
