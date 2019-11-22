@@ -13,14 +13,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 13267597bb29708fcf477a79168e6873a7ccdd90
-ms.sourcegitcommit: b8dd1cb1da936f2b7c9ed621bce6ef5b3588427c
+ms.openlocfilehash: 6f024337ac134cc830dfb61286e7f8e53d41c169
+ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37400345"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39191224"
 ---
-# <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
+# <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
 **Относится к:**
 
@@ -40,9 +40,13 @@ Office 365 доступно в двух планах: Office 365 ATP 1 и Office
 
 Office 365 ATP (план 2) входит в состав Office 365 корпоративный ~, Office 365 для образования A5 и Microsoft 365 корпоративный "~". Office 365 ATP, план 1, входит в состав Microsoft 365 бизнес. Если текущая подписка не включает Office 365 ATP, [обратитесь в отдел продаж для запуска пробной версии](https://go.microsoft.com/fwlink/p/?LinkId=518644)и посмотрите, как можно работать ATP для вашей организации. 
 
+## <a name="november-2019"></a>Ноябрь 2019 г.
+
+- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей (Предварительная версия)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (Office 365 ATP, план 2)
+
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
-- [Использование автоматического реагирования на инциденты (AIR) в office 365](automated-investigation-response-office.md) (Office 365, план 2)
+- Использование [автоматического реагирования на инциденты (AIR) в office 365](automated-investigation-response-office.md) (Office 365, план 2)
 
 - [Интеграция событий Air с office 365 ATP с помощью API действий управления office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP, план 2)
 
@@ -61,7 +65,7 @@ Office 365 ATP (план 2) входит в состав Office 365 корпор
 - [Просмотрите данные о фишинговых URL-адресах и выберите вредоносности](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP (план 1) или план 2)
 
 
-## <a name="see-also"></a>Дополнительные ресурсы
+## <a name="see-also"></a>См. также
 
 [План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 

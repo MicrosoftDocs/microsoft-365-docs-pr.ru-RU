@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Заметки о выпуске и известные проблемы для оценки соответствия требованиям Майкрософт (Предварительная версия) — функция центра соответствия требованиям M365, помогающая упростить и автоматизировать оценку риска.
-ms.openlocfilehash: 192519e323f9d23420f82a603979b50f4581ac4f
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: d46e8a621b6f4daa1275a78b5cc1e6917e0a997c
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687480"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793643"
 ---
-# <a name="microsoft-compliance-score-release-notes-preview"></a>Заметки о выпуске Microsoft для оценки соответствия требованиям (Предварительная версия)
+# <a name="microsoft-compliance-score-preview-release-notes"></a>Заметки о выпуске Microsoft для оценки соответствия требованиям (Предварительная версия)
 
 Общедоступная Предварительная версия оценки соответствия требованиям Майкрософт предоставляет вам ранний доступ к предстоящим функциям и обновлениям.
 

@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как выполнить вход, настроить разрешения и понять вашу информационную панель для оценки соответствия требованиям корпорации Майкрософт, которая упрощает и автоматизирует оценку риска.
-ms.openlocfilehash: 8c9bc7d1605bad66228bb47de8f86042839ac5be
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 7bff479d4cd7e3f200f7fc169eb351299eec8a39
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38687315"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793653"
 ---
-# <a name="microsoft-compliance-score-setup-preview"></a>Настройка оценки соответствия требованиям Майкрософт (Предварительная версия)
+# <a name="microsoft-compliance-score-preview-setup"></a>Настройка оценки соответствия требованиям Майкрософт (Предварительная версия)
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
@@ -111,6 +111,6 @@ ms.locfileid: "38687315"
 - В заголовке **Примененные фильтры** нажмите кнопку **X** рядом с нужным фильтром, чтобы удалить его. также
 - Выберите **Фильтр** в верхней правой части панели мониторинга, а затем выберите пункт **Очистить фильтры**.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующее действие
 
 Посетите страницу [Работа с показателем соответствия требованиям](working-with-compliance-score.md) , чтобы понять, как выполнять действия для оптимизации оценки.
