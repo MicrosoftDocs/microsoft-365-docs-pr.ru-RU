@@ -16,7 +16,7 @@
 ### [Операции и мониторинг](service-description/operations-and-monitoring.md)
 ### [Требования к приложениям](service-description/mmd-app-requirements.md)
 ### [Изменения служб и обмен информацией](service-description/servicechanges.md)
-### [Настройка службы](service-description/customizing.md)
+### [Исключения в плане обслуживания](service-description/customizing.md)
 ## [Подготовка к регистрации для получения услуги предоставления компьютеров, управляемых Майкрософт](get-ready/index.md)
 ### [Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md)
 ### [Подготовка сети](get-ready/network.md)

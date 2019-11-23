@@ -3,7 +3,7 @@ title: Эффективный единый вход Azure AD для тестов
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2018
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройте и протестируйте эффективный единый вход Azure AD для тестовой среды Microsoft 365.
-ms.openlocfilehash: a32dca8c37d9e6788aef801e9f99a90b724e86b1
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: f263ab507e392c1172d28b5d6ef111d8d9f40682
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757676"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202240"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Эффективный единый вход Azure AD для тестовой среды Microsoft 365
 
@@ -81,7 +81,7 @@ ms.locfileid: "38757676"
 
 11. На портале Azure, в области слева, выберите **Azure Active Directory > Azure AD Connect**. Убедитесь, что функция **Эффективный единый вход** **включена**.
 
-Затем проверьте возможность входа в вашу подписку на Office 365 с помощью учетной записи <strong>user1@testlab.</strong>\<общедоступный домен > имя пользователя User1.
+Затем проверьте возможность входа в вашу подписку с помощью учетной записи <strong>user1@testlab.</strong>\<общедоступный домен> на имя пользователя User1.
 
 1. В Internet Explorer на APP1 щелкните значок настроек и выберите **Свойства браузера**.
  
@@ -93,11 +93,11 @@ ms.locfileid: "38757676"
 
 5. В поле **Добавить в зону следующий узел** введите **https<span>://</span>autologon.microsoftazuread-sso.com** и нажмите **Добавить > Закрыть > ОК > ОК**.
 
-6. Выйдите из Office 365 и повторно войдите, используя другую учетную запись.
+6. Выйдите и повторно войдите, используя другую учетную запись.
 
 7. Укажите имя <strong>user1@testlab.</strong>\<общедоступный домен> и нажмите **Далее**. Вход в учетную запись User1 будет выполнен без запроса пароля. Это доказывает, что эффективный единый вход работает.
 
-Обратите внимание, что хотя у пользователя User1 есть разрешения администратора для домена AD DS TESTLAB, он не является глобальным администратором для Azure AD и Office 365 Следовательно, значок **Администратор** не будет отображаться.
+Обратите внимание, что хотя у пользователя User1 есть разрешения администратора для домена AD DS TESTLAB, он не является глобальным администратором для Azure AD. Следовательно, значок **Администратор** не будет отображаться.
 
 Ниже показана итоговая конфигурация.
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте защищенную команду для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: d875c3148a019774e038d18a75bb6fb2c2413463
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: cc29bbc076bf4d66593f785a1e4d1f881a530d83
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699769"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202430"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams для строго регулируемых данных
 
@@ -213,6 +213,12 @@ ms.locfileid: "38699769"
   Вы можете узнать, каким файлам присвоены метки, просмотрев папку в SharePoint и добавив столбец **Конфиденциальность** с помощью параметра **Показать/скрыть столбцы** элемента **Добавить столбец**.
 
 При необходимости следует провести повторное обучение пользователей.
+
+## <a name="demonstrate-this-in-a-test-environment"></a>Демонстрация в тестовой среде
+
+Чтобы создать собственную тестовую среду для тестирования команд с применением конфиденциальных и строго конфиденциальных файлов, см. [эти инструкции](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-team-for-files-in-a-dev-test-environment). 
+
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)
 
 ## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Как корпорация Contoso использовала защищенную команду для сверхсекретного проекта
 
