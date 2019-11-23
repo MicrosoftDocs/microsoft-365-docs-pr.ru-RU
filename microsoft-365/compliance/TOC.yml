@@ -701,6 +701,8 @@
           href: compliance-score-methodology.md
         - name: Заметки о выпуске рейтинга соответствия требованиям (предварительная версия)
           href: compliance-score-release-notes.md
+        - name: Вопросы и ответы по показателю соответствия требованиям (Предварительная версия)
+          href: compliance-score-faq.md
         - name: Диспетчер соответствия требованиям (предварительная версия)
           href: compliance-manager-overview.md
           items:

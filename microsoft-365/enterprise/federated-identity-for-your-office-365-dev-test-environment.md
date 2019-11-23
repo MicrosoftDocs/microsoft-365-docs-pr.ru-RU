@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: Сводка. Сведения о настройке федеративной аутентификации для среды тестирования Microsoft 365.
-ms.openlocfilehash: 703f6421a6029f5bdde4cda1942d91f2b467a94a
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: 895d6b825a3e2928fee1e9f68ce2195b92117e37
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757890"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202276"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Федеративная идентификация для среды тестирования Microsoft 365
 
@@ -33,7 +33,7 @@ Office 365 поддерживает федеративную идентифик�
   
 В этой статье описано, как можно настроить федеративную аутентификацию для среды тестирования Microsoft 365 или Office 365, чтобы получить представленную ниже конфигурацию.
 
-![Федеративная аутентификация для среды тестирования Microsoft 365](media/federated-identity-for-your-office-365-dev-test-environment/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
+![Федеративная аутентификация для среды тестирования Microsoft 365](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase3.png)
   
 Конфигурация состоит из следующих компонентов: 
   
@@ -60,7 +60,7 @@ Office 365 поддерживает федеративную идентифик�
 
 Следуйте инструкциям в статье [Синхронизация хэша паролей для Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Ниже показана итоговая конфигурация.
   
-![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/federated-identity-for-your-office-365-dev-test-environment/be5b37b0-f832-4878-b153-436c31546e21.png)
+![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase1.png)
   
 Конфигурация состоит из следующих компонентов: 
   
@@ -109,7 +109,7 @@ Restart-Computer
 
 Ниже показана итоговая конфигурация.
   
-![Сервер AD FS добавлен в DirSync для среды тестирования Microsoft 365](media/federated-identity-for-your-office-365-dev-test-environment/da82f39e-426d-41e2-842a-c13b382d63d5.png)
+![Сервер AD FS добавлен в DirSync для среды тестирования Microsoft 365](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase2.png)
   
 ## <a name="phase-3-create-the-web-proxy-server"></a>Этап 3. Создание веб-прокси-сервера
 
@@ -176,7 +176,7 @@ Add-DnsServerResourceRecordA -Name "fs" -ZoneName corp.contoso.com -AllowUpdateA
   
 Ниже показана итоговая конфигурация.
   
-![Прокси-сервер веб-приложений добавлен в DirSync для среды тестирования Microsoft 365](media/federated-identity-for-your-office-365-dev-test-environment/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
+![Прокси-сервер веб-приложений добавлен в DirSync для среды тестирования Microsoft 365](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase3.png)
   
 ## <a name="phase-4-create-a-self-signed-certificate-and-configure-adfs1-and-proxy1"></a>Этап 4. Создание самозаверяющего сертификата и настройка ADFS1 и PROXY1
 
