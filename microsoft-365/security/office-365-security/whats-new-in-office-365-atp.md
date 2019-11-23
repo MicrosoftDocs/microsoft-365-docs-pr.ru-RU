@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 6f024337ac134cc830dfb61286e7f8e53d41c169
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 3f9d4e1dff1f324e8e2c3eedb502ef0480d2c25e
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191224"
+ms.locfileid: "39202420"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -26,23 +26,27 @@ ms.locfileid: "39191224"
 
 - [Office 365 Advanced Threat protection (Office 365 ATP)](office-365-atp.md)
 
-Теперь следующие функции (GA) доступны в последнем выпуске Office 365 ATP. 
+В этой статье перечислены новые функции в последнем выпуске Office 365 ATP. Функции, которые в настоящее время находятся в предварительной версии, обозначены **(Предварительная версия)**.
 
 >У вас еще нет Office 365 ATP? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644). 
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
 
-Office 365 доступно в двух планах: Office 365 ATP 1 и Office 365 (план 2). В приведенной ниже таблице представлена сводная информация о том, что входит в каждый план. 
+Office 365 доступно в двух планах: Office 365 ATP 1 и Office 365 (план 2).
+ 
+В приведенной ниже таблице представлена сводная информация о том, что входит в каждый план. 
 
 |Office 365 ATP (план 1)  |Office 365 ATP (план 2)  |
 |---------|---------|
 |Возможности настройки, защиты и обнаружения:<br/>- [Безопасные вложения](atp-safe-attachments.md)<br/>- [Безопасные ссылки](atp-safe-links.md)<br/>- [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Расширенная защита от фишинга](atp-anti-phishing.md)<br/>- [Обнаружение в режиме реального времени](threat-explorer.md)     |Возможности Office 365 ATP 1 (план 1)<br/>---и---<br/>Возможности автоматизации, исследования, исправления и образования:<br/>- [Средства отслеживания угроз](threat-trackers.md)<br/>- [Обозреватель угроз](threat-explorer.md)<br/>- [Автоматизированное реагирование на инциденты](automated-investigation-response-office.md)<br/>- [Симулятор атак](attack-simulator.md)         |
 
-Office 365 ATP (план 2) входит в состав Office 365 корпоративный ~, Office 365 для образования A5 и Microsoft 365 корпоративный "~". Office 365 ATP, план 1, входит в состав Microsoft 365 бизнес. Если текущая подписка не включает Office 365 ATP, [обратитесь в отдел продаж для запуска пробной версии](https://go.microsoft.com/fwlink/p/?LinkId=518644)и посмотрите, как можно работать ATP для вашей организации. 
+- Office 365 ATP (план 2) входит в состав Office 365, Office 365 A5 и Microsoft 365 "е". 
+- Office 365 ATP, план 1, входит в состав Microsoft 365 бизнес. 
+- Если текущая подписка не включает Office 365 ATP, [обратитесь в отдел продаж для запуска пробной версии](https://go.microsoft.com/fwlink/p/?LinkId=518644)и посмотрите, как можно работать ATP для вашей организации. 
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
-- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей (Предварительная версия)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (Office 365 ATP, план 2)
+- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей (**Предварительная версия**)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (Office 365 ATP, план 2)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
