@@ -15,46 +15,41 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Новые возможности шифрования сообщений Office 365, основанные на Azure Information Protection, помогают защитить переписку с людьми внутри вашей организации и вне ее. Они поддерживают другие организации Office 365, Outlook.com, Gmail и прочие почтовые службы.
-ms.openlocfilehash: 835b1d6f40868684536dbea8f75dab0665950210
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c772151250d30e62a3f2689df5cd853536af3ede
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090718"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "39218738"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений Office 365
 
 Новые возможности шифрования сообщений в Office 365 (OME) позволяют организациям обмениваться защищенными сообщениями с кем угодно с любого устройства. Пользователи могут обмениваться защищенными сообщениями с другими организациями Office 365, а также с сотрудниками других организаций, использующих Outlook.com, Gmail и прочие почтовые службы.
 
-||
-|:-----|
-|Эта статья является частью серии, посвященной шифрованию сообщений в Office 365. Эта статья предназначена для системных администраторов и ИТ-специалистов. Если вам нужны сведения о том, как отправлять и получать зашифрованные сообщения, см. список статей, посвященных [шифрованию сообщений в Office 365 (OME)](ome.md), чтобы найти наиболее подходящую статью. |
-||
-
 Чтобы убедиться, что новые возможности OME доступны в вашей организации Office 365, выполните указанные ниже действия.
 
 ## <a name="verify-that-azure-rights-management-is-active"></a>Проверьте, активна ли служба Azure Rights Management
 
-Новые возможности OME используют функции защиты в [службе управления правами Azure (Azure RMS)](https://docs.microsoft.com/ru-RU/azure/information-protection/what-is-information-protection) — технологию, используемую службой [Azure Information Protection](https://docs.microsoft.com/ru-RU/azure/information-protection/what-is-azure-rms) для защиты электронной почты и документов с помощью шифрования и управления доступом.
+Новые возможности OME используют функции защиты в [службе управления правами Azure (Azure RMS)](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) — технологию, используемую службой [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) для защиты электронной почты и документов с помощью шифрования и управления доступом.
 
-Единственное обязательное условие для использования новых возможностей OME — [служба управления правами Azure](https://docs.microsoft.com/ru-RU/azure/information-protection/what-is-azure-rms) должна быть активирована в клиенте вашей организации. Если это так, Office 365 автоматически активирует новые возможности OME, а от вас не потребуется никаких действий.
+Единственное обязательное условие для использования новых возможностей OME — [служба управления правами Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) должна быть активирована в клиенте вашей организации. Если это так, Office 365 автоматически активирует новые возможности OME, а от вас не потребуется никаких действий.
 
-Кроме того, служба Azure RMS автоматически активируется для большинства соответствующих планов. В этом случае от вас тоже не потребуется никаких действий. Дополнительные сведения см. в статье [Активация службы управления правами Azure](https://docs.microsoft.com/en-gb/azure/information-protection/activate-service).
+Кроме того, служба Azure RMS автоматически активируется для большинства соответствующих планов. В этом случае от вас тоже не потребуется никаких действий. Дополнительные сведения см. в статье [Активация службы управления правами Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
 
 >[!IMPORTANT]
->Если вы используете службу управления правами Active Directory (AD RMS) в Exchange Online, перед использованием новых возможностей OME необходимо [перейти на службу Azure Information Protection](https://docs.microsoft.com/ru-RU/azure/information-protection/migrate-from-ad-rms-to-azure-rms). Служба OME не совместима с AD RMS.  
+>Если вы используете службу управления правами Active Directory (AD RMS) в Exchange Online, перед использованием новых возможностей OME необходимо [перейти на службу Azure Information Protection](https://docs.microsoft.com/azure/information-protection/migrate-from-ad-rms-to-azure-rms). Служба OME не совместима с AD RMS.  
 
 Дополнительные сведения см. в указанных ниже статьях.
 
 - [Какие подписки необходимо использовать для новых возможностей OME?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities) Эта статья поможет вам убедиться, что ваш план подписки включает службу Azure Information Protection (которая включает функции Azure RMS).
-- Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/ru-RU/services/information-protection/).  
+- Сведения о приобретении соответствующей подписки см. в статье [Azure Information Protection](https://azure.microsoft.com/services/information-protection/).  
 
 ### <a name="manually-activating-azure-rights-management"></a>Активация службы управления правами Azure вручную
 
 Если вы отключили службу Azure RMS или по какой-либо причине она не была активирована автоматически, вы можете активировать ее вручную, используя одно из указанных ниже средств.
 
-- **Центр администрирования Microsoft 365**. Инструкции см. в статье [Активация службы управления правами Azure в Центре администрирования](https://docs.microsoft.com/ru-RU/azure/information-protection/activate-office365).
-- **Портал Azure**. Инструкции см. в статье [Активация службы управления правами Azure на портале Azure](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure).
+- **Центр администрирования Microsoft 365**. Инструкции см. в статье [Активация службы управления правами Azure в Центре администрирования](https://docs.microsoft.com/azure/information-protection/activate-office365).
+- **Портал Azure**. Инструкции см. в статье [Активация службы управления правами Azure на портале Azure](https://docs.microsoft.com/azure/information-protection/activate-azure).
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Настройка управления ключом клиента для службы Azure Information Protection
 
@@ -64,9 +59,9 @@ ms.locfileid: "37090718"
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Проверка новой конфигурации OME в Exchange Online PowerShell
 
-Вы можете убедиться, что клиент Office 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/ru-RU/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Вы можете убедиться, что клиент Office 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
   
-1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/ru-RU/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Office 365.
+1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Office 365.
 
 2. Запустите командлет Get-IRMConfiguration.
 
@@ -104,7 +99,7 @@ ms.locfileid: "37090718"
 
    - Название вашей организации Office 365 заменит *Contoso*.
 
-   - Заданные по умолчанию имена шаблонов могут отличаться от указанных выше. Дополнительные сведения см. в статье [Настройка шаблонов для Azure Information Protection и управление ими](https://docs.microsoft.com/ru-RU/azure/information-protection/configure-policy-templates).
+   - Заданные по умолчанию имена шаблонов могут отличаться от указанных выше. Дополнительные сведения см. в статье [Настройка шаблонов для Azure Information Protection и управление ими](https://docs.microsoft.com/azure/information-protection/configure-policy-templates).
 
 4. Выполните командлет Remove-PSSession, чтобы отключиться от службы управления правами.
 
