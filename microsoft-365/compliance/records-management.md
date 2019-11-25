@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью управления записями в Microsoft 365 вы можете применять определенные графики хранения вашей организации к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией для поддержки полного жизненного цикла контента.
-ms.openlocfilehash: 97b5c1981cf2596554571e8b53059aa718aa561c
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 3057b5ab061bc5107acbde3c67ecde8a9edaffd7
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440676"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "39233233"
 ---
 # <a name="records-management-in-microsoft-365"></a>Управление записями в Microsoft 365
 
@@ -26,13 +26,13 @@ ms.locfileid: "37440676"
 
 Решение для управления записями поддерживает следующие элементы:
 
+- **Пометка содержимого как записи**. Опубликуйте [метки записи](records.md), применяемые конечными пользователями, или [автоматически применяемые метки записи](labels.md#applying-a-retention-label-automatically-based-on-conditions) для элементов, содержащих определенную конфиденциальную информацию, ключевые слова или типы контента.
+
 - **Миграция плана хранения и управление им с помощью плана хранения** и использование [диспетчера плана хранения](file-plan-manager.md) для переноса существующего плана хранения или создания нового при помощи дескрипторов файлов и разворачивающихся иерархий.
 
 - **Создание политик хранения и удаления в метке записи**. Определите сроки [хранения](retention-policies.md#retaining-content-for-a-specific-period-of-time) и [ликвидации](retention-policies.md#deleting-content-thats-older-than-a-specific-age) на основе различных факторов, в том числе даты последнего изменения или создания.
 
 - **Запуск хранения на основе события** с [хранением на основе событий](event-driven-retention.md).
-
-- **Метка как запись**. Опубликуйте [метки записи](labels.md#using-retention-labels-for-records-management), применяемые конечными пользователями, или [автоматически применяемые метки записи](labels.md#applying-a-retention-label-automatically-based-on-conditions) для элементов, содержащих определенную конфиденциальную информацию, ключевые слова или типы контента.
 
 - **Проверка и подтверждение ликвидации** с помощью [проверки перед ликвидацией](disposition-reviews.md).
 
