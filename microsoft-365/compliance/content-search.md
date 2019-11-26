@@ -10,18 +10,19 @@ localization_priority: Priority
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Средство "Поиск контента" можно использовать в Центре соответствия требованиям в Office 365 или Microsoft 365 для поиска содержимого в почтовых ящиках, на сайтах SharePoint Online, в учетных записях OneDrive, Microsoft Teams, группах Office 365 и беседах Skype для бизнеса. Чтобы сузить результаты поиска, можно использовать поиск по ключевым словам и условиям поиска. Затем можно предварительно просмотреть и экспортировать результаты поиска. Поиск контента также является эффективным средством поиска содержимого, связанного с запросом субъекта данных GDPR.
-ms.openlocfilehash: e3553ff2e3c8398ac4bc00258e41e8d9607b3639
-ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
+ms.openlocfilehash: ba3a8ffd495d58726c24ad7abd2e115d2e1c2b8b
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37334259"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "39266178"
 ---
 # <a name="content-search-in-office-365"></a>Поиск контента в Office 365
 
@@ -37,7 +38,7 @@ ms.locfileid: "37334259"
     
 - Группы Office 365
     
-После выполнения поиска контента количество расположений контента и приблизительное число результатов поиска отображаются в профиле поиска. Кроме того, можно быстро просмотреть статистику, например расположение контента, в котором есть большинство элементов, соответствующих поисковому запросу. После выполнения поиска можно предварительно просмотреть результаты или экспортировать их на локальный компьютер.
+После выполнения поиска контента количество расположений контента и приблизительное число результатов поиска отображаются в статистике поиска. Кроме того, можно быстро просмотреть статистику, например расположение контента, в котором есть большинство элементов, соответствующих поисковому запросу. После выполнения поиска можно предварительно просмотреть результаты или экспортировать их на локальный компьютер.
 
 ## <a name="create-a-search"></a>Создание поискового запроса
 
@@ -103,7 +104,6 @@ ms.locfileid: "37334259"
 Чтобы снова открыть этот поисковый запрос или открыть другие поисковые запросы, перечисленные на странице **Поиск контента**, выберите поисковый запрос и щелкните **Открыть**. 
   
 Чтобы очистить результаты или создать другой поисковый запрос, нажмите кнопку ![Значок добавления](media/O365-MDM-CreatePolicy-AddIcon.gif) **Новый поиск**. 
-
   
 ## <a name="preview-search-results"></a>Предварительный просмотр результатов поиска
 
@@ -244,13 +244,12 @@ ms.locfileid: "37334259"
     
 - Чтобы просмотреть свойства команды или группы Office 365, запустите командлет **Get-UnifiedGroup** в Exchange Online. Это удобный способ узнать URL-адрес сайта, связанного с командой или группой. Например, следующая команда отображает выбранные свойства для группы Office365 с именем "Senior Leadership Team": 
     
-  ```
+  ```text
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
   DisplayName            : Senior Leadership Team
   Alias                  : seniorleadershipteam
   PrimarySmtpAddress     : seniorleadershipteam@contoso.onmicrosoft.com
   SharePointSiteUrl      : https://contoso.sharepoint.com/sites/seniorleadershipteam
-  
   ```
 
     > [!NOTE]
@@ -260,7 +259,7 @@ ms.locfileid: "37334259"
     
 - Список участников команды или группы Office 365 можно просмотреть в свойствах на странице **Главная \> Группы** в Центре администрирования Microsoft 365. Или можно выполнить следующую команду в Exchange Online PowerShell: 
     
-  ```
+  ```powershell
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
   ```
 
@@ -387,19 +386,19 @@ ms.locfileid: "37334259"
 
 **Северная Америка**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "SPMultiGeo-NAM" -Users ediscovery-nam@contoso.com -Region NAM -Action ALL
 ```
 
 **Европа**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "SPMultiGeo-EUR" -Users ediscovery-eur@contoso.com -Region EUR -Action ALL
 ```
 
 **Азиатско-Тихоокеанский регион**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "SPMultiGeo-APC" -Users ediscovery-apc@contoso.com -Region APC -Action ALL
 ```
 
