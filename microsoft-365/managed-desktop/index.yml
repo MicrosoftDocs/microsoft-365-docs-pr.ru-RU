@@ -54,15 +54,19 @@ sections:
         className: cardsM
         columns: 2
         items:
-          - href: 'https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/'
-            title: Блог Сотрудничество с клиентами и партнерами для доставки современного рабочего стола
+          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
+            title: Схема Полный план для управляемого рабочего стола Майкрософт
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html'
-            title: 'Настоящей Управляемый Microsoft Desktop: все устройства с Windows 10, управляемые корпорацией Майкрософт'
+          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
+            title: 'Информацион Исследование: возрастает потребность в управляемых настольных службах'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
+          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
+            title: '[Электронная книга] Сведения ваша организация с современным рабочее место'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
   - title: Видео
     items:
       - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
+        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
