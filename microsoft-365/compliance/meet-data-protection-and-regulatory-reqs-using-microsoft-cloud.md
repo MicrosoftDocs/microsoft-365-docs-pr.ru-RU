@@ -13,14 +13,17 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: Диспетчер соответствия требованиям на портале Microsoft Service Trust Portal предоставляет средства для отслеживания и реализации средств контроля, а также управления ими, помогая организации обеспечить соответствие требованиям отраслевых стандартов безопасности и защиты данных (например, GDPR, ISO 27001 и 27018, а также HIPAA) в облачных службах (Майкрософт), таких как Office 365 и Microsoft Azure. Диспетчер соответствия требованиям помогает сотруднику организации, который отвечает за стратегию защиты данных и обеспечения конфиденциальности, управлять процессом оценки рисков и обеспечения соответствия требованиям.
-ms.openlocfilehash: 95816ca13818d068066c4e3c7fce371f1eeccc25
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+ms.openlocfilehash: 4c3f979caf2fdc3a2dc942e49fd33a09d2d1589a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417598"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "39268629"
 ---
-# <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Применение диспетчера соответствия требованиям для соблюдения требований к защите данных и нормативных требований при использовании облачных служб (Майкрософт)
+# <a name="microsoft-compliance-manager-classic"></a>Диспетчер соответствия требованиям Майкрософт (классический)
+
+> [!NOTE]
+> В этом документе описывается устаревший продукт. Пользователям настоятельно не рекомендуется использовать эту версию диспетчера соответствия требованиям. Вместо нее рекомендуется использовать новый [рейтинг соответствия требованиям Майкрософт](compliance-score.md).
 
  *Диспетчер соответствия требованиям недоступен в планах Office 365 под управлением 21Vianet, Office 365 Germany, Office 365 U.S. Government Community High (GCC High) и Office 365 Department of Defense.* 
   
@@ -831,4 +834,4 @@ ms.locfileid: "37417598"
 
 - [Объявление об общедоступном выпуске диспетчера соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
 
-- [Microsoft 365 предоставляет стратегию защиты информации, чтобы помочь обеспечить соблюдение GDPR](https://blogs.office.com/ru-RU/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
+- [Microsoft 365 предоставляет стратегию защиты информации, чтобы помочь обеспечить соблюдение GDPR](https://blogs.office.com/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
