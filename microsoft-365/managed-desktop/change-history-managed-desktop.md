@@ -8,16 +8,43 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a982b493027775add547a87700906a6cbbdaef60
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: b66fb73b635eb102bcd474cc884db6d0fa4cdfb6
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369630"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634066"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
 В этом разделе перечислены новые и обновленные статьи, посвященные [управляемой документации на рабочем столе Майкрософт](index.yml). В подразделах с обновленными разделами содержатся сведения об исправлениях или исправлениях, несущественные исправления, например исправление опечаток, стилей или ошибок форматирования. Вы всегда можете просмотреть историю определенных фиксаций (включая сведения об изменениях), посетив [репозиторий на сайте GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="november-2019"></a>Ноябрь 2019 г.
+Новый или измененный раздел | Описание
+--- | ---
+[Работа с аналитикой](working-with-managed-desktop/insights.md) | Новый раздел
+[Аналитика использования](working-with-managed-desktop/usage-insights.md) | Новый раздел
+[Аналитика надежности](working-with-managed-desktop/reliability-insights.md) | Новый раздел
+[Управляемые устройства для настольных компьютеров Майкрософт](service-description/device-list.md) | Обновленная тема
+[Главная страница рабочего стола, управляемого корпорацией Майкрософт](https://docs.microsoft.com/microsoft-365/managed-desktop/) | Обновленная тема
+[Что собой представляют компьютеры, управляемые Майкрософт?](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/index) | Обновленная тема
+[Подготовка пользователей к работе с устройствами](get-started/get-started-devices.md) | Обновленная тема
+[Исключения в плане обслуживания](service-description/customizing.md) | Обновленная тема
+
+
+## <a name="october-2019"></a>Октябрь 2019 г.
+Новый или измененный раздел | Описание
+--- | ---
+[Исключения в плане обслуживания](service-description/customizing.md) | Новый раздел
+[Вызов справки для конечных пользователей](working-with-managed-desktop/end-user-support.md) | Обновленная тема
+[Поддержка администраторов для настольных компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная тема
+[Изменения служб и обмен информацией](service-description/servicechanges.md) | Новый раздел
+[Самостоятельная регистрация новых устройств](get-started/register-devices-self.md) | Обновленная тема
+[Самостоятельная регистрация существующих устройств](get-started/register-reused-devices-self.md) | Обновленная тема
+[Поддерживаемые регионы и языки для настольных компьютеров Майкрософт](service-description/regions-languages.md) | Обновленная тема
+
+
+
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 Новый или измененный раздел | Описание

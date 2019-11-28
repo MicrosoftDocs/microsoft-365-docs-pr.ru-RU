@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f830e01d54aef9065727971533633f8e63bc1214
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 8ecc117b2bc6e7cec3dcf0470a6d3c61ad34adf0
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257037"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634036"
 ---
 # <a name="reliability-insights"></a>Аналитика надежности
 
@@ -35,5 +35,12 @@ ms.locfileid: "39257037"
 - Процентное отношение управляемых устройств, которые представляет число
 - Общее количество вхождений конкретной выпуска
 - Программный компонент, который является источником проблемы
+- Категория обнаруженной проблемы:
+    - Браузер (EDGE, Chrome, IE)
+    - Unknown (компоненты не от Майкрософт)
+    - Driver (аудио, графика или другие драйверы)
+    - Производительность (резервный, G-комплекты, Microsoft Office и ее надстройки или расширения, Teams)
+    - Мультимедиа (изображения, музыкальные приложения и видео приложения
+    - Безопасность (компоненты безопасности Windows)
 - Текущее состояние по состоянию управляемых операций на рабочем столе Майкрософт исследует и исправлять проблему
 
