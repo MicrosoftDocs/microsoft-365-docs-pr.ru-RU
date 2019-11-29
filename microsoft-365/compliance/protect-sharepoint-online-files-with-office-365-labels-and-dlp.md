@@ -3,7 +3,7 @@ title: Защита файлов SharePoint Online с помощью меток 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/18/2019
+ms.date: 11/27/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,18 +18,16 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: Сводка. Применяйте метки хранения и политики защиты от потери данных для сайтов групп SharePoint Online с различными уровнями защиты информации.
-ms.openlocfilehash: 5c7d267b37f024d4defa34b4dfbeff3ba9255ac5
-ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
+ms.openlocfilehash: 4c9eb83cbde7d54706f109484257e97c22c4733c
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38710120"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631026"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Защита файлов SharePoint Online с помощью меток хранения и DLP
 
- **Сводка.** Применяйте метки хранения и политики защиты от потери данных для сайтов групп SharePoint Online с различными уровнями защиты информации.
-  
-В этой статье описано создание и развертывание меток хранения и политик защиты от потери данных для базовых, конфиденциальных и строго конфиденциальных сайтов группы SharePoint Online. Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита сайтов и файлов SharePoint Online](/security/office-365-security/secure-sharepoint-online-sites-and-files.md).
+В этой статье описано создание и развертывание меток хранения и политик защиты от потери данных для базовых, конфиденциальных и строго конфиденциальных сайтов группы SharePoint Online. Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection).
   
 ## <a name="how-this-works"></a>Как это работает
 
@@ -152,7 +150,7 @@ ms.locfileid: "38710120"
     
 14. В области **Настройка подсказок политики и уведомлений по электронной почте** щелкните **Измените текст подсказки политики**.
     
-15. В текстовом поле введите или вставьте одну из следующих подсказок в зависимости от того, применена ли служба Azure Information Protection, чтобы защитить строго конфиденциальные файлы:
+15. В текстовом поле введите или вставьте одну из следующих подсказок в зависимости от того, используются ли метки конфиденциальности, чтобы защитить строго конфиденциальные файлы:
     
   - Чтобы предоставить доступ пользователю за пределами организации, скачайте файл и откройте его. Выберите пункты "Файл > Защитить документ > Зашифровать паролем", а затем укажите надежный пароль. Отправьте пароль в отдельном сообщении или с помощью других средств связи.
   - Строго конфиденциальные файлы защищены с помощью шифрования. Их могут просматривать только те внешние пользователи, которым ваш ИТ-отдел предоставил разрешения для этих файлов.
@@ -219,7 +217,7 @@ ms.locfileid: "38710120"
   
 ## <a name="next-step"></a>Следующий шаг
 
-[Защита файлов SharePoint Online с помощью Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
+[Защита файлов SharePoint Online с помощью меток конфиденциальности](protect-sharepoint-online-files-with-sensitivity-label.md)
     
 ## <a name="see-also"></a>См. также
 

@@ -8,20 +8,25 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как обеспечить соблюдение требований GDPR в локальном развертывании SharePoint Server.
-ms.openlocfilehash: 6da9d635506eafc2b976cf6a87f68370f40e327a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: dba20f2f85bc9a474b39e427ed2628a2f9c9f437
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089490"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39625404"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>GDPR для SharePoint Server
+
+Применимо к:
+- SharePoint Server 2013
+- SharePoint Server 2016
+- SharePoint Server 2019
 
 Ниже перечислены рекомендуемые меры по обеспечению безопасности персональных данных.
 
 -   Классифицируйте свои данные, используя Azure Information Protection.
 
--   Запускайте SharePoint Server в конфигурации с наименьшими привилегиями. Дополнительную информацию см. в статьях [Планирование администрирования с минимальными правами в SharePoint Server](https://docs.microsoft.com/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) и [Безопасность SharePoint Server](https://docs.microsoft.com/ru-RU/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
+-   Запускайте SharePoint Server в конфигурации с наименьшими привилегиями. Дополнительную информацию см. в статьях [Планирование администрирования с минимальными правами в SharePoint Server](https://docs.microsoft.com/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) и [Безопасность SharePoint Server](https://docs.microsoft.com/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server).
 
 -   [Включите на серверах шифрование BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server).
 
@@ -35,7 +40,7 @@ ms.locfileid: "37089490"
 
 Рекомендуемый подход для общих папок, а также сайтов и библиотек SharePoint включает следующие действия:
 
-1.  **[Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/ru-RU/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  **[Установите и настройте сканер Azure Information Protection.](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Выберите необходимые типы конфиденциальных данных.
 
@@ -65,7 +70,7 @@ ms.locfileid: "37089490"
 
 Применяя метки к конфиденциальным данным, убедитесь, что используемые метки не имеют защиты. Защита включает шифрование, из-за которого службы не могут найти конфиденциальные данные в файлах.
 
-Дополнительные сведения об использовании сканера Azure Information Protection для поиска и пометки персональных данных см. в [наборе средств для обнаружения данных GDPR (Майкрософт)](http://aka.ms/gdprpartners) (http://aka.ms/gdprpartners).
+Дополнительные сведения об использовании сканера Azure Information Protection для поиска и пометки персональных данных см. в [наборе средств для обнаружения данных GDPR (Майкрософт)](https://aka.ms/gdprpartners) (https://aka.ms/gdprpartners).
 
 Сведения о настройке сканера в соответствии с условиями и использовании типов конфиденциальной информации для защиты от потери данных (DLP) в Office 365 см. в статье [Как настроить условия для автоматической и рекомендуемой классификации с помощью Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-classification). Обратите внимание, что новые типы конфиденциальной информации Office 365 не сразу станут доступны для использования в сканере. Кроме того, в нем невозможно использовать пользовательские типы конфиденциальной информации.
 
@@ -85,7 +90,7 @@ ms.locfileid: "37089490"
 
 ### <a name="uls-logs"></a>Журналы ULS
 
-Журналы ULS (единая служба ведения журналов) и журналы использования в SharePoint Server помогают отслеживать различные функции системы и могут содержать информацию о пользователе. Журналы ULS и журналы использования — это текстовые файлы, в которых можно искать информацию, используя различные поисковые средства. [Командлет Merge-SPLogFile PowerShell](https://docs.microsoft.com/ru-RU/powershell/module/sharepoint-server/merge-splogfile) позволяет возвращать записи из журналов ULS на нескольких серверах в ферме.
+Журналы ULS (единая служба ведения журналов) и журналы использования в SharePoint Server помогают отслеживать различные функции системы и могут содержать информацию о пользователе. Журналы ULS и журналы использования — это текстовые файлы, в которых можно искать информацию, используя различные поисковые средства. [Командлет Merge-SPLogFile PowerShell](https://docs.microsoft.com/powershell/module/sharepoint-server/merge-splogfile) позволяет возвращать записи из журналов ULS на нескольких серверах в ферме.
 
 В политиках хранения журнала рекомендуется указать минимальное значение, необходимое для бизнес-целей. Сведения о настройке ведения журнала в SharePoint Server см. в статье [Настройка журнала ведения диагностики в SharePoint Server](https://docs.microsoft.com/SharePoint/administration/configure-diagnostic-logging).
 

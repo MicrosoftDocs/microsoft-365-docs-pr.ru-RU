@@ -18,12 +18,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-ms.openlocfilehash: 022c44d2e975e79f7407383d7ecaa5c6866de16a
-ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
+ms.openlocfilehash: 6302ee8163525502550017f62fe4350645af59b3
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38710122"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39630879"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Защита файлов SharePoint Online с помощью Azure Information Protection
 
@@ -31,7 +31,7 @@ ms.locfileid: "38710122"
   
 В этой статье показано, как настроить Azure Information Protection, чтобы обеспечить шифрование и применение разрешений для файлов. Эти файлы можно добавлять в библиотеку SharePoint, настроенную на строго конфиденциальный уровень защиты. Или можно открыть файл непосредственно на сайте и использовать клиент Azure Information Protection, чтобы добавить шифрование. Даже при скачивании с сайта файл будет по-прежнему защищен благодаря шифрованию и указанным разрешениям. 
 
-Эти действия являются частью более крупного решения по настройке строго конфиденциальной защиты для сайтов SharePoint и файлов на этих сайтах. Дополнительные сведения см. в статье [Безопасность сайтов и файлов SharePoint Online](/security/office-365-security/secure-sharepoint-online-sites-and-files.md). 
+Эти действия являются частью более крупного решения по настройке строго конфиденциальной защиты для сайтов SharePoint и файлов на этих сайтах. Дополнительные сведения см. в статье [Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection). 
 
 Использование Azure Information Protection для файлов в SharePoint Online не рекомендуется для всех клиентов, но допустимо для клиентов, которым требуется этот уровень защиты для подмножества файлов.
 
@@ -111,7 +111,7 @@ ms.locfileid: "38710122"
 
 ## <a name="see-also"></a>См. также
 
-[Безопасность сайтов и файлов SharePoint Online](/security/office-365-security/secure-sharepoint-online-sites-and-files.md)
+[Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection)
   
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
