@@ -1,4 +1,4 @@
-# [Документация и ресурсы по Microsoft 365 корпоративный](index.md)
+# [Документация и ресурсы по Microsoft 365 корпоративный](index.yml)
 # [Обзор Microsoft 365 корпоративный](microsoft-365-overview.md)
 # [Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
 ## [Развертывание инфраструктуры Foundation](deploy-foundation-infrastructure.md)
