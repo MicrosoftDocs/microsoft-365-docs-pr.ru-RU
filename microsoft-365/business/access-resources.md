@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры из Azure Active Directory, подключенной к устройству Windows 10.
-ms.openlocfilehash: fdc1eca6913ba6af4f6b65691fdee2165e7c827e
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323402"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668795"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business
 
@@ -32,6 +32,9 @@ ms.locfileid: "38323402"
 Чтобы узнать больше, ознакомьтесь со статьей общие сведения об [управлении устройствами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Эти действия также описаны в следующих разделах.
 
+> [!IMPORTANT]
+> Эта процедура относится только к OAuth и NTLM. Проверка подлинности Kerberos не поддерживается.
+ 
 ## <a name="run-azure-ad-connect"></a>Запуск Azure AD Connect
 
 Выполните следующие действия, чтобы разрешить подключенным устройствам Azure AD в организации получать доступ к локальным ресурсам.
@@ -43,6 +46,8 @@ ms.locfileid: "38323402"
 3. Когда устройства с Windows 10 будут присоединены к Azure AD, каждый пользователь должен перезагрузить свои устройства и войти с помощью учетных данных Microsoft 365 Business. Теперь все устройства имеют доступ к локальным ресурсам.
     
 Для получения доступа к локальным ресурсам для устройств с присоединением Azure AD дополнительные действия не требуются. Эта функция встроена в Windows 10. 
+
+Если вы планируете выполнить вход на устройство ААДЖ, отличное от пароля, например PIN/Bio-Metric, с помощью учетных данных для входа в ВХФБ и затем доступ к локальным ресурсам (Shares, Printers.. и т. д.), выполните следующие действияhttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Если ваша организация не готова к развертыванию в описанной выше конфигурации устройства с подключением Azure AD, рассмотрите возможность настройки [конфигурации гибридного устройства с присоединенной службой Azure AD](manage-windows-devices.md).
   

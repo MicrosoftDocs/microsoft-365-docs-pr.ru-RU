@@ -1,7 +1,7 @@
 ---
 title: Политика безопасности преступных информационных служб (CJIS)
 description: Облачные службы Microsoft для государственных учреждений придерживаются политики безопасности служб Microsoft Office уголовной информации в США.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 069f4dac1b04a75ff30339f8cecde4e8f82c044a
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 7fb31d007b7935d8a2beef93b80ca1958c7a3a27
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699739"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668817"
 ---
 # <a name="compliance-offering-criminal-justice-information-services-cjis-security-policy"></a>Предложение о соответствии требованиям: политика безопасности уголовной информации (CJIS)
 
@@ -40,14 +40,14 @@ ms.locfileid: "38699739"
 
 Узнайте, как ускорить политику безопасности CJIS с помощью плана безопасности и соответствия требованиям Azure: [Скачайте рекомендации по реализации CJIS для облачных служб Microsoft для государственных организаций](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)
 - [Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 С помощью ФБР не обеспечивается сертификация Microsoft о соответствии требованиям, предъявляемым к CJIS. Вместо этого аттестация Майкрософт включена в соглашения между корпорацией Майкрософт и центром CJIS штата, а также между корпорацией Майкрософт и ее клиентами.
 
@@ -71,8 +71,6 @@ ms.locfileid: "38699739"
 
 Корпорация Майкрософт подписывает соглашение с данными с помощью CJIS Systems агентств (CSA); Вы можете запросить копию с CSA на вашем состоянии. Кроме того, корпорация Майкрософт предоставляет пользователям подробные сведения о безопасности, конфиденциальности и соответствии требованиям. Клиенты также могут просматривать отчеты о безопасности и соответствии требованиям, подготовленные независимыми аудиторами, чтобы они могли проверить, что корпорация Майкрософт реализовала элементы управления безопасностью (такие как ISO 27001), соответствующие соответствующей области аудита.
 
-Состояния с соответствующей документацией по CJIS, как в августе 2017: Аляска, Камчатка, Арканзас, Калифорния, Колорадо, Гавайи, Грузия, Иллинойс, Индиана, Айова, Канзас, Кентукки, Массачусетс, Мичиган, Миннесота, Миссури, Монтана, Невада, Нью Джерси , Нью-Йорк, Северный Каролина, Орегон, Пенсильвания, остров род, Южный Каролина, Теннесси, Техас, Вирджиния, Солт, Вермонт и Вашингтон.
-
 **Где можно начать с соблюдением требований по обеспечению соответствия моему органу?**
 
 [Политика безопасности CJIS](https://aka.ms/cjis-security-policy) содержит меры предосторожности, которые должен предпринять ваше агентство для защиты кжи. Кроме того, ваш представитель учетной записи Майкрософт может приобщаться к вам, знакомым с требованиями вашей юрисдикции.
@@ -83,10 +81,10 @@ ms.locfileid: "38699739"
 - [Политика безопасности CJIS](https://aka.ms/cjis-security-policy)
 - [CJIS (фон) политики безопасности для версии 5,3](https://aka.ms/cjis-backgrounder)
 - [Рекомендации по реализации CJIS для государственных организаций Azure](https://aka.ms/cjisimplementationguidelines)
-- [Инфраструктура соответствия Microsoft Common Controls HUB](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Облако Microsoft для государственных организаций](https://go.microsoft.com/fwlink/?linkid=2087246)
+- [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/?linkid=2087246)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf).

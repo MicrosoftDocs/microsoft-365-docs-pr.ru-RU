@@ -1,7 +1,7 @@
 ---
 title: Номер паспорта ЕС
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 8/16/2018
 audience: Admin
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС Passport Number. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: fa3be04dec0f71a2568e046abd6b0af3e20181c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 44ee6e7b46d79772bcd3aec0fd26265f58f6c4c6
+ms.sourcegitcommit: 3fd6d175c1954ce463198e835d1d8f2f91d80d79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090272"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39662804"
 ---
 # <a name="eu-passport-number"></a>Номер паспорта ЕС
 
@@ -349,7 +349,7 @@ ms.locfileid: "37090272"
   
 ## <a name="germany"></a>Германия
 
-Дополнительные сведения можно найти в разделе "Германия Passport Number", [который будет искать тип конфиденциальной информации](what-the-sensitive-information-types-look-for.md).
+Дополнительные сведения можно найти в разделе "немецкий паспорт номер", [который будет искать тип конфиденциальной информации](what-the-sensitive-information-types-look-for.md).
   
 ## <a name="greece"></a>Греция
 
