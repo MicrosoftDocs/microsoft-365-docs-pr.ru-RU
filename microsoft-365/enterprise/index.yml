@@ -1,0 +1,106 @@
+### YamlMime:Hub
+title: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
+summary: Лучшие приложения для продуктивной работы с интеллектуальными облачными службами, которые преобразуют способ работы.
+brand: m365
+metadata:
+  title: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
+  description: Сведения о документации по продукту и ресурсах, доступных для Microsoft 365 корпоративный для ИТ-специалистов, информационных работников и партнеров.
+  services: service
+  ms.prod: microsoft-365-enterprise
+  ms.service: O365-seccomp
+  ms.topic: hub-page
+  ms.collection: M365-subscription-management
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/29/2019
+  ms.openlocfilehash: 945412e8e66fe558971ceacf3a57023b5bba6e5f
+  ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 12/03/2019
+  ms.locfileid: "39669545"
+highlightedContent:
+  items:
+  - title: Сведения о Microsoft 365 корпоративный
+    itemType: get-started
+    url: microsoft-365-overview.md
+  - title: Ускорение развертывания с помощью FastTrack
+    itemType: quickstart
+    url: https://www.microsoft.com/fasttrack/microsoft-365
+  - title: Обучение ИТ-специалистов и администраторов
+    itemType: learn
+    url: https://docs.microsoft.com/learn/m365/
+conceptualContent:
+  title: Получение справки о Microsoft 365 корпоративный и других ресурсах
+  summary: Ознакомьтесь с рекомендациями по развертыванию Microsoft 365 корпоративный, функциями и службами.
+  items:
+  - title: Следуйте плану развертывания
+    links:
+    - url: deploy-microsoft-365-enterprise.md
+      itemType: deploy
+      text: Обзор процедуры развертывания
+    - url: deploy-foundation-infrastructure.md
+      itemType: how-to-guide
+      text: Инфраструктура фундамента
+    - url: deploy-workloads.md
+      itemType: how-to-guide
+      text: Рабочие нагрузки и сценарии
+    - url: desktop-deployment-center-home.md
+      itemType: get-started
+      text: Центр развертывания компьютеров
+  - title: Развертывание ключевых элементов
+    links:
+    - url: identity-infrastructure.md
+      itemType: how-to-guide
+      text: Инфраструктура удостоверений
+    - url: https://docs.microsoft.com/windows/deployment/
+      itemType: get-started
+      text: Windows 10 Корпоративная
+    - url: https://docs.microsoft.com/deployoffice/plan-office-365-proplus
+      itemType: deploy
+      text: Office 365 профессиональный плюс
+    - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
+      itemType: deploy
+      text: Microsoft Intune
+  - title: Развертывание ключевых сценариев
+    links:
+    - url: secure-teams-highly-regulated-data-scenario.md
+      itemType: how-to-guide
+      text: Microsoft Teams для строго регулируемых данных
+    - url: teams-sharepoint-online-sites-highly-regulated-data.md
+      itemType: how-to-guide
+      text: Сайты SharePoint для жестко регламентированных данных
+    - url: empower-people-to-work-remotely.md
+      itemType: how-to-guide
+      text: Удаленные работники
+    - url: migration-microsoft-365-enterprise-workload.md
+      itemType: deploy
+      text: Миграция клиента Office и сервера и Windows
+  - title: Управление Microsoft 365 корпоративный
+    links:
+    - url: https://docs.microsoft.com/windows/deployment/update/
+      itemType: how-to-guide
+      text: Windows 10 Корпоративная
+    - url: https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus
+      itemType: concept
+      text: Office 365 профессиональный плюс
+    - url: https://docs.microsoft.com/intune/apps/app-management
+      itemType: get-started
+      text: Приложения с Intune
+    - url: https://docs.microsoft.com/office365/
+      itemType: get-started
+      text: Службы Office 365
+additionalContent:
+  sections:
+  - title: Дополнительные ресурсы
+    summary: Узнайте больше о других возможностях и ресурсах Microsoft 365.
+    items:
+    - title: Соответствие требованиям Microsoft 365
+      summary: Помогите вашей организации управлять информацией, защищаться от рисков и соблюдать юридический или нормативный стандарт.
+      url: https://docs.microsoft.com/microsoft-365/compliance/index
+    - title: Microsoft 365 Security
+      summary: Защитите свою организацию между областями атак с помощью надежных служб и решений безопасности.
+      url: https://docs.microsoft.com/microsoft-365/security/index
+    - title: Техническое сообщество Майкрософт 365
+      summary: 'Подключение и совместная работа с коллегами и экспертами в сообществе Майкрософт и совместное использование Microsoft 365: рекомендации.'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
