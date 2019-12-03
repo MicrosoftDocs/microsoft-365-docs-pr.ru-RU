@@ -18,18 +18,18 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-ms.openlocfilehash: b5251d393249e9023f6f437cb3df6c074ebdf436
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: 51950bd3c9790dedd2801e98234ff16470db6421
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39638063"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668807"
 ---
 # <a name="protect-sharepoint-online-files-with-a-sensitivity-label"></a>Защита файлов SharePoint Online с помощью меток конфиденциальности
 
 Используйте действия, перечисленные в этой статье, чтобы настроить метку конфиденциальности Office 365 для шифрования файлов и управления разрешениями доступа к файлам. Эти файлы можно добавить в библиотеку SharePoint, настроенную для защиты строго конфиденциальной информации. Также можно открыть файл непосредственно на сайте и применить метку к файлу. Защита с помощью шифрования и разрешений доступа сохраняется вместе с файлом даже при его загрузке с сайта. 
 
-Эти действия являются частью более крупного решения по настройке строго конфиденциальной защиты для сайтов SharePoint и файлов на этих сайтах. Дополнительные сведения см. в статье [Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection). 
+Эти действия являются частью более крупного решения по настройке строго конфиденциальной защиты для сайтов SharePoint и файлов на этих сайтах. Дополнительные сведения см. в статье [Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md). 
 
 Использование меток конфиденциальности для файлов в SharePoint Online не рекомендуется для всех клиентов, но допустимо для клиентов, которым такой уровень защиты требуется для некоторых файлов.
 
@@ -44,7 +44,7 @@ ms.locfileid: "39638063"
 
 - Используйте метку конфиденциальности, если требуется небольшое число меток для общих и отдельных закрытых команд.
 
-- Используйте вложенную метку конфиденциальности, если у вас большое число меток или нужно упорядочить метки для команд со строго конфиденциальным уровнем защиты под меткой строго регулируемых данных.
+- Используйте вложенную метку конфиденциальности, если у вас большое число меток или нужно упорядочить метки для команд со строго конфиденциальным уровнем защиты под меткой общего назначения для строго конфиденциальных файлов.
 
 Используйте [эти инструкции](encryption-sensitivity-labels.md), чтобы настроить отдельную метку или вложенную метку со следующими параметрами:
 
@@ -67,7 +67,7 @@ ms.locfileid: "39638063"
 
 ## <a name="see-also"></a>См. также
 
-[Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection)
+[Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
   
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
