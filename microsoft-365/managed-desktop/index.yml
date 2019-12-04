@@ -24,26 +24,31 @@ sections:
             html: '<p>Общие сведения о компьютерах, управляемых корпорацией Майкрософт, для лиц, принимающих решения, а также о том, как оно работает и что можно сделать для вас</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_overview.svg'
+              alt: ''
             title: 'Что собой представляют компьютеры, управляемые Майкрософт?'
           - href: service-description/index.md
             html: '<p>Подробное описание всех частей компьютера, управляемого корпорацией Майкрософт</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-            title: Описание службы
+              alt: ''
+            title: Описание служб
           - href: get-ready/index.md
             html: <p>Все действия по обеспечению готовности среды и Организации к работе со службой</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_support.svg'
+              alt: ''
             title: Подготовка
           - href: get-started/index.md
             html: '<p>Познакомьтесь с вашей организацией с помощью управляемого рабочего стола Майкрософт, в том числе Настройка устройств и развертывание приложений</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
+              alt: ''
             title: Начало работы
           - href: working-with-managed-desktop/index.md
             html: <p>Обо всех повседневных операциях со службой</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_portal.svg'
+              alt: ''
             title: 'Работа с компьютерами, управляемыми Майкрософт'
   - title: Новые статьи и записи в блогах
     items:

@@ -4,15 +4,16 @@ description: Сведения об обновлении бизнес-прило�
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 425ba674ca9911e4c93bda4fc9ad61cec7fb85b7
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 7aca4713aae189e39133e08a1fbcad6fd75e6a70
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012414"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813859"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Управление бизнес-приложениями на настольных компьютерах, управляемых Майкрософт
 
@@ -41,7 +42,7 @@ ms.locfileid: "38012414"
 ## <a name="update-line-of-business-apps-in-intune"></a>Обновление бизнес-приложений в Intune
 
 **Обновление бизнес-приложений в Intune**
-1. Войдите на [портал Azure](https://azure.portal.com).
+1. Войдите на [портал Azure](https://portal.azure.com).
 2. Выберите **все службы** > **Intune**. Intune находится в разделе **мониторинг и управление** .
 3. Выберите **клиентские приложения > приложения**.
 4. Найдите и выберите свое приложение в списке приложений.

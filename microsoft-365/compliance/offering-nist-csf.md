@@ -1,7 +1,7 @@
 ---
 title: Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 description: Облачные службы Майкрософт отвечают требованиям национального института стандартов и технологий (NIST) Циберсекурити Framework (CSF).
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6ea67a9214f5c52f02f7b4d5888b59971951d033
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7dae370f9fd41ba0a04dd4c327a238dac3841da3
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690959"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676656"
 ---
 # <a name="compliance-offering-national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Предложение по обеспечению соответствия требованиям: Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 
@@ -26,7 +26,7 @@ ms.locfileid: "38690959"
 
 Основные приоритеты ФИЦИК приводили к созданию набора стандартов и рекомендаций, которые помогут организациям управлять рисками циберсекурити, в то же время обеспечивая эффективность бизнеса. Инфраструктура NIST решает циберсекурити риск без импосинг дополнительных нормативных требований для государственных организаций и государственных организаций.
 
-ФИЦИК ссылается на глобально распознаваемые стандарты, в том числе NIST SP 800-53, которое обнаруживается в приложении A [платформы nist 2014 для улучшения критической инфраструктуры циберсекурити](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf). Каждый элемент управления в ФИЦИК Framework сопоставлен с соответствующими элементами управления NIST 800-53 в FedRAMP средней опорной линии.
+ФИЦИК ссылается на глобально распознаваемые стандарты, в том числе NIST SP 800-53, которые можно найти в приложении A The NIST [Framework для улучшения критической инфраструктуры циберсекурити](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11). Каждый элемент управления в ФИЦИК Framework сопоставлен с соответствующими элементами управления NIST 800-53 в FedRAMP средней опорной линии.
 
 ## <a name="microsoft-and-the-nist-csf"></a>Майкрософт и NIST CSF
 
@@ -37,11 +37,11 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 - [Загрузите контрольный список по оценке угроз безопасности и соответствия требованиям для Azure — CSF.](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
 - [Узнайте больше о CSFной оценке NIST для Office 365 в диспетчере соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных организаций](https://aka.ms/d365-compliance-list)
-- [Office 365 и Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 и Office 365 для государственных организаций США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audit-cycle-and-certification"></a>Цикл и сертификация аудита
 
@@ -98,12 +98,12 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 - [Проверки подлинности облачных служб (Майкрософт)](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [Сопоставление решений Microsoft кибератак: NIST Циберсекурити Framework (CSF), элементы управления CIS, стандарта ISO 27001:2013 и HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)
-- [2014 Framework для улучшения критичной инфраструктуры Циберсекурити](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf)
+- [Платформа для улучшения критичных Циберсекурити инфраструктуры](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)
 - [Пресидентиал Руководящий заказ на усиление Циберсекурити федеральных сетей и критической инфраструктуры](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
-- [Облако Microsoft для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Условия использования веб-служб](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/D/D/3/DD302CDD-5EF9-471E-9695-BDC5EF7F44E4/NIST_CSF-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/D/D/3/DD302CDD-5EF9-471E-9695-BDC5EF7F44E4/NIST_CSF-Compliance.pdf).

@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ccb90c9b814c6e38793f48e671ddd07a16177045
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 9d9309c7840fd9ca6d0038444c40884dcb92ae83
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625304"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676666"
 ---
 # <a name="compliance-offering-it-grundschutz-compliance-workbook"></a>Предложение для соответствия требованиям: книга соответствия требованиям IT-Grundschutz
 
@@ -63,7 +63,6 @@ ms.locfileid: "39625304"
 - [IT-Grundschutz](https://www.bsi.bund.de/EN/Topics/ITGrundschutz/ITGrundschutzHome/itgrundschutzhome_node.html;jsessionid=5ABC53411232B460035220974AE634C4.1_cid351)
 - [Каталоги IT-Grundschutz версии 15](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/International/GSK_15_EL_EN_Draft.pdf?__blob=publicationFile&v=2) (2015 г.)
 - [Стандарты BSI](https://www.bsi.bund.de/EN/Publications/BSIStandards/BSIStandards_node.html)
-- [Процесс сертификации IT-Grundschutz](https://www.bsi.bund.de/EN/Topics/ITGrundschutz/ITGrundschutzCertification/itgrundschutzcertification_node.html)
 - [Книга соответствия требованиям IT-Grundschutz в Azure для Германии](https://aka.ms/grundschutzworkbook)
 - [Обзор стандарта ISO/IEC 27001:2013 для систем управления информационной безопасностью](offering-iso-27001.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)

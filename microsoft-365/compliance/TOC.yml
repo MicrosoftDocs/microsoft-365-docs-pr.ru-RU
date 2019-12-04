@@ -317,6 +317,8 @@
           href: export-search-results.md
         - name: Экспорт отчета о поиске контента
           href: export-a-content-search-report.md
+        - name: Использование средства экспорта eDiscovery в Microsoft Edge
+          href: configure-edge-to-export-search-results.md
         - name: Поиск и удаление сообщений электронной почты
           href: search-for-and-delete-messages-in-your-organization.md
         - name: Поиск облачных почтовых ящиков локальных пользователей в Office 365

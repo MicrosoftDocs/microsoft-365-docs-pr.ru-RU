@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -22,19 +23,25 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте больше о Microsoft 365 Business.
-ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 419754b5ea06baabac8c170a860e076dc7fa8f81
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676091"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812865"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Общие сведения о Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Что такое Microsoft 365 Бизнес
 
 Microsoft 365 Business — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от киберугрозами, защиты данных и управления устройствами.
+
+Просмотрите это видео, чтобы получить краткий обзор Microsoft 365 Business.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
+Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+
 Microsoft 365 Business предназначено для работы с лицензиями на 300. Дополнительные сведения о том, как получить дополнительные лицензии, можно найти в [статье Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) Documentation.
 
 Ознакомьтесь со статьей [Microsoft 365 Business Service](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) для всего списка компонентов.
@@ -102,3 +109,7 @@ Microsoft 365 бизнес помогает **защититься от угро
 
     > [!NOTE]
     > Эта ссылка предназначена только для хранилищ в США
+
+## <a name="see-also"></a>См. также
+
+[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

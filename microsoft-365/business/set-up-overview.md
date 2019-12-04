@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Обзор действий по настройке Microsoft 365 Business.
-ms.openlocfilehash: 3447f06d031462a7bebc6f129238de9f0c5dee41
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721566"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812785"
 ---
 # <a name="overview-of-setup"></a>Обзор настройки
 
@@ -44,16 +44,15 @@ ms.locfileid: "38721566"
         - Вы также можете [Добавить пользователей позже](add-users-m365b.md) в центре администрирования.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Шаг 2: Настройка политик безопасности и настройка устройств 
 
-  - Используйте [Мастер установки](set-up.md#protect-data-and-devices) для настройки политик устройств и безопасности. 
+  - Используйте [Мастер установки](set-up.md#protect-your-organization) для настройки политик устройств. 
   - Вы также можете добавить дополнительные или изменить их позже в [центре администрирования](view-policies-and-devices.md) и [портале Intune](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
-  - В дополнение к параметрам безопасности в мастере установки вы можете повысить уровень безопасности, добавив следующие параметры:
+  - Мастер установки также настроит основные параметры защиты от угроз и защиты от потери данных.
+  
+  В дополнение к параметрам безопасности в мастере установки вы можете повысить уровень безопасности, добавив следующие параметры:
 
       - **Защита от вредоносных программ электронной почты**
-      - **Безопасные ссылки расширенной защиты от угроз (ATP)**
-      - **Безопасные вложения ATP**
       - **Защита от фишинга ATP**
       - **Архивация на базе Exchange Online**
-      - **Data Loss Prevention (DLP)**
       - **Azure Information Protection (Plan1**)
 
           Чтобы приступить к работе, [Настройте дополнительные политики безопасности](set-up-advanced-security.md).
@@ -62,10 +61,12 @@ ms.locfileid: "38721566"
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Шаг 3: Настройка устройств с Windows 10 и управление ими
 
-   Когда вы присоединяете устройство Windows 10 к Azure AD, политики, которые вы настроили в [шаге 2](#step-2-set-up-security-policies-and-configure-devices) , будут применены к нему.
+После запуска мастера настройки вам потребуется проктект все компьютеры в Организации Виндвос 10.
+  
+- Windows 10 профессиональная является [необходимым условием](pre-requisites-for-data-protection.md) для Microsoft 365 Business, но если у вас есть Windows 7 Профессиональная, Windows 8 Профессиональная или Windows 8,1 Pro, ваша подписка позволит вам выполнить [обновление до Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
+- Выполните действия, описанные в статье [Защита компьютеров с Windows 10](secure-win-10-pcs.md) , чтобы настроить политики для устройств с Windows 10.
 
-   - Windows 10 профессиональная является [необходимым условием](pre-requisites-for-data-protection.md) для Microsoft 365 Business, но если у вас есть Windows 7 Профессиональная, Windows 8 Профессиональная или Windows 8,1 Pro, ваша подписка позволит вам выполнить [обновление до Windows 10 Pro](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Используйте [Мастер установки](set-up.md#protect-data-and-devices) для настройки политик для устройств с Windows 10.
+Когда вы присоединяете устройство Windows 10 к Azure AD, политики, заданные для компьютеров с Windows 10, будут применены к нему. Дополнительную информацию можно узнать в [статье Настройка устройств Windows для Microsoft 365 Business Users](set-up-windows-devices.md).
 
 ## <a name="step-4-install-office-365-business"></a>Шаг 4: установка Office 365 для бизнеса
 - Вы можете автоматически установить Office на устройствах с Windows с помощью [мастера установки](set-up.md#deploy-office-365-client-apps).
@@ -82,4 +83,6 @@ ms.locfileid: "38721566"
 
     - Если в вашей организации есть локальная служба Active Directory, содержащая некоторые локальные ресурсы (например, файловые ресурсы и принтеры), вы можете предоставить подключенным устройствам Azure AD доступ к этим ресурсам, выполнив действия, описанные здесь: [доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business](access-resources.md).
 
-  
+## <a name="see-also"></a>См. также
+
+[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

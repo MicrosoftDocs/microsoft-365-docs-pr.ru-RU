@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку Защита в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
-ms.openlocfilehash: 780be179485fa18f7e0da0fabc7bb5365238da94
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6222825872dc512918b512d0dfc1918dd8a0cbe3
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687381"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813117"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
@@ -58,7 +58,7 @@ ms.locfileid: "38687381"
   
 ### <a name="to-manage-whether-ome-generates-one-time-pass-codes"></a>Управление созданием одноразовых кодов этапа OME
   
-1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Выполните командлет Set – OMEConfiguration с параметром Отпенаблед:
 
@@ -84,7 +84,7 @@ ms.locfileid: "38687381"
   
 ### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>Управление отображением кнопки "шифровать" в Outlook в Интернете
   
-1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Выполните командлет Set – IRMConfiguration с параметром – Симплифиедклиентакцессенаблед:
 
@@ -114,7 +114,7 @@ ms.locfileid: "38687381"
   
 ### <a name="to-manage-whether-ios-mail-app-users-can-view-messages-protected-by-office-365-message-encryption"></a>Управление тем, могут ли пользователи почтового приложения iOS просматривать сообщения, защищенные с помощью шифрования сообщений Office 365
   
-1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Выполните командлет Set – Активесинкорганизатионс с параметром Алловрмссуппортфоруненлигхтенедаппс:
 
@@ -151,24 +151,24 @@ ms.locfileid: "38687381"
   
 ### <a name="to-manage-whether-email-attachments-are-decrypted-on-download-from-a-web-browser"></a>Чтобы управлять расшифровкой вложений электронной почты при загрузке из веб-браузера
   
-1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Выполните командлет Set – IRMConfiguration с параметром Декриптаттачментфромпортал:
+2. Выполните командлет Set – IRMConfiguration с параметром Декриптаттачментфоренкриптонли:
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal <$true|$false>
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly <$true|$false>
    ```
 
    Например, чтобы настроить службу для расшифровки вложений электронной почты, когда пользователь загрузит их из веб-браузера, выполните следующие действия:
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal $true
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
    ```
 
    Чтобы настроить службу для выхода из зашифрованных вложений электронной почты во время загрузки, выполните указанные ниже действия.
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal $false
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $false
    ```
 
 ## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only"></a>Убедитесь, что все внешние получатели используют портал OME для чтения шифрованной почты — только расширенное шифрование сообщений в Office 365
@@ -177,7 +177,7 @@ ms.locfileid: "38687381"
 
 ### <a name="create-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email-to-be-revocable-and-expire-in-7-days"></a>Создание настраиваемого шаблона для принудительного использования портала OME всеми внешними получателями, а для шифрования электронной почты — ревокабле и истечения срока действия в течение 7 дней
 
-1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Запустите командлет New – OMEConfiguration:
 
@@ -227,7 +227,7 @@ ms.locfileid: "38687381"
   
 ### <a name="to-disable-the-new-capabilities-for-ome"></a>Отключение новых возможностей для OME
   
-1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в организации Office 365 запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции можно найти [в статье подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в организации Office 365 запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
 2. Если вы включили кнопку **шифровать** в Outlook в Интернете, отключите ее, выполнив командлет Set-IRMConfiguration с параметром симплифиедклиентакцессенаблед. В противном случае пропустите этот шаг.
 
