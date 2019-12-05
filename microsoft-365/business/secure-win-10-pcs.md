@@ -20,16 +20,21 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как защитить компьютеры с Windows 10 после настройки Microsoft 365 Business.
-ms.openlocfilehash: 6f599f3638ec9649be9464e1c51a531bf6c231b2
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: 47598ef0b5cba60a6d5e53973cc8b88584c62d05
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39814257"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837323"
 ---
-# <a name="secure-windows-10-pcs"></a>Защита компьютеров с Windows 10
+# <a name="secure-windows-10-computers"></a>Защита компьютеров с Windows 10
 
 После [настройки](set-up.md) Microsoft 365 Business необходимо обеспечить защиту компьютеров с Windows 10 в Организации от кражи и вредоносных угроз, таких как вирусы и вредоносные программы.
+Просмотрите это видео, чтобы получить обзор настройки политик для защиты компьютеров с Windows 10.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
+
+Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="to-secure-your-windows-10-pcs"></a>Обеспечение безопасности компьютеров с Windows 10
 

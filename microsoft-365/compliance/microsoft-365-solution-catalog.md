@@ -9,16 +9,16 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Сведения о каталоге решений Microsoft 365, в том числе о том, что он содержит, как получить его и выполнить следующие действия.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a789aca60bbb34f6831c27afea4b1ec5d3135f59
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 1d313720d2b9397b866898a55fb5ba2972234edb
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "38687337"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831642"
 ---
 # <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Обзор каталога решений Microsoft 365 (Предварительная версия)
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 Ищете способ для быстрого начала задач обеспечения соответствия требованиям в Microsoft 365? В новом [каталоге решений Microsoft 365](https://compliance.microsoft.com/solutioncatalog) вы найдете, учитесь и быстро приступите к работе с решениями для обеспечения соответствия требованиям и управления рисками.
 
@@ -80,13 +80,11 @@ ms.locfileid: "38687337"
 
 - Чтобы посетить каталог решений Microsoft 365, перейдите в раздел [https://compliance.microsoft.com](https://compliance.microsoft.com) и войдите в систему как глобальный администратор, администратор соответствия требованиям или администратор данных о соответствии требованиям. Выберите **Каталог** в области навигации в левой части экрана, чтобы открыть домашнюю страницу каталога.
 
-- Чтобы узнать больше о требованиях, ознакомьтесь со статьей [обязательные лицензии и разрешения](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions).
-
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
 **Почему я еще не вижу нового каталога решений Microsoft 365?**
 
-Сначала убедитесь, что у вас есть соответствующие [лицензии и разрешения](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions). Затем войдите в [https://compliance.microsoft.com](https://compliance.microsoft.com) систему как глобальный администратор, администратор соответствия требованиям или администратор данных о соответствии требованиям. Если вы по-прежнему не увидите новый каталог решений в левой области навигации, вы будете в ближайшее время.
+Сначала убедитесь, что у вас есть соответствующие лицензии и разрешения. Затем войдите в [https://compliance.microsoft.com](https://compliance.microsoft.com) систему как глобальный администратор, администратор соответствия требованиям или администратор данных о соответствии требованиям. Если вы по-прежнему не увидите новый каталог решений в левой области навигации, вы будете в ближайшее время.
 
 **Некоторые функции соответствия, перечисленные на странице Каталог решений, недоступны в центре соответствия требованиям Microsoft 365. Чем я занимаюсь?**
 

@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: 3cdb5fd6644d76a843e109ff53f73eb9ec4638f8
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 147dd0ec0276d685177ae389092ec18ace0d7bed
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627543"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831692"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Этап 3. Windows 10 Корпоративная
 
@@ -68,7 +68,7 @@ Microsoft 365 Enterprise включает Windows 10 Корпоративная,
 
 Windows 10 предоставляет функции, помогающие защититься от угроз, а также обеспечивать безопасность устройств и помощь в управлении доступом. С Windows 10 вы получаете важные функции безопасности, которые защищают ваше устройство от запуска. Microsoft 365 E3 добавляет функции безопасности, такие как Windows Hello для бизнеса, Управление приложениями защитника Windows и Windows Information Protection. С помощью Microsoft 365 а вы получаете все функции защиты от Microsoft 365 E3 Security, а также функции безопасности на основе облака и Advanced Threat Protection в защитнике Майкрософт. 
 
-Чтобы узнать больше о возможностях обеспечения безопасности, которые вы получаете в Windows 10 Корпоративная, и ознакомьтесь с указаниями по развертыванию, управлению, настройке и устранению неполадок трех основных функций екурити, описанных в разделе [Шаг 5: развертывание компонентов безопасности Windows 10 Корпоративная](windows10-enable-security-features.md).
+Дополнительные сведения о функциях обеспечения безопасности, которые вы получаете в Windows 10 Корпоративная, и рекомендации по развертыванию, управлению, настройке и устранению неполадок трех ключевых функций безопасности приведены в [шаге 5: развертывание компонентов безопасности Windows 10 Корпоративная](windows10-enable-security-features.md).
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Как корпорация Майкрософт реализует Microsoft 365 корпоративный
 

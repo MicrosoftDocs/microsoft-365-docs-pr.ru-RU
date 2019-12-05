@@ -13,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Используйте это руководство по лаборатории тестирования для включения привилегированного управления доступом в тестовой среде Microsoft 365 корпоративный.
-ms.openlocfilehash: 68d542b3f97022abc65b94162f333e7059f614a8
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 7e6a2ddea341f49c737409d8586bd9e70c9b2b79
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673345"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831820"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Управление привилегированным доступом для вашей тестовой среды Microsoft 365 корпоративный
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 Enterprise и Office 365 Enterprise.*
+*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
 
 С помощью инструкций, описанных в этой статье, вы настраиваете управление привилегированным доступом для повышения безопасности в тестовой среде Microsoft 365 Enterprise.
 
@@ -62,7 +62,7 @@ ms.locfileid: "38673345"
 
 Сначала подключитесь к PowerShell с помощью консоли управления Exchange, указав учетные данные пользователя, настроенного в качестве глобального администратора в тестовой среде, и попытайтесь создать новое правило журнала. В настоящее время задача [New-JournalRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-journalrule?view=exchange-ps) не определена в политике привилегированного доступа для вашей организации.
 
-1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online с помощью учетной записи глобального администратора для тестовой среды.
+1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online, используя учетную запись глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
@@ -101,7 +101,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 ### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>Проверка требования утверждения для новой задачи JournalRule, определенной в политике привилегированного доступа
 
-1. На локальном компьютере откройте и войдите в модуль > удаленного PowerShell Exchange Online в удаленном модуле PowerShell **** Microsoft**Exchange Online** с помощью учетной записи глобального администратора для тестовой среды.
+1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online с помощью учетной записи глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
@@ -109,7 +109,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
 
-3. В консоли управления Exchange PowerShell появляется сообщение об ошибке "Инсуффиент Permissions":
+3. Просмотр ошибки "недостаточно разрешений" в PowerShell Management PowerShell:
 
 ```ExchangeManagementPowerShell
 Insufficient permissions. Please raise an elevated access request for this task.
@@ -149,11 +149,11 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
-4. Выберите ожидающий запрос и нажмите кнопку **одобрить** , чтобы предоставить учетной записи глобального администратора доступ к новому правилу журнала. Электронная почта уведомления, подтверждающая, что утверждение предоставлено, будет отправлено в учетную запись глобального администратора (запрашивающего пользователя).  
+4. Выберите ожидающий запрос и нажмите кнопку **одобрить** , чтобы предоставить учетной записи глобального администратора доступ к новому правилу журнала. Сообщение электронной почты с уведомлением о том, что утверждение предоставлено, будет отправлено в учетную запись глобального администратора (запрашивающего пользователя).  
 
 ### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Тестирование создания нового правила журнала с привилегированным доступом, утвержденным для задачи New-JournalRule
 
-1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online с помощью учетной записи глобального администратора для тестовой среды.
+1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online, используя учетную запись глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 

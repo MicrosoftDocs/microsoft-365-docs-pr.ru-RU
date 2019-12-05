@@ -17,6 +17,7 @@
         - name: Подписки на обновление
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: Ведомости и платежи
+      expanded: true
       items:
         - name: Знакомство со счетом
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
@@ -28,8 +29,8 @@
           href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: Счета выставления счетов
       items:
-        - name: Управление сведениями учетных записей для выставления счетов
-          href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
+        - name: Управление учетными записями выставления счетов
+          href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
         - name: Связать клиент с моей учетной записью выставления счетов
           href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
     - name: Управление связями с моими партнерами

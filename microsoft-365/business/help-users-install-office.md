@@ -16,17 +16,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Помогите пользователям установить приложения Office.
-ms.openlocfilehash: dd2d32ee04402ef977ee1530c20d77512c2d8336
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 73eb3ed9bb88dca4232865b2ecd9015441875c07
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320227"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831212"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Помогите пользователям установить Office на устройствах с Windows 10
 
@@ -34,8 +36,14 @@ ms.locfileid: "38320227"
 
 Вы можете быстро и легко установить Office на компьютерах с Windows 10 из центра администрирования Microsoft 365 бизнес.
   
-Прежде чем начать, прочитайте статью [Подготовка к установке Office для клиентов](prepare-for-office-client-deployment.md), чтобы понять, как это работает с ранее установленными приложениями Office. 
-  
+Прежде чем начать, прочитайте статью [Подготовка к установке Office для клиентов](prepare-for-office-client-deployment.md), чтобы понять, как это работает с ранее установленными приложениями Office.
+
+Посмотрите короткое видео об установке приложений Office.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
+
+Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+
 ## <a name="manage-office-deployments"></a>Управление развертываниями Office
 
 1. Перейдите в центр администрирования и войдите <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>в систему, используя учетные данные глобального администратора. 
@@ -51,4 +59,6 @@ ms.locfileid: "38320227"
     
       :::image type="content" source="media/sendemailtousers.png" alt-text="Выберите пользователи для отправки электронной почты с помощью ссылки для скачивания Office.":::
 
+## <a name="see-also"></a>См. также
 
+[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

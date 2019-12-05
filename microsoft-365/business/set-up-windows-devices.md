@@ -15,17 +15,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для Microsoft 365 Business Users. '
-ms.openlocfilehash: b377c1e69d117b893b256880cd3b9972e33345c7
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: 1e160d624ce5150a1fb74899949aca824589d908
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39812885"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831350"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Узнайте, как профили выставления счетов поддерживают накладные.
 keywords: Профиль выставления счетов, счета, расходы, управляемые расходы
-ms.openlocfilehash: 4b46709cf877ea8689f72b66d5ac357272e4737d
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 3dbdbb57b46b915891640483bde56ebc8ad1cff6
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753548"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837393"
 ---
 # <a name="manage-billing-profiles"></a>Управление профилями выставления счетов
 Для коммерческих клиентов, которые покупают продукты и услуги от Майкрософт, профили выставления счетов позволяют настраивать, какие товары включаются в счет, а также как вы оплачиваете счета.
