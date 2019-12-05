@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для сетевой инфраструктуры.
-ms.openlocfilehash: ad54284fdbd00fef486a13a957af6f06cb6a7450
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: f3d2861af90e9a6f8a9b0b64b307dac6b1b76eb1
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370156"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831950"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Шаг 1. Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной
 
@@ -48,7 +48,7 @@ ms.locfileid: "37370156"
 Чтобы выполнить это требование, см. [этап 2](networking-dns-resolution-same-location.md).
 
 <a name="crit-networking-step3"></a>
-## <a name="optional-unneccessary-network-hairpins-are-removed"></a>Необязательное: вы удалили ненужные развороты пакетов
+## <a name="optional-unnecessary-network-hairpins-are-removed"></a>Необязательное: вы удалили ненужные развороты пакетов
 
 Вы изучили развороты пакетов и определили их влияние на производительность во всех своих офисах. Вы удалили ненужные развороты пакетов или вместе со сторонним поставщиком реализовали оптимальный обмен трафиком Microsoft 365 для их сети.
 

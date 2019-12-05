@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как по-разному выглядят планирование и реализация непрерывности бизнес-процессов, если облачные службы являются частью вашего ИТ-предложения.
-ms.openlocfilehash: 9b8d769670b53a75c2b48254cb0026488995274a
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: 86ceac67b90acfbb90a35d9a528a89d619668722
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122259"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831840"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Управление непрерывностью бизнес-процессов в компании (УНБК) с помощью облачных служб
 

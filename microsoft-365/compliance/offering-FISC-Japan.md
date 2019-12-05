@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 0cf7a32d50c6fd648894934ccbb32d84959bd12b
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 275781c8e5b25555e7b65f830b8c703827d80849
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39232916"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676686"
 ---
 # <a name="compliance-offering-center-for-financial-industry-information-systems-fisc"></a>Предложение для соответствия требованиям: центр информационных систем для финансовой отрасли (FISC)
 
@@ -40,10 +40,7 @@ ms.locfileid: "39232916"
 
 Финансовые учреждения могут использовать эту оценку соответствия требованиям в трех областях для соответствующей инфраструктуры и служб Azure, Dynamics 365, Office 365 и Microsoft Cloud App Security.
 
-Узнайте о преимуществах FISC в Microsoft Cloud:
-
-- [Скачать информационный документ для FISC (Япония)](https://aka.ms/fisc-backgrounder)
-- [Дополнительные сведения о проверке внешних оценщиков и ссылки на их сайты (только на японском языке)](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx) 
+[Дополнительные сведения о проверке внешних оценщиков и ссылки на их сайты (только на японском языке)](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 

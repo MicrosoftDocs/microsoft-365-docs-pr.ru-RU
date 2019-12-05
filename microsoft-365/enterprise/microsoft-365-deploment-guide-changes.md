@@ -3,7 +3,7 @@ title: Изменения содержимого развертывания Micr
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 11/19/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,14 +13,26 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: 529d781f31157c6e9ad63a83ef5f8bb96873049d
-ms.sourcegitcommit: 2bdd7b535a7d2a4896df130b7047f8c85f4d47b4
+ms.openlocfilehash: bf7cda762d2ac7a8fd57135b985d893ee03c0646
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38711893"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831830"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 корпоративный
+
+## <a name="december-2019"></a>Декабрь 2019 г.
+
+### <a name="new-content"></a>Новое содержимое 
+
+- [Руководство по лаборатории тестирования для защиты файлов в Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-team-for-files-in-a-dev-test-environment)
+
+### <a name="updates-and-enhancements"></a>Обновления и улучшения
+
+- Использованием меток конфиденциальности для [защиты сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-sharepoint-online-sites-and-files)
+-  Новые процедуры пробной подписки для [простой базовой конфигурации](lightweight-base-configuration-microsoft-365-enterprise.md) и [базовой конфигурации "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md)
+- 
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
