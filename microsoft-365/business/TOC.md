@@ -10,7 +10,7 @@
 ### [Обновление до Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md)
 ### [Подготовка к развертыванию клиента Office](prepare-for-office-client-deployment.md)
 ### [Помощь пользователям в установке Office](help-users-install-office.md)
-### [Доступ к локальным ресурсам]
+### Доступ к локальным ресурсам
 #### [Обеспечение возможности управлять устройствами с Windows 10, присоединенными к домену](manage-windows-devices.md)
 #### [Доступ к ресурсам с устройства, присоединенного к Azure AD](access-resources.md)
 ## Настройка устройства пользователя
