@@ -1,0 +1,115 @@
+- name: 'Компьютеры, управляемые Майкрософт'
+  href: index.yml
+  items:
+    - name: 'Что собой представляют компьютеры, управляемые Майкрософт?'
+      href: intro/index.md
+      items:
+        - name: Роли и обязанности
+          href: intro/roles-and-responsibilities.md
+        - name: 'Технологии на компьютерах, управляемых Майкрософт'
+          href: intro/technologies.md
+        - name: 'Компьютеры, управляемые Майкрософт'
+          href: MMD-and-ITSM.md
+    - name: 'Описание услуги предоставления компьютеров, управляемых Майкрософт'
+      href: service-description/index.md
+      items:
+        - name: Поддерживаемые регионы и языки
+          href: service-description/regions-languages.md
+        - name: Жизненный цикл продукта
+          href: service-description/device-lifecycle.md
+        - name: Программные устройства
+          href: service-description/device-list.md
+          items:
+            - name: Архивные программные устройства
+              href: service-description/archived-device-list.md
+        - name: Службы устройств
+          href: service-description/device-services.md
+        - name: Настройка устройства
+          href: service-description/device-policies.md
+        - name: Безопасность
+          href: service-description/security.md
+        - name: Обновления
+          href: service-description/updates.md
+        - name: Поддержка
+          href: service-description/support.md
+        - name: Операции и мониторинг
+          href: service-description/operations-and-monitoring.md
+        - name: Требования к приложениям
+          href: service-description/mmd-app-requirements.md
+        - name: Изменения служб и обмен информацией
+          href: service-description/servicechanges.md
+        - name: Исключения в плане обслуживания
+          href: service-description/customizing.md
+    - name: 'Подготовка к регистрации для получения услуги предоставления компьютеров, управляемых Майкрософт'
+      href: get-ready/index.md
+      items:
+        - name: 'Предварительные условия для компьютеров, управляемых Майкрософт'
+          href: get-ready/prerequisites.md
+        - name: Подготовка сети
+          href: get-ready/network.md
+        - name: 'Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт'
+          href: get-ready/authentication.md
+        - name: 'Подготовка подключенных дисков для компьютеров, управляемых Майкрософт'
+          href: get-ready/mapped-drives.md
+        - name: 'Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт'
+          href: get-ready/certs-wifi-lan.md
+        - name: Подготовка приложений
+          href: get-ready/apps.md
+          items:
+            - name: Работа с консультационными службами Майкрософт
+              href: get-ready/apps-MCS.md
+    - name: 'Начало работы с компьютерами, управляемыми Майкрософт'
+      href: get-started/index.md
+      items:
+        - name: Добавление и проверка контактов администратора на портале администрирования
+          href: get-started/add-admin-contacts.md
+        - name: Настройка условного доступа
+          href: get-started/conditional-access.md
+        - name: Назначение лицензий
+          href: get-started/assign-licenses.md
+        - name: Развертывание корпоративного портала Intune
+          href: get-started/company-portal.md
+        - name: Включение службы Enterprise State Roaming
+          href: get-started/enterprise-state-roaming.md
+        - name: Настройка устройств
+          href: get-started/set-up-devices.md
+          items:
+            - name: Самостоятельная регистрация новых устройств
+              href: get-started/register-devices-self.md
+              items:
+                - name: Этапы регистрации устройств для партнеров
+                  href: get-started/register-devices-partner.md
+            - name: Самостоятельная регистрация существующих устройств
+              href: get-started/register-reused-devices-self.md
+        - name: Подготовка пользователей к работе с устройствами
+          href: get-started/get-started-devices.md
+        - name: Развертывание приложений
+          href: get-started/deploy-apps.md
+          items:
+            - name: Microsoft Project и Microsoft Visio
+              href: get-started/project-visio.md
+    - name: 'Работа с компьютерами, управляемыми Майкрософт'
+      href: working-with-managed-desktop/index.md
+      items:
+        - name: Работа с аналитикой
+          href: working-with-managed-desktop/insights.md
+          items:
+            - name: Аналитика использования
+              href: working-with-managed-desktop/usage-insights.md
+            - name: Аналитика надежности
+              href: working-with-managed-desktop/reliability-insights.md
+        - name: Поддержка администраторов
+          href: working-with-managed-desktop/admin-support.md
+        - name: Поддержка пользователей
+          href: working-with-managed-desktop/end-user-support.md
+        - name: Управление приложениями
+          href: working-with-managed-desktop/manage-apps.md
+        - name: Настраиваемые параметры
+          href: working-with-managed-desktop/config-setting-overview.md
+          items:
+            - name: Справочник по настраиваемым параметрам
+              href: working-with-managed-desktop/config-setting-ref.md
+            - name: Развертывание настраиваемых параметров
+              href: working-with-managed-desktop/config-setting-deploy.md
+    - name: 'Журнал изменений документации по компьютерам, управляемым Майкрософт'
+      href: change-history-managed-desktop.md
