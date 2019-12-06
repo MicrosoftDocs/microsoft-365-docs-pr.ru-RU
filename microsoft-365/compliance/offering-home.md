@@ -10,12 +10,12 @@ keywords: Майкрософт, Microsoft 365, соответствие треб
 localization_priority: Normal
 audience: ITPro
 ms.prod: Microsoft-365-enterprise
-ms.openlocfilehash: 15fa462b9cae68b613f7d6d28563acaebb7fa762
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: d93e7071c43bc1d9f5ded5d4c7dd7d1a5af1cd62
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38687419"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859439"
 ---
 # <a name="microsoft-compliance-offerings"></a>Предложения Майкрософт для соответствия требованиям
 
@@ -155,7 +155,7 @@ ms.locfileid: "38687419"
                         <p><a href="offering-bir-2012-netherlands.md">BIR 2012 (Нидерланды)</a></p>
                         <p><a href="offering-c5-germany.md">C5 (Германия)</a></p>
                         <p><a href="offering-ccpa.md">ККПА (США-Калифорния)</a></p>
-                        <p><a href="offering-ccsl-irap-australia.md">CCSL/ИРАП (Австралия)</a></p>
+                        <p><a href="offering-ccsl-irap-australia.md">ИРАП/CCSL (Австралия)</a></p>
                         <p><a href="offering-cs-mark-gold-japan.md">CS-метка Gold (Япония)</a></p>
                         <p><a href="offering-cyber-essentials-plus-uk.md">Cyber Essentials Plus (Соединенное Королевство)</a></p>
                         <p><a href="offering-canadian-privacy-laws.md">Канадские законы о защите конфиденциальности</a></p>
