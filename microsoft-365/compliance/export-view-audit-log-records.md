@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: После экспорта и загрузки результатов поиска в журнал аудита Office 365 в CSV-файл можно использовать функцию преобразования JSON в редакторе Power Query в Excel, чтобы разделить каждое свойство в объекте JSON в столбце Аудитдата на отдельный столбец. Это поможет быстро найти конкретные искомые данные аудита.
-ms.openlocfilehash: 9b422877c10f086553a695e43c50f02d389dd2b5
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: dc96bb8fbcf3acbab66bdb8d4b3d1450e9d3aeaf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687528"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39858185"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Экспорт, настройка и просмотр записей журнала аудита
 
@@ -45,7 +45,7 @@ ms.locfileid: "38687528"
    ![Сообщение, отображаемое при завершении скачивания CSV-файла](media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
-  > Можно скачать не более 50 000 записей в CSV-файл из одного поиска журнала аудита. Если в CSV-файл загружаются записи 50 000, можно предположить, что существует более 50 000 событий, удовлетворяющих условиям поиска. Чтобы экспортировать больше этого ограничения, попробуйте использовать диапазон дат, чтобы уменьшить количество записей в журнале аудита. Для экспорта более 50 000 записей может потребоваться выполнить несколько операций поиска с меньшими диапазонами дат.
+  > В CSV-файл можно загрузить до 50 000 записей результатов одной операции поиска по журналу аудита. Если в CSV-файл загружено 50 000 записей, можно предположить, что условиям поиска соответствует более 50 000 событий. Чтобы экспортировать больше этого ограничения, попробуйте использовать диапазон дат, чтобы уменьшить количество записей в журнале аудита. Чтобы экспортировать больше 50 000 записей, вы можете выполнить поиск несколько раз со смежными диапазонами дат.
 
 ## <a name="step-2-format-the-exported-audit-log-using-the-power-query-editor"></a>Шаг 2: форматирование экспортированного журнала аудита с помощью редактора Power Query
 
@@ -120,12 +120,12 @@ CSV-файл открывается в **редакторе запросов**. 
 
    - Можно использовать имя или значение перечисления для типа записи в качестве значения параметра *RecordType* . Список имен типов записей и соответствующих им значений перечисления представлен в таблице *аудитлогрекордтипе* в [схеме API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32).
    
-   - Для этого параметра можно указать только одно значение. Для поиска записей аудита для других типов записей необходимо повторно выполнить две приведенные выше команды, чтобы указать другой тип записи и добавить эти результаты в исходный CSV-файл. Например, эти две команды можно использовать для добавления действий с файлами SharePoint из одного диапазона дат в файл Повершеллаудитлог. csv.
+   - Для этого параметра можно указать только одно значение. Для поиска записей аудита для других типов записей необходимо повторно выполнить две приведенные выше команды, чтобы указать другой тип записи и добавить эти результаты в исходный CSV-файл. Например, чтобы добавить действия с файлами SharePoint из одного диапазона дат в файл Повершеллаудитлог. csv, выполните следующие две команды.
 
-       ```powershell
-      $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
-      ```
+          ```powershell
+          $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
+          ```
 
-      ```powershell
-      $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
-      ```powershell
+          ```powershell
+          $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
+          ```

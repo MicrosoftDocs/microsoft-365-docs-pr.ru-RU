@@ -14,12 +14,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
-ms.openlocfilehash: b87b0745c95cd043987f49ed7f21118339d3e592
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 44fe5b984c22a4560da6cf8d63096775f5b47095
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030703"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872015"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
 
@@ -71,7 +71,7 @@ ms.locfileid: "38030703"
 
 Некоторые проблемы с доставкой возникают из-за того, что IP-адрес отправителя блокируется корпорацией Майкрософт или из-за того, что учетная запись пользователя заблокирована за рассылку спама. Если вы считаете, что получили отчет о недоставке по ошибке, то сначала выполните приведенные в нем инструкции.
 
-Дополнительные сведения о полученной ошибке см. в полном списке кодов ошибок SMTP в статье [DSNs and NDRs in On-Premises Exchange 2013 and Office 365](https://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx).
+Для получения дополнительных сведений о полученной ошибке обратитесь к списку кодов ошибок в [отчетах о недоставке электронной почты в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online).
 
  Например, если вы получаете указанный ниже отчет о недоставке, ваш IP-адрес отправителя заблокирован корпорацией Майкрософт.
 

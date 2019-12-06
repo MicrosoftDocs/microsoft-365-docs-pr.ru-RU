@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: 28ed444d821cbe00cfcb92872de15bb43a65ae28
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: d89cc0caeebbf37336a3b00346b3393dd5e74e78
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033880"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39865851"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -51,7 +51,7 @@ Office 365 позволяет клиентам ретранслировать н
 
 1. Убедитесь, что зарегистрированы все домены в центре администрирования Microsoft 365. Дополнительные сведения можно найти [здесь](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-2. Ищите необычные соединители. Вредоносные субъекты часто создают новые входящие соединители в клиенте Office 365 для отправки спама. Дополнительные сведения о проверке соединителей можно найти [здесь](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps). 
+2. Ищите необычные соединители. Вредоносные субъекты часто создают новые входящие соединители в клиенте Office 365 для отправки спама. Дополнительные сведения о проверке соединителей можно найти [здесь](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector). 
 
 3. Заблокируйте локальные серверы и убедитесь, что они не скомпрометированы.
 

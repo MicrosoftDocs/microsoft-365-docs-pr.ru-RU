@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange.
-ms.openlocfilehash: c8779fb89ecb1deda92382ae2d91de4e54b303e7
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e60c0ae87f050b6e72e53b6069a61cd52df0641a
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032364"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871845"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Поиск и освобождение сообщений на карантине для администратора
 
@@ -37,9 +37,9 @@ ms.locfileid: "38032364"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы узнать, какие разрешения вам нужны, просмотрите запись "карантин" в разделе [Feature Permissions in Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
+- Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы узнать, какие разрешения вам нужны, просмотрите запись "карантин" в разделе [Feature Permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) .
 
-- Разблокировать несколько сообщений за раз, а также сообщить о ложном срабатывании можно на странице **Карантин**. Вы также можете создать удаленный сценарий Оболочка Windows PowerShell для выполнения этой задачи. Используйте командлет [Get-QuarantineMessage](https://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) для поиска сообщений и командлет [Release-QuarantineMessage](https://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) для их разблокировки.
+- Разблокировать несколько сообщений за раз, а также сообщить о ложном срабатывании можно на странице **Карантин**. Вы также можете создать удаленный сценарий Оболочка Windows PowerShell для выполнения этой задачи. Используйте командлет [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) для поиска сообщений и командлет [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) для их разблокировки.
 
 - Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
@@ -54,7 +54,7 @@ ms.locfileid: "38032364"
 
 2. В окне **Расширенный поиск** выберите любые из указанных ниже условий. Чтобы включить условие, установите соответствующий флажок. Подстановочные знаки не поддерживаются.
 
-   1. **Идентификатор сообщения**: с помощью этого параметра можно выполнить целевой поиск определенного сообщения. Например, если сообщение отправлено пользователем в вашей организации или предназначено ему, но не получено, вы можете найти его с помощью функции трассировки сообщений. Дополнительные сведения см. в статье [Run a Message Trace and View Results](https://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx). Если вы обнаружили, что сообщение отправлено в карантин, потому что сработало правило или оно было определено как нежелательное, вы можете легко найти его в карантине, указав его идентификатор. Обязательно укажите полную строку идентификатора сообщения. Это может быть угловые скобки (\<\>).
+   1. **Идентификатор сообщения**: с помощью этого параметра можно выполнить целевой поиск определенного сообщения. Например, если сообщение отправлено пользователем в вашей организации или предназначено ему, но не получено, вы можете найти его с помощью функции трассировки сообщений. Дополнительные сведения см. в статье [Run a Message Trace and View Results](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/run-a-message-trace-and-view-results). Если вы обнаружили, что сообщение отправлено в карантин, потому что сработало правило или оно было определено как нежелательное, вы можете легко найти его в карантине, указав его идентификатор. Обязательно укажите полную строку идентификатора сообщения. Это может быть угловые скобки (\<\>).
 
    2. **Адрес электронной почты отправителя**: укажите адрес электронной почты пользователя, отправившего сообщение.
 

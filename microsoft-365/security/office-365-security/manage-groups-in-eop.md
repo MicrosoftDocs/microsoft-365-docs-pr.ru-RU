@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 description: С помощью Exchange Online Protection (EOP) для организации Exchange можно создавать группы с включенной поддержкой почты. EOP также позволяет определять или обновлять свойства групп, указывающие членство, адреса электронной почты и другие данные групп.
-ms.openlocfilehash: af7198b9130236ff74b0c6d147ebae5a8916d7b0
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: dcc816118f36d5e451c459aa67bef638eb97dad9
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032314"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866969"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -42,7 +42,7 @@ ms.locfileid: "38032314"
 
 - В процедурах PowerShell, приведенных в этом разделе, используется метод пакетной обработки, который приводит к задержке распространения в течение нескольких минут до того, как результаты команд будут видны.
 
-- Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell?view=exchange-ps).
+- Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 

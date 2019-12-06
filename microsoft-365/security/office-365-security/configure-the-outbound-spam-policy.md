@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: Фильтрация исходящей нежелательной почты всегда включена, если эта служба используется для отправки исходящей почты, тем самым помогая защищать организации, использующие эту службу, и их получателей.
-ms.openlocfilehash: d59d167a3e62dcb3d0f0532331902644c6b469dc
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: baf6999923a4c4cf346915800b8f97a0d0378f58
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033860"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871915"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>Настройка правил защиты от спама для исходящих сообщений
 
@@ -37,9 +37,9 @@ ms.locfileid: "38033860"
 
 Предполагаемое время для завершения: 5 минут.
 
-Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
+Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions).
 
-Следующую процедуру также можно выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedOutboundSpamFilterPolicy](https://technet.microsoft.com/library/8f15c83c-c10a-4d9d-b135-35321430bdc2.aspx) для просмотра параметров, а командлет [Set-HostedOutboundSpamFilterPolicy](https://technet.microsoft.com/library/665d1b04-d4b5-4a0e-811a-4e37096ccbfd.aspx) — для изменения параметров политики исходящей нежелательной почты. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554).
+Следующую процедуру также можно выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy) для просмотра параметров, а командлет [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy) — для изменения параметров политики исходящей нежелательной почты. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 ## <a name="use-the-security-and-compliance-center-scc-to-edit-the-default-outbound-spam-policy"></a>Использование центра безопасности и соответствия требованиям (SCC) для изменения политики исходящей нежелательной почты по умолчанию
 

@@ -1,7 +1,7 @@
 ---
 title: Права на образованию семьи и заявление о конфиденциальности (ФЕРПА)
 description: Корпорация Майкрософт применяет требования, предъявляемые к требованиям для образования и конфиденциальности для семейства US.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 02259b8c9e957e29ce695330a80b2a252478c0e1
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7ed252a681942d7c00840d3902f4c48e80231331
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690895"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859869"
 ---
-# <a name="compliance-offering-family-educational-rights-and-privacy-act-ferpa"></a>Предложение о соответствии требованиям: права на образовательных заведения и заявление о конфиденциальности (ФЕРПА)
+# <a name="family-educational-rights-and-privacy-act-ferpa"></a>Права на образованию семьи и заявление о конфиденциальности (ФЕРПА)
 
 ## <a name="ferpa-overview"></a>Обзор ФЕРПА
 
@@ -40,19 +40,19 @@ ms.locfileid: "38690895"
 
 Узнайте о преимуществах ФЕРПА в Microsoft Cloud: [Скачайте сведения о ФЕРПА](https://aka.ms/ferpa-compliance)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 Службы, для которых корпорация Майкрософт соглашается назначить официальным официальным образовательных заведений, в данные клиентов входят:
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365, Office 365 для государственных учреждений США и Office 365 для защиты от государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI, PowerApps и Microsoft Flow в виде автономной службы или в соответствии с торговым планом Office 365 или набором.
 - Azure DevOps Services
 - ATP в Защитнике Windows
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 ФЕРПА не требует и не распознает аудиты и сертификаты.
 
@@ -74,9 +74,9 @@ ms.locfileid: "38690895"
 - [Федеральный регистр: ФЕРПА итоговое правило](https://aka.ms/ferpa-reg)
 - [Руководство по реализации ФЕРПА для Microsoft Azure](https://aka.ms/azureferpa)
 - [Сопоставление платформы соответствия требованиям для Azure ФЕРПА](https://aka.ms/AzureFERPAMapping)
-- [Условия Microsoft Online Services](https://aka.ms/Online-Services-Terms)
+- [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/8/3/2839FB21-353E-472E-BE57-883EC9C6185F/FERPA_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/8/3/2839FB21-353E-472E-BE57-883EC9C6185F/FERPA_Compliance_Backgrounder.pdf).

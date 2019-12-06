@@ -1,7 +1,7 @@
 ---
 title: Правило комиссий по продажам в будущем (КФТК) 1.31 (c-d) США
 description: Независимая оценочная проверка того, что Azure и Office 365 могут помочь финансовым фирмам в соответствии с 1,31 правилами КФТК для хранения и неизменяемыми требованиями к хранению.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 72b5f8301dd32ed9188f52153498853720d883c1
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: db357418b87e98ee0f649e48b1c00f9073d5e5de
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690918"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860069"
 ---
-# <a name="compliance-offering-commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Предложение о соответствии требованиям: правило комиссий по торговле для товарных фьючерсов (КФТК) 1.31 (c-d) США
+# <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Правило комиссий по продажам в будущем (КФТК) 1.31 (c-d) США
 
 ## <a name="about-cftc-rule-13c-d"></a>О правиле КФТК 1.3 (c-d)
 
@@ -42,33 +42,33 @@ ms.locfileid: "38690918"
 
 Архивация в Office 365 помогает сохранить широкий спектр данных, в том числе электронную почту, голосовую почту, Общие документы, мгновенные сообщения и сторонние данные. В частности, архивация в Office 365 позволяет клиентам настраивать глобальные и детализированные политики хранения сообщений для хранения данных за определенный период, а не в неизменяемом формате без удаления.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/o365-compliance-framework)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 [Azure & правило КФТК 1,31 (в СЕКУНДах) &-4 (f) КФТК 1.31 (c-d) для оценки соответствия требованиям хранилища Azure
 
 [Office 365 & правило КФТК 1,31 — архивация в Office 365, хранение данных и в секунду правило соответствия требованиям 17A-4
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 - [Регламентированные финансовые услуги](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): карта соответствия требованиям основных принципов и норм США для облачных вычислений и Microsoft Online Services.
-- [Оценка риска & соответствие требованиям](https://aka.ms/RiskGovernanceGuide): создание модели управления для оценки рисков облачных служб Майкрософт и уведомления стабилизатора.
-- [Финансовые варианты использования](https://docs.microsoft.com/azure/industry/financial/): обзоры вариантов, учебные пособия и другие ресурсы для создания решений Azure для финансовых служб.
+- [Руководство по оценке риска и соответствия требованиям](https://aka.ms/RiskGovernanceGuide). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов.
+- [Финансовые варианты использования](https://docs.microsoft.com/azure/industry/financial/). Обзоры вариантов использования, учебные руководства и другие ресурсы для создания решений Azure для сферы финансовых услуг.
 
 ## <a name="resources"></a>Ресурсы
 
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://aka.ms/FSCP-Print)
-- [Облачные службы и финансовые службы Microsoft Business](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Средство оценки рисков облачных служб Azure](https://aka.ms/FFIEC-CSDT)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://aka.ms/FSCP-Print)
+- [Облачные службы Майкрософт для бизнеса и финансовые услуги](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Средство оценки облачных рисков для финансовых услуг в Azure](https://aka.ms/FFIEC-CSDT)
 - [Политики хранения Microsoft Office 365](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
-- [Блог по финансовым службам Майкрософт](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
+- [Блог финансовых услуг Майкрософт](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/9/A/9/9A9847FE-164A-4321-8112-50719D9EA877/CFTC1.31-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/9/A/9/9A9847FE-164A-4321-8112-50719D9EA877/CFTC1.31-Compliance.pdf).

@@ -15,12 +15,12 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection. Заблокированные URL-адреса будут применяться к сообщениям электронной почты и документам Office в соответствии с политиками безопасных ссылок ATP.
-ms.openlocfilehash: ab79f86646ffd195b31d46980c3bd3bd3bb8f444
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 645f2642a34483ba1310c3bfcd1178dbaaf42a49
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032064"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866591"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP
 
@@ -45,7 +45,7 @@ ms.locfileid: "38032064"
 |---------|---------|
 |Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
 |Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> или  <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+|Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
 > [!TIP]
 > Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).

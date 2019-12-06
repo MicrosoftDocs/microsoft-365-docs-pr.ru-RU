@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: d5f0958d199684a9d6ca6bfe4ed01c0ab9102a2a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9ad177e96184913be61e098a1aafa294a123199b
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091516"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866411"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -29,19 +29,19 @@ ms.locfileid: "37091516"
 ![Информационная &amp; панель центра соответствия требованиям безопасности поможет вам узнать, где работает Расширенная защита от угроз](../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 К отчетам ATP относятся следующие:
-- [Отчет о состоянии защиты от угроз](#threat-protection-status-report)
-- [Отчет о типах файлов ATP](#atp-file-types-report)
-- [Отчет об ликвидации сообщений ATP](#atp-message-disposition-report)
+- [отчет о состоянии защиты от угроз](#threat-protection-status-report);
+- [отчет о типах файлов ATP](#atp-file-types-report);
+- [отчет о действиях с сообщениями в ATP](#atp-message-disposition-report);
 - [Обнаружение или проводник в режиме реального времени](threat-explorer.md) (в зависимости от того, установлен ли для Office 365 ATP 1 (план 1) или 2)
 - ... [и многое другое](#additional-reports-to-view). 
 
 В этой статье приводятся общие сведения об отчетах ATP и способах их использования.
   
-## <a name="threat-protection-status-report"></a>Отчет о состоянии защиты от угроз
+## <a name="threat-protection-status-report"></a>отчет о состоянии защиты от угроз;
 
 Отчет **о состоянии защиты от угроз** — это единое представление, объединяющее сведения о вредоносном содержимом и вредоносных сообщениях, обнаруженных и заблокированных службой [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) и [Office 365 ATP](office-365-atp.md). Этот отчет полезен для просмотра обнаружений с течением времени (до 90 дней), а также позволяет администраторам безопасности определять тенденции или определять необходимость внесения изменений в политики. 
 
-В отчете о состоянии защиты от угроз представлено общее количество уникальных сообщений электронной почты с вредоносным содержимым, например файлов или адресов веб-сайтов (URL-адресов), которые были заблокированы ядром защиты от вредоносных программ, функции [автоматического очистки (ZAP)](zero-hour-auto-purge.md)и ATP, такие как [Безопасные ссылки ATP](atp-safe-links.md), [безопасные вложения ATP](atp-safe-attachments.md)и [возможности защиты от фишинга](atp-anti-phishing.md)ATP. 
+В отчете о состоянии защиты от угроз задается общее количество уникальных сообщений электронной почты с вредоносным содержимым, например файлов или адресов веб-сайтов (URL-адресов), которые были заблокированы ядром защиты от вредоносных программ, функции [автоматического очистки (ZAP)](zero-hour-auto-purge.md)и ATP, такие как [безопасные ссылки](atp-safe-links.md)ATP, [безопасные вложения ATP](atp-safe-attachments.md)и [возможности защиты от фишинга](atp-anti-phishing.md)ATP. 
 
 > [!NOTE]
 > Отчет о состоянии защиты от угроз доступен клиентам, у которых есть [Office 365 ATP](office-365-atp.md) или [Exchange Online Protection](exchange-online-protection-eop.md) (EOP); Однако сведения, отображаемые в отчете о состоянии защиты от угроз для клиентов ATP, скорее всего, будут содержать данные, отличные от данных, которые могут видеть пользователи EOP. Например, отчет о состоянии защиты от угроз для клиентов ATP будет содержать сведения о [вредоносных файлах, обнаруженных в SharePoint Online, OneDrive или Microsoft Teams](atp-for-spo-odb-and-teams.md). Такие сведения относятся к ATP, поэтому клиенты, у которых есть EOP, но не ATP, не увидят эти сведения в отчете о состоянии защиты от угроз.
@@ -62,19 +62,19 @@ ms.locfileid: "37091516"
   
 ![Параметры просмотра для отчета о состоянии защиты от угроз для ATP](../media/4959bf8c-d192-4542-b00b-184e101e7513.png)
   
-## <a name="atp-file-types-report"></a>Отчет о типах файлов ATP
+## <a name="atp-file-types-report"></a>отчет о типах файлов ATP;
 
 В отчете " **типы файлов ATP** " отображаются типы файлов, обнаруженных в качестве вредоносных при [безопасном вложении ATP](atp-safe-attachments.md).
   
 Чтобы просмотреть этот отчет, в [центре безопасности &amp; и соответствия требованиям](https://protection.office.com)перейдите к **типам файлов** **панели мониторинга** \> **отчетов** \> ATP.
   
-![Отчет о типах файлов ATP](../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
+![отчет о типах файлов ATP;](../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
 Если навести указатель мыши на определенный день, можно увидеть разбивку типов вредоносных файлов, обнаруженных [безопасными вложениями ATP](atp-safe-attachments.md) и [защитой от &amp; нежелательной почты в Office 365](anti-spam-and-anti-malware-protection.md).
   
 ![Данные о типах файлов ATP в день](../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
   
-## <a name="atp-message-disposition-report"></a>Отчет об ликвидации сообщений ATP
+## <a name="atp-message-disposition-report"></a>отчет о действиях с сообщениями в ATP;
 
 В отчете об **ликвидации сообщений ATP** отображаются действия, предпринятые для сообщений электронной почты, которые были обнаружены как вредоносный контент. 
   
@@ -94,9 +94,9 @@ ms.locfileid: "37091516"
 |---------|---------|
 |**Проводник** или **Обнаружение в режиме реального времени** (Office 365 ATP, план 2, у пользователей есть Explorer; Пользователи Office 365 ATP 1 (план 1) имеют обнаружение в режиме реального времени.)| [Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)       |
 |**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаружении нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](../../compliance/view-email-security-reports.md)        |
-|**Трассировка URL-адресов для безопасных ссылок ATP** (Это отчет, созданный с помощью PowerShell.) В этом отчете представлены результаты действий безопасных ссылок ATP за прошедшие семь (7) дней. |[Справочные материалы по командлету Get – Урлтраце](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace?view=exchange-ps) |
-|**Результаты EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит такие сведения, как домен, Дата, тип события, направление, действие и количество сообщений.  | [Справочные материалы по командлету Get – Маилтраффикатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |
-|**Обнаружения EOP и ATP** (Это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит сведения о вредоносных файлах или URL-адресах, фишинговых попытках, олицетворении и других потенциальных угрозах в электронной почте или файлах.   | [Справочные материалы по командлету Get – Маилдетаилатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport?view=exchange-ps)        |
+|**Трассировка URL-адресов для безопасных ссылок ATP** (это отчет, созданный с помощью PowerShell.) В этом отчете представлены результаты действий безопасных ссылок ATP за прошедшие семь (7) дней. |[Справочные материалы по командлету Get – Урлтраце](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace) |
+|**Результаты EOP и ATP** (это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит такие сведения, как домен, Дата, тип события, направление, действие и количество сообщений.  | [Справочные материалы по командлету Get – Маилтраффикатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport) |
+|**Обнаружение EOP и ATP** (это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит сведения о вредоносных файлах или URL-адресах, фишинговых попытках, олицетворении и других потенциальных угрозах в электронной почте или файлах.   | [Справочные материалы по командлету Get – Маилдетаилатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport)        |
 
   
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>Какие разрешения необходимы для просмотра отчетов ATP?
@@ -108,13 +108,13 @@ ms.locfileid: "37091516"
     - Администратор безопасности (это можно назначить в центре администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))).
     - Средство чтения безопасности
 
-- Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
+- Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)):
     - Управление организацией
     - Управление организацией с правами только на просмотр
     - Роль получателей с правами только на просмотр
     - Управление соответствием требованиям
 
-Чтобы узнать больше, ознакомьтесь со следующими материалами:
+Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
 
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 

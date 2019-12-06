@@ -1,7 +1,7 @@
 ---
 title: Общая инфраструктура безопасности HITRUST (CSF) для исправности
 description: Azure и Office 365 сертифицированы на общую среду безопасности HITRUST (CSF).
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: fae04170595b953b2ec88c34e2fec5a2a7ffa9cb
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: ebe89a7dc63a9adbe2c40961f92c1a6656d9ae9d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690928"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859739"
 ---
-# <a name="compliance-offering-health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Предложение по обеспечению соответствия требованиям: инфраструктура доверия Trusting Information Alliance (HITRUST) (CSF)
+# <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Общая инфраструктура безопасности HITRUST (CSF) для исправности
 
 ## <a name="hitrust--csf-overview"></a>HITRUST — обзор CSF
 
@@ -36,13 +36,13 @@ HITRUST предлагает три уровня гарантии или уро�
 
 [Скачайте Microsoft Azure HITRUST the Customer дистрибуторскими Matrix (CRM), план версии 9.0 d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
-- [Государственные учреждения Azure и Azure](https://aka.ms/AzureCompliance)
+- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Intune
-- [Office 365 и Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 и Office 365 для государственных организаций США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Сертификат HITRUST CSF для Azure и Office 365 действителен в течение двух лет.
 
@@ -108,6 +108,6 @@ HITRUST предлагает три уровня гарантии или уро�
 - [Узнайте больше о программе общей ответственности HITRUST.](https://go.microsoft.com/fwlink/p/?linkid=2100268)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/2/6/7265470A-862D-4665-91E8-E17BF0C8A1E2/HITRUST-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/2/6/7265470A-862D-4665-91E8-E17BF0C8A1E2/HITRUST-Compliance.pdf).

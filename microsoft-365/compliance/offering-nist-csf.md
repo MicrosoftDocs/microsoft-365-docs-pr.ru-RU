@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 7dae370f9fd41ba0a04dd4c327a238dac3841da3
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: 8ed1da925da40b439d449638887808aa9830d6e0
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676656"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859368"
 ---
-# <a name="compliance-offering-national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Предложение по обеспечению соответствия требованиям: Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
+# <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 
 ## <a name="nist-csf-overview"></a>Обзор NIST CSF
 

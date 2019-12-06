@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Чтобы убедиться, что электронная почта, отправленная от пользователей, которым вы доверяете, не заблокирована, можно использовать политику фильтра подключений, чтобы создать список разрешенных IP-адресов, который также называется надежным списком отправителей. Вы также можете создать список заблокированных отправителей.
-ms.openlocfilehash: 541960ce5339e1334cdc61e1f88bff9be48fe2bd
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6dc0bc4f29446cc064420632f04265c93c0ffa1b
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032434"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871925"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Настройка политики фильтров подключений
 
@@ -42,13 +42,13 @@ ms.locfileid: "38032434"
 
 - Предполагаемое время для завершения: 15 минут.
 
-- Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "Защита от нежелательной почты" в разделе [Feature Permissions in Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) .
+- Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Чтобы просмотреть необходимые разрешения, обратитесь к разделу "Защита от нежелательной почты" в разделе [Feature Permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) .
 
 - Чтобы узнать IP-адрес отправителя, получение сообщений которого необходимо разрешить или заблокировать, взгляните на заголовок интернет-сообщения. Найдите заголовок CIP, как описано в [заголовках сообщений по защите от нежелательной почты](anti-spam-message-headers.md). Сведения о том, как просматривать заголовок сообщения в различных почтовых клиентах, можно найти в статье [анализатор заголовков сообщений](https://go.microsoft.com/fwlink/p/?LinkId=306583).
 
 - Сообщения электронной почты, отправленные с IP-адреса в списке заблокированных IP-адресов, не отмечаются как нежелательные, при этом дополнительная фильтрация не применяется.
 
-- Приведенную ниже процедуру фильтрации подключений можно также выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedConnectionFilterPolicy](https://technet.microsoft.com/library/bd751db2-3f26-495b-8e5a-4fcab53b17fd.aspx), чтобы просматривать параметры, а [Set-HostedConnectionFilterPolicy](https://technet.microsoft.com/library/ccb5731b-3fca-4d69-a91f-5049ea963fac.aspx) — чтобы изменять параметры политики фильтрации подключений. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554).
+- Приведенную ниже процедуру фильтрации подключений можно также выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy), чтобы просматривать параметры, а [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) — чтобы изменять параметры политики фильтрации подключений. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 ## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>Изменение политики фильтров подключений по умолчанию с помощью Центра администрирования Exchange
 

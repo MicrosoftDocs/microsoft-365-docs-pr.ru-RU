@@ -1071,7 +1071,7 @@
               href: 'https://aka.ms/TRUCS-Compliance'
         - name: Австралия и Тихоокеанский регион
           items:
-            - name: CCSL/IRAP (Австралия)
+            - name: ИРАП/CCSL (Австралия)
               href: offering-CCSL-IRAP-Australia.md
             - name: Платформа NZ CC (Новая Зеландия)
               href: offering-nz-cc-framework-nz.md

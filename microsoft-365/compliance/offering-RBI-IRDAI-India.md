@@ -1,7 +1,7 @@
 ---
 title: Резервирование банка Индии (РБИ) и страхового законодательства и центра развития Индии (ИРДАИ)
 description: Корпорация Майкрософт опубликовала рекомендации по использованию финансовых учреждений в Индии с внедрением в облаке.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 5e6af9be34fe5b14c84e8ba6cc9a55510baab92d
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: c88cfbfc9237e6e9a43dc8b143af015ba377ad17
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690942"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859499"
 ---
-# <a name="compliance-offering-reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Предложение по обеспечению соответствия требованиям: резервирование банка Индии (РБИ) и страхового законодательства и центра развития Индии (ИРДАИ)
+# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Резервирование банка Индии (РБИ) и страхового законодательства и центра развития Индии (ИРДАИ)
 
 ## <a name="about-rbi-and-irdai"></a>Сведения о РБИ и ИРДАИ
 
@@ -40,36 +40,36 @@ ms.locfileid: "38690942"
 
 Контрольный список Майкрософт помогает финансовым фирмам в Индии, которые проводят оценку экспертных служб Microsoft Business для облачных служб и включают:
 
-- Обзор нормативных требований для контекста.
-- Контрольный список, который определяет проблемы, которые необходимо решить, и сопоставляет службы Microsoft Azure, Microsoft Dynamics 365 и Microsoft Office 365 со всеми нормативными обязательствами. Контрольный список можно использовать в качестве средства для оценки соответствия требованиям нормативной платформы и предоставления внутренней структуры для документирования соответствия требованиям, а также для упрощения оценки рисков в Microsoft Business Cloud Services.
+- Обзор нормативно-правовой среды для соответствующего контекста.
+- Контрольный список, который определяет проблемы, которые необходимо решить, и сопоставляет службы Microsoft Azure, Microsoft Dynamics 365 и Microsoft Office 365 со всеми нормативными обязательствами. Контрольный список можно использовать в качестве средства оценки соответствия нормативным требованиям и для предоставления внутренней структуры при регистрации соответствия требованиям, а также для помощи клиентам в проведении оценки рисков в облачных службах Майкрософт для бизнеса.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
 - [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 - [Контрольный список соответствия требованиям для Индии](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): финансовые фирмы могут получить помощь в оценке рисков Microsoft Business Cloud Services.
-- [Оценка риска & соответствие требованиям](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): создание модели управления для оценки рисков облачных служб Майкрософт и уведомления стабилизатора.
+- [Руководство по оценке риска и соответствия требованиям](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов.
 - [Финансовые варианты использования Azure](https://docs.microsoft.com/azure/industry/financial/): обзоры вариантов, учебные пособия и другие ресурсы для создания решений Azure для финансовых служб.
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
-**Существуют ли обязательные термины, которые необходимо включить в контракт с поставщиком облачных служб?**
+**Существуют ли обязательные условия, которые требуется включать в договор с поставщиком облачных служб?**
 
 Да. Рекомендации, указанные выше, указывают на определенные моменты, которые финансовые учреждения должны включать в свои контракты облачных служб. Часть 2 из [контрольного списка](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (страница 70) сопоставляет их с разделами в контрактных документах Майкрософт, в которых они направлены.
 
 ## <a name="resources"></a>Ресурсы
 
 - [Microsoft и Меити](offering-meity-india.md)
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [Облачные службы и финансовые службы Microsoft Business](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Средство оценки рисков облачных служб Azure](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
+- [Облачные службы Майкрософт для бизнеса и финансовые услуги](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Средство оценки облачных рисков для финансовых услуг в Azure](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/5/A/35AA1544-5E50-43C7-AA08-4911E5429205/RBI-IRDAI-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/5/A/35AA1544-5E50-43C7-AA08-4911E5429205/RBI-IRDAI-Compliance.pdf).

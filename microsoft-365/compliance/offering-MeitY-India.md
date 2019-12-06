@@ -1,7 +1,7 @@
 ---
 title: Министерство электроники и информационных технологий (Меити)
 description: Корпорация Майкрософт предоставила полный аккредитацию с помощью министерства электроники и информационных технологий в Индии.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 34e20578d09079031d4a41bafdf199d055ced09a
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: b5fb48ebaf16d2f7c17645c347185326cde6eefa
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690921"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859579"
 ---
-# <a name="compliance-offering-ministry-of-electronics-and-information-technology-meity"></a>Предложение по обеспечению соответствия требованиям: Министерство электроники и информационных технологий (Меити)
+# <a name="ministry-of-electronics-and-information-technology-meity"></a>Министерство электроники и информационных технологий (Меити)
 
 ## <a name="meity-overview"></a>Обзор Меити
 
@@ -38,12 +38,12 @@ ms.locfileid: "38690921"
 
 Меити аккредитацию корпорации Майкрософт является следствием тщательного аудита, проведенного в ходе стандартизации и сертификации качества (СТКК) радиотехническое, правительственной организации, предоставляющей услуги по контролю качества, с помощью оценочной платформы на основе работы облачной инициативы Мегхраж. С помощью Microsoft Azure организации государственного сектора теперь могут рисовать на широком диапазоне моделей развертывания и служб, включая инфраструктуру в качестве службы (IaaS), платформы в качестве службы (PaaS), аварийного восстановления, DevOps и управляемого резервного копирования.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 - Microsoft Cloud аккредитацию в разделе [состояние аудита поставщиков облачных служб](https://meity.gov.in/content/gi-cloud-meghraj)
 
@@ -60,6 +60,6 @@ ms.locfileid: "38690921"
 - [Поставщики облачных служб аккредитованная](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf).

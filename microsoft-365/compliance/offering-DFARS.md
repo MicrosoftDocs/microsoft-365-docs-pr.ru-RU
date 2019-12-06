@@ -1,7 +1,7 @@
 ---
 title: Дополнительные средства для защиты от ненормативного приобретения (ДФАРС)
 description: Office Azure для государственных учреждений поддерживает требования к оборонному федеральному регулированию (ДФАРС).
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: de25c210fb5b361cf9bba1d7efe15e27d386e200
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 267a506881e8eecdf2ded50e9858054c022dfae1
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690906"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859979"
 ---
-# <a name="compliance-offering-defense-federal-acquisition-regulation-supplement-dfars"></a>Предложение по обеспечению соответствия требованиям: Федеральная информация о доставке федерального приобретения (ДФАРС)
+# <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>Дополнительные средства для защиты от ненормативного приобретения (ДФАРС)
 
 ## <a name="dfars-overview"></a>Обзор ДФАРС
 
@@ -32,18 +32,18 @@ ms.locfileid: "38690906"
   
 Узнайте, как ускорить развертывание ДФАРС с помощью нашего плана безопасности и соответствия требованиям Azure: [Скачайте проект Azure — схема обязанностей клиентов дфарс](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=7ed1b47c-b180-4323-9aec-21712d54b167&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 Покрываемые службы для уровня влияния на вызов по требованию 5
 
-- [Государственные учреждения Azure и Azure](https://aka.ms/AzureCompliance)
+- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - [Office 365 для государственных учреждений и Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 - [Проверки подлинности облачных служб (Майкрософт)](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [В Azure P — письмо с именем, которое было подписано 3 марта 2017 г.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=94ff5b42-4077-4612-8cf7-3194ded323dc&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
-- [Просмотр дополнительных отчетов аудита](https://aka.ms/auditreports)
+- [См. дополнительные отчеты по аудиту](https://aka.ms/auditreports)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 

@@ -1,7 +1,7 @@
 ---
 title: Акт Сарбейнс-Оксли от 2002 г. (SOX)
 description: Финансовые услуги компании могут использовать отчеты о соответствии требованиям корпорации Майкрософт, чтобы обеспечить соответствие требованиям закона Сарбэйнса – Оксли.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 2f496db53cde8779dd45f7d15cc9d6bd7789a75c
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 1bc568d6db13dd91d0e16e29633dccc58e28fc2a
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690947"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859479"
 ---
-# <a name="compliance-offering-sarbanes-oxley-act-of-2002-sox"></a>Предложение по обеспечению соответствия требованиям: Закон Сарбэйнса – Оксли 2002 (SOX)
+# <a name="sarbanes-oxley-act-of-2002-sox"></a>Акт Сарбейнс-Оксли от 2002 г. (SOX)
 
 ## <a name="sox-overview"></a>Обзор SOX
 
@@ -40,15 +40,15 @@ ms.locfileid: "38690947"
 
 Узнайте больше о том, как использовать отчеты о соответствии требованиям в Microsoft Azure для решения ваших обязательств по обеспечению соблюдения требований требованиям SOX: [Загрузка руководства по Azure для закона Сарбэйнса – Оксли](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 [SoC 1: Type 2](offering-SOC.md) Reports для:
 
@@ -65,12 +65,12 @@ ms.locfileid: "38690947"
 ## <a name="resources"></a>Ресурсы
 
 - [Руководство по законам для Azure — Оксли](https://aka.ms/Azure-SOX-Guide)
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Облачные службы и финансовые службы Microsoft Business](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Общие обязанности для облачных вычислений](https://aka.ms/sharedresponsibility)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Облачные и финансовые службы Майкрософт для бизнеса](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Общая ответственность в облачных вычислениях](https://aka.ms/sharedresponsibility)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf).

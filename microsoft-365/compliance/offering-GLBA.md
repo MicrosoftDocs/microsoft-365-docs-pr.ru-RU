@@ -1,7 +1,7 @@
 ---
 title: Акт Грэмма-Лича-Блайли (Акт о модернизации финансовой системы 1999 г.)
 description: Корпорация Майкрософт помогает клиентам финансовых служб соблюдать требования к конфиденциальности и безопасности Акт Грэмма-Лича-Блили ACT (GLBA).
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8da59d5571b559915b3c4cd7f0e1c6bc6bec8866
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: dc0e77623346bb3cb089069196780870e87af8ac
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690932"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859769"
 ---
-# <a name="compliance-offering-gramm-leach-bliley-act-glba"></a>Предложение по обеспечению соответствия требованиям: Акт Грэмма-Лича-Блили ACT (GLBA)
+# <a name="gramm-leach-bliley-act-glba"></a>Акт Грэмма-Лича-Блайли (Акт о модернизации финансовой системы 1999 г.)
 
 ## <a name="glba-overview"></a>Обзор GLBA
 
@@ -35,13 +35,13 @@ Microsoft Azure, Microsoft Office 365, Dynamics 365 и Microsoft Power BI пом
 - [Скачайте средство оценки рисков облачных служб Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Загрузка средства оценки рисков в облаке Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -52,17 +52,17 @@ FTC отвечает на эту информацию на своей стран
 ## <a name="resources"></a>Ресурсы
 
 - [Акт Грэмма — Лича — Блили ACT](https://www.ftc.gov/tips-advice/business-center/privacy-and-security/gramm-leach-bliley-act)
-- [Средство оценки рисков облачных служб Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Средство оценки облачных рисков для финансовых услуг в Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Средство оценки рисков в облаке Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="other-microsoft-resources-for-financial-services"></a>Другие ресурсы Майкрософт для финансовых служб
+## <a name="other-microsoft-resources-for-financial-services"></a>Другие ресурсы Майкрософт для финансовых услуг
 
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Облачные службы и финансовые службы Microsoft Business](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Общие обязанности для облачных вычислений](https://aka.ms/sharedresponsibility)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Облачные и финансовые службы Майкрософт для бизнеса](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Общая ответственность в облачных вычислениях](https://aka.ms/sharedresponsibility)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf).

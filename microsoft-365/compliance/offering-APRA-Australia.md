@@ -1,7 +1,7 @@
 ---
 title: Австралийский авторитетный орган (Апра)
 description: Рекомендации корпорации Майкрософт по обеспечению соответствия требованиям клиентов финансовых служб стандартам аутсорсинга в рациональном центре австралийского законодательства.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: dbbe64b20578860d3635876ec9fb1bd3c523c9b1
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 8d6314b7a2adf3f677c8343ddece9cb27bff073e
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690894"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859249"
 ---
-# <a name="compliance-offering-australian-prudential-regulation-authority-apra"></a>Предложение по обеспечению соответствия требованиям: Австралийский авторитетный орган (Апра)
+# <a name="australian-prudential-regulation-authority-apra"></a>Австралийский авторитетный орган (Апра)
 
 ## <a name="apra-overview"></a>Обзор Апра
 
@@ -48,7 +48,7 @@ ms.locfileid: "38690894"
 
 Получите практический доступ к переносу данных и рабочих нагрузок в Azure в соответствии с нормативными положениями по Апра: [Скачайте контрольный список соответствия требованиям для финансовых учреждений в Австралии](https://aka.ms/microsoftaprachecklistjun17)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -58,7 +58,7 @@ ms.locfileid: "38690894"
 
 **Необходимо, чтобы финансовые учреждения АПРАи утверждения до привлечения корпоративных бизнес-действий?**
 
-Неверно Тем не менее, большинство регламентированных финансовых организаций должны уведомить Апра, когда вы переводите их в соглашения для работы с деловыми деловыми действиями в Австралии или проконсультируйтесь с Апра, прежде чем приступить к работе с ними вне Австралии
+Нет. Тем не менее, большинство регламентированных финансовых организаций должны уведомить Апра, когда вы переводите их в соглашения для работы с деловыми деловыми действиями в Австралии или проконсультируйтесь с Апра, прежде чем приступить к работе с ними вне Австралии
 
 Кроме того, если облачные службы считаются "повышенным риском", как описано в [статье Information Апра Information](https://go.microsoft.com/fwlink/p/?linkid=2099080), то финансовый институт доставляются (но не обязаны) обращаться к Апра, независимо от того, предоставлена ли служба в Австралии или за ее пределами.
 
@@ -74,11 +74,11 @@ ms.locfileid: "38690894"
 - [Ответ Майкрософт на информационный документ Апра в облаке](https://aka.ms/navigatecloudaustralia)
 - [Переход к облаку: контрольный список соответствия требованиям для финансовых учреждений в Австралии](https://aka.ms/microsoftaprachecklistjun17)
 - [Microsoft Австралия: Облако в финансовых службах](https://www.microsoft.com/en-sg/apac/trustedcloud/australia-financial-service.aspx)
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Облачные службы и финансовые службы Microsoft Business](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Облачные и финансовые службы Майкрософт для бизнеса](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/6/0/26056353-2F4C-4A6A-AE5D-019E35EB8E2C/APRA-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/6/0/26056353-2F4C-4A6A-AE5D-019E35EB8E2C/APRA-Compliance.pdf).

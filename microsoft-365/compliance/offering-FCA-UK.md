@@ -1,7 +1,7 @@
 ---
 title: Финансовый орган Великобритании (ФКА)
 description: Руководство Майкрософт по финансовым фирмам в Великобритании следует за финансовыми органами и рекомендациями по аутсорсингу в облаке.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 55cb9e1901231f63b5e02b44b97c029359718625
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: f009914f2a5178104968fe443bbac0655f5541b9
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690896"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859889"
 ---
-# <a name="compliance-offering-united-kingdom-financial-conduct-authority-fca"></a>Предложение по обеспечению соответствия требованиям: финансовый орган Великобритании (ФКА)
+# <a name="united-kingdom-financial-conduct-authority-fca"></a>Финансовый орган Великобритании (ФКА)
 
 ## <a name="fca-uk-overview"></a>Обзор ФКА (Великобритания)
 
@@ -40,11 +40,11 @@ ms.locfileid: "38690896"
 
 [Скачайте подход корпорации Майкрософт для ФКА завершенного облачного руководства](https://go.microsoft.com/fwlink/p/?linkid=2101561)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -59,11 +59,11 @@ ms.locfileid: "38690896"
 - [Контрольный список Microsoft Cloud для финансовых учреждений в Великобритании](https://aka.ms/Azure-UK-compliance)
 - [ФГ 16/5 — Руководство по аутсорсингу компаний, которые применяют к облачному и другим сторонним ИТ-службам.](https://www.fca.org.uk/publication/finalised-guidance/fg16-5.pdf)
 - [Обеспечение соответствия требованиям: подход корпорации Майкрософт к ФКА завершенным облачным руководством](https://go.microsoft.com/fwlink/p/?linkid=2101561)
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Облачные службы и финансовые службы Microsoft Business](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Облачные и финансовые службы Майкрософт для бизнеса](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/E/F/4/EF49C18B-BB31-44F8-BCDD-655702C63BE8/FCA-PRA-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/E/F/4/EF49C18B-BB31-44F8-BCDD-655702C63BE8/FCA-PRA-Compliance.pdf).

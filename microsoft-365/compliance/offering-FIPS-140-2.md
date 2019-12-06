@@ -1,7 +1,7 @@
 ---
 title: Публикация стандарта федеральной обработки информации (FIPS) 140-2
 description: Корпорация Майкрософт удостоверяет, что криптографические модули соответствуют стандарту федеральной обработки информации США.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 91dab1a0f064d35e836a921864817e670fd998b5
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 4921fdaa2c6dc7199adb810f5320972f0c1ef8db
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690901"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859829"
 ---
-# <a name="compliance-offering-federal-information-processing-standard-fips-publication-140-2"></a>Предложение по обеспечению соответствия требованиям: Публикация стандарта федеральной обработки информации (FIPS) 140-2
+# <a name="federal-information-processing-standard-fips-publication-140-2"></a>Публикация стандарта федеральной обработки информации (FIPS) 140-2
 
 ## <a name="fips-140-2-standard-overview"></a>Общие сведения о стандарте FIPS 140-2
 
@@ -32,13 +32,13 @@ ms.locfileid: "38690901"
 
 Для получения технических сведений о криптографических модулях Microsoft Windows, политиках безопасности для каждого модуля и каталоге сведений о сертификате КМВП можно ознакомиться с [содержанием Windows и Windows Server FIPS 140-2](https://aka.ms/AA6ehud).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 Несмотря на то, что текущее руководство по реализации КМВП FIPS 140-2 исключает проверку на соответствие стандарту FIPS 140-2 для самой облачной службы; поставщики облачных служб могут получать и использовать проверенные криптографические модули FIPS 140 для вычислительных элементов, входящих в облачную службу. Службы Microsoft Online Services, включающие компоненты, которые были проверены на стандарт FIPS 140-2, среди других:
 
-- [Государственные учреждения Azure и Azure](https://docs.microsoft.com/azure/azure-government/documentation-government-plan-security)
+- [Azure и Azure для государственных организаций](https://docs.microsoft.com/azure/azure-government/documentation-government-plan-security)
 - [Dynamics 365 и Dynamics 365 для государственных организаций](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
-- [Office 365, Office 365 для государственных учреждений США и Office 365 для защиты от государственных учреждений (США)](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
+- [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -85,6 +85,6 @@ Azure создан с использованием комбинации обор
 - [Windows, Windows Server и FIPS 140-2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/B/7/2/B7226B91-1A56-41E4-AC01-43FCFEE50B7F/FIPS_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/B/7/2/B7226B91-1A56-41E4-AC01-43FCFEE50B7F/FIPS_Compliance_Backgrounder.pdf).

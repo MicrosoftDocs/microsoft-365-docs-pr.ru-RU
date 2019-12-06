@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: f46f5164340ec257a056a2f31bec8f846bb4a54a
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: f8d5b9321d8aad77ae25dcc7563a9e0db7dfc754
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634056"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859329"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -47,10 +47,11 @@ ms.locfileid: "39634056"
 | [HP Елитедеск 800 G4 СФФ](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | 18 июля 2020 г. | 18 июля 2023 г. |
 | [HP Елитеоне 800 G4 G4 23.8 в АИО](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | 18 июля 2020 г. | 18 июля 2023 г. |
 | [HP Пробук x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV, необходима ИК-камера или считыватель отпечатков пальцев | 6 июня 2020 г. | 6 июня 2023 г. |
-| [Книга Surface 2](https://www.microsoft.com/p/surface-book-2-for-business/8x4htznfgg38/lbh3?cid=msft_web_collection&CustomerIntent=Consumer) | 256 ГБ/Intel i5/8 ГБ ОЗУ | 15 х дюймовых дисплеев | 16 ноября 2019 г. | 16 ноября 2022 г. |
 | [Переход на поверхность](https://www.microsoft.com/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 ГБ/Intel 4415Y/8 ГБ ОЗУ | Нет | Авг 2, 2020 | Авг 2, 2023 |
 | [Ноутбук 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
+| **\*[Портативный компьютер Surface 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3)** | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
+| **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |
 
 
 

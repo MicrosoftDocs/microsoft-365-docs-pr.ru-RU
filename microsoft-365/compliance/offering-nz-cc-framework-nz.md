@@ -1,7 +1,7 @@
 ---
 title: Вопросы безопасности и конфиденциальности Новой Зеландии в облако для государственных учреждений
 description: Microsoft NZ разрешает вопросы, опубликованные в облачной среде Новой Зеландии.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: eb14bbe784685fb79ba09f28bc9ca12216b24d57
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 2722c5df4b96f28a449057abae353350b036a13b
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690955"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859339"
 ---
-# <a name="compliance-offering-new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Предложение по обеспечению соответствия требованиям: Новая Зеландия для государственных учреждений и конфиденциальность в облачных средах
+# <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Вопросы безопасности и конфиденциальности Новой Зеландии в облако для государственных учреждений
 
 ## <a name="new-zealand-government-cloud-computing-security-and-privacy-overview"></a>Общие сведения о безопасности и конфиденциальности Новой Зеландии для государственных организаций
 
@@ -36,12 +36,12 @@ ms.locfileid: "38690955"
 
 Узнайте, как ускорить развертывание развернутой копии с помощью нашего плана безопасности и соответствия требованиям Azure: [скачать ответ Azure для платформы NZ CC](https://gallery.technet.microsoft.com/Response-to-GCIO-Cloud-e117bbb9)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
-- [Государственные учреждения Azure и Azure](https://aka.ms/AzureCompliance)
+- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Exchange Online, SharePoint Online и Skype для бизнеса Online. Microsoft NZ работает с командой ГЦИО для разработки эталонной архитектуры для интеграции Exchange Online и СИМАИЛ, описанной в техническом документе [Office 365: СИМАИЛ интеграция и Эталонная архитектура](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf)
 
@@ -62,7 +62,7 @@ ms.locfileid: "38690955"
 - [Стратегия для государственных учреждений ICT 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [Требования для государственных учреждений для облачных вычислений](https://aka.ms/NZ-Cloud-Requirements)
 - [Облачные вычисления: вопросы безопасности и конфиденциальности данных (ИСПК)](https://aka.ms/NZ-Cloud-Computing-Considerations)
-- [Условия Microsoft Online Services](https://aka.ms/Online-Services-Terms)
+- [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Office 365: СИМАИЛ интеграция и Эталонная архитектура](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (дополнительные рекомендации по использованию Microsoft NZ при внедрении облачной службы)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
@@ -74,6 +74,6 @@ ms.locfileid: "38690955"
 - [Office 365](https://aka.ms/O365-NZ-Response)
 - [Power BI](https://download.microsoft.com/download/5/1/7/51726B9B-2E76-49C4-9D4F-A36BF025CB93/Response-to-GCIO-105-questions-Power-BI.pdf)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf).

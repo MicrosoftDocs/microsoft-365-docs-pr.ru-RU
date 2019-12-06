@@ -14,12 +14,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Чтобы обеспечить доверие пользователю при использовании электронной почты, корпорация Майкрософт разместит различные политики и технологии для защиты пользователей.
-ms.openlocfilehash: cabb583aebc1baff1eb9f8286fceb2864b26deea
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f98044b65b49bd9594708ea9e6f798156037ac34
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031774"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871265"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Службы для лиц, не являющихся клиентами и отправляющих почту в Office 365
 
@@ -50,7 +50,7 @@ ms.locfileid: "38031774"
 
 - Обратитесь к клиенту Office 365, который вы пытаетесь отправить по электронной почте, используя другой способ, и попросите его обратиться в службу поддержки Майкрософт и открыть билет в службу поддержки от вашего имени. В некоторых случаях, по юридическим причинам, служба поддержки Майкрософт должна напрямую общаться с отправителем, которому принадлежит IP-пространство, которое блокируется. Однако пользователи, не являющиеся клиентами, обычно не могут открыть билеты поддержки.
 
-  Для получения дополнительных сведений о технической поддержке Microsoft для Office 365, ознакомьтесь со статьей [Поддержка](https://technet.microsoft.com/library/office-365-support.aspx).
+  Для получения дополнительных сведений о технической поддержке Microsoft для Office 365, ознакомьтесь со статьей [Поддержка](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/support).
 
 ## <a name="office-365-anti-spam-ip-delist-portal"></a>Портал списка IP-адресов для защиты от нежелательной почты Office 365
 

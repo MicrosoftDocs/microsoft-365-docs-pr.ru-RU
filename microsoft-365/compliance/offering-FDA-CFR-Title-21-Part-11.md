@@ -1,7 +1,7 @@
 ---
 title: Администрирование управления питанием и лекарствами названием CFR 21 часть 11
 description: Корпорация Майкрософт помогает клиентам соблюдать эти нормативные положения по управлению лекарствами и США.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: d37557c1df1edfc026960b5a7d256d5d3fbc7a0b
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7e8d24aecb2343ed03a1d224b21060619426717f
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690898"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859879"
 ---
-# <a name="compliance-offering-food-and-drug-administration-cfr-title-21-part-11"></a>Предложение по обеспечению соответствия требованиям: Администрирование управления питанием и лекарствами название CFR 21 часть 11
+# <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Администрирование управления питанием и лекарствами названием CFR 21 часть 11
 
 ## <a name="fda-cfr-title-21-overview"></a>ФДА CFR должность 21 обзор
 
@@ -42,22 +42,22 @@ CFR Title 21 часть 11 устанавливает требования, чт
 
 Узнайте, как ускорить работу с ФДА CFR звание 21 Deployment: [скачайте Руководство по квалификации по Azure ФДА 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 Несмотря на отсутствие сертификации с названием CFR 21 часть 11, следующие облачные облачные службы Майкрософт перепрошли независимые сторонние средства аудита, которые могут помочь клиентам в обеспечении соответствия требованиям. К этим службам относятся следующие:
 
 - Azure: облачные службы, хранилище, диспетчер трафика, виртуальные машины и виртуальная сеть
 - Intune
-- [Dynamics 365 и Dynamics 365 U.S. правительством США](https://aka.ms/d365-compliance-list)
-- [Office 365 и Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
+- [Office 365 и Office 365 для государственных организаций США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Отчеты аудита для пользователей SOC 1 и SOC 2 типа 2, ISO/IEC 27001 и ISO/IEC 27018 подтверждают эффективность этих элементов управления, а также могут помочь клиентам в их совместимости с ФДА CFR должность 21 часть 11.
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
-**К кому относится стандарт?**
+**К кому применим стандарт?**
 
 ФДА CFR звание 21 часть 11 относится к организациям с продуктами и службами, которые работают в ФДА с регулируемыми аспектами исследований, клиникал исследованию, обслуживанием, производству и распространению продуктов со сроком жизни.
 
@@ -69,7 +69,7 @@ CFR Title 21 часть 11 устанавливает требования, чт
 
 **Как можно получить копии отчетов аудиторов?**
 
-[Портал доверия службы](https://aka.ms/stphelp) предоставляет независимые отчеты о соответствии требованиям. С помощью портала можно запрашивать отчеты об аудите, чтобы ваши аудиторы могли сравнивать результаты облачных служб Майкрософт с собственными юридическими и нормативными требованиями.
+На портале [Service Trust Portal](https://aka.ms/stphelp) представлены отчеты независимых аудитов соответствия требованиям. С помощью портала можно запрашивать отчеты об аудите, чтобы ваши аудиторы могли сравнивать результаты облачных служб Майкрософт с собственными юридическими и нормативными требованиями.
 
 **Можно ли использовать соответствие корпорации Майкрософт в процессе сертификации для моей организации?**
 
@@ -86,11 +86,11 @@ CFR Title 21 часть 11 устанавливает требования, чт
 - [Руководство по ФДА для отрасли 11: электронные записи и подписи](https://www.fda.gov/RegulatoryInformation/Guidances/ucm125067.htm)
 - [Рекомендации по уточнению для Azure](https://aka.ms/azurefda21cfrpart11qualguide)
 - [Рекомендации по уточнению для Office 365](https://aka.ms/o365-qualification-guideline)
-- [Инфраструктура соответствия Microsoft Common Controls HUB](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-- [Условия Microsoft Online Services](https://aka.ms/Online-Services-Terms)
+- [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud для государственных организаций](https://aka.ms/govt-cloud)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/8/8/D/88DA8B65-8CEE-46A5-8E93-DAFC3699AD06/FDA_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/8/8/D/88DA8B65-8CEE-46A5-8E93-DAFC3699AD06/FDA_Compliance_Backgrounder.pdf).

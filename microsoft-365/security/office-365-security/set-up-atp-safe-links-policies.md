@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Настройка политик безопасных ссылок для защиты Организации от вредоносных ссылок в файлах Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты.
-ms.openlocfilehash: 82731d961fddf90c2b53bfead1b72a3f35df2b24
-ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
+ms.openlocfilehash: 09a9a47610915244ade77e1410024d7f055e390f
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37593884"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866621"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик безопасных ссылок на Office 365 ATP
 
@@ -47,11 +47,11 @@ ms.locfileid: "37593884"
     
 - Убедитесь, что у вас есть необходимые разрешения. Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже. <br>
 
-    |Роль  |Где/как назначено  |
+    |Role  |Где/как назначено  |
     |---------|---------|
     |Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
     |Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-    |Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> или  <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+    |Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
     Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
 

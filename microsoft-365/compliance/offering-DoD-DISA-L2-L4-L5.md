@@ -1,7 +1,7 @@
 ---
 title: Предварительная проверка подлинности для подготовки Отдела США (DoD)
 description: Корпорация Майкрософт получила авторизацию подготовки для Отдела по требованию на уровнях 5, 4 и 2.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ad34c497e82ef8e61e61d6953afcca5815f1bc06
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: d805c5dab7e8ebeb31ea94895356a6529bcd970d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690903"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859959"
 ---
-# <a name="compliance-offering-us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Предложение по обеспечению соответствия требованиям: Предварительная проверка подлинности (DoD) для отдела США на уровнях влияния 2, 4 и 5
+# <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Авторизация подготовки для Отдела по требованию США на уровнях влияния 2, 4 и 5
 
 ## <a name="dod-and-disa-overview"></a>Общие сведения о вызовах DoD и Диса
 
@@ -55,26 +55,26 @@ ms.locfileid: "38690903"
 
 Уровень влияния 2 охватывает неконтролируемые Неклассифицированные сведения — данные, авторизованные для общедоступной версии. Кроме того, она охватывает другие неклассифицированные сведения, которые, хотя и не считаются критически важными, по-прежнему требуют минимального уровня управления доступом. Эта авторизация позволяет клиентам федерального правительства США развертывать неконфиденциальную информацию и базовые приложения и веб-сайты в области облачных служб Майкрософт.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Покрываемые службы для уровня влияния на вызов по требованию 5
 
 - [Правительственные учреждения Azure для DoD](https://aka.ms/AzureCompliance)
-- [Защита от государственных учреждений Office 365 США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 для министерства обороны США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-4"></a>Охваченные службы для уровня влияния DoD 4
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
-- [Защита от государственных учреждений Office 365 США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 для министерства обороны США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-2"></a>Охваченные службы для уровня влияния на DoD
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)
 - [Office 365 для государственных учреждений (США)](https://aka.ms/o365-compliance-framework)
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 После предоставления Microsoft Cloud Services для проверки подлинности в Microsoft Cloud Services отслеживается и оценивается ежегодно: [Microsoft FedRAMP authorizations](https://marketplace.fedramp.gov/#/products?sort=productName&productNameSearch=microsoft) .
 
@@ -84,7 +84,7 @@ ms.locfileid: "38690903"
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
-**Можно ли использовать соответствие корпорации Майкрософт в процессе сертификации организации?**
+**Можно ли использовать соответствие требованиям Майкрософт в процессе сертификации моей организации?**
 
 Да. Все правоохранительные органы могут основываться на сертификатах облачных служб Майкрософт в качестве основы для любой программы или инициативы, требующей авторизации по требованию. (Это также относится к другим организациям, которые поддерживают DoD и требуют облачных служб.) Тем не менее, вам необходимо выполнить собственные проверки подлинности для компонентов, не входящих в эти службы.
 
@@ -102,10 +102,10 @@ ms.locfileid: "38690903"
 - [Поддержка облачных служб Диса](http://www.disa.mil/Computing/Cloud-Services/Cloud-Support)
 - [Защита контролируемой неклассифицированной информации в нефедеральных информационных системах и организациях](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)
 - [Инфраструктура NIST Циберсекурити](https://www.nist.gov/cyberframework)
-- [Инфраструктура соответствия Microsoft Common Controls HUB](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Облако Microsoft для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/5/0/C/50C2C028-3048-49BC-B820-D83C76BF2E52/DISA_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/5/0/C/50C2C028-3048-49BC-B820-D83C76BF2E52/DISA_Compliance_Backgrounder.pdf).

@@ -1,7 +1,7 @@
 ---
 title: Правило для финансовых органов здравоохранения (ФИНРА) 4511 (c) США
 description: Независимая оценочная проверка того, что Azure и Office 365 могут помочь финансовым фирмам в соответствии с 4511 правилами ФИНРА для хранения и неизменяемыми требованиями к хранению.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 80114436580e388afce0508f69dc892c0eaaf435
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: af2e282ac992dbf6935e9a2c1a9c7144d26aad39
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690899"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859839"
 ---
-# <a name="compliance-offering-financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Предложение о соответствии требованиям: правило для законодательных органов здравоохранения (ФИНРА) 4511 (c) США
+# <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Правило для финансовых органов здравоохранения (ФИНРА) 4511 (c) США
 
 ## <a name="about-finra-rule-4511"></a>О правиле ФИНРА 4511
 
@@ -48,12 +48,12 @@ ms.locfileid: "38690899"
 
 Архивация в Office 365 помогает сохранять широкий спектр данных, в том числе электронную почту, голосовую почту, Общие документы, мгновенные сообщения и сторонние данные. В частности, архивация в Office 365 позволяет клиентам настраивать глобальные и детализированные политики хранения сообщений для хранения данных за определенный период, а не в неизменяемом формате без удаления.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 ### <a name="azure--finra-rule-4511c"></a>Azure & правило ФИНРА 4511 (c)
 
@@ -63,24 +63,24 @@ ms.locfileid: "38690899"
 
 [Архивация в Office 365, хранение данных и в секунду правило соответствия требованиям 17A – 4](https://www.microsoft.com/microsoft-365/blog/2015/11/10/office-365-exchange-online-archiving-now-meets-sec-rule-17a-4-requirements/)
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 - **Регламентированные финансовые услуги**: карта соответствия требованиям основных принципов и норм США для облачных вычислений и Microsoft Online Services. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **Оценка риска & соответствие требованиям**: создание модели управления для оценки рисков облачных служб Майкрософт и уведомления стабилизатора. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **Финансовые варианты использования**: обзоры вариантов, учебные пособия и другие ресурсы для создания решений Azure для финансовых служб.
+- **Руководство по оценке риска и соответствия требованиям**. Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **Финансовые варианты использования**. Обзоры вариантов использования, учебные руководства и другие ресурсы для создания решений Azure для сферы финансовых услуг.
 
 [Подробнее](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>Ресурсы
 
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [Облачные службы и финансовые службы Microsoft Business](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Средство оценки рисков облачных служб Azure](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
+- [Облачные службы Майкрософт для бизнеса и финансовые услуги](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Средство оценки облачных рисков для финансовых услуг в Azure](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Политики хранения Microsoft Office 365](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
-- [Блог по финансовым службам Майкрософт](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
+- [Блог финансовых услуг Майкрософт](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf).

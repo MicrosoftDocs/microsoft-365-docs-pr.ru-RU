@@ -1,7 +1,7 @@
 ---
 title: Раздел "США" 508
 description: Корпорация Майкрософт предлагает подробные отчеты о соответствии специальных возможностей для многих облачных служб, описывающих специальные возможности этих служб.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 86973d36149a938507c93938b9d97a99761ece8b
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 044e92561c86829477339dbd6db2a5fde2da87bb
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690946"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859469"
 ---
-# <a name="compliance-offering-us-section-508"></a>Предложение по обеспечению соответствия требованиям: США раздел 508
+# <a name="us-section-508"></a>Раздел "США" 508
 
 ## <a name="about-us-section-508"></a>Сведения о разделе 508
 
@@ -30,28 +30,28 @@ ms.locfileid: "38690946"
 
 Соблюдение требований корпорации Майкрософт в отношении 508 США в соответствии с нормативными положениями — это обязательства по обеспечению доступа к технологиям и данным для всех клиентов. Американский раздел 508 — это требование к специальным возможностям в США, дополняющее EN 301 549 (Европа) и WCAG (Международная).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
-- [Государственные учреждения Azure и Azure](https://go.microsoft.com/fwlink/p/?linkid=2051569)
+- [Azure и Azure для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
-- Dynamics 365 и Dynamics 365 U.S. правительством США
+- Dynamics 365 и Dynamics 365 для государственных организаций США
 - Intune
-- [Office 365 и Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- [Защита от государственных учреждений Office 365 США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 и Office 365 для государственных организаций США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 для министерства обороны США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Windows Server 2016
 
-## <a name="microsoft-accessibility-conformance-reports"></a>Отчеты о соответствии специальных возможностей Майкрософт
+## <a name="microsoft-accessibility-conformance-reports"></a>Отчеты Майкрософт по обеспечению доступности
 
-Поиск [отчетов о соответствии](https://go.microsoft.com/fwlink/p/?linkid=2050974) для всех наших продуктов и услуг.
+Ознакомьтесь с [отчетами о соответствии](https://go.microsoft.com/fwlink/p/?linkid=2050974) для всех наших продуктов и служб.
 
 ## <a name="resources"></a>Ресурсы
 
 - [Страница специальных возможностей Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2051579): Изучите способы, с помощью которых корпорация Майкрософт включает новые возможности, чтобы все могли получить дополнительные возможности.
-- [Центр специальных возможностей office 365](https://go.microsoft.com/fwlink/p/?linkid=2051801): ресурсы Office 365 для людей с ограниченными возможностями.
-- Служба [ответов на корпоративные инвалидности](https://go.microsoft.com/fwlink/p/?linkid=2050890): специальная поддержка для корпоративных клиентов со специальными вопросами о наших продуктах и услугах.
+- [Центр специальных возможностей Office 365](https://go.microsoft.com/fwlink/p/?linkid=2051801). Ресурсы Office 365 для людей с ограниченными возможностями.
+- [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890). Поддержка для корпоративных клиентов с вопросами о специальных возможностях наших продуктов и служб или о соответствии требованиям.
 - [ДХС Trusted Test инженера](https://go.microsoft.com/fwlink/?linkid=2052171): получение сведений о подразделении Office Security of хомеланд Security (ДХС), в которой Майкрософт участвует.
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/E/1/3E10CC43-036D-4DB5-ACBA-8665A752C8F7/Accessibility-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/E/1/3E10CC43-036D-4DB5-ACBA-8665A752C8F7/Accessibility-Compliance.pdf).

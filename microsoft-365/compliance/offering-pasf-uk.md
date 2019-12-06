@@ -1,7 +1,7 @@
 ---
 title: Гарантированно-проверенные средства безопасности (ПАСФ), Соединенное Королевство
 description: Microsoft Business Cloud Services поддерживает юридическую деятельность в Великобритании, требующих надежной работы средств для обработки и хранения данных в облаке.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3ec66f54c8db21bf4d94feb22c5dd17ee4b45ef5
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 1cfd4b00c8c23aedb33ca832c37e0147d3beca0c
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690957"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859299"
 ---
-# <a name="compliance-offering-police-assured-secure-facilities-pasf-united-kingdom"></a>Предложение о соответствии требованиям: гарантированно-проверенные средства безопасности (ПАСФ) Соединенное Королевство
+# <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Гарантированно-проверенные средства безопасности (ПАСФ), Соединенное Королевство
 
 ## <a name="about-pasf"></a>Сведения о ПАСФ
 
@@ -34,17 +34,17 @@ ms.locfileid: "38690957"
 
 Эти сертификаты поддерживаются мерами, которые мы предпринимаеми для защиты физической безопасности наших центров обработки данных. Мы припринимаем многоуровневый подход, который начинается с того, как мы разрабатываем, создаем и работающим центрами обработки данных, чтобы строго контролировать физический доступ к областям, в которых хранятся данные клиента. Центры обработки данных, управляемые корпорацией Майкрософт, имеют обширный уровень защиты с утверждением доступа, необходимым на периметре средства, на периметре здания, в здании и на этаже центра обработки данных. Это снижает риск незаконного доступа пользователей к данным и ресурсам центра обработки данных.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
 - [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 НПИРМТ выполняет аудит одного центра обработки данных Azure каждый год ежегодно (ежегодно) через четыре центра обработки данных Майкрософт в Великобритании. Оценка НПИРМТ, которая является центром обработки данных Майкрософт ПАСФ, доступна через домашнюю Office для пользователей правоохранительных компьютеров, которые проводят собственные оценки рисков Azure и других облачных служб Майкрософт.
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 - [Официальный план Azure UK](https://servicetrust.microsoft.com/ViewPage/UKBlueprints): помогает клиентам в Великобритании ускорить развертывание IaaS и PaaS на соответствие рабочим нагрузкам в Azure.
 
@@ -59,9 +59,9 @@ ms.locfileid: "38690957"
 - [Политика национального саморегулирующегося аккредитацию](http://library.college.police.uk/docs/APP-National-Policing-Accreditation-Policy-2013.pdf)
 - [Безопасность, локальная и физическая безопасность Azure](https://azure.microsoft.com/blog/azure-layered-approach-to-physical-security/)
 - [Стандарты ISM для Microsoft и ISO/IEC 27001:2013](offering-iso-27001.md)
-- [Условия Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
+- [Условия использования веб-служб Майкрософт](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/C/9/7/C97C7B62-F582-4C25-8ABB-80DFB87628CA/PASF-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/C/9/7/C97C7B62-F582-4C25-8ABB-80DFB87628CA/PASF-Compliance.pdf).

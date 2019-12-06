@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Чтобы предотвратить доступ к почтовому ящику с помощью фишинговых сообщений, Outlook.com и Outlook в Интернете убедитесь, что отправитель говорят, что они говорят о них и помечают подозрительные сообщения как нежелательная почта.
-ms.openlocfilehash: f758213802d32b4154924d1ab4a3d8bbff49e717
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: 89cd473a7b7f2ff663d7ee1eee41f84144dee6d7
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204267"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866441"
 ---
 # <a name="unverified-sender"></a>Непроверенный отправитель
 
@@ -47,7 +47,7 @@ Outlook.com и Outlook в Интернете показывают индикат
 
 Если вы являетесь клиентом Office 365, вы можете управлять этим компонентом с помощью центра безопасности & соответствия требованиям. 
 
-- В центре безопасности Office 365 &, глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, управлять ими можно с помощью командлета "Set – AntiPhishPolicy". Более подробную информацию можно узнать [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy?view=exchange-ps).
+- В центре безопасности Office 365 &, глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, управлять ими можно с помощью командлета "Set – AntiPhishPolicy". Более подробную информацию можно узнать [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
 
     ![Изменение отправителя, не прошедшего проверку подлинности, в графическом интерфейсе.](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 

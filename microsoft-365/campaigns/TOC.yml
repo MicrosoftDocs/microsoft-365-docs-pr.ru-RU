@@ -1,0 +1,66 @@
+- name: Microsoft 365 для кампаний
+  items:
+    - name: Общие сведения
+      href: index.md
+    - name: Получение Microsoft 365 для кампаний
+      href: get-microsoft-365-campaigns.md
+    - name: Способы защиты данных в Microsoft 365
+      href: m365-campaigns-users.md
+- name: Настройка и вход
+  items:
+    - name: Общие сведения
+      href: microsoft-365-campaigns-setup-overview.md
+    - name: Регистрация и работа для начинающих
+      href: m365-campaigns-sign-up.md
+    - name: Настройка
+      href: ../business/set-up.md?toc=/microsoft-365/campaigns/toc.json
+    - name: Вход
+      href: m365-campaigns-sign-in.md
+    - name: Добавление пользователей
+      href: ../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json
+- name: Повышение безопасности
+  items:
+    - name: Общие сведения
+      href: m365-campaigns-security-overview.md
+    - name: Защита учетных записей администраторов
+      href: m365-campaigns-protect-admin-accounts.md
+    - name: Защита доступа к данным кампании
+      href: m365-campaigns-conditional-access.md
+    - name: Защита от вредоносных программ и других угроз
+      href: m365-campaigns-increase-protection.md
+- name: Настройка устройства для всех сотрудников
+  items:
+    - name: Настройка многофакторной проверки подлинности
+      href: m365-campaigns-multifactor-authenication.md
+    - name: Настройка мобильных устройств
+      href: ../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json
+    - name: Защита компьютеров с Windows и Mac
+      href: m365-campaigns-protect-pcs-macs.md
+    - name: Настройка управляемых устройств с Windows
+      href: ../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json
+- name: Защита электронной почты для всех сотрудников
+  items:
+    - name: Защита от фишинга и других атак
+      href: m365-campaigns-phishing-and-attacks.md
+    - name: Отправка зашифрованных писем
+      href: send-encrypted-email.md
+- name: Безопасная совместная работа и общий доступ
+  items:
+    - name: Создание команд для совместной работы
+      href: create-teams-for-collaboration.md
+    - name: Настройка собраний
+      href: set-up-meetings.md
+    - name: Общий доступ к файлам и видео
+      href: share-files-and-videos.md
+    - name: Создание информационного сайта для организации
+      href: create-communications-site.md
+- name: Сброс или удаление данных кампании с устройств
+  items:
+    - name: Удаление данных кампании и организации
+      href: ../business/remove-company-data.md?toc=/microsoft-365/campaigns/toc.json
+    - name: Восстановление заводских настроек для устройств
+      href: ../business/reset-devices-to-factory-settings.md?toc=/microsoft-365/campaigns/toc.json
+- name: 'Управление инцидентами, связанными с безопасностью'
+  items:
+    - name: Реагирование на компрометацию учетной записи электронной почты
+      href: 'https://docs.microsoft.com/microsoft-365/compliance/responding-to-a-compromised-email-account'

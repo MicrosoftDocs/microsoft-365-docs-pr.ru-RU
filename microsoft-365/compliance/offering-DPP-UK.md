@@ -1,7 +1,7 @@
 ---
 title: Цифровое партнерство с цифровым производством (ДПП) (Великобритания)
 description: Microsoft Azure назначен ДПП в качестве метки безопасности для вещания.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ac12047420e29a0c096dffac884ab584a38fad9b
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 3adc0bcc75886476de9f088c1f539c63fe4e4be8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690900"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859969"
 ---
-# <a name="compliance-offering-digital-production-partnership-dpp-united-kingdom"></a>Предложение соответствия требованиям: цифровое партнерство с цифровым производством (ДПП) (Великобритания)
+# <a name="digital-production-partnership-dpp-united-kingdom"></a>Цифровое партнерство с цифровым производством (ДПП) (Великобритания)
 
 ## <a name="about-the-dpp"></a>Сведения о ДПП
 
@@ -32,18 +32,18 @@ Microsoft Azure настроила ДПП на отметку безопасно
   
 Это означает, что средства вещания и другие пользователи мультимедиа, использующие Azure, могут быть уверены, что его надежная безопасность и надежная служба могут помочь удовлетворить уникальные требования отрасли вещания от разработки до передачи.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Метка вещания Azure действительна в течение одного года и ежегодно обновляется ежегодно.
 
 - [Контрольный список требований безопасности для НАБА ДПП Azure](https://aka.ms/Azure-CTS-Broadcast-Checklist)
 - [ДПП, выделенные компаниям безопасности, выдают метки](https://aka.ms/Azure-Asset-Mgmt)
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 - [Руководство по усилению безопасности управления активами](https://aka.ms/Azure-Asset-Mgmt): рекомендации в Azure защищают предварительную версию контента от несанкционированного разглашения, изменения или удаления.
 - [Службы мультимедиа Azure](https://docs.microsoft.com/azure/media-services/): создание решений, которые обеспечивают высококачественное кодирование видео и передачу видео по каналам вещания.
@@ -54,6 +54,6 @@ Microsoft Azure настроила ДПП на отметку безопасно
 - [НАБА и ДПП, которые передаются Уните, чтобы повысить требования к безопасности для поставщиков](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/C/6/3C63143B-41BA-4ED7-A2A8-DDE6B0B04036/DPP-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/C/6/3C63143B-41BA-4ED7-A2A8-DDE6B0B04036/DPP-Compliance.pdf).

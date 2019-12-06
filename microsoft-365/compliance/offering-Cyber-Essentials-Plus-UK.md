@@ -1,7 +1,7 @@
 ---
 title: Кибератак (Великобритания)
 description: Кибератак Essentials PLUS — это схема, определенная правительством Великобритании, которая поможет организациям защититься от распространенных угроз безопасности кибератак.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 28f30ec3181a90f259d6cafd9a3548d7a1ad5852
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 795a8b94c53aa94731d6c55786312b1baef6a685
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690914"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859989"
 ---
-# <a name="compliance-offering-united-kingdom-cyber-essentials-plus"></a>Предложение по обеспечению соответствия требованиям: Великобритания кибератак Essentials PLUS
+# <a name="united-kingdom-cyber-essentials-plus"></a>Кибератак (Великобритания)
 
 ## <a name="uk-cyber-essentials-plus-overview"></a>Обзор кибератак для Великобритании и обзор
 
@@ -39,7 +39,7 @@ Microsoft Azure достиг кибератак Essentials PLUS и соотве�
 
 [Сертификат Azure кибератак ESSENTIALS Plus](https://aka.ms/AzureCyberEPlusCert), который применяется к нашей глобальной операции Azure, доступен для скачивания.
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 - [Azure кибератак базовый плюс отчет о соответствии требованиям](https://aka.ms/AzureCyberEPlusReport)
 - [Azure кибератак Essentials плюс сертификация](https://aka.ms/AzureCyberEPlusCert)
@@ -49,6 +49,6 @@ Microsoft Azure достиг кибератак Essentials PLUS и соотве�
 - [Схема кибератак Essentials: надежность платформы](https://www.cyberaware.gov.uk/cyberessentials/files/assurance-framework.pdf)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/B/5/6B54EF7B-8BC2-4C88-8ABD-A20B986AF9C7/CyberEssentialsPlusUK-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/B/5/6B54EF7B-8BC2-4C88-8ABD-A20B986AF9C7/CyberEssentialsPlusUK-Compliance.pdf).

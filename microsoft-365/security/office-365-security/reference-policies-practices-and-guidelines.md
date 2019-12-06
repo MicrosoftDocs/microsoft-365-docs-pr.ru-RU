@@ -14,12 +14,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Корпорация Майкрософт разработала различные политики, процедуры и предприняла несколько практических рекомендаций по защите пользователей от нежелательных, нежелательных и вредоносных сообщений электронной почты.
-ms.openlocfilehash: 0957e34008f4e05693218970c458656d73d9c0fe
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a1e1e213c01eea5a07b616e72955303f21c6d2ae
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031814"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872065"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Справочник: политики, правила и рекомендации
 
@@ -73,7 +73,7 @@ ms.locfileid: "38031814"
 
 ## <a name="office-365-limits"></a>Ограничения в Office 365
 
-Отправители должны соблюдать ограничения, используемые в Office 365 и перечисленные в статье [Ограничения Exchange Online Protection](https://technet.microsoft.com/library/exchange-online-protection-limits.aspx).
+Отправители должны соблюдать ограничения, используемые в Office 365 и перечисленные в статье [Ограничения Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits).
 
 ## <a name="email-delivery-resources-and-organizations"></a>Ресурсы доставки почты и организации
 

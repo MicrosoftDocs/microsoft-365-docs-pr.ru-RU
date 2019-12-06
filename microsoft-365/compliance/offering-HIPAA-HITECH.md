@@ -1,7 +1,7 @@
 ---
 title: Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 description: Корпорация Майкрософт предлагает средства обеспечения здравоохранения для обеспечения здравоохранения & для обеспечения отчетности по бизнес-соглашениям о ACT (BAA).
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b603cc6b946f62a8ca6b7cfa5c0dd7faf64dfbe4
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: c125b3cf01824c5791917bed45766b62cea7cdd5
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690931"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859749"
 ---
-# <a name="compliance-offering-health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Предложение по обеспечению соответствия требованиям: возможность переноса и учета страхования здравоохранения (HIPAA) & HITECH
+# <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>HIPAA и общие сведения о ACT HITECH
 
@@ -48,18 +48,18 @@ ms.locfileid: "38690931"
 
 Узнайте о преимуществах закона HIPAA и HITECH в Microsoft Cloud: [прочитайте статью званжер — Песири радиологи Customer](https://customers.microsoft.com/story/radiology-clinics-ease-compliance-drive-innovation-with-cloud-based-data-network)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
-- [Государственные учреждения Azure и Azure](https://aka.ms/AzureCompliance)
+- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Cloud App Security
 - Служба Microsoft Health Bot
 - Microsoft Stream
-- Профессиональные службы Майкрософт: премьер и локальная служба для Azure, Dynamics 365, Intune и среднего бизнеса и корпоративных клиентов Office 365
-- [Dynamics 365 и Dynamics 365 U.S. правительством США](https://aka.ms/d365-compliance-list)
-- Облачная служба Microsoft Flow — как самостоятельная служба или как она входит в план или набор Office 365 или Dynamics 365
+- Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Office 365
+- [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
+- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Intune
-- [Office 365, Office 365 для государственных учреждений США и Office 365 для защиты от государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Облачная служба PowerApps либо как отдельная служба, либо как включенная в план или набор Office 365 или Dynamics 365.
+- [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI — как самостоятельная служба или как она входит в план или набор Office 365 или Dynamics 365
 - Azure DevOps Services
 
@@ -81,7 +81,7 @@ ms.locfileid: "38690931"
 
 **Работает ли BAA с Майкрософт, чтобы обеспечить соответствие вашей организации законам и законам HITECH?**
 
-Неверно Предоставляя BAA, корпорация Майкрософт помогает поддерживать соответствие требованиям HIPAA, но использование служб Майкрософт не дает им возможности. Ваша организация несет ответственность за обеспечение надлежащей программы соответствия требованиям и внутренних процессов, а также в том, что в вашем конкретном использовании служб Майкрософт есть HIPAA и HITECH.
+Нет. Предоставляя BAA, корпорация Майкрософт помогает поддерживать соответствие требованиям HIPAA, но использование служб Майкрософт не дает им возможности. Ваша организация несет ответственность за обеспечение надлежащей программы соответствия требованиям и внутренних процессов, а также в том, что в вашем конкретном использовании служб Майкрософт есть HIPAA и HITECH.
 
 **Можете ли корпорация Майкрософт изменить BAA своей организации?**
 
@@ -89,7 +89,7 @@ ms.locfileid: "38690931"
 
 **Как можно получить копии отчетов аудиторов?**
 
-[Портал доверия службы](https://www.microsoft.com/trustcenter/STP/default.aspx) предоставляет независимые отчеты о соответствии требованиям. С помощью портала можно запрашивать отчеты об аудите, чтобы ваши аудиторы могли сравнивать результаты облачных служб Майкрософт с собственными юридическими и нормативными требованиями.
+На портале [Service Trust Portal](https://www.microsoft.com/trustcenter/STP/default.aspx) представлены отчеты независимых аудитов соответствия требованиям. С помощью портала можно запрашивать отчеты об аудите, чтобы ваши аудиторы могли сравнивать результаты облачных служб Майкрософт с собственными юридическими и нормативными требованиями.
 
 **Как узнать больше о предсоблюдении закона HIPAA и ACT HITECH?**
 
@@ -102,13 +102,13 @@ ms.locfileid: "38690931"
 ## <a name="resources"></a>Ресурсы
 
 - [Правило Омнибус HIPAA](https://aka.ms/HIPAA-omnibus) (последние правила HIPAA, изменяющие нормативы)
-- [Инфраструктура соответствия Microsoft Common Controls HUB](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Условия Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Облако Microsoft для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
+- [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Общие сведения о соответствии требованиям HIPAA с Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 мая, 2016)
 - [Руководство по реализации Azure HIPAA](https://aka.ms/azure-hipaa-guide)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf).

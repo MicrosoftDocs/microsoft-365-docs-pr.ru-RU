@@ -12,12 +12,12 @@ ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
 ms.collection:
 - M365-security-compliance
 description: В этом Артиклесуппортед Лангуажесинсталл создание сообщения о нежелательной почте Добавление дополнительных сведений о надстройке создания отчетов о нежелательной почте
-ms.openlocfilehash: 7f294ed78affba6e55f2372b81b517bbd25d3f08
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 508d542be4862a6a06b795fc7a4b97bdc405d430
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090035"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39865891"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Установка надстройки создания отчетов о нежелательной почте для Microsoft Outlook
   
@@ -59,13 +59,12 @@ ms.locfileid: "37090035"
 - Испанский
     
 ## <a name="install-the-junk-email-reporting-add-in"></a>Установка надстройки создания отчетов о нежелательной почте
-<a name="sectionSection1"> </a>
 
 Как установить надстройку создания отчетов о нежелательной почте
   
-- C помощью пакета установщика Windows, который запускается так же, как любой другой MSI-файл. При установке надстройки откроется графический интерфейс пользователя, который состоит из последовательных экранов установки с запросами. Подробнее см. в разделе [Установка надстройки создания отчетов о нежелательной почте с помощью мастера установки](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_InstalltheJunkEmailReportingAdd-InUsingtheSetupWizard). ИЛИ
+- C помощью пакета установщика Windows, который запускается так же, как любой другой MSI-файл. При установке надстройки откроется графический интерфейс пользователя, который состоит из последовательных экранов установки с запросами. Подробнее см. в разделе [Установка надстройки создания отчетов о нежелательной почте с помощью мастера установки](#install-the-junk-email-reporting-add-in-using-the-setup-wizard). ИЛИ
     
-- Запустив автоматическую установку, которая подавляет пользовательский интерфейс установки. Вместо него указываются параметры командной строки, которые управляют сценарием установки. При установке надстройки доступны дополнительные параметры конфигурации, которых нет в графическом интерфейсе пользователя. Подробнее см. в разделе [Установка надстройки создания отчетов о нежелательной почте в автоматическом режиме](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_InstalltheJunkEmailReportingAdd-IninSilentMode).
+- Запустив автоматическую установку, которая подавляет пользовательский интерфейс установки. Вместо него указываются параметры командной строки, которые управляют сценарием установки. При установке надстройки доступны дополнительные параметры конфигурации, которых нет в графическом интерфейсе пользователя. Подробнее см. в разделе [Установка надстройки создания отчетов о нежелательной почте в автоматическом режиме](#install-the-junk-email-reporting-add-in-using-silent-mode).
     
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -87,7 +86,6 @@ ms.locfileid: "37090035"
 > Требуются права администратора на компьютере, на котором устанавливается надстройка. 
   
 ### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a>Установка надстройки создания отчетов о нежелательной почте с помощью мастера установки
-<a name="BKMK_InstalltheJunkEmailReportingAdd-InUsingtheSetupWizard"> </a>
 
 1. Закройте Outlook на компьютере.
     
@@ -108,7 +106,6 @@ ms.locfileid: "37090035"
 9. Нажмите стрелку вниз рядом с кнопкой **Нежелательная почта**, чтобы открыть дополнительные параметры, например **Фишинговое сообщение**, если вы хотите сообщить корпорации Майкрософт о фишинговых сообщениях. В папке нежелательной почты можно также выбрать параметр **Не является нежелательным**, если сообщение ошибочно помечено как нежелательное. 
     
 ### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>Установка надстройки создания отчетов о нежелательной почте в автоматическом режиме
-<a name="BKMK_InstalltheJunkEmailReportingAdd-IninSilentMode"> </a>
 
 1. Закройте Outlook на компьютере.
     
@@ -135,9 +132,9 @@ ms.locfileid: "37090035"
   
     Чтобы добавить оба необязательных параметра, описанных в предыдущих примерах, введите следующую команду на компьютере с Outlook версии x86: 
     
-  ```
-  msiexec /qn /i JunkReportingAdd-in.x86-en.msi. MaxMessageSelection=16 BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"
-  ```
+      ```
+      msiexec /qn /i JunkReportingAdd-in.x86-en.msi. MaxMessageSelection=16 BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"
+      ```
 
 4. После завершения установки запустите Outlook.
     
@@ -146,21 +143,19 @@ ms.locfileid: "37090035"
 6. Нажмите стрелку вниз рядом с кнопкой **Нежелательная почта**, чтобы открыть дополнительные параметры, например **Фишинговое сообщение**, если вы хотите сообщить корпорации Майкрософт о фишинговых сообщениях. В папке нежелательной почты можно также выбрать параметр **Не является нежелательным**, если сообщение ошибочно помечено как нежелательное. 
     
 ## <a name="uninstall-the-junk-email-reporting-add-in"></a>Удаление надстройки создания отчетов о нежелательной почте
-<a name="sectionSection2"> </a>
 
 Чтобы удалить надстройку создания отчетов о нежелательной почте:
   
-- Удалите надстройку с помощью панели управления Windows. Дополнительные сведения см. в разделе [Удаление надстройки создания отчетов о нежелательной почте с помощью панели управления](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_UninstalltheJunkEmailReportingAdd-infromControlPanel). ИЛИ
+- Удалите надстройку с помощью панели управления Windows. Дополнительные сведения см. в разделе [Удаление надстройки создания отчетов о нежелательной почте с помощью панели управления](#uninstall-the-junk-email-reporting-add-in-from-control-panel).
     
-- Запустите пакет установщика Windows и выберите параметр удаления. Дополнительные сведения см. в разделе [Удаление надстройки создания отчетов о нежелательной почте с помощью пакета установщика Windows](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_UninstalltheJunkEmailReportingAddinbyRunningtheWindowsInstallerPackage). ИЛИ
+- Запустите пакет установщика Windows и выберите параметр uninstall. Дополнительные сведения см. [в статье удаление надстройки создания отчетов о нежелательной почте путем запуска пакета установщика Windows](#uninstall-the-junk-email-reporting-add-in-by-running-the-windows-installer-package).
     
-- Запустите автоматическую установку с помощью параметра удаления. Дополнительные сведения см. в разделе [Удаление надстройки создания отчетов о нежелательной почте в автоматическом режиме](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#MK_UninstalltheJunkEmailReportingAdd-ininSilentMode).
+- Запустите автоматическую установку с помощью параметра удаления. Дополнительные сведения см. в разделе [Удаление надстройки создания отчетов о нежелательной почте в автоматическом режиме](#uninstall-the-junk-email-reporting-add-in-in-silent-mode).
     
 > [!NOTE]
 > Требуются права администратора на компьютере, с которого удаляется надстройка. 
   
 ### <a name="uninstall-the-junk-email-reporting-add-in-from-control-panel"></a>Удаление надстройки создания отчетов о нежелательной почте с помощью панели управления
-<a name="BKMK_UninstalltheJunkEmailReportingAdd-infromControlPanel"> </a>
 
 1. Закройте Outlook на компьютере.
     
@@ -175,7 +170,6 @@ ms.locfileid: "37090035"
 6. Снова запустите Outlook, чтобы убедиться, что надстройка больше не отображается в ленте.
     
 ### <a name="uninstall-the-junk-email-reporting-add-in-by-running-the-windows-installer-package"></a>Удаление надстройки создания отчетов о нежелательной почте с помощью пакета установщика Windows
-<a name="BKMK_UninstalltheJunkEmailReportingAddinbyRunningtheWindowsInstallerPackage"> </a>
 
 1. Закройте Outlook на компьютере.
     
@@ -191,7 +185,6 @@ ms.locfileid: "37090035"
 4. Снова запустите Outlook, чтобы убедиться, что надстройка больше не отображается в ленте.
     
 ### <a name="uninstall-the-junk-email-reporting-add-in-in-silent-mode"></a>Удаление надстройки создания отчетов о нежелательной почте в автоматическом режиме
-<a name="MK_UninstalltheJunkEmailReportingAdd-ininSilentMode"> </a>
 
 1. Закройте Outlook на компьютере.
     
@@ -209,7 +202,6 @@ ms.locfileid: "37090035"
 4. Снова запустите Outlook, чтобы убедиться, что надстройка больше не отображается в ленте.
     
 ## <a name="for-more-information"></a>Дополнительные сведения
-<a name="sectionSection3"> </a>
 
 [Отправка отчетов о нежелательных сообщениях в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md)
   

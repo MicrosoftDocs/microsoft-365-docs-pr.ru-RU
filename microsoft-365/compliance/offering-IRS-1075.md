@@ -1,7 +1,7 @@
 ---
 title: Публикация службы внутреннего дохода (США) 1075
 description: У корпорации Майкрософт есть элементы управления, которые отвечают требованиям для публикации в службе внутреннего дохода (США) 1075.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 91d2d00b951252d8c8a1c9d8d405ff6c5fd888e2
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 30509260e83f1aaa59c57365357e18a3f12097c4
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690926"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859729"
 ---
-# <a name="compliance-offering-us-internal-revenue-service-publication-1075"></a>Предложение соответствия требованиям: внутренняя прибыль от США — публикация 1075
+# <a name="us-internal-revenue-service-publication-1075"></a>Публикация службы внутреннего дохода (США) 1075
 
 ## <a name="us-internal-revenue-service-publication-1075-overview"></a>Общие сведения о публикации в службе внутреннего дохода США 1075
 
@@ -42,17 +42,17 @@ ms.locfileid: "38690926"
 
 Узнайте о преимуществах IRS 1075 в Microsoft Cloud: Скачайте сведения о средстве [irs 1075](https://aka.ms/irs1075-backgrounder)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 Авторизация FedRAMP предоставляется на трех уровнях влияния на правила NIST: низкие, средние и высокие. Эти значения приотносятся к снижению степени конфиденциальности, целостности или доступности, которые могут иметься в Организации: низкие (ограниченные), средние (серьезные неблагоприятные последствия) и высокий (серьезный или разрушительный эффект).
 
-- [Государственные учреждения Azure и Azure](https://azure.microsoft.com/global-infrastructure/government/)
+- [Azure и Azure для государственных организаций](https://azure.microsoft.com/global-infrastructure/government/)
 - Dynamics 365 для государственных учреждений США
-- [Office 365 и Office 365 для государственных учреждений (США)](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Защита от государственных учреждений Office 365 США
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- [Office 365 и Office 365 для государственных организаций США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 для министерства обороны США
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Соответствие требованиям существенные для IRS 1075 обсуждается в FedRAMP аудита каждого года.
 
@@ -73,16 +73,16 @@ ms.locfileid: "38690926"
 
 **Можно ли использовать общедоступные облачные среды для Azure или Office 365 и по-прежнему соответствовать IRS 1075?**
 
-Неверно Единственной средой, где FTI может храниться и обрабатываться, являются службы Azure государственных учреждений или Office 365 для государственных учреждений США. Для использования этих сред клиенты государственных учреждений должны удовлетворять требованиям к приемлемости.
+Нет. Единственной средой, где FTI может храниться и обрабатываться, являются службы Azure государственных учреждений или Office 365 для государственных учреждений США. Для использования этих сред клиенты государственных учреждений должны удовлетворять требованиям к приемлемости.
 
 ## <a name="resources"></a>Ресурсы
 
 - [Публикация IRS 1075](https://www.irs.gov/pub/irs-pdf/p1075.pdf)
 - [Программа обеспечения безопасности IRS](https://www.irs.gov/uac/Safeguards-Program)
-- [Инфраструктура соответствия Microsoft Common Controls HUB](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft Cloud для государственных организаций](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/D/1/8/D1825AE2-4FDA-4A4B-8D4F-9B7D2976D54A/IRS1075_Compliance_Backgrounder.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/D/1/8/D1825AE2-4FDA-4A4B-8D4F-9B7D2976D54A/IRS1075_Compliance_Backgrounder.pdf).

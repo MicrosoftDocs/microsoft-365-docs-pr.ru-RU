@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 3372332529f9391b5cea8da4095d04178e8b731b
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: 437029198d48ef8b2d9d91466108fbef989486c2
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813879"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859289"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -34,6 +34,7 @@ ms.locfileid: "39813879"
 | Модель  | Минимальные спецификации  | Дополнительные требования   | Дата выбытия |
 |---------|---------|---------|---------|
 | HP об 830/840/850 G5| 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев  | **15 февраля 2023 г.** |
+|Книга Surface 2| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **16 ноября 2022 г.** |
 |Ноутбук поверхности| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **20 мая 2022 г.** |
 |Surface Pro| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **15 июня 2022 г.** |
 

@@ -1,7 +1,7 @@
 ---
 title: Совет по анализу финансовых учреждений по федеральным учреждениям (ФФИЕК)
 description: Корпорация Майкрософт помогает клиентам финансовых служб соблюдать требования к аудиту для органов Федерального Совета по анализу финансовых учреждений (ФФИЕК).
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 61028937f469c21d50688912d9acccde7d1c117c
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 3ee932493aca94109381edde1b2df0aae342a4c2
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690897"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859859"
 ---
-# <a name="compliance-offering-federal-financial-institutions-examination-council-ffiec"></a>Предложение о соответствии требованиям: Федеральный совет по проверке финансовых учреждений (ФФИЕК)
+# <a name="federal-financial-institutions-examination-council-ffiec"></a>Совет по анализу финансовых учреждений по федеральным учреждениям (ФФИЕК)
 
 ## <a name="ffiec-overview"></a>Обзор ФФИЕК
 
@@ -39,14 +39,14 @@ Microsoft Azure, Microsoft Power BI и Microsoft Office 365 созданы в с
 
 Чтобы получить дополнительные сведения о требованиях ФФИЕК, облачные службы Майкрософт предоставляют [отчеты об аттестации SoC](offering-SOC.md) , созданные независимыми фирмами CPA. Например, аттестация SOC 1 типа 2 основана на АИКПА ССАЕ 18 Standard (см. раздел 105), в котором заменен SAS 70, и он подходит для отчетности по определенным элементам управления для финансовой отчетности. Отчеты SOC включают в себя мнение аудиторов по эффективности элементов управления Майкрософт при выполнении соответствующих задач управления в течение указанного периода наблюдения. Финансовые учреждения могут использовать этот формальный аудит в соответствии с обязательствами по обеспечению соответствия требованиям ФФИЕК для активов, развернутых в Azure, Power BI и Office 365.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Облачная служба Power BI либо как отдельная служба, либо как включенная в план или набор Office 365.
+- Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Отчеты об аттестации SOC для Azure и Office 365.
 
@@ -62,17 +62,17 @@ Microsoft Azure, Microsoft Power BI и Microsoft Office 365 созданы в с
 - [Карта соответствия требованиям облачных вычислений и нормативных принципов в США](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Руководство по анализу ФФИЕК аудита](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)
 - [Технические справочники по службам ФФИЕК аутсорсинга](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)
-- [Средство оценки рисков облачных служб Azure](https://aka.ms/FFIEC-CSDT)
+- [Средство оценки облачных рисков для финансовых услуг в Azure](https://aka.ms/FFIEC-CSDT)
 - [План финансовых служб безопасности и соответствия требованиям Azure ФФИЕК](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)
 
-## <a name="other-microsoft-resources-for-financial-services"></a>Другие ресурсы Майкрософт для финансовых служб
+## <a name="other-microsoft-resources-for-financial-services"></a>Другие ресурсы Майкрософт для финансовых услуг
 
-- [Программа Microsoft Financial Services для обеспечения соответствия требованиям](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Соответствие финансовых служб в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Облачные службы и финансовые службы Microsoft Business](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Общие обязанности для облачных вычислений](https://aka.ms/sharedresponsibility)
+- [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://www.microsoft.com/download/details.aspx?id=55332)
+- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Облачные и финансовые службы Майкрософт для бизнеса](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Общая ответственность в облачных вычислениях](https://aka.ms/sharedresponsibility)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/2/7/62760960-C4B5-456B-9CF8-DCB7D692AAC4/FFIEC-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/2/7/62760960-C4B5-456B-9CF8-DCB7D692AAC4/FFIEC-Compliance.pdf).

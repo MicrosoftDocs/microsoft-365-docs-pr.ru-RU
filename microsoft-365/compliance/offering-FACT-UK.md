@@ -1,7 +1,7 @@
 ---
 title: Федерация от кражи авторского права (факт)
 description: Microsoft Azure обеспечивает сертификацию из Федерации от кражи авторского права в Великобритании.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1a3fe8adac9dae1b2dcbc04430e9d7d3f49bc201
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 378f03c5c579939abed84cfdea436845f37292af
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690902"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859899"
 ---
-# <a name="compliance-offering-federation-against-copyright-theft-fact"></a>Предложение соответствия требованиям: Федерация от кражи авторских прав (факт)
+# <a name="federation-against-copyright-theft-fact"></a>Федерация от кражи авторского права (факт)
 
 ## <a name="fact-overview"></a>Обзор ФАКТов
 
@@ -32,11 +32,11 @@ ms.locfileid: "38690902"
 
 Узнайте о преимуществах ФАКТов в Microsoft Cloud: [Скачайте задний план фактов](https://aka.ms/fact-backgrounder)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
-[Государственные учреждения Azure и Azure](https://aka.ms/AzureCompliance)
+[Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Сертификация Azure обновляется ежегодно: [сертификат фактов Azure](https://aka.ms/azurefactcert)
 
@@ -57,9 +57,9 @@ ms.locfileid: "38690902"
 - [Сертификат КДСА служб носителей Azure](https://aka.ms/cdsa-cert)
 - [Сертификация Azure ISO 27001](https://aka.ms/Azure-BSI-Cert)
 - [Оценка МПАА](offering-mpaa.md)
-- [Ответы Azure на CSA каик v 3.0.1](https://aka.ms/csacaiqresponses)
+- [Ответы Azure на CSA CAIQ версии 3.0.1](https://aka.ms/csacaiqresponses)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf).

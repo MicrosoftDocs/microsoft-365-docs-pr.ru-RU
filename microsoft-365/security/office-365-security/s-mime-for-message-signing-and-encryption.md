@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Администраторы могут узнать об использовании S/MIME в Exchange Online.
-ms.openlocfilehash: 64a76d1e9eebea86e548a06bf05d0030b0396d3d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 87f7438b8297b0c7d6d7674cd2c02db6be14bb28
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032154"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872055"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME для подписи и шифрования сообщений в Exchange Online
 
@@ -37,7 +37,7 @@ S/MIME можно настроить для работы со следующим
 
 Действия, которые необходимо выполнить для настройки S/MIME с каждой из этих конечных точек, немного отличаются. Как правило, необходимо выполнить следующие действия:
 
-- Установка центра сертификации на основе Windows и настройка инфраструктуры открытых ключей для выдачи сертификатов S/MIME. Также поддерживаются сертификаты, выданные сторонними поставщиками сертификатов. Дополнительные сведения см. в статье [Обзор служб сертификации Active Directory](https://technet.microsoft.com/library/hh831740.aspx).
+- Установка центра сертификации на основе Windows и настройка инфраструктуры открытых ключей для выдачи сертификатов S/MIME. Также поддерживаются сертификаты, выданные сторонними поставщиками сертификатов. Дополнительные сведения см. в статье [Обзор служб сертификации Active Directory](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11)).
 
 - Опубликуйте сертификат пользователя в локальной учетной записи AD DS в атрибутах **UserSMIMECertificate** и/или **UserCertificate** .
 
@@ -76,6 +76,6 @@ S/MIME можно настроить для работы со следующим
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-[Outlook в Интернете](https://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[Outlook в Интернете](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-[Безопасная почта (2000)](https://technet.microsoft.com/library/cc962043.aspx)
+[Безопасная почта (2000)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc962043(v=technet.10))

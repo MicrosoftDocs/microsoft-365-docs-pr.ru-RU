@@ -15,12 +15,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: Функция "безопасные вложения" обеспечивает проверку подлинности вложений электронной почты при нажатии этой кнопки. Используйте безопасные вложения, чтобы защитить организацию от вредоносных файлов, отправляемых и получаемых в сообщениях электронной почты.
-ms.openlocfilehash: 387f14da591f2979ed15f0a6c7a29eb4bfd5689e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5ad8aa3525953fc0393595848a80fe85c6df8aa3
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090512"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39865921"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Безопасные вложения Office 365 ATP
 
@@ -44,9 +44,9 @@ ms.locfileid: "37090512"
 
 |Role  |Где/как назначено  |
 |---------|---------|
-|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
-|администратор безопасности (Security Administrator). |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Управление организацией Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
+|Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
+|Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
 ## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>Сведения о том, где находится защита от использования надежных вложений ATP
 

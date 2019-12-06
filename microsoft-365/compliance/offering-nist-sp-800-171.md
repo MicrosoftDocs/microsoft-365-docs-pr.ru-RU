@@ -1,7 +1,7 @@
 ---
 title: NIST SP 800 – 171
 description: Облачные службы Майкрософт соответствуют требованиям NIST SP 800 – 171 для защиты контролируемой неклассифицированной информации (CUI) в нефедеральных информационных системах.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8924905e83d1911dc30a420319d61940b75bfe05
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: e7b3dbad49fd57005dffd7e39e61906efdab771d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690958"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859349"
 ---
-# <a name="compliance-offering-nist-sp-800171"></a>Предложение по обеспечению соответствия требованиям: NIST SP 800 – 171
+# <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
 ## <a name="about-nist-sp-800171"></a>О программе NIST SP 800 – 171
 
@@ -39,18 +39,18 @@ NIST SP 800 – 171 изначально был опубликован в июн
 
 Любая сущность, которая обрабатывает или хранит США CUI — исследовательские учреждения, консалтинговые компании, производственные подрядчики, должны соответствовать строгим требованиям NIST SP 800 – 171. Эта аттестация означает, что облачные службы Майкрософт находятся в облачных службах, которые хотят развертывать рабочие нагрузки CUI с гарантией, что Майкрософт полностью соответствует требованиям. Например, все подрядчики DoD, которые обрабатывают, хранят или передают сведения о защите от использования облачных служб Майкрософт в информационных системах, соответствуют требованиям к защите ДФАРС, требующим соответствия требованиям безопасности. требования для NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365 США, сообщество сообщества сообщества Office (GCC), Office 365 GCC High и DoD](https://aka.ms/o365-compliance-framework)
 
-## <a name="audits-reports-and-certificates"></a>Аудиты, отчеты и сертификаты
+## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 - [Подтверждение соответствия требованиям для государственных организаций Azure с помощью NIST SP 800 – 171](https://aka.ms/Azure-NIST-800-171)
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 - Схема [NIST SP 800 – 171](https://aka.ms/NIST-800-171-Blueprint): Узнайте, как получить поддержку для реализации рабочих нагрузок в Azure, которые соответствуют требованиям NIST SP 800 – 171.
 
@@ -67,9 +67,9 @@ NIST SP 800 – 171 изначально был опубликован в июн
 - [Разрешения FedRAMP для облачных служб Майкрософт](https://marketplace.fedramp.gov/index.html?status=Compliant&sort=productName#/products)
 - [Аудит NIST 800-171 3,3 с пакетом Office 365 GCC High](https://info.summit7systems.com/blog/nist-3.3-audit-and-accountability-with-office-365)
 - [Майкрософт и NIST Циберсекурити Framework](offering-nist-csf.md)
-- [Облако Microsoft для государственных организаций](https://www.microsoft.com/enterprise/government)
+- [Облако Майкрософт для государственных организаций](https://www.microsoft.com/enterprise/government)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf ).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf ).

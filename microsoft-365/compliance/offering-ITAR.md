@@ -1,7 +1,7 @@
 ---
 title: Международный трафик в нормах подлокотников (ITAR)
 description: Служба управления учреждениями Azure поддерживает клиентов, создающих международный трафик США в системах с поддержкой Регс.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b79cd30c225631b93c92f8199d008d24ecc9a06d
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 9fa4195daa12ebbdafa33851f2bf458bde3d36ac
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690929"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859659"
 ---
-# <a name="compliance-offering-international-traffic-in-arms-regulations-itar"></a>Предложение по обеспечению соответствия требованиям: международный трафик в нормах вооружения (ITAR)
+# <a name="international-traffic-in-arms-regulations-itar"></a>Международный трафик в нормах подлокотников (ITAR)
 
 ## <a name="itar-overview"></a>Обзор ITAR
 
@@ -36,10 +36,10 @@ Microsoft Azure для государственных учреждений и Mi
   
 Клиенты, которым требуется разместить данные ITAR, должны работать с их учетными записями Майкрософт и группами лицензирования для получения дополнительных сведений, получения верных соглашений и доступа к соответствующим сведениям об архитектуре системы.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
-- [Защита от государственных учреждений Office 365 США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 для министерства обороны США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -56,6 +56,6 @@ Microsoft Azure для государственных учреждений и Mi
 - [Office 365 для государственных учреждений (США)](https://products.office.com/government/office-365-web-services-for-government)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>Загрузка фонового рисунка предложения
+## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
 
-Нужен фоновый документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/A/7/4/A74AFF71-6EAC-4CFD-A09B-51852E1A1200/ITAR-Compliance.pdf).
+Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/A/7/4/A74AFF71-6EAC-4CFD-A09B-51852E1A1200/ITAR-Compliance.pdf).

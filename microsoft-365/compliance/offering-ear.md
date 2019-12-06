@@ -1,7 +1,7 @@
 ---
 title: Требования к экспорту в США (год)
 description: Облачные службы Майкрософт помогают клиентам подчиняться требованиям по экспорту в США (с учетом нормативов), которые соответствуют требованиям к их соответствию и контролируют риск экспорта.
-keywords: Microsoft 365, соответствие требованиям, предложите
+keywords: Microsoft 365, соответствие требованиям, предложения
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 283b6a45807547f9a8d0521cf2c6793a2a15c4d6
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: b0bb12a4c7f7120d1a607de53ec97d7e8ce915e8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690944"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859399"
 ---
-# <a name="compliance-offering-us-export-administration-regulations-ear"></a>Предложение по обеспечению соответствия требованиям: экспортные нормативные положения США (год)
+# <a name="us-export-administration-regulations-ear"></a>Требования к экспорту в США (год)
 
 ## <a name="about-the-ear"></a>О.
 
@@ -46,13 +46,13 @@ ms.locfileid: "38690944"
 - **Сквозное шифрование**. Благодаря преимуществам сквозного безопасного шифрования Harbor (бухты для физических расположений, указанных в этом случае облачные службы Майкрософт обеспечивают функции шифрования, позволяющие защититься от угроз управления экспортом. Кроме того, они предоставляют пользователям [широкий спектр возможностей для шифрования данных](https://aka.ms/Azure-Encryption-Overview) в транзитном месте и в REST, а также возможность выбора между параметрами шифрования.
 - **Средства и протоколы для предотвращения несанкционированного экспорта**. Использование шифрования также помогает защититься от потенциально признанного экспортируемого (или повторного экспорта), так как даже если у пользователя, отличного от США, есть доступ к зашифрованным данным, ничего не отображается, если они не могут прочитать или прочитать данные, когда они зашифрованы; Таким образом, отсутствует "выпуск" контролируемых данных.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт в области
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
-- [Государственные учреждения Azure и Azure](https://aka.ms/AzureCompliance)
+- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - [Office 365 для государственных учреждений (GCC-High и DoD)](https://aka.ms/Office-365-Export-Controls)
 - Intune
 
-## <a name="how-to-implement"></a>Реализация
+## <a name="how-to-implement"></a>Методика реализации
 
 Общие сведения об элементах управления экспортом и рекомендациях для клиентов, оценивающих свои обязательства в год.
 

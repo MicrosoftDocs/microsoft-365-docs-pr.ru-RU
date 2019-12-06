@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: e3f205a75c30397382b63112df4503f7a1d23582
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 4507155acf3a973484f8228803660abf65167121
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673285"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866371"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 
@@ -166,7 +166,7 @@ ms.locfileid: "38673285"
 - [Просмотр вредоносных файлов, обнаруженных в SharePoint Online, OneDrive и Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 - [Обзор представлений в обозревателе угроз (и обнаружения в режиме реального времени)](threat-explorer-views.md)
 
-## <a name="required-licenses-and-permissions"></a>Необходимые лицензии и разрешения
+## <a name="required-licenses-and-permissions"></a>Обязательные лицензии и разрешения
 
 Для получения проводника или обнаружения в режиме реального времени необходимо наличие [Office 365 ATP](office-365-atp.md) .
 - Explorer включен в план 2 для Office 365 ATP 2. 
@@ -180,7 +180,7 @@ ms.locfileid: "38673285"
     - Администратор безопасности (это можно назначить в центре администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))).
     - Средство чтения безопасности
 
-- Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)):
+- Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)):
     - Управление организацией
     - Управление организацией с правами только на просмотр
     - Роль получателей с правами только на просмотр
