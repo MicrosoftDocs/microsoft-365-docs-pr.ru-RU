@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Настраивая базовую фильтрацию спама, необходимо указать, что нужно делать с сообщениями, которые считаются спамом.
-ms.openlocfilehash: dd9385139e869fde094249d2dce014aa19056418
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a762f46d9d3834b9c7f9976da6f91ce4e043c206
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032424"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871905"
 ---
 # <a name="configure-your-spam-filter-policies"></a>Настройка политики защиты от спама
 Настраивая фильтрацию спама, необходимо указать, что нужно делать с сообщениями, которые считаются спамом. Параметры политики фильтрации спама применяются только ко входящим сообщениям и бывают двух типов:
@@ -32,7 +32,7 @@ ms.locfileid: "38032424"
 
 Предполагаемое время для завершения: 30 минут.
   
-Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx).
+Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions).
 
 Все параметры политики защиты от нежелательной почты доступны в Центре безопасности и соответствия требованиям. Дополнительные сведения см. в статье [Переход в Центр безопасности и соответствия требованиям Office 365](../../compliance/go-to-the-securitycompliance-center.md). Страница параметров защиты от нежелательной почты находится в разделе Центра безопасности и соответствия требованиям \> **Управление угрозами** \> **Политика** \> **Защита от спама**.
 
@@ -104,15 +104,15 @@ ms.locfileid: "38032424"
 
 Политики фильтрации нежелательной почты также можно настроить и применить с помощью PowerShell. Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554). Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290).
   
-- [Get-HostedContentFilterPolicy](https://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) Просмотр параметров фильтрации нежелательной почты. 
+- [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedcontentfilterpolicy) Просмотр параметров фильтрации нежелательной почты. 
     
-- [Set-HostedContentFilterPolicy](https://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) Изменение параметров фильтрации нежелательной почты. 
+- [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy) Изменение параметров фильтрации нежелательной почты. 
     
-- [New-HostedContentFilterPolicy](https://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) Создание настраиваемой политики фильтрации нежелательной почты. 
+- [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) Создание настраиваемой политики фильтрации нежелательной почты. 
     
-- [Remove-HostedContentFilterPolicy](https://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) Удаление настраиваемой политики фильтрации нежелательной почты. 
+- [Remove-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedcontentfilterpolicy) Удаление настраиваемой политики фильтрации нежелательной почты. 
     
-Чтобы применить политику фильтрации нежелательной почты к пользователям, группам или доменам, используйте командлет [New-HostedContentFilterRule](https://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) (для создания правила фильтрации, которое можно применить к настраиваемым политикам) или командлет [Set-HostedContentFilterRule](https://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) (для изменения существующего правила фильтрации, которое можно применить к настраиваемым политикам). Командлет [Enable-HostedContentFilterRule](https://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) или [Disable-HostedContentFilterRule](https://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx) используется для включения или отключения правила, которое применяется к политике. 
+Чтобы применить политику фильтрации нежелательной почты к пользователям, группам или доменам, используйте командлет [New-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterrule) (для создания правила фильтрации, которое можно применить к настраиваемым политикам) или командлет [Set-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule) (для изменения существующего правила фильтрации, которое можно применить к настраиваемым политикам). Командлет [Enable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/enable-hostedcontentfilterrule) или [Disable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/disable-hostedcontentfilterrule) используется для включения или отключения правила, которое применяется к политике. 
   
 ## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 

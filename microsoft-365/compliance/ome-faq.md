@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: У вас есть вопрос о том, как работают новые возможности защиты сообщений в Office 365? Проверьте ответ здесь.
-ms.openlocfilehash: 95efde63ff9cf4c53522c0242a33001a35d2e334
-ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
+ms.openlocfilehash: f8b92e7156921548499ecbb1876787f63eeb3259
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39818851"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866421"
 ---
 # <a name="office-365-message-encryption-faq"></a>Вопросы и ответы по шифрованию сообщений Office 365
 
@@ -119,6 +119,10 @@ Set-IRMConfiguration -EnablePdfEncryption $true
 
 Not yet. Вложения в OneDrive для бизнеса не поддерживаются, и конечные пользователи не могут шифровать почту, содержащую вложение в облачную службу OneDrive для бизнеса.
   
+## <a name="what-email-clients-support-preview-of-encrypted-attachments-in-protected-emails"></a>Какие почтовые клиенты поддерживают предварительный просмотр зашифрованных вложений в защищенных сообщениях электронной почты?
+
+Когда вложения защищаются с помощью защищенной почты, клиенты Outlook предоставляют возможность са для непосредственного просмотра документа. Outlook поддерживает предварительный просмотр документов Office (DOCX, XLSX, PPTX, doc, XLS, PPT). Outlook в Интернете поддерживает предварительный просмотр документов Office (DOCX, XLSX, PPTX) и PDF.  
+
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>Можно ли автоматически шифровать сообщения с помощью настройки политик?
 
 Да. Используйте правила для обработки почтового процесса в Exchange Online, чтобы автоматически зашифровать сообщения на основе определенных условий. Например, можно создать политики на основе идентификатора получателя, домена получателя или содержимого в тексте или теме сообщения. [В разделе Определение правил для почтового процесса для шифрования сообщений электронной почты в Office 365](define-mail-flow-rules-to-encrypt-email.md).
