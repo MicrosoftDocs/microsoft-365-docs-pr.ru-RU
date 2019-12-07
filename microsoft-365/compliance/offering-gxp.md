@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a44e7cfca1ea8d3841a134b13009977dba9981ae
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 44f6423768049f80bbc7af3affc99294a8ad7ac1
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622603"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859389"
 ---
-# <a name="compliance-offering-good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Предложение для соответствия требованиям: надлежащая клиническая, лабораторная и производственная практика (GxP)
+# <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Надлежащая клиническая, лабораторная и производственная практика (GxP)
 
 ## <a name="about-gxp"></a>Сведения о GxP
 

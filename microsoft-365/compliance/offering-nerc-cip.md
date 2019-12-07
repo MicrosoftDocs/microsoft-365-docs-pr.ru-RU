@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: e2a5ece0c6604ff6e2e9073557ee0f6c59f3694f
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: ceb87ace9d4ed832ea23ea7cddaf7e73ce0a17cb
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39195410"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859367"
 ---
-# <a name="compliance-offering-north-american-electric-reliability-corporation-nerc"></a>Решения для обеспечения соответствия требованиям: Североамериканская корпорация по обеспечению надежности электросистем (NERC)
+# <a name="north-american-electric-reliability-corporation-nerc"></a>Североамериканская корпорация по обеспечению надежности электросистем (NERC)
 
 ## <a name="about-the-nerc"></a>О NERC
 

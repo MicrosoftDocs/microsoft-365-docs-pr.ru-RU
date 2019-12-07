@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: c773d2e4f69b415745e0a327e497ce26ed62c223
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 4d8587438d564d98d9b30897ebdf5bf8722a09c8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218678"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859489"
 ---
-# <a name="compliance-offering-service-organization-controls-soc"></a>Предложение для соответствия требованиям: средства контроля обслуживающей организации (SOC)
+# <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
 ## <a name="soc-1-2-and-3-reports-overview"></a>Сведения об отчетах SOC 1, 2 и 3
 
