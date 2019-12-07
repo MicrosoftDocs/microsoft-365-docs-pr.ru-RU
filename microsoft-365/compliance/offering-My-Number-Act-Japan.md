@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: c6637db6b73bdc83972d90c938efede0b70938ad
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 208bf7d1e31f797ec24654d1c2cdfe374d1aafe3
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218718"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859569"
 ---
-# <a name="compliance-offering-my-number-act-japan"></a>Предложение соответствия: закон Японии об индивидуальном номере
+# <a name="my-number-act-japan"></a>Закон Японии об индивидуальном номере
 
 ## <a name="about-the-my-number-act"></a>Описание закона Японии об индивидуальном номере
 

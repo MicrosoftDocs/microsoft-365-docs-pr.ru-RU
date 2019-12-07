@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4dfec74f56d22365549a031ca858067d39686cb1
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 09126b4086f178f2f94e1344a4f4210a67b66621
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622583"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860129"
 ---
-# <a name="compliance-offering-title-23-nycrr-part-500"></a>Предложение для соответствия требованиям: раздел 23 NYCRR (часть 500)
+# <a name="title-23-nycrr-part-500"></a>Раздел 23 NYCRR (часть 500)
 
 ## <a name="title-23-nycrr-part-500-overview"></a>Обзор раздела 23 NYCRR (часть 500)
 
