@@ -47,22 +47,111 @@
               href: mtp/microsoft-threat-protection.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
-        - name: Выслеживание в Microsoft 365
-          href: ./mtp/hunting.md
-        - name: Отчеты
+            - name: Предварительные требования
+              href: mtp/prerequisites.md
+            - name: Безопасность и конфиденциальность данных
+              href: mtp/data-privacy.md
+            - name: Устранение неполадок
+              href: ./mtp/troubleshoot.md
+        - name: Практические руководства
           items:
-            - name: Мониторинг и просмотр отчетов
-              href: ./mtp/monitoring-and-reporting.md
-            - name: Мониторинг удостоверений и создание отчетов
-              href: ./mtp/monitor-and-report-identities.md
-            - name: Мониторинг данных и создание отчетов
-              href: ./mtp/monitor-data.md
-            - name: Мониторинг устройств и создание отчетов
-              href: ./mtp/monitor-devices.md
-            - name: Мониторинг приложений и создание отчетов
-              href: ./mtp/monitor-apps.md
-        - name: Управление билетами с помощью ServiceNow
-          href: ./mtp/tickets.md
+            - name: Включение защиты от угроз Майкрософт
+              href: mtp/mtp-enable.md
+            - name: Регистрацию
+              items:
+                - name: Общие сведения
+                  href: mtp/incidents-overview.md
+                - name: Определение приоритетов инцидентов
+                  href: mtp/incident-queue.md
+                - name: Исследование инцидентов
+                  href: mtp/investigate-incidents.md
+                - name: Управление происшествиями
+                  href: mtp/manage-incidents.md
+            - name: Автоматизированный анализ угроз и реакция на угрозы
+              items:
+                - name: Обзор воздуха
+                  href: mtp/mtp-autoir.md
+                - name: Переход в центр уведомлений
+                  href: mtp/mtp-action-center.md
+                - name: Просмотр результатов воздуха
+                  href: mtp/mtp-autoir-results.md
+                - name: Утверждение или отклонение ожидающих действий
+                  href: mtp/mtp-autoir-actions.md
+            - name: Расширенная охота
+              items:
+                - name: Выслеживание в Microsoft 365
+                  href: mtp/hunting.md
+                - name: Общие сведения о расширенном поиске
+                  href: mtp/advanced-hunting-overview.md
+                - name: Сведения о языке запросов
+                  href: mtp/advanced-hunting-query-language.md
+                - name: Использование общих запросов
+                  href: mtp/advanced-hunting-shared-queries.md
+                - name: Слежение за устройствами и электронными сообщениями
+                  href: mtp/advanced-hunting-query-emails-devices.md
+                - name: Общие сведения о схеме
+                  href: mtp/advanced-hunting-schema-tables.md
+                  items:
+                    - name: мачинеинфо
+                      href: mtp/advanced-hunting-machineinfo-table.md
+                    - name: мачиненетворкинфо
+                      href: mtp/advanced-hunting-machinenetworkinfo-table.md
+                    - name: процесскреатионевентс
+                      href: mtp/advanced-hunting-processcreationevents-table.md
+                    - name: нетворккоммуникатионевентс
+                      href: mtp/advanced-hunting-networkcommunicationevents-table.md
+                    - name: филекреатионевентс
+                      href: mtp/advanced-hunting-filecreationevents-table.md
+                    - name: регистревентс
+                      href: mtp/advanced-hunting-registryevents-table.md
+                    - name: логоневентс
+                      href: mtp/advanced-hunting-logonevents-table.md
+                    - name: имажелоадевентс
+                      href: mtp/advanced-hunting-imageloadevents-table.md
+                    - name: мисцевентс
+                      href: mtp/advanced-hunting-miscevents-table.md
+                    - name: емаилевентс
+                      href: mtp/advanced-hunting-emailevents-table.md
+                    - name: емаилаттачментинфо
+                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
+                    - name: емаилурлинфо
+                      href: mtp/advanced-hunting-emailurlinfo-table.md
+                    - name: девицетвмсекуреконфигуратионассессмент
+                      href: mtp/advanced-hunting-tvm-configassessment-table.md
+                    - name: девицетвмсекуреконфигуратионассессменткб
+                      href: mtp/advanced-hunting-tvm-secureconfigkb-table.md
+                    - name: девицетвмсофтвареинвенторивулнерабилитиес
+                      href: mtp/advanced-hunting-tvm-softwareinventory-table.md
+                    - name: девицетвмсофтваревулнерабилитиескб
+                      href: mtp/advanced-hunting-tvm-softwarevulnerability-table.md
+                - name: Рекомендации по применению запросов
+                  href: mtp/advanced-hunting-best-practices.md
+            - name: Оценка безопасности
+              items:
+                - name: Оценка безопасности
+                  href: mtp/microsoft-secure-score.md
+                - name: Оценка безопасности (предварительная версия)
+                  href: mtp/microsoft-secure-score-preview.md
+            - name: Отчеты
+              items:
+                - name: Мониторинг и просмотр отчетов
+                  href: mtp/monitoring-and-reporting.md
+                - name: Мониторинг удостоверений и создание отчетов
+                  href: mtp/monitor-and-report-identities.md
+                - name: Мониторинг данных и создание отчетов
+                  href: mtp/monitor-data.md
+                - name: Мониторинг устройств и создание отчетов
+                  href: mtp/monitor-devices.md
+                - name: Мониторинг приложений и создание отчетов
+                  href: mtp/monitor-apps.md
+            - name: Параметры & разрешений
+              items:
+                - name: Управление доступом
+                  href: mtp/mtp-permissions.md
+                - name: Настройка часового пояса
+                  href: mtp/mtp-time-zone.md
+            - name: Управление билетами с помощью ServiceNow
+              href: ./mtp/tickets.md
     - name: Безопасность Office 365
       items:
         - name: Начало работы
@@ -72,7 +161,7 @@
             - name: Настройка клиента Office 365 для улучшения безопасности
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: "Новый Центр безопасности Microsoft\_365"
-              href: ./mtp/overview-security-center.md
+              href: ./office-365-security/microsoft-security-and-compliance.md
             - name: Разрешения в Центре безопасности и соответствия требованиям
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: Предоставление пользователям доступа к Центру безопасности

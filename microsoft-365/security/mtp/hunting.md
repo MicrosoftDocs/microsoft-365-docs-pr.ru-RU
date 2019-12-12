@@ -1,32 +1,39 @@
 ---
-title: Поиск вредоносных программ и других угроз в Microsoft 365
-description: Сведения о том, как можно искать скомпрометированные учетные записи, менее опасные вредоносные программы, подозрительные сообщения электронной почты и многое другое.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, поиск, поиск, пакет ATP для защитника, Office 365 ATP, Azure ATP
-ms.prod: w10
+title: Слежение за другими угрозами в Microsoft 365
+description: Использование возможностей поиска угроз в центре безопасности Microsoft 365 для профилактического обнаружения нарушений и других угроз
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр обеспечения безопасности, поиск, поиск, пакет ATP для защитника, Office 365 ATP, Azure ATP, расширенный поиск
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
-ms.author: ellevin
-author: levinec
+ms.author: lomayor
+author: lomayor
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 218c78cd8737c3a963386ae0a58a79824ef1615f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034391"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909433"
 ---
-# <a name="hunt-for-malware-and-other-threats-in-microsoft-365"></a><span data-ttu-id="93777-104">Поиск вредоносных программ и других угроз в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="93777-104">Hunt for malware and other threats in Microsoft 365</span></span>
+# <a name="hunt-for-threats-in-microsoft-365"></a><span data-ttu-id="c94e0-104">Поиск угроз в Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="c94e0-104">Hunt for threats in Microsoft 365</span></span>
 
-<span data-ttu-id="93777-105">Поиск обеспечивает представление среди возможных угроз в Организации по электронной почте и данным, устройствам и удостоверениям.</span><span class="sxs-lookup"><span data-stu-id="93777-105">Hunting provides security teams a view into possible threats in your organization across email and data, devices, and identities.</span></span> <span data-ttu-id="93777-106">На порталах ATP, Office 365 ATP и Azure ATP можно искать скомпрометированные учетные записи, файлы менее вредоносных программ, подозрительные сообщения электронной почты и многое другое.</span><span class="sxs-lookup"><span data-stu-id="93777-106">Within Microsoft Defender ATP, Office 365 ATP, and Azure ATP portals you can look for compromised accounts, file less malware, suspicious emails, and more.</span></span>
+<span data-ttu-id="c94e0-105">С помощью возможностей поиска угроз в центре безопасности Microsoft 365 вы можете в Организации обнаружить угрозы, затрагивающие электронную почту и данные, устройства и удостоверения.</span><span class="sxs-lookup"><span data-stu-id="c94e0-105">With threat hunting capabilities in the Microsoft 365 security center, you can proactively find threats in your organization affecting email and data, devices, and identities.</span></span> <span data-ttu-id="c94e0-106">С экрана \*\*\*\* поискового засистемы можно получить доступ к средствам по поиску угроз, доступным для различных решений:</span><span class="sxs-lookup"><span data-stu-id="c94e0-106">From the **Hunting** screen, you can access threat hunting tools made available by various solutions:</span></span>
+- <span data-ttu-id="c94e0-107">Office 365 ATP: [слежение за угрозами для электронной почты и данных](../office-365-security/office-365-atp.md)</span><span class="sxs-lookup"><span data-stu-id="c94e0-107">Office 365 ATP — [hunt for threats to email and data](../office-365-security/office-365-atp.md)</span></span>
+- <span data-ttu-id="c94e0-108">Пакет ATP для защитника (Майкрософт) — [слежение за угрозами для устройств](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)</span><span class="sxs-lookup"><span data-stu-id="c94e0-108">Microsoft Defender ATP — [hunt for threats to devices](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)</span></span>
+- <span data-ttu-id="c94e0-109">Azure ATP — [слежение за угрозами для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)</span><span class="sxs-lookup"><span data-stu-id="c94e0-109">Azure ATP — [hunt for threats to identities](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)</span></span>
 
-![Страница "Поиск"](../media/security-docs/hunt.png)
+![Страница "Поиск"](../images/hunt.png)
 
-<span data-ttu-id="93777-108">Дополнительные сведения</span><span class="sxs-lookup"><span data-stu-id="93777-108">Learn more:</span></span>
 
-* <span data-ttu-id="93777-109">[Устройства](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) в Advanced Threat Protection в защитнике Microsoft</span><span class="sxs-lookup"><span data-stu-id="93777-109">[Devices](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) in Microsoft Defender Advanced Threat Protection</span></span>
-* <span data-ttu-id="93777-110">[Электронная почта и данные](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) в Office 365 Advanced Threat protection</span><span class="sxs-lookup"><span data-stu-id="93777-110">[Email and data](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) in Office 365 Advanced Threat Protection</span></span>
-* <span data-ttu-id="93777-111">[Удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user) в службе Advanced Threat Protection в Azure</span><span class="sxs-lookup"><span data-stu-id="93777-111">[Identities](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user) in Azure Advanced Threat Protection</span></span>
+## <a name="hunt-with-microsoft-threat-protection"></a><span data-ttu-id="c94e0-111">Слежение за защитой от угроз Майкрософт</span><span class="sxs-lookup"><span data-stu-id="c94e0-111">Hunt with Microsoft Threat Protection</span></span>
+
+<span data-ttu-id="c94e0-112">[Включите защиту от угроз Майкрософт](mtp-enable.md) , чтобы получить расширенный интерфейс запросов поиска непосредственно в центре безопасности Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="c94e0-112">[Turn on Microsoft Threat Protection](mtp-enable.md) to get the advanced hunting query interface directly in the Microsoft 365 security center.</span></span> <span data-ttu-id="c94e0-113">С помощью [расширенного](advanced-hunting-overview.md)поиска вы можете создавать отдельные запросы, которые проверяют данные из пакета ATP для защитника Майкрософт, покрывающие данные с подключенных устройств и Office 365 ATP, предоставляя данные из электронных писем.</span><span class="sxs-lookup"><span data-stu-id="c94e0-113">With [advanced hunting](advanced-hunting-overview.md), you can create single queries that look into data from both Microsoft Defender ATP, covering data from onboarded devices, and Office 365 ATP, providing data from emails.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="c94e0-114">Похожие темы</span><span class="sxs-lookup"><span data-stu-id="c94e0-114">Related topics</span></span>
+- [<span data-ttu-id="c94e0-115">Общие сведения о расширенном поиске</span><span class="sxs-lookup"><span data-stu-id="c94e0-115">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="c94e0-116">Общие сведения о защите от угроз Майкрософт</span><span class="sxs-lookup"><span data-stu-id="c94e0-116">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
+- [<span data-ttu-id="c94e0-117">Включение защиты от угроз Майкрософт</span><span class="sxs-lookup"><span data-stu-id="c94e0-117">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
