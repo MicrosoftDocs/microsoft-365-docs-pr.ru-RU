@@ -15,12 +15,12 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Когда вы настраиваете политики безопасных вложений ATP, вы выбираете динамическое предоставление, чтобы избежать задержки сообщений и разрешить пользователям просматривать сканируемые вложения.
-ms.openlocfilehash: 203f5082701f1f3eeea36b385918328cb85deb81
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3cf914325b493098f61c84f27c102dd64fd7d8e9
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090131"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970785"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>Динамическая Доставка и предварительный просмотр с безопасными вложениями Office 365 ATP
 
@@ -45,7 +45,7 @@ ms.locfileid: "37090131"
 
 При динамической доставке люди могут читать и отвечать на сообщения электронной почты сразу же, пока их вложения анализируются. 
 
-Проверка безопасных вложений ATP выполняется в том же регионе, в котором хранятся данные Office 365. Для получения дополнительных сведений о географическом отношении центра обработки данных Узнайте, [где находятся ваши данные?](https://products.office.com/where-is-your-data-located?geo=All) 
+Проверка безопасных вложений ATP выполняется в том же регионе, в котором хранятся данные Office 365. Для получения дополнительных сведений о географическом отношении центра обработки данных Узнайте, [где находятся ваши данные?](https://products.office.com/where-is-your-data-located?geo=All)
   
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>Что происходит, когда кто-то пересылает сообщение электронной почты, которое содержит вложение?
 

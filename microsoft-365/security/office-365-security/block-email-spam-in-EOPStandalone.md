@@ -16,12 +16,12 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: Документ для администраторов изолированной службы EOP по предотвращению ложных отрицательных результатов для спама
-ms.openlocfilehash: cc0237ddc127c9818ae9cf4916187485e4d1dee7
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 1c82bd65906f79898677136e02fd619bbe4c5214
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871955"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971907"
 ---
 # <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Параметры для настройки фильтра нежелательной почты Office 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "39871955"
 
 Настройте фильтр нежелательной почты Office 365, добавив IP-адрес отправителя в список заблокированных IP-адресов фильтра подключений.
 
-1. Получите заголовки сообщения, которое требуется блокировать в почтовом клиенте, например Outlook или Outlook в Интернете (ранее называвшемся Outlook Web App), как описано в статье [Приложение Message Header Analyzer](https://go.microsoft.com/fwlink/p/?LinkId=306583).
+1. Получите заголовки сообщения, которое требуется блокировать в почтовом клиенте, например Outlook или Outlook в Интернете (прежнее название — Outlook Web App), как описано в статье [Просмотр заголовков сообщений Интернета в Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 
 2. Найдите IP-адрес после тега CIP в заголовке X-Forefront-Antispam-Report с помощью [анализатора заголовков сообщений](https://testconnectivity.microsoft.com/?tabid=mha) или вручную.
 
@@ -49,7 +49,7 @@ ms.locfileid: "39871955"
 
 ## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>Пользователи электронной почты также могут обеспечить блокирование ошибочно разрешенных нежелательных сообщений с помощью фильтра нежелательной почты Office 365
 
-Обеспечить защиту от спама в Office 365, избегая ложных отрицательных результатов, будет проще, если пользователи добавят адрес отправителя спама в свои списки заблокированных отправителей в [Outlook](https://go.microsoft.com/fwlink/p/?LinkId=270065) или [Outlook в Интернете](https://go.microsoft.com/fwlink/p/?LinkId=294862). В Outlook в Интернете сначала выберите **Параметры** \> **Параметры** \> **Блокировка или разрешение**, а затем добавьте адрес в список **Заблокированные отправители**, как показано ниже.
+Обеспечить защиту от спама в Office 365, избегая ложных отрицательных результатов, будет проще, если пользователи добавят адрес отправителя спама в свои списки заблокированных отправителей в [Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) или [Outlook в Интернете](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d). В Outlook в Интернете сначала выберите **Параметры** \> **Параметры** \> **Блокировка или разрешение**, а затем добавьте адрес в список **Заблокированные отправители**, как показано ниже.
 
 ![Блокировка отправителя в Outlook в Интернете](../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
 

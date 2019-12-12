@@ -15,17 +15,17 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Определите политики безопасных вложений, чтобы защитить организацию от вредоносных файлов в электронной почте.
-ms.openlocfilehash: 0c81c8323db417d6e462812efe8686389139e915
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 65552e990eb5e12d2a624eea1e1bdbb74454b44f
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866641"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971427"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик безопасных вложений Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения об безопасных вложениях в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения об безопасных вложениях в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 Пользователи регулярно отправляют, получают и совместно используют вложения, такие как документы, презентации, электронные таблицы и многое другое. Не всегда просто определить, является ли вложение безопасным или вредоносным, просто взглянув на сообщение электронной почты. Последнее, что вы хотите сделать, — это вредоносное вложение, которое поможет вреакинг в Организации. К счастью, [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) может помочь. Политики [безопасных вложений ATP](atp-safe-attachments.md) можно настроить, чтобы обеспечить защиту Организации от атак небезопасных вложений электронной почты. 
   

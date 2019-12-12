@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: В Microsoft Exchange Online Protection (EOP) доступно множество различных отчетов, с помощью которых вы сможете определить общее состояние и работоспособность вашей организации. Существуют также средства, позволяющие устранять неполадки с определенными событиями (например, если сообщение не приходит указанным получателям), а также отчеты аудита для целей соответствия требованиями. В следующей таблице описаны отчеты и средства устранения неполадок, доступные администраторам EOP.
-ms.openlocfilehash: 81b4ce3d22fbf33dc2f22a4b0a73a3459b1874ee
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 251286fca4ed54b87809c46e6e0f47ea618df747
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441416"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971516"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Отчеты и трассировка сообщений в Exchange Online Protection
 
@@ -31,15 +31,15 @@ ms.locfileid: "37441416"
 
 **Использование почтового ящика**: Просмотр сведений об используемых хранилищах, потреблении квот, количестве элементов и последних действиях для почтовых ящиков.
 
-Дополнительные сведения можно найти в следующих ресурсах:
+Дополнительные сведения можно найти в следующих материалах:
 
-- [Отчеты об Office 365 в центре администрирования — группы Office 365](https://go.microsoft.com/fwlink/p/?linkid=861610)
+- [Отчеты об Office 365 в центре администрирования — группы Office 365](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
-- [Отчеты об Office 365 в центре администрирования — действие электронной почты](https://go.microsoft.com/fwlink/p/?linkid=859706)
+- [Отчеты об Office 365 в центре администрирования — действие электронной почты](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
 
-- [Отчеты Office 365 в центре администрирования — использование почтовых приложений](https://go.microsoft.com/fwlink/p/?linkid=859707)
+- [Отчеты Office 365 в центре администрирования — использование почтовых приложений](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
 
-- [Отчеты Office 365 в центре администрирования — использование почтовых ящиков](https://go.microsoft.com/fwlink/p/?linkid=859708)
+- [Отчеты Office 365 в центре администрирования — использование почтовых ящиков](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Отчеты о соответствии & безопасности в центре администрирования Microsoft 365
 
@@ -49,17 +49,15 @@ ms.locfileid: "37441416"
 
 **EOP**: Просмотр сведений об обнаружении вредоносных программ, поддельной почте, обнаружении нежелательной почты и потоки обработки почты в Организации и из нее.
 
-[Просмотр отчетов по расширенной защите от угроз и Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=852409)
+[Просмотр отчетов для Office 365 Advanced Threat protection](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Настраиваемые отчеты с помощью Microsoft Graph
 
-Программное создание отчетов, доступных в центре администрирования Майкрософт 365, с помощью Microsoft Graph Просмотр подразделов [о работе с отчетами об использовании Office 365 в Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=865135)
+Программное создание отчетов, доступных в центре администрирования Microsoft 365, с помощью Microsoft Graph. [В разделе Работа с отчетами об использовании Office 365 в Microsoft Graph](https://docs.microsoft.com/graph/api/resources/report).
 
-## <a name="custom-reports-using-reporting-web-services"></a>Настраиваемые отчеты с помощью веб-служб отчетов
+## <a name="custom-reports-using-microsoft-graph"></a>Настраиваемые отчеты с помощью Microsoft Graph
 
-Программное создание отчетов из доступных командлетов отчетов Exchange Online Protection PowerShell с помощью фильтрации запросов REST/ODATA2.
-
-Просмотр [веб-служб отчетов Office 365](https://go.microsoft.com/fwlink/p/?LinkId=279926)
+Создание отчетов программным способом. Ознакомьтесь [со статьей Обзор Microsoft Graph](https://docs.microsoft.com/graph/overview).
 
 ## <a name="message-trace"></a>Трассировка сообщений
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователям необходимо назначить разрешения в центре безопасности & безопасности Office 365, прежде чем они смогут управлять любыми функциями обеспечения безопасности и соответствия требованиям.
-ms.openlocfilehash: 5f9688662714a4a33f2c6e3483cf902e0f61def9
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 698a319b4297a00e0c248df495b7013fa3ae3542
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305953"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970445"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "37305953"
 
 Для получения дополнительных сведений о различных разрешениях, которые вы можете предоставить пользователям в центре безопасности & соответствия требованиям, изучите [разрешения в центре обеспечения безопасности & Office 365](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
 
 - Для выполнения действий, описанных в данной статье, необходимо быть глобальным администратором Office 365 или членом группы ролей Организатионманажемент в центре безопасности & соответствия требованиям.
 
@@ -41,7 +41,7 @@ ms.locfileid: "37305953"
 
 ## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>Использование центра администрирования для предоставления другому пользователю доступа к центру безопасности & соответствия требованиям
 
-1. [Войдите в Office 365 и перейдите в центр администрирования](https://go.microsoft.com/fwlink/p/?LinkId=525275).
+1. [Войдите в Office 365 и перейдите в центр администрирования](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).
 
 2. В центре администрирования Microsoft 365 откройте **центр администрирования** и выберите **Безопасность & соответствия требованиям**.
 
@@ -65,7 +65,7 @@ ms.locfileid: "37305953"
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Предоставление другому пользователю доступа к центру безопасности & соответствия требованиям с помощью PowerShell
 
-1. [Подключение к PowerShell центра безопасности & центра соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Подключитесь к PowerShell для Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Воспользуйтесь командой **Add-RoleGroupMember**, чтобы добавить пользователя в группу ролей Organization Management (Управление организацией), как показано в следующем примере.
 
@@ -79,9 +79,9 @@ ms.locfileid: "37305953"
 
    - _Member_ является почтовым ящиком, универсальной группой безопасности (универсальную группу безопасности) или компьютером, который требуется добавить в группу ролей. За один раз можно добавить только одного участника.
 
-Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510859).
+Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember).
 
-### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 
 Чтобы убедиться, что у пользователей есть доступ к центру безопасности & соответствия требованиям, используйте командлет **Get – RoleGroupMember** для просмотра членов в группе ролей Управление организацией, как показано в следующем примере.
 
@@ -89,4 +89,4 @@ ms.locfileid: "37305953"
 Get-RoleGroupMember -Identity "Organization Management"
 ```
 
-Подробную информацию о синтаксисе и параметрах можно найти в статье [Get – RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510860).
+Подробную информацию о синтаксисе и параметрах можно найти в статье [Get – RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroupMember).

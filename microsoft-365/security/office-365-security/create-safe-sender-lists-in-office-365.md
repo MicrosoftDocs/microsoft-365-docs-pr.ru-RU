@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: Если вы хотите, чтобы вы получили почту от определенного отправителя, так как доверяете им и их сообщениям, вы можете настроить список разрешений в политике фильтрации нежелательной почты в центре администрирования Exchange.
-ms.openlocfilehash: f4ece6f7528b301ed7046df84ca18915d833dbbf
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 1e804e73b8e2b98107c955004bac240793375ab9
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793683"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970855"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Создание списков надежных отправителей в Office 365
 
@@ -74,7 +74,7 @@ ms.locfileid: "38793683"
 
 ## <a name="use-outlook-safe-senders-end-user-managed"></a>Использование надежных отправителей Outlook (с управлением конечными пользователями)
 
-Вместо того чтобы разрешать отправку адреса, домена или IP-адреса глобально, конечные пользователи также могут разрешить отправку адресов с помощью надежных отправителей Outlook. Действия, которые необходимо выполнить, отличаются между [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) и [клиентом Outlook](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Если сообщения успешно авторизованы из-за надежных отправителей, вы увидите SFV: сфе в X-Forefront-защиты от спама-Report** , что означает, что фильтрация нежелательной почты/подделки/фишинга будет обходиться.
+Вместо того чтобы разрешать отправку адреса, домена или IP-адреса глобально, конечные пользователи также могут разрешить отправку адресов с помощью надежных отправителей Outlook. Действия по заданию отличаются в [Outlook в Интернете](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46) и на [клиенте Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Если сообщения успешно авторизованы из-за надежных отправителей, вы увидите SFV: сфе в X-Forefront-защиты от спама-Report** , что означает, что фильтрация нежелательной почты/подделки/фишинга будет обходиться.
 
 ## <a name="use-anti-spam-policy-ip-allow-lists"></a>Использование списков разрешенных IP-адресов политики защиты от нежелательной почты
 

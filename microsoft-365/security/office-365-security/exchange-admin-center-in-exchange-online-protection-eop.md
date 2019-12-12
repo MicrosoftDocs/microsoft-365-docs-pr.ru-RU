@@ -14,12 +14,12 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: "Центр администрирования Exchange \x97 это веб-консоль управления для Microsoft Exchange Online Protection."
-ms.openlocfilehash: 6ef800b9f440f67d45f3eaa08b4731989fcf2652
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 58f339e2ebbb566b8656eed68453841ca011a72f
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871865"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970555"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Центр администрирования Exchange в Exchange Online Protection
 
@@ -96,7 +96,7 @@ ms.locfileid: "39871865"
 
 ## <a name="supported-browsers"></a>Поддерживаемые веб-браузеры
 
-Чтобы работа с Центром администрирования Exchange (EAC) была максимально продуктивной, рекомендуется всегда использовать только последние версии браузеров, клиентов Office и приложений. Мы также рекомендуем устанавливать обновления по мере их доступности. Для получения дополнительных сведений о поддерживаемых браузерах и системных требованиях для службы см. раздел [Требования к системе для Office 365](https://go.microsoft.com/fwlink/p/?LinkID=402699).
+Для оптимальной работы с центром администрирования Exchange рекомендуется всегда использовать новейшие браузеры, клиенты Office и приложения. We also recommend that you install software updates when they become available. Дополнительные сведения о поддерживаемых браузерах и требованиях к системе для службы приведены в разделе [требования к системе для Office](https://products.office.com/office-system-requirements).
 
 ## <a name="supported-languages-in-eop"></a>Поддерживаемые в EOP языки
 

@@ -14,17 +14,17 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Получите обзор страниц предупреждений, которые могут отображаться при работе с Office 365 Advanced Threat protection.
-ms.openlocfilehash: 50f72c02596c317e3b5090b00382c6caef6ff746
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2c14947f9d9b988eb4f5086500da0d4455f50a43
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090511"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970955"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Страницы предупреждений для безопасных ссылок на Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для корпоративных клиентов, у которых есть [Office 365 Advanced Threat protection](office-365-atp.md). Если вы используете Outlook.com, Office 365 Home или Office 365 Personal, а вы ищете сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы используете Outlook.com, Office 365 для дома или Office 365 персональный и ищете сведения о функции "Безопасные ссылки" в Outlook, см. статью [Улучшенная безопасность Outlook.com](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) помогает защитить организацию от фишинговых атак и вредоносных программ с помощью функций, таких как [безопасные ссылки ATP](atp-safe-links.md), [безопасные вложения ATP](atp-safe-attachments.md)и [Защита от фишинга](anti-phishing-protection.md). При наличии защиты проверяются ссылки (URL-адреса) в сообщениях электронной почты и документах Office. Если URL-адрес определен как подозрительный или вредоносный, при щелчке этого URL-адреса может быть заблокировано открытие этого URL-адреса. Вместо того чтобы переходить непосредственно на сайт, может отображаться страница предупреждения. 
   

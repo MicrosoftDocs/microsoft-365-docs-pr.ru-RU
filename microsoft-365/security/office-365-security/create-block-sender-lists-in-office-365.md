@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: Параметр Блокировать список отправителей содержит списки заблокированных отправителей, отправители нежелательной почты и блокировки доменов, списки заблокированных IP-адресов и правила транспорта Exchange (ETR), также называемые правилами для обработки почты.
-ms.openlocfilehash: 27e0a1881c50031f180192b6bc02f3d606e7b76c
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: f4fab732a92df2a2500212c9825d2b3e710b0a07
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793713"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970895"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Создание списков заблокированных отправителей в Office 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "38793713"
 > [!IMPORTANT]
 > Если нежелательные сообщения представляют собой бюллетени из надежных и распознаваемых источников, то отмена подписки на электронную почту является еще одним вариантом прекращения работы пользователя с сообщениями в будущем.
 
-Действия, которые необходимо выполнить, отличаются в [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) и [клиенте Outlook](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089). **Когда сообщения успешно блокируются из-за заблокированных отправителей, вы увидите SFV: БЛК в X-Forefront-защиты от спама-Report** , который указывает на то, что сообщение блокируется.
+Действия по настройке этого [приложения в Outlook в Интернете](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46) и на [клиенте Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)отличаются. **Когда сообщения успешно блокируются из-за заблокированных отправителей, вы увидите SFV: БЛК в X-Forefront-защиты от спама-Report** , который указывает на то, что сообщение блокируется.
 
 ## <a name="use-anti-spam-policy-senderdomain-block-lists"></a>Использование списков политик защиты от нежелательной почты для списков отправителей и доменов
 
