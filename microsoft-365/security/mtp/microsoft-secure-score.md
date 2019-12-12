@@ -2,7 +2,7 @@
 title: Оценка безопасности (Майкрософт)
 description: В этой статье описывается оценка безопасности Майкрософт в центре безопасности Майкрософт 365, вычисление сведений и возможные Администраторы безопасности.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, Оценка безопасности, центр безопасности, действия по улучшению
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bfb2a191305128e4e2d5f3a624d73c858ece79bc
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: 943c32aa535a319829bd93bde190a5fead12ef08
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676816"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910518"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 

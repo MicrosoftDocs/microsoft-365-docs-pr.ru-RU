@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 952fac18db8ecc31fcd041dbfdf45e6ee8edee75
-ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
+ms.openlocfilehash: a1dbb5708cad32a0e37ddc25c97c70a765580f86
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37577765"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962526"
 ---
 # <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
@@ -89,7 +89,7 @@ ms.locfileid: "37577765"
 
 На [портале Azure](https://aka.ms/mmdportal)с настольным управлением Microsoft выберите **устройства** в левой области навигации. Выберите **+ Регистрация устройств**; Откроется вспомогательная надстройка:
 
-[![Вылет после выбора параметра Регистрация устройств](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
+[![Вскрывающийся после выбора параметра Регистрация устройств, перечисление устройств со столбцами для назначенных пользователей, серийного номера, состояния, даты последнего рассмотрения и срока хранения](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
 
 
 [//]: # (К сожалению, это не так. Мы можем удалить эту заметку, но оставив ее сейчас, пока не сможете поговорить с этой заметкой.)
@@ -97,7 +97,7 @@ ms.locfileid: "37577765"
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-Выполните следующие действия:
+Выполните приведенные ниже действия.
 
 1. В поле **Отправка файла**укажите путь к созданному ранее CSV-файлу.
 2. При необходимости вы можете добавить **идентификатор заказа** или **идентификатор покупки** для собственных целей отслеживания. Для этих значений не предусмотрены требования к формату.

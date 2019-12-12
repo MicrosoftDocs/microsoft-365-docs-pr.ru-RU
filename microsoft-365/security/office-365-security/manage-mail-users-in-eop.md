@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: "Определение почтовых пользователей \x97 важный этап управления службой Exchange Online Protection (EOP)."
-ms.openlocfilehash: 065fdae30dea49220c10fd455b7ac346e70c18de
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 2871ec73a06a092aa5cfdab0d9648d8cc5311460
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871775"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971747"
 ---
 # <a name="manage-mail-users-in-eop"></a>Управление почтовыми пользователями в EOP
 
@@ -63,13 +63,13 @@ ms.locfileid: "39871775"
 
   - **Карантин нежелательной почты конечного пользователя**: чтобы получить доступ к карантину нежелательной почты конечного пользователя, конечные пользователи должны иметь действительный идентификатор пользователя и пароль Office 365. EOP клиенты, защищающие локальные почтовые ящики, должны быть действительными пользователями электронной почты.
 
-  - **Правила для почтового процесса**: при использовании синхронизации службы каталогов существующие пользователи и группы Active Directory автоматически отправляются в облако, а затем можно создавать правила для поток обработки почты (также называемые правилами транспорта), предназначенные для определенных пользователей и/или групп, не добавляя их вручную через центр администрирования Exchange или Exchange Online Protection PowerShell. Обратите внимание на то, что [динамические группы рассылки](https://go.microsoft.com/fwlink/?LinkId=507569) невозможно синхронизировать через синхронизацию службы каталогов.
+  - **Правила для почтового процесса**: при использовании синхронизации службы каталогов существующие пользователи и группы Active Directory автоматически отправляются в облако, а затем можно создавать правила для поток обработки почты (также называемые правилами транспорта), предназначенные для определенных пользователей и/или групп, не добавляя их вручную через центр администрирования Exchange или Exchange Online Protection PowerShell. Обратите внимание на то, что [динамические группы рассылки](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) невозможно синхронизировать через синхронизацию службы каталогов.
 
-Получите необходимые разрешения и подготовьтесь к синхронизации службы каталогов, как описано в статье [Подготовка к синхронизации службы каталогов](https://go.microsoft.com/fwlink/p/?LinkId=308908).
+Получите необходимые разрешения и подготовьтесь к синхронизации службы каталогов, как описано в разделе [что такое Гибридная идентификация с Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 ### <a name="to-synchronize-user-directories-with-azure-active-directory-connect-aad-connect"></a>Синхронизация каталогов пользователей с помощью Azure Active Directory Connect (AAD Connect)
 
-Чтобы синхронизировать пользователей с Azure Active Directory (AAD), необходимо сначала **активировать синхронизацию службы каталогов**, как описано в разделе [Активация синхронизации службы каталогов](https://go.microsoft.com/fwlink/p/?LinkId=308909).
+Чтобы синхронизировать пользователей с Azure Active Directory (AAD), необходимо сначала **активировать синхронизацию службы каталогов**, как описано в статье [Azure AD Connect Sync: сведения и Настройка синхронизации](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis).
 
 Далее это установка и настройка локального компьютера для запуска AAD Connect (если у вас еще нет еще одной проверки времени). При [настройке AAD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express) вы узнаете о том, как настроить и синхронизировать учетные записи из локальной среды в Azure AD с помощью AAD Connect.
 

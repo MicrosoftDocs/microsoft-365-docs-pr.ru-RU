@@ -1,32 +1,39 @@
 ---
-title: Поиск вредоносных программ и других угроз в Microsoft 365
-description: Сведения о том, как можно искать скомпрометированные учетные записи, менее опасные вредоносные программы, подозрительные сообщения электронной почты и многое другое.
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, поиск, поиск, пакет ATP для защитника, Office 365 ATP, Azure ATP
-ms.prod: w10
+title: Слежение за другими угрозами в Microsoft 365
+description: Использование возможностей поиска угроз в центре безопасности Microsoft 365 для профилактического обнаружения нарушений и других угроз
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр обеспечения безопасности, поиск, поиск, пакет ATP для защитника, Office 365 ATP, Azure ATP, расширенный поиск
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
-ms.author: ellevin
-author: levinec
+ms.author: lomayor
+author: lomayor
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 218c78cd8737c3a963386ae0a58a79824ef1615f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034391"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909433"
 ---
-# <a name="hunt-for-malware-and-other-threats-in-microsoft-365"></a>Поиск вредоносных программ и других угроз в Microsoft 365
+# <a name="hunt-for-threats-in-microsoft-365"></a>Поиск угроз в Microsoft 365
 
-Поиск обеспечивает представление среди возможных угроз в Организации по электронной почте и данным, устройствам и удостоверениям. На порталах ATP, Office 365 ATP и Azure ATP можно искать скомпрометированные учетные записи, файлы менее вредоносных программ, подозрительные сообщения электронной почты и многое другое.
+С помощью возможностей поиска угроз в центре безопасности Microsoft 365 вы можете в Организации обнаружить угрозы, затрагивающие электронную почту и данные, устройства и удостоверения. С экрана **** поискового засистемы можно получить доступ к средствам по поиску угроз, доступным для различных решений:
+- Office 365 ATP: [слежение за угрозами для электронной почты и данных](../office-365-security/office-365-atp.md)
+- Пакет ATP для защитника (Майкрософт) — [слежение за угрозами для устройств](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
+- Azure ATP — [слежение за угрозами для удостоверений](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)
 
-![Страница "Поиск"](../media/security-docs/hunt.png)
+![Страница "Поиск"](../images/hunt.png)
 
-Дополнительные сведения
 
-* [Устройства](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) в Advanced Threat Protection в защитнике Microsoft
-* [Электронная почта и данные](https://docs.microsoft.com/office365/securitycompliance/office-365-atp) в Office 365 Advanced Threat protection
-* [Удостоверения](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user) в службе Advanced Threat Protection в Azure
+## <a name="hunt-with-microsoft-threat-protection"></a>Слежение за защитой от угроз Майкрософт
+
+[Включите защиту от угроз Майкрософт](mtp-enable.md) , чтобы получить расширенный интерфейс запросов поиска непосредственно в центре безопасности Microsoft 365. С помощью [расширенного](advanced-hunting-overview.md)поиска вы можете создавать отдельные запросы, которые проверяют данные из пакета ATP для защитника Майкрософт, покрывающие данные с подключенных устройств и Office 365 ATP, предоставляя данные из электронных писем.
+
+## <a name="related-topics"></a>Похожие темы
+- [Общие сведения о расширенном поиске](advanced-hunting-overview.md)
+- [Общие сведения о защите от угроз Майкрософт](microsoft-threat-protection.md)
+- [Включение защиты от угроз Майкрософт](mtp-enable.md)

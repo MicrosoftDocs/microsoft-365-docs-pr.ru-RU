@@ -15,17 +15,17 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Настройка политик безопасных ссылок для защиты Организации от вредоносных ссылок в файлах Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты.
-ms.openlocfilehash: 09a9a47610915244ade77e1410024d7f055e390f
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 29e0c8d485d89498fe952d29d8b68f808c4aaaf3
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866621"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970135"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик безопасных ссылок на Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 [Безопасные ссылки ATP](atp-safe-links.md)— функция [Office 365 Advanced Threat protection](office-365-atp.md) (ATP), позволяющая защитить организацию от вредоносных ссылок, используемых в фишинге и других атаках. Если у вас есть необходимые [разрешения для центра безопасности &amp; Office 365](permissions-in-the-security-and-compliance-center.md), можно настроить политики безопасных ссылок ATP, чтобы убедиться, что когда пользователи щелкают веб-адреса (URL-адреса), ваша организация будет защищена. Политики безопасных ссылок ATP можно настроить для сканирования URL-адресов в электронных письмах и URL-адресах в документах Office.
   

@@ -6,19 +6,19 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8ecc117b2bc6e7cec3dcf0470a6d3c61ad34adf0
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 1f642d2790af5f4ec83dd1bbe57a9be249d095d1
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634036"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962336"
 ---
 # <a name="reliability-insights"></a>Аналитика надежности
 
 В этом представлении вы найдете сведения о работоспособности управляемых устройств. Чтобы просмотреть данные о надежности, перейдите на вкладку **надежность** .
 
 
-![Область надежности](images/insights_reliability.png)
+![Область стабильности: надежность на устройствах в левом верхнем углу, надежность с графиком времени в верхнем правом углу таблица "основные проблемы" в нижней части. Кнопки справки и отзывов в правом нижнем углу.](images/insights_reliability.png)
 
 В разделе " **надежность на устройствах** " представлено краткое описание развертывания за последние 14 дней с учетом процента устройств, которые считаются работоспособными, и среднее время, прошедшее с момента последней ошибки в отчете. 
 

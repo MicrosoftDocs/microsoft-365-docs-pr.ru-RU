@@ -1,8 +1,8 @@
 ---
-title: Мониторинг приложений и отчеты в центре безопасности Microsoft 365
+title: Мониторинг приложений и создание отчетов в центре безопасности Майкрософт 365
 description: В этой статье описывается, как можно получить более подробные сведения об использовании облачных приложений в Организации.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, приложения
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -12,22 +12,22 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 29dd1f4ebb8d65bb6079cdc4467f1aa5e33ae906
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8688088508f57fca1ba62dd41c28cd204df5c05e
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091556"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910306"
 ---
-# <a name="app-monitoring-and-reporting-in-microsoft-365-security-center"></a>Мониторинг приложений и отчеты в центре безопасности Microsoft 365
+# <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг приложений и создание отчетов в центре безопасности Майкрософт 365
 
 Эти отчеты позволяют получить более подробные сведения о том, как облачные приложения используются в Организации, в том числе типы приложений, их уровень риска и оповещения.
 
-## <a name="monitor-email-accounts-at-risk"></a>Отслеживание учетных записей электронной почты под угрозой
+## <a name="monitor-email-accounts-at-risk"></a>отслеживание учетных записей электронной почты, подверженных риску;
 
 **Защита электронной почты** показывает, что учетные записи электронной почты подвержены риску. Вы можете выбрать учетную запись для дальнейшего изучения в центре безопасности защитника Майкрософт.
 
-![Карта защиты электронной почты](../media/security-docs/email-protection.png)
+![Карта защиты электронной почты](../images/email-protection.png)
 
 ## <a name="monitor-app-permissions-granted-by-users"></a>Отслеживание разрешений на доступ к приложениям, предоставленных пользователями
 
@@ -35,25 +35,25 @@ ms.locfileid: "37091556"
 
 Факторы риска начинаются с общей информации, например издателя приложения, в меры безопасности и элементы управления, например, поддерживает ли приложение шифрование на REST или предоставляет журнал аудита действий пользователя.
 
-![Карточка приложений OAuth Cloud App Security](../media/security-docs/cloud-app-security-oauth-apps.png)
+![Карточка приложений OAuth Cloud App Security](../images/cloud-app-security-oauth-apps.png)
 
 ## <a name="monitor-cloud-app-user-accounts"></a>Отслеживание учетных записей пользователей облачного приложения
 
 **Учетные записи облачных приложений для** учетных записей списков проверки, которые могут потребовать внимания.
 
-![Карточка облачных учетных записей приложений для пересмотра](../media/security-docs/cloud-app-accounts-for-review.png)
+![Карточка облачных учетных записей приложений для пересмотра](../images/cloud-app-accounts-for-review.png)
 
 ## <a name="understand-which-cloud-apps-are-used"></a>Сведения о том, какие облачные приложения используются
 
 **Обнаруженные облачные приложения (категории)** показывают, какие типы приложений используются в вашей организации, и ссылки на панель мониторинга облачного обнаружения в Cloud App Security. Более подробную информацию можно найти [в разделе Краткое руководство: Working with обнаруженным приложениям](https://docs.microsoft.com/cloud-app-security/discovered-apps).  
 
-![Карточка с обнаруженными категориями облачных приложений](../media/security-docs/discovered-cloud-apps-categories.png)
+![Карточка с обнаруженными категориями облачных приложений](../images/discovered-cloud-apps-categories.png)
 
 ## <a name="monitor-where-users-access-cloud-apps"></a>Отслеживание пользователей, обращающихся к облачным приложениям
 
 **Расположения облачных действий приложения** показывают, где у пользователей есть доступ к облачным приложениям.
 
-![Карточка "расположение действий облачного приложения"](../media/security-docs/cloud-app-activity-locations.png)
+![Карточка "расположение действий облачного приложения"](../images/cloud-app-activity-locations.png)
 
 ## <a name="monitor-health-for-infrastructure-workloads"></a>Отслеживание работоспособности для рабочих нагрузок инфраструктуры
 
@@ -63,4 +63,4 @@ ms.locfileid: "37091556"
 
 Для получения дополнительных сведений обратитесь [к документации центра безопасности Azure](https://docs.microsoft.com/azure/security-center/).
 
-![Карта работоспособности инфраструктуры](../media/security-docs/infrastructure-health.png)
+![Карта работоспособности инфраструктуры](../images/infrastructure-health.png)

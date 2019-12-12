@@ -10,19 +10,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: В этом разделе объясняется, как настроить Microsoft Exchange Online Protection (EOP). Если вы приступите отсюда в мастере доменов Office 365, вернитесь к мастеру доменов Office 365, если вы не хотите использовать Exchange Online Protection. Если вы ищете дополнительные сведения о настройке соединителей, обратитесь к разделу Настройка обработки почты с помощью соединителей в Office 365.
-ms.openlocfilehash: 189c3bb08609eb2604e77b5140e866711e8f1a09
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 4cd7d6e82c07d0b5a942427c947181b2d4e80c37
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032004"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970115"
 ---
 # <a name="set-up-your-eop-service"></a>Настройка службы EOP
 
 В этом разделе описывается настройка службы Microsoft Exchange Online Protection (EOP). Если вы перешли сюда из мастера доменов Office 365 и не хотите использовать Exchange Online Protection, вернитесь в мастер доменов Office 365. Дополнительные сведения о настройке соединителей см. в разделе [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
 > [!NOTE]
-> В этом разделе предполагается, что у вас есть локальные почтовые ящики, и вы хотите защитить их с помощью EOP, который называется автономным сценарием. Если вы хотите разместить все почтовые ящики в облаке с помощью Exchange Online, вам не нужно выполнять все действия, описанные в этом разделе. Перейдите в [Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=286312) , чтобы зарегистрироваться и приобрести облачные почтовые ящики. Если вы хотите разместить некоторые почтовые ящики в локальной среде, а некоторые — в облаке, это называется гибридным сценарием. Для этого требуются расширенные параметры почтовых ящиков. [Гибридные развертывания Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) объясняют гибридный процесс обработки почты и ссылки на ресурсы, показывающие, как настроить его.
+> В этом разделе предполагается, что у вас есть локальные почтовые ящики, и вы хотите защитить их с помощью EOP, который называется автономным сценарием. Если вы хотите разместить все почтовые ящики в облаке с помощью Exchange Online, вам не нужно выполнять все действия, описанные в этом разделе. Перейдите к разделу [Сравнение планов Exchange Online](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) , чтобы зарегистрироваться и приобрести облачные почтовые ящики. Если вы хотите разместить некоторые почтовые ящики в локальной среде, а некоторые — в облаке, это называется гибридным сценарием. Для этого требуются расширенные параметры почтовых ящиков. [Гибридные развертывания Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid) объясняют гибридный процесс обработки почты и ссылки на ресурсы, показывающие, как настроить его.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -30,7 +30,7 @@ ms.locfileid: "38032004"
 
 - Чтобы вы могли настраивать соединители, у вашей учетной записи должны быть права глобального администратора Office 365 или администратора организации Exchange (группа ролей "Управление организацией"). Дополнительные сведения см. [в разделе разрешения функций в EOP](feature-permissions-in-eop.md).
 
-- Если вы не подписаны на EOP, посетите [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?LinkId=282660) и приобретите службу или получите ее пробную версию.
+- Если вы не подписаны на EOP, посетите [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection) и приобретите службу или получите ее пробную версию.
 
 - Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
@@ -39,7 +39,7 @@ ms.locfileid: "38032004"
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Шаг 1: использование центра администрирования Microsoft 365 для добавления и проверки домена
 
-1. В [центре администрирования Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=521888)перейдите к разделу **Настройка** , чтобы добавить свой домен в службу.
+1. В [центре администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center)перейдите к разделу **Настройка** , чтобы добавить свой домен в службу.
 
 2. Выполните указанные ниже действия, чтобы добавить применимые записи DNS на сайте поставщика услуг размещения DNS для подтверждения прав владельца домена.
 

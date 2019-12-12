@@ -14,18 +14,18 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange.
-ms.openlocfilehash: e60c0ae87f050b6e72e53b6069a61cd52df0641a
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 7d7288b85660c5569c748a3cb24a1d3cd027b72d
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871845"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971757"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>Поиск и освобождение сообщений на карантине для администратора
 
 В этой статье описывается, как администраторы Exchange Online и Exchange Online Protection (EOP) могут находить и разблокировать сообщения в карантине, а также создавать по ним отчеты в Центре администрирования Exchange. Office 365 направляет сообщения в карантин, так как они были идентифицированы как спам или соотнесены с правилом обработки почты (также называемым правилом транспорта).
 
-Для выполнения любой из этих задач также можно использовать центр соответствия & безопасности вместо центра администрирования Exchange; Портал карантина в центре администрирования Exchange имеет значение декоммисионед.  Дополнительные сведения см в разделе [карантин сообщений электронной почты в Office 365](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b).
+Для выполнения любой из этих задач также можно использовать центр соответствия & безопасности вместо центра администрирования Exchange; Портал карантина в центре администрирования Exchange имеет значение декоммисионед. Дополнительные сведения см в разделе [карантин сообщений электронной почты в Office 365](quarantine-email-messages.md).
 
 Сообщения в карантине отображаются на странице **Карантин** в Центре администрирования Exchange. По умолчанию они сортируются от самых новых до самых старых по полю **ПОЛУЧЕНО**. Кроме того, для каждого сообщения отображается **ОТПРАВИТЕЛЬ**, **ТЕМА** и **ИСТЕЧЕНИЕ СРОКА ДЕЙСТВИЯ**. Сообщения можно сортировать по любому из этих полей, щелкая их заголовки. Если щелкнуть заголовок столбца второй раз, порядок сортировки изменится на противоположный. На странице **Карантин** отображается до 500 сообщений.
 
@@ -44,7 +44,7 @@ ms.locfileid: "39871845"
 - Дополнительные сведения о сочетаниях клавиш, которые могут применяться к процедурам, описанным в этой статье, приведены в статье [сочетания клавиш для центра администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center).
 
 > [!TIP]
-> Возникли проблемы? Обратитесь за помощью к участникам форумов Exchange. Посетите форумы по таким продуктам: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542) или [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351).
+> Возникли проблемы? Обратитесь за помощью к форуму [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) .
 
 ## <a name="use-advanced-search-to-filter-and-locate-quarantined-messages"></a>Использование расширенного поиска для фильтрации и поиска сообщений на карантине
 

@@ -71,7 +71,14 @@ sections:
             title: '[Электронная книга] Сведения ваша организация с современным рабочее место'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
+              alt: ''
   - title: Видео
     items:
+      - type: paragraph
+        text: 'Узнайте о преимуществах настольных компьютеров, управляемых корпорацией Майкрософт, от президента технологий до Индиана.'
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
+      - type: paragraph
+        text: 'Общий руководитель рабочего стола, управляемый Майкрософт, предоставляет все основные сведения о службе на ежегодной конференции Ignite.'
+      - type: markdown
+        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'

@@ -1,19 +1,19 @@
 ---
-title: Совместное с аналитическим представлением
+title: Работа с аналитикой
 description: ''
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: be8eb8e513ca244aaef45f6fb4aa61ec57e37e8a
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 2366c7b9e3c95ee88753ffb7677a7031c8ac9786
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257147"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962326"
 ---
-# <a name="work-with-insights"></a>Совместное с аналитическим представлением
+# <a name="work-with-insights"></a>Работа с аналитикой
 
 На рабочем столе Майкрософт имеется ряд панелей мониторинга, которые администраторы могут использовать для представления различных аспектов заполнения устройств. Доступ к ним можно получить с помощью центра администрирования Microsoft 365.
 
@@ -26,7 +26,7 @@ ms.locfileid: "39257147"
 
 Чтобы получить доступ к этим представлениям из центра администрирования Microsoft 365, в области **отчеты** выберите **Просмотр сведений** :
 
-![Обзор области аналитических сведений](images/insights_overview.png)
+![Центр администрирования с областью отчетов в правом верхнем углу, включая карточку отчетов об устройствах и ссылку "просмотреть сведения".](images/insights_overview.png)
 
 
 

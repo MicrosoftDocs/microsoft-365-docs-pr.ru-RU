@@ -15,17 +15,17 @@ ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
 description: При настройке политик безопасных ссылок ATP можно включить список URL-адресов Do-not-Rewrite, чтобы разрешить некоторым пользователям в Организации посещать сайты, включенные в список.
-ms.openlocfilehash: ca1927871b834459a05c1c36e5b15d3d47aa242b
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: b823ac1e995177a6f576d01c3ef686288ed47cbf
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866581"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971467"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка "не перезаписывать URL-адреса" с помощью безопасных ссылок Office 365 ATP
 
 > [!IMPORTANT]
-> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).
+> Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
 В [Office 365 Advanced Threat protection](office-365-atp.md) (ATP) в организации могут быть [Настраиваемые Заблокированные URL-адреса](set-up-a-custom-blocked-urls-list-wtih-atp.md), например, если пользователи щелкают веб-адреса (URL-адреса) в сообщениях электронной почты или определенных документах Office, они не смогут переходить к этим URL-адресам. В организации также могут быть настроены списки "не переопределять" для определенных групп в Организации. Список "не переопределять" позволяет некоторым пользователям посещать URL-адреса, которые в противном случае блокируются [безопасными ссылками ATP в Office 365](atp-safe-links.md). 
   

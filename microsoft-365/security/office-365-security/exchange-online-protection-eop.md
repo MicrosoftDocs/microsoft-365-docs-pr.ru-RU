@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: Прежде чем приступить к работе с EOP, необходимо знать несколько моментов.
-ms.openlocfilehash: 707e909821c4a394e230b1746bde86521d8fb10a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: ae08ff17a3ef25f0b0903d02ffe396cd201bd06c
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441566"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970525"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection
 
 Добро пожаловать в службу фильтрации почты, размещенную в Microsoft Exchange Online Protection (EOP). Прежде чем начать работу с EOP и использовать это содержимое, необходимо знать следующее.
 
-- Дополнительные сведения о EOP см. в статье [Описание службы Exchange Online Protection](https://go.microsoft.com/fwlink/p/?LinkId=320619). Другие полезные источники: [Обзор Exchange Online Protection](exchange-online-protection-overview.md), [Общие вопросы и ответы по EOP](eop-general-faq.md) и [Функции EOP](eop-features.md), а также домашняя страница [Exchange Online Protection](https://go.microsoft.com/fwlink/?LinkId=279912).
+- Чтобы узнать больше о EOP, ознакомьтесь с [описанием службы Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description). Другие материалы: [Обзор Exchange Online Protection](exchange-online-protection-overview.md), [Общие вопросы и ответы EOP](eop-general-faq.md)и [функции EOP](eop-features.md), а также [Домашняя страница Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection).
 
 - Чтобы приступить к работе с EOP, новые клиенты должны заголовков, чтобы [настроить службу EOP](set-up-your-eop-service.md). В этом разделе описываются действия, которые помогут вам получить EOP и запустить его.
 
@@ -67,6 +67,6 @@ ms.locfileid: "37441566"
 
 - [Отправка вредоносных и невредоносных программ в корпорацию Майкрософт для анализа](submitting-malware-and-non-malware-to-microsoft-for-analysis.md): в этой статье описывается, как конечные пользователи могут отправлять вредоносные программы, которые выполняли его после фильтрации, или отправлять файлы, которые были неправильно идентифицированы как вредоносные.
 
-- Конечные пользователи могут добавлять определенных пользователей или домены в список надежных отправителей или список заблокированных отправителей, настраивая параметры нежелательной почты в Outlook или Outlook в Интернете. Обратите внимание, что сообщения, отправленные из заблокированных отправителей, помечаются как нежелательная почта, а не отклоняются, что позволяет получать их из папки нежелательной почты или из карантина (в зависимости от того, где администратор настроил службу для отправки спама). Дополнительные сведения см. [в статье Использование надстройки Report Message](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
+- Конечные пользователи могут добавлять определенных пользователей или домены в список надежных отправителей или список заблокированных отправителей, настраивая параметры нежелательной почты в Outlook или Outlook в Интернете. Обратите внимание, что сообщения, отправленные из заблокированных отправителей, помечаются как нежелательная почта, а не отклоняются, что позволяет получать их из папки нежелательной почты или из карантина (в зависимости от того, где администратор настроил службу для отправки спама). Дополнительные сведения см. [в статье Использование надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
 - [Справка и поддержка для EOP](help-and-support-for-eop.md) В этом разделе представлены сведения о том, как получить помощь и техническую поддержку.
