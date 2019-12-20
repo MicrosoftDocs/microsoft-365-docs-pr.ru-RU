@@ -10,12 +10,13 @@ keywords: Майкрософт, Microsoft 365, соответствие треб
 localization_priority: Normal
 audience: ITPro
 ms.prod: Microsoft-365-enterprise
-ms.openlocfilehash: d93e7071c43bc1d9f5ded5d4c7dd7d1a5af1cd62
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7aabeb51ef2a72452320b059ab51f72ca0d9f49f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859439"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804062"
 ---
 # <a name="microsoft-compliance-offerings"></a>Предложения Майкрософт для соответствия требованиям
 
@@ -46,7 +47,7 @@ ms.locfileid: "39859439"
                         <p><a href="offering-ISO-27701.md">ISO 27701</a></p>
                         <p><a href="offering-ISO-9001.md">ISO 9001</a></p>
                         <p><a href="offering-soc.md">SOC</a></p>
-                        <p><a href="offering-wcag-2-1.md">WCAG 2.1</a></p>
+                        <p><a href="offering-wcag-2-1.md">НОРМАТИВ</a></p>
                     </div>
                 </div>
             </div>
@@ -130,6 +131,7 @@ ms.locfileid: "39859439"
                         <p><a href="offering-pci-dss.md">PCI DSS</a></p>
                         <p><a href="offering-rbi-irdai-india.md">RBI + IRDAI (Индия)</a></p>
                         <p><a href="offering-sec-17a-4.md">SEC 17a-4</a></p>
+                        <p><a href="offering-sec-reg-sci.md">С регулированием SCI</a></p>
                         <p><a href="offering-shared-assessments.md">Общие оценки</a></p>
                         <p><a href="offering-sox.md">SOX</a></p>
                         <p><a href="offering-tisax-germany.md">TISAX (Германия)</a></p>
