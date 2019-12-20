@@ -1,7 +1,7 @@
 ---
 title: Номер водительского удостоверения для драйвера ЕС
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации номера лицензии для драйвера ЕС. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: f1a95ecbaf6b6d1ac189290dd6d076cfd91ab30f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6df025caf8d06c617e09a3b53dc6c82d69aaf5a8
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090284"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805962"
 ---
 # <a name="eu-drivers-license-number"></a>Номер водительского удостоверения для драйвера ЕС
 
@@ -57,7 +57,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_austria_eu_driver's_license_number**|
+|**Keywords_austria_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/>  номер водительского удостоверения  <br/> длно #  <br/> фухрерсчеин  <br/> фухрерсчеин Републик остерреич  <br/> |
    
@@ -97,7 +97,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords__belgium_eu_driver's_license_number**|
+|**Keywords__belgium_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> длно #  <br/> рижбевижс  <br/> рижбевижснуммер  <br/> фüхрерсчеиннуммер  <br/> фухрерсчеиннуммер  <br/> фуехрерсчеиннуммер  <br/> фüхрерсчеин — НР  <br/> фуехрерсчеин — НР  <br/> фуехрерсчеин — НР  <br/> |
    
@@ -137,7 +137,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_bulgaria_eu_driver's_license_number**|
+|**Keywords_bulgaria_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> свидетелство за управление на МПС  <br/> свидетелство за управление на моторно превозно средство  <br/> сумпс  <br/> шофьорска книжка  <br/> |
    
@@ -177,7 +177,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_croatia_eu_driver's_license_number**|
+|**Keywords_croatia_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> возаčка дозвола  <br/> |
    
@@ -216,7 +216,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_cyprus_eu_driver's_license_number**|
+|**Keywords_cyprus_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> άδεια οδήγησης  <br/> |
    
@@ -262,7 +262,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_czech_republic_eu_driver's_license_number**|
+|**Keywords_czech_republic_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> řидиčскý прúказ  <br/> |
    
@@ -302,7 +302,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_denmark_eu_driver's_license_number**|
+|**Keywords_denmark_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> кøрекорт  <br/> кøрекортнуммер  <br/> |
    
@@ -345,7 +345,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_estonia_eu_driver's_license_number**|
+|**Keywords_estonia_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер водительского удостоверения  <br/> длно #  <br/> permis de conduire  <br/> |
    
@@ -390,7 +390,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_finland_eu_driver's_license_number**|
+|**Keywords_finland_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> ажокортти  <br/> |
    
@@ -437,7 +437,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_greece_eu_driver's_license_number**|
+|**Keywords_greece_eu_driver "s_license_number**|
 |:-----|
 |Файл #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> δεια οδήγησης  <br/> Адеиа одигисис  <br/> |
    
@@ -480,7 +480,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_hungary_eu_driver's_license_number**|
+|**Keywords_hungary_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> везетои енжедели  <br/> |
    
@@ -523,7 +523,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_ireland_eu_driver's_license_number**|
+|**Keywords_ireland_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> цеадúнас тиомáна  <br/> |
    
@@ -570,7 +570,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_latvia_eu_driver's_license_number**|
+|**Keywords_latvia_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> аутовадīтāжа аплиекīба  <br/> |
    
@@ -609,7 +609,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_lithuania_eu_driver's_license_number**|
+|**Keywords_lithuania_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> ваируотожо паžимėжимас  <br/> |
    
@@ -648,7 +648,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_luxemburg_eu_driver's_license_number**|
+|**Keywords_luxemburg_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> фахрерлаубнис  <br/> |
    
@@ -697,7 +697,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_malta_eu_driver's_license_number**|
+|**Keywords_malta_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> лиċензжаные зада Севкан  <br/> |
    
@@ -736,7 +736,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_netherlands_eu_driver's_license_number**|
+|**Keywords_netherlands_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> permis de conduire  <br/> рижбевижс  <br/> рижбевижснуммер  <br/> |
    
@@ -785,7 +785,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_poland_eu_driver's_license_number**|
+|**Keywords_poland_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> право жазди  <br/> |
    
@@ -834,7 +834,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_portugal_eu_driver's_license_number**|
+|**Keywords_portugal_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> картеира de моториста  <br/> |
    
@@ -877,7 +877,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_romania_eu_driver's_license_number**|
+|**Keywords_romania_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> разрешение de кондуцере  <br/> |
    
@@ -920,7 +920,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_slovakia_eu_driver's_license_number**|
+|**Keywords_slovakia_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> водиčскý преуказ  <br/> |
    
@@ -959,7 +959,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_slovenia_eu_driver's_license_number**|
+|**Keywords_slovenia_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> возниšко доволженже  <br/> |
    
@@ -1002,7 +1002,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_spain_eu_driver's_license_number**|
+|**Keywords_spain_eu_driver "s_license_number**|
 |:-----|
 |длно #  <br/> DL #  <br/> Drivers лик.  <br/> Лицензия на драйвер  <br/> driver license  <br/> drivers licence  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> driving licence  <br/> driving license  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> драйвер номер лицензии  <br/> номер лицензии на драйверы  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> номер водительской лицензии  <br/> номер водительского удостоверения  <br/> движущие разрешение  <br/> движущие число разрешений  <br/> пермисо de кондукЦиóн  <br/> пермисо кондукЦиóн  <br/> нúмеро лиценЦиа кондуЦир  <br/> нúмеро de карнет де кондуЦир  <br/> нúмеро карнет кондуЦир  <br/> лиценЦиа кондуЦир  <br/> нúмеро de пермисо де кондуЦир  <br/> нúмеро де пермисо кондуЦир  <br/> нúмеро пермисо кондуЦир  <br/> пермисо кондуЦир  <br/> лиценЦиа de манежо  <br/> El карнет de кондуЦир  <br/> Карнет кондуЦир  <br/> |
    
@@ -1047,7 +1047,7 @@ ms.locfileid: "37090284"
 ### <a name="keywords"></a>Ключевые слова
 
 | |
-|**Keywords_sweden_eu_driver's_license_number**|
+|**Keywords_sweden_eu_driver "s_license_number**|
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> кöркорт  <br/> |
    
