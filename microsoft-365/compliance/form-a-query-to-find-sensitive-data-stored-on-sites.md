@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С предотвращением потери данных (DLP) в SharePoint Online вы можете находить документы, содержащие конфиденциальные данные в клиенте. После обнаружения документов можно работать с владельцами документов для защиты данных. Эта статья поможет вам сформировать запрос на поиск конфиденциальных данных.
-ms.openlocfilehash: 0cf5d0446d8f12560e8fd7b0948dc5b6ce2bbe0f
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: 66cf1f5c4072422c3de8572a5bf4b6f39755cff3
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687478"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823651"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>Формирование запроса для поиска конфиденциальных данных, которые хранятся на сайтах
 
@@ -74,7 +74,7 @@ ms.locfileid: "38687478"
 
 Не все запросы одинаково полезны. В следующей таблице приведены примеры запросов, которые не работают с DLP в SharePoint, а также объясняется, почему.
   
-|**Неподдерживаемый запрос**|**Причина**|
+|**Неподдерживаемый запрос**|**Reason**|
 |:-----|:-----|
 | `SensitiveType:"Credit Card Number|.."` <br/> |Необходимо добавить хотя бы один номер.  <br/> |
 | `SensitiveType:"NotARule"` <br/> |"Нотаруле" не является допустимым именем конфиденциального типа. В запросах DLP работают только имена в [типах конфиденциальной информации](https://go.microsoft.com/fwlink/?LinkID=509999) .  <br/> |
@@ -88,7 +88,7 @@ ms.locfileid: "38687478"
 
 [Что позволяют искать типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md)
   
-[Запуск поиска контента в центре безопасности &amp; и соответствия требованиям Office 365](run-a-content-search-in-the-security-and-compliance-center.md)
+[Выполнение поиска контента](content-search.md)
   
 [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
   

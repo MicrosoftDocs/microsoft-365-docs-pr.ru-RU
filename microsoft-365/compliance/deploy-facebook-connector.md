@@ -1,5 +1,5 @@
 ---
-title: Развертывание соединителя для архивации данных Facebook в Office 365
+title: Развертывание соединителя для архивации данных Facebook
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить собственный соединитель для импорта и архивации бизнес-страниц Facebook в Office 365. После импорта этих данных в Office 365 вы можете использовать такие функции обеспечения соответствия, как судебное удержание, поиск контента и политики хранения, для управления управлением данными Facebook Организации.
-ms.openlocfilehash: 786ff97c558a5618643783de803c742c50185f00
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: e1ab281b8a3b684f408f80f86246778a9ee6267d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687461"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806262"
 ---
-# <a name="deploy-a-connector-to-archive-facebook-data-in-office-365"></a>Развертывание соединителя для архивации данных Facebook в Office 365
+# <a name="deploy-a-connector-to-archive-facebook-data"></a>Развертывание соединителя для архивации данных Facebook
 
 В этой статье представлено пошаговое руководство по развертыванию соединителя, использующего службу импорта Office 365 для импорта данных из бизнес-страниц Facebook в Office 365. Общий обзор этого процесса и список необходимых компонентов, необходимых для развертывания соединителя Facebook, приведены в статье [Использование примера соединителя для архивации данных Facebook в Office 365 (Предварительная версия)](archive-facebook-data-with-sample-connector.md). 
 
@@ -232,9 +232,9 @@ ms.locfileid: "38687461"
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>Шаг 7: Настройка настраиваемого соединителя в центре безопасности & соответствия требованиям
 
-1. Перейдите в <https://protection.office.com> раздел **Управление \> данными и выберите пункт \> архивы импорта данных сторонних поставщиков**.
+1. Перейдите в <https://protection.office.com> раздел ** \> Управление сведениями и выберите \> пункт архивы импорта данных сторонних поставщиков**.
 
-   ![Перейдите в центр безопасности и соответствия требованиям и выберите Управление данными > импорта > архивы сторонних данных](media/FBCimage44.png)
+   ![Перейдите в центр безопасности и соответствия требованиям и выберите Управление сведениями > импортировать > архивные данные сторонних поставщиков](media/FBCimage44.png)
 
 2.  Нажмите кнопку **Добавить соединитель** , а затем выберите **страницы Facebook**.
 

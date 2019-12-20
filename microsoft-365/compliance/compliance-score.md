@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Оценка соответствия требованиям Майкрософт помогает организациям упростить и автоматизировать оценки рисков и предлагает Рекомендуемые действия по устранению рисков.
-ms.openlocfilehash: f604f52fd66664aeb1b61fb873cfe40e8f48115c
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: c13b4e345f5ab9bee7a0edd134aea73c23d84036
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38687307"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806662"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Оценка соответствия требованиям Майкрософт (Предварительная версия)
 
@@ -108,16 +108,18 @@ ms.locfileid: "38687307"
 
 1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
 2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-5. [Инфраструктура NIST Циберсекурити (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-6. [Cloud Controls Alliance (CSA) Cloud Controls (CCM) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
+3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+6. [Инфраструктура NIST Циберсекурити (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+7. [Cloud Controls Alliance (CSA) Cloud Controls (CCM) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
 8. [Буклет информационный Совет по отчетности по федеральным финансовым учреждениям (ФФИЕК)](https://go.microsoft.com/fwlink/?linkid=2109077) 
-8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HiTech](https://go.microsoft.com/fwlink/?linkid=2109079)
-9. [FedRAMP средний](https://go.microsoft.com/fwlink/?linkid=2108869)
-10. [GDPR Европейского союза](https://go.microsoft.com/fwlink/?linkid=2108870)
-11. [Закон о конфиденциальности для потребителей в Калифорнии (ККПА) — Предварительная версия](https://go.microsoft.com/fwlink/?linkid=2108871)
-12. [Базовый план защиты данных (Майкрософт) 365](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HiTech](https://go.microsoft.com/fwlink/?linkid=2109079)
+10. [FedRAMP средний](https://go.microsoft.com/fwlink/?linkid=2108869)
+11. [GDPR Европейского союза](https://go.microsoft.com/fwlink/?linkid=2108870)
+12. [Закон о конфиденциальности для потребителей в Калифорнии (ККПА)](https://go.microsoft.com/fwlink/?linkid=2108871) (Предварительная версия)
+13. [Ирап](https://go.microsoft.com/fwlink/?linkid=2113709) / [Австралийский правительством ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (ознакомительная версия)
+14. [Базовый план защиты данных (Майкрософт) 365](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 > [!NOTE]
 > Во время общедоступной предварительной версии перейдите к диспетчеру соответствия требованиям, чтобы создать шаблоны и управлять ими.
@@ -130,6 +132,6 @@ ms.locfileid: "38687307"
 
 Узнайте, как [создавать группы в диспетчере соответствия требованиям](working-with-compliance-manager.md#groups).
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 Вход, Настройка разрешений и сведения о панели мониторинга оценки соответствия требованиям в [настройке оценки соответствия требованиям](compliance-score-setup.md).

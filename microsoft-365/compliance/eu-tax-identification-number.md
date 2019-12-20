@@ -1,7 +1,7 @@
 ---
 title: Идентификационный номер налогоплательщика ЕС
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации для идентификационного номера ЕС. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: adcd9be9b5f8775ad39010d771ff2ac214df1e17
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0ee76fa46bb22b2754098d053ab769b862fdd3f2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090264"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805852"
 ---
 # <a name="eu-tax-identification-number"></a>Идентификационный номер налогоплательщика ЕС
 

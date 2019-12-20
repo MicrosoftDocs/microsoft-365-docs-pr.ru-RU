@@ -1,5 +1,5 @@
 ---
-title: Использование образца соединителя для архивации данных Twitter в Office 365 (Предварительная версия)
+title: Использование образца соединителя для архивации данных Twitter (Предварительная версия)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,14 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных Twitter в Office 365. Это позволяет архивировать данные из сторонних источников данных в Office 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая информация, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: 86362193b0c64afa182c2f49ff27bd7e5f27935c
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 77f0a0615a177c0bfd6179a6a5ce1a58b024dcdc
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615579"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807488"
 ---
-# <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>Использование образца соединителя для архивации данных Twitter в Office 365 (Предварительная версия)
+# <a name="use-a-sample-connector-to-archive-twitter-data-preview"></a>Использование образца соединителя для архивации данных Twitter (Предварительная версия)
 
 Пример функции соединителя для архивации данных Twitter в Office 365 Предварительная версия.
 

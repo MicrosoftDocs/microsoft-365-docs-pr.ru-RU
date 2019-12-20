@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: В этом разделе вы найдете дополнительные сведения о настройке привилегированного управления доступом в Office 365
-ms.openlocfilehash: 46bfeaf0c73c4598fcdaa65d654201620396600c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5b7bf33f41bc722c557f2b515c5ab027bd401a2a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091035"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803767"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Настройка управления привилегированным доступом в Office 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "37091035"
 
 - [Шаг 1: создание группы утверждающего](privileged-access-management-configuration.md#step1)
 
-    Прежде чем приступить к работе с правами на доступ к данным, определите, кому требуется центр утверждений для входящих запросов на доступ к привилегированным и привилегированным задачам. Любой пользователь, являющийся участником группы утверждающих, может утверждать запросы на доступ. Эта возможность включена путем создания группы безопасности с включенной поддержкой почты в Office 365.
+    Прежде чем приступить к работе с правами на доступ к данным, определите, кому требуется центр утверждений для входящих запросов на доступ к привилегированным и привилегированным задачам. Любой пользователь, являющийся участником группы утверждающих, может утверждать запросы на доступ. Эта группа включена путем создания группы безопасности с включенной поддержкой почты в Office 365.
 
 - [Шаг 2: включение привилегированного доступа](privileged-access-management-configuration.md#step2)
 
@@ -52,7 +52,7 @@ ms.locfileid: "37091035"
 После предоставления утверждения пользователь, выполняющий запрос, может выполнить предполагаемую задачу, а привилегированный доступ будет авторизовать и выполнить задачу от имени пользователя. Утверждение остается действительным в течение запрошенного периода (длительность по умолчанию составляет 4 часа), в течение которого инициатор запроса может выполнить нужную задачу несколько раз. Все подобные выполнения записываются в журнал и становятся доступны для аудита безопасности и соответствия требованиям. 
 
 > [!NOTE]
-> Чтобы включить и настроить привилегированный доступ с помощью PowerShell для Exchange Management PowerShell, выполните действия, описанные в статье [Подключение к Exchange Online PowerShell с использованием многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) для подключения к Exchange Online PowerShell с помощью Office 365 записей. В организации Office 365 не требуется включать многофакторную проверку подлинности для включения привилегированного доступа при подключении к Exchange Online PowerShell. При подключении с многофакторной проверкой подлинности создается маркер OAuth, используемый привилегированным доступом для подписи запросов.
+> Если вы хотите включить и настроить привилегированный доступ с помощью PowerShell для управления Exchange, выполните действия, описанные в статье [Подключение к Exchange Online PowerShell с использованием многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) для подключения к Exchange Online PowerShell с помощью учетных данных Office 365. В организации Office 365 не требуется включать многофакторную проверку подлинности для включения привилегированного доступа при подключении к Exchange Online PowerShell. При подключении с многофакторной проверкой подлинности создается маркер OAuth, используемый привилегированным доступом для подписи запросов.
 
 <a name="step1"> </a>
 
@@ -78,9 +78,9 @@ ms.locfileid: "37091035"
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.
 
-2. В центре администрирования перейдите к разделу **Параметры > безопасность &** > **доступ к привилегированному доступу**.
+2. В центре администрирования перейдите к разделу **Параметры > параметры > безопасность &** > безопасность с**правами на доступ к данным**.
 
-3. Включите разрешение " **требовать утверждения для контроля привилегированного доступа** ".
+3. Включите элемент управления " **требовать утверждения для привилегированных задач** ".
 
 4. Назначьте группу утверждающих, созданную на шаге 1, в качестве **группы утверждающих по умолчанию**.
 
@@ -92,7 +92,7 @@ ms.locfileid: "37091035"
 ```
 Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
-Пример.
+Пример:
 ```
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
 ```
@@ -137,7 +137,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 ```
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
-Пример.
+Пример:
 ```
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
 ```
@@ -178,7 +178,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 ```
 New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
-Пример.
+Пример:
 ```
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
 ```
@@ -201,7 +201,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 ```
 Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
 ```
-Пример.
+Пример:
 ```
 Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
 ```
@@ -228,7 +228,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 ```
 Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
-Пример.
+Пример:
 ```
 Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
 ```
@@ -238,7 +238,7 @@ Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -C
 ```
 Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
-Пример.
+Пример:
 ```
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
 ```

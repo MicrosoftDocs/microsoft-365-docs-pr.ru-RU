@@ -1,5 +1,5 @@
 ---
-title: Настройка соединителя для архивации данных LinkedIn в Office 365 (Предварительная версия)
+title: Настройка соединителя для архивации данных LinkedIn (Предварительная версия)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,14 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных со страницы LinkedIn Company в Office 365. Это позволяет архивировать данные из сторонних источников данных в Office 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая информация, поиск контента и политики хранения, для управления соответствием сторонним данным Организации.
-ms.openlocfilehash: bd11102a15396132cb192d8b0a4cc9a0dfca5645
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 6aff67ea9112b8215ba5b10dbdd6ce3a08876984
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615629"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807794"
 ---
-# <a name="set-up-a-connector-to-archive-linkedin-data-in-office-365-preview"></a>Настройка соединителя для архивации данных LinkedIn в Office 365 (Предварительная версия)
+# <a name="set-up-a-connector-to-archive-linkedin-data-preview"></a>Настройка соединителя для архивации данных LinkedIn (Предварительная версия)
 
 Функция соединителя для архивации данных из страниц компании LinkedIn в Office 365 доступна предварительная версия.
 
@@ -35,7 +35,7 @@ ms.locfileid: "39615629"
 
 ## <a name="create-a-linkedin-connector"></a>Создание соединителя LinkedIn
 
-1. Перейдите в <https://protection.office.com> раздел ** \> управление данными** и выберите Импорт, а затем **Архивация сторонних данных**.
+1. Перейдите в <https://protection.office.com> раздел ** \> Управление сведениями > Архивация сторонних данных**.
 
 2. На странице **Архивация сторонних данных** выберите **Добавить соединитель**, а затем выберите **LinkedIn**.
 
@@ -73,7 +73,7 @@ ms.locfileid: "39615629"
    
    > From: "страница компании Contoso"
 
-    ИЛИ
+    или
 
    > Тема: "страница компании Contoso"
 

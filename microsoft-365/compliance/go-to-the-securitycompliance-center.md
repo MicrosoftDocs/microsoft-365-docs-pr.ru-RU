@@ -1,7 +1,7 @@
 ---
 title: Переход в Центр безопасности и соответствия требованиям Office 365
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e696a40-b86b-4a20-afcc-559218b7b1b8
 description: Прежде чем вы сможете использовать центр безопасности & соответствия требованиям, необходимы соответствующие разрешения. Вашей рабочей или учебной учетной записи должна быть назначена роль глобального администратора Office 365 или она была назначена одной или нескольким группам ролей центра соответствия & безопасности глобальным администратором.
-ms.openlocfilehash: 357b9c494c9b6441d801932ed2ca313c8780db68
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7dc7afb00750586b34921cce347bcf459c2cf474
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089487"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807118"
 ---
 # <a name="go-to-the-office-365-security--compliance-center"></a>Переход в Центр безопасности и соответствия требованиям Office 365
 
@@ -36,6 +36,6 @@ ms.locfileid: "37089487"
   
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
 
-2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
+2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
 
 ![Домашняя страница центра безопасности Office 365 & соответствия требованиям](media/f1d35324-ac44-4f59-96a7-b11767b43201.png)

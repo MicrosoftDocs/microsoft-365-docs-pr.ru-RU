@@ -1,5 +1,6 @@
 ---
-title: Настройка политик контроля в Office 365
+title: Настройка политик контроля
+description: Настройка контроля соединений для Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,15 +16,15 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Настройка контроля соединений для Office 365
-ms.openlocfilehash: 694f35fd42fb534292130695efa12bacc114713c
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+titleSuffix: Office 365 Compliance
+ms.openlocfilehash: 67e7d1a8fe1ca2f64031cab9bdee72ac22c70886
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38687486"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806632"
 ---
-# <a name="configure-supervision-policies-for-office-365"></a>Настройка политик контроля в Office 365
+# <a name="configure-supervision-policies-in-office-365"></a>Настройка политик контроля для Office 365
 
 > [!IMPORTANT]
 > Эта статья относится к настройке политик контроля для подписки на Office 365. Если вы хотите настроить обеспечение соответствия требованиям для подписки на Microsoft 365, ознакомьтесь со статьей [Настройка обеспечения соответствия для обмена данными в microsoft 365 (Предварительная версия)](communication-compliance-configure.md).
@@ -64,7 +65,7 @@ ms.locfileid: "38687486"
 
 | **Участник политики** | **Поддерживаемые группы** | **Неподдерживаемые группы** |
 |:-----|:-----|:-----|
-|Контролируемые пользователи <br> Пользователи без прав на надзор | Группы рассылки <br> Группы Office 365 | Динамические группы рассылки |
+|Контролируемые пользователи <br> Пользователи без прав на надзор | Группы рассылки <br> Группы Office 365 | Динамические группы рассылки |
 | Рецензенты | группы безопасности с включенной поддержкой почты.  | группы рассылки; <br> динамические группы рассылки |
   
 При выборе группы Office 365 для отслеживаемых пользователей политика отслеживает содержимое общих почтовых ящиков Office 365 и каналов Microsoft Teams, связанных с группой. При выборе списка рассылки политика отслеживает индивидуальные почтовые ящики пользователей.

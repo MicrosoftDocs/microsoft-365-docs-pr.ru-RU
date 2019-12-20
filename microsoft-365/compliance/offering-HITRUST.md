@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ebe89a7dc63a9adbe2c40961f92c1a6656d9ae9d
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 9b0448a3ed5cf36a909ebb14e0aadf2b8ac96610
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859739"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804802"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Общая инфраструктура безопасности HITRUST (CSF) для исправности
 

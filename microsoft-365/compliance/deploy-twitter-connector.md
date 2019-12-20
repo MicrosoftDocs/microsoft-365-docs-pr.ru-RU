@@ -1,5 +1,5 @@
 ---
-title: Развертывание соединителя для архивации данных Twitter в Office 365
+title: Развертывание соединителя для архивации данных Twitter
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить собственный соединитель для импорта и архивации данных Twitter в Office 365. После импорта этих данных в Office 365 вы можете использовать такие функции обеспечения соответствия, как судебное удержание, поиск контента и политики хранения, для управления управлением данными Twitter Организации.
-ms.openlocfilehash: fda03e3e489b0ae9c754f2eba18bc60785bb3def
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 87faad6546d70b1e3893e2f5737af189ebb5f77b
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687463"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806152"
 ---
-# <a name="deploy-a-connector-to-archive-twitter-data-in-office-365"></a>Развертывание соединителя для архивации данных Twitter в Office 365
+# <a name="deploy-a-connector-to-archive-twitter-data"></a>Развертывание соединителя для архивации данных Twitter
 
 В этой статье представлено пошаговое руководство по развертыванию соединителя, использующего службу импорта Office 365 для импорта данных из учетной записи Twitter вашей организации в Office 365. Общий обзор этого процесса и список необходимых компонентов, необходимых для развертывания соединителя Twitter, приведены в статье [Использование примера соединителя для архивации данных Twitter в Office 365 (Предварительная версия)](archive-twitter-data-with-sample-connector.md). 
 
@@ -206,7 +206,7 @@ ms.locfileid: "38687463"
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security-and-compliance-center"></a>Шаг 7: Настройка настраиваемого соединителя в центре безопасности и соответствия требованиям
 
-1.  Перейдите в <https://protection.office.com> раздел **Управление \> данными и выберите пункт \> архивы импорта данных сторонних поставщиков**.
+1.  Перейдите в <https://protection.office.com> раздел ** \> Управление сведениями и выберите \> пункт архивы импорта данных сторонних поставщиков**.
 
     ![Переход на страницу "Архивация сторонних данных" в центре безопасности и соответствия требованиям](media/TCimage36.png)
 
