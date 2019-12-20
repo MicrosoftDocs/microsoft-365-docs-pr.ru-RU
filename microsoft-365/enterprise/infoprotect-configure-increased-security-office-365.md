@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как настроить усиленную защиту для Microsoft 365.
-ms.openlocfilehash: 290b10dd8e0bf9a7180bae72669b22f3d575f914
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 15a4121315a81e1169e7cf1fa1c7ed079201b67b
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370176"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801684"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Шаг 3. Настройка усиленной защиты для Microsoft 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "37370176"
 - Защита [ссылок](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) и [вложений](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments) в электронных письмах. 
 - Функции анализа подделок и антифишинга для почты в Exchange Online и [файлов в SharePoint Online, OneDrive для бизнеса и Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams). 
 
-Функция Office 365 ATP доступна только в плане Microsoft 365 корпоративный E5.
+Функция Office 365 ATP доступна только в плане Microsoft 365 E5.
 
 |||
 |:-------|:-----|

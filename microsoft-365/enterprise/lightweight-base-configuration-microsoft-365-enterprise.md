@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Это руководство по лаборатории тестирования поможет вам создать простую тестовую среду для Microsoft 365 корпоративный.
-ms.openlocfilehash: 6f49982fe71196f3c147c1638b402ee63bb861c1
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 0bbb54ca054ce1f4f96a32c887fba60b982375de
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202310"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801654"
 ---
 # <a name="the-lightweight-base-configuration"></a>Простая базовая конфигурация
 
@@ -43,13 +43,13 @@ ms.locfileid: "39202310"
 
 Чтобы оформить пробную подписку на Office 365 E5, потребуются вымышленное название компании и новая учетная запись Майкрософт.
   
-1. Рекомендуем использовать в качестве названия компании какую-нибудь вариацию имени Contoso (вымышленной компании, используемой в примерах от Майкрософт), но это необязательно. Запишите здесь название своей вымышленной компании: ![](./media/Common-Images/TableLine.png)
+1. Рекомендуем использовать в качестве названия компании какую-нибудь вариацию имени Contoso (вымышленной компании, используемой в примерах от Майкрософт), но это необязательно. Запишите здесь название своей вымышленной компании: ![Линия](./media/Common-Images/TableLine.png)
     
 2. Чтобы зарегистрировать новую учетную запись Майкрософт, перейдите на сайт [https://outlook.com](https://outlook.com) и создайте учетную запись, используя новый адрес электронной почты. Эта учетная запись будет использоваться для регистрации в Office 365.
     
-  - Запишите имя и фамилию новой учетной записи здесь: ![](./media/Common-Images/TableLine.png)
+  - Запишите здесь имя и фамилию для новой учетной записи: ![Линия](./media/Common-Images/TableLine.png)
     
-  - Запишите здесь адрес электронной почты новой учетной записи: ![](./media/Common-Images/TableLine.png)@outlook.com
+  - Запишите здесь адрес электронной почты новой учетной записи: ![Линия](./media/Common-Images/TableLine.png)@outlook.com
     
 ### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Оформление пробной подписки на Office 365 E5
 
@@ -58,8 +58,8 @@ ms.locfileid: "39202310"
 2. На странице **Благодарим за выбор Office 365 E5** укажите свой новый адрес учетной записи электронной почты на шаге 1.
 3. На шаге 2 процесса подписки введите требуемую информацию и выполните проверку.
 4. На шаге 3 введите название организации и имя учетной записи для глобального администратора подписки. 
-5. Запишите сведения страницы входа (выделите и скопируйте) с шага 4 здесь: ![](./media/Common-Images/TableLine.png) 
-6. Запишите здесь идентификатор пользователя: ![](./media/Common-Images/TableLine.png).onmicrosoft.com  
+5. Запишите сведения страницы входа (выделите и скопируйте) с шага 4 здесь: ![Линия](./media/Common-Images/TableLine.png) 
+6. Запишите здесь идентификатор пользователя: ![Линия](./media/Common-Images/TableLine.png).onmicrosoft.com  
    Запишите пароль в надежном месте.
    Это значение будет называться **именем глобального администратора Office 365**.
 8. Нажмите кнопку **Перейти к программе установки**.
@@ -119,11 +119,11 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 Запишите эти значения:
   
-- Имя глобального администратора Office 365: ![](./media/Common-Images/TableLine.png).onmicrosoft.com (с шага 6 этапа 1)
+- Имя глобального администратора Office 365: ![Линия](./media/Common-Images/TableLine.png).onmicrosoft.com (с шага 6 этапа 1)
     
     Кроме того, запишите пароль этой учетной записи в надежном месте.
     
-- Название организации с пробной подпиской: ![](./media/Common-Images/TableLine.png) (с шага 4 этапа 1)
+- Название вашей организации: ![Линия](./media/Common-Images/TableLine.png) (с шага 4 этапа 1)
     
 - Чтобы увидеть список учетных записей пользователей User 2, User 3, User 4 и User 5, выполните следующую команду в командной строке модуля Windows Azure Active Directory для Windows PowerShell:
     
@@ -133,13 +133,13 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
     Запишите здесь имена учетных записей:
     
-  - Имя учетной записи пользователя User 2: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Имя учетной записи пользователя User 2: user2@![Линия](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Имя учетной записи пользователя User 3: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Имя учетной записи пользователя User 3: user3@![Линия](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Имя учетной записи пользователя User 4: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Имя учетной записи пользователя User 4: user4@![Линия](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - Имя учетной записи пользователя User 5: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - Имя учетной записи пользователя User 5: user5@![Линия](./media/Common-Images/TableLine.png).onmicrosoft.com
     
     Кроме того, запишите в надежном месте общий пароль.
    

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье описана базовая структура локальной ИТ-инфраструктуры компании Contoso и способы удовлетворения потребностей компании с помощью Microsoft 365 корпоративный.
-ms.openlocfilehash: 157aa17e6ea5c345c1c1c5bdc9a2588f6384277d
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: d98f401ae4a39e3e04b5840e8f76c1e3e1b1a24d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673195"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802074"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -112,7 +112,7 @@ ms.locfileid: "38673195"
 
 ## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>Сопоставление бизнес-потребностей компании Contoso с возможностями, предоставляемыми Microsoft 365 корпоративный
 
-Перед развертыванием ИТ-подразделение компании Contoso сопоставило бизнес-потребности с функциями, имеющимися в плане Microsoft 365 корпоративный E5, указанным ниже образом.
+Перед развертыванием ИТ-подразделение компании Contoso сопоставило бизнес-потребности с функциями, имеющимися в плане Microsoft 365 E5, указанным ниже образом.
 
 ||||
 |:-------|:-----|:-----|

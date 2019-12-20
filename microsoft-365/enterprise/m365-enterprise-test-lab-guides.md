@@ -1,5 +1,5 @@
 ---
-title: Руководства по лаборатории тестирования для Microsoft 365 корпоративный
+title: Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,17 +14,17 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 корпоративный.
-ms.openlocfilehash: 5f2f6b9fb137cf9d1ea9dc21ca12a3792d79e249
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 на крупных предприятиях.
+ms.openlocfilehash: 42cc3b5572352a4bf83b50e964fd04dd527506cd
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757838"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801644"
 ---
-# <a name="microsoft-365-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 корпоративный
+# <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях
 
-*Это относится к Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это относится к Microsoft 365 для крупных предприятий и Office 365 корпоративный.*
 
 Руководства по лаборатории тестирования помогают быстро знакомиться с продуктами Майкрософт. Они содержат инструкции по настройке упрощенных и наглядных тестовых сред. Эти среды можно использовать для демонстрации и настройки, а также создания сложных экспериментов на протяжении срока действия пробной или платной подписки. 
 
@@ -32,19 +32,19 @@ ms.locfileid: "38757838"
 
 Кроме того, с помощью этих руководств можно создавать типичные среды для разработки и тестирования.
   
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
 
-[![Руководства по лаборатории тестирования для Microsoft 365 корпоративный](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)
+[![Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях](./media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>Базовая настройка
 
-Вначале нужно создать тестовую среду для [Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Ви можете создать два типа базовой конфигурации.
+Вначале нужно создать тестовую среду для [Microsoft 365 на крупных предприятиях](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Вы можете создать два типа базовой конфигурации.
 
-- Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный только в облачной среде, которая не включает каких-либо локальных компонентов.
+- Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 для крупных предприятий только в облачной среде, которая не включает каких-либо локальных компонентов.
 
-- Используйте [базовую конфигурацию "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 корпоративный в гибридной облачной среде, содержащей локальные компоненты такие как домен доменных служб Active Directory (AD DS).
+- Используйте [базовую конфигурацию "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 для крупных предприятий в гибридной облачной среде, содержащей локальные компоненты, такие как домен доменных служб Active Directory (AD DS).
 
 Кроме того, вы можете создавать тестовые среды для Office 365 E5, не добавляя лицензию Microsoft 365 E5 в пробную или рабочую тестовую среду.
     

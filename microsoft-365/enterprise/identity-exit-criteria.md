@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует условиям Microsoft 365 корпоративный для служб и инфраструктуры, основанных на удостоверениях.
-ms.openlocfilehash: 94343400482083b2e793ff218816f06cb982187e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 540d3c01ea368634cebafb2ec3dd5562fcb0b73c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627395"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801754"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 
@@ -26,7 +26,7 @@ ms.locfileid: "38627395"
 
 Убедитесь, что инфраструктура удостоверений соответствует указанным ниже обязательным условиям и что рассмотрены необязательные условия.
 
-Дополнительные рекомендации по инфраструктуре удостоверений см. в разделе [Предварительные требования](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites).
+Дополнительные рекомендации по инфраструктуре удостоверений см. в разделе [Предварительные требования](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-prerequisites).
 
 <a name="crit-identity-global-admin"></a>
 ## <a name="required-your-global-administrator-accounts-are-protected"></a>Обязательное требование: ваши учетные записи глобальных администраторов защищены 
@@ -121,7 +121,7 @@ ms.locfileid: "38627395"
 5.  Удалите тестовую учетную запись пользователя.
 
 <a name="crit-identity-ident-prot"></a>
-## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>Необязательное требование: включена функция защиты идентификации Azure AD для защиты от компрометации учетных данных (только для Microsoft 365 корпоративный E5)
+## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>Необязательное требование: включена функция защиты идентификации Azure AD для защиты от компрометации учетных данных (только для Microsoft 365 E5)
 
 Вы включили функцию защиты идентификации Azure AD для указанных ниже целей.
 

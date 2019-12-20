@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Добавляйте учетные записи пользователей и группы непосредственно в облаке или с помощью синхронизации с локальным каталогом.
-ms.openlocfilehash: 559ea58a5fcee5860a797893230b587adc33a17d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 04564d86031642276e964f3a70fa2729f6b16c00
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370226"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801844"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Шаг 4. Добавление учетных записей пользователей
 
@@ -82,7 +82,7 @@ Azure AD Connect — это поддерживаемое корпорацией
 <a name="identity-sync-health"></a>
 ## <a name="monitor-synchronization-health"></a>Отслеживание работоспособности функции синхронизации
 
-*Это необязательная процедура, применимая к версиям Microsoft 365 Enterprise E3 и E5*
+*Это необязательная процедура, применимая к версиям Microsoft 365 E3 и E5*
 
 В этом разделе вы установите агент Azure AD Connect Health на все свои локальные контроллеры доменов AD DS, чтобы отслеживать инфраструктуру идентификации и службы синхронизации, предоставляемые Azure AD Connect. Сведения, полученные в результате отслеживания, доступны на портале Azure AD Connect Health. Там вы можете просматривать оповещения, результаты отслеживания производительности, аналитические данные об использовании и прочие сведения.
 

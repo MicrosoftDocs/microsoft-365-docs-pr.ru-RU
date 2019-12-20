@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое изучение с последующим развертыванием Microsoft Teams в организации.
-ms.openlocfilehash: 3f4ed40f3c28e9b8ce5c22dfa9bd93e9b1a9e1cb
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 8220d06fe90bc4bc793ab33d6121e93bb855f973
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033604"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801244"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Развертывание Microsoft Teams для Microsoft 365 корпоративный
 
@@ -43,7 +43,7 @@ ms.locfileid: "38033604"
 Сведения о дополнительных функциях Teams см. в следующих статьях:
 
 - [Собрания и конференции](https://docs.microsoft.com/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
-- [Облачные решения для голосовой связи](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) (требуется Microsoft 365 корпоративный E5)
+- [Облачные решения для голосовой связи](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) (требуется Microsoft 365 E5)
 
 Чтобы отслеживать использование Teams в организации, ознакомьтесь со следующими статьями:
 

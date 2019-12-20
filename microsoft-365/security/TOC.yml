@@ -157,7 +157,7 @@
             - name: Настройка клиента Office 365 для улучшения безопасности
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: "Новый Центр безопасности Microsoft\_365"
-              href: ./office-365-security/microsoft-security-and-compliance.md
+              href: ./mtp/overview-security-center.md
             - name: Разрешения в Центре безопасности и соответствия требованиям
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
             - name: Предоставление пользователям доступа к Центру безопасности
@@ -405,7 +405,7 @@
             - name: Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365
               href: ./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md
             - name: Реагирование на компрометацию учетной записи электронной почты в Office 365
-              href: office-365-security/responding-to-a-compromised-email-account.md
+              href: ./office-365-security/responding-to-a-compromised-email-account.md
         - name: Поток обработки почты
           items:
             - name: Включение надстройки Report Message
