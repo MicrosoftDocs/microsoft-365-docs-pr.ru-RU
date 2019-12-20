@@ -3,6 +3,7 @@ title: Запуск модуля Process в Office 365 Advanced eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'Изучите рекомендации по подготовке файлов Office 365 для анализа с помощью Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 75b6b23a913a6aa8b732501b1c52afb55b47e51e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f96b7670a3886b2bfe01801ea76061bea4a37d14
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090776"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802912"
 ---
 # <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Запуск модуля Process в Office 365 Advanced eDiscovery
 
@@ -47,7 +48,7 @@ ms.locfileid: "37090776"
     
 - **Путь к файлу**: Advanced eDiscovery может загружать файлы, длина пути к которым не может превышать 400 символов.
     
-- **Извлечение текста**: при извлечении текста из собственных файлов помимо обычного текста также извлекаются следующие сведения: скрытый текст (Excel и. doc), скрытые столбцы (Excel), отслеживание изменений (doc), заметки докладчика (PPT), внедренные объекты (например, Объекты Excel в PPT-файле). Их можно просмотреть в текстовом редакторе.
+- **Извлечение текста**: при извлечении текста из собственных файлов помимо обычного текста также извлекаются следующие сведения: скрытый текст (Excel и. doc), скрытые столбцы (Excel), отслеживание изменений (doc), заметки докладчика (PPT), внедренные объекты (например, объекты Excel в PPT). Их можно просмотреть в текстовом редакторе.
     
 - **Игнорировать текст**: Эта дополнительная функция задается после выполнения процесса и до анализа. Пропуск текста следует использовать с осторожностью, так как его использование может снизить производительность анализа файлов.
     

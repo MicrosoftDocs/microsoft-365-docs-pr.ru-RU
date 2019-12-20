@@ -3,6 +3,7 @@ title: Настройка нагрузок для добавления импо�
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Ознакомьтесь с инструкциями по добавлению импортированных файлов в последнюю заданную загрузку или пакет, прежде чем выполнять обучение по релевантности в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 65e022680cc0bd39bbca3e05a4e3b6d24da1b2ad
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 779ec505212753305a8ae604201ce2d6fd858fc3
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090800"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802692"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Настройка нагрузок для добавления импортированных файлов в Office 365 Advanced eDiscovery
 

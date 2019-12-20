@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 115b0499d481b29361c74db1dfa0481933616405
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: b6f24cb1afcefc9ddbe468530855603e7ee0f484
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859419"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804192"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>Закон Калифорнии о конфиденциальности данных California Consumer Privacy Act (CCPA)
 

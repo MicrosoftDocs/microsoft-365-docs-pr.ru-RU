@@ -3,6 +3,7 @@ title: Запуск модуля процесса и загрузка данны
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: 'Узнайте, как использовать центр соответствия требованиям безопасности &amp; Office 365 для доступа к Office 365 Advanced eDiscovery и запуска модуля Process для случая.  '
-ms.openlocfilehash: 89a4be9bf56f35d9d9cbd88494bcae5a5a10fe7a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ac0b36f17b891f28b4d34ba838551da2de778b17
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090774"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802932"
 ---
 # <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Запуск модуля процесса и загрузка данных в Office 365 Advanced eDiscovery
 

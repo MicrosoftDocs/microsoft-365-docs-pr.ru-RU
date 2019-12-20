@@ -1,9 +1,9 @@
 ---
 title: Метки конфиденциальности в приложениях Office
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
-ms.date: 11/20/2019
+ms.date: 12/09/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
-ms.openlocfilehash: 1b472185df2d45717cba6cfca30176768bf9cd4e
-ms.sourcegitcommit: 5f96fa472cbdca30c2cfe24d66c9c6fcaedb1a6b
+ms.openlocfilehash: a904f1adde6ea8df6d7225ed368f77790b21161a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38755597"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802852"
 ---
 # <a name="sensitivity-labels-in-office-apps"></a>Метки конфиденциальности в приложениях Office
 
@@ -59,7 +59,7 @@ ms.locfileid: "38755597"
 |[Вручную применить, изменить или удалить метку](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | Подлежит уточнению.                                                        |
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Предоставление ссылки на страницу настраиваемой справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Маркировка содержимого](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Назначение разрешений сразу](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Подлежит определению.            | Подлежит определению.        | Подлежит определению.   | Подлежит определению.         | Подлежит определению.                                                        |
@@ -79,7 +79,7 @@ ms.locfileid: "38755597"
 |[Вручную применить, изменить или удалить метку](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
-|[Предоставление ссылки на страницу настраиваемой справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Маркировка содержимого](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Назначение разрешений сразу](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
@@ -99,23 +99,27 @@ ms.locfileid: "38755597"
 
 - Центр соответствия требованиям Microsoft 365
 
-Встроенный клиент меток Office автоматически включается для пользователей с одной или несколькими [политиками меток, опубликованными](sensitivity-labels.md#what-label-policies-can-do) для них.
+Чтобы использовать встроенный клиент меток Office, необходимо иметь одну или несколько [политик меток, опубликованных](sensitivity-labels.md#what-label-policies-can-do) пользователям из одного из указанных в списке центров администрирования.
 
-Чтобы использовать встроенный клиент меток в Office в Windows, вы не можете одновременно запустить надстройку Azure Information Protection в Office. Клиент Azure Information Protection можно либо временно удалить, либо оставить без возможности восстановления, а также настроить Office, чтобы предотвратить его запуск.
+Тем не менее, если пользователи имеют один из установленных клиентов Azure Information Protection ([клиент единой метки](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) или [классического клиента](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)), по умолчанию встроенный клиент меток отключен в приложениях Office. Чтобы использовать встроенные метки, а не клиент Azure Information Protection для приложений Office, отключите или удалите надстройку Office для Azure Information Protection:
 
 1. Выполните одно из следующих действий:
-
-    **Для нескольких компьютеров:** Настройка **использования функции учета конфиденциальности в Office для применения и просмотра** параметров групповой политики меток конфиденциальности. Этот параметр находится в разделе **Конфигурация пользователя/Административные шаблоны/Microsoft Office 2016/параметры безопасности**. Разверните этот параметр с помощью групповой политики или [службы Microsoft Cloud Policy Service](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
-
-    **Для одного компьютера:** В разделе "Просмотр, управление и установка надстроек в приложениях Office" и [окончательное отключение или удаление](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) надстройки Azure Information Protection на одном компьютере.
+    
+    - **Для нескольких компьютеров:** Настройка **использования функции учета конфиденциальности в Office для применения и просмотра** параметров групповой политики меток конфиденциальности. Этот параметр находится в разделе **Конфигурация пользователя/Административные шаблоны/Microsoft Office 2016/параметры безопасности**. Разверните этот параметр с помощью групповой политики или [службы Microsoft Cloud Policy Service](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service).
+    
+    - **Для одного компьютера:** Сведения о том, как [окончательно отключить или удалить](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) надстройку Azure Information Protection на одном компьютере, можно в разделе "Просмотр, управление и установка надстроек в приложениях Office".
 
 2. Перезапустите все приложения Office.
 
-Дополнительные сведения о клиентских приложениях для защиты данных можно найти [на клиентской стороне Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/use-client).
+Когда вы отключаете или удаляете надстройку Office, клиент Azure Information Protection остается установленным, чтобы вы могли продолжать помечать файлы, не входящие в ваши приложения Office. Например, с помощью проводника или PowerShell.
+
+Сведения о функциях, поддерживаемых клиентами Azure Information Protection и встроенным пометокми клиента Office, можно узнать в статье [Выбор меток, которые будут использоваться для компьютеров под управлением Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers) в документации Azure Information Protection.
 
 ## <a name="protection-templates-and-sensitivity-labels"></a>Шаблоны защиты и метки конфиденциальности
 
-[Шаблоны защиты](https://docs.microsoft.com/azure/information-protection/configure-policy-templates), определенные администратором, например, указанные для шифрования сообщений Office 365, скрыты в пользовательском интерфейсе Office, когда метки чувствительности включены, так как они избыточны с метками конфиденциальности с включенным шифрованием.
+[Шаблоны защиты](https://docs.microsoft.com/azure/information-protection/configure-policy-templates), определенные администратором, например, указанные для шифрования сообщений Office 365, не отображаются в приложениях Office при использовании встроенных меток. Этот упрощенный интерфейс показывает, что нет необходимости выбирать шаблон защиты, так как те же параметры включаются в метки чувствительности с включенным шифрованием.
+
+Если вам нужно преобразовать существующие шаблоны защиты в метки, используйте портал Azure и следующие инструкции: [чтобы преобразовать шаблоны в метки](https://docs.microsoft.com/azure/information-protection/configure-policy-templates#to-convert-templates-to-labels).
 
 ## <a name="apply-sensitivity-labels-to-files-emails-and-attachments"></a>Применение меток конфиденциальности к файлам, сообщениям электронной почты и вложениям
 

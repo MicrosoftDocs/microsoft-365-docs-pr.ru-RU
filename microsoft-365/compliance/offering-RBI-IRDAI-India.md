@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: c88cfbfc9237e6e9a43dc8b143af015ba377ad17
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 26276567ec2a7f5bf7594ffdf91e7ead21135e17
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859499"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804322"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Резервирование банка Индии (РБИ) и страхового законодательства и центра развития Индии (ИРДАИ)
 

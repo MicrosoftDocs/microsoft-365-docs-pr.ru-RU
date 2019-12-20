@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3adc0bcc75886476de9f088c1f539c63fe4e4be8
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: b49a898c3a517b6c9468478ad7b7eddeeee1755c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859969"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805242"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>Цифровое партнерство с цифровым производством (ДПП) (Великобритания)
 

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: af2e282ac992dbf6935e9a2c1a9c7144d26aad39
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 1ef6f3c9e8f6a5b3aaef40b4d0aa8eaac1c3572c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859839"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805012"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Правило для финансовых органов здравоохранения (ФИНРА) 4511 (c) США
 
@@ -51,7 +52,7 @@ ms.locfileid: "39859839"
 ## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
@@ -67,9 +68,7 @@ ms.locfileid: "39859839"
 
 - **Регламентированные финансовые услуги**: карта соответствия требованиям основных принципов и норм США для облачных вычислений и Microsoft Online Services. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - **Руководство по оценке риска и соответствия требованиям**. Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **Финансовые варианты использования**. Обзоры вариантов использования, учебные руководства и другие ресурсы для создания решений Azure для сферы финансовых услуг.
-
-[Подробнее](https://docs.microsoft.com/azure/industry/financial/)
+- **Финансовые варианты использования**. Обзоры вариантов использования, учебные руководства и другие ресурсы для создания решений Azure для сферы финансовых услуг. [Подробнее](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>Ресурсы
 

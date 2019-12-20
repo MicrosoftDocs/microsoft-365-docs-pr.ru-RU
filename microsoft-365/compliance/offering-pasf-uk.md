@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1cfd4b00c8c23aedb33ca832c37e0147d3beca0c
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 476d1b63cfba4c3c9d31fd38c4ad526ca167f7d7
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859299"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803992"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Гарантированно-проверенные средства безопасности (ПАСФ), Соединенное Королевство
 

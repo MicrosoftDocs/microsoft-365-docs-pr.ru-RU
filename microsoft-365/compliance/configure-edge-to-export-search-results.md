@@ -9,14 +9,14 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
+ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо включить поддержку ClickOnce, чтобы использовать Microsoft Edge для экспорта результатов поиска из поиска контента и обнаружения электронных данных в центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 75595f45a1369eb732c2249258af21edced86890
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: f3e0442fe349aa3364594e07873b229f3205fb5e
+ms.sourcegitcommit: d656fd58e5491cfb7fee16b55dc7a58904ed128d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676892"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39891130"
 ---
 # <a name="use-the-office-365-ediscovery-export-tool-in-microsoft-edge"></a>Использование средства экспорта eDiscovery Office 365 в Microsoft Edge
 

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 0e967520dbbac845861168d3eea5053e18a46edf
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: da8e7e473210c42cb5d95f2701779561c95b6bb3
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859809"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804952"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>Федеральный риск и программа управления авторизацией (FedRAMP)
 

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8d6314b7a2adf3f677c8343ddece9cb27bff073e
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7a402b880778a1644d63dfcdbe73ecc96f61f5be
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859249"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805542"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Австралийский авторитетный орган (Апра)
 

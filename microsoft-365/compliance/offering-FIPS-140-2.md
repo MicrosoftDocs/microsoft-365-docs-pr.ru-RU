@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4921fdaa2c6dc7199adb810f5320972f0c1ef8db
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: c87618648c4b34553312a91d5633164fee316e52
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859829"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805002"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>Публикация стандарта федеральной обработки информации (FIPS) 140-2
 

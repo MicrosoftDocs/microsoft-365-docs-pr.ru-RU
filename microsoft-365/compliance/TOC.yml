@@ -203,7 +203,7 @@
           href: use-network-upload-to-import-rms-encrypted-pst-files.md
         - name: Вопросы и ответы об импорте PST-файлов
           href: faqimporting-pst-files-to-office-365.md
-        - name: "Архивация сторонних данных в Office\_365"
+        - name: Архивация сторонних данных
           href: archiving-third-party-data.md
           items:
             - name: Использование образца соединителя для архивации данных Facebook
@@ -317,8 +317,6 @@
           href: export-search-results.md
         - name: Экспорт отчета о поиске контента
           href: export-a-content-search-report.md
-        - name: Использование средства экспорта eDiscovery в Microsoft Edge
-          href: configure-edge-to-export-search-results.md
         - name: Поиск и удаление сообщений электронной почты
           href: search-for-and-delete-messages-in-your-organization.md
         - name: Поиск облачных почтовых ящиков локальных пользователей в Office 365
@@ -749,7 +747,6 @@
         - name: GDPR для локальных общих папок Windows Server
           href: gdpr-for-on-premises-file-shares.md
 - name: Планы действий по соответствию нормативным требованиям
-  href: compliance-solutions-overview.md
   items:
     - name: 'ISO: рекомендуемый план действий'
       href: iso-action-plan.md
@@ -855,7 +852,7 @@
           href: offering-iso-9001.md
         - name: SOC
           href: offering-soc.md
-        - name: WCAG 2.1
+        - name: НОРМАТИВ
           href: offering-wcag-2-1.md
     - name: Государственные учреждения США
       items:
@@ -935,6 +932,8 @@
               href: offering-rbi-irdai-india.md
             - name: SEC 17a-4
               href: offering-sec-17a-4.md
+            - name: С регулированием SCI
+              href: offering-sec-reg-sci.md
             - name: SOC
               href: offering-soc.md
             - name: SOX

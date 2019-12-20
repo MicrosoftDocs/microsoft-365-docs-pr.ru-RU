@@ -3,6 +3,7 @@ title: Просмотр истории пакетов и экспорт прош
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: 'Узнайте, как просмотреть подробные сведения о выбранных сеансах пакетного экспорта и как отменить последний сеанс экспорта в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: e4e84dc4115c7ec718112c8c38e20b306427c5c0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5e20fa787bcbb9dc6072af779326518d6a03aaa4
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090923"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802254"
 ---
 # <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Просмотр истории пакетов и экспорт прошлых результатов в Office 365 Advanced eDiscovery
 
@@ -55,7 +56,7 @@ ms.locfileid: "37090923"
     
 2. Нажмите кнопку **Обзор** , чтобы выбрать целевое расположение для хранения скачанных файлов экспорта на локальном компьютере. 
     
-3. Нажмите **Запуск**. Экспортируемые файлы загружаются на локальный компьютер. 
+3. Нажмите кнопку **Начало**. Экспортируемые файлы загружаются на локальный компьютер. 
     
 ## <a name="see-also"></a>См. также
 

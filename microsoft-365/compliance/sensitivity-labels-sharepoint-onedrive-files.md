@@ -1,7 +1,7 @@
 ---
 title: Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: c050aefb9feebbb3ff37a8504ba1b8385fb0ff49
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: c62db0d77ed805c607e79bf25cb9816a554cb6d2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687470"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802832"
 ---
-# <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная Предварительная версия)
+# <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
 Ранее при применении меток конфиденциальности, которые включали шифрование к файлам Office, хранящимся в SharePoint и OneDrive, службе не удалось обработать содержимое этих файлов. В таких обстоятельствах не работают совместное редактирование, обнаружение электронных данных, защита от потери данных, поиск, delve и другие функции совместной работы. Этот предварительный просмотр включает следующие функции:
 
@@ -43,7 +43,7 @@ ms.locfileid: "38687470"
 
 При необходимости вы можете отказаться от предварительного просмотра в любое время.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Эти функции работают только с [метками конфиденциальности](sensitivity-labels.md). Если вы использовали метки Azure Information Protection, вы можете преобразовать их в метки конфиденциальности, чтобы включить эти функции для новых файлов, которые вы отправляете. [Узнайте, как](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -75,19 +75,24 @@ ms.locfileid: "38687470"
 
 ## <a name="prepare-the-sharepoint-online-management-shell-for-the-preview"></a>Подготовка командной консоли SharePoint Online к предварительной версии
 
-Перед включением предварительной версии убедитесь, что вы используете последнюю версию командной консоли SharePoint Online. Если у вас уже есть последняя версия, вы можете включить предварительный просмотр.
+Перед включением предварительного просмотра убедитесь, что вы используете командную консоль SharePoint Online версии 16.0.19418.12000 или более поздней версии. Если у вас уже есть последняя версия, вы можете включить предварительный просмотр.
 
-Подготовка командной консоли SharePoint Online для предварительного просмотра:
+1. Если вы установили в коллекции PowerShell предыдущую версию командной консоли SharePoint Online, вы можете обновить модуль, выполнив следующий командлет.
 
-1. Если вы установили предыдущую версию командной консоли SharePoint Online, перейдите к разделу **Установка и удаление программ** и удаление "консоль управления SharePoint Online".
+    ```PowerShell
+    Update-Module -Name Microsoft.Online.SharePoint.PowerShell
+    ```
 
-2. В веб-браузере перейдите на страницу центра загрузки и [скачайте последнюю версию командной консоли SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=255251).
+2. Кроме того, если вы установили предыдущую версию командной консоли SharePoint Online в центре загрузки Майкрософт, вы также можете перейти к разделу **Установка и удаление программ** и удаление командной консоли SharePoint Online.
 
-3. Выберите язык и нажмите кнопку **скачать**.
+3. В веб-браузере перейдите на страницу центра загрузки и [скачайте последнюю версию командной консоли SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-4. Выберите файл в формате x64 и x86. msi. Скачайте файл x64, если вы запускаете 64-разрядную версию Windows или файл x86 при запуске 32-разрядной версии. Если вы не знаете, посмотрите, [какая версия операционной системы Windows работает?](https://support.microsoft.com/help/13443/windows-which-operating-system).
+4. Выберите язык и нажмите кнопку **скачать**.
 
-5. После загрузки файла запустите его и следуйте указаниям мастера установки.
+5. Выберите файл в формате x64 и x86. msi. Скачайте файл x64, если вы запускаете 64-разрядную версию Windows или файл x86 при запуске 32-разрядной версии. Если вы не знаете, как узнать, [какая версия операционной системы Windows работает?](https://support.microsoft.com/help/13443/windows-which-operating-system)
+
+
+6. После загрузки файла запустите его и следуйте указаниям мастера установки.
 
 ## <a name="enable-the-preview-by-using-microsoft-powershell-opt-in"></a>Включение предварительного просмотра с помощью Microsoft PowerShell (необязательно)
 
