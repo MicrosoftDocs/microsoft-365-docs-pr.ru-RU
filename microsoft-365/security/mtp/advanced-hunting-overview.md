@@ -15,23 +15,23 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 03cd648a178d63b2b964e0136c105068f4d1c6ca
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 23942b1d39bacfab470d41fca1ea630ad7b80ea3
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911547"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808704"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Расширенное выслеживание— это средство для выслеживания угроз на основе запросов, которое позволяет изучать необработанные данные за период до 30 дней. Оно дает возможность проводить инспекцию событий в своей сети для поиска интересных индикаторов и объектов на профилактической основе. Гибкое управление доступом к данным позволяет выслеживать как известные, так и потенциальные угрозы без ограничений.
 
-В Центре безопасности Microsoft 365 в рамках расширенного выслеживания поддерживаются запросы на поиск в данных в ATP в Microsoft Defender с покрытием данных с подключенных устройств и в Office 365 ATP с предоставлением данных из электронной почты. Воспользоваться расширенным выслеживанием можно, [включив Защиту от угроз (Майкрософт)](mtp-enable.md).
+В центре безопасности Microsoft 365 Расширенный поиск поддерживает запросы, которые проверяют данные из пакета ATP для защитника Майкрософт, охватывают данные с подключенных устройств и Office 365 ATP, предоставляя данные из электронных писем. Воспользоваться расширенным выслеживанием можно, [включив Защиту от угроз (Майкрософт)](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 

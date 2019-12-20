@@ -1,7 +1,7 @@
 ---
-title: Слежение за другими угрозами в Microsoft 365
+title: Поиск угроз в Microsoft 365
 description: Использование возможностей поиска угроз в центре безопасности Microsoft 365 для профилактического обнаружения нарушений и других угроз
-keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр обеспечения безопасности, поиск, поиск, пакет ATP для защитника, Office 365 ATP, Azure ATP, расширенный поиск
+keywords: безопасность, вредоносные программы, Microsoft 365, M365, защита от угроз Майкрософт, MTP, центр безопасности, поиск, Поиск угроз, киберугроз Поиск, пакет ATP для защитника, Office 365 ATP, Azure ATP, расширенный поиск
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 12705fa525374af8870aedcd211d8e9dcdd17f9c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909433"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808744"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Поиск угроз в Microsoft 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "39909433"
 
 [Включите защиту от угроз Майкрософт](mtp-enable.md) , чтобы получить расширенный интерфейс запросов поиска непосредственно в центре безопасности Microsoft 365. С помощью [расширенного](advanced-hunting-overview.md)поиска вы можете создавать отдельные запросы, которые проверяют данные из пакета ATP для защитника Майкрософт, покрывающие данные с подключенных устройств и Office 365 ATP, предоставляя данные из электронных писем.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>См. также
 - [Общие сведения о расширенном поиске](advanced-hunting-overview.md)
-- [Общие сведения о защите от угроз Майкрософт](microsoft-threat-protection.md)
-- [Включение защиты от угроз Майкрософт](mtp-enable.md)
+- [Обзор Защиты от угроз (Майкрософт)](microsoft-threat-protection.md)
+- [Включение Защиты от угроз (Майкрософт)](mtp-enable.md)

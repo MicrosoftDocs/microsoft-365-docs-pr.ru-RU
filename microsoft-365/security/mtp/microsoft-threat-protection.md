@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 01a81d5f4ac68d72095f86de93b727c60d28393f
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: a47ffecbf0ef1ac7dcfeef9d8cbe4e104de9ca2d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910241"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808584"
 ---
 # <a name="microsoft-threat-protection"></a>Защита от угроз (Майкрософт)
 
-**Относится к:**
+**Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Защита от угроз Майкрософт — это единый пакет защиты от предварительной и завершающей атакой, который интегрируется в конечные точки, удостоверения, электронные письма и приложения, чтобы обнаруживать, предотвращать и автоматически отвечать на совершенные атаки.  
 
@@ -74,6 +74,6 @@ Microsoft Threat Protection Suite защищает:
 
 
 ## <a name="get-started"></a>Начало работы
-Клиенты, у которых есть лицензия Microsoft 365 и эквивалентная лицензия, могут использовать защиту от угроз Майкрософт. Чтобы начать, включите службу в центре безопасности Microsoft 365 по адресу [Security.Microsoft.com](https://security.microsoft.com). Для получения дополнительных сведений прочитайте:
+Защиту от угроз (Майкрософт) могут использовать клиенты, у которых есть лицензия Microsoft 365 E5 или аналогичная лицензия.  Чтобы начать, включите службу в центре безопасности Microsoft 365 по адресу [Security.Microsoft.com](https://security.microsoft.com). Для получения дополнительных сведений прочитайте:
 - [Требования к лицензированию](prerequisites.md#licensing-requirements)
-- [Включение защиты от угроз Майкрософт](mtp-enable.md)
+- [Включение Защиты от угроз (Майкрософт)](mtp-enable.md)

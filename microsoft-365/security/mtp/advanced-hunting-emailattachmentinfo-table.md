@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9f6a4aa68826133bee0437116b2fbf3fde4e7e00
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 9368185fff037b8c3c2f5b70a178f2485fda3736
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911538"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808724"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Таблица `EmailAttachmentInfo` в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию о вложениях в сообщения электронной почты, обрабатываемых Office 365 ATP. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
@@ -35,7 +35,7 @@ ms.locfileid: "39911538"
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
-| `EventTime` | datetime | Дата и время записи события |
+| `Timestamp` | datetime | Дата и время записи события |
 | `AttachmentId` | string | Уникальный идентификатор вложения электронной почты |
 | `NetworkMessageId` | string | Уникальный идентификатор сообщения электронной почты, сформированный в Office 365 |
 | `SenderFromAddress` | string | Адрес электронной почты отправителя в заголовке "ОТ", который получатели электронной почты видят в своих почтовых клиентах |

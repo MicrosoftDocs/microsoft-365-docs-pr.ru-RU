@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2fee44c0d9c9ff30ca23ccef863e056cadee7de8
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: d03b278fbf029b08b476f20292315807a3f5e32a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911508"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808624"
 ---
 # <a name="devicetvmsecureconfigurationassessment"></a>DeviceTvmSecureConfigurationAssessment
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Каждая строка в таблице `DeviceTvmSecureConfigurationAssessment` содержит событие оценки для определенной настройки безопасности от функции [контроля угроз и уязвимостей](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt). Используйте этот справочник для проверки последних результатов оценки и определения соответствия устройства требованиям.
 
@@ -35,8 +35,8 @@ ms.locfileid: "39911508"
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
-| `MachineId` | string | Уникальный идентификатор для обслуживаемого компьютера |
-| `ComputerName` | string | Полное доменное имя компьютера |
+| `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
+| `DeviceName` | string | Полное доменное имя компьютера |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7.|
 | `Timestamp` | datetime | Дата и время создания записи |
 | `ConfigurationId` | string | Уникальный идентификатор определенной настройки |

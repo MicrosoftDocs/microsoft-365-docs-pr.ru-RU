@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: c1c39745b2dc891b4dc079ecd657eaf0d883af23
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d7e71eda9cf0750ce44a978dca742b43f2101d63
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627463"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801264"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Шаг 5: развертывание компонентов безопасности Windows 10 Корпоративная
 
@@ -92,7 +92,7 @@ Windows 10 предоставляет функции безопасности д
 
 <a name="windows10-sec-atp"></a>
 ## <a name="microsoft-defender-advanced-threat-protection"></a>Advanced Threat Protection в Microsoft Defender
-Защитник Майкрософт, доступный только с планом Microsoft 365 корпоративный, — это служба безопасности, позволяющая корпоративным клиентам обнаруживать, изучать и отвечать на дополнительные угрозы в своих сетях. Для получения дополнительных сведений о Microsoft Defender ATP, минимальных требованиях и способах управления этой функцией обратитесь к разделу:
+Защитник Майкрософт, доступный только в плане Microsoft 365, — это служба безопасности, позволяющая корпоративным клиентам обнаруживать, изучать и отвечать на дополнительные угрозы в своих сетях. Для получения дополнительных сведений о Microsoft Defender ATP, минимальных требованиях и способах управления этой функцией обратитесь к разделу:
 
 * [ATP в Microsoft Defender](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 * [Минимальные требования](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/minimum-requirements-windows-defender-advanced-threat-protection)
@@ -128,6 +128,6 @@ Windows 10 предоставляет функции безопасности д
 * [Устранение проблем с входящей миграции](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-onboarding-windows-defender-advanced-threat-protection)
 * [Устранение неполадок в защитнике Microsoft](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)
 
-## <a name="next-step"></a>Дальнейшее действие
+## <a name="next-step"></a>Следующий шаг
 
 [Критерии выхода инфраструктуры Windows 10 Корпоративная](windows10-exit-criteria.md)

@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f7c7ab393a956aa894a0ca8704ea0e99a82addc9
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 6aca41e46af8ba94f87e7ee91059c3d11a4fbe9e
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911506"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808634"
 ---
 # <a name="devicetvmsoftwareinventoryvulnerabilities"></a>DeviceTvmSoftwareInventoryVulnerabilities
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Таблица `DeviceTvmSoftwareInventoryVulnerabilities` схемы расширенной охоты содержит инвентаризацию программ на ваших устройствах с использованием функции [Контроль угроз и уязвимостей](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt), а также все известные уязвимости в этих программных продуктах. Эта таблица также содержит сведения об операционной системе, ИД CVE и сведения о серьезности уязвимости. Используйте этот справочник для создания запросов, возвращающих данные из таблицы.
 
@@ -35,8 +35,8 @@ ms.locfileid: "39911506"
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
-| `MachineId` | string | Уникальный идентификатор для обслуживаемого компьютера |
-| `ComputerName` | string | Полное доменное имя компьютера |
+| `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
+| `DeviceName` | string | Полное доменное имя компьютера |
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |

@@ -1,5 +1,5 @@
 ---
-title: Обзор Microsoft 365 корпоративный
+title: Обзор Microsoft 365 для предприятий
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -10,23 +10,23 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
-description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 корпоративный.
-ms.openlocfilehash: 67d7417af01b7c64094aa46350326f32e0f18534
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 для предприятий.
+ms.openlocfilehash: 16efb061bbb8be4ff8cb5a93186d342fc55ca849
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831960"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801464"
 ---
-# <a name="microsoft-365-enterprise-overview"></a>Обзор Microsoft 365 корпоративный
+# <a name="microsoft-365-for-enterprise-overview"></a>Обзор Microsoft 365 для предприятий
 
-Microsoft 365 корпоративный — это комплексное интеллектуальное решение, которое позволяет использовать все возможности для безопасного и совместной работы. 
+Microsoft 365 для предприятий — это комплексное интеллектуальное решение, которое позволяет использовать все возможности для безопасного и совместной работы. 
 
-Хотя корпорация Майкрософт разработана для крупных организаций, Microsoft 365 Enterprise также может использоваться для средних и малых предприятий, которым необходимы наиболее расширенные возможности обеспечения безопасности и производительности. 
+Корпорация Microsoft 365 для предприятий, разработанных для крупных организаций, также может использоваться для средних и малых предприятий, которым необходимы наиболее расширенные возможности обеспечения безопасности и производительности. 
 
 ## <a name="components"></a>Компоненты
 
-Microsoft 365 предприятие состоит из следующих компонентов:
+Microsoft 365 для предприятий состоит из следующих компонентов:
 
 |||
 |:-------|:-----|
@@ -37,7 +37,7 @@ Microsoft 365 предприятие состоит из следующих ко
 
 ## <a name="plans"></a>Планы
 
-Microsoft 365 корпоративный доступен в трех планах.
+Microsoft 365 для предприятий доступно в трех планах.
 
 |||
 |:-------|:-----|
@@ -46,37 +46,37 @@ Microsoft 365 корпоративный доступен в трех плана
 | F1 | Подключайтесь к сотрудникам задействование с помощью готовых средств и ресурсов, позволяющих им выполнять свои действия. |
 |||
 
-Если у вас есть Microsoft 365 корпоративный E3, вы также можете воспользоваться [следующими разрешениями:](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)
+Если у вас есть Microsoft 365 E3, вы также можете воспользоваться [следующими разрешениями:](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)
 
 - Идентификация & защиты от угроз
 - & соответствие требованиям к защите информации
 
-Эти решения содержат дополнительные функции, которые входят в состав Microsoft 365 Enterprise ".
+Эти решения содержат дополнительные функции, включенные в Microsoft 365.
 
 Для получения дополнительных сведений ознакомьтесь [со статьей функции и возможности для каждого плана](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
 
 ## <a name="get-the-big-picture"></a>Получение крупного изображения
 
-[Microsoft 365 корпоративный плакат](media/m365-poster/Microsoft365Enterprise.pdf) — это центральное расположение, которое вы можете просмотреть:
+[Microsoft 365 для корпоративной афиши](media/m365-poster/Microsoft365Enterprise.pdf) — это центральное расположение для просмотра:
 
-- Преимущества Microsoft 365 корпоративный и как приложения и службы сопоставляются с его информационными уровнями
-- Планы Microsoft 365 корпоративный и какие компоненты они содержат 
-- Основные компоненты современного рабочего места, которые Microsoft 365 корпоративный позволяет
+- Преимущества Microsoft 365 для предприятий, а также сопоставление приложений и служб с информационными уровнями
+- Microsoft 365 для корпоративных планов и компонентов, которые они содержат 
+- Основные компоненты современного рабочего места, которые Microsoft 365 для предприятий обеспечивают
 - Библиотека производительности и характерные сценарии [Microsoft 365](https://www.microsoft.com/microsoft-365/success/) для некоторых распространенных отделов Организации.
-- План внедрения, на котором выделяется руководство по [развертыванию](deploy-microsoft-365-enterprise.md) Microsoft 365 корпоративный
+- План внедрения, на котором выделяется [руководство по развертыванию](deploy-microsoft-365-enterprise.md) Microsoft 365 для предприятий
 
-[![Изображение плаката Microsoft 365 корпоративный](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+[![Изображение для афиши Microsoft 365 для предприятий](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 Чтобы скачать копию плаката, щелкните [здесь](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf).
 
 
 ## <a name="transition-your-entire-organization"></a>Переход всей организации
 
-Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный, скачайте [плакат по переходу](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Чтобы узнать больше о том, как перенести всю организацию в продукты и службы в Microsoft 365 для предприятий, скачайте [афишу для перехода](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)на новую версию.
 
-[![Плакат изображения перехода на Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Изображение плаката перехода на Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-Этот двухстраничный плакат содержит быстрый способ определения элементов существующей инфраструктуры и руководство по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. На нем представлены продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, например управление устройствами, удостоверения, защита информации и защита от угроз.
+Эта 2-страничная Афиша — это быстрый способ инвентаризации существующей инфраструктуры и рекомендации по переходу на соответствующий продукт или службу в Microsoft 365 для предприятий. На нем представлены продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, например управление устройствами, удостоверения, защита информации и защита от угроз.
 
 Вы также можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
 
@@ -96,13 +96,13 @@ Microsoft 365 корпоративный доступен в трех плана
 
 [![Изображение плаката “Прекращение поддержки клиентов и серверов Office 2010 и Windows 7”](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
-Эта одностраничная Афиша позволяет быстро разобраться с различными путями, которые можно предпринять, чтобы предотвратить достижение конца поддержки клиентскими и серверными продуктами Windows 7 и Office 2010 с использованием предпочитаемых путей и поддержки в Microsoft 365 корпоративный выделенный.
+Эта одностраничная Афиша позволяет быстро разобраться с различными путями, которые можно предпринять, чтобы предотвратить достижение конца поддержки клиентскими и серверными продуктами Windows 7 и Office 2010 с использованием предпочтительных путей и поддержки в Microsoft 365 для предприятий.
 
 Вы также можете [скачать этот плакат](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) и распечатать его в формате письма, юридического документа или газетном формате (11 х 17).
 
 ## <a name="deploy"></a>Развертывание
 
-Существует три способа развертывания продуктов, компонентов и компонентов Microsoft 365 Enterprise:
+Существует три способа развертывания продуктов, компонентов и компонентов Microsoft 365 для предприятий:
 
 1. В связи с FastTrack
   
@@ -110,17 +110,17 @@ Microsoft 365 корпоративный доступен в трех плана
   
 2. С помощью консультационной службы Майкрософт или [партнера корпорации Майкрософт](https://partner.microsoft.com/).
 
-   Консультанты могут проанализировать текущую инфраструктуру и помочь вам разработать план внедрения всех программного обеспечения и служб Microsoft 365 Enterprise.
+   Консультанты могут проанализировать текущую инфраструктуру и помочь вам разработать план внедрения всех программного обеспечения и служб Microsoft 365 для предприятий.
 
 3. Самостоятельное выполнение
 
-   [Руководство по развертыванию Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md) позволяет пошаговое руководство по созданию рабочих нагрузок инфраструктуры и продуктивности. 
+   [Руководство по развертыванию Microsoft 365 для предприятий](deploy-microsoft-365-enterprise.md) пошаговое руководство по созданию рабочих нагрузок инфраструктуры и продуктивности. 
 
 Более подробную информацию о развертывании можно узнать в следующих статьях:
 
-- [Клиенты](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-enterprise) используют Microsoft 365 корпоративный.
-- [Корпорация Майкрософт](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) использует Microsoft 365 корпоративный.
-- [В корпорации Contoso](contoso-overview.md), вымышленной многонациональной организации, развернута Microsoft 365 корпоративный.
+- [Клиенты](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-for-enterprise) используют Microsoft 365 для предприятий.
+- [Корпорация Майкрософт](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-for-enterprise) использует Microsoft 365 для предприятий.
+- [Корпорация Contoso](contoso-overview.md), вымышленная, но представляющая собой многонациональная организация, развернула Microsoft 365 для предприятий.
 
 ## <a name="additional-microsoft-365-solutions"></a>Дополнительные решения Microsoft 365
 
@@ -146,8 +146,8 @@ Microsoft 365 корпоративный доступен в трех плана
 
 ## <a name="next-step"></a>Следующий шаг
 
-Если вы выполняете развертывание самостоятельно, запустите [развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md).
+Если вы выполняете развертывание самостоятельно, запустите приложение [Microsoft 365 для корпоративных развертываний](deploy-microsoft-365-enterprise.md).
 
 ## <a name="see-also"></a>См. также
 
-[Страница продукта Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)
+[Страница Microsoft 365 для корпоративных продуктов](https://www.microsoft.com/microsoft-365/enterprise)

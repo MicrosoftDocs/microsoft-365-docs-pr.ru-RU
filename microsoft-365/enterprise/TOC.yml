@@ -1,8 +1,8 @@
-- name: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
+- name: Microsoft 365 для корпоративных документации и ресурсов
   href: index.yml
-- name: Обзор Microsoft 365 корпоративный
+- name: Обзор Microsoft 365 для предприятий
   href: microsoft-365-overview.md
-- name: "Развертывание Microsoft\_365 корпоративный"
+- name: Развертывание Microsoft 365 для предприятий
   href: deploy-microsoft-365-enterprise.md
   items:
     - name: Развертывание инфраструктуры Foundation
@@ -164,7 +164,7 @@
     - name: Пример Contoso
       href: contoso-case-study.md
       items:
-        - name: Общие сведения
+        - name: Обзор
           href: contoso-overview.md
         - name: ИТ-инфраструктура и потребности корпорации Contoso
           href: contoso-infra-needs.md
@@ -186,7 +186,7 @@
           href: contoso-team-for-top-secret-project.md
         - name: Сайт SharePoint для строго регулируемых данных
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
-    - name: Изменения содержимого развертывания Microsoft 365 корпоративный
+    - name: Изменения в Microsoft 365 для корпоративного развертывания содержимого
       href: microsoft-365-deploment-guide-changes.md
 - name: Центр развертывания компьютеров
   href: desktop-deployment-center-home.md
@@ -219,9 +219,9 @@
       href: find-help-for-modern-desktop-deployment.md
 - name: Соответствие требованиям Microsoft 365
   href: ../compliance/index.yml
-- name: "Безопасность в Microsoft\_365"
+- name: Microsoft 365 Security
   href: ../security/index.yml
-- name: Управление непрерывностью бизнес-процессов в компании (EBCM) с помощью облачных служб
+- name: Управление непрерывным корпоративным предприятием (ЕБКМ) с облачными службами
   href: ebcm-understanding-ebcm-with-cloud-services.md
   items:
     - name: Обязанности клиентов и партнеров по облаку в отношении EBCM

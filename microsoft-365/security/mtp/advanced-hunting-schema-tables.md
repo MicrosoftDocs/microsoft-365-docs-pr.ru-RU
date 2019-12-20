@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1803445dfd9b46fce23b0dcc9585ea543f1b0347
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 631b328168003668ed06e37d76177c327794ed18
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911514"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808664"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Схема [расширенной охоты на угрозы](advanced-hunting-overview.md) состоит из нескольких таблиц, которые содержат сведения о событиях или информацию о компьютерах и объектах. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
 
@@ -37,15 +37,15 @@ ms.locfileid: "39911514"
 
 | Имя таблицы | Описание |
 |------------|-------------|
-| **[MachineInfo](advanced-hunting-machineinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
-| **[MachineNetworkInfo](advanced-hunting-machinenetworkinfo-table.md)** | Свойства сети компьютеров, включая адаптеры, IP-и MAC-адреса, а также подключенные сети и домены. |
-| **[ProcessCreationEvents](advanced-hunting-processcreationevents-table.md)** | Создание процессов и связанных с ними событий |
-| **[NetworkCommunicationEvents](advanced-hunting-networkcommunicationevents-table.md)** | Сетевое подключение и связанные события |
-| **[FileCreationEvents](advanced-hunting-filecreationevents-table.md)** | Создание файла, изменение и другие события файловой системы |
-| **[RegistryEvents](advanced-hunting-registryevents-table.md)** | Создание и изменение записей реестра |
-| **[LogonEvents](advanced-hunting-logonevents-table.md)** | Входы и другие события проверки подлинности |
-| **[ImageLoadEvents](advanced-hunting-imageloadevents-table.md)** | События загрузки библиотек DLL |
-| **[MiscEvents](advanced-hunting-miscevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
+| **[девицеинфо](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
+| **[девиценетворкинфо](advanced-hunting-devicenetworkinfo-table.md)** | Свойства сети компьютеров, включая адаптеры, IP-и MAC-адреса, а также подключенные сети и домены. |
+| **[девицепроцессевентс](advanced-hunting-deviceprocessevents-table.md)** | Создание процессов и связанных с ними событий |
+| **[девиценетворкевентс](advanced-hunting-devicenetworkevents-table.md)** | Сетевое подключение и связанные события |
+| **[девицефиливентс](advanced-hunting-devicefileevents-table.md)** | Создание файла, изменение и другие события файловой системы |
+| **[девицерегистревентс](advanced-hunting-deviceregistryevents-table.md)** | Создание и изменение записей реестра |
+| **[девицелогоневентс](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности |
+| **[девицеимажелоадевентс](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
+| **[девицеевентс](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Office 365, в том числе события доставки и блокирования электронной почты |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Сведения о файлах, вложенных в электронные сообщения Office 365 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в электронных сообщениях Office 365 |

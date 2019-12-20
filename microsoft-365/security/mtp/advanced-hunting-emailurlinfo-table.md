@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 10cf82667fd97eebe66c376e0539db000f20b1c2
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: da9712d1f3465c28d2ba880997a52434723a297d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911553"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808674"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 `EmailUrlInfo`Таблица в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию об адресах URL для сообщений электронной почты или вложений, обрабатываемых Office 365 ATP. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
@@ -35,7 +35,7 @@ ms.locfileid: "39911553"
 
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
-| `EventTime` | datetime | Дата и время записи события |
+| `Timestamp` | datetime | Дата и время записи события |
 | `UrlId` | string | Уникальный идентификатор URL в теме, основном тексте или вложении сообщения электронной почты |
 | `NetworkMessageId` | string | Уникальный идентификатор сообщения электронной почты, сформированный в Office 365 |
 | `Url` | string | Уникальный идентификатор URL в теме, основном тексте или вложении |
