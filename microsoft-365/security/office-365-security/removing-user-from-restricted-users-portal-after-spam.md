@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 'Если пользователь постоянно рассылает из Office 365 нежелательную почту, он может лишиться возможности отправлять сообщения. '
-ms.openlocfilehash: 7d900e154e60b49b3fcfe63552b6ad3288adfc82
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: c817add2581ffdbe709023dc3b348631defec169
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871745"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823821"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты
 
@@ -33,19 +33,19 @@ ms.locfileid: "39871745"
 <a name="sectionSection0"> </a>
 
 Предполагаемое время для завершения: 5 минут.
-  
+
 Для выполнения этой процедуры (процедур) необходимы соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Защита от нежелательной почты" статьи [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions).
 
-Следующую процедуру также можно выполнить через удаленную оболочку PowerShell. Используйте командлет Get-BlockedSenderAddress, чтобы получить список пользователей с ограниченными правами, и командлет Remove-BlockedSenderAddress, чтобы снять ограничение. Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=396554).
+Следующую процедуру также можно выполнить через удаленную оболочку PowerShell. Используйте командлет Get-BlockedSenderAddress, чтобы получить список пользователей с ограниченными правами, и командлет Remove-BlockedSenderAddress, чтобы снять ограничение. Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 ## <a name="remove-restrictions-for-a-blocked-office-365-email-account"></a>Снятие ограничений с заблокированной учетной записи электронной почты Office 365
 
 Эта задача выполняется в Центре безопасности и соответствия требованиям. Дополнительные сведения об этом центре см. в статье [Переход в Центр безопасности и соответствия требованиям Office 365](../../compliance/go-to-the-securitycompliance-center.md). Для выполнения этих функций вы должны состоять в группе ролей **Управление организацией** или **Администратор безопасности**. Дополнительные сведения о группах ролей см. в статье [Разрешения в Центре безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
 
 1. Используя рабочую или учебную учетную запись с правами глобального администратора Office 365, войдите в Центр безопасности и соответствия требованиям Office 365 и в списке слева раскройте раздел **Управление угрозами**, выберите **Просмотр**, а затем — **Пользователи с ограниченным доступом**.
-    
+
     > [!TIP]
-    > Чтобы перейти непосредственно на страницу **Пользователи с ограниченным доступом** (прежнее название — "Центр поддержки") в Центре безопасности и соответствия требованиям, используйте следующий URL-адрес: > [https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
+    > Чтобы перейти непосредственно на страницу **Пользователи с ограниченным доступом** (прежнее название — "Центр поддержки") в Центре безопасности и соответствия требованиям, используйте следующий URL-адрес: [https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
 
 2. На этой странице представлен список пользователей, которым запрещено отправлять электронную почту.  Найдите пользователя, с которого нужно снять ограничения, и нажмите **Разблокировать**.
 
@@ -56,7 +56,7 @@ ms.locfileid: "39871745"
 5. Нажмите кнопку **Да**, чтобы подтвердить изменение.
 
     > [!NOTE]
-    > Для снятия ограничений может потребоваться 30 минут или более. 
+    > Для снятия ограничений может потребоваться 30 минут или более.
 
 ## <a name="making-sure-admins-are-alerted-when-this-happens"></a>Уведомление администраторов об изменении
 
@@ -79,7 +79,7 @@ ms.locfileid: "39871745"
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-[Реагирование на компрометацию учетной записи электронной почты в Office 365](../../compliance/responding-to-a-compromised-email-account.md)
+[Реагирование на компрометацию учетной записи электронной почты в Office 365](responding-to-a-compromised-email-account.md)
 
 [Удаление пользователя с портала "Пользователи с ограниченным доступом" после отправки нежелательной почты](https://docs.microsoft.com/office365/securitycompliance/alert-policies)
 
