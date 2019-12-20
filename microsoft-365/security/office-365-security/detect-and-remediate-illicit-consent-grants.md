@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить незаконное согласие на атаку в Office 365.
-ms.openlocfilehash: 10c03fe0370732e9cb1a10a55767648ae0ddb80b
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 46387f82a38c33debdc24a6825479bf3183f0283
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971727"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808434"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365
 
@@ -101,7 +101,7 @@ ms.locfileid: "39971727"
 
 3. Откройте экземпляр PowerShell от имени администратора и откройте папку, в которую вы сохранили скрипт.
 
-4. Подключитесь к каталогу с помощью командлета [Connect – AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) .
+4. Подключитесь к каталогу с помощью командлета [Connect – AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread) .
 
 5. Выполните следующую команду PowerShell:
 
@@ -140,9 +140,9 @@ ms.locfileid: "39971727"
 
   - Нажмите кнопку **Удалить** в разделе Детализация.
 
-- Вы можете отозвать предоставление согласия OAuth с помощью PowerShell, выполнив действия, описанные в командлете [Remove – AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0).
+- Вы можете отозвать предоставление согласия OAuth с помощью PowerShell, выполнив действия, описанные в командлете [Remove – AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant).
 
-- Вы можете отозвать назначение роли приложения службы с помощью PowerShell, выполнив действия, описанные в статье [Remove – азуреадсервицеаппролеассигнмент](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0).
+- Вы можете отозвать назначение роли приложения службы с помощью PowerShell, выполнив действия, описанные в статье [Remove – азуреадсервицеаппролеассигнмент](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment).
 
 - Вы также можете отключить вход в затронутую учетную запись, что в свою очередь отключит доступ приложений к данным в этой учетной записи. Это не является идеальным условием для продуктивности конечного пользователя, но если вы работаете над ограничениями на снижение влияния, это может быть приемлемым краткосрочным исправлением.
 
@@ -150,7 +150,7 @@ ms.locfileid: "39971727"
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Защитите Office 365, как профессионал кибербезопасности
 
-Ваша подписка на Office 365 сопровождается целым рядом полезных функций безопасности, которые можно использовать для защиты ваших данных и пользователей. Используйте [план безопасности Office 365 — основные приоритеты в течение первых 30 дней, 90 дней и более поздних](security-roadmap.md) для реализации рекомендуемых рекомендаций по обеспечению безопасности клиента Office 365.
+Ваша подписка на Office 365 сопровождается целым рядом полезных функций безопасности, которые можно использовать для защиты ваших данных и пользователей. Обратитесь к статье [Схема для обеспечения безопасности в Office 365: приоритеты на первые 30 и 90 дней, а также на большее количество дней.](security-roadmap.md) и примените описанные в ней рекомендуемые корпорацией Майкрософт приемы по защите вашего клиента Office 365.
 
 - Задачи для выполнения в первые 30 дней. Они дают немедленный эффект и не создают помех вашим пользователям.
 

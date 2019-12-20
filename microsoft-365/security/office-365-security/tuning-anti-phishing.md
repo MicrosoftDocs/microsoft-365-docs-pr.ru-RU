@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Администраторы могут узнать причины, по которым и как проходят фишинговые сообщения, а также что делать, чтобы предотвратить большее количество фишинговых сообщений в будущем.
-ms.openlocfilehash: bbcd57f649485cb753e3917a073ffec2b94cba24
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 03f4df5f552dab48283f18ec367ee6979afd9c89
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091408"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823851"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Настройка защиты от фишинга в Office 365
 
@@ -23,7 +23,7 @@ ms.locfileid: "37091408"
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>Сначала выполните действия, связанные с любыми скомпрометированными учетными записями, и убедитесь, что вы блокируете все сообщения с фишингом от получения
 
-Если учетная запись получателя была скомпрометирована в результате фишингового сообщения, выполните действия, описанные в разделе [ответ на скомпрометированную учетную запись электронной почты в Office 365](../../compliance/responding-to-a-compromised-email-account.md).
+Если учетная запись получателя была скомпрометирована в результате фишингового сообщения, выполните действия, описанные в разделе [ответ на скомпрометированную учетную запись электронной почты в Office 365](responding-to-a-compromised-email-account.md).
 
 Если ваша подписка включает Advanced Threat protection (ATP), вы можете использовать [Office 365 Threat Intelligence](office-365-ti.md) , чтобы определить других пользователей, которые также получили сообщение фишинга. Вы можете заблокировать фишинговые сообщения с дополнительными параметрами:
 
@@ -71,7 +71,7 @@ ms.locfileid: "37091408"
 
   - [Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)
 
-  - [Проверка электронной почты в Office 365 с помощью DMARC](use-dmarc-to-validate-email.md)
+  - [Использование протокола DMARC для проверки электронной почты в Office 365](use-dmarc-to-validate-email.md)
 
 - По мере возможности рекомендуется доставлять электронную почту для домена непосредственно в Office 365. Другими словами, укажите запись MX домена Office 365 в Office 365. Exchange Online Protection (EOP) может предоставить лучшую защиту облачных пользователей, когда их почта доставляется непосредственно в Office 365. Если вам необходимо использовать сторонние системы электронной почты санацией перед EOP, убедитесь, что вы выполнили указания, приведенные [здесь](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud).
 

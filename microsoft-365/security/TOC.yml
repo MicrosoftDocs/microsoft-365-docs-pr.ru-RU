@@ -5,10 +5,6 @@
       items:
         - name: "Безопасность в Microsoft\_365 для BDM"
           href: Microsoft-365-security-for-bdm.md
-        - name: Оценка безопасности
-          href: ./mtp/microsoft-secure-score.md
-        - name: Оценка безопасности (предварительная версия)
-          href: ./mtp/microsoft-secure-score-preview.md
         - name: Учебный семинар для руководителя по информационной безопасности (CISO)
           href: ./office-365-security/ciso-workshop.md
           items:
@@ -41,13 +37,13 @@
           href: ../enterprise/sharepoint-file-access-policies.md
     - name: Защита от угроз (Майкрософт)
       items:
-        - name: Общие сведения
+        - name: Обзор
           items:
             - name: Что такое защита от угроз (Майкрософт)?
               href: mtp/microsoft-threat-protection.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
-            - name: Предварительные требования
+            - name: Необходимые компоненты
               href: mtp/prerequisites.md
             - name: Безопасность и конфиденциальность данных
               href: mtp/data-privacy.md
@@ -55,17 +51,17 @@
               href: ./mtp/troubleshoot.md
         - name: Практические руководства
           items:
-            - name: Включение защиты от угроз Майкрософт
+            - name: Включение Защиты от угроз (Майкрософт)
               href: mtp/mtp-enable.md
-            - name: Регистрацию
+            - name: Инциденты
               items:
-                - name: Общие сведения
+                - name: Обзор
                   href: mtp/incidents-overview.md
-                - name: Определение приоритетов инцидентов
+                - name: Управление приоритетом инцидентов
                   href: mtp/incident-queue.md
                 - name: Исследование инцидентов
                   href: mtp/investigate-incidents.md
-                - name: Управление происшествиями
+                - name: Управление инцидентами
                   href: mtp/manage-incidents.md
             - name: Автоматизированный анализ угроз и реакция на угрозы
               items:
@@ -77,52 +73,52 @@
                   href: mtp/mtp-autoir-results.md
                 - name: Утверждение или отклонение ожидающих действий
                   href: mtp/mtp-autoir-actions.md
-            - name: Расширенная охота
+            - name: Расширенная охота на угрозы
               items:
                 - name: Выслеживание в Microsoft 365
                   href: mtp/hunting.md
                 - name: Общие сведения о расширенном поиске
                   href: mtp/advanced-hunting-overview.md
-                - name: Сведения о языке запросов
+                - name: Изучение языка запросов
                   href: mtp/advanced-hunting-query-language.md
                 - name: Использование общих запросов
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: Слежение за устройствами и электронными сообщениями
                   href: mtp/advanced-hunting-query-emails-devices.md
-                - name: Общие сведения о схеме
+                - name: Сведения о схеме
                   href: mtp/advanced-hunting-schema-tables.md
                   items:
-                    - name: мачинеинфо
-                      href: mtp/advanced-hunting-machineinfo-table.md
-                    - name: мачиненетворкинфо
-                      href: mtp/advanced-hunting-machinenetworkinfo-table.md
-                    - name: процесскреатионевентс
-                      href: mtp/advanced-hunting-processcreationevents-table.md
-                    - name: нетворккоммуникатионевентс
-                      href: mtp/advanced-hunting-networkcommunicationevents-table.md
-                    - name: филекреатионевентс
-                      href: mtp/advanced-hunting-filecreationevents-table.md
-                    - name: регистревентс
-                      href: mtp/advanced-hunting-registryevents-table.md
-                    - name: логоневентс
-                      href: mtp/advanced-hunting-logonevents-table.md
-                    - name: имажелоадевентс
-                      href: mtp/advanced-hunting-imageloadevents-table.md
-                    - name: мисцевентс
-                      href: mtp/advanced-hunting-miscevents-table.md
-                    - name: емаилевентс
+                    - name: девицеинфо
+                      href: mtp/advanced-hunting-deviceinfo-table.md
+                    - name: девиценетворкинфо
+                      href: mtp/advanced-hunting-devicenetworkinfo-table.md
+                    - name: девицепроцессевентс
+                      href: mtp/advanced-hunting-deviceprocessevents-table.md
+                    - name: девиценетворкевентс
+                      href: mtp/advanced-hunting-devicenetworkevents-table.md
+                    - name: девицефиливентс
+                      href: mtp/advanced-hunting-devicefileevents-table.md
+                    - name: девицерегистревентс
+                      href: mtp/advanced-hunting-deviceregistryevents-table.md
+                    - name: девицелогоневентс
+                      href: mtp/advanced-hunting-devicelogonevents-table.md
+                    - name: девицеимажелоадевентс
+                      href: mtp/advanced-hunting-deviceimageloadevents-table.md
+                    - name: девицеевентс
+                      href: mtp/advanced-hunting-deviceevents-table.md
+                    - name: EmailEvents
                       href: mtp/advanced-hunting-emailevents-table.md
-                    - name: емаилаттачментинфо
+                    - name: EmailAttachmentInfo
                       href: mtp/advanced-hunting-emailattachmentinfo-table.md
-                    - name: емаилурлинфо
+                    - name: EmailUrlInfo
                       href: mtp/advanced-hunting-emailurlinfo-table.md
-                    - name: девицетвмсекуреконфигуратионассессмент
+                    - name: DeviceTvmSecureConfigurationAssessment
                       href: mtp/advanced-hunting-tvm-configassessment-table.md
-                    - name: девицетвмсекуреконфигуратионассессменткб
+                    - name: DeviceTvmSecureConfigurationAssessmentKB
                       href: mtp/advanced-hunting-tvm-secureconfigkb-table.md
-                    - name: девицетвмсофтвареинвенторивулнерабилитиес
+                    - name: DeviceTvmSoftwareInventoryVulnerabilities
                       href: mtp/advanced-hunting-tvm-softwareinventory-table.md
-                    - name: девицетвмсофтваревулнерабилитиескб
+                    - name: DeviceTvmSoftwareVulnerabilitiesKB
                       href: mtp/advanced-hunting-tvm-softwarevulnerability-table.md
                 - name: Рекомендации по применению запросов
                   href: mtp/advanced-hunting-best-practices.md
@@ -357,7 +353,9 @@
                   items:
                     - name: 'Включение ATP для SharePoint, OneDrive и Microsoft Teams'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: Использование аналитики угроз для знакомства с последними атаками
+            - name: Представления кампании
+              href: ./office-365-security/campaigns.md
+            - name: Общие сведения о последних атаках с помощью службы анализа угроз
               href: ./mtp/latest-attack-campaigns.md
             - name: Просмотр и чтение отчетов ATP
               href: ./office-365-security/view-reports-for-atp.md

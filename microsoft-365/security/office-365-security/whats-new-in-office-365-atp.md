@@ -13,16 +13,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 4d9401c7568534e9f9a0036ef273964d327dbf06
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: a43576bc18d54e3a5c9b2f9ad918c1df3ee67615
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971407"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807944"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
-**Относится к:**
+**Область применения:**
 
 - [Office 365 Advanced Threat protection (Office 365 ATP)](office-365-atp.md)
 
@@ -33,7 +33,7 @@ ms.locfileid: "39971407"
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
 
-Office 365 доступно в двух планах: Office 365 ATP 1 и Office 365 (план 2). [Узнайте больше о том, что входит в каждый план](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
+Office 365 доступно в двух планах: Office 365 ATP 1 и Office 365 (план 2). [Подробнее](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
 

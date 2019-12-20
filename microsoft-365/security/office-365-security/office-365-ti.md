@@ -3,7 +3,7 @@ title: Исследование угроз Office 365 и возможности 
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/04/2019
+ms.date: 12/09/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как функции интеллектуального анализа в Office 365 Advanced Threat protection помогают находить угрозы в Организации, отвечать на вредоносные программы, фишингы и другие атаки, обнаруженные в Office 365 от вашего имени, и искать угрозу показател.
-ms.openlocfilehash: 1e8a3cee67a3fdb56042bc83dac7b09367241bf3
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 45c12647b999e626cb620046aabc95fb4bfa8f4c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39968002"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808124"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Анализ угроз и реагирование на них в Office 365
 
@@ -37,8 +37,8 @@ ms.locfileid: "39968002"
 Средство расследования угроз и возможности реагирования в центре &amp; безопасности и обеспечения безопасности в виде набора средств и рабочих процессов ответа, в том числе следующих:
 - [Панель мониторинга угроз](#threat-dashboard)
 - [Explorer](#threat-explorer)
-- [Регистрацию](#incidents)
-- [Симулятор атак](#attack-simulator)
+- [Инциденты](#incidents)
+- [Эмулятор атак](#attack-simulator)
 - [Автоматизированный анализ угроз и реакция на угрозы](automated-investigation-response-office.md)
 
 ### <a name="threat-dashboard"></a>Панель мониторинга угроз
@@ -57,7 +57,7 @@ ms.locfileid: "39968002"
   
 Чтобы просмотреть &amp; и использовать этот отчет, в центре безопасности и соответствия требованиям Office 365 перейдите в раздел **Обозреватель** **управления** \> угрозами.
   
-### <a name="incidents"></a>Регистрацию
+### <a name="incidents"></a>Инциденты
 
 Используйте список инцидентов (это также называется расследования), чтобы просмотреть список происшествий безопасности рейса. Инциденты используются для отслеживания угроз, таких как подозрительные сообщения электронной почты, а также для проведения дальнейших исследований и исправления.
   
@@ -67,7 +67,7 @@ ms.locfileid: "39968002"
   
 ![В центре безопасности &amp; и соответствия требованиям выберите Обзор управления \> угрозами](../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
-### <a name="attack-simulator"></a>Симулятор атак
+### <a name="attack-simulator"></a>Эмулятор атак
 
 Используйте симулятор для атаки, чтобы настроить и выполнить реалистичные кибератаки в Организации, а затем определить уязвимых людей, прежде чем реальный цибераттакк повлияет на ваш бизнес. Дополнительные сведения см [в симуляторе атак в Office 365](attack-simulator.md).
 
@@ -87,7 +87,7 @@ ms.locfileid: "39968002"
 
 ## <a name="required-roles-and-permissions"></a>Обязательные роли и разрешения
 
-Office 365 Advanced Threat protection использует управление доступом на основе ролей. Разрешения назначаются с помощью ролей в Azure Active Directory, в центре администрирования Microsoft 365 или центре & безопасности Office 365.
+Office 365 Advanced Threat protection использует управление доступом на основе ролей. Разрешения назначаются с помощью определенных ролей в Azure Active Directory, в центре администрирования Microsoft 365 или центре & безопасности Office 365.
 
 > [!TIP]
 > Несмотря на то, что некоторые роли, например администратор безопасности, могут быть назначены в центре & безопасности Office 365, рекомендуется использовать вместо центра администрирования Microsoft 365 или Azure Active Directory. Сведения о ролях, группах ролей и разрешениях можно найти в следующих ресурсах:
@@ -104,7 +104,7 @@ Office 365 Advanced Threat protection использует управление 
 |Интеграция Office 365 Advanced Threat Protection Plan 2 с Advanced Threat Protection в защитнике Microsoft  <br/><br/> Интеграция Office 365 Advanced Threat Protection Plan 2 с сервером SIEM  <br/> |**Глобальный администратор Office 365** или роль **администратора безопасности** , назначенные в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или в центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)).<br/>--- **плюс** ---<br/>Соответствующая роль, назначенная в дополнительных приложениях (например, в [центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) или на сервере SIEM).  |
    
     
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия:
 
 - [Сведения о средствах отслеживания угроз — новые и полезные](threat-trackers.md)
     
