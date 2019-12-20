@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
+title: Microsoft 365 для корпоративных документации и ресурсов
 summary: Лучшие приложения для продуктивной работы с интеллектуальными облачными службами, которые преобразуют способ работы.
 brand: m365
 metadata:
-  title: Документация и ресурсы по продукту "Microsoft 365 корпоративный"
-  description: Сведения о документации по продукту и ресурсах, доступных для Microsoft 365 корпоративный для ИТ-специалистов, информационных работников и партнеров.
+  title: Microsoft 365 для корпоративных документации и ресурсов
+  description: Сведения о документации по продукту и ресурсах, доступных для Microsoft 365 для корпоративных ИТ-специалистов, информационных работников и партнеров.
   services: service
   ms.prod: microsoft-365-enterprise
   ms.service: O365-seccomp
@@ -13,15 +13,15 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/29/2019
-  ms.openlocfilehash: 945412e8e66fe558971ceacf3a57023b5bba6e5f
-  ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+  ms.openlocfilehash: d7c4eccccc47a9264cdd14fab2b7740789dd33b0
+  ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 12/03/2019
-  ms.locfileid: "39669545"
+  ms.lasthandoff: 12/19/2019
+  ms.locfileid: "40801674"
 highlightedContent:
   items:
-  - title: Сведения о Microsoft 365 корпоративный
+  - title: Сведения о Microsoft 365 для предприятий
     itemType: get-started
     url: microsoft-365-overview.md
   - title: Ускорение развертывания с помощью FastTrack
@@ -31,8 +31,8 @@ highlightedContent:
     itemType: learn
     url: https://docs.microsoft.com/learn/m365/
 conceptualContent:
-  title: Получение справки о Microsoft 365 корпоративный и других ресурсах
-  summary: Ознакомьтесь с рекомендациями по развертыванию Microsoft 365 корпоративный, функциями и службами.
+  title: Получение справки по Microsoft 365 для корпоративных и других ресурсов
+  summary: Ознакомьтесь с рекомендациями по развертыванию, функциями и службами корпоративного развертывания Microsoft 365.
   items:
   - title: Следуйте плану развертывания
     links:
@@ -76,7 +76,7 @@ conceptualContent:
     - url: migration-microsoft-365-enterprise-workload.md
       itemType: deploy
       text: Миграция клиента Office и сервера и Windows
-  - title: Управление Microsoft 365 корпоративный
+  - title: Управление Microsoft 365 для предприятий
     links:
     - url: https://docs.microsoft.com/windows/deployment/update/
       itemType: how-to-guide
