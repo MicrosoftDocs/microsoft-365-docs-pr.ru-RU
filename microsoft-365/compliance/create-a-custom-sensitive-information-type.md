@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать, редактировать, удалять и тестировать собственные типы конфиденциальной информации для DLP в графическом пользовательском интерфейсе Центра безопасности и соответствия требованиям.
-ms.openlocfilehash: fbce658eadbffb22d4d8ba65d040503a5854b77f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12a44fcc4fb5228f1e1d901502c1e6dd0e2582af
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089758"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806612"
 ---
 <!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
@@ -34,7 +34,10 @@ ms.locfileid: "37089758"
 
 ## <a name="before-you-begin"></a>Подготовка
 
-- У вашей организации должна быть подписка, например на Office 365 корпоративный, включающая защиту от потери данных (DLP). См. статью [Описание политики обмена сообщениями и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc). 
+> [!NOTE]
+> Чтобы создать, тестировать и развернуть собственный тип конфиденциальной информации с помощью пользовательского интерфейса, необходимы разрешения глобального администратора или администратора соответствия требованиям. См. [сведения о ролях администраторов](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide) в Office 365.
+
+- У вашей организации должна быть подписка, например на Office 365 корпоративный, включающая защиту от потери данных (DLP). См. статью [Описание политики обмена сообщениями и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc). 
 
 - Для работы с пользовательскими типами конфиденциальной информации вы должны быть знакомы с регулярными выражениями (RegEx). Дополнительные сведения о модуле Boost.RegEx (прежнее название — RegEx++), используемом для обработки текста, см. в статье [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/).
 

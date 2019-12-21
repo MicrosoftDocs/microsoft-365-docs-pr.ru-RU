@@ -1,11 +1,11 @@
 ---
 title: Автоматическое применение метки конфиденциальности к содержимому
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.service: O365-seccomp
-ms.date: 11/01/2019
+ms.date: 12/13/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: 3c5b52c89c9a5eb9e78e670bce0b5c3edec89cd1
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 77a0b3cdf88301677451fe7fe1bac58de2a40a5f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256716"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807844"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -29,11 +29,11 @@ ms.locfileid: "39256716"
 
 - вам не придется обучать пользователей работе со всеми категориями;
 
-- вам не нужно будет рассчитывать на то, что пользователи правильно классифицируют все содержимое;
+- вам не нужно будет рассчитывать на то, что пользователи правильно классифицируют весь контент;
 
 - пользователям больше не нужно будет знать о ваших политиках — они могут сосредоточиться на своей работе.
 
-Сведения о требованиях к лицензиям см. в статье [Метки конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md).
+Сведения о требованиях к лицензиям см. в разделе [Требования к подпискам и лицензированию для меток конфиденциальности](sensitivity-labels-office-apps.md#subscription-and-licensing-requirements-for-sensitivity-labels).
 
 Параметры автоматического применения меток доступны при создании метки конфиденциальности в Центре соответствия требованиям Microsoft 365, Центре безопасности Microsoft 365 и Центре безопасности и соответствия требованиям Office 365 в разделе **Классификация** > **Метки конфиденциальности**.
 

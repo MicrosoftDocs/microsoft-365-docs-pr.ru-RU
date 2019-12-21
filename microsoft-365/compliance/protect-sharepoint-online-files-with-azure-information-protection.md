@@ -18,17 +18,19 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-ms.openlocfilehash: 19fab529a9a8fb60afef1a419323d7544eeace88
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 99f6882c37337369fe082314af000f83bfef9aa5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668827"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803756"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Защита файлов SharePoint Online с помощью Azure Information Protection
 
- **Сводка.** Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-  
+>[!Note]
+>Текущее решение для файлов на строго конфиденциальном сайте группы SharePoint Online использует метки конфиденциальности Office 365. Подробности представлены в [этой статье](protect-sharepoint-online-files-with-sensitivity-label.md).
+>
+
 В этой статье показано, как настроить Azure Information Protection, чтобы обеспечить шифрование и применение разрешений для файлов. Эти файлы можно добавлять в библиотеку SharePoint, настроенную на строго конфиденциальный уровень защиты. Или можно открыть файл непосредственно на сайте и использовать клиент Azure Information Protection, чтобы добавить шифрование. Даже при скачивании с сайта файл будет по-прежнему защищен благодаря шифрованию и указанным разрешениям. 
 
 Эти действия являются частью более крупного решения по настройке строго конфиденциальной защиты для сайтов SharePoint и файлов на этих сайтах. Дополнительные сведения см. в статье [Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md). 
@@ -49,9 +51,7 @@ ms.locfileid: "39668827"
     
 2. Перейдите на портал Azure ([https://portal.azure.com](https://portal.azure.com)), открыв отдельную вкладку браузера.
     
-3. Если вы настраиваете Azure Information Protection впервые, ознакомьтесь с этими [инструкциями](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
-
-4. На панели списка выберите **Все службы**, введите **information**, а затем выберите **Azure Information Protection**.
+4. Введите в поле поиска запрос **information**, а затем выберите **Azure Information Protection**.
 
 5. Выберите **Метки**.
     
@@ -113,6 +113,6 @@ ms.locfileid: "39668827"
 
 [Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
   
-[Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

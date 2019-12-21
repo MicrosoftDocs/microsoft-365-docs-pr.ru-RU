@@ -1,7 +1,7 @@
 ---
 title: Просмотр действий с метками для документов
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 5/9/2018
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При помощи обозревателя действий с метками в Центре безопасности и соответствия требованиям Office 365 вы можете быстро искать и просматривать весь контент в SharePoint и OneDrive для бизнеса за последние 30 дней. Эти данные обновляются в реальном времени и дают вам хорошее представление о том, что происходит в клиенте.
-ms.openlocfilehash: 99e3f461ed1ff38b2f204a2823299a3c441c995f
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: 9c34cde4d9dde96b8fb1251e9d2be449031cc58a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38710126"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802234"
 ---
 # <a name="view-label-activity-for-documents"></a>Просмотр действий с метками для документов
 

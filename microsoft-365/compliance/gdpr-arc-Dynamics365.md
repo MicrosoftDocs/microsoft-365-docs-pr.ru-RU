@@ -13,12 +13,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 055c19715ff5dcd28ae05489600a31b2f7904e72
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 828c4f7faaae1225d438a4d34b159d981b31b141
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749975"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806522"
 ---
 # <a name="dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Контрольный список готовности к подотчетности для Dynamics 365 в рамках GDPR
 
@@ -26,8 +27,8 @@ ms.locfileid: "38749975"
 
 В этом контрольном списке готовности отчетности собрана информация, необходимая для поддержки общего регламента по защите данных (GDPR) при использовании Microsoft Dynamics 365. Содержимое контрольного списка упорядочено по названиям и кодовым номерам (приведенным в скобках для каждой статьи в списке), назначенным контрольным точкам обеспечения конфиденциальности и безопасности для обработчиков персональных данных, которые определены в стандартах:
 
-- [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735) — требования в отношении методов обеспечения безопасности;
-- [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) — требования в отношении управления конфиденциальностью.
+- [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736) — требования, относящиеся к методам обеспечения безопасности;
+- [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) — требования, относящиеся к управлению конфиденциальностью.
 
 Вы можете управлять элементами, указанными в этом контрольном списке, в диспетчере соответствия требованиям [[15](gdpr-arc-Dynamics365.md#15)], выбирая идентификаторы и названия средств контроля в списке *Customer Managed Controls* (Средства контроля, управляемые клиентом) на плитке GDPR.
 

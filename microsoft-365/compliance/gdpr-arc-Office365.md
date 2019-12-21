@@ -12,12 +12,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 66a3478ed625b3c7453992e04070d57beef173eb
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: c31107588e6d7841e93c3a1cd653790f3937c21e
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749978"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808534"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Контрольный список готовности к подотчетности для Microsoft Office 365
 
@@ -31,8 +32,8 @@ ms.locfileid: "38749978"
 
 Содержимое контрольного списка и диспетчера соответствия требованиям упорядочено по названиям и кодовым номерам (приведенным в скобках для каждой статьи в списке), назначенным контрольным точкам проверки конфиденциальности и безопасности для обработчиков персональных данных, которые определены в стандарте:
 
-- [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735) — требования в отношении методов обеспечения безопасности;
-- [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) — требования в отношении управления конфиденциальностью.
+- [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736) — требования, относящиеся к методам обеспечения безопасности;
+- [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) — требования, относящиеся к управлению конфиденциальностью.
 
 Такая структура контроля также применяется для упорядочения презентации внутренних средств контроля, реализованных в Microsoft Office 365 для выполнения требований GDPR, которую можно скачать в центре [Service Trust Center](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 

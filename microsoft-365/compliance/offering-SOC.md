@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4d8587438d564d98d9b30897ebdf5bf8722a09c8
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 380e1b2fadc48c395fbd8c2b10c0d65a6ba01675
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859489"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804262"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -108,7 +109,7 @@ ms.locfileid: "39859489"
 
 **Как часто выпускаются отчеты SOC для Azure?**
 
-Отчеты SOC для Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream и центров обработки данных Майкрософт основаны на 12-месячном сроке работы (период аудита), а новые отчеты выпускаются ежеквартально. Повышенная частота аудита обеспечивает более своевременные проверки в отчете SOC, что обеспечивает дополнительные гарантии от внешнего аудитора по сравнению со связывающим письмом. Клиенты могут [скачать](https://aka.ms/stp) последние отчеты с портала Service Trust Portal.
+Отчеты SOC для Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream и центров обработки данных Майкрософт основаны на 12-месячном сроке работы (период аудита), а новые отчеты выпускаются раз в полгода (периоды заканчиваются 31 марта и 30 сентября). Связывающие письма рассылаются в январе (за период от 1.10 до 31.12) и в июле (за период от 1.04 до 30.06). Клиенты могут [скачать](https://aka.ms/stp) последние отчеты с портала Service Trust Portal.
 
 **Нужно ли самостоятельно проводить аудит центров обработки данных Майкрософт?**
 

@@ -1,7 +1,7 @@
 ---
 title: Хранение, зависящее от возникновения события
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как настроить операции бизнес-процесса, чтобы автоматизировать хранение с помощью событий, используя REST API Microsoft 365.
-ms.openlocfilehash: b4ae97ad9564f61e65b990a0054fcf13d88f1d8d
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: b2aadaf4e450167cf7bff864569652c05deb7298
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39631069"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807438"
 ---
 # <a name="automate-event-based-retention"></a>Автоматизация хранения на основе событий
 
@@ -407,7 +407,7 @@ Rest API — это конечная точка службы, поддержив
 
 Шаг 1. Перейдите в Центр безопасности и соответствия требованиям.
 
-Шаг 2. Выберите пункт **События** в разделе **Управление данными**.
+Шаг 2. Выберите **События** в разделе **Управление информацией**.
 
 Шаг 3. Убедитесь, что событие создано.
 
