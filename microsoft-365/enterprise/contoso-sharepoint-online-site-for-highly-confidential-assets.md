@@ -3,7 +3,7 @@ title: Сайт SharePoint для строго конфиденциальных 
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/04/2019
+ms.date: 11/18/2019
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso реализовала сайт SharePoint для строго регулируемых данных, чтобы упростить совместную работу между ее справочными группами.
-ms.openlocfilehash: ce813407c0f4c6f7b68aa997bf5e54b86a24ff2d
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: caad341c6a44b3270f2bdecd4ab4d8378c11db2c
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672715"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "38699725"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Сайт SharePoint для строго конфиденциальных цифровых активов корпорации Contoso
 
@@ -55,7 +55,7 @@ ms.locfileid: "38672715"
 
 Сведения о конфигурации приведены в разделе [Защита файлов SharePoint с метками хранения и DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp).
 
-## <a name="step-4-created-an-office-365-sensitivity-sublabel-for-the-site"></a>Шаг 4: создана Подметка Office 365 с учетом конфиденциальности для сайта
+## <a name="step-3-created-an-office-365-sensitivity-sublabel-for-the-site"></a>Шаг 3: создана Подметка Office 365 "чувствительность" для сайта
 
 Администраторы Contoso создали новую подметку Office 365 "чувствительность" с именем " **исследование Teams** " в метке **строго конфиденциальной информации** , которая:
 
@@ -78,11 +78,11 @@ ms.locfileid: "38672715"
 ![Результирующая конфигурация сайта справочной группы для строго конфиденциальных активов](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
 
 
-## <a name="step-5-migrated-the-on-premises-sharepoint-research-data"></a>Шаг 5: Перенос локальных данных исследований SharePoint
+## <a name="step-4-migrated-the-on-premises-sharepoint-research-data"></a>Шаг 4: Перенос локальных данных исследования SharePoint
 
 Администраторы Contoso переехали все локальные файлы исследований на локальном сайте SharePoint Server 2016 в папки на новом сайте **центра исследований** SharePoint.
 
-## <a name="step-6-trained-their-researchers"></a>Шаг 6: обучение исследователей
+## <a name="step-5-trained-their-researchers"></a>Шаг 5: обучение исследователей
 
 Сотрудники отдела безопасности Contoso обучены участниками группы **исследование** Office 365 в обязательном курсе, в котором их пошагово проходят:
 

@@ -6,18 +6,18 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bdd11728b6b3b5ebaf0eea507906e4fc31adb7b5
-ms.sourcegitcommit: d9350b6465d1404d32bcba8f5fc5a203085e6b82
+ms.openlocfilehash: b517ab49681b7e9251cd5b577c9522db32aea4cb
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35786734"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "37422536"
 ---
 # <a name="microsoft-managed-desktop-supported-regions-and-languages"></a>Поддерживаемые регионы и языки для настольных компьютеров Майкрософт
 
 В этом разделе представлены сведения о регионах и языках, поддерживаемых настольным компьютером, управляемым Майкрософт. 
 
-- **Регионы:** США, Канада (за исключением Квебека), Великобритании, Австралии и Новой Зеландии
+- **Регионы:** США, Канада (за исключением Квебека), Великобритания, Бельгия, Люксембург, Нидерландов, Австралия и Новая Зеландия
 - **Языки:** Английский — единственный поддерживаемый язык, который в настоящее время доступен пользователям на управляемых устройствах. Это относится как к [поддержке администратора](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) , так и к вариантам [поддержки конечных пользователей](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support) . 
 
 Однако клиенты по-прежнему могут использовать управляемые устройства за пределом перечисленных выше регионов без прерывания до службы управляемых рабочих столов Майкрософт. Например, сотрудник, основанный на Соединенном Королевстве, может безопасно работать и получать обновления на управляемом устройстве, работая в дороге, Европе или Южной Америке.
