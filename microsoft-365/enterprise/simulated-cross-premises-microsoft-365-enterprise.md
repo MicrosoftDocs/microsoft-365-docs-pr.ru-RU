@@ -14,12 +14,12 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 description: Сводка. Создание имитации распределенной виртуальной сети в Microsoft Azure как тестовой среды Microsoft 365.
-ms.openlocfilehash: 69e269de55aa7cd06dc5e26edbd29ae981fb9683
-ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
+ms.openlocfilehash: 4293975fc6c2cd2583fe8e0dd7bbf54536f6c93c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38694086"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801324"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Имитация распределенной виртуальной сети в тестовой среде Microsoft 365
 
@@ -27,7 +27,7 @@ ms.locfileid: "38694086"
 
 В этой статье описаны действия по созданию имитации гибридной облачной среды в Microsoft Azure с помощью двух виртуальных сетей Azure. Ниже показана итоговая конфигурация. 
   
-![Этап 3: создание имитации распределенной виртуальной сети как среды разработки и тестирования (с виртуальной машиной DC2 в сети XPrem)](media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)
+![Этап 3: создание имитации распределенной виртуальной сети как среды тестирования (с виртуальной машиной DC2 в сети XPrem)](media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)
   
 Так имитируется гибридная облачная рабочая среда Azure IaaS, которая включает:
   
@@ -45,7 +45,7 @@ ms.locfileid: "38694086"
     
 - Создавать тестовые конфигурации компьютеров внутри виртуальной сети (для некоторых это TestLab, а для некоторых — XPrem), чтобы имитировать рабочие ИТ-нагрузки на основе гибридного облака.
     
-Процесс настройки этой среды разработки и тестирования состоит из трех перечисленных ниже основных этапов.
+Процесс настройки этой среды тестирования состоит из трех перечисленных ниже основных этапов.
   
 1. Настраивать виртуальную сеть TestLab.
     
@@ -126,7 +126,7 @@ Add-AzVirtualNetworkPeering -Name XPrem2TestLab -VirtualNetwork $vnet2 -RemoteVi
 
 Это ваша текущая конфигурация. 
   
-![Этап 2: создание имитации распределенной виртуальной сети как среды разработки и тестирования (с сетью XPrem и пиринговыми отношениями)](media/simulated-cross-premises-microsoft-365-enterprise/cac5e999-69c7-4f4c-bfce-a7f4006115ef.png)
+![Этап 2: создание имитации распределенной виртуальной сети как среды тестирования (с сетью XPrem и пиринговыми отношениями)](media/simulated-cross-premises-microsoft-365-enterprise/cac5e999-69c7-4f4c-bfce-a7f4006115ef.png)
   
 ## <a name="phase-3-configure-dc2"></a>Этап 3. Настройка DC2
 
@@ -198,7 +198,7 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 Это ваша текущая конфигурация. 
   
-![Этап 3: создание имитации распределенной виртуальной сети как среды разработки и тестирования (с виртуальной машиной DC2 в сети XPrem)](media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)
+![Этап 3: создание имитации распределенной виртуальной сети как среды тестирования (с виртуальной машиной DC2 в сети XPrem)](media/simulated-cross-premises-microsoft-365-enterprise/df458c56-022b-4688-ab18-056c3fd776b4.png)
   
 Ваша имитированная гибридная облачная среда Azure готова к тестированию.
   

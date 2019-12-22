@@ -1,9 +1,9 @@
 ---
-title: Изменения содержимого развертывания Microsoft 365 корпоративный
+title: Изменения содержимого развертывания Microsoft 365 для предприятий
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 12/03/2019
+ms.date: 12/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,14 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: bf7cda762d2ac7a8fd57135b985d893ee03c0646
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 9f5b586defa460648c1d3a7b5972124497d0f53f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831830"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801564"
 ---
-# <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 корпоративный
+# <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 для предприятий
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
 
@@ -31,14 +31,13 @@ ms.locfileid: "39831830"
 ### <a name="updates-and-enhancements"></a>Обновления и улучшения
 
 - Использованием меток конфиденциальности для [защиты сайтов и файлов SharePoint Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-sharepoint-online-sites-and-files)
--  Новые процедуры пробной подписки для [простой базовой конфигурации](lightweight-base-configuration-microsoft-365-enterprise.md) и [базовой конфигурации "имитация предприятия"](simulated-ent-base-configuration-microsoft-365-enterprise.md)
-- 
+-  Обновление набора [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md) 
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
 ### <a name="new-content"></a>Новое содержимое 
 
-- [Переход с Microsoft 365 бизнес на Microsoft 365 корпоративный E3](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+- [Миграция с Microsoft 365 бизнес на Microsoft 365 E3](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
 
 - [Команда для сверхсекретного проекта корпорации Contoso](contoso-team-for-top-secret-project.md)
 
@@ -93,9 +92,9 @@ ms.locfileid: "39831830"
  
   [![Сценарий сайтов SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)](teams-sharepoint-online-sites-highly-regulated-data.md)
 
-- [Плакат Microsoft 365 корпоративный](microsoft-365-overview.md#get-the-big-picture) для новых сценариев 
+- [Плакат Microsoft 365 для предприятий](microsoft-365-overview.md#get-the-big-picture) для новых сценариев 
 
-  [![Изображение плаката Microsoft 365 корпоративный](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+  [![Изображение для плаката Microsoft 365 для предприятий](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
@@ -118,11 +117,11 @@ ms.locfileid: "39831830"
 
 ### <a name="new-content"></a>Новое содержимое 
 
-- [Плакат "Переход организации на Microsoft 365 корпоративный"](migration-microsoft-365-enterprise-workload.md#transition-your-entire-organization)
+- [Плакат "Переход вашей организации на Microsoft 365 для предприятий"](migration-microsoft-365-enterprise-workload.md#transition-your-entire-organization)
 
    [![Изображение плаката перехода на Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
  
-- [Плакат "Инфраструктура удостоверений для Microsoft 365 корпоративный"](identity-infrastructure.md)
+- [Плакат "Инфраструктура удостоверений для Microsoft 365 для предприятий"](identity-infrastructure.md)
 
   [![Плакат инфраструктуры удостоверений](./media/identity-infrastructure/m365e-identity-arch-poster.png)](media/identity-infrastructure/M365E-ID-Infra.pdf)
 
@@ -138,15 +137,15 @@ ms.locfileid: "39831830"
 
 ### <a name="updates-and-enhancements"></a>Обновления и улучшения
 
-- [Плакат Microsoft 365 корпоративный](microsoft-365-overview.md#get-the-big-picture) для новых сценариев повышения производительности
+- [Плакат Microsoft 365 для предприятий](microsoft-365-overview.md#get-the-big-picture) для новых сценариев повышения производительности
 
-   [![Изображение плаката Microsoft 365 корпоративный](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+   [![Изображение для плаката Microsoft 365 для предприятий](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 ## <a name="july-2019"></a>Июль 2019 г.
 
 ### <a name="new-content"></a>Новое содержимое
 
-- Книга Excel для статьи [Microsoft 365 корпоративный для некорпоративных организаций](deploy-foundation-infrastructure-non-enterprises.md#onboarding)
+- Книга Excel для статьи [Microsoft 365 для предприятий для некорпоративных организаций](deploy-foundation-infrastructure-non-enterprises.md#onboarding)
 
 ## <a name="may-2019"></a>Май 2019 г.
 
@@ -154,12 +153,12 @@ ms.locfileid: "39831830"
 
 - [Плакат базовой инфраструктуры](deploy-foundation-infrastructure.md#at-a-glance)
 
-  [![Плакат с изображением базовой инфраструктуры Microsoft 365 корпоративный](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
+  [![Изображение для плаката базовой инфраструктуры Microsoft 365 для предприятий](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
   Объявления: [LinkedIn](https://www.linkedin.com/pulse/how-can-i-get-big-picture-microsoft-365-enterprise-joe-davies/)
 
  
-- Статья [Microsoft 365 корпоративный для некорпоративных организаций](deploy-foundation-infrastructure-non-enterprises.md)
+- Статья [Microsoft 365 для предприятий для некорпоративных организаций](deploy-foundation-infrastructure-non-enterprises.md)
 
   [![Сводное представление инфраструктуры, если организация использует только облачную идентификацию](./media/deploy-foundation-infrastructure-non-enterprises/final-cloud-only-config.png)](deploy-foundation-infrastructure-non-enterprises.md)
 

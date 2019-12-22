@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
-ms.openlocfilehash: fb5e99f775c8e23b8ea522ca15b115a5c5d3aedf
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: fd3f73919a113389e9d423dbed11cf0074fb5833
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831890"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802064"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Сводка по безопасности Microsoft 365 корпоративный для корпорации Contoso
 
@@ -54,7 +54,7 @@ ms.locfileid: "39831890"
 
 - Специальные учетные записи глобального администратора с использованием MFA и PIM
 
-  Вместо того чтобы назначить роль глобального администратора обычным учетным записям пользователей, в Contoso создали три специальные учетные записи глобального администратора с надежными паролями и защитили их с помощью многофакторной проверки подлинности (MFA) Azure и Azure Active Directory (Azure AD) Privileged Identity Management (PIM). Возможности PIM доступны только в плане Microsoft 365 корпоративный E5.
+  Вместо того чтобы назначить роль глобального администратора обычным учетным записям пользователей, в Contoso создали три специальные учетные записи глобального администратора с надежными паролями и защитили их с помощью многофакторной проверки подлинности (MFA) Azure и Azure Active Directory (Azure AD) Privileged Identity Management (PIM). PIM доступно только с Microsoft 365 E5.
 
   Вход в учетную запись глобального администратора выполняется только для определенных задач администрирования, пароли известны только специально назначенному персоналу и могут использоваться только в течение времени, указанного в Azure AD PIM. 
 
@@ -117,7 +117,7 @@ ms.locfileid: "39831890"
 
 - Мониторинг облака с помощью Microsoft Cloud App Security
 
-  С помощью [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) корпорация Contoso создает схему своей облачной среды, отслеживает ее использование, определяет инциденты и события безопасности. Microsoft Cloud App Security предлагается только в плане Microsoft 365 корпоративный E5.
+  С помощью [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) корпорация Contoso создает схему своей облачной среды, отслеживает ее использование, определяет инциденты и события безопасности. Microsoft Cloud App Security предлагается только в плане Microsoft 365 E5.
 
 - Управление устройствами с использованием Microsoft Intune
 
