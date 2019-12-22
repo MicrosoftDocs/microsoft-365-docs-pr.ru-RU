@@ -1,4 +1,4 @@
-Дополнительные рекомендации по инфраструктуре удостоверений см. в разделе [Предварительные требования](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites).
+Дополнительные рекомендации по инфраструктуре удостоверений см. в разделе [Предварительные требования](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-prerequisites).
 
 <a name="crit-identity-global-admin"></a>
 ### <a name="required-your-global-administrator-accounts-are-protected"></a>Обязательное требование: ваши учетные записи глобальных администраторов защищены 
@@ -14,7 +14,7 @@
 Чтобы убедиться, что ваши учетные записи глобальных администраторов защищены, выполните указанные ниже действия.
 
 1. Выполните указанную ниже команду Azure Active Directory PowerShell для Graph в командной строке PowerShell. Должен отобразиться только список выделенных учетных записей глобальных администраторов.
-   ```
+   ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
 2. Войдите в Office 365 с помощью каждой из учетных записей, указанных в шаге 1. При каждом входе система должна требовать многофакторную проверку подлинности Azure с использованием максимально надежного способа дополнительной проверки подлинности, доступного в вашей организации.
@@ -93,7 +93,7 @@
 5.  Удалите тестовую учетную запись пользователя.
 
 <a name="crit-identity-ident-prot"></a>
-### <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>Необязательное требование: включена функция защиты идентификации Azure AD для защиты от компрометации учетных данных (только для Microsoft 365 корпоративный E5)
+### <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>Необязательное требование: включена функция защиты идентификации Azure AD для защиты от компрометации учетных данных (только для Microsoft 365 E5)
 
 Вы включили функцию защиты идентификации Azure AD для указанных ниже целей.
 

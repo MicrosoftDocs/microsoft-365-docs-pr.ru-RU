@@ -16,12 +16,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Сводка. Сведения о том, как создавать общедоступные, частные, конфиденциальные и строго конфиденциальные сайты групп SharePoint Online в среде разработки и тестирования для политической кампании.
-ms.openlocfilehash: bade24bbe0ebcf56007a7b5650ee5a55fc3697b6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: db248081460c30dbc1fb10b7e0ea2d55dbb8d3ab
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091141"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808594"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Создание сайтов групп в среде разработки и тестирования для политической кампании
 
@@ -37,7 +37,7 @@ ms.locfileid: "37091141"
 
 На этом этапе вы создадите метки разных уровней защиты для папок документов на сайтах групп SharePoint Online.
   
-1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. На вкладке **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
     
@@ -368,13 +368,11 @@ ms.locfileid: "37091141"
   
 Затем настройте для Azure Information Protection новую политику области и вложенную метку для защиты и разрешений, выполнив следующие действия:
   
-1. Войдите в Центр администрирования, используя учетную запись с ролью администратора компании или администратора безопасности. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в Центр администрирования, используя учетную запись с ролью администратора компании или администратора безопасности. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Перейдите на портал Azure ([https://portal.azure.com](https://portal.azure.com)), открыв отдельную вкладку браузера.
     
-3. Если вы настраиваете Azure Information Protection впервые, ознакомьтесь с этими [инструкциями](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
-    
-4. На панели списка выберите **Все службы**, введите **information**, а затем выберите **Azure Information Protection**.
+4. Введите в области поиска запрос **information**, а затем выберите **Azure Information Protection**.
 
 5. Выберите **Метки**.
     

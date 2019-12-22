@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Учетные записи глобальных администраторов нуждаются в особой обработке, чтобы защитить их от компрометации учетных данных.
-ms.openlocfilehash: 257caf197df74d32b438a17158598237cf4c58b5
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 1a0274967798e6c2ba6048e5a2cfd70e73cb0671
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627085"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801834"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>Шаг 1. Создание и защита учетных записей глобальных администраторов
 
@@ -72,7 +72,7 @@ ms.locfileid: "38627085"
 
 Ваши учетные записи администраторов становятся разрешенными, а не постоянными администраторами. Роль администратора будет неактивной до тех пор, пока она не понадобится. После этого вы сможете выполнить процесс активации, чтобы добавить роль администратора в учетную запись администратора в течение определенного периода времени. По истечении этого времени PIM удаляет роль администратора из учетной записи администратора.
 
-PIM доступна в службе Azure Active Directory Premium P2, которая входит в состав Microsoft 365 корпоративный E5. Кроме того, вы можете приобрести отдельные лицензии Azure Active Directory Premium P2 для ваших учетных записей администраторов.
+PIM доступна в службе Azure Active Directory Premium P2, которая входит в состав Microsoft 365 E5. Кроме того, вы можете приобрести отдельные лицензии Azure Active Directory Premium P2 для ваших учетных записей администраторов.
 
 Чтобы включить Azure PIM для вашего клиента Azure AD и учетных записей администраторов, см. [указания по настройке PIM](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).
 
