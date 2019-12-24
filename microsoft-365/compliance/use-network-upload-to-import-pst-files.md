@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Для администраторов: узнайте, как использовать отправку по сети для импорта PST-файлов в почтовые ящики пользователей Office 365.'
-ms.openlocfilehash: c25872247e72f53f5b95454acdeb3b0715763748
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4354e0c630066204811f98cce53d6b0f041b20ad
+ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802324"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854074"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-office-365"></a>Использование отправки по сети для импорта PST-файлов организации в Office 365
 
@@ -371,13 +371,12 @@ ms.locfileid: "40802324"
     This example uploads PST files to a subfolder named PSTFiles  in the Azure storage location:
 
     AzCopy.exe /Source:"\\FILESERVER1\PSTs" /Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D" /V:"c:\Users\Admin\Desktop\AzCopy1.log" /Y
-``
+    ```
 
-- As previously explained, the Office 365 Import service turns on the retention hold setting (for an indefinite duration) after PST files are imported to a mailbox. This means the  *RetentionHoldEnabled*  property is set to  **True** so that the retention policy assigned to the mailbox won't be processed. This gives the mailbox owner time to manage the newly imported messages by preventing a deletion or archive policy from deleting or archiving older messages. Here are some steps you can take to manage this retention hold: 
+- Как упоминалось выше, служба импорта Office 365 включает параметр приостановки хранения (на неопределенное время) после импорта PST-файлов в почтовый ящик. Это означает, что для свойства *RetentionHoldEnabled* установлено значение **True**, чтобы политика хранения, назначенная почтовому ящику, не обрабатывалась. Это предоставляет владельцу почтового ящика время управлять только что импортированными сообщениями, не давая политике удаления или архивации удалить или архивировать более старые сообщения. Вот как можно управлять приостановкой хранения: 
     
-    - After a certain time, you can turn off the retention hold by running the **Set-Mailbox -RetentionHoldEnabled $false** command. For instructions, see [Place a mailbox on retention hold](https://go.microsoft.com/fwlink/p/?LinkId=544749).
+    - По прошествии определенного времени вы можете отключить приостановку хранения, выполнив команду **Set-Mailbox -RetentionHoldEnabled $false**. Инструкции для этого см. в статье [Включение функции приостановки хранения для почтового ящика](https://go.microsoft.com/fwlink/p/?LinkId=544749).
     
-   - You can configure the retention hold so that it's turned off on some date in the future. You do this by running the **Set-Mailbox -EndDateForRetentionHold *date*** command. For example, assuming that today's date is June 1, 2016 and you want the retention hold turned off in 30 days, you would run the following command:  **Set-Mailbox -EndDateForRetentionHold 7/1/2016**. In this scenario, you would leave the  **RetentionHoldEnabled**  property set to  *True*. For more information, see [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
+   - Приостановку хранения можно настроить таким образом, чтобы она отключилась в определенную дату. Это можно сделать, выполнив команду **Set-Mailbox -EndDateForRetentionHold *date***. Предположим, например, что сегодня 1 июля 2016 года и вы хотите, чтобы приостановка хранения отключилась через 30 дней. Для этого нужно выполнить такую команду: **Set-Mailbox -EndDateForRetentionHold 7/1/2016**. В данном случае для свойства **RetentionHoldEnabled** нужно оставить значение *True*. Дополнительные сведения см. в статье [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
     
-   - You can change the settings for the retention policy that's assigned to the mailbox so that older items that were imported won't be immediately deleted or moved to the user's archive mailbox. For example, you could lengthen the retention age for a deletion or archive policy that's assigned to the mailbox. In this scenario, you would turn off the retention hold on the mailbox after you changed the settings of the retention policy. For more information, see [Set up an archive and deletion policy for mailboxes in your Office 365 organization](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
-    
+   - Параметры назначенной почтовому ящику политики хранения можно изменить таким образом, чтобы более старые из импортированных элементов не удалялись и не перемещались в архивный почтовый ящик пользователя сразу. Например, можно продлить срок хранения для назначенной почтовому ящику политики удаления или архивации. В таком случае после того, как вы измените параметры политики хранения, нужно отключить приостановку хранения в почтовом ящике. Дополнительные сведения см. в статье [Настройка политики архивации и удаления для почтовых ящиков в организации Office 365](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
