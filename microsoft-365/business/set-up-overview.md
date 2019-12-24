@@ -23,14 +23,20 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Обзор действий по установке Microsoft 365 бизнес.
-ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
-ms.translationtype: HT
+ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967630"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850811"
 ---
 # <a name="overview-of-setup"></a>Обзор установки
+
+Посмотрите короткое видео о Microsoft 365 бизнес-установки.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
+
+Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Большинство действий по установке можно выполнить с помощью мастера установки, но есть и другие варианты.
 
@@ -50,14 +56,12 @@ ms.locfileid: "39967630"
   
   Помимо параметров безопасности, в мастере установки вы можете повысить уровень безопасности, добавив следующие параметры:
 
-
 - **Защита от вредоносных программ в электронной почте**
 - **Защита от фишинга ATP**
 - **Архивация на базе Exchange Online**
 - **Azure Information Protection (план 1**)
 
-
-Для этого см. [настройка дополнительных политик безопасности](set-up-advanced-security.md).
+Чтобы приступить к работе, ознакомьтесь со статьей [Настройка расширенных политик безопасности](set-up-advanced-security.md).
 
 См. также[10 основных способов защиты Microsoft 365 бизнес](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data), где содержится план рекомендаций в области безопасности.
 

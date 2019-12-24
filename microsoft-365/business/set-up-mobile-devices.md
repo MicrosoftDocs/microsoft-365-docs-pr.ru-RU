@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Установите Office на iPhone или телефоне с Android, и ваши рабочие файлы в приложениях Office будут защищены корпорацией Microsoft 365 Business.
-ms.openlocfilehash: d87ea714f578130d05be57d1f66270b306f37c7c
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 6dc116f9c0822d33e8d742d065c8485a0cf82c37
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831390"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850831"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Настройка мобильных устройств для пользователей Microsoft 365 Business
 
@@ -39,9 +39,11 @@ ms.locfileid: "39831390"
 
 ## <a name="iphonetabiphone"></a>[iPhone](#tab/iPhone)
   
-Посмотрите видеоролик, посвященный настройке приложений Office на устройствах с iOS в Microsoft 365 Business.<br><br>
+Посмотрите короткое видео о настройке приложений Office на устройствах с iOS в Microsoft 365 Business.<br><br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/e0ee7052-e0f4-4c42-a4f1-5e91b9776ce9?autoplay=false] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
+
+Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Откройте приложение **App store** и в поле поиска введите Microsoft Outlook.
   
@@ -101,6 +103,6 @@ Enter your work email address on the **Add Email Account** screen \> **Add Accou
 
 ## <a name="see-also"></a>См. также
 
-[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---
