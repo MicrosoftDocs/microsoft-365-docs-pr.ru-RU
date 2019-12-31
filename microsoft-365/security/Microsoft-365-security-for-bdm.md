@@ -2,7 +2,7 @@
 title: Microsoft 365 Security для лиц, принимающих решения в Организации (вариантах развертывания)
 ms.author: bcarter
 author: brendacarter
-manager: ''
+manager: johmar
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: наиболее распространенные сценарии угроз и атак, которые в настоящее время сталкиваются организациями для своих сред Microsoft 365, и рекомендуемые действия по устранению этих рисков.
-ms.openlocfilehash: 3d2c7fc289930e3cc73deddcd43f25efc321a237
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9ad9d05cf29dba5aa3a7d14063db6fa2b4dd3bc4
+ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801254"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910140"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>Microsoft 365 Security для лиц, принимающих решения в Организации (вариантах развертывания)
 
@@ -134,7 +134,7 @@ Microsoft 365 Information Protection поможет вам определить,
 |Использование средств **Office 365 ATP** :<br>• Исследование угроз и возможности реагирования<br> • Автоматическое исследование и ответ |         |![Зеленая галочка](../images/green-check-mark.png)|
 |Использование **пакета ATP для защитника Майкрософт**:<br> • [Обнаружение конечных точек и ответ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) <br> • Оценка безопасности автоматического исследования и исправления <br>• [Расширенный](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) Поиск <br>|         |![Зеленая галочка](../images/green-check-mark.png)|
 |Используйте **Microsoft Cloud App Security** для обнаружения нетипичного поведения в облачных приложениях, чтобы определить, скомпрометированные пользователи или мошеннические приложения, проанализировать использование высокой степени риска и исправить его автоматически, чтобы ограничить риск для Организации.|         |![Зеленая галочка](../images/green-check-mark.png)|
-|Используйте **Microsoft Azure Sentinel** или **текущее средство SIEM** для отслеживания угроз в среде. Метку Azure можно использовать в периоде предварительной версии. |         |![Зеленая галочка](../images/green-check-mark.png)|
+|Используйте **Microsoft Azure Sentinel** или текущее средство SIEM для отслеживания угроз в среде. |         |![Зеленая галочка](../images/green-check-mark.png)|
 |**Разверните [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) ** для мониторинга и защиты от угроз, предназначенных для локальной среды Active Directory.   |         |![Зеленая галочка](../images/green-check-mark.png) |
 |Используйте **Центр безопасности Azure** для отслеживания угроз между гибридными и облачными рабочими нагрузками. Центр безопасности Azure включает в себя бесплатный уровень возможностей и стандартный уровень возможностей, которые оплачиваются на основе рабочих часов или транзакций.|         |         |
 

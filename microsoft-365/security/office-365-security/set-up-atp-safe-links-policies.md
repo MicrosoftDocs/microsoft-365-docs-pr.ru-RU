@@ -5,7 +5,7 @@ author: msfttracyp
 manager: dansimp
 audience: Admin
 ms.topic: article
-ms.date: 06/26/2019
+ms.date: 12/30/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Настройка политик безопасных ссылок для защиты Организации от вредоносных ссылок в файлах Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты.
-ms.openlocfilehash: 29e0c8d485d89498fe952d29d8b68f808c4aaaf3
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 3055a5330707b3654998fbdc937ead239742cb32
+ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970135"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910160"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик безопасных ссылок на Office 365 ATP
 
@@ -122,8 +122,8 @@ ms.locfileid: "39970135"
 |Этот параметр  |Обеспечивает следующее  |
 |---------|---------|
 | **Блокировка следующих URL-адресов** <br/>    | Позволяет Организации иметь настраиваемый список автоматически блокируемых URL-адресов. Когда пользователи щелкают URL-адрес в этом списке, они будут отображаться на [странице предупреждения](atp-safe-links-warning-pages.md) , в которой объясняется, почему URL-адрес блокируется. Чтобы узнать больше, ознакомьтесь со статьей [Настройка настраиваемого списка заблокированных URL-адресов, используя безопасные ссылки Office 365 ATP](set-up-a-custom-blocked-urls-list-wtih-atp.md). |
-| **Office 365 профессиональный плюс, Office для iOS и Android** <br/>    | Если выбран этот параметр, защита с помощью безопасных ссылок ATP применяется к URL-адресам в файлах Word, Excel и PowerPoint в Windows или Mac OS, документах Office на iOS или устройствах с Android, Visio 2016 в Windows и веб-версиях приложений Office (Word, PowerPoint, Excel и OneNote), при условии, что пользователь выполнил вход в Office 365. |
-| **Не отслеживать, когда пользователи щелкают безопасные ссылки ATP** <br/>  | Если выбран этот параметр, нажмите кнопку данные для URL-адресов в документах Word, Excel, PowerPoint и Visio.  <br/> |
+| **Office 365 профессиональный плюс, Office для iOS и Android** <br/>    | Если выбран этот параметр, защита с помощью безопасного списка ATP применяется к URL-адресам в файлах Word, Excel и PowerPoint в Windows или Mac OS, сообщениях электронной почты в Outlook, документах Office на устройствах с iOS или Android, файлы Visio 2016 в Windows и файлы, открытые в веб-версиях Приложения Office (Word, PowerPoint, Excel, Outlook и OneNote), при условии, что пользователь выполнил вход в Office 365. |
+| **Не отслеживать, когда пользователи щелкают безопасные ссылки ATP** <br/>  | Если выбран этот параметр, щелкните данные для URL-адресов в Word, Excel, PowerPoint, документах Visio и сообщениях электронной почты Outlook не сохраняются.  <br/> |
 |**Не разрешать пользователям щелкать безопасные ссылки ATP с исходным URL-адресом** <br/> |Если этот параметр выбран, пользователи не могут продолжить работу со [страницей предупреждения](atp-safe-links-warning-pages.md) по URL-адресу, который определен как вредоносный.  <br/> |
 
 ### <a name="policies-that-apply-to-specific-email-recipients"></a>Политики, применяемые к определенным получателям электронной почты
