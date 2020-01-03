@@ -22,7 +22,7 @@
       href: protect-access-to-data-and-services.md
     - name: Защищенное хранилище пользователя
       href: customer-lockbox-requests.md
-    - name: управление привилегированным доступом;
+    - name: Управление привилегированным доступом
       items:
         - name: Подробнее об управлении привилегированным доступом
           href: privileged-access-management-overview.md
@@ -120,7 +120,7 @@
           href: custom-sensitive-info-types.md
         - name: Создание пользовательских типов конфиденциальной информации с классификацией на основе точного совпадения данных
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: Создание пользовательского типа конфиденциальной информации в центре безопасности & соответствия требованиям
+        - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
           href: create-a-custom-sensitive-information-type.md
         - name: Создание пользовательского типа конфиденциальной информации с помощью PowerShell
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
@@ -962,7 +962,7 @@
               href: offering-gxp.md
             - name: TISAX (Германия)
               href: offering-tisax-germany.md
-        - name: СМИ
+        - name: Мультимедиа
           items:
             - name: CDSA
               href: offering-cdsa.md
@@ -1097,6 +1097,7 @@
             - name: G-Cloud (Соединенное Королевство)
               href: offering-g-cloud-uk.md
             - name: IDW PS 951 (Германия)
+              href: 'https://www.idw.de/the-idw/about-the-idw'
             - name: IT Grundschutz Workbook (Германия)
               href: offering-it-grundschutz-workbook-germany.md
             - name: LOPD (Испания)
