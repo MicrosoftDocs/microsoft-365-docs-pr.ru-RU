@@ -5,7 +5,7 @@ author: msfttracyp
 manager: dansimp
 audience: Admin
 ms.topic: article
-ms.date: 12/30/2019
+ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: Настройка политик безопасных ссылок для защиты Организации от вредоносных ссылок в файлах Word, Excel, PowerPoint и Visio, а также в сообщениях электронной почты.
-ms.openlocfilehash: 3055a5330707b3654998fbdc937ead239742cb32
-ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
+ms.openlocfilehash: 7914c29f932469cdcea7436d1084536eaaf3d093
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910160"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959667"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Настройка политик безопасных ссылок на Office 365 ATP
 
@@ -108,6 +108,9 @@ ms.locfileid: "40910160"
   - В разделе **применено** выберите **получатель**, а затем выберите группу (группы), которую нужно включить в политику. Нажмите кнопку **Добавить**, а затем нажмите кнопку **ОК**.
     
 6. Нажмите кнопку **Сохранить**.
+
+> [!NOTE]
+> Политики безопасных ссылок ATP имеют более высокий приоритет. Если пользователь подчиняются двум или более политикам, вступит в силу только политика с более высоким приоритетом.
     
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>Шаг 4: сведения о параметрах политики безопасных ссылок ATP
 
