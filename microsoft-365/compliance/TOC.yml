@@ -58,7 +58,7 @@
         - name: Устранение проблем с информационными барьерами
           href: information-barriers-troubleshooting.md
         - name: Изменение политик информационных барьеров
-          href: information-barriers-edit-segments-policies.md.md
+          href: information-barriers-edit-segments-policies.md
 - name: Управление защитой информации
   href: protect-information.md
   items:
