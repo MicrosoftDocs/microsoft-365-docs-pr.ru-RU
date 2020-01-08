@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 871f659074c4f8386746e341db4d3500c5e80a31
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 97c5f5541e1c3293346a53d87b950121e85e6eae
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807008"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966875"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -52,7 +52,7 @@ ms.locfileid: "40807008"
 В приведенном ниже примере запроса обнаружены процессы, имеющие доступ к более чем 10 IP-адресам через порт 445 (SMB) с одновременным возможным сканированием файловых ресурсов.
 
 Пример запроса
-```
+```kusto
 DeviceNetworkEvents
 | where RemotePort == 445 and Timestamp > ago(12h) and InitiatingProcessId !in (0, 4)
 | summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
@@ -76,7 +76,7 @@ DeviceNetworkEvents
 
 В приведенных ниже примерах предлагаются различные способы создания запроса для поиска файла *net.exe* для остановки службы брандмауэра Защитника Windows.
 
-```
+```kusto
 // Non-durable query - do not use
 DeviceProcessEvents
 | where ProcessCommandLine == "net stop MpsSvc"
