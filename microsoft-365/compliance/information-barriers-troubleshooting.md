@@ -1,5 +1,5 @@
 ---
-title: Устранение неполадок, связанных с информацией
+title: Устранение проблем с информационными барьерами
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,14 +11,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве руководства по устранению проблем со сведениями.
-ms.openlocfilehash: 47549029ffbaa5ead028c18e97850b30f8072011
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 07c3c6fc12ec1b288ae9499715ddadb21764f6ef
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089433"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970807"
 ---
-# <a name="troubleshooting-information-barriers"></a>Устранение неполадок, связанных с информацией
+# <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
 [Информационные барьеры](information-barriers.md) помогают Организации в соответствии с юридическими требованиями и отраслевыми нормативами. Например, с помощью информационных барьеров вы можете ограничить обмен данными между определенными группами пользователей, чтобы избежать конфликта интересов или других проблем. (Дополнительные сведения о настройке препятствий для информации см. в разделе [Определение политик для барьеров информации](information-barriers-policies.md)).
 
@@ -71,7 +71,7 @@ ms.locfileid: "37089433"
     |---------|---------|
     |`Get-OrganizationSegment`<p>Используйте этот командлет с параметром Identity.     |`Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p>В этом примере мы получаем сведения о сегменте с GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd*.         |
 
-    Просмотрите сведения о сегменте. При необходимости [измените сегмент](information-barriers-edit-segments-policies.md.md#edit-a-segment), а затем повторно используйте `Start-InformationBarrierPoliciesApplication` командлет.
+    Просмотрите сведения о сегменте. При необходимости [измените сегмент](information-barriers-edit-segments-policies.md#edit-a-segment), а затем повторно используйте `Start-InformationBarrierPoliciesApplication` командлет.
 
     **Если у вас по-прежнему возникают проблемы с политикой барьера информации, обратитесь в службу поддержки**.
 
@@ -99,8 +99,8 @@ ms.locfileid: "37089433"
     
     |Результаты  |Дальнейшие действия  |
     |---------|---------|
-    |Не указаны сегменты для выбранных пользователей     |Выполните одно из указанных ниже действий.<br/>— Назначьте пользователей существующему сегменту, изменив профили пользователей в Azure Active Directory. (См. раздел [Настройка свойств учетных записей пользователей с помощью PowerShell для Office 365](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).)<br/>— Определите сегмент, используя [поддерживаемый атрибут для барьеров информации](information-barriers-attributes.md). Затем либо [Определите новую политику](information-barriers-policies.md#part-2-define-information-barrier-policies) , либо [измените существующую](information-barriers-edit-segments-policies.md.md#edit-a-policy) , чтобы включить этот сегмент.  |
-    |В списке указаны сегменты, но для этих сегментов не назначены политики барьера данных.     |Выполните одно из указанных ниже действий.<br/>- [Определение новой политики барьера информации](information-barriers-policies.md#part-2-define-information-barrier-policies) для каждого рассматриваемого сегмента<br/>- [Изменение существующей политики барьера информации](information-barriers-edit-segments-policies.md.md#edit-a-policy) для назначения ее подходящего сегмента         |
+    |Не указаны сегменты для выбранных пользователей     |Выполните одно из указанных ниже действий.<br/>— Назначьте пользователей существующему сегменту, изменив профили пользователей в Azure Active Directory. (См. раздел [Настройка свойств учетных записей пользователей с помощью PowerShell для Office 365](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).)<br/>— Определите сегмент, используя [поддерживаемый атрибут для барьеров информации](information-barriers-attributes.md). Затем либо [Определите новую политику](information-barriers-policies.md#part-2-define-information-barrier-policies) , либо [измените существующую](information-barriers-edit-segments-policies.md#edit-a-policy) , чтобы включить этот сегмент.  |
+    |В списке указаны сегменты, но для этих сегментов не назначены политики барьера данных.     |Выполните одно из указанных ниже действий.<br/>- [Определение новой политики барьера информации](information-barriers-policies.md#part-2-define-information-barrier-policies) для каждого рассматриваемого сегмента<br/>- [Изменение существующей политики барьера информации](information-barriers-edit-segments-policies.md#edit-a-policy) для назначения ее подходящего сегмента         |
     |Указаны сегменты, которые включены в политику барьера информации     |— Выполните `Get-InformationBarrierPolicy` командлет, чтобы убедиться, что политики барьера информации активны<br/>— Запуск `Get-InformationBarrierPoliciesApplicationStatus` командлета для подтверждения применения политик<br/>— Выполните командлет `Start-InformationBarrierPoliciesApplication` , чтобы применить все активные политики барьера информации.          |
     
 
@@ -144,10 +144,10 @@ ms.locfileid: "37089433"
 
 2. В зависимости от результатов предыдущего действия выполните одно из указанных ниже действий.
   
-    |Status  |Следующий шаг  |
+    |Состояние  |Дальнейшие действия  |
     |---------|---------|
     |**Не запущено**.     |Если после выполнения командлета **Start – информатионбарриерполиЦиесаппликатион** использовался более 45 минут, просмотрите журнал аудита, чтобы проверить наличие ошибок в определениях политик, или причину, по которой приложение не запущено. |
-    |**Не удалось выполнить**     |Если произошел сбой приложения, просмотрите журнал аудита. Кроме того, проверьте сегменты и политики. Все пользователи назначены нескольким сегментам? Все сегменты назначены более чем одному полиици? При необходимости [измените сегменты](information-barriers-edit-segments-policies.md.md#edit-a-segment) и/или [измените политики](information-barriers-edit-segments-policies.md.md#edit-a-policy), а затем снова запустите командлет **Start-информатионбарриерполиЦиесаппликатион** .  |
+    |**Не удалось выполнить**     |Если произошел сбой приложения, просмотрите журнал аудита. Кроме того, проверьте сегменты и политики. Все пользователи назначены нескольким сегментам? Все сегменты назначены более чем одному полиици? При необходимости [измените сегменты](information-barriers-edit-segments-policies.md#edit-a-segment) и/или [измените политики](information-barriers-edit-segments-policies.md#edit-a-policy), а затем снова запустите командлет **Start-информатионбарриерполиЦиесаппликатион** .  |
     |**Выполняется**     |Если приложение все еще выполняется, дождитесь его завершения. Если оно было в течение нескольких дней, соберите журналы аудита и обратитесь в службу поддержки. |
 
 ## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>Вопрос: политики информационного барьера не применяются вообще
@@ -162,18 +162,18 @@ ms.locfileid: "37089433"
 
 2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/get-addressbookpolicy?view=exchange-ps) и просмотрите результаты.
 
-    |Результаты  |Следующий шаг  |
+    |Результаты  |Дальнейшие действия  |
     |---------|---------|
     |Политики адресных книг Exchange перечислены     |[Удаление политик адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy)         |
     |Политика адресных книг не существует |Просмотрите журналы аудита, чтобы выяснить причину сбоя приложения политики |
 
 3. [Просмотр состояния учетных записей пользователей, сегментов, политик или приложения политики](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Определение политик для барьеров информации в Microsoft Teams](information-barriers-policies.md)
 
-[Препятствия для информации](information-barriers.md)
+[Информационные барьеры](information-barriers.md)
 
 
 

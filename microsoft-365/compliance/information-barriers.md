@@ -11,16 +11,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте информационные барьеры, чтобы обеспечить соответствие требованиям, используя Microsoft Teams в вашей организации.
-ms.openlocfilehash: 31de709e5ac834ad628110088b0dab80efe85950
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 352f101a443b015840b09b82626f7dbee9cfb79e
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38690882"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970837"
 ---
 # <a name="information-barriers"></a>Информационные барьеры
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 Облачные службы Майкрософт включают мощные возможности общения и совместной работы. Однако предположим, что вы хотите ограничить связь между двумя группами, чтобы избежать конфликта интересов в вашей организации. Или, возможно, вы хотите ограничить связь между определенными пользователями в Организации, чтобы защитить внутреннюю информацию. Microsoft 365 обеспечивает взаимодействие и совместную работу между группами и организациями, поэтому существует ли способ ограничения взаимодействия между определенными группами пользователей, когда это необходимо? С помощью информационных барьеров вы можете! 
 
@@ -53,13 +53,13 @@ ms.locfileid: "38690882"
 
 Чтобы узнать больше о пользовательском интерфейсе с помощью барьеров информации, ознакомьтесь с разделом [Information барьеры в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams).
 
-## <a name="required-licenses-and-permissions"></a>Необходимые лицензии и разрешения
+## <a name="required-licenses-and-permissions"></a>Обязательные лицензии и разрешения
 
 На этом этапе можно выполнить развертывание, а также включить в подписки следующие сведения:
 
 - Microsoft 365 E5
 - Office 365 E5
-- Office 365 Advanced Compliance
+- Office 365 Advanced Compliance
 - Microsoft 365, защита информации и соответствие требованиям
 
 Дополнительные сведения [см.](https://products.office.com/business/security-and-compliance/compliance-solutions)
@@ -83,5 +83,4 @@ ms.locfileid: "38690882"
 
 - [Определение политик для барьеров информации](information-barriers-policies.md)
 
-- [Изменение (или удаление) политик барьера информации](information-barriers-edit-segments-policies.md.md) 
-
+- [Изменение (или удаление) политик барьера информации](information-barriers-edit-segments-policies.md) 

@@ -1,5 +1,5 @@
 ---
-title: Атрибуты политик барьера информации
+title: Атрибуты для политик информационных барьеров
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,21 +11,21 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве справки по различным атрибутам, которые можно использовать в политиках барьера информации.
-ms.openlocfilehash: 4198728d412062edced6238604b2b891da22aeac
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12acaa4fb8d6bcd6c660381b172703bd178af81f
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090338"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970787"
 ---
-# <a name="attributes-for-information-barrier-policies"></a>Атрибуты политик барьера информации
+# <a name="attributes-for-information-barrier-policies"></a>Атрибуты для политик информационных барьеров
 
 Некоторые атрибуты в Azure Active Directory можно использовать для сегментирования пользователей. После определения сегментов эти сегменты можно использовать в качестве фильтров для политик барьера данных. Например, вы можете использовать **Отдел** , чтобы определять сегменты пользователей по Отделу в Организации (предполагается, что ни один сотрудник не работает одновременно для двух отделов). 
 
 В этой статье описывается, как использовать атрибуты с барьерами информации, а также список атрибутов, которые можно использовать. Дополнительные сведения о барьерах информации можно найти в следующих ресурсах:
-- [Препятствия для информации](information-barriers.md)
+- [Информационные барьеры](information-barriers.md)
 - [Определение политик для барьеров информации в Microsoft Teams](information-barriers-policies.md)
-- [Изменение (или удаление) политик барьера информации](information-barriers-edit-segments-policies.md.md)
+- [Изменение (или удаление) политик барьера информации](information-barriers-edit-segments-policies.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>Использование атрибутов в политиках барьера информационных заданных
 
@@ -50,7 +50,7 @@ ms.locfileid: "37090338"
     > [!TIP]
     > При определении сегментов используйте один и тот же атрибут для всех сегментов. Например, если вы определили некоторые сегменты с помощью *отдела*, определите все сегменты с помощью *отдела*. Не определяйте некоторые сегменты, используя *Отдел* и другие, используя *MemberOf*. Убедитесь, что сегменты не перекрываются; Каждый пользователь должен быть назначен только одному сегменту. 
 
-## <a name="reference"></a>Справочные материалы
+## <a name="reference"></a>Справка
 
 В следующей таблице перечислены атрибуты, которые можно использовать с барьерами информации.
 
@@ -91,13 +91,13 @@ ms.locfileid: "37090338"
 |Описание    |Описание    |
 |Групп   |мемберофграуп  |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Определение политик для барьеров информации в Microsoft Teams](information-barriers-policies.md)
 
-[Устранение неполадок, связанных с информацией](information-barriers-troubleshooting.md)
+[Устранение проблем с информационными барьерами](information-barriers-troubleshooting.md)
 
-[Препятствия для информации](information-barriers.md)
+[Информационные барьеры](information-barriers.md)
 
 
 

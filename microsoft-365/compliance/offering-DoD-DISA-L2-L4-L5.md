@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2fa27680dcc9e0ee7fb495164683a291cc167d59
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e6a41cb2c55e1711048c863cd6f2f7e26e9ee5bc
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805232"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959558"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Авторизация подготовки для Отдела по требованию США на уровнях влияния 2, 4 и 5
 
@@ -56,7 +56,7 @@ ms.locfileid: "40805232"
 
 Уровень влияния 2 охватывает неконтролируемые Неклассифицированные сведения — данные, авторизованные для общедоступной версии. Кроме того, она охватывает другие неклассифицированные сведения, которые, хотя и не считаются критически важными, по-прежнему требуют минимального уровня управления доступом. Эта авторизация позволяет клиентам федерального правительства США развертывать неконфиденциальную информацию и базовые приложения и веб-сайты в области облачных служб Майкрософт.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Покрываемые службы для уровня влияния на вызов по требованию 5
 
@@ -100,7 +100,7 @@ ms.locfileid: "40805232"
 ## <a name="resources"></a>Ресурсы
 
 - [Руководство по безопасности облачных вычислений с DoD (SRG) и другие документы](https://public.cyber.mil/dccs/dccs-documents/)
-- [Поддержка облачных служб Диса](http://www.disa.mil/Computing/Cloud-Services/Cloud-Support)
+- [Поддержка облачных служб Диса](https://storefront.disa.mil/kinetic/disa/service-catalog#/forms/cloud-service-support)
 - [Защита контролируемой неклассифицированной информации в нефедеральных информационных системах и организациях](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)
 - [Инфраструктура NIST Циберсекурити](https://www.nist.gov/cyberframework)
 - [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)

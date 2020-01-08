@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1f0ed98386a33b84d109fb94093b3d03cefc127b
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: da5fbef7ed9ceb136f276e2d6baab0c94bba3c22
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804002"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959538"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Вопросы безопасности и конфиденциальности Новой Зеландии в облако для государственных учреждений
 
@@ -37,7 +37,7 @@ ms.locfileid: "40804002"
 
 Узнайте, как ускорить развертывание развернутой копии с помощью нашего плана безопасности и соответствия требованиям Azure: [скачать ответ Azure для платформы NZ CC](https://gallery.technet.microsoft.com/Response-to-GCIO-Cloud-e117bbb9)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -62,7 +62,7 @@ ms.locfileid: "40804002"
 - [Соответствие требованиям Microsoft Azure в контексте новой версии Зеландии требования к безопасности и конфиденциальности](https://aka.ms/azurecompliancenewzealand)
 - [Стратегия для государственных учреждений ICT 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [Требования для государственных учреждений для облачных вычислений](https://aka.ms/NZ-Cloud-Requirements)
-- [Облачные вычисления: вопросы безопасности и конфиденциальности данных (ИСПК)](https://aka.ms/NZ-Cloud-Computing-Considerations)
+- [Облачные вычисления: вопросы безопасности и конфиденциальности данных (ИСПК)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Office 365: СИМАИЛ интеграция и Эталонная архитектура](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (дополнительные рекомендации по использованию Microsoft NZ при внедрении облачной службы)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)

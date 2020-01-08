@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 842c3be031e96467c8b82e8cf482435e66124960
-ms.sourcegitcommit: 5b0a2e11c86c00e6e6b534f8b0a19962d1bb2805
+ms.openlocfilehash: 781aca371315d1ffde4ca2718d8d371e865ccb29
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "40881980"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970857"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Включение Защиты от угроз (Майкрософт)
 
@@ -67,7 +67,7 @@ ms.locfileid: "40881980"
 ## <a name="turn-off-microsoft-threat-protection"></a>Выключение Защиты от угроз (Майкрософт)
 Чтобы прекратить использование службы Защиты от угроз (Майкрософт), в Центре безопасности Microsoft 365 выберите **Параметры** > **Защита от угроз (Майкрософт)** > **Согласиться или отказаться**. Снимите флажок **Включение Защиты от угроз (Майкрософт)** и сохраните изменения.
 
-Данные будут удалены без возможности восстановления, и соответствующие функции будут удалены из Центра безопасности Microsoft 365.
+Данные будут удалены без возможности восстановления, а соответствующие функции будут удалены из центра безопасности Microsoft 365.
 
 ## <a name="get-assistance"></a>Получение помощи
 
