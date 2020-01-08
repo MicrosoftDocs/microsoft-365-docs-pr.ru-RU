@@ -3,7 +3,7 @@ title: Использование меток конфиденциальност�
 ms.author: krowley
 author: cabailey
 manager: laurawi
-ms.date: 12/13/2019
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы можете применять метки к Microsoft Teams, группам Office 365 и сайтам SharePoint.
-ms.openlocfilehash: edaa13a21d5eb9069c6e4dce509c13456dec3d89
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4a8cf810ba29c2bb025b50e1529081a1a9ba6843
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802882"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966897"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Использование меток конфиденциальности в Microsoft Teams, группах Office 365 и сайтах SharePoint (общедоступная предварительная версия)
 
@@ -70,7 +70,9 @@ ms.locfileid: "40802882"
 
 1. В сеансе PowerShell с помощью рабочей или учебной учетной записи с правами глобального администратора подключитесь к Azure Active Directory. Например, выполните команду:
     
-        Connect-AzureAD
+    ```powershell
+    Connect-AzureAD
+    ````
     
     Подробные инструкции см. в статье [Подключение к Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#connect-to-azure-ad).
 
@@ -97,7 +99,7 @@ ms.locfileid: "40802882"
 
 3. В том же сеансе PowerShell подключитесь к Центру безопасности и соответствия требованиям с помощью рабочей или учебной учетной записи с правами глобального администратора. Инструкции см. в статье [Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
-4. Выполните следующие команды:
+4. Выполните следующие команды для синхронизации ваших меток с Azure AD, чтобы их можно было использовать с группами Office 365:
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
@@ -218,7 +220,36 @@ ms.locfileid: "40802882"
 
 ## <a name="change-site-and-group-settings-for-a-label"></a>Изменение параметров сайта и группы для метки
 
-Рекомендуется не изменять параметры после применения метки к нескольким командам, группам или сайтам. Если требуется внести изменения, нужно воспользоваться скриптом Azure AD PowerShell для применения обновлений вручную. Этот метод обеспечивает принудительное применение нового параметра для всех существующих команд, сайтов и групп.
+Когда осуществляется изменение параметров сайта и группы для метки, требуется выполнить следующие команды PowerShell, чтобы ваши команды, сайты и группы могли использовать новые параметры. Рекомендуется не изменять параметры сайта и группы для метки после применения метки к нескольким командам, группам или сайтам.
+
+1. Выполните следующие команды, чтобы подключиться к PowerShell Центра безопасности и соответствия требованиям Office 365 и получить список меток конфиденциальности и их идентификаторы GUID.
+    
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
+    Import-PSSession $Session
+    Get-Label |ft Name, Guid
+    ```
+
+2. Запишите GUID для измененных меток.
+
+3. Подключитесь к Exchange Online PowerShell и выполните командлет Get-UnifiedGroup, указав GUID метки вместо GUID примера "e48058ea-98e8-4940-8db0-ba1310fd955e": 
+    
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session
+    $Groups= Get-UnifiedGroup | Where {$_.SensitivityLabel  -eq "e48058ea-98e8-4940-8db0-ba1310fd955e"}
+    ```
+
+4. Для каждой группы повторно примените метку конфиденциальности, указав GUID метки вместо GUID примера "e48058ea-98e8-4940-8db0-ba1310fd955e":
+    
+    ```powershell
+    foreach ($g in $groups)
+    {Set-UnifiedGroup -Identity $g.Identity -SensitivityLabelId "e48058ea-98e8-4940-8db0-ba1310fd955e"}
+    ```
 
 ## <a name="support-for-the-new-sensitivity-labels"></a>Поддержка новых меток конфиденциальности
 
