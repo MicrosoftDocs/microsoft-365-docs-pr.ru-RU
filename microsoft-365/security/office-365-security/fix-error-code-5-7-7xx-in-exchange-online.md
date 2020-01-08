@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: 69ee2b7d707ae88cca7aa5d4a5f39e8458f6925f
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: cbfff7fc0905206a0302f7e1a458718637d934b7
+ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959657"
+ms.locfileid: "40962308"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -53,7 +53,7 @@ Office 365 позволяет клиентам ретранслировать н
 
 Если ваш клиент блокирует отправку сообщений электронной почты, необходимо выполнить несколько действий.
 
-1. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
 2. Ищите необычные [соединители](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). Вредоносные субъекты часто создают новые входящие соединители в организации Office 365 для отправки спама. Чтобы просмотреть существующие соединители, ознакомьтесь со [статьей Проверка соединителей в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
 
@@ -72,7 +72,7 @@ Office 365 позволяет клиентам ретранслировать н
 
 [Защита от нежелательной почты в Office 365](anti-spam-protection.md)
 
-[Рекомендации по массовой рассылке почты в разделе "пределы отправки" в описании службы Exchange Online](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
+[Рекомендации по массовой рассылке почты в разделе "пределы отправки" в описании службы Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
 
 [Отчеты о недоставке сообщений электронной почты в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
 

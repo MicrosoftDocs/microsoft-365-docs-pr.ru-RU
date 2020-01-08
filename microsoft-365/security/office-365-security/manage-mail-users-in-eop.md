@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: "Определение почтовых пользователей \x97 важный этап управления службой Exchange Online Protection (EOP)."
-ms.openlocfilehash: 2871ec73a06a092aa5cfdab0d9648d8cc5311460
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 9322198be4e180988e1651c2ccdcaef2b0ac52a9
+ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971747"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962328"
 ---
 # <a name="manage-mail-users-in-eop"></a>Управление почтовыми пользователями в EOP
 
@@ -30,7 +30,7 @@ ms.locfileid: "39971747"
 > [!NOTE]
 > Вы можете добавлять пользователей в центре администрирования Microsoft 365, но эти пользователи не могут использоваться в качестве получателей почты.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 - Чтобы открыть центр администрирования Exchange, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md).
 
@@ -51,7 +51,7 @@ ms.locfileid: "39971747"
 
 В этом разделе представлены сведения об управлении пользователями электронной почты с помощью синхронизации службы каталогов.
 
-**Примечания.**
+**Примечания**:
 
 - Если вы используете синхронизацию службы каталогов для управления получателями, вы по-прежнему можете добавлять пользователей в центр администрирования Microsoft 365 и управлять ими, но они не будут синхронизированы с локальной службой Active Directory. Это связано с тем, что синхронизация службы каталогов синхронизирует только получателей **из** локальной службы Active Directory **с** облаком.
 
@@ -174,7 +174,7 @@ Get-Recipient -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'mailuser
 
 ### <a name="use-eop-powershell-to-remove-a-mail-user"></a>Удаление почтового пользователя с помощью EOP PowerShell
 
-В этом примере командлет [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient/remove-eopmailuser) используется для удаления пользователя Григория Иванова:
+В этом примере командлет [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser) используется для удаления пользователя Григория Иванова:
 
 ```PowerShell
 Remove-EOPMailUser -Identity Jeffrey
