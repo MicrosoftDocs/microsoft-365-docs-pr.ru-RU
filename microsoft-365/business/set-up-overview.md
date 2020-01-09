@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Обзор действий по установке Microsoft 365 бизнес.
-ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: cab999493bf86ed0adf32521eaf6b3943f107f79
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850811"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995257"
 ---
 # <a name="overview-of-setup"></a>Обзор установки
 
@@ -36,7 +36,7 @@ ms.locfileid: "40850811"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Большинство действий по установке можно выполнить с помощью мастера установки, но есть и другие варианты.
 
@@ -61,7 +61,7 @@ ms.locfileid: "40850811"
 - **Архивация на базе Exchange Online**
 - **Azure Information Protection (план 1**)
 
-Чтобы приступить к работе, ознакомьтесь со статьей [Настройка расширенных политик безопасности](set-up-advanced-security.md).
+Чтобы приступить к работе, ознакомьтесь со статьей [повышение защиты от угроз](increase-threat-protection.md) и [Настройка функций обеспечения соответствия требованиям](set-up-compliance.md).
 
 См. также[10 основных способов защиты Microsoft 365 бизнес](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data), где содержится план рекомендаций в области безопасности.
 

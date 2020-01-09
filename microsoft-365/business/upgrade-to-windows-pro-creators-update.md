@@ -1,5 +1,5 @@
 ---
-title: Обновление устройств с Windows до Windows Pro Creators Update
+title: Обновление устройств с Windows до Windows 10 Pro
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,25 +21,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Узнайте, как обновить устройства Windows до обновления Windows 10 Pro Creators. '
-ms.openlocfilehash: e8399ad94ef58ad8fa5386d4ab0ed7fa4b8627a0
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: 'Узнайте, как обновить устройства Windows до Windows 10 Pro. '
+ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831200"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995277"
 ---
-# <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Обновление устройств с Windows до Windows Pro Creators Update
+# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Обновление устройств с Windows до Windows 10 Pro
 
 Посмотрите короткое видео об обновлении устройств с Windows до Windows 10 Pro.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a>Обновление до версии Windows 10 Pro Creators
+## <a name="upgrade-to-windows-10-pro"></a>Обновление до Windows 10 Pro
   
-Для обновления до Windows 10 Pro Creators доступно несколько вариантов. Вы можете выполнить указанные ниже действия.
+Для обновления до Windows 10 Pro доступно несколько вариантов. Вы можете выполнить указанные ниже действия.
     
 - Установите обновление на &ndash; [сайте загрузки программного обеспечения Майкрософт](https://go.microsoft.com/fwlink/?LinkID=836951 ) выберите этот параметр, если устройство, на котором вы выполнили вход, находится на том же устройстве, что и то, которое вы хотите обновить. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "39831200"
     - Ознакомьтесь с инструкциями по использованию средства и созданием установочного носителя. 
 
 > [!NOTE]
-> Если у вас есть устройства с Windows, работающие под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8,1 Pro, ваша подписка на Microsoft 365 бизнес дает право на обновление до Windows 10; Ключ продукта не требуется.
+> Если у вас есть устройства с Windows, работающие под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8,1 Pro, ваша подписка на Microsoft 365 Business дает вам право на обновление до Windows Pro 10; Ключ продукта не требуется.
     
 Чтобы завершить настройку устройств с Windows 10, ознакомьтесь со статьей [Настройка устройств Windows для Microsoft 365 бизнес-пользователей](set-up-windows-devices.md) . 
   
@@ -58,4 +58,4 @@ ms.locfileid: "39831200"
   
 ## <a name="see-also"></a>См. также
 
-[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

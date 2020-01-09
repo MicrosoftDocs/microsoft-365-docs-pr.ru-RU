@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: ff0e26447a7bcdeccfcc1983af63abea905849e4
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 831efac29bb2e878585f97419dfd9dca67c67409
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989534"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995233"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -39,7 +39,7 @@ Office 365 позволяет клиентам ретранслировать н
 
 - Почтовый ящик Office 365 получает электронную почту от внешнего отправителя. Переадресация почты настраивается в почтовом ящике Office 365, поэтому сообщение возвращается на внешний адрес электронной почты пользователя. Этот сценарий чаще всего используется в средах образования, в которых студенты хотят использовать свои личные учетные записи электронной почты для просмотра сообщений, относящихся к учебным заведениям.
 
-- Гибридные енврионментс с локальными серверами электронной почты, которые отправляют исходящую почту через EOP.
+- Гибридные среды с локальными серверами электронной почты, которые отправляют исходящую почту через EOP.
 
 ### <a name="problems-with-unregistered-domains"></a>Проблемы с незарегистрированными доменами
 
@@ -57,7 +57,7 @@ Office 365 позволяет клиентам ретранслировать н
 
 2. [Включите MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) для всех администраторов в организации Office 365.
 
-3. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+3. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
 4. Ищите необычные [соединители](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). Вредоносные субъекты часто создают новые входящие соединители в организации Office 365 для отправки спама. Чтобы просмотреть существующие соединители, ознакомьтесь со [статьей Проверка соединителей в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
 
