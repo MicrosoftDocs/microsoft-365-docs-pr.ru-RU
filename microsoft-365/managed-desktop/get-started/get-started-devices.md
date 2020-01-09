@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ae544592184b9de1b5a515ccd21af74185486d58
-ms.sourcegitcommit: f64397f3b144de36605da8d7116c46010765346d
+ms.openlocfilehash: 59cdb911c46fbb2ad5dd998810297a5502c8fa0c
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38697162"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989554"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>Подготовка пользователей к работе с устройствами
 
@@ -23,7 +23,7 @@ ms.locfileid: "38697162"
 ## <a name="to-prepare-the-guide"></a>Подготовка руководства
 
 1. Скачайте версию, соответствующую вашей организации:
-- [Microsoft Managed Desktop — Приступая к работе с устройством (получить справочную версию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v2.pdf) , используйте эту версию, если ваши пользователи будут использовать систему поддержки корпорации Майкрософт.
+- [Microsoft Managed Desktop — Приступая к работе с устройством (получить справочную версию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) , используйте эту версию, если ваши пользователи будут использовать систему поддержки корпорации Майкрософт.
 - [Microsoft Managed Desktop — Приступая к работе с устройством](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) используйте эту версию, если ваши пользователи *не* будут использовать систему поддержки корпорации Майкрософт.
 2. Используйте любое приложение, способное открывать PDF-файлы, чтобы заполнить сведения, относящиеся к вашей организации:
     - Имя сети, к которой пользователи должны подключаться для продолжения установки (шаг 3 в руководстве)
@@ -33,9 +33,9 @@ ms.locfileid: "38697162"
 
 ## <a name="ready-to-use-guide"></a>"Готовые к использованию"
 
-Мы также предоставляем более универсальную версию руководства для тех организаций, которым не требуется настраивать ее. Существует две версии, одна для организаций, использующих систему поддержки корпорации Майкрософт (Справочное приложение для получения справки), один из которых обеспечивает собственную поддержку внутренних пользователей.
+Мы также предоставляем более универсальную версию руководства для тех организаций, которым не требуется настраивать ее. Существует две версии, одна для организаций, использующих систему поддержки Майкрософт (Справочное приложение для получения справки), один для них, предоставляющий альтернативную поддержку пользователям. 
 
-- [Microsoft Managed Desktop — Приступая к работе с устройством (получение справки по версии готов к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v2.pdf) — используйте эту версию, если ваши пользователи будут использовать систему поддержки корпорации Майкрософт.
+- [Microsoft Managed Desktop — Приступая к работе с устройством (получение справки по версии готов к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) — используйте эту версию, если ваши пользователи будут использовать систему поддержки корпорации Майкрософт.
 - [Microsoft Managed Desktop — Приступая к работе с устройством (готово к использованию)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) , используйте эту версию, если ваши пользователи *не* будут использовать систему поддержки корпорации Майкрософт.
 
 На этом шаге вы готовы перейти к развертыванию приложений:

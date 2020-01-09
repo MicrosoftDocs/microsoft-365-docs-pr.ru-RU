@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: cbfff7fc0905206a0302f7e1a458718637d934b7
-ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
+ms.openlocfilehash: ff0e26447a7bcdeccfcc1983af63abea905849e4
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962308"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989534"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "40962308"
 
 ## <a name="57750-unregistered-domain-email-restriction-what-you-need-to-know"></a>5.7.750: незарегистрированные ограничения электронной почты домена: что нужно знать
 
-Office 365 позволяет клиентам ретранслировать некоторые сообщения через Exchange Online Protection (EOP). Пример:
+Office 365 позволяет клиентам ретранслировать некоторые сообщения через Exchange Online Protection (EOP). Например:
 
 - Почтовый ящик Office 365 получает электронную почту от внешнего отправителя. Переадресация почты настраивается в почтовом ящике Office 365, поэтому сообщение возвращается на внешний адрес электронной почты пользователя. Этот сценарий чаще всего используется в средах образования, в которых студенты хотят использовать свои личные учетные записи электронной почты для просмотра сообщений, относящихся к учебным заведениям.
 
@@ -55,18 +55,20 @@ Office 365 позволяет клиентам ретранслировать н
 
 1. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-2. Ищите необычные [соединители](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). Вредоносные субъекты часто создают новые входящие соединители в организации Office 365 для отправки спама. Чтобы просмотреть существующие соединители, ознакомьтесь со [статьей Проверка соединителей в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
+2. [Включите MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) для всех администраторов в организации Office 365.
 
-3. Проверьте наличие скомпрометированных пользователей, как описано в разделе [реагирование на скомпрометированную учетную запись электронной почты в Office 365](responding-to-a-compromised-email-account.md).
+3. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
-4. [Включите MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) для всех администраторов в организации Office 365.
+4. Ищите необычные [соединители](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). Вредоносные субъекты часто создают новые входящие соединители в организации Office 365 для отправки спама. Чтобы просмотреть существующие соединители, ознакомьтесь со [статьей Проверка соединителей в Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors).
 
-5. Заблокируйте локальные почтовые серверы и убедитесь, что они не скомпрометированы.
+5. Проверьте наличие скомпрометированных пользователей, как описано в разделе [реагирование на скомпрометированную учетную запись электронной почты в Office 365](responding-to-a-compromised-email-account.md).
+
+6. Заблокируйте локальные почтовые серверы и убедитесь, что они не скомпрометированы.
 
    > [!TIP]
    > Здесь существует множество факторов, особенно при использовании сторонних серверов. Независимо от этого необходимо убедиться, что все исходящие сообщения в настоящее время действительны.
 
-6. Обратитесь в службу поддержки Майкрософт и попросите отключить клиент от незарегистрированных доменов, чтобы он был разблокирован для повторной отправки. Код ошибки полезен, но вам необходимо убедиться, что ваша среда защищена и не может отправлять нежелательные сообщения. Чтобы открыть обращение в службу поддержки, [обратитесь в службу поддержки для бизнеса: Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+7. Обратитесь в службу поддержки Майкрософт и попросите отключить свой клиент для повторной отправки электронной почты. Код ошибки полезен, но вам необходимо убедиться, что ваша среда защищена и не может отправлять нежелательные сообщения. Чтобы открыть обращение в службу поддержки, [обратитесь в службу поддержки для бизнеса: Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 

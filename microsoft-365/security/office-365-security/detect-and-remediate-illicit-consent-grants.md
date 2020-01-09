@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить незаконное согласие на атаку в Office 365.
-ms.openlocfilehash: 46387f82a38c33debdc24a6825479bf3183f0283
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0f4569a4ef8496a07fc1dc52f500ee91a6590fdd
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808434"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989544"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365
 
@@ -32,6 +32,7 @@ ms.locfileid: "40808434"
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>Как выглядит незаконная атака на предоставление согласия в Office 365?
 
 Для поиска знаков, также называемых индикаторами уязвимости (IOC), необходимо выполнить поиск в **журнале аудита** Office 365. Для организаций с множеством приложений, зарегистрированных с помощью Azure, и большим числом пользователей рекомендуется проанализировать предоставление разрешений в организациях еженедельно.
+
 ### <a name="steps-for-finding-signs-of-this-attack"></a>Действия по поиску подписывания этой атаки
 
 1. Откройте **Центр безопасности и соответствия требованиям** в клиенте Office 365.
