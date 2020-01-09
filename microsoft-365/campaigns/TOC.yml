@@ -1,6 +1,6 @@
 - name: Microsoft 365 для кампаний
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: index.md
     - name: Получение Microsoft 365 для кампаний
       href: get-microsoft-365-campaigns.md
@@ -8,7 +8,7 @@
       href: m365-campaigns-users.md
 - name: Настройка и вход
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: microsoft-365-campaigns-setup-overview.md
     - name: Регистрация и работа для начинающих
       href: m365-campaigns-sign-up.md
@@ -16,11 +16,13 @@
       href: ../business/set-up.md?toc=/microsoft-365/campaigns/toc.json
     - name: Вход
       href: m365-campaigns-sign-in.md
+    - name: Настройка страницы входа
+      href: m365-customize-sign-in.md
     - name: Добавление пользователей
       href: ../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json
 - name: Повышение безопасности
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: m365-campaigns-security-overview.md
     - name: Защита учетных записей администраторов
       href: m365-campaigns-protect-admin-accounts.md
