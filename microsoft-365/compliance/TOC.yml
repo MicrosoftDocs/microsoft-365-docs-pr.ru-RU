@@ -199,23 +199,21 @@
           href: find-copy-and-delete-pst-files-in-your-organization.md
         - name: Фильтрация данных при импорте PST-файлов
           href: filter-data-when-importing-pst-files.md
-        - name: Импорт зашифрованных с использованием RMS PST-файлов с помощью отправки по сети
-          href: use-network-upload-to-import-rms-encrypted-pst-files.md
         - name: Вопросы и ответы об импорте PST-файлов
           href: faqimporting-pst-files-to-office-365.md
-        - name: Архивация сторонних данных
-          href: archiving-third-party-data.md
-          items:
-            - name: Использование образца соединителя для архивации данных Facebook
-              href: archive-facebook-data-with-sample-connector.md
-            - name: Использование примера соединителя для архивации данных Twitter
-              href: archive-twitter-data-with-sample-connector.md
-            - name: Настройка соединителя для архивации данных LinkedIn
-              href: archive-linkedin-data.md
-            - name: Настройка соединителя для архивации данных Instant Bloomberg
-              href: archive-instant-bloomberg-data.md
-            - name: Архивация сторонних данных при помощи партнера
-              href: work-with-partner-to-archive-third-party-data.md
+    - name: Архивация сторонних данных
+      href: archiving-third-party-data.md
+      items:
+        - name: Настройка соединителя для архивации данных Facebook
+          href: archive-facebook-data-with-sample-connector.md
+        - name: Настройка соединителя для архивации данных Twitter
+          href: archive-twitter-data-with-sample-connector.md
+        - name: Настройка соединителя для архивации данных LinkedIn
+          href: archive-linkedin-data.md
+        - name: Настройка соединителя для архивации данных Instant Bloomberg
+          href: archive-instant-bloomberg-data.md
+        - name: Архивация сторонних данных при помощи партнера
+          href: work-with-partner-to-archive-third-party-data.md
     - name: Сохранение данных
       items:
         - name: Включение архивных почтовых ящиков
