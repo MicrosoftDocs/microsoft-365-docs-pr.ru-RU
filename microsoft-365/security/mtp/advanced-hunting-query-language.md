@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: df811e38c55becf9ba52de40891fc1201d0afae0
-ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
+ms.openlocfilehash: b2b42c6a49a4422d73148b06e8379dcf1336e926
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40966887"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999613"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -88,7 +88,7 @@ DeviceProcessEvents
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
-| top 100 by Timestamp'
+| top 100 by Timestamp
 ```
 
 Нажмите кнопку **Выполнить запрос**, чтобы увидеть результаты. Вы можете развернуть экран, чтобы сосредоточиться на вашем запросе охоты и результатах.
