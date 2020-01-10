@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: 831efac29bb2e878585f97419dfd9dca67c67409
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 4e82df78cfb83865142defb14cec0841ab29ba95
+ms.sourcegitcommit: 55cb11c2475f40d0f1c64cf45446bf383d7d5f86
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995233"
+ms.locfileid: "41002979"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -49,11 +49,11 @@ Office 365 позволяет клиентам ретранслировать н
 
 `550 5.7.750 Service unavailable. Client blocked from sending from unregistered domains`
 
-## <a name="how-to-unblocking-tenant-in-order-to-send-again"></a>Как разблокировать клиента для повторной отправки
+## <a name="unblocking-tenant-in-order-to-send-again"></a>Разблокировка клиента для повторной отправки
 
 Если ваш клиент блокирует отправку сообщений электронной почты, необходимо выполнить несколько действий.
 
-1. Убедитесь, что все домены электронной почты зарегистрированы. Дополнительную информацию можно узнать в статье [Добавление домена в Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) и [Управление обслуживаемыми доменами в Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+1. Измените пароль учетной записи администратора. Если клиент блокирует отправку, скорее всего, учетная запись администратора была скомпрометирована. Изменение паролей — это первый шаг, из-за которого злоумышленник не сможет делать вред.
 
 2. [Включите MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) для всех администраторов в организации Office 365.
 
@@ -66,7 +66,7 @@ Office 365 позволяет клиентам ретранслировать н
 6. Заблокируйте локальные почтовые серверы и убедитесь, что они не скомпрометированы.
 
    > [!TIP]
-   > Здесь существует множество факторов, особенно при использовании сторонних серверов. Независимо от этого необходимо убедиться, что все исходящие сообщения в настоящее время действительны.
+   > Здесь существует множество факторов, особенно при использовании сторонних серверов. Независимо от этого необходимо убедиться, что исходящая почта не содержит спама.
 
 7. Обратитесь в службу поддержки Майкрософт и попросите отключить свой клиент для повторной отправки электронной почты. Код ошибки полезен, но вам необходимо убедиться, что ваша среда защищена и не может отправлять нежелательные сообщения. Чтобы открыть обращение в службу поддержки, [обратитесь в службу поддержки для бизнеса: Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
