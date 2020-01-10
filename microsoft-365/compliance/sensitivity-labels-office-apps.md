@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
-ms.openlocfilehash: 092c8510acac5cafa6417f93eae19731db5df270
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 32ad0abf61de5a64aac6914532f59bb5602e9d83
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970957"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999593"
 ---
 # <a name="sensitivity-labels-in-office-apps"></a>Метки конфиденциальности в приложениях Office
 
@@ -50,11 +50,13 @@ ms.locfileid: "40970957"
 
 - [Azure Information Protection Premium P2](https://azure.microsoft.com/pricing/details/information-protection/)
 
-## <a name="support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Поддержка возможностей меток конфиденциальности в Word, Excel и PowerPoint
+## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Поддержка возможностей меток конфиденциальности в приложениях
 
-Для каждой возможности в таблице ниже перечислены минимальные версии, необходимые для поддержки меток конфиденциальности с помощью встроенных меток.
+Для каждой возможности в приведенных ниже таблицах перечислены минимальные версии, необходимые для этого приложения, для поддержки меток конфиденциальности с помощью встроенных меток. Новые версии предоставляются в разное время для разных каналов обновления. Для получения дополнительных сведений, в том числе настройки канала обновления, чтобы вы могли проверить новую возможность маркировки, ознакомьтесь со статьей [Обзор каналов обновления для Office 365 профессиональный плюс](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus).
 
 При установке клиента единой метки Azure Information Protection, который выполняется только на компьютерах под управлением Windows, доступны дополнительные возможности. Эти сведения можно найти [в статье сравнение пометок клиентов для компьютеров с Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
+
+### <a name="sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Возможности меток конфиденциальности в Word, Excel и PowerPoint
 
 |Возможность                                                                                                        |Рабочий стол Windows |Настольный компьютер Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
@@ -63,7 +65,7 @@ ms.locfileid: "40970957"
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Маркировка содержимого](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Назначение разрешений сразу](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Назначить разрешения](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | Раздел "Рецензирование"            | Раздел "Рецензирование"        | Раздел "Рецензирование"   | Раздел "Рецензирование"         | Раздел "Рецензирование"                                                        |
 |[Просмотр использования меток с помощью аналитики меток](label-analytics.md) и отправка данных для администраторов                      | Раздел "Рецензирование"            | Раздел "Рецензирование"        | Раздел "Рецензирование"   | Раздел "Рецензирование"         | Раздел "Рецензирование"                                                        |
 |
@@ -72,11 +74,7 @@ ms.locfileid: "40970957"
 |Поддержка [автосохранения](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) и [совместного редактирования](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) для помеченных и защищенных документов | Раздел "Рецензирование" | Раздел "Рецензирование" | Раздел "Рецензирование" | Раздел "Рецензирование" | [Предварительная версия](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
-## <a name="support-for-sensitivity-label-capabilities-in-outlook"></a>Поддержка возможностей меток конфиденциальности в Outlook
-
-Для каждой возможности в следующей таблице перечислены минимальные версии, необходимые для этого приложения.
-
-При установке клиента единой метки Azure Information Protection, который выполняется только на компьютерах под управлением Windows, доступны дополнительные возможности. Эти сведения можно найти [в статье сравнение пометок клиентов для компьютеров с Windows](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers).
+### <a name="sensitivity-label-capabilities-in-outlook"></a>Возможности меток конфиденциальности в Outlook
 
 |Возможность                                                                                                        |Рабочий стол Outlook для Windows |Настольные компьютеры с Outlook на Mac  |Outlook для iOS |Outlook для Android |Outlook в Интернете |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
@@ -85,7 +83,7 @@ ms.locfileid: "40970957"
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Маркировка содержимого](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
-|[Назначение разрешений сразу](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
+|[Назначить разрешения](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Предоставление пользователям возможности назначать разрешения](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910 и выше                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | Да               |
 |[Просмотр использования меток с помощью аналитики меток](label-analytics.md) и отправка данных для администраторов                      | Раздел "Рецензирование"                       | Раздел "Рецензирование"                    | Раздел "Рецензирование"           | Раздел "Рецензирование"               | Раздел "Рецензирование"               |
 |
