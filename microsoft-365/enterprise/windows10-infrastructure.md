@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: 147dd0ec0276d685177ae389092ec18ace0d7bed
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 92a786f40c10170cf0eb5f91f765bad4dc044c97
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831692"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112673"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Этап 3. Windows 10 Корпоративная
 
@@ -39,7 +39,7 @@ Microsoft 365 Enterprise включает Windows 10 Корпоративная,
 
 | Сценарий развертывания | Когда его следует использовать |
 |:--- |:--- |
-| [Использование диспетчера конфигурации конечных точек Майкрософт в качестве обновления на месте](windows10-deploy-inplaceupgrade.md) | Выберите этот параметр, если необходимо обновить компьютеры с Windows 7 или Windows 8,1 до <a href="https://aka.ms/windows-10-release-information" target="_blank">текущей версии</a> Windows 10 Корпоративная, а компьютеры в настоящее время управляются с помощью <a href="https://aka.ms/introtosccm" target="_blank">Configuration Manager (текущей ветви)</a>. |
+| [Использование диспетчера конфигурации конечных точек Майкрософт в качестве обновления на месте](windows10-deploy-inplaceupgrade.md) | Выберите этот параметр, если необходимо обновить компьютеры с Windows 7 или Windows 8,1 до <a href="https://aka.ms/windows-10-release-information" target="_blank">текущей версии</a> Windows 10 Корпоративная, а компьютеры в настоящее время управляются с помощью <a href="https://docs.microsoft.com/configmgr/core/understand/introduction" target="_blank">Configuration Manager (текущей ветви)</a>. |
 | [Использование автопилота Windows](windows10-deploy-autopilot.md) | Выберите этот вариант, если вы настраиваете новые компьютеры с Windows, на которых установлена операционная система Windows 10 корпоративная версии 1703 или более поздней версии. Конечные пользователи запускают программу установки, используя нужную конфигурацию, вводя свои учетные данные рабочей или учебной учетной записи. |
 
 Если эти сценарии развертывания не соответствуют потребностям вашей организации, вы можете узнать о других сценариях и ознакомиться с возможностями и ограничениями каждого из [сценариев развертывания Windows 10](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios). Вы также можете <a href="https://aka.ms/planforwin10deployment" target="_blank">планировать развертывание Windows 10</a> самостоятельно.

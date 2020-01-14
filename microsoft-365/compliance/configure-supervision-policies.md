@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: e7a46e2fcd15a77f6fe7f1b97adf5ed26e97e0e2
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: a04d97cf887a14d89052d03ffdf3353f62cd612f
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959627"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111933"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Настройка политик контроля для Office 365
 
@@ -65,7 +65,7 @@ ms.locfileid: "40959627"
 
 | **Участник политики** | **Поддерживаемые группы** | **Неподдерживаемые группы** |
 |:-----|:-----|:-----|
-|Контролируемые пользователи <br> Пользователи без прав на надзор | Группы рассылки <br> Группы Office 365 | Динамические группы рассылки |
+|Контролируемые пользователи <br> Пользователи без прав на надзор | Группы рассылки <br> Группы Office 365 | Динамические группы рассылки |
 | Рецензенты | группы безопасности с включенной поддержкой почты.  | группы рассылки; <br> динамические группы рассылки |
   
 При выборе группы Office 365 для отслеживаемых пользователей политика отслеживает содержимое общих почтовых ящиков Office 365 и каналов Microsoft Teams, связанных с группой. При выборе списка рассылки политика отслеживает индивидуальные почтовые ящики пользователей.
@@ -123,7 +123,7 @@ ms.locfileid: "40959627"
 
 ### <a name="create-a-new-role-group"></a>Создание новой группы ролей
 
-1. Войдите в [https://protection.office.com](https://protection.office.com) систему, используя учетную запись администратора в организации Office 365.
+1. Войдите в [https://protection.office.com/permissions](https://protection.office.com/permissions) систему, используя учетную запись администратора в организации Office 365.
 
 2. В центре безопасности и соответствия требованиям Office 365 перейдите к разделу **разрешения** и нажмите кнопку Добавить**+**().
 

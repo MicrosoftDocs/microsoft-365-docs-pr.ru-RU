@@ -15,12 +15,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: 1d7ed57ab504d8075d0be5ecda7f2a6b016bae89
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bb01d7d2bf4992e6d0e7ed2a01ef0a689e25fc22
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808364"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112243"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
@@ -182,11 +182,11 @@ ms.locfileid: "40808364"
 
    ![Параметры для надстройки сообщений отчета](../media/EditReportMessageAddIn.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Использование надстройки "сообщение отчета"](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
-[Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](../../compliance/view-email-security-reports.md)
+[Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](view-email-security-reports.md)
 
 [Просмотр отчетов для Office 365 Advanced Threat protection](view-reports-for-atp.md)
 

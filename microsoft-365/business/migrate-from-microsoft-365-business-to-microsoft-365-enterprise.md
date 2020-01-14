@@ -1,5 +1,5 @@
 ---
-title: Миграция из Microsoft 365 Business в Microsoft 365 E3
+title: Миграция с Microsoft 365 бизнес на Microsoft 365 E3
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Сведения о том, как перенести бизнес-деятельность из Microsoft 365 Business в Microsoft 365 E3.
-ms.openlocfilehash: dc715bbf4cef8a742a28a6452e83b6e8d2f7cdd8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 7d10889a446543a3e9126aaaa1e3fbe6861f87a4
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805622"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111873"
 ---
-# <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Миграция из Microsoft 365 Business в Microsoft 365 E3
+# <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Миграция с Microsoft 365 бизнес на Microsoft 365 E3
 
 Microsoft 365 Business имеет все необходимое для малого бизнеса, объединяя лучшие облачные приложения для продуктивной работы с помощью простого управления устройствами и обеспечения безопасности, которые позволяют сотрудникам выполнять свои действия. Однако в некоторых случаях вам может потребоваться перенести свою подписку на Microsoft 365 Business в Microsoft 365 E3. 
 
@@ -44,7 +44,7 @@ Microsoft 365 Business имеет все необходимое для мало�
 
 В этой таблице показаны различия между Microsoft 365 Business и Microsoft 365 E3.
 
-| Компонент   | Поддержка в Microsoft 365 Business | Поддержка в Microsoft 365 E3 | 
+| Функция   | Поддержка в Microsoft 365 Business | Поддержка в Microsoft 365 E3 | 
 |:-------|:-----|:-----|
 | **Локальная среда**       | | | 
 | Windows 10    | Windows 10 для бизнеса  |    Windows 10 Корпоративная E3| 
@@ -74,11 +74,11 @@ Microsoft 365 Business имеет все необходимое для мало�
 | Защита от потери данных в Office 365, план Azure Information Protection (план 1)  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Защита информации о Windows для конечной точки DLP    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | **Лицензия клиентского доступа (права CAL)**    | | |   
-| Набор корпоративных лицензий CAL (Exchange, SharePoint, Skype, Windows, System Center Configuration Manager, управление правами Windows)| |        ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
+| Набор корпоративных лицензий CAL (Exchange, SharePoint, Skype, Windows, диспетчер конфигурации конечных точек Майкрософт, управление правами Windows)| |       ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | **Соответствие требованиям**        | | | 
 | Неограниченная Архивация электронной почты | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Диспетчер соответствия требованиям    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
-| Обнаружение электронных данных (eDiscovery)    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
+| Обнаружение электронных данных    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Удержание на месте и удержание для судебного разбирательства | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Теги и политики хранения для управления записями сообщений  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 ||||

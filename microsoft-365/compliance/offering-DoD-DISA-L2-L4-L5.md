@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e6a41cb2c55e1711048c863cd6f2f7e26e9ee5bc
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: ad9659799494a3aaad4a3436b263ebcfd2b56d1c
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959558"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112503"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Авторизация подготовки для Отдела по требованию США на уровнях влияния 2, 4 и 5
 
@@ -36,7 +36,7 @@ ms.locfileid: "40959558"
 - Узнайте о преимуществах Диса L2, уровня 4 уровня 5 в Microsoft Cloud: [Скачайте Отдел обороны Диса](https://aka.ms/disa-backgrounder)
 - В этой статье рассказывается, как ускорить развертывание Диса L2, L2, уровня 5 уровня 5 в соответствии с нашим планом безопасности и соответствия требованиям Azure: [Скачайте реализации управления безопасностью уровня Microsoft Azure DOD](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=e391da04-ae17-472c-9634-959c5ce6ba92&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD%20Blueprint)
 
-## <a name="dod-impact-level-5-provisional-authorization"></a>[Проверка подлинности на уровне DoD 5
+## <a name="dod-impact-level-5-provisional-authorization"></a>Проверка подлинности на уровне 5 с влиянием на DoD
 
 Служба поддержки облачных служб Диса предоставила уровню влияния на Microsoft Azure для Microsoft Azure в целях DoD. Диса также предоставил Office 365 для государственных учреждений защиту от неопределенного уровня по требованию 5 Па. Уровень влияния 5 охватывает контролируемые Неклассифицированные данные (CUI), которые были признаны законодательством, другими нормативными органами или агентством, ответственным за информацию, и нуждается в более высоком уровне защиты, чем предоставляет уровень 4. Кроме того, она охватывает Неклассифицированные национальные системы безопасности.
 

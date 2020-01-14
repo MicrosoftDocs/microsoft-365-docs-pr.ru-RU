@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: a03fc9e14017255faf8c1c7f58cf2baa65823962
-ms.sourcegitcommit: 3401f90721e6f7c65152a31c5be1bb91bfe641c0
+ms.openlocfilehash: 1ddb5a549551e674fb257e4f78c81c5df1eb1a10
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022401"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112733"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -134,7 +134,7 @@ ms.locfileid: "41022401"
 |Отчет (ы)  |Сведения  |
 |---------|---------|
 |**Проводник** или **Обнаружение в режиме реального времени** (Office 365 ATP, план 2, у пользователей есть Explorer; Пользователи Office 365 ATP 1 (план 1) имеют обнаружение в режиме реального времени.)| [Обозреватель угроз (и обнаружение в режиме реального времени)](threat-explorer.md)       |
-|**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаружении нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](../../compliance/view-email-security-reports.md)        |
+|**Отчеты о безопасности электронной почты**, например отчет о самых отправителях и получателях, отчет о поддельной почте и отчет об обнаружении нежелательной почты. | [Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям](view-email-security-reports.md)        |
 |**Трассировка URL-адресов для безопасных ссылок ATP** (это отчет, созданный с помощью PowerShell.) В этом отчете представлены результаты действий безопасных ссылок ATP за прошедшие семь (7) дней. |[Справочные материалы по командлету Get – Урлтраце](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace) |
 |**Результаты EOP и ATP** (это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит такие сведения, как домен, Дата, тип события, направление, действие и количество сообщений.  | [Справочные материалы по командлету Get – Маилтраффикатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport) |
 |**Обнаружение EOP и ATP** (это настраиваемый отчет, созданный с помощью PowerShell). Этот отчет содержит сведения о вредоносных файлах или URL-адресах, фишинговых попытках, олицетворении и других потенциальных угрозах в электронной почте или файлах.   | [Справочные материалы по командлету Get – Маилдетаилатпрепорт](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport)        |

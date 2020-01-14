@@ -12,12 +12,12 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Защита от фишинга с полной защитой в составе Office 365 Advanced Threat Protection и Basic Protection в Office 365 Exchange Online Protection поможет защитить организацию от вредоносных атак с фишингом на основе олицетворения. и других фишинговых атак.
-ms.openlocfilehash: c3efed345baec7b0350d089a56e931006a4724a6
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 235bac70380d8eadb006ce0c903036a1fd471cff
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970275"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112633"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Настройка защиты от фишинга Office 365 ATP и политик защиты от фишинга
 
@@ -147,7 +147,7 @@ ms.locfileid: "39970275"
 
 После того как ваши политики защиты от фишинга будут настроены, вы можете увидеть, как функции защиты от угроз работают для вашей организации, просмотрев отчеты. Чтобы узнать больше, ознакомьтесь со следующими материалами:
 
-- [Просмотр отчетов для Office 365 ATP](view-reports-for-atp.md) или [Просмотр отчетов о безопасности электронной почты](../../compliance/view-email-security-reports.md)
+- [Просмотр отчетов для Office 365 ATP](view-reports-for-atp.md) или [Просмотр отчетов о безопасности электронной почты](view-email-security-reports.md)
 
 - [Использование обозревателя угроз (или обнаружение в режиме реального времени)](threat-explorer.md)
 

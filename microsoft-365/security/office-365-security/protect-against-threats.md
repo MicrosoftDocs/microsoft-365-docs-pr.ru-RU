@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Используйте эту статью в качестве руководства по настройке функций защиты от угроз.
-ms.openlocfilehash: b4e3aba1b03d9c5df9eae50813169a9b9d394f6f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2c2e67334f90b24ec60bc7af01451805b32037cc
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808054"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112013"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
@@ -29,7 +29,7 @@ Office 365 включает различные функции защиты от 
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Подписки
 
@@ -205,7 +205,7 @@ Office 365 включает различные функции защиты от 
 
 ### <a name="audit-logging-for-reporting-and-investigation"></a>Ведение журнала аудита для создания отчетов и исследования
 
-Ведение журнала аудита доступно в подписках, включающих [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description). Для просмотра данных в отчетах защиты от угроз, таких как [панель мониторинга безопасности](security-dashboard.md), [отчеты о безопасности электронной почты](../../compliance/view-email-security-reports.md)и [проводник](threat-explorer.md), для Организации необходимо включить ведение журнала аудита. Чтобы узнать больше, ознакомьтесь [со статьей включение и отключение поиска в журнале аудита Office 365](../../compliance/turn-audit-log-search-on-or-off.md).
+Ведение журнала аудита доступно в подписках, включающих [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description). Для просмотра данных в отчетах защиты от угроз, таких как [панель мониторинга безопасности](security-dashboard.md), [отчеты о безопасности электронной почты](view-email-security-reports.md)и [проводник](threat-explorer.md), для Организации необходимо включить ведение журнала аудита. Чтобы узнать больше, ознакомьтесь [со статьей включение и отключение поиска в журнале аудита Office 365](../../compliance/turn-audit-log-search-on-or-off.md).
 
 ## <a name="post-setup-tasks"></a>Задачи, выполняемые после установки
 
@@ -213,6 +213,6 @@ Office 365 включает различные функции защиты от 
 
 |Действия|Дополнительные ресурсы|
 |---------|---------|
-|Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](../../compliance/view-email-security-reports.md)<br/>[Отчеты для Office 365 ATP](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)|
+|Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](view-email-security-reports.md)<br/>[Отчеты для Office 365 ATP](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)|
 |При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз для Office 365 и функции реагирования](keep-users-safe-with-office-365-ti.md)|
 |Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[Центр сообщений](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|

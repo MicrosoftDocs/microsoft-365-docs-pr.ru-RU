@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: ece7264eba56aa9b389b0dc3555d69e71cc30ad5
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 886ede889e1843c7f7e94b89aeffb89d59a0120a
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959617"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111853"
 ---
 # <a name="communication-compliance-feature-reference-preview"></a>Справка по функциям обеспечения соответствия требованиям (Предварительная версия)
 
@@ -215,7 +215,7 @@ ms.locfileid: "40959617"
 | **Recipient** | Пользователь, которому было отправлено сообщение. |
 | **Отправитель** | Пользователь, который отправил сообщение. |
 | **Домен отправителя** | Домен, который отправил сообщение. |
-| **Size** | Размер сообщения в КИЛОБАЙТах. |
+| **Размер** | Размер сообщения в КИЛОБАЙТах. |
 | **Тема или название** | Тема сообщения или название чата. |
 | **Tags** | Теги *,* назначенные сообщению, *совместимым, совместимым*или *несоответствующим требованиям*. |
 | **Расширено до** | Имя пользователя, включенное в состав действия по распространению сообщений. |
@@ -277,6 +277,12 @@ ms.locfileid: "40959617"
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
+```
+
+В этом примере возвращаются действия по обновлению для политик соответствия требованиям.
+
+```PowerShell
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?
