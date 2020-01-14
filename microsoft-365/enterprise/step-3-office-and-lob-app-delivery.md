@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как доставлять приложения Office и бизнес-приложения.
-ms.openlocfilehash: fdb16aa9d92e3fd2608ca3738dc5af80389f18ea
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a4bc1a765edf6938ad37d91d8bf94950b6672bfe
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031534"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112599"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Этап 3. Доставка приложений Office и бизнес-приложений
 
@@ -49,7 +49,7 @@ ms.locfileid: "38031534"
 
 Что касается бизнес-приложений, вероятнее всего вы будете использовать пакеты MSI или исполняемые файлы и устанавливать приложения в рамках последовательности задач по развертыванию ОС. Windows 10 продолжит работать с этими пакетами.
 
-Средства развертывания ПО (такие как System Center Configuration Manager и Microsoft Intune) также оптимизированы для доставки приложений в пакетах MSI. Проверив свои приложения в Windows 10, вы можете использовать System Center Configuration Manager (Current Branch) для их доставки. Если вы используете корпоративный портал в Microsoft Intune, можно расширить ассортимент разрешенных ИТ-отделом приложений в организации, чтобы он включал новейшие приложения, а пользователи могли самостоятельно выбирать нужные.
+Средства развертывания ПО (такие как Microsoft Endpoint Configuration Manager и Microsoft Intune) также оптимизированы для доставки приложений в пакетах MSI. Проверив свои приложения в Windows 10, вы можете использовать Microsoft Endpoint Configuration Manager (current branch) для их доставки. Если вы используете корпоративный портал в Microsoft Intune, можно расширить ассортимент разрешенных ИТ-отделом приложений в организации, чтобы он включал новейшие приложения, а пользователи могли самостоятельно выбирать нужные.
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-3.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "38031534"
 
 Если вы хотите включить Office 365 профессиональный плюс в свой образ, помните, что в нем используется активация отдельных пользователей. Его не может активировать системный администратор. Используйте средство развертывания Office, чтобы заранее установить Office на устройстве, с которого будет создаваться образ, пропустив вход пользователя. После развертывания образа конечные пользователи смогут войти, используя свои учетные данные Office 365, и активировать Office 365 профессиональный плюс.
 
-[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 [Развертывание Office 365 профессиональный плюс в составе образа операционной системы](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
@@ -75,7 +75,7 @@ Office 365 профессиональный плюс устанавливает
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-7.png)
 
-Если применяется System Center Configuration Manager, вы можете продолжать использовать его для широкого развертывания Office 365 профессиональный плюс. System Center Configuration Manager (Current Branch) по умолчанию поддерживает обновленный центр развертывания Office, настройку пакетов для технологии "нажми и работай" во время установки и управление обновлениями программ после нее.
+Если применяется Configuration Manager, вы можете продолжать использовать его для широкого развертывания Office 365 профессиональный плюс. Configuration Manager (current branch) по умолчанию поддерживает обновленный центр развертывания Office, настройку пакетов для технологии "нажми и работай" во время установки и управление обновлениями программ после нее.
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
@@ -83,7 +83,7 @@ Office 365 профессиональный плюс устанавливает
 
 [Удаление существующих версий MSI Office при переходе на Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+[Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 [Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365)
 

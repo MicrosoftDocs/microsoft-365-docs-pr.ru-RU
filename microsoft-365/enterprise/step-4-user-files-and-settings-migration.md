@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как перенести файлы и параметры пользователей.
-ms.openlocfilehash: 8b9bde4eb1ddf0951a2ab27795dadef9965f6a1c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e1def35a631f8a90ee699c6ed7129216015e5182
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031494"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112573"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Этап 4. Перенос файлов и параметров пользователя
 
@@ -51,7 +51,7 @@ ms.locfileid: "38031494"
 
 ## <a name="automated-migration-using-usmt"></a>Автоматическая миграция с помощью USMT 
 
-В случае крупномасштабного развертывания вы можете автоматизировать значительную часть процесса с помощью средств автоматизации развертывания, использующих последовательности задач, например System Center Configuration Manager или Microsoft Deployment Toolkit (MDT). Оба этих решения используют средство миграции пользовательской среды (USMT) в рамках полного процесса развертывания. USMT входит в состав [комплекта средств для развертывания и оценки Windows (Windows ADK)](https://docs.microsoft.com/windows-hardware/get-started/adk-install).
+В случае крупномасштабного развертывания вы можете автоматизировать значительную часть процесса с помощью средств автоматизации развертывания, использующих последовательности задач, например Microsoft Endpoint Configuration Manager или Microsoft Deployment Toolkit (MDT). Оба этих решения используют средство миграции пользовательской среды (USMT) в рамках полного процесса развертывания. USMT входит в состав [комплекта средств для развертывания и оценки Windows (Windows ADK)](https://docs.microsoft.com/windows-hardware/get-started/adk-install).
 
 USMT собирает учетные записи пользователей, их файлы, параметры операционной системы и настройки приложений, а затем переносит их в новый экземпляр Windows. Кроме того, это средство помогает ИТ-администратору выбирать, какие именно компоненты переносятся, а при необходимости исключать нежелательные типы файлов, например видео, звуковые или исполняемые файлы.
 

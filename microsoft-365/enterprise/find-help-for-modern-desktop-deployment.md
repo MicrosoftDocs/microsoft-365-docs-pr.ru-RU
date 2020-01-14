@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Расположение справочных материалов по развертыванию Windows 10 и Office 365 профессиональный плюс.
-ms.openlocfilehash: a6064fb49f6bdd44275a9038eeb8b264638ea618
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b7eb30e8a9b5b46635793e9c79e2609467d87848
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031024"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112543"
 ---
 # <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Справка по развертыванию Windows 10 и Office 365 профессиональный плюс 
 
@@ -49,7 +49,7 @@ ms.locfileid: "38031024"
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
 <td><p><strong>Доставка приложений Office и бизнес-приложений</strong></p>
 <ul>
-<li><p>Настройка и развертывание<a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий, настройке параметров установки и обновления для технологии "нажми и работай", а также в создании пакетов, если ваша организация использует System Center Configuration Manager.</p></li>
+<li><p>Настройка и развертывание <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий, настройке параметров установки и обновления для технологии "нажми и работай", а также в создании пакетов, если ваша организация использует Microsoft Endpoint Configuration Manager.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -70,7 +70,7 @@ ms.locfileid: "38031024"
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="step 6" height="144" width="144" /></td>
 <td><p><strong>Обновление компонентов и развертывание ОС</strong></p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий и настройке Windows Autopilot на новых устройствах, подготовке и настройке политик MDM для Windows 10 и прочих мобильных устройств, включая развертывание приложений, профилей Wi-Fi и VPN, совместного управления с System Center Configuration Manager и т. д.</p></li>
+<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий и настройке Windows Autopilot на новых устройствах, подготовке и настройке политик MDM для Windows 10 и прочих мобильных устройств, включая развертывание приложений, профилей Wi-Fi и VPN, совместного управления с Microsoft Endpoint Configuration Manager и т. д.</p></li>
 </ul></td>
 </tr>
 <tr class="even">

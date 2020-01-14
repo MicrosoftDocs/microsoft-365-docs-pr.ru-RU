@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Автоматический переход с Windows 7 на Windows 10 для крупных организаций
-ms.openlocfilehash: 6cf7b25c584b94b077b95b35be58f6cd5ef75ac5
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 7bca0a185bccbec1ee857b17817debfd7f06feb0
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38078088"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112703"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Автоматический переход на месте с Windows 7 на Windows 10 для крупных организаций
 
@@ -40,7 +40,7 @@ ms.locfileid: "38078088"
 
 В процессе обновления по умолчанию создается резервная копия предыдущей установки Windows, поэтому в случае сбоя обновления или неправильной работы устройства или приложения после обновления компьютер можно откатить к Windows 7. На обновленных компьютерах по умолчанию есть 10 дней для запуска при необходимости возврата к Windows 7 в ручном режиме.
 
-Обновления на месте можно автоматизировать с помощью таких средств развертывания операционных систем, как [System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) или [Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). В этой статье описаны автоматизированные способы и оптимизация, а также ссылки на соответствующие ресурсы для получения дополнительной помощи.
+Обновления на месте можно автоматизировать с помощью таких средств развертывания операционных систем, как [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) или [Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit). В этой статье описаны автоматизированные способы и оптимизация, а также ссылки на соответствующие ресурсы для получения дополнительной помощи.
 
 ## <a name="upgrading-a-small-number-of-computers"></a>Обновление небольшого числа компьютеров
 
@@ -48,7 +48,7 @@ ms.locfileid: "38078088"
 
 ## <a name="how-to-upgrade-many-computers"></a>Обновление большого числа компьютеров
 
-Если вы управляете десятками или тысячами компьютеров, лучшим вариантом является обновление на месте с использованием последовательности задач в System Center Configuration Manager или Microsoft Deployment Toolkit. Этот процесс в большинстве случаев является очень надежным, но в зависимости от числа обновляемых компьютеров рекомендуется подготовить обязательное тестирование и средства управления, чтобы обеспечить успех при большом масштабе.
+Если вы управляете десятками или тысячами компьютеров, лучшим вариантом является обновление на месте с использованием последовательности задач в Microsoft Endpoint Configuration Manager или Microsoft Deployment Toolkit. Этот процесс в большинстве случаев является очень надежным, но в зависимости от числа обновляемых компьютеров рекомендуется подготовить обязательное тестирование и средства управления, чтобы обеспечить успех при большом масштабе.
 
 Это означает, что вы можете пропустить этап готовности каталога или задачи, связанные с отправкой и упаковкой приложений Azure Active Directory, Office и бизнес-приложений, а также перенос пользовательских файлов, так как эти аспекты относятся к процессу обновления и параметры безопасности должны быть как минимум перенесены. Со временем эти области могут быть улучшены.
 
@@ -78,13 +78,13 @@ ms.locfileid: "38078088"
 
   - Решения кода нижнего уровня, например защита от вредоносных программ, VPN или виртуализация
 
-Шаблоны [последовательности задач обновления](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) встроены в текущую ветвь System Center Configuration Manager и доступны в нескольких выпусках. В последних выпусках внесены значительные технологические улучшения в System Center Configuration Manager, повышающие эффективность процесса для определения готовности к совмещению устройств и Office, снижения сетевого трафика и настройки новых параметров, например резервного копирования OneDrive. Посмотрите эту [демонстрацию Microsoft Mechanics](https://youtu.be/CYRnAmCD7ls), чтобы узнать больше об последних обновлениях для развертывания ОС с помощью System Center Configuration Manager.
+Шаблоны [последовательности задач обновления](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) встроены в Microsoft Endpoint Configuration Manager (current branch) и доступны в нескольких выпусках. В последних выпусках внесены значительные технологические улучшения в Configuration Manager, повышающие эффективность процесса для определения готовности к совмещению устройств и Office, снижения сетевого трафика и настройки новых параметров, например резервного копирования OneDrive. Посмотрите эту [демонстрацию Microsoft Mechanics](https://youtu.be/CYRnAmCD7ls), чтобы узнать больше об последних обновлениях для развертывания ОС с помощью Configuration Manager.
 
-Если вы не используете System Center Configuration Manager, вы можете применить средство Microsoft Deployment Toolkit для создания и выполнения последовательностей задач по развертыванию обновления.
+Если вы не используете Microsoft Endpoint Configuration Manager, вы можете применить средство Microsoft Deployment Toolkit для создания и выполнения последовательностей задач по развертыванию обновления.
 
 ## <a name="pre-cache-task-sequence-upgrades"></a>Обновления с последовательностью задач предварительного кэширования
 
-Возможность [предварительного кэширования](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) для последовательности задач развертывания Configuration Manager позволяет клиентам скачивать соответствующее содержимое пакетов обновления ОС перед обновлением операционной системы с помощью последовательности задач. Ранее при запуске последовательности задач начиналось скачивание содержимого пакета. Содержимое предварительного кэша также дает возможность клиенту скачать только нужный пакет обновления ОС и все прочее указанное содержимое сразу после развертывания.
+Возможность [предварительного кэширования](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content) для последовательности задач развертывания Configuration Manager позволяет клиентам скачивать соответствующее содержимое пакетов обновления ОС перед обновлением операционной системы с помощью последовательности задач. Ранее при запуске последовательности задач начиналось скачивание содержимого пакета. Содержимое предварительного кэша также дает возможность клиенту скачать только нужный пакет обновления ОС и все прочее указанное содержимое сразу после развертывания.
 
 Последовательности задач предварительного кэширования в сочетании с проверками совместимости
 

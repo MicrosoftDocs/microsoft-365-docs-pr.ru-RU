@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовиться к обслуживанию Windows и Office в вашей среде.
-ms.openlocfilehash: a1cc9cb66754ed86f982d90db0ccbcce16b5ffb1
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 28c66bbd723aaf4f3823e582e7b9b98daea69c27
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031504"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112261"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Этап 7. Обслуживание Windows и Office
 
@@ -37,7 +37,7 @@ ms.locfileid: "38031504"
 >Обслуживание Windows и Office — седьмой этап рекомендуемого нами процесса развертывания, который охватывает аспекты планирования полугодичных обновлений компонентов. Полный процесс развертывания для настольных ПК описан в статье [Центр развертывания компьютеров](https://aka.ms/HowToShift).
 >
 
-Как в Windows 10, так и в Office 365 профессиональный плюс представлены новые варианты обслуживания, модели поддержки и расписания обновления. Эти изменения помогают своевременно добавлять новые возможности. Вместе с этими обновлениями предоставляются новые параметры конфигурации, позволяющие использовать подходящие вам планы обслуживания. Узнайте, как подготовиться к обновлениям Semi-Annual Channel с новыми компонентами и возможностями в Windows 10 и Office 365 профессиональный плюс, а также использовать новые возможности в System Center Configuration Manager (Current Branch).
+Как в Windows 10, так и в Office 365 профессиональный плюс представлены новые варианты обслуживания, модели поддержки и расписания обновления. Эти изменения помогают своевременно добавлять новые возможности. Вместе с этими обновлениями предоставляются новые параметры конфигурации, позволяющие использовать подходящие вам планы обслуживания. Узнайте, как подготовиться к обновлениям Semi-Annual Channel с новыми компонентами и возможностями в Windows 10 и Office 365 профессиональный плюс, а также использовать новые возможности в Microsoft Endpoint Configuration Manager (Current Branch).
 
 [Как мы помогаем клиентам перейти на Windows 10 и Office 365 профессиональный плюс](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
@@ -77,11 +77,11 @@ ms.locfileid: "38031504"
 
 ### <a name="supporting-management-tools"></a>Вспомогательные средства управления
 
-Мы также продумали удобное развертывание обновлений. System Center Configuration Manager (Current Branch) часто обновляется для поддержки новых возможностей и развертывания этих обновлений в Windows и Office.
+Мы также продумали удобное развертывание обновлений. Configuration Manager (Current Branch) часто обновляется для поддержки новых возможностей и развертывания этих обновлений в Windows и Office.
 
-[Развертывание обновлений Windows 10 с помощью System Center Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+[Развертывание обновлений Windows 10 с помощью Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+[Управление Office 365 профессиональный плюс с помощью Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Общие сведения о каналах для Windows и Office
 
@@ -117,7 +117,7 @@ ms.locfileid: "38031504"
 
 [Описание исправлений Windows 10 и сведения об окончании выпуска разностных обновлений](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-10-quality-updates-explained-amp-the-end-of-delta/ba-p/214426)
 
-Центр обновления Windows для бизнеса и Windows Server Update Services уже давно поддерживают экспресс-обновления, но теперь мы добавили их поддержку в System Center Configuration Manager (Current Branch).
+Центр обновления Windows для бизнеса и Windows Server Update Services уже давно поддерживают экспресс-обновления, но теперь мы добавили их поддержку в Microsoft Endpoint Configuration Manager (Current Branch).
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-3.png)
 
@@ -125,7 +125,7 @@ ms.locfileid: "38031504"
 
 Двоичное разностное сжатие в Office используется, только если вы обновляете последнюю версию Office 365 профессиональный плюс, поэтому для его использования необходимо выполнять обновление с предыдущей сборки и не пропускать обновления.
 
-Каналами обновления Windows и Office можно управлять с помощью диспетчера конфигураций, используя стандартный процесс утверждения и таргетинга. Кроме того, вы можете использовать параметры политики в Office и Windows, чтобы принудительно применять определенные каналы обновления, а также связанные с ними параметры.
+Каналами обновления Windows и Office можно управлять с помощью Configuration Manager, используя стандартный процесс утверждения и таргетинга. Кроме того, вы можете использовать параметры политики в Office и Windows, чтобы принудительно применять определенные каналы обновления, а также связанные с ними параметры.
 
 ### <a name="semi-annual-updates"></a>Полугодичные обновления
 
@@ -133,7 +133,7 @@ ms.locfileid: "38031504"
 
 Как упоминалось в статье "Готовность устройств и приложений", подготовку к этим крупным обновлениям следует начать с помощью тех же средств обеспечения готовности, которые мы настроили на 1-м этапе развертывания.
 
-Что касается инструментария, вы можете использовать параметры политики в центре обновления Windows для бизнеса, средства управления обновлениями ПО в System Center Configuration Manager (Current Branch), Windows Server Update Services (WSUS) или политики обновления, заданные в Microsoft Intune. Если вас беспокоит пропускная способность сети, см. статью "Этап 2. Готовность каталогов и сети", чтобы узнать, как вы можете уменьшить сетевой трафик с помощью оптимизации доставки и других технологий однорангового кэширования.
+Что касается инструментария, вы можете использовать параметры политики в центре обновления Windows для бизнеса, средства управления обновлениями ПО в Microsoft Endpoint Configuration Manager (Current Branch), Windows Server Update Services (WSUS) или политики обновления, заданные в Microsoft Intune. Если вас беспокоит пропускная способность сети, см. статью "Этап 2. Готовность каталогов и сети", чтобы узнать, как вы можете уменьшить сетевой трафик с помощью оптимизации доставки и других технологий однорангового кэширования.
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
 
@@ -143,7 +143,7 @@ ms.locfileid: "38031504"
 
 #### <a name="upgrade-task-sequences"></a>Последовательности задач обновления
 
-Установка крупных обновлений компонентов с помощью стандартных методик управления обновлениями ПО поддерживается, но многие организации выбирают последовательность задач обновления в System Center Configuration Manager (Current Branch) или Microsoft Deployment Toolkit.
+Установка крупных обновлений компонентов с помощью стандартных методик управления обновлениями ПО поддерживается, но многие организации выбирают последовательность задач обновления в Microsoft Endpoint Configuration Manager (Current Branch) или Microsoft Deployment Toolkit.
 
 Последовательность задач позволяет создавать собственные проверки или задачи ДО установки обновления компонентов, а также выполнять пользовательские задачи ПОСЛЕ установки самого обновления. Задачи после обновления могут включать временную остановку служб, если это требуется во время обновления, установку и замену драйверов, обновления приложений, а также параметры персонализации панели задач или меню "Пуск" в Windows 10.
 
@@ -151,7 +151,7 @@ ms.locfileid: "38031504"
 
 Если вы уже используете последовательности задач для переноса компьютеров с Windows 7 на Windows 10 и хорошо владеете этими инструментами, то это отличная отправная точка, предоставляющая полный контроль. Вы можете использовать одну последовательность задач для всего обновления, но во многих организациях используется две последовательности. Одна гарантирует, что компьютеры готовы к обновлению, незаметно подготавливая все необходимые установочные файлы на целевых компьютерах, а другая выполняет само обновление. Этот подход обеспечивает меньшее воздействие на продуктивность пользователей.
 
-[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>Поддержка обновлений компонентов в полугодовом канале
 
