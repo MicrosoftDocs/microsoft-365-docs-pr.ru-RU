@@ -37,7 +37,7 @@
           href: ../enterprise/sharepoint-file-access-policies.md
     - name: Защита от угроз (Майкрософт)
       items:
-        - name: Обзор
+        - name: Общие сведения
           items:
             - name: Что такое защита от угроз (Майкрософт)?
               href: mtp/microsoft-threat-protection.md
@@ -55,7 +55,7 @@
               href: mtp/mtp-enable.md
             - name: Инциденты
               items:
-                - name: Обзор
+                - name: Общие сведения
                   href: mtp/incidents-overview.md
                 - name: Управление приоритетом инцидентов
                   href: mtp/incident-queue.md
@@ -412,6 +412,8 @@
               href: ./office-365-security/enable-the-report-message-add-in.md
             - name: Трассировка сообщений в Центре безопасности и соответствия требованиям
               href: ./office-365-security/message-trace-scc.md
+            - name: Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
+              href: ./office-365-security/view-email-security-reports.md
             - name: Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
               href: ./office-365-security/mail-flow-insights-v2.md
               items:

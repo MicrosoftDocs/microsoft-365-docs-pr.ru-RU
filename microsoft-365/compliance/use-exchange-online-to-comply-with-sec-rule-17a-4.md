@@ -1,7 +1,7 @@
 ---
 title: Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Компания Cohasset Associates убедилась, что при рекомендованной настройке Exchange Online и Центра безопасности и соответствия требованиям соблюдаются соответствующие требования к хранилищам согласно правилу CFTC 1.31 (пункты c и d), правилу FINRA 4511 и правилу SEC 17a-4. Вы можете скачать данную оценку.
-ms.openlocfilehash: 60b8d27ed75afbfd6ffc5d8e254738ea62e0d21b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 33db33589df60b52c4598c52d593b9a6fe4c9c10
+ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090635"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41122428"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
 
@@ -65,7 +65,7 @@ ms.locfileid: "37090635"
 
 ## <a name="known-limitations"></a>Известные ограничения
 
-Мы знаем о нескольких ограничениях в Exchange Online. Мы активно работаем над их устранением и собираемся выпустить материалы по поддержке указанных ниже сценариев в июле 2019 г.
+В настоящее время существует несколько ограничений для Exchange Online:
 
 - Аудит на уровне элементов недоступен в почтовых ящиках групп Office 365.
 - Сообщения в чатах и каналах Teams нельзя объединить в цепочки.
