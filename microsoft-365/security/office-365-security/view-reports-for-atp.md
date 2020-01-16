@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 1ddb5a549551e674fb257e4f78c81c5df1eb1a10
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 74ed1387af7792d8cb41d6f890deb89be07fc9fc
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112733"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210511"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -97,12 +97,6 @@ ms.locfileid: "41112733"
 > [!NOTE]
 > Это отчет по *тенденциям защиты*, то есть данные представляют тенденции в более крупном наборе данных. Отчеты недоступны в режиме реального времени. В случае с URL-адресом в режиме реального времени нажмите данные, продолжайте использовать трассировку URL-адресов.
 
-## <a name="compromised-users-report"></a>Отчет о скомпрометированных пользователях
-
-Этот отчет, доступный всем пользователям Exchange Online Protection, показывает количество учетных записей пользователей, помеченных как подозрительные или ограниченные, данные, особенно полезные в качестве учетных записей, могут быть непроблематичными или даже раскрыты. При частом использовании отчет о скомпрометированных пользователях может нарушить пиковые значения и даже тенденции в учетных записях, помеченных в подозрительных или ограниченных состояниях, что свидетельствует о проблемах с безопасностью и веллнесс клиента.
-
-![Отчет "скомпрометированные пользователи" в том виде, в котором он отображается в Office 365.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
-
 ## <a name="atp-file-types-report"></a>отчет о типах файлов ATP;
 
 В отчете " **типы файлов ATP** " отображаются типы файлов, обнаруженных в качестве вредоносных при [безопасном вложении ATP](atp-safe-attachments.md).
@@ -165,7 +159,7 @@ ms.locfileid: "41112733"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безопасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные разделы
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

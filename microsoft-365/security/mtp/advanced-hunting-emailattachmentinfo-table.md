@@ -1,7 +1,7 @@
 ---
 title: Таблица EmailAttachmentInfo в схеме расширенного поиска
 description: Сведения о вложениях электронной почты в таблице EmailAttachmentInfo схемы расширенного поиска
-keywords: расширенный поиск, поиск угроз, поиск киберугроз, поиск, запрос, телеметрия, ссылка на схему, Kusto, таблица, столбец, тип данных, описание, EmailAttachmentInfo, идентификатор сетевого сообщения, отправитель, получатель, идентификатор вложения, имя вложения, решение о наличии вредоносной программы
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, Емаилаттачментинфо, идентификатор сетевого сообщения, отправитель получатель, идентификатор вложения, имя вложения, вредоносности вредоносных программ
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9368185fff037b8c3c2f5b70a178f2485fda3736
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3bd4c3ed69c53a4520e0e0739801ef4a74b77059
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808724"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210374"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 

@@ -1,7 +1,7 @@
 ---
 title: Таблицы данных в схеме расширенной охоты на угрозы в службе защиты от угроз (Майкрософт)
 description: Ознакомьтесь со сведениями о таблицах в схеме расширенной охоты на угрозы, чтобы понять, для каких типов данных можно выполнять запросы на охоту на угрозы
-keywords: расширенная охота на угрозы, охота на угрозы, охота на киберугрозы, поиск, запрос, телеметрия, справка по схеме, kusto, таблица, данные
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схеме, Кусто, таблица, данные
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 631b328168003668ed06e37d76177c327794ed18
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: aa2fbeebed10bcb1f0c4078a161be99d16d3b97b
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808664"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210324"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -46,6 +46,7 @@ ms.locfileid: "40808664"
 | **[девицелогоневентс](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности |
 | **[девицеимажелоадевентс](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
 | **[девицеевентс](advanced-hunting-deviceevents-table.md)** | Несколько типов событий, в том числе события, запускаемые такими элементами управления безопасностью, как антивирусная программа "Защитник Windows" и защита от эксплойтов |
+| **[девицефилецертификатеинфобета](advanced-hunting-devicefilecertificateinfobeta-table.md)** | Сведения о сертификате подписанных файлов, полученные из событий проверки сертификатов в конечных точках |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | События электронной почты Office 365, в том числе события доставки и блокирования электронной почты |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Сведения о файлах, вложенных в электронные сообщения Office 365 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в электронных сообщениях Office 365 |
@@ -55,8 +56,8 @@ ms.locfileid: "40808664"
 | **[DeviceTvmSecureConfigurationAssessmentKB](advanced-hunting-tvm-secureconfigkb-table.md)** | База знаний различных конфигураций безопасности, используемых системой контроля угроз и уязвимостей для оценки устройств; включает в себя сопоставления с различными стандартами и контрольными показателями  |
 
 ## <a name="related-topics"></a>Статьи по теме
-- [Профилактический поиск угроз](advanced-hunting-overview.md)
-- [Сведения о языке запросов](advanced-hunting-query-language.md)
+- [Заблаговременный поиск угроз](advanced-hunting-overview.md)
+- [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

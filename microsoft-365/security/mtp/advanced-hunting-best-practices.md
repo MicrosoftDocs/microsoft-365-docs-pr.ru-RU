@@ -1,7 +1,7 @@
 ---
 title: Рекомендации по расширенному выслеживанию в службе Защиты от угроз (Майкрософт)
 description: В этой статье можно узнать о том, как формировать оперативные, эффективные и безошибочные запросы в ходе расширенного выслеживания.
-keywords: расширенное выслеживание, выслеживание угроз, выслеживание киберугроз, поиск, запрос, телеметрия, настройка обнаружения угроз, схема, kusto, избегание времени ожидания, командные строки, идентификатор процесса
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, пользовательские обнаружения, схема, Кусто, предотвращение времени ожидания, командные строки, идентификатор процесса
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 97c5f5541e1c3293346a53d87b950121e85e6eae
-ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
+ms.openlocfilehash: adb447916346ad83c95e64ef889d2986a106e776
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40966875"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41209944"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 

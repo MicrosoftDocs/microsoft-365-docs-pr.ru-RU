@@ -1,7 +1,7 @@
 ---
 title: Обзор сведений о расширенном выслеживании угроз в службе Защиты от угроз (Майкрософт)
 description: В статье рассказывается о запросах расширенного выслеживания в Microsoft 365 и о том, как их использовать для профилактического обнаружения угроз и слабых мест в своей сети.
-keywords: расширенное выслеживание, выслеживание угроз, выслеживание киберугроз, поиск, запрос, телеметрия, настройка обнаружения угроз, схема, kusto,microsoft 365, Защита от угроз (Майкрософт)
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, пользовательские обнаружения, схема, Кусто, Microsoft 365, защита от угроз Майкрософт
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 23942b1d39bacfab470d41fca1ea630ad7b80ea3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 791eee143c80e00a3fdb1fa4dbde8bbf41612e9a
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808704"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210354"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 

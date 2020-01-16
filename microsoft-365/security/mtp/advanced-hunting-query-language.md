@@ -1,7 +1,7 @@
 ---
 title: Познакомьтесь с языком запросов расширенной охоты на угрозы в службе защиты от угроз (Майкрософт)
 description: Создайте ваш первый запрос охоты на угрозы и узнайте о распространенных операторах и других аспектах языка запросов расширенной охоты на угрозы
-keywords: расширенная охота, охота на угрозы, поиск киберугроз, поиск, запрос, язык, изучение, первый запрос, телеметрия, события, телеметрия, пользовательские обнаружения, схема, kusto, операторы, типы данных
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, язык, сведения, первый запрос, телеметрии, события, телеметрия, пользовательские обнаружения, схема, Кусто, операторы, типы данных
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b2b42c6a49a4422d73148b06e8379dcf1336e926
-ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
+ms.openlocfilehash: 36f2efb733e8403b30e0ecc406bb1ea2d6a6248e
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40999613"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210344"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 

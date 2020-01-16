@@ -1,7 +1,7 @@
 ---
 title: Таблица AlertEvents в схеме расширенной охоты
 description: Сведения о событиях создания оповещений в таблице AlertEvents схемы расширенной охоты
-keywords: расширенная охота, охота на угрозы, охота на киберугрозы, поиск, запрос, телеметрия, справочник схемы, kusto, таблица, столбец, тип данных, описание, события оповещений, оповещение, серьезность, категория
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, алертевентс, предупреждение, серьезность, Категория
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ee14dcc1c2ae0a2bc6fa3c094d757441515f00de
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2d8c484f11e1384e1b98f05b907b043c33231f3f
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807018"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210084"
 ---
 # <a name="alertevents"></a>AlertEvents
 

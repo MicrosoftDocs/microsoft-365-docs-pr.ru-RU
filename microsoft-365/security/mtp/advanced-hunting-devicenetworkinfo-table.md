@@ -1,7 +1,7 @@
 ---
 title: Таблица девиценетворкинфо в схеме расширенного поискового окна
 description: Сведения о конфигурации сети в таблице Девиценетворкинфо расширенной схемы подсистемы Поиск
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз, Поиск угроз, поиск, запрос, телеметрии, Справочник по схеме, Кусто, таблица, столбец, тип данных, описание, мачиненетворкинфо, Девиценетворкинфо, устройство, компьютер, Mac, IP-адрес, адаптер, DNS, DHCP, шлюз, туннель
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схемам, Кусто, таблица, столбец, тип данных, описание, мачиненетворкинфо, Девиценетворкинфо, устройство, компьютер, Mac, IP, адаптер, DNS, DHCP, шлюз, туннель
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e0d183dd762aba7f11ee46acc81a89b453dc70cb
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 938eb02da1b37f27f15f06ad67748a9e3beca68a
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809393"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210421"
 ---
 # <a name="devicenetworkinfo"></a>девиценетворкинфо
 
@@ -51,7 +51,7 @@ ms.locfileid: "40809393"
 | `DefaultGateways` | string | Адреса шлюза по умолчанию в формате массива JSON |
 | `IPAddresses` | string | Массив JSON, содержащий все IP-адреса, назначенные адаптеру вместе с соответствующими префиксом и пространством IP-адресов, например общедоступной, частной или локальной локальной связью. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 - [Заблаговременный поиск угроз](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

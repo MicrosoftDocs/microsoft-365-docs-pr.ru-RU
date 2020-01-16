@@ -1,7 +1,7 @@
 ---
 title: Таблица девиценетворкевентс в схеме расширенного поискового окна
 description: Сведения о событиях сетевого подключения, которые можно запросить из таблицы Девиценетворкевентс расширенной схемы поиска
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз, Поиск угроз кибератак, поиск, запрос, телеметрии, Справочник по схеме, Кусто, таблица, столбец, тип данных, девиценетворкевентс, Нетворккоммуникатионевентс, сетевое подключение, удаленный IP-адрес, локальный IP-адрес
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схемам, Кусто, таблица, столбец, тип данных, девиценетворкевентс, Нетворккоммуникатионевентс, сеть подключение, удаленный IP-адрес, локальный IP-адрес
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 82475ad15090250aa4fca70a6810cb869128102d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 6656aae93d6a8baca0cb351a29f41350b63bbd25
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809395"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210431"
 ---
 # <a name="devicenetworkevents"></a>девиценетворкевентс
 
@@ -65,7 +65,7 @@ ms.locfileid: "40809395"
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и timestamp |
 | `AppGuardContainerId` | string | Идентификатор виртуального контейнера, используемого Application Guard для изоляции активности браузера |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 - [Заблаговременный поиск угроз](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)

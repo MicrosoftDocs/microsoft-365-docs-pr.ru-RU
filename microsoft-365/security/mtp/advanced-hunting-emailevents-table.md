@@ -1,7 +1,7 @@
 ---
 title: Таблица EmailEvents в схеме расширенного поиска
 description: Узнайте о событиях, связанных с сообщениями электронной почты Office 365 в таблице EmailEvents схемы расширенного поиска
-keywords: расширенный поиск, поиск угроз, поиск киберугроз, поиск, запрос, телеметрия, ссылка на схему, kusto, таблица, столбец, тип данных, описание, EmailEvents, ИД сетевого сообщения, отправитель, получатель, ИД сложения, имя вложения, решение о наличии вредоносной программы, решение о наличии фишинга, количество вложений, количество ссылок, количество URL-адресов
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, Емаилевентс, идентификатор сетевого сообщения, отправитель, получатель, Идентификатор вложения, имя вложения, вредоносности вредоносных программ, фишинг вредоносности, количество вложений, число ссылок, количество URL-адресов
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3495414148edb5e3b6691e4545e0cf6587af7b4d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 43d30772fa756369971bde747825028b50e9540b
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808714"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210364"
 ---
 # <a name="emailevents"></a>EmailEvents
 
