@@ -3,7 +3,7 @@ title: Непроверенный отправитель
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 07/11/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Чтобы предотвратить доступ к почтовому ящику с помощью фишинговых сообщений, Outlook.com и Outlook в Интернете убедитесь, что отправитель говорят, что они говорят о них и помечают подозрительные сообщения как нежелательная почта.
-ms.openlocfilehash: 4c8b8a0711ab66607d0db5923c1115c436537bd0
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 65b9d1dd3eb1a764867103710448255be96cd183
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970935"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173515"
 ---
 # <a name="unverified-sender"></a>Непроверенный отправитель
 
@@ -44,19 +44,19 @@ Outlook.com и Outlook в Интернете показывают индикат
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>Как управлять сообщениями, принимающими непроверенные отправители 
 
-Если вы являетесь клиентом Office 365, вы можете управлять этим компонентом с помощью центра безопасности & соответствия требованиям. 
+Если вы являетесь клиентом Office 365, вы можете управлять этим компонентом с помощью центра безопасности & соответствия требованиям Office 365.
 
-- В центре безопасности Office 365 &, глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, управлять ими можно с помощью командлета "Set – AntiPhishPolicy". Более подробную информацию можно узнать [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
+- В центре безопасности & соответствия требованиям глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, вы можете использовать командлет **Set-AntiPhishPolicy** в Exchange Online PowerShell. Дополнительные сведения см [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
 
     ![Изменение отправителя, не прошедшего проверку подлинности, в графическом интерфейсе.](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
 - Если администратор определил ложное срабатывание, а отправитель не должен получать непроверенную обработку отправителя, можно выполнить одно из следующих действий, чтобы добавить отправителя в список разрешенных поддельных поддельных поддельных поддельных поддельных подделки:
 
-  - Добавьте доменную связь с помощью анализа сведений о подделких. Более подробную информацию можно найти в разделе [Пошаговое руководство](walkthrough-spoof-intelligence-insight.md).
+  - Добавьте доменную связь с помощью анализа сведений о подделких. Дополнительные сведения [: обзор подделки информации](walkthrough-spoof-intelligence-insight.md).
 
-  - Добавьте доменную комбинацию с помощью командлета PhishFilterPolicy. Более подробную информацию можно узнать в статье [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) и [Set up Anti-ФИШИНГ Office 365 ATP и политики защиты от фишинга](set-up-anti-phishing-policies.md).
+  - Добавьте доменную комбинацию с помощью командлета **Set-PhishFilterPolicy** в Exchange Online PowerShell. Дополнительные сведения: [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) и [Настройка антифишинга Office 365 ATP и политики защиты от фишинга](set-up-anti-phishing-policies.md).
 
-Кроме того, мы не применяем непроверенный отправитель, если он был доставлен в папку "Входящие" с помощью списка разрешений администратора, включая правила транспорта электронной почты (ETR), список надежных доменов (политика защиты от нежелательной почты), список надежных отправителей или пользователь установил в качестве этого пользователя "надежный отправитель". папке Входящие ".
+Кроме того, мы не применяем непроверенный отправитель, если сообщение было доставлено в папку "Входящие" с помощью правил для обработки почтового ящика, списка безопасных доменов (политика защиты от нежелательной почты) или списка надежных отправителей.
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -76,7 +76,7 @@ Outlook.com и Outlook в Интернете показывают индикат
 
 Не обязательно. Outlook.com и Outlook в Интернете могут иметь другие свойства в сообщении для проверки подлинности отправителя.
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 
 [Защитите свою учетную запись электронной почты Outlook.com](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 

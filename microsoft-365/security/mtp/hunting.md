@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 12705fa525374af8870aedcd211d8e9dcdd17f9c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e0f4c97a1c2963fc714420457208b40af688d86b
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808744"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173505"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Поиск угроз в Microsoft 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "40808744"
 
 [Включите защиту от угроз Майкрософт](mtp-enable.md) , чтобы получить расширенный интерфейс запросов поиска непосредственно в центре безопасности Microsoft 365. С помощью [расширенного](advanced-hunting-overview.md)поиска вы можете создавать отдельные запросы, которые проверяют данные из пакета ATP для защитника Майкрософт, покрывающие данные с подключенных устройств и Office 365 ATP, предоставляя данные из электронных писем.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные статьи
 - [Общие сведения о расширенном поиске](advanced-hunting-overview.md)
 - [Обзор Защиты от угроз (Майкрософт)](microsoft-threat-protection.md)
 - [Включение Защиты от угроз (Майкрософт)](mtp-enable.md)
