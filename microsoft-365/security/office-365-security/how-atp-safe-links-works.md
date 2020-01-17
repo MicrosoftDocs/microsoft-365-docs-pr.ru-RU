@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: bf6c2f0460bc285d0093019812e295c1cfe5ce66
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 56b9ce71ed0f695e2f9ee7d833ecbc980a94edd8
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970765"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230187"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Как работают безопасные ссылки Office 365 ATP
          
@@ -36,9 +36,7 @@ ms.locfileid: "39970765"
 5. Пользователь открывает сообщение электронной почты и щелкает URL-адрес в сообщении электронной почты.
     
 6. Функция безопасных ссылок ATP немедленно проверяет URL-адрес перед открытием веб-сайта. URL-адрес идентифицируется как заблокированный, злонамеренный или безопасный.
-    
-   - Если URL-адрес относится к веб-сайту, который включен в [настраиваемый список URL-адресов "не перезаписывать"](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) для политики, которая применяется к пользователю, веб-сайт откроется. 
-    
+        
    - Если URL-адрес относится к веб-сайту, который включен в [список пользовательских заблокированных URL-адресов](set-up-a-custom-blocked-urls-list-wtih-atp.md)Организации, откроется [Страница с предупреждением](atp-safe-links-warning-pages.md) . 
     
    - Если URL-адрес относится к веб-сайту, который был определен как вредоносный, откроется [Страница с предупреждением](atp-safe-links-warning-pages.md) . 
