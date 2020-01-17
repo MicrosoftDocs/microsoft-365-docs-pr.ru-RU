@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: cb24c40cc2018fba6d1feb13ef0d6426abd2c49a
-ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
+ms.openlocfilehash: 08f568a82096efb143ff5c9fd87011a3d3029e42
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41107908"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210064"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
 
@@ -45,7 +45,7 @@ ms.locfileid: "41107908"
    - [GetSearchableMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getsearchablemailboxes-operation)
 
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
-   
+
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
 
 - [Office 365 Advanced eDiscovery 1.0](office-365-advanced-ediscovery.md), которая является первой версией расширенного обнаружения электронных данных, доступ к которым осуществляется с помощью случая обнаружения электронных данных в центре безопасности & соответствия требованиям Office 365.
@@ -62,7 +62,7 @@ ms.locfileid: "41107908"
 Так как все эти возможности (за исключением копирования результатов поиска в почтовый ящик найденных сообщений) теперь доступны в центре обеспечения соответствия требованиям и расширенных средствах обнаружения электронных данных в [центре соответствия требованиям microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) (с улучшенными функциональными возможностями, надежностью и поддержкой широкого спектра служб Microsoft 365), рекомендуется приступить к работе с этими средствами как можно скорее. В приведенной ниже таблице перечислены инструменты, которые можно использовать вместо обнаружения электронных данных на месте и хранения на месте.
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
-    
+
 - Office 365 и Microsoft 365 корпоративный Организации
 
 - Организации Office 365 и Microsoft 365 для образования
@@ -71,11 +71,10 @@ ms.locfileid: "41107908"
 
 - Office 365 Germany
 
-
 ### <a name="timeline-for-retirement"></a>Временная шкала для выбытия
-    
+
 - 1 апреля 2020 г.: вы не сможете создавать новые операции поиска и удержания, но вы можете выполнять, редактировать и удалять существующие поисковые запросы на свой риск. Служба поддержки Майкрософт больше не будет хранить & обнаружения электронных данных на месте в центре администрирования Exchange.
-    
+
 - 1 июля 2020 г.: & обнаружения электронных данных на месте хранит функции в центре администрирования Exchange, которые будут размещены в режиме только для чтения. Это означает, что вы можете только удалять существующие поисковые запросы и удержания.
 
 ### <a name="alternative-tools"></a>Альтернативные инструменты
@@ -87,7 +86,7 @@ ms.locfileid: "41107908"
 <tr class="header">
 <th><strong>Функция</strong></th>
 <th><strong>Альтернативное средство</strong></th>
-<th><strong>Примечания</strong></th>
+<th><strong>Comments</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -131,6 +130,11 @@ ms.locfileid: "41107908"
 <p>
 <p>Кроме того, вы можете экспортировать результаты поиска в PST-файлы и затем использовать службу импорта Microsoft 365 для импорта PST-файлов в почтовый ящик найденных сообщений. Пошаговые инструкции приведены <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">в разделе Использование отправки по сети для импорта PST-файлов в Office 365</a>.
 </tr>
+<tr class="even">
+<td>Восстановление элементов из папки "элементы с возможностью восстановления"</td>
+  <td><a href="https://docs.microsoft.com/powershell/module/exchange/mailboxes/Restore-RecoverableItems">Restore — RecoverableItems</td>
+  <td>Вы можете восстановить в почтовых ящиках навсегда удаленные элементы (также называемые <i>обратимыми</i> элементами), если срок хранения удаленных элементов для элемента не истек. Дополнительные сведения см. <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">в папке "элементы с возможностью восстановления" в Exchange Online</a>.</td>
+</tr>
 </tbody>
 </table>
 
@@ -155,7 +159,7 @@ ms.locfileid: "41107908"
 Так как эти возможности теперь доступны в [<span class="underline">центре соответствия требованиям Microsoft 365</span>](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) и Office 365 & безопасности в PowerShell с повышенной производительностью и масштабируемостью, следует использовать эти усовершенствованные командлеты. Эти командлеты включают [<span class="underline"> \*— ComplianceCase</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase), [<span class="underline"> \*ComplianceSearch</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch), [<span class="underline"> \*– caseholdpolicy позволяет</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy), [<span class="underline"> \*caseholdrule позволяет</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdrule) [<span class="underline"> \*и ComplianceSearchAction</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction).
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
-    
+
 - Office 365 и Microsoft 365 корпоративный Организации
 
 - Организации Office 365 и Microsoft 365 для образования
@@ -165,9 +169,9 @@ ms.locfileid: "41107908"
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
-    
+
 - 1 апреля 2020 г.: невозможно использовать командлет **New-MailboxSearch** для создания новых запросов на обнаружение электронных данных на месте и удержания на месте, но вы по-прежнему можете использовать командлеты для запуска, изменения и удаления существующих поисков и удержания на вашем собственном риске. Служба поддержки Майкрософт больше не будет предоставлять помощь для таких типов поиска и удержаний.
-    
+
 - 1 июля 2020 г.,: как было сказано ранее, функции обнаружения & электронных данных на месте в центре администрирования Exchange на месте будут размещены в режиме только для чтения. Это также означает, что вы не сможете использовать командлеты **New – MailboxSearch**, **Start MailboxSearch**или **Set/MailboxSearch** . Вы сможете получать и удалять существующие поисковые запросы и удержания.
 
 ### <a name="alternative-tools"></a>Альтернативные инструменты
@@ -179,7 +183,7 @@ ms.locfileid: "41107908"
 <tr class="header">
 <th><strong>Функция</strong></th>
 <th><strong>Альтернативные инструменты</strong></th>
-<th><strong>Примечания</strong></th>
+<th><strong>Comments</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -239,7 +243,7 @@ ms.locfileid: "41107908"
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
-    
+
 -  1 апреля 2020 г.: командлет **Search/Mailbox** больше не будет доступен, и служба поддержки Майкрософт больше не будет предоставлять помощь.
 
 ### <a name="alternative-tools"></a>Альтернативные инструменты
@@ -251,7 +255,7 @@ ms.locfileid: "41107908"
 <tr class="header">
 <th><strong>Функция</strong></th>
 <th><strong>Альтернативные инструменты</strong></th>
-<th><strong>Примечания</strong></th>
+<th><strong>Comments</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -314,11 +318,11 @@ Advanced eDiscovery 1.0, которая является версией расш
 - Office 365 Germany
 
 ### <a name="timeline"></a>Временная шкала
-    
+
 - 1 апреля 2020 г.: вы не сможете создавать новые расширенные варианты обнаружения электронных данных версии 1.0.
-    
-- 1 июля 2020 г.: служба поддержки Майкрософт не обеспечивает поддержку. Посмотрите [это уведомление](https://go.microsoft.com/fwlink/?linkid=2113221). Вы не сможете добавлять новые данные (готовить результаты поиска для расширенного обнаружения электронных данных) в любые случаи. Вы сможете продолжать работу с данными в существующих случаях на свой риск.
+
+- 1 июля 2020 г.: не удается добавить новые данные (подготовьте результаты поиска для расширенного обнаружения электронных данных) в любые случаи. Вы сможете продолжать работу с данными в существующих случаях на свой риск. Служба поддержки Майкрософт больше не будет предоставлять помощь. 
 
 ### <a name="alternative-tools"></a>Альтернативные инструменты
-    
+
 [Расширенное решение обнаружения электронных](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) данных в центре соответствия требованиям Microsoft 365.
