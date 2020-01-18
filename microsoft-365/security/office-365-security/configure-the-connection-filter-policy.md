@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Чтобы убедиться, что электронная почта, отправленная от пользователей, которым вы доверяете, не заблокирована, можно использовать политику фильтра подключений, чтобы создать список разрешенных IP-адресов, который также называется надежным списком отправителей. Вы также можете создать список заблокированных отправителей.
-ms.openlocfilehash: d3151ab436c5d904897d518fa119d52a11db4850
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 70bd682fd9cb990f15314be3187e74f5fa4d562c
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971837"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238426"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Настройка политики фильтров подключений
 
@@ -29,7 +29,7 @@ ms.locfileid: "39971837"
 
 - Политика фильтра подключений, создающая список блокировок, может рассматриваться как для перехвата менее, так и для ненадежных учетных записей в фильтре.
 
- Для получения дополнительных параметров нежелательной почты, которые применяются ко всей Организации, ознакомьтесь со [сведениями о том, как предотвратить пометку сообщений электронной почты как спама в office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) или [как уменьшить количество нежелательных сообщений в Office 365](reduce-spam-email.md). Эти статьи пригодятся вам, если у вас есть права уровня администратора и вы хотите предотвратить ложные положительные и отрицательные срабатывания.
+ Для получения дополнительных параметров нежелательной почты, которые применяются ко всей Организации, ознакомьтесь со [сведениями о том, как предотвратить пометку сообщений электронной почты как спама в office 365](prevent-email-from-being-marked-as-spam.md) или [как уменьшить количество нежелательных сообщений в Office 365](reduce-spam-email.md). Эти статьи пригодятся вам, если у вас есть права уровня администратора и вы хотите предотвратить ложные положительные и отрицательные срабатывания.
 
 > [!TIP]
 > Возможно, вы захотите приостановить и ознакомиться со сведениями о том, как создавать [списки "разрешить" (или "Надежные отправители")](create-safe-sender-lists-in-office-365.md) и [блокировать списки](create-block-sender-lists-in-office-365.md).
@@ -48,7 +48,7 @@ ms.locfileid: "39971837"
 
 - Сообщения электронной почты, отправленные с IP-адреса в списке заблокированных IP-адресов, не отмечаются как нежелательные, при этом дополнительная фильтрация не применяется.
 
-- Приведенную ниже процедуру фильтрации подключений можно также выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy), чтобы просматривать параметры, а [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) — чтобы изменять параметры политики фильтрации подключений. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Приведенную ниже процедуру фильтрации подключений можно также выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy), чтобы просматривать параметры, а [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) — чтобы изменять параметры политики фильтрации подключений. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 ## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>Изменение политики фильтров подключений по умолчанию с помощью Центра администрирования Exchange
 
@@ -157,6 +157,6 @@ ms.locfileid: "39971837"
 
 [Настройка правил защиты от спама для исходящих сообщений](configure-the-outbound-spam-policy.md)
 
-[Как предотвратить пометку сообщений электронной почты как спама в Office 365](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Как не допустить, чтобы настоящая почта помечалась как спам в Office 365](prevent-email-from-being-marked-as-spam.md)
 
 [Как уменьшить количество нежелательных сообщений в Office 365](reduce-spam-email.md)

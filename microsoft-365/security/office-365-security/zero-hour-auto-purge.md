@@ -17,12 +17,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: Автоматическая очистка (ZAP) с нулевым временем (ZAP) — это функция защиты электронной почты, которая обнаруживает сообщения с нежелательной почтой или вредоносной программой, которая уже доставляется в ящики "Входящие" пользователя, а затем отрисовывает вредоносный контент. Принцип работы ZAP зависит от типа обнаруженного вредоносного содержимого.
-ms.openlocfilehash: 9ffe169baaa522ca86f712bc0fde41d4985092cd
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 87d0837b74606a57c7a4aaee3150f70449b09b81
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111903"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238386"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>Автоматическая очистка для защиты от спама и вредоносных программ
 
@@ -101,7 +101,7 @@ Set-HostedContentFilterPolicy -Identity Test -PhishZapEnabled $false -SpamZapEna
 
 ### <a name="what-happens-if-a-legitimate-message-is-moved-to-the-junk-mail-folder"></a>Что произойдет при перемещении законного сообщения в папку "Нежелательная почта"?
 
-Для [ложных срабатываний](../../compliance/prevent-email-from-being-marked-as-spam.md)необходимо следовать обычным процессам отчетов. Единственная причина, по которой сообщение было бы перемещено из папки "Входящие" в папку нежелательной почты, будет вызвано тем, что эта служба определила, что сообщение является спамом или вредоносным.
+Для [ложных срабатываний](prevent-email-from-being-marked-as-spam.md)необходимо следовать обычным процессам отчетов. Единственная причина, по которой сообщение было бы перемещено из папки "Входящие" в папку нежелательной почты, будет вызвано тем, что эта служба определила, что сообщение является спамом или вредоносным.
 
 ### <a name="what-if-i-use-the-office-365-quarantine-instead-of-the-junk-mail-folder"></a>Что делать, если вместо папки нежелательной почты используется карантин Office 365?
 
