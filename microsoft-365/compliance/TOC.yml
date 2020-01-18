@@ -65,6 +65,8 @@
     - name: Метки конфиденциальности
       href: sensitivity-labels.md
       items:
+        - name: Создание и публикация меток конфиденциальности
+          href: create-sensitivity-labels.md
         - name: Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
           href: encryption-sensitivity-labels.md
         - name: Автоматическое применение метки конфиденциальности к содержимому

@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: 56b9ce71ed0f695e2f9ee7d833ecbc980a94edd8
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: f8fcf6417dfb82a123307358f0fcd3e3cc8427e0
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230187"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233910"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Как работают безопасные ссылки Office 365 ATP
          
@@ -54,8 +54,6 @@ ms.locfileid: "41230187"
 2. Пользователь открывает Word, Excel, PowerPoint, OneNote (в браузере) или Visio (на настольном компьютере) и входит в Office 365 корпоративный с помощью рабочей или учебной учетной записи. Документ содержит URL-адреса.
     
 3. Когда пользователь щелкает URL-адрес в документе, эта ссылка проверяется службой "безопасные ссылки ATP".
-    
-   - Если URL-адрес относится к веб-сайту, который включен в [настраиваемый список URL-адресов "не перезаписывать"](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) для политики, которая применяется к пользователю, этот пользователь передается на веб-сайт. 
     
    - Если URL-адрес относится к веб-сайту, который включен в [список пользовательских заблокированных URL-адресов](set-up-a-custom-blocked-urls-list-wtih-atp.md)Организации, пользователь переводится на [страницу предупреждения](atp-safe-links-warning-pages.md).
     
