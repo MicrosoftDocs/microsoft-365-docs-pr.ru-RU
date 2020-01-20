@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель действий обобщает функции компонента классификации данных, позволяя просматривать и фильтровать действия, выполняемые пользователями над содержимым с метками.
-ms.openlocfilehash: 272de0400e89f9829b3ead5d4523db27789c0c44
-ms.sourcegitcommit: 9d0a025ea9e265d515a034de0102eabcf47d11f5
+ms.openlocfilehash: ab80de0e1be3a164da8414ef3791fb9717bcc190
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "39268981"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233700"
 ---
 # <a name="view-activity-on-your-labeled-content-preview"></a>Просмотр действий над содержимым с метками (предварительная версия)
 
@@ -38,6 +38,16 @@ ms.locfileid: "39268981"
 
 
 Вы можете просматривать данные в виде списка или гистограммы.
+
+## <a name="prerequisites"></a>Необходимые компоненты
+
+Каждой учетной записи, которая обращается к обозревателю действий и использует его, должна быть назначена лицензия одной из следующих подписок:
+
+- Microsoft 365 (E5)
+- Office 365 (E5)
+- Дополнение Advanced Compliance (E5)
+- Дополнение Advanced Threat Intelligence (E5)
+- Дополнение Advanced Threat Protection (E5)
 
 ## <a name="activity-type"></a>Тип действия
 
