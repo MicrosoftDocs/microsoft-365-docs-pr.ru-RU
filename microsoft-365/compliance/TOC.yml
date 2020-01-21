@@ -16,24 +16,10 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: "Планирование безопасности и соответствия требованиям в Office\_365"
       href: plan-for-security-and-compliance.md
-- name: Управление внутренними рисками
+- name: Управление рисками для оценки
   items:
     - name: Защита доступа пользователей и устройств
       href: protect-access-to-data-and-services.md
-    - name: Защищенное хранилище пользователя
-      href: customer-lockbox-requests.md
-    - name: Управление привилегированным доступом
-      items:
-        - name: Подробнее об управлении привилегированным доступом
-          href: privileged-access-management-overview.md
-        - name: Настройка управления привилегированным доступом
-          href: privileged-access-management-configuration.md
-    - name: Ключ клиента
-      items:
-        - name: Контроль данных в Office 365 с помощью ключа клиента
-          href: controlling-your-data-using-customer-key.md
-        - name: Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365
-          href: service-encryption-with-customer-key-faq.md
     - name: Соответствие требованиям (Предварительная версия)
       items:
         - name: Сведения о соответствии коммуникаций требованиям (предварительная версия)
@@ -59,6 +45,20 @@
           href: information-barriers-troubleshooting.md
         - name: Изменение политик информационных барьеров
           href: information-barriers-edit-segments-policies.md
+    - name: Управление привилегированным доступом
+      items:
+        - name: Подробнее об управлении привилегированным доступом
+          href: privileged-access-management-overview.md
+        - name: Настройка управления привилегированным доступом
+          href: privileged-access-management-configuration.md
+    - name: Ключ клиента
+      items:
+        - name: Контроль данных в Office 365 с помощью ключа клиента
+          href: controlling-your-data-using-customer-key.md
+        - name: Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365
+          href: service-encryption-with-customer-key-faq.md
+    - name: Защищенное хранилище пользователя
+      href: customer-lockbox-requests.md
 - name: Управление защитой информации
   href: protect-information.md
   items:
@@ -214,6 +214,8 @@
           href: archive-linkedin-data.md
         - name: Настройка соединителя для архивации данных Instant Bloomberg
           href: archive-instant-bloomberg-data.md
+        - name: Настройка соединителя для импорта данных о ПЕРСОНАЛе
+          href: import-hr-data.md
         - name: Архивация сторонних данных при помощи партнера
           href: work-with-partner-to-archive-third-party-data.md
     - name: Сохранение данных
