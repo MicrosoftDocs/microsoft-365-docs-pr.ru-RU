@@ -8,9 +8,9 @@
       href: sign-up.md
     - name: Предварительные требования для защиты данных
       href: pre-requisites-for-data-protection.md
-    - name: Настройка
+    - name: Установка
       items:
-        - name: Обзор настройки
+        - name: Обзор установки
           href: set-up-overview.md
         - name: "Настройка Microsoft\_365 бизнес"
           href: set-up.md
@@ -38,7 +38,7 @@
       href: security-features.md
       items:
         - name: Настройка MFA
-          href: set-up-mfa.md
+          href: /Office365/Admin/security-and-compliance/set-up-multi-factor-authentication?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
         - name: Улучшение защиты от угроз
           href: increase-threat-protection.md
         - name: Настройка функций обеспечения соответствия требованиям
