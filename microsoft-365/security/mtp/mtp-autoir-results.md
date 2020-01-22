@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: d33844c1bd774f6b53dbbaa428762c4832fccb85
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e70fa5f226b25df72514f75bb20873665d9021f6
+ms.sourcegitcommit: ca06ee52dec472d3827983d67b049847ec2fdfc1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806988"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41256555"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Просмотр сведений и результатов автоматического исследования
 
@@ -92,6 +92,9 @@ ms.locfileid: "40806988"
 |Чистые  |Устройства или содержимое электронной почты   |Действия по исправлению не требуются|
 
 [Просмотр ожидающего действия в центре уведомлений](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
+
+> [!TIP]
+> Если вы считаете, что что-то пошло не так или неправильно, с помощью автоматизированного расследования и функции ответа в Microsoft Threat Protection, сообщите нам о! Сведения о [том, как сообщить о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования (AIR) в защите от угроз Майкрософт](mtp-autoir-report-false-positives-negatives.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
