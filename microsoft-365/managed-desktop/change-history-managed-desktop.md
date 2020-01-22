@@ -8,16 +8,25 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: b66fb73b635eb102bcd474cc884db6d0fa4cdfb6
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 8713b678432d71304649e05fba466659de0369ad
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634066"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260127"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
 В этом разделе перечислены новые и обновленные статьи, посвященные [управляемой документации на рабочем столе Майкрософт](index.yml). В подразделах с обновленными разделами содержатся сведения об исправлениях или исправлениях, несущественные исправления, например исправление опечаток, стилей или ошибок форматирования. Вы всегда можете просмотреть историю определенных фиксаций (включая сведения об изменениях), посетив [репозиторий на сайте GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+## <a name="december-2019"></a>Декабрь 2019 г.
+Новый или измененный раздел | Описание
+--- | ---
+[Поддержка администраторов для настольных компьютеров, управляемых Майкрософт](working-with-managed-desktop/admin-support.md) | Обновленная тема
+[Управляемые устройства для настольных компьютеров Майкрософт](service-description/device-list.md) | Обновленная тема
+[Устройства, управляемые корпорацией Майкрософт, архивные устройства](service-description/archived-device-list.md) | Обновленная тема
+
+
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 Новый или измененный раздел | Описание

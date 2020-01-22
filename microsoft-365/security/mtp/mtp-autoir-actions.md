@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: edc952a0361ee8cfa6ed3df2eaf80f0fc4bf7fd5
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 35433eccf93c56a8f8bf66b50fa6728ff7585d8e
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808464"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260207"
 ---
 # <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>Примите или отклоните запрос на ожидающие действия от автоматизированных анализов угроз
 
@@ -31,6 +31,9 @@ ms.locfileid: "40808464"
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 При выполнении автоматического анализа угроз может возникать одно или несколько [действий по исправлению](mtp-action-center.md#remediation-actions), для которых требуется утверждение. Например, может потребоваться удалить кластер сообщений электронной почты или файл из карантина. Необходимо как можно скорее утвердить (или отклонить) ожидающие выполнения действия, чтобы автоматизированный анализ угроз мог продолжить работу и своевременно завершить ее. 
+
+> [!TIP]
+> Если вы считаете, что что-то пошло не так или неправильно, с помощью автоматизированного расследования и функции ответа в Microsoft Threat Protection, сообщите нам о! Сведения о [том, как сообщить о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования (AIR) в защите от угроз Майкрософт](mtp-autoir-report-false-positives-negatives.md).
 
 Ожидающие выполнения действия могут быть проверены и утверждены с помощью одного из следующих способов:
 - [через центр уведомлений](#review-a-pending-action-in-the-action-center)

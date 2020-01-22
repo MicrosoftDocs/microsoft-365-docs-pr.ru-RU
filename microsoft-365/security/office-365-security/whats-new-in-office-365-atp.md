@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a43576bc18d54e3a5c9b2f9ad918c1df3ee67615
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2ad99943869d3edc16316d90efb9bbfd70a6f18f
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807944"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260227"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -30,10 +30,6 @@ ms.locfileid: "40807944"
 
 > [!TIP]
 > У вас еще нет Office 365 ATP? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644).
-
-## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
-
-Office 365 доступно в двух планах: Office 365 ATP 1 и Office 365 (план 2). [Подробнее](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
 
@@ -65,8 +61,14 @@ Office 365 доступно в двух планах: Office 365 ATP 1 и Office
 
 - [Просмотрите данные о фишинговых URL-адресах и выберите вредоносности](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (Office 365 ATP (план 1) или план 2)
 
+## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
+
+Знаете ли вы, что Office 365 ATP доступен в двух планах? В Office 365 ATP 1 (план 1) и Office 365 (план 2). [Узнайте больше о том, что включает каждый план](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
+
 ## <a name="see-also"></a>См. также
 
 [План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Описание службы Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+[Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

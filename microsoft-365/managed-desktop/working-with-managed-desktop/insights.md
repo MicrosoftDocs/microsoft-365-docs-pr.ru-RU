@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2366c7b9e3c95ee88753ffb7677a7031c8ac9786
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: d1ee28bad2728fb3e6c12694625b2c29a65425a2
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962326"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260107"
 ---
 # <a name="work-with-insights"></a>Работа с аналитикой
 
@@ -40,4 +40,9 @@ ms.locfileid: "39962326"
 ## <a name="reliability-insights"></a>Аналитика надежности
 В этом представлении вы найдете сведения о работоспособности управляемых устройств. Чтобы просмотреть данные о надежности, перейдите на вкладку **надежность** .
 
-Дополнительные сведения об [аналитике надежности](reliability-insights.md)
+Узнайте больше об [аналитике надежности](reliability-insights.md).
+
+## <a name="battery-insights"></a>Получение сведений о батарее
+В этом представлении отображаются сведения о потреблении энергии для приложений и предполагаемое время работы батареи для устройств в вашей среде. Чтобы просмотреть эти сведения, перейдите на вкладку **батарея** .
+
+Узнайте больше о [батарее](battery-insights.md).

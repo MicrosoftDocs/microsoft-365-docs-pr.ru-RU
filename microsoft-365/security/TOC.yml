@@ -73,6 +73,8 @@
                   href: mtp/mtp-autoir-results.md
                 - name: Утверждение или отклонение ожидающих действий
                   href: mtp/mtp-autoir-actions.md
+                - name: Отчет о ложных положительных и отрицательных значениях
+                  href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Расширенная охота на угрозы
               items:
                 - name: Выслеживание в Microsoft 365

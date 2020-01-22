@@ -98,6 +98,8 @@
               href: working-with-managed-desktop/usage-insights.md
             - name: Аналитика надежности
               href: working-with-managed-desktop/reliability-insights.md
+            - name: Получение сведений о батарее
+              href: working-with-managed-desktop/battery-insights.md
         - name: Поддержка администраторов
           href: working-with-managed-desktop/admin-support.md
         - name: Поддержка пользователей

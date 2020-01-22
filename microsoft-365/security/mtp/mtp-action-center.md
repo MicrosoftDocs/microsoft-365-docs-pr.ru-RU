@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: ca98e59ded0956455e3279caa9de2af4f4af86c9
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 91f2ae9a9fef96a3fdfedf86481aa5f5f33cb724
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808474"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260217"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Переход в центр уведомлений для просмотра действий по исправлению
 
@@ -70,6 +70,10 @@ ms.locfileid: "40808474"
     - Если исследование относится к контенту электронной почты (например, объектом является почтовый ящик), сведения об исследовании откроются в Центре безопасности и соответствия требованиям Office 365 ([https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation)). 
 
     - Если исследование затрагивает устройство, сведения об исследовании откроются в Центре безопасности ([https://security.microsoft.com](https://security.microsoft.com)). 
+
+
+> [!TIP]
+> Если вы считаете, что что-то пошло не так или неправильно, с помощью автоматизированного расследования и функции ответа в Microsoft Threat Protection, сообщите нам о! Сведения о [том, как сообщить о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования (AIR) в защите от угроз Майкрософт](mtp-autoir-report-false-positives-negatives.md).
 
 ## <a name="required-permissions-for-action-center-tasks"></a>Обязательные разрешения для задач центра уведомлений
 
