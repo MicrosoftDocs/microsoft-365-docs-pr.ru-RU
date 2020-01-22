@@ -14,12 +14,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 64ebfef5c0d5540acf74d0d6f5a864461e83f82f
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: ef605fcc7a76cb2432357856b814453b149a5296
+ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967942"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41261883"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 
@@ -187,7 +187,7 @@ ms.locfileid: "39967942"
 - Для центра соответствия &amp; требованиям безопасности необходимо назначить одну из следующих ролей:
     - Управление организацией
     - Администратор безопасности (это можно назначить в центре администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))).
-    - Средство чтения безопасности
+    - Читатель сведений о безопасности
 
 - Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)):
     - Управление организацией
@@ -200,7 +200,7 @@ ms.locfileid: "39967942"
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
-## <a name="some-differences-between-threat-exporter-and-real-time-detections"></a>Некоторые различия между экспортом угроз и обнаружением в режиме реального времени
+## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>Некоторые различия между обозревателем угроз и обнаружениями в режиме реального времени
 
  - Отчет об **обнаружении в реальном времени** доступен в Office 365 ATP 1 (план 1), а **Обозреватель угроз** доступен в Office 365 ATP (план 2).
  - Отчет об **обнаружении в реальном времени** позволяет просматривать определения в режиме реального времени. **Обозреватель угроз** также делает это, но также позволяет просматривать дополнительные сведения о конкретной атаке.
