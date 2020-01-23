@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 67cb8cd6a7320f0b2ff79566be4cf6c6fa3f67a6
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: efedbdd8230b5fac81b59ca51c0fe863ab4f0c2a
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "39233742"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260117"
 ---
 # <a name="compliance-offerings-isoiec-270012013-information-security-management-standards"></a>Предложения для соответствия требованиям: стандарты управления информационной безопасностью ISO/IEC 27001:2013
 
@@ -43,6 +44,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 - Graph
 - Health Bot
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Germany
@@ -60,7 +62,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001.](https://go.microsoft.com/fwlink/p/?linkid=2078342)
+- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, управляемые Майкрософт компьютеры, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001.](https://go.microsoft.com/fwlink/p/?linkid=2078342)
 
 ### <a name="office-365"></a>Office 365
 
@@ -88,7 +90,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001 и отчет по оценке аудита 27018.](https://go.microsoft.com/fwlink/p/?linkid=2078010)
+- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, управляемые Майкрософт компьютеры, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001 и отчет по оценке аудита 27018.](https://go.microsoft.com/fwlink/p/?linkid=2078010)
 - [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001 и положение о применимости 27018.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
 ### <a name="office-365"></a>Office 365

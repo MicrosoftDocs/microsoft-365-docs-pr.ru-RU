@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 380e1b2fadc48c395fbd8c2b10c0d65a6ba01675
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: a5f68e235252208de664cc6dfdd62b6019d9abe6
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804262"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259987"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -52,6 +52,7 @@ ms.locfileid: "40804262"
 - Dynamics 365 и Dynamics 365 для государственных организаций США ([подробный список](https://aka.ms/d365-compliance-list))
 - Graph
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Office 365, Office 365 для государственных организаций и Office 365 U.S. Government Defense ([подробный список](https://go.microsoft.com/fwlink/p/?LinkID=2077751)); для Yammer получен отчет SOC 1 (тип 1)
 - Office 365 Germany
@@ -66,6 +67,7 @@ ms.locfileid: "40804262"
 - Cloud App Security
 - Graph
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Power BI
