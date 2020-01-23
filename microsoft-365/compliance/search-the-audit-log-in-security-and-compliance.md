@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте Центр безопасности и соответствия требованиям для поиска единого журнала аудита, чтобы просматривать активность пользователей и администраторов в организации в Office 365. '
-ms.openlocfilehash: 73ad56a335b02de090becdc55e34dc3e90bc4389
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 6b73e6bbcd9dfee6e3c04ee5c44283633ffdbac4
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41022025"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265897"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -51,13 +51,13 @@ ms.locfileid: "41022025"
 
 - активность пользователей и администраторов в Yammer;
 
-- активность пользователей и администраторов в Microsoft Flow;
+- активность пользователей и администраторов в Microsoft Power Automate;
 
 - активность пользователей и администраторов в Microsoft Stream;
 
 - активность аналитиков и администраторов в Рабочей аналитике (Майкрософт);
 
-- активность пользователей и администраторов в Microsoft PowerApps.
+- активность пользователей и администраторов в Microsoft Power Apps;
 
 - активность пользователей и администраторов в Microsoft Forms.
 
@@ -118,7 +118,7 @@ ms.locfileid: "41022025"
   |Dynamics 365 CRM|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Обнаружение электронных данных|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Exchange Online|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Flow|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Project|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![Флажок](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -305,7 +305,7 @@ ms.locfileid: "41022025"
 |[Действия, связанные с администрированием ролей](#role-administration-activities)|[Действия, связанные с администрированием каталогов](#directory-administration-activities)|[Действия, связанные с обнаружением электронных данных](#ediscovery-activities)|
 |[Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)|[Действия, связанные с Power BI](#power-bi-activities)|[Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)|
 |[Действия, связанные с Microsoft Teams](#microsoft-teams-activities)|[Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)|[Действия, связанные с Yammer](#yammer-activities)|
-|[Действия, связанные с Microsoft Flow](#microsoft-flow-activities)|[Действия, связанные с Microsoft PowerApps](#microsoft-powerapps)|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|
+|[Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)|[Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|
 |[Действия Microsoft Forms](#microsoft-forms-activities)|[Действия администратора Exchange](#exchange-admin-audit-log)|||
 ||||
 
@@ -770,13 +770,13 @@ ms.locfileid: "41022025"
 |Viewed file (Просмотрен файл)|FileVisited|Пользователь просматривает файл.|
 ||||
 
-### <a name="microsoft-flow-activities"></a>Действия, связанные с Microsoft Flow
+### <a name="microsoft-power-automate-activities"></a>Действия, связанные с Microsoft Power Automate
 
-В журнале аудита можно искать действия, выполненные в Microsoft Flow. К таким действиям относятся создание, изменение и удаление потоков, а также изменение разрешений потока. Сведения об аудите действий, связанных с Flow, см. в блоге [События аудита Microsoft Flow теперь доступны в Центре безопасности и соответствия требованиям](https://flow.microsoft.com/blog/security-and-compliance-center).
+В журнале аудита можно искать действия, выполненные в Power Automate (прежнее название — Microsoft Flow). К таким действиям относятся создание, изменение и удаление потоков, а также изменение разрешений потока. Сведения об аудите действий, связанных с Power Automate, см. в блоге [События аудита Microsoft Flow теперь доступны в Центре безопасности и соответствия требованиям](https://flow.microsoft.com/blog/security-and-compliance-center).
 
-### <a name="microsoft-powerapps"></a>Microsoft PowerApps
+### <a name="microsoft-power-apps-activities"></a>Действия, связанные с Microsoft Power Apps
 
-В журнале аудита можно искать связанные с приложениями действия, выполненные в PowerApps. К таким действиям относятся создание, запуск и публикация приложений. Назначение разрешений для приложений также подлежит аудиту. Описание всех действий в PowerApps см. в статье [Ведение журнала действий для PowerApps](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited).
+В журнале аудита можно искать связанные с приложениями действия, выполненные в Power Apps. К таким действиям относятся создание, запуск и публикация приложений. Назначение разрешений для приложений также подлежит аудиту. Описание всех действий в Power Apps см. в статье [Ведение журнала действий для Power Apps](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited).
 
 ### <a name="microsoft-stream-activities"></a>Действия, связанные с Microsoft Stream
 

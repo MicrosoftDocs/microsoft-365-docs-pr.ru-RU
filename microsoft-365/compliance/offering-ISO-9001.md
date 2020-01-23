@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 9eb781ccaab7f7af00cc3c34bc7f7d9fb312fa26
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: cc43eb0c0f6aa77d6e58464e263920c578553887
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859649"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259997"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Стандарты ISO 9001:2015 "Системы менеджмента качества"
 
@@ -35,6 +36,7 @@ ISO 9001:2015 — это международный стандарт, опред
 - Genomics
 - Graph
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365

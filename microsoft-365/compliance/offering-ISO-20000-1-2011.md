@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 705b59a5ae499a580086304abe91a9318bb36fcb
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4ae0df3ddc8eec28cc6f29bddd0a46a09d33b0dc
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859709"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260047"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 "Управление службами информационных технологий"
 
@@ -37,6 +38,7 @@ ms.locfileid: "39859709"
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Cloud App Security
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Microsoft PowerApps
 - Microsoft Flow
 - Microsoft Graph
@@ -46,7 +48,7 @@ ms.locfileid: "39859709"
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
-Документы 2017 г. по ISO 20000-1 для Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центров обработки данных Майкрософт
+Документы 2017 г. по ISO 20000-1 для Azure, Intune, управляемых Майкрософт компьютеров, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центров обработки данных Майкрософт
 
 - [Отчет об оценке](https://go.microsoft.com/fwlink/p/?linkid=2077810)
 - [Сертификат](https://go.microsoft.com/fwlink/p/?linkid=2077815)

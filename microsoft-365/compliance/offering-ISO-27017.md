@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: f58322fe915c811ba2613bef98116f910abc03d1
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 758e7d0f3e82afa6cfd4b90501bd84080d8f6303
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859689"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260017"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 "Свод правил по управлению информационной безопасностью"
 
@@ -48,6 +49,7 @@ ISO/IEC 27017 является уникальным стандартом, пре
 - Genomics
 - Graph
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Office 365, Office 365 для государственных организаций США, Office 365 U.S. Government Defense и Office 365 Germany
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
@@ -60,7 +62,7 @@ ISO/IEC 27017 является уникальным стандартом, пре
 
 - [Сертификат Azure ISO 27017](https://go.microsoft.com/fwlink/p/?linkid=2078005)
 - [Отчет по оценке Azure ISO 27017](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Заявление о применимости Azure ISO 27017](https://aka.ms/azureiso27017StatementofApplicability)
+- [Заявление о применимости Azure ISO 27017](https://aka.ms/AzureISO27017StatementofApplicability)
 - [Отчет аудиторской оценки по ISO 27001, 27018 и 27017 в Office 365](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы

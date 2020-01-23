@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 300a6c5d43bdb3653426b451abb3c82709194039
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 5f22e7a1dccff1d278ee07adaa56ea7d11de4cd3
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859679"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260007"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>ISO/IEC 27018 "Свод правил по защите персональных данных в облаке"
 
@@ -49,6 +50,7 @@ ms.locfileid: "39859679"
 - Graph
 - Health Bot
 - Intune
+- Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Germany
@@ -67,9 +69,9 @@ ms.locfileid: "39859679"
 
 ### <a name="audits-and-reports"></a>Аудит и отчеты
 
-- [Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центр обработки данных Майкрософт — сертификат ISO 27001 и 27018](https://go.microsoft.com/fwlink/p/?linkid=2078016)
-- [Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центр обработки данных Майкрософт — отчет аудиторской оценки по ISO 27001 и 27018](https://go.microsoft.com/fwlink/p/?linkid=2078020)
-- [Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центр обработки данных Майкрософт — заявление о применимости (SOA) 2017 г. для стандартов ISO 27001 и 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Azure, Intune, служба компьютеров, управляемых Майкрософт, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центр обработки данных Майкрософт — сертификат ISO 27001 и 27018](https://go.microsoft.com/fwlink/p/?linkid=2078016)
+- [Azure, Intune, служба компьютеров, управляемых Майкрософт, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центр обработки данных Майкрософт — отчет аудиторской оценки по ISO 27001 и 27018](https://go.microsoft.com/fwlink/p/?linkid=2078020)
+- [Azure, Intune, служба компьютеров, управляемых Майкрософт, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центр обработки данных Майкрософт — заявление о применимости (SOA) 2017 г. для стандартов ISO 27001 и 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 - [Azure — Germany ISO 27018 — Свод правил по защите персональных данных в облаке — сертификат](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
 
 ### <a name="office-365"></a>Office 365
