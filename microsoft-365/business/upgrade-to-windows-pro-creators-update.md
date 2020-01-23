@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Узнайте, как обновить устройства Windows до Windows 10 Pro. '
-ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 3457b35c5f9e313e176664ca088e64ce5dd4f881
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995277"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265865"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Обновление устройств с Windows до Windows 10 Pro
 
@@ -50,7 +50,7 @@ ms.locfileid: "40995277"
     - Ознакомьтесь с инструкциями по использованию средства и созданием установочного носителя. 
 
 > [!NOTE]
-> Если у вас есть устройства с Windows, работающие под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8,1 Pro, ваша подписка на Microsoft 365 Business дает вам право на обновление до Windows Pro 10; Ключ продукта не требуется.
+> Если у вас есть устройства с Windows, работающие под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8,1 Pro, ваша подписка на Microsoft 365 Business дает вам право на обновление до Windows Pro 10.
     
 Чтобы завершить настройку устройств с Windows 10, ознакомьтесь со статьей [Настройка устройств Windows для Microsoft 365 бизнес-пользователей](set-up-windows-devices.md) . 
   
