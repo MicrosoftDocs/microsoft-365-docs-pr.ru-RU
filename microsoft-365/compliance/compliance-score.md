@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Оценка соответствия требованиям Майкрософт помогает организациям упростить и автоматизировать оценки рисков и предлагает Рекомендуемые действия по устранению рисков.
-ms.openlocfilehash: 27720412ee8d2b03869b96a1ff9fce68b2fe6eb4
-ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
+ms.openlocfilehash: 8a523878cb003e1cc676ea65d69f402ddf056e84
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41261863"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515680"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Оценка соответствия требованиям Майкрософт (Предварительная версия)
 
@@ -141,4 +141,4 @@ ms.locfileid: "41261863"
 
 ## <a name="next-step-begin-setup"></a>Следующий шаг: запуск программы установки
 
-Вход, Настройка разрешений и сведения о панели мониторинга оценки соответствия требованиям в [ходе установки оценки соответствия требованиям](compliance-score-setup.md).
+Узнайте, как выполнить вход, настроить разрешения и настроить обновления и представления панели мониторинга при [настройке оценки соответствия требованиям](compliance-score-setup.md).

@@ -15,18 +15,28 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию, настройке и публикации меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.
-ms.openlocfilehash: 964fd20d6ada935d2a76ca0bffccc5bf46161c58
-ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
+ms.openlocfilehash: bef9841da49e24a99a038e9df906d523fe40e044
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2020
-ms.locfileid: "41247462"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259295"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
 Чтобы создать и опубликовать [метки конфиденциальности](sensitivity-labels.md), перейдите в центр администрирования меток, например в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности Microsoft 365 или Центр безопасности и соответствия требованиям Office 365.
 
 Сначала создайте и настройте метки конфиденциальности, которые должны быть доступны в приложениях Office и службах. Затем создайте одну или несколько политик меток, содержащих настраиваемые метки и параметры политики. Публикацию меток и параметров для выбранных пользователей и расположений осуществляет политика меток.
+
+## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>Разрешения, необходимые для создания меток конфиденциальности и управления ими
+
+Участникам вашей команды по обеспечению соответствия требованиям, создающим метки конфиденциальности, необходимы разрешения на доступ к Центру соответствия требованиям Microsoft 365, Центру безопасности Microsoft 365 или Центру безопасности и соответствия требованиям Office 365. 
+
+По умолчанию администратор клиента имеет доступ к этим Центрам администрирования и может предоставлять доступ ответственным за обеспечение соответствия требованиям, не предоставляя им все разрешения администратора клиента. Для предоставления такого делегированного ограниченного административного доступа перейдите на страницу **Разрешения** в одном из этих Центров администрирования и добавьте участников в группу ролей **Администратор данных соответствия требованиям**, **Администратор соответствия требованиям** или **Администратор безопасности**.
+
+Инструкции см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
+
+Эти разрешения необходимы только для создания и настройки меток конфиденциальности и соответствующих политик меток. Они не требуются для применения меток в приложениях или службах.
 
 ## <a name="create-and-configure-sensitivity-labels"></a>Создание и настройка меток конфиденциальности
 
@@ -56,17 +66,47 @@ ms.locfileid: "41247462"
 Чтобы изменить существующую метку, выберите ее и нажмите кнопку **Изменить метку**. В результате запустится мастер **Изменить метку конфиденциальности**, позволяющий поменять любые параметры из действия 3. 
 
 > [!NOTE]
-> При изменении метки, уже опубликованной с помощью политики меток, после завершения работы мастера никаких дополнительных действий не требуется. Например, вам не нужно добавлять метку в новую политику меток. Однако репликация этих изменений для пользователей и служб может занять до 24 часов. 
+> При изменении метки, уже опубликованной с помощью политики меток, после завершения работы мастера никаких дополнительных действий не требуется. Например, вам не нужно добавлять ее в новую политику меток, чтобы сделать изменения доступными для тех же пользователей. Однако репликация этих изменений для пользователей и служб может занять до 24 часов. 
 
-Пока вы не опубликуете метки, они будут недоступны для выбора в приложениях и службах. Чтобы опубликовать метки, их требуется добавить в политику меток.
+Пока вы не опубликуете метки, они будут недоступны для выбора в приложениях и службах. Чтобы опубликовать метки, их нужно [добавить в политику меток](#publish-sensitivity-labels-by-creating-a-label-policy).
 
 ### <a name="additional-label-settings-with-office-365-security--compliance-center-powershell"></a>Дополнительные параметры меток, доступные с помощью PowerShell Центра безопасности и соответствия требованиям Office 365
 
 Дополнительные параметры меток доступны с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
-Например, используйте параметр *LocaleSettings*, чтобы указать различные языки для названий меток и подсказок. 
+Используйте параметр *LocaleSettings* для развертывания в многоязычной среде, чтобы пользователи видели имя метки и подсказку на своем языке. Пример настройки представлен в следующем разделе. 
 
 С помощью этого командлета вы также можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) для клиента унифицированных меток Azure Information Protection. Эти дополнительные параметры включают настройку цвета метки и применение пользовательского свойства при использовании метки. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies). 
+
+#### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>Пример настройки метки конфиденциальности для различных языков
+
+В приведенном ниже примере показана конфигурация метки "Общедоступные" в PowerShell с замещающим текстом для подсказки. В этом примере имя метки и текст подсказки настраиваются для французского, итальянского и немецкого языков.
+
+В результате такой настройки пользователи, имеющие приложения Office, в которых используются указанные выше языки интерфейса, видят имена меток и подсказки на этих языках. Кроме того, если у вас установлен клиент унифицированных меток Azure Information Protection, чтобы помечать файлы из проводника, пользователи, у которых есть указанные выше языковые версии Windows, видят имена меток и подсказки на своем языке при щелчке правой кнопкой мыши для применения меток.
+
+Для языков, которые вам нужны, используйте [идентификаторы языков](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) в Office (также именуемые тегами языков) и укажите свой перевод для имени метки и подсказки.
+
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+
+
+```powershell
+$Languages = @("fr-fr","it-it","de-de")
+$DisplayNames=@("Publique","Publico","Oeffentlich")
+$Tooltips = @("Texte Français","Testo italiano","Deutscher text")
+$label = "Public"
+$DisplayNameLocaleSettings = [PSCustomObject]@{LocaleKey='DisplayName';
+Settings=@(
+@{key=$Languages[0];Value=$DisplayNames[0];}
+@{key=$Languages[1];Value=$DisplayNames[1];}
+@{key=$Languages[2];Value=$DisplayNames[2];})}
+Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSettings -Depth 3 -Compress)
+$TooltipLocaleSettings = [PSCustomObject]@{LocaleKey='Tooltip';
+Settings=@(
+@{key=$Languages[0];Value=$Tooltips[0];}
+@{key=$Languages[1];Value=$Tooltips[1];}
+@{key=$Languages[2];Value=$Tooltips[2];})}
+Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSettings -Depth 3 -Compress)
+```
 
 ## <a name="publish-sensitivity-labels-by-creating-a-label-policy"></a>Публикация меток конфиденциальности путем создания политики меток
 

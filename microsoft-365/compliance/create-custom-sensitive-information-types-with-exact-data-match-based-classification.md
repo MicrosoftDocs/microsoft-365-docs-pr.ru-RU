@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
-ms.openlocfilehash: a639c71753602ffd381c9240cf6e7273f3ba8bbe
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 90fde2475529200ab53411b5cb0c6d3c64de2fee
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38708201"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515670"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
@@ -157,7 +157,7 @@ Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
 
 ## <a name="removing-the-schema-for-edm-based-classification"></a>Удаление схемы для классификации на основе EDM
 
-(При необходимости) Чтобы удалить схему, используемую для классификации на основе EDM, выполните указанные ниже действия.
+(При необходимости.) Чтобы удалить схему, используемую для классификации на основе EDM, выполните указанные ниже действия.
 
 1. [Подключитесь к PowerShell для Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
@@ -300,7 +300,10 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 1. Скачайте [агент отправки EDM](https://go.microsoft.com/fwlink/?linkid=2088639) и установите его. По умолчанию задан путь установки C:\\Program Files\\Microsoft\\EdmUploadAgent.
 
-2. Чтобы разрешить работу агента отправки EDM, откройте командную строку Windows (от имени администратора) и выполните следующую команду:
+> [!TIP]
+> Чтобы получить список поддерживаемых параметров команды, запустите агент без аргументов. Например, EdmUploadAgent.exe.
+
+2. Чтобы разрешить работу агента отправки EDM, откройте командную строку Windows (в качестве администратора) и выполните следующую команду:
 
     `EdmUploadAgent.exe /Authorize`
 

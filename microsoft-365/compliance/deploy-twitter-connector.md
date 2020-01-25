@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить собственный соединитель для импорта и архивации данных Twitter в Microsoft 365. После импорта этих данных в Microsoft 365 вы можете использовать такие функции обеспечения соответствия, как судебное хранение, поиск контента и политики хранения, для управления управлением данными Twitter Организации.
-ms.openlocfilehash: 5a7d7749f99615d9fd6858be05cc63153cfe1d31
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: 9bf0be8684eb18fbc022f4eefa798c5c9265b3d7
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269400"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515700"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Развертывание соединителя для архивации данных Twitter
 
@@ -56,9 +56,6 @@ ms.locfileid: "41269400"
 
    ![Копирование и сохранение секрета](media/TCimage09.png)
 
-9. Перейдите к **манифесту** и скопируйте с identifieruris (который также называется URI приложения AAD), выделенный на следующем снимке экрана. Скопируйте универсальный код ресурса (URI) приложения AAD в текстовый файл или другое место хранения. Его можно использовать на шаге 6.
-
-    ![Копирование и сохранение URI приложения AAD](media/TCimage10.png)
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>Шаг 2: разверните веб-службу соединителя из GitHub в учетную запись Azure.
 

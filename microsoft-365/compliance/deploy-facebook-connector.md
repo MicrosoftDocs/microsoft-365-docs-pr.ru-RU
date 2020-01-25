@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить собственный соединитель для импорта и архивации бизнес-страниц Facebook в Microsoft 365. После импорта этих данных в Microsoft 365 вы можете использовать такие функции обеспечения соответствия, как судебное удержание, поиск контента и политики хранения, для управления управлением данными Facebook Организации.
-ms.openlocfilehash: 1222a82e3a3b8415aa3fc98cd3c06376e491beb0
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: c13f055a9ca96d9b7cc1ec5791c476e6cda8e5f0
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269428"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515740"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Развертывание соединителя для архивации данных бизнес-страниц Facebook
 
@@ -60,15 +60,12 @@ ms.locfileid: "41269428"
 
    ![Скопируйте значение секрета и сохраните его](media/FBCimage9.png)
 
-10. Перейдите к **манифесту** и скопируйте с identifieruris (который также называется URI приложения AAD), выделенный на следующем снимке экрана. Скопируйте универсальный код ресурса (URI) приложения AAD в текстовый файл или другое место хранения. Его можно использовать на шаге 6.
-
-    ![Перейдите к манифесту и скопируйте URI приложения AAD](media/FBCimage10.png)
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>Шаг 2: разверните веб-службу соединителя из GitHub в учетную запись Azure.
 
-1. Перейдите на [этот сайт GitHub](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet) и нажмите кнопку **развернуть в Azure**.
+1. Перейдите на [этот сайт GitHub](https://github.com/microsoft/m365-sample-connector-csharp-aspnet) и нажмите кнопку **развернуть в Azure**.
 
-    ![Нажмите кнопку развернуть в Azure.](media/FBCimage11.png)
+    ![Нажмите кнопку развернуть в Azure.](media/FBCGithubApp.png)
 
 2. После нажатия кнопки **развернуть в Azure**вы будете перенаправлены на портал Azure с настраиваемой страницей шаблона. Заполните сведения о **основных** **параметрах и параметрах** , а затем щелкните **купить**.
 
