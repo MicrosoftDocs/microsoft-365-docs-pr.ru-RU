@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 877c0017359ab9193c4cae81cbef4240909053a8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bb65745f92d1f77e6cc3224832c0a9871e567ca5
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091351"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558476"
 ---
 # <a name="generate-search-term-report-for-a-review-set"></a>Создание отчета о терминах поиска для набора проверки
 
@@ -46,7 +46,7 @@ ms.locfileid: "37091351"
 
 Сводные сведения о том, как будет организован отчет. Рассмотрим приведенный ниже пример.
 
-- Сохраненный запрос получает 10 документов: doc1 через doc10.
+- Сохраненный запрос получает 10 документов: doc1 до doc10.
 
 - doc1, doc2, doc3, doc4, doc5, doc6 и DOC7 содержат термин "обнаружение электронных данных".
 

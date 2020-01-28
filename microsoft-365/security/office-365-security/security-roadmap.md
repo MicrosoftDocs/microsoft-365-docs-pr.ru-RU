@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Основные рекомендации от группы циберсекурити корпорации Майкрософт для реализации возможностей обеспечения безопасности, защищающих среду Office 365. '
-ms.openlocfilehash: f07363585917a7088a590e11e89794b924cfb992
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 31dff93deca17fb5ba57ea16724d20a7ae0e187a
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971637"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558646"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>План безопасности Office 365 — основные приоритеты для первых 30 дней, 90 дней и более поздних
 
@@ -58,7 +58,7 @@ ms.locfileid: "39971637"
 
 |||
 |:-----|:-----|
-|Area|Задачи|
+|Область|Задачи|
 |Управление безопасностью|• Проверьте контрольный рейтинг и запишите текущую оценку ([https://securescore.office.com](https://securescore.office.com)).  <br/>  • Включите ведение журнала аудита для Office 365. Обратитесь [к разделу Поиск в журнале аудита](../../compliance/search-the-audit-log-in-security-and-compliance.md).  <br/> • [Настройте клиент Office 365 для повышения безопасности](tenant-wide-setup-for-increased-security.md) .  <br/>  • Регулярно изучите панели мониторинга и отчеты в центре безопасности Майкрософт 365 и в Cloud App Security.|
 |Защита от угроз|[Подключите Office 365 к Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) , чтобы начать мониторинг с использованием политик обнаружения угроз по умолчанию для аномальных поведений. Создание базового плана для обнаружения аномалий занимает семь дней.  <br><br/>  Реализация защиты для учетных записей администраторов:  <br/> • Используйте выделенные учетные записи администраторов для действий администратора.  <br/>  • Примените многофакторную проверку подлинности (MFA) для учетных записей администраторов.  <br/>  • Используйте [строго безопасное устройство Windows 10](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) для действий администратора.|
 |Управление идентификацией и доступом|• [Включите защиту удостоверений Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable).  <br/> • Для сред федеративных удостоверений Применяйте безопасность учетных записей (длина пароля, возраст, сложность и т. д.).|
@@ -71,8 +71,8 @@ ms.locfileid: "39971637"
 
 |||
 |:-----|:-----|
-|Area|Задача|
-|Управление безопасностью|• Проверьте безопасность оценки для рекомендуемых действий в среде ([https://securescore.office.com](https://securescore.office.com)).  <br/>  • Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM. <br/> • Ищите и реализуйте обновления программного обеспечения. <br/> • Имитация атак для спеар-фишинга, пароля и атаки методом прямого доступа с помощью [симулятора атак](attack-simulator.md) (входит в состав [Office 365 Threat Intelligence](office-365-ti.md)).  <br/> • Ищите общий риск, изучив встроенные отчеты в Cloud App Security (на вкладке "исследование"). <br/> • Установите флажок в [диспетчере соответствия требованиям](../../compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) , чтобы просмотреть состояние нормативных актов, относящихся к вашей организации (например, GDPR, NIST 800-171).|
+|Область|Задача|
+|Управление безопасностью|• Проверьте безопасность оценки для рекомендуемых действий в среде ([https://securescore.office.com](https://securescore.office.com)).  <br/>  • Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM. <br/> • Ищите и реализуйте обновления программного обеспечения. <br/> • Имитация атак для спеар-фишинга, пароля и атаки методом прямого доступа с помощью [симулятора атак](attack-simulator.md) (входит в состав [Office 365 Threat Intelligence](office-365-ti.md)).  <br/> • Ищите общий риск, изучив встроенные отчеты в Cloud App Security (на вкладке "исследование"). <br/> • Проверьте [рейтинг соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/compliance-score) , предъявляемым к вашей организации (например, GDPR, NIST 800-171).|
 |Защита от угроз| Реализация расширенной защиты для учетных записей администраторов: <br/> • Настройте [привилегированные рабочие станции доступа](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (павс) для действий администратора. <br/> • Настройка [службы управления удостоверениями Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure). <br/> • Настройте средство управления сведениями о безопасности и событиями (SIEM) для сбора данных ведения журнала из Office 365, Cloud App Security и других служб, включая AD FS. В журнале аудита Office 365 данные хранятся только в течение 90 дней. Захват этих данных в инструменте SIEM позволяет хранить данные в течение более длительного времени.|
 |Управление идентификацией и доступом|• Включите и примените MFA для всех пользователей. <br/> • Реализуйте набор [условного доступа и связанных политик](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations). |
 |Защита информации| Адаптируйте и реализуйте политики защиты информации. К этим ресурсам относятся примеры: <br/> • [Office 365 Information Protection для GDPR](https://aka.ms/o365gdpr) <br/> • [Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Использование политик защиты от потери данных и средств мониторинга в Office 365 для данных, хранящихся в Office 365 (вместо Cloud App Security). <br><br>Используйте Cloud App Security с Office 365 для расширенных функций оповещения (Кроме защиты от потери данных).|
@@ -84,7 +84,7 @@ ms.locfileid: "39971637"
 
 |||
 |:-----|:-----|
-|Area|Задача|
+|Область|Задача|
 |Управление безопасностью|• Продолжайте планировать дальнейшие действия с помощью параметра Secure [https://securescore.office.com](https://securescore.office.com)Score (). <br/> • Продолжайте регулярно просматривать панели мониторинга и отчеты в центре безопасности Microsoft 365, Cloud App Security и средствах SIEM. <br/> • Продолжайте искать и внедрять обновления программного обеспечения. <br/> • Интегрируйте обнаружение электронных данных с вашими юридическими и безугрозными процессами.|
 |Защита от угроз|• Реализуйте [защищенный привилегированный доступ](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access) (SPA) для компонентов удостоверения в локальной среде (AD, AD FS). <br/> • Используйте Cloud App Security для отслеживания угроз для предварительной оценки. <br/> • Обнаружение теневой ИТ, использование SaaS с помощью Cloud App Security.|
 |Управление идентификацией и доступом|• Уточнение политик и рабочих процессов. <br/> • Используйте защиту удостоверений Azure AD, чтобы определить угрозы для оценки.|

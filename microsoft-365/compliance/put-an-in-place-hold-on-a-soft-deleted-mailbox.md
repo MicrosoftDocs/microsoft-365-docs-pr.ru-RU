@@ -10,19 +10,19 @@ localization_priority: Normal
 search.appverid: ''
 ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 description: Узнайте, как создать запрос удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным и сохранить его содержимое. После этого вы сможете использовать средства обнаружения электронных данных для поиска в неактивном почтовом ящике.
-ms.openlocfilehash: ab8ab8b8eff0eefd91a87fb72439547c7d2fe97b
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: 64ee6d2c9887158939a87b9657b607bc9f323cec
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38687414"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558486"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Назначение удержания на месте для обратимо удаленного почтового ящика в Exchange Online
 
 Узнайте, как создать запрос удержания на месте для обратимо удаленного почтового ящика, чтобы сделать последний неактивным и сохранить его содержимое. После этого вы сможете использовать средства обнаружения электронных данных для поиска в неактивном почтовом ящике.
-  
-> [!NOTE]
-> Мы отложили крайний срок создания новых удержаний на месте в Exchange Online (в автономных планах Office 365 и Exchange Online). But later this year or early next year, you won't be able to create new In-Place Holds in Exchange Online. В качестве альтернативы удержания на месте можно использовать [случаи обнаружения электронных](https://go.microsoft.com/fwlink/?linkid=780738) данных или [политики хранения](https://go.microsoft.com/fwlink/?linkid=827811) в центре безопасности & соответствия требованиям. After we decommission new In-Place Holds, you'll still be able to modify existing In-Place Holds, and creating new In-Place Holds in Exchange Server 2013 and Exchange hybrid deployments will still be supported. And, you'll still be able to place mailboxes on Litigation Hold. 
+
+> [!IMPORTANT]
+> Так как мы будем хранить содержимое почтового ящика разными способами, мы сообщаем выбытие на месте в центре администрирования Exchange. Начиная с 1 апреля, 2020 вы не сможете создавать новые удержания на месте в Exchange Online. Но вы по-прежнему можете управлять удержаниями на месте в центре администрирования Exchange или с помощью командлета **Set-MailboxSearch** в Exchange Online PowerShell. Однако, начиная с 1 июля 2020, вы не сможете управлять удержаниями на месте. Их можно удалить только в центре администрирования Exchange или с помощью командлета **Remove – MailboxSearch** . Для получения дополнительных сведений о прекращении удержания на месте, ознакомьтесь со статьей [выбытие средств прежних версий электронных данных](legacy-ediscovery-retirement.md).
   
 You might have a situation where a person has left your organization, and their corresponding user account and mailbox were deleted. Afterwards, you realize there's information in the mailbox that needs to be preserved. What can you do? If the deleted mailbox retention period hasn't expired, you can put an In-Place Hold on the deleted mailbox (called a  soft-deleted mailbox ) and make it an inactive mailbox. An  *inactive mailbox*  is used to preserve a former employee's email after he or she leaves your organization. The contents of an inactive mailbox are preserved for the duration of the In-Place Hold that was is placed on the soft-deleted mailbox when it was made inactive. После неактивного почтового ящика можно выполнить поиск в почтовом ящике, используя обнаружение электронных данных на месте в Exchange Online, поиск контента в центре безопасности & соответствия требованиям или в центре обнаружения электронных данных в SharePoint Online. 
   

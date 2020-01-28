@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b6f24cb1afcefc9ddbe468530855603e7ee0f484
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 73c1d7be6da17ae29c6ea8423c879286714fe8f1
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804192"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558606"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>Закон Калифорнии о конфиденциальности данных California Consumer Privacy Act (CCPA)
 
@@ -37,7 +37,7 @@ CCPA вступает в силу 1 января 2020 г.  Тем не мене
 
 Как указано в OST, корпорация Майкрософт соответствует всем законам и нормативам, применимым к обеспечению работы веб-служб, в том числе ККПА.  
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Операции разработки Azure
@@ -51,7 +51,7 @@ CCPA вступает в силу 1 января 2020 г.  Тем не мене
 
 Вот несколько действий, которые можно выполнить, чтобы подготовиться к ККПА:
 
-- Начните использовать оценку GDPR в диспетчере соответствия требованиям в рамках вашей программы конфиденциальности, обеспечивающей выполнение CCPA.  
+- Начните использовать оценку GDPR в [рейтинге соответствия](compliance-score.md) в рамках программы обеспечения конфиденциальности ККПА.
 - Создайте процесс для эффективного реагирования на запросы доступа к субъекту данных (Дсарс) с помощью средства "запросы субъектов данных".
 - Настройте метку и политики, чтобы находить, классифицировать, помечать и защищать конфиденциальные данные с помощью Microsoft Information Protection.
 - Используйте возможности шифрования электронной почты для дополнительного контроля конфиденциальной информации.

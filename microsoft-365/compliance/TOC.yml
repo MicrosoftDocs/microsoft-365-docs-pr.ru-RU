@@ -347,8 +347,6 @@
           href: csv-file-for-an-id-list-content-search.md
         - name: Поиск сторонних данных с помощью поиска контента
           href: use-content-search-to-search-third-party-data-that-was-imported.md
-        - name: Поиск содержимого при обнаружении электронных данных
-          href: use-content-search-in-ediscovery.md
         - name: Проверка запроса веб-части "Поиск контента" на ошибки
           href: check-your-content-search-query-for-errors.md
         - name: Повтор неудачного поиска контента
@@ -1013,7 +1011,7 @@
             - name: EAR (правила экспортного контроля США)
               href: offering-ear.md
             - name: ENISA IAF (ЕС)
-              href: 'https://aka.ms/ENISA'
+              href: offering-enisa.md
             - name: Типовые статьи ЕС
               href: offering-eu-model-clauses.md
             - name: EBA (ЕС)
@@ -1107,7 +1105,7 @@
             - name: ENS (Испания)
               href: offering-ens-spain.md
             - name: ENISA IAF (ЕС)
-              href: 'https://aka.ms/ENISA'
+              href: offering-enisa.md
             - name: Типовые статьи ЕС
               href: offering-eu-model-clauses.md
             - name: Соглашение о правилах обмена конфиденциальной информацией между ЕС и США

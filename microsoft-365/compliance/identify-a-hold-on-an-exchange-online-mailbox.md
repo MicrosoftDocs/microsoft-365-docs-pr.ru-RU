@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Узнайте, как определить различные типы удержаний, которые можно разместить в почтовом ящике Office 365. Эти типы удержаний включают хранение для судебного разбирательства, удержания электронных данных и политики хранения Office 365. Кроме того, можно определить, исключен ли пользователь из политики хранения на уровне Организации.
-ms.openlocfilehash: 13e7bcec4d6ce7a04b069552b599e742c8777e8a
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: dcdb79aa1c1cae83602a42e6c99136a2f85226a1
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634016"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558016"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Как определить тип удержания, примененного для почтового ящика Exchange Online
 
@@ -149,6 +149,9 @@ Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name,SourceMailboxes
 
 Если GUID для хранения на месте начинается с `cld` префикса, не забудьте включить префикс при выполнении предыдущей команды.
 
+> [!IMPORTANT]
+> Так как мы будем хранить содержимое почтового ящика разными способами, мы сообщаем выбытие на месте в центре администрирования Exchange. Начиная с 1 апреля, 2020 вы не сможете создавать новые удержания на месте в Exchange Online. Но вы по-прежнему можете управлять удержаниями на месте в центре администрирования Exchange или с помощью командлета **Set-MailboxSearch** в Exchange Online PowerShell. Однако, начиная с 1 июля 2020, вы не сможете управлять удержаниями на месте. Их можно удалить только в центре администрирования Exchange или с помощью командлета **Remove – MailboxSearch** . Для получения дополнительных сведений о прекращении удержания на месте, ознакомьтесь со статьей [выбытие средств прежних версий электронных данных](legacy-ediscovery-retirement.md).
+
 ### <a name="office-365-retention-policies"></a>Политики хранения Office 365
 
 Выполните следующую команду в командной консоли & безопасности (PowerShell) для удостоверения политики хранения Office 365 (для всей организации или определенного расположения), применяемой к почтовому ящику. Используйте идентификатор GUID (не включая префикс MBX, СКП, или элемент GRP или суффикс действия), определенный в шаге 1.
@@ -195,7 +198,7 @@ Get-Mailbox <username> | FL *HoldApplied*
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-или
+ИЛИ
  
 ```powershell
 Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
@@ -209,7 +212,7 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 
-или
+ИЛИ
 
 ```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplied

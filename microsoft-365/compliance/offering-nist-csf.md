@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0fbe175d16a7b588e8c0cb3e7b5457459c314bdc
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 89296e2fb7b94bd74ee8ff617d818705fb844863
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804042"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558516"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 
@@ -33,12 +33,12 @@ ms.locfileid: "40804042"
 
 NIST Циберсекурити Framework (CSF) — это невольная платформа, состоящая из стандартов, руководств и рекомендаций по управлению рисками, связанными с циберсекурити. Облачные службы Майкрософт прошли независимость от сторонних FedRAMP среднего и высокого уровня аудита и сертифицированы в соответствии со стандартами FedRAMP. Кроме того, с помощью проверенной оценки, выполняемой HITRUST, ведущих приложений по обеспечению безопасности и конфиденциальности и организации аккредитацию, Office 365 будет сертифицировано для целей, указанных в разделе NIST CSF.
 
-Узнайте, как ускорить развертывание NIST Циберсекурити Framework с помощью диспетчера соответствия требованиям и схемы безопасности и соответствия требованиям Azure:
+Узнайте, как ускорить развертывание NIST Циберсекурити Framework с помощью оценки соответствия требованиям и схемы безопасности и соответствия требованиям Azure:
 
 - [Загрузите контрольный список по оценке угроз безопасности и соответствия требованиям для Azure — CSF.](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
-- [Узнайте больше о CSFной оценке NIST для Office 365 в диспетчере соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
+- [Узнайте больше о CSFной оценке NIST для Office 365 в рейтинге соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных организаций](https://aka.ms/d365-compliance-list)
@@ -56,11 +56,11 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 - [Начало использования чертежа Azure NIST CSF](https://aka.ms/Azure-Blueprint-DoD-NIST)
 
-## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-manager"></a>Оценка рисков в Office 365 с помощью NIST CSF в диспетчере соответствия требованиям
+## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-score"></a>Оценка рисков в Office 365 с помощью NIST CSF в рейтинге соответствия требованиям
 
-Циберсекурити остается критическим вопросом по управлению в эпоху цифрового преобразования. Чтобы упростить реализацию и проверку средств безопасности для клиента Office 365, корпорация Майкрософт предоставляет рекомендуемые действия пользователя в оценке NIST CSF в диспетчере соответствия требованиям.
+Циберсекурити остается критическим вопросом по управлению в эпоху цифрового преобразования. Чтобы упростить реализацию и проверку средств безопасности для клиента Office 365, корпорация Майкрософт предоставляет рекомендуемые действия пользователя в оценке NIST CSF в показателе соответствия требованиям.
 
-- [Начало использования диспетчера соответствия требованиям](https://aka.ms/compliancemanager)
+- [Начало использования оценки соответствия требованиям](compliance-score.md)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Сведения о том, как перенести бизнес-деятельность из Microsoft 365 Business в Microsoft 365 E3.
-ms.openlocfilehash: 7d10889a446543a3e9126aaaa1e3fbe6861f87a4
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 1cf6aa741c7f0b427a434d472df7169ef37c5418
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111873"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558046"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Миграция с Microsoft 365 бизнес на Microsoft 365 E3
 
@@ -77,7 +77,7 @@ Microsoft 365 Business имеет все необходимое для мало�
 | Набор корпоративных лицензий CAL (Exchange, SharePoint, Skype, Windows, диспетчер конфигурации конечных точек Майкрософт, управление правами Windows)| |       ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | **Соответствие требованиям**        | | | 
 | Неограниченная Архивация электронной почты | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
-| Диспетчер соответствия требованиям    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
+| Оценка соответствия требованиям/диспетчер соответствия требованиям   | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Обнаружение электронных данных    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Удержание на месте и удержание для судебного разбирательства | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Теги и политики хранения для управления записями сообщений  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 

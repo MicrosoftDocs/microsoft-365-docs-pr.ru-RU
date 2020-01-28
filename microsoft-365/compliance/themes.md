@@ -1,5 +1,5 @@
 ---
-title: темы;
+title: Темы
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 398ad007f62e340bd10114810d5efabbb329e00e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ebb8871ac64eaa5b397e4d64d6e25ac2dc602279
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090930"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558466"
 ---
-# <a name="themes"></a>темы;
+# <a name="themes"></a>Темы
 
 Когда кто-то попишет документ, он не выбирает слова случайным образом; они пытаются передать некоторые идеи или концепции, и слова будут выбраны соответствующим образом. В модулях Themes документы, которые обсуждаются аналогично тем, чтобы проверяющие могли эффективнее работать с документами.
 

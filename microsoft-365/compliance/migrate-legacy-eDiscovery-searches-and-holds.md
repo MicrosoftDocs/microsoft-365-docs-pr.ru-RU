@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: eacbb5577c070ce463ad8e17ba6d0d19a1d8736c
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 3d0bba3c75bda77cbffbbd515215a10d579755be
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971405"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558566"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Миграция поиска электронных данных прежних версий и удержаний в центре соответствия требованиям Microsoft 365
 
@@ -26,7 +26,7 @@ ms.locfileid: "40971405"
 > [!NOTE]
 > Так как существует множество различных сценариев, в этой статье представлены общие рекомендации по переходу на поиск и удержанию в базовом варианте обнаружения электронных данных в центре соответствия требованиям Microsoft 365. Не всегда требуется использовать случаи обнаружения электронных данных, но они добавляют дополнительный уровень безопасности, позволяя назначать разрешения для управления доступом пользователей к делам обнаружения электронных данных в Организации.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для запуска команд PowerShell, описанных в этой статье, необходимо быть членом группы ролей "Диспетчер обнаружения электронных данных" в центре безопасности & соответствия требованиям Office 365. Вы также должны быть членом группы ролей "Управление обнаружением" в центре администрирования Exchange.
 
@@ -75,7 +75,7 @@ $search | FL
 ![Пример выходных данных PowerShell с использованием командлета Get – MailboxSearch для отдельного поиска](media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
-> Продолжительность удержания на месте в данном примере является неопределенной (*ItemHoldPeriod: Unlimited*). Это типично для сценариев обнаружения электронных данных и судебного разбирательства. Если длительность удержания отличается от значения неопределенности, причина, скорее всего, заключается в том, что удержание используется для хранения контента в сценарии хранения. Вместо использования командлетов обнаружения электронных данных в Office 365 Security & центра соответствия требованиям PowerShell для сценариев хранения мы рекомендуем использовать командлеты [New – HoldCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-holdcompliancepolicy) и [New – HoldComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-holdcompliancerule) для хранения контента. Результат использования этих командлетов аналогичен использованию командлетов **New – caseholdpolicy позволяет** и **New – caseholdrule позволяет**, но вы можете указать срок хранения и действие хранения, такие как удаление контента после истечения срока хранения. Кроме того, использование командлетов хранения не требует, чтобы привязать удержание к случаю обнаружения электронных данных.
+> Продолжительность удержания на месте в данном примере является неопределенной (*ItemHoldPeriod: Unlimited*). Это типично для сценариев обнаружения электронных данных и судебного разбирательства. Если длительность удержания отличается от значения неопределенности, причина, скорее всего, заключается в том, что удержание используется для хранения контента в сценарии хранения. Вместо использования командлетов обнаружения электронных данных в Office 365 Security & центра соответствия требованиям PowerShell для сценариев хранения мы рекомендуем использовать командлеты [New – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) и [New – RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) для хранения контента. Результат использования этих командлетов аналогичен использованию командлетов **New – caseholdpolicy позволяет** и **New – caseholdrule позволяет**, но вы можете указать срок хранения и действие хранения, такие как удаление контента после истечения срока хранения. Кроме того, использование командлетов хранения не требует, чтобы привязать удержание к случаю обнаружения электронных данных.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Шаг 4: создание дела в центре соответствия требованиям Microsoft 365
 
