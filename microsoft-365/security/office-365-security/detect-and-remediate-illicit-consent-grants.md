@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить незаконное согласие на атаку в Office 365.
-ms.openlocfilehash: 0f4569a4ef8496a07fc1dc52f500ee91a6590fdd
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: ae26656cdfcb6f17bbe4caa1016f6428f3bd655e
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989544"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572996"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365
 

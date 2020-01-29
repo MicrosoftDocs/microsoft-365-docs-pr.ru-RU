@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a1dbb5708cad32a0e37ddc25c97c70a765580f86
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 4472f665faa658349813d9aaeb50596f2a868b35
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962526"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572275"
 ---
 # <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
@@ -65,13 +65,12 @@ ms.locfileid: "39962526"
 Для завершения регистрации необходимо объединить данные CSV-файлов в один файл. Вот пример сценария PowerShell для упрощения:
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
-
 ### <a name="register-devices"></a>Регистрация устройств
 
 Для регистрации CSV-файл должен быть в определенном формате. Если вы собрали данные самостоятельно на предыдущих шагах, файл должен быть уже в правильном формате; Если вы получаете файл от поставщика, может потребоваться изменить формат.
 
 >[!NOTE]
->Для удобства вы можете скачать [шаблон](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.xlsx) для этого CSV-файла.
+>Для удобства вы можете скачать [пример CSV-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv).
 
 Ваш файл должен включать в себя те **же заголовки столбцов** , что и один образец (Manufacturer, Model и т. д.), но собственные данные для других строк. Если вы используете шаблон, откройте его в средстве редактирования текста (например, в Блокноте) и продумайте все данные только в строке 1, вводя данные в строки 2 и ниже. 
     

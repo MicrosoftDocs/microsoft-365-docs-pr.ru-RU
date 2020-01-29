@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: ceda5765ca6450959c99222daf457cf7584401ba
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: eb7ff76ef51078e423201b41cf24780b822ba452
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074731"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572245"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>Этапы регистрации устройств для партнеров
 
@@ -25,7 +25,7 @@ ms.locfileid: "38074731"
 Чтобы завершить регистрацию клиента, сначала создайте CSV-файл.
 
 >[!NOTE]
->Для удобства вы можете скачать [шаблон](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.xlsx) для данной *ПАРТНЕРской версии* CSV-файла.
+>Для удобства вы можете скачать [пример CSV-файла](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv) для этой *версии партнера*.
 
 Ваш файл должен включать в себя те **же заголовки столбцов** , что и один образец (Manufacturer, Model и т. д.), но собственные данные для других строк. Если вы используете шаблон, откройте его в средстве редактирования текста (например, в Блокноте) и продумайте все данные только в строке 1, вводя данные в строки 2 и ниже. 
     
@@ -51,7 +51,7 @@ ms.locfileid: "38074731"
 
 ## <a name="register-devices-by-using-the-azure-portal"></a>Регистрация устройств с помощью портала Azure
 
-Регистрация с помощью портала Azure выполняется так же, как и для самообслуживания, за исключением того, что вы обращаетесь к порталу по-другому. Выполните следующие действия.
+Регистрация с помощью портала Azure выполняется так же, как и для самообслуживания, за исключением того, что вы обращаетесь к порталу по-другому. Выполните приведенные ниже действия.
 
 1. Переход в [Центр партнеров](https://partner.microsoft.com/dashboard)
 2. Выберите **Customers (клиенты**).
