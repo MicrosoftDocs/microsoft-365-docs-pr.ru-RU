@@ -1,5 +1,7 @@
 ---
 title: Введение в политики управления сведениями
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -17,12 +19,12 @@ ms.assetid: 63a0b501-ba59-44b7-a35c-999f3be057b2
 ms.collection:
 - M365-security-compliance
 description: Политика управления сведениями представляет собой набор правил для определенного типа контента. С помощью политик управления сведениями организации могут контролировать и отслеживать ряд аспектов, например период хранения контента или действия над ним, которые доступны пользователям. Эти политики могут помочь организациям в соблюдении правовых норм и правительственных постановлений или же просто в реализации внутренних бизнес-процессов.
-ms.openlocfilehash: a5cf571b22b7d698daf8a70f8565b250e2388a1a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3c3ca901674b9ae34aa990f320cf4eb550ea05b9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090334"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41588039"
 ---
 # <a name="introduction-to-information-management-policies"></a>Введение в политики управления сведениями
 

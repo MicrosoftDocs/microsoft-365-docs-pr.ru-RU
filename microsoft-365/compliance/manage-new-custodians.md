@@ -1,5 +1,7 @@
 ---
 title: Управление custodians в расширенном случае обнаружения электронных данных
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 17c77f14267f988a071e201733ae54ad9c438547
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0b6776571f4abafaf8e050fa6c31311df452d90e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090391"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582918"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Управление custodians в расширенном случае обнаружения электронных данных
 
@@ -108,7 +110,7 @@ ms.locfileid: "37090391"
 
 Повторное индексирование данных хранитель — это длительный процесс; соответствующее созданное задание называется **повторная индексация данных хранитель**. Отслеживать ход выполнения можно на вкладке " **задания** " или на вкладке " **custodians** ", отслеживая состояние в столбце " **состояние задания индексирования** ".
 
-Дополнительные сведения см. в следующих статьях:
+Дополнительные сведения см. в указанных ниже статьях.
 
 - [Работа с ошибками обработки](processing-data-for-case.md)
 

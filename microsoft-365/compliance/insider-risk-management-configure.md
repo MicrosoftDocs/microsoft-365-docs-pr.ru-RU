@@ -5,17 +5,19 @@ keywords: Microsoft 365, управление рисками для оценки
 localization_priority: Normal
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5d32e28d53fccbb16d935bbd9348ad7c12bac365
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: aea8c4a8dff0581b9286880d646728eb9a8dd555
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259847"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41590670"
 ---
 # <a name="get-started-with-insider-risk-management-preview"></a>Начало работы с управлением рисками для оценки безопасности (Предварительная версия)
 
