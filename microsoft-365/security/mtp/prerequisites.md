@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d45be77abd404f87484d0f8390f09f1b9bc3b8ce
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d3f24e8615f5b11b0853d7f1e36b49eb0cf2424f
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600014"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661925"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Предварительные требования для Защиты от угроз (Майкрософт)
 
@@ -33,23 +33,25 @@ ms.locfileid: "41600014"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также других параметрах конфигурации для запуска и использования Безопасности Microsoft 365.
+Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защиты от угроз Майкрософт.
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
-Для Безопасности Microsoft 365 требуется одна из следующих лицензий:
+Для использования защиты от угроз Майкрософт необходима одна из следующих лицензий или комбинация лицензий:
 
-- Microsoft 365 E5 
+- Microsoft 365 E5
+- Безопасность Microsoft 365 E5
 - Office 365 E5, Enterprise Mobility + Security E5 и Windows E5
 
-Эти лицензии можно получить на странице [Microsoft 365 корпоративный](https://www.microsoft.com/en-us/microsoft-365/enterprise).
+[Просмотр планов корпоративных служб Microsoft 365](https://www.microsoft.com/en-us/licensing/product-licensing/microsoft-365-enterprise)
 
 ### <a name="check-your-existing--licenses"></a>Проверка существующих лицензий
-Перейдите в Центр администрирования Microsoft 365 по адресу [admin.microsoft.com](https://admin.microsoft.com/), чтобы просмотреть существующие лицензии. В Центре администрирования выберите **Выставление счетов** > **Лицензии**.
+Перейдите в центр администрирования Microsoft 365 ([Admin.Microsoft.com](https://admin.microsoft.com/)), чтобы просмотреть существующие лицензии. В Центре администрирования выберите **Выставление счетов** > **Лицензии**.
 
-Для просмотра сведений о лицензировании вам должна быть назначена роль **администратора выставления счетов** или **глобального читателя** [в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles). Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.  
+>[!NOTE]
+> Для просмотра сведений о лицензии необходимо назначить роль **администратора выставления счетов** или роль **глобального читателя** [в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) . Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.
 
 ## <a name="browser-requirements"></a>Требования к браузеру
-Доступ к Центру безопасности Microsoft 365 осуществляется через браузер. Поддерживаются Internet Explorer и Microsoft Edge. Кроме того, поддерживаются все HTML5-совместимые браузеры.
+Доступ к защите от угроз Майкрософт в центре безопасности Microsoft 365 с помощью Microsoft EDGE, Internet Explorer 11 или любого совместимого с HTML 5 веб-браузера.
 
 ## <a name="related-topics"></a>См. также
 - [Обзор Защиты от угроз (Майкрософт)](microsoft-threat-protection.md)
