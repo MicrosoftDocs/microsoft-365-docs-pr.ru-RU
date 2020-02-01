@@ -1,5 +1,7 @@
 ---
 title: Шифрование Office 365 в Azure
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: Сводка. описание шифрования в Azure.
-ms.openlocfilehash: 9c493c4a60dfb050b3b628c0e37bee131e4e4db8
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 9828da8b2d39a3b80784d57ed71a335857cfaea5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558496"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602116"
 ---
 # <a name="office-365-encryption-in-azure"></a>Шифрование Office 365 в Azure
 

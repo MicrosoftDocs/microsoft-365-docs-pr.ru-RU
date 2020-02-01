@@ -1,5 +1,7 @@
 ---
 title: Разрешения на функции в службе EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Разрешения, необходимые для выполнения задач по управлению службой Microsoft Exchange Online Protection (EOP), зависят от управляемых функций.
-ms.openlocfilehash: dcf56a5295f7964b2271331deb2e7f8c1ba1635e
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 2129df7faaa977d59f8af8082291520d33bc9cc7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871855"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599316"
 ---
 # <a name="feature-permissions-in-eop"></a>Разрешения на функции в службе EOP
 
@@ -33,7 +35,7 @@ ms.locfileid: "39871855"
 |Защита от нежелательной почты|Управление организацией <br/><br/> Управление санацией|
 |Правила потока обработки почты|Управление организацией <br/><br/> Управление записями|
 |Домены|Управление организацией <br/><br/> Управление организацией только с правом на просмотр|
-|Advanced Threat protection (ATP)|Управление организацией <br/><br/> Управление санацией|
+|Расширенная защита от угроз (ATP)|Управление организацией <br/><br/> Управление санацией|
 |Соединители Office 365|Управление организацией|
 |Трассировка сообщений|Управление организацией <br/><br/> Управление организацией только с правом на просмотр|
 |Конфигурация организации|Управление организацией|

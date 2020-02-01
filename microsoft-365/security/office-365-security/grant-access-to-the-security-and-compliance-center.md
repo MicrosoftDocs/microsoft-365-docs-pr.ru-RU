@@ -1,5 +1,7 @@
 ---
 title: Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователям необходимо назначить разрешения в центре безопасности & безопасности Office 365, прежде чем они смогут управлять любыми функциями обеспечения безопасности и соответствия требованиям.
-ms.openlocfilehash: 698a319b4297a00e0c248df495b7013fa3ae3542
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 625fe036e8f8b00201abd0f5cb6a8f0003c597f5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970445"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599256"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365
 
@@ -81,7 +83,7 @@ ms.locfileid: "39970445"
 
 Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember).
 
-### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
+### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что у пользователей есть доступ к центру безопасности & соответствия требованиям, используйте командлет **Get – RoleGroupMember** для просмотра членов в группе ролей Управление организацией, как показано в следующем примере.
 

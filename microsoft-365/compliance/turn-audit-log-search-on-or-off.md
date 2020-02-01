@@ -1,5 +1,7 @@
 ---
 title: Включение и отключение поиска в журнале аудита Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: Вы можете включить функцию поиска журнала аудита в центре безопасности & соответствия требованиям. Если вы передумали, вы можете включить его в любое время. Если поиск в журнале аудита отключен, администраторы не могут выполнять поиск действий пользователей и администраторов в журнале аудита Office 365 в Организации.
-ms.openlocfilehash: 4e382c9916a9460d2c837a336607734427416a1a
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: dfa637bfe6df0e4643d96a921a604ea5d0deba9b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687563"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601375"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Включение и отключение поиска в журнале аудита Office 365
 

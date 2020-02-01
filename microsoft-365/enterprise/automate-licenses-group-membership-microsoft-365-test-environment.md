@@ -1,5 +1,7 @@
 ---
 title: Автоматизация лицензирования и участия в группах для тестовой среды Microsoft 365 корпоративный
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройте лицензирование на основе групп и членство в динамической группе в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: facff7eb556299c0312fa7488a35a96151bb1882
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0575f2aa763f85a0042e6d02f9cce65e69064973
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802124"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601186"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Автоматизация лицензирования и участия в группах для тестовой среды Microsoft 365 корпоративный
 
@@ -31,7 +33,7 @@ ms.locfileid: "40802124"
 1. Создайте среду тестирования Microsoft 365 корпоративный.
 2. Настройка и проверка членства в динамических группах и автоматическое лицензирование.
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.

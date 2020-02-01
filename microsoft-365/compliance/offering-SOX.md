@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 35e1887d37f3ca5840d595c7927ff4d6064e08d9
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ef2f30492df89e97348e4dbce81ce4ae43c2e806
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804242"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602036"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Акт Сарбейнс-Оксли от 2002 г. (SOX)
 
@@ -41,7 +43,7 @@ ms.locfileid: "40804242"
 
 Узнайте больше о том, как использовать отчеты о соответствии требованиям в Microsoft Azure для решения ваших обязательств по обеспечению соблюдения требований требованиям SOX: [Загрузка руководства по Azure для закона Сарбэйнса – Оксли](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

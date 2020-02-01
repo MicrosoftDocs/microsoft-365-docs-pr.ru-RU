@@ -1,5 +1,7 @@
 ---
 title: Шаг 6. Настройка шифрования электронной почты
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,18 +16,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: В этой статье рассказывается, как настроить управление привилегированным доступом для Office 365.
-ms.openlocfilehash: ef9da1d6aea20ef965b56006d91c4da3c0ad18ab
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 252a5f76197deb1034d200553308a281ef079957
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370436"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600926"
 ---
 # <a name="step-6-configure-email-encryption"></a>Шаг 6. Настройка шифрования электронной почты
 
 *Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 6: защита информации](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 В Microsoft 365 существует три типа шифрования электронной почты.
 
@@ -60,7 +62,7 @@ ms.locfileid: "37370436"
 
 Дополнительные сведения см. в разделе [Управление правами на доступ к данным в Exchange Online]( https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online).
 
-## <a name="smime"></a>S/MIME
+## <a name="smime"></a>S/MIME;
 
 S/MIME это решение для защиты электронной почты на основе цифровых сертификатов, которое позволяет выполнять шифрование и цифровую подпись сообщения. Шифрование сообщений гарантирует, что только указанный получатель сможет открыть и прочитать сообщение. Цифровая подпись помогает получателю проверить подлинность отправителя и определить, что она была отправлена только отправителю.
 

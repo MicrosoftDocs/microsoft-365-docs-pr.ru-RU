@@ -1,5 +1,7 @@
 ---
 title: Отчет по автоматически пересылаемым сообщениям
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: Администраторы могут узнать об отчетах о автоматических пересылаемых сообщениях в панели мониторинга "Направление почты" в центре безопасности Office 365 & соответствия требованиям.
-ms.openlocfilehash: f8909a983dab3f752c8396948e3c6e7d11281208
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2949f8991d7c65861fd390d3c843053ad36c0d60
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091301"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598906"
 ---
 # <a name="auto-forwarded-messages-report"></a>Отчет по автоматически пересылаемым сообщениям
 

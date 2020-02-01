@@ -5,6 +5,8 @@ author: BrendaCarter
 manager: johmar
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
@@ -13,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 4ef679ed6fef217be112317d03d12c007b1375fd
-ms.sourcegitcommit: 7c977771fc295ca1e4e9b16a6d05faee8edeadad
+ms.openlocfilehash: ca9b752f55ebe3fecec4f312bc89b45d99cf0d7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913362"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601056"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики для разрешения гостевых и внешних поправных доступа
 В этой статье описывается, как настроить рекомендуемые политики доступа к удостоверениям и устройствам, чтобы разрешить доступ к учетной записи B2B (гости и внешние пользователи). Это руководство строится на [общих политиках идентификации и доступа к устройствам](identity-access-policies.md).
@@ -37,7 +39,7 @@ ms.locfileid: "37913362"
 
 |Уровень защиты|Политики|Дополнительные сведения|
 |:---------------|:-------|:----------------|
-|**Базовый уровень**|[Требовать постоянного постоянного для гостевых и внешних пользователей](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Создайте новое правило и примените его только к гостям и внешним пользователям. В разделе риск для входа оставьте флажок все параметры снятым, чтобы всегда применять MFA.|
+|**Базовый**|[Требовать постоянного постоянного для гостевых и внешних пользователей](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Создайте новое правило и примените его только к гостям и внешним пользователям. В разделе риск для входа оставьте флажок все параметры снятым, чтобы всегда применять MFA.|
 |        |[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Измените это правило, чтобы исключить гостевых и внешних пользователей.|
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Измените это правило, чтобы исключить гостевых и внешних пользователей.|
 

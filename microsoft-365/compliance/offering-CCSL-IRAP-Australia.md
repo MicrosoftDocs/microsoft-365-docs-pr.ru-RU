@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4be943b83d1b2286a01731de87dd2b0af34cb322
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3cbc0008841456e91dd2ffe6a9e5c78fba0ba43d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805482"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602676"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Зарегистрированная программа-биоinformation Security для Австралии государственных учреждений (ИРАП)
 
@@ -61,7 +63,7 @@ Microsoft Azure, Dynamics 365 CRM и Office 365 по-прежнему включ
 
 ИРАПная Оценка служб Майкрософт помогает обеспечить поддержку клиентов государственного сектора в государственных учреждениях и их партнеров, которые корпорация Майкрософт подстроила и эффективно использует средства контроля безопасности для обработки, хранения и передачи ЗАЩИЩЕНных и под секретной информацией. Сюда входит большинство государственных и образовательных данных в Австралии.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure и Dynamics](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)

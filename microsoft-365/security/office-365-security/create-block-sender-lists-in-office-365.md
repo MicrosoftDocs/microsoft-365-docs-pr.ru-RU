@@ -1,5 +1,7 @@
 ---
 title: Создание списков заблокированных отправителей в Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -11,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: 'Блокировать параметры списка отправителей: заблокированные отправители, отправители нежелательной почты и блокировки доменов, списки заблокированных IP-адресов и правила для поток почты Exchange (правила транспорта).'
-ms.openlocfilehash: 09a90fce31bd1ed9aea8275e2f01cda3ba816b1b
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: fb5228bca7ac0c98a2aafd9d7b582e370698649a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572335"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599546"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Создание списков заблокированных отправителей в Office 365
 

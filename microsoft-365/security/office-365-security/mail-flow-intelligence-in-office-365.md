@@ -1,5 +1,7 @@
 ---
 title: Аналитика поток почты в Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -11,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: Администраторы могут узнать о кодах ошибок, связанных с доставкой сообщений с помощью соединителей в Office 365 (также известной как логика обработки почтового процесса).
-ms.openlocfilehash: ee02be439cd3bd9405aea7a94410af794808f259
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: ea4fb56f0e303d243af02edf01e5d85b957a6368
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971777"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599056"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Логика потока обработки почты в Office 365
 

@@ -1,5 +1,7 @@
 ---
 title: Поиск и маркировка
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: В Advanced eDiscovery модуль поиска и тегирования позволяет искать, просматривать и упорядочивать документы в своем случае. В настоящее время этот модуль находится в бета-версии.
-ms.openlocfilehash: f5e192988519a9190aa53efef35a8e584e0987cc
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d79b702471b7a7234a7f0d147eb4f50bfc56a4c7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802902"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601716"
 ---
 # <a name="search-and-tagging"></a>Поиск и маркировка
 

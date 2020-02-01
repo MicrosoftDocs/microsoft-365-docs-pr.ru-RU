@@ -1,5 +1,7 @@
 ---
 title: Пошаговое руководство. Из панели мониторинга к аналитике
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как можно переходить с панели мониторинга в представление о рекомендуемых действиях &amp; в центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 01e012a8049fcb92e2799dba7c20e3614622fa43
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ceb00301ca8c58072f6f34b19c633a0d11565e77
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090076"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599306"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Пошаговое руководство. Из панели мониторинга к аналитике
 
@@ -44,7 +46,7 @@ ms.locfileid: "37090076"
   
 Таким образом, мы можем перейти с панели мониторинга к ценным и рекомендуемым действиям.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Пошаговое руководство: из подробного отчета](from-an-insight-to-a-detailed-report.md)
   

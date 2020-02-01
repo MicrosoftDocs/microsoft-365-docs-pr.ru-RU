@@ -1,5 +1,7 @@
 ---
 title: Выбытие средств прежних версий электронных данных
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,18 +12,18 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: 08f568a82096efb143ff5c9fd87011a3d3029e42
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 0ce85a1c73de38f0032f3e667add77a424d5486e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210064"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600566"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
 
 В течение нескольких лет корпорация Майкрософт предоставила средства обнаружения электронных данных, которые позволяют выполнять поиск, предварительный просмотр и экспорт содержимого электронной почты из Exchange Online. Тем не менее, эти средства не предоставляют эффективный способ поиска контента, не относящегося к Exchange, в других службах Office 365, таких как SharePoint Online и группы Office 365. Для решения этой вопросы Корпорация Майкрософт предлагает другие средства обнаружения электронных данных, которые помогут вам найти широкий спектр содержимого Office 365. Мы работаем над внедрением самых последних и мощных функций обнаружения электронных [данных в центре соответствия требованиям Microsoft 365](https://compliance.microsoft.com). Это позволяет организациям отвечать на юридические, внутренние и другие запросы к содержимому во многих службах Office 365, в том числе Exchange Online.
 
-В результате этой новой и улучшенной функции обнаружения электронных данных в центре соответствия требованиям Microsoft 365 мы проделам следующие функции, связанные с обнаружением электронных данных, и функциональные возможности, связанные с поиском содержимого электронной почты:
+В результате этой новой и улучшенной функции обнаружения электронных данных в центре соответствия требованиям Microsoft 365 мы проделам следующие функции, связанные с обнаружением электронных данных, и функциональные возможности, связанные с поиском содержимого электронной почты в Exchange Online и Office 365:
 
 - [Обнаружение электронных](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) данных на месте и [удержание на месте](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) в центре администрирования Exchange.
 

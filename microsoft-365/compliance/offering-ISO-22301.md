@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 08f05939e6cd4ebdff81fb2fd2fda47bac05e882
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 0c3898fd808a588578cba29f7f40b8d5be183e1c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260037"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602266"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 Стандарт управления непрерывностью бизнеса
 
@@ -75,7 +77,7 @@ ISO 22301 - это сертификация, используемая предп
 - [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Описание программы по обеспечению управления непрерывностью бизнеса, предоставляемое корпорацией Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2092212)
-- [Диспетчер соответствия требованиям](https://go.microsoft.com/fwlink/p/?linkid=2092329)
+- [Рейтинг соответствия требованиям](compliance-score.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения

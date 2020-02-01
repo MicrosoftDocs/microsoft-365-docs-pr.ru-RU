@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f5627194ad21b73cae664c808d2bba9f4254d8b5
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 1b850db09306f3cb4664433fb5659e8b65b421ba
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805252"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602556"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>Дополнительные средства для защиты от ненормативного приобретения (ДФАРС)
 
@@ -33,7 +35,7 @@ ms.locfileid: "40805252"
   
 Узнайте, как ускорить развертывание ДФАРС с помощью нашего плана безопасности и соответствия требованиям Azure: [Скачайте проект Azure — схема обязанностей клиентов дфарс](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=7ed1b47c-b180-4323-9aec-21712d54b167&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Покрываемые службы для уровня влияния на вызов по требованию 5
 

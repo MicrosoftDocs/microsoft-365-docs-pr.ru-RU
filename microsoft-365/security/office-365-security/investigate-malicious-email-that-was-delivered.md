@@ -1,6 +1,8 @@
 ---
 title: Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365
 keywords: Тимаилдата — встроенный, инцидент безопасности, инцидент, пакет ATP PowerShell, вредоносные программы электронной почты, скомпрометированные пользователи, фишинг электронной почты, вредоносные программы электронной почты, чтение заголовков электронной почты, чтение заголовков, открытые заголовки сообщений
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: f2eadfaf23c4485e6b50b6550f0a884690a79548
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 77a0c3e23413a31f2d87d5bf19216edec40a305c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572986"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599146"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365
 

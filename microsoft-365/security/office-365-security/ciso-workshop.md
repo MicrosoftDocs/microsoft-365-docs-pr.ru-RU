@@ -1,5 +1,7 @@
 ---
 title: Семинар по информационному директоре по безопасности (ЦИСО)
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 9a6fc72cd905a99b555417269aa9f7ec84faef1f
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 7377eb0bedf86e69618a82a05a7f048cc9b1cde7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012424"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599656"
 ---
 # <a name="chief-information-security-officer-ciso-workshop-training"></a>Обучение руководителю информационной безопасности (ЦИСО) для семинара
 
@@ -38,4 +40,4 @@ ms.locfileid: "38012424"
 
 - [Module 4b: стратегия защиты от угроз, часть II](ciso-workshop-module-4b.md): Этот модуль просматривает развитие и Тражектори в центре управления безопасностью (SoC), на платформе триллионс сигналов на интеллектуальном графике безопасности Майкрософт.
 
-- [Модуль 5: Information Protection](ciso-workshop-module-5.md): Узнайте, как защищать конфиденциальные данные в любом месте с помощью автоматической классификации, постоянного шифрования на устройствах и непрерывного мониторинга данных на мобильных устройствах, облачных службах и других корпоративные ресурсы.
+- [Module 5: Information Protection](ciso-workshop-module-5.md): Узнайте, как защищать конфиденциальные данные в любом месте с помощью автоматической классификации, постоянного шифрования на устройствах и непрерывного мониторинга данных на мобильных устройствах, облачных службах и других корпоративных ресурсах.

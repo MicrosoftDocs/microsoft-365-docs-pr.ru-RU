@@ -1,5 +1,7 @@
 ---
 title: Технические сведения о шифровании в Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Ознакомьтесь с техническими сведениями о енциптион в Office 365.
-ms.openlocfilehash: b21409007b82490730aa48f403c30e542ead0316
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a1eaa10f35a70688bc26967b7344cd90b2ad8343
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687385"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601396"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Технические сведения о шифровании в Office 365
 
@@ -96,7 +98,7 @@ ms.locfileid: "38687385"
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 [Комплекты шифров TLS в Windows 10 v1607](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-10-v1607)
 
 [Шифрование в Office 365](encryption.md)

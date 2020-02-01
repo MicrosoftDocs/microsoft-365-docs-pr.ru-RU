@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ec81552de43d2e67a4987b0efbaf5582be26e40
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3b1f93b301ba4db44b7260ae588688acf648e345
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804452"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602146"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>Министерство электроники и информационных технологий (Меити)
 
@@ -39,7 +41,7 @@ ms.locfileid: "40804452"
 
 Меити аккредитацию корпорации Майкрософт является следствием тщательного аудита, проведенного в ходе стандартизации и сертификации качества (СТКК) радиотехническое, правительственной организации, предоставляющей услуги по контролю качества, с помощью оценочной платформы на основе работы облачной инициативы Мегхраж. С помощью Microsoft Azure организации государственного сектора теперь могут рисовать на широком диапазоне моделей развертывания и служб, включая инфраструктуру в качестве службы (IaaS), платформы в качестве службы (PaaS), аварийного восстановления, DevOps и управляемого резервного копирования.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)

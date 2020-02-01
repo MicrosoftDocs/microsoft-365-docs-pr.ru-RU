@@ -1,5 +1,7 @@
 ---
 title: Атрибуты для политик информационных барьеров
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве справки по различным атрибутам, которые можно использовать в политиках барьера информации.
-ms.openlocfilehash: 12acaa4fb8d6bcd6c660381b172703bd178af81f
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: ff7b6e22370c086f6b685fce4de8b61396017bf9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970787"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600626"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Атрибуты для политик информационных барьеров
 
@@ -50,7 +52,7 @@ ms.locfileid: "40970787"
     > [!TIP]
     > При определении сегментов используйте один и тот же атрибут для всех сегментов. Например, если вы определили некоторые сегменты с помощью *отдела*, определите все сегменты с помощью *отдела*. Не определяйте некоторые сегменты, используя *Отдел* и другие, используя *MemberOf*. Убедитесь, что сегменты не перекрываются; Каждый пользователь должен быть назначен только одному сегменту. 
 
-## <a name="reference"></a>Справка
+## <a name="reference"></a>Справочник
 
 В следующей таблице перечислены атрибуты, которые можно использовать с барьерами информации.
 

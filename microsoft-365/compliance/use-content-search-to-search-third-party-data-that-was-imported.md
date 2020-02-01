@@ -1,5 +1,7 @@
 ---
 title: Поиск данных сторонних поставщиков, импортированных в Office 365, с помощью поиска контента
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Воспользуйтесь средством поиска обнаружения электронных данных поиска контента для поиска элементов, импортированных в почтовые ящики в Office 365, из стороннего источника данных. Можно создать запрос для поиска всех импортированных элементов или создать запрос для поиска определенных типов данных третьих сторон. В этой статье перечислены значения, которые можно использовать в запросе с ключевыми словами для поиска в сторонних типах данных, которые можно импортировать в Office 365.
-ms.openlocfilehash: 57a39049ae1df3707a96311c9138195b7cc4c83a
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 005290dc2dae203c4fddc1c78d3007306c613483
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687559"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601326"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-to-office-365"></a>Поиск данных сторонних поставщиков, импортированных в Office 365, с помощью поиска контента
 

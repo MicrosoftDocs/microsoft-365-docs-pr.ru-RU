@@ -1,5 +1,7 @@
 ---
 title: Разработка изолированного сайта группы SharePoint Online
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Сводка. Пошаговое руководство по разработке изолированных сайтов групп SharePoint Online.
-ms.openlocfilehash: 671baadb3f7226be8c9919874f62cee576f7d294
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 345a5fa5dcdcf2a3e61fdd6f1f346d46afe3fd5f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091131"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599476"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Разработка изолированного сайта группы SharePoint Online
 
@@ -128,7 +130,7 @@ ms.locfileid: "37091131"
   
 Так как все учетные записи пользователей в группах "исследование", "Проектирование" и "руководители проектов" предназначены для участников сайта, проще добавить свои группы Azure AD в группу доступа к участникам ProjectX.
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 Сведения о создании и настройке изолированного сайта в рабочей среде см. в статье [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md).
   

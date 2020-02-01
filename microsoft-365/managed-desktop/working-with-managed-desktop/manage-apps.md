@@ -4,16 +4,18 @@ description: Сведения об обновлении бизнес-прило�
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7aca4713aae189e39133e08a1fbcad6fd75e6a70
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: 1a6b91ab5b4523f4b980dab0c25af41a9d614189
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813859"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600686"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Управление бизнес-приложениями на настольных компьютерах, управляемых Майкрософт
 

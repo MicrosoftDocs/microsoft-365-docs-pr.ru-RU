@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3380ee774388700fd8eca255a805b5595f1c9cda
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 7b6489f146da3268190a5c56fda6a73ea0e0d151
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959607"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602346"
 ---
 # <a name="general-data-protection-regulation-gdpr"></a>Общий регламент по защите данных (GDPR)
 
@@ -37,7 +39,7 @@ ms.locfileid: "40959607"
 
 ### <a name="abrona-prepares-for-gdpr-with-microsoft-365"></a>Abrona готовится к GDPR с помощью Microsoft 365
 
-Узнайте, как нидерландская организация Abrona, работающая в сфере здравоохранения, использует технологии Майкрософт, такие как Диспетчер соответствия требованиям и Azure Information Protection, для подготовки к введению GDPR.
+Узнайте, как нидерландская организация Abrona, работающая в сфере здравоохранения, использует технологии Майкрософт, такие как рейтинг соответствия требованиям и Azure Information Protection, для подготовки к введению GDPR.
 
 [Посмотреть](https://go.microsoft.com/fwlink/p/?linkid=2048705)
 
@@ -64,9 +66,9 @@ ms.locfileid: "40959607"
 
 [Подробнее](offering-iso-27701.md)
 
-### <a name="compliance-manager"></a>Диспетчер соответствия требованиям
+### <a name="compliance-score"></a>Рейтинг соответствия требованиям
 
-Используйте [диспетчер соответствия требованиям](https://go.microsoft.com/fwlink/p/?linkid=2048390) для текущей оценки рисков, получения действенных аналитических данных и упрощения процедур соблюдения требований.
+Используйте [рейтинг соответствия требованиям](compliance-score.md) для текущей оценки рисков, получения действенных аналитических данных и упрощения процедур соблюдения требований.
 
 ### <a name="microsoft-365-compliance-center"></a>Центр соответствия требованиям Microsoft 365
 

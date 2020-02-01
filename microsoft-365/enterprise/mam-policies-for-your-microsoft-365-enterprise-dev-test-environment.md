@@ -1,5 +1,7 @@
 ---
 title: Политики соответствия требованиям устройств для тестовой среды Microsoft 365 корпоративный
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для добавления политик соответствия требованиям к устройствам Intune в тестовую среду Microsoft 365 Enterprise.
-ms.openlocfilehash: 8a746f99e16444527c44267eddbaec9f5e5156eb
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f5d258dd9b4e0ff8799534cce64818a7fdaf663e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801634"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600906"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Политики соответствия требованиям устройств для тестовой среды Microsoft 365 корпоративный
 
@@ -25,7 +27,7 @@ ms.locfileid: "40801634"
 
 С помощью инструкций, описанных в этой статье, вы добавите политику соответствия требованиям для устройств Intune для устройств с Windows 10 и Office 365 профессиональный плюс в тестовую среду Microsoft 365 Enterprise.
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -91,7 +93,7 @@ ms.locfileid: "40801634"
 
 Теперь у вас есть политика соответствия требованиям устройств для тестирования выбранных приложений в политике соответствия требованиям устройств для **Windows 10** и для членов группы **управляемых пользователей устройств Windows 10** . Обратите внимание, что при выборе пункта Office 365 в качестве типа группы будут созданы дополнительные ресурсы. 
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 Узнайте о дополнительных возможностях и возможностях [управления мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) в тестовой среде.
 

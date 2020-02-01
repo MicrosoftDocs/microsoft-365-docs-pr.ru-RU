@@ -1,5 +1,7 @@
 ---
 title: Включение надстройки Report Message
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: bb01d7d2bf4992e6d0e7ed2a01ef0a689e25fc22
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 77fa9c2766ee1e2392ad9ea962a43f4779238209
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112243"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599466"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки Report Message
 
@@ -182,7 +184,7 @@ ms.locfileid: "41112243"
 
    ![Параметры для надстройки сообщений отчета](../media/EditReportMessageAddIn.png)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Использование надстройки "сообщение отчета"](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 

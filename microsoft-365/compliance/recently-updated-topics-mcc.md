@@ -1,5 +1,7 @@
 ---
 title: Новые возможности центра соответствия требованиям Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: brendonb
 author: brendonb
 manager: laurawi
@@ -16,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Мы постоянно создаем новые статьи, обновляя существующие и внося изменения в соответствии с вашими отзывами. Узнайте о новых возможностях, которые были обновлены в этом месяце.
-ms.openlocfilehash: 61e4798575c44a9759a15bb93dbbb723d5be8999
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: 40ad0249b834eb187fecc34df3e2785e84201eee
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850883"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601656"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 

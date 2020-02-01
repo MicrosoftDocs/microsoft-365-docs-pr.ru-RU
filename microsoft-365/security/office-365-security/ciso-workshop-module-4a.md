@@ -1,5 +1,7 @@
 ---
 title: 'Семинар по информационному директоре по безопасности (ЦИСО), Module 4A: стратегия защиты от угроз'
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: f136f8ccb12ac09048b0b6a9de22ebb37fcc40dd
-ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
+ms.openlocfilehash: 2c08570165f893950dc2588ab33b45be36a3816d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517578"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599696"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4A: стратегия защиты от угроз
 

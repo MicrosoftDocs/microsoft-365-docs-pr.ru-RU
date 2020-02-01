@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Сведения о том, как перенести бизнес-деятельность из Microsoft 365 Business в Microsoft 365 E3.
-ms.openlocfilehash: 2515c2d56727b9a8be643dea76e150eeaadce5c9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 02adda0c2c59d2994b0c6197dd76c6cc893ad9f0
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593698"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41627985"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Миграция с Microsoft 365 бизнес на Microsoft 365 E3
 
@@ -56,7 +56,6 @@ Microsoft 365 Business имеет все необходимое для мало�
 | Teams | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | OneDrive для бизнеса | ограничения на размер хранилища на одного пользователя (1 ТБ)   | Без ограничений | 
 | Yammer, SharePoint Online, планировщик, поток    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
-| StaffHub  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Microsoft 365 E3](./media/check-mark.png) | 
 | Диспетчер клиентов Outlook, Милеик  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | | 
 | **Защита от угроз**     | | | 
 | Возможности сокращения уязвимой зоны | [Просмотреть этот список](#threat-protection) | Корпоративное управление изоляцией на основе оборудования для Microsoft Edge | 

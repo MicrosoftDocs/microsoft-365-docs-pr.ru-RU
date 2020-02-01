@@ -1,5 +1,7 @@
 ---
 title: Трассировка сообщений в Центре безопасности и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Администраторы могут использовать трассировку сообщений в центре безопасности & соответствия требованиям, чтобы узнать, что произошло с сообщениями.
-ms.openlocfilehash: cf0b69d691b3071ee35119f67e389e49ccbb13ad
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 461193bf7278a07de9bec1e3879fecc8fb6d91ea
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558616"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598926"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Трассировка сообщений в Центре безопасности и соответствия требованиям
 

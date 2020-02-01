@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 91f3575934f9007d8570898047f96202f83dc087
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ecd8a362b0e77df846f486b0a424425f012ee68b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804862"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602356"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Правительство для Великобритании (Россия)
 
@@ -39,7 +41,7 @@ ms.locfileid: "40804862"
 
 Узнайте, как ускорить развертывание по принципу G — Cloud V6 для Великобритании с помощью нашего плана безопасности и соответствия требованиям Azure: [скачайте Руководство по реализации принципов внедрения Azure для Великобритании](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Cloud App Security
@@ -70,7 +72,7 @@ ms.locfileid: "40804862"
 - [Риск для облачного остаточного риска Intune UK G](https://aka.ms/IntuneUKGCloudResidualRisk)
 - [Сводка по оценке облачной системы безопасности для Azure UK G](https://aka.ms/IntuneUKGCloudSecurityAssessmentSummary)
 
-### <a name="office-365"></a>Office 365
+### <a name="office-365"></a>Office 365
 
 - [Среда облачного риска Office 365 UK G](https://aka.ms/Office365UKGCloudRiskEnvironment)
 

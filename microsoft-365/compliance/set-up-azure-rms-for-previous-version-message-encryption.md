@@ -1,5 +1,7 @@
 ---
 title: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: Предыдущая версия шифрования сообщений Office 365 зависит от Microsoft Azure Rights Management (ранее известной как Windows Azure Active Directory Rights Management).
-ms.openlocfilehash: a6ba18982a65ff9687374b9e5dc370646817d96d
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: be0fad248465927ee7cc59b31a36e65ce5c053db
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38687413"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601486"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
 
@@ -128,4 +130,4 @@ TPD — это XML-файл, который содержит сведения о
   
 [Техническая справка по шифрованию в Office 365](technical-reference-details-about-encryption.md)
   
-[Что такое управление правами Azure?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+[Управление правами Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)

@@ -1,5 +1,7 @@
 ---
 title: Управление расписаниями для нескольких отчетов в центре &amp; безопасности и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: Сведения о том, как просматривать, редактировать и управлять расписаниями для отчетов в &amp; центре безопасности и соответствия требованиям.
-ms.openlocfilehash: d9858de4d51653a44eb310572a1f4ce457210066
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 38fd211a20c86fffc564c8b4fbe86e963da7fe05
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091308"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598936"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>Управление расписаниями для нескольких отчетов в центре &amp; безопасности и соответствия требованиям
 
@@ -30,7 +32,7 @@ ms.locfileid: "37091308"
   
 ![В центре безопасности &amp; и соответствия требованиям выберите отчеты \> Управление расписаниями](../media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
 
-1. Перейдите на [https://protection.office.com](https://protection.office.com) страницу и войдите в нее. Откроется Центр безопасности & соответствия требованиям.
+1. Перейдите на страницу [https://protection.office.com](https://protection.office.com) и войдите. Откроется Центр безопасности & соответствия требованиям.
 
 2. В центре безопасности &amp; и соответствия требованиям выберите **отчеты** \> **Управление расписаниями**.
     
@@ -40,7 +42,7 @@ ms.locfileid: "37091308"
     
 5. При необходимости измените или удалите расписание, а затем нажмите кнопку **Закрыть**.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

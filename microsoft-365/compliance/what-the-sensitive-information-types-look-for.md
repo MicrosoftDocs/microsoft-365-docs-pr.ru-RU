@@ -1,5 +1,7 @@
 ---
 title: Что позволяют искать типы конфиденциальной информации
+f1.keywords:
+- CSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 9c3111069ff30784af5fe781200de5e770c79066
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: efd5d2f8003bd79620118a6a058576e5593699b1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38687600"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601216"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -5389,7 +5391,7 @@ Keyword_nz_terms
 - Resident Cert. 
 - Identification card 
 - Alien Resident Certificate 
-- ГИПЕРБОЛ 
+- ARC 
 - Taiwan Area Resident Certificate 
 - TARC 
 - 居留證 

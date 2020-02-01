@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 915e70065e6efb05424c710bb3e8a98902857c6c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5bbc8e8e39e28a020864d705489d704acd0c012b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804252"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602066"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Правила для ценных бумаг и Комиссии Exchange (с) правило 17A-4 (f), Соединенные Штаты
 
@@ -40,7 +42,7 @@ ms.locfileid: "40804252"
 - **Azure**: [SEC 17A-4 (f) Оценка соответствия требованиям: служба хранилища Microsoft Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Кохассет проверила, что [неизменное хранилище больших двоичных объектов Azure](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) с параметром Lock политики, при использовании для хранения больших двоичных объектов на основе времени в неудаляемом и неизменяемом (Worm) формате, соответствует неизменяемым требованиям к хранению правила sec. Каждый BLOB-объект (запись) защищен от изменений, перезаписывается или удаляется до истечения срока действия требуемого периода хранения и освобождения всех связанных юридических удержаний. Поставщики программного обеспечения и партнеры с конфиденциальными рабочими нагрузками теперь могут полагаться на неизменное хранилище больших двоичных объектов Azure в качестве облачного решения онестоп для хранения записей и неизменяемого хранилища. Теперь финансовые учреждения могут создавать собственные приложения, используя преимущества этих функций, в то же время обеспечивая их соответствие требованиям.
 - **Office 365**: [Используйте Exchange Online для согласования с 17A-4](https://docs.microsoft.com/office365/securitycompliance/use-exchange-online-to-comply-with-sec-rule-17a-4), Кохассет проверено [, что Office 365 с блокировкой сохранения](https://docs.microsoft.com/office365/securitycompliance/retention-policies#locking-a-retention-policy) включает функции архивации, которые позволяют поднадзорным клиентам, в том числе брокерам брокера, хранить данные способом, которые помогают им соответствовать требованиям к хранению записей. Политики хранения в Office 365 помогают сохранить широкий спектр данных, в том числе электронную почту, голосовую почту, Общие документы, мгновенные сообщения и сторонние данные. В частности, архивация в Office 365 позволяет клиентам задавать глобальные политики хранения сообщений для хранения данных за определенный период, а не в неизменяемом формате без удаления.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)

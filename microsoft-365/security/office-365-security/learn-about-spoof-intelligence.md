@@ -1,5 +1,7 @@
 ---
 title: Дополнительные сведения об анализе подделок
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Используйте аналитику подделки в &amp; центре безопасности и соответствия требованиям на странице Параметры защиты от нежелательной почты, чтобы просмотреть всех отправителей, которые подделывать домены, являющиеся частью Организации, или подменить внешние домены. Аналитика подделки доступна в составе Office 365 Enterprise, а также в рамках расширенной защиты от угроз и Exchange Online Protection.
-ms.openlocfilehash: 2f6a68446698747fe31261c7e892c50e6ec5c7f4
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 82b3759290e4cf0024aaf74a066354f46ea3a303
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989494"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599096"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>Дополнительные сведения об анализе подделок
 

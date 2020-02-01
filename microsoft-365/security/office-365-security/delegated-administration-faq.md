@@ -1,5 +1,7 @@
 ---
 title: Вопросы и ответы по делегированному администрированию
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: В этом разделе представлены часто задаваемые вопросы и ответы для партнеров и торговых посредников Майкрософт, которые хотят делегировать задачи администрирования Office 365, в том числе возможность управления службой Exchange Online Protection (EOP) для своих клиентов (компаний).
-ms.openlocfilehash: 4e2548ebe52926e00269615a436662183ec5bd2a
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 2a237da685ae3c3d81c5a0912e15b5e7370e2118
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970755"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599486"
 ---
 # <a name="delegated-administration-faq"></a>Вопросы и ответы по делегированному администрированию
 

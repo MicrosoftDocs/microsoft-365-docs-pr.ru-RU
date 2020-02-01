@@ -1,5 +1,7 @@
 ---
 title: Настройка политики фильтра подключений, списка разрешений, списка блокировок
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: Чтобы убедиться, что электронная почта, отправленная от пользователей, которым вы доверяете, не заблокирована, можно использовать политику фильтра подключений, чтобы создать список разрешенных IP-адресов, который также называется надежным списком отправителей. Вы также можете создать список заблокированных отправителей.
-ms.openlocfilehash: 70bd682fd9cb990f15314be3187e74f5fa4d562c
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: 06915527af68df6a858ca8ed97612ab40178be84
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238426"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599596"
 ---
 # <a name="configure-the-connection-filter-policy"></a>Настройка политики фильтров подключений
 
@@ -48,7 +50,7 @@ ms.locfileid: "41238426"
 
 - Сообщения электронной почты, отправленные с IP-адреса в списке заблокированных IP-адресов, не отмечаются как нежелательные, при этом дополнительная фильтрация не применяется.
 
-- Приведенную ниже процедуру фильтрации подключений можно также выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy), чтобы просматривать параметры, а [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) — чтобы изменять параметры политики фильтрации подключений. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Приведенную ниже процедуру фильтрации подключений можно также выполнить через удаленную оболочку PowerShell. Используйте командлет [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy), чтобы просматривать параметры, а [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) — чтобы изменять параметры политики фильтрации подключений. Сведения об использовании Windows PowerShell для подключения к службе Exchange Online Protection см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell). Сведения о том, как с помощью Windows PowerShell подключаться к Exchange Online, см. в статье [Подключение к PowerShell для Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 ## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>Изменение политики фильтров подключений по умолчанию с помощью Центра администрирования Exchange
 

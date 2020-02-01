@@ -1,5 +1,7 @@
 ---
 title: Устранение проблем с информационными барьерами
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве руководства по устранению проблем со сведениями.
-ms.openlocfilehash: 07c3c6fc12ec1b288ae9499715ddadb21764f6ef
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: b4c9bb46bc1e3c13cdc8b46a95733558714a44df
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970807"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600596"
 ---
 # <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
@@ -144,7 +146,7 @@ ms.locfileid: "40970807"
 
 2. В зависимости от результатов предыдущего действия выполните одно из указанных ниже действий.
   
-    |Состояние  |Дальнейшие действия  |
+    |Status  |Следующий шаг  |
     |---------|---------|
     |**Не запущено**.     |Если после выполнения командлета **Start – информатионбарриерполиЦиесаппликатион** использовался более 45 минут, просмотрите журнал аудита, чтобы проверить наличие ошибок в определениях политик, или причину, по которой приложение не запущено. |
     |**Не удалось выполнить**     |Если произошел сбой приложения, просмотрите журнал аудита. Кроме того, проверьте сегменты и политики. Все пользователи назначены нескольким сегментам? Все сегменты назначены более чем одному полиици? При необходимости [измените сегменты](information-barriers-edit-segments-policies.md#edit-a-segment) и/или [измените политики](information-barriers-edit-segments-policies.md#edit-a-policy), а затем снова запустите командлет **Start-информатионбарриерполиЦиесаппликатион** .  |
@@ -162,7 +164,7 @@ ms.locfileid: "40970807"
 
 2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/get-addressbookpolicy?view=exchange-ps) и просмотрите результаты.
 
-    |Результаты  |Дальнейшие действия  |
+    |Результаты  |Следующий шаг  |
     |---------|---------|
     |Политики адресных книг Exchange перечислены     |[Удаление политик адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy)         |
     |Политика адресных книг не существует |Просмотрите журналы аудита, чтобы выяснить причину сбоя приложения политики |

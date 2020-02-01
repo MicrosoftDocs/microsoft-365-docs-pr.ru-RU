@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a7967a4bd12f98f3654f2b5006568c868a7e134f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 070ec3977768d131e4e4d9c2f493e630a1a707c9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804022"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601896"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -40,7 +42,7 @@ NIST SP 800 – 171 изначально был опубликован в июн
 
 Любая сущность, которая обрабатывает или хранит США CUI — исследовательские учреждения, консалтинговые компании, производственные подрядчики, должны соответствовать строгим требованиям NIST SP 800 – 171. Эта аттестация означает, что облачные службы Майкрософт находятся в облачных службах, которые хотят развертывать рабочие нагрузки CUI с гарантией, что Майкрософт полностью соответствует требованиям. Например, все подрядчики DoD, которые обрабатывают, хранят или передают сведения о защите от использования облачных служб Майкрософт в информационных системах, соответствуют требованиям к защите ДФАРС, требующим соответствия требованиям безопасности. требования для NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)

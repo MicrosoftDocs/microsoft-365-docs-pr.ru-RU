@@ -1,5 +1,7 @@
 ---
 title: Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Компания Cohasset Associates убедилась, что при рекомендованной настройке Exchange Online и Центра безопасности и соответствия требованиям соблюдаются соответствующие требования к хранилищам согласно правилу CFTC 1.31 (пункты c и d), правилу FINRA 4511 и правилу SEC 17a-4. Вы можете скачать данную оценку.
-ms.openlocfilehash: 33db33589df60b52c4598c52d593b9a6fe4c9c10
-ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
+ms.openlocfilehash: dc61521043d176781c2a6fbd9e1b283cc93eb270
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41122428"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628595"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
 
@@ -67,6 +69,8 @@ ms.locfileid: "41122428"
 
 В настоящее время существует несколько ограничений для Exchange Online:
 
-- Аудит на уровне элементов недоступен в почтовых ящиках групп Office 365.
 - Сообщения в чатах и каналах Teams нельзя объединить в цепочки.
 - Отметки "Мне нравится" не сохраняются для сообщений в чатах и каналах Teams.
+
+> [!NOTE]
+> Аудит на уровне элементов теперь доступен в почтовых ящиках групп Office 365. Дополнительные сведения см. в статье [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md).

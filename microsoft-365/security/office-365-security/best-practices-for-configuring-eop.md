@@ -1,5 +1,7 @@
 ---
 title: Рекомендации по настройке EOP и Office 365 ATP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для Exchange Online Protection (EOP), чтобы избежать распространенных ошибок конфигурации и успешно выполнить поставленные задачи.
-ms.openlocfilehash: 3146cb9a5141dfe87e9f31791c107be296121126
-ms.sourcegitcommit: e27fe0d97b9c446b1cc80561f7190d08c12d9e0c
+ms.openlocfilehash: 053b5f551be528e7eedb3c218bb1e49ab6b8be91
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39262702"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599746"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Рекомендации по настройке EOP и Office 365 ATP
 
@@ -37,7 +39,7 @@ ms.locfileid: "39262702"
 
 Эти параметры охватывают ряд функций, которые выходят за пределы политик безопасности.
 
-Имя компонента безопасности|Standard|Жестк|Комментарий|
+Имя компонента безопасности|Standard|Жестк|Comment|
 |---------|---------|---------|---------|
 |[Настройка SPF в Office 365 для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||

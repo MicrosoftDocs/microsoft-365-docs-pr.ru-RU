@@ -5,6 +5,8 @@ keywords: Microsoft 365, M365, защита от угроз Майкрософт
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: lomayor
 author: lomayor
 manager: dansimp
@@ -12,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: c2bb0b088a40511eea36348d39790fd5e88fa40b
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 9f647ba306215d20d6fb1d0c7dbfd8d3b96fb909
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210164"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600246"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Поиск угроз в Microsoft 365
 
@@ -33,7 +35,7 @@ ms.locfileid: "41210164"
 
 [Включите защиту от угроз Майкрософт](mtp-enable.md) , чтобы получить расширенный интерфейс запросов поиска непосредственно в центре безопасности Microsoft 365. С помощью [расширенного](advanced-hunting-overview.md)поиска вы можете создавать отдельные запросы, которые проверяют данные из пакета ATP для защитника Майкрософт, покрывающие данные с подключенных устройств и Office 365 ATP, предоставляя данные из электронных писем.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные статьи
 - [Общие сведения о расширенном поиске](advanced-hunting-overview.md)
 - [Обзор Защиты от угроз (Майкрософт)](microsoft-threat-protection.md)
 - [Включение Защиты от угроз (Майкрософт)](mtp-enable.md)

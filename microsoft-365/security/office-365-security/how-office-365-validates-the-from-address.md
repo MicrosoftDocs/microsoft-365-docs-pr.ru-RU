@@ -1,5 +1,7 @@
 ---
 title: Как Office 365 проверяет адрес отправителя для предотвращения фишинга
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyp
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
 description: Чтобы защититься от фишинга, Office 365 и Outlook.com теперь требуют соответствия требованиям RFC для адресов:.
-ms.openlocfilehash: 5805ca41243603ef4f58bbf39c8ddb38e5a9aa01
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 6459faa22f29017568747b84bbd2935aad6763d1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871835"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599186"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Как Office 365 проверяет адрес отправителя для предотвращения фишинга
 
@@ -121,7 +123,7 @@ From: "Office 365" <sender@contoso.com> (Sent by a process)
 
 Для: адреса, включающие значение для отображаемого имени, применяются следующие правила.
 
-- Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки. Например:
+- Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки. Пример:
 
     Приведенный ниже пример является допустимым:
 

@@ -1,5 +1,7 @@
 ---
 title: Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как устранить проблемы с сообщением об ошибке с кодом 5.7.7 XX в Exchange Online (клиент заблокирован от отправки почты).
-ms.openlocfilehash: 4e82df78cfb83865142defb14cec0841ab29ba95
-ms.sourcegitcommit: 55cb11c2475f40d0f1c64cf45446bf383d7d5f86
+ms.openlocfilehash: e8e134793db946ddfc3ef09d0adc19b2a04df30b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002979"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599286"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Устранение проблем с доставкой электронной почты для кода ошибки 5.7.7 XX в Exchange Online
 
@@ -35,7 +37,7 @@ ms.locfileid: "41002979"
 
 ## <a name="57750-unregistered-domain-email-restriction-what-you-need-to-know"></a>5.7.750: незарегистрированные ограничения электронной почты домена: что нужно знать
 
-Office 365 позволяет клиентам ретранслировать некоторые сообщения через Exchange Online Protection (EOP). Например:
+Office 365 позволяет клиентам ретранслировать некоторые сообщения через Exchange Online Protection (EOP). Пример:
 
 - Почтовый ящик Office 365 получает электронную почту от внешнего отправителя. Переадресация почты настраивается в почтовом ящике Office 365, поэтому сообщение возвращается на внешний адрес электронной почты пользователя. Этот сценарий чаще всего используется в средах образования, в которых студенты хотят использовать свои личные учетные записи электронной почты для просмотра сообщений, относящихся к учебным заведениям.
 

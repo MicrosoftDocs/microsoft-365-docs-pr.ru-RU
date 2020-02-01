@@ -1,5 +1,7 @@
 ---
 title: Общие сведения о барьерах
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте информационные барьеры, чтобы обеспечить соответствие требованиям, используя Microsoft Teams в вашей организации.
-ms.openlocfilehash: 352f101a443b015840b09b82626f7dbee9cfb79e
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 95d3268830fe506000416e2281a49325fb95efec
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970837"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600666"
 ---
 # <a name="information-barriers"></a>Информационные барьеры
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Облачные службы Майкрософт включают мощные возможности общения и совместной работы. Однако предположим, что вы хотите ограничить связь между двумя группами, чтобы избежать конфликта интересов в вашей организации. Или, возможно, вы хотите ограничить связь между определенными пользователями в Организации, чтобы защитить внутреннюю информацию. Microsoft 365 обеспечивает взаимодействие и совместную работу между группами и организациями, поэтому существует ли способ ограничения взаимодействия между определенными группами пользователей, когда это необходимо? С помощью информационных барьеров вы можете! 
 

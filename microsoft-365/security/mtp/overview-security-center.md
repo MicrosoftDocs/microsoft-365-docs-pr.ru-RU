@@ -5,6 +5,8 @@ keywords: безопасность, вредоносные программы, M
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: ellevin
 author: levinec
 manager: dansimp
@@ -12,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e58ceb29693fbf950ba64c267332cf2b3efcadc0
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 9d701091cd6c93c78674a3676a9880a8b9296a54
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909978"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600486"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
 
@@ -52,7 +54,7 @@ ms.locfileid: "39909978"
 * **Политики**. Настройка политик для управления устройствами, защиты от угроз и получения оповещений о различных действиях в вашей организации.
 * **Разрешения**. Управление доступом сотрудников вашей организации к Центру безопасности Microsoft 365 для просмотра содержимого и выполнения задач. Разрешения для Microsoft 365 можно также назначить на портале Azure AD.
 
-## <a name="learn-more"></a>Дополнительные сведения 
+## <a name="learn-more"></a>Подробнее 
 
 Изучите следующие разделы о мониторинге, проверке и реагировании на ваши требования к безопасности.
 - Подключение точек на оповещениях через [инциденты](incident-queue.md)

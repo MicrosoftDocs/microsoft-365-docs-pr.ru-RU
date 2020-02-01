@@ -61,7 +61,7 @@
           href: information-barriers-troubleshooting.md
         - name: Изменение политик информационных барьеров
           href: information-barriers-edit-segments-policies.md
-    - name: Управление привилегированным доступом
+    - name: управление привилегированным доступом;
       items:
         - name: Подробнее об управлении привилегированным доступом
           href: privileged-access-management-overview.md
@@ -787,7 +787,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-arc-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-arc-office365.md
         - name: Защита информации
           href: gdpr-information-protection.md
@@ -805,7 +805,7 @@
               href: gdpr-dsr-intune.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dsr-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dsr-office365.md
             - name: Семейство Visual Studio
               href: gdpr-dsr-visual-studio-family.md
@@ -817,7 +817,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-breach-office365.md
         - name: Оценка влияния на защиту данных
           items:
@@ -829,7 +829,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dpia-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dpia-office365.md
         - name: Специалист по защите данных корпорации Майкрософт
           href: gdpr-data-protection-officer.md
@@ -1088,6 +1088,8 @@
               href: 'https://aka.ms/TRUCS-Compliance'
         - name: Австралия и Тихоокеанский регион
           items:
+            - name: APRA (Австралия)
+              href: offering-APRA-Australia.md
             - name: ИРАП/CCSL (Австралия)
               href: offering-CCSL-IRAP-Australia.md
             - name: Платформа NZ CC (Новая Зеландия)

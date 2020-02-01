@@ -1,5 +1,7 @@
 ---
 title: Расширенные параметры фильтрации нежелательной почты
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
 description: Параметры расширенной фильтрации нежелательной почты позволяют администраторам проверять различные атрибуты содержимого сообщения. Присутствие этих атрибутов в сообщении увеличивает рейтинг нежелательной почты для сообщения (повышая вероятность того, что оно будет идентифицировано как нежелательное) или помечает сообщение как нежелательное. Параметры ASF учитывают определенные свойства сообщения, такие как HTML-теги и перенаправление URL-адреса, которые часто используются в нежелательных сообщениях.
-ms.openlocfilehash: bfb559ece8a69f0d641cdb2ad552d7e831eda416
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 07f2b32dac6ba4a04fbccac5f015be399f62e254
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793703"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599966"
 ---
 # <a name="advanced-spam-filtering-options"></a>Расширенные параметры фильтрации нежелательной почты
 

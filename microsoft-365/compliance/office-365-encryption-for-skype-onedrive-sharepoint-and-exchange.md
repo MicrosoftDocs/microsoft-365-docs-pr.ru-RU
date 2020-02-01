@@ -1,5 +1,7 @@
 ---
 title: Шифрование Office 365 для Skype, OneDrive, SharePoint и Exchange
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - SPO_Content
 description: 'Сводка: описание шифрования для Skype, OneDrive, SharePoint и Exchange Online.'
-ms.openlocfilehash: 220f3060bd9581b22183bbb56e68c3ec930d0c24
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: cffaab87049f466794706ad6537e663e43d5de91
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38690970"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601846"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Шифрование Office 365 для Skype для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online
 

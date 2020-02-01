@@ -1,5 +1,7 @@
 ---
 title: Пул доставки сообщений с высоким уровнем опасности
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
 description: Если почтовая система клиента скомпрометирована вредоносной программой или спам-атакой и отправляет спам через размещенную службу фильтрации, IP-адреса серверов центра данных Office 365 могут быть занесены в сторонние списки блокировок.
-ms.openlocfilehash: 5b9241dead5b40e9f216ecd3023d6f8b86fb0205
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090054"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599236"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>Пул доставки сообщений с высоким уровнем опасности
 

@@ -1,5 +1,7 @@
 ---
 title: Управление юридическим расследованиям в Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Используйте случаи обнаружения электронных данных в центре безопасности & соответствия требованиям в Office 365 для управления юридическим исследованием Организации. Если у вас есть подписка на "а", вы можете проанализировать данные дела с помощью аналитики текста, машинного обучения и прогнозирования возможностей кодирования расширенного обнаружения электронных данных.
-ms.openlocfilehash: ce476c93e9c33d949c5615f872b8399a97420bba
-ms.sourcegitcommit: 31392b9599f4b4e9981a1278d6beb9f0a2839ecf
+ms.openlocfilehash: f3d51fbd0df6d4bf4c88f5efef53a3c7f11e190c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "38687283"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600536"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Управление юридическим расследованиям в Office 365
 
@@ -52,7 +54,7 @@ ms.locfileid: "38687283"
 
 Для расширенной функции обнаружения электронных данных требуется подписка на каждую организацию Office 365 или Microsoft 365. Кроме того, для пользователей с лицензией E3 необходима Расширенная подписка на надстройку соответствия требованиям, чтобы вы могли управлять ими как custodians в расширенном случае обнаружения электронных данных.
 
-Вот краткий обзор встроенного рабочего процесса в Advanced eDiscovery. Дополнительные сведения см в разделе [Обзор расширенного решения обнаружения электронных данных в Microsoft 365](overview-ediscovery-20.md).
+Вот краткий обзор встроенного рабочего процесса в Advanced eDiscovery. Дополнительные сведения см. в статье [Обзор решения Advanced eDiscovery в Microsoft 365](overview-ediscovery-20.md).
 
 - [Создайте обращение](create-new-ediscovery-case.md) , чтобы начать работу
 

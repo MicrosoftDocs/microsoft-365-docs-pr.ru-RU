@@ -1,5 +1,7 @@
 ---
 title: Работа с партнером для архивации сторонних данных в Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Организация может работать с партнером корпорации Майкрософт, чтобы настроить настраиваемый соединитель для импорта сторонних данных из источников данных, таких как Salesforce chatter;, Yahoo Messenger или Yammer. Это позволяет архивировать данные из сторонних источников данных в Office 365, чтобы можно было использовать функции соответствия требованиям Office 365, такие как юридические удержания, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: 9a1767baadb237196161032166f78c06dc7e099b
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d17c79ed4d6fa662a3416e9952ac732a8d4d9d9f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687591"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601226"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Работа с партнером для архивации сторонних данных в Office 365
 

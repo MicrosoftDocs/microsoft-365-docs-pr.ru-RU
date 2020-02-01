@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4df4d225658c03433384ca85e5e9d15eed5f1ac8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bb7a805fa927756753e3ba09c3dd5eb2998467e7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804822"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602296"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>Публикация службы внутреннего дохода (США) 1075
 
@@ -43,7 +45,7 @@ ms.locfileid: "40804822"
 
 Узнайте о преимуществах IRS 1075 в Microsoft Cloud: Скачайте сведения о средстве [irs 1075](https://aka.ms/irs1075-backgrounder)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Авторизация FedRAMP предоставляется на трех уровнях влияния на правила NIST: низкие, средние и высокие. Эти значения приотносятся к снижению степени конфиденциальности, целостности или доступности, которые могут иметься в Организации: низкие (ограниченные), средние (серьезные неблагоприятные последствия) и высокий (серьезный или разрушительный эффект).
 

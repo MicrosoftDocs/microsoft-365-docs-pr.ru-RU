@@ -1,5 +1,7 @@
 ---
 title: Обнаружение и исправление правил Outlook и внедрений пользовательских форм в Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить правила Outlook и функции внедрения пользовательских форм в Office 365
-ms.openlocfilehash: d5f4a653463f4105df025bf29679465ca5335098
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: c15eeb057d14cbb252bda0767a15e7c4788ece9f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970795"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599446"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365
 
@@ -234,7 +236,7 @@ ms.locfileid: "39970795"
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Защитите Office 365, как профессионал кибербезопасности
 
-Ваша подписка на Office 365 сопровождается целым рядом полезных функций безопасности, которые можно использовать для защиты ваших данных и пользователей. Используйте [план безопасности Office 365 — основные приоритеты в течение первых 30 дней, 90 дней и более поздних](security-roadmap.md) для реализации рекомендуемых рекомендаций по обеспечению безопасности клиента Office 365.
+Ваша подписка на Office 365 сопровождается целым рядом полезных функций безопасности, которые можно использовать для защиты ваших данных и пользователей. Обратитесь к статье [Схема для обеспечения безопасности в Office 365: приоритеты на первые 30 и 90 дней, а также на большее количество дней.](security-roadmap.md) и примените описанные в ней рекомендуемые корпорацией Майкрософт приемы по защите вашего клиента Office 365.
 
 - Задачи для выполнения в первые 30 дней. Они дают немедленный эффект и не создают помех вашим пользователям.
 

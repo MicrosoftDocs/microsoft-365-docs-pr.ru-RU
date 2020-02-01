@@ -1,5 +1,7 @@
 ---
 title: Поиск содержимого в Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: С помощью средства обнаружения электронных данных поиска контента в центре безопасности & соответствия требованиям можно быстро находить электронную почту в почтовых ящиках Exchange, документов на сайтах SharePoint и в папках OneDrive, а также беседах в Skype для бизнеса.
-ms.openlocfilehash: 9978262223de059511a011358764069ef23d4340
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d5acdf5bba50d002876491ee0488c1f28a2c51ad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091000"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601546"
 ---
 # <a name="search-for-content-in-office-365"></a>Поиск содержимого в Office 365
 
@@ -77,7 +79,7 @@ ms.locfileid: "37091000"
 
 Иногда требуется выполнить более сложные, сложные и повторяющиеся задачи поиска контента. В таких случаях проще и быстрее использовать команды PowerShell в центре безопасности & соответствия требованиям. Чтобы упростить эту задачу, мы создали ряд сценариев PowerShell центра безопасности & соответствия требованиям, которые помогут вам выполнить сложные задачи, связанные с поиском контента.
   
-- [Поиск определенных папок почтовых ящиков и сайтов](use-content-search-for-targeted-collections.md) (называемая *целевой коллекцией* ), когда вы уверены, что элементы, реагирующие на обращение, находятся в этой папке. 
+- [Поиск определенных папок почтовых ящиков и сайтов](use-content-search-for-targeted-collections.md) (называемых *целевой коллекцией* ), когда вы уверены, что элементы, реагирующие на обращение, находятся в этой папке. 
     
 - [Поиск списка пользователей в почтовом ящике и хранилище OneDrive](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 
     

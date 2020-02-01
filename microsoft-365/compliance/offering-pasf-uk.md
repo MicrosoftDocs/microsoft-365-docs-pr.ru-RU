@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 476d1b63cfba4c3c9d31fd38c4ad526ca167f7d7
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 292e565064a91d2256dc62831dc1f0957a9b96eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803992"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601876"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>Гарантированно-проверенные средства безопасности (ПАСФ), Соединенное Королевство
 
@@ -35,7 +37,7 @@ ms.locfileid: "40803992"
 
 Эти сертификаты поддерживаются мерами, которые мы предпринимаеми для защиты физической безопасности наших центров обработки данных. Мы припринимаем многоуровневый подход, который начинается с того, как мы разрабатываем, создаем и работающим центрами обработки данных, чтобы строго контролировать физический доступ к областям, в которых хранятся данные клиента. Центры обработки данных, управляемые корпорацией Майкрософт, имеют обширный уровень защиты с утверждением доступа, необходимым на периметре средства, на периметре здания, в здании и на этаже центра обработки данных. Это снижает риск незаконного доступа пользователей к данным и ресурсам центра обработки данных.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)

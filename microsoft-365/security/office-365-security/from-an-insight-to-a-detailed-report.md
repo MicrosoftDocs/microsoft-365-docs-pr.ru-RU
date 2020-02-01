@@ -1,5 +1,7 @@
 ---
 title: Пошаговое руководство. Из аналитики к подробному отчету
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
 ms.collection:
 - M365-security-compliance
 description: В примере защиты от потери данных вы можете узнать, как перейти к подробному отчету в центре соответствия требованиям безопасности &amp; .
-ms.openlocfilehash: f6d080882686329bf3165e5f4cff94cb23b83f38
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 80ef8622abbf35304a9d61ff8730b12a2a6e09e1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090065"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599276"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>Пошаговое руководство. Из аналитики к подробному отчету
 
@@ -42,7 +44,7 @@ ms.locfileid: "37090065"
   
 Таким образом, вы можете легко легко перейти из подробной информации и принять более обоснованные решения относительно защиты от потери данных в Организации.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Пошаговое руководство: из подробного отчета в представление](from-a-detailed-report-to-an-insight.md)
   

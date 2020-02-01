@@ -1,5 +1,7 @@
 ---
 title: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт для просмотра подробных сведений об управлении угрозами.
-ms.openlocfilehash: a4e96615cf0f132a43957a5885b5fb33a5e8f031
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fc2db4c1a3e5b32206ee91cae9f5adbeae4875d4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090029"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599136"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт
 
@@ -55,10 +57,10 @@ ms.locfileid: "37090029"
 5. Включите подключение в центре безопасности защитника Майкрософт.
 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Исследование угроз для Office 365 и ответ на них](office-365-ti.md)
   
-[Office 365 Advanced Threat protection](office-365-atp.md)
+[Office 365 Advanced Threat Protection](office-365-atp.md)
   
 

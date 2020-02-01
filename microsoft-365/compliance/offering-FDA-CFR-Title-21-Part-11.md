@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: adda0e14a5712a4943ee37e029b96aecb0cd7c58
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: fdde59b04c7f52f163028aa7ba4759e226fccb55
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805052"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602456"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Администрирование управления питанием и лекарствами названием CFR 21 часть 11
 
@@ -43,7 +45,7 @@ CFR Title 21 часть 11 устанавливает требования, чт
 
 Узнайте, как ускорить работу с ФДА CFR звание 21 Deployment: [скачайте Руководство по квалификации по Azure ФДА 21](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Несмотря на отсутствие сертификации с названием CFR 21 часть 11, следующие облачные облачные службы Майкрософт перепрошли независимые сторонние средства аудита, которые могут помочь клиентам в обеспечении соответствия требованиям. К этим службам относятся следующие:
 

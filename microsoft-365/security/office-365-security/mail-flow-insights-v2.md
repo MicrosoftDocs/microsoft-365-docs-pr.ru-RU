@@ -1,5 +1,7 @@
 ---
 title: Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут ознакомиться с информационной панелью почтовых ящиков в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: a8bc8dbc2dcd25e3b26b35221cadf9534f9f668b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0e87fde41c78f46aaac55602175a3716ba54fe7b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089999"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599046"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
@@ -22,11 +24,11 @@ ms.locfileid: "37089999"
 
 В панели мониторинга почтовых ящиков доступны подробные сведения, отчеты и графические элементы:
 
-- [Отчет о карте почтового процесса](mfi-mail-flow-map-report.md)
+- [Отчет о карте потока обработки почты](mfi-mail-flow-map-report.md)
 
 - [Анализ состояния почтового процесса домена](mfi-domain-mail-flow-status-insight.md)
 
-- [Отчет по клиентам проверки подлинности SMTP](mfi-smtp-auth-clients-report.md)
+- [Отчет о клиентах проверки подлинности SMTP](mfi-smtp-auth-clients-report.md)
 
 - [Получение сведений о домене отправителя](mfi-sender-domain-insight.md)
 
@@ -42,7 +44,7 @@ ms.locfileid: "37089999"
 
 - [Аналитика почтового цикла](mfi-mail-loop-insight.md)
 
-- [Отображение аналитики правил потока обработки почты](mfi-slow-mail-flow-rules-insight.md)
+- [Анализ правил потока обработки почты при задержках](mfi-slow-mail-flow-rules-insight.md)
 
 ## <a name="permissions-required-to-view-the-mail-flow-dashboard"></a>Разрешения, необходимые для просмотра панели мониторинга для почтового процесса
 

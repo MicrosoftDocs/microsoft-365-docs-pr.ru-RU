@@ -1,5 +1,7 @@
 ---
 title: Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -15,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как настроить расписание для отчета в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 9027663681121d3da048b084790d0f7af0893706
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 743bb0cd71fb4a5c6ce9b875c797ad3ca54d0485
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090440"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599556"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям
 
@@ -67,7 +69,7 @@ ms.locfileid: "37090440"
     
 После создания расписания для отчета этот отчет будет доставлен по электронной почте на адреса электронной почты получателей автоматически. 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

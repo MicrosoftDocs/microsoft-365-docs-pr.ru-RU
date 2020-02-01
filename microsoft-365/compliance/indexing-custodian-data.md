@@ -1,5 +1,7 @@
 ---
 title: Расширенная индексация данных хранителя
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6259d839dd9a0ca196bae37afe374d1d8f21d53
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: 5ab54e84de7434a16bdf7eb7d04fad7b9af05440
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38687437"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600636"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>Расширенная индексация данных хранителя
 
@@ -36,7 +38,7 @@ ms.locfileid: "38687437"
 
 После выполнения расширенного процесса индексирования можно получить сведения о эффективности повторной обработки.  В представлении индексирования хранитель на диаграмме перечислены все элементы, добавленные в *гибридный индекс*.  Гибридный индекс — там, где Advanced eDiscovery сохраняет повторно обработанное содержимое.
 
-На диаграмме также представлено количество элементов, для которых требуется исправление, и еще один график ошибок по типам файлов. Подробнее:
+На диаграмме также представлено количество элементов, для которых требуется исправление, и еще один график ошибок по типам файлов. Дополнительные сведения см. в указанных ниже статьях.
 
 - [Исправление ошибок при обработке данных](error-remediation.md)
 - [Исправление ошибки одного элемента](single-item-error-remediation.md)

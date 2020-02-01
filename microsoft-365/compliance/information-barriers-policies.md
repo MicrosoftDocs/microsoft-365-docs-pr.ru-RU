@@ -1,5 +1,7 @@
 ---
 title: Определение политик информационных барьеров
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
-ms.openlocfilehash: 11195e588a983bb5617dd3f556734074bc0060b0
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 15b17dba38a8e34bebf8d128c669fb7fa1f0ebd1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970847"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600606"
 ---
 # <a name="define-policies-for-information-barriers"></a>Определение политик для барьеров информации
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 С помощью барьеров информации можно определить политики, предназначенные для предотвращения связи определенных сегментов пользователей друг с другом, а также разрешить определенным сегментам взаимодействовать только с определенными другими сегментами. Политики барьера информации помогут вашей организации обеспечить соответствие отраслевым стандартам и нормативам и избежать потенциальных конфликтов интересов. Дополнительные [сведения см.](information-barriers.md) 
 
@@ -54,7 +56,7 @@ ms.locfileid: "40970847"
 |(При необходимости) [Изменение сегмента или политики](information-barriers-edit-segments-policies.md)    |— Изменение сегмента<br/>Изменение или удаление политики<br/>Перезапустите приложение политики повторно.<br/>— Просмотр состояния политики         |
 |(При необходимости) [Устранение неполадок](information-barriers-troubleshooting.md)|— Предпринять действия, если неработаны должным образом|
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые компоненты
 
 В дополнение к [необходимым лицензиям и разрешениям](information-barriers.md#required-licenses-and-permissions)убедитесь, что выполнены следующие требования: 
      
