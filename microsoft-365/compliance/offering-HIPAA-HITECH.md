@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ec30692d5721c316c205cf8b561e59cd6e65e0b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9224261cd0700796bdeccd35b68995c99300e591
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602316"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628096"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -70,7 +70,7 @@ ms.locfileid: "41602316"
 
 Узнайте, как использовать преимущества облака для решений с данными о работоспособности в плане безопасности и соответствия требованиям Azure — данные об исправности HIPAA/HITRUST и AI. Этот проект содержит инструменты и рекомендации, которые помогут вам начать создавать решения HIPAA/HITRUST сегодня.
 
-[Начало использования чертежа Azure HIPAA/HITRUST](https://aka.ms/healthblueprint)
+[Начало использования чертежа Azure HIPAA/HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 

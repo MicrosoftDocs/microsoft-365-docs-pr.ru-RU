@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Организация может работать с партнером корпорации Майкрософт, чтобы настроить настраиваемый соединитель для импорта сторонних данных из источников данных, таких как Salesforce chatter;, Yahoo Messenger или Yammer. Это позволяет архивировать данные из сторонних источников данных в Office 365, чтобы можно было использовать функции соответствия требованиям Office 365, такие как юридические удержания, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: d17c79ed4d6fa662a3416e9952ac732a8d4d9d9f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 01188110b19dc4784920a5f18e673f92e064e034
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601226"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628614"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Работа с партнером для архивации сторонних данных в Office 365
 
@@ -533,7 +533,12 @@ ms.locfileid: "41601226"
 
 Ниже описаны действия, которые необходимо выполнить, чтобы получить доступ и принять запрос на регистрацию соединителя:
 
-1. Перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) и войдите в систему, используя учетные данные глобального администратора Office 365.<br/><br/>Отображается следующее диалоговое окно. Вы можете развернуть символы крышки, чтобы просмотреть разрешения, которые будут назначены соединителю.<br/><br/>![Отображается диалоговое окно запроса разрешений](media/O365-ThirdPartyDataConnector-OptIn1.png)
+1. Перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) и войдите в систему, используя учетные данные глобального администратора Office 365.
+
+   Отображается следующее диалоговое окно. Вы можете развернуть символы крышки, чтобы просмотреть разрешения, которые будут назначены соединителю.
+
+   ![Отображается диалоговое окно запроса разрешений](media/O365-ThirdPartyDataConnector-OptIn1.png)
+
 2. Нажмите кнопку **Принять**.
 
 После принятия запроса отображается [портал Azure](https://portal.azure.com) . Чтобы просмотреть список приложений для вашей организации, щелкните элемент **Azure Active Directory** > **Enterprise Applications**. Сторонний соединитель данных Office 365 указан в колонке **корпоративные приложения** .

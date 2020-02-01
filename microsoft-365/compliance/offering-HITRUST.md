@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: aa93ea90748f4beeb7a6d2ad6f537b098f19376c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 734621d9017c21822043ff8c1beb82044ec8c860
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602306"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628105"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Общая инфраструктура безопасности HITRUST (CSF) для исправности
 
@@ -56,7 +56,7 @@ HITRUST предлагает три уровня гарантии или уро�
 
 Узнайте, как использовать преимущества облака для решений с данными о работоспособности в плане безопасности и соответствия требованиям Azure — данные об исправности HIPAA/HITRUST и AI. Этот проект содержит инструменты и рекомендации, которые помогут вам начать создавать решения HIPAA/HITRUST сегодня.
 
-[Начало использования чертежа Azure HIPAA/HITRUST](https://go.microsoft.com/fwlink/p/?linkid=2100613)
+[Начало использования чертежа Azure HIPAA/HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Ускорение соответствия требованиям HIPAA и HITRUST при использовании Office 365
 
