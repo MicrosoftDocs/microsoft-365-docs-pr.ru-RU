@@ -1,5 +1,7 @@
 ---
 title: Защита рабочих файлов в случае потери или кражи мобильного устройства
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -22,26 +24,26 @@ search.appverid:
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: Сведения о параметрах, доступных для защиты рабочих файлов в случае потери или кражи устройства пользователя.
-ms.openlocfilehash: fe40f04f27b90f97a734e0a761cdbf0bba60ca2c
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 5f137354b51a0151e57e5e109b1ebbb043c68f60
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640508"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593563"
 ---
-# <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a><span data-ttu-id="bb7c6-103">Защита рабочих файлов в случае потери или кражи мобильного устройства</span><span class="sxs-lookup"><span data-stu-id="bb7c6-103">Protect work files when a mobile device is lost or stolen</span></span>
+# <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a><span data-ttu-id="2c2d0-103">Защита рабочих файлов в случае потери или кражи мобильного устройства</span><span class="sxs-lookup"><span data-stu-id="2c2d0-103">Protect work files when a mobile device is lost or stolen</span></span>
 
-<span data-ttu-id="bb7c6-104">Параметры политики защищают устройство, определяя автоматические действия в случае его потери или кражи.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-104">The policy settings determine what happens automatically to protect a device that is lost or stolen.</span></span> <span data-ttu-id="bb7c6-105">Рекомендуется принять значения по умолчанию во время установки, чтобы создать политики приложений для Android, iOS и Windows 10, которые применяются ко всем пользователям.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-105">We recommend that you accept the default values during setup to create application policies for Android, iOS, and Windows 10 that apply to all users.</span></span> <span data-ttu-id="bb7c6-106">По завершении настройки вы сможете создать дополнительные политики.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-106">You can create more policies after setup completes.</span></span>
+<span data-ttu-id="2c2d0-104">Параметры политики защищают устройство, определяя автоматические действия в случае его потери или кражи.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-104">The policy settings determine what happens automatically to protect a device that is lost or stolen.</span></span> <span data-ttu-id="2c2d0-105">Рекомендуется принять значения по умолчанию во время установки, чтобы создать политики приложений для Android, iOS и Windows 10, которые применяются ко всем пользователям.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-105">We recommend that you accept the default values during setup to create application policies for Android, iOS, and Windows 10 that apply to all users.</span></span> <span data-ttu-id="2c2d0-106">По завершении настройки вы сможете создать дополнительные политики.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-106">You can create more policies after setup completes.</span></span>
   
-## <a name="settings-that-protect-work-files"></a><span data-ttu-id="bb7c6-107">Параметры для защиты рабочих файлов</span><span class="sxs-lookup"><span data-stu-id="bb7c6-107">Settings that protect work files</span></span>
+## <a name="settings-that-protect-work-files"></a><span data-ttu-id="2c2d0-107">Параметры для защиты рабочих файлов</span><span class="sxs-lookup"><span data-stu-id="2c2d0-107">Settings that protect work files</span></span>
 
-<span data-ttu-id="bb7c6-108">Для защиты рабочих файлов в случае потери или кражи устройства доступны следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="bb7c6-108">The following settings are available to protect work files if a user's device is lost or stolen:</span></span>
+<span data-ttu-id="2c2d0-108">Для защиты рабочих файлов в случае потери или кражи устройства доступны следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="2c2d0-108">The following settings are available to protect work files if a user's device is lost or stolen:</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bb7c6-109">Setting</span><span class="sxs-lookup"><span data-stu-id="bb7c6-109">Setting</span></span>  <br/> |<span data-ttu-id="bb7c6-110">Описание</span><span class="sxs-lookup"><span data-stu-id="bb7c6-110">Description</span></span>  <br/> |
-|<span data-ttu-id="bb7c6-111">Удалять рабочие файлы с неактивного устройства через указанное количество дней</span><span class="sxs-lookup"><span data-stu-id="bb7c6-111">Delete work files from an inactive device after this many days</span></span>  <br/> |<span data-ttu-id="bb7c6-112">Если устройство не используется в течение указанного количества дней, все рабочие файлы, хранящиеся на устройстве, автоматически удаляются.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-112">If a device isn't used for the number of days that you specify here, any work files stored on the device are automatically deleted.</span></span>  <br/> |
-|<span data-ttu-id="bb7c6-113">Обеспечить принудительное сохранение всех рабочих файлов пользователей в OneDrive для бизнеса</span><span class="sxs-lookup"><span data-stu-id="bb7c6-113">Force users to save all work files to OneDrive for Business</span></span>  <br/> |<span data-ttu-id="bb7c6-114">Если этот параметр включен **, единственным**доступным местом для сохранения рабочих файлов является OneDrive для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-114">If this setting is **On**, the only available save location for work files is OneDrive for Business.</span></span>  <br/> |
-|<span data-ttu-id="bb7c6-115">Шифровать рабочие файлы</span><span class="sxs-lookup"><span data-stu-id="bb7c6-115">Encrypt work files</span></span>  <br/> |<span data-ttu-id="bb7c6-116">Оставьте этот параметр **включенным**, чтобы защитить рабочие файлы с помощью шифрования.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-116">Keep this setting **On** so that work files are protected by encryption.</span></span> <span data-ttu-id="bb7c6-117">Даже если устройство утрачено или украдено, никто из них не сможет прочитать данные вашей компании.</span><span class="sxs-lookup"><span data-stu-id="bb7c6-117">Even if the device is lost or stolen, no one can read your company data.</span></span>  <br/> |
+|<span data-ttu-id="2c2d0-109">Setting</span><span class="sxs-lookup"><span data-stu-id="2c2d0-109">Setting</span></span>  <br/> |<span data-ttu-id="2c2d0-110">Описание</span><span class="sxs-lookup"><span data-stu-id="2c2d0-110">Description</span></span>  <br/> |
+|<span data-ttu-id="2c2d0-111">Удалять рабочие файлы с неактивного устройства через указанное количество дней</span><span class="sxs-lookup"><span data-stu-id="2c2d0-111">Delete work files from an inactive device after this many days</span></span>  <br/> |<span data-ttu-id="2c2d0-112">Если устройство не используется в течение указанного количества дней, все рабочие файлы, хранящиеся на устройстве, автоматически удаляются.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-112">If a device isn't used for the number of days that you specify here, any work files stored on the device are automatically deleted.</span></span>  <br/> |
+|<span data-ttu-id="2c2d0-113">Обеспечить принудительное сохранение всех рабочих файлов пользователей в OneDrive для бизнеса</span><span class="sxs-lookup"><span data-stu-id="2c2d0-113">Force users to save all work files to OneDrive for Business</span></span>  <br/> |<span data-ttu-id="2c2d0-114">Если этот параметр включен **, единственным**доступным местом для сохранения рабочих файлов является OneDrive для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-114">If this setting is **On**, the only available save location for work files is OneDrive for Business.</span></span>  <br/> |
+|<span data-ttu-id="2c2d0-115">Шифровать рабочие файлы</span><span class="sxs-lookup"><span data-stu-id="2c2d0-115">Encrypt work files</span></span>  <br/> |<span data-ttu-id="2c2d0-116">Оставьте этот параметр **включенным**, чтобы защитить рабочие файлы с помощью шифрования.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-116">Keep this setting **On** so that work files are protected by encryption.</span></span> <span data-ttu-id="2c2d0-117">Даже если устройство утрачено или украдено, никто из них не сможет прочитать данные вашей компании.</span><span class="sxs-lookup"><span data-stu-id="2c2d0-117">Even if the device is lost or stolen, no one can read your company data.</span></span>  <br/> |
    
 
