@@ -1,5 +1,7 @@
 ---
 title: Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям безопасности, скомпрометированных пользователей, шифрования, защиты от угроз, обнаруженных вредоносных программ, основных вредоносных программ, обнаружения нежелательной почты, отправленных и полученных сообщений, пользователь сообщил сообщения, сведения о безопасности, обнаружение, данные безопасности, сведения о безопасности
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты по обеспечению безопасности электронной почты для вашей организации. Отчеты о безопасности электронной почты доступны в центре &amp; безопасности и соответствия требованиям.
-ms.openlocfilehash: c44944c8f392b2df8cfe4b9e1741ba4b7ea13382
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 59090e53389b4e95d8987989819e71be6fce61e2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41209954"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598116"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям
 
@@ -231,7 +233,7 @@ ms.locfileid: "41209954"
 
 Если вы не видите данные в отчетах, дважды проверьте правильность настройки политик. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
   
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные статьи
 
 [Защита от спама электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
   

@@ -1,5 +1,7 @@
 ---
 title: Настройка клиента Office 365 для улучшения безопасности
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: В этой статье рассказывается о рекомендуемой настройке параметров на уровне клиента, влияющих на безопасность среды Office 365. Для обеспечения безопасности может потребоваться больше или меньше безопасности. Используйте эти рекомендации в качестве отправной точки.
-ms.openlocfilehash: f5df416b71cd3b4885033786d83160644b6d7b1a
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 01cf10818c83171fbbf30b5ec7f08871f0b9b328
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971457"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598206"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>Настройка клиента Office 365 для улучшения безопасности
 
@@ -126,6 +128,7 @@ Office 365 Secure Score анализирует безопасность орга
 
 В этих статьях и руководствах представлены дополнительные сведения для обеспечения безопасности среды Office 365:
 
-- [Руководство по безопасности Майкрософт для таких кампаний, некоммерческих и других динамических организаций](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance) (эти рекомендации можно использовать в любой среде, особенно в средах с облачными средами).
+- [Руководство по безопасности Майкрософт для таких кампаний, некоммерческих и других динамических организаций](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o) (эти рекомендации можно использовать в любой среде, особенно в средах с облачными средами).
+
 
 - [Рекомендуемые политики и конфигурации безопасности для удостоверений и устройств](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations) (эти рекомендации включают справку для сред AD FS)

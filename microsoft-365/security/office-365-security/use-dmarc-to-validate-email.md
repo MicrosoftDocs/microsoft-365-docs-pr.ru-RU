@@ -1,5 +1,7 @@
 ---
 title: Использование протокола DMARC для проверки электронной почты в Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверить сообщения, отправленные из организации Office 365.
-ms.openlocfilehash: 42238ce7d5129d933b28238f07a9e24ba05ff395
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 88daf311c5c3bdad396044b78476a134f3c814cb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515910"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598096"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>Использование протокола DMARC для проверки электронной почты в Office 365
 

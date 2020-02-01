@@ -1,5 +1,7 @@
 ---
 title: Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Во многих организациях уже есть процесс идентификации и классификации конфиденциальной информации с помощью свойств классификации в инфраструктуре классификации файлов Windows Server (FCI), свойств документа в SharePoint или свойств документа. применяется в сторонней системе. Если это описание организации, вы можете создать политику защиты от потери данных в Office 365, которая распознает свойства, примененные к документам в Windows Server FCI или другой системе, чтобы политика защиты от потери данных могла быть применена к документам Office с определенными FCI или другими значения свойств.
-ms.openlocfilehash: 286a66968727737c906ba24ac900eacd7732276e
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 1ae70571817de1df3a48b38a44da1ed1e3695750
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38687433"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597706"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
 
@@ -129,7 +131,7 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
 > [!CAUTION]
 > [!Внимание!]  Переиндексация сайта может создать большую нагрузку на систему поиска. Не переиндексируюте сайт, если он совершенно не нужен. 
   
-Дополнительные сведения см. в статье [запрос на обход и повторная индексация сайта, библиотеки или списка вручную](https://go.microsoft.com/fwlink/p/?LinkID=627457).
+Дополнительные сведения см. в статье [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](https://go.microsoft.com/fwlink/p/?LinkID=627457).
   
 ### <a name="re-index-a-site-optional"></a>Повторное индексирование сайта (необязательно)
 
@@ -143,8 +145,8 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
     
 - [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md)
     
-- [Отправка уведомлений и отображение подсказок для политик защиты от потери данных](use-notifications-and-policy-tips.md)
+- [Отправка уведомлений и отображение подсказок политик защиты от потери данных](use-notifications-and-policy-tips.md)
     
-- [Что входит в шаблоны политик защиты от потери данных](what-the-dlp-policy-templates-include.md)
+- [Что входит в шаблоны политики защиты от потери данных](what-the-dlp-policy-templates-include.md)
     
 - [Перечень типов конфиденциальной информации](what-the-sensitive-information-types-look-for.md)

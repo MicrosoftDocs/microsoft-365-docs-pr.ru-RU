@@ -1,5 +1,7 @@
 ---
 title: Настройка фильтрации массовых сообщений электронной почты в Exchange Online Protection с помощью правил для обработки почтового процесса
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила обработки почтового ящика в Exchange Online Protection для фильтрации массовых сообщений электронной почты.
-ms.openlocfilehash: 4f53ee482567a3c76acb4ee8ca0ffb10f6f8cca0
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 5188ce077ce15ab7ad5d03e4aa2c172db6a80c37
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866751"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598046"
 ---
 # <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>Настройка фильтрации массовых сообщений электронной почты в Exchange Online Protection с помощью правил для обработки почтового процесса
 
@@ -135,7 +137,7 @@ ms.locfileid: "39866751"
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-[В чем разница между нежелательной почтой и массовыми сообщениями электронной почты?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+[В чем разница между нежелательной почтой и массовой рассылкой?](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 [Уровни жалоб на массовые сообщения](bulk-complaint-level-values.md)
 

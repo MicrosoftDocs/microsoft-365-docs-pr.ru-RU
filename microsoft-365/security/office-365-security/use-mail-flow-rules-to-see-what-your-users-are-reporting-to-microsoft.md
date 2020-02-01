@@ -1,5 +1,7 @@
 ---
 title: Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Вы можете создать правило для почтового процесса Exchange, чтобы пользователи не могли отправлять сообщения электронной почты в корпорацию Майкрософт для анализа и использовать их в собственных процессах безопасности.
-ms.openlocfilehash: 11033b0d4b0ab9da0109fd31907a1537adc09c4d
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 530cc12fd83650f319da3f65e961c925a1de7409
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871295"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598066"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты
 

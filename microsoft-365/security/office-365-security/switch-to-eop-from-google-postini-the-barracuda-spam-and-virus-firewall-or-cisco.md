@@ -1,5 +1,7 @@
 ---
 title: Переход на EOP с Google Postini, Barracuda Spam and Virus Firewall или Cisco IronPort
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: "Задача этого раздела \x97 помочь понять процесс перехода на Exchange Online Protection (EOP) со средств локальной санации электронной почты или облачных служб защиты и рассказать о ресурсах справки, с которых можно начать работу."
-ms.openlocfilehash: c9d8bc73ee6226bececed7d8a4fc66b0eccfa6e1
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: e3877f8093f56a0f978ad915769334678afe26e3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971398"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598216"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Переход на EOP с Google Postini, Barracuda Spam and Virus Firewall или Cisco IronPort
 

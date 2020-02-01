@@ -1,5 +1,7 @@
 ---
 title: Настройка политик защиты от фишинга для Office 365 ATP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -12,12 +14,12 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: Защита от фишинга с полной защитой в составе Office 365 Advanced Threat Protection и Basic Protection в Office 365 Exchange Online Protection поможет защитить организацию от вредоносных атак с фишингом на основе олицетворения. и других фишинговых атак.
-ms.openlocfilehash: 24470c67b4a630205398860b1741b5bf9fe751a7
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 2f57a81451c1bf77399e741752ec2d8ea0577dfe
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572265"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598356"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Настройка защиты от фишинга Office 365 ATP и политик защиты от фишинга
 

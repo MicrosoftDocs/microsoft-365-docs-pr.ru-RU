@@ -1,5 +1,7 @@
 ---
 title: Возврат неактивного почтового ящика в Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: 'Если первый сотрудник возвращается в организацию, или если новый сотрудник применяет ответственность за обязанности сотрудника, вы можете восстановить содержимое неактивного почтового ящика в Office 365. При восстановлении неактивного почтового ящика он преобразуется в новый почтовый ящик, содержащий содержимое неактивного почтового ящика. '
-ms.openlocfilehash: 6589c8b75e7d17720848ed221e9625c77b867503
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 6d375467a4e04b21cf10905009b19fdf7b11a386
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803716"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597646"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Возврат неактивного почтового ящика в Office 365
 

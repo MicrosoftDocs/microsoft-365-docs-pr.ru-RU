@@ -1,5 +1,7 @@
 ---
 title: Использование DKIM для работы с электронной почтой в личном домене в Office 365 (длина ключа 1024 или 2048 бит, пошаговые инструкции, принципы работы, инфраструктура политики отправителей, DMARC)
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: Сводка. В этой статье описано, как обеспечить доверие целевых почтовых систем к сообщениям, отправляемым из личного домена, с помощью технологии DKIM (DomainKeys Identified Mail) в Office 365.
-ms.openlocfilehash: 7861e2c0009b34d558d64a87a44a10cc3c953b3c
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 27a2ba586b3c6d28129115513a3151d1e43903c2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233780"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598106"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM
 

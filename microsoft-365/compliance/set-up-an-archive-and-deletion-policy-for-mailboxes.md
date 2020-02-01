@@ -1,5 +1,7 @@
 ---
 title: Настройка политики архивации и удаления для почтовых ящиков в организации Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: Создание политики архивации и удаления в Office 365, которая автоматически перемещает элементы в архивный почтовый ящик пользователя.
-ms.openlocfilehash: 6da5d9bc180623778925697419f0ca39acee9185
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 23732306abccbbdff654577ff120df8b79b78e6d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967772"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597486"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Настройка политики архивации и удаления для почтовых ящиков в организации Office 365
 

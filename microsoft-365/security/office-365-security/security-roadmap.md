@@ -1,5 +1,7 @@
 ---
 title: План безопасности Office 365 — основные приоритеты для первых 30 дней, 90 дней и более поздних
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Основные рекомендации от группы циберсекурити корпорации Майкрософт для реализации возможностей обеспечения безопасности, защищающих среду Office 365. '
-ms.openlocfilehash: 31dff93deca17fb5ba57ea16724d20a7ae0e187a
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: c668bb736e6d9f788fe2c54e8a49adbfd4156f43
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558646"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598436"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>План безопасности Office 365 — основные приоритеты для первых 30 дней, 90 дней и более поздних
 

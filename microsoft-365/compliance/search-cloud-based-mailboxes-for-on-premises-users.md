@@ -1,5 +1,7 @@
 ---
 title: Поиск в облачных почтовых ящиках для локальных пользователей в Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Используйте средство "поиск контента" в центре безопасности & соответствия требованиям для поиска и экспорта данных MicrosoftTeams чата (которые называются обсуждениями 1xN) для локальных пользователей в гибридном развертывании Exchange.
-ms.openlocfilehash: 5c757ee16232cb0e70b8adf57ab6888fb972368e
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: d59af2e39d91bf107567016428102a5aba9cb724
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676826"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597576"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Поиск в облачных почтовых ящиках для локальных пользователей в Office 365
 

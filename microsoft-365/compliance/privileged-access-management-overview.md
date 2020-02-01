@@ -1,5 +1,7 @@
 ---
 title: Управление привилегированным доступом в Office 365
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: В этом разделе вы найдете дополнительные сведения об управлении привилегированным доступом в Office 365
-ms.openlocfilehash: 9bc2aab9c9758daf35aa14a41d7997a0bff5764f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0c9d8ba22f57c7f6a576f1995e8df92be7478073
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687398"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597736"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Управление привилегированным доступом в Office 365
 
@@ -92,6 +94,6 @@ ms.locfileid: "38687398"
 
 Начните [настраивать организацию для управления привилегированным доступом](privileged-access-management-configuration.md).
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 [Интерактивное руководство: мониторинг и управление задачами администрирования с помощью привилегированного управления доступом](https://content.cloudguides.com/guides/Privileged%20Access%20Management)

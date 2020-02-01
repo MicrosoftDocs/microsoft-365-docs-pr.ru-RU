@@ -1,5 +1,7 @@
 ---
 title: Поиск данных в исследовании
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bcd7f3f38f53ef22fc50823f3d2e3564af333431
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 62d42c29182a81cfa133c5d8863add56aba29be3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089404"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597556"
 ---
 # <a name="search-for-data-in-an-investigation"></a>Поиск данных в исследовании
 
@@ -27,7 +29,7 @@ ms.locfileid: "37089404"
 
 После выполнения поиска вы можете просмотреть статистику элементов, возвращенных в результате поиска, таких как расположения контента, в которых большинство элементов содержали поисковый запрос. Кроме того, можно выполнить предварительный просмотр подмножества результатов. Определив набор документов для дальнейшего изучения, можно добавить результаты поиска в набор свидетельств для дальнейшей обработки и анализа.
 
-## <a name="create-a-search"></a>Create a search
+## <a name="create-a-search"></a>Создание поискового запроса
 
 1. При расследовании перейдите на вкладку **поиски** и нажмите кнопку **создать запрос**. 
 

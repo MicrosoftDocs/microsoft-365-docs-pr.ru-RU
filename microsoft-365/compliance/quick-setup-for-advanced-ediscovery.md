@@ -1,8 +1,11 @@
 ---
 title: Быстрая настройка для Office 365 Advanced eDiscovery
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,23 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Сведения о том, как получать доступ к Office 365 Advanced eDiscovery из Центра безопасности и соответствия требованиям Office 365 и просматривать типичный рабочий процесс для использования Advanced eDiscovery.  '
-ms.openlocfilehash: 6b73177a0bd98dfb0d9e2f9127e682911f82703f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6df2d68639f2be9f6ba38ea7211654058bc73035
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37091004"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597676"
 ---
 # <a name="quick-setup-for-office-365-advanced-ediscovery"></a>Быстрая настройка для Office 365 Advanced eDiscovery
 
+> [!IMPORTANT]
+> Мы продолжаем инвестирование более новых версий Advanced eDiscovery и сообщаем о прекращении поддержки версии Office 365 Advanced eDiscovery (также известной как *Advanced eDiscovery 1.0*). Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+
 Этот раздел о настройках содержит сведения для менеджера обнаружения электронных данных в Центре безопасности и соответствия требованиям Microsoft 365 о том, как начать работу с Advanced eDiscovery. Предполагается, что есть общее представление об обеих службах.
-  
-> [!NOTE]
-> Advanced eDiscovery требует наличия Office 365 E3 с надстройкой Advanced Compliance или подписки на E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Получение доступа к делу в Advanced eDiscovery
 
-Доступ к Advanced eDiscovery можно получить в Центре безопасности и соответствия требованиям Office 365. Но нужно быть участником дела обнаружения электронных данных в Центре безопасности и соответствия требованиям, чтобы получить доступ к этому делу в Advanced eDiscovery. Сведения о предоставлении разрешений в отношении дела обнаружения электронных данных и добавлении пользователей для такого дела см. в статье [Управление делами обнаружения электронных данных в Office 365](manage-ediscovery-cases.md). 
+
+Доступ к Advanced eDiscovery можно получить в Центре безопасности и соответствия требованиям Office 365. Но нужно быть участником дела обнаружения электронных данных в Центре безопасности и соответствия требованиям, чтобы получить доступ к этому делу в Advanced eDiscovery. Сведения о предоставлении разрешений в отношении дела обнаружения электронных данных и добавлении пользователей для такого дела см. в статье [Управление делами обнаружения электронных данных в Office 365](ediscovery-cases.md). 
   
 Чтобы перейти к делу в Advanced eDiscovery: 
   

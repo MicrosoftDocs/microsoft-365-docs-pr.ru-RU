@@ -1,5 +1,7 @@
 ---
 title: Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
-ms.openlocfilehash: 49e29f838fa8fbcd4b0b6eea36e9bbe2d5547a7f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 601549db67d34460f4505941d4f2847a2c8f370b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806742"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598156"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -84,9 +86,9 @@ ms.locfileid: "40806742"
 
 5. В разделе **отправить это оповещение, когда...** выполните следующие действия:
 
-   а) В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
+   а. В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
 
-   б) Оставьте поле **Пользователи** пустым.
+   б. Оставьте поле **Пользователи** пустым.
 
 6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
 
@@ -94,7 +96,7 @@ ms.locfileid: "40806742"
 
 Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям Office 365](../../compliance/create-activity-alerts.md).
 
-## <a name="next-steps"></a>Дальнейшие действия:
+## <a name="next-steps"></a>Дальнейшие действия
 
 1. [Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 

@@ -1,5 +1,7 @@
 ---
 title: Службы для лиц, не являющихся клиентами и отправляющих почту в Office 365
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Чтобы обеспечить доверие пользователю при использовании электронной почты, корпорация Майкрософт разместит различные политики и технологии для защиты пользователей.
-ms.openlocfilehash: f98044b65b49bd9594708ea9e6f798156037ac34
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: f6dc3cdb4ffb20fba1dbaa8d57d5041bf1cdbeae
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871265"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598396"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Службы для лиц, не являющихся клиентами и отправляющих почту в Office 365
 
@@ -38,7 +40,7 @@ ms.locfileid: "39871265"
 
 ## <a name="microsoft-support"></a>Служба поддержки Майкрософт
 
-Корпорация Майкрософт предлагает несколько вариантов поддержки для людей, у которых есть проблемы с отправкой почты в ящики Office 365. Мы рекомендуем вам:
+Корпорация Майкрософт предлагает несколько вариантов поддержки для людей, у которых есть проблемы с отправкой почты в ящики Office 365. Вот несколько рекомендаций.
 
 - Следуйте инструкциям в любом отчете о недоставке, который вы получаете.
 

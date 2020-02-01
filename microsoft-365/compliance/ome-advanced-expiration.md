@@ -1,5 +1,7 @@
 ---
 title: Установка срока действия для электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Благодаря расширенным функциям шифрования сообщений Office 365 в начале шифрования сообщений Office 365 (OME) вы можете расширить безопасность электронной почты, установив срок действия электронной почты через настраиваемый шаблон фирменного стиля.
-ms.openlocfilehash: 6790cc7103ad098419bde96b93738424626cd0cc
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 90f406ec72eeab0618184336b8b28de452a5e3c6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687393"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597826"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Установка срока действия для электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
 

@@ -1,5 +1,7 @@
 ---
 title: Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
 description: Общие сведения о отчетах и Insights авиалабле в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 88a6cb080b0550274e86dcebb0e96be69e170317
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: edbc4cd53b5cd830996220c875a1b48565a96c13
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111923"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598566"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Интеллектуальные отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365
 
@@ -71,7 +73,7 @@ ms.locfileid: "41111923"
     
 - [Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям](download-existing-reports.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Мониторинг и просмотр отчетов в центре безопасности Microsoft 365](../mtp/monitoring-and-reporting.md)
   

@@ -1,5 +1,7 @@
 ---
 title: Что такое EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 ms.reviewer: andypunt
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
 description: Этот вводный документ поможет вам изучить Exchange Online Protection (EOP) и некоторую важную терминологию. Это необходимо для пользователей Office 365, защищающих облачные почтовые ящики Exchange Online и автономных клиентов EOP, которые защищают локальные почтовые ящики, такие как Exchange Server 2016.
-ms.openlocfilehash: 2e4de0b62b24498b1153c713523418193e8694b4
-ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
+ms.openlocfilehash: b1a8e9360005b31cf03c5e9921e3285ff7119926
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37662525"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597996"
 ---
 # <a name="what-is-exchange-online-protection-eop"></a>Что такое Exchange Online Protection (EOP)
 

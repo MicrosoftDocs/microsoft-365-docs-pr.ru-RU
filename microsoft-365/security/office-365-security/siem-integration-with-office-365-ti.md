@@ -1,5 +1,7 @@
 ---
 title: Интеграция SIEM с Office 365 Advanced Threat protection
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +17,12 @@ ms.date: 11/22/2019
 ms.collection:
 - M365-security-compliance
 description: Интеграция сервера SIEM в Организации с Office 365 Advanced Threat Protection и связанными событиями угроз в API управления действиями Office 365.
-ms.openlocfilehash: 93253982b9920cd133419e0fc61650cadfa9d192
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 8a870e02a37ea7f4961d0b8dc42a49cb59d2bace
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967932"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598286"
 ---
 # <a name="siem-integration-with-office-365-advanced-threat-protection"></a>Интеграция SIEM с Office 365 Advanced Threat protection
 
@@ -47,7 +49,7 @@ API управления действиями Office 365 извлекает св
 > [!IMPORTANT]
 > Вы должны быть глобальным администратором Office 365 или иметь роль администратора безопасности, назначенную для центра безопасности & соответствия требованиям, для настройки интеграции SIEM с Office 365 Advanced Threat protection.<br/>Для среды Office 365 должна быть включена функция ведения журнала аудита. Чтобы получить помощь, ознакомьтесь со статьей [Включение и отключение поиска в журнале аудита Office 365](../../compliance/turn-audit-log-search-on-or-off.md).
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 
 [Анализ угроз и реагирование на них в Office 365](office-365-ti.md)
 

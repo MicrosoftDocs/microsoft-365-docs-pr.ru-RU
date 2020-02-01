@@ -1,5 +1,7 @@
 ---
 title: Указание вероятности нежелательной почты (SCL) в сообщениях с помощью правил потока обработки почты
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать вероятность нежелательной почты для сообщений в Exchange Online Protection.
-ms.openlocfilehash: 580448f5ab78b10fd4924a3e23ac9feab03a8512
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 4befc3c371118416b6d07f151eb2c346f8520608
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572225"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598061"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>Указание вероятности нежелательной почты (SCL) в сообщениях с помощью правил потока обработки почты
 

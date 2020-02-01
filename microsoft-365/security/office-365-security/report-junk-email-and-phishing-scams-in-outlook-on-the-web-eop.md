@@ -1,5 +1,7 @@
 ---
 title: 'Создание отчетов о нежелательной почте и мошеннических сообщениях (фишинге) в Outlook в Интернете '
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Microsoft Outlook в Интернете может сообщать о нежелательной почте и phishing-атаках с помощью встроенных параметров отчетов электронной почты. Вы также можете сообщить корпорации Майкрософт, что сообщение было неправильно определено как нежелательное (спам).
-ms.openlocfilehash: 3d55c163813972af8a2fb322442776e51ffb1212
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: e433a91d1152e1e87aa9f45b0ccfe94e8b39f0f9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971577"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598596"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>Создание отчетов о нежелательной почте и мошеннических сообщениях (фишинге) в Outlook в Интернете
 

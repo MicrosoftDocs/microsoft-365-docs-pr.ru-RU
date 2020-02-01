@@ -1,5 +1,7 @@
 ---
 title: Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: fea28683136ae72603b3e7a6954d7d6ecf0ffbe4
-ms.sourcegitcommit: 2eb4539291f5035b7bef746df89fbcc6faa17257
+ms.openlocfilehash: a1b42525984080d56a0f95018003cd251bff0122
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41263341"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597506"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
@@ -50,7 +52,7 @@ ms.locfileid: "41263341"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Эти функции работают только с [метками конфиденциальности](sensitivity-labels.md) . Если у вас есть метки Azure Information Protection, сначала необходимо перенести их в метки конфиденциальности, чтобы можно было включить эти функции для новых файлов, которые вы отправляете. Инструкции можно посмотреть, [как перенести метки Azure Information Protection в единые метки конфиденциальности](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 

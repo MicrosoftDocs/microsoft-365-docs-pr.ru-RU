@@ -1,5 +1,7 @@
 ---
 title: Синхронизация сертификатов пользователей с Office 365 для S/MIME
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 351c932e-99c1-4512-a6e8-788e90b7838f
 description: Чтобы отправлять сообщения, защищенные с помощью S/MIME, необходимо настроить соответствующие сертификаты. Для отправки зашифрованных сообщений через Exchange Online программа электронной почты отправителя использует общедоступный сертификат получателя для шифрования сообщений. Этот общедоступный сертификат X.509 необходимо опубликовать в Office 365.
-ms.openlocfilehash: caf5c3694034f3415b42f3b09302b6605fbf09cb
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: a62af3b176f29ec2bd8c97ae02178c87b7a63544
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970095"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598196"
 ---
 # <a name="sync-user-certificates-to-office-365-for-smime"></a>Синхронизация сертификатов пользователей с Office 365 для S/MIME
 

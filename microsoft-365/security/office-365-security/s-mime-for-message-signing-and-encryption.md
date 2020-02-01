@@ -1,5 +1,7 @@
 ---
 title: S/MIME для подписи и шифрования сообщений в Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Администраторы могут узнать об использовании S/MIME в Exchange Online.
-ms.openlocfilehash: 42a6e9c02dfcee2af87613a6dcce90aa06ffd51d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: b135a9dc2c5ad8fbf190b38f9fe10161b95a7531
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971497"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598536"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME для подписи и шифрования сообщений в Exchange Online
 

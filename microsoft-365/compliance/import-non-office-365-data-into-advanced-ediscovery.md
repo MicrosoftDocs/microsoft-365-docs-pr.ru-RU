@@ -1,5 +1,7 @@
 ---
 title: Импорт контента, отличного от Office 365, для расширенного анализа обнаружения электронных данных
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Действия по импорту контента, не хранящегося в O365, в большой двоичный объект Azure, чтобы его можно было проанализировать с помощью АЕД
-ms.openlocfilehash: aa14a54c20ac580c6412e8dc534ec44520abb3c8
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 8417382bc37b5bb3515e893ff2043019525b3f72
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823791"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597976"
 ---
 # <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Импорт контента, отличного от Office 365, для расширенного анализа обнаружения электронных данных
 

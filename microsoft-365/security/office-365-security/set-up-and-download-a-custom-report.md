@@ -1,5 +1,7 @@
 ---
 title: Настройка и загрузка настраиваемого отчета в центре безопасности &amp; и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить и скачать отчет с настраиваемым диапазоном дат и фильтрами в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 59dd06928d84fa2cf21badcbcc34381014e1a2cf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0de4b9bf2ac8d16c0e0ecc38fa69a3c9bf5e2774
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090727"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598386"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>Настройка и загрузка настраиваемого отчета в центре безопасности &amp; и соответствия требованиям
 
@@ -42,7 +44,7 @@ ms.locfileid: "37090727"
     
 6. Укажите получателей электронной почты для отчета, а затем нажмите кнопку **сохранить**.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

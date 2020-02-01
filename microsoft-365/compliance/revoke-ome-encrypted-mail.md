@@ -1,5 +1,7 @@
 ---
 title: Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Администратор Office 365 может отозвать определенные сообщения электронной почты, зашифрованные с помощью расширенного шифрования сообщений Office 365.
-ms.openlocfilehash: d3d449c969b2fa5d21042779ebad11e3807d1d3e
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 9d694c200df161c0a52884ded14d29908376a9b7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112523"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597606"
 ---
 # <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Отзыв электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
 
@@ -97,7 +99,7 @@ ms.locfileid: "41112523"
 
 Отозвать электронную почту с помощью Windows PowerShell можно с помощью командлета Set – Омемессажеревокатион.
 
-1. [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
+1. [Подключение к PowerShell для Exchange Online](https://aka.ms/exopowershell).
 
 2. Выполните командлет Set – Омемессажеревокатион следующим образом:
 

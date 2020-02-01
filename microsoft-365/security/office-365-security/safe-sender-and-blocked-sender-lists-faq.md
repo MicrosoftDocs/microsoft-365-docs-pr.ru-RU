@@ -1,5 +1,7 @@
 ---
 title: Списки надежных и заблокированных отправителей в Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: 111ab6b0-2dd2-4a87-a928-4931df6b3c4d
 ms.collection:
 - M365-security-compliance
 description: Чтобы пересылаемые через службу сообщения не помечались как спам, администратор Exchange Online или Exchange Online Protection (EOP) может создать списки надежных и заблокированных отправителей для пользователей в вашей организации.
-ms.openlocfilehash: 9c281460aeff64226343af5e5608ccf42fc83799
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: 959af558c32e71e5a4cede2aff7bbcd1dbb092e2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238396"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598516"
 ---
 # <a name="safe-sender-and-blocked-sender-lists-in-exchange-online"></a>Списки надежных и заблокированных отправителей в Exchange Online
 

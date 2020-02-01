@@ -1,5 +1,7 @@
 ---
 title: Планирование соответствия требованиям &amp; безопасности в Office 365
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: Целевая страница для плана безопасности и соответствия требованиям
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 86eef432f30ea9a437f0857f693d62eb23f4ba8d
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 784cf4a2fec64a8156d8761942091fec066e5ae7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38687434"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597756"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Планирование соответствия требованиям &amp; безопасности в Office 365
 
@@ -77,6 +79,6 @@ ms.locfileid: "38687434"
   
 |**Subscription**|**URL-адрес управления**|**Панели мониторинга и центры администрирования**|
 |:-----|:-----|:-----|
-|Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
+|Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Центр администрирования Microsoft 365  <br/>  Security &amp; Compliance Center  <br/>  Центр администрирования Exchange  <br/>  Центр администрирования SharePoint и центр администрирования OneDrive для бизнеса  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Управление мобильными приложениями Майкрософт  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
