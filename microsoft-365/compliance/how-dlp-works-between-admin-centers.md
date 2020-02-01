@@ -1,5 +1,7 @@
 ---
 title: Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Узнайте, как защита от потери данных в центре безопасности & соответствия требованиям использует правила защиты от потери данных и почтовых ящиков (правила транспорта) в центре администрирования Exchange.
-ms.openlocfilehash: 65df871361eca66dca543cd2a6dcb0a529446169
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a491317727cce571f0f9e1c527557595f6adf7b5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090178"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596516"
 ---
 # <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
 

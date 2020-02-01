@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 для образования, докум
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: cfd39d25689785be2af80008b6d823beb5a7bc01
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 0ead7cbabc87b7d852cf61fc414df65315c25e39
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749953"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596336"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Обзор общего регламента по защите данных
 
@@ -99,7 +102,7 @@ GDPR предоставляет людям права по управлению 
 
 ### <a name="accountability-readiness-checklists-for-the-gdpr"></a>Контрольные списки готовности к подотчетности в рамках GDPR
 
-Эти [контрольные списки](gdpr-arc.md) позволяют получить доступ к информации, необходимой для поддержки регламента GDPR при использовании продуктов Майкрософт. Вы можете управлять элементами контрольного списка в [диспетчере соответствия требованиям](https://servicetrust.microsoft.com/ComplianceManager), ориентируясь на идентификаторы и названия контрольных точек в списке Customer Managed Controls (Контрольные точки под управлением клиента) на плитке GDPR.
+Эти [контрольные списки](gdpr-arc.md) позволяют получить доступ к информации, необходимой для поддержки регламента GDPR при использовании продуктов Майкрософт. Вы можете управлять элементами контрольного списка в [рейтинге соответствия требованиям (Майкрософт)](compliance-score.md), ориентируясь на идентификаторы и названия контрольных точек в списке "Средства контроля в ведении клиента" на плитке GDPR.
 
 ## <a name="learn-more"></a>Подробнее
 

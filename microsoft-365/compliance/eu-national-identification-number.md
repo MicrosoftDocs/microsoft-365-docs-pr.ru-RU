@@ -1,5 +1,7 @@
 ---
 title: Национальный идентификационный номер ЕС
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС по национальному идентификационному номеру. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: c00619ed649db53777fa3629deac0162a3589475
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f001d23ec3d6d8a2b3aa9575d4a9d602c4315e13
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805942"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41592240"
 ---
 # <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
 

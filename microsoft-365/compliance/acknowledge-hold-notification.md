@@ -1,5 +1,7 @@
 ---
 title: Подтверждение уведомления об удержании
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Вам может потребоваться уведомить custodians о своих обязательствах, чтобы сохранить электронную информацию в ходе судебного разбирательства. Расширенное обнаружение электронных данных позволяет легко управлять процессом уведомления об удержаниях.
-ms.openlocfilehash: 477396e9b249de0edbbe52c5310abe21a825a3e8
-ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
+ms.openlocfilehash: f1a2d4eb03f84df12611115670d52568d6b13d80
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962376"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594072"
 ---
 # <a name="acknowledge-a-hold-notification"></a>Подтверждение уведомления об удержании
 

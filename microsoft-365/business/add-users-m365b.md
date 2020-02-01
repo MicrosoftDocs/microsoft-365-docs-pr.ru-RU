@@ -1,5 +1,7 @@
 ---
 title: Добавление пользователей в Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -23,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Узнайте, как добавлять новых пользователей, защищать их устройства и назначать роли в Microsoft 365 Business.
-ms.openlocfilehash: f0498134d9f258f831cdbab10b7ee9c77b5d133d
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: 932b969d089dd223426e35c5bea4efde4409ad48
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850931"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593300"
 ---
 # <a name="add-more-users-to-microsoft-365-business"></a>Добавление пользователей в Microsoft 365 Business
 
@@ -38,7 +40,7 @@ ms.locfileid: "40850931"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN] 
 
-Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы добавить пользователя:
 

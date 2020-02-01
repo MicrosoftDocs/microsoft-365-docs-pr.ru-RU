@@ -1,5 +1,7 @@
 ---
 title: Создание неактивных почтовых ящиков и управление ими в Office 365
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: Для создания неактивного почтового ящика в Office 365 примените политику хранения хранения или Office 365 к почтовому ящику, а затем удалите соответствующую учетную запись пользователя Office 365. Элементы в неактивном почтовом ящике хранятся в течение срока хранения или политики хранения, которая была применена к нему до того, как она была сделана неактивной. Для окончательного удаления неактивного почтового ящика просто удалите политику удержания или хранения.
-ms.openlocfilehash: b9ec4056e806211591cc4b6682b24b622302152b
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: b3b3eddc67c1f23dffdb8ecb45428b9c64c6d0e0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558376"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595636"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Создание неактивных почтовых ящиков и управление ими в Office 365
 

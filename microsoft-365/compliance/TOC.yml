@@ -34,7 +34,7 @@
           href: insider-risk-management-content-explorer.md
         - name: Добавление пользователей в политики риска для предварительной оценки (Предварительная версия)
           href: insider-risk-management-users.md
-        - name: Создание уведомлений о рисках для оценки безопасности (Предварительная версия)
+        - name: Создание шаблонов замечаний для оценки риска (ознакомительная версия)
           href: insider-risk-management-notices.md
     - name: Соответствие требованиям (Предварительная версия)
       items:
@@ -787,7 +787,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-arc-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-arc-office365.md
         - name: Защита информации
           href: gdpr-information-protection.md
@@ -805,7 +805,7 @@
               href: gdpr-dsr-intune.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dsr-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dsr-office365.md
             - name: Семейство Visual Studio
               href: gdpr-dsr-visual-studio-family.md
@@ -817,7 +817,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-breach-office365.md
         - name: Оценка влияния на защиту данных
           items:
@@ -829,7 +829,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dpia-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dpia-office365.md
         - name: Специалист по защите данных корпорации Майкрософт
           href: gdpr-data-protection-officer.md
@@ -852,7 +852,7 @@
           href: offering-csa-star-attestation.md
         - name: Сертификация CSA-STAR
           href: offering-csa-star-certification.md
-        - name: Самостоятельная оценка CSA-STAR
+        - name: Самооценка CSA звезда
           href: offering-csa-star-self-assessment.md
         - name: ISO 20000-1-2011
           href: offering-iso-20000-1-2011.md
@@ -1134,7 +1134,7 @@
               href: offering-pdpa-argentina.md
 - name: Office 365 корпоративный
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: Office 365 бизнес
+- name: "Office\_365 для бизнеса"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: "Безопасность в Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'

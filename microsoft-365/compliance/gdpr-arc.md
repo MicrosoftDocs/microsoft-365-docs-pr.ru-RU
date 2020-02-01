@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 для образования, докум
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 1bc2ac17d8548382dff721decba674952de977d6
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 111bafdb5d95792e8fda08007bccd7cd274b8832
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749972"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594489"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Поддержка программы GDPR с контрольными списками готовности к подотчетности
 
@@ -36,7 +39,7 @@ ms.locfileid: "38749972"
 - [Azure](gdpr-arc-Azure.md)
 - [Служба поддержки и профессионального обслуживания Майкрософт](gdpr-arc-prof-services.md)
 
-Вы можете управлять элементами этого контрольного списка в [диспетчере соответствия требованиям](https://servicetrust.microsoft.com/ComplianceManager), ориентируясь на идентификаторы и названия контрольных точек в списке Customer Managed Controls (Контрольные точки под управлением клиента) на плитке GDPR.
+Вы можете управлять элементами этого контрольного списка в [рейтинге соответствия требованиям](compliance-score.md), ориентируясь на идентификаторы и названия контрольных точек в списке "Средства контроля в ведении клиента" на плитке GDPR.
 
 Контрольные списки включают четыре основные категории рекомендаций для программы конфиденциальности в рамках GDPR, перечисленные ниже с примерами требований.
 

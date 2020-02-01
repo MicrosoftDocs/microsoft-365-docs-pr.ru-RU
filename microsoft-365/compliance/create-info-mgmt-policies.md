@@ -1,5 +1,7 @@
 ---
 title: Создание и применение политик управления сведениями
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -18,12 +20,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Политики управления сведениями позволяют организации контролировать продолжительность хранения контента, проверять, какие люди работают с контентом, а также добавлять в документы штрих-коды или метки. Политика позволяет обеспечить соответствие юридическим и государственным нормам и внутренним бизнес-процессам. Как администратор вы можете настроить политику для управления отслеживанием документов и продолжительностью хранения документов.
-ms.openlocfilehash: d8572f570db7b0223bc2f08cd78875224897e02c
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: b61c18390dde2e5d2da92189acced42ea5ece64c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687475"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595616"
 ---
 # <a name="create-and-apply-information-management-policies"></a>Создание и применение политик управления сведениями
 

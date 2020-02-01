@@ -1,5 +1,7 @@
 ---
 title: Включение шифрования и расшифровки сообщений в Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,12 +14,12 @@ ms.assetid: e313c489-ce5e-4015-aadf-981c697ab51f
 ms.collection:
 - M365-security-compliance
 description: Служба шифрования сообщений Office 365 позволяет пользователям отправлять зашифрованную почту как внутри своей организации, так и за ее пределы. Как администратор вы можете включить шифрование сообщений Office 365, создав правила для обработки почтовых ящиков (также называемые правилами транспорта), которые задают условия для шифрования.
-ms.openlocfilehash: 0110bc4bbfc8eeba3cc0390c845f6accb02aed39
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 38152123f0cee4263bac7d2f7666fae2fff3622e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090296"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593220"
 ---
 # <a name="enable-message-encryption-and-decryption-in-office-365"></a>Включение шифрования и расшифровки сообщений в Office 365
 

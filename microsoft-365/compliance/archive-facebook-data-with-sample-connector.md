@@ -1,5 +1,7 @@
 ---
 title: Настройка соединителя для архивации данных Facebook
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить соединитель для импорта сторонних данных из источников данных, таких как страницы Facebook бизнес, Twitter, LinkedIn Company и Instant Bloomberg. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: dbc38840ccaa98a4e89fc91216765f209b844326
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 8bd689f7a77497961948d8e94b160aca8bbb43ed
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515780"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596316"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data"></a>Настройка соединителя для архивации данных Facebook
 

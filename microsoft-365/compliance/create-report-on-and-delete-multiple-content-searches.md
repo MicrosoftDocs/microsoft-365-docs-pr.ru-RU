@@ -1,5 +1,7 @@
 ---
 title: Создание и удаление нескольких поисков содержимого, а также получение отчетов по ним
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Сведения об автоматизации задач поиска контента, таких как создание поисковых запросов и выполнение отчетов с помощью скриптов PowerShell в центре безопасности & соответствия требованиям в Office 365.
-ms.openlocfilehash: 43f6046521ef121f52b2a5abe26d2cd6a322d22c
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6c92d9dab093b802acc518aebb96ddf83cf54ea5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687551"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595576"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>Создание и удаление нескольких поисков содержимого, а также получение отчетов по ним
 
@@ -58,17 +60,17 @@ ms.locfileid: "38687551"
     
 2. Откройте txt файл в Excel, а затем воспользуйтесь сведениями из следующей таблицы, чтобы изменить файл, используя сведения для каждого поиска. 
     
-    |**Parameter**|**Описание**|
+    |**Параметр**|**Описание**|
     |:-----|:-----|
     | `ExchangeLocation` <br/> |SMTP-адрес почтового ящика пользователя.  <br/> |
-    | `SharePointLocation` <br/> |URL-адрес сайта OneDrive для бизнеса пользователя или URL-адрес любого сайта в Организации. В качестве URL-адреса для сайтов OneDrive для бизнеса используйте следующий формат ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `:. Например,  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |
+    | `SharePointLocation` <br/> |URL-адрес сайта OneDrive для бизнеса пользователя или URL-адрес любого сайта в Организации. В качестве URL-адреса для сайтов OneDrive для бизнеса используйте следующий формат ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `:. Пример: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |
     | `ContentMatchQuery` <br/> |Поисковый запрос. Дополнительные сведения о создании поискового запроса можно узнать в статье [запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md).  <br/> |
     | `StartDate` <br/> |Для электронной почты, дата или время получения сообщения получателем или отправлено отправителем. Для документов на сайтах SharePoint или OneDrive для бизнеса Дата или время последнего изменения документа.  <br/> |
     | `EndDate` <br/> |Для электронной почты Дата или время до отправки сообщения отправлены пользователем, отправленным пользователем. Для документов на сайтах SharePoint или OneDrive для бизнеса Дата или время последнего изменения документа.  <br/> |
    
 3. Сохраните файл Excel в виде CSV-файла в папке на локальном компьютере. Скрипт, созданный на шаге 3, будет использовать сведения из этого CSV-файла для создания запросов поиска. 
   
-## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Шаг 2: подключение к PowerShell центра безопасности & соответствия требованиям
+## <a name="step-2-connect-to-security--compliance-center-powershell"></a>Шаг 2. Подключение к PowerShell в Центре безопасности и соответствия требованиям
 
 Следующий шаг — подключение к PowerShell центра безопасности & соответствия требованиям для вашей организации.
   

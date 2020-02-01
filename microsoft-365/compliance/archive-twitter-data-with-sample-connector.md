@@ -1,5 +1,7 @@
 ---
 title: Настройка соединителя для архивации данных Twitter
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных Twitter в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: 65e2c5e2090364d28863763746b135a56fa58dee
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 91cf62bd7ab9de2b368689e7d44f88d1868f42ae
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515800"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596016"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data"></a>Настройка соединителя для архивации данных Twitter
 

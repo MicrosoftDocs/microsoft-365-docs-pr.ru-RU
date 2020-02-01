@@ -1,5 +1,7 @@
 ---
 title: Обзор проверок ликвидации
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки хранения, в которой хранится содержимое в Microsoft 365, вы можете активировать проверку ликвидации в конце периода хранения.
-ms.openlocfilehash: a48d47c6b02ebe20ba5fb48470a2efc88aa3dbc7
-ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
+ms.openlocfilehash: 8dafaf45df0d681880ef513c9feab6b833c99cb8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41123670"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595234"
 ---
 # <a name="overview-of-disposition-reviews"></a>Обзор проверок ликвидации
 

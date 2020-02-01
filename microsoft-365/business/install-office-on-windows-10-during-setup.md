@@ -1,5 +1,7 @@
 ---
 title: Установка Office на устройствах с Windows 10 во время настройки службы
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Теперь научитесь автоматически развертывать Office на устройствах с Windows 10 во время установки.
-ms.openlocfilehash: 7b58fd3db6c6f15effe2bc4876903a9f480366b1
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 8a631d3976ae3bce82d59d84e38a14405010ab02
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831630"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593868"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Установка Office на устройствах с Windows 10 во время настройки службы
 

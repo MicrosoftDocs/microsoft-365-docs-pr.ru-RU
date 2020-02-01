@@ -5,6 +5,8 @@ keywords: ARC Azure, Microsoft 365, Microsoft 365 для образования,
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 608e75dee25f73a1234a911bd5b9e4871412e59e
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 7c3be3d13e40c3a758edeb224aa2b8383908dd1f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676776"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594530"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>Контрольный список готовности к подотчетности для Azure в рамках GDPR
 
@@ -29,9 +32,9 @@ ms.locfileid: "39676776"
 - [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736) — требования, относящиеся к методам обеспечения безопасности;
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) — требования, относящиеся к управлению конфиденциальностью.
 
-Вы можете управлять элементами, указанными в этом контрольном списке, в диспетчере соответствия требованиям [16], выбирая идентификаторы и названия средств контроля в списке Customer Managed Controls (Средства контроля, управляемые клиентом) на плитке GDPR. Такая структура контроля также применяется для упорядочения презентации внутренних средств контроля, реализованных в Microsoft Azure для выполнения требований GDPR, которую можно скачать в центре [Service Trust Center](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
+Вы можете управлять элементами, указанными в этом контрольном списке, в рейтинге соответствия требованиям [16], выбирая идентификаторы и названия средств контроля в списке "Средства контроля в ведении клиента" на плитке GDPR. Такая структура контроля также применяется для упорядочения презентации внутренних средств контроля, реализованных в Microsoft Azure для выполнения требований GDPR, которую можно скачать в центре [Service Trust Center](https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
 
-Такая структура контроля также применяется для упорядочения презентации [внутренних средств контроля, реализованных в Microsoft Dynamics 365, для выполнения требований GDPR](https://aka.ms/GDPRControls).
+Такая структура контроля также применяется для упорядочения презентации [внутренних средств контроля, реализованных в Microsoft Dynamics 365, для выполнения требований GDPR](https://aka.ms/gdprcontrols).
 
 Дополнительная документация по GDPR представлена по адресу [https://aka.ms/gdprgetstarted](https://aka.ms/gdprgetstarted).
 
@@ -143,7 +146,7 @@ ms.locfileid: "39676776"
 | 13 <a name="13"> </a> | [Положение о применимости требований ISO/IEC 27001:2013 к СУИБ Microsoft Azure (полностью)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 14 <a name="14"> </a> | [Предложения для обеспечения соответствия требованиям в центре управления безопасностью Майкрософт](offering-home.md)  |
 | 15 <a name="15"> </a> | [Конфиденциальность и персональные данные в Intune](https://review.docs.microsoft.com/intune/privacy-personal-data) |
-| 16 <a name="16"> </a> | [Полный набор правил GDPR для Azure](https://aka.ms/GDPRControls) или [диспетчер соответствия требованиям](https://servicetrust.microsoft.com/ComplianceManager) |
+| 16 <a name="16"> </a> | [Полный набор правил GDPR для Azure](https://aka.ms/GDPRControls) или [рейтинг соответствия требованиям](compliance-score.md) |
 | 17 <a name="17"> </a> | [Сведения об ответственном за защиту данных в Майкрософт](https://aka.ms/GDPRDPO) |
 
 ## <a name="learn-more"></a>Дополнительные сведения

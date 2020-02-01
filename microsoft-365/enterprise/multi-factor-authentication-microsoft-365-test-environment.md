@@ -1,5 +1,7 @@
 ---
 title: Многофакторная проверка подлинности для тестовой среды Microsoft 365 корпоративный
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Настройка многофакторной проверки подлинности с помощью текстовых сообщений, отправленных на смарт-телефон в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: ea87ab6f169829d74339b64b6edb3978bea9ca9a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d99e22cdbd8b08f4752a953b63c2d5215a78ec6c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801404"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596836"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Многофакторная проверка подлинности для тестовой среды Microsoft 365 корпоративный
 
@@ -38,7 +40,7 @@ ms.locfileid: "40801404"
 
 3. Включение и тестирование многофакторной проверки подлинности с помощью политики условного доступа (необязательно).
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.

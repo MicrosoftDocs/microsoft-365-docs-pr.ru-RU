@@ -5,6 +5,8 @@ author: brendacarter
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
@@ -13,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 101ebbe46b9f49a1a450c4cb22b5d5f67ce1b322
-ms.sourcegitcommit: bd487d36b04b8f8caf10900e8c5237f9ccf9e072
+ms.openlocfilehash: e8c2b10f3e1dd88703b15c326dedb164a686cfca
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37654028"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596736"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -38,7 +40,7 @@ ms.locfileid: "37654028"
 
 |Уровень защиты|Политики|Дополнительные сведения|
 |:---------------|:-------|:----------------|
-|**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
+|**Базовый**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
 |        |[Блокировать клиенты, не поддерживающие современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Exchange Online в назначение облачных приложений|
 |        |[Определение политик защиты приложений](identity-access-policies.md#high-risk-users-must-change-password)|Убедитесь, что Outlook включен в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
 |        |[Требовать утвержденные приложения](identity-access-policies.md#require-approved-apps)|Включение Exchange Online в список облачных приложений|

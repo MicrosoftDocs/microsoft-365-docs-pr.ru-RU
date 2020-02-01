@@ -1,5 +1,7 @@
 ---
 title: Обзор программы установки для Microsoft 365 для кампаний
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Обзор программы установки для Microsoft 365 для кампаний
-ms.openlocfilehash: 882ca516d0e06658e24f675d5a1fe2b21a3c98b3
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: cca8866241a3759c022a362d39f7b208dff72580
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772336"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594177"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>Настройка Microsoft 365 для кампаний
 
@@ -53,7 +55,7 @@ ms.locfileid: "35772336"
   
 Для настройки устройств пользователя сделайте следующее: 
 1. Каждый пользователь [настраивает свои мобильные устройства](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json). 
-2. Для неуправляемых устройств пользователи настраивают свои [Компьютеры и Mac](m365-campaigns-protect-pcs-macs.md). Для ключевых сотрудников мы рекомендуем использовать [управляемые устройства](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) для большей защиты. Для всех устройств необходимо настроить многофакторную [проверку](m365-campaigns-multifactor-authenication.md)подлинности. 
+2. Для неуправляемых устройств пользователи настраивают свои [Компьютеры и Mac](m365-campaigns-protect-pcs-macs.md). Для ключевых сотрудников мы рекомендуем использовать [управляемые устройства](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json) для большей защиты. Для всех устройств необходимо настроить [многофакторную проверку подлинности](m365-campaigns-multifactor-authenication.md). 
 3. Все пользователи должны узнать, как защищать себя и свою кампанию, изучение [фишинга и других атак](m365-campaigns-phishing-and-attacks.md). Кроме того, эти [инфографики](m365-campaigns-protect-campaign-infographic.md) могут помочь пользователям узнать, как защитить свою кампанию от угроз из Интернета.
 
 ## <a name="contact-support"></a>Обратитесь в службу поддержки

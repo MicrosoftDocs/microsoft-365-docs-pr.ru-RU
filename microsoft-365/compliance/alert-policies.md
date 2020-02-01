@@ -1,5 +1,7 @@
 ---
 title: Политики оповещений в центре безопасности и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: Создайте политики оповещений в центре безопасности и соответствия требованиям в Office 365 и Microsoft 365 для отслеживания потенциальных угроз, потери данных и разрешений. После этого вы сможете просматривать и управлять оповещениями, которые создаются, когда пользователи выполняют действия, которые отвечают условиям политики оповещений.
-ms.openlocfilehash: 8d76a93c569093f6a632984ec96db0d0aeb9c218
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 025bf927b194a7faa6357dbabc12a424fe3f3124
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233800"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596106"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>Политики оповещений в центре безопасности и соответствия требованиям
 

@@ -1,5 +1,7 @@
 ---
-title: Группа для верхнего уровня секретного проекта корпорации Contoso
+title: Команда для сверхсекретного проекта корпорации Contoso
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,14 +15,14 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso использовала группу для строго регулируемых данных для наиболее поднадзорного проекта, чтобы разработать новый набор продуктов и служб.
-ms.openlocfilehash: 23a967ea7ffdb3497d705a3ddda4d3c56e415b8e
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 794fb5cfb6f3011724d37a6a3c42c39dacacc270
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699910"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597076"
 ---
-# <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Группа для верхнего уровня секретного проекта корпорации Contoso
+# <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Команда для сверхсекретного проекта корпорации Contoso
 
 После того, как руководитель организации находится за пределами, Генеральный директор Contoso упорядочивает разработку нового набора продуктов и услуг, которые могут вдвое прибыли от компании Contoso в течение следующих пяти лет. Проект верхнего уровня для разработки бизнес-, инженерного и маркетингового плана назывался **Project 2x** и основные сотрудники компании. 
 

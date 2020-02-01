@@ -1,5 +1,7 @@
 ---
 title: Определение параметров дел и клиента в Office 365 Advanced eDiscovery
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Сведения о метках, кроссном модуле и параметрах клиента, которые можно определить на уровне вариантов в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 19c653544173afe31b299b9ab5d2b4fc37415630
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2d482c7409c546042488ba4f0c7cc74571152e86
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806122"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595376"
 ---
 # <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Определение параметров дел и клиента в Office 365 Advanced eDiscovery
 

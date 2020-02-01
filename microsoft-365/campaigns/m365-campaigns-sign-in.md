@@ -1,5 +1,7 @@
 ---
 title: Вход в Microsoft 365 для кампаний
+f1.keywords:
+- NOCSH
 ms.author: supotter
 author: supotter
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Войдите в Microsoft 365 для кампаний. Защитите свою кампанию от угроз циберсекурити для электронной почты, данных и общения.
-ms.openlocfilehash: be24db2a7614e312bff96e5689f58a439de224a6
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: b394eb0753394825d3398abda03442cd944222b9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772446"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594780"
 ---
 # <a name="sign-in-to-microsoft-365-for-campaigns"></a>Вход в Microsoft 365 для кампаний
 

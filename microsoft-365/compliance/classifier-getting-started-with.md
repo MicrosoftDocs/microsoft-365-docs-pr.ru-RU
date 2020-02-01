@@ -1,5 +1,7 @@
 ---
 title: Начало работы с обучаемыми классификаторами (предварительная версия)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Классификатор Microsoft 365, предназначенный для обучения, — это средство, которое можно обучить для распознавания различных типов контента, предоставляя им положительные и отрицательные примеры для поиска. После обучения классификатору необходимо убедиться в том, что его результаты точны. Затем вы можете использовать его для поиска в содержимом вашей организации и классифицировать, чтобы применить метки хранения или учета или включить их в предотвращение потери данных (DLP) или политики хранения.
-ms.openlocfilehash: f37549a311af630ced0191b86f0be47b295f93ea
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4b4bfa996b1f68f9db8c206aaaec43878abf3f42
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807428"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595906"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>Начало работы с обучаемыми классификаторами (предварительная версия)
 

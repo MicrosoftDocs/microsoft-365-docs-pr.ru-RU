@@ -1,5 +1,7 @@
 ---
 title: Как определить тип удержания, примененного для почтового ящика Exchange Online
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Узнайте, как определить различные типы удержаний, которые можно разместить в почтовом ящике Office 365. Эти типы удержаний включают хранение для судебного разбирательства, удержания электронных данных и политики хранения Office 365. Кроме того, можно определить, исключен ли пользователь из политики хранения на уровне Организации.
-ms.openlocfilehash: dcdb79aa1c1cae83602a42e6c99136a2f85226a1
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: f45310547d41d8ec1092a3fecfaa0b50c4439559
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558016"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596506"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Как определить тип удержания, примененного для почтового ящика Exchange Online
 
@@ -198,7 +200,7 @@ Get-Mailbox <username> | FL *HoldApplied*
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-ИЛИ
+или
  
 ```powershell
 Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
@@ -212,7 +214,7 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 
-ИЛИ
+или
 
 ```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplied

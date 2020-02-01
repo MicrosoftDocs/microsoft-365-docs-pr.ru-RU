@@ -1,5 +1,7 @@
 ---
 title: Поддерживаемые типы файлов в Advanced eDiscovery
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Список поддерживаемых типов файлов в Microsoft 365 Advanced eDiscovery. Это включает список типов файлов изображений, которые поддерживаются функцией оптического распознавания текста в Advanced eDiscovery.
-ms.openlocfilehash: ff9fdc77226ee476de3fe89a980b2658720749bf
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191244"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597386"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Поддерживаемые типы файлов в Advanced eDiscovery
 

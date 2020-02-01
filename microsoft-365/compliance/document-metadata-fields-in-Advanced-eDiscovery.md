@@ -1,5 +1,7 @@
 ---
 title: Поля метаданных документа в Advanced eDiscovery
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье определяются поля метаданных для документов в наборе проверки в случае Advanced eDiscovery в Microsoft 365.
-ms.openlocfilehash: 7a5a767d22c6f3a5251a11bd201846135cfcf130
-ms.sourcegitcommit: ca4ce9e8c7e4b433608cd059857740ffd5a472c2
+ms.openlocfilehash: 399e89a577db68e0c31eceef921ef2ab1172352a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2019
-ms.locfileid: "40840158"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595194"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Поля метаданных документа в Advanced eDiscovery
 
@@ -43,7 +45,7 @@ ms.locfileid: "40840158"
 |CC|Копия|Email_cc|Поле "копия" для типов сообщений. Формат — **DisplayName \<SMTPAddress>**.|
 |Метки соответствия требованиям|комплианцелабелс|Compliance_labels|[Метки хранения](labels.md) применены к содержимому в Office 365.|
 |Составной путь|компаундпас|Compound_path|Доступный для человека путь, который описывает источник элемента.|
-|Справки|Содержимое||Извлеченный текст элемента.|
+|Справки|Контентная||Извлеченный текст элемента.|
 |Текст беседы|Текст беседы||Текст беседы элемента.|
 |Тема "Беседа"|Тема "Беседа"||Раздел "Беседа" элемента.|
 |ИДЕНТИФИКАТОР беседы|ConversationId|Conversation_ID|Идентификатор беседы из сообщения.|

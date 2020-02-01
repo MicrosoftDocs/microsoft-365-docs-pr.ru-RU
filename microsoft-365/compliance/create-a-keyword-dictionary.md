@@ -1,5 +1,7 @@
 ---
 title: Создание словаря ключевых слов
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Для определения конфиденциальной информации иногда требуется искать ключевые слова, в частности, при определении универсального контента (например, коммуникаций в сфере здравоохранения) либо неприемлемой или нецензурной лексики. Списки ключевых слов можно создавать в типах конфиденциальной информации, но размер этих списков ограничен, а для их создания и редактирования требуется модифицировать XML. Словари ключевых слов упрощают управление ключевыми словами и позволяют управлять ими в намного более крупных масштабах — до 100 000 терминов на словарь.
-ms.openlocfilehash: 73ca1e83f716af076f99b1bcb8fba4fbb6e69d9d
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 3677fc01ef226b57b7b33c630e79ea12f9fb0a5a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38687426"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595656"
 ---
 # <a name="create-a-keyword-dictionary"></a>Создание словаря ключевых слов
 

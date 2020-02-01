@@ -1,5 +1,7 @@
 ---
 title: Устранение распространенных проблем с обнаружением электронных данных
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 ms.assetid: ''
 description: Проанализируйте, устраните и устраните распространенные проблемы, связанные с обнаружением электронных данных в Office 365.
 siblings_only: true
-ms.openlocfilehash: 37e92e480759601f9dfe61430bdd647b20df051d
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: c8eb4a330ab565900a685959ab1291990a6119bb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687537"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595134"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -49,7 +51,7 @@ ms.locfileid: "38687537"
    > |Имя  |RecipientType  |
    > |---------|---------|
    > |Псевдоним, пользователь     |MailUser         |
-   > |Псевдоним, пользователь     |Пользователь         |
+   > |Псевдоним, пользователь     |User         |
 
 3. Если возвращается несколько пользователей, разместите и устраните конфликтующий объект.
 

@@ -1,5 +1,7 @@
 ---
 title: Директива служб оплаты 2 и надежная проверка подлинности клиентов для коммерческих клиентов
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 description: Начиная с 14 сентября 2019 банки в 31 странах Европейской экономической области необходимы для проверки идентификации сотрудника, осуществляющего покупку в сети, прежде чем оплата может быть обработана.
 keywords: Директива служб оплаты 2, надежная проверка подлинности клиентов, многофакторная проверка подлинности
-ms.openlocfilehash: 1e9272803fd592062676e3324d172560b6b2219b
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: f59808d3735f10b57ed5c0cd279b6703b24a44a4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646454"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594710"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>Директива служб оплаты 2 и надежная проверка подлинности клиентов для коммерческих клиентов
 

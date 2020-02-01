@@ -1,5 +1,7 @@
 ---
 title: Архивация сторонних данных
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: Администраторы могут импортировать сторонние данные с платформ социальных сетей, платформы обмена мгновенными сообщениями и платформы совместной работы с документами в почтовые ящики в организации Microsoft 365. Это позволяет архивировать данные из Facebook, Twitter и других сторонних источников данных в Microsoft 365. Затем вы можете использовать и применять функции обеспечения соответствия требованиям Microsoft 365 (например, хранение на месте, обнаружение электронных данных, Архивация на месте и политики хранения) для сторонних данных.
-ms.openlocfilehash: b2931a018dedb6ac85d7896bef345654cb07ca5b
-ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
+ms.openlocfilehash: ac732110dac8d590ac30cfb062251d2e970bdd3d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2020
-ms.locfileid: "41247552"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596006"
 ---
 # <a name="archive-third-party-data"></a>Архивация сторонних данных
 

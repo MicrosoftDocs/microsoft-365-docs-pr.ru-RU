@@ -1,5 +1,7 @@
 ---
 title: Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,16 +23,16 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Сведения о том, как включить Microsoft 365 для защиты локальных подключенных устройств Active Directory к Windows 10.
-ms.openlocfilehash: 93e3364fc94f3878bec13d0a87b17a7d3678a4cc
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 170703c7367f9c0e9cb4c10edbd81cb214aa1d3e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633276"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593808"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business
 
-Если ваша организация использует локальную службу Windows Server Active Directory, вы можете настроить Microsoft 365 бизнес для защиты устройств с Windows 10, сохраняя доступ к локальным ресурсам, требующим локальной проверки подлинности.
+Если в вашей организации используется локальная версия Windows Server Active Directory, вы можете настроить Microsoft 365 бизнес для защиты устройств с Windows 10, сохранив при этом доступ к локальным ресурсам, для которых требуется локальная проверка подлинности.
 Чтобы настроить эту защиту, можно внедрить **гибридные подключенные устройства Azure AD**. Эти устройства присоединяются как к локальной службе Active Directory, так и к Azure Active Directory.
 
 В этом видеоролике описаны действия, которые необходимо выполнить для наиболее распространенного сценария, который также содержит подробные инструкции.

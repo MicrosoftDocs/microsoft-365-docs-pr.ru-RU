@@ -1,5 +1,7 @@
 ---
 title: Начало работы с политикой защиты от потери данных по умолчанию
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -15,12 +17,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: Прежде чем создавать первую политику защиты от потери данных (DLP), DLP поможет защитить конфиденциальные данные с помощью политики по умолчанию. Эта политика по умолчанию и ее рекомендации (показанные ниже) помогут защитить конфиденциальный контент, уведомляя вас, когда к электронной почте или документам, содержащим номер кредитной карты, предоставлен доступ другому пользователю за пределом вашей организации.
-ms.openlocfilehash: 32e5fef1cbfb8fe13928100dbfdae0d620e79762
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3ac2fef32c7ba20d906ec96e2510971c94ef2652
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090190"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596546"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>Начало работы с политикой защиты от потери данных по умолчанию
 

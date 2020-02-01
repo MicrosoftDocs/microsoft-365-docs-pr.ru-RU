@@ -1,5 +1,7 @@
 ---
 title: Дедупликация результатов поиска, выполненного с помощью функции обнаружения электронных данных
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Можно отменить экспортированные результаты поиска обнаружения электронных данных, чтобы экспортировать только одну копию сообщения электронной почты, несмотря на то, что в разных почтовых ящиках могут быть найдены несколько экземпляров одного и того же сообщения.
-ms.openlocfilehash: 98639bd23b3d7c99b91a193c2651ff2fad677eeb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fa04b83e9ec06b3b0d20d42d3d800040aa6178ed
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089578"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595396"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Дедупликация результатов поиска, выполненного с помощью функции обнаружения электронных данных
 

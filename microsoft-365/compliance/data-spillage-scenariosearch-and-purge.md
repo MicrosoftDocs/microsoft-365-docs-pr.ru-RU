@@ -1,5 +1,7 @@
 ---
 title: Пример использования данных серии решений обнаружения электронных данных — поиск и очистка
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Используйте средства обнаружения электронных данных и поиска Office 365 для управления инцидентом переноса данных в Организации и реагирования на них.
-ms.openlocfilehash: 06c02a9d5f31f8b7d6845214c10a150b6cacf379
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 3efeb183ca0629ea642eb21f14e31401d8618eea
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558366"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595406"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>серия решений обнаружения электронных данных: сценарий для переноса данных — поиск и очистка
 

@@ -1,5 +1,7 @@
 ---
 title: Поиск, копирование и удаление PST-файлов в Организации с помощью средства сбора PST-файлов
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: С помощью средства Microsoft PST Collection выполните поиск по сети организации, чтобы получить список PST-файлов, которые размещаются в пределах организации. После того как вы найдете PST-файлы, вы можете использовать средство сбора PST-файлов, чтобы скопировать их в центральном расположении, чтобы их можно было импортировать в Office 365.
-ms.openlocfilehash: 703208b574a723eb4f91aad0a892d6ea4abf427b
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 59c4222966bba4e72e73135aa57fb45e0362f765
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687525"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594560"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>Поиск, копирование и удаление PST-файлов в Организации с помощью средства сбора PST-файлов
 
@@ -217,7 +219,7 @@ ms.locfileid: "38687525"
   
 - [Импорт PST-файлов в Office 365 с помощью отправки по сети](use-network-upload-to-import-pst-files.md)
     
-- [Импорт PST-файлов в Office 365 с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
+- [Импорт PST-файлов в Office 365 с помощью отправки дисков](use-drive-shipping-to-import-pst-files-to-office-365.md)
     
 
 ## <a name="step-5-delete-the-pst-files-found-on-your-network"></a>Шаг 5: Удаление PST-файлов, найденных в сети

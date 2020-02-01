@@ -1,5 +1,7 @@
 ---
 title: Управление Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Узнайте, как управлять задачами администрирования, связанными с Microsoft 365 Business, мобильными устройствами, компьютерами с Windows 10 и многими подобными задачами.
-ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 41b627b0bb7cbb009832d3e7c45e44ceb8a8fdcd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675975"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593788"
 ---
 # <a name="manage-microsoft-365-business"></a>Управление Microsoft 365 Business
 

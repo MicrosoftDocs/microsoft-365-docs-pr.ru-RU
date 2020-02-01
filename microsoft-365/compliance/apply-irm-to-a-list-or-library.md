@@ -1,5 +1,7 @@
 ---
 title: Применение управления правами на доступ к данным (IRM) к списку или библиотеке
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -18,18 +20,18 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: С помощью управления правами на доступ к данным (IRM) можно управлять файлами, загруженными из списков или библиотек, и защищать их.
-ms.openlocfilehash: cd970f5e89a08de133511c99b8209b389f32cd87
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: d404bc8f72d2b1784c4d796a636556b7a5413b4d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256816"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596086"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>Применение управления правами на доступ к данным (IRM) к списку или библиотеке
 
 С помощью управления правами на доступ к данным (IRM) можно управлять файлами, загруженными из списков или библиотек, и защищать их.
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Служба управления правами Azure (Azure RMS) из Azure Information Protection, а также локальный эквивалент, служба управления правами Active Directory (AD RMS), поддерживают управление правами на доступ к данным для сайтов. Не требуются отдельные и дополнительные установки.
     

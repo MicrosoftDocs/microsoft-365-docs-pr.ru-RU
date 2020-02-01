@@ -1,5 +1,7 @@
 ---
 title: Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: Узнайте о предварительных требованиях для настройки организации с помощью Microsoft 365 Business.
-ms.openlocfilehash: 874a85859e315ef17e10fdd8094860e1e6bf2560
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 3ca0433faaaeacbe6e0d2c88c820ebad19afec51
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640548"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593646"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 Business
 

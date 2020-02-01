@@ -1,5 +1,7 @@
 ---
 title: Добавление тегов к документам в наборе для проверки
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: dfb5b32ac833f401d819b8697ff1bf1cca7ee2f9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: be4c86a5df7e0964744f6b5d7551382916e7ed2d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090686"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597416"
 ---
 # <a name="tag-documents-in-a-review-set"></a>Добавление тегов к документам в наборе для проверки
 
-Организация контента в наборе проверки важна для выполнения различных рабочих процессов в процессе обнаружения электронных данных. Это включает:
+Организация контента в наборе проверки важна для выполнения различных рабочих процессов в процессе обнаружения электронных данных. В частности, импорт позволяет:
 
 -  Отбор ненужного контента
 

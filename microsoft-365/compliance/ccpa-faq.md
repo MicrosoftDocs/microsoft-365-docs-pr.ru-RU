@@ -5,18 +5,20 @@ keywords: Microsoft 365, соответствие требованиям, CCPA,
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 567c104fcb960cce3bd09cd636fed8814cdbeb4c
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: f4f6d33d9c8898899486c1c6ab08af5113c4a42a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39638066"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595956"
 ---
 # <a name="california-consumer-privacy-act-ccpa-frequently-asked-questions"></a>Закон Калифорнии о защите персональных данных потребителей (CCPA)
 
@@ -98,7 +100,7 @@ CCPA содержит ряд исключений в отношении элем
 
 **Какие средства можно использовать при подготовке организации к CCPA?**
 
-- Начните использовать оценку GDPR в диспетчере соответствия требованиям в рамках вашей программы конфиденциальности, обеспечивающей выполнение CCPA.  
+- Начните использовать оценку GDPR в рейтинге соответствия требованиям в рамках вашей программы конфиденциальности, обеспечивающей выполнение CCPA.
 - Создайте процесс эффективного реагирования на запросы потребителей.
 - Настройте метку и политики, чтобы находить, классифицировать, помечать и защищать конфиденциальные данные с помощью Microsoft Information Protection.
 - Используйте возможности шифрования электронной почты для дополнительного контроля конфиденциальной информации.

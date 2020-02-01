@@ -1,5 +1,7 @@
 ---
 title: Улучшение защиты от угроз
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Получение справки по увеличению уровня защиты в Microsoft 365 Business
-ms.openlocfilehash: ce37f6d31037c442d6cabd6adc07f5f0138add54
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 3cfb8d0a38fc797ec25fb0e4e33409e225646ef2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748310"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594854"
 ---
 # <a name="increase-threat-protection"></a>Улучшение защиты от угроз
 
@@ -87,7 +89,7 @@ ms.locfileid: "38748310"
 |Выполните указанные ниже действия. . .  <br/> |Уведомление получателя сообщением  <br/> |
 |Предоставление текста сообщения  <br/> |Не открывайте файлы этих типов от пользователей, которые не знают, так как они могут содержать макросы с вредоносным кодом.  <br/> |
    
-Подробнее:
+Дополнительные сведения см. в указанных ниже статьях.
   
 - [Как работать с программой «шантажистом»](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     

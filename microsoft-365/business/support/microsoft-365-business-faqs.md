@@ -2,6 +2,8 @@
 title: Вопросы и ответы по Microsoft 365 Business 
 description: Здесь вы найдете ответы на часто задаваемые вопросы о Microsoft 365 Business, новом решении, предназначенном для малых и средних предприятий (SMB). 
 author: Sirkkuw
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 ms.topic: article 
 ms.prod: microsoft-365-business
@@ -10,19 +12,19 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 бизнес, Microsoft 365, малый и средний бизнес, часто задаваемые вопросы, вопросы и ответы, ответы, бизнес
 ms.date: 06/08/2018
-ms.openlocfilehash: 09a155c87bf90309f8a4cdd2eb5c0b71d2337d58
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 706646eae722b0040db2a5bd7bcf187f5e1295bf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748378"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594235"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Вопросы и ответы по Microsoft 365 Business
 
 ## <a name="general"></a>Общие
 
 ### <a name="what-is-microsoft-365-business"></a>Что такое Microsoft 365 бизнес? 
-Microsoft 365 — это интегрированное решение, объединяющее лучшие средства повышения производительности, безопасность и возможности управления устройствами для малых и средних предприятий. В него входят:
+Microsoft 365 — это интегрированное решение, объединяющее лучшие средства повышения производительности, безопасность и возможности управления устройствами для малых и средних предприятий. Он включает следующее:
 
 **Набор средств для бизнес-работы и совместной работы** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher и Access 

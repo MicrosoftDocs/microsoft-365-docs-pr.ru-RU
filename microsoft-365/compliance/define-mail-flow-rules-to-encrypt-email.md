@@ -1,5 +1,7 @@
 ---
 title: Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться создавать правила для поток обработки почты (правила транспорта) для шифрования и расшифровки сообщений с помощью шифрования сообщений Office 365.
-ms.openlocfilehash: 54fc53d1e39208f42348b6def4afadf71092ff11
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: a2f37bff8fa3fd45999a44341cfdb077b4f43e62
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748557"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595344"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
 
@@ -140,7 +142,7 @@ ms.locfileid: "38748557"
    New-TransportRule -Name "Encrypt rule for Dr Toni Ramos" -SentTo "DrToniRamos@hotmail.com" -SentToScope "NotinOrganization" -ApplyOME $true
    ```
 
-   **Примечания**.
+   **Примечания.**
 
    - Уникальное имя нового правила: "шифрование правила для Dr Тони Рамос".
 
@@ -184,7 +186,7 @@ ms.locfileid: "38748557"
    New-TransportRule -Name "Remove encryption from incoming mail" -SentToScope "InOrganization" -RemoveOME $true
    ```
 
-   **Примечания**.
+   **Примечания.**
 
    - Уникальное имя нового правила: "удалить шифрование из входящей почты".
 

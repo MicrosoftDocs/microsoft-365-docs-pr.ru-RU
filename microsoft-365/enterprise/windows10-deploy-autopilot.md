@@ -9,13 +9,15 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
+f1.keywords:
+- NOCSH
 ms.author: greglin
-ms.openlocfilehash: 98585f744b9aeabe84cdb31c6f7e3c2f9ddf0a05
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: e5e3e4fb48a0eb2af1978cbd5a687c67c72bea0c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38669688"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596646"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Шаг 3: развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилота
 

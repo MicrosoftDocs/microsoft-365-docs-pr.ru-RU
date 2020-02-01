@@ -1,5 +1,7 @@
 ---
 title: Создание классификатора для обучения (Предварительная версия)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте предназначенные для обучения классификаторы, если один из классификаторов, готовых к использованию, не отвечает вашим потребностям. Классификатор Microsoft 365 — это инструмент, который можно обучить для распознавания различных типов контента, предоставляя им примеры для поиска. В этом разделе показано, как создать настраиваемый классификатор.
-ms.openlocfilehash: 6343635bb8e9dac12a8dde0867b3468347c2e84a
-ms.sourcegitcommit: d656fd58e5491cfb7fee16b55dc7a58904ed128d
+ms.openlocfilehash: f11da4c36c9d6ed1667d5bed4a7d3e59c2cb21a9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39891090"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595916"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Создание классификатора для обучения (Предварительная версия)
 

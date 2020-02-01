@@ -5,6 +5,8 @@ author: MicrosoftHeidi
 manager: serdars
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: heidip
 ms.date: 10/31/2019
 ms.reviewer: anmorgan
@@ -14,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 645abf48297ddcf186d8971a422588d46f7b2fef
-ms.sourcegitcommit: 7c977771fc295ca1e4e9b16a6d05faee8edeadad
+ms.openlocfilehash: 258e116e2d51a5fde9f6e9c3273824994b9dcfa6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913122"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596666"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -33,7 +35,7 @@ ms.locfileid: "37913122"
 
 Чтобы начать работу с Microsoft Teams, вам не нужно включать зависимые службы. Все они будут просто работать. Тем не менее, необходимо подготовиться к управлению следующими параметрами:
 
-- Группы Office 365
+- Группы Office 365
 - Сайты групп SharePoint
 - OneDrive для бизнеса
 - Почтовые ящики
@@ -58,7 +60,7 @@ ms.locfileid: "37913122"
 
 |Уровень защиты|Политики|Дополнительные сведения о реализации Teams|
 |:---------------|:-------|:----------------|
-|**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Убедитесь, что в список приложений включены Teams и зависимые службы. Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье.|
+|**Базовый**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Убедитесь, что в список приложений включены Teams и зависимые службы. Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье.|
 |        |[Блокировать клиенты, не поддерживающие современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Teams и зависимых служб при назначении облачных приложений.|
 |        |[Высокий риск пользователи должны изменить пароль](identity-access-policies.md#high-risk-users-must-change-password)|Заставляет пользователей Teams менять свой пароль при входе в учетную запись, если для их учетных записей обнаружено значительное опасное действие. Убедитесь, что в список приложений включены Teams и зависимые службы.|
 |        |[Определение политик защиты приложений](identity-access-policies.md#define-app-protection-policies)|Убедитесь, что в список приложений включены Teams и зависимые службы. Обновите политику для каждой платформы (iOS, Android, Windows).|

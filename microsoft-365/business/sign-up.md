@@ -1,5 +1,7 @@
 ---
 title: Регистрация в Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Сведения о приобретении и регистрации в Microsoft 365 Business.
-ms.openlocfilehash: d755931b6383a15376d3a875a9cf1ed93e9f4a63
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 63bff3d34df017d1c7cc437ef050d53623e76aa9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831250"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594255"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Регистрация в Microsoft 365 Business
 
@@ -50,7 +52,7 @@ ms.locfileid: "39831250"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы зарегистрироваться и приобрести Microsoft 365 для бизнеса, выполните следующие действия:
 
@@ -93,4 +95,4 @@ ms.locfileid: "39831250"
 
 ## <a name="see-also"></a>См. также
 
-[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -1,5 +1,7 @@
 ---
 title: Контроль данных в Office 365 с помощью ключа клиента
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Узнайте, как настроить ключ клиента для Office 365 для Exchange Online, Skype для бизнеса, SharePoint Online и OneDrive для бизнеса. С помощью ключа клиента вы можете управлять ключами шифрования вашей организации, а затем настроить Office 365 на их использование для шифрования данных на REST в центрах обработки данных Майкрософт.
-ms.openlocfilehash: 500adf03469833784228e13e26d8272716acc56c
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 6d8673443fd08edfbe6d9f8b320429a6424d2a30
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687466"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595696"
 ---
 # <a name="controlling-your-data-in-office-365-using-customer-key"></a>Контроль данных в Office 365 с помощью ключа клиента
 

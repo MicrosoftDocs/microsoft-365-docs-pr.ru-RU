@@ -1,5 +1,7 @@
 ---
 title: Добавление custodians в расширенное дело обнаружения электронных данных
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fc8002d900c38dee1b8487bbc0167b956f63b97f
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 3acd3b300c4472b32a261d28aeae6a9d94e17423
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257057"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594062"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Добавление custodians в расширенное дело обнаружения электронных данных
 
@@ -29,7 +31,7 @@ ms.locfileid: "39257057"
 
 ![Вкладка "Управление хранитель"](media/CustodianMgtPage.png)
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 Чтобы добавить custodians к случаю, необходимо быть участником группы ролей "Диспетчер обнаружения электронных данных". При этом будут предоставлены необходимые разрешения на добавление custodians к случаю и помещение удержания в источники данных кустодиал.
 

@@ -1,5 +1,7 @@
 ---
 title: Вырезкое обеспечение защиты от кампании
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как защитить свою кампанию, увеличив уровень безопасности с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 74c7d5f5836fd77b591389dd467114c93b8ab14e
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: f2d57fe0cbc6765b359a759c3d33c6482d86bb06
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772416"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594790"
 ---
 # <a name="bump-up-security-protection-for-your-campaign"></a>Вырезкое обеспечение защиты от кампании
 

@@ -1,5 +1,7 @@
 ---
 title: Расчет оценки соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как оценка соответствия требованиям Майкрософт вычисляет персонализированный балл на основе действий, предпринимаемых для решения рисков и повышая уровень соответствия требованиям.
-ms.openlocfilehash: 9fbc2b2beca3a667b09c1a4ba790651a364d1bf0
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 1ee9410e3b40a8180d768945a643d3e52c29046b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515580"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596246"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Расчет оценки соответствия требованиям Майкрософт (Предварительная версия)
 

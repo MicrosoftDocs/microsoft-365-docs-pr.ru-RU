@@ -1,5 +1,7 @@
 ---
 title: Управление доступом пользователей к документам Office с мобильных устройств
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -23,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: Узнайте о политиках защиты, которые помогут защитить доступ к приложениям Office с мобильных устройств.
-ms.openlocfilehash: c24dae7e0eea777e728ebead9a2abcc3785763dd
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 39d28a3a78fb06d0020c484b1782b544f6a8c656
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633356"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593828"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>Управление доступом пользователей к документам Office с мобильных устройств
 

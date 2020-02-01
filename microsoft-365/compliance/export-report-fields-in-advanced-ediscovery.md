@@ -1,5 +1,7 @@
 ---
 title: Экспорт полей отчета в Office 365 Advanced eDiscovery
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: Описывает все поля, включенные в отчеты по экспорту для расширенного обнаружения электронных данных.
-ms.openlocfilehash: cc585fcabefa9036d91162b6418c3e5e9c752378
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: facd93422bbe41a9dc8c5f252cf08eab7fb308f2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805842"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594620"
 ---
 # <a name="export-report-fields-in-office-365-advanced-ediscovery"></a>Экспорт полей отчета в Office 365 Advanced eDiscovery
 
@@ -73,7 +75,7 @@ ms.locfileid: "40805842"
 |Marked_as_seed  <br/> |Важность  <br/> |Расстановка тегов для файла, если он был задан как начальный файл, релевантность в соответствии с вопросом или категорией.  <br/> |Да  <br/> |Да  <br/> |
 |Marked_as_pre с тегами  <br/> |Важность  <br/> |Разметка файла, если он был задан как предварительно отмеченный в соответствии с вопросом или категорией.  <br/> |Да  <br/> |Да  <br/> |
 |Relevance_status_description  <br/> |Важность  <br/> |Описание состояния релевантности.  <br/> |Да  <br/> |Да  <br/> |
-|Комментарий  <br/> |Общие  <br/> |Комментарий, введенный пользователем.  <br/> |Да  <br/> |Да  <br/> |
+|Comment  <br/> |Общие  <br/> |Комментарий, введенный пользователем.  <br/> |Да  <br/> |Да  <br/> |
 |Export_input_path  <br/> |Обработка  <br/> |Путь для экспорта входных данных.  <br/> |Да  <br/> |Да  <br/> |
 |Pivot_ID  <br/> |Ближайшие дубликаты  <br/> |Идентификатор файла сведения.  <br/> |Да  <br/> |Да  <br/> |
 |Family_size  <br/> |Обработка  <br/> |Количество файлов в семействе.  <br/> |Да  <br/> |Да  <br/> |

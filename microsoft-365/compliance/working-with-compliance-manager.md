@@ -1,5 +1,7 @@
 ---
 title: Работать с диспетчером соответствия требованиям Майкрософт (Предварительная версия)
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Диспетчер соответствия требованиям Майкрософт — бесплатное средство оценки рисков на основе рабочих процессов на портале доверия службы Майкрософт. Диспетчер соответствия требованиям позволяет отслеживать, назначать и проверять нормативные действия, связанные с продуктами Майкрософт.
-ms.openlocfilehash: db63f1b5cba2166ae8e4f922b84672677b52c4e9
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 645d2bca907d81e32d8262051fd159dd52ba3039
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515870"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597206"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Работать с диспетчером соответствия требованиям Майкрософт (Предварительная версия)
 

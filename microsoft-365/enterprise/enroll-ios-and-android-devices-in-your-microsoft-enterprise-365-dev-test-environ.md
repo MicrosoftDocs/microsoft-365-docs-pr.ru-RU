@@ -1,5 +1,7 @@
 ---
 title: Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: Используйте это руководство по лаборатории тестирования для регистрации устройств в тестовой среде Microsoft 365 и удаленного управления ими.
-ms.openlocfilehash: 98670e64045b36dcdafb46c6ff798b8be7fd6dc1
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e2508e94cadb7f16f88991545756662292849158
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801874"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596996"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Регистрация устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise
 
@@ -25,7 +27,7 @@ ms.locfileid: "40801874"
 
 Следуя инструкциям, приведенным в этой статье, вы сможете регистрировать и тестировать базовые возможности управления мобильными устройствами для устройств с iOS и Android в тестовой среде Microsoft 365 Enterprise.
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
 > Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
@@ -70,7 +72,7 @@ Microsoft Intune предоставляет возможности удален�
 Дополнительные эксперименты приведены в разделе [Доступные действия устройств](https://docs.microsoft.com/intune/device-management#available-device-actions).
 
     
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 Узнайте о дополнительных возможностях и возможностях [управления мобильными устройствами](m365-enterprise-test-lab-guides.md#mobile-device-management) в тестовой среде.
 

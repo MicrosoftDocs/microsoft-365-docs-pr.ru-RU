@@ -1,5 +1,7 @@
 ---
 title: Использование готового классификатора (предварительная версия)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В Microsoft 365 имеется ряд готовых к использованию классификаторов машинного обучения, которые можно использовать для определения и маркировки содержимого в Организации. В этом разделе показано, как подготовиться к использованию этих средств для использования классификаторов.
-ms.openlocfilehash: b94a49930cc2d460fb2db5ff4ff0f441f6c7b35a
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: c6659bc32131948c57ad0bf7c8e3a30fbce125d9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259435"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595896"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>Использование готового классификатора (предварительная версия)
 

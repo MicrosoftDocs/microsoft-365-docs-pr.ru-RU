@@ -1,5 +1,7 @@
 ---
 title: Настройка Microsoft 365 бизнес
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -26,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: 0001c2b9962f6cce0be1f77cbf427c68f9ee3249
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831310"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594276"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Настройка Microsoft 365 Business в мастере установки
 
@@ -39,7 +41,7 @@ ms.locfileid: "39831310"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Добавление домена, пользователей и Настройка политик
 
@@ -133,4 +135,4 @@ ms.locfileid: "39831310"
 
 ## <a name="see-also"></a>См. также
 
-[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

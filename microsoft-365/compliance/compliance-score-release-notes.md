@@ -1,5 +1,7 @@
 ---
 title: Заметки о выпуске Microsoft для оценки соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Заметки о выпуске и известные проблемы для оценки соответствия требованиям Майкрософт (Предварительная версия) — функция центра соответствия требованиям M365, помогающая упростить и автоматизировать оценку риска.
-ms.openlocfilehash: 370c714c927d09a16272f8ab265c7b0c4e36381a
-ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
+ms.openlocfilehash: a46a495e14187ed76926438bc3e28bd70d4f025e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41261873"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595766"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Заметки о выпуске Microsoft для оценки соответствия требованиям (Предварительная версия)
 

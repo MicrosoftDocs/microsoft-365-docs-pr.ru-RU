@@ -1,5 +1,7 @@
 ---
 title: Добавление данных из одного набора проверки в другой
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 62acfd2240801e59447209c7cb1e41912d3dcf4d
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 1c0f174b29d49ec1d07c128f709ee3279c1b53ef
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256756"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594052"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>Добавление данных в набор проверки из другого набора проверки
 
@@ -27,7 +29,7 @@ ms.locfileid: "39256756"
 
 Выполните действия, описанные в этой статье, чтобы добавить контент из одного набора проверки в другой.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 Прежде чем начать, вам потребуется создать новый набор рецензирования, чтобы добавить данные в.  Новый набор проверки можно добавить на вкладке " **наборы проверки** ". Дополнительные сведения можно найти [в статье Создание набора проверки](managing-review-sets.md#create-a-review-set).
 

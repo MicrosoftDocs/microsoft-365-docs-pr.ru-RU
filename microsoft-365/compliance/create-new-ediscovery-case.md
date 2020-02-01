@@ -1,5 +1,7 @@
 ---
 title: Создание нового обращения в Advanced eDiscovery
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7860128ef8024a51f3cd25169dfd93116fd07c8f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7d507730e3e5301446889e52e4bbd5d85660da36
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089673"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596116"
 ---
 # <a name="create-a-new-case-in-advanced-ediscovery"></a>Создание нового обращения в Advanced eDiscovery  
 
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
+2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
     
 3. В центре безопасности & соответствия требованиям выберите **Обнаружение электронных данных > Advanced eDiscovery**.
  

@@ -1,5 +1,7 @@
 ---
 title: Миграция с Microsoft 365 бизнес на Microsoft 365 E3
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Сведения о том, как перенести бизнес-деятельность из Microsoft 365 Business в Microsoft 365 E3.
-ms.openlocfilehash: 1cf6aa741c7f0b427a434d472df7169ef37c5418
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 2515c2d56727b9a8be643dea76e150eeaadce5c9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558046"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593698"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Миграция с Microsoft 365 бизнес на Microsoft 365 E3
 
@@ -139,7 +141,7 @@ Windows 10 Корпоративная E3 также включает управ�
 Microsoft 365 Business включает Windows 10 бизнес, которую можно установить с помощью Windows автопилота. При переходе на Microsoft 365 E3 каждая пользовательская лицензия включает Windows 10 Корпоративная версия E3, которую можно также установить с помощью Windows автопилота.
 
 <a name="office-365-business"></a>
-### <a name="office-365-business"></a>Office 365 бизнес
+### <a name="office-365-business"></a>Office 365 для бизнеса
 
 Office 365 Business Client, установленный на устройствах, автоматически начнет использовать функции Office 365 профессиональный плюс. После миграции теперь можно использовать следующие компоненты:
 

@@ -1,5 +1,7 @@
 ---
 title: Управление покупками самостоятельных служб (Администраторы)
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -12,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Администраторы могут узнать, как управлять самостоятельными покупками пользователей в Организации.
-ms.openlocfilehash: 4cd59bc10d6a6a856932c8bd94e67469217c1313
-ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
+ms.openlocfilehash: 5db942b42f398e8951da43add7013569af52c53f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120234"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594113"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Управление самостоятельными покупками (администратором)
 

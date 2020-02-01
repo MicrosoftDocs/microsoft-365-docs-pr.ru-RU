@@ -1,5 +1,7 @@
 ---
 title: Добавление результатов поиска в набор для проверки
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Добавление результатов поиска, связанных с дополнительным вариантом обнаружения электронных данных. Элементы копируются из исходного расположения и копируются в предоставленное Майкрософт место хранения Azure. Элементы также переиндексируются, и Расширенное обнаружение электронных данных выполняет оптическое распознавание текста (OCR) для файлов изображений и отправляет текст изображения для просмотра и анализа.
-ms.openlocfilehash: 838301576d84f4cf3dcb618904f55b661bcf95b3
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 748de7f3cb3fec5a37cb205e0d480701b4cded2e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257027"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594640"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Добавление результатов поиска в набор для проверки
 

@@ -1,5 +1,7 @@
 ---
 title: Настройка параметров поиска и аналитики
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0456ee21087c7fe05c3ef96d517feb468c7cfe5e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cce056f1dcc0225da13612ffbd9985af3eb4ce9c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089824"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596226"
 ---
 # <a name="configure-search-and-analytics-settings"></a>Настройка параметров поиска и аналитики
 
@@ -36,7 +38,7 @@ ms.locfileid: "37089824"
 - Минимальное и максимальное число слов: почти повторяющиеся и почтовые цепочки будут выполняться только для документов, в которых минимальное количество слов и не превышает максимальное число слов.
 Дополнительные сведения см. в статье [Обнаружение повторяющихся](near-duplicates.md) данных и [цепочка электронной почты](email-threading.md).
 
-## <a name="themes"></a>темы;
+## <a name="themes"></a>Темы
 
 В этом разделе можно задать параметры для тем.
 

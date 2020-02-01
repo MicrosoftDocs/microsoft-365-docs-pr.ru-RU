@@ -1,5 +1,7 @@
 ---
 title: Защита компьютеров с Windows 10
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как защитить компьютеры с Windows 10 после настройки Microsoft 365 Business.
-ms.openlocfilehash: 3c558132f1e370a19735a38f9caa09ddb8e1f9f4
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 068ac8c8b6011c879d859024b44192cb0a6d3d7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515590"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593465"
 ---
 # <a name="secure-windows-10-computers"></a>Защита компьютеров с Windows 10
 

@@ -4,15 +4,17 @@ description: ''
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a6397f1c78bb15e198ed75be50c51953b049ed68
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 141bd55a0619fb2f007b5f9173310a1e2fe5bab1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074698"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596566"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для настольного компьютера, управляемого Майкрософт
 
@@ -42,7 +44,7 @@ ms.locfileid: "38074698"
 Компьютеры, управляемые Майкрософт | prod-mwaas-services-customerapi.azurewebsites.net
 Получение справки | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
 Быстрая помощь | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
-Помощник по поддержке и восстановлению Майкрософт для Office 365 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
+Помощник по поддержке и восстановлению для Office 365 (Майкрософт) | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed---other-microsoft-products"></a>Разрешенные конечные точки — другие продукты Майкрософт
@@ -53,7 +55,7 @@ ms.locfileid: "38074698"
 --- | ---
 Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>time.windows.com
 Оптимизация доставки | [Настройка оптимизации доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
-Office 365 | [Диапазоны IP-адресов и URL-адреса для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Office 365 | [Диапазоны IP-адресов и URL-адреса для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портам доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Требования к настройке сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)
 Advanced Threat Protection в защитнике Майкрософт (ATP) | [Конечные точки ATP защитника (Майкрософт)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)

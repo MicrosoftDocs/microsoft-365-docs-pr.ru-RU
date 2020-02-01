@@ -1,5 +1,7 @@
 ---
 title: Вопросы и ответы по самостоятельной покупке
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -13,19 +15,19 @@ search.appverid:
 - MET150
 description: Здесь вы найдете ответы на часто задаваемые вопросы об самостоятельных покупках.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 8671492680eba730bf123036a4bb347d055f686d
-ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
+ms.openlocfilehash: 9f456c992cda6fcfafd1a0d5faa68dba42a894d8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120160"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594103"
 ---
 # <a name="self-service-purchase-faq"></a>Вопросы и ответы по самостоятельной покупке
 
 > [!NOTE]
 > Сведения, приведенные в этой статье, применимы к подпискам на Microsoft Power Platform (Power BI, Power Apps and Power Автоматизация).
 
-Теперь самостоятельные покупки доступны для Power BI в США.
+Теперь самостоятельные покупки доступны для платформы управления питанием в США.
 
 ## <a name="general"></a>Общие
 
@@ -43,7 +45,7 @@ ms.locfileid: "41120160"
 
 ### <a name="which-power-platform-products-are-available-for-self-service-purchase"></a>Какие продукты Power Platform доступны для самостоятельной покупки?
 
-Корпорация Майкрософт выпустила самостоятельную покупку для Power BI клиентам в США, и дополнительные рынки становятся доступны в ближайшие месяцы. Приложения для управления питанием и автоматизация будут добавлены для клиентов в США 28 января 2020 г. Эта возможность будет недоступна для клиентов в США, которые в настоящее время не являются правительственными, невыгодными и образовательными.
+Корпорация Майкрософт выпустила самостоятельную закупку для платформы управления питанием (Power BI, Power Apps и Power Автоматизация) для клиентов в США, при этом дополнительные рынки становятся доступными в ближайшие месяцы. Эта возможность будет недоступна для клиентов в США, которые в настоящее время не являются правительственными, невыгодными и образовательными.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>Будет ли осуществляться самостоятельная покупка для служб за пределами продуктов Power Platform?
 

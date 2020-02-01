@@ -1,5 +1,7 @@
 ---
 title: Использование поиска контента в Office 365 для целевых коллекций
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Используйте поиск контента в центре безопасности & соответствия требованиям для выполнения целевых коллекций. Целевая коллекция означает, что вы уверены, что элементы, реагирующие на обращение или привилегированные элементы, расположены в определенном почтовом ящике или папке сайта. Используйте сценарий, описанный в этой статье, чтобы получить идентификатор или путь к определенному почтовому ящику или папкам сайтов, в которых требуется выполнить поиск.
-ms.openlocfilehash: 02cd78f9ebb02f7c41e0703ba4ddb78bfd184000
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 66929911cdb1692ea1ee2a8920dad349d50ec156
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687561"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597306"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Использование поиска контента в Office 365 для целевых коллекций
 

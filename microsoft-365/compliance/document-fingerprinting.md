@@ -1,5 +1,7 @@
 ---
 title: Отпечатки документов
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. Отпечатки документов упрощают защиту этих сведений путем определения стандартных форм, используемых в пределах всей организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
-ms.openlocfilehash: 8ac8e0f44c71f0f52d362f6c6c84f7fc9e55face
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: 6aea349495aa31eba8c9b57abffb92131d00864c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38687429"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595204"
 ---
 # <a name="document-fingerprinting"></a>Создание отпечатка документа
 

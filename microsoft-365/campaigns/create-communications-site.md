@@ -1,5 +1,7 @@
 ---
 title: Создание сайта для общения
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создание коммуникационного сайта для кампании.
-ms.openlocfilehash: e8f7730d1ec407bf24a819df7366d9bedd78d390
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: f0d79bcaa49d5e62dff5618eeaf94347d5dd6313
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748280"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594924"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>Создание коммуникационного сайта для кампании
 

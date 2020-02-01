@@ -1,5 +1,7 @@
 ---
 title: Использование Алловселфсервицепурчасе для модуля PowerShell Мскоммерце
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать командлет PowerShell Алловселфсервицепурчасе для включения или отключения самостоятельной покупки.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cb035294ff7f6007e73464f88fc69376fc5b8cc1
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 5149a07daeedae3c28bc4326b92bb20881faebe2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748250"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594670"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Использование Алловселфсервицепурчасе для модуля PowerShell Мскоммерце
 

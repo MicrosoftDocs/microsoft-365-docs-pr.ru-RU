@@ -1,5 +1,7 @@
 ---
 title: Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: Узнайте, как скачать один или несколько существующих отчетов в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 05290d58be7b9d1770040d883b6eef9269cf0419
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d5f381a5e59f7cb6348bdc96572dfa37c4919500
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089512"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595174"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям
 
@@ -35,7 +37,7 @@ ms.locfileid: "37089512"
     
 3. Нажмите кнопку **скачать отчет**, а затем нажмите кнопку **Закрыть**.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](../security/office-365-security/reports-and-insights-in-security-and-compliance.md)
   

@@ -1,5 +1,7 @@
 ---
 title: Настройка соединителя для архивации данных LinkedIn
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных со страницы LinkedIn компании в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения для управления соответствием сторонним данным Организации.
-ms.openlocfilehash: 109d05b5bd2e4a361a92487f86198a07be124dfc
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: c8e39577a6eaba3ad865b1617683c2baa9260759
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269458"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596026"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Настройка соединителя для архивации данных LinkedIn
 
