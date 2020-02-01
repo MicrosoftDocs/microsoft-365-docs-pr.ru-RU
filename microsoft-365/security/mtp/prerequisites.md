@@ -19,38 +19,40 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d45be77abd404f87484d0f8390f09f1b9bc3b8ce
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d3f24e8615f5b11b0853d7f1e36b49eb0cf2424f
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600014"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661925"
 ---
-# <a name="microsoft-threat-protection-prerequisites"></a><span data-ttu-id="5c874-104">Предварительные требования для Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="5c874-104">Microsoft Threat Protection prerequisites</span></span>
+# <a name="microsoft-threat-protection-prerequisites"></a><span data-ttu-id="b790f-104">Предварительные требования для Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="b790f-104">Microsoft Threat Protection prerequisites</span></span>
 
-<span data-ttu-id="5c874-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="5c874-105">**Applies to:**</span></span>
-- <span data-ttu-id="5c874-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="5c874-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="b790f-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="b790f-105">**Applies to:**</span></span>
+- <span data-ttu-id="b790f-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="b790f-106">Microsoft Threat Protection</span></span>
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-<span data-ttu-id="5c874-107">Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также других параметрах конфигурации для запуска и использования Безопасности Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="5c874-107">Learn about the licensing, hardware and software requirements, and other configuration settings to run and use the Microsoft 365 security.</span></span>
+<span data-ttu-id="b790f-107">Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защиты от угроз Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="b790f-107">Learn about the licensing, hardware and software requirements, and other configuration settings to provision and use Microsoft Threat Protection.</span></span>
 
-## <a name="licensing-requirements"></a><span data-ttu-id="5c874-108">Требования к лицензированию</span><span class="sxs-lookup"><span data-stu-id="5c874-108">Licensing requirements</span></span>
-<span data-ttu-id="5c874-109">Для Безопасности Microsoft 365 требуется одна из следующих лицензий:</span><span class="sxs-lookup"><span data-stu-id="5c874-109">Microsoft 365 security requires one of the following licenses:</span></span>
+## <a name="licensing-requirements"></a><span data-ttu-id="b790f-108">Требования к лицензированию</span><span class="sxs-lookup"><span data-stu-id="b790f-108">Licensing requirements</span></span>
+<span data-ttu-id="b790f-109">Для использования защиты от угроз Майкрософт необходима одна из следующих лицензий или комбинация лицензий:</span><span class="sxs-lookup"><span data-stu-id="b790f-109">To use Microsoft Threat Protection, you need one of the following licenses or combination of licenses:</span></span>
 
-- <span data-ttu-id="5c874-110">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="5c874-110">Microsoft 365 E5</span></span> 
-- <span data-ttu-id="5c874-111">Office 365 E5, Enterprise Mobility + Security E5 и Windows E5</span><span class="sxs-lookup"><span data-stu-id="5c874-111">Office 365 E5, Enterprise Mobility + Security E5, and Windows E5</span></span>
+- <span data-ttu-id="b790f-110">Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="b790f-110">Microsoft 365 E5</span></span>
+- <span data-ttu-id="b790f-111">Безопасность Microsoft 365 E5</span><span class="sxs-lookup"><span data-stu-id="b790f-111">Microsoft 365 E5 Security</span></span>
+- <span data-ttu-id="b790f-112">Office 365 E5, Enterprise Mobility + Security E5 и Windows E5</span><span class="sxs-lookup"><span data-stu-id="b790f-112">Office 365 E5, Enterprise Mobility + Security E5, and Windows E5</span></span>
 
-<span data-ttu-id="5c874-112">Эти лицензии можно получить на странице [Microsoft 365 корпоративный](https://www.microsoft.com/en-us/microsoft-365/enterprise).</span><span class="sxs-lookup"><span data-stu-id="5c874-112">You can acquire these licenses from the [Microsoft 365 enterprise page](https://www.microsoft.com/en-us/microsoft-365/enterprise).</span></span>
+[<span data-ttu-id="b790f-113">Просмотр планов корпоративных служб Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b790f-113">View Microsoft 365 Enterprise service plans</span></span>](https://www.microsoft.com/en-us/licensing/product-licensing/microsoft-365-enterprise)
 
-### <a name="check-your-existing--licenses"></a><span data-ttu-id="5c874-113">Проверка существующих лицензий</span><span class="sxs-lookup"><span data-stu-id="5c874-113">Check your existing  licenses</span></span>
-<span data-ttu-id="5c874-114">Перейдите в Центр администрирования Microsoft 365 по адресу [admin.microsoft.com](https://admin.microsoft.com/), чтобы просмотреть существующие лицензии.</span><span class="sxs-lookup"><span data-stu-id="5c874-114">Go to Microsoft 365 admin center at [admin.microsoft.com](https://admin.microsoft.com/) to view your existing licenses.</span></span> <span data-ttu-id="5c874-115">В Центре администрирования выберите **Выставление счетов** > **Лицензии**.</span><span class="sxs-lookup"><span data-stu-id="5c874-115">In the admin center, go to **Billing** > **Licenses**.</span></span>
+### <a name="check-your-existing--licenses"></a><span data-ttu-id="b790f-114">Проверка существующих лицензий</span><span class="sxs-lookup"><span data-stu-id="b790f-114">Check your existing  licenses</span></span>
+<span data-ttu-id="b790f-115">Перейдите в центр администрирования Microsoft 365 ([Admin.Microsoft.com](https://admin.microsoft.com/)), чтобы просмотреть существующие лицензии.</span><span class="sxs-lookup"><span data-stu-id="b790f-115">Go to Microsoft 365 admin center ([admin.microsoft.com](https://admin.microsoft.com/)) to view your existing licenses.</span></span> <span data-ttu-id="b790f-116">В Центре администрирования выберите **Выставление счетов** > **Лицензии**.</span><span class="sxs-lookup"><span data-stu-id="b790f-116">In the admin center, go to **Billing** > **Licenses**.</span></span>
 
-<span data-ttu-id="5c874-116">Для просмотра сведений о лицензировании вам должна быть назначена роль **администратора выставления счетов** или **глобального читателя** [в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).</span><span class="sxs-lookup"><span data-stu-id="5c874-116">You need to be assigned either the **Billing admin** or **Global reader** [role in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) to be able to see licensing information.</span></span> <span data-ttu-id="5c874-117">Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.</span><span class="sxs-lookup"><span data-stu-id="5c874-117">If you encounter access problems, contact a global admin.</span></span>  
+>[!NOTE]
+> <span data-ttu-id="b790f-117">Для просмотра сведений о лицензии необходимо назначить роль **администратора выставления счетов** или роль **глобального читателя** [в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) .</span><span class="sxs-lookup"><span data-stu-id="b790f-117">You need to be assigned either the **Billing admin** or **Global reader** [role in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) to be able to see license information.</span></span> <span data-ttu-id="b790f-118">Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.</span><span class="sxs-lookup"><span data-stu-id="b790f-118">If you encounter access problems, contact a global admin.</span></span>
 
-## <a name="browser-requirements"></a><span data-ttu-id="5c874-118">Требования к браузеру</span><span class="sxs-lookup"><span data-stu-id="5c874-118">Browser requirements</span></span>
-<span data-ttu-id="5c874-119">Доступ к Центру безопасности Microsoft 365 осуществляется через браузер.</span><span class="sxs-lookup"><span data-stu-id="5c874-119">Access to Microsoft 365 security center is done through a browser.</span></span> <span data-ttu-id="5c874-120">Поддерживаются Internet Explorer и Microsoft Edge.</span><span class="sxs-lookup"><span data-stu-id="5c874-120">Internet Explorer and Microsoft Edge is supported.</span></span> <span data-ttu-id="5c874-121">Кроме того, поддерживаются все HTML5-совместимые браузеры.</span><span class="sxs-lookup"><span data-stu-id="5c874-121">Any HTML5 compliant browsers are also supported.</span></span>
+## <a name="browser-requirements"></a><span data-ttu-id="b790f-119">Требования к браузеру</span><span class="sxs-lookup"><span data-stu-id="b790f-119">Browser requirements</span></span>
+<span data-ttu-id="b790f-120">Доступ к защите от угроз Майкрософт в центре безопасности Microsoft 365 с помощью Microsoft EDGE, Internet Explorer 11 или любого совместимого с HTML 5 веб-браузера.</span><span class="sxs-lookup"><span data-stu-id="b790f-120">Access Microsoft Threat Protection in the Microsoft 365 security center using Microsoft Edge, Internet Explorer 11, or any HTML 5 compliant web browser.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="5c874-122">См. также</span><span class="sxs-lookup"><span data-stu-id="5c874-122">Related topics</span></span>
-- [<span data-ttu-id="5c874-123">Обзор Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="5c874-123">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
-- [<span data-ttu-id="5c874-124">Включение Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="5c874-124">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
+## <a name="related-topics"></a><span data-ttu-id="b790f-121">См. также</span><span class="sxs-lookup"><span data-stu-id="b790f-121">Related topics</span></span>
+- [<span data-ttu-id="b790f-122">Обзор Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="b790f-122">Microsoft Threat Protection overview</span></span>](microsoft-threat-protection.md)
+- [<span data-ttu-id="b790f-123">Включение Защиты от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="b790f-123">Turn on Microsoft Threat Protection</span></span>](mtp-enable.md)
