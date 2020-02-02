@@ -5,6 +5,8 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a5f68e235252208de664cc6dfdd62b6019d9abe6
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 57d4093712efbee7bcb4f27280b0ba64a50dbe41
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259987"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662025"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -47,15 +49,14 @@ ms.locfileid: "41259987"
 
 ### <a name="covered-services-for-soc-1-and-soc-2"></a>Поддерживаемые службы для SOC 1 и SOC 2
 
-- Azure, Azure для государственных организаций и Azure для Германии ([подробный список](https://aka.ms/AzureCompliance))
+- [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
 - Cloud App Security
-- Dynamics 365 и Dynamics 365 для государственных организаций США ([подробный список](https://aka.ms/d365-compliance-list))
+- [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
 - Graph
 - Intune
 - Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
-- Office 365, Office 365 для государственных организаций и Office 365 U.S. Government Defense ([подробный список](https://go.microsoft.com/fwlink/p/?LinkID=2077751)); для Yammer получен отчет SOC 1 (тип 1)
-- Office 365 Germany
+- [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 - Stream
@@ -63,13 +64,14 @@ ms.locfileid: "41259987"
 
 ### <a name="covered-services-for-soc-3"></a>Поддерживаемые службы для SOC 3
 
-- Azure, Azure для государственных организаций и Azure для Германии ([подробный список](https://aka.ms/AzureCompliance))
+- [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
 - Cloud App Security
 - Graph
 - Intune
 - Компьютеры, управляемые Майкрософт
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI
 - Stream
 
@@ -93,11 +95,13 @@ ms.locfileid: "41259987"
 
 #### <a name="office-365"></a>Office 365
 
-- [Отчет о результатах аудита SOC 1 (SSAE 16, тип II) для Office 365](https://aka.ms/office365soc1auditreport)
-- [Отчет о результатах аудита SOC 2 (AT 101, тип II) для Office 365](https://aka.ms/Office365SOC2AuditReport)
+- [Отчет SOC 1 (SSAE 18) для Office 365 Core](https://aka.ms/o365SOC-1)
+- [Отчет SOC 2 (SSAE 18) для Office 365 Core](https://aka.ms/o365SOC-2)
+- [Отчет SOC 3 (SSAE 18) для Office 365 Core](https://aka.ms/o365SOC-3)
+- [Отчет SOC 2 (T1 — SSAE 18, тип I) для микрослужб Office 365](https://aka.ms/o365-MS-SOC-2-type1)
 - [Отчет о результатах аудита SOC 1 (SSAE 16) для защищенного хранилища Office 365](https://aka.ms/Office365CustomerLockboxSOCAuditReport)
-- [Отчет о результатах аудита SOC 2 (AT 101, тип II) для Yammer](https://aka.ms/YammerSOC2AuditReport)
 - [Отчет о результатах аудита SOC 2 (AT 101, тип I) для Yammer](https://aka.ms/YammerSOC2Type1AuditReport)
+- [Отчет SOC 2 (тип II) для Yammer](https://aka.ms/yammerSOC-2)
 - [См. связывающие письма и дополнительные отчеты аудита](https://aka.ms/auditreports)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
@@ -127,15 +131,10 @@ ms.locfileid: "41259987"
 
 ## <a name="resources"></a>Ресурсы
 
- - [Улучшенная защита данных с помощью облачных служб Майкрософт](https://www.microsoft.com/trustcenter/guidance/protect-data)
- - [Отчеты по средствам контроля обслуживающей организации (SOC)](https://aka.ms/mssocreports)
- - [Стандарт аудита SSAE 16](https://www.ssae-16.com/)
- - [Стандарт ISAE 3402](https://isae3402.com/)
- - [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
- - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
- - [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
- - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/F/E/1/FE10DD69-B5A9-4DA7-A86A-1F565D2B6472/SOC_backgrounder-2018.pdf).
+- [Улучшенная защита данных с помощью облачных служб Майкрософт](https://www.microsoft.com/trustcenter/guidance/protect-data)
+- [Отчеты по средствам контроля обслуживающей организации (SOC)](https://aka.ms/mssocreports)
+- [Обзор SSAE 16](http://ssae16.com/SSAE16_overview.html)
+- [Обзор ISAE 3402](http://isae3402.com/ISAE3402_overview.html)
+- [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
+- [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
