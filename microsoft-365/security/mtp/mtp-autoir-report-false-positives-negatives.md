@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 44c90c6c9394b1f9fee34b8eb068bb7c232c4d78
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: 1177f552652e728928a2b1d322b4ce0217415509
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41627975"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774195"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Составление отчетов о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования
 
@@ -57,7 +57,7 @@ ms.locfileid: "41627975"
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Отмена действия по исправлению, сделанного на устройстве
 
-Если действие по исправлению было выполнено на устройстве (например, на устройстве с Windows 10), и элемент, который действительно очищается, Группа "операции по обеспечению безопасности" может отменить действие "Устранение неполадок" в [центре уведомлений](mtp-action-center.md).
+Если действие по исправлению было выполнено на устройстве (например, на устройстве с Windows 10), а элемент на самом деле очищен, Группа управления операциями безопасности может отменить действие по исправлению в [центре уведомлений](mtp-action-center.md).
 
 > [!IMPORTANT]
 > Перед попыткой выполнения следующей задачи убедитесь, что у вас есть [необходимые разрешения](mtp-action-center.md#required-permissions-for-action-center-tasks) .
