@@ -1,5 +1,7 @@
 ---
 title: Этап 1. Проверка готовности устройств и приложений
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как оценить готовность устройств и приложений в среде.
-ms.openlocfilehash: dad6b4092cbcedbc4674733af1459d28f9b1d50e
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 6bf41d0930a3c957bb856d35815bf05087997208
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112723"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774215"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Этап 1. Проверка готовности устройств и приложений
 
@@ -106,9 +108,9 @@ ms.locfileid: "41112723"
 Дополнительные сведения см. в статье [Общие сведения об инвентаризации программного обеспечения в Configuration Manager](https://docs.microsoft.com/configmgr/core/clients/manage/inventory/introduction-to-software-inventory). Сведения о настройке требований к платформе в пакетах приложений см. в статье [Пакеты и программы в Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
 
-## <a name="desktop-app-assure"></a>Служба Assure для классических приложений
+## <a name="app-assure"></a>App Assure
 
-Другим средством, которое поможет определить совместимость с Windows 10 и приложениями Office 365 профессиональный плюс является [служба Assure для классических приложений](https://aka.ms/desktopappassure), доступная в FastTrack Center. В случае проблем совместимости приложения специалист Майкрософт через службу Assure для классических приложений будет работать с вами над их устранением без дополнительной платы.
+Другим средством, которое поможет определить совместимость с Windows 10 и приложениями Office 365 профессиональный плюс является программа [App Assure](https://aka.ms/appassure), доступная в FastTrack Center. В случае проблем совместимости приложения специалист Майкрософт через службу App Assure будет работать с вами над их устранением без дополнительной платы.
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>Последующее использование в качестве средств диагностики данных
 
