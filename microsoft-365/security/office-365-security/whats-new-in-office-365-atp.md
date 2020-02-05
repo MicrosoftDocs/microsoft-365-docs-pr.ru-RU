@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 98a658febe6c20904f82fb2f152bb6cc115cce49
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc781d9f800b3db938b253775b31df118c21fd03
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597964"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784706"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -49,7 +49,7 @@ ms.locfileid: "41597964"
 
 - [Интеграция с office 365 ATP: автоматическое исследование и события отклика с помощью API действий управления office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP, план 2)
 
-- [Просмотр заголовков электронной почты и Загрузка текста сообщения электронной почты](investigate-malicious-email-that-was-delivered.md#view-the-email-headers-and-download-the-email-body) (Office 365 ATP, план 1 или план 2)
+- [Просмотр заголовков электронной почты и Загрузка текста сообщения электронной почты](investigate-malicious-email-that-was-delivered.md) (Office 365 ATP, план 1 или план 2)
 
 ## <a name="august-2019"></a>Август 2019 г.
 
@@ -67,7 +67,7 @@ ms.locfileid: "41597964"
 
 Знаете ли вы, что Office 365 ATP доступен в двух планах? [Узнайте больше о том, что включает каждый план](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы
 
 [План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
