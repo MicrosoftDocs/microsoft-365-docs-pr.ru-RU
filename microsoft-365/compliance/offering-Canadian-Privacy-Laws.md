@@ -5,18 +5,21 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 22703f7c9589a246464b16a3088036a858f59475
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 6a2957ed5782c9449a1715669a7e220940572a66
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859999"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602576"
 ---
 # <a name="canadian-privacy-laws"></a>Канадские законы о защите конфиденциальности
 
@@ -24,7 +27,7 @@ ms.locfileid: "39859999"
 
 Канадские законы о защите конфиденциальности были приняты с целью защитить конфиденциальность частных лиц и предоставить им право на доступ к собранной информации о них. За соблюдением этих законов следит [Управление специального уполномоченного по вопросам конфиденциальности в Канаде](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/02_05_d_15/) (OPCC).
 
-[Закон о конфиденциальности](https://privacy.microsoft.com/ru-RU/#heading-0-0-2-1) контролирует сбор, использование и разглашение личных сведений (в том числе принадлежащих федеральным сотрудникам) органами федерального правительства. [Закон о защите личных сведений и электронных документов](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA) одинаково применяется как к бизнес-деятельности коммерческих предприятий, так и к сотрудникам предприятий, контролируемых федеральным правительством, таких как банки, авиалинии и телекоммуникационные компании.
+[Закон о конфиденциальности](https://privacy.microsoft.com/en-US/#heading-0-0-2-1) контролирует сбор, использование и разглашение личных сведений (в том числе принадлежащих федеральным сотрудникам) органами федерального правительства. [Закон о защите личных сведений и электронных документов](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (PIPEDA) одинаково применяется как к бизнес-деятельности коммерческих предприятий, так и к сотрудникам предприятий, контролируемых федеральным правительством, таких как банки, авиалинии и телекоммуникационные компании.
 
 Закон PIPEDA основан на 10 [принципах честного использования данных](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/), которым должны следовать компании. Например, базовый принцип согласия формирует требование PIPEDA, согласно которому организация должна получить разрешение физического лица на сбор и использование его личных сведений. Субъекты имеют право как на доступ к своим личным сведениям, так и на оспаривание их точности (в соответствии с принципом "личного доступа"). Принцип "целей идентификации" формирует правило о том, что личные сведения могут быть использованы только в согласованных целях.
 

@@ -5,18 +5,21 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 206dbd57f5fc5c41c4238e13d9dca3072ef7d121
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 546e4b29f26ffdee8c876032fe83254fb5643fff
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859819"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602386"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>Центр информационных систем для финансовой отрасли (FISC)
 
@@ -40,7 +43,7 @@ ms.locfileid: "39859819"
 
 Финансовые учреждения могут использовать эту оценку соответствия требованиям в трех областях для соответствующей инфраструктуры и служб Azure, Dynamics 365, Office 365 и Microsoft Cloud App Security.
 
-[Дополнительные сведения о проверке внешних оценщиков и ссылки на их сайты (только на японском языке)](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx).
+[Дополнительные сведения о проверке внешних оценщиков и ссылки на их сайты (только на японском языке)](https://cloudblogs.microsoft.com/industry-blog/ja-jp/financial-services/2018/05/11/fisc_v9/).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 

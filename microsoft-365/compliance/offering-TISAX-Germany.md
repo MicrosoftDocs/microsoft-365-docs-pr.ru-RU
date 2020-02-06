@@ -5,18 +5,21 @@ keywords: Microsoft 365, соответствие требованиям, пре
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 89656556e4cba8fca12708e558aef3254c37bfba
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 3c7d3c6a710141972c1e54a7c67bfccd59c378d6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859459"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602016"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Механизм оценки и обмена Trusted Information Security Assessment Exchange (TISAX), Германия
 
@@ -26,7 +29,7 @@ ms.locfileid: "39859459"
 
 Компании, которые являются членами VDA, используют этот инструмент как для внутренних оценок безопасности, так и для оценок поставщиков, поставщиков услуг и других партнеров, которые обрабатывают конфиденциальные данные от вашего имени. Тем не менее, поскольку эти оценки выполнялись в индивидуальном порядке каждой компанией, то это создавало нагрузку для партнеров и дублировало усилия со стороны членов VDA.
 
-Чтобы упростить оценку, VDA создал общий механизм оценки и обмена, [Trusted Information Security Assessment Exchange](https://www.enx.com/tisax/) (TISAX). Каталог основных требований TISAX, Анкета для оценки аудита информационной безопасности и управления информационной безопасностью, верс. 4 (на [немецком](https://www.vda.de/de/services/Publikationen.html) и [английском](https://www.vda.de/en/services/Publications.html) языке) предоставляют общие стандарты мер безопасности в сфере ИТ и позволяют компаниям, зарегистрированным в TISAX, обмениваться результатами оценки. VDA поручил нейтральной сторонней организации, [ассоциация ENX](https://portal.enx.com/ru-RU/en-en/TISAX/tisaxassessmentresults/), внедрение TISAX. В этом качестве ассоциация аккредитует поставщиков аудита (аудиторов), поддерживает критерии аккредитации и требования оценки, а также контролирует качество внедрения и результаты оценки.
+Чтобы упростить оценку, VDA создал общий механизм оценки и обмена, [Trusted Information Security Assessment Exchange](https://www.enx.com/tisax/) (TISAX). Каталог основных требований TISAX, Анкета для оценки аудита информационной безопасности и управления информационной безопасностью, верс. 4 (на [немецком](https://www.vda.de/de/services/Publikationen.html) и [английском](https://www.vda.de/en/services/Publications.html) языке) предоставляют общие стандарты мер безопасности в сфере ИТ и позволяют компаниям, зарегистрированным в TISAX, обмениваться результатами оценки. VDA поручил нейтральной сторонней организации, [ассоциация ENX](https://portal.enx.com/en-US/en-en/TISAX/tisaxassessmentresults/), внедрение TISAX. В этом качестве ассоциация аккредитует поставщиков аудита (аудиторов), поддерживает критерии аккредитации и требования оценки, а также контролирует качество внедрения и результаты оценки.
 
 ## <a name="microsoft-and-tisax"></a>Корпорация Майкрософт и TISAX
 
@@ -50,7 +53,7 @@ ms.locfileid: "39859459"
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
-Представители отрасли, зарегистрированные в ENX, могут найти подробную информацию об облачных службах Майкрософт, к которым применима оценка TISAX, на портале [ENX](https://portal.enx.com/ru-RU/). Чтобы найти результаты оценки Майкрософт, войдите в существующую учетную запись TISAX и выполните поиск по Майкрософт. Кроме того, вы можете сузить область поиска, воспользовавшись приведенной ниже информацией.
+Представители отрасли, зарегистрированные в ENX, могут найти подробную информацию об облачных службах Майкрософт, к которым применима оценка TISAX, на портале [ENX](https://portal.enx.com/en-US/). Чтобы найти результаты оценки Майкрософт, войдите в существующую учетную запись TISAX и выполните поиск по Майкрософт. Кроме того, вы можете сузить область поиска, воспользовавшись приведенной ниже информацией.
 
 - Идентификатор участника Майкрософт: PGKYK0
 - Microsoft Corp.ЕС, уровень оценки в ЕС (AL) 3, идентификатор области: SY869K
@@ -72,7 +75,7 @@ ENX предоставляет подтверждение сертификаци
 
 ## <a name="resources"></a>Ресурсы
 
-- [Вопросы и ответы по TISAX](https://portal.enx.com/ru-RU/TISAX/faqs/)
+- [Вопросы и ответы по TISAX](https://portal.enx.com/en-US/TISAX/faqs/)
 - [Фольксваген и Майкрософт объявляют о стратегическом партнерстве](https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-and-microsoft-announce-strategic-partnership-4234)
 - [Office в вашем автомобиле: BMW предлагает Skype для бизнеса](https://news.microsoft.com/de-de/skype-business-ab-sofort-fahrzeugen-von-bmw-verfugbar/) (немецкий язык)
 - [Соединение автомобилей для магистральных перевозок: Daimler](https://customers.microsoft.com/story/daimlertrucks)
