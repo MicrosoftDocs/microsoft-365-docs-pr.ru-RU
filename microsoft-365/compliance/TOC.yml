@@ -67,12 +67,6 @@
           href: privileged-access-management-overview.md
         - name: Настройка управления привилегированным доступом
           href: privileged-access-management-configuration.md
-    - name: Ключ клиента
-      items:
-        - name: Контроль данных в Office 365 с помощью ключа клиента
-          href: controlling-your-data-using-customer-key.md
-        - name: Вопросы и ответы о службе шифрования с помощью ключа клиента для Office 365
-          href: service-encryption-with-customer-key-faq.md
     - name: Защита доступа пользователей и устройств
       href: protect-access-to-data-and-services.md
     - name: Защищенное хранилище пользователя
@@ -85,7 +79,7 @@
       items:
         - name: Создание и публикация меток конфиденциальности
           href: create-sensitivity-labels.md
-        - name: Ограничение доступа к содержимому с помощью шифрования в метках конфиденциальности
+        - name: Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования
           href: encryption-sensitivity-labels.md
         - name: Автоматическое применение метки конфиденциальности к содержимому
           href: apply-sensitivity-label-automatically.md
@@ -150,6 +144,18 @@
           href: document-fingerprinting.md
         - name: Функции защиты от потери данных для конфиденциальной информации
           href: what-the-dlp-functions-look-for.md
+    - name: Ключ клиента
+      items:
+        - name: Шифрование службы с помощью ключа клиента в Office 365
+          href: customer-key-overview.md
+        - name: Настройка ключа клиента для Office 365
+          href: customer-key-set-up.md
+        - name: Управление ключом клиента для Office 365
+          href: customer-key-manage.md
+        - name: Вращение или поворот ключа клиента или ключа доступности
+          href: customer-key-availability-key-roll.md
+        - name: Сведения о ключе доступности для ключа клиента Office 365
+          href: customer-key-availability-key-understand.md
     - name: Шифрование электронной почты
       href: email-encryption.md
       items:
@@ -1138,7 +1144,7 @@
               href: offering-pdpa-argentina.md
 - name: Office 365 корпоративный
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: "Office\_365 для бизнеса"
+- name: Office 365 бизнес
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: "Безопасность в Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'

@@ -1,5 +1,7 @@
 ---
 title: Как Exchange Online защищает секреты вашей электронной почты
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 989ba10c-f73f-4efb-ad1b-af3322e5f376
 ms.collection:
 - M365-security-compliance
 description: Помимо центра управления безопасностью Office 365, который предоставляет сведения о безопасности, конфиденциальности и совместимости для Office 365, вы можете узнать, как Office 365 помогает защитить секреты, предоставляемые в центрах обработки данных. Мы используем технологию, именуемую диспетчером распределенных ключей (DKM).
-ms.openlocfilehash: 8350785968c68b22c58be17ec68d94ff908c95d9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6ba60616ee72a4457d81f3f9c2049007afdcbb1d
+ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37090251"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800079"
 ---
 # <a name="how-exchange-online-secures-your-email-secrets"></a>Как Exchange Online защищает секреты вашей электронной почты
 
@@ -40,10 +42,10 @@ ms.locfileid: "37090251"
 Корпорация Майкрософт использует [распределенный диспетчер ключей](office-365-bitlocker-and-distributed-key-manager-for-encryption.md) для шифрования своих секретов в центрах обработки данных Exchange Online. Например:
   
 - Учетные данные для подключенных учетных записей электронной почты. Подключенные учетные записи — это сторонние учетные записи, такие как Hotmail, Yahoo! и Gmail.
-    
-- Ключ клиента. Если вы используете [ключ клиента в Office 365](controlling-your-data-using-customer-key.md), вы будете использовать [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-whatis) для защиты секретов.
-    
-## <a name="related-topics"></a>Статьи по теме
+
+- Ключ клиента. Если вы используете [Шифрование службы с ключом клиента в Office 365](customer-key-overview.md), вы будете использовать [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-whatis) для защиты секретов.
+
+## <a name="related-topics"></a>Связанные статьи
 
 [Шифрование в Office 365](encryption.md)
   
