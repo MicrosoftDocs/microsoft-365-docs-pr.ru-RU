@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 97d46c7fce851e420c33763260c88e948718840f
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.openlocfilehash: 5946fc193b0f96501a2f8168eef0d3e694d9cfcb
+ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784686"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41830983"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
@@ -84,7 +84,7 @@ ms.locfileid: "41784686"
 
 - Если метка включает шифрование, Microsoft Cloud App Security не сможет прочитать сведения о метках файлов в SharePoint.
 
-- Если помеченный документ передается в SharePoint, а к нему применено шифрование с помощью учетной записи с именем участника-службы, то документ нельзя открыть в Office в Интернете. Примеры сценариев включают Microsoft Cloud App Security и файл, отправленный в Teams по электронной почте.
+- Если помеченный документ передается в SharePoint и применяется шифрование с помощью учетной записи с именем участника-службы, документ невозможно открыть в Office в Интернете. Примеры сценариев включают Microsoft Cloud App Security и файл, отправленный в Teams по электронной почте.
 
 - Документы, зашифрованные с помощью следующих способов, невозможно открыть в Office в Интернете:
     - Шифрование, использующее локальный ключ ("удержание собственного ключа" или ХЙОК)
