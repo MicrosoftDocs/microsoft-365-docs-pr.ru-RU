@@ -1,5 +1,7 @@
 ---
 title: Развертывание сайтов SharePoint Online с тремя уровнями защиты
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сводка. Сведения о создании и настройке сайтов группы в SharePoint Online для применения различных уровней защиты информации.
-ms.openlocfilehash: 1396a45103bfbaf6ea2de6c5ba6c4b086da344ec
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 1f67dd1956059162902aefdb194e5e514d063778
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668867"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855258"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Развертывание сайтов SharePoint Online с тремя уровнями защиты
 
@@ -102,8 +104,6 @@ ms.locfileid: "39668867"
 
 ## <a name="see-also"></a>См. также
 
-[Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
-  
-[Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

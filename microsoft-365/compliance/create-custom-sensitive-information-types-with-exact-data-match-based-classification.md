@@ -1,5 +1,7 @@
 ---
 title: Создание пользовательских типов конфиденциальной информации с помощью точного совпадения данных
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
-ms.openlocfilehash: 90fde2475529200ab53411b5cb0c6d3c64de2fee
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 03af99b6e3a156b3d0e14bcadb75911253c837e3
+ms.sourcegitcommit: 30ffa701a26879182ac16baba67ea2dfaf680fba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515670"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836729"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
@@ -72,10 +74,12 @@ ms.locfileid: "41515670"
 
 2. Структурируйте конфиденциальные данные в CSV-файле таким образом, чтобы первая строка включала имена полей, которые используются для классификации на основе EDM. В CSV-файле можно применять такие имена полей, как ssn, birthdate, firstname, lastname и т. д. Например, наш CSV-файл называется  *PatientRecords.csv*, а его столбцы включают *PatientID*, *MRN*, *LastName*, *FirstName*, *SSN* и другие.
 
-3. Определите схему для базы данных конфиденциальной информации в формате XML (как в приведенном ниже примере). Назовите этот файл схемы edm.xml и настройте его таким образом, чтобы для каждого столбца в базе данных имелась строка на основе синтаксиса \<Field name="" searchable=""/\>.
+3. Определите схему для базы данных конфиденциальной информации в формате XML (как в приведенном ниже примере). Назовите этот файл схемы  **edm.xml** и настройте его так, чтобы для каждого столбца в базе данных была строка, использующая синтаксис: 
 
-      - Используйте имена столбцов для значений *Field name* .
-      - Используйте параметр *searchable="true"* для 5 полей, которые должны поддерживать поиск. Поиск должно поддерживать хотя бы одно поле.
+`\<Field name="" searchable=""/\>`.
+
+- Используйте имена столбцов для значений *Field name* .
+- Используйте параметр *searchable="true"* для 5 полей, которые должны поддерживать поиск. Поиск должно поддерживать хотя бы одно поле.
 
 Например, в приведенном ниже XML-файле определяется схема для базы данных записей пациентов с пятью полями, поддерживающими поиск: *PatientID*, *MRN*, *SSN*, *Phone* и *DOB*.
 
@@ -126,11 +130,11 @@ New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>Редактирование схемы для классификации на основе EDM
 
-Если нужно внести изменения в файл edm.xml, например изменить поля, используемые для классификации на основе EDM, выполните указанные ниже действия.
+Если нужно внести изменения в файл **edm.xml**, например изменить поля, используемые для классификации на основе EDM, выполните указанные ниже действия.
 
-1. Внесите изменения в файл edm.mxl (он рассматривается в разделе [Определение схемы](#define-the-schema-for-your-database-of-sensitive-information) этой статьи).
+1. Измените файл **edm.xml** (файл, обсуждаемый в разделе [Определить схему](#define-the-schema-for-your-database-of-sensitive-information)  этой статьи).
 
-2. [Подключитесь к PowerShell для Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+2. [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 3. Чтобы обновить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
@@ -184,7 +188,7 @@ Remove-DlpEdmSchema -Identity patientrecords
 
 1. Создайте пакет правил в формате XML (в кодировке Unicode), как показано в примере ниже. (Вы можете скопировать, изменить и использовать наш пример.)
 
-Настраивая пакет правил, убедитесь, что в нем используются правильные ссылки на CSV-файл и файл edm.xml. Вы можете скопировать, изменить и использовать наш пример. В этом примере XML для создания типа конфиденциальной информации EDM должны быть настроены перечисленные ниже поля.
+Настраивая пакет правил, убедитесь, что в нем используются правильные ссылки на CSV-файл и файл **edm.xml**. Вы можете скопировать, изменить и использовать наш пример. В этом примере XML для создания типа конфиденциальной информации EDM должны быть настроены перечисленные ниже поля.
 
 - **Идентификаторы RulePack и ExactMatch**. Используйте командлет [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) для создания GUID.
 
@@ -249,7 +253,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 На этом этапе вы настроили классификацию на основе EDM. На следующем этапе необходимо индексировать конфиденциальные данные, а затем отправить их.
 
-Помните, что схема PatientRecords определяет пять полей как доступные для поиска:  *PatientID*,  *MRN*,  *SSN*,  *Phone* и  *DOB*. Наш пакет правил, созданный для примера, включает эти пять полей и ссылается на файл схемы базы данных (edm.xml), предусматривая один элемент *ExactMatch* для каждого доступного для поиска поля. Рассмотрим приведенный ниже элемент ExactMatch.
+Помните, что схема PatientRecords определяет пять полей как доступные для поиска:  *PatientID*,  *MRN*,  *SSN*,  *Phone* и  *DOB*. В нашем примере пакет правил включает эти поля и ссылки на файл схемы базы данных (**edm.xml**) с одним *ExactMatch* элементов в поле для поиска. Рассмотрим приведенный ниже элемент ExactMatch.
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -287,18 +291,18 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Настройка группы безопасности и учетной записи пользователя
 
-1. В качестве глобального администратора перейдите в Центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com/)) и  [создайте группу безопасности](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем EDM\_DataUploaders.
+1. В качестве глобального администратора перейдите в центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com/)) и [создать группу безопасности](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем **EDM\_DataUploaders**
 
-2. Добавьте одного или нескольких пользователей в группу безопасности *EDM\_DataUploaders* . (Эти пользователи будут управлять базой данных конфиденциальной информации.)
+2. Добавьте одного или нескольких пользователей в группу безопасности **EDM\_DataUploaders** . (Эти пользователи будут управлять базой данных конфиденциальной информации.)
 
 3. Убедитесь, что каждый пользователь, управляющий конфиденциальными данными, является локальным администратором на компьютере, используемом для агента отправки EDM.
 
 #### <a name="set-up-the-edm-upload-agent"></a>Настройка агента отправки EDM
 
 >[!NOTE]
-> Перед началом этой процедуры убедитесь, что вы являетесь участником группы безопасности *EDM\_DataUploaders* и локальным администратором на своем компьютере.
+> Перед началом этой процедуры убедитесь, что вы являетесь участником группы безопасности **EDM\_DataUploaders** и локальным администратором на своем компьютере.
 
-1. Скачайте [агент отправки EDM](https://go.microsoft.com/fwlink/?linkid=2088639) и установите его. По умолчанию задан путь установки C:\\Program Files\\Microsoft\\EdmUploadAgent.
+1. Скачайте [агент отправки EDM](https://go.microsoft.com/fwlink/?linkid=2088639) и установите его. По умолчанию в качестве расположения установки необходимо использовать **C:\\Program Files\\Microsoft\\EdmUploadAgent**.
 
 > [!TIP]
 > Чтобы получить список поддерживаемых параметров команды, запустите агент без аргументов. Например, EdmUploadAgent.exe.
@@ -313,7 +317,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 #### <a name="index-and-upload-the-sensitive-data"></a>Индексирование и отправка конфиденциальных данных
 
-Сохраните файл конфиденциальных данных (помните, что в нашем примере это файл  *PatientRecords.csv*) на локальном диске компьютера. (Мы сохранили наш пример файла *PatientRecords.csv* в папке C:\\Edm\\Data.)
+Сохраните файл конфиденциальных данных (помните, что в нашем примере это файл  **PatientRecords.csv**) на локальном диске компьютера. (В нашем примере мы сохранили в нашем примере **PatientRecords.csv** файл **C:\\EDM\\**.)
 
 Чтобы индексировать и отправить конфиденциальные данные, выполните следующую команду в командной строке Windows:
 
@@ -327,13 +331,17 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 `EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-Пример: **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
+Например:
+
+> **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
 
 Чтобы отправить индексированные данные, выполните следующую команду в командной строке Windows:
 
 `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
-Пример: **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
+Например: 
+
+> **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
 
 Чтобы убедиться, что конфиденциальные данные были отправлены, выполните следующую команду в командной строке Windows:
 

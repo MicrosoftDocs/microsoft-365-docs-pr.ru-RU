@@ -1,7 +1,9 @@
 ---
 title: Просмотр отчетов для управления данными
-ms.author: laurawi
-author: laurawi
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 6/8/2018
 audience: Admin
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Отчеты для управления данными в Центре безопасности и соответствия требованиям Office 365 позволяют быстро проверить, применяются ли метки к содержимому так, как задумано.
-ms.openlocfilehash: 6d761931cea171afb84e25fa0900bec7c3a2f3c2
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: b07daf73cf1fca50f4d9831dfe6d96a59df928d0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813909"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597216"
 ---
 # <a name="view-the-data-governance-reports"></a>Просмотр отчетов для управления данными
 

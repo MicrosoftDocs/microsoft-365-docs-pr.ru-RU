@@ -1,5 +1,7 @@
 ---
 title: Применение меток к персональным данным в Office 365
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -15,12 +17,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать метки Office для защиты данных в соответствии с регламентом GDPR.
-ms.openlocfilehash: 023d6e2d3db1b6ec844801598df1925f3660217f
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 7561daccb400fd5364e8c1ed948924f7975af5a7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256916"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596096"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Применение меток к персональным данным в Office 365
 

@@ -1,5 +1,7 @@
 ---
 title: Применение защиты к персональным данным в Office 365
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -17,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать политики защиты от потери данных (DLP) для защиты персональных данных в Office 365.
-ms.openlocfilehash: e3f7bdc589b34da0aad8baabd5b54bcfd59f25b9
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: b529a6d58537c4effca3cf198dcf807a0680129d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256786"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596066"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Применение защиты к персональным данным в Office 365
 
@@ -249,9 +251,9 @@ ms.locfileid: "39256786"
 
 Дополнительные сведения:
 
--   [Уровни разрешений в SharePoint](https://support.office.com/ru-RU/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   [Уровни разрешений в SharePoint](https://support.office.com/en-US/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
 
--   [Общие сведения о группах SharePoint](https://support.office.com/ru-RU/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   [Общие сведения о группах SharePoint](https://support.office.com/en-US/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>Политики внешнего общего доступа для библиотек SharePoint и OneDrive для бизнеса
 
@@ -303,7 +305,7 @@ ms.locfileid: "39256786"
 
 -   [Управление внешним доступом для среды SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
--   [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/ru-RU/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   [Предоставление общего доступа к сайтам и документам пользователям за пределами организации](https://support.office.com/en-US/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
 ### <a name="site-level-device-access-policies"></a>Политики доступа к устройствам на уровне сайта
 

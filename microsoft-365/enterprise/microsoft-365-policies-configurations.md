@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: af68a8e81cdaab1bbbd8887a7d586fcaefff1041
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4b76ba16b74eeea26799bb383cd00e497c86d770
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600896"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855388"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -122,7 +122,7 @@ Azure AD предоставляет полный набор возможност
 
 - [Настройте клиент office 365 для повышения безопасности](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): эти рекомендации применимы к базовым вопросам безопасности для клиента Office 365.
 - [План безопасности Office 365: лучшие приоритеты для первых 30 дней, 90 дней и более поздних](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): эти рекомендации включают ведение журнала, управление данными, административный доступ и защиту от угроз.
-- [Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files): в этом наборе статей описывается, как защитить файлы и сайты на соответствующих уровнях для защиты от базовых, конфиденциальных и строго конфиденциальных.
+
 
 ### <a name="windows-10-and-office-365-proplus"></a>Windows 10 и Office 365 профессиональный плюс
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 74ce16a1cc98943ea808bbae08eccd54f8f21fad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c77793d7676e836e7b445bd9b638a835bb7051ff
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602426"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851826"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Совет по анализу финансовых учреждений по федеральным учреждениям (ФФИЕК)
 
@@ -58,6 +58,10 @@ Microsoft Azure, Microsoft Power BI и Microsoft Office 365 созданы в с
 **Можно ли использовать соответствие требованиям Майкрософт с стандартами SOC для удовлетворения обязательств по обеспечению соответствия требованиям ФФИЕК для моего учреждения?**
 
 Чтобы помочь вам обеспечить соблюдение этих обязанностей, корпорация Майкрософт предоставляет конкретные рекомендации по обеспечению соответствия стандартам SOC, описанным выше. Тем не менее, в конечном итоге вы можете определить, соответствуют ли наши службы определенным законам и нормативам, применимым к вашему учреждению. Кроме того, ФФИЕК рекомендует, чтобы пользователи отчетов аудита или рецензирования не зависят от информации, входящей в отчет, чтобы проверить внутреннюю среду управления TSP. Они должны использовать дополнительные процедуры проверки и мониторинга, как описано выше в [брошюре по аутсорсингу](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx) в справочнике по ФФИЕК для ИТ исследование. "
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Использование оценки соответствия требованиям Майкрософт для оценки риска
+
+[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)используйте предварительно настроенный [шаблон ффиек Office 365](https://go.microsoft.com/fwlink/?linkid=2117912) и [шаблон ффиек Intune](https://go.microsoft.com/fwlink/?linkid=2118101) , чтобы помочь вашей организации удовлетворить требования для этих нормативных требований.
 
 ## <a name="resources"></a>Ресурсы
 

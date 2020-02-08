@@ -1,5 +1,7 @@
 ---
 title: Защита файлов SharePoint Online с помощью меток хранения и DLP
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: Сводка. Применяйте метки хранения и политики защиты от потери данных для сайтов групп SharePoint Online с различными уровнями защиты информации.
-ms.openlocfilehash: c40261df8203841e3627a0d7a0c09c7f88a02a6b
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 75ecf551d4b675a1b1eef4d26742d833aea28059
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668877"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601696"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Защита файлов SharePoint Online с помощью меток хранения и DLP
 

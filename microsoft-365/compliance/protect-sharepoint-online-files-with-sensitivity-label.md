@@ -1,5 +1,7 @@
 ---
 title: Защита файлов SharePoint Online с помощью меток конфиденциальности
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-ms.openlocfilehash: 51950bd3c9790dedd2801e98234ff16470db6421
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 296d5774b13699c25efda6d036e097344d4fefeb
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668807"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855368"
 ---
 # <a name="protect-sharepoint-online-files-with-a-sensitivity-label"></a>Защита файлов SharePoint Online с помощью меток конфиденциальности
 
@@ -34,7 +36,7 @@ ms.locfileid: "39668807"
 Использование меток конфиденциальности для файлов в SharePoint Online не рекомендуется для всех клиентов, но допустимо для клиентов, которым такой уровень защиты требуется для некоторых файлов.
 
 Некоторые важные замечания об этом решении:
-- При применении шифрования к файлам, хранящимся в Office 365, служба не сможет обрабатывать содержимое этих файлов. В этом случае совместное редактирование, обнаружение электронных данных, поиск, Delve и другие функции совместной работы недоступны. Политики защиты от потери данных могут работать только с метаданными (включая метки Office 365), но не с содержимым этих файлов (например, номерами кредитных карт в файлах).
+- Если ваша организация не [включила метки чувствительности для файлов Office в SharePoint и OneDrive (общедоступный предварительный просмотр)](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files): когда шифрование применяется к файлам, хранящимся в Office 365, служба не может обработать содержимое этих файлов. В этом случае совместное редактирование, обнаружение электронных данных, поиск, Delve и другие функции совместной работы недоступны. Политики защиты от потери данных могут работать только с метаданными (включая метки Office 365), но не с содержимым этих файлов (например, номерами кредитных карт в файлах).
 
 - Для этого решения пользователь должен выбрать метку, применяющую защиту. Если вам требуется автоматическое шифрование и возможность индексирования и просмотра файлов в SharePoint, рассмотрите возможность использовать управление правами на доступ к данным (IRM) в SharePoint Online. Если настроить библиотеку SharePoint для использования IRM, файлы будут автоматически зашифровываться при загрузке для редактирования.  SharePoint IRM включает ряд ограничений, которые могут повлиять на ваше решение. Дополнительные сведения см. в статье [Настройка управления правами на доступ к данным (IRM) в Центре администрирования SharePoint](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C).
 
@@ -67,8 +69,6 @@ ms.locfileid: "39668807"
 
 ## <a name="see-also"></a>См. также
 
-[Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
-  
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

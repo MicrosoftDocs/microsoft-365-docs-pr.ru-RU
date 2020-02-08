@@ -1,5 +1,7 @@
 ---
 title: Настройка новых возможностей шифрования сообщений Office 365
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Новые возможности шифрования сообщений Office 365, основанные на Azure Information Protection, помогают защитить переписку с людьми внутри вашей организации и вне ее. Они поддерживают другие организации Office 365, Outlook.com, Gmail и прочие почтовые службы.
-ms.openlocfilehash: c772151250d30e62a3f2689df5cd853536af3ede
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 766e1d2ae054a5a5e91786a360177492ee9ba1b7
+ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "39218738"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680088"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений Office 365
 
@@ -84,7 +86,7 @@ ms.locfileid: "39218738"
      Результаты должны выглядеть примерно так:
 
      ```text
-    Results : Acquiring RMS Templates ...
+     Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not
             Forward.
             Verifying encryption ...
@@ -95,7 +97,7 @@ ms.locfileid: "39218738"
                 - PASS: IRM verified successfully.
 
             OVERALL RESULT: PASS
-    ```
+     ```
 
    - Название вашей организации Office 365 заменит *Contoso*.
 

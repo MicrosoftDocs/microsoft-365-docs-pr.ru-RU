@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3cbc0008841456e91dd2ffe6a9e5c78fba0ba43d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 87bb8faa13f34fbe299b6de82bdd9099eaaff5aa
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602676"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851856"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Зарегистрированная программа-биоinformation Security для Австралии государственных учреждений (ИРАП)
 
@@ -85,6 +85,10 @@ Microsoft Azure, Dynamics 365 CRM и Office 365 по-прежнему включ
 - [Что такое оценка ИРАП?](https://acsc.gov.au/infosec/irap/irap_assessments.htm)
 - [Кто предоставляет учебные курсы по ИРАП?](https://acsc.gov.au/infosec/irap/training.htm)
 - [Сведения о требованиях к соответствию требованиям и несоответствиям](https://acsc.gov.au/infosec/irap/compliance.htm)
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Использование оценки соответствия требованиям Майкрософт для оценки риска
+
+[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)используйте предварительно настроенный [шаблон ирап](https://go.microsoft.com/fwlink/?linkid=2117913) , чтобы обеспечить соответствие вашей организации требованиям для этих нормативных требований.
 
 ## <a name="resources"></a>Ресурсы
 
