@@ -1,7 +1,9 @@
 ---
 title: Пакетное создание и публикация меток хранения с помощью PowerShell
-ms.author: laurawi
-author: laurawi
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 ms.date: ''
 audience: Admin
 ms.topic: article
@@ -14,40 +16,40 @@ search.appverid:
 - MOE150
 - MET150
 description: В Office 365 можно использовать метки хранения для настройки расписания хранения в вашей организации. Благодаря сценарию и CSV-файлам можно выполнить пакетное создание и публикацию меток хранения и политик меток хранения с использованием PowerShell.
-ms.openlocfilehash: b2bf7f4a4934e1c5b0c88005e586dd6b0d38e3f9
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: f14e08176a4d7f4531c79f4aa8aebadf2fe0b3b4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39631599"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596286"
 ---
-# <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a><span data-ttu-id="2c1f7-104">Пакетное создание и публикация меток хранения с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="2c1f7-104">Bulk create and publish retention labels by using PowerShell</span></span>
+# <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a><span data-ttu-id="4ac0c-104">Пакетное создание и публикация меток хранения с помощью PowerShell</span><span class="sxs-lookup"><span data-stu-id="4ac0c-104">Bulk create and publish retention labels by using PowerShell</span></span>
 
-<span data-ttu-id="2c1f7-p102">С помощью меток хранения в Office 365 можно реализовать расписание хранения для организации. У менеджера по записям или ответственного за обеспечение соответствия требованиям может возникать необходимость создавать и публиковать сотни меток хранения. Это можно делать с помощью пользовательского интерфейса Центра безопасности и соответствия требованиям, но создавать метки хранения по одной очень долго и неэффективно.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p102">In Office 365, you can use retention labels to implement a retention schedule for your organization. As a record manager or compliance officer, you might have hundreds of retention labels to create and publish. You can do this through the UI in the Security &amp; Compliance Center, but creating retention labels one at a time is time-consuming and inefficient.</span></span>
+<span data-ttu-id="4ac0c-p102">С помощью меток хранения в Office 365 можно реализовать расписание хранения для организации. У менеджера по записям или ответственного за обеспечение соответствия требованиям может возникать необходимость создавать и публиковать сотни меток хранения. Это можно делать с помощью пользовательского интерфейса Центра безопасности и соответствия требованиям, но создавать метки хранения по одной очень долго и неэффективно.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p102">In Office 365, you can use retention labels to implement a retention schedule for your organization. As a record manager or compliance officer, you might have hundreds of retention labels to create and publish. You can do this through the UI in the Security &amp; Compliance Center, but creating retention labels one at a time is time-consuming and inefficient.</span></span>
   
-<span data-ttu-id="2c1f7-108">Благодаря сценарию и CSV-файлам, представленным ниже, можно выполнить пакетное создание меток хранения и публикацию политик меток хранения.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-108">By using the script and .csv files provided below, you can bulk create retention labels and publish retention label policies.</span></span> <span data-ttu-id="2c1f7-109">Сначала необходимо создать список меток хранения и список политик меток хранения в Excel, а затем в этих списках нужно массово создать метки хранения и политики меток хранения с помощью PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-109">By using the script and .csv files provided below, you can bulk create retention labels and publish retention label policies. First you create a list of the retention labels and a list of the retention label policies in Excel, and then you bulk create the retention labels and retention label policies in those lists by using PowerShell. This makes it easier to create and publish at one time, all of the retention labels that your retention schedule requires.</span></span> <span data-ttu-id="2c1f7-110">Таким образом можно за один раз создать и опубликовать все метки хранения, необходимые для расписания хранения.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-110">This makes it easier to create and publish all of the retention labels that your retention schedule requires at one time.</span></span>
+<span data-ttu-id="4ac0c-108">Благодаря сценарию и CSV-файлам, представленным ниже, можно выполнить пакетное создание меток хранения и публикацию политик меток хранения.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-108">By using the script and .csv files provided below, you can bulk create retention labels and publish retention label policies.</span></span> <span data-ttu-id="4ac0c-109">Сначала необходимо создать список меток хранения и список политик меток хранения в Excel, а затем в этих списках нужно массово создать метки хранения и политики меток хранения с помощью PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-109">First you create a list of the retention labels and a list of the retention label policies in Excel, and then you use PowerShell to bulk create the retention labels and retention label policies in those lists.</span></span> <span data-ttu-id="4ac0c-110">Таким образом можно за один раз создать и опубликовать все метки хранения, необходимые для расписания хранения.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-110">This makes it easier to create and publish all of the retention labels that your retention schedule requires at one time.</span></span>
   
-<span data-ttu-id="2c1f7-111">Дополнительные сведения о метках хранения см. в статье [Общие сведения о метках](labels.md).</span><span class="sxs-lookup"><span data-stu-id="2c1f7-111">For more information about retention labels, see [Overview of labels](labels.md).</span></span>
+<span data-ttu-id="4ac0c-111">Дополнительные сведения о метках хранения см. в статье [Общие сведения о метках](labels.md).</span><span class="sxs-lookup"><span data-stu-id="4ac0c-111">For more information about retention labels, see [Overview of labels](labels.md).</span></span>
   
-## <a name="disclaimer"></a><span data-ttu-id="2c1f7-112">Заявление об отказе</span><span class="sxs-lookup"><span data-stu-id="2c1f7-112">Disclaimer</span></span>
+## <a name="disclaimer"></a><span data-ttu-id="4ac0c-112">Заявление об отказе</span><span class="sxs-lookup"><span data-stu-id="4ac0c-112">Disclaimer</span></span>
 
-<span data-ttu-id="2c1f7-p104">Примеры скриптов, представленные в этой статье, не поддерживаются ни одной из стандартных программ поддержки или служб Майкрософт. Примеры скриптов предоставляются КАК ЕСТЬ и без каких-либо гарантий. Кроме того, корпорация Майкрософт не дает никаких обязательств в отношении подразумеваемых гарантий, в том числе гарантий товарного качества и пригодности для использования по назначению. Ответственность за риск, возникающий в результате выполнения примеров скриптов и использования документации, полностью возлагается на вас. Корпорация Майкрософт, ее авторы и все, кто принимает участие в создании, подготовке и публикации скриптов, не несут ответственности за какой-либо ущерб (в том числе потерю прибыли предприятия, приостановку его деятельности, потерю бизнес-данных и другой денежный ущерб), вызванный использованием или неспособностью использования примеров скриптов или документации, даже если корпорации Майкрософт было известно о возможности такого ущерба.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p104">The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.</span></span>
+<span data-ttu-id="4ac0c-p104">Примеры скриптов, представленные в этой статье, не поддерживаются ни одной из стандартных программ поддержки или служб Майкрософт. Примеры скриптов предоставляются КАК ЕСТЬ и без каких-либо гарантий. Кроме того, корпорация Майкрософт не дает никаких обязательств в отношении подразумеваемых гарантий, в том числе гарантий товарного качества и пригодности для использования по назначению. Ответственность за риск, возникающий в результате выполнения примеров скриптов и использования документации, полностью возлагается на вас. Корпорация Майкрософт, ее авторы и все, кто принимает участие в создании, подготовке и публикации скриптов, не несут ответственности за какой-либо ущерб (в том числе потерю прибыли предприятия, приостановку его деятельности, потерю бизнес-данных и другой денежный ущерб), вызванный использованием или неспособностью использования примеров скриптов или документации, даже если корпорации Майкрософт было известно о возможности такого ущерба.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p104">The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.</span></span>
   
-## <a name="step-1-create-a-csv-file-for-creating-the-retention-labels"></a><span data-ttu-id="2c1f7-118">Шаг 1. Создание CSV-файла для создания меток хранения</span><span class="sxs-lookup"><span data-stu-id="2c1f7-118">Step 1: Create a .csv file for creating the retention labels</span></span>
+## <a name="step-1-create-a-csv-file-for-creating-the-retention-labels"></a><span data-ttu-id="4ac0c-118">Шаг 1. Создание CSV-файла для создания меток хранения</span><span class="sxs-lookup"><span data-stu-id="4ac0c-118">Step 1: Create a .csv file for creating the retention labels</span></span>
 
-<span data-ttu-id="2c1f7-p105">Для начала необходимо создать CSV-файл со списком меток хранения и их параметрами. Вы можете использовать приведенный ниже пример в качестве шаблона, скопировав его в Excel, преобразовав текст в столбцы (Excel \> **Данные** \> **Текст по столбцам** \> **С разделителями** \> **Запятая** \> **Общий**) и сохранив лист в виде CSV-файла в удобном расположении.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p105">First you create a .csv file that contains a list of your retention labels with their settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
+<span data-ttu-id="4ac0c-p105">Для начала необходимо создать CSV-файл со списком меток хранения и их параметрами. Вы можете использовать приведенный ниже пример в качестве шаблона, скопировав его в Excel, преобразовав текст в столбцы (Excel \> **Данные** \> **Текст по столбцам** \> **С разделителями** \> **Запятая** \> **Общий**) и сохранив лист в виде CSV-файла в удобном расположении.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p105">First you create a .csv file that contains a list of your retention labels with their settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
   
-<span data-ttu-id="2c1f7-121">Дополнительные сведения о значениях параметров этого командлета см. в статье [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).</span><span class="sxs-lookup"><span data-stu-id="2c1f7-121">For more information about the parameter values for this cmdlet, see [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).</span></span>
+<span data-ttu-id="4ac0c-121">Дополнительные сведения о значениях параметров этого командлета см. в статье [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).</span><span class="sxs-lookup"><span data-stu-id="4ac0c-121">For more information about the parameter values for this cmdlet, see [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).</span></span>
   
-<span data-ttu-id="2c1f7-122">Примечания:</span><span class="sxs-lookup"><span data-stu-id="2c1f7-122">Notes:</span></span>
+<span data-ttu-id="4ac0c-122">Примечания:</span><span class="sxs-lookup"><span data-stu-id="4ac0c-122">Notes:</span></span>
   
-- <span data-ttu-id="2c1f7-123">Если исходный файл для создания меток хранения не указан, скрипт продолжает работу и предлагает вам указать исходный файл для публикации меток хранения (см. следующий раздел), а публикует только имеющиеся метки хранения.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-123">If you don't provide a source file for creating retention labels, the script moves on and prompts you for the source file for publishing retention labels (see the next section), and the script will publish only existing retention labels.</span></span>
+- <span data-ttu-id="4ac0c-123">Если исходный файл для создания меток хранения не указан, скрипт продолжает работу и предлагает вам указать исходный файл для публикации меток хранения (см. следующий раздел), а публикует только имеющиеся метки хранения.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-123">If you don't provide a source file for creating retention labels, the script moves on and prompts you for the source file for publishing retention labels (see the next section), and the script will publish only existing retention labels.</span></span>
     
-- <span data-ttu-id="2c1f7-p106">Если CSV-файл содержит метку хранения с уже существующим именем, скрипт пропускает создание этой метки хранения. Повторяющиеся метки хранения не создаются.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p106">If the .csv file contains a retention label with the same name as one that already exists, the script skips creating that retention label. No duplicate retention labels are created.</span></span>
+- <span data-ttu-id="4ac0c-p106">Если CSV-файл содержит метку хранения с уже существующим именем, скрипт пропускает создание этой метки хранения. Повторяющиеся метки хранения не создаются.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p106">If the .csv file contains a retention label with the same name as one that already exists, the script skips creating that retention label. No duplicate retention labels are created.</span></span>
     
-- <span data-ttu-id="2c1f7-p107">Если изменить или переименовать заголовки столбцов, выполнение скрипта завершится ошибкой. Скрипту необходим CSV-файл в представленном здесь формате.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p107">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
+- <span data-ttu-id="4ac0c-p107">Если изменить или переименовать заголовки столбцов, выполнение скрипта завершится ошибкой. Скрипту необходим CSV-файл в представленном здесь формате.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p107">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
     
-### <a name="sample-csv-file"></a><span data-ttu-id="2c1f7-128">Пример CSV-файла</span><span class="sxs-lookup"><span data-stu-id="2c1f7-128">Sample .csv file</span></span>
+### <a name="sample-csv-file"></a><span data-ttu-id="4ac0c-128">Пример CSV-файла</span><span class="sxs-lookup"><span data-stu-id="4ac0c-128">Sample .csv file</span></span>
 
 ```
 Name (Required),Comment (Optional),IsRecordLabel (Required),RetentionAction (Optional),RetentionDuration (Optional),RetentionType (Optional),ReviewerEmail (Optional)
@@ -57,23 +59,23 @@ LabelName_t_3,5 year delete,$false,Delete,1825,TaggedAgeInDays,
 LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 ```
 
-## <a name="step-2-create-a-csv-file-for-publishing-the-labels"></a><span data-ttu-id="2c1f7-129">Шаг 2. Создание CSV-файла для публикации меток</span><span class="sxs-lookup"><span data-stu-id="2c1f7-129">Step 2: Create a .csv file for publishing the labels</span></span>
+## <a name="step-2-create-a-csv-file-for-publishing-the-labels"></a><span data-ttu-id="4ac0c-129">Шаг 2. Создание CSV-файла для публикации меток</span><span class="sxs-lookup"><span data-stu-id="4ac0c-129">Step 2: Create a .csv file for publishing the labels</span></span>
 
-<span data-ttu-id="2c1f7-p108">Теперь необходимо создать CSV-файл со списком политик меток хранения, их расположениями и другими параметрами. Вы можете использовать приведенный ниже пример в качестве шаблона, скопировав его в Excel, преобразовав текст в столбцы (Excel \> **Данные** \> **Текст по столбцам** \> **С разделителями** \> **Запятая** \> **Общий**) и сохранив лист в виде CSV-файла в удобном расположении.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p108">Next you create a .csv file that contains a list of retention label policies with their locations and other settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
+<span data-ttu-id="4ac0c-p108">Теперь необходимо создать CSV-файл со списком политик меток хранения, их расположениями и другими параметрами. Вы можете использовать приведенный ниже пример в качестве шаблона, скопировав его в Excel, преобразовав текст в столбцы (Excel \> **Данные** \> **Текст по столбцам** \> **С разделителями** \> **Запятая** \> **Общий**) и сохранив лист в виде CSV-файла в удобном расположении.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p108">Next you create a .csv file that contains a list of retention label policies with their locations and other settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
   
-<span data-ttu-id="2c1f7-132">Дополнительные сведения о значениях параметров этого командлета см. в статье [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512).</span><span class="sxs-lookup"><span data-stu-id="2c1f7-132">For more information about the parameter values for this cmdlet, see [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512).</span></span>
+<span data-ttu-id="4ac0c-132">Дополнительные сведения о значениях параметров этого командлета см. в статье [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512).</span><span class="sxs-lookup"><span data-stu-id="4ac0c-132">For more information about the parameter values for this cmdlet, see [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512).</span></span>
   
-<span data-ttu-id="2c1f7-133">Примечания:</span><span class="sxs-lookup"><span data-stu-id="2c1f7-133">Notes:</span></span>
+<span data-ttu-id="4ac0c-133">Примечания:</span><span class="sxs-lookup"><span data-stu-id="4ac0c-133">Notes:</span></span>
   
-- <span data-ttu-id="2c1f7-134">Если исходный файл для публикации меток хранения не указан, то сценарий создает метки хранения (см. предыдущий раздел), но не публикует их.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-134">If you don't provide a source file for publishing retention labels, the script creates retention labels (see the previous section) but does not publish them.</span></span>
+- <span data-ttu-id="4ac0c-134">Если исходный файл для публикации меток хранения не указан, то сценарий создает метки хранения (см. предыдущий раздел), но не публикует их.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-134">If you don't provide a source file for publishing retention labels, the script creates retention labels (see the previous section) but doesn't publish them.</span></span>
     
-- <span data-ttu-id="2c1f7-p109">Если CSV-файл содержит политику меток хранения с уже существующим именем, скрипт пропускает создание этой политики меток хранения. Повторяющиеся политики меток хранения не создаются.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p109">If the .csv file contains a retention label policy with the same name as one that already exists, the script skips creating that retention label policy. No duplicate retention label policies are created.</span></span>
+- <span data-ttu-id="4ac0c-p109">Если CSV-файл содержит политику меток хранения с уже существующим именем, скрипт пропускает создание этой политики меток хранения. Повторяющиеся политики меток хранения не создаются.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p109">If the .csv file contains a retention label policy with the same name as one that already exists, the script skips creating that retention label policy. No duplicate retention label policies are created.</span></span>
     
-- <span data-ttu-id="2c1f7-137">Сценарий публикует только метки хранения, которые применяются к содержимому вручную.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-137">The script publishes only retention labels that are applied manually to content. This script does not support retention labels that are auto-applied to content.</span></span> <span data-ttu-id="2c1f7-138">Он не поддерживает метки хранения, автоматически применяемые к содержимому.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-138">This script doesn't support retention labels that are auto-applied to content.</span></span>
+- <span data-ttu-id="4ac0c-137">Сценарий публикует только метки хранения, которые применяются к содержимому вручную.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-137">The script publishes only retention labels that are applied manually to content.</span></span> <span data-ttu-id="4ac0c-138">Он не поддерживает метки хранения, автоматически применяемые к содержимому.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-138">This script doesn't support retention labels that are auto-applied to content.</span></span>
     
-- <span data-ttu-id="2c1f7-p111">Если изменить или переименовать заголовки столбцов, выполнение скрипта завершится ошибкой. Скрипту необходим CSV-файл в представленном здесь формате.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p111">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
+- <span data-ttu-id="4ac0c-p111">Если изменить или переименовать заголовки столбцов, выполнение скрипта завершится ошибкой. Скрипту необходим CSV-файл в представленном здесь формате.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p111">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
     
-### <a name="sample-csv-file"></a><span data-ttu-id="2c1f7-141">Пример CSV-файла</span><span class="sxs-lookup"><span data-stu-id="2c1f7-141">Sample .csv file</span></span>
+### <a name="sample-csv-file"></a><span data-ttu-id="4ac0c-141">Пример CSV-файла</span><span class="sxs-lookup"><span data-stu-id="4ac0c-141">Sample .csv file</span></span>
 
 ```
 Policy Name (Required),PublishComplianceTag (Required),Comment (Optional),Enabled (Required),ExchangeLocation (Optional),ExchangeLocationException (Optional),ModernGroupLocation (Optional),ModernGroupLocationException (Optional),OneDriveLocation (Optional),OneDriveLocationException (Optional),PublicFolderLocation (Optional),SharePointLocation (Optional),SharePointLocationException (Optional),SkypeLocation (Optional),SkypeLocationException (Optional)
@@ -82,11 +84,11 @@ Publishing Policy Orange1,"LabelName_t_1, LabelName_t_2",N/A,$true,All,,,,,,,,,,
 Publishing Policy Yellow1,"LabelName_t_3, LabelName_t_4",N/A,$false,All,,,,,,,,,,
 ```
 
-## <a name="step-3-create-the-powershell-script"></a><span data-ttu-id="2c1f7-142">Шаг 3. Создание скрипта PowerShell</span><span class="sxs-lookup"><span data-stu-id="2c1f7-142">Step 3: Create the PowerShell script</span></span>
+## <a name="step-3-create-the-powershell-script"></a><span data-ttu-id="4ac0c-142">Шаг 3. Создание скрипта PowerShell</span><span class="sxs-lookup"><span data-stu-id="4ac0c-142">Step 3: Create the PowerShell script</span></span>
 
-<span data-ttu-id="2c1f7-p112">Скопируйте и вставьте приведенный ниже скрипт PowerShell в редактор "Блокнот". Сохраните файл, добавив к его имени суффикс .ps1, в удобном расположении (например, \<путь\>CreateRetentionSchedule.ps1).</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p112">Copy and paste the below PowerShell script into Notepad. Save the file by using a filename suffix of .ps1 in a location that's easy to find -- for example, \<path\>CreateRetentionSchedule.ps1.</span></span>
+<span data-ttu-id="4ac0c-p112">Скопируйте и вставьте приведенный ниже скрипт PowerShell в редактор "Блокнот". Сохраните файл, добавив к его имени суффикс .ps1, в удобном расположении (например, \<путь\>CreateRetentionSchedule.ps1).</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p112">Copy and paste the below PowerShell script into Notepad. Save the file by using a filename suffix of .ps1 in a location that's easy to find -- for example, \<path\>CreateRetentionSchedule.ps1.</span></span>
   
-### <a name="powershell-script"></a><span data-ttu-id="2c1f7-145">Скрипт PowerShell</span><span class="sxs-lookup"><span data-stu-id="2c1f7-145">PowerShell script</span></span>
+### <a name="powershell-script"></a><span data-ttu-id="4ac0c-145">Скрипт PowerShell</span><span class="sxs-lookup"><span data-stu-id="4ac0c-145">PowerShell script</span></span>
 
 ```
 <#
@@ -183,7 +185,7 @@ Function Create-Log
     }
     $date = Get-Date -Format 'MMddyyyy_HHmmss'
     $logfilePath = "$logFolderPath\Log_{0}_{1}.txt" -f $LogFunction, $date
-    Write-Verbose "Log file is writen to: $logfilePath"
+    Write-Verbose "Log file is written to: $logfilePath"
     $logfile = New-Item $logfilePath  -type file
     return $logfilePath
 }
@@ -205,7 +207,7 @@ Function Create-ResultCSV
     }
     $date = Get-Date -Format 'MMddyyyy_HHmmss'
     $retfilePath = "$retFolderPath\Result_{0}_{1}.csv" -f $ResultFunction, $date
-    Write-Verbose "Result file is writen to: $retfilePath"
+    Write-Verbose "Result file is written to: $retfilePath"
     $retfile = New-Item $retfilePath  -type file
     return $retfilePath
 }
@@ -708,33 +710,33 @@ if ($ResultCSV)
 
 ```
 
-## <a name="step-4-connect-to-security-amp-compliance-center-powershell"></a><span data-ttu-id="2c1f7-146">Шаг 4. Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="2c1f7-146">Step 4: Connect to Security &amp; Compliance Center PowerShell</span></span>
+## <a name="step-4-connect-to-security-amp-compliance-center-powershell"></a><span data-ttu-id="4ac0c-146">Шаг 4. Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="4ac0c-146">Step 4: Connect to Security &amp; Compliance Center PowerShell</span></span>
 
-<span data-ttu-id="2c1f7-147">Выполните действия, описанные в следующей статье:</span><span class="sxs-lookup"><span data-stu-id="2c1f7-147">Follow the steps here:</span></span>
+<span data-ttu-id="4ac0c-147">Выполните действия, описанные в следующей статье:</span><span class="sxs-lookup"><span data-stu-id="4ac0c-147">Follow the steps here:</span></span>
   
-- [<span data-ttu-id="2c1f7-148">Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365</span><span class="sxs-lookup"><span data-stu-id="2c1f7-148">Connect to Office 365 Security &amp; Compliance Center PowerShell</span></span>](https://go.microsoft.com/fwlink/?linkid=799771)
+- [<span data-ttu-id="4ac0c-148">Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365</span><span class="sxs-lookup"><span data-stu-id="4ac0c-148">Connect to Office 365 Security &amp; Compliance Center PowerShell</span></span>](https://go.microsoft.com/fwlink/?linkid=799771)
     
-## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a><span data-ttu-id="2c1f7-149">Шаг 5. Запуск скрипта PowerShell для создания и публикации меток хранения</span><span class="sxs-lookup"><span data-stu-id="2c1f7-149">Step 5: Run the PowerShell script to create and publish the retention labels</span></span>
+## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a><span data-ttu-id="4ac0c-149">Шаг 5. Запуск скрипта PowerShell для создания и публикации меток хранения</span><span class="sxs-lookup"><span data-stu-id="4ac0c-149">Step 5: Run the PowerShell script to create and publish the retention labels</span></span>
 
-<span data-ttu-id="2c1f7-150">После подключения к интерфейсу PowerShell Центра безопасности и соответствия требованиям следует выполнить скрипт, который создает и публикует метки хранения.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-150">After you've connected to Security &amp; Compliance Center PowerShell, next you run the script that creates and publishes the retention labels.</span></span>
+<span data-ttu-id="4ac0c-150">После подключения к интерфейсу PowerShell Центра безопасности и соответствия требованиям следует выполнить скрипт, который создает и публикует метки хранения.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-150">After you've connected to Security &amp; Compliance Center PowerShell, next you run the script that creates and publishes the retention labels.</span></span>
   
-1. <span data-ttu-id="2c1f7-151">В сеансе PowerShell Центра безопасности и соответствия требованиям введите путь, затем символы .\ и имя файла скрипта, после чего нажмите клавишу ВВОД, чтобы запустить скрипт. Пример:</span><span class="sxs-lookup"><span data-stu-id="2c1f7-151">In the Security &amp; Compliance PowerShell session, enter the path, followed by the characters .\ and file name of the script, and then press ENTER to run the script - for example:</span></span>
+1. <span data-ttu-id="4ac0c-151">В сеансе PowerShell Центра безопасности и соответствия требованиям введите путь, затем символы .\ и имя файла скрипта, после чего нажмите клавишу ВВОД, чтобы запустить скрипт. Пример:</span><span class="sxs-lookup"><span data-stu-id="4ac0c-151">In the Security &amp; Compliance PowerShell session, enter the path, followed by the characters .\ and file name of the script, and then press ENTER to run the script - for example:</span></span>
     
   ```
   <path>.\CreateRetentionSchedule.ps1
   ```
 
-    <span data-ttu-id="2c1f7-152">Скрипт предложит вам указать расположения созданных ранее CSV-файлов.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-152">The script will prompt you for the locations of the .csv files that you created above.</span></span>
+    <span data-ttu-id="4ac0c-152">Скрипт предложит вам указать расположения созданных ранее CSV-файлов.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-152">The script will prompt you for the locations of the .csv files that you created above.</span></span>
     
-2. <span data-ttu-id="2c1f7-153">Введите путь, затем символы .\ и имя CSV-файла, после чего нажмите клавишу ВВОД. Пример:</span><span class="sxs-lookup"><span data-stu-id="2c1f7-153">Enter the path, followed by the characters .\ and file name of the .csv file, and then press ENTER - for example:</span></span>
+2. <span data-ttu-id="4ac0c-153">Введите путь, затем символы .\ и имя CSV-файла, после чего нажмите клавишу ВВОД. Пример:</span><span class="sxs-lookup"><span data-stu-id="4ac0c-153">Enter the path, followed by the characters .\ and file name of the .csv file, and then press ENTER - for example:</span></span>
     
   ```
   <path>.\LabelsToCreate.csv
   ```
 
-## <a name="step-6-view-the-log-file-with-the-results"></a><span data-ttu-id="2c1f7-154">Шаг 6. Просмотр файла журнала с результатами</span><span class="sxs-lookup"><span data-stu-id="2c1f7-154">Step 6: View the log file with the results</span></span>
+## <a name="step-6-view-the-log-file-with-the-results"></a><span data-ttu-id="4ac0c-154">Шаг 6. Просмотр файла журнала с результатами</span><span class="sxs-lookup"><span data-stu-id="4ac0c-154">Step 6: View the log file with the results</span></span>
 
-<span data-ttu-id="2c1f7-p113">При запуске скрипта создается файл журнала, в котором регистрируется каждое выполненное действие, а также его результат. Файл журнала содержит все метаданные о созданных и опубликованных метках хранения. В этом расположении можно найти файл журнала. Обратите внимание, что цифры в имени файла могут быть другими.</span><span class="sxs-lookup"><span data-stu-id="2c1f7-p113">When you run the script, it generates a log file that records each action it took and whether the action succeeded or failed. The log file includes all metadata about the retention labels created and the retention labels published. You can find the log file at this location -- note that the digits in the file name vary.</span></span>
+<span data-ttu-id="4ac0c-p113">При запуске скрипта создается файл журнала, в котором регистрируется каждое выполненное действие, а также его результат. Файл журнала содержит все метаданные о созданных и опубликованных метках хранения. В этом расположении можно найти файл журнала. Обратите внимание, что цифры в имени файла могут быть другими.</span><span class="sxs-lookup"><span data-stu-id="4ac0c-p113">When you run the script, it generates a log file that records each action it took and whether the action succeeded or failed. The log file includes all metadata about the retention labels created and the retention labels published. You can find the log file at this location -- note that the digits in the file name vary.</span></span>
   
 ```
 <path>.\Log_Publish_Compliance_Tag_01112018_151239.txt
