@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4bc6663efe704205787e1c69d4e6dd06122419c3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5cd89e0f31d650e85de20b40e3870de0ef8c7cc3
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601916"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851836"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>Система управления конфиденциальностью ISO/IEC 27701 (PIMS)
 
@@ -71,6 +71,10 @@ ms.locfileid: "41601916"
 
 - [Сертификация Azure ISO/IEC 27701](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0431b3f-7716-4332-9c26-44b58174bdaf&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
 - [Отчет по оценке Azure ISO/IEC 27701](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1abbb81e-f4ca-4436-bbdb-b196a672efda&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) используйте предварительно настроенный [шаблон ISO 27701](https://go.microsoft.com/fwlink/?linkid=2117915), чтобы обеспечить соответствие вашей организации требованиям этого стандарта.
 
 ## <a name="resources"></a>Ресурсы
 

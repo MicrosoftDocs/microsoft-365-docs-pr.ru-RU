@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 016d0f9fdd0795ea709f168a0fc8ba027f029e8f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6791754e0d34ca2ca564a805269bb9fdc216d0ad
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602236"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851876"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>ISO/IEC 27018 "Свод правил по защите персональных данных в облаке"
 
@@ -120,6 +120,10 @@ ms.locfileid: "41602236"
 Да. Если соблюдение стандарта ISO/IEC 27018 важно для вашей организации и развертывания выполнены на основе любых применимых корпоративных облачных служб Майкрософт, вы можете использовать аттестацию Майкрософт о соответствии стандарту ISO/IEC 27018 с сертификацией Майкрософт по ISO/IEC 27001 в рамках своей оценки соответствия требованиям.
 
 Однако вы несете ответственность за привлечение аудитора для оценки реализации на соответствие требованиям, а также оценки средств управления и процессов в рамках вашей организации.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) используйте предварительно настроенный [шаблон ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523), чтобы обеспечить соответствие вашей организации требованиям этого стандарта.
 
 ## <a name="resources"></a>Ресурсы
 

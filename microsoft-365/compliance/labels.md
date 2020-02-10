@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Метки хранения в Office 365 помогут вам выполнять с контентом действия, соответствующие его характеру. Используя метки хранения, вы можете классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки хранения для управления записями в Office 365.
-ms.openlocfilehash: 541c1727bfc1ca2132120aadff6330a1a9ac5c0a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Используйте метки хранения, чтобы классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки хранения для внедрения решения по управлению записями для Microsoft 365.
+ms.openlocfilehash: 341d3bf53ac11b2233749210b6a34aa7c4df0208
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585768"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855268"
 ---
 # <a name="overview-of-retention-labels"></a>Обзор меток хранения
 

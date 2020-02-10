@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57d4093712efbee7bcb4f27280b0ba64a50dbe41
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 5f11cb99d4bf235ba41e05d1bf79217f827fe8c2
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662025"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851886"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -128,6 +128,10 @@ ms.locfileid: "41662025"
 **С чего начинается обеспечение соответствия требованиям в организации?**
 
 [Набор средств SOC для обслуживающих организаций](https://aka.ms/soc-toolkit) — это полезный ресурс для знакомства с процессами создания отчетов SOC и расширения их использования в организации.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
+
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) используйте предварительно настроенный [шаблон SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) и [шаблон SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919), чтобы обеспечить соответствие вашей организации требованиям этих норм.
 
 ## <a name="resources"></a>Ресурсы
 

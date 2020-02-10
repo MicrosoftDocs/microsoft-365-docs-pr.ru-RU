@@ -132,7 +132,7 @@ New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
 
 Если нужно внести изменения в файл **edm.xml**, например изменить поля, используемые для классификации на основе EDM, выполните указанные ниже действия.
 
-1. Измените файл **edm.xml** (файл, обсуждаемый в разделе [Определить схему](#define-the-schema-for-your-database-of-sensitive-information)  этой статьи).
+1. Измените файл **edm.xml** (файл, обсуждаемый в разделе [Определение схемы](#define-the-schema-for-your-database-of-sensitive-information)  этой статьи).
 
 2. [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
@@ -253,7 +253,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 На этом этапе вы настроили классификацию на основе EDM. На следующем этапе необходимо индексировать конфиденциальные данные, а затем отправить их.
 
-Помните, что схема PatientRecords определяет пять полей как доступные для поиска:  *PatientID*,  *MRN*,  *SSN*,  *Phone* и  *DOB*. В нашем примере пакет правил включает эти поля и ссылки на файл схемы базы данных (**edm.xml**) с одним *ExactMatch* элементов в поле для поиска. Рассмотрим приведенный ниже элемент ExactMatch.
+Помните, что схема PatientRecords определяет пять полей как доступные для поиска:  *PatientID*,  *MRN*,  *SSN*,  *Phone* и  *DOB*. В нашем примере пакет правил включает эти поля и ссылки на файл схемы базы данных (**edm.xml**), предусматривая один элемент *ExactMatch* для каждого доступного для поиска поля. Рассмотрим приведенный ниже элемент ExactMatch.
 
 ```xml
 <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
@@ -291,7 +291,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Настройка группы безопасности и учетной записи пользователя
 
-1. В качестве глобального администратора перейдите в центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com/)) и [создать группу безопасности](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем **EDM\_DataUploaders**
+1. В качестве глобального администратора перейдите в центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com/)) и [создайте группу безопасности](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем **EDM\_DataUploaders**.
 
 2. Добавьте одного или нескольких пользователей в группу безопасности **EDM\_DataUploaders** . (Эти пользователи будут управлять базой данных конфиденциальной информации.)
 
@@ -317,7 +317,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
 
 #### <a name="index-and-upload-the-sensitive-data"></a>Индексирование и отправка конфиденциальных данных
 
-Сохраните файл конфиденциальных данных (помните, что в нашем примере это файл  **PatientRecords.csv**) на локальном диске компьютера. (В нашем примере мы сохранили в нашем примере **PatientRecords.csv** файл **C:\\EDM\\**.)
+Сохраните файл конфиденциальных данных (помните, что в нашем примере это файл  **PatientRecords.csv**) на локальном диске компьютера. (В нашем примере мы сохранили файл **PatientRecords.csv** в папке **C:\\EDM\\**.)
 
 Чтобы индексировать и отправить конфиденциальные данные, выполните следующую команду в командной строке Windows:
 
