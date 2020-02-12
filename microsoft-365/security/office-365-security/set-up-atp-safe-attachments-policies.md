@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Определите политики безопасных вложений, чтобы защитить организацию от вредоносных файлов в электронной почте.
-ms.openlocfilehash: 6ec78f8734fd655d71d9ce2877baa8ebde2e50ee
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ad90ffb4e3503021923470238626d6025e9820fb
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598346"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957184"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик безопасных вложений Office 365 ATP
 
@@ -43,13 +43,13 @@ ms.locfileid: "41598346"
 
 - Убедитесь, что в вашей организации используется [Advanced Threat Protection в Office 365](office-365-atp.md).
 
-- Убедитесь, что у вас есть необходимые разрешения. Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже.
+- Убедитесь, что у вас есть необходимые разрешения. Для определения (или изменения) политик ATP должна быть назначена роль управления организацией Exchange Online (по умолчанию эта роль назначена глобальному администратору Office 365) или как Exchange Online санацией, так и роли администратора безопасности. Более подробную информацию можно найти в следующей таблице.
 
-  |Role|Где/как назначено|
+  |Роль|Где/как назначено|
   |---------|---------|
   |Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)|
   |Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-  |Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+  |Управление организацией Exchange Online, управление Exchange Online санацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
 
   Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
 

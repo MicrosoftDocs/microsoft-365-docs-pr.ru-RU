@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/10/2020
+ms.date: 02/07/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: a1db932dda8b49d2d17805e605e11bc654c0e318
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6a7ee065447c7351f02d1ff88239b1c41b7e874b
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598076"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957384"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -143,6 +143,7 @@ ms.locfileid: "41598076"
 - Для центра соответствия &amp; требованиям безопасности необходимо назначить одну из следующих ролей:
     - Управление организацией
     - Администратор безопасности (это можно назначить в центре администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))).
+    - Оператор безопасности (это можно назначить в центре администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))).
     - Читатель сведений о безопасности
 
 - Для Exchange Online необходимо назначить одну из следующих ролей в центре администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) или с помощью командлетов PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)):
@@ -161,12 +162,14 @@ ms.locfileid: "41598076"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безопасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   
 [Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям](create-a-schedule-for-a-report.md)
   
 [Настройка и загрузка настраиваемого отчета в центре безопасности &amp; и соответствия требованиям](set-up-and-download-a-custom-report.md)
+
+[Разрешения ролей (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)
   
 

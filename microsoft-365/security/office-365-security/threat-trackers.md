@@ -16,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: Сведения о средствах отслеживания угроз, в том числе о новых отслеживаемых средствах отслеживания, которые помогут Организации в курсе проблем с безопасностью.
-ms.openlocfilehash: f2a68cfbbae0ce91716f69514e30136ac223bbf8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 75ade05f5512657a443f3c14c2745cc2cd3d78db
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598186"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957364"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>Средства отслеживания угроз — новые и полезные
 
@@ -55,7 +55,7 @@ ms.locfileid: "41598186"
   
 ### <a name="trending-trackers"></a>Отслеживание тенденций
 
-Средства отслеживания тенденций (ранее называемые кампаниями) выделяют новые угрозы, которые не были видны в электронной почте вашей организации за последнюю неделю.
+Средства отслеживания тенденций (ранее называемые кампаниями) выделяют новые угрозы, полученные в электронной почте Организации за последнюю неделю.
   
 ![Пример мини-приложения "кампании вредоносных программ"](../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
   
