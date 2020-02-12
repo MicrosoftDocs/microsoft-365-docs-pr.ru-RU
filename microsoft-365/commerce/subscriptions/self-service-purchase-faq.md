@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 description: Здесь вы найдете ответы на часто задаваемые вопросы об самостоятельных покупках.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: f9f991dca27617717817564daa4a042e2eeb4bf0
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 1a8cea3b11ecdc6e3ac6d382dc8ffe92c84e187a
+ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661914"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41932279"
 ---
 # <a name="self-service-purchase-faq"></a>Вопросы и ответы по самостоятельной покупке
 
 > [!NOTE]
 > Сведения, приведенные в этой статье, применимы к подпискам на Microsoft Power Platform (Power BI, Power Apps and Power Автоматизация).
 
-Теперь самостоятельные покупки доступны для платформы управления питанием в США.
+Теперь самостоятельные покупки доступны для платформы управления питанием в США, Австралии, Канаде и Японии.
 
 ## <a name="general"></a>Общие
 
