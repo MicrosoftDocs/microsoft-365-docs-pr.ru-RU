@@ -8,7 +8,7 @@
       href: recently-updated-topics-mcc.md
     - name: "Центр соответствия требованиям Microsoft\_365"
       href: microsoft-365-compliance-center.md
-    - name: "Каталог решений Microsoft\_365 (предварительная версия)"
+    - name: Каталог решений Microsoft 365
       href: microsoft-365-solution-catalog.md
     - name: Переход в Центр безопасности и соответствия требованиям
       href: go-to-the-securitycompliance-center.md
@@ -458,8 +458,6 @@
               href: review-set-search.md
             - name: Добавление тегов к документам в наборе для проверки
               href: tagging-documents.md
-            - name: Настройка определения адвокатской тайны
-              href: attorney-privilege-detection.md
             - name: Использование панели мониторинга "набор проверки" (Предварительная версия)
               href: advanced-ediscovery-dashboard.md
         - name: Анализ данных дела
@@ -500,6 +498,8 @@
               href: supported-filetypes-ediscovery20.md
             - name: Поля метаданных документа
               href: document-metadata-fields-in-advanced-ediscovery.md
+            - name: Настройка определения адвокатской тайны
+              href: attorney-privilege-detection.md
             - name: Наборы для проверки бесед
               href: conversation-review-sets.md
             - name: Расширенные отчеты об обнаружении электронных данных (Предварительная версия)
