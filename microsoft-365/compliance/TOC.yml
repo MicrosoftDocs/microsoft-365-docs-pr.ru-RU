@@ -202,7 +202,7 @@
           href: data-classification-content-explorer.md
         - name: Просмотр действий с метками (предварительная версия)
           href: data-classification-activity-explorer.md
-        - name: Заметки о выпуске классификации данных для общедоступной предварительной версии (Preview)
+        - name: Заметки о выпуске общедоступной предварительной версии классификации данных (предварительная версия)
           href: data-classification-pub-preview-relnotes.md
         - name: Начало работы с обучаемыми классификаторами (предварительная версия)
           href: classifier-getting-started-with.md
