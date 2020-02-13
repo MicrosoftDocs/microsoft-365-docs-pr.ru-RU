@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Расширенный аудит в Microsoft 365 предоставляет новые функции аудита, помогающие организации при расследованиях и анализе соответствия требованиям.
-ms.openlocfilehash: 49d2e2bbf7d1c19bb4c282920008a0ca9a34188d
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: e06e7f6330a36c8f98042fcce472b7baf6ef16ff
+ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862419"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41960245"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Расширенный аудит в Microsoft 365
 
