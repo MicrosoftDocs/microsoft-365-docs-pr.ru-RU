@@ -15,17 +15,20 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверить сообщения, отправленные из организации Office 365.
-ms.openlocfilehash: 88daf311c5c3bdad396044b78476a134f3c814cb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0702baec4dd2b585dcf45546befc19a6108004b9
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598096"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957354"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>Использование протокола DMARC для проверки электронной почты в Office 365
 
 Протокол [DMARC](https://dmarc.org) (Domain-based Message Authentication, Reporting, and Conformance) используется в сочетании с инфраструктурой политики отправителей (SPF) и механизмом DKIM (DomainKeys Identified Mail) для проверки подлинности отправителей и подтверждения того, что сообщения, отправленные в конечные почтовые системы из вашего домена, являются доверенными. Реализация DMARC в сочетании с SPF и DKIM обеспечивает дополнительную защиту от спуфинга и фишинга. DMARC помогает получающим почтовым системам определить, что делать с сообщениями, отправленными из вашего домена, которые не прошли проверки SPF или DKIM.
-  
+
+> [!TIP]
+> Посетите каталог [Ассоциации информационной безопасности Майкрософт (MISA)](https://www.microsoft.com/misapartnercatalog), чтобы просмотреть сторонних поставщиков, предлагающих услуги отчетности DMARC для Office 365. 
+
 ## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-office-365"></a>Как SPF в сочетании с протоколом DMARC обеспечивают защиту электронной почты в Office 365?
 <a name="SPFandDMARC"> </a>
 
@@ -79,7 +82,7 @@ S: .
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1" 
 ```
 
-Корпорация Майкрософт отправляет свои отчеты DMARC сторонней компании [Agari](https://agari.com). Эта компания собирает и анализирует полученные отчеты. Кроме того, [бесплатные услуги мониторинга DMARC для Office 365](https://go.valimail.com/microsoft.html) предоставляет компания Valimail.
+Корпорация Майкрософт отправляет свои отчеты DMARC сторонней компании [Agari](https://agari.com). Эта компания собирает и анализирует полученные отчеты. Посетите [каталог MISA](https://www.microsoft.com/misapartnercatalog), чтобы просмотреть других сторонних поставщиков, предлагающих услуги отчетности DMARC для Office 365.
   
 ## <a name="implement-dmarc-for-inbound-mail"></a>Реализация протокола DMARC для входящей почты
 <a name="implementDMARCinbound"> </a>
