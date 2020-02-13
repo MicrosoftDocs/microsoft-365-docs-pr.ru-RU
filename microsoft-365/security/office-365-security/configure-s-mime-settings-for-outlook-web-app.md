@@ -15,12 +15,12 @@ ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
 ms.collection:
 - M365-security-compliance
 description: Краткое описание администраторов Exchange Online, необходимых для просмотра и настройки параметров S/MIME в Outlook в Интернете в Exchange Online.
-ms.openlocfilehash: 2f6a4499a8961144cd24a414f14135d683cf36dc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 354b247c2b0e0e610e6cb0626f4a404b582db717
+ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599606"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41960325"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>Настройка параметров S/MIME в Exchange Online для Outlook в Интернете
 
@@ -28,11 +28,19 @@ ms.locfileid: "41599606"
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/get-smimeconfig) и [Set/SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-smimeconfig).
 
+## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Рекомендации по новым Microsoft EDGE (на основе Чромиум)
+
+Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , вы (или другой администратор) должны установить и настроить политику браузера Microsoft Edge с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в новой Microsoft Edge. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`. Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в новом браузере Microsoft Edge необходимы компьютеры, присоединенные к домену.
+
+Подробные сведения о политике **екстенсионинсталлфорцелист** можно найти в статье [екстенсионинсталлфорцелист](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist).
+
+Этот шаг является необходимым условием для использования новых Microsoft Edge; Он не заменяет элемент управления S/MIME, установленный пользователями. При первом использовании S/MIME пользователям предлагается скачать и установить элемент управления S/MIME в Outlook в Интернете. Кроме того, пользователи могут активно перейти к параметру **S/MIME** в Outlook в Интернете, чтобы получить ссылку для скачивания этого элемента управления.
+
 ## <a name="considerations-for-chrome"></a>Рекомендации для Chrome
 
 Чтобы использовать S/MIME в Outlook в Интернете в веб-браузере Google Chrome, вы (или другой администратор) должны настроить и настроить политику Чромиум с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в Chrome. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`. Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в Chrome необходимы компьютеры, присоединенные к домену.
 
-Подробные сведения о политике **екстенсионинсталлфорцелист** можно найти в статье [екстенсионинсталлфорцелист](https://dev.chromium.org/administrators/policy-list-3#ExtensionInstallForcelist).
+Подробные сведения о политике **екстенсионинсталлфорцелист** можно найти в статье [екстенсионинсталлфорцелист](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=ExtensionInstallForcelist).
 
 Этот шаг является необходимым условием для использования Chrome; Он не заменяет элемент управления S/MIME, установленный пользователями. При первом использовании S/MIME пользователям предлагается скачать и установить элемент управления S/MIME в Outlook в Интернете. Кроме того, пользователи могут активно перейти к параметру **S/MIME** в Outlook в Интернете, чтобы получить ссылку для скачивания этого элемента управления.
 
