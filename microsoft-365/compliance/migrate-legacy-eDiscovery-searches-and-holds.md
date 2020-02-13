@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: db05b598fb0dab3cac9420b33b0bd4e12b6b7e9a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 356330b4282fe9dc0aa211d48e452ad04a1bbe74
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602796"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957194"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Миграция поиска электронных данных прежних версий и удержаний в центре соответствия требованиям Microsoft 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "41602796"
 > [!NOTE]
 > Так как существует множество различных сценариев, в этой статье представлены общие рекомендации по переходу на поиск и удержанию в базовом варианте обнаружения электронных данных в центре соответствия требованиям Microsoft 365. Не всегда требуется использовать случаи обнаружения электронных данных, но они добавляют дополнительный уровень безопасности, позволяя назначать разрешения для управления доступом пользователей к делам обнаружения электронных данных в Организации.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Для запуска команд PowerShell, описанных в этой статье, необходимо быть членом группы ролей "Диспетчер обнаружения электронных данных" в центре безопасности & соответствия требованиям Office 365. Вы также должны быть членом группы ролей "Управление обнаружением" в центре администрирования Exchange.
 
@@ -41,7 +41,7 @@ ms.locfileid: "41602796"
 ```powershell
 $UserCredential = Get-Credential
 $sccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
-Import-PSSession $Session -AllowClobber -DisableNameChecking
+Import-PSSession $sccSession -DisableNameChecking
 $exoSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
 Import-PSSession $exoSession -AllowClobber -DisableNameChecking
 ```
@@ -87,23 +87,19 @@ $search | FL
 $case = New-ComplianceCase -Name "[Case name of your choice]"
 ```
 
-![Пример выполнения команды New – ComplianceCase](media/MigrateLegacyeDiscovery3.png)
-
 ## <a name="step-5-create-the-ediscovery-hold"></a>Шаг 5: Создание удержания обнаружения электронных данных
 
 После создания обращения можно создать удержание и связать его с обращением, созданным на предыдущем шаге. Важно помнить о том, что необходимо создать как политику удержания, так и правило удержания дел. Если правило удержания не создается после создания политики удержания, то удержание для обнаружения электронных данных не будет создано и содержимое не будет включено в удержание.
 
-Выполните следующие команды, чтобы повторно создать удержание для обнаружения электронных данных, которое требуется перенести. В этих примерах используются свойства из шага 3, которые нужно перенести, из раздела "удержание на месте".
+Выполните следующие команды, чтобы повторно создать удержание для обнаружения электронных данных, которое требуется перенести. В этих примерах используются свойства из шага 3, которые нужно перенести, из раздела "удержание на месте". Первая команда создает новую политику удержания дел и сохраняет свойства в переменной. Вторая команда создает соответствующее правило хранения для случая.
 
 ```powershell
 $policy = New-CaseHoldPolicy -Name $search.Name -Case $case.Identity -ExchangeLocation $search.SourceMailboxes
 ```
 
 ```powershell
-$rule = New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
+New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
 ```
-
-![Пример использования командлетов Невкасехолдполици и Невкасехолдруле](media/MigrateLegacyeDiscovery4.png)
 
 ## <a name="step-6-verify-the-ediscovery-hold"></a>Шаг 6: Проверка удержания обнаружения электронных данных
 
