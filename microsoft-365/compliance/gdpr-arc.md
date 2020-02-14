@@ -15,57 +15,66 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 111bafdb5d95792e8fda08007bccd7cd274b8832
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bb4056b90afc8805d4e56b9b73c0c7d118d6f08c
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594489"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916894"
 ---
-# <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a><span data-ttu-id="dcc0d-104">Поддержка программы GDPR с контрольными списками готовности к подотчетности</span><span class="sxs-lookup"><span data-stu-id="dcc0d-104">Support your GDPR program with Accountability Readiness Checklists</span></span>
+# <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a><span data-ttu-id="8d525-104">Поддержка программы GDPR с контрольными списками готовности к подотчетности</span><span class="sxs-lookup"><span data-stu-id="8d525-104">Support your GDPR program with Accountability Readiness Checklists</span></span>
 
-<span data-ttu-id="dcc0d-105">Общий регламент по защите данных (GDPR) вводит новые правила для организаций, предоставляющих товары и услуги жителям Европейского союза (ЕС) или занимающихся сбором и анализом данных резидентов ЕС, независимо от того, где находитесь вы или ваше предприятие.</span><span class="sxs-lookup"><span data-stu-id="dcc0d-105">The General Data Protection Regulation (GDPR) introduces new rules for organizations that offer goods and services to people in the European Union (EU), or that collect and analyze data for EU residents no matter where you or your enterprise are located.</span></span> <span data-ttu-id="dcc0d-106">Дополнительные сведения можно найти в разделе [Сводка по GDPR](gdpr.md).</span><span class="sxs-lookup"><span data-stu-id="dcc0d-106">Additional details are in the [GDPR Summary topic](gdpr.md).</span></span>
+<span data-ttu-id="8d525-105">Общий регламент по защите данных (GDPR) вводит новые правила для организаций, предоставляющих товары и услуги жителям Европейского союза (ЕС) или занимающихся сбором и анализом данных резидентов ЕС, независимо от того, где находитесь вы или ваше предприятие.</span><span class="sxs-lookup"><span data-stu-id="8d525-105">The General Data Protection Regulation (GDPR) introduces new rules for organizations that offer goods and services to people in the European Union (EU), or that collect and analyze data for EU residents no matter where you or your enterprise are located.</span></span> <span data-ttu-id="8d525-106">Дополнительные сведения можно найти в разделе [Сводка по GDPR](gdpr.md).</span><span class="sxs-lookup"><span data-stu-id="8d525-106">Additional details are in the [GDPR Summary topic](gdpr.md).</span></span>
 
-## <a name="accountability-readiness-checklists"></a><span data-ttu-id="dcc0d-107">Контрольные списки готовности к подотчетности</span><span class="sxs-lookup"><span data-stu-id="dcc0d-107">Accountability Readiness Checklists</span></span>
+## <a name="accountability-readiness-checklists"></a><span data-ttu-id="8d525-107">Контрольные списки готовности к подотчетности</span><span class="sxs-lookup"><span data-stu-id="8d525-107">Accountability Readiness Checklists</span></span>
 
-<span data-ttu-id="dcc0d-108">Контрольные списки готовности к подотчетности — удобный способ получения доступа к информации, необходимой для соблюдения требований GDPR при использовании продуктов и служб Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="dcc0d-108">Accountability readiness checklists are provided to conveniently access information you may need to support the GDPR when using Microsoft products and services.</span></span> <span data-ttu-id="dcc0d-109">В контрольном списке перечислены потенциальные обязательства в рамках GDPR и приведены ссылки на информацию, которую можно использовать для обеспечения соответствия организации требованиям.</span><span class="sxs-lookup"><span data-stu-id="dcc0d-109">The checklist lists potential obligations you may have under the GDPR, and points you to information that you can use to support your organizations’ compliance.</span></span> <br><br>
+<span data-ttu-id="8d525-108">Контрольные списки готовности к подотчетности — удобный способ получения доступа к информации, необходимой для соблюдения требований GDPR при использовании продуктов и служб Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="8d525-108">Accountability readiness checklists are provided to conveniently access information you may need to support the GDPR when using Microsoft products and services.</span></span> <span data-ttu-id="8d525-109">В контрольном списке перечислены потенциальные обязательства в рамках GDPR и приведены ссылки на информацию, которую можно использовать для обеспечения соответствия организации требованиям.</span><span class="sxs-lookup"><span data-stu-id="8d525-109">The checklist lists potential obligations you may have under the GDPR, and points you to information that you can use to support your organizations’ compliance.</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1RP] 
+<span data-ttu-id="8d525-110">Существует специальное руководство для четырех семейств продуктов и служб Майкрософт:</span><span class="sxs-lookup"><span data-stu-id="8d525-110">There is a specific guide for four Microsoft product and services families:</span></span>
 
-<span data-ttu-id="dcc0d-110">Существует специальное руководство для четырех семейств продуктов и служб Майкрософт:</span><span class="sxs-lookup"><span data-stu-id="dcc0d-110">There is a specific guide for four Microsoft product and services families:</span></span>
+- [<span data-ttu-id="8d525-111">Office 365</span><span class="sxs-lookup"><span data-stu-id="8d525-111">Office 365</span></span>](gdpr-arc-Office365.md)
+- [<span data-ttu-id="8d525-112">Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="8d525-112">Dynamics 365</span></span>](gdpr-arc-Dynamics365.md)
+- [<span data-ttu-id="8d525-113">Azure</span><span class="sxs-lookup"><span data-stu-id="8d525-113">Azure</span></span>](gdpr-arc-Azure.md)
+- [<span data-ttu-id="8d525-114">Служба поддержки и профессионального обслуживания Майкрософт</span><span class="sxs-lookup"><span data-stu-id="8d525-114">Microsoft Support and Professional Services</span></span>](gdpr-arc-prof-services.md)
 
-- [<span data-ttu-id="dcc0d-111">Office 365</span><span class="sxs-lookup"><span data-stu-id="dcc0d-111">Office 365</span></span>](gdpr-arc-Office365.md)
-- [<span data-ttu-id="dcc0d-112">Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="dcc0d-112">Dynamics 365</span></span>](gdpr-arc-Dynamics365.md)
-- [<span data-ttu-id="dcc0d-113">Azure</span><span class="sxs-lookup"><span data-stu-id="dcc0d-113">Azure</span></span>](gdpr-arc-Azure.md)
-- [<span data-ttu-id="dcc0d-114">Служба поддержки и профессионального обслуживания Майкрософт</span><span class="sxs-lookup"><span data-stu-id="dcc0d-114">Microsoft Support and Professional Services</span></span>](gdpr-arc-prof-services.md)
+<span data-ttu-id="8d525-115">Вы можете управлять элементами этого контрольного списка в [рейтинге соответствия требованиям](compliance-score.md), ориентируясь на идентификаторы и названия контрольных точек в списке "Средства контроля в ведении клиента" на плитке GDPR.</span><span class="sxs-lookup"><span data-stu-id="8d525-115">You can manage the items in this checklist with [Compliance Score](compliance-score.md) by referencing the Control ID and Control Title under Customer Managed Controls in the GDPR tile.</span></span>
 
-<span data-ttu-id="dcc0d-115">Вы можете управлять элементами этого контрольного списка в [рейтинге соответствия требованиям](compliance-score.md), ориентируясь на идентификаторы и названия контрольных точек в списке "Средства контроля в ведении клиента" на плитке GDPR.</span><span class="sxs-lookup"><span data-stu-id="dcc0d-115">You can manage the items in this checklist with [Compliance Score](compliance-score.md) by referencing the Control ID and Control Title under Customer Managed Controls in the GDPR tile.</span></span>
+<span data-ttu-id="8d525-116">Контрольные списки включают четыре основные категории рекомендаций для программы конфиденциальности в рамках GDPR, перечисленные ниже с примерами требований.</span><span class="sxs-lookup"><span data-stu-id="8d525-116">The checklists include the four basic categories of considerations for a privacy program supporting GDPR listed below, along with example requirements.</span></span>
 
-<span data-ttu-id="dcc0d-116">Контрольные списки включают четыре основные категории рекомендаций для программы конфиденциальности в рамках GDPR, перечисленные ниже с примерами требований.</span><span class="sxs-lookup"><span data-stu-id="dcc0d-116">The checklists include the four basic categories of considerations for a privacy program supporting GDPR listed below, along with example requirements.</span></span>
+1. <span data-ttu-id="8d525-117">Условия сбора и обработки данных</span><span class="sxs-lookup"><span data-stu-id="8d525-117">Conditions for Data Collection and Processing:</span></span>
 
-1. <span data-ttu-id="dcc0d-117">Условия сбора и обработки данных</span><span class="sxs-lookup"><span data-stu-id="dcc0d-117">Conditions for Data Collection and Processing:</span></span>
+    - <span data-ttu-id="8d525-118">Когда получено согласие?</span><span class="sxs-lookup"><span data-stu-id="8d525-118">When is consent obtained?</span></span>  
+    - <span data-ttu-id="8d525-119">Определение и документирование цели</span><span class="sxs-lookup"><span data-stu-id="8d525-119">Identify and document purpose</span></span>  
+    - <span data-ttu-id="8d525-120">Оценка влияния на конфиденциальность</span><span class="sxs-lookup"><span data-stu-id="8d525-120">Privacy impact assessment</span></span>
 
-    - <span data-ttu-id="dcc0d-118">Когда получено согласие?</span><span class="sxs-lookup"><span data-stu-id="dcc0d-118">When is consent obtained?</span></span>  
-    - <span data-ttu-id="dcc0d-119">Определение и документирование цели</span><span class="sxs-lookup"><span data-stu-id="dcc0d-119">Identify and document purpose</span></span>  
-    - <span data-ttu-id="dcc0d-120">Оценка влияния на конфиденциальность</span><span class="sxs-lookup"><span data-stu-id="dcc0d-120">Privacy impact assessment</span></span>
+2. <span data-ttu-id="8d525-121">Права субъектов данных</span><span class="sxs-lookup"><span data-stu-id="8d525-121">Data Subject Rights</span></span>  
 
-2. <span data-ttu-id="dcc0d-121">Права субъектов данных</span><span class="sxs-lookup"><span data-stu-id="dcc0d-121">Data Subject Rights</span></span>  
+    - <span data-ttu-id="8d525-122">Определение информации для субъектов личных сведений (субъектов данных)</span><span class="sxs-lookup"><span data-stu-id="8d525-122">Determining information for PII principals (data subjects)</span></span>  
+    - <span data-ttu-id="8d525-123">Предоставление механизма для изменения или отзыва согласия</span><span class="sxs-lookup"><span data-stu-id="8d525-123">Providing mechanism to modify or withdraw consent</span></span>
 
-    - <span data-ttu-id="dcc0d-122">Определение информации для субъектов личных сведений (субъектов данных)</span><span class="sxs-lookup"><span data-stu-id="dcc0d-122">Determining information for PII principals (data subjects)</span></span>  
-    - <span data-ttu-id="dcc0d-123">Предоставление механизма для изменения или отзыва согласия</span><span class="sxs-lookup"><span data-stu-id="dcc0d-123">Providing mechanism to modify or withdraw consent</span></span>
+3. <span data-ttu-id="8d525-124">Конфиденциальность, предусмотренная по умолчанию</span><span class="sxs-lookup"><span data-stu-id="8d525-124">Privacy by Design and Default</span></span>  
 
-3. <span data-ttu-id="dcc0d-124">Конфиденциальность, предусмотренная по умолчанию</span><span class="sxs-lookup"><span data-stu-id="dcc0d-124">Privacy by Design and Default</span></span>  
+    - <span data-ttu-id="8d525-125">Ограничение сбора данных</span><span class="sxs-lookup"><span data-stu-id="8d525-125">Limit Collection</span></span>  
+    - <span data-ttu-id="8d525-126">Соблюдение уровней идентификации</span><span class="sxs-lookup"><span data-stu-id="8d525-126">Comply with identification levels</span></span>  
+    - <span data-ttu-id="8d525-127">Временные файлы</span><span class="sxs-lookup"><span data-stu-id="8d525-127">Temporary files</span></span>
 
-    - <span data-ttu-id="dcc0d-125">Ограничение сбора данных</span><span class="sxs-lookup"><span data-stu-id="dcc0d-125">Limit Collection</span></span>  
-    - <span data-ttu-id="dcc0d-126">Соблюдение уровней идентификации</span><span class="sxs-lookup"><span data-stu-id="dcc0d-126">Comply with identification levels</span></span>  
-    - <span data-ttu-id="dcc0d-127">Временные файлы</span><span class="sxs-lookup"><span data-stu-id="dcc0d-127">Temporary files</span></span>
+4. <span data-ttu-id="8d525-128">Защита данных и безопасность</span><span class="sxs-lookup"><span data-stu-id="8d525-128">Data Protection and Security</span></span>  
 
-4. <span data-ttu-id="dcc0d-128">Защита данных и безопасность</span><span class="sxs-lookup"><span data-stu-id="dcc0d-128">Data Protection and Security</span></span>  
+    - <span data-ttu-id="8d525-129">Общие сведения об организации и ее контексте</span><span class="sxs-lookup"><span data-stu-id="8d525-129">Understanding the organization and its context</span></span>  
+    - <span data-ttu-id="8d525-130">Планирование</span><span class="sxs-lookup"><span data-stu-id="8d525-130">Planning</span></span>  
+    - <span data-ttu-id="8d525-131">Политики информационной безопасности</span><span class="sxs-lookup"><span data-stu-id="8d525-131">Information Security Policies</span></span>
 
-    - <span data-ttu-id="dcc0d-129">Общие сведения об организации и ее контексте</span><span class="sxs-lookup"><span data-stu-id="dcc0d-129">Understanding the organization and its context</span></span>  
-    - <span data-ttu-id="dcc0d-130">Планирование</span><span class="sxs-lookup"><span data-stu-id="dcc0d-130">Planning</span></span>  
-    - <span data-ttu-id="dcc0d-131">Политики информационной безопасности</span><span class="sxs-lookup"><span data-stu-id="dcc0d-131">Information Security Policies</span></span>
+## <a name="customer-agreements"></a><span data-ttu-id="8d525-132">Клиентские договора</span><span class="sxs-lookup"><span data-stu-id="8d525-132">Customer agreements</span></span>
 
-## <a name="learn-more"></a><span data-ttu-id="dcc0d-132">Подробнее</span><span class="sxs-lookup"><span data-stu-id="dcc0d-132">Learn more</span></span>
+- <span data-ttu-id="8d525-133">**Условия использования веб-служб**. Договорные обязательства корпорации Майкрософт в отношении GDPR указаны в документе [Условия использования веб-служб](https://go.microsoft.com/fwlink/p/?linkid=2052208).</span><span class="sxs-lookup"><span data-stu-id="8d525-133">**Online service terms**: You can find Microsoft contractual commitments with regard to the GDPR in the [Online Services Terms](https://go.microsoft.com/fwlink/p/?linkid=2052208).</span></span>
+- <span data-ttu-id="8d525-134">**Условия использования продуктов Майкрософт**. Корпорация Майкрософт выполняет [обязательства, указанные в условиях GDPR](https://go.microsoft.com/fwlink/p/?linkid=2052213), в отношении всех клиентов с корпоративным лицензированием.</span><span class="sxs-lookup"><span data-stu-id="8d525-134">**Microsoft product terms**: Microsoft extends the [GDPR Terms commitments](https://go.microsoft.com/fwlink/p/?linkid=2052213) to all Volume Licensing customers.</span></span>
+- <span data-ttu-id="8d525-135">**Приложение о защите данных**. Обязательства, касающиеся служб Майкрософт, [распространяются](https://go.microsoft.com/fwlink/p/?linkid=2052215) на клиентов консультационных служб Майкрософт и других клиентов.</span><span class="sxs-lookup"><span data-stu-id="8d525-135">**Data protection addendum**: Microsoft services [extends the commitments](https://go.microsoft.com/fwlink/p/?linkid=2052215) to Microsoft Consulting Services customers and others.</span></span>
 
-- [<span data-ttu-id="dcc0d-133">Центр управления безопасностью (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="dcc0d-133">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+## <a name="gdpr-compliance-controls"></a><span data-ttu-id="8d525-136">Средства контроля соответствия требованиям GDPR</span><span class="sxs-lookup"><span data-stu-id="8d525-136">GDPR compliance controls</span></span>
+
+- <span data-ttu-id="8d525-137">**Применение рейтинга соответствия требованиям**. Просматривайте и внедряйте средства контроля, которые корпорация Майкрософт использует для поддержки обязательств, накладываемых GDPR, с помощью [рейтинга соответствия требованиям](compliance-score.md).</span><span class="sxs-lookup"><span data-stu-id="8d525-137">**Use Compliance Score**: Review and incorporate controls Microsoft uses to support obligations in the GDPR with [Compliance Score](compliance-score.md).</span></span>
+- <span data-ttu-id="8d525-138">**Сопоставление средств контроля GDPR**. Воспользуйтесь [комплексным сопоставлением](https://go.microsoft.com/fwlink/p/?linkid=2052220) средств контроля Майкрософт с обязательствами по GDPR.</span><span class="sxs-lookup"><span data-stu-id="8d525-138">**GDPR control mapping**: Access a [comprehensive mapping](https://go.microsoft.com/fwlink/p/?linkid=2052220) of Microsoft controls to GDPR obligations.</span></span>
+
+## <a name="learn-more"></a><span data-ttu-id="8d525-139">Дополнительные сведения</span><span class="sxs-lookup"><span data-stu-id="8d525-139">Learn more</span></span>
+
+- [<span data-ttu-id="8d525-140">Центр управления безопасностью (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="8d525-140">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
