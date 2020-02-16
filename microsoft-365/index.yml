@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: f55a1404a76b55aab6ed6c0b46874fcc80dbbf87
-  ms.sourcegitcommit: d718a3a3ad293ca533ba355047a461b3ab6d4aa3
+  ms.openlocfilehash: 412cc9059aa3f533643ea37295a513ead1a05ed7
+  ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/10/2020
-  ms.locfileid: "41882884"
+  ms.lasthandoff: 02/15/2020
+  ms.locfileid: "42085368"
 highlightedContent:
   items:
   - title: Обучение для администраторов и ИТ-специалистов
@@ -27,7 +27,7 @@ highlightedContent:
   - title: Обучение конечных пользователей
     itemType: learn
     url: https://support.office.com/modernworkplace
-  - title: Обучение для малых предприятий
+  - title: Настройка бизнеса в облаке
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
   - title: Руководства по лаборатории тестирования для ИТ-специалистов
@@ -44,6 +44,9 @@ additionalContent:
   - title: Получение справки по Microsoft 365
     summary: Выберите карточку, чтобы узнать больше о Microsoft 365.
     items:
+    - title: Центр администрирования Microsoft 365
+      summary: Настройка Office 365 и Microsoft 365 для бизнеса и ентеприсе субспкриптионс и управление ими.
+      url: https://docs.microsoft.com/office365/admin/admin-home/
     - title: Microsoft 365 бизнес
       summary: Предназначено для малых и средних предприятий. Запустите свой бизнес с помощью последней версии приложений для Windows и Office, например Excel и Outlook. Используйте преимущества защиты и защиты данных, которая распространяется на все ваши бизнес-устройства.
       url: ./business/index.yml
