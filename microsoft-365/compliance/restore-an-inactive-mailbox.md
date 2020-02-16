@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Если новому сотруднику или другому пользователю требуется доступ к содержимому неактивного почтового ящика в Office 365, можно восстановить (или объединить) содержимое неактивного почтового ящика в существующий почтовый ящик.
-ms.openlocfilehash: 7a12d34c175340a51ddaf39cdfffc945a0add203
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1fdf86c17d557ef27373001cb63f710168269a19
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601636"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081613"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Восстановление неактивного почтового ящика в Office 365
 
@@ -33,7 +33,7 @@ ms.locfileid: "41601636"
 
 В разделе **Дополнительные сведения** этой статьи представлены дополнительные сведения о различиях между восстановлением и восстановлением неактивного почтового ящика.
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Для восстановления неактивного почтового ящика необходимо использовать Exchange Online PowerShell. Вы не можете сделать этого в Центре администрирования Exchange (EAC). Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554).
 
@@ -125,8 +125,8 @@ ms.locfileid: "41601636"
 
     **Иерархия папок в целевом почтовом ящике, если параметр TargetRootFolder не используется**
 
-    ![Снимок экрана: не используется параметр TargetRootFolder.](media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
+    ![Снимок экрана: не используется параметр TargetRootFolder.](../media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
   
     **Иерархия папок в целевом почтовом ящике, если параметр TargetRootFolder используется**
 
-    ![Снимок экрана: используется параметр TargetRootFolder.](media/300da592-7323-48db-b8a4-07012259d113.png)
+    ![Снимок экрана: используется параметр TargetRootFolder.](../media/300da592-7323-48db-b8a4-07012259d113.png)

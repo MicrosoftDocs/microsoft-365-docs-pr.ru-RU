@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: efd5d2f8003bd79620118a6a058576e5593699b1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 517ff6ae711d61b783e837aebeeb991dfaa53daa
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601216"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084338"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -1080,7 +1080,7 @@ ms.locfileid: "41601216"
 - Удостоверение
 - Зарегистрировал
 - Процедура 
-- Идентификатор 
+- ID 
 - идентитеитскаарт
 - Registratie nummer 
 - Identificatie nummer 
@@ -1896,7 +1896,7 @@ Registro de identidade (RIC) (новый формат):
 
 - National Identification Number 
 - Identity card 
-- Идентификатор 
+- ID 
 - Процедура 
 - Rol Único Nacional 
 - ВЫПОЛНЯЕМ 
@@ -3326,7 +3326,7 @@ No — Реисепасс НР — Реисепасс
 #### <a name="keyword_germany_id_card"></a>Keyword_germany_id_card
 
 - Identity Card
-- Идентификатор
+- ID
 - Процедура
 - персоналаусвеис
 - идентифизиерунгснуммер
@@ -4901,7 +4901,7 @@ Keyword_nz_terms
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- Идентификатор
+- ID
 - Процедура 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер жителя Южной Кореи
@@ -5899,7 +5899,7 @@ Keyword_nz_terms
 - БИБЛИОТЕК 
 - кдл 
 - кдлс 
-- Идентификатор 
+- ID 
 - Идентификаторы 
 - DL # 
 - БИБЛИОТЕК # 
@@ -6116,92 +6116,40 @@ Keyword_nz_terms
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_ssn находит содержимое, которое соответствует шаблону.
 - Находится ключевое слово из Keyword_ssn.
-- функция Func_us_date находит дату в правильном формате.
-- Функция Func_us_address находит адрес в правильном формате.
 
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - Функция Func_unformatted_ssn находит содержимое, которое соответствует шаблону.
 - Находится ключевое слово из Keyword_ssn.
-- функция Func_us_date находит дату в правильном формате.
-- Функция Func_us_address находит адрес в правильном формате.
 
 Политика защиты от потери данных с вероятностью в 65 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, отдаленном не более чем на 300 знаков:
 - Функция Func_randomized_formatted_ssn находит содержимое, которое соответствует шаблону.
 - Находится ключевое слово из Keyword_ssn.
-- функция Func_us_date находит дату в правильном формате.
-- Функция Func_us_address находит адрес в правильном формате.
 
 Политика защиты от потери данных с вероятностью в 55 % верно обнаружила этот тип конфиденциальной информации, если в пределах ближайших 300 знаков:
 - Функция Func_randomized_unformatted_ssn находит содержимое, которое соответствует шаблону.
 - Находится ключевое слово из Keyword_ssn.
-- функция Func_us_date находит дату в правильном формате.
-- Функция Func_us_address находит адрес в правильном формате.
 
-Политика защиты от потери данных — 40% уверенности в том, что этот тип конфиденциальной информации обнаружен, если в пределах расстояния от 300 символов:
-- Функция Func_ssn находит содержимое, которое соответствует шаблону.
-- Функция Func_unformatted_ssn не находит содержимое, которое соответствует шаблону.
-- Функция Func_randomized_unformatted_ssn не находит содержимое, которое соответствует шаблону.
-- Не найдено ключевое слово из Keyword_ssn.
- 
-или
-
-- Функция Func_randomized_formatted_ssn находит содержимое, которое соответствует шаблону.
-- Функция Func_unformatted_ssn не находит содержимое, которое соответствует шаблону.
-- Функция Func_randomized_unformatted_ssn не находит содержимое, которое соответствует шаблону.
-- Не найдено ключевое слово из Keyword_ssn.
 
 ```xml
 <!-- U.S. Social Security Number (SSN) -->
   <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77" patternsProximity="300" recommendedConfidence="75">
       <Pattern confidenceLevel="85">
         <IdMatch idRef="Func_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_ssn" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
+        <Match idRef="Keyword_ssn" />
       </Pattern>
       <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_unformatted_ssn" />
         <Match idRef="Keyword_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
       </Pattern>
       <Pattern confidenceLevel="65">
         <IdMatch idRef="Func_randomized_formatted_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Keyword_ssn" />
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
+        <Match idRef="Keyword_ssn" />
       </Pattern>
       <Pattern confidenceLevel="55">
         <IdMatch idRef="Func_randomized_unformatted_ssn" />
         <Match idRef="Keyword_ssn" />
-        <Any minMatches="1">
-          <Match idRef="Func_us_date" />
-          <Match idRef="Func_us_address" />
-        </Any>
       </Pattern>
-      <Pattern confidenceLevel="40">
-        <IdMatch idRef="Func_ssn" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Func_unformatted_ssn" />
-          <Match idRef="Func_randomized_unformatted_ssn" />
-          <Match idRef="Keyword_ssn" />
-        </Any>
-      </Pattern>
-      <Pattern confidenceLevel="40">
-        <IdMatch idRef="Func_randomized_formatted_ssn" />
-        <Any minMatches="0" maxMatches="0">
-          <Match idRef="Func_unformatted_ssn" />
-          <Match idRef="Func_randomized_unformatted_ssn" />
-          <Match idRef="Keyword_ssn" />
-        </Any>
-      </Pattern>
-    </Entity>
+  </Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова

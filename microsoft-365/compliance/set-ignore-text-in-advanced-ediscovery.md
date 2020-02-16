@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Узнайте, как определить правило для игнорирования определенного текста при использовании модулей анализа и обработки в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 7bda497f961ed762b1b077ad0631a0a6a94cdcc8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 440393061fef9b5a3c946322307fcafd034be81c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601506"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081142"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Установка параметра игнорировать текст для анализа в Office 365 Advanced eDiscovery
 
@@ -107,7 +107,7 @@ ms.locfileid: "41601506"
     
 2. В диалоговом окне **Добавление игнорируемого текста** в поле **имя** введите имя правила игнорировать текст. 
     
-    ![Добавление текста, который нужно игнорировать](media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
+    ![Добавление текста, который нужно игнорировать](../media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
   
 3. В **текстовом** поле введите текст, который будет игнорироваться. Текстовое поле допускает неограниченное число символов. 
     
@@ -122,7 +122,7 @@ ms.locfileid: "41601506"
     
 7. Нажмите кнопку **ОК** , чтобы сохранить правило игнорирования текста. Отображается заданное правило игнорирования текста. 
     
-    ![Указание имени для игнорируемого текста](media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
+    ![Указание имени для игнорируемого текста](../media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
   
 ## <a name="see-also"></a>См. также
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В Microsoft 365 имеется ряд готовых к использованию классификаторов машинного обучения, которые можно использовать для определения и маркировки содержимого в Организации. В этом разделе показано, как подготовиться к использованию этих средств для использования классификаторов.
-ms.openlocfilehash: c6659bc32131948c57ad0bf7c8e3a30fbce125d9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8f3df8e7851bf453add162df4088e11dc7745cee
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595896"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078796"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>Использование готового классификатора (предварительная версия)
 
@@ -61,7 +61,7 @@ ms.locfileid: "41595896"
 
 9. Выберите `Apply label to content that matches a trainable classifier`.
 
-![Выбор классификатора в качестве условия](media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
+![Выбор классификатора в качестве условия](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
 
 10. Выберите классификатор из списка, в данном случае`Source Code`
 

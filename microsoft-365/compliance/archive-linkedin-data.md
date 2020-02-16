@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных со страницы LinkedIn компании в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения для управления соответствием сторонним данным Организации.
-ms.openlocfilehash: c8e39577a6eaba3ad865b1617683c2baa9260759
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b42584efb0c99b97c14059ed7d860013f085262c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596026"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079644"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Настройка соединителя для архивации данных LinkedIn
 
@@ -45,13 +45,13 @@ ms.locfileid: "41596026"
 
    Отобразится страница LinkedIn Sign in.
 
-   ![Страница входа в LinkedIn](media/LinkedInSigninPage.png)
+   ![Страница входа в LinkedIn](../media/LinkedInSigninPage.png)
 
 5. На странице "вход в LinkedIn" введите адрес электронной почты (или номер телефона) и пароль для учетной записи LinkedIn, связанной со страницей компании, которую нужно архивировать, а затем нажмите кнопку **войти**.
 
    Откроется страница мастера со списком всех страниц LinkedIn Company, связанных с учетной записью, в которую вы выполнили вход. Соединитель можно настроить только для одной страницы компании. Если в Организации имеется несколько страниц LinkedIn, необходимо создать соединитель для каждого из них.
 
-   ![Отображается страница со списком страниц компании LinkedIn](media/LinkedInSelectCompanyPage.png)
+   ![Отображается страница со списком страниц компании LinkedIn](../media/LinkedInSelectCompanyPage.png)
 
 6. Выберите страницу Company, из которой требуется архивировать элементы, а затем нажмите кнопку **Далее**.
 

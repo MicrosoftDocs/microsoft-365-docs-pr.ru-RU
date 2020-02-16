@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3dabe35b753e38ab51801c6f2bd51cc5ee588e9a
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: d5eb8b2f9aff59363c60d7bd75aa3f76fdf1283a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661945"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078704"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Соответствие требованиям в Microsoft 365
 
@@ -61,7 +61,7 @@ ms.locfileid: "41661945"
 - Гибкие рабочие процессы по исправлению
 - Подробные сведения о действиях
 
-![Домашняя страница соответствия требованиям к связи](media/communication-compliance-home.png)
+![Домашняя страница соответствия требованиям к связи](../media/communication-compliance-home.png)
 
 ### <a name="intelligent-customizable-templates"></a>Интеллектуальные настраиваемые шаблоны
 
@@ -108,7 +108,7 @@ ms.locfileid: "41661945"
 
 При определении и устранении проблем с соответствием требованиям для обеспечения соответствия требованиям в Microsoft 365 используется следующий рабочий процесс:
 
-![Рабочий процесс соответствия требованиям к общению](media/communication-compliance-workflow.png)
+![Рабочий процесс соответствия требованиям к общению](../media/communication-compliance-workflow.png)
 
 ### <a name="configure"></a>Configure (Настроить)
 
@@ -153,4 +153,4 @@ ms.locfileid: "41661945"
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?
 
-Чтобы настроить соответствие требованиям для организации Microsoft 365, ознакомьтесь со статьей [Настройка соответствия требованиям для microsoft 365 (Предварительная версия)](communication-compliance-configure.md).
+Чтобы настроить соответствие требованиям для организации Microsoft 365, ознакомьтесь со статьей [Настройка соответствия требованиям для microsoft 365](communication-compliance-configure.md).

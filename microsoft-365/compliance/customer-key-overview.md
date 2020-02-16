@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: С помощью ключа клиента вы можете управлять ключами шифрования вашей организации, а затем настроить Office 365 на их использование для шифрования данных на REST в центрах обработки данных Майкрософт.
-ms.openlocfilehash: ee62065542ea50091d73362dd8d05f2e4e7dc337
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: 6fd7167dd46f3a44d97a493830aef19e40f062e8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076934"
 ---
 # <a name="service-encryption-with-customer-key-in-office-365"></a>Шифрование службы с помощью ключа клиента в Office 365
 
@@ -49,7 +49,7 @@ Office 365 предоставляет базовый уровень шифров
 
 ## <a name="about-the-data-encryption-policy-dep"></a>О политике шифрования данных (DEP)
 
-Политика шифрования данных определяет иерархию шифрования для шифрования данных с использованием каждого предоставленного ключа, а также ключа доступности, защищенного корпорацией Майкрософт. Вы создаете ДЕПС с помощью командлетов PowerShell, которые отличаются для каждой службы, и назначают их для шифрования данных приложения. Например:
+Политика шифрования данных определяет иерархию шифрования для шифрования данных с использованием каждого предоставленного ключа, а также ключа доступности, защищенного корпорацией Майкрософт. Вы создаете ДЕПС с помощью командлетов PowerShell, которые отличаются для каждой службы, и назначают их для шифрования данных приложения. Пример:
 
 **Exchange Online и Skype для бизнеса** Вы можете создать до 50 ДЕПС для каждого клиента. Вы связываете ДЕПС с ключами клиентов в Azure Key Vault, а затем назначаете ДЕПС для отдельных почтовых ящиков. При назначении функции предотвращения выполнения данных для почтового ящика:
 
@@ -71,11 +71,11 @@ Office 365 предоставляет базовый уровень шифров
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Шифры шифрования, используемые для шифрования ключей в Exchange Online и Skype для бизнеса
 
-![Шифры шифрования для ключа клиента Exchange Online](media/customerkeyencryptionhierarchiesexchangeskype.png)
+![Шифры шифрования для ключа клиента Exchange Online](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>Шифры шифрования, используемые для шифрования ключей для SharePoint Online, OneDrive для бизнеса и файлов Teams
 
-![Шифры шифрования для ключа клиента SharePoint Online](media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![Шифры шифрования для ключа клиента SharePoint Online](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>Статьи по теме
 

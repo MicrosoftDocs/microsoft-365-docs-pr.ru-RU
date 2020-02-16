@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Используйте кнопку Retry (повторить) для разрешения поиска контента с ошибками расположения контента.
-ms.openlocfilehash: ce88749a887fea57e977e210de1eda40268cb832
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6eb08c006f206e3ad7850d67e541f6fc3f496441
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601626"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081585"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Повторный поиск контента для устранения ошибки размещения контента
 
@@ -46,7 +46,7 @@ User2@contoso.com: Application error occurred. Please try again later. (CS012-00
 
 Перезапуск поиска часто приводит к возникновению подобных ошибок на разных серверах. Вместо перезапуска поиска нажмите кнопку **Retry (повторить** ), которая отображается в верхней части страницы результатов поиска.
 
-![Нажмите кнопку "повторить", чтобы устранить ошибки расположения контента](media/retrycontentsearch3.png)
+![Нажмите кнопку "повторить", чтобы устранить ошибки расположения контента](../media/retrycontentsearch3.png)
 
 Это приведет к повторной попытке поиска только для почтовых ящиков, для которых произошел сбой. При повторном выполнении поиска остальные возвращенные результаты сохраняются.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Узнайте, как добавить или изменить вопрос, в том числе назначение пользователей, или удалить ошибку для случая обнаружения электронных данных в Office 365 Advanced eDiscovery.
-ms.openlocfilehash: 78f0b53c1f66adb9c1c8534bbf4b1e1915f6ba0d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d0777f6829944a6f64c71bda805edd1b5d55de4b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075903"
 ---
 # <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Определение проблем и назначение пользователей в Office 365 Advanced eDiscovery
 
@@ -33,11 +33,11 @@ ms.locfileid: "41595354"
 
 1. На \> вкладке **Настройка \> релевантности** выберите **проблемы**.
     
-    ![Элементы для оценивания на вкладке "Настройка релевантности"](media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
+    ![Элементы для оценивания на вкладке "Настройка релевантности"](../media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
   
 2. Чтобы добавить ошибку, щелкните значок * * + * *. Отобразится диалоговое окно **Добавление вопроса** . 
     
-    ![Добавление элементов для оценивания на вкладке "Настройка релевантности"](media/c8e94982-139a-472a-b85d-282f2d742046.png)
+    ![Добавление элементов для оценивания на вкладке "Настройка релевантности"](../media/c8e94982-139a-472a-b85d-282f2d742046.png)
   
     Чтобы изменить ошибку, щелкните значок " **изменить** ". 
     

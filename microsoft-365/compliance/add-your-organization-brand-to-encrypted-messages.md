@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Как глобальный администратор Office 365 вы можете применить фирменную символику вашей организации к зашифрованным сообщениям электронной почты в Организации и содержимому портала шифрования.
-ms.openlocfilehash: b4712edd86099b1c382ef02ca54520b68a54614e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 23b6cd205c4ae3a0ca08aab2209e0152a3f78b63
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594030"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079985"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
 
@@ -71,7 +71,7 @@ ms.locfileid: "41594030"
 
 2. Измените шаблон с помощью командлета Set – OMEConfiguration, как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) , или используйте приведенную ниже графику и таблицу, чтобы получить рекомендации.
 
-![Настраиваемые части электронной почты](media/ome-template-breakout.png)
+![Настраиваемые части электронной почты](../media/ome-template-breakout.png)
 
 |**Настройка этой функции шифрования**|**Используйте эти команды**|
 |:-----|:-----|
@@ -162,7 +162,7 @@ ms.locfileid: "41594030"
 
 3. В центре администрирования Microsoft 365 выберите \> **Exchange** **центры администрирования** .
 
-4. В центре администрирования Exchange перейдите к разделу **правила** обработки **почтового процесса** \> и](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> выберите **Новый** ![новый значок **создать новое правило**. Дополнительные сведения об использовании [центра администрирования Exchange можно найти в центре администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. В центре администрирования Exchange перейдите к разделу **правила** обработки **почтового процесса** \> и](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> выберите **Новый** ![новый значок **создать новое правило**. Дополнительные сведения об использовании [центра администрирования Exchange можно найти в центре администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. В поле **имя**введите имя правила, например фирменный стиль для отдела продаж.
 

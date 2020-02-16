@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о ключе доступности, используемом для восстановления потерянных ключей клиентов Office 365.
-ms.openlocfilehash: 72fbfd139b273d38a0cb017d7bbca3d87c16efb2
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 86f602a59f436a6ce42df583c88c0403eb17e5ae
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862089"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076962"
 ---
 # <a name="learn-about-the-availability-key-for-office-365-customer-key"></a>Сведения о ключе доступности для ключа клиента Office 365
 
@@ -175,11 +175,11 @@ Exchange Online и Skype для бизнеса автоматически исп
 
 Записи журнала включают такие атрибуты, как дата, время, действия, идентификатор организации и идентификатор политики шифрования данных. Запись доступна в составе журналов единого аудита Office 365 и доступна на вкладке поиска в журнале безопасности центра безопасности и соответствия требованиям Office 365.
 
-![Поиск событий ключа доступности в журнале аудита](media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
+![Поиск событий ключа доступности в журнале аудита](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
 
 Записи ключей доступности для Exchange Online и Skype для бизнеса используют [общую схему](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) действий управления Office 365 с добавленными пользовательскими параметрами: идентификатор политики, идентификатор версии ключа области и идентификатор запроса.
 
-![Настраиваемые параметры ключа доступности](media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
+![Настраиваемые параметры ключа доступности](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
 
 ### <a name="sharepoint-online-onedrive-for-business-and-teams-files-availability-key-logging"></a>Ведение журнала ключей доступности для SharePoint Online, OneDrive для бизнеса и файлов Teams
 
@@ -195,11 +195,11 @@ Office 365 использует ключ доступности, чтобы за
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Шифры шифрования, используемые для шифрования ключей в Exchange Online и Skype для бизнеса
 
-![Шифры шифрования для ключа клиента Exchange Online](media/customerkeyencryptionhierarchiesexchangeskype.png)
+![Шифры шифрования для ключа клиента Exchange Online](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-and-onedrive-for-business"></a>Шифры шифрования, используемые для шифрования ключей для SharePoint Online и OneDrive для бизнеса
 
-![Шифры шифрования для ключа клиента SharePoint Online](media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![Шифры шифрования для ключа клиента SharePoint Online](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>Статьи по теме
 

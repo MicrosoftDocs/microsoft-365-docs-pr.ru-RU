@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Узнайте, как администраторы могут использовать Exchange Online PowerShell и CSV-файл для массового импорта внешних контактов в глобальный список адресов.
-ms.openlocfilehash: b6f7c430cef13985a679abf42a2f91d9605bf556
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c74e8932f7ed2feeca472848c88bdddbc740fe28
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596266"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078956"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Массовый импорт внешних контактов в Exchange Online
 
@@ -123,7 +123,7 @@ ms.locfileid: "41596266"
     
 1. В Центре администрирования Exchange перейдите в раздел **Получатели** \> **Контакты**.
     
-2. Щелкните контакт, а затем щелкните **изменить** ![значок](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) редактирования, чтобы отобразить свойства контакта. 
+2. Щелкните контакт, а затем щелкните **изменить** ![значок](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) редактирования, чтобы отобразить свойства контакта. 
     
 Вот и все! Пользователи могут просматривать контакты и дополнительные сведения в адресной книге Outlook и Outlook в Интернете.
   

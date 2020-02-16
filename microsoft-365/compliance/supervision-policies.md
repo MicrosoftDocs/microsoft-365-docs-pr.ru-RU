@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: a57fd1f1e079424f1494acc4b8944534c30359b2
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: dafc745d985c93e4665db469442b0b6dc2eda070
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661878"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081076"
 ---
 # <a name="supervision-policies-in-office-365"></a>Политики контроля в Office 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "41661878"
 
 Более подробную информацию о улучшениях и доступности функций контроля можно найти в [статье план Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap).
 
-Хотите попробовать новые возможности обеспечения соответствия требованиям в Microsoft 365? Узнайте о новых и улучшенных возможностях, доступных для [обеспечения соответствия требованиям в Microsoft 365 (Предварительная версия)](communication-compliance.md).
+Хотите попробовать новые возможности обеспечения соответствия требованиям в Microsoft 365? Узнайте о новых и улучшенных возможностях, доступных для [обеспечения соответствия требованиям в Microsoft 365](communication-compliance.md).
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Переход с надзора в Office 365
 

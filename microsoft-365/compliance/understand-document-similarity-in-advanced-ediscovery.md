@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: 'Проверьте, как значение подобия документа — минимальный уровень сходства для двух файлов, которые должны рассматриваться как почти повторяющиеся, работает в Office 365 Advanced eDiscovery. '
-ms.openlocfilehash: c11359681de4d1e078cde8ebf603396c9a71e3b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b5c777579e876e54032ce5872291a2791e2c3b09
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597336"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080782"
 ---
 # <a name="understand-document-similarity-in-office-365-advanced-ediscovery"></a>Сведения о сходстве документов в Office 365 Advanced eDiscovery
 
@@ -44,11 +44,11 @@ ms.locfileid: "41597336"
   
 Уровни сходства иллюстрируются следующим образом:
   
-![Схожесть документов](media/3907ea7d-e28a-4027-8fc3-be090dd39144.gif)
+![Схожесть документов](../media/3907ea7d-e28a-4027-8fc3-be090dd39144.gif)
   
 Предположим, что теперь вставлен другой документ, x1. Сходство между x1 и E3 составляет 87%. Аналогично, сходство между x1 и F1 составляет 92%. В результате Екуисет – 1, Екуисет – 2 и x1 теперь объединены в один набор ND.
   
-![Похожесть документов](media/d140d347-33d5-475a-af04-594a0f2ab13d.gif)
+![Похожесть документов](../media/d140d347-33d5-475a-af04-594a0f2ab13d.gif)
   
 > [!NOTE]
 > Если для одного набора ND назначены два документа, они останутся в одном наборе ND, даже если в набор добавляются дополнительные документы, или же при объединении наборов. 

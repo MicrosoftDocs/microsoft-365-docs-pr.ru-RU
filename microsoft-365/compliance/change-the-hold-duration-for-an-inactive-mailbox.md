@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Когда почтовый ящик Office 365 становится неактивным, вы можете изменить продолжительность удержания или политики хранения Office 365, назначенной неактивному почтовому ящику. Срок хранения определяет, как долго удерживаются элементы в папке "элементы с возможностью восстановления".
-ms.openlocfilehash: c50f7845377b6428a4cdce2bb7240a7ca973a8eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bcfea972bd627da831e9927884669d2ed8ee5234
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595946"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078945"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Изменение срока хранения неактивного почтового ящика в Office 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "41595946"
 > [!IMPORTANT]
 > Так как мы будем хранить содержимое почтового ящика разными способами, мы сообщаем выбытие на месте в центре администрирования Exchange. Это означает, что для создания неактивного почтового ящика следует использовать удержания для судебного разбирательства и политики хранения Office 365. Начиная с 1 апреля, 2020 вы не сможете создавать новые удержания на месте в Exchange Online. Но вы по-прежнему можете изменить срок хранения на месте, включенный для неактивного почтового ящика. Однако, начиная с 1 июля, 2020, вы не сможете изменить срок хранения. Удаление неактивного почтового ящика позволит удалить удержание на месте. Существующие Неактивные почтовые ящики, которые включены в удержание на месте, будут сохранены до тех пор, пока не будет удалено удержание. Для получения дополнительных сведений о прекращении удержания на месте, ознакомьтесь со статьей [выбытие средств прежних версий электронных данных](legacy-ediscovery-retirement.md).
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - You have to use Exchange Online PowerShell to change the hold duration for a Litigation Hold on an inactive mailbox. You can't use the Exchange admin center (EAC). But you can use Exchange Online PowerShell or the EAC to change the hold duration for an In-Place Hold. Вы можете использовать центр безопасности и соответствия требованиям или PowerShell центра безопасности & соответствия требованиям, чтобы изменить срок хранения для политики хранения Office 365.
     
@@ -139,7 +139,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. In the EAC, go to **Compliance management** \> **In-Place eDiscovery &amp; Hold**.
     
-3. Выберите удержание на месте, которое нужно изменить, а затем нажмите кнопку **изменить** ![значок](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
+3. Выберите удержание на месте, которое нужно изменить, а затем нажмите кнопку **изменить** ![значок](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
     
 4. На странице свойств **хранения для обнаружения &amp; электронных** данных на месте выберите **удержание на месте**. 
     
@@ -149,7 +149,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
     2. Выберите **указать количество дней хранения элементов относительно даты их получения** для хранения элементов за определенный период. Type the number of days that you want to hold items for. 
     
-    ![Снимок экрана: изменение длительности параметра хранения на месте.](media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
+    ![Снимок экрана: изменение длительности параметра хранения на месте.](../media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
   
 6. Нажмите кнопку **Сохранить**.
     

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-ms.openlocfilehash: dbcddd57fcf2d1471b4a4aa4b715dcae22dbc40c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d465e2a28b47abc5020480a4a862cbbca1d5e678
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596196"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077735"
 ---
 # <a name="create-a-litigation-hold"></a>Создание запроса на хранение для судебного разбирательства
 
@@ -33,7 +33,7 @@ ms.locfileid: "41596196"
     
 - Элементы в основном пользователе и архивные почтовые ящики сохраняются
     
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Чтобы поместить почтовый ящик Exchange Online на удержание для судебного разбирательства, ему необходимо назначить лицензию на Exchange Online (план 2). Если почтовому ящику назначена лицензия на Exchange Online (план 1), необходимо назначить ему отдельную лицензию на архивацию на базе Exchange Online, чтобы разместить ее на удержании.
     
@@ -86,7 +86,7 @@ Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <num
 
 На следующем рисунке показаны подпапки в папке "Элементы с возможностью восстановления" и рабочий процесс хранения.
 
-![Жизненный цикл хранения для судебного разбирательства](media/LitigationHoldLifeCycle.png)
+![Жизненный цикл хранения для судебного разбирательства](../media/LitigationHoldLifeCycle.png)
 
 > [!NOTE]
 > Если удержание, связанное с вариантом обнаружения электронных данных, размещается для почтового ящика, удаленные элементы перемещаются из подпапки "удаления" в подпапку DiscoveryHolds и сохраняются до тех пор, пока почтовый ящик не будет выпущен из удержания обнаружения электронных данных.
