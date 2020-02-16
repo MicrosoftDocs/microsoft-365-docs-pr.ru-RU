@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fdde59b04c7f52f163028aa7ba4759e226fccb55
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 07a722101aaf9a3413e5821459ea9a980a8b76fe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602456"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071286"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Администрирование управления питанием и лекарствами названием CFR 21 часть 11
 
@@ -50,9 +50,10 @@ CFR Title 21 часть 11 устанавливает требования, чт
 Несмотря на отсутствие сертификации с названием CFR 21 часть 11, следующие облачные облачные службы Майкрософт перепрошли независимые сторонние средства аудита, которые могут помочь клиентам в обеспечении соответствия требованиям. К этим службам относятся следующие:
 
 - Azure: облачные службы, хранилище, диспетчер трафика, виртуальные машины и виртуальная сеть
+- Azure DevOps
 - Intune
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- [Office 365 и Office 365 для государственных организаций США](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 и Office 365 для государственных организаций США
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Действия по импорту контента, не хранящегося в O365, в большой двоичный объект Azure, чтобы его можно было проанализировать с помощью АЕД
-ms.openlocfilehash: 8417382bc37b5bb3515e893ff2043019525b3f72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7a06bff3abe70e58ab08edcc456bc167229b05f2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597976"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072986"
 ---
 # <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Импорт контента, отличного от Office 365, для расширенного анализа обнаружения электронных данных
 
@@ -32,7 +32,7 @@ ms.locfileid: "41597976"
 > [!NOTE]
 > Вы можете приобрести дополнительную подписку на надстройку хранилище данных для Office 365 Advanced eDiscovery для вашего содержимого, не относящегося к Office 365. Этот параметр доступен только для контента, который необходимо проанализировать с помощью расширенного обнаружения электронных данных. Выполните действия, описанные в статье [Покупка или редактирование и надстройка для office 365 для бизнеса](https://support.office.com/article/Buy-or-edit-an-add-on-for-Office-365-for-business-4e7b57d6-b93b-457d-aecd-0ea58bff07a6) , и приобретите надстройку Office 365 Advanced eDiscovery Storage. 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 Для использования функции отправки, отличной от Office 365, описанной в этой процедуре, необходимо следующее:
   

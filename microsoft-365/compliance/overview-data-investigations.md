@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье описывается новое средство расследования данных (Preview) в Microsoft 365.
-ms.openlocfilehash: cd60b16f6d0f968c0c87f3e44ee2f643c90ebb10
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1dc0a98208d553a4ea94703b98f982dd8e19167f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597796"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071085"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Общие сведения о расследовании данных (Предварительная версия) в Microsoft 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "41597796"
 
 В следующих разделах описываются все этапы встроенного рабочего процесса при расследовании данных (Предварительная версия). На следующем снимке экрана показана вкладка " **Главная** " для исследования " *высокий риск": "утечки в финансовых документах*". 
 
-![Рабочий процесс в средстве расследования данных](media/DataInvestigationsWorkflow.png)
+![Рабочий процесс в средстве расследования данных](../media/DataInvestigationsWorkflow.png)
 
 ## <a name="search-for-sensitive-malicious-or-misplaced-data"></a>Поиск конфиденциальных, вредоносных или перемещенных данных
 

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Описание дополнительных свойств, включенных в запись журнала аудита Office 365.
-ms.openlocfilehash: d479a063cd6a97fd2f099130a8c9e183e0663798
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: fc6a237b881f7154219fcbff464825d1cec63f0c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075496"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Подробные свойства в журнале аудита Office 365
 
@@ -97,4 +97,4 @@ ms.locfileid: "41862059"
 
 Описанные выше свойства также отображаются при просмотре сведений о конкретном событии по нажатию кнопки **Дополнительные сведения** . 
   
-![Щелкните "Дополнительные сведения" для детального просмотра свойств записи о событии в журнале аудита](media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
+![Щелкните "Дополнительные сведения" для детального просмотра свойств записи о событии в журнале аудита](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)

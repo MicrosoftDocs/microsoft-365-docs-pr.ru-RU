@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: 'Сведения о том, как просматривать результаты анализа в Office 365 Advanced eDiscovery, включая определения отображаемых параметров задачи.  '
-ms.openlocfilehash: 9e06770135afd62a39115c9365a698df4493bd72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bac173beebe2fdf3d07122bfca04cbaaee6410e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597256"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069194"
 ---
 # <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Просмотр результатов анализа в Office 365 Advanced eDiscovery
 
@@ -34,7 +34,7 @@ ms.locfileid: "41597256"
 
 **Состояние задачи \> подготовить \> анализ \> результатов**позволяет отобразить состояние, которое отображается во время и после анализа выполнения процесса. 
   
-![Состояние задачи анализа](media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
+![Состояние задачи анализа](../media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
   
 Отображаемые задачи могут различаться в зависимости от выбранных параметров. 
   
@@ -73,7 +73,7 @@ ms.locfileid: "41597256"
     
 Результаты **вложений** отображают количество вложений, в соответствии с такими типами, как уникальные и повторяющиеся. 
   
-![Почти повторяющиеся результаты и цепочки сообщений](media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
+![Почти повторяющиеся результаты и цепочки сообщений](../media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
   
 ## <a name="see-also"></a>См. также
 

@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: Сведения о каталоге решений Microsoft 365, в том числе о том, что он содержит, как получить его и выполнить следующие действия.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: e147ac6ac17a9fdd395aa0b1a00bd8f630cd10c1
-ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
+ms.openlocfilehash: 31ebd472a5ed33ab6046b9831e02c095d52721a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41891982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071370"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Каталог решений Microsoft 365
 
@@ -30,17 +30,17 @@ ms.locfileid: "41891982"
 
 Каталог решений разбит на разделы, содержащие информационные карточки для каждого решения соответствия, доступного в вашей подписке на Microsoft 365. Каждый раздел содержит карточки для решений, сгруппированных по области соответствия требованиям.
 
-![Домашняя страница каталога решений Microsoft 365](media/m365-solution-catalog-home.png)
+![Домашняя страница каталога решений Microsoft 365](../media/m365-solution-catalog-home.png)
 
 При выборе **представления** для карточки решения вы увидите подробную информацию о решении для обеспечения соответствия требованиям и о том, как приступить к работе. Эти сведения включают общие сведения, требования к предварительной настройке, учебные ресурсы, элементы управления, позволяющие закреплять карту в области навигации, а также возможность предоставления общего доступа к решению в виде ссылки, электронной почты или сообщения Microsoft Teams.
 
-![Решение для обеспечения соответствия требованиям Microsoft 365](media/m365-solution-catalog-communication-compliance.png)
+![Решение для обеспечения соответствия требованиям Microsoft 365](../media/m365-solution-catalog-communication-compliance.png)
 
 ## <a name="information-protection--governance-section"></a>Раздел Information Protection & управление
 
 В разделе Data **protection & Information** описывается, как можно использовать решения Microsoft 365 для обеспечения безопасности и управления данными в Организации.
 
-![Раздел "Защита информации в каталоге решений (Майкрософт) 365" и раздел "Управление"](media/m365-solution-catalog-information-protection-governance.png)
+![Раздел "Защита информации в каталоге решений (Майкрософт) 365" и раздел "Управление"](../media/m365-solution-catalog-information-protection-governance.png)
 
 Отсюда вы увидите карточки для следующих решений:
 
@@ -53,7 +53,7 @@ ms.locfileid: "41891982"
 
 Раздел **Управление рисками для предварительной оценки** на домашней странице показывает, как ваша организация может определить, проанализировать и выполнить действия с внутренними рисками, прежде чем они будут причинить вред.
 
-![Раздел "Управление рисками" в каталоге решений Microsoft 365](media/m365-solution-catalog-insider-risk-management.png)
+![Раздел "Управление рисками" в каталоге решений Microsoft 365](../media/m365-solution-catalog-insider-risk-management.png)
 
 Отсюда вы увидите карточки для следующих решений:
 
@@ -64,7 +64,7 @@ ms.locfileid: "41891982"
 
 В разделе **обнаружение & ответа** на домашней странице показано, как ваша организация может быстро находить, исследовать и отвечать на вопросы соответствия требованиям, связанным с соответствующими данными.
 
-![Раздел "обнаружение и ответ" каталога решений Microsoft 365](media/m365-solution-catalog-discovery-response.png)
+![Раздел "обнаружение и ответ" каталога решений Microsoft 365](../media/m365-solution-catalog-discovery-response.png)
 
 Отсюда вы увидите карточки для следующих решений:
 

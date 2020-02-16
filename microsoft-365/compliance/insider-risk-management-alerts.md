@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 80c5bb701c7805f673280d24903935c2951046b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d1946bb3667fbdde6e7d2c3fbc70f8f546890e27
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41590800"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072886"
 ---
 # <a name="insider-risk-management-alerts-preview"></a>Оповещения об управлении рисками для участников (Предварительная версия)
 
@@ -34,7 +34,7 @@ ms.locfileid: "41590800"
     - Среднее время, в течение которого отменяются оповещения среднего уровня серьезности, которые перечислены в часах, днях или месяцах.
     - Среднее время разрешения оповещений с низкой степенью серьезности, указанных в часах, днях или месяцах.
 
-![Панель мониторинга оповещений об управлении рисками](media/insider-risk-alerts-dashboard.png)
+![Панель мониторинга оповещений об управлении рисками](../media/insider-risk-alerts-dashboard.png)
 
 ## <a name="alert-status-and-severity"></a>Состояние оповещения и степень серьезности
 

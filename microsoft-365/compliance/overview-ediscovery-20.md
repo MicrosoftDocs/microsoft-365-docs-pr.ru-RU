@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье описывается новая версия расширенного обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: 30b69bbd80799b0f3e32b008ec1d4affc8be6605
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: b3583037953d8dcb36ea6b3f7a2ba521e47fd9c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662015"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071064"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Обзор расширенного решения обнаружения электронных данных в Microsoft 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "41662015"
 
 Встроенный бизнес-процесс с расширенным обнаружением электронных данных выравнивается по процессу обнаружения электронных данных, описанному в справочной модели электронного обнаружения (EDRM). 
 
-![Справочная модель электронного обнаружения (EDRM)](media/EDRMv1.png)
+![Справочная модель электронного обнаружения (EDRM)](../media/EDRMv1.png)
 
 (Источник изображения с edrm.net. Исходное изображение было доступно в разделе неперенесенная лицензия Creative Commons со соотнесением 3,0.)
 
@@ -57,7 +57,7 @@ ms.locfileid: "41662015"
 
 Для получения дополнительных сведений о сквозном рабочем процессе в Advanced eDiscovery посетите этот [видеоролик Microsoft механики](https://go.microsoft.com/fwlink/?linkid=2066133). 
 
-![Вкладки расширенного обнаружения электронных данных следуют в рабочем процессе EDRM](media/aedisco-homepage-1.png)
+![Вкладки расширенного обнаружения электронных данных следуют в рабочем процессе EDRM](../media/aedisco-homepage-1.png)
 
 ## <a name="managing-custodians"></a>Управление custodians
 

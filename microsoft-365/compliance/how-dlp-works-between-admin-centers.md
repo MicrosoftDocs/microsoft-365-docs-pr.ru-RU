@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Узнайте, как защита от потери данных в центре безопасности & соответствия требованиям использует правила защиты от потери данных и почтовых ящиков (правила транспорта) в центре администрирования Exchange.
-ms.openlocfilehash: a491317727cce571f0f9e1c527557595f6adf7b5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 82b3d371303b647488c08416c5392d006c81e479
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596516"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073074"
 ---
 # <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>Принципы работы защиты от потери данных в Центре безопасности и соответствия требованиям и Центре администрирования Exchange
 
@@ -34,7 +34,7 @@ ms.locfileid: "41596516"
     
 Политики DLP, созданные в этих центрах администрирования, работают параллельно — в этом разделе описывается, как это сделать.
   
-![Страницы защиты от потери данных в центре безопасности и соответствия требованиям и центре администрирования Exchange](media/d3eaa7e7-3b16-457b-bd9c-26707f7b584f.png)
+![Страницы защиты от потери данных в центре безопасности и соответствия требованиям и центре администрирования Exchange](../media/d3eaa7e7-3b16-457b-bd9c-26707f7b584f.png)
   
 ## <a name="how-dlp-in-the-security--compliance-center-works-with-dlp-and-mail-flow-rules-in-the-exchange-admin-center"></a>Принципы работы защиты от потери данных в центре безопасности &, а также правила защиты от потери данных и обработки почты в центре администрирования Exchange
 

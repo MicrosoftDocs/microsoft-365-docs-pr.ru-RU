@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: Сведения о сохранении содержимого почтовых ящиков для бывших сотрудников путем отключения почтового ящика в неактивном почтовом ящике. Это можно сделать, поместив почтовый ящик на хранение для судебного разбирательства или применив политику хранения Office 365 к почтовому ящику, а затем удалив соответствующую учетную запись Office 365.
-ms.openlocfilehash: 75ede1ae199bdecfea2662a187c3965cc2b676d7
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: b5c6730a30ac0efba8f00abc01c0b2c26bf9e562
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661885"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072906"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Обзор неактивных почтовых ящиков в Office 365
 

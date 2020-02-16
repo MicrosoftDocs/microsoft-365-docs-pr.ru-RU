@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b6f467f938ce14aacb9553b11d51dc63431ab409
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 9a732258e787de3407731f0fdfc98ed07653df71
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862079"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074364"
 ---
 # <a name="export-documents-from-a-review-set"></a>Экспорт документов из набора для проверки
 
@@ -37,7 +37,7 @@ ms.locfileid: "41862079"
 
 Чтобы скачать контент из набора рецензирования, сначала выберите файлы, которые нужно скачать, а затем в меню действия выберите команду "Загрузить".
 
-![Снимок экрана с автоматически созданным описанием компьютера](media/eDiscoDownload.png)
+![Снимок экрана с автоматически созданным описанием компьютера](../media/eDiscoDownload.png)
 
 ## <a name="export-documents-from-a-review-set"></a>Экспорт документов из набора для проверки
 
