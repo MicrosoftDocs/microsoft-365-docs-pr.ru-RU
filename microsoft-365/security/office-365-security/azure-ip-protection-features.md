@@ -16,12 +16,12 @@ ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
 description: Для получения справки по начальному этапу защиты данных, начиная с июля 2018 все подходящие клиенты, соответствующие требованиям Azure Information Protection, будут иметь функции защиты в Azure Information Protection, включенные по умолчанию. Функции защиты в Azure Information Protection ранее были известны в Office 365 как Rights Management или Azure RMS. Если у вашей организации есть план обслуживания Office E3 или более высокий план обслуживания, вы получите головной офис, чтобы защитить информацию с помощью Azure Information Protection при выполнении этих функций.
-ms.openlocfilehash: 6ff4ecb4dc9b0e2b0a4e8dd7a2d9573326afc6a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: de3b233d4baac380608d3a209c2ffea274c20d5b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599776"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083585"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Функции защиты в Azure Information Protection, выполняемые при развертывании существующих клиентов Office 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "41599776"
 
 Администраторы клиентов могут проверить состояние защиты на портале администрирования Office 365.
 
-![Снимок экрана, на котором показано, что Управление правами в Office 365 активировано.](../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
+![Снимок экрана, на котором показано, что Управление правами в Office 365 активировано.](../../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
 
 ## <a name="why-are-we-making-this-change"></a>Почему мы внесены изменения?
 
@@ -85,6 +85,6 @@ ms.locfileid: "41599776"
 
 Если этот параметр включен, то вы можете начать использовать новую версию Office 365 Message Encryption, которая была объявлена в [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) и использует возможности шифрования и защиты Azure Information Protection.
 
-![Снимок экрана, на котором показано защищенное сообщение OME в Outlook в Интернете.](../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
+![Снимок экрана, на котором показано защищенное сообщение OME в Outlook в Интернете.](../../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
 
 Более подробную информацию о новых возможностях можно узнать в статье [Шифрование сообщений в Office 365](../../compliance/ome.md).

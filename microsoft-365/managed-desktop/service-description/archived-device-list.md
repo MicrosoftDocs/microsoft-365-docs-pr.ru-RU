@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: f1389fd64efce16e81e02885127e65c8d1922c5b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 653b986de8d580a25a1032b77f34db8924d3ea0d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602816"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085788"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -35,7 +35,9 @@ ms.locfileid: "41602816"
 
 | Модель  | Минимальные спецификации  | Дополнительные требования   | Дата выбытия |
 |---------|---------|---------|---------|
-| HP об 830/840/850 G5| 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев  | **15 февраля 2023 г.** |
+|HP об 830/840/850 G5| 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев  | **15 февраля 2023 г.** |
+|HP елите x2 1013 G3| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS03AV, необходима ИК-камера |**14 мая 2023 г.** |
+|HP об x360 1030 G3| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера |**14 мая 2023 г.** |
 |Книга Surface 2| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **16 ноября 2022 г.** |
 |Ноутбук поверхности| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **20 мая 2022 г.** |
 |Surface Pro| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **15 июня 2022 г.** |

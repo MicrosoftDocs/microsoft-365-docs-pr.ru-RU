@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: ebe1797e0a6a4b7f8bafa28b57feedbd96324093
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1b31445e431bb0a709d1f48c3db1a39fe5d464c1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599716"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086558"
 ---
 # <a name="ciso-workshop-module-2-security-management"></a>Модуль семинара ЦИСО 2: Управление безопасностью 
 
 Узнайте, как улучшить видимость и контролировать гибридную корпоративную область с помощью интегрированных руководств, автоматизированного применения политик и мониторинга.
 
-- Загрузите документ PDF: [модуль 2: Управление безопасностью](../media/ciso-workshop-2-security-management.pdf)
+- Загрузите документ PDF: [модуль 2: Управление безопасностью](../../media/ciso-workshop-2-security-management.pdf)
 - Загрузка сводки PowerPoint: [модуль 2: Управление безопасностью](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-2-security-management.pptx)
 
 ## <a name="introduction-security-management-125"></a>Введение: Управление безопасностью (1:25)

@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 2c08570165f893950dc2588ab33b45be36a3816d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 322ced9ae3a565e07de372d7775c176ba647301b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599696"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086548"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4A: стратегия защиты от угроз
 
 Изучите основные сведения о защите от угроз, развитии безопасности, стратегиях и картах безопасности.
 
-- Загрузка PDF-файла: [модуль 4A: стратегия защиты от угроз](../media/ciso-workshop-4a-threat-protection.pdf)
+- Загрузка PDF-файла: [модуль 4A: стратегия защиты от угроз](../../media/ciso-workshop-4a-threat-protection.pdf)
 - Загрузка сводки по PowerPoint: [модуль 4A: стратегия защиты от угроз](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-4a-threat-protection.pptx)
 
 ## <a name="introduction-threat-protection-strategy-437"></a>Введение: стратегия защиты от угроз (4:37)

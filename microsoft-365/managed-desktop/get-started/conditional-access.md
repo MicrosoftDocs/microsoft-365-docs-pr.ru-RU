@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1b91186837ad558965d675f82d013a7081c7c7ec
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 1bc5d937616cba60c5af43fe22a7c4dccf89a55e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085812"
 ---
 # <a name="adjust-conditional-access"></a>Настройка условного доступа
 
@@ -31,7 +31,7 @@ ms.locfileid: "38012501"
 2. Настройка условного доступа (этот раздел)
 3. [Назначение лицензий](assign-licenses.md)
 4. [Развертывание корпоративного портала Intune](company-portal.md)
-5. [Включение роуминга состояния предприятия](enterprise-state-roaming.md)
+5. [Включение службы Enterprise State Roaming](enterprise-state-roaming.md)
 6. [Настройка устройств](set-up-devices.md)
 7. [Подготовка пользователей к работе с устройствами](get-started-devices.md)
 8. [Развертывание приложений](deploy-apps.md)

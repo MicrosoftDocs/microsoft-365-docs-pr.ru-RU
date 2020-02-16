@@ -1,5 +1,7 @@
 ---
 title: Добавление устройств и профиля AutoPilot с помощью пошагового мастера
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса.
-ms.openlocfilehash: 5f40dac57285b83da57d4506bac58e562475522c
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: e5774b1e2079a5249e0f6e9e7142de19268253b5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323102"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068558"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
@@ -42,7 +44,7 @@ ms.locfileid: "38323102"
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Создание устройств и профилей с помощью мастера настройки
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Если вы еще не создали группы устройств или профили, лучший способ начать работу с помощью пошагового руководства. Вы также можете [добавлять устройства](create-and-edit-autopilot-devices.md) и [назначать им профили](create-and-edit-autopilot-profiles.md) , не используя руководство. 
   
@@ -50,11 +52,11 @@ ms.locfileid: "38323102"
 
 2. В левой области навигации выберите **устройства** \> **автопилот**.
 
-    ![В центре администрирования выберите устройства, а затем — автопилот.](media/AutoPilot.png)
+    ![В центре администрирования выберите устройства, а затем — автопилот.](../media/AutoPilot.png)
   
 2. На странице " **Автопилотный проект** " щелкните или нажмите **начать руководство**.
     
-    ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
+    ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
 3. На странице **upload. csv file in List of Devices (отправить. csv** ) перейдите к расположению, в котором у вас есть подготовленный. CSV-файл, а затем **откройте** \> **следующий**. Файл должен иметь три заголовка:
     

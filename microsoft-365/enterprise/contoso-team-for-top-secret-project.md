@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso использовала группу для строго регулируемых данных для наиболее поднадзорного проекта, чтобы разработать новый набор продуктов и служб.
-ms.openlocfilehash: 794fb5cfb6f3011724d37a6a3c42c39dacacc270
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 58d381751db3e94f35a0c1b8f7a14c191918e754
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597076"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068034"
 ---
 # <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Команда для сверхсекретного проекта корпорации Contoso
 
@@ -68,7 +68,7 @@ ms.locfileid: "41597076"
 
 Ниже показана итоговая конфигурация команды Project 2X.
 
-![Итоговая конфигурация команды Project 2X](./media/contoso-team-for-highly-confidential-assets/final-config.png)
+![Итоговая конфигурация команды Project 2X](../media/contoso-team-for-highly-confidential-assets/final-config.png)
  
 Файлы в разделе документы базового сайта SharePoint на 2X защищены:
 
@@ -79,7 +79,7 @@ ms.locfileid: "41597076"
 
 Ниже приведен пример файла, хранящегося на базовом сайте с высоким уровнем поднадзорной метки хранения и назначенной метке о конфиденциальности для проекта 2X.
 
-![Пример файла, хранящегося на сайте базового проекта 2X](./media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)
+![Пример файла, хранящегося на сайте базового проекта 2X](../media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)
  
 ## <a name="step-4-trained-project-2x-team-members"></a>Шаг 4: квалифицированные участники группы для Project 2X
 
@@ -97,7 +97,7 @@ ms.locfileid: "41597076"
 
 Из-за среды совместной работы Teams и функций безопасности Microsoft 365 сведения о проекте 2X хранятся в секрете в течение проекта. Компания Contoso объявила о своих планах и в процессе развертывания новых продуктов и служб в сведения своих клиентов и инвесторов и Чагрин конкурентов.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий этап
 
 [Deploy (развертывание](deploy-microsoft-365-enterprise.md) ) Microsoft 365 корпоративный в Организации.
 

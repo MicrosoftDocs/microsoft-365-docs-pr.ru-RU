@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для создания и использования меток хранения Office 365 для документов в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: 3bda79236b2c6bc1022e9c590f50bc2bdaec2aea
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6534eff67e9c91423eb6f81415cb3ef2e965dcc1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597056"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067996"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Классификация данных для тестовой среды Microsoft 365 корпоративный
 
@@ -27,10 +27,10 @@ ms.locfileid: "41597056"
 
 С помощью инструкций, описанных в этой статье, вы настраиваете классификацию данных с помощью меток хранения Office 365 в тестовой среде Microsoft 365 Enterprise.
 
-![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1. Создание собственной тестовой среды Microsoft 365 корпоративный
 
@@ -65,7 +65,7 @@ ms.locfileid: "41597056"
     
   - Конфиденциальный
     
-  - Строго конфиденциально
+  - Строго конфиденциальный
   
 9. В области **метки хранения** щелкните **опубликовать метки**.
     
@@ -111,7 +111,7 @@ ms.locfileid: "41597056"
   
 1. На вкладке **сенситивефилес** в браузере выберите **документы**.
     
-2. Щелкните значок параметров и выберите **Параметры библиотеки**.
+2. Щелкните значок параметров, а затем **Параметры библиотеки**.
     
 3. В разделе **разрешения и управление**щелкните **Применить метку к элементам в этом списке или библиотеке**. Если этот параметр не отображается, метки хранения еще не опубликованы. Повторите этот шаг позже.
     
@@ -135,7 +135,7 @@ ms.locfileid: "41597056"
 
 Сведения и ссылки на сведения о том, как развертывать метки хранения Office 365 в рабочей среде, можно найти в разделе [Настройка классификации для среды](infoprotect-configure-classification.md) на этапе **защиты информации** .
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий этап
 
 Узнайте о дополнительных возможностях и возможностях [защиты информации](m365-enterprise-test-lab-guides.md#information-protection) в тестовой среде.
 

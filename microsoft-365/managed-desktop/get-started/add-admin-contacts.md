@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9233118a2112aae33a5b784b6495709cbd3345f5
-ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
+ms.openlocfilehash: 5a980c1e15a6cbc098647139caf48f813b36b040
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004924"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085912"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>Добавление и проверка контактов администратора на портале администрирования
 
@@ -52,15 +52,15 @@ ms.locfileid: "41004924"
 
 2.  В разделе **Поддержка**выберите **Контакты для администраторов**. 
 
-    ![Меню поддержки, контакты администратора в верхней части выбранного](images/admincontacts.png)
+    ![Меню поддержки, контакты администратора в верхней части выбранного](../../media/admincontacts.png)
 
 3. Нажмите кнопку **Добавить**.
 
-    ![На портале администрирования нажмите кнопку Добавить слева от параметра экспорт и обновление](images/adminadd.png)
+    ![На портале администрирования нажмите кнопку Добавить слева от параметра экспорт и обновление](../../media/adminadd.png)
 
 4.  Выберите **область фокуса** и введите сведения о контакте. 
 
-    ![список областей фокуса, таких как другие, приложения и безопасность;](images/areaoffocus.png)
+    ![список областей фокуса, таких как другие, приложения и безопасность;](../../media/areaoffocus.png)
 
 5. Повторите эти действия для каждой области фокуса. 
 

@@ -1,5 +1,7 @@
 ---
 title: Настройка собраний по сети
+f1.keywords:
+- NOCSH
 ms.author: stevhord
 author: twerner
 manager: scotv
@@ -22,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка собраний по сети в Microsoft Teams.
-ms.openlocfilehash: 7ecdec3f7dc329f1ff70bf8d72a7ca5bc946636f
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 83ff561b4159ffe6785db8bb03314aa80668023a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080445"
 ---
 # <a name="set-up-meetings"></a>Настройка собраний
 
 Собрания в Microsoft Teams включают звук, видео и общий доступ. А так как они находятся в сети, у вас всегда будет место для собрания и для кампании не требуется комната или проектор.Собрания Microsoft Teams — это отличный способ совместной работы с сотрудниками и их полагать как внутри организации, так и за ее пределами. Чтобы присоединиться к собранию, вам не нужно быть участником вашей организации или даже иметь учетную запись. Для своей собственной кампании вы можете планировать и выполнять собрания по сети с помощью Microsoft Teams. Вы можете включить сотрудников, спонсоров и гостей за пределом Организации. Во время собрания можно предоставить общий доступ к экрану, совместно использовать файлы, назначить задачи и многое другое.
 
-[![Иллюстрация двух пользователей в собрании](media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
+[![Иллюстрация двух пользователей в собрании](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
 
 Скачайте инфографики в [формате PDF](https://go.microsoft.com/fwlink/?linkid=2078712) или [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) , чтобы получить краткий обзор присоединения к собранию по сети или размещения в Microsoft Teams.
 

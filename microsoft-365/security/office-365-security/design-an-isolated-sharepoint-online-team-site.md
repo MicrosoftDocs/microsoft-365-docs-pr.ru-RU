@@ -16,12 +16,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: Сводка. Пошаговое руководство по разработке изолированных сайтов групп SharePoint Online.
-ms.openlocfilehash: 345a5fa5dcdcf2a3e61fdd6f1f346d46afe3fd5f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f03df1f99650f458dd9df2c9e561decf491c3011
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599476"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083233"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Разработка изолированного сайта группы SharePoint Online
 
@@ -53,7 +53,7 @@ ms.locfileid: "41599476"
   
 Ниже указаны группы SharePoint по умолчанию и уровни разрешений.
   
-![Группы SharePoint по умолчанию и уровни разрешений для сайта SharePoint Online.](../media/3f892ab4-6479-42f0-a505-1ba0ef94b9c6.png)
+![Группы SharePoint по умолчанию и уровни разрешений для сайта SharePoint Online.](../../media/3f892ab4-6479-42f0-a505-1ba0ef94b9c6.png)
   
 ## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>Этап 2. Назначение разрешений пользователям с помощью групп доступа
 
@@ -93,7 +93,7 @@ ms.locfileid: "41599476"
   
 Ниже приведены группы SharePoint по умолчанию, настроенные для использования групп доступа на основе Azure AD.
   
-![Использование групп доступа в качестве членов групп сайтов SharePoint Online по умолчанию.](../media/50a76328-ae69-483e-9029-ac4e7357b5ef.png)
+![Использование групп доступа в качестве членов групп сайтов SharePoint Online по умолчанию.](../../media/50a76328-ae69-483e-9029-ac4e7357b5ef.png)
   
 При создании трех групп доступа учитывайте следующее:
   
@@ -103,7 +103,7 @@ ms.locfileid: "41599476"
     
 Ниже приведен пример групп SharePoint и групп доступа для изолированного сайта с именем ProjectX.
   
-![Пример использования групп доступа для сайта SharePoint Online с именем ProjectX.](../media/13afe542-9ffd-4671-9f48-210a0e2a502a.png)
+![Пример использования групп доступа для сайта SharePoint Online с именем ProjectX.](../../media/13afe542-9ffd-4671-9f48-210a0e2a502a.png)
   
 ## <a name="phase-3-use-nested-azure-ad-groups"></a>Этап 3: использование вложенных групп Azure AD
 
@@ -126,11 +126,11 @@ ms.locfileid: "41599476"
   
 Ниже приведен пример вложенных групп Azure AD для группы доступа к членам ProjectX.
   
-![Пример использования вложенных групп доступа для группы доступа "участники" на сайте ProjectX.](../media/2abca710-bf9e-4ce8-9bcd-a8e128264fb1.png)
+![Пример использования вложенных групп доступа для группы доступа "участники" на сайте ProjectX.](../../media/2abca710-bf9e-4ce8-9bcd-a8e128264fb1.png)
   
 Так как все учетные записи пользователей в группах "исследование", "Проектирование" и "руководители проектов" предназначены для участников сайта, проще добавить свои группы Azure AD в группу доступа к участникам ProjectX.
   
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий этап
 
 Сведения о создании и настройке изолированного сайта в рабочей среде см. в статье [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md).
   

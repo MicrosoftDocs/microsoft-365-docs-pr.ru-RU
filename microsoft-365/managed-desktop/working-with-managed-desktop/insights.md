@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d1ee28bad2728fb3e6c12694625b2c29a65425a2
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: fedd3a98ef176855c4831bbd055522c073c22d7b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260107"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085697"
 ---
 # <a name="work-with-insights"></a>Работа с аналитикой
 
@@ -26,7 +26,7 @@ ms.locfileid: "41260107"
 
 Чтобы получить доступ к этим представлениям из центра администрирования Microsoft 365, в области **отчеты** выберите **Просмотр сведений** :
 
-![Центр администрирования с областью отчетов в правом верхнем углу, включая карточку отчетов об устройствах и ссылку "просмотреть сведения".](images/insights_overview.png)
+![Центр администрирования с областью отчетов в правом верхнем углу, включая карточку отчетов об устройствах и ссылку "просмотреть сведения".](../../media/insights_overview.png)
 
 
 

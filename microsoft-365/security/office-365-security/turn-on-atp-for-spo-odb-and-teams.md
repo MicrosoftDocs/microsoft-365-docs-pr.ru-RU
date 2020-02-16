@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
-ms.openlocfilehash: 601549db67d34460f4505941d4f2847a2c8f370b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2596dade32d387669eb136856b7a24a66134a773
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598156"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084426"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "41598156"
 
 Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже.
 
-|Role|Где/как назначено|
+|Роль|Где/как назначено|
 |---------|---------|
 |Глобальный администратор Office 365|Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
@@ -48,11 +48,11 @@ ms.locfileid: "41598156"
 
 2. В центре управления безопасностью & центр безопасности Office 365 в левой области навигации в разделе **Управление угрозами**выберите пункт **** \> **безопасные вложения**политики.
 
-   ![В центре безопасности & соответствия требованиям выберите Политика управления \> угрозами](../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+   ![В центре безопасности & соответствия требованиям выберите Политика управления \> угрозами](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
 
 3. Выберите **включить ATP для SharePoint, OneDrive и Microsoft Teams**.
 
-   ![Включение расширенной защиты от угроз для SharePoint Online, OneDrive для бизнеса и Microsoft Teams](../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
+   ![Включение расширенной защиты от угроз для SharePoint Online, OneDrive для бизнеса и Microsoft Teams](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
 
 4. Нажмите кнопку **Сохранить**.
 

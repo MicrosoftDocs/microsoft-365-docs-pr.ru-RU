@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Обзор программы установки для Microsoft 365 для кампаний
-ms.openlocfilehash: cca8866241a3759c022a362d39f7b208dff72580
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d2dac24488e5d29b0e888ba09f5359cba6b1f614
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594177"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080494"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>Настройка Microsoft 365 для кампаний
 
@@ -38,7 +38,7 @@ ms.locfileid: "41594177"
 ## <a name="admins-set-up-microsoft-365-for-campaigns"></a>Администраторы: Настройка Microsoft 365 для кампаний
 На следующей схеме показано, как администраторы настраивают Microsoft 365 для кампаний.
 
-![Действия по настройке Microsoft 365 для кампаний](media/M365-democracy-SetUpProcess.png)
+![Действия по настройке Microsoft 365 для кампаний](../media/M365-democracy-SetUpProcess.png)
 
 Для кампаний, которые соответствуют требованиям специальных цен, начните с [запроса приглашения от корпорации Майкрософт](https://m365forcampaigns.microsoft.com/)и [регистрации в Microsoft 365 для кампаний](m365-campaigns-sign-up.md). Чтобы завершить установку, [запустите мастер установки](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) , чтобы настроить основные параметры.
 
@@ -51,7 +51,7 @@ ms.locfileid: "41594177"
  
 Пользователям потребуется несколько минут, чтобы настроить устройства для работы с этой средой. Для ключевых пользователей (которые являются самыми высокими целевыми значениями для хакеров) можно настроить и предварительно настроить новые устройства. Это позволит им начать работу при входе с использованием учетных данных Microsoft 365. 
 
-![Процесс установки устройства пользователя](media/m365-democracy-user-device-setup.png)
+![Процесс установки устройства пользователя](../media/m365-democracy-user-device-setup.png)
   
 Для настройки устройств пользователя сделайте следующее: 
 1. Каждый пользователь [настраивает свои мобильные устройства](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json). 

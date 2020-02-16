@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso реализовала сайт SharePoint для строго регулируемых данных, чтобы упростить совместную работу между ее справочными группами.
-ms.openlocfilehash: c0b9e36f90e64e1d1c7f7ea2c4b1b4b65e60b95c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a1ffb336e85eb6eb850b53ed14adf947b56642cc
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601136"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068283"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Сайт SharePoint для строго конфиденциальных цифровых активов корпорации Contoso
 
@@ -67,7 +67,7 @@ ms.locfileid: "41601136"
 
 Ниже показана итоговая Конфигурация сайта **справочной** группы для строго конфиденциальных ресурсов.
 
-![Результирующая конфигурация сайта справочной группы для строго конфиденциальных активов](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
+![Результирующая конфигурация сайта справочной группы для строго конфиденциальных активов](../media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
 
 Файлы в папках **справочного** сайта защищены:
 
@@ -77,7 +77,7 @@ ms.locfileid: "41601136"
 
 Ниже приведен пример файла, хранящегося на сайте **справочных материалов** с назначенной подметкой "чувствительность **группового исследования** ".
 
-![Результирующая конфигурация сайта справочной группы для строго конфиденциальных активов](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
+![Результирующая конфигурация сайта справочной группы для строго конфиденциальных активов](../media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
 
 
 ## <a name="step-4-migrated-the-on-premises-sharepoint-research-data"></a>Шаг 4: Перенос локальных данных исследования SharePoint
@@ -98,7 +98,7 @@ ms.locfileid: "41601136"
 
 Если справочный документ с подметкой **исследовательских групп** оставляет сайт **справочных** материалов, он шифруется и доступен только участникам группы **исследование** Office 365 с действительными учетными данными учетной записи пользователя.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий этап
 
 [Deploy (развертывание](deploy-microsoft-365-enterprise.md) ) Microsoft 365 корпоративный в Организации.
 
