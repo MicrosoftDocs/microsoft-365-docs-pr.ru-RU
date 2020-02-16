@@ -11,12 +11,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 бизнес, Microsoft 365, малые и средние предприятия, перевод подписки CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: 4aadfa24bec8728c7e011ac6da48a8e30516e145
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d8e04a0136f86d3c4bb51208081fd1dcbecf59d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057334"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Перевод подписки CSP Microsoft 365 бизнес
 
@@ -29,33 +29,33 @@ ms.locfileid: "41595052"
 
     Отобразится перечень подписок выбранной компании.
 
-    ![Подписки клиента в Центре партнеров](images/pc_customer_subscriptions_1.png)
+    ![Подписки клиента в Центре партнеров](../../media/pc_customer_subscriptions_1.png)
     
 3. На странице **подписки** компании выберите **Добавить подписку**.
 4. На странице **Создание подписки** выберите пункт **малый бизнес** , а затем в списке выберите **Microsoft 365 бизнес** .
 5. Добавьте количество лицензий и выберите **Далее: просмотр**, чтобы просмотреть подписку, а затем выберите **Отправить**.
 
-    ![Просмотр новой подписки на Microsoft 365 бизнес](images/pc_customer_reviewnewsubscription.png)
+    ![Просмотр новой подписки на Microsoft 365 бизнес](../../media/pc_customer_reviewnewsubscription.png)
 
     В разделе **Подписки на основе лицензии** отобразятся пункты **Предварительная версия Microsoft 365 бизнес** и **Microsoft 365 бизнес**. Теперь вы приостанавливаете подписку на предварительный просмотр.
 
 6. Выберите **Предварительная версия Microsoft 365 бизнес**.
 7. На странице **Microsoft 365 Business Preview** нажмите кнопку **приостановлено** , чтобы приостановить подписку предварительного просмотра.
 
-    ![Приостановка подписки на предварительную версию Microsoft 365 бизнес](images/pc_customer_m365bpreview_suspend.png)
+    ![Приостановка подписки на предварительную версию Microsoft 365 бизнес](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. Выберите **Отправить** для подтверждения.
 
     На странице " **подписки** " убедитесь, что состояние **Microsoft 365 Business Preview** — **приостановлено**.
 
-    ![Проверка приостановленного состояния подписки на предварительную версию](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![Проверка приостановленного состояния подписки на предварительную версию](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Кроме того, можно проверить лицензионное соглашение. Для этого выполните следующие действия:
     1. Выберите **Пользователи и лицензии** на странице **Подписки** компании.
     2. На странице " **Пользователи и лицензии** " выберите пользователя.
     3. На странице пользователя проверьте раздел **Назначение лицензий** и убедитесь, что в нем отображается **Microsoft 365 бизнес**.
 
-        ![Проверка назначения лицензии Microsoft 365 бизнес пользователю](images/pc_customer_userslicenses_m365b_validate.png)
+        ![Проверка назначения лицензии Microsoft 365 бизнес пользователю](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Влияние на клиентов и пользователей во время и после перехода
 

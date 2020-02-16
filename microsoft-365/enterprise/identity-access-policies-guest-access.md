@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: ca9b752f55ebe3fecec4f312bc89b45d99cf0d7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8276dcf85f6c5fd61e01e67deee4fea35c1a15c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601056"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067464"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>Политики для разрешения гостевых и внешних поправных доступа
 В этой статье описывается, как настроить рекомендуемые политики доступа к удостоверениям и устройствам, чтобы разрешить доступ к учетной записи B2B (гости и внешние пользователи). Это руководство строится на [общих политиках идентификации и доступа к устройствам](identity-access-policies.md).
@@ -33,7 +33,7 @@ ms.locfileid: "41601056"
 
 На следующей схеме показаны общие политики идентификации и доступа к устройствам, а также приводятся политики, которые необходимо добавить или обновить для защиты гостей и внешнего доступа, а также с помощью значка карандаша. 
 
-![Сводка обновлений политик для защиты гостевого доступа](../images/identity-access-ruleset-guest.png)
+![Сводка обновлений политик для защиты гостевого доступа](../media/identity-access-ruleset-guest.png)
 
 В следующей таблице перечислены политики, которые необходимо обновить, или создать новую. Общие политики ссылаются на соответствующие инструкции по настройке в статье [Common Identity and Device Access Policies Policies](identity-access-policies.md) .
 
@@ -45,7 +45,7 @@ ms.locfileid: "41601056"
 
 Чтобы включить или исключить гостей и внешних пользователей в правилах условного доступа, перейдите на вкладку включить или исключить и проверьте **всех гостей и внешних пользователей**.
 
-![снимок экрана элементов управления для исключения гостей](../images/identity-access-exclude-guests-ui.png)
+![снимок экрана элементов управления для исключения гостей](../media/identity-access-exclude-guests-ui.png)
 
 ## <a name="more-information"></a>Дополнительные сведения
 
