@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: 2f61860178de78302d6fb94309ff01127ac5ce33
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.openlocfilehash: 5fe9e06a582d72b46c4f90f13aee283050a06253
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784743"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088732"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Исследование и исправление вредоносных сообщений электронной почты, доставляемых в Office 365
 
@@ -61,13 +61,13 @@ ms.locfileid: "41784743"
 
 2. В панели быстрого запуска навигации слева выберите \> **Обозреватель** **управления угрозами** .
 
-    ![Explorer с полями "действие доставки" и "место доставки".](../media/ThreatExFields.PNG)
+    ![Explorer с полями "действие доставки" и "место доставки".](../../media/ThreatExFields.PNG)
 
     <!-- You may notice the new **Special actions** column. This feature is aimed at telling admins the outcome of processing an email. The **Special actions** column can be accessed in the same place as **Delivery action** and **Delivery location**. Special actions might be updated at the end of Threat Explorer's email timeline, which is a new feature aimed at making the hunting experience better for admins.-->
 
 3. **Представления в обозревателе угроз**: в меню **вид** выберите пункт **вся электронная почта**.
 
-    ![Меню представления обозревателя угроз и электронная почта — вредоносные программы, фишинг, отправку и все параметры электронной почты, а также содержимое вредоносных программ.](../media/tp-InvestigateMalEmail-viewmenu.png)
+    ![Меню представления обозревателя угроз и электронная почта — вредоносные программы, фишинг, отправку и все параметры электронной почты, а также содержимое вредоносных программ.](../../media/tp-InvestigateMalEmail-viewmenu.png)
 
     По умолчанию *данное представление содержит* сообщения электронной почты, в которых обнаружена угроза вредоносных программ. Вид *фишинга* работает аналогичным образом для фишинга.
 
@@ -86,11 +86,11 @@ ms.locfileid: "41784743"
 
    Расширенная фильтрация — это отличное дополнение к возможностям поиска. В домене *получателя*, *отправителя* и *отправителя* **не** был представлен логический фильтр, позволяющий администраторам изученовать, исключив значения. Этот параметр отображается в разделе параметр выбора *содержит значение нет*. **Не** позволяет администраторам исключать почтовые ящики оповещений, почтовые ящики по умолчанию из расследования и удобно использовать в тех случаях, когда администраторы могут выполнять поиск определенных субъектов (subject = "внимание"), где для получателя можно установить значение *None of defaultMail@contoso.com*. Это поиск с точным значением.
 
-   !["Дополнительные фильтры получателей".](../media/tp-InvestigateMalEmail-AdvancedFilter.png)
+   !["Дополнительные фильтры получателей".](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
    *Фильтрация по часам* поможет быстро раскрыть группу безопасности Организации. Минимально допустимая длительность времени составляет 30 минут. Если вы можете сузить подозрительное действие по времени (например, 3 часа назад), это ограничит контекст и поможет точно определить проблему.
 
-  ![Параметр Фильтрация по часам для сужения объема работы групп обеспечения безопасности данных, а длительность — 30 минут.](../media/tp-InvestigateMalEmail-FilterbyHours.png)
+  ![Параметр Фильтрация по часам для сужения объема работы групп обеспечения безопасности данных, а длительность — 30 минут.](../../media/tp-InvestigateMalEmail-FilterbyHours.png)
 
 6. **Поля в обозревателе угроз**: обозреватель угроз предоставляет гораздо больше сведений о системе безопасности, таких как *действие доставки*, *место доставки*, *специальное действие*, *направленность*, *Переопределение*и *угроза URL-адресов*. Кроме того, она позволяет группе безопасности Организации исследовать более высокую степень уверенности. 
 
@@ -189,31 +189,31 @@ ms.locfileid: "41784743"
 
 4. In the **View** menu, choose **All email**.
 
-    ![Use the View menu to choose between Email and Content reports](../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
+    ![Use the View menu to choose between Email and Content reports](../../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
   
     Notice the labels that appear in the report, such as **Delivered**, **Unknown**, or **Delivered to junk**.
 
-    ![Threat Explorer showing data for all email](../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
+    ![Threat Explorer showing data for all email](../../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
     
     (Depending on the actions that were taken on email messages for your organization, you might see other labels, such as **Blocked** or **Replaced**.)
     
 5. In the report, choose **Delivered** to view only email messages that ended up in users' inboxes.
 
-    ![Clicking "Delivered to junk" removes that data from view](../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
+    ![Clicking "Delivered to junk" removes that data from view](../../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
   
 6. Below the chart, review the **Email** list below the chart.
 
-    ![Below the chart, view a list of email messages that were detected](../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
+    ![Below the chart, view a list of email messages that were detected](../../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
   
 7. In the list, choose an item to view more details about that email message. For example, you can click the subject line to view information about the sender, recipients, attachments, and other similar email messages.
 
-    ![You can view additional information about an item](../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
+    ![You can view additional information about an item](../../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
   
 8. After viewing information about email messages, select one or more items in the list to activate **+ Actions**.
     
 9. Use the **+ Actions** list to apply an action, such as **Move to deleted** items. This deletes the selected messages from the recipients' mailboxes.
 
-    ![When you select one or more email messages, you can choose from several available actions](../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
+    ![When you select one or more email messages, you can choose from several available actions](../../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
 
 ## Dealing with suspicious email messages
 
@@ -243,13 +243,13 @@ To access your message header and email download options, follow these steps:
 
     This opens the flyout, where both header preview and email download links are positioned.
 
-    ![Threat Explorer flyout with download and preview links on the page.](../media/ThreatExplorerDownloadandPreview.PNG)
+    ![Threat Explorer flyout with download and preview links on the page.](../../media/ThreatExplorerDownloadandPreview.PNG)
 
 > [!IMPORTANT]
 > This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.
 -->
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
   

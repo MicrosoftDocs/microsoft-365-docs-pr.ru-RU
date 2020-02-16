@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: Сводка. С помощью этих пошаговых инструкций можно развернуть новый изолированный сайт группы SharePoint Online.
-ms.openlocfilehash: c49b8d2d0c69f76f284061e21c8be31ee2204a54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 39cf33ce3314e2eb0cd313ff0382f50d7cb8487a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599526"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088812"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Развертывание изолированного сайта группы SharePoint Online
 
@@ -89,7 +89,7 @@ ms.locfileid: "41599526"
   
 Ниже показана итоговая конфигурация с тремя группами доступа к сайту.
   
-![Три группы доступа для развертывания изолированного сайта SharePoint Online.](../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
+![Три группы доступа для развертывания изолированного сайта SharePoint Online.](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
   
 ### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>Этап 5. Добавление учетных записей пользователей в группы доступа
 
@@ -151,7 +151,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
 
 Ниже показана итоговая конфигурация с тремя группами доступа к сайтам, заполненными учетными записями пользователей или группами.
   
-![Три группы доступа, заполненные учетными записями пользователей.](../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
+![Три группы доступа, заполненные учетными записями пользователей.](../../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
   
 ## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>Этап 2. Создание и настройка изолированного сайта группы
 
@@ -221,7 +221,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 Ниже показана итоговая конфигурация с тремя группами SharePoint для сайта, на котором настроено использование трех групп доступа, заполненных учетными записями пользователей или группами Azure AD.
   
-![Последняя конфигурация изолированного сайта SharePoint Online с группами доступа и учетными записями пользователей.](../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
+![Последняя конфигурация изолированного сайта SharePoint Online с группами доступа и учетными записями пользователей.](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
   
 Теперь вы и участники сайта можете совместно работать с его материалами посредством участия в одной из групп доступа.
   
