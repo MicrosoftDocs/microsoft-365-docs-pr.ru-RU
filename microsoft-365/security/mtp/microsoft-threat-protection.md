@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 031fc4164307d9fa8c78f02c775b230f7eff5383
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c165ec5869f8f53c28fb28414a04d73033a5772
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600186"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087628"
 ---
 # <a name="microsoft-threat-protection"></a>Защита от угроз (Майкрософт)
 
@@ -48,13 +48,13 @@ Microsoft Threat Protection Suite защищает:
 - Автоматизация ответа на компромисс путем запуска самовосстановления для затронутых активов с помощью автоматизированного исправления
 - Разрешите Teams Security выполнять подробную и эффективную Поиск угроз для данных конечной точки и данных Office
 
-![Изображение страницы обзора инцидента](../images/overview-incident.png) <br>
+![Изображение страницы обзора инцидента](../../media/overview-incident.png) <br>
 Происшествие между продуктами (обзор)
 
-![Изображение очереди оповещений](../images/incident-list.png)<br>
+![Изображение очереди оповещений](../../media/incident-list.png)<br>
 Все связанные оповещения по продуктам набора сопоставлены с одним инцидентом (представление "оповещения").
 
-![Изображение очереди инцидентов](../images/advanced-hunting.png)<br>
+![Изображение очереди инцидентов](../../media/advanced-hunting.png)<br>
 Поиск на основе запросов на основе необработанных данных электронной почты и конечных точек
 
 

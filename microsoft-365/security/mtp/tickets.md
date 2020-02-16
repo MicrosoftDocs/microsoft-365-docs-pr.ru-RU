@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 26e227b4b1e8047ca962ca9e65b139bacae55e03
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 240e153c43c7dc52d67d35eeca36def2f76b08e2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599996"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086950"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Управление билетами с помощью ServiceNow
 
@@ -61,7 +61,7 @@ ServiceNow рекомендует пользователям хранить па
 
 Перейдите на домашнюю страницу центра безопасности Microsoft 365, чтобы просмотреть карточку подключения ServiceNow.
 
-![Использование ServiceNow](../images/do-you-use-servicenow-250.png)
+![Использование ServiceNow](../../media/do-you-use-servicenow-250.png)
 
 Выберите "подключиться к ServiceNow", чтобы перейти на страницу установки ServiceNow. Следуйте инструкциям для авторизации приложения Microsoft 365 Connector.
 
@@ -74,7 +74,7 @@ ServiceNow рекомендует пользователям хранить па
 
 После настройки интеграции Создайте задачи ServiceNow на основе определенных действий по улучшению оценки безопасности Майкрософт. Перейдите к любому действию улучшения в поле Оценка безопасности на портале Центра безопасности Microsoft 365 и выберите значок "общий доступ". Один из вариантов раскрывающегося списка — ServiceNow.
 
-![Общий доступ к файлам ServiceNow в безопасной оценке](../images/servicenow-share.png)
+![Общий доступ к файлам ServiceNow в безопасной оценке](../../media/servicenow-share.png)
 
 Создается задача, в которой можно задать приоритет и изменить имя, описание или срок выполнения. После заполнения всех обязательных полей отправьте задачу в ServiceNow.
 
@@ -84,7 +84,7 @@ ServiceNow рекомендует пользователям хранить па
 
 После создания билетов управления изменениями и управления инцидентами, они отображаются в карточках на домашней странице центра безопасности Microsoft 365. Из этих карточек вы можете создать билет, просмотреть все билеты или управлять конфигурацией ServiceNow.
 
-![Билеты управления изменениями ServiceNow](../images/change-management-375.png)  ![Билеты управления инцидентами ServiceNow](../images/incident-management-375.png)
+![Билеты управления изменениями ServiceNow](../../media/change-management-375.png)  ![Билеты управления инцидентами ServiceNow](../../media/incident-management-375.png)
 
 Чтобы повторно подготовить или управлять интеграцией ServiceNow в центре безопасности Майкрософт 365, выберите **Управление конфигурацией servicenow** на любой из карточек. После этого удалите текущие подключения ServiceNow и настройте имена состояний билетов.
 

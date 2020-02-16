@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f0cd296157e1d4856c27d1dc547de045510e788b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d11b2682b9699e61a4c9ecfa47eb73de87de5e4f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600766"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084215"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Рекомендации политики по защите сайтов и файлов SharePoint
 
@@ -35,7 +35,7 @@ ms.locfileid: "41600766"
 
 На следующей схеме показан набор рекомендуемых политик для защиты файлов в SharePoint Online и OneDrive для бизнеса. Он указывает, какие политики следует обновить или создать заново, чтобы добавить защиту для SharePoint Online и OneDrive для бизнеса.
 
-![Сводка политик для SharePoint Online и OneDrive](../images/identity-access-ruleset-sharepoint.png)
+![Сводка политик для SharePoint Online и OneDrive](../media/identity-access-ruleset-sharepoint.png)
 
 Если вы включили SharePoint Online при создании общих политик, необходимо создать только новые политики. При настройке правил условного доступа SharePoint Online включает OneDrive для бизнеса.
 
@@ -77,7 +77,7 @@ ms.locfileid: "41600766"
 
 На следующем рисунке приведен пример того, как политики доступа к устройствам SharePoint защищают доступ к сайтам.
 
-![Защита сайтов политиками доступа к устройствам SharePoint](../images/SharePoint-rules-scenario.png)
+![Защита сайтов политиками доступа к устройствам SharePoint](../media/SharePoint-rules-scenario.png)
 
 На этом рисунке:
 

@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: d0e29bd16f1b0afd119fc822d6e2391e7f9f3020
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e41003a7137b864b52f823debcd72c72ca55045d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602826"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085046"
 ---
 # <a name="register-new-devices-yourself"></a>Самостоятельная регистрация новых устройств
 
@@ -90,7 +90,7 @@ ms.locfileid: "41602826"
 
 На [портале Azure](https://aka.ms/mmdportal)с настольным управлением Microsoft выберите **устройства** в левой области навигации. Выберите **+ Регистрация устройств**; Откроется вспомогательная надстройка:
 
-[![Вскрывающийся после выбора параметра Регистрация устройств, перечисление устройств со столбцами для назначенных пользователей, серийного номера, состояния, даты последнего рассмотрения и срока хранения](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
+[![Вскрывающийся после выбора параметра Регистрация устройств, перечисление устройств со столбцами для назначенных пользователей, серийного номера, состояния, даты последнего рассмотрения и срока хранения](../../media/register-devices-flyin-sterile.png)](../../media/register-devices-flyin-sterile.png)
 
 
 [//]: # (К сожалению, это не так. Мы можем удалить эту заметку, но оставив ее сейчас, пока не сможете поговорить с этой заметкой.)

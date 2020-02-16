@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 92c06eb01abd13df22ae33e72d9663084b05f7ef
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3ed9cce1c85dc924762be4408c670f13f318ca02
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600296"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087918"
 ---
 # <a name="devicetvmsoftwareinventoryvulnerabilities"></a>DeviceTvmSoftwareInventoryVulnerabilities
 
@@ -42,7 +42,7 @@ ms.locfileid: "41600296"
 | `OSPlatform` | string | Платформа операционной системы, используемой на компьютере. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `OSArchitecture` | string | Архитектура операционной системы, используемой на компьютере |
-| `SoftwareVendor` | string | Уровень серьезности, назначенный уязвимости безопасности на основе оценки CVSS и динамических коэффициентов, на которые влияет обстановка с угрозами |
+| `SoftwareVendor` | string | Имя поставщика программного обеспечения |
 | `SoftwareName` | string | Название программного продукта |
 | `SoftwareVersion` | string | Номер версии программного продукта |
 | `CveId` | string | Уникальный идентификатор, назначенный уязвимости безопасности в системе общеизвестных уязвимостей и рисков (CVE) |

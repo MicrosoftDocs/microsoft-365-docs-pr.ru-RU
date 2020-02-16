@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7e96ca06a7b77a6bdc0cf4af55d519aebda833cd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f268c87da68c2badbfa885f0d9357a6a53d0a039
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600386"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087505"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 
@@ -61,14 +61,14 @@ ms.locfileid: "41600386"
 - исключения избранного значения из запроса (`!=`)
 - Чтобы добавить к своему запросу определенное значение, можно использовать дополнительные операторы, например, `contains`, `starts with` и`ends with` 
 
-![Изображение набора результатов расширенного выслеживания в ATP в Microsoft Defender](../images/advanced-hunting-results-filter.png)
+![Изображение набора результатов расширенного выслеживания в ATP в Microsoft Defender](../../media/advanced-hunting-results-filter.png)
 
 ## <a name="filter-the-query-results"></a>Фильтрация результатов запроса
 Используя отображаемые справа фильтры, можно сформировать сводку о полученном наборе результатов. В каждом столбце есть раздел, в котором приводятся уникальные обнаруженные для этого столбца значения и количество экземпляров.
 
 С помощью кнопок "+" и "-" для значений, которые нужно включить или исключить, можно уточнить запрос и затем выбрать команду**Выполнить запрос**.
 
-![Изображение фильтра расширенного выслеживания](../images/advanced-hunting-filter.png)
+![Изображение фильтра расширенного выслеживания](../../media/advanced-hunting-filter.png)
 
 Использование фильтра с целью изменения запроса и отправка этого запроса позволяют получить новые соответствующие результаты.
 

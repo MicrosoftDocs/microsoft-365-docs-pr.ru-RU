@@ -12,16 +12,16 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: f854a4ec72c01f49f12774617188610d753e7b40
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5407370933c2a99781adf4ca58d3fa905328ed04
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596636"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085578"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>Шаг 5: развертывание компонентов безопасности Windows 10 Корпоративная
 
-![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Windows 10 предоставляет функции безопасности для защиты корпоративных пользователей, остановки киберугрозами и предотвращения потери данных. 
 
@@ -130,6 +130,6 @@ Windows 10 предоставляет функции безопасности д
 * [Устранение проблем с входящей миграции](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-onboarding-windows-defender-advanced-threat-protection)
 * [Устранение неполадок в защитнике Microsoft](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий этап
 
 [Критерии выхода инфраструктуры Windows 10 Корпоративная](windows10-exit-criteria.md)

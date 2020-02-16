@@ -12,18 +12,18 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: e5e3e4fb48a0eb2af1978cbd5a687c67c72bea0c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ba5804d3065dcb01d85d457df7555a642d6f2839
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596646"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085598"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>Шаг 3: развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилота
 
 *Эта статья относится как к корпоративным, так и к версиям Microsoft 365 для Microsoft*
 
-![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Если у вас есть новые компьютеры с Windows 10, вы можете использовать автопилот Windows для настройки готового к работе (OOBE) для вашей организации и развертывания новой системы с приложениями и настройками, которые уже настроены. Вам не придется развертывать образы, устанавливать драйверы и управлять инфраструктурой. Пользователи могут проходить через процесс развертывания независимо, без необходимости обращаться к ИТ ИТ ИТ.
 
@@ -33,7 +33,7 @@ ms.locfileid: "41596646"
 
 Афиша автопилота Windows — две страницы в режиме книжной ориентации (11x17). Щелкните изображение ниже, чтобы просмотреть документ PDF в браузере. 
 
-[![Плакат "Развертывание Windows 10 с помощью Autopilot"](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
+[![Плакат "Развертывание Windows 10 с помощью Autopilot"](../media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) или [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx).
 
@@ -114,4 +114,4 @@ ms.locfileid: "41596646"
 
 |||
 |:-------|:-----|
-|![Шаг 4](./media/stepnumbers/Step4.png)| [Отслеживание работоспособности и соответствия устройств требованиям](windows10-enable-windows-analytics.md) |
+|![Шаг 4](../media/stepnumbers/Step4.png)| [Отслеживание работоспособности и соответствия устройств требованиям](windows10-enable-windows-analytics.md) |

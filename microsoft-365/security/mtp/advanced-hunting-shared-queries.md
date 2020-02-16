@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6e5dd8d1d80d08ed808bc607fcc7aba8a390a9ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6f6468117f73d6cf7079ce50e8ea951422bfc073
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600316"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087445"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Использование общих запросов в расширенной охоте
 
@@ -33,7 +33,7 @@ ms.locfileid: "41600316"
 
 Запросами [расширенной охоты](advanced-hunting-overview.md) можно делиться с пользователями одной организации. Вы также можете найти общедоступные запросы в GitHub. Эти запросы позволяют быстро реализовывать сценарии охоты на угрозы, не создавая запросы с нуля.
 
-![Изображение общих запросов](../images/advanced-hunting-shared-queries.png)
+![Изображение общих запросов](../../media/advanced-hunting-shared-queries.png)
 
 ## <a name="save-modify-and-share-a-query"></a>Сохранение и изменение запроса и предоставление к нему общего доступа
 Вы можете сохранить новый или существующий запрос, чтобы он был доступен только вам, или поделиться им с пользователями своей организации. 
@@ -44,7 +44,7 @@ ms.locfileid: "41600316"
     
 3. Введите имя запроса. 
 
-   ![Изображение сохранения запроса](../images/advanced-hunting-save-query.png)
+   ![Изображение сохранения запроса](../../media/advanced-hunting-save-query.png)
 
 4. Выберите папку, в которую нужно сохранить запрос.
     - **Общие запросы** — общие для всех пользователей вашей организации
@@ -55,7 +55,7 @@ ms.locfileid: "41600316"
 ## <a name="delete-or-rename-a-query"></a>Удаление или переименование запроса
 1. Щелкните правой кнопкой мыши запрос, который нужно переименовать или удалить.
 
-    ![Изображение удаления запроса](../images/advanced_hunting_delete_rename.png)
+    ![Изображение удаления запроса](../../media/advanced_hunting_delete_rename.png)
 
 2. Нажмите кнопку **Удалить** и подтвердите удаление. Или нажмите кнопку **Переименовать** и введите новое имя запроса.
 

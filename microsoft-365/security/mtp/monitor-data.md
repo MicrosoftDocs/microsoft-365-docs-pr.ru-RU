@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b79625ba017bd30cc9d6b0153d101b16ec574e8c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8fa959de5806eccf76b0e83103c0274d0eb86da0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600136"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084786"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг данных и отчеты в центре безопасности Майкрософт 365
 
@@ -32,4 +32,4 @@ ms.locfileid: "41600136"
 * количество переопределений политик DLP или ложных срабатываний;
 * Количество совпадений политики защиты от потери данных в облачных службах сторонних производителей через Microsoft Cloud App Security
 
-![Категория данных на странице "отчеты"](../images/data.png)
+![Категория данных на странице "отчеты"](../../media/data.png)

@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 9d701091cd6c93c78674a3676a9880a8b9296a54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7be52ae276fa00b8bad6f03b27c88ebba0f02880
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600486"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086608"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
 
@@ -54,7 +54,7 @@ ms.locfileid: "41600486"
 * **Политики**. Настройка политик для управления устройствами, защиты от угроз и получения оповещений о различных действиях в вашей организации.
 * **Разрешения**. Управление доступом сотрудников вашей организации к Центру безопасности Microsoft 365 для просмотра содержимого и выполнения задач. Разрешения для Microsoft 365 можно также назначить на портале Azure AD.
 
-## <a name="learn-more"></a>Подробнее 
+## <a name="learn-more"></a>Дополнительные сведения 
 
 Изучите следующие разделы о мониторинге, проверке и реагировании на ваши требования к безопасности.
 - Подключение точек на оповещениях через [инциденты](incident-queue.md)

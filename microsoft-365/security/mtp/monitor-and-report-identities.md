@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e04f5f48edee663bd6b386d063b67af196e7a782
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2a84cc9c275db1579dfab5050672faf2463698e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084977"
 ---
 # <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг удостоверений и создание отчетов в центре безопасности Майкрософт 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "41600146"
 * количество пользователей, подверженных риску согласно политикам условного доступа;
 * количество глобальных администраторов в организации.
 
-![Категория удостоверений на странице "отчеты"](../images/identities.png)
+![Категория удостоверений на странице "отчеты"](../../media/identities.png)
 
 Для пользователей с определенными обнаружениями вы можете изучить конкретное оповещение и изучить его в центре безопасности защитника Microsoft. Обнаружение включает аномалии, такие как пользователи, которые входят в систему из незнакомых расположений.
 
