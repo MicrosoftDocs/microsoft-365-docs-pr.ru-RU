@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Узнайте о том, как использовать по умолчанию и другие параметры, доступные в Microsoft 365 Business для защиты устройств с Windows 10.
-ms.openlocfilehash: b286eb417a8e723b01838c16286ceb612d497c7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1b424fe6a85ad23b2914ea29f47d1dc16b333c94
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593523"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064978"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Настройка параметров защиты устройств для компьютеров с Windows 10
 
@@ -49,7 +49,7 @@ ms.locfileid: "41593523"
     
     Вы всегда можете вернуться к значениям по умолчанию с помощью ссылки **Восстановление параметров по умолчанию**. 
     
-    ![Add policy pane with Windows 10 Device configuration selected](media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
+    ![Add policy pane with Windows 10 Device configuration selected](../media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
 6. Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.
     
@@ -63,7 +63,7 @@ ms.locfileid: "41593523"
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Описание  <br/> |
+|Параметр  <br/> |Описание  <br/> |
 |Использование антивирусной программы "Защитник Windows"  <br/> |Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.  <br/> |
 |Защитите компьютеры от угроз из Интернета в Microsoft Edge  <br/> |Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.  <br/> |
 |Использовать правила для ограничения направлений атак на устройства  <br/> |Если этот параметр включен, ограничение направлений атак позволяет блокировать действия и приложения, которые вредоносные программы обычно используют для заражения устройств. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Уменьшение уязвимой зоны](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection).  <br/> |

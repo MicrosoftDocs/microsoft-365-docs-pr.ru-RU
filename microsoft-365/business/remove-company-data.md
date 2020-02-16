@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Узнайте, как использовать Microsoft 365 Business для удаления данных компании с пользовательских устройств или с компьютеров с Windows. '
-ms.openlocfilehash: ff0ad9d7f22f9bb1b21ee15fe383c6994896a9a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 338ce030cb37a6cbd4a1f63c33dc6866bef93c24
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593503"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064918"
 ---
 # <a name="remove-company-data-from-devices"></a>Удаление данных организации с устройств
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="remove-company-data"></a>Удаление данных компании
 
@@ -45,7 +45,7 @@ ms.locfileid: "41593503"
     
 4. В следующей области выберите устройство или устройства из списка **устройства** . В открывшейся области устройств вы можете выбрать устройство для установки в фабричном режиме или удалить данные компании в зависимости от типа устройства. 
     
-    ![На панели удаление данных компании выберите устройство, из которого необходимо удалить данные.](media/resetorremove.png)
+    ![На панели удаление данных компании выберите устройство, из которого необходимо удалить данные.](../media/resetorremove.png)
   
 5. В области подтверждения нажмите кнопку **подтвердить** \> **закрытие**.
     

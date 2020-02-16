@@ -15,18 +15,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: В этой статье рассказывается, как настроить управление привилегированным доступом для Office 365.
-ms.openlocfilehash: da047d21094854f15fdb39fc46fd046a1c4605ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f29b1e0934a4b9a6d4e3347584f39423d446ed58
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600966"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067236"
 ---
 # <a name="step-7-configure-privileged-access-management-for-office-365"></a>Шаг 7. Настройка управления привилегированным доступом для Office 365
 
 *Этот шаг необязательный; он применяется только к планам E5 и Advanced Compliance Microsoft 365 корпоративный.*
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Управление привилегированным доступом включается посредством настройки политик, определяющих своевременный доступ для действий на основе задач в вашем клиенте Office 365. Вашей организации может понадобиться защита от нарушений с использованием существующих привилегированных учетных записей администратора с постоянным доступом к конфиденциальным данным или доступом к критическим параметрам конфигурации. Например, можно настроить политику управления привилегированным доступом так, чтобы требовалось явное утверждение для доступа к параметрам почтового ящика организации и их изменения в клиенте Office 365.
 
@@ -44,7 +44,7 @@ ms.locfileid: "41600966"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Сведения о том, как можно испытать эту конфигурацию в среде лаборатории тестирования см. в статье [Управление привилегированным доступом: руководство по лаборатории тестирования](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
+|![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Сведения о том, как можно испытать эту конфигурацию в среде лаборатории тестирования см. в статье [Управление привилегированным доступом: руководство по лаборатории тестирования](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
 |||
 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step7), при выполнении которых можно считать данный шаг завершенным.

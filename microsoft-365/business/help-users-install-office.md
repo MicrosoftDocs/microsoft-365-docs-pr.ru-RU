@@ -25,16 +25,16 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Помогите пользователям установить приложения Office.
-ms.openlocfilehash: 86a32f5f7a9fbd78a56fc934c4668970f8cdc719
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7497be6b0796fdd28156d8c9a6018b05e3dcfe75
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593920"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065722"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Помогите пользователям установить Office на устройствах с Windows 10
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Вы можете быстро и легко установить Office на компьютерах с Windows 10 из центра администрирования Microsoft 365 бизнес.
   
@@ -59,7 +59,7 @@ ms.locfileid: "41593920"
 4. На **ссылку пользователи электронной почты, чтобы скачать панель Office** , выберите пользователей, которых нужно отправить по электронной почте, а затем отметьте **выбранных пользователей**.
 
     
-      :::image type="content" source="media/sendemailtousers.png" alt-text="Выберите пользователи для отправки электронной почты с помощью ссылки для скачивания Office.":::
+      :::image type="content" source="../media/sendemailtousers.png" alt-text="Выберите пользователи для отправки электронной почты с помощью ссылки для скачивания Office.":::
 
 ## <a name="see-also"></a>См. также
 

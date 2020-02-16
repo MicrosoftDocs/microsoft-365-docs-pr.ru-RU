@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Узнайте, как автоматически установить 32 приложения Office на компьютеры с Windows 10 и оставить их обновленными.
-ms.openlocfilehash: fa5b2ce1852ebdb1e76c1fa844793fee56af3d68
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0f8cd7df49ad627b190fad6737ec95a6d64d99d0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593626"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065120"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Подготовка к развертыванию Office для клиента с помощью Microsoft 365 Business
 
@@ -44,7 +44,7 @@ ms.locfileid: "41593626"
     
 Чтобы определить, есть ли на компьютере версия Office "нажми и работай", в любом приложении Office выберите **Файл** \> **Учетная запись** (в Outlook: **Учетная запись Office**). Если вы видите **обновления Office** , как показано на следующем рисунке, то установка выполнялась с помощью функции "нажми и работай". 
   
-![Screenshot of Office updates in Office app Account](media/e3439380-fa43-4ed6-ae5d-64851c297df5.png)
+![Screenshot of Office updates in Office app Account](../media/e3439380-fa43-4ed6-ae5d-64851c297df5.png)
   
  **Преимущества этой функции**
   

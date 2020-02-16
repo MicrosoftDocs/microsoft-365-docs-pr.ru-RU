@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Действия по обновлению бизнеса с Office 365 бизнес премиум до Microsoft 365 бизнес.
-ms.openlocfilehash: 0732f76e5bd8540e5954bd7ea7b88061326901b5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e17ac2658c7276ba4a77de371847343866815c42
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593686"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065300"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Обновление до Microsoft 365 Business из Office 365 бизнес премиум
 
@@ -51,11 +51,11 @@ ms.locfileid: "41593686"
 1. Войдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 2. Перейдите в область навигации и выберите продукты для **выставления счетов** \> **& службы**. Найдите свою подписку на Office 365 и выберите ее, чтобы просмотреть сведения. 
 
-    ![На снимке экрана показано, как найти и выбрать свою подписку в центре администрирования.](media/FindYourSubscription.png)
+    ![На снимке экрана показано, как найти и выбрать свою подписку в центре администрирования.](../media/FindYourSubscription.png)
 
 3. На следующей странице выберите **Обновить**. 
 
-      ![На снимке экрана показано, как выбрать обновление в центре администрирования.](media/SelectUpgrade.png)
+      ![На снимке экрана показано, как выбрать обновление в центре администрирования.](../media/SelectUpgrade.png)
 
   > [!NOTE]
   > Если вы видите сообщение о том, что **Обновление подписки не поддерживается при лицензировании на основе групп в Azure Active Directory**, вы можете спокойно проигнорировать это сообщение, если Организация не очень крупна. Организации, которые установили этот параметр, будут иметь представление о том, что они используют лицензирование на основе групп.

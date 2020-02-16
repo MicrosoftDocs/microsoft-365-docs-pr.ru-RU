@@ -1,5 +1,7 @@
 ---
 title: Проверка параметров защиты приложений на компьютерах с Windows 10
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Узнайте, как проверить параметры защиты Microsoft 365 бизнес-приложений на устройствах с Windows 10.
-ms.openlocfilehash: c54b053c1f6efbca8fd02431c416793a044c6821
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 577921f7f33eafbbe652dcf825a145d89f1ff556
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721867"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057345"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Проверка параметров защиты приложений на компьютерах с Windows 10
 
@@ -36,11 +38,11 @@ ms.locfileid: "38721867"
   
 1. После входа с помощью учетных данных Office 365 бизнес и подключения к Azure AD, как описано в статье [Настройка устройств с Windows для пользователей Microsoft 365 бизнес](set-up-windows-devices.md), откройте **Параметры Windows** \> **Учетные записи** \> **Доступ к учетной записи места работы или учебного заведения**. Выберите пункт **Подключено к Azure AD \<имя клиента\>**, а затем нажмите кнопку **Сведения**.
     
-    ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
+    ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
 2. На странице " **Управление с помощью** \<имени\> клиента" можно просмотреть **сведения о подключении** , включающие **адрес сервера управления** , как показано на следующем рисунке. 
     
-    ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
+    ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
  **Проверка отсутствия возможности вставки данных компании в неуправляемое приложение**
   
@@ -52,7 +54,7 @@ ms.locfileid: "38721867"
     
     Вы получите сообщение об ошибке, в котором говорится, что приложение не может получить доступ к контенту.
     
-    ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
+    ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
     Однако это же содержимое можно вставить в Word 2016.
     
@@ -68,11 +70,11 @@ ms.locfileid: "38721867"
     
 4. На странице **Доступ к учетной записи места работы или учебного заведения** выберите элемент **Рабочая или учебная учетная запись** и нажмите кнопку **Сведения**.
     
-    ![Щелкните или нажмите кнопку Сведения в диалоговом окне Рабочая или учебная учетная запись.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
+    ![Щелкните или нажмите кнопку Сведения в диалоговом окне Рабочая или учебная учетная запись.](../media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
 5. На странице "доступ" на **рабочем месте или учебном заведении** можно просмотреть **сведения о подключении** , включающие **адрес сервера управления** , как показано на следующем рисунке, и содержит слова " *НЗП* " и " *MAM* " в. 
     
-    ![Managed by page shows connection info URL that includes the words mam and wpi.](media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
+    ![Managed by page shows connection info URL that includes the words mam and wpi.](../media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
  **Проверка отсутствия возможности вставки данных компании в неуправляемое приложение**
   
@@ -84,7 +86,7 @@ ms.locfileid: "38721867"
     
     Вы получите сообщение об ошибке, в котором приложение не может получить доступ к контенту.
     
-    ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
+    ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
     Однако это же содержимое можно вставить в Word 2016.
     

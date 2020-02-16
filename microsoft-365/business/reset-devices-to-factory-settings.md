@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Узнайте, как использовать Microsoft 365 Business для фабричной переустановки устройств с Windows 10. '
-ms.openlocfilehash: b5039693640a17e531296d019117a9f40bf98a7f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4350b208341a51447153b415d2cb225697a11e1b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064839"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Восстановление заводских настроек для устройств с Windows 10
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 При сбросе до заводских настроек на устройстве восстанавливаются первоначальные настройки, заданные при его приобретении. Все приложения и данные, которые были установлены после приобретения устройства, удаляются. С помощью Office 365 бизнес вы можете восстановить заводские настройки для устройств с Windows 10, которыми управляете.
   

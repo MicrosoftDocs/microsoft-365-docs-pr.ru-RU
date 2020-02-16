@@ -1,5 +1,7 @@
 ---
 title: Создание Teams для совместной работы
+f1.keywords:
+- NOCSH
 ms.author: stevhord
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создайте пространство для совместной работы для группы с помощью Microsoft Teams.
-ms.openlocfilehash: 9b501daa61998b0b2daedd84c333552b42e5338f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: d057dbf0afca31b91e8792b3e0ca13d45b5e3455
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056358"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Создание Teams для совместной работы в Microsoft Teams
 
@@ -42,7 +44,7 @@ Microsoft Teams — это приложение для совместной ра
 
 Вы также можете создавать команды для определенных проектов и применять правильный уровень защиты в зависимости от того, кто должен быть включен. 
 
-![Схема окна Microsoft Teams с тремя отдельными командами для обеспечения безопасной связи и совместной работы](media/m365-democracy-teams-collab.png)
+![Схема окна Microsoft Teams с тремя отдельными командами для обеспечения безопасной связи и совместной работы](../media/m365-democracy-teams-collab.png)
 
 Когда вы создаете команду, вот что еще создаете:
 

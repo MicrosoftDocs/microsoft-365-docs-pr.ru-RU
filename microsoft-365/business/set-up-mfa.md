@@ -1,5 +1,7 @@
 ---
 title: Настройка многофакторной проверки подлинности
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка многофакторной проверки подлинности для Microsoft 365 бизнес.
-ms.openlocfilehash: 59a3ff7a9494ccfc44fa701c6f605a9bd9eeafcf
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 4a201680172653fe5beffe7855fd35d1d395359e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064538"
 ---
 # <a name="multi-factor-authentication"></a>многофакторная проверка подлинности;
 
@@ -31,13 +33,13 @@ ms.locfileid: "38715061"
 
 ## <a name="set-up-mfa-in-the-microsoft-365-admin-center"></a>Настройка MFA в центре администрирования Microsoft 365
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных глобального администратора. 
 2. В левой панели навигации выберите пункт **Настройка**.
 3. На странице Настройка выберите **Просмотр** на карточке **Включение многофакторной проверки подлинности (MFA)** .
 4. На странице **включить MFA** нажмите кнопку **начать работу**или **Управляйте** , если вы уже настроили MFA и хотите внести изменения. 
 
-  :::image type="content" source="media/turnonmfa.png" alt-text="Снимок экрана: включение страницы MFA.":::
+  :::image type="content" source="../media/turnonmfa.png" alt-text="Снимок экрана: включение страницы MFA.":::
 
 5. На панели **Безопасность "усилить вход** " установите флажки для одной или одной **многофакторной проверки подлинности для администраторов**, а затем выберите команду **создать политику**.

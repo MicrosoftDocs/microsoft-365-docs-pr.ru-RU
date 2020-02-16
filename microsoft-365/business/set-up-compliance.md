@@ -1,5 +1,7 @@
 ---
 title: Повышение защиты от угроз для Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка функций обеспечения соответствия для предотвращения потери данных и подписи конфиденциальных данных.
-ms.openlocfilehash: 6fae95e8c5e6d133e3163dbdfd3c09cfede11382
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715129"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064719"
 ---
 # <a name="set-up-compliance-features"></a>Настройка функций обеспечения соответствия требованиям
 
@@ -68,6 +70,6 @@ DLP включает множество готовых шаблонов поли
 1. Скачайте **AzinfoProtection_UL. exe** из [центра загрузки Майкрософт](https://www.microsoft.com/download/details.aspx?id=53018).
  
 2. Чтобы убедиться, что установка проработала, просмотрите документ Word и убедитесь, что параметр " **чувствительность** " доступен на вкладке " **Главная** ".
-<br/>![Раскрывающийся список вкладок защита в документе Word.](media/word-sensitivity.png)
+<br/>![Раскрывающийся список вкладок защита в документе Word.](../media/word-sensitivity.png)
 
 Для получения дополнительных сведений обратитесь [к разделу Установка клиента](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: a353e39b824bae702fa015b0c7d3dd7e6416454c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5491486c2bf8da1ee38fcd986d5ecd682d57c82e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065625"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Приступая к работе с Microsoft 365 Business
 
@@ -57,7 +57,7 @@ Microsoft 365 Business предназначено для работы с лиц�
   
 На следующей схеме показано, как администраторы настроили Microsoft 365 бизнес. На ней также описаны действия по подготовке компьютеров с Windows для Office 365 бизнес. Вы также можете добавлять новые устройства в центре администрирования Microsoft 365 Business с помощью [Windows автопилота](add-autopilot-devices-and-profile.md). С помощью автопилота можно настроить и предварительно настроить новые устройства, чтобы они были готовы к эффективному использованию, как только пользователь войдет с помощью учетных данных Microsoft 365 Business.
   
-![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
 В этом видеоролике приводится обзор Microsoft 365 бизнес-установки.<br><br>
 

@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 Business из Office 365 E3.
-ms.openlocfilehash: 210f3ebf76da49349dfb6d61d0b8ce88d15d3734
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 54320ed60825a28147542094b19761889a70ae9f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593708"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065583"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Переход с Office 365 E3 на Microsoft 365 Бизнес 
 
@@ -44,25 +44,25 @@ Microsoft 365 Business имеет все необходимое для мало�
 | Приложения Office<sup>1</sup>   | Office 365 бизнес   | Office 365 профессиональный плюс | 
 | **Облачные приложения для работы**       | | | 
 | Exchange Online и Outlook   | 50 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online   | 100 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online | 
-| Teams | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Office 365 E3](./media/check-mark.png) | 
+| Teams | ![Входит в состав Microsoft 365 Business](../media/check-mark.png)  | ![Входит в состав Office 365 E3](../media/check-mark.png) | 
 | OneDrive для бизнеса | ограничения на размер хранилища на одного пользователя (1 ТБ)   | Без ограничений | 
-| Yammer, SharePoint Online, планировщик, поток    | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Office 365 E3](./media/check-mark.png) | 
-| StaffHub  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | ![Входит в состав Office 365 E3](./media/check-mark.png) | 
-| Диспетчер клиентов Outlook, Милеик  | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)   | | 
+| Yammer, SharePoint Online, планировщик, поток    | ![Входит в состав Microsoft 365 Business](../media/check-mark.png)  | ![Входит в состав Office 365 E3](../media/check-mark.png) | 
+| StaffHub  | ![Входит в состав Microsoft 365 Business](../media/check-mark.png)  | ![Входит в состав Office 365 E3](../media/check-mark.png) | 
+| Диспетчер клиентов Outlook, Милеик  | ![Входит в состав Microsoft 365 Business](../media/check-mark.png)  | | 
 | **Защита от угроз**     | | | 
-| Office 365 Advanced Threat protection (ATP), план 1 | ![Входит в состав Microsoft 365 Business](./media/check-mark.png)  | Не включено, но его можно добавить на | 
+| Office 365 Advanced Threat protection (ATP), план 1 | ![Входит в состав Microsoft 365 Business](../media/check-mark.png) | Не включено, но его можно добавить на | 
 | **управление удостоверениями;**       | | | 
-| Самостоятельный сброс паролей для гибридных учетных записей Azure Active Directory (Azure AD), служба Azure Multi-Factor Authentication (MFA), условный доступ, обратная запись пароля для локальных удостоверений|    ![Входит в состав Microsoft 365 Business](./media/check-mark.png) |  | 
+| Самостоятельный сброс паролей для гибридных учетных записей Azure Active Directory (Azure AD), служба Azure Multi-Factor Authentication (MFA), условный доступ, обратная запись пароля для локальных удостоверений|    ![Входит в состав Microsoft 365 Business](../media/check-mark.png)    |  | 
 | **Управление устройствами и приложениями**     | | |
-| Microsoft Intune, Windows для автопилота|  ![Входит в состав Microsoft 365 Business](./media/check-mark.png) |  |
-| Активация совместно используемого компьютера|   ![Входит в состав Microsoft 365 Business](./media/check-mark.png) | ![Входит в состав Office 365 E3](./media/check-mark.png)| 
-| Права на обновление до Windows 10 Pro из лицензий Win 7/8.1 Pro|     ![Входит в состав Microsoft 365 Business](./media/check-mark.png) || 
+| Microsoft Intune, Windows для автопилота|  ![Входит в состав Microsoft 365 Business](../media/check-mark.png)    |  |
+| Активация совместно используемого компьютера|   ![Входит в состав Microsoft 365 Business](../media/check-mark.png)    | ![Входит в состав Office 365 E3](../media/check-mark.png)| 
+| Права на обновление до Windows 10 Pro из лицензий Win 7/8.1 Pro|     ![Входит в состав Microsoft 365 Business](../media/check-mark.png)    || 
 | **Защита информации**        | | |
-|Защита от потери данных в Office 365|   ![Входит в состав Microsoft 365 Business](./media/check-mark.png)|![Входит в состав Office 365 E3](./media/check-mark.png)|
-|Azure Information Protection (план 1), принудительное применение BitLocker|![Входит в состав Microsoft 365 Business](./media/check-mark.png)||
-|Azure Information Protection (план 1), метки чувствительности|![Входит в состав Microsoft 365 Business](./media/check-mark.png)||
+|Защита от потери данных в Office 365|   ![Входит в состав Microsoft 365 Business](../media/check-mark.png)|![Входит в состав Office 365 E3](../media/check-mark.png)|
+|Azure Information Protection (план 1), принудительное применение BitLocker|![Входит в состав Microsoft 365 Business](../media/check-mark.png)||
+|Azure Information Protection (план 1), метки чувствительности|![Входит в состав Microsoft 365 Business](../media/check-mark.png)||
 |**Лицензия клиентского доступа (права CAL)**|||
-|Набор корпоративных лицензий CAL (Exchange, SharePoint, Skype)||![Входит в состав Office 365 E3](./media/check-mark.png)|
+|Набор корпоративных лицензий CAL (Exchange, SharePoint, Skype)||![Входит в состав Office 365 E3](../media/check-mark.png)|
 
 <sup>1</sup> в microsoft Office 365 бизнес версия приложений Office не включает активацию корпоративных лицензий с помощью групповой политики, телеметрии приложений, элементов управления обновления, сравнения и выполнения запросов, а также бизнес-аналитики.
 
