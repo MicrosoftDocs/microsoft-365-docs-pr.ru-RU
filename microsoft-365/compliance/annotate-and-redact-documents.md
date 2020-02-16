@@ -16,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4369420cbaccd6753d8b55aa1b7c2af8bd1275c1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 05aacce9605e17dd45afed8eb3bf16b8784a2316
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079926"
 ---
-# <a name="annotate-and-redact-documents-in-evidence"></a><span data-ttu-id="ac52b-102">Комментирование и редактирование документов в свидетельствах</span><span class="sxs-lookup"><span data-stu-id="ac52b-102">Annotate and redact documents in evidence</span></span>
+# <a name="annotate-and-redact-documents-in-evidence"></a><span data-ttu-id="3fd05-102">Комментирование и редактирование документов в свидетельствах</span><span class="sxs-lookup"><span data-stu-id="3fd05-102">Annotate and redact documents in evidence</span></span>
 
-<span data-ttu-id="ac52b-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="ac52b-103">Content coming soon.</span></span>
+<span data-ttu-id="3fd05-103">Содержимое появится в ближайшее время.</span><span class="sxs-lookup"><span data-stu-id="3fd05-103">Content coming soon.</span></span>
