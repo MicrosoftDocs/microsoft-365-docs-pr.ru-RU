@@ -14,115 +14,115 @@ ms.collection:
 search.appverid:
 - MET150
 description: Пользователи могут узнать, как управлять покупками самостоятельной службы.
-ms.openlocfilehash: 1535784350b719b606dca9417f9cdb192060adf1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cdc50144179dd4c0f9b6355501167e9420ff0b50
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594660"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080326"
 ---
-# <a name="manage-self-service-purchases-users"></a><span data-ttu-id="28ad4-103">Управление покупками самостоятельных служб (пользователи)</span><span class="sxs-lookup"><span data-stu-id="28ad4-103">Manage self-service purchases (Users)</span></span>
+# <a name="manage-self-service-purchases-users"></a><span data-ttu-id="715aa-103">Управление покупками самостоятельных служб (пользователи)</span><span class="sxs-lookup"><span data-stu-id="715aa-103">Manage self-service purchases (Users)</span></span>
 
-<span data-ttu-id="28ad4-104">Как пользователь, вы можете приобрести подписки на определенные продукты и назначить лицензии для пользователей в вашей команде.</span><span class="sxs-lookup"><span data-stu-id="28ad4-104">As a user, you can buy subscriptions to certain products and assign licenses for those subscriptions to people in your team.</span></span> <span data-ttu-id="28ad4-105">Вы несете ответственность за оплату любых совершенных покупок на самостоятельных службах.</span><span class="sxs-lookup"><span data-stu-id="28ad4-105">You are responsible for paying for any self-service purchases you make.</span></span> <span data-ttu-id="28ad4-106">Вы можете управлять подписками в центре администрирования Microsoft 365 по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin.Microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="28ad4-106">You can manage your subscriptions in the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.</span></span>
+<span data-ttu-id="715aa-104">Как пользователь, вы можете приобрести подписки на определенные продукты и назначить лицензии для пользователей в вашей команде.</span><span class="sxs-lookup"><span data-stu-id="715aa-104">As a user, you can buy subscriptions to certain products and assign licenses for those subscriptions to people in your team.</span></span> <span data-ttu-id="715aa-105">Вы несете ответственность за оплату любых совершенных покупок на самостоятельных службах.</span><span class="sxs-lookup"><span data-stu-id="715aa-105">You are responsible for paying for any self-service purchases you make.</span></span> <span data-ttu-id="715aa-106">Вы можете управлять подписками в центре администрирования Microsoft 365 по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin.Microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="715aa-106">You can manage your subscriptions in the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin.microsoft.com</a>.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="28ad4-107">Необходимо включить новый интерфейс центра администрирования.</span><span class="sxs-lookup"><span data-stu-id="28ad4-107">You must turn on the new admin center experience.</span></span>
+> <span data-ttu-id="715aa-107">Необходимо включить новый интерфейс центра администрирования.</span><span class="sxs-lookup"><span data-stu-id="715aa-107">You must turn on the new admin center experience.</span></span>
 
-<span data-ttu-id="28ad4-108">У администратора есть представление, доступное только для чтения, в любые подписки, которые вы покупаетее.</span><span class="sxs-lookup"><span data-stu-id="28ad4-108">Your admin has a read-only view into any subscriptions that you buy.</span></span> <span data-ttu-id="28ad4-109">Они могут видеть название продукта, покупателя, подписки на покупку, дату истечения срока действия, покупную цену и пользователей, назначенных для каждой приобретенной подписки.</span><span class="sxs-lookup"><span data-stu-id="28ad4-109">They can see the product, purchaser name, subscriptions purchased, expiry date, purchase price, and assigned users for each subscription that you buy.</span></span>
+<span data-ttu-id="715aa-108">У администратора есть представление, доступное только для чтения, в любые подписки, которые вы покупаетее.</span><span class="sxs-lookup"><span data-stu-id="715aa-108">Your admin has a read-only view into any subscriptions that you buy.</span></span> <span data-ttu-id="715aa-109">Они могут видеть название продукта, покупателя, подписки на покупку, дату истечения срока действия, покупную цену и пользователей, назначенных для каждой приобретенной подписки.</span><span class="sxs-lookup"><span data-stu-id="715aa-109">They can see the product, purchaser name, subscriptions purchased, expiry date, purchase price, and assigned users for each subscription that you buy.</span></span>
 
-## <a name="view-your-subscriptions"></a><span data-ttu-id="28ad4-110">Просмотр подписок</span><span class="sxs-lookup"><span data-stu-id="28ad4-110">View your subscriptions</span></span>
+## <a name="view-your-subscriptions"></a><span data-ttu-id="715aa-110">Просмотр подписок</span><span class="sxs-lookup"><span data-stu-id="715aa-110">View your subscriptions</span></span>
 
-<span data-ttu-id="28ad4-111">Вы можете просмотреть список всех купленных подписок на самостоятельную обслуживание.</span><span class="sxs-lookup"><span data-stu-id="28ad4-111">You can view a list of all self-service purchased subscriptions that you bought.</span></span> <span data-ttu-id="28ad4-112">В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".</span><span class="sxs-lookup"><span data-stu-id="28ad4-112">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
+<span data-ttu-id="715aa-111">Вы можете просмотреть список всех купленных подписок на самостоятельную обслуживание.</span><span class="sxs-lookup"><span data-stu-id="715aa-111">You can view a list of all self-service purchased subscriptions that you bought.</span></span> <span data-ttu-id="715aa-112">В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".</span><span class="sxs-lookup"><span data-stu-id="715aa-112">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
 
-## <a name="how-to-buy-more-or-reduce-licenses"></a><span data-ttu-id="28ad4-113">Как приобрести дополнительные или уменьшить количество лицензий</span><span class="sxs-lookup"><span data-stu-id="28ad4-113">How to buy more or reduce licenses</span></span>
+## <a name="how-to-buy-more-or-reduce-licenses"></a><span data-ttu-id="715aa-113">Как приобрести дополнительные или уменьшить количество лицензий</span><span class="sxs-lookup"><span data-stu-id="715aa-113">How to buy more or reduce licenses</span></span>
 
-1. <span data-ttu-id="28ad4-114">В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".</span><span class="sxs-lookup"><span data-stu-id="28ad4-114">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
+1. <span data-ttu-id="715aa-114">В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".</span><span class="sxs-lookup"><span data-stu-id="715aa-114">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-115">Найдите подписку, для которой вы хотите купить больше или снизить количество лицензий.</span><span class="sxs-lookup"><span data-stu-id="28ad4-115">Find the subscription that you want to buy more or reduce licenses for.</span></span>
+2. <span data-ttu-id="715aa-115">Найдите подписку, для которой вы хотите купить больше или снизить количество лицензий.</span><span class="sxs-lookup"><span data-stu-id="715aa-115">Find the subscription that you want to buy more or reduce licenses for.</span></span>
 
-3. <span data-ttu-id="28ad4-116">Щелкните **Добавить/удалить лицензии**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-116">Choose **Add/remove licenses**.</span></span>
+3. <span data-ttu-id="715aa-116">Щелкните **Добавить/удалить лицензии**.</span><span class="sxs-lookup"><span data-stu-id="715aa-116">Choose **Add/remove licenses**.</span></span>
 
-4. <span data-ttu-id="28ad4-117">В поле **всего лицензий** введите общее количество лицензий, необходимых для этой подписки, и нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-117">In the **Total licenses** box, enter the total number of licenses that you need for this subscription, and then choose **Save**.</span></span>
-<span data-ttu-id="28ad4-118">Например, если у вас 100 лицензий и вы хотите добавить еще 5, введите 105.</span><span class="sxs-lookup"><span data-stu-id="28ad4-118">For example, if you have 100 licenses and you need to add 5 more, enter 105.</span></span>
+4. <span data-ttu-id="715aa-117">В поле **всего лицензий** введите общее количество лицензий, необходимых для этой подписки, и нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-117">In the **Total licenses** box, enter the total number of licenses that you need for this subscription, and then choose **Save**.</span></span>
+<span data-ttu-id="715aa-118">Например, если у вас 100 лицензий и вы хотите добавить еще 5, введите 105.</span><span class="sxs-lookup"><span data-stu-id="715aa-118">For example, if you have 100 licenses and you need to add 5 more, enter 105.</span></span>
 
-## <a name="assign-or-unassign-licenses"></a><span data-ttu-id="28ad4-119">Назначение и отмена назначения лицензий</span><span class="sxs-lookup"><span data-stu-id="28ad4-119">Assign or unassign licenses</span></span>
+## <a name="assign-or-unassign-licenses"></a><span data-ttu-id="715aa-119">Назначение и отмена назначения лицензий</span><span class="sxs-lookup"><span data-stu-id="715aa-119">Assign or unassign licenses</span></span>
 
-### <a name="to-assign-licenses"></a><span data-ttu-id="28ad4-120">Назначение лицензий</span><span class="sxs-lookup"><span data-stu-id="28ad4-120">To assign licenses</span></span>
+### <a name="to-assign-licenses"></a><span data-ttu-id="715aa-120">Назначение лицензий</span><span class="sxs-lookup"><span data-stu-id="715aa-120">To assign licenses</span></span>
 
-1. <span data-ttu-id="28ad4-121">В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .</span><span class="sxs-lookup"><span data-stu-id="28ad4-121">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="715aa-121">В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .</span><span class="sxs-lookup"><span data-stu-id="715aa-121">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-122">Выберите подписку, для которой вы хотите назначить лицензии.</span><span class="sxs-lookup"><span data-stu-id="28ad4-122">Choose the subscription that you want to assign licenses for.</span></span>
+2. <span data-ttu-id="715aa-122">Выберите подписку, для которой вы хотите назначить лицензии.</span><span class="sxs-lookup"><span data-stu-id="715aa-122">Choose the subscription that you want to assign licenses for.</span></span>
 
-3. <span data-ttu-id="28ad4-123">Выберите **назначить лицензии**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-123">Choose **Assign licenses**.</span></span>
+3. <span data-ttu-id="715aa-123">Выберите **назначить лицензии**.</span><span class="sxs-lookup"><span data-stu-id="715aa-123">Choose **Assign licenses**.</span></span>
 
-4. <span data-ttu-id="28ad4-124">В области **назначить лицензии пользователям** Начните вводить имя, а затем выберите его из результатов, чтобы добавить его в список.</span><span class="sxs-lookup"><span data-stu-id="28ad4-124">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="28ad4-125">Вы можете добавить до 20 пользователей за раз.</span><span class="sxs-lookup"><span data-stu-id="28ad4-125">You can add up to 20 users at a time.</span></span>
+4. <span data-ttu-id="715aa-124">В области **назначить лицензии пользователям** Начните вводить имя, а затем выберите его из результатов, чтобы добавить его в список.</span><span class="sxs-lookup"><span data-stu-id="715aa-124">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="715aa-125">Вы можете добавить до 20 пользователей за раз.</span><span class="sxs-lookup"><span data-stu-id="715aa-125">You can add up to 20 users at a time.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="28ad4-126">Вы можете назначать лицензии только людям из вашей организации.</span><span class="sxs-lookup"><span data-stu-id="28ad4-126">You can only assign licenses to people in your organization.</span></span>
+    > <span data-ttu-id="715aa-126">Вы можете назначать лицензии только людям из вашей организации.</span><span class="sxs-lookup"><span data-stu-id="715aa-126">You can only assign licenses to people in your organization.</span></span>
 
-5. <span data-ttu-id="28ad4-127">Нажмите кнопку **назначить**, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-127">Choose **Assign**, then choose **Close**.</span></span>
+5. <span data-ttu-id="715aa-127">Нажмите кнопку **назначить**, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="715aa-127">Choose **Assign**, then choose **Close**.</span></span>
 
-### <a name="to-unassign-licenses"></a><span data-ttu-id="28ad4-128">Отмена назначения лицензий</span><span class="sxs-lookup"><span data-stu-id="28ad4-128">To unassign licenses</span></span>
+### <a name="to-unassign-licenses"></a><span data-ttu-id="715aa-128">Отмена назначения лицензий</span><span class="sxs-lookup"><span data-stu-id="715aa-128">To unassign licenses</span></span>
 
-1. <span data-ttu-id="28ad4-129">В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .</span><span class="sxs-lookup"><span data-stu-id="28ad4-129">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
+1. <span data-ttu-id="715aa-129">В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .</span><span class="sxs-lookup"><span data-stu-id="715aa-129">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-130">Выберите продукт, для которого требуется отменить назначение лицензий.</span><span class="sxs-lookup"><span data-stu-id="28ad4-130">Choose the product that you want to unassign licenses for.</span></span>
+2. <span data-ttu-id="715aa-130">Выберите продукт, для которого требуется отменить назначение лицензий.</span><span class="sxs-lookup"><span data-stu-id="715aa-130">Choose the product that you want to unassign licenses for.</span></span>
 
-3. <span data-ttu-id="28ad4-131">Выберите пользователей, для которых требуется отменить назначение лицензий.</span><span class="sxs-lookup"><span data-stu-id="28ad4-131">Choose the users that you want to unassign licenses from.</span></span>
+3. <span data-ttu-id="715aa-131">Выберите пользователей, для которых требуется отменить назначение лицензий.</span><span class="sxs-lookup"><span data-stu-id="715aa-131">Choose the users that you want to unassign licenses from.</span></span>
 
-4. <span data-ttu-id="28ad4-132">Выберите пункт **Отменить назначение лицензий**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-132">Choose **Unassign licenses**.</span></span>
+4. <span data-ttu-id="715aa-132">Выберите пункт **Отменить назначение лицензий**.</span><span class="sxs-lookup"><span data-stu-id="715aa-132">Choose **Unassign licenses**.</span></span>
 
-5. <span data-ttu-id="28ad4-133">В поле **Отменить назначение лицензий** выберите **Отменить назначение**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-133">In the **Unassign licenses** box, choose **Unassign**.</span></span>
+5. <span data-ttu-id="715aa-133">В поле **Отменить назначение лицензий** выберите **Отменить назначение**.</span><span class="sxs-lookup"><span data-stu-id="715aa-133">In the **Unassign licenses** box, choose **Unassign**.</span></span>
 
-## <a name="cancel-a-subscription"></a><span data-ttu-id="28ad4-134">Отмена подписки</span><span class="sxs-lookup"><span data-stu-id="28ad4-134">Cancel a subscription</span></span>
+## <a name="cancel-a-subscription"></a><span data-ttu-id="715aa-134">Отмена подписки</span><span class="sxs-lookup"><span data-stu-id="715aa-134">Cancel a subscription</span></span>
 
-1. <span data-ttu-id="28ad4-135">В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".</span><span class="sxs-lookup"><span data-stu-id="28ad4-135">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
+1. <span data-ttu-id="715aa-135">В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".</span><span class="sxs-lookup"><span data-stu-id="715aa-135">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-136">Найдите подписку, которую вы хотите отменить.</span><span class="sxs-lookup"><span data-stu-id="28ad4-136">Find the subscription that you want to cancel.</span></span>
+2. <span data-ttu-id="715aa-136">Найдите подписку, которую вы хотите отменить.</span><span class="sxs-lookup"><span data-stu-id="715aa-136">Find the subscription that you want to cancel.</span></span>
 
-3. <span data-ttu-id="28ad4-137">В разделе **параметры & действий** выберите **Отменить подписку**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-137">In the **Settings & actions** section, choose **Cancel subscription**.</span></span>
+3. <span data-ttu-id="715aa-137">В разделе **параметры & действий** выберите **Отменить подписку**.</span><span class="sxs-lookup"><span data-stu-id="715aa-137">In the **Settings & actions** section, choose **Cancel subscription**.</span></span>
 
-4. <span data-ttu-id="28ad4-138">В диалоговом окне вы **действительно хотите отменить подписку?** нажмите кнопку **Да, отмена**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-138">In the **Are you sure you want to cancel your subscription?** dialog box, choose **Yes, cancel**.</span></span>
+4. <span data-ttu-id="715aa-138">В диалоговом окне вы **действительно хотите отменить подписку?** нажмите кнопку **Да, отмена**.</span><span class="sxs-lookup"><span data-stu-id="715aa-138">In the **Are you sure you want to cancel your subscription?** dialog box, choose **Yes, cancel**.</span></span>
 
-## <a name="manage-your-payment-details"></a><span data-ttu-id="28ad4-139">Управление сведениями об оплате</span><span class="sxs-lookup"><span data-stu-id="28ad4-139">Manage your payment details</span></span>
+## <a name="manage-your-payment-details"></a><span data-ttu-id="715aa-139">Управление сведениями об оплате</span><span class="sxs-lookup"><span data-stu-id="715aa-139">Manage your payment details</span></span>
 
-1. <span data-ttu-id="28ad4-140">В центре администрирования **перейдите на** > страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Профили выставленных счетов</a> **& платежей платежей** > .</span><span class="sxs-lookup"><span data-stu-id="28ad4-140">In the admin center, go to the **Billing** > **Bills & payments** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> page.</span></span>
+1. <span data-ttu-id="715aa-140">В центре администрирования **перейдите на** > страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Профили выставленных счетов</a> **& платежей платежей** > .</span><span class="sxs-lookup"><span data-stu-id="715aa-140">In the admin center, go to the **Billing** > **Bills & payments** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-141">Выберите из списка профиль выставления счетов.</span><span class="sxs-lookup"><span data-stu-id="28ad4-141">Select a billing profile from the list.</span></span>
+2. <span data-ttu-id="715aa-141">Выберите из списка профиль выставления счетов.</span><span class="sxs-lookup"><span data-stu-id="715aa-141">Select a billing profile from the list.</span></span>
 
-3. <span data-ttu-id="28ad4-142">На странице "сведения профиля выставления счетов" в разделе **метод оплаты**выберите один из следующих параметров:</span><span class="sxs-lookup"><span data-stu-id="28ad4-142">On the billing profile details page, under **Payment method**, choose one of the following options:</span></span>
+3. <span data-ttu-id="715aa-142">На странице "сведения профиля выставления счетов" в разделе **метод оплаты**выберите один из следующих параметров:</span><span class="sxs-lookup"><span data-stu-id="715aa-142">On the billing profile details page, under **Payment method**, choose one of the following options:</span></span>
 
-    - <span data-ttu-id="28ad4-143">Если вы хотите обновить существующий метод оплаты, нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-143">If you want to update an existing payment method, select **Edit**.</span></span>
-    - <span data-ttu-id="28ad4-144">Если вы хотите добавить новый метод оплаты, нажмите **заменить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-144">If you want to add a new payment method, select **Replace**.</span></span>
+    - <span data-ttu-id="715aa-143">Если вы хотите обновить существующий метод оплаты, нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-143">If you want to update an existing payment method, select **Edit**.</span></span>
+    - <span data-ttu-id="715aa-144">Если вы хотите добавить новый метод оплаты, нажмите **заменить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-144">If you want to add a new payment method, select **Replace**.</span></span>
 
-4. <span data-ttu-id="28ad4-145">В правой области введите сведения о карточке, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-145">In the right pane, enter the card details, then choose **Save**.</span></span>
+4. <span data-ttu-id="715aa-145">В правой области введите сведения о карточке, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-145">In the right pane, enter the card details, then choose **Save**.</span></span>
 
-### <a name="update-an-existing-payment-method"></a><span data-ttu-id="28ad4-146">Обновление существующего метода оплаты</span><span class="sxs-lookup"><span data-stu-id="28ad4-146">Update an existing payment method</span></span>
+### <a name="update-an-existing-payment-method"></a><span data-ttu-id="715aa-146">Обновление существующего метода оплаты</span><span class="sxs-lookup"><span data-stu-id="715aa-146">Update an existing payment method</span></span>
 
-1. <span data-ttu-id="28ad4-147">В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .</span><span class="sxs-lookup"><span data-stu-id="28ad4-147">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills & payments</a> page.</span></span>
+1. <span data-ttu-id="715aa-147">В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .</span><span class="sxs-lookup"><span data-stu-id="715aa-147">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills & payments</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-148">Чтобы изменить существующий метод оплаты, выберите его в списке.</span><span class="sxs-lookup"><span data-stu-id="28ad4-148">To edit an existing payment method, choose it from the list.</span></span>
+2. <span data-ttu-id="715aa-148">Чтобы изменить существующий метод оплаты, выберите его в списке.</span><span class="sxs-lookup"><span data-stu-id="715aa-148">To edit an existing payment method, choose it from the list.</span></span>
 
-3. <span data-ttu-id="28ad4-149">В правой области нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-149">In the right pane, choose **Edit**.</span></span> <span data-ttu-id="28ad4-150">Вы можете изменить код безопасности, дату истечения срока действия, имя карточки и адрес.</span><span class="sxs-lookup"><span data-stu-id="28ad4-150">You can change the security code, expiration date, name on the card, and address.</span></span>
+3. <span data-ttu-id="715aa-149">В правой области нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-149">In the right pane, choose **Edit**.</span></span> <span data-ttu-id="715aa-150">Вы можете изменить код безопасности, дату истечения срока действия, имя карточки и адрес.</span><span class="sxs-lookup"><span data-stu-id="715aa-150">You can change the security code, expiration date, name on the card, and address.</span></span>
 
-4. <span data-ttu-id="28ad4-151">Внесите необходимые изменения и нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-151">Make any needed changes, then choose **Save**.</span></span>
+4. <span data-ttu-id="715aa-151">Внесите необходимые изменения и нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-151">Make any needed changes, then choose **Save**.</span></span>
 
-### <a name="add-a-new-payment-method"></a><span data-ttu-id="28ad4-152">Добавление нового метода оплаты</span><span class="sxs-lookup"><span data-stu-id="28ad4-152">Add a new payment method</span></span>
+### <a name="add-a-new-payment-method"></a><span data-ttu-id="715aa-152">Добавление нового метода оплаты</span><span class="sxs-lookup"><span data-stu-id="715aa-152">Add a new payment method</span></span>
 
-1. <span data-ttu-id="28ad4-153">В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .</span><span class="sxs-lookup"><span data-stu-id="28ad4-153">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills & payments</a> page.</span></span>
+1. <span data-ttu-id="715aa-153">В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .</span><span class="sxs-lookup"><span data-stu-id="715aa-153">In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills & payments</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-154">Нажмите кнопку **Добавить метод оплаты**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-154">Choose **Add a payment method**.</span></span>
+2. <span data-ttu-id="715aa-154">Нажмите кнопку **Добавить метод оплаты**.</span><span class="sxs-lookup"><span data-stu-id="715aa-154">Choose **Add a payment method**.</span></span>
 
-3. <span data-ttu-id="28ad4-155">В области **метод добавления оплаты** введите сведения о новом методе оплаты и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="28ad4-155">In the **Add a payment method** pane, enter the information for the new payment method, then choose **Add**.</span></span>
+3. <span data-ttu-id="715aa-155">В области **метод добавления оплаты** введите сведения о новом методе оплаты и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="715aa-155">In the **Add a payment method** pane, enter the information for the new payment method, then choose **Add**.</span></span>
 
-## <a name="view-your-invoices"></a><span data-ttu-id="28ad4-156">Просмотр накладных</span><span class="sxs-lookup"><span data-stu-id="28ad4-156">View your invoices</span></span>
+## <a name="view-your-invoices"></a><span data-ttu-id="715aa-156">Просмотр накладных</span><span class="sxs-lookup"><span data-stu-id="715aa-156">View your invoices</span></span>
 
-1. <span data-ttu-id="28ad4-157">В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .</span><span class="sxs-lookup"><span data-stu-id="28ad4-157">In the admin center, go to **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills & payments</a> page.</span></span>
+1. <span data-ttu-id="715aa-157">В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .</span><span class="sxs-lookup"><span data-stu-id="715aa-157">In the admin center, go to **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Bills & payments</a> page.</span></span>
 
-2. <span data-ttu-id="28ad4-158">В разделе **счета** выберите счет, который необходимо просмотреть.</span><span class="sxs-lookup"><span data-stu-id="28ad4-158">Under **Invoices** select the invoice that you want to view.</span></span>
+2. <span data-ttu-id="715aa-158">В разделе **счета** выберите счет, который необходимо просмотреть.</span><span class="sxs-lookup"><span data-stu-id="715aa-158">Under **Invoices** select the invoice that you want to view.</span></span>
 
-## <a name="need-help-contact-us"></a><span data-ttu-id="28ad4-159">Нужна помощь?</span><span class="sxs-lookup"><span data-stu-id="28ad4-159">Need help?</span></span> <span data-ttu-id="28ad4-160">Свяжитесь с нами.</span><span class="sxs-lookup"><span data-stu-id="28ad4-160">Contact us.</span></span>
+## <a name="need-help-contact-us"></a><span data-ttu-id="715aa-159">Нужна помощь?</span><span class="sxs-lookup"><span data-stu-id="715aa-159">Need help?</span></span> <span data-ttu-id="715aa-160">Свяжитесь с нами.</span><span class="sxs-lookup"><span data-stu-id="715aa-160">Contact us.</span></span>
 
-<span data-ttu-id="28ad4-161">Часто задаваемые вопросы об самостоятельных покупках можно найти в разделе [вопросы и ответы по самостоятельному](self-service-purchase-faq.md)обслуживанию.</span><span class="sxs-lookup"><span data-stu-id="28ad4-161">For common questions about self-service purchases, see [Self-service purchases FAQ](self-service-purchase-faq.md).</span></span>
+<span data-ttu-id="715aa-161">Часто задаваемые вопросы об самостоятельных покупках можно найти в разделе [вопросы и ответы по самостоятельному](self-service-purchase-faq.md)обслуживанию.</span><span class="sxs-lookup"><span data-stu-id="715aa-161">For common questions about self-service purchases, see [Self-service purchases FAQ](self-service-purchase-faq.md).</span></span>
 
-<span data-ttu-id="28ad4-162">Если у вас возникнут вопросы или вам нужна помощь по самостоятельным покупкам, [обратитесь в службу поддержки](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).</span><span class="sxs-lookup"><span data-stu-id="28ad4-162">If you have questions or need help with self-service purchases, [contact support](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).</span></span>
+<span data-ttu-id="715aa-162">Если у вас возникнут вопросы или вам нужна помощь по самостоятельным покупкам, [обратитесь в службу поддержки](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).</span><span class="sxs-lookup"><span data-stu-id="715aa-162">If you have questions or need help with self-service purchases, [contact support](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).</span></span>

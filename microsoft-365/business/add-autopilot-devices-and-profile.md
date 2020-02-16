@@ -1,5 +1,7 @@
 ---
 title: Добавление устройств и профиля AutoPilot с помощью пошагового мастера
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,70 +23,70 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса.
-ms.openlocfilehash: 5f40dac57285b83da57d4506bac58e562475522c
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: e5774b1e2079a5249e0f6e9e7142de19268253b5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323102"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068558"
 ---
-# <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a><span data-ttu-id="5befb-103">Добавление устройств и профиля AutoPilot с помощью пошагового мастера</span><span class="sxs-lookup"><span data-stu-id="5befb-103">Use the step-by-step guide to add Autopilot devices and profile</span></span>
+# <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a><span data-ttu-id="cfff5-103">Добавление устройств и профиля AutoPilot с помощью пошагового мастера</span><span class="sxs-lookup"><span data-stu-id="cfff5-103">Use the step-by-step guide to add Autopilot devices and profile</span></span>
 
-<span data-ttu-id="5befb-104">Вы можете использовать автопилот Windows для настройки **новых** устройств с Windows 10 для бизнеса, чтобы они были готовы к использованию при предоставлении их сотрудникам.</span><span class="sxs-lookup"><span data-stu-id="5befb-104">You can use Windows AutoPilot to set up **new** Windows 10 devices for your business so they're ready for use when you give them to your employees.</span></span>
+<span data-ttu-id="cfff5-104">Вы можете использовать автопилот Windows для настройки **новых** устройств с Windows 10 для бизнеса, чтобы они были готовы к использованию при предоставлении их сотрудникам.</span><span class="sxs-lookup"><span data-stu-id="cfff5-104">You can use Windows AutoPilot to set up **new** Windows 10 devices for your business so they're ready for use when you give them to your employees.</span></span>
   
-## <a name="device-requirements"></a><span data-ttu-id="5befb-105">Требования к устройству</span><span class="sxs-lookup"><span data-stu-id="5befb-105">Device requirements</span></span>
+## <a name="device-requirements"></a><span data-ttu-id="cfff5-105">Требования к устройству</span><span class="sxs-lookup"><span data-stu-id="cfff5-105">Device requirements</span></span>
 
-<span data-ttu-id="5befb-106">Устройства должны отвечать следующим требованиям:</span><span class="sxs-lookup"><span data-stu-id="5befb-106">Devices must meet these requirements:</span></span>
+<span data-ttu-id="cfff5-106">Устройства должны отвечать следующим требованиям:</span><span class="sxs-lookup"><span data-stu-id="cfff5-106">Devices must meet these requirements:</span></span>
   
-- <span data-ttu-id="5befb-107">Windows 10 версии 1703 или более поздней версии</span><span class="sxs-lookup"><span data-stu-id="5befb-107">Windows 10, version 1703 or later</span></span>
+- <span data-ttu-id="cfff5-107">Windows 10 версии 1703 или более поздней версии</span><span class="sxs-lookup"><span data-stu-id="cfff5-107">Windows 10, version 1703 or later</span></span>
     
-- <span data-ttu-id="5befb-108">Новые устройства, которые не прошли предварительный интерфейс Windows</span><span class="sxs-lookup"><span data-stu-id="5befb-108">New devices that haven't been through Windows out-of-box experience</span></span>
+- <span data-ttu-id="cfff5-108">Новые устройства, которые не прошли предварительный интерфейс Windows</span><span class="sxs-lookup"><span data-stu-id="cfff5-108">New devices that haven't been through Windows out-of-box experience</span></span>
     
-## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a><span data-ttu-id="5befb-109">Создание устройств и профилей с помощью мастера настройки</span><span class="sxs-lookup"><span data-stu-id="5befb-109">Use the setup guide to create devices and profiles</span></span>
+## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a><span data-ttu-id="cfff5-109">Создание устройств и профилей с помощью мастера настройки</span><span class="sxs-lookup"><span data-stu-id="cfff5-109">Use the setup guide to create devices and profiles</span></span>
 
-<span data-ttu-id="5befb-110">[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="5befb-110">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
+<span data-ttu-id="cfff5-110">[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span><span class="sxs-lookup"><span data-stu-id="cfff5-110">[![Label to let you know the admin center is changing and you can find more details at aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)</span></span>
 
-<span data-ttu-id="5befb-111">Если вы еще не создали группы устройств или профили, лучший способ начать работу с помощью пошагового руководства.</span><span class="sxs-lookup"><span data-stu-id="5befb-111">If you haven't created device groups or profiles yet, the best way to get started is by using the step-by-step guide.</span></span> <span data-ttu-id="5befb-112">Вы также можете [добавлять устройства](create-and-edit-autopilot-devices.md) и [назначать им профили](create-and-edit-autopilot-profiles.md) , не используя руководство.</span><span class="sxs-lookup"><span data-stu-id="5befb-112">You can also [add devices](create-and-edit-autopilot-devices.md) and [assign profiles](create-and-edit-autopilot-profiles.md) to them without using the guide.</span></span> 
+<span data-ttu-id="cfff5-111">Если вы еще не создали группы устройств или профили, лучший способ начать работу с помощью пошагового руководства.</span><span class="sxs-lookup"><span data-stu-id="cfff5-111">If you haven't created device groups or profiles yet, the best way to get started is by using the step-by-step guide.</span></span> <span data-ttu-id="cfff5-112">Вы также можете [добавлять устройства](create-and-edit-autopilot-devices.md) и [назначать им профили](create-and-edit-autopilot-profiles.md) , не используя руководство.</span><span class="sxs-lookup"><span data-stu-id="cfff5-112">You can also [add devices](create-and-edit-autopilot-devices.md) and [assign profiles](create-and-edit-autopilot-profiles.md) to them without using the guide.</span></span> 
   
-1. <span data-ttu-id="5befb-113">Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="5befb-113">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
+1. <span data-ttu-id="cfff5-113">Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span><span class="sxs-lookup"><span data-stu-id="cfff5-113">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span>
 
-2. <span data-ttu-id="5befb-114">В левой области навигации выберите **устройства** \> **автопилот**.</span><span class="sxs-lookup"><span data-stu-id="5befb-114">On the left navigation pane, choose **Devices** \> **AutoPilot**.</span></span>
+2. <span data-ttu-id="cfff5-114">В левой области навигации выберите **устройства** \> **автопилот**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-114">On the left navigation pane, choose **Devices** \> **AutoPilot**.</span></span>
 
-    ![В центре администрирования выберите устройства, а затем — автопилот.](media/AutoPilot.png)
+    ![В центре администрирования выберите устройства, а затем — автопилот.](../media/AutoPilot.png)
   
-2. <span data-ttu-id="5befb-116">На странице " **Автопилотный проект** " щелкните или нажмите **начать руководство**.</span><span class="sxs-lookup"><span data-stu-id="5befb-116">On the **AutoPilot** page, click or tap **Start guide**.</span></span>
+2. <span data-ttu-id="cfff5-116">На странице " **Автопилотный проект** " щелкните или нажмите **начать руководство**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-116">On the **AutoPilot** page, click or tap **Start guide**.</span></span>
     
-    ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
+    ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. <span data-ttu-id="5befb-118">На странице **upload. csv file in List of Devices (отправить. csv** ) перейдите к расположению, в котором у вас есть подготовленный. CSV-файл, а затем **откройте** \> **следующий**.</span><span class="sxs-lookup"><span data-stu-id="5befb-118">On the **Upload .csv file with list of devices** page, browse to a location where you have the prepared .CSV file, then **Open** \> **Next**.</span></span> <span data-ttu-id="5befb-119">Файл должен иметь три заголовка:</span><span class="sxs-lookup"><span data-stu-id="5befb-119">The file must have three headers:</span></span>
+3. <span data-ttu-id="cfff5-118">На странице **upload. csv file in List of Devices (отправить. csv** ) перейдите к расположению, в котором у вас есть подготовленный. CSV-файл, а затем **откройте** \> **следующий**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-118">On the **Upload .csv file with list of devices** page, browse to a location where you have the prepared .CSV file, then **Open** \> **Next**.</span></span> <span data-ttu-id="cfff5-119">Файл должен иметь три заголовка:</span><span class="sxs-lookup"><span data-stu-id="cfff5-119">The file must have three headers:</span></span>
     
-    - <span data-ttu-id="5befb-120">Столбец A: Device Serial Number (Серийный номер устройства)</span><span class="sxs-lookup"><span data-stu-id="5befb-120">Column A: Device Serial Number</span></span>
+    - <span data-ttu-id="cfff5-120">Столбец A: Device Serial Number (Серийный номер устройства)</span><span class="sxs-lookup"><span data-stu-id="cfff5-120">Column A: Device Serial Number</span></span>
     
-    - <span data-ttu-id="5befb-121">Столбец B: Windows Product ID (Идентификатор продукта Windows)</span><span class="sxs-lookup"><span data-stu-id="5befb-121">Column B: Windows Product ID</span></span>
+    - <span data-ttu-id="cfff5-121">Столбец B: Windows Product ID (Идентификатор продукта Windows)</span><span class="sxs-lookup"><span data-stu-id="cfff5-121">Column B: Windows Product ID</span></span>
     
-    - <span data-ttu-id="5befb-122">Столбец C: Hardware Hash (Хэш оборудования)</span><span class="sxs-lookup"><span data-stu-id="5befb-122">Column C: Hardware Hash</span></span>
+    - <span data-ttu-id="cfff5-122">Столбец C: Hardware Hash (Хэш оборудования)</span><span class="sxs-lookup"><span data-stu-id="cfff5-122">Column C: Hardware Hash</span></span>
     
-    <span data-ttu-id="5befb-123">Эту информацию можно получить у поставщика оборудования или с помощью [сценария PowerShell Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) , чтобы создать CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="5befb-123">You can get this information from your hardware vendor, or you can use the [Get-WindowsAutoPilotInfo PowerShell script](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) to generate a CSV file.</span></span> 
+    <span data-ttu-id="cfff5-123">Эту информацию можно получить у поставщика оборудования или с помощью [сценария PowerShell Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) , чтобы создать CSV-файл.</span><span class="sxs-lookup"><span data-stu-id="cfff5-123">You can get this information from your hardware vendor, or you can use the [Get-WindowsAutoPilotInfo PowerShell script](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) to generate a CSV file.</span></span> 
     
-    <span data-ttu-id="5befb-p103">Дополнительные сведения см. в статье [CSV-файл со списком устройств](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). Вы также можете скачать образец файла на странице **Отправка CSV-файла со списком устройств**.</span><span class="sxs-lookup"><span data-stu-id="5befb-p103">For more information, see [Device list CSV-file](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). You can also download a sample file on the **Upload .csv file with list of devices** page.</span></span> 
+    <span data-ttu-id="cfff5-p103">Дополнительные сведения см. в статье [CSV-файл со списком устройств](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). Вы также можете скачать образец файла на странице **Отправка CSV-файла со списком устройств**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-p103">For more information, see [Device list CSV-file](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). You can also download a sample file on the **Upload .csv file with list of devices** page.</span></span> 
     
-4. <span data-ttu-id="5befb-126">На странице **Назначение профиля** можно выбрать существующий профиль или создать новый.</span><span class="sxs-lookup"><span data-stu-id="5befb-126">On the **Assign a profile** page, you can either pick an existing profile or create a new one.</span></span> <span data-ttu-id="5befb-127">Если у вас еще нет, вам будет предложено создать его.</span><span class="sxs-lookup"><span data-stu-id="5befb-127">If you don't have one yet, you'll be prompted to create one.</span></span> 
+4. <span data-ttu-id="cfff5-126">На странице **Назначение профиля** можно выбрать существующий профиль или создать новый.</span><span class="sxs-lookup"><span data-stu-id="cfff5-126">On the **Assign a profile** page, you can either pick an existing profile or create a new one.</span></span> <span data-ttu-id="cfff5-127">Если у вас еще нет, вам будет предложено создать его.</span><span class="sxs-lookup"><span data-stu-id="cfff5-127">If you don't have one yet, you'll be prompted to create one.</span></span> 
     
-    <span data-ttu-id="5befb-128">Профиль  это совокупность настроек, которые можно применить к одному устройству или группе устройств.</span><span class="sxs-lookup"><span data-stu-id="5befb-128">A profile is a collection of settings that can be applied to a single device or to a group of devices.</span></span>
+    <span data-ttu-id="cfff5-128">Профиль  это совокупность настроек, которые можно применить к одному устройству или группе устройств.</span><span class="sxs-lookup"><span data-stu-id="cfff5-128">A profile is a collection of settings that can be applied to a single device or to a group of devices.</span></span>
     
-    <span data-ttu-id="5befb-129">Функции по умолчанию являются обязательными и устанавливаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="5befb-129">The default features are required and are set automatically.</span></span> <span data-ttu-id="5befb-130">К ним относятся следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="5befb-130">The default features are:</span></span>
+    <span data-ttu-id="cfff5-129">Функции по умолчанию являются обязательными и устанавливаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="cfff5-129">The default features are required and are set automatically.</span></span> <span data-ttu-id="cfff5-130">К ним относятся следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="cfff5-130">The default features are:</span></span>
     
-    - <span data-ttu-id="5befb-131">Пропускать регистрацию Кортаны, OneDrive и ИВТ.</span><span class="sxs-lookup"><span data-stu-id="5befb-131">Skip Cortana, OneDrive, and OEM registration.</span></span>
+    - <span data-ttu-id="cfff5-131">Пропускать регистрацию Кортаны, OneDrive и ИВТ.</span><span class="sxs-lookup"><span data-stu-id="cfff5-131">Skip Cortana, OneDrive, and OEM registration.</span></span>
     
-    - <span data-ttu-id="5befb-132">Создание интерфейса входа с использованием фирменной символики компании.</span><span class="sxs-lookup"><span data-stu-id="5befb-132">Create sign-in experience with your company brand.</span></span>
+    - <span data-ttu-id="cfff5-132">Создание интерфейса входа с использованием фирменной символики компании.</span><span class="sxs-lookup"><span data-stu-id="cfff5-132">Create sign-in experience with your company brand.</span></span>
     
-    - <span data-ttu-id="5befb-133">Подключите устройства к учетным записям Azure Active Directory и автоматически зарегистрируйте их для управления в Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="5befb-133">Connect your devices to Azure Active Directory accounts, and automatically enroll them to be managed by Microsoft 365 Business.</span></span>
+    - <span data-ttu-id="cfff5-133">Подключите устройства к учетным записям Azure Active Directory и автоматически зарегистрируйте их для управления в Microsoft 365 Business.</span><span class="sxs-lookup"><span data-stu-id="cfff5-133">Connect your devices to Azure Active Directory accounts, and automatically enroll them to be managed by Microsoft 365 Business.</span></span>
     
-    <span data-ttu-id="5befb-134">Для получения дополнительных сведений см раздел [сведения о параметрах профиля для автопилота](autopilot-profile-settings.md).</span><span class="sxs-lookup"><span data-stu-id="5befb-134">For more information, see [About AutoPilot Profile settings](autopilot-profile-settings.md).</span></span> 
+    <span data-ttu-id="cfff5-134">Для получения дополнительных сведений см раздел [сведения о параметрах профиля для автопилота](autopilot-profile-settings.md).</span><span class="sxs-lookup"><span data-stu-id="cfff5-134">For more information, see [About AutoPilot Profile settings](autopilot-profile-settings.md).</span></span> 
     
-5. <span data-ttu-id="5befb-135">Также доступны параметры **Пропустить параметры конфиденциальности** и **Не разрешать пользователю становиться локальным администратором**. По умолчанию они **отключены**.</span><span class="sxs-lookup"><span data-stu-id="5befb-135">The other settings are **Skip privacy settings** and **Don't allow user to become the local admin**. These are both set to **Off** by default.</span></span> 
+5. <span data-ttu-id="cfff5-135">Также доступны параметры **Пропустить параметры конфиденциальности** и **Не разрешать пользователю становиться локальным администратором**. По умолчанию они **отключены**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-135">The other settings are **Skip privacy settings** and **Don't allow user to become the local admin**. These are both set to **Off** by default.</span></span> 
     
-    <span data-ttu-id="5befb-136">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="5befb-136">Choose **Next**.</span></span>
+    <span data-ttu-id="cfff5-136">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-136">Choose **Next**.</span></span>
     
-6. <span data-ttu-id="5befb-137">**Это означает,** что профиль, созданный вами (или выбранным), будет применен к группе устройств, созданной при отправке списка устройств.</span><span class="sxs-lookup"><span data-stu-id="5befb-137">**You're done** indicates that the profile you created (or chose) will be applied to the device group you created by uploading the list of devices.</span></span> <span data-ttu-id="5befb-138">Параметры будут применяться при следующем входе пользователей устройства.</span><span class="sxs-lookup"><span data-stu-id="5befb-138">The settings will be in effect when the device users sign in next.</span></span> <span data-ttu-id="5befb-139">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="5befb-139">Choose **Close**.</span></span>
+6. <span data-ttu-id="cfff5-137">**Это означает,** что профиль, созданный вами (или выбранным), будет применен к группе устройств, созданной при отправке списка устройств.</span><span class="sxs-lookup"><span data-stu-id="cfff5-137">**You're done** indicates that the profile you created (or chose) will be applied to the device group you created by uploading the list of devices.</span></span> <span data-ttu-id="cfff5-138">Параметры будут применяться при следующем входе пользователей устройства.</span><span class="sxs-lookup"><span data-stu-id="cfff5-138">The settings will be in effect when the device users sign in next.</span></span> <span data-ttu-id="cfff5-139">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="cfff5-139">Choose **Close**.</span></span>
     
