@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: В связи с изменением бизнес-требований иногда может понадобиться разделить отдельную организацию Microsoft Exchange Online Protection (EOP) (клиент) на две отдельные организации, объединить две организации в одну или переместить домены и настройки EOP из одной организации в другую.
-ms.openlocfilehash: cfd83b8558ed4cec3a48b536437e0a0dbe75aeaa
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c7d5c7ddc8391c70a555279c530cc2bf19e66ca2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598776"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088336"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>Перемещение доменов и настроек из одной организации EOP в другую
 
@@ -28,7 +28,7 @@ ms.locfileid: "41598776"
 
 В следующем примере организация Contoso, Ltd. была объединена с организацией Contoso Suites. На изображении ниже показан процесс перемещения доменов, настроек, почтовых пользователей и групп из исходной организации EOP (contoso.onmicrosoft.com) в целевую (contososuites.onmicrosoft.com).
 
-![Перемещение доменов и параметров EOP](../media/EOP-Move-domains-and-settings.jpg)
+![Перемещение доменов и параметров EOP](../../media/EOP-Move-domains-and-settings.jpg)
 
 Проблема при перемещении доменов из одной организации в другую состоит в том, что проверенный домен не может существовать одновременно в двух организациях. Эту проблему можно решить, выполнив следующие шаги.
 

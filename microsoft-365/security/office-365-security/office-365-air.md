@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 9c17d7219e5dd15404b171fbd6707d00fd788f19
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d45141ce671a4615cb4fd550e36bc7215cd38d51
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598766"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088318"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Автоматическое изучение угроз и реагирование на них в Office 365
 
@@ -55,11 +55,11 @@ ms.locfileid: "41598766"
 
     Любой из способов переводит вас в список расследования.
 
-    ![Страница основного исследования для воздуха](../media/air-maininvestigationpage.png) 
+    ![Страница основного исследования для воздуха](../../media/air-maininvestigationpage.png) 
 
 3. В списке исследований выберите элемент в столбце **идентификатор** . Откроется страница "сведения о расследовании", начиная с диаграммы "исследование" в представлении.
 
-    ![Страница графа расследования воздуха](../media/air-investigationgraphpage.png)
+    ![Страница графа расследования воздуха](../../media/air-investigationgraphpage.png)
 
 4. Используйте различные вкладки, чтобы узнать больше о расследовании.
 
@@ -107,7 +107,7 @@ ms.locfileid: "41598766"
 
 Используйте следующие ресурсы для настройки:
 
-|Resource  |Описание  |
+|Ресурс  |Описание  |
 |---------|---------|
 |[Обзор API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)     |API действий управления Office 365 обеспечивает получение информации о различных действиях и событиях, касающихся пользователей, администраторов, систем и политик, из отчетов о действиях касательно Office 365 и Azure Active Directory.         |
 |[Начало работы с API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)     |API управления Office 365 использует Azure AD для предоставления служб проверки подлинности приложениям доступа к данным Office 365. Выполните действия, описанные в этой статье, чтобы настроить ее.          |

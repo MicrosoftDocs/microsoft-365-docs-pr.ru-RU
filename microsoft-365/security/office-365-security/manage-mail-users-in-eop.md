@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: "Определение почтовых пользователей \x97 важный этап управления службой Exchange Online Protection (EOP)."
-ms.openlocfilehash: 53d47452979c42273fd485fa89642eea881bb21a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088588"
 ---
 # <a name="manage-mail-users-in-eop"></a>Управление почтовыми пользователями в EOP
 
@@ -32,7 +32,7 @@ ms.locfileid: "41598986"
 > [!NOTE]
 > Вы можете добавлять пользователей в центре администрирования Microsoft 365, но эти пользователи не могут использоваться в качестве получателей почты.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>До начала работы
 
 - Чтобы открыть центр администрирования Exchange, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md).
 
@@ -108,7 +108,7 @@ ms.locfileid: "41598986"
 
 ### <a name="use-the-eac-to-edit-or-remove-a-mail-user"></a>Использование центра администрирования Exchange для изменения или удаления почтового пользователя
 
-- В Центре администрирования Exchange перейдите в раздел **Получатели** \> **Контакты**. В списке пользователей выберите пользователя, которого нужно просмотреть или изменить, а затем нажмите кнопку **изменить** ![значок](../media/ITPro-EAC-EditIcon.gif) редактирования, чтобы обновить параметры пользователя по мере необходимости. Вы можете изменить имя, псевдоним или контактные данные пользователя, а также записать подробные сведения о его роли в организации. Вы также можете выбрать пользователя и нажать кнопку **Удалить** ![значок](../media/ITPro-EAC-RemoveIcon.gif) удалить, чтобы удалить его.
+- В Центре администрирования Exchange перейдите в раздел **Получатели** \> **Контакты**. В списке пользователей выберите пользователя, которого нужно просмотреть или изменить, а затем нажмите кнопку **изменить** ![значок](../../media/ITPro-EAC-EditIcon.gif) редактирования, чтобы обновить параметры пользователя по мере необходимости. Вы можете изменить имя, псевдоним или контактные данные пользователя, а также записать подробные сведения о его роли в организации. Вы также можете выбрать пользователя и нажать кнопку **Удалить** ![значок](../../media/ITPro-EAC-RemoveIcon.gif) удалить, чтобы удалить его.
 
 ## <a name="use-exchange-online-protection-powershell-to-manage-mail-users"></a>Управление почтовыми пользователями с помощью PowerShell Exchange Online Protection
 

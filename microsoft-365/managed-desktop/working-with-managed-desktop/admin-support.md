@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: faa0e904ef2a07ccd209ef91630ce6fc8205e347
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bc6c0199c6ee019cbb032c288612d36a254ee7e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085717"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Поддержка администраторов для настольных компьютеров, управляемых Майкрософт
 
@@ -57,7 +57,7 @@ ms.locfileid: "40801201"
 
 После того как билет находится в состоянии **сниженного** или **разрешенного** , вы можете поделиться своим мнением об этой конкретной неполадке. Для этого перейдите на страницу " **запросы поддержки** " на портале администрирования. Выберите конкретный билет. Во всплывающем окне, которое отображается в правой части, выберите вкладку **обратная связь** и введите требуемые сведения. Следите за тем, чтобы не включать персональные данные в форму обратной связи. Более подробную информацию о конфиденциальности можно узнать в [заявлении о конфиденциальности Майкрософт](https://privacy.microsoft.com/privacystatement).
 
-![Форма обратной связи](images/feedback_form.png)
+![Форма обратной связи](../../media/feedback_form.png)
 
 ## <a name="provide-administrator-rights-to-specific-users"></a>Предоставление прав администратора определенным пользователям
 

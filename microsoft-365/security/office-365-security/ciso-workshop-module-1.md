@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: e90c26575db04afffd5e5c2722b75a1c7235523d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a527816ca701e2f2e9ab2e8d2b9b20cad1230a5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599926"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086568"
 ---
 # <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>Модуль семинара ЦИСО 1: Microsoft Циберсекурити Brief
 
 Этот модуль охватывает обзоры критически важных средств обеспечения безопасности санацией, эталонной архитектуры Microsoft циберсекурити, устойчивости циберсекурити, Интернет-вещей и эксплуатационной технической поддержки.
 
-- Загрузите документ PDF: [модуль 1: информационный Циберсекурити Майкрософт](../media/ciso-workshop-1-cybersecurity-briefing.pdf)
+- Загрузите документ PDF: [модуль 1: информационный Циберсекурити Майкрософт](../../media/ciso-workshop-1-cybersecurity-briefing.pdf)
 - Скачать сводку по PowerPoint: [модуль 1: информационный Циберсекурити Майкрософт](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-1-cybersecurity-briefing.pptx)
 
 ## <a name="part-1-course-introduction-and-overview-913"></a>Часть 1: введение и обзор курса (9:13)

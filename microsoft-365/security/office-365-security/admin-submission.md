@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как отправлять подозрительные сообщения электронной почты, подозреваемые фишинговые сообщения, нежелательные сообщения и другие потенциально опасные сообщения, URL-адреса и файлы из клиента Office 365 в корпорацию Майкрософт для сканирования.
-ms.openlocfilehash: a12981ee302ea72e112826104996fb775e4ac3fb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b123aef485628728df9db27875117b47295975ad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083645"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Как отправлять сообщения о нежелательной почте, фишинге, URL-адресах и файлах в корпорацию Майкрософт для сканирования Office 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "41599986"
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Отправка сомнительных сообщений электронной почты в корпорацию Майкрософт
 
-![Пример отправки электронной почты](../media/submission-flyout-email.PNG)
+![Пример отправки электронной почты](../../media/submission-flyout-email.PNG)
 
 1. Чтобы отправить сообщение электронной почты, выберите пункт **Электронная почта** и укажите идентификатор почтового **сообщения** или отправьте файл электронной почты.
 
@@ -51,7 +51,7 @@ ms.locfileid: "41599986"
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Отправка подозрительного URL-адреса корпорации Майкрософт
 
-![Пример отправки электронной почты](../media/submission-url-flyout.png)
+![Пример отправки электронной почты](../../media/submission-url-flyout.png)
 
 1. Чтобы добавить URL-адрес, выберите **URL-адрес** из всплывающего меню. Введите полный URL-адрес, включая протокол (**https://**).
 
@@ -61,7 +61,7 @@ ms.locfileid: "41599986"
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Передача подозреваемого файла в корпорацию Майкрософт
 
-![Пример отправки электронной почты](../media/submission-file-flyout.PNG)
+![Пример отправки электронной почты](../../media/submission-file-flyout.PNG)
 
 1. Чтобы отправить файл, выберите **файл** из всплывающего меню и отправьте файл, который требуется проверить.
 

@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Узнайте больше о принципах и рекомендациях по обеспечению безопасности модернизации в Организации.
-ms.openlocfilehash: 38f7a1af7592801a97fd8b5156dcbfaa1c5ebfdf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f187c00a7ce55bbcfe66171bbcc1668f431e3b25
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599686"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083518"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>Модуль ЦИСО Workshop 4b: стратегия защиты от угроз 
 
 Этот модуль просматривает развитие и тражектори в центрах безопасности Майкрософт (SOC) на базе триллионс сигналов в графе интеллектуальной безопасности Майкрософт.
 
-- Загрузка PDF-файла: [модуль 4b: стратегия защиты от угроз](../media/ciso-workshop-4b-threat-protection-strategy.pdf)
+- Загрузка PDF-файла: [модуль 4b: стратегия защиты от угроз](../../media/ciso-workshop-4b-threat-protection-strategy.pdf)
 - Загрузка сводки по PowerPoint: [модуль 4b: стратегия защиты от угроз](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-4b-threat-protection-strategy.pptx)
 
 ## <a name="introduction-threat-protection-strategy-detect-respond-recover-338"></a>Введение: стратегия защиты от угроз (обнаружение-ответ — восстановление) (3:38)
