@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 586b887c9c5c1e4c19623c89dd08ed62ba0d4bb2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: acc515d046b1ebd2ff7c5dd9c52b363fe99f0b9e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600346"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087475"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -53,7 +53,7 @@ DeviceProcessEvents
 
 Так это будет выглядеть в расширенной охоте.
 
-![Изображение запроса расширенной охоты в ATP в Microsoft Defender](../images/advanced-hunting-query-example.png)
+![Изображение запроса расширенной охоты в ATP в Microsoft Defender](../../media/advanced-hunting-query-example.png)
 
 Запрос начинается с короткого комментария, описывающего назначение запроса. Это будет полезным, если впоследствии вы решите сохранить свой запрос и поделиться им с другими пользователями в вашей организации.
 
@@ -130,7 +130,7 @@ DeviceProcessEvents
 
 Раздел **Начало работы** содержит несколько простых запросов, использующих часто используемые операторы. Попробуйте выполнить эти запросы и внести в них небольшие изменения.
 
-![Изображение окна расширенной охоты](../images/advanced-hunting-get-started.png)
+![Изображение окна расширенной охоты](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
 >Кроме примеров базовых запросов, вы можете получить доступ к [общим запросам](advanced-hunting-shared-queries.md) для определенных сценариев охоты на угрозы. Ознакомьтесь с общими запросами в левой части страницы репозитории запросов GitHub.

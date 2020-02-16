@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Сведения о функциях безопасности, входящих в состав Microsoft 365 Business.
-ms.openlocfilehash: 0e1823374ec1843b6caa3f080393ca013302bf72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e5f67d70c5a8f22e95b60a229d68ae12574d0036
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593432"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064816"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
 
@@ -35,7 +35,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Функции безопасности центра администрирования Microsoft 365 Business
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Вы можете управлять многими функциями Microsoft 365 Business Security в центре администрирования, что позволяет включать и отключать эти функции в упрощенном виде. В центре администрирования можно выполнить следующие действия:
   
@@ -63,7 +63,7 @@ Microsoft 365 Business предлагает упрощенные функции 
 
 Расширенные возможности Microsoft 365 Business помогут вам защитить бизнес от угроз кибератак и защищать конфиденциальные данные.
   
-- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
     Advanced Threat protection (ATP) помогает защитить бизнес от атак с помощью изощренных фишинговых и мошеннических атак, которые предназначены для взлома сведений о сотрудниках и клиентах. Поддерживаются перечисленные ниже возможности. 
     
@@ -123,6 +123,6 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 2. В левой панели навигации выберите **центр администрирования** и разверните его. 
     
-    ![В левой панели навигации центра администрирования Microsoft 365 выберите пункт центры администрирования.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
+    ![В левой панели навигации центра администрирования Microsoft 365 выберите пункт центры администрирования.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
 3. Выберите **соответствие &amp; требованиям безопасности** , чтобы перейти &amp; в центр соответствия требованиям безопасности.

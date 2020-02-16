@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте, как Microsoft 365 для кампаний влияет на ваших пользователей.
-ms.openlocfilehash: 7c510de861758da3da2c86a6804a58de6d4e8030
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a7ec8d6c9ffcf70071332027fde5d2aa182700d0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594760"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080514"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>Сведения о том, как Microsoft 365 для кампаний влияет на ваших пользователей
 
 Microsoft 365 для кампаний существенно затрудняет для хакеров доступ к вашей среде. Компромисс заключается в том, что пользователям необходимо знать, как работать в этой более безопасной среде. Мы понимаем, что требуется небольшое небольшое терпение, но стоит защитить вашу организацию.
 
-![Иллюстрация, которая суммирует ключевые моменты ниже для iPhone, устройств Android, Mac, Windows 10, совместного использования и ключевых сотрудников](media/M365-democracy-Users_700px.png)
+![Иллюстрация, которая суммирует ключевые моменты ниже для iPhone, устройств Android, Mac, Windows 10, совместного использования и ключевых сотрудников](../media/M365-democracy-Users_700px.png)
 
 ## <a name="use-secure-email-practices"></a>Использование рекомендаций по безопасной работе с электронной почтой
 Все пользователи должны знать и использовать эти способы защиты электронной почты, чтобы обеспечить их безопасность:

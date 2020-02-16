@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 258e116e2d51a5fde9f6e9c3273824994b9dcfa6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c72e340092bbd366277114a56aae7574d43dab5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596666"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085096"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "41596666"
 
 На следующей схеме показан набор рекомендуемых политик для защиты чата, групп и контента в Teams. Значок карандаша указывает, какие политики необходимо повторно посетить, чтобы убедиться в том, что Teams и зависимые службы включены в назначение облачных приложений.
 
-![Схема, в которой показано, как использовать Microsoft Teams на различных устройствах.](../images/identity-access-ruleset-teams.png)
+![Схема, в которой показано, как использовать Microsoft Teams на различных устройствах.](../media/identity-access-ruleset-teams.png)
 
 Ниже приведены зависимые службы, которые необходимо включить в назначение облачных приложений для teams:
 
@@ -76,7 +76,7 @@ ms.locfileid: "41596666"
 
 На приведенной ниже схеме показаны службы, на которые полагаются службы Teams. Для получения дополнительных сведений и дополнительных иллюстраций ознакомьтесь со статьей [Microsoft Teams и соответствующими службами производительности в microsoft 365 для ИТ архитекторов](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects).
 
-![Диаграмма, на которой показаны зависимости Teams в SharePoint Online, OneDrive для бизнеса и Exchange.](../images/identity-access-logical-architecture-teams.png)
+![Диаграмма, на которой показаны зависимости Teams в SharePoint Online, OneDrive для бизнеса и Exchange.](../media/identity-access-logical-architecture-teams.png)
 
 ## <a name="enabling-guest-and-external-access-for-teams"></a>Включение гостевого и внешнего доступа для Teams
 

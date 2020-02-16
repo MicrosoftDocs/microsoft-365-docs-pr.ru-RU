@@ -12,16 +12,16 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: a709971786dd85ff0f086c5c9d57c2d807391c65
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 72a355a524ff3dd56300566ff228b5ff5007c6cb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596626"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085546"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Этап 3. Windows 10 Корпоративная
 
-![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon.png)
+![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon.png)
 
 Microsoft 365 Enterprise включает Windows 10 Корпоративная, которая предоставляет вам инструменты для большей и надежной безопасности. Windows 10 Корпоративная:
 
@@ -80,10 +80,10 @@ Windows 10 предоставляет функции, помогающие за�
 
 Узнайте, как Корпорация Contoso, вымышленная, но предопределяющая многонациональная организация, [развернута Windows 10 Корпоративная](contoso-win10.md).
 
-![Корпорация Contoso](./media/contoso-overview/contoso-icon.png)
+![Корпорация Contoso](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|
-|![Шаг 1](./media/stepnumbers/Step1.png)| [Подготовка Организации к работе с Windows 10 Корпоративная](windows10-prepare-your-org.md) |
+|![Шаг 1](../media/stepnumbers/Step1.png)| [Подготовка Организации к работе с Windows 10 Корпоративная](windows10-prepare-your-org.md) |

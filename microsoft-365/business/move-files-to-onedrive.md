@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Сведения о перемещении файлов в OneDrive.
-ms.openlocfilehash: 0417325f93582ac5445cb739f9ca877a34f1d1c4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 85ff7ad2ecab3646eeb196a380f85983b1403f7a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593666"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065240"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 
@@ -44,9 +44,9 @@ ms.locfileid: "41593666"
   
 1. Перейдите на веб-сайт portal.office.com и войдите с учетными данными пользователя Office 365 бизнес.
     
-2. Откройте средство запуска приложений ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) и выберите OneDrive. 
+2. Откройте средство запуска приложений ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) и выберите OneDrive. 
     
-3. В строке меню выберите команду **Добавить**![Upload](media/d9b963b8-10af-42e2-953d-360301b83d3c.png), затем выберите файлы, которые хотите сохранить. 
+3. В строке меню выберите команду **Добавить**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png), затем выберите файлы, которые хотите сохранить. 
     
 Для передачи профиля пользователя и важных данных также можно использовать сторонние программы, например ForensiT. Итоговые файлы тоже нужно добавить в OneDrive для бизнеса.
   

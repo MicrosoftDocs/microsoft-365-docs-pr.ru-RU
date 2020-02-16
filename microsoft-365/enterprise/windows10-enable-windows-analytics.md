@@ -12,16 +12,16 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 964756a1fadba89f644a0d04c1d35d2945b78c6c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9a53759eafbedc6b48d2a6266b4b52777112941d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602876"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085568"
 ---
 # <a name="step-4-monitor-device-health-and-compliance"></a>Шаг 4. Отслеживание соответствия требованиям и работоспособности устройства
 
-![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Windows Analytics использует диагностические данные для предоставления обширных сведений о действиях, которые помогут вам получить подробные сведения о преимуществах эксплуатационной эффективности и работоспособности устройств с Windows 10 в вашей среде.
 
@@ -35,4 +35,4 @@ Windows Analytics использует диагностические данны
 
 |||
 |:-------|:-----|
-|![Шаг 5](./media/stepnumbers/Step5.png)| [Развертывание компонентов безопасности Windows 10 Корпоративная](windows10-enable-security-features.md) |
+|![Шаг 5](../media/stepnumbers/Step5.png)| [Развертывание компонентов безопасности Windows 10 Корпоративная](windows10-enable-security-features.md) |

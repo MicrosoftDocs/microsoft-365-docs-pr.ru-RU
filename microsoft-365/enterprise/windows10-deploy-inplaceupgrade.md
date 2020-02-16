@@ -12,18 +12,18 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 0078931be23039dac3a323f4747494803d1acd4d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ca5abb97628d04a9f29bb3a3fb9b43a578dbab74
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602856"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085588"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>Шаг 2: развертывание Windows 10 Корпоративная для существующих устройств в качестве обновления на месте
 
 *Эта статья относится как к корпоративным, так и к версиям Microsoft 365 для Microsoft*
 
-![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Самый простой путь обновления компьютеров под управлением Windows 7 или Windows 8,1 до Windows 10 заключается в обновлении на месте. Для полной автоматизации процесса можно использовать последовательность задач диспетчера конфигураций (Configuration Manager). 
 
@@ -35,7 +35,7 @@ ms.locfileid: "41602856"
 
 Афиша диспетчера конфигураций — одна страница в альбомном режиме (17x11). Щелкните изображение ниже, чтобы просмотреть документ PDF в браузере. 
 
-[![Развертывание Windows 10 с плакатом Configuration Manager](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://docs.microsoft.com/windows/deployment/media/Windows10DeploymentConfigManager.pdf)
+[![Развертывание Windows 10 с плакатом Configuration Manager](../media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://docs.microsoft.com/windows/deployment/media/Windows10DeploymentConfigManager.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) или [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx).
 
@@ -151,4 +151,4 @@ ms.locfileid: "41602856"
 
 |||
 |:-------|:-----|
-|![Шаг 3](./media/stepnumbers/Step3.png)| [Развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилот](windows10-deploy-autopilot.md) |
+|![Шаг 3](../media/stepnumbers/Step3.png)| [Развертывание Windows 10 Корпоративная для новых устройств с помощью Windows автопилот](windows10-deploy-autopilot.md) |
