@@ -1,5 +1,7 @@
 ---
 title: Руководство по переходу с Windows 7 на Windows 10 в ручном режиме
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Руководство по переходу с Windows 7 на Windows 10 в ручном режиме.
-ms.openlocfilehash: 13cdb56b52655ed81932601dd3ff97c90c1daad8
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: ea1705a91baf6b0526e87bcf04529ab2668aa439
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033684"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086156"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Пошаговое руководство по переходу с Windows 7 на Windows 10 в ручном режиме
 
@@ -28,7 +30,7 @@ ms.locfileid: "38033684"
 
 Вы можете сразу перейти на Windows 10 с помощью [средства создания мультимедиа](https://www.microsoft.com/software-download/windows10ISO) или использовать его, чтобы скачать Windows 10 в виде ISO-файла. Нужно учитывать архитектуру текущей системы (32- или 64-разрядная), язык системы по умолчанию и выпуск Windows 7 (например, Домашняя, Профессиональная или Корпоративная). В Windows 7 эта информация находится в разделе "Панель управления" \> "Система и безопасность" \> "Система". Средство создания мультимедиа не поддерживает Windows 10 Корпоративная для обновлений, создания установочного носителя или скачивания ISO-файлов. Если вы обновляетесь с Windows 7 Корпоративная, требуется Windows 10 Корпоративная.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
 
 При переходе с Windows 7 Корпоративная на Windows 10 Корпоративная вам потребуется скачать ISO-файл для своего языка и архитектуры (32- или 64-разрядной) с сайта [Volume Licensing Service Center](https://www.microsoft.com/licensing/servicecenter/default.aspx).
 
@@ -38,27 +40,27 @@ ms.locfileid: "38033684"
 
 **Важный совет. Для обновления на месте, при котором приложения и данные переносятся в Windows 10, необходимо запустить процесс из работающего сеанса Windows 7. Загрузка на установочный носитель с DVD-диска или USB-накопителя не позволит сохранить ваши приложения и файлы, а приведет к выполнению чистой установки Windows 10.**
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-2.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-2.png)
 
 В процессе установки Windows 10 вам будут предложены пошаговые инструкции по установке, а на первом экране будет предоставлена возможность скачать обновления, драйверы и дополнительные компоненты. Это рекомендуется для успешного обновления
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-3.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-3.png)
 
 После применения обновлений программа установки Windows 10 перейдет к следующему этапу, выбору образа. Вам потребуется выбрать выпуск Windows. В этом случае, так как на компьютере установлена операционная система Windows 7 Корпоративная, вы можете выбрать Windows 10 Корпоративная.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-4.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-4.png)
 
 На следующем экране программы установки Windows 10 отображаются применимые уведомления и условия лицензии. После прочтения и ознакомления с уведомлениями и условиями нажмите кнопку "Принять", чтобы продолжить, или "Отклонить", чтобы отменить процесс.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-5.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-5.png)
 
 Теперь программа установки Windows 10 выполняет поиск дополнительных обновлений.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-6.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-6.png)
 
 После завершения программа установки Windows 10 готова к установке и по умолчанию настроена на установку Windows 10 и сохранение личных файлов и установленных приложений. Рекомендуется использовать этот вариант. Щелкнув команду "Изменить выбранные для сохранения компоненты", вы увидите дополнительные параметры. В противном случае нажмите кнопку "Установить".
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-7.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-7.png)
 
 Если выбрать команду "Изменить выбранные для сохранения компоненты", отобразятся следующие варианты:
 
@@ -66,15 +68,15 @@ ms.locfileid: "38033684"
 
 Параметр "Ничего не сохранять" удаляет ваши файлы, приложения и настройки с выполнением чистой установки Windows. Используйте этот параметр только в том случае, если вы ранее выполнили резервное копирование данных, которые нужно сохранить, и можете переустановить приложения.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-8.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-8.png)
 
 Теперь программа установки Windows 10 снова получает обновления с учетом выбора на предыдущем экране.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-9.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-9.png)
 
 Теперь в течение нескольких минут будет выполняться установка Windows 10, и если вы решили сохранить личные файлы и приложения, все элементы будут находиться в тех же файловых расположениях, а ваши приложения будут доступны в Windows 10.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-10.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-10.png)
 
 ## 
 
@@ -84,27 +86,27 @@ ms.locfileid: "38033684"
 
 Чтобы запустить процесс возврата к Windows 7, перейдите в раздел "Параметры" \> "Обновление и безопасность" \> "Восстановление". В разделе "Вернуться к Windows 7" нажмите кнопку "Начать".
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-11.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-11.png)
 
 После этого Windows 10 спросит причину возврата. Если имеется техническая причина, рекомендуется указать ее, чтобы помочь в поиске решения и чтобы другие пользователи воспользовались вашим опытом.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-12.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-12.png)
 
 Во многих случаях для вашей версии Windows 10 выпускаются обновления, которые могут устранить технические проблемы. Рекомендуется проверять обновления, а после их обнаружения и установки следует проверить, устранены ли возникшие у вас проблемы.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-13.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-13.png)
 
 Если обновления не устраняют проблемы и вам нужно вернуться к предыдущей установке Windows 7, может потребоваться переустановить некоторые приложения, например любые приложения, установленные при работе с Windows 10, а некоторые настройки могут быть потеряны. Важно отметить, что файлы и документы, сохраненные локально при использовании Windows 10, сохранятся и будут доступны вам после возврата к Windows 7. 
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-14.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-14.png)
 
 Перед началом подготовьте локальную или доменную учетную запись с паролем от предыдущей установки Windows 7.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-15.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-15.png)
 
 Теперь можно начать процесс возврата к Windows 7. Через несколько минут ваш компьютер загрузится в Windows 7 с интерфейсом, предшествовавшим переходу на Windows 10.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-16.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-16.png)
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>Переход на Windows 10 на новом компьютере
 

@@ -1,5 +1,7 @@
 ---
 title: Синхронизация хэшей паролей для тестовой среды Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройте и продемонстрируйте синхронизацию хэшей паролей и вход для тестовой среды Microsoft 365.
-ms.openlocfilehash: ef08fcf59602d7812875015971d00a34526576d6
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: a0a498aea84bacb61de257150801328834724981
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202460"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066401"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Синхронизация хэшей паролей для тестовой среды Microsoft 365
 
@@ -29,7 +31,7 @@ ms.locfileid: "39202460"
 
 Во многих организациях используются Azure AD Connect и синхронизация хэша паролей в целях синхронизации набора учетных записей в своем локальном лесу доменных служб Active Directory (AD DS) с набором учетных записей в клиенте Azure AD для подписки на Microsoft 365 или Office 365. В этой статье описывается добавление синхронизации хэша паролей в тестовую среду Microsoft 365, в результате чего получается следующая конфигурация:
   
-![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![Тестовая среда смоделированной организации с синхронизацией хэша паролей](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
 Настройка этой тестовой среды состоит из двух следующих этапов:
   
@@ -37,13 +39,13 @@ ms.locfileid: "39202460"
 2. Установка и настройка Azure AD Connect на виртуальной машине APP1.
     
 > [!TIP]
-> Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>Этап 1. Создание тестовой среды "имитация предприятия" для Microsoft 365.
 
 Следуйте инструкциям в статье о [базовой конфигурации "имитация предприятия" для Microsoft 365](simulated-ent-base-configuration-microsoft-365-enterprise.md). Вот получившаяся конфигурация.
   
-![Базовая конфигурация "имитация предприятия"](media/password-hash-sync-m365-ent-test-environment/Phase1.png)
+![Базовая конфигурация "имитация предприятия"](../media/password-hash-sync-m365-ent-test-environment/Phase1.png)
   
 Конфигурация состоит из следующих компонентов: 
   
@@ -60,7 +62,7 @@ ms.locfileid: "39202460"
 
 Ниже показана итоговая конфигурация.
   
-![Регистрация доменного имени testlab](media/password-hash-sync-m365-ent-test-environment/Phase2.png)
+![Регистрация доменного имени testlab](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
   
 Конфигурация состоит из следующих компонентов:
 
@@ -127,7 +129,7 @@ ms.locfileid: "39202460"
 
 Ниже показана итоговая конфигурация.
 
-![Тестовая среда "имитация предприятия с синхронизацией хэшей паролей"](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![Тестовая среда "имитация предприятия с синхронизацией хэшей паролей"](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
 
 Конфигурация состоит из следующих компонентов: 
   

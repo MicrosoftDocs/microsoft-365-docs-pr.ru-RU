@@ -83,7 +83,7 @@ ms.locfileid: "42085976"
 
 Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember).
 
-### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
+### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что у пользователей есть доступ к центру безопасности & соответствия требованиям, используйте командлет **Get – RoleGroupMember** для просмотра членов в группе ролей Управление организацией, как показано в следующем примере.
 

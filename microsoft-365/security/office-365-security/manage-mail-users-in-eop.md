@@ -32,7 +32,7 @@ ms.locfileid: "42088588"
 > [!NOTE]
 > Вы можете добавлять пользователей в центре администрирования Microsoft 365, но эти пользователи не могут использоваться в качестве получателей почты.
 
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Чтобы открыть центр администрирования Exchange, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md).
 

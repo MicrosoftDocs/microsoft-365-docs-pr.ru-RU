@@ -1,5 +1,7 @@
 ---
 title: Начало работы. Развертывание компьютеров
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Знакомство с процессом развертывания компьютеров.
-ms.openlocfilehash: a9ad328f6a2548a24a981ee3b49665c3091277c9
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 62d18f23df55783c8b1f0c01f9f803a1d4bca0f0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112533"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067508"
 ---
 # <a name="getting-started---desktop-deployment"></a>Начало работы. Развертывание компьютеров
 
-![](media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
+![](../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
 <td><p><strong>Начало работы. Руководство по пользователям, процессу и технологии</strong></p>
 <p>Узнайте о преимуществах Windows 10 и Office 365 профессиональный плюс, значительных изменениях и рекомендациях по сравнению с предыдущими развертываниями, а также советах по обеспечению плавного перехода на Windows 10 и Office 365 профессиональный плюс.</p></td>
-<td><a href="https://aka.ms/ddev0" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -111,7 +113,7 @@ Windows 10 в сочетании с умным облаком Майкрософ
 
 **[Шаг 7: Windows и Office как услуга](https://aka.ms/mdd7) ** Этот шаг представляет важный сдвиг в том, как вы поддерживаете компьютерные ресурсы пользователей. Во время перехода на Windows 10 и Office 365 профессиональный плюс вы можете перейти к управлению Windows и Office как службой. Вместо масштабного перехода на новые технологии каждые несколько лет вы будет постоянно получать новые возможности, интерфейсы и средства защиты пользователей. Обновления один раз в полгода будут предоставлять новые возможности осенью и весной каждый год, а ежемесячные накопительные обновления с исправлениями будут содержать исправления проблем с безопасностью надежностью и прочих ошибок. Хотя вы можете отказаться от развертывания клиента Office 2019, мы настоятельно рекомендуем перейти на Office 365 профессиональный плюс. Он использует похожий план обслуживания для Windows, поэтому ваши пользователи будут получать обновления приложений Office на регулярной основе.
 
-![](media/getting-started-media/getting-started-media-2.png)
+![](../media/getting-started-media/getting-started-media-2.png)
 
 [Общие сведения о Windows как услуга](https://docs.microsoft.com/windows/deployment/update/waas-overview)
 [Общие сведения об Office как услуге](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)

@@ -1,6 +1,8 @@
 ---
 title: Базовая инфраструктура Microsoft 365 для предприятий для некорпоративных организаций
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/08/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Предлагаем упрощенную пошаговую инструкцию для базовой инфраструктуры Microsoft 365 для предприятий для некорпоративных организаций.
-ms.openlocfilehash: ce673222c08823c99c7e9851fced46a90a72b892
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2620b210c40d5c838cf1a4be4fcd67bf3de03d29
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068218"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Базовая инфраструктура Microsoft 365 для предприятий для некорпоративных организаций
 
@@ -55,7 +57,7 @@ ms.locfileid: "40802034"
 
 Вот наглядное сводное представление, на котором выделен элемент 1-го этапа. **У вашей организации** может быть несколько офисов, в каждом из которых используется локальное подключение к Интернету, при этом поставщик услуг Интернета использует локальный DNS-сервер для этого региона. Используя подключение к Интернету, пользователи в каждом офисе подключаются к ближайшему расположению сети Microsoft 365 и к ресурсам вашей подписки Microsoft 365.
 
-![Ваша организация после этапа "Сеть"](./media/deploy-foundation-infrastructure-non-enterprises/networking-config.png)
+![Ваша организация после этапа "Сеть"](../media/deploy-foundation-infrastructure-non-enterprises/networking-config.png)
 
 ## <a name="phase-2-identity"></a>Этап 2. Идентификация
 
@@ -150,30 +152,30 @@ Azure AD проверяет условия входа пользователей
 
 Вот наглядное представление этапа "Идентификация" для гибридной идентификации, на котором выделены существующие и новые элементы.
 
-![Ваша организация после этапа "Идентификация" для гибридной идентификации](./media/deploy-foundation-infrastructure-non-enterprises/identity-config.png)
+![Ваша организация после этапа "Идентификация" для гибридной идентификации](../media/deploy-foundation-infrastructure-non-enterprises/identity-config.png)
  
 Новые и выделенные элементы гибридной идентификации включают:
  
 |||
 |:------:|:-----|
-| ![Локальный домен AD DS с учетными записями пользователей и группами](./media/deploy-foundation-infrastructure-non-enterprises/identity-adds.png) | Локальный домен AD DS с учетными записями пользователей и группами. |
-| ![Сервер под управлением Windows, на котором запущено решение Azure AD Connect](./media/deploy-foundation-infrastructure-non-enterprises/identity-aadconnect.png) | Сервер под управлением Windows, на котором запущено решение Azure AD Connect. |
-| ![Синхронизированный набор учетных записей пользователей и групп AD DS в Azure AD](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts.png) | Синхронизированный набор учетных записей пользователей и групп AD DS в Azure AD. |
-| ![Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями. |
-| ![Политики условного доступа Azure AD](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Политики условного доступа Azure AD. |
+| ![Локальный домен AD DS с учетными записями пользователей и группами](../media/deploy-foundation-infrastructure-non-enterprises/identity-adds.png) | Локальный домен AD DS с учетными записями пользователей и группами. |
+| ![Сервер под управлением Windows, на котором запущено решение Azure AD Connect](../media/deploy-foundation-infrastructure-non-enterprises/identity-aadconnect.png) | Сервер под управлением Windows, на котором запущено решение Azure AD Connect. |
+| ![Синхронизированный набор учетных записей пользователей и групп AD DS в Azure AD](../media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts.png) | Синхронизированный набор учетных записей пользователей и групп AD DS в Azure AD. |
+| ![Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями](../media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями. |
+| ![Политики условного доступа Azure AD](../media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Политики условного доступа Azure AD. |
 |||
 
 Вот наглядное представление этапа "Идентификация" для облачной идентификации, на котором выделены новые элементы.
 
-![Ваша организация после этапа "Идентификация" для облачной идентификации](./media/deploy-foundation-infrastructure-non-enterprises/identity-config-cloud-only.png)
+![Ваша организация после этапа "Идентификация" для облачной идентификации](../media/deploy-foundation-infrastructure-non-enterprises/identity-config-cloud-only.png)
  
 Новые и выделенные элементы облачной идентификации включают:
  
 |||
 |:------:|:-----|
-| ![Учетные записи пользователей и группы в Azure AD](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts-cloud-only.png) | Учетные записи пользователей и группы в Azure AD. |
-| ![Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями. |
-| ![Политики условного доступа Azure AD](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Политики условного доступа Azure AD. |
+| ![Учетные записи пользователей и группы в Azure AD](../media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts-cloud-only.png) | Учетные записи пользователей и группы в Azure AD. |
+| ![Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями](../media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Параметры Azure AD для проверки подлинности, защиты глобальных учетных записей и более удобного управления группами и лицензиями. |
+| ![Политики условного доступа Azure AD](../media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Политики условного доступа Azure AD. |
 |||
 
 ## <a name="phase-3-windows-10-enterprise"></a>Этап 3. Windows 10 Корпоративная
@@ -201,14 +203,14 @@ Azure AD проверяет условия входа пользователей
 
 Вот наглядное представление этапа развертывания Windows 10 Корпоративная, на котором выделены новые элементы.
 
-![Ваша организация после этапа развертывания Windows 10 Корпоративная](./media/deploy-foundation-infrastructure-non-enterprises/win10-config.png)
+![Ваша организация после этапа развертывания Windows 10 Корпоративная](../media/deploy-foundation-infrastructure-non-enterprises/win10-config.png)
  
 Новые и выделенные элементы этапа "Windows 10 Корпоративная" включают:
 
 |||
 |:------:|:-----|
-| ![ОС Windows 10 Корпоративная установлена на устройствах](./media/deploy-foundation-infrastructure-non-enterprises/win10-device.png) | ОС Windows 10 Корпоративная установлена на устройствах с Windows, например, на локальном ноутбуке. |
-| ![Центр обслуживания корпоративного лицензирования](./media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Центр обслуживания корпоративного лицензирования предоставляет образы для новой установки Windows 10 Корпоративная; служба Центра обновления Windows для бизнеса предоставляет последние обновления. |
+| ![ОС Windows 10 Корпоративная установлена на устройствах](../media/deploy-foundation-infrastructure-non-enterprises/win10-device.png) | ОС Windows 10 Корпоративная установлена на устройствах с Windows, например, на локальном ноутбуке. |
+| ![Центр обслуживания корпоративного лицензирования](../media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Центр обслуживания корпоративного лицензирования предоставляет образы для новой установки Windows 10 Корпоративная; служба Центра обновления Windows для бизнеса предоставляет последние обновления. |
 |||
 
 ## <a name="phase-4-office-365-proplus"></a>Этап 4. Office 365 профессиональный плюс
@@ -225,14 +227,14 @@ Azure AD проверяет условия входа пользователей
 
 Вот наглядное представление этапа развертывания Office 365 профессиональный плюс, на котором выделены новые элементы.
 
-![Ваша организация после этапа развертывания Office 365 профессиональный плюс](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
+![Ваша организация после этапа развертывания Office 365 профессиональный плюс](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
  
 Новые и выделенные элементы этапа "Office 365 профессиональный плюс" включают:
  
 |||
 |:------:|:-----|
-| ![Пакет Office 365 профессиональный плюс установлен на устройствах](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | Пакет Office 365 профессиональный плюс установлен на устройствах, например, на локальном ноутбуке. |
-| ![Сеть доставки содержимого (CDN) Office для Office 365 профессиональный плюс](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | Устройства обращаются в сеть доставки содержимого Office (CDN) для Office 365 профессиональный плюс, чтобы получать обновления для Office 365 профессиональный плюс. |
+| ![Пакет Office 365 профессиональный плюс установлен на устройствах](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | Пакет Office 365 профессиональный плюс установлен на устройствах, например, на локальном ноутбуке. |
+| ![Сеть доставки содержимого (CDN) Office для Office 365 профессиональный плюс](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | Устройства обращаются в сеть доставки содержимого Office (CDN) для Office 365 профессиональный плюс, чтобы получать обновления для Office 365 профессиональный плюс. |
 |||
 
 ## <a name="phase-5-mobile-device-management"></a>Этап 5. Управление мобильными устройствами
@@ -264,14 +266,14 @@ Microsoft 365 для предприятий включает Microsoft Intune д
 
 Вот наглядное представление этапа "Управление мобильными устройствами", на котором выделены новые элементы.
 
-![Ваша организация после этапа "Управление мобильными устройствами"](./media/deploy-foundation-infrastructure-non-enterprises/mdm-config.png)
+![Ваша организация после этапа "Управление мобильными устройствами"](../media/deploy-foundation-infrastructure-non-enterprises/mdm-config.png)
  
 Новые и выделенные элементы этапа "Управление мобильными устройствами" включают:
 
 |||
 |:------:|:-----|
-| ![Устройства, зарегистрированные в Intune](./media/deploy-foundation-infrastructure-non-enterprises/mdm-device.png) | Устройства, зарегистрированные в Intune: в качестве примера показан локальный ноутбук под управлением Windows 10 Корпоративная. |
-| ![Политики Intune для обеспечения соответствия устройств и защиты приложений](./media/deploy-foundation-infrastructure-non-enterprises/mdm-policies.png) | Политики Intune для обеспечения соответствия устройств и защиты приложений. |
+| ![Устройства, зарегистрированные в Intune](../media/deploy-foundation-infrastructure-non-enterprises/mdm-device.png) | Устройства, зарегистрированные в Intune: в качестве примера показан локальный ноутбук под управлением Windows 10 Корпоративная. |
+| ![Политики Intune для обеспечения соответствия устройств и защиты приложений](../media/deploy-foundation-infrastructure-non-enterprises/mdm-policies.png) | Политики Intune для обеспечения соответствия устройств и защиты приложений. |
 |||
 
 ## <a name="phase-6-information-protection"></a>Этап 6. Защита данных
@@ -330,13 +332,13 @@ Microsoft 365 для предприятий включает Microsoft Intune д
 
 Вот наглядное представление этапа "Защита информации", на котором выделены новые элементы.
 
-![Ваша организация после этапа "Защита информации"](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-config.png)
+![Ваша организация после этапа "Защита информации"](../media/deploy-foundation-infrastructure-non-enterprises/info-protect-config.png)
  
 Новые и выделенные элементы этапа "Защита информации" включают:
  
 |||
 |:------:|:-----|
-| ![Метки конфиденциальности для трех уровней безопасности](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-labels.png) | Метки конфиденциальности для трех уровней безопасности, применяемых пользователями к документам и электронной почте. |
+| ![Метки конфиденциальности для трех уровней безопасности](../media/deploy-foundation-infrastructure-non-enterprises/info-protect-labels.png) | Метки конфиденциальности для трех уровней безопасности, применяемых пользователями к документам и электронной почте. |
 |||
 
 Пользовательские типы данных и метки хранения не показаны.
@@ -412,11 +414,11 @@ Microsoft 365 для предприятий включает Microsoft Intune д
 
 Вот наглядное сводное представление инфраструктуры, если в организации используется гибридная идентификация, включающая ваш домен AD DS, сервер Azure AD Connect и синхронизированных пользователей и группы AD DS.
 
-![Сводное представление инфраструктуры, если организация использует гибридную идентификацию](./media/deploy-foundation-infrastructure-non-enterprises/final-hybrid-config.png)
+![Сводное представление инфраструктуры, если организация использует гибридную идентификацию](../media/deploy-foundation-infrastructure-non-enterprises/final-hybrid-config.png)
  
 Вот наглядное сводное представление инфраструктуры, если организация использует только облачную идентификацию.
  
-![Сводное представление инфраструктуры, если организация использует только облачную идентификацию](./media/deploy-foundation-infrastructure-non-enterprises/final-cloud-only-config.png)
+![Сводное представление инфраструктуры, если организация использует только облачную идентификацию](../media/deploy-foundation-infrastructure-non-enterprises/final-cloud-only-config.png)
 
 ### <a name="employee-results"></a>Результаты для сотрудников
 

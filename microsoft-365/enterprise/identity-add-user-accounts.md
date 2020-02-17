@@ -1,5 +1,7 @@
 ---
 title: Шаг 4. Добавление учетных записей пользователей
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Добавляйте учетные записи пользователей и группы непосредственно в облаке или с помощью синхронизации с локальным каталогом.
-ms.openlocfilehash: 04564d86031642276e964f3a70fa2729f6b16c00
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 324d4662f868a4a92693b43c6bc0f75c11f20519
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801844"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067383"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Шаг 4. Добавление учетных записей пользователей
 
-![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-cloud-only"></a>
 ## <a name="create-your-user-accounts-for-cloud-only-identity"></a>Создание учетных записей пользователей, если используется только облачная идентификация
@@ -42,7 +44,7 @@ ms.locfileid: "40801844"
 
 Azure AD Connect — это поддерживаемое корпорацией Майкрософт средство, с помощью которого вы сможете синхронизировать только те удостоверения, которые вам действительно нужны, из сред AD DS с одним или несколькими лесами в свой клиент Azure AD. На рисунке ниже показан базовый процесс для синхронизации Azure AD Connect.
 
-![Сведения о том, как Azure AD Connect синхронизирует локальный каталог с Azure AD](./media/identity-add-user-accounts/azure-ad-connect.png)
+![Сведения о том, как Azure AD Connect синхронизирует локальный каталог с Azure AD](../media/identity-add-user-accounts/azure-ad-connect.png)
 
 1. Средство Azure AD Connect, запущенное на сервере, опрашивает службы AD DS на наличие изменений в учетных записях, группах и контактах.
 2. Azure AD Connect отправляет эти изменения в клиент Azure AD вашей подписки на Microsoft 365.
@@ -74,7 +76,7 @@ Azure AD Connect — это поддерживаемое корпорацией
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: синхронизация хэшей паролей](password-hash-sync-m365-ent-test-environment.md)<br> [Руководство по лаборатории тестирования: сквозная проверка подлинности](pass-through-auth-m365-ent-test-environment.md) |
+|![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: синхронизация хэшей паролей](password-hash-sync-m365-ent-test-environment.md)<br> [Руководство по лаборатории тестирования: сквозная проверка подлинности](pass-through-auth-m365-ent-test-environment.md) |
 |||
 
 Прежде чем перейти к следующему шагу, проверьте [условия](identity-exit-criteria.md#crit-identity-sync), при выполнении которых можно считать данный раздел завершенным.
@@ -86,7 +88,7 @@ Azure AD Connect — это поддерживаемое корпорацией
 
 В этом разделе вы установите агент Azure AD Connect Health на все свои локальные контроллеры доменов AD DS, чтобы отслеживать инфраструктуру идентификации и службы синхронизации, предоставляемые Azure AD Connect. Сведения, полученные в результате отслеживания, доступны на портале Azure AD Connect Health. Там вы можете просматривать оповещения, результаты отслеживания производительности, аналитические данные об использовании и прочие сведения.
 
-![Компоненты Azure AD Connect Health](./media/identity-add-user-accounts/identity-azure-ad-connect-health.png)
+![Компоненты Azure AD Connect Health](../media/identity-add-user-accounts/identity-azure-ad-connect-health.png)
 
 Ключевое решение о способе использования Azure AD Connect Health зависит от способа, которым вы используете Azure AD Connect.
 
@@ -119,11 +121,11 @@ Azure AD Connect — это поддерживаемое корпорацией
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство для лаборатории тестирования: обратная запись пароля](password-writeback-m365-ent-test-environment.md) |
+|![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство для лаборатории тестирования: обратная запись пароля](password-writeback-m365-ent-test-environment.md) |
 |||
 
 Промежуточной контрольной точкой в данном разделе служат [критерии выхода](identity-exit-criteria.md#crit-identity-pw-writeback).
 
 |||
 |:-------|:-----|
-|![Шаг 5](./media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |
+|![Шаг 5](../media/stepnumbers/Step5.png)| [Управление с помощью групп](identity-use-group-management.md) |

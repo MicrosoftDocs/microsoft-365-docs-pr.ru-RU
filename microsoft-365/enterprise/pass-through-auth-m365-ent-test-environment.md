@@ -1,5 +1,7 @@
 ---
 title: Сквозная проверка подлинности для тестовой среды Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка сквозной проверки подлинности для тестовой среды Microsoft 365
-ms.openlocfilehash: ed21007932b455c4f24af83434af75d44e583574
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 4f9941b017f00b40a6ae7e893211131cae51c611
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202320"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066430"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Сквозная проверка подлинности для тестовой среды Microsoft 365
 
@@ -29,23 +31,23 @@ ms.locfileid: "39202320"
 
 Организации, которые хотят напрямую использовать свою локальную инфраструктуру доменных служб Active Directory (AD DS) при проверке подлинности для приложений и облачных служб Майкрософт, могут использовать сквозную проверку подлинности. В этой статье описывается, как можно настроить тестовую среду Microsoft 365 для сквозной проверки подлинности с созданием следующей конфигурации:
   
-![Смоделированная организация с тестовой средой сквозной проверки подлинности](media/pass-through-auth-m365-ent-test-environment/Phase2.png)
+![Смоделированная организация с тестовой средой сквозной проверки подлинности](../media/pass-through-auth-m365-ent-test-environment/Phase2.png)
   
 Процесс настройки этой тестовой среды состоит из двух указанных ниже основных этапов.
 
 1.  Создание тестовой среды смоделированной организации Microsoft 365 с синхронизацией хэша паролей.
 2.  Настройка Azure AD Connect на виртуальной машине APP1 для сквозной проверки подлинности.
     
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
+![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
 Следуйте инструкциям в статье [Синхронизация хэша паролей для Microsoft 365](password-hash-sync-m365-ent-test-environment.md). Ниже показана итоговая конфигурация.
   
-![Тестовая среда смоделированной организации с синхронизацией хэша паролей](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
+![Тестовая среда смоделированной организации с синхронизацией хэша паролей](../media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
 Конфигурация состоит из следующих компонентов: 
   
@@ -88,7 +90,7 @@ ms.locfileid: "39202320"
 
 Ниже показана итоговая конфигурация.
 
-![Смоделированная организации с тестовой средой сквозной проверки подлинности](media/pass-through-auth-m365-ent-test-environment/Phase2.png)
+![Смоделированная организации с тестовой средой сквозной проверки подлинности](../media/pass-through-auth-m365-ent-test-environment/Phase2.png)
  
 Конфигурация состоит из следующих компонентов:
 

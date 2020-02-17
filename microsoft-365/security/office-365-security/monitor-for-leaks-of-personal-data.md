@@ -18,18 +18,18 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте о трех средствах, которые можно использовать для отслеживания утечек персональных данных.
-ms.openlocfilehash: fbdae1222a8969b5f7bdd928e7baadfda70bb937
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 617f0fde0e4b15a014658ba0fc3cf2def4b88d81
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598796"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088412"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>Отслеживание утечек персональных данных
 
 Для отслеживания использования и транспортировки персональных данных можно использовать ряд средств. В этой статье описаны три популярных средства.
 
-![Средства для отслеживания использования и транспортировки персональных данных](../media/Monitor-for-leaks-of-personal-data-image1.png)
+![Средства для отслеживания использования и транспортировки персональных данных](../../media/Monitor-for-leaks-of-personal-data-image1.png)
 
 На этом рисунке:
 
@@ -63,7 +63,7 @@ ms.locfileid: "41598796"
 
 Дополнительные сведения см. в статье [Просмотр отчетов о защите от потери данных](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports).
 
-![Отчет, в котором показаны совпадения по политике защиты от потери данных](../media/Monitor-for-leaks-of-personal-data-image2.png)
+![Отчет, в котором показаны совпадения по политике защиты от потери данных](../../media/Monitor-for-leaks-of-personal-data-image2.png)
 
 ## <a name="office-365-audit-log-and-alert-policies"></a>Журнал аудита Office 365 и политики оповещений
 
@@ -105,7 +105,7 @@ Microsoft Cloud App Security — это полнофункциональная 
 
 Например, на рисунке ниже приведены две политики Cloud App Security, которые помогут обеспечить соответствие требованиям регламента GDPR.
 
-![Примеры политик Cloud App Security](../media/Monitor-for-leaks-of-personal-data-image3.png)
+![Примеры политик Cloud App Security](../../media/Monitor-for-leaks-of-personal-data-image3.png)
 
 Первая политика оповещает вас о предоставлении общего доступа к предопределенному атрибуту личных сведений или выбранному вами настраиваемому выражению за пределами организации из указанных приложений SaaS.
 
@@ -123,7 +123,7 @@ Microsoft Cloud App Security — это полнофункциональная 
 
 Примечание. Обязательно установите флажок "Автоматически сканировать файлы на наличие меток классификации Azure Information Protection" (в общих параметрах), прежде чем приступить к работе с Cloud App Security или назначить метки. После настройки Cloud App Security выполняет повторное сканирование имеющихся файлов только после их изменения.
 
-![Панель мониторинга со сведениями об оповещениях](../media/Monitor-for-leaks-of-personal-data-image4.png)
+![Панель мониторинга со сведениями об оповещениях](../../media/Monitor-for-leaks-of-personal-data-image4.png)
 
 Дополнительные сведения:
 

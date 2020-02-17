@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сводка. Сведения о создании и настройке сайтов группы в SharePoint Online для применения различных уровней защиты информации.
-ms.openlocfilehash: 1f67dd1956059162902aefdb194e5e514d063778
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 1827c4a19cfd31a236dfbd58e454c610cae14477
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855258"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075541"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Развертывание сайтов SharePoint Online с тремя уровнями защиты
 
@@ -41,7 +41,7 @@ ms.locfileid: "41855258"
 
 Ниже показана итоговая конфигурация.
   
-![Базовый уровень защиты для общедоступного сайта группы SharePoint Online.](media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
+![Базовый уровень защиты для общедоступного сайта группы SharePoint Online.](../media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
   
 ### <a name="private"></a>Личные сведения
 
@@ -49,7 +49,7 @@ ms.locfileid: "41855258"
   
 Ниже показана итоговая конфигурация.
   
-![Базовый уровень защиты для закрытого сайта группы SharePoint Online.](media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
+![Базовый уровень защиты для закрытого сайта группы SharePoint Online.](../media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
   
 ## <a name="sensitive-sharepoint-online-team-sites"></a>Конфиденциальные сайты группы SharePoint Online
 
@@ -70,7 +70,7 @@ ms.locfileid: "41855258"
 
 Ниже показана полученная в итоге конфигурация.
   
-![Уровень защиты для конфиденциальных данных в случае изолированного сайта группы SharePoint Online.](media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
+![Уровень защиты для конфиденциальных данных в случае изолированного сайта группы SharePoint Online.](../media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
   
 Благодаря членству в одной из групп доступа участники сайта теперь могут безопасно работать с ресурсами сайта.
   
@@ -94,7 +94,7 @@ ms.locfileid: "41855258"
 
 Ниже показана полученная в итоге конфигурация.
   
-![Уровень защиты строго конфиденциальных данных для изолированного сайта группы SharePoint Online.](media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
+![Уровень защиты строго конфиденциальных данных для изолированного сайта группы SharePoint Online.](../media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
   
 Благодаря членству в одной из групп доступа участники сайта теперь могут безопасно работать с ресурсами сайта.
   

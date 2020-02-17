@@ -21,12 +21,13 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: Сводка. Рекомендации по настройке для защиты файлов в SharePoint Online и Office 365.
-ms.openlocfilehash: 29bd8ade5f32a2ba7e810d587d731d5036a372b6
-ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 542cf1c899b0eee21b458cd8e9dd5fb8363cf1e9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41830993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082306"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>Защита сайтов и файлов SharePoint Online
 
@@ -50,7 +51,7 @@ ms.locfileid: "41830993"
 
 Рекомендации для сайтов групп SharePoint Online опираются на различные возможности Microsoft 365. Ниже проиллюстрированы рекомендуемые конфигурации для четырех сайтов групп SharePoint Online.
 
-![Рекомендованная конфигурация для сайтов SharePoint](../media/SharePoint-site-configurations.png)
+![Рекомендованная конфигурация для сайтов SharePoint](../../media/SharePoint-site-configurations.png)
 
 Как следует из приведенной иллюстрации:
 
@@ -140,7 +141,7 @@ ms.locfileid: "41830993"
 
 - Пользователи в организации могут вручную применять метки к содержимому в Outlook 2010 и более поздних версий, Outlook в Интернете, OneDrive для бизнеса, SharePoint Online и группах Office 365. Пользователи часто знают лучше других, с каким содержимым они работают, поэтому могут классифицировать его и применять соответствующие политики защиты от потери данных.
 
-![Рекомендованная конфигурация для сайтов SharePoint](../media/7fed0126-ab4a-4480-922c-681970642339.png)
+![Рекомендованная конфигурация для сайтов SharePoint](../../media/7fed0126-ab4a-4480-922c-681970642339.png)
 
 Как показано на иллюстрации, это решение включает создание следующих меток хранения:
 

@@ -1,6 +1,8 @@
 ---
 title: Управление мобильными устройствами для Contoso
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Общие сведения о том, как Contoso использует Microsoft Intune в Microsoft 365 корпоративный для управления устройствами и работающими на них приложениями.
-ms.openlocfilehash: c486c9ef338ab1bd8959266183da6b79d62b3311
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 7232c89cc105525cc57facd5a1b9de06426adbca
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068374"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Управление мобильными устройствами для Contoso
 
@@ -65,7 +67,7 @@ Intune не используется в Contoso для следующего:
 
 Ниже приведена архитектура развертывания управления мобильными устройствами Contoso.
 
-![Инфраструктура развертывания управления мобильными устройствами Contoso](./media/contoso-mdm/contoso-mdm-fig1.png)
+![Инфраструктура развертывания управления мобильными устройствами Contoso](../media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>Следующий шаг
 

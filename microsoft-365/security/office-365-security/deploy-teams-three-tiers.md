@@ -1,5 +1,7 @@
 ---
 title: Развертывание команд с тремя уровнями защиты файлов
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сведения о создании и настройке команд с помощью Microsoft Teams для применения различных уровней защиты информации, содержащейся в файлах.
-ms.openlocfilehash: 3b90a1b084f7cd7e56d1d6448d74a7d2c2469a4d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971827"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083354"
 ---
 # <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a>Развертывание команд с тремя уровнями защиты файлов
 
@@ -38,7 +40,7 @@ ms.locfileid: "39971827"
 
 Ниже показана итоговая конфигурация.
 
-![Базовый уровень защиты для общедоступной команды.](../media/baseline-public-team.png)
+![Базовый уровень защиты для общедоступной команды.](../../media/baseline-public-team.png)
 
 ### <a name="private"></a>Личные сведения
 
@@ -46,7 +48,7 @@ ms.locfileid: "39971827"
 
 Ниже показана итоговая конфигурация.
 
-![Базовый уровень защиты для закрытой команды.](../media/baseline-private-team.png)
+![Базовый уровень защиты для закрытой команды.](../../media/baseline-private-team.png)
 
 ## <a name="sensitive-teams"></a>Конфиденциальные команды
 
@@ -66,7 +68,7 @@ ms.locfileid: "39971827"
 
 Ниже показана итоговая конфигурация.
 
-![Конфиденциальный уровень защиты для команды.](../media/sensitive-team.png)
+![Конфиденциальный уровень защиты для команды.](../../media/sensitive-team.png)
 
 ## <a name="highly-confidential-teams"></a>Строго конфиденциальные команды
 
@@ -88,7 +90,7 @@ ms.locfileid: "39971827"
 
 Ниже показана итоговая конфигурация.
 
-![Строго конфиденциальный уровень защиты для команды.](../media/highly-confidential-team.png)
+![Строго конфиденциальный уровень защиты для команды.](../../media/highly-confidential-team.png)
 
 ## <a name="next-step"></a>Дальнейшие действия
 

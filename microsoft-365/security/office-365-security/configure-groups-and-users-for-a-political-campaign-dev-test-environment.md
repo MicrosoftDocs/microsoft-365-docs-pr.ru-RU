@@ -1,5 +1,7 @@
 ---
 title: Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
-ms.openlocfilehash: a5bce86ef7bce79d58628b78d95e02484051c389
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971847"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083488"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -185,11 +187,11 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 Запишите эти значения для работы с пробными подписками Office 365 и EMS для этой среды разработки и тестирования:
 
-- Название вашей организации: ![Подчеркнутый](../media/Common-Images/TableLine.png)
+- Название вашей организации: ![Подчеркнутый](../../media/Common-Images/TableLine.png)
 
   Например, для доменного имени contoso.onmicrosoft.com название организации — "contoso".
 
-- Имя глобального администратора Office 365: ![Подчеркнутый](../media/Common-Images/TableLine.png).onmicrosoft.com
+- Имя глобального администратора Office 365: ![Подчеркнутый](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   Запишите пароль для этой учетной записи и общий первоначальный пароль для других учетных записей пользователей в надежном месте.
 

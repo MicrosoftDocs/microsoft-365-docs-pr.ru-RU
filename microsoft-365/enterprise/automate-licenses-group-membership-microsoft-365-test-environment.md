@@ -95,7 +95,7 @@ ms.locfileid: "42068506"
 - [Настройка автоматического лицензирования](identity-use-group-management.md#identity-group-license)
 - [Настройка динамического членства в группах](identity-use-group-management.md#identity-dyn-groups)
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

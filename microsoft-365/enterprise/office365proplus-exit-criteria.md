@@ -1,5 +1,7 @@
 ---
 title: Условия, при выполнении которых можно считать развертывание Office 365 профессиональный плюс завершенным
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для инфраструктуры Office 365 профессиональный плюс.
-ms.openlocfilehash: 749d9661911bd6b69a3d6abff0b54e9ea1200adc
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: 2f19de8c40c95f27e3b7578d384db39d5feb57e0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066496"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Условия, при выполнении которых можно считать развертывание Office 365 профессиональный плюс завершенным
 
-![Этап 4. Office 365 профессиональный плюс](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)
+![Этап 4. Office 365 профессиональный плюс](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)
 
 *Этот этап применяется к планам E3 и E5 Microsoft 365 корпоративный и Microsoft 365 для образования.*
 
@@ -60,4 +62,4 @@ ms.locfileid: "37746585"
 
 |||
 |:-------|:-----|
-|![Этап 5. Управление мобильными устройствами](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап — [управление мобильными устройствами](mobility-infrastructure.md). |
+|![Этап 5. Управление мобильными устройствами](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап — [управление мобильными устройствами](mobility-infrastructure.md). |

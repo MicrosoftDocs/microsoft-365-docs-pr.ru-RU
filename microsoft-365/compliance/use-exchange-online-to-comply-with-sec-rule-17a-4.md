@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Компания Cohasset Associates убедилась, что при рекомендованной настройке Exchange Online и Центра безопасности и соответствия требованиям соблюдаются соответствующие требования к хранилищам согласно правилу CFTC 1.31 (пункты c и d), правилу FINRA 4511 и правилу SEC 17a-4. Вы можете скачать данную оценку.
-ms.openlocfilehash: dc61521043d176781c2a6fbd9e1b283cc93eb270
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: d2f92f97ba15bcce9466e8886198c7502c41732b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069264"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
 
@@ -36,7 +36,7 @@ ms.locfileid: "41628595"
 
 Вы можете скачать оценку Cohasset [здесь](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers).
 
-![Титульная страница доступной для загрузки оценки Cohasset Associates](media/cohasset-associates-assessment.png)
+![Титульная страница доступной для загрузки оценки Cohasset Associates](../media/cohasset-associates-assessment.png)
 
 ## <a name="this-assessment-is-specific-to-exchange-online"></a>Эта оценка относится к Exchange Online
 
