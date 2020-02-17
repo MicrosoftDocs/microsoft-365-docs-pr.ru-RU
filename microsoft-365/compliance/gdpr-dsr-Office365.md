@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4e5ee52f9158df64e80f057adcfbf49c45f6dc31
-ms.sourcegitcommit: d4941dd0b598fb315e2c87083246ec3b26bbc032
+ms.openlocfilehash: c7b945ea464cbb18ae19eaa9f9e4a8df0313b0c6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41779034"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073777"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Office 365., определенные в GDPR и CCPA
 
@@ -100,14 +100,14 @@ ms.locfileid: "41779034"
 
 | | |
 | :---: | :---:|
-![Значок календаря](media/O365-DSR-Doc-Final_image3.png) <br> Календарь | ![Значок SharePoint](media/o365-sharepoint-64x64.png) <br> SharePoint  |
-| ![Значок Excel](media/o365-excel-64x64.png) <br> Excel | ![Значок Skype для бизнеса](media/o365-skypeforbusiness-64x64.png) <br> Skype для бизнеса |
-| ![Значок Office Lens](media/o365-lens-64x64.png) <br> Office Lens | ![Значок задач](media/O365-DSR-Doc-Final_image8.png) <br> Задачи |
-| ![Значок OneDrive](media/o365-OneDrive-64x64.png) <br> OneDrive для бизнеса |![Значок Teams](media/o365-teams-64x64.png) <br> Teams |
-| ![Значок OneNote](media/o365-onenote-64x64.png) <br> OneNote| ![Значок To-Do](media/o365-todo-64x64.png) <br> To-Do |
-| ![Значок Outlook](media/o365-outlook-64x64.png) <br> Outlook и Exchange | ![Значок "Видео"](media/O365-DSR-Doc-Final_image14.png) <br> Видео |
-| ![Значок "Люди"](media/O365-DSR-Doc-Final_image15.png) <br> Люди | ![Значок Visio](media/o365-visio-64x64.png) <br> Visio |
-| ![Значок PowerPoint](media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Значок Word](media/o365-word-64x64.png) <br> Word
+![Значок календаря](../media/O365-DSR-Doc-Final_image3.png) <br> Календарь | ![Значок SharePoint](../media/o365-sharepoint-64x64.png) <br> SharePoint  |
+| ![Значок Excel](../media/o365-excel-64x64.png) <br> Excel | ![Значок Skype для бизнеса](../media/o365-skypeforbusiness-64x64.png) <br> Skype для бизнеса |
+| ![Значок Office Lens](../media/o365-lens-64x64.png) <br> Office Lens | ![Значок задач](../media/O365-DSR-Doc-Final_image8.png) <br> Задачи |
+| ![Значок OneDrive](../media/o365-OneDrive-64x64.png) <br> OneDrive для бизнеса |![Значок Teams](../media/o365-teams-64x64.png) <br> Teams |
+| ![Значок OneNote](../media/o365-onenote-64x64.png) <br> OneNote| ![Значок To-Do](../media/o365-todo-64x64.png) <br> To-Do |
+| ![Значок Outlook](../media/o365-outlook-64x64.png) <br> Outlook и Exchange | ![Значок "Видео"](../media/O365-DSR-Doc-Final_image14.png) <br> Видео |
+| ![Значок "Люди"](../media/O365-DSR-Doc-Final_image15.png) <br> Люди | ![Значок Visio](../media/o365-visio-64x64.png) <br> Visio |
+| ![Значок PowerPoint](../media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Значок Word](../media/o365-word-64x64.png) <br> Word
 ||
 
 >[!NOTE]
@@ -196,7 +196,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***Графический пользовательский интерфейс***
 
-![диалоговое окно ключевого слова](media/O365-DSR-Doc_image18.png)
+![диалоговое окно ключевого слова](../media/O365-DSR-Doc_image18.png)
 
 ##### <a name="example-2"></a>Пример 2
 
@@ -206,7 +206,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***Графический пользовательский интерфейс***
 
-![диалоговое окно ключевого слова](media/O365-DSR-Doc_image19.png)
+![диалоговое окно ключевого слова](../media/O365-DSR-Doc_image19.png)
 
 ##### <a name="example-3"></a>Пример 3
 
@@ -218,7 +218,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***Графический пользовательский интерфейс***
 
-![диалоговое окно ключевого слова](media/O365-DSR-Doc_image20.png)
+![диалоговое окно ключевого слова](../media/O365-DSR-Doc_image20.png)
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>Работа с частично индексированными элементами в средстве «Поиск контента»
 
@@ -435,13 +435,13 @@ URL-адрес страницы редактирования профиля бу
 Чтобы экспортировать и скачать элементы, выполните указанные ниже действия.
 
 1. Откройте средство "Поиск контента" в Центре безопасности и соответствия требованиям.
-2. На всплывающей странице поиска щелкните ![значок для скачивания](media/o365-dsr_image21.png) **Дополнительно**, а затем — **Экспорт результатов**. Вы также можете экспортировать отчет.
+2. На всплывающей странице поиска щелкните ![значок для скачивания](../media/o365-dsr_image21.png) **Дополнительно**, а затем — **Экспорт результатов**. Вы также можете экспортировать отчет.
 3. Заполните разделы на всплывающей странице **Экспорт результатов**. С помощью полосы прокрутки прокрутите содержимое страницы и просмотрите все параметры экспорта.
 4. Вернитесь на страницу средства "Поиск контента" в Центре безопасности и соответствия требованиям и откройте вкладку **Экспорт**.
 5. Обновите страницу, нажав кнопку **Обновить**.
 6. В столбце **Имя** щелкните задание экспорта, которое вы создали. Имя задания экспорта — это имя операции поиска контента, после которого следует слово **\_Export** (Экспорт).
 7. На всплывающей странице экспорта в разделе **Ключ экспорта** щелкните **Копировать в буфер обмена**. Этот ключ потребуется для скачивания результатов поиска в действии 10.
-8. В верхней части всплывающей страницы щелкните ![значок для скачивания](media/o365-dsr_image21.png) **Скачать результаты**.
+8. В верхней части всплывающей страницы щелкните ![значок для скачивания](../media/o365-dsr_image21.png) **Скачать результаты**.
 9. Если вам будет предложено установить **средство экспорта службы обнаружения электронных данных Microsoft Office 365**, щелкните **Установить**.
 10. В **средстве экспорта службы обнаружения электронных данных** в соответствующем поле вставьте ключ экспорта, который вы скопировали в действии 7.
 11. Нажмите кнопку **Обзор** и укажите расположение, в которое вы хотите скачать файлы результатов поиска.
@@ -630,11 +630,11 @@ URL-адрес страницы редактирования профиля бу
 
 ||||
 |:-----:|:-----:|:-----:|:-----:|
-| ![Значок Access](media/o365-access-64x64.png) <br> [Access](#access) | ![Значок Office](media/O365-DSR-Doc_image22.png) <br> [Бизнес-приложение <br> для Office 365](#business-apps-for-office-365) | ![Значок Office](media/O365-DSR-Doc_image22.png) <br> [Образование](#education)|
-| ![Значок Flow](media/o365-flow-64x64.png) <br> [Flow](#flow) | ![Значок Forms](media/o365-forms-64x64.png) <br> [Forms](#forms) |![Значок Kaizala](media/o365-kaizala-64x64.png) <br> [Kaizala](#kaizala) |
-| ![Значок Планировщика](media/o365-planner-64x64.png) <br> [Планировщик](#planner) |![Значок PowerApps](media/o365-powerapps-64x64.png) <br> [Power Apps](#powerapps) |![Значок Power BI](media/o365-powerbi-64x64.png) <br> [Power BI](#power-bi) |
-|![Значок Project](media/o365-project-64x64.png) <br> [Project](#project-online) |![Значок Publisher](media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Значок Stream](media/o365-stream-64x64.png) <br> [Stream](#stream) |![Значок Sway](media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Значок Доски](media/O365-DSR-Doc_image36.png) <br> [Доска](#whiteboard) |
-|![Значок Yammer](media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
+| ![Значок Access](../media/o365-access-64x64.png) <br> [Access](#access) | ![Значок Office](../media/O365-DSR-Doc_image22.png) <br> [Бизнес-приложение <br> для Office 365](#business-apps-for-office-365) | ![Значок Office](../media/O365-DSR-Doc_image22.png) <br> [Образование](#education)|
+| ![Значок Flow](../media/o365-flow-64x64.png) <br> [Flow](#flow) | ![Значок Forms](../media/o365-forms-64x64.png) <br> [Forms](#forms) |![Значок Kaizala](../media/o365-kaizala-64x64.png) <br> [Kaizala](#kaizala) |
+| ![Значок Планировщика](../media/o365-planner-64x64.png) <br> [Планировщик](#planner) |![Значок PowerApps](../media/o365-powerapps-64x64.png) <br> [Power Apps](#powerapps) |![Значок Power BI](../media/o365-powerbi-64x64.png) <br> [Power BI](#power-bi) |
+|![Значок Project](../media/o365-project-64x64.png) <br> [Project](#project-online) |![Значок Publisher](../media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Значок Stream](../media/o365-stream-64x64.png) <br> [Stream](#stream) |![Значок Sway](../media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Значок Доски](../media/O365-DSR-Doc_image36.png) <br> [Доска](#whiteboard) |
+|![Значок Yammer](../media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
 |||
 
 ### <a name="access"></a>Access

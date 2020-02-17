@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d54867ad5a469fb429d3edbe012aab9288d76e0f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 53cf720694a52ea18e73a49817418abb489d8c72
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073475"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Azure в рамках GDPR и CCPA
 
@@ -95,15 +95,15 @@ ms.locfileid: "41594348"
 
 2. Выберите **Azure Active Directory**.
 
-     ![Выбор пункта "Все службы"](media/gdpr-azure-dsr-azure-portal.png)
+     ![Выбор пункта "Все службы"](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Выберите пункт **Пользователи**.
 
-     ![Выбор списка пользователей](media/gdpr-azure-dsr-azure-all-users.png)
+     ![Выбор списка пользователей](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. В колонке **Все пользователи** выберите пользователя из списка, а затем в колонке соответствующего пользователя выберите **Профиль**, чтобы просмотреть сведения профиля пользователя, которые могут содержать персональные данные.
 
-    ![Выбор профиля](media/gdpr-azure-dsr-azure-user-profile.png)
+    ![Выбор профиля](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. Если вам нужно добавить или изменить данные профиля пользователя, можно выбрать команду **Изменить** на панели команд и нажать кнопку **Сохранить** после внесения изменений.
 
@@ -143,19 +143,19 @@ ms.locfileid: "41594348"
 
 2. Выберите **Azure Active Directory**.
 
-    ![Выбор пункта "Все службы"](media/gdpr-azure-dsr-azure-portal.png)
+    ![Выбор пункта "Все службы"](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Выберите пункт **Пользователи**.
 
-    ![Выбор списка пользователей](media/gdpr-azure-dsr-azure-all-users.png)
+    ![Выбор списка пользователей](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. В колонке **Все пользователи** выберите пользователя из списка, а затем в колонке соответствующего пользователя выберите **Профиль**, чтобы просмотреть данные профиля пользователя, которые требуется исправить или обновить.
 
-    ![Выбор профиля](media/gdpr-azure-dsr-azure-user-profile.png)
+    ![Выбор профиля](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. Исправьте или обновите данные профиля пользователя, включая сведения о работе, выбрав команду **Изменить** в панели команд, и нажмите кнопку  **Сохранить** после внесения изменений.
 
-    ![Выбор профиля](media/gdpr-azure-dsr-azure-edit-user-profile.png)
+    ![Выбор профиля](../media/gdpr-azure-dsr-azure-edit-user-profile.png)
 
 #### <a name="service-specific-interfaces"></a>Интерфейсы служб
 
@@ -192,26 +192,26 @@ ms.locfileid: "41594348"
 
 2. Выберите **Azure Active Directory**.
 
-    ![Выбор пункта "Все службы"](media/gdpr-azure-dsr-azure-portal.png)
+    ![Выбор пункта "Все службы"](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Выберите пункт **Пользователи**.
 
-    ![Выбор списка пользователей](media/gdpr-azure-dsr-azure-all-users.png)
+    ![Выбор списка пользователей](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. Установите флажок рядом с нужным пользователем, выберите **Удалить пользователя**, а затем нажмите кнопку **Да** в окне подтверждения удаления пользователя.
 
-    ![Управление пользователями](media/gdpr-azure-dsr-azure-selected-user.png)
+    ![Управление пользователями](../media/gdpr-azure-dsr-azure-selected-user.png)
 
 5. В колонке  **Все пользователи**  выберите пункт  **Удаленные пользователи**.
 
-    ![Просмотр профиля пользователя](media/gdpr-azure-dsr-azure-deleted-user.png)
+    ![Просмотр профиля пользователя](../media/gdpr-azure-dsr-azure-deleted-user.png)
 
 4. Снова выберите того же пользователя, нажмите  **Удалить навсегда** в панели команд и выберите  **Да**  в окне подтверждения.
 
 >[!IMPORTANT]  
 >Учтите, что при нажатии кнопки **Да** пользователь, связанные с ним данные и системные журналы окончательно и необратимо удаляются. Если это сделано по ошибке, потребуется вручную добавить пользователя в клиент. Соответствующие данные и системные журналы не подлежат восстановлению.
 
-   ![Просмотр сведений о работе пользователя](media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
+   ![Просмотр сведений о работе пользователя](../media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
 
 #### <a name="service-specific-interfaces"></a>Интерфейсы служб
 
@@ -287,15 +287,15 @@ ms.locfileid: "41594348"
 
 1. Откройте портал Azure, выберите **Все службы**, введите в фильтре запрос *политика* и выберите **Политика**.
 
-     ![Фильтр "Все службы" ](media/gdpr-azure-dsr-azure-policy.png)
+     ![Фильтр "Все службы" ](../media/gdpr-azure-dsr-azure-policy.png)
 
 2. В колонке **Политика** выберите **Конфиденциальность пользователя** > **Управление запросами пользователей** Ю **Добавить запрос на экспорт**.
 
-    ![Добавление запроса на экспорт ](media/gdpr-azure-dsr-azure-add-export-request.png)
+    ![Добавление запроса на экспорт ](../media/gdpr-azure-dsr-azure-add-export-request.png)
 
 3. Создайте **запрос на экспорт данных**:
 
-    ![Создание запроса на экспорт данных](media/gdpr-azure-dsr-azure-export-data-request.png)
+    ![Создание запроса на экспорт данных](../media/gdpr-azure-dsr-azure-export-data-request.png)
 
 - **Пользователь.** Введите электронный адрес пользователя Azure Active Directory, запросившего экспорт.
 - **Подписка.** Выберите учетную запись, используемую для создания отчетов об использовании ресурсов и выставления счетов за услуги. Кроме того, это расположение учетной записи хранилища Azure.

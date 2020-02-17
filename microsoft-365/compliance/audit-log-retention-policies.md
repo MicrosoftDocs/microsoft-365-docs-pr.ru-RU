@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Политики хранения журналов аудита являются частью новых возможностей расширенного аудита в Microsoft 365. Политика хранения журнала аудита позволяет задавать срок хранения журналов аудита в Организации.
-ms.openlocfilehash: 32bb9510d789b56bc48b133dee4abd948009e3a9
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+ms.openlocfilehash: 5e2a1e328888a6aadf5c3057bbe7882ac0f72fbe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079222"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Управление политиками хранения журнала аудита
 
@@ -59,11 +59,11 @@ ms.locfileid: "41960255"
 
     Откроется страница **Поиск в журнале аудита**.
 
-    ![Запустите поиск по журналу аудита.](media/AuditLogRetentionPolicy1.png)
+    ![Запустите поиск по журналу аудита.](../media/AuditLogRetentionPolicy1.png)
 
 3. Нажмите кнопку **Новая политика хранения**, а затем заполните следующие поля на всплывающей странице:
 
-    ![Всплывающая страница политики хранения журнала аудита](media/AuditLogRetentionPolicy2.png)
+    ![Всплывающая страница политики хранения журнала аудита](../media/AuditLogRetentionPolicy2.png)
 
    а. **Имя:** Имя политики хранения журнала аудита. Это имя должно быть уникальным в вашей организации.
    

@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как использовать политики защиты от потери данных (DLP) для защиты персональных данных в Office 365.
-ms.openlocfilehash: b529a6d58537c4effca3cf198dcf807a0680129d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ef6907f9c6574f53dc6f3ba6e44c72eac308d825
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079771"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Применение защиты к персональным данным в Office 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "41596066"
 
 Подробнее см. в статье [Обзор политик защиты от потери данных](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
 
-![Способы создания политики защиты от потери данных](Media/Apply-protection-to-personal-data-in-Office-365-image1.png)
+![Способы создания политики защиты от потери данных](../media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
 На этом рисунке показаны способы создания политики защиты от потери данных:
 
@@ -172,7 +172,7 @@ ms.locfileid: "41596066"
 
 Ниже показаны дополнительные категории защиты, которые можно применить для ограничения доступа к персональным данным.
 
-![Дополнительная защита для ограничения доступа к персональным данным](Media/Apply-protection-to-personal-data-in-Office-365-image2.png)
+![Дополнительная защита для ограничения доступа к персональным данным](../media/Apply-protection-to-personal-data-in-Office-365-image2.png)
 
 Для поддержки специальных возможностей данные, изображенные на рисунке, также приведены в таблице ниже.
 
@@ -222,7 +222,7 @@ ms.locfileid: "41596066"
 
 Используйте разрешения в SharePoint, чтобы предоставить пользователям доступ к сайту или его содержимому или отказать в нем. Добавьте отдельных пользователей или группы Azure Active Directory в стандартные группы SharePoint. Кроме того, можно создать настраиваемую группу для более точного управления.
 
-![Уровни разрешений от "Полный доступ" до "Только просмотр"](Media/Apply-protection-to-personal-data-in-Office-365-image3.png)
+![Уровни разрешений от "Полный доступ" до "Только просмотр"](../media/Apply-protection-to-personal-data-in-Office-365-image3.png)
 
 На этом рисунке изображены уровни разрешений от "Полный доступ" до "Только просмотр". Аналогичные сведения приведены в таблице ниже.
 
@@ -368,7 +368,7 @@ ms.locfileid: "41596066"
 
 Ниже показано, как связаны между собой облачные службы (SaaS, PaaS), типы учетных записей (учетные записи доменов клиента и учетные записи типа "бизнес-бизнес") и возможности доступа к службам. Важно отметить, какие возможности можно использовать с учетными записями типа "бизнес-бизнес".
 
-![Облачные службы, типы учетных записей и возможности доступа](Media/Apply-protection-to-personal-data-in-Office-365-image4.png)
+![Облачные службы, типы учетных записей и возможности доступа](../media/Apply-protection-to-personal-data-in-Office-365-image4.png)
 
 Для работы специальных возможностей данные, изображенные на рисунке, также приведены далее в этом разделе.
 
