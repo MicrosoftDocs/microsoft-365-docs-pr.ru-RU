@@ -73,7 +73,7 @@ ms.locfileid: "42088148"
     
 - [Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям](download-existing-reports.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Мониторинг и просмотр отчетов в центре безопасности Microsoft 365](../mtp/monitoring-and-reporting.md)
   

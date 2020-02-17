@@ -249,7 +249,7 @@ To access your message header and email download options, follow these steps:
 > This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.
 -->
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
   
