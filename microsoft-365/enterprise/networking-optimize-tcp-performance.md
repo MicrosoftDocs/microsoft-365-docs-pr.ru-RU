@@ -1,5 +1,7 @@
 ---
 title: Шаг 5. Оптимизация производительности клиентов и служб Office 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,37 +15,37 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как настроить параметры протокола TCP и служб Office 365, чтобы повысить их производительность.
-ms.openlocfilehash: f89ae816780101c31971c8e3e60df803f82f1e55
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: e3aefb417330ab791a3dd217e2e34591eba3e1d1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370076"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066545"
 ---
-# <a name="step-5-optimize-client-and-office-365-service-performance"></a><span data-ttu-id="5bd92-103">Шаг 5. Оптимизация производительности клиентов и служб Office 365</span><span class="sxs-lookup"><span data-stu-id="5bd92-103">Step 5: Optimize client and Office 365 service performance</span></span>
+# <a name="step-5-optimize-client-and-office-365-service-performance"></a><span data-ttu-id="f657b-103">Шаг 5. Оптимизация производительности клиентов и служб Office 365</span><span class="sxs-lookup"><span data-stu-id="f657b-103">Step 5: Optimize client and Office 365 service performance</span></span>
 
-<span data-ttu-id="5bd92-104">*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="5bd92-104">*This step is optional and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
+<span data-ttu-id="f657b-104">*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="f657b-104">*This step is optional and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
 
-![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Этап 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-<span data-ttu-id="5bd92-106">Для повышения производительности вы можете выполнить тонкую настройку протокола Transmission Control Protocol (TCP), используемого для обмена данными между клиентскими устройствами и службами Office 365.</span><span class="sxs-lookup"><span data-stu-id="5bd92-106">You can increase performance by fine tuning the way that the Transmission Control Protocol (TCP) works between client devices and Office 365 services.</span></span>
+<span data-ttu-id="f657b-106">Для повышения производительности вы можете выполнить тонкую настройку протокола Transmission Control Protocol (TCP), используемого для обмена данными между клиентскими устройствами и службами Office 365.</span><span class="sxs-lookup"><span data-stu-id="f657b-106">You can increase performance by fine tuning the way that the Transmission Control Protocol (TCP) works between client devices and Office 365 services.</span></span>
 
-<span data-ttu-id="5bd92-107">Чтобы оптимизировать производительность протокола TCP, можно изменить указанные ниже параметры этого протокола на клиентских устройствах.</span><span class="sxs-lookup"><span data-stu-id="5bd92-107">For client devices, you can change the following TCP settings on client devices to optimize TCP performance:</span></span>
+<span data-ttu-id="f657b-107">Чтобы оптимизировать производительность протокола TCP, можно изменить указанные ниже параметры этого протокола на клиентских устройствах.</span><span class="sxs-lookup"><span data-stu-id="f657b-107">For client devices, you can change the following TCP settings on client devices to optimize TCP performance:</span></span>
 
-- <span data-ttu-id="5bd92-108">[Масштабирование окна TCP](https://blogs.technet.microsoft.com/onthewire/2014/03/28/ensuring-your-office-365-network-connection-isnt-throttled-by-your-proxy/). Настройте этот параметр, чтобы ваше клиентское устройство отправляло больше данных, прежде чем потребуется подтверждение устройства.</span><span class="sxs-lookup"><span data-stu-id="5bd92-108">[TCP window scaling](https://blogs.technet.microsoft.com/onthewire/2014/03/28/ensuring-your-office-365-network-connection-isnt-throttled-by-your-proxy/), so your client device can send more data before requiring an acknowledgement</span></span>
-- <span data-ttu-id="5bd92-109">[Время простоя TCP](https://blogs.technet.microsoft.com/onthewire/2014/03/04/network-perimeters-tcp-idle-session-settings-for-outlook-on-office-365/). Настройте этот параметр, чтобы ваше клиентское устройство могло более эффективно обрабатывать открытые подключения.</span><span class="sxs-lookup"><span data-stu-id="5bd92-109">[TCP idle time](https://blogs.technet.microsoft.com/onthewire/2014/03/04/network-perimeters-tcp-idle-session-settings-for-outlook-on-office-365/), so your client device can handle open connections more efficiently</span></span>
-- <span data-ttu-id="5bd92-110">[Максимальный размер сегмента TCP](https://blogs.technet.microsoft.com/onthewire/2014/06/27/checking-your-tcp-packets-are-pulling-their-weight-tcp-max-segment-size-or-mss/). Настройте этот параметр, чтобы ваше клиентское устройство могло отправлять самые большие блоки данных в пакете.</span><span class="sxs-lookup"><span data-stu-id="5bd92-110">[TCP maximum segment size](https://blogs.technet.microsoft.com/onthewire/2014/06/27/checking-your-tcp-packets-are-pulling-their-weight-tcp-max-segment-size-or-mss/), so your client device can send the largest blocks of data in a packet</span></span>
-- <span data-ttu-id="5bd92-111">[Выборочные подтверждения TCP](https://blogs.technet.microsoft.com/onthewire/2014/06/27/ensuring-your-tcp-stack-isnt-throwing-data-away/). Настройте этот параметр, чтобы ваше клиентское устройство могло более эффективно подтверждать принятые данные.</span><span class="sxs-lookup"><span data-stu-id="5bd92-111">[TCP selective acknowledgements](https://blogs.technet.microsoft.com/onthewire/2014/06/27/ensuring-your-tcp-stack-isnt-throwing-data-away/), so your client device can acknowledge received data more efficiently</span></span>
+- <span data-ttu-id="f657b-108">[Масштабирование окна TCP](https://blogs.technet.microsoft.com/onthewire/2014/03/28/ensuring-your-office-365-network-connection-isnt-throttled-by-your-proxy/). Настройте этот параметр, чтобы ваше клиентское устройство отправляло больше данных, прежде чем потребуется подтверждение устройства.</span><span class="sxs-lookup"><span data-stu-id="f657b-108">[TCP window scaling](https://blogs.technet.microsoft.com/onthewire/2014/03/28/ensuring-your-office-365-network-connection-isnt-throttled-by-your-proxy/), so your client device can send more data before requiring an acknowledgement</span></span>
+- <span data-ttu-id="f657b-109">[Время простоя TCP](https://blogs.technet.microsoft.com/onthewire/2014/03/04/network-perimeters-tcp-idle-session-settings-for-outlook-on-office-365/). Настройте этот параметр, чтобы ваше клиентское устройство могло более эффективно обрабатывать открытые подключения.</span><span class="sxs-lookup"><span data-stu-id="f657b-109">[TCP idle time](https://blogs.technet.microsoft.com/onthewire/2014/03/04/network-perimeters-tcp-idle-session-settings-for-outlook-on-office-365/), so your client device can handle open connections more efficiently</span></span>
+- <span data-ttu-id="f657b-110">[Максимальный размер сегмента TCP](https://blogs.technet.microsoft.com/onthewire/2014/06/27/checking-your-tcp-packets-are-pulling-their-weight-tcp-max-segment-size-or-mss/). Настройте этот параметр, чтобы ваше клиентское устройство могло отправлять самые большие блоки данных в пакете.</span><span class="sxs-lookup"><span data-stu-id="f657b-110">[TCP maximum segment size](https://blogs.technet.microsoft.com/onthewire/2014/06/27/checking-your-tcp-packets-are-pulling-their-weight-tcp-max-segment-size-or-mss/), so your client device can send the largest blocks of data in a packet</span></span>
+- <span data-ttu-id="f657b-111">[Выборочные подтверждения TCP](https://blogs.technet.microsoft.com/onthewire/2014/06/27/ensuring-your-tcp-stack-isnt-throwing-data-away/). Настройте этот параметр, чтобы ваше клиентское устройство могло более эффективно подтверждать принятые данные.</span><span class="sxs-lookup"><span data-stu-id="f657b-111">[TCP selective acknowledgements](https://blogs.technet.microsoft.com/onthewire/2014/06/27/ensuring-your-tcp-stack-isnt-throwing-data-away/), so your client device can acknowledge received data more efficiently</span></span>
 
-<span data-ttu-id="5bd92-112">Сведения об оптимизации производительности служб Office 365 см. в указанных ниже дополнительных ресурсах.</span><span class="sxs-lookup"><span data-stu-id="5bd92-112">For Office 365 services, see these additional resources to optimize performance:</span></span>
+<span data-ttu-id="f657b-112">Сведения об оптимизации производительности служб Office 365 см. в указанных ниже дополнительных ресурсах.</span><span class="sxs-lookup"><span data-stu-id="f657b-112">For Office 365 services, see these additional resources to optimize performance:</span></span>
 
-- [<span data-ttu-id="5bd92-113">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="5bd92-113">Exchange Online</span></span>](https://docs.microsoft.com/office365/enterprise/tune-exchange-online-performance)
-- [<span data-ttu-id="5bd92-114">Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="5bd92-114">Skype for Business Online</span></span>](https://docs.microsoft.com/office365/enterprise/tune-skype-for-business-online-performance)
-- [<span data-ttu-id="5bd92-115">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="5bd92-115">SharePoint Online</span></span>](https://docs.microsoft.com/office365/enterprise/tune-sharepoint-online-performance)
-- [<span data-ttu-id="5bd92-116">Project Web App в Project Online</span><span class="sxs-lookup"><span data-stu-id="5bd92-116">Project Web App for Project Online</span></span>](https://docs.microsoft.com/ProjectOnline/tune-project-online-performance)
+- [<span data-ttu-id="f657b-113">Exchange Online</span><span class="sxs-lookup"><span data-stu-id="f657b-113">Exchange Online</span></span>](https://docs.microsoft.com/office365/enterprise/tune-exchange-online-performance)
+- [<span data-ttu-id="f657b-114">Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="f657b-114">Skype for Business Online</span></span>](https://docs.microsoft.com/office365/enterprise/tune-skype-for-business-online-performance)
+- [<span data-ttu-id="f657b-115">SharePoint Online</span><span class="sxs-lookup"><span data-stu-id="f657b-115">SharePoint Online</span></span>](https://docs.microsoft.com/office365/enterprise/tune-sharepoint-online-performance)
+- [<span data-ttu-id="f657b-116">Project Web App в Project Online</span><span class="sxs-lookup"><span data-stu-id="f657b-116">Project Web App in Project Online</span></span>](https://docs.microsoft.com/ProjectOnline/tune-project-online-performance)
 
-<span data-ttu-id="5bd92-117">Прежде чем переходить к следующему этапу, проверьте [условия](networking-exit-criteria.md#crit-networking-step5), при выполнении которых можно считать данный этап завершенным.</span><span class="sxs-lookup"><span data-stu-id="5bd92-117">As an interim checkpoint, you can see the [exit criteria](networking-exit-criteria.md#crit-networking-step5) for this step.</span></span>
+<span data-ttu-id="f657b-117">Прежде чем переходить к следующему этапу, проверьте [условия](networking-exit-criteria.md#crit-networking-step5), при выполнении которых можно считать данный этап завершенным.</span><span class="sxs-lookup"><span data-stu-id="f657b-117">As an interim checkpoint, you can see the [exit criteria](networking-exit-criteria.md#crit-networking-step5) for this step.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="5bd92-118">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="5bd92-118">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="f657b-118">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="f657b-118">Next step</span></span>
 
-[<span data-ttu-id="5bd92-119">Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной</span><span class="sxs-lookup"><span data-stu-id="5bd92-119">Networking infrastructure exit criteria</span></span>](networking-exit-criteria.md)
+[<span data-ttu-id="f657b-119">Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной</span><span class="sxs-lookup"><span data-stu-id="f657b-119">Networking infrastructure exit criteria</span></span>](networking-exit-criteria.md)
