@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: Сводка. Применяйте метки хранения и политики защиты от потери данных для сайтов групп SharePoint Online с различными уровнями защиты информации.
-ms.openlocfilehash: 75ecf551d4b675a1b1eef4d26742d833aea28059
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ab9026fa4c00038abb166677277145c8129e33e2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601696"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081764"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Защита файлов SharePoint Online с помощью меток хранения и DLP
 
@@ -118,7 +118,7 @@ ms.locfileid: "41601696"
     
 Ниже показана итоговая конфигурация.
   
-![Метки хранения для четырех типов сайтов групп SharePoint Online.](media/e0a4fdd2-1c30-4d93-8af4-a6f0c6c29966.png)
+![Метки хранения для четырех типов сайтов групп SharePoint Online.](../media/e0a4fdd2-1c30-4d93-8af4-a6f0c6c29966.png)
   
 ## <a name="dlp-policies-for-your-sharepoint-online-sites"></a>Политики защиты от потери данных для сайтов SharePoint Online
 
@@ -169,7 +169,7 @@ ms.locfileid: "41601696"
     
 Здесь показана итоговая конфигурация для конфиденциальных сайтов групп SharePoint Online.
   
-![Политика защиты от потери данных для изолированного сайта группы SharePoint Online с использованием метки хранения "Конфиденциальный"](media/2ff4cc53-87a8-43e3-b637-3068d88409f3.png)
+![Политика защиты от потери данных для изолированного сайта группы SharePoint Online с использованием метки хранения "Конфиденциальный"](../media/2ff4cc53-87a8-43e3-b637-3068d88409f3.png)
   
 Выполните следующие действия, чтобы настроить политику защиты от потери данных, которая блокирует пользователей, когда они совместно используют документы на строго конфиденциальном сайте группы SharePoint Online за пределами организации.
   
@@ -215,7 +215,7 @@ ms.locfileid: "41601696"
     
 Ниже показана итоговая конфигурация для строго конфиденциальных сайтов групп SharePoint Online.
   
-![Политика защиты от потери данных для изолированного сайта группы SharePoint Online с использованием метки хранения "Строго конфиденциальный"](media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
+![Политика защиты от потери данных для изолированного сайта группы SharePoint Online с использованием метки хранения "Строго конфиденциальный"](../media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
   
 ## <a name="next-step"></a>Следующий шаг
 
@@ -223,8 +223,6 @@ ms.locfileid: "41601696"
     
 ## <a name="see-also"></a>См. также
 
-[Безопасность сайтов и файлов SharePoint Online](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
-  
 [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

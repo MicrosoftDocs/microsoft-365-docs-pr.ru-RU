@@ -1,6 +1,8 @@
 ---
 title: Сеть корпорации Contoso
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано об инфраструктуре сети компании Contoso и о том, как специалисты компании используют разработанную ими технологию SD-WAN для достижения оптимальной производительности сети для облачных служб Microsoft 365 корпоративный.
-ms.openlocfilehash: 87584660805608c45b36e13804ca1dab6b8e7d17
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 20279ac0aed1b7ad86e1fc8e1d78a412230eba52
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068352"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Сеть корпорации Contoso
 
@@ -42,7 +44,7 @@ ms.locfileid: "38673175"
 
 Нас рисунке 1 показана инфраструктура сети компании Contoso и ее подключения к Интернету.
 
-![Сеть компании Contoso](./media/contoso-networking/contoso-networking-fig1.png)
+![Сеть компании Contoso](../media/contoso-networking/contoso-networking-fig1.png)
  
 **Рис. 1. Сеть компании Contoso**
 
@@ -75,7 +77,7 @@ ms.locfileid: "38673175"
 
 На рисунке 2 показан процент сетевого трафика при доступе к серверам в интрасети компании Contoso.
 
-![Инфраструктура корпорации Contoso для внутренних приложений](./media/contoso-networking/contoso-networking-fig2.png)
+![Инфраструктура корпорации Contoso для внутренних приложений](../media/contoso-networking/contoso-networking-fig2.png)
  
 **Рис. 2. Инфраструктура компании Contoso для внутренних приложений**
 

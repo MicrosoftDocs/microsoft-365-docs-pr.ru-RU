@@ -1,6 +1,8 @@
 ---
 title: Развертывание Microsoft 365 для предприятий
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 09/19/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 для предприятий в организации.
-ms.openlocfilehash: 4181a5efeb7ba63812703ae5eb81667240314e9a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e4660ff6e7fc9646b2e28181afff4df2811acdd1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801924"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067965"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Развертывание Microsoft 365 для предприятий
 
@@ -65,7 +67,7 @@ FastTrack — это текущая и стандартная возможнос
 
 Так выглядит связь между базовой инфраструктурой и рабочими процессами и сценариями.
 
-![Связь между базовой инфраструктурой и рабочими процессами и сценариями](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![Связь между базовой инфраструктурой и рабочими процессами и сценариями](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
 Рабочие нагрузки и сценарии функционируют поверх базовой инфраструктуры. Тем не менее, вам не обязательно выполнять все этапы создания базовой инфраструктуры, чтобы использовать рабочие нагрузки для эффективной работы и взаимодействия.
 
@@ -83,13 +85,13 @@ FastTrack — это текущая и стандартная возможнос
 
 Дополнительные сведения см. в статье [Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md).
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 ## <a name="transition-your-entire-organization"></a>Переход всей организации
 
-Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 для предприятий, ознакомьтесь с плакатом [Переход организации на Microsoft 365](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 для предприятий, ознакомьтесь с плакатом [Переход организации на Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
-[![Плакат "Переход организации на Microsoft 365"](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Плакат "Переход организации на Microsoft 365"](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 Этот двухстраничный плакат содержит быстрый способ определения элементов существующей инфраструктуры и руководство по переходу на соответствующий продукт или службу в Microsoft 365 для предприятий. На нем представлены продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, например управление устройствами, удостоверения, защита информации и защита от угроз.
 

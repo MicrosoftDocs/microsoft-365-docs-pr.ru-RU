@@ -1,5 +1,7 @@
 ---
 title: Шаг 3. Удаление разворотов пакетов
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,22 +15,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Удалите развороты пакетов для повышения производительности.
-ms.openlocfilehash: 8d3c971c1295f8f1112c594635bfd791b251bd68
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: f9499fdb8e8c3f7b77e3349d6cc99f6dbf465870
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370336"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066722"
 ---
 # <a name="step-3-avoid-network-hairpins"></a>Шаг 3. Удаление разворотов пакетов
 
 *Этот шаг — обязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Этап 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 [Разворот пакетов](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P3) происходит, когда трафик вместо пункта назначения сначала направляется в локальный стек безопасности, брокер доступа в облако или облачный веб-шлюз. Пример:
 
-![Пример разворота пакетов](./media/networking-avoid-network-hairpins/network-hairpin-example.png)
+![Пример разворота пакетов](../media/networking-avoid-network-hairpins/network-hairpin-example.png)
 
 Разворот пакетов также может объясняться плохой маршрутизацией в Интернете из-за поставщиков сетевых услуг. 
 
@@ -44,7 +46,7 @@ ms.locfileid: "37370336"
 
 По возможности настройте пограничные маршрутизаторы так, чтобы они передавали доверенный трафик Microsoft 365 напрямую, не перенаправляя его через стороннее облако или облачную службу безопасности сети, которая обрабатывает ваш интернет-трафик. 
 
-![Пример обхода разворота пакетов](./media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
+![Пример обхода разворота пакетов](../media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
 
 Прежде чем переходить к следующему этапу, проверьте [условия](networking-exit-criteria.md#crit-networking-step3), при выполнении которых можно считать данный этап завершенным.
 
@@ -52,4 +54,4 @@ ms.locfileid: "37370336"
 
 |||
 |:-------|:-----|
-|![Шаг 4](./media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|
+|![Шаг 4](../media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|

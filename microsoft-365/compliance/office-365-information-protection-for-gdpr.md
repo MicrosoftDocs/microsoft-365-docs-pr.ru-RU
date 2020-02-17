@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Это решение демонстрирует, как защитить конфиденциальные данные, которые хранятся в службах Office 365.
-ms.openlocfilehash: a6bc231c82e65e7361cdcda7c2087bc48a55dcc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e930b0397e071a9270556041aa396ccfe5c17228
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071134"
 ---
 # <a name="office-365-information-protection-for-gdpr"></a>Защита информации в Office 365 в соответствии с регламентом GDPR
 
@@ -30,7 +30,7 @@ ms.locfileid: "41597846"
   
 Это решение включает предписывающие рекомендации по обнаружению, классификации, защите и отслеживанию персональных данных. В этом решении в качестве примера используется Общий регламент по защите данных (GDPR), но аналогичный процесс можно применить, чтобы обеспечить соответствие требованиям ряда других нормативов.
 
-[![Эскиз афиши "Защита информации в Office 365 в соответствии с регламентом GDPR".](media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)
+[![Эскиз афиши "Защита информации в Office 365 в соответствии с регламентом GDPR".](../media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)
 
 [PDF](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)  |  [Visio](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.vsdx)
   

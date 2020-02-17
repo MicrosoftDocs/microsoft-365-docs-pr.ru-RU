@@ -1,6 +1,8 @@
 ---
 title: Общие сведения о корпорации Contoso
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Статья о корпорации Contoso как о деловой организации и о многоуровневой структуре ее офисов по всему миру.
-ms.openlocfilehash: f1c758b92915845a0786c24aec611cb221c70186
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 856363881c749b06a530dc7cc4f0eb82dc155054
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068304"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Общие сведения о корпорации Contoso
 
-![Корпорация Contoso](./media/contoso-overview/contoso-icon.png)
+![Корпорация Contoso](../media/contoso-overview/contoso-icon.png)
 
 Корпорация Contoso — это многонациональная компания с главным офисом в Париже, Франция. Эта организация занимается производством, продажей и поддержкой более чем 100 000 продуктов.
 
@@ -30,7 +32,7 @@ ms.locfileid: "38673155"
 
 На рис. 1 показан главный офис в Париже, региональные центральные и подчиненные офисы на разных континентах.
 
-![Офисы Contoso по всему миру](./media/contoso-overview/contoso-overview-fig1.png)
+![Офисы Contoso по всему миру](../media/contoso-overview/contoso-overview-fig1.png)
 
 **Рис. 1. Офисы Contoso по всему миру**
  

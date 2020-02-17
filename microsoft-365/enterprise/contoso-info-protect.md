@@ -1,6 +1,8 @@
 ---
 title: Защита информации в корпорации Contoso
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/02/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как специалисты компании Contoso используют функции защиты информации в Microsoft 365 корпоративный для защиты цифровых ресурсов компании в облаке.
-ms.openlocfilehash: d6167896c3e42c5fef373de7c5be7123467936f4
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831682"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068424"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Защита информации в корпорации Contoso
 
@@ -85,7 +87,7 @@ ms.locfileid: "39831682"
 
 Ниже представлен итоговый набор политик компании Contoso, предназначенных для защиты информации.
 
-![Политики условного доступа для устройств, Exchange Online и SharePoint](./media/contoso-info-protect/contoso-info-protect-fig1.png)
+![Политики условного доступа для устройств, Exchange Online и SharePoint](../media/contoso-info-protect/contoso-info-protect-fig1.png)
 
 >[!Note]
 >Кроме того, в компании Contoso настроили дополнительные политики условного доступа для удостоверений и входа. См. статью [Удостоверение для корпорации Contoso](contoso-identity.md#conditional-access-policies-for-identity-and-device-access).
@@ -113,7 +115,7 @@ ms.locfileid: "39831682"
 
 Ниже представлена итоговая конфигурация компании Contoso для защиты информации.
 
-![Итоговая конфигурация компании Contoso для защиты информации](./media/contoso-info-protect/contoso-info-protect-fig2.png)
+![Итоговая конфигурация компании Contoso для защиты информации](../media/contoso-info-protect/contoso-info-protect-fig2.png)
 
 ## <a name="next-step"></a>Следующий шаг
 

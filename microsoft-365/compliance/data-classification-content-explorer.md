@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель содержимого позволяет легко просматривать элементы с присвоенными метками.
-ms.openlocfilehash: c2bf73a5e6b9076d9c5f42c40f0d1f2f33cd1ee8
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 2d9be42c00940bf9d37d1fdeb9b15b071aa412ac
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661912"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076435"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>Использование обозревателя содержимого с классификацией данных (предварительная версия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "41661912"
 
 [Метка хранения](labels.md) позволяет определить срок хранения элемента с меткой и действия, которые необходимо выполнить перед его удалением. Они применяются вручную или автоматически с помощью политик. С их помощью можно обеспечивать соблюдение организацией юридических и нормативных требований.
 
-![снимок экрана: свернутый обозреватель содержимого](media/data-classification-content-explorer-1.png)
+![снимок экрана: свернутый обозреватель содержимого](../media/data-classification-content-explorer-1.png)
 
 ### <a name="permissions"></a>Разрешения
 
