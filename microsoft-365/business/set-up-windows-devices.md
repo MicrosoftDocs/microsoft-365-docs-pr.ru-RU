@@ -1,5 +1,7 @@
 ---
 title: Настройка устройств с Windows для пользователей Microsoft 365 Business
+f1.keywords:
+- CSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для Microsoft 365 Business Users. '
-ms.openlocfilehash: 1e160d624ce5150a1fb74899949aca824589d908
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 427e1c25b5c6ad52ab280502133a0e2808bb48b1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42090764"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Перед настройкой устройств с Windows для пользователей Microsoft 365 Business убедитесь, что на всех устройствах установлена система Windows 10 Pro версии 1703 (обновление Creators Update). Наличие ОС Windows 10 Pro является необходимым условием для развертывания Windows 10 Business  набора облачных служб и функций управления устройствами, который дополняет возможности этой операционной системы и предназначен для централизованного управления средой Windows 365 Business и ее безопасностью.
   
@@ -45,7 +47,7 @@ ms.locfileid: "39831350"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Если вы нашли это видео, изучите [полную серию обучающих материалов для малых предприятий и новых в Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Добавление устройств с Windows 10 в каталог Azure AD организации
 
@@ -57,7 +59,7 @@ ms.locfileid: "39831350"
   
 1. Начните настройку Windows 10 на устройстве и дойдите до страницы **Выбор способа настройки**. 
     
-    ![On the How would you like to set up page, choose Set up for an organization](media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
+    ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
 2. Выберите вариант **Настроить для организации** и введите имя пользователя и пароль для Microsoft 365 Business. 
     
@@ -71,31 +73,31 @@ ms.locfileid: "39831350"
   
 1. На пользовательском компьютере под управлением Windows 10 Pro версии 1703 (Creators Update) (см. [необходимые условия](pre-requisites-for-data-protection.md)) щелкните логотип Windows, а затем значок параметров.
   
-   ![In the Start menu, click Windows Settings icon](media/74e1ce9a-1554-4761-beb9-330b176e9b9d.png)
+   ![In the Start menu, click Windows Settings icon](../media/74e1ce9a-1554-4761-beb9-330b176e9b9d.png)
   
 2. В окне **Параметры** выберите элемент **Учетные записи**.
   
-   ![In Windows Settings, go to Accounts](media/472fd688-d111-4788-9fbb-56a00fbdc24d.png)
+   ![In Windows Settings, go to Accounts](../media/472fd688-d111-4788-9fbb-56a00fbdc24d.png)
   
 3. На странице **Ваши данные** выберите **Доступ к учетной записи места работы или учебного заведения** \> **Подключить**.
   
-   ![Choose Connect under Access work or school](media/af3a4e3f-f9b9-4969-b3e2-4ef99308090c.png)
+   ![Choose Connect under Access work or school](../media/af3a4e3f-f9b9-4969-b3e2-4ef99308090c.png)
   
 4. В диалоговом окне **Настроить учетную запись компании или учебного заведения** в разделе **Другие действия** выберите **Присоединить это устройство к Azure Active Directory**.
   
-   ![Click Join this device to Azure Active Directory](media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
+   ![Click Join this device to Azure Active Directory](../media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
 5. On the **Let's get you signed in** page, enter your work or school account \> **Next**.
   
    On the **Enter password** page, enter your password \> **Sign in**.
   
-   ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
+   ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
 6. Убедитесь, что на странице **ваша организация** указана правильная информация, и нажмите кнопку **присоединиться**.
   
    На странице **Готово!** нажмите кнопку **Готово**.
   
-   ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
+   ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
 Если вы добавляете файлы в OneDrive для бизнеса, синхронизируйте их в обратном направлении. Если для переноса профилей и файлов использовалось стороннее средство, также синхронизируйте их с новым профилем.
   
@@ -107,7 +109,7 @@ ms.locfileid: "39831350"
   
 Чтобы начать работу с учетной записью Microsoft 365 Business, перейдите к кнопке **Пуск** Windows, щелкните правой кнопкой мыши текущий рисунок учетной записи, а затем **Переключить учетную запись**. Войдите, используя адрес электронной почты и пароль организации.
   
-![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
+![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>Проверка перевода устройства на Windows 10 для бизнеса
 
@@ -117,7 +119,7 @@ ms.locfileid: "39831350"
     
 2. Убедитесь, что в поле **Выпуск** указано **Windows 10 для бизнеса**.
     
-    ![Verify that Windows edition is Windows 10 Business.](media/ff660fc8-d3ba-431b-89a5-f5abded96c4d.png)
+    ![Verify that Windows edition is Windows 10 Business.](../media/ff660fc8-d3ba-431b-89a5-f5abded96c4d.png)
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -125,4 +127,4 @@ ms.locfileid: "39831350"
   
 ## <a name="see-also"></a>См. также
 
-[Видеоролики по бизнес-обучению Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
