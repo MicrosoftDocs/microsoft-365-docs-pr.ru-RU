@@ -130,6 +130,6 @@ Windows 10 предоставляет функции безопасности д
 * [Устранение проблем с входящей миграции](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-onboarding-windows-defender-advanced-threat-protection)
 * [Устранение неполадок в защитнике Microsoft](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/troubleshoot-windows-defender-advanced-threat-protection)
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 [Критерии выхода инфраструктуры Windows 10 Корпоративная](windows10-exit-criteria.md)
