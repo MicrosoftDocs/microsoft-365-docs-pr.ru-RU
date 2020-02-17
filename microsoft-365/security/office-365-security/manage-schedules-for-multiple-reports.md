@@ -42,7 +42,7 @@ ms.locfileid: "42082877"
     
 5. При необходимости измените или удалите расписание, а затем нажмите кнопку **Закрыть**.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   
