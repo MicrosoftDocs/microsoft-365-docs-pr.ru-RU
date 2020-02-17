@@ -52,7 +52,7 @@ ms.locfileid: "42071226"
 - [Руководство по внедрению Sci](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a69ce0c1-7b7e-44e9-9143-867241e6b2f9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers): сопоставляет функции Azure с требованиями к нормативам и сведениями о том, что общая ответственность за соответствие требованиям.
 - [Разработка надежных приложений Azure](https://docs.microsoft.com/azure/architecture/resiliency/): краткий обзор процесса создания надежности на каждом этапе разработки приложений Azure.
 - [Разработка высокодоступных приложений](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): сведения о том, как разработчики могут обеспечить высокую доступность своих приложений для хранения Azure.
-- [Руководство по оценке риска и соответствия требованиям](https://aka.ms/RiskGovernanceGuide). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов.
+- [Руководство по оценке риска и соответствия](https://aka.ms/RiskGovernanceGuide): создание модели управления для оценки риски облачных служб Майкрософт и уведомления контролирующих органов.
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -70,7 +70,7 @@ ms.locfileid: "42071226"
 - [Непрерывность бизнес-задач и аварийное восстановление (БКДР): области, связанные с Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions)
 - [Карта соответствия требованиям к облачным вычислениям нормативным требованиям и Microsoft Online Services](https://aka.ms/FinServ-Guide-US)
 - [Программа Microsoft Cloud Financial Services Compliance Program](https://aka.ms/FSCP-Print)
-- [Соответствие финансовых услуг требованиям в Azure](https://aka.ms/FinServ-Compliance-Azure)
+- [Соответствие финансовых служб требованиям в Azure](https://aka.ms/FinServ-Compliance-Azure)
 - [Финансовые службы Майкрософт](https://aka.ms/FinServ-Compliance)
 - [Microsoft и с — правило 17A — 4](offering-SEC-17a-4.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
