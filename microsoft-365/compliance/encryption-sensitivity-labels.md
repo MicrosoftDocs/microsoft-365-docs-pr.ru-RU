@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: 17cea4f80ac1dee75c10c2beef63be06141c89d5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 102d1da2ec5f49e26a634611f4f640a083d167ff
+ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074666"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42101269"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования 
 
@@ -44,15 +44,15 @@ ms.locfileid: "42074666"
 
 Параметры шифрования доступны при [создании метки конфиденциальности](create-sensitivity-labels.md) в Центре соответствия требованиям Microsoft 365, Центре безопасности Microsoft 365 и Центре безопасности и соответствия требованиям Office 365.
 
-## <a name="how-encryption-works"></a>Как работает шифрование
+## <a name="understand-how-the-encryption-works"></a>Как осуществляется шифрование
 
 При шифровании используется служба управления правами Azure (Azure RMS) из Azure Information Protection. Это решение защиты использует политики шифрования, удостоверений и авторизации. Дополнительные сведения см. в статье [Управление правами Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) из документации по Azure Information Protection. 
 
 При использовании этого решения шифрования функция **суперпользователей** гарантирует, что авторизованные пользователи и службы всегда смогут считывать и проверять данные, зашифрованные для вашей организации. При необходимости шифрование затем можно удалить или изменить. Дополнительные сведения см. в статье [Настройка суперпользователей для Azure Information Protection и служб обнаружения или восстановления данных](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
-## <a name="configuring-a-label-for-encryption"></a>Настройка метки для шифрования
+## <a name="how-to-configure-a-label-for-encryption"></a>Настройка метки для шифрования
 
-При [создании или изменении метки конфиденциальности](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) на странице **Шифрование** мастера вы можете выбрать один из следующих параметров:
+[Создайте или измените метку конфиденциальности](create-sensitivity-labels.md#create-and-configure-sensitivity-labels), а затем на странице **Шифрование** мастера выберите один из следующих параметров:
 
 - **Нет**. Параметр по умолчанию для новой метки. Новое шифрование не применяется.
 - **Применить**. Включает шифрование, после чего вы указываете параметры шифрования.
@@ -98,7 +98,7 @@ ms.locfileid: "42074666"
 
 Предварительно зашифрованные документы, добавленные в качестве вложений, всегда сохраняют исходное шифрование. 
 
-## <a name="how-to-configure-encryption-settings-for-a-sensitivity-label"></a>Как настроить параметры шифрования для метки конфиденциальности
+## <a name="configure-encryption-settings"></a>Настройка параметров шифрования
 
 При использовании параметра **Применить** на странице **Шифрование** мастера создания или изменения метки конфиденциальности укажите, нужно ли выполнять следующее:
 
