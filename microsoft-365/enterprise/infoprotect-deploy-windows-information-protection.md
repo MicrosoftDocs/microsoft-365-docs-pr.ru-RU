@@ -1,5 +1,7 @@
 ---
 title: Шаг 4. Настройка Windows Information Protection
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,42 +15,42 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучение и развертывание Windows Information Protection в Microsoft 365.
-ms.openlocfilehash: 23c3298545a288b459fd3bb858bb7c1d1714ee75
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 655ff33c3fd1bba822937618d801db76b7881977
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067166"
 ---
-# <a name="step-4-configure-windows-information-protection"></a><span data-ttu-id="bfe3f-103">Шаг 4. Настройка Windows Information Protection</span><span class="sxs-lookup"><span data-stu-id="bfe3f-103">Step 4: Configure Windows Information Protection</span></span>
+# <a name="step-4-configure-windows-information-protection"></a><span data-ttu-id="0b2c3-103">Шаг 4. Настройка Windows Information Protection</span><span class="sxs-lookup"><span data-stu-id="0b2c3-103">Step 4: Configure Windows Information Protection</span></span>
 
-<span data-ttu-id="bfe3f-104">*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="bfe3f-104">*This step is optional and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
+<span data-ttu-id="0b2c3-104">*Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*</span><span class="sxs-lookup"><span data-stu-id="0b2c3-104">*This step is optional and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-<span data-ttu-id="bfe3f-106">Чем больше персональных устройств используется для работы, тем выше становится риск утечки конфиденциальных данных организаций через приложения и устройства.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-106">With more personal devices being used for work, there’s increased risk for apps and devices to leak private organization data.</span></span> <span data-ttu-id="bfe3f-107">Например, сотрудник может случайно отправить на сайт социальной сети рисунок с маркетинговым планом будущего продукта или сохранить в общедоступном облачном хранилище файл, содержащий совершенно секретную информацию.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-107">For example, an employee inadvertently sends a picture of a marketing plan for a future product to a social media site or saves a file containing highly confidential information to their public cloud storage.</span></span> 
+<span data-ttu-id="0b2c3-106">Чем больше персональных устройств используется для работы, тем выше становится риск утечки конфиденциальных данных организаций через приложения и устройства.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-106">With more personal devices being used for work, there’s increased risk for apps and devices to leak private organization data.</span></span> <span data-ttu-id="0b2c3-107">Например, сотрудник может случайно отправить на сайт социальной сети рисунок с маркетинговым планом будущего продукта или сохранить в общедоступном облачном хранилище файл, содержащий совершенно секретную информацию.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-107">For example, an employee inadvertently sends a picture of a marketing plan for a future product to a social media site or saves a file containing highly confidential information to their public cloud storage.</span></span> 
 
-<span data-ttu-id="bfe3f-108">Windows Information Protection (WIP) обеспечивает защиту от утечки данных такого рода на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-108">Windows Information Protection (WIP) helps protect against these types of data leakage on Windows 10 devices.</span></span> <span data-ttu-id="bfe3f-109">Дополнительные сведения см. в статье [Защита корпоративных данных с помощью WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).</span><span class="sxs-lookup"><span data-stu-id="bfe3f-109">For more information, see [Protect your enterprise data using WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).</span></span>
+<span data-ttu-id="0b2c3-108">Windows Information Protection (WIP) обеспечивает защиту от утечки данных такого рода на устройствах с Windows 10.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-108">Windows Information Protection (WIP) helps protect against these types of data leakage on Windows 10 devices.</span></span> <span data-ttu-id="0b2c3-109">Дополнительные сведения см. в статье [Защита корпоративных данных с помощью WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).</span><span class="sxs-lookup"><span data-stu-id="0b2c3-109">For more information, see [Protect your enterprise data using WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).</span></span>
 
-<span data-ttu-id="bfe3f-110">В Microsoft 365 корпоративный WIP представляет собой сочетание операционной системы Windows 10 Корпоративная и службы Microsoft Intune, которая входит в вашу подписку.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-110">In Microsoft 365 Enterprise, WIP is a combination of Windows 10 Enterprise and Microsoft Intune, which is included with your subscription.</span></span> 
+<span data-ttu-id="0b2c3-110">В Microsoft 365 корпоративный WIP представляет собой сочетание операционной системы Windows 10 Корпоративная и службы Microsoft Intune, которая входит в вашу подписку.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-110">In Microsoft 365 Enterprise, WIP is a combination of Windows 10 Enterprise and Microsoft Intune, which is included with your subscription.</span></span> 
 
-<span data-ttu-id="bfe3f-111">Для развертывания WIP в организации с использованием Microsoft 365 корпоративный выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-111">To deploy WIP in your organization with Microsoft 365 Enterprise:</span></span>
+<span data-ttu-id="0b2c3-111">Для развертывания WIP в организации с использованием Microsoft 365 корпоративный выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-111">To deploy WIP in your organization with Microsoft 365 Enterprise:</span></span>
 
-1. <span data-ttu-id="bfe3f-112">Зарегистрируйте свои устройства Windows в Intune.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-112">Enroll your Windows devices in Intune.</span></span> <span data-ttu-id="bfe3f-113">Это уже должно быть сделано на [Этапе 5. Управление мобильными устройствами](mobility-infrastructure.md).</span><span class="sxs-lookup"><span data-stu-id="bfe3f-113">You should have done this in [Phase 5: Mobile Device Management](mobility-infrastructure.md).</span></span>
-2. <span data-ttu-id="bfe3f-114">Создайте [политику Intune для WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).</span><span class="sxs-lookup"><span data-stu-id="bfe3f-114">Create an [Intune policy for WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).</span></span>
-  - <span data-ttu-id="bfe3f-115">Убедитесь, что список защищенных приложений заполнен.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-115">Ensure that you have filled out your Protected apps list.</span></span>
-  - <span data-ttu-id="bfe3f-116">Выберите уровень защиты WIP.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-116">Choose your WIP protection level.</span></span>
+1. <span data-ttu-id="0b2c3-112">Зарегистрируйте свои устройства Windows в Intune.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-112">Enroll your Windows devices in Intune.</span></span> <span data-ttu-id="0b2c3-113">Это уже должно быть сделано на [Этапе 5. Управление мобильными устройствами](mobility-infrastructure.md).</span><span class="sxs-lookup"><span data-stu-id="0b2c3-113">You should have done this in [Phase 5: Mobile Device Management](mobility-infrastructure.md).</span></span>
+2. <span data-ttu-id="0b2c3-114">Создайте [политику Intune для WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).</span><span class="sxs-lookup"><span data-stu-id="0b2c3-114">Create an [Intune policy for WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure).</span></span>
+  - <span data-ttu-id="0b2c3-115">Убедитесь, что список защищенных приложений заполнен.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-115">Ensure that you have filled out your Protected apps list.</span></span>
+  - <span data-ttu-id="0b2c3-116">Выберите уровень защиты WIP.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-116">Choose your WIP protection level.</span></span>
 
-<span data-ttu-id="bfe3f-117">Также можно использовать WIP с [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm).</span><span class="sxs-lookup"><span data-stu-id="bfe3f-117">You can also use WIP with [System Center Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm).</span></span> 
+<span data-ttu-id="0b2c3-117">Также можно использовать WIP с [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm).</span><span class="sxs-lookup"><span data-stu-id="0b2c3-117">You can also use WIP with [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm).</span></span> 
 
-<span data-ttu-id="bfe3f-118">Дополнительную информацию см. в статье [Советы и рекомендации по WIP]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip).</span><span class="sxs-lookup"><span data-stu-id="bfe3f-118">See [WIP best practices]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip) for more information.</span></span>
+<span data-ttu-id="0b2c3-118">Дополнительную информацию см. в статье [Советы и рекомендации по WIP]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip).</span><span class="sxs-lookup"><span data-stu-id="0b2c3-118">See [WIP best practices]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip) for more information.</span></span>
 
-<span data-ttu-id="bfe3f-119">Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step4), при выполнении которых можно считать данный шаг завершенным.</span><span class="sxs-lookup"><span data-stu-id="bfe3f-119">As an interim checkpoint, see the [exit criteria](infoprotect-exit-criteria.md#crit-infoprotect-step4) corresponding to this step.</span></span>
+<span data-ttu-id="0b2c3-119">Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step4), при выполнении которых можно считать данный шаг завершенным.</span><span class="sxs-lookup"><span data-stu-id="0b2c3-119">As an interim checkpoint, see the [exit criteria](infoprotect-exit-criteria.md#crit-infoprotect-step4) corresponding to this step.</span></span>
 
-## <a name="next-step"></a><span data-ttu-id="bfe3f-120">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="bfe3f-120">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="0b2c3-120">Следующий шаг</span><span class="sxs-lookup"><span data-stu-id="0b2c3-120">Next step</span></span>
 
 |||
 |:-------|:-----|
-|![Шаг 5](./media/stepnumbers/Step5.png)|[<span data-ttu-id="bfe3f-122">Настройка защиты от потери данных Office 365</span><span class="sxs-lookup"><span data-stu-id="bfe3f-122">Configure Office 365 Data Loss Prevention</span></span>](infoprotect-data-loss-prevention.md)|
+|![Шаг 5](../media/stepnumbers/Step5.png)|[<span data-ttu-id="0b2c3-122">Настройка защиты от потери данных Office 365</span><span class="sxs-lookup"><span data-stu-id="0b2c3-122">Configure Office 365 Data Loss Prevention</span></span>](infoprotect-data-loss-prevention.md)|
 
 
