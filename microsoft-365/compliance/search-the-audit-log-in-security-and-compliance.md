@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте Центр безопасности и соответствия требованиям для поиска единого журнала аудита, чтобы просматривать активность пользователей и администраторов в организации в Office 365. '
-ms.openlocfilehash: 43cc0317bfce749affc41efe987fe905e1edae5d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e4e09360e4f07935867b03b3436a5581bb671774
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069968"
+ms.locfileid: "42091372"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -117,14 +117,14 @@ ms.locfileid: "42069968"
   |Azure Active Directory (события входа пользователей)||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Azure Active Directory (события администрирования)||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Защита от потери данных|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Dynamics 365 CRM|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Dynamics 365 CRM||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Обнаружение электронных данных|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Exchange Online|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Power Automate|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Microsoft Project|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Power Apps|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Power Apps||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Power BI|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Центр безопасности и соответствия требованиям|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |SharePoint Online и OneDrive для бизнеса|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
