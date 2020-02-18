@@ -1,5 +1,7 @@
 ---
 title: Шаг 1. Сетевая инфраструктура для Microsoft 365 корпоративный
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть сетевую инфраструктуру для Microsoft 365 корпоративный.
-ms.openlocfilehash: 9fe7f16aef8b9c82ded2c17ce562dffb2194eaa2
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 9a805ffbdbdc19ef5943a0c0ba0ff8f010d3e19b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066606"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Шаг 1. Сетевая инфраструктура для Microsoft 365 корпоративный
 
-![Шаг 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon.png)
+![Шаг 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon.png)
 
 Microsoft 365 корпоративный включает Office 365, Microsoft Intune и различные службы удостоверений и безопасности Microsoft Azure. Для всех этих облачных служб используются безопасные, производительные и надежные подключения с клиентских устройств через Интернет или выделенные каналы. Чтобы разместить эти службы и сделать их доступными клиентам по всему миру, корпорация Майкрософт разработала сетевую инфраструктуру, в которой основное внимание уделено производительности и интеграции. 
 
@@ -37,11 +39,11 @@ Microsoft 365 корпоративный включает Office 365, Microsoft 
 
 |||
 |:-------|:-----|
-|![Шаг 1](./media/stepnumbers/Step1.png)|[Подготовка сети к Microsoft 365](networking-provide-bandwidth-cloud-services.md)|
-|![Шаг 2](./media/stepnumbers/Step2.png)|[Настройка локальных подключений к Интернету для всех офисов](networking-dns-resolution-same-location.md)|
-|![Шаг 3](./media/stepnumbers/Step3.png)|[Удаление разворотов пакетов](networking-avoid-network-hairpins.md)|
-|![Шаг 4](./media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|
-|![Шаг 5](./media/stepnumbers/Step5.png)|[Оптимизация производительности клиентов и служб Office 365](networking-optimize-tcp-performance.md)|
+|![Шаг 1](../media/stepnumbers/Step1.png)|[Подготовка сети к Microsoft 365](networking-provide-bandwidth-cloud-services.md)|
+|![Шаг 2](../media/stepnumbers/Step2.png)|[Настройка локальных подключений к Интернету для всех офисов](networking-dns-resolution-same-location.md)|
+|![Шаг 3](../media/stepnumbers/Step3.png)|[Удаление разворотов пакетов](networking-avoid-network-hairpins.md)|
+|![Шаг 4](../media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|
+|![Шаг 5](../media/stepnumbers/Step5.png)|[Оптимизация производительности клиентов и служб Office 365](networking-optimize-tcp-performance.md)|
 
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](networking-exit-criteria.md) для соответствия требованиям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
@@ -54,11 +56,11 @@ Microsoft 365 корпоративный включает Office 365, Microsoft 
 
 Посмотрите, как корпорация Contoso, вымышленная представительская многонациональная компания, [оптимизировала сетевые устройства и подключения к Интернету](contoso-networking.md) для облачных служб Microsoft 365.
 
-![Корпорация Contoso](./media/contoso-overview/contoso-icon.png)
+![Корпорация Contoso](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|
-|![Шаг 1](./media/stepnumbers/Step1.png)|[Подготовка сети к Microsoft 365](networking-provide-bandwidth-cloud-services.md)|
+|![Шаг 1](../media/stepnumbers/Step1.png)|[Подготовка сети к Microsoft 365](networking-provide-bandwidth-cloud-services.md)|
 

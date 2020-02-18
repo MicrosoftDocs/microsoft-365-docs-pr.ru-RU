@@ -1,5 +1,7 @@
 ---
 title: Блокирование нежелательной почты в изолированной службе EOP
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: msfttracyp
 ms.reviewer: andypunt
@@ -16,12 +18,12 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: Документ для администраторов изолированной службы EOP по предотвращению ложных отрицательных результатов для спама
-ms.openlocfilehash: 1c82bd65906f79898677136e02fd619bbe4c5214
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 6261c183d39b84435110616491f5bd0b2f3f891b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971907"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086596"
 ---
 # <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>Параметры для настройки фильтра нежелательной почты Office 365
 
@@ -41,7 +43,7 @@ ms.locfileid: "39971907"
 
 Вам часто приходит спам в виде массовых рассылок, например информационных бюллетеней или рекламы? Вы можете настроить фильтр нежелательной почты в Office 365, если вы [используете правила потока обработки почты для настройки фильтрации массовых рассылок](use-transport-rules-to-configure-bulk-email-filtering.md) или включите **массовые рассылки** в [расширенных параметрах фильтрации нежелательной почты](advanced-spam-filtering-asf-options.md). В Центре администрирования Exchange сначала выберите **Защита** \> **Фильтр контента**, а затем дважды щелкните нужную политику фильтра. Нажмите **Действия со спамом и массовыми рассылками**, чтобы настроить параметры, как показано ниже.
 
-![Настройка фильтра массовой рассылки в Exchange Online](../media/a45095c2-269d-45b8-a76c-999b5e78da68.png)
+![Настройка фильтра массовой рассылки в Exchange Online](../../media/a45095c2-269d-45b8-a76c-999b5e78da68.png)
 
 ### <a name="block-email-spam-using-spam-filter-block-lists"></a>Блокирование спама с помощью списков блокировки для фильтра нежелательной почты
 
@@ -51,7 +53,7 @@ ms.locfileid: "39971907"
 
 Обеспечить защиту от спама в Office 365, избегая ложных отрицательных результатов, будет проще, если пользователи добавят адрес отправителя спама в свои списки заблокированных отправителей в [Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) или [Outlook в Интернете](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d). В Outlook в Интернете сначала выберите **Параметры** \> **Параметры** \> **Блокировка или разрешение**, а затем добавьте адрес в список **Заблокированные отправители**, как показано ниже.
 
-![Блокировка отправителя в Outlook в Интернете](../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
+![Блокировка отправителя в Outlook в Интернете](../../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
 
 > [!NOTE]
 > Дополнительные сведения о списках надежных отправителей см. в статье [Списки надежных и заблокированных отправителей в Exchange Online](safe-sender-and-blocked-sender-lists-faq.md).
@@ -87,4 +89,4 @@ ms.locfileid: "39971907"
 
 [Защита от спама электронной почты в Office 365](anti-spam-protection.md)
 
-[Предотвращение ложных срабатываний фильтра нежелательной почты с помощью списка надежных отправителей или других средств](../../compliance/prevent-email-from-being-marked-as-spam.md)
+[Предотвращение ложных срабатываний фильтра нежелательной почты с помощью списка надежных отправителей или других средств](prevent-email-from-being-marked-as-spam.md)

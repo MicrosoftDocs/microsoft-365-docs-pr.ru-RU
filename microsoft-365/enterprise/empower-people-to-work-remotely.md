@@ -1,6 +1,8 @@
 ---
 title: Возможности для удаленных работников
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/24/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Настройте инфраструктуру и систему безопасности, позволяющую вашим сотрудникам удаленно работать из любого места и в любое время.
-ms.openlocfilehash: 2544820b577b81062550a8c0a84513f2a8c28668
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: b86071b7e5a6101c328b43177e965856f74995d5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831970"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067763"
 ---
 # <a name="empower-remote-workers"></a>Возможности для удаленных работников
 
@@ -70,9 +72,9 @@ ms.locfileid: "39831970"
 
 Следующие этапы являются пошаговым развертыванием функции Microsoft 365 корпоративный для удаленного доступа и ее внедрения для удаленных работников. Если вы уже развернули элементы из этих этапов, убедитесь в их соответствии указанным требованиям перед переходом к следующему элементу.
 
-<a name="poster"></a> 1-страничное краткое описание этого сценария приведено на [плакате "Возможности для удаленных работников"](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
+<a name="poster"></a> 1-страничное краткое описание этого сценария приведено на [плакате "Возможности для удаленных работников"](../media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf).
 
-[![Плакат "Возможности для удаленных работников"](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+[![Плакат "Возможности для удаленных работников"](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/Empower-Remote-Workers-Poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
@@ -94,7 +96,7 @@ ms.locfileid: "39831970"
 
 Ниже представлена итоговая конфигурация с выделенными элементами идентификации.
 
-![Элементы идентификации для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-id-phase.png)
+![Элементы идентификации для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-id-phase.png)
  
 Для [этапа 3 (Windows 10 Корпоративная)](windows10-infrastructure.md) разверните следующие элементы:
 
@@ -103,13 +105,13 @@ ms.locfileid: "39831970"
 
 Ниже представлена итоговая конфигурация для устройств с Windows 10 Корпоративная.
 
-![Элементы Windows 10 Корпоративная для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
+![Элементы Windows 10 Корпоративная для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
  
 Для [этапа 4 (Office 365 профессиональный плюс)](office365proplus-infrastructure.md) разверните инфраструктуру для установки Office 365 профессиональный плюс или обновите установленный набор Office, например Office 2010 или Office 2013, до Office 365 профессиональный плюс на устройствах организации. Это обеспечит для пользователей наилучшую защиту и возможности совместной работы.
 
 Ниже представлена итоговая конфигурация с набором Office 365 профессиональный плюс, установленным на устройствах.
 
-![Элементы Office 365 профессиональный плюс для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
+![Элементы Office 365 профессиональный плюс для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
  
 Для [этапа 5 (управление мобильными устройствами)](mobility-infrastructure.md) разверните управление устройствами и приложениями Intune с целью применения следующих возможностей:
 
@@ -119,7 +121,7 @@ ms.locfileid: "39831970"
 
 Ниже приведена итоговая конфигурация с выделенными устройствами и политиками, зарегистрированными в Intune.
 
-![Элементы управления мобильными устройствами для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-mdm-phase.png)
+![Элементы управления мобильными устройствами для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-mdm-phase.png)
  
 Для [этапа 6 (защита данных)](infoprotect-infrastructure.md) разработайте и настройте защиту цифровых ресурсов с помощью следующих элементов:
 
@@ -128,13 +130,13 @@ ms.locfileid: "39831970"
 
 Ниже приведена итоговая конфигурация с выделенными метками конфиденциальности и политиками защиты от потери данных.
 
-![Элементы защиты данных для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-ip-phase.png)
+![Элементы защиты данных для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-ip-phase.png)
  
 Для доступа к локальным приложениям можно использовать [прокси-приложение Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy), для которого требуется среда гибридной идентификации.
 
 Ниже представлена итоговая конфигурация с выделенными компонентами прокси-приложения.
 
-![Элементы прокси-приложения для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-app-proxy.png)
+![Элементы прокси-приложения для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-app-proxy.png)
  
 ### <a name="step-2-workloads-for-remote-workers"></a>Шаг 2. Рабочие нагрузки для удаленных работников
 
@@ -146,7 +148,7 @@ ms.locfileid: "39831970"
 
 Ниже представлена итоговая конфигурация с выделенными рабочими нагрузками.
 
-![Рабочие нагрузки Microsoft 365 для удаленных работников](./media/empower-people-to-work-remotely/remote-workers-workloads.png)
+![Рабочие нагрузки Microsoft 365 для удаленных работников](../media/empower-people-to-work-remotely/remote-workers-workloads.png)
  
 ### <a name="deployment-results"></a>Результаты развертывания
 
@@ -165,11 +167,11 @@ ms.locfileid: "39831970"
 
 Ниже приведена итоговая конфигурация для удаленных работников организации при использовании гибридных удостоверений.
 
-![Окончательная конфигурация для организации с гибридными удостоверениями](./media/empower-people-to-work-remotely/remote-workers-hybrid.png) 
+![Окончательная конфигурация для организации с гибридными удостоверениями](../media/empower-people-to-work-remotely/remote-workers-hybrid.png) 
  
 Ниже приведена итоговая конфигурация для удаленных работников организации при использовании облачных удостоверений.
 
-![Окончательная конфигурация для организации с облачными удостоверениями](./media/empower-people-to-work-remotely/remote-workers-cloud-only.png)
+![Окончательная конфигурация для организации с облачными удостоверениями](../media/empower-people-to-work-remotely/remote-workers-cloud-only.png)
 
 ## <a name="phase-2-drive-user-adoption-for-remote-workers"></a>Этап 2. Внедрение возможностей среди удаленных работников
 

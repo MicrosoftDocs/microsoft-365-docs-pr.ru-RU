@@ -1,5 +1,7 @@
 ---
 title: Шаг 5. Управление с помощью групп.
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Группы позволяют автоматизировать управление некоторыми административными задачами.
-ms.openlocfilehash: 49cdb0c3d394cb423d0565d7093f1b32b6661158
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 215bb84cbb0cedc2f1320372ba8239cd51d07c98
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801714"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067276"
 ---
 # <a name="step-5-use-groups-for-management"></a>Шаг 5. Управление с помощью групп
 
-![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-self-service-groups"></a>
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>Разрешение пользователям создавать собственные группы и управлять ими
@@ -66,7 +68,7 @@ ms.locfileid: "40801714"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководства по лаборатории тестирования: автоматизация лицензий и членства в группах](automate-licenses-group-membership-microsoft-365-test-environment.md) |
+|![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководства по лаборатории тестирования: автоматизация лицензий и членства в группах](automate-licenses-group-membership-microsoft-365-test-environment.md) |
 |||
 
 Промежуточной контрольной точкой в данном разделе служат [критерии завершения](identity-exit-criteria.md#crit-identity-dyn-groups).
@@ -97,11 +99,11 @@ ms.locfileid: "40801714"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководства по лаборатории тестирования: автоматизация лицензий и членства в группах](automate-licenses-group-membership-microsoft-365-test-environment.md) |
+|![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководства по лаборатории тестирования: автоматизация лицензий и членства в группах](automate-licenses-group-membership-microsoft-365-test-environment.md) |
 |||
 
 Промежуточной контрольной точкой в данном разделе служат [критерии выхода](identity-exit-criteria.md#crit-identity-group-license).
 
 |||
 |:-------|:-----|
-|![Шаг 6](./media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |
+|![Шаг 6](../media/stepnumbers/Step6.png)| [Настройка управления удостоверениями](identity-configure-identity-governance.md) |

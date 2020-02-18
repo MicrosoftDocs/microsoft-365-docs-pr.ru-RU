@@ -1,5 +1,7 @@
 ---
 title: Этап 3. Доставка приложений Office и бизнес-приложений
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как доставлять приложения Office и бизнес-приложения.
-ms.openlocfilehash: a4bc1a765edf6938ad37d91d8bf94950b6672bfe
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 1cead6563719c49ab591122e0c3864818746d4f0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085352"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Этап 3. Доставка приложений Office и бизнес-приложений
 
-![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-1.png)
+![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="130" width="130" /></td>
 <td><p><strong>Этап 3. Доставка приложений Office и бизнес-приложений</strong></p>
 <p>Убедитесь, что приложения упакованы и готовы для автоматической установки. Узнайте, как упаковка по технологии "нажми и работай" с использованием Office 365 профессиональный плюс предоставляет новые возможности для настройки, установки и обновления приложений Office.</p></td>
-<td><a href="https://aka.ms/ddev3" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev3" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -51,13 +53,13 @@ ms.locfileid: "41112599"
 
 Средства развертывания ПО (такие как Microsoft Endpoint Configuration Manager и Microsoft Intune) также оптимизированы для доставки приложений в пакетах MSI. Проверив свои приложения в Windows 10, вы можете использовать Microsoft Endpoint Configuration Manager (current branch) для их доставки. Если вы используете корпоративный портал в Microsoft Intune, можно расширить ассортимент разрешенных ИТ-отделом приложений в организации, чтобы он включал новейшие приложения, а пользователи могли самостоятельно выбирать нужные.
 
-![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-3.png)
+![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-3.png)
 
 ## <a name="pc-imaging"></a>Создание образа ПК
 
 Еще один популярный способ доставки приложений — создание образа ПК. В этом случае приложения устанавливаются либо в ходе последовательности задач, либо вручную на эталонном компьютере, после чего создается образ системы, в которой уже установлены необходимые приложения. Создание образа для сборки и захвата приложений может сэкономить время при подготовке новых компьютеров, но помните, что операционные системы и приложения в образе могут быстро устареть. Модель накопительных пакетов обновления в Windows 10 и Office 365 профессиональный плюс помогает обойти эту проблему, но не устраняет ее окончательно. Поэтому рекомендуем использовать подход с тонкими образами, устанавливая приложения извне образа во время развертывания.
 
-![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-4.png)
+![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-4.png)
 
 Если вы хотите включить Office 365 профессиональный плюс в свой образ, помните, что в нем используется активация отдельных пользователей. Его не может активировать системный администратор. Используйте средство развертывания Office, чтобы заранее установить Office на устройстве, с которого будет создаваться образ, пропустив вход пользователя. После развертывания образа конечные пользователи смогут войти, используя свои учетные данные Office 365, и активировать Office 365 профессиональный плюс.
 
@@ -73,11 +75,11 @@ Office 365 профессиональный плюс устанавливает
 
 Майкрософт рекомендует использовать [центр развертывания Office](https://config.office.com/) для настройки параметров развертывания и создания XML-файла конфигурации. С помощью центра развертывания Office вы сможете указать, какие приложения и языки будут установлены, как приложения будут обновляться, настройки приложений и параметры установки.
 
-![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-7.png)
+![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-7.png)
 
 Если применяется Configuration Manager, вы можете продолжать использовать его для широкого развертывания Office 365 профессиональный плюс. Configuration Manager (current branch) по умолчанию поддерживает обновленный центр развертывания Office, настройку пакетов для технологии "нажми и работай" во время установки и управление обновлениями программ после нее.
 
-![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
+![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
 [Руководство по развертыванию Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 

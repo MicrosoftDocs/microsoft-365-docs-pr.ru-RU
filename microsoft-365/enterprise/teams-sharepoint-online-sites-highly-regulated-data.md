@@ -1,6 +1,8 @@
 ---
 title: Сайты SharePoint для жестко регламентированных данных
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/31/2019
@@ -11,14 +13,15 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
+- SPO_Content
 ms.custom: ''
 description: Создайте безопасный сайт группы SharePoint для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: f8ccda85256e1f590f80a9302897e2950c59d154
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: c74a2bc59a6ef9d16ecd0dfbed06d577bd98649b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085067"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>Сайты SharePoint для жестко регламентированных данных
 
@@ -59,7 +62,7 @@ ms.locfileid: "38699749"
 
 Ниже приведен пример конфигурации безопасного сайта SharePoint.
 
-![Сценарий сайтов SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
+![Сценарий сайтов SharePoint для жестко регламентированных данных](../media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
 Этот сценарий требует, чтобы у вас уже были развернуты:
 
@@ -68,9 +71,9 @@ ms.locfileid: "38699749"
 
 Описанные ниже поэтапные шаги помогут выполнить проектирование, настройку и внедрение сайтов SharePoint  для жестко регламентированных данных.
 
-<a name="poster"></a> Одностраничную сводку этого сценария см. на плакате [Сайты SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf).
+<a name="poster"></a> Одностраничную сводку этого сценария см. на плакате [Сайты SharePoint для жестко регламентированных данных](../media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf).
 
-[Плакат ![Сайты SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
+[Плакат ![Сайты SharePoint для жестко регламентированных данных](../media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](../media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePoint-Sites-Highly-Regulated-Data.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
@@ -170,11 +173,11 @@ ms.locfileid: "38699749"
 
 Ниже представлена итоговая конфигурация, использующая вложенную метку для метки жестко регламентированных данных.
 
-![Сценарий сайтов SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
+![Сценарий сайтов SharePoint для жестко регламентированных данных](../media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
 Ниже показан пример применения вложенной метки к файлу, хранящемуся на сайте.
 
-![Сценарий сайтов SharePoint для жестко регламентированных данных](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-example-file.png)
+![Сценарий сайтов SharePoint для жестко регламентированных данных](../media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-example-file.png)
 
 
 ## <a name="phase-3-drive-user-adoption"></a>Этап 3. Внедрение среди пользователей

@@ -1,5 +1,7 @@
 ---
 title: Защита файлов в среде разработки и тестирования в Teams
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,18 +17,18 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: 'Сводка: создавайте конфиденциальные и строго конфиденциальные команды в Microsoft Teams для файлов в среде разработки и тестирования.'
-ms.openlocfilehash: 26fed13973a87acdd62957dcfc2e0f69323234ef
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 7af36e5a3af94297124c6f03cdead514ac941e5b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202300"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082275"
 ---
 # <a name="secure-teams-for-files-in-a-devtest-environment"></a>Защита файлов в среде разработки и тестирования в Teams
 
 В этой статье приведены пошаговые инструкции по созданию среды разработки и тестирования, включающей конфиденциальные и строго конфиденциальные команды для решения [защиты файлов в Microsoft Teams](secure-files-in-teams.md).
   
-![Конфиденциальные и строго конфиденциальные команды в Microsoft Teams.](../media/sensitive-highly-confidential-teams-dev-test.png)
+![Конфиденциальные и строго конфиденциальные команды в Microsoft Teams.](../../media/sensitive-highly-confidential-teams-dev-test.png)
   
 В этой среде разработки и тестирования можно экспериментировать и настраивать параметры согласно вашим потребностям, прежде чем развертывать соответствующие команды в рабочей среде.
   
@@ -86,7 +88,7 @@ ms.locfileid: "39202300"
   
 Введите название организации, адрес и общий пароль и выполните эти команды в командной строке PowerShell или интегрированной среде сценариев (ISE), чтобы создать учетные записи пользователей и добавить их в свои группы:
   
-```
+```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
 $location="<the ISO ALPHA2 country code, such as US for the United States>"
 $commonPassword="<common password for all the new accounts>"
@@ -167,7 +169,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 Чтобы создать команду конфиденциального уровня для участников маркетинговой группы (чтобы они могли совместно работать над текущими маркетинговыми кампаниями), выполните указанные ниже действия.
 
-1. [Создайте закрытую команду](https://support.office.com//article/create-a-team-from-scratch-174adf5f-846b-4780-b765-de1a0a737e2b) с именем **Маркетинговые кампании**.
+1. [Создайте закрытую команду](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) с именем **Маркетинговые кампании**.
 2. Откройте команду **Маркетинговые кампании**.
 3.  На панели инструментов для команды щелкните **Файлы**.
 4.  Щелкните многоточие, а затем — **Открыть в SharePoint**.
@@ -226,13 +228,13 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 Ниже приведена итоговая конфигурация для команды "Маркетинговые кампании".
 
-![Конфигурация для команды "Маркетинговые кампании".](../media/sensitive-team-config-dev-test.png)
+![Конфигурация для команды "Маркетинговые кампании".](../../media/sensitive-team-config-dev-test.png)
   
 ### <a name="company-strategy-team-site"></a>Сайт команды "Стратегия компании"
 
 Чтобы создать команду строго конфиденциального уровня для участников команды "Старшие руководители" для совместной работы над стратегией компании, выполните указанные ниже действия.
 
-1. [Создайте закрытую команду](https://support.office.com//article/create-a-team-from-scratch-174adf5f-846b-4780-b765-de1a0a737e2b) с именем **Стратегия компании**.
+1. [Создайте закрытую команду](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) с именем **Стратегия компании**.
 2. Откройте команду **Стратегия компании**.
 3.  На панели инструментов для команды щелкните **Файлы**.
 4.  Щелкните многоточие, а затем — **Открыть в SharePoint**.
@@ -300,7 +302,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 Ниже приведена итоговая конфигурация для команды "Стратегия компании".
 
-![Конфигурация команды "Стратегия компании".](../media/highlyconfidential-team-config-dev-test.png) 
+![Конфигурация команды "Стратегия компании".](../../media/highlyconfidential-team-config-dev-test.png) 
 
 Файлам в разделе документов базового сайта SharePoint "Стратегия компании" назначена метка хранения "Строго конфиденциально", и на них распространяется действие настроенной политики DLP. Файлам также можно назначить метку "Стратегия компании".    
   

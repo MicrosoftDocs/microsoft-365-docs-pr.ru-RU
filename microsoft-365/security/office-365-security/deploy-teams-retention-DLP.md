@@ -1,5 +1,7 @@
 ---
 title: Защита файлов в командах с помощью меток хранения и политики защиты от потери данных
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: Сводка. Применяйте метки хранения и политики защиты от потери данных для файлов в командах с различными уровнями защиты информации.
-ms.openlocfilehash: 89320a074d5d52062268a7585081849ac42d2025
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 94d8a02d0ea88fa8a05cd6a2c95a2db866d72fad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083415"
 ---
 # <a name="protect-files-in-teams-with-retention-labels-and-dlp"></a>Защита файлов в командах с помощью меток хранения и политики защиты от потери данных
 
@@ -114,7 +116,7 @@ ms.locfileid: "37925865"
     
 Ниже показана итоговая конфигурация.
   
-![Метки хранения для четырех типов базовых сайтов SharePoint.](../media/retention-labels.png)
+![Метки хранения для четырех типов базовых сайтов SharePoint.](../../media/retention-labels.png)
   
 ## <a name="dlp-policies-for-your-underlying-sharepoint-sites"></a>Политики защиты от потери данных для базовых сайтов SharePoint
 
@@ -165,7 +167,7 @@ ms.locfileid: "37925865"
     
 Здесь показана итоговая конфигурация для конфиденциальных команд.
   
-![Политика защиты от потери данных для конфиденциальной команды с использованием метки хранения "Конфиденциальный"](../media/retention-labels-sensitive-dlp.png)
+![Политика защиты от потери данных для конфиденциальной команды с использованием метки хранения "Конфиденциальный"](../../media/retention-labels-sensitive-dlp.png)
   
 После этого выполните указанные ниже действия, чтобы настроить политику защиты от потери данных, которая блокирует пользователей, когда они предоставляют доступ к документу с базового сайта SharePoint пользователям за пределами организации.
   
@@ -211,7 +213,7 @@ ms.locfileid: "37925865"
     
 Ниже показана итоговая конфигурация для команд со строго конфиденциальным уровнем защиты.
   
-![Политика защиты от потери данных для строго конфиденциальной команды с использованием метки хранения "Строго конфиденциальный"](../media/retention-labels-highly-confidential-dlp.png)
+![Политика защиты от потери данных для строго конфиденциальной команды с использованием метки хранения "Строго конфиденциальный"](../../media/retention-labels-highly-confidential-dlp.png)
   
 ## <a name="next-step"></a>Дальнейшие действия
 

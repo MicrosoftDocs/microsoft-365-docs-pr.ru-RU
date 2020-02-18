@@ -1,5 +1,7 @@
 ---
 title: Условия, при выполнении которых можно считать Information Protection настроенной
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите условия для служб и инфраструктуры, основанных на Information Protection, и проверьте, соответствует ли используемая вами конфигурация требованиям Microsoft 365 корпоративный.
-ms.openlocfilehash: f4896baeb4c18fc1eabac10b15f3ad8e150ab260
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370136"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067116"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Условия, при выполнении которых можно считать Information Protection настроенной
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Убедитесь, что инфраструктура защиты информации соответствует указанным ниже обязательным условиям и что рассмотрены необязательные условия.
 

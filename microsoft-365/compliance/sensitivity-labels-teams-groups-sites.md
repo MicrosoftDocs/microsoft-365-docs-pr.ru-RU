@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы можете применять метки к Microsoft Teams, группам Office 365 и сайтам SharePoint.
-ms.openlocfilehash: 7fd19d9d8f84bd6463d61aec68dbd86c4fc627c0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 297ccd3e17f6c5a747e18a46747e6f2c23311df0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601566"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069838"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Использование меток конфиденциальности в Microsoft Teams, группах Office 365 и сайтах SharePoint (общедоступная предварительная версия)
 
@@ -54,9 +54,9 @@ ms.locfileid: "41601566"
 
 Пример:
 
-![Метка конфиденциальности при создании сайта группы в SharePoint](media/sensitivity-label-new-team-site.png)
+![Метка конфиденциальности при создании сайта группы в SharePoint](../media/sensitivity-label-new-team-site.png)
 
-![Метка конфиденциальности, отображаемая в классическом приложении Word](media/sensitivity-label-word.png)
+![Метка конфиденциальности, отображаемая в классическом приложении Word](../media/sensitivity-label-word.png)
 
 ## <a name="enable-this-preview"></a>Включение этой предварительной версии
 
@@ -124,7 +124,7 @@ ms.locfileid: "41601566"
     - Гостевой доступ. Вы можете указать, можно ли добавлять гостей в группу. [Сведения об управлении гостевым доступом в группах Office 365](/office365/admin/create-groups/manage-guest-access-in-groups)
     - Неуправляемые устройства. Этот параметр позволяет заблокировать или ограничить доступ к контенту SharePoint с устройств, не присоединенных к гибридной среде AD или не соответствующих требованиям в Intune. Если вы выбрали неуправляемые устройства, вам потребуется перейти в Azure AD, чтобы завершить настройку политики. Сведения см. в статье [Управление доступом с неуправляемых устройств](/sharepoint/control-access-from-unmanaged-devices).
     
-    ![Вкладка "Параметры сайта и группы"](media/edit-sensitivity-label-site-group.png)
+    ![Вкладка "Параметры сайта и группы"](../media/edit-sensitivity-label-site-group.png)
 
 > [!IMPORTANT]
 > Когда вы применяете метку к команде, группе или сайту, в силу вступают только параметры сайта и группы. Другие параметры, например шифрование и маркировка контента, не применяются ко всему содержимому в команде, группе или на сайте.
@@ -184,11 +184,11 @@ ms.locfileid: "41601566"
 
 [Дополнительные сведения о метках конфиденциальности для Teams](https://docs.microsoft.com/microsoftteams/sensitivity-labels)
 
-![Параметр конфиденциальности при создании новой команды](media/privacy-setting-new-team.png)
+![Параметр конфиденциальности при создании новой команды](../media/privacy-setting-new-team.png)
 
 После создания команды метка конфиденциальности отображается в правом верхнем углу всех каналов.
 
-![Отображение метки конфиденциальности в команде](media/privacy-setting-teams.png)
+![Отображение метки конфиденциальности в команде](../media/privacy-setting-teams.png)
 
 Служба автоматически применяет такую же метку конфиденциальности к группе Office 365 и подключенному сайту группы SharePoint.
 
@@ -196,7 +196,7 @@ ms.locfileid: "41601566"
 
 В Outlook в Интернете новое поле **Конфиденциальность** содержит опубликованные метки. Если пользователям нужны дополнительные сведения, они могут щелкнуть значок справки, чтобы ознакомиться с подробностями о доступных метках и связанных политиках.
 
-![Создание группы и выбор параметра в разделе "Конфиденциальность"](media/sensitivity-label-new-group.png)
+![Создание группы и выбор параметра в разделе "Конфиденциальность"](../media/sensitivity-label-new-group.png)
 
 ## <a name="apply-a-sensitivity-label-to-a-new-site"></a>Применение метки конфиденциальности к новому сайту
 
@@ -206,17 +206,17 @@ ms.locfileid: "41601566"
 
 Когда пользователи создают современный сайт группы или информационный сайт, метка конфиденциальности уже выбрана по умолчанию. Пользователи могут щелкнуть значок справки, чтобы узнать больше о метках.
 
-![Создание сайта и выбор параметра в разделе "Конфиденциальность"](media/sensitivity-label-new-communication-site.png)
+![Создание сайта и выбор параметра в разделе "Конфиденциальность"](../media/sensitivity-label-new-communication-site.png)
 
 Когда пользователь переходит на сайт, он может увидеть имя метки и примененные политики.
 
-![Сайт с примененной меткой конфиденциальности](media/sensitivity-label-site.png)
+![Сайт с примененной меткой конфиденциальности](../media/sensitivity-label-site.png)
 
 ## <a name="manage-sensitivity-labels-in-the-sharepoint-admin-center"></a>Управление метками конфиденциальности в Центре администрирования SharePoint
 
 Чтобы просмотреть и изменить метки, используйте страницу "Активные сайты" в новом Центре администрирования SharePoint.
 
-![Столбец "Конфиденциальность" на странице "Активные сайты"](media/manage-site-sensitivity-labels.png)
+![Столбец "Конфиденциальность" на странице "Активные сайты"](../media/manage-site-sensitivity-labels.png)
 
 [Дополнительные сведения об управлении сайтами в новом Центре администрирования SharePoint](/sharepoint/manage-sites-in-new-admin-center).
 

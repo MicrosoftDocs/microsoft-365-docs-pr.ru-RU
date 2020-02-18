@@ -1,5 +1,7 @@
 ---
 title: Шаг 4. Настройка обхода трафика
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Настройте веб-браузеры и пограничные устройства для обхода трафика в доверенные места Office 365.
-ms.openlocfilehash: 32aa2216856d5a519fddb55701be745a9dacbd87
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 71f62c5e245962f3514c49477e3cdeda17cb6397
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066694"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>Шаг 4. Настройка обхода трафика
 
 *Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Этап 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 Так как обычный интернет-трафик может быть опасным, в традиционных сетях организаций для обеспечения безопасности используются пограничные устройства, такие как прокси-серверы, устройства расшифровки и анализа SSL-трафика, устройства анализа пакетов и системы защиты от потери данных.  Некоторые проблемы, связанные с устройствами сетевого перехвата, описаны в статье [Использование сторонних сетевых устройств или решений для трафика Office 365](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365).
 
@@ -46,7 +48,7 @@ ms.locfileid: "37370146"
 
 Ниже описаны рекомендации для вашей сетевой инфраструктуры.
 
-![Рекомендации по оптимизации локального трафика](./media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
+![Рекомендации по оптимизации локального трафика](../media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
 
 К пограничным устройствам относятся брандмауэры, устройства расшифровки и анализа SSL-трафика, устройства анализа пакетов и системы защиты от потери данных. Чтобы настроить или обновить конфигурацию пограничных устройств, можно использовать сценарий или вызов метода REST для применения структурированного списка конечных точек в веб-службе конечных точек Office 365. Дополнительные сведения см. в статье [Веб-служба IP-адресов и URL-адресов в Office 365](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
 
@@ -59,7 +61,7 @@ ms.locfileid: "37370146"
 
 |||
 |:-------|:-----|
-|![Шаг 5](./media/stepnumbers/Step5.png)|[Оптимизация производительности клиентов и служб Office 365](networking-optimize-tcp-performance.md) |
+|![Шаг 5](../media/stepnumbers/Step5.png)|[Оптимизация производительности клиентов и служб Office 365](networking-optimize-tcp-performance.md) |
 
 
 

@@ -1,5 +1,7 @@
 ---
 title: Шаг 2. Настройка классификации для среды
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как настроить различные способы классификации данных в организации.
-ms.openlocfilehash: e1f0a6b9bdc4b6844037e7e873ed321942e8258e
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370416"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067256"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Шаг 2. Настройка классификации для среды
 
 *Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 На этом шаге вы проведете работу с юридическим отделом и отделом соответствия требованиям и определите схему классификации данных в своей организации.
 
@@ -100,7 +102,7 @@ ms.locfileid: "37370416"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: классификация данных](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
+|![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: классификация данных](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step2), при выполнении которых можно считать данный шаг завершенным.
@@ -109,5 +111,5 @@ ms.locfileid: "37370416"
 
 |||
 |:-------|:-----|
-|![Шаг 3](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Office 365](infoprotect-configure-increased-security-office-365.md)|
+|![Шаг 3](../media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Office 365](infoprotect-configure-increased-security-office-365.md)|
 

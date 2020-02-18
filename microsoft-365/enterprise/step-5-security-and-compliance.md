@@ -1,5 +1,7 @@
 ---
 title: Шаг 5. Вопросы по безопасности и соответствию требованиям
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Важные вопросы по безопасности и соответствию требованиям в Windows и Office.
-ms.openlocfilehash: b4ef8b4d4e5e6277ea129b5a9454983459266462
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 1d38347ca1bdf152a891cfd147ec3fabf552ff3d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112563"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085275"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>Шаг 5. Вопросы по безопасности и соответствию требованиям
 
-![](media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-1.png)
+![](../media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="135" width="135" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="135" width="135" /></td>
 <td><p><strong>Шаг 5. Вопросы по безопасности и соответствию требованиям</strong></p>
 <p>Windows 10 и Office 365 профессиональный плюс предоставляют новые способы защиты данных, устройств и пользователей, а также быстрого выявления угроз и реагирования на них. Кроме того, узнайте, как устранять распространенные проблемы, связанные с шифрованием дисков, приложениями для защиты от вредоносных программ и политиками при переходе на Windows 10.</p></td>
-<td><a href="https://aka.ms/ddev5" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -63,7 +65,7 @@ ms.locfileid: "41112563"
 
 Параметры групповой политики Active Directory, используемые для более ранних версий Windows и Office, не всегда можно перенести напрямую в Windows 10 и Office 365 профессиональный плюс. Существуют различные факторы, связанные с новыми возможностями для обеспечения безопасности и соответствия требованиям. Рекомендуется определить базовые характеристики политики безопасности для текущих версий приложений Windows и Office с помощью набора средств для безопасности и соответствия требованиям Майкрософт. Кроме того, стоит рассмотреть политики управления мобильными устройствами в Microsoft Intune.
 
-![](media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-3.png)
+![](../media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-3.png)
 
 ## 
 

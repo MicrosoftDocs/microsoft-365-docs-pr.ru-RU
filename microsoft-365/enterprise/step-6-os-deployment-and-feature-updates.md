@@ -1,5 +1,7 @@
 ---
 title: Шаг 6. Обновления компонентов и развертывание ОС
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте о возможностях развертывания ОС и обновления компонентов.
-ms.openlocfilehash: 7da7c9ade2be43e8c60726bafd69cc7939b7bddc
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 24b6cf30398031cf2bf4032795013338fec39ffb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085240"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Шаг 6. Обновления компонентов и развертывание ОС
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Step 6" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Step 6" height="144" width="144" /></td>
 <td><p><strong>Шаг 6. Обновления компонентов и развертывание ОС</strong></p>
 <p>Развертывание на основе последовательности задач используется для автоматизации крупномасштабного, поэтапного развертывания исходного состояния системы, обновления и замены компьютеров. Последовательность задач при обновлении помогает также не забывать установить значительные полугодичные обновления. Windows Autopilot — это недавнее дополнение, оптимизирующее процесс приобретения нового компьютера.</p></td>
-<td><a href="https://aka.ms/ddev6" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-19.png" alt="Step 6" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev6" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-19.png" alt="Step 6" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -81,7 +83,7 @@ ms.locfileid: "41112683"
 
 [Проверка перед обновлением в случае Windows 10 с помощью setup.exe](https://blogs.technet.microsoft.com/mniehaus/2015/08/23/windows-10-pre-upgrade-validation-using-setup-exe/)
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-3.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-3.png)
 
 С помощью сценария обновления на месте можно перейти на Windows 10 с устаревших версий Windows, а также выполнить обновление предыдущих версий Windows 10. Когда программа установки Windows завершит обновление, ваша последовательность задач может выполняться и дальше, обновляя приложения Office, заменяя драйверы и применяя параметры персонализации. Можно также использовать последовательность задач обновления, чтобы перед установкой выполнить задачи или проверки, необходимые для установки новой версии.
 
@@ -93,7 +95,7 @@ ms.locfileid: "41112683"
 
 При планировании развертывания определяют целевые компьютеры для развертывания на "чистом" компьютере, обновления, замены и установки новой версии. В этом случае рекомендуем применять поэтапное развертывание к группам похожих компьютеров. Таким образом можно проверить совместимость, доставку и автоматизацию, принятие пользователями, использование полосы пропускания сети и прочие факторы, а затем масштабировать развертывание.
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
 
 ### <a name="recommended-tools-microsoft-endpoint-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>Рекомендуемые средства: Microsoft Endpoint Configuration Manager (Current Branch) и Microsoft Deployment Toolkit
 
@@ -103,7 +105,7 @@ ms.locfileid: "41112683"
 
   - Другой популярный вариант развертывания — бесплатное средство **[Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)** (MDT), с помощью которого обычно развертывают операционные системы в компаниях малого и среднего бизнеса. В этом случае требуется очень небольшая инфраструктура. MDT интегрируется со службами развертывания Windows (WDS) для загрузки из сети и поддерживает все четыре типа развертывания, а также установку приложений, драйверов и параметров. Разумеется, MDT можно интегрировать с Configuration Manager.
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-5.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-5.png)
 
 ### <a name="windows-autopilot"></a>Windows Autopilot
 

@@ -1,5 +1,7 @@
 ---
 title: Этап 4. Перенос файлов и параметров пользователей
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,25 +15,25 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как перенести файлы и параметры пользователей.
-ms.openlocfilehash: e1def35a631f8a90ee699c6ed7129216015e5182
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 9332542e5b87de3e3c237f969a3842545eb03dc4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085296"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Этап 4. Перенос файлов и параметров пользователя
 
 Перемещение файлов и параметров пользователей на новые или обновленные компьютеры — ответственный процесс. Вы можете перенести каждый компьютер вручную или выбрать один из нескольких способов автоматизации. Какой бы способ переноса вы ни выбрали, необходимо решить три основных вопроса: перенос файлов пользователей, их параметров и управление макетами меню "Пуск" и панели задач Windows 10.
 
-![](media/step-4-user-files-and-settings-migration-media/step-4-user-files-and-settings-migration-media-1.png)
+![](../media/step-4-user-files-and-settings-migration-media/step-4-user-files-and-settings-migration-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="Step 4" height="135" width="135" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="Step 4" height="135" width="135" /></td>
 <td><p><strong>Этап 4. Файлы и параметры пользователей</strong></p>
 <p>При обновлении или замене компьютера, сэкономьте время путем автоматизации резервного копирования и восстановления состояния пользователя. Новые возможности облачной синхронизации файлов позволяют выполнять для каждого пользователя синхронизацию с OneDrive папок рабочего стола, документов и изображений для удобного доступа к файлам из новых экземпляров Windows.</p></td>
-<td><a href="https://aka.ms/ddev4" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-17.png" alt="Step 4" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev4" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-17.png" alt="Step 4" height="130" width="231" /></a></td>
 </thead>
 </table>
 

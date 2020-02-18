@@ -1,5 +1,7 @@
 ---
 title: Шаг 2. Настройка локальных подключений к Интернету для всех офисов
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как настроить разрешение DNS для повышения производительности.
-ms.openlocfilehash: b47131b9a5f854c630f5d54bd4d3b4738ed953b3
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 8b4302c06e75c59a1b99eb60399c9df897ad17ea
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370306"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066672"
 ---
 # <a name="step-2-configure-local-internet-connections-for-each-office"></a>Шаг 2. Настройка локальных подключений к Интернету для всех офисов
 
 *Этот шаг — обязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Этап 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 На шаге 2 вы настраиваете локальные подключения к Интернету с использованием локальных DNS-серверов для всех офисов. Это необходимо для того, чтобы снизить задержку подключения и обеспечить подключение локальных клиентских компьютеров к ближайшей точке входа в облачные службы Microsoft 365.
 
@@ -32,13 +34,13 @@ ms.locfileid: "37370306"
 
 Глобальная сеть Майкрософт включает инфраструктуру *Distributed Service Front Door* — высокодоступную и масштабируемую граничную область сети с географически распределенными расположениями. Она разрывает подключение конечных пользователей в серверной части и эффективно перенаправляет трафик в глобальной сети Майкрософт.
 
-![Глобальная сеть Майкрософт](./media/networking-dns-resolution-same-location/microsoft-global-network.png)
+![Глобальная сеть Майкрософт](../media/networking-dns-resolution-same-location/microsoft-global-network.png)
 
 Для обеспечения максимальной производительности локальные клиенты должны иметь доступ к ближайшему расположению Front Door, а не отправлять трафик через сетевую магистраль на расположение, ближайшее к центральному подключению организации к Интернету.
 
 Приведем пример.
 
-![Пример использования глобальной сети Майкрософт](./media/networking-dns-resolution-same-location/microsoft-global-network-example.png)
+![Пример использования глобальной сети Майкрософт](../media/networking-dns-resolution-same-location/microsoft-global-network-example.png)
 
 Если пользователь в парижском филиале хочет получить доступ к сайту SharePoint Online, 
 
@@ -61,4 +63,4 @@ ms.locfileid: "37370306"
 
 |||
 |:-------|:-----|
-|![Шаг 3](./media/stepnumbers/Step3.png)|[Удаление разворотов пакетов](networking-avoid-network-hairpins.md)|
+|![Шаг 3](../media/stepnumbers/Step3.png)|[Удаление разворотов пакетов](networking-avoid-network-hairpins.md)|

@@ -1,6 +1,8 @@
 ---
 title: Teams для строго регулируемых данных
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 12/13/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создайте защищенную команду для хранения наиболее важных и конфиденциальных файлов.
-ms.openlocfilehash: b35c4e8332b73b44042430651cbba9daa2c59c04
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e2499c6e9061704846f4649ade43f74bd5632e8b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801424"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084288"
 ---
 # <a name="teams-for-highly-regulated-data"></a>Teams для строго регулируемых данных
 
@@ -42,15 +44,15 @@ ms.locfileid: "40801424"
 
 Ниже показана итоговая конфигурация с меткой конфиденциальности.
 
-![Настройка сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
+![Настройка сценария защищенной команды](../media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
 
 Краткий обзор приведен в этом коротком видеоролике.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
-<a name="poster"></a> Одностраничную сводку этого сценария см. на плакате [Teams для строго регулируемых данных](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf).
+<a name="poster"></a> Одностраничную сводку этого сценария см. на плакате [Teams для строго регулируемых данных](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf).
 
-[Плакат ![Teams для строго регулируемых данных](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+[Плакат ![Teams для строго регулируемых данных](../media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
@@ -84,7 +86,7 @@ ms.locfileid: "40801424"
 
 Ниже представлены разрешения по умолчанию для сайта команды.
 
-![Разрешения по умолчанию для сайта команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-default-site-permissions.png)
+![Разрешения по умолчанию для сайта команды](../media/secure-teams-highly-regulated-data-scenario/secure-team-default-site-permissions.png)
  
 >[!Note]
 >Если вы просматриваете группу SharePoint владельцев \<имя команды> на наличие разрешений "Изменить", в ней не отображаются владельцы \<имя команды>.
@@ -99,7 +101,7 @@ ms.locfileid: "40801424"
 
 Ниже показана итоговая конфигурация на текущий момент.
 
-![Шаг 2 настройки сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-step2.png)
+![Шаг 2 настройки сценария защищенной команды](../media/secure-teams-highly-regulated-data-scenario/secure-team-step2.png)
  
 ### <a name="step-3-configure-the-underlying-sharepoint-site-for-additional-security"></a>Шаг 3. Настройка базового сайта SharePoint для дополнительной безопасности
 
@@ -114,7 +116,7 @@ ms.locfileid: "40801424"
 
 Ниже показана итоговая конфигурация на текущий момент.
 
-![Шаг 3 настройки сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-step3.png)
+![Шаг 3 настройки сценария защищенной команды](../media/secure-teams-highly-regulated-data-scenario/secure-team-step3.png)
 
  
 ### <a name="step-4-create-a-retention-label-and-dlp-policy"></a>Шаг 4. Создание метки хранения и политики защиты от потери данных
@@ -127,7 +129,7 @@ ms.locfileid: "40801424"
 
 Ниже показана итоговая конфигурация на текущий момент.
 
-![Шаг 4 настройки сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-step4.png)
+![Шаг 4 настройки сценария защищенной команды](../media/secure-teams-highly-regulated-data-scenario/secure-team-step4.png)
  
 ### <a name="step-5-create-a-sensitivity-label-or-a-sublabel-of-the-highly-regulated-sensitivity-label"></a>Шаг 5. Создание метки конфиденциальности или вложенной метки для строго регулируемых данных
 
@@ -148,11 +150,11 @@ ms.locfileid: "40801424"
 
 Ниже представлена итоговая конфигурация с новой меткой.
 
-![Шаг 5 настройки сценария защищенной команды](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
+![Шаг 5 настройки сценария защищенной команды](../media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
 
 Ниже показаны отношения между метками конфиденциальности и группой команды.
 
-![Отношения между группой команды и разрешениями меток](./media/secure-teams-highly-regulated-data-scenario/secure-team-label-permissions.png)
+![Отношения между группой команды и разрешениями меток](../media/secure-teams-highly-regulated-data-scenario/secure-team-label-permissions.png)
 
 
 >[!Note]
@@ -178,7 +180,7 @@ ms.locfileid: "40801424"
 
 Ниже представлены итоговые разрешения для метки.
 
-![Пример настраиваемых разрешений для просмотра файлов с метками](./media/secure-teams-highly-regulated-data-scenario/secure-team-custom-view-permissions.png)
+![Пример настраиваемых разрешений для просмотра файлов с метками](../media/secure-teams-highly-regulated-data-scenario/secure-team-custom-view-permissions.png)
  
 Посетители сайта смогут напрямую получить доступ к сайту команды и просмотреть содержимое файлов с примененными вложенными метками. Но так как они не являются участниками группы команды, они не смогут получить доступ к команде и ее ресурсам.
 
@@ -191,7 +193,7 @@ ms.locfileid: "40801424"
 
 Участники группы команды могут получить доступ к команде и всем ее ресурсам, включая чаты, собрания и другие приложения. При работе с файлами из раздела **Файлы** канала участники группы команды должны назначать метку конфиденциальности или вложенную метку файлам, создаваемым для защищенной команды. Приведем пример.
 
-![Пример метки, применяемой к файлу в защищенной команде](./media/secure-teams-highly-regulated-data-scenario/secure-team-label-applied.png)
+![Пример метки, применяемой к файлу в защищенной команде](../media/secure-teams-highly-regulated-data-scenario/secure-team-label-applied.png)
  
 После применения метки к файлу он становится защищенным. Участники группы команды могут открывать его в Teams и совместно работать с ним в режиме реального времени. Он зашифрован и содержит разрешения на совместное редактирование, настроенные для участников группы команды. Если файл покидает сайт и пересылается злоумышленнику, ему потребуется предоставить учетные данные пользователя, являющегося участником группы команды, чтобы открыть его и просмотреть содержимое. 
 
@@ -222,7 +224,7 @@ ms.locfileid: "40801424"
 
 Чтобы создать собственную тестовую среду для тестирования команд с применением конфиденциальных и строго конфиденциальных файлов, см. [эти инструкции](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-team-for-files-in-a-dev-test-environment). 
 
-![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)
+![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)
 
 ## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Как корпорация Contoso использовала защищенную команду для сверхсекретного проекта
 

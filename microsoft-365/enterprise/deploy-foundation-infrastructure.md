@@ -1,6 +1,8 @@
 ---
 title: Базовая инфраструктура Microsoft 365 для предприятий
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 09/19/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Понятие основных этапов развертывания базовой инфраструктуры Microsoft 365 для предприятий в организации, также называемом базовым развертыванием.
-ms.openlocfilehash: 78bfaf64fc247a88b30df4f2cf2a7f8b962dfdb6
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 26f95b9e7fb951910b983defb8b80162f39c37a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801964"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067984"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Базовая инфраструктура Microsoft 365 для предприятий
 
@@ -28,12 +30,12 @@ ms.locfileid: "40801964"
 
 | | Этап | Результаты |
 |:-------|:-----|:-----|
-|![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[Этап 1. Сеть](networking-infrastructure.md)| Сеть оптимизирована для доступа к облачным службам Microsoft 365. |
-|![Этап 2. Идентификация](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[Этап 2. Идентификация](identity-infrastructure.md)| Учетные записи администраторов защищены, пользователи и группы, синхронизированы, а проверка подлинности пользователя обладает высокой надежностью. |
-|![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Этап 3. Windows 10 Корпоративная](windows10-infrastructure.md)| На действующих компьютерах под управлением Windows операционную систему можно обновить до Windows 10 Корпоративная, а на новых устройствах сразу устанавливается Windows 10 Корпоративная. |
-|![Этап 4. Office 365 профессиональный плюс](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Этап 4. Office 365 профессиональный плюс](office365proplus-infrastructure.md)| Для существующих пользователей можно обновить лицензию Microsoft Office до Office 365 профессиональный плюс. |
-|![Этап 5. Управление мобильными устройствами](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Этап 5. Управление мобильными устройствами](mobility-infrastructure.md)| Ваши устройства можно регистрировать и контролировать. |
-|![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Этап 6. Защита данных](infoprotect-infrastructure.md)| Средства безопасности Office 365 включены, а метки и политики для защиты документов и электронной почты готовы. |
+|![Этап 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon-small.png)|[Этап 1. Сеть](networking-infrastructure.md)| Сеть оптимизирована для доступа к облачным службам Microsoft 365. |
+|![Этап 2. Идентификация](../media/deploy-foundation-infrastructure/identity_icon-small.png)|[Этап 2. Идентификация](identity-infrastructure.md)| Учетные записи администраторов защищены, пользователи и группы, синхронизированы, а проверка подлинности пользователя обладает высокой надежностью. |
+|![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[Этап 3. Windows 10 Корпоративная](windows10-infrastructure.md)| На действующих компьютерах под управлением Windows операционную систему можно обновить до Windows 10 Корпоративная, а на новых устройствах сразу устанавливается Windows 10 Корпоративная. |
+|![Этап 4. Office 365 профессиональный плюс](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[Этап 4. Office 365 профессиональный плюс](office365proplus-infrastructure.md)| Для существующих пользователей можно обновить лицензию Microsoft Office до Office 365 профессиональный плюс. |
+|![Этап 5. Управление мобильными устройствами](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[Этап 5. Управление мобильными устройствами](mobility-infrastructure.md)| Ваши устройства можно регистрировать и контролировать. |
+|![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[Этап 6. Защита данных](infoprotect-infrastructure.md)| Средства безопасности Office 365 включены, а метки и политики для защиты документов и электронной почты готовы. |
 
 Этапы начинаются с самых основных (сеть и идентификация), а затем создаются уровни параметров инфраструктуры и групп, чтобы:
 
@@ -56,11 +58,11 @@ ms.locfileid: "40801964"
 
 Вот базовая инфраструктура в общем руководстве по развертыванию Microsoft 365 для предприятий:
 
-![Базовая инфраструктура в общем руководстве по развертыванию Microsoft 365 для предприятий:](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
+![Базовая инфраструктура в общем руководстве по развертыванию Microsoft 365 для предприятий:](../media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
 ## <a name="at-a-glance"></a>Краткий обзор
 
-[Плакат базовой инфраструктуры Microsoft 365 для предприятий](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf) — это основное место для просмотра следующих элементов для каждого этапа:
+[Плакат базовой инфраструктуры Microsoft 365 для предприятий](../media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf) — это основное место для просмотра следующих элементов для каждого этапа:
 
 - Общие цели этапа для администраторов и пользователей
 - Службы, функции и средства
@@ -69,7 +71,7 @@ ms.locfileid: "40801964"
 - Процесс адаптации нового пользователя
 - Способ отслеживания и обновления
 
-[![Изображение для плаката базовой инфраструктуры Microsoft 365 для предприятий](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
+[![Изображение для плаката базовой инфраструктуры Microsoft 365 для предприятий](../media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](../media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
 Чтобы скачать копию плаката, щелкните [здесь](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf).
 
