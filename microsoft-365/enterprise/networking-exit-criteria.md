@@ -1,5 +1,7 @@
 ---
 title: Шаг 1. Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для сетевой инфраструктуры.
-ms.openlocfilehash: f3d2861af90e9a6f8a9b0b64b307dac6b1b76eb1
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 1ace68fd19c62e4dc389604c1b0c02ddc18b52dc
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831950"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066630"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Шаг 1. Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной
 
-![Этап 1. Сеть](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![Этап 1. Сеть](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 Убедитесь, что сетевая инфраструктура соответствует указанным ниже обязательным условиям и что рассмотрены необязательные условия.
 
@@ -38,7 +40,7 @@ ms.locfileid: "39831950"
 <a name="crit-networking-step2"></a>
 ## <a name="required-your-local-offices-have-local-internet-connections-and-name-resolution"></a>Обязательное: локальные офисы имеют локальные подключения к Интернету и разрешение имен
 
-Для каждого локального офиса вы настроили доступ к Интернету через локального поставщика услуг Интернета, чьи DNS-серверы используют локальный общедоступный IP-адрес, который определяет их местоположение в Интернете.  Это обеспечивает максимальную производительность для пользователей, работающих с облачными службами Microsoft 365.
+Для каждого локального офиса вы настроили доступ к Интернету через локального поставщика услуг Интернета, чьи DNS-серверы используют локальный общедоступный IP-адрес, который определяет их местоположение в Интернете. Это обеспечивает максимальную производительность для пользователей, работающих с облачными службами Microsoft 365.
 
 Если вы не используете локального поставщика услуг Интернета для каждого филиала, это может снизить производительность, так как в этом случае сетевой трафик проходит через основной канал организации либо запросы к данным обрабатываются удаленными серверами переднего плана.
 
@@ -83,4 +85,4 @@ ms.locfileid: "39831950"
 
 |||
 |:-------|:-----|
-|![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап —[удостоверения](identity-infrastructure.md). |
+|![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап —[удостоверения](identity-infrastructure.md). |

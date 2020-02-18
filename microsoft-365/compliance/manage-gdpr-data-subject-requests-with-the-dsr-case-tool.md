@@ -182,7 +182,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
     
   - Microsoft Edge
     
-    или
+    ИЛИ
     
   - Microsoft Internet Explorer 10 и более поздние версии
     

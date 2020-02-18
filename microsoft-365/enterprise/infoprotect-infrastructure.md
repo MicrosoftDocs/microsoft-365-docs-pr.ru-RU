@@ -1,5 +1,7 @@
 ---
 title: Шаг 6. Information Protection
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Information Protection для Microsoft 365 корпоративный.
-ms.openlocfilehash: c90fc039124f479629acd5cca414c937a1f5a10d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 418506927885948cd917061d99bb69163b1e44a5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030854"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067153"
 ---
 # <a name="phase-6-information-protection"></a>Этап 6. Защита данных
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon.png)
 
 Information Protection — это набор политик и технологий, определяющих порядок передачи, хранения и обработки конфиденциальной информации. На этапе 6 вы постепенно настроите параметры и функции Information Protection в Microsoft 365 корпоративный, которые помогут защитить данные облачных рабочих нагрузок и сценариев.
 
@@ -38,13 +40,13 @@ Information Protection — это набор политик и технолог
 
 |||
 |:-------|:-----|
-|![Шаг 1](./media/stepnumbers/Step1.png)|[Определение уровней безопасности и создание Information Protection](infoprotect-define-sec-infoprotect-levels.md)|
-|![Шаг 2](./media/stepnumbers/Step2.png)|[Настройка классификации для среды](infoprotect-configure-classification.md)|
-|![Шаг 3](./media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Microsoft 365](infoprotect-configure-increased-security-office-365.md)|
-|![Шаг 4](./media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
-|![Шаг 5](./media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
-|![Шаг 6](./media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
-|![Шаг 7](./media/stepnumbers/Step7.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
+|![Шаг 1](../media/stepnumbers/Step1.png)|[Определение уровней безопасности и создание Information Protection](infoprotect-define-sec-infoprotect-levels.md)|
+|![Шаг 2](../media/stepnumbers/Step2.png)|[Настройка классификации для среды](infoprotect-configure-classification.md)|
+|![Шаг 3](../media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Microsoft 365](infoprotect-configure-increased-security-office-365.md)|
+|![Шаг 4](../media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
+|![Шаг 5](../media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
+|![Шаг 6](../media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
+|![Шаг 7](../media/stepnumbers/Step7.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
 |||
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](infoprotect-exit-criteria.md) для соответствия требованиям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.
@@ -57,11 +59,11 @@ Information Protection — это набор политик и технолог
 
 Посмотрите, как корпорация Contoso, вымышленная многонациональная компания, [реализовала защиту информации](contoso-info-protect.md) для облачных служб Microsoft 365.
 
-![Корпорация Contoso](./media/contoso-overview/contoso-icon.png)
+![Корпорация Contoso](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>Следующий шаг
 
 |||
 |:-------|:-----|
-|![Шаг 1](./media/stepnumbers/Step1.png)|[Определение уровней безопасности и создание Information Protection](infoprotect-define-sec-infoprotect-levels.md)|
+|![Шаг 1](../media/stepnumbers/Step1.png)|[Определение уровней безопасности и создание Information Protection](infoprotect-define-sec-infoprotect-levels.md)|
 

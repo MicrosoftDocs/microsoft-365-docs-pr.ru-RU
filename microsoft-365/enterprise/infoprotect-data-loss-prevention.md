@@ -1,5 +1,7 @@
 ---
 title: Этап 5. Настройка защиты от потери данных Office 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о защите от потери данных для Office 365 в Microsoft 365 и ее развертывании.
-ms.openlocfilehash: 43ebfb39202e407fe6dc7bb4c8e0fe8f906f7a6d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 896670e9ae83324a1220d64f49a8ea48aee85169
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370166"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067226"
 ---
 # <a name="step-5-configure-office-365-data-loss-prevention"></a>Этап 5. Настройка защиты от потери данных Office 365
 
 *Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Политики защиты от потери данных в Центре безопасности и соответствия требованиям Office 365 позволяют определять, отслеживать и автоматически защищать конфиденциальную информацию в Microsoft 365. С помощью политик защиты от потери данных вы можете:
 
@@ -58,6 +60,6 @@ ms.locfileid: "37370166"
 
 |||
 |:-------|:-----|
-|![Шаг 6](./media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
+|![Шаг 6](../media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
 
 

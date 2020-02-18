@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: 'Узнайте, как запустить отчет, а затем скачать его CSV-файл в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 9d459065878eceaf9f0fc8b6ebacb749ff4c4830
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: badc657e100961ba89de6a49349b7016ae790b09
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597596"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069995"
 ---
 # <a name="run-reports-in-office-365-advanced-ediscovery"></a>Запуск отчетов в Office 365 Advanced eDiscovery
 
@@ -36,7 +36,7 @@ ms.locfileid: "41597596"
   
 1. На вкладке **отчеты** выберите параметр из списка **имя отчета** . Выберите один из трех вариантов **имени отчета** : **релевантность принятия решений**, **списка тем** или **файлов с тегами**.
     
-    ![Отчеты с аналитическими сведениями по обнаружению электронных данных](media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
+    ![Отчеты с аналитическими сведениями по обнаружению электронных данных](../media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
   
 2. Доступные параметры, параметры сортировки и фильтрации можно задать в зависимости от выбранного отчета. 
     

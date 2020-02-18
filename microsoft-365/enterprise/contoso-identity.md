@@ -1,6 +1,8 @@
 ---
 title: Удостоверение для корпорации Contoso
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует службу "удостоверение как услуга" (IDaaS) и предоставляет облачную проверку подлинности для сотрудников, а также федеративную проверку подлинности для партнеров и клиентов.
-ms.openlocfilehash: dc893fb1e632cf15a612ebf13e911173933d9af3
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 77c90740fd39080ccc204552bc8407aa107e354a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068472"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Удостоверение для корпорации Contoso
 
@@ -30,7 +32,7 @@ Contoso использует один лес доменных служб Active 
 
 Ниже показан лес Contoso с региональными доменами для разных частей света, в которых находятся региональные офисы.
 
-![Лес Contoso и домены по всему миру](./media/contoso-identity/contoso-identity-fig1.png)
+![Лес Contoso и домены по всему миру](../media/contoso-identity/contoso-identity-fig1.png)
  
 Contoso необходимо было использовать учетные записи и группы в лесу contoso.com для проверки подлинности и авторизации своих рабочих нагрузок и служб Microsoft 365.
 
@@ -43,7 +45,7 @@ Contoso необходимо было использовать учетные з
 
 Ниже показана сеть периметра Contoso, содержащая общедоступный веб-сайт, партнерскую экстрасеть и набор серверов служб федерации Active Directory (AD FS). Сеть периметра подключена к Интернету, в котором находятся клиенты, партнеры и Интернет-службы.
 
-![Поддержка федеративной аутентификации клиентов и партнеров в компании Contoso](./media/contoso-identity/contoso-identity-fig2.png)
+![Поддержка федеративной аутентификации клиентов и партнеров в компании Contoso](../media/contoso-identity/contoso-identity-fig2.png)
  
 Серверы AD FS в DMZ выполняют проверку подлинности учетных данных клиентов с использованием поставщиков удостоверений для доступа к общедоступному веб-сайту и учетных данных партнеров в партнерской экстрасети.
 
@@ -59,7 +61,7 @@ PHS синхронизирует локальный лес AD DS с клиент
 
 Ниже показан сервер, на котором Azure AD Connect опрашивает лес AD DS Contoso для выявления изменений и затем синхронизирует эти изменения с клиентом Azure AD.
 
-![Инфраструктура синхронизации каталога PHS Contoso](./media/contoso-identity/contoso-identity-fig4.png)
+![Инфраструктура синхронизации каталога PHS Contoso](../media/contoso-identity/contoso-identity-fig4.png)
  
 ## <a name="conditional-access-policies-for-identity-and-device-access"></a>Политики условного доступа для доступа к удостоверению и устройству
 
@@ -71,7 +73,7 @@ PHS синхронизирует локальный лес AD DS с клиент
 
 Ниже показан итоговый набор политик условного доступа к удостоверениям и устройствам.
 
-![Политики условного доступа к удостоверениям и устройствам в Contoso](./media/contoso-identity/contoso-identity-fig5.png)
+![Политики условного доступа к удостоверениям и устройствам в Contoso](../media/contoso-identity/contoso-identity-fig5.png)
  
 ## <a name="next-step"></a>Дальнейшие действия
 

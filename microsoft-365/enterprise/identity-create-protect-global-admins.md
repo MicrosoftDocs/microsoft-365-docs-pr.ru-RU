@@ -1,5 +1,7 @@
 ---
 title: Шаг 1. Создание и защита учетных записей глобальных администраторов
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Учетные записи глобальных администраторов нуждаются в особой обработке, чтобы защитить их от компрометации учетных данных.
-ms.openlocfilehash: 1a0274967798e6c2ba6048e5a2cfd70e73cb0671
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 27b76671581ebd2dac32304752a85f8a6f60ac98
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801834"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067346"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>Шаг 1. Создание и защита учетных записей глобальных администраторов
 
-![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-global-admin"></a>
 ## <a name="protect-global-administrator-accounts"></a>Защита учетных записей глобальных администраторов
@@ -57,7 +59,7 @@ ms.locfileid: "40801834"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Сведения о том, как можно испытать эту конфигурацию в среде лаборатории тестирования см. в статье [Защита учетных записей глобальных администраторов: руководство по лаборатории тестирования](protect-global-administrator-accounts-microsoft-365-test-environment.md). |
+|![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Сведения о том, как можно испытать эту конфигурацию в среде лаборатории тестирования см. в статье [Защита учетных записей глобальных администраторов: руководство по лаборатории тестирования](protect-global-administrator-accounts-microsoft-365-test-environment.md). |
 |||
 
 Промежуточной контрольной точкой в данном разделе служат [критерии выхода](identity-exit-criteria.md#crit-identity-global-admin).
@@ -101,7 +103,7 @@ PIM доступна в службе Azure Active Directory Premium P2, кото
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для Microsoft Cloud](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Сведения о том, как можно испытать эту конфигурацию в среде лаборатории тестирования см. в статье [Управление привилегированным доступом: руководство по лаборатории тестирования](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
+|![Руководства по лаборатории тестирования для Microsoft Cloud](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  Сведения о том, как можно испытать эту конфигурацию в среде лаборатории тестирования см. в статье [Управление привилегированным доступом: руководство по лаборатории тестирования](privileged-access-microsoft-365-enterprise-dev-test-environment.md). |
 |||
 
 Прежде чем перейти к следующему шагу, проверьте [условия](identity-exit-criteria.md#crit-identity-pam), при выполнении которых можно считать данный шаг завершенным.
@@ -110,5 +112,5 @@ PIM доступна в службе Azure Active Directory Premium P2, кото
 
 |||
 |:-------|:-----|
-|![Шаг 2](./media/stepnumbers/Step2.png)| [Защита паролей](identity-secure-your-passwords.md) |
+|![Шаг 2](../media/stepnumbers/Step2.png)| [Защита паролей](identity-secure-your-passwords.md) |
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4005b1e379b138f4eb22bb5c11e1f278185dc65e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 97c1acdb515e278c40ca25d47e2d9fd24c23d51f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597616"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070072"
 ---
 # <a name="query-the-data-in-a-review-set"></a>Запрос данных в наборе для проверки
 
@@ -31,7 +31,7 @@ ms.locfileid: "41597616"
 
 Чтобы создать и выполнить запрос для документов в наборе рецензирования, щелкните **новый запрос** в наборе проверки. После задания имени запроса и определения условий нажмите кнопку **сохранить** , чтобы сохранить и запустить запрос. Чтобы выполнить сохраненный ранее запрос, щелкните сохраненный запрос.
 
-![Просмотр запросов Set](media/AeDReviewSetQueries.png)
+![Просмотр запросов Set](../media/AeDReviewSetQueries.png)
 
 ## <a name="building-a-review-set-query"></a>Создание запроса на проверку набора
 
@@ -59,7 +59,7 @@ ms.locfileid: "41597616"
 
 В дополнение к запросам, которые можно сохранить, можно использовать проверку фильтров Set, чтобы быстро применить дополнительные условия к запросу набора проверки. Это поможет уточнить результаты, отображаемые запросом на проверку набора.
 
-![Обзор набора фильтров](media/AeDReviewSetFilters.png)
+![Обзор набора фильтров](../media/AeDReviewSetFilters.png)
 
 Фильтры отличаются от запросов двумя существенными особенностями.
 
