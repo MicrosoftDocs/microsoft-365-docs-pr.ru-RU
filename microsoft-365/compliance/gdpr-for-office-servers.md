@@ -11,12 +11,12 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 5ef03851064104df6dcb00ac853bf7dff65cbfd3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e18db2e5c180bd896e82d98506e8a65831550bce
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596436"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073245"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>GDPR для локальных серверов Office
 
@@ -40,7 +40,7 @@ ms.locfileid: "41596436"
 
 Ниже перечислены рекомендуемые функции для обнаружения, классификации, защиты и мониторинга персональные данных для каждой из этих рабочих нагрузок. Дополнительные сведения см. в статьях этого раздела.
 
-![](media/gdpr-for-office-servers-image1.png)
+![](../media/gdpr-for-office-servers-image1.png)
 
 ## <a name="illustration-description"></a>Описание иллюстрации
 

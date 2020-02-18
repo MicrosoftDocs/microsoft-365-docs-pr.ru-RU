@@ -1,6 +1,8 @@
 ---
 title: Управление непрерывностью бизнес-процессов в компании. Заявление от отказе от ответственности
 author: chrfox
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 manager: laurawi
 ms.date: 06/28/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: ''
-ms.openlocfilehash: 4d64a69c8642f014e5b27fcfe2f20f941e8362ef
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: 30a7611d4fb4849832d4cc5fe11e15d10144df95
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122309"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601086"
 ---
 # <a name="enterprise-business-continuity-management-legal-disclaimer"></a>Управление непрерывностью бизнес-процессов в компании. Заявление от отказе от ответственности
 
