@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте предназначенные для обучения классификаторы, если один из классификаторов, готовых к использованию, не отвечает вашим потребностям. Классификатор Microsoft 365 — это инструмент, который можно обучить для распознавания различных типов контента, предоставляя им примеры для поиска. В этом разделе показано, как создать настраиваемый классификатор.
-ms.openlocfilehash: f11da4c36c9d6ed1667d5bed4a7d3e59c2cb21a9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bbf2fac4e912e6619f3fe1c9a328aa61782cb640
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595916"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078890"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Создание классификатора для обучения (Предварительная версия)
 
@@ -29,7 +29,7 @@ ms.locfileid: "41595916"
 
 Эта временная шкала отражает пример развертывания.
 
-![обучение — классификатор — временная шкала](media/trainable-classifier-deployment-timeline_border.png)
+![обучение — классификатор — временная шкала](../media/trainable-classifier-deployment-timeline_border.png)
 
 > [!TIP]
 > В первый раз для обучения классификаторам необходим явный запрос. Для выполнения базовой оценки контента организации в Microsoft 365 требуется 12 дней. Обратитесь к глобальному администратору, чтобы отказаться от участия в этой процедуре.
@@ -80,7 +80,7 @@ ms.locfileid: "41595916"
 10. Теперь вы можете просмотреть страницу сведений, выбрав классификатор.
 
 
-![подготовленный классификатор для тестирования](media/classifier-trainable-ready-to-test-detail.png)
+![подготовленный классификатор для тестирования](../media/classifier-trainable-ready-to-test-detail.png)
 
 11. Соберите по крайней мере 200 тестовых элементов контента. Для достижения лучших результатов Корпорация Майкрософт рекомендует 10 000. Они должны быть смесью элементов, которые являются надежными положительными значениями, а некоторые — небольшими очевидными причинами. В SharePoint Server для поддерживаемых типов файлов вы найдете файлы с [расширениями для обхода по умолчанию и проанализированные типы файлов](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) .
 
@@ -100,13 +100,13 @@ ms.locfileid: "41595916"
 
 16. Когда предназначенный для обучения классификатор обрабатывает тестовые файлы, состояние на странице сведений изменится на `Ready to review`. Если требуется увеличить размер образца теста, выберите `Add items to test` и разрешите классификатору обрабатывать дополнительные элементы.
 
-![готовность к просмотру снимка экрана](media/classifier-trainable-ready-to-review-detail.png)
+![готовность к просмотру снимка экрана](../media/classifier-trainable-ready-to-review-detail.png)
 
 17. Нажмите `Tested items to review` клавишу TAB для просмотра элементов.
 
 18. В Microsoft 365 в каждый момент времени будет находиться 30 элементов. Просмотрите `We predict this item is "Relevant". Do you agree?` их и в поле выберите либо `Yes` или. `No` `Not sure, skip to next item` Точность модели автоматически обновляется после каждых 30 элементов.
 
-![поле "Просмотр элементов"](media/classifier-trainable-review-detail.png)
+![поле "Просмотр элементов"](../media/classifier-trainable-review-detail.png)
 
 19. Просмотрите *по крайней мере* 200 элементов.
 
@@ -114,7 +114,7 @@ ms.locfileid: "41595916"
 
 20. Продолжайте просмотр до тех пор, пока точность не достигнет минимум 70% `Publish the classifier` , а `Ready to use`состояние —.
 
-![точность и готовность к публикации](media/classifier-trainable-review-ready-to-publish.png)
+![точность и готовность к публикации](../media/classifier-trainable-review-ready-to-publish.png)
 
 21. Опубликуйте классификатор.
 

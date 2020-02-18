@@ -15,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как оценить готовность устройств и приложений в среде.
-ms.openlocfilehash: 6bf41d0930a3c957bb856d35815bf05087997208
-ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
+ms.openlocfilehash: abeb6bbfcc5a8de869263f5a4aa922a6642a92f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41774215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085506"
 ---
 # <a name="step-1-device-and-app-readiness"></a>Этап 1. Проверка готовности устройств и приложений
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
 <td><p><strong>Этап 1. Проверка готовности устройств и приложений</strong></p>
 <p>Начните проект развертывания компьютера с инвентаризации устройств и приложений, определите приоритеты, протестируйте приоритетные приложения и устройства, а затем исправьте необходимые элементы, чтобы подготовиться к развертыванию.</p></td>
-<td><a href="https://aka.ms/ddev1" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev1" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -71,15 +71,15 @@ ms.locfileid: "41774215"
 
 Для службы "Аналитика компьютеров" используется процесс инвентаризации компьютеров и приложений на ПК в организации, в котором не используются агенты. Кроме того, это средство формирует отчеты по самым посещаемым сайтам в Интернете, приложениям и расположениям в интрасети. Эти отчеты упростят для вас проверку совместимости в будущем.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
 
 ### <a name="2-prioritize"></a>2\. Определение приоритетов
 
 После инвентаризации с помощью средства "Аналитика компьютеров" можно обнаружить распространенные приложения и оборудование вашей организации, определить для них приоритеты, а также аспекты, на которых необходимо сконцентрироваться, чтобы подготовить как можно больше ПК к развертыванию.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
 
 Кроме того, в этом средстве имеются рекомендации по оценке обновлений, необходимых для решения проблем на следующем этапе — этапе тестирования.
 
@@ -91,13 +91,13 @@ ms.locfileid: "41774215"
 
 Кроме того, чтобы упростить переход на Office 365 профессиональный плюс, вам может потребоваться использовать средство [Readiness Toolkit for Office](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) для проверки совместимости ваших надстроек и макросов Microsoft Visual Basic для приложений (VBA).
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
 ### <a name="4-remediation"></a>4.\. Исправление
 
 Последний этап проверки совместимости устройств и приложений — исправление. На этом этапе вам потребуется собрать необходимые пакеты программного обеспечения и драйверов. С их помощью вы замените или обновите устройства и приложения старых версий в процессе развертывания.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
 
 При проработке списка проблем, которые необходимо исправить, вы обнаружите, что все больше и больше ПК переходит в состояние "Готов к развертыванию". Это означает, что драйверы и приложения на ПК признаны совместимыми с версией ОС Windows 10, для которой вы хотите выполнить развертывание.
 

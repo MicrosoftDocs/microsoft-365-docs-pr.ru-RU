@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 2f5b1b077346e3225252ef25a4e9e685c4892a7c
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: 06cacbb45a98bb62f53866b0d2ab7ba393e609a0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148493"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066822"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -151,9 +151,9 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 ## <a name="summary-of-options-for-office-2010-clients-and-servers-and-windows-7"></a>Сводка вариантов для клиентов и серверов Office 2010 и Windows 7
 
-Визуальное представление возможностей обновления, миграции и перехода на облачные решения для этих продуктов см. в [плакате “Прекращение поддержки”](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
+Визуальное представление возможностей обновления, миграции и перехода на облачные решения для этих продуктов см. в [плакате “Прекращение поддержки”](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
 
-[![Изображение плаката “Прекращение поддержки клиентов и серверов Office 2010 и Windows 7”](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+[![Изображение плаката “Прекращение поддержки клиентов и серверов Office 2010 и Windows 7”](../media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
 Этот одностраничный плакат поможет быстро ознакомиться с различными методами, которые можно использовать, чтобы предотвратить прекращение поддержки клиентских и серверных продуктов Office 2010 и Windows 7. В нем указаны предпочтительные методы и конечные цели поддержки в Microsoft 365 корпоративный.
 
@@ -171,9 +171,9 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 ## <a name="transition-your-entire-organization"></a>Переход всей организации
 
-Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный, скачайте [плакат по переходу](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный, скачайте [плакат по переходу](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
-[![Плакат изображения перехода на Microsoft 365](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Плакат изображения перехода на Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 Этот двухстраничный плакат содержит быстрый способ определения элементов существующей инфраструктуры и руководство по переходу на соответствующий продукт или службу в Microsoft 365 корпоративный. На нем представлены продукты Windows и Office, а также другие элементы инфраструктуры и безопасности, например управление устройствами, удостоверения, защита информации и защита от угроз.
 

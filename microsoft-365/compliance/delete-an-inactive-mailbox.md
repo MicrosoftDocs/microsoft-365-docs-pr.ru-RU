@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: Если вы больше не хотите сохранять содержимое неактивного почтового ящика Office 365, можно удалить неактивный почтовый ящик окончательно, удалив удержание. После удаления удержания неактивный почтовый ящик помечается для удаления и безвозвратно удаляется после его обработки.
-ms.openlocfilehash: 21df7f34d6f07a413b860b1b918eb1dbdf26e946
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 412d7ec60fea758c67719271e1be8dbca98611e2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595334"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075824"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Удаление неактивного почтового ящика в Office 365
 
@@ -107,11 +107,11 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. In the EAC, go to **Compliance management** \> **In-Place eDiscovery &amp; Hold**.
     
-3. Выберите удержание на месте, которое нужно удалить, а затем нажмите кнопку **изменить** ![значок](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
+3. Выберите удержание на месте, которое нужно удалить, а затем нажмите кнопку **изменить** ![значок](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
     
 4. On the **In-Place eDiscovery &amp; Hold** properties page, click **In-Place Hold**, uncheck the **Place content matching the search query in selected mailboxes on hold** box, and then click **Save**.
     
-5. On the **In-Place eDiscovery &amp; Hold** page, select the In-Place Hold again, and then click **Delete**![Delete icon](media/87565fbb-5147-4f22-9ed7-1c18ce664392.png).
+5. On the **In-Place eDiscovery &amp; Hold** page, select the In-Place Hold again, and then click **Delete**![Delete icon](../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png).
     
 6. В окне предупреждения щелкните **Да**, чтобы удалить инцидент хранения на месте. 
     
@@ -145,11 +145,11 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. In the EAC, go to **Compliance management** \> **In-Place eDiscovery &amp; Hold**.
     
-3. Выберите удержание на месте для неактивного почтового ящика, а затем щелкните **изменить** ![значок](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
+3. Выберите удержание на месте для неактивного почтового ящика, а затем щелкните **изменить** ![значок](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)редактирования.
     
 4. On the **In-Place eDiscovery &amp; Hold** properties page, click **Sources**.
     
-5. В списке исходных почтовых ящиков щелкните имя неактивного почтового ящика, который требуется удалить, а затем нажмите кнопку **Удалить**![Значок "Удалить"](media/adf01106-cc79-475c-8673-065371c1897b.gif).
+5. В списке исходных почтовых ящиков щелкните имя неактивного почтового ящика, который требуется удалить, а затем нажмите кнопку **Удалить**![Значок "Удалить"](../media/adf01106-cc79-475c-8673-065371c1897b.gif).
     
 6. Чтобы сохранить изменения, нажмите кнопку **Сохранить**. Появится сообщение о том, что операция успешно завершена. 
     

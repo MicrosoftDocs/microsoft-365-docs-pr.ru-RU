@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Office 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: a57fb5ee7eea1746a50ec0fb1e2c3e84495b4f2c
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: a360c2c7a6876669ce5d2ae6b52a730a3c7f45a5
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091292"
 ---
 # <a name="set-up-customer-key-for-office-365"></a>Настройка ключа клиента для Office 365
 
@@ -124,7 +124,7 @@ SharePoint Online и OneDrive для бизнеса:
 
 Временная или постоянная потеря корневых ключей шифрования может быть очень недостаточной или даже разрушительной для работы службы и может привести к потере данных. По этой причине для ресурсов, используемых с ключом клиента, требуется усиленная защита. Все ресурсы Azure, используемые с механизмами защиты с помощью ключа клиента, выходят за рамки конфигурации по умолчанию. Подписки Azure можно пометить или зарегистрировать таким образом, чтобы предотвратить немедленную и ирревокабле отмену. Это называется регистрацией для обязательного периода хранения. Действия, необходимые для регистрации подписок Azure для обязательного периода хранения, требуют совместной работы с группой Office 365. Этот процесс может занять от одного до пяти рабочих дней. Ранее это было иногда называть "Do not Cancel".
   
-Прежде чем обращаться к группе Office 365, необходимо выполнить следующие действия для каждой подписки Azure, которую вы используете с ключом клиента. Перед продолжением работы убедитесь, что на вашем компьютере установлен модуль Azure PowerShellhttps://docs.microsoft.com/powershell/azure/new-azureps-module-azAZ (.
+Прежде чем обращаться к группе Office 365, необходимо выполнить следующие действия для каждой подписки Azure, которую вы используете с ключом клиента. Прежде чем начать, убедитесь, что установлен модуль [Azure PowerShell AZ](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) .
   
 1. Войдите с помощью Azure PowerShell. Инструкции можно найти [в разделе Вход с помощью Azure PowerShell](https://docs.microsoft.com/powershell/azure/authenticate-azureps).
 
@@ -132,7 +132,7 @@ SharePoint Online и OneDrive для бизнеса:
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Get-AzProviderFeature -ProviderNamespace Microsoft.Resources -FeatureName mandatoryRetentionPeriodEnabled
+   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.KeyVault
    ```
 
 3. Обратитесь в корпорацию Майкрософт, чтобы завершить процесс. Для команды SharePoint и OneDrive для бизнеса свяжитесь с [Spock@microsoft.com](mailto:spock@microsoft.com). Для Exchange Online и Skype для бизнеса обращайтесь в [exock@microsoft.com](mailto:exock@microsoft.com). Включите в свою электронную почту следующие сообщения:
@@ -144,18 +144,18 @@ SharePoint Online и OneDrive для бизнеса:
 
    Соглашение об уровне обслуживания (SLA) для завершения этого процесса составляет пять рабочих дней после того, как корпорация Майкрософт уведомит (и проверит), что вы зарегистрировали свои подписки, чтобы использовать обязательный срок хранения.
 
-4. Когда вы получите уведомление от корпорации Майкрософт о завершении регистрации, проверьте состояние регистрации, выполнив командлет Get-Азпровидерфеатуре, как показано ниже. Выполните это действие для каждой подписки.
+4. Когда вы получите уведомление от корпорации Майкрософт о завершении регистрации, проверьте состояние регистрации, выполнив команду Get-Азпровидерфеатуре, как показано ниже. Если проверка выполнена, команда Get – Азпровидерфеатуре возвращает значение, **зарегистрированное** для свойства **состояния регистрации** . Выполните это действие для каждой подписки.
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
    Get-AzProviderFeature -ProviderNamespace Microsoft.Resources -FeatureName mandatoryRetentionPeriodEnabled
    ```
 
-5. После проверки того, что свойство **состояния регистрации** из командлета Get – азпровидерфеатуре возвращает значение **зарегистрировано**, выполните следующую команду для завершения процесса. Выполните это действие для каждой подписки.
+5. Чтобы завершить процесс, выполните команду Register – Азресаурцепровидер. Выполните это действие для каждой подписки.
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Register-AzResourceProvider -ProviderNamespace "Microsoft.KeyVault"
+   Register-AzResourceProvider -ProviderNamespace Microsoft.KeyVault
    ```
 
 ### <a name="create-a-premium-azure-key-vault-in-each-subscription"></a>Создание расширенного Azure Key Vault в каждой подписке

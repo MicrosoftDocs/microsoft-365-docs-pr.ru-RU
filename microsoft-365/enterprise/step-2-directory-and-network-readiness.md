@@ -1,5 +1,7 @@
 ---
 title: Этап 2. Готовность каталогов и сети
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,25 +15,25 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как оценить готовность каталогов и сети в среде.
-ms.openlocfilehash: cae32d7bd7791cdfb0acce564b2a7839d5314a19
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 985212cc240d91ac04f9def1b7a53c42889d826f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112621"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085438"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Этап 2. Готовность каталогов и сети
 
 Убедитесь, что каталог и сеть настроены и готовы к поддержке перехода на Windows 10 и Office 365 профессиональный плюс. Для этого у пользователей должны быть настроены службы Azure Active Directory, а пропускная способность сети должна быть достаточной как для обычного трафика, так и для передачи больших объемов данных во время обновления компьютеров с восстановлением файлов, параметров и приложений пользователей.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
 <td><p><strong>Этап 2. Готовность каталогов и сети</strong></p>
 <p>Облачные службы в Office 365 профессиональный плюс и новые возможности развертывания, например Windows Autopilot, требуют Azure Active Directory. Сеть и подключение также важны для планирования при перемещении изображений, приложений, драйверов и соответствующих файлов Windows на ваш компьютер. Узнайте, как новые инструменты и возможности развертывания уменьшают и оптимизируют сетевой трафик.</p></td>
-<td><a href="https://aka.ms/ddev2" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -85,7 +87,7 @@ ms.locfileid: "41112621"
 
 К счастью существуют новые инструменты, которые помогут вам управлять воздействием крупномасштабного развертывания на сеть, в том числе LEDBAT для оптимизации использования доступной полосы пропускания и параметры одноранговой передачи (P2P), позволяющие отводить трафик развертывания от центра сети к ее периметру.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
 
 ## <a name="scavenging-bandwidth"></a>Очистка полосы пропускания
 
@@ -95,7 +97,7 @@ ms.locfileid: "41112621"
 
 В отличие от традиционного регулирования, LEDBAT может использовать всю доступную пропускную способность в качестве фоновой задачи, мгновенно освобождая полосу пропускания, когда другой трафик запрашивает ее. В отличие от BITS, здесь отсутствует задержка. Система полностью автоматизирована — ничего не потребуется настраивать или планировать вручную, все настроено на стороне сервера. Благодаря этому возможен огромный рост производительности.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
 
 ## <a name="peer-to-peer-options"></a>Параметры одноранговой передачи
 
@@ -111,7 +113,7 @@ ms.locfileid: "41112621"
 
 **Оптимизация доставки.** Оптимизация доставки — это еще одна технология однорангового кэширования, предоставляющая сетевые средства управления для развертываний. Оптимизация доставки Windows 10 предназначена для обновления встроенных приложений UWP, а также для установки приложений из Microsoft Store и обновления программного обеспечения при помощи экспресс-обновлений. Она была доступна с ранних версий Windows 10, но только недавно была интегрирована с Microsoft Endpoint Configuration Manager (Current Branch). Начиная с Windows 10 версии 1803, новые параметры конфигурации позволяют независимо задавать ограничения пропускной способности для фоновых обновлений и задач переднего плана, таких как установка приложений из Microsoft Store. Оптимизация доставки Windows теперь также обеспечивает поддержку Office 365 профессиональный плюс во время обновления клиентов для всех поддерживаемых каналов. Скоро будет доступна поддержка оптимизации доставки Windows во время первоначальной установки клиента Office 365.  
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
 **Дополнительные рекомендации для Office 365 профессиональный плюс**
 
@@ -123,11 +125,11 @@ ms.locfileid: "41112621"
 
 **Файлы данных Outlook.** Outlook часто настраивают на локальное кэширование всего почтового ящика пользователя для автономного использования. При любом развертывании Windows, кроме обновления на месте, для этого требуется, чтобы файлы данных Outlook пользователя восстановились после обновления. Этот процесс автоматизирован, но так как ограничения почтовых ящиков Outlook обычно составляют 100 ГБ, для повторного локального кэширования всего почтового ящика потребуется передать много данных Чтобы снизить нагрузку на сеть, вы можете использовать групповую политику, уменьшив значение параметра "Почта, которая должна храниться локально". В Outlook из набора Office 365 профессиональный плюс и Office 2016 по умолчанию задано значение 12 месяцев. Рекомендуем задать срок действия автономного кэша от 1 до 6 месяцев. Изменение этого параметра не повлияет на размер почтового ящика в Интернете, и при наличии сетевого подключения по-прежнему можно будет выполнять поиск по всему почтовому ящику через Outlook.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
 
 **Файлы по запросу и перенос известных папок в OneDrive.** OneDrive — отличное средство для синхронизации и защиты файлов пользователя с компьютеров и других устройств в облаке. При переносе известных папок вы можете принудительно синхронизировать файлы из папок "Рабочий стол", "Документы" и "Изображения" в хранилище OneDrive пользователя, делая эти файлы доступными при входе на новое устройство или компьютер, переустановленный из образа. Однако помните, что по причине огромного размера и количества файлов в этих папках следует тщательно распланировать развертывание политик, включающих и применяющих OneDrive на компьютерах. Один из вариантов — использовать сетевые средства управления групповыми политиками, чтобы регулировать полосу пропускания, используемую службой синхронизации OneDrive.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
 
 [Настройка переноса известных папок](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/Migrate-Your-Files-to-OneDrive-Easily-with-Known-Folder-Move/ba-p/207076)
 

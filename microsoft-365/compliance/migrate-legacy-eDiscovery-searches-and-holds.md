@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 356330b4282fe9dc0aa211d48e452ad04a1bbe74
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: f53d9cbf719b0e16749c9ea1dcae2533f8c48e50
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957194"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091391"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Миграция поиска электронных данных прежних версий и удержаний в центре соответствия требованиям Microsoft 365
 
@@ -28,7 +28,7 @@ ms.locfileid: "41957194"
 > [!NOTE]
 > Так как существует множество различных сценариев, в этой статье представлены общие рекомендации по переходу на поиск и удержанию в базовом варианте обнаружения электронных данных в центре соответствия требованиям Microsoft 365. Не всегда требуется использовать случаи обнаружения электронных данных, но они добавляют дополнительный уровень безопасности, позволяя назначать разрешения для управления доступом пользователей к делам обнаружения электронных данных в Организации.
 
-## <a name="before-you-begin"></a>До начала работы
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Для запуска команд PowerShell, описанных в этой статье, необходимо быть членом группы ролей "Диспетчер обнаружения электронных данных" в центре безопасности & соответствия требованиям Office 365. Вы также должны быть членом группы ролей "Управление обнаружением" в центре администрирования Exchange.
 
@@ -58,7 +58,7 @@ Get-MailboxSearch
 
 Выходные данные командлета будут выглядеть следующим образом:
 
-![Пример PowerShell Get — MailboxSearch](media/MigrateLegacyeDiscovery1.png)
+![Пример PowerShell Get — MailboxSearch](../media/MigrateLegacyeDiscovery1.png)
 
 ## <a name="step-3-get-information-about-the-in-place-ediscovery-searches-and-in-place-holds-you-want-to-migrate"></a>Шаг 3: получение сведений об поисках с обнаружением электронных данных на месте и удержаниях на месте, которые требуется перенести
 
@@ -74,7 +74,7 @@ $search | FL
 
 Выходные данные этих двух команд будут выглядеть следующим образом:
 
-![Пример выходных данных PowerShell с использованием командлета Get – MailboxSearch для отдельного поиска](media/MigrateLegacyeDiscovery2.png)
+![Пример выходных данных PowerShell с использованием командлета Get – MailboxSearch для отдельного поиска](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
 > Продолжительность удержания на месте в данном примере является неопределенной (*ItemHoldPeriod: Unlimited*). Это типично для сценариев обнаружения электронных данных и судебного разбирательства. Если длительность удержания отличается от значения неопределенности, причина, скорее всего, заключается в том, что удержание используется для хранения контента в сценарии хранения. Вместо использования командлетов обнаружения электронных данных в Office 365 Security & центра соответствия требованиям PowerShell для сценариев хранения мы рекомендуем использовать командлеты [New – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) и [New – RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) для хранения контента. Результат использования этих командлетов аналогичен использованию командлетов **New – caseholdpolicy позволяет** и **New – caseholdrule позволяет**, но вы можете указать срок хранения и действие хранения, такие как удаление контента после истечения срока хранения. Кроме того, использование командлетов хранения не требует, чтобы привязать удержание к случаю обнаружения электронных данных.
@@ -86,6 +86,7 @@ $search | FL
 ```powershell
 $case = New-ComplianceCase -Name "[Case name of your choice]"
 ```
+![Пример выполнения команды New – ComplianceCase](../media/MigrateLegacyeDiscovery3.png)
 
 ## <a name="step-5-create-the-ediscovery-hold"></a>Шаг 5: Создание удержания обнаружения электронных данных
 
@@ -101,9 +102,11 @@ $policy = New-CaseHoldPolicy -Name $search.Name -Case $case.Identity -ExchangeLo
 New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
 ```
 
+![Пример использования командлетов Невкасехолдполици и Невкасехолдруле](../media/MigrateLegacyeDiscovery4.png)
+
 ## <a name="step-6-verify-the-ediscovery-hold"></a>Шаг 6: Проверка удержания обнаружения электронных данных
 
-Чтобы убедиться в отсутствии проблем с созданием удержания, убедитесь, что состояние распределения для удержания прошло успешно. Распределение означает, что удержание применено ко всем расположениям контента, указанным в параметре *ExchangeLocation* на предыдущем шаге. Для этого можно выполнить командлет **Get – caseholdpolicy позволяет** . Так как свойства, сохраненные в переменной *$Policy* , созданной на предыдущем шаге, не обновляются автоматически в переменной, необходимо повторно выполнить командлет, чтобы убедиться в успешности распространения. Для успешного распространения политик удержания на случай может потребоваться от 5 минут до 24 часов.
+Чтобы убедиться в отсутствии проблем с созданием удержания, убедитесь, что состояние распределения для удержания прошло успешно. Распределение означает, что удержание применено ко всем расположениям контента, указанным в параметре *ExchangeLocation* на предыдущем шаге. Для этого можно выполнить командлет **Get – caseholdpolicy позволяет** . Так как свойства, сохраненные в переменной *$Policy* , созданной на предыдущем этапе, не обновлялись автоматически в переменной, необходимо повторно выполнить командлет, чтобы убедиться в успешности распространения. Для успешного распространения политик удержания на случай может потребоваться от 5 минут до 24 часов.
 
 Выполните следующую команду, чтобы убедиться, что удержание обнаружения электронных данных успешно распространено.
 
@@ -113,7 +116,7 @@ Get-CaseHoldPolicy -Identity $policy.Identity | Select name, DistributionStatus
 
 Значение **Success** для свойства *дистрибутионстатус* указывает на то, что удержание успешно размещено в расположениях контента. Если распределение еще не завершено, отображается значение **Ожидание** .
 
-![Пример PowerShell Get — Caseholdpolicy позволяет](media/MigrateLegacyeDiscovery5.png)
+![Пример PowerShell Get — Caseholdpolicy позволяет](../media/MigrateLegacyeDiscovery5.png)
 
 ## <a name="step-7-create-the-search"></a>Шаг 7: создание поиска
 
@@ -123,21 +126,21 @@ Get-CaseHoldPolicy -Identity $policy.Identity | Select name, DistributionStatus
 New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxes -ContentMatchQuery $search.SearchQuery -Case $case.name
 ```
 
-![Пример PowerShell New — ComplianceSearch](media/MigrateLegacyeDiscovery6.png)
+![Пример PowerShell New — ComplianceSearch](../media/MigrateLegacyeDiscovery6.png)
 
 ## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>Шаг 8: Проверка регистра, удержания и поиска в центре соответствия требованиям Microsoft 365
 
 Чтобы убедиться, что все настроено правильно, перейдите в центр [https://compliance.microsoft.com](https://compliance.microsoft.com)соответствия требованиям Microsoft 365 и выберите **ядро > обнаружения электронных**данных.
 
-![Обнаружение электронных данных в центре соответствия требованиям Microsoft 365](media/MigrateLegacyeDiscovery7.png)
+![Обнаружение электронных данных в центре соответствия требованиям Microsoft 365](../media/MigrateLegacyeDiscovery7.png)
 
 Дело, созданное на шаге 3, отображается на основной странице **обнаружения электронных** данных. Откройте обращение и обратите внимание на удержание, созданное на шаге 4 в списке на вкладке **удержания** . Вы можете щелкнуть удержание, чтобы просмотреть подробные сведения, в том числе количество почтовых ящиков, к которым применяется удержание, а также состояние распространения.
 
-![Обнаружение электронных данных в центре соответствия требованиям Microsoft 365](media/MigrateLegacyeDiscovery8.png)
+![Обнаружение электронных данных в центре соответствия требованиям Microsoft 365](../media/MigrateLegacyeDiscovery8.png)
 
 Поиск, созданный на шаге 7, указан в списке на вкладке " **поиски** " в варианте обнаружения электронных данных.
 
-![Поиск дел обнаружения электронных данных в центре соответствия требованиям Microsoft 365](media/MigrateLegacyeDiscovery9.png)
+![Поиск дел обнаружения электронных данных в центре соответствия требованиям Microsoft 365](../media/MigrateLegacyeDiscovery9.png)
 
 Если вы переносите Поиск с обнаружением электронных данных на месте, но не связываете его с вариантом обнаружения электронных данных, он будет указан на странице "поиск контента" в центре соответствия требованиям Microsoft 365.
 

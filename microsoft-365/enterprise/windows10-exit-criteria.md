@@ -1,5 +1,7 @@
 ---
 title: Этап 3. Условия, при выполнении которых можно считать инфраструктуру Windows 10 Корпоративная настроенной
+f1.keywords:
+- NOCSH
 ms.author: greglin
 author: greg-lindsay
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для Windows 10 Корпоративная.
-ms.openlocfilehash: d51392572c78edb1a21f5edc3229057b9af3f514
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 42d8ec912a70aecef49672682c25f5e42c4bbe21
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085558"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>Этап 3. Условия, при выполнении которых можно считать инфраструктуру Windows 10 Корпоративная настроенной
 
-![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Убедитесь, что инфраструктура Windows 10 Корпоративная соответствует указанным ниже обязательным условиям и что рассмотрены необязательные условия.
 
@@ -125,4 +127,4 @@ Windows Autopilot настраивает устройство и подключ�
 
 |||
 |:-------|:-----|
-|![Этап 4. Office 365 профессиональный плюс](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап — [Office 365 профессиональный плюс](office365proplus-infrastructure.md). |
+|![Этап 4. Office 365 профессиональный плюс](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап — [Office 365 профессиональный плюс](office365proplus-infrastructure.md). |

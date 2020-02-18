@@ -1,5 +1,7 @@
 ---
 title: Шаг 2. Защита паролей
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Необходимо обеспечить надежность и управляемость ваших паролей в масштабах организации.
-ms.openlocfilehash: 143f7727846316100e4133ccf4b34646645bfd7f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c0ad9e2ad86cb803484e3d350fe112580610f509
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801744"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067286"
 ---
 # <a name="step-2-secure-your-passwords"></a>Шаг 2. Защита паролей
 
-![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>Запрет слабых паролей
@@ -54,7 +56,7 @@ ms.locfileid: "40801744"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: сброс пароля](password-reset-m365-ent-test-environment.md) |
+|![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: сброс пароля](password-reset-m365-ent-test-environment.md) |
 |||
 
 Промежуточной контрольной точкой в данном разделе служат [критерии завершения](identity-exit-criteria.md#crit-identity-pw-reset).
@@ -73,7 +75,7 @@ ms.locfileid: "40801744"
 
 |||
 |:-------|:-----|
-|![Руководства для лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: простой единый вход Azure AD](single-sign-on-m365-ent-test-environment.md) |
+|![Руководства для лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: простой единый вход Azure AD](single-sign-on-m365-ent-test-environment.md) |
 |||
 
 Промежуточной контрольной точкой в данном разделе служат [критерии завершения](identity-exit-criteria.md#crit-identity-sso).
@@ -98,4 +100,4 @@ ms.locfileid: "40801744"
 
 |||
 |:-------|:-----|
-|![Шаг 3](./media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |
+|![Шаг 3](../media/stepnumbers/Step3.png)| [Защита пользовательских входов и управление ими](identity-secure-user-sign-ins.md) |

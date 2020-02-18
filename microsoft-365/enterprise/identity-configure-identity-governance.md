@@ -1,5 +1,7 @@
 ---
 title: Шаг 7. Настройка управления удостоверениями
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Обзор и настройка управления удостоверениями для клиента Azure AD.
-ms.openlocfilehash: d9a9a63f46230a07b35052a3b02231f7b5315d9e
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 5b7b1c91735611046133a0247ae028ed090106fd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302926"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067356"
 ---
 # <a name="step-6-configure-identity-governance"></a>Шаг 6. Настройка управления удостоверениями
 
-![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 Управление удостоверениями заключается в защите, контроле и проверке доступа к важным ресурсам с обеспечением производительности сотрудников. Например, с помощью управления удостоверениями вы можете обеспечить соответствующим пользователям подходящий доступ к нужным ресурсам и определить, изменяется ли этот доступ со временем.
 

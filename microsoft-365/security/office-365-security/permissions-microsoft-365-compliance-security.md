@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
-ms.openlocfilehash: 53695bb412c760c769692dfe7fb40324f495d356
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6553020c215b3ffad0707a699414a6939ef368ca
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598706"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082453"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "41598706"
 
 После того как глобальный администратор назначает роли администратора, администраторы получают доступ к функциям и данным, которые охватывают все службы в Microsoft 365, такие как Центр безопасности Microsoft 365, Центр соответствия требованиям Microsoft 365, Azure, Office 365 и Enterprise Mobility + Security.
 
-![Страница разрешений в Центре безопасности Microsoft 365](../media/m365-security-permissions-page.png)
+![Страница разрешений в Центре безопасности Microsoft 365](../../media/m365-security-permissions-page.png)
 
 ## <a name="what-the-microsoft-365-roles-are"></a>Что представляют собой роли в Microsoft 365
 
@@ -130,13 +130,13 @@ ms.locfileid: "41598706"
 
 Дополнительные сведения см. в статье [Просмотр и назначение ролей администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
-![Ссылка для управления разрешениями в Azure Active Directory](../media/permissions-manage-in-azure-ad-link.png)
+![Ссылка для управления разрешениями в Azure Active Directory](../../media/permissions-manage-in-azure-ad-link.png)
 
 ## <a name="managing-roles-in-a-service-instead-of-azure-active-directory"></a>Управление ролями в службе, вместо Azure Active Directory
 
 Роли, которые отображаются в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365, также отображаются в службах, где для них имеются разрешения. Например их можно увидеть в Центре безопасности и соответствия требованиям Office 365.
 
-![Роли в Центре безопасности и соответствия требованиям Office 365](../media/m365-roles-in-o365-scc.png)
+![Роли в Центре безопасности и соответствия требованиям Office 365](../../media/m365-roles-in-o365-scc.png)
 
 ### <a name="breaking-inheritance"></a>Прерывание наследования
 

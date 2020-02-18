@@ -1,5 +1,7 @@
 ---
 title: Шаг 8. Информирование и обучение пользователей
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовить пользователей к работе с Windows 10 и Office 365 профессиональный плюс.
-ms.openlocfilehash: 46a9a21fe60d2cf16f0e24483c5e6ab261714b23
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 02fa62cc7f9276670812a887e927ce8a1c6fb549
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033664"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085140"
 ---
 # <a name="step-8-user-communications-and-training"></a>Шаг 8. Информирование и обучение пользователей
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>Шаг 8. Обучение и взаимодействие пользователей</strong></p>
 <p>Убедитесь, что пользователи уведомлены о новых возможностях и способах работы при переходе на Windows 10 и Office 365 профессиональный плюс. Узнайте, как воспользоваться помощью по адаптации пользователей с применением Microsoft FastTrack, обучающими материалами, шаблонами для общения, а также новыми способами отслеживать принятие и использование продуктов пользователями.</p></td>
-<td><a href="https://aka.ms/ddev8" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -47,7 +49,7 @@ ms.locfileid: "38033664"
 
 Для этих и других локальных или браузерных приложений, например Teams и Планировщика, доступны подробные шаблоны для информирования и обучения.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-3.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-3.png)
 
 Также мы предоставляем инструкции, посвященные новым возможностям приложений, в частности вложению файлов OneDrive в Outlook в виде ссылок, новым переходам с трансформацией и возможностям конструктора в PowerPoint.
 
@@ -77,7 +79,7 @@ ms.locfileid: "38033664"
 
 Круги развертывания лучше всего создавать совместно с подразделениями и их руководителями. Нужно понять, какие дни и периоды являются критическими, и воздержаться от развертывания или внесения изменений в это время. Без тщательного планирования и участия заинтересованных лиц будет сложно привлечь пользователей и обеспечить их комфортную работу во время изменений.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
 
 ### <a name="phase-1-the-it-team-and-early-adopter-insiders"></a>Этап 1. ИТ-отдел и первые пользователи внутри организации 
 
@@ -117,7 +119,7 @@ ms.locfileid: "38033664"
 
 Во время расширения пилотного проекта вам нужно документировать и публиковать часто задаваемые вопросы и содержимое для самообслуживания. Это поможет заблаговременно уменьшить количество запросов в службу поддержки и снизить загрузку службы.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-5.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-5.png)
 
 ### <a name="phase-3-and-beyond-broad-production-deployment"></a>Этап 3 и далее. Широкое производственное развертывание 
 

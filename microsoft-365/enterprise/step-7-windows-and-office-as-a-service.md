@@ -1,5 +1,7 @@
 ---
 title: Этап 7. Обслуживание Windows и Office
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовиться к обслуживанию Windows и Office в вашей среде.
-ms.openlocfilehash: 28c66bbd723aaf4f3823e582e7b9b98daea69c27
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: d47abca74f7fea4c49f9aa28a93cd4afe40a0981
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085190"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Этап 7. Обслуживание Windows и Office
 
-![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-1.png)
+![](../media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
 <td><p><strong>Этап 7. Обслуживание Windows и Office</strong></p>
 <p>В Windows 10 и Office 365 профессиональный плюс постоянно добавляются новые функции, чтобы развивать пользовательский интерфейс и средства безопасности в соответствии с новейшими инновациями. Узнайте, как обеспечивать актуальность с помощью полугодичных и ежемесячных обновлений, как работают новые модели обслуживания и какие у вас есть инструменты и возможности.</p></td>
-<td><a href="https://aka.ms/ddev7" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -119,7 +121,7 @@ ms.locfileid: "41112261"
 
 Центр обновления Windows для бизнеса и Windows Server Update Services уже давно поддерживают экспресс-обновления, но теперь мы добавили их поддержку в Microsoft Endpoint Configuration Manager (Current Branch).
 
-![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-3.png)
+![](../media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-3.png)
 
 #### <a name="binary-delta-compression"></a>Двоичное разностное сжатие
 
@@ -135,7 +137,7 @@ ms.locfileid: "41112261"
 
 Что касается инструментария, вы можете использовать параметры политики в центре обновления Windows для бизнеса, средства управления обновлениями ПО в Microsoft Endpoint Configuration Manager (Current Branch), Windows Server Update Services (WSUS) или политики обновления, заданные в Microsoft Intune. Если вас беспокоит пропускная способность сети, см. статью "Этап 2. Готовность каталогов и сети", чтобы узнать, как вы можете уменьшить сетевой трафик с помощью оптимизации доставки и других технологий однорангового кэширования.
 
-![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
+![](../media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
 
 [Windows Semi-Annual Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
@@ -147,7 +149,7 @@ ms.locfileid: "41112261"
 
 Последовательность задач позволяет создавать собственные проверки или задачи ДО установки обновления компонентов, а также выполнять пользовательские задачи ПОСЛЕ установки самого обновления. Задачи после обновления могут включать временную остановку служб, если это требуется во время обновления, установку и замену драйверов, обновления приложений, а также параметры персонализации панели задач или меню "Пуск" в Windows 10.
 
-![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-5.png)
+![](../media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-5.png)
 
 Если вы уже используете последовательности задач для переноса компьютеров с Windows 7 на Windows 10 и хорошо владеете этими инструментами, то это отличная отправная точка, предоставляющая полный контроль. Вы можете использовать одну последовательность задач для всего обновления, но во многих организациях используется две последовательности. Одна гарантирует, что компьютеры готовы к обновлению, незаметно подготавливая все необходимые установочные файлы на целевых компьютерах, а другая выполняет само обновление. Этот подход обеспечивает меньшее воздействие на продуктивность пользователей.
 
