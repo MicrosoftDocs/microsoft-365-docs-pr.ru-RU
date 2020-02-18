@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных из средства мгновенных Bloomberg чата в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: 9711442e75e5a60540c8c7debea83d90c89e7893
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9e93802eaf3197139fe8b8384bc1ec3ee16b2d6c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596036"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079665"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Настройка соединителя для архивации данных Instant Bloomberg
 
@@ -29,7 +29,7 @@ ms.locfileid: "41596036"
 
 В следующем обзоре описывается процесс использования соединителя для архивации данных Bloomberg чата в Microsoft 365. 
 
-![Процесс импорта и архивации мгновенных Bloomberg](media/InstantBloombergDataArchiving.png)
+![Процесс импорта и архивации мгновенных Bloomberg](../media/InstantBloombergDataArchiving.png)
 
 1. Ваша организация работает с Bloomberg, чтобы настроить сайт Bloomberg SFTP. Вы также можете работать с Bloomberg, чтобы настроить мгновенные Bloomberg на копирование сообщений чата на сайт SFTP Bloomberg.
 

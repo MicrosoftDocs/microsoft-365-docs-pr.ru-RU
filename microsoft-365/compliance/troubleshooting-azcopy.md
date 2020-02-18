@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7a012ec742d99a5b2ba35800c90e8614b503b93c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3153fc92cfae6e2feba122cc895e787c9b573ef7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597326"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080905"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Устранение неполадок AzCopy в Advanced eDiscovery
 
 При загрузке данных или документов, отличных от Office 365, для исправления ошибок в Advanced eDiscovery, Пользовательский интерфейс предоставляет команду Azure AzCopy, содержащую параметры с расположением файлов, которые требуется отправить, и хранилищем Azure. расположение, в которое будут загружаться файлы. Чтобы отправить документы, скопируйте эту команду и запустите ее в командной строке на локальном компьютере.  На снимке экрана ниже показан пример команды AzCopy:
 
-![Отправка файлов, отличных от Office 365](media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
+![Отправка файлов, отличных от Office 365](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 
 Обычно предоставленная команда работает при ее запуске. Однако возможны случаи, когда отображаемая команда не запустится успешно. Вот несколько возможных причин.
 

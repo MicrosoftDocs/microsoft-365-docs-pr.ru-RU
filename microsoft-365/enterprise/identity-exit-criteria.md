@@ -1,5 +1,7 @@
 ---
 title: Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует условиям Microsoft 365 корпоративный для служб и инфраструктуры, основанных на удостоверениях.
-ms.openlocfilehash: 540d3c01ea368634cebafb2ec3dd5562fcb0b73c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3fd4d0a1df50d55cb7a21668b609341d0c01aa35
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067314"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 
-![Этап 2. Удостоверения](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 Убедитесь, что инфраструктура удостоверений соответствует указанным ниже обязательным условиям и что рассмотрены необязательные условия.
 
@@ -292,5 +294,5 @@ ms.locfileid: "40801754"
 
 |||
 |:-------|:-----|
-|![Этап 3. Windows 10 Корпоративная](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап —[Windows 10 Корпоративная](windows10-infrastructure.md). |
+|![Этап 3. Windows 10 Корпоративная](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап —[Windows 10 Корпоративная](windows10-infrastructure.md). |
 

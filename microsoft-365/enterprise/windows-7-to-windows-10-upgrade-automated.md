@@ -1,5 +1,7 @@
 ---
 title: 'Автоматический переход с Windows 7 на Windows 10 '
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Автоматический переход с Windows 7 на Windows 10 для крупных организаций
-ms.openlocfilehash: 7bca0a185bccbec1ee857b17817debfd7f06feb0
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 727f165dc941eeb429e865fc8321499af6f23512
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112703"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085634"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>Автоматический переход на месте с Windows 7 на Windows 10 для крупных организаций
 
 С 14 января 2020 г. обновления для системы безопасности и поддержка компьютеров под управлением Windows 7 больше не будут предоставляться. С приближением срока для перехода с Windows 7 на Windows 10 и при наличии нескольких вариантов развертывания в ИТ-сообществе часто возникает вопрос: "Какой самый быстрый способ перехода с Windows 7 на Windows 10?". Краткий ответ — обновление на месте для существующих компьютеров. Это позволяет сосредоточиться на нескольких аспектах процесса развертывания компьютеров.
 
-<center><img src="media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
+<center><img src="../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
 При использовании обновления на месте значительно уменьшаются несколько процессов развертывания компьютеров, в частности:
 
@@ -68,7 +70,7 @@ ms.locfileid: "41112703"
 
   - любые другие параметры, требующие настройки для обеспечения готовности организации.
 
-![](media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
+![](../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
 
 Самые распространенные причины, по которым обновления не удается завершить или выполнить включают следующее:
 

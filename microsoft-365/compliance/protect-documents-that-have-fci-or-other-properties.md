@@ -96,7 +96,7 @@ ms.locfileid: "42070641"
   
 Дополнительные сведения об этих командлетах можно найти в статье [командлеты центра безопасности &amp; и соответствия требованиям Office 365](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409).
   
-1. [Подключитесь к Центру безопасности и соответствия требованиям Office 365 с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [Подключитесь к Центру безопасности и соответствия требованиям Office 365 с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409).
     
 2. Создайте политику с помощью `New-DlpCompliancePolicy`.
 

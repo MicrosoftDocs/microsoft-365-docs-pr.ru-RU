@@ -1,5 +1,7 @@
 ---
 title: Шаг 3. Настройка усиленной защиты для Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как настроить усиленную защиту для Microsoft 365.
-ms.openlocfilehash: 15a4121315a81e1169e7cf1fa1c7ed079201b67b
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: eabf0d60f3cfb61b7fffcc688a080ba99f83293e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801684"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067246"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>Шаг 3. Настройка усиленной защиты для Microsoft 365
 
 *Этот шаг — обязательный; он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
-![Этап 6. Защита данных](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Чтобы защитить вашу подписку на Microsoft 365 и ее данные от вредоносных угроз, настройте следующее:
 
@@ -47,7 +49,7 @@ ms.locfileid: "40801684"
 
 |||
 |:-------|:-----|
-|![Руководства по лаборатории тестирования для облака Майкрософт](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: настройка усиленной защиты Microsoft 365](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
+|![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [Руководство по лаборатории тестирования: настройка усиленной защиты Microsoft 365](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 Прежде чем перейти к следующему шагу, проверьте [условия](infoprotect-exit-criteria.md#crit-infoprotect-step3), при выполнении которых можно считать данный шаг завершенным.
@@ -57,6 +59,6 @@ ms.locfileid: "40801684"
 
 |||
 |:-------|:-----|
-|![Шаг 4](./media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
+|![Шаг 4](../media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
 
 

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Можно отменить экспортированные результаты поиска обнаружения электронных данных, чтобы экспортировать только одну копию сообщения электронной почты, несмотря на то, что в разных почтовых ящиках могут быть найдены несколько экземпляров одного и того же сообщения.
-ms.openlocfilehash: bfd810d358a85c0cdfacab50fb512a8d2a9c8828
-ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
+ms.openlocfilehash: f3a0291c2c611814e35528e87f5a3897c4e8ba59
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41892042"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076283"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Дедупликация результатов поиска, выполненного с помощью функции обнаружения электронных данных
 
@@ -45,11 +45,11 @@ ms.locfileid: "41892042"
   
  ### <a name="resultscsv-report-viewed-in-excel"></a>Отчет Results. CSV (просматривается в Excel)
   
-![Просмотр сведений о повторяющихся элементах в отчете Results. CSV](media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
+![Просмотр сведений о повторяющихся элементах в отчете Results. CSV](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
  ### <a name="manifestxml-report-viewed-in-excel"></a>Отчет manifest. XML (просматривается в Excel)
   
-![Просмотр сведений о повторяющихся элементах в отчете manifest. XML](media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
+![Просмотр сведений о повторяющихся элементах в отчете manifest. XML](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
 Кроме того, в отчетах по экспорту включаются другие свойства повторяющихся сообщений. Сюда входит почтовый ящик, в котором находится повторяющееся сообщение, независимо от того, было ли сообщение отправлено в группу рассылки, а также отправлено ли сообщение CC или BCC другому пользователю.
   
