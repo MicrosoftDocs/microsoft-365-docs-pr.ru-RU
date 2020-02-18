@@ -75,8 +75,11 @@
   href: protect-information.md
   items:
     - name: Метки конфиденциальности
-      href: sensitivity-labels.md
       items:
+        - name: Сведения о метках конфиденциальности
+          href: sensitivity-labels.md
+        - name: Начало работы с метками конфиденциальности
+          href: get-started-with-sensitivity-labels.md
         - name: Создание и публикация меток конфиденциальности
           href: create-sensitivity-labels.md
         - name: Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования
@@ -89,7 +92,7 @@
           href: sensitivity-labels-teams-groups-sites.md
         - name: Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
           href: sensitivity-labels-sharepoint-onedrive-files.md
-        - name: Метки конфиденциальности в приложениях Office
+        - name: Использование меток конфиденциальности в приложениях Office
           href: sensitivity-labels-office-apps.md
     - name: Предотвращение потери данных (DLP)
       href: data-loss-prevention-policies.md
@@ -801,7 +804,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-arc-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-arc-office365.md
         - name: Защита информации
           href: gdpr-information-protection.md
@@ -819,7 +822,7 @@
               href: gdpr-dsr-intune.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dsr-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dsr-office365.md
             - name: Семейство Visual Studio
               href: gdpr-dsr-visual-studio-family.md
@@ -831,7 +834,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-breach-office365.md
         - name: Оценка влияния на защиту данных
           items:
@@ -843,7 +846,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dpia-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dpia-office365.md
         - name: Специалист по защите данных корпорации Майкрософт
           href: gdpr-data-protection-officer.md
