@@ -18,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Мы постоянно создаем новые статьи, обновляя существующие и внося изменения в соответствии с вашими отзывами. Узнайте о новых возможностях, которые были обновлены в этом месяце.
-ms.openlocfilehash: 36edcbc7106710ff62bc1a176fb76a17fd7076a6
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: ad9b6865b0afe5b49c2b02d3ee9adba4d62ef9eb
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101249"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106822"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 
@@ -108,7 +108,7 @@ ms.locfileid: "42101249"
 
 ### <a name="mrm-in-exchange-online"></a>УПРАВЛЕНИЯ ЗАПИСЯМИ сообщений в Exchange Online
 
-[Помещение почтового ящика на хранение для хранения](https://docs.microsoft.com/en-us/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (Обновлено)<br>Добавлен новый раздел, сравнивающий свойства почтовых ящиков Елкпроцессингдисаблед и RetentionHoldEnabled, а также их влияние на обработку помощника для управляемых папок.
+[Помещение почтового ящика на хранение для хранения](https://docs.microsoft.com/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (Обновлено)<br>Добавлен новый раздел, сравнивающий свойства почтовых ящиков Елкпроцессингдисаблед и RetentionHoldEnabled, а также их влияние на обработку помощника для управляемых папок.
 
 ### <a name="records-management"></a>Управление записями
 

@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
-ms.openlocfilehash: c3537657eb0bd3bf5b31f1b90c513c3e49eef000
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2140b2b529ccec9a4d081a2e7b6ea1fdb7fb900f
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068719"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106812"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -134,7 +134,7 @@ ms.locfileid: "42068719"
 |Политики оповещений|Оповещения > политик оповещений <br/> https://protection.office.com/alertpolicies |В настоящее время политики оповещения управляются только в центре безопасности Office 365 & соответствия требованиям. |[Политики оповещений в центре безопасности и соответствия требованиям](alert-policies.md) |
 |Оповещения|Оповещения > Просмотр оповещений <br/> https://protection.office.com/viewalerts |Оповещения <br/> https://compliance.microsoft.com/compliancealerts |[Просмотр оповещений](alert-policies.md#viewing-alerts)|
 |Архив|Архив > управления сведениями <br/> https://protection.office.com/archiving |Вкладка > "Управление сведениями" <br/> https://compliance.microsoft.com/informationgovernance?viewid=archive |[Включение архивных почтовых ящиков](enable-archive-mailboxes.md)|
-|Поиск в журнале аудита|Поиск > поиска в журнале аудита <br/> https://protection.office.com/unifiedauditlog |Включить <br/> https://compliance.microsoft.com/auditlogsearch| [Поиск в журнале аудита в центре безопасности & соответствия требованиям](search-the-audit-log-in-security-and-compliance.md)|
+|Поиск в журнале аудита|Поиск > поиска в журнале аудита <br/> https://protection.office.com/unifiedauditlog |Включить <br/> https://compliance.microsoft.com/auditlogsearch | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](search-the-audit-log-in-security-and-compliance.md)|
 |Поиск контента|Поиск контента > поиск контента <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | Поиск контента <br/> https://compliance.microsoft.com/contentsearch |[Поиск содержимого в Office 365](search-for-content.md) |
 |Соединители данных|Управление сведениями > архивы сторонних данных <br/> https://protection.office.com/nativeconnector | Соединители данных <br/> https://compliance.microsoft.com/connectorlanding |[Архивация сторонних данных](archiving-third-party-data.md)|
 |Защита от потери данных|Защита от потери данных <br/> https://protection.office.com/datalossprevention |Защита от потери данных <br/> https://compliance.microsoft.com/datalossprevention |[Общие сведения о защите от потери данных](data-loss-prevention-policies.md)|
