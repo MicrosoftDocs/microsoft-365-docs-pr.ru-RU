@@ -15,12 +15,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: dc781d9f800b3db938b253775b31df118c21fd03
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.date: 01/28/2020
+ms.openlocfilehash: acb6dbf69033b97f2899738a5ca17182ac9942c6
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784706"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106852"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -33,15 +34,27 @@ ms.locfileid: "41784706"
 > [!TIP]
 > У вас еще нет Office 365 ATP? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
+## <a name="januaryfebruary-2020"></a>Январь/Февраль 2020
+
+- Усовершенствование [обозревателя угроз](threat-explorer.md) , позволяющее Teams выполнять поиск и фильтрацию по нескольким полям при [изучении электронной почты](investigate-malicious-email-that-was-delivered.md):
+    - Место доставки и специальные действия
+    - Направленность (входящая, исходящая или внутренняя)
+    - Переопределения (блокировка пользователей или разрешение)
+    - Угроза URL-адресов (вредоносная программа, фишинг, спам или None)
+    - Advanced NOT Filters (дополнительные параметры фильтрации, включающие не содержащие, не включают и т. д.).
+    - Фильтры по детализированному времени (день, час, половина часа) 
+
+- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложения безопасности, в центре безопасности Office 365 & соответствия требованиям перейдите в раздел > **Обзор** **управления угрозами**.)
+
 ## <a name="december-2019"></a>Декабрь 2019 г.
 
 - [Экспорт URL-адреса щелкните данные для анализа в автономном режиме](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (Office 365 ATP (план 1) или план 2)
 
-- [Представления кампаний в Office 365 ATP (**Предварительная версия**)](campaigns.md)
+- [Использование представлений кампаний в Office 365 ATP (**Предварительная версия**)](campaigns.md)
 
 ## <a name="november-2019"></a>Ноябрь 2019 г.
 
-- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей (**Предварительная версия**)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (Office 365 ATP, план 2)
+- [Узнайте о новых взломанных функциях обнаружения и ответа пользователей](address-compromised-users-quickly.md) (**Предварительная версия**) (Office 365 ATP, план 2)
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
@@ -67,7 +80,7 @@ ms.locfileid: "41784706"
 
 Знаете ли вы, что Office 365 ATP доступен в двух планах? [Узнайте больше о том, что включает каждый план](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
-## <a name="see-also"></a>Дополнительные ресурсы
+## <a name="see-also"></a>См. также
 
 [План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap)
 
