@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 description: Здесь вы найдете ответы на часто задаваемые вопросы об самостоятельных покупках.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: a9e49f5b9b518711f72c9b9a29e690c55acf3861
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b5289f4c9b7ea8c723dab8bf4bf97b83fef5b34c
+ms.sourcegitcommit: 290d95f9ba118336cb136f34313de265b97e869e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080315"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155628"
 ---
 # <a name="self-service-purchase-faq"></a>Вопросы и ответы по самостоятельной покупке
 
 > [!NOTE]
 > Сведения, приведенные в этой статье, применимы к подпискам на Microsoft Power Platform (Power BI, Power Apps and Power Автоматизация).
 
-Теперь самостоятельные покупки доступны для платформы управления питанием в США, Австралии, Канаде и Японии.
+Теперь самостоятельные покупки доступны для платформы управления питанием в нескольких странах.
 
 ## <a name="general"></a>Общие
 
@@ -146,3 +146,9 @@ ms.locfileid: "42080315"
 ### <a name="whats-the-role-of-microsofts-partners-in-self-service-purchases"></a>Какова роль партнеров корпорации Майкрософт в самостоятельных покупках?
 
 Партнеры, у которых есть делегированные права на администрирование, могут видеть самостоятельные приобретения в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центре администрирования Microsoft 365</a>, как и администратор. Партнеры могут поддерживать организацию, которая хочет централизовать продукты, приобретаемые с помощью самостоятельных покупок. Кроме того, партнеры могут предоставить решения для расширения возможностей самостоятельных покупок.
+
+## <a name="country-availability"></a>Доступность страны
+
+### <a name="in-which-countries-can-i-make-a-self-service-purchase"></a>В каких странах можно выполнить самостоятельную покупку?
+
+Самостоятельные покупки доступны в следующих странах: Австралии, Канаде, Японии и Соединенных Штатах Америки.
