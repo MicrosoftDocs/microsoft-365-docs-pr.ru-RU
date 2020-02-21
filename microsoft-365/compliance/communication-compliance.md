@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d5eb8b2f9aff59363c60d7bd75aa3f76fdf1283a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d733c73f1c418af2f9c12b67927838875b707aa1
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078704"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179240"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Соответствие требованиям в Microsoft 365
 
@@ -36,6 +36,8 @@ ms.locfileid: "42078704"
 - Обеспечение соответствия нормативным требованиям и риск для штрафов
 
 В некоторых организациях может быть разделение обязанностей между поддержкой ИТ и группой управления соответствием требованиям. Microsoft 365 поддерживает разделение между настройкой соответствия между связью и конфигурацией политик для сканирования связи. Например, Группа ИТ для организации может отвечать за настройку разрешений и групп для поддержки политик обеспечения связи, настроенных и управляемых группой соответствия требованиям Организации.
+
+Чтобы получить краткий обзор обеспечения соответствия требованиям, ознакомьтесь [с Разявлением притеснения в рабочем месте и ответ на обеспечение соответствия требованиям в microsoft 365](https://youtu.be/z33ji7a7Zho) Video в [канале Microsoft механика](https://www.youtube.com/user/OfficeGarageSeries).
 
 ## <a name="scenarios-for-communication-compliance"></a>Сценарии обеспечения соответствия связи
 
