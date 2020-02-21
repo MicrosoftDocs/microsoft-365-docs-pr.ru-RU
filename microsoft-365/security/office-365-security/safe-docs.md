@@ -15,18 +15,24 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Сведения о безопасных документах в Office 365 ATP.
-ms.openlocfilehash: c76ae2c776c31cf798c21d7330bce488ad1e7cc6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3980746eb2f48e77c22f5139827bead5640dad61
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082376"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170479"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Безопасные документы в Office 365 Advanced Threat protection
 
 Безопасные документы — это функция в Office 365 Advanced Threat protection (ATP), использующая [Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для сканирования документов и файлов, которые открываются в [режиме защищенного просмотра](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+
+- Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности Microsoft 365 и Microsoft 365.
+
+- Безопасные документы в настоящее время доступны для общедоступной предварительной версии, доступной для пользователей, которые входят в состав [программы предварительной оценки Office](https://insider.office.com/en-us/join) на странице "ежемесячный канал (целевой)" с Office версии 2002 (12527,20092) или более поздней версии. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
+
+- Только регион США, который в настоящее время поддерживает обработку файлов в соответствии с требованиями (все файлы перемещаются в регион США для сканирования). Поддержка региона UK/ЕС запланирована в будущем.
 
 - Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 

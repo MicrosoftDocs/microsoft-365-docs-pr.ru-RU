@@ -18,19 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 08aa1f0c252d931ab1abf078b1c0cfcf7d9b43a2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 062dd86de49eb3dfe47566aa8d7269780cf9995c
+ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083766"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42175722"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>Просмотр сведений и результатов автоматического исследования
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 При проведении автоматического исследования в службе защиты от угроз (Майкрософт) сведения о нем доступны во время и после автоматического исследования. Если у вас есть [необходимые разрешения](mtp-action-center.md#required-permissions-for-action-center-tasks), вы можете просмотреть эти подробности в представлении со сведениями об исследовании. В представлении со сведениями об исследовании содержится актуальное состояние и можно утвердить ожидающие действия. 
 

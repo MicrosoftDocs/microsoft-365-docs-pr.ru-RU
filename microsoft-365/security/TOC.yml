@@ -43,7 +43,7 @@
               href: mtp/microsoft-threat-protection.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
-            - name: Необходимые условия
+            - name: Необходимые компоненты
               href: mtp/prerequisites.md
             - name: Безопасность и конфиденциальность данных
               href: mtp/data-privacy.md
@@ -67,9 +67,11 @@
               items:
                 - name: Обзор воздуха
                   href: mtp/mtp-autoir.md
-                - name: Переход в центр уведомлений
+                - name: Просмотр действий по исправлению
+                  href: mtp/mtp-remediation-actions.md
+                - name: Посетите центр уведомлений
                   href: mtp/mtp-action-center.md
-                - name: Просмотр результатов воздуха
+                - name: Просмотр результатов расследования
                   href: mtp/mtp-autoir-results.md
                 - name: Утверждение или отклонение ожидающих действий
                   href: mtp/mtp-autoir-actions.md
@@ -364,6 +366,20 @@
               href: ./office-365-security/campaigns.md
             - name: Общие сведения о последних атаках с помощью службы анализа угроз
               href: ./mtp/latest-attack-campaigns.md
+            - name: Автоматизированный анализ угроз и реакция на угрозы
+              items:
+                - name: Обзор воздуха
+                  href: ./office-365-security/office-365-air.md
+                - name: Просмотр сведений и результатов расследования
+                  href: ./office-365-security/air-view-investigation-results.md
+                - name: Просмотр и утверждение действий по исправлению
+                  href: ./office-365-security/air-remediation-actions.md
+                - name: Интеграция воздуха с настраиваемым или сторонним решением для создания отчетов
+                  href: ./office-365-security/air-custom-reporting.md
+            - name: Быстрый поиск и адресация скомпрометированных учетных записей пользователей
+              href: ./office-365-security/address-compromised-users-quickly.md
+            - name: Исследование и исправление вредоносных сообщений электронной почты
+              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Просмотр и чтение отчетов ATP
               href: ./office-365-security/view-reports-for-atp.md
             - name: Значение страниц предупреждения безопасных ссылок ATP
@@ -372,12 +388,6 @@
               href: ./office-365-security/threat-trackers.md
             - name: Использование имитатора атак в Office 365
               href: ./office-365-security/attack-simulator.md
-            - name: Защита пользователей с помощью анализа угроз и реагирования на них
-              href: ./office-365-security/keep-users-safe-with-office-365-ti.md
-            - name: Автоматическое изучение угроз и реагирование на них в Office 365
-              href: ./office-365-security/office-365-air.md
-            - name: 'Ищите и изучайте нежелательную почту, которая была доставлена'
-              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Безопасные документы в Office 365 ATP
               href: ./office-365-security/safe-docs.md
             - name: Обозреватель угроз (и обнаружение в режиме реального времени)
@@ -393,6 +403,8 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Как работает ATP
               items:
+                - name: Принцип работы автоматизированного исследования и ответа
+                  href: ./office-365-security/automated-investigation-response-office.md
                 - name: Как работают безопасные ссылки ATP
                   href: ./office-365-security/how-atp-safe-links-works.md
                 - name: Как работают безопасные вложения ATP
@@ -403,8 +415,6 @@
                   href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: Как работает анализ угроз и реагирование на них
                   href: ./office-365-security/office-365-ti.md
-                - name: Как работает автоматизированный анализ угроз и реагирование на них
-                  href: ./office-365-security/automated-investigation-response-office.md
         - name: 'Управление инцидентами, связанными с безопасностью'
           items:
             - name: 'Реагирование на инциденты, связанные с безопасностью, в Office 365'

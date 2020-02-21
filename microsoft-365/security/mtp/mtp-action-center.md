@@ -18,19 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5f31c9cb5272248ae8250f73d054ca599b83edc2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c838db1b3792bda719102f18a7c473192a7f9481
+ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083794"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42175712"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>Переход в центр уведомлений для просмотра действий по исправлению
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 ## <a name="a-single-pane-of-glass-experience"></a>Интерфейс "единой области представления"
 
@@ -47,11 +45,6 @@ ms.locfileid: "42083794"
 
 ## <a name="remediation-actions"></a>Действия по исправлению
 
-В следующей таблице перечислены действия по исправлению, поддерживаемые в настоящее время в центре уведомлений. 
-
-|Действия по исправлению для конечных точек  |Действия по исправления для электронной почты  |
-|---------|---------|
-|Файл карантина<br/>Удаление раздела реестра<br/>Прекращение процесса <br/>Остановка службы <br/>Удаление раздела реестра <br/>Отключение драйвера <br/>Удаление запланированной задачи      |Обратимое удаление сообщений электронной почты или кластеров<br/>Блокирование URL-адреса (во время щелчка)<br/>Отключение внешней переадресации почты          |
 
 ## <a name="go-to-the-action-center"></a>Переход в центр уведомлений
 
