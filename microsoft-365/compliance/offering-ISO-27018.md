@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6791754e0d34ca2ca564a805269bb9fdc216d0ad
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: e2a26b91de38c876145b9b5b1c7765058b4b25a3
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851876"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222061"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>ISO/IEC 27018 "Свод правил по защите персональных данных в облаке"
 
@@ -123,7 +123,7 @@ ms.locfileid: "41851876"
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) используйте предварительно настроенный [шаблон ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523), чтобы обеспечить соответствие вашей организации требованиям этого стандарта.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) выберите предварительно настроенный [шаблон ISO 27018](https://go.microsoft.com/fwlink/?linkid=2117523) в раскрывающемся меню **Шаблон**, чтобы обеспечить соответствие вашей организации требованиям этих норм.
 
 ## <a name="resources"></a>Ресурсы
 

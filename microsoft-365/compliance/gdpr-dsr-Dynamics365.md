@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: fee4e0472a6d9b08bdab4c5340097d4222aac1d9
-ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
+ms.openlocfilehash: 1eeed6c1dfef1765089a5998200c93be595a719a
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722020"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225527"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Dynamics 365, определенные GDPR и CCPA
 
@@ -82,10 +82,9 @@ Dynamics 365 — это веб-служба, которая предостав
 
 Майкрософт предоставляет возможности для реагирования на запросы по правам субъекта данных и последующего получения доступа к данным клиента. Однако вы несете ответственность за надлежащее размещение и классификацию персональных данных.
 
-***Dynamics 365 for Customer Engagement*** предоставляет несколько методов поиска персональных данных среди записей, например расширенный поиск, поиск с сортировкой по релевантности и поиск по записям. Эти функции позволяют идентифицировать (находить) персональные данные.
+***Dynamics 365 for Customer Engagement*** предоставляет несколько методов поиска персональных данных среди записей, например расширенный поиск и поиск по записям. Эти функции позволяют идентифицировать (находить) персональные данные.
 
 - [Расширенный поиск](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search).
-- [Поиск с сортировкой по релевантности](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results), который можно сохранить для дальнейшего использования с помощью панели мониторинга "Поиск с сортировкой по релевантности".
 - [Поиск по записям](https://docs.microsoft.com/dynamics365/customer-engagement/basics/search-records).
 
 В Dynamics 365 for Marketing вы также можете выполнять следующие действия:

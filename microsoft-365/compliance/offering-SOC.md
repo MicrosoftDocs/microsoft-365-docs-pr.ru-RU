@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5f11cb99d4bf235ba41e05d1bf79217f827fe8c2
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 80ee396d5a9862dd335118d8d4e8018214035f20
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851886"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222051"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -131,7 +131,7 @@ ms.locfileid: "41851886"
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) используйте предварительно настроенный [шаблон SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) и [шаблон SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919), чтобы обеспечить соответствие вашей организации требованиям этих норм.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) выберите предварительно настроенный [шаблон SOC 1](https://go.microsoft.com/fwlink/?linkid=2117918) и [шаблон SOC 2](https://go.microsoft.com/fwlink/?linkid=2117919) в раскрывающемся меню **Шаблон**, чтобы обеспечить соответствие вашей организации требованиям этих норм.
 
 ## <a name="resources"></a>Ресурсы
 

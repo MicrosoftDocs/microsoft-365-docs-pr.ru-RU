@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5cd89e0f31d650e85de20b40e3870de0ef8c7cc3
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: e6d28d3095f0a08aa7c2bf66df3b32b2dc7bec86
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851836"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222021"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>Система управления конфиденциальностью ISO/IEC 27701 (PIMS)
 
@@ -74,7 +74,7 @@ ms.locfileid: "41851836"
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) используйте предварительно настроенный [шаблон ISO 27701](https://go.microsoft.com/fwlink/?linkid=2117915), чтобы обеспечить соответствие вашей организации требованиям этого стандарта.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки рейтинга соответствия требованиям](compliance-score-setup.md) выберите предварительно настроенный [шаблон ISO 27701](https://go.microsoft.com/fwlink/?linkid=2117915) в раскрывающемся меню **Шаблон**, чтобы обеспечить соответствие вашей организации требованиям этих норм.
 
 ## <a name="resources"></a>Ресурсы
 
