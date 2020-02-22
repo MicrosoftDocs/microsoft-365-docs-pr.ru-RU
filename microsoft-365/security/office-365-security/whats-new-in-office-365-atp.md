@@ -15,13 +15,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 01/28/2020
-ms.openlocfilehash: acb6dbf69033b97f2899738a5ca17182ac9942c6
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.date: 02/21/2020
+ms.openlocfilehash: 09cf8e74cb52d75d454fec371ee965978851b5e5
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106852"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42230072"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -45,6 +45,8 @@ ms.locfileid: "42106852"
     - Фильтры по детализированному времени (день, час, половина часа) 
 
 - Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложения безопасности, в центре безопасности Office 365 & соответствия требованиям перейдите в раздел > **Обзор** **управления угрозами**.)
+
+- [Безопасные документы в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(Предварительная версия)**
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 1a39ffb5bf57e0f4ffa38a210c299480d3081345
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: e75ef1523247cbddcf6cb28d69a889db1de8e42f
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175961"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228535"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Действия по исправлению, следующие за автоматическим исследованием в Office 365
 
@@ -42,14 +42,13 @@ ms.locfileid: "42175961"
 При просмотре [сведений об исследовании](air-view-investigation-results.md)вы можете утвердить или отклонить все ожидающие действия по исправлению. Мы рекомендуем сделать это как можно скорее, чтобы завершить автоматическое расследование.
 
 > [!IMPORTANT]
-> Для утверждения или отклонения действий по исправлению необходимы соответствующие разрешения. Ознакомьтесь [с разрешениями, необходимыми для использования возможностей Air](automated-investigation-response-office.md#required-permissions-to-use-air-capabilities).
+> Для утверждения или отклонения действий по исправлению необходимы соответствующие разрешения. Ознакомьтесь [с разрешениями, необходимыми для использования возможностей Air](office-365-air.md#required-permissions-to-use-air-capabilities).
 
 1. Перейдите на вкладку **действия** .
 
 2. Выберите элемент в списке. (При этом становятся активными кнопки утвердить и отклонить.)
 
 3. Просмотрите доступные сведения о выбранных элементах, а затем либо утвердите, либо отклоните действия. 
-
  - **Одобрить** разрешает запуск исправления.
  - **Отклонить** не предпринимать дальнейших действий
 

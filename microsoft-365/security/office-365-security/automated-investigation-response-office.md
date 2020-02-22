@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Общие сведения об автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 8f781687047f39d4d038e293e50c9caad83d051a
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 436d70934e32f8609d35532188ac71cbd590c345
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179250"
+ms.locfileid: "42228585"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Автоматическое исследование и реагирование (AIR) в Office 365
 
@@ -132,28 +132,6 @@ ms.locfileid: "42179250"
 ![Начало исследования вредоносных программ в проводнике](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 Как и в "Playbooks", вызванных оповещением, автоматическое исследование, запущенное из представления в проводнике, включает в себя корневое исследование, действия по определению и корреляции угроз, а также Рекомендуемые действия по устранению этих угроз.
-
-## <a name="how-to-get-air"></a>Как получить воздух
-
-AIR Office 365 входит в состав следующих подписок:
-
-- Microsoft 365 E5
-- Office 365 E5
-- Защита от угроз (Майкрософт)
-- Office 365 Advanced Threat Protection (план 2)
-
-Если у вас нет ни одной из этих подписок, [запустите бесплатную пробную версию](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
-
-Для получения дополнительных сведений о доступности функций посетите страницу [доступность функций в планах расширенной защиты от угроз (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
-
-## <a name="required-permissions-to-use-air-capabilities"></a>Необходимые разрешения для использования возможностей AIR
-
-Разрешения предоставляются с помощью определенных ролей, например, описанных в следующей таблице. 
-
-|Задача |Требуются роли |
-|--|--|
-|Настройка функций AIR |Одна из следующих ролей: <br/>- **Глобальный администратор**<br/>- **Администратор безопасности** <br/>Эти роли можно назначить в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
-|Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенных в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Глобальный администратор** <br/>- **Администратор безопасности**<br/>- **Средство чтения безопасности** <br/>--- и ---<br/>- **Поиск и очистка** (эта роль назначается только в [центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Возможно, вам потребуется создать новую группу ролей и добавить роль "Поиск и очистка" в новую группу ролей.)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

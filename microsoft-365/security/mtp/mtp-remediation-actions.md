@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 73bb90a0537df8e6f23e4e0e50a748aebda3a487
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 65ace4bda091b3e000d25a984b706f26fe9c8696
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175959"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225487"
 ---
 # <a name="remediation-actions-in-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Действия по исправлению в автоматическом расследовании и возможностях реагирования в защите от угроз Майкрософт
 
@@ -36,7 +36,7 @@ ms.locfileid: "42175959"
 
 |Действия по исправлению для конечных точек  |Действия по исправления для электронной почты  |
 |---------|---------|
-|Файл карантина<br/>Удаление раздела реестра<br/>Прекращение процесса <br/>Остановка службы <br/>Удаление раздела реестра <br/>Отключение драйвера <br/>Удаление запланированной задачи      |Обратимое удаление сообщений электронной почты или кластеров<br/>Блокирование URL-адреса (во время щелчка)<br/>Отключение внешней переадресации почты          |
+|Файл карантина<br/>Удаление раздела реестра<br/>Прекращение процесса <br/>Остановка службы <br/>Отключение драйвера <br/>Удаление запланированной задачи      |Обратимое удаление сообщений электронной почты или кластеров<br/>Блокирование URL-адреса (во время щелчка)<br/>Отключение внешней переадресации почты          |
 
 Действия по исправлению, которые ожидают утверждения или уже завершены, можно просмотреть в [центре уведомлений](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center).
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d777ca0a61655c8df16d62c72691195bdec330a9
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 7bfa07880a302f77769ee15e9108db21dac2519c
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175783"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228574"
 ---
 # <a name="office-365-automated-investigation-and-response"></a>Автоматическое исследование и ответ на Office 365
 
@@ -42,3 +42,31 @@ ms.locfileid: "42175783"
 - [Просмотр и утверждение действий в результате расследования](air-remediation-actions.md#approve-or-reject-pending-actions)
 
 Чтобы узнать больше, посмотрите, [как воздух работает](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office).
+
+## <a name="how-to-get-air"></a>Как получить воздух
+
+AIR Office 365 входит в состав следующих подписок:
+
+- Microsoft 365 E5
+- Office 365 E5
+- Защита от угроз (Майкрософт)
+- Office 365 Advanced Threat Protection (план 2)
+
+Если у вас нет ни одной из этих подписок, [запустите бесплатную пробную версию](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
+
+Для получения дополнительных сведений о доступности функций посетите страницу [доступность функций в планах расширенной защиты от угроз (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+
+## <a name="required-permissions-to-use-air-capabilities"></a>Необходимые разрешения для использования возможностей AIR
+
+Разрешения предоставляются с помощью определенных ролей, например, описанных в следующей таблице. 
+
+|Задача |Требуются роли |
+|--|--|
+|Настройка функций AIR |Одна из следующих ролей: <br/>- **Глобальный администратор**<br/>- **Администратор безопасности** <br/>Эти роли можно назначить в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
+|Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенных в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Глобальный администратор** <br/>- **Администратор безопасности**<br/>- **Средство чтения безопасности** <br/>--- и ---<br/>- **Поиск и очистка** (эта роль назначается только в [центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Возможно, вам потребуется создать новую группу ролей и добавить роль "Поиск и очистка" в новую группу ролей.)
+
+## <a name="related-articles"></a>Статьи по теме
+
+- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+
+- [Автоматическое исследование и устранение неполадок в Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
