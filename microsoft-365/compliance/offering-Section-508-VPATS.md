@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d9d0c213fcca5b991b4912d5b9158e2d3836aff9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc5e8312f219176dbed7a84072c90e0ca165cd11
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602026"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228525"
 ---
 # <a name="us-section-508"></a>Раздел "США" 508
 
@@ -45,7 +45,7 @@ ms.locfileid: "41602026"
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Отчеты Майкрософт по обеспечению доступности
 
-Ознакомьтесь с [отчетами о соответствии](https://go.microsoft.com/fwlink/p/?linkid=2050974) для всех наших продуктов и служб.
+Ознакомьтесь с [отчетами о соответствии](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/) для всех наших продуктов и служб.
 
 ## <a name="resources"></a>Ресурсы
 

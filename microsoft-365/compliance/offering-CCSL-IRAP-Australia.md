@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 87bb8faa13f34fbe299b6de82bdd9099eaaff5aa
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 98b669a216b5c3a875cb1a42fd0cc97fb6112f1b
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851856"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222111"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Зарегистрированная программа-биоinformation Security для Австралии государственных учреждений (ИРАП)
 
@@ -86,9 +86,9 @@ Microsoft Azure, Dynamics 365 CRM и Office 365 по-прежнему включ
 - [Кто предоставляет учебные курсы по ИРАП?](https://acsc.gov.au/infosec/irap/training.htm)
 - [Сведения о требованиях к соответствию требованиям и несоответствиям](https://acsc.gov.au/infosec/irap/compliance.htm)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Использование оценки соответствия требованиям Майкрософт для оценки риска
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)используйте предварительно настроенный [шаблон ирап](https://go.microsoft.com/fwlink/?linkid=2117913) , чтобы обеспечить соответствие вашей организации требованиям для этих нормативных требований.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон ирап](https://go.microsoft.com/fwlink/?linkid=2117913) в раскрывающемся меню **шаблон** , чтобы обеспечить соответствие вашей организации требованиям для этих нормативных требований.
 
 ## <a name="resources"></a>Ресурсы
 

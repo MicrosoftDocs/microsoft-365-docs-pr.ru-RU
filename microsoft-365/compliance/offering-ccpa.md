@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c761a62e901be065a588f1e4141b731831c4752
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: de9fcad3b1d54247114974ce4432068c136fdb2a
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851846"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222031"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>Закон Калифорнии о конфиденциальности данных California Consumer Privacy Act (CCPA)
 
@@ -93,9 +93,9 @@ CCPA вступает в силу 1 января 2020 г.  Тем не мене
 - CCPA вводит обязательное родительское согласие для детей в возрасте до 13 лет в соответствии с Законом о защите конфиденциальности детей в Интернете (COPPA).
 - Для детей в пределах 13 и 16 лет ККПА создает новое обязательство для получения согласия на согласие от ребенка.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Использование оценки соответствия требованиям Майкрософт для оценки риска
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)используйте предварительно настроенный [шаблон ККПА](https://go.microsoft.com/fwlink/?linkid=2118004) , чтобы обеспечить соответствие вашей организации требованиям для этих нормативных требований.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон ККПА](https://go.microsoft.com/fwlink/?linkid=2118004) в раскрывающемся меню **шаблон** , чтобы обеспечить соответствие вашей организации требованиям для этих нормативных требований.
 
 ## <a name="resources"></a>Ресурсы
 

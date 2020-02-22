@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d6f6dc2cc8cb9a36816fa843fcea969d65c94dac
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 52752c31ae52fa75a3a50dbd6a4aa27605f6d921
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851896"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228515"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -49,7 +49,7 @@ ms.locfileid: "41851896"
 
 Службы Microsoft Enterprise Cloud Services также охватываются оценками FedRAMP. Microsoft Azure и Microsoft Azure государственные учреждения получили предварительный центр для работы с платой авторизации FedRAMP; Microsoft Dynamics 365 U.S. правительства США получил орган агентств, который будет работать в отделе США к корпусу, а также на территории США, как это сделало Microsoft Office 365 США от отдела здравоохранения и обслуживания персонала.
 
-Узнайте о преимуществах закона HIPAA и HITECH в Microsoft Cloud: [прочитайте статью званжер — Песири радиологи Customer](https://customers.microsoft.com/story/radiology-clinics-ease-compliance-drive-innovation-with-cloud-based-data-network)
+Чтобы узнать, как Microsoft Cloud помогает клиентам поддерживать требования закона об HIPAA и HITECH, посетите [материалы клиентов корпорации Майкрософт](https://customers.microsoft.com).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
@@ -102,9 +102,9 @@ ms.locfileid: "41851896"
 - [Практическое руководство по проектированию безопасных решений с использованием Microsoft Azure](https://aka.ms/azureindustrysecurity) помогает лучше понять, что необходимо для успешного внедрения облачной службы в безопасном режиме.
 - Решение [требований к безопасности и конфиденциальности HIPAA в Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) предоставляет краткий обзор требований к регулированию. Кроме того, он предоставляет подробные сведения о том, как облачные службы Майкрософт были построены с помощью методологий, соответствующих этим требованиям, и рекомендации по созданию решений, готовых к соответствию требованиям.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Использование оценки соответствия требованиям Майкрософт для оценки риска
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)используйте предварительно настроенный [шаблон HIPAA Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) и [шаблон "HIPAA Intune](https://go.microsoft.com/fwlink/?linkid=2118006) ", чтобы помочь вашей организации удовлетворить требования, предъявляемые к этим нормам.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон HIPAA Office 365](https://go.microsoft.com/fwlink/?linkid=2118005) и [шаблон "HIPAA Intune](https://go.microsoft.com/fwlink/?linkid=2118006) " в раскрывающемся меню **шаблон** , чтобы помочь Организации удовлетворить требования, предъявляемые к этому нормативу.
 
 ## <a name="resources"></a>Ресурсы
 

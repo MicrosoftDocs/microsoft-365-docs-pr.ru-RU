@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c77793d7676e836e7b445bd9b638a835bb7051ff
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 6dcdfd7ec2230de3eec7ccc0db08f7f4a637263d
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851826"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222076"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Совет по анализу финансовых учреждений по федеральным учреждениям (ФФИЕК)
 
@@ -59,9 +59,9 @@ Microsoft Azure, Microsoft Power BI и Microsoft Office 365 созданы в с
 
 Чтобы помочь вам обеспечить соблюдение этих обязанностей, корпорация Майкрософт предоставляет конкретные рекомендации по обеспечению соответствия стандартам SOC, описанным выше. Тем не менее, в конечном итоге вы можете определить, соответствуют ли наши службы определенным законам и нормативам, применимым к вашему учреждению. Кроме того, ФФИЕК рекомендует, чтобы пользователи отчетов аудита или рецензирования не зависят от информации, входящей в отчет, чтобы проверить внутреннюю среду управления TSP. Они должны использовать дополнительные процедуры проверки и мониторинга, как описано выше в [брошюре по аутсорсингу](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx) в справочнике по ФФИЕК для ИТ исследование. "
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Использование оценки соответствия требованиям Майкрософт для оценки риска
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)используйте предварительно настроенный [шаблон ффиек Office 365](https://go.microsoft.com/fwlink/?linkid=2117912) и [шаблон ффиек Intune](https://go.microsoft.com/fwlink/?linkid=2118101) , чтобы помочь вашей организации удовлетворить требования для этих нормативных требований.
+[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон ффиек Office 365](https://go.microsoft.com/fwlink/?linkid=2117912) и [шаблон ффиек Intune](https://go.microsoft.com/fwlink/?linkid=2118101) в раскрывающемся меню **шаблон** , чтобы помочь Организации удовлетворить требования, предъявляемые к этим требованиям.
 
 ## <a name="resources"></a>Ресурсы
 
@@ -75,7 +75,7 @@ Microsoft Azure, Microsoft Power BI и Microsoft Office 365 созданы в с
 ## <a name="other-microsoft-resources-for-financial-services"></a>Другие ресурсы Майкрософт для финансовых услуг
 
 - [Программа соответствия финансовых услуг Microsoft Financial Services Compliance Program](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Соответствие финансовых служб требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Облачные и финансовые службы Майкрософт для бизнеса](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Общая ответственность в облачных вычислениях](https://aka.ms/sharedresponsibility)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
