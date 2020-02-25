@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/04/2019
+ms.date: 02/24/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection включает безопасные вложения, безопасные ссылки, расширенные антифишинговые средства, инструменты создания отчетов и возможности аналитики угроз.
-ms.openlocfilehash: 9d7b2561c40e1322b7f15e72c48755268c119f24
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 712fdf6935fa69bfb2079858d6384eee270776e6
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106842"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261036"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -39,7 +39,7 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 
 - **[Анализ угроз и реагирование на них.](#use-threat-investigation-and-response-capabilities)** Используйте передовые инструменты для анализа, изучения, моделирования и предотвращения угроз.
 
-- **[Автоматизированный анализ угроз и реагирование на них.](#save-time-with-automated-investigation-and-response)** Экономьте время и усилия при анализе и устранении угроз.
+- **[Автоматизированный анализ угроз и реагирование на них.](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)** Экономьте время и усилия при анализе и устранении угроз.
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP (план 1) и Office 365 ATP (план 2)
 
@@ -47,7 +47,7 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 
 |Office 365 ATP, План 1 |Office 365 ATP, План 2|
 |---------|---------|
-|Конфигурация, защита и возможности обнаружения:<br/>- [Безопасные вложения](atp-safe-attachments.md)<br/>- [Безопасные ссылки](atp-safe-links.md)<br/>- [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Расширенная защита от фишинга](atp-anti-phishing.md)<br/>- [Обнаружение в режиме реального времени](threat-explorer.md)     |Office 365, возможности Плана 1<br/>--- плюс ---<br/>Автоматизация, исследование, исправления и возможности образования.<br/>- [Журналы учета угроз](threat-trackers.md)<br/>- [Обозреватель угроз](threat-explorer.md)<br/>- [Автоматизированный анализ угроз и реагирование на них](automated-investigation-response-office.md)<br/>- [Эмулятор атак](attack-simulator.md)|
+|Конфигурация, защита и возможности обнаружения:<br/>- [Безопасные вложения](atp-safe-attachments.md)<br/>- [Безопасные ссылки](atp-safe-links.md)<br/>- [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [Расширенная защита от фишинга](atp-anti-phishing.md)<br/>- [Обнаружение в режиме реального времени](threat-explorer.md)     |Office 365, возможности Плана 1<br/>--- плюс ---<br/>Автоматизация, исследование, исправления и возможности образования.<br/>- [Журналы учета угроз](threat-trackers.md)<br/>- [Обозреватель угроз](threat-explorer.md)<br/>- [Автоматизированный анализ угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>- [Эмулятор атак](attack-simulator.md)|
 
 - Пакет Office 365 с Планом 2 входит в состав Office 365 E5, Office 365 A5 и Microsoft 365 E5.
 
@@ -56,9 +56,6 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 - При этом Office 365 ATP с Планом 1 и Office 365 ATP с Планом 2 доступны как дополнение к некоторым подпискам. Дополнительные сведения см. в разделе [Доступность функций в планах ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
 
 - Если текущая подписка не включает в себя Office 365 ATP, [то обратитесь в отдел продаж для запуска пробной версии](https://go.microsoft.com/fwlink/p/?LinkId=518644) и посмотрите, как ATP может работать в вашей организации.
-
-> [!TIP]
-> У вас есть Microsoft 365 E5 или Microsoft 365 E3 с управлением учетными записями и защитой от угроз? Попробуйте [Защиту от угроз (Майкрософт)](../mtp/microsoft-threat-protection.md).
 
 ## <a name="configure-atp-policies"></a>Настройка политик ATP
 
@@ -105,7 +102,7 @@ Office 365 ATP (план 2) включает лучшие [средства ан
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>Экономия времени благодаря автоматизированному анализу угроз и реагированию на них
 
-(**НОВИНКА!**) При анализе потенциальных кибератак время играет ключевую роль. Чем раньше вы сможете выявить и устранить угрозы, тем лучше для организации. Возможности [Автоматизированного анализа угроз и реагирование на них](automated-investigation-response-office.md) (AIR) включают сборники схем безопасности, которые можно запускать автоматически (например, при срабатывании оповещения) или вручную (например, с помощью представления в обозревателе). AIR экономит время и усилия группы специалистов по безопасности, помогая эффективно устранять угрозы. Дополнительные сведения см. в статье [AIR в Office 365](automated-investigation-response-office.md).
+(**НОВИНКА!**) При анализе потенциальных кибератак время играет ключевую роль. Чем раньше вы сможете выявить и устранить угрозы, тем лучше для организации. Возможности [Автоматизированного анализа угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) включают сборники схем безопасности, которые можно запускать автоматически (например, при срабатывании оповещения) или вручную (например, с помощью представления в обозревателе). AIR экономит время и усилия группы специалистов по безопасности, помогая эффективно устранять угрозы. Дополнительные сведения см. в статье [AIR в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air).
 
 ## <a name="permissions-required-to-use-atp-features"></a>Разрешения, необходимые для использования возможностей ATP
 
