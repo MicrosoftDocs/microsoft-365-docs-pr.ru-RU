@@ -2,27 +2,32 @@
   href: index.md
   expanded: true
   items:
-    - name: Продукты и службы
+    - name: Управление подписками
       items:
         - name: Управление сторонними приложениями
           href: manage-saas-apps.md
-        - name: Приобретение лицензий
-          href: /office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
-        - name: Назначение лицензий
-          href: /office365/admin/manage/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
-        - name: Отмена назначения лицензий
-          href: /office365/admin/manage/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
-        - name: Удаление лицензий из подписки
-          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-subscription?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: Подписки на обновление
-          href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+          href: /microsoft-365/commerce/subscriptions/upgrade-to-different-plan
+        - name: Управление покупками самостоятельных служб (пользователи)
+          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-users
+        - name: Управление самостоятельными покупками (администратором)
+          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins
+    - name: Управление лицензиями
+      items:
+        - name: Приобретение лицензий
+          href: /microsoft-365/commerce/licenses/buy-licenses
+        - name: Назначение лицензий
+          href: /microsoft-365/admin/manage/assign-licenses-to-users
+        - name: Отмена назначения лицензий
+          href: /microsoft-365/admin/manage/remove-licenses-from-users
+        - name: Удаление лицензий из подписки
+          href: /microsoft-365/commerce/licenses/remove-licenses-from-subscription
     - name: Ведомости и платежи
-      expanded: true
       items:
         - name: Знакомство со счетом
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
         - name: Управление методами оплаты
-          href: /office365/Admin/subscriptions-and-billing/add-update-or-remove-credit-card-or-bank-account?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+          href: /microsoft-365/commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account
         - name: Управление профилями выставления счетов
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
         - name: Директива служб платежей 2 и надежная проверка подлинности клиентов

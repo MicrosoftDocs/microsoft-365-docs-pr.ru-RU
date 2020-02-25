@@ -209,7 +209,7 @@
           href: data-classification-pub-preview-relnotes.md
         - name: Начало работы с обучаемыми классификаторами (предварительная версия)
           href: classifier-getting-started-with.md
-        - name: Использование готового классификатора (предварительная версия)
+        - name: Использование встроенного классификатора (Предварительная версия)
           href: classifier-using-a-ready-to-use-classifier.md
         - name: Создание и обучение классификатора (предварительная версия)
           href: classifier-creating-a-trainable-classifier.md
@@ -804,7 +804,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-arc-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-arc-office365.md
         - name: Защита информации
           href: gdpr-information-protection.md
@@ -822,7 +822,7 @@
               href: gdpr-dsr-intune.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dsr-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dsr-office365.md
             - name: Семейство Visual Studio
               href: gdpr-dsr-visual-studio-family.md
@@ -834,7 +834,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-breach-office365.md
         - name: Оценка влияния на защиту данных
           items:
@@ -846,7 +846,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dpia-prof-services.md
-            - name: "Office\_365"
+            - name: Office 365
               href: gdpr-dpia-office365.md
         - name: Специалист по защите данных корпорации Майкрософт
           href: gdpr-data-protection-officer.md
@@ -1153,7 +1153,7 @@
               href: offering-pdpa-argentina.md
 - name: Office 365 корпоративный
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: Office 365 бизнес
+- name: "Office\_365 для бизнеса"
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
-- name: "Безопасность в Microsoft\_365"
+- name: "Безопасность Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'
