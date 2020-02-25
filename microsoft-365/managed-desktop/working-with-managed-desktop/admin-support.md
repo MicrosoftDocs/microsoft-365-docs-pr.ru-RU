@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bc6c0199c6ee019cbb032c288612d36a254ee7e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c3137c25de9f8fe941f62e5c53b1006c5009e222
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085717"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266095"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Поддержка администраторов для настольных компьютеров, управляемых Майкрософт
 
@@ -59,12 +59,7 @@ ms.locfileid: "42085717"
 
 ![Форма обратной связи](../../media/feedback_form.png)
 
-## <a name="provide-administrator-rights-to-specific-users"></a>Предоставление прав администратора определенным пользователям
 
-При работе с персоналом службы поддержки вам может потребоваться предоставить права локального администратора пользователю на устройстве, чтобы помочь в устранении неполадок. Для этого у вас уже должны быть права глобального администратора или администратора устройств в Microsoft Intune для своей собственной учетной записи. Выполните одно из указанных ниже действий в зависимости от ситуации.
-
-- Если ваши пользователи синхронизируются из локальной учетной записи Active Directory, выполните команду **net localgroup Administrators/Add "контосо\усернаме"** в командной строке с повышенными привилегиями.
-- Если пользователи созданы в Azure Active Directory, выполните команду **net localgroup Administrators/Add "азуреад\усерупн"** из командной строки с повышенными привилегиями.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Поддержка конечных пользователей для настольных компьютеров, управляемых Майкрософт](end-user-support.md). 
