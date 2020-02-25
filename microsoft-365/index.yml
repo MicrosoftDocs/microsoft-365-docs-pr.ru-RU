@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 412cc9059aa3f533643ea37295a513ead1a05ed7
-  ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+  ms.openlocfilehash: 0575321bf9ed7953389e5a6a8be6b8c21479326a
+  ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/15/2020
-  ms.locfileid: "42085368"
+  ms.lasthandoff: 02/24/2020
+  ms.locfileid: "42250469"
 highlightedContent:
   items:
   - title: Обучение для администраторов и ИТ-специалистов
@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Центр администрирования Microsoft 365
       summary: Настройка Office 365 и Microsoft 365 для бизнеса и ентеприсе субспкриптионс и управление ими.
-      url: https://docs.microsoft.com/office365/admin/admin-home/
+      url: ./admin/admin-home.md
     - title: Microsoft 365 бизнес
       summary: Предназначено для малых и средних предприятий. Запустите свой бизнес с помощью последней версии приложений для Windows и Office, например Excel и Outlook. Используйте преимущества защиты и защиты данных, которая распространяется на все ваши бизнес-устройства.
       url: ./business/index.yml
@@ -59,7 +59,7 @@ additionalContent:
     - title: Соответствие требованиям Microsoft 365
       summary: Помогите вашей организации управлять информацией, защищаться от рисков и соблюдать юридический или нормативный стандарт.
       url: ./compliance/index.yml
-    - title: Безопасность в Microsoft 365
+    - title: Microsoft 365 Security
       summary: Узнайте о надежных решениях и службах обеспечения безопасности в Microsoft 365, чтобы вы могли лучше защитить организацию от поверхностей атак.
       url: ./security/index.yml
     - title: Microsoft 365 для кампаний
