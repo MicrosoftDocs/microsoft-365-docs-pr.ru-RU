@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 34401bde5af594899f88b93f8ca76695ce3c7132
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f99420b978f77f8b4a4660394d4a6f335c5aad66
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602766"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235048"
 ---
 # <a name="deviceevents"></a>девицеевентс
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Прочие события устройств или `DeviceEvents` таблица в [расширенной](advanced-hunting-overview.md) схеме поиска содержат сведения о различных типах событий, в том числе события, активируемые элементами управления безопасностью, такие как антивирусная программа "Защитник Windows" и защита от эксплойтов. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 

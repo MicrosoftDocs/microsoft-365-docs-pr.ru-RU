@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: b9e1f0691d7bec1d8a17bb7f68a0e0941b3f6bd9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a971d8dc413e7794aa48c0b39cc0f42e511739ed
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085958"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42250449"
 ---
 # <a name="register-existing-devices-yourself"></a>Самостоятельная регистрация существующих устройств
 
@@ -150,7 +150,7 @@ Get-ADComputer -filter * | powershell -ExecutionPolicy Unrestricted Get-MMDRegis
 Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistrationInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
 ```
 3. Доступ к каталогам, в которых могут быть записи для устройств. Удалите записи для каждого устройства из *всех* каталогов, включая доменные службы Windows Server Active Directory и Azure Active Directory. Обратите внимание, что для полного выполнения этого процесса может потребоваться несколько часов.
-4. Доступ к службам управления, в которых могут быть записи для устройств. Удалите записи для каждого устройства из *всех* служб управления, включая диспетчер конфигурации конечных точек Майкрософт, Microsoft Intune и Windows автопилот. Обратите внимание, что для полного выполнения этого процесса может потребоваться несколько часов.
+4. Доступ к службам управления, в которых могут быть записи для устройств. Удалите записи для каждого устройства из *всех* служб управления, включая диспетчер конфигураций конечных точек Майкрософт, Microsoft Intune и Windows автопилот. Обратите внимание, что для полного выполнения этого процесса может потребоваться несколько часов.
 
 Теперь вы можете перейти к разделу [Регистрация устройств](#register-devices).
 

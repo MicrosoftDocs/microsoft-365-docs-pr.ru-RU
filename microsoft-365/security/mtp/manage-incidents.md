@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 46904323a1ec8f969355931f8b69a3ed0ebf4519
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b8f7e3bbb6d2348c3f19e8df251d700d8adf8e33
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600216"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235088"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Управление инцидентами в службе Защиты от угроз (Майкрософт)
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Управление инцидентами крайне важно, чтобы обеспечить локализацию и устранение угроз. Служба Защиты от угроз (Майкрософт) позволяет управлять инцидентами устройств, пользователей и почтовых ящиков. 
 

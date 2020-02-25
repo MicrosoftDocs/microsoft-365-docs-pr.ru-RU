@@ -1,5 +1,5 @@
 ---
-title: Примите или отклоните запрос на ожидающие действия после автоматизированного анализа угроз
+title: Утверждение или отклонение ожидающих действий за автоматическим исследованием
 description: Используйте центр уведомлений для управления действиями, связанными с автоматизированным анализом угроз и реакцией на угрозы
 keywords: действие, центр, автоматизированный анализ угроз и реакция на угрозы, автоматизированный, анализ угроз, реакция на угрозы, исправление
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5118f7fddaee0fa768675597dee862eb75e4ed96
-ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
+ms.openlocfilehash: 725d22629d2c81a0edf8f329602214afddde6511
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225497"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261986"
 ---
-# <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>Примите или отклоните запрос на ожидающие действия от автоматизированных анализов угроз
+# <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>Утверждение или отклонение ожидающих действий за автоматическим исследованием
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -35,9 +35,7 @@ ms.locfileid: "42225497"
 > [!TIP]
 > Если вы считаете, что что-то пошло не так или неправильно, с помощью автоматизированного расследования и функции ответа в Microsoft Threat Protection, сообщите нам о! Сведения о [том, как сообщить о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования (AIR) в защите от угроз Майкрософт](mtp-autoir-report-false-positives-negatives.md).
 
-Ожидающие выполнения действия могут быть проверены и утверждены с помощью одного из следующих способов:
-- [через центр уведомлений](#review-a-pending-action-in-the-action-center)
-- [через представление со сведениями об анализе угроз](#review-a-pending-action-in-the-investigation-details-view)
+Ожидающие действия могут быть просмотрены и утверждены с помощью [центра уведомлений](#review-a-pending-action-in-the-action-center) или [представления сведений об исследовании](#review-a-pending-action-in-the-investigation-details-view).
 
 > [!NOTE]
 > Чтобы утвердить или отклонить действия по исправлению, необходимы [соответствующие разрешения](mtp-action-center.md#required-permissions-for-action-center-tasks).
@@ -65,5 +63,7 @@ ms.locfileid: "42225497"
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Дополнительные сведения о центре уведомлений](mtp-action-center.md)
+
 - [Дополнительные сведения об инцидентах](incidents-overview.md)
+
 - [Сведения об охоте на угрозы](advanced-hunting-overview.md)

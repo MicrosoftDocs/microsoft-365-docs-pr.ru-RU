@@ -1,4 +1,4 @@
-- name: "Безопасность в Microsoft\_365"
+- name: "Безопасность Microsoft\_365"
   href: index.yml
   items:
     - name: Начало работы
@@ -41,6 +41,8 @@
           items:
             - name: Что такое защита от угроз (Майкрософт)?
               href: mtp/microsoft-threat-protection.md
+            - name: Новые возможности защиты от угроз Майкрософт
+              href: mtp/whats-new.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
             - name: Необходимые компоненты
@@ -67,11 +69,11 @@
               items:
                 - name: Обзор воздуха
                   href: mtp/mtp-autoir.md
-                - name: Просмотр действий по исправлению
+                - name: Действия по исправлению
                   href: mtp/mtp-remediation-actions.md
-                - name: Посетите центр уведомлений
+                - name: Центр уведомлений
                   href: mtp/mtp-action-center.md
-                - name: Просмотр результатов расследования
+                - name: Просмотр сведений и результатов автоматического исследования
                   href: mtp/mtp-autoir-results.md
                 - name: Утверждение или отклонение ожидающих действий
                   href: mtp/mtp-autoir-actions.md
@@ -134,6 +136,8 @@
                   href: mtp/microsoft-secure-score.md
                 - name: Оценка безопасности (предварительная версия)
                   href: mtp/microsoft-secure-score-preview.md
+                - name: Что поступает
+                  href: mtp/microsoft-secure-score-whats-coming.md
             - name: Отчеты
               items:
                 - name: Мониторинг и просмотр отчетов
@@ -370,11 +374,11 @@
               items:
                 - name: Обзор воздуха
                   href: ./office-365-security/office-365-air.md
-                - name: Просмотр сведений и результатов расследования
+                - name: Просмотр сведений и результатов автоматического исследования
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Просмотр и утверждение действий по исправлению
+                - name: Утверждение или отклонение ожидающих действий
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Интеграция воздуха с настраиваемым или сторонним решением для создания отчетов
+                - name: Интеграция воздуха с настраиваемым решением или сторонним решением
                   href: ./office-365-security/air-custom-reporting.md
             - name: Быстрый поиск и адресация скомпрометированных учетных записей пользователей
               href: ./office-365-security/address-compromised-users-quickly.md

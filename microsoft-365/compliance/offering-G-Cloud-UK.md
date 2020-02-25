@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ecd8a362b0e77df846f486b0a424425f012ee68b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 27f664f9657e88db1dab86f765be36458b4090d9
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602356"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236889"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Правительство для Великобритании (Россия)
 
@@ -64,17 +64,17 @@ ms.locfileid: "41602356"
 
 ### <a name="dynamics-365"></a>Dynamics 365
 
-- [Среда Dynamics 365 UK G Cloud Cloud риска](https://aka.ms/Dynamics365UKGCloudRiskEnvironment)
+- [Среда Dynamics 365 UK G Cloud Cloud риска](https://go.microsoft.com/fwlink/?linkid=2099702)
 
 ### <a name="intune"></a>Intune
 
-- [Среда Intune UK G Cloud риска](https://aka.ms/IntuneUKGCloudRiskEnvironment)
+- [Среда Intune UK G Cloud риска](https://go.microsoft.com/fwlink/?linkid=2099702)
 - [Риск для облачного остаточного риска Intune UK G](https://aka.ms/IntuneUKGCloudResidualRisk)
 - [Сводка по оценке облачной системы безопасности для Azure UK G](https://aka.ms/IntuneUKGCloudSecurityAssessmentSummary)
 
-### <a name="office-365"></a>Office 365
+### <a name="office-365"></a>Office 365
 
-- [Среда облачного риска Office 365 UK G](https://aka.ms/Office365UKGCloudRiskEnvironment)
+- [Среда облачного риска Office 365 UK G](https://go.microsoft.com/fwlink/?linkid=2099702)
 
 ## <a name="accelerate-your-deployment-of-uk-g-cloud-solutions-on-azure"></a>Ускорение развертывания решений для Великобритании G — облачных решений в Azure
 

@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 460c1e76020457fb4f640c32df39c09adaaba32a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: eae1eff69fa6a91413e3f2dd6644c9c27549968e
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600406"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234778"
 ---
 # <a name="deviceprocessevents"></a>девицепроцессевентс
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 `DeviceProcessEvents` Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о создании процессов и связанных с ними событиях. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 

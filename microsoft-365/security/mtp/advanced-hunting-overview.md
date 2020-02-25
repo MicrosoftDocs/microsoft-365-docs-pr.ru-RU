@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f268c87da68c2badbfa885f0d9357a6a53d0a039
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 598ef669e95081ef098dfa9cfdb5473b21b28306
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087505"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234758"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Расширенное выслеживание— это средство для выслеживания угроз на основе запросов, которое позволяет изучать необработанные данные за период до 30 дней. Оно дает возможность проводить инспекцию событий в своей сети для поиска интересных индикаторов и объектов на профилактической основе. Гибкое управление доступом к данным позволяет выслеживать как известные, так и потенциальные угрозы без ограничений.
 

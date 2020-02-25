@@ -1,0 +1,68 @@
+---
+title: Резервное копирование данных перед переключением планов Office 365 для бизнеса
+f1.keywords:
+- NOCSH
+ms.author: cmcatee
+author: cmcatee-MSFT
+manager: mnirkhe
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- commerce
+- Adm_TOC
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+- BEA160
+ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
+description: Создайте резервную копию Outlook, OneDrive, Yammer и SharePoint, прежде чем переключать подписки на Office 365 или при выходе пользователя из Организации.
+ms.openlocfilehash: 16fb6972869c3caf010c25cbe043dbf79f458531
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42245996"
+---
+# <a name="back-up-data-before-switching-office-365-for-business-plans"></a>Резервное копирование данных перед переключением планов Office 365 для бизнеса
+
+Если пользователь переводится на другую подписку, в которой меньше служб, связанных с данными, или покидает организацию, то перед этим можно скачать копию его данных, хранящихся в Office 365.
+  
+## <a name="save-a-copy-of-outlook-information"></a>Сохранение копии данных Outlook
+
+Если у пользователей есть Outlook, они могут [экспортировать или архивировать сообщения электронной почты, контакты и календарь в PST-файл Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91) перед переключением плана. 
+  
+По завершении перехода к новому плану пользователи могут [импортировать электронную почту, контакты и календарь из PST-файла Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
+  
+## <a name="save-files-stored-in-onedrive-for-business"></a>Сохранение файлов, хранящихся в OneDrive для бизнеса
+
+Перед переключением на другую подписку пользователи могут [загружать файлы и папки из OneDrive или SharePoint](https://support.office.com/article/5c7397b7-19c7-4893-84fe-d02e8fa5df05) в другое расположение, например папку на жестком диске компьютера или общую папку в сети Организации. 
+  
+## <a name="save-yammer-information"></a>Сохранение сведений Yammer
+
+Администраторы могут экспортировать в ZIP-файл все сообщения, заметки, файлы, темы, пользователей и группы. Дополнительные сведения содержатся в статье [Export Data из Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/export-yammer-enterprise-data). Кроме того, разработчики могут использовать [API Yammer](https://go.microsoft.com/fwlink/p/?linkid=842495) . 
+  
+## <a name="how-to-save-sharepoint-information"></a>Как сохранить данные SharePoint
+
+Если пользователь переключается из подписки с SharePoint Online на ту, которая не содержит ее, плитка **SharePoint** больше не будет отображаться в меню Office 365. 
+  
+Однако поскольку обе подписки относятся к одной и той же организации, у пользователя по-прежнему будет доступ к сайту группы SharePoint. Он сможет просматривать и обновлять записные книжки, документы, задачи и календари, переходя на сайт группы непосредственно по URL-адресу.
+  
+> [!TIP]
+> Мы рекомендуем пользователям перейти на сайт группы до смены подписки и сохранить его URL-адрес как избранный элемент или закладку в браузере. 
+  
+По умолчанию URL-адрес веб-сайта группы имеет такой вид:
+  
+```
+https://<orgDomain>/_layouts/15/start.aspx#/SitePages/Home.aspx
+```
+
+где _ \<оргдомаин\> _ — это URL-адрес Организации. 
+  
+Например, если домен организации  contoso.onmicrosoft.com, то URL-адрес для прямого доступа к сайту группы имеет вид https://contoso.onmicrosoft.com/_layouts/15/start.aspx#/SitePages/Home.aspx.
+  
+Разумеется, пользователи также могут в любое время скачать документы SharePoint Online с сайта группы SharePoint на локальный компьютер или в другое место.

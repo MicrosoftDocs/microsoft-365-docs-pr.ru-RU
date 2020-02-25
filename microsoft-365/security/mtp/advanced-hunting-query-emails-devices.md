@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 83a4b7b52508002ad9bc5c27e1ebf68677808444
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0bbcef72fa305819c9f8e0813cfcdfd6c2b0fff3
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087938"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234728"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>Поиск угроз на устройствах и в сообщениях электронной почты
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Благодаря[Расширенному выслеживанию](advanced-hunting-overview.md) в службе Защиты от угроз (Майкрософт) можно на профилактической основе выслеживать угрозы на устройствах c Windows и в сообщениях электронной почты Office 365. Ниже приводится несколько сценариев выслеживания и примеров запросов, позволяющих понять, как создавать запросы, которые будут относиться и к устройствам, и к сообщениям электронной почты.
 

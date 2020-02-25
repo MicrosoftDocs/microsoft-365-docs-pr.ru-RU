@@ -1,0 +1,61 @@
+---
+title: Включение современной проверки подлинности для Office 2013 на устройствах с Windows
+f1.keywords:
+- NOCSH
+ms.author: sirkkuw
+author: Sirkkuw
+manager: scotv
+audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
+description: Сведения о настройке разделов реестра для включения современной проверки подлинности для устройств, на которых установлен Microsoft Office 2013.
+ms.openlocfilehash: f1264affa5be93b19e564a0edea00bfb78f452f1
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42248005"
+---
+# <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Включение современной проверки подлинности для Office 2013 на устройствах с Windows
+
+Чтобы включить современную проверку подлинности для устройств Windows, на которых установлен Office 2013, необходимо настроить разделы реестра.
+  
+## <a name="enable-modern-authentication-for-office-2013-clients"></a>Включение современной проверки подлинности для клиентов Office 2013
+
+> [!NOTE]
+> Современная проверка подлинности уже включена для клиентов Office 2016. Настраивать разделы реестра для Office 2016 не нужно. 
+  
+Чтобы включить современную проверку подлинности для устройства с Windows (например, ноутбука или планшета), на котором установлен Microsoft Office 2013, необходимо настроить указанные ниже разделы реестра. Это нужно сделать для каждого устройства, на котором вы хотите включить современную проверку подлинности.
+  
+|**Раздел реестра**|**Тип**|**Значение** |
+|:-------|:------:|--------:|
+|Hkcu\software\microsoft\office\15.0\common\identity\enableadal нулевое  |REG_DWORD  |1,1  |
+|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1,1 |
+   
+После настройки разделов реестра вы можете настроить использование [многофакторной проверки подлинности (MFA)](set-up-multi-factor-authentication.md) с Office 365 на устройствах с приложениями Office 2013. 
+  
+Если вы вошли в одно из клиентских приложений, выйдите из него и войдите снова, чтобы изменения вступили в силу. В противном случае, файлы, с которыми вы недавно работали, и настройки роуминга останутся недоступными до тех пор, пока не будет установлено удостоверение библиотек ADAL.
+  
+## <a name="disable-modern-authentication-on-devices"></a>Отключение современный проверки подлинности на устройствах
+
+Чтобы отключить современную проверку подлинности на устройстве, настройте на нем следующие разделы реестра:
+  
+|**Раздел реестра**|**Тип**|**Значение**|
+|:-------|:------:|--------:|
+|Hkcu\software\microsoft\office\15.0\common\identity\enableadal нулевое |REG_DWORD|нуль|
+   
+## <a name="related-articles"></a>Статьи по теме
+[Вход в Office 2013 со вторым способом проверки подлинности](https://support.office.com/article/2b856342-170a-438e-9a4f-3c092394d3cb.aspx)
+
+  
+

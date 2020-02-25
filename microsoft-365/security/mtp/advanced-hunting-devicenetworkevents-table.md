@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 43110a119e8a38cd893a4a5cba41467fa39d7825
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2e7999fef43adb372947d9edf92b84ac67f347fe
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600426"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235008"
 ---
 # <a name="devicenetworkevents"></a>девиценетворкевентс
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 `DeviceNetworkEvents` Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о сетевых подключениях и связанных событиях. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 

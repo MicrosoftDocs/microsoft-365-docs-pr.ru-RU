@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 95934d9884328d4311abbd0f29b96e46e0c06894
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 29eeb5f0699321441543057040b434c4dad61925
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087638"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235118"
 ---
 # <a name="incidents-overview-in-microsoft-threat-protection"></a>Обзор инцидентов в службе Защиты от угроз (Майкрософт)
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Основой всех происшествий являются оповещения. Оповещения создаются в том случае, если в вашей сети встречается вредоносное событие или действие. Отдельные оповещения предоставляют ценные признаки о том, что происходит с конкретными событиями или объектами. Тем не менее, как правило, атаки используют различные векторы атаки для нарушения безопасности. Сбор отдельных признаков в единую картину может быть непростой и трудоемкой задачей. 
 

@@ -1,0 +1,44 @@
+---
+title: Сведения о поддержке для Кореи
+author: cmcatee-MSFT
+f1.keywords:
+- NOCSH
+ms.author: cmcatee
+manager: mnirkhe
+audience: Admin
+ms.topic: reference
+ms.service: o365-administration
+ms.collection: Adm_Support
+localization_priority: Normal
+description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: b34d23b6f3589404a2552282780b3c72e737e430
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42256266"
+---
+# <a name="contact-support-for-korea"></a>Обращение в службу поддержки для Кореи
+
+[Найдите другую страну или регион](../contact-support-for-business-products.md).
+
+## <a name="phone-number"></a>Номер телефона
+080 495 0880
+
+## <a name="hours"></a>Часы
+### <a name="billing-support"></a>Поддержка выставления счетов:
+
+Корейский: Пн – Пятница 9 AM – 6 PM
+
+Английский: Пн – Пятница 9 AM – 6 PM
+
+### <a name="technical-support"></a>Техническая поддержка:
+
+Корейский: Пн – Пятница 9 AM – 6 PM
+
+Английский: 24 часа в сутки, 7 дней в неделю
+
+Альтернативный номер телефона: 02 3483 1937
+
+Применяются сборы по местным звонкам
