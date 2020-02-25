@@ -1,5 +1,5 @@
 ---
-title: Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)
+title: Автоматизированное исследование и возможности реагирования в защите от угроз Майкрософт
 description: Ознакомьтесь с возможностями автоматизированного анализа угроз и реакции на угрозы в службе защиты от угроз (Майкрософт)
 keywords: автоматизированный, анализ, оповещение, триггер, действие, исправление
 search.appverid: met150
@@ -18,23 +18,21 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: da7216aa94455a4b431e540b976f8a1662378a58
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f54ec3c0b318acaf6c81d26f32cfde5e87585a13
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600076"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261996"
 ---
-# <a name="automated-investigation-and-response-air-in-microsoft-threat-protection"></a>Автоматизированный анализ угроз и реакция на угрозы (AIR) в службе защиты от угроз (Майкрософт)
+# <a name="automated-investigation-and-response-air-capabilities-in-microsoft-threat-protection"></a>Возможности автоматического исследования и реагирования (AIR) в защите от угроз Майкрософт
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+При срабатывании оповещений безопасности служба обеспечения безопасности должна просмотреть эти оповещения и принять меры для защиты вашей организации. Определение приоритета и анализ оповещений могут отнимать очень много времени, особенно в условиях постоянного появления новых оповещений во время анализа. Службы обеспечения безопасности могут быть перегружены из-за огромного количества угроз, которые им нужно отслеживать и от которых необходимо защищать. Возможности автоматического исследования и реагирования (AIR) в защите от угроз Майкрософт могут помочь. В ВОЗДУХе в центре управления безопасностью есть виртуальный аналитик.
 
 ## <a name="your-virtual-analyst"></a>Виртуальный аналитик
-
-При срабатывании оповещений безопасности служба обеспечения безопасности должна просмотреть эти оповещения и принять меры для защиты вашей организации. Определение приоритета и анализ оповещений могут отнимать очень много времени, особенно в условиях постоянного появления новых оповещений во время анализа. Службы обеспечения безопасности могут быть перегружены из-за огромного количества угроз, которые им нужно отслеживать и от которых необходимо защищать. 
 
 Представьте, что у вас есть виртуальный аналитик в вашей службе обеспечения безопасности уровня 1 / уровня 2. Виртуальный аналитик имитирует идеальные действия, которые должен предпринять отдел обеспечения безопасности для анализа и устранения угроз. Виртуальный помощник может работать в круглосуточном режиме с неограниченной нагрузкой, а также взять на себя значительную часть анализа и устранений угроз. Такой виртуальный помощник может значительно сократить время реагирования, освободив вашу службу обеспечения безопасности для других важных стратегических проектов. Это похоже на научную фантастику, но это не так! Такой виртуальный аналитик входит в состав пакета защиты от угроз (Майкрософт) и называется *автоматизированный анализ угроз и реакция на угрозы* (AIR).
 
@@ -73,6 +71,7 @@ ms.locfileid: "41600076"
 |Требования к подписке: |- Microsoft 365 E5 или Microsoft 365 E3 с управлением учетными записями и защитой от угроз<br/>- См. [планы Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview#plans)|
 |Требования к сети: |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) активирована<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) (MCAS) настроена<br/>- [Интеграция MCAS с Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Требования к компьютеру Windows: |-Windows 10 версии 1709 или более поздней (см. статью [Сведения о выпуске Windows 10](https://docs.microsoft.com/windows/release-information/))<br/>- [ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) настроена <br/>- [Антивирусная программа "Защитник Windows"](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) настроена |
+|Защита содержимого электронной почты и файлов Office |Настройка [Advanced Threat Protection для Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
 |Разрешения: |- для *настройки* AIR у вас должна быть роль **глобального администратора** или **администратора безопасности**, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com));<br/><br/>- для *использования* возможностей AIR см. [Необходимые разрешения для задач центра уведомлений](mtp-action-center.md#required-permissions-for-action-center-tasks). |
 
 ## <a name="next-steps"></a>Дальнейшие действия:

@@ -1,0 +1,236 @@
+---
+title: Создание записей DNS для Office 365 на сайте Bluehost
+f1.keywords:
+- NOCSH
+ms.author: pebaum
+author: pebaum
+manager: mnirkhe
+audience: Admin
+ms.topic: get-started-article
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- Adm_O365
+- Adm_NonTOC
+- Adm_O365_Setup
+search.appverid:
+- BCS160
+- MET150
+- MOE150
+ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Bluehost для Office 365.
+ms.openlocfilehash: 9a5cad6778cb66958539a324befee43ddb2dd8b9
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42247216"
+---
+# <a name="create-dns-records-at-bluehost-for-office-365"></a>Создание записей DNS для Office 365 на сайте Bluehost
+
+ **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+  
+Если ваш поставщик услуг размещения DNS  Bluehost, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса online и других служб.
+  
+Когда вы добавите эти записи на сайте Bluehost, ваш домен будет настроен для работы со службами Office 365.
+  
+Дополнительные сведения о веб-хостинге и DNS для веб-сайтов в Office 365 см. в статье [Работа с общедоступным веб-сайтом в Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
+  
+> [!NOTE]
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+  
+## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
+<a name="BKMK_verify"> </a>
+
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+  
+> [!NOTE]
+> Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
+  
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+    
+2. На странице **доменов** в области **домена** установите флажок домена, который вы хотите изменить. 
+    
+    (Возможно, потребуется прокрутить страницу вниз.)
+    
+3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+    
+4. На странице * * редактор **зоны DNS *** * в поля для новой записи введите (или скопируйте и вставьте) значения из приведенной ниже таблицы. 
+    
+    (Choose the **Type** value from the drop-down list.) 
+    
+    |||||
+    |:-----|:-----|:-----|:-----|
+    |**Host Record** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Value** <br/> |
+    |@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |
+   
+5. Нажмите кнопку **Добавить запись**.
+    
+6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
+    
+Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+  
+When Office 365 finds the correct TXT record, your domain is verified.
+  
+1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+
+    
+2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+    
+3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+    
+4. На странице **Проверка домена** нажмите кнопку **проверить**.
+    
+> [!NOTE]
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+  
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
+<a name="BKMK_add_MX"> </a>
+
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+    
+2. На странице **доменов** в области **домена** установите флажок домена, который вы хотите изменить. 
+    
+    (Возможно, потребуется прокрутить страницу вниз.)
+    
+3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+    
+4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
+    
+    (Choose the **Type** value from the drop-down list.) 
+    
+    |**Host Record**|**TTL (Срок жизни)**|**Type (Тип)**|**Points To (Указывает на)**|**Priority (Приоритет)**|
+    |:-----|:-----|:-----|:-----|:-----|
+    |@  <br/> |14400  <br/> |MX  <br/> | *\<ключ-домена\>*  .mail.protection.outlook.com  <br/>**Примечание:** \<Получите *ключ* \> домена из учетной записи Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |
+   
+   ![Выберите тип из раскрывающегося списка.](../media/70791420-d83c-4a5d-a46c-5cc3bc67f565.png)
+  
+5. Нажмите кнопку **Добавить запись**.
+    
+    ![Нажмите кнопку Добавить запись](../media/c7ef9733-1665-4dbf-accc-caadf1574abc.png)
+  
+6. Если в разделе **MX (Mail Exchanger)** (Почтовый обменник) есть другие записи MX, удалите их. 
+    
+    Для одной из других записей MX нажмите кнопку **Удалить.**
+    
+    ![Выберите Delete (удалить) для каждой дополнительной записи MX](../media/6be17f54-3f33-47af-a9db-4689141530c2.png)
+  
+7. В диалоговом окне подтверждения нажмите кнопку **ОК**.
+    
+    ![Нажмите кнопку ОК.](../media/a50df7a3-2906-4cc0-87d4-1231ab234230.png)
+  
+8. Повторите эти действия для всех ненужных записей MX.
+    
+## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a>Добавление шести записей CNAME, необходимых для Office 365
+<a name="BKMK_add_CNAME"> </a>
+
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+    
+2. На странице **доменов** в области **домена** установите флажок домена, который вы хотите изменить. 
+    
+    (Возможно, потребуется прокрутить страницу вниз.)
+    
+3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+    
+4. В разделе **A (Host) (записи узла)** найдите строку для записи **автообнаружения** , а затем выберите команду **Удалить** для этой строки. 
+    
+    > [!IMPORTANT]
+    > Существующую запись **autodiscover** необходимо удалить  *перед*  добавлением записи **autodiscover**, которая нужна для Office 365. Bluehost не обеспечивает одновременную поддержку двух записей **autodiscover**. 
+  
+    ![Нажмите кнопку Удалить](../media/416a447e-3710-4ae7-8bf1-459381af4f6e.png)
+  
+5. Нажмите кнопку **ОК**.
+    
+    ![Нажмите кнопку ОК.](../media/0c8f409d-c39f-4ed2-9c95-9af3e61c2411.png)
+  
+6. Создайте первую из шести записей CNAME.
+    
+    На странице **DNS Zone Editor** (Редактор зон DNS) в поля для новой записи в области **Add DNS Record** (Добавление записи DNS) введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
+    
+    (Choose the **Type** value from the drop-down list.) 
+    
+    |**Host Record**|**TTL (Срок жизни)**|**Type (Тип)**|**Points To (Указывает на)**|
+    |:-----|:-----|:-----|:-----|
+    |autodiscover  <br/> |14400  <br/> |CNAME  <br/> |autodiscover.outlook.com  <br/> |
+    |sip  <br/> |14400  <br/> |CNAME  <br/> |sipdir.online.lync.com  <br/> |
+    |lyncdiscover  <br/> |14400  <br/> |CNAME  <br/> |webdir.online.lync.com  <br/> |
+    |enterpriseregistration  <br/> |14400  <br/> |CNAME  <br/> |enterpriseregistration.windows.net  <br/> |
+    |enterpriseenrollment  <br/> |14400  <br/> |CNAME  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
+   
+    ![Создание первой записи CNAME](../media/4f12e9b1-9dec-4bc2-aa15-8bffa71fe131.png)
+  
+7. Нажмите кнопку **Добавить запись**.
+    
+    ![Нажмите кнопку Добавить запись](../media/c2782250-a9a6-4aee-bb15-f57cb0008587.png)
+  
+8. Добавьте остальные пять записей CNAME.
+    
+    По-прежнему в разделе **Добавление записи DNS** создайте запись, используя значения из следующей строки таблицы, а затем снова выберите **Добавить запись** , чтобы завершить эту запись. 
+    
+    Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
+    
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты
+<a name="BKMK_add_TXT"> </a>
+
+> [!IMPORTANT]
+> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 к текущей записи, чтобы иметь *одну* запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [сведениями и образцами записей SPF](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
+  
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+    
+2. На странице **доменов** в области **домена** установите флажок домена, который вы хотите изменить. 
+    
+    (Возможно, потребуется прокрутить страницу вниз.)
+    
+3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+    
+4. On the **DNS Zone Editor** page, in the **Add DNS Record** area, in the boxes for the new record, type or copy and paste the values from the following table. 
+    
+    (Choose the **Type** value from the drop-down list.) 
+        
+    |**Host Record**|**TTL (Срок жизни)**|**Type (Тип)**|**TXT Value**|
+    |:-----|:-----|:-----|:-----|
+    |@  <br/> |14400  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+   
+    ![Копирование значения TXT](../media/b2dabd7a-ee3d-4209-aa1e-0233eb8cf3b9.png)
+  
+5. Нажмите кнопку **Добавить запись**.
+    
+    ![Нажмите кнопку Добавить запись](../media/c050e9a2-2274-4640-8f0f-6752d382df5d.png)
+  
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
+<a name="BKMK_add_SRV"> </a>
+
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+    
+2. На странице **доменов** в области **домена** установите флажок домена, который вы хотите изменить. 
+    
+    (Возможно, потребуется прокрутить страницу вниз.)
+    
+3. В области ***domain_name*** в строке **Редактор зоны DNS** выберите **Управление записями DNS**.
+    
+4. Создайте первую из двух записей SRV.
+    
+    На странице **DNS Zone Editor** (Редактор зон DNS) в поля для новой записи в области **Add DNS Record** (Добавление записи DNS) введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
+    
+    (Choose the **Type** value from the drop-down list.) 
+    
+    |**Служба**|**Protocol (Протокол)**|**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority (Приоритет)**|**Weight (Вес)**|**Port (Порт)**|**Points To (Указывает на)**|
+    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+   
+    ![Копирование значения для новой записи](../media/e2911bca-c00b-4b8a-837f-f1d438c474c4.png)
+  
+5. Нажмите кнопку **Добавить запись**.
+    
+    ![Нажмите кнопку Добавить запись](../media/0fd6a587-03fd-4bce-8321-b14e6ad21f5c.png)
+  
+6. Добавьте вторую запись SRV.
+    
+    По-прежнему в разделе **Добавление записи DNS** создайте запись, используя значения из другой строки таблицы, а затем снова выберите **Добавить запись** , чтобы завершить эту запись. 
+    
+> [!NOTE]
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+  
+

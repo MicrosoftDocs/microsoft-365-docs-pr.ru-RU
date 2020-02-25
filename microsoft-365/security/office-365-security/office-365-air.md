@@ -1,5 +1,5 @@
 ---
-title: Автоматическое исследование и ответ на Office 365
+title: Автоматическое исследование и реагирование (AIR) в Office 365
 keywords: ВОЗДУШный, Аутоир, ATP, автоматизированный, исследование, ответ, исправление, угрозы, усовершенствованный, угроза, защита
 f1.keywords:
 - NOCSH
@@ -15,16 +15,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 7bfa07880a302f77769ee15e9108db21dac2519c
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 3a362f7d15a9cc8e1f5784ec03c8c04d3d77886d
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228574"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42262016"
 ---
-# <a name="office-365-automated-investigation-and-response"></a>Автоматическое исследование и ответ на Office 365
+# <a name="automated-investigation-and-response-air-in-office-365"></a>Автоматическое исследование и реагирование (AIR) в Office 365
 
 [Office 365 Advanced Threat protection](office-365-atp.md) План 2 включает мощные возможности автоматического исследования и реагирования (AIR), которые могут сэкономить время и усилия группы по обеспечению безопасности. При инициации определенных оповещений запускается один или несколько "Playbooks" безопасности, а также запускается процесс автоматического исследования. Это позволяет команде системы безопасности сосредоточиться на задачах с высоким приоритетом, не теряя при этом уведомления о триггерах. 
+
+## <a name="the-overall-flow-of-air"></a>Общий поток воздуха
 
 На высоком уровне поток воздуха работает следующим образом:
 
