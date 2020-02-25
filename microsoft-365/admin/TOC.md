@@ -152,7 +152,7 @@
 ## Служба Office 365, предоставляемая 21Vianet
 ### [Сведения о службе Office 365, предоставляемой 21Vianet](services-in-china/services-in-china.md)
 ### [Приобретение или пробное использование подписок](services-in-china/buy-or-try-subscriptions.md)
-### [Скачайте приложение Office для iOS для Office 365 под управлением 21Vianet](services-in-china/download-office-app-for-iOS.md)
+### [Скачивание приложения Office для iOS для службы Office 365, предоставляемой 21Vianet](services-in-china/download-office-app-for-iOS.md)
 ### [Просмотр счета или получение счета фапьяо](services-in-china/view-your-bill-or-get-a-fapiao.md)
 ### [Заявление на получение счета фапьяо](services-in-china/apply-for-a-fapiao.md)
 ### [Сравнение с Azure Information Protection](services-in-china/parity-between-azure-information-protection.md)
