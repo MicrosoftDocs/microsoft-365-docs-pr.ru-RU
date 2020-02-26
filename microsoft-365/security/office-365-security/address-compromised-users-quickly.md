@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-ms.date: 02/20/2020
+ms.date: 02/25/2020
 description: Узнайте, как ускорить процесс обнаружения и адресации скомпрометированных учетных записей пользователей с помощью автоматизированного расследования и возможностей реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 7dfa1db02e777e3fdb546ebf948ebc297f1caad5
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: e5444b0b628be9acba029829b6fbb275b9c2f554
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228571"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280217"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>Устранение скомпрометированных учетных записей пользователей с помощью автоматического исследования и ответа
 
-[Office 365 Advanced Threat Protection Plan 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2) включает мощные возможности [автоматического исследования и реагирования](office-365-air.md) (AIR). Такие возможности могут сэкономить множество времени и усилий, связанных с угрозами. Корпорация Майкрософт продолжает совершенствовать возможности обеспечения безопасности. Недавно были улучшены возможности работы с ВОЗДУХом, которые включали скомпрометированный стратегия безопасности (в настоящее время предварительная версия). Прочитайте эту статью, чтобы узнать больше о скомпрометированной безопасности пользователя стратегия. И Узнайте больше о скорости записи в блоге, [чтобы обнаружить и ответить на компромисс пользователей и ограничить область](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) ограниченного действия дополнительными сведениями в Office 365 ATP.
+[Office 365 Advanced Threat Protection Plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) включает мощные возможности [автоматического исследования и реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR). Такие возможности могут сэкономить множество времени и усилий, связанных с угрозами. Корпорация Майкрософт продолжает совершенствовать возможности обеспечения безопасности. Недавно были улучшены возможности работы с ВОЗДУХом, которые включали скомпрометированный стратегия безопасности (в настоящее время предварительная версия). Прочитайте эту статью, чтобы узнать больше о скомпрометированной безопасности пользователя стратегия. И Узнайте больше о скорости записи в блоге, [чтобы обнаружить и ответить на компромисс пользователей и ограничить область](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) ограниченного действия дополнительными сведениями в Office 365 ATP.
 
 ![Автоматическое исследование для скомпрометированного пользователя](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -56,7 +56,7 @@ ms.locfileid: "42228571"
 - [Просмотр подробных сведений об автоматическом расследовании](#view-details-about-automated-investigations)
 
 > [!IMPORTANT]
-> Для выполнения следующих задач необходимы соответствующие разрешения. Ознакомьтесь [с разрешениями, необходимыми для использования возможностей Air](office-365-air.md#required-permissions-to-use-air-capabilities).
+> Для выполнения следующих задач необходимы соответствующие разрешения. Ознакомьтесь [с разрешениями, необходимыми для использования возможностей Air](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities).
 
 ### <a name="view-and-investigate-restricted-users"></a>Просмотр и исследование пользователей с ограниченным доступом
 
@@ -70,13 +70,13 @@ ms.locfileid: "42228571"
    ![Другое мини-приложение "оповещения"](/microsoft-365/media/office365atp-otheralertswidget.jpg)<br/>
    Откроется список пользователей с ограниченным доступом.<br/>![Пользователи с ограниченным доступом в Office 365](/microsoft-365/media/office365atp-restrictedusers.jpg) 
 
-4. Выберите учетную запись пользователя в списке, чтобы просмотреть сведения и выполнить действия, такие как [Снятие ограниченного пользователя](removing-user-from-restricted-users-portal-after-spam.md). 
+4. Выберите учетную запись пользователя в списке, чтобы просмотреть сведения и выполнить действия, такие как [Снятие ограниченного пользователя](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam). 
 
 ### <a name="view-details-about-automated-investigations"></a>Просмотр подробных сведений об автоматическом расследовании
 
 После начала автоматического исследования можно просмотреть его сведения и результаты в центре безопасности Office 365 & соответствия требованиям. Перейдите к разделу >  **Управление угрозами****, а**затем выберите расследования, чтобы просмотреть сведения о нем.
 
-Чтобы узнать больше, ознакомьтесь со статьей [Просмотр сведений о расследовании](air-view-investigation-results.md#view-details-of-an-investigation).
+Чтобы узнать больше, ознакомьтесь со статьей [Просмотр сведений о расследовании](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results).
 
 ## <a name="keep-the-following-points-in-mind"></a>Учитывайте следующие моменты
 
@@ -88,9 +88,9 @@ ms.locfileid: "42228571"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Ознакомьтесь с разрешениями, необходимыми для использования возможностей воздуха](office-365-air.md#required-permissions-to-use-air-capabilities)
+- [Ознакомьтесь с разрешениями, необходимыми для использования возможностей воздуха](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities)
 
-- [Поиск и исследование вредоносных сообщений электронной почты в Office 365](investigate-malicious-email-that-was-delivered.md)
+- [Поиск и исследование вредоносных сообщений электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered?view=o365-worldwide)
 
 - [Сведения о воздухе воздуха в защитнике Майкрософт для ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 

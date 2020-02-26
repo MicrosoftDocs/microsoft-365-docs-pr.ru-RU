@@ -698,27 +698,30 @@
           href: manage-jobs.md
 - name: Управление политиками аудита и оповещений
   items:
-    - name: Поиск в журнале аудита
-      href: search-the-audit-log-in-security-and-compliance.md
+    - name: Единый аудит
+      items:
+        - name: Поиск в журнале аудита
+          href: search-the-audit-log-in-security-and-compliance.md
+        - name: Включение и отключение поиска в журнале аудита
+          href: turn-audit-log-search-on-or-off.md
+        - name: Подробные свойства в журнале аудита
+          href: detailed-properties-in-the-office-365-audit-log.md
+        - name: 'Экспорт, настройка и просмотр записей журнала аудита'
+          href: export-view-audit-log-records.md
+        - name: Использование журнала аудита для изучения распространенных проблем
+          href: auditing-troubleshooting-scenarios.md
+        - name: Использование аудита общего доступа в журнале аудита
+          href: use-sharing-auditing.md
+        - name: Поиск действий по обнаружению электронных данных в журнале аудита
+          href: search-for-ediscovery-activities-in-the-audit-log.md
+    - name: Аудит почтовых ящиков
+      href: enable-mailbox-auditing.md
     - name: Расширенный аудит
       href: advanced-audit.md
-    - name: Включение и отключение поиска в журнале аудита
-      href: turn-audit-log-search-on-or-off.md
-    - name: Управление аудитом почтовых ящиков
-      href: enable-mailbox-auditing.md
-    - name: Управление политиками хранения журнала аудита
-      href: audit-log-retention-policies.md
-    - name: Подробные свойства в журнале аудита
-      href: detailed-properties-in-the-office-365-audit-log.md
-    - name: 'Экспорт, настройка и просмотр записей журнала аудита'
-      href: export-view-audit-log-records.md
-    - name: Использование журнала аудита для изучения распространенных проблем
-      href: auditing-troubleshooting-scenarios.md
-    - name: Использование аудита общего доступа в журнале аудита
-      href: use-sharing-auditing.md
-    - name: Поиск действий по обнаружению электронных данных в журнале аудита
-      href: search-for-ediscovery-activities-in-the-audit-log.md
-    - name: Управление политиками оповещений
+      items:
+        - name: Управление политиками хранения журнала аудита
+          href: audit-log-retention-policies.md
+    - name: Политики оповещений
       href: alert-policies.md
 - name: 'Управление рисками, связанными с соответствием требованиям'
   items:
