@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Определите, отвечает ли клиент Office 365 и пользователи требованиям, чтобы можно было использовать централизованное развертывание для развертывания надстроек Office.
-ms.openlocfilehash: 4351658f2637b86c9b3233f55916d8e0ac0f8cfb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b5cd04100b025705d29f86a07ec5f6aece259a8a
+ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255050"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42278765"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Определение работы централизованного развертывания надстроек для вашей организации
 
@@ -82,9 +82,9 @@ ms.locfileid: "42255050"
 Справку по Office 365 профессиональный плюс см. в статье [Советы по устранению неполадок набора Office 365 профессиональный плюс](https://go.microsoft.com/fwlink/p/?linkid=846339).
 
 
-### <a name="exchange-requirements"></a>Требования для Exchange
+### <a name="exchange-online-requirements"></a>Требования Exchange Online
 
-Microsoft Exchange хранит манифесты надстроек в клиенте организации. Администратор, который развертывает надстройки, и получающие их пользователи должны использовать версию Exchange Server, поддерживающую проверку подлинности OAuth. По умолчанию развертывания для нескольких клиентов Exchange и для Dedicated VNext поддерживают OAuth. При специальных развертываниях для устаревших версий Exchange, а также гибридных локальных развертываниях можно настроить поддержку OAuth. Однако такая конфигурация не является стандартной.
+Microsoft Exchange хранит манифесты надстроек в клиенте Организации. Надстройки, развернутые администратором, и пользователи, получающие надстройку, должны находиться в версии Exchange Online, поддерживающей проверку подлинности OAuth. По умолчанию в Exchange с несколькими клиентами и выделенными развертываниями VNext поддерживается OAuth. 
   
 Чтобы узнать, какая конфигурация используется, обратитесь к администратору Exchange своей организации. Подключение OAuth можно проверить для каждого пользователя с помощью командлета PowerShell [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351). 
 
