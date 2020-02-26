@@ -41,7 +41,7 @@
           items:
             - name: Что такое защита от угроз (Майкрософт)?
               href: mtp/microsoft-threat-protection.md
-            - name: Новые возможности защиты от угроз Майкрософт
+            - name: Что нового в службе защиты от угроз (Майкрософт)?
               href: mtp/whats-new.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
@@ -65,9 +65,9 @@
                   href: mtp/investigate-incidents.md
                 - name: Управление инцидентами
                   href: mtp/manage-incidents.md
-            - name: Автоматизированный анализ угроз и реакция на угрозы
+            - name: Автоматизированный анализ угроз и реагирование на них
               items:
-                - name: Обзор воздуха
+                - name: Обзор Автоматизированного анализа угроз и реагирования на них (AIR)
                   href: mtp/mtp-autoir.md
                 - name: Действия по исправлению
                   href: mtp/mtp-remediation-actions.md
@@ -75,44 +75,44 @@
                   href: mtp/mtp-action-center.md
                 - name: Просмотр сведений и результатов автоматического исследования
                   href: mtp/mtp-autoir-results.md
-                - name: Утверждение или отклонение ожидающих действий
+                - name: Утверждение или отклонение ожидающих выполнения действий
                   href: mtp/mtp-autoir-actions.md
-                - name: Отчет о ложных положительных и отрицательных значениях
+                - name: Отчет о ложных положительных/отрицательных срабатываниях
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Расширенная охота на угрозы
               items:
-                - name: Выслеживание в Microsoft 365
+                - name: Охота в Microsoft 365
                   href: mtp/hunting.md
-                - name: Общие сведения о расширенном поиске
+                - name: Обзор расширенной охоты на угрозы
                   href: mtp/advanced-hunting-overview.md
-                - name: Изучение языка запросов
+                - name: Сведения о языке запросов
                   href: mtp/advanced-hunting-query-language.md
                 - name: Использование общих запросов
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: Слежение за устройствами и электронными сообщениями
+                - name: Слежение за устройствами и сообщениями электронной почты
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Сведения о схеме
                   href: mtp/advanced-hunting-schema-tables.md
                   items:
-                    - name: девицеинфо
+                    - name: DeviceInfo
                       href: mtp/advanced-hunting-deviceinfo-table.md
-                    - name: девиценетворкинфо
+                    - name: DeviceNetworkInfo
                       href: mtp/advanced-hunting-devicenetworkinfo-table.md
-                    - name: девицепроцессевентс
+                    - name: DeviceProcessEvents
                       href: mtp/advanced-hunting-deviceprocessevents-table.md
-                    - name: девиценетворкевентс
+                    - name: DeviceNetworkEvents
                       href: mtp/advanced-hunting-devicenetworkevents-table.md
-                    - name: девицефиливентс
+                    - name: DeviceFileEvents
                       href: mtp/advanced-hunting-devicefileevents-table.md
-                    - name: девицерегистревентс
+                    - name: DeviceRegistryEvents
                       href: mtp/advanced-hunting-deviceregistryevents-table.md
-                    - name: девицелогоневентс
+                    - name: DeviceLogonEvents
                       href: mtp/advanced-hunting-devicelogonevents-table.md
-                    - name: девицеимажелоадевентс
+                    - name: DeviceImageLoadEvents
                       href: mtp/advanced-hunting-deviceimageloadevents-table.md
-                    - name: девицеевентс
+                    - name: DeviceEvents
                       href: mtp/advanced-hunting-deviceevents-table.md
-                    - name: девицефилецертификатеинфобета
+                    - name: DeviceFileCertificateInfoBeta
                       href: mtp/advanced-hunting-devicefilecertificateinfobeta-table.md
                     - name: EmailEvents
                       href: mtp/advanced-hunting-emailevents-table.md
@@ -128,7 +128,7 @@
                       href: mtp/advanced-hunting-tvm-softwareinventory-table.md
                     - name: DeviceTvmSoftwareVulnerabilitiesKB
                       href: mtp/advanced-hunting-tvm-softwarevulnerability-table.md
-                - name: Рекомендации по применению запросов
+                - name: Применение рекомендаций по использованию запросов
                   href: mtp/advanced-hunting-best-practices.md
             - name: Оценка безопасности
               items:
@@ -136,7 +136,7 @@
                   href: mtp/microsoft-secure-score.md
                 - name: Оценка безопасности (предварительная версия)
                   href: mtp/microsoft-secure-score-preview.md
-                - name: Что поступает
+                - name: Что вскоре появится
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Отчеты
               items:
@@ -150,11 +150,11 @@
                   href: mtp/monitor-devices.md
                 - name: Мониторинг приложений и создание отчетов
                   href: mtp/monitor-apps.md
-            - name: Параметры & разрешений
+            - name: Разрешения и параметры
               items:
                 - name: Управление доступом
                   href: mtp/mtp-permissions.md
-                - name: Настройка часового пояса
+                - name: Установка часового пояса
                   href: mtp/mtp-time-zone.md
             - name: Управление билетами с помощью ServiceNow
               href: ./mtp/tickets.md
@@ -181,13 +181,13 @@
                 - name: Защита от вредоносных программ
                   href: ./office-365-security/anti-malware-protection.md
                   items:
-                    - name: Вопросы и ответы по защите от вредоносных программ
+                    - name: Часто задаваемые вопросы по защите от вредоносных программ
                       href: ./office-365-security/anti-malware-protection-faq-eop.md
                     - name: Настройка политик защиты от вредоносных программ
                       href: ./office-365-security/configure-anti-malware-policies.md
                     - name: 'Отправка вредоносных программ и программ, не являющихся вредоносными, корпорации Майкрософт для анализа'
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
-                    - name: Восстановление после атаки с помощью функции "атаки"
+                    - name: Восстановление после атаки программы-шантажиста
                       href: ./office-365-security/recover-from-ransomware.md
                     - name: Обнаружение вирусов в SharePoint Online
                       href: ./office-365-security/virus-detection-in-spo.md
@@ -207,7 +207,7 @@
                   href: ./office-365-security/sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md
                 - name: Использование уведомлений о нежелательной почте конечных пользователей для освобождения нежелательных сообщений в карантине и отправки отчетов о них
                   href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
-                - name: 'Борьба со спамом, отправляемым в Office 365'
+                - name: "Борьба со спамом, отправляемым в Office\_365"
                   href: ./office-365-security/fighting-junk-email.md
                 - name: "Защита от спама в Office\_365"
                   href: ./office-365-security/anti-spam-protection.md
@@ -229,9 +229,9 @@
                   href: ./office-365-security/manage-safe-sender-lists-for-bulk-mailers.md
                 - name: Настройка политик защиты от нежелательной почты
                   href: ./office-365-security/configure-the-anti-spam-policies.md
-                - name: Create-block-sender-lists-in-office-365
+                - name: Создание списка заблокированных отправителей в office 365
                   href: ./office-365-security/Create-block-sender-lists-in-office-365.md
-                - name: Create-safe-sender-lists-in-office-365
+                - name: Создание списка безопасных отправителей в office 365
                   href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
                 - name: Настройка политики защиты от спама
                   href: ./office-365-security/configure-your-spam-filter-policies.md
@@ -364,25 +364,25 @@
                       href: ./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md
                 - name: Задачи настройки администратора ролей
                   items:
-                    - name: 'Включение ATP для SharePoint, OneDrive и Microsoft Teams'
+                    - name: 'Включить ATP для SharePoint, OneDrive и Microsoft Teams'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: Представления кампании
               href: ./office-365-security/campaigns.md
-            - name: Общие сведения о последних атаках с помощью службы анализа угроз
+            - name: Использование аналитики угроз для знакомства с последними атаками
               href: ./mtp/latest-attack-campaigns.md
-            - name: Автоматизированный анализ угроз и реакция на угрозы
+            - name: Автоматизированный анализ угроз и реагирование на них
               items:
-                - name: Обзор воздуха
+                - name: Обзор Автоматизированного анализа угроз и реагирования на них (AIR)
                   href: ./office-365-security/office-365-air.md
                 - name: Просмотр сведений и результатов автоматического исследования
                   href: ./office-365-security/air-view-investigation-results.md
-                - name: Утверждение или отклонение ожидающих действий
+                - name: Утверждение или отклонение ожидающих выполнения действий
                   href: ./office-365-security/air-remediation-actions.md
-                - name: Интеграция воздуха с настраиваемым решением или сторонним решением
+                - name: Интегрирование автоматизированного анализа угроз и реагирования на них (AIR) с настраиваемым решением или сторонним решением
                   href: ./office-365-security/air-custom-reporting.md
-            - name: Быстрый поиск и адресация скомпрометированных учетных записей пользователей
+            - name: Быстрый поиск и определение скомпрометированных учетных записей пользователей
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: Исследование и исправление вредоносных сообщений электронной почты
+            - name: Исследование и исправление вредоносной электронной почты
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Просмотр и чтение отчетов ATP
               href: ./office-365-security/view-reports-for-atp.md
@@ -407,7 +407,7 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: Как работает ATP
               items:
-                - name: Принцип работы автоматизированного исследования и ответа
+                - name: Как работает автоматизированный анализ угроз и реагирование на них
                   href: ./office-365-security/automated-investigation-response-office.md
                 - name: Как работают безопасные ссылки ATP
                   href: ./office-365-security/how-atp-safe-links-works.md
@@ -546,7 +546,7 @@
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
                     - name: Логика потока обработки почты в Office 365
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
-                - name: Карантин
+                - name: Quarantine
                   href: ./office-365-security/quarantine.md
                   items:
                     - name: Поиск и освобождение сообщений на карантине для администратора
@@ -573,7 +573,7 @@
                       href: ./office-365-security/services-for-non-customers.md
         - name: Устаревшие возможности защиты
           items:
-            - name: S/MIME
+            - name: S/MIME;
               href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
               items:
                 - name: S/MIME для подписи и шифрования сообщений

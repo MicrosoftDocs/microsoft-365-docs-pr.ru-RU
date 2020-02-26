@@ -1,18 +1,18 @@
 - name: "Microsoft\_365 бизнес"
   items:
-    - name: Microsoft 365
+    - name: "Microsoft\_365"
       href: index.yml
     - name: Что такое Microsoft 365 бизнес?
       href: microsoft-365-business-overview.md
-    - name: Получение Microsoft 365 бизнес
+    - name: "Получение Microsoft\_365 бизнес"
       href: sign-up.md
     - name: Предварительные требования для защиты данных
       href: pre-requisites-for-data-protection.md
-    - name: Установка
+    - name: Настройка
       items:
         - name: Обзор установки
           href: set-up-overview.md
-        - name: "Настройка Microsoft\_365 бизнес"
+        - name: Настройка Microsoft 365 бизнес
           href: set-up.md
         - name: Защита компьютеров с Windows 10
           href: secure-win-10-pcs.md
@@ -24,7 +24,7 @@
           href: help-users-install-office.md
         - name: Доступ к локальным ресурсам
           items:
-            - name: 'Обеспечение возможности управлять устройствами с Windows 10, присоединенными к домену'
+            - name: 'Возможность управлять устройствами с Windows 10, присоединенными к домену'
               href: manage-windows-devices.md
             - name: 'Доступ к ресурсам с устройства, присоединенного к Azure AD'
               href: access-resources.md
@@ -37,7 +37,7 @@
     - name: Защита компании
       href: security-features.md
       items:
-        - name: Настройка MFA
+        - name: Настройка многофакторной проверки подлинности
           href: /Office365/Admin/security-and-compliance/set-up-multi-factor-authentication?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
         - name: Улучшение защиты от угроз
           href: increase-threat-protection.md
@@ -55,19 +55,19 @@
           href: view-policies-and-devices.md
         - name: Удаление данных компании
           href: remove-company-data.md
-        - name: Восстановление заводских настроек для устройств
+        - name: Восстановление заводских параметров для устройств
           href: reset-devices-to-factory-settings.md
-        - name: Сопоставление функций защиты и настроек Intune
+        - name: Сопоставление функций защиты с параметрами Intune
           href: map-protection-features-to-intune-settings.md
         - name: Параметры защиты приложений для Android и iOS
           href: app-protection-settings-for-android-and-ios.md
           items:
-            - name: Проверка настроек в Android или iOS
+            - name: Проверка параметров на устройствах с Android или iOS
               href: validate-settings-on-android-or-ios.md
         - name: Параметры защиты устройств для компьютеров с Windows 10
           href: protection-settings-for-windows-10-pcs.md
           items:
-            - name: Проверка настроек на компьютерах с Windows 10
+            - name: Проверка параметров на компьютерах с Windows 10
               href: validate-settings-on-windows-10-pcs.md
         - name: Параметры защиты приложений для компьютеров с Windows 10
           href: protection-settings-for-windows-10-devices.md
@@ -83,9 +83,9 @@
       items:
         - name: Ваш счет
           href: /Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
-        - name: Оплата
+        - name: Оплатить
           href: /Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
-        - name: Отмена
+        - name: Отменить
           href: /Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
     - name: Autopilot
       items:
@@ -95,11 +95,11 @@
           href: create-and-edit-autopilot-profiles.md
         - name: Создание и изменение устройств AutoPilot
           href: create-and-edit-autopilot-devices.md
-        - name: Параметры профиля AutoPilot
+        - name: Параметры профилей AutoPilot
           href: autopilot-profile-settings.md
         - name: Состояния устройств
           href: device-states.md
-    - name: Вопросы и ответы о Microsoft 365 бизнес
+    - name: 'Microsoft 365 бизнес: вопросы и ответы'
       href: support/microsoft-365-business-faqs.md
 - name: Office 365 корпоративный
   href: 'https://docs.microsoft.com/office365/enterprise'
