@@ -1,86 +1,86 @@
-- name: Microsoft 365 для корпоративных документации и ресурсов
+- name: "Документация и ресурсы по Microsoft\_365 для предприятий"
   href: index.yml
 - name: Обзор Microsoft 365 для предприятий
   href: microsoft-365-overview.md
 - name: Развертывание Microsoft 365 для предприятий
   href: deploy-microsoft-365-enterprise.md
   items:
-    - name: Развертывание инфраструктуры Foundation
+    - name: Развертывание базовой инфраструктуры
       href: deploy-foundation-infrastructure.md
       items:
-        - name: Этап 1 — сеть
+        - name: Этап 1 - Сеть
           href: networking-infrastructure.md
           items:
-            - name: 'Шаг 1: Подготовка сети для Microsoft 365'
+            - name: Шаг 1 - Подготовка сети к Microsoft 365
               href: networking-provide-bandwidth-cloud-services.md
-            - name: Шаг 2. Настройка локальных подключений к Интернету для каждого офиса
+            - name: Шаг 2 - Настройка локальных подключений к Интернету для всех офисов
               href: networking-dns-resolution-same-location.md
-            - name: Шаг 3 — не развороты сети.
+            - name: Шаг 3 - Удаление разворотов пакетов
               href: networking-avoid-network-hairpins.md
-            - name: 'Шаг 4: Настройка обхода трафика'
+            - name: Шаг 4 - Настройка обхода трафика
               href: networking-configure-proxies-firewalls.md
-            - name: Шаг 5 — Оптимизация производительности клиентов и служб Office 365
+            - name: "Шаг\_5 - Оптимизация производительности клиентов и служб Office\_365"
               href: networking-optimize-tcp-performance.md
             - name: 'Условия, при выполнении которых можно считать сеть настроенной'
               href: networking-exit-criteria.md
-        - name: 'Этап 2: Identity'
+        - name: "Этап\_2 - Идентификация"
           href: identity-infrastructure.md
           items:
-            - name: 'Шаг 1: создание и защита учетных записей глобального администратора'
+            - name: Шаг 1 - Создание и защита учетных записей глобальных администраторов
               href: identity-create-protect-global-admins.md
-            - name: 'Шаг 2: защита паролей'
+            - name: Шаг 2 - Защита паролей
               href: identity-secure-your-passwords.md
-            - name: 'Этап 3: безопасность и управление входами пользователей'
+            - name: Шаг 3 - Защита пользовательских входов и управление ими
               href: identity-secure-user-sign-ins.md
-            - name: 'Шаг 4: Добавление учетных записей пользователей'
+            - name: Шаг 4 - Добавление учетных записей пользователей
               href: identity-add-user-accounts.md
-            - name: 'Шаг 5: использование групп для управления'
+            - name: Шаг 5 - Управление с помощью групп
               href: identity-use-group-management.md
-            - name: 'Шаг 6: Настройка управления удостоверениями'
+            - name: "Шаг\_6 - Настройка управления удостоверениями"
               href: identity-configure-identity-governance.md
             - name: 'Условия, при выполнении которых можно считать идентификацию настроенной'
               href: identity-exit-criteria.md
-        - name: Этап 3 — Windows 10 Корпоративная
+        - name: "Этап 3 - Windows\_10 Корпоративная"
           href: windows10-infrastructure.md
           items:
-            - name: 'Шаг 1: подготовка Организации'
+            - name: Шаг 1 - Подготовка организации
               href: windows10-prepare-your-org.md
-            - name: 'Этап 2: развертывание при обновлении на месте'
+            - name: Шаг 2 - Развертывание как в случае обновления на месте
               href: windows10-deploy-inplaceupgrade.md
-            - name: 'Шаг 3: развертывание для новых устройств'
+            - name: Шаг 3 - Развертывание для новых устройств
               href: windows10-deploy-autopilot.md
-            - name: 'Шаг 4: Мониторинг работоспособности и соответствия устройств'
+            - name: Шаг 4 - Отслеживание соответствия требованиям и работоспособности устройства
               href: windows10-enable-windows-analytics.md
-            - name: 'Этап 5: развертывание функций безопасности'
+            - name: Шаг 5 - Развертывание функций безопасности
               href: windows10-enable-security-features.md
             - name: 'Условия, при выполнении которых можно считать ОС Windows 10 Корпоративная настроенной'
               href: windows10-exit-criteria.md
-        - name: Этап 4 — Office 365 профессиональный плюс
+        - name: "Этап 4 - Office\_365 профессиональный плюс"
           href: office365proplus-infrastructure.md
           items:
             - name: 'Условия, при выполнении которых можно считать план Office 365 профессиональный плюс настроенным'
               href: office365proplus-exit-criteria.md
-        - name: 'Этап 5: Управление мобильными устройствами'
+        - name: Этап 5 - Управление мобильными устройствами
           href: mobility-infrastructure.md
           items:
             - name: 'Условия, при выполнении которых можно считать управление мобильными устройствами настроенным'
               href: mobility-infrastructure-exit-criteria.md
-        - name: 'Этап 6: защита информации'
+        - name: Этап 6 - Защита данных
           href: infoprotect-infrastructure.md
           items:
-            - name: 'Шаг 1: определение уровней безопасности и защиты информации'
+            - name: "Шаг\_1 - Определение уровней безопасности и защиты данных"
               href: infoprotect-define-sec-infoprotect-levels.md
-            - name: 'Шаг 2: Настройка классификации для среды'
+            - name: "Шаг\_2 - Настройка классификации для среды"
               href: infoprotect-configure-classification.md
-            - name: 'Шаг 3: Настройка усиленной безопасности для Microsoft 365'
+            - name: "Шаг\_3 - Настройка усиленной защиты для Microsoft\_365"
               href: infoprotect-configure-increased-security-office-365.md
-            - name: 'Шаг 4: Настройка Windows Information Protection'
+            - name: Шаг 4 - Настройка Windows Information Protection
               href: infoprotect-deploy-windows-information-protection.md
-            - name: 'Шаг 5: Настройка защиты от потери данных в Office 365'
+            - name: "Этап\_5 - Настройка защиты от потери данных Office\_365"
               href: infoprotect-data-loss-prevention.md
-            - name: 'Шаг 6: Настройка шифрования электронной почты'
+            - name: Шаг 6 - Настройка шифрования электронной почты
               href: infoprotect-email-encryption.md
-            - name: 'Шаг 7: Настройка управления привилегированным доступом для Office 365'
+            - name: "Шаг 7 - Настройка управления привилегированным доступом для Office\_365"
               href: infoprotect-configure-privileged-access-management.md
             - name: 'Условия, при выполнении которых можно считать защиту данных настроенной'
               href: infoprotect-exit-criteria.md
@@ -112,9 +112,9 @@
       items:
         - name: Базовая настройка
           items:
-            - name: Упрощенная
+            - name: Упрощенный
               href: lightweight-base-configuration-microsoft-365-enterprise.md
-            - name: Для фиктивного предприятия
+            - name: Имитированная компания
               href: simulated-ent-base-configuration-microsoft-365-enterprise.md
         - name: Удостоверение
           items:
@@ -126,11 +126,11 @@
               href: federated-identity-for-your-office-365-dev-test-environment.md
             - name: Простой единый вход Azure AD
               href: single-sign-on-m365-ent-test-environment.md
-            - name: многофакторная проверка подлинности;
+            - name: Многофакторная проверка подлинности
               href: multi-factor-authentication-microsoft-365-test-environment.md
             - name: Защита учетных записей глобальных администраторов
               href: protect-global-administrator-accounts-microsoft-365-test-environment.md
-            - name: Обратная запись пароля
+            - name: Компонент обратной записи паролей
               href: password-writeback-m365-ent-test-environment.md
             - name: Сброс пароля
               href: password-reset-m365-ent-test-environment.md
@@ -159,7 +159,7 @@
               href: increased-o365-security-microsoft-365-enterprise-dev-test-environment.md
             - name: Классификация данных
               href: data-classification-microsoft-365-enterprise-dev-test-environment.md
-            - name: управление привилегированным доступом;
+            - name: Управление привилегированным доступом
               href: privileged-access-microsoft-365-enterprise-dev-test-environment.md
     - name: Пример Contoso
       href: contoso-case-study.md
@@ -172,7 +172,7 @@
           href: contoso-networking.md
         - name: Удостоверение
           href: contoso-identity.md
-        - name: "Windows\_10 Корпоративная"
+        - name: Windows 10 Корпоративная
           href: contoso-win10.md
         - name: Office 365 профессиональный плюс
           href: contoso-o365pp.md
@@ -186,32 +186,32 @@
           href: contoso-team-for-top-secret-project.md
         - name: Сайт SharePoint для строго регулируемых данных
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
-    - name: Изменения в Microsoft 365 для корпоративного развертывания содержимого
+    - name: Изменения содержимого развертывания Microsoft 365 для предприятий
       href: microsoft-365-deploment-guide-changes.md
 - name: Центр развертывания компьютеров
   href: desktop-deployment-center-home.md
   items:
-    - name: 'Начало работы — руководство по людям, процессам и технологиям'
+    - name: 'Начало работы. Руководство по пользователям, процессу и технологии'
       href: getting-started.md
-    - name: "Этап\_1. Проверка готовности устройств и приложений"
+    - name: "Этап\_1 - Проверка готовности устройств и приложений"
       href: step-1-device-and-app-readiness.md
-    - name: Этап 2. Готовность каталогов и сети
+    - name: Этап 2 - Готовность каталогов и сети
       href: step-2-directory-and-network-readiness.md
-    - name: "Этап\_3. Доставка приложений Office и бизнес-приложений"
+    - name: "Этап\_3 - Доставка приложений Office и бизнес-приложений"
       href: step-3-office-and-lob-app-delivery.md
-    - name: Этап 4. Перенос файлов и параметров пользователей
+    - name: Этап 4 - Перенос файлов и параметров пользователей
       href: step-4-user-files-and-settings-migration.md
-    - name: Шаг 5. Вопросы по безопасности и соответствию требованиям
+    - name: Шаг 5 - Вопросы по безопасности и соответствию требованиям
       href: step-5-security-and-compliance.md
-    - name: Шаг 6. Обновления компонентов и развертывание ОС
+    - name: Шаг 6 - Обновления компонентов и развертывание ОС
       href: step-6-os-deployment-and-feature-updates.md
-    - name: Этап 7. Обслуживание Windows и Office
+    - name: Этап 7 - Обслуживание Windows и Office
       href: step-7-windows-and-office-as-a-service.md
-    - name: Шаг 8. Информирование и обучение пользователей
+    - name: Шаг 8 - Информирование и обучение пользователей
       href: step-8-user-communications-and-training.md
     - name: Переход с Windows 7 на Windows 10 в ручном режиме
       href: windows-7-to-windows-10-upgrade-manual.md
-    - name: 'Автоматический переход с Windows 7 на Windows 10 '
+    - name: Автоматический переход с Windows 7 на Windows 10
       href: windows-7-to-windows-10-upgrade-automated.md
     - name: Комплект Deployment and Lab Kit для Windows и Office
       href: modern-desktop-deployment-and-management-lab.md
@@ -219,12 +219,12 @@
       href: find-help-for-modern-desktop-deployment.md
 - name: Соответствие требованиям Microsoft 365
   href: ../compliance/index.yml
-- name: Microsoft 365 Security
+- name: "Безопасность Microsoft\_365"
   href: ../security/index.yml
-- name: Управление непрерывным корпоративным предприятием (ЕБКМ) с облачными службами
+- name: Управление непрерывностью бизнес-процессов в компании (УНБК) с помощью облачных служб
   href: ebcm-understanding-ebcm-with-cloud-services.md
   items:
-    - name: Обязанности клиентов и партнеров по облаку в отношении EBCM
+    - name: Обязанности клиентов и партнеров по облаку в отношении УНБК
       href: ebcm-customer-and-cloud-partner-ebcm-responsibilities.md
     - name: Надежность облачных служб Microsoft 365
       href: ebcm-m365-service-resiliency.md
