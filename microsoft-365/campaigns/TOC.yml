@@ -10,7 +10,7 @@
   items:
     - name: Обзор
       href: microsoft-365-campaigns-setup-overview.md
-    - name: Регистрация и работа для начинающих
+    - name: Регистрация
       href: m365-campaigns-sign-up.md
     - name: Настройка
       href: ../business/set-up.md?toc=/microsoft-365/campaigns/toc.json
