@@ -4,11 +4,11 @@
     - name: 'Что собой представляют компьютеры, управляемые Майкрософт?'
       href: intro/index.md
       items:
-        - name: Роли и обязанности
+        - name: Роли и обязанности.
           href: intro/roles-and-responsibilities.md
         - name: 'Технологии на компьютерах, управляемых Майкрософт'
           href: intro/technologies.md
-        - name: 'Компьютеры, управляемые Майкрософт'
+        - name: 'Компьютеры, управляемые Майкрософт и ITIL'
           href: MMD-and-ITSM.md
     - name: 'Описание услуги предоставления компьютеров, управляемых Майкрософт'
       href: service-description/index.md
@@ -24,7 +24,7 @@
               href: service-description/archived-device-list.md
         - name: Службы устройств
           href: service-description/device-services.md
-        - name: Настройка устройства
+        - name: Конфигурация устройства
           href: service-description/device-policies.md
         - name: Безопасность
           href: service-description/security.md
@@ -98,13 +98,13 @@
               href: working-with-managed-desktop/usage-insights.md
             - name: Аналитика надежности
               href: working-with-managed-desktop/reliability-insights.md
-            - name: Получение сведений о батарее
+            - name: Аналитика аккумулятора
               href: working-with-managed-desktop/battery-insights.md
-            - name: Аналитика обновлений безопасности Windows
+            - name: Аналитика центра безопасности Windows
               href: working-with-managed-desktop/security-update-insights.md
         - name: Поддержка администраторов
           href: working-with-managed-desktop/admin-support.md
-        - name: Поддержка пользователей
+        - name: Поддержка конечных пользователей
           href: working-with-managed-desktop/end-user-support.md
         - name: Управление приложениями
           href: working-with-managed-desktop/manage-apps.md
