@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: 102d1da2ec5f49e26a634611f4f640a083d167ff
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: ef4b5c9768687864427a0805039a35958c476142
+ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101269"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42278775"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования 
 
@@ -85,7 +85,7 @@ ms.locfileid: "42101269"
 |**Метка с разрешениями, определенными администратором**|Исходное шифрование удаляется|Применяется новое шифрование|Исходное шифрование удаляется|
 
 Обратите внимание, что в случаях применения нового шифрования с меткой или удаления исходного шифрования эти действия выполняются, только если у пользователя, применяющего метку, есть право на использование или роль, поддерживающие это действие:
-- [Право на использование](https://docs.microsoft.com/azure/information-protection/configure-usage-rights.md#usage-rights-and-descriptions) экспорта или полного доступа.
+- [Право на использование](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) экспорта или полного доступа.
 - Роль [издателя в службе управления правами или владельца в службе управления правами](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner) или [суперпользователя](https://docs.microsoft.com/azure/information-protection/configure-super-users).
 
 Если у пользователя нет одного из этих прав или ролей, метка не может быть применена и поэтому сохраняется исходное шифрование. Для пользователя отображается следующее сообщение: **У вас нет разрешения на внесение изменений в метку конфиденциальности. Обратитесь к владельцу содержимого.**
