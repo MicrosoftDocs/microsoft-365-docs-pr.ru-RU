@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ba50572405da05359594fea85fdba2d28f3b141b
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: c99ef0634c5858e458b9aa4aa622a7ab55c32088
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235228"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288547"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Предварительные требования для Защиты от угроз (Майкрософт)
 
@@ -36,11 +36,11 @@ ms.locfileid: "42235228"
 Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защиты от угроз Майкрософт.
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
-Для использования защиты от угроз Майкрософт необходима одна из следующих лицензий или комбинация лицензий:
+Для использования защиты от угроз Майкрософт необходима *одна* из следующих лицензий или комбинация лицензий:
 
 - Microsoft 365 E5
 - Безопасность Microsoft 365 E5
-- Office 365 E5, Enterprise Mobility + Security E5 и Windows E5
+- Office 365 в ~ и "Enterprise Mobility + Security/Security (EMS)" и Windows ~
 
 [Просмотр планов корпоративных служб Microsoft 365](https://www.microsoft.com/en-us/licensing/product-licensing/microsoft-365-enterprise)
 

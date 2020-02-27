@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: ef68143d185b6b716b8b5c8213b1e4f3ea1a5abd
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 62901a08b8e040266a94967170674336eb1035c8
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235078"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288597"
 ---
 # <a name="microsoft-threat-protection"></a>Защита от угроз (Майкрософт)
 
@@ -34,6 +34,17 @@ ms.locfileid: "42235078"
 Защита от угроз Майкрософт — это единый пакет защиты от предварительной и завершающей атакой, который интегрируется в конечные точки, удостоверения, электронные письма и приложения, чтобы обнаруживать, предотвращать и автоматически отвечать на совершенные атаки.  
 
 Благодаря встроенному решению для защиты от угроз Майкрософт, специалисты по безопасности могут объединить угрозу, чтобы каждый из этих продуктов получал и определил полную область и влияние угрозы. сведения о том, как она была введена в среду, каковы ее влияние и как в настоящее время влияет на организацию. Защита от угроз Майкрософт выполняет автоматические действия по предотвращению или прекращению атак и автовосстановления, затронутых почтовых ящиков, конечных точек и удостоверений пользователей.  
+
+
+<center><h2>Службы защиты от угроз Майкрософт</center></h2>
+<table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Advanced Threat Protection в защитнике Майкрософт</b></center></a></td>
+<td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Office 365 Advanced Threat protection</b></center></a></td>
+<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Служба Advanced Threat Protection в Azure</b></a></center></td>
+<td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Microsoft Cloud App Security</b></a></center></td>
+</tr>
+</table>
+<br>
+
 
 
 Microsoft Threat Protection Suite защищает: 
@@ -65,17 +76,8 @@ Microsoft Threat Protection Suite защищает:
 - **Самовосстановление для скомпрометированных устройств, удостоверений пользователей и почтовых ящиков** — защита от угроз Майкрософт использует автоматические действия и "Playbooks" для восстановления затронутых активов в безопасном состоянии. Защита от угроз Майкрософт использует функции автоматического исправления продуктов набора, чтобы гарантировать, что все затронутые активы по этому инциденту будут автоматически исправлены там, где это возможно.
 - **Межпродуктная угроза** "Поиск вирусов". Teams могут использовать свои уникальные организационные знания для поиска подписывания нарушений, создавая собственные пользовательские запросы для необработанных данных, собранных различными продуктами для защиты. Защита от угроз Майкрософт обеспечивает доступ на основе запросов к 30 дням из исторических необработанных сигналов и данных оповещений между конечной точкой и данными Office 365 ATP. 
 
-<center><h2>Службы защиты от угроз Майкрософт</center></h2>
-<table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Advanced Threat Protection в защитнике Майкрософт</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Office 365 Advanced Threat protection</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Служба Advanced Threat Protection в Azure</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Microsoft Cloud App Security</b></a></center></td>
-</tr>
-</table>
-<br>
-
 
 ## <a name="get-started"></a>Начало работы
-Защиту от угроз (Майкрософт) могут использовать клиенты, у которых есть лицензия Microsoft 365 E5 или аналогичная лицензия.  Чтобы начать, включите службу в центре безопасности Microsoft 365 по адресу [Security.Microsoft.com](https://security.microsoft.com). Для получения дополнительных сведений прочитайте:
+Перед включением службы в центре безопасности Майкрософт 365 необходимо соблюдение требований лицензирования Майкрософт для защиты от [угроз.](https://security.microsoft.com) Для получения дополнительных сведений прочитайте:
 - [Требования к лицензированию](prerequisites.md#licensing-requirements)
 - [Включение Защиты от угроз (Майкрософт)](mtp-enable.md)

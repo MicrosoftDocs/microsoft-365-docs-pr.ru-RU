@@ -15,12 +15,13 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 3a362f7d15a9cc8e1f5784ec03c8c04d3d77886d
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.custom: air
+ms.openlocfilehash: c06874ea5d55334d9049d6c5d9d5c55a499dae06
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42262016"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288477"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Автоматическое исследование и реагирование (AIR) в Office 365
 
@@ -28,7 +29,9 @@ ms.locfileid: "42262016"
 
 ## <a name="the-overall-flow-of-air"></a>Общий поток воздуха
 
-На высоком уровне поток воздуха работает следующим образом:
+Инициируется оповещение и инициируется стратегия безопасности, что запускает автоматическое исследование. Или аналитика безопасности инициирует автоматическое исследование при использовании обозревателя угроз. Выполняется автоматическое исследование, и, как правило, определяются определенные действия по исправлению. Эти действия проверяются и утверждаются группой действий по обеспечению безопасности, и исследование завершается. 
+
+В следующей таблице рассматривается общий поток воздуха, пошаговое руководство:
 
 |Шаг  |Что происходит  |
 |---------|---------|
@@ -67,7 +70,7 @@ AIR Office 365 входит в состав следующих подписок:
 |Настройка функций AIR |Одна из следующих ролей: <br/>- **Глобальный администратор**<br/>- **Администратор безопасности** <br/>Эти роли можно назначить в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
 |Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенных в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Глобальный администратор** <br/>- **Администратор безопасности**<br/>- **Средство чтения безопасности** <br/>--- и ---<br/>- **Поиск и очистка** (эта роль назначается только в [центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Возможно, вам потребуется создать новую группу ролей и добавить роль "Поиск и очистка" в новую группу ролей.)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
 

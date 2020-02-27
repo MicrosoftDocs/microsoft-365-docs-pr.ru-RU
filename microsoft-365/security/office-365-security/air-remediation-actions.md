@@ -15,18 +15,20 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: 433813ed1a801117a88da696392030db5091b54b
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.openlocfilehash: 0db49a28fb90bcddcdd874ac54216957e4be5fa1
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42261056"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288517"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Действия по исправлению, следующие за автоматическим исследованием в Office 365
 
 ## <a name="remediation-actions"></a>Действия по исправлению
 
-[Автоматизированные функции расследования и реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) в Office 365 Advanced Threat protection включают некоторые действия по исправлению. При каждом запуске или завершении автоматического исследования обычно отображается одно или несколько действий по исправлению, требующих утверждения командой "Управление операциями безопасности" для продолжения. В следующей таблице приведены действия по исправлению, которые в настоящее время доступны в Office 365 Advanced Threat protection. 
+[Автоматизированные функции расследования и реагирования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) в Office 365 Advanced Threat protection включают некоторые действия по исправлению. При каждом запуске или завершении автоматического исследования обычно отображается одно или несколько действий по исправлению, требующих утверждения командой "Управление операциями безопасности" для продолжения. 
+
+В следующей таблице приведены действия по исправлению, которые в настоящее время доступны в [Office 365 Advanced Threat protection](office-365-atp.md). 
 
 |Действие | Описание |
 |-----|-----|

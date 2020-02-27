@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Определите, отвечает ли клиент Office 365 и пользователи требованиям, чтобы можно было использовать централизованное развертывание для развертывания надстроек Office.
-ms.openlocfilehash: b5cd04100b025705d29f86a07ec5f6aece259a8a
-ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
+ms.openlocfilehash: 09487e0ff495f4b561e7a27eecf2c99fd4da10af
+ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/26/2020
-ms.locfileid: "42278765"
+ms.locfileid: "42284390"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Определение работы централизованного развертывания надстроек для вашей организации
 
@@ -84,7 +84,7 @@ ms.locfileid: "42278765"
 
 ### <a name="exchange-online-requirements"></a>Требования Exchange Online
 
-Microsoft Exchange хранит манифесты надстроек в клиенте Организации. Надстройки, развернутые администратором, и пользователи, получающие надстройку, должны находиться в версии Exchange Online, поддерживающей проверку подлинности OAuth. По умолчанию в Exchange с несколькими клиентами и выделенными развертываниями VNext поддерживается OAuth. 
+Microsoft Exchange хранит манифесты надстроек в клиенте Организации. Надстройки, развернутые администратором, и пользователи, получающие надстройку, должны находиться в версии Exchange Online, поддерживающей проверку подлинности OAuth.
   
 Чтобы узнать, какая конфигурация используется, обратитесь к администратору Exchange своей организации. Подключение OAuth можно проверить для каждого пользователя с помощью командлета PowerShell [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351). 
 
