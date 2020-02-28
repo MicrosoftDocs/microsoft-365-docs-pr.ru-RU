@@ -61,11 +61,11 @@
           href: information-barriers-troubleshooting.md
         - name: Изменение политик информационных барьеров
           href: information-barriers-edit-segments-policies.md
-    - name: управление привилегированным доступом;
+    - name: Управление привилегированным доступом
       items:
         - name: Подробнее об управлении привилегированным доступом
           href: privileged-access-management-overview.md
-        - name: Настройка управления привилегированным доступом
+        - name: Приступая к управлению привилегированным доступом
           href: privileged-access-management-configuration.md
     - name: Защита доступа пользователей и устройств
       href: protect-access-to-data-and-services.md
@@ -621,14 +621,15 @@
         - name: Сохранение скрытых копий и получателей расширенной группы рассылки
           href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
 - name: Управление исследованиями данных
-  href: overview-data-investigations.md
   items:
+    - name: Общие сведения о расследовании данных
+      href: overview-data-investigations.md
     - name: Управление инцидентом утечки данных
       href: manage-data-spillage-incidents.md
+    - name: Назначение разрешений для исследований данных
+      href: data-investigations-permissions.md
     - name: Создание нового исследования
       href: create-new-investigation.md
-    - name: Назначение разрешений для исследований данных
-      href: permissions.md
     - name: Поиск данных в исследовании
       href: search-for-data.md
       items:

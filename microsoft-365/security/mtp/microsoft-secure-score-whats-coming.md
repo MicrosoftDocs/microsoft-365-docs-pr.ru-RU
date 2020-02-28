@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 55c7cb34c5484eaf8f6693be0ce439e33a82550f
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: 4d445d4c917a46b12592308f599570725ace8e9d
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266989"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322568"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Что поступает в показателях безопасности Майкрософт?
 
@@ -59,7 +59,7 @@ ms.locfileid: "42266989"
 - Все устройства должны иметь расширенные конфигурации безопасности
 - Просмотреть отчет о заблокированных устройствах еженедельно
 
-### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>Удаление действий улучшения, которые не отвечают ожиданиям для надежного измерения
+### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>Удаление действий улучшения, которые не отвечают ожиданиям для надежного измерения 
 
 Чтобы обеспечить осмысленность оценки безопасности Майкрософт и обеспечить надежность и надежность каждого действия по улучшению, мы удаляем следующие действия по улучшению.
 
@@ -93,7 +93,7 @@ ms.locfileid: "42266989"
 
 ## <a name="march-16th-2020"></a>16 марта 2020
 
-### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>Удаление действий улучшения, которые не отвечают ожиданиям для надежного измерения
+### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a>Удаление действий улучшения, которые не отвечают ожиданиям для надежного измерения, или не предоставляют удобного представления безопасности
 
 Чтобы обеспечить осмысленность оценки безопасности Майкрософт и обеспечить надежность и надежность каждого действия по улучшению, мы удаляем следующие действия по улучшению.
 
@@ -102,6 +102,7 @@ ms.locfileid: "42266989"
 - Настройка безопасных ссылок на Office 365 для проверки URL-адресов
 - Не разрешать делегирование почтовых ящиков
 - Разрешить ссылки анонимного общего доступа к гостям для сайтов и документов
+- Включение консоли Cloud App Security
 
 ### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a>Поддержка параметров безопасности по умолчанию для действий по улучшению Azure AD
 

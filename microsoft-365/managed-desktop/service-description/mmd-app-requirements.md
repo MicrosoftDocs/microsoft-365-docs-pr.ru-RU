@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1ca08e84bf27a64ba7515b6f4c0307c94621601c
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 01c580cd671a84ef68c18b114e133f046a3e5b3b
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280107"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328071"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Требования к классическому приложению, управляемому корпорацией Майкрософт
 
@@ -59,5 +59,5 @@ ms.locfileid: "42280107"
 
 На рабочем столе Майкрософт поддерживаются только драйверы устройств, доступные через обновление Windows или установленную папку "Входящие" с управляемым устройством Майкрософт. 
 
-Если приложению требуется определенный драйвер для запуска, оно считается ограниченным приложением и требует развертывания на настольном компьютере, управляемом Майкрософт. 
+Если приложению требуется определенный драйвер для запуска, оно считается ограниченным приложением и требует исключения перед развертыванием в управляемом рабочем столе Майкрософт. 
 

@@ -1,5 +1,5 @@
 ---
-title: Настройка управления привилегированным доступом в Office 365
+title: Приступая к управлению привилегированным доступом
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Solutions
 ms.assetid: ''
-description: В этом разделе вы найдете дополнительные сведения о настройке привилегированного управления доступом в Office 365
-ms.openlocfilehash: 36a473369ba539230bc4bbb2a630d74830844fc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Используйте этот раздел для получения дополнительных сведений о настройке управления привилегированным доступом.
+ms.openlocfilehash: bb1589252ab7a5f7a512db92666827dd9d3cc2d3
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601736"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322535"
 ---
-# <a name="configuring-privileged-access-management-in-office-365"></a>Настройка управления привилегированным доступом в Office 365
+# <a name="get-started-with-privileged-access-management"></a>Приступая к управлению привилегированным доступом
 
 >[!IMPORTANT]
 >В этом разделе рассматривается руководство по развертыванию и настройке для функций, доступных в Office 365 и расширенных конфигураций соответствия требованиям.
@@ -279,7 +279,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 5. Выберите политику, которую нужно удалить, а затем нажмите кнопку **удалить политику**.
 
-6. Нажмите кнопку **Закрыть**.
+6. Нажмите **Закрыть**.
 
 ### <a name="in-exchange-management-powershell"></a>В PowerShell для управления Exchange
 

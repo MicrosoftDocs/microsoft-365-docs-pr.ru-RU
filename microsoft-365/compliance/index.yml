@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4e118d0aac0164370f7d7c2d403f15276268f8bf
-  ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+  ms.openlocfilehash: d6f24a93754c60227e668bb8d0ec42776a519dbc
+  ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/21/2020
-  ms.locfileid: "42179230"
+  ms.lasthandoff: 02/27/2020
+  ms.locfileid: "42322538"
 landingContent:
 - title: Управление защитой информации
   linkLists:
@@ -32,6 +32,8 @@ landingContent:
       url: custom-sensitive-info-types.md
     - text: Шифрование электронной почты
       url: email-encryption.md
+    - text: Ключ клиента
+      url: customer-key-overview.md
 - title: Управление информацией
   linkLists:
   - linkListType: overview
@@ -62,12 +64,10 @@ landingContent:
       url: communication-compliance.md
     - text: Информационные барьеры
       url: information-barriers.md
-    - text: управление привилегированным доступом;
+    - text: Управление привилегированным доступом
       url: privileged-access-management-overview.md
     - text: Защищенное хранилище пользователя
       url: customer-lockbox-requests.md
-    - text: Ключ клиента
-      url: customer-key-overview.md
 - title: Обнаружение и ответ
   linkLists:
   - linkListType: overview
