@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы можете применять метки к Microsoft Teams, группам Office 365 и сайтам SharePoint.
-ms.openlocfilehash: 611876b7e403c8d877c602d21967675adef2d061
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 350e1906e4d645c444d772b1ade9a2ff9c850992
+ms.sourcegitcommit: 1b1425142ae06deae3da10a7d30dce4db029d6d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288582"
+ms.locfileid: "42313804"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Использование меток конфиденциальности в Microsoft Teams, группах Office 365 и сайтах SharePoint (общедоступная предварительная версия)
 
 При создании меток конфиденциальности в [Центре соответствия требованиям Microsoft 365](https://protection.office.com/) вы можете применить их к следующим контейнерам: Microsoft Teams, группы Office 365 и сайты SharePoint. С помощью настроек меток можно управлять следующими параметрами для контейнеров:
 
-- Конфиденциальность сайтов групп, подключенных к группам Office 365 (общедоступных или закрытых)
+- Конфиденциальность сайтов групп (общедоступных или закрытых), подключенных к группам Office 365
 - Доступ внешних пользователей
 - Доступ с неуправляемых устройств 
 
