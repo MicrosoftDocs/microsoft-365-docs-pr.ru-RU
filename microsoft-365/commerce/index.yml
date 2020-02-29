@@ -1,0 +1,73 @@
+### YamlMime:Landing
+title: Бизнес-подписки и документация по выставлению счетов
+summary: Сведения о том, как покупать бизнес-подписки и управлять ими, выполнять задачи управления лицензиями и управлять выставлением счетов и платежами для деловых учетных записей с помощью корпорации Майкрософт.
+metadata:
+  title: Бизнес-подписки и документация по выставлению счетов
+  description: Сведения о том, как покупать бизнес-подписки и управлять ими, выполнять задачи управления лицензиями и управлять выставлением счетов и платежами для деловых учетных записей с помощью корпорации Майкрософт.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection: commerce
+  author: cmcatee-MSFT
+  ms.author: cmcatee
+  ms.date: 02/27/2020
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
+  ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 02/29/2020
+  ms.locfileid: "42341592"
+landingContent:
+- title: Управление векселями и платежами
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Просмотр счета
+      url: billing-and-payments/view-your-bill-or-invoice.md
+    - text: Управление методами оплаты
+      url: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+    - text: Расшифровка счета
+      url: billing-and-payments/understand-your-invoice.md
+    - text: Управление профилями выставления счетов
+      url: billing-and-payments/manage-billing-profiles.md
+    - text: Управление учетными записями выставления счетов
+      url: manage-billing-accounts.md
+- title: Управление лицензиями
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Назначение лицензий пользователям
+      url: ../admin/manage/assign-licenses-to-users.md
+    - text: Общие сведения о подписках и лицензиях
+      url: licenses/subscriptions-and-licenses.md
+    - text: Приобретение лицензий для подписки
+      url: licenses/buy-licenses.md
+    - text: Удаление лицензий из подписки
+      url: licenses/remove-licenses-from-subscription.md
+- title: Обновление, продление и Отмена
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Переход на другой план
+      url: subscriptions/upgrade-to-different-plan.md
+    - text: Продление подписки
+      url: subscriptions/renew-your-subscription.md
+    - text: Отмена подписки
+      url: subscriptions/cancel-your-subscription.md
+    - text: Повторная активация подписки
+      url: subscriptions/reactivate-your-subscription.md
+    - text: Закрытие учетной записи
+      url: close-your-account.md
+- title: Использование пробной версии или приобретение подписки
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Использование пробной версии или приобретение подписки на Microsoft 365
+      url: try-or-buy-microsoft-365.md
+    - text: Приобретение подписки из бесплатной пробной версии
+      url: buy-a-subscription-from-your-free-trial.md
+    - text: Продление пробной версии
+      url: extend-your-trial.md
+    - text: Приобретение доменного имени
+      url: ../admin/get-help-with-domains/buy-a-domain-name.md
