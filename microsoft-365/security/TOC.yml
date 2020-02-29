@@ -49,6 +49,8 @@
               href: mtp/prerequisites.md
             - name: Безопасность и конфиденциальность данных
               href: mtp/data-privacy.md
+            - name: Порталы Microsoft Security
+              href: mtp/portals.md
             - name: Устранение неполадок
               href: ./mtp/troubleshoot.md
         - name: Практические руководства
