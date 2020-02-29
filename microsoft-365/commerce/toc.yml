@@ -1,5 +1,5 @@
-- name: Управление коммерческими лицензиями и выставлением счетов
-  href: index.md
+- name: Управление подписками для бизнеса
+  href: index.yml
   expanded: true
   items:
     - name: Использование пробной версии или приобретение подписки
@@ -10,7 +10,7 @@
           href: try-or-buy-microsoft-365.md
         - name: Продление пробной версии
           href: extend-your-trial.md
-        - name: Приобретение дополнительных подписок
+        - name: Приобретение еще одной подписки
           href: buy-another-subscription.md
         - name: Приобретение и изменение надстроек
           href: buy-or-edit-an-add-on.md
@@ -20,12 +20,12 @@
       items:
         - name: Обновление подписок
           href: subscriptions/upgrade-to-different-plan.md
-        - name: Отмена подписки
-          href: subscriptions/cancel-your-subscription.md
-        - name: Повторная активация подписки
-          href: subscriptions/reactivate-your-subscription.md
         - name: Продление подписки
           href: subscriptions/renew-your-subscription.md
+        - name: Повторная активация подписки
+          href: subscriptions/reactivate-your-subscription.md
+        - name: Отмена подписки
+          href: subscriptions/cancel-your-subscription.md
         - name: Что происходит по истечении срока действия подписки?
           href: subscriptions/what-if-my-subscription-expires.md
         - name: Управление сторонними приложениями
@@ -38,12 +38,12 @@
       items:
         - name: Приобретение лицензий
           href: licenses/buy-licenses.md
-        - name: Назначение лицензий
-          href: ../admin/manage/assign-licenses-to-users.md
-        - name: Отмена лицензий
-          href: ../admin/manage/remove-licenses-from-users.md
         - name: Удаление лицензий из подписки
           href: licenses/remove-licenses-from-subscription.md
+        - name: Назначение лицензий пользователям
+          href: ../admin/manage/assign-licenses-to-users.md
+        - name: Отмена назначения лицензий пользователям
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: Общие сведения о подписках и лицензиях
           href: licenses/subscriptions-and-licenses.md
     - name: Счета и платежи
@@ -76,3 +76,5 @@
       href: manage-partners.md
     - name: Закрытие учетной записи
       href: close-your-account.md
+    - name: Обращение в службу поддержки
+      href: ../admin/contact-support-for-business-products.md

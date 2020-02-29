@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: С помощью ключа клиента вы можете управлять ключами шифрования вашей организации, а затем настроить Office 365 на их использование для шифрования данных на REST в центрах обработки данных Майкрософт.
-ms.openlocfilehash: 6fd7167dd46f3a44d97a493830aef19e40f062e8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0910374051073cb67ee4d2a4fac0a88871a2fd73
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076934"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333656"
 ---
 # <a name="service-encryption-with-customer-key-in-office-365"></a>Шифрование службы с помощью ключа клиента в Office 365
 
@@ -77,7 +77,7 @@ Office 365 предоставляет базовый уровень шифров
 
 ![Шифры шифрования для ключа клиента SharePoint Online](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Настройка ключа клиента для Office 365](customer-key-set-up.md)
 
