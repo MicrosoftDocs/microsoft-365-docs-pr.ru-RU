@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы можете применять метки к Microsoft Teams, группам Office 365 и сайтам SharePoint.
-ms.openlocfilehash: 350e1906e4d645c444d772b1ade9a2ff9c850992
-ms.sourcegitcommit: 1b1425142ae06deae3da10a7d30dce4db029d6d3
+ms.openlocfilehash: 477b168435d36170a1506adff021ee4cb5ab5162
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42313804"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333716"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Использование меток конфиденциальности в Microsoft Teams, группах Office 365 и сайтах SharePoint (общедоступная предварительная версия)
 
@@ -87,7 +87,7 @@ ms.locfileid: "42313804"
 > 
 > Аналогичным образом, если вы создаете метку и не включаете эти параметры сайта и группы, метка по-прежнему будет доступна при создании пользователями команд, групп и сайтов, но будет применяться только имя метки.
 
-Если метка еще не опубликована, опубликуйте ее, [добавив в политику меток](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
+Если метка конфиденциальности еще не опубликована, опубликуйте ее, [добавив в политику меток конфиденциальности](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy). Пользователи, которым назначена политика меток конфиденциальности, включающая эту метку, смогут выбирать ее для сайтов и групп.
 
 ## <a name="sensitivity-label-management"></a>Управление метками конфиденциальности
 
