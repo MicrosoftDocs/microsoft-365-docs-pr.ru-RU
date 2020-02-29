@@ -14,14 +14,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: 7b1c1368b274bbbb6dc7a5b760de4968575962fa
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c87eef2afbb3a694d9906de0c6c43bfeb576782b
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599206"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333686"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Как работают безопасные ссылки Office 365 ATP
+> [!IMPORTANT] 
+> Для правильной работы ссылок Office 365 ATP для безопасной работы все службы Office 365 должны иметь одинаковую версию.
          
 ## <a name="how-atp-safe-links-works-with-urls-in-email"></a>Как безопасные ссылки ATP работают с URL-адресами в электронной почте
 

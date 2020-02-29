@@ -15,12 +15,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: Вы можете настроить уведомления о нежелательной почте для пользователей по умолчанию для политики фильтрации нежелательной почты по умолчанию или для настраиваемых политик фильтрации нежелательной почты, которые применяются к доменам.
-ms.openlocfilehash: cc3054715fdc5cbe72bc6655462b61eb8a9db5d3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c8690a64e222bca2bbdc6be62d1077a9d361ae85
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086468"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341285"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Настройка уведомлений пользователя о спаме в Exchange Online
 
@@ -95,4 +95,6 @@ ms.locfileid: "42086468"
 ## <a name="for-more-information"></a>Дополнительные сведения
 
 [Настройка политик фильтрации нежелательной почты](configure-your-spam-filter-policies.md)
+
+[Set — HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy)
   

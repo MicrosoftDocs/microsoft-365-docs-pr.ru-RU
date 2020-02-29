@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Узнайте, как управлять способами оплаты в центре администрирования Microsoft 365.
-ms.openlocfilehash: 7e217f5fcb7f93e91ec0ed3ab6d4a806597fbfb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 56ffbcc638ecfe304ff71273ec2ce00abd05ddca
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246503"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341233"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Добавление, обновление и удаление способов оплаты
 
@@ -42,6 +42,8 @@ ms.locfileid: "42246503"
 > Возможность оплаты с помощью банковского счета недоступна в некоторых странах или регионах.
 >
 > Необходимо использовать кредитную карту, выданную в той же стране, что и клиент.
+
+**Отображается ли интерфейс, не совпадающий с указанным в этой статье?** Если это так, ознакомьтесь со статьей [Управление методами оплаты](manage-payment-methods.md).
 
 ## <a name="add-a-payment-method"></a>Добавление метода оплаты
 
@@ -380,7 +382,7 @@ ms.locfileid: "42246503"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Изменение адреса выставления счета](change-your-billing-addresses.md)
   

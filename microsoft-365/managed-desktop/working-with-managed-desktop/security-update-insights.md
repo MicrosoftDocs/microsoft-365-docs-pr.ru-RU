@@ -1,19 +1,19 @@
 ---
-title: Аналитика обновлений безопасности Windows
+title: Аналитика центра безопасности Windows
 description: ''
 keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 600491fbdd70315385587eb8cb443a1696c3bee6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ef2d5c897709e7f7d2484d032b7471031be77d74
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257832"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341256"
 ---
-# <a name="windows-security-update-insights"></a>Аналитика обновлений безопасности Windows
+# <a name="windows-security-update-insights"></a>Аналитика центра безопасности Windows
 В этом представлении представлен обзор состояния обновлений для системы безопасности для настольных устройств, управляемых Майкрософт. 
 
 Чтобы просмотреть данные об использовании, перейдите на вкладку <strong>обновления для системы безопасности Windows</strong> .
@@ -28,7 +28,7 @@ ms.locfileid: "42257832"
 
 - <strong>Active:</strong> Устройства, которые удовлетворяют минимальным критериям использования (шесть часов, два непрерывных) для последнего выпуска обновления для системы безопасности и возвращены в Microsoft Intune по крайней мере каждые пять дней
 - <strong>Синхронизация:</strong> Устройства, которые были возвращены с помощью Intune в течение последних 28 дней
-- Не <strong>синхронизировано</strong> — устройства, которые <i>не</i> были возвращены в Intune за последние 28 дней
+- Не <strong>синхронизировано:</strong> Устройства, которые <i>не</i> были возвращены в Intune за последние 28 дней
 
 
 
