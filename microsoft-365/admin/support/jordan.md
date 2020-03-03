@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a62432f49cbe23e65dbb9d3a1f05526c6da49154
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 064f889c8f84f9c4df67a423f94f0de70d3b705d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256282"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358150"
 ---
 # <a name="contact-support-for-jordan"></a>Обращение в службу поддержки для Иордания
 

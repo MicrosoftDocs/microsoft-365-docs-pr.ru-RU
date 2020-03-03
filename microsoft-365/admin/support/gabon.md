@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cb206e2785b6975c85711d79b5b65cb685c659
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0d397e67216abc5867e800dce11661b365fec34f
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247512"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358840"
 ---
 # <a name="contact-support-for-gabon"></a>Обращение в службу поддержки для Габон
 

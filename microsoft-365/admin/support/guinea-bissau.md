@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 69d44ada9e7a35cd7e9207a4116beeb0cefd58b0
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b03db951f8f16770b65d294841bf562db78bdfa3
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248744"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358560"
 ---
 # <a name="contact-support-for-guinea-bissau"></a>Обращение в службу поддержки для Гвинея — Биссау
 

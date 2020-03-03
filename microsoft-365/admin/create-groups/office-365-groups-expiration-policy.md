@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о политиках истечения срока действия групп Office 365.
-ms.openlocfilehash: 5a7a9f9a67e8436a8d4120551e306a68a015bcb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c4c2f7b98247cc81b3fadc561f92084f9bd39c96
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245423"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352590"
 ---
 # <a name="office-365-group-expiration-policy"></a>Политика срока действия группы Office 365
 
@@ -66,7 +66,7 @@ ms.locfileid: "42245423"
 
 Вы можете настроить политику для всех групп, только выбранных групп или полностью отключить ее полностью, выбрав **нет**. Обратите внимание, что в настоящее время невозможно использовать разные политики для разных групп.
 
-![Снимок экрана: параметры срока действия групп в Azure Active Directory](../media/azure-groups-expiration-settings.png)
+![Снимок экрана: параметры срока действия групп в Azure Active Directory](../../media/azure-groups-expiration-settings.png)
 
 ## <a name="how-expiry-works-with-the-retention-policy"></a>Как работает политика хранения с истекающим сроком действия
 
@@ -80,7 +80,7 @@ ms.locfileid: "42245423"
 
 Если по какой-либо причине владельцы или Администраторы не обновляют группу до истечения срока ее действия, администратор может восстановить группу в течение 30 дней после истечения срока действия. Дополнительные сведения см. [в статье Восстановление удаленной группы Office 365](https://support.office.com/article/restore-a-deleted-office-365-group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Обзор политик хранения](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)
 

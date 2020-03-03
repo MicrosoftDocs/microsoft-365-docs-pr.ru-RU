@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: 40660f8f04c51c61aeec2144f4e7f3da8fa39fd9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 749e0532cf379d1fcff0580c9d5ede7910cfa38b
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245774"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353270"
 ---
 # <a name="get-started-with-the-roles-page"></a>Начало работы со страницей "роли"
 
 На странице роли можно предоставить пользователям разрешения на выполнение задач в центрах администрирования. Это помогает организациям распределять задачи для соответствующих людей и помогает защитить данные.
 
-:::image type="content" source="../media/roles-main-page.png" alt-text="Рисунок, показывающий роли администратора":::
+:::image type="content" source="../../media/roles-main-page.png" alt-text="Рисунок, показывающий роли администратора":::
 
 > [!TIP]
 > Нужны подробные описания ролей? Изучите [разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) и [роли администратора](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
@@ -38,7 +38,7 @@ ms.locfileid: "42245774"
 
 Вы можете экспортировать список администраторов, а также поиск и фильтрацию по роли.
 
-:::image type="content" source="../media/admin-role-page-options.png" alt-text="Фильтрация или импорт ролей администраторов":::
+:::image type="content" source="../../media/admin-role-page-options.png" alt-text="Фильтрация или импорт ролей администраторов":::
 
 |||
 |:-----|:-----|
@@ -95,6 +95,6 @@ ms.locfileid: "42245774"
 
 - Выберите до 3 ролей и нажмите кнопку **Сравнение ролей** , чтобы просмотреть разрешения для каждой роли.
 
-:::image type="content" source="../media/compare-roles-list.png" alt-text="Рисунок, показывающий сравнение ролей администратора":::
+:::image type="content" source="../../media/compare-roles-list.png" alt-text="Рисунок, показывающий сравнение ролей администратора":::
 
 ::: moniker-end

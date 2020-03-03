@@ -26,12 +26,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Узнайте, что необходимо знать перед продолжением процедуры регистрации для Office 365. '
-ms.openlocfilehash: 40d7084be08187a366733b6de39e1f534a73032e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bd827a4cc57386127083111b0df556786d01f2cc
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245612"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352960"
 ---
 # <a name="how-to-sign-up-for-office-365---admin-help"></a>Регистрация в Office 365 справка для администраторов
 
@@ -79,7 +79,7 @@ ms.locfileid: "42245612"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Нужна помощь в выборе? Консультанты по продажам ответят на любые ваши вопросы. Просто перейдите к разделу [сравнение всех продуктов](https://products.office.com/compare-all-microsoft-office-products?tab=2) и выберите один из вариантов поддержки контактов, перечисленных в левой части страницы.
   

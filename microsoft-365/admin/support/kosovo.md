@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5db7ee8f41ef84b45f9abeaa86280ecd05243c1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 6f13ff7f2f5690008c89bbf873d096c0be791c2e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256258"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358070"
 ---
 # <a name="contact-support-for-kosovo"></a>Обращение в службу поддержки для Косово
 

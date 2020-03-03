@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
 description: Узнайте, как настроить Office 365 для управления записями DNS в пользовательском домене по адресу Hostgator.
-ms.openlocfilehash: f0d3b495285685c3f666560816f99b07a1a5f6d5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 95131e258482fdb0ff9aa7f00b3339e1c6f9509d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246668"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42351850"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-hostgator"></a>Изменение серверов доменных имен для настройки Office 365 у регистратора Hostgator
 
@@ -43,34 +43,34 @@ ms.locfileid: "42246668"
   
 1. Прежде всего перейдите по [этой ссылке](https://portal.hostgator.com/domain/manage), чтобы открыть свою страницу на клиентском портале Hostgator, а затем выполните вход.
     
-    ![Hostgator-BP-Redelegate-1-0](../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
+    ![Hostgator-BP-Redelegate-1-0](../../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
   
 2. Перейдите на вкладку **домены** .
     
-    ![Hostgator-BP-Redelegate-1-1](../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
+    ![Hostgator-BP-Redelegate-1-1](../../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
   
 3. На странице " **Управление доменами** " в разделе **My Domains (мои домены** ) выберите домен, который необходимо обновить.
     
-    ![Hostgator-BP-Redelegate-1-2](../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
+    ![Hostgator-BP-Redelegate-1-2](../../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
   
 4. На странице " **Обзор доменов** " в области **серверы имен** нажмите кнопку **изменить**.
     
-    ![Hostgator-BP-Redelegate-1-3](../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
+    ![Hostgator-BP-Redelegate-1-3](../../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
   
 5. На странице **серверы имен** для вашего домена в раскрывающемся списке **Выбор учетной записи размещения** выберите **учетную запись размещения** , связанную с доменом.
     
-    ![Hostgator-BP-Redelegate-1-4](../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
+    ![Hostgator-BP-Redelegate-1-4](../../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
   
 6. Выберите команду **сохранить серверы имен**.
     
-    ![Hostgator-BP-Redelegate-1-9](../media/b52a825a-6d54-49ba-87c8-52f770fdfa0c.png)
+    ![Hostgator-BP-Redelegate-1-9](../../media/b52a825a-6d54-49ba-87c8-52f770fdfa0c.png)
   
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 
 > [!IMPORTANT]
 > Перед выполнением этой процедуры необходимо сначала выполнить процедуру, описанную в первом разделе этой статьи, и [указать доменную учетную запись.](#point-your-domain-to-your-hosting-account).
   
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже.
@@ -93,27 +93,27 @@ ms.locfileid: "42246668"
 |||||
 |:-----|:-----|:-----|:-----|
 |**Name (Имя)** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
-|Используйте свое  *доменное имя*  , например fourthcoffee.com.<br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1,1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
+|Используйте свое  *доменное имя*  , например fourthcoffee.com.<br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1,1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
    
 4. Выберите команду **Add Record** (Добавить запись).
     
 5. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
     
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Изменение записей сервера доменных имен
 
@@ -127,33 +127,33 @@ When Office 365 finds the correct TXT record, your domain is verified.
   
 1. Прежде всего перейдите по [этой ссылке](https://portal.hostgator.com/domain/manage), чтобы открыть вашу страницу на сайте Hostgator, а затем выполните вход.
     
-    ![Hostgator-BP-Redelegate-1-0](../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
+    ![Hostgator-BP-Redelegate-1-0](../../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
   
 2. Перейдите на вкладку **домены** . 
     
-    ![Hostgator-BP-Redelegate-1-1](../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
+    ![Hostgator-BP-Redelegate-1-1](../../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
   
 3. На странице " **Управление доменами** " в разделе **My Domains (мои домены** ) выберите домен, который необходимо обновить. 
     
-    ![Hostgator-BP-Redelegate-1-2](../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
+    ![Hostgator-BP-Redelegate-1-2](../../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
   
 4. На странице " **Обзор домена** " в области **серверы имен** нажмите кнопку **изменить**.
     
-    ![Hostgator-BP-Redelegate-1-3](../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
+    ![Hostgator-BP-Redelegate-1-3](../../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
   
 5. На странице **серверы имен** для вашего домена в раскрывающемся списке **Выбор учетной записи размещения** выберите **учетную запись размещения** , связанную с доменом. 
     
-    ![Hostgator-BP-Redelegate-1-4](../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
+    ![Hostgator-BP-Redelegate-1-4](../../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
   
 6. Выберите **установку серверов имен вручную**.
     
-    ![Hostgator-BP-Redelegate-1-5](../media/5b73ae32-f26e-48aa-b5ad-6da20f1c491a.png)
+    ![Hostgator-BP-Redelegate-1-5](../../media/5b73ae32-f26e-48aa-b5ad-6da20f1c491a.png)
   
 7.   **Внимание!** выполните эти действия только в том случае, если у вас есть серверов доменных имен, отличный от четырех правильных серверов доменных имен. (То есть удалите только те текущие серверов доменных имен, которые *не* называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.)
   
         На странице **Name Servers** (Серверы доменных имен) для вашего домена удалите из списка серверов доменных имен все серверы, выделяя каждый из них и нажимая на клавиатуре клавишу **DELETE**. 
     
-   ![Hostgator-BP-Redelegate-1-6](../media/fa9820e7-28bb-4792-b16c-51e54d83feb1.png)
+   ![Hostgator-BP-Redelegate-1-6](../../media/fa9820e7-28bb-4792-b16c-51e54d83feb1.png)
   
 8. В том же списке серверов доменных имен введите (или скопируйте и вставьте) первые два значения из таблицы ниже.
     
@@ -164,7 +164,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Name Server 3** (Сервер доменных имен 3) <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Name Server 4** (Сервер доменных имен 4) <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Hostgator — BP — redelegate — 1-7-1](../media/a8c10aa7-30b0-4bc8-9596-20256d396274.png)
+   ![Hostgator — BP — redelegate — 1-7-1](../../media/a8c10aa7-30b0-4bc8-9596-20256d396274.png)
   
 9. Добавьте значения для других серверов доменных имен.
     
@@ -172,11 +172,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     Повторяйте эти действия, пока не создадите все четыре записи серверов доменных имен.
     
-    ![Hostgator-BP-Redelegate-1-7-2](../media/92159a39-e498-4220-9b0d-ae2e718c7fb9.png)
+    ![Hostgator-BP-Redelegate-1-7-2](../../media/92159a39-e498-4220-9b0d-ae2e718c7fb9.png)
   
 10. Выберите команду **сохранить серверы имен**.
     
-    ![Hostgator-BP-Redelegate-1-8](../media/bd6b0dfa-5d39-4805-970d-7ab153cff117.png)
+    ![Hostgator-BP-Redelegate-1-8](../../media/bd6b0dfa-5d39-4805-970d-7ab153cff117.png)
   
 > [!NOTE]
 > На распространение изменений, внесенных вами в записи серверов имен, в системе DNS по всему Интернету может потребоваться несколько часов. После этого ваша электронная почта и все остальные службы Office 365 будут настроены на работу с новым доменом.

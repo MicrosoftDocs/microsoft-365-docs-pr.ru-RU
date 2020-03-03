@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Netregistry для Office 365.
-ms.openlocfilehash: de4e16fa20f950edef8d30b4c6d02214e3753b9c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 91f802afccd337a97b23ca514c9d9921595abcd1
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254674"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42348820"
 ---
 # <a name="create-dns-records-at-netregistry-for-office-365"></a>Создание записей DNS для Office 365 в Netregistry
 
@@ -56,26 +56,26 @@ ms.locfileid: "42254674"
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 <a name="bkmk_txt"> </a>
 
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на веб-сайте Netregistry по [этой ссылке](https://theconsole.netregistry.com.au/). Вам потребуется выполнить вход.
     
-    ![Netregistry_login](../media/ed3c785f-01c3-49e7-affd-c04637c0ffe9.png)
+    ![Netregistry_login](../../media/ed3c785f-01c3-49e7-affd-c04637c0ffe9.png)
   
 2. Рядом с нужным доменом щелкните ссылку **Manage** (Управление).
     
-    ![Netregistry_Manage](../media/64ad542a-5ec4-4148-96f8-d6e163449352.png)
+    ![Netregistry_Manage](../../media/64ad542a-5ec4-4148-96f8-d6e163449352.png)
   
 3. Выберите пункт **Zone Manager** (Диспетчер зон).
     
-    ![Netregistry_selectZoneManager](../media/e18c32f9-c1e7-4aa2-9aa6-8dc9c5ea44af.png)
+    ![Netregistry_selectZoneManager](../../media/e18c32f9-c1e7-4aa2-9aa6-8dc9c5ea44af.png)
   
 4. В разделе **Добавление записи зоны**выберите **запись TXT** в списке, а затем выберите **создать новую запись**.
     
-    ![Netregistry_TXT_select](../media/eb1761e6-9deb-4631-8deb-bc5d09926722.png)
+    ![Netregistry_TXT_select](../../media/eb1761e6-9deb-4631-8deb-bc5d09926722.png)
   
     > [!NOTE]
     > Перед и после записи в поле TXT необходимо использовать кавычки. 
@@ -84,86 +84,86 @@ ms.locfileid: "42254674"
     
     |**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**TXT (Адрес "указывает на" или значение)**|
     |:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> |"MS = Мскскскскскскскскс"  <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)  |
+    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> |"MS = Мскскскскскскскскс"  <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
        
-    ![Netregistry_verificationTXTvalues](../media/cfe8b05a-fa8b-4dba-9554-7a3466e6c012.png)
+    ![Netregistry_verificationTXTvalues](../../media/cfe8b05a-fa8b-4dba-9554-7a3466e6c012.png)
   
 6. Нажмите кнопку **Добавить запись**.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
-    
-    
-  
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
     
     
   
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
+    
+    
+  
+4. На странице **Проверка домена** выберите **Проверить**.
     
     
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
 <a name="bkmk_mx"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на веб-сайте Netregistry по [этой ссылке](https://theconsole.netregistry.com.au/). Вам потребуется выполнить вход.
     
-    ![Netregistry_login](../media/80277b0e-547e-4635-aa6a-5d8ebe3fba85.png)
+    ![Netregistry_login](../../media/80277b0e-547e-4635-aa6a-5d8ebe3fba85.png)
   
 2. Рядом с нужным доменом щелкните ссылку **Manage** (Управление).
     
-    ![Netregistry_Manage](../media/96e2c6e4-21fd-4405-a4fe-b1188400b985.png)
+    ![Netregistry_Manage](../../media/96e2c6e4-21fd-4405-a4fe-b1188400b985.png)
   
 3. Выберите пункт **Zone Manager** (Диспетчер зон).
     
-    ![Netregistry_selectZoneManager](../media/914021f6-dff3-4640-84d6-b83cf8f61cf1.png)
+    ![Netregistry_selectZoneManager](../../media/914021f6-dff3-4640-84d6-b83cf8f61cf1.png)
   
 4. В разделе **текущие записи зоны**удалите записи MX по умолчанию, нажав кнопку **Удалить** рядом с каждой записью MX в списке. 
     
-    ![Netregistry_MX_remove](../media/494670a9-8b8d-46e5-8136-05e82212a115.png)
+    ![Netregistry_MX_remove](../../media/494670a9-8b8d-46e5-8136-05e82212a115.png)
   
 5. В разделе **Добавление записи зоны**выберите **запись MX** в списке, а затем выберите **создать новую запись**.
     
-    ![Netregistry_MX_select](../media/29b60eb9-6c40-490f-9669-e65b65962f37.png)
+    ![Netregistry_MX_select](../../media/29b60eb9-6c40-490f-9669-e65b65962f37.png)
   
 6. В **новой форме MX Record (запись MX** ) введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
     |**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Exchange (указывает на адрес или значение)**|**Является полным узлом?**|**Предпочтения (приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> | *\<ключ-домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Office 365.  [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)      |(установите флажок)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Office 365.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      |(установите флажок)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
        
-    ![Netregistry_MX_values](../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
+    ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
 7. Выберите команду **Add Record** (Добавить запись).
     
-    ![Netregistry_MX_values_AddRecord](../media/8194cb38-afa0-48ac-831c-fd34b6ad652e.png)
+    ![Netregistry_MX_values_AddRecord](../../media/8194cb38-afa0-48ac-831c-fd34b6ad652e.png)
   
-## <a name="add-the-cname-records-that-are-required-for-office-365"></a>Добавление записей CNAME, необходимых для Office 365
+## <a name="add-the-cname-records-that-are-required-for-office-365"></a>Добавление записей CNAME, необходимых для Office 365
 <a name="bkmk_cname"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на веб-сайте Netregistry по [этой ссылке](https://theconsole.netregistry.com.au/). Вам потребуется выполнить вход.
     
-    ![Netregistry_login](../media/cbf83dce-86d2-4008-9400-56def4b6fcd7.png)
+    ![Netregistry_login](../../media/cbf83dce-86d2-4008-9400-56def4b6fcd7.png)
   
 2. Рядом с нужным доменом щелкните ссылку **Manage** (Управление).
     
-    ![Netregistry_Manage](../media/7bee4b0f-2c1d-43ca-b1bb-9b889ca0c5e4.png)
+    ![Netregistry_Manage](../../media/7bee4b0f-2c1d-43ca-b1bb-9b889ca0c5e4.png)
   
 3. Выберите пункт **Zone Manager** (Диспетчер зон).
     
-    ![Netregistry_selectZoneManager](../media/58384add-0a9d-472b-a5d0-51ec8155fd41.png)
+    ![Netregistry_selectZoneManager](../../media/58384add-0a9d-472b-a5d0-51ec8155fd41.png)
   
 4. В разделе **Добавление записи зоны**выберите **запись CNAME** в списке и нажмите кнопку **создать новую запись**.
     
-    ![Netregistry_CNAME_CreateNewRecord](../media/7b4f133f-45da-48da-93c0-62f57c786165.png)
+    ![Netregistry_CNAME_CreateNewRecord](../../media/7b4f133f-45da-48da-93c0-62f57c786165.png)
   
 5. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
@@ -175,87 +175,87 @@ When Office 365 finds the correct TXT record, your domain is verified.
     |enterpriseregistration  <br/> |CNAME  <br/> |3600 (секунд)  <br/> |enterpriseregistration.windows.net  <br/> |
     |enterpriseenrollment  <br/> |CNAME  <br/> |3600 (секунд)  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
        
-    ![Netregistry_CNAME_values](../media/93c479f0-3ce2-491a-9113-6dde1cd7131b.png)
+    ![Netregistry_CNAME_values](../../media/93c479f0-3ce2-491a-9113-6dde1cd7131b.png)
       
 6. Нажмите кнопку **Добавить запись**.
     
-    ![Netregistry_CNAME_values_AddRecord](../media/046c8c64-ea71-4530-9fc6-69f0c70993b6.png)
+    ![Netregistry_CNAME_values_AddRecord](../../media/046c8c64-ea71-4530-9fc6-69f0c70993b6.png)
   
 7. Повторив эти действия, создайте пять других записей CNAME.
     
     Создайте пять других записей CNAME, как описано выше.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 к текущей записи, чтобы иметь *одну* запись SPF, включающую оба набора значений.
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 в текущую запись. Таким образом, в *одной* записи SPF будут указаны оба набора значений.
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на веб-сайте Netregistry по [этой ссылке](https://theconsole.netregistry.com.au/). Вам потребуется выполнить вход.
     
-    ![Netregistry_login](../media/a841f11f-1c0f-4926-acea-a2b8bb083984.png)
+    ![Netregistry_login](../../media/a841f11f-1c0f-4926-acea-a2b8bb083984.png)
   
 2. Рядом с нужным доменом щелкните ссылку **Manage** (Управление).
     
-    ![Netregistry_Manage](../media/4245bbbb-4e2d-49e7-a89c-679949aa3d18.png)
+    ![Netregistry_Manage](../../media/4245bbbb-4e2d-49e7-a89c-679949aa3d18.png)
   
 3. Выберите пункт **Zone Manager** (Диспетчер зон).
     
-    ![Netregistry_selectZoneManager](../media/372e5918-b6dc-4268-8f9a-0aa71d65deef.png)
+    ![Netregistry_selectZoneManager](../../media/372e5918-b6dc-4268-8f9a-0aa71d65deef.png)
   
 4. В разделе **Добавление записи зоны**выберите **запись TXT** в списке, а затем выберите **создать новую запись**.
     
-    ![Netregistry_TXT_select](../media/a2930d03-853a-4f1e-9205-d00f25bed35f.png)
+    ![Netregistry_TXT_select](../../media/a2930d03-853a-4f1e-9205-d00f25bed35f.png)
   
-5. In the boxes for the new record, type or copy and paste the values from the following table. 
+5. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
     > [!NOTE]
     > Перед и после записи в поле TXT необходимо использовать кавычки. 
   
     |**Имя**|**Тип**|**TTL (Срок жизни)**|**Данные TXT (Target)**|
     |:-----|:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |TXT  <br/> |3600 (секунд)  <br/> |"v = spf1 включает:SPF. Protection. Outlook. com-ALL"  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
+    |(Оставьте пустым)  <br/> |TXT  <br/> |3600 (секунд)  <br/> |"v = spf1 включает:SPF. Protection. Outlook. com-ALL"  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
-    ![Netregistry_SPF Ткствалуес](../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
+    ![Netregistry_SPF Ткствалуес](../../media/a369345a-d774-48bc-8160-b628ab8247f9.png)
   
 6. Выберите команду **Add Record** (Добавить запись).
     
-    ![Netregistry_SPF TXTvalues_AddRecord](../media/063bfbaf-940a-489f-970f-29c026b4b312.png)
+    ![Netregistry_SPF TXTvalues_AddRecord](../../media/063bfbaf-940a-489f-970f-29c026b4b312.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
 <a name="bkmk_srv"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на веб-сайте Netregistry по [этой ссылке](https://theconsole.netregistry.com.au/). Вам потребуется выполнить вход.
     
-    ![Netregistry_login](../media/accf6584-e5f4-4d68-a641-0f8847f8370f.png)
+    ![Netregistry_login](../../media/accf6584-e5f4-4d68-a641-0f8847f8370f.png)
   
 2. Рядом с доменом, которым вы хотите управлять, выберите **Управление**.
     
-    ![Netregistry_Manage](../media/e0ddc79e-0123-4e24-8380-9645bdb41aac.png)
+    ![Netregistry_Manage](../../media/e0ddc79e-0123-4e24-8380-9645bdb41aac.png)
   
 3. Выберите пункт **Zone Manager** (Диспетчер зон).
     
-    ![Netregistry_selectZoneManager](../media/f122888b-3cc5-40ec-adac-0ede04799d9a.png)
+    ![Netregistry_selectZoneManager](../../media/f122888b-3cc5-40ec-adac-0ede04799d9a.png)
   
 4. В разделе **Добавление записи зоны**выберите **запись SRV** из списка и нажмите кнопку **создать новую запись**.
     
-    ![Netregistry_SRV_select](../media/e5dab850-acd1-48b8-8b4a-e3b9777cf508.png)
+    ![Netregistry_SRV_select](../../media/e5dab850-acd1-48b8-8b4a-e3b9777cf508.png)
   
-5. In the boxes for the new record, type or copy and paste the values from the following table.
+5. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
     > [!NOTE]
     > Поле Name — это сочетание службы (например, _sip) и протокола (например, _tls). 
   
-    |**Тип**|**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Priority (Приоритет)**|**Weight (Вес)**|**Port (Порт)**|**Target (Назначение)**|
+    |**Тип**|**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV (служба)  <br/> |_sip. _tls  <br/> |3600 (секунд)  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |SRV (служба)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (секунд)  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
-    ![Netregistry_SRV_values](../media/49292846-1598-4b8c-9940-db6e10675753.png)
+    ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   
 6. Выберите команду **Add Record** (Добавить запись).
     
-    ![Netregistry_SRV_values_AddRecord](../media/abc82061-939f-4757-87e4-0e8f9e43ebcb.png)
+    ![Netregistry_SRV_values_AddRecord](../../media/abc82061-939f-4757-87e4-0e8f9e43ebcb.png)
   
 7. Повторите эти действия для другой записи SRV.
     

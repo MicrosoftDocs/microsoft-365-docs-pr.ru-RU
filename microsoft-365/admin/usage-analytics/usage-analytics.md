@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Ознакомьтесь с обзором того, как ваша организация использует службы Microsoft 365 для общения и сотрудничества.
-ms.openlocfilehash: ce55d8374c4fd927914ae3fb63edbdf1f7df4089
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8770d3f49c50ffcab46c1aba302320a49cff8312
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255903"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355280"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Аналитика использования Microsoft 365
 ---
@@ -49,7 +49,7 @@ ms.locfileid: "42255903"
 
 Эта сводка позволяет быстро освоиться со схемами использования в Office, а также как и как сотрудники работают вместе.
 
-![Изображение сводного руководства по использованию Microsoft 365.](../media/office365usage-exec-summary.png)
+![Изображение сводного руководства по использованию Microsoft 365.](../../media/office365usage-exec-summary.png)
 
 ## <a name="overview"></a>Обзор
 

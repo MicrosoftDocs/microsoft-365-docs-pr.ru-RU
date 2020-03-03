@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 68a08e94-26c2-4df2-9216-026b8ec907ca
 description: Узнайте, как настроить Office 365 для управления записями DNS в пользовательском домене в Google Domains.
-ms.openlocfilehash: 771d38b9a3d08bef75c3ad1958f981539edb6c04
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f6faaa4a7b6540086752e88da2051a73450f4455
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246683"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42351970"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-google-domains"></a>Изменение серверов доменных имен для настройки Office 365 у регистратора Google Domains
 
@@ -36,7 +36,7 @@ ms.locfileid: "42246683"
     
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 >  Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
@@ -58,27 +58,27 @@ ms.locfileid: "42246683"
 |||||
 |:-----|:-----|:-----|:-----|
 |**Имя** <br/> |**Тип** <br/> |**TTL (Срок жизни)** <br/> |**Data (Данные)** <br/> |
-|@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
+|@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
    
-4. Нажмите кнопку **Добавить**.
+4. Нажмите кнопку **Add** (Добавить).
     
 5. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
     
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Изменение записей сервера доменных имен
 
@@ -100,7 +100,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 3. На странице **Domains** (Домены) в разделе **Name servers** (Серверы доменных имен) выберите параметр **Use custom name servers** (Использовать настраиваемые серверы доменных имен).
     
-    ![Google-Domains-BP-Redelegate-1-1](../media/e264bc05-5a56-4962-bcaf-e2d999f62278.png)
+    ![Google-Domains-BP-Redelegate-1-1](../../media/e264bc05-5a56-4962-bcaf-e2d999f62278.png)
   
 4. В зависимости от того, указаны ли уже серверы доменных имен на странице, которая отображается на экране, воспользуйтесь одной из двух процедур.
     
@@ -121,11 +121,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Третий сервер доменных имен** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Четвертый сервер доменных имен** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Google — домены — BP — redelegate — 1-2](../media/6d14544d-7783-4ed4-b4dd-691624af7172.png)
+   ![Google — домены — BP — redelegate — 1-2](../../media/6d14544d-7783-4ed4-b4dd-691624af7172.png)
   
 2. Выберите элемент управления **+ (Добавить)** , чтобы создать пустую строку. 
     
-    ![Google-Domains-BP-Redelegate-1-3](../media/ea23e5fc-07e1-4ffc-b8cf-8526867b752d.png)
+    ![Google-Domains-BP-Redelegate-1-3](../../media/ea23e5fc-07e1-4ffc-b8cf-8526867b752d.png)
   
 3. Добавьте три другие записи серверов доменных имен.
     
@@ -135,7 +135,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 4. Нажмите кнопку **Сохранить**.
     
-    ![Google-Domains-BP-Redelegate-1-5](../media/cb954aa2-12ee-4e90-9b67-184cbe898bbb.png)
+    ![Google-Domains-BP-Redelegate-1-5](../../media/cb954aa2-12ee-4e90-9b67-184cbe898bbb.png)
   
 > [!NOTE]
 > На распространение изменений, внесенных вами в записи серверов имен, в системе DNS по всему Интернету может потребоваться несколько часов. После этого ваша электронная почта и все остальные службы Office 365 будут настроены на работу с новым доменом. 
@@ -147,11 +147,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
     > [!CAUTION]
     > Follow these steps only if you have existing nameservers other than the four correct nameservers. (То есть удалите только те текущие серверов доменных имен, которые *не* называются **NS1.BDM.microsoftonline.com**, **NS2.BDM.microsoftonline.com**, **NS3.BDM.microsoftonline.com**или **NS4.BDM.microsoftonline.com**.) 
   
-    ![Google-Domains-BP-Redelegate-1-6-1](../media/fb45d120-55ab-42c2-bdb6-19b130c3c7db.png)
+    ![Google-Domains-BP-Redelegate-1-6-1](../../media/fb45d120-55ab-42c2-bdb6-19b130c3c7db.png)
   
 2. Удалите каждый сервер, выделив его и нажав клавишу **DELETE**. 
     
-    ![Google-Domains-BP-Redelegate-1-6-2](../media/524e64ad-56e6-4254-8a64-e4a4c3230f89.png)
+    ![Google-Domains-BP-Redelegate-1-6-2](../../media/524e64ad-56e6-4254-8a64-e4a4c3230f89.png)
   
 3. Здесь же, в разделе **Name servers** (Серверы доменных имен), введите (или скопируйте и вставьте) в строках **NAME SERVER** (Сервер доменных имен) значения из таблицы ниже. 
     
@@ -162,11 +162,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Третий сервер доменных имен** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Четвертый сервер доменных имен** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Google — домены — BP — redelegate — 1-7](../media/e008dccb-d789-4f52-8ecc-02831b7c6fb2.png)
+   ![Google — домены — BP — redelegate — 1-7](../../media/e008dccb-d789-4f52-8ecc-02831b7c6fb2.png)
   
 4. Выберите элемент управления **+ (Добавить)** , чтобы создать пустую строку. 
     
-    ![Google-Domains-BP-Redelegate-1-8](../media/6ce40b1e-8464-443f-a64a-825dc8764590.png)
+    ![Google-Domains-BP-Redelegate-1-8](../../media/6ce40b1e-8464-443f-a64a-825dc8764590.png)
   
 5. Добавьте две другие записи серверов доменных имен.
     
@@ -176,7 +176,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 6. Нажмите кнопку **Сохранить**.
     
-    ![Google-Domains-BP-Redelegate-1-5](../media/cb954aa2-12ee-4e90-9b67-184cbe898bbb.png)
+    ![Google-Domains-BP-Redelegate-1-5](../../media/cb954aa2-12ee-4e90-9b67-184cbe898bbb.png)
   
 > [!NOTE]
 > На распространение изменений, внесенных вами в записи серверов имен, в системе DNS по всему Интернету может потребоваться несколько часов. После этого ваша электронная почта и все остальные службы Office 365 будут настроены на работу с новым доменом. 

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как управлять тем, какие пользователи могут создавать группы Office 365.
-ms.openlocfilehash: a211cb3b69348a4d4a401a3c318fe019d8fd257f
-ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
+ms.openlocfilehash: a6016f6406b211aae216702910a696be50e1b82c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277196"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352640"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Управление разрешениями пользователей на создание групп Office 365
 
@@ -119,7 +119,7 @@ ms.locfileid: "42277196"
     
 2. Щелкните программу **Windows PowerShell** правой кнопкой мыши и выберите пункт **Запуск от имени администратора**.
     
-    ![Откройте PowerShell с помощью команды "Запуск от имени администратора".](../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
+    ![Откройте PowerShell с помощью команды "Запуск от имени администратора".](../../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
     
 3. Присвойте политике значение RemoteSigned с помощью [Set – ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy).
     
@@ -159,7 +159,7 @@ ms.locfileid: "42277196"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Пример:
+Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Например:
 
 `$GroupName = "Group Creators"`
 
@@ -205,7 +205,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 В последней строке сценария отобразятся обновленные параметры:
 
-![This is what your settings will look like when you're done.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
+![This is what your settings will look like when you're done.](../../media/952cd982-5139-4080-9add-24bafca0830c.png)
 
 Если в будущем требуется изменить группу безопасности, можно повторно запустить скрипт с именем новой группы безопасности.
 

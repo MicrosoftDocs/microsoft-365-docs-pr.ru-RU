@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0338cd8ffe0add7e1f46bf1f6b3283fc0095cc17
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 316bd38dcd925dd98c75e43f2458bb6d0ea5d5a4
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247456"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356880"
 ---
 # <a name="contact-support-for-puerto-rico"></a>Обращение в службу поддержки для Пуэрто-Рико
 

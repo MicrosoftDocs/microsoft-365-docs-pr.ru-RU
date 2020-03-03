@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39ca39c9b7341b9aa0e2df7add8c86199f68021a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d7d45a4a8b37d358e57fc6cf7687fdbf657c04d8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248805"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42359050"
 ---
 # <a name="contact-support-for-estonia"></a>Обращение в службу поддержки для Эстонии
 

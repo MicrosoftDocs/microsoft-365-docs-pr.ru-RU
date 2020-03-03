@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу DNSMadeEasy для Office 365.
-ms.openlocfilehash: 7b94b8d4b3a02a0f436ba2af314eece8b7606ec2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 82244d216652b1957aefc3b81acd881ea4b32393
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248824"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42350320"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-office-365"></a>Создание записей DNS для Office 365 на сайте DNSMadeEasy
 
@@ -35,15 +35,15 @@ ms.locfileid: "42248824"
   
 Когда вы добавите эти записи на сайте DNSMadeEasy, ваш домен будет настроен для работы со службами Office 365.
   
-Дополнительные сведения о веб-хостинге и DNS для веб-сайтов в Office 365 см. в статье [Работа с общедоступным веб-сайтом в Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
+Дополнительные сведения о веб-хостинге и DNS для веб-сайтов в Office 365 см. в статье [Работа с общедоступным веб-сайтом в Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
   
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 <a name="BKMK_verify"> </a>
 
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
@@ -63,30 +63,30 @@ ms.locfileid: "42248824"
     
     ||||
     |:-----|:-----|:-----|
-    |**Имя** <br/> |**Value** <br/> |**TTL** (Срок жизни) <br/> |
-    |(Оставьте это поле пустым.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
+    |**Имя** <br/> |**Value** (Значение) <br/> |**TTL** (Срок жизни) <br/> |
+    |(Оставьте это поле пустым.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
    
 5. Нажмите кнопку **послать**.
     
 6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
     
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
 <a name="BKMK_add_MX"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте DNSMadeEasy по [этой ссылке](https://cp.dnsmadeeasy.com/). Сначала вам потребуется выполнить вход.
@@ -95,39 +95,39 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     На странице **консоли управления** в области **Недавно обновленные домены** выберите домен, который необходимо обновить. 
     
-    ![DNSMadeEasy — BP — configure – 1-2](../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
+    ![DNSMadeEasy — BP — configure – 1-2](../../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
   
 3. На странице **управляемых DNS** в области MX- **записи** выберите элемент управления **(+)** ( **Добавить новый**).
     
     (You may have to scroll down.)
     
-    ![DNSMadeEasy — BP — configure – 2-1](../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
+    ![DNSMadeEasy — BP — configure – 2-1](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
   
 4. В поля для новой записи в области **Add MX Records** (Добавление записей MX) введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-    |**Name**|**Server**|**MX Level (Уровень MX)**|**TTL (Срок жизни)**|
+    |**Name**|**Server**|**MX Level (Уровень MX)**|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание:** \<Получите *ключ* \> домена из учетной записи Office 365. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |1800  <br/> |
+    |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи портала Office 365. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |1800  <br/> |
    
-    ![DNSMadeEasy — BP — configure – 2-2](../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
+    ![DNSMadeEasy — BP — configure – 2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
 5. Нажмите кнопку **послать**.
     
-    ![DNSMadeEasy — BP — configure – 2-3](../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
+    ![DNSMadeEasy — BP — configure – 2-3](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
   
 6. Если в разделе **MX Records** (Записи MX) есть другие записи MX, выберите их. 
     
-    ![DNSMadeEasy — BP — configure – 2-4-1](../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
+    ![DNSMadeEasy — BP — configure – 2-4-1](../../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
   
 7. После выбора всех записей выберите пункт **Удалить выбранные**.
     
-    ![DNSMadeEasy — BP — configure – 2-4-2](../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
+    ![DNSMadeEasy — BP — configure – 2-4-2](../../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
   
 8. В диалоговом окне **Удаление записей MX** нажмите кнопку **Удалить** , чтобы подтвердить изменения. 
     
-    ![DNSMadeEasy — BP — configure – 2-5](../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
+    ![DNSMadeEasy — BP — configure – 2-5](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
   
 ## <a name="add-the-five-cname-records-that-are-required-for-office-365"></a>Добавление пяти записей CNAME, необходимых для Office 365
 <a name="BKMK_add_CNAME"> </a>
@@ -138,15 +138,15 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 3. На странице **УПРАВЛЯЕМЫХ DNS** в области **записи CNAME** выберите элемент управления **("+"** ) ( **Добавить новый**).
     
-    (Возможно, потребуется прокрутить страницу вниз.)
+    (You may have to scroll down.)
     
-    ![DNSMadeEasy — BP — configure – 3-1](../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
+    ![DNSMadeEasy — BP — configure – 3-1](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
   
 4. Добавьте первую из пяти записей CNAME.
     
     В поля для новой записи в области **Add CNAME Records** (Добавление записей CNAME) введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
-    |**Name (Имя)**|**Alias to (Псевдоним для)**|**TTL (Срок жизни)**|
+    |**Название**|**Alias to (Псевдоним для)**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|
     |autodiscover  <br/> |autodiscover.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
     |sip  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
@@ -154,11 +154,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
     |enterpriseregistration  <br/> |enterpriseregistration.windows.net.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
     |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
    
-    ![DNSMadeEasy — BP — configure – 3-2](../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
+    ![DNSMadeEasy — BP — configure – 3-2](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
   
 5. Нажмите кнопку **послать**.
     
-    ![DNSMadeEasy — BP — configure – 3-3](../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
+    ![DNSMadeEasy — BP — configure – 3-3](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
   
 6. Добавьте все остальные четыре записи CNAME.
     
@@ -166,11 +166,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     Повторяйте эту процедуру, пока не будут созданы все пять записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 к текущей записи, чтобы иметь *одну* запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [сведениями и образцами записей SPF](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 в текущую запись. Таким образом, в *одной* записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [сведениями и образцами записей SPF](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0). Чтобы проверить запись SPF, можно использовать один из этих[средств проверки SPF](../setup/domains-faq.md). 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте DNSMadeEasy по [этой ссылке](https://cp.dnsmadeeasy.com/). Сначала вам потребуется выполнить вход.
     
@@ -180,21 +180,21 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-    ![DNSMadeEasy — BP — configure – 4-1](../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
+    ![DNSMadeEasy — BP — configure – 4-1](../../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
   
 4. In the **Add TXT Records** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    |**Name**|**Value**|**TTL** (Срок жизни)|
+    |**Name**|**Value** (Значение)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|
     |(Оставьте это поле пустым.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |1800  <br/> |
    
-    ![DNSMadeEasy — BP — configure – 4-2](../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
+    ![DNSMadeEasy — BP — configure – 4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
   
 5. Нажмите кнопку **послать**.
     
-    ![DNSMadeEasy — BP — configure – 4-3](../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
+    ![DNSMadeEasy — BP — configure – 4-3](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
 <a name="BKMK_add_SRV"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте DNSMadeEasy по [этой ссылке](https://cp.dnsmadeeasy.com/). Сначала вам потребуется выполнить вход.
@@ -205,28 +205,28 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-    ![DNSMadeEasy — BP — configure – 5-1](../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
+    ![DNSMadeEasy — BP — configure – 5-1](../../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
   
 4. Добавьте первую из двух записей SRV.
     
     В поля для новой записи в области **Add SRV Records** (Добавление записей SRV) введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
-    |**Name (Имя)**|**Priority (Приоритет)**|**Weight (Вес)**|**Port (Порт)**|**Host (Узел)**|**TTL (Срок жизни)**|
+    |**Name (Имя)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Host (Узел)**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip. _tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
     |_sipfederationtls. _tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
    
-    ![DNSMadeEasy — BP — configure – 5-2](../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
+    ![DNSMadeEasy — BP — configure – 5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   
 5. Нажмите кнопку **послать**.
     
-    ![DNSMadeEasy — BP — configure – 5-3](../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
+    ![DNSMadeEasy — BP — configure – 5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
   
 6. Добавьте вторую запись SRV.
     
     В разделе **SRV Records (записи SRV** ) выберите элемент управления **(** **Добавить новый**), создайте запись, используя значения из следующей строки таблицы, а затем еще раз нажмите кнопку **послать** , чтобы завершить эту запись. 
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 

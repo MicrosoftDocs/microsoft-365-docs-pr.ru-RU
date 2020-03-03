@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 193d240f547d75eaa3c3064b3528323b7b0891f1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0f4b124484062ab77a0c334b12436c78103ed548
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248560"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357130"
 ---
 # <a name="contact-support-for-norway"></a>Обращение в службу поддержки для Норвегии
 

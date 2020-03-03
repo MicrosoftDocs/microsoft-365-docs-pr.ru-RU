@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Узнайте, как обновить свои адреса для выставления счетов для Office 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
 ms.custom: okr_SMB
-ms.openlocfilehash: c3d15417eed227d7e9ea94abf7fe4aa7a2eff98a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8cf7a8a8ac3414e8c40a1642b33e36f9b5cdf1a9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246458"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354760"
 ---
 # <a name="change-your-billing-addresses-for-office-365-for-business"></a>Изменение адресов выставления счета в Office 365 для бизнеса
 
@@ -95,7 +95,7 @@ ms.locfileid: "42246458"
 
 2. Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.
 
-    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../admin/media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
+    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
   
 3. *Клиенты кредитных карт и банковских счетов:*  На странице **изменение сведений об оплате** выберите кредитную карту или банковский счет, который необходимо обновить, щелкните **изменить сведения**, обновите адрес выставления счетов, а затем нажмите кнопку **послать**.
   
@@ -115,7 +115,7 @@ ms.locfileid: "42246458"
 
 2. Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.
 
-    ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../admin/media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
+    ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
   
 3. На странице **изменение сведений об оплате** обновите адрес для выставления счетов, а затем нажмите кнопку **послать**.
 
@@ -141,7 +141,7 @@ ms.locfileid: "42246458"
 
 2. Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.
 
-    ![Закрытие меню "другие действия".](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Закрытие меню "другие действия".](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
   
 3. В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **послать**.
 
@@ -153,7 +153,7 @@ ms.locfileid: "42246458"
 
 2. Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.
 
-    ![Закрытие меню "другие действия".](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Закрытие меню "другие действия".](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
   
 3. В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **послать**.
 
@@ -187,7 +187,7 @@ ms.locfileid: "42246458"
 
 3. В области **изменение ролей пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Просмотр счетов](view-your-bill-or-invoice.md)
 

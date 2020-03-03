@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Вы можете создать и использовать шаблон для экономии времени и параметров стандартизации при добавлении нескольких пользователей.
-ms.openlocfilehash: a81b9c6673503c0c7aaec9b804f8e1357a7b6c5f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 340d0ae3329b441c2b9773ba06e4f9e69be88526
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245744"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353250"
 ---
 # <a name="create-and-use-a-template-to-add-users"></a>Создание и использование шаблона для добавления пользователей
 
@@ -86,7 +86,7 @@ ms.locfileid: "42245744"
     - Выберите три точки справа от имени шаблона, а затем нажмите кнопку **Удалить**.
     - Выберите имя шаблона. Когда в правой части экрана отобразятся сведения о шаблоне, выберите команду **удалить шаблон**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление пользователей по отдельности или массово в Office 365](add-users.md)
 

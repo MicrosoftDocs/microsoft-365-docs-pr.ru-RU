@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7712b6af-329c-43a0-af7b-c4e4c1befb0e
 description: 'Узнайте, как настроить Office 365 для управления записями DNS по адресу Bluehost. '
-ms.openlocfilehash: 27d73071a08477b0adc372d8a88db2c805fecacf
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 081abe977b498ea0cc0a0e2da9b54b00687df530
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245228"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352380"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-bluehost"></a>Изменение серверов доменных имен для настройки Office 365 у регистратора Bluehost
 
@@ -35,12 +35,12 @@ ms.locfileid: "42245228"
   
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). Сначала вам потребуется выполнить вход.
     
 2. На странице **доменов** в области **домена** установите флажок домена, который вы хотите изменить. 
     
@@ -55,28 +55,28 @@ ms.locfileid: "42245228"
 |||||
 |:-----|:-----|:-----|:-----|
 |**Host Record** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Value** <br/> |
-|@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md) <br/> |
+|@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
 5. Нажмите кнопку **Добавить запись**.
     
 6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
     
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>Изменение записей сервера доменных имен
 
@@ -88,15 +88,15 @@ When Office 365 finds the correct TXT record, your domain is verified.
 > [!IMPORTANT]
 >  В следующей процедуре показано, как удалить любые другие нежелательные серверов доменных имен из списка, а также как добавить правильный серверов доменных имен, если они еще не указаны. > после выполнения действий, описанных в этом разделе, необходимо указать только следующие четыре серверов доменных имен: > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). You'll be prompted to log in first.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Bluehost по [этой ссылке](https://my.bluehost.com/cgi/dm). Сначала вам потребуется выполнить вход.
     
 2. На странице **Domains (домены** ) в области **domain_name** установите флажок для своего домена, а затем выберите **серверы имен**.
     
-    ![Bluehost-BP-Redelegate-1-1](../media/8f384386-197c-4272-9675-82037922dac4.png)
+    ![Bluehost-BP-Redelegate-1-1](../../media/8f384386-197c-4272-9675-82037922dac4.png)
   
 3. В области **domain_name** выберите **использовать пользовательские серверов доменных имен**.
     
-    ![Bluehost-BP-Redelegate-1-2](../media/9fb47d21-c4ce-4eee-af90-c9569870a329.png)
+    ![Bluehost-BP-Redelegate-1-2](../../media/9fb47d21-c4ce-4eee-af90-c9569870a329.png)
   
 4. В зависимости от того, указаны ли уже серверы доменных имен на странице, которая отображается на экране, воспользуйтесь одной из двух процедур.
     
@@ -113,11 +113,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Первая пустая строка** <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |**Вторая пустая строка** <br/> |ns2.bdm.microsoftonline.com  <br/> |
    
-   ![Bluehost — BP — redelegate — 1-3-1](../media/07b13d6d-a34e-45b5-afd5-48ebd4c1344f.png)
+   ![Bluehost — BP — redelegate — 1-3-1](../../media/07b13d6d-a34e-45b5-afd5-48ebd4c1344f.png)
   
 2. Нажмите кнопку **Добавить строку**.
     
-    ![Bluehost-BP-Redelegate-1-3-2](../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
+    ![Bluehost-BP-Redelegate-1-3-2](../../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
   
 3. В том же разделе **Use Custom Nameservers** (Использовать настраиваемые серверы имен) в новой пустой строке введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
@@ -126,13 +126,13 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Третья пустая строка** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Четвертая пустая строка** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-    ![Bluehost-BP-Redelegate-1-3-3](../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
+    ![Bluehost-BP-Redelegate-1-3-3](../../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
   
 4. Чтобы добавить четвертую запись сервера доменных имен, нажмите кнопку **Добавить строку** еще раз и создайте запись, используя значения из последней строки приведенной выше таблицы. 
     
 5. Нажмите кнопку **сохранить параметры nameserver**.
     
-    ![Bluehost-BP-Redelegate-1-4](../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
+    ![Bluehost-BP-Redelegate-1-4](../../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
   
 > [!NOTE]
 > На распространение изменений, внесенных вами в записи серверов имен, в системе DNS по всему Интернету может потребоваться несколько часов. После этого ваша электронная почта и все остальные службы Office 365 будут настроены на работу с новым доменом. 
@@ -144,7 +144,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
   
 1. Если на странице указаны другие серверы доменных имен, удалите их (выберите каждый сервер и нажмите клавишу **DELETE**). 
     
-    ![Bluehost-BP-Redelegate-1-5](../media/d1051c43-f8ff-46d7-af26-3975d3f0f621.png)
+    ![Bluehost-BP-Redelegate-1-5](../../media/d1051c43-f8ff-46d7-af26-3975d3f0f621.png)
   
 2. В том же разделе **Use Custom Nameservers** (Использовать настраиваемые серверы имен) введите (или скопируйте и вставьте) значения из приведенной ниже таблицы. 
     
@@ -153,11 +153,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Первая пустая строка** <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |**Вторая пустая строка** <br/> |ns2.bdm.microsoftonline.com  <br/> |
    
-   ![Bluehost — BP — redelegate — 1-3](../media/1523debf-5eb0-4765-8e05-bcd56e375c20.png)
+   ![Bluehost — BP — redelegate — 1-3](../../media/1523debf-5eb0-4765-8e05-bcd56e375c20.png)
   
 3. Нажмите кнопку **Добавить строку**.
     
-    ![Bluehost-BP-Redelegate-1-3-2](../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
+    ![Bluehost-BP-Redelegate-1-3-2](../../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
   
 4. В том же разделе **Use Custom Nameservers** (Использовать настраиваемые серверы имен) в новой пустой строке введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
@@ -166,13 +166,13 @@ When Office 365 finds the correct TXT record, your domain is verified.
 |**Третья пустая строка** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**Четвертая пустая строка** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Bluehost — BP — redelegate — 1-3-3](../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
+   ![Bluehost — BP — redelegate — 1-3-3](../../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
   
 5. Чтобы добавить четвертую запись сервера доменных имен, нажмите кнопку **Добавить строку** еще раз и создайте запись, используя значения из последней строки приведенной выше таблицы. 
     
 6. Нажмите кнопку **сохранить параметры nameserver**.
     
-    ![Bluehost-BP-Redelegate-1-4](../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
+    ![Bluehost-BP-Redelegate-1-4](../../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
   
 > [!NOTE]
 > На распространение изменений, внесенных вами в записи серверов имен, в системе DNS по всему Интернету может потребоваться несколько часов. После этого ваша электронная почта и все остальные службы Office 365 будут настроены на работу с новым доменом. 

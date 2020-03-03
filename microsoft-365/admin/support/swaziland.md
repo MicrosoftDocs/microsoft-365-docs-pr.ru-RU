@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ca8ec4be05f1d8a7b5246665395b568b22564306
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 20ea0810d234ee9dbf11f3f16dfbdb2fc80991cb
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255498"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356150"
 ---
 # <a name="contact-support-for-swaziland"></a>Обращение в службу поддержки для Свазиленд
 

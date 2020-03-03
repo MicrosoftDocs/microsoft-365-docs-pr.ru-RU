@@ -22,18 +22,18 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Получите приложение Microsoft 365 Admin и научитесь управлять своей организацией с телефона или планшета.
-ms.openlocfilehash: 6f81da66ff8d60f1adc249c1e21542b0174050d6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245651"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353040"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Сведения о мобильном приложении Microsoft 365 Admin
 
 Вы являетесь администратором, который обычно находился в дороге? Затем ознакомьтесь с [приложением Microsoft 365 Admin](https://go.microsoft.com/fwlink/?LinkID=627216). Вы можете использовать приложение для управления Интернет-организацией с телефона или планшета. Вы можете получить приложение из магазина Apple и из Google Играйте. <br> 
 
-![Снимок экрана домашней страницы мобильного приложения для администрирования с отображением поиска, сообщений, работоспособности и быстрых ссылок.](../media/admin-mobile-app-darkbg.png)
+![Снимок экрана домашней страницы мобильного приложения для администрирования с отображением поиска, сообщений, работоспособности и быстрых ссылок.](../../media/admin-mobile-app-darkbg.png)
 
 Приложение Admin — это приложение с расширенными функциональными возможностями, которое содержит более 80 компонентов, которые помогут вам управлять Организацией, когда вы не можете получить доступ к компьютеру. Ниже приведен список всего лишь нескольких задач, которые можно выполнять в приложении.
 
@@ -57,7 +57,7 @@ ms.locfileid: "42245651"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
  
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы

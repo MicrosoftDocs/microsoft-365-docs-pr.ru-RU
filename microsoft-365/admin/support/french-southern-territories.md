@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a364d0697785af159532be822c39db802fbdafa2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1c6a530508ff2987e19fac8e3061b42506e5d1c4
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256549"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358860"
 ---
 # <a name="contact-support-for-french-southern-territories-antarctic-lands"></a>Обращение в службу поддержки для французских южных территорий (антарктические территория)
 

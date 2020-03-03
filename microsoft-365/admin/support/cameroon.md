@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d73265d9bad910ea105cfb5bd5de9320f3639a5e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 413285aa7d42f7faa320a62abf11ac9258cf43ff
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247672"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42359600"
 ---
 # <a name="contact-support-for-cameroon"></a>Обращение в службу поддержки для Камерун
 

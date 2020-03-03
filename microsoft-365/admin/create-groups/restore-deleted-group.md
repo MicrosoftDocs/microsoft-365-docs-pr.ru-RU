@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 'Узнайте, как восстановить удаленную группу Office 365 с помощью центра администрирования Exchange. '
-ms.openlocfilehash: 98eb00d90f5b607a58cd32728ce43cb4a1de1ff5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c88f10df27e5f3a0af79c93c7d0e347c5646abc9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246557"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352440"
 ---
 # <a name="restore-a-deleted-office-365-group"></a>Восстановление удаленной группы Office 365
 
@@ -77,9 +77,9 @@ ms.locfileid: "42246557"
       
 4. Выберите группу, которую требуется восстановить, а затем щелкните значок восстановления.
     
-    ![Выберите группу, которую требуется восстановить, и щелкните значок восстановления.](../media/restore-group.png)
+    ![Выберите группу, которую требуется восстановить, и щелкните значок восстановления.](../../media/restore-group.png)
   
-5. Нажмите кнопку Обновить. ![Значок "Обновить"](../media/6464df90-2a91-4c1f-92a6-9a38c7696ac3.gif) для обновления данных на странице. Группа станет активной. Все формы и данные форм, связанные с группой, также будут восстановлены.
+5. Нажмите кнопку Обновить. ![Значок "Обновить"](../../media/6464df90-2a91-4c1f-92a6-9a38c7696ac3.gif) для обновления данных на странице. Группа станет активной. Все формы и данные форм, связанные с группой, также будут восстановлены.
     
 ## <a name="restore-an-office-365-group-using-powershell"></a>Восстановление группы Office 365 с помощью PowerShell
 
@@ -198,7 +198,7 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 
 Посетите [сообщество Майкрософт](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) для отправки вопросов и участия в беседах, посвященных группам Office 365. 
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Управление группами Office 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
   

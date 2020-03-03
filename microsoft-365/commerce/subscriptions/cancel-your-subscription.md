@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Узнайте, как отменить пробную или платную подписку на Office 365 для бизнеса или Microsoft 365.
-ms.openlocfilehash: d3590f224757265af3107566023413d276443c46
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 58c545257895de8da4256cea4826029916b66961
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245993"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354600"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
@@ -64,7 +64,7 @@ ms.locfileid: "42245993"
 
 3. В меню **другие действия** выберите **Отменить подписку**.
 
-    ![Закрытие меню "другие действия".](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Закрытие меню "другие действия".](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
 4. Просмотрите важные даты, предоставьте отзыв о причинах отмены, а затем выберите **Отменить подписку**.
 
@@ -80,7 +80,7 @@ ms.locfileid: "42245993"
 
 3. В меню **другие действия** выберите **Отменить подписку**.
 
-    ![Закрытие меню "другие действия".](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![Закрытие меню "другие действия".](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
 4. Просмотрите важные даты, предоставьте отзыв о причинах отмены, а затем выберите **Отменить подписку**.
 
@@ -127,7 +127,7 @@ ms.locfileid: "42245993"
 
 Если вы отменили подписку и не переместит пользователей в другую подписку, которая включает Office, Office 365 работает в режиме ограниченной функциональности. В этом случае пользователи могут читать и печатать документы, а приложения Office 365 — [уведомления о нелицензированных продуктах](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Во избежание недоразумений нужно [удалить Office](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) с компьютеров пользователей.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Обновление подписки](renew-your-subscription.md)
 
