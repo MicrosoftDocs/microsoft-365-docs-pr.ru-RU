@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Узнайте обо всех способах получения справки по использованию центра администрирования Microsoft 365.
-ms.openlocfilehash: 4aa2d46121aa1a817381592a02bbb9b875207427
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2d75add5b34a760358523de6e6f10553c1984abe
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245600"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352980"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -43,7 +43,7 @@ ms.locfileid: "42245600"
                     <a href="what-is-help.md#integrated-help">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -62,7 +62,7 @@ ms.locfileid: "42245600"
                     <a href="what-is-help.md#modern-self-help-powered-by-ai">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -81,7 +81,7 @@ ms.locfileid: "42245600"
                     <a href="what-is-help.md#guides-and-articles">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -98,7 +98,7 @@ ms.locfileid: "42245600"
 ## <a name="integrated-help"></a>Интегрированная Справка
 Справка интегрирована в центр администрирования, поэтому она находится там, где это необходимо. В верхней части многих страниц вы найдете встроенный текст справки, который содержит информационные сведения о задаче, а также ссылки на статьи, которые позволяют быстро найти официальную документацию для более глубокого изучения.
 
-![Страница "группы", в которой представлены встроенная справка и ссылки на статьи](../media/integrated-help.png)
+![Страница "группы", в которой представлены встроенная справка и ссылки на статьи](../../media/integrated-help.png)
 
 ## <a name="modern-self-help-powered-by-ai"></a>Современная самостоятельная помощь на платформе AI
 
@@ -106,7 +106,7 @@ ms.locfileid: "42245600"
 
 Или, если вы не знаете, как получить что-то в конкретной ситуации, используйте помощник по поддержке. В настоящее время этот интерфейс доступен только на английском языке. Для его включения используйте переключатель в верхней части области "нужна помощь". Помощник по поддержке предоставляет интерфейс для получения справки. Введите свой запрос, а чатбот запросит разъяснения, чтобы узнать правильный ответ в конкретной ситуации. Его можно рассматривать как виртуальный вспомогательный модуль для обнаружения решений и выполнения задач.
 
-![Современная самостоятельная помощь](../media/help-options.png)
+![Современная самостоятельная помощь](../../media/help-options.png)
 
 Конечно, иногда вопросы отвечают людям. Если наши современные функции не имеют ответа, вы всегда можете связаться с нашими агентами поддержки.
 
