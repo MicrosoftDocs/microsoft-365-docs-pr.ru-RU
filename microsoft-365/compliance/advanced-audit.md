@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Расширенный аудит в Microsoft 365 предоставляет новые функции аудита, помогающие организации при расследованиях и анализе соответствия требованиям.
-ms.openlocfilehash: 4812f81140bc80a1437c13b7bce38a7ed101592d
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 7d672dd8a84107d8d4561ae8982114abc4e01af9
+ms.sourcegitcommit: 9d6f9fd271e83c00e92a5e0247fcc51fc2070c3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280165"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370488"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Расширенный аудит в Microsoft 365
 
@@ -61,7 +61,7 @@ ms.locfileid: "42280165"
 
 - Действия MessageBind запускали создание нескольких записей аудита при обращении к одному сообщению, что приводило к "шуму" в аудите. В отличие от них события MailItemsAccessed собираются в меньшем числе записей аудита.
 
-Дополнительные сведения о ведении журналов аудита почтовых ящиков см. в статье [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md)
+Сведения о записях аудита см. в статье [Исследование скомпрометированных учетных записей с помощью расширенного аудита](mailitemsaccessed-forensics-investigations.md).
 
 ### <a name="search-for-mailitemsaccessed-audit-records"></a>Поиск записей аудита о MailItemsAccessed
 
