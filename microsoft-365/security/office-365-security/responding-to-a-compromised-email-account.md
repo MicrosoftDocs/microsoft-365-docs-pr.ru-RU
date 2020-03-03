@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Как распознать компрометацию учетной записи электронной почты в Office 365 и какие меры принять
-ms.openlocfilehash: 3aa8be9b53f2aa8f3fc6bf64744b36de5d912645
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b19d48046834e3f1387490774babb40dcbd92acc
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598606"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372487"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Реагирование на компрометацию учетной записи электронной почты в Office 365
 
@@ -194,7 +194,7 @@ ms.locfileid: "41598606"
 
 ## <a name="see-also"></a>См. также
 
-- [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](/security/office-365-security/detect-and-remediate-outlook-rules-forms-attack.md)
+- [Обнаружение атак с внедрением правил и пользовательских форм Outlook и устранение их последствий в Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
 
 - [Центр жалоб на Интернет-преступления](https://www.ic3.gov/preventiontips.aspx)
 

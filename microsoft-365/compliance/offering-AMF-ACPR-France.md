@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cfd0c127b7cea626d6e2ed571f8ed1913370c1db
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 04b14f913a9b513ee5235223315daa2611395854
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602716"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363035"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Финансовая служба (AMF) и Управление по надзору (ACPR), Франция
 
 ## <a name="about-the-amf-and-acpr"></a>Сведения о AMF и ACPR
 
-[Финансовая служба](https://www.amf-france.org/en_US/?langSwitch=true) ([Autorité des Marchés Financiers, AMF](https://amf-france.org/)) и [Управление по надзору](https://acpr.banque-france.fr/en/page-sommaire/about-acpr) ([Autorité de Contrôle Prudentiel et de Résolution, ACPR](https://acpr.banque-france.fr/)) являются основными финансовыми регуляторами во Франции. В качестве регулятора фондового рынка AMF отвечает за надзор за финансовыми рынками и инвестиционными фирмами. ACPR, независимый административный орган центрального банка [Banque de France](https://www.banque-france.fr/), контролирует банковский и страховой секторы.  
+[Финансовая служба](https://www.amf-france.org/en) ([Autorité des Marchés Financiers, AMF](https://www.amf-france.org/)) и [Управление по надзору](https://acpr.banque-france.fr/en/page-sommaire/about-acpr) ([Autorité de Contrôle Prudentiel et de Résolution, ACPR](https://acpr.banque-france.fr/)) являются основными финансовыми регуляторами во Франции. В качестве регулятора фондового рынка AMF отвечает за надзор за финансовыми рынками и инвестиционными фирмами. ACPR, независимый административный орган центрального банка [Banque de France](https://www.banque-france.fr/), контролирует банковский и страховой секторы.  
   
 AMF и ACPR действуют совместно с Европейской службой банковского надзора (EBA), «независимым органом, который осуществляет пруденциальное регулирование и надзор в европейском банковском секторе». Для этого EBA сформулировала комплексный подход к использованию облачных вычислений финансовыми учреждениями в ЕС: [Рекомендации по аутсорсингу с использованием поставщиков облачных служб](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf ).  
   

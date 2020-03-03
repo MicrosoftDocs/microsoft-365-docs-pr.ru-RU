@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Узнайте, как настроить подписку на Office 365 бизнес премиум, Office 365 бизнес базовый, Office 365 бизнес или Office 365 для образования.
-ms.openlocfilehash: 28847b1b2773a0f725a5ac1a99dfc2a807f66b82
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 303e736bb3296eba5ddb7ca7e9da8f86ebdc0217
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247837"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360450"
 ---
 # <a name="set-up-office-365-for-business"></a>Настройка Office 365 для бизнеса
 
@@ -168,7 +168,7 @@ Office 365 не включает общедоступный веб-сайт дл
 
 1. Выберите элемент **Почта**.
 
-2. На панели навигации Outlook выберите **Настройки**![Настройки: обновление профиля, установка программного обеспечения и подключение его к облаку](../media/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) \> **Параметры**.
+2. На панели навигации Outlook выберите **Настройки**![Настройки: обновление профиля, установка программного обеспечения и подключение его к облаку](../../media/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) \> **Параметры**.
 
 3. В левой области щелкните **Почта** и в разделе **Учетные записи** выберите **Подключенные учетные записи**.
 

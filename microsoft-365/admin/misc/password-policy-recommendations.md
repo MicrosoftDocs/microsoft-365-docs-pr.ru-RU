@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: Узнайте, как обеспечить более надежную защиту организации от атак на пароли, а также почему необходимо запретить распространенные пароли и включить многофакторную проверку подлинности с учетом рисков.
-ms.openlocfilehash: 0d18605559cc58dd23b91446f2ef13dc28d144cb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7136243aa0a358a59e4be6c348f53ca459e8a65d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248056"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361330"
 ---
 # <a name="password-policy-recommendations-for-office-365"></a>Рекомендации по использованию политик паролей в Office 365
  

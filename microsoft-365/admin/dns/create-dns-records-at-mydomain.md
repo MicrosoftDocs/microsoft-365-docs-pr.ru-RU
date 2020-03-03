@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: Узнайте, как проверить свой домен и настроить DNS-записи для электронной почты, Skype для бизнеса Online и других служб в My Domain для Office 365.
-ms.openlocfilehash: 5a935ea456175f6d63926c9aa33280c4ec113abd
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c85c04d369add95d3aaa815229257fe90a24fb28
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42249373"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42349873"
 ---
 # <a name="create-dns-records-at-mydomain-for-office-365"></a>Создание DNS-записей для Office 365 на сайте MyDomain
 
@@ -53,7 +53,7 @@ ms.locfileid: "42249373"
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется выполнить вход.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется [выполнить вход](https://www.mydomain.com/controlpanel).
     
 2. В разделе **My Favorites** (Избранное) выберите **Domain Central** (Центральный домен).
     
@@ -102,27 +102,27 @@ ms.locfileid: "42249373"
     
 5. В раскрывающемся списке **Modify** (Изменить) выберите **MX Record** (Запись MX).
     
-    ![MyDomain-BP-Configure-2-1](../media/bbfba978-8c53-471b-8c9e-8ae62e559d15.png)
+    ![MyDomain-BP-Configure-2-1](../../media/bbfba978-8c53-471b-8c9e-8ae62e559d15.png)
   
 6. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
     |**Priority**|**Host**|**Points To** (Указывает на)|
     |:-----|:-----|:-----|
-    |0  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |@  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи портала Office 365. > [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |@  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи Office 365. > [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
-    ![MyDomain-BP-Configure-2-2](../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
+    ![MyDomain-BP-Configure-2-2](../../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
   
 7. Нажмите кнопку **Add** (Добавить).
     
-    ![MyDomain-BP-Configure-2-3](../media/1a1951a8-11d7-405d-bef5-285bbb053ce8.png)
+    ![MyDomain-BP-Configure-2-3](../../media/1a1951a8-11d7-405d-bef5-285bbb053ce8.png)
   
 8. Если в списке указаны другие существующие записи MX, для каждой из них выберите команду **Remove** (Удалить) в столбце **Action** (Действие). 
     
-    ![MyDomain-BP-Configure-2-4](../media/42576149-e056-4a81-a5fd-2c5dfac44e2e.png)
+    ![MyDomain-BP-Configure-2-4](../../media/42576149-e056-4a81-a5fd-2c5dfac44e2e.png)
   
 9. Нажмите кнопку **ОК**.
     
-    ![MyDomain-BP-Configure-2-5](../media/d6b70eb7-b79c-499e-82ff-ecef2e300368.png)
+    ![MyDomain-BP-Configure-2-5](../../media/d6b70eb7-b79c-499e-82ff-ecef2e300368.png)
   
 ## <a name="add-the-cname-records-that-are-required-for-office-365"></a>Добавление записей CNAME, необходимых для Office 365
 <a name="BKMK_add_CNAME"> </a>
@@ -137,7 +137,7 @@ ms.locfileid: "42249373"
     
 5. В раскрывающемся списке **Modify** (Изменить) выберите **CNAME Alias** (Псевдоним CNAME).
     
-    ![MyDomain-BP-Configure-3-1](../media/628267fc-d37b-42ef-bb92-265284e339ac.png)
+    ![MyDomain-BP-Configure-3-1](../../media/628267fc-d37b-42ef-bb92-265284e339ac.png)
   
 6. Добавьте первую запись CNAME.
     
@@ -151,11 +151,11 @@ ms.locfileid: "42249373"
     |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
     |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
    
-    ![MyDomain-BP-Configure-3-2](../media/3c8660b3-40bb-453d-8b99-4d22032bc4b3.png)
+    ![MyDomain-BP-Configure-3-2](../../media/3c8660b3-40bb-453d-8b99-4d22032bc4b3.png)
   
 7. Нажмите **Add** (Добавить), чтобы добавить первую запись. 
     
-    ![MyDomain-BP-Configure-3-3](../media/103a1d99-70da-4fdf-9291-7dd058ec6c4a.png)
+    ![MyDomain-BP-Configure-3-3](../../media/103a1d99-70da-4fdf-9291-7dd058ec6c4a.png)
   
 8. Добавьте вторую запись CNAME.
     
@@ -169,7 +169,7 @@ ms.locfileid: "42249373"
 > [!IMPORTANT]
 > Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a single SPF record that includes both sets of values. Нужны примеры? Ознакомьтесь с этими [сведениями и образцами записей SPF](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется выполнить вход.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется [выполнить вход](https://www.mydomain.com/controlpanel).
     
 2. В разделе **My Favorites** (Избранное) выберите **Domain Central** (Центральный домен).
     
@@ -179,7 +179,7 @@ ms.locfileid: "42249373"
     
 5. В раскрывающемся списке **Modify** (Изменить) выберите **TXT/SPF Record** (Запись TXT/SPF).
     
-    ![MyDomain-BP-Configure-4-1](../media/c461c762-52e6-4fde-b5bc-4dd5e5d62ed3.png)
+    ![MyDomain-BP-Configure-4-1](../../media/c461c762-52e6-4fde-b5bc-4dd5e5d62ed3.png)
   
 6. В разделе **Content** (Контент) в поле для новой записи введите (или скопируйте и вставьте) значение из приведенной ниже таблицы.
     
@@ -187,11 +187,11 @@ ms.locfileid: "42249373"
     |:-----|
     |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
-    ![MyDomain-BP-Configure-4-2](../media/17d43106-88e6-47e5-aeba-0f18484acf3e.png)
+    ![MyDomain-BP-Configure-4-2](../../media/17d43106-88e6-47e5-aeba-0f18484acf3e.png)
   
 7. Нажмите кнопку **Add** (Добавить).
     
-    ![MyDomain-BP-Configure-4-3](../media/b3670563-b620-470c-a42b-2c77888981f8.png)
+    ![MyDomain-BP-Configure-4-3](../../media/b3670563-b620-470c-a42b-2c77888981f8.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
 <a name="BKMK_add_SRV"> </a>

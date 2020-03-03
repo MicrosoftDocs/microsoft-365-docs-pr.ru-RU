@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов по указанным телефонным номерам для вашего региона и языка, отправляйте запросы на обслуживание через Интернет либо оставляйте такие запросы при посещении Microsoft Store.
 feedback_system: None
-ms.openlocfilehash: 72644e1e55f3432fd9027a5964022f4d989a05da
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7fdd2f1232fe20d55ef54f72333d35ff6de8d41e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245576"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352950"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -230,7 +230,7 @@ ms.locfileid: "42245576"
 
 Отсканируйте этот QR-код, чтобы следить за нами на сайте WeChat и получать последние новости о службе Office 365, предоставляемой 21Vianet.
 
-![QR-код обновлений для службы Office 365, предоставляемой 21Vianet.](media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
+![QR-код обновлений для службы Office 365, предоставляемой 21Vianet.](../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
 
 ::: moniker-end
 
