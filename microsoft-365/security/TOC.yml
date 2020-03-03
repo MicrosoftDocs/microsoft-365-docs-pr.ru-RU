@@ -55,6 +55,8 @@
               href: ./mtp/troubleshoot.md
         - name: Практические руководства
           items:
+            - name: Развертывание поддерживаемых служб
+              href: mtp/deploy-supported-services.md
             - name: Включение Защиты от угроз (Майкрософт)
               href: mtp/mtp-enable.md
             - name: Инциденты
