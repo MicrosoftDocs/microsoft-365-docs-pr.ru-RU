@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Узнайте, как настроить выпуск для новых обновлений продуктов и компонентов в центре администрирования Microsoft 365.
-ms.openlocfilehash: 2d4940003c791e50926eff46aaf6a299e60fb9aa
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d6c2eab340f4401fb31e4d9e814fbd326573569a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254927"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361804"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options-in-office-365"></a>Настройка стандартного доступа или выпуска Targeted в Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "42254927"
 
 Любой новый выпуск сначала тестируется и проверяется группой компонентов, а затем группой компонентов Office 365 целиком, а затем всеми Майкрософт. Следующий этап после внутреннего испытания и проверки  **выпуск Targeted** (прежнее название  "Первый выпуск" или "Программа раннего доступа") для пользователей с такой программой доступа. На каждом круге выпуска Майкрософт собирает отзывы и проверяет качество на основании главных показателей использования. Такая прогрессивная проверка используется для обеспечения надежности всемирного выпуска. Эти выпуски отображены на приведенном ниже рисунке. 
   
-![Освобождение звонков проверки для Office 365](../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
+![Освобождение звонков проверки для Office 365](../../media/73611ed3-2d8c-4e7b-8074-9f03b239f9ed.png)
   
 Для получения значительных обновлений клиенты Office изначально уведомляются о [планах Microsoft 365](https://products.office.com/business/office-365-roadmap). Поскольку обновление ближе к развертыванию, оно передается через [Центр сообщений Office 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter).
 
@@ -110,6 +110,6 @@ ms.locfileid: "42254927"
 
 Чтобы установить сборку Office, предоставляемую в рамках выпуска Targeted, следуйте [этим инструкциям](https://support.office.com/article/4dd8ba40-73c0-4468-b778-c7b744d03ead). Вы получите ранний доступ к новым возможностям классической версии Office 2016 для Windows.
   
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Узнайте, как [управлять сообщениями](https://docs.microsoft.com/office365/admin/manage/message-center) в [центре сообщений Office 365](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/MessageCenter) , чтобы получать уведомления о предстоящих обновлениях и выпусках Office 365.

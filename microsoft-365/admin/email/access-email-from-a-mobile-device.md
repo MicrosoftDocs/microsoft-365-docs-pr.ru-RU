@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как получать доступ к электронной почте с мобильного устройства.
-ms.openlocfilehash: b50b6986fe44cb19119831774b4357c6efd543d9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 880044ddd13226c819167fb200f9f61550559944
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255335"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362394"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>Варианты доступа к электронной почте с мобильного устройства
 
@@ -35,7 +35,7 @@ ms.locfileid: "42255335"
   
 Для доступа к электронной почте, календарю и контактам компании в Организации необходимо использовать мобильные приложения Outlook для Android или Outlook для iOS. Начнется синхронизация данных после загрузки и установки Outlook для Android или Outlook для iOS.
   
-![Пример электронной почты для синхронизации электронной почты с помощью Outlook](../media/798d942a-4181-4dcb-8039-cd9f2edd9723.png)
+![Пример электронной почты для синхронизации электронной почты с помощью Outlook](../../media/798d942a-4181-4dcb-8039-cd9f2edd9723.png)
   
 Ознакомьтесь со статьей [Оптимизация мобильного приложения Outlook для iOS или Android, чтобы](https://support.office.com/article/de075b19-b73c-4d8a-841b-459982c7e890.aspx) получить дополнительные функции Outlook. При возникновении проблем перейдите в [Центр справки Outlook для iOS и Android](https://support.office.com/article/cd84214e-a5ac-4e95-9ea3-e07f78d0cde6.aspx) . 
   

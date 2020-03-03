@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Узнайте, как настроить учетную запись электронной почты в Outlook для Windows и Mac, а также об установке приложений Office и доступе к электронным письмам в Интернете.
-ms.openlocfilehash: 87a1bd45f763b4a802b083eb4936d67c50a92df3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f5be456c845381a07c380e4d480e03a39c42f0ed
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257279"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361240"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Настройка Outlook для чтения электронной почты
 
@@ -64,7 +64,7 @@ ms.locfileid: "42257279"
 
 После входа в Office 365 выберите **Outlook**.
   
-![Домашняя страница Office 365 с выделенным приложением Outlook](../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![Домашняя страница Office 365 с выделенным приложением Outlook](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
 В средстве запуска приложений щелкните ссылку **Все приложения** для просмотра списка доступных приложений Office 365 в алфавитном порядке. В этом списке вы сможете найти конкретное приложение. 
   

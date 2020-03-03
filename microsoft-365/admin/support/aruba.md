@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3c1c89be11ff24ed5871f28bbee61f7adbeef8f2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 57e00c1b30667b7047de96621aaa7313c879f675
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256862"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360160"
 ---
 # <a name="contact-support-for-aruba"></a>Обращение в службу поддержки для Аруба
 

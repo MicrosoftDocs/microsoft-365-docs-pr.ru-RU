@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте о простых способах защиты малых предприятий от угроз безопасности.
-ms.openlocfilehash: 5407a64967f1a43d068fe560586d0cb40e053779
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a3923731e93962d1976d0cd163db4f97a07aaed2
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247960"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360780"
 ---
 # <a name="security-info-graphic-for-small-businesses"></a>Изображение сведений о безопасности для малых предприятий
 
@@ -28,6 +28,6 @@ ms.locfileid: "42247960"
 
 Ссылки для PowerPoint и PDF-файла, приведенные ниже, можно скачать и распечатать в формате таблоид (также известном как книги учета, 11 x 17 или a3).
 
-![Изображение для защиты графического изображения для малого бизнеса](media/smbthreatprotectioninfographic-thumbnail.png)
+![Изображение для защиты графического изображения для малого бизнеса](../media/smbthreatprotectioninfographic-thumbnail.png)
 
 [](downloads/smbthreatprotection-infographic.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/admin/downloads/smbthreatprotection-infographic.pptx) в формате PDF

@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: Узнайте больше о Office 365 под управлением 21Vianet, которые предназначены для удовлетворения потребностей в защищенных, надежных и масштабируемых облачных службах в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 3c211421db74bc6ff916682d0670570d1de98568
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c473dacee7fe6f2e779960711a87368e261c3448
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247933"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360800"
 ---
 # <a name="office-365-operated-by-21vianet"></a>Служба Office 365, предоставляемая 21Vianet
 
@@ -41,7 +41,7 @@ ms.locfileid: "42247933"
   
 Отсканируйте этот QR-код, чтобы следить за нами на сайте WeChat и получать последние новости о службе Office 365, предоставляемой 21Vianet.
   
-![Проверяйте этот QR код, чтобы следить за нами в WeChat](../media/9bbbdf3b-b3ab-4355-82a0-37a84d70735b.png)
+![Проверяйте этот QR код, чтобы следить за нами в WeChat](../../media/9bbbdf3b-b3ab-4355-82a0-37a84d70735b.png)
   
  **Сведения о службах в Office 365 под управлением 21Vianet**
   

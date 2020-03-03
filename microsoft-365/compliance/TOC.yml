@@ -218,8 +218,9 @@
     - name: Управление информацией
       href: manage-information-governance.md
     - name: Импорт данных
-      href: importing-pst-files-to-office-365.md
       items:
+        - name: Общие сведения об импорте PST-файлов
+          href: importing-pst-files-to-office-365.md
         - name: Импорт PST-файлов с помощью отправки по сети
           href: use-network-upload-to-import-pst-files.md
         - name: Импорт PST-файлов с помощью отправки дисков
@@ -231,8 +232,9 @@
         - name: Вопросы и ответы об импорте PST-файлов
           href: faqimporting-pst-files-to-office-365.md
     - name: Архивация сторонних данных
-      href: archiving-third-party-data.md
       items:
+        - name: Общие сведения об архивации сторонних данных
+          href: archiving-third-party-data.md
         - name: Настройка соединителя для архивации данных Facebook
           href: archive-facebook-data-with-sample-connector.md
         - name: Настройка соединителя для архивации данных Twitter
@@ -276,8 +278,9 @@
     - name: Удаление данных
       href: disposition-reviews.md
     - name: Управление неактивными почтовыми ящиками
-      href: inactive-mailboxes-in-office-365.md
       items:
+        - name: Общие сведения о неактивных почтовых ящиках
+          href: inactive-mailboxes-in-office-365.md
         - name: Создание неактивных почтовых ящиков и управление ими
           href: create-and-manage-inactive-mailboxes.md
         - name: Изменение срока хранения неактивного почтового ящика
@@ -718,10 +721,13 @@
     - name: Аудит почтовых ящиков
       href: enable-mailbox-auditing.md
     - name: Расширенный аудит
-      href: advanced-audit.md
       items:
+        - name: Обзор расширенного аудита
+          href: advanced-audit.md
         - name: Управление политиками хранения журнала аудита
           href: audit-log-retention-policies.md
+        - name: Использование расширенного аудита для исследования скомпрометированных учетных записей
+          href: mailitemsaccessed-forensics-investigations.md
     - name: Политики оповещений
       href: alert-policies.md
 - name: 'Управление рисками, связанными с соответствием требованиям'
@@ -808,7 +814,7 @@
               href: gdpr-arc-dynamics365.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-arc-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-arc-office365.md
         - name: Защита информации
           href: gdpr-information-protection.md
@@ -826,7 +832,7 @@
               href: gdpr-dsr-intune.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dsr-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dsr-office365.md
             - name: Семейство Visual Studio
               href: gdpr-dsr-visual-studio-family.md
@@ -838,7 +844,7 @@
               href: gdpr-breach-azure-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-breach-microsoft-support-professional-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-breach-office365.md
         - name: Оценка влияния на защиту данных
           items:
@@ -850,7 +856,7 @@
               href: gdpr-dpia-dynamics.md
             - name: Службы поддержки & профессиональные службы Майкрософт
               href: gdpr-dpia-prof-services.md
-            - name: Office 365
+            - name: "Office\_365"
               href: gdpr-dpia-office365.md
         - name: Специалист по защите данных корпорации Майкрософт
           href: gdpr-data-protection-officer.md

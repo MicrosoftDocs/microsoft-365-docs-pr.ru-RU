@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Обновите свой номер телефона администратора и адрес электронной почты в центре администрирования. Эти сведения понадобятся вам, если вы хотите сбросить свой пароль администратора.
-ms.openlocfilehash: 56b2011b3a871ba862fc9bd1c635ab84c9ca90d2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 255c1d72ae032b0ebaf0606e0731e9bbe8a1b40d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254818"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361674"
 ---
 # <a name="update-your-admin-phone-number-and-email-address-in-office-365"></a>Обновление номера телефона и адреса электронной почты администратора в Office 365
 

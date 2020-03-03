@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Узнайте, как создать, изменить или удалить группу безопасности.
-ms.openlocfilehash: 26b431a65035f2546bb44af2ecf31bfd327e53b6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f51c21261a83e1a0034a67f9f1580dd297a3d583
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255239"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362284"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, изменение и удаление группы безопасности в центре администрирования Microsoft 365
 
@@ -135,7 +135,7 @@ ms.locfileid: "42255239"
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Группы в Exchange Online и SharePoint Online
 
-Если вы хотите создать группы пользователей, чтобы вы могли отправлять их всем пользователям одновременно, вы можете сделать это в центре администрирования Exchange, перейдя к разделу **Администрирование** \> **** \> **** \> **групп**получателей Exchange. Затем выберите команду **создать**![добавление](../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)и выберите тип создаваемой группы: 
+Если вы хотите создать группы пользователей, чтобы вы могли отправлять их всем пользователям одновременно, вы можете сделать это в центре администрирования Exchange, перейдя к разделу **Администрирование** \> **** \> **** \> **групп**получателей Exchange. Затем выберите команду **создать**![добавление](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)и выберите тип создаваемой группы: 
   
 - **Группа рассылки**: используется для распространения сообщений группе пользователей. Она также называется *группой рассылки с включенной поддержкой почты*или в Office 365, в *списке рассылки*. Дополнительные сведения: [Manage рассылки Groups](https://technet.microsoft.com/library/bb124513.aspx).
     

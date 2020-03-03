@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Настройка страницы входа в Office 365 с помощью Azure Active Directory. Вы можете добавить иллюстрацию, логотип и текст на страницу входа.
-ms.openlocfilehash: 7db1271cd3d009bdbf1a26166f95a99d44087421
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 97d1d1c7dcb5a31395c98295a250913bb8ab69f5
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247885"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360650"
 ---
 # <a name="add-your-company-branding-to-office-365-sign-in-page"></a>Добавление фирменной символики компании на страницу входа в Office 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "42247885"
   
 На рисунке ниже показано, какие элементы страницы входа можно изменить в Azure.
   
-![Области страницы входа Office 365, которые можно настроить.](../media/screenshotbranding.png)
+![Области страницы входа Office 365, которые можно настроить.](../../media/screenshotbranding.png)
   
 1. Большое изображение и цвет его фона
     

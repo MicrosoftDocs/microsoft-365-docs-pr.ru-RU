@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Сведения о том, как добавить подпись электронной почты, юридическое заявление или раскрытие, во все сообщения электронной почты, которые вводят или выходят из Организации.
-ms.openlocfilehash: 3d95e92c4994a99ab3426133580d70453a2f83eb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a63f21dff90c70d39e3709d4c34b53d99a315a59
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257032"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360670"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Создание подписей на уровне Организации и заявления об отказе
 
@@ -37,7 +37,7 @@ ms.locfileid: "42257032"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Создание подписи,применяемой ко всем сообщениям
 
@@ -62,7 +62,7 @@ ms.locfileid: "42257032"
 
 ::: moniker-end
 
-1. Выберите средство запуска ![приложений значок средства запуска приложений в Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png), а затем выберите элемент **Администратор**.
+1. Выберите средство запуска ![приложений значок средства запуска приложений в Office 365](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png), а затем выберите элемент **Администратор**.
    
     В средстве запуска приложений щелкните ссылку **Все приложения** для просмотра списка доступных приложений Office 365 в алфавитном порядке. В этом списке вы сможете найти конкретное приложение. 
     

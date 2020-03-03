@@ -16,12 +16,12 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: "Центр администрирования Exchange \x97 это веб-консоль управления для Microsoft Exchange Online Protection."
-ms.openlocfilehash: f38d36249387fce2ba3b4cac9e187c1cbcadd707
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3b5fb014e56a9928d58abffd5e4c96e1eef463ad
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083300"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372497"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Центр администрирования Exchange в Exchange Online Protection
 
@@ -33,7 +33,7 @@ ms.locfileid: "42083300"
 
 ## <a name="accessing-the-eac"></a>Вход в Центр администрирования Exchange
 
-В большинстве случаев клиенты EOP будут получать доступ к центру администрирования Exchange через центр администрирования Microsoft 365. Ссылка на Exchange Online Protection расположена в раскрывающемся меню на плитке **Администратор**, находящейся рядом с плиткой **Я**. Чтобы перейти в Центр администрирования Exchange, щелкните плитку **Администратор** и в раскрывающемся меню выберите **Exchange Online Protection**.
+В большинстве случаев клиенты EOP будут получать доступ к центру администрирования Exchange через центр администрирования Microsoft 365. Ссылка на Exchange Online Protection расположена в раскрывающемся меню на плитке **Администратор**, находящейся рядом с плиткой **Я**. Щелкните плитку администратор и в раскрывающемся меню выберите пункт **Exchange Online Protection** , который будет использоваться в центре **администрирования** Exchange.
 
 Перейти к странице входа в Центр администрирования Exchange можно также непосредственно по URL-адресу: `https://admin.protection.outlook.com/ecp/<companydomain>`. Например, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. После того как вы укажете свои учетные данные пользователя, вы перейдете непосредственно в Центр администрирования Exchange.
 

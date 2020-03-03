@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 'Узнайте, как использовать Кортану, интегрированные с Office 365. Вы можете отключить Кортану в центре администрирования, чтобы ограничить доступ к данным вашей организации. '
-ms.openlocfilehash: 21de80d127498dd40db932923a8d650b87b8a24c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8f20c9b96ee57dcdf5da99dc08ffeb72465bc515
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257422"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361440"
 ---
 # <a name="cortana-in-office-365"></a>Кортана в Office 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "42257422"
 
 4. Установите флажок **Разрешить Кортане необязательные подключения, чтобы использовать размещенные в организации данные Майкрософт** для включения или отключения взаимодействия с пользователем кортаны.
 
-5. Нажмите кнопку **сохранить изменения**.
+5. Нажмите кнопку **Сохранить изменения**.
 
 ## <a name="turn-off-cortana-ost-experiences"></a>Отключение АВТОНОМных функций Кортаны
 

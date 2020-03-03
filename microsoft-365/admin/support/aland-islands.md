@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f4fa03ce204f43b4034fcac2bb33a99b52ac6fc7
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 441f66975a2a9203c63e7493940ef8731d4dafa7
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256882"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360430"
 ---
 # <a name="contact-support-for-aland-islands"></a>Обращение в службу поддержки для Аландские островов
 

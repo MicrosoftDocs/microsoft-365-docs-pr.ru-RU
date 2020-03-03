@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Узнайте о Power BI и о том, как пользователи в вашей организации могут использовать эту службу бизнес-аналитики.
-ms.openlocfilehash: 56a6dd1c90b8dcb810e74c36b5e7f93ab6a0eb2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4d89594812486d06629d614ab0c59fba09dcdad8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257302"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361340"
 ---
 # <a name="power-bi-in-your-organization"></a>Power BI в организации
 
@@ -102,7 +102,7 @@ ms.locfileid: "42257302"
     
 4. В левом верхнем углу щелкните значок средства запуска приложений и выберите **Администратор**.
     
-    ![The Office 365 app launcher with the Admin app highlighted](../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
+    ![The Office 365 app launcher with the Admin app highlighted](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
 5. Прочитайте инструкции на странице **"Станьте администратором** ", а затем выберите **Да, я хочу быть администратором**.
     
@@ -180,7 +180,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
     
 3. На вкладке " **лицензии и приложения** " снимите флажок **Microsoft Power BI** .
     
-4. Нажмите кнопку **сохранить изменения**.
+4. Нажмите кнопку **Сохранить изменения**.
 
 ::: moniker-end
 
@@ -201,7 +201,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
+1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
 
 2. Найдите пользователя, для которого требуется удалить лицензию, и выберите его имя.
     

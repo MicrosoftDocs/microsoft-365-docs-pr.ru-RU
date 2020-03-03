@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: eef600b2fc325454ad7a4d36019a4e762409c8b9
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 74e84fc00e5fe633f0d70315cea9ad1329e2f639
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179220"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372017"
 ---
 # <a name="insider-risk-management-alerts"></a>Оповещения об управлении рисками для участников
 
@@ -35,6 +35,9 @@ ms.locfileid: "42179220"
     - Среднее время разрешения оповещений с низкой степенью серьезности, указанных в часах, днях или месяцах.
 
 ![Панель мониторинга оповещений об управлении рисками](../media/insider-risk-alerts-dashboard.png)
+
+>[!NOTE]
+>Для обеспечения безопасности и оптимизации рисков и анализа рисков в управлении рисками для участников исследования используется встроенное регулирование оповещений. Это регулирование защищает от проблем, которые могут привести к перегрузке предупреждений политики, таких как неправильно настроенные соединители данных или политики защиты от потери данных. В результате может возникнуть задержка при отображении новых оповещений для пользователя.
 
 ## <a name="alert-status-and-severity"></a>Состояние оповещения и степень серьезности
 

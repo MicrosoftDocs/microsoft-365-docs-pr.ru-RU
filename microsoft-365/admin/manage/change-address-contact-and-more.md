@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Сведения о том, как вносить изменения в профиль организации, такие как название организации, адрес, номер телефона, технический контакт и электронная почта.
-ms.openlocfilehash: c85070ba7d25f94004fd3908d193341a06b921bc
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7c3e28cc112358fa5ecc9aacaec7e30aaaeec6fe
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255034"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362024"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Изменение адреса организации и других данных профиля
   

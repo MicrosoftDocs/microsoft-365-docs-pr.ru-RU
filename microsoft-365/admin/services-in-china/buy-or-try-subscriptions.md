@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: f9877a28-1434-4108-9e92-f29ef8ee5591
 description: Узнайте, как попробовать приобрести подписку на Office 365 или приобрести ее сразу, добавить подписки или получить надстройки для существующей учетной записи Office 365, которую управляет 21Vianet в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: b08a26752a5195208d562067ab8e26e4aa8cb2f8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0781430eaf2ccfeed7c31665029d514be9cc5f2e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247957"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360840"
 ---
 # <a name="buy-or-try-subscriptions-for-office-365-operated-by-21vianet"></a>Приобретение или пробные подписки на Office 365 под управлением 21Vianet
 
@@ -48,11 +48,11 @@ ms.locfileid: "42247957"
 
 2. Если вы находитесь не на начальной странице, щелкните **Office 365** в левом верхнем углу.
 
-    ![Кнопка для перехода на начальную страницу Office 365](../media/2fc597ab-ae33-4e5a-aec1-e60e48beac62.png)
+    ![Кнопка для перехода на начальную страницу Office 365](../../media/2fc597ab-ae33-4e5a-aec1-e60e48beac62.png)
 
 3. В правом верхнем углу страницы под панелью навигации щелкните **Приобрести**.
 
-    ![Кнопка для приобретения пробной подписки на Office 365](../media/73fba4ad-6879-460b-8ef1-f2efb2ee4104.png)
+    ![Кнопка для приобретения пробной подписки на Office 365](../../media/73fba4ad-6879-460b-8ef1-f2efb2ee4104.png)
 
 4. На странице **Приобретение подписок** представлены различные планы, которые можно купить. План, который вы использовали в течение пробного периода, отмечен баннером **Пробная версия**.
 

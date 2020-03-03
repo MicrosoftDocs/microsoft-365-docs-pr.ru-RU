@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения об использовании параметров безопасности по умолчанию с целью настройки многофакторной проверки подлинности для пользователей Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: cb2205e5f5b7df4f6e7d8f7263a91fb2f0f4d3e2
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 4dc52c25c3a9351be1a9f4d094d664bc4ed527f9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341247"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361050"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -80,7 +80,7 @@ ms.locfileid: "42341247"
 
 2. Установите флажок **Включить функцию "Современная проверка подлинности"** в области **Современная проверка подлинности‎**. 
 
-    ![Область "Современная проверка подлинности" с установленным флажком включения.](../media/enablemodernauth.png)
+    ![Область "Современная проверка подлинности" с установленным флажком включения.](../../media/enablemodernauth.png)
     
 ## <a name="enable-multi-factor-authentication-for-your-organization"></a>Включение многофакторной проверки подлинности для организации
     

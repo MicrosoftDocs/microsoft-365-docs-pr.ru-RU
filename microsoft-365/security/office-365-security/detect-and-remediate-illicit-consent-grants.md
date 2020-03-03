@@ -2,9 +2,9 @@
 title: Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyp
+manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить незаконное согласие на атаку в Office 365.
-ms.openlocfilehash: 0ff16d01c3fe0f150e5a39cec574bc80aead9661
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: e11518b0b16b7ee922f18b0ef771d36f608e41b7
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957154"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363055"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Обнаружение случаев незаконного предоставления разрешений и устранение их последствий в Office 365
 
@@ -79,7 +79,7 @@ ms.locfileid: "41957154"
 
 5. Выберите пункт **приложения**.
 
-Отобразятся приложения, назначенные пользователю, и разрешения, доступные для апплкатионс.
+Отобразятся приложения, назначенные пользователю, и разрешения, доступные приложениям.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>Действия по перечислению доступа пользователей к приложениям
 
@@ -102,7 +102,7 @@ ms.locfileid: "41957154"
 
 1. Войдите на компьютер, на котором будет выполняться сценарий с правами локального администратора.
 
-2. Скачайте или скопируйте сценарий [жет-азуреадпспермиссионс. ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) из GitHub в папку, из которой будет запускаться скруипт. Это будет та же папка, в которую будет записан выходной файл "Permissions. csv".
+2. Скачайте или скопируйте сценарий [жет-азуреадпспермиссионс. ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) из GitHub в папку, из которой будет выполняться сценарий. Это будет та же папка, в которую будет записан выходной файл "Permissions. csv".
 
 3. Откройте экземпляр PowerShell от имени администратора и откройте папку, в которую вы сохранили скрипт.
 

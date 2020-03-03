@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Узнайте, как маршрутизировать трафик на существующий общедоступный веб-сайт, размещенный вне Office 365, если вы настроили Office 365 для управления записями DNS для вашего личного домена.
-ms.openlocfilehash: de95818eea729cb11972faf986c9be40bb6e76da
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b92e778fb2fe0353a0d1d6bf83a4c617ab4541e2
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255354"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362414"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>Обновление DNS-записей для сохранения веб-сайта у текущего поставщика услуг размещения веб-сайтов
 
@@ -34,7 +34,7 @@ ms.locfileid: "42255354"
  **Если записями DNS управляет Office 365**, выполните указанные ниже действия, чтобы настроить маршрутизацию трафика на существующий общедоступный веб-сайт за пределами Office 365 после добавления домена в Office 365. 
   
 ## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a>Обновление записей DNS в центре администрирования Microsoft 365
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
 2. На странице **Домены** в списке доменов выберите домен, который используете для своего веб-сайта, а затем щелкните **Параметры DNS** на панели управления. 
     

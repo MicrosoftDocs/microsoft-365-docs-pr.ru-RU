@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: c29d38b5-53a6-4bd9-b7aa-ce12c902da83
 description: Просматривайте свое заявление о выставлении счетов или выставьте счет о вашей организации Office 365 под управлением 21Vianet в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 280f95b89294e46ee8d1bd0f3f5b06303ed84554
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7e11f2f597382651b58ca0ee6ba1ff5c513b80be
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257069"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360770"
 ---
 # <a name="view-your-bill-or-get-a-fapiao-in-office-365-operated-by-21vianet"></a>Просматривайте свой счет или получите Фапьяо в Office 365 под управлением 21Vianet
 

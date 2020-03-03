@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Удалить лицензию из общего почтового ящика, чтобы назначить ее другому пользователю. '
-ms.openlocfilehash: 7b708c7877a307e2d51b97848a3780c5586d7d2a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 90ec29681aa5b15dd04895df2b48b2b1619b521d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255186"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362224"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Удаление лицензии из общего почтового ящика
 
@@ -48,7 +48,7 @@ ms.locfileid: "42255186"
 
 3. На вкладке **лицензии и приложения** разверните узел **лицензии** и снимите флажок рядом с удаляемой лицензией.
 
-4. Нажмите кнопку **сохранить изменения**.
+4. Нажмите кнопку **Сохранить изменения**.
 
 5. Когда вы вернетесь на страницу **Активные пользователи** , состояние общего почтового ящика будет **нелицензионным**.
 
@@ -94,7 +94,7 @@ ms.locfileid: "42255186"
 
 ::: moniker-end 
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Сведения об общих почтовых ящиках](about-shared-mailboxes.md)
 

@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Узнайте, как добавить партнера с помощником по подписке в качестве партнера записи на время приобретения Office 365, изменить партнера или удалить партнера из подписки.
-ms.openlocfilehash: 22b4108db8ecff1af14706ceede746bec8743d54
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2afe5adebe1c0a47cae896d19219b97b70e453a4
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248128"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361584"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Добавление, смена и удаление партнера-консультанта по подпискам
 
@@ -120,7 +120,7 @@ ms.locfileid: "42248128"
   
 3. На странице Подписка Перейдите на вкладку **партнер** и введите идентификатор партнерской сети для добавляемого партнера. Вы можете получить идентификатор партнера Майкрософт для партнера.
     
-4. Нажмите кнопку **Добавить**.
+4. Нажмите кнопку **Add** (Добавить).
 
 ::: moniker-end
 
@@ -270,6 +270,6 @@ ms.locfileid: "42248128"
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Сведения о партнере или торговом посреднике по Office 365](../manage/find-your-partner-or-reseller.md)

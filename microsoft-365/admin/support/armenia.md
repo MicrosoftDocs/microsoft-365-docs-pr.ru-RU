@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef3e871d581879f1b81b9ff201f075789586fb85
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7aa2b73f20f96f4f44da6bd9162fe3dfae61934c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247768"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360200"
 ---
 # <a name="contact-support-for-armenia"></a>Обращение в службу поддержки для Армения
 

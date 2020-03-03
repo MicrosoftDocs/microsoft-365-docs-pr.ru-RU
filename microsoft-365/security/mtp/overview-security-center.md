@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: eb341e3f27ade163c6d646f759efed7504dad342
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 3f60c40ecd1810d630a4607d6b0915d6f3089a99
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333696"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372047"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
 
@@ -64,5 +64,5 @@ ms.locfileid: "42333696"
 - [Упреждающий Поиск угроз](advanced-hunting-overview.md) для атак с вторжением и нарушений нарушений, влияющих на вашу электронную почту, данные, устройства и учетные записи
 - [Узнайте о новейших кампаниях](latest-attack-campaigns.md) и методиках атак с помощью средства анализа угроз
 
-## <a name="related-topics"></a>Связанные разделы
-- [Порталы безопасности Microsoft 365](portals.md)
+## <a name="related-topics"></a>Статьи по теме
+- [Порталы Microsoft Security](portals.md)
