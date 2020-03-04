@@ -85,8 +85,6 @@
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: Расширенная охота на угрозы
               items:
-                - name: Охота в Microsoft 365
-                  href: mtp/hunting.md
                 - name: Обзор расширенной охоты на угрозы
                   href: mtp/advanced-hunting-overview.md
                 - name: Сведения о языке запросов
