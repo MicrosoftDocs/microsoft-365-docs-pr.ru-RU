@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 517ff6ae711d61b783e837aebeeb991dfaa53daa
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 368ccef9e5213a7494140d2c305ddafe1e0c3f79
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084338"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409514"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -1968,7 +1968,7 @@ Registro de identidade (RIC) (новый формат):
 
 ### <a name="format"></a>Format
 
-16 цифр, которые могут быть форматированными или неформатированными (цццццццццццццццц) и должны пройти проверку Луна.
+14 – 16 цифр, которые можно форматировать или неформатированные (цццццццццццццццц) и которые должны пройти проверку Луна.
 
 ### <a name="pattern"></a>Шаблон
 
@@ -2993,7 +2993,7 @@ Registro de identidade (RIC) (новый формат):
 
 Должен соответствовать одному из двух шаблонов:
 - 13 цифр, за которыми следует пробел, за которым следуют две цифры.<br/>
-или
+Кроме того:
 - 15 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -6165,4 +6165,3 @@ Keyword_nz_terms
 - НН # 
 - SSID 
    
-

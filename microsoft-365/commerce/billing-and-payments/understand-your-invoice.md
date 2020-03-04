@@ -1,5 +1,5 @@
 ---
-title: Знакомство со счетом
+title: Расшифровка счета
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Сведения о том, как читать и изучать продукты Майкрософт для бизнеса.
 keywords: счета выставления счетов, сведения об организации, счета
-ms.openlocfilehash: bf6f26b2f3bbeb3ac22273eca98b223383b88924
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0ccf8484ba5f8badd29e1a8a54e1b570dd1e0548
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594700"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409714"
 ---
-# <a name="understand-your-invoice"></a>Знакомство со счетом
+# <a name="understand-your-invoice"></a>Расшифровка счета
 
 В счете представлена сводная информация о расходах и инструкциях по оплате. Вы можете [Просмотреть свою электронную накладную](#view-your-online-invoice) в центре администрирования Microsoft 365. Вы также можете скачать его в формате переносимых документов (. PDF) для отправки по электронной почте.
 
-Если у вас есть подписка на Office 365, ознакомьтесь со статьей [Просмотр счета для office 365 для бизнеса](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice).
+Если у вас есть подписка на Office 365, ознакомьтесь со статьей [Просмотр счета для office 365 для бизнеса](view-your-bill-or-invoice.md).
 
 ## <a name="understand-the-invoice-header"></a>Общие сведения о заголовке счета
 
@@ -102,7 +102,7 @@ ms.locfileid: "41594700"
 
 ### <a name="to-view-your-online-invoice"></a>Просмотр интерактивного счета
 
-1. В центре администрирования перейдите на страницу **выставления счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">& платежей</a> .
+1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Счета и платежи</a>.
 
 2. Чтобы скачать PDF-версию счета, выберите **скачать документ PDF** в строке для счета, который требуется просмотреть.
 
@@ -112,4 +112,4 @@ ms.locfileid: "41594700"
 
 Если у вас возникли вопросы или вам нужна помощь по кредиту Azure, <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">Создайте запрос в службу поддержки с помощью службы Azure</a>.
 
-Если у вас возникли вопросы или вам нужна помощь по работе с накладной в центре администрирования Microsoft 365, [обратитесь в службу поддержки продуктов для бизнеса](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Если у вас возникли вопросы или вам нужна помощь по работе с накладной в центре администрирования Microsoft 365, [обратитесь в службу поддержки продуктов для бизнеса](../../admin/contact-support-for-business-products.md).

@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Узнайте причины, по которым иногда требуется выполнить переключение планов вручную или путем вызова поддержки.
-ms.openlocfilehash: d7c076a5ce003f7d5ce5317f4330857e632e53ad
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a78ce8614dcc7382543bfda5bdfdfb025b6e5077
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246971"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409624"
 ---
 # <a name="why-cant-i-switch-office-365-for-business-plans"></a>Почему не удается переключиться на другой план Office 365 для бизнеса?
 
@@ -41,12 +41,12 @@ ms.locfileid: "42246971"
   
 ::: moniker range="o365-worldwide"
 
- **Нужно выполнить другую задачу?** [Приобрести другую подписку](../buy-another-subscription.md) | [Отмена подписки на подписку](cancel-your-subscription.md) | и[Поддержка](../../admin/contact-support-for-business-products.md) по[выставлению счетов](../subscriptions-and-billing.md) | 
+ **Нужно выполнить другую задачу?** [Приобрести другую подписку](../buy-another-subscription.md) | [Отмена подписки на подписку](cancel-your-subscription.md) | и[Поддержка](../../admin/contact-support-for-business-products.md) по[выставлению счетов](../index.yml) | 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **Нужно выполнить другую задачу?** [Приобрести другую подписку](../buy-another-subscription.md) | [Отмена подписки на подписку](cancel-your-subscription.md) | и[Поддержка](../../admin/contact-support-for-business-products.md) по[выставлению счетов](../subscriptions-and-billing.md) | 
+ **Нужно выполнить другую задачу?** [Приобрести другую подписку](../buy-another-subscription.md) | [Отмена подписки на подписку](cancel-your-subscription.md) | и[Поддержка](../../admin/contact-support-for-business-products.md) по[выставлению счетов](../index.yml) | 
 
 ::: moniker-end
 

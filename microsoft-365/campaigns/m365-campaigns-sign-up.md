@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Пошаговая подписка на Microsoft 365 для кампаний. Защитите свою кампанию от угроз циберсекурити для электронной почты, данных и общения.
-ms.openlocfilehash: e142adcc9b1858355414c28b7e94116a6505f1b9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080535"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409664"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Регистрация в Microsoft 365 для кампаний 
 
@@ -84,13 +84,10 @@ ms.locfileid: "42080535"
 4. **Как это выглядит?** введите число пользователей и нажмите кнопку **Далее**. Вам не нужно вводить здесь код рекламного, так как он уже включен в URL-адрес приглашения.
 5. На странице **как вы хотите оплатить?** введите метод оплаты и нажмите кнопку **разместить заказ**.
 
-После выполнения этих действий можно приступить к [назначению новых лицензий](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) сотрудникам кампании. 
+После выполнения этих действий можно приступить к [назначению новых лицензий](../admin/manage/assign-licenses-to-users.md) сотрудникам кампании.
 
 
 ## <a name="whats-next"></a>Что дальше?
 - [Настройка microsoft 365](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) для завершения настройки Microsoft 365 для кампаний. 
 - [Добавьте пользователей](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) в свой план. Включите кандидата кампании, все трудовые сотрудники кампании и всех, кто будет иметь доступ к конфиденциальным сведениям о кампании или субъекте.
 - [Вырезкое сделать защиту для кампании](m365-campaigns-security-overview.md)
-
-
-

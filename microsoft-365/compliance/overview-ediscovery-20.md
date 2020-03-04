@@ -16,16 +16,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье описывается новая версия расширенного обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: b3583037953d8dcb36ea6b3f7a2ba521e47fd9c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071064"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400954"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Обзор расширенного решения обнаружения электронных данных в Microsoft 365
 
 Расширенное решение обнаружения электронных данных в Microsoft 365 построено на существующих возможностях обнаружения электронных данных и аналитики в Office 365. Это новое решение, именуемое *Advanced eDiscovery*, предоставляет сквозной рабочий процесс для сохранения, сбора, проверки, анализа и экспорта контента, который отвечает на внутренние и внешние расследования вашей организации. Кроме того, он позволяет юридическим командам управлять всем рабочим процессом уведомления об удержаниях на удержание, чтобы общаться с custodians, вовлеченным в дело. 
+
+> [!NOTE]
+> Для расширенного обнаружения электронных данных требуется Корпоративная подписка на Office 365 или Microsoft 365. Дополнительные сведения о расширенном лицензировании eDiscovery можно найти в [статье Руководство по лицензированию Microsoft 365 для обеспечения безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery).
 
 ## <a name="alignment-with-edrm"></a>Выравнивание с EDRM
 

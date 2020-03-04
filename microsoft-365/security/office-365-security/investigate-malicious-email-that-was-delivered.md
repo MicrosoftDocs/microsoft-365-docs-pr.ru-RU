@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
-ms.openlocfilehash: 5fe9e06a582d72b46c4f90f13aee283050a06253
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1cb7c418e9c4ae5f2223748d512e8718f81b010c
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088732"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409754"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Исследование и исправление вредоносных сообщений электронной почты, доставляемых в Office 365
 
@@ -32,7 +32,7 @@ ms.locfileid: "42088732"
 
 Убедитесь, что выполняются следующие требования:
   
-- Для организации назначены [Дополнительные возможности защиты от угроз для Office 365](office-365-atp.md) и [лицензии для пользователей](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+- Для организации назначены [Дополнительные возможности защиты от угроз для Office 365](office-365-atp.md) и [лицензии для пользователей](../../admin/manage/assign-licenses-to-users.md).
     
 - [Ведение журнала аудита Office 365](../../compliance/turn-audit-log-search-on-or-off.md) включено для вашей организации. 
     
@@ -249,7 +249,7 @@ To access your message header and email download options, follow these steps:
 > This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.
 -->
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
   
