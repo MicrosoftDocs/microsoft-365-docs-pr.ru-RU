@@ -22,68 +22,68 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Сведения о том, как проверить, какие подписки в организации имеют, перейдя на страницу подписки.
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a63b0b17333ad12846ba8bac2c83b2d8dfc67a8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dad08784a775e590972d1f5dd554aeb2d147c28b
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352830"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409504"
 ---
-# <a name="what-subscription-do-i-have"></a><span data-ttu-id="cd7f5-103">Какая у меня подписка?</span><span class="sxs-lookup"><span data-stu-id="cd7f5-103">What subscription do I have?</span></span>
+# <a name="what-subscription-do-i-have"></a><span data-ttu-id="e1f7b-103">Какая у меня подписка?</span><span class="sxs-lookup"><span data-stu-id="e1f7b-103">What subscription do I have?</span></span>
 
-<span data-ttu-id="cd7f5-104">Если вы являетесь администратором, вы можете проверить, какие подписки в Организации есть, перейдя в центр администрирования.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-104">If you're an admin, you can verify which subscriptions your organization has by going to the admin center.</span></span>
+<span data-ttu-id="e1f7b-104">Если вы являетесь администратором, вы можете проверить, какие подписки в Организации есть, перейдя в центр администрирования.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-104">If you're an admin, you can verify which subscriptions your organization has by going to the admin center.</span></span>
   
- <span data-ttu-id="cd7f5-105">**Вы не являетесь администратором?**</span><span class="sxs-lookup"><span data-stu-id="cd7f5-105">**Not an admin?**</span></span> <span data-ttu-id="cd7f5-106">Сведения [о продуктах и лицензиях Office 365 бизнес?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)</span><span class="sxs-lookup"><span data-stu-id="cd7f5-106">See [What Office 365 business product or license do I have?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)</span></span>
+ <span data-ttu-id="e1f7b-105">**Вы не являетесь администратором?**</span><span class="sxs-lookup"><span data-stu-id="e1f7b-105">**Not an admin?**</span></span> <span data-ttu-id="e1f7b-106">Сведения [о продуктах и лицензиях Office 365 бизнес?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)</span><span class="sxs-lookup"><span data-stu-id="e1f7b-106">See [What Office 365 business product or license do I have?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="cd7f5-107">Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-107">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
+> <span data-ttu-id="e1f7b-107">Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-107">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
 
-1. <span data-ttu-id="cd7f5-108">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-108">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
+1. <span data-ttu-id="e1f7b-108">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-108">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
 
-2. <span data-ttu-id="cd7f5-109">Подписки отображаются на странице " **продукты & Services** ", вместе с именем подписки, сведениями о подписке и ее состоянии.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-109">Your subscriptions are displayed on the **Products & services** page, together with the subscription name, information about the subscription, and its status.</span></span> <span data-ttu-id="cd7f5-110">Чтобы просмотреть сжатое представление, выберите **представление таблицы**.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-110">To see a condensed view, select **Table view**.</span></span>
+2. <span data-ttu-id="e1f7b-109">Подписки отображаются на странице " **продукты & Services** ", вместе с именем подписки, сведениями о подписке и ее состоянии.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-109">Your subscriptions are displayed on the **Products & services** page, together with the subscription name, information about the subscription, and its status.</span></span> <span data-ttu-id="e1f7b-110">Чтобы просмотреть сжатое представление, выберите **представление таблицы**.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-110">To see a condensed view, select **Table view**.</span></span>
 
 ::: moniker-end
   
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="cd7f5-111">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">подписки</a> на **выставление счетов** \>.  </span><span class="sxs-lookup"><span data-stu-id="cd7f5-111">In the admin center, go to the **Billing** \>  <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="e1f7b-111">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">подписки</a> на **выставление счетов** \>.  </span><span class="sxs-lookup"><span data-stu-id="e1f7b-111">In the admin center, go to the **Billing** \>  <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="cd7f5-p103">Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана видно, что в наличии есть подписка на Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-p103">If you have only one subscription, it will be displayed on the **Subscriptions** page, along with the subscription name, information about the subscription, and its status. In the following screenshot, you can see that I have an Office 365 Business subscription.</span></span>
+2. <span data-ttu-id="e1f7b-p103">Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана видно, что в наличии есть подписка на Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-p103">If you have only one subscription, it will be displayed on the **Subscriptions** page, along with the subscription name, information about the subscription, and its status. In the following screenshot, you can see that I have an Office 365 Business subscription.</span></span>
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. <span data-ttu-id="cd7f5-p104">Если у вас несколько подписок, в столбце рядом с подробными сведениями перечислены все приобретенные подписки, включая пробные. По умолчанию выбрана первая подписка в списке. Подробные сведения о ней отображаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-p104">If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.</span></span>
+3. <span data-ttu-id="e1f7b-p104">Если у вас несколько подписок, в столбце рядом с подробными сведениями перечислены все приобретенные подписки, включая пробные. По умолчанию выбрана первая подписка в списке. Подробные сведения о ней отображаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-p104">If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.</span></span>
 
-    <span data-ttu-id="cd7f5-117">Если у вас несколько подписок, выберите один, для которого требуется просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-117">If you have multiple subscriptions, choose the one for which you want to see detailed information.</span></span> <span data-ttu-id="cd7f5-118">На карточке подписки отобразится информация о выбранной подписке.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-118">The subscription card will update with information about that subscription.</span></span>
+    <span data-ttu-id="e1f7b-117">Если у вас несколько подписок, выберите один, для которого требуется просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-117">If you have multiple subscriptions, choose the one for which you want to see detailed information.</span></span> <span data-ttu-id="e1f7b-118">На карточке подписки отобразится информация о выбранной подписке.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-118">The subscription card will update with information about that subscription.</span></span>
 
     ![На странице "подписки" центра администрирования отображается список нескольких подписок, сгруппированных по состоянию.](../../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
   
     > [!NOTE]
-    > <span data-ttu-id="cd7f5-120">Если у вас есть отключенные подписки или подписки с истекшим сроком действия, их порядок в списке определяется текущим состоянием.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-120">If you have subscriptions that have expired or have been disabled, they'll be listed based on their current state.</span></span>
+    > <span data-ttu-id="e1f7b-120">Если у вас есть отключенные подписки или подписки с истекшим сроком действия, их порядок в списке определяется текущим состоянием.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-120">If you have subscriptions that have expired or have been disabled, they'll be listed based on their current state.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="cd7f5-121">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">подписки</a> на **выставление счетов** \>.  </span><span class="sxs-lookup"><span data-stu-id="cd7f5-121">In the admin center, go to the **Billing** \>  <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="e1f7b-121">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">подписки</a> на **выставление счетов** \>.  </span><span class="sxs-lookup"><span data-stu-id="e1f7b-121">In the admin center, go to the **Billing** \>  <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="cd7f5-p106">Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана видно, что в наличии есть подписка на Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-p106">If you have only one subscription, it will be displayed on the **Subscriptions** page, along with the subscription name, information about the subscription, and its status. In the following screenshot, you can see that I have an Office 365 Business subscription.</span></span>
+2. <span data-ttu-id="e1f7b-p106">Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана видно, что в наличии есть подписка на Office 365 бизнес.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-p106">If you have only one subscription, it will be displayed on the **Subscriptions** page, along with the subscription name, information about the subscription, and its status. In the following screenshot, you can see that I have an Office 365 Business subscription.</span></span>
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
-3. <span data-ttu-id="cd7f5-p107">Если у вас несколько подписок, в столбце рядом с подробными сведениями перечислены все приобретенные подписки, включая пробные. По умолчанию выбрана первая подписка в списке. Подробные сведения о ней отображаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-p107">If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.</span></span>
+3. <span data-ttu-id="e1f7b-p107">Если у вас несколько подписок, в столбце рядом с подробными сведениями перечислены все приобретенные подписки, включая пробные. По умолчанию выбрана первая подписка в списке. Подробные сведения о ней отображаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-p107">If you have multiple subscriptions, you'll see a column next to the detailed subscription information that lists the subscriptions that have been purchased, as well as any trial subscriptions. By default, the subscription at the top of the list is automatically selected, and the detailed information for that subscription is shown.</span></span>
 
-    <span data-ttu-id="cd7f5-127">Если у вас несколько подписок, выберите один, для которого требуется просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-127">If you have multiple subscriptions, choose the one for which you want to see detailed information.</span></span> <span data-ttu-id="cd7f5-128">На карточке подписки отобразится информация о выбранной подписке.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-128">The subscription card will update with information about that subscription.</span></span>
+    <span data-ttu-id="e1f7b-127">Если у вас несколько подписок, выберите один, для которого требуется просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-127">If you have multiple subscriptions, choose the one for which you want to see detailed information.</span></span> <span data-ttu-id="e1f7b-128">На карточке подписки отобразится информация о выбранной подписке.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-128">The subscription card will update with information about that subscription.</span></span>
 
     ![На странице "подписки" центра администрирования отображается список нескольких подписок, сгруппированных по состоянию.](../../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
   
     > [!NOTE]
-    > <span data-ttu-id="cd7f5-130">Если у вас есть отключенные подписки или подписки с истекшим сроком действия, их порядок в списке определяется текущим состоянием.</span><span class="sxs-lookup"><span data-stu-id="cd7f5-130">If you have subscriptions that have expired or have been disabled, they'll be listed based on their current state.</span></span>
+    > <span data-ttu-id="e1f7b-130">Если у вас есть отключенные подписки или подписки с истекшим сроком действия, их порядок в списке определяется текущим состоянием.</span><span class="sxs-lookup"><span data-stu-id="e1f7b-130">If you have subscriptions that have expired or have been disabled, they'll be listed based on their current state.</span></span>
 
 ::: moniker-end
 
-## <a name="related-articles"></a><span data-ttu-id="cd7f5-131">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="cd7f5-131">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="e1f7b-131">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="e1f7b-131">Related articles</span></span>
   
-[<span data-ttu-id="cd7f5-132">Подписки и выставление счетов</span><span class="sxs-lookup"><span data-stu-id="cd7f5-132">Subscriptions and billing</span></span>](../../commerce/subscriptions-and-billing.md)
+[<span data-ttu-id="e1f7b-132">Подписки и выставление счетов</span><span class="sxs-lookup"><span data-stu-id="e1f7b-132">Subscriptions and billing</span></span>](../../commerce/index.yml)
