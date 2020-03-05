@@ -19,66 +19,67 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: Узнайте, как создавать, редактировать, удалять и удалять профили автопилота.
-ms.openlocfilehash: 28f5b679d58711d11d9af26dffb7022024b72c79
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте, как создать профиль автопилота и применить его к устройству, а также изменить или удалить профиль или удалить профиль с устройства.
+ms.openlocfilehash: 6a8057969242d839ebbb4cbef8d26dd3f1858c59
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065916"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417343"
 ---
-# <a name="create-and-edit-autopilot-profiles"></a><span data-ttu-id="08b46-103">Создание и изменение профилей AutoPilot</span><span class="sxs-lookup"><span data-stu-id="08b46-103">Create and edit AutoPilot profiles</span></span>
+# <a name="create-and-edit-autopilot-profiles"></a><span data-ttu-id="4cffa-103">Создание и изменение профилей AutoPilot</span><span class="sxs-lookup"><span data-stu-id="4cffa-103">Create and edit AutoPilot profiles</span></span>
 
-## <a name="create-a-profile"></a><span data-ttu-id="08b46-104">Создание профиля</span><span class="sxs-lookup"><span data-stu-id="08b46-104">Create a profile</span></span>
+## <a name="create-a-profile"></a><span data-ttu-id="4cffa-104">Создание профиля</span><span class="sxs-lookup"><span data-stu-id="4cffa-104">Create a profile</span></span>
 
-<span data-ttu-id="08b46-105">Профиль относится к устройству или группе устройств.</span><span class="sxs-lookup"><span data-stu-id="08b46-105">A profile applies to a device, or a group of devices,</span></span>
+<span data-ttu-id="4cffa-105">Профиль относится к устройству или группе устройств.</span><span class="sxs-lookup"><span data-stu-id="4cffa-105">A profile applies to a device, or a group of devices,</span></span>
   
-1. <span data-ttu-id="08b46-106">В центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.</span><span class="sxs-lookup"><span data-stu-id="08b46-106">In the Microsoft 365 Business Admin center, choose **Devices** \> **AutoPilot**.</span></span>
+1. <span data-ttu-id="4cffa-106">В центре администрирования Microsoft 365 Business выберите **устройства** \> **автопилот**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-106">In the Microsoft 365 Business Admin center, choose **Devices** \> **AutoPilot**.</span></span>
   
-2. <span data-ttu-id="08b46-107">На странице **автопилот** выберите вкладку \> **Профили** **Создание профиля**.</span><span class="sxs-lookup"><span data-stu-id="08b46-107">On the **AutoPilot** page, choose the **Profiles** tab \> **Create profile**.</span></span>
+2. <span data-ttu-id="4cffa-107">На странице **автопилот** выберите вкладку \> **Профили** **Создание профиля**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-107">On the **AutoPilot** page, choose the **Profiles** tab \> **Create profile**.</span></span>
     
-3. <span data-ttu-id="08b46-108">На странице " **Создание профиля** " введите имя профиля, помогающее определить его, например "маркетинг".</span><span class="sxs-lookup"><span data-stu-id="08b46-108">On the **Create profile** page, enter a name for the profile that helps you identify it, for example Marketing.</span></span> <span data-ttu-id="08b46-109">Включите нужный параметр, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="08b46-109">Turn on the setting you want, and then choose **Save**.</span></span> <span data-ttu-id="08b46-110">Дополнительные сведения о параметрах профиля автопилота см [.](autopilot-profile-settings.md)</span><span class="sxs-lookup"><span data-stu-id="08b46-110">For more information about AutoPilot profile settings, see [About AutoPilot Profile settings](autopilot-profile-settings.md).</span></span>
+3. <span data-ttu-id="4cffa-108">На странице " **Создание профиля** " введите имя профиля, помогающее определить его, например "маркетинг".</span><span class="sxs-lookup"><span data-stu-id="4cffa-108">On the **Create profile** page, enter a name for the profile that helps you identify it, for example Marketing.</span></span> <span data-ttu-id="4cffa-109">Включите нужный параметр, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-109">Turn on the setting you want, and then choose **Save**.</span></span> <span data-ttu-id="4cffa-110">Дополнительные сведения о параметрах профиля автопилота см [.](autopilot-profile-settings.md)</span><span class="sxs-lookup"><span data-stu-id="4cffa-110">For more information about AutoPilot profile settings, see [About AutoPilot Profile settings](autopilot-profile-settings.md).</span></span>
     
     ![Enter name and turn on settings in the Create profile panel.](../media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
-### <a name="apply-profile-to-a-device"></a><span data-ttu-id="08b46-112">Применение профиля к устройству</span><span class="sxs-lookup"><span data-stu-id="08b46-112">Apply profile to a device</span></span>
+### <a name="apply-profile-to-a-device"></a><span data-ttu-id="4cffa-112">Применение профиля к устройству</span><span class="sxs-lookup"><span data-stu-id="4cffa-112">Apply profile to a device</span></span>
 
-<span data-ttu-id="08b46-113">После создания профиля его можно применить к устройству или группе устройств.</span><span class="sxs-lookup"><span data-stu-id="08b46-113">After you create a profile, you can apply it to a device or a group of devices.</span></span> <span data-ttu-id="08b46-114">Вы можете выбрать существующий профиль в пошаговом [руководстве](add-autopilot-devices-and-profile.md) и применить его к новым устройствам или заменить существующий профиль для устройства или группы устройств.</span><span class="sxs-lookup"><span data-stu-id="08b46-114">You can pick an existing profile in the [step-by-step guide](add-autopilot-devices-and-profile.md) and apply it to new devices, or replace an existing profile for a device or group of devices.</span></span> 
+<span data-ttu-id="4cffa-113">После создания профиля его можно применить к устройству или группе устройств.</span><span class="sxs-lookup"><span data-stu-id="4cffa-113">After you create a profile, you can apply it to a device or a group of devices.</span></span> <span data-ttu-id="4cffa-114">Вы можете выбрать существующий профиль в пошаговом [руководстве](add-autopilot-devices-and-profile.md) и применить его к новым устройствам или заменить существующий профиль для устройства или группы устройств.</span><span class="sxs-lookup"><span data-stu-id="4cffa-114">You can pick an existing profile in the [step-by-step guide](add-autopilot-devices-and-profile.md) and apply it to new devices, or replace an existing profile for a device or group of devices.</span></span> 
   
-1. <span data-ttu-id="08b46-115">На странице **Подготовка Windows** перейдите на вкладку **Устройства**.</span><span class="sxs-lookup"><span data-stu-id="08b46-115">On the **Prepare Windows** page, choose the **Devices** tab.</span></span> 
+1. <span data-ttu-id="4cffa-115">На странице **Подготовка Windows** перейдите на вкладку **Устройства**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-115">On the **Prepare Windows** page, choose the **Devices** tab.</span></span> 
     
-2. <span data-ttu-id="08b46-116">Установите флажок рядом с именем устройства, а затем на панели Device ( **устройство** ) выберите профиль в раскрывающемся \> списке **назначенный профиль** **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="08b46-116">Select the check box next to a device name, and in the **Device** panel, choose a profile from the **Assigned profile** drop-down list \> **Save**.</span></span>
+2. <span data-ttu-id="4cffa-116">Установите флажок рядом с именем устройства, а затем на панели Device ( **устройство** ) выберите профиль в раскрывающемся \> списке **назначенный профиль** **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-116">Select the check box next to a device name, and in the **Device** panel, choose a profile from the **Assigned profile** drop-down list \> **Save**.</span></span>
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
-## <a name="edit-delete-or-remove-a-profile"></a><span data-ttu-id="08b46-118">Изменение и удаление профиля</span><span class="sxs-lookup"><span data-stu-id="08b46-118">Edit, delete, or remove a profile</span></span>
+## <a name="edit-delete-or-remove-a-profile"></a><span data-ttu-id="4cffa-118">Изменение и удаление профиля</span><span class="sxs-lookup"><span data-stu-id="4cffa-118">Edit, delete, or remove a profile</span></span>
 
-<span data-ttu-id="08b46-p103">После назначения профиля устройству вы можете изменить его, даже если вы уже выдали устройство пользователю. Когда устройство подключается к Интернету, в процессе настройки на него скачивается последняя версия профиля. Когда пользователь сбрасывает устройство до заводских настроек, на него снова скачивается обновленный профиль.</span><span class="sxs-lookup"><span data-stu-id="08b46-p103">Once you've assigned a profile to a device, you can update it, even if you've already given the device to a user. When the device connects to the internet, it downloads the latest version of your profile during the setup process. If the user restores their device to its factory default settings, the device will again download the latest updates to your profile.</span></span> 
+<span data-ttu-id="4cffa-p103">После назначения профиля устройству вы можете изменить его, даже если вы уже выдали устройство пользователю. Когда устройство подключается к Интернету, в процессе настройки на него скачивается последняя версия профиля. Когда пользователь сбрасывает устройство до заводских настроек, на него снова скачивается обновленный профиль.</span><span class="sxs-lookup"><span data-stu-id="4cffa-p103">Once you've assigned a profile to a device, you can update it, even if you've already given the device to a user. When the device connects to the internet, it downloads the latest version of your profile during the setup process. If the user restores their device to its factory default settings, the device will again download the latest updates to your profile.</span></span> 
   
-### <a name="edit-a-profile"></a><span data-ttu-id="08b46-122">Изменение профиля</span><span class="sxs-lookup"><span data-stu-id="08b46-122">Edit a profile</span></span>
+### <a name="edit-a-profile"></a><span data-ttu-id="4cffa-122">Изменение профиля</span><span class="sxs-lookup"><span data-stu-id="4cffa-122">Edit a profile</span></span>
 
-1. <span data-ttu-id="08b46-123">На странице **Подготовка Windows** перейдите на вкладку **Профили**.</span><span class="sxs-lookup"><span data-stu-id="08b46-123">On the **Prepare Windows** page, choose the **Profiles** tab.</span></span> 
+1. <span data-ttu-id="4cffa-123">На странице **Подготовка Windows** перейдите на вкладку **Профили**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-123">On the **Prepare Windows** page, choose the **Profiles** tab.</span></span> 
     
-2. <span data-ttu-id="08b46-124">Установите флажок рядом с именем устройства, а затем в панели **профилей** обновите все доступные параметры \> **сохранения**.</span><span class="sxs-lookup"><span data-stu-id="08b46-124">Select the check box next to a device name, and in the **Profile** panel, update any of the available settings \> **Save**.</span></span>
+2. <span data-ttu-id="4cffa-124">Установите флажок рядом с именем устройства, а затем в панели **профилей** обновите все доступные параметры \> **сохранения**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-124">Select the check box next to a device name, and in the **Profile** panel, update any of the available settings \> **Save**.</span></span>
     
-    <span data-ttu-id="08b46-125">Если сделать это до того, как устройство подключится к Интернету, профиль будет применен в процессе настройки.</span><span class="sxs-lookup"><span data-stu-id="08b46-125">If you do this before a user connects the device to the internet, then the profile gets applied to the setup process.</span></span>
+    <span data-ttu-id="4cffa-125">Если сделать это до того, как устройство подключится к Интернету, профиль будет применен в процессе настройки.</span><span class="sxs-lookup"><span data-stu-id="4cffa-125">If you do this before a user connects the device to the internet, then the profile gets applied to the setup process.</span></span>
     
-### <a name="delete-a-profile"></a><span data-ttu-id="08b46-126">Удаление профиля</span><span class="sxs-lookup"><span data-stu-id="08b46-126">Delete a profile</span></span>
+### <a name="delete-a-profile"></a><span data-ttu-id="4cffa-126">Удаление профиля</span><span class="sxs-lookup"><span data-stu-id="4cffa-126">Delete a profile</span></span>
 
-1. <span data-ttu-id="08b46-127">На странице **Подготовка Windows** перейдите на вкладку **Профили**.</span><span class="sxs-lookup"><span data-stu-id="08b46-127">On the **Prepare Windows** page, choose the **Profiles** tab.</span></span> 
+1. <span data-ttu-id="4cffa-127">На странице **Подготовка Windows** перейдите на вкладку **Профили**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-127">On the **Prepare Windows** page, choose the **Profiles** tab.</span></span> 
     
-2. <span data-ttu-id="08b46-128">Установите флажок рядом с именем устройства, а затем на панели **профилей** выберите **Удалить** \> **Сохранение**профиля.</span><span class="sxs-lookup"><span data-stu-id="08b46-128">Select the check box next to a device name, and in the **Profile** panel, select **Delete profile** \> **Save**.</span></span>
+2. <span data-ttu-id="4cffa-128">Установите флажок рядом с именем устройства, а затем на панели **профилей** выберите **Удалить** \> **Сохранение**профиля.</span><span class="sxs-lookup"><span data-stu-id="4cffa-128">Select the check box next to a device name, and in the **Profile** panel, select **Delete profile** \> **Save**.</span></span>
     
-    <span data-ttu-id="08b46-129">При удалении профиля он перестает действовать для устройства или группы устройств, которым он был назначен.</span><span class="sxs-lookup"><span data-stu-id="08b46-129">When you delete a profile, it gets removed from a device or a group of devices it was assigned to.</span></span>
+    <span data-ttu-id="4cffa-129">При удалении профиля он перестает действовать для устройства или группы устройств, которым он был назначен.</span><span class="sxs-lookup"><span data-stu-id="4cffa-129">When you delete a profile, it gets removed from a device or a group of devices it was assigned to.</span></span>
     
-### <a name="remove-a-profile"></a><span data-ttu-id="08b46-130">Отмена назначения профиля</span><span class="sxs-lookup"><span data-stu-id="08b46-130">Remove a profile</span></span>
+### <a name="remove-a-profile"></a><span data-ttu-id="4cffa-130">Отмена назначения профиля</span><span class="sxs-lookup"><span data-stu-id="4cffa-130">Remove a profile</span></span>
 
-1. <span data-ttu-id="08b46-131">На странице **Подготовка Windows** перейдите на вкладку **Устройства**.</span><span class="sxs-lookup"><span data-stu-id="08b46-131">On the **Prepare Windows** page, choose the **Devices** tab.</span></span> 
+1. <span data-ttu-id="4cffa-131">На странице **Подготовка Windows** перейдите на вкладку **Устройства**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-131">On the **Prepare Windows** page, choose the **Devices** tab.</span></span> 
     
-2. <span data-ttu-id="08b46-132">Установите флажок рядом с именем устройства, а затем на панели **устройство** выберите **нет** в раскрывающемся \> списке **назначенный профиль** **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="08b46-132">Select the check box next to a device name, and in the **Device** panel, choose **None** from the **Assigned profile** drop-down list \> **Save**.</span></span>
+2. <span data-ttu-id="4cffa-132">Установите флажок рядом с именем устройства, а затем на панели **устройство** выберите **нет** в раскрывающемся \> списке **назначенный профиль** **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="4cffa-132">Select the check box next to a device name, and in the **Device** panel, choose **None** from the **Assigned profile** drop-down list \> **Save**.</span></span>
     

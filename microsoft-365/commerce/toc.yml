@@ -36,10 +36,8 @@
           href: subscriptions/manage-self-service-purchases-admins.md
     - name: Управление лицензиями
       items:
-        - name: Приобретение лицензий
+        - name: Управление лицензиями подписки
           href: licenses/buy-licenses.md
-        - name: Удаление лицензий из подписки
-          href: licenses/remove-licenses-from-subscription.md
         - name: Назначение лицензий пользователям
           href: ../admin/manage/assign-licenses-to-users.md
         - name: Отмена назначения лицензий пользователям
