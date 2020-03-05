@@ -11,16 +11,17 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.custom:
 - SMB_SuccessCenter
+- MARVEL_SEO_MAR
 search.appverid:
 - MET150
 - MOE150
-description: Узнайте о простых способах защиты малых предприятий от угроз безопасности.
-ms.openlocfilehash: a3923731e93962d1976d0cd163db4f97a07aaed2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Сведения об угрозах безопасности бизнес-компаний и простых способах защиты ваших данных, учетных записей и устройств.
+ms.openlocfilehash: 0997f6bab379ccc5ff68d5bf890419772fd4aaaf
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360780"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417285"
 ---
 # <a name="security-info-graphic-for-small-businesses"></a>Изображение сведений о безопасности для малых предприятий
 

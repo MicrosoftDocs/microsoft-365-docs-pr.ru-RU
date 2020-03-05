@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 89925858ac749ac6f50b7a049a372cf2f7912698
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 0f7c2c59327874d279872d4fd9bb7d0b9d6eb863
+ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341238"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42410036"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
@@ -87,8 +87,6 @@ ms.locfileid: "42341238"
 - Сайт отслеживания документов для Azure Information Protection не поддерживается.
 
 - Приложения Office для настольных ПК и мобильных устройств не поддерживают совместное редактирование. Вместо этого эти приложения продолжают открывать файлы в монопольном режиме редактирования.
-
-- Если метка включает шифрование, Microsoft Cloud App Security не сможет прочитать сведения о метках файлов в SharePoint.
 
 - Если помеченный документ передается в SharePoint и применяется шифрование с помощью учетной записи с именем участника-службы, документ невозможно открыть в Office в Интернете. Примеры сценариев включают Microsoft Cloud App Security и файл, отправленный в Teams по электронной почте.
 

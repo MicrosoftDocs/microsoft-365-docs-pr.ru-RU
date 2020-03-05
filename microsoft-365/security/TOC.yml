@@ -43,6 +43,8 @@
               href: mtp/microsoft-threat-protection.md
             - name: Что нового в службе защиты от угроз (Майкрософт)?
               href: mtp/whats-new.md
+            - name: Предварительные функции
+              href: mtp/preview.md
             - name: "Центр безопасности Microsoft\_365"
               href: mtp/overview-security-center.md
             - name: Необходимые компоненты

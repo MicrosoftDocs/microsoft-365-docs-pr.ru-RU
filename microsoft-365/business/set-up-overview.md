@@ -20,17 +20,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Обзор действий по установке Microsoft 365 бизнес.
-ms.openlocfilehash: 07cbd4fd187f78474783db848ac9b69068d2b44a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Узнайте о действиях по настройке Microsoft 365 Business, о том, как подписываться, добавлять домен и пользователей, настраивать политики безопасности и т. д.
+ms.openlocfilehash: 75ef784a886de754e7550d9e86af1242209346dd
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595072"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417233"
 ---
 # <a name="overview-of-setup"></a>Обзор установки
 
@@ -38,7 +39,7 @@ ms.locfileid: "41595072"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Большинство действий по установке можно выполнить с помощью мастера установки, но есть и другие варианты.
 

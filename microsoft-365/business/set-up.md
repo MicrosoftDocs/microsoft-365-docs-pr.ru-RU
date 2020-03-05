@@ -1,5 +1,5 @@
 ---
-title: Настройка Microsoft 365 бизнес
+title: Настройка Microsoft 365 бизнес
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,17 +23,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Узнайте, как настроить Microsoft 365 Business.
-ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Познакомьтесь с этапами установки Microsoft 365 Business, включая добавление домена и пользователей, настройку политик безопасности и другие.
+ms.openlocfilehash: 4535a32b579b91b6c2bb0e64ec95904be6c08fce
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594276"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417303"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Настройка Microsoft 365 Business в мастере установки
 
@@ -41,11 +42,11 @@ ms.locfileid: "41594276"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Добавление домена, пользователей и Настройка политик
 
-[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 При покупке Microsoft 365 Business вы можете использовать домен, который вы владеете, или приобрести его во время [регистрации](sign-up.md).
 
@@ -57,7 +58,7 @@ ms.locfileid: "41594276"
 
 2. Чтобы запустить мастер, нажмите кнопку **Перейти в программу установки** .
 
-    ![Нажмите кнопку Перейти к программе установки.](media/gotosetupinadmincenter.png)
+    ![Нажмите кнопку Перейти к программе установки.](../media/gotosetupinadmincenter.png)
 
 3. На странице **Установка приложений Office** можно дополнительно установить приложения на своем компьютере.
     
@@ -66,14 +67,14 @@ ms.locfileid: "41594276"
     > [!IMPORTANT]
     > Если вы приобрели домен во время регистрации, вы не увидите шаг **Добавить домен** . Перейдите к разделу [Добавление пользователей](#add-users-and-assign-licenses) .
 
-    ![Снимок страницы "Персонализация" страницы входа.](media/adddomain.png)
+    ![Снимок страницы "Персонализация" страницы входа.](../media/adddomain.png)
 
     
 4. Следуйте указаниям мастера, чтобы [создать записи DNS на любом поставщике услуг хостинга DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) , который подтверждает, что вы владеете доменом. Если вы знаете узел домена, ознакомьтесь с [инструкциями, характерными для узла](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
     Если поставщик услуг размещения — GoDaddy или другой узел, включенный с [подключением к домену](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), процесс будет прост, и вам будет автоматически предложено войти и проверить подлинность Майкрософт от вашего имени.
 
-    ![На странице "Подтверждение доступа GoDaddy" выберите авторизовать.](media/godaddyauth.png)
+    ![На странице "Подтверждение доступа GoDaddy" выберите авторизовать.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Добавление пользователей и назначение лицензий
 
@@ -83,7 +84,7 @@ ms.locfileid: "41594276"
 
 Все пользователи, добавленные в мастере, автоматически получают лицензию Microsoft 365 Business.
 
-![Снимок экрана со страницей "Добавление новых пользователей" в мастере](media/addnewuserspage.png)
+![Снимок экрана со страницей "Добавление новых пользователей" в мастере](../media/addnewuserspage.png)
 
 1. Если ваша подписка на Microsoft 365 Business имеет существующих пользователей (например, если вы использовали Azure AD Connect), вы получите возможность назначить лицензии для них сейчас. Добавьте лицензии и для них.
 
@@ -101,7 +102,7 @@ ms.locfileid: "41594276"
     - Если у вас есть существующие записи DNS, например существующий веб-сайт, но ваш узел DNS включен для [подключения к домену](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), нажмите кнопку **добавить записи**. На странице " **Выбор веб-служб** " примите все параметры по умолчанию и нажмите кнопку **Далее**, а затем — кнопку **авторизовать** на странице узла DNS.
     - Если у вас есть существующие записи DNS с другими узлами DNS (не включены для подключения к домену), вам потребуется управлять собственными записями DNS, чтобы убедиться, что существующие службы остаются подключенными. Более подробную информацию можно узнать в разделе [domain основы доменов](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
 
-        ![Страница "Активация записей".](media/activaterecords.png)
+        ![Страница "Активация записей".](../media/activaterecords.png)
 
 2. Следуйте указаниям мастера, электронной почты и других служб.
 
@@ -111,14 +112,14 @@ ms.locfileid: "41594276"
 
 1. При **увеличении защиты от расширенных угроз кибератак**рекомендуется принять значения по умолчанию, чтобы разрешить [Office 365 Advance Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) сканировать файлы и ссылки в приложениях Office.
 
-    ![Снимок экрана: страница "увеличение защиты".](media/increasetreatprotection.png)
+    ![Снимок экрана: страница "увеличение защиты".](../media/increasetreatprotection.png)
 
 
 2. На странице **предотвратить утечки конфиденциальных данных** примите значения по умолчанию, чтобы включить защиту от потери данных (DLP) Office 365 для отслеживания конфиденциальных данных в приложениях Office и предотвращения случайного доступа к ним за преворотами в Организации.
 
 3. На странице **Защита данных в Office для мобильных устройств** оставьте управление мобильными приложениями включено, разверните параметры и просмотрите их, а затем выберите **создать политику управления мобильными приложениями**.
 
-    ![Снимок экрана: защита данных на странице Office для мобильных устройств.](media/protectdatainmobile.png)
+    ![Снимок экрана: защита данных на странице Office для мобильных устройств.](../media/protectdatainmobile.png)
 
 
 ## <a name="secure-windows-10-pcs"></a>Защита компьютеров с Windows 10
