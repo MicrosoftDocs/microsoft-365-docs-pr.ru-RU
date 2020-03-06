@@ -15,23 +15,24 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Узнайте о предварительных требованиях для настройки организации с помощью Microsoft 365 Business.
-ms.openlocfilehash: 3ca0433faaaeacbe6e0d2c88c820ebad19afec51
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Узнайте о требованиях для настройки организации с помощью Microsoft 365 Business и защиты рабочих данных на устройствах пользователей.
+ms.openlocfilehash: 9e35e3b1cd4f0df1c5852b0fec407a99c9bcf4f4
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593646"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550194"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 Business
 
 Первый шаг в настройке организации с помощью Microsoft 365 Business состоит в том, чтобы убедиться, что вы можете выполнить необходимые условия.
   
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-business"></a>Требования для настройки организации с помощью Microsoft 365 Business
 
 - Устройства с Windows должны работать под управлением Windows 7 Профессиональная, Windows 8 Профессиональная или Windows 8,1 Pro.
     

@@ -22,29 +22,30 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Узнайте больше о Microsoft 365 Business.
-ms.openlocfilehash: bfda6801bee526084ad11ead819fcd04787d17ce
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте о Microsoft 365 Business, службе подписки, включающей в себя Office 365 плюс расширенную защиту для бизнеса от угроз кибератак.
+ms.openlocfilehash: 508262daa9367ebd3b973a7a519fbb953d719fb1
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065665"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547858"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Общие сведения о Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Что такое Microsoft 365 Бизнес
 
-Microsoft 365 Business — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от киберугрозами, защиты данных и управления устройствами.
+Microsoft 365 Business — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от угроз кибератак, защиты данных и управления устройствами.
 
 Просмотрите это видео, чтобы получить краткий обзор Microsoft 365 Business.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business предназначено для работы с лицензиями на 300. Дополнительные сведения о том, как получить дополнительные лицензии, можно найти в [статье Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) Documentation.
 
@@ -103,7 +104,7 @@ Microsoft 365 бизнес помогает **защититься от угро
 
 Полный список средств обеспечения безопасности можно найти в [статье Microsoft 365 Business Security Features](security-features.md). После [настройки Microsoft 365 Business](set-up.md)ознакомьтесь с статьей [повышение защиты от угроз](increase-threat-protection.md) и [Настройка функций обеспечения соответствия требованиям](set-up-compliance.md) , чтобы приступить к работе с функциями безопасности, которые не входят в состав интерактивной установки. Кроме того [, в этой статье приведены 10 способов защиты Office 365 и Microsoft 365 бизнес-планов](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) для хорошего обзора по настройке защиты от преступников и хакеров кибератак.
 
-## <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
+## <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
 
 - Если у вас есть партнер, он получит Microsoft 365 бизнес: [получить microsoft 365 бизнес из центра партнеров Майкрософт](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 

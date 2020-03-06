@@ -18,19 +18,20 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Сведения о приобретении Microsoft 365 Business из центра партнеров Майкрософт.
-ms.openlocfilehash: ba6aa806e3e628e8c3478abb57c4529e4f5692bf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте о возможностях приобретения Microsoft 365 Business и пошаговых инструкций по их приобретению в центре партнеров Майкрософт.
+ms.openlocfilehash: decfd3b99ebd0134715d721287057b7131a8f066
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065837"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547818"
 ---
-# <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
+# <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
 
 ## <a name="get-microsoft-365-business-from-microsoft"></a>Получение Microsoft 365 бизнес от корпорации Майкрософт
 

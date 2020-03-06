@@ -20,17 +20,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Помогите пользователям установить приложения Office.
-ms.openlocfilehash: 7497be6b0796fdd28156d8c9a6018b05e3dcfe75
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Помогите своим пользователям устанавливать приложения Office на устройствах с Windows 10 и легко устанавливать Office на компьютеры с Windows 10 из центра администрирования Microsoft 365 бизнес.
+ms.openlocfilehash: 5df9a1a8236942a34031daf06e38acbe923339e4
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065722"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550376"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Помогите пользователям установить Office на устройствах с Windows 10
 
@@ -44,7 +45,7 @@ ms.locfileid: "42065722"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="manage-office-deployments"></a>Управление развертываниями Office
 
@@ -61,6 +62,6 @@ ms.locfileid: "42065722"
     
       :::image type="content" source="../media/sendemailtousers.png" alt-text="Выберите пользователи для отправки электронной почты с помощью ссылки для скачивания Office.":::
 
-## <a name="see-also"></a>См. также
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business
 
 [учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

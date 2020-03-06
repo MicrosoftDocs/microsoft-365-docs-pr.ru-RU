@@ -1,5 +1,7 @@
 ---
 title: Повышение защиты от угроз для Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -14,16 +16,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: Настройка расширенной защиты от угроз для Office 365 и защита конфиденциальных данных.
-ms.openlocfilehash: 87a5c79636a2eefe394b4a30e72971eb851e3ecb
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+description: Настройка расширенной защиты от угроз для Office 365 и защита конфиденциальных данных от фишинговых атак, вредоносных программ и других угроз.
+ms.openlocfilehash: 9d7bae60091c87fa0246a697f2a49e1cbc6e2f06
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704082"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550364"
 ---
 # <a name="increase-threat-protection"></a>Улучшение защиты от угроз
 
@@ -84,7 +87,7 @@ ms.locfileid: "38704082"
 |Выполните указанные ниже действия. . .  <br/> |Уведомление получателя сообщением  <br/> |
 |Предоставление текста сообщения  <br/> |Не открывайте файлы этих типов от пользователей, которые не знают, так как они могут содержать макросы с вредоносным кодом.  <br/> |
    
-Подробнее:
+Дополнительные сведения см. в указанных ниже статьях.
   
 - [Как работать с программой «шантажистом»](https://go.microsoft.com/fwlink/?linkid=2016501)
     

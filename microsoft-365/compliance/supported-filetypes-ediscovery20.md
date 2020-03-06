@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Список поддерживаемых типов файлов в Microsoft 365 Advanced eDiscovery. Это включает список типов файлов изображений, которые поддерживаются функцией оптического распознавания текста в Advanced eDiscovery.
 ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597386"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543718"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Поддерживаемые типы файлов в Advanced eDiscovery
 
@@ -175,7 +175,7 @@ ms.locfileid: "41597386"
 | Application/ВНД. Oasis. OpenDocument. Text | Да | Да | Да | Да | Да | ODT |
 ||||||||
 
-## <a name="other"></a>Other
+## <a name="other"></a>Другие
 
 | Тип MIME | Идентификация файлов | Извлечение метаданных | Извлечение текста | Встроенное средство просмотра | Средство просмотра примечаний | Возможные расширения |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |

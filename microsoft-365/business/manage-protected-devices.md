@@ -20,18 +20,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Сведения о том, как сбросить или очистить устройство, управляемое с помощью политик защиты.
-ms.openlocfilehash: b022d9076b60b0d29771b2ba8f7afc0435bda096
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Изучите удаление данных компании с устройств, управляемых с помощью политик защиты, а также восстановление заводских настроек устройств с Windows 10.
+ms.openlocfilehash: f5c9bba6004632964ca01ba2f65e88dafb0ed719
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593848"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550344"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Управление защищенными устройствами с помощью Microsoft 365 Business
 

@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Добавление результатов поиска, связанных с дополнительным вариантом обнаружения электронных данных. Элементы копируются из исходного расположения и копируются в предоставленное Майкрософт место хранения Azure. Элементы также переиндексируются, и Расширенное обнаружение электронных данных выполняет оптическое распознавание текста (OCR) для файлов изображений и отправляет текст изображения для просмотра и анализа.
 ms.openlocfilehash: 5e4eaa5e83bbca3a80abe0026f3880ce8d3c85c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080163"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550465"
 ---
 # <a name="add-search-results-to-a-review-set"></a>Добавление результатов поиска в набор для проверки
 
