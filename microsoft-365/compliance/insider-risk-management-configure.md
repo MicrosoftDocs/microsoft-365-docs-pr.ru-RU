@@ -13,11 +13,11 @@ manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
 ms.openlocfilehash: 4b8bd0f8d540434410d9ebc2365789a669f455e1
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179170"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42552055"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Начало работы с управлением рисками для оценки
 

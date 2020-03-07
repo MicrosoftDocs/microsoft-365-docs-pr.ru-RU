@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
-ms.openlocfilehash: 2140b2b529ccec9a4d081a2e7b6ea1fdb7fb900f
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 042e95d19ef44eef8dfdfef24a996606c9d0e00c
+ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106812"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42552043"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -31,6 +31,36 @@ ms.locfileid: "42106812"
 > [!TIP]
 > Хотите узнать, что происходит в других центрах администрирования? Ознакомьтесь со следующими статьями:<br>[Новые возможности центра администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
 И посетите [план microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) , чтобы узнать о возможностях Microsoft 365, которые были запущены, выходят из развертывания, были отменены или выпущены ранее.
+
+## <a name="february-2020"></a>Февраль 2020 г.
+
+### <a name="insider-risk-management-is-officially-released"></a>Предварительная версия управления рисками выпущена официально
+
+Барабан барабана,... Управление рисками для предварительной оценки теперь доступно для организаций со следующими подписками:
+
+- [Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2120431) (платная или пробная)
+- Подписка на Microsoft 365 корпоративный E3 с [надстройкой Microsoft "соответствие требованиям](https://go.microsoft.com/fwlink/?linkid=2120432) "
+
+Мы внесли некоторые улучшения, начиная с ознакомительного выпуска, в том числе [новые группы ролей](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management) и [Параметры на уровне решения](insider-risk-management-configure.md#step-4-required-configure-insider-risk-settings).
+
+Как всегда, оставьте свой отзыв при использовании решения, чтобы мы могли продолжить вносить улучшения.
+
+### <a name="records-management"></a>Управление записями
+
+Это новое решение, которое применяет все возможности управления записями в один тег. Основные сведения включают введение записей управления версиями для SharePoint и OneDrive, а также подтверждение выбытия для записей.
+
+![Страница "Управление записями" в центре соответствия требованиям Microsoft 365](../media/mcc-records-management-page.png)
+
+[Дополнительные сведения об управлении записями](records-management.md)
+
+### <a name="solution-spotlight-data-connectors-for-facebook-and-twitter"></a>Интересное решение: соединители данных для Facebook и Twitter
+
+Соединители данных, [выпущенные в прошлом месяце](#just-launched) , и мы ищем помощь по тестированию следующих соединителей для проверки их работоспособности.
+
+- [Бизнес-страницы Facebook](archive-facebook-data-with-sample-connector.md). Импорт и архивирование данных из бизнес-страниц Facebook в Microsoft 365. Преимущества для решений по обеспечению соответствия, таких как управление записями и обнаружение электронных данных.
+- [Twitter](archive-twitter-data-with-sample-connector.md). Импорт и архивирование данных из Twitter в Microsoft 365. Преимущества для решений по обеспечению соответствия, таких как управление записями и обнаружение электронных данных.
+
+После настройки и проверки этих соединителей оставьте отзыв о том, что было хорошо, что не так, и что мы можем сделать для усовершенствования взаимодействия.
 
 ## <a name="january-2020"></a>Январь 2020 г.
 

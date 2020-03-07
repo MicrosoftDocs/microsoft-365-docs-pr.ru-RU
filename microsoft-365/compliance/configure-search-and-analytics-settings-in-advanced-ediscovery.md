@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: Настройка дополнительных параметров обнаружения электронных данных, которые применяются ко всем наборам проверки в случае. К ним относятся параметры для аналитики и распознавания текста.
 ms.openlocfilehash: 9a7568fac91fa9c021d05b255fc0a145002e7f29
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550475"
+ms.locfileid: "42552074"
 ---
 # <a name="configure-search-and-analytics-settings"></a>Настройка параметров поиска и аналитики
 
