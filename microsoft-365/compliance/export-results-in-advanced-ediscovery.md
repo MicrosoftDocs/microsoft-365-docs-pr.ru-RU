@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: 'Узнайте, как определить параметры экспорта результатов из Office 365 Advanced eDiscovery, включая процедуру указания параметров для пакета экспорта. '
-ms.openlocfilehash: 9194bc9dc44587fb03798c2107c408d2afb2ae70
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e439753b427a4e4a90e219912f8d3c1fcf4cfff3
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074338"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558200"
 ---
-# <a name="export-results-in-office-365-advanced-ediscovery"></a>Экспорт результатов в Office 365 Advanced eDiscovery
+# <a name="export-results-in-advanced-ediscovery-classic"></a>Экспорт результатов в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -194,7 +194,7 @@ ms.locfileid: "42074338"
    
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Просмотр журнала пакетной обработки и экспорт прошлых результатов](view-batch-history-and-export-past-results.md)
   

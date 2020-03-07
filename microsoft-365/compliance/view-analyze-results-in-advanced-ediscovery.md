@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: 'Сведения о том, как просматривать результаты анализа в Office 365 Advanced eDiscovery, включая определения отображаемых параметров задачи.  '
-ms.openlocfilehash: bac173beebe2fdf3d07122bfca04cbaaee6410e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: adee00d2b7826827cc14f4ca945952f4892511a1
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069194"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557627"
 ---
-# <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Просмотр результатов анализа в Office 365 Advanced eDiscovery
+# <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Просмотр результатов анализа в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -77,7 +77,7 @@ ms.locfileid: "42069194"
   
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

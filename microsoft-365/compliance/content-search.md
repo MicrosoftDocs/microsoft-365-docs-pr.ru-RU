@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Средство "Поиск контента" можно использовать в Центре соответствия требованиям в Office 365 или Microsoft 365 для поиска содержимого в почтовых ящиках, на сайтах SharePoint Online, в учетных записях OneDrive, Microsoft Teams, группах Office 365, группах Yammer и беседах Skype для бизнеса. Чтобы сузить результаты поиска, можно использовать поиск по ключевым словам и условиям поиска. Затем можно предварительно просмотреть и экспортировать результаты поиска. Поиск контента также является эффективным средством поиска содержимого, связанного с запросом субъекта данных GDPR.
 ms.openlocfilehash: d9fdf5359538209d0793211632979fae1b332d13
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078464"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543225"
 ---
 # <a name="content-search-in-office-365"></a>Поиск контента в Office 365
 

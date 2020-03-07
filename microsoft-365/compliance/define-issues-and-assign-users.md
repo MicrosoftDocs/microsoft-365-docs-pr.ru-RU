@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Узнайте, как добавить или изменить вопрос, в том числе назначение пользователей, или удалить ошибку для случая обнаружения электронных данных в Office 365 Advanced eDiscovery.
-ms.openlocfilehash: d0777f6829944a6f64c71bda805edd1b5d55de4b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5c7c15b765a0c129e8a58533951b6569b8766b45
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075903"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556977"
 ---
-# <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Определение проблем и назначение пользователей в Office 365 Advanced eDiscovery
+# <a name="define-issues-and-assign-users-in-advanced-ediscovery-classic"></a>Определение проблем и назначение пользователей в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -76,7 +76,7 @@ ms.locfileid: "42075903"
     
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Настройка полных пакетов для добавления импортированных файлов](set-up-loads-to-add-imported-files.md)
   

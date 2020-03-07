@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Узнайте, как определить правило для игнорирования определенного текста при использовании модулей анализа и обработки в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 440393061fef9b5a3c946322307fcafd034be81c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0253ce619901e5fec34da234e005f2c3b6ece090
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081142"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557779"
 ---
-# <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Установка параметра игнорировать текст для анализа в Office 365 Advanced eDiscovery
+# <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Установка параметра игнорировать текст для анализа в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -126,7 +126,7 @@ ms.locfileid: "42081142"
   
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

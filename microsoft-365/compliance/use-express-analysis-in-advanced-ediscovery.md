@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Узнайте, как запустить режим Экспресс Analysis в Office 365 Advanced eDiscovery
-ms.openlocfilehash: 49e8f04b893f0a15563cf091c728352a97c4141f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d4b8e1fa5e8251f5ede2d9a3003c756decac3b45
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080751"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557647"
 ---
-# <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Использование Express Analysis в Office 365 Advanced eDiscovery
+# <a name="use-express-analysis-in-advanced-ediscovery-classic"></a>Использование экспресс-анализа в Advanced eDiscovery (классический) 
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -132,5 +132,5 @@ ms.locfileid: "42080751"
 ## <a name="see-also"></a>См. также
 <a name="BK_AdvancedSettings"> </a>
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
 

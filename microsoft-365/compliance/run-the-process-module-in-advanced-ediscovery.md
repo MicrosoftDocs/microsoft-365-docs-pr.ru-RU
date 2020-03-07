@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'Изучите рекомендации по подготовке файлов Office 365 для анализа с помощью Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 779f9ae4f93933063139b2d7d65deb2500b263e1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: eb608eeac33e0d5d06dce9d0c35cd86f4e0bc280
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597586"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557819"
 ---
-# <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Запуск модуля Process в Office 365 Advanced eDiscovery
+# <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>Запуск модуля процесса в Advanced eDiscovery (классический)
 
 Файлы Case загружаются в Расширенное обнаружение электронных данных при **подготовке** \> **процесса**подготовки. 
   
@@ -74,7 +74,7 @@ ms.locfileid: "41597586"
   
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Запуск модуля Process и загрузка данных](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
   

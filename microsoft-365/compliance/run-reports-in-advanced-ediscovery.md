@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: 'Узнайте, как запустить отчет, а затем скачать его CSV-файл в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: badc657e100961ba89de6a49349b7016ae790b09
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1ca01fc0ab77ec0a727029c3f8ef680a56f9c5c6
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069995"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557839"
 ---
-# <a name="run-reports-in-office-365-advanced-ediscovery"></a>Запуск отчетов в Office 365 Advanced eDiscovery
+# <a name="run-reports-in-advanced-ediscovery-classic"></a>Запуск отчетов в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -44,5 +44,4 @@ ms.locfileid: "42069995"
     
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)

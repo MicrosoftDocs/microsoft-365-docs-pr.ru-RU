@@ -16,19 +16,19 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Узнайте, как использовать центр обеспечения безопасности &amp; Microsoft 365 для подготовки данных Office 365 для анализа с помощью Office 365 Advanced eDiscovery. '
-ms.openlocfilehash: 028cdb48e5ece2509d175a363c19beb6c2fafa19
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 44ccb6250e28e0fa75f6d1a037236a100fca102c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071036"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557869"
 ---
-# <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Подготовка данных для Office 365 Advanced eDiscovery
+# <a name="prepare-data-for-advanced-ediscovery-classic"></a>Подготовка данных для расширенного обнаружения электронных данных (классический)
 
-В этом разделе описывается, как загружать результаты поиска контента в случае с дополнительным обнаружением электронных данных. 
+В этом разделе описывается, как загружать результаты поиска контента в случае с дополнительным обнаружением электронных данных (Classic). 
   
 > [!IMPORTANT]
-> Мы продолжаем инвестирование более новых версий Advanced eDiscovery и сообщаем о прекращении поддержки версии Office 365 Advanced eDiscovery (также известной как *Advanced eDiscovery 1.0*). Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
+> Так как мы продолжим вкладывать новые версии расширенного обнаружения электронных данных, мы сообщаем выбытие Office 365 Advanced eDiscovery, также известное как *Advanced eDiscovery (классическая)* или *Advanced eDiscovery версии 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
   
 ## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>Шаг 1: подготовка данных Office 365 для расширенного обнаружения электронных данных
 
@@ -67,7 +67,7 @@ ms.locfileid: "42071036"
   
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Настройка пользователей и обращений](set-up-users-and-cases-in-advanced-ediscovery.md)
   

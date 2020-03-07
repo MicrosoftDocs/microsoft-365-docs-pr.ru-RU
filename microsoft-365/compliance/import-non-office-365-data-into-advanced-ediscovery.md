@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Действия по импорту контента, не хранящегося в O365, в большой двоичный объект Azure, чтобы его можно было проанализировать с помощью АЕД
-ms.openlocfilehash: 7a06bff3abe70e58ab08edcc456bc167229b05f2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 529eb21117ed2cdfbb7f02caf058dbc6863d2d9b
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072986"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557899"
 ---
-# <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Импорт контента, отличного от Office 365, для расширенного анализа обнаружения электронных данных
+# <a name="import-non-office-365-content-for-advanced-ediscovery-classic-analysis"></a>Импорт содержимого, не относящегося к Office 365, для расширенного анализа обнаружения электронных данных (классический)
 
 Не все документы, которые может потребоваться проанализировать с помощью Office 365 Advanced eDiscovery, будут жить в Office 365. С помощью функции импорта содержимого, отличной от Office 365, в Advanced eDiscovery вы можете отправлять документы, не входящие в Office 365 (Кроме PST-файлов), в связанный с ними объект BLOB-хранилища Azure и анализировать их с помощью расширенного обнаружения электронных данных. В этой процедуре показано, как перенести документы, не относящиеся к Office 365, в Расширенное обнаружение электронных данных для анализа.
   

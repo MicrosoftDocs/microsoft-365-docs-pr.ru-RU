@@ -1,7 +1,7 @@
 ---
 title: Порталы безопасности Майкрософт и центры администрирования
 description: Поиск подправного центра администрирования Майкрософт или портала для управления различными службами, связанными с безопасностью Microsoft 365
-keywords: безопасность, порталы, Microsoft 365, M365, центр безопасности, центр администрирования, URL-адрес, ссылка, MTP, Azure ATP, Office 365 ATP, МКАС, ВДСИ, SCC, Intune, MDM, MEM
+keywords: безопасность, порталы, Microsoft 365, M365, центр безопасности, центр администрирования, URL-адрес, ссылка, MTP, центр администрирования защитника Майкрософт, центр безопасности защитника Microsoft, Azure ATP, Office 365 ATP, МКАС, ВДСИ, SCC, Intune, MDM, MEM, ASC,, ААТП, приложение Cloud App Security, Azure AD, безопасность & соответствия требованиям
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -14,15 +14,15 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 24bfd07b4b7baf9082ef99691fb1048e1f0b655e
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 98bfa8da792bfc5b75d1a2532492c2de6071f1b1
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42336922"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558240"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Порталы безопасности Майкрософт и центры администрирования
-Несмотря на то, что [Центр безопасности Microsoft 365](overview-security-center.md) является новым доменом для мониторинга и управления безопасностью в своих удостоверениях, данных, устройствах, приложениях, вам потребуется доступ к различным порталам для определенных специализированных задач.
+Несмотря на то, что [Центр безопасности Microsoft 365](overview-security-center.md) является новым доменом для мониторинга и управления безопасностью для своих удостоверений, данных, устройств и приложений, вам потребуется доступ к различным порталам для определенных специализированных задач.
 
 > [!TIP] 
 > Чтобы получить доступ к различным соответствующим порталам из центра безопасности Microsoft 365, в области навигации выберите пункт **Дополнительные ресурсы** .

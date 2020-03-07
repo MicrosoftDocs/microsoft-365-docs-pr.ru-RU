@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: bb4056b90afc8805d4e56b9b73c0c7d118d6f08c
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: b34221c45acc3d2918ed1a397e9e1ff0e726c152
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916894"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558129"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Поддержка программы GDPR с контрольными списками готовности к подотчетности
 
@@ -77,4 +77,4 @@ ms.locfileid: "41916894"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

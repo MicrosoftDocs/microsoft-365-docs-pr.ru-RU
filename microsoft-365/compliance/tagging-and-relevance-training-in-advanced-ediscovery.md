@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'В этой статье рассказывается о том, как пометить и затем работать с обучающим образцом, в котором находится 40 файлов, на этапе обучения для Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 0565fa29f79a5269631539939c749a9ad93a029c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6362aef6f4e0e17b39429dfeebca796d58d2d13e
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069583"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557719"
 ---
-# <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Маркировка и обучение по релевантности в Office 365 Advanced eDiscovery
+# <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Расстановка тегов и релевантности в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -100,7 +100,7 @@ ms.locfileid: "42069583"
     
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   

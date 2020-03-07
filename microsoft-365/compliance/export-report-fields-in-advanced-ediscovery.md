@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: Описывает все поля, включенные в отчеты по экспорту для расширенного обнаружения электронных данных.
-ms.openlocfilehash: facd93422bbe41a9dc8c5f252cf08eab7fb308f2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8c932dac9218e2020bfcd57d21483728325e488f
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594620"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558210"
 ---
-# <a name="export-report-fields-in-office-365-advanced-ediscovery"></a>Экспорт полей отчета в Office 365 Advanced eDiscovery
+# <a name="export-report-fields-in-advanced-ediscovery-classic"></a>Экспорт полей отчета в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -47,7 +47,7 @@ ms.locfileid: "41594620"
 |Marked_as_pivot  <br/> |Ближайшие дубликаты  <br/> |Указывает, является ли файл сводным.  <br/> |Да  <br/> |Да  <br/> |
 |Similarity_percent  <br/> |Ближайшие дубликаты  <br/> |Процент сходства относительно Pivot.  <br/> |Да  <br/> |Да  <br/> |
 |Duplicate_subset  <br/> |Ближайшие дубликаты  <br/> |Уникальный идентификатор повторяющегося подмножества. Указывает, содержит ли файл точные дубликаты текста.  <br/> |Да  <br/> |Да  <br/> |
-|Дата  <br/> |Общие  <br/> |Дата файла (зависит от типа файла — Электронная почта: Дата отправки; документ: Дата изменения).  <br/> |Да  <br/> |Да  <br/> |
+|Date  <br/> |Общие  <br/> |Дата файла (зависит от типа файла — Электронная почта: Дата отправки; документ: Дата изменения).  <br/> |Да  <br/> |Да  <br/> |
 |Dominant_theme  <br/> |Анализ  <br/> |Основная тема файла.  <br/> |Да  <br/> |Да  <br/> |
 |Themes_list  <br/> |Темы  <br/> |Список названий тем.  <br/> |Да  <br/> |Да  <br/> |
 |ND_set  <br/> |екуисет  <br/> |Уникальный числовой идентификатор набора Неардупликате.  <br/> |Да  <br/> |Да  <br/> |
@@ -137,7 +137,7 @@ ms.locfileid: "41594620"
    
 ## <a name="related-topics"></a>Статьи по теме
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Экспорт данных дела с расширенным обнаружением электронных данных](export-case-data-in-advanced-ediscovery.md)
   

@@ -17,17 +17,17 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Узнайте, как подготовить результаты поиска контента в центре безопасности & соответствия требованиям в Office 365 для дальнейшего анализа с помощью расширенного средства обнаружения электронных данных.
-ms.openlocfilehash: 3ba115cf45aa3be7b9cb43b3a261687e073edba2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 01a09da78198c31ff88b0e539ae9b149b2fbdd02
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071024"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557859"
 ---
-# <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Подготовка результатов поиска для анализа в Office 365 Advanced eDiscovery
+# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Подготовка результатов поиска для расширенного обнаружения электронных данных (классический)
 
 > [!IMPORTANT]
-> Мы продолжаем инвестирование более новых версий Advanced eDiscovery и сообщаем о прекращении поддержки версии Office 365 Advanced eDiscovery (также известной как *Advanced eDiscovery 1.0*). Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+> Так как мы продолжим вкладывать новые версии расширенного обнаружения электронных данных, мы сообщаем выбытие Office 365 Advanced eDiscovery, также известное как *Advanced eDiscovery (классическая)* или *Advanced eDiscovery версии 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
 
 После успешного выполнения поиска, связанного с вариантом обнаружения электронных данных в центре безопасности & соответствия требованиям, можно подготовить результаты поиска для дальнейшего анализа с помощью Office 365 Advanced eDiscovery, что позволяет анализировать крупные неструктурированные наборы данных и сокращать объем данных, релевантный для юридического случая. Расширенные функции обнаружения электронных данных включают:
   
@@ -110,7 +110,7 @@ ms.locfileid: "42071024"
     
 ## <a name="next-steps"></a>Дальнейшие действия
 
-После добавления результатов поиска с обнаружением электронных данных в случае, следующий шаг состоит в использовании дополнительных средств обнаружения электронных данных для анализа данных и определения содержимого, на которое отвечает конкретное юридическое обращение. Сведения об использовании Advanced eDiscovery содержатся в статье [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md).
+После добавления результатов поиска с обнаружением электронных данных в случае, следующий шаг состоит в использовании дополнительных средств обнаружения электронных данных для анализа данных и определения содержимого, на которое отвечает конкретное юридическое обращение. Для получения сведений об использовании расширенного обнаружения электронных данных в разделе [Advanced eDiscovery (классический)](office-365-advanced-ediscovery.md).
   
 ## <a name="more-information"></a>Дополнительные сведения
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4ae98f6e396bdca0f1f1a4d6d360cf062878ba73
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a43c2e874092de70535c0150f10870b8a071aafc
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073276"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557979"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Azure DevOps Services для GDPR и CCPA
 
@@ -67,7 +67,7 @@ ms.locfileid: "42073276"
 ## <a name="see-also"></a>См. также
 
 - [Обязательства корпорации Майкрософт в рамках GDPR в отношении пользователей общедоступных корпоративных программных продуктов](https://docs.microsoft.com/legal/gdpr)
-- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
 - [Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
 - [Панель мониторинга конфиденциальности (Майкрософт)](https://account.microsoft.com/privacy)
 - [Центр реагирования на запросы о конфиденциальных данных (Майкрософт)](https://aka.ms/userprivacysite)

@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 0a62cf2ef40bbf9da219309cf75eed27ea8739e4
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: 21bda86075b2ab1e542e482e8c0a1edee640035e
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916904"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558079"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Оценка влияния на защиту данных в рамках GDPR
 
@@ -79,4 +79,4 @@ DPIA предоставляет подробные сведения о план�
 
 ## <a name="learn-more"></a>Подробнее
 
-- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Центр управления безопасностью (Майкрософт)](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

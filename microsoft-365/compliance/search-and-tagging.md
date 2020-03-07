@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: В Advanced eDiscovery модуль поиска и тегирования позволяет искать, просматривать и упорядочивать документы в своем случае. В настоящее время этот модуль находится в бета-версии.
-ms.openlocfilehash: a3597cf0abad7095de7a7c6857052f269d202598
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 012154e117e0d2b800f0e1077d43f2e1c1d10b0e
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081405"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557809"
 ---
 # <a name="search-and-tagging"></a>Поиск и маркировка
 
@@ -75,7 +75,7 @@ ms.locfileid: "42081405"
   
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   

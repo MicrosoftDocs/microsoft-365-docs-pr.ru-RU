@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: 'Узнайте о модуле релевантности в Office 365 Advanced eDiscovery, в том числе о рабочем процессе и рекомендациях по обучению и проверке файлов.  '
-ms.openlocfilehash: 0b160a5b251f4be7d23ef24a79164b824fe65b7f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5cb20d140e9369d6eccccb6936740030e6b5ca41
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080716"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557637"
 ---
-# <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Использование модуля релевантности в Office 365 Advanced eDiscovery
+# <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>Использование модуля релевантности в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -133,7 +133,7 @@ ms.locfileid: "42080716"
   
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
   
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   
