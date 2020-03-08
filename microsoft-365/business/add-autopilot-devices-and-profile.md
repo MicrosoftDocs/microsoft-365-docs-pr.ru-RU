@@ -17,19 +17,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса, чтобы они были готовы к использованию сотрудниками.
-ms.openlocfilehash: 8449d5a3672a20b0cd1ba61bbda863073138c04c
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550394"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561587"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 

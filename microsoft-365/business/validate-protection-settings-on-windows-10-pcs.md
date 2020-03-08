@@ -16,18 +16,18 @@ ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Проверка параметров защиты Microsoft 365 бизнес-приложений на устройствах с Windows 10 и проверка того, что пользователи не могут копировать данные компании в личные файлы или неуправляемые приложения.
-ms.openlocfilehash: 4d3d7e950311ac32606e700ebb35bf026ae091cc
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 5b798e0335188543fc308553f71085bcde8b7752
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550004"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560847"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Проверка параметров защиты приложений на компьютерах с Windows 10
 

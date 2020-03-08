@@ -17,18 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Узнайте о функциях обеспечения безопасности, которые поставляются с Microsoft 365 Business для защиты данных на компьютерах, телефонах и планшетах.
-ms.openlocfilehash: eb92131cc937875615342b2b0d39c78d51a8a99f
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 85f9b50225c3dbdb0c1b76c33d516aaa03bec773
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550044"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561267"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
 

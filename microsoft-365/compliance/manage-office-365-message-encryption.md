@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку Защита в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
-ms.openlocfilehash: fa328abc36ffa0d22bb2c96114b3bbb3dfa12ed3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 102d57681e049bf803b377fea97cc0fdb11affb2
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600516"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42562005"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
@@ -173,27 +173,15 @@ ms.locfileid: "41600516"
    Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $false
    ```
 
-## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only"></a>Убедитесь, что все внешние получатели используют портал OME для чтения шифрованной почты — только расширенное шифрование сообщений в Office 365
+## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail"></a>Убедитесь, что все внешние получатели используют портал OME для чтения зашифрованных сообщений
 
-Если вы используете расширенное шифрование сообщений Office 365, вы можете использовать настраиваемые шаблоны фирменной символики, чтобы заставить получателей получать почтовую почту, которая направляет им возможность читать зашифрованную электронную почту на портале OME, а не использовать Outlook или Outlook в Интернете. Это может потребоваться, если вы хотите лучше контролировать, как получатели используют полученные сообщения. Например, если внешние получатели просматривают электронную почту на веб-портале, вы можете задать дату истечения срока действия для электронной почты и отозвать электронную почту. Эти функции поддерживаются только на портале OME. При создании правил для почтового процесса можно использовать параметр шифрования и параметр "не пересылать".
+Вы можете использовать настраиваемые шаблоны фирменного стиля, чтобы заставить получателей получать почтовую почту, которая направляет им возможность читать зашифрованную электронную почту на портале OME, а не использовать Outlook или Outlook в Интернете. Это может потребоваться, если вы хотите лучше контролировать, как получатели используют полученные сообщения. Например, если внешние получатели просматривают электронную почту на веб-портале, вы можете задать дату истечения срока действия для электронной почты и отозвать электронную почту. Эти функции поддерживаются только на портале OME. При создании правил для почтового процесса можно использовать параметр шифрования и параметр "не пересылать".
 
-### <a name="create-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email-to-be-revocable-and-expire-in-7-days"></a>Создание настраиваемого шаблона для принудительного использования портала OME всеми внешними получателями, а для шифрования электронной почты — ревокабле и истечения срока действия в течение 7 дней
+### <a name="use-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email"></a>Использование настраиваемого шаблона для принудительного использования портала OME и шифрования электронной почты всеми внешними получателями
 
 1. Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365 и запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Запустите командлет New – OMEConfiguration:
-
-   ```powershell
-   New-OMEConfiguration -Identity "<template name>" -ExternalMailExpiryInDays 7
-   ```
-
-   где `template name` — это имя, которое вы хотите использовать для шаблона настраиваемого фирменного стиля Office 365. For example,
-
-   ```powershell
-   New-OMEConfiguration -Identity "<One week expiration>" -ExternalMailExpiryInDays 7
-   ```
-
-3. Запустите командлет New – TransportRule:
+2. Запустите командлет New – TransportRule:
 
    ```powershell
    New-TransportRule -name "<mail flow rule name>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "<option name>" -ApplyRightsProtectionCustomizationTemplate "<template name>"
@@ -205,18 +193,18 @@ ms.locfileid: "41600516"
 
    - `option name`может иметь `Encrypt` значение `Do Not Forward`или.
 
-   - `template name`— Это имя, которое вы присвоили настраиваемому шаблону фирменной символики, например `One week expiration`.
+   - `template name`— Это имя, которое вы присвоили настраиваемому шаблону фирменной символики, например `OME Configuration`.
 
-   Чтобы зашифровать все внешние сообщения с помощью шаблона "срок действия одной недели" и применить параметр только шифрование:
+   Чтобы зашифровать весь внешний адрес электронной почты с помощью шаблона "одна неделя в неделю" и применить параметр только шифрование:
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<One week expiration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
    ```
 
-   Чтобы зашифровать все внешние сообщения с помощью шаблона "срок действия одной недели" и применить параметр "не пересылать":
+   Чтобы зашифровать все внешние сообщения электронной почты с помощью шаблона "Конфигурация OME" и применить параметр "не пересылать":
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<One week expiration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
    ```
 
 ## <a name="customize-the-appearance-of-email-messages-and-the-ome-portal"></a>Настройка внешнего вида сообщений электронной почты и портала OME
