@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 73c4c9864713432d318b0b3cec9fbaf395deff45
-ms.sourcegitcommit: 0df099d2e1028bbba8b6371dc5fcd021dddc902b
+ms.openlocfilehash: fa970b28939ad43bf6a2717e603013277bc9130f
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374150"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42569181"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Включение Защиты от угроз (Майкрософт)
 
@@ -36,7 +36,7 @@ ms.locfileid: "42374150"
 Чтобы получить лучшую защиту и оптимизировать защиту от угроз Майкрософт, мы рекомендуем развернуть все поддерживаемые службы в сети. Для получения дополнительных сведений [Ознакомьтесь с разворачиванием поддерживаемых служб](deploy-supported-services.md).
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>Проверка допустимости лицензий и необходимых разрешений
-Лицензия Microsoft 365, а также лицензия на безопасность, A5 или A5 (Microsoft) или действительную комбинацию лицензий предоставляют доступ к поддерживаемым службам и дает право использовать защиту от угроз Майкрософт в центре безопасности Майкрософт 365.
+Лицензия Microsoft 365, в том действиях, в том, чтобы получить доступ к поддерживаемым службам, и предоставляет доступ к поддерживаемым службам и предоставляет Вам возможность использовать защиту от угроз Майкрософт в центре безопасности Майкрософт 365.
 
 Для получения подробных сведений о лицензировании [Прочтите требования к лицензированию](prerequisites.md#licensing-requirements).
 

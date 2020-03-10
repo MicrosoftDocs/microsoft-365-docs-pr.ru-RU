@@ -1,7 +1,7 @@
 ---
 title: Познакомьтесь с языком запросов расширенной охоты на угрозы в службе защиты от угроз (Майкрософт)
 description: Создайте ваш первый запрос охоты на угрозы и узнайте о распространенных операторах и других аспектах языка запросов расширенной охоты на угрозы
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, язык, сведения, первый запрос, телеметрии, события, телеметрия, пользовательские обнаружения, схема, Кусто, операторы, типы данных
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, язык, сведения, первый запрос, телеметрии, события, телеметрии, пользовательские обнаружения, схема, события, телеметрии, пользовательские обнаружения, схема, Кусто, операторы, типы данных, PowerShell Загрузка, пример запроса
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,83 +17,96 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: eda9b893057afd54a644f0091bf4e1b421bd5439
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 7f2cf7f62060774343354467d27b76456f6581fc
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234698"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "42567035"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-
-
 Расширенный поиск основывается на [языке запросов Kusto](https://docs.microsoft.com/azure/kusto/query/). С помощью синтаксиса и операторов Кусто можно создавать запросы, которые позволяют найти информацию в [схеме](advanced-hunting-schema-tables.md), специально структурированной для расширенного поиска. Чтобы лучше понять эти концепции, запустите ваш первый запрос.
 
 ## <a name="try-your-first-query"></a>Попробуйте выполнить первый запрос
 
-Чтобы выполнить ваш первый запрос, в центре безопасности Microsoft 365 перейдите в раздел **Охота**. Используйте следующий пример:
+В центре безопасности Microsoft 365 выберите Поиск, **чтобы запустить** первый запрос. Используйте следующий пример:
 
 ```kusto
-// Finds PowerShell execution events that could involve a download.
-DeviceProcessEvents 
+// Finds PowerShell execution events that could involve a download
+union DeviceProcessEvents, DeviceNetworkEvents
 | where Timestamp > ago(7d)
-| where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE") 
-| where ProcessCommandLine has "Net.WebClient"
-        or ProcessCommandLine has "DownloadFile"
-        or ProcessCommandLine has "Invoke-WebRequest"
-        or ProcessCommandLine has "Invoke-Shellcode"
-        or ProcessCommandLine contains "http:"
-| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+// Pivoting on PowerShell processes
+| where FileName in~ ("powershell.exe", "powershell_ise.exe")
+// Suspicious commands
+| where ProcessCommandLine has_any("WebClient",
+ "DownloadFile",
+ "DownloadData",
+ "DownloadString",
+"WebRequest",
+"Shellcode",
+"http",
+"https")
+| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
+FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
 Так это будет выглядеть в расширенной охоте.
 
-![Изображение запроса расширенной охоты в ATP в Microsoft Defender](../../media/advanced-hunting-query-example.png)
+![Изображение запроса на расширенный поиск по защите от угроз Майкрософт](../../media/advanced-hunting-query-example.png)
 
-Запрос начинается с короткого комментария, описывающего назначение запроса. Это будет полезным, если впоследствии вы решите сохранить свой запрос и поделиться им с другими пользователями в вашей организации.
+В начале запроса добавлен краткий комментарий, описывающий его назначение. Это поможет в том случае, если позже вы решите сохранить запрос и поделиться им с другими пользователями в Организации. 
 
 ```kusto
-// Finds PowerShell execution events that could involve a download.
-DeviceProcessEvents
+// Finds PowerShell execution events that could involve a download
 ```
 
-Как правило, запрос начинается с имени таблицы, за которым следует ряд элементов, начинающихся с вертикальной черты (`|`). В этом примере мы начинаем с добавления имени таблицы `DeviceProcessEvents` и при необходимости добавляем элементы, отмеченные вертикальной чертой.
+Как правило, запрос начинается с имени таблицы, за которым следует ряд элементов, начинающихся с вертикальной черты (`|`). В этом примере мы начнем с создания объединения двух таблиц `DeviceProcessEvents` и `DeviceNetworkEvents`добавления элементов перегрузки по мере необходимости.
 
-Первый элемент, отмеченный вертикальной чертой, является фильтром времени, ограниченном предыдущими семью днями. Сохранение как можно более узкого временного диапазона гарантирует, что запросы работают хорошо, возвращают управляемые результаты и не превышают времени ожидания.
+```kusto
+union DeviceProcessEvents, DeviceNetworkEvents
+```
+Первый элемент, который является фильтром по времени, ограничивается на предыдущие семь дней. Сохранение как можно более узкого временного диапазона гарантирует, что запросы работают хорошо, возвращают управляемые результаты и не превышают времени ожидания.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
-За диапазоном времени непосредственно следует поиск файлов, представляющих приложение PowerShell.
+За диапазоном времени следует Поиск имен файлов процессов, представляющих приложение PowerShell.
 
-```kusto
-| where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE")
+```
+// Pivoting on PowerShell processes
+| where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
-Затем запрос ищет командные строки, которые, как правило, используются с PowerShell для скачивания файлов.
+Затем запрос выполняет поиск строк в командных строках, которые обычно используются для загрузки файлов с помощью PowerShell.
 
 ```kusto
-| where ProcessCommandLine has "Net.WebClient"
-        or ProcessCommandLine has "DownloadFile"
-        or ProcessCommandLine has "Invoke-WebRequest"
-        or ProcessCommandLine has "Invoke-Shellcode"
-        or ProcessCommandLine contains "http:"
+// Suspicious commands
+| where ProcessCommandLine has_any("WebClient",
+ "DownloadFile",
+ "DownloadData",
+ "DownloadString",
+"WebRequest",
+"Shellcode",
+"http",
+"https")
 ```
-
-Теперь, когда ваш запрос четко определяет данные, которые вы хотите найти, вы можете добавить элементы, которые определяют то, как будут выглядеть результаты. `project` возвращает определенные столбцы и `top` ограничивает количество результатов, делая результаты хорошо отформатированными и достаточно большими и простыми в обработке.
+Теперь, когда ваш запрос четко определяет данные, которые вы хотите найти, вы можете добавить элементы, которые определяют то, как будут выглядеть результаты. `project`Возвращает определенные столбцы и `top` позволяет ограничить количество результатов, чтобы результаты правильно отформатированы и были достаточно велики и легко обработаны.
 
 ```kusto
-| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
+FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Нажмите кнопку **Выполнить запрос**, чтобы увидеть результаты. Вы можете развернуть экран, чтобы сосредоточиться на вашем запросе охоты и результатах.
+Нажмите кнопку **Выполнить запрос**, чтобы увидеть результаты. Выберите значок развернуть в правом верхнем углу редактора запросов, чтобы сосредоточиться на запросе поиска и результатах поиска.
+
+![Изображение элемента управления "развернуть" в редакторе запросов поиска с расширенным поиском](../../media/advanced-hunting-expand.png)
 
 ## <a name="learn-common-query-operators-for-advanced-hunting"></a>Познакомьтесь с обычными операторами запросов для расширенной охоты
 
@@ -143,5 +156,5 @@ DeviceProcessEvents
 - [Активная охота на угрозы](advanced-hunting-overview.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
-- [Общие сведения о схеме](advanced-hunting-schema-tables.md)
+- [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

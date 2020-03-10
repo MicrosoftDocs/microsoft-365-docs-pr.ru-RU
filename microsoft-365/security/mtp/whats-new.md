@@ -15,16 +15,18 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 165225f225380caf0131205ec19f5320dab1d278
-ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+ms.openlocfilehash: d95879816193eb00881835b63f2aae3e232ddfb7
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409966"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42569073"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Что нового в службе защиты от угроз (Майкрософт)?
 
 Приведенные ниже функции обычно доступны в новейшей версии Microsoft Threat protection.
+
+RSS-канал: получите уведомление, когда эта страница будет обновлена, скопировав и вставив следующий URL-адрес в устройство чтения веб-каналов:`https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us`
 
 ## <a name="february-2020"></a>Февраль 2020 г.
 - [Инциденты](incidents-overview.md) <br> Точно знать, где началась атака, и другие сведения, которые помогут вам понять степень атаки.
