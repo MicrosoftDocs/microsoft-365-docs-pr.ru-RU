@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5861348bb7c447c878f7f203acfd39fdf4c0a5f8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 733abf925c80f90527b67660b84aea3e0482e906
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078766"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543758"
 ---
 # <a name="communication-compliance-feature-reference"></a>Справочные материалы по функциям обеспечения соответствия требованиям
 
@@ -65,14 +65,14 @@ ms.locfileid: "42078766"
 
 С помощью политик соответствия требованиям можно выбрать сканирование сообщений на одной или нескольких коммуникационных платформах в качестве группы или автономных источников. Связи, полученные на этих платформах, хранятся в течение семи лет для каждой политики по умолчанию, даже если пользователи оставляют свою организацию и их почтовые ящики удаляются.
 
-- **Microsoft Teams**: беседы в чате и связанные вложения в общедоступных и закрытых каналах Microsoft Teams, а также для отдельных сеансов. Сеансы команд, удовлетворяющие условиям политики соответствия требованиям, обрабатываются каждые 24 часа и затем доступны в отчетах о соответствии требованиям. Используйте следующие конфигурации группового управления для управления обсуждениями отдельных пользователей и общения каналов в teams:
+- **Microsoft Teams**: беседы в чате и связанные вложения в общедоступных и закрытых каналах Microsoft Teams, а также для отдельных сеансов. Для обработки сеансов команд и вложений, соответствующих условиям политики соответствия требованиям, может потребоваться до 24 часов. Используйте следующие конфигурации группового управления для управления обсуждениями отдельных пользователей и общения каналов в teams:
 
     - **Для общения в Microsoft teams:** Назначьте отдельных пользователей или назначьте [группу рассылки](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) политике соответствия для связи. Этот параметр предназначен для отношений "один к одному" или "один-ко-многим" для пользователей и чата.
     - **Для обмена данными по каналам teams:** Назначьте каждому каналу команды Майкрософт или группе Office 365, которая будет использоваться для проверки, содержит определенного пользователя в политике соответствия для связи. Если вы добавите одного и того же пользователя в другие каналы Microsoft Teams или группы Office 365, обязательно добавьте эти новые каналы и группы в политику соответствия требованиям к общению.
 
-- **Электронная почта Exchange**: почтовые ящики, размещенные в Exchange Online в составе подписки на Microsoft 365 или Office 365, подходят для сканирования сообщений. Сообщения электронной почты и вложения, удовлетворяющие условиям политики соответствия требованиям, мгновенно доступны в отчетах о соответствии требованиям. Поддерживаемые типы вложений для обеспечения соответствия условиям связи совпадают с [типами файлов, которые поддерживаются для проверки содержимого правила обработки почты Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
+- **Электронная почта Exchange**: почтовые ящики, размещенные в Exchange Online в составе подписки на Microsoft 365 или Office 365, подходят для сканирования сообщений. Для обработки сообщений электронной почты и вложений, соответствующих условиям политики соответствия требованиям, могут потребоваться до 24 часов. Поддерживаемые типы вложений для обеспечения соответствия условиям связи совпадают с [типами файлов, которые поддерживаются для проверки содержимого правила обработки почты Exchange](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection).
 
-- **Skype для бизнеса Online**: возможности общения и связанные вложения в Skype для бизнеса Online можно заносить в Skype для бизнеса Online. Беседы Skype для бизнеса Online, удовлетворяющие условиям политики соответствия требованиям, обрабатываются каждые 24 часа и затем доступны в отчетах о соответствии требованиям. Защищенные беседы в чате помещаются из [предыдущих бесед, сохраненных в Skype для бизнеса Online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Используйте следующую конфигурацию группового управления, чтобы вести надзор за общением пользователей в Skype для бизнеса Online:
+- **Skype для бизнеса Online**: возможности общения и связанные вложения в Skype для бизнеса Online можно заносить в Skype для бизнеса Online. Для обработки сеансов Skype для бизнеса Online, соответствующих условиям политики соответствия требованиям, может потребоваться до 24 часов. Защищенные беседы в чате помещаются из [предыдущих бесед, сохраненных в Skype для бизнеса Online](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2).  Используйте следующую конфигурацию группового управления, чтобы вести надзор за общением пользователей в Skype для бизнеса Online:
 
     - **Для обмена данными в Skype для бизнеса Online**: назначьте отдельных пользователей или назначьте [группу рассылки](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) политике соответствия. Этот параметр предназначен для отношений "один к одному" или "один-ко-многим" для пользователей и чата.
 
@@ -286,16 +286,16 @@ ms.locfileid: "42078766"
 
 Вы также можете просматривать действия аудита в едином журнале аудита или с помощью командлета PowerShell [Search — UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) .
 
-Например, в приведенном ниже примере возвращаются действия для всех действий супервизора (политик и правил) и подробные сведения о каждом из них:
+Например, в приведенном ниже примере возвращаются действия для всех действий супервизора (политик и правил):
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType AeD -Operations SupervisoryReviewTag
 ```
 
 В этом примере возвращаются действия по обновлению для политик соответствия требованиям.
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
 ```
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?

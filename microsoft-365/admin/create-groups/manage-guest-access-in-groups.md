@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Узнайте, как добавлять гостей в группу Office 365, просматривать гостевых пользователей и использовать PowerShell для управления гостевым доступом.
-ms.openlocfilehash: 02a951b1fbf43c22f12a89663a0aee279b191088
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e4d71919fa5ebfb97a6bab8013fc6bc54ac071a4
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352620"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604006"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Управление гостевым доступом в группах Office 365
 
@@ -43,8 +43,8 @@ ms.locfileid: "42352620"
 
 Гостевой доступ в группах часто используется в составе более широкого сценария, включающего SharePoint или Teams. Эти службы имеют собственные параметры общего доступа к гостям. Для получения полных инструкций по настройке общего доступа к гостевым компьютерам в группах, SharePoint и Teams, ознакомьтесь со статьей:
 
-- [Совместная работа с гостями на сайте](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
-- [Совместная работа с гостями в команде](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
+- [Совместная работа с гостями на сайте](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-site)
+- [Совместная работа с гостями в команде](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-team)
 
 ## <a name="manage-groups-guest-access"></a>Управление группами гостевого доступа
 

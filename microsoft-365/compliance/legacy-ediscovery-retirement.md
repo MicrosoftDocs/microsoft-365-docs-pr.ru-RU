@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: 0ce85a1c73de38f0032f3e667add77a424d5486e
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: 92b6648b603286871956db64631d334df2384112
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543218"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42605276"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
 
@@ -278,6 +278,13 @@ ms.locfileid: "42543218"
 </td>
 </tr>
 <tr class="odd">
+<td>Удаление групповых сообщений электронной почты из почтового ящика</td>
+<td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Настройка политики архивации и удаления для почтовых ящиков</span></a></p>
+<p></p></td>
+<td><p>Администраторы могут создать политику архивации и удаления, которая автоматически перемещает элементы в архивный почтовый ящик пользователя и автоматически удаляет элементы из почтового ящика.</p>
+</td>
+</tr>
+<tr class="even">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
 <td> </td>
 <td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Альтернативные решения можно найти в разделе вопросы и ответы в разделе <strong>командлетов * – MailboxSearch</strong> . </td>
