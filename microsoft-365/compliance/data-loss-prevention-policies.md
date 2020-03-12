@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: С помощью политики защиты от потери данных (DLP) в Центре безопасности и соответствия требованиям можно выявлять, отслеживать и автоматически защищать конфиденциальную информацию в Office 365.
 ms.openlocfilehash: 722afcb7bdebb6004d9a7ab365ac6038fe1d31a4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076695"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543708"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Обзор функции защиты от потери данных
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
