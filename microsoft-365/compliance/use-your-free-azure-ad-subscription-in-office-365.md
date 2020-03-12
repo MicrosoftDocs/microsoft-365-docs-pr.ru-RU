@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Сведения о том, как получать доступ к Azure Active Directory в составе платной подписки организации на Office 365.
-ms.openlocfilehash: b8487b245001ffc73b975ed8f756b83e7093b1e7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: fe3829d349e5721ebdcf0688c1f5b2bd3c9f7f45
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069225"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604096"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Использование бесплатной подписки на Azure Active Directory в Office 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "42069225"
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
-Для доступа к порталу Azure (шаг 1, описанный далее) используйте сеанс закрытого просмотра, а не обычный, так как это предотвратит передачу текущих учетных данных в Azure. Чтобы начать сеанс просмотра InPrivate в Internet Explorer или сеанс закрытого просмотра в Mozilla FireFox, просто нажмите клавиши CTRL+SHIFT+P. Чтобы начать сеанс закрытого просмотра в Google Chrome (зовется режимом инкогнито), нажмите клавиши CTRL+SHIFT+N.
+Для доступа к порталу Azure (шаг 1, описанный далее) используйте сеанс приватного просмотра, а не обычный, так как это предотвратит передачу текущих учетных данных в Azure. Чтобы начать сеанс просмотра InPrivate в Microsoft Edge, Internet Explorer или Mozilla FireFox, просто нажмите клавиши CTRL+SHIFT+P. Чтобы начать сеанс приватного просмотра в Google Chrome (называется режимом инкогнито), нажмите клавиши CTRL+SHIFT+N.
 
 ## <a name="access-azure-active-directory"></a>Доступ к Azure Active Directory
 

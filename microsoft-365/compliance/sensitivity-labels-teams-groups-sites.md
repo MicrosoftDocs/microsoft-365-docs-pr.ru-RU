@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки чувствительности для защиты контента на сайтах SharePoint и Microsoft Teams, а также в группах Office 365.
-ms.openlocfilehash: 934999f3c1b55c738ebc30eb9b87c65c5cc08376
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: b1bac1cbe094a1e56c05dd7fd1aa5377f0a85ce5
+ms.sourcegitcommit: 62eac95c27295ba285e28cec5acf815314fbfd00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550426"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601356"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Используйте метки чувствительности для защиты контента в Microsoft Teams, группах Office 365 и сайтах SharePoint (предварительный просмотр)
 
@@ -329,4 +329,8 @@ ms.locfileid: "42550426"
 
 ### <a name="team-group-or-sharepoint-site-creation-errors"></a>Ошибки при создании команды, группы или сайта SharePoint
 Если при общедоступном предварительном просмотре возникают ошибки создания, вы можете отключить метки чувствительности для Microsoft Teams, групп Office 365 и сайтов SharePoint, используя те же инструкции из раздела [Включить поддержку меток чувствительности в PowerShell](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell). Но чтобы отключить предварительную версию на шаге 5, отключите функцию с помощью `$setting["EnableMIPLabels"] = "False"`.
+
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+Просмотрите запись вебинара и ответы на вопросы об [использовании меток конфиденциальности в Microsoft Teams, группах Office 365 и сайтах SharePoint Online](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/using-sensitivity-labels-with-microsoft-teams-o365-groups-and/ba-p/1221885#M1380).
 
