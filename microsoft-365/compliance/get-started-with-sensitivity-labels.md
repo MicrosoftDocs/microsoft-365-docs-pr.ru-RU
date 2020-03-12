@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.date: 3/05/2020
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 3e9dd5c02b3502eab2d3abfe5d65b5baebe18cda
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: 6707a61ae2fd9f7dddb7aa63927a53f1795b5127
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "42569185"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583126"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -55,6 +55,9 @@ ms.locfileid: "42569185"
 Кроме того, вы можете создать новую группу ролей и добавить в нее роль **Администратор меток конфиденциальности** или **Конфигурация организации**. Инструкции см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Эти разрешения необходимы только для создания и настройки меток конфиденциальности и соответствующих политик меток. Они не требуются для применения меток в приложениях или службах.
+
+> [!NOTE]
+> **Чувствительность Label Reader** - это новая роль, которая в настоящее время распространяется на арендаторов и изначально поддерживается для командлетов маркировки PowerShell, а затем и для центров маркировки администраторов.
 
 ## <a name="common-scenarios-for-sensitivity-labels"></a>Обычные сценарии использования меток конфиденциальности
 
