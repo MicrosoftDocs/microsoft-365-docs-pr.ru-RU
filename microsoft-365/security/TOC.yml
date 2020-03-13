@@ -394,7 +394,7 @@
               href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: Использование журналов учета угроз
               href: ./office-365-security/threat-trackers.md
-            - name: Использование имитатора атак в Office 365
+            - name: Эмулятор атак в Office 365 ATP
               href: ./office-365-security/attack-simulator.md
             - name: Безопасные документы в Office 365 ATP
               href: ./office-365-security/safe-docs.md
