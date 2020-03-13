@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Предлагаем упрощенную пошаговую инструкцию для базовой инфраструктуры Microsoft 365 для предприятий для некорпоративных организаций.
-ms.openlocfilehash: 2620b210c40d5c838cf1a4be4fcd67bf3de03d29
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0d372578539ff05fcd2cadaa45c554921ee68f71
+ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068218"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42612649"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Базовая инфраструктура Microsoft 365 для предприятий для некорпоративных организаций
 
@@ -292,7 +292,7 @@ Microsoft 365 для предприятий включает Microsoft Intune д
 
   Примеры данных: финансовые и юридические сведения, данные об исследованиях и разработке новых продуктов или услуг.
 
-- Строго контролируемый
+- Строго регулируемый уровень
 
   Примеры данных: личные сведения ваших клиентов и партнеров, интеллектуальная собственность или стратегические планы вашей организации.
 
@@ -371,7 +371,7 @@ Microsoft 365 для предприятий включает Microsoft Intune д
 
 В центре администрирования Microsoft 365 можно добавить учетную запись пользователя для нескольких групп Azure AD. В окне свойств учетной записи пользователя щелкните **Управление группами > Добавление членства в группах**.
 
-Если вы хотите использовать оболочку PowerShell, см данную [загружаемую книгу Excel](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure-non-enterprises/Group-License-Mgmt-PowerShell.xlsx), которая создает команды PowerShell на основе указанной учетной записи пользователя и выбранных имен групп.
+Если вы хотите использовать оболочку PowerShell, см данную [загружаемую книгу Excel](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-foundation-infrastructure-non-enterprises/Group-License-Mgmt-PowerShell.xlsx), которая создает команды PowerShell на основе указанной учетной записи пользователя и выбранных имен групп.
 
 ### <a name="new-employee-with-a-cloud-only-user-account"></a>Новый сотрудник с полностью облачной учетной записью
 
