@@ -1,7 +1,6 @@
 ---
 title: Предоставление внешнего общего доступа к сайтам и файлам
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: twerner
 author: twernermsft
 manager: scotv
@@ -21,20 +20,20 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: 'Узнайте, как предоставлять доступ к сайтам и файлам пользователям за презнакомыми пользователями организации. '
-ms.openlocfilehash: 83b111153389bf75a92bcc32af9563bf7432bf8a
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: a0a98c9ead997e4748804e4f8a87533a9943ec4f
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42603996"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610576"
 ---
 # <a name="share-sites-and-files-externally"></a>Предоставление внешнего общего доступа к сайтам и файлам
 
 Чтобы работать совместно с пользователями за пределами вашей организации, вы можете получить доступ ко всем сайтам или отдельным файлам извне. Если вы хотите перейти непосредственно к настройке общего доступа, выберите нужный сценарий:
 
-- [Совместная работа с гостями над документом](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
-- [Совместная работа с гостями на сайте](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-site)
-- [Совместная работа с гостями в команде](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-team)
+- [Совместная работа с гостями над документом](../../solutions/collaborate-on-documents.md)
+- [Совместная работа с гостями на сайте](../../solutions/collaborate-in-site.md)
+- [Совместная работа с гостями в команде](../../solutions/collaborate-as-team.md)
   
 ## <a name="deciding-how-to-share-your-content"></a>Предоставление доступа к контенту
 

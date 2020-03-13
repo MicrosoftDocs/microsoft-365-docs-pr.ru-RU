@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Обзор и настройка управления удостоверениями для клиента Azure AD.
 ms.openlocfilehash: 5b7b1c91735611046133a0247ae028ed090106fd
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067356"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543998"
 ---
 # <a name="step-6-configure-identity-governance"></a>Шаг 6. Настройка управления удостоверениями
 

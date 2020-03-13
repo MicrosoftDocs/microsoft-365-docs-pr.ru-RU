@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Добавляйте учетные записи пользователей и группы непосредственно в облаке или с помощью синхронизации с локальным каталогом.
 ms.openlocfilehash: 324d4662f868a4a92693b43c6bc0f75c11f20519
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067383"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544008"
 ---
 # <a name="step-4-add-your-user-accounts"></a>Шаг 4. Добавление учетных записей пользователей
 

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2b0e033bb80fd73d5b5194bd59ab9c9f14a644b3
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: 1c06562cc0ff8cdc43efb3a8f62924c435883408
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569052"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610566"
 ---
 # <a name="deploy-supported-services"></a>Развертывание поддерживаемых служб
 
@@ -71,7 +71,7 @@ ms.locfileid: "42569052"
 
 | Служба | Инструкции по подготовке | Исходная конфигурация |
 | ------ | ------ | ------ |
-| ATP в Microsoft Defender | [Проверка подготовки лицензирования и завершения настройки для пакета ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/licensing) | *Сведения о подготовке* |
+| ATP в Microsoft Defender | [Руководство по развертыванию Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases) | *Сведения о подготовке* |
 | Office 365 ATP | *Нет, подготовлено с помощью Office 365* | [Настройка политик ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
 | Azure ATP | [Краткое руководство: создание экземпляра Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) | *Сведения о подготовке* |
 | Microsoft Cloud App Security | *Нет* | [Краткое руководство: Начало работы с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security) |

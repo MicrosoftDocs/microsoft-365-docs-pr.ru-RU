@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Учетные записи глобальных администраторов нуждаются в особой обработке, чтобы защитить их от компрометации учетных данных.
 ms.openlocfilehash: 27b76671581ebd2dac32304752a85f8a6f60ac98
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067346"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544038"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>Шаг 1. Создание и защита учетных записей глобальных администраторов
 

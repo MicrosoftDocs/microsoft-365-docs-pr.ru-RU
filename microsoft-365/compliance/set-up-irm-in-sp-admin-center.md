@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: f5aae2ba78997a8277989dcc3b5e68e00f0bfcb4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3705c08b64ffbf719dbce91396c86976db14fea0
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069615"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610626"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
@@ -68,7 +68,10 @@ SharePoint Online поддерживает шифрование следующи
 - Форматы Office Open XML для следующих программ Microsoft Office: Word, Excel и PowerPoint
     
 - Формат XML Paper Specification (XPS)
-    
+ 
+> [!NOTE]
+> Защита IRM не может быть применена к защищенным документам (например, PDF-файлам с цифровой подписью), так как SharePoint должен открыть документ при отправке. 
+
 ## <a name="next-steps"></a>Дальнейшие действия
 <a name="__toc220831191"> </a>
 
@@ -77,4 +80,3 @@ SharePoint Online поддерживает шифрование следующи
 Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьей развертывание нового клиента синхронизации OneDrive для Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
   
 [Top of page](#introduction)  
-

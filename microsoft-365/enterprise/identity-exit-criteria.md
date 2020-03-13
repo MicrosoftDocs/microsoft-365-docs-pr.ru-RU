@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует условиям Microsoft 365 корпоративный для служб и инфраструктуры, основанных на удостоверениях.
 ms.openlocfilehash: 3fd4d0a1df50d55cb7a21668b609341d0c01aa35
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067314"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544068"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 
