@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Вы можете создавать пользовательские входы на устройствах с Windows и в Microsoft 365 более безопасным образом.
 ms.openlocfilehash: c541f5b74fe3ea6e94b002212f21ec8645e8e87e
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544018"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633517"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>Шаг 3. Защита пользовательских входов и управление ими
 

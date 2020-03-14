@@ -25,11 +25,11 @@ ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
 ms.openlocfilehash: 1b5516cdc87d792425c89a486ae9cb0bc2bc0ee4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246437"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633717"
 ---
 # <a name="pay-for-your-office-365-for-business-subscription"></a>Оплата подписки на Office 365 для бизнеса
 
@@ -287,7 +287,7 @@ ms.locfileid: "42246437"
 
 Если вы изменили первоначальные причины для выбора счета, кредитной карты или банковского счета, например, если вы настроили подписку так, чтобы сумма платежа была ниже, чтобы вы больше не выстроили платежи по счетам, вы можете изменить метод оплаты. Дополнительные сведения см в разделе [изменение способа оплаты](change-payment-method.md).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление, удаление и обновление данных кредитной карты или банковского счета](add-update-or-remove-credit-card-or-bank-account.md)
 

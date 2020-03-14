@@ -1,5 +1,5 @@
 ---
-title: Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
+title: Этап 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,14 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует условиям Microsoft 365 корпоративный для служб и инфраструктуры, основанных на удостоверениях.
-ms.openlocfilehash: 3fd4d0a1df50d55cb7a21668b609341d0c01aa35
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: 433dec5e84c88dc6422619293f435f2d7199ea2e
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544068"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637292"
 ---
-# <a name="phase-2-identity-infrastructure-exit-criteria"></a>Шаг 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
+# <a name="phase-2-identity-infrastructure-exit-criteria"></a>Этап 2. Условия, при выполнении которых можно считать инфраструктуру идентификации настроенной
 
 ![Этап 2. Удостоверения](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 

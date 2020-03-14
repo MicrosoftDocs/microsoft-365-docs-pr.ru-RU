@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: В этой статье рассказывается, как настроить различные способы классификации данных в организации.
 ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544188"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633477"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Шаг 2. Настройка классификации для среды
 

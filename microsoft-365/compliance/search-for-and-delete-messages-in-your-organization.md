@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Используйте поиск и очистку в Центре безопасности и соответствия требованиям Office 365 для удаления сообщения электронной почты из всех почтовых ящиков организации.
 ms.openlocfilehash: 27340bf832feee0dc7b5222f187816b0dfa1bb59
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601556"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634167"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Поиск и удаление сообщений электронной почты из организации Office 365
 

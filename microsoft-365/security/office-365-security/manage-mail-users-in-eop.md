@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: "Определение почтовых пользователей \x97 важный этап управления службой Exchange Online Protection (EOP)."
 ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088588"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633797"
 ---
 # <a name="manage-mail-users-in-eop"></a>Управление почтовыми пользователями в EOP
 
@@ -53,7 +53,7 @@ ms.locfileid: "42088588"
 
 В этом разделе представлены сведения об управлении пользователями электронной почты с помощью синхронизации службы каталогов.
 
-**Примечания**:
+**Примечания.**
 
 - Если вы используете синхронизацию службы каталогов для управления получателями, вы по-прежнему можете добавлять пользователей в центр администрирования Microsoft 365 и управлять ими, но они не будут синхронизированы с локальной службой Active Directory. Это связано с тем, что синхронизация службы каталогов синхронизирует только получателей **из** локальной службы Active Directory **с** облаком.
 

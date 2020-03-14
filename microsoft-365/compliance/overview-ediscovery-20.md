@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: В этой статье описывается новая версия расширенного обнаружения электронных данных в Microsoft 365.
 ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557929"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634287"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Обзор расширенного решения обнаружения электронных данных в Microsoft 365
 

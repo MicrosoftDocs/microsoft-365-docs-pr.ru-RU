@@ -18,15 +18,15 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты по обеспечению безопасности электронной почты для вашей организации. Отчеты о безопасности электронной почты доступны в центре &amp; безопасности и соответствия требованиям.
 ms.openlocfilehash: fba10207fe0b7a8e02aa96f9c8513e1e5b2cd61f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084692"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634067"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям
 
-В [центре соответствия требованиям безопасности &amp; ](https://protection.office.com) доступны разнообразные отчеты, которые помогут вам понять, как функции безопасности электронной почты, такие как защита от нежелательной почты, защита от вредоносных программ и функции шифрования в Office 365 защищают вашу организацию. Если у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-these-reports), вы можете просмотреть эти отчеты в центре обеспечения &amp; безопасности, перейдя на **** \> **панель мониторинга**отчетов.
+В [центре соответствия требованиям безопасности &amp; ](https://protection.office.com) доступны разнообразные отчеты, которые помогут вам понять, как функции безопасности электронной почты, такие как защита от нежелательной почты, защита от вредоносных программ и функции шифрования в Office 365 защищают вашу организацию. Если у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-these-reports), вы можете просмотреть эти отчеты в центре обеспечения &amp; безопасности, перейдя на **Reports** \> **панель мониторинга**отчетов.
   
 ![Панель мониторинга, на которой вы видите, как работает Advanced Threat protection](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
@@ -233,7 +233,7 @@ ms.locfileid: "42084692"
 
 Если вы не видите данные в отчетах, дважды проверьте правильность настройки политик. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Защита от спама электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
   

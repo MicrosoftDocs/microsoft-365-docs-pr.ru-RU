@@ -17,11 +17,11 @@ search.appverid:
 - MOE150
 description: Вы можете использовать средство поиска в журнале аудита Office 365, чтобы устранять распространенные проблемы, такие как исследование скомпрометированных учетных записей, Поиск пользователей, которые настраивают переадресацию электронной почты для почтового ящика, или определение причины успешного входа внешнего пользователя в организацию.
 ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079189"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634487"
 ---
 # <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Поиск в журнале аудита Office 365 для изучения распространенных проблем с поддержкой
 

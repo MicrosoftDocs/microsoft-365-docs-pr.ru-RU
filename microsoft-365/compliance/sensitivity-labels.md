@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки чувствительности из среды Microsoft Information Protection, чтобы классифицировать и защищать данные вашей организации, при этом следя за тем, чтобы производительность пользователей и их способность к сотрудничеству не мешали. Эти метки могут применять параметры защиты, которые включают визуальную маркировку шифрования, такую как нижние колонтитулы и водяные знаки.
-ms.openlocfilehash: 3b8e5e39ef6e2cb2e452fbf1764d53bd51ad24d8
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: 7593774b4cb0786cc82988442bbca522ce534cc8
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543171"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634647"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Сведения о метках конфиденциальности
 
@@ -190,6 +190,9 @@ ms.locfileid: "42543171"
 Если вы развернули метки с помощью Azure Information Protection, перед применением меток конфиденциальности воспользуйтесь следующими разделами.
 
 ### <a name="azure-information-protection-labels"></a>Метки Azure Information Protection
+
+> [!NOTE]
+> Управление метками для службы Azure Information Protection на портале Azure перестанет поддерживаться **31 марта 2021 г.** Дополнительные сведения см. в официальном [уведомлении о прекращении поддержки](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179).
 
 Если вы используете метки Azure Information Protection, так как ваш клиент еще не применяет [платформу унифицированных меток](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform), рекомендуется избегать создания меток конфиденциальности до активации унифицированных меток. В этом сценарии на портале Azure отображаются метки Azure Information Protection, а не метки конфиденциальности. Эти метки можно использовать в клиенте Azure Information Protection (классическая версия) на компьютерах с Windows, но нельзя использовать на устройствах под управлением macOS, iOS и Android. Чтобы устранить эту проблему, [выполните миграцию этих меток](/azure/information-protection/configure-policy-migrate-labels) в метки конфиденциальности. 
 

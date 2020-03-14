@@ -23,11 +23,11 @@ ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Узнайте больше о доменах в Office 365, найдя ответы на свои вопросы в разделе "вопросы и ответы".
 ms.custom: okr_smb
 ms.openlocfilehash: f3c72f1ce772e3021d79aa4568dbfdb700400803
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257019"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633187"
 ---
 # <a name="domains-faq"></a>Вопросы и ответы о доменах
 
@@ -107,7 +107,7 @@ ms.locfileid: "42257019"
   
 С помощью приведенных ниже инструкций получите код в Office 365, а затем перейдите на веб-сайт другого регистратора доменных имен, чтобы выполнить перенос.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
     Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
     
@@ -137,7 +137,7 @@ ms.locfileid: "42257019"
     
 3. Щелкните ссылку, чтобы перейти к мастеру настройки доменов:
     
-4. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+4. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
     Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
     
@@ -154,7 +154,7 @@ ms.locfileid: "42257019"
 
 ### <a name="change-dns-management-to-office-365"></a>Переключение управления DNS на Office 365
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
     Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
     
@@ -222,7 +222,7 @@ ms.locfileid: "42257019"
 
 Чтобы можно было выбрать домен, используемый по умолчанию, необходимо добавить в Office 365 хотя бы один личный домен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
     Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
     

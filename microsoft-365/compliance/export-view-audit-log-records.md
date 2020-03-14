@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: После экспорта и загрузки результатов поиска в журнал аудита Office 365 в CSV-файл можно использовать функцию преобразования JSON в редакторе Power Query в Excel, чтобы разделить каждое свойство в объекте JSON в столбце Аудитдата на отдельный столбец. Это поможет быстро найти конкретные искомые данные аудита.
 ms.openlocfilehash: 00e89d0834461e73ee0bd8a238e3ff7480de118e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074147"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634927"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Экспорт, настройка и просмотр записей журнала аудита
 

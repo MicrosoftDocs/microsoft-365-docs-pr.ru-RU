@@ -7,7 +7,7 @@ author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: ''
+ms.date: 3/11/2020
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 1ef4a91206c676be0404e5e4e8c7fdf02cedf089
-ms.sourcegitcommit: 794f2f416a258157cb44d962b5be6a348ee20fea
+ms.openlocfilehash: ef97215480949c8dec841fc857bed8945e26cacc
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42594015"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637282"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
@@ -30,7 +30,7 @@ ms.locfileid: "42594015"
 
 - В SharePoint распознаются метки конфиденциальности, примененные к файлам Word, Excel и PowerPoint в SharePoint и OneDrive: в то время как файл хранится в SharePoint, шифрование с помощью Azure Information Protection удаляется, чтобы можно было обработать его содержимое. Сведения о том, как защитить документы при хранении в SharePoint, можно узнать [в статье шифрование данных в OneDrive для бизнеса и SharePoint Online](data-encryption-in-odb-and-spo.md).
 
-- При загрузке или доступе к этому файлу из SharePoint или OneDrive метка чувствительности и все параметры шифрования из метки будут повторно применены к файлу, и эти параметры будут применены при каждом сохранении файла. Из-за этого поведения вы можете предоставить пользователям инструкции по использованию меток исключительно для защиты документов. Дополнительные сведения см. в статье [Параметры управления правами на доступ к данным (IRM) и метки конфиденциальности](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels).
+- При загрузке или доступе к этому файлу из SharePoint или OneDrive метка чувствительности и все параметры шифрования из метки будут повторно применены к файлу, и эти параметры будут применены при каждом сохранении файла. Из-за этого поведения необходимо предоставить пользователям рекомендации по использованию только меток для защиты документов. Дополнительные сведения см. в статье [Параметры управления правами на доступ к данным (IRM) и метки конфиденциальности](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels).
 
 - Для того чтобы SharePoint удалил шифрование из файла при отправке, пользователь, который отправляет подписанный и зашифрованный файл, должен иметь права на использование по крайней мере для просмотра файла. SharePoint не удаляет шифрование файлов, если пользователь не может открыть их извне SharePoint.
 

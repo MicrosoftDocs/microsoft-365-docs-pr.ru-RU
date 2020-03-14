@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Пошаговая подписка на Microsoft 365 для кампаний. Защитите свою кампанию от угроз циберсекурити для электронной почты, данных и общения.
 ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409664"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633737"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Регистрация в Microsoft 365 для кампаний 
 

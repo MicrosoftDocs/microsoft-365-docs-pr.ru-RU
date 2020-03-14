@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: В этой статье описывается использование нового средства расследования данных (Предварительная версия) в центре безопасности & соответствия требованиям для управления инцидентом с продолжением данных.
 ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543370"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634297"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Управление инцидентом переноса данных в Microsoft 365
 

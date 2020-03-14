@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 69b3bbbbca98c3ef9e16f1cca4d67122ae14af3f
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 027189a10e34687833e6a266d5fe4382a1e14e3a
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604206"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632900"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Настройка обеспечения соответствия связи в Microsoft 365
 
@@ -107,7 +107,7 @@ ms.locfileid: "42604206"
 
     - Подтвердите или обновите имя политики. После создания политики имена политик не могут быть изменены.
     - Выберите пользователей или группы для контролируемости, включая выбор пользователей или групп, которые вы хотите исключить.
-    - Выберите проверяющих для политики. Рецензентами могут быть отдельные пользователи или [группы безопасности с включенной поддержкой почты](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group). Все рецензенты должны иметь почтовые ящики, размещенные в Exchange Online.
+    - Выберите проверяющих для политики. Рецензентами могут быть отдельные пользователи или [группы безопасности с включенной поддержкой почты](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group). Все рецензенты должны иметь почтовые ящики, размещенные в Exchange Online. Рецензенты, добавленные здесь, это рецензенты, которые можно выбрать при эскалации оповещений в рабочем процессе расследования и исправлений.
     - Выберите ограниченное поле условия, обычно это тип конфиденциальной информации или словарь ключевых слов для применения к политике.
 
     Если вы решили использовать мастер политик для создания настраиваемой политики, выполните следующие действия:

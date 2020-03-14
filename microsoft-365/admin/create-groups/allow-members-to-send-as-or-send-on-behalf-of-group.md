@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Сведения о том, как разрешить участникам отправлять электронную почту в виде группы Office 365 или отправлять электронную почту от имени группы Office 365.
 ms.openlocfilehash: 0179dbd2e3093ce80929f6c5f9e689aece845a40
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352760"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633787"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Разрешение пользователям отправлять сообщения от имени группы или отправлять от него
 
@@ -45,7 +45,7 @@ ms.locfileid: "42352760"
 
 В этом разделе объясняется, как разрешить пользователям отправлять электронную почту как группу в [центре администрирования Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) в Exchange Online.
   
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> ****.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.
     
 2. Выберите команду **изменить**![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять.   
     
@@ -63,7 +63,7 @@ ms.locfileid: "42352760"
 
 В этом разделе объясняется, как разрешить пользователям отправлять электронную почту от имени группы в центре администрирования Exchange в Exchange Online.
   
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> ****.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.
     
 2. Выберите команду **изменить** ![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять. 
     
