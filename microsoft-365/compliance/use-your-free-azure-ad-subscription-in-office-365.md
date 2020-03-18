@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Сведения о том, как получать доступ к Azure Active Directory в составе платной подписки организации на Office 365.
-ms.openlocfilehash: 40ed5808f6e921a3649af408ee078dba64167bb3
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: fb1e2586c0b21c72084d7120b8735fccccd1a004
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610596"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710498"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Использование бесплатной подписки на Azure Active Directory в Office 365
 
@@ -29,7 +29,7 @@ ms.locfileid: "42610596"
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
-Используйте приватный, а не обычный сеанс для доступа к порталу Azure (на шаге 1 ниже), так как это предотвращает передачу текущих учетных данных в Azure. Чтобы открыть приватный сеанс просмотра:
+Используйте частный сеанс просмотра (не обычный сеанс) для доступа к порталу Azure (на шаге 1 ниже), поскольку это предотвращает передачу учетных данных, с которыми вы вошли в систему, в Azure. Чтобы открыть сеанс приватного просмотра:
 
 - В Microsoft Edge (устаревшая версия), Internet Explorer или Mozilla FireFox нажмите клавиши `CTRL+SHIFT+P`.
 
