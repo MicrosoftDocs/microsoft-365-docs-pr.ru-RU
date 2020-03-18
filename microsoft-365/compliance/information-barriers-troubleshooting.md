@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве руководства по устранению проблем со сведениями.
-ms.openlocfilehash: b4c9bb46bc1e3c13cdc8b46a95733558714a44df
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c601ddedf3acc816181f287c74f8f4df207a6b5
+ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600596"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42692666"
 ---
 # <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
@@ -171,11 +171,46 @@ ms.locfileid: "41600596"
 
 3. [Просмотр состояния учетных записей пользователей, сегментов, политик или приложения политики](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>Вопрос: политика информационного барьера не применяется для всех назначенных пользователей
+
+После определения сегментов, определенных политик барьера информации и попытки применения этих политик может оказаться, что политика применяется к некоторым получателям, но не к другим.
+При выполнении `Get-InformationBarrierPoliciesApplicationStatus` командлета выполните поиск в выходных данных для следующего текста.
+
+> Хищения`<application guid>`
+>
+> Общее количество получателей: 81527
+>
+> Неудачные получатели: 2
+>
+> Категория сбоя: нет
+>
+> Состояние: завершено
+
+### <a name="what-to-do"></a>Действия
+
+1. Выполните поиск в журнале аудита для `<application guid>`. Вы можете скопировать этот код PowerShell и изменить его для своих переменных.
+
+```powershell
+$DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
+```
+
+2. Просмотрите подробные данные в журнале аудита для значений полей `"UserId"` и. `"ErrorDetails"` Это даст вам причину сбоя. Вы можете скопировать этот код PowerShell и изменить его для своих переменных.
+
+```powershell
+   $DetailedLogs[1] |fl
+```
+ Пример:
+
+> "UserId": Пользователь1
+> 
+>"Еррордетаилс": "Status: Ибполициконфликт. Ошибка: сегмент "сегмент id1" и сегмент "сегмент id2" имеет конфликт и не может быть назначен получателю. 
+
+3. Обычно вы обнаружите, что пользователь включен в несколько сегментов. Это можно исправить, обновив `-UserGroupFilter` значение в `OrganizationSegments`файле.
+
+4. Повторно примените политики барьера информации с помощью этих процедур [политики барьеров информации](information-barriers-policies.md#part-3-apply-information-barrier-policies).
+
+## <a name="related-topics"></a>Статьи по теме
 
 [Определение политик для барьеров информации в Microsoft Teams](information-barriers-policies.md)
 
 [Информационные барьеры](information-barriers.md)
-
-
-

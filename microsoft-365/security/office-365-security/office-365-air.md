@@ -16,50 +16,74 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: c06874ea5d55334d9049d6c5d9d5c55a499dae06
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 8871329d254057a0f9d6f10d3ae7acc10139832e
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634027"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710538"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Автоматическое исследование и реагирование (AIR) в Office 365
 
-[Office 365 Advanced Threat protection](office-365-atp.md) План 2 включает мощные возможности автоматического исследования и реагирования (AIR), которые могут сэкономить время и усилия группы по обеспечению безопасности. При инициации определенных оповещений запускается один или несколько "Playbooks" безопасности, а также запускается процесс автоматического исследования. Это позволяет команде системы безопасности сосредоточиться на задачах с высоким приоритетом, не теряя при этом уведомления о триггерах. 
+[Office 365 Advanced Threat protection](office-365-atp.md) (Office 365 ATP), план 2 включает мощные возможности автоматического исследования и реагирования (AIR), которые могут сэкономить время и усилия группы по обеспечению безопасности. По мере инициирования оповещений группа действий по обеспечению безопасности может просматривать и отвечать на них, а также определять приоритеты и отвечать на них. Поддержание появления входящих оповещений может быть затруднительной. Автоматизация некоторых из них может помочь. В среде AIR группа управления операциями безопасности может сосредоточиться на задачах с более высоким приоритетом, не теряя уведомления о триггерах.
+
+В этой статье описывается [общий поток](#the-overall-flow-of-air) воздуха, [Получение воздуха](#how-to-get-air)и [необходимые разрешения](#required-permissions-to-use-air-capabilities) для настройки или использования возможностей воздуха. 
 
 ## <a name="the-overall-flow-of-air"></a>Общий поток воздуха
 
-Инициируется оповещение и инициируется стратегия безопасности, что запускает автоматическое исследование. Или аналитика безопасности инициирует автоматическое исследование при использовании обозревателя угроз. Выполняется автоматическое исследование, и, как правило, определяются определенные действия по исправлению. Эти действия проверяются и утверждаются группой действий по обеспечению безопасности, и исследование завершается. 
+На высоком уровне инициируется оповещение, а также запускается стратегия безопасности и автоматизированное исследование, что приводит к результатам и рекомендациям. Вот общий поток воздуха, пошаговые действия:
 
-В следующей таблице рассматривается общий поток воздуха, пошаговое руководство:
+1. Автоматическое исследование инициируется одним из следующих способов:
 
-|Шаг  |Что происходит  |
-|---------|---------|
-|1,1     |Оповещение инициируется событием Office, а [стратегия безопасности](automated-investigation-response-office.md#security-playbooks) — автоматическим исследованием выбранных оповещений. <br/><br/>Кроме того, аналитика безопасности может [инициировать автоматическое исследование](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) при использовании [обозревателя угроз](threat-explorer.md).        |
-|2     |При запуске автоматизированного расследования он собирает дополнительные сведения об электронной почте и сущностях, связанных с этими сообщениями, файлами, URL-адресами и получателями.  Область расследования может увеличиться, так как запускаются новые связанные оповещения.         |
-|4     |Во время и после автоматического исследования можно просмотреть [подробные сведения и результаты](air-view-investigation-results.md) . Результаты включают [Рекомендуемые действия](air-remediation-actions.md) , которые можно предпринять для ответа и устранения обнаруженных угроз. Кроме того, доступен [Журнал стратегия](air-view-investigation-results.md#playbook-log) , отслеживающий все действия расследования.<br/><br/>Если в организации используется настраиваемое решение для создания отчетов или стороннее решение, вы можете [использовать API действий управления Office 365](air-custom-reporting.md) для просмотра сведений об автоматическом расследовании и угрозах.         |
-|4      |Команда по обеспечению безопасности просматривает [результаты расследования и рекомендации](air-view-investigation-results.md)и [утверждает действия по исправлению](air-remediation-actions.md#approve-or-reject-pending-actions). В Office 365 никакие действия не выполняются автоматически. Действия по исправлению принимаются только при утверждении группой безопасности Организации.         |
+   - [Оповещение](https://docs.microsoft.com/microsoft-365/compliance/alert-policies) инициируется событием Office, которое создает инцидент. В зависимости от типа инцидента, [стратегия безопасности](automated-investigation-response-office.md#security-playbooks) начинает автоматическое исследование. 
+
+     --- или ---
+   
+   - Аналитика безопасности [начинает автоматическое исследование](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) при использовании [обозревателя угроз](threat-explorer.md).
+
+2. При запуске автоматизированного расследования он собирает дополнительные данные о рассматриваемой электронной почте и сущностях, связанных с этим сообщением. К таким объектам могут относиться файлы, URL-адреса и получатели.  Область расследования может увеличиваться по мере инициации новых и связанных оповещений.
+
+3. Во время и после автоматического исследования можно просмотреть [подробные сведения и результаты](air-view-investigation-results.md) . Результаты включают [Рекомендуемые действия](air-remediation-actions.md) , которые можно предпринять для ответа и устранения обнаруженных угроз. Кроме того, доступен [Журнал стратегия](air-view-investigation-results.md#playbook-log) , отслеживающий все действия расследования.
+
+    Если в организации используется настраиваемое решение для создания отчетов или стороннее решение, вы можете [использовать API действий управления Office 365](air-custom-reporting.md) для просмотра сведений об автоматическом расследовании и угрозах.
+
+4. Команда по обеспечению безопасности просматривает [результаты расследования и рекомендации](air-view-investigation-results.md), а [также утверждает или отвергает действия по исправлению](air-remediation-actions.md#approve-or-reject-pending-actions). 
+
+    Как только ожидающие действия по исправлению утверждены (или отклоняются), автоматическое исследование завершается.
+
+> [!NOTE]
+> В Office 365 ATP никакие действия по исправлению не выполняются автоматически. Действия по исправлению принимаются только при утверждении группой безопасности Организации. 
 
 Во время и после автоматического исследования группа безопасности может выполнить следующие действия:
 
 - [Просмотр сведений о предупреждении, связанных с исследованием](air-view-investigation-results.md#view-details-about-an-alert-related-to-an-investigation)
+
 - [Просмотр подробных сведений о результатах расследования](air-view-investigation-results.md#view-details-of-an-investigation)
+
 - [Просмотр и утверждение действий в результате расследования](air-remediation-actions.md#approve-or-reject-pending-actions)
 
-Чтобы узнать больше, посмотрите, [как воздух работает](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office).
+> [!TIP]
+> Более подробную информацию можно узнать в статье [работа воздуха](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office).
 
 ## <a name="how-to-get-air"></a>Как получить воздух
 
-AIR Office 365 входит в состав следующих подписок:
+Возможности AIR в Office 365 включены в [план 2 для office 365 Advanced Threat protection (план 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). Тем не менее, [политики Office 365 ATP должны быть настроены](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) , чтобы воздух работал должным образом. Кроме того, необходимо проверить и, возможно, настроить [политики оповещений](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)в Организации. 
 
-- Microsoft 365 E5
-- Office 365 E5
-- Защита от угроз (Майкрософт)
-- Office 365 Advanced Threat Protection (план 2)
+Office 365 предоставляет множество встроенных политик оповещений, помогающих определить разрешения администратора Exchange, опасные действия, потенциальные внешние и внутренние угрозы, а также риски управления сведениями. Некоторые [политики оповещений по умолчанию](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) могут инициировать автоматическое расследование. К ним относятся:
 
-Если у вас нет ни одной из этих подписок, [запустите бесплатную пробную версию](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US).
+- Обнаружен потенциально вредоносный URL-адрес.
 
-Для получения дополнительных сведений о доступности функций посетите страницу [доступность функций в планах расширенной защиты от угроз (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+- Сообщение электронной почты отображается как "фишинг"
+
+- Сообщения электронной почты, содержащие вредоносные программы, удаляются после доставки
+
+- Сообщения электронной почты, содержащие URL-адреса фишинга, удаляются после доставки
+
+- Обнаружены подозрительные шаблоны отправки электронной почты
+
+- Пользователю запрещено отправлять электронную почту.
+
+[Узнайте больше о оповещениях и воздухах](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office).
 
 ## <a name="required-permissions-to-use-air-capabilities"></a>Необходимые разрешения для использования возможностей AIR
 
@@ -67,11 +91,17 @@ AIR Office 365 входит в состав следующих подписок:
 
 |Задача |Требуются роли |
 |--|--|
-|Настройка функций AIR |Одна из следующих ролей: <br/>- **Глобальный администратор**<br/>- **Администратор безопасности** <br/>Эти роли можно назначить в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
-|Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенных в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>- **Глобальный администратор** <br/>- **Администратор безопасности**<br/>- **Средство чтения безопасности** <br/>--- и ---<br/>- **Поиск и очистка** (эта роль назначается только в [центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Возможно, вам потребуется создать новую группу ролей и добавить роль "Поиск и очистка" в новую группу ролей.)
+|Настройка функций AIR |Одна из следующих ролей: <br/>— Глобальный администратор<br/>— Администратор безопасности <br/>Эти роли можно назначить в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). |
+|Утверждение или отклонение рекомендуемых действий|Одна из следующих ролей, назначенных в [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) или в [центре безопасности & безопасности Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)):<br/>— Глобальный администратор <br/>— Администратор безопасности<br/>— Средство чтения безопасности <br/>--- и ---<br/>-Поиск и очистка (эта роль назначается только в [центре безопасности Office 365 & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center). Возможно, вам потребуется создать новую группу ролей и добавить роль "Поиск и очистка" в новую группу ролей.)
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+- [Просмотр подробных сведений и результатов автоматизированного исследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#view-details-of-an-investigation)
+
+- [Просмотр и утверждение ожидающих действий](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions)
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
-
 - [Автоматическое исследование и устранение неполадок в Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+
+- [Автоматизированный анализ угроз и реакция на угрозы в службе защиты от угроз (Майкрософт)](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

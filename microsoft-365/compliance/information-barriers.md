@@ -1,5 +1,5 @@
 ---
-title: Общие сведения о барьерах
+title: Сведения о барьерах информации
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте информационные барьеры, чтобы обеспечить соответствие требованиям, используя Microsoft Teams в вашей организации.
-ms.openlocfilehash: 95d3268830fe506000416e2281a49325fb95efec
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8bee0f368edc91b6f926eb6cb3e0a2f8dad81e9b
+ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600666"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42692656"
 ---
-# <a name="information-barriers"></a>Информационные барьеры
+# <a name="learn-about-information-barriers"></a>Сведения о барьерах информации
 
 ## <a name="overview"></a>Обзор
 
@@ -36,7 +36,7 @@ ms.locfileid: "41600666"
 Для всех приведенных ниже примеров сценариев (и более) можно определить политики информационных барьеров, чтобы запретить или разрешить взаимодействие в Microsoft Teams. Такие политики могут препятствовать абонентам звонить или общаться, которые им не нужны, или разрешить пользователям общаться только с определенными группами в Microsoft Teams. С действующими политиками для работы с информационными барьерами, когда пользователи, покрытые этими политиками, пытаются связаться с другими пользователями в Microsoft Teams, выполняются проверки, чтобы запретить (или разрешить) связь (как определено политиками барьера информации). Чтобы узнать больше о пользовательском интерфейсе с помощью барьеров информации, ознакомьтесь с разделом [Information барьеры в Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams).
 
 > [!IMPORTANT]
-> В настоящее время барьеры информации не применяются к сообщениям электронной почты или к общему доступу к файлам через SharePoint Online или OneDrive. Кроме того, барьеры информации не зависят от [ограничений на соответствие требованиям](tagging-and-assessment-in-advanced-ediscovery.md).<p>Перед определением и применением политик барьера данных убедитесь, что в Организации не действуют [политики адресной книги Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) . (Барьеры на основе информации основаны на политиках адресных книг.) 
+> В настоящее время барьеры информации не применяются к сообщениям электронной почты или к общему доступу к файлам через SharePoint Online или OneDrive. Кроме того, барьеры информации не зависят от [ограничений на соответствие требованиям](set-up-compliance-boundaries.md).<p>Перед определением и применением политик барьера данных убедитесь, что в Организации не действуют [политики адресной книги Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) . (Барьеры на основе информации основаны на политиках адресных книг.) 
 
 ## <a name="what-happens-with-information-barriers"></a>Что происходит с барьерами информации
 
