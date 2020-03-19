@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: 8871329d254057a0f9d6f10d3ae7acc10139832e
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: 45a2bc0e581916493a0170a5f86c152d02403efe
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710538"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826353"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Автоматическое исследование и реагирование (AIR) в Office 365
 
@@ -47,7 +47,7 @@ ms.locfileid: "42710538"
 
     Если в организации используется настраиваемое решение для создания отчетов или стороннее решение, вы можете [использовать API действий управления Office 365](air-custom-reporting.md) для просмотра сведений об автоматическом расследовании и угрозах.
 
-4. Команда по обеспечению безопасности просматривает [результаты расследования и рекомендации](air-view-investigation-results.md), а [также утверждает или отвергает действия по исправлению](air-remediation-actions.md#approve-or-reject-pending-actions). 
+4. Команда по обеспечению безопасности просматривает [результаты расследования и рекомендации](air-view-investigation-results.md), а [также утверждает или отвергает действия по исправлению](air-review-approve-pending-completed-actions.md). 
 
     Как только ожидающие действия по исправлению утверждены (или отклоняются), автоматическое исследование завершается.
 
@@ -60,7 +60,7 @@ ms.locfileid: "42710538"
 
 - [Просмотр подробных сведений о результатах расследования](air-view-investigation-results.md#view-details-of-an-investigation)
 
-- [Просмотр и утверждение действий в результате расследования](air-remediation-actions.md#approve-or-reject-pending-actions)
+- [Просмотр и утверждение действий в результате расследования](air-review-approve-pending-completed-actions.md)
 
 > [!TIP]
 > Более подробную информацию можно узнать в статье [работа воздуха](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office).

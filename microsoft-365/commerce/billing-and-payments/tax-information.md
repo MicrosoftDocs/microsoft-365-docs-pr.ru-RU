@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: 'Узнайте, какой объем налога будет взиматься за вашу подписку на Office 365 для бизнеса в разных регионах. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 88997eb69cbbee1b7ec4520773c167609434e0a4
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: f437e2f58797f3cc092b50611f34ecb2ce9cf3b0
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710566"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826317"
 ---
 # <a name="tax-information"></a>Сведения о налогах
 
@@ -90,7 +90,7 @@ ms.locfileid: "42710566"
 
 ## <a name="what-tax-will-i-be-charged"></a>Какой налог будет с меня взиматься?
 
-Узнайте, какой налог взимается в указанных регионах. Вы также можете [подать заявку на освобождение от уплаты налога](apply-for-tax-exempt-status.md), предоставив соответствующие документы в службу поддержки.
+Узнайте, какой налог взимается в указанных регионах. Вы также можете [подать заявку на освобождение от уплаты налога](tax-information.md#apply-for-tax-exempt-status), предоставив соответствующие документы в службу поддержки.
   
 ### <a name="europe-the-middle-east-and-africa-emea"></a>Европа, Ближний Восток и Африка (EMEA)
 
@@ -160,7 +160,7 @@ ms.locfileid: "42710566"
 
 Налоги рассчитываются в соответствии с ценой единицы, а затем обрабатываются.
 
-Пример:
+Пример.
 
 >*(Цена единицы X ставка налога) X количество = общая сумма налогов*
 

@@ -17,18 +17,18 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 240e153c43c7dc52d67d35eeca36def2f76b08e2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 904c1a019c55cabce6856a7caaca73d08d6db3f7
+ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086950"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42836884"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Управление билетами с помощью ServiceNow
 
 Microsoft 365 Security Center обеспечивает возможность самостоятельно создавать и отслеживать билеты в ServiceNow. Администраторы безопасности могут отправить действие улучшения [оценки безопасности Майкрософт](microsoft-secure-score.md) непосредственно в ServiceNow и создать билет. Могут быть созданы как управление инцидентами, так и билеты управления изменениями.
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 Получить доступ к центру безопасности Microsoft 365 и экземпляру ServiceNow с помощью следующих компонентов:  
 
@@ -141,6 +141,10 @@ ServiceNow рекомендует пользователям хранить па
 
 1. Создайте пользователя с правами администратора безопасности в Azure Active Directory. Пользователю должны быть назначены те же имя и адрес электронной почты, что и у пользователя интеграции, созданного на основе контрольного списка установки. Вы можете удалить роль администратора безопасности после завершения входа и подключения.
 2. Войдите в центр безопасности Microsoft 365 как этот пользователь и следуйте инструкциям по установке.
+
+### <a name="ip-filtering"></a>IP-фильтрация
+
+Если вы включили фильтрацию IP, возможно, потребуется явно разрешить IP-адреса. Сведения о том, как разрешить диапазоны IP-адресов в ServiceNow, можно найти в разделе [Управление доступом к IP-адресу](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/login/task/t_AccessControl.html) . Список IP-адресов и их тегов в Azure можно найти в [общедоступном облаке](https://www.microsoft.com/en-us/download/details.aspx?id=56519) .
 
 ### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>Установка завершена, но не видят билеты и не может поделиться
 

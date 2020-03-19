@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Узнайте, как проверить, что ваша электронная почта и владение доменом могут принимать участие в неуправляемом клиенте в Office 365
-ms.openlocfilehash: e3c89e122264808e2a8631c07269ea263c87fdaa
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0f7932b9ba727db62f81ac15b99a5f5ca276f09f
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248101"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857407"
 ---
 # <a name="perform-an-internal-admin-takeover-in-office-365"></a>Выполнение внутреннего передачи управления администратора в Office 365
 
@@ -65,13 +65,13 @@ ms.locfileid: "42248101"
 > [!NOTE]
 > Получение поверх теневого клиента не влияет на существующие сведения или службы. Тем не менее, если пользователи в домене подписаны на службы, для которых требуется лицензия, вам будет предложено купить лицензии для них в ходе принятия роли администратора. Вы можете добавить или удалить лицензии после завершения процесса настройки администрирования. 
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 YouTube: [получение прав администратора для управления учетной записью Power BI или Office 365 в три этапа](https://www.youtube.com/watch?v=xt5EsrQBZZk)
 
 [Передачи управления администратора в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.md)
+[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.yml)
 
 [Использование функции самостоятельной регистрации в Организации](self-service-sign-up.md)
   

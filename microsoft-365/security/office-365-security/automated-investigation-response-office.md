@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Общие сведения об автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air
-ms.openlocfilehash: 341d950f81d0d74deab901f0e5af24a559c0f342
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 420143a6a2888900cdc128b22f7b0bcb05adad27
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633827"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826407"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Автоматическое исследование и реагирование (AIR) в Office 365
 
@@ -30,7 +30,7 @@ ms.locfileid: "42633827"
 
 ## <a name="at-a-high-level"></a>На высоком уровне
 
-При срабатывании оповещений "Playbooks" безопасности переходит в действующий. В зависимости от ситуации может начаться [процесс автоматического исследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) . Во время и после автоматического исследования рекомендуются [действия по исправлению](air-remediation-actions.md) . Никакие действия не выполняются автоматически в Office 365 Advanced Threat protection. Команда по обеспечению безопасности выполняет проверку, а затем [утверждает или отвергает каждое действие по исправлению](air-remediation-actions.md#approve-or-reject-pending-actions), а когда это выполняется, каждое исследование завершается. Все эти действия отслеживаются и доступны для просмотра в центре безопасности & безопасности Office 365 (ознакомьтесь со статьей [Просмотр сведений о расследовании](air-view-investigation-results.md#view-details-of-an-investigation)).
+При срабатывании оповещений "Playbooks" безопасности переходит в действующий. В зависимости от ситуации может начаться [процесс автоматического исследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) . Во время и после автоматического исследования рекомендуются [действия по исправлению](air-remediation-actions.md) . Никакие действия не выполняются автоматически в Office 365 Advanced Threat protection. Команда по обеспечению безопасности выполняет проверку, а затем [утверждает или отвергает каждое действие по исправлению](air-review-approve-pending-completed-actions.md), а когда это выполняется, каждое исследование завершается. Все эти действия отслеживаются и доступны для просмотра в центре безопасности & безопасности Office 365 (ознакомьтесь со статьей [Просмотр сведений о расследовании](air-view-investigation-results.md#view-details-of-an-investigation)).
 
 В следующих разделах представлены дополнительные сведения об оповещениях, безопасности "Playbooks" и примерах воздуха в действии.
 

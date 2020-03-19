@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Сведения о том, как изменить тему по умолчанию Office 365 и настроить ее на использование логотипа или цвета вашей компании. '
-ms.openlocfilehash: fc50519190abe1b827bd3a5f93a6a82f8c22f0b6
-ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
+ms.openlocfilehash: c553e5254246bd81d435b4ebc2be2e975dd80a9d
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42640031"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826336"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>Настройка темы Office 365 для организации
 
@@ -64,9 +64,9 @@ ms.locfileid: "42640031"
     
 4. Нажмите кнопку **Сохранить изменения**.
     
-Вы увидите новую тему в центре администрирования сразу же после короткой задержки, она будет отображаться в Office 365, включая страницы в приложениях Outlook, SharePoint и SharePoint Mobile для iOS и Android. На приведенном ниже рисунке показаны элементы темы, которые можно настроить для мобильных приложений SharePoint.
+Вы увидите новую тему в центре администрирования сразу же после короткой задержки, она будет отображаться в Office 365, включая страницы в Outlook, SharePoint, [мобильное приложение SharePoint для iOS](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)и [мобильное приложение SharePoint для Android](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284). На приведенном ниже рисунке показан пример настройки темы в центре администрирования.
 
-![Тема Office 365, используемая по умолчанию, и настраиваемая тема Office 365 для мобильных приложений для SharePoint]()
+![m365 — Admin — клиент — тема — основные сведения](../../media/m365-admin-tenant-theme-conceptual.png)
 
 Настраиваемый значок или настраиваемые цвета можно удалить в любое время. Просто вернитесь на страницу тема и выберите команду **удалить настраиваемые настройки**.
   
@@ -94,7 +94,7 @@ ms.locfileid: "42640031"
       - **Цвет текста и значков**: выберите цвет, отличающийся от цвета фирменного стиля, выбранного для **цвета панели навигации**. Рекомендуется #252423 для темного цвета и #FAF9F7 для светлого цвета.
       - **Контрастный цвет**: темный цвет фирменной символики. В некоторых приложениях этот цвет должен быть виден на светлом фоне.
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление настраиваемых плиток в средство запуска приложений](../manage/customize-the-app-launcher.md)
   

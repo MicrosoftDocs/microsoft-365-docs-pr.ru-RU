@@ -1,5 +1,5 @@
 - name: Домашняя страница администратора
-  href: admin-home.md
+  href: admin-home.yml
   items:
     - name: Обзор
       items:
@@ -8,7 +8,7 @@
         - name: Регистрация в Office 365
           href: admin-overview/sign-up-for-office-365.md
         - name: Обучающее видео
-          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)'
+          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816'
         - name: Сведения о Центре администрирования
           href: admin-overview/about-the-admin-center.md
         - name: Какая у меня подписка?
@@ -86,7 +86,7 @@
     - name: Электронная почта
       items:
         - name: "Электронная почта в Office\_365"
-          href: email/email.md
+          href: email/email.yml
         - name: "Параметры электронной почты пользователей Office\_365"
           href: email/office-365-user-email-settings.md
         - name: Добавление дополнительных псевдонимов электронной почты для пользователя
@@ -154,7 +154,7 @@
     - name: Управление
       items:
         - name: Управление Office 365
-          href: manage/manage.md
+          href: manage/manage.yml
         - name: Изменение настроек контакта
           href: manage/change-contact-preferences.md
         - name: 'Изменение адреса, контакта и многого другого'
@@ -186,9 +186,9 @@
         - name: Отмена назначения лицензий пользователям
           href: manage/remove-licenses-from-users.md
         - name: Устранение конфликтов лицензий
-          href: manage/resolve-license-conflicts.md)
+          href: manage/resolve-license-conflicts.md
         - name: Управление сообщениями в Центре сообщений
-          href: manage/manage-messages.md)
+          href: manage/manage-messages.md
     - name: Подписки и выставление счетов
       items:
         - name: Управление подписками
@@ -202,7 +202,7 @@
     - name: Домены
       items:
         - name: 'Домены в Office 365:'
-          href: get-help-with-domains/get-help-with-domains.md
+          href: get-help-with-domains/get-help-with-domains.yml
         - name: Что такое домен?
           href: get-help-with-domains/what-is-a-domain.md
         - name: Приобретение доменного имени

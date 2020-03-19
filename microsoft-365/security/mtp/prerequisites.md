@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2b653575e9e79ffe3448f622ca5be2cef37999dd
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c482e46cf51cbf11960c02663221df0c136b067c
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633957"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857183"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Предварительные требования для Защиты от угроз (Майкрософт)
 
@@ -34,12 +34,20 @@ ms.locfileid: "42633957"
 Сведения о лицензировании, требованиях к оборудованию и программному обеспечению, а также другие параметры конфигурации для подготовки и использования защиты от угроз Майкрософт.
 
 ## <a name="licensing-requirements"></a>Требования к лицензированию
-Для использования защиты от угроз Майкрософт необходима *одна* из следующих лицензий или комбинация лицензий:
+Для использования защиты от угроз Майкрософт необходима одна или несколько лицензий.
 
-- Microsoft 365 E5
-- Безопасность Microsoft 365 E5
-- Office 365 в ~ и "Enterprise Mobility + Security/Security (EMS)" и Windows ~
-- Microsoft 365 A5
+### <a name="single-license"></a>Одна лицензия
+Вы можете использовать *одну* из следующих лицензий:
+
+- Microsoft 365 в ~ или A5
+- Microsoft 365 и безопасность A5
+
+### <a name="combination-of-licenses"></a>Комбинация лицензий
+Вы также можете использовать комбинацию лицензий для подписок "е" и "A5" до Office 365, *Enterprise Mobility + Security (EMS)* и Windows. Эта комбинация лицензий должна включать *все* эти лицензии:
+
+- Office 365 в ~ или A5
+- *Enterprise Mobility + Security (EMS)* "Е" или "A5"
+- Windows, "~" и "A5"
 
 Дополнительные сведения см. [в планах корпоративных служб Microsoft 365](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise).
 

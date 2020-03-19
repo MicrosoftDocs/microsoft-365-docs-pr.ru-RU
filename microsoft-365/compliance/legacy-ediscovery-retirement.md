@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: 92b6648b603286871956db64631d334df2384112
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 761378f848c358f2234576ac87507b91c55f4ccf
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634837"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857372"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
 
@@ -49,6 +49,8 @@ ms.locfileid: "42634837"
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
 
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
+   
+   - [SearchMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/searchmailboxes-operation)
 
 - [Office 365 Advanced eDiscovery 1.0](office-365-advanced-ediscovery.md), которая является первой версией расширенного обнаружения электронных данных, доступ к которым осуществляется с помощью случая обнаружения электронных данных в центре безопасности & соответствия требованиям Office 365.
 

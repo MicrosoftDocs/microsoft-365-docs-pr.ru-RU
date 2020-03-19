@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: Узнайте, как создавать контакты в центре администрирования и управлять глобальным списком адресов.
-ms.openlocfilehash: e1bb5c71a15c8e278b087339e469dcba50003795
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 44bd7319a369da84b8855c5d640b2797a173689e
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248096"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857395"
 ---
 # <a name="quick-help-contacts"></a>Быстрая справка: контакты
 
@@ -61,4 +61,4 @@ ms.locfileid: "42248096"
   
 ## <a name="what-if-my-question-still-hasnt-been-answered"></a>Что делать, если здесь нет ответа на мой вопрос?
 
-Просмотрите [справку для администраторов](../admin-home.md) или отправьте нам свой отзыв ниже.
+Просмотрите [справку для администраторов](../admin-home.yml) или отправьте нам свой отзыв ниже.

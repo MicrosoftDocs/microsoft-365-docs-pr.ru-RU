@@ -3,10 +3,8 @@ title: Получение справки в центре администрир�
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-layout: LandingPage
 manager: mnirkhe
 audience: Admin
-ms.topic: landing-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +18,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Узнайте обо всех способах получения справки по использованию центра администрирования Microsoft 365.
-ms.openlocfilehash: 2d75add5b34a760358523de6e6f10553c1984abe
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 5fa5a664b41f6e6e35a0443b5e909a5d930a146d
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352980"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857123"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -33,68 +31,6 @@ ms.locfileid: "42352980"
 
 Если вы администратор, [Admin.Microsoft.com](https://admin.microsoft.com) — это место для управления подпиской на Microsoft 365 и ее подготовки. Иногда вам не удастся найти нужную задачу, нужен больший контекст, прежде чем приступать к для рабочего процесса, или просто не уверены в области и влиянии ваших действий в качестве администратора. Чтобы охватить эти ситуации, мы предоставляем современная помощь и интеллектуальную помощь в центре администрирования Microsoft 365 следующим образом:
  
-
-
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#integrated-help">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Интегрированная Справка</h3>
-                            <p>Справка в центре администрирования</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#modern-self-help-powered-by-ai">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Интеллектуальная поддержка</h3>
-                            <p>Самостоятельная помощь на платформе AI</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#guides-and-articles">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Руководства и статьи</h3>
-                            <p>Полный контент в Интернете</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-
 ## <a name="integrated-help"></a>Интегрированная Справка
 Справка интегрирована в центр администрирования, поэтому она находится там, где это необходимо. В верхней части многих страниц вы найдете встроенный текст справки, который содержит информационные сведения о задаче, а также ссылки на статьи, которые позволяют быстро найти официальную документацию для более глубокого изучения.
 
