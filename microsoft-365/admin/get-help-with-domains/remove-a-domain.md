@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Office 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: c012d7a8484026d04bbe216ff28715e9df0de15c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: efbd49daa28b5d15989e1531929cb2d9355aeb8f
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362214"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857431"
 ---
 # <a name="remove-a-domain-from-office-365"></a>Удаление домена из Office 365
 
@@ -229,7 +229,7 @@ ms.locfileid: "42362214"
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Получение справки по доменам Office 365](get-help-with-domains.md)
+[Получение справки по доменам Office 365](get-help-with-domains.yml)
 
 [Переход на другой план Office 365 для бизнеса](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

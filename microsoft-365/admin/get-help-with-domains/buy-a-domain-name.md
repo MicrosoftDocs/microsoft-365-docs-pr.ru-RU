@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как приобрести доменное имя в Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 8b2b23e2e699723d54ecb7ca2807296641178664
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255162"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857443"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Приобретение доменного имени в Office 365
 
@@ -37,7 +37,7 @@ ms.locfileid: "42255162"
   
 ### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Вход и переход к разделу \> " \> домены параметров" Покупка домена
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
 3. На странице **Domains (домены** ) выберите пункт **купить домен**.
     
@@ -115,10 +115,10 @@ ms.locfileid: "42255162"
     
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление домена в Office 365](../setup/add-domain.md)
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Получение справки по доменам Office 365](get-help-with-domains.md)
+[Получение справки по доменам Office 365](get-help-with-domains.yml)

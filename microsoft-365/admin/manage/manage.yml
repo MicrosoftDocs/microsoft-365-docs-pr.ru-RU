@@ -1,0 +1,109 @@
+### YamlMime:Landing
+title: Office 365 управление докуматион
+summary: Быстрые ссылки для наиболее распространенных задач администрирования в Office 365.
+metadata:
+  title: Office 365 управление докуматион
+  description: Быстрые ссылки для наиболее распространенных задач администрирования в Office 365.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/06/2020
+  ms.openlocfilehash: 47d5fa7ffb64b8af8d3bde2a126e153768654fa2
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857642"
+landingContent:
+- title: Microsoft Teams
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Общие сведения о Microsoft Teams
+      url: https://go.microsoft.com/fwlink/p/?linkid=863169
+    - text: Microsoft Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: Администратор Skype для бизнеса Online
+      url: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online
+  - linkListType: how-to-guide
+    links:
+    - text: Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: Разрешение на добавление контактов Skype пользователям Skype для бизнеса
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+    - text: Настройка Skype для бизнеса Online
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: Установка Skype для бизнеса на ПК
+      url: https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb
+    - text: Устранение неполадок
+      url: https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+- title: SharePoint;
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: SharePoint Online
+      url: https://docs.microsoft.com/sharepoint/sharepoint-online
+  - linkListType: how-to-guide
+    links:
+    - text: Включение и отключение внешнего общего доступа для SharePoint Online
+      url: https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off
+    - text: Создание сайтов и управление ими
+      url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
+    - text: Руководство по планированию интрасети
+      url: https://docs.microsoft.com/sharepoint/planning-hub-sites
+    - text: Управление созданием сайтов
+      url: https://docs.microsoft.com/sharepoint/manage-site-creation
+    - text: Настройка интерфейса поиска
+      url: https://docs.microsoft.com/sharepoint/overview-of-search
+- title: Электронная почта
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Электронная почта в Office 365 для бизнеса
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/email/email?view=o365-worldwide
+  - linkListType: how-to-guide
+    links:
+    - text: Добавление нового сотрудника
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide
+    - text: Сообщения не отправляются
+      url: https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd
+    - text: Устранение неполадок
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+- title: Yammer
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Справка для администраторов Yammer
+      url: https://docs.microsoft.com/yammer/yammer-landing-page
+  - linkListType: how-to-guide
+    links:
+    - text: Вход в Office 365 для использования Yammer
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in
+    - text: Управление пользователями Yammer из Office 365
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle
+    - text: Использование удостоверения Office 365 для Yammer
+      url: https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity
+    - text: Добавление веб-канала Yammer на сайт SharePoint (на английском языке)
+      url: https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/embed-a-feed-into-a-sharepoint-site
+- title: OneDrive;
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: OneDrive в Office 365
+      url: https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb
+  - linkListType: how-to-guide
+    links:
+    - text: Получение клиента синхронизации OneDrive и мобильных приложений
+      url: https://go.microsoft.com/fwlink/p/?LinkId=798319
+    - text: Начало работы с новым клиентом синхронизации OneDrive в системе Windows
+      url: https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49
+    - text: Управление общим доступом в OneDrive и SharePoint
+      url: https://docs.microsoft.com/onedrive/manage-sharing
+    - text: Настройка стандартного размера хранилища OneDrive для пользователей
+      url: https://docs.microsoft.com/onedrive/set-default-storage-space
+    - text: Решение проблем с синхронизацией OneDrive
+      url: https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2

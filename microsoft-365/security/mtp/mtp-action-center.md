@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: a8f4cd9d3b970d6216e05fa6ff78699558c82600
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: a42646c423c08298a619e8bd559cd819ba3c47db
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633987"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857467"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -49,7 +49,7 @@ ms.locfileid: "42633987"
 
 2. В панели навигации щелкните **Центр уведомлений**. 
 
-3. В центре уведомлений отображаются две вкладки: **Ожидание** и **Журнал**.
+3. В центре уведомлений вы увидите две вкладки: **ожидающие** и **журналу**.
 
     - На вкладке **Ожидание** перечислены исследования, требующие проверки и утверждения участником группы операций по безопасности для продолжения процесса. Обязательно просмотрите ожидающие элементы, представленные здесь, и выполните соответствующие действия.
 
@@ -72,11 +72,11 @@ ms.locfileid: "42633987"
 
 |Действие по исправлению |Обязательные роли и разрешения |
 |--|----|
-|Исправление в Microsoft Defender ATP (устройства) |Роль **администратора безопасности**, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- или ---<br/>Роль **Активные действия по исправлению**, назначенная в Microsoft Defender ATP <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей и управление ими для контроля доступа на основе ролей (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Исправление в Office 365 ATP (почта и содержимое Office)  |Роль **администратора безопасности**, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- и --- <br/>Роль **Поиск и очистка**, назначенная в Центре безопасности и соответствия требованиям Office 365 ([https://protection.office.com](https://protection.office.com)) <br/><br/>**ВАЖНО!** Если роль администратора безопасности назначена вам только в Центре безопасности и соответствия требованиям Office 365, вы не сможете получить доступ к центру уведомлений и функциям защиты от угроз (Майкрософт). У вас должна быть роль администратора безопасности, назначенная в Azure Active Directory или Центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Исправление в Microsoft Defender ATP (устройства) |Роль администратора безопасности, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- или ---<br/>Роль Активные действия по исправлению, назначенная в Microsoft Defender ATP <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей и управление ими для контроля доступа на основе ролей (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
+|Исправление в Office 365 ATP (почта и содержимое Office)  |Роль администратора безопасности, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- и --- <br/>Роль Поиск и очистка, назначенная в Центре безопасности и соответствия требованиям Office 365 ([https://protection.office.com](https://protection.office.com)) <br/><br/>**ВАЖНО!** Если роль администратора безопасности назначена вам только в Центре безопасности и соответствия требованиям Office 365, вы не сможете получить доступ к центру уведомлений и функциям защиты от угроз (Майкрософт). У вас должна быть роль администратора безопасности, назначенная в Azure Active Directory или Центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в Центре безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!NOTE]
-> Пользователи, которым назначена роль **Глобальный администратор** в Azure Active Directory, могут утвердить или отклонить любые ожидающие действия в центре уведомлений. Однако рекомендуется ограничить в организации число пользователей, которым назначена роль глобального администратора. Рекомендуем использовать роли **Администратор безопасности**, **Активные действия по исправлению**, и **Поиск и очистка**, указанные выше, в качестве разрешений центра уведомлений.
+> Пользователи, которым назначена роль Глобальный администратор в Azure Active Directory, могут утвердить или отклонить любые ожидающие действия в центре уведомлений. Однако рекомендуется ограничить в организации число пользователей, которым назначена роль глобального администратора. Рекомендуем использовать роли Администратор безопасности, Активные действия по исправлению, и Поиск и очистка, указанные выше, в качестве разрешений центра уведомлений.
 
 ## <a name="next-steps"></a>Дальнейшие действия 
 
