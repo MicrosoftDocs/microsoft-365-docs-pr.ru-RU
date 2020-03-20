@@ -47,12 +47,14 @@
           href: get-ready/prerequisites.md
         - name: Подготовка сети
           href: get-ready/network.md
-        - name: 'Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт'
+        - name: Подготовка доступа к локальным ресурсам
           href: get-ready/authentication.md
-        - name: 'Подготовка подключенных дисков для компьютеров, управляемых Майкрософт'
+        - name: Подготовка подключенных дисков
           href: get-ready/mapped-drives.md
-        - name: 'Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт'
+        - name: Подготовка сертификатов и сетевых профилей
           href: get-ready/certs-wifi-lan.md
+        - name: Подготовка ресурсов для печати
+          href: get-ready/printing.md
         - name: Подготовка приложений
           href: get-ready/apps.md
           items:
