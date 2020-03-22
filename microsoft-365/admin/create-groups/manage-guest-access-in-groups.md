@@ -1,12 +1,10 @@
 ---
 title: Управление гостевым доступом в группах Office 365
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 12/18/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Узнайте, как добавлять гостей в группу Office 365, просматривать гостевых пользователей и использовать PowerShell для управления гостевым доступом.
-ms.openlocfilehash: 3314746e4d12c318eaae8fbfa34c2ed0b4d31aed
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: e76718ccb20843b252c939be48653c61c7c1f0a9
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610617"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894507"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Управление гостевым доступом в группах Office 365
 
@@ -50,11 +48,9 @@ ms.locfileid: "42610617"
 
 Если вы хотите включить или отключить гостевой доступ в группах, это можно сделать в центре администрирования Microsoft 365.
 
-1. В центре администрирования откройте страницу " **Параметры** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">служб &</a> надстроек".
-
-2. Выберите пункт **группы Office 365**.
+1. В центре администрирования перейдите к \> **параметру** параметры **и** выберите пункт **группы Office 365**.
   
-3. На странице " **группы Office 365** " выберите, следует ли разрешить пользователям, не входящим в организацию, доступ к ресурсам группы или разрешить владельцам групп добавлять людей вне Организации в группы.
+2. На странице " **группы Office 365** " выберите, следует ли разрешить пользователям, не входящим в организацию, доступ к ресурсам группы или разрешить владельцам групп добавлять людей вне Организации в группы.
 
 ## <a name="add-guests-to-an-office-365-group-from-the-admin-center"></a>Добавление гостей в группу Office 365 из центра администрирования
 
@@ -62,7 +58,7 @@ ms.locfileid: "42610617"
   
 1. В центре администрирования перейдите на страницу**группы** **группы** > .
   
-2. Выберите группу, в которую вы хотите добавить гостя, и на вкладке **Участники** выберите **Просмотр всех участников и управление ими** . 
+2. Щелкните группу, в которую требуется добавить гостя, и выберите **Просмотреть все и управлять участниками** на вкладке **Участники** . 
   
 4. Нажмите кнопку **Добавить участников**и выберите имя гостя, которого вы хотите добавить.
     
@@ -76,7 +72,7 @@ ms.locfileid: "42610617"
 
 Если вы хотите разрешить гостевой доступ к большинству групп, но если вы хотите запретить гостевой доступ, вы можете заблокировать гостевой доступ для отдельных групп с помощью Microsoft PowerShell.
 
-Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
+Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
 
 - Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module) и следуйте инструкциям по установке общедоступной предварительной версии.
 
@@ -133,7 +129,7 @@ Get-AzureADUser -Filter "userType eq 'Guest'"
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
 ```
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Управление членством в группах в центре администрирования Microsoft 365](add-or-remove-members-from-groups.md)
   

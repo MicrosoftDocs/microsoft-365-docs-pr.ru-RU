@@ -1,9 +1,9 @@
 ---
-title: Настройка фильтрации массовых сообщений электронной почты в Exchange Online Protection с помощью правил для обработки почтового процесса
+title: Использование правил обработки почтового процесса для фильтрации массовых сообщений электронной почты в Office 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -15,132 +15,161 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила обработки почтового ящика в Exchange Online Protection для фильтрации массовых сообщений электронной почты.
-ms.openlocfilehash: 81b0f4cc58d712c3a1c1e09dab02d1c6f56cb69d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081826"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895051"
 ---
-# <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>Настройка фильтрации массовых сообщений электронной почты в Exchange Online Protection с помощью правил для обработки почтового процесса
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>Использование правил обработки почтового процесса для фильтрации массовых сообщений электронной почты в Office 365
 
-Вы можете настроить фильтры содержимого на уровне всей компании для нежелательной почты и массовых сообщений электронной почты, используя политики фильтрации содержимого нежелательной почты по умолчанию. Сведения о настройке политик фильтрации содержимого см. в разделах [Настройте политики защиты от спама](configure-your-spam-filter-policies.md) и [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy).
+Если вы являетесь клиентом Office 365 с почтовыми ящиками в Exchange Online или отдельном клиенте Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, EOP использует политики защиты от нежелательной почты (также называемые политиками фильтрации нежелательной почты или фильтрами содержимого) для сканирования входящие сообщения для нежелательной почты и массовой почты (также называемой серой почтой). Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
 
-Если вы хотите дополнительно отфильтровать массовые сообщения, вы можете создать правила для поток обработки почты (также называемые правилами транспорта), чтобы искать текстовые шаблоны или фразы, которые часто встречаются в массовых сообщениях. Каждое сообщение, обладающее этими характеристиками, будет отмечено как нежелательное. Использование этих правил может сократить объем нежелательных сообщений, которые получает ваша организация.
+Если вы хотите дополнительно отфильтровать массовую почту, вы можете создать правила для поток обработки почты (также называемые правилами транспорта), чтобы искать текстовые шаблоны или фразы, которые часто встречаются в массовой почте, и помечать эти сообщения как спам. Для получения дополнительных сведений об массовой рассылке почты посмотрите, [что такое различие между нежелательной почтой и групповой почтой](what-s-the-difference-between-junk-email-and-bulk-email.md) и [уровнем жалоб (BCL) в Office 365](bulk-complaint-level-values.md).
 
-> [!IMPORTANT]
-> Прежде чем создавать правила для почтовых ящиков, описанные в этой статье, мы рекомендуем сначала ознакомиться [с различиями между нежелательной почтой и групповой почтой?](what-s-the-difference-between-junk-email-and-bulk-email.md) и [значениями уровня жалоби массовых жалоб](bulk-complaint-level-values.md).<br>Следующие процедуры отмечают сообщение как нежелательное для всей организации. Однако можно добавить другое условие, чтобы применить эти правила только к определенным получателям в вашей организации. Таким образом агрессивные параметры фильтрации массовой электронной почты могут применяться к нескольким пользователям, которые часто становятся адресатом нежелательной почты, не затрагивая других пользователей (которые, в основном, получают массовые сообщения, на которые они подписаны).
+В этом разделе объясняется, как создавать эти правила для этих почтовых ящиков в центре администрирования Exchange и PowerShell (Exchange Online PowerShell для Office 365 и клиентов). Exchange Online Protection PowerShell для автономных клиентов EOP).
 
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-text-patterns"></a>Создание правила для почтового процесса для фильтрации массовых сообщений электронной почты на основе текстовых шаблонов
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
+- Прежде чем выполнять эти процедуры, вам необходимо назначить разрешения в Exchange Online. В частности, необходимо назначить роль " **правила транспорта** ", которая назначается для ролей управления **организацией**, **управления соответствием требованиям**и управления **записями** по умолчанию. Дополнительные сведения см. в статье [Управление группами ролей в Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
 
-2. Щелкните **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.gif) добавить, а затем выберите **создать новое правило**.
+- Чтобы открыть центр администрирования Exchange в Exchange Online, обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center).
 
-3. Укажите имя правила.
+- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономной службе Exchange Online Protection PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-4. Нажмите кнопку **Дополнительные** ![параметры Дополнительные параметры](../../media/ITPro-EAC-MoreOptionsIcon.png). В разделе **Применить это правило, если** выберите **Тема или текст** \> **соответствует этим текстовым шаблонам**.
+- Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
 
-5. В диалоговом окне **Укажите слова или фразы** добавьте следующие регулярные выражения, которые часто встречаются в массовых сообщениях, по одному и нажмите кнопку **ОК** .
+  - [Правила потока обработки почты (правила транспорта) в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-   - `If you are unable to view the content of this email\, please`
+  - [Условия и исключения правила для обработки почтового процесса (предикаты) в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-   - `\>(safe )?unsubscribe( here)?\</a\>`
+  - [Действия правил обработки почты в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-   - `If you do not wish to receive further communications like this\, please`
+- Список слов и текстовых шаблонов, используемых для идентификации массовой почты в примерах, не является исчерпывающим; При необходимости вы можете добавлять и удалять записи. Однако они являются хорошей отправной точкой.
 
-   - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
+- Поиск слов и текстовых шаблонов в теме или других полях заголовка сообщения выполняется *после* расшифровки сообщения, к которому применялся метод кодирования для передачи сообщений MIME. Этот метод используется для передачи двоичных сообщений между SMTP-серверами с преобразованием их в текст ASCII. Вы не можете применять условия или исключения для поиска необработанных закодированных значений (обычно в формате Base64) в теме или других полях заголовка сообщения.
 
-   - `To stop receiving these+emails\:http\://`
+- В приведенных ниже процедурах отмечаются массовые сообщения в качестве нежелательной почты для всей Организации. Однако вы можете добавить еще одно условие, чтобы применить эти правила только к определенным получателям, поэтому вы можете использовать агрессивную фильтрацию для нескольких пользователей с большим количеством целевых пользователей, а остальные пользователи (которые обычно получают массовые сообщения, на которые они подписаны) не затрагиваются.
 
-   - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
-
-   - `no longer (wish )?(to )?(be sent|receive) w+ email`
-
-   - `If you are unable to view the content of this email\, please click here`
-
-   - `To ensure you receive (your daily deals|our e-?mails)\, add`
-
-   - `If you no longer wish to receive these emails`
-
-   - `to change your (subscription preferences|preferences or unsubscribe)`
-
-   - `click (here to|the) unsubscribe`
-
-   Приведенный выше список не является исчерпывающим набором регулярных выражений, найденных в массовых сообщениях электронной почты; При необходимости можно добавить или удалить дополнительные сведения. Однако это хорошая отправная точка.
-
-   Поиск слов и текстовых шаблонов в теме или других полях заголовка сообщения выполняется *после* расшифровки сообщения, к которому применялся метод кодирования для передачи сообщений MIME. Этот метод используется для передачи двоичных сообщений между SMTP-серверами с преобразованием их в текст ASCII. Вы не можете применять условия или исключения для поиска необработанных закодированных значений (обычно в формате Base64) в теме или других полях заголовка сообщения.
-
-6. В разделе **Выполните следующее** выберите пункт **Изменить свойства сообщения** \> **задать значение для вероятности нежелательной почты (SCL)**.
-
-7. В диалоговом окне **Укажите вероятность нежелательной почты** выберите для SCL значение **5**, **6** или **9** и нажмите кнопку **ОК**.
-
-   Выбор для SCL значения 5 или 6 приводит к выполнению действия **Нежелательная почта**. Выбор значения 9 приводит к выполнению действия **Нежелательное сообщение высокого уровня** согласно настройке политики фильтрации содержимого. Служба выполняет действие, указанное в политике фильтрации содержимого. По умолчанию это действие  доставка сообщения в папку получателя "Нежелательная почта", однако можно настроить и другие действия, как описано в разделе [Настройте политики защиты от спама](configure-your-spam-filter-policies.md).
-
-   Если настроенное действие предназначено для помещения сообщения в карантин, а не отправки его в папку нежелательной почты получателей, сообщение будет отправлено в карантин администратора в качестве правила для почтового процесса, и оно будет недоступно в карантине нежелательной почты конечного пользователя или с помощью конечного пользователя уведомления о нежелательной почте.
-
-   Дополнительные сведения о значениях SCL в службе см. в статье [Вероятность нежелательной почты](spam-confidence-levels.md).
-
-8. Сохраните правило.
-
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-phrases"></a>Создание правила для почтового процесса для фильтрации массовых сообщений электронной почты на основе фраз
+## <a name="use-the-eac-to-create-mail-flow-rules-that-filter-bulk-email"></a>Использование центра администрирования Exchange для создания правил обработки сообщений, которые отфильтровывают групповые сообщения
 
 1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
 
-2. Щелкните **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.gif) добавить, а затем выберите **создать новое правило**.
+2. Щелкните **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png) добавить, а затем выберите **создать новое правило**.
 
-3. Укажите имя правила.
+3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-4. Нажмите кнопку **Дополнительные параметры**. В разделе **Применить это правило, если** выберите **Тема или текст** \> **тема включает любое из этих слов**.
+   - **Name**: введите уникальное описательное имя правила.
 
-5. В диалоговом окне **Задайте слова или фразы** добавьте следующие фразы, которые часто используются в массовых сообщениях, по одному и затем нажмите кнопку **ОК**:
+   - Нажмите кнопку **Дополнительные параметры**.
 
-   - `to change your preferences or unsubscribe`
+   - **Применять это правило, если**: Настройте один из следующих параметров для поиска содержимого в сообщениях с помощью регулярных выражений (Regex) или слов или фраз:
 
-   - `Modify email preferences or unsubscribe`
+     - Тема **или** \> текст темы или текст сообщения **соответствует следующим текстовым шаблонам**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png)"Добавить" и повторяйте столько раз, сколько необходимо.
 
-   - `This is a promotional email`
+       - `If you are unable to view the content of this email\, please`
 
-   - `You are receiving this email because you requested a subscription`
+       - `\>(safe )?unsubscribe( here)?\</a\>`
 
-   - `click here to unsubscribe`
+       - `If you do not wish to receive further communications like this\, please`
 
-   - `You have received this email because you are subscribed`
+       - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
 
-   - `If you no longer wish to receive our email newsletter`
+       - `To stop receiving these+emails\:http\://`
 
-   - `to unsubscribe from this newsletter`
+       - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
 
-   - `If you have trouble viewing this email`
+       - `no longer (wish )?(to )?(be sent|receive) w+ email`
 
-   - `This is an advertisement`
+       - `If you are unable to view the content of this email\, please click here`
 
-   - `you would like to unsubscribe or change your`
+       - `To ensure you receive (your daily deals|our e-?mails)\, add`
 
-   - `view this email as a webpage`
+       - `If you no longer wish to receive these emails`
 
-   - `You are receiving this email because you are subscribed`
+       - `to change your (subscription preferences|preferences or unsubscribe)`
 
-   Этот список не является исчерпывающим набором фраз, найденных в массовых сообщениях электронной почты; При необходимости можно добавить или удалить дополнительные сведения. Однако это хорошая отправная точка.
+       - `click (here to|the) unsubscribe`
 
-6. В разделе **Выполните следующее** выберите пункт **Изменить свойства сообщения** \> **задать значение для вероятности нежелательной почты (SCL)**.
+      Чтобы изменить запись, выберите ее и нажмите кнопку **изменить** ![значок](../../media/ITPro-EAC-EditIcon.png)редактирования. Чтобы удалить запись, выберите ее и нажмите кнопку **Удалить** ![значок](../../media/ITPro-EAC-DeleteIcon.png)"Удалить".
 
-7. В диалоговом окне **Укажите вероятность нежелательной почты** выберите для SCL значение **5**, **6** или **9** и нажмите кнопку **ОК**.
+       После этого нажмите кнопку **ОК**.
 
-   Выбор для SCL значения 5 или 6 приводит к выполнению действия **Нежелательная почта**. Выбор значения 9 приводит к выполнению действия **Нежелательное сообщение высокого уровня** согласно настройке политики фильтрации содержимого. Служба выполняет действие, указанное в политике фильтрации содержимого. По умолчанию это действие  доставка сообщения в папку получателя "Нежелательная почта", однако можно настроить и другие действия, как описано в разделе [Настройте политики защиты от спама](configure-your-spam-filter-policies.md).
+     - **Тема или основной текст** \> **содержит любое из этих слов**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png)"Добавить" и повторяйте столько раз, сколько необходимо.
 
-   Если настроенное действие предназначено для помещения сообщения в карантин, а не отправки его в папку нежелательной почты получателей, сообщение будет отправлено в карантин администратора в качестве правила для почтового процесса, и оно будет недоступно в карантине нежелательной почты конечного пользователя или с помощью конечного пользователя уведомления о нежелательной почте.
+       - `to change your preferences or unsubscribe`
 
-   Дополнительные сведения о значениях SCL в службе см. в статье [Вероятность нежелательной почты](spam-confidence-levels.md).
+       - `Modify email preferences or unsubscribe`
 
-8. Сохраните правило.
+       - `This is a promotional email`
 
-## <a name="for-more-information"></a>Дополнительные сведения
+       - `You are receiving this email because you requested a subscription`
 
-[В чем разница между нежелательной почтой и массовой рассылкой?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+       - `click here to unsubscribe`
 
-[Уровни жалоб на массовые сообщения](bulk-complaint-level-values.md)
+       - `You have received this email because you are subscribed`
 
-[Настройте политики защиты от спама](configure-your-spam-filter-policies.md)
+       - `If you no longer wish to receive our email newsletter`
 
-[Параметры расширенной фильтрации нежелательной почты](advanced-spam-filtering-asf-options.md)
+       - `to unsubscribe from this newsletter`
+
+       - `If you have trouble viewing this email`
+
+       - `This is an advertisement`
+
+       - `you would like to unsubscribe or change your`
+
+       - `view this email as a webpage`
+
+       - `You are receiving this email because you are subscribed`
+
+      Чтобы изменить запись, выберите ее и нажмите кнопку **изменить** ![значок](../../media/ITPro-EAC-EditIcon.png)редактирования. Чтобы удалить запись, выберите ее и нажмите кнопку **Удалить** ![значок](../../media/ITPro-EAC-DeleteIcon.png)"Удалить".
+
+       После этого нажмите кнопку **ОК**.
+
+   - **Выполните следующие**действия: выберите **изменить свойства** \> сообщения **установите уровень вероятности нежелательной почты (SCL)**. В появившемся диалоговом окне **Указание вероятности** настройте один из следующих параметров:
+
+     - Чтобы пометить сообщения как **Нежелательная почта**, выберите **6**. Действие, настроенное для фильтрации **нежелательной почты** вердиктс в политиках защиты от нежелательной почты, применяется к сообщениям (значение по умолчанию — **Перемещение сообщения в папку нежелательной почты**).
+
+     - Чтобы пометить сообщения как **Нежелательная почта высокой надежности** , выберите **9**. Действие, настроенное для фильтрации нежелательной **почты высокой надежности** , вердиктс в политиках защиты от нежелательной почты применяется к сообщениям (значение по умолчанию — **Перемещение сообщения в папку нежелательной почты**).
+
+    Для получения дополнительных сведений о значениях ВЕРОЯТНОсти нежелательной почты [(SCL) в Office 365](spam-confidence-levels.md).
+
+   Когда все будет готово, нажмите кнопку **сохранить**
+
+## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a>Создание правил для почтового процесса, которые отфильтровывают групповые сообщения, с помощью PowerShell
+
+Используйте следующий синтаксис для создания одного или обоих правил для почтового процесса (регулярных выражений и слов):
+
+```powershell
+New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>","<RegEx2>"...] [-SubjectOrBodyContainsWords "<WordOrPrhase1>","<WordOrPhrase2>"...] -SetSCL <6 | 9>
+```
+
+В этом примере создается новое правило с именем "BULK Filtering Filtering — RegEx", которое использует тот же список регулярных выражений, начиная с предыдущего раздела, для настройки сообщений как **спама**.
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatterns "If you are unable to view the content of this email\, please","\>(safe )?unsubscribe( here)?\</a\>","If you do not wish to receive further communications like this\, please","\<img height\="?1"? width\="?1"? sr\c=.?http\://","To stop receiving these+emails\:http\://","To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)","no longer (wish )?(to )?(be sent|receive) w+ email","If you are unable to view the content of this email\, please click here","To ensure you receive (your daily deals|our e-?mails)\, add","If you no longer wish to receive these emails","to change your (subscription preferences|preferences or unsubscribe)","click (here to|the) unsubscribe"... -SetSCL 6
+```
+
+В этом примере создается новое правило с именем "массовая фильтрация электронной почты — слова", которая использует тот же список слов из предыдущего раздела, чтобы установить сообщения в качестве **нежелательной почты высокой достоверности**.
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWords "to change your preferences or unsubscribe","Modify email preferences or unsubscribe","This is a promotional email","You are receiving this email because you requested a subscription","click here to unsubscribe","You have received this email because you are subscribed","If you no longer wish to receive our email newsletter","to unsubscribe from this newsletter","If you have trouble viewing this email","This is an advertisement","you would like to unsubscribe or change your","view this email as a webpage","You are receiving this email because you are subscribed" -SetSCL 9
+```
+
+Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
+
+## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+
+Чтобы убедиться, что вы настроили правила обработки почты для фильтрации массовых сообщений электронной почты, выполните одно из следующих действий:
+
+- В центре администрирования Exchange перейдите к разделу **правила** \> для обработки **почтового ящика** \> ,](../../media/ITPro-EAC-EditIcon.png)выберите правило \> щелкните **изменить** ![значок редактирования и проверьте параметры.
+
+- В PowerShell замените \<имя\> правила именем правила и выполните следующую команду, чтобы проверить параметры:
+
+  ```powershell
+  Get-TransportRule -Identity "<Rule Name>" | Format-List
+  ```
+
+- С внешней учетной записи отправьте тестовые сообщения затронутому получателю, который содержит одну из фраз или текстовых шаблонов, и проверьте результаты.

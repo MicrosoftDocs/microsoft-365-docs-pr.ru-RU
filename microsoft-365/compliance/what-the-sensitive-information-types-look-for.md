@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 368ccef9e5213a7494140d2c305ddafe1e0c3f79
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: bd74551b7e8b2d659724a1222e115a479db76ec8
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409514"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894308"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -1080,7 +1080,7 @@ ms.locfileid: "42409514"
 - Удостоверение
 - Зарегистрировал
 - Процедура 
-- ID 
+- Идентификатор 
 - идентитеитскаарт
 - Registratie nummer 
 - Identificatie nummer 
@@ -1896,7 +1896,7 @@ Registro de identidade (RIC) (новый формат):
 
 - National Identification Number 
 - Identity card 
-- ID 
+- Идентификатор 
 - Процедура 
 - Rol Único Nacional 
 - ВЫПОЛНЯЕМ 
@@ -2993,7 +2993,7 @@ Registro de identidade (RIC) (новый формат):
 
 Должен соответствовать одному из двух шаблонов:
 - 13 цифр, за которыми следует пробел, за которым следуют две цифры.<br/>
-Кроме того:
+или
 - 15 последовательных цифр.
 
 ### <a name="checksum"></a>Контрольная сумма
@@ -3326,7 +3326,7 @@ No — Реисепасс НР — Реисепасс
 #### <a name="keyword_germany_id_card"></a>Keyword_germany_id_card
 
 - Identity Card
-- ID
+- Идентификатор
 - Процедура
 - персоналаусвеис
 - идентифизиерунгснуммер
@@ -4901,7 +4901,7 @@ Keyword_nz_terms
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
 - Identity card
-- ID
+- Идентификатор
 - Процедура 
    
 ## <a name="south-korea-resident-registration-number"></a>Регистрационный номер жителя Южной Кореи
@@ -5876,6 +5876,7 @@ Keyword_nz_terms
 - ни одно ключевое слово из Keyword_us_drivers_license не находится.
 
 ```xml
+<Entity id="dfeb356f-61cd-459e-bf0f-7c6d28b458c6 patternsProximity="300">
     <Pattern confidenceLevel="75">
         <IdMatch idRef="Func_new_york_drivers_license_number" />
         <Match idRef="Keyword_new_york_drivers_license_name" />
@@ -5889,6 +5890,7 @@ Keyword_nz_terms
           <Match idRef="Keyword_us_drivers_license" />
         </Any>
     </Pattern>
+</Entity>
 ```
 
 ### <a name="keywords"></a>Ключевые слова
@@ -5899,7 +5901,7 @@ Keyword_nz_terms
 - БИБЛИОТЕК 
 - кдл 
 - кдлс 
-- ID 
+- Идентификатор 
 - Идентификаторы 
 - DL # 
 - БИБЛИОТЕК # 

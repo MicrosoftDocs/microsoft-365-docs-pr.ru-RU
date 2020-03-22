@@ -12,14 +12,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 7ab3f63008c65fca1a99128cc6f11f83bc86b2b4
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1dfb567c8e6b8573397d503ae27c0aceb447c916
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857698"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895467"
 ---
-# <a name="machine-profile-page"></a>Страница профиля компьютера
+# <a name="machine-profile-page"></a>Страница профиля машины
 
 Портал безопасности Microsoft 365 предоставляет страницы профиля компьютера, поэтому вы можете оценить работоспособность и состояние устройств в сети. Каждая страница профиля компьютера содержит обширную информацию об устройстве.
 
@@ -29,9 +29,7 @@ ms.locfileid: "42857698"
 
 ## <a name="navigating-the-machine-profile-page"></a>Навигация на странице профиля компьютера
 
-Доступ к странице профиля компьютера осуществляется путем непосредственного выбора имени устройства в списке компьютеров или с помощью кнопки **открыть компьютер** в меню список компьютеров.
-
-После открытия страницы вы обнаружите, что она разбивается на три раздела.
+Страница профиля компьютера разбита на три раздела.
 
 ![Изображение страницы профиля компьютера с (1) областью вкладок (2) Боковая панель и (3) действия, выделенные красным цветом](../../media/mtp-machine-profile/mtp-machine-profile-all.png)
 

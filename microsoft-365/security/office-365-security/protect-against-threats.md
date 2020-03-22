@@ -17,12 +17,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Используйте эту статью в качестве руководства по настройке функций защиты от угроз.
-ms.openlocfilehash: 96d5c85a5511ec67991283fbc164bb07d2ab34e9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: da920083b521e905633473efbabc5930ad7a6770
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598686"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895315"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
 
@@ -31,7 +31,7 @@ Office 365 включает различные функции защиты от 
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 ### <a name="subscriptions"></a>Подписки
 
@@ -189,7 +189,7 @@ Office 365 включает различные функции защиты от 
 
 4. Нажмите кнопку **Сохранить**.
 
-Чтобы узнать больше о параметрах политики защиты от нежелательной почты, ознакомьтесь со статьей [Настройка политик защиты от нежелательной почты](configure-the-anti-spam-policies.md).
+Чтобы узнать больше о параметрах политики защиты от нежелательной почты, см [в разделе Настройка политик защиты от нежелательной почты в Office 365](configure-your-spam-filter-policies.md).
 
 ## <a name="part-5---additional-settings-to-configure"></a>Часть 5 — Дополнительные параметры для настройки
 

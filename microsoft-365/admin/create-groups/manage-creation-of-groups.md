@@ -1,7 +1,6 @@
 ---
 title: Управление разрешениями пользователей на создание групп Office 365
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 ms.reviewer: arvaradh
 author: MikePlumleyMSFT
@@ -22,19 +21,19 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как управлять тем, какие пользователи могут создавать группы Office 365.
-ms.openlocfilehash: a6016f6406b211aae216702910a696be50e1b82c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 0da8aded4b7a55975a9327cc4f29ff8679b3ccf2
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352640"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894555"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Управление разрешениями пользователей на создание групп Office 365
 
   
 Благодаря тому, что пользователи могут легко создавать группы Office 365, вам не будет приходиться это делать. Однако вам может потребоваться ограничивать права на создание групп или предоставлять их.
   
-В этой статье приведены инструкции по отключению возможности создавать группы **во всех службах Office 365, где они используются**: 
+В этой статье объясняется, как отключить возможность создания групп во всех службах Office 365, использующих группы, в том числе:
   
 - Outlook
     
@@ -92,7 +91,7 @@ ms.locfileid: "42352640"
 Администраторы из перечисленных выше ролей не должны быть членами этой группы: они сохраняют возможность создавать группы.
 
 > [!IMPORTANT]
-> Обязательно используйте **группу безопасности** , чтобы ограничить круг пользователей, которые могут создавать группы. Ее участники не смогут создать группу из SharePoint, так как SharePoint проверяет наличие группы безопасности. 
+> Обязательно используйте **группу безопасности** , чтобы ограничить круг пользователей, которые могут создавать группы. Если вы попытаетесь использовать группу Office 365, участники не смогут создать группу из SharePoint, так как она проверяет группу безопасности. 
     
 1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> **группы** \> .
 
@@ -103,63 +102,22 @@ ms.locfileid: "42352640"
 4. Завершите настройку группы безопасности, Добавление пользователей или других групп безопасности, которые будут иметь возможность создавать группы в Организации.
     
 Подробные инструкции приведены в разделе [Создание, изменение и удаление группы безопасности в центре администрирования Microsoft 365](../email/create-edit-or-delete-a-security-group.md).
-  
-## <a name="step-2-install-the-preview-version-of-the-azure-active-directory-powershell-for-graph"></a>Шаг 2: Установка ознакомительной версии Azure Active Directory PowerShell для Graph
+ 
+## <a name="step-2-run-powershell-commands"></a>Шаг 2. Запуск команд PowerShell
 
-Для выполнения этих процедур требуется предварительная версия Azure Active Directory PowerShell для Graph. Эта версия не будет работать.
+Для изменения параметров гостевого доступа на уровне группы необходимо использовать предварительную версию [Azure Active Directory PowerShell для Graph (AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (имя модуля **AzureADPreview**):
+
+- Если вы еще не установили ни одной версии модуля Azure AD PowerShell, см. раздел [Установка модуля Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module) и следуйте инструкциям по установке общедоступной предварительной версии.
+
+- Если у вас установлена общедоступная версия 2.0 модуля Azure AD PowerShell (AzureAD), вам требуется удалить ее, выполнив команду `Uninstall-Module AzureAD` в сеансе PowerShell, а затем установить предварительную версию, выполнив команду `Install-Module AzureADPreview`.
+
+- Если вы уже установили предварительную версию, выполните команду `Install-Module AzureADPreview`, чтобы убедиться, что это последняя версия модуля.
 
 
-> [!IMPORTANT]
-> Вы не можете одновременно установить версии Preview и GA на одном компьютере. Вы можете установить модуль в Windows 10, Windows Server 2016.
-
-  
-Рекомендуется  *всегда*  следить за актуальностью компонентов: удалите старую версию AzureADPreview или AzureAD и установите последнюю. 
-  
-1. В строке поиска введите Windows PowerShell.
-    
-2. Щелкните программу **Windows PowerShell** правой кнопкой мыши и выберите пункт **Запуск от имени администратора**.
-    
-    ![Откройте PowerShell с помощью команды "Запуск от имени администратора".](../../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
-    
-3. Присвойте политике значение RemoteSigned с помощью [Set – ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy).
-    
-    ```
-    Set-ExecutionPolicy RemoteSigned
-    ```
-  
-4. Проверьте установленный модуль:
-    
-    ```
-    Get-InstalledModule -Name "AzureAD*"
-    ```
-
-5. Чтобы удалить предыдущую версию AzureADPreview или AzureAD, выполните следующую команду:
-  
-    ```
-    Uninstall-Module AzureADPreview
-    ```
-
-    или
-  
-    ```
-    Uninstall-Module AzureAD
-    ```
-
-6. To install the latest version of AzureADPreview, run this command:
-  
-    ```
-    Install-Module AzureADPreview
-    ```
-
-    At the message about an untrusted repository, type **Y**. It will take a minute or so for the new module to install. 
-
-Оставьте окно PowerShell открытым для шага 3 ниже.
-  
-## <a name="step-3-run-powershell-commands"></a>Шаг 3: выполнение команд PowerShell
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Например:
+Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Пример.
 
 `$GroupName = "Group Creators"`
 
@@ -226,7 +184,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > Если участники группы безопасности не могут создавать группы, убедитесь, что они не блокируются с помощью [политики почтовых ящиков OWA](https://go.microsoft.com/fwlink/?linkid=852135).
     
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Начало работы с Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 

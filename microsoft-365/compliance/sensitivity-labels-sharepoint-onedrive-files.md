@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 288f70ccfcd7852102dc5261e225e9e84182b365
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 840087be38c6e50244437fea63de655d8cd9363e
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826218"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894306"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
@@ -124,12 +124,15 @@ ms.locfileid: "42826218"
 Чтобы включить предварительный просмотр, используйте командлет Set – SPOTenant:
 
 1. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора или администратора SharePoint в Office 365, подключитесь к SharePoint. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+    
+    Примечание. Если у вас есть Office 365 с поддержкой нескольких регионов, используйте параметр-URL с параметром [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)и укажите URL-адрес сайта центра администрирования SharePoint Online для одного из географических расположений.
 
 2. Выполните следующую команду:
 
     ```PowerShell
     Set-SPOTenant -EnableAIPIntegration $true  
     ```
+3. Для Office 365 с поддержкой нескольких регионов повторите шаги 1 и 2 для каждого из остальных географических расположений.
 
 ## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>Планирование развертывания после создания или изменения метки конфиденциальности
 

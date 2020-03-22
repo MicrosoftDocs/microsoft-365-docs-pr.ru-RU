@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как приобрести доменное имя в Office 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 5ffb5f9268dcd8b38245e0b85c7d790b46628766
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857443"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894471"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Приобретение доменного имени в Office 365
 
@@ -115,10 +115,12 @@ ms.locfileid: "42857443"
     
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Добавление домена в Office 365](../setup/add-domain.md)
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Получение справки по доменам Office 365](get-help-with-domains.yml)
+[Получение справки по доменам Office 365](get-help-with-domains.md)
+
+[Обновление DNS-записей для сохранения веб-сайта с текущим поставщиком услуг хостинга](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider) 

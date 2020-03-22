@@ -10,14 +10,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: 761378f848c358f2234576ac87507b91c55f4ccf
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: a3e19580def43c894e13c58eeaa28af498ad1399
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857372"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894856"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
 
@@ -46,11 +45,13 @@ ms.locfileid: "42857372"
 
    - [GetSearchableMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getsearchablemailboxes-operation)
 
+   - [SearchMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/searchmailboxes-operation)
+   
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
 
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
    
-   - [SearchMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/searchmailboxes-operation)
+
 
 - [Office 365 Advanced eDiscovery 1.0](office-365-advanced-ediscovery.md), которая является первой версией расширенного обнаружения электронных данных, доступ к которым осуществляется с помощью случая обнаружения электронных данных в центре безопасности & соответствия требованиям Office 365.
 
@@ -294,9 +295,9 @@ ms.locfileid: "42857372"
 </tbody>
 </table>
 
-## <a name="getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api"></a>Операции GetSearchableMailboxes, SetHoldOnMailboxes и GetHoldOnMailboxes в API EWS
+## <a name="exchange-web-services-api-operations"></a>Операции API веб-служб Exchange
 
-Эти три API веб-служб Exchange используются функцией обнаружения & электронных данных на месте в центре администрирования Exchange и соответствующими ** \*** командлетами MailboxSearch в Exchange Online PowerShell. Они также будут отключены в ходе снятия других средств обнаружения электронных данных.
+Эти операции в API веб-служб Exchange используются функцией обнаружения электронных данных на месте & хранения в центре администрирования Exchange и соответствующих ** \*командлетов-MailboxSearch** в Exchange Online PowerShell. Они также будут отключены в ходе снятия других средств обнаружения электронных данных.
 
 ### <a name="scope-of-affected-organizations"></a>Область затронутых организаций
 
@@ -310,7 +311,7 @@ ms.locfileid: "42857372"
 
 ### <a name="timeline"></a>Временная шкала
 
-- 1 апреля 2020: операции GetSearchableMailboxes, SetHoldOnMailboxes и GetHoldOnMailboxes больше не будут доступны, и служба поддержки Майкрософт больше не будет предоставлять помощь.
+- 1 апреля 2020: операции GetSearchableMailboxes, SearchMailboxes, SetHoldOnMailboxes и GetHoldOnMailboxes больше не будут доступны, и служба поддержки Майкрософт больше не будет предоставлять помощь.
 
 ## <a name="advanced-ediscovery-v10"></a>Расширенное обнаружение электронных данных v 1.0
 

@@ -16,12 +16,12 @@ ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
 description: Вы получаете сообщение об ошибке каждый раз, когда пытаетесь отправить сообщение получателю, адрес электронной почты которого зарегистрирован в Office 365? Если вы считаете, что это недоразумение, воспользуйтесь порталом удаления из списка, чтобы удалить себя из списка заблокированных отправителей Office 365.
-ms.openlocfilehash: 3e131addb391ecbf90d74ad4fdfa65b802c5e1ac
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: cd85a06bfd4122dcacd798a48f5a1755e2969b4a
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081967"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895087"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>Удаление себя из списка заблокированных отправителей Office 365 с помощью портала удаления из списка
 
@@ -58,4 +58,4 @@ ms.locfileid: "42081967"
     > [!NOTE]
     > Может потребоваться до 24 часов, а результаты могут сильно различаться до удаления ограничений.
 
-Сведения о [том, как предотвратить пометку реальных сообщений электронной почты как спама в office 365](prevent-email-from-being-marked-as-spam.md ) и [контроль исходящей нежелательной почты в Office 365](outbound-spam-controls.md) , чтобы запретить отправку IP-адресов в черный режим.
+В разделе [Создание списков надежных отправителей в office 365](create-safe-sender-lists-in-office-365.md) и [Защита от нежелательной почты в Office 365](outbound-spam-controls.md) , чтобы запретить отправку IP-адресов.

@@ -17,12 +17,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: В этой статье представлены советы по безопасности для сообщений электронной почты, фильтруемых фильтром нежелательной почты EOP и Office 365.
-ms.openlocfilehash: 1fddb38be711a9d43e85adea34fe14eb9e7a85ef
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bd493fba7a41f9452f915ff456c9483f48e299f5
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082354"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895195"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Советы по безопасности для сообщений электронной почты в Office 365
 
@@ -58,11 +58,6 @@ Exchange Online Protection (EOP) и Office 365 защищают вас от не
 
 ## <a name="working-with-safety-tips"></a>Работа со советами по безопасности
 
-Советы по безопасности всегда включены для Outlook в Интернете, несмотря на то, что не все сообщения получат сообщение. Администраторы Office 365 могут отключить советы по безопасности для других почтовых клиентов, таких как Outlook. Дополнительные сведения см. [в статье Включение и отключение советов по безопасности в Office 365](enable-or-disable-safety-tips.md).
+Советы по безопасности всегда включены для Outlook в Интернете, несмотря на то, что не все сообщения получат сообщение. Администраторы Office 365 могут отключить советы по безопасности для других почтовых клиентов, таких как Outlook. Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
 
 Если вы не согласны с тем, как приложение Office 365 и EOP классифицирует сообщение (то есть оно не является нежелательным или не является законным), вы можете отправить сообщения для анализа, чтобы повысить эффективность работы. Дополнительные сведения см. в статье [Report junk email and phishing scams in Outlook on the web](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md). Вы также можете щелкнуть ссылку отзыва в подсказке по безопасности, чтобы отправить комментарии непосредственно в корпорацию Майкрософт, чтобы помочь нам улучшить.
-
-## <a name="see-also"></a>См. также
-
-[Включение и отключение советов по безопасности в Office 365](enable-or-disable-safety-tips.md)
-
