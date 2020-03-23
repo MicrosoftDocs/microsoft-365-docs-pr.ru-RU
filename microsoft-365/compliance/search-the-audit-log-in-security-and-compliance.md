@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте Центр безопасности и соответствия требованиям для поиска единого журнала аудита, чтобы просматривать активность пользователей и администраторов в организации в Office 365. '
-ms.openlocfilehash: 6d83b9af94ecb086d933cd00476ca84e87d6db2e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 13a65f5a6a82eed748eaa79a3683ebdf2fe7ed9a
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634757"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894400"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -311,7 +311,8 @@ ms.locfileid: "42634757"
 |[Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)|[Действия, связанные с Power BI](#power-bi-activities)|[Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)|
 |[Действия, связанные с Microsoft Teams](#microsoft-teams-activities)|[Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)|[Действия, связанные с Yammer](#yammer-activities)|
 |[Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)|[Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|
-|[Действия Microsoft Forms](#microsoft-forms-activities)|[Действия с метками конфиденциальности](#sensitivity-label-activities)|[Действия администратора Exchange](#exchange-admin-audit-log)||
+|[Действия, связанные с обозревателем содержимого](#content-explorer-activities)|[Действия Microsoft Forms](#microsoft-forms-activities)|[Действия с метками конфиденциальности](#sensitivity-label-activities)|
+|[Действия администратора Exchange](#exchange-admin-audit-log)||
 ||||
 
 ### <a name="file-and-page-activities"></a>Действия, связанные с файлами и страницами
@@ -802,7 +803,16 @@ ms.locfileid: "42634757"
 
 ### <a name="microsoft-stream-activities"></a>Действия, связанные с Microsoft Stream
 
-В журнале аудита можно искать действия, выполненные в Microsoft Stream. К этим действиям относятся связанные с видео действия, выполняемые пользователями, действия в канале группы и действия администраторов, такие как управление пользователями, управление параметрами организации и экспорт отчетов. Описание этих действий см. в разделе "Действия, регистрируемые в Microsoft Stream" статьи [Журналы аудита в Microsoft Stream](https://docs.microsoft.com/stream/audit-logs).
+В журнале аудита можно искать действия, выполненные в Microsoft Stream. К этим действиям относятся связанные с видео действия, выполняемые пользователями, действия в канале группы и действия администраторов, такие как управление пользователями, управление параметрами организации и экспорт отчетов. Описание этих действий см. в разделе "Действия, регистрируемые в Microsoft Stream" статьи [Журналы аудита в Microsoft Stream](https://docs.microsoft.com/stream/audit-logs#actions-logged-in-stream).
+
+### <a name="content-explorer-activities"></a>Действия, связанные с обозревателем содержимого
+
+В таблице ниже перечислены действия, связанные с обозревателем содержимого, зарегистрированные в журнале аудита Office 365. Обозреватель содержимого с доступом через Инструмент классификации данных в Центре соответствия требованиям Microsoft 365. Дополнительные сведения см. в статье [Использование обозревателя содержимого с классификацией данных](data-classification-content-explorer.md)
+
+|**Понятное имя**|**Операция**|**Описание**|
+|:-----|:-----|:-----|
+|Получен доступ к элементу|AccessedItem|Администратор (или пользователь, который является участником группы с ролью Читателя содержимого в обозревателе содержимого) использует обозреватель содержимого для просмотра сообщения электронной почты или документа SharePoint/OneDrive.|
+||||
 
 ### <a name="microsoft-forms-activities"></a>Действия Microsoft Forms
 
