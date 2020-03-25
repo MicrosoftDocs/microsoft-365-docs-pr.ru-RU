@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7ff46226e2535ed9826a61afa857e38b03c06ce1
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 38eb3c39c5473d0a729b12771b61e965dbc81931
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234678"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929484"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Использование общих запросов в расширенной охоте
 
@@ -66,8 +66,9 @@ ms.locfileid: "42234678"
 >Исследователи безопасности Майкрософт также предоставляют запросы расширенной охоты, которые можно использовать для обнаружения действий и индикаторов, связанных с возникающими угрозами. Эти запросы предоставляются в рамках отчетов [аналитики угроз](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) в Центре безопасности в Microsoft Defender.
 
 ## <a name="related-topics"></a>См. также
-- [Профилактическая охота на угрозы](advanced-hunting-overview.md)
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
-- [Охота на угрозы в электронной почте и устройствах](advanced-hunting-query-emails-devices.md)
-- [Общие сведения о схеме](advanced-hunting-schema-tables.md)
+- [Работать с результатами запроса](advanced-hunting-query-results.md)
+- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

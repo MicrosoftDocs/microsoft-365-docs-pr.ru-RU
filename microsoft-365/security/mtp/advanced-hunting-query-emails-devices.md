@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0bbcef72fa305819c9f8e0813cfcdfd6c2b0fff3
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 8310a9a57c8dc7406c0b1d56b20009b6400abcb1
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234728"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928988"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>Поиск угроз на устройствах и в сообщениях электронной почты
 
@@ -94,8 +94,9 @@ DeviceProcessEvents
 ```
 
 ## <a name="related-topics"></a>См. также
-- [Профилактическое выслеживание угроз](advanced-hunting-overview.md)
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
+- [Работать с результатами запроса](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
-- [Применение рекомендаций по использованию запросов](advanced-hunting-best-practices.md)
+- [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

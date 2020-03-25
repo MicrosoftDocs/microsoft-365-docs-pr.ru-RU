@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a859aa201b43813d6c66a797cbfee160051d5103
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 9d7f6ee67e231ce7aa9bce1decc4de2f2d5a6d41
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235068"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929508"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -95,8 +95,9 @@ DeviceProcessEvents
 | where CanonicalCommandLine contains "stop" and CanonicalCommandLine contains "MpsSvc" 
 ```
 ## <a name="related-topics"></a>См. также
-- [Заблаговременный поиск угроз](advanced-hunting-overview.md)
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
+- [Работать с результатами запроса](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Выслеживание угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

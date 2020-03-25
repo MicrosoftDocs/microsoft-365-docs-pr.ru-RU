@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2e7999fef43adb372947d9edf92b84ac67f347fe
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: d5e3327f4b4e066b3e4c14f646ad8db78ff3804a
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235008"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929044"
 ---
-# <a name="devicenetworkevents"></a>девиценетворкевентс
+# <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -46,7 +46,7 @@ ms.locfileid: "42235008"
 | `RemoteUrl` | string | URL-адрес или полное доменное имя, к которому выполнено подключение |
 | `LocalIP` | string | IP-адрес, назначенный локальному компьютеру, используемому при обмене данными |
 | `LocalPort` | int | TCP-порт на локальном компьютере, используемый во время обмена данными |
-| `Protocol` | string | Используемый протокол IP, TCP или UDP |
+| `Protocol` | string | Протокол, используемый при обмене данными |
 | `LocalIPType` | string | Тип IP-адреса, например общедоступный, частный, зарезервированный, петлевой, Teredo, Фауртосиксмаппинг и Broadcast |
 | `RemoteIPType` | string | Тип IP-адреса, например общедоступный, частный, зарезервированный, петлевой, Teredo, Фауртосиксмаппинг и Broadcast |
 | `InitiatingProcessSHA1` | string | SHA-1 процесса (файл изображения), который инициировал событие |
