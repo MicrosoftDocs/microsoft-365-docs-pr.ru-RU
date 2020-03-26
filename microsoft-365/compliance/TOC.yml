@@ -69,7 +69,7 @@
           href: privileged-access-management-configuration.md
     - name: Защита доступа пользователей и устройств
       href: protect-access-to-data-and-services.md
-    - name: Защищенное хранилище пользователя
+    - name: Защищенное хранилище
       href: customer-lockbox-requests.md
 - name: Управление защитой информации
   href: protect-information.md
@@ -201,13 +201,13 @@
     - name: Общие сведения о классификации данных (предварительная версия)
       href: data-classification-overview.md
       items:
-        - name: Просмотр содержимого с метками (предварительная версия)
+        - name: Начало работы с обозревателем контента (Предварительная версия)
           href: data-classification-content-explorer.md
-        - name: Просмотр действий с метками (предварительная версия)
+        - name: Начало работы с обозревателем активности (Предварительная версия)
           href: data-classification-activity-explorer.md
         - name: Заметки о выпуске общедоступной предварительной версии классификации данных (предварительная версия)
           href: data-classification-pub-preview-relnotes.md
-        - name: Начало работы с обучаемыми классификаторами (предварительная версия)
+        - name: Начало работы с помощью классификаторов для обучения (Предварительная версия)
           href: classifier-getting-started-with.md
         - name: Использование встроенного классификатора (Предварительная версия)
           href: classifier-using-a-ready-to-use-classifier.md
@@ -243,6 +243,8 @@
           href: archive-linkedin-data.md
         - name: Настройка соединителя для архивации данных Instant Bloomberg
           href: archive-instant-bloomberg-data.md
+        - name: Настройка соединителя для архивации данных разговора ICE (Предварительная версия)
+          href: archive-icechat-data.md
         - name: Настройка соединителя для импорта данных о ПЕРСОНАЛе
           href: import-hr-data.md
         - name: Архивация сторонних данных при помощи партнера
@@ -816,6 +818,10 @@
           href: gdpr-for-office-online-server.md
         - name: GDPR для локальных общих папок Windows Server
           href: gdpr-for-on-premises-file-shares.md
+    - name: Рекомендации для конкретных отраслей
+      items:
+        - name: Безопасность финансовых служб и соответствие требованиям
+          href: ../solutions/financial-services-secure-collaboration.md
 - name: Планы действий по соответствию нормативным требованиям
   items:
     - name: 'ISO: рекомендуемый план действий'
@@ -1014,7 +1020,7 @@
           items:
             - name: HDS (Франция)
               href: offering-hds-france.md
-            - name: HIPAA/HITECH;
+            - name: HIPAA/HITECH
               href: offering-hipaa-hitech.md
             - name: HITRUST
               href: offering-hitrust.md

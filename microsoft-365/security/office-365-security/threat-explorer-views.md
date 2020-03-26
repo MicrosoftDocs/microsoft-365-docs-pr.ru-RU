@@ -2,8 +2,8 @@
 title: Представления в обозревателе угроз и обнаружения в режиме реального времени
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 ms.date: 08/07/2019
 audience: ITPro
@@ -14,12 +14,12 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 description: Узнайте о различных видах представлений, доступных в обозревателе угроз и обнаружения в режиме реального времени.
-ms.openlocfilehash: 9e2d6ce0c51c6a43596885d9ccb529dc1464a052
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7b05ec1346df3bfa428c384a4236a8758e22da28
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084934"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955643"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Представления в обозревателе угроз и обнаружения в режиме реального времени
 

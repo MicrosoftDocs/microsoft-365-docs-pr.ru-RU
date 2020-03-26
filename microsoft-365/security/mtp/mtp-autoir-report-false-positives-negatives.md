@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2f3808f599caa4ed347fc182005397c14b9f51b2
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.openlocfilehash: 90651aa258adb9f7fe46f99bcadf1d4d552a5b76
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42262006"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955665"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Обработка ложных срабатываний/отрицательных результатов в автоматизированном расследовании и возможностях реагирования
 
@@ -52,13 +52,13 @@ ms.locfileid: "42262006"
 
 |Сценарий |Служба |Действия |
 |--------|--------|--------|
-|— Оповещение инициировано законным использованием <br/>— Неточное оповещение    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> Кроме того: <br/>[Расширенная угроза обнаружения угроз Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Управление оповещениями на портале Cloud App Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+|— Оповещение инициировано законным использованием <br/>— Неточное оповещение    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> или <br/>[Расширенная угроза обнаружения угроз Azure](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Управление оповещениями на портале Cloud App Security](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
 |Файл, IP-адрес, URL-адрес или домен считается вредоносным по на устройстве, даже если он является безопасным|[Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection) |[Создание настраиваемого индикатора с действием "разрешить"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>Отмена действия по исправлению, сделанного на устройстве
 
-Если действие по исправлению было выполнено на устройстве (например, на устройстве с Windows 10), а элемент на самом деле очищен, Группа управления операциями безопасности может отменить действие по исправлению в [центре уведомлений](mtp-action-center.md).
+Если действие по исправлению было выполнено на устройстве (например, на устройстве с Windows 10), а элемент на самом деле не является угрозой, Группа "операции по обеспечению безопасности" может отменить действие "Устранение неполадок" в [центре уведомлений](mtp-action-center.md).
 
 > [!IMPORTANT]
 > Перед попыткой выполнения следующей задачи убедитесь, что у вас есть [необходимые разрешения](mtp-action-center.md#required-permissions-for-action-center-tasks) .

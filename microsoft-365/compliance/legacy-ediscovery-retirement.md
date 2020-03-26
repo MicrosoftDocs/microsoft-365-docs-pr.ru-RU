@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: a3e19580def43c894e13c58eeaa28af498ad1399
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f5ca92dc12fae102cef8e7dc5aa3c4c07785cd96
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894856"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955548"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
 
@@ -135,7 +135,13 @@ ms.locfileid: "42894856"
 <p>
 <p>Кроме того, вы можете экспортировать результаты поиска в PST-файлы и затем использовать службу импорта Microsoft 365 для импорта PST-файлов в почтовый ящик найденных сообщений. Пошаговые инструкции приведены <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">в разделе Использование отправки по сети для импорта PST-файлов в Office 365</a>.
 </tr>
-<tr class="even">
+<tr class=even>
+  <td>Копирование сообщений из одного почтового ящика в другой</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
+  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает организацию и вам нужно предоставить другому человеку доступ к электронной почте бывшего сотрудника), мы рекомендуем назначить ему разрешения на доступ к электронной. Поэтому вместо того чтобы копировать элементы почтового ящика в другой почтовый ящик пользователя или в общий почтовый ящик, просто Назначьте разрешения пользователя на доступ к исходному почтовому ящику.</td>
+  
+  </tr>
+<tr class="odd">
 <td>Восстановление элементов из папки "элементы с возможностью восстановления"</td>
   <td><a href="https://docs.microsoft.com/powershell/module/exchange/mailboxes/Restore-RecoverableItems">Restore — RecoverableItems</td>
   <td>Вы можете восстановить в почтовых ящиках навсегда удаленные элементы (также называемые <i>обратимыми</i> элементами), если срок хранения удаленных элементов для элемента не истек. Дополнительные сведения см. <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">в папке "элементы с возможностью восстановления" в Exchange Online</a>.</td>
@@ -216,6 +222,13 @@ ms.locfileid: "42894856"
 <td>Нет</td>
 <td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Ниже приведены вопросы и ответы по альтернативным решениям.</td>
 </tr>
+  <tr class=even>
+  <td>Копирование сообщений из одного почтового ящика в другой</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
+  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает организацию и вам нужно предоставить другому человеку доступ к электронной почте бывшего сотрудника), мы рекомендуем назначить ему разрешения на доступ к электронной. Поэтому вместо того чтобы копировать элементы почтового ящика в другой почтовый ящик пользователя или в общий почтовый ящик, просто Назначьте разрешения пользователя на доступ к исходному почтовому ящику.</td>
+  
+  </tr>
+
 </tbody>
 </table>
 

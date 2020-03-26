@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: aea95dae0165eb23331b2fa24d5fc752df3f4345
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8370744d244ce424fa21e496e8dfd4f470de88e6
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084317"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959186"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -40,43 +40,21 @@ ms.locfileid: "42084317"
 
 |Уровень защиты|Политики|Дополнительные сведения|
 |:---------------|:-------|:----------------|
-|**Базовый**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
+|**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
 |        |[Блокировать клиенты, не поддерживающие современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Exchange Online в назначение облачных приложений|
 |        |[Определение политик защиты приложений](identity-access-policies.md#high-risk-users-must-change-password)|Убедитесь, что Outlook включен в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
-|        |[Требовать утвержденные приложения](identity-access-policies.md#require-approved-apps)|Включение Exchange Online в список облачных приложений|
+|        |[Требовать приложения, поддерживающие политики защиты приложений Intune](identity-access-policies.md#require-apps-that-support-intune-app-protection-policies)|Включение Exchange Online в список облачных приложений|
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Exchange Online в список облачных приложений|
 |        |[Блокировка клиентов ActiveSync](#block-activesync-clients)|Добавление новой политики| 
 |**Конфиденциальный**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Включение Exchange Online в назначение облачных приложений|
 |         |[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение Exchange Online в список облачных приложений|
-|**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
+|**Строго регулируемый уровень**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
 
 ## <a name="block-activesync-clients"></a>Блокировка клиентов ActiveSync
 
-Эта политика запрещает клиентам ActiveSync обходить другие правила условного доступа. Настройка правил применяется только к клиентам ActiveSync. После выбора параметра **требовать одобренного клиентского приложения**эта политика блокирует клиентов ActiveSync. Чтобы настроить эту политику, выполните указанные ниже действия.
+Эта политика запрещает клиентам ActiveSync обходить другие правила условного доступа. Настройка правил применяется только к клиентам ActiveSync. Выбрав **[параметр требовать политику защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)**, эта политика блокирует клиентов ActiveSync. Подробные сведения о создании этой политики можно найти в этой политике: " [требовать политику защиты приложений для облачного доступа к облачному приложению с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)".
 
-1. Войдите на [портал Azure](https://portal.azure.com) со своими учетными данными. После успешного входа вы увидите панель мониторинга Azure.
-
-2. В меню слева выберите **Azure Active Directory**.
-
-3. В разделе **Безопасность** выберите **Условный доступ**.
-
-4. Выберите **Создать политику**.
-
-5. Введите имя политики, а затем выберите **Пользователей и группы**, к которым нужно ее применить.
-
-6. Выберите **Облачные приложения**.
-
-7. Выберите **пункт выбрать приложения**, выберите **Office 365 Exchange Online**. Нажмите кнопку **выбрать** и **Готово**.
-
-8. Выберите **условия**, а затем выберите **клиентские приложения**.
-
-9. Для **настройки**нажмите кнопку **Да**. Проверьте только следующее: **мобильные приложения и клиенты для настольных** ПК и **Клиенты Exchange ActiveSync**. Нажмите кнопку **Готово**.
-
-10. Выберите **Предоставление** в разделе **Элементы управления доступом**.
-
-11. Выберите **Разрешить доступ**, выберите **требовать одобренное клиентское приложение**.  Для нескольких элементов управления установите флажок **требовать использования выбранных элементов управления**и нажмите **кнопку Выбрать**.
-
-12. Нажмите кнопку **Создать**.
+1. Выполните команду "шаг 2: Настройка политики условного доступа Azure AD для Exchange Online с помощью ActiveSync (EAS)" в [сценарии 1: приложения Office 365 требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online.
 
 ## <a name="setup-office-365-message-encryption"></a>Настройка шифрования сообщений в Office 365
 

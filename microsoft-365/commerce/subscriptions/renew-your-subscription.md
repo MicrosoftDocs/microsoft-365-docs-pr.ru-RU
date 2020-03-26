@@ -24,18 +24,18 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Узнайте, как продлить свою подписку на Office 365 для бизнеса с помощью ключа продукта, а также включить или отключить периодическую выставление счетов. '
-ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633707"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959220"
 ---
 # <a name="renew-office-365-for-business"></a>Продление ключа Office 365 для бизнеса
 
 Эта статья относится к наиболее оплаченным подпискам на Office 365 для бизнеса.
   
-Для продления с помощью ключа продукта, приобретенного в розничном магазине или партнере Office 365, ознакомьтесь со статьей [ефинд и введите ключ продукта](../enter-your-product-key.md).
+Для продления с помощью ключа продукта, приобретенного в розничном магазине или партнере Office 365, ознакомьтесь со статьей [Поиск и ввод ключа продукта](../enter-your-product-key.md).
 
 > [!NOTE]
 > Оплата по банковскому счету недоступна в некоторых странах или регионах.
@@ -70,7 +70,7 @@ ms.locfileid: "42633707"
 
 ::: moniker range="o365-germany"
   
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">подписки</a> на **выставление счетов** \> .
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
 
     Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
@@ -93,7 +93,7 @@ ms.locfileid: "42633707"
 
 ::: moniker range="o365-21vianet"
   
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">подписки</a> на **выставление счетов** \> .
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
 
     Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
@@ -114,13 +114,13 @@ ms.locfileid: "42633707"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Повторная активация подписки](reactivate-your-subscription.md)
   
 [Добавление, удаление и обновление данных кредитной карты или банковского счета](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
   
-[Что происходит с данными и Access при завершении мисубскриптион?](what-if-my-subscription-expires.md)
+[Что происходит с данными и возможностями доступа при окончании срока действия подписки?](what-if-my-subscription-expires.md)
 
 [Добавление, обновление и удаление способов оплаты](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
 
