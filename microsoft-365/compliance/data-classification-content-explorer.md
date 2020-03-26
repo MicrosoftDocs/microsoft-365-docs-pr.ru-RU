@@ -1,5 +1,5 @@
 ---
-title: Использование обозревателя содержимого с классификацией данных (предварительная версия)
+title: Начало работы с обозревателем содержимого (предварительная версия)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель содержимого позволяет легко просматривать элементы с присвоенными метками.
-ms.openlocfilehash: 205ec6b4f2049e18ee95f25505d8a58d7eb7ac77
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 91246a701e1c5a030f4c9c53e25e56c137e7569b
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409694"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929411"
 ---
-# <a name="using-data-classification-content-explorer-preview"></a>Использование обозревателя содержимого с классификацией данных (предварительная версия)
+# <a name="get-started-with-content-explorer-preview"></a>Начало работы с обозревателем содержимого (предварительная версия)
 
 Обозреватель содержимого с классификацией данных позволяет легко просматривать элементы, обобщенные на странице обзора.
 

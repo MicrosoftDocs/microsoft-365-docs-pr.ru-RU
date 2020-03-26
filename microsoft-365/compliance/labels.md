@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки хранения, чтобы классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки хранения для внедрения решения по управлению записями для Microsoft 365.
-ms.openlocfilehash: 4052cf691e9123e3d840d5fa6759ff7f032b67c2
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3bcaee41ab178ae79b1f2ef46871dadb107f3f5b
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634307"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929453"
 ---
 # <a name="overview-of-retention-labels"></a>Обзор меток хранения
 
@@ -261,7 +261,7 @@ ms.locfileid: "42634307"
     
 - [определенные ключевые слова, соответствующие созданному запросу](#auto-apply-labels-to-content-with-keywords-or-searchable-properties);
 
-- [совпадение для обучаемых классификаторов](#auto-apply-labels-to-content-by-using-trainable-classifers).
+- [совпадение для обучаемых классификаторов](#auto-apply-labels-to-content-by-using-trainable-classifiers).
     
 ![Страница выбора условий для автоматически применяемых меток](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
@@ -311,7 +311,7 @@ ms.locfileid: "42634307"
 ![Редактор запросов](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
 
-### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>Автоматическое применение меток к контенту с помощью обучаемых классификаторов
+### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>Автоматическое применение меток к контенту с помощью обучаемых классификаторов
 
 При использовании варианта для обучаемого классификатора вы можете выбрать один из встроенных классификаторов или настраиваемый классификатор. К встроенным классификаторам относятся **Оскорбительная лексика**, **Резюме**, **Исходный код**, **Целенаправленное притеснение**, **Сквернословие** и **Угрозы**.
 
