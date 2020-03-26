@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте Центр безопасности и соответствия требованиям для поиска единого журнала аудита, чтобы просматривать активность пользователей и администраторов в организации в Office 365. '
-ms.openlocfilehash: 13a65f5a6a82eed748eaa79a3683ebdf2fe7ed9a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 66e75561084c3f3e8e67303e1cd359ef01c6b01a
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894400"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955688"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -311,8 +311,8 @@ ms.locfileid: "42894400"
 |[Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)|[Действия, связанные с Power BI](#power-bi-activities)|[Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)|
 |[Действия, связанные с Microsoft Teams](#microsoft-teams-activities)|[Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)|[Действия, связанные с Yammer](#yammer-activities)|
 |[Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)|[Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|
-|[Действия, связанные с обозревателем содержимого](#content-explorer-activities)|[Действия Microsoft Forms](#microsoft-forms-activities)|[Действия с метками конфиденциальности](#sensitivity-label-activities)|
-|[Действия администратора Exchange](#exchange-admin-audit-log)||
+|[Действия, связанные с обозревателем содержимого](#content-explorer-activities)|[Карантинная деятельность](#quarantine-activities)|[Действия Microsoft Forms](#microsoft-forms-activities)
+|[Действия с метками конфиденциальности](#sensitivity-label-activities)|[Действия администратора Exchange](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>Действия, связанные с файлами и страницами
@@ -811,7 +811,20 @@ ms.locfileid: "42894400"
 
 |**Понятное имя**|**Операция**|**Описание**|
 |:-----|:-----|:-----|
-|Получен доступ к элементу|AccessedItem|Администратор (или пользователь, который является участником группы с ролью Читателя содержимого в обозревателе содержимого) использует обозреватель содержимого для просмотра сообщения электронной почты или документа SharePoint/OneDrive.|
+|Получен доступ к элементу|LabelContentExplorerAccessedItem|Администратор (или пользователь, который является участником группы с ролью Читателя содержимого в обозревателе содержимого) использует обозреватель содержимого для просмотра сообщения электронной почты или документа SharePoint/OneDrive.|
+||||
+
+### <a name="quarantine-activities"></a>Карантинная деятельность
+
+В следующей таблице перечислены действия на карантине, которые можно найти в журнале аудита. Дополнительные сведения о карантине см. В разделе [Сообщения электронной почты на карантине в Office 365](../security/office-365-security/quarantine-email-messages.md).
+
+|**Понятное имя**|**Операция**|**Описание**|
+|:-----|:-----|:-----|
+|Удаленное карантинное сообщение|QuarantineDelete|Пользователь удалил сообщение электронной почты, которое было сочтено вредным.|
+|Экспортированное сообщение карантина|QuarantineExport|Пользователь экспортировал сообщение электронной почты, которое было сочтено вредным.|
+|Предварительно просмотренное сообщение на карантине|QuarantinePreview|Пользователь предварительно просмотрел сообщение электронной почты, которое было сочтено вредным.|
+|Выпущенное карантинное сообщение|QuarantineRelease|Пользователь выпустил сообщение электронной почты из карантина, которое было сочтено вредным.|
+|Просмотренный заголовок сообщения карантина|QuarantineViewHeader|Пользователь просмотрел заголовок сообщения электронной почты, которое было сочтено вредным.|
 ||||
 
 ### <a name="microsoft-forms-activities"></a>Действия Microsoft Forms
