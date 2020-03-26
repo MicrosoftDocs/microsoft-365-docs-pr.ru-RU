@@ -593,6 +593,6 @@
         - name: Office 365 корпоративный
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
         - name: Office 365 для бизнеса
-          href: 'https://docs.microsoft.com/office-365-security/admin/admin-home'
+          href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
     - name: Соответствие требованиям Microsoft 365
       href: 'https://docs.microsoft.com/microsoft-365/compliance/'
