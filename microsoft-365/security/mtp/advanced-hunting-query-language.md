@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e093bd9c5a76b44cf66591b4212f37014189186e
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 5715baaccd95d975f7d15196906a6326177bbc2e
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929000"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982015"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -57,8 +57,9 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 Так это будет выглядеть в расширенной охоте.
 
-![Изображение запроса на расширенный поиск по защите от угроз Майкрософт](../../media/advanced-hunting-query-example.png)
+![Изображение запроса на расширенный поиск по защите от угроз Майкрософт](../../media/advanced-hunting-query-example-2.png)
 
+### <a name="describe-the-query-and-specify-the-tables-to-search"></a>Опишите запрос и укажите таблицы для поиска
 В начале запроса добавлен краткий комментарий, описывающий его назначение. Это поможет в том случае, если позже вы решите сохранить запрос и поделиться им с другими пользователями в Организации. 
 
 ```kusto
@@ -70,12 +71,14 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
 ```
+### <a name="set-the-time-range"></a>Задание диапазона времени
 Первый элемент, который является фильтром по времени, ограничивается на предыдущие семь дней. Сохранение как можно более узкого временного диапазона гарантирует, что запросы работают хорошо, возвращают управляемые результаты и не превышают времени ожидания.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
+### <a name="check-specific-processes"></a>Проверка определенных процессов
 За диапазоном времени следует Поиск имен файлов процессов, представляющих приложение PowerShell.
 
 ```
@@ -83,20 +86,23 @@ union DeviceProcessEvents, DeviceNetworkEvents
 | where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
+### <a name="search-for-specific-command-strings"></a>Поиск определенных командных строк
 Затем запрос выполняет поиск строк в командных строках, которые обычно используются для загрузки файлов с помощью PowerShell.
 
 ```kusto
 // Suspicious commands
 | where ProcessCommandLine has_any("WebClient",
- "DownloadFile",
- "DownloadData",
- "DownloadString",
-"WebRequest",
-"Shellcode",
-"http",
-"https")
+    "DownloadFile",
+    "DownloadData",
+    "DownloadString",
+    "WebRequest",
+    "Shellcode",
+    "http",
+    "https")
 ```
-Теперь, когда ваш запрос четко определяет данные, которые вы хотите найти, вы можете добавить элементы, которые определяют то, как будут выглядеть результаты. `project`Возвращает определенные столбцы и `top` позволяет ограничить количество результатов, чтобы результаты правильно отформатированы и были достаточно велики и легко обработаны.
+
+### <a name="customize-result-columns-and-length"></a>Настройка столбцов результатов и длины 
+Теперь, когда ваш запрос четко определяет данные, которые вы хотите найти, вы можете добавить элементы, которые определяют то, как будут выглядеть результаты. `project`Возвращает определенные столбцы и `top` позволяет ограничить количество результатов. Эти операторы помогают убедиться в том, что результаты имеют правильный формат и их достаточно велики и просты в обработке.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -104,9 +110,12 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-Нажмите кнопку **Выполнить запрос**, чтобы увидеть результаты. Выберите значок развернуть в правом верхнем углу редактора запросов, чтобы сосредоточиться на запросе поиска и результатах поиска.
+Нажмите кнопку **Выполнить запрос**, чтобы увидеть результаты. Выберите значок развернуть в правом верхнем углу редактора запросов, чтобы сосредоточиться на запросе поиска и результатах поиска. 
 
 ![Изображение элемента управления "развернуть" в редакторе запросов поиска с расширенным поиском](../../media/advanced-hunting-expand.png)
+
+>[!TIP]
+>Вы можете просматривать результаты запроса в виде диаграмм и быстро настраивать фильтры. Рекомендации по [работе с результатами запросов](advanced-hunting-query-results.md)
 
 ## <a name="learn-common-query-operators-for-advanced-hunting"></a>Познакомьтесь с обычными операторами запросов для расширенной охоты
 
@@ -154,7 +163,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 ## <a name="related-topics"></a>См. также
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
-- [Работать с результатами запроса](advanced-hunting-query-results.md)
+- [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

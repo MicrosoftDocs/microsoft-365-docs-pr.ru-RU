@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 772c4c5785115995593a4946bfbac49312ad15f3
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: cfeef08c087d826d3e6f90bd1bb87bd852859a7c
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959232"
+ms.locfileid: "42978270"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 В этой статье описываются распространенные рекомендуемые политики для защиты доступа к облачным службам, в том числе локальные приложения, опубликованные с помощью прокси-сервера приложения Azure AD. 
@@ -217,7 +217,7 @@ ms.locfileid: "42959232"
    > [!NOTE]
    > Эта политика гарантирует, что мобильные пользователи смогут получить доступ ко всем конечным точкам Office, используя соответствующие приложения.
 
-2. Если Вы раздаете мобильный доступ к Exchange Online, реализуйте [блокировать клиенты ActiveSync] (безопасные сообщения электронной почты — рекомендуемые политики. md # Block-ActiveSync-клиенты), что не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online.
+2. Если вы включите мобильный доступ к Exchange Online, реализуйте [блокировку клиентов ActiveSync](secure-email-recommended-policies.md#block-activesync-clients), которая не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online.
 
    Приведенные выше политики используют элементы управления предоставлением разрешений для [утвержденного клиентского приложения](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) и [требуют политики защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
 
@@ -282,7 +282,7 @@ ms.locfileid: "42959232"
 
 |Type|Элемент Property|Значения|"Заметки"|
 |:---|:---------|:-----|:----|
-|Правила Advanced Threat Protection в защитнике Майкрософт|Потребовать, чтобы устройство было в показателе риска или на уровне машины|Средние||
+|Правила Advanced Threat Protection в защитнике Майкрософт|Потребовать, чтобы устройство было в показателе риска или на уровне машины|Средний||
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Требуются совместимые компьютеры (но не совместимые телефоны и Планшетные ПК)
 Прежде чем добавлять политику, чтобы потребовать соответствия требованиям компьютеров, обязательно Зарегистрируйте устройства для управления в Intune. Рекомендуется использовать многофакторную проверку подлинности перед регистрацией устройств в Intune для гарантии того, что устройство находится в среде выполнения предполагаемого пользователя. 

@@ -18,19 +18,19 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5f105912c5163b69368683cd4c6eaebf96250e3c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a179a3ccfc28b16aaa500d9222f69660bbc4c4df
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894834"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982042"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Настройка обеспечения соответствия связи в Microsoft 365
 
 >[!IMPORTANT]
 >Эта статья относится к настройке обеспечения соответствия связи в подписке Microsoft 365. Если вы хотите настроить политики контроля для подписки на Office 365, ознакомьтесь со статьей [Настройка надзора для office 365](supervision-policies.md).
 
-Используйте политики соответствия требованиям для сбора данных о связи сотрудников для изучения внутренними или внешними рецензентами. Для получения дополнительных сведений о том, как политики соответствия требованиям могут помочь отслеживать связи в Организации, ознакомьтесь со статьей [политики соответствия требованиям в Microsoft 365](communication-compliance.md).
+Используйте политики соответствия требованиям для сбора данных о связи сотрудников для изучения внутренними или внешними рецензентами. Для получения дополнительных сведений о том, как политики соответствия требованиям могут помочь отслеживать связи в Организации, ознакомьтесь со статьей [политики соответствия требованиям в Microsoft 365](communication-compliance.md). Если вы хотите узнать, как компания Contoso быстро настроила политику соответствия требованиям на связь для отслеживания нежелательных языков в Microsoft Teams и Exchange Online Communications, ознакомьтесь со статьей этого [примера](communication-compliance-case-study.md).
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
