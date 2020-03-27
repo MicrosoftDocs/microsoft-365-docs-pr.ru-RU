@@ -18,7 +18,7 @@
       href: plan-for-security-and-compliance.md
 - name: Управление рисками для оценки
   items:
-    - name: Предварительное управление рисками
+    - name: Внутреннее управление рисками
       items:
         - name: Сведения об управлении рисками для предварительной оценки
           href: insider-risk-management.md
@@ -36,7 +36,7 @@
           href: insider-risk-management-users.md
         - name: Создание шаблонов уведомлений о рисках для оценки
           href: insider-risk-management-notices.md
-    - name: Соответствие коммуникаций требованиям
+    - name: Соответствие коммуникациям
       items:
         - name: Сведения о соответствии требованиям к общению
           href: communication-compliance.md
@@ -46,6 +46,8 @@
           href: communication-compliance-investigate-remediate.md
         - name: Справка по функциям для обеспечения соответствия требованиям
           href: communication-compliance-feature-reference.md
+        - name: 'Пример: contoso быстро настраивает нежелательные языковые политики'
+          href: communication-compliance-case-study.md
         - name: "Политики контроля в Office\_365"
           href: supervision-policies.md
         - name: "Настройка политик контроля в Office\_365"
@@ -201,9 +203,9 @@
     - name: Общие сведения о классификации данных (предварительная версия)
       href: data-classification-overview.md
       items:
-        - name: Начало работы с обозревателем контента (Предварительная версия)
+        - name: Начало работы с обозревателем содержимого (предварительная версия)
           href: data-classification-content-explorer.md
-        - name: Начало работы с обозревателем активности (Предварительная версия)
+        - name: Начало работы с обозревателем действий (предварительная версия)
           href: data-classification-activity-explorer.md
         - name: Заметки о выпуске общедоступной предварительной версии классификации данных (предварительная версия)
           href: data-classification-pub-preview-relnotes.md
@@ -638,6 +640,8 @@
               href: use-advanced-ediscovery-utilities.md
             - name: Запуск отчетов
               href: run-reports-in-advanced-ediscovery.md
+    - name: Выбытие средств прежних версий электронных данных
+      href: legacy-ediscovery-retirement.md
 - name: Управление исследованиями данных
   items:
     - name: Общие сведения о расследовании данных
