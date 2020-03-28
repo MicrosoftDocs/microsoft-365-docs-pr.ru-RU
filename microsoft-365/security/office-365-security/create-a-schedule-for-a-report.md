@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 08/28/2018
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как настроить расписание для отчета в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 5a7a4d0b6bef3f800a53e4f980ccd689e011a9ea
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3e09dee36e14ca1e25f6ea20c8f2b5843dc7edaa
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083476"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43030168"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям
 
@@ -57,7 +57,8 @@ ms.locfileid: "42083476"
     
     ![Создание расписания](../../media/atpfiletypes-createschedule.png)
 
-    (Примечание: не все отчеты имеют кнопку **+ создать расписание** .)
+    > [!NOTE]
+    > Не все отчеты имеют кнопку **+ создать расписание** .
   
     Откроется диалоговое окно " **Создание расписания** ". 
     
@@ -69,7 +70,7 @@ ms.locfileid: "42083476"
     
 После создания расписания для отчета этот отчет будет доставлен по электронной почте на адреса электронной почты получателей автоматически. 
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
   

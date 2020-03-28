@@ -2,7 +2,7 @@
 title: Безопасные ссылки на Office 365 ATP для Teams, сафелинкс, безопасные ссылки, блокировать вредоносные ссылки, Office 365 ATP, безопасные ссылки Teams, остановить пользователей щелкать неправильные ссылки, вредоносные ссылки
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.date: 02/28/2020
 ms.topic: overview
@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Теперь Teams будет иметь доступ к безопасным ссылкам во время щелчка. Если вы используете сеансы разговора 1 — от 1, между группами, в каналах и на вкладках, если у вас есть подписка на Office 365 ATP, вы сможете включить и использовать эту функцию безопасности.
-ms.openlocfilehash: ba7ef2ae63b788ec94fbbb15c3c00312177a59d5
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 864b211a1f007a0f6bde83da12b61362b53bf041
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341612"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43030146"
 ---
 <!--06/21/2019-->
 
