@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Office 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: 490f7722d0bb8eb93d0d6e0ff18b7364cca5185c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: af6817471224e5747849b6020df3c56b64e29fed
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353970"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029864"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Отчеты о деятельности в центре администрирования Microsoft 365
 
@@ -74,7 +74,11 @@ ms.locfileid: "42353970"
 
 - Глобальный читатель
     
-- читатель отчетов.
+- Читатель отчетов
+
+- Администратор служб Teams
+
+- Администратор коммуникаций Teams
     
 Дополнительные сведения см. в статье [о ролях администратора](../add-users/about-admin-roles.md) и [назначение ролей администратора](../add-users/assign-admin-roles.md).
   

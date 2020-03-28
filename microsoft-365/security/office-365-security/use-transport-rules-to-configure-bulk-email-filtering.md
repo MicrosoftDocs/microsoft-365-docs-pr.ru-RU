@@ -15,12 +15,12 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила обработки почтового ящика в Exchange Online Protection для фильтрации массовых сообщений электронной почты.
-ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b08edfdd88f6f522d3bf212b209ee4b293d7198a
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895051"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033642"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>Использование правил обработки почтового процесса для фильтрации массовых сообщений электронной почты в Office 365
 
@@ -36,7 +36,7 @@ ms.locfileid: "42895051"
 
 - Чтобы открыть центр администрирования Exchange в Exchange Online, обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center).
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономной службе Exchange Online Protection PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
 
@@ -66,7 +66,7 @@ ms.locfileid: "42895051"
 
    - **Применять это правило, если**: Настройте один из следующих параметров для поиска содержимого в сообщениях с помощью регулярных выражений (Regex) или слов или фраз:
 
-     - Тема **или** \> текст темы или текст сообщения **соответствует следующим текстовым шаблонам**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png)"Добавить" и повторяйте столько раз, сколько необходимо.
+     - Тема **или** \> текст темы или текст сообщения **соответствует следующим текстовым шаблонам**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите кнопку](../../media/ITPro-EAC-AddIcon.png) **Добавить** ![значок и повторяйте, пока не ввели все значения.
 
        - `If you are unable to view the content of this email\, please`
 
@@ -96,7 +96,7 @@ ms.locfileid: "42895051"
 
        После этого нажмите кнопку **ОК**.
 
-     - **Тема или основной текст** \> **содержит любое из этих слов**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png)"Добавить" и повторяйте столько раз, сколько необходимо.
+     - **Тема или основной текст** \> **содержит любое из этих слов**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите кнопку **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png)и повторяйте до тех пор, пока не ввели все значения.
 
        - `to change your preferences or unsubscribe`
 
@@ -138,7 +138,7 @@ ms.locfileid: "42895051"
 
    Когда все будет готово, нажмите кнопку **сохранить**
 
-## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a>Создание правил для почтового процесса, которые отфильтровывают групповые сообщения, с помощью PowerShell
+## <a name="use-powershell-to-create-mail-flow-rules-that-filter-bulk-email"></a>Создание правил для почтового процесса с помощью PowerShell для фильтрации массовых сообщений электронной почты с помощью PowerShell
 
 Используйте следующий синтаксис для создания одного или обоих правил для почтового процесса (регулярных выражений и слов):
 

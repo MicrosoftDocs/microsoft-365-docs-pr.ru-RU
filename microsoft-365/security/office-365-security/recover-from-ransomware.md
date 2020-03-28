@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы Office 365 могут узнать, как восстановить систему от атак с помощью функции "атаки с помощью системы".
-ms.openlocfilehash: aa606ea3bf3f549645fe26a4aa95066568132243
-ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
+ms.openlocfilehash: 6d57142bac6dad22d38cc26a9353b528a9f8eb10
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42640021"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032880"
 ---
 # <a name="recover-from-a-ransomware-attack-in-office-365"></a>Восстановление после атаки с помощью функции "шантажистом" в Office 365
 
@@ -122,7 +122,7 @@ ms.locfileid: "42640021"
 
 ### <a name="submit-email-messages-to-microsoft"></a>Отправка сообщений электронной почты в корпорацию Майкрософт
 
-Вы можете сообщить о phishing-сообщениях с программой-шантажистом, следуя инструкциям в статье [Отправка спама, нежелательной почты и фишинговых сообщений в корпорацию Майкрософт для анализа](https://docs.microsoft.com/microsoft-365/security/office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis).
+Вы можете сообщить о phishing-сообщениях, которые содержат средства для работы с программой-шантажистом, одним из нескольких способов. Для получения дополнительных сведений просмотрите [сообщения отчетов и файлы в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="see-also"></a>См. также
 

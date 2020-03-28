@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
-ms.openlocfilehash: 3dc59a78d25045f3816b48705b5427141a1caea7
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: efce9a1c9827ddc904d6942ff9e1005850acfe8c
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710508"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029885"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -247,7 +247,7 @@ ms.locfileid: "42710508"
 
     Инструкции`Start-InformationBarrierPoliciesApplication`
 
-    По истечении приблизительно в полчаса применяются политики, пользователь, пользователь, для Организации. Если ваша организация имеет большой объем, для завершения этого процесса может потребоваться до 24 часов. (Как правило, для обработки 5 000 учетных записей пользователей требуется около часа.)
+    После выполнения `Start-InformationBarrierPoliciesApplication` параметра Разрешить системе приступить к применению политик в течение 30 минут. Система применяет политики пользователя по пользователям. В разделе Общие системные процессы о 5 000 учетных записей пользователей в час.
 
 ## <a name="view-status-of-user-accounts-segments-policies-or-policy-application"></a>Просмотр состояния учетных записей пользователей, сегментов, политик или приложения политики
 
@@ -326,7 +326,7 @@ Contoso будет использовать атрибут Department в Azure A
 
 После этого Contoso соответствует юридическим и отраслевым требованиям.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор информационных препятствий](information-barriers.md)
 

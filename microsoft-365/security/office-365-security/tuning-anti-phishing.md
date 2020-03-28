@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Администраторы могут узнать причины, по которым и как проходят фишинговые сообщения, а также что делать, чтобы предотвратить большее количество фишинговых сообщений в будущем.
-ms.openlocfilehash: 94c28bf63ad7ba87d06298576cf7989b6848f8e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 56baf39335837158cd061b4cbaede25a81c484ee
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082028"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033654"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Настройка защиты от фишинга в Office 365
 
@@ -39,11 +39,7 @@ ms.locfileid: "42082028"
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Сообщить о phishing-сообщениях корпорации Майкрософт
 
-Создание отчетов о фишинговых сообщениях полезно при настройке фильтров, используемых для защиты всех клиентов в Office 365.
-
-Отправка фишингового сообщения в _виде вложения_ в новое, в ином случае пустое сообщение в **Phish@office365.microsoft.com**. Не просто пересылайте исходное сообщение; в противном случае мы не можем проверить заголовки исходного сообщения. Кроме того, вы можете использовать надстройку [сообщения отчета](https://docs.microsoft.com/office365/securitycompliance/enable-the-report-message-add-in) в Outlook или Outlook в Интернете (прежнее название — Outlook Web App).
-
-Дополнительные сведения о том, [как отправлять сообщения о нежелательной почте и мошеннических сообщениях в корпорацию Майкрософт для анализа](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).
+Создание отчетов о фишинговых сообщениях полезно при настройке фильтров, используемых для защиты всех клиентов в Office 365. Инструкции приведены [в статье сообщения отчетов и файлы в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="inspect-the-message-headers"></a>Проверка заголовков сообщений
 

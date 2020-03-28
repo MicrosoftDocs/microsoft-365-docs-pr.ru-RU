@@ -245,8 +245,6 @@
           href: archive-linkedin-data.md
         - name: Настройка соединителя для архивации данных Instant Bloomberg
           href: archive-instant-bloomberg-data.md
-        - name: Настройка соединителя для архивации данных разговора ICE (Предварительная версия)
-          href: archive-icechat-data.md
         - name: Настройка соединителя для импорта данных о ПЕРСОНАЛе
           href: import-hr-data.md
         - name: Архивация сторонних данных при помощи партнера

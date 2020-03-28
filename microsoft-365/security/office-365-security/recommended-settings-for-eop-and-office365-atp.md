@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Рекомендации по параметрам безопасности Exchange Online Protection (EOP) и Advanced Threat protection (ATP) Каковы текущие рекомендации по стандартной защите? Что следует использовать, если требуется более высокий ранг? И какие дополнительные возможности вы получаете, если вы также используете Advanced Threat protection (ATP)?
-ms.openlocfilehash: b68c10eccfdacd7782f402b5712a808ff278254d
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9ddf704f767dfa5ff5c93888e51b91b2079a6c43
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895231"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032856"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Рекомендуемые параметры для EOP и безопасности ATP 365 для Office
 
@@ -190,12 +190,11 @@ ms.locfileid: "42895231"
 |Перенаправление вложения при обнаружении|Включена|Включена|Перенаправление на адрес электронной почты администратора безопасности, который знает, как определить, является ли вложение вредоносным или нет|
 |Ответ о безопасных вложениях ATP при неудачном завершении сканирования вредоносных программ|Включена|Включена||
 
-
 ## <a name="related-topics"></a>Статьи по теме
 
 - Ищете рекомендации с **почтовыми потоками обработки почты Exchange и транспорта Exchange**? Ознакомьтесь со [статьей](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) , чтобы получить дополнительные сведения.
 
-- Отправка подозрительных сообщений, подозрительных сообщений, фишинга или URL-адресов в корпорацию Майкрософт для сканирования. Используйте инструкции, приведенные в [этой статье](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)для **администраторов** .
+- Администраторы и пользователи могут отправлять ложные срабатывания (хорошее сообщение электронной почты отмечено как плохое) и ложные отрицательные (недопустимые сообщения электронной почты) в корпорацию Майкрософт для анализа. Для получения дополнительных сведений просмотрите [сообщения отчетов и файлы в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).
 
 - Используйте эти ссылки, чтобы получить сведения о **настройке** [службы EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)и **настройке** [Office 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp). (Не забудьте увидеть полезные инструкции в статье[Защита от угроз в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)".)
 

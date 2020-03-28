@@ -16,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: Чтобы обеспечить доверие пользователю при использовании электронной почты, корпорация Майкрософт разместит различные политики и технологии для защиты пользователей.
-ms.openlocfilehash: f6dc3cdb4ffb20fba1dbaa8d57d5041bf1cdbeae
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9e7985aed7c0b5b5c14c64d49e70ec6c731cb8b9
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598396"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032796"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>Службы для лиц, не являющихся клиентами и отправляющих почту в Office 365
 
@@ -60,4 +60,4 @@ ms.locfileid: "41598396"
 
 ## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Сообщения о нарушениях и нежелательной почте, полученные из Exchange Online
 
-Иногда Office 365 используется третьими сторонами для отправки нежелательных сообщений, нарушая наши условия использования и политики. Если вы получаете любую нежелательную почту из Office 365, вы можете отправить отчет об этих сообщениях в [Junk@office365.microsoft.com](mailto:junk@office365.microsoft.com). Вложите нежелательные сообщения, в том числе полный заголовок сообщения, в формате RFC 5322 или АРФ. Пользователи Outlook в Интернете могут использовать встроенные средства для создания отчетов о нежелательной почте. Сведения о том, как [сообщить о нежелательной почте и мошенническом мошенничестве в Outlook в Интернете](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md).
+Иногда Office 365 используется третьими сторонами для отправки нежелательных сообщений, нарушая наши условия использования и политики. Если вы получаете любую нежелательную почту из Office 365, вы можете отправить отчет об этих сообщениях в корпорацию Майкрософт. Инструкции приведены [в статье сообщения отчетов и файлы в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).

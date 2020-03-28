@@ -1,5 +1,5 @@
 ---
-title: 'Пример: contoso быстро настраивает нежелательные языковые политики'
+title: 'Пример: компания Contoso быстро настраивает нежелательные языковые политики для Microsoft Teams и Exchange Communications.'
 description: Пример использования Contoso для Contoso и быстрая настройка политики соответствия требованиям для отслеживания нежелательных языков в Microsoft Teams и Exchange Online Communications
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6b5ce3b9ca738ddf94edbb035daeb730f5e3f96a
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 6f23bece83f0c0fc25ddb26b8ceddcb1c956bc5e
+ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982386"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43024349"
 ---
-# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy"></a>Пример: contoso быстро настраивает нежелательные языковые политики
+# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>Пример: компания Contoso быстро настраивает нежелательные языковые политики для Microsoft Teams и Exchange Communications.
 
 Соответствие требованиям в Microsoft 365 помогает свести к минимуму риски для общения, помогая обнаруживать, записывать и устранять действия по устранению нежелательных сообщений в Организации. Предопределенные и настраиваемые политики позволяют сканировать внутренние и внешние коммуникации для соответствия политике, чтобы их можно было проверить при помощи определенных рецензентов. Рецензенты могут исследовать отсканированную электронную почту, Microsoft Teams или сторонние коммуникации в Организации, а также выполнять соответствующие действия по исправлению, чтобы убедиться, что они соответствуют стандартам сообщений Организации.
 
