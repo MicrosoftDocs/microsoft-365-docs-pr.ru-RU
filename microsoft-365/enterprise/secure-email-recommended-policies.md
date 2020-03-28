@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 8370744d244ce424fa21e496e8dfd4f470de88e6
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: dd35bf0d7439a19d7b1562e7a0d0681679b34c36
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959186"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035115"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -42,8 +42,8 @@ ms.locfileid: "42959186"
 |:---------------|:-------|:----------------|
 |**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение Exchange Online в назначение облачных приложений|
 |        |[Блокировать клиенты, не поддерживающие современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Exchange Online в назначение облачных приложений|
-|        |[Определение политик защиты приложений](identity-access-policies.md#high-risk-users-must-change-password)|Убедитесь, что Outlook включен в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
-|        |[Требовать приложения, поддерживающие политики защиты приложений Intune](identity-access-policies.md#require-apps-that-support-intune-app-protection-policies)|Включение Exchange Online в список облачных приложений|
+|        |[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что Outlook включен в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
+|        |[Требовать утвержденные приложения и защиту приложений](identity-access-policies.md#require-approved-apps-and-app-protection)|Включение Exchange Online в список облачных приложений|
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Exchange Online в список облачных приложений|
 |        |[Блокировка клиентов ActiveSync](#block-activesync-clients)|Добавление новой политики| 
 |**Конфиденциальный**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| Включение Exchange Online в назначение облачных приложений|

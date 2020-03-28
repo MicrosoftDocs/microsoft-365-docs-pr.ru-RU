@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: d11b2682b9699e61a4c9ecfa47eb73de87de5e4f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2b0d015485196bc76e7de580c888892967fe5d05
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084215"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035127"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Рекомендации политики по защите сайтов и файлов SharePoint
 
@@ -45,15 +45,15 @@ ms.locfileid: "42084215"
 
 |Уровень защиты|Политики|Дополнительные сведения|
 |:---------------|:-------|:----------------|
-|**Базовый**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
+|**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
 |        |[Блокировать клиенты, не поддерживающие современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение SharePoint Online в назначение облачных приложений|
-|        |[Определение политик защиты приложений](identity-access-policies.md#define-app-protection-policies)|Убедитесь, что все Рекомендуемые приложения включены в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
+|        |[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что все Рекомендуемые приложения включены в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение SharePoint Online в список облачных приложений|
 |        |[Использование принудительных ограничений приложения в SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online)|Добавление новой политики. Это указывает Azure AD использовать параметры, заданные в SharePoint Online. Это правило применяется ко всем пользователям, но влияет только на доступ к сайтам, включенным в политики доступа SharePoint Online.|
 |**Конфиденциальный**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначения облачных приложений|
 |         |[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение SharePoint Online в список облачных приложений|
 ||[Политика управления доступом SharePoint Online](#sharepoint-online-access-control-policies): разрешить доступ только браузеру к определенным сайтам SharePoint с неуправляемых устройств|Это предотвращает изменение и скачивание файлов. Указание сайтов с помощью PowerShell|
-|**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
+|**Строго регулируемый уровень**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
 ||[Политика управления доступом SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online): блокировать доступ к определенным сайтам SharePoint с неуправляемых устройств|Указание сайтов с помощью PowerShell|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint-online"></a>Использование ограничений, примененных к приложениям, в SharePoint Online

@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: b6e10757c3a4370c83b6ee0c1fb6c818a13089ea
-ms.sourcegitcommit: 7eaecb91c7cb1f8679f99882563f5c1149175992
+ms.openlocfilehash: eb06db140e4e3c9c245b7689edecf4b0cb86b674
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43022925"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035150"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 В этой статье описываются распространенные рекомендуемые политики для защиты доступа к облачным службам, в том числе локальные приложения, опубликованные с помощью прокси-сервера приложения Azure AD. 
@@ -31,8 +31,8 @@ ms.locfileid: "43022925"
 
 На следующей схеме показан рекомендуемый набор политик. Здесь показано, к какому уровню защиты применяется каждая политика, а также применяются ли политики к компьютерам, телефонам и планшетам или обеим категориям устройств. Кроме того, здесь указывается, где настроены эти политики.
 
-![Общие политики для настройки идентификации и доступа к устройствам](../media/Identity_device_access_policies_byplan.png)
-
+[![Общие политики для настройки удостоверений и доступа к](../media/Identity_device_access_policies_byplan.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
+устройствам[просмотреть более крупную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/Identity_device_access_policies_byplan.png)
 
 В оставшейся части этой статьи рассказывается, как настроить эти политики. 
 
@@ -46,8 +46,8 @@ ms.locfileid: "43022925"
 |**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](#require-mfa-based-on-sign-in-risk)| |
 |        |[Блокировать клиенты, не поддерживающие современную проверку подлинности](#block-clients-that-dont-support-modern-authentication)|Клиенты, для которых не используется современная проверка подлинности, могут обходить правила условного доступа, поэтому важно заблокировать эти|
 |        |[Высокий риск пользователи должны изменить пароль](#high-risk-users-must-change-password)|Принудительно изменяет пароль пользователя при входе в учетную запись, если для учетной записи обнаружены действия с повышенными рисками|
-|        |[Определение политик защиты приложений](#define-app-protection-policies)|Одна политика на платформу (iOS, Android, Windows).|
-|        |[Требовать приложения, поддерживающие политики защиты приложений Intune](#require-apps-that-support-intune-app-protection-policies)|Обеспечивает защиту мобильных приложений для телефонов и планшетных ПК|
+|        |[Применение политик защиты данных приложений](#apply-app-data-protection-policies)|Одна политика на платформу (iOS, Android, Windows). Политики защиты приложений Intune (APP) являются предопределенными наборами защиты от уровня 1 до уровня 3.|
+|        |[Требовать утвержденные приложения и защиту приложений](#require-approved-apps-and-app-protection)|Обеспечивает защиту мобильных приложений для телефонов и планшетных ПК|
 |        |[Определение политик соответствия требованиям устройств](#define-device-compliance-policies)|Одна политика для каждой платформы|
 |        |[Требовать использования соответствующих политике компьютеров](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Обеспечивает управление компьютерами в Intune|
 |**Конфиденциальный**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](#require-mfa-based-on-sign-in-risk)| |
@@ -186,14 +186,14 @@ ms.locfileid: "43022925"
 > [!NOTE]
 > Обязательно включите эту политику, выбрав пункт **вкл**. Кроме того, рекомендуется протестировать политику с помощью средства " [что если](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) ".
 
-## <a name="define-app-protection-policies"></a>Определение политик защиты приложений
+## <a name="apply-app-data-protection-policies"></a>Применение политик защиты данных приложений
 Политики защиты приложений (APP) определяют, какие приложения разрешены и какие действия они могут выполнять с данными вашей организации. Параметры, доступные в приложении APP, позволяют организациям адаптировать защиту к определенным потребностям. В некоторых случаях может быть неясно, какие параметры политики требуются для реализации полного сценария. Чтобы упростить усиление защиты конечных точек мобильных клиентов, корпорация Майкрософт предоставила таксономию для платформы защиты данных приложений для управления мобильными приложениями iOS и Android. 
 
 Структура защиты данных приложений организована на трех отдельных уровнях конфигурации, при этом каждый уровень строится на предыдущем уровне: 
 
-- Защита данных в корпоративной среде обеспечивает защиту приложений с помощью ПИН-кода и шифрование и выполнение операций выборочного стирания. Для устройств Android этот уровень проверяет аттестацию устройств Android. Это конфигурация начального уровня, обеспечивающая аналогичные элементы управления защитой данных в политиках почтовых ящиков Exchange Online, а также сведения о заполнении пользователями приложения. 
-- Расширенная защита данных в корпоративной среде содержит механизмы защиты от утечки данных приложений и минимальные требования к ОС. Это конфигурация, которая применяется для большинства мобильных пользователей, обращающихся к рабочим или учебным данным. 
-- Высокая защита данных в корпоративной среде включает в себя расширенные механизмы защиты данных, усиленную конфигурацию ПИН-кодов и защиту от угроз для мобильных устройств. Эта конфигурация желательно для пользователей, которые обращаются к данным с высоким уровнем риска. 
+- **Enterprise Basic Data Protection** (уровень 1) обеспечивает защиту приложений с помощью ПИН-кода и шифрование и выполнение операций выборочного стирания. Для устройств Android этот уровень проверяет аттестацию устройств Android. Это конфигурация начального уровня, обеспечивающая аналогичные элементы управления защитой данных в политиках почтовых ящиков Exchange Online, а также сведения о заполнении пользователями приложения. 
+- **Усовершенствованная защита данных в корпоративной среде** (уровень 2) содержит механизмы защиты от утечки данных приложений и минимальные требования к ОС. Это конфигурация, которая применяется для большинства мобильных пользователей, обращающихся к рабочим или учебным данным. 
+- **Высокая защита данных в корпоративной среде** (уровень 3) содержит расширенные механизмы защиты данных, усиленную конфигурацию ПИН-кода и защиту от угроз для мобильных устройств. Эта конфигурация желательно для пользователей, которые обращаются к данным с высоким уровнем риска. 
 
 Чтобы просмотреть конкретные рекомендации по каждому уровню конфигурации и минимальным приложениям, которые необходимо защищать, ознакомьтесь со статьей [Data Protection Framework с помощью политик защиты приложений](https://docs.microsoft.com/mem/intune/apps/app-protection-framework). 
 
@@ -206,22 +206,39 @@ ms.locfileid: "43022925"
 |Строго регулируемая     | [Высокий уровень защиты данных предприятия уровня 3](https://docs.microsoft.com/mem/intune/apps/app-protection-framework#level-3-enterprise-high-data-protection)        | Параметры политики, примененные на уровне 3, включают все параметры политики, Рекомендуемые для уровней 1 и 2, и добавляют или обновляют указанные ниже параметры политики для реализации большего числа элементов управления и более сложной конфигурации, чем уровень 2.        |
 
 Чтобы создать новую политику защиты приложений для каждой платформы (iOS и Android) в Microsoft Endpoint Manager с помощью параметров платформы защиты данных, администраторы могут:
-1. Создайте политики вручную, выполнив действия, описанные в статье [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policies).
+1. Создайте политики вручную, выполнив действия, описанные в статье [Создание и развертывание политик защиты приложений с помощью Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/app-protection-policies). 
 2. Импортируйте [шаблоны JSON платформы настройки политики защиты приложений Intune](https://github.com/microsoft/Intune-Config-Frameworks/tree/master/AppProtectionPolicies) с помощью [скриптов PowerShell в Intune](https://github.com/microsoftgraph/powershell-intune-samples).
 
-## <a name="require-apps-that-support-intune-app-protection-policies"></a>Требовать приложения, поддерживающие политики защиты приложений Intune
-При условном доступе организации могут ограничивать доступ к утвержденным (с поддержкой современной проверки подлинности) iOS и клиентским приложениям Android с примененными к ним политиками защиты приложений Intune. Необходимо указать несколько политик условного доступа, при этом каждая политика нацелена на всех потенциальных пользователей. Подробные сведения о создании этих политик можно найти в этой [политике. для этого требуется политика защиты приложений для облачного доступа к облачному приложению с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
+## <a name="require-approved-apps-and-app-protection"></a>Требовать утвержденные приложения и защиту приложений
+Чтобы применить политики защиты приложений, примененные в Intune, необходимо создать правило условного доступа, чтобы оно потребовало утвержденных клиентских приложений, и условия, заданные в политиках защиты приложений. 
 
-1. Следуйте инструкциям "шаг 1: Настройка политики условного доступа Azure AD для Office 365" в [сценарии 1: приложения office 365 требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что позволяет Outlook для iOS и Android, но блокирует подключение клиентов Exchange ActiveSync к Exchange Online.
+Для применения политик защиты приложений требуется набор политик, описанный в статье [требования к политике защиты приложений для облачного доступа к приложениям с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access). Эти политики включены в этот рекомендуемый набор политик настройки удостоверений и доступа.
+
+Чтобы создать правило условного доступа, требующее утвержденные приложения и защиту приложений, выполните действие "шаг 1: Настройка политики условного доступа Azure AD для Office 365" в [сценарии 1: Office 365 приложения требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что позволяет использовать Outlook для iOS и Android, но блокирует подключение клиентов Exchange ActiveSync к Exchange Online.
 
    > [!NOTE]
    > Эта политика гарантирует, что мобильные пользователи смогут получить доступ ко всем конечным точкам Office, используя соответствующие приложения.
 
-2. Если вы включите мобильный доступ к Exchange Online, реализуйте [блокировку клиентов ActiveSync](secure-email-recommended-policies.md#block-activesync-clients), которая не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online.
+Если вы включите мобильный доступ к Exchange Online, реализуйте [блокировку клиентов ActiveSync](secure-email-recommended-policies.md#block-activesync-clients), которая не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online. Эта политика не изображена на рисунке в начале этой статьи. Он описывается и рассказано в разделе [рекомендации по политике защиты электронной почты](secure-email-recommended-policies.md).
 
-   Приведенные выше политики используют элементы управления предоставлением разрешений для [утвержденного клиентского приложения](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) и [требуют политики защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
+ Эти политики используют элементы управления предоставлением разрешений для [утвержденного клиентского приложения](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) и [требуют политики защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
 
-3. Отключите устаревшую проверку подлинности для других клиентских приложений на устройствах с iOS и Android. Для получения дополнительных сведений обратитесь к разделу [Блокировка клиентов, не поддерживающих современные проверки подлинности](#block-clients-that-dont-support-modern-authentication).
+Наконец, блокировка устаревшей проверки подлинности для других клиентских приложений на устройствах с iOS и Android гарантирует, что эти клиенты не смогут обходить правила условного доступа. Если вы подписаны на рекомендации, описанные в этой статье, вы уже настроили [Блокирование клиентов, не поддерживающих современные проверки подлинности](#block-clients-that-dont-support-modern-authentication).
+
+<!---
+With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several conditional access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
+
+1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Office 365" in [Scenario 1: Office 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
+
+   > [!NOTE]
+   > This policy ensures mobile users can access all Office endpoints using the applicable apps.
+
+2. If enabling mobile access to Exchange Online, implement [Block ActiveSync clients](secure-email-recommended-policies.md#block-activesync-clients), which prevents Exchange ActiveSync clients leveraging basic authentication from connecting to Exchange Online.
+
+   The above policies leverage the grant controls [Require approved client app](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) and [Require app protection policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy).
+
+3. Disable legacy authentication for other client apps on iOS and Android devices. For more information, see [Block clients that don't support modern authentication](#block-clients-that-dont-support-modern-authentication).
+-->
 
 ## <a name="define-device-compliance-policies"></a>Определение политик соответствия требованиям устройств
 
