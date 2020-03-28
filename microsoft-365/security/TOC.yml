@@ -212,8 +212,6 @@
                       href: ./office-365-security/anti-malware-protection-faq-eop.md
                     - name: Настройка политик защиты от вредоносных программ
                       href: ./office-365-security/configure-anti-malware-policies.md
-                    - name: 'Отправка вредоносных программ и программ, не являющихся вредоносными, корпорации Майкрософт для анализа'
-                      href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                     - name: Восстановление после атаки программы-шантажиста
                       href: ./office-365-security/recover-from-ransomware.md
                     - name: Обнаружение вирусов в SharePoint Online
@@ -235,16 +233,14 @@
                       href: ./office-365-security/spam-confidence-levels.md
                     - name: Массовый уровень жалоб (SCL)
                       href: ./office-365-security/bulk-complaint-level-values.md
+                    - name: В чем разница между нежелательной почтой и массовой рассылкой электронной почты?
+                      href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
                     - name: Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
                       href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
-                    - name: Спам-уведомления конечного пользователя
-                      href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
                     - name: 'Используйте правила потока почты, чтобы установить SCL в сообщениях'
                       href: ./office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
                     - name: Настройки расширенного спам-фильтра (ASF)Параметры расширенного фильтра спама (ASF)
                       href: ./office-365-security/advanced-spam-filtering-asf-options.md
-                    - name: Настройка автономного EOP для доставки спама в папку нежелательной почты
-                      href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
                 - name: Защита от исходящего спама
                   href: ./office-365-security/outbound-spam-controls.md
                   items:
@@ -252,8 +248,21 @@
                       href: ./office-365-security/configure-the-outbound-spam-policy.md
                     - name: Пул доставки сообщений с высоким уровнем опасности
                       href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
-                    - name: Удалить заблокированных пользователей из портала Restricted Users
+                    - name: Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом"
                       href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
+                - name: Передача информации о сообщениях и файлах в корпорацию Майкрософт
+                  href: ./office-365-security/report-junk-email-messages-to-microsoft.md
+                  items:
+                    - name: 'Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт'
+                      href: ./office-365-security/admin-submission.md
+                    - name: Включение надстройки "Пожаловаться на сообщение"
+                      href: ./office-365-security/enable-the-report-message-add-in.md
+                    - name: Установка и использование надстройки "Отчеты о нежелательной почте"
+                      href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
+                    - name: Отправка сообщений в корпорацию Майкрософт вручную
+                      href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
+                    - name: 'Отправка вредоносных программ и программ, не являющихся вредоносными, в корпорацию Майкрософт'
+                      href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Заголовки сообщений по защите от нежелательной почты
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: Как объединяются политики и средства защиты
@@ -262,12 +271,6 @@
                   href: ./office-365-security/zero-hour-auto-purge.md
                 - name: Советы по безопасности в сообщениях электронной почты
                   href: ./office-365-security/safety-tips-in-office-365.md
-                - name: Отправка отчетов о нежелательных сообщениях корпорации Майкрософт
-                  href: ./office-365-security/report-junk-email-messages-to-microsoft.md
-                - name: 'Отправка обычных, нежелательных и фишинговых сообщений в корпорацию Майкрософт для анализа'
-                  href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
-                - name: Отправка администраторами в Office 365
-                  href: ./office-365-security/admin-submission.md
                 - name: Удаление себя из списка заблокированных отправителей Office 365 с помощью портала удаления из списка
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
             - name: Защита от фишинга в Office 365
@@ -290,23 +293,6 @@
                   href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
                 - name: Определение подозрительных сообщений в Outlook.com и Outlook в Интернете
                   href: ./office-365-security/unverified-sender-feature.md
-            - name: Что такое EOP?
-              href: ./office-365-security/what-is-eop.md
-              items:
-                - name: Поддержка анонимных входящих сообщений электронной почты по протоколу IPv6
-                  href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
-                - name: Блокирование нежелательной почты в изолированной службе EOP
-                  href: ./office-365-security/block-email-spam-in-EOPStandalone.md
-                - name: Создание отчетов о нежелательной почте и мошеннических сообщениях (фишинге) в Outlook в Интернете
-                  href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
-                - name: Защита локальных почтовых ящиков с помощью Exchange Online Protection
-                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
-                - name: Установка надстройки создания отчетов о нежелательной почте для Microsoft Outlook
-                  href: ./office-365-security/install-the-junk-email-reporting-add-in-for-microsoft-outlook.md
-                - name: Отключение отчетов о нежелательной почте в Outlook в Интернете
-                  href: ./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md
-                - name: В чем разница между нежелательной почтой и массовыми сообщениями электронной почты?
-                  href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
             - name: Карантин
               href: ./office-365-security/quarantine-email-messages.md
               items:
@@ -316,6 +302,8 @@
                   href: ./office-365-security/manage-quarantined-messages-and-files.md
                 - name: Поиск и освобождение сообщений на карантине для конечного пользователя
                   href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
+                - name: Уведомления конечных пользователей о спаме
+                  href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
             - name: Подтверждение и проверка подлинности электронной почты
               items:
                 - name: Как Office 365 использует SPF для предотвращения спуфинга
@@ -350,6 +338,17 @@
                       href: ./office-365-security/download-existing-reports.md
                 - name: Просмотр сведений о вредоносных файлах
                   href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
+            - name: Что такое EOP?
+              href: ./office-365-security/what-is-eop.md
+              items:
+                - name: Поддержка анонимных входящих сообщений электронной почты по протоколу IPv6
+                  href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
+                - name: Блокирование нежелательной почты в изолированной службе EOP
+                  href: ./office-365-security/block-email-spam-in-EOPStandalone.md
+                - name: Защита локальных почтовых ящиков с помощью Exchange Online Protection
+                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
+                - name: Настройка автономной системы EOP для доставки спама в папку нежелательной почты
+                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Расширенная защита от угроз
           href: ./office-365-security/office-365-atp.md
           items:
@@ -440,8 +439,6 @@
               href: ./office-365-security/responding-to-a-compromised-email-account.md
         - name: Поток обработки почты
           items:
-            - name: Включение надстройки Report Message
-              href: ./office-365-security/enable-the-report-message-add-in.md
             - name: Трассировка сообщений в Центре безопасности и соответствия требованиям
               href: ./office-365-security/message-trace-scc.md
             - name: Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
@@ -547,16 +544,13 @@
                       href: ./office-365-security/mail-flow-rules-transport-rules-0.md
                     - name: Использование правил потока обработки почты для массовой фильтрации почтовых сообщений
                       href: ./office-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
-                    - name: 'Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты'
-                      href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
                     - name: Устранение угроз вредоносного ПО с помощью блокирования вложенных файлов
                       href: ./office-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
                     - name: Отчеты и трассировка сообщений
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
                     - name: Логика потока обработки почты в Office 365
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
-                - name: Сведения об устранении неполадок и поддержке
-                  href: ./office-365-security/troubleshooting-and-support-information.md
+                - name: Устранение неполадок и поддержка EOP
                   items:
                     - name: "Устранение неполадок с отправкой почты в Office\_365"
                       href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
