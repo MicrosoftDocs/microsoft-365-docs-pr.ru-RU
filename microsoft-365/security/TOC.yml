@@ -3,6 +3,8 @@
   items:
     - name: Начало работы
       items:
+        - name: Основные задачи для поддержки работы из дома
+          href: top-security-tasks-for-remote-work.md
         - name: "Безопасность в Microsoft\_365 для BDM"
           href: Microsoft-365-security-for-bdm.md
         - name: Учебный семинар для руководителя по информационной безопасности (CISO)
