@@ -18,19 +18,19 @@ search.appverid:
 - GEA150
 ms.assetid: a27f1a99-3557-4f85-9560-a28e3d822a40
 description: Получите отчет о группах Microsoft 365, чтобы узнать о группах и их действиях.
-ms.openlocfilehash: b76bd83dfbd215a6645bd73b2f9b2fb4be0c493b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 23b72d960a693ddeb8b05d261bd90f180b7c731d
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353670"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047135"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-365-groups"></a>Отчеты Microsoft 365 в центре администрирования — группы Майкрософт 365
 
 На панели мониторинга **отчетов** Microsoft 365 вы увидите обзор действий по продуктам в вашей организации. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением. Ознакомьтесь со статьей [Обзор отчетов](activity-reports.md). В отчете по группам Microsoft 365 вы можете получить подробные сведения об активности групп в Организации и узнать, сколько групп создано и используется.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
   
 ## <a name="how-to-get-to-the-groups-report"></a>Получение отчета по группам
 

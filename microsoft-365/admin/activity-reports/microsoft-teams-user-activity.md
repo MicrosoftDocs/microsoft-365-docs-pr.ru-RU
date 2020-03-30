@@ -18,19 +18,19 @@ search.appverid:
 - MOE150
 ms.assetid: 07f67fc4-c0a4-4d3f-ad20-f40c7f6db524
 description: Узнайте, как получить отчет об активности пользователей Microsoft Teams и получить сведения о действиях Teams в вашей организации.
-ms.openlocfilehash: 53c3da2d563363c7c463abc62f7cdf4b478ccecc
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4a1b546efa7ba3bac887f60de54231389b8b5ca6
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353730"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047101"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-user-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия пользователей Microsoft Teams
 
 На панели мониторинга **отчетов** Microsoft 365 вы увидите обзор действий по продуктам в вашей организации. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением. Ознакомьтесь с [общими сведениями о панели отчетов](activity-reports.md). С помощью отчета о действиях пользователей Microsoft Teams вы можете получить представление об активности этих пользователей в вашей организации.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
  
 ## <a name="how-to-get-to-the-microsoft-teams-user-activity-report"></a>Как найти отчет о действиях пользователей Microsoft Teams?
 

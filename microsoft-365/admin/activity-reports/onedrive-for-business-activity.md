@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: Получение отчета об использовании OneDrive для Организации и знание активности каждого пользователя OneDrive, количества общих файлов и использования хранилища.
-ms.openlocfilehash: b51071fe8c91b0064d6680b628b58df1f370c73d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: b94e5e34f7599cc372b506c2c365503ea1334685
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353590"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047089"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>Отчеты Microsoft 365 в центре администрирования — действие OneDrive для бизнеса
 
@@ -40,7 +40,7 @@ ms.locfileid: "42353590"
 Если вы хотите узнать, насколько активно используется та или иная учетная запись OneDrive и хранилище, просмотрите [отчет об использовании OneDrive](onedrive-for-business-usage.md).
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
  
 ## <a name="how-do-i-get-to-the-onedrive-activity-report"></a>Как получить отчет о действиях в OneDrive?
 

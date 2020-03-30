@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: fc1cf1d0-cd84-43fd-adb7-a4c4dfa8112d
 description: Узнайте, как получить отчет об активных пользователях с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365 и узнать, сколько лицензий на продукт используется.
-ms.openlocfilehash: 6ac56f17e1d106eaa4d1c3a46ff603631532075f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e865fa1ed68e7e68c103bf6abc66816b844d7b2d
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353960"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046847"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---active-users"></a>Отчеты Microsoft 365 в центре администрирования — активные пользователи
 
@@ -32,7 +32,7 @@ ms.locfileid: "42353960"
 Например, из отчета **Активные пользователи** можно узнать, сколько лицензий на продукты используется сотрудниками организации, и просмотреть подробные сведения о том, какие продукты кто использует. Этот отчет поможет администраторам выяснить, какие продукты используются редко, или определить пользователей, которым могут понадобиться дополнительное обучение и сведения. 
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
 
 ## <a name="how-to-get-to-the-active-users-report"></a>Просмотр отчета "Активные пользователи"
 

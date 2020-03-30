@@ -20,12 +20,12 @@ search.appverid:
 - BSA160
 ms.assetid: a91c958f-1279-499d-9959-12f0de08dc8f
 description: Получите отчет об использовании действий SharePoint, чтобы узнать о действиях каждого пользователя SharePoint, количестве общих файлов и использовании хранилища.
-ms.openlocfilehash: df025d41a2c570761fd59e228eebb277c922e06e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: a3c8d73707ef09c3702450ebddab6e43c159638c
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353430"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047051"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия SharePoint
 
@@ -39,7 +39,7 @@ ms.locfileid: "42353430"
 Если вы хотите узнать, насколько активно используется тот или иной сайт SharePoint и хранилище, просмотрите [отчет об использовании сайта SharePoint](sharepoint-site-usage.md).
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
  
 ## <a name="how-do-i-get-to-the-to-the-sharepoint-activity-report"></a>Как перейти к отчету о действиях в SharePoint?
 

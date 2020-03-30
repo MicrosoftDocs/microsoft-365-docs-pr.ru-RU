@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: b793ffdd-effa-43d0-849a-b1ca2e899f38
 description: 'Получите отчет об использовании устройств Yammer, чтобы узнать, на каких устройствах используются пользователи Yammer. '
-ms.openlocfilehash: 42fc4b1f9a4d782c50eabd892f6a49d1c474be01
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1dfd72c8974aa10b3774d2cdb17ac1bf82b9501b
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353380"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047015"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>Отчеты Microsoft 365 в центре администрирования — отчет об использовании устройств в Yammer
 
@@ -31,7 +31,7 @@ ms.locfileid: "42353380"
 Отчеты об использовании устройств в Yammer содержат сведения об устройствах, на которых используется Yammer. Вы можете просмотреть данные о суточном и общем количестве пользователей с разбивкой по типам устройств. Оба показателя можно просмотреть за выбранный период времени. Кроме того, можно получить информацию о каждом пользователе.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса. 
   
 ## <a name="how-do-i-get-to-the-yammer-device-usage-report"></a>Как открыть отчет об использовании устройств в Yammer?
 

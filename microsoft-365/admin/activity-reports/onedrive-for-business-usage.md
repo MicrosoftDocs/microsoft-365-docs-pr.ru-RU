@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: 'Получите отчет об использовании OneDrive для бизнеса, который будет знать общее количество файлов и хранилища, используемых в Организации. '
-ms.openlocfilehash: 8bbf904faf1afe28f4a8a83209f681a44eaa932f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4c7cfaeed03627b6dfab6c694f3a5e858b125c40
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353560"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047111"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>Отчеты Microsoft 365 в центре администрирования: использование OneDrive для бизнеса
 
@@ -35,7 +35,7 @@ ms.locfileid: "42353560"
 Например, с помощью карточки OneDrive на панели мониторинга вы можете получить общее представление о том, насколько активно используется OneDrive для бизнеса с точки зрения количества хранимых файлов и объема хранилища, используемого в вашей организации. Затем вы можете детализировать данные, чтобы выявить тенденции использования активных учетных записей OneDrive, узнать, сколько файлов используют сотрудники и какой объем в хранилище занимают их данные. Вы также сможете узнать сведения о OneDrive каждого пользователя.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
  
 ## <a name="how-do-i-get-to-the-onedrive-usage-report"></a>Как получить отчет об использовании OneDrive?
 

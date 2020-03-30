@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Получите отчет о действиях в Yammer и Узнайте больше о числе пользователей, использующих Yammer для публикации, например, или чтения сообщения.
-ms.openlocfilehash: e4e51707aa487486e2d41d5d8bd4e84294c36ef2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: de62ef0ceed54da76ead64274923ac646240ce44
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353520"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047027"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>Отчеты об Office 365 в центре администрирования — отчет об активности в Yammer
 
 Как администратор Microsoft 365, панель мониторинга **отчетов** показывает данные об использовании продуктов в Организации. Изучите [отчеты об активности в центре администрирования](activity-reports.md). С помощью **отчета по действиям в Yammer**вы можете оценить уровень задействования Организации с Yammer, изучив число уникальных пользователей, использующих Yammer для публикации, например, или чтения сообщения, а также количества действий, создаваемых в Организации. 
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса. 
  
 ## <a name="how-to-get-to-the-yammer-activity-report"></a>Получение отчета об активности в Yammer
 

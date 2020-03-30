@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Узнайте, как получить отчет об активности электронной почты с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: 34cacd3a1c4682a53fdefd8f3fe26c38651676df
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2cdf20014b04010e1912fbc41ec6f4ce61eaaca1
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353850"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046835"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>Отчеты Microsoft 365 в центре администрирования — действие электронной почты
 
@@ -32,7 +32,7 @@ ms.locfileid: "42353850"
 Например, вы можете просмотреть общие сведения о трафике электронной почты организации на странице "Отчеты", а затем перейти в мини-приложение "Действия с электронной почтой", чтобы изучить тенденции и данные о пользователях.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса. 
 
 ## <a name="how-to-get-to-the-email-activity-report"></a>Получение отчета об активности для электронной почты
 

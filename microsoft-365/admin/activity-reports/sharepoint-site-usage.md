@@ -20,18 +20,19 @@ search.appverid:
 - BSA160
 ms.assetid: 4ecfb843-e5d5-464d-8bf6-7ed512a9b213
 description: 'Получите отчет об использовании сайта SharePoint, чтобы узнать, сколько файлов пользователи хранят на сайтах SharePoint, сколько используется активно и сколько потребляется общее хранилище. '
-ms.openlocfilehash: c60d33ce299d63edafc4ce996bb4ba07ce9b7fa0
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 92ff9c4dbfcc7fcd9f9fdc511584400273030f21
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353470"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047123"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-site-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование сайта SharePoint
 
 Как администратор Microsoft 365, панель мониторинга **отчетов** показывает обзор действий для различных продуктов в Организации. Вы можете детализировать их, чтобы получить более подробную информацию о действиях для каждого продукта. Например, вы можете получить общее представление о том, насколько активно SharePoint используется с точки зрения количества хранимых или активно используемых файлов и объема хранилища, занятого на всех сайтах SharePoint. Затем вы можете детализировать отчет об использовании сайта SharePoint, чтобы выявить тенденции и получить сведения об использовании на уровне сайта. 
   
-> Примечание: вы должны быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса для просмотра отчетов. 
+> [!NOTE]
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса. 
  
 ## <a name="how-to-get-to-the-sharepoint-site-usage-report"></a>Открытие отчета об использовании сайта SharePoint
 

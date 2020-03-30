@@ -20,19 +20,19 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Получите сведения о приложениях Microsoft Teams, используемых в вашей организации, получив отчет об использовании приложений Microsoft Teams из отчетов Office 365.
-ms.openlocfilehash: 872cde92ccd66f4de5199a5035eaaa83b79f0cc0
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: b0937e4366f1b10b0908ee8764986f2ded2999ec
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353660"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046967"
 ---
 # <a name="office-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Отчеты об Office 365 в центре администрирования — использование устройств Microsoft Teams
 
 Панель мониторинга **отчетов** Office 365 показывает обзор действий по продуктам в вашей организации. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением. Ознакомьтесь с [общими сведениями о панели отчетов](activity-reports.md). С помощью отчета об использовании приложений Microsoft Teams вы можете получить представление о том, какие приложения Microsoft Teams используются в вашей организации.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса.  
  
 ## <a name="how-to-get-to-the-microsoft-teams-app-usage-report"></a>Как найти отчет об использовании приложений Microsoft Teams?
 

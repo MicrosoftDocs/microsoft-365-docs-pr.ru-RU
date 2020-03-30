@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Узнайте, как получить отчет об активности Microsoft Forms с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: 601e110719e4d69a647cfd55ecd4ae6db2568947
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42402325"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046943"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия с формами
 
@@ -32,7 +32,7 @@ ms.locfileid: "42402325"
 Например, вы можете узнать о действиях каждого пользователя, имеющего лицензию на использование Microsoft Forms, взглянув на их взаимодействие с формами. Кроме того, вы можете ознакомиться с уровнем совместной работы, который просматривает количество созданных форм и формирует пользователя, на который вы ответили.
   
 > [!NOTE]
-> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или средством чтения отчетов в Microsoft 365 или администратором Exchange, SharePoint или Skype для бизнеса. 
+> Для просмотра отчетов необходимо быть глобальным администратором, глобальным читателям или читателями отчетов в Microsoft 365 или Exchange, SharePoint, Teams Service, Team Communications или Skype для бизнеса. 
 
 ## <a name="how-to-get-to-the-forms-activity-report"></a>Как перейти к отчету о действиях с формами
 
