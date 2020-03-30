@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 'Защита бизнес-сообщений и данных от угроз кибератак, в том числе от атак, фишинга и вредоносных вложений. '
-ms.openlocfilehash: 73f2ae19a7424d392bb365d7a24a83532a1950bf
-ms.sourcegitcommit: 37f17c918208b83fc04ba92e986e0a7548d4c38d
+ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
+ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/29/2020
-ms.locfileid: "43036392"
+ms.locfileid: "43037480"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>12 самых популярных задач по обеспечению безопасности Teams для поддержки работы из дома
 
@@ -116,7 +116,7 @@ Office 365 ATP:
 Теперь, когда у вас настроен Office 365 ATP и Azure ATP, вы можете просмотреть Объединенные сигналы из этих возможностей на одной панели мониторинга. [Microsoft Threat protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) (MTP) объединяет оповещения, происшествия, автоматическое исследование и отклики, а также расширенные возможности Поиск в рабочих нагрузках (Azure ATP, Office 365 ATP, Microsoft Defender ATP и Microsoft Cloud App Security) в одну область по адресу [Security.Microsoft.com](https://security.microsoft.com). 
 <br>
 
-![Иллюстрация панели мониторинга MTP](../media/top-10-security-remote-work-mtp-dashboard.png)
+![Иллюстрация панели мониторинга MTP](../media/top-ten-security-remote-work-mtp-dashboard.png)
 <br><br>
 После того как вы настроили одну или несколько служб Advanced Threat Protection, включите MTP. Новые функции постоянно добавляются в MTP; Рассмотрите возможность принимать функции предварительного просмотра.
 
@@ -128,7 +128,7 @@ Office 365 ATP:
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: Настройка защиты мобильных приложений Intune для телефонов и планшетных ПК
 
 Управление мобильными приложениями Microsoft Intune (MAM) позволяет управлять и защищать данные Организации на телефонах и планшетах, не управляя этими устройствами. Вот как это работает:
-- Вы создаете политику защиты приложений (APP), которая определяет, какие приложения на устройстве управляются и какие варианты поведения разрешены (например, предотвращается копирование данных из управляемого приложения в неуправляемое приложение). Вы создаете одну политику для каждого платорм (iOS, Android).
+- Вы создаете политику защиты приложений (APP), которая определяет, какие приложения на устройстве управляются и какие варианты поведения разрешены (например, запрещает копирование данных из управляемого приложения в неуправляемое приложение). Вы создаете одну политику для каждого платорм (iOS, Android).
 - После создания политик защиты приложений их необходимо создать, создав правило условного доступа в Azure AD, чтобы потребовать утвержденные приложения и защиту данных приложений.
 
 Политики защиты приложений включают множество параметров. К счастью, вам не нужно изучать каждый параметр и взвесить параметры. Корпорация Майкрософт упрощает применение конфигурации параметров, предрекомендую отправку точек. [Платформа защиты данных, использующая политики защиты приложений](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) , включает три уровня, которые можно выбрать. 
@@ -181,7 +181,7 @@ Office 365 ATP:
 
 Дополнительные сведения можно найти в разделе материалы по документам:
 - [Обзор: Оптимизация подключения Office 365 для удаленных пользователей с помощью туннеллинг разделение VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
-- [Реализация разделенного туннеллинг VPN для Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Внедрение раздельного VPN-туннелирования для Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 Последние статьи блогов, приведенные в этой статье:
 - [Быстрая оптимизация трафика Office 365 для удаленных сотрудников & снижения нагрузки на инфраструктуру](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
