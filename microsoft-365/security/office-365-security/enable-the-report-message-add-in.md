@@ -1,9 +1,9 @@
 ---
-title: Включение надстройки Report Message
+title: Включение надстройки "Пожаловаться на сообщение"
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: msfttracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: Admin
 ms.topic: article
@@ -16,185 +16,143 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: 32b4ab318237ca220b63c87bd4a664cfb69d0b45
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: c160e928c9a46dd4dc360c5e61d70ca401430378
+ms.sourcegitcommit: a86787b62cec95a392ff2b933f5dc44334ceb7e9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893758"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43061757"
 ---
-# <a name="enable-the-report-message-add-in"></a><span data-ttu-id="05405-103">Включение надстройки Report Message</span><span class="sxs-lookup"><span data-stu-id="05405-103">Enable the Report Message add-in</span></span>
+# <a name="enable-the-report-message-add-in-in-office-365"></a><span data-ttu-id="20e8e-103">Включение надстройки сообщений отчета в Office 365</span><span class="sxs-lookup"><span data-stu-id="20e8e-103">Enable the Report Message add-in in Office 365</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="05405-104">Надстройка сообщения отчета для Outlook и Outlook в Интернете — это не то же самое, что и [Фильтр нежелательной почты Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089), хотя они могут быть использованы для пометки почты как нежелательных, нежелательных или фишинговых атак.</span><span class="sxs-lookup"><span data-stu-id="05405-104">The Report Message add-in for Outlook and Outlook on the web is not exactly the same thing as the [Outlook Junk Email Filter](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089), although both can be used to mark email as junk, not junk, or a phishing attempt.</span></span> <span data-ttu-id="05405-105">Разница заключается в том, что надстройка Message Report для Outlook и Outlook в Интернете уведомляет Майкрософт о неклассифицированных сообщениях электронной почты, а фильтр нежелательной почты Outlook используется для упорядочения сообщений электронной почты в почтовом ящике пользователя.</span><span class="sxs-lookup"><span data-stu-id="05405-105">The difference is, the Report Message add-in for Outlook and Outlook on the web notifies Microsoft about misclassified email, whereas the Outlook Junk Email Filter is used to organize email messages in a user's mailbox.</span></span>
+> <span data-ttu-id="20e8e-104">Если вы являетесь администратором в организации Office 365 с почтовыми ящиками Exchange Online, рекомендуем использовать портал отправки в центре безопасности & соответствия требованиям Office 365.</span><span class="sxs-lookup"><span data-stu-id="20e8e-104">If you're an admin in an Office 365 organization with Exchange Online mailboxes, we recommend that you use the Submissions portal in the Office 365 Security & Compliance Center.</span></span> <span data-ttu-id="20e8e-105">Дополнительные сведения см. в [статье Использование отправки администратором для отправки подозреваемой спама, фишинга, URL-адресов и файлов в корпорацию Майкрософт](admin-submission.md).</span><span class="sxs-lookup"><span data-stu-id="20e8e-105">For more information, see [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).</span></span>
 
-## <a name="overview"></a><span data-ttu-id="05405-106">Обзор</span><span class="sxs-lookup"><span data-stu-id="05405-106">Overview</span></span>
+<span data-ttu-id="20e8e-106">Надстройка сообщения отчета для Outlook и Outlook в Интернете (прежнее название — Outlook Web App) позволяет людям легко сообщать о ложных срабатываниях (хорошее письмо отмечено как плохое) или ложные отрицательные (недопустимые сообщения электронной почты) корпорации Майкрософт и ее аффилированным лицам для анализа.</span><span class="sxs-lookup"><span data-stu-id="20e8e-106">The Report Message add-in for Outlook and Outlook on the web (formerly known as Outlook Web App) enables people to easily report false positives (good email marked as bad) or false negatives (bad email allowed) to Microsoft and its affiliates for analysis.</span></span> <span data-ttu-id="20e8e-107">Корпорация Майкрософт использует эти отправки для повышения эффективности технологий защиты электронной почты.</span><span class="sxs-lookup"><span data-stu-id="20e8e-107">Microsoft uses these submissions to improve the effectiveness of email protection technologies.</span></span>
 
-<span data-ttu-id="05405-107">Надстройка сообщения отчета для Outlook и Outlook в Интернете (прежнее название — Outlook Web App) позволяет людям легко сообщать о неклассифицированных сообщениях, независимо от того, были ли они безопасными или вредоносными, для проведения анализа корпорацией Майкрософт и ее аффилированными лицами.</span><span class="sxs-lookup"><span data-stu-id="05405-107">The Report Message add-in for Outlook and Outlook on the web (formerly known as Outlook Web App) enables people to easily report misclassified email, whether safe or malicious, to Microsoft and its affiliates for analysis.</span></span> <span data-ttu-id="05405-108">Корпорация Майкрософт использует эти отправки для повышения эффективности технологий защиты электронной почты.</span><span class="sxs-lookup"><span data-stu-id="05405-108">Microsoft uses these submissions to improve the effectiveness of email protection technologies.</span></span> <span data-ttu-id="05405-109">Кроме того, если в организации используется [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) или [Plan 2](office-365-ti.md), надстройка сообщения отчета предоставляет группе безопасности Организации полезную информацию, которую можно использовать для просмотра и обновления политик безопасности.</span><span class="sxs-lookup"><span data-stu-id="05405-109">In addition, if your organization is using [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) or [Plan 2](office-365-ti.md), the Report Message add-in provides your organization's security team with useful information they can use to review and update security policies.</span></span>
+<span data-ttu-id="20e8e-108">Например, предположим, что люди сообщают о большом числе фишинговых сообщений.</span><span class="sxs-lookup"><span data-stu-id="20e8e-108">For example, suppose that people are reporting a lot of messages as phishing.</span></span> <span data-ttu-id="20e8e-109">Эта информация послужит в качестве поверхности в [панели мониторинга безопасности](security-dashboard.md) и других отчетов.</span><span class="sxs-lookup"><span data-stu-id="20e8e-109">This information surfaces in the [Security Dashboard](security-dashboard.md) and other reports.</span></span> <span data-ttu-id="20e8e-110">Группа безопасности вашей организации может использовать эти сведения для указания того, что политики защиты от фишинга может потребоваться обновить.</span><span class="sxs-lookup"><span data-stu-id="20e8e-110">Your organization's security team can use this information as an indication that anti-phishing policies might need to be updated.</span></span> <span data-ttu-id="20e8e-111">Или, если пользователи сообщают о большом количестве сообщений, помеченных как нежелательные, с помощью надстройки Report Message, группе безопасности Организации может потребоваться настроить [политики защиты от нежелательной почты](configure-your-spam-filter-policies.md).</span><span class="sxs-lookup"><span data-stu-id="20e8e-111">Or, if people are reporting a lot of messages that were flagged as junk mail as Not Junk by using the Report Message add-in, your organization's security team might need to adjust [anti-spam policies](configure-your-spam-filter-policies.md).</span></span>
 
-<span data-ttu-id="05405-110">Например, предположим, что люди сообщают о большом числе фишинговых сообщений.</span><span class="sxs-lookup"><span data-stu-id="05405-110">For example, suppose that people are reporting a lot of messages as phishing.</span></span> <span data-ttu-id="05405-111">Эта информация послужит в качестве поверхности в [панели мониторинга безопасности](security-dashboard.md) и других отчетов.</span><span class="sxs-lookup"><span data-stu-id="05405-111">This information surfaces in the [Security Dashboard](security-dashboard.md) and other reports.</span></span> <span data-ttu-id="05405-112">Группа безопасности вашей организации может использовать эти сведения для указания того, что политики защиты от фишинга может потребоваться обновить.</span><span class="sxs-lookup"><span data-stu-id="05405-112">Your organization's security team can use this information as an indication that anti-phishing policies might need to be updated.</span></span> <span data-ttu-id="05405-113">Или, если пользователи сообщают о большом количестве сообщений, помеченных как нежелательные, с помощью надстройки Report Message, группе безопасности Организации может потребоваться настроить [политики защиты от нежелательной почты](configure-your-spam-filter-policies.md).</span><span class="sxs-lookup"><span data-stu-id="05405-113">Or, if people are reporting a lot of messages that were flagged as junk mail as Not Junk by using the Report Message add-in, your organization's security team might need to adjust [anti-spam policies](configure-your-spam-filter-policies.md).</span></span>
+<span data-ttu-id="20e8e-112">Кроме того, если в организации используется [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) или [Plan 2](office-365-ti.md), надстройка сообщения отчета предоставляет группе безопасности Организации полезную информацию, которую можно использовать для просмотра и обновления политик безопасности.</span><span class="sxs-lookup"><span data-stu-id="20e8e-112">In addition, if your organization is using [Office 365 Advanced Threat Protection Plan 1](office-365-atp.md) or [Plan 2](office-365-ti.md), the Report Message add-in provides your organization's security team with useful information they can use to review and update security policies.</span></span>
 
-<span data-ttu-id="05405-114">Надстройка сообщения отчета работает с большинством подписок на Office 365 и следующих продуктов:</span><span class="sxs-lookup"><span data-stu-id="05405-114">The Report Message add-in works with most Office 365 subscriptions and the following products:</span></span>
+<span data-ttu-id="20e8e-113">Администраторы могут включить надстройку сообщений отчета для Организации, а отдельные пользователи могут установить их самостоятельно.</span><span class="sxs-lookup"><span data-stu-id="20e8e-113">Admins can enable the Report Message add-in for the organization, and individual users can install it for themselves.</span></span>
 
-- <span data-ttu-id="05405-115">Outlook в Интернете</span><span class="sxs-lookup"><span data-stu-id="05405-115">Outlook on the web</span></span>
-- <span data-ttu-id="05405-116">Outlook 2013 SP1</span><span class="sxs-lookup"><span data-stu-id="05405-116">Outlook 2013 SP1</span></span>
-- <span data-ttu-id="05405-117">Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="05405-117">Outlook 2016</span></span>
-- <span data-ttu-id="05405-118">Outlook 2016 для Mac</span><span class="sxs-lookup"><span data-stu-id="05405-118">Outlook 2016 for Mac</span></span>
-- <span data-ttu-id="05405-119">Outlook, включенный в Office 365 профессиональный плюс</span><span class="sxs-lookup"><span data-stu-id="05405-119">Outlook included with Office 365 ProPlus</span></span>
+<span data-ttu-id="20e8e-114">Если вы являетесь отдельным пользователем, вы можете [включить для себя надстройку сообщения отчета](#get-the-report-message-add-in-for-yourself).</span><span class="sxs-lookup"><span data-stu-id="20e8e-114">If you're an individual user, you can [enable the Report Message add-in for yourself](#get-the-report-message-add-in-for-yourself).</span></span>
 
-<span data-ttu-id="05405-120">В настоящее время надстройка сообщений отчета недоступна для:</span><span class="sxs-lookup"><span data-stu-id="05405-120">The Report Message add-in is currently not available for:</span></span>
+<span data-ttu-id="20e8e-115">Если вы являетесь глобальным администратором Office 365 или администратором Exchange Online, а Exchange настроен на использование проверки подлинности OAuth, вы можете [включить надстройку сообщения отчета для Организации](#get-and-enable-the-report-message-add-in-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="20e8e-115">If you're an Office 365 global administrator or an Exchange Online administrator, and Exchange is configured to use OAuth authentication, you can [enable the Report Message add-in for your organization](#get-and-enable-the-report-message-add-in-for-your-organization).</span></span> <span data-ttu-id="20e8e-116">Теперь надстройка сообщений отчета доступна с помощью [централизованного развертывания](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).</span><span class="sxs-lookup"><span data-stu-id="20e8e-116">The Report Message Add-In is now available through [Centralized Deployment](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).</span></span>
 
-- <span data-ttu-id="05405-121">Почтовые ящики в локальных организациях Exchange</span><span class="sxs-lookup"><span data-stu-id="05405-121">Mailboxes in on-premises Exchange organizations</span></span>
-- <span data-ttu-id="05405-122">Подписки на GCC, GCC HIGH или DoD</span><span class="sxs-lookup"><span data-stu-id="05405-122">GCC, GCC HIGH, or DoD subscriptions</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="20e8e-117">Что нужно знать перед началом работы?</span><span class="sxs-lookup"><span data-stu-id="20e8e-117">What do you need to know before you begin?</span></span>
 
-<span data-ttu-id="05405-123">Для работы надстройки "сообщение отчета" в существующем веб-браузере достаточно. Тем не менее, если вы заметили, что надстройка недоступна или не работает должным образом, попробуйте другой браузер.</span><span class="sxs-lookup"><span data-stu-id="05405-123">Your existing web browser should suffice for the Report Message add-in to work; however, if you notice the add-in is not available or not working as expected, try a different browser.</span></span>
+- <span data-ttu-id="20e8e-118">Надстройка сообщения отчета работает с большинством подписок на Office 365 и следующих продуктов:</span><span class="sxs-lookup"><span data-stu-id="20e8e-118">The Report Message add-in works with most Office 365 subscriptions and the following products:</span></span>
 
-<span data-ttu-id="05405-124">Если вы являетесь отдельным пользователем, вы можете [включить для себя надстройку сообщения отчета](#get-the-report-message-add-in-for-yourself).</span><span class="sxs-lookup"><span data-stu-id="05405-124">If you're an individual user, you can [enable the Report Message add-in for yourself](#get-the-report-message-add-in-for-yourself).</span></span>
+  - <span data-ttu-id="20e8e-119">Outlook в Интернете</span><span class="sxs-lookup"><span data-stu-id="20e8e-119">Outlook on the web</span></span>
+  - <span data-ttu-id="20e8e-120">Outlook 2013 SP1 или более поздней версии</span><span class="sxs-lookup"><span data-stu-id="20e8e-120">Outlook 2013 SP1 or later</span></span>
+  - <span data-ttu-id="20e8e-121">Outlook 2016 для Mac;</span><span class="sxs-lookup"><span data-stu-id="20e8e-121">Outlook 2016 for Mac</span></span>
+  - <span data-ttu-id="20e8e-122">Outlook, включенный в Office 365 профессиональный плюс</span><span class="sxs-lookup"><span data-stu-id="20e8e-122">Outlook included with Office 365 ProPlus</span></span>
 
-<span data-ttu-id="05405-125">Если вы являетесь глобальным администратором Office 365 или администратором Exchange Online, а Exchange настроен на использование проверки подлинности OAuth, вы можете [включить надстройку сообщения отчета для Организации](#get-and-enable-the-report-message-add-in-for-your-organization).</span><span class="sxs-lookup"><span data-stu-id="05405-125">If you're an Office 365 global administrator or an Exchange Online administrator, and Exchange is configured to use OAuth authentication, you can [enable the Report Message add-in for your organization](#get-and-enable-the-report-message-add-in-for-your-organization).</span></span> <span data-ttu-id="05405-126">Теперь надстройка сообщений отчета доступна с помощью [централизованного развертывания](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).</span><span class="sxs-lookup"><span data-stu-id="05405-126">The Report Message Add-In is now available through [Centralized Deployment](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).</span></span>
+- <span data-ttu-id="20e8e-123">В настоящее время надстройка сообщений отчета недоступна для:</span><span class="sxs-lookup"><span data-stu-id="20e8e-123">The Report Message add-in is currently not available for:</span></span>
 
-## <a name="get-the-report-message-add-in-for-yourself"></a><span data-ttu-id="05405-127">Получение надстройки "сообщение отчета" для себя</span><span class="sxs-lookup"><span data-stu-id="05405-127">Get the Report Message add-in for yourself</span></span>
+  - <span data-ttu-id="20e8e-124">Почтовые ящики в локальных организациях Exchange</span><span class="sxs-lookup"><span data-stu-id="20e8e-124">Mailboxes in on-premises Exchange organizations</span></span>
+  - <span data-ttu-id="20e8e-125">Подписки на GCC, GCC HIGH или DoD</span><span class="sxs-lookup"><span data-stu-id="20e8e-125">GCC, GCC HIGH, or DoD subscriptions</span></span>
 
-1. <span data-ttu-id="05405-128">В [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps)найдите [надстройку сообщения отчета](https://appsource.microsoft.com/product/office/wa104381180).</span><span class="sxs-lookup"><span data-stu-id="05405-128">In [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps), search for the [Report Message add-in](https://appsource.microsoft.com/product/office/wa104381180).</span></span>
+- <span data-ttu-id="20e8e-126">Существующий веб-браузер должен работать с надстройкой сообщения отчета.</span><span class="sxs-lookup"><span data-stu-id="20e8e-126">Your existing web browser should work with the Report Message add-in.</span></span> <span data-ttu-id="20e8e-127">Но если вы заметили, что надстройка недоступна или не работает должным образом, попробуйте другой браузер.</span><span class="sxs-lookup"><span data-stu-id="20e8e-127">But, if you notice the add-in is not available or not working as expected, try a different browser.</span></span>
 
-2. <span data-ttu-id="05405-129">Нажмите кнопку **получить**.</span><span class="sxs-lookup"><span data-stu-id="05405-129">Choose **GET IT NOW**.</span></span>
+- <span data-ttu-id="20e8e-128">Для организационных установок Организация должна быть настроена на использование проверки подлинности OAuth.</span><span class="sxs-lookup"><span data-stu-id="20e8e-128">For organizational installs, the organization needs to be configured to use OAuth authentication.</span></span> <span data-ttu-id="20e8e-129">Дополнительную информацию можно узнать [в статье определение того, работает ли централизованное развертывание надстроек для вашей организации](../../admin/manage/centralized-deployment-of-add-ins.md).</span><span class="sxs-lookup"><span data-stu-id="20e8e-129">For more information, see [Determine if Centralized Deployment of add-ins works for your organization](../../admin/manage/centralized-deployment-of-add-ins.md).</span></span>
+
+- <span data-ttu-id="20e8e-130">Администраторы должны быть членами группы ролей глобальные администраторы.</span><span class="sxs-lookup"><span data-stu-id="20e8e-130">Admins need to be a member of the Global admins role group.</span></span> <span data-ttu-id="20e8e-131">Дополнительные сведения см. [в разделе разрешения в центре безопасности & Office 365](permissions-in-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="20e8e-131">For more information, see [Permissions in the Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+
+## <a name="get-the-report-message-add-in-for-yourself"></a><span data-ttu-id="20e8e-132">Получение надстройки "сообщение отчета" для себя</span><span class="sxs-lookup"><span data-stu-id="20e8e-132">Get the Report Message add-in for yourself</span></span>
+
+1. <span data-ttu-id="20e8e-133">Перейдите на страницу Microsoft AppSource <https://appsource.microsoft.com/marketplace/apps> и найдите надстройку сообщения отчета.</span><span class="sxs-lookup"><span data-stu-id="20e8e-133">Go to the Microsoft AppSource at <https://appsource.microsoft.com/marketplace/apps> and search for the Report Message add-in.</span></span> <span data-ttu-id="20e8e-134">Чтобы перейти непосредственно к надстройке сообщения отчета, перейдите на <https://appsource.microsoft.com/product/office/wa104381180>страницу.</span><span class="sxs-lookup"><span data-stu-id="20e8e-134">To go directly to the Report Message add-in, go to <https://appsource.microsoft.com/product/office/wa104381180>.</span></span>
+
+2. <span data-ttu-id="20e8e-135">Нажмите кнопку **получить**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-135">Click **GET IT NOW**.</span></span>
 
    ![Сообщение отчета: получить его сейчас](../../media/ReportMessageGETITNOW.png)
 
-3. <span data-ttu-id="05405-131">Ознакомьтесь с условиями использования и политики конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="05405-131">Review the terms of use and privacy policy.</span></span> <span data-ttu-id="05405-132">Нажмите кнопку **Continue** (Продолжить).</span><span class="sxs-lookup"><span data-stu-id="05405-132">Then choose **Continue**.</span></span>
+3. <span data-ttu-id="20e8e-137">В появившемся диалоговом окне просмотрите условия использования и политика конфиденциальности, а затем нажмите кнопку **продолжить**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-137">In the dialog that appears, review the terms of use and privacy policy, and then click **Continue**.</span></span>
 
-4. <span data-ttu-id="05405-133">Войдите в Office 365 с помощью рабочей или учебной учетной записи (для бизнес-использования) или учетной записи Майкрософт (для личного использования).</span><span class="sxs-lookup"><span data-stu-id="05405-133">Sign in to Office 365 using your work or school account (for business use) or your Microsoft account (for personal use).</span></span>
+4. <span data-ttu-id="20e8e-138">Войдите в Office 365 с помощью рабочей или учебной учетной записи (для бизнес-использования) или учетной записи Майкрософт (для личного использования).</span><span class="sxs-lookup"><span data-stu-id="20e8e-138">Sign in to Office 365 using your work or school account (for business use) or your Microsoft account (for personal use).</span></span>
 
-<span data-ttu-id="05405-134">После установки и включения надстройки вы увидите следующие значки:</span><span class="sxs-lookup"><span data-stu-id="05405-134">After the add-in is installed and enabled, you'll see the following icons:</span></span>
+<span data-ttu-id="20e8e-139">После установки и включения надстройки вы увидите следующие значки:</span><span class="sxs-lookup"><span data-stu-id="20e8e-139">After the add-in is installed and enabled, you'll see the following icons:</span></span>
 
-- <span data-ttu-id="05405-135">В Outlook значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="05405-135">In Outlook, the icon looks like this:</span></span>
-
-  ![Значок надстройки сообщения отчета для Outlook](../../media/OutlookReportMessageIcon.png)
-
-- <span data-ttu-id="05405-137">В Outlook в Интернете (предыдущее название — Outlook Web App) значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="05405-137">In Outlook on the web (formerly known as Outlook Web App), the icon looks like this:</span></span>
-
-  ![Значок надстройки сообщения в веб-отчете Outlook](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
-
-> [!TIP]
-> <span data-ttu-id="05405-139">На следующем этапе Узнайте, как [использовать надстройку Message Report](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span><span class="sxs-lookup"><span data-stu-id="05405-139">As a next step, learn how to [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span></span>
-
-## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a><span data-ttu-id="05405-140">Получение и включение надстройки сообщений отчета для Организации</span><span class="sxs-lookup"><span data-stu-id="05405-140">Get and enable the Report Message add-in for your organization</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="05405-141">Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="05405-141">You must be an Office 365 global administrator or an Exchange Online Administrator to complete this task.</span></span> <span data-ttu-id="05405-142">Кроме того, для получения дополнительных сведений в Exchange необходимо настроить проверку подлинности OAuth, используя [требования Exchange (централизованное развертывание надстроек)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).</span><span class="sxs-lookup"><span data-stu-id="05405-142">In addition, Exchange must be configured to use OAuth authentication To learn more, see [Exchange requirements (Centralized Deployment of add-ins)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins).</span></span>
-
-1. <span data-ttu-id="05405-143">Перейдите на [страницу "службы &](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) надстроек" центра администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="05405-143">Go to the [Services & add-ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) in the Microsoft 365 admin center.</span></span>
-
-   ![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
-
-2. <span data-ttu-id="05405-145">Выберите **+ развернуть надстройку**.</span><span class="sxs-lookup"><span data-stu-id="05405-145">Choose **+ Deploy Add-in**.</span></span>
-
-   ![Выбор варианта развертывания надстройки](../../media/ServicesAddIns-ChooseDeployAddIn.png)
-
-3. <span data-ttu-id="05405-147">На экране **Новая надстройка** просмотрите сведения, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="05405-147">In the **New Add-In** screen, review the information, and then choose **Next**.</span></span>
-
-   ![Новые сведения о надстройке](../../media/NewAddInScreen1.png)
-
-4. <span data-ttu-id="05405-149">Выберите **я хочу добавить надстройку из магазина Office**, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="05405-149">Select **I want to add an Add-In from the Office Store**, and then choose **Next**.</span></span>
-
-   ![Я хочу добавить новую надстройку](../../media/NewAddInScreen2.png)
-
-5. <span data-ttu-id="05405-151">Найдите **сообщение отчета**и в списке результатов рядом с пунктом **надстройка сообщения отчета**нажмите кнопку **добавить**.</span><span class="sxs-lookup"><span data-stu-id="05405-151">Search for **Report Message**, and in the list of results, next to the **Report Message Add-In**, choose **Add**.</span></span>
-
-   ![Найдите сообщение для отчета и нажмите кнопку Добавить](../../media/NewAddInScreen3.png)
-
-6. <span data-ttu-id="05405-153">На экране **сообщения отчета** просмотрите сведения, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="05405-153">On the **Report Message** screen, review the information, and then choose **Next**.</span></span>
-
-   ![Сведения о сообщении отчета](../../media/ReportMessageAdd-InNewScreen4.png)
-
-7. <span data-ttu-id="05405-155">Укажите параметры пользователя по умолчанию для Outlook, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="05405-155">Specify the user default settings for Outlook, and  then choose **Next**.</span></span>
-
-   ![Отчет о параметрах сообщений по умолчанию для Outlook](../../media/ReportMessageOptionsScreen5.png)
-
-8. <span data-ttu-id="05405-157">Укажите, кто получает надстройку сообщения отчета, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="05405-157">Specify who gets the Report Message Add-in, and then choose **Save**.</span></span>
-
-   ![Кто получает надстройку сообщения отчета](../../media/ReportMessageOptionsScreen6.png)
-
-> [!TIP]
-> <span data-ttu-id="05405-159">Мы рекомендуем [настроить правило для получения копии сообщений электронной почты, о которых сообщили ваши пользователи](#set-up-a-rule-to-get-a-copy-of-email-messages-reported-by-your-users).</span><span class="sxs-lookup"><span data-stu-id="05405-159">We recommend [setting up a rule to get a copy of email messages reported by your users](#set-up-a-rule-to-get-a-copy-of-email-messages-reported-by-your-users).</span></span>
-
-<span data-ttu-id="05405-160">В зависимости от того, что было выбрано при настройке надстройки (шаги 7-8 выше), пользователи в вашей организации будут иметь доступ к [надстройке сообщений отчета](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) .</span><span class="sxs-lookup"><span data-stu-id="05405-160">Depending on what you selected when you set up the add-in (steps 7-8 above), people in your organization will have the [Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) available.</span></span> <span data-ttu-id="05405-161">Пользователи в вашей организации увидят следующие значки:</span><span class="sxs-lookup"><span data-stu-id="05405-161">People in your organization will see the following icons:</span></span>
-
-- <span data-ttu-id="05405-162">В Outlook значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="05405-162">In Outlook, the icon looks like this:</span></span>
+- <span data-ttu-id="20e8e-140">В Outlook значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="20e8e-140">In Outlook, the icon looks like this:</span></span>
 
   ![Значок надстройки сообщения отчета для Outlook](../../media/OutlookReportMessageIcon.png)
 
-- <span data-ttu-id="05405-164">В Outlook в Интернете значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="05405-164">In Outlook on the web, the icon looks like this:</span></span>
+- <span data-ttu-id="20e8e-142">В Outlook в Интернете значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="20e8e-142">In Outlook on the web, the icon looks like this:</span></span>
 
   ![Значок надстройки сообщения в веб-отчете Outlook](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
 
-> [!TIP]
-> <span data-ttu-id="05405-166">При уведомлении пользователей о надстройке сообщения отчета добавьте ссылку для [использования надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span><span class="sxs-lookup"><span data-stu-id="05405-166">When you notify users about the Report Message add-in, include a link to [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span></span>
+<span data-ttu-id="20e8e-144">Сведения о том, как использовать надстройку, можно найти [в разделе Использование надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span><span class="sxs-lookup"><span data-stu-id="20e8e-144">To learn how to use the add-in, see [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span></span>
 
-## <a name="set-up-a-rule-to-get-a-copy-of-email-messages-reported-by-your-users"></a><span data-ttu-id="05405-167">Настройка правила для получения копии сообщений электронной почты, о которых сообщил пользователь</span><span class="sxs-lookup"><span data-stu-id="05405-167">Set up a rule to get a copy of email messages reported by your users</span></span>
+## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a><span data-ttu-id="20e8e-145">Получение и включение надстройки сообщений отчета для Организации</span><span class="sxs-lookup"><span data-stu-id="20e8e-145">Get and enable the Report Message add-in for your organization</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="05405-168">Для выполнения этой задачи необходимо быть администратором Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="05405-168">You must be an Exchange Online Administrator to perform this task.</span></span>
+> [!NOTE]
+> <span data-ttu-id="20e8e-146">Для отображения надстройки в Организации может потребоваться до 12 часов.</span><span class="sxs-lookup"><span data-stu-id="20e8e-146">It could take up to 12 hours for the add-in to appear in your organization.</span></span>
 
-<span data-ttu-id="05405-169">Вы можете настроить правило для получения копии сообщений электронной почты, о которых сообщили пользователи в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="05405-169">You can set up a rule to get a copy of email messages reported by users in your organization.</span></span> <span data-ttu-id="05405-170">Это можно сделать после того, как вы загрузили и включили надстройку Message Report для своей организации.</span><span class="sxs-lookup"><span data-stu-id="05405-170">You do this after you have downloaded and enabled the Report Message add-in for your organization.</span></span>
+1. <span data-ttu-id="20e8e-147">В центре администрирования Microsoft 365 перейдите на страницу " **службы & надстроек** " по адресу <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>, а затем нажмите кнопку **развернуть надстройку**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-147">In the Microsoft 365 admin center, go to the **Services & add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>, and then click **Deploy Add-In**.</span></span>
 
-1. <span data-ttu-id="05405-171">В центре администрирования Exchange выберите **правила**для обработки **почтового процесса** \> .</span><span class="sxs-lookup"><span data-stu-id="05405-171">In the Exchange admin center, choose **mail flow** \> **rules**.</span></span>
+   ![Страница "службы и надстройки" в центре администрирования Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. <span data-ttu-id="05405-172">Выберите **+** \> **создать новое правило**.</span><span class="sxs-lookup"><span data-stu-id="05405-172">Choose **+** \> **Create a new rule**.</span></span>
+2. <span data-ttu-id="20e8e-149">В появившемся всплывающем окне **развертывание новой надстройки** просмотрите сведения, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-149">In the **Deploy a new add-in** flyout that appears, review the information, and then click **Next**.</span></span>
 
-3. <span data-ttu-id="05405-173">В поле **имя** введите имя, например отправку.</span><span class="sxs-lookup"><span data-stu-id="05405-173">In the **Name** box, type a name, such as Submissions.</span></span>
+3. <span data-ttu-id="20e8e-150">На следующей странице щелкните **выбрать в магазине**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-150">On the next page, click **Choose from the Store**.</span></span>
 
-4. <span data-ttu-id="05405-174">В списке **Применить это правило, если** выберите **адрес получателя включает...**.</span><span class="sxs-lookup"><span data-stu-id="05405-174">In the **Apply this rule if** list, choose **The recipient address includes...**.</span></span>
+   ![Развертывание новой страницы надстройки](../../media/NewAddInScreen2.png)
 
-5. <span data-ttu-id="05405-175">В окне **Укажите слова или фразы** добавьте `junk@office365.microsoft.com` и `phish@office365.microsoft.com`нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="05405-175">In the **specify words or phrases** screen, add `junk@office365.microsoft.com` and `phish@office365.microsoft.com`, and then choose **OK**.</span></span>
+4. <span data-ttu-id="20e8e-152">На появившейся странице **Выбор надстройки** щелкните в поле **поиска** , введите **сообщение отчета**и нажмите кнопку **Поиск** ![поиска](../../media/search-icon.png).</span><span class="sxs-lookup"><span data-stu-id="20e8e-152">In the **Select add-in** page that appears, click in the **Search** box, enter **Report Message**, and then click **Search** ![Search icon](../../media/search-icon.png).</span></span> <span data-ttu-id="20e8e-153">В списке результатов найдите **сообщение отчета** и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-153">In the list of results, find **Report Message** and then click **Add**.</span></span>
 
-   ![Указание нежелательных и ложных адресов электронной почты для правила](../../media/018c1833-f336-4333-a45c-f2e8b75cd698.png)
+   ![Выбор результатов поиска для надстройки](../../media/NewAddInScreen3.png)
 
-6. <span data-ttu-id="05405-177">В списке **выполнить следующие действия** выберите команду **СК для сообщения...**.</span><span class="sxs-lookup"><span data-stu-id="05405-177">In the **Do the following...** list, choose **Bcc the message to...**.</span></span>
+5. <span data-ttu-id="20e8e-155">В появившемся диалоговом окне ознакомьтесь со сведениями о лицензировании и конфиденциальности, а затем нажмите кнопку **продолжить**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-155">In the dialog that appears, review the licensing and privacy information, and then click **Continue**.</span></span>
 
-7. <span data-ttu-id="05405-178">Добавьте глобального администратора, администратора безопасности и/или читателя безопасности, которые должны получить копию каждого сообщения электронной почты, отправляемого пользователям в корпорацию Майкрософт, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="05405-178">Add a global administrator, security administrator, and/or security reader who should receive a copy of each email message that people report to Microsoft, and then choose **OK**.</span></span>
+6. <span data-ttu-id="20e8e-156">На открывшейся странице **Настройка надстройки** настройте следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="20e8e-156">In the **Configure add-in** page that appears, configure the following settings:</span></span>
 
-   ![Добавление глобального администратора или администратора безопасности для получения копии каждого полученного сообщения](../../media/a91ab9d1-66f2-4a2e-9dc1-f9f81a2298ad.png)
+   - <span data-ttu-id="20e8e-157">**Назначенные пользователи**: выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="20e8e-157">**Assigned users**: Select one of the following values:</span></span>
 
-8. <span data-ttu-id="05405-180">Выберите пункт **аудит этого правила со степенью серьезности**, а затем выберите **средний**.</span><span class="sxs-lookup"><span data-stu-id="05405-180">Select **Audit this rule with severity level**, and choose **Medium**.</span></span>
+     - <span data-ttu-id="20e8e-158">**Все** (по умолчанию)</span><span class="sxs-lookup"><span data-stu-id="20e8e-158">**Everyone** (default)</span></span>
+     - <span data-ttu-id="20e8e-159">**Конкретные пользователи и группы**</span><span class="sxs-lookup"><span data-stu-id="20e8e-159">**Specific users / groups**</span></span>
+     - <span data-ttu-id="20e8e-160">**Только я**</span><span class="sxs-lookup"><span data-stu-id="20e8e-160">**Just me**</span></span>
 
-9. <span data-ttu-id="05405-181">В разделе **выберите режим для этого правила**нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="05405-181">Under **Choose a mode for this rule**, choose **Enforce**.</span></span>
+   - <span data-ttu-id="20e8e-161">**Метод развертывания**: выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="20e8e-161">**Deployment method**: Select one of the following values:</span></span>
 
-   ![Настройка правила для получения копии каждого сообщения из отчета](../../media/f1cd95ce-e40d-4a8a-8f48-893469eba691.png)
+     - <span data-ttu-id="20e8e-162">**Fixed (по умолчанию)**: надстройка автоматически развертывается для указанных пользователей и не может удалить ее.</span><span class="sxs-lookup"><span data-stu-id="20e8e-162">**Fixed (Default)**: The add-in is automatically deployed to the specified users and they can't remove it.</span></span>
+     - <span data-ttu-id="20e8e-163">**Доступно**: пользователи могут устанавливать надстройки на **домашней странице** \> **получить** \> надстройки, **управляемые администратором**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-163">**Available**: Users can install the add-in at **Home** \> **Get add-ins** \> **Admin-managed**.</span></span>
+     - <span data-ttu-id="20e8e-164">**Необязательно**: надстройка автоматически развертывается для указанных пользователей, но ее можно удалить.</span><span class="sxs-lookup"><span data-stu-id="20e8e-164">**Optional**: The add-in is automatically deployed to the specified users, but they can choose to remove it.</span></span>
 
-10. <span data-ttu-id="05405-183">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="05405-183">Choose **Save**.</span></span>
+   ![Настройка страницы надстройки](../../media/configure-add-in.png)
 
-<span data-ttu-id="05405-184">С помощью этого правила, когда кто-то в Организации отправляет сообщение электронной почты с помощью надстройки Report Message, глобальный администратор, администратор безопасности и/или средство чтения безопасности получат копию этого сообщения.</span><span class="sxs-lookup"><span data-stu-id="05405-184">With this rule in place, whenever someone in your organization reports an email message using the Report Message add-in, your global administrator, security administrator, and/or security reader will receive a copy of that message.</span></span> <span data-ttu-id="05405-185">Эти сведения позволяют настраивать политики, такие как политики [безопасных ссылок Office 365 ATP](atp-safe-links.md) или параметры [защиты от нежелательной почты](anti-spam-protection.md) .</span><span class="sxs-lookup"><span data-stu-id="05405-185">This information can enable you to set up or adjust policies, such as [Office 365 ATP Safe Links](atp-safe-links.md) policies, or your [anti-spam](anti-spam-protection.md) settings.</span></span>
+   <span data-ttu-id="20e8e-166">Когда все будет готово, нажмите кнопку **развернуть**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-166">When you're finished, click **Deploy**.</span></span>
 
-## <a name="learn-how-to-use-the-report-message-add-in"></a><span data-ttu-id="05405-186">Узнайте, как использовать надстройку "сообщение отчета"</span><span class="sxs-lookup"><span data-stu-id="05405-186">Learn how to use the Report Message add-in</span></span>
+7. <span data-ttu-id="20e8e-167">На появившейся странице **развертывание сообщения отчета** отображается отчет о ходе выполнения, а затем подтверждение, в котором была развернута надстройка.</span><span class="sxs-lookup"><span data-stu-id="20e8e-167">In the **Deploy Report Message** page that appears, you'll see a progress report followed by a confirmation that the add-in was deployed.</span></span> <span data-ttu-id="20e8e-168">Прочтите сведения и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-168">After you read the information, click **Next**.</span></span>
 
-<span data-ttu-id="05405-187">Обратитесь [к разделу Использование надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span><span class="sxs-lookup"><span data-stu-id="05405-187">See [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span></span>
+   ![Страница "развертывание сообщения отчета"](../../media/deploy-report-message-page.png)
 
-## <a name="review-or-edit-settings-for-the-report-message-add-in"></a><span data-ttu-id="05405-188">Просмотр или изменение параметров для надстройки "сообщение отчета"</span><span class="sxs-lookup"><span data-stu-id="05405-188">Review or edit settings for the Report Message add-in</span></span>
+8. <span data-ttu-id="20e8e-170">На появившейся странице **объявить надстройку** просмотрите сведения, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-170">On the **Announce add-in** page that appears, review the information, and then click **Close**.</span></span>
 
-<span data-ttu-id="05405-189">Вы можете просмотреть и изменить параметры по умолчанию для надстройки "сообщения отчета" на [странице "службы & надстроек](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns)".</span><span class="sxs-lookup"><span data-stu-id="05405-189">You can review and edit the default settings for the Report Message add-in on the [Services & Add-Ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns).</span></span>
+   ![Страница надстройки объявления](../../media/announce-add-in-page.png)
 
-> [!IMPORTANT]
-> <span data-ttu-id="05405-190">Для выполнения этой задачи необходимо быть глобальным администратором Office 365 или администратором Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="05405-190">You must be an Office 365 global administrator or an Exchange Online Administrator to complete this task.</span></span>
+### <a name="learn-how-to-use-the-report-message-add-in"></a><span data-ttu-id="20e8e-172">Узнайте, как использовать надстройку "сообщение отчета"</span><span class="sxs-lookup"><span data-stu-id="20e8e-172">Learn how to use the Report Message add-in</span></span>
 
-1. <span data-ttu-id="05405-191">Перейдите на [страницу "службы &](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) надстроек" центра администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="05405-191">Go to the [Services & add-ins page](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) in the Microsoft 365 admin center.</span></span>
+<span data-ttu-id="20e8e-173">Пользователи, которым назначена надстройка, увидят следующие значки:</span><span class="sxs-lookup"><span data-stu-id="20e8e-173">People who have the add-in assigned to them will see the following icons:</span></span>
+
+- <span data-ttu-id="20e8e-174">В Outlook значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="20e8e-174">In Outlook, the icon looks like this:</span></span>
+
+  ![Значок надстройки сообщения отчета для Outlook](../../media/OutlookReportMessageIcon.png)
+
+- <span data-ttu-id="20e8e-176">В Outlook в Интернете значок выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="20e8e-176">In Outlook on the web, the icon looks like this:</span></span>
+
+  ![Значок надстройки сообщения в веб-отчете Outlook](../../media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)
+
+<span data-ttu-id="20e8e-178">При уведомлении пользователей о надстройке сообщения отчета добавьте ссылку для [использования надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span><span class="sxs-lookup"><span data-stu-id="20e8e-178">When you notify users about the Report Message add-in, include a link to [Use the Report Message add-in](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).</span></span>
+
+### <a name="review-or-edit-settings-for-the-report-message-add-in"></a><span data-ttu-id="20e8e-179">Просмотр или изменение параметров для надстройки "сообщение отчета"</span><span class="sxs-lookup"><span data-stu-id="20e8e-179">Review or edit settings for the Report Message add-in</span></span>
+
+1. <span data-ttu-id="20e8e-180">В центре администрирования Microsoft 365 перейдите на страницу " **службы &** надстроек" по адресу <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>.</span><span class="sxs-lookup"><span data-stu-id="20e8e-180">In the Microsoft 365 admin center, go to the **Services & add-ins** page at <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>.</span></span>
 
    ![Страница "службы и надстройки" в новом центре администрирования Microsoft 365](../../media/ServicesAddInsPageNewM365AdminCenter.png)
 
-2. <span data-ttu-id="05405-193">Найдите и выберите надстройку сообщения отчета.</span><span class="sxs-lookup"><span data-stu-id="05405-193">Find and select the Report Message add-in.</span></span>
+2. <span data-ttu-id="20e8e-182">Найдите и выберите надстройку **сообщения отчета** .</span><span class="sxs-lookup"><span data-stu-id="20e8e-182">Find and select the **Report Message** add-in.</span></span>
 
-   ![Поиск и выбор надстройки "сообщение отчета"](../../media/FindReportMessageAddIn.png)
-
-3. <span data-ttu-id="05405-195">На экране сообщения отчета просмотрите и измените параметры в соответствии с требованиями Организации.</span><span class="sxs-lookup"><span data-stu-id="05405-195">On the Report Message screen, review and edit settings as appropriate for your organization.</span></span>
+3. <span data-ttu-id="20e8e-183">В появившемся всплывающем окне **изменение сообщения отчета** просмотрите и измените параметры в соответствии с требованиями Организации.</span><span class="sxs-lookup"><span data-stu-id="20e8e-183">In the **Edit Report Message** flyout that appears, review and edit settings as appropriate for your organization.</span></span> <span data-ttu-id="20e8e-184">Выполнив необходимые действия, нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="20e8e-184">When you're finished, click **Save**.</span></span>
 
    ![Параметры для надстройки сообщений отчета](../../media/EditReportMessageAddIn.png)
-
-## <a name="related-topics"></a><span data-ttu-id="05405-197">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="05405-197">Related topics</span></span>
-
-[<span data-ttu-id="05405-198">Использование надстройки "сообщение отчета"</span><span class="sxs-lookup"><span data-stu-id="05405-198">Use the Report Message add-in</span></span>](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
-
-[<span data-ttu-id="05405-199">Просмотр отчетов о безопасности электронной почты в &amp; центре безопасности и соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="05405-199">View email security reports in the Security &amp; Compliance Center</span></span>](view-email-security-reports.md)
-
-[<span data-ttu-id="05405-200">Просмотр отчетов для Office 365 Advanced Threat protection</span><span class="sxs-lookup"><span data-stu-id="05405-200">View reports for Office 365 Advanced Threat Protection</span></span>](view-reports-for-atp.md)
-
-[<span data-ttu-id="05405-201">Использование проводника в центре безопасности &amp; и соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="05405-201">Use Explorer in the Security &amp; Compliance Center</span></span>](threat-explorer.md)
