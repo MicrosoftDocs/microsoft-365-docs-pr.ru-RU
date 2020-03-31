@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 3a501ec7919972e5b8b289bbddb3bf7e6ae9a8f0
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 7506d374391e05202be685d8ebfe8a04e8d62761
+ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952022"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053087"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -30,7 +30,7 @@ ms.locfileid: "42952022"
 - Обновление устройств с Windows 7 и Windows 8.1 до Windows 10 Корпоративная
 
 >[!Note]
->Поддержка Windows 7 прекращается **14 января 2020 г.** Дополнительные сведения см. [здесь](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
+>Поддержка Windows 7 прекращена **14 января 2020 г.** Дополнительные сведения см. [здесь](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020).
 >
 
 Выполнение этих операций со временем приблизит вашу организацию к реализации [современного рабочего места](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/) — надежной и интегрированной среды на основе Microsoft 365 корпоративный, которая позволяет работать в команде и способствует творческому решению задач в организации. 
@@ -145,7 +145,7 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 ## <a name="migration-for-microsoft-windows-7-and-81"></a>Миграция для Microsoft Windows 7 и 8.1
 
-Поддержка Windows 7 прекращается **14 января 2020 г.** Чтобы выполнить миграцию на устройствах с Windows 7 или Windows 8.1, вы можете запустить [обновление на месте](https://docs.microsoft.com/microsoft-365/enterprise/windows10-deploy-inplaceupgrade). 
+Поддержка Windows 7 прекращена **14 января 2020 г.** Чтобы выполнить миграцию на устройствах с Windows 7 или Windows 8.1, вы можете запустить [обновление на месте](https://docs.microsoft.com/microsoft-365/enterprise/windows10-deploy-inplaceupgrade). 
 
 Дополнительные методы см в статье [Сценарии развертывания Windows 10](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios). Вы также можете [планировать развертывание Windows 10](https://aka.ms/planforwin10deployment) самостоятельно.
 
