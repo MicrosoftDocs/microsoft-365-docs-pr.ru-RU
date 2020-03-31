@@ -255,12 +255,14 @@
                 - name: Передача информации о сообщениях и файлах в корпорацию Майкрософт
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                   items:
-                    - name: 'Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт'
+                    - name: Используйте отправку администратора
                       href: ./office-365-security/admin-submission.md
                     - name: Включение надстройки "Пожаловаться на сообщение"
                       href: ./office-365-security/enable-the-report-message-add-in.md
                     - name: Установка и использование надстройки "Отчеты о нежелательной почте"
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
+                    - name: Сообщить о нежелательной почте и фишинге в Outlook в Интернете
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                     - name: Отправка сообщений в корпорацию Майкрософт вручную
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: 'Отправка вредоносных программ и программ, не являющихся вредоносными, в корпорацию Майкрософт'
