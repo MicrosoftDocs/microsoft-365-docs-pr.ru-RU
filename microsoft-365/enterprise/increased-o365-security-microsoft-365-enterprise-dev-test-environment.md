@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для включения дополнительных параметров безопасности Microsoft 365 для тестовой среды Microsoft 365 Enterprise.
-ms.openlocfilehash: 465e9df40e8dfe9883a81d352eabff17151df8f3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 166388de138f5268eb29b8a427bad61ec6ab7cda
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067266"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058885"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Повышенная безопасность Microsoft 365 для тестовой среды Microsoft 365 корпоративный
 
@@ -56,7 +56,7 @@ ms.locfileid: "42067266"
   - Если вы используете имитируемую тестовую среду Microsoft 365, используйте [портал Azure](https://portal.azure.com) , чтобы подключиться к ВИРТУАЛЬНОЙ машине CLIENT1, а затем выполните вход с компьютера CLIENT1.
  
 2. На новой вкладке **центра администрирования Microsoft 365** в разделе **центры администрирования** в левой области навигации щелкните элемент **SharePoint**.
-3. На вкладке Новая **центр администрирования SharePoint** выберите **Управление доступом**.
+3. На вкладке Новая **центр администрирования SharePoint** выберите **политики > управления доступом**.
 4. Щелкните **приложения, не поддерживающие современные проверки подлинности**, выберите **блокировать доступ**и нажмите кнопку **сохранить**.
 
 
