@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: С помощью правил для поток обработки почты (правил транспорта) можно определять и предпринимать действия с сообщениями, переходящими через организацию Office 365.
-ms.openlocfilehash: 42b55893a9884b547a0d2d36e901169153d290d7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4332399ce7b3724a7bd23c761eec4328afe5e2a9
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599026"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081428"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Правила потока обработки почты (правила транспорта) в Exchange Online Protection
 
@@ -126,6 +126,6 @@ ms.locfileid: "41599026"
 
 [Проверка вложений сообщений в Exchange Online с помощью правил для обработки почтового процесса](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)
 
-[Шифрование электронной почты в Office 365](https://docs.microsoft.com/office365/securitycompliance/email-encryption)
+[Шифрование электронной почты в Office 365](../../compliance/email-encryption.md)
 
 [Пределы правил журнала, транспорта и папки "Входящие"](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#journal-transport-and-inbox-rule-limits)

@@ -17,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: Используйте аналитику подделки в &amp; центре безопасности и соответствия требованиям на странице Параметры защиты от нежелательной почты, чтобы просмотреть всех отправителей, которые подделывать домены, являющиеся частью Организации, или подменить внешние домены. Аналитика подделки доступна в составе Office 365 Enterprise, а также в рамках расширенной защиты от угроз и Exchange Online Protection.
-ms.openlocfilehash: e3ef4399ab79e894e8013169eee6d1949c2489c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a58f98852f321791615c5f0064b69e8510aadbe5
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082981"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081464"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>Дополнительные сведения об анализе подделок
 
@@ -101,7 +101,7 @@ ms.locfileid: "42082981"
 
 6. Нажмите кнопку **сохранить** , чтобы сохранить изменения.
 
-Если у вас есть подписка на Office 365 корпоративный, или у вас есть отдельно приобретенная Расширенная защита от угроз в качестве надстройки, вы также можете управлять отправителями, которые подделывать ваш домен с помощью функции [анализа](https://docs.microsoft.com/office365/securitycompliance/walkthrough-spoof-intelligence-insight).
+Если у вас есть подписка на Office 365 корпоративный, или у вас есть отдельно приобретенная Расширенная защита от угроз в качестве надстройки, вы также можете управлять отправителями, которые подделывать ваш домен с помощью функции [анализа](walkthrough-spoof-intelligence-insight.md).
 
 ## <a name="configuring-the-anti-spoofing-policy"></a>Настройка политики защиты от спуфинга
 <a name="Managespooflist"> </a>

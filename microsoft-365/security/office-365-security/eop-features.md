@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: В следующей таблице представлен список возможностей, доступных в размещенной службе фильтрации электронной почты Exchange Online Protection (EOP).
-ms.openlocfilehash: f8a9165cd377549d355a72da5428b777e7c1a505
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1bab584c62114c74c0eb4d9937acef4f17b89073
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032892"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081452"
 ---
 # <a name="eop-features"></a>Функции EOP
 
@@ -91,4 +91,4 @@ ms.locfileid: "43032892"
 |**Другие функции**||
 |Глобальная сеть геодублированных серверов|Служба EOP работает во всемирной сети центров данных, которые предназначены для обеспечения лучшей доступности. Дополнительные сведения см. в статье "Центры обработки данных EOP" статьи [Обзор Exchange Online Protection](exchange-online-protection-overview.md).  |
 |Организация очередей сообщений, если локальный сервер не может принимать почту|Сообщения в РБП хранятся в очередях в течение одного дня. Попытки повторной отправки сообщений зависят от ошибки, полученной от почтовой системы получателя. Повторные попытки в среднем выполняются каждые 5 минут. Дополнительные сведения: [EOP в очереди, отложенные и появляющиеся сообщениями вопросы и ответы](eop-queued-deferred-and-bounced-messages-faq.md).|
-|Служба шифрования сообщений Office 365 доступна в качестве дополнительной службы|Дополнительные сведения см. в статье [Шифрование в Office 365](https://docs.microsoft.com/office365/securitycompliance/encryption).    |
+|Служба шифрования сообщений Office 365 доступна в качестве дополнительной службы|Дополнительные сведения см. в статье [Шифрование в Office 365](../../compliance/encryption.md).    |

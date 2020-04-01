@@ -22,15 +22,18 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения об использовании параметров безопасности по умолчанию с целью настройки многофакторной проверки подлинности для пользователей Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4dc52c25c3a9351be1a9f4d094d664bc4ed527f9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 914d01bf2f045c6752aba4f2df3a204c6a21d09c
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361050"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075612"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
+> [!IMPORTANT]
+> Если вы приобрели подписку или пробную версию после 21 октября 2019 г., а вы неожиданно запрашиваете MFA, для подписки автоматически включается параметр [безопасности по умолчанию](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) .
+
 В каждой новой подписке на Office 365 для бизнеса или Microsoft 365 бизнес автоматически включены параметры безопасности по умолчанию. Это означает, что каждому пользователю потребуется настроить многофакторную проверку подлинности (MFA) и установить приложение для проверки подлинности на своем мобильном устройстве. Дополнительные сведения см. в статье [Настройка двухфакторной проверки подлинности для Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).  
 
 Потребуются следующие девять ролей администраторов для дополнительной проверки подлинности при каждом входе:
@@ -50,7 +53,10 @@ ms.locfileid: "42361050"
 > Настройку и изменение многофакторной проверки подлинности могут осуществлять только глобальные администраторы Office 365. <br><br>
 > Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
-Если вы ранее настроили MFA с использованием базовых политик, [потребуется отключить их и включить параметры безопасности по умолчанию](#move-from-baseline-policies-to-security-defaults). Но если вы используете Microsoft 365 бизнес или ваша подписка включает [Azure Active Directory Premium 1 или Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/), вы также можете настроить политики [условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Чтобы использовать политики условного доступа, убедитесь, что [включена современная проверка подлинности](#enable-multi-factor-authentication-for-your-organization).
+Если вы ранее настроили MFA с использованием базовых политик, [потребуется отключить их и включить параметры безопасности по умолчанию](#move-from-baseline-policies-to-security-defaults). Но если вы используете Microsoft 365 бизнес или ваша подписка включает [Azure Active Directory Premium 1 или Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/), вы также можете настроить политики [условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Чтобы использовать политики условного доступа, необходимо убедиться, что включена [современная проверка подлинности](#enable-modern-authentication-for-your-organization) .
+
+> [!TIP]
+> Чтобы объяснить пользователям, как настроить приложение Authenticator, посетите раздел [Использование Microsoft Authenticator для Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1).
 
 ## <a name="manage-security-defaults"></a>Управление параметрами безопасности по умолчанию
 
@@ -82,24 +88,6 @@ ms.locfileid: "42361050"
 
     ![Область "Современная проверка подлинности" с установленным флажком включения.](../../media/enablemodernauth.png)
     
-## <a name="enable-multi-factor-authentication-for-your-organization"></a>Включение многофакторной проверки подлинности для организации
-    
-1. В [центре администрирования](https://go.microsoft.com/fwlink/p/?linkid=834822)выберите **Пользователи** и **Активные пользователи**.
-
-2. В разделе **Активные пользователи** выберите **многофакторную проверку подлинности**.
-
-3. На странице **многофакторная проверка подлинности** выберите пункт **пользователь** , если вы включаете его для одного пользователя или выберите **массовое обновление** для включения нескольких пользователей.
-
-4. В разделе **быстрые действия**выберите **включить** .
-
-5. Во всплывающем окне выберите **включить многофакторную проверку подлинности**.
-
-После настройки многофакторной проверки подлинности для организации вашим пользователям потребуется настроить двухфакторную проверку на своих устройствах. Дополнительные сведения см. в статье [Настройка двухфакторной проверки подлинности для Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).
-    
-> [!TIP]
-> Чтобы объяснить пользователям, как настроить приложение Authenticator, посетите раздел [Использование Microsoft Authenticator для Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1).
-
-
 > [!IMPORTANT]
 > С августа 2017 года во всех новых клиентах Office 365, включающих Skype для бизнеса Online и Exchange Online, современная проверка подлинности включена по умолчанию. Чтобы проверить состояние современной проверки подлинности для Skype для бизнеса Online, можно использовать PowerShell в Skype для бизнеса Online с учетными данными глобального администратора. Выполните команду Get-CsOAuthConfiguration, чтобы проверить значение параметра -ClientADALAuthOverride. Если у параметра -ClientADALAuthOverride значение "Разрешено", современная проверка подлинности включена.
 Чтобы узнать состояние современной проверки подлинности для Exchange Online, см. статью [Включение современной проверки подлинности в Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).

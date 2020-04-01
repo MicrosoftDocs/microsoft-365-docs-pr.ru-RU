@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут ознакомиться с информационной панелью почтовых ящиков в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 36183f6b5f664a8d5a971f9e141b0607fa66a0bb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 792fb07c1faae54696354619347d1eb5367d45b2
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082937"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081440"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
@@ -64,7 +64,7 @@ ms.locfileid: "42082937"
 
 Более подробную информацию о роли глобального администратора Office 365 вы найдете в статье [сведения о ролях администратора office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
 
-Сведения о назначении пользователям ролей центра обеспечения безопасности &, приведены в статье [предоставление пользователям доступа к центру безопасности & соответствия требованиям](https://docs.microsoft.com/office365/securitycompliance/grant-access-to-the-security-and-compliance-center).
+Сведения о назначении пользователям ролей центра обеспечения безопасности &, приведены в статье [предоставление пользователям доступа к центру безопасности & безопасности Office 365](grant-access-to-the-security-and-compliance-center.md).
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Где найти панель мониторинга для почтового процесса
 
