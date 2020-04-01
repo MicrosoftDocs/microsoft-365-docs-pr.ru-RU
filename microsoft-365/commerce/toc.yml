@@ -1,78 +1,78 @@
 - name: Управление подписками для бизнеса
   href: index.yml
-  expanded: true
+- name: Центр справки для администраторов Microsoft 365
+  href: ../admin/admin-home.md
+- name: Использование пробной версии или приобретение подписки
   items:
-    - name: Использование пробной версии или приобретение подписки
-      items:
-        - name: Регистрация пробной версии Office 365
-          href: sign-up-for-office-365-trial.md
-        - name: Использование пробной версии или приобретение подписки на Microsoft 365
-          href: try-or-buy-microsoft-365.md
-        - name: Продление пробной версии
-          href: extend-your-trial.md
-        - name: Приобретение еще одной подписки
-          href: buy-another-subscription.md
-        - name: Приобретение и изменение надстроек
-          href: buy-or-edit-an-add-on.md
-        - name: Добавление дискового пространства
-          href: add-storage-space.md
-    - name: Управление подписками
-      items:
-        - name: Обновление подписок
-          href: subscriptions/upgrade-to-different-plan.md
-        - name: Продление подписки
-          href: subscriptions/renew-your-subscription.md
-        - name: Повторная активация подписки
-          href: subscriptions/reactivate-your-subscription.md
-        - name: Отмена подписки
-          href: subscriptions/cancel-your-subscription.md
-        - name: Что происходит по истечении срока действия подписки?
-          href: subscriptions/what-if-my-subscription-expires.md
-        - name: Управление сторонними приложениями
-          href: manage-saas-apps.md
-        - name: Управление самостоятельно приобретенными лицензиями (пользователи)
-          href: subscriptions/manage-self-service-purchases-users.md
-        - name: Управление самостоятельно приобретенными лицензиями (администратор)
-          href: subscriptions/manage-self-service-purchases-admins.md
-    - name: Управление лицензиями
-      items:
-        - name: Управление лицензиями подписки
-          href: licenses/buy-licenses.md
-        - name: Назначение лицензий пользователям
-          href: ../admin/manage/assign-licenses-to-users.md
-        - name: Отмена назначения лицензий пользователям
-          href: ../admin/manage/remove-licenses-from-users.md
-        - name: Общие сведения о подписках и лицензиях
-          href: licenses/subscriptions-and-licenses.md
-    - name: Счета и платежи
-      items:
-        - name: Просмотр счета
-          href: billing-and-payments/view-your-bill-or-invoice.md
-        - name: Расшифровка счета
-          href: billing-and-payments/understand-your-invoice.md
-        - name: Управление методами оплаты
-          href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
-        - name: Оплата подписки
-          href: billing-and-payments/pay-for-your-subscription.md
-        - name: Изменение способа оплаты
-          href: billing-and-payments/change-payment-method.md
-        - name: Изменение периодичности платежей
-          href: billing-and-payments/change-payment-frequency.md
-        - name: Управление профилями выставления счетов
-          href: billing-and-payments/manage-billing-profiles.md
-        - name: Изменение адресов выставления счетов
-          href: billing-and-payments/change-your-billing-addresses.md
-        - name: Директива о платежных услугах 2 и строгая проверка подлинности клиентов
-          href: billing-and-payments/psd2.md
-    - name: Учетные записи выставления счетов
-      items:
-        - name: Управление учетными записями выставления счетов
-          href: manage-billing-accounts.md
-        - name: Связывание клиента с учетной записью выставления счетов
-          href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
-    - name: Управление отношениями с партнерами
-      href: manage-partners.md
-    - name: Закрытие учетной записи
-      href: close-your-account.md
-    - name: Обращение в службу поддержки
-      href: ../admin/contact-support-for-business-products.md
+    - name: Регистрация пробной версии Office 365
+      href: sign-up-for-office-365-trial.md
+    - name: Использование пробной версии или приобретение подписки на Microsoft 365
+      href: try-or-buy-microsoft-365.md
+    - name: Продление пробной версии
+      href: extend-your-trial.md
+    - name: Приобретение еще одной подписки
+      href: buy-another-subscription.md
+    - name: Приобретение и изменение надстроек
+      href: buy-or-edit-an-add-on.md
+    - name: Добавление дискового пространства
+      href: add-storage-space.md
+- name: Управление подписками
+  items:
+    - name: Обновление подписок
+      href: subscriptions/upgrade-to-different-plan.md
+    - name: Продление подписки
+      href: subscriptions/renew-your-subscription.md
+    - name: Повторная активация подписки
+      href: subscriptions/reactivate-your-subscription.md
+    - name: Отмена подписки
+      href: subscriptions/cancel-your-subscription.md
+    - name: Что происходит по истечении срока действия подписки?
+      href: subscriptions/what-if-my-subscription-expires.md
+    - name: Управление сторонними приложениями
+      href: manage-saas-apps.md
+    - name: Управление самостоятельно приобретенными лицензиями (пользователи)
+      href: subscriptions/manage-self-service-purchases-users.md
+    - name: Управление самостоятельно приобретенными лицензиями (администратор)
+      href: subscriptions/manage-self-service-purchases-admins.md
+- name: Управление лицензиями
+  items:
+    - name: Управление лицензиями подписки
+      href: licenses/buy-licenses.md
+    - name: Назначение лицензий пользователям
+      href: ../admin/manage/assign-licenses-to-users.md
+    - name: Отмена назначения лицензий пользователям
+      href: ../admin/manage/remove-licenses-from-users.md
+    - name: Общие сведения о подписках и лицензиях
+      href: licenses/subscriptions-and-licenses.md
+- name: Счета и платежи
+  items:
+    - name: Просмотр счета
+      href: billing-and-payments/view-your-bill-or-invoice.md
+    - name: Расшифровка счета
+      href: billing-and-payments/understand-your-invoice.md
+    - name: Управление методами оплаты
+      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+    - name: Оплата подписки
+      href: billing-and-payments/pay-for-your-subscription.md
+    - name: Изменение способа оплаты
+      href: billing-and-payments/change-payment-method.md
+    - name: Изменение периодичности платежей
+      href: billing-and-payments/change-payment-frequency.md
+    - name: Управление профилями выставления счетов
+      href: billing-and-payments/manage-billing-profiles.md
+    - name: Изменение адресов выставления счетов
+      href: billing-and-payments/change-your-billing-addresses.md
+    - name: Директива о платежных услугах 2 и строгая проверка подлинности клиентов
+      href: billing-and-payments/psd2.md
+- name: Учетные записи выставления счетов
+  items:
+    - name: Управление учетными записями выставления счетов
+      href: manage-billing-accounts.md
+    - name: Связывание клиента с учетной записью выставления счетов
+      href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
+- name: Управление отношениями с партнерами
+  href: manage-partners.md
+- name: Закрытие учетной записи
+  href: close-your-account.md
+- name: Обращение в службу поддержки
+  href: ../admin/contact-support-for-business-products.md
