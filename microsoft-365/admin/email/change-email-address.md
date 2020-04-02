@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: 'Замените начальный адрес электронной почты на понятный адрес электронной почты, такой как tom@fourthcoffee.com. Для этого необходимо приобрести доменное имя и добавить его в Office 365. '
-ms.openlocfilehash: 3e01f0bfb97fbef762fbd7162944ca25d882f142
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1c3c77f9626cdf292e0fb9400070cef3df05a9d6
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255314"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115982"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>Изменение адреса электронной почты с использованием пользовательского домена
 
@@ -77,7 +77,7 @@ ms.locfileid: "42255314"
 
 ::: moniker-end 
 
-2. Перейдите на страницу "**домены** **параметров** > ". 
+2. Перейдите на страницу "**домены** **установки** > ". 
 
 3. На странице **домены** выберите **Добавить домен**.
     

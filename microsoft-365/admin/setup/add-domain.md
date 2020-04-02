@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Добавьте свой домен в Office 365 в центре администрирования Microsoft 365, добавив запись DNS на узел DNS. Мастер установки проводит вас через процесс.
-ms.openlocfilehash: 86ca8f986624ad37f780961cb58923ea0a1b2308
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: a6ef611ec210bbfb2299b6d41edb7d6410d50073
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857383"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116018"
 ---
 # <a name="add-a-domain-to-office-365"></a>Добавление домена в Office 365
 
@@ -67,7 +67,7 @@ ms.locfileid: "42857383"
 
 ::: moniker-end
     
-2. Перейдите на страницу "**домены** **параметров** > ". 
+2. Перейдите на страницу "**домены** **установки** > ". 
 
 3. Выберите **Добавить домен**.
     
@@ -102,7 +102,7 @@ ms.locfileid: "42857383"
     
 8. Нажмите кнопку Готово, чтобы **завершить работу** . 
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Вопросы и ответы о доменах](domains-faq.md)
 
@@ -112,4 +112,4 @@ ms.locfileid: "42857383"
 
 [Настройка домена (инструкции для конкретных узлов)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.yml)
+[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.md)
