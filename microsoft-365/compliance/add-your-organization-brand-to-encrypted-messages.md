@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 4/30/2019
+ms.date: 4/1/2020
 search.appverid:
 - MET150
 - MOE150
@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Как глобальный администратор Office 365 вы можете применить фирменную символику вашей организации к зашифрованным сообщениям электронной почты в Организации и содержимому портала шифрования.
-ms.openlocfilehash: 23b6cd205c4ae3a0ca08aab2209e0152a3f78b63
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5a3f5426fecd6ce5df6ace5b0080de33fb50e21f
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079985"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106021"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
 
@@ -32,6 +32,8 @@ ms.locfileid: "42079985"
 - Вводный текст зашифрованного сообщения электронной почты
 
 - Текст заявления об отказе зашифрованного сообщения электронной почты
+
+- URL-адрес заявления о конфиденциальности для Организации
 
 - Текст, который отображается на портале OME
 
@@ -79,7 +81,8 @@ ms.locfileid: "42079985"
 |Логотип|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Поддерживаемые форматы файлов: PNG, JPG, BMP, TIFF  <br/> Оптимальный размер файла эмблемы: менее 40 КБ  <br/> Оптимальный размер изображения логотипа: 170x70 пикселей. Если изображение превышает эти размеры, служба изменяет размер логотипа для отображения на портале. Служба не изменяет сам графический файл. Для достижения лучших результатов используйте оптимальный размер.|
 |Текст рядом с именем отправителя и адресом электронной почты|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -IntroductionText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
 |Текст, который отображается на кнопке "чтение сообщения"|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -ReadButtonText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
-|Текст, расположенный над кнопкой "чтение сообщения"|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
+|Текст, который отображается под кнопкой "прочитать сообщение"|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
+|URL-адрес для ссылки на заявление о конфиденциальности|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PrivacyStatementURL "<URL>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
 |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
 |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
 |Включение или отключение проверки подлинности с помощью кода одноразового этапа для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -OTPEnabled <$true|$false>` <br/> **Примеры:** <br/>Включение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|

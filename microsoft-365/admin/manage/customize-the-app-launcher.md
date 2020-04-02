@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Создайте быстрые ссылки на электронную почту, документы, приложения, сайты SharePoint, внешние сайты и другие ресурсы, добавив настраиваемые плитки в средство запуска приложений. '
-ms.openlocfilehash: 65c8da7aa0cdb68f4bf32a52b21140413a38a69a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e52bad5cdd1809e8aa0d97c681b69daa5143d3fd
+ms.sourcegitcommit: 4b73f070747a66874c03fdf670ffdf16f736585a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361984"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43103079"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Добавление настраиваемых плиток в средство запуска приложений
 
@@ -37,7 +37,7 @@ ms.locfileid: "42361984"
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Добавление настраиваемой плитки в средство запуска приложений
 
-1. В центре администрирования перейдите к****  > разделу Параметры **и**выберите вкладку **профиль организации** .
+1. В центре администрирования перейдите к**Settings**  > разделу Параметры **и**выберите вкладку **профиль организации** .
     
 2. На вкладке **профиль организации** выберите **элемент плитка запуска приложений**.
   
@@ -69,7 +69,7 @@ ms.locfileid: "42361984"
   
 ## <a name="edit-or-delete-a-custom-tile"></a>Edit or delete a custom tile
 
-1. В центре администрирования откройте страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">профиля организации</a> " **Параметры** > ".
+1. В центре администрирования перейдите на вкладку "<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">профиль организации</a> в**настройках** >  **параметров** > ".
     
 2. На странице " **профиль организации** " рядом с элементом **Добавление настраиваемых плиток для Организации**нажмите кнопку **изменить**.
 

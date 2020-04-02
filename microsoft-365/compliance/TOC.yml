@@ -495,14 +495,14 @@
               href: manage-load-sets-in-advanced-ediscovery.md
         - name: Просмотр данных дела
           items:
+            - name: Использование панели мониторинга "набор проверки" (Предварительная версия)
+              href: advanced-ediscovery-dashboard.md
             - name: Просмотр документов в наборе для проверки
               href: view-documents-in-review-set.md
             - name: Запрос данных в наборе для проверки
               href: review-set-search.md
             - name: Добавление тегов к документам в наборе для проверки
               href: tagging-documents.md
-            - name: Использование панели мониторинга "набор проверки" (Предварительная версия)
-              href: advanced-ediscovery-dashboard.md
         - name: Анализ данных дела
           href: analyzing-data-in-review-set.md
           items:

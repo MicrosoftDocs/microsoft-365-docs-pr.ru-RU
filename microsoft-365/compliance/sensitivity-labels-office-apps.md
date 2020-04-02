@@ -15,38 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
-ms.openlocfilehash: 2b77d273cdc589409506dc709669536fcea6c006
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 595381984390321ed810af61f6234428f31551f3
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030130"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106095"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Использование меток конфиденциальности в приложениях Office
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности & соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Когда вы [публикуете](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) метки конфиденциальности из центра соответствия требованиям Microsoft 365 или эквивалентного центра меток, они начинают отображаться в приложениях Office, чтобы классифицировать и защитить данные, созданные или измененные пользователем.
 
 Сведения, приведенные в этой статье, помогут вам успешно управлять метками конфиденциальности в приложениях Office. Например, определите минимальные версии приложений, которые необходимы для поддержки встроенных меток, а также Узнайте, как использовать клиент единой метки Azure Information Protection для обеспечения совместимости с другими приложениями и службами.
-
-## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>Требования к подписке и лицензированию для меток конфиденциальности
-
-Пользователям должна быть назначена по крайней мере одна из следующих лицензий:
-
-- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) или более поздняя версия
-
-- [Office 365 E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software) или более поздней версии
-
-- [Azure Information Protection Premium P1](https://azure.microsoft.com/pricing/details/information-protection/) или выше
-
-Встроенный клиент меток Office поддерживает метки конфиденциальности с выпуском подписки Office. Этот клиент наклеек не поддерживает автономные выпуски Office, такие как Office 2016 и Office 2019. Чтобы использовать метки конфиденциальности с этими выпусками Office на компьютерах с Windows, установите клиент единой метки Azure Information Protection.
-
-Чтобы использовать автоматические или Рекомендуемые метки чувствительности, пользователям необходима одна из следующих лицензий:
-
-- [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) в ~ или более поздней версии
-
-- [Office 365](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software) в ~ или более поздней версии
-
-- [Azure Information Protection Premium P2](https://azure.microsoft.com/pricing/details/information-protection/)
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Поддержка возможностей меток конфиденциальности в приложениях
 

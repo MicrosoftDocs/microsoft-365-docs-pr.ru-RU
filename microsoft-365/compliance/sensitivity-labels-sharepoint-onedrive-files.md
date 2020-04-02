@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 840087be38c6e50244437fea63de655d8cd9363e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: e6e13ef14ed9ed3e60f2918df0c25c0601d0225e
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894306"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106105"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности & соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Перед выполнением предварительной версии, когда вы примените метки конфиденциальности, которые включали шифрование к файлам Office, хранящимся в SharePoint и OneDrive, службе не удалось обработать содержимое этих файлов. В таких обстоятельствах не работают совместное редактирование, обнаружение электронных данных, защита от потери данных, поиск, delve и другие функции совместной работы. Этот предварительный просмотр включает эти функции для новых и измененных файлов, к которым применяется метка чувствительности, включающая шифрование с использованием облачного ключа:
 
