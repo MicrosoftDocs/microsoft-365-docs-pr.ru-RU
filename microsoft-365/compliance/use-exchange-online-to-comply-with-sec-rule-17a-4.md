@@ -15,14 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Компания Cohasset Associates убедилась, что при рекомендованной настройке Exchange Online и Центра безопасности и соответствия требованиям соблюдаются соответствующие требования к хранилищам согласно правилу CFTC 1.31 (пункты c и d), правилу FINRA 4511 и правилу SEC 17a-4. Вы можете скачать данную оценку.
-ms.openlocfilehash: d2f92f97ba15bcce9466e8886198c7502c41732b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bf54bf5798d4bbb5b655cc367330bbb50de7f7b2
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069264"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106127"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Если необходимо, чтобы ваша организация соответствовала нормативно-правовым стандартам в отношении хранения данных, в Центре безопасности и соответствия требованиям Office 365 предоставлены возможности для управления жизненным циклом данных в Exchange Online. Они включают в себя хранение, аудит, экспорт данных и поиск по данным. Этих возможностей достаточно, чтобы соответствовать требованиям большинства организаций.
 

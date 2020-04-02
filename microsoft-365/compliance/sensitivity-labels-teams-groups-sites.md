@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки чувствительности для защиты контента на сайтах SharePoint и Microsoft Teams, а также в группах Office 365.
-ms.openlocfilehash: 67fe4892a980748699bb17c0a41299ed741cf417
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 0ac1d9f605c32664115086057b7c17355d495c00
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952069"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106137"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Используйте метки чувствительности для защиты контента в Microsoft Teams, группах Office 365 и сайтах SharePoint (предварительный просмотр)
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Когда вы создаете метки чувствительности в [центре соответствия требованиям Microsoft 365](https://protection.office.com/), теперь вы можете применять их к следующим контейнерам: сайты Microsoft Teams, группы Office 365 и сайты SharePoint. Используйте следующие параметры метки, чтобы защитить содержимое этих контейнеров:
 
