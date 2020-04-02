@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Узнайте о ресурсах, доступных для администраторов Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: cafb63d53178a2cc21448643ba9fd78773265aa8
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: e38c15d0e68e908bada941443b019e9f243c7f11
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046919"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075600"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Центр справки для администраторов Microsoft 365
 
@@ -41,11 +41,11 @@ ms.locfileid: "43046919"
                         <h3>Office 365 станет Microsoft 365</h3>
                         <p>Будут изменены некоторые названия подписок на Office 365 и Microsoft 365. Вам ничего не нужно делать. Службы, приложения и функции остаются такими же, как и цена подписки. Имя вашей подписки будет автоматически обновлено в Центре администрирования Microsoft 365. Выписки по счету будут обновляться, начиная с 21 апреля 2020 г.</p>
                         <ul>
-                            <li><p>Office 365 бизнес базовый теперь называется Microsoft 365 бизнес базовый</p></li>
-                            <li><p>Office 365 бизнес премиум теперь называется Microsoft 365 бизнес стандарт</p></li>
-                            <li><p>Microsoft 365 бизнес теперь называется Microsoft 365 бизнес премиум</p></li>
-                            <li><p>Office 365 бизнес теперь называется Приложения Microsoft 365 для бизнеса</p></li>
-                            <li><p>Office 365 профессиональный плюс теперь называется Приложения Microsoft 365 для предприятий</p></li>
+                            <li><p><b>Office 365 бизнес базовый</b> теперь называется <b>Microsoft 365 бизнес базовый</b>.</p></li>
+                            <li><p><b>Office 365 бизнес премиум</b> теперь называется <b>Microsoft 365 бизнес стандарт</b>.</p></li>
+                            <li><p><b>Microsoft 365 бизнес</b> теперь называется <b>Microsoft 365 бизнес премиум</b>.</p></li>
+                            <li><p><b>Office 365 бизнес</b> теперь называется <b>Приложения Microsoft 365 для бизнеса</b></p></li>
+                            <li><p><b>Office 365 профессиональный плюс</b> теперь называется <b>Приложения Microsoft 365 для предприятий</b></p></li>
                         </ul>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=2120533">Подробнее</a></p>
                     </div>
