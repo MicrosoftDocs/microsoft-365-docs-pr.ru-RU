@@ -15,13 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
-ms.openlocfilehash: 09cf8e74cb52d75d454fec371ee965978851b5e5
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42230072"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106188"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -36,6 +35,7 @@ ms.locfileid: "42230072"
 
 ## <a name="januaryfebruary-2020"></a>Январь/Февраль 2020
 
+- [Общая доступность представлений кампаний в Office 365 ATP](campaigns.md)
 - Усовершенствование [обозревателя угроз](threat-explorer.md) , позволяющее Teams выполнять поиск и фильтрацию по нескольким полям при [изучении электронной почты](investigate-malicious-email-that-was-delivered.md):
     - Место доставки и специальные действия
     - Направленность (входящая, исходящая или внутренняя)
