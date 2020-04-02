@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки хранения, чтобы классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации. Вы также можете использовать метки хранения для внедрения решения по управлению записями для Microsoft 365.
-ms.openlocfilehash: e41c71a1f8bc0175b179ecd760dac7098551bc91
-ms.sourcegitcommit: 6b7eecad7162c065af80721204fbabdd2e31e42b
+ms.openlocfilehash: 59adebd9b61761f05156247bbb6c4cb27b42c52b
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43065645"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106011"
 ---
 # <a name="overview-of-retention-labels"></a>Обзор меток хранения
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 В вашей организации наверняка есть контент различных типов, с которым требуется выполнять разные действия для соблюдения отраслевых нормативов и внутренних политик. Например, у вас могут быть:
   

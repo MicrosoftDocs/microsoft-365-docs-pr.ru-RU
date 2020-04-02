@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: b3f998ec7f52403c4b3676fb08976aacdc1f7d0f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: cbc2b0ef084d20d4e11ebdb03a9707e172f8a971
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635187"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105636"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в центр администрирования меток, например в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности Microsoft 365 или Центр безопасности и соответствия требованиям Office 365.
 

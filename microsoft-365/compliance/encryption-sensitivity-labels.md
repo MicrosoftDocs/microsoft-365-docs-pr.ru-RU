@@ -15,14 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
-ms.openlocfilehash: 3f59a6038da8600923f5fcc0d18f1de5ab5dc06c
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 29e9c0ea6e7c63ff8b90057b2c88aafd834ec4dc
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826240"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105676"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования 
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Например параметры шифрования метки конфиденциальности позволяют обеспечить защиту содержимого, чтобы:
 
