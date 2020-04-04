@@ -185,6 +185,8 @@
                   href: mtp/mtp-permissions.md
                 - name: Установка часового пояса
                   href: mtp/mtp-time-zone.md
+            - name: Оставить отзыв
+              href: mtp/feedback.md
             - name: Управление билетами с помощью ServiceNow
               href: ./mtp/tickets.md
     - name: Безопасность Office 365
