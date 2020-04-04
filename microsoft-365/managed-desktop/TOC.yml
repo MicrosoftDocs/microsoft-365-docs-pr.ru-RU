@@ -10,6 +10,8 @@
           href: intro/technologies.md
         - name: 'Компьютеры, управляемые Майкрософт и ITIL'
           href: MMD-and-ITSM.md
+        - name: Соответствие требованиям
+          href: intro/compliance.md
     - name: 'Описание услуги предоставления компьютеров, управляемых Майкрософт'
       href: service-description/index.md
       items:
