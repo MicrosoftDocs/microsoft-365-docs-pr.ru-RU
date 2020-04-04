@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов по указанным телефонным номерам для вашего региона и языка, отправляйте запросы на обслуживание через Интернет либо оставляйте такие запросы при посещении Microsoft Store.
 feedback_system: None
-ms.openlocfilehash: b77f08b8e0734cfa7629a5c5d61f22d63ef6328c
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4bb35f6d8c2895ec7adf37c6b4e149962fb616bc
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106064"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142555"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -39,9 +39,6 @@ ms.locfileid: "43106064"
 ## <a name="online-support"></a>[Поддержка в Интернете](#tab/online)
 
 Экономьте время, создавая запросы на обслуживание в Интернете. Мы поможем вам найти решение или направим вас к эксперту, который свяжется с вами по электронной почте или телефону. [Узнайте о времени первоначального отклика службы поддержки](https://go.microsoft.com/fwlink/p/?LinkId=518251).
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Если появляется сообщение "У вас нет разрешения на доступ к этой странице или на выполнение этого действия", это означает, что вы не являетесь администратором. [У кого в моей организации есть разрешения администратора?](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
 
@@ -80,8 +77,6 @@ ms.locfileid: "43106064"
 2. Введите свое местоположение и найдите магазин Microsoft Store рядом с вами.
 
 3. Выберите магазин и нажмите кнопку **Запланировать встречу по обслуживанию сейчас**.
-
----
 
 ::: moniker-end
 

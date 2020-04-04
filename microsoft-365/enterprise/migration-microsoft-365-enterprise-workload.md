@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 7506d374391e05202be685d8ebfe8a04e8d62761
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: 76396ea3eb4622bb27455938f5c645dd1240003a
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053087"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113506"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -171,7 +171,7 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 ## <a name="transition-your-entire-organization"></a>Переход всей организации
 
-Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный, скачайте [плакат по переходу](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
+Чтобы лучше понять, как перевести всю организацию на продукты и службы в Microsoft 365 корпоративный, см. [плакат по переходу](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf).
 
 [![Плакат изображения перехода на Microsoft 365](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 12/19/2019
+ms.date: 4/3/2020
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -17,18 +17,19 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Просмотрите полный список корневых сертификатов и центров сертификации в Office 365.
-ms.openlocfilehash: 7b3aeb4012f510b8ccd3d7e608a9aa9be04b01ea
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fd92c8833eab3d816b3f01eccf0502f77663e4a5
+ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593200"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131512"
 ---
 # <a name="office-365-encryption-chains"></a>Цепочки шифрования Office 365
 
 Office 365 использует несколько различных поставщиков сертификатов. Ниже приведен полный список известных корневых сертификатов Office 365, с которыми могут столкнуться пользователи при доступе к Office 365. Для получения сведений о сертификатах, которые могут потребоваться установить в собственной инфраструктуре, ознакомьтесь со статьей [Plan for СТОРОННЕГО SSL Certificates for Office 365](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates). Следующие сведения о сертификате применимы ко всем языковым и национальным облачным экземплярам Office 365.
 
-**Клиенты ITAR (оборон & GCC High):** обратитесь к ОБЛАЧному менеджеру или SDM для получения правильного пакета P7b.
+>[!NOTE]
+>Сведения о сертификатах, которые относятся к клиентам с **DOD и большим** объемом GCC, приведены в статье [Office 365 Encryption цепочки шифрования — DOD и GCC High](encryption-office-365-certificate-chains-itar.md).
 
 | **Тип сертификата** | **Скачивание P7b** | **Конечные точки CRL** | **Конечные точки OCSP** | **Конечные точки AIA** |
 | --- | --- | --- | --- | --- |
@@ -41,7 +42,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="baltimore-cybertrust-root"></a>**Baltimore CyberTrust Root**
 
-| **Subject** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
+| **Тема** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | --- | --- |
 | **Серийный номер** | 02:00:00: B9 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -55,7 +56,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="cnnic-root"></a>**КОРЕНЬ КННИК**
 
-| **Subject** | CN = КННИК ROOT<br>O = КННИК<br>C = CN |
+| **Тема** | CN = КННИК ROOT<br>O = КННИК<br>C = CN |
 | --- | --- |
 | **Серийный номер** | 49:33:00:01 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -70,7 +71,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-global-root-ca"></a>**Глобальный корневой ЦС DigiCert**
 
-| **Subject** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Тема** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Серийный номер** | 08:3B: E0:56:90:42:46: B1: A1:75:6A: C9:59:91: C7:4A |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -85,7 +86,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-high-assurance-ev-root-ca"></a>**Корневой центр сертификации высокой надежности DigiCert**
 
-| **Subject** | CN = DigiCert (корневой центр сертификации высокой надежности)<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Тема** | CN = DigiCert (корневой центр сертификации высокой надежности)<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Серийный номер** | 02: AC: 5C: 26:6A: 0B: 40:9B: 8F: 0B: 79: F2: AE: 46:25:77 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -100,7 +101,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-root-class-3-ca-2-2009"></a>**D-корневой класс доверия 3 ЦС 2 2009**
 
-| **Subject** | CN = D-ДОВЕРЯТЬ корневому классу 3 ЦС 2 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Тема** | CN = D-ДОВЕРЯТЬ корневому классу 3 ЦС 2 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Серийный номер** | 09:83: F3 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -115,7 +116,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-root-class-3-ca-2-ev-2009"></a>**D-корневой класс доверия 3 ЦС 2 EV 2009**
 
-| **Subject** | CN = D-TRUST корневой класс 3 ЦС 2 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Тема** | CN = D-TRUST корневой класс 3 ЦС 2 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Серийный номер** | 09:83: F4 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -130,7 +131,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="dst-root-ca-x3"></a>**Корневой ЦС для летнего времени**
 
-| **Subject** | CN = корневой сертификат DST X3<br>O = цифровая подпись — Co. |
+| **Тема** | CN = корневой сертификат DST X3<br>O = цифровая подпись — Co. |
 | --- | --- |
 | **Серийный номер** | 44: AF: AF: 80: D6: A3:27: BA: 89:30:39:86:2E: F8:40:6B |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -144,7 +145,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-root-certification-authority---g2"></a>**Корневой центр сертификации ентруст — G2**
 
-| **Subject** | CN = Ентруст корневой центр сертификации — G2<br>OU =&quot;(c) 2009 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = Ентруст корневой центр сертификации — G2<br>OU =&quot;(c) 2009 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 4A: 53:8C: 28 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -158,7 +159,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrustnet-certification-authority-2048"></a>**Центр сертификации Entrust.net (2048)**
 
-| **Subject** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS\_2048. по ссылке ref. (Limit s лиаб.)<br>O = Ентруст. NET |
+| **Тема** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS\_2048. по ссылке ref. (Limit s лиаб.)<br>O = Ентруст. NET |
 | --- | --- |
 | **Серийный номер** | 38:63: DE: F8 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -172,7 +173,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign"></a>**глобалсигн**
 
-| **Subject** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R2 |
+| **Тема** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R2 |
 | --- | --- |
 | **Серийный номер** | 04:00:00:00:00:01:0F: 86:26: E6:0D |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -188,7 +189,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-root-ca"></a>**Корневой центр сертификации Глобалсигн**
 
-| **Subject** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Тема** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Серийный номер** | 04:00:00:00:00:00:15:4B:/1:94:94 |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -202,7 +203,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="thawte-primary-root-ca---g3"></a>**Основной корневой ЦС Thawte — G3**
 
-| **Subject** | CN = Thawte основной корневой ЦС — G3<br>OU =&quot;(c) 2008 Thawte, Inc. — только для уполномоченного использования&quot;<br>OU = разделение служб сертификации<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
+| **Тема** | CN = Thawte основной корневой ЦС — G3<br>OU =&quot;(c) 2008 Thawte, Inc. — только для уполномоченного использования&quot;<br>OU = разделение служб сертификации<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 60:01:97: B7:46: A7: A7: B4: B4: B4:9A: D6:4B: 2F: F7:90: ФБ |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -216,7 +217,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="verisign-class-3-public-primary-certification-authority---g5"></a>**Общедоступный основной центр сертификации для класса VeriSign 3 — G5**
 
-| **Subject** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU =&quot;(c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O =&quot;VeriSign, Inc.&quot;<br>C = US |
+| **Тема** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU =&quot;(c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O =&quot;VeriSign, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Серийный номер** | 18: DA: D1:9E: 26:7D: E8: BB: 4A: 21:58: CD: CC: 6B: 3B: 4A |
 | **Длина открытого ключа** | RSA 2048 бит (e 65537) |
@@ -232,7 +233,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="cnnic-sha256-ssl"></a>**КННИК SHA256 SSL**
 
-| **Subject** | CN = КННИК SHA256 SSL <br>O = КННИК SHA256 SSL <br>C = CN |
+| **Тема** | CN = КННИК SHA256 SSL <br>O = КННИК SHA256 SSL <br>C = CN |
 | --- | --- |
 | **Издатель** | CN = КННИК ROOT <br>O = КННИК <br>C = CN |
 | **Серийный номер** | 49:33:00:7C |
@@ -251,7 +252,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-ssl-class-3-ca-1-2009"></a>**D-TRUST SSL Class 3 CA 1 2009**
 
-| **Subject** | CN = D-TRUST SSL класс 3 ЦС 1 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Тема** | CN = D-TRUST SSL класс 3 ЦС 1 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Издатель** | CN = D-ДОВЕРЯТЬ корневому классу 3 ЦС 2 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | **Альтернативное имя субъекта** | RFC822 Name=info@d-trust.net<br>URL-адрес =http://www.d-trust.net |
@@ -270,7 +271,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="d-trust-ssl-class-3-ca-1-ev-2009"></a>**D-TRUST SSL Class 3 ЦС 1 EV 2009**
 
-| **Subject** | CN = D-TRUST SSL класс 3 ЦС 1 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
+| **Тема** | CN = D-TRUST SSL класс 3 ЦС 1 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | --- | --- |
 | **Издатель** | CN = D-TRUST корневой класс 3 ЦС 2 EV 2009<br>O = D-Trust ГмбХ<br>C = DE |
 | **Альтернативное имя субъекта** | RFC822 Name=info@d-trust.net<br>URL-адрес =http://www.d-trust.net |
@@ -289,7 +290,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-cloud-services-ca-1"></a>**ЦС облачных служб DigiCert — 1**
 
-| **Subject** | CN = DigiCert Cloud Services CA (ЦС) — 1<br>O = DigiCert Inc<br>C = US |
+| **Тема** | CN = DigiCert Cloud Services CA (ЦС) — 1<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Издатель** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Серийный номер** | 01: "9E: C6: C6: C6:3F: 59:7B: B2:0C: 33:38:/Д: 51: D8:77 |
@@ -307,7 +308,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-sha2-high-assurance-server-ca"></a>**Центр сертификации серверов DigiCert SHA2 High Assurance**
 
-| **Subject** | CN = DigiCert SHA2 Server высокой надежности ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
+| **Тема** | CN = DigiCert SHA2 Server высокой надежности ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Издатель** | CN = DigiCert (корневой центр сертификации высокой надежности)<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Серийный номер** | 04: E1: E7: A4: DC: 5C: F2: F3:6D: C0:2B: 42: B8:5D: 15:9F |
@@ -325,7 +326,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="digicert-sha2-secure-server-ca"></a>**DigiCert SHA2 безопасности ЦС сервера**
 
-| **Subject** | CN = DigiCert SHA2 Secure CA Server<br>O = DigiCert Inc<br>C = US |
+| **Тема** | CN = DigiCert SHA2 Secure CA Server<br>O = DigiCert Inc<br>C = US |
 | --- | --- |
 | **Издатель** | CN = DigiCert глобальный корневой ЦС<br>OU = www. DigiCert. com<br>O = DigiCert Inc<br>C = US |
 | **Серийный номер** | 01: ДЕМО: A3: A3:6E: CA: 75: C8:88:43:8B: 72:4B: CF: BC: 91 |
@@ -343,7 +344,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1c"></a>**Центр сертификации ентруст — L1C**
 
-| **Subject** | CN = центр сертификации Ентруст — L1C<br>OU =&quot;(c) 2009 Ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = центр сертификации Ентруст — L1C<br>OU =&quot;(c) 2009 Ентруст, Inc.&quot;<br>OU = www. ентруст. NET/РПА внедряется по ссылке<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Ентруст. NET центр сертификации (2048)<br>OU = (c) 1999 Entrust.net с ограничениями<br>OU = www. ентруст. NET/CPS\_2048. по ссылке ref. (Limits лиаб.)<br>O = Ентруст. NET |
 | **Серийный номер** | 4C: 0E: 8C: 39 |
@@ -361,7 +362,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="entrust-certification-authority---l1k"></a>**Центр сертификации ентруст — L1K**
 
-| **Subject** | CN = центр сертификации Ентруст — L1K<br>OU =&quot;(c) 2012 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
+| **Тема** | CN = центр сертификации Ентруст — L1K<br>OU =&quot;(c) 2012 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Ентруст корневой центр сертификации — G2<br>OU =&quot;(c) 2009 Ентруст, Inc. — только для уполномоченного использования&quot;<br>OU = см www.entrust.net/legal-terms<br>O =&quot;Ентруст, Inc.&quot;<br>C = US |
 | **Серийный номер** | 0E: E9:4C: С3:00:00:00:00:51:: 77:85 |
@@ -379,7 +380,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign"></a>**глобалсигн**
 
-| **Subject** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
+| **Тема** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн корневой центр сертификации<br>OU = root Као = Глобалсигн NV — SA<br>C = BE |
 | **Серийный номер** | 04:00:00:00:00:25:07:1Д: F9:: AF |
@@ -397,7 +398,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-extended-validation-ca---sha256---g2"></a>**Глобалсигн расширенной проверки CA — SHA256 – G2**
 
-| **Subject** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Тема** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R2 |
 | **Серийный номер** | 04:00:00:00:00:01:44:4E: F0:4A: 55 |
@@ -415,7 +416,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-extended-validation-ca---sha256---g3"></a>**Глобалсигн расширенной проверки ЦС — SHA256 – G3**
 
-| **Subject** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G3<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Тема** | CN = Глобалсигн Расширенная проверка ЦС — SHA256 – G3<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
 | **Серийный номер** | 48: A4:02: ДД: 27:92:0D: A2:08:34:9D: D1:99:7B |
@@ -433,7 +434,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2**
 
-| **Subject** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Тема** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн<br>O = Глобалсигн<br>OU = Глобалсигн корневой ЦС — R3 |
 | **Серийный номер** | 04:00:00:00:00:00:31:89: C6:44: C9 |
@@ -451,7 +452,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2**
 
-| **Subject** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Тема** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
 | **Серийный номер** | 04:00:00:00:00:01:44:4E: F0:42:47 |
@@ -469,7 +470,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="globalsign-organization-validation-ca---sha256---g2"></a>**Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2**
 
-| **Subject** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
+| **Тема** | CN = Глобалсигн организация — проверка подлинности ЦС — SHA256 – G2<br>O = Глобалсигн NV — SA<br>C = BE |
 | --- | --- |
 | **Издатель** | CN = Глобалсигн корневой центр сертификации<br>OU = корневой ЦС<br>O = Глобалсигн NV — SA<br>C = BE |
 | **Серийный номер** | 04:00:00:00:00:01:44:4E: F0:42:47 |
@@ -487,7 +488,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="lets-encrypt-authority-x3"></a>**Шифровать с помощью службы сертификации X3**
 
-| **Subject** | CN = пошифровать орган X3<br>O = шифрование Давайте<br>C = US |
+| **Тема** | CN = пошифровать орган X3<br>O = шифрование Давайте<br>C = US |
 | --- | --- |
 | **Издатель** | CN = корневой сертификат DST X3<br>O = цифровая подпись — Co. |
 | **Серийный номер** | 0A: 01:41:42:00:00:00:53:85:73:6A: 0B: 85: EC: A7:08 |
@@ -506,7 +507,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-ssl-sha2"></a>**Microsoft IT SSL SHA2**
 
-| **Subject** | CN = Microsoft IT SSL SHA2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Тема** | CN = Microsoft IT SSL SHA2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 07:27:9A: A9 |
@@ -523,7 +524,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-ssl-sha2"></a>**Microsoft IT SSL SHA2**
 
-| **Subject** | CN = Microsoft IT SSL SHA2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Тема** | CN = Microsoft IT SSL SHA2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 07:27: AA: 47 |
@@ -541,7 +542,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-1"></a>**ЦС 1 Microsoft IT TLS**
 
-| **Subject** | CN = ЦС Microsoft IT TLS 1<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Тема** | CN = ЦС Microsoft IT TLS 1<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 08: B8:7A: 50:1B:: 9C: DA: 2D: 16:4D: 3E: 39:51: БФ: 55 |
@@ -559,7 +560,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-2"></a>**ЦС 2 Microsoft IT TLS 2**
 
-| **Subject** | CN = ЦС Microsoft IT TLS 2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Тема** | CN = ЦС Microsoft IT TLS 2<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 0F: 2C: 10: C9:5B: 06: C0:93:7F: B8: D4:49. |
@@ -577,7 +578,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-4"></a>**ЦС Microsoft IT TLS 4**
 
-| **Subject** | CN = ЦС Microsoft IT TLS 4<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Тема** | CN = ЦС Microsoft IT TLS 4<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 0B: В: B3: B3: B0:3E: B1: A9: F6: C4:60:92:6A: A8: CD: FE: B3 |
@@ -595,7 +596,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="microsoft-it-tls-ca-5"></a>**ЦС Microsoft IT TLS 5**
 
-| **Subject** | CN = ЦС Microsoft IT TLS 5<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
+| **Тема** | CN = ЦС Microsoft IT TLS 5<br>OU = Microsoft IT<br>O = Корпорация Майкрософт<br>L = Redmond<br>S = Вашингтон<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 08:88:88: CD: 52:5F: 19:24:44:4D: 14: A5:82:91: ДЕ: B9:52 |
@@ -613,7 +614,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="symantec-class-3-ev-ssl-ca---g3"></a>**Symantec класс 3 EV SSL CA — G3**
 
-| **Subject** | CN = Symantec класс 3 EV SSL CA-G3<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
+| **Тема** | CN = Symantec класс 3 EV SSL CA-G3<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
 | --- | --- |
 | **Издатель** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU =&quot;(c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O =&quot;VeriSign, Inc.&quot;<br>C = US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN = Симантекпки – 1-533 |
@@ -632,7 +633,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="symantec-class-3-secure-server-ca---g4"></a>**Symantec класс 3 — безопасный ЦС сервера (G4)**
 
-| **Subject** | CN = Symantec класс 3 безопасный ЦС сервера — G4<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
+| **Тема** | CN = Symantec класс 3 безопасный ЦС сервера — G4<br>OU = сеть Symantec Trust<br>O = Корпорация Symantec<br>C = US |
 | --- | --- |
 | **Издатель** | CN = VeriSign класс 3 общедоступный основной центр сертификации — G5<br>OU =&quot;(c) 2006 VeriSign, Inc. — только для уполномоченного использования&quot;<br>OU = сеть организации доверия VeriSign<br>O =&quot;VeriSign, Inc.&quot;<br>C = US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN = Симантекпки – 1-534 |
@@ -651,7 +652,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="thawte-sha256-ssl-ca"></a>**SSL-сертификат Thawte SHA256**
 
-| **Subject** | CN = Thawte SHA256 SSL CA<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
+| **Тема** | CN = Thawte SHA256 SSL CA<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
 | --- | --- |
 | **Издатель** | CN = Thawte основной корневой ЦС — G3<br>OU =&quot;(c) 2008 Thawte, Inc. — только для уполномоченного использования&quot;<br>OU = разделение служб сертификации<br>O =&quot;Thawte, Inc.&quot;<br>C = US |
 | **Альтернативное имя субъекта** | Адрес каталога: CN = Верисигнмпки – 2-415 |
@@ -670,7 +671,7 @@ Office 365 использует несколько различных поста
 
 ### <a name="verizon-akamai-sureserver-ca-g14-sha2"></a>**Веризон Akamai Суресервер CA G14 — SHA2**
 
-| **Subject** | CN = Веризон Akamai Суресервер CA G14 — SHA2<br>OU = Цибертруст<br>O = Веризон корпоративные решения<br>L = Амстердам<br>C = NL |
+| **Тема** | CN = Веризон Akamai Суресервер CA G14 — SHA2<br>OU = Цибертруст<br>O = Веризон корпоративные решения<br>L = Амстердам<br>C = NL |
 | --- | --- |
 | **Издатель** | CN = Балтимор Цибертруст root<br>OU = Цибертруст<br>O = Балтимор<br>C = IE |
 | **Серийный номер** | 07:27: A4:6B |

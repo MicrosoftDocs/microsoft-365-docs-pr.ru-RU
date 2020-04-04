@@ -149,6 +149,8 @@
           href: document-fingerprinting.md
         - name: Функции защиты от потери данных для конфиденциальной информации
           href: what-the-dlp-functions-look-for.md
+    - name: Шифрование в M365
+      href: encryption.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -200,6 +202,8 @@
               href: legacy-information-for-message-encryption.md
             - name: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
               href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: Настройка управления правами на доступ к данным в центре администрирования SharePoint
+      href: set-up-irm-in-sp-admin-center.md
     - name: Общие сведения о классификации данных (предварительная версия)
       href: data-classification-overview.md
       items:
@@ -325,7 +329,7 @@
               href: view-label-activity-for-documents.md
             - name: Просмотр отчетов для управления данными
               href: view-the-data-governance-reports.md
-        - name: События
+        - name: Мероприятия
           items:
             - name: Хранение на основе событий
               href: event-driven-retention.md
@@ -765,26 +769,26 @@
       href: get-started-with-service-trust-portal.md
     - name: Рейтинг соответствия требованиям и диспетчер соответствия требованиям
       items:
-        - name: Рейтинг соответствия требованиям (предварительная версия)
+        - name: Оценка соответствия требованиям (Предварительная версия)
           href: compliance-score.md
-        - name: Настройка рейтинга соответствия требованиям (предварительная версия)
+        - name: Настройка оценки соответствия требованиям (Предварительная версия)
           href: compliance-score-setup.md
-        - name: Работа с рейтингом соответствия требованиям (предварительная версия)
+        - name: Работа с оценкой соответствия требованиям (Предварительная версия)
           href: working-with-compliance-score.md
-        - name: Расчет рейтинга соответствия требованиям (предварительная версия)
+        - name: Расчет оценки соответствия требованиям (Предварительная версия)
           href: compliance-score-methodology.md
-        - name: Заметки о выпуске рейтинга соответствия требованиям (предварительная версия)
+        - name: Заметки о выпуске для оценки соответствия требованиям (Предварительная версия)
           href: compliance-score-release-notes.md
         - name: Вопросы и ответы по показателю соответствия требованиям (Предварительная версия)
           href: compliance-score-faq.md
-        - name: Диспетчер соответствия требованиям (предварительная версия)
+        - name: Диспетчер соответствия требованиям (Предварительная версия)
           href: compliance-manager-overview.md
           items:
-            - name: Что изменилось в диспетчере соответствия требованиям (предварительная версия)
+            - name: Заметки о выпуске диспетчера соответствия требованиям (Предварительная версия)
               href: compliance-manager-release-notes.md
-            - name: Работа с диспетчером соответствия требованиям (предварительная версия)
+            - name: Работа с диспетчером соответствия требованиям (Предварительная версия)
               href: working-with-compliance-manager.md
-            - name: Диспетчер соответствия требованиям (классическое)
+            - name: Диспетчер соответствия требованиям (классический)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: Средство запросов субъектов данных GDPR
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md

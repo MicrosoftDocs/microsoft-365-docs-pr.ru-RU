@@ -22,18 +22,20 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Переключить Office 365 для бизнес-подписок вручную, приобретая новую подписку и убедившись, что обе подписки указаны и активны.
-ms.openlocfilehash: 19efd94f320fcf5dc54f44b70b436f713a663a40
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9a0c382abf1e61f1b31cb358529925053d037be4
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354714"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142107"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Переключение планов Office 365 для бизнеса вручную
 
 ::: moniker range="o365-worldwide"
+
 > [!NOTE]
-> Эта статья относится к старому центру администрирования. Чтобы просмотреть статью о новом центре администрирования, ознакомьтесь со статьей [изменение планов вручную](change-plans-manually.md). Новый центр администрирования доступен всем администраторам Microsoft 365, и вы можете принять участие в этой группе, выбрав пункт **попробовать новый переключатель центр администрирования** в верхней части домашней страницы. Дополнительные сведения см. в статье [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
+> Эта статья относится к старому центру администрирования. Чтобы просмотреть статью о новом центре администрирования, ознакомьтесь со статьей [изменение планов вручную](change-plans-manually.md). Новый центр администрирования доступен всем администраторам Microsoft 365. Дополнительные сведения см. в статье [О новом Центре администрирования Microsoft 365](../../admin/microsoft-365-admin-center-preview.md).
+
 ::: moniker-end
 
 ## <a name="step-1-decide-how-to-switch-plans"></a>Шаг 1: выбор способа переключения планов
@@ -62,7 +64,7 @@ ms.locfileid: "42354714"
   
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>Шаг 3: Проверка новой подписки и лицензий
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">подписки</a> на **выставление счетов** \> .
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
 
     Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как перенести файлы и параметры пользователей.
-ms.openlocfilehash: 9332542e5b87de3e3c237f969a3842545eb03dc4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f17b11efe889359f97087ac5d96ffa968ca8cd88
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085296"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113545"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>Этап 4. Перенос файлов и параметров пользователя
 
@@ -49,7 +49,7 @@ ms.locfileid: "42085296"
 
 Возможность применения этого подхода в вашей организации зависит от масштаба планируемой миграции. Очевидно, что в этом случае важны время и трудозатраты, необходимые для работы непосредственно с пользователями, понимания их потребностей и копирования файлов на новые или обновленные компьютеры.
 
-Если вы решите выполнить миграцию вручную, рекомендуем оценить возможность выполнения этой задачи до января 2020 г., когда закончится поддержка Windows 7. Если это вызывает сомнения, рассмотрите возможность использования одного из описанных ниже автоматических вариантов или задействуйте больше людей для поддержки.
+Если вы выбираете перенос вручную, воспользуйтесь одним из автоматизированных вариантов, приведенных ниже, или попросите других пользователей помочь.
 
 ## <a name="automated-migration-using-usmt"></a>Автоматическая миграция с помощью USMT 
 
@@ -89,8 +89,8 @@ USMT собирает учетные записи пользователей, и
 
 ## <a name="next-step"></a>Следующий этап
 
-## <a name="step-5-security-and-compliance-considerationshttpsakamsmdd5"></a>[Этап 5. Вопросы по безопасности и соответствию требованиям](https://aka.ms/mdd5)
+## <a name="step-5-security-and-compliance-considerations"></a>[Этап 5. Вопросы по безопасности и соответствию требованиям](https://aka.ms/mdd5)
 
 ## <a name="previous-step"></a>Предыдущий этап
 
-## <a name="step-3-office-and-lob-app-deliveryhttpsakamsmdd3"></a>[Этап 3. Доставка приложений Office и бизнес-приложений](https://aka.ms/mdd3)
+## <a name="step-3-office-and-lob-app-delivery"></a>[Этап 3. Доставка приложений Office и бизнес-приложений](https://aka.ms/mdd3)

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: 'Сведения о том, как приобрести другую подписку на Office 365 для бизнеса для вашей организации, если у вас уже есть подписка. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a322be8ee76e37259d4a2cddf9ed2d75c379576
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 785080003a8abfac823239bd708eb2e442aa768f
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354650"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142267"
 ---
 # <a name="buy-another-office-365-for-business-subscription"></a>Приобретение другой подписки на Office 365 для бизнеса
 
@@ -40,9 +40,6 @@ ms.locfileid: "42354650"
 ## <a name="buy-another-subscription"></a>Приобретение еще одной подписки
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. В центре администрирования перейдите на страницу Услуги по **выставлению счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">покупки</a> .
 
@@ -60,7 +57,7 @@ ms.locfileid: "42354650"
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">подписки</a> на **выставление счетов** \> .
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. На странице **Подписка** выберите **Добавить подписки**.
 
@@ -86,7 +83,7 @@ ms.locfileid: "42354650"
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">подписки</a> на **выставление счетов** \> .
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. На странице **Подписка** выберите **Добавить подписки**.
 
@@ -110,8 +107,7 @@ ms.locfileid: "42354650"
 
 ::: moniker-end
 
-
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Назначение лицензий пользователям](../admin/manage/assign-licenses-to-users.md)
   

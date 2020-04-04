@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Узнайте, как продлить свою подписку на Office 365 для бизнеса с помощью ключа продукта, а также включить или отключить периодическую выставление счетов. '
-ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: acf5c81fae60fcce272dcee470de0588da3c4a97
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959220"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142119"
 ---
 # <a name="renew-office-365-for-business"></a>Продление ключа Office 365 для бизнеса
 
@@ -47,9 +47,6 @@ ms.locfileid: "42959220"
 Если вы предоплачени свою подписку с помощью ключа продукта, срок действия подписки истекает в конце срока подписки. Вы можете включить **периодическую выставление счетов** и предоставить сведения о кредитной карте или банковском счете, чтобы ваша подписка по-прежнему выставляется каждый год в день подписки. Вы также можете оплатить ежемесячно или ежемесячно платить за весь год. Кредитная карта или банковский счет не будут оплачиваться до истечения срока действия первоначальной подписки.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
 
@@ -117,12 +114,10 @@ ms.locfileid: "42959220"
 ## <a name="related-articles"></a>Статьи по теме
 
 [Повторная активация подписки](reactivate-your-subscription.md)
-  
-[Добавление, удаление и обновление данных кредитной карты или банковского счета](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-  
+
 [Что происходит с данными и возможностями доступа при окончании срока действия подписки?](what-if-my-subscription-expires.md)
 
-[Добавление, обновление и удаление способов оплаты](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+[Добавление, удаление и обновление методов оплаты](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
 
 [Изменение метода оплаты](../billing-and-payments/change-payment-method.md)
   
