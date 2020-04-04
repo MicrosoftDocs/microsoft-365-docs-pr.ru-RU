@@ -1,5 +1,5 @@
 - name: Домашняя страница администратора
-  href: admin-home.yml
+  href: admin-home.md
   items:
     - name: Обзор
       items:
@@ -86,7 +86,7 @@
     - name: Электронная почта
       items:
         - name: "Электронная почта в Office\_365"
-          href: email/email.yml
+          href: email/email.md
         - name: "Параметры электронной почты пользователей Office\_365"
           href: email/office-365-user-email-settings.md
         - name: Добавление дополнительных псевдонимов электронной почты для пользователя
@@ -154,7 +154,7 @@
     - name: Управление
       items:
         - name: Управление Office 365
-          href: manage/manage.yml
+          href: manage/manage.md
         - name: Изменение настроек контакта
           href: manage/change-contact-preferences.md
         - name: 'Изменение адреса, контакта и многого другого'
@@ -187,8 +187,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Устранение конфликтов лицензий
           href: manage/resolve-license-conflicts.md
-        - name: Управление сообщениями в Центре сообщений
-          href: manage/manage-messages.md
+        - name: Отображение и скрытие новых функций с помощью управления "что нового"
+          href: manage/show-hide-new-features.md
     - name: Подписки и выставление счетов
       items:
         - name: Управление подписками
@@ -202,7 +202,7 @@
     - name: Домены
       items:
         - name: 'Домены в Office 365:'
-          href: get-help-with-domains/get-help-with-domains.yml
+          href: get-help-with-domains/get-help-with-domains.md
         - name: Что такое домен?
           href: get-help-with-domains/what-is-a-domain.md
         - name: Приобретение доменного имени
@@ -227,7 +227,7 @@
           href: get-help-with-domains/remove-a-domain.md
         - name: Перенос данных вручную
           href: get-help-with-domains/transfer-data-manually.md
-    - name: Группы
+    - name: Groups
       items:
         - name: Обзор групп
           href: create-groups/office-365-groups.md
