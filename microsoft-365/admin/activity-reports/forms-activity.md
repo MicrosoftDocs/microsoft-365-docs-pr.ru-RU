@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Узнайте, как получить отчет об активности Microsoft Forms с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 28520bf931df9f909a933be19800ee45fd863cd6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046943"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151421"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия с формами
 
@@ -41,9 +41,9 @@ ms.locfileid: "43046943"
     
 2. В раскрывающемся списке **выберите отчет** выберите **действие** **формы** \> .
 
-## <a name="interpret-the-email-activity-report"></a>Анализ отчета об активности для электронной почты
+## <a name="interpret-the-forms-activity-report"></a>Интерпретация отчета о действиях с формами
 
-Чтобы получить представление о действиях пользователей с электронной почтой, взгляните на диаграммы **Активность** и **Пользователи**. 
+Вы можете получить представление о действиях с формами пользователя, изучив диаграммы **активности** и **пользователей** . 
 
 ![Отчет о действиях с формами](../../media/adminformsactivity.png)
 

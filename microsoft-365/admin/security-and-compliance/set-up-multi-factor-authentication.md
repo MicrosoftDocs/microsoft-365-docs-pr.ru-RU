@@ -22,19 +22,19 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения об использовании параметров безопасности по умолчанию с целью настройки многофакторной проверки подлинности для пользователей Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 914d01bf2f045c6752aba4f2df3a204c6a21d09c
-ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
+ms.openlocfilehash: 331552a4de21198fe7fbc9980e89bfcd87449ffa
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43075612"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153560"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
 > [!IMPORTANT]
-> Если вы приобрели подписку или пробную версию после 21 октября 2019 г., а вы неожиданно запрашиваете MFA, для подписки автоматически включается параметр [безопасности по умолчанию](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) .
+> Если вы приобрели подписку или пробную версию после 21 октября 2019 г., а вы неожиданно запрашиваете многофакторную проверку подлинности (MFA), для вашей подписки автоматически включена поддержка [по умолчанию для безопасности](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) .
 
-В каждой новой подписке на Office 365 для бизнеса или Microsoft 365 бизнес автоматически включены параметры безопасности по умолчанию. Это означает, что каждому пользователю потребуется настроить многофакторную проверку подлинности (MFA) и установить приложение для проверки подлинности на своем мобильном устройстве. Дополнительные сведения см. в статье [Настройка двухфакторной проверки подлинности для Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).  
+В каждой новой подписке на Office 365 для бизнеса или Microsoft 365 бизнес автоматически включены параметры безопасности по умолчанию. Это означает, что каждый пользователь должен настроить MFA и установить приложение Microsoft Authenticator на мобильном устройстве. Дополнительные сведения см. в статье [Настройка двухфакторной проверки подлинности для Office 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14).  
 
 Потребуются следующие девять ролей администраторов для дополнительной проверки подлинности при каждом входе:
 - Глобальный администратор
@@ -50,10 +50,10 @@ ms.locfileid: "43075612"
 У всех остальных пользователей дополнительная проверка подлинности будет запрашиваться при необходимости. Дополнительные сведения см. в статье [Что такое параметры безопасности по умолчанию?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
 > [!NOTE]
-> Настройку и изменение многофакторной проверки подлинности могут осуществлять только глобальные администраторы Office 365. <br><br>
+> Для установки или изменения MFA необходимо быть глобальным администратором Office 365. <br><br>
 > Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
-Если вы ранее настроили MFA с использованием базовых политик, [потребуется отключить их и включить параметры безопасности по умолчанию](#move-from-baseline-policies-to-security-defaults). Но если вы используете Microsoft 365 бизнес или ваша подписка включает [Azure Active Directory Premium 1 или Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/), вы также можете настроить политики [условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Чтобы использовать политики условного доступа, необходимо убедиться, что включена [современная проверка подлинности](#enable-modern-authentication-for-your-organization) .
+Если вы ранее настроили MFA с использованием базовых политик, [потребуется отключить их и включить параметры безопасности по умолчанию](#move-from-baseline-policies-to-security-defaults). Однако если у вас есть Microsoft 365 бизнес или ваша подписка включает [Azure Active Directory Premium P1 или Azure Active Directory Premium P2](https://azure.microsoft.com/pricing/details/active-directory/), вы также можете настроить политики [условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) . Чтобы использовать политики условного доступа, необходимо убедиться, что включена [современная проверка подлинности](#enable-modern-authentication-for-your-organization) .
 
 > [!TIP]
 > Чтобы объяснить пользователям, как настроить приложение Authenticator, посетите раздел [Использование Microsoft Authenticator для Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1).
@@ -64,7 +64,7 @@ ms.locfileid: "43075612"
 2. Перейдите в раздел [свойств Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).
 
 3. В нижней части страницы щелкните **Управление параметрами безопасности по умолчанию**.
-4. Нажмите кнопку **Да**, чтобы включить параметры безопасности по умолчанию, или **Нет**, чтобы их отключить.
+4. Нажмите кнопку **Да** , чтобы включить параметры безопасности по умолчанию или **нет** , чтобы отключить параметры безопасности по умолчанию, а затем нажмите кнопку **сохранить**.
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>Переход с базовых политик на параметры безопасности по умолчанию
 

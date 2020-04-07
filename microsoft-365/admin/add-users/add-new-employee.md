@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9cdfa29d-7681-4af2-a79d-3e72e7ab9778
 description: Добавлять новых сотрудников в Office 365 для бизнеса для приложений электронной почты, Skype и Office.
-ms.openlocfilehash: d77c62898fc238b3c321e61b6a867092442baa07
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 20be856cddfc0044ab7ef9d196b64c4d636638f7
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245786"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151384"
 ---
 # <a name="add-a-new-employee-to-office-365"></a>Добавление нового сотрудника в Office 365
 
@@ -33,13 +33,13 @@ ms.locfileid: "42245786"
   
 Вы находитесь в нужном месте, если новому сотруднику требуется Office 365, и вы используете [план office 365](https://products.office.com/business/compare-office-365-for-business-plans) , который позволяет устанавливать приложения Office, такие как Word и Excel, на компьютер. 
   
- **Вы не являетесь администратором?** [Сведения о том, как office 365](https://support.office.com/article/9b7306d3-8d61-4794-bb6f-6520f65956d9.aspx) помогает пользователям бизнес-и домашних приложений с Office 365 настраиваться. 
+ **Вы не являетесь администратором?** [Сведения о том, как office 365](https://support.office.com/article/office-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb) помогает пользователям бизнес-и домашних приложений с Office 365 настраиваться. 
   
  **В вашем плане нет приложений Office?** Выполните приведенные ниже действия, но пропустите разделы для установки приложений. Вместо этого используйте [интерактивные версии Office](https://support.office.com/article/91a4ec74-67fe-4a84-a268-f6bdf3da1804.aspx) . 
   
 Вот краткий обзор: 
   
-|**Шаг**|**Зачем это делать?**|
+|**Этап**|**Зачем это делать?**|
 |:-----|:-----|
 |[Шаг 1: создание учетной записи Office 365 для сотрудника](#step-1-create-an-office-365-account-for-the-employee) <br/> |Каждый раз, когда новый сотрудник присоединяется к вашей организации, создайте для них учетную запись, чтобы они могли начать работу с Office 365.  <br/> |
 |[Шаг 2: предоставление сотруднику идентификатора пользователя и пароля](#step-2-give-the-employee-their-user-id-and-password) <br/> |При создании учетной записи вы получите идентификатор и пароль, которые вы можете передать сотруднику, чтобы выполнить вход.  <br/> |
@@ -70,17 +70,17 @@ ms.locfileid: "42245786"
 ## <a name="step-4-help-your-employee-get-started"></a>Шаг 4: Помогите сотрудникам начать работу
 
 
-Поделитесь с ними. [Быстрая настройка сотрудника для Office 365](https://support.office.com/article/69cd80a8-56b8-436f-aa1f-2d2a3cc51060) для входа в систему, установки программного обеспечения, настройки электронной почты и многого другого. 
+Поделитесь с ними. [Быстрая настройка сотрудника для Office 365](https://support.office.com/article/employee-quick-setup-b9700090-ce64-4046-ab92-ce8488a7bc0f) для входа в систему, установки программного обеспечения, настройки электронной почты и многого другого. 
   
 А вот краткий справочник, который поможет вам начать работу:
   
-|**Task**|**Поиск сведений**|
+|**Задача**|**Поиск сведений**|
 |:-----|:-----|
 |Вход в Office  <br/> |Перейдите к [https://www.office.com](https://www.office.com), выберите **Вход**и введите идентификатор пользователя и пароль Office 365.  <br/> |
 |Установите приложения Office на компьютер.  <br/><br/> |При входе на домашнюю страницу можно скачать и установить такие приложения, как Word и Outlook, с помощью ссылки.  Выберите пункт **установить Office**.         Инструкции по [установке Office](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).  <br/> |
 |Настройка электронной почты в Outlook 2016.  <br/> |После установки приложений Office на компьютер Настройте свою электронную почту. Инструкции по [установке Outlook](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx).  <br/> |
 |Настройте Skype для бизнеса, чтобы вы могли подключаться к коллегам или бизнес-партнерам в вашей компании или по всему миру. Вы можете начинать беседы с помощью мгновенных сообщений, голосовых вызовов или видеовызовов.  <br/> |[Установите Skype для бизнеса на своем компьютере](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb.aspx).  <br/> <br/>Чтобы узнать, как использовать Skype для бизнеса, [Посмотрите видеоролик.](https://support.office.com/article/3a21eca4-434d-41f1-ab06-3d4a268573b7.aspx) <br/> <br/>Вы настроили Skype для бизнеса, чтобы ваши сотрудники могли общаться с другими людьми, которые используют бесплатные приложения Skype? Если это не так, сообщите новому сотруднику о том, что следует ожидать при использовании Skype для бизнеса.  <br/> |
-|Установите приложения на мобильное устройство, если вы хотите получать электронную почту или использовать Skype для бизнеса на своем телефоне.  <br/> |Если вы хотите настроить мобильное приложение Outlook, чтобы вы могли получать электронную почту через свой телефон. Инструкции см в статье [iOS](https://support.office.com/article/b2de2161-cc1d-49ef-9ef9-81acd1c8e234.aspx), [Android](https://support.office.com/article/886db551-8dfa-4fd5-b835-f8e532091872.aspx), [Windows Phone](https://support.office.com/article/181a112a-be92-49ca-ade5-399264b3d417.aspx) <br/> <br/>Если вы хотите использовать Skype для бизнеса на мобильном устройстве, скачайте и установите мобильное приложение. Инструкции см в статье [iOS](https://support.office.com/article/3239c8a3-cf55-4ff0-a967-5de51911c049.aspx), [Android](https://support.office.com/article/95be9226-2d72-4e94-8a17-bc3c9edf445b.aspx), [Windows Phone](https://support.office.com/article/52d8008e-ebf0-4b2a-afd9-f05614c8e9d7.aspx) <br/> |
+|Установите приложения на мобильное устройство, если вы хотите получать электронную почту или использовать Skype для бизнеса на своем телефоне.  <br/> |Если вы хотите настроить мобильное приложение Outlook, чтобы вы могли получать электронную почту через свой телефон. Инструкции см в статье [iOS](https://support.office.com/article/b2de2161-cc1d-49ef-9ef9-81acd1c8e234.aspx), [Android](https://support.office.com/article/886db551-8dfa-4fd5-b835-f8e532091872.aspx), [Windows Phone](https://support.microsoft.com/en-us/office/set-up-email-on-windows-phone-181a112a-be92-49ca-ade5-399264b3d417) <br/> <br/>Если вы хотите использовать Skype для бизнеса на мобильном устройстве, скачайте и установите мобильное приложение. Инструкции см в статье [iOS](https://support.microsoft.com/en-us/office/install-skype-for-business-on-a-mobile-device-3239c8a3-cf55-4ff0-a967-5de51911c049#OS_Type=iOS), [Android](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Android), [Windows Phone](https://support.microsoft.com/en-us/office/sign-in-to-skype-for-business-on-a-mobile-device-4d1b7dfa-5b0b-4868-bae5-25947fb99e6e#OS_Type=Windows_Phone) <br/> |
 |Выполните обучение OneDrive для бизнеса, чтобы узнать, как хранить и упорядочивать документы, презентации и электронные таблицы в облаке.  <br/> |Храните документы, связанные с бизнесом, в облаке с помощью OneDrive для бизнеса. Вы всегда можете получить доступ к контенту, даже если вы вошли в Office 365 на другом компьютере. [Посмотрите видео, чтобы узнать, как использовать OneDrive для бизнеса.](https://support.office.com/article/b30da4eb-ddd2-44b6-943b-e6fbfc6b8dde.aspx) <br/><br/> **Учебные курсы** [по работе с onedrive для бизнеса](https://support.office.com/article/1f608184-b7e6-43ca-8753-2ff679203132.aspx) (выберите onedrive для бизнеса).  <br/> |
 |Выполните обучение по SharePoint Online, чтобы обеспечить совместную работу с коллегами и совместное использование контента.  <br/> |Лучшее место для хранения документов, к которым сотрудники смогут получать доступ, в SharePoint Online.  <br/> <br/>**Обучение:** [видео: совместная работа с контентом группы с помощью SharePoint Online](https://support.office.com/article/2dd9aeff-7749-4b78-9696-eb0f6267f1f5.aspx) <br/><br/> **Узнайте:** Как ваша организация использует SharePoint Online и какие типы документов можно хранить. Кроме того, какие документы хранятся в OneDrive для бизнеса.  <br/> |
 

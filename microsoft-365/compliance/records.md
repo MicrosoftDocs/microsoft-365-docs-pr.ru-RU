@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы реализовать стратегию управления записями в организации Office 365 или Майкрософт, необходимо использовать метки хранения, которые обозначают содержимое как запись. Метки хранения для обозначения записей можно публиковать или применять автоматически.
-ms.openlocfilehash: ba69c9705c14c2f836f67c8747d30ee2280c6d99
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d497f3e536a54226ad9e7b5bb9a399f66774c25e
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106147"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153837"
 ---
 # <a name="overview-of-records"></a>Общие сведения о записях
 
@@ -107,9 +107,6 @@ ms.locfileid: "43106147"
 <br/><br/>
 
 ![Свойство состояния записи в документе, обозначенном как запись](../media/recordversioning8.png)
-
-> [!NOTE]
-> Для управления версиями записей каждому пользователю, у которого есть разрешения на изменение обозначенного как запись содержимого на сайте SharePoint или в учетной записи OneDrive, требуется лицензия на Office 365 корпоративный E5. Пользователям с доступом только для чтения эта лицензия не требуется.
 
 ### <a name="locking-and-unlocking-a-record"></a>Блокировка и разблокировка записи
 

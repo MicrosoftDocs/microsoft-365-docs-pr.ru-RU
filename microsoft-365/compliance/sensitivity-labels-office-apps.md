@@ -15,20 +15,26 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
-ms.openlocfilehash: 595381984390321ed810af61f6234428f31551f3
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4cb08f79bd45199b443332fc80b1d595ee3f17cb
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106095"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151410"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Использование меток конфиденциальности в приложениях Office
 
->*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности & соответствия требованиям](https://aka.ms/ComplianceSD).*
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Когда вы [публикуете](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) метки конфиденциальности из центра соответствия требованиям Microsoft 365 или эквивалентного центра меток, они начинают отображаться в приложениях Office, чтобы классифицировать и защитить данные, созданные или измененные пользователем.
 
 Сведения, приведенные в этой статье, помогут вам успешно управлять метками конфиденциальности в приложениях Office. Например, определите минимальные версии приложений, которые необходимы для поддержки встроенных меток, а также Узнайте, как использовать клиент единой метки Azure Information Protection для обеспечения совместимости с другими приложениями и службами.
+
+## <a name="labeling-client-for-desktop-apps"></a>Пометка клиента для приложений для настольных ПК
+
+Чтобы использовать метки конфиденциальности, встроенные в классические приложения Office для Windows и Mac, необходимо использовать выпуск Office с подпиской. Этот клиент наклеек не поддерживает автономные выпуски Office, такие как Office 2016 и Office 2019.
+
+Чтобы использовать метки конфиденциальности с этими отдельными выпусками Office на компьютерах с Windows, установите [клиент единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2).
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>Поддержка возможностей меток конфиденциальности в приложениях
 

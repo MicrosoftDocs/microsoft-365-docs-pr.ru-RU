@@ -1,6 +1,6 @@
 ---
-title: 'Этап 5: Управление мобильными устройствами'
-description: Microsoft 365 Enterprise включает управление мобильными устройствами с помощью Microsoft Intune. Ознакомьтесь с требованиями и необходимыми условиями, настройте Intune, используя ресурс Azure Active Directory, регистрацию устройств iOS, macOS, Android и Windows, развертывание приложений, создание профиля, использование политики соответствия и включение условного доступа для мобильных устройств Управление устройствами с помощью Microsoft 365 корпоративный.
+title: Этап 5 - Управление мобильными устройствами
+description: Microsoft 365 Enterprise включает управление мобильными устройствами с помощью Microsoft Intune. Ознакомьтесь с требованиями и необходимыми условиями, настройте Intune с помощью ресурса Azure Active Directory, регистрации устройств iOS, macOS, Android и Windows, развертывания приложений, создания профиля, использования политики соответствия и включения условного доступа для управления мобильными устройствами с помощью Microsoft 365 корпоративный.
 keywords: Microsoft 365, Microsoft 365 корпоративный, документация по Microsoft 365, управление мобильными устройствами, Intune
 author: JoeDavies-MSFT
 f1.keywords:
@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: f3c4e36ea650dc0e354697c6fb766f5e32c0e3d2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a957ef037aed1f9aba923af428c2a440790dbfba
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066773"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153896"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Этап 5: Управление мобильными устройствами для Microsoft 365 корпоративный
 

@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Сведения о том, как назначать роли администратора пользователю или нескольким пользователям в вашей организации, чтобы они могли выполнять определенные задачи в центре администрирования.
-ms.openlocfilehash: 431c51ea4859899ba9762d6f4c5b7bf1e9ba3d8a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9c10ef7d6dade3d826c9c291e58b3e8e2a58f2a6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245762"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151387"
 ---
 # <a name="assign-admin-roles"></a>Назначение ролей администратора
 
@@ -45,7 +45,7 @@ ms.locfileid: "42245762"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ::: moniker range="o365-worldwide"
 
@@ -126,7 +126,7 @@ ms.locfileid: "42245762"
 
 [Назначение ролей учетным записям пользователей с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
-[Авторизация и удаление отношений партнеров](https://support.office.com/article/201ccb3b-6011-4bf1-a6b2-84e7cc1ee2d0.aspx)
+[Авторизация и удаление отношений партнеров](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)
 
 [Добавление альтернативного адреса электронной почты с помощью центра администрирования Exchange](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
 
