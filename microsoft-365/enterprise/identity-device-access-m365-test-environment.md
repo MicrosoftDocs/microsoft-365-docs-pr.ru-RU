@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам.
-ms.openlocfilehash: e43483afc9e17de9582b2998867b53cfff7d8492
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 45749140698553a75df50ed1111cdbfc8eb15684
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601006"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153742"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Удостоверения и доступ к устройствам для тестовой среды Microsoft 365
 

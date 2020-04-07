@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам с предварительными требованиями для облачной проверки подлинности.
-ms.openlocfilehash: 2d40eca964cc338186f17b1b03423526e36ac196
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 94d3f5cdff7c8515ab775ae8070b74dd9b80df0f
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068486"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153786"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Предварительные требования к удостоверениям и доступу к устройствам для облачного применения в тестовой среде Microsoft 365
 
