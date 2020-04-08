@@ -11,12 +11,27 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
-  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+  ms.openlocfilehash: 9741932fcde29d2b64156c600f1bad1b309d5f66
+  ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 01/18/2020
-  ms.locfileid: "41233670"
+  ms.lasthandoff: 04/07/2020
+  ms.locfileid: "43165915"
+productDirectory:
+  title: Безопасная удаленная работа с Microsoft 365 Business
+  items:
+  - title: Новые возможности
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Azure AD Premium P1 поступает в корпорацию Майкрософт 365 Business!
+    url: https://aka.ms/aadp1smbblog
+  - title: Просмотр интерактивного помощника
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: Обеспечьте безопасность клиентов SMB в КОВИД – 19.
+    url: https://aka.ms/M365v253PAL-Register
+  - title: Приобретен
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: Щелкните ссылку, чтобы купить или связаться с партнером.
+    url: https://aka.ms/m365bweb
 conceptualContent:
   items:
   - title: Что такое Microsoft 365 бизнес?
@@ -36,7 +51,7 @@ conceptualContent:
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
       text: Вопросы и ответы
-  - title: Настройка Microsoft 365 бизнес
+  - title: Настройка Microsoft 365 бизнес
     links:
     - url: set-up.md
       itemType: how-to-guide
@@ -82,10 +97,10 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Office 365 Advanced Threat Protection
+      text: Office 365 Advanced Threat Protection
     - url: set-up-mfa.md
       itemType: how-to-guide
-      text: Настройка MFA
+      text: Настройка многофакторной проверки подлинности
     - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
       itemType: how-to-guide
       text: Защита от атаки с использованием системы
@@ -156,7 +171,7 @@ conceptualContent:
     links:
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
       itemType: whats-new
-      text: Объявления
+      text: Announcements
     - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
       itemType: video
       text: Получение справки
