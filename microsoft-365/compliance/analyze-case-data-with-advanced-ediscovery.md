@@ -16,10 +16,10 @@ search.appverid:
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Обзор процесса анализа, который позволяет задавать параметры, параметры запуска и просматривать результаты в Office 365 Advanced eDiscovery. '
 ms.openlocfilehash: 31745651ddbebbfc5e9670a5a906d82cf493aea4
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "42556807"
 ---
 # <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>Анализ данных обращений с помощью расширенного обнаружения электронных данных (классический)
@@ -45,7 +45,7 @@ ms.locfileid: "42556807"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

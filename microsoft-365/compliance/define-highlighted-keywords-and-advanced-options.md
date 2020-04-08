@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
 description: 'Узнайте, как добавлять определяемые пользователем ключевые слова в релевантность для определения релевантных файлов при разметке в Office 365 Advanced eDiscovery и указать параметры затрат.  '
-ms.openlocfilehash: f24c2d736a1d3c36ed23d16e1bb5d2dadb42cec9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bec34867e7dfdb86848fd1fd2126d5cf96129802
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075942"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42556767"
 ---
-# <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Определение выделенных ключевых слов и дополнительных параметров в Office 365 Advanced eDiscovery
+# <a name="define-highlighted-keywords-and-advanced-options-in-advanced-ediscovery-classic"></a>Определение выделенных ключевых слов и дополнительных параметров в Advanced eDiscovery (классический)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -74,7 +74,7 @@ ms.locfileid: "42075942"
     
 ## <a name="see-also"></a>См. также
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Определение вопросов и назначение пользователей](define-issues-and-assign-users.md)
   

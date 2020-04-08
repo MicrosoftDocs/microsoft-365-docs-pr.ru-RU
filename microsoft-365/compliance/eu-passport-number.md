@@ -1,5 +1,7 @@
 ---
 title: Номер паспорта ЕС
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС Passport Number. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: 4afcf7b764eb8976e0588464515256f7cb1bdb8d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0032d3e50d7dab0b696d9000242e70956469052e
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805952"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "41592120"
 ---
 # <a name="eu-passport-number"></a>Номер паспорта ЕС
 
@@ -222,7 +224,7 @@ ms.locfileid: "40805952"
 |:-----|
 |passport number  <br/> номер паспорта для Кипр  <br/> паспорт нет  <br/> αριθμό διαβατηρίου  <br/> |
    
-## <a name="czech-republic"></a>Чешская Республика
+## <a name="czech-republic"></a>Чехия
 
 ### <a name="format"></a>Format
 
@@ -429,7 +431,7 @@ ms.locfileid: "40805952"
 |:-----|
 |passport number  <br/> Венгерский номер паспорта  <br/> паспорт нет  <br/> úтлевéл сзáма  <br/> |
    
-## <a name="ireland"></a>Ireland (Ирландия)
+## <a name="ireland"></a>Ирландия
 
 ### <a name="format"></a>Format
 

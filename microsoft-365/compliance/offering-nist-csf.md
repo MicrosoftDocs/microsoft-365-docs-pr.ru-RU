@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8794a51c60b778814d05a84d2332dc018b54a80a
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 65578f8105d52c87eb74cba57a215682f92bd02d
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222011"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170911"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 
@@ -37,7 +37,7 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 Узнайте, как ускорить развертывание NIST Циберсекурити Framework с помощью оценки соответствия требованиям и схемы безопасности и соответствия требованиям Azure:
 
-- [Загрузите контрольный список по оценке угроз безопасности и соответствия требованиям для Azure — CSF.](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
+- [Загрузите контрольный список по оценке угроз безопасности и соответствия требованиям для Azure — CSF.](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy?command=Download&downloadType=Document&downloadId=89ec5635-be07-4a5d-87d3-51783e4d3002)
 - [Узнайте больше о CSFной оценке NIST для Office 365 в рейтинге соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
@@ -68,7 +68,7 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 **Есть независимый контрольный код проверки того, что службы Office государственных учреждений, Dynamics 365 и Office 365 поддерживают требования NIST CSF?**
 
-Да, сторонняя организация аттестации предопределила, что предложение по управлению рисками для учреждений Циберсекурити Framework (CSF) соответствует рекомендациям по управлению рисками NIST Framework (), как определено в платформе для улучшения критической инфраструктуры. Циберсекурити, версия 1,0, датированная 12 февраля 2014. NIST CSF сопоставляется с инфраструктурой умеренных элементов управления FedRAMP, а независимые средства оценки имеют значение Dynamics 365 по сравнению с умеренным базовым планом FedRAMP. Кроме того, в Office 365 получено [письмо NIST CSF для сертификации](https://aka.ms/O365NISTCSFcertification) из HITRUST в июне 2018.
+Да, сторонняя организация аттестации предопределила, что предложение по управлению рисками для государственных учреждений в Azure (CSF) соответствует рекомендациям по управлению рисками NIST Циберсекурити Framework (), как определено в платформе для улучшения критической инфраструктуры Циберсекурити, версия 1,0, датированная 12 февраля 2014. NIST CSF сопоставляется с инфраструктурой умеренных элементов управления FedRAMP, а независимые средства оценки имеют значение Dynamics 365 по сравнению с умеренным базовым планом FedRAMP. Кроме того, в Office 365 получено [письмо NIST CSF для сертификации](https://aka.ms/O365NISTCSFcertification) из HITRUST в июне 2018.
 
 **Как облачные службы Майкрософт демонстрируют соответствие требованиям платформы?**
 
@@ -88,7 +88,7 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 **Каковы службы в области для Office 365?**
 
-Службы, доступные в области сертификации NIST CSF, — это Архивация на базе Exchange Online, Exchange Online Protection, Exchange Online, Skype для бизнеса, центр администрирования, SharePoint Online, Project Online, OneDrive для бизнеса, Office Online, MyAnalytics, Microsoft Teams, Office профессиональный плюс в Office 365 Multi клиента Cloud and Office 365 GCC.
+Службы, доступные в области сертификации NIST CSF, — это Архивация на базе Exchange Online, Exchange Online Protection, Exchange Online, Skype для бизнеса, центр администрирования, SharePoint Online, Project Online, OneDrive для бизнеса, Office Online, MyAnalytics, Microsoft Teams, Office профессиональный плюс в Office 365 многопользовательское облако и Office 365 GCC.
 
 > [!NOTE]
 > Office 365 профессиональный плюс обеспечивает доступ к различным облачным службам, таким как параметры роуминга, лицензирование и облачное хранилище OneDrive для пользователей, а также может включить доступ к дополнительным облачным службам в будущем. Параметры и лицензирование роуминга обеспечивают стандарты для HITRUST. Облачное хранилище для потребителей OneDrive не работает, а другие облачные службы, доступные в Office 365 профессиональный плюс, которые корпорация Майкрософт может приобретать в будущем, также могут не поддерживать эти стандарты. *

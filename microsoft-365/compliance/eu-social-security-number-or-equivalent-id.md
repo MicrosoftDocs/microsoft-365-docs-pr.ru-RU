@@ -1,5 +1,7 @@
 ---
 title: Номер социального страхования ЕС или эквивалентный идентификатор
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает номер социального страхования ЕС или эквивалентный тип конфиденциальной информации. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: 0666818dc892070f5c2f0c34abd8ca33d1253e33
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 1f2d1d9c61f27fb47b0c7ac0ce544b17175d4254
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805932"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "41591230"
 ---
 # <a name="eu-social-security-number-or-equivalent-id"></a>Номер социального страхования ЕС или эквивалентный идентификатор
 
@@ -248,7 +250,7 @@ OIB
   
 особни идентификаЦижски Брож
   
-## <a name="czech-republic"></a>Чешская Республика
+## <a name="czech-republic"></a>Чехия
 
 ### <a name="format"></a>Format
 
