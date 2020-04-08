@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 99d4b1b07c86989bce0da08324014bda7a8a7d5d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 728208960932ea8d642ad1604d45ba321f021735
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602416"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42313764"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Швейцарская служба по надзору за финансовыми рынками (FINMA)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602416"
 
 [Служба по надзору за финансовыми рынками](https://www.finma.ch/en) ([Eidgenössische Finanzmarktaufsicht](https://www.finma.ch/de/), FINMA) — это регулятор независимых финансовых рынков в Швейцарии, ответственный за эффективную работу швейцарских финансовых рынков. Он осуществляет рациональный контроль над банками, страховыми компаниями, биржами, дилерами ценных бумаг и другими финансовыми учреждениями.
 
-FINMA опубликовала [Циркуляр 2018/3. Аутсорсинг для банков и страховых компаний](https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2018-03.pdf?la=en), чтобы определить требования для соблюдения банками, дилерами ценных бумаг и страховыми компаниями при передаче поставщику услуг любых функций, значимых для операций компании. Любая компания, передающая на аутсорсинг свои бизнес-операции несет такую же ответственность перед FINMA, как если бы она выполняла эти операции самостоятельно.
+FINMA опубликовала [Циркуляр 2018/3. Аутсорсинг для банков и страховых компаний](https://www.finma.ch/en/~/media/finma/dokumente/rundschreiben-archiv/2018/rs-18-03/finma-rs-2018-03---20170921.pdf?la=en), чтобы определить требования для соблюдения банками, дилерами ценных бумаг и страховыми компаниями при передаче поставщику услуг любых функций, значимых для операций компании. Любая компания, передающая на аутсорсинг свои бизнес-операции несет такую же ответственность перед FINMA, как если бы она выполняла эти операции самостоятельно.
 
 ## <a name="microsoft-and-finma"></a>Майкрософт и FINMA
 

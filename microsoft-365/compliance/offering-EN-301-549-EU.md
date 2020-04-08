@@ -15,10 +15,10 @@ ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 9cf5d3eed1854dbf715a9574b4efaa666c934a52
-ms.sourcegitcommit: 1b1425142ae06deae3da10a7d30dce4db029d6d3
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "42313774"
 ---
 # <a name="european-standards-en-301-549"></a>Европейские стандарты EN 301 549

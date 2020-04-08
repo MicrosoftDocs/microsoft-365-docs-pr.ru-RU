@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7419bc37b40bb7e2b9b2726c4672d7d8d481ab8b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f80e9ab25fda70ae723b844691dc129d0b604921
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597916"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42313784"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>Закон Аргентины о защите персональных данных (PDPA)
 
 ## <a name="about-the-pdpa"></a>Сведения о PDPA
 
-Соответствующий Конституции Аргентины [закон о защите персональных данных № 25 326](https://unpan1.un.org/intradoc/groups/public/documents/un-dpadm/unpan044147.pdf) (PDPA) ([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)) был принят в 2000 г. для защиты конфиденциальности персональных данных и предоставления отдельным лицам доступа к любой информации, хранящейся в общедоступных и закрытых базах данных и реестрах. Аргентинское агентство по доступу к общедоступным сведениям ([Agencia de Acceso a la Información Pública](https://www.argentina.gob.ar/aaip), AAIP), подчиняющееся главе кабинета министров, отвечает за соблюдение этого закона.
+Соответствующий Конституции Аргентины [закон о защите персональных данных № 25 326](http://www.jus.gob.ar/media/3201023/personal_data_protection_act25326.pdf) (PDPA) ([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)) был принят в 2000 г. для защиты конфиденциальности персональных данных и предоставления отдельным лицам доступа к любой информации, хранящейся в общедоступных и закрытых базах данных и реестрах. Аргентинское агентство по доступу к общедоступным сведениям ([Agencia de Acceso a la Información Pública](https://www.argentina.gob.ar/aaip), AAIP), подчиняющееся главе кабинета министров, отвечает за соблюдение этого закона.
 
 PDPA соответствует европейской модели законодательства по защите конфиденциальности данных, а Аргентина была первой страной Латинской Америки, получившей квалификацию соответствия для передачи данных от ЕС.
 
