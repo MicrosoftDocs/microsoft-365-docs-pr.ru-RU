@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Сведения о том, как найти значения и сведения, необходимые для создания записей DNS для Office 365. '
 ms.custom: okr_smb
-ms.openlocfilehash: 7b995aedc21305367e4a6621781e138d0d60efd1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d6093dd8a7e8d901be7b172a31dcd0e56c549ab3
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255087"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188997"
 ---
 # <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a>Сбор необходимых сведений для создания DNS-записей Office 365
 
@@ -36,10 +36,18 @@ ms.locfileid: "42255087"
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>Шаг 1: Найдите значение записи TXT и проверьте
 
 1. В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".
-    
-    Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
-    
-    Если вы используете Office 365 под управлением 21Vianet, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker range="o365-germany"
+
+1. В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> .
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker-end
     
 2. На странице **домены** выберите свой домен, а затем нажмите кнопку **запустить программу установки**. Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.
     
@@ -57,9 +65,17 @@ ms.locfileid: "42255087"
 
 1. В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".
     
-    Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
-    
-    Если вы используете Office 365 под управлением 21Vianet, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+::: moniker range="o365-germany"
+
+1. В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> .
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker-end
     
 2. На странице **Домены** щелкните свой домен. 
     

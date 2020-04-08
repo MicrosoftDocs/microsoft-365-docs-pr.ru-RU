@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 4d3f2f84daf1415e7a5f48d66f1fb9d86c612d67
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 40747d2ee66d4a873f83247278f04377ccfa8eaf
+ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105991"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43163859"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -77,7 +77,7 @@ ms.locfileid: "43105991"
 |Шифрование документов и сообщений электронной почты с помощью меток конфиденциальности, а также ограничение доступа к этому содержимому и его использования |[Ограничение доступа к содержимому при использовании меток конфиденциальности для шифрования](encryption-sensitivity-labels.md)|
 |Включение возможностей совместной работы в SharePoint (и OneDrive) для документов, которым были присвоены метки при шифровании | [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)](sensitivity-labels-sharepoint-onedrive-files.md)
 |Управление метками конфиденциальности в приложениях Office для применения при создании содержимого |[Использование меток конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)|
-|Автоматическое применение и рекомендации пользователям в отношении меток конфиденциальности при создании содержимого | [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)|
+|Автоматическое применение меток конфиденциальности к документам и сообщениям электронной почты | [Автоматическое применение метки конфиденциальности к содержимому](apply-sensitivity-label-automatically.md)|
 |Использование меток конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, группах Office 365 и на сайтах SharePoint (общедоступная предварительная версия)](sensitivity-labels-teams-groups-sites.md)|
 |Обнаружение, применение меток и защита файлов, хранящихся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Обнаружение, применение меток и защита файлов, хранящихся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
