@@ -18,16 +18,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: Ознакомьтесь с обзором того, как ваша организация использует службы Microsoft 365 для общения и сотрудничества.
-ms.openlocfilehash: 0481f894a4841488b20af90cd7c00619d2ad5c98
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: c9e2b9e6b814ac9245222f5da670862e308d1ab4
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826385"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170922"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Аналитика использования Microsoft 365
----
-Служба аналитики использования Microsoft 365 пока недоступна для сообщества 365 Майкрософт для государственных учреждений США.
+
+В настоящее время аналитика использования Microsoft 365 недоступна для клиентов Power BI государственных организаций.
  
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Обзор аналитики использования Microsoft 365
 

@@ -169,6 +169,8 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: Централизованное развертывание надстроек
           href: manage/manage-deployment-of-add-ins.md
+        - name: Вопросы и ответы по централизованному развертыванию
+          href: manage/centralized-deployment-FAQ.md
         - name: Поиск партнера или торгового посредника
           href: manage/find-your-partner-or-reseller.md
         - name: Почтовые ящики помещений и оборудования
@@ -227,7 +229,7 @@
           href: get-help-with-domains/remove-a-domain.md
         - name: Перенос данных вручную
           href: get-help-with-domains/transfer-data-manually.md
-    - name: Groups
+    - name: Группы
       items:
         - name: Обзор групп
           href: create-groups/office-365-groups.md
