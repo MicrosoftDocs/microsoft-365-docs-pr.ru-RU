@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 65578f8105d52c87eb74cba57a215682f92bd02d
-ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
+ms.openlocfilehash: 5d30073d611edf60ced4d926fdae0708d555cb6f
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170911"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188992"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 
@@ -35,12 +35,9 @@ ms.locfileid: "43170911"
 
 NIST Циберсекурити Framework (CSF) — это невольная платформа, состоящая из стандартов, руководств и рекомендаций по управлению рисками, связанными с циберсекурити. Облачные службы Майкрософт прошли независимость от сторонних FedRAMP среднего и высокого уровня аудита и сертифицированы в соответствии со стандартами FedRAMP. Кроме того, с помощью проверенной оценки, выполняемой HITRUST, ведущих приложений по обеспечению безопасности и конфиденциальности и организации аккредитацию, Office 365 будет сертифицировано для целей, указанных в разделе NIST CSF.
 
-Узнайте, как ускорить развертывание NIST Циберсекурити Framework с помощью оценки соответствия требованиям и схемы безопасности и соответствия требованиям Azure:
+[Узнайте, как](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554) УСКОРИТЬ развертывание NIST циберсекурити Framework с помощью оценки соответствия требованиям:
 
-- [Загрузите контрольный список по оценке угроз безопасности и соответствия требованиям для Azure — CSF.](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy?command=Download&downloadType=Document&downloadId=89ec5635-be07-4a5d-87d3-51783e4d3002)
-- [Узнайте больше о CSFной оценке NIST для Office 365 в рейтинге соответствия требованиям](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных организаций](https://aka.ms/d365-compliance-list)
@@ -54,9 +51,10 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 ## <a name="quickly-build-nist-csf-solutions-on-azure"></a>Быстрое создание решений NIST CSF в Azure
 
-Стандарт NIST Циберсекурити Framework (CSF) может быть непростым в облаке. К счастью, с помощью Azure вы получите головной офис, получив план безопасности и соответствия требованиям Azure CSF. Этот проект содержит инструменты и рекомендации по началу сборки решений NIST CSF.
+Стандарт NIST Циберсекурити Framework (CSF) может быть непростым в облаке. В настоящее время вы можете использовать новые примеры образцов для FedRAMP Moderate или FedRAMP High, чтобы помочь вам приступить к работе. Новые элементы управления NIST CSF разрабатываются из элементов управления в этих базовых планах FedRAMP.
 
-- [Начало использования чертежа Azure NIST CSF](https://aka.ms/Azure-Blueprint-DoD-NIST)
+- [Пример среднего заFedRAMPного чертежа](https://docs.microsoft.com/azure/governance/blueprints/samples/fedramp-m/)
+- [Пример высокого чертежа FedRAMP](https://docs.microsoft.com/azure/governance/blueprints/samples/fedramp-h/)
 
 ## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-score"></a>Оценка рисков в Office 365 с помощью NIST CSF в рейтинге соответствия требованиям
 
@@ -99,7 +97,7 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Оценка риска с помощью рейтинга соответствия требованиям (Майкрософт)
 
-[Рейтинг соответствия требованиям (Майкрософт)](compliance-score.md) — это предварительная функция в [Центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md), помогающая понять состояние вашей организации в отношении соответствия требованиям и принять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон NIST CSF](https://go.microsoft.com/fwlink/?linkid=2117917) в раскрывающемся меню **шаблон** , чтобы помочь Организации удовлетворить требования, предъявляемые к этому нормативу.
+[Оценка соответствия требованиям Майкрософт](compliance-score.md) — это ознакомительная версия в [центре соответствия требованиям Microsoft 365](microsoft-365-compliance-center.md) , которая поможет вам понять степень соответствия требованиям организации и предпринять меры по снижению рисков. После [настройки оценки соответствия](compliance-score-setup.md)выберите предварительно настроенный [шаблон NIST CSF](https://go.microsoft.com/fwlink/?linkid=2117917) в раскрывающемся меню **шаблон** , чтобы помочь Организации удовлетворить требования, предъявляемые к этому нормативу.
 
 ## <a name="resources"></a>Ресурсы
 

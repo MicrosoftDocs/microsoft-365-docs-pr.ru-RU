@@ -151,6 +151,8 @@
           href: what-the-dlp-functions-look-for.md
     - name: Шифрование в M365
       href: encryption.md
+    - name: Шифрование служб Office 365
+      href: office-365-service-encryption.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365

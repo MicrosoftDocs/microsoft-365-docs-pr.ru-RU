@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 2db16773b305e2e5f929e96fb3ca0e7bfe541990
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: e882f89a0020cacd30cb6d85917e78a965ad5cde
+ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081272"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43198387"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 
@@ -173,7 +173,7 @@ ms.locfileid: "43081272"
 
 1. В центре безопасности & соответствия требованиям ([https://protection.office.com](https://protection.office.com)) выберите > **Обозреватель** **управления угрозами**(или **Обнаружение в режиме реального времени**). (В этом примере используется Explorer.)
 
-2. В меню **вид** выберите пункт отправки **электронной почты** > **Submissions**.
+2. В меню **вид** выберите пункт отправки **электронной почты** > **Submissions**. (Ранее было указано имя **пользователя**).
 
    ![Меню "вид" для проводника](../../media/ExplorerViewMenuEmailUserReported.png)
 
@@ -234,3 +234,7 @@ ms.locfileid: "43081272"
 
 - Отчет об **обнаружении в реальном времени** доступен в Office 365 ATP 1 (план 1), а **Обозреватель угроз** доступен в Office 365 ATP (план 2).
 - Отчет об **обнаружении в реальном времени** позволяет просматривать определения в режиме реального времени. **Обозреватель угроз** также делает это, но также позволяет просматривать дополнительные сведения о конкретной атаке.
+- Представление " **все сообщения электронной почты** " доступно в **обозревателе угроз** (не в отчете об **обнаружении в режиме реального времени** ).
+- В **обозревателе угроз**включены дополнительные возможности фильтрации и доступные действия.
+
+Более подробную информацию можно узнать в статье [Office 365 ATP Service Description: сведения о доступности функций в планах расширенной защиты от угроз (ATP)](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bfcad9829c32a7a4f91e4d7dee7dec922059cd18
-ms.sourcegitcommit: 397b22cea138cadef026128d878650f8f609a329
+ms.openlocfilehash: c68e51fd0efe415458942736a8d19ae1c12adc3c
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068577"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189086"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Авторизация подготовки для Отдела по требованию США на уровнях влияния 2, 4 и 5
 
@@ -36,7 +36,7 @@ ms.locfileid: "43068577"
 Правительственные облачные службы Майкрософт отвечают требованиям, предъявляемым к качеству обороны США, от уровней влияния 2 до 5, позволяющих государственным агентствам Майкрософт для защиты от экономии затрат и строгой защиты облака Майкрософт. Развертывание защищенных служб, в том числе Office для государственных учреждений, Office 365 U.S. государственных учреждений и Dynamics 365 государственных учреждений, позволяет государственным организациям использовать широкий набор совместимых служб.
 
 - Узнайте о преимуществах Диса L2, на уровне 4 в облаке Майкрософт: [Скачайте Отдел обороны Диса](https://aka.ms/disa-backgrounder)
-- Узнайте, как ускорить работу с Диса L2, развертывание на уровне 4 для нашего [чертежа Azure DOD](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)
+- Узнайте, как ускорить внедрение Диса L2, развертывание на уровне 4 с нашими [планами Microsoft Azure DOD](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy)
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>Проверка подлинности на уровне 5 с влиянием на DoD
 
@@ -58,7 +58,7 @@ ms.locfileid: "43068577"
 
 Уровень влияния 2 охватывает неконтролируемые Неклассифицированные сведения — данные, авторизованные для общедоступной версии. Кроме того, она охватывает другие неклассифицированные сведения, которые, хотя и не считаются критически важными, по-прежнему требуют минимального уровня управления доступом. Эта авторизация позволяет клиентам федерального правительства США развертывать неконфиденциальную информацию и базовые приложения и веб-сайты в области облачных служб Майкрософт.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Покрываемые службы для уровня влияния на вызов по требованию 5
 
@@ -83,7 +83,7 @@ ms.locfileid: "43068577"
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>Быстрая отслеживание развертывания решений с помощью DoD в Azure
 
-Узнайте, как использовать преимущества облака в государственных учреждениях с помощью схемы безопасности и Отдела соответствия требованиям Azure. Этот проект содержит инструменты и рекомендации по началу работы с общедоступными решениями, совместимыми с DoD. [Начните использовать план Azure DOD](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/).
+Загрузите план, чтобы воспользоваться преимуществами облака в государственных учреждениях и образца для отдела обороны на уровне обороны. Этот проект содержит инструменты и рекомендации по началу работы с общедоступными решениями, совместимыми с DoD. [Начните использовать план Azure для Microsoft по требованию: 4 – 4](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/).
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
