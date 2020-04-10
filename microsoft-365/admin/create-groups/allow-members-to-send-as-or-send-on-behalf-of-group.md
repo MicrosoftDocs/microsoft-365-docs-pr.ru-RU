@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,67 +19,67 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Сведения о том, как разрешить участникам отправлять электронную почту в виде группы Office 365 или отправлять электронную почту от имени группы Office 365.
-ms.openlocfilehash: 41e8bd34ed7ba28cdaa736bf8f4c88433f56a47e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b85b0318587058f1c3eb4d681086ccfcad7f1d8d
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894661"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212109"
 ---
-# <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a><span data-ttu-id="19345-103">Разрешение пользователям отправлять сообщения от имени группы или отправлять от него</span><span class="sxs-lookup"><span data-stu-id="19345-103">Allow members to send as or send on behalf of a Group</span></span>
+# <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a><span data-ttu-id="f2c94-103">Разрешение пользователям отправлять сообщения от имени группы или отправлять от него</span><span class="sxs-lookup"><span data-stu-id="f2c94-103">Allow members to send as or send on behalf of a Group</span></span>
 
-<span data-ttu-id="19345-104">Член группы Office 365, которому предоставлены разрешения " **Отправить как** " или " **Отправить от имени** ", может отправлять сообщения электронной почты в виде группы или от имени группы.</span><span class="sxs-lookup"><span data-stu-id="19345-104">A member of an Office 365 group who has been granted **Send as** or **Send on behalf** permissions can send email as the group, or on behalf of the group.</span></span> <span data-ttu-id="19345-105">В этом разделе объясняется, как администратор может настроить эти разрешения.</span><span class="sxs-lookup"><span data-stu-id="19345-105">This topic explains how an admin can set these permissions.</span></span>
+<span data-ttu-id="f2c94-104">Член группы Office 365, которому предоставлены разрешения " **Отправить как** " или " **Отправить от имени** ", может отправлять сообщения электронной почты в виде группы или от имени группы.</span><span class="sxs-lookup"><span data-stu-id="f2c94-104">A member of an Office 365 group who has been granted **Send as** or **Send on behalf** permissions can send email as the group, or on behalf of the group.</span></span> <span data-ttu-id="f2c94-105">В этом разделе объясняется, как администратор может настроить эти разрешения.</span><span class="sxs-lookup"><span data-stu-id="f2c94-105">This topic explains how an admin can set these permissions.</span></span>
   
-<span data-ttu-id="19345-106">Например, если Меган Бовен входит в **учебную** группу Office 365 и имеет разрешения " **Отправить как** " для группы, то, если она отправляет сообщение электронной почты в качестве группы, она будет выглядеть так, как **учебная** группа отправила сообщение электронной почты.</span><span class="sxs-lookup"><span data-stu-id="19345-106">For example, if Megan Bowen is part of the **Training** Office 365 group, and has **Send as** permissions on the group, if she sends an email as the group, it will look like the **Training** group sent the email.</span></span> 
+<span data-ttu-id="f2c94-106">Например, если Меган Бовен входит в **учебную** группу Office 365 и имеет разрешения " **Отправить как** " для группы, то, если она отправляет сообщение электронной почты в качестве группы, она будет выглядеть так, как **учебная** группа отправила сообщение электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f2c94-106">For example, if Megan Bowen is part of the **Training** Office 365 group, and has **Send as** permissions on the group, if she sends an email as the group, it will look like the **Training** group sent the email.</span></span> 
   
-<span data-ttu-id="19345-107">Разрешение " **Отправить от имени** " позволяет пользователю отправлять электронную почту от имени группы Office 365.</span><span class="sxs-lookup"><span data-stu-id="19345-107">The **Send on Behalf** permission lets a user send email on behalf of an Office 365 group.</span></span> <span data-ttu-id="19345-108">Например, если Алекс Вилбер является частью **маркетинговой** группы Office 365 и имеет разрешения " **Отправить от имени** " и отправляет сообщение электронной почты в качестве группы, сообщение будет выглядеть так, как если бы оно было отправлено пользователем **Алекс Вилбер от имени маркетингового отдела**.</span><span class="sxs-lookup"><span data-stu-id="19345-108">For example, if Alex Wilber is a part of the **Marketing** Office 365 group, and has **Send on Behalf** permissions and sends an email as the group, the email looks like it was sent by **Alex Wilber on behalf of Marketing**.</span></span>
+<span data-ttu-id="f2c94-107">Разрешение " **Отправить от имени** " позволяет пользователю отправлять электронную почту от имени группы Office 365.</span><span class="sxs-lookup"><span data-stu-id="f2c94-107">The **Send on Behalf** permission lets a user send email on behalf of an Office 365 group.</span></span> <span data-ttu-id="f2c94-108">Например, если Алекс Вилбер является частью **маркетинговой** группы Office 365 и имеет разрешения " **Отправить от имени** " и отправляет сообщение электронной почты в качестве группы, сообщение будет выглядеть так, как если бы оно было отправлено пользователем **Алекс Вилбер от имени маркетингового отдела**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-108">For example, if Alex Wilber is a part of the **Marketing** Office 365 group, and has **Send on Behalf** permissions and sends an email as the group, the email looks like it was sent by **Alex Wilber on behalf of Marketing**.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="19345-109">Вы можете настроить " **Отправить как** " или " **Отправить от имени** " для определенного пользователя, но не для обоих.</span><span class="sxs-lookup"><span data-stu-id="19345-109">You can configure **Send as** or **Send on behalf** for a given user, but not both.</span></span> <span data-ttu-id="19345-110">Если вы настроили оба значения, то по умолчанию будет **отправляться как**.</span><span class="sxs-lookup"><span data-stu-id="19345-110">If you configure both, it will default to **Send as**.</span></span>
+> <span data-ttu-id="f2c94-109">Вы можете настроить " **Отправить как** " или " **Отправить от имени** " для определенного пользователя, но не для обоих.</span><span class="sxs-lookup"><span data-stu-id="f2c94-109">You can configure **Send as** or **Send on behalf** for a given user, but not both.</span></span> <span data-ttu-id="f2c94-110">Если вы настроили оба значения, то по умолчанию будет **отправляться как**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-110">If you configure both, it will default to **Send as**.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="19345-111">Чтобы узнать, как использовать Outlook и Outlook в Интернете для отправки электронной почты из группы, ознакомьтесь [с разадресом Отправка почты от имени или от имени группы Office 365](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) .</span><span class="sxs-lookup"><span data-stu-id="19345-111">See [Send email from or on behalf of an Office 365 group](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) to learn how to use Outlook and Outlook on the Web to send email from a group.</span></span>
+> <span data-ttu-id="f2c94-111">Чтобы узнать, как использовать Outlook и Outlook в Интернете для отправки электронной почты из группы, ознакомьтесь [с разадресом Отправка почты от имени или от имени группы Office 365](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) .</span><span class="sxs-lookup"><span data-stu-id="f2c94-111">See [Send email from or on behalf of an Office 365 group](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) to learn how to use Outlook and Outlook on the Web to send email from a group.</span></span>
     
-## <a name="allow-members-to-send-email-as-a-group"></a><span data-ttu-id="19345-112">Разрешение участникам отправлять электронную почту как группу</span><span class="sxs-lookup"><span data-stu-id="19345-112">Allow members to send email as a group</span></span>
+## <a name="allow-members-to-send-email-as-a-group"></a><span data-ttu-id="f2c94-112">Разрешение участникам отправлять электронную почту как группу</span><span class="sxs-lookup"><span data-stu-id="f2c94-112">Allow members to send email as a group</span></span>
 
-<span data-ttu-id="19345-113">В этом разделе объясняется, как разрешить пользователям отправлять электронную почту как группу в [центре администрирования Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) в Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="19345-113">This section explains how to allow users to send email as a group in the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) in Exchange Online.</span></span>
+<span data-ttu-id="f2c94-113">В этом разделе объясняется, как разрешить пользователям отправлять электронную почту как группу в [центре администрирования Exchange](https://go.microsoft.com/fwlink/p/?linkid=2059104) в Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="f2c94-113">This section explains how to allow users to send email as a group in the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104) (EAC) in Exchange Online.</span></span>
   
-1. <span data-ttu-id="19345-114">В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.</span><span class="sxs-lookup"><span data-stu-id="19345-114">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange admin center</a>, go to **Recipients** \> **Groups**.</span></span>
+1. <span data-ttu-id="f2c94-114">В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-114">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange admin center</a>, go to **Recipients** \> **Groups**.</span></span>
     
-2. <span data-ttu-id="19345-115">Выберите команду **изменить**![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять.  </span><span class="sxs-lookup"><span data-stu-id="19345-115">Select **Edit**  ![Edit group icon](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) on Group that you want to allow users to send as.</span></span> 
+2. <span data-ttu-id="f2c94-115">Выберите команду **изменить**![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять.  </span><span class="sxs-lookup"><span data-stu-id="f2c94-115">Select **Edit**  ![Edit group icon](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) on Group that you want to allow users to send as.</span></span> 
     
-3. <span data-ttu-id="19345-116">Выберите пункт **Делегирование группы**.</span><span class="sxs-lookup"><span data-stu-id="19345-116">Select **group delegation**.</span></span>
+3. <span data-ttu-id="f2c94-116">Выберите пункт **Делегирование группы**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-116">Select **group delegation**.</span></span>
     
-4. <span data-ttu-id="19345-117">В разделе **Отправить как** выберите **+** знак, чтобы добавить пользователей, которых нужно отправить в качестве группы.</span><span class="sxs-lookup"><span data-stu-id="19345-117">In the **Send As** section, select the **+** sign to add the users that you want to send as the Group.</span></span> 
+4. <span data-ttu-id="f2c94-117">В разделе **Отправить как** выберите **+** знак, чтобы добавить пользователей, которых нужно отправить в качестве группы.</span><span class="sxs-lookup"><span data-stu-id="f2c94-117">In the **Send As** section, select the **+** sign to add the users that you want to send as the Group.</span></span> 
     
     ![Нажмите значок "плюс", чтобы добавить пользователей, которых нужно отправить в качестве группы Office 365.](../../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
-5. <span data-ttu-id="19345-119">Введите имя, чтобы найти пользователя, или выберите его из списка.</span><span class="sxs-lookup"><span data-stu-id="19345-119">Type to search or pick a user from the list.</span></span> <span data-ttu-id="19345-120">Нажмите кнопку **ОК** и **Сохраните**.</span><span class="sxs-lookup"><span data-stu-id="19345-120">Select **OK** and **Save**.</span></span>
+5. <span data-ttu-id="f2c94-119">Введите имя, чтобы найти пользователя, или выберите его из списка.</span><span class="sxs-lookup"><span data-stu-id="f2c94-119">Type to search or pick a user from the list.</span></span> <span data-ttu-id="f2c94-120">Нажмите кнопку **ОК** и **Сохраните**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-120">Select **OK** and **Save**.</span></span>
     
     ![Введите текст для поиска или выберите пользователя из списка.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
   
-## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a><span data-ttu-id="19345-122">Разрешение участникам отправлять электронную почту от имени группы</span><span class="sxs-lookup"><span data-stu-id="19345-122">Allow members to send email on behalf of a group</span></span>
+## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a><span data-ttu-id="f2c94-122">Разрешение участникам отправлять электронную почту от имени группы</span><span class="sxs-lookup"><span data-stu-id="f2c94-122">Allow members to send email on behalf of a group</span></span>
 
-<span data-ttu-id="19345-123">В этом разделе объясняется, как разрешить пользователям отправлять электронную почту от имени группы в центре администрирования Exchange в Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="19345-123">This section explains how to allow users to send email on behalf of a group in the Exchange admin center (EAC) in Exchange Online.</span></span>
+<span data-ttu-id="f2c94-123">В этом разделе объясняется, как разрешить пользователям отправлять электронную почту от имени группы в центре администрирования Exchange в Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="f2c94-123">This section explains how to allow users to send email on behalf of a group in the Exchange admin center (EAC) in Exchange Online.</span></span>
   
-1. <span data-ttu-id="19345-124">В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.</span><span class="sxs-lookup"><span data-stu-id="19345-124">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange admin center</a>, go to **Recipients** \> **Groups**.</span></span>
+1. <span data-ttu-id="f2c94-124">В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-124">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange admin center</a>, go to **Recipients** \> **Groups**.</span></span>
     
-2. <span data-ttu-id="19345-125">Выберите команду **изменить** ![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять.</span><span class="sxs-lookup"><span data-stu-id="19345-125">Select **Edit** ![Edit group icon](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) on the Group that you want to allow users to send as.</span></span> 
+2. <span data-ttu-id="f2c94-125">Выберите команду **изменить** ![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять.</span><span class="sxs-lookup"><span data-stu-id="f2c94-125">Select **Edit** ![Edit group icon](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) on the Group that you want to allow users to send as.</span></span> 
     
-3. <span data-ttu-id="19345-126">Выберите пункт **Делегирование группы**.</span><span class="sxs-lookup"><span data-stu-id="19345-126">Select **group delegation**.</span></span>
+3. <span data-ttu-id="f2c94-126">Выберите пункт **Делегирование группы**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-126">Select **group delegation**.</span></span>
     
-4. <span data-ttu-id="19345-127">В разделе Отправить от имени выберите **+** знак, чтобы добавить пользователей, которых нужно отправить в качестве группы.</span><span class="sxs-lookup"><span data-stu-id="19345-127">In the Send on Behalf section, select the **+** sign to add the users that you want to send as the Group.</span></span> 
+4. <span data-ttu-id="f2c94-127">В разделе Отправить от имени выберите **+** знак, чтобы добавить пользователей, которых нужно отправить в качестве группы.</span><span class="sxs-lookup"><span data-stu-id="f2c94-127">In the Send on Behalf section, select the **+** sign to add the users that you want to send as the Group.</span></span> 
     
     ![Нажмите значок "плюс", чтобы добавить пользователей, которых нужно отправить в качестве группы Office 365.](../../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
-5. <span data-ttu-id="19345-129">Введите имя, чтобы найти пользователя, или выберите его из списка.</span><span class="sxs-lookup"><span data-stu-id="19345-129">Type to search or pick a user from the list.</span></span> <span data-ttu-id="19345-130">Нажмите кнопку **ОК** и **Сохраните**.</span><span class="sxs-lookup"><span data-stu-id="19345-130">Select **OK** and **Save**.</span></span>
+5. <span data-ttu-id="f2c94-129">Введите имя, чтобы найти пользователя, или выберите его из списка.</span><span class="sxs-lookup"><span data-stu-id="f2c94-129">Type to search or pick a user from the list.</span></span> <span data-ttu-id="f2c94-130">Нажмите кнопку **ОК** и **Сохраните**.</span><span class="sxs-lookup"><span data-stu-id="f2c94-130">Select **OK** and **Save**.</span></span>
     
     ![Введите текст для поиска или выберите пользователя из списка.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
-## <a name="related-articles"></a><span data-ttu-id="19345-132">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="19345-132">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="f2c94-132">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="f2c94-132">Related articles</span></span>
 
-[<span data-ttu-id="19345-133">Дополнительные сведения о группах Office 365</span><span class="sxs-lookup"><span data-stu-id="19345-133">Learn more about Office 365 Groups</span></span>](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx)
+[<span data-ttu-id="f2c94-133">Дополнительные сведения о группах Office 365</span><span class="sxs-lookup"><span data-stu-id="f2c94-133">Learn more about Office 365 Groups</span></span>](https://support.office.com/article/3f780e8e-61aa-4287-830d-ff6209cbc192.aspx)
 
-[<span data-ttu-id="19345-134">Add — RecipientPermission</span><span class="sxs-lookup"><span data-stu-id="19345-134">Add-RecipientPermission</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=723960)
+[<span data-ttu-id="f2c94-134">Add — RecipientPermission</span><span class="sxs-lookup"><span data-stu-id="f2c94-134">Add-RecipientPermission</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 
-[<span data-ttu-id="19345-135">Set — UnifiedGroup</span><span class="sxs-lookup"><span data-stu-id="19345-135">Set-UnifiedGroup</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=616189)
+[<span data-ttu-id="f2c94-135">Set — UnifiedGroup</span><span class="sxs-lookup"><span data-stu-id="f2c94-135">Set-UnifiedGroup</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=616189)
