@@ -64,6 +64,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Директива о платежных услугах 2 и строгая проверка подлинности клиентов
       href: billing-and-payments/psd2.md
+    - name: Сведения о налогах
+      href: billing-and-payments/tax-information.md
 - name: Учетные записи выставления счетов
   items:
     - name: Управление учетными записями выставления счетов
