@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: scotv
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: 'Удалить лицензию из общего почтового ящика, чтобы назначить ее другому пользователю. '
-ms.openlocfilehash: 90ec29681aa5b15dd04895df2b48b2b1619b521d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 02c98570a1742d710373c6711d2621a0a9ebe818
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362224"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210532"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>Удаление лицензии из общего почтового ящика
 
@@ -58,7 +58,7 @@ ms.locfileid: "42362224"
 
 ::: moniker range="o365-germany"
 
- 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+ 1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
    > [!NOTE]
    > Эту лицензию необходимо удалить на странице "активные пользователи". Вы не можете удалить лицензию со страницы общего почтового ящика, так как лицензии являются параметрами пользователя.
@@ -77,7 +77,7 @@ ms.locfileid: "42362224"
 
 ::: moniker range="o365-21vianet"
 
- 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+ 1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
    > [!NOTE]
    > Эту лицензию необходимо удалить на странице "активные пользователи". Вы не можете удалить лицензию со страницы общего почтового ящика, так как лицензии являются параметрами пользователя.

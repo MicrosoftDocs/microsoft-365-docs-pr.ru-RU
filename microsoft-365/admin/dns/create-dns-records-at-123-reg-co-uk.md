@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу 123-reg.co.uk для Office 365.
-ms.openlocfilehash: 327f55dcedfda6eef31d56af1833a5c5438af2a6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 521426f039ac02e8c4566f5901fee49679de4e70
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351380"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211863"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-office-365"></a>Создание записей DNS для Office 365 на сайте 123-reg.co.uk
 
@@ -102,7 +102,7 @@ ms.locfileid: "42351380"
     
     |**Hostname (Имя узла)**|**Type (Тип)**|**Priority (Приоритет)**|**Destination MX (Запись MX назначения)**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание.**  Получите свой \<ключ-домена\> из учетной записи портала Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание.**  Получите свой \<ключ-домена\> из учетной записи Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Копирование и вставка значений из таблицы](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   

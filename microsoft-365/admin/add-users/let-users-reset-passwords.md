@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как можно сбросить пароли с помощью средства самостоятельного сброса пароля.
-ms.openlocfilehash: 87accc393d08b922ebc3f75ef1aa5ddb2d0b2955
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 666d3843f7917cf9bd5718c0ce29f87f93d6effe
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245699"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211899"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
@@ -46,7 +46,7 @@ ms.locfileid: "42245699"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="let-people-reset-their-own-passwords"></a>Разрешить пользователям сбрасывать собственные пароли 
 

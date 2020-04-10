@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу DNSMadeEasy для Office 365.
-ms.openlocfilehash: 82244d216652b1957aefc3b81acd881ea4b32393
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 29bdf78e3f9993267c5f0be3b107981bb9dd3fe3
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350320"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211803"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-office-365"></a>Создание записей DNS для Office 365 на сайте DNSMadeEasy
 
@@ -109,7 +109,7 @@ ms.locfileid: "42350320"
     
     |**Name**|**Server**|**MX Level (Уровень MX)**|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи портала Office 365. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |1800  <br/> |
+    |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи Office 365. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |1800  <br/> |
    
     ![DNSMadeEasy — BP — configure – 2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Office 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: efbd49daa28b5d15989e1531929cb2d9355aeb8f
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 621b50384b39a21bc0bf5256841c703b3ee0f74a
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857431"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210372"
 ---
 # <a name="remove-a-domain-from-office-365"></a>Удаление домена из Office 365
 
@@ -225,11 +225,11 @@ ms.locfileid: "42857431"
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Получение справки по доменам Office 365](get-help-with-domains.yml)
+[Получение справки по доменам Office 365](get-help-with-domains.md)
 
 [Переход на другой план Office 365 для бизнеса](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

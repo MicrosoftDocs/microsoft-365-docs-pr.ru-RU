@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Общие почтовые ящики используются, когда нескольким людям необходим доступ к одному и тому же почтовому ящику. Сведения о том, что необходимо знать перед созданием общего почтового ящика.
-ms.openlocfilehash: 3bb78cc272a1920d9eab92aff50a14e345dce2e1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8e9e4b1ae0235886a9dbb5b39ad4c0f78c27b53f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362384"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210544"
 ---
 # <a name="about-shared-mailboxes"></a>Сведения об общих почтовых ящиках
 
@@ -57,7 +57,7 @@ ms.locfileid: "42362384"
 
 - **Удаление сообщения:** К сожалению, вы не можете запретить пользователям удалять сообщения в общем почтовом ящике. Единственным выходом из этой ситуации может стать создание группы Office 365, а не общего почтового ящика. Группа в Outlook аналогична общему почтовому ящику. Сравнение этих двух способов приведено в разделе [Сравнение групп](../create-groups/compare-groups.md). Дополнительные сведения о группах приведены в статье дополнительные сведения [о группах](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Создание общего почтового ящика](create-a-shared-mailbox.md)
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Namecheap для Office 365.
-ms.openlocfilehash: 26b8b6586c71636d97c423106e4799105a076a54
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 29b1130b75af592594e2a963dbb6fa8d3f08ab30
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42348400"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211683"
 ---
 # <a name="create-dns-records-at-namecheap-for-office-365"></a>Создание записей DNS для Office 365 на сайте Namecheap
 

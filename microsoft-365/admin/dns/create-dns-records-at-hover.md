@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 46ab4b10-6857-44b1-b08d-d1b5f45a69c6
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб при наведении указателя на Office 365.
-ms.openlocfilehash: 72df2d98f3446087a1e9796cd616293a91003ad9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7884038dcd1ebc7b13bbed44d98f0d5172015cc1
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350110"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211707"
 ---
 # <a name="create-dns-records-at-hover-for-office-365"></a>Создание записей DNS для Office 365 на сайте Hover
 

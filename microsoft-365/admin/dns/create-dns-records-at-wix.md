@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в WiX для Office 365.
-ms.openlocfilehash: 43d2f2417153dd0c848c33736733237b1681c02c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8487c49e989bf2db345ae9e6d0e2970c5eb40cb6
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246896"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211066"
 ---
 # <a name="create-dns-records-at-wix-for-office-365"></a>Создание записей DNS для Office 365 на сайте Wix
 
@@ -53,12 +53,12 @@ ms.locfileid: "42246896"
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 <a name="BKMK_txt"> </a>
 
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). You'll be prompted to log in first.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). Сначала вам потребуется выполнить вход.
     
 2. На странице **My Domains (мои домены** ) в области **Дополнительно** нажмите кнопку **изменить DNS** . 
     
@@ -68,36 +68,36 @@ ms.locfileid: "42246896"
     
 ||||
 |:-----|:-----|:-----|
-|**Host Name** <br/> |**TXT Value (Значение TXT)** <br/> |**TTL (Срок жизни)** <br/> |
-|Заполняется автоматически  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание:** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365.  [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)|1 час <br/> |          |
+|**Host Name** <br/> |**TXT Value** (Значение TXT) <br/> |**TTL** (Срок жизни) <br/> |
+|Заполняется автоматически  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)|1 час <br/> |          |
    
 5. Нажмите кнопку **Save DNS (сохранить DNS** ) в верхней части редактора DNS. 
     
 6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
   
   
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
    
   
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+4. На странице **Проверка домена** выберите **Проверить**.
     
     
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
 <a name="BKMK_mx"> </a>
 
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). You'll be prompted to log in first.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). Сначала вам потребуется выполнить вход.
     
 2. На странице **My Domains (мои домены** ) в области **почтовые ящики** выберите ссылку **Настройка записей MX** . 
     
@@ -107,9 +107,9 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 5. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-|**Host Name**|**Points to (Указывает на)**|**Priority (Приоритет)**|**TTL** (Срок жизни)|
+|**Host Name**|**Points to (Указывает на)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
 |:-----|:-----|:-----|:-----|
-|Заполняется автоматически <br/> | *\<ключ-домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Office 365.   [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md) |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/What-is-MX-priority-2784cc4d-95be-443d-b5f7-bb5dd867ba83).    | 1 Hour|
+|Заполняется автоматически <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Office 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/What-is-MX-priority-2784cc4d-95be-443d-b5f7-bb5dd867ba83). | 1 Hour|
    
 6. Если в списке есть другие записи MX, удалите их. 
     
@@ -128,7 +128,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 4. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-|**Host Name**|**Points to (Указывает на)**|**TTL (Срок жизни)**|
+|**Host Name**|**Points to** (Указывает на)|**TTL (Срок жизни)**|
 |:-----|:-----|:-----|
 |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 Hour  <br/> |
 |sip  <br/> |sipdir.online.lync.com  <br/> |1 Hour <br/> |
@@ -138,15 +138,15 @@ When Office 365 finds the correct TXT record, your domain is verified.
    
 5. Нажмите кнопку **Save DNS (сохранить DNS** ) в верхней части редактора DNS. 
     
-6. Wait a few minutes before you continue, so that the record you just created can update across the Internet.
+6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_spf"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 к текущей записи, чтобы иметь *одну* запись SPF, включающую оба набора значений.  
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 в текущую запись. Таким образом, в *одной* записи SPF будут указаны оба набора значений.  
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). You'll be prompted to log in first.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). Сначала вам потребуется выполнить вход.
     
 2. На странице **My Domains (мои домены** ) в области **Дополнительно** нажмите кнопку **изменить DNS** . 
     
@@ -154,18 +154,18 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 4. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-|**Host Name**|**TXT Value (Значение TXT)**|**TTL (Срок жизни)**|
+|**Host Name**|**TXT Value** (Значение TXT)|**TTL** (Срок жизни)|
 |:-----|:-----|:-----|
 |[оставьте это поле пустым]  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.    <br/> |TXT  <br/> | 1 Hour |
    
 5. Нажмите кнопку **Save DNS (сохранить DNS** ) в верхней части редактора DNS. 
     
-6. Wait a few minutes before you continue, so that the record you just created can update across the Internet.
+6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
 <a name="BKMK_srv"> </a>
 
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). You'll be prompted to log in first.
+1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Wix по [этой ссылке](https://premium.wix.com/wix/api/mpContainerStaticController#/domains?referralAdditionalInfo=account). Сначала вам потребуется выполнить вход.
     
 2. На странице **My Domains (мои домены** ) в области **Дополнительно** нажмите кнопку **изменить DNS** . 
     
@@ -173,14 +173,14 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 4. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-|**Служба**|**Protocol (Протокол)**|**Name (Имя)**|**Weight (Вес)**|**Port (Порт)**|**Target (Назначение)**|**Priority (Приоритет)**|**TTL (Срок жизни)**|
+|**Служба**|**Protocol (Протокол)**|**Name (Имя)**|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |sip  |tls  |Заполняется автоматически |1,1  |443   |sipdir.online.lync.com |100 |1 Hour |
 |sipfed|tcp |Заполняется автоматически|1,1 |5061 |sipfed.online.lync.com|100 | 1 Hour |
    
 5. Нажмите кнопку **Save DNS (сохранить DNS** ) в верхней части редактора DNS. 
     
-6. Wait a few minutes before you continue, so that the record you just created can update across the Internet.
+6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 

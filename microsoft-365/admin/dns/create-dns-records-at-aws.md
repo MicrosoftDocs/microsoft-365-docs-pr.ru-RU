@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в веб-службах Amazon (AWS) для Office 365.
-ms.openlocfilehash: baba7bb7275303604d241166f4dc1d2af77b3f17
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: f71e6fa5ce69d789cc7695d30e6447ae281a0e3f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351480"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211851"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-office-365"></a>Создание записей DNS в Amazon Web Services (AWS) для Office 365
 
@@ -68,7 +68,7 @@ ms.locfileid: "42351480"
     |**Имя** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
     |(Leave this field empty.)  <br/> |TXT - Text  <br/> |Нет  <br/> |300  <br/> |MS=ms *XXXXXXXX*  <br/>**Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |Simple (Простая)  <br/> |
    
-6. Нажмите кнопку **Создать**.
+6. Нажмите **Создать**.
     
 7. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
@@ -105,11 +105,11 @@ ms.locfileid: "42351480"
     
     |**Имя**|**Тип**|**Alias (Псевдоним)**|**TTL (Seconds) (Срок жизни, в секундах)**|**Value (Значение)**|**Routing Policy (Политика маршрутизации)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> |MX  почтовый обменник  <br/> |Нет  <br/> |300  <br/> |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> 0  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи портала Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |Simple (Простая)  <br/> |
+    |(Оставьте это поле пустым.)  <br/> |MX  почтовый обменник  <br/> |Нет  <br/> |300  <br/> |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> 0  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи Office 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |Simple (Простая)  <br/> |
        
     ![AWS — BP — configure – 2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
-6. Нажмите кнопку **Создать**.
+6. Нажмите **Создать**.
     
     ![AWS-BP-Configure-2-2](../../media/1c050c72-c04f-48d5-a8e9-44cd83ddd33e.png)
   
@@ -157,7 +157,7 @@ ms.locfileid: "42351480"
    
     ![AWS — BP — configure – 3-1](../../media/895c71bd-0e3a-425e-9681-98c1c67e714b.png)
   
-6. Нажмите кнопку **Создать**.
+6. Нажмите **Создать**.
     
     ![AWS-BP-Configure-3-2](../../media/33964846-5282-44a4-b241-62ce02b96735.png)
   
@@ -219,7 +219,7 @@ ms.locfileid: "42351480"
    
     ![AWS — BP — configure – 5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   
-6. Нажмите кнопку **Создать**.
+6. Нажмите **Создать**.
     
     ![AWS-BP-Configure-5-2](../../media/1bf5dc58-a46b-47a5-bd69-7c2147dd4e50.png)
   

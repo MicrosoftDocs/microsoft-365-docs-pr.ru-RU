@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о политиках истечения срока действия групп Office 365.
-ms.openlocfilehash: 40b0b56507c46f2a658126627d5f8794848bde27
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 92e472ac56128cc847471b51930aa73dc6598711
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894519"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212061"
 ---
 # <a name="office-365-group-expiration-policy"></a>Политика истечения срока действия групп Office 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "42894519"
 Группы, которые активно используются, автоматически обновляются. Любое из следующих действий автоматически возобновит группу:
 - SharePoint — просмотр, редактирование, скачивание, перемещение, совместное использование и отправка файлов.
 - Outlook — присоединение к группе, чтение или запись сообщения группы из группы и как сообщение (Outlook в Интернете).
-- Teams — посещение канала Teams.
+- Teams — посещение Teams чанне '.
 
 > [!IMPORTANT]
 > При изменении политики срока действия служба пересчитывает дату окончания срока действия для каждой группы. Он всегда начинает отсчет с даты создания группы, а затем применяет новую политику срока действия.
@@ -53,7 +53,7 @@ ms.locfileid: "42894519"
 |Role|Возможности|
 |---------|---------|
 |Глобальный администратор Office 365 (в Azure, администратор компании), администратор пользователей|Создание, чтение, обновление и удаление параметров политики срока действия для групп Office 365.|
-|Пользователь|Продление или [Восстановление](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) группы Office 365, которой они владеют|
+|User|Продление или [Восстановление](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) группы Office 365, которой они владеют|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Настройка политики истечения срока действия
 
@@ -85,4 +85,4 @@ ms.locfileid: "42894519"
 
 [Назначение владельца для бесхозной группы](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Настройка истечения срока действия групп Office 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+[Настройка истечения срока действия групп Office 365](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

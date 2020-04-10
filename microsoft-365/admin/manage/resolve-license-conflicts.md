@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Узнайте, как устранять конфликты лицензий с подпиской на Office 365 для бизнеса.
-ms.openlocfilehash: 63464951c4f1fd568248ca5c43da9f8c94347711
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9dbd483b01566039cb227cd3d2f086c3f6e34be5
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361784"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212297"
 ---
 # <a name="resolve-license-conflicts-in-office-365-for-business"></a>Устранение конфликтов лицензий в Office 365 для бизнеса
 
@@ -48,7 +48,7 @@ ms.locfileid: "42361784"
 
 Конфликты лицензий можно устранить, [приобретая дополнительные лицензии](../../commerce/licenses/buy-licenses.md) или [удалив лицензии от пользователей, которым они больше не нужны](remove-licenses-from-users.md). Вы также можете [удалить учетную запись пользователя, чтобы высвободить лицензию](../add-users/delete-a-user.md).
   
-## <a name="related-articles"></a>Связанные статьи 
+## <a name="related-articles"></a>Статьи по теме 
 
 [Назначение лицензий пользователям](assign-licenses-to-users.md)
   

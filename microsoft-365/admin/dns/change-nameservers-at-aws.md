@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
 description: 'Узнайте, как настроить Office 365 для управления записями DNS в веб-службах Amazon (AWS). '
-ms.openlocfilehash: 9500522478c22277c57772ef64b4d0a4b87e8c44
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: a7125cf0add8200fe152c426f47e7f27a8f6226c
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352490"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212357"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-amazon-web-services-aws"></a>Изменение серверов доменных имен для настройки Office 365 с помощью веб-служб Amazon
 
@@ -61,7 +61,7 @@ ms.locfileid: "42352490"
 |**Имя** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
 |(Оставьте это поле пустым)  <br/> |TXT - Text  <br/> |Нет  <br/> |300  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simple (Простая) <br/> |
    
-6. Нажмите кнопку **Создать**.
+6. Нажмите **Создать**.
     
 7. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     

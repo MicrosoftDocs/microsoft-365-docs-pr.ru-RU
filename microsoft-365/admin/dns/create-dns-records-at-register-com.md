@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Register.com для Office 365.
-ms.openlocfilehash: 0210c03a48112d9cc517ae15f879db3b40eb8c94
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d89e1843a7c914843c7e9d5c41582878e138473a
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354140"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211102"
 ---
 # <a name="create-dns-records-at-registercom-for-office-365"></a>Создание записей DNS для Office 365 на сайте Register.com
 
@@ -123,7 +123,7 @@ ms.locfileid: "42354140"
     
     |****Host Name** (Имя узла)**|****Priority** (Приоритет)**|****Mail Server** (Почтовый сервер)**|
     |:-----|:-----|:-----|
-    |@  <br/> |Высокая  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи портала Office 365. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |Высокая  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи Office 365. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Скопируйте и вставьте значение из таблицы](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   

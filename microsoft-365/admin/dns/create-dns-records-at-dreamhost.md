@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Dreamhost для Office 365.
-ms.openlocfilehash: 201452bc68f82138c08e2054452747a900ed0e6b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1997af6e14dcb6a118dfcc3558037ed56d07ea87
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349490"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211791"
 ---
 # <a name="create-dns-records-at-dreamhost-for-office-365"></a>Создание записей DNS для Office 365 на сайте Dreamhost
 

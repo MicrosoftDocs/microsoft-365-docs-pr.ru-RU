@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения об использовании параметров безопасности по умолчанию с целью настройки многофакторной проверки подлинности для пользователей Office 365.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 331552a4de21198fe7fbc9980e89bfcd87449ffa
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153560"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204026"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -68,11 +68,11 @@ ms.locfileid: "43153560"
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>Переход с базовых политик на параметры безопасности по умолчанию
 
-1. В [Центре администрирования](https://go.microsoft.com/fwlink/p/?linkid=834822) выберите пункт **Установка**.
+1. В [центре администрирования](https://go.microsoft.com/fwlink/p/?linkid=834822)выберите **Показать все**, а затем **Azure Active Directory** в **центрах администрирования**.
 
-2. Рядом с надписью **Вход и безопасность** в разделе **Повышение безопасности входа** нажмите кнопку **Просмотреть**.
+2. В **центре администрирования Azure Active Directory** выберите элемент**Безопасность** **Azure Active Directory** > .
 
-3. В разделе **Повышение безопасности входа** нажмите **Управление**. 
+3. В разделе **безопасность | Страница "Приступая к работе** " выберите пункт **Условный доступ**. 
 
 4. На странице **Условный доступ — Политики** портала Azure выберите все базовые политики со значением **Вкл** и присвойте им значение **Выкл**.
 5. Откройте страницу [свойств Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties).

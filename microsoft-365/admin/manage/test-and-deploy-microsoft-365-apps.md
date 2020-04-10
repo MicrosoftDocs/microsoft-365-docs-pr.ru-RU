@@ -6,23 +6,23 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Поиск, тестирование и развертывание приложений-партнеров Майкрософт и партнеров Майкрософт для пользователей и групп в Организации с помощью встроенного портала приложений в центре администрирования Microsoft 365.
-ms.openlocfilehash: 4cd8c71b521c80f8a3043cf13427132b3ec3e750
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 5189eef7524242a87f1797f8856bbd33b9a32a31
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363073"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212273"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-in-the-microsoft-365-admin-center"></a>Тестирование и развертывание приложений Microsoft 365 в центре администрирования Microsoft 365
 
-Центр администрирования Microsoft 365 предоставляет гибкие возможности для развертывания приложений Майкрософт и партнеров Майкрософт в одной папке. Возможность находить, тестировать и полностью развертывать приобретенные и лицензированные приложения у партнеров Майкрософт и партнеров корпорации Майкрософт с помощью встроенного портала приложений обеспечивает удобство и преимущества, необходимые для организации обновления бизнес-служб и их регулярного выполнения. повышения.  
+Центр администрирования Microsoft 365 предоставляет гибкие возможности для развертывания приложений Майкрософт и партнеров Майкрософт в одной папке. Возможность находить, тестировать и полностью развертывать приобретенные и лицензированные приложения у партнеров Майкрософт и партнеров корпорации Майкрософт с помощью встроенного портала приложений обеспечивает удобство и преимущества, необходимые для обеспечения регулярной и эффективной работы бизнес-служб.  
 
 Для получения дополнительных сведений о приобретении и лицензировании приложений Microsoft 365 для вашей организации, ознакомьтесь с записью блога под названием [Manage and Deploy microsoft 365 Apps in the microsoft 365 Admin Center](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324).
   

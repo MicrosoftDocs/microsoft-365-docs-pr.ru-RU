@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
 description: Узнайте, как проверить свой домен и создать записи DNS для Office 365 у любого поставщика услуг размещения DNS.
 ms.custom: okr_smb
-ms.openlocfilehash: 2d3c726f70ffb4588f7ae2fc8b53bf8f0c60e258
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 28df13d0ebe78d055df556d71c7a753d3434b030
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255159"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210484"
 ---
 # <a name="create-dns-records-at-any-dns-hosting-provider-for-office-365"></a>Создание записей DNS для Office 365 у любого поставщика услуг размещения DNS 
 
@@ -89,11 +89,11 @@ ms.locfileid: "42255159"
   
 Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В Центре администрирования перейдите на страницу **Параметры** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Домены</a>.
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
-2. На странице **Домены** выберите домен, который нужно проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
   
-3. На странице **Настройка** выберите **Начать настройку**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
        
 4. На странице **Проверка домена** выберите **Проверить**.   
   

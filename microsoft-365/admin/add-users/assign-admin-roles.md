@@ -6,7 +6,7 @@ ms.author: kwekua
 author: kwekua
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Сведения о том, как назначать роли администратора пользователю или нескольким пользователям в вашей организации, чтобы они могли выполнять определенные задачи в центре администрирования.
-ms.openlocfilehash: 9c10ef7d6dade3d826c9c291e58b3e8e2a58f2a6
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 3f22ef22571dd04dd3364a95ed860f53b8ff207b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151387"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211923"
 ---
 # <a name="assign-admin-roles"></a>Назначение ролей администратора
 
@@ -84,7 +84,7 @@ ms.locfileid: "43151387"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. На странице **Активные пользователи** выберите пользователя, роль администратора которого требуется изменить. В раскрывающейся области рядом с пунктом **роли**выберите команду **изменить**. 
 
@@ -96,7 +96,7 @@ ms.locfileid: "43151387"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. На странице **Активные пользователи** выберите пользователя, роль администратора которого требуется изменить. В раскрывающейся области рядом с пунктом **роли**выберите команду **изменить**. 
 

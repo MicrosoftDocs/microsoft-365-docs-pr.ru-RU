@@ -16,12 +16,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: В этой статье приведены сведения об устранении неполадок при отправке почты в почтовые ящики в Office 365 и рекомендации по массовой рассылке почты клиентам Office 365.
-ms.openlocfilehash: 72dd0360038e58c2501728d9032fef95f81d90c2
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 7c5d355f1037df94d856ffff7080d4a12d22f709
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604066"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211911"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Устранение неполадок с отправкой почты в Office 365
 
@@ -136,7 +136,7 @@ ms.locfileid: "42604066"
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
- `Update Profile/Email Address | Instant removal with SafeUnsubscribe™ | Privacy Policy`
+ `Update Profile/Email Address | Instant removal with SafeUnsubscribe&trade; | Privacy Policy`
 
 Иногда чтобы отписаться, от получателей требуется отправить письмо с темой "Отменить подписку" на определенный псевдоним. Этот вариант менее предпочтителен, чем описанный выше. Если вы все-таки выберете вариант с отправкой сообщения, сделайте так, чтобы после нажатия ссылки все обязательные поля заполнялись автоматически.
 

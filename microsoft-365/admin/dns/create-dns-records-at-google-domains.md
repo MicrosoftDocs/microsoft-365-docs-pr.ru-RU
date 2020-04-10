@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Lync и других служб в Google домены для Office 365.
-ms.openlocfilehash: 5b72753dfdf44fa15cd0dffaa4baf61e843cf532
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: f0a9a42127fc5b722679013b899255f77840d670
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349700"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211731"
 ---
 # <a name="create-dns-records-at-google-domains-for-office-365"></a>Создание записей DNS для Office 365 на сайте Google Domains
 
@@ -107,7 +107,7 @@ ms.locfileid: "42349700"
     
     ![Выберите команду Удалить в разделе искусственные записи](../../media/bd276b5d-5667-4bb1-a233-2dc5194e7ace.png)
   
-6. Нажмите кнопку **Удалить**.
+6. Выберите **Удалить**.
     
     ![Нажмите кнопку Удалить](../../media/4413a45a-5b82-4ec6-82c6-0091f5be9696.png)
   
@@ -119,7 +119,7 @@ ms.locfileid: "42349700"
     
     |**Имя**|**Тип**|**TTL (Срок жизни)**|**Data**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1H  <br/> |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **0**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи портала Office 365.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |
+    |@  <br/> |MX  <br/> |1H  <br/> |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **0**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание.**  Получите свой \<*ключ-домена*\> из учетной записи Office 365.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |
    
     ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/b660ca9e-984d-449f-ae59-a65fe4e2c6bd.png)
   

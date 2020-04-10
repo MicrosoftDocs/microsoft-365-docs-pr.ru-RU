@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу cloudflare для Office 365.
-ms.openlocfilehash: efd7a4a41a0cc27c2a50da732d648c87c79c6ff7
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8d64824f880bab9e6691ebf47c9508c555562fe4
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248144"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211815"
 ---
 # <a name="create-dns-records-at-cloudflare-for-office-365"></a>Создание записей DNS для Office 365 на сайте Cloudflare
 
@@ -72,7 +72,7 @@ ms.locfileid: "42248144"
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 <a name="BKMK_verify"> </a>
 
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете данным доменом.
+Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
@@ -96,29 +96,29 @@ ms.locfileid: "42248144"
   
 9. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
   
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> ".
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
 
     
-2. На странице **Domains (домены** ) выберите домен, который вы хотите проверить. 
+2. На странице **Domains** (Домены) выберите домен, который нужно проверить. 
     
     
   
-3. На странице **Настройка** выберите пункт **Запуск программы установки**.
+3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
     
   
-4. На странице **Проверка домена** нажмите кнопку **проверить**.
+4. На странице **Проверка домена** выберите **Проверить**.
     
     
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
 <a name="BKMK_add_MX"> </a>
 
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Cloudflare по [этой ссылке](https://www.cloudflare.com/a/login). Сначала вам потребуется выполнить вход.
@@ -130,7 +130,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
   
 4. На странице " **Управление DNS** " нажмите кнопку **Добавить запись**, а затем выберите значения из таблицы ниже. 
     
-    |**Тип**|**Имя**|**Mail Server (Почтовый сервер)**|**Priority (Приоритет)**|**TTL** (Срок жизни)|
+    |**Тип**|**Имя**|**Mail Server (Почтовый сервер)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|
     |MX  <br/> |@  <br/> |*\<ключ-домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Office 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/>|30 мин.  <br/> |
    
@@ -159,7 +159,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
     На странице " **Управление DNS** " нажмите кнопку **Добавить запись**, а затем выберите значения из таблицы ниже.
     
     
-    |**Тип**|**Имя**|**Target (Назначение)**|**TTL (Срок жизни)**|
+    |**Тип**|**Name** (Имя)|**Target** (Целевое значение)|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|
     |CNAME  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |30 minutes  <br/> |
     |CNAME  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |30 minutes  <br/> |
@@ -176,11 +176,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
 7. Добавьте остальные пять записей CNAME.
 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, чтобы предотвратить получение нежелательной почты
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 к текущей записи, чтобы иметь *одну* запись SPF, включающую оба набора значений. 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. If you already have an SPF record for your domain, don't create a new one for Office 365. Вместо этого добавьте необходимые значения Office 365 в текущую запись. Таким образом, в *одной* записи SPF будут указаны оба набора значений. 
   
 1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Cloudflare по [этой ссылке](https://www.cloudflare.com/a/login). Сначала вам потребуется выполнить вход.
     
@@ -192,16 +192,16 @@ When Office 365 finds the correct TXT record, your domain is verified.
   
 4. На странице " **Управление DNS** " нажмите кнопку **Добавить запись**, а затем выберите значения из таблицы ниже.  
     
-    |**Тип**|**Name (Имя)**|**TTL (Срок жизни)**|**Content (Содержимое)**|
+    |**Тип**|**Имя**|**TTL** (Срок жизни)|**Content (Содержимое)**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |30 minutes  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.       |
+    |TXT  <br/> |@  <br/> |30 мин.  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.       |
 
  
 5. Нажмите кнопку **Сохранить**.
     
 
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
 <a name="BKMK_add_SRV"> </a>
 
 > [!IMPORTANT]
@@ -217,7 +217,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
     На странице " **Управление DNS** " нажмите кнопку **Добавить запись**, а затем выберите значения из первой строки приведенной ниже таблицы.
         
-    |**Тип**|**Service (Служба)**|**Protocol (Протокол)**|**Name (Имя)**|**TTL (Срок жизни)**|**Priority (Приоритет)**|**Weight (Вес)**|**Port (Порт)**|**Target (Назначение)**|
+    |**Тип**|**Service (Служба)**|**Protocol (Протокол)**|**Name** (Имя)|**TTL** (Срок жизни)|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV|_sip |TLS |Использование *domain_name*; Например, contoso.com  |30 мин. | 100|1,1 |443 |sipfed.online.lync.com  |
     |SRV|_sipfederationtls | TCP|Использование *domain_name*; Например, contoso.com   |30 мин. |100 |1,1 |5061 | sipfed.online.lync.com |

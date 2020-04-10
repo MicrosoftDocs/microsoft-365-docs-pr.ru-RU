@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Netregistry для Office 365.
-ms.openlocfilehash: 91f802afccd337a97b23ca514c9d9921595abcd1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e1f2414817357b8435bc002860a35c6e76d4314e
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42348820"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211138"
 ---
 # <a name="create-dns-records-at-netregistry-for-office-365"></a>Создание записей DNS для Office 365 в Netregistry
 

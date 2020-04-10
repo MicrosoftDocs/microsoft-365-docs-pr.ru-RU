@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу eNomCentral для Office 365.
-ms.openlocfilehash: dec76e0dde2775851ff464e3b8765f82dfb57625
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: fb10c5bc10e9e4bb231e90148dd5d5c742ff169d
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350470"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211767"
 ---
 # <a name="create-dns-records-at-enomcentral-for-office-365"></a>Создание DNS-записей для Office 365 на сайте eNomCentral
 

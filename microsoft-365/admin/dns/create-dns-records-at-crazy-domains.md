@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в доменах Crazy для Office 365.
-ms.openlocfilehash: 157c33a52403efbefe673bf11465de525ffb4f33
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 74c9a940f8d6f52c31712357557ea8cfda76e6bb
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351160"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211827"
 ---
 # <a name="create-dns-records-at-crazy-domains-for-office-365"></a>Создание записей DNS для Office 365 на сайте Crazy Domains
 
@@ -161,7 +161,7 @@ ms.locfileid: "42351160"
     
     ![Кразидомаинс — BP — configure – 2-5](../../media/9acdda39-33ec-4b24-ad83-91c26f9c599b.png)
   
-11. Нажмите кнопку **Удалить**.
+11. Выберите **Удалить**.
     
     ![Кразидомаинс — BP — configure – 2-6](../../media/50b0e263-6f21-41b3-8fa0-7dd55dbe6c2e.png)
   

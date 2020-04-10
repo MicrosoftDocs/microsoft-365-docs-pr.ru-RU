@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -26,12 +26,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Узнайте, как импортировать контакты, календари, электронные письма из Gmail или другого поставщика электронной почты в Office 365. '
-ms.openlocfilehash: 2b2f4441772a9d373316ff14f06bcdeb61e5840d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6decee3fd45d11ed1e71e71e0cf7191ccec6aa3d
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360710"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212189"
 ---
 # <a name="migrate-email-and-contacts-to-office-365"></a>Перенос электронной почты и контактов в Office 365
 
@@ -53,9 +53,9 @@ ms.locfileid: "42360710"
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Импорт из Outlook (на рабочем столе)
+### <a name="import-from-outlook-desktop"></a>Импорт из Outlook (Рабочий стол) ' '
 
-Выполните следующие действия, чтобы экспортировать электронную почту, контакты и календари из Outlook в PST-файл, а затем импортировать этот файл в Outlook с помощью Office 365:
+Фол'ов эти действия для экспорта электронной почты, контактов и календарей из Outlook в PST-файл, а затем импортируйте этот файл в Outlook с помощью Office 365:
   
 1. [Экспорт электронной почты, контактов и календаря](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     

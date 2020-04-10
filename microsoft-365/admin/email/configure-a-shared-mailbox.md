@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: После создания общего почтового ящика необходимо настроить некоторые параметры для пользователей, например переадресацию электронной почты и автоматические ответы. Позже может потребоваться изменить другие параметры, такие как имя или элементы почтового ящика.
-ms.openlocfilehash: edea829a8578387459afe3ce4889dfa620f95956
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255303"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212025"
 ---
 # <a name="configure-a-shared-mailbox"></a>Настройка общего почтового ящика
 
@@ -35,19 +35,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -63,19 +63,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -89,19 +89,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -126,19 +126,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -155,19 +155,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -184,19 +184,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -212,19 +212,19 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
@@ -244,23 +244,23 @@ ms.locfileid: "42255303"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a> **групп** \> .
+1. В Центре администрирования откройте страницу **Группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">Общие почтовые ящики</a>.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Общие почтовые ящики** **групп** > . 
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">Центре администрирования</a> откройте страницу **Группы** > **Общие почтовые ящики**. 
 
 ::: moniker-end
 
-2. Выберите общий почтовый ящик, который требуется изменить, а затем выберите пункт **Показать в поле глобальный список** \> **** адресов.
+2. Выберите общий почтовый ящик, который требуется изменить, а затем выберите пункт **Показать в поле глобальный список** \> **Edit**адресов.
 
 3. Установите переключатель **вкл** **.** 
 
@@ -269,7 +269,7 @@ ms.locfileid: "42255303"
 > [!NOTE]
 > Скрытие общего почтового ящика из списка адресов сделает невозможным Добавление скрытого почтового ящика в свой профиль Outlook для новых участников почтового ящика, пока общий почтовый ящик не будет снова отображаться в списке адресов. 
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Сведения об общих почтовых ящиках](about-shared-mailboxes.md)
 

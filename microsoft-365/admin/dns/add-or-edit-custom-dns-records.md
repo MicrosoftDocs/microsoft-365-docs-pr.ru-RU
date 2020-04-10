@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: af00a516-dd39-4eda-af3e-1eaf686c8dc9
 description: 'Узнайте, как изменить или добавить настраиваемую запись DNS в Office 365. '
-ms.openlocfilehash: 4cdfe98a38dd870dcf5d745438e8d81afa1fc934
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: c2495e4b7e85361d89404526e2467a08f2259567
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857111"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212525"
 ---
 # <a name="add-or-edit-custom-dns-records-in-office-365"></a>Добавление и изменение DNS-записей в Office 365
 
@@ -44,12 +44,12 @@ ms.locfileid: "42857111"
     
 6. Нажмите кнопку **Сохранить**.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Сбор необходимых сведений для создания записей DNS в Office 365](../get-help-with-domains/information-for-dns-records.md)
 
 [Основы DNS](../get-help-with-domains/dns-basics.md)
 
-[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.yml)
+[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.md)
 
 
