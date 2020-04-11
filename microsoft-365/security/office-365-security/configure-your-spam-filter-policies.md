@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Настраивая базовую фильтрацию спама, необходимо указать, что нужно делать с сообщениями, которые считаются спамом.
-ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 39532db121bb4a9ca5b73ef129b2b0e74e46c69a
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204104"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216927"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Настройка политик защиты от нежелательной почты в Office 365
 
@@ -280,7 +280,7 @@ ms.locfileid: "43204104"
 
 3. Щелкните **Изменение политики**.
 
-Для настраиваемых политик защиты от нежелательной почты доступные параметры во всплывающей области идентичны параметрам, описанным в разделе [Создание политик защиты от нежелательной почты с помощью Центра безопасности и соответствия требованиям](#use-the-security--compliance-center-to-create-anti-spam-policies).
+Параметры во всплывающей области идентичны параметрам, представленным в разделе [Создание политик защиты от нежелательной почты с помощью Центра безопасности и соответствия требованиям](#use-the-security--compliance-center-to-create-anti-spam-policies).
 
 Для политики защиты от нежелательной почты по умолчанию с именем **Политика фильтрации спама, используемая по умолчанию** раздел **Применяется к**, недоступен (политика применяется ко всем пользователям), и вы не можете переименовать политику.
 
@@ -460,7 +460,7 @@ Get-HostedContentFilterPolicy -Identity "Executives" | Format-List
 Чтобы просмотреть существующие правила фильтрации нежелательной почты, используйте следующий синтаксис:
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
 ```
 
 Чтобы получить сводный список всех правил фильтрации нежелательной почты, выполните следующую команду:

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: e0942f88605e1b11cdbc83155ebc43b5fdb1bea1
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081284"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225935"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -113,7 +113,7 @@ ms.locfileid: "43081284"
 
 [Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 18 апреля 2020 г. До этой даты будет опубликована новая версия занятия.*
+*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 5 июля 2020 г. До этой даты будет опубликована новая версия занятия.*
 
 ## <a name="additional-guidance"></a>Дополнительные рекомендации
 
