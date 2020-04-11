@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: a37e1ec6b342e8003427c0e90c2493ffa2952fe4
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 0558709c729a0ca941124ac3e72762f4b973432d
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189098"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216890"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -57,8 +57,8 @@ ms.locfileid: "43189098"
     Инструкции по настройке см. в разделе [Настройка политик автоматического применения меток для SharePoint, OneDrive и Exchange](#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) на этой странице.
     
     Особенности автоматического применения меток для SharePoint и OneDrive:
-    - Не более 25 000 файлов (Word, PowerPoint или Excel) в клиенте за день
-        - Не более 5 файлов на каждого лицензированного пользователя в день
+    - Не более 25 000 файлов с автоматически примененными метками (Word, PowerPoint или Excel) в клиенте за день
+        - Не более 5 файлов с автоматически примененными метками на каждого лицензированного пользователя в день
     - Не более 10 семейств веб-сайтов во всех политиках
     - Не более 10 политик в клиенте
 

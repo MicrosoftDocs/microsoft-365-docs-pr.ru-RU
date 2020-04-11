@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Настраивая базовую фильтрацию спама, необходимо указать, что нужно делать с сообщениями, которые считаются спамом.
-ms.openlocfilehash: a497dc4cbce877c0aa6113e32223235ffebbfd41
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894210"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204104"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Настройка политик защиты от нежелательной почты в Office 365
 
@@ -73,9 +73,9 @@ ms.locfileid: "42894210"
 
 - Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы добавлять, изменять и удалять политики защиты от нежелательной почты, необходимо быть участником группы ролей **Управление организацией** или **Администратор безопасности**. Для доступа только для чтения к политикам защиты от нежелательной почты необходимо быть участником группы ролей **Читатель безопасности**. Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
+- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы добавлять, изменять и удалять политики защиты от нежелательной почты, необходимо быть участником группы ролей **Управление организацией** или **Администратор безопасности**. Для доступа только для чтения к политикам защиты от нежелательной почты необходимо быть участником группы ролей **Читатель безопасности**. Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
 
-- Рекомендуемые параметры политик защиты от вредоносных программ см. в разделе [Параметры политики защиты от нежелательной почты EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
+- Рекомендуемые параметры политик защиты от спама см. в разделе [Параметры политики защиты от нежелательной почты EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>Создание политик защиты от нежелательной почты с помощью Центра безопасности и соответствия требованиям
 

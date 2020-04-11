@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Office 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: da62d934b295916a7f0fc952cc9cbe94b8384246
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: fc9416445fec7a873ae7d09e1af366f029f51ed1
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151433"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204060"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Отчеты о деятельности в центре администрирования Microsoft 365
 
@@ -87,6 +87,7 @@ ms.locfileid: "43151433"
 В зависимости от вашей подписки, здесь доступны доступные отчеты.
   
 - [Действия с почтой](email-activity.md)
+- [Активность в Forms](forms-activity.md)
     
 - [Использование почтовых ящиков](mailbox-usage.md)
     
@@ -101,6 +102,7 @@ ms.locfileid: "43151433"
 - [Действия пользователей в OneDrive для бизнеса](onedrive-for-business-activity.md)
   
 - [Использование OneDrive для бизнеса](onedrive-for-business-usage.md)
+- [Использование Office 365 профессиональный плюс](microsoft365-apps-usage.md)
   
 - [Использование сайтов SharePoint](sharepoint-site-usage.md)
   

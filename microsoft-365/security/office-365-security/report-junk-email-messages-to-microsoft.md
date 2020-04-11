@@ -2,10 +2,10 @@
 title: Составление отчетов о нежелательной почте и сообщениях фишинга в корпорацию Майкрософт
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,25 +15,26 @@ search.appverid:
 ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
-description: Надстройка сообщения о нежелательной почте корпорации Майкрософт для Microsoft Office Outlook предоставляет несколько способов отправки отчетов о сообщениях нежелательной почты.
-ms.openlocfilehash: b7e7ed56f171ee3b74b36ed7c10c46286fb1e570
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Администраторы могут узнать о различных способах сообщить о хороших и плохом сообщениях в корпорацию Майкрософт.
+ms.openlocfilehash: 4578e3d29a89e94d23c04e4d80e45c79c18cfb85
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033666"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216879"
 ---
-# <a name="report-messages-and-files-to-microsoft"></a>Сообщения отчетов и файлы в корпорацию Майкрософт
+# <a name="report-messages-and-files-to-microsoft"></a>Передача информации о сообщениях и файлах в корпорацию Майкрософт
 
-Пользователи и администраторы в Office 365 организации с почтовыми ящиками в Exchange Online или в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online для отправки сообщений электронной почты существует несколько различных способов создания отчетов и файлы в корпорацию Майкрософт.
+Пользователи и администраторы в Office 365 организации с почтовыми ящиками в Exchange Online или в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online имеют несколько различных способов создания отчетов для сообщений и файлов в корпорацию Майкрософт.
 
 |||
 |---|---|
 |**Способ**|**Описание**|
-|[Использование отправки администратором для отправки сообщений с подозрением, фишинга, URL-адресов и файлов в корпорацию Майкрософт](admin-submission.md)|Это рекомендуемый метод создания отчетов для администраторов в организациях с почтовыми ящиками Exchange Online (недоступен в автономном EOP).|
-|[Включение надстройки сообщений отчета в Office 365](enable-the-report-message-add-in.md)|Работает с Outlook, Outlook для Mac и Outlook в Интернете. Это рекомендуемая надстройка. <br/><br/> В зависимости от вашей лицензии, отчеты о сообщениях доступны в [результатах автоматического исследования и реагирования (AIR)](air-view-investigation-results.md), [отчетов о сообщениях пользователей](view-email-security-reports.md#user-reported-messages-report) и [обозревателе угроз](threat-explorer-views.md#email--submissions).|
+|[Использование функции отправки администратором для отправки подозрительного спама, фишинговых сообщений, URL-адресов и файлов в корпорацию Майкрософт](admin-submission.md)|Рекомендуемый метод составления отчетов для администраторов в организациях с почтовыми ящиками Exchange Online (недоступен в автономном EOP).|
+|[Включение надстройки сообщений отчета в Office 365](enable-the-report-message-add-in.md)|Работает с Outlook, Outlook для Mac и Outlook в Интернете (прежнее название — Outlook Web App) и является рекомендуемой надстройкой. <br/><br/> В зависимости от подписки сообщения, которые пользователи сообщили с помощью надстройки, доступны в [результатах автоматизированного исследования и ответа](air-view-investigation-results.md), [отчета о пользователях](view-email-security-reports.md#user-reported-messages-report)и [обозревателе угроз](threat-explorer-views.md#email--submissions).|
 |[Установка и использование надстройки создания отчетов о нежелательной почте для Microsoft Outlook в Office 365](junk-email-reporting-add-in-for-microsoft-outlook.md)|Работает только в Outlook.|
 |[Отправка нежелательных и фишинговых сообщений электронной почты в Outlook в Интернете в Office 365](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Использование встроенных возможностей Outlook в Интернете для организаций с почтовыми ящиками Exchange Online (недоступно в автономном EOP).|
+|[Отправка сообщений в корпорацию Майкрософт для анализа вручную](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)|Вручную отправьте прикрепленные сообщения на конкретные адреса электронной почты Майкрософт для нежелательной почты, а не спама и фишинга. <br/><br/> Кроме того, Узнайте, как создать правило для процесса обработки почты (также называемое правилом транспорта), которое уведомляет вас, когда пользователи отправляют сообщения на эти электронные адреса отчетов.|
 |[Передача вредоносных и невредоносных программ в корпорацию Майкрософт для анализа](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Используйте сайт Microsoft Security Intelligence для отправления вложений и других файлов.|
 |
 
