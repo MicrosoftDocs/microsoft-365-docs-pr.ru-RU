@@ -331,7 +331,7 @@
               href: view-label-activity-for-documents.md
             - name: Просмотр отчетов для управления данными
               href: view-the-data-governance-reports.md
-        - name: Мероприятия
+        - name: События
           items:
             - name: Хранение на основе событий
               href: event-driven-retention.md
@@ -830,6 +830,8 @@
       items:
         - name: Безопасность финансовых служб и соответствие требованиям
           href: ../solutions/financial-services-secure-collaboration.md
+        - name: Безопасность и соответствие служб энергопотребления
+          href: ../solutions/energy-secure-collaboration.md
 - name: Планы действий по соответствию нормативным требованиям
   items:
     - name: 'ISO: рекомендуемый план действий'

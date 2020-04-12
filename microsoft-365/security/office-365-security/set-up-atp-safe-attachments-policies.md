@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: Определите политики безопасных вложений, чтобы защитить организацию от вредоносных файлов в электронной почте.
-ms.openlocfilehash: c5001823979c19ec68cd15a10bf7c2d7e54cae1d
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 860e733bda8f16eff8e36e42055c7ea7fa88e343
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637322"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230972"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик безопасных вложений Office 365 ATP
 
@@ -47,7 +47,7 @@ ms.locfileid: "42637322"
 
   |||
   |---|---|
-  |**Роль**|**Где/как назначено**|
+  |**Role**|**Где/как назначено**|
   |Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)|
   |Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
   |Управление организацией Exchange Online, управление Exchange Online санацией |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
@@ -83,7 +83,7 @@ ms.locfileid: "42637322"
 
 6. Нажмите кнопку **Сохранить**.
 
-Рекомендуется настроить несколько политик безопасных вложений ATP для вашей организации. Эти политики будут применены в том порядке, в котором они перечислены на странице **безопасных вложений ATP** . После того как политика будет определена или изменена, предоставьте для них не менее 30 минут, чтобы политики вступили в силу во всех центрах обработки данных Майкрософт.
+Рекомендуется настроить несколько политик безопасных вложений ATP для вашей организации. Эти политики будут применены в том порядке, в котором они перечислены на странице **безопасных вложений ATP** . После того как политика будет определена или изменена, предоставьте политики по крайней мере в течение 30 минут, чтобы политики действовали в центрах обработки данных Майкрософт.
 
 ## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>Шаг 3: сведения о параметрах политики безопасных вложений ATP
 

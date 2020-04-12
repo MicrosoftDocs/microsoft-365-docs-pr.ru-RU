@@ -16,14 +16,14 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: В этом разделе объясняется различие между нежелательной почтой и пакетными сообщениями электронной почты и связанными с ними элементами управления в Office 365.
-ms.openlocfilehash: 56e997235a374ee9f56956be96458b46bffcdc21
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 41dedd02febc40b73dc585961487f89bbc6db54a
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033630"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230960"
 ---
-# <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>В чем разница между нежелательной почтой и массовыми сообщениями электронной почты?
+# <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>В чем разница между нежелательной почтой и массовой рассылкой электронной почты?
 
 Клиенты Office 365 с почтовыми ящиками в Exchange Online или отдельном клиенте Exchange Online Protection (EOP) без почтовых ящиков Exchange Online иногда нужно спросить: "что такое разница между нежелательной почтой и групповой почтой?" В этом разделе объясняются различия и описываются элементы управления, доступные в EOP.
 
