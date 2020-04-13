@@ -199,8 +199,10 @@
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: "Новый Центр безопасности Microsoft\_365"
               href: ./mtp/overview-security-center.md
-            - name: Разрешения в Центре безопасности и соответствия требованиям
+            - name: "Разрешения в Центре безопасности и соответствия требованиям Office\_365"
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
+            - name: "Разрешения в Центре соответствия требованиям Microsoft\_365 и Центре безопасности Microsoft\_365"
+              href: ./office-365-security/permissions-microsoft-365-compliance-security.md
             - name: Предоставление пользователям доступа к Центру безопасности
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
         - name: Защита от угроз
