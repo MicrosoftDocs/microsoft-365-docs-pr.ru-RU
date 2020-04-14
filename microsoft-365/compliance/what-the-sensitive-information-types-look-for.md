@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности &amp; Office 365 включает в себя 80 типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: bd74551b7e8b2d659724a1222e115a479db76ec8
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: aa3a08961ccad92c9986db16c1d8180d9b0cd17e
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894308"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240290"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>Что позволяют искать типы конфиденциальной информации
 
@@ -213,12 +213,12 @@ ms.locfileid: "42894308"
 - две цифры; 
 - пять цифр или букв (без учета регистра).
 
-ИЛИ
+OR
 
 - 1–2 дополнительные буквы (без учета регистра); 
 - 4–9 цифр.
 
-ИЛИ
+OR
 
 - девять цифр или букв (без учета регистра).
 
@@ -1087,7 +1087,7 @@ ms.locfileid: "42894308"
 - идентитеит
 - регистратие
 - идентификатие 
-- Carte d’identité 
+- Д'идентитé корзины 
 - numéro d'immatriculation
 - numéro d'identification
 - идентитé 
@@ -2104,7 +2104,7 @@ Registro de identidade (RIC) (новый формат):
 - expiration date
 - exp date
 - expiry date
-- date d’expiration
+- Дата д'експиратион
 - date d'exp
 - date expiration
 - bank card
@@ -2306,7 +2306,7 @@ Registro de identidade (RIC) (новый формат):
 Девять цифр (старый формат):
 - девять цифр.
 
-ИЛИ
+OR
 
 - Шесть цифр, представляющих дату рождения
 - косая черта;
@@ -2315,7 +2315,7 @@ Registro de identidade (RIC) (новый формат):
 10 цифр (новый формат):
 - 10 цифр.
 
-ИЛИ
+OR
 
 - Шесть цифр, представляющих дату рождения
 - косая черта; 
@@ -2838,12 +2838,32 @@ Registro de identidade (RIC) (новый формат):
    
 ## <a name="finland-passport-number"></a>Номер паспорта для Финляндии
 
-Комбинация, состоящая из девяти букв и цифр, комбинация из девяти букв и цифр: две буквы (без учета регистра) семь цифр контрольная сумма нет определения политика защиты от потери данных — 75% уверенности в том, что этот тип конфиденциальной информации определен, если в близость от 300 символов: регулярное выражение Regex_finland_passport_number находит содержимое, которое соответствует шаблону.
-находится ключевое слово из Keyword_finland_passport_number.
+### <a name="format"></a>Format
+Сочетание из девяти букв и цифр.
+
+### <a name="pattern"></a>Шаблон
+Комбинация из девяти букв и цифр: две буквы (без учета регистра) и семь цифр.
+
+### <a name="checksum"></a>Контрольная сумма
+Нет
+
+### <a name="definition"></a>Определение
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- регулярное выражение Regex_finland_passport_number находит содержимое, которое соответствует шаблону;
+- находится ключевое слово из Keyword_finland_passport_number.
 <!-- Finland Passport Number -->
-<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
+```xml
+<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300">
+  <Pattern confidenceLevel="75">
+     <IdMatch idRef="Regex_finland_passport_number"/>
+     <Match idRef="Keyword_finland_passport_number"/>
+  </Pattern>
 </Entity>
-Ключевые слова Keyword_finland_passport_number Passport Пасси
+```
+### <a name="keywords"></a>Ключевые слова
+- Keyword_finland_passport_number
+- Службу
+- пасси
    
 ## <a name="france-drivers-license-number"></a>Номер водительского удостоверения для Франции
 
@@ -5671,7 +5691,7 @@ Keyword_nz_terms
 - Шесть цифр
 - "A", "B", "C", или "'D" (например, префикс, в суффиксе допускаются только определенные символы; без учета регистра)
 
-ИЛИ
+OR
 
 - Две буквы
 - Пробел или тире

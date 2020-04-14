@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Сведения о том, как задать срок действия отдельных паролей для отдельных пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: 275fedf7bf4e52320b769689516ad39a31c63ea1
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 04fb2b0c17f695c41df2f8b1277c7918054ae9fe
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105739"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240239"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -38,14 +38,19 @@ ms.locfileid: "43105739"
 
 ## <a name="set-the-password-expiration-policy-for-individual-users"></a>Настройка политики истечения срока действия паролей для отдельных пользователей
 
-Глобальный администратор облачной службы Майкрософт может использовать модуль Microsoft Azure AD для Windows PowerShell, чтобы задать срок действия паролей для определенных пользователей. Кроме того, вы можете использовать командлеты Windows PowerShell, чтобы удалить конфигурацию, не ограниченную сроком действия, или просмотреть пароли пользователей, срок действия которых не ограничен.
+Глобальный администратор облачной службы Майкрософт может использовать PowerShell Azure Active Directory для Graph, чтобы задать неограниченный срок действия паролей для определенных пользователей. Кроме того, вы можете использовать командлеты AzureAD, чтобы удалить конфигурацию с неограниченным сроком действия или убедиться, что срок действия паролей пользователей неограничен.
 
 Это руководство относится к другим поставщикам, таким как Intune и Office 365, которые также основываются на Azure AD для удостоверений и служб каталогов. Срок действия пароля является единственной частью политики, которую можно изменить.
+
+Для получения дополнительных сведений об Azure AD PowerShell для Graph, обратитесь [к статье Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 > [!NOTE]
 > Срок действия только паролей для учетных записей пользователей, которые не синхронизируются с помощью синхронизации службы каталогов, может быть запрещен. Дополнительные сведения о синхронизации службы каталогов можно найти [в статье Connect AD with Azure AD](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).
 
 ### <a name="how-to-check-the-expiration-policy-for-a-password"></a>Проверка политики истечения срока действия для пароля
+
+Дополнительные сведения о команде Get – AzureADUser в модуле AzureAD можно найти в справочной статье [Get/AzureADUser](https://docs.microsoft.com/powershell/module/Azuread/Get-AzureADUser?view=azureadps-2.0).
+
 Выполните одну из следующих команд:
 
 - Чтобы убедиться, что срок действия пароля одного пользователя не ограничен, выполните следующий командлет с помощью имени участника-пользователя (например, *user@contoso.onmicrosoft.com*) или идентификатора пользователя, которого вы хотите проверить:

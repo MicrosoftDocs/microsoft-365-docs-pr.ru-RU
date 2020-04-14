@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/22/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт для просмотра подробных сведений об управлении угрозами.
-ms.openlocfilehash: 8096a950e66ed94d6e056f40b737d89d48cb811e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a2634a70bdbdd21efe2c59721e5532500eb4e4cc
+ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088773"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43284231"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Интеграция Office 365 Advanced Threat protection с Advanced Threat Protection в защитнике Майкрософт
 
@@ -30,7 +30,7 @@ ms.locfileid: "42088773"
   
 На следующем рисунке показана вкладка " **устройства** ", которая будет отображаться при включенной интеграции защитника Microsoft Defender:
   
-![Когда включен пакет ATP для защитника, вы можете просмотреть список компьютеров с оповещениями.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Когда включен пакет ATP для защитника, вы можете просмотреть список устройств с оповещениями.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
   
 В этом примере видно, что получатели сообщения электронной почты имеют четыре устройства, а одно — оповещение. Щелчок ссылки на устройство открывает его страницу в центре безопасности защитника Майкрософт.
   
@@ -44,22 +44,21 @@ ms.locfileid: "42088773"
     
 ## <a name="to-integrate-office-365-atp-with-microsoft-defender-atp"></a>Интеграция Office 365 ATP с защитником Microsoft для пакета ATP
 
-Интеграция Office 365 ATP с защитником Microsoft для пакета ATP настроена с помощью центра безопасности & соответствия требованиям и центра безопасности защитника Майкрософт.
+Интеграция Office 365 ATP с защитником Microsoft для пакета ATP настроена с помощью центра безопасности & Office 365 и центра безопасности защитника Майкрософт.
   
-1. Как глобальный администратор Office 365 или администратор безопасности перейдите к [https://protection.office.com](https://protection.office.com) рабочей или учебной учетной записи для Office 365 с помощью рабочей или учебной учетной записи.
+1. Как глобальный администратор Office 365 или администратор безопасности перейдите на [https://protection.office.com](https://protection.office.com) страницу и войдите в нее.
     
 2. Выберите \> **Обозреватель** **управления угрозами** .<br>![Проводник в меню "Управление угрозами"](../../media/ThreatMgmt-Explorer-nav.png)<br>
     
 3. В правом верхнем углу экрана выберите **Параметры вдатп**.
     
-4. В диалоговом окне Подключение ATP для защитника Windows включите параметр подключиться к Windows ATP.<br>![Подключение к Microsoft Defender ATP](../../media/Explorer-WDATPConnection-dialog.png)<br>
+4. В диалоговом окне Подключение к Защитнику (Майкрософт) ATP включите параметр **подключиться к Windows ATP**.<br>![Подключение к Microsoft Defender ATP](../../media/Explorer-WDATPConnection-dialog.png)<br>
     
-5. Включите подключение в центре безопасности защитника Майкрософт.
+5. Включите подключение в центре безопасности защитника (Майкрософт)[https://securitycenter.windows.com](https://securitycenter.windows.com)().
 
-  
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-[Исследование угроз для Office 365 и ответ на них](office-365-ti.md)
+[Исследование угроз и возможности реагирования в Office 365](office-365-ti.md)
   
 [Office 365 Advanced Threat Protection](office-365-atp.md)
   

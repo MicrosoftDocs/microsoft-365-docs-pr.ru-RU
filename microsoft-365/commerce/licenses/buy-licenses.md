@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Узнайте, как добавлять и удалять лицензии для подписки на Office 365 для бизнеса.
-ms.openlocfilehash: f596971016e18747ea2849c0dfcb0dd287a0c811
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: abfa479d991bac72bd3e9e5c1c422368758b17a7
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142179"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240292"
 ---
 # <a name="manage-subscription-licenses"></a>Управление лицензиями подписки
 
@@ -38,9 +38,9 @@ ms.locfileid: "43142179"
 
 Лицензию, которая назначена пользователю, нельзя удалить из подписки. Если вы хотите удалить лицензию, которая в настоящее время назначена другому пользователю, вам потребуется [Удалить лицензии для пользователей](../../admin/manage/remove-licenses-from-users.md) , прежде чем вы сможете удалить лицензию из подписки.
 
-::: moniker range="o365-worldwide"
+## <a name="add-or-remove-licenses-for-your-business-subscription"></a>Добавление и удаление лицензий для вашей бизнес-подписки
 
-## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>Что нужно знать о приобретении лицензий для вашей бизнес-подписки
+::: moniker range="o365-worldwide"
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
 
