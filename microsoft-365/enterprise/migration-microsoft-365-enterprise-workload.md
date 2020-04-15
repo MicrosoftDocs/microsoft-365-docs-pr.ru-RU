@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 76396ea3eb4622bb27455938f5c645dd1240003a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 9fd35e4595b19d5ddd3db0f64ea7dedf303d6818
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113506"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504057"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -116,10 +116,9 @@ Microsoft 365 корпоративный включает Office 365, в то
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-Что касается серверных продуктов в выпуске Office 2010, для следующих продуктов установлена дата прекращения поддержки **13 октября 2020 г.**:
+Поддержка [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support) прекращается **13 октября 2020 г**.
 
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support);
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010).
+Поддержка [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) прекращается **13 апреля 2021 г**.
 
 Вместо того чтобы обновлять серверные продукты из выпуска Office 2010 до аналогов из выпуска Office 2013 или Office 2016, вы можете следующее:
 
