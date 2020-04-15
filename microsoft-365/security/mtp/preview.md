@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f04d2e587a55a680a65425b34a88896466e09be3
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: c4facaac82ff8486c0c3a846e4f577c7888a3161
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113463"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503987"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -54,8 +54,9 @@ ms.locfileid: "43113463"
 
 Вы узнаете, что функции предварительного просмотра включены, когда вы видите флажок **включить предварительный просмотр компонентов** . 
 
-
-
 ## <a name="preview-features"></a>Предварительные функции
-В этом разделе будет отображаться список компонентов, которые находятся в предварительной версии, так как они становятся доступны для попытки. 
+В настоящее время доступны следующие функции и расширения для предварительной версии:
 
+- **[Пользовательские](custom-detections-overview.md)** проверки — используйте расширенные запросы поиска для создания правил, которые автоматически могут выполнять поиск нарушений и других элементов с регулярными интервалами. Соответствия запросам вызываются оповещения и указанные действия ответа.
+
+- **[Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)** — получение представления о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с таблицами [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.

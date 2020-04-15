@@ -1,5 +1,5 @@
 ---
-title: Перевод подписки CSP Microsoft 365 бизнес 
+title: Перевод подписки CSP Microsoft 365 бизнес
 description: Сведения о том, как можно перенести подписку на Microsoft 365 Business CSP от предварительной версии к общему доступу (GA).
 author: jasongroce
 f1.keywords:
@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 бизнес, Microsoft 365, малые и средние предприятия, перевод подписки CSP
 ms.date: 11/01/2017
-ms.openlocfilehash: 77b7b474a5ad17db58e283ea61b074c959905d1b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 0a30d80ad5217868fec81866ab1dc41013917e99
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560787"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504114"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Перевод подписки CSP Microsoft 365 бизнес
 

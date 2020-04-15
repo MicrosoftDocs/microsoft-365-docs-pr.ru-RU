@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Общие сведения о компонентах, планах и путях развертывания для Microsoft 365 для предприятий.
-ms.openlocfilehash: 043953ddfd38a9ef5119546ec5672dd46e8acb53
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 6b8d2aa7fd8455acde1d49a6ed7f7c93c5235652
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175194"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504095"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>Обзор Microsoft 365 для предприятий
 
@@ -84,15 +84,14 @@ Microsoft 365 для предприятий доступно в трех пла�
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Предотвращение завершения поддержки клиентов и серверов Windows 7 и Office 2010
 
-Следующие продукты достигли конца поддержки **(14 января 2020 г.)**.
-
-- [Windows 7](https://aka.ms/win7upgrade)
+В [Windows 7](https://aka.ms/win7upgrade) достигнут конец поддержки **14 января 2020 г**.
 
 После выполнения **13 октября 2020 г**. в конце поддержки будут доступны следующие продукты:
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support);
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010).
+
+Поддержка [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) будет достигнута после **13 апреля 2021 г**.
 
 Визуальное представление возможностей обновления, миграции и перехода на облачные решения для этих продуктов см. в [плакате “Прекращение поддержки”](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf).
 
