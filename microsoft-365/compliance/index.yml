@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Документация по соответствию требованиям Microsoft 365
-summary: Если ваша организация должна соответствовать юридическим или нормативным стандартам, Начните отсюда, чтобы узнать о соответствии требованиям в Microsoft 365.
+title: Документация Microsoft 365 по соответствию требованиям
+summary: Если вашей организации необходимо соответствовать правовым или нормативным стандартам, начните с этой статьи, где изложена информация о соответствии требованиям в Microsoft 365.
 metadata:
-  title: Документация по соответствию требованиям Microsoft 365
-  description: Документация по функциям обеспечения соответствия требованиям Microsoft 365
+  title: Документация Microsoft 365 по соответствию требованиям
+  description: Документация по функциям соответствия требованиям в Microsoft 365
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: d6f24a93754c60227e668bb8d0ec42776a519dbc
   ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 02/27/2020
   ms.locfileid: "42322538"
@@ -34,7 +34,7 @@ landingContent:
       url: email-encryption.md
     - text: Ключ клиента
       url: customer-key-overview.md
-- title: Управление информацией
+- title: Организация управления информацией
   linkLists:
   - linkListType: overview
     links:
@@ -48,25 +48,25 @@ landingContent:
       url: file-plan-manager.md
     - text: Хранение на основе событий
       url: event-driven-retention.md
-    - text: Импорт PST-файла
+    - text: Импорт PST-файлов
       url: importing-pst-files-to-office-365.md
-    - text: Сторонние соединители данных
+    - text: Соединители данных сторонних производителей
       url: archiving-third-party-data.md
-    - text: Отчеты по управлению данными
+    - text: Отчеты об управлении данными
       url: view-the-data-governance-reports.md
-- title: Управление рисками для оценки
+- title: Управление рисками, связанными с инсайдерами
   linkLists:
   - linkListType: overview
     links:
-    - text: Предварительное управление рисками
+    - text: Управление рисками, связанными с инсайдерами
       url: insider-risk-management.md
-    - text: Соответствие коммуникаций требованиям
+    - text: Соответствие требованиям к обмену данными
       url: communication-compliance.md
     - text: Информационные барьеры
       url: information-barriers.md
     - text: Управление привилегированным доступом
       url: privileged-access-management-overview.md
-    - text: Защищенное хранилище пользователя
+    - text: Защищенное хранилище данных клиента
       url: customer-lockbox-requests.md
 - title: Обнаружение и ответ
   linkLists:
@@ -74,25 +74,25 @@ landingContent:
     links:
     - text: Advanced eDiscovery
       url: overview-ediscovery-20.md
-    - text: Основное обнаружение электронных данных
+    - text: Core eDiscovery
       url: ediscovery-cases.md
     - text: Поиск контента
       url: search-for-content.md
-    - text: Расследования данных (Предварительная версия)
+    - text: Исследование данных (предварительная версия)
       url: overview-data-investigations.md
     - text: Аудит
       url: search-the-audit-log-in-security-and-compliance.md
-- title: Начало работы с нормативными требованиями
+- title: Начало работы в области соответствия нормативным требованиям
   linkLists:
   - linkListType: get-started
     links:
-    - text: Рейтинг соответствия требованиям
+    - text: Оценка соответствия требованиям
       url: compliance-score.md
-    - text: План действий по обеспечению соответствия требованиям GDPR
+    - text: План действий для обеспечения соответствия требованиям GDPR
       url: gdpr-action-plan.md
-    - text: Защита информации для GDPR
+    - text: Защита информации в соответствии с требованиям GDPR
       url: office-365-info-protection-for-gdpr-overview.md
-    - text: План действий по обеспечению соответствия требованиям ISO
+    - text: План действий для обеспечения соответствия требованиям ISO
       url: iso-action-plan.md
-    - text: План действий по соответствию NIST
+    - text: План действий для обеспечения соответствия требованиям NIST
       url: nist-action-plan.md
