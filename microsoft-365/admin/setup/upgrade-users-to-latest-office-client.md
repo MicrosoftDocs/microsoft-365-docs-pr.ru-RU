@@ -2,11 +2,10 @@
 title: Обновление пользователей Office 365 для бизнеса до последней версии клиента Office
 f1.keywords:
 - NOCSH
-ms.author: janellem
-author: janellem
-manager: eliree
+ms.author: kwekuako
+author: kwekuako
+manager: scotv
 audience: Admin
-ms.topic: troubleshooting
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +19,12 @@ ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Узнайте, как обновить пользователей до последней версии клиента Office.
-ms.openlocfilehash: 3d9c92a5362889db69926552848ba4c71d7c4c42
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 18200184ed8d7eb15ee4eef3903ac9d8e08b9854
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360410"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521467"
 ---
 # <a name="upgrade-your-office-365-for-business-users-to-the-latest-office-client"></a>Обновление пользователей Office 365 для бизнеса до последней версии клиента Office
 
@@ -47,7 +46,7 @@ ms.locfileid: "42360410"
 
  Если вы не являетесь администратором и у вас есть продукт [Office для дома](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) , ознакомьтесь со статьей [Обновление Office](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) для получения сведений об обновлении старой версии Office для дома.
 
-## <a name="getting-ready-to-upgrade"></a>Подготовка к обновлению
+## <a name="get-ready-to-upgrade"></a>Подготовка к обновлению
 
 Администратор управляет тем, какие версии Office могут устанавливать сотрудники Организации. Настоятельно рекомендуется помочь пользователям в вашей организации, на котором запущены более ранние версии Office, например Office 2010, Office 2013 или Office 2016, до последней версии, чтобы воспользоваться преимуществами безопасности и повышения производительности.
 
@@ -90,7 +89,7 @@ ms.locfileid: "42360410"
 
  - Приобретение отдельного, одноразового приобретения Office. Ознакомьтесь с [разделами Office для &amp; дома](https://products.office.com/home-and-business) и [Office профессиональный](https://products.office.com/professional)
 
-     ИЛИ
+     OR
 
  - Приобретите несколько копий Office с помощью корпоративной лицензии. Ознакомьтесь со статьей [Сравнение пакетов, доступных по программе корпоративного лицензирования](https://products.office.com/business/microsoft-office-volume-licensing-suites-comparison).
 

@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 22c602bcc49ce2a81e511d79f4de23f7a60e657f
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058909"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516915"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
 
@@ -54,12 +54,13 @@ ms.locfileid: "43058909"
 * **Политики**. Настройка политик для управления устройствами, защиты от угроз и получения оповещений о различных действиях в вашей организации.
 * **Разрешения**. Управление доступом сотрудников вашей организации к Центру безопасности Microsoft 365 для просмотра содержимого и выполнения задач. Разрешения для Microsoft 365 можно также назначить на портале Azure AD.
 
-## <a name="learn-more"></a>Подробнее 
+## <a name="learn-more"></a>Дополнительные сведения 
 
 Изучите следующие разделы о мониторинге, проверке и реагировании на ваши требования к безопасности.
 - Подключение точек на оповещениях через [инциденты](incident-queue.md)
 - Автоматическое исправление угроз с помощью [автоматического исследования и исправления](mtp-autoir.md)
 - Целостное изучение и усовершенствование безопасности с помощью [оценки безопасности Майкрософт](microsoft-secure-score.md)
+- Просмотр [устройств](device-profile.md) в сети
 - [Отчет](monitoring-and-reporting.md) о состоянии удостоверений, данных, устройств, приложений и инфраструктуры
 - [Упреждающий Поиск угроз](advanced-hunting-overview.md) для атак с вторжением и нарушений нарушений, влияющих на вашу электронную почту, данные, устройства и учетные записи
 - [Узнайте о новейших кампаниях](latest-attack-campaigns.md) и методиках атак с помощью средства анализа угроз
