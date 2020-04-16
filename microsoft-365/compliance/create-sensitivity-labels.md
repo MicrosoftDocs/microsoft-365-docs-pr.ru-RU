@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: cbc2b0ef084d20d4e11ebdb03a9707e172f8a971
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 196efe65eda1265d6f2c0578d1f444709dadb26c
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105636"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516824"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -131,7 +131,9 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 3. Нажмите **Опубликовать метки**, чтобы запустить **мастера создания политики**.
 
 4. Щелкните ссылку **Выберите метки конфиденциальности для публикации**. Выберите метки, которые нужно сделать доступными в приложениях и службах, и нажмите кнопку **Добавить**.
-
+    
+    Если вы выбрали вложенную метку, убедитесь, что вы также выбрали родительскую метку.
+    
 5. Проверьте выбранные метки. Чтобы внести изменения, щелкните **Изменить**. В противном случае нажмите кнопку **Далее**.
 
 6. Следуйте инструкциям, чтобы настроить параметры политики.

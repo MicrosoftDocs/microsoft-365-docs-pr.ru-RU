@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
   ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 03/19/2020
   ms.locfileid: "42857325"
@@ -45,7 +45,7 @@ additionalContent:
     summary: Выберите карточку, чтобы больше узнать о Microsoft 365.
     items:
     - title: Центр администрирования Microsoft 365
-      summary: Настройка и управление службами Office 365 и Майкрософт 365 для вашей организации.
+      summary: Настройте службы Office 365 и Microsoft 365 для своей организации и управляйте ими.
       url: ./admin/admin-home.yml
     - title: Microsoft 365 бизнес
       summary: Для предприятий малого и среднего бизнеса. Ведите свой бизнес с помощью последних версий Windows и приложений Office, таких как Excel и Outlook. Воспользуйтесь преимуществами защиты данных и обеспечения безопасности, действующими для всех устройств в вашей компании.
