@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Состояние работоспособности службы Microsoft 365
-ms.openlocfilehash: 16621bc266684397da5fa92e953067e1e8342b4e
-ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
+ms.openlocfilehash: c1b938a91b4f0e43e51595ec877e57e7654c5232
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207167"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540813"
 ---
 # <a name="microsoft-365-network-health-status"></a>Состояние работоспособности сети Microsoft 365
 
@@ -37,7 +37,7 @@ _Возможны задержки при обновлении этой стра
 
 | Расположение | Тип проблемы | Сведения |
 | --- | --- | --- |
-| **Нет текущих ошибок**  |  |  |
+| Мексика | Инфраструктура интернет-провайдера (внешняя) | Проблемы доступности, обнаруженные в инфраструктуре интернет-провайдера в Мексике, могут привести к ухудшению работы Microsoft 365. Пожалуйста, проверьте панель Service Health для более подробной информации. |
 
 ## <a name="recommendations-to-improve-network-experience"></a>Рекомендации по улучшению работы сети
 
