@@ -2,10 +2,10 @@
 title: Как Office 365 проверяет адрес отправителя для предотвращения фишинга
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/11/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,217 +16,115 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Чтобы защититься от фишинга, Office 365 и Outlook.com теперь требуют соответствия требованиям RFC для адресов:.
-ms.openlocfilehash: 6459faa22f29017568747b84bbd2935aad6763d1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Не изменяйте требования к адресам электронной почты для входящих сообщений в Office 365. В ноябре 2017 служба теперь требует соответствия требованиям RFC, чтобы предотвратить подмену адреса.
+ms.openlocfilehash: 4df073cfff3c36f60a013237d95548cb48fa7b5f
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599186"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43529005"
 ---
-# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a><span data-ttu-id="2c464-103">Как Office 365 проверяет адрес отправителя для предотвращения фишинга</span><span class="sxs-lookup"><span data-stu-id="2c464-103">How Office 365 validates the From address to prevent phishing</span></span>
+# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a><span data-ttu-id="62c63-104">Как Office 365 проверяет адрес отправителя для предотвращения фишинга</span><span class="sxs-lookup"><span data-stu-id="62c63-104">How Office 365 validates the From address to prevent phishing</span></span>
 
-<span data-ttu-id="2c464-104">Учетные записи электронной почты Office 365 и Outlook.com получают большое количество фишинговых атак.</span><span class="sxs-lookup"><span data-stu-id="2c464-104">Office 365 and Outlook.com email accounts receive an increasingly large number of phishing attacks.</span></span> <span data-ttu-id="2c464-105">Одним из фишинговых фишингов является отправка сообщений, которые содержат значения для адреса From:, не соответствующие [RFC 5322](https://tools.ietf.org/html/rfc5322).</span><span class="sxs-lookup"><span data-stu-id="2c464-105">One technique phishers use is to send messages that have values for the From: address that are not compliant with [RFC 5322](https://tools.ietf.org/html/rfc5322).</span></span> <span data-ttu-id="2c464-106">Адрес "от:" также называется адресом 5322. from.</span><span class="sxs-lookup"><span data-stu-id="2c464-106">The From: address is also called the 5322.From address.</span></span> <span data-ttu-id="2c464-107">Чтобы предотвратить такой тип фишинга, в Office 365 и Outlook.com необходимо, чтобы сообщения, полученные службой, включали в себя адрес, соответствующий спецификации RFC, как описано в этой статье.</span><span class="sxs-lookup"><span data-stu-id="2c464-107">To help prevent this type of phishing, Office 365 and Outlook.com require messages received by the service to include an RFC-compliant From: address as described in this article.</span></span>
+<span data-ttu-id="62c63-105">Учетные записи электронной почты Office 365 получают большое количество фишинговых атак.</span><span class="sxs-lookup"><span data-stu-id="62c63-105">Office 365 email accounts receive an increasingly large number of phishing attacks.</span></span> <span data-ttu-id="62c63-106">В дополнение к использованию [поддельных адресов электронной почты отправителя](anti-spoofing-protection.md), злоумышленники часто используют значения из адреса "от", которые нарушают стандарты Интернета.</span><span class="sxs-lookup"><span data-stu-id="62c63-106">In addition to using [spoofed (forged) sender email addresses](anti-spoofing-protection.md), attackers often use values in the From address that violate internet standards.</span></span> <span data-ttu-id="62c63-107">Чтобы предотвратить такой тип фишинга, Office 365 и Outlook.com теперь требуют, чтобы входящие сообщения включали адрес, соответствующий спецификации RFC, как описано в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="62c63-107">To help prevent this type of phishing, Office 365 and Outlook.com now require inbound messages to include an RFC-compliant From address as described in this topic.</span></span> <span data-ttu-id="62c63-108">Это принудительное применение было включено в ноябре 2017 ноября.</span><span class="sxs-lookup"><span data-stu-id="62c63-108">This enforcement was enabled in November 2017.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="2c464-108">Сведения, приведенные в этой статье, требуют базового представления общего формата адресов электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2c464-108">The information in this article requires you to have a basic understanding of the general format of email addresses.</span></span> <span data-ttu-id="2c464-109">Для получения дополнительных сведений ознакомьтесь со статьей [rfc 5322](https://tools.ietf.org/html/rfc5322) (в частности, разделами 3.2.3, 3,4 и 3.4.1), [RFC 5321](https://tools.ietf.org/html/rfc5321), а также [RFC 3696](https://tools.ietf.org/html/rfc3696).</span><span class="sxs-lookup"><span data-stu-id="2c464-109">For more information, see [RFC 5322](https://tools.ietf.org/html/rfc5322) (particularly sections 3.2.3, 3.4, and 3.4.1), [RFC 5321](https://tools.ietf.org/html/rfc5321), as well as [RFC 3696](https://tools.ietf.org/html/rfc3696).</span></span> <span data-ttu-id="2c464-110">В этой статье описывается применение политик для адреса 5322. from.</span><span class="sxs-lookup"><span data-stu-id="2c464-110">This article is about policy enforcement for the 5322.From address.</span></span> <span data-ttu-id="2c464-111">Эта статья не относится к 5321. MailFrom Address.</span><span class="sxs-lookup"><span data-stu-id="2c464-111">This article is not about the 5321.MailFrom address.</span></span>
+<span data-ttu-id="62c63-109">**Примечания**:</span><span class="sxs-lookup"><span data-stu-id="62c63-109">**Notes**:</span></span>
 
-<span data-ttu-id="2c464-112">К сожалению, по-прежнему существуют некоторые устаревшие почтовые серверы в Интернете, которые продолжают отправлять "безопасные" сообщения электронной почты, отсутствующие или неправильно сформированные: адрес.</span><span class="sxs-lookup"><span data-stu-id="2c464-112">Unfortunately, there are still some legacy email servers on the Internet that continue to send "legitimate" email messages that have a missing or malformed From: address.</span></span> <span data-ttu-id="2c464-113">Если вы регулярно получаете электронную почту от организаций, использующих эти устаревшие системы, рекомендуйте этим организациям обновлять свои почтовые серверы, чтобы соответствовать современным стандартам безопасности.</span><span class="sxs-lookup"><span data-stu-id="2c464-113">If you regularly receive email from organizations that use these legacy systems, encourage those organizations to update their mail servers to comply with modern security standards.</span></span>
+- <span data-ttu-id="62c63-110">Если вы регулярно получаете электронную почту из организаций с неправильными адресами, как описано в этом разделе, рекомендуется, чтобы эти организации обновляли свои почтовые серверы, чтобы соответствовать современным стандартам безопасности.</span><span class="sxs-lookup"><span data-stu-id="62c63-110">If you regularly receive email from organizations that have malformed From addresses as described in this topic, encourage these organizations to update their email servers to comply with modern security standards.</span></span>
 
-<span data-ttu-id="2c464-114">Корпорация Майкрософт начнет разбивать применение политик, описанных в этой статье, на 9 ноября 2017 г.</span><span class="sxs-lookup"><span data-stu-id="2c464-114">Microsoft will start rolling out enforcement of the policies described in this article on November 9, 2017.</span></span>
+- <span data-ttu-id="62c63-111">Соответствующие поля отправителя (которые используются в списках отправки от имени и корреспонденции) не зависят от этих требований.</span><span class="sxs-lookup"><span data-stu-id="62c63-111">The related Sender field (used by Send on Behalf and mailing lists) isn't affected by these requirements.</span></span> <span data-ttu-id="62c63-112">Для получения дополнительных сведений ознакомьтесь со следующей записью блога: [что означает, что мы указываем, как ссылку на отправителя электронного сообщения?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).</span><span class="sxs-lookup"><span data-stu-id="62c63-112">For more information, see the following blog post: [What do we mean when we refer to the 'sender' of an email?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/).</span></span>
 
-## <a name="how-office-365-enforces-the-use-of-a-valid-from-address-to-prevent-phishing-attacks"></a><span data-ttu-id="2c464-115">Как Office 365 обеспечивает использование допустимого адреса от: для предотвращения фишинговых атак</span><span class="sxs-lookup"><span data-stu-id="2c464-115">How Office 365 enforces the use of a valid From: address to prevent phishing attacks</span></span>
+## <a name="an-overview-of-email-message-standards"></a><span data-ttu-id="62c63-113">Обзор стандартов сообщений электронной почты</span><span class="sxs-lookup"><span data-stu-id="62c63-113">An overview of email message standards</span></span>
 
-<span data-ttu-id="2c464-116">Office 365 вносит изменения в способ применения адреса "от:" в сообщениях, которые он получает для лучшей защиты от фишинговых атак.</span><span class="sxs-lookup"><span data-stu-id="2c464-116">Office 365 is making changes to the way it enforces the use of the From: address in messages it receives in order to better protect you from phishing attacks.</span></span> <span data-ttu-id="2c464-117">В этой статье</span><span class="sxs-lookup"><span data-stu-id="2c464-117">In this article:</span></span>
+<span data-ttu-id="62c63-114">Стандартное SMTP-сообщение электронной почты состоит из *конверта сообщения* и его содержимого.</span><span class="sxs-lookup"><span data-stu-id="62c63-114">A standard SMTP email message consists of a *message envelope* and message content.</span></span> <span data-ttu-id="62c63-115">Конверт сообщения содержит сведения, необходимые для передачи и доставки сообщения между SMTP-серверами.</span><span class="sxs-lookup"><span data-stu-id="62c63-115">The message envelope contains information that's required for transmitting and delivering the message between SMTP servers.</span></span> <span data-ttu-id="62c63-116">Содержимое сообщения разделяется на поля заголовка сообщения, которые в совокупности называются *заголовком сообщения*, и текста сообщения.</span><span class="sxs-lookup"><span data-stu-id="62c63-116">The message content contains message header fields (collectively called the *message header*) and the message body.</span></span> <span data-ttu-id="62c63-117">Конверт сообщения описан в [rfc 5321](https://tools.ietf.org/html/rfc5321), а заголовок сообщения описан в [RFC 5322](https://tools.ietf.org/html/rfc5322).</span><span class="sxs-lookup"><span data-stu-id="62c63-117">The message envelope is described in [RFC 5321](https://tools.ietf.org/html/rfc5321), and the message header is described in [RFC 5322](https://tools.ietf.org/html/rfc5322).</span></span> <span data-ttu-id="62c63-118">Получатели не видят собственно конверт сообщения, так как он создается процессом передачи сообщений, и фактически не является частью сообщения.</span><span class="sxs-lookup"><span data-stu-id="62c63-118">Recipients never see the actual message envelope because it's generated by the message transmission process, and it isn't actually part of the message.</span></span>
 
-- [<span data-ttu-id="2c464-118">Все сообщения должны включать допустимый адрес от:</span><span class="sxs-lookup"><span data-stu-id="2c464-118">All messages must include a valid From: address</span></span>](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
+- <span data-ttu-id="62c63-119">`5321.MailFrom` Адрес электронной почты, который используется для передачи сообщения по протоколу SMTP, — это адрес электронной почты, который также **называется адресом электронной почты,** отправителями и отправителями конвертов.</span><span class="sxs-lookup"><span data-stu-id="62c63-119">The `5321.MailFrom` address (also known as the **MAIL FROM** address, P1 sender, or envelope sender) is the email address that's used in the SMTP transmission of the message.</span></span> <span data-ttu-id="62c63-120">Этот адрес электронной почты обычно записывается в поле заголовка " **Возврат-путь** " в заголовке сообщения (хотя можно указать другой адрес электронной почты для **получения пути** ).</span><span class="sxs-lookup"><span data-stu-id="62c63-120">This email address is typically recorded in the **Return-Path** header field in the message header (although it's possible for the sender to designate a different **Return-Path** email address).</span></span>
 
-- [<span data-ttu-id="2c464-119">Формат адреса "от:", если вы не укажете отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="2c464-119">Format of the From: address if you don't include a display name</span></span>](how-office-365-validates-the-from-address.md#FormatNoDisplayName)
+- <span data-ttu-id="62c63-121">`5322.From` (Другое название — "адрес отправителя" или "отправитель P2") — это адрес электронной почты в поле заголовка " **от** ", а это адрес электронной почты отправителя, отображаемый в почтовых клиентах.</span><span class="sxs-lookup"><span data-stu-id="62c63-121">The `5322.From` (also known as the From address or P2 sender) is the email address in the **From** header field, and is the sender's email address that's displayed in email clients.</span></span> <span data-ttu-id="62c63-122">Адрес отправителя является участником требований, описанных в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="62c63-122">The From address is the focus of the requirements in this topic.</span></span>
 
-- [<span data-ttu-id="2c464-120">Формат адреса "от:", если вы включаете отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="2c464-120">Format of the From: address if you include a display name</span></span>](how-office-365-validates-the-from-address.md#FormatDisplayName)
+<span data-ttu-id="62c63-123">Адрес отправителя определяется в нескольких документах RFC (например, в разделах RFC 5322, 3.2.3, 3,4 и 3.4.1, а также [rfc 3696](https://tools.ietf.org/html/rfc3696)).</span><span class="sxs-lookup"><span data-stu-id="62c63-123">The From address is defined in detail across several RFCs (for example, RFC 5322 sections 3.2.3, 3.4, and 3.4.1, and [RFC 3696](https://tools.ietf.org/html/rfc3696)).</span></span> <span data-ttu-id="62c63-124">Существует множество вариантов адресации, что считается допустимым или недопустимым.</span><span class="sxs-lookup"><span data-stu-id="62c63-124">There are many variations on addressing and what's considered valid or invalid.</span></span> <span data-ttu-id="62c63-125">Для простоты рекомендуется использовать следующий формат и определения:</span><span class="sxs-lookup"><span data-stu-id="62c63-125">To keep it simple, we recommend the following format and definitions:</span></span>
 
-- [<span data-ttu-id="2c464-121">Дополнительные примеры допустимых и недопустимых адресов from:</span><span class="sxs-lookup"><span data-stu-id="2c464-121">Additional examples of valid and invalid From: addresses</span></span>](how-office-365-validates-the-from-address.md#Examples)
+`From: "Display Name" <EmailAddress>`
 
-- [<span data-ttu-id="2c464-122">Отмена автоматического ответа на личный домен без нарушения политики "от:"</span><span class="sxs-lookup"><span data-stu-id="2c464-122">Suppress auto-replies to your custom domain without breaking the From: policy</span></span>](how-office-365-validates-the-from-address.md#SuppressAutoReply)
+- <span data-ttu-id="62c63-126">**Отображаемое имя**: необязательная фраза, описывающая владельца адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="62c63-126">**Display Name**: An optional phrase that describes the owner of the email address.</span></span>
 
-- [<span data-ttu-id="2c464-123">Переопределение Office 365 from: политика принудительного применения адресов</span><span class="sxs-lookup"><span data-stu-id="2c464-123">Overriding the Office 365 From: address enforcement policy</span></span>](how-office-365-validates-the-from-address.md#Override)
+  - <span data-ttu-id="62c63-127">Рекомендуется всегда заключать отображаемое имя в двойные кавычки ("), как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="62c63-127">We recommend that you always enclose the display name in double quotation marks (") as shown.</span></span> <span data-ttu-id="62c63-128">Если отображаемое имя содержит запятую, эту строку _необходимо_ заключить в двойные кавычки в RFC 5322.</span><span class="sxs-lookup"><span data-stu-id="62c63-128">If the display name contains a comma, you _must_ enclose the string in double quotation marks per RFC 5322.</span></span>
+  - <span data-ttu-id="62c63-129">Если адрес отправителя содержит отображаемое имя, значение EmailAddress необходимо заключить в угловые скобки (< >), как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="62c63-129">If the From address includes a display name, the EmailAddress value must be enclosed in angle brackets (< >) as shown.</span></span>
+  - <span data-ttu-id="62c63-130">Корпорация Майкрософт настоятельно рекомендует вставлять пробел между отображаемым именем и адресом электронной почты.</span><span class="sxs-lookup"><span data-stu-id="62c63-130">Microsoft strongly recommends that you insert a space between the display name and the email address.</span></span>
 
-- [<span data-ttu-id="2c464-124">Другие способы предотвращения и защиты циберкримес в Office 365</span><span class="sxs-lookup"><span data-stu-id="2c464-124">Other ways to prevent and protect against cybercrimes in Office 365</span></span>](how-office-365-validates-the-from-address.md#OtherProtection)
+- <span data-ttu-id="62c63-131">**EmailAddress**: адрес электронной почты использует следующий формат `local-part@domain`:</span><span class="sxs-lookup"><span data-stu-id="62c63-131">**EmailAddress**: An email address uses the format `local-part@domain`:</span></span>
 
-<span data-ttu-id="2c464-125">На отправку от имени другого пользователя не влияет это изменение, для получения дополнительных сведений ознакомьтесь с раззинком "[что мы имеем в виду" отправителя сообщения электронной почты?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)".</span><span class="sxs-lookup"><span data-stu-id="2c464-125">Sending on behalf of another user is not affected by this change, for more details, read Terry Zink's blog "[What do we mean when we refer to the 'sender' of an email?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)".</span></span>
+  - <span data-ttu-id="62c63-132">**Локальная часть**: строка, которая определяет почтовый ящик, связанный с адресом.</span><span class="sxs-lookup"><span data-stu-id="62c63-132">**local-part**: A string that identifies the mailbox associated with the address.</span></span> <span data-ttu-id="62c63-133">Это значение уникально в пределах домена.</span><span class="sxs-lookup"><span data-stu-id="62c63-133">This value is unique within the domain.</span></span> <span data-ttu-id="62c63-134">Часто используется имя пользователя или идентификатор GUID владельца почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="62c63-134">Often, the mailbox owner's username or GUID is used.</span></span>
+  - <span data-ttu-id="62c63-135">**домен**: полное доменное имя (FQDN) сервера электронной почты, на котором размещается почтовый ящик, определенный локальной частью адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="62c63-135">**domain**: The fully qualified domain name (FQDN) of the email server that hosts the mailbox identified by the local-part of the email address.</span></span>
 
-### <a name="all-messages-must-include-a-valid-from-address"></a><span data-ttu-id="2c464-126">Все сообщения должны включать допустимый адрес от:</span><span class="sxs-lookup"><span data-stu-id="2c464-126">All messages must include a valid From: address</span></span>
-<span data-ttu-id="2c464-127"><a name="MustIncludeFromAddress"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-127"><a name="MustIncludeFromAddress"> </a></span></span>
+  <span data-ttu-id="62c63-136">Ниже приведены некоторые дополнительные рекомендации по значению EmailAddress:</span><span class="sxs-lookup"><span data-stu-id="62c63-136">These are some additional considerations for the EmailAddress value:</span></span>
 
-<span data-ttu-id="2c464-128">Некоторые автоматические сообщения не включают адрес отправителя при отправке.</span><span class="sxs-lookup"><span data-stu-id="2c464-128">Some automated messages don't include a From: address when they are sent.</span></span> <span data-ttu-id="2c464-129">В прошлое, когда Office 365 или Outlook.com получил сообщение без адреса "от:", служба добавила к сообщению следующий адрес по умолчанию: адрес, чтобы сделать его конечным.</span><span class="sxs-lookup"><span data-stu-id="2c464-129">In the past, when Office 365 or Outlook.com received a message without a From: address, the service added the following default From: address to the message in order to make it deliverable:</span></span>
+  - <span data-ttu-id="62c63-137">Только один адрес электронной почты.</span><span class="sxs-lookup"><span data-stu-id="62c63-137">Only one email address.</span></span>
+  - <span data-ttu-id="62c63-138">Мы не рекомендуем разделять угловые скобки пробелами.</span><span class="sxs-lookup"><span data-stu-id="62c63-138">We recommend that you do not separate the angle brackets with spaces.</span></span>
+  - <span data-ttu-id="62c63-139">Не включайте дополнительный текст после адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="62c63-139">Don't include additional text after the email address.</span></span>
 
-```
-From: <>
-```
+## <a name="examples-of-valid-and-invalid-from-addresses"></a><span data-ttu-id="62c63-140">Примеры допустимых и недопустимых адресов для адресов</span><span class="sxs-lookup"><span data-stu-id="62c63-140">Examples of valid and invalid From addresses</span></span>
 
-<span data-ttu-id="2c464-130">Начиная с 9 ноября 2017, Office 365 будет выполнять развертывание изменений в центрах обработки данных и почтовых серверах, которые приведут к применению нового правила, в котором сообщения без адреса "от:" не будут приниматься в Office 365 или Outlook.com.</span><span class="sxs-lookup"><span data-stu-id="2c464-130">Starting November 9, 2017, Office 365 will be rolling out changes to its datacenters and mail servers which will enforce a new rule where messages without a From: address will no longer be accepted by Office 365 or Outlook.com.</span></span> <span data-ttu-id="2c464-131">Вместо этого все сообщения, получаемые в Office 365, должны иметь действительный адрес от:.</span><span class="sxs-lookup"><span data-stu-id="2c464-131">Instead, all messages received by Office 365 must already contain a valid From: address.</span></span> <span data-ttu-id="2c464-132">В противном случае сообщение будет отправлено в папки "Нежелательная почта" или "Удаленные" в Outlook.com и Office 365.</span><span class="sxs-lookup"><span data-stu-id="2c464-132">Otherwise, the message will be sent to either the Junk Email or Deleted Items folders in Outlook.com and Office 365.</span></span>
+<span data-ttu-id="62c63-141">Следующие адреса электронной почты являются допустимыми:</span><span class="sxs-lookup"><span data-stu-id="62c63-141">The following From email addresses are valid:</span></span>
 
-### <a name="syntax-overview-valid-format-for-the-from-address-for-office-365"></a><span data-ttu-id="2c464-133">Обзор синтаксиса: допустимый формат для адреса "от:" для Office 365</span><span class="sxs-lookup"><span data-stu-id="2c464-133">Syntax overview: Valid format for the From: address for Office 365</span></span>
-<span data-ttu-id="2c464-134"><a name="SyntaxOverviewFromAddress"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-134"><a name="SyntaxOverviewFromAddress"> </a></span></span>
+- `From: sender@contoso.com`
 
-<span data-ttu-id="2c464-135">Формат значения адреса "от:" в нескольких документах RFC определен в подробностях.</span><span class="sxs-lookup"><span data-stu-id="2c464-135">The format for the value of the From: address is defined in detail across several RFCs.</span></span> <span data-ttu-id="2c464-136">Существует множество вариантов адресации, которые могут считаться действительными или недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="2c464-136">There are many variations on addressing and what may be considered valid or invalid.</span></span> <span data-ttu-id="2c464-137">Для простоты Корпорация Майкрософт рекомендует использовать следующий формат и определения:</span><span class="sxs-lookup"><span data-stu-id="2c464-137">To keep it simple, Microsoft recommends that you use the following format and definitions:</span></span>
+- `From: <sender@contoso.com>`
 
-```
-From: "displayname " <emailaddress >
-```
+- <span data-ttu-id="62c63-142">`From: < sender@contoso.com >`(Не рекомендуется, так как между угловыми скобками и адресом электронной почты есть пробелы).</span><span class="sxs-lookup"><span data-stu-id="62c63-142">`From: < sender@contoso.com >` (Not recommended because there are spaces between the angle brackets and the email address.)</span></span>
 
-<span data-ttu-id="2c464-138">Где:</span><span class="sxs-lookup"><span data-stu-id="2c464-138">Where:</span></span>
+- `From: "Sender, Example" <sender.example@contoso.com>`
 
-- <span data-ttu-id="2c464-139">Необязательно  *DisplayName* — это фраза, описывающая владельца адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2c464-139">(Optional)  *displayname*  is a phrase that describes the owner of the email address.</span></span> <span data-ttu-id="2c464-140">Например, это может быть более понятное имя, описывающее отправителя по сравнению с именем почтового ящика.</span><span class="sxs-lookup"><span data-stu-id="2c464-140">For example, this might be a more user-friendly name to describe the sender than the name of the mailbox.</span></span> <span data-ttu-id="2c464-141">Использование отображаемого имени не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="2c464-141">Using a display name is optional.</span></span> <span data-ttu-id="2c464-142">Тем не менее, если вы решили использовать отображаемое имя, корпорация Майкрософт рекомендует всегда заключать его в кавычки, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="2c464-142">However, if you choose to use a display name, Microsoft recommends that you always enclose it within quotation marks as shown.</span></span>
+- `From: "Office 365" <sender@contoso.com>`
 
-- <span data-ttu-id="2c464-143">Потребоваться  *EmailAddress* состоит из следующих компонентов:</span><span class="sxs-lookup"><span data-stu-id="2c464-143">(Required)  *emailaddress*  is made up of:</span></span>
+- <span data-ttu-id="62c63-143">`From: Office 365 <sender@contoso.com>`(Не рекомендуется, так как отображаемое имя не заключено в двойные кавычки).</span><span class="sxs-lookup"><span data-stu-id="62c63-143">`From: Office 365 <sender@contoso.com>` (Not recommended because the display name is not enclosed in double quotation marks.)</span></span>
 
-  ```
-  local-part @domain
-  ```
+<span data-ttu-id="62c63-144">Следующие адреса электронной почты являются недопустимыми:</span><span class="sxs-lookup"><span data-stu-id="62c63-144">The following From email addresses are invalid:</span></span>
 
-    <span data-ttu-id="2c464-144">Где:</span><span class="sxs-lookup"><span data-stu-id="2c464-144">Where:</span></span>
+- <span data-ttu-id="62c63-145">**Нет адреса**: некоторые автоматические сообщения не включают адрес отправителя.</span><span class="sxs-lookup"><span data-stu-id="62c63-145">**No From address**: Some automated messages don't include a From address.</span></span> <span data-ttu-id="62c63-146">В прошлое, когда Office 365 или Outlook.com получил сообщение без адреса отправителя, служба добавила следующий адрес по умолчанию: адрес для отправки сообщения:</span><span class="sxs-lookup"><span data-stu-id="62c63-146">In the past, when Office 365 or Outlook.com received a message without a From address, the service added the following default From: address to make the message deliverable:</span></span>
 
-  - <span data-ttu-id="2c464-145">Потребоваться  *Local-Part* — это строка, которая определяет почтовый ящик, связанный с адресом.</span><span class="sxs-lookup"><span data-stu-id="2c464-145">(Required)  *local-part*  is a string that identifies the mailbox associated with the address.</span></span> <span data-ttu-id="2c464-146">Это значение уникально в пределах домена.</span><span class="sxs-lookup"><span data-stu-id="2c464-146">This is unique within the domain.</span></span> <span data-ttu-id="2c464-147">Часто имя пользователя или GUID владельца почтового ящика используются в качестве значения для локальной части.</span><span class="sxs-lookup"><span data-stu-id="2c464-147">Often, the mailbox owner's username or GUID is used as the value for the local-part.</span></span>
+  `From: <>`
 
-  - <span data-ttu-id="2c464-148">Потребоваться  *domain* — полное доменное имя (FQDN) почтового сервера, на котором размещается почтовый ящик, определенный локальной частью адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2c464-148">(Required)  *domain*  is the fully-qualified domain name (FQDN) of the mail server that hosts the mailbox identified by the local-part of the email address.</span></span>
+  <span data-ttu-id="62c63-147">Теперь сообщения с пустым адресом отстают приниматься.</span><span class="sxs-lookup"><span data-stu-id="62c63-147">Now, messages with a blank From address are no longer accepted.</span></span>
 
-### <a name="format-of-the-from-address-if-you-dont-include-a-display-name"></a><span data-ttu-id="2c464-149">Формат адреса "от:", если вы не укажете отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="2c464-149">Format of the From: address if you don't include a display name</span></span>
-<span data-ttu-id="2c464-150"><a name="FormatNoDisplayName"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-150"><a name="FormatNoDisplayName"> </a></span></span>
+- <span data-ttu-id="62c63-148">`From: Office 365 sender@contoso.com`(Отображаемое имя присутствует, но адрес электронной почты не заключен в угловые скобки.)</span><span class="sxs-lookup"><span data-stu-id="62c63-148">`From: Office 365 sender@contoso.com` (The display name is present, but the email address is not enclosed in angle brackets.)</span></span>
 
-<span data-ttu-id="2c464-151">Правильно отформатированный адрес от: адрес, который не содержит отображаемого имени, включает только один адрес электронной почты с угловыми скобками или без них.</span><span class="sxs-lookup"><span data-stu-id="2c464-151">A properly formatted From: address that does not include a display name includes only a single email address with or without angle brackets.</span></span> <span data-ttu-id="2c464-152">Корпорация Майкрософт рекомендует не разделять угловые скобки пробелами.</span><span class="sxs-lookup"><span data-stu-id="2c464-152">Microsoft recommends that you do not separate the angle brackets with spaces.</span></span> <span data-ttu-id="2c464-153">Кроме того, не включайте что-либо после адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2c464-153">In addition, don't include anything after the email address.</span></span>
+- <span data-ttu-id="62c63-149">`From: "Office 365" <sender@contoso.com> (Sent by a process)`(Текст после адреса электронной почты.)</span><span class="sxs-lookup"><span data-stu-id="62c63-149">`From: "Office 365" <sender@contoso.com> (Sent by a process)` (Text after the email address.)</span></span>
 
-<span data-ttu-id="2c464-154">Допустимы следующие примеры:</span><span class="sxs-lookup"><span data-stu-id="2c464-154">The following examples are valid:</span></span>
+- <span data-ttu-id="62c63-150">`From: Sender, Example <sender.example@contoso.com>`(Отображаемое имя содержит запятую, но не заключено в двойные кавычки).</span><span class="sxs-lookup"><span data-stu-id="62c63-150">`From: Sender, Example <sender.example@contoso.com>` (The display name contains a comma, but is not enclosed in double quotation marks.)</span></span>
 
-```
-From: sender@contoso.com
-```
+- <span data-ttu-id="62c63-151">`From: "Office 365 <sender@contoso.com>"`(Целое значение ошибочно заключено в двойные кавычки).</span><span class="sxs-lookup"><span data-stu-id="62c63-151">`From: "Office 365 <sender@contoso.com>"` (The whole value is incorrectly enclosed in double quotation marks.)</span></span>
 
-```
-From: <sender@contoso.com>
-```
+- <span data-ttu-id="62c63-152">`From: "Office 365 <sender@contoso.com>" sender@contoso.com`(Отображаемое имя присутствует, но адрес электронной почты не заключен в угловые скобки.)</span><span class="sxs-lookup"><span data-stu-id="62c63-152">`From: "Office 365 <sender@contoso.com>" sender@contoso.com` (The display name is present, but the email address is not enclosed in angle brackets.)</span></span>
 
-<span data-ttu-id="2c464-155">Приведенный ниже пример является допустимым, но не рекомендуемым, так как содержит пробелы между угловыми скобками и адресом электронной почты:</span><span class="sxs-lookup"><span data-stu-id="2c464-155">The following example is valid but not recommended because it contains spaces between the angle brackets and the email address:</span></span>
+- <span data-ttu-id="62c63-153">`From: Office 365<sender@contoso.com>`(Между отображаемым именем и левой угловой скобкой нет пробелов.)</span><span class="sxs-lookup"><span data-stu-id="62c63-153">`From: Office 365<sender@contoso.com>` (No space between the display name and the left angle bracket.)</span></span>
 
-```
-From: < sender@contoso.com >
-```
+- <span data-ttu-id="62c63-154">`From: "Office 365"<sender@contoso.com>`(Между закрывающими двойными кавычками и левой угловой скобкой нет пробела.)</span><span class="sxs-lookup"><span data-stu-id="62c63-154">`From: "Office 365"<sender@contoso.com>` (No space between the closing double quotation mark and the left angle bracket.)</span></span>
 
-<span data-ttu-id="2c464-156">Следующий пример является недопустимым, так как он содержит текст после адреса электронной почты:</span><span class="sxs-lookup"><span data-stu-id="2c464-156">The following example is invalid because it contains text after the email address:</span></span>
+## <a name="suppress-auto-replies-to-your-custom-domain"></a><span data-ttu-id="62c63-155">Отмена автоматического ответа на пользовательский домен</span><span class="sxs-lookup"><span data-stu-id="62c63-155">Suppress auto-replies to your custom domain</span></span>
 
-```
-From: "Office 365" <sender@contoso.com> (Sent by a process)
+<span data-ttu-id="62c63-156">Вы не можете использовать этот `From: <>` параметр для подавления автоответов.</span><span class="sxs-lookup"><span data-stu-id="62c63-156">You can't use the value `From: <>` to suppress auto-replies.</span></span> <span data-ttu-id="62c63-157">Вместо этого необходимо настроить пустую запись MX для личного домена.</span><span class="sxs-lookup"><span data-stu-id="62c63-157">Instead, you need to set up a null MX record for your custom domain.</span></span> <span data-ttu-id="62c63-158">Автоматические ответы (и все ответы) подавляются, так как не существует опубликованного адреса, на который отвечающий сервер может отправлять сообщения.</span><span class="sxs-lookup"><span data-stu-id="62c63-158">Auto-replies (and all replies) are naturally suppressed because there is no published address that the responding server can send messages to.</span></span>
+
+- <span data-ttu-id="62c63-159">Выберите домен электронной почты, который не может получать электронную почту.</span><span class="sxs-lookup"><span data-stu-id="62c63-159">Choose an email domain that can't receive email.</span></span> <span data-ttu-id="62c63-160">Например, если ваш основной домен — contoso.com, вы можете выбрать noreply.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="62c63-160">For example, if your primary domain is contoso.com, you might choose noreply.contoso.com.</span></span>
+
+- <span data-ttu-id="62c63-161">Пустая запись MX для этого домена состоит из одного периода.</span><span class="sxs-lookup"><span data-stu-id="62c63-161">The null MX record for this domain consists of a single period.</span></span>
+
+<span data-ttu-id="62c63-162">Например:</span><span class="sxs-lookup"><span data-stu-id="62c63-162">For example:</span></span>
+
+```text
+noreply.contoso.com IN MX .
 ```
 
-### <a name="format-of-the-from-address-if-you-include-a-display-name"></a><span data-ttu-id="2c464-157">Формат адреса "от:", если вы включаете отображаемое имя</span><span class="sxs-lookup"><span data-stu-id="2c464-157">Format of the From: address if you include a display name</span></span>
-<span data-ttu-id="2c464-158"><a name="FormatDisplayName"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-158"><a name="FormatDisplayName"> </a></span></span>
+<span data-ttu-id="62c63-163">Для получения дополнительных сведений о настройке записей MX ознакомьтесь со статьей [Создание DNS-записей на любом поставщике услуг хостинга DNS для Office 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span><span class="sxs-lookup"><span data-stu-id="62c63-163">For more information about setting up MX records, see [Create DNS records at any DNS hosting provider for Office 365](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).</span></span>
 
-<span data-ttu-id="2c464-159">Для: адреса, включающие значение для отображаемого имени, применяются следующие правила.</span><span class="sxs-lookup"><span data-stu-id="2c464-159">For From: addresses that include a value for the display name, the following rules apply:</span></span>
+<span data-ttu-id="62c63-164">Дополнительные сведения о публикации пустых MX приведены в статье [RFC 7505](https://tools.ietf.org/html/rfc7505).</span><span class="sxs-lookup"><span data-stu-id="62c63-164">For more information about publishing a null MX, see [RFC 7505](https://tools.ietf.org/html/rfc7505).</span></span>
 
-- <span data-ttu-id="2c464-160">Если адрес отправителя включает отображаемое имя, а отображаемое имя содержит запятую, отображаемое имя необходимо заключить в кавычки.</span><span class="sxs-lookup"><span data-stu-id="2c464-160">If the sender address includes a display name, and the display name includes a comma, then the display name must be enclosed within quotation marks.</span></span> <span data-ttu-id="2c464-161">Пример:</span><span class="sxs-lookup"><span data-stu-id="2c464-161">For example:</span></span>
+## <a name="override-from-address-enforcement"></a><span data-ttu-id="62c63-165">Переопределение из принудительного применения адресов</span><span class="sxs-lookup"><span data-stu-id="62c63-165">Override From address enforcement</span></span>
 
-    <span data-ttu-id="2c464-162">Приведенный ниже пример является допустимым:</span><span class="sxs-lookup"><span data-stu-id="2c464-162">The following example is valid:</span></span>
+<span data-ttu-id="62c63-166">Чтобы обойти требования из адреса для входящей электронной почты, можно использовать список разрешенных IP-адресов (фильтрация подключений) или правила потока обработки почты (также называемые правилами транспорта), как описано в [статье Создание списков надежных отправителей в Office 365](create-safe-sender-lists-in-office-365.md).</span><span class="sxs-lookup"><span data-stu-id="62c63-166">To bypass the From address requirements for inbound email, you can use the IP Allow List (connection filtering) or mail flow rules (also known as transport rules) as described in [Create safe sender lists in Office 365](create-safe-sender-lists-in-office-365.md).</span></span>
 
-  ```
-  From: "Sender, Example" <sender.example@contoso.com>
-  ```
+<span data-ttu-id="62c63-167">Вы не можете переопределить требования к адресу для исходящей электронной почты, отправляемой из Office 365.</span><span class="sxs-lookup"><span data-stu-id="62c63-167">You can't override the From address requirements for outbound email that you send from Office 365.</span></span> <span data-ttu-id="62c63-168">Кроме того, Outlook.com запрещает переопределение любого вида даже через поддержку.</span><span class="sxs-lookup"><span data-stu-id="62c63-168">In addition, Outlook.com will not allow overrides of any kind, even through support.</span></span>
 
-    <span data-ttu-id="2c464-163">Следующий пример является недопустимым:</span><span class="sxs-lookup"><span data-stu-id="2c464-163">The following example is not valid:</span></span>
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a><span data-ttu-id="62c63-169">Другие способы предотвращения и защиты циберкримес в Office 365</span><span class="sxs-lookup"><span data-stu-id="62c63-169">Other ways to prevent and protect against cybercrimes in Office 365</span></span>
 
-  ```
-  From: Sender, Example <sender.example@contoso.com>
-  ```
-
-    <span data-ttu-id="2c464-164">Не заключайте отображаемое имя в кавычки, если это отображаемое имя включает запятую в соответствии со спецификацией RFC 5322.</span><span class="sxs-lookup"><span data-stu-id="2c464-164">Not enclosing the display name in quotation marks if that display name includes a comma is invalid according to RFC 5322.</span></span>
-
-    <span data-ttu-id="2c464-165">Рекомендуется заключить отображаемое имя в кавычки независимо от того, есть ли в отображаемом имени запятая.</span><span class="sxs-lookup"><span data-stu-id="2c464-165">As a best practice, put quote marks around the display name regardless of whether or not there is a comma within the display name.</span></span>
-
-- <span data-ttu-id="2c464-166">Если адрес отправителя включает отображаемое имя, адрес электронной почты должен быть заключен в угловые скобки.</span><span class="sxs-lookup"><span data-stu-id="2c464-166">If the sender address includes a display name, then the email address must be enclosed within angle brackets.</span></span>
-
-    <span data-ttu-id="2c464-167">Рекомендуется вставлять пробел между отображаемым именем и адресом электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2c464-167">As a best practice, Microsoft strongly recommends that you insert a space between the display name and the email address.</span></span>
-
-### <a name="additional-examples-of-valid-and-invalid-from-addresses"></a><span data-ttu-id="2c464-168">Дополнительные примеры допустимых и недопустимых адресов from:</span><span class="sxs-lookup"><span data-stu-id="2c464-168">Additional examples of valid and invalid From: addresses</span></span>
-<span data-ttu-id="2c464-169"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-169"><a name="Examples"> </a></span></span>
-
-- <span data-ttu-id="2c464-170">Верно</span><span class="sxs-lookup"><span data-stu-id="2c464-170">Valid:</span></span>
-
-  ```
-  From: "Office 365" <sender@contoso.com>
-  ```
-
-- <span data-ttu-id="2c464-171">Недопустимый.</span><span class="sxs-lookup"><span data-stu-id="2c464-171">Invalid.</span></span> <span data-ttu-id="2c464-172">Адрес электронной почты не заключен в угловые скобки:</span><span class="sxs-lookup"><span data-stu-id="2c464-172">The email address is not enclosed with angle brackets:</span></span>
-
-  ```
-  From: Office 365 sender@contoso.com
-  ```
-
-- <span data-ttu-id="2c464-173">Допустимый, но не рекомендуемый.</span><span class="sxs-lookup"><span data-stu-id="2c464-173">Valid, but not recommended.</span></span> <span data-ttu-id="2c464-174">Отображаемое имя не находится в кавычках.</span><span class="sxs-lookup"><span data-stu-id="2c464-174">The display name is not in quotes.</span></span> <span data-ttu-id="2c464-175">Рекомендуется заключить отображаемое имя в кавычки:</span><span class="sxs-lookup"><span data-stu-id="2c464-175">As a best practice, always put quotation marks around the display name:</span></span>
-
-  ```
-  From: Office 365 <sender@contoso.com>
-  ```
-
-- <span data-ttu-id="2c464-176">Недопустимый.</span><span class="sxs-lookup"><span data-stu-id="2c464-176">Invalid.</span></span> <span data-ttu-id="2c464-177">Все заключено в кавычки, а не только отображаемое имя:</span><span class="sxs-lookup"><span data-stu-id="2c464-177">Everything is enclosed within quotation marks, not just the display name:</span></span>
-
-  ```
-  From: "Office 365 <sender@contoso.com>"
-  ```
-
-- <span data-ttu-id="2c464-178">Недопустимый.</span><span class="sxs-lookup"><span data-stu-id="2c464-178">Invalid.</span></span> <span data-ttu-id="2c464-179">Адреса электронной почты не заключены в угловые скобки:</span><span class="sxs-lookup"><span data-stu-id="2c464-179">There are no angle brackets around the email address:</span></span>
-
-  ```
-  From: "Office 365 <sender@contoso.com>" sender@contoso.com
-  ```
-
-- <span data-ttu-id="2c464-180">Недопустимый.</span><span class="sxs-lookup"><span data-stu-id="2c464-180">Invalid.</span></span> <span data-ttu-id="2c464-181">Между отображаемым именем и левой угловой скобкой нет пробелов:</span><span class="sxs-lookup"><span data-stu-id="2c464-181">There is no space between the display name and left angle bracket:</span></span>
-
-  ```
-  From: Office 365<sender@contoso.com>
-  ```
-
-- <span data-ttu-id="2c464-182">Недопустимый.</span><span class="sxs-lookup"><span data-stu-id="2c464-182">Invalid.</span></span> <span data-ttu-id="2c464-183">Между закрывающей кавычкой и левой угловой скобкой нет пробела.</span><span class="sxs-lookup"><span data-stu-id="2c464-183">There is no space between the closing quotation mark around the display name and the left angle bracket.</span></span>
-
-  ```
-  From: "Office 365"<sender@contoso.com>
-  ```
-
-### <a name="suppress-auto-replies-to-your-custom-domain-without-breaking-the-from-policy"></a><span data-ttu-id="2c464-184">Отмена автоматического ответа на личный домен без нарушения политики "от:"</span><span class="sxs-lookup"><span data-stu-id="2c464-184">Suppress auto-replies to your custom domain without breaking the From: policy</span></span>
-<span data-ttu-id="2c464-185"><a name="SuppressAutoReply"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-185"><a name="SuppressAutoReply"> </a></span></span>
-
-<span data-ttu-id="2c464-186">С помощью применения политики "создать из: политика" вы больше не можете использовать \< \> : для отключения автоответов.</span><span class="sxs-lookup"><span data-stu-id="2c464-186">With the new From: policy enforcement, you can no longer use From: \<\> to suppress auto-replies.</span></span> <span data-ttu-id="2c464-187">Вместо этого необходимо настроить пустую запись MX для личного домена.</span><span class="sxs-lookup"><span data-stu-id="2c464-187">Instead, you need to set up a null MX record for your custom domain.</span></span>
-
-<span data-ttu-id="2c464-188">Запись почтового обменника (MX) — это запись ресурса в DNS, которая определяет почтовый сервер, который получает почту для вашего домена.</span><span class="sxs-lookup"><span data-stu-id="2c464-188">The mail exchanger (MX) record is a resource record in DNS that identifies the mail server that receives mail for your domain.</span></span> <span data-ttu-id="2c464-189">Автоматические ответы (и все ответы) подавляются, так как отсутствует опубликованный адрес, на который отвечающий сервер может отправлять сообщения.</span><span class="sxs-lookup"><span data-stu-id="2c464-189">Auto-replies (and all replies) are naturally suppressed because there is no published address to which the responding server can send messages.</span></span>
-
-<span data-ttu-id="2c464-190">При настройке пустой записи MX для личного домена:</span><span class="sxs-lookup"><span data-stu-id="2c464-190">When you set up a null MX record for your custom domain:</span></span>
-
-- <span data-ttu-id="2c464-191">Выберите домен, из которого отправляются сообщения, которые не принимают (получают) сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="2c464-191">Choose a domain from which to send messages that doesn't accept (receive) email.</span></span> <span data-ttu-id="2c464-192">Например, если ваш основной домен — contoso.com, вы можете выбрать noreply.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="2c464-192">For example, if your primary domain is contoso.com, you might choose noreply.contoso.com.</span></span>
-
-- <span data-ttu-id="2c464-193">Настройте пустую запись MX для вашего домена.</span><span class="sxs-lookup"><span data-stu-id="2c464-193">Set up the null MX record for your domain.</span></span> <span data-ttu-id="2c464-194">Пустая запись MX состоит из одной точки, например:</span><span class="sxs-lookup"><span data-stu-id="2c464-194">A null MX record consists of a single dot, for example:</span></span>
-
-  ```
-  noreply.contoso.com IN MX .
-  ```
-
-<span data-ttu-id="2c464-195">Дополнительные сведения о публикации пустых MX приведены в статье [RFC 7505](https://tools.ietf.org/html/rfc7505).</span><span class="sxs-lookup"><span data-stu-id="2c464-195">For more information about publishing a null MX, see [RFC 7505](https://tools.ietf.org/html/rfc7505).</span></span>
-
-### <a name="overriding-the-office-365-from-address-enforcement-policy"></a><span data-ttu-id="2c464-196">Переопределение Office 365 from: политика принудительного применения адресов</span><span class="sxs-lookup"><span data-stu-id="2c464-196">Overriding the Office 365 From: address enforcement policy</span></span>
-<span data-ttu-id="2c464-197"><a name="Override"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-197"><a name="Override"> </a></span></span>
-
-<span data-ttu-id="2c464-198">После завершения развертывания новой политики можно обходить эту политику только для входящей почты, получаемой из Office 365, с помощью одного из следующих методов:</span><span class="sxs-lookup"><span data-stu-id="2c464-198">Once roll out of the new policy is complete, you can only bypass this policy for inbound mail you receive from Office 365 by using one of the following methods:</span></span>
-
-- <span data-ttu-id="2c464-199">Списки разрешенных IP-адресов</span><span class="sxs-lookup"><span data-stu-id="2c464-199">IP allow lists</span></span>
-
-- <span data-ttu-id="2c464-200">Правила для почтового процесса Exchange Online</span><span class="sxs-lookup"><span data-stu-id="2c464-200">Exchange Online mail flow rules</span></span>
-
-<span data-ttu-id="2c464-201">Корпорация Майкрософт настоятельно рекомендует переопределять принудительное применение политики "от:".</span><span class="sxs-lookup"><span data-stu-id="2c464-201">Microsoft strongly recommends against overriding the enforcement of the From: policy.</span></span> <span data-ttu-id="2c464-202">Переопределение этой политики может привести к снижению риска предоставления нежелательной почты, фишинга и других циберкримес в Организации.</span><span class="sxs-lookup"><span data-stu-id="2c464-202">Overriding this policy can increase your organization's risk of exposure to spam, phishing, and other cybercrimes.</span></span>
-
-<span data-ttu-id="2c464-203">Вы не можете переопределить эту политику для исходящей почты, отправляемой в Office 365.</span><span class="sxs-lookup"><span data-stu-id="2c464-203">You cannot override this policy for outbound mail you send in Office 365.</span></span> <span data-ttu-id="2c464-204">Кроме того, Outlook.com запрещает переопределение любого вида даже через поддержку.</span><span class="sxs-lookup"><span data-stu-id="2c464-204">In addition, Outlook.com will not allow overrides of any kind, even through support.</span></span>
-
-### <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a><span data-ttu-id="2c464-205">Другие способы предотвращения и защиты циберкримес в Office 365</span><span class="sxs-lookup"><span data-stu-id="2c464-205">Other ways to prevent and protect against cybercrimes in Office 365</span></span>
-<span data-ttu-id="2c464-206"><a name="OtherProtection"> </a></span><span class="sxs-lookup"><span data-stu-id="2c464-206"><a name="OtherProtection"> </a></span></span>
-
-<span data-ttu-id="2c464-207">Дополнительные сведения о том, как можно усилить Организацию для циберкримес, например фишинга, нежелательной почты, нарушений данных и других угроз, приведены в статье [рекомендации по обеспечению безопасности для Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data).</span><span class="sxs-lookup"><span data-stu-id="2c464-207">For more information on how you can strengthen your organization against cybercrimes like phishing, spamming, data breaches, and other threats, see [Security best practices for Office 365](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data).</span></span>
-
-## <a name="related-topics"></a><span data-ttu-id="2c464-208">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="2c464-208">Related Topics</span></span>
-
-[<span data-ttu-id="2c464-209">Подложные уведомления о недоставленном сообщении и EOP</span><span class="sxs-lookup"><span data-stu-id="2c464-209">Backscatter messages and EOP</span></span>](backscatter-messages-and-eop.md)
+<span data-ttu-id="62c63-170">Дополнительные сведения о том, как можно усилить Организацию фишинга, нежелательной почты, нарушений данных и других угроз, можно найти [в статьях 10 наиболее распространенных способов защиты Office 365 и Microsoft 365 бизнес-планы](../../admin/security-and-compliance/secure-your-business-data.md).</span><span class="sxs-lookup"><span data-stu-id="62c63-170">For more information on how you can strengthen your organization against phishing, spam, data breaches, and other threats, see [Top 10 ways to secure Office 365 and Microsoft 365 Business plans](../../admin/security-and-compliance/secure-your-business-data.md).</span></span>

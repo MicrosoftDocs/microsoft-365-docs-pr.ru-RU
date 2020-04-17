@@ -22,69 +22,77 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Сведения о том, как найти значения и сведения, необходимые для создания записей DNS для Office 365. '
 ms.custom: okr_smb
-ms.openlocfilehash: 2490532894ef00bab5de3f406b0c104529423382
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 2cb45b6a5c07bd50e15e7f2a941be344b5f69038
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210384"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540883"
 ---
-# <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a><span data-ttu-id="54d22-103">Сбор необходимых сведений для создания DNS-записей Office 365</span><span class="sxs-lookup"><span data-stu-id="54d22-103">Gather the information you need to create Office 365 DNS records</span></span>
+# <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a><span data-ttu-id="1dd4c-103">Сбор необходимых сведений для создания DNS-записей Office 365</span><span class="sxs-lookup"><span data-stu-id="1dd4c-103">Gather the information you need to create Office 365 DNS records</span></span>
 
- <span data-ttu-id="54d22-104">Если вы не нашли то, что вы ищете, обратитесь к разделу **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.</span><span class="sxs-lookup"><span data-stu-id="54d22-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="1dd4c-104">Если вы не нашли то, что вы ищете, обратитесь к разделу **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-### <a name="step-1-find-the-txt-record-value-and-verify"></a><span data-ttu-id="54d22-105">Шаг 1: Найдите значение записи TXT и проверьте</span><span class="sxs-lookup"><span data-stu-id="54d22-105">Step 1: Find the TXT record value and verify</span></span>
+### <a name="step-1-find-the-txt-record-value-and-verify"></a><span data-ttu-id="1dd4c-105">Шаг 1: Найдите значение записи TXT и проверьте</span><span class="sxs-lookup"><span data-stu-id="1dd4c-105">Step 1: Find the TXT record value and verify</span></span>
 
-1. <span data-ttu-id="54d22-106">В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="54d22-106">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+::: moniker range="o365-worldwide"
+
+1. <span data-ttu-id="1dd4c-106">В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="1dd4c-106">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+
+::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="54d22-107">В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> .</span><span class="sxs-lookup"><span data-stu-id="54d22-107">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="1dd4c-107">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** > ".</span><span class="sxs-lookup"><span data-stu-id="1dd4c-107">In the admin center, go to the **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="54d22-108">В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .</span><span class="sxs-lookup"><span data-stu-id="54d22-108">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="1dd4c-108">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** > ".</span><span class="sxs-lookup"><span data-stu-id="1dd4c-108">In the admin center, go to the **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
     
-2. <span data-ttu-id="54d22-109">На странице **домены** выберите свой домен, а затем нажмите кнопку **запустить программу установки**.</span><span class="sxs-lookup"><span data-stu-id="54d22-109">On the **Domains** page, select your domain, then select **Start setup**.</span></span> <span data-ttu-id="54d22-110">Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.</span><span class="sxs-lookup"><span data-stu-id="54d22-110">You'll go back to the domains setup wizard to see the specific value you need to add.</span></span>
+2. <span data-ttu-id="1dd4c-109">На странице **домены** выберите свой домен, а затем нажмите кнопку **запустить программу установки**.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-109">On the **Domains** page, select your domain, then select **Start setup**.</span></span> <span data-ttu-id="1dd4c-110">Вы вернетесь в мастер настройки доменов, чтобы просмотреть значение, которое нужно добавить.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-110">You'll go back to the domains setup wizard to see the specific value you need to add.</span></span>
     
-3. <span data-ttu-id="54d22-111">На странице **Проверка домена** выберите **Добавить запись типа TXT**, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="54d22-111">On the **Verify domain** page, select **Add a TXT record instead**, then select **Next**.</span></span>
+3. <span data-ttu-id="1dd4c-111">На странице **Проверка домена** выберите **Добавить запись типа TXT**, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-111">On the **Verify domain** page, select **Add a TXT record instead**, then select **Next**.</span></span>
     
-4. <span data-ttu-id="54d22-112">Скопируйте отображаемое **значение txt** .</span><span class="sxs-lookup"><span data-stu-id="54d22-112">Copy the **TXT value** shown.</span></span> <span data-ttu-id="54d22-113">Он выглядит следующим образом: **MS = мскскскскскскскскс**.</span><span class="sxs-lookup"><span data-stu-id="54d22-113">It looks like this: **MS=msXXXXXXXX**.</span></span> 
+4. <span data-ttu-id="1dd4c-112">Скопируйте отображаемое **значение txt** .</span><span class="sxs-lookup"><span data-stu-id="1dd4c-112">Copy the **TXT value** shown.</span></span> <span data-ttu-id="1dd4c-113">Он выглядит следующим образом: **MS = мскскскскскскскскс**.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-113">It looks like this: **MS=msXXXXXXXX**.</span></span> 
     
-5. <span data-ttu-id="54d22-114">Перейдите к разделу [Создание записей DNS для любого поставщика услуг размещения DNS](create-dns-records-at-any-dns-hosting-provider.md)и выберите узел DNS из списка регистраторов, чтобы просмотреть пошаговые инструкции.</span><span class="sxs-lookup"><span data-stu-id="54d22-114">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and select your DNS host from the list of registrars to see the step-by-step instructions.</span></span>
+5. <span data-ttu-id="1dd4c-114">Перейдите к разделу [Создание записей DNS для любого поставщика услуг размещения DNS](create-dns-records-at-any-dns-hosting-provider.md)и выберите узел DNS из списка регистраторов, чтобы просмотреть пошаговые инструкции.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-114">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and select your DNS host from the list of registrars to see the step-by-step instructions.</span></span>
     
-6. <span data-ttu-id="54d22-115">Выполните действия, чтобы создать запись TXT (или MX) на своем узле DNS, а затем проверьте домен в Office 365.</span><span class="sxs-lookup"><span data-stu-id="54d22-115">Follow the steps for creating the TXT record (or MX record) at your DNS host, then verify the domain back in Office 365.</span></span>
+6. <span data-ttu-id="1dd4c-115">Выполните действия, чтобы создать запись TXT (или MX) на своем узле DNS, а затем проверьте домен в Office 365.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-115">Follow the steps for creating the TXT record (or MX record) at your DNS host, then verify the domain back in Office 365.</span></span>
 
-7. <span data-ttu-id="54d22-116">Удалите запись TXT (или запись MX) с узла DNS, когда домен будет проверен в Office 365.</span><span class="sxs-lookup"><span data-stu-id="54d22-116">Remove the TXT record (or MX record) from your DNS host once the domain is verified in Office 365.</span></span>
+7. <span data-ttu-id="1dd4c-116">Удалите запись TXT (или запись MX) с узла DNS, когда домен будет проверен в Office 365.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-116">Remove the TXT record (or MX record) from your DNS host once the domain is verified in Office 365.</span></span>
     
-### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a><span data-ttu-id="54d22-117">Шаг 2: поиск значения записи MX для электронной почты и т. д.</span><span class="sxs-lookup"><span data-stu-id="54d22-117">Step 2: Find the MX record value for email and more</span></span>
+### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a><span data-ttu-id="1dd4c-117">Шаг 2: поиск значения записи MX для электронной почты и т. д.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-117">Step 2: Find the MX record value for email and more</span></span>
 
-1. <span data-ttu-id="54d22-118">В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="54d22-118">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+::: moniker range="o365-worldwide"
+
+1. <span data-ttu-id="1dd4c-118">В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="1dd4c-118">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+
+::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="54d22-119">В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> .</span><span class="sxs-lookup"><span data-stu-id="54d22-119">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="1dd4c-119">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** > ".</span><span class="sxs-lookup"><span data-stu-id="1dd4c-119">In the admin center, go to the **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="54d22-120">В центре администрирования перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .</span><span class="sxs-lookup"><span data-stu-id="54d22-120">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="1dd4c-120">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** > ".</span><span class="sxs-lookup"><span data-stu-id="1dd4c-120">In the admin center, go to the **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
     
-2. <span data-ttu-id="54d22-121">На странице **Домены** щелкните свой домен.</span><span class="sxs-lookup"><span data-stu-id="54d22-121">On the **Domains** page, select your domain.</span></span> 
+2. <span data-ttu-id="1dd4c-121">На странице **Домены** щелкните свой домен.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-121">On the **Domains** page, select your domain.</span></span> 
     
-3. <span data-ttu-id="54d22-122">В разделе **Обязательные параметры DNS** вы увидите записи DNS, которые нужно добавить.</span><span class="sxs-lookup"><span data-stu-id="54d22-122">Under **Required DNS settings**, you'll see the DNS records to add.</span></span>
+3. <span data-ttu-id="1dd4c-122">В разделе **Обязательные параметры DNS** вы увидите записи DNS, которые нужно добавить.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-122">Under **Required DNS settings**, you'll see the DNS records to add.</span></span>
     
-    <span data-ttu-id="54d22-123">Эти сведения понадобятся во время внесения изменений на узле DNS, чтобы можно было скопировать и вставить значения.</span><span class="sxs-lookup"><span data-stu-id="54d22-123">You'll want to keep this information available while you make changes at your DNS host, so you can copy and paste the values.</span></span>
+    <span data-ttu-id="1dd4c-123">Эти сведения понадобятся во время внесения изменений на узле DNS, чтобы можно было скопировать и вставить значения.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-123">You'll want to keep this information available while you make changes at your DNS host, so you can copy and paste the values.</span></span>
     
-    <span data-ttu-id="54d22-124">То, какие группы записей DNS будут перечислены на странице, зависит от выбранных вами параметров в разделе **Назначение домена**.</span><span class="sxs-lookup"><span data-stu-id="54d22-124">The groups of DNS records that are listed on the page depend on your choices listed under **Domain purpose**.</span></span>
+    <span data-ttu-id="1dd4c-124">То, какие группы записей DNS будут перечислены на странице, зависит от выбранных вами параметров в разделе **Назначение домена**.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-124">The groups of DNS records that are listed on the page depend on your choices listed under **Domain purpose**.</span></span>
     
-4. <span data-ttu-id="54d22-125">Перейдите к разделу [Создание DNS-записей на любом поставщике услуг размещения DNS](create-dns-records-at-any-dns-hosting-provider.md), а затем выберите узел DNS из списка регистраторов, чтобы просмотреть пошаговые инструкции по добавлению записей на веб-сайте узла DNS.</span><span class="sxs-lookup"><span data-stu-id="54d22-125">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and then select your DNS host from the list of registrars to see step-by-step instructions for adding records at that DNS host's website.</span></span>
+4. <span data-ttu-id="1dd4c-125">Перейдите к разделу [Создание DNS-записей на любом поставщике услуг размещения DNS](create-dns-records-at-any-dns-hosting-provider.md), а затем выберите узел DNS из списка регистраторов, чтобы просмотреть пошаговые инструкции по добавлению записей на веб-сайте узла DNS.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-125">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and then select your DNS host from the list of registrars to see step-by-step instructions for adding records at that DNS host's website.</span></span>
     
-5. <span data-ttu-id="54d22-126">Следуйте указаниям, чтобы создать записи в своем узле DNS.</span><span class="sxs-lookup"><span data-stu-id="54d22-126">Follow the steps for creating the records at your DNS host.</span></span>
+5. <span data-ttu-id="1dd4c-126">Следуйте указаниям, чтобы создать записи в своем узле DNS.</span><span class="sxs-lookup"><span data-stu-id="1dd4c-126">Follow the steps for creating the records at your DNS host.</span></span>
