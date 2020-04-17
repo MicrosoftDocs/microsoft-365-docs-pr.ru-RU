@@ -8,7 +8,7 @@
       href: recently-updated-topics-mcc.md
     - name: "Центр соответствия требованиям Microsoft\_365"
       href: microsoft-365-compliance-center.md
-    - name: Каталог решений Microsoft 365
+    - name: "Каталог решений Microsoft\_365"
       href: microsoft-365-solution-catalog.md
     - name: Переход в Центр безопасности и соответствия требованиям
       href: go-to-the-securitycompliance-center.md
@@ -16,37 +16,37 @@
       href: use-your-free-azure-ad-subscription-in-office-365.md
     - name: "Планирование безопасности и соответствия требованиям в Office\_365"
       href: plan-for-security-and-compliance.md
-- name: Управление рисками для оценки
+- name: 'Управление рисками, связанными с инсайдерами'
   items:
-    - name: Внутреннее управление рисками
+    - name: 'Управление рисками, связанными с инсайдерами'
       items:
-        - name: Сведения об управлении рисками для предварительной оценки
+        - name: Сведения об управлении внутренними рисками
           href: insider-risk-management.md
-        - name: Начало работы с управлением рисками для оценки
+        - name: Начало работы с управлением внутренними рисками
           href: insider-risk-management-configure.md
-        - name: Создание и управление политиками риска для оценки
+        - name: Создание политик в отношении внутренних рисков и управление ими
           href: insider-risk-management-policies.md
-        - name: Исследование оповещений о рисках для участников программы
+        - name: Расследование оповещений о внутренних рисках
           href: insider-risk-management-alerts.md
-        - name: Выполнение действий с рисками для участников программы предварительной оценки
+        - name: Принятие мер в случае внутренних рисков
           href: insider-risk-management-cases.md
-        - name: Просмотр данных с помощью обозревателя контента для оценки риска
+        - name: Просмотр данных с помощью обозревателя содержимого внутреннего риска
           href: insider-risk-management-content-explorer.md
-        - name: Добавление пользователей в политики риска для оценки
+        - name: 'Добавление пользователей в политики, связанные с внутренними рисками'
           href: insider-risk-management-users.md
-        - name: Создание шаблонов уведомлений о рисках для оценки
+        - name: Создание шаблонов выявления внутренних рисков
           href: insider-risk-management-notices.md
-    - name: Соответствие коммуникациям
+    - name: Соответствие требованиям к обмену данными
       items:
-        - name: Сведения о соответствии требованиям к общению
+        - name: Сведения о соответствии требованиям к обмену данными
           href: communication-compliance.md
-        - name: Начало работы с обеспечением соответствия требованиям
+        - name: Начало работы с соответствием требованиям к обмену данными
           href: communication-compliance-configure.md
-        - name: Исследование и устранение оповещений о соответствии в связи
+        - name: Анализ и устранений оповещений соответствия требованиям к обмену данными
           href: communication-compliance-investigate-remediate.md
-        - name: Справка по функциям для обеспечения соответствия требованиям
+        - name: Справка по соответствию требованиям к обмену данными
           href: communication-compliance-feature-reference.md
-        - name: 'Пример: contoso быстро настраивает нежелательные языковые политики'
+        - name: Пример — быстрая настройка политики ненормативной лексики в Contoso
           href: communication-compliance-case-study.md
         - name: "Политики контроля в Office\_365"
           href: supervision-policies.md
@@ -67,7 +67,7 @@
       items:
         - name: Подробнее об управлении привилегированным доступом
           href: privileged-access-management-overview.md
-        - name: Приступая к управлению привилегированным доступом
+        - name: Начало работы с управлением привилегированным доступом
           href: privileged-access-management-configuration.md
     - name: Защита доступа пользователей и устройств
       href: protect-access-to-data-and-services.md
@@ -96,7 +96,7 @@
           href: sensitivity-labels-sharepoint-onedrive-files.md
         - name: Использование меток конфиденциальности в приложениях Office
           href: sensitivity-labels-office-apps.md
-    - name: Предотвращение потери данных (DLP)
+    - name: Защита от потери данных (DLP)
       href: data-loss-prevention-policies.md
       items:
         - name: DLP и Microsoft Teams
@@ -137,7 +137,7 @@
           href: customize-a-built-in-sensitive-information-type.md
         - name: Пользовательские типы конфиденциальной информации
           href: custom-sensitive-info-types.md
-        - name: Создание пользовательских типов конфиденциальной информации с классификацией на основе точного совпадения данных
+        - name: Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
         - name: Создание пользовательского типа конфиденциальной информации в Центре безопасности и соответствия требованиям
           href: create-a-custom-sensitive-information-type.md
@@ -149,7 +149,7 @@
           href: document-fingerprinting.md
         - name: Функции защиты от потери данных для конфиденциальной информации
           href: what-the-dlp-functions-look-for.md
-    - name: Шифрование в M365
+    - name: Шифрование в Microsoft 365
       href: encryption.md
     - name: Шифрование служб Office 365
       href: office-365-service-encryption.md
@@ -161,7 +161,7 @@
           href: customer-key-set-up.md
         - name: Управление ключом клиента для Office 365
           href: customer-key-manage.md
-        - name: Вращение или поворот ключа клиента или ключа доступности
+        - name: Смена или ротация ключа клиента или ключа доступности
           href: customer-key-availability-key-roll.md
         - name: Сведения о ключе доступности для ключа клиента Office 365
           href: customer-key-availability-key-understand.md
@@ -170,7 +170,7 @@
       items:
         - name: Шифрование сообщений Office 365 (OME)
           href: ome.md
-        - name: Настройка новых возможностей шифрования сообщений Office 365
+        - name: "Настройка новых возможностей шифрования сообщений Office\_365"
           href: set-up-new-message-encryption-capabilities.md
         - name: Определение правил потока обработки почты для шифрования сообщений электронной почты в Office 365
           href: define-mail-flow-rules-to-encrypt-email.md
@@ -204,7 +204,7 @@
               href: legacy-information-for-message-encryption.md
             - name: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
               href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: Настройка управления правами на доступ к данным в центре администрирования SharePoint
+    - name: Настройка IRM в Центре администрирования SharePoint
       href: set-up-irm-in-sp-admin-center.md
     - name: Общие сведения о классификации данных (предварительная версия)
       href: data-classification-overview.md
@@ -215,15 +215,15 @@
           href: data-classification-activity-explorer.md
         - name: Заметки о выпуске общедоступной предварительной версии классификации данных (предварительная версия)
           href: data-classification-pub-preview-relnotes.md
-        - name: Начало работы с помощью классификаторов для обучения (Предварительная версия)
+        - name: Начало работы с обучаемыми классификаторами (предварительная версия)
           href: classifier-getting-started-with.md
-        - name: Использование встроенного классификатора (Предварительная версия)
+        - name: Использование встроенного классификатора (предварительная версия)
           href: classifier-using-a-ready-to-use-classifier.md
         - name: Создание и обучение классификатора (предварительная версия)
           href: classifier-creating-a-trainable-classifier.md
-- name: Управление информацией
+- name: Организация управления информацией
   items:
-    - name: Управление информацией
+    - name: Организация управления информацией
       href: manage-information-governance.md
     - name: Импорт данных
       items:
@@ -241,7 +241,7 @@
           href: faqimporting-pst-files-to-office-365.md
     - name: Архивация сторонних данных
       items:
-        - name: Общие сведения об архивации сторонних данных
+        - name: Обзор архивации сторонних данных
           href: archiving-third-party-data.md
         - name: Настройка соединителя для архивации данных Facebook
           href: archive-facebook-data-with-sample-connector.md
@@ -251,7 +251,7 @@
           href: archive-linkedin-data.md
         - name: Настройка соединителя для архивации данных Instant Bloomberg
           href: archive-instant-bloomberg-data.md
-        - name: Настройка соединителя для импорта данных о ПЕРСОНАЛе
+        - name: Настройка соединителя для импорта данных о персонале
           href: import-hr-data.md
         - name: Архивация сторонних данных при помощи партнера
           href: work-with-partner-to-archive-third-party-data.md
@@ -275,7 +275,7 @@
           href: labels.md
         - name: Соблюдение правила 17a-4 SEC
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Пакетное создание и публикация меток хранения с помощью PowerShell
+        - name: Создание и публикация меток хранения с помощью PowerShell
           href: bulk-create-publish-labels-using-powershell.md
         - name: Хранение на основе событий
           href: event-driven-retention.md
@@ -323,7 +323,7 @@
               href: file-plan-manager.md
             - name: Метки хранения
               href: labels.md
-            - name: Пакетное создание и публикация меток хранения с помощью PowerShell
+            - name: Создание и публикация меток хранения с помощью PowerShell
               href: bulk-create-publish-labels-using-powershell.md
             - name: Просмотр использования меток с помощью аналитики меток
               href: label-analytics.md
@@ -347,7 +347,7 @@
   items:
     - name: Поиск контента
       items:
-        - name: Обзор поиска контента
+        - name: Общие сведения о поиске контента
           href: search-for-content.md
         - name: Использование поиска контента
           href: content-search.md
@@ -360,23 +360,23 @@
               href: export-search-results.md
             - name: Экспорт отчета о поиске
               href: export-a-content-search-report.md
-            - name: Загрузка результатов поиска с помощью Microsoft Edge
+            - name: Использование Microsoft Edge для скачивания результатов поиска
               href: configure-edge-to-export-search-results.md
             - name: Поиск и удаление сообщений электронной почты
               href: search-for-and-delete-messages-in-your-organization.md
-            - name: Поиск в облачных почтовых ящиках локальных пользователей
+            - name: Поиск облачных почтовых ящиков локальных пользователей
               href: search-cloud-based-mailboxes-for-on-premises-users.md
-            - name: Массовое изменение нескольких поисков контента
+            - name: Массовое редактирование нескольких поисков контента
               href: bulk-edit-content-searches.md
-            - name: Подготовка CSV-файла для поиска списка ИДЕНТИФИКАТОРов
+            - name: Подготовка CSV-файла для поиска по списку идентификаторов
               href: csv-file-for-an-id-list-content-search.md
             - name: Поиск сторонних данных
               href: use-content-search-to-search-third-party-data-that-was-imported.md
-            - name: Проверка запроса на поиск на наличие ошибок
+            - name: Проверка поискового запроса на наличие ошибок
               href: check-your-content-search-query-for-errors.md
             - name: Устранение распространенных проблем с обнаружением электронных данных
               href: ediscovery-troubleshooting-common-issues.md
-            - name: Повтор неудачного поиска
+            - name: Повторение неудачного поиска
               href: retry-failed-content-search.md
             - name: Сохранение получателей скрытой копии для поиска
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
@@ -390,7 +390,7 @@
               href: change-the-size-of-pst-files-when-exporting-results.md
             - name: Отключение отчетов при экспорте результатов поиска
               href: disable-reports-when-you-export-content-search-results.md
-        - name: Общие сведения о поиске контента
+        - name: Сведения о поиске контента
           items:
             - name: Ограничения поиска контента
               href: limits-for-content-search.md
@@ -398,25 +398,25 @@
               href: partially-indexed-items-in-content-search.md
             - name: Анализ частично индексированных элементов
               href: investigating-partially-indexed-items-in-ediscovery.md
-            - name: Отмена дублирования в результатах поиска
+            - name: Дедупликация результатов поиска
               href: de-duplication-in-ediscovery-search-results.md
-            - name: Различия между предполагаемыми и фактическими результатами поиска
+            - name: Различия между ожидаемыми и фактическими результатами поиска
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
-        - name: Запуск сценариев PowerShell для поиска контента
+        - name: Запуск сценариев PowerShell поиска контента
           items:
             - name: Использование поиска контента для целевых коллекций
               href: use-content-search-for-targeted-collections.md
-            - name: Поиск списка пользователей в почтовом ящике и в учетной записи OneDrive
+            - name: Поиск списка пользователей в почтовом ящике и учетной записи OneDrive
               href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md
-            - name: 'Создание, создание отчетов и удаление нескольких поисков'
+            - name: 'Создание, составление отчета и удаление нескольких поисковых запросов'
               href: create-report-on-and-delete-multiple-content-searches.md
             - name: Клонирование поиска
               href: clone-a-content-search.md
-    - name: Основное обнаружение электронных данных
+    - name: Core eDiscovery
       items:
         - name: Управление делами по обнаружению электронных данных
           href: ediscovery-cases.md
-        - name: Базовая справочная система обнаружения электронных данных
+        - name: Справочник по Core eDiscovery
           items:
             - name: Назначение разрешений на обнаружение электронных данных
               href: assign-ediscovery-permissions.md
@@ -424,27 +424,27 @@
               href: keyword-queries-and-search-conditions.md
             - name: Настройка фильтрации разрешений поиска
               href: permissions-filtering-for-content-search.md
-            - name: Настройка ограничений на соответствие требованиям
+            - name: Настройка границ обеспечения соответствия требованиям
               href: set-up-compliance-boundaries.md
-            - name: Использование скрипта для добавления пользователей в удержание для обнаружения электронных данных
+            - name: 'Использование сценария для добавления пользователей в удержание электронных данных '
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
-            - name: Создание отчета о удержаниях обнаружения электронных данных
+            - name: Создание отчета об удержаниях электронных данных
               href: create-a-report-on-holds-in-ediscovery-cases.md
-            - name: Поиск и очистка перенесенных данных
+            - name: Поиск и очистка утечки данных
               href: data-spillage-scenariosearch-and-purge.md
             - name: Сохранение получателей скрытой копии для поиска
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
             - name: Устранение распространенных проблем с обнаружением электронных данных
               href: ediscovery-troubleshooting-common-issues.md
-            - name: Повтор неудачного поиска
+            - name: Повторение неудачного поиска
               href: retry-failed-content-search.md
-            - name: Загрузка результатов поиска с помощью Microsoft Edge
+            - name: Использование Microsoft Edge для скачивания результатов поиска
               href: configure-edge-to-export-search-results.md
     - name: Advanced eDiscovery
       items:
-        - name: Обзор расширенных средств обнаружения электронных данных
+        - name: Обзор Advanced eDiscovery
           href: overview-ediscovery-20.md
-        - name: Начало работы с расширенным обнаружением электронных данных
+        - name: Начало работы с Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
         - name: Работа с хранителями
           href: managing-custodians.md
@@ -466,7 +466,7 @@
               href: manage-hold-notification.md
             - name: Подтверждение уведомления об удержании
               href: acknowledge-hold-notification.md
-        - name: Управление случаями удержания
+        - name: Управление удержаниями
           href: managing-holds.md
         - name: Работа с ошибками обработки
           href: processing-data-for-case.md
@@ -501,7 +501,7 @@
               href: manage-load-sets-in-advanced-ediscovery.md
         - name: Просмотр данных дела
           items:
-            - name: Использование панели мониторинга "набор проверки" (Предварительная версия)
+            - name: Использование панели мониторинга набора для проверки (предварительная версия)
               href: advanced-ediscovery-dashboard.md
             - name: Просмотр документов в наборе для проверки
               href: view-documents-in-review-set.md
@@ -539,7 +539,7 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Справочник по Advanced eDiscovery
           items:
-            - name: Расширенные пределы обнаружения электронных данных
+            - name: Ограничения Advanced eDiscovery
               href: limits-ediscovery20.md
             - name: Поддерживаемые типы файлов
               href: supported-filetypes-ediscovery20.md
@@ -555,17 +555,15 @@
               href: keyword-queries-and-search-conditions.md
             - name: Настройка фильтрации разрешений поиска
               href: permissions-filtering-for-content-search.md
-            - name: Настройка ограничений на соответствие требованиям
+            - name: Настройка границ обеспечения соответствия требованиям
               href: set-up-compliance-boundaries.md
-            - name: Расширенные отчеты об обнаружении электронных данных (Предварительная версия)
-              href: advanced-ediscovery-reports.md
             - name: Устранение неполадок AzCopy
               href: troubleshooting-azcopy.md
     - name: Advanced eDiscovery (классическая версия)
       items:
-        - name: Обзор расширенного обнаружения электронных данных (классический)
+        - name: Обзор Advanced eDiscovery (классическая версия)
           href: office-365-advanced-ediscovery.md
-        - name: Начало работы с расширенным обнаружением электронных данных (классический)
+        - name: Начало работы с Advanced eDiscovery (классическая версия)
           href: quick-setup-for-advanced-ediscovery.md
         - name: Настройка дел
           href: set-up-users-and-cases-in-advanced-ediscovery.md
@@ -576,9 +574,9 @@
           items:
             - name: Подготовка результатов поиска
               href: prepare-search-results-for-advanced-ediscovery.md
-            - name: Загрузка данных в случае
+            - name: Загрузка данных в дело
               href: prepare-data-for-advanced-ediscovery.md
-            - name: 'Импорт контента, отличного от Office 365, в дело'
+            - name: Импорт не связанного с Office 365 содержимого в дело
               href: import-non-office-365-data-into-advanced-ediscovery.md
         - name: Обработка данных дела
           href: run-the-process-module-in-advanced-ediscovery.md
@@ -628,7 +626,7 @@
               href: export-report-fields-in-advanced-ediscovery.md
             - name: Просмотр журнала пакетов и экспорт старых результатов
               href: view-batch-history-and-export-past-results.md
-        - name: Настройка расширенного обнаружения электронных данных (классический)
+        - name: Настройка Advanced eDiscovery (классическая версия)
           items:
             - name: Настройка параметров дела и организации
               href: define-case-and-tenant-settings-in-advanced-ediscovery.md
@@ -638,17 +636,17 @@
               href: set-ignore-text-in-advanced-ediscovery.md
             - name: Настройка выделенных ключевых слов и других параметров релевантности
               href: define-highlighted-keywords-and-advanced-options.md
-        - name: Расширенная ссылка на обнаружение электронных данных (Classic)
+        - name: Справочник по Advanced eDiscovery (классическая версия)
           items:
-            - name: Использование расширенных служебных программ обнаружения электронных данных (Classic)
+            - name: Использование служебных программ Advanced eDiscovery (классическая версия)
               href: use-advanced-ediscovery-utilities.md
             - name: Запуск отчетов
               href: run-reports-in-advanced-ediscovery.md
-    - name: Выбытие средств прежних версий электронных данных
+    - name: Прекращение поддержки устаревших средств обнаружения электронных данных
       href: legacy-ediscovery-retirement.md
 - name: Управление исследованиями данных
   items:
-    - name: Общие сведения о расследовании данных
+    - name: Общие сведения об исследовании данных
       href: overview-data-investigations.md
     - name: Управление инцидентом утечки данных
       href: manage-data-spillage-incidents.md
@@ -713,9 +711,9 @@
           href: close-or-delete-investigation.md
     - name: Справочные материалы по исследованиям данных
       items:
-        - name: Примечания к выпуску
+        - name: Заметки о выпуске
           href: data-investigations-release-notes.md
-        - name: Пределы расследования данных
+        - name: Ограничения для исследований данных
           href: limits-datainvestigations.md
         - name: Поддерживаемые типы файлов
           href: supported-filetypes-datainvestigations.md
@@ -723,13 +721,13 @@
           href: document-metadata-fields.md
         - name: Управление заданиями
           href: manage-jobs.md
-- name: Управление случаями удержания
+- name: Управление удержаниями
   items:
-    - name: 'Определение типа удержания, включенного в почтовый ящик'
+    - name: 'Как определить тип удержания, примененного для почтового ящика'
       href: identify-a-hold-on-an-exchange-online-mailbox.md
-    - name: Создание запроса на хранение для судебного разбирательства
+    - name: Создание удержания для судебного разбирательства
       href: create-a-litigation-hold.md
-    - name: Удаление элементов из папки "элементы с возможностью восстановления" в почтовых ящиках на удержании
+    - name: Удаление элементов в папке "Элементы с возможностью восстановления" почтовых ящиков на удержании
       href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
     - name: Увеличение квоты для папки "Элементы с возможностью восстановления" для почтовых ящиков на удержании
       href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
@@ -753,7 +751,7 @@
           href: use-sharing-auditing.md
         - name: Поиск действий по обнаружению электронных данных в журнале аудита
           href: search-for-ediscovery-activities-in-the-audit-log.md
-    - name: Аудит почтовых ящиков
+    - name: Аудит почтового ящика
       href: enable-mailbox-auditing.md
     - name: Расширенный аудит
       items:
@@ -771,24 +769,24 @@
       href: get-started-with-service-trust-portal.md
     - name: Рейтинг соответствия требованиям и диспетчер соответствия требованиям
       items:
-        - name: Оценка соответствия требованиям (Предварительная версия)
+        - name: Рейтинг соответствия требованиям (предварительная версия)
           href: compliance-score.md
-        - name: Настройка оценки соответствия требованиям (Предварительная версия)
+        - name: Настройка рейтинга соответствия требованиям (предварительная версия)
           href: compliance-score-setup.md
-        - name: Работа с оценкой соответствия требованиям (Предварительная версия)
+        - name: Работа с рейтингом соответствия требованиям (предварительная версия)
           href: working-with-compliance-score.md
-        - name: Расчет оценки соответствия требованиям (Предварительная версия)
+        - name: Расчет рейтинга соответствия требованиям (предварительная версия)
           href: compliance-score-methodology.md
-        - name: Заметки о выпуске для оценки соответствия требованиям (Предварительная версия)
+        - name: Заметки о выпуске рейтинга соответствия требованиям (предварительная версия)
           href: compliance-score-release-notes.md
-        - name: Вопросы и ответы по показателю соответствия требованиям (Предварительная версия)
+        - name: Вопросы и ответы о рейтинге соответствия требованиям (предварительная версия)
           href: compliance-score-faq.md
-        - name: Диспетчер соответствия требованиям (Предварительная версия)
+        - name: Диспетчер соответствия требованиям (предварительная версия)
           href: compliance-manager-overview.md
           items:
-            - name: Заметки о выпуске диспетчера соответствия требованиям (Предварительная версия)
+            - name: Заметки о выпуске диспетчера соответствия требованиям (предварительная версия)
               href: compliance-manager-release-notes.md
-            - name: Работа с диспетчером соответствия требованиям (Предварительная версия)
+            - name: Работа с диспетчером соответствия требованиям (предварительная версия)
               href: working-with-compliance-manager.md
             - name: Диспетчер соответствия требованиям (классический)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
@@ -797,7 +795,7 @@
     - name: "Защита информации в Office\_365 в соответствии с регламентом GDPR"
       href: office-365-information-protection-for-gdpr.md
       items:
-        - name: Обзор — защита от Office 365 для GDPR
+        - name: Обзор защиты в Office 365 в соответствии с GDPR
           href: office-365-info-protection-for-gdpr-overview.md
         - name: Поиск персональных данных
           href: search-for-and-find-personal-data.md
@@ -826,11 +824,11 @@
           href: gdpr-for-office-online-server.md
         - name: GDPR для локальных общих папок Windows Server
           href: gdpr-for-on-premises-file-shares.md
-    - name: Рекомендации для конкретных отраслей
+    - name: Специализированные отраслевые руководства
       items:
-        - name: Безопасность финансовых служб и соответствие требованиям
+        - name: Безопасность и соответствие требованиям для финансовых услуг
           href: ../solutions/financial-services-secure-collaboration.md
-        - name: Безопасность и соответствие служб энергопотребления
+        - name: Безопасность и соответствие требованиям для энергетических услуг
           href: ../solutions/energy-secure-collaboration.md
 - name: Планы действий по соответствию нормативным требованиям
   items:
@@ -853,7 +851,7 @@
               href: gdpr-arc-azure.md
             - name: "Dynamics\_365"
               href: gdpr-arc-dynamics365.md
-            - name: Службы поддержки & профессиональные службы Майкрософт
+            - name: Служба поддержки и Профессиональные услуги Майкрософт
               href: gdpr-arc-prof-services.md
             - name: Office 365
               href: gdpr-arc-office365.md
@@ -871,7 +869,7 @@
               href: gdpr-dsr-dynamics365.md
             - name: Intune
               href: gdpr-dsr-intune.md
-            - name: Службы поддержки & профессиональные службы Майкрософт
+            - name: Служба поддержки и Профессиональные услуги Майкрософт
               href: gdpr-dsr-prof-services.md
             - name: Office 365
               href: gdpr-dsr-office365.md
@@ -881,9 +879,9 @@
           items:
             - name: Уведомление о нарушении
               href: gdpr-breach-notification.md
-            - name: Azure & Dynamics 365
+            - name: Azure и Dynamics 365
               href: gdpr-breach-azure-dynamics.md
-            - name: Службы поддержки & профессиональные службы Майкрософт
+            - name: Служба поддержки и Профессиональные услуги Майкрософт
               href: gdpr-breach-microsoft-support-professional-services.md
             - name: Office 365
               href: gdpr-breach-office365.md
@@ -895,18 +893,18 @@
               href: gdpr-dpia-azure.md
             - name: "Dynamics\_365"
               href: gdpr-dpia-dynamics.md
-            - name: Службы поддержки & профессиональные службы Майкрософт
+            - name: Служба поддержки и Профессиональные услуги Майкрософт
               href: gdpr-dpia-prof-services.md
             - name: Office 365
               href: gdpr-dpia-office365.md
         - name: Специалист по защите данных корпорации Майкрософт
           href: gdpr-data-protection-officer.md
-- name: Гибридные возможности по соответствию требованиям.
+- name: Гибридные возможности по соответствию требованиям
   items:
     - name: Шифрование почты Exchange Online с помощью AD RMS
       href: information-rights-management-in-exchange-online.md
       items:
-        - name: "Настройка функции управления правами на доступ к данным для использования локального сервера служб Active\_Directory\_Rights\_Management"
+        - name: Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
           href: configure-irm-to-use-an-on-premises-ad-rms-server.md
 - name: Предложения для соответствия требованиям
   items:
@@ -914,13 +912,13 @@
       href: offering-home.md
     - name: Глобальные
       items:
-        - name: Контрольная точка CIS
+        - name: Контрольные показатели CIS
           href: offering-cis-benchmark.md
         - name: Аттестация CSA-STAR
           href: offering-csa-star-attestation.md
         - name: Сертификация CSA-STAR
           href: offering-csa-star-certification.md
-        - name: Самооценка CSA звезда
+        - name: Самостоятельная оценка CSA-STAR
           href: offering-csa-star-self-assessment.md
         - name: ISO 20000-1-2011
           href: offering-iso-20000-1-2011.md
@@ -938,7 +936,7 @@
           href: offering-iso-9001.md
         - name: SOC
           href: offering-soc.md
-        - name: НОРМАТИВ
+        - name: WCAG
           href: offering-wcag-2-1.md
     - name: Государственные учреждения США
       items:
@@ -950,13 +948,13 @@
           href: offering-dfars.md
         - name: 'DoD DISA L2,L4,L5'
           href: offering-dod-disa-l2-l4-l5.md
-        - name: DoE 10 CFR Part 810
+        - name: DoE 10 CFR часть 810
           href: offering-doe-10-cfr-part-810.md
         - name: EAR (правила экспортного контроля США)
           href: offering-ear.md
         - name: FedRAMP
           href: offering-fedramp.md
-        - name: FIPS 140-2;
+        - name: FIPS 140-2
           href: offering-fips-140-2.md
         - name: IRS 1075
           href: offering-irs-1075.md
@@ -972,7 +970,7 @@
       items:
         - name: Образование
           items:
-            - name: FERPA;
+            - name: FERPA
               href: offering-ferpa.md
         - name: Энергетика
           items:
@@ -1018,7 +1016,7 @@
               href: offering-rbi-irdai-india.md
             - name: SEC 17a-4
               href: offering-sec-17a-4.md
-            - name: С регулированием SCI
+            - name: SEC Regulation SCI
               href: offering-sec-reg-sci.md
             - name: SOC
               href: offering-soc.md
@@ -1038,7 +1036,7 @@
               href: offering-mars-e.md
             - name: NEN-7510 (Нидерланды)
               href: offering-nen-7510-netherlands.md
-            - name: Набор средств NHS IG (Соединенное королевство)
+            - name: Набор средств NHS IG (Соединенное Королевство)
               href: offering-nhs-ig-toolkit-uk.md
         - name: Производство
           items:
@@ -1048,13 +1046,13 @@
               href: offering-gxp.md
             - name: TISAX (Германия)
               href: offering-tisax-germany.md
-        - name: Мультимедиа
+        - name: СМИ
           items:
             - name: CDSA
               href: offering-cdsa.md
-            - name: DPP (Соединенное Королевство)
+            - name: DPP (СОЕДИНЕННОЕ КОРОЛЕВСТВО)
               href: offering-dpp-uk.md
-            - name: FACT (Соединенное Королевство)
+            - name: FACT (СОЕДИНЕННОЕ КОРОЛЕВСТВО)
               href: offering-fact-uk.md
             - name: MPAA
               href: offering-mpaa.md
@@ -1068,13 +1066,13 @@
               href: offering-amf-acpr-france.md
             - name: CDSA
               href: offering-cdsa.md
-            - name: Контрольная точка CIS
+            - name: Контрольные показатели CIS
               href: offering-cis-benchmark.md
             - name: Аттестация CSA-STAR
               href: offering-csa-star-attestation.md
-            - name: DoE 10 CFR Part 810
+            - name: DoE 10 CFR часть 810
               href: offering-doe-10-cfr-part-810.md
-            - name: DPP (Соединенное Королевство)
+            - name: DPP (СОЕДИНЕННОЕ КОРОЛЕВСТВО)
               href: offering-dpp-uk.md
             - name: EAR (правила экспортного контроля США)
               href: offering-ear.md
@@ -1086,7 +1084,7 @@
               href: offering-eba-eu.md
             - name: Соглашение о правилах обмена конфиденциальной информацией между ЕС и США
               href: offering-eu-us-privacy-shield.md
-            - name: FACT (Соединенное Королевство)
+            - name: FACT (СОЕДИНЕННОЕ КОРОЛЕВСТВО)
               href: offering-fact-uk.md
             - name: FCA (Соединенное Королевство)
               href: offering-fca-uk.md
@@ -1116,7 +1114,7 @@
               href: offering-mpaa.md
             - name: NBB + FSMA (Бельгия)
               href: offering-nbb-fsma-belgium.md
-            - name: Набор средств NHS IG (Соединенное королевство)
+            - name: Набор средств NHS IG (Соединенное Королевство)
               href: offering-nhs-ig-toolkit-uk.md
             - name: NIST CSF
               href: offering-nist-csf.md
@@ -1138,7 +1136,7 @@
       items:
         - name: Азия
           items:
-            - name: CS Mark (Gold) (Япония))
+            - name: CS Mark (Gold) (Япония)
               href: offering-cs-mark-gold-japan.md
             - name: DJCP (Китай)
               href: 'https://www.trustcenter.cn/compliance/default.html#DJCP'
@@ -1158,7 +1156,7 @@
           items:
             - name: APRA (Австралия)
               href: offering-APRA-Australia.md
-            - name: ИРАП/CCSL (Австралия)
+            - name: IRAP/CCSL (Австралия)
               href: offering-CCSL-IRAP-Australia.md
             - name: Платформа NZ CC (Новая Зеландия)
               href: offering-nz-cc-framework-nz.md
@@ -1190,11 +1188,11 @@
               href: offering-it-grundschutz-workbook-germany.md
             - name: LOPD (Испания)
               href: offering-lopd-spain.md
-            - name: PASF (Соединенное королевство)
+            - name: PASF (Соединенное Королевство)
               href: offering-pasf-uk.md
         - name: Северная Америка
           items:
-            - name: Закон Калифорнии о конфиденциальности данных California Consumer Privacy Act (CCPA)
+            - name: Закон Калифорнии о защите персональных данных потребителей (CCPA)
               href: offering-ccpa.md
             - name: Канадские законы о защите конфиденциальности
               href: offering-canadian-privacy-laws.md
