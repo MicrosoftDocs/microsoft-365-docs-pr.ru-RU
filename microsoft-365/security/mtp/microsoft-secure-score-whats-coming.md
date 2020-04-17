@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 61f066b2fff2798e78e6379bbca46e48e93ff017
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895445"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541111"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Что поступает в показателях безопасности Майкрософт?
 
@@ -36,15 +36,15 @@ ms.locfileid: "42895445"
 
 Чтобы обеспечить осмысленность оценки безопасности Майкрософт и обеспечить надежность и надежность каждого действия по улучшению, мы удаляем следующие действия по улучшению.
 
-- Удаление и блокировка учетных записей, не использованных за последние 30 дней
-- Назначение меньше 5 глобальных администраторов
 - Применение защиты IRM к документам
 - Применение политик защиты от потери данных
 
-### <a name="adding-additional-control-support-in-the-preview-version"></a>Добавление поддержки дополнительных элементов управления в предварительной версии
+### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Добавление действия по улучшению Azure AD в предварительной версии
+
 - Не разрешать пользователям предоставлять согласие на неуправляемые приложения (в настоящее время доступно в выпущенной версии)
 
-#### <a name="support-for-additional-microsoft-cloud-app-security-improvement-actions"></a>Поддержка дополнительных действий по улучшению безопасности облачного приложения Майкрософт
+### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Добавление действий по улучшению Azure ATP в предварительной версии
+
 - Отключение службы диспетчера очереди печати на контроллерах домена
 - Изменение небезопасного делегирования Kerberos для предотвращения олицетворения
 - Защита и управление паролями локального администратора с помощью Microsoft ЛАПС
@@ -56,5 +56,6 @@ ms.locfileid: "42895445"
 - Остановка связи устаревших протоколов
 - Остановка использования слабого шифра
 
-#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>Рекомендации по обеспечению безопасности системы безопасности & угрозам для защитника Майкрософт (ТВМ)
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Рекомендации по обеспечению безопасности & угрозам безопасности для защитника Майкрософт (ТВМ) в предварительной версии
+
 - Все Рекомендуемые рекомендации по обеспечению безопасности, предоставляемые ТВМ, будут также доступны в показателях безопасности Майкрософт

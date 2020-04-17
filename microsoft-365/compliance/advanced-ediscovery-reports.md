@@ -14,14 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: ''
+ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: c3bd87f6a6b06cf6fc75705073df5a95a1025a31
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 387709ebdd84968d2b93992f6b92ef1548117569
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079964"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528362"
 ---
 # <a name="advanced-ediscovery-reports-preview"></a>Расширенные отчеты об обнаружении электронных данных (Предварительная версия)
 
@@ -35,7 +35,7 @@ ms.locfileid: "42079964"
 
 - Сколько активных и закрытых обращений в моей организации?
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 - Для доступа к расширенным отчетам обнаружения электронных данных необходимо быть участником группы ролей "Администратор обнаружения электронных данных". Участник этой группы ролей предоставляет необходимые разрешения для просмотра, фильтрации и экспорта данных в отчетах. Дополнительные сведения см. в статье [Назначение разрешений на обнаружение электронных данных](assign-ediscovery-permissions.md).
 

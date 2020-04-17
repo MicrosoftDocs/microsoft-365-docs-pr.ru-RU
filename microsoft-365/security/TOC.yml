@@ -283,26 +283,29 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: Удаление себя из списка заблокированных отправителей Office 365 с помощью портала удаления из списка
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
-            - name: Защита от фишинга в Office 365
+            - name: Защита от фишинга
               href: ./office-365-security/anti-phishing-protection.md
               items:
-                - name: Настройка защиты от фишинга
-                  href: ./office-365-security/tuning-anti-phishing.md
-                - name: Возможности ATP для защиты от фишинга в Office 365
-                  href: ./office-365-security/atp-anti-phishing.md
-                - name: Настройка защиты от фишинга и политик защиты от фишинга ATP
+                - name: Политики защиты от фишинга
                   href: ./office-365-security/set-up-anti-phishing-policies.md
+                  items:
+                    - name: Настройка политики защиты от фишинга по умолчанию в EOP
+                      href: ./office-365-security/configure-anti-phishing-policies-eop.md
+                    - name: Настройка политик защиты от фишинга в ATP
+                      href: ./office-365-security/configure-atp-anti-phishing-policies.md
                 - name: 'Как Office 365 проверяет адрес отправителя, чтобы предотвратить фишинг'
                   href: ./office-365-security/how-office-365-validates-the-from-address.md
-            - name: Защита от спуфинга в Office 365
+                - name: Настройка защиты от фишинга
+                  href: ./office-365-security/tuning-anti-phishing.md
+            - name: Защита от спуфинга
               href: ./office-365-security/anti-spoofing-protection.md
               items:
-                - name: Дополнительные сведения об анализе подделок
+                - name: Вопросы и ответы о защите от спуфинга
+                  href: ./office-365-security/anti-spoofing-protection-faq.md
+                - name: Настройка аналитики спуфинга
                   href: ./office-365-security/learn-about-spoof-intelligence.md
-                - name: Обзор сведений аналитики спуфинга
+                - name: Обзор сведений аналитики спуфинга в ATP
                   href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
-                - name: Определение подозрительных сообщений в Outlook.com и Outlook в Интернете
-                  href: ./office-365-security/unverified-sender-feature.md
             - name: Карантин
               href: ./office-365-security/quarantine-email-messages.md
               items:
@@ -314,7 +317,8 @@
                   href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
                 - name: Уведомления конечных пользователей о спаме
                   href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
-            - name: Подтверждение и проверка подлинности электронной почты
+            - name: Проверка подлинности электронной почты
+              href: ./office-365-security/email-validation-and-authentication.md
               items:
                 - name: Как Office 365 использует SPF для предотвращения спуфинга
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md

@@ -3,7 +3,7 @@
   items:
     - name: Обзор
       items:
-        - name: Обзор администрирования
+        - name: Общие сведения об администрировании
           href: admin-overview/admin-overview.md
         - name: Регистрация в Office 365
           href: admin-overview/sign-up-for-office-365.md
@@ -15,7 +15,7 @@
           href: admin-overview/what-subscription-do-i-have.md
         - name: Сведения об Office 365 Germany
           href: admin-overview/learn-about-office-365-germany.md
-        - name: Мобильное приложение для администрирования
+        - name: Мобильное приложение "Администратор"
           href: admin-overview/admin-mobile-app.md
     - name: Настройка
       items:
@@ -25,13 +25,13 @@
           href: setup/setup.md
         - name: Разница между мастером настройки и страницей настройки
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: Добавление домена
+        - name: Добавление доменов
           href: setup/add-domain.md
         - name: Вопросы и ответы о доменах
           href: setup/domains-faq.md
         - name: Установка приложений
           href: setup/install-applications.md
-        - name: Перенесите электронную почту и контакты
+        - name: Перенос электронной почты и контактов
           href: setup/migrate-email-and-contacts-admin.md
         - name: Развертывание Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
@@ -43,7 +43,7 @@
           href: setup/upgrade-users-to-latest-office-client.md
         - name: Настройка страницы входа
           href: setup/customize-sign-in-page.md
-        - name: создание групп рассылки;
+        - name: Создание групп рассылки
           href: setup/create-distribution-lists.md
         - name: Настройка темы организации
           href: setup/customize-your-organization-theme.md
@@ -53,11 +53,11 @@
           href: add-users/add-users.md
         - name: Создание и использование шаблона для добавления пользователей
           href: add-users/create-and-use-a-template-to-add-users.md
-        - name: Удалить пользователя
+        - name: Удаление пользователя
           href: add-users/delete-a-user.md
         - name: Восстановление пользователя
           href: add-users/restore-user.md
-        - name: Сбрасывайте пароли
+        - name: Сброс паролей
           href: add-users/reset-passwords.md
         - name: Установка бессрочного пароля
           href: add-users/set-password-to-never-expire.md
@@ -135,7 +135,7 @@
       href: activity-reports/activity-reports.md
     - name: Анализ использования Power BI
       items:
-        - name: Аналитика использования
+        - name: Анализ использования
           href: usage-analytics/usage-analytics.md
         - name: Включение анализа использования
           href: usage-analytics/enable-usage-analytics.md
@@ -143,7 +143,7 @@
           href: usage-analytics/get-the-latest-version-of-usage-analytics.md
         - name: Поиск и использование отчетов
           href: usage-analytics/navigate-and-utilize-reports.md
-        - name: Активные пользователи в отчетах об использовании
+        - name: Активный пользователь в отчетах об использовании
           href: usage-analytics/active-user-in-usage-reports.md
         - name: Настройка отчетов
           href: usage-analytics/customize-reports.md
@@ -169,7 +169,7 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: Централизованное развертывание надстроек
           href: manage/manage-deployment-of-add-ins.md
-        - name: Вопросы и ответы по централизованному развертыванию
+        - name: Вопросы и ответы о централизованном развертывании
           href: manage/centralized-deployment-FAQ.md
         - name: Поиск партнера или торгового посредника
           href: manage/find-your-partner-or-reseller.md
@@ -189,7 +189,7 @@
           href: manage/remove-licenses-from-users.md
         - name: Устранение конфликтов лицензий
           href: manage/resolve-license-conflicts.md
-        - name: Отображение и скрытие новых функций с помощью управления "что нового"
+        - name: Отображение и скрытие новых функций с помощью управления новыми возможностями
           href: manage/show-hide-new-features.md
     - name: Подписки и выставление счетов
       items:
@@ -203,11 +203,11 @@
           href: ../commerce/subscriptions/cancel-your-subscription.md
     - name: Домены
       items:
-        - name: 'Домены в Office 365:'
+        - name: Домены в Office 365
           href: get-help-with-domains/get-help-with-domains.md
         - name: Что такое домен?
           href: get-help-with-domains/what-is-a-domain.md
-        - name: Приобретение доменного имени
+        - name: Приобретение имени домена
           href: get-help-with-domains/buy-a-domain-name.md
         - name: Поиск регистратора доменных имен
           href: get-help-with-domains/find-your-domain-registrar.md
@@ -235,7 +235,7 @@
           href: create-groups/office-365-groups.md
         - name: Сравнение групп
           href: create-groups/compare-groups.md
-        - name: Создание группы Office 365
+        - name: "Создание группы Office\_365"
           href: create-groups/create-groups.md
         - name: "Управление группой Office\_365"
           href: create-groups/manage-groups.md
@@ -269,7 +269,7 @@
           href: services-in-china/download-office-app-for-Android.md
         - name: 'Скачивание приложения Office для iOS для службы Office 365, предоставляемой 21Vianet'
           href: services-in-china/download-office-app-for-iOS.md
-        - name: Просмотр счета или получение счета фапьяо
+        - name: Просмотр счета или получение счетов фапьяо
           href: services-in-china/view-your-bill-or-get-a-fapiao.md
         - name: Заявление на получение счета фапьяо
           href: services-in-china/apply-for-a-fapiao.md
@@ -283,11 +283,11 @@
           href: whats-new-in-preview.md
         - name: Отслеживание изменений
           href: manage/stay-on-top-of-updates.md
-        - name: Варианты выпуска в Office 365
+        - name: "Варианты получения выпусков Office\_365"
           href: manage/release-options-in-office-365.md
         - name: Центр сообщений
           href: manage/message-center.md
         - name: Использование пробной версии или приобретение подписки на Microsoft 365
           href: ../commerce/try-or-buy-microsoft-365.md
-    - name: Обращение в службу поддержки продуктов для бизнеса
+    - name: Обращение в службу поддержки решений для бизнеса
       href: contact-support-for-business-products.md

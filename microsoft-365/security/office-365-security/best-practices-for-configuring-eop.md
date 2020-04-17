@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для Exchange Online Protection (EOP), чтобы избежать распространенных ошибок конфигурации и успешно выполнить поставленные задачи.
-ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033438"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528621"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Рекомендации по настройке EOP и Office 365 ATP
 
@@ -53,7 +53,7 @@ ms.locfileid: "43033438"
 |Отправка с проверкой подлинности SMTP для почтового ящика|Отключено|Отключено||
 |Подключение EWS к почтовому ящику|Отключено|Отключено||
 |[Подключение PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или почтовых пользователей (объекты пользователей, возвращаемые командлетом [Get-User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user) ).|
-|Использование логики подделки для отправителя белом, когда это возможно|Да|Да||
+|Использование [логики подделки](learn-about-spoof-intelligence.md) для отправителя белом, когда это возможно|Да|Да||
 |Пограничная блокировка на основе каталогов (DBEB)|Включена|Включена|Тип домена = удостоверяющий|
 |[Настройка многофакторной проверки подлинности для всех учетных записей администраторов](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Включена|Включена||
 

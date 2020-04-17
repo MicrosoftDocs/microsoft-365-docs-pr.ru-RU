@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Узнайте больше о доменах в Office 365, найдя ответы на свои вопросы в разделе "вопросы и ответы".
 ms.custom: okr_smb
-ms.openlocfilehash: 5579cacaa789ca91d68616ffb89e37586f6a062f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 5d5b921494ba59b78dec53047a31215a8e755f4c
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212201"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540871"
 ---
 # <a name="domains-faq"></a>Вопросы и ответы о доменах
 
@@ -106,12 +106,24 @@ ms.locfileid: "43212201"
 Обратите внимание, что запрос *Whois* будет показывать приобретенный регистратор домена Office 365 в качестве подстановочных доменов LLC. Тем не менее, связаться с Office 365 можно только с помощью приобретенного домена Office 365.
   
 С помощью приведенных ниже инструкций получите код в Office 365, а затем перейдите на веб-сайт другого регистратора доменных имен, чтобы выполнить перенос.
-  
+
+::: moniker range="o365-worldwide"
+
 1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
-    
-    Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
-    
-    Если вы используете Office 365 под управлением 21Vianet, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре администрирования откройте страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">лицензии</a> на **Параметры** > ".
+
+::: moniker-end
     
 2. На странице **Domains (домены** ) выберите домен Office 365, который вы хотите передать другому регистратору доменных имен, а затем выберите пункт **Передача** > домена**Разрешить передачу домена**.
        
@@ -136,12 +148,24 @@ ms.locfileid: "43212201"
 2. Найдите на веб-сайте регистратора раздел, в котором обновляются записи серверов доменных имен, и обновите их так, чтобы они указывали на узел DNS вашего домена. (Узел DNS часто является регистратором доменных имен.)
     
 3. Щелкните ссылку, чтобы перейти к мастеру настройки доменов:
-    
+
+::: moniker range="o365-worldwide"
+
 4. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
-    
-    Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
-    
-    Если вы используете Office 365 под управлением 21Vianet, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+4. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+4. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
     
 5. На странице **домены** выберите домен, который вы переключаете, и выберите **Управление DNS**.
     
@@ -153,12 +177,24 @@ ms.locfileid: "43212201"
     
 
 ### <a name="change-dns-management-to-office-365"></a>Переключение управления DNS на Office 365
-  
-1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
-    
-    Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
-    
-    Если вы используете Office 365 под управлением 21Vianet, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker range="o365-worldwide"
+
+1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **параметров** \> "..
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
     
 2. На странице **домены** выберите домен, который вы переключаете, и выберите **Управление DNS**.
     
@@ -221,12 +257,24 @@ ms.locfileid: "43212201"
 ## <a name="how-do-i-set-or-change-the-default-domain-in-office-365"></a>Как задать или изменить домен по умолчанию в Office 365?
 
 Чтобы можно было выбрать домен, используемый по умолчанию, необходимо добавить в Office 365 хотя бы один личный домен.
-  
+
+::: moniker range="o365-worldwide"
+
 1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
-    
-    Если вы используете Office 365 в Германии, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> . 
-    
-    Если вы используете Office 365 под управлением 21Vianet, перейдите на страницу эти <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> .
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В Центре администрирования перейдите на страницу **Settings** (Параметры) > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> (Домены).
+
+::: moniker-end
     
 2. На странице **Domains (домены** ) выберите домен, который требуется установить в качестве значения по умолчанию для новых адресов электронной почты. 
     

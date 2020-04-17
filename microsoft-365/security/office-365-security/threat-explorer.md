@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: c854021eaf6c5d252f36961fde427c5532ba1ef6
-ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
+ms.openlocfilehash: 1f5047b923ec40d4beb47d9b4b3d8aec9b9e6807
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43284262"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537513"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 
@@ -186,7 +186,7 @@ ms.locfileid: "43284262"
 
    ![Полученный пользователем фишинг](../../media/EmailUserReportedReportType.png)
 
-Отчет обновляется для отображения данных о сообщениях электронной почты, о которых пользователи в организации сообщают в качестве попытки фишинга. Вы можете использовать эти сведения для проведения дальнейшего анализа и, при необходимости, настройки [политик защиты от фишинга ATP](set-up-anti-phishing-policies.md).
+Отчет обновляется для отображения данных о сообщениях электронной почты, о которых пользователи в организации сообщают в качестве попытки фишинга. Вы можете использовать эти сведения для проведения дальнейшего анализа и, при необходимости, настройки [политик защиты от фишинга ATP](configure-atp-anti-phishing-policies.md).
 
 ## <a name="start-automated-investigation-and-response"></a>Запуск автоматического исследования и ответа
 
