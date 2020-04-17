@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 196efe65eda1265d6f2c0578d1f444709dadb26c
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 39e83c74d2df8d0efe12225600813ef8007833e2
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516824"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528352"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -138,7 +138,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 
 6. Следуйте инструкциям, чтобы настроить параметры политики.
     
-    Дополнительные сведения о параметрах см. в разделе [Возможности политик меток](sensitivity-labels.md#what-label-policies-can-do) обзорной статьи.
+    Для получения дополнительной информации об этих настройках см. Раздел [Что политики меток могут делать](sensitivity-labels.md#what-label-policies-can-do) из обзорной информации.
 
 7. Повторите эти действия, если вам требуются разные параметры политики для разных пользователей или расположений. Например, вы можете использовать дополнительные метки для группы пользователей или другую метку по умолчанию для подмножества пользователей.
 

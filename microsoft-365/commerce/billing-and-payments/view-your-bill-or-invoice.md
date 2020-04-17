@@ -25,12 +25,12 @@ ms.custom:
 - OKR_SMB_Videos
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
-ms.openlocfilehash: 5982e65ce9720b85d29126986cfcb8123b4aef5f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fa3809e588bca50ae0ffd7e5dfc060bbc91a4bd6
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255895"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540859"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счетов
 
@@ -50,10 +50,23 @@ ms.locfileid: "42255895"
   
 ## <a name="view-a-bill-or-invoice"></a>Просмотр счета или счета-фактуры
 
+::: moniker range="o365-worldwide"
 
 1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Счета и платежи</a>.
 
-    Если вы используете Office 365 Германии, перейдите на эту страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Счета и платежи</a>.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. В центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">Счета и платежи</a>.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">Счета и платежи</a>.
+
+::: moniker-end
 
 2. Выберите диапазон дат из раскрывающегося списка, а затем выберите порядок, который вы хотите просмотреть.
 
