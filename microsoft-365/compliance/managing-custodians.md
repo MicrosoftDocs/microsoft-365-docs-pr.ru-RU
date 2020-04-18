@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Средство управления хранитель в Advanced eDiscovery позволяет управлять рабочим процессом, определяя, сохраняя и собирают данные, связанные с людьми, которые интересны в юридическом случае.
-ms.openlocfilehash: 7d8ac1c67b4ddc3395bccb5ab699ce7df63f331d
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: fbd348c842cb3c4bb7284c14ae2504b83fd0b117
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400916"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551248"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Работать с custodians в Advanced eDiscovery
 
@@ -38,7 +38,3 @@ ms.locfileid: "42400916"
 - [Управление custodians в случае](manage-new-custodians.md)
 
 - [Просмотр действий хранителя](view-custodian-activity.md)
-
-## <a name="advanced-ediscovery-permissions"></a>Расширенные разрешения обнаружения электронных данных
-
-В Advanced eDiscovery можно использовать встроенную группу ролей "Диспетчер обнаружения электронных данных", чтобы назначить необходимые разрешения юридическим исследованиям, чтобы они могли управлять сквозным рабочим процессом в Advanced eDiscovery. Кроме того, вы можете создавать настраиваемые группы ролей с подмножеством ролей, необходимых для выполнения определенных действий в случае Advanced eDiscovery. Дополнительные сведения о ролях, связанных с обнаружением электронных данных, приведены [в разделе Назначение разрешений обнаружения электронных данных в центре безопасности & соответствия требованиям](assign-ediscovery-permissions.md).

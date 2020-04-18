@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как управлять тем, какие пользователи могут создавать группы Office 365.
-ms.openlocfilehash: 9016b96821dd9d40a0fb65574ce96d7badd0c2bd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: d31690cb6438c6563b01e0597f7f2b1ff96e3b9a
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212085"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547590"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Управление разрешениями пользователей на создание групп Office 365
 
@@ -80,6 +80,9 @@ ms.locfileid: "43212085"
 - Администратор, который настраивает эти параметры создания групп
 - Члены группы безопасности, которым разрешено создавать группы
 
+> [!NOTE]
+> Дополнительные сведения о назначении лицензий Azure можно найти [в статье назначение и удаление лицензий на портале Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) .
+
 Следующим пользователям не нужны лицензии Azure AD Premium или Azure AD Basic EDU:
 
 - Пользователи, являющиеся членами групп Office 365 и у которых нет возможности создавать другие группы.
@@ -117,7 +120,7 @@ ms.locfileid: "43212085"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Пример:
+Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Например,
 
 `$GroupName = "Group Creators"`
 

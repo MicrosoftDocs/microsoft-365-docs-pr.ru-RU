@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Узнайте, как определить различные типы удержаний, которые можно разместить в почтовом ящике Office 365. Эти типы удержаний включают хранение для судебного разбирательства, удержания электронных данных и политики хранения Office 365. Кроме того, можно определить, исключен ли пользователь из политики хранения на уровне Организации.
-ms.openlocfilehash: 29d212f0ba16c7ae414c3a47707cfcd0f95420c7
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: 4063128e368b19b156fbf42173fb2d4725c3e7ab
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978229"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551140"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Как определить тип удержания, примененного для почтового ящика Exchange Online
 
@@ -30,7 +30,7 @@ Office 365 предлагает несколько способов предот
 
 - ** [Удержание для судебного разбирательства](create-a-litigation-hold.md):** Удержания, которые применяются к почтовым ящикам пользователей в Exchange Online.
 
-- ** [удержание eDiscovery](ediscovery-cases.md#step-4-place-content-locations-on-hold):** Удержания, связанные с вариантом обнаружения электронных данных в центре безопасности и соответствия требованиям. удержания электронных данных можно применять к почтовым ящикам пользователей и к соответствующему почтовому ящику для групп Office 365 и Microsoft Teams.
+- ** [удержание eDiscovery](create-ediscovery-holds.md):** Удержания, связанные с вариантом обнаружения электронных данных в центре безопасности и соответствия требованиям. удержания электронных данных можно применять к почтовым ящикам пользователей и к соответствующему почтовому ящику для групп Office 365 и Microsoft Teams.
 
 - ** [Удержание на месте](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds):** Удержания, применяемые к почтовым ящикам пользователей с помощью средства обнаружения электронных данных & на месте в центре администрирования Exchange в Exchange Online.
 
@@ -55,7 +55,7 @@ Office 365 предлагает несколько способов предот
 
 - **Get — OrganizationConfig:** Используйте этот командлет, чтобы получить идентификаторы GUID для политик хранения на уровне Организации.
 
-Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 

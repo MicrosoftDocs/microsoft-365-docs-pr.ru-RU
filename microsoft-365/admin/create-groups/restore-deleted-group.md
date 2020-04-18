@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Узнайте, как восстановить удаленную группу Office 365.
-ms.openlocfilehash: 31d6481f87d7da219e042eefa8f004425caee133
-ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
+ms.openlocfilehash: 2efd8c35286d224c6a3ed185043c82ab4b8e954e
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583166"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547536"
 ---
 # <a name="restore-a-deleted-office-365-group"></a>Восстановление удаленной группы Office 365
 
@@ -61,7 +61,7 @@ ms.locfileid: "42583166"
 
 Если вы являетесь глобальным администратором или администратором групп, вы можете восстановить удаленную группу в центре администрирования Microsoft 365:
 
-1. Перейдите в Центр администрирования [https://admin.microsoft.com](Go to the admin center at https://admin.microsoft.com).
+1. Перейдите в [центр администрирования](https://admin.microsoft.com).
 2. Разверните узел **группы**, а затем щелкните **удаленные группы**.
 3. Выберите группу, которую требуется восстановить, и нажмите кнопку **восстановить группу**.
   
@@ -90,7 +90,7 @@ Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 
 Посетите [сообщество Майкрософт](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) для отправки вопросов и участия в беседах, посвященных группам Office 365. 
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Управление группами Office 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
   
