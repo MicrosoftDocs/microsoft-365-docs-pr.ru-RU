@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки чувствительности для защиты контента на сайтах SharePoint и Microsoft Teams, а также в группах Office 365.
-ms.openlocfilehash: 0ac1d9f605c32664115086057b7c17355d495c00
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4daf35af28e0339c66271c69487d3da9c1e4c91e
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106137"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547601"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Используйте метки чувствительности для защиты контента в Microsoft Teams, группах Office 365 и сайтах SharePoint (предварительный просмотр)
 
@@ -54,7 +54,9 @@ ms.locfileid: "43106137"
 
 1. Так как эта функция использует возможности Azure AD, следуйте инструкциям из документации Azure AD, чтобы включить предварительную версию: [Назначение меток конфиденциальности группам Office 365 в Azure Active Directory (предварительная версия)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
-2. Откройте сеанс PowerShell с параметром **Запуск от имени администратора** и подключитесь к Центру безопасности и соответствия требованиям с помощью рабочей или школьной учетной записи с глобальными правами администратора. Пример.
+2. Теперь [подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
+    
+    Например, в сеансе PowerShell, который вы запускаете как администратор, войдите в систему с помощью учетной записи глобального администратора.
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
@@ -62,8 +64,6 @@ ms.locfileid: "43106137"
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session -DisableNameChecking
     ```
-    
-    Подробные инструкции см. в статье [Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 3. Выполните следующие команды для синхронизации ваших меток конфиденциальности с Azure AD, чтобы их можно было использовать с группами Office 365:
     
@@ -183,30 +183,44 @@ ms.locfileid: "43106137"
 
 ## <a name="change-site-and-group-settings-for-a-label"></a>Изменение параметров сайта и группы для метки
 
-Когда осуществляется изменение параметров сайта и группы для метки, требуется выполнить следующие команды PowerShell, чтобы ваши команды, сайты и группы могли использовать новые параметры. Рекомендуется не изменять параметры сайта и группы для метки после применения метки к нескольким командам, группам или сайтам.
+Когда осуществляется изменение параметров сайта и группы для метки, требуется выполнить следующие команды PowerShell, чтобы ваши команды, сайты и группы могли использовать новые параметры. Рекомендуется не изменять параметры сайта и группы для метки после применения метки конфиденциальности к нескольким командам, группам или сайтам.
 
-1. В сеансе PowerShell, который вы открываете с помощью параметра **Запуск от имени администратора**, выполните следующие команды, чтобы подключиться к PowerShell в Центре безопасности и соответствия требованиям Office 365 и получить список меток чувствительности и их GUID.
+1. Сначала [подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
+    
+    Например, в сеансе PowerShell, который вы запускаете как администратор, войдите в систему с помощью учетной записи глобального администратора.
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
-    Import-PSSession $Session
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
+
+2. Получите список меток конфиденциальности с их GUID с помощью командлета [Get-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-label?view=exchange-ps).
+    
+    ```powershell
     Get-Label |ft Name, Guid
     ```
 
-2. Запишите GUID для измененных меток.
+3. Запишите GUID для измененных меток.
 
-3. Подключитесь к Exchange Online PowerShell и выполните командлет Get-UnifiedGroup, указав GUID метки вместо GUID примера "e48058ea-98e8-4940-8db0-ba1310fd955e": 
+4. Теперь [подключитесь к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+    
+    Например,
     
     ```powershell
     $UserCredential = Get-Credential
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session
+    ```
+    
+5. запустите командлет [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps), указав GUID вашей метки вместо GUID примера "e48058ea-98e8-4940-8db0-ba1310fd955e": 
+    
+    ```powershell
     $Groups= Get-UnifiedGroup | Where {$_.SensitivityLabel  -eq "e48058ea-98e8-4940-8db0-ba1310fd955e"}
     ```
 
-4. Для каждой группы повторно примените метку конфиденциальности, указав GUID метки вместо GUID примера "e48058ea-98e8-4940-8db0-ba1310fd955e":
+6. Для каждой группы повторно примените метку конфиденциальности, указав GUID метки вместо GUID примера "e48058ea-98e8-4940-8db0-ba1310fd955e":
     
     ```powershell
     foreach ($g in $groups)
@@ -240,7 +254,7 @@ ms.locfileid: "43106137"
 - Центр администрирования Exchange
 
 
-## <a name="classic-azure-ad-site-classification"></a>Классическая классификация сайтов Azure AD
+## <a name="classic-azure-ad-group-classification"></a>Классическая классификация групп Azure AD
 
 Если вы включите эту предварительную версию, Office 365 больше не будет поддерживать старые классификации для новых групп и сайтов SharePoint. Однако существующие группы и сайты по-прежнему будут отображать старые классификации, если их не преобразовать для использования меток конфиденциальности. Старые классификации включают классификацию "современных" сайтов, которую вы настроили, с помощью Azure AD PowerShell или основной библиотеки PnP, определяющей значения параметра `ClassificationList`.
 
@@ -250,7 +264,7 @@ ms.locfileid: "43106137"
    ($setting["ClassificationList"])
 ```
 
-Дополнительные сведения о старом методе классификации см. в статье [Классификация "современных" сайтов SharePoint](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
+В качестве примера того, как вы могли использовать старую классификацию групп для SharePoint, см. статью ["Современная" классификация сайтов SharePoint](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification).
 
 Чтобы преобразовать старые классификации для использования меток конфиденциальности, выполните одно из следующих действий:
 
@@ -268,42 +282,51 @@ ms.locfileid: "43106137"
 
 #### <a name="use-powershell-to-convert-classifications-for-office-365-groups-to-sensitivity-labels"></a>Преобразование классификаций для групп Office 365 в метки конфиденциальности с помощью PowerShell
 
-1. Убедитесь, что вы используете командную консоль SharePoint Online версии 16.0.19418.12000 или более поздней. Если вы уже используете последнюю версию, перейдите к шагу 4.
-
-2. Если у вас установлена предыдущая версия командной консоли SharePoint Online из коллекции PowerShell, вы можете обновить модуль, выполнив следующий командлет.
+1. Сначала [подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
     
-    ```PowerShell
-    Update-Module -Name Microsoft.Online.SharePoint.PowerShell
-    ```
-
-3. Если у вас установлена предыдущая версия командной консоли SharePoint Online из Центра загрузки Майкрософт, перейдите к разделу **Установка и удаление программ** и удалите командную консоль SharePoint Online. Затем установите последнюю версию командной консоли SharePoint Online из [Центра загрузки](https://go.microsoft.com/fwlink/p/?LinkId=255251).
-
-4. Используя рабочую или учебную учетную запись с правами глобального администратора или администратора SharePoint в Office 365, подключитесь к командной консоли SharePoint Online. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
-
-5. Чтобы получить список меток конфиденциальности и их GUID, выполните следующие команды.
-
-    ```PowerShell
+    Например, в сеансе PowerShell, который вы запускаете как администратор, войдите в систему с помощью учетной записи глобального администратора.
+    
+    ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
-    Import-PSSession $Session
-    Get-Label |ft Name, Guid  
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
     ```
 
-6. Запишите GUID для меток конфиденциальности, которые нужно применить к группам Office 365.
+2. Получите список меток конфиденциальности с их GUID с помощью командлета [Get-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-label?view=exchange-ps).
+    
+    ```powershell
+    Get-Label |ft Name, Guid
+    ```
 
-7. Используйте следующую команду в качестве примера, чтобы получить список групп, использующих в настоящее время классификацию General (Общее).
+3. Запишите GUID для меток конфиденциальности, которые нужно применить к группам Office 365.
 
-   ```PowerShell
-   $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
-   ```
+4. Теперь [подключитесь к PowerShell Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+    
+    Например,
+    
+    ```powershell
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session
+    ```
 
-6. Для каждой группы добавьте GUID новой метки конфиденциальности. Например:
+5. Запустите командлет [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps), чтобы получить список групп Office 365, относящихся к одной из указанных вами категорий.
+    
+    Например, чтобы получить список групп Office 365, относящихся к категории "Общие", выполните следующее: 
+    
+    ```powershell
+    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
+    ```
+
+6. Для каждой группы добавьте GUID новой метки конфиденциальности. Например,
 
     ```PowerShell
     foreach ($g in $groups)
     {Set-UnifiedGroup -Identity $g.Identity -SensitivityLabelId "457fa763-7c59-461c-b402-ad1ac6b703cc"}
     ```
+
+7. Повторите действия 5 и 6 для остальных категорий групп.
 
 ## <a name="auditing-sensitivity-label-activities"></a>Аудит действий с метками конфиденциальности
 
