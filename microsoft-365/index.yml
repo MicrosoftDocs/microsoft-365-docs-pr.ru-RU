@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Центр администрирования Microsoft 365
       summary: Настройте службы Office 365 и Microsoft 365 для своей организации и управляйте ими.
-      url: ./admin/admin-home.yml
+      url: ./admin/admin-home.md
     - title: Microsoft 365 бизнес
       summary: Для предприятий малого и среднего бизнеса. Ведите свой бизнес с помощью последних версий Windows и приложений Office, таких как Excel и Outlook. Воспользуйтесь преимуществами защиты данных и обеспечения безопасности, действующими для всех устройств в вашей компании.
       url: ./business/index.yml
