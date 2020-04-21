@@ -1,5 +1,5 @@
 ---
-title: Добавление пользователей в Microsoft 365 Business
+title: Добавление дополнительных пользователей
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,15 +25,15 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Сведения о том, как с легкостью добавлять новых пользователей, защищать их устройства и назначать роли в Microsoft 365 Business.
-ms.openlocfilehash: 8181254aa56345e99e648c59474f4d7f8fa94990
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Сведения о том, как с легкостью добавлять новых пользователей, защищать их устройства и назначать роли в Microsoft 365 бизнес премиум.
+ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561567"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627481"
 ---
-# <a name="add-more-users-to-microsoft-365-business"></a>Добавление пользователей в Microsoft 365 Business
+# <a name="add-more-users"></a>Добавление дополнительных пользователей
 
 ## <a name="add-new-users"></a>Добавление новых пользователей
 
@@ -41,7 +41,7 @@ ms.locfileid: "42561567"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN] 
 
-Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы добавить пользователя:
 
@@ -54,7 +54,7 @@ ms.locfileid: "42561567"
       
     ![Enter user information in the New user card](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    В разделе лицензии на продукты установите для параметра лицензия **Microsoft 365 бизнес к бизнес-** продукту значение **вкл**.
+    В разделе лицензии на продукты установите для параметра лицензия на продукт **Microsoft 365 бизнес премиум** значение **вкл**.
       
     ![Set the license setting to On position](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   

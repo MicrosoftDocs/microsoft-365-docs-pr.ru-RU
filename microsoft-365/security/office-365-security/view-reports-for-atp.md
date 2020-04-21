@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: b91fb8d000b610439618be687e36dabc787ebb58
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528981"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631065"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -107,9 +107,9 @@ ms.locfileid: "43528981"
 Чтобы просмотреть этот отчет, в [центре безопасности &amp; и соответствия требованиям](https://protection.office.com)перейдите к **типам файлов** **панели мониторинга** \> **отчетов** \> ATP.
 
 ![отчет о типах файлов ATP;](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
-
-Если навести указатель мыши на определенный день, можно увидеть разбивку типов вредоносных файлов, обнаруженных [безопасными вложениями ATP](atp-safe-attachments.md) и [защитой от &amp; нежелательной почты в Office 365](anti-spam-and-anti-malware-protection.md).
-
+  
+Если навести указатель мыши на определенный день, можно увидеть разбивку типов вредоносных файлов, обнаруженных [безопасными вложениями ATP](atp-safe-attachments.md) и [защитой от &amp; нежелательной почты](anti-spam-and-anti-malware-protection.md).
+  
 ![Данные о типах файлов ATP в день](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 
 ## <a name="atp-message-disposition-report"></a>отчет о действиях с сообщениями в ATP;
@@ -158,7 +158,7 @@ ms.locfileid: "43528981"
 
 Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами.
 
-- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [Разрешения в центре безопасности &amp; и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
 
 - [Разрешения компонентов в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
@@ -166,10 +166,10 @@ ms.locfileid: "43528981"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безопасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-[Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
-
+[Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
+  
 [Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям](create-a-schedule-for-a-report.md)
 
 [Настройка и загрузка настраиваемого отчета в центре безопасности &amp; и соответствия требованиям](set-up-and-download-a-custom-report.md)

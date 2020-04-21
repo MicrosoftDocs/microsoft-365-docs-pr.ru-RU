@@ -12,16 +12,16 @@ ms.collection: Adm_Commerce_Pay
 localization_priority: Normal
 description: Узнайте, где отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: db2e95d10304c18d1a33e37d4d93b63846fd7c1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9c4769916bd6ea0985ffa0be39e1016cfea8b59e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257749"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631349"
 ---
 # <a name="payment-information-for-tunisia"></a>Сведения об оплате для Тунис
 
-[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md). <!--This should go to the parent "Pay for your Office 365 for business subscription" topic-->
+[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md). <!--This should go to the parent "Pay for your Microsoft 365 for business subscription" topic-->
 
 Заплатите в оплате только USD и справочные номера для счета-фактуры в предъявлении к оплате.
 

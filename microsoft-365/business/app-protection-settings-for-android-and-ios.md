@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Узнайте, как создавать, изменять и удалять политику управления приложениями, а также защищать рабочие файлы на устройствах с Android или iOS.
-ms.openlocfilehash: 0adb103ac3bef72e340c1f5daf54a6b8a184d85c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 0d9e901cac94fe7692ffe705c6b0a51df2bc542f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894287"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627441"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Настройка параметров защиты приложений для устройств с Android и iOS
 
@@ -75,7 +75,7 @@ ms.locfileid: "42894287"
 
 В следующих таблицах представлены подробные сведения о параметрах, доступных для защиты рабочих файлов на устройствах, а также о параметрах, управляющих доступом пользователей к файлам Office с мобильных устройств.
   
- Дополнительные сведения см. в статье [Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune](map-protection-features-to-intune-settings.md). 
+ Дополнительные сведения о [функциях защиты в Microsoft 365 бизнес премиум сопоставляются с параметрами Intune](map-protection-features-to-intune-settings.md). 
   
 ### <a name="settings-that-protect-work-files"></a>Параметры для защиты рабочих файлов
 

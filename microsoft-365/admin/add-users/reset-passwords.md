@@ -1,5 +1,5 @@
 ---
-title: Сброс Office 365 бизнес-пароли
+title: Сброс паролей
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -25,15 +25,15 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
-description: 'Узнайте, как сбросить пароль для пользователя в Office 365 Business Subscription. '
-ms.openlocfilehash: a19999ceffa140343c079c6758cc831175c09ab1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 'Узнайте, как сбросить пароль для пользователя в Microsoft 365 для бизнес-подписки. '
+ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245672"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626950"
 ---
-# <a name="reset-office-365-business-passwords"></a>Сброс Office 365 бизнес-пароли
+# <a name="reset-passwords"></a>Сброс паролей
 
 Посмотрите короткое видео о сбросе паролей пользователей.<br><br>
 
@@ -45,9 +45,9 @@ ms.locfileid: "42245672"
 
 Мы настоятельно рекомендуем вам настроить самостоятельный сброс пароля. В таком случае вам не придется сбрасывать пароли вручную для всех пользователей в организации. Сведения о том, как это сделать, см. в статье [Предоставление пользователям прав на самостоятельный сброс пароля в Office 365](let-users-reset-passwords.md).
   
-## <a name="reset-an-office-365-business-password-for-someone-else"></a>Как сбросить пароль другого пользователя в Office 365 бизнес
+## <a name="reset-a-business-password-for-someone-else"></a>Сброс бизнес-пароля для другого пользователя
 
-Инструкции ниже предназначены для пользователей с подпиской на план Office 365 бизнес. Для этого необходимо выполнить вход с помощью учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md)
+Эти действия предназначены только для пользователей, использующих план Microsoft 365 для бизнеса. Для этого необходимо выполнить вход с помощью учетной записи администратора Microsoft 365. [Что такое учетная запись администратора?](../admin-overview/admin-overview.md)
 
  
 ::: moniker range="o365-worldwide"
@@ -75,11 +75,11 @@ ms.locfileid: "42245672"
 4. Введите адрес электронной почты, по которому пользователь может получить новый пароль и подписаться на него, чтобы убедиться, что он получил новый пароль.
  
   
-## <a name="reset-my-office-365-tenant-admin-password"></a>Сброс пароля администратора клиента 365 для Office
+## <a name="reset-my-admin-password"></a>Сброс пароля администратора
 
-Выполните указанные ниже действия, если вы забыли пароль, но можете войти в Office 365, так как, например, пароль сохранен в браузере: 
+Выполните указанные ниже действия, если вы забыли пароль, но можете войти в Microsoft 365, так как, например, пароль сохранен в браузере: 
     
-1. В Office 365 выберите **Параметры** \> **Office 365** \> **Персональная информация**. 
+1. В Microsoft 365 выберите **Параметры** \> **Office 365** \> **Персональная информация**. 
           
 2. Дважды убедитесь, что ваши **контактные данные** и **альтернативные сообщения** верны. Если это не так, измените их сейчас. 
         
@@ -95,7 +95,7 @@ ms.locfileid: "42245672"
     
 - Или [позвоните в службу поддержки Майкрософт](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_). 
     
-## <a name="reset-all-office-365-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Как сбросить пароли сразу всех пользователей в организации в Office 365 бизнес
+## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Одновременное восстановление всех бизнес-паролей для всех пользователей в Организации
 <a name="bkmk_forgot"> </a>
 
 Эта процедура предназначена для организаций, в которых число пользователей измеряется десятками. Если в вашей организации сотни или тысячи пользователей, см. следующий раздел о массовом сбросе паролей.
@@ -112,14 +112,14 @@ ms.locfileid: "42245672"
     
 
   
-## <a name="reset-office-365-business-passwords-in-bulk"></a>Как выполнить массовый сброс паролей в Office 365 бизнес
+## <a name="reset-business-passwords-in-bulk"></a>Массовый сброс бизнес-паролей
 <a name="bkmk_forgot"> </a>
 
 Воспользуйтесь PowerShell. Ознакомьтесь со статьей Эяла Дорона (Eyal Doron) [Управление паролями с помощью PowerShell](https://go.microsoft.com/fwlink/?linkid=853696) (на английском языке).
   
 Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).
   
-Для получения общих сведений, см. статью [PowerShell для администраторов Office 365](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).
+Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Принудительная смена паролей всех пользователей в организации
 <a name="bkmk_forgot"> </a>
@@ -134,14 +134,14 @@ ms.locfileid: "42245672"
 ## <a name="related-articles"></a>Статьи по теме
 <a name="bkmk_forgot"> </a>
   
-[Разрешить пользователям сбрасывать собственные пароли в Office 365](let-users-reset-passwords.md)
+[Разрешить пользователям сбрасывать собственные пароли](let-users-reset-passwords.md)
 
 [Установка бессрочных пользовательских паролей](set-password-to-never-expire.md)
 
 [Установка политики срока действия паролей в организации](../manage/set-password-expiration-policy.md)
 
-[Восстановление пользователя в Office 365](restore-user.md)
+[Восстановление пользователя](restore-user.md)
 
 [Удаление бывшего сотрудника из среды Office 365](remove-former-employee.md)
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

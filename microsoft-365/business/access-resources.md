@@ -1,5 +1,7 @@
 ---
 title: Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,16 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры из Azure Active Directory, подключенной к устройству Windows 10.
-ms.openlocfilehash: 89ac38f3da9cbdd3ff1a5eb33dc129d2e83521c7
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967170"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627461"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 Business
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 бизнес премиум
 
-Все устройства с Windows 10, которые присоединены к Azure Active Directory, имеют доступ ко всем облачным ресурсам, таким как приложения Office 365, и могут быть защищены корпорацией Майкрософт 365 Business. Вы также можете разрешить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры. Чтобы разрешить доступ, используйте [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) для синхронизации локальной службы Active Directory с Azure Active Directory. 
+Любое устройство Windows 10, к которому присоединена служба Azure Active Directory, имеет доступ ко всем облачным ресурсам, таким как приложения Microsoft 365, и может быть защищено с помощью Microsoft 365 бизнес премиум. Вы также можете разрешить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры. Чтобы разрешить доступ, используйте [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) для синхронизации локальной службы Active Directory с Azure Active Directory. 
 
 Чтобы узнать больше, ознакомьтесь со статьей общие сведения об [управлении устройствами в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Эти действия также описаны в следующих разделах.
@@ -41,9 +43,9 @@ ms.locfileid: "39967170"
   
 1. Чтобы синхронизировать пользователей, группы и контакты из локальной службы Active Directory с Azure Active Directory, запустите мастер синхронизации каталогов и Azure AD Connect, как описано в статье [Настройка синхронизации каталогов для Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).
     
-2. По завершении синхронизации службы каталогов убедитесь, что устройства Windows 10 в вашей организации присоединены к Azure AD. Этот шаг выполняется отдельно для каждого устройства с Windows 10. Дополнительные сведения: [Set Up Windows Devices for Microsoft 365 Business Users](set-up-windows-devices.md) . 
+2. По завершении синхронизации службы каталогов убедитесь, что устройства Windows 10 в вашей организации присоединены к Azure AD. Этот шаг выполняется отдельно для каждого устройства с Windows 10. Для получения дополнительных сведений см. раздел [Настройка устройств Windows для пользователей Microsoft 365 Business Premium](set-up-windows-devices.md) . 
     
-3. Когда устройства с Windows 10 будут присоединены к Azure AD, каждый пользователь должен перезагрузить свои устройства и войти с помощью учетных данных Microsoft 365 Business. Теперь все устройства имеют доступ к локальным ресурсам.
+3. Когда устройства с Windows 10 будут присоединены к Azure AD, каждый пользователь должен перезагрузить свои устройства и войти с помощью учетных данных Microsoft 365 Business Premium. Теперь все устройства имеют доступ к локальным ресурсам.
     
 Для получения доступа к локальным ресурсам для устройств с присоединением Azure AD дополнительные действия не требуются. Эта функция встроена в Windows 10. 
 

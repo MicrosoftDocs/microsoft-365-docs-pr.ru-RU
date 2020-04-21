@@ -2,8 +2,8 @@
 title: Получение доступа к данным бывшего пользователя и создание их резервной копии
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekua
+ms.author: twerner
+author: twernermsft
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Сведения о том, как сохранить файлы сотрудника и сообщения электронной почты, когда пользователь покидает организацию.
-ms.openlocfilehash: 11c946e5c242b05fea3a15b9427f36029c61082f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 9f665b68f50fd9b7f41ac0a6ef4b9e29ef289d7c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142567"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617228"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Получение доступа к данным бывшего пользователя и создание их резервной копии
 

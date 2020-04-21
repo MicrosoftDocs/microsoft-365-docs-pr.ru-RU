@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Сведения о том, как включить или отключить функцию "несрочные" для всех или определенных пользователей в Организации с помощью Exchange PowerShell. '
-ms.openlocfilehash: 65aa614095ecbebaad3d7eb38af1e74166ce20ac
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b71fe20133c78974dc7d1c97a061121eded9f221
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255287"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628931"
 ---
 # <a name="configure-clutter-for-your-organization"></a>Настройка функции 'Несрочные' для организации
 
 > [!TIP]
 > [Сортировка папки "Входящие"](../setup/configure-focused-inbox.md) предполагает замену несрочных сообщений. Дополнительные сведения: [обновление в статье Сортировка почты и планов для несрочных сообщений](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448)
   
-Администратору может потребоваться управлять функцией "несрочные" в Office 365. Чтобы включить или отключить эту функцию для пользователей организации, используйте Exchange PowerShell. (Пользователи могут включать и отключать эту функцию, следуя инструкциям в статье [Отключение и включение функции "Несрочные" в Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx).) 
+Администратору может потребоваться управлять функцией "несрочные" в Microsoft 365. Чтобы включить или отключить эту функцию для пользователей организации, используйте Exchange PowerShell. (Пользователи могут включать и отключать эту функцию, следуя инструкциям в статье [Отключение и включение функции "Несрочные" в Outlook](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx).) 
   
 Ознакомьтесь с [использованием PowerShell с Exchange Online](https://go.microsoft.com/fwlink/?LinkID=402831) и [подключитесь к Exchange Online PowerShell, чтобы](https://go.microsoft.com/fwlink/?LinkID=722415) узнать больше об использовании Exchange PowerShell. Необходимо иметь учетную запись, которая имеет по крайней мере роль администратора службы Exchange и возможность подключения к Exchange Online с помощью PowerShell. 
   
@@ -59,7 +59,7 @@ ms.locfileid: "42255287"
 
 Как администратор, вы можете повторно включить функцию "несрочные" с помощью Exchange PowerShell. После этого функция "Сортировка почты" отключается, а функция "Несрочные" снова становится активной. 
   
- **При использовании Outlook в Интернете с подпиской на Office 365 для бизнеса:**
+ **Если вы используете Outlook в Интернете с подпиской на Microsoft 365 Business Premium, выполните следующие действия:**
   
 - если у пользователя включена функция "Несрочные": 
     

@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8b5cb7d8d8b16fea1c1bef44e477dfd43a79a3d8
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: a91488b9bfa126b1419af7697c0ae8510ddbc149
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081334"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625270"
 ---
 # <a name="common-identity-and-device-access-policies"></a>Основные политики доступа для удостоверений и устройств
 В этой статье описываются распространенные рекомендуемые политики для защиты доступа к облачным службам, в том числе локальные приложения, опубликованные с помощью прокси-сервера приложения Azure AD. 
@@ -67,9 +67,9 @@ ms.locfileid: "43081334"
 
 На приведенном ниже рисунке для команды "самый высокий секретный проект X" назначается политика условного доступа, которая должна *всегда*иметь mfa. Будьте разумны при применении более высоких уровней защиты для пользователей. Участники этой группы проекта должны будут предоставлять две формы проверки подлинности при каждом входе в систему, даже если они не просматривают строго регулируемого контента.  
 
-Все группы Azure AD, созданные в рамках этих рекомендаций, должны быть созданы в виде групп Office 365. Это особенно важно для развертывания Azure Information Protection (AIP) при защите документов в SharePoint Online.
+Все группы Azure AD, созданные как часть этих рекомендаций, должны быть созданы как группы Microsoft 365. Это особенно важно для развертывания Azure Information Protection (AIP) при защите документов в SharePoint Online.
 
-![Снимок экрана для создания групп Office 365](../media/identity-device-AAD-groups.png)
+![Снимок экрана для создания групп Microsoft 365](../media/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>Запрос MFA на основе риска входа
@@ -95,7 +95,7 @@ ms.locfileid: "43081334"
 |:---|:---------|:-----|:----|
 |Пользователи или группы|Включить|Выберите пользователей и группы — выберите определенную группу безопасности, содержащую целевых пользователей|Следует начать с группы безопасности, в которую входят пользователи пилотного проекта|
 ||Исключить|Исключение группы безопасности, учетных записей служб (удостоверений приложений)|Членство изменялось по мере необходимости во временной основе|
-|Облачные приложения|Включить|Выберите приложения, к которым необходимо применить это правило. Например, выберите Office 365 Exchange Online||
+|Облачные приложения|Включить|Выберите приложения, к которым необходимо применить это правило. Например, выберите Exchange Online||
 |Условия|Настроено|Да|Выполните настройку в соответствии с вашей средой и потребностями|
 |Риск при входе|Уровень риска||Ознакомьтесь с рекомендациями, приведенными в следующей таблице|
 
@@ -142,7 +142,7 @@ ms.locfileid: "43081334"
 |:---|:---------|:-----|:----|
 |Пользователи или группы|Include|Выберите пользователей и группы — выберите определенную группу безопасности, содержащую целевых пользователей|Следует начать с группы безопасности, в которую входят пользователи пилотного проекта|
 ||Исключить|Исключение группы безопасности, учетных записей служб (удостоверений приложений)|Изменение членства по мере необходимости на временной основе|
-|Облачные приложения|Include|Выберите приложения, к которым необходимо применить это правило. Например, выберите Office 365 Exchange Online||
+|Облачные приложения|Include|Выберите приложения, к которым необходимо применить это правило. Например, выберите Exchange Online||
 |Условия|Настроено|Да|Настройка клиентских приложений|
 |Клиентские приложения|Настроено|Да|Мобильные приложения и клиенты для настольных ПК, другие клиенты (выберите и то, и другое).|
 
@@ -215,7 +215,7 @@ ms.locfileid: "43081334"
 
 Для применения политик защиты приложений требуется набор политик, описанный в статье [требования к политике защиты приложений для облачного доступа к приложениям с условным доступом](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access). Эти политики включены в этот рекомендуемый набор политик настройки удостоверений и доступа.
 
-Чтобы создать правило условного доступа, требующее утвержденные приложения и защиту приложений, выполните действие "шаг 1: Настройка политики условного доступа Azure AD для Office 365" в [сценарии 1: Office 365 приложения требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что позволяет использовать Outlook для iOS и Android, но блокирует подключение клиентов Exchange ActiveSync к Exchange Online.
+Чтобы создать правило условного доступа, требующее утвержденные приложения и защиту приложений, выполните действие "шаг 1: Настройка политики условного доступа Azure AD для Microsoft 365" в [сценарии 1: microsoft 365 приложения требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что позволяет Outlook для iOS и Android, но блокирует подключение клиентов Exchange ActiveSync к Exchange Online.
 
    > [!NOTE]
    > Эта политика гарантирует, что мобильные пользователи смогут получить доступ ко всем конечным точкам Office, используя соответствующие приложения.
@@ -229,7 +229,7 @@ ms.locfileid: "43081334"
 <!---
 With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several conditional access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
-1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Office 365" in [Scenario 1: Office 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
+1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Microsoft 365" in [Scenario 1: Microsoft 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
 
    > [!NOTE]
    > This policy ensures mobile users can access all Office endpoints using the applicable apps.
@@ -281,7 +281,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 |Type|Элемент Property|Значения|"Заметки"|
 |:---|:---------|:-----|:----|
-|Password|Запрос пароля для разблокировки мобильных устройств|Обязательность||
+|Пароль|Запрос пароля для разблокировки мобильных устройств|Обязательность||
 ||Простые пароли|Блок||
 ||Тип пароля|Устройство по умолчанию||
 ||Минимальная длина пароля|6 ||
@@ -302,7 +302,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 |Type|Элемент Property|Значения|"Заметки"|
 |:---|:---------|:-----|:----|
-|Правила Advanced Threat Protection в защитнике Майкрософт|Потребовать, чтобы устройство было в показателе риска или на уровне машины|Средний||
+|Правила Advanced Threat Protection в защитнике Майкрософт|Потребовать, чтобы устройство было в показателе риска или на уровне машины|Средние||
 
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>Требуются совместимые компьютеры (но не совместимые телефоны и Планшетные ПК)
@@ -322,7 +322,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 6. Выберите **Облачные приложения**.
 
-7. Нажмите кнопку **выбрать приложения**, выберите нужные приложения в списке **облачные приложения** . Например, выберите Office 365 Exchange Online. Нажмите кнопку **выбрать** и **Готово**.
+7. Нажмите кнопку **выбрать приложения**, выберите нужные приложения в списке **облачные приложения** . Например, выберите Exchange Online. Нажмите кнопку **выбрать** и **Готово**.
 
 8. Чтобы обеспечить соответствие требованиям компьютеров, но не совместимых телефонов и планшетов, выберите пункт **условия** и **платформы устройств**. Выберите **пункт Выбор платформ устройств** и выберите **Windows** и **macOS**.
 
@@ -350,7 +350,7 @@ With Conditional Access, organizations can restrict access to approved (modern a
 
 6. Выберите **Облачные приложения**.
 
-7. Нажмите кнопку **выбрать приложения**, выберите нужные приложения в списке **облачные приложения** . Например, выберите Office 365 Exchange Online. Нажмите кнопку **выбрать** и **Готово**.
+7. Нажмите кнопку **выбрать приложения**, выберите нужные приложения в списке **облачные приложения** . Например, выберите Exchange Online. Нажмите кнопку **выбрать** и **Готово**.
 
 8. Выберите **Предоставление** в разделе **Элементы управления доступом**.
 

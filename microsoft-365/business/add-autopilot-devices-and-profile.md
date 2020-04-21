@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса, чтобы они были готовы к использованию сотрудниками.
-ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561587"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627501"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
@@ -81,7 +81,7 @@ ms.locfileid: "42561587"
     
     - Создание интерфейса входа с использованием фирменной символики компании.
     
-    - Подключите устройства к учетным записям Azure Active Directory и автоматически зарегистрируйте их для управления в Microsoft 365 Business.
+    - Подключите устройства к учетным записям Azure Active Directory и автоматически зарегистрируйте их для управления с помощью Microsoft 365 Business Premium.
     
     Для получения дополнительных сведений см раздел [сведения о параметрах профиля для автопилота](autopilot-profile-settings.md). 
     

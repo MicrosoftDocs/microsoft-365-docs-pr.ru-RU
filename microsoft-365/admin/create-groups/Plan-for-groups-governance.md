@@ -1,5 +1,5 @@
 ---
-title: Планирование управления группами Office 365
+title: Планирование управления группами
 ms.reviewer: johasand
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,30 +18,30 @@ search.appverid:
 - MET150
 - MOE150
 - BSA160
-description: Узнайте, как спланировать управление группами Office 365.
-ms.openlocfilehash: 2608f3803e13319a349e9a915392778b9793e847
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Узнайте, как спланировать управление группами Microsoft 365.
+ms.openlocfilehash: 95cd549fea6646639386d33e5a026f60b3ccbbba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894737"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617138"
 ---
-# <a name="plan-for-governance-in-office-365-groups"></a>Планирование управления в группах Office 365
+# <a name="plan-for-governance-in-groups"></a>Планирование управления в группах
 
-Группы Office 365 имеют богатый набор средств для реализации функций управления, которые может потребоваться вашей организации. Эта статья посвящена ИТ-специалистам с указанием правильных вопросов по определению требований к управлению и способам их удовлетворения в соответствии с их профилями Организации.
+Группы Microsoft 365 имеют богатый набор средств для реализации функций управления, которые могут потребоваться в Организации. Эта статья посвящена ИТ-специалистам с указанием правильных вопросов по определению требований к управлению и способам их удовлетворения в соответствии с их профилями Организации.
 
-## <a name="why-office-365-groups"></a>Зачем нужны группы Office 365?
+## <a name="why-microsoft-365-groups"></a>Зачем нужны группы Microsoft 365?
 ![изображение DESC](../../media/01.png)
 
 Мы знаем, что в настоящее время организации используют различные набор средств. Существует группа разработчиков, использующих чат группы, руководителей, отправляющих электронную почту и всю организацию, соединяющую корпоративную социальную сеть. Используется несколько средств совместной работы, так как каждая группа является уникальной и имеет свои собственные требования к функциональности и воркстиле. В некоторых случаях будут использоваться только сообщения электронной почты, а другие будут в основном в чате. 
 
 Если пользователи считают, что предоставляемые ИТ-инструменты не соответствуют потребностям, они, скорее всего, будут скачивать свое любимое приложение для пользователей, которое поддерживает свои сценарии. Несмотря на то, что этот процесс позволяет пользователям быстро приступить к работе, он ведет к неприятному взаимодействию с пользователем в Организации с несколькими учетными данными, с трудностями при совместной работе и без одного места для просмотра контента. Эта концепция называется "теневой" и создает важный риск для организаций. Она сокращает возможность единообразного управления доступом пользователей, обеспечения безопасности и соответствия требованиям служб.
 
-Группы Office 365 позволяют пользователям и снизить риск их затенения, предоставляя в течение одного этапа многие средства, необходимые для сотрудничества. Группы Office 365 позволяют выбрать группу людей, которым требуется совместная работа, и легко настроить набор ресурсов для совместного использования. Назначение разрешений для ресурсов вручную — это то, что при добавлении членов в группу автоматически предоставляются необходимые разрешения всем ресурсам, предоставляемым группой.
+Группы Microsoft 365 позволяют пользователям и снизить риск их затенения, предоставляя в течение одного этапа многие средства, необходимые для сотрудничества. Группы Microsoft 365 позволяют выбрать группу людей, которым требуется совместная работа, и легко настроить набор ресурсов для совместного использования. Назначение разрешений для ресурсов вручную — это то, что при добавлении членов в группу автоматически предоставляются необходимые разрешения всем ресурсам, предоставляемым группой.
 
 ## <a name="technical-architecture"></a>Техническая архитектура
 
-Существует три основных способа связи, которые поддерживаются группами Office 365. Группы могут создаваться в этих интерфейсах и использоваться в Office 365:
+Существует три основных способа связи, которые поддерживаются группами Microsoft 365. Группы могут создаваться в этих интерфейсах и использоваться в Microsoft 365:
 - Outlook: совместная работа через электронную почту с общей групповой папкой "Входящие" и "Календарь"
 - Microsoft Teams — это Рабочая область для долговременного разговора, в которой вы можете иметь неформальные, в режиме реального времени, беседы по различным темам, организованным по определенным вложенным группам.
 - Yammer: Корпоративный социальное интерфейс для совместной работы
@@ -57,15 +57,15 @@ ms.locfileid: "42894737"
 - [Записная книжка OneNote](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) — для сбора идей, исследований и информации
 - [Планировщик](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) — для назначения и управления задачами проекта среди участников группы
 - [Группа Yammer](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) — общее место для бесед и обмена информацией
-- Microsoft Teams — Рабочая область на основе чата в Office 365
+- Microsoft Teams — это Рабочая область на основе чата в Microsoft 365
 
-Дополнительные сведения о том, какие ресурсы создаются для каждой группы, можно узнать в [статье Office 365 Groups](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Дополнительные сведения о том, какие ресурсы создаются для каждой группы, можно узнать в [статье сведения о группах Microsoft 365](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 > [!NOTE]
-> Если новая группа Office 365 создана с помощью Yammer или Teams, эта группа не отображается в Outlook или адресной книге, так как основной обмен данными между этими пользователями происходит в соответствующих клиентах. Группы Yammer не могут быть подключены к Microsoft Teams.
+> Когда новая группа Microsoft 365 создана с помощью Yammer или Teams, эта группа не отображается в Outlook или адресной книге, так как основной обмен данными между этими пользователями происходит в соответствующих клиентах. Группы Yammer не могут быть подключены к Microsoft Teams.
 
 ## <a name="where-to-start-a-conversation"></a>Где начать беседу
-Существует несколько мест для беседы в Office 365. Понимание того, как начать беседу, поможет организациям определить стратегию общения.
+Существует несколько мест для беседы в Microsoft 365. Понимание того, как начать беседу, поможет организациям определить стратегию общения.
 
 ![изображение DESC](../../media/03.png)
 
@@ -81,19 +81,19 @@ ms.locfileid: "42894737"
 
 - Группы Outlook: современный DL (совместная работа на основе электронной почты)
   - Повсеместный для целевого взаимодействия
-  - Обновление списков рассылки до Office 365 группы — [почему необходимо выполнить обновление?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - Обновление списков рассылки до Microsoft 365 групп — [почему необходимо выполнить обновление?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
-- SharePoint — среда для совместной работы в основном контенте для всех групп Office 365
+- SharePoint — основные возможности для совместной работы с контентом для всех групп Microsoft 365
   - Каждая группа получает подключенный сайт группы SharePoint
   - Общий доступ к контенту, создание настраиваемых страниц и создание новостей
-  - [Подключение](https://docs.microsoft.com/sharepoint/dev/features/groupify/groupify-overview) существующих сайтов группы SharePoint к новым группам Office 365
+  - [Подключение](https://docs.microsoft.com/sharepoint/dev/features/groupify/groupify-overview) существующих сайтов группы SharePoint к новым группам Microsoft 365
 
-##  <a name="managing-and-governing-office-365-at-scale"></a>Управление и управление Office 365 при масштабе
+##  <a name="managing-and-governing-microsoft-365-at-scale"></a>Управление Microsoft 365 и управление им в масштабе
 
-Группы Office 365 имеют богатый набор средств для реализации функций управления, которые может потребоваться вашей организации. В следующем разделе описываются возможности, рекомендации и приводятся инструкции по заданию нужных вопросов для определения требований к управлению и способов их выполнения.
+Группы Microsoft 365 имеют богатый набор средств для реализации функций управления, которые могут потребоваться в Организации. В следующем разделе описываются возможности, рекомендации и приводятся инструкции по заданию нужных вопросов для определения требований к управлению и способов их выполнения.
 
 **В этом разделе**:
-- [Контроль пользователей, которые могут создавать группы Office 365](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#control-who-can-create-office-365-groups)
+- [Контроль пользователей, которые могут создавать группы Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#control-who-can-create-office-365-groups)
 - [Обратимое удаление и восстановление группы](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#group-soft-delete-and-restore)
 - [Политика именования групп](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#group-naming-policy)
 - [Политика истечения срока действия групп](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#group-expiration-policy)
@@ -102,7 +102,7 @@ ms.locfileid: "42894737"
 - [Обновление традиционных средств для совместной работы](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#upgrade-traditional-collaboration-tools)
 - [Отчеты по группам](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#groups-reporting)
 
-### <a name="control-who-can-create-office-365-groups"></a><a name="control-who-can-create-office-365-groups"></a>Контроль пользователей, которые могут создавать группы Office 365
+### <a name="control-who-can-create-microsoft-365-groups"></a><a name="control-who-can-create-office-365-groups"></a>Контроль пользователей, которые могут создавать группы Microsoft 365
 Группы могут создаваться конечными пользователями из нескольких конечных точек, в том числе Outlook, SharePoint, Teams и других сред.
 
 ![изображение DESC](../../media/04.png)
@@ -119,7 +119,7 @@ ms.locfileid: "42894737"
 | -------------- | ------------------------------------------------------------ |
 | Открыть (по умолчанию) | При необходимости пользователи могут создавать собственные группы, не дожидаясь или не требуя их использования. |
 | ИТ – светоиндикатор         | Пользователи запрашивают группу из нее. Он поможет вам выбрать лучшие средства для совместной работы в соответствии с их потребностями. |
-| Удален     | Создание групп ограничено определенными людьми, командами и службами. в статье [Управление пользователями с возможностью создания групп Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618). |
+| Удален     | Создание групп ограничено определенными людьми, командами и службами. Чтобы узнать больше, ознакомьтесь со статьей [Управление пользователями, которые могут создавать группы Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618). |
 
 У вашей организации могут быть особые требования для реализации ограниченных элементов управления для пользователей, которые могут создавать группы. Используйте приведенную ниже таблицу, чтобы принять решение о том, какая модель подготовки соответствует вашей организации.
 
@@ -129,16 +129,16 @@ ms.locfileid: "42894737"
 |![изображение DESC](../../media/next_steps.png)|Дальнейшие действия|<ul><li>Задокументируйте требования Организации к созданию групп и групп.</li><li>Запланируйте реализацию этих требований в рамках развертывания групп.</li><li>Подключение и публикация политик для информирования пользователей о том, что они могут ожидать</li><li>Запланируйте реализацию динамического членства там, где это необходимо.</li></ul>|
 
 > [!Important]
-> Ограничение создания групп и групп может замедлить работу пользователей, так как многие службы Office 365 требуют, чтобы группы создавались для нормальной работы службы. Для получения дополнительных сведений Узнайте, [почему следует контролировать, кто создает группы Office 365.](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?view=o365-worldwide%23why-control-who-creates-office-365-groups)
+> Ограничение создания групп и групп может замедлить работу пользователей, так как многие службы Microsoft 365 требуют, чтобы группы создавались для нормальной работы службы. Для получения дополнительных сведений Узнайте, [почему следует контролировать, кто создает группы Microsoft 365.](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?view=o365-worldwide%23why-control-who-creates-office-365-groups)
 
 #### <a name="resources"></a>*Ресурсы*
-- [Управление пользователями, которые могут создавать группы Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?view=o365-worldwide)
+- [Управление пользователями, которые могут создавать группы Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?view=o365-worldwide)
 - [Динамическое заполнение групп на основе атрибутов объектов](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-with-advanced-rules)
-- [Изменение параметров по умолчанию для групп Office 365 для Outlook на общедоступные или частные](https://support.office.com/article/office-365-groups-in-outlook-private-by-default-36236e39-26d3-420b-b0ac-8072d2d2bedc)
+- [Изменение параметров по умолчанию для Microsoft 365 Groups для Outlook в общедоступной или частной среде](https://support.office.com/article/office-365-groups-in-outlook-private-by-default-36236e39-26d3-420b-b0ac-8072d2d2bedc)
 - [Синхронизация групп безопасности с членством в группе](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Syncing-Security-Groups-with-team-membership/ba-p/241959)
 
 ### <a name="group-soft-delete-and-restore"></a><a name="group-soft-delete-and-restore"></a>Обратимое удаление и восстановление группы
-Удаленная группа Office 365 по умолчанию хранится в течение 30 дней. Этот период называется обратимым удалением, так как вы по-прежнему можете восстановить группу. Через 30 дней группа и ее контент окончательно удаляются, и их невозможно восстановить.
+Если вы удалили группу Microsoft 365, по умолчанию она сохраняется в течение 30 дней. Этот период называется обратимым удалением, так как вы по-прежнему можете восстановить группу. Через 30 дней группа и ее контент окончательно удаляются, и их невозможно восстановить.
 
 > [!Tip]
 >- Сообщите пользователям о процессе восстановления.
@@ -154,8 +154,8 @@ ms.locfileid: "42894737"
 >Если пользователь попытается получить доступ к сайту в период обратимого удаления, возникнет ошибка 403 о запрете доступа. Когда этот период закончится, пользователь получит ошибку 404 о том, что сайт не найден.
 
 #### <a name="resources"></a>*Ресурсы*
-- [Восстановление удаленной группы Office 365](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54?ui=en-US&rs=en-001&ad=US)
-- [Восстановление удаленной группы Office 365 в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
+- [Восстановление удаленной группы Microsoft 365](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54?ui=en-US&rs=en-001&ad=US)
+- [Восстановление удаленной группы Microsoft 365 в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Удаление групп с помощью командлета Remove-UnifiedGroup](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
 
 ### <a name="group-naming-policy"></a><a name="group-naming-policy"></a>Политика именования групп
@@ -177,8 +177,8 @@ ms.locfileid: "42894737"
 >Политика именования применяется к группам, созданным во всех рабочих нагрузках группы (например, Outlook, Microsoft Teams, SharePoint, Planner, Yammer и т. д.). Он применяется как к имени группы, так и к псевдониму группы. Он применяется, когда пользователь создает группу и при редактировании имени или псевдонима группы для существующей группы.
 
 #### <a name="resources"></a>*Ресурсы*
-- [Политика именования групп Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)
-- [Принудительная политика именования для групп Office 365 в Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=868340)
+- [Политика именования групп Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)
+- [Применение политики именования для групп Microsoft 365 в Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=868340)
 - [Командлеты Azure Active Directory для настройки параметров группы](https://go.microsoft.com/fwlink/?linkid=868341)
 - [Предварительная версия функций для именования групп](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/NamingPolicy)
 
@@ -207,11 +207,11 @@ ms.locfileid: "42894737"
 >При изменении политики срока действия служба пересчитывает дату окончания срока действия для каждой группы. Он всегда начинает отсчет с даты создания группы, а затем применяет новую политику срока действия.
 
 #### <a name="resources"></a>*Ресурсы*
-- [Политика срока действия группы Office 365](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
-- [Настройка политики истечения срока действия для групп Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
+- [Политика истечения срока действия групп Microsoft 365](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
+- [Настройка политики истечения срока действия для групп Microsoft 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 ### <a name="group-guest-access"></a><a name="group-guest-access"></a>Гостевой доступ к группе
-Администраторы могут контролировать, разрешать ли гостевой доступ к группам Office 365 для всей организации или для отдельных групп Office 365. Кроме того, они могут разрешать отдельным пользователям добавлять гостей в группы.
+Администраторы могут контролировать, разрешать ли гостевой доступ к группам Microsoft 365 для всей организации или для отдельных групп Майкрософт 365. Кроме того, они могут разрешать отдельным пользователям добавлять гостей в группы.
 >[!Tip]
 >- Включите гостевой доступ на уровне клиента. Если необходимо, заблокируйте для определенных групп.
 >- Управление с помощью параметра "разрешить/блокировать гостевые домены", "гость", "Просмотр доступа", "условия использования".
@@ -225,14 +225,14 @@ ms.locfileid: "42894737"
 
 #### <a name="resources"></a>*Ресурсы*
 - [Совместное работа с людьми за прев Организации](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
-- [Управление гостевым доступом в группах Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups)
-- [Гостевой доступ в группах Office 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+- [Управление гостевым доступом в группах Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups)
+- [Гостевой доступ в группах Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
 - [Проверки доступа Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 - [Функция условий использования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-tou)
 - [Google Federation](https://docs.microsoft.com/azure/active-directory/b2b/google-federation)
 
 ### <a name="group-policies--information-protection"></a><a name="group-policies--information-protection"></a>Групповые политики & защита информации
-Группы Office 365 основаны на расширенных возможностях обеспечения безопасности и соответствия требованиям в Office 365 и поддерживает классификации, аудит и создание отчетов, поиск контента соответствия требованиям, электронное хранение, юридические удержания и политики хранения.
+Группы Microsoft 365 основаны на расширенных возможностях обеспечения безопасности и соответствия требованиям Microsoft 365 и поддерживает классификации, аудит и создание отчетов, поиск контента соответствия требованиям, обнаружение электронной почты, юридические удержания и политики хранения.
 >[!Tip]
 >- Настройте классификацию, рекомендации по использованию и метки, соответствующие потребностям вашей организации.
 >- Политики хранения можно определять независимо от меток.
@@ -246,7 +246,7 @@ ms.locfileid: "42894737"
 
 
 #### <a name="resources"></a>*Ресурсы*
-- [Ссылка на свои рекомендации по использованию групп Office 365](https://docs.microsoft.com/office365/enterprise/manage-office-365-groups-with-powershell#link-to-your-office-365-groups-usage-guidelines)
+- [Ссылки на рекомендации по использованию групп Microsoft 365](https://docs.microsoft.com/office365/enterprise/manage-office-365-groups-with-powershell#link-to-your-office-365-groups-usage-guidelines)
 - [Создание классификаций для групп Office в Организации](https://docs.microsoft.com/office365/enterprise/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)
 - [Настройка параметров групп](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets)
 - [Обзор политик хранения](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
@@ -255,35 +255,35 @@ ms.locfileid: "42894737"
 - [Поиск в журнале аудита](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance)
 - [Создание или удаление судебного удержания на месте](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds)
 - [Создание политики сохранения](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
-- [Поиск контента в Центре безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search)
+- [Запуск поиска контента в центре безопасности & соответствия требованиям](https://docs.microsoft.com/Office365/SecurityCompliance/content-search)
 - [Пакетное создание и публикация меток хранения с помощью PowerShell](https://docs.microsoft.com/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 
 ### <a name="upgrade-traditional-collaboration-tools"></a><a name="upgrade-traditional-collaboration-tools"></a>Обновление традиционных средств для совместной работы
-В течение нескольких лет Организации полагаться на группы рассылки для общения и совместной работы с группами людей как внутри организации, так и за ее пределами. Однако теперь группы Office 365 в Outlook предоставляют более мощное решение для совместной работы. Кроме того, если вы хотите модернизация этот сайт, важно иметь возможность подключения группы Office 365 к существующему сайту SharePoint.
+В течение нескольких лет Организации полагаться на группы рассылки для общения и совместной работы с группами людей как внутри организации, так и за ее пределами. Однако теперь группы Microsoft 365 в Outlook предоставляют более мощное решение для совместной работы. Кроме того, если вы хотите модернизация этот сайт, важно иметь возможность подключения группы Microsoft 365 к существующему сайту SharePoint.
 
 >[!Tip]
 >- С помощью центра администрирования Exchange можно легко обновить все доступные списки рассылки в секундах или с помощью командлетов PowerShell.
->- Подключите существующие сайты группы SharePoint к новым группам Office 365.
+>- Подключите существующие сайты группы SharePoint к новым группам Microsoft 365.
 
 |         |         |         |
 |---------|---------|---------|
 |![изображение DESC](../../media/decision_point.png)|Точки принятия решений|<ul><li>У вашей организации есть списки рассылки, которые [не подходят](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists#how-do-i-check-which-dls-are-eligible-for-upgrade) для обновления?<li>Определите тип группы, которая будет наиболее подвергаться переносу списка рассылки.</li></ul>|
-|![изображение DESC](../../media/next_steps.png)|Дальнейшие действия|<ul><li>Определите, какие списки рассылки будут кандидатами на обновление до группы Office 365.</li><li>Проанализируйте существующие сайты группы SharePoint, чтобы узнать, какие сайты готовы к подключению к группе.</li><li>Сообщите другим командам Организации, что вы обновили группу рассылки и какие действия были выполнены для ее успешного выполнения.</li></ul>|
+|![изображение DESC](../../media/next_steps.png)|Дальнейшие действия|<ul><li>Определите, какие списки рассылки будут кандидатами на обновление до Microsoft 365 групп.</li><li>Проанализируйте существующие сайты группы SharePoint, чтобы узнать, какие сайты готовы к подключению к группе.</li><li>Сообщите другим командам Организации, что вы обновили группу рассылки и какие действия были выполнены для ее успешного выполнения.</li></ul>|
 
 
 #### <a name="resources"></a>*Ресурсы*
 - [Обновление списков рассылки (DL) до групп в Outlook](https://aka.ms/whyupgradedls)
 - Обновление с одним щелчком с помощью центра администрирования Exchange или с помощью [сценариев PowerShell](https://support.office.com/article/787d7a75-e201-46f3-a242-f698162ff09f)
-- [Миграция списков рассылки в группы Office 365: Справка для администраторов](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
-- [Подключите существующие сайты SharePoint к группам Office 365:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
+- [Миграция списков рассылки в Microsoft 365 группы — Справка для администраторов](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
+- [Подключение существующих сайтов SharePoint к группам Microsoft 365:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
 - [Анализ и использование данных сканера](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group-scanner)
 - [Сканер модернизации SharePoint](https://github.com/SharePoint/sp-dev-modernization/tree/master/Tools/SharePoint.Modernization) (инструмент, размещенный на сайте GitHub)
 
 ### <a name="groups-reporting"></a><a name="groups-reporting"></a>Отчеты по группам
-На панели управления Отчеты в Office 365 отображаются основные сведения о действиях сотрудников организации в приложениях Office 365. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением.
+Панель мониторинга отчетов Microsoft 365 показывает обзор действий по продуктам корпорации Майкрософт в вашей организации. Вы можете просмотреть отчеты по отдельным продуктам, чтобы получить более подробные сведения о действиях с каждым приложением.
 > [!TIP]
->- Отчеты об активности групп можно использовать для получения сведений об активности групп Office 365 в Организации и узнать, сколько групп создано и используется.
->— Отчет по группам Office 365 можно просмотреть для тенденций за последние 7, 30, 90 дней или 180 дней.
+>- Отчеты "группы" можно использовать для получения сведений об активности групп Microsoft 365 в Организации и узнать, сколько групп создано и используется.
+>— Отчет по группам Microsoft 365 можно просмотреть для тенденций за последние 7, 30, 90 дней или 180 дней.
 >- Отслеживайте действия группы в почтовых ящиках групповых бесед, групповых сайтов и файлов, сведения о членстве в группах, включая счетчики внешних участников.
 >- Периодически следите за тем, чтобы присвоить владельцам группы активных групп, чтобы изучить варианты использования и улучшать их внутренним образом.
 >- Используйте пакеты содержимого Power BI для получения дополнительных сведений.
@@ -291,22 +291,22 @@ ms.locfileid: "42894737"
 
 |         |         |         |
 |---------|---------|---------|
-|![изображение DESC](../../media/decision_point.png)|Точки принятия решений|<ul><li>Требуются ли в Организации обычные отчеты для ознакомления с использованием групп Office 365?<li>Требуются ли Организации отчеты обо всех группах с внешними участниками?</li></ul>|
+|![изображение DESC](../../media/decision_point.png)|Точки принятия решений|<ul><li>Требуются ли в Организации обычные отчеты для изучения использования групп Microsoft 365?<li>Требуются ли Организации отчеты обо всех группах с внешними участниками?</li></ul>|
 |![изображение DESC](../../media/next_steps.png)|Дальнейшие действия|<ul><li>Задокументируйте требования Организации к регулярному просмотру отчетов об активности в группах.</li></ul>|
 
 
 #### <a name="resources"></a>*Ресурсы*
-- [Отчеты об Office 365 в центре администрирования](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
+- [Отчеты Microsoft 365 в центре администрирования](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
 - [Пакет содержимого для оценки внедрения Office 365](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 - [Пакет содержимого Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-power-bi-content-pack-how-to)
 - [API действий для групп Microsoft Graph](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/office_365_groups_activity_reports)
-- [Отчет по группам Office 365 (единые группы)](https://gallery.technet.microsoft.com/office/Office-365-Groups-Report-7e3e161b)
+- [Отчет по группам Microsoft 365 (единые группы)](https://gallery.technet.microsoft.com/office/Office-365-Groups-Report-7e3e161b)
 - [Аудит отчетов об активности на портале Azure Active Directory](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-audit-logs)
 - [Microsoft Graph — Использование разностного запроса для отслеживания изменений](https://docs.microsoft.com/graph/delta-query-overview)
 
 ## <a name="getting-started-based-on-your-cloud-adoption-journey"></a>Начало работы с учетом облачного внедрения
 
-Группы Office 365 предоставляют богатый набор возможностей управления, которые могут потребоваться в Организации. Рассмотрите следующие профили Организации в качестве руководства, чтобы определить требования к управлению, а также способ их выполнения.
+Группы Microsoft 365 предоставляют богатый набор возможностей управления, которые могут потребоваться в Организации. Рассмотрите следующие профили Организации в качестве руководства, чтобы определить требования к управлению, а также способ их выполнения.
 
 **Рассмотрим следующие профили Организации:**
 - Малый бизнес
@@ -314,19 +314,19 @@ ms.locfileid: "42894737"
 - Поднадзорный или корпоративный
 
 ### <a name="small-business"></a>Малый бизнес
-Рассмотрим организацию, в которой развернут Office 365 по крайней мере с помощью лицензий на Exchange Online и SharePoint Online, включающих планы бизнеса и бизнес премиум, а также планы Enterprise E1, E3 и водобез Azure Active Director Premium соглашения.
+Рассмотрим организацию, в которой развернута Microsoft 365 по крайней мере с помощью лицензий на Exchange Online и SharePoint Online, включающих планы бизнеса и бизнес премиум, а также планы для предприятий E1, E3 и водобез лицензирования Azure Active Director Premium.
 
 | Этап | Описание |
 | --------------- | ------------------------------------------------------------ |
-| Инструкции |<ul><li>Рассмотрите модель подготовки самообслуживания.</li><li> [По умолчанию](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395)группы в Outlook & сайты SharePoint являются частными.</li><li> Группы могут создаваться путем обновления существующих списков рассылки (по одному или в пакетном режиме с помощью PowerShell). [В статье обновление списков рассылки в группах Office 365](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F).</li><li> Включить гостевой доступ, но управлять с помощью параметра "разрешить/блокировать гостевые домены".</li><li> Используйте групповые отчеты, чтобы получить подробные сведения о том, как пользователи используют группы.</li><li> Рассмотрите возможность создания группы Microsoft Teams на уровне Организации для того, чтобы все могли входить в одну группу для совместной работы. </li></ul>|
+| Инструкции |<ul><li>Рассмотрите модель подготовки самообслуживания.</li><li> [По умолчанию](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395)группы в Outlook & сайты SharePoint являются частными.</li><li> Группы могут создаваться путем обновления существующих списков рассылки (по одному или в пакетном режиме с помощью PowerShell). Обратитесь [к разделу Обновление списков рассылки с группами майкрософт 365](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F).</li><li> Включить гостевой доступ, но управлять с помощью параметра "разрешить/блокировать гостевые домены".</li><li> Используйте групповые отчеты, чтобы получить подробные сведения о том, как пользователи используют группы.</li><li> Рассмотрите возможность создания группы Microsoft Teams на уровне Организации для того, чтобы все могли входить в одну группу для совместной работы. </li></ul>|
 | Дальнейшие действия      |<ul><li>Рекомендуется использовать [макеты и скрипты](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) сайтов для определения проекта по умолчанию для элементов управления, использующих действия, определенные в [справочнике по схеме JSON](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema).</li><li>Просмотр [отчетов по группам](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40).</li><li>Отслеживание групп общего и неактивных/активных групп.</li><li>Отслеживание используемых хранилищ Exchange и SharePoint.</li><li>Просмотр действий группы в беседах группового почтового ящика, действия сайта группы или файлов и т. д.</li></ul> |
 
 ### <a name="medium-sized-business"></a>Средний бизнес
-В дополнение к приведенным выше рекомендациям следует учитывать следующие требования для среднего бизнеса, в котором развернут Office 365, по крайней мере, с помощью лицензий на Azure Active Directory Premium P1.
+В дополнение к приведенным выше рекомендациям следует рассмотреть следующие рекомендации для среднего бизнеса, в котором развернута Microsoft 365, по крайней мере, с использованием лицензий на Azure Active Directory Premium P1 или Enterprise E3/А2.
 
 | Этап | Описание |
 | --------------- | ------------------------------------------------------------ |
-| Инструкции |<ul><li>Решите модель подготовки для открытых или информационных индикаторов.</li><li> Рассмотрите возможность создания определенных групп, привязанных к [правилам динамического членства](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) на основе АТРИБУТОВ Azure AD, таких как Department.</li><li> Определение классификаций в Организации, например, строго конфиденциальных, конфиденциальных (по умолчанию), общих.</li><li>  Определение политик на основе классификации, таких как хранение и чувствительность.</li><li> SharePoint — это служба контента для каждой группы Office 365. Рекомендуется разрабатывать и [развертывать сайты SharePoint Online с тремя уровнями защиты](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) (базовой, конфиденциальной и строго конфиденциальной). Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files).</li><li> Как общедоступные, так и частные группы по умолчанию перечислены в глобальном списке адресов. Определите, какие группы должны отображаться в глобальном списке адресов, в частности, в группах, созданных за пределами Microsoft Teams.  Используйте командлет [Set – UnifiedGroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) "хидденфромаддресслистсенаблед" или "хидефромексчанжеклиентс" для скрытия определенных групп.</li></ul> |
+| Инструкции |<ul><li>Решите модель подготовки для открытых или информационных индикаторов.</li><li> Рассмотрите возможность создания определенных групп, привязанных к [правилам динамического членства](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) на основе АТРИБУТОВ Azure AD, таких как Department.</li><li> Определение классификаций в Организации, например, строго конфиденциальных, конфиденциальных (по умолчанию), общих.</li><li>  Определение политик на основе классификации, таких как хранение и чувствительность.</li><li> SharePoint — это служба контента для каждой группы Microsoft 365. Рекомендуется разрабатывать и [развертывать сайты SharePoint Online с тремя уровнями защиты](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) (базовой, конфиденциальной и строго конфиденциальной). Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files).</li><li> Как общедоступные, так и частные группы по умолчанию перечислены в глобальном списке адресов. Определите, какие группы должны отображаться в глобальном списке адресов, в частности, в группах, созданных за пределами Microsoft Teams.  Используйте командлет [Set – UnifiedGroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) "хидденфромаддресслистсенаблед" или "хидефромексчанжеклиентс" для скрытия определенных групп.</li></ul> |
 | Дальнейшие действия      |<ul><li>Определите [рекомендации по использованию](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) для обучения пользователей рекомендациям по обеспечению эффективной работы их групп, а также их обучение по внутренним политикам контента. Например, общие сведения о классификациях, политиках и процедурах. </li><li>Определение периода жизненного цикла групп, в течение которого группы должны обновляться или будут удаляться с истекшим сроком действия.</li><li>Рассмотрите возможность создания следующих пользовательских заданий для реализации политик на основе классификаций.</li><li>Настройка конфиденциальности для личных сведений.</li><li>Отключить внешнее членство/общий доступ. </li><li>Сообщения электронной почты, чтобы уведомить участников группы о группах без [владельца](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).</li><li>Принудительная политика владения (минимальное. 2 владельца).</li><li> Определение политик хранения для групп на основе классификации. </li><li>Общие сведения о политиках хранения.</li><li>Использование PowerShell для определения групп с классификацией и [Set – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps).</li><li>Рекомендуется использовать макеты и скрипты сайтов для определения элементов управления с помощью действий, определенных в [справочнике по схеме JSON](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema).</li><li>Рассмотрите вопрос о создании [простого каталога сайтов с помощью макета сайта](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) и Microsoft Flow. При каждом создании сайта с помощью этого макета сайта, данные сайта захватываются и записываются в список. </li></ul>|
 
 ### <a name="regulated-or-enterprise"></a>Поднадзорный или корпоративный
@@ -334,8 +334,8 @@ ms.locfileid: "42894737"
 
 | Этап | Описание |
 | --------------- | ------------------------------------------------------------ |
-| Инструкции |<ul><li> Определите политики для управления данными сайта SharePoint, связанного с группой на основе классификации.</li><li>[Защитите файлы SharePoint Online с метками Office 365 и DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp).</li><li>[Защитите файлы SharePoint Online с помощью Azure Information Protection](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-azure-information-protection).</li><li> Сайт группы, подготовленный в области, связан с предпочтительным расположением данных пользователя (с[поддержкой нескольких регионов](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)).</li><li> Анализ членства для групп с внешними участниками ([обзоры доступа](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-access-reviews-overview)).</li><li>Прежде чем получать доступ, убедитесь, что сотрудники или гости видят соответствующие заявления об отказе на соблюдение юридических требований. ([условия использования](https://docs.microsoft.com/azure/active-directory/governance/active-directory-tou)).</li><li>Определение и составление отчетов по группам Office 365 с определенной [классификацией, у которой также есть внешние пользователи](https://techcommunity.microsoft.com/t5/Office-365-Groups/Sample-Powershell-to-identify-groups-with-HBI-classification-and/m-p/215561).</li><li>Конфиденциальные группы, в которых должны быть скрыты членства, должны создаваться с помощью командлета [New-UnifiedGroup](https://technet.microsoft.com/library/mt219359(v=exchg.160).aspx) (с помощью параметра Хидденграуп-мембершипенаблед) при создании группы.</li><li>Определите [метки конфиденциальности](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) для Организации, чтобы [ограничить доступ к контенту с помощью шифрования](https://docs.microsoft.com/Office365/SecurityCompliance/encryption-sensitivity-labels) и публикации в определенных группах Office 365.</li><li>Предотвращение выхода из системы конфиденциального содержимого на устройствах под управлением Windows, использующих [метки конфиденциальности, с Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). |
-| Дальнейшие действия      | <ul><li> С помощью скриптов сайта и макета сайта определите [действия](https://developer.microsoft.com/office/blogs/site-scripts-site-designs-summer-2018-update/) по умолчанию, выполняемые при создании нового сайта. Например, [Настройте параметр внешнего общего доступа](https://github.com/SharePoint/sp-dev-site-scripts/tree/master/samples/site-apply-external-sharing-setting) или [Запустите Microsoft Flow, чтобы вызвать функцию Azure](https://github.com/SharePoint/sp-dev-site-scripts/tree/master/samples/site-azure-function) для применения конфигураций, которые не поддерживаются изначально. </li><li> Требования к документам для [защиты файлов SharePoint Online с метками office 365 и DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) для сайтов, связанных с группами Office 365.</li><li>Документирование требований Организации к [обеспечению безопасности сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files) , подключенных к группам Office 365. </li><li>Документирование требований Организации к публикации [меток конфиденциальности](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) для определенных пользователей или групп для защиты контента.</li></ul> |
+| Инструкции |<ul><li> Определите политики для управления данными сайта SharePoint, связанного с группой на основе классификации.</li><li>[Защита файлов SharePoint Online с помощью меток и защиты от потери](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)данных.</li><li>[Защитите файлы SharePoint Online с помощью Azure Information Protection](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-azure-information-protection).</li><li> Сайт группы, подготовленный в области, связан с предпочтительным расположением данных пользователя (с[поддержкой нескольких регионов](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)).</li><li> Анализ членства для групп с внешними участниками ([обзоры доступа](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-access-reviews-overview)).</li><li>Прежде чем получать доступ, убедитесь, что сотрудники или гости видят соответствующие заявления об отказе на соблюдение юридических требований. ([условия использования](https://docs.microsoft.com/azure/active-directory/governance/active-directory-tou)).</li><li>Определение и составление отчетов о группах Microsoft 365 с определенной [классификацией, у которой также есть внешние пользователи](https://techcommunity.microsoft.com/t5/Office-365-Groups/Sample-Powershell-to-identify-groups-with-HBI-classification-and/m-p/215561).</li><li>Конфиденциальные группы, в которых должны быть скрыты членства, должны создаваться с помощью командлета [New-UnifiedGroup](https://technet.microsoft.com/library/mt219359(v=exchg.160).aspx) (с помощью параметра Хидденграуп-мембершипенаблед) при создании группы.</li><li>Определите [метки конфиденциальности](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) для Организации, чтобы [ограничить доступ к контенту с помощью шифрования](https://docs.microsoft.com/Office365/SecurityCompliance/encryption-sensitivity-labels) и публикации в определенных группах Microsoft 365.</li><li>Предотвращение выхода из системы конфиденциального содержимого на устройствах под управлением Windows, использующих [метки конфиденциальности, с Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553). |
+| Дальнейшие действия      | <ul><li> С помощью скриптов сайта и макета сайта определите [действия](https://developer.microsoft.com/office/blogs/site-scripts-site-designs-summer-2018-update/) по умолчанию, выполняемые при создании нового сайта. Например, [Настройте параметр внешнего общего доступа](https://github.com/SharePoint/sp-dev-site-scripts/tree/master/samples/site-apply-external-sharing-setting) или [Запустите Microsoft Flow, чтобы вызвать функцию Azure](https://github.com/SharePoint/sp-dev-site-scripts/tree/master/samples/site-azure-function) для применения конфигураций, которые не поддерживаются изначально. </li><li> Требования к документам для [защиты файлов SharePoint Online с метками и DLP](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp) для сайтов, связанных с группами Microsoft 365.</li><li>Документирование требований Организации к [обеспечению безопасности сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files) , подключенных к группам Microsoft 365. </li><li>Документирование требований Организации к публикации [меток конфиденциальности](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) для определенных пользователей или групп для защиты контента.</li></ul> |
 
 ## <a name="groups-management-capability-planning-checklist"></a>Контрольный список планирования возможностей управления группами
 
@@ -351,11 +351,11 @@ ms.locfileid: "42894737"
 | Создание группы | Ограничьте создание групп администраторами. | Нет                                    |   Подлежит уточнению.        |
 | Создание группы | Ограничьте создание групп членами группы безопасности. | Защищаем                                    |     Подлежит уточнению.      |
 | Рекомендации по использованию групп | Задать ссылку. рекомендации по использованию групп, которые будут отображаться во всех конечных точках создания групп. | Защищаем                                    |   Подлежит уточнению.        |
-| Скрытое членство | Скрытие членов группы Office 365 от пользователей, не являющихся участниками группы | Нет                                    |   Подлежит уточнению.        |
-| Политика прекращения действия | Управление жизненным циклом групп Office 365 путем настройки политики срока действия. | Защищаем                                    |  Подлежит уточнению.        |
-| Отчеты об активности в группах | Получите сведения об активности групп Office 365 в Организации и Узнайте, сколько групп Office 365 создается и используется. | Нет                                    |    Подлежит уточнению.       |
-| Политика хранения | Сохраняйте или удаляйте данные за определенный период времени, настроив политики хранения для групп Office 365 в центре безопасности & соответствия требованиям. **Примечание:** Для использования этой функции требуется лицензирование Office 365 корпоративный E3 или более поздней версии. | Нет                                    |    Подлежит уточнению.       |
-| Политика защиты от потери данных | Определите конфиденциальные данные для сайтов, подключенных к группам Office 365, и запретите случайное совместное использование. **Примечание:** Для использования этой функции требуется лицензирование Office 365 корпоративный E3 или более поздней версии. | Нет                                    |     Подлежит уточнению.      |
+| Скрытое членство | Скрытие членов группы Microsoft 365 от пользователей, не являющихся участниками группы | Нет                                    |   Подлежит уточнению.        |
+| Политика прекращения действия | Управление жизненным циклом групп Microsoft 365 путем настройки политики срока действия. | Защищаем                                    |  Подлежит уточнению.        |
+| Отчеты об активности в группах | Получите подробные сведения о действиях в группах Microsoft 365 в Организации и Узнайте, сколько групп Microsoft 365 создается и используется. | Нет                                    |    Подлежит уточнению.       |
+| Политика хранения | Сохраняйте или удаляйте данные за определенный период времени, настроив политики хранения для групп Microsoft 365 в центре безопасности & соответствия требованиям. **Примечание:** Для использования этой функции требуется лицензирование Office 365 корпоративный E3 или более поздней версии. | Нет                                    |    Подлежит уточнению.       |
+| Политика защиты от потери данных | Определите конфиденциальные данные для сайтов, подключенных к группе Microsoft 365, и запретите случайное совместное использование. **Примечание:** Для использования этой функции требуется лицензирование Office 365 корпоративный E3 или более поздней версии. | Нет                                    |     Подлежит уточнению.      |
 | Архивация и восстановление | Архивируйте команды, если она больше не активна, но вы хотите сохранить ее для справки или повторной активации в будущем. | Нет                                    |   Подлежит уточнению.        |
 | Обзоры Access | Выполнение обзоров для эффективного управления членством в группах для внутренних и гостевых пользователей | –                                    |   Подлежит уточнению.       |
 | Условия использования | Простой способ, с помощью которого организации могут предоставлять сведения для конечных пользователей. Эта презентация гарантирует, что пользователи видят соответствующие заявления об отказе в отношении юридических требований или требований соответствия требованиям. | Защищаем                                    |         Подлежит уточнению.  |

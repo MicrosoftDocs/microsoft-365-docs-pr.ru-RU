@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: После создания общего почтового ящика необходимо настроить некоторые параметры для пользователей, например переадресацию электронной почты и автоматические ответы. Позже может потребоваться изменить другие параметры, такие как имя или элементы почтового ящика.
-ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 63d3d0a5867875344ff4635071bbbad69e02eadc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212025"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629051"
 ---
 # <a name="configure-a-shared-mailbox"></a>Настройка общего почтового ящика
 
@@ -122,7 +122,7 @@ ms.locfileid: "43212025"
 Если вы хотите разрешить всем пользователям просматривать отправленные сообщения электронной почты, в центре администрирования, изменить параметры общего почтового ящика и выбрать команду **изменить** **Отправленные элементы** \> .
 
 
-## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-office-365-email"></a>Выберите приложения, которые общий почтовый ящик может использовать для доступа к электронной почте Office 365
+## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>Выбор приложений, которые могут использовать общий почтовый ящик для доступа к электронной почте Майкрософт
 
 ::: moniker range="o365-worldwide"
 

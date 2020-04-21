@@ -1,5 +1,5 @@
 ---
-title: Удаление домена из Office 365
+title: Удаление домена
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Узнайте, как удалить старый домен из Office 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: 621b50384b39a21bc0bf5256841c703b3ee0f74a
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
+ms.openlocfilehash: 21b2b17e5cab022f67c71c0d3858f8a03b45899b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210372"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628438"
 ---
-# <a name="remove-a-domain-from-office-365"></a>Удаление домена из Office 365
+# <a name="remove-a-domain"></a>Удаление домена
 
 Авторы: [![Peter Baumgartner](../../media/e70dc696-c5f8-4717-a48b-9087431503e7.png)](https://go.microsoft.com/fwlink/p/?linkid=847121)
   
- **Если вы не нашли нужных сведений, см. статью [Вопросы и ответы о доменах](../setup/domains-faq.md)**. 
+ **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
-Хотите удалить домен, чтобы добавить его в другой план подписки на Office 365? Или вам нужно просто отменить свою подписку? Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).
+Вы удаляете домен, так как хотите добавить его в другой план подписки Microsoft 365? Или вам нужно просто отменить свою подписку? Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).
   
 ### <a name="step-1-move-users-to-another-domain"></a>Шаг 1: перемещение пользователей в другой домен
 
@@ -210,7 +210,7 @@ ms.locfileid: "43210372"
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>Время, необходимое для удаления домена
 
-Удаление домена в Office 365 может занять до 5 минут, если на него нет ссылок, таких как группы безопасности, списки рассылки, пользователи и группы Office 365. Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.
+365 для удаления домена в случае отсутствия ссылок на группы безопасности, списки рассылки, пользователей и группы Майкрософт 365 может потребоваться до 5 минут. Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.
   
 Если у вас сотни или тысячи пользователей, используйте PowerShell, чтобы отправить им всем запрос, а затем перенести их в другой домен. В противном случае может оказаться, что нескольких пользователей нет в интерфейсе. В результате вы не сможете удалить домен и не сумеете определить причину. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
@@ -231,6 +231,6 @@ ms.locfileid: "43210372"
 
 [Получение справки по доменам Office 365](get-help-with-domains.md)
 
-[Переход на другой план Office 365 для бизнеса](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[Переключение на другой план Microsoft 365 для бизнеса](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
 [Отмена подписки](../../commerce/subscriptions/cancel-your-subscription.md)

@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b48f106e500673da0858aa4e190462dd3d01fad1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106188"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630825"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -44,9 +44,9 @@ ms.locfileid: "43106188"
     - Advanced NOT Filters (дополнительные параметры фильтрации, включающие не содержащие, не включают и т. д.).
     - Фильтры по детализированному времени (день, час, половина часа) 
 
-- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложения безопасности, в центре безопасности Office 365 & соответствия требованиям перейдите в раздел > **Обзор** **управления угрозами**.)
+- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите в раздел > **Обзор** **управления угрозами**.)
 
-- [Безопасные документы в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(Предварительная версия)**
+- [Безопасные документы в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(Предварительная версия)**
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
 
@@ -60,7 +60,7 @@ ms.locfileid: "43106188"
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
-- Использование [автоматизированного расследования и возможностей реагирования в office 365](automated-investigation-response-office.md) (Office 365, план 2)
+- Использование [автоматизированного расследования и возможностей реагирования](automated-investigation-response-office.md) (Office 365 ATP, план 2)
 
 - [Интеграция с office 365 ATP: автоматическое исследование и события отклика с помощью API действий управления office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (Office 365 ATP, план 2)
 

@@ -1,5 +1,5 @@
 ---
-title: Приобретение доменного имени в Office 365
+title: Приобретение имени домена
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
-description: Узнайте, как приобрести доменное имя в Office 365.
+description: Узнайте, как приобрести доменное имя в Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 89bc24683cd98d2c9f420d1470a864eef857c9b4
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 3df4ec9014e2e65288cb30fd9203db4a11708369
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211150"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628594"
 ---
-# <a name="buy-a-domain-name-in-office-365"></a>Приобретение доменного имени в Office 365
+# <a name="buy-a-domain-name"></a>Приобретение имени домена
 
  *Чтобы добавить, изменить или удалить домены, **необходимо** быть **глобальным администратором** [плана бизнеса или предприятия](https://products.office.com/business/office). Эти изменения затрагивают весь клиент, *Администраторы* или *обычные пользователи* не смогут вносить эти изменения.*  
 
@@ -93,17 +93,17 @@ ms.locfileid: "43211150"
 
 Если у вас еще нет домена, его легко можно приобрести в Интернете у регистратора доменных имен, посредника или даже у вашего поставщика услуг Интернета. При регистрации в службе Office 365, предоставляемой 21Vianet, вы получаете доменное имя, например contoso.partner.onmschina.cn. Однако при желании можно использовать собственное доменное имя, например fourthcoffee.com.
   
-Чтобы настроить домен в Office 365, необходимо быть владельцем домена и изменить некоторые записи DNS для него.
+Чтобы настроить домен в Microsoft 365, необходимо владеть доменом и изменить некоторые записи DNS для своего домена.
   
 > [!CAUTION]
-> Некоторые регистраторы доменных имен и поставщики услуг размещения DNS не позволяют создать все записи DNS, необходимые для Office 365. Указанные ниже регистраторы поддерживают все необходимые записи. Если вы планируете воспользоваться услугами другого поставщика услуг размещения, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
+> Некоторые регистраторы доменных имен или поставщики услуг хостинга DNS не разрешают создавать все записи DNS, необходимые для Microsoft 365. Указанные ниже регистраторы поддерживают все необходимые записи. Если вы планируете воспользоваться услугами другого поставщика услуг размещения, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
   
-После регистрации домена (на сайте регистратора доменных имен) можно войти в Office 365 с правами администратора и настроить этот домен, чтобы использовать его в адресе электронной почты и с другими службами.
+После регистрации домена (у регистратора доменных имен) вы входите в систему Microsoft 365 как администратор и настроили свой домен, чтобы вы могли использовать его с адресом электронной почты и другими службами.
   
 > [!NOTE]
-> The SharePoint Online Public Website information in this article only applies if your organization purchased Office 365 prior to March 9, 2015. 
+> Сведения об общедоступных веб-сайтах SharePoint Online приведены в этой статье только в том случае, если ваша организация приобрела Microsoft 365 до 9 марта 2015. 
 
-## <a name="domain-registrars-that-support-all-dns-records-required-for-office-365"></a>Регистраторы доменных имен, которые поддерживают все записи DNS, необходимые для Office 365
+## <a name="domain-registrars-that-support-all-dns-records-required-for-microsoft-365"></a>Регистраторы доменных имен, поддерживающие все записи DNS, необходимые для Microsoft 365
 
 - [Oray](https://oray.com/)
     
@@ -117,10 +117,10 @@ ms.locfileid: "43211150"
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Добавление домена в Office 365](../setup/add-domain.md)
+[Добавление домена в Microsoft 365](../setup/add-domain.md)
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Получение справки по доменам Office 365](get-help-with-domains.md)
+[Получение справки о доменах](get-help-with-domains.md)
 
-[Обновление DNS-записей для сохранения веб-сайта с текущим поставщиком услуг хостинга](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider) 
+[Обновление DNS-записей для сохранения веб-сайта у текущего поставщика услуг хостинга](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider).

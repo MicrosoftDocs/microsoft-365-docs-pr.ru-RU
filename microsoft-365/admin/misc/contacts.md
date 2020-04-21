@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: Узнайте, как создавать контакты в центре администрирования и управлять глобальным списком адресов.
-ms.openlocfilehash: 44bd7319a369da84b8855c5d640b2797a173689e
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: fe402fd5d90147caa7c6ee2f3632749255c672b3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857395"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627924"
 ---
 # <a name="quick-help-contacts"></a>Быстрая справка: контакты
 
@@ -45,7 +45,7 @@ ms.locfileid: "42857395"
   
 ## <a name="how-does-everyone-get-to-the-contacts-i-created-in-the-admin-center"></a>Как другие пользователи получают доступ к контактам, созданным мною в Центре администрирования?
 
- Они могут перейти к разделу **Пользователи** в Office 365, развернуть **Каталог** и выбрать **все контакты**. В этом списке можно просмотреть все контакты и их данные.
+ Они могут перейти к разделу " **люди** " в Microsoft 365, развернуть **Каталог** и выбрать **все контакты**. В этом списке можно просмотреть все контакты и их данные.
   
 ## <a name="can-anyone-create-and-edit-these-organizational-contacts"></a>Может ли любой пользователь создавать и редактировать контакты организации?
 
@@ -53,7 +53,7 @@ ms.locfileid: "42857395"
   
 ## <a name="can-i-use-this-to-manage-my-business-clients"></a>Можно ли использовать эту функцию для управления бизнес-клиентами?
 
-Вы можете использовать контакты Office 365, но есть и другие ограничения. Узнайте о других способах [управления контактами](ways-to-manage-contacts.md).
+Вы можете использовать контакты Microsoft 365, но есть и другие ограничения. Узнайте о других способах [управления контактами](ways-to-manage-contacts.md).
   
 ## <a name="how-do-i-bulk-import-organizational-contacts"></a>Как выполнить массовый импорт контактов?
 
@@ -61,4 +61,4 @@ ms.locfileid: "42857395"
   
 ## <a name="what-if-my-question-still-hasnt-been-answered"></a>Что делать, если здесь нет ответа на мой вопрос?
 
-Просмотрите [справку для администраторов](../admin-home.yml) или отправьте нам свой отзыв ниже.
+Просмотрите [справку для администраторов](../admin-home.md) или отправьте нам свой отзыв ниже.

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Узнайте, как удалять лицензии из учетных записей пользователей.
-ms.openlocfilehash: 031a29f9e005c5acc2fdf2aa5f24268268d180ab
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: e3c6150c2eb228e29bf6fc2b87d90809a7033660
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400936"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628104"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
@@ -142,7 +142,7 @@ ms.locfileid: "42400936"
 
 ## <a name="what-you-need-to-know-about-unassigning-licenses-for-users"></a>Что нужно знать о отмене назначения лицензий для пользователей
 
-- Необходимо иметь права глобального администратора, администратора выставления счетов, администратора лицензий или администратора управления пользователями. Дополнительные сведения см. в статье [Роли администраторов в Office 365](../add-users/about-admin-roles.md).
+- Необходимо быть глобальным администратором, администратором выставления счетов, администратором лицензий или администратором управления пользователями. Более подробную информацию можно узнать в [статье About Microsoft 365 Admin Roles](../add-users/about-admin-roles.md).
 
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848428).
 
@@ -152,17 +152,17 @@ ms.locfileid: "42400936"
 
 - Обратите внимание, что файлы, сохраненные в OneDrive для бизнеса, не удаляются, пока пользователь не будет удален из центра администрирования Microsoft 365 или удален с помощью синхронизации Active Directory. Дополнительные сведения см. в разделе " [Хранение и удаление OneDrive](https://docs.microsoft.com/onedrive/retention-and-deletion)".
 
-- Кроме того, почтовый ящик пользователя больше не может быть доступен для поиска с помощью средства обнаружения электронных данных, такого как поиск контента или Расширенное обнаружение электронных данных при удалении лицензии. Дополнительные сведения можно найти в разделе "поиск отключенных или нелицензированных почтовых ящиков" в разделе [Поиск содержимого в Office 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
+- Кроме того, почтовый ящик пользователя больше не может быть доступен для поиска с помощью средства обнаружения электронных данных, такого как поиск контента или Расширенное обнаружение электронных данных при удалении лицензии. Дополнительные сведения можно найти в разделе "поиск отключенных или нелицензированных почтовых ящиков" в разделе [Поиск содержимого в Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
 
 - Если у вас есть Корпоративная подписка, например Office 365 корпоративный E3, Exchange Online позволяет сохранить данные почтового ящика удаленной учетной записи пользователя с помощью [неактивных почтовых ящиков](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365). Дополнительные сведения см в статье [Создание неактивных почтовых ящиков и управление ими в Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes).
 
-- Сведения о том, как заблокировать доступ пользователя к данным Office 365 после удаления лицензии и получения доступа к данным, приведенные в статье [Удаление бывшего сотрудника](../add-users/remove-former-employee.md).
+- Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии и получения доступа к данным, приведенные в статье [Удаление бывшего сотрудника](../add-users/remove-former-employee.md).
 
 - Если удалить лицензию пользователя, но у нее по-прежнему установлен Office, они увидят [уведомления о нелицензированных продуктах](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) при использовании Office.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
-[Общие сведения о подписках и лицензиях в Office 365 для бизнеса](../../commerce/licenses/subscriptions-and-licenses.md)
+[Общие сведения о подписках и лицензиях в Microsoft 365 для бизнеса](../../commerce/licenses/subscriptions-and-licenses.md)
 
 [Удаление лицензий из подписки](../../commerce/licenses/remove-licenses-from-subscription.md)
 

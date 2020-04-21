@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Сведения о том, как задать срок действия отдельных паролей для отдельных пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: 2645e6d5f307a5e5ce8fab5f3a848bf4a539b031
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 66c4901d171f5ed2e07d7a9f5cccbf141dc3d04d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540895"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624038"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -40,7 +40,7 @@ ms.locfileid: "43540895"
 
 Глобальный администратор облачной службы Майкрософт может использовать [PowerShell Azure Active Directory для Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0) , чтобы задать неограниченный срок действия паролей для определенных пользователей. Кроме того, вы можете использовать командлеты [AzureAD](https://docs.microsoft.com/powershell/module/Azuread) , чтобы удалить конфигурацию с неограниченным сроком действия или убедиться, что срок действия паролей пользователей неограничен.
 
-Это руководство относится к другим поставщикам, таким как Intune и Office 365, которые также основываются на Azure AD для удостоверений и служб каталогов. Срок действия пароля является единственной частью политики, которую можно изменить.
+Это руководство относится к другим поставщикам, таким как Intune и Microsoft 365, которые также основываются на Azure AD для идентификации и служб каталогов. Срок действия пароля является единственной частью политики, которую можно изменить.
 
 Для получения дополнительных сведений об Azure AD PowerShell для Graph, обратитесь [к статье Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 

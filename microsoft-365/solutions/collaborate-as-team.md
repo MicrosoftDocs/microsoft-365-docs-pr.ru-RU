@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Узнайте, как совместно работать с гостями в Teams.
-ms.openlocfilehash: 54bf52eebc77e1cce8e1c05a708572d7d1e7fdae
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 4b395f0086198c6226d720c38fc4ea13b1a9d887
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604906"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630753"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Совместная работа с гостями в команде
 
@@ -68,17 +68,17 @@ ms.locfileid: "42604906"
 > [!NOTE]
 > После включения гостевой настройки Teams может потребоваться до двадцати четырех часов.
 
-## <a name="office-365-groups-guest-settings"></a>Параметры гостей для групп Office 365
+## <a name="microsoft-365-groups-guest-settings"></a>Параметры гостей для групп Microsoft 365
 
-Teams использует группы Office 365 для членства в группах. Для работы гостевых Teams в Teams необходимо включить параметры гостевых групп Office 365.
+Teams использует группы Microsoft 365 для членства в группах. Чтобы гостевой доступ в Teams работали в Teams, необходимо включить параметры гостей для группы Microsoft 365.
 
-![Снимок экрана: гостевые параметры для групп Office 365 в Центре администрирования Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Снимок экрана: параметры гостя групп Microsoft 365 в центре администрирования Microsoft 365](../media/office-365-groups-guest-settings.png)
 
-Настройка параметров гостя для групп Office 365
+Настройка параметров гостя для групп Microsoft 365
 
 1. В центре администрирования Microsoft 365 в левой панели навигации разверните узел **Параметры**.
 2. Щелкните **службы & надстройки**.
-3. В списке выберите пункт **группы Office 365**.
+3. В списке выберите пункт **Microsoft 365 группы**.
 4. Убедитесь, что установлены флажки для членов группы, не входящих в **вашу организацию** , и **разрешите владельцам групп добавлять людей за пределом Организации в группы** .
 5. Если вы внесли изменения, нажмите кнопку **сохранить изменения**.
 

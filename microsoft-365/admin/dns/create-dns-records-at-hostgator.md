@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для Office 365 на сайте Hostgator
+title: Создание записей DNS на сайте Hostgator для Майкрософт
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,15 +19,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
-description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Hostgator для Office 365.
-ms.openlocfilehash: a5a41e5c1eba9d99d1927192472da7746277dd38
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Hostgator для Майкрософт.
+ms.openlocfilehash: 9ac14d516dff6e84dd0fb06a6632376d475689fb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211719"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629531"
 ---
-# <a name="create-dns-records-at-hostgator-for-office-365"></a>Создание записей DNS для Office 365 на сайте Hostgator
+# <a name="create-dns-records-at-hostgator-for-microsoft"></a>Создание записей DNS на сайте Hostgator для Майкрософт
 
  **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
@@ -36,12 +36,12 @@ ms.locfileid: "43211719"
 > [!IMPORTANT]
 > Прежде чем добавлять DNS-записи с помощью любой из других процедур, описанных в этой статье, необходимо выполнить первую процедуребелов, [указать домен в учетной записи для хранения](#point-your-domain-to-your-hosting-account). 
 
-Когда вы внесете эти изменения на сайте Hostgator, ваш домен будет настроен для работы со службами Office 365.
+После внесения всех этих изменений на сайте Hostgator ваш домен будет настроен для работы со службами Майкрософт.
   
-Дополнительные сведения о веб-хостинге и DNS для веб-сайтов в Office 365 см. в статье [Работа с общедоступным веб-сайтом в Office 365](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
+Чтобы узнать о размещении и DNS для веб-сайтов с помощью Microsoft, ознакомьтесь со статьей [использование общедоступного веб-сайта с корпорацией Майкрософт](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
   
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если у вас возникли проблемы с процессом обработки почты или другими проблемами после добавления записей DNS, ознакомьтесь с разрешениями [и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="point-your-domain-to-your-hosting-account"></a>Настройка домена таким образом, чтобы он указывал на учетную запись размещения
 <a name="BKMK_PointDomain"> </a>
@@ -70,7 +70,7 @@ ms.locfileid: "43211719"
 > [!IMPORTANT]
 > Перед этой процедурой необходимо выполнить процедуру [Настройка домена таким образом, чтобы он указывал на учетную запись размещения](#point-your-domain-to-your-hosting-account), описанную в первом разделе. 
   
-Прежде чем вы сможете использовать свой домен в Office 365, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, это послужит для Office 365 подтверждением того, что вы владеете доменом.
+Перед использованием домена с корпорацией Майкрософт необходимо убедиться, что вы являетесь его владельцем. Вы можете войти в свою учетную запись у вас в вашем регистраторе доменных имен и создать запись DNS в Майкрософт, если вы владеете этим доменом.
   
 > [!NOTE]
 > Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
@@ -80,7 +80,7 @@ ms.locfileid: "43211719"
     (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. Сообщение о регистрации, полученное из Hostgator, будет указывать этот адрес, а ссылка cPanel также доступна на странице **Размещение** .)
     
     > [!IMPORTANT]
-    > Чтобы с вашим доменом была связана страница cPanel, вам нужно получить учетную запись размещения от Hostgator. Для начала работы с Office 365 вы можете купить учетную запись размещения у Hostgator или [изменить записи серверов имен таким образом, чтобы они указывали на Office 365](change-nameservers-at-hostgator.md). 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы приступить к работе с корпорацией Майкрософт, вы можете приобрести учетную запись Hostgator или [переделегировать серверов доменных имен, чтобы указать на корпорацию Майкрософт](change-nameservers-at-hostgator.md). 
   
 2. На странице " **Панель управления** " в разделе **домены** выберите **Расширенный редактор зон**.
     
@@ -91,15 +91,15 @@ ms.locfileid: "43211719"
     |||||
     |:-----|:-----|:-----|:-----|
     |**Name (Имя)** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
-    |Используйте *domain_name*. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1,1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |Используйте *domain_name*. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1,1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте указанную здесь **конечную точку или значение адреса** из таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Выберите команду **Add Record** (Добавить запись).
     
 5. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-Теперь, когда запись добавлена на сайте регистратора доменных имен, вернитесь в Office 365 и подайте запрос на ее поиск.
+Теперь, когда вы добавили запись на сайте регистратора доменных имен, вернитесь в корпорацию Майкрософт и запросите запись.
   
-Если Office 365 обнаружит правильную запись TXT, это значит, что домен проверен.
+После того как корпорация Майкрософт обнаружит правильную запись TXT, ваш домен будет проверен.
   
 1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
@@ -107,12 +107,12 @@ ms.locfileid: "43211719"
     
 3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
+4. На странице **Проверка домена** выберите **Проверить**.
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если у вас возникли проблемы с процессом обработки почты или другими проблемами после добавления записей DNS, ознакомьтесь с разрешениями [и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>Добавление записи MX, необходимой для доставки сообщений электронной почты для вашего домена в Office 365
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Добавление записи MX для отправки электронной почты для вашего домена в корпорацию Майкрософт
 <a name="BKMK_add_MX"> </a>
 
 > [!IMPORTANT]
@@ -123,7 +123,7 @@ ms.locfileid: "43211719"
     (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. Сообщение о регистрации, полученное из Hostgator, будет указывать этот адрес, а ссылка cPanel также доступна на странице **Размещение** .)
     
     > [!IMPORTANT]
-    > Чтобы с вашим доменом была связана страница cPanel, вам нужно получить учетную запись размещения от Hostgator. Для начала работы с Office 365 вы можете купить учетную запись размещения у Hostgator или [изменить записи серверов имен таким образом, чтобы они указывали на Office 365](change-nameservers-at-hostgator.md). 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы приступить к работе с корпорацией Майкрософт, вы можете приобрести учетную запись Hostgator или [переделегировать серверов доменных имен, чтобы указать на корпорацию Майкрософт](change-nameservers-at-hostgator.md). 
   
 2. На странице " **Панель управления** " в области **Электронная почта** выберите **запись MX**.
     
@@ -136,7 +136,7 @@ ms.locfileid: "43211719"
     
     |**Priority (Приоритет)**|**Destination (Назначение)**|
     |:-----|:-----|
-    |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** \< Получите *ключ* \> домена из учетной записи Office 365.    [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** \< Получите *ключ* \> домена из учетной записи Майкрософт.    [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
   
 6. Нажмите кнопку **Добавить новую запись**.
    
@@ -144,7 +144,7 @@ ms.locfileid: "43211719"
 7. Если в разделе **MX Records** (Записи MX) есть другие записи MX, удалите их. 
 
     
-## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a>Добавление шести записей CNAME, необходимых для Office 365
+## <a name="add-the-six-cname-records-that-are-required-for-microsoft"></a>Добавление шести записей CNAME, необходимых для Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
 > [!IMPORTANT]
@@ -155,7 +155,7 @@ ms.locfileid: "43211719"
     (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. Сообщение о регистрации, полученное из Hostgator, будет указывать этот адрес, а ссылка cPanel также доступна на странице **Размещение** .)
     
     > [!IMPORTANT]
-    > Чтобы с вашим доменом была связана страница cPanel, вам нужно получить учетную запись размещения от Hostgator. Для начала работы с Office 365 вы можете купить учетную запись размещения у Hostgator или [изменить записи серверов имен таким образом, чтобы они указывали на Office 365](change-nameservers-at-hostgator.md). 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы приступить к работе с корпорацией Майкрософт, вы можете приобрести учетную запись Hostgator или [переделегировать серверов доменных имен, чтобы указать на корпорацию Майкрософт](change-nameservers-at-hostgator.md). 
   
 2. На странице " **Панель управления** " в разделе **домены** выберите **Расширенный редактор зон**.
     
@@ -182,11 +182,11 @@ ms.locfileid: "43211719"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a single SPF record that includes both sets of values. Нужны примеры? Ознакомьтесь с этими [сведениями и образцами записей SPF](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если у вас уже есть запись SPF для вашего домена, не создавайте ее для Майкрософт. Вместо этого добавьте необходимые значения Майкрософт в текущую запись, чтобы иметь одну запись SPF, включающую оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями о внешних доменных именах для Майкрософт](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
 > [!IMPORTANT]
 > Перед этой процедурой необходимо выполнить процедуру [Настройка домена таким образом, чтобы он указывал на учетную запись размещения](#point-your-domain-to-your-hosting-account), описанную в первом разделе. 
@@ -196,7 +196,7 @@ ms.locfileid: "43211719"
     (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. Сообщение о регистрации, полученное из Hostgator, будет указывать этот адрес, а ссылка cPanel также доступна на странице **Размещение** .)
     
     > [!IMPORTANT]
-    > Чтобы с вашим доменом была связана страница cPanel, вам нужно получить учетную запись размещения от Hostgator. Для начала работы с Office 365 вы можете купить учетную запись размещения у Hostgator или [изменить записи серверов имен таким образом, чтобы они указывали на Office 365](change-nameservers-at-hostgator.md). 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы приступить к работе с корпорацией Майкрософт, вы можете приобрести учетную запись Hostgator или [переделегировать серверов доменных имен, чтобы указать на корпорацию Майкрософт](change-nameservers-at-hostgator.md). 
   
 2. На странице " **Панель управления** " в разделе **домены** выберите **Расширенный редактор зон**.
     
@@ -210,7 +210,7 @@ ms.locfileid: "43211719"
   
 4. Выберите команду **Add Record** (Добавить запись).
     
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Добавление двух записей SRV, необходимых для Office 365
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Добавление двух записей SRV, необходимых для Майкрософт
 <a name="BKMK_add_SRV"> </a>
 
 > [!IMPORTANT]
@@ -221,7 +221,7 @@ ms.locfileid: "43211719"
     (Each hosted account at Hostgator is assigned a unique cPanel address. Your cPanel address should look like this: https://YourSiteAddress:secure-port-number. Сообщение о регистрации, полученное из Hostgator, будет указывать этот адрес, а ссылка cPanel также доступна на странице **Размещение** .)
     
     > [!IMPORTANT]
-    > Чтобы с вашим доменом была связана страница cPanel, вам нужно получить учетную запись размещения от Hostgator. Для начала работы с Office 365 вы можете купить учетную запись размещения у Hostgator или [изменить записи серверов имен таким образом, чтобы они указывали на Office 365](change-nameservers-at-hostgator.md). 
+    > To have a cPanel associated with your domain, you need a hosting account with Hostgator. Чтобы приступить к работе с корпорацией Майкрософт, вы можете приобрести учетную запись Hostgator или [переделегировать серверов доменных имен, чтобы указать на корпорацию Майкрософт](change-nameservers-at-hostgator.md). 
   
 2. На странице " **Панель управления** " в разделе **домены** выберите **Расширенный редактор зон**.
 
@@ -246,4 +246,4 @@ ms.locfileid: "43211719"
     В разделе **Добавление записи** создайте запись, используя значения из следующей строки таблицы, а затем еще раз выберите **Добавить запись** для завершения этой записи. 
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS в Office 365](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если у вас возникли проблемы с процессом обработки почты или другими проблемами после добавления записей DNS, ознакомьтесь с разрешениями [и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 

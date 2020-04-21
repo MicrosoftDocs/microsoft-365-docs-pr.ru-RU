@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: "Задача этого раздела \x97 помочь понять процесс перехода на Exchange Online Protection (EOP) со средств локальной санации электронной почты или облачных служб защиты и рассказать о ресурсах справки, с которых можно начать работу."
-ms.openlocfilehash: e3877f8093f56a0f978ad915769334678afe26e3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e6a25d6477741f5796dd08b5811d97e2d0c76b51
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598216"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631197"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Переход на EOP с Google Postini, Barracuda Spam and Virus Firewall или Cisco IronPort
 
@@ -39,9 +39,9 @@ ms.locfileid: "41598216"
 
 ## <a name="switch-to-exchange-online"></a>Переход на Exchange Online
 
-Возможно, у вас есть локальные почтовые ящики, защищенные локальным средством, но вы хотите начать использовать облачные почтовые ящики Exchange Online и защиту EOP, чтобы получить преимущество от использования функций облачного обмена сообщениями и защиты Office 365. Для начала можно выполнить вход в Office 365 и добавить домен. В этом сценарии не требуется настраивать соединители, поскольку нет маршрутизации на локальные почтовые ящики. Начните с [получения новейших расширенных функций с Office 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) для регистрации и знакомства с ее функциями.
+Возможно, у вас есть локальные почтовые ящики, защищенные локальным устройством, и вы хотите перейти к почтовым ящикам в облачной среде Exchange Online и EOP защиту, чтобы воспользоваться преимуществами Microsoft 365 Cloud Messaging and Protection Features. Чтобы приступить к работе, вы можете зарегистрироваться в Microsoft 365 и добавить свой домен. В этом сценарии не требуется настраивать соединители, поскольку нет маршрутизации на локальные почтовые ящики. Начните с [получения последних расширенных функций с Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) для регистрации и знакомства с ее функциями.
 
-В процессе настройки Office 365 создаются пользователи облачных почтовых ящиков.
+В процессе установки Microsoft 365 вы создадите облачные пользователи почтовых ящиков.
 
 ## <a name="switch-to-a-hybrid-solution"></a>Переход на гибридное решение
 

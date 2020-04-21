@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Узнайте, как получить доступ к eNom Central и создать DNS через страницу Google Domains.
-ms.openlocfilehash: 8fc13ea2ccc7dfee510ef7abb72f88030d048943
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 7d79350f163d1b120d3dd45bc7bbb3e57583bf05
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210662"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629135"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Создание записей DNS при управлении доменом с помощью Google (eNom Central)
 
- **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
-Для переноса почтовых учетных записей в Office 365 необходимо создать DNS-запись у регистратора доменных имен.
+Чтобы перенести учетные записи почты в корпорацию Майкрософт, необходимо создать запись DNS у регистратора доменных имен.
   
 Если вы приобрели свой домен с помощью Google при регистрации учетной записи **Google Apps for work** , ваши записи DNS будут управляться Google, но зарегистрированы в eNom Central. 
   
@@ -89,7 +89,7 @@ ms.locfileid: "43210662"
     |@  <br/> ||TXT  <br/> |
 
     > [!NOTE]
-    > This is an example. Используйте здесь собственное значение **Назначение или адрес "указывает на"** из таблицы в Office 365. 
+    > This is an example. Используйте указанную здесь **конечную точку или значение адреса** из таблицы. 
   
     [Как его найти?](../get-help-with-domains/information-for-dns-records.md)
   

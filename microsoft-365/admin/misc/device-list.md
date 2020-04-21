@@ -21,13 +21,13 @@ search.appverid:
 - MOE150
 ms.assetid: 932e3676-2491-49f0-9177-d893d2f5276e
 ROBOTS: NOINDEX
-description: Сведения о том, как создать CSV-файл для Аутопилоного Tin Microsoft 365 Business.
-ms.openlocfilehash: 56d8fb234a1b526192468309c93c638694b92c6e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Сведения о том, как создать CSV-файл для автопилота в Microsoft 365 для бизнеса.
+ms.openlocfilehash: b1154d639ba23180f637520750d94f00e997cfc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361360"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627864"
 ---
 # <a name="device-list-csv-file"></a>CSV-файл со списком устройств
 
@@ -47,11 +47,11 @@ ms.locfileid: "42361360"
 
 Когда вы добавляете устройства, их также необходимо добавить в профиль. Профиль используется для применения профилей развертывания AutoPilot к устройству или группе устройств.
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
-[Документы и ресурсы по Microsoft 365 Business](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Документация и ресурсы Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Начало работы с Microsoft 365 Business](https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364)
+[Начало работы с Microsoft 365 для бизнеса](https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364)
   
-[Управление Microsoft 365 Business](https://support.office.com/article/27ff1678-865a-4707-8145-e1155aa815d6)
+[Управление Microsoft 365 для бизнеса](https://support.office.com/article/27ff1678-865a-4707-8145-e1155aa815d6)
   

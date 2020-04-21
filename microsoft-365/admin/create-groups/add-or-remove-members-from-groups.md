@@ -1,5 +1,5 @@
 ---
-title: Добавление и удаление членов из групп Office 365
+title: Добавление и удаление членов из групп Microsoft 365
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -20,16 +20,16 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Сведения о том, как добавить участника в группу, удалить участника из группы и управлять состоянием владельца группы в центре администрирования Microsoft 365.
-ms.openlocfilehash: 5c708b88f2e4a2b4aa1aa84fd7d7700ab6545f87
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9191f9a29f9d4c1589feda66c9ca482180229bd6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894715"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631317"
 ---
-# <a name="add-or-remove-members-from-office-365-groups-using-the-admin-center"></a>Добавление и удаление участников из групп Office 365 с помощью центра администрирования
+# <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление и удаление участников из групп Microsoft 365 с помощью центра администрирования
 
-В Office 365 члены групп обычно создают собственные группы, добавляют себя в группы, к которым они хотят присоединяться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, как администратор, вы также можете сделать это изменение. Эти изменения могут вносить только глобальный администратор, администратор Exchange, администратор групп или администратор пользователей. [Что такое группа Office 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
+В Microsoft 365 члены групп обычно создают собственные группы, добавляют себя в группы, к которым они хотят присоединяться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, как администратор, вы также можете сделать это изменение. Эти изменения могут вносить только глобальный администратор, администратор Exchange, администратор групп или администратор пользователей. [Что такое группа Microsoft 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 
 > [!TIP]
 > Если вы не являетесь администратором, вы можете [добавлять и удалять участников с помощью Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx). 
@@ -280,12 +280,12 @@ ms.locfileid: "42894715"
     
 ## <a name="articles-about-managing-groups"></a>Статьи об управлении группами
     
-- [Обновление списков рассылки до групп Office 365 в Outlook](../manage/upgrade-distribution-lists.md)
+- [Обновление списков рассылки до Microsoft 365 группы в Outlook](../manage/upgrade-distribution-lists.md)
     
 - [Причины для перехода со списков рассылки на группы в Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
 
-[Управление гостевым доступом в группах Office 365](manage-guest-access-in-groups.md)    
+- [Управление гостевым доступом в группах Microsoft 365](manage-guest-access-in-groups.md)    
     
-- [Управление группами Office 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540) : в этой статье рассматриваются основные командлеты и приводятся примеры
+- [Управление группами Microsoft 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540): в этой статье описываются ключевые командлеты и приводятся примеры
     
-- [Политика именования групп Office 365](groups-naming-policy.md)
+- [Политика именования групп Microsoft 365](groups-naming-policy.md)

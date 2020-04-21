@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Получите приложение Microsoft 365 Admin и научитесь управлять своей организацией с телефона или планшета.
-ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: aead9f30f2d75e3eab5099596ff80a575e571306
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353040"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623992"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Сведения о мобильном приложении Microsoft 365 Admin
 
@@ -57,7 +57,7 @@ ms.locfileid: "42353040"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/05c1d439-9ec2-415f-9178-250f64dec64c] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
  
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
@@ -66,11 +66,11 @@ ms.locfileid: "42353040"
   
 ### <a name="what-do-i-need-to-do-to-be-able-to-use-the-app"></a>Что нужно сделать, чтобы начать использовать приложение?
 
-Чтобы войти в приложение и использовать его, необходимо иметь действительную подписку на Office 365 для бизнеса или Microsoft 365 Business с правами администратора. Мобильное приложение Admin не является клиентом электронной почты. Это полнофункциональное административное приложение с более чем 80 функциями, которое поможет вам обеспечить поддержку вашей организации в дороге.
+Чтобы войти в приложение и использовать его, необходимо иметь действительные подписки Microsoft 365 для бизнеса или Microsoft 365 Business Premium с правами администратора. Мобильное приложение Admin не является клиентом электронной почты. Это полнофункциональное административное приложение с более чем 80 функциями, которое поможет вам обеспечить поддержку вашей организации в дороге.
   
-### <a name="can-i-use-the-app-with-my-office-365-for-home-subscription"></a>Можно ли использовать приложение с подпиской на Office 365 для дома?
+### <a name="can-i-use-the-app-with-my-microsoft-365-family-subscription"></a>Можно ли использовать приложение с подпиской на семейство Microsoft 365?
 
-Нет, приложение работает только с Office 365 для бизнеса и Microsoft 365 Business Subscriptions. 
+Нет, приложение работает только с Microsoft 365 Apps для бизнеса и подписок Microsoft 365 Business Premium. 
   
 ### <a name="will-the-app-work-if-my-organization-has-directory-synchronization-enabled"></a>Будет ли работать приложение, если в моей организации включена синхронизация службы каталогов?
 
@@ -104,4 +104,4 @@ ms.locfileid: "42353040"
   
 ## <a name="see-also"></a>См. также
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

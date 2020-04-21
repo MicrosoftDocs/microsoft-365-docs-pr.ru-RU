@@ -1,5 +1,5 @@
 ---
-title: Добавление фирменной символики компании на страницу входа в Office 365
+title: Добавление фирменной символики компании на страницу входа
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,25 +18,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
-description: Настройка страницы входа в Office 365 с помощью Azure Active Directory. Вы можете добавить иллюстрацию, логотип и текст на страницу входа.
-ms.openlocfilehash: 97d1d1c7dcb5a31395c98295a250913bb8ab69f5
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Настройка страницы входа в Microsoft 365 с помощью Azure Active Directory. Вы можете добавить иллюстрацию, логотип и текст на страницу входа.
+ms.openlocfilehash: daf5f9007a297615d04051d3364895053572343a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360650"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627634"
 ---
-# <a name="add-your-company-branding-to-office-365-sign-in-page"></a>Добавление фирменной символики компании на страницу входа в Office 365
+# <a name="add-your-company-branding-to-the-sign-in-page"></a>Добавление фирменной символики компании на страницу входа
 
- Теперь вы можете использовать подписку на Azure Active Directory (AD) в составе вашей подписки на Office 365 для настройки страницы входа, которая отображается вашим пользователям. 
+ Теперь вы можете использовать подписку на Azure Active Directory (AD), включенную в подписку на Microsoft 365, чтобы настроить страницу входа, которую видят пользователи. 
   
 ## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a>Добавление фирменной символики компании на страницы входа и панели доступа
 
-Если у вас есть платная подписка на Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite или другие службы Майкрософт, это означает, что у вас также есть бесплатная подписка на Azure Active Directory. Вы можете использовать Azure Active Directory для создания учетных записей пользователей и групп, управления ими, а также для добавления фирменной символики своей компании на ваши страницы. Для активации бесплатной подписки и доступа на портал управления Microsoft Azure нужно пройти однократную регистрацию. После этого вы сможете работать с каталогом Azure Active Directory из своей службы Майкрософт, которая его использует. Инструкции по регистрации подписки на Office 365 см. в статье [Регистрация бесплатной подписки на Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966). Общие инструкции по управлению см. в статье [Управление каталогом для подписки Office 365 в Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076). 
+Если у вас есть платная подписка на Microsoft 365 для бизнеса, Microsoft Dynamics CRM Online, Enterprise Mobility Suite или других служб Майкрософт, у вас есть бесплатная подписка на Azure Active Directory. Вы можете использовать Azure Active Directory для создания учетных записей пользователей и групп и управления ими, а также для добавления фирменной символики компании на страницы. Чтобы активировать эту подписку и получать доступ к порталу управления Microsoft Azure, необходимо выполнить однократный процесс регистрации. После этого вы можете получить доступ к Azure Active Directory из службы Майкрософт, которая использует ее. Инструкции по регистрации подписки на Microsoft 365: [регистрация бесплатной бесплатной подписки на Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966), а также инструкции по управлению [каталогом для подписки на Microsoft 365 в Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) для общих инструкций по управлению. 
   
 На рисунке ниже показано, какие элементы страницы входа можно изменить в Azure.
   
-![Области страницы входа Office 365, которые можно настроить.](../../media/screenshotbranding.png)
+![Области страницы входа, которые можно настроить.](../../media/screenshotbranding.png)
   
 1. Большое изображение и цвет его фона
     

@@ -1,5 +1,5 @@
 ---
-title: Получение Microsoft 365 Business из центра партнеров
+title: Получение Microsoft 365 бизнес премиум из центра партнеров
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,33 +23,33 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Узнайте о возможностях приобретения Microsoft 365 Business и пошаговых инструкций по их приобретению в центре партнеров Майкрософт.
-ms.openlocfilehash: ccbdb928c0f1268fb7019793b6246eef386daa45
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Узнайте о возможностях приобретения Microsoft 365 для бизнеса премиум и пошаговых инструкций по их приобретению в центре партнеров Майкрософт.
+ms.openlocfilehash: 4247160c87a6a910358d9b740b28dc14747b72a8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633597"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627234"
 ---
-# <a name="get-microsoft-365-business"></a>Получение Microsoft 365 бизнес
+# <a name="get-microsoft-365-business-premium"></a>Получение Microsoft 365 бизнес премиум
 
-## <a name="get-microsoft-365-business-from-microsoft"></a>Получение Microsoft 365 бизнес от корпорации Майкрософт
+## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Получение Microsoft 365 бизнес премиум от Майкрософт
 
-Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес, вы можете [приобрести его здесь](https://www.microsoft.com/en-US/microsoft-365/business).
+Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес премиум, вы можете [приобрести его здесь](https://www.microsoft.com/en-US/microsoft-365/business).
 
-Подробные инструкции можно найти [в статье регистрация в Microsoft 365 для бизнеса](sign-up.md) .
+Подробные инструкции приведены в [статье регистрация для Microsoft 365 Business Premium](sign-up.md) .
 
-Кроме того, вы можете приступить к работе с Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) , чтобы приобрести справку Microsoft 365 для бизнеса и получить справку по программе установки.
+Вы также можете приступить к работе с Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) для приобретения Microsoft 365 Business Premium и получения справки по программе установки.
   
-## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Получение Microsoft 365 Business в Центре партнеров Майкрософт
+## <a name="get-microsoft-365-business-premium-from-microsoft-partner-center"></a>Получение Microsoft 365 бизнес премиум из центра партнеров Майкрософт
 
 1. Войдите в [Центр партнеров Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=849910) с учетными данными, созданными при регистрации в программе поставщика облачных решений. 
     
-2. На информационной панели партнера выберите **Клиенты**, а затем выберите клиента или добавьте нового клиента, прежде чем приступать к работе с Microsoft 365 Business.
+2. На информационной панели партнера выберите **Клиенты**, а затем выберите клиента или добавьте нового клиента, прежде чем приступать к работе с Microsoft 365 Business Premium.
     
     ![В центре партнеров Майкрософт добавьте клиента.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. На странице " **Подписка** клиента" выберите **Добавить подписку**, выберите параметр малый бизнес в разделе Каталог, а затем выберите **Microsoft 365 бизнес**.
+3. На странице **Подписка** клиента выберите **Добавить подписку**, выберите параметр малый бизнес в разделе Каталог, а затем выберите **Microsoft 365 бизнес премиум**.
     
     Выберите нужное количество лицензий (не более 300). Если у вас больше 300 пользователей, ознакомьтесь со статьей [Microsoft 365 корпоративный](https://go.microsoft.com/fwlink/p/?linkid=862316) . 
     

@@ -1,5 +1,5 @@
 ---
-title: Какая у меня подписка на Office 365 для бизнеса?
+title: Какая у меня подписка?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Сведения о том, как проверить, какие подписки в организации имеют, перейдя на страницу подписки.
 ms.custom: okr_SMB
-ms.openlocfilehash: dad08784a775e590972d1f5dd554aeb2d147c28b
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: a8ebff405d57578142318a2111db1dcb53d54435
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409504"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621434"
 ---
 # <a name="what-subscription-do-i-have"></a>Какая у меня подписка?
 
 Если вы являетесь администратором, вы можете проверить, какие подписки в Организации есть, перейдя в центр администрирования.
   
- **Вы не являетесь администратором?** Сведения [о продуктах и лицензиях Office 365 бизнес?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
+ **Вы не являетесь администратором?** Узнайте [о продуктах и лицензиях Microsoft 365 для бизнеса?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
 
 ::: moniker range="o365-worldwide"
 
@@ -50,7 +50,7 @@ ms.locfileid: "42409504"
 
 1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">подписки</a> на **выставление счетов** \>.  
 
-2. Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана видно, что в наличии есть подписка на Office 365 бизнес.
+2. Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана вы видите, что у меня есть подписка на Microsoft 365 приложений для бизнеса.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
@@ -69,7 +69,7 @@ ms.locfileid: "42409504"
 
 1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">подписки</a> на **выставление счетов** \>.  
 
-2. Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана видно, что в наличии есть подписка на Office 365 бизнес.
+2. Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана вы видите, что у меня есть подписка на Microsoft 365 приложений для бизнеса.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
@@ -84,6 +84,6 @@ ms.locfileid: "42409504"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
   
 [Подписки и выставление счетов](../../commerce/index.yml)

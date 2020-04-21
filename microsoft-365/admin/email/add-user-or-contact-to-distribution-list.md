@@ -1,5 +1,5 @@
 ---
-title: Добавление пользователя или контакта в группу рассылки Office 365
+title: Добавление пользователя или контакта в группу рассылки
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
-description: Узнайте, как добавить пользователя или контакт Office 365 в группу рассылки. Например, вы можете добавить сотрудника, партнера или поставщика в свою группу рассылки электронной почты.
-ms.openlocfilehash: 2a6ee1336f738b57740469d6d74b461a69d7fc8c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Узнайте, как добавить пользователя или контакт Microsoft 365 в группу рассылки. Например, вы можете добавить сотрудника, партнера или поставщика в свою группу рассылки электронной почты.
+ms.openlocfilehash: 0b1feacbd3e35adcdf96ae8c42aa330921a4b390
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362374"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629075"
 ---
-# <a name="add-a-user-or-contact-to-an-office-365-distribution-group"></a>Добавление пользователя или контакта в группу рассылки Office 365
+# <a name="add-a-user-or-contact-to-a-distribution-group"></a>Добавление пользователя или контакта в группу рассылки
 
-Администратору Office 365 может потребоваться добавить одного или нескольких пользователей или контактов в группу рассылки (см. раздел [Создание групп рассылки в Office 365](../setup/create-distribution-lists.md).) Например, вы можете добавить сотрудников или внешних партнеров или поставщиков в группу рассылки электронной почты.
+Администратору организации может потребоваться добавить одного из пользователей или контактов в группу рассылки (см. раздел [Создание групп рассылки в Microsoft 365](../setup/create-distribution-lists.md).) Например, вы можете добавить сотрудников или внешних партнеров или поставщиков в группу рассылки электронной почты.
   
 ## <a name="add-a-user-or-contact-to-a-distribution-group"></a>Добавление пользователя или контакта в группу рассылки
 
@@ -92,6 +92,6 @@ ms.locfileid: "42362374"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-Узнайте, как [отправлять электронную почту в виде группы рассылки в Office 365](../manage/send-email-as-distribution-list.md).
+Узнайте, как [отправлять электронную почту в виде группы рассылки в Microsoft 365](../manage/send-email-as-distribution-list.md).
   
 

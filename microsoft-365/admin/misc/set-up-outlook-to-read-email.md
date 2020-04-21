@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Узнайте, как настроить учетную запись электронной почты в Outlook для Windows и Mac, а также об установке приложений Office и доступе к электронным письмам в Интернете.
-ms.openlocfilehash: f5be456c845381a07c380e4d480e03a39c42f0ed
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6f256a9b528c5ee51490007f388b8d3bd5a92f02
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361240"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627792"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Настройка Outlook для чтения электронной почты
 
-С подпиской на Office 365 предоставляется веб-служба Outlook, но если она включает клиентские приложения Office, вы также сможете установить Outlook на компьютере или устройствах.
+Ваша подписка на Microsoft 365 поставляется с веб-приложением Outlook, но если ваша подписка включает клиентские приложения Office, вы также сможете установить Outlook на персональном компьютере или устройствах.
   
 ## <a name="set-up-an-email-account-in-outlook"></a>Настройка учетной записи электронной почты в Outlook
 
@@ -62,15 +62,15 @@ ms.locfileid: "42361240"
   
 ## <a name="how-do-i-access-my-mail-online"></a>Как получить доступ к почте через Интернет?
 
-После входа в Office 365 выберите **Outlook**.
+После входа в Microsoft 365 выберите **Outlook**.
   
-![Домашняя страница Office 365 с выделенным приложением Outlook](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![Домашняя страница Microsoft 365 с выделенным приложением Outlook](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
-В средстве запуска приложений щелкните ссылку **Все приложения** для просмотра списка доступных приложений Office 365 в алфавитном порядке. В этом списке вы сможете найти конкретное приложение. 
+Не удается найти приложение, которое вы ищете? В средстве запуска приложений выберите **все приложения** , чтобы просмотреть алфавитный список приложений Microsoft 365, доступных вам. Отсюда можно искать конкретное приложение. 
   
 ## <a name="how-do-i-know-if-my-subscription-includes-office-apps"></a>Как узнать, включает ли подписка приложения Office?
 
-Office 365 бизнес премиум и Office 365 бизнес включают приложения Office. Подробные сведения см. в статье [office 365 Business Plans](https://go.microsoft.com/fwlink/p/?LinkId=723731)или в [планах Office 365 для предприятий](https://go.microsoft.com/fwlink/p/?LinkId=800029).
+Microsoft 365 Business Standard и Microsoft 365 приложения для бизнеса включают приложения Office. Подробные сведения см. в [статье Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/p/?LinkId=723731)или [планах Office 365 для предприятий](https://go.microsoft.com/fwlink/p/?LinkId=800029).
   
 ## <a name="how-do-i-determine-what-subscription-i-have"></a>Как узнать, какая у меня подписка?
 

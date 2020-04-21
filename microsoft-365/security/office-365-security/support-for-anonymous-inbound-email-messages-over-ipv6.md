@@ -15,16 +15,16 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: Администратор может узнать, как настроить поддержку анонимной входящей электронной почты из источников IPv6 в Exchange Online и Exchange Online Protection.
-ms.openlocfilehash: 414c10f3387138ed7e62f2de4e8549e45d128d2e
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 86de431f8f46af1c5ddae8ecc91f326c6e3280e6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131523"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631221"
 ---
-# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a>Добавление поддержки анонимной входящей электронной почты по протоколу IPv6 в Office 365
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Добавление поддержки анонимной входящей электронной почты по протоколу IPv6 в Microsoft 365
 
-Организации Office 365 с почтовыми ящиками Exchange Online и отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online поддерживают анонимную входящую почту через IPv6. Исходный сервер электронной почты на базе протокола IPv6 должен соответствовать следующим требованиям:
+Организации Microsoft 365 с почтовыми ящиками Exchange Online и отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online поддерживают анонимную входящую почту через IPv6. Исходный сервер электронной почты на базе протокола IPv6 должен соответствовать следующим требованиям:
 
 - Исходный IPv6-адрес должен иметь действительную обратную запись DNS (PTR), которая позволяет конечному объекту найти доменное имя из IPv6-адреса.
 

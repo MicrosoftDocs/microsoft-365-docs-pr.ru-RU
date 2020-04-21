@@ -1,5 +1,5 @@
 ---
-title: Выполнение внутреннего передачи управления администратора в Office 365
+title: Выполнение внутреннего передачи управления администратора
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -18,15 +18,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Узнайте, как проверить, что ваша электронная почта и владение доменом могут принимать участие в неуправляемом клиенте в Office 365
-ms.openlocfilehash: 3c732d55c533c72983aaa59e39e7bb8ff130f280
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Узнайте, как проверить, что ваша электронная почта и владение доменом могут принимать участие в неуправляемом клиенте в Microsoft 365
+ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212249"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627948"
 ---
-# <a name="perform-an-internal-admin-takeover-in-office-365"></a>Выполнение внутреннего передачи управления администратора в Office 365
+# <a name="perform-an-internal-admin-takeover"></a>Выполнение внутреннего передачи управления администратора
 
  Если вы не нашли то, что вы ищете, обратитесь к разделу **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
 
@@ -67,11 +67,11 @@ ms.locfileid: "43212249"
   
 ## <a name="related-articles"></a>Статьи по теме
 
-YouTube: [получение прав администратора для управления учетной записью Power BI или Office 365 в три этапа](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: [3 действия для ИТ-администратора передачи управления для Power BI и Microsoft 365](https://www.youtube.com/watch?v=xt5EsrQBZZk)
 
 [Передачи управления администратора в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.md)
+[Получение справки о доменах](../get-help-with-domains/get-help-with-domains.md)
 
 [Использование функции самостоятельной регистрации в Организации](self-service-sign-up.md)
   

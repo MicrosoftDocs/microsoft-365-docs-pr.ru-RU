@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Бизнес-ресурсы
-summary: Microsoft 365 Business — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от киберугрозами, защиты данных и управления устройствами.
+title: Ресурсы Microsoft 365 бизнес премиум
+summary: Microsoft 365 Business Premium — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от киберугрозами, защиты данных и управления устройствами.
 brand: m365
 metadata:
-  title: Microsoft 365 Бизнес-ресурсы
+  title: Ресурсы Microsoft 365 бизнес премиум
   description: description
   ms.service: o365-administration
   ms.topic: hub-page
@@ -11,51 +11,51 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: bf50c985029587ec063e2933d137d6a9b115fa6c
-  ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/15/2020
-  ms.locfileid: "43516845"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43627114"
 productDirectory:
-  title: Безопасная удаленная работа с Microsoft 365 Business
+  title: Безопасная удаленная работа с Microsoft 365 Business Premium
   items:
   - title: Новые возможности
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1 поступает в корпорацию Майкрософт 365 Business!
+    summary: Azure AD Premium P1 поступает в Microsoft 365 Business Premium.
     url: https://aka.ms/aadp1smbblog
-  - title: Просмотр интерактивного помощника
+  - title: Просмотрите вебинар для партнеров
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Обеспечьте безопасность клиентов SMB в КОВИД – 19.
+    summary: Защитите своих клиентов малого и среднего бизнеса в условиях, связанных с COVID-19.
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Чтение
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Лучшие способы обеспечения безопасной удаленной работы с Microsoft 365 Business.
+    summary: Лучшие способы обеспечения безопасной удаленной работы с Microsoft 365 для бизнеса.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
-  - title: Что такое Microsoft 365 бизнес?
+  - title: Что такое Microsoft 365 бизнес премиум?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
       text: Обзор
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
-      text: Microsoft 365 Бизнес обучение
+      text: Обучение Microsoft 365 бизнес премиум
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: Сравнение планов
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
       itemType: reference
-      text: Описание служб
+      text: Описание службы
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
       text: Вопросы и ответы
-  - title: Настройка Microsoft 365 бизнес
+  - title: Настройка Microsoft 365 бизнес премиум
     links:
     - url: set-up.md
       itemType: how-to-guide
-      text: 1. Запуск мастера установки
+      text: 1. Запуск мастера настройки
     - url: secure-win-10-pcs.md
       itemType: how-to-guide
       text: 2. Защита компьютеров
@@ -64,21 +64,21 @@ conceptualContent:
       text: 3. Настройка Teams
     - url: https://support.office.com/article/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
       itemType: get-started
-      text: 4. Установка системы Office
+      text: 4. Установка Office
   - title: Ресурсы для партнеров (только на английском языке)
     links:
     - url: https://www.microsoft.com/microsoft-365/partners/business
       itemType: overview
-      text: Страница партнера
+      text: Страница для партнеров
     - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx
       itemType: download
-      text: Колода с шагом (фокус клиента)
+      text: Презентация (для клиентов)
     - url: https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx
       itemType: download
-      text: Колода с шагом (фокусирование партнеров)
+      text: Презентация (для партнеров)
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip
       itemType: download
-      text: Основные фундаментальные сведения
+      text: Технические основы
   - title: Управление пользователями
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
@@ -92,25 +92,25 @@ conceptualContent:
       text: Сброс пароля пользователя
     footerLink:
       url: https://docs.microsoft.com/office365/admin/admin-home
-      text: Дополнительные сведения
+      text: Больше
   - title: Управление угрозами
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Office 365 Advanced Threat Protection
+      text: Расширенная защита от угроз
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: Настройка многофакторной проверки подлинности
     - url: https://docs.microsoft.com/microsoft-365/business/increase-threat-protection#protect-against-ransomware
       itemType: how-to-guide
-      text: Защита от атаки с использованием системы
+      text: Защита от программ-шантажистов
     - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
       itemType: overview
       text: Условный доступ
     footerLink:
       url: https://docs.microsoft.com/office365/admin/admin-home
-      text: Дополнительные сведения
-  - title: Управление данными.
+      text: Больше
+  - title: Управление данными
     links:
     - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
       itemType: overview
@@ -126,12 +126,12 @@ conceptualContent:
       text: Создание и использование меток конфиденциальности
     footerLink:
       url: https://docs.microsoft.com/microsoft-365/compliance/
-      text: Дополнительные сведения
+      text: Больше
   - title: Управление устройствами
     links:
     - url: view-policies-and-devices.md
       itemType: how-to-guide
-      text: PC & Mobile Devices
+      text: Компьютеры и мобильные устройства
     - url: remove-company-data.md
       itemType: how-to-guide
       text: Удаление данных компании
@@ -143,16 +143,16 @@ conceptualContent:
       text: Intune
     - url: manage-windows-devices.md
       itemType: how-to-guide
-      text: Настройка гибридного подключения Azure AD
+      text: Настройка гибридного присоединения к Azure AD
     - url: access-resources.md
       itemType: how-to-guide
-      text: Настройка присоединения Azure AD
+      text: Настройка присоединения к Azure AD
     - url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
       text: Windows Autopilot
       itemType: overview
     footerLink:
       url: manage-windows-devices.md
-      text: Дополнительные сведения
+      text: Больше
   - title: Мониторинг безопасности
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score
@@ -163,38 +163,38 @@ conceptualContent:
       text: Отчет о политиках защиты приложений Intune
     - url: https://docs.microsoft.com/office365/enterprise/view-service-health
       itemType: how-to-guide
-      text: Оповещения мониторинга работоспособности
+      text: Уведомления при наблюдении за работоспособностью системы
     footerLink:
       url: https://docs.microsoft.com/microsoft-365/security/
-      text: Дополнительные сведения
+      text: Больше
   - title: Поддержка и сообщество
     links:
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
       itemType: whats-new
-      text: Announcements
+      text: Объявления
     - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
       itemType: video
       text: Получение справки
     - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business
       itemType: overview
-      text: Обратная связь
+      text: Отправка отзывов
     - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
       itemType: overview
-      text: Сообщество технического и среднего бизнеса
-  - title: Руководства
+      text: Техническое сообщество для малого и среднего бизнеса
+  - title: Инструкции
     links:
     - url: sign-up.md
       itemType: get-started
-      text: Регистрация в Microsoft 365 Business
+      text: Регистрация в Microsoft 365 бизнес премиум
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Миграция с Office 365 бизнес премиум
+      text: Миграция из Microsoft 365 бизнес Standard
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Миграция с Office 365 E3
     - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
       itemType: how-to-guide
-      text: Переход на Microsoft 365 корпоративный E3
+      text: Миграция на Microsoft 365 корпоративный E3
     footerLink:
       url: microsoft-365-business-overview.md
-      text: Дополнительные сведения
+      text: Больше

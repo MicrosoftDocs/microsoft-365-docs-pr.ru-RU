@@ -1,5 +1,5 @@
 ---
-title: Выбор домена, используемого при создании групп Office 365
+title: Выбор домена, который будет использоваться при создании групп Microsoft 365
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,21 +18,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
-description: 'Сведения о том, как выбрать домен для использования при создании групп Office 365 путем настройки политик адресов электронной почты с помощью PowerShell. '
-ms.openlocfilehash: 8bca0e3c33d5cb523fc075d1d2d5b04b6506b256
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: 'Сведения о том, как выбрать домен для использования при создании групп Microsoft 365 путем настройки политик адресов электронной почты с помощью PowerShell. '
+ms.openlocfilehash: 1bc8a160ffc368bc4c66a5ac17ffcb203dc678f5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894649"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630627"
 ---
-# <a name="choose-the-domain-to-use-when-creating-office-365-groups"></a>Выбор домена, используемого при создании групп Office 365
+# <a name="choose-the-domain-to-use-when-creating-microsoft-365-groups"></a>Выбор домена, который будет использоваться при создании групп Microsoft 365
 
- В некоторых организациях для разных подразделений используются отдельные домены электронной почты. Вы можете указать, какой домен следует использовать при создании пользователями групп Office 365.
+ В некоторых организациях для разных подразделений используются отдельные домены электронной почты. Вы можете указать, какой домен следует использовать, когда пользователи создают группы Microsoft 365.
   
 Если согласно требованиям организации пользователи должны создавать группы в доменах, которые отличаются от обслуживаемого домена организации, используемого по умолчанию, вы можете настроить политики адресов электронной почты (EAP) с помощью PowerShell.
   
-Для использования командлетов PowerShell скачайте и установите модуль, который позволяет управлять организацией Office 365. См. статью [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881).
+Перед запуском командлетов PowerShell Скачайте и установите модуль, который позволит вам общаться с вашей организацией. Ознакомьтесь со статьей [Подключение к Exchange Online с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=785881).
   
 ## <a name="example-scenarios"></a>Примеры сценариев
 
@@ -51,7 +51,7 @@ ms.locfileid: "42894649"
   
 ### <a name="scenario-1"></a>Сценарий 1
 
-В приведенном ниже примере показано, как подготовить группы Office 365 в домене groups.contoso.com вашей организации.
+В приведенном ниже примере показано, как подготовить все группы Microsoft 365 в Организации в домене groups.contoso.com.
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
@@ -59,7 +59,7 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 ### <a name="scenario-2"></a>Сценарий 2
 
-Предположим, вы хотите определять, в каких поддоменах создаются группы Office 365. Вам нужны указанные ниже группы и пользователи.
+Предположим, вы хотите контролировать, в каких дочерних доменах создаются группы Microsoft 365. Вам нужны указанные ниже группы и пользователи.
   
 - Группы, созданные студентами (пользователи, у которых есть **Отдел** " **студенты**") в домене students.Groups.contoso.com. Используйте эту команду:
     
@@ -102,7 +102,7 @@ Remove-EmailAddressPolicy -Identity StudentsGroups
   
 ## <a name="hybrid-requirements"></a>Требования к гибридной среде
 
-Если в вашей организации используется гибридная среда, прочтите статью [Настройка групп Office 365 в локальном гибридном развертывании Exchange](https://go.microsoft.com/fwlink/p/?LinkId=785430), чтобы убедиться, что ваша организация соответствует требованиям для создания групп Office 365. 
+Если ваша организация настроена в гибридном сценарии, изучите [настройку групп microsoft 365 с помощью локальной среды Exchange](https://go.microsoft.com/fwlink/p/?LinkId=785430) , чтобы убедиться, что ваша организация соответствует требованиям для создания групп Microsoft 365. 
   
 ## <a name="additional-info-about-using-email-address-policies-groups"></a>Дополнительные сведения об использовании групп политик адресов электронной почты:
 
@@ -122,4 +122,4 @@ Remove-EmailAddressPolicy -Identity StudentsGroups
     
 ## <a name="related-articles"></a>Статьи по теме
 
-[Создание группы Office 365 в Центре администрирования](create-groups.md)
+[Создание группы Microsoft 365 в центре администрирования](create-groups.md)

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
 description: Сведения о настройке разделов реестра для включения современной проверки подлинности для устройств, на которых установлен Microsoft Office 2013.
-ms.openlocfilehash: f1264affa5be93b19e564a0edea00bfb78f452f1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8dec8174d5f39d8fecd6b2a7340d69dbcd421357
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248005"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627732"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Включение современной проверки подлинности для Office 2013 на устройствах с Windows
 
@@ -42,7 +42,7 @@ ms.locfileid: "42248005"
 |Hkcu\software\microsoft\office\15.0\common\identity\enableadal нулевое  |REG_DWORD  |1,1  |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1,1 |
    
-После настройки разделов реестра вы можете настроить использование [многофакторной проверки подлинности (MFA)](set-up-multi-factor-authentication.md) с Office 365 на устройствах с приложениями Office 2013. 
+После настройки разделов реестра можно настроить приложения Office 2013 для использования [многофакторной проверки подлинности (MFA)](set-up-multi-factor-authentication.md) с Microsoft 365. 
   
 Если вы вошли в одно из клиентских приложений, выйдите из него и войдите снова, чтобы изменения вступили в силу. В противном случае, файлы, с которыми вы недавно работали, и настройки роуминга останутся недоступными до тех пор, пока не будет установлено удостоверение библиотек ADAL.
   

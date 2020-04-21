@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 23242f5f2d7e1a0774c83359159588f9fef34f64
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: 8b8976f07f88afa184eb292b0cdc1d6e36a44d77
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608166"
+ms.locfileid: "43615922"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft Secure Score (Предварительная версия)
 
@@ -55,7 +55,7 @@ Microsoft Secure Score — это измерение степени безопа
 
 ### <a name="products-included-in-secure-score"></a>Продукты, включенные в надежный рейтинг
 
-В настоящее время существуют рекомендации для Office 365 (в том числе SharePoint Online, Exchange Online, OneDrive для бизнеса, Microsoft Information Protection и др.), Azure AD, Microsoft Defender ATP и Cloud App Security. Рекомендации по другим продуктам безопасности скоро будут доступны. Рекомендации не охватывают все области атак, связанные с каждым продуктом, но они являются хорошим базовым планом. Вы также можете пометить действия по улучшению, как это описано сторонним производителем.
+В настоящее время существуют рекомендации для Microsoft 365 (в том числе SharePoint Online, Exchange Online, OneDrive для бизнеса, Microsoft Information Protection и др.), Azure AD, Microsoft Defender ATP и Cloud App Security. Рекомендации по другим продуктам безопасности скоро будут доступны. Рекомендации не охватывают все области атак, связанные с каждым продуктом, но они являются хорошим базовым планом. Вы также можете пометить действия по улучшению, как это описано сторонним производителем.
 
 ## <a name="required-permissions"></a>Обязательные разрешения
 

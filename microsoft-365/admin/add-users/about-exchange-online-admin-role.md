@@ -20,16 +20,16 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Администраторы Exchange Online управляют электронной почтой и почтовыми ящиками организации. Например, они восстанавливают удаленные элементы в почтовом ящике пользователя. '
-ms.openlocfilehash: ac11a05dd9ea7a0c569e131e7939a0e4e9293dea
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: e45d6a0e9f2151e03a300b1e36bf53b7c9f8ef68
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151380"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618912"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
-Чтобы упростить администрирование системы Office 365, вы можете [назначать](assign-admin-roles.md) пользователям разрешения на управление электронной почтой и почтовыми ящиками организации через [Центр администрирования Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807). Для этого нужно назначить им роль администратора Exchange. 
+Чтобы упростить администрирование Microsoft 365, можно [назначить](assign-admin-roles.md) пользователям разрешения на управление электронной почтой и почтовыми ящиками организации в [центре администрирования Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807). Для этого нужно назначить им роль администратора Exchange. 
   
  **Совет**: при назначении роли администратора Exchange назначить их роли администратора службы. Таким образом, они могут просматривать важную информацию в центре администрирования Microsoft 365, например работоспособность службы Exchange Online, а также изменять и освобождать уведомления. 
   
@@ -37,17 +37,17 @@ ms.locfileid: "43151380"
   
 - [Восстановление элементов, удаленных из почтового ящика пользователя.](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
-- [Определение срока хранения удаленных сообщений перед их окончательным удалением.](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes)
+- [Настройка политики архивации и удаления для почтовых ящиков в Организации](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
     
 - Настройка функций почтового ящика, например политики общего доступа к нему, которая определяет, как пользователи могут делиться данными календаря и контактов с другими людьми за пределами вашей организации. 
     
-- Настройка делегатов [Отправить как](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user) и [Отправить от имени](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user) для почтового ящика другого пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени. 
+- Настройка представителей "[Отправить как](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)" и "[отправить на абехалф](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)" для почтового ящика пользователя. Например, руководителю может потребоваться, чтобы его помощник имел возможность отправлять почту от его имени. 
     
 - [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) , чтобы группа людей могла отслеживать и отправлять электронную почту с общего адреса электронной почты. 
     
-- [Office 365 email anti-spam protection](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) и фильтров вредоносных программ для организации. 
+- [Защита от нежелательной](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) почты и фильтры вредоносных программ для Организации. 
     
-- Управление группами Office 365
+- Управление группами Microsoft 365
     
 ## <a name="exchange-online-role-groups"></a>Группы ролей Exchange Online
 

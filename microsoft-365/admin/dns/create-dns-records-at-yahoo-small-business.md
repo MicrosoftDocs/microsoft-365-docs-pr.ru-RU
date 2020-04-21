@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS для Office 365 на сайте Yahoo! Small Business
+title: Создание записей DNS для Office 365 на сайте Yahoo! Малый бизнес для Майкрософт
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,15 +19,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
-description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в Yahoo! Малый бизнес для Office 365.
-ms.openlocfilehash: 7b0d0b25a2895101e2f9a259a82fb18e9447441f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в Yahoo! Малый бизнес для Майкрософт.
+ms.openlocfilehash: 12efa8f7056f0d06cbf78b2486ea67dc85d2e705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211042"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629159"
 ---
-# <a name="create-dns-records-at-yahoo-small-business-for-office-365"></a>Создание записей DNS для Office 365 на сайте Yahoo! Small Business
+# <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>Создание записей DNS для Office 365 на сайте Yahoo! Малый бизнес для Майкрософт
 
  **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
@@ -89,5 +89,5 @@ ms.locfileid: "43211042"
     
     ![The sign-in page for Aabaco Small Business](../../media/4ef3cfc3-26da-4e03-932b-9346ef217848.png)
   
-Теперь, когда вы создали учетную запись Aabaco, вы можете приступить к [добавлению записей DNS для Office 365 в Aabaco Small Business ](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
+Теперь, когда вы создали учетную запись Aabaco, вы можете [создавать записи DNS на сайте Aabaco Small Business для Майкрософт](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
   
