@@ -1,5 +1,5 @@
 ---
-title: Добавление фирменной символики компании на страницу входа в Office 365
+title: Добавление фирменной символики компании на страницу входа
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -18,32 +18,32 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
-description: Настройка страницы входа в Office 365 с помощью Azure Active Directory. Вы можете добавить иллюстрацию, логотип и текст на страницу входа.
-ms.openlocfilehash: 97d1d1c7dcb5a31395c98295a250913bb8ab69f5
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Настройка страницы входа в Microsoft 365 с помощью Azure Active Directory. Вы можете добавить иллюстрацию, логотип и текст на страницу входа.
+ms.openlocfilehash: daf5f9007a297615d04051d3364895053572343a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360650"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627634"
 ---
-# <a name="add-your-company-branding-to-office-365-sign-in-page"></a><span data-ttu-id="79ed6-104">Добавление фирменной символики компании на страницу входа в Office 365</span><span class="sxs-lookup"><span data-stu-id="79ed6-104">Add your company branding to Office 365 Sign In page</span></span>
+# <a name="add-your-company-branding-to-the-sign-in-page"></a><span data-ttu-id="19c3e-104">Добавление фирменной символики компании на страницу входа</span><span class="sxs-lookup"><span data-stu-id="19c3e-104">Add your company branding to the Sign In page</span></span>
 
- <span data-ttu-id="79ed6-105">Теперь вы можете использовать подписку на Azure Active Directory (AD) в составе вашей подписки на Office 365 для настройки страницы входа, которая отображается вашим пользователям.</span><span class="sxs-lookup"><span data-stu-id="79ed6-105">You can now use the Azure Active Directory (AD) subscription that is included with your Office 365 subscription to customize the sign-in page your users see.</span></span> 
+ <span data-ttu-id="19c3e-105">Теперь вы можете использовать подписку на Azure Active Directory (AD), включенную в подписку на Microsoft 365, чтобы настроить страницу входа, которую видят пользователи.</span><span class="sxs-lookup"><span data-stu-id="19c3e-105">You can now use the Azure Active Directory (AD) subscription that is included with your Microsoft 365 subscription to customize the sign-in page your users see.</span></span> 
   
-## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a><span data-ttu-id="79ed6-106">Добавление фирменной символики компании на страницы входа и панели доступа</span><span class="sxs-lookup"><span data-stu-id="79ed6-106">Add company branding to your sign in page and Access Panel pages</span></span>
+## <a name="add-company-branding-to-your-sign-in-page-and-access-panel-pages"></a><span data-ttu-id="19c3e-106">Добавление фирменной символики компании на страницы входа и панели доступа</span><span class="sxs-lookup"><span data-stu-id="19c3e-106">Add company branding to your sign in page and Access Panel pages</span></span>
 
-<span data-ttu-id="79ed6-p102">Если у вас есть платная подписка на Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite или другие службы Майкрософт, это означает, что у вас также есть бесплатная подписка на Azure Active Directory. Вы можете использовать Azure Active Directory для создания учетных записей пользователей и групп, управления ими, а также для добавления фирменной символики своей компании на ваши страницы. Для активации бесплатной подписки и доступа на портал управления Microsoft Azure нужно пройти однократную регистрацию. После этого вы сможете работать с каталогом Azure Active Directory из своей службы Майкрософт, которая его использует. Инструкции по регистрации подписки на Office 365 см. в статье [Регистрация бесплатной подписки на Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966). Общие инструкции по управлению см. в статье [Управление каталогом для подписки Office 365 в Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076).</span><span class="sxs-lookup"><span data-stu-id="79ed6-p102">If you have a paid subscription to Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite, or other Microsoft services, you have a free subscription to Azure Active Directory. You can use Azure Active Directory to create and manage user and group accounts, and add company branding to your pages. To activate this subscription and access the Microsoft Azure Management Portal, you have to complete a one-time registration process. Afterward, you can access Azure Active Directory from your Microsoft service that uses it. For instructions on how to register your Office 365 subscription see [Register your free Azure Active Directory subscription](https://go.microsoft.com/fwlink/p/?LinkID=527966), and see [Manage the directory for your Office 365 subscription in Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) for general management instructions.</span></span> 
+<span data-ttu-id="19c3e-107">Если у вас есть платная подписка на Microsoft 365 для бизнеса, Microsoft Dynamics CRM Online, Enterprise Mobility Suite или других служб Майкрософт, у вас есть бесплатная подписка на Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="19c3e-107">If you have a paid subscription to Microsoft 365 for business, Microsoft Dynamics CRM Online, Enterprise Mobility Suite, or other Microsoft services, you have a free subscription to Azure Active Directory.</span></span> <span data-ttu-id="19c3e-108">Вы можете использовать Azure Active Directory для создания учетных записей пользователей и групп и управления ими, а также для добавления фирменной символики компании на страницы.</span><span class="sxs-lookup"><span data-stu-id="19c3e-108">You can use Azure Active Directory to create and manage user and group accounts, and add company branding to your pages.</span></span> <span data-ttu-id="19c3e-109">Чтобы активировать эту подписку и получать доступ к порталу управления Microsoft Azure, необходимо выполнить однократный процесс регистрации.</span><span class="sxs-lookup"><span data-stu-id="19c3e-109">To activate this subscription and access the Microsoft Azure Management Portal, you have to complete a one-time registration process.</span></span> <span data-ttu-id="19c3e-110">После этого вы можете получить доступ к Azure Active Directory из службы Майкрософт, которая использует ее.</span><span class="sxs-lookup"><span data-stu-id="19c3e-110">Afterward, you can access Azure Active Directory from your Microsoft service that uses it.</span></span> <span data-ttu-id="19c3e-111">Инструкции по регистрации подписки на Microsoft 365: [регистрация бесплатной бесплатной подписки на Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkID=527966), а также инструкции по управлению [каталогом для подписки на Microsoft 365 в Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) для общих инструкций по управлению.</span><span class="sxs-lookup"><span data-stu-id="19c3e-111">For instructions on how to register your Microsoft 365 subscription see [Register your free Azure Active Directory subscription](https://go.microsoft.com/fwlink/p/?LinkID=527966), and see [Manage the directory for your Microsoft 365 subscription in Azure](https://go.microsoft.com/fwlink/p/?LinkId=620076) for general management instructions.</span></span> 
   
-<span data-ttu-id="79ed6-112">На рисунке ниже показано, какие элементы страницы входа можно изменить в Azure.</span><span class="sxs-lookup"><span data-stu-id="79ed6-112">The following figure shows which parts of the sign-in page can be modified in Azure.</span></span>
+<span data-ttu-id="19c3e-112">На рисунке ниже показано, какие элементы страницы входа можно изменить в Azure.</span><span class="sxs-lookup"><span data-stu-id="19c3e-112">The following figure shows which parts of the sign-in page can be modified in Azure.</span></span>
   
-![Области страницы входа Office 365, которые можно настроить.](../../media/screenshotbranding.png)
+![Области страницы входа, которые можно настроить.](../../media/screenshotbranding.png)
   
-1. <span data-ttu-id="79ed6-114">Большое изображение и цвет его фона</span><span class="sxs-lookup"><span data-stu-id="79ed6-114">The large illustration and/or its background color</span></span>
+1. <span data-ttu-id="19c3e-114">Большое изображение и цвет его фона</span><span class="sxs-lookup"><span data-stu-id="19c3e-114">The large illustration and/or its background color</span></span>
     
-2. <span data-ttu-id="79ed6-115">Логотип в виде баннера</span><span class="sxs-lookup"><span data-stu-id="79ed6-115">The banner logo</span></span>
+2. <span data-ttu-id="19c3e-115">Логотип в виде баннера</span><span class="sxs-lookup"><span data-stu-id="19c3e-115">The banner logo</span></span>
     
-3. <span data-ttu-id="79ed6-116">В эту область также можно добавить текст.</span><span class="sxs-lookup"><span data-stu-id="79ed6-116">You can also add text to this area</span></span>
+3. <span data-ttu-id="19c3e-116">В эту область также можно добавить текст.</span><span class="sxs-lookup"><span data-stu-id="19c3e-116">You can also add text to this area</span></span>
     
-<span data-ttu-id="79ed6-117">Помимо страницы входа, в Azure также можно настроить страницу панели доступа.</span><span class="sxs-lookup"><span data-stu-id="79ed6-117">In addition to the sign-in page, you can customize the Access Panel page in Azure.</span></span>
+<span data-ttu-id="19c3e-117">Помимо страницы входа, в Azure также можно настроить страницу панели доступа.</span><span class="sxs-lookup"><span data-stu-id="19c3e-117">In addition to the sign-in page, you can customize the Access Panel page in Azure.</span></span>
   
-<span data-ttu-id="79ed6-118">Если вы готовы добавить фирменную символику, ознакомьтесь с возможностями настройки с использованием содержимого Azure: [Добавление фирменной символики компании на страницы входа и панели доступа](https://go.microsoft.com/fwlink/p/?LinkId=620077).</span><span class="sxs-lookup"><span data-stu-id="79ed6-118">If you are ready to add branding, explore the customization options in the Azure content set: [Add company branding to your Sign-in and Access Panel pages](https://go.microsoft.com/fwlink/p/?LinkId=620077).</span></span>
+<span data-ttu-id="19c3e-118">Если вы готовы добавить фирменную символику, ознакомьтесь с возможностями настройки с использованием содержимого Azure: [Добавление фирменной символики компании на страницы входа и панели доступа](https://go.microsoft.com/fwlink/p/?LinkId=620077).</span><span class="sxs-lookup"><span data-stu-id="19c3e-118">If you are ready to add branding, explore the customization options in the Azure content set: [Add company branding to your Sign-in and Access Panel pages](https://go.microsoft.com/fwlink/p/?LinkId=620077).</span></span>

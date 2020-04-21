@@ -1,5 +1,5 @@
 ---
-title: Отправление сообщений электронной почты от списков рассылки в Office 365
+title: Отправка электронной почты в виде списка рассылки
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,34 +19,34 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
-description: Узнайте, как отправлять сообщения электронной почты от списков рассылки в Office 365.
-ms.openlocfilehash: 076405b54f2a1521e0d9a1fc54c734b172eb82e8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Сведения о том, как отправлять электронную почту в виде списка рассылки в Microsoft 365.
+ms.openlocfilehash: e9f8e52350dfd27e58ee160ed10f5c45e33391d7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361744"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628068"
 ---
-# <a name="send-email-as-a-distribution-list-in-office-365"></a><span data-ttu-id="d5baf-103">Отправление сообщений электронной почты от списков рассылки в Office 365</span><span class="sxs-lookup"><span data-stu-id="d5baf-103">Send email as a distribution list in Office 365</span></span>
+# <a name="send-email-as-a-distribution-list"></a><span data-ttu-id="0d7a7-103">Отправка электронной почты в виде списка рассылки</span><span class="sxs-lookup"><span data-stu-id="0d7a7-103">Send email as a distribution list</span></span>
 
-<span data-ttu-id="d5baf-p101">Вы можете отправлять сообщения электронной почты от списков рассылки в Office 365. Когда пользователь, включенный в список рассылки, отвечает на сообщение, адресованное этому списку, ответное сообщение отправляется от списка рассылки, а не от отдельного пользователя. В этой статье рассказывается о том, как это сделать.</span><span class="sxs-lookup"><span data-stu-id="d5baf-p101">In Office 365, you can send email as a distribution list. When a person who is a member of the distribution list replies to a message sent to the distribution list, the email appears to be from the distribution list, not from the individual user. This topic shows you how to do this.</span></span>
+<span data-ttu-id="0d7a7-104">В Microsoft 365 вы можете отправлять электронную почту в виде списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-104">In Microsoft 365, you can send email as a distribution list.</span></span> <span data-ttu-id="0d7a7-105">Когда пользователь, включенный в список рассылки, отвечает на сообщение, адресованное этому списку, ответное сообщение отправляется от списка рассылки, а не от отдельного пользователя.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-105">When a person who is a member of the distribution list replies to a message sent to the distribution list, the email appears to be from the distribution list, not from the individual user.</span></span> <span data-ttu-id="0d7a7-106">В этой статье рассказывается о том, как это сделать.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-106">This topic shows you how to do this.</span></span>
   
-## <a name="send-email-as-a-distribution-list"></a><span data-ttu-id="d5baf-107">Отправка электронной почты в виде списка рассылки</span><span class="sxs-lookup"><span data-stu-id="d5baf-107">Send email as a distribution list</span></span>
+## <a name="send-email-as-a-distribution-list"></a><span data-ttu-id="0d7a7-107">Отправка электронной почты в виде списка рассылки</span><span class="sxs-lookup"><span data-stu-id="0d7a7-107">Send email as a distribution list</span></span>
 
-<span data-ttu-id="d5baf-108">Перед выполнением этих действий убедитесь, что вы добавили в список рассылки Office 365 и у вас есть разрешение "Отправить как".</span><span class="sxs-lookup"><span data-stu-id="d5baf-108">Before you perform these steps, make sure you've been added to an Office 365 distribution list and you've have been granted Send as permission on it.</span></span>
+<span data-ttu-id="0d7a7-108">Перед выполнением этих действий убедитесь, что вы добавили в список рассылки Microsoft 365 и у вас есть разрешение "Отправить как".</span><span class="sxs-lookup"><span data-stu-id="0d7a7-108">Before you perform these steps, make sure you've been added to a Microsoft 365 distribution list and you've have been granted Send as permission on it.</span></span>
   
- <span data-ttu-id="d5baf-109">**Администраторы**: Убедитесь, что вы выполнили действия, описанные в статье [Добавление пользователя или контакта Office 365 в список](../email/add-user-or-contact-to-distribution-list.md) и [предоставление участникам разрешения на отправку электронной почты в виде разделов группы Office 365](../create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) , и добавление в список рассылки нужных людей.</span><span class="sxs-lookup"><span data-stu-id="d5baf-109">**Admins**: Make sure you've followed the steps in the [Add an Office 365 user or contact to a list](../email/add-user-or-contact-to-distribution-list.md) and [Allow members to send email as an Office 365 Group](../create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) topics, and added the correct people to the distribution list.</span></span>
+ <span data-ttu-id="0d7a7-109">**Администраторы**: Убедитесь, что вы выполнили действия, описанные в статье [Добавление пользователя или контакта Microsoft 365 в список](../email/add-user-or-contact-to-distribution-list.md) , и [разрешите участникам отправлять электронную почту как разделы группы Майкрософт 365](../create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) и добавили нужных людей в список рассылки.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-109">**Admins**: Make sure you've followed the steps in the [Add a Microsoft 365 user or contact to a list](../email/add-user-or-contact-to-distribution-list.md) and [Allow members to send email as a Microsoft 365 Group](../create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md#allow-members-to-send-email-as-a-group) topics, and added the correct people to the distribution list.</span></span>
   
-1. <span data-ttu-id="d5baf-110">Откройте Outlook в Интернете и войдите в почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="d5baf-110">Open Outlook on the web and go to your inbox.</span></span> 
+1. <span data-ttu-id="0d7a7-110">Откройте Outlook в Интернете и войдите в почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-110">Open Outlook on the web and go to your inbox.</span></span> 
     
-2. <span data-ttu-id="d5baf-111">Откройте сообщение, адресованное списку рассылки.</span><span class="sxs-lookup"><span data-stu-id="d5baf-111">Open a message that was sent to the distribution list.</span></span> 
+2. <span data-ttu-id="0d7a7-111">Откройте сообщение, адресованное списку рассылки.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-111">Open a message that was sent to the distribution list.</span></span> 
     
-3. <span data-ttu-id="d5baf-112">Выберите пункт **ответить**.</span><span class="sxs-lookup"><span data-stu-id="d5baf-112">Select **Reply**.</span></span> 
+3. <span data-ttu-id="0d7a7-112">Выберите пункт **ответить**.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-112">Select **Reply**.</span></span> 
     
-4. <span data-ttu-id="d5baf-113">В нижней части сообщения нажмите **Дополнительно** \> **Показать из**.</span><span class="sxs-lookup"><span data-stu-id="d5baf-113">At the bottom of the message, select **More** \> **Show from**.</span></span><br/> <span data-ttu-id="d5baf-114">![Нажмите кнопку Дополнительно, а затем выберите пункт Показать из](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)</span><span class="sxs-lookup"><span data-stu-id="d5baf-114">![Select More and then choose Show From](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)</span></span>
+4. <span data-ttu-id="0d7a7-113">В нижней части сообщения нажмите **Дополнительно** \> **Показать из**.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-113">At the bottom of the message, select **More** \> **Show from**.</span></span><br/> <span data-ttu-id="0d7a7-114">![Нажмите кнопку Дополнительно, а затем выберите пункт Показать из](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)</span><span class="sxs-lookup"><span data-stu-id="0d7a7-114">![Select More and then choose Show From](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)</span></span>
   
-5. <span data-ttu-id="d5baf-115">Щелкните правой кнопкой мыши адрес от адреса, например `Ina@weewalter.me` , и выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="d5baf-115">Right-click on the From address - such as `Ina@weewalter.me` - and choose **Remove**.</span></span><br/> <span data-ttu-id="d5baf-116">![Удаление псевдонима](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)</span><span class="sxs-lookup"><span data-stu-id="d5baf-116">![Remove the FROM alias](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)</span></span>
+5. <span data-ttu-id="0d7a7-115">Щелкните правой кнопкой мыши адрес от адреса, например `Ina@weewalter.me` , и выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-115">Right-click on the From address - such as `Ina@weewalter.me` - and choose **Remove**.</span></span><br/> <span data-ttu-id="0d7a7-116">![Удаление псевдонима](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)</span><span class="sxs-lookup"><span data-stu-id="0d7a7-116">![Remove the FROM alias](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)</span></span>
   
-6. <span data-ttu-id="d5baf-117">Затем введите адрес списка рассылки, например support@contoso.com, и отправьте сообщение.</span><span class="sxs-lookup"><span data-stu-id="d5baf-117">Then type the distribution list address such as support@contoso.com, and send the message.</span></span> <span data-ttu-id="d5baf-118">В следующий раз, когда вы ответите из списка рассылки, его адрес будет отображаться в списке " **от** ".</span><span class="sxs-lookup"><span data-stu-id="d5baf-118">The next time you reply from the distribution list, its address will appear as an option in the **From** list.</span></span><br/><span data-ttu-id="d5baf-119">![Псевдоним общего почтового ящика отображается](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)</span><span class="sxs-lookup"><span data-stu-id="d5baf-119">![Alias of the shared mailbox appears](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)</span></span>
+6. <span data-ttu-id="0d7a7-117">Затем введите адрес списка рассылки, например support@contoso.com, и отправьте сообщение.</span><span class="sxs-lookup"><span data-stu-id="0d7a7-117">Then type the distribution list address such as support@contoso.com, and send the message.</span></span> <span data-ttu-id="0d7a7-118">В следующий раз, когда вы ответите из списка рассылки, его адрес будет отображаться в списке " **от** ".</span><span class="sxs-lookup"><span data-stu-id="0d7a7-118">The next time you reply from the distribution list, its address will appear as an option in the **From** list.</span></span><br/><span data-ttu-id="0d7a7-119">![Псевдоним общего почтового ящика отображается](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)</span><span class="sxs-lookup"><span data-stu-id="0d7a7-119">![Alias of the shared mailbox appears](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)</span></span>
   
 

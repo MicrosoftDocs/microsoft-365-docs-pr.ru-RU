@@ -14,17 +14,17 @@ layout: LandingPage
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 9f818d7a-78b5-4490-b36c-e3bfe328dfc3
-description: Быстрые ссылки для наиболее распространенных задач администрирования в Office 365.
-ms.openlocfilehash: 3c69d24af04567531ea4228202e5ec16cdd39522
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+description: Быстрые ссылки на наиболее распространенные задачи администрирования в Microsoft 365.
+ms.openlocfilehash: 876652b932579718cb1d1313bca6b98bad2b92c1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126003"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628140"
 ---
 # <a name="manage"></a>Управление
 
-Быстрые ссылки для наиболее распространенных задач администрирования в Office 365.
+Быстрые ссылки на наиболее распространенные задачи администрирования в Microsoft 365.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -152,7 +152,7 @@ ms.locfileid: "43126003"
                         <h3>Электронная почта</h3>
                             <p><a href="../add-users/add-users.md">Добавление нового сотрудника</a></p>
                             <p><a href="https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd">Сообщения не отправляются</a></p>
-                            <p><b>Дополнительные задачи:</b> <a href="../email/email.md">Электронная почта в Office 365 для бизнеса</a></p>
+                            <p><b>Дополнительные задачи:</b> <a href="../email/email.md">Электронная почта в Microsoft 365 для бизнеса</a></p>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ ms.locfileid: "43126003"
                             <p><a href="https://docs.microsoft.com/onedrive/manage-sharing">Управление общим доступом в OneDrive и SharePoint</a></p>
                             <p><a href="https://docs.microsoft.com/onedrive/set-default-storage-space">Настройка стандартного размера хранилища OneDrive для пользователей</a></p>
                             <p><a href="https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2">Решение проблем с синхронизацией OneDrive</a></p>
-                            <p><b>Дополнительные задачи:</b> <a href="https://docs.microsoft.com/onedrive/onedrive">OneDrive в Office 365</a></p>
+                            <p><b>Дополнительные задачи:</b> <a href="https://docs.microsoft.com/onedrive/onedrive">OneDrive в Microsoft 365</a></p>
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@ ms.locfileid: "43126003"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>SharePoint;</h3>
+                        <h3>SharePoint</h3>
                             <p><a href="https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off">Включение и отключение внешнего общего доступа для SharePoint Online</a></p>
                             <p><a href="https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center">Создание сайтов и управление ими</a></p>
                             <p><a href="https://docs.microsoft.com/sharepoint/planning-hub-sites">Руководство по планированию интрасети</a></p>
@@ -198,9 +198,9 @@ ms.locfileid: "43126003"
                 <div class="card">
                     <div class="cardText">
                         <h3>Yammer</h3>
-                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in">Вход в Office 365 для использования Yammer</a></p>
-                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle">Управление пользователями Yammer из Office 365</a></p>
-                            <p><a href="https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity">Использование удостоверения Office 365 для Yammer</a></p>
+                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in">Вход в Yammer для Microsoft 365</a></p>
+                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle">Управление пользователями Yammer из Microsoft 365</a></p>
+                            <p><a href="https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity">Применение удостоверения Microsoft 365 для пользователей Yammer</a></p>
                             <p><a href="https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/embed-a-feed-into-a-sharepoint-site">Добавление веб-канала Yammer на сайт SharePoint (на английском языке)</a></p>
                             <p><b>Дополнительные задачи:</b> <a href="https://docs.microsoft.com/yammer/yammer-landing-page">Справка для администраторов Yammer</a></p>
                     </div>

@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Узнайте, как с помощью Microsoft 365 Business вы можете автоматически убедиться в том, что у пользователей установлена последняя версия Office на всех устройствах с Windows 10.
-ms.openlocfilehash: dbae76bf98cbcc463e4944f7c0bc59e728221c6b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Узнайте, как с помощью Microsoft 365 бизнес премиум можно автоматически убедиться, что у пользователей установлена последняя версия Office на всех устройствах с Windows 10.
+ms.openlocfilehash: f040f466638dc0ef5491e3097de29fc44a8e66f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561547"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627101"
 ---
-# <a name="install-office-on-windows-10-during-setup"></a><span data-ttu-id="def90-103">Установка Office на устройствах с Windows 10 во время настройки службы</span><span class="sxs-lookup"><span data-stu-id="def90-103">Install Office on Windows 10 during setup</span></span>
+# <a name="install-office-on-windows-10-during-setup"></a><span data-ttu-id="24b7e-103">Установка Office на устройствах с Windows 10 во время настройки службы</span><span class="sxs-lookup"><span data-stu-id="24b7e-103">Install Office on Windows 10 during setup</span></span>
 
 ![Баннер, который указывает https://aka.ms/aboutM365previewна.](../media/m365admincenterchanging.png)
 
-<span data-ttu-id="def90-105">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="def90-105">This setting is off by default.</span></span> <span data-ttu-id="def90-106">Вы можете включить его, чтобы убедиться, что у пользователей установлена последняя версия Office на всех устройствах с Windows 10, но сначала убедитесь, что выполнены все необходимые условия.</span><span class="sxs-lookup"><span data-stu-id="def90-106">You can turn it on to make sure users have the latest version of Office on all their Windows 10 devices, but first verify that all prerequisites are met.</span></span> <span data-ttu-id="def90-107">Пользователи должны иметь лицензию на Microsoft 365 бизнес для этого параметра, чтобы отправить программное обеспечение на устройство, а также другие требования, описанные в [статье Подготовка к развертыванию клиента Office корпорацией майкрософт 365 Business](prepare-for-office-client-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="def90-107">Users must be licensed for Microsoft 365 Business for this setting to push the software to the device, in addition to other requirements described in [Prepare for Office client deployment by Microsoft 365 Business](prepare-for-office-client-deployment.md).</span></span>
+<span data-ttu-id="24b7e-105">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="24b7e-105">This setting is off by default.</span></span> <span data-ttu-id="24b7e-106">Вы можете включить его, чтобы убедиться, что у пользователей установлена последняя версия Office на всех устройствах с Windows 10, но сначала убедитесь, что выполнены все необходимые условия.</span><span class="sxs-lookup"><span data-stu-id="24b7e-106">You can turn it on to make sure users have the latest version of Office on all their Windows 10 devices, but first verify that all prerequisites are met.</span></span> <span data-ttu-id="24b7e-107">Пользователи должны иметь лицензию на Microsoft 365 бизнес премиум для этого параметра, чтобы отправить программное обеспечение на устройство, а также другие требования, описанные в [статье Подготовка к развертыванию клиента Office корпорацией майкрософт 365 бизнес премиум](prepare-for-office-client-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="24b7e-107">Users must be licensed for Microsoft 365 Business Premium for this setting to push the software to the device, in addition to other requirements described in [Prepare for Office client deployment by Microsoft 365 Business Premium](prepare-for-office-client-deployment.md).</span></span>
   
-<span data-ttu-id="def90-108">Рекомендуется принять параметр по умолчанию во время установки.</span><span class="sxs-lookup"><span data-stu-id="def90-108">We recommend that you accept the default setting during setup.</span></span>
+<span data-ttu-id="24b7e-108">Рекомендуется принять параметр по умолчанию во время установки.</span><span class="sxs-lookup"><span data-stu-id="24b7e-108">We recommend that you accept the default setting during setup.</span></span>
