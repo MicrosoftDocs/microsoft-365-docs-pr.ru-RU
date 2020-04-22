@@ -191,20 +191,18 @@
               href: mtp/feedback.md
             - name: Управление билетами с помощью ServiceNow
               href: ./mtp/tickets.md
-    - name: Безопасность Office 365
+    - name: "Безопасность в Microsoft\_365"
       items:
         - name: Начало работы
           items:
-            - name: Схема обеспечения безопасности Office 365
+            - name: Стратегия повышения безопасности
               href: ./office-365-security/security-roadmap.md
-            - name: Настройка клиента Office 365 для улучшения безопасности
+            - name: Настройка клиента для улучшения безопасности
               href: ./office-365-security/tenant-wide-setup-for-increased-security.md
             - name: "Новый Центр безопасности Microsoft\_365"
               href: ./mtp/overview-security-center.md
-            - name: "Разрешения в Центре безопасности и соответствия требованиям Office\_365"
+            - name: Разрешения в Центре безопасности и соответствия требованиям
               href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
-            - name: "Разрешения в Центре соответствия требованиям Microsoft\_365 и Центре безопасности Microsoft\_365"
-              href: ./office-365-security/permissions-microsoft-365-compliance-security.md
             - name: Предоставление пользователям доступа к Центру безопасности
               href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
         - name: Защита от угроз
@@ -281,7 +279,7 @@
                   href: ./office-365-security/zero-hour-auto-purge.md
                 - name: Советы по безопасности в сообщениях электронной почты
                   href: ./office-365-security/safety-tips-in-office-365.md
-                - name: Удаление себя из списка заблокированных отправителей Office 365 с помощью портала удаления из списка
+                - name: Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
             - name: Защита от фишинга
               href: ./office-365-security/anti-phishing-protection.md
@@ -320,9 +318,9 @@
             - name: Проверка подлинности электронной почты
               href: ./office-365-security/email-validation-and-authentication.md
               items:
-                - name: Как Office 365 использует SPF для предотвращения спуфинга
+                - name: Как Microsoft 365 использует SPF для предотвращения спуфинга
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
-                - name: "Настройка инфраструктуры политики отправителей в Office\_365 для предотвращения спуфинга"
+                - name: Настройка SPF для предотвращения спуфинга
                   href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
                 - name: Проверка исходящей электронной почты с помощью DKIM
                   href: ./office-365-security/use-dkim-to-validate-outbound-email.md
@@ -600,7 +598,7 @@
                   href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
         - name: Office 365 корпоративный
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
-        - name: Office 365 для бизнеса
+        - name: Microsoft 365 для бизнеса
           href: 'https://docs.microsoft.com/microsoft-365/admin/admin-home'
     - name: Соответствие требованиям Microsoft 365
       href: 'https://docs.microsoft.com/microsoft-365/compliance/'
