@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано, как в компании Contoso использовали Microsoft Endpoint Configuration Manager для развертывания обновлений на месте для Windows 10 Корпоративная.
-ms.openlocfilehash: 5dc58a9090dd6976d7c521f7552181a10f22f5b2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c66be4ad5ee383301c4fb10cf2590f7cbbed033f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068014"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630685"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Развертывание Windows 10 Корпоративная для компании Contoso
 
@@ -89,9 +89,9 @@ ms.locfileid: "42068014"
 - Региональные точки распределения, которые обычно расположены в региональных офисах компании Contoso.
 - Компьютеры и устройства с ОС Windows в различных расположениях, на которых выполняется прием и установка пакетов развертывания для обновления на месте или текущих обновлений на основе членства в круге.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
-[Узнайте,](contoso-o365pp.md) как в компании Contoso используют свою инфраструктуру Configuration Manager для развертывания Office 365 профессиональный плюс в организации и поддержания его в актуальном состоянии. 
+[Узнайте,](contoso-o365pp.md) как в корпорации Contoso используют инфраструктуру Configuration Manager для развертывания и поддержания приложений Microsoft 365 Корпоративная в пределах организации. 
 
 ## <a name="see-also"></a>См. также
 

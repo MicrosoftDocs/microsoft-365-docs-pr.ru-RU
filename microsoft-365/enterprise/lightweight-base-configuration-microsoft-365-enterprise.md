@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: Это руководство по лаборатории тестирования поможет вам создать простую тестовую среду для Microsoft 365 корпоративный.
-ms.openlocfilehash: 4e90cc01cb37664f3084daf7295e9d59052809af
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 04e63b1c3d9d35bd636041f8be7655ab17b1d165
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633347"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631613"
 ---
 # <a name="the-lightweight-base-configuration"></a>Простая базовая конфигурация
 
@@ -63,7 +63,7 @@ ms.locfileid: "42633347"
 5. Запишите сведения страницы входа (выделите и скопируйте) с шага 4 здесь: ![Линия](../media/Common-Images/TableLine.png) 
 6. Запишите здесь идентификатор пользователя: ![Линия](../media/Common-Images/TableLine.png).onmicrosoft.com  
    Запишите пароль в надежном месте.
-   Это значение будет называться **именем глобального администратора Office 365**.
+   Это значение будет называться **именем глобального администратора**.
 8. Нажмите кнопку **Перейти к программе установки**.
 9. На странице установки Office 365 E5 установите флажок **Продолжить использование домена *ваша организация*.onmicrosoft.com для электронной почты и входа** и щелкните ссылку **Выйти и продолжить позже**.
 
@@ -73,11 +73,11 @@ ms.locfileid: "42633347"
     
 ## <a name="phase-2-configure-your-office-365-trial-subscription"></a>Этап 2. Настройка пробной подписки на Office 365
 
-На этом этапе настраивается подписка на Office 365 с дополнительными пользователями, этим пользователям назначаются лицензии Office 365 E5.
+На этом этапе настраивается подписка с дополнительными пользователями, этим пользователям назначаются лицензии Office 365 E5.
   
-Следуйте указаниям в статье [Подключение к Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module), чтобы подключиться к подписке на Office 365 с модулем PowerShell Azure Active Directory для Graph с вашего компьютера.
+Следуйте указаниям в статье [Подключение к Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module), чтобы подключиться к подписке с модулем PowerShell Azure Active Directory для Graph с вашего компьютера.
     
-В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя глобального администратора Office 365 (например, jdoe@contosotoycompany.onmicrosoft.com) и пароль.
+В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя глобального администратора (например, jdoe@contosotoycompany.onmicrosoft.com) и пароль.
   
 Введите название организации (например, contosotoycompany), двузначный код страны и пароль обычной учетной записи, а затем выполните следующие команды в командной строке PowerShell:
 
@@ -121,7 +121,7 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 Запишите эти значения:
   
-- Имя глобального администратора Office 365: ![Линия](../media/Common-Images/TableLine.png).onmicrosoft.com (с шага 6 этапа 1)
+- Имя глобального администратора: ![Линия](../media/Common-Images/TableLine.png).onmicrosoft.com (с шага 6 этапа 1)
     
     Кроме того, запишите пароль этой учетной записи в надежном месте.
     
@@ -291,7 +291,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
     
 6. Закройте окно параметров.
     
-Затем установите Office 365 профессиональный плюс на компьютер WIN10
+Затем установите приложения Microsoft 365 для предприятий на компьютер WIN10.
   
 1. Откройте браузер Microsoft Edge и войдите в портал Office 365 с данными учетной записи глобального администратора. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
@@ -309,7 +309,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 - присоединен к клиенту Azure AD, отвечающему за подписку Microsoft 365 E5;
 - зарегистрирован в Microsoft Intune (EMS) в качестве устройства Azure AD;
-- содержит установленный набор Office 365 профессиональный плюс.
+- установлены приложения Microsoft 365 для предприятий.
   
 Теперь вы можете экспериментировать с дополнительными возможностями [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise).
   
