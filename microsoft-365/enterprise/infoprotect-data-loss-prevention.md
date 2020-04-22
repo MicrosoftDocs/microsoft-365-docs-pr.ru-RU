@@ -1,5 +1,5 @@
 ---
-title: Этап 5. Настройка защиты от потери данных Office 365
+title: Шаг 5. Настройка защиты от потери данных
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,21 +14,21 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Сведения о защите от потери данных для Office 365 в Microsoft 365 и ее развертывании.
-ms.openlocfilehash: 896670e9ae83324a1220d64f49a8ea48aee85169
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Сведения о защите от потери данных в Microsoft 365 и о развертывании этой защиты.
+ms.openlocfilehash: e3d18bf54ecdfe11f8233163e7f200a70606d81d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067226"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636980"
 ---
-# <a name="step-5-configure-office-365-data-loss-prevention"></a>Этап 5. Настройка защиты от потери данных Office 365
+# <a name="step-5-configure-data-loss-prevention"></a>Шаг 5. Настройка защиты от потери данных
 
 *Этот этап не является обязательным. Он применяется к планам E3 и E5 Microsoft 365 корпоративный.*
 
 ![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-Политики защиты от потери данных в Центре безопасности и соответствия требованиям Office 365 позволяют определять, отслеживать и автоматически защищать конфиденциальную информацию в Microsoft 365. С помощью политик защиты от потери данных вы можете:
+Политики защиты от потери данных (DLP) в Центре безопасности и соответствия требованиям позволяют определять, отслеживать и автоматически защищать конфиденциальную информацию в Microsoft 365. С помощью политик защиты от потери данных вы можете:
 
 - выявлять конфиденциальную информацию во множестве расположений, таких как Exchange Online, SharePoint Online, OneDrive для бизнеса и Microsoft Teams;
 - предотвращать непреднамеренное разглашение конфиденциальной информации, блокируя доступ к документу или отправку содержащего его электронного сообщения;

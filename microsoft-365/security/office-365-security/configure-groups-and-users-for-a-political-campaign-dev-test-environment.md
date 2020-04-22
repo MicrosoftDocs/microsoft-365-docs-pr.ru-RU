@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
-ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f07ccbb648ef20c6b7c6ef005afef59fd89d56aa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083488"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638463"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -36,9 +36,9 @@ ms.locfileid: "42083488"
 
 Сначала следуйте инструкциям для **этапа 2**, указанного в [разделе о среде разработки и тестирования Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
 
-Затем оформите пробную подписку на EMS E5 и добавьте ее для той же организации, что и пробную подписку на Office 365.
+Затем оформите пробную подписку EMS E5 и добавьте ее для той же организации, что и пробную подписку.
 
-1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Дополнительные сведения см. в статье [Вход](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Выберите плитку **Администрирование**.
 
@@ -191,7 +191,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
   Например, для доменного имени contoso.onmicrosoft.com название организации — "contoso".
 
-- Имя глобального администратора Office 365: ![Подчеркнутый](../../media/Common-Images/TableLine.png).onmicrosoft.com
+- Имя глобального администратора: ![Подчеркнутый](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   Запишите пароль для этой учетной записи и общий первоначальный пароль для других учетных записей пользователей в надежном месте.
 
