@@ -16,43 +16,43 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 06dc88e395ea31d40a4163565d7894a2720cb469
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 56ed13ad02c176465f983ffc99af93330f19d00c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634257"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632944"
 ---
-# <a name="manage-review-sets-in-advanced-ediscovery"></a><span data-ttu-id="d7f07-102">Управление наборами проверки в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="d7f07-102">Manage review sets in Advanced eDiscovery</span></span>
+# <a name="manage-review-sets-in-advanced-ediscovery"></a><span data-ttu-id="3fba3-102">Управление наборами проверки в Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="3fba3-102">Manage review sets in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="d7f07-103">Обзор наборов — это статический набор документов, в которых можно анализировать, запрашивать, просматривать, размечать и экспортировать данные в случае.</span><span class="sxs-lookup"><span data-stu-id="d7f07-103">Review sets are a static set of documents where you can analyze, query, view, tag, and export data in a case.</span></span> <span data-ttu-id="d7f07-104">Дополнительные сведения о выполнении этих задач приведены в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="d7f07-104">For more information about performing these tasks, see:</span></span>
+<span data-ttu-id="3fba3-103">Обзор наборов — это статический набор документов, в которых можно анализировать, запрашивать, просматривать, размечать и экспортировать данные в случае.</span><span class="sxs-lookup"><span data-stu-id="3fba3-103">Review sets are a static set of documents where you can analyze, query, view, tag, and export data in a case.</span></span> <span data-ttu-id="3fba3-104">Дополнительные сведения о выполнении этих задач приведены в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="3fba3-104">For more information about performing these tasks, see:</span></span>
 
-- [<span data-ttu-id="d7f07-105">Анализ данных в наборе рецензирования</span><span class="sxs-lookup"><span data-stu-id="d7f07-105">Analyze data in a review set</span></span>](analyzing-data-in-review-set.md)
+- [<span data-ttu-id="3fba3-105">Анализ данных в наборе рецензирования</span><span class="sxs-lookup"><span data-stu-id="3fba3-105">Analyze data in a review set</span></span>](analyzing-data-in-review-set.md)
 
-- [<span data-ttu-id="d7f07-106">Запрос данных в наборе для проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-106">Query the data in a review set</span></span>](review-set-search.md)
+- [<span data-ttu-id="3fba3-106">Запрос данных в наборе для проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-106">Query the data in a review set</span></span>](review-set-search.md)
 
-- [<span data-ttu-id="d7f07-107">Просмотр документов в наборе для проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-107">View documents in a review set</span></span>](view-documents-in-review-set.md)
+- [<span data-ttu-id="3fba3-107">Просмотр документов в наборе для проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-107">View documents in a review set</span></span>](view-documents-in-review-set.md)
 
-- [<span data-ttu-id="d7f07-108">Добавление тегов к документам в наборе для проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-108">Tag documents in a review set</span></span>](tagging-documents.md)
+- [<span data-ttu-id="3fba3-108">Добавление тегов к документам в наборе для проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-108">Tag documents in a review set</span></span>](tagging-documents.md)
 
-- [<span data-ttu-id="d7f07-109">Экспорт данных дела</span><span class="sxs-lookup"><span data-stu-id="d7f07-109">Export case data</span></span>](exporting-data-ediscover20.md)
+- [<span data-ttu-id="3fba3-109">Экспорт данных дела</span><span class="sxs-lookup"><span data-stu-id="3fba3-109">Export case data</span></span>](exporting-data-ediscover20.md)
 
-## <a name="create-a-review-set"></a><span data-ttu-id="d7f07-110">Создание набора проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-110">Create a review set</span></span>
+## <a name="create-a-review-set"></a><span data-ttu-id="3fba3-110">Создание набора проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-110">Create a review set</span></span>
 
-<span data-ttu-id="d7f07-111">Наборы проверки можно создать на вкладке "контрольные **наборы** ", нажав кнопку **+ Добавить набор проверки**.</span><span class="sxs-lookup"><span data-stu-id="d7f07-111">Review sets can be created on the **Review sets** tab by clicking **+ Add review set**.</span></span>
+<span data-ttu-id="3fba3-111">Наборы проверки можно создать на вкладке "контрольные **наборы** ", нажав кнопку **+ Добавить набор проверки**.</span><span class="sxs-lookup"><span data-stu-id="3fba3-111">Review sets can be created on the **Review sets** tab by clicking **+ Add review set**.</span></span>
 
 ![Добавление набора проверок](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
 
-<span data-ttu-id="d7f07-113">В раскрывающейся окне **Добавление набора проверки** введите имя набора проверки, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="d7f07-113">On the **Add review set** flyout page, type a name for the review set and then click **Save**.</span></span> <span data-ttu-id="d7f07-114">Новый набор проверки отображается в списке на вкладке "контрольные **наборы** ".</span><span class="sxs-lookup"><span data-stu-id="d7f07-114">The new review set is displayed in the list on the **Review sets** tab.</span></span>
+<span data-ttu-id="3fba3-113">В раскрывающейся окне **Добавление набора проверки** введите имя набора проверки, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="3fba3-113">On the **Add review set** flyout page, type a name for the review set and then click **Save**.</span></span> <span data-ttu-id="3fba3-114">Новый набор проверки отображается в списке на вкладке "контрольные **наборы** ".</span><span class="sxs-lookup"><span data-stu-id="3fba3-114">The new review set is displayed in the list on the **Review sets** tab.</span></span>
 
 ![Новый набор проверок, указанный на вкладке "набор проверки"](../media/AeDnewreviewset.png)
 
-<span data-ttu-id="d7f07-116">Существует три разных способа добавления данных в набор проверки в расширенном случае обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="d7f07-116">There are three different ways to add data to a review set in an Advanced eDiscovery case.</span></span>
+<span data-ttu-id="3fba3-116">Существует три разных способа добавления данных в набор проверки в расширенном случае обнаружения электронных данных.</span><span class="sxs-lookup"><span data-stu-id="3fba3-116">There are three different ways to add data to a review set in an Advanced eDiscovery case.</span></span>
 
 ![Три способа добавления к наборам рецензирования](../media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
 
-1. [<span data-ttu-id="d7f07-118">Добавление результатов поиска в набор для проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-118">Add search results to a review set</span></span>](add-data-to-review-set.md)
+1. [<span data-ttu-id="3fba3-118">Добавление результатов поиска в набор для проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-118">Add search results to a review set</span></span>](add-data-to-review-set.md)
 
-2. [<span data-ttu-id="d7f07-119">Загрузка не относящихся к Office 365 данных в набор для проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-119">Load non-Office 365 data into a review set</span></span>](load-non-office365-data.md)
+2. [<span data-ttu-id="3fba3-119">Загрузка данных, отличных от Microsoft 365, в набор проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-119">Load non-Microsoft 365 data into a review set</span></span>](load-non-office365-data.md)
 
-3. [<span data-ttu-id="d7f07-120">Добавление данных в набор проверки из другого набора проверки</span><span class="sxs-lookup"><span data-stu-id="d7f07-120">Add data to a review set from another review set</span></span>](add-data-to-review-set-from-another-review-set.md)
+3. [<span data-ttu-id="3fba3-120">Добавление данных в набор проверки из другого набора проверки</span><span class="sxs-lookup"><span data-stu-id="3fba3-120">Add data to a review set from another review set</span></span>](add-data-to-review-set-from-another-review-set.md)

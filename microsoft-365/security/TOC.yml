@@ -231,7 +231,7 @@
                       href: ./office-365-security/anti-spam-protection-faq.md
                     - name: Настройка политик защиты от нежелательной почты
                       href: ./office-365-security/configure-your-spam-filter-policies.md
-                    - name: Настройка политики фильтров подключений
+                    - name: Настройка фильтрации подключений
                       href: ./office-365-security/configure-the-connection-filter-policy.md
                     - name: Создать списки отправителей блоков
                       href: ./office-365-security/Create-block-sender-lists-in-office-365.md
