@@ -1,5 +1,5 @@
 ---
-title: Продление ключа Office 365 для бизнеса
+title: Обновление Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,19 +23,19 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: 'Узнайте, как продлить свою подписку на Office 365 для бизнеса с помощью ключа продукта, а также включить или отключить периодическую выставление счетов. '
-ms.openlocfilehash: a382a2c4767f9dac4ee276c050d077d854b99084
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: 'Узнайте, как продлить подписку на Microsoft 365 для бизнеса с помощью ключа продукта, а также включить или отключить периодическую выставление счетов. '
+ms.openlocfilehash: 1c3fc5f9648c814d300cd65ac872f1e28e90ca0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175206"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636563"
 ---
-# <a name="renew-office-365-for-business"></a>Продление ключа Office 365 для бизнеса
+# <a name="renew-microsoft-365-for-business"></a>Обновление Microsoft 365 для бизнеса
 
-Эта статья относится к наиболее оплаченным подпискам на Office 365 для бизнеса.
+Эта статья относится к наиболее оплаченным подпискам на Microsoft 365 для бизнеса.
   
-Для продления с помощью ключа продукта, приобретенного в розничном магазине или партнере Office 365, ознакомьтесь со статьей [Поиск и ввод ключа продукта](../enter-your-product-key.md).
+Для продления с помощью ключа продукта, приобретенного в розничном магазине или партнере Майкрософт, ознакомьтесь со статьей [Поиск и ввод ключа продукта](../enter-your-product-key.md).
 
 > [!NOTE]
 > Оплата по банковскому счету недоступна в некоторых странах или регионах.
@@ -47,6 +47,7 @@ ms.locfileid: "43175206"
 Если вы предоплачени свою подписку с помощью ключа продукта, срок действия подписки истекает в конце срока подписки. Вы можете включить **периодическую выставление счетов** и предоставить сведения о кредитной карте или банковском счете, чтобы ваша подписка по-прежнему выставляется каждый год в день подписки. Вы также можете оплатить ежемесячно или ежемесячно платить за весь год. Кредитная карта или банковский счет не будут оплачиваться до истечения срока действия первоначальной подписки.
 
 ::: moniker range="o365-worldwide"
+
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
 
@@ -67,7 +68,11 @@ ms.locfileid: "43175206"
 
 ::: moniker range="o365-germany"
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
+
+    Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+
+    Если вы используете Служба Office 365, предоставляемая 21Vianet, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. Выберите подписку, для которой нужно настроить автоматическое продление.
  
@@ -86,7 +91,11 @@ ms.locfileid: "43175206"
 
 ::: moniker range="o365-21vianet"
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
+
+    Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+
+    Если вы используете Служба Office 365, предоставляемая 21Vianet, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. Выберите подписку, для которой нужно настроить автоматическое продление.
  
@@ -106,7 +115,7 @@ ms.locfileid: "43175206"
 ## <a name="related-articles"></a>Статьи по теме
 
 [Повторная активация подписки](reactivate-your-subscription.md)
-
+  
 [Что происходит с данными и возможностями доступа при окончании срока действия подписки?](what-if-my-subscription-expires.md)
 
 [Добавление, удаление и обновление методов оплаты](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
@@ -115,4 +124,4 @@ ms.locfileid: "43175206"
   
 [Ввод ключа продукта](../enter-your-product-key.md)
   
-[Приобретение пробной версии Office 365 для бизнеса](../buy-a-subscription-from-your-free-trial.md)
+[Приобретение пробной версии Microsoft 365 для бизнеса](../buy-a-subscription-from-your-free-trial.md)

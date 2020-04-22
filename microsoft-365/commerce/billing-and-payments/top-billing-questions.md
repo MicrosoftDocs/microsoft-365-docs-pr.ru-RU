@@ -1,5 +1,5 @@
 ---
-title: Самые распространенные вопросы по выставлению счетов для Office 365 для бизнеса
+title: Самые распространенные вопросы по выставлению счетов для Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,15 +24,15 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: Здесь вы найдете ответы на ваши лучшие вопросы по выставлению счетов для вашей бизнес-подписки.
-ms.openlocfilehash: 661339518f43531f656ee9960d7f005fd1398023
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+description: 'Здесь вы найдете ответы на ваши лучшие вопросы по выставлению счетов для подписки на Microsoft 365 для бизнеса. '
+ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826305"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634996"
 ---
-# <a name="top-billing-questions-for-business-subscriptions"></a>Самые распространенные вопросы по выставлению счетов для бизнес-подписок
+# <a name="top-billing-questions-for-microsoft-365-for-business"></a>Самые распространенные вопросы по выставлению счетов для Microsoft 365 для бизнеса
 
 У вас есть вопросы о выписках по выставлению счетов? Ниже приведены ответы на самые популярные вопросы по выставлению счетов.
   

@@ -5,23 +5,23 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: b7054613ea9add542e2a4466c6feb6d911c99701
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "35830497"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637868"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Описание услуги предоставления компьютеров, управляемых Майкрософт
 
-Microsoft Managed Desktop — это служба, которая обеспечивает безопасность современного современного интерфейса и всегда поддерживает актуальные устройства с последними версиями Windows 10 Корпоративная, Office 365 профессиональный плюс и Microsoft Security Services, в том числе:
+Microsoft Managed Desktop — это служба, которая обеспечивает безопасность современного современного интерфейса и всегда поддерживает актуальные устройства с последними версиями Windows 10 Корпоративная, Microsoft 365 Apps для предприятий и Microsoft Security Services, в том числе:
 
 - Упрощенная регистрация новых устройств
 - Конфигурация устройств
 - Функции, обеспечивающие безопасность пользователей и устройств, в том числе Windows Hello, BitLocker, Секуребут и безопасность на основе виртуализации в соответствии с рекомендациями Майкрософт
 - Наблюдение за безопасностью устройств и службы исправлений
 - Совместимость приложений с помощью [классического приложения](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure)
-- Управление обновлениями для приложений Windows 10 и Office 365 профессиональный плюс
+- Управление обновлениями для приложений для Windows 10 и Microsoft 365 для корпоративных приложений
 - Аналитические данные об использовании устройств и приложений
 - Поддержка ИТ для конечных пользователей
 - Оперативная поддержка для ИТ-специалистов

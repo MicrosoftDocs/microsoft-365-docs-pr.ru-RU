@@ -1,5 +1,5 @@
 ---
-title: Действия по исправлению в Office 365 автоматизированное исследование и ответ
+title: Действия по исправлению в Microsoft 365 автоматизированное исследование и ответ
 keywords: ВОЗДУШный, Аутоир, ATP, автоматизированный, исследование, ответ, исправление, угрозы, усовершенствованный, угроза, защита
 f1.keywords:
 - NOCSH
@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d0f08c3e89882e21263c18246612949ea68ac1ad
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 8dfb203cfdae179d8d88842a2d2b55aeab2e17fb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528933"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634656"
 ---
-# <a name="remediation-actions-in-office-365"></a>Действия по исправлению в Office 365
+# <a name="remediation-actions-in-microsoft-365"></a>Действия по исправлению в Microsoft 365
 
 ## <a name="remediation-actions"></a>Действия по исправлению
 
@@ -43,13 +43,13 @@ ms.locfileid: "43528933"
 ||||
 |---|---|---|
 |**Категория**|**Угроза и риск**|**Действия по исправлению**|
-|Электронная почта|Вредоносные программы| Обратимое удаление электронной почты и кластера <br/><br/>Если несколько сообщений электронной почты в кластере содержат вредоносные программы, кластер считается вредоносным.|
-|Электронная почта|Вредоносный URL-адрес<br/>(Безопасный URL-адрес был обнаружен в [Office 365 ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-atp-safe-links-works).)|Обратимое удаление электронной почты и кластера <br/><br/>Сообщение электронной почты, содержащее вредоносный URL-адрес, считается вредоносным.|
-|Электронная почта|Фишинговых писем| Обратимое удаление электронной почты и кластера <br/><br/>Если несколько сообщений электронной почты в кластере содержат попытки фишинга, кластер считается ложным.|
-|Электронная почта|Заппед фишинг <br/>(Сообщения электронной почты доставляются и [заппед](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).)|Обратимое удаление электронной почты и кластера <br/><br/>Доступны отчеты для просмотра сообщений заппед. [Проверьте, переместил ли ZAP сообщение и ответы на часто задаваемые вопросы](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge#how-to-see-if-zap-moved-your-message).|
-|Электронная почта|Пропущенная поддельная почта, [о которой сообщил](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) пользователь| [Автоматическое исследование, инициированное отчетом пользователя](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
-|Электронная почта|Аномалия тома <br/>(Последние количества по электронной почте превышают предыдущие 7-10 дней для условий соответствия).|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Аномалия тома не является очевидной угрозой, но это просто указывает на более крупные дни электронной почты по сравнению с последними 7-10 днями в последние дней. Хотя это может указывать на возможные проблемы, в случае вредоносных вердиктс или ручного просмотра сообщений электронной почты или кластеров требуется подтверждение. Узнайте [, как найти и удалить подозрительные сообщения электронной почты, которые были доставлены](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered#find-and-delete-suspicious-email-that-was-delivered).|
-|Электронная почта|Угрозы не найдены <br/>(Система не обнаружила угроз на основе файлов, URL-адресов или анализа кластера электронной почты вердиктс.)|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Угрозы, обнаруженные и [заппед](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge) после завершения расследования, не отражаются в числовых возможностях расследования, но такие угрозы отображаются в [обозревателе угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
+|По электронной почте|Вредоносные программы| Обратимое удаление электронной почты и кластера <br/><br/>Если несколько сообщений электронной почты в кластере содержат вредоносные программы, кластер считается вредоносным.|
+|По электронной почте|Вредоносный URL-адрес<br/>(Безопасный URL-адрес был обнаружен в [Office 365 ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-atp-safe-links-works).)|Обратимое удаление электронной почты и кластера <br/><br/>Сообщение электронной почты, содержащее вредоносный URL-адрес, считается вредоносным.|
+|По электронной почте|Фишинговых писем| Обратимое удаление электронной почты и кластера <br/><br/>Если несколько сообщений электронной почты в кластере содержат попытки фишинга, кластер считается ложным.|
+|По электронной почте|Заппед фишинг <br/>(Сообщения электронной почты доставляются и [заппед](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge).)|Обратимое удаление электронной почты и кластера <br/><br/>Доступны отчеты для просмотра сообщений заппед. [Проверьте, переместил ли ZAP сообщение и ответы на часто задаваемые вопросы](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge#how-to-see-if-zap-moved-your-message).|
+|По электронной почте|Пропущенная поддельная почта, [о которой сообщил](https://docs.microsoft.com/microsoft-365/security/office-365-security/enable-the-report-message-add-in) пользователь| [Автоматическое исследование, инициированное отчетом пользователя](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-user-reported-phish-message-launches-an-investigation-playbook)|
+|По электронной почте|Аномалия тома <br/>(Последние количества по электронной почте превышают предыдущие 7-10 дней для условий соответствия).|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Аномалия тома не является очевидной угрозой, но это просто указывает на более крупные дни электронной почты по сравнению с последними 7-10 днями в последние дней. Хотя это может указывать на возможные проблемы, в случае вредоносных вердиктс или ручного просмотра сообщений электронной почты или кластеров требуется подтверждение. Узнайте [, как найти и удалить подозрительные сообщения электронной почты, которые были доставлены](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered#find-and-delete-suspicious-email-that-was-delivered).|
+|По электронной почте|Угрозы не найдены <br/>(Система не обнаружила угроз на основе файлов, URL-адресов или анализа кластера электронной почты вердиктс.)|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Угрозы, обнаруженные и [заппед](https://docs.microsoft.com/microsoft-365/security/office-365-security/zero-hour-auto-purge) после завершения расследования, не отражаются в числовых возможностях расследования, но такие угрозы отображаются в [обозревателе угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer).|
 |User|Пользователь нащелкаю вредоносный URL-адрес <br/>(Пользователь перешел на страницу, которая ранее была обнаружена в качестве вредоносной, или пользователь может пропустить [страницу предупреждения о безопасных ссылках](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-warning-pages) , чтобы получить доступ к вредоносной странице.)|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Используйте обозреватель угроз для [просмотра данных об URL-адресах и щелкните вердиктс](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer#view-data-about-phishing-urls-and-click-verdict). <br/><br/>Если в вашей организации используется [Advanced Threat Protection в защитнике Microsoft](https://docs.microsoft.com/windows/security/threat-protection/), рассмотрите возможность [изучения пользователя](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/investigate-user) , чтобы определить, нарушена ли его учетная запись.|
 |User|Пользователь отправляет вредоносную или фишинг|Автоматическое исследование не приводит к выполнению определенного ожидающего действия. <br/><br/>Пользователь может создавать отчеты о вредоносных и фишинговых атаках, а кто-то может [подменить пользователя](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spoofing-protection) в ходе атаки. Использование [обозревателя угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) для просмотра и обработки сообщений электронной почты, содержащих [вредоносные программы](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer-views#email--malware) или [Фишинг](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer-views#email--phish).|
 |User|Переадресация почты <br/>(Настраиваются правила переадресации почтовых ящиков, которые можно использовать для ексфилтратион данных.)|Удаление правила пересылки <br/><br/>Используйте [аналитику обработки почты](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-insights-v2), в том числе [отчет о автоматически пересылаемых сообщениях](https://docs.microsoft.com/microsoft-365/security/office-365-security/mfi-auto-forwarded-messages-report), для просмотра более подробных сведений о пересылаемой электронной почте.|
@@ -60,9 +60,9 @@ ms.locfileid: "43528933"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Просмотр сведений и результатов автоматического исследования в Office 365](air-view-investigation-results.md)
+- [Просмотр сведений и результатов автоматического исследования в Microsoft 365](air-view-investigation-results.md)
 
-- [Просмотр ожидающих или завершенных действий по исправлению, следующих за автоматическим исследованием в Office 365](air-review-approve-pending-completed-actions.md)
+- [Просмотр ожидающих или завершенных действий по исправлению, следующих за автоматическим исследованием в Microsoft 365](air-review-approve-pending-completed-actions.md)
 
 
 ## <a name="related-articles"></a>Статьи по теме

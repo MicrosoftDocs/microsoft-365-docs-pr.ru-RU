@@ -1,5 +1,5 @@
 ---
-title: Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
+title: Включить ATP для SharePoint, OneDrive и Microsoft Teams
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
-ms.openlocfilehash: 2596dade32d387669eb136856b7a24a66134a773
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 95886cb6a7f081e4565a6455951aedf68a3e741e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084426"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631125"
 ---
-# <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams
+# <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -34,19 +34,19 @@ ms.locfileid: "42084426"
 
 Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже.
 
-|Роль|Где/как назначено|
+|Role|Где/как назначено|
 |---------|---------|
-|Глобальный администратор Office 365|Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)|
+|Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Управление организациями в Exchange Online|Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
 
-## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включение ATP для SharePoint, OneDrive и Microsoft Teams
+## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
-**Прежде чем приступить к этой процедуре, убедитесь, что ведение журнала аудита для вашей среды Office 365 уже включено**. Это обычно делается для пользователей, которым назначена роль "журналы аудита" в Exchange Online. Дополнительную информацию можно узнать [в статье Включение и отключение поиска в журнале аудита Office 365](../../compliance/turn-audit-log-search-on-or-off.md).
+**Прежде чем приступить к этой процедуре, убедитесь, что ведение журнала аудита для вашей среды Microsoft 365 уже включено**. Это обычно делается для пользователей, которым назначена роль "журналы аудита" в Exchange Online. Дополнительные сведения см. в статье [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
 1. Перейдите на [https://protection.office.com](https://protection.office.com)страницу и войдите с помощью рабочей или учебной учетной записи.
 
-2. В центре управления безопасностью & центр безопасности Office 365 в левой области навигации в разделе **Управление угрозами**выберите пункт **** \> **безопасные вложения**политики.
+2. В центре управления безопасностью & соответствия требованиям в области навигации слева в разделе **Управление угрозами**выберите пункт **Policy** \> **безопасные вложения**политики.
 
    ![В центре безопасности & соответствия требованиям выберите Политика управления \> угрозами](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
 
@@ -64,11 +64,11 @@ ms.locfileid: "42084426"
 
    - Если задать для параметра *значение false* , все действия, кроме DELETE и download, блокируются. Пользователи могут принять решение о риске и скачать обнаруженный файл.
 
-7. Разрешите до 30 минут, пока ваши изменения распространяются на все центры обработки данных Office 365.
+7. Разрешить распространение изменений в центрах обработки данных Microsoft 365 до 30 минут.
 
 8. Предложен Перейдите к разделу Настройка оповещений для обнаруженных файлов.
 
-Для получения дополнительных сведений об использовании PowerShell с Office 365, ознакомьтесь со статьей [Управление office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
+Чтобы узнать больше об использовании PowerShell с Microsoft 365, ознакомьтесь [со статьей управление microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
 
 Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
 
@@ -76,7 +76,7 @@ ms.locfileid: "42084426"
 
 Чтобы получать уведомления о том, что файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams определен как вредоносный, вы можете настроить оповещение.
 
-1. В [центре безопасности Office 365 & соответствие требованиям](https://protection.office.com)выберите **оповещения** \> **Управление оповещениями**.
+1. В [центре безопасности & соответствия требованиям](https://protection.office.com)выберите **оповещения** \> **Управление оповещениями**.
 
 2. Выберите **создать политику оповещений**.
 
@@ -94,10 +94,10 @@ ms.locfileid: "42084426"
 
 7. Нажмите кнопку **Сохранить**.
 
-Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям Office 365](../../compliance/create-activity-alerts.md).
+Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям](../../compliance/create-activity-alerts.md).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
 1. [Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 
-2. [Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365](manage-quarantined-messages-and-files.md)
+2. [Управление сообщениями и файлами, помещенными в карантин, от имени администратора в Microsoft 365](manage-quarantined-messages-and-files.md)

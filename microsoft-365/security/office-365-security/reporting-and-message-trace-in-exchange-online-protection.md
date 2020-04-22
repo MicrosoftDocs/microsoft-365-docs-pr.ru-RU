@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: В Microsoft Exchange Online Protection (EOP) доступно множество различных отчетов, с помощью которых вы сможете определить общее состояние и работоспособность вашей организации. Существуют также средства, позволяющие устранять неполадки с определенными событиями (например, если сообщение не приходит указанным получателям), а также отчеты аудита для целей соответствия требованиями. В следующей таблице описаны отчеты и средства устранения неполадок, доступные администраторам EOP.
-ms.openlocfilehash: 282fd032e73ccb8217801a575f6029dbd9fadc9c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e961c76daaad72fbd1ddede5651cb49fd66d48be
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598556"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634356"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Отчеты и трассировка сообщений в Exchange Online Protection
 
@@ -25,7 +25,7 @@ ms.locfileid: "41598556"
 
 ## <a name="usage-reports"></a>Отчеты об использовании
 
-**Действия с группами office 365**: Просмотр сведений о количестве созданных и используемых групп Office 365.
+**Действия в группах microsoft 365**: Просмотр сведений о количестве созданных и используемых групп Microsoft 365.
 
 **Действия с электронной почтой**: Просмотр сведений о количестве отправленных, полученных и прочитанных сообщений в Организации и определенных пользователях.
 
@@ -35,13 +35,13 @@ ms.locfileid: "41598556"
 
 Дополнительные сведения можно найти в следующих материалах:
 
-- [Отчеты об Office 365 в центре администрирования — группы Office 365](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+- [Отчеты Microsoft 365 в центре администрирования — группы Майкрософт 365](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
-- [Отчеты об Office 365 в центре администрирования — действие электронной почты](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
+- [Отчеты Microsoft 365 в центре администрирования — действие электронной почты](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
 
-- [Отчеты Office 365 в центре администрирования — использование почтовых приложений](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
+- [Отчеты Microsoft 365 в центре администрирования — использование почтовых приложений](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
 
-- [Отчеты Office 365 в центре администрирования — использование почтовых ящиков](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
+- [Отчеты Microsoft 365 в центре администрирования — использование почтовых ящиков](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Отчеты о соответствии & безопасности в центре администрирования Microsoft 365
 

@@ -12,12 +12,12 @@ ms.collection:
 ms.service: O365-seccomp
 localization_priority: Priority
 description: Узнайте, как Microsoft 365 помогает энергетическим компаниям перейти на современную платформу для совместной работы, обеспечивая безопасность данных и систем и их соответствие нормативным требованиям.
-ms.openlocfilehash: d1585fdb69736a82699cdff8ef7a641ccff45194
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 536c895a52024845d8e37c5a7c0b63ba1b2c2752
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43231044"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637192"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>Основные вопросы соблюдения требований и безопасности для энергетической отрасли
 :::image type="content" source="../media/solution-arch-center/MSC17_global_016.png" alt-text="Иллюстрированная метафора глобального изображения различных отраслей, использующих облако":::

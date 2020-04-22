@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 01c580cd671a84ef68c18b114e133f046a3e5b3b
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.openlocfilehash: 5889a4e80f44349b4f149ee4f2a631f12b32251e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328071"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637856"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Требования к классическому приложению, управляемому корпорацией Майкрософт
 
@@ -34,7 +34,7 @@ ms.locfileid: "42328071"
 
 Некоторые типы приложений не разрешены на компьютерах, управляемых корпорацией Майкрософт:
 - антивирусное программное обеспечение сторонних производителей, безопасность и аудит
-- Версии Microsoft Office до Office 365 профессиональный плюс
+- Версии Microsoft Office до Microsoft 365 приложений для предприятий
 - Приложения, которые устанавливают или объединяют другое стороннее программное обеспечение
 
 ## <a name="restricted-app-behaviors"></a>Запрещенные варианты поведения приложений

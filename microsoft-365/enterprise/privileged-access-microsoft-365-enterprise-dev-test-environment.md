@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Используйте это руководство по лаборатории тестирования для включения привилегированного управления доступом в тестовой среде Microsoft 365 корпоративный.
-ms.openlocfilehash: ce637b94333f088d25e479e61ad2a98176a2f7c6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 27f63de138f388b0dcbc1bc896bafcb9abc9ed6a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085378"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632867"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Управление привилегированным доступом для вашей тестовой среды Microsoft 365 корпоративный
 
@@ -46,7 +46,7 @@ ms.locfileid: "42085378"
 
 На этом этапе настраивается группа утверждающих и включается управление привилегированным доступом для тестовой среды Microsoft 365 корпоративный. Дополнительные сведения и общие сведения об управлении привилегированным доступом см [в статье Управление привилегированным доступом в Office 365](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview).
 
-Выполните следующие действия, чтобы настроить и использовать привилегированный доступ в организации Office 365:
+Чтобы настроить и использовать привилегированный доступ в Организации, выполните указанные ниже действия.
 
 - [Шаг 1: создание группы утверждающего](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-1-create-an-approvers-group)
 
@@ -54,7 +54,7 @@ ms.locfileid: "42085378"
 
 - [Шаг 2: включение привилегированного доступа](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-2-enable-privileged-access)
 
-    Привилегированный доступ должен быть явно включен в Office 365 с группой утверждающих по умолчанию и включать набор системных учетных записей, которые необходимо исключить из управления доступом для управления привилегированным доступом. Обязательно включите привилегированный доступ в организации Office 365, прежде чем запускать 3 этапа этого руководства.
+    Привилегированный доступ должен быть явно включен в Office 365 с группой утверждающих по умолчанию и включать набор системных учетных записей, которые необходимо исключить из управления доступом для управления привилегированным доступом. Обязательно включите привилегированный доступ в Организации до начала 3 этапа этого руководства.
 
 ## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>Этап 3: Проверка необходимости утверждения для повышенных и привилегированных задач
 

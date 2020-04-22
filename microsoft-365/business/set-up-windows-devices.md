@@ -1,5 +1,5 @@
 ---
-title: Настройка устройств с Windows для пользователей Microsoft 365 Business
+title: Настройка устройств с Windows для пользователей Microsoft 365 Business Premium
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -24,21 +24,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для Microsoft 365 Business Users, обеспечивающие централизованное управление и контроль безопасности.
-ms.openlocfilehash: 6ecc45f825a783d9d47c4b069a6021143d96597c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для пользователей Microsoft 365 Business Premium, обеспечивающие централизованное управление и контроль безопасности.
+ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561167"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635459"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business
+# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business Premium
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Необходимые условия для настройки устройств с Windows для Microsoft 365 Business Users
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Необходимые условия для настройки устройств с Windows для пользователей Microsoft 365 Business Premium
 
-Перед настройкой устройств с Windows для пользователей Microsoft 365 Business убедитесь, что на всех устройствах установлена система Windows 10 Pro версии 1703 (обновление Creators Update). Наличие ОС Windows 10 Pro является необходимым условием для развертывания Windows 10 Business  набора облачных служб и функций управления устройствами, который дополняет возможности этой операционной системы и предназначен для централизованного управления средой Windows 365 Business и ее безопасностью.
+Перед настройкой устройств с Windows для пользователей Microsoft 365 Business Premium убедитесь, что все устройства Windows работают под управлением Windows 10 Pro версии 1703 (обновления). Windows 10 профессиональная является необходимым условием для развертывания Windows 10 Business, который представляет собой набор облачных служб и возможностей управления устройствами, которые дополняют Windows 10 Pro и обеспечивают централизованное управление и управление безопасностью Microsoft 365 бизнес премиум.
   
-Если у вас есть устройства с Windows под управлением операционной системы Windows 7 Pro, Windows 8 Pro или Windows 8.1 Pro, вы можете перейти на Windows 10 в рамках подписки Microsoft 365 Business.
+Если у вас есть устройства с Windows, работающие под управлением Windows 7 Профессиональная, Windows 8 Pro или Windows 8,1 Pro, подписка на Microsoft 365 бизнес премиум дает право на обновление до Windows 10.
   
 Дополнительные сведения о переводе устройств с Windows на версию Windows 10 Pro Creators Update приведены в следующей статье: [Обновление устройств с Windows до Windows Pro Creators Update](upgrade-to-windows-pro-creators-update.md)
   
@@ -48,11 +48,11 @@ ms.locfileid: "42561167"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Добавление устройств с Windows 10 в каталог Azure AD организации
 
-Когда все устройства с Windows в вашей организации обновлены до версии Windows 10 профессиональная Creators или уже запущены обновление Windows 10 Pro Creators, вы можете присоединить эти устройства к Azure Active Directory вашей организации. После подключения к устройствам они будут автоматически обновлены до Windows 10 Business, которая входит в состав подписки на Microsoft 365 Business.
+Когда все устройства с Windows в вашей организации обновлены до версии Windows 10 профессиональная Creators или уже запущены обновление Windows 10 Pro Creators, вы можете присоединить эти устройства к Azure Active Directory вашей организации. После подключения к устройствам они будут автоматически обновлены до Windows 10 Business, которая входит в состав подписки на Microsoft 365 Business Premium.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Для новых (или недавно переведенных) устройств с Windows 10 Pro
 
@@ -62,7 +62,7 @@ ms.locfileid: "42561167"
     
     ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
-2. Выберите вариант **Настроить для организации** и введите имя пользователя и пароль для Microsoft 365 Business. 
+2. В этой статье выберите **Настройка для Организации** , а затем введите имя пользователя и пароль для Microsoft 365 бизнес премиум. 
     
 3. Завершите настройку Windows 10 на устройстве.
     
@@ -108,13 +108,13 @@ ms.locfileid: "42561167"
   
 На странице состояния синхронизации нажмите кнопку "Синхронизировать", чтобы получить сведения о последних политиках мобильных устройств на компьютере.
   
-Чтобы начать работу с учетной записью Microsoft 365 Business, перейдите к кнопке **Пуск** Windows, щелкните правой кнопкой мыши текущий рисунок учетной записи, а затем **Переключить учетную запись**. Войдите, используя адрес электронной почты и пароль организации.
+Чтобы начать работу с учетной записью Microsoft 365 бизнес премиум, перейдите к кнопке **Пуск** Windows, щелкните правой кнопкой мыши текущий рисунок учетной записи, а затем **Переключить учетную запись**. Войдите, используя адрес электронной почты и пароль организации.
   
 ![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>Проверка перевода устройства на Windows 10 для бизнеса
 
-Убедитесь, что устройства с Windows 10, добавленные в домен Azure AD, переведены на версию Windows 10 для бизнеса в составе подписки на Microsoft 365 Business.
+Убедитесь, что ваши устройства с Windows 10, подключенные к Azure AD, были обновлены до Windows 10 бизнес в рамках своей подписки на Microsoft 365 Business Premium.
   
 1. Выберите **Параметры** \> **Система** \> **Сведения**.
     
@@ -124,8 +124,8 @@ ms.locfileid: "42561167"
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Сведения о настройке мобильных устройств см. в статьях [Настройка мобильных устройств для пользователей Microsoft 365 Business](set-up-mobile-devices.md), о настройке защиты и политик защиты устройств  в статье [Управление Microsoft 365 Business](manage.md).
+Чтобы настроить мобильные устройства, ознакомьтесь со статьей [Настройка мобильных устройств для пользователей Microsoft 365 Business Premium](set-up-mobile-devices.md), чтобы задать защиту устройств или политики защиты приложений, приведенные в [статье Manage Microsoft 365 для бизнеса](manage.md).
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business Premium
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

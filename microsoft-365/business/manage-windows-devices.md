@@ -1,5 +1,5 @@
 ---
-title: Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business
+title: Включение управления устройствами с Windows 10, подключенными к домену, в Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Сведения о том, как включить Microsoft 365 для защиты локальных подключенных к Active Directory устройств с Windows 10 в всего несколько этапов.
-ms.openlocfilehash: 625eb7ac344b060409101d650ff30044d073f5bf
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561467"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633290"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Включение управления подключенными к домену устройств с Windows 10 в Microsoft 365 Business
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>Включение управления устройствами с Windows 10, подключенными к домену, в Microsoft 365 для бизнеса
 
-Если в вашей организации используется локальная версия Windows Server Active Directory, вы можете настроить Microsoft 365 бизнес для защиты устройств с Windows 10, сохранив при этом доступ к локальным ресурсам, для которых требуется локальная проверка подлинности.
+Если ваша организация использует локальную службу Windows Server Active Directory, вы можете настроить Microsoft 365 для бизнеса, чтобы защитить устройства с Windows 10, сохраняя доступ к локальным ресурсам, требующим локальной проверки подлинности.
 Чтобы настроить эту защиту, можно внедрить **гибридные подключенные устройства Azure AD**. Эти устройства присоединяются как к локальной службе Active Directory, так и к Azure Active Directory.
 
 В этом видеоролике описаны действия, которые необходимо выполнить для наиболее распространенного сценария, который также содержит подробные инструкции.
@@ -56,9 +56,9 @@ ms.locfileid: "42561467"
 Чтобы синхронизировать пользователей, группы и контакты из локальной службы Active Directory с Azure Active Directory, установите Azure Active Directory Connect и настройте синхронизацию службы каталогов. Чтобы узнать больше, ознакомьтесь со статьей [Настройка синхронизации каталогов для Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) .
 
 > [!NOTE]
-> Эти действия одинаковы для Microsoft 365 Business. 
+> Эти действия одинаковы для Microsoft 365 для бизнеса. 
 
-При настройке параметров для Azure AD Connect рекомендуется включить **синхронизацию паролей**, **единый вход**и функцию **обратной записи паролей** , которая также поддерживается в Microsoft 365 Business.
+При настройке параметров для Azure AD Connect рекомендуется включить **синхронизацию паролей**, **единый вход**и функцию **обратной записи паролей** , которая также поддерживается в Microsoft 365 для бизнеса.
 
 > [!NOTE]
 > Существует несколько дополнительных действий для обратной записи пароля за пределами флажка в службе Azure AD Connect. Дополнительные сведения см. [в статье Настройка обратной записи пароля](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). 

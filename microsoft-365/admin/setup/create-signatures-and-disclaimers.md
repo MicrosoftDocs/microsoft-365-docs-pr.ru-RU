@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Сведения о том, как добавить подпись электронной почты, юридическое заявление или раскрытие, во все сообщения электронной почты, которые вводят или выходят из Организации.
-ms.openlocfilehash: a63f21dff90c70d39e3709d4c34b53d99a315a59
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: affd091f951b81541214b4f98c414b5cd4675cd3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360670"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631981"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Создание подписей на уровне Организации и заявления об отказе
 
@@ -37,7 +37,7 @@ ms.locfileid: "42360670"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Создание подписи,применяемой ко всем сообщениям
 
@@ -62,9 +62,9 @@ ms.locfileid: "42360670"
 
 ::: moniker-end
 
-1. Выберите средство запуска ![приложений значок средства запуска приложений в Office 365](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png), а затем выберите элемент **Администратор**.
+1. Выберите средство запуска ![приложений и значок](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)запуска приложений, а затем выберите элемент **Администратор**.
    
-    В средстве запуска приложений щелкните ссылку **Все приложения** для просмотра списка доступных приложений Office 365 в алфавитном порядке. В этом списке вы сможете найти конкретное приложение. 
+    Не удается найти приложение, которое вы ищете? В средстве запуска приложений выберите **все приложения** , чтобы просмотреть алфавитный список доступных вам приложений. Отсюда можно искать конкретное приложение. 
     
 2. Выберите пункт **центры администрирования**, а затем нажмите кнопку **Exchange**.
     
@@ -77,14 +77,14 @@ ms.locfileid: "42360670"
 6. В разделе **Применить это правило**выберите **[Применить ко всем сообщениям]**.
     
     > [!TIP]
-    > [Узнайте больше](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) о том, как настроить условия, чтобы заявление об отказе применялось не ко всем сообщениям. (Эта статья относится к Exchange Server, но она также применима к Office 365.) 
+    > [Узнайте больше](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping) о том, как настроить условия, чтобы заявление об отказе применялось не ко всем сообщениям. (Эта статья относится к Exchange Server, но она также применима к Microsoft 365.) 
   
 7. В списке "Выполнить следующие действия..." оставьте выбранным пункт **Добавить в сообщение заявление об отказе**. 
     
 8.  Нажмите **Ввод текста** и введите заявление об отказе. 
     
     > [!TIP]
-    > [Узнайте больше](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) о форматировании заявлений об отказе. (Эта статья форматирования предназначена для Exchange Server, но она также применима к Office 365.) 
+    > [Узнайте больше](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer) о форматировании заявлений об отказе. (Эта статья форматирования предназначена для Exchange Server, но она также применима к Microsoft 365.) 
 
 9. Выберите **пункт выбрать один** и выберите параметр **переносить** как резервный. Затем нажмите кнопку **ОК**. Это означает, что если заявление об отказе невозможно добавить из-за шифрования или других настроек почты, оно переносится в конверт сообщения.
     
@@ -96,9 +96,9 @@ ms.locfileid: "42360670"
     
 13. Когда все будет готово, нажмите кнопку **Сохранить**. 
     
-## <a name="limitations-of-office-365-organization-wide-signatures"></a>Ограничения для общеорганизационных подписей Office 365
+## <a name="limitations-of-organization-wide-signatures"></a>Ограничения подписей на уровне Организации
 
-Вы не можете выполнять следующие действия с подписями Office 365:
+Вы не можете выполнять следующие действия с подписями Microsoft 365:
   
 - Вставка подписи непосредственно под последним ответом или пересылкой сообщения
     
@@ -112,6 +112,6 @@ ms.locfileid: "42360670"
   
 ## <a name="more-resources"></a>Дополнительные ресурсы
 
-- [В статье заявление об отказе в Организации, подписи, нижние колонтитулы или заголовки в Office 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) для получения сведений об использовании PowerShell. 
+- Сведения об использовании PowerShell [можно найти в статье заявление об отказе, подписи, нижние колонтитулы или заголовки в Microsoft 365](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) . 
     
 

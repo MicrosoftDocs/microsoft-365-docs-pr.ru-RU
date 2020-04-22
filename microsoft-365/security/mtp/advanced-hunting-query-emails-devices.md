@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 8310a9a57c8dc7406c0b1d56b20009b6400abcb1
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: ec7f9083401fdf7a2114d99ddd2dcc009411e34b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928988"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633511"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>Поиск угроз на устройствах и в сообщениях электронной почты
 
@@ -31,7 +31,7 @@ ms.locfileid: "42928988"
 
 
 
-Благодаря[Расширенному выслеживанию](advanced-hunting-overview.md) в службе Защиты от угроз (Майкрософт) можно на профилактической основе выслеживать угрозы на устройствах c Windows и в сообщениях электронной почты Office 365. Ниже приводится несколько сценариев выслеживания и примеров запросов, позволяющих понять, как создавать запросы, которые будут относиться и к устройствам, и к сообщениям электронной почты.
+[Расширенные](advanced-hunting-overview.md) функции поиска в защите от угроз Майкрософт позволяют осуществлять профилактическое слежение за угрозами на устройствах с Windows и электронными сообщениями Майкрософт. Ниже приводится несколько сценариев выслеживания и примеров запросов, позволяющих понять, как создавать запросы, которые будут относиться и к устройствам, и к сообщениям электронной почты.
 
 ## <a name="obtain-user-accounts-from-email-addresses"></a>Получение учетных записей пользователей из адресов электронной почты
 При формировании запросов по [таблицам, относящимся к устройствам и сообщениям электронной почты](advanced-hunting-schema-tables.md) может возникать необходимость получить названия учетных записей пользователей из электронных адресов отправителя или получателя. Для этого используется *локальный узел* из адреса электронной почты.
@@ -96,7 +96,7 @@ DeviceProcessEvents
 ## <a name="related-topics"></a>См. также
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
-- [Работать с результатами запроса](advanced-hunting-query-results.md)
+- [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

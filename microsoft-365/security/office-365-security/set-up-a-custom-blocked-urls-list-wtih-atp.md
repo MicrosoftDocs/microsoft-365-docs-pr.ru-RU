@@ -1,5 +1,5 @@
 ---
-title: Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP
+title: Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,14 +17,14 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection. Заблокированные URL-адреса будут применяться к сообщениям электронной почты и документам Office в соответствии с политиками безопасных ссылок ATP.
-ms.openlocfilehash: 5205fbd5ccc873513eed4e367119084516e92bf2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ff8709a8bf0f8afc27ace2b3977be975f42c33a5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088097"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638408"
 ---
-# <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок Office 365 ATP
+# <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок ATP
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -33,7 +33,7 @@ ms.locfileid: "42088097"
   
 ![Этот сайт заблокирован](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
   
-Список заблокированных URL-адресов определяется группой безопасности Office 365 в Организации, и этот список применяется ко всем пользователям в Организации, на которые распространяется политика безопасных ссылок Office 365 ATP. 
+Список заблокированных URL-адресов определяется группой безопасности Microsoft 365 для бизнеса, и этот список применяется ко всем пользователям в Организации, на которые распространяется политика безопасных ссылок Office 365 ATP. 
   
 В этой статье рассказывается, как настроить настраиваемый список заблокированных URL-адресов вашей организации для [безопасных ссылок ATP в Office 365](atp-safe-links.md).
   
@@ -43,14 +43,14 @@ ms.locfileid: "42088097"
 
 Чтобы изменить (или определить) политики ATP, необходимо назначить одну из ролей, описанных в следующей таблице. 
 
-|Роль  |Где/как назначено  |
+|Role  |Где/как назначено  |
 |---------|---------|
-|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
+|Глобальный администратор |Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
 |Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
 > [!TIP]
-> Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
+> Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в &amp; центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 ### <a name="to-view-or-edit-a-custom-blocked-urls-list"></a>Просмотр или изменение настраиваемого списка заблокированных URL-адресов
   

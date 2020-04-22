@@ -14,12 +14,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: Сведения о новых функциях.
-ms.openlocfilehash: 22f7c35b1a5baf97fb72f541d57da28adeeffbe4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d1f926165678b57ec46195d525f2fcdaa6976501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594690"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632417"
 ---
 # <a name="allotment-basics"></a>Основы объема услуг
 
@@ -33,7 +33,7 @@ ms.locfileid: "41594690"
 
 Необходимо соблюдение требований лицензирования для [лицензирования на основе групп](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).
 
-Вы можете использовать доступ к любому продукту Office 365, доступному пользователям:
+Вы можете использовать доступ к любому продукту, доступному пользователям:
 
 - Пакеты Office и отдельные продукты
 - Продукты для предприятий и мобильных устройств

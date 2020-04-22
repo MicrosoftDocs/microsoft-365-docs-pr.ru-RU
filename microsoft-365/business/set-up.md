@@ -1,5 +1,5 @@
 ---
-title: Настройка Microsoft 365 бизнес
+title: Настройка Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,27 +28,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Познакомьтесь с этапами установки Microsoft 365 Business, включая добавление домена и пользователей, настройку политик безопасности и другие.
-ms.openlocfilehash: 99994b6f1e9e817b4858aeafe4ce3ceaaf4c3c37
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: В этой статье приведены инструкции по настройке Microsoft 365 Business Premium, в том числе добавление домена и пользователей, Настройка политик безопасности и многое другое.
+ms.openlocfilehash: a34ede0002e7e78c5dc437c663fe527cf94e46c5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633877"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635764"
 ---
-# <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Настройка Microsoft 365 Business в мастере установки
+# <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
 
-В этом видеоролике приводится обзор Microsoft 365 бизнес-установки.<br><br>
+В этом видеоролике приводится обзор программы установки Microsoft 365 Business Premium.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Добавление домена, пользователей и Настройка политик
 
 [![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-При покупке Microsoft 365 Business вы можете использовать домен, который вы владеете, или приобрести его во время [регистрации](sign-up.md).
+При покупке Microsoft 365 Бизнес Премиум вы можете использовать домен, который вы являетесь участником, или приобрести его во время [регистрации](sign-up.md).
 
 - Если вы приобрели новый домен при регистрации, все настроенные домены и вы можете перейти к [добавлению пользователей и назначению лицензий](#add-users-and-assign-licenses).
 
@@ -82,11 +82,11 @@ ms.locfileid: "42633877"
 
 #### <a name="add-users-in-the-wizard"></a>Добавление пользователей в мастер
 
-Все пользователи, добавленные в мастере, автоматически получают лицензию Microsoft 365 Business.
+Для всех пользователей, добавляемых в мастере, автоматически назначается лицензия Microsoft 365 бизнес премиум.
 
 ![Снимок экрана со страницей "Добавление новых пользователей" в мастере](../media/addnewuserspage.png)
 
-1. Если ваша подписка на Microsoft 365 Business имеет существующих пользователей (например, если вы использовали Azure AD Connect), вы получите возможность назначить лицензии для них сейчас. Добавьте лицензии и для них.
+1. Если у вашей подписки Microsoft 365 Business Premium есть существующие пользователи (например, если вы использовали Azure AD Connect), вы получите возможность назначить лицензии для них сейчас. Добавьте лицензии и для них.
 
 2. После добавления пользователей вы также получите возможность предоставлять учетные данные новым добавленным пользователям. Вы можете распечатать их, отправить по электронной почте или скачать.
 
@@ -130,10 +130,10 @@ ms.locfileid: "42633877"
 
 Если вы решили автоматически устанавливать приложения Office во время установки, они будут установлены на устройствах с Windows 10 после входа пользователей в Azure AD с помощью своих рабочих учетных данных.
 
-Чтобы установить Office на мобильные устройства с iOS или Android, ознакомьтесь со статьей [Настройка мобильных устройств для Microsoft 365 Business Users](set-up-mobile-devices.md).
+Чтобы установить Office на мобильные устройства с iOS или Android, ознакомьтесь со статьей [Настройка мобильных устройств для пользователей Microsoft 365 Business Premium](set-up-mobile-devices.md).
 
 Вы также можете установить Office по отдельности. Инструкции: [Install Office на ПК или Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) .
 
 ## <a name="see-also"></a>См. также
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

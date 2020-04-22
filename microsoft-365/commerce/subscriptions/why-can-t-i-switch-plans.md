@@ -1,5 +1,5 @@
 ---
-title: Почему не удается переключиться на другой план Office 365 для бизнеса?
+title: Почему не удается перейти к планам Microsoft 365 для бизнеса?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,14 +23,14 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Узнайте причины, по которым иногда требуется выполнить переключение планов вручную или путем вызова поддержки.
-ms.openlocfilehash: 5aa0885c9f7d68dc46618522de00efe26701551f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 5d446e3492bc9039e490cacca469443c0dc52cbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211977"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631933"
 ---
-# <a name="why-cant-i-switch-office-365-for-business-plans"></a>Почему не удается переключиться на другой план Office 365 для бизнеса?
+# <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Почему не удается перейти к планам Microsoft 365 для бизнеса?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]

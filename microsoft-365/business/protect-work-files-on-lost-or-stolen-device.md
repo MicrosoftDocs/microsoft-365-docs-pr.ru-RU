@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Сведения о параметрах, доступных в Microsoft 365 Business для защиты рабочих файлов в случае потери или кражи устройства пользователя.
-ms.openlocfilehash: 4371acd53da902aa4dea93e7b8bd087d1cf27100
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Сведения о параметрах, доступных в Microsoft 365 для бизнеса, для защиты рабочих файлов в случае потери или кражи устройства пользователя.
+ms.openlocfilehash: 8924a2c99ee4c6a4b2c0cb987b4c5ff76911bb13
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561657"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633086"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Защита рабочих файлов в случае потери или кражи мобильного устройства
 

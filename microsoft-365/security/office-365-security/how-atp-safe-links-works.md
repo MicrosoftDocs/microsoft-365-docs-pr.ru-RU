@@ -1,5 +1,5 @@
 ---
-title: Как работают безопасные ссылки Office 365 ATP
+title: Как работают безопасные ссылки ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,16 +14,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Функция "безопасные ссылки" обеспечивает проверку гиперссылок в документах Office и в сообщениях электронной почты. Прочтите эту статью, чтобы узнать, как работают безопасные ссылки ATP.
-ms.openlocfilehash: c87eef2afbb3a694d9906de0c6c43bfeb576782b
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b77ab718afdc4f68d8120e11fa5d1a321b66f32e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633977"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638014"
 ---
-# <a name="how-office-365-atp-safe-links-works"></a>Как работают безопасные ссылки Office 365 ATP
+# <a name="how-atp-safe-links-works"></a>Как работают безопасные ссылки ATP
 > [!IMPORTANT] 
-> Для правильной работы ссылок Office 365 ATP для безопасной работы все службы Office 365 должны иметь одинаковую версию.
+> Для правильной работы ссылок на Office 365 ATP для безопасной работы все службы должны иметь одинаковую версию.
          
 ## <a name="how-atp-safe-links-works-with-urls-in-email"></a>Как безопасные ссылки ATP работают с URL-адресами в электронной почте
 
@@ -51,9 +51,9 @@ ms.locfileid: "42633977"
     
 ## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>Как безопасные ссылки ATP работают с URL-адресами в документах Office 
 
-На высоком уровне: в этой статье описывается работа защиты расширенных [ссылок ATP](atp-safe-links.md) для URL-адресов в приложениях Office 365 ProPlus или Business Premium (текущие версии Word, Excel и PowerPoint для Windows, Mac или браузер, приложения Office на устройствах с iOS или Android, Visio в Windows, OneNote в браузере):
+На высоком уровне ниже показано, как работает защита [ATP: безопасные ссылки](atp-safe-links.md) для URL-адресов в приложениях Microsoft 365 для корпоративных или бизнес-приложений (текущие версии Word, Excel и PowerPoint в Windows, Mac или в браузере, приложения Office на устройствах с iOS или Android, Visio в Windows, OneNote в браузере):
   
-1. Пользователи установили Office 365 профессиональный плюс или Business Premium на своем компьютере, смартфоне или планшете. (Или они используют Office в браузере.)
+1. Пользователи установили приложения Microsoft 365 для Enterprise или Business Premium на своем компьютере, смартфоне или планшете. (Или они используют Office в браузере.)
     
 2. Пользователь открывает Word, Excel, PowerPoint, OneNote (в браузере) или Visio (на настольном компьютере) и входит в Office 365 корпоративный с помощью рабочей или учебной учетной записи. Документ содержит URL-адреса.
     

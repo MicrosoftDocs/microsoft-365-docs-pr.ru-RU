@@ -1,5 +1,5 @@
 ---
-title: Настройка мобильных устройств для пользователей Microsoft 365 Business
+title: Настройка мобильных устройств для пользователей Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,25 +23,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Установите Office на iPhone или телефоне с Android, и ваши рабочие файлы в приложениях Office будут защищены корпорацией Microsoft 365 Business.
-ms.openlocfilehash: 36cc3cb9b35cb5746a4147509f17e4f4d7909617
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Установите Office на iPhone или телефоне с Android, и ваши рабочие файлы в приложениях Office будут защищены Microsoft 365 для бизнеса.
+ms.openlocfilehash: 1263a922ba41083511fec8030634ed6cfaf70f00
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089450"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632574"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Настройка мобильных устройств для пользователей Microsoft 365 Business
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Настройка мобильных устройств для пользователей Microsoft 365 для бизнеса
 
-Следуя инструкциям на этих вкладках, вы можете установить Office на iPhone или телефоне с Android. После этого Microsoft 365 Business будет защищать ваши рабочие файлы, созданные в приложениях Office.
+Следуя инструкциям на этих вкладках, вы можете установить Office на iPhone или телефоне с Android. После выполнения этих действий рабочие файлы, созданные в приложениях Office, будут защищены Microsoft 365 для бизнеса.
 
 Пример приведен для Outlook, но он относится и к другим приложениям Office.
   
 ## <a name="set-up-mobile-devices"></a>Настройка мобильных устройств
 
-## <a name="iphonetabiphone"></a>[iPhone](#tab/iPhone)
+## <a name="iphone"></a>[iPhone](#tab/iPhone)
   
-Посмотрите короткое видео о настройке приложений Office на устройствах с iOS в Microsoft 365 Business.<br><br>
+Посмотрите короткое видео о том, как настроить приложения Office на устройствах с iOS, используя Microsoft 365 для бизнеса.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
@@ -59,7 +59,7 @@ ms.locfileid: "42089450"
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Enter your work email address on the **Add Email Account** screen \> **Add Account**, and then enter your Microsoft 365 Business credentials \> **Sign in**.
+Введите свой рабочий адрес электронной почты на экране \> **Добавление учетной записи электронной почты** , нажмите **Добавить учетную запись**, а затем \> **введите учетные данные Microsoft**365 для бизнеса.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
@@ -71,7 +71,7 @@ Enter your work email address on the **Add Email Account** screen \> **Add Accou
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
-## <a name="androidtabandroid"></a>[Android](#tab/Android)
+## <a name="android"></a>[Android](#tab/Android)
   
 Просмотрите видео о том, как установить Outlook и Office на устройствах с Android.<br><br>
 
@@ -87,7 +87,7 @@ Enter your work email address on the **Add Email Account** screen \> **Add Accou
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-В приложении Outlook нажмите кнопку " **начать работу** \> **"**, а затем добавьте учетную запись электронной почты Microsoft 365 и войдите с помощью учетных данных вашей организации.
+В приложении Outlook нажмите кнопку " **начать работу** \> **"**, затем добавьте учетную запись электронной почты Microsoft 365 для бизнеса и войдите с помощью учетных данных вашей организации.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -105,6 +105,6 @@ Enter your work email address on the **Add Email Account** screen \> **Add Accou
 
 ## <a name="see-also"></a>См. также
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

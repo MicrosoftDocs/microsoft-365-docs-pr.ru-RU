@@ -2,7 +2,7 @@
 ### <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Обязательное: ваша сеть готова к Microsoft 365 корпоративный
 
 - Пропускная способность интернет-канала в ваших офисах является достаточной для трафика Microsoft 365, в том числе установки и обновлений Office 365, Microsoft Intune и Windows 10 Корпоративная.
-- В целом ваша сеть соответствует [эталонной архитектуре Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- В целом ваша сеть соответствует [эталонной архитектуре Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - Выполнено пилотное развертывание и тестирование изменений в вашей сети, и они соответствуют вашим требованиям к задержке трафика.
 
 Чтобы выполнить это требование, см. [шаг 1](../networking-provide-bandwidth-cloud-services.md).

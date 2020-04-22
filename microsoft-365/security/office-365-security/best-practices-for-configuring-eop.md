@@ -1,5 +1,5 @@
 ---
-title: Рекомендации по настройке EOP и Office 365 ATP
+title: Рекомендации по настройке EOP и ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для Exchange Online Protection (EOP), чтобы избежать распространенных ошибок конфигурации и успешно выполнить поставленные задачи.
-ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 69d069377a061c440c22b7a00dd43795597c50e9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528621"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638540"
 ---
-# <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>Рекомендации по настройке EOP и Office 365 ATP
+# <a name="best-practices-for-configuring-eop-and-atp"></a>Рекомендации по настройке EOP и ATP
 
 Следуйте этим рекомендациям для Exchange Online Protection (EOP), чтобы избежать распространенных ошибок конфигурации и успешно выполнить поставленные задачи. Предполагается, что вы уже завершили установку EOP. В противном случае изучите статью [Настройка службы EOP](set-up-your-eop-service.md).
 
@@ -41,7 +41,7 @@ ms.locfileid: "43528621"
 
 |Имя компонента безопасности|Standard|Жестк|Comment|
 |---------|---------|---------|---------|
-|[Настройка SPF в Office 365 для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
+|[Настройка SPF для защиты от спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||
 |[Использование протокола DMARC для проверки электронной почты в Office 365](use-dmarc-to-validate-email.md)|Да|Да|Использование действия = карантин для стандартного, действие = Отклонить для ограничения.|
 |Развертывание надстройки сообщения с сообщением для усовершенствования сведений о подозрительных сообщениях электронной почты конечных пользователей|Да|Да||
@@ -63,7 +63,7 @@ ms.locfileid: "43528621"
 
 ## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Сообщить о ложном срабатывании и ложных негативах в корпорацию Майкрософт
 
-Чтобы упростить фильтрацию нежелательной почты в службе для всех, необходимо сообщить о ложном срабатывании (хорошее сообщение отмечено как плохое) и ложные отрицательные (недопустимые сообщения электронной почты) в корпорацию Майкрософт для анализа. Для получения дополнительных сведений просмотрите [сообщения отчетов и файлы в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).
+Чтобы упростить фильтрацию нежелательной почты в службе для всех, необходимо сообщить о ложном срабатывании (хорошее сообщение отмечено как плохое) и ложные отрицательные (недопустимые сообщения электронной почты) в корпорацию Майкрософт для анализа. Для получения дополнительной информации см. [Отчет о сообщениях и файлах в Microsoft](report-junk-email-messages-to-microsoft.md).
 
 ## <a name="create-mail-flow-rules"></a>Создание правил транспорта
 

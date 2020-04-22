@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: beab5df5b978cc3e2fd6dd345609a22209501298
-ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
+ms.openlocfilehash: 8a86220e7fcfe4c2e788b28842c77d238d98fda4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "37113722"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636200"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Управляемые технологии для настольных ПК Майкрософт
 
@@ -27,7 +27,7 @@ ms.locfileid: "37113722"
 ## <a name="office-365-e3-or-e5"></a>Office 365 E3 или в ~
  |
  --- | ---
-Office 365 профессиональный плюс (64-бит) | Эти приложения Office будут поставляться вместе с устройством: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype для бизнеса, OneNote.<br><br>64 — полные версии Microsoft Project и Microsoft Visio не включены. Тем не менее, поскольку установка этих приложений зависит от установки Office 365 профессиональный плюс, на компьютере, управляемом Майкрософт, были созданы развертывания Microsoft Intune по умолчанию и группы безопасности, которые можно использовать для развертывания этих приложений в соответствии с лицензией конечные пользователи. Дополнительные сведения: [Install Microsoft Project или Microsoft Visio на настольных устройствах, управляемых Майкрософт](../get-started/project-visio.md).
+Приложения Microsoft 365 для предприятий (64-разрядная версия) | Эти приложения Office будут поставляться вместе с устройством: Word, Excel, PowerPoint, Outlook, Publisher, Access, Skype для бизнеса, OneNote.<br><br>64 — полные версии Microsoft Project и Microsoft Visio не включены. Тем не менее, так как установка этих приложений зависит от установки приложений Microsoft 365 для предприятия, на компьютере, на котором установлены приложения Microsoft Intune, по умолчанию создаются развертывания Microsoft Intune и группы безопасности, которые можно использовать для развертывания этих приложений на лицензированных конечных пользователей. Дополнительные сведения: [Install Microsoft Project или Microsoft Visio на настольных устройствах, управляемых Майкрософт](../get-started/project-visio.md).
 OneDrive для бизнеса |Служба единого входа Azure Active Directory включена для конечных пользователей при первом входе в OneDrive для бизнеса.<br><br>Включается перенаправление папок "Рабочий стол", "документ" и "изображения". включается и настраивается на настольном компьютере, управляемом Майкрософт. 
 Приложения Магазина |    Microsoft Sway и Power BI не поставляются вместе с устройством. Эти приложения доступны для скачивания из Microsoft Store.
 Приложения Win32 |    Teams не поставляется с устройством, но упаковывается и предоставляется корпорацией Майкрософт для настольных устройств, управляемых Майкрософт. Клиент Azure Information Protection не поставляется с устройством, но его можно подготовить к развертыванию. 

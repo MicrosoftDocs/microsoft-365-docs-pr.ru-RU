@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Добавьте свой домен в Office 365 в центре администрирования Microsoft 365, добавив запись DNS на узел DNS. Мастер установки проводит вас через процесс.
-ms.openlocfilehash: 746163b83190a73326ad589b8e3bc9377ddaa9b4
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 8e08233ffe33ac2b5d41ad164af80468de52983d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209644"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631819"
 ---
 # <a name="add-a-domain-to-office-365"></a>Добавление домена в Office 365
 
@@ -75,7 +75,7 @@ ms.locfileid: "43209644"
     
 5. Выберите способ проверки того, что вы владеете доменом.
     
-    1. Если ваш домен зарегистрирован на GoDaddy или 1&amp;1, установите флажок **войти** > **Далее, после** чего Office 365 настроит [свои записи автоматически](../get-help-with-domains/domain-connect.md).
+    1. Если ваш домен зарегистрирован на&amp;GoDaddy или 1 1, нажмите кнопку **войти** > **Далее** , чтобы Майкрософт[настроила свои записи автоматически](../get-help-with-domains/domain-connect.md).
     
     2. Вы можете отправить контакту, зарегистрированному для домена, сообщение электронной почты с кодом проверки. Если вы не узнаете или не можете получить доступ к записи электронной почты, вы можете использовать третий вариант.
     
@@ -112,4 +112,4 @@ ms.locfileid: "43209644"
 
 [Настройка домена (инструкции для конкретных узлов)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Получение справки по доменам Office 365](../get-help-with-domains/get-help-with-domains.md)
+[Получение справки о доменах](../get-help-with-domains/get-help-with-domains.md)

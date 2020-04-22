@@ -22,21 +22,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о различиях между управлением мобильными устройствами и управлением мобильными приложениями, а также MDM и MAM.
-ms.openlocfilehash: 590dc9522be7adc9c24c61091928133fb13d9027
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ecb06ffc23823df72f9254d881f6b1dc1b781f59
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42057140"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635032"
 ---
 # <a name="difference-between-mdm-and-mam"></a>Разница между MDM и MAM
 
-Microsoft 365 Business предлагает ряд способов защиты бизнес-данных. Ознакомьтесь с [обзором Microsoft 365 Business](../microsoft-365-business-overview.md) для получения дополнительных сведений о различных средствах защиты, которые можно настроить для дальнейшей защиты вашего бизнеса. Кроме того, можно настроить политики для защиты устройств с Windows 10 и данных на мобильных устройствах.
+Microsoft 365 Бизнес Премиум предлагает ряд способов защиты бизнес-данных. Ознакомьтесь со статьей [Обзор Microsoft 365 бизнес премиум](../microsoft-365-business-overview.md) для получения дополнительных сведений о различных средствах защиты, которые можно настроить для дальнейшей защиты вашего бизнеса. Кроме того, можно настроить политики для защиты устройств с Windows 10 и данных на мобильных устройствах.
 [Настройка параметров защиты приложений для устройств с Windows 10](../protection-settings-for-windows-10-devices.md).
 
 ## <a name="mobile-device-management-or-mdm"></a>Управление мобильными устройствами или MDM
 
-Microsoft 365 бизнес позволяет настраивать политики для защиты данных на устройствах с Windows 10. Когда устройство находится в разделе Управление мобильными устройствами, вы контролируете все устройство и может стереть данные из него, а также сбросить его до заводских настроек. Дополнительные сведения см. в статье [Set Device Protection Settings for Windows 10 PCS](../protection-settings-for-windows-10-pcs.md).
+Microsoft 365 Business Premium позволяет настраивать политики защиты данных на устройствах с Windows 10. Когда устройство находится в разделе Управление мобильными устройствами, вы контролируете все устройство и может стереть данные из него, а также сбросить его до заводских настроек. Дополнительные сведения см. в статье [Set Device Protection Settings for Windows 10 PCS](../protection-settings-for-windows-10-pcs.md).
 
 ## <a name="mobile-application-management-or-mam"></a>Управление мобильными приложениями или MAM
 

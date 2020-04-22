@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Сведения о безопасных документах в Office 365 ATP.
-ms.openlocfilehash: 3980746eb2f48e77c22f5139827bead5640dad61
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: b70c7013ce038a3934b7ea5e62d1d0530f12e4e6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170479"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634320"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Безопасные документы в Office 365 Advanced Threat protection
 
@@ -36,11 +36,11 @@ ms.locfileid: "42170479"
 
 - Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Перед выполнением процедур, описанных в этом разделе, необходимо назначить разрешения. Чтобы включить и настроить безопасные документы, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Дополнительные сведения о группах ролей в центре безопасности & соответствия требованиям приведены в статье [разрешения в центре безопасности & Office 365](permissions-in-the-security-and-compliance-center.md).
+- Перед выполнением процедур, описанных в этом разделе, необходимо назначить разрешения. Чтобы включить и настроить безопасные документы, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Дополнительные сведения о группах ролей в центре безопасности & соответствия требованиям приведены в разделе [разрешения в центре безопасности &](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="use-the-office-365-security--compliance-center-to-configure-safe-documents"></a>Использование центра безопасности Office 365 & соответствия требованиям для настройки безопасных документов
+## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Использование центра безопасности & соответствия требованиям для настройки безопасных документов
 
-1. Откройте центр соответствия требованиям & безопасности Office 365 по <https://protection.office.com>адресу.
+1. Откройте центр соответствия требованиям по безопасности & <https://protection.office.com>по адресу.
 
 2. Перейдите к разделу \> **Политика** \> **управления угрозой** **безопасные вложения ATP**.
 
@@ -50,7 +50,7 @@ ms.locfileid: "42170479"
 
    - **Разрешить пользователям щелкать в режиме защищенного просмотра, даже если документы распознает файл как вредоносный**: не рекомендуется включать этот параметр.
 
-4. Когда закончите, нажмите кнопку **Сохранить**.
+4. По завершении нажмите кнопку **Сохранить**.
 
 ![Страница безопасных вложений ATP](../../media/safe-docs.png)
 

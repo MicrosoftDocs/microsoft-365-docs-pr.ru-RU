@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Обзор центра развертывания компьютеров.
-ms.openlocfilehash: 540f0d50ef8adc292fc1fbd4ef13bb12556d596c
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 36506864d932665a2da8fd2dfc94ab276e4fa2ec
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113533"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638144"
 ---
 # <a name="desktop-deployment-center"></a>Центр развертывания компьютеров
 
@@ -94,7 +94,7 @@ ms.locfileid: "43113533"
 <img align="middle" src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
 
 
-Выполните эти инструкции для планирования и выполнения крупномасштабного развертывания Windows 10 и Office 365 профессиональный плюс. Все приведенные ниже шаги являются частью общего процесса планирования и развертывания и обычно выполняются параллельно в рамках поэтапного развертывания. Загрузите бесплатный [комплект для анализа развертывания компьютеров и управления ими](https://aka.ms/howtoshiftlabs), чтобы попрактиковаться с инструментами, применяемыми в процессе развертывания. Также вы можете [обратиться за помощью](https://aka.ms/mddhelp) по развертыванию компьютеров к партнерам Майкрософт и службам FastTrack.
+Выполните эти инструкции для планирования и выполнения крупномасштабного развертывания Windows 10 и приложений Microsoft 365 для предприятий. Все приведенные ниже шаги являются частью общего процесса планирования и развертывания и обычно выполняются параллельно в рамках поэтапного развертывания. Загрузите бесплатный [комплект для анализа развертывания компьютеров и управления ими](https://aka.ms/howtoshiftlabs), чтобы попрактиковаться с инструментами, применяемыми в процессе развертывания. Также вы можете [обратиться за помощью](https://aka.ms/mddhelp) по развертыванию компьютеров к партнерам Майкрософт и службам FastTrack.
 
 <br>
 
@@ -102,7 +102,7 @@ ms.locfileid: "43113533"
 <tr class="even">
 <td><a href="https://aka.ms/mdd0"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd0">Начало работы. Руководство по пользователям, процессу и технологии</a></strong></p>
-<p>Узнайте о преимуществах перехода на Windows 10 и Office 365 профессиональный плюс, значительных изменениях и рекомендациях по сравнению с предыдущими развертываниями, а также советах по обеспечению плавного перехода на Windows 10 и Office 365 профессиональный плюс.</p></td>
+<p>Узнайте о преимуществах перехода на Windows 10 и приложения Microsoft 365 для предприятий, о значительных изменениях и рекомендациях по сравнению с предыдущими развертываниями, а также советах по обеспечению плавного перехода на Windows 10 и приложения Microsoft 365 для предприятий.</p></td>
 <td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="130" width="231" /></a></td>
 </tr>
 <tbody>
@@ -115,13 +115,13 @@ ms.locfileid: "43113533"
 <tr class="even">
 <td><a href="https://aka.ms/mdd2"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd2">Шаг 2. Проверка готовности каталогов и сети</a></strong></p>
-<p>Облачные службы в Office 365 профессиональный плюс и новые возможности развертывания, например Windows Autopilot, требуют Azure Active Directory. Сеть и подключение также важны для планирования при перемещении изображений, приложений, драйверов и соответствующих файлов Windows на ваш компьютер. Узнайте, как новые инструменты и возможности развертывания уменьшают и оптимизируют сетевой трафик.</p></td>
+<p>Облачные службы в приложениях Microsoft 365 для предприятий и новые возможности развертывания, например Windows Autopilot, требуют Azure Active Directory. Сеть и возможности подключения также важны для планирования при перемещении изображений, приложений, драйверов и соответствующих файлов Windows на ваш компьютер. Узнайте, как новые инструменты и возможности развертывания уменьшают и оптимизируют сетевой трафик.</p></td>
 <td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </tr>
 <tr class="odd">
 <td><a href="https://aka.ms/mdd3"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd3">Шаг 3. Доставка приложений Office и бизнес-приложений</a></strong></p>
-<p>Убедитесь, что приложения упакованы и готовы к автоматической установке. Узнайте, какие новые возможности для настройки, установки и обновления приложений Office предлагает упаковка по технологии "нажми и работай" с использованием Office 365 профессиональный плюс.</p></td>
+<p>Убедитесь, что приложения упакованы и готовы к автоматической установке. Узнайте, какие новые возможности для настройки, установки и обновления приложений Office предлагает упаковка по технологии "нажми и работай" с использованием приложений Microsoft 365 для предприятий.</p></td>
 <td><a href="https://aka.ms/ddev3" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
@@ -133,7 +133,7 @@ ms.locfileid: "43113533"
 <tr class="odd">
 <td><a href="https://aka.ms/mdd5"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd5">Шаг 5. Вопросы по безопасности и соответствию требованиям</a></strong></p>
-<p>Windows 10 и Office 365 профессиональный плюс предлагают новые способы защиты данных, устройств и пользователей, а также быстрого обнаружения и сдерживания угроз. Кроме того, вы научитесь реагировать на типичные проблемы, связанные с шифрованием дисков, работать с приложениями для защиты от вредоносных программ и политиками при переходе на Windows 10.</p></td>
+<p>В Windows 10 и приложениях Microsoft 365 для предприятий доступны новые способы защиты данных, устройств и пользователей, а также быстрого обнаружения и сдерживания угроз. Кроме того, вы научитесь реагировать на типичные проблемы, связанные с шифрованием дисков, работать с приложениями для защиты от вредоносных программ и политиками при переходе на Windows 10.</p></td>
 <td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
@@ -145,13 +145,13 @@ ms.locfileid: "43113533"
 <tr class="odd">
 <td><a href="https://aka.ms/mdd7"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd7">Шаг 7. Обслуживание Windows и Office</a></strong></p>
-<p>В Windows 10 и Office 365 профессиональный плюс постоянно добавляются новые функции с целью развития пользовательского интерфейса и средства безопасности в соответствии с последними инновациями. Узнайте, как обеспечивать актуальность с помощью полугодичных и ежемесячных обновлений, как работают новые модели обслуживания и какие у вас есть инструменты и возможности.</p></td>
+<p>В Windows 10 и приложениях Microsoft 365 для предприятий постоянно добавляются новые функции с целью развития пользовательского интерфейса и средства безопасности в соответствии с последними инновациями. Узнайте, как обеспечивать актуальность с помощью полугодичных и ежемесячных обновлений, как работают новые модели обслуживания и какие у вас есть инструменты и возможности.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
 <td><a href="https://aka.ms/mdd8"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></a></td>
 <td><p><strong><a href="https://aka.ms/mdd8">Шаг 8. Информирование и обучение пользователей</a></strong></p>
-<p>Убедитесь, что пользователи уведомлены о новых возможностях и способах работы при переходе на Windows 10 и Office 365 профессиональный плюс. Узнайте, как воспользоваться помощью по адаптации пользователей с применением Microsoft FastTrack, обучающими материалами, шаблонами для общения, а также новыми способами отслеживать принятие и использование продуктов пользователями.</p></td>
+<p>Убедитесь, что пользователи уведомлены о новых возможностях и способах работы при переходе на Windows 10 и приложения Microsoft 365 для предприятий. Узнайте, как воспользоваться помощью по адаптации пользователей с использованием Microsoft FastTrack, обучающих материалов, шаблонов для общения, а также новых способов отслеживать принятие и использование продуктов пользователями.</p></td>
 <td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </tr>
 </tbody>

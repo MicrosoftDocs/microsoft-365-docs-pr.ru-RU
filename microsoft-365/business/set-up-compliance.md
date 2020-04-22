@@ -1,5 +1,5 @@
 ---
-title: Повышение защиты от угроз для Microsoft 365 Business
+title: Повышение защиты от угроз для Microsoft 365 бизнес премиум
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,16 +21,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Настройка функций соответствия требованиям для предотвращения потери данных и обеспечения безопасности конфиденциальной информации ваших клиентов.
-ms.openlocfilehash: 6f4520b052c2e7acb8748d3c9d6e26777cb56d4b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561247"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635131"
 ---
 # <a name="set-up-compliance-features"></a>Настройка функций обеспечения соответствия требованиям
 
-Microsoft 365 бизнес поставляется с функциями для защиты ваших данных и устройств, а также для обеспечения безопасности конфиденциальной информации клиентов.
+Microsoft 365 Business Premium поставляется с функциями для защиты данных и устройств, а также для обеспечения безопасности конфиденциальной информации ваших клиентов.
 
 ## <a name="set-up-dlp-features"></a>Настройка функций DLP
 

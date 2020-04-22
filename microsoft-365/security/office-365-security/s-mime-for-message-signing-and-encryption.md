@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Администраторы могут узнать об использовании S/MIME в Exchange Online.
-ms.openlocfilehash: 1c7b2a56f15b39818d51f405192febebeb2717e8
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 294fd22ff81e9ddaabf0664afb34a37c008a6d09
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170499"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634332"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME для подписи и шифрования сообщений в Exchange Online
 
@@ -68,7 +68,7 @@ S/MIME можно настроить для работы со следующим
 
 - **Протокол TLS** шифрует туннель или маршрут между серверами электронной почты, чтобы предотвратить отслеживание и прослушивание.
 
-- **SSL** шифрует соединение между почтовыми клиентами и серверами Office 365.
+- **SSL** шифрует соединение между почтовыми клиентами и серверами Microsoft 365.
 
 - **BitLocker** шифрует данные на жестком диске в центре обработки данных, поэтому если кто-то получит неавторизованный доступ, он не сможет прочитать его.
 

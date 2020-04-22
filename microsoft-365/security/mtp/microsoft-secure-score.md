@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e7274ff196d5b822d146378752d66c9707fc9f19
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: c15f0b30dbf377da4e01ba199852f02bd7a003ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583385"
+ms.locfileid: "43637108"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
@@ -52,7 +52,7 @@ Microsoft Secure Score — это измерение степени безопа
 
 ### <a name="products-included-in-secure-score"></a>Продукты, включенные в надежный рейтинг
 
-В настоящее время существуют рекомендации для Office 365 (в том числе SharePoint Online, Exchange Online, OneDrive для бизнеса, Microsoft Information Protection и др.), Azure AD и Cloud App Security. Рекомендации для других продуктов безопасности, таких как Azure ATP и служба защитник Майкрософт, скоро будут доступны. Рекомендации не охватывают все области атак, связанные с каждым продуктом, но они являются хорошим базовым планом. Вы также можете пометить действия по улучшению, как это описано сторонним производителем.
+В настоящее время существуют рекомендации по включению SharePoint Online, Exchange Online, OneDrive для бизнеса, Microsoft Information Protection и т. д.), Azure AD и Cloud App Security. Рекомендации для других продуктов безопасности, таких как Azure ATP и служба защитник Майкрософт, скоро будут доступны. Рекомендации не охватывают все области атак, связанные с каждым продуктом, но они являются хорошим базовым планом. Вы также можете пометить действия по улучшению, как это описано сторонним производителем.
 
 ## <a name="required-permissions"></a>Обязательные разрешения
 
@@ -66,7 +66,6 @@ Microsoft Secure Score — это измерение степени безопа
 * Администратор безопасности
 * Администратор Exchange
 * Администратор SharePoint
-* Администратор учетной записи
 
 ### <a name="read-only-roles"></a>Роли, предназначенные только для чтения
 

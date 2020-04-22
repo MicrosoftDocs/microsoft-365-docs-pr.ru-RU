@@ -1,5 +1,5 @@
 ---
-title: Настройка настраиваемого списка "не перезаписывать URL-адреса" с помощью безопасных ссылок Office 365 ATP
+title: Настройка настраиваемого списка "не переписывать" URL-адресов с помощью безопасных ссылок ATP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,14 +17,14 @@ ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
 description: При настройке политик безопасных ссылок ATP можно включить список URL-адресов Do-not-Rewrite, чтобы разрешить некоторым пользователям в Организации посещать сайты, включенные в список.
-ms.openlocfilehash: 1983e0ff2ea85092af483d4f7a563681a6441152
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 490fb3279f2c54bc6f2335510aa711866318e01d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082217"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638384"
 ---
-# <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Настройка настраиваемого списка "не перезаписывать URL-адреса" с помощью безопасных ссылок Office 365 ATP
+# <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка "не переписывать" URL-адресов с помощью безопасных ссылок ATP
 
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы являетесь домашним пользователем, который ищет сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
@@ -37,16 +37,16 @@ ms.locfileid: "42082217"
 
 Защита безопасных ссылок ATP использует несколько списков, в том числе список заблокированных URL-адресов вашей организации, а также списки "не переопределять" для исключений. Если у вас есть необходимые разрешения, вы можете настроить настраиваемые списки "не переопределять". Это делается при добавлении или изменении политик безопасных ссылок, которые применяются к определенным получателям в Организации.
 
-Чтобы изменить (или определить) политики ATP, необходимо назначить соответствующую роль. В следующей таблице приводятся некоторые примеры. Чтобы узнать больше, ознакомьтесь [со статьей разрешения в центре безопасности Office 365 & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+Чтобы изменить (или определить) политики ATP, необходимо назначить соответствующую роль. В следующей таблице приводятся некоторые примеры. Дополнительные сведения см. [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-|Роль  |Где/как назначено  |
+|Role  |Где/как назначено  |
 |---------|---------|
-|Глобальный администратор Office 365 |Пользователь, который подписывается на приобретение Office 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
+|Глобальный администратор |Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
 |Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
 
 > [!TIP]
-> Чтобы узнать больше о ролях и разрешениях, ознакомьтесь со статьей [разрешения в центре безопасности Office 365 & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+> Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 ### <a name="to-view-or-edit-a-custom-do-not-rewrite-urls-list"></a>Просмотр и редактирование настраиваемого списка URL-адресов "не переопределять"
 

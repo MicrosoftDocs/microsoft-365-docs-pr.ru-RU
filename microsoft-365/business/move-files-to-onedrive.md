@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Сведения о том, как перемещать личные рабочие файлы и файлы конфиденциальной компании в OneDrive для бизнеса можно несколькими простыми действиями.
-ms.openlocfilehash: 7c36eb272983f86ee42361478ff63dfca252f0ce
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 4c41928ac51950a5a8c372ef0a170a76ff48ed2e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561687"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633146"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 
@@ -36,21 +36,21 @@ ms.locfileid: "42561687"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Если вам был полезен этот видеоролик, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 
 Если на компьютере пользователя хранится множество личных файлов, вам следует сначала переместить их в OneDrive для бизнеса.
   
-1. Перейдите на веб-сайт portal.office.com и войдите с учетными данными пользователя Office 365 бизнес.
-    
+1. Откройте portal.office.com и войдите в систему, используя учетные данные пользователя Microsoft 365 для бизнеса.
+
 2. Откройте средство запуска приложений ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) и выберите OneDrive. 
     
 3. В строке меню выберите команду **Добавить**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png), затем выберите файлы, которые хотите сохранить. 
     
 Для передачи профиля пользователя и важных данных также можно использовать сторонние программы, например ForensiT. Итоговые файлы тоже нужно добавить в OneDrive для бизнеса.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 для бизнеса
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 134e971e00fc64d3ea005d32ed95359ed8fb8feb
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: c68d12ccd339c863c2dd96b2a56cfaf19e604f79
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757666"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632005"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Поддержка для настольных компьютеров, управляемых Майкрософт
 
@@ -33,7 +33,7 @@ ms.locfileid: "38757666"
 Поддерживаемые продукты:
 
 - Windows 10 с Advanced Threat Protection в защитнике Microsoft 
-- Эти приложения Office 365 профессиональный плюс: Outlook, Word, PowerPoint, Excel, Skype для бизнеса клиент, Microsoft Teams 
+- Приложения Microsoft 365 для корпоративных приложений: Outlook, Word, PowerPoint, Excel, Skype для бизнеса, клиент Microsoft Teams 
 - Microsoft Store для бизнеса 
 - Клиент OneDrive для бизнеса 
 

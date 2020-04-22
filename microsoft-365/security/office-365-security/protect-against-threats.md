@@ -1,5 +1,5 @@
 ---
-title: Защита от угроз в Office 365
+title: Защита от угроз
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,16 +17,16 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Используйте эту статью в качестве руководства по настройке функций защиты от угроз.
-ms.openlocfilehash: 34a89f9db0ca7424d90909f09f7a2bfb4fcf3b6a
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 0adf7bbb2637cc8a8d2918d951c1ccef51060b31
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528561"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634464"
 ---
-# <a name="protect-against-threats-in-office-365"></a>Защита от угроз в Office 365
+# <a name="protect-against-threats"></a>Защита от угроз
 
-Office 365 включает различные функции защиты от угроз. Вот краткое руководство, которое можно использовать в качестве контрольного списка, чтобы убедиться в том, что функции защиты от угроз настроены для Организации. Если вы не знакомы с функциями защиты от угроз в Office 365, или вы только не знаете, с чего начать, используйте следующие рекомендации в качестве отправной точки.
+Microsoft 365 включает различные функции защиты от угроз. Вот краткое руководство, которое можно использовать в качестве контрольного списка, чтобы убедиться в том, что функции защиты от угроз настроены для Организации. Если вы не знакомы с функциями защиты от угроз в Office 365, или вы только не знаете, с чего начать, используйте следующие рекомендации в качестве отправной точки.
 
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
@@ -35,7 +35,7 @@ Office 365 включает различные функции защиты от 
 
 ### <a name="subscriptions"></a>Подписки
 
-Функции защиты от угроз включены во все подписки на Office 365; Однако некоторые подписки включают более сложные функции. В следующей таблице перечислены функции защиты, включенные в эту статью, с минимальными требованиями к подписке.
+Функции защиты от угроз включены во все подписки Microsoft 365; Однако некоторые подписки включают более сложные функции. В следующей таблице перечислены функции защиты, включенные в эту статью, с минимальными требованиями к подписке.<br/>
 
 |||
 |---|---|
@@ -53,15 +53,14 @@ Office 365 включает различные функции защиты от 
 
 Необходимо назначить соответствующую роль для настройки политик в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). В таблице приведено несколько примеров.
 
-|||
-|---|---|
-|**Роль или группа ролей**|**Дополнительные сведения**|
-|Глобальный администратор Office 365|[Роли администраторов в Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|Роль или группа ролей|Дополнительные сведения|
+|---------|---------|
+|Глобальный администратор|[Сведения о ролях администратора Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |Администратор безопасности|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |
 
-Чтобы узнать больше, ознакомьтесь с [разрешениями в центре &amp; безопасности и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
+Чтобы узнать больше, ознакомьтесь [с разрешениями &amp; в центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="part-1---anti-malware-protection"></a>Часть 1 — Защита от вредоносных программ
 
@@ -107,7 +106,7 @@ Office 365 включает различные функции защиты от 
 
 5. Нажмите кнопку **Сохранить**.
 
-6. (**Рекомендуемое дополнительное действие**) Как глобальный администратор или администратор SharePoint Online выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** с параметром **дисалловинфектедфиледовнлоад** , для которого установлено значение *true* , для среды Office 365. (Это предотвращает открытие, перемещение, копирование или совместное использование файлов, обнаруженных как вредоносные.)
+6. (**Рекомендуемое дополнительное действие**) Как глобальный администратор или администратор SharePoint Online выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** с параметром **дисалловинфектедфиледовнлоад** , для которого задано *значение true* для среды Microsoft 365. (Это предотвращает открытие, перемещение, копирование или совместное использование файлов, обнаруженных как вредоносные.)
 
 Дополнительные сведения: [Настройка политик безопасных вложений office 365 ATP](set-up-atp-safe-attachments-policies.md) и [Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md).
 
@@ -119,7 +118,7 @@ Office 365 включает различные функции защиты от 
 
 2. Дважды щелкните политику **по умолчанию** .
 
-3. В разделе **использовать безопасные ссылки в** выберите вариант **Office 365 профессиональный плюс, Office для iOS и Android**, а затем нажмите кнопку **сохранить**.
+3. В разделе **использовать безопасные ссылки в** выберите параметр **Microsoft 365 для корпоративных приложений, Office для iOS и Android**, а затем нажмите кнопку **сохранить**.
 
 4. В разделе **политики, которые применяются к определенным получателям** щелкните знак "плюс"**+**().
 
@@ -215,7 +214,7 @@ Office 365 включает различные функции защиты от 
 
 ### <a name="audit-logging-for-reporting-and-investigation"></a>Ведение журнала аудита для создания отчетов и исследования
 
-Ведение журнала аудита доступно в подписках, включающих [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description). Для просмотра данных в отчетах защиты от угроз, таких как [панель мониторинга безопасности](security-dashboard.md), [отчеты о безопасности электронной почты](view-email-security-reports.md)и [проводник](threat-explorer.md), для Организации необходимо включить ведение журнала аудита. Чтобы узнать больше, ознакомьтесь [со статьей включение и отключение поиска в журнале аудита Office 365](../../compliance/turn-audit-log-search-on-or-off.md).
+Ведение журнала аудита доступно в подписках, включающих [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description). Для просмотра данных в отчетах защиты от угроз, таких как [панель мониторинга безопасности](security-dashboard.md), [отчеты о безопасности электронной почты](view-email-security-reports.md)и [проводник](threat-explorer.md), для Организации необходимо включить ведение журнала аудита. Дополнительные сведения см. [в разделе Включение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
 ## <a name="post-setup-tasks"></a>Задачи, выполняемые после установки
 
@@ -225,6 +224,6 @@ Office 365 включает различные функции защиты от 
 |---|---|
 |**Действия**|**Дополнительные ресурсы**|
 |Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](view-email-security-reports.md)<br/>[Отчеты для Office 365 ATP](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)|
-|При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз для Office 365 и функции реагирования](keep-users-safe-with-office-365-ti.md)|
+|При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз и функции ответа Microsoft 365](keep-users-safe-with-office-365-ti.md)|
 |Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[Центр сообщений](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |

@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 98bfa8da792bfc5b75d1a2532492c2de6071f1b1
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: fe98df2c64bca36bc44c30bddb8b5e53d25aa6a5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558240"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634560"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Порталы безопасности Майкрософт и центры администрирования
 Несмотря на то, что [Центр безопасности Microsoft 365](overview-security-center.md) является новым доменом для мониторинга и управления безопасностью для своих удостоверений, данных, устройств и приложений, вам потребуется доступ к различным порталам для определенных специализированных задач.
@@ -36,7 +36,7 @@ ms.locfileid: "42558240"
 |---|---|---| 
 | Центр безопасности Microsoft 365 | Мониторинг и реагирование на действия в отношении угроз и усиление безопасности в рамках ваших удостоверений, электронной почты, данных, конечных точек и приложений с помощью [Microsoft Threat protection](microsoft-threat-protection.md) | [security.microsoft.com](https://security.microsoft.com/) |
 | Центр безопасности защитника Microsoft | Отслеживание и реагирование на действия с угрозами в конечных точках с помощью возможностей, предоставляемых в [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
-| Центр безопасности и соответствия требованиям Office 365 | Управление [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) и [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) для защиты служб электронной почты и совместной работы и обеспечения соответствия различным нормативам обработки данных | [protection.office.com](https://protection.office.com) |
+| Центр безопасности и соответствия требованиям | Управление [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) и [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) для защиты служб электронной почты и совместной работы и обеспечения соответствия различным нормативам обработки данных | [protection.office.com](https://protection.office.com) |
 | Портал центра безопасности Azure | Использование [центра безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro) для усиления безопасности центров обработки данных и гибридных рабочих нагрузок в облаке | [#blade portal.azure.com//Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Портал Azure ATP | Определение, определение и исследование сложных угроз, скомпрометированных удостоверений и действий по предварительной работе с помощью оповещений Active Directory с помощью [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Портал Cloud App Security | Использование [Microsoft Cloud App Security для обеспечения](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) расширенной прозрачности, управления путешествием данных и замысловатой аналитики для выявления и борьбы с киберугрозами в облачных службах | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |

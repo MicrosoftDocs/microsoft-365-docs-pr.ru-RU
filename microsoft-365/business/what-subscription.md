@@ -1,5 +1,7 @@
 ---
 title: Какая подписка подходит для вашего бизнеса?
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -15,14 +17,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Определите, подходит ли Office 365 E3, Office 365 бизнес премиум или Microsoft 365 бизнес для бизнеса.
-ms.openlocfilehash: f3adf67cf164b14596bc0cedf1cacd7dec41955e
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+description: Определите, подходит ли для вашей компании Office 365 E3, Microsoft 365 бизнес Standard или Microsoft 365 бизнес премиум.
+ms.openlocfilehash: 480129ad8251770a4153b7ecc0777bdf03759012
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748328"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635671"
 ---
 # <a name="what-subscription-is-right-for-your-small-business"></a>Какая подписка подходит для малого бизнеса?
 
-Корпорация Майкрософт предлагает несколько планов для малых предприятий. Рекомендуемые подписки: Office 365 бизнес премиум или Microsoft 365 бизнес, с до 300 пользователей. Microsoft 365 Business предлагает больше возможностей обеспечения безопасности, чем Office 365 бизнес премиум для дополнительной стоимости.
+Корпорация Майкрософт предлагает несколько планов для малых предприятий. Рекомендуемые подписки: Microsoft 365 бизнес Standard или Microsoft 365 бизнес премиум, у которых не более 300 пользователей. Microsoft 365 Business Premium предоставляет больше возможностей обеспечения безопасности, чем Microsoft 365 Business Standard для дополнительной стоимости.

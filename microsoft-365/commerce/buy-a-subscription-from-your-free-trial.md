@@ -1,5 +1,5 @@
 ---
-title: Приобретение пробной версии Office 365 для бизнеса
+title: Приобретение подписки на Microsoft 365 для бизнеса из бесплатной пробной версии
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,17 +26,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
-description: Приобретите подписку на Office 365 для бизнеса. Вы можете купить тот же тип подписки, который вы пробовали, или другой план.
-ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Приобретите подписку на Microsoft 365 для бизнеса. Вы можете купить тот же тип подписки, который вы пробовали, или другой план.
+ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142291"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634948"
 ---
-# <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>Приобретение пробной версии Office 365 для бизнеса
+# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Приобретение подписки на Microsoft 365 для бизнеса из бесплатной пробной версии
 
-После ознакомления с пробной версией Office 365 вы решили купить полную версию. У вас есть два варианта приобретения Office 365 с пробной версии:
+Вы пробовали Microsoft 365, и теперь готовы к приобретению. У вас есть два варианта приобретения Microsoft 365 из пробной версии:
   
 - [Приобретение того же плана, что и в пробной версии](#buy-the-same-plan-as-your-trial)
 - [Приобретение плана, отличного от пробной подписки](#buy-a-different-plan-than-your-trial)
@@ -98,6 +98,7 @@ ms.locfileid: "43142291"
 
 ::: moniker range="o365-worldwide"
 
+
 1. В центре администрирования перейдите на страницу Услуги по **выставлению счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">покупки</a> .
 
 2. На странице " **Покупка служб** " выберите подписку, которую вы хотите купить, и нажмите кнопку **купить**.
@@ -136,6 +137,7 @@ ms.locfileid: "43142291"
 
 ::: moniker range="o365-21vianet"
 
+
 1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. На странице **Подписка** выберите **Добавить подписки**.
@@ -156,10 +158,11 @@ ms.locfileid: "43142291"
 
 ::: moniker-end
 
+
 ## <a name="related-articles"></a>Статьи по теме
 
 [Продление пробного периода](extend-your-trial.md)
   
-[Подписка на Office 365](../admin/admin-overview/sign-up-for-office-365.md)
+[Регистрация в Microsoft 365](../admin/admin-overview/sign-up-for-office-365.md)
   
-[Переключение на другой план или подписку Office 365](subscriptions/switch-to-a-different-plan.md)
+[Переключение на другой план или подписку Microsoft 365](subscriptions/switch-to-a-different-plan.md)

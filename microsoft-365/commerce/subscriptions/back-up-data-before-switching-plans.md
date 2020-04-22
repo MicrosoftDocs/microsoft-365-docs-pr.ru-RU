@@ -1,5 +1,5 @@
 ---
-title: Резервное копирование данных перед переключением планов Office 365 для бизнеса
+title: Резервное копирование данных перед переключением Microsoft 365 для бизнес-планов
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
-description: Создайте резервную копию Outlook, OneDrive, Yammer и SharePoint, прежде чем переключать подписки на Office 365 или при выходе пользователя из Организации.
-ms.openlocfilehash: 3d8196bcbd0296e1b6e681b1077d165e168d2f2f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Создайте резервную копию Outlook, OneDrive, Yammer и SharePoint перед переключением подписок Microsoft 365 или при выходе пользователя из Организации.
+ms.openlocfilehash: fbebe72ec47fb6745cee6a12d81117ad08c50846
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105751"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636084"
 ---
-# <a name="back-up-data-before-switching-office-365-for-business-plans"></a>Резервное копирование данных перед переключением планов Office 365 для бизнеса
+# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Резервное копирование данных перед переключением Microsoft 365 для бизнес-планов
 
-Если пользователь переводится на другую подписку, в которой меньше служб, связанных с данными, или покидает организацию, то перед этим можно скачать копию его данных, хранящихся в Office 365.
+Если пользователь переключается на другую подписку с меньшим количеством служб, связанных с данными, или пользователь оставляет организацию, копия данных, сохраненных в Microsoft 365, может быть загружена перед переключением на новую подписку.
   
 ## <a name="save-a-copy-of-outlook-information"></a>Сохранение копии данных Outlook
 
@@ -48,7 +48,7 @@ ms.locfileid: "43105751"
   
 ## <a name="how-to-save-sharepoint-information"></a>Как сохранить данные SharePoint
 
-Если пользователь переключается из подписки с SharePoint Online на ту, которая не содержит ее, плитка **SharePoint** больше не будет отображаться в меню Office 365.
+Если пользователь переключается из подписки с SharePoint Online на ту, у которой она нет, плитка **SharePoint** больше не будет отображаться в меню Microsoft 365.
   
 Однако поскольку обе подписки относятся к одной и той же организации, у пользователя по-прежнему будет доступ к сайту группы SharePoint. Он сможет просматривать и обновлять записные книжки, документы, задачи и календари, переходя на сайт группы непосредственно по URL-адресу.
   

@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: Узнайте, как использовать Microsoft 365 Business для удаления данных компании, которые пользователи имеют на своих устройствах или компьютерах с Windows.
-ms.openlocfilehash: 1cfcf836f71cb81015d28a848611678252731b9c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Узнайте, как использовать Microsoft 365 для бизнеса, чтобы удалить данные компании, которые ваши пользователи имеют на своих устройствах или компьютерах с Windows.
+ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561327"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634855"
 ---
 # <a name="remove-company-data-from-devices"></a>Удаление данных организации с устройств
 
@@ -36,11 +36,11 @@ ms.locfileid: "42561327"
 
 ## <a name="remove-company-data"></a>Удаление данных компании
 
-С помощью Office 365 бизнес вы можете удалить данные компании с пользовательских [устройств](app-protection-settings-for-android-and-ios.md) и [компьютеров с Windows](protection-settings-for-windows-10-devices.md), защищенных с помощью Microsoft 365. **После удаления данных компании с устройства их нельзя будет восстановить**. 
+Вы можете использовать Microsoft 365 для бизнеса, чтобы удалить данные компании, которые пользователи имеют на своих [устройствах](app-protection-settings-for-android-and-ios.md) или [компьютерах с Windows](protection-settings-for-windows-10-devices.md) , защищенных корпорацией Microsoft 365. **После удаления данных компании с устройства их нельзя будет восстановить**. 
   
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. В левой панели навигации выберите Управление **устройствами** \> ****.  
+2. В левой панели навигации выберите Управление **устройствами** \> **Manage**.  
   
 3. На странице " **Управление** " выберите или выполните поиск пользователя, данные которого нужно удалить, и выберите имя. 
     

@@ -16,12 +16,12 @@ ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить и скачать отчет с настраиваемым диапазоном дат и фильтрами в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 170360a796d94501b6c13a6ffd4b062401296462
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8807928141704339913e3a30c7804aad5e018d4a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088006"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638372"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>Настройка и загрузка настраиваемого отчета в центре безопасности &amp; и соответствия требованиям
 
@@ -30,7 +30,7 @@ ms.locfileid: "42088006"
 ## <a name="download-a-custom-report"></a>Загрузка настраиваемого отчета
 
 > [!IMPORTANT]
-> Убедитесь, что у вас есть необходимые [разрешения для центра безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md). В общем случае пользователи Office 365 глобальные администраторы, администраторы безопасности и средства чтения безопасности могут получать доступ к отчетам в центре безопасности &amp; и соответствия требованиям. 
+> Убедитесь, что у вас есть необходимые [разрешения для центра безопасности &amp; и соответствия требованиям](permissions-in-the-security-and-compliance-center.md). В общем случае глобальные администраторы, администраторы безопасности и средства чтения безопасности могут получать доступ к отчетам &amp; в центре безопасности и соответствия требованиям. 
   
 1. В [центре безопасности &amp; и соответствия требованиям](https://protection.office.com)откройте **панель мониторинга** **отчетов** \> .
     
@@ -44,9 +44,9 @@ ms.locfileid: "42088006"
     
 6. Укажите получателей электронной почты для отчета, а затем нажмите кнопку **сохранить**.
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
-[Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
+[Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   
 [Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям](create-a-schedule-for-a-report.md)
   

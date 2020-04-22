@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Защита от фишинга и других атак с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 7cb09d0cadcc70b96c5f1404defa5d0387947ca8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0cd96cb73ad3d0b38ab1e5ff31c913d97528c2d4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594800"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632795"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>Защитите неуправляемые компьютеры с Windows 10 и Mac
 
@@ -38,16 +38,16 @@ ms.locfileid: "41594800"
 
 1. You (or the admin) set up device and data protection policies in the [setup  wizard](../business/set-up.md).
 
-2. You have [connected your computer to Azure Active Directory](../business/set-up-windows-devices.md) and use your Microsoft 365 Business username and password to sign in.
+2. You have [connected your computer to Azure Active Directory](../business/set-up-windows-devices.md) and use your Microsoft 365 username and password to sign in.
 3. --> 
 
 ## <a name="protect-a-computer-running-windows-10-or-a-mac"></a>Защита компьютера под управлением Windows 10 или Mac
 
-<!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365 Business, or a Mac, the Microsoft 365 Business protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
+<!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365, or a Mac, the Microsoft 365 protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
 -->
 Если ваш компьютер с Windows 10 или Mac не управляется вашей организацией, обязательно настройте эти функции безопасности.
 
-## <a name="windows-10tabwindows10"></a>[Windows 10](#tab/Windows10)
+## <a name="windows-10"></a>[Windows 10](#tab/Windows10)
 **Включение шифрования устройств**<p>
 
 Шифрование устройств доступно для широкого спектра устройств Windows и защищает данные путем их шифрования. Если включено шифрование устройства, только авторизованные пользователи смогут получать доступ к устройству и данным. Инструкции по [включению шифрования устройств](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) .
@@ -65,7 +65,7 @@ ms.locfileid: "41594800"
 **Включение брандмауэра Windows**<p>
 Следует всегда запускать брандмауэр Windows, даже если включен другой брандмауэр. Отключение брандмауэра Windows может сделать устройство (и сеть, если она есть) более уязвимым для несанкционированного доступа. Инструкции по [включению и отключению брандмауэра Windows](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off)
 
-## <a name="mactabmac"></a>[Mac](#tab/Mac)
+## <a name="mac"></a>[Mac](#tab/Mac)
 **Использование Филеваулт для шифрования диска Mac**<p>
 Шифрование диска защищает данные в случае потери или кражи устройств. Филеваулт полное шифрование диска предотвращает несанкционированный доступ к информации на загрузочном диске. [В разделе Использование филеваулт для шифрования загрузочного диска в Mac](https://support.apple.com/HT204837) .
 

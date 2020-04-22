@@ -1,5 +1,5 @@
 ---
-title: Расшифровка счета за Office 365 для бизнеса
+title: Сведения о выставлении счетов для Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,15 +23,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: Сведения о том, как интерпретировать сведения о расходах, выставлении счетов и оплате в счете Office 365 для бизнеса, а также о том, как изменить номер заказа на покупку.
-ms.openlocfilehash: 152b5d888b8773e2e60cea8584417e47ee58c47f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Сведения о том, как интерпретировать сведения о расходах, выставлении счетов и платежах в Microsoft 365 для бизнеса, а также о том, как изменить номер заказа на покупку.
+ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142303"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634972"
 ---
-# <a name="understand-your-invoice-for-office-365-for-business"></a>Расшифровка счета за Office 365 для бизнеса
+# <a name="understand-your-invoice-for-microsoft-365-for-business"></a>Сведения о выставлении счетов для Microsoft 365 для бизнеса
 
 Каждый месяц вы получите электронное письмо с сообщением о том, что новая выписка выставления счетов доступна в центре администрирования. [Узнайте, как найти и просмотреть свой счет или выписку по счету.](view-your-bill-or-invoice.md)
   
@@ -138,6 +138,6 @@ ms.locfileid: "43142303"
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Оплата подписки на Office 365 для бизнеса](pay-for-your-subscription.md)
+[Оплата подписки на Microsoft 365 для бизнеса](pay-for-your-subscription.md)
 
 [Варианты оплаты Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)

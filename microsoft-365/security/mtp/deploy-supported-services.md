@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1441790bfa0c587c4abceb87eb1e4daae6e4d157
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: c29027bb641530ba2d3c7a22c578770c098f53ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521484"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633475"
 ---
 # <a name="deploy-supported-services"></a>Развертывание поддерживаемых служб
 
@@ -41,7 +41,7 @@ ms.locfileid: "43521484"
 | Поддерживаемая служба | Описание |
 | ------ | ------ |
 | ATP в Microsoft Defender | Набор Endpoint Protection, созданный на основе мощных датчиков поведения, облачного анализа и системы анализа угроз |
-| Office 365 ATP | Расширенная защита приложений и данных в Office 365, включая электронную почту и другие средства для совместной работы |
+| Office 365 ATP | Расширенная защита приложений и данных в Office 365, включая электронную почту и другие средства для совместной работы |
 | Azure ATP | Защита от сложных угроз, скомпрометированных удостоверений и вредоносных участников, использующих коррелированные сигналы Active Directory |
 | Microsoft Cloud App Security | Определение и борьбы с киберугрозами в облачных службах Майкрософт и сторонних производителей |
 
@@ -62,7 +62,7 @@ ms.locfileid: "43521484"
 | Служба | Data (сигналы & коррелированные сведения) | Область & ответа на исправления |
 | ------ | ------ | ------ |
 | ATP в Microsoft Defender | — Состояния конечной точки и необработанные события<br />— Обнаружение конечных точек и оповещения, в том числе антивирусная программа, ЕДР, сокращение уязвимой зоны<br />— Сведения о файлах и других объектах, которые наблюдаются в конечных точках | Конечные точки |
-| Office 365 ATP | — Состояния почты и почтовых ящиков и необработанные события<br />— Обнаружение электронной почты, вложения и ссылки | — Почтовые ящики<br />— Учетные записи Office 365 |
+| Office 365 ATP | — Состояния почты и почтовых ящиков и необработанные события<br />— Обнаружение электронной почты, вложения и ссылки | — Почтовые ящики<br />— Учетные записи Microsoft 365 |
 | Azure ATP | — Сигналы Active Directory, включая события проверки подлинности<br />— Обнаружение поведения, связанное с удостоверениями | Удостоверения |
 | Microsoft Cloud App Security | — Обнаружение несанкционированных облачных приложений и служб (теневая версия)<br />— Предоставление данных облачным приложениям<br />Действия, связанные с угрозами для облачных приложений | Облачные приложения |
 
@@ -72,7 +72,7 @@ ms.locfileid: "43521484"
 | Служба | Инструкции по подготовке | Исходная конфигурация |
 | ------ | ------ | ------ |
 | ATP в Microsoft Defender | [Руководство по развертыванию Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases) | *Сведения о подготовке* |
-| Office 365 ATP | *Нет, подготовлено с помощью Office 365* | [Настройка политик ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
+| Office 365 ATP | *Нет, подготовлено с помощью Office 365* | [Настройка политик ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
 | Azure ATP | [Краткое руководство: создание экземпляра Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) | *Сведения о подготовке* |
 | Microsoft Cloud App Security | *Нет* | [Краткое руководство: Начало работы с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security) |
 

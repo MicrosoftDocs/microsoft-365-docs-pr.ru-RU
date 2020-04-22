@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: d04070bfcec0649c5c4a1a79c082f5c5b43ad5eb
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 24cf0f9b4965b20f3a03dd64795985a082fdc847
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081296"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631409"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Рекомендуемые политики для защиты электронной почты
 
@@ -57,9 +57,9 @@ ms.locfileid: "43081296"
 
 1. Выполните команду "шаг 2: Настройка политики условного доступа Azure AD для Exchange Online с помощью ActiveSync (EAS)" в [сценарии 1: приложения Office 365 требуют утвержденных приложений с политиками защиты приложений](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), что не позволяет клиентам Exchange ActiveSync использовать обычную проверку подлинности для подключения к Exchange Online.
 
-## <a name="setup-office-365-message-encryption"></a>Настройка шифрования сообщений в Office 365
+## <a name="set-up-message-encryption"></a>Настройка шифрования сообщений
 
-Благодаря новым возможностям Microsoft 365 Message encryption (OME), которые используют функции защиты в Azure Information Protection, ваша организация может легко обмениваться защищенной электронной почтой с другими пользователями на любом устройстве. Пользователи могут отправлять и получать защищенные сообщения с другими организациями Office 365, а также клиентами, не являющимися клиентами Office 365, с помощью Outlook.com, Gmail и других почтовых служб.
+Благодаря новым возможностям Microsoft 365 Message encryption (OME), которые используют функции защиты в Azure Information Protection, ваша организация может легко обмениваться защищенной электронной почтой с другими пользователями на любом устройстве. Пользователи могут отправлять и получать защищенные сообщения с другими организациями Microsoft 365, а также без клиентов, использующих Outlook.com, Gmail и другие службы электронной почты.
 
 Дополнительные сведения см. в статье [Настройка новых возможностей шифрования сообщений Office 365](https://support.office.com/article/set-up-new-office-365-message-encryption-capabilities-7ff0c040-b25c-4378-9904-b1b50210d00e).
 

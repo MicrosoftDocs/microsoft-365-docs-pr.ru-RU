@@ -1,5 +1,5 @@
 ---
-title: Справка по развертыванию Windows 10 и Office 365 профессиональный плюс
+title: Поиск справочных ресурсов для развертывания Windows 10 и приложений Microsoft 365 для предприятий
 f1.keywords:
 - NOCSH
 ms.author: jogruszc
@@ -14,19 +14,19 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Расположение справочных материалов по развертыванию Windows 10 и Office 365 профессиональный плюс.
-ms.openlocfilehash: c581cbfc7fdb537fddf10b20d697a42a8e564bcf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Поиск справочных ресурсов и поддержки для развертывания Windows 10 и приложений Microsoft 365 для предприятий.
+ms.openlocfilehash: 7c5376228c3c0b7506fd9b9fe7fb565c0bb76446
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067598"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634090"
 ---
-# <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Справка по развертыванию Windows 10 и Office 365 профессиональный плюс 
+# <a name="find-help-for-your-windows-10-and-microsoft-365-apps-for-enterprise-deployment"></a>Поиск справочных ресурсов для развертывания Windows 10 и приложений Microsoft 365 для предприятий 
 
-Если вы планируете развертывание Windows 10 с помощью Microsoft Office 365 профессиональный плюс, существует несколько вариантов получения дополнительной помощи от сертифицированных партнеров корпорации Майкрософт и [Microsoft FastTrack](https://www.microsoft.com/fasttrack).
+Если вы планируете развертывание Windows 10 с приложениями Microsoft 365 для предприятий, существует несколько вариантов получения дополнительной помощи от сертифицированных партнеров корпорации Майкрософт и [Microsoft FastTrack](https://www.microsoft.com/fasttrack).
 
-Ниже представлена схема имеющихся служб, связанных с процессом [развертывания современного компьютера](https://www.aka.ms/howtoshift) для Windows 10, Office 365 профессиональный плюс и Enterprise Mobility + Security, а также существующие предложения от партнеров и FastTrack. Во многих случаях эти службы включены в состав соответствующей подписки на Microsoft 365, Office 365 или Windows 10 Корпоративная. Для служб под руководством партнера, таких как оценка компьютера Windows 10 и Office 365 профессиональный плюс, Майкрософт предоставляет специальные ваучеры. Больше о каждом предложении можно узнать, перейдя по указанным ниже ссылкам.
+Ниже представлена схема существующих служб, связанных с процессом [развертывания рабочих столов](https://www.aka.ms/howtoshift) для Windows 10, приложений Microsoft 365 для предприятий и Enterprise Mobility + Security, а также существующие предложения партнеров и FastTrack. Во многих случаях эти службы включены в состав соответствующей подписки на Microsoft 365, Office 365 или Windows 10 Корпоративная. Для предоставляемых партнерами услуг, таких как оценка компьютера для Windows 10 и приложений Microsoft 365 для предприятий, корпорация Майкрософт предоставляет ваучеры. Больше о каждом предложении можно узнать, перейдя по указанным ниже ссылкам.
 
 <br>
 
@@ -36,7 +36,7 @@ ms.locfileid: "42067598"
 <td><p><strong>Проверка готовности устройств и приложений</strong></p>
 <ul>
 <li><p><a href="https://aka.ms/MDAcustomerform">Оценка современного компьютера.</a> Соответствующий вашему региону партнер с помощью современных средств и процедур Microsoft тщательно анализирует совместимость приложений и устройств в вашей организации, а также оценивает их готовность к обновлению.</p>
-<li><p><a href="https://www.aka.ms/desktopappassure">Desktop App Assure.</a> Специалисты службы Microsoft FastTrack предоставляют рекомендации и руководства по исправлению в случае возникновения проблем с совместимостью приложений во время развертывания Windows 10 и Office 365 профессиональный плюс или текущих обновлений.</p>
+<li><p><a href="https://www.aka.ms/desktopappassure">Desktop App Assure.</a> Специалисты Microsoft FastTrack предоставляют рекомендации и руководства по исправлению в случае возникновения проблем совместимости приложений во время развертывания Windows 10 и приложений Microsoft 365 для предприятий или текущих обновлений.</p>
 </ul></td>
 </tr>
 <tbody>
@@ -44,14 +44,14 @@ ms.locfileid: "42067598"
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="step 2" height="144" width="144" /></td>
 <td><p><strong>Проверка готовности каталогов и сети</strong></p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#core">Начало переноса.</a> Специалисты Microsoft FastTrack обеспечивают интеграцию удостоверений между имеющейся службой каталогов и Azure Active Directory. Это необходимо для Office 365 профессиональный плюс, Microsoft Intune, OneDrive и других облачных служб Office 365 и EMS в рамках развертывания.</p></li>
+<li><p><a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#core">Начало переноса.</a> Специалисты Microsoft FastTrack обеспечивают интеграцию удостоверений между текущей службой каталогов и Azure Active Directory. Это необходимо для приложений Microsoft 365 для предприятий, Microsoft Intune, OneDrive и других облачных служб Office 365 и EMS в рамках развертывания рабочих столов.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
 <td><p><strong>Доставка приложений Office и бизнес-приложений</strong></p>
 <ul>
-<li><p>Настройка и развертывание <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Специалисты Microsoft FastTrack оказывают помощь в подготовке пользовательских лицензий, настройке параметров установки и обновления для технологии "нажми и работай", а также в создании пакетов, если ваша организация использует Microsoft Endpoint Configuration Manager.</p></li>
+<li><p>Настройка и развертывание <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">приложений Microsoft 365 для предприятий.</a> Специалисты Microsoft FastTrack помогают подготавливать пользовательские лицензии, настраивать установку и обновлять параметры для технологии "нажми и работай", а также создавать пакеты, если в вашей организации используется Microsoft Endpoint Configuration Manager.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -79,7 +79,7 @@ ms.locfileid: "42067598"
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="step 7" height="144" width="144" /></td>
 <td><p><strong>Office и Windows как услуга</strong></p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune.</a> Специалисты Microsoft FastTrack оказывают помощь в настройке политик обновления для Windows 10 и Office 365 профессиональный плюс. <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 профессиональный плюс.</a> Здесь Microsoft FastTrack также может предоставить инструкции по настройке кругов развертывания, чтобы держать вас в курсе событий.</p></li>
+<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities">Microsoft Intune.</a> Специалисты Microsoft FastTrack помогают настраивать политики обновления для Windows 10 и приложений Microsoft 365 для предприятий. <a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Приложения Microsoft 365 для предприятий.</a> Здесь служба Microsoft FastTrack также может предоставить инструкции по настройке кругов развертывания, чтобы поддерживать системы в обновленном состоянии.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -87,7 +87,7 @@ ms.locfileid: "42067598"
 <td><p><strong>Обучение и взаимодействие пользователей</strong></p>
 <ul>
 <li><p><a href="https://www.microsoft.com/microsoft-365/success/productivitylibrary/quickly-and-easily-transform-new-devices?rtc=2">Productivity Library.</a> Это набор интернет-ресурсов от корпорации Майкрософт для взаимодействия и обучения пользователей в Microsoft 365.</p></li>
-<li><p><a href="https://www.office.com/training">Центр обучения Office.</a> Это набор интернет-ресурсов от Майкрософт для обучения конечных пользователей работе в Office 365 и Office 365 профессиональный плюс.</p></li>
+<li><p><a href="https://www.office.com/training">Центр обучения Office.</a> Это набор интернет-ресурсов Майкрософт для обучения конечных пользователей работе в Office 365 и в приложениях Microsoft 365 для предприятий.</p></li>
 <li><p><a href="https://info.microsoft.com/Windows10AdoptionPlanningKit.html">Комплект средств для планирования внедрения Windows 10.</a> Это набор интернет-ресурсов от Майкрософт, который включает ресурсы проверки готовности пользователя.</p></li>
 </ul></td>
 </tr>

@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Используйте метки конфиденциальности, чтобы защитить файлы в команде со строго конфиденциальным уровнем защиты.
-ms.openlocfilehash: b263aeae335b83cadb45b16d70a2a45d56f1cbd3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c36daef7f28ad8bd3306fd7f3f7f1558a3594e68
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083376"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637620"
 ---
 # <a name="protect-files-in-teams-with-sensitivity-labels"></a>Защита файлов в командах с помощью меток конфиденциальности
 
@@ -43,8 +43,8 @@ ms.locfileid: "42083376"
 Используйте [эти инструкции](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels), чтобы настроить отдельную метку или вложенную метку со следующими параметрами:
 
 - Имя метки или вложенной метки содержит название команды
-- Шифрование включено
-- Группа Office 365 для команды получила разрешения на совместное редактирование
+- включено шифрование;
+- У группы Microsoft 365 для команды есть разрешения на совместное редактирование.
 
 После создания опубликуйте новую метку или вложенную метку для своих пользователей, которые смогут применять ее к файлам локально, прежде чем загружать их в команду, или позже, когда файл будет сохранен в команде.
 

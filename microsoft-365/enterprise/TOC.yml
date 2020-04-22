@@ -19,7 +19,7 @@
               href: networking-avoid-network-hairpins.md
             - name: Шаг 4 - Настройка обхода трафика
               href: networking-configure-proxies-firewalls.md
-            - name: "Шаг\_5 - Оптимизация производительности клиентов и служб Office\_365"
+            - name: "Шаг\_5 - Оптимизация производительности клиентов и служб"
               href: networking-optimize-tcp-performance.md
             - name: 'Условия, при выполнении которых можно считать сеть настроенной'
               href: networking-exit-criteria.md
@@ -55,10 +55,10 @@
               href: windows10-enable-security-features.md
             - name: 'Условия, при выполнении которых можно считать ОС Windows 10 Корпоративная настроенной'
               href: windows10-exit-criteria.md
-        - name: "Этап 4 - Office\_365 профессиональный плюс"
+        - name: Этап 4 - Приложения Microsoft 365 для предприятий
           href: office365proplus-infrastructure.md
           items:
-            - name: 'Условия, при выполнении которых можно считать план Office 365 профессиональный плюс настроенным'
+            - name: 'Условия, при которых можно считать установку приложений Microsoft 365 для предприятий завершенной'
               href: office365proplus-exit-criteria.md
         - name: Этап 5 - Управление мобильными устройствами
           href: mobility-infrastructure.md
@@ -76,7 +76,7 @@
               href: infoprotect-configure-increased-security-office-365.md
             - name: Шаг 4 - Настройка Windows Information Protection
               href: infoprotect-deploy-windows-information-protection.md
-            - name: "Этап\_5 - Настройка защиты от потери данных Office\_365"
+            - name: Шаг 5 - Настройка защиты от потери данных
               href: infoprotect-data-loss-prevention.md
             - name: Шаг 6 - Настройка шифрования электронной почты
               href: infoprotect-email-encryption.md
@@ -172,9 +172,9 @@
           href: contoso-networking.md
         - name: Удостоверение
           href: contoso-identity.md
-        - name: Windows 10 Корпоративная
+        - name: "Windows\_10 Корпоративная"
           href: contoso-win10.md
-        - name: Office 365 профессиональный плюс
+        - name: Приложения Microsoft 365 для предприятий
           href: contoso-o365pp.md
         - name: Управление мобильными устройствами
           href: contoso-mdm.md
@@ -188,6 +188,8 @@
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
     - name: Изменения содержимого развертывания Microsoft 365 для предприятий
       href: microsoft-365-deploment-guide-changes.md
+    - name: Состояние работоспособности службы Microsoft 365
+      href: microsoft-365-service-health.md
 - name: Центр развертывания компьютеров
   href: desktop-deployment-center-home.md
   items:

@@ -11,12 +11,12 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: Пошаговое руководство по процессу планирования, развертывания и повышения стоимости Exchange Online в Microsoft 365 предприятие в Организации.
-ms.openlocfilehash: 30ba71fbf2af684afbbffe0a2e2b1720a8eeec2c
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: 9214796c37e9cb5ca9fcb07ced5db7efd8e0f7d0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453865"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634150"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Развертывание Exchange Online для Microsoft 365 корпоративный
 
@@ -28,7 +28,7 @@ Exchange Online — это основная облачная служба для
 
 Если вы не знакомы с Exchange Online, см. статью [Microsoft Exchange Online](https://products.office.com/exchange/exchange-online).
 
-Приведенные ниже этапы и инструкции посвящены процессу представления роли Exchange Online в Организации, входящей в состав Организации для Exchange Online с помощью серии последовательных развертываний, а также при использовании Exchange Online и для конечных пользователей.
+Приведенные ниже этапы и инструкции посвящены процессу представления роли Exchange Online в Организации, входящей в состав Exchange Online с помощью серии последовательных развертываний, а также для организации использования Exchange Online и ее ценности для конечных пользователей.
 
 >[!Note]
 >Эти инструкции по развертыванию следует выполнять только после завершения [этапа 2: идентификация инфраструктуры Microsoft 365 Enterprise Foundation](identity-infrastructure.md).
@@ -73,9 +73,9 @@ Exchange Online можно использовать для разных целе
 
 Используйте эти ресурсы для подготовки к техническим аспектам развертывания Exchange Online: 
 
-- [Способы переноса нескольких записей электронной почты в Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
+- [Способы переноса электронной почты в Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
 - [Миграция общедоступных папок Exchange Server в Exchange Online](https://docs.microsoft.com/Exchange/collaboration/public-folders/migrate-to-exchange-online?view=exchserver-2019)
-- [Миграция общедоступных папок Exchange Server в группы Office 365](https://docs.microsoft.com/Exchange/collaboration/public-folders/batch-migration-to-office-365-groups?view=exchserver-2019)
+- [Миграция общедоступных папок Exchange Server в группы Microsoft 365](https://docs.microsoft.com/Exchange/collaboration/public-folders/batch-migration-to-office-365-groups?view=exchserver-2019)
 - [Совместная работа в Exchange Online](https://docs.microsoft.com/exchange/collaboration-exo/collaboration-exo)
 - [Получатели в Exchange Online](https://docs.microsoft.com/exchange/recipients-in-exchange-online/recipients-in-exchange-online)
 - [Outlook для iOS и Android](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android)
@@ -155,8 +155,8 @@ Exchange Online можно использовать для разных целе
 
 Ниже приведены некоторые рекомендуемые действия.
 
-- Общие рекомендации по внедрению облачных служб см. в документе [Факторы успеха при вовлечении конечных пользователей в Office 365](https://aka.ms/successfactors). 
-- Сведения об использовании службы Office 365 в организации см. в статье [Отчеты об активности в Центре администрирования Office 365](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports). Если вы не являетесь глобальным администратором Office 365 в своей организации, попросите глобального администратора предоставить вашей учетной записи пользователя разрешения для чтения отчетов, чтобы вы могли получать доступ к отчетам о действиях.
+- В статье [факторы успеха для Microsoft 365](https://aka.ms/successfactors) вы узнаете об общих рекомендациях по внедрению облачных служб. 
+- Сведения об использовании служб в Организации можно найти [в статье Microsoft 365 Reports в центре администрирования](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) . Если вы не является глобальным администратором вашей организации, попросите кого-либо, кто является глобальным администратором, предоставить учетной записи пользователя разрешения читателя, чтобы получить доступ к отчетам об активности.
 - Проследите за вашими отзывами (общедоступный канал в Центральной Team Teams или Yammer), чтобы получить сведения о возвыстях и отзывах пользователей в Exchange Online. Как можно быстрее отвечайте на вопросы и помогайте решать проблемы, чтобы не допустить разочарования, и демонстрируйте поддержку развертывания.
 - Идентифицируйте и помогайте лидеров в каждой бизнес-группе и выделяйте их рекомендации с помощью Outlook. Освещайте их успехи в организации, чтобы показать успех проекта и его внедрение. Одобрение техническими руководителями в бизнес-группе может оказать большое влияние на лидеров и коллеги.
 

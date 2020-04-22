@@ -1,5 +1,5 @@
 ---
-title: Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
+title: Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Узнайте о функциях обеспечения безопасности, которые поставляются с Microsoft 365 Business для защиты данных на компьютерах, телефонах и планшетах.
-ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Узнайте о функциях обеспечения безопасности, которые поставляются с Microsoft 365 Business Premium, чтобы обеспечить защиту данных на компьютерах, телефонах и планшетах.
+ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153805"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635151"
 ---
-# <a name="microsoft-365-business-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Бизнес
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Функции обеспечения безопасности и соответствия требованиям Microsoft 365 Business Premium
 
-Microsoft 365 Business предлагает упрощенные функции безопасности для защиты данных на компьютерах, телефонах и планшетах.
+Microsoft 365 Business Premium предоставляет упрощенные функции безопасности для защиты данных на компьютерах, телефонах и планшетах.
     
-## <a name="microsoft-365-business-admin-center-security-features"></a>Функции безопасности центра администрирования Microsoft 365 Business
+## <a name="microsoft-365-admin-center-security-features"></a>Функции безопасности центра администрирования Microsoft 365
 
 [![Надпись, оповещающая об изменении Центра администрирования. Дополнительные сведения см. на сайте aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Вы можете управлять многими функциями Microsoft 365 Business Security в центре администрирования, что позволяет включать и отключать эти функции в упрощенном виде. В центре администрирования можно выполнить следующие действия:
+Вы можете управлять многими функциями безопасности Microsoft 365 Business Premium в центре администрирования, что позволяет включать и отключать эти функции в упрощенном виде. В центре администрирования можно выполнить следующие действия:
   
 - [Настройка параметров управления приложениями для устройств с Android или iOS](app-protection-settings-for-android-and-ios.md) . 
     
@@ -62,7 +62,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 ## <a name="additional-security-features"></a>Дополнительные функции безопасности 
 
-Расширенные возможности Microsoft 365 Business помогут вам защитить бизнес от угроз кибератак и защищать конфиденциальные данные.
+Расширенные функции в Microsoft 365 Business Premium помогут вам защитить бизнес от угроз кибератак-угроз и защищать конфиденциальные данные.
   
 - **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
@@ -74,7 +74,7 @@ Microsoft 365 Business предлагает упрощенные функции 
 
 - **[Все возможности Intune на портале Azure](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Доступ к центру администрирования Intune на портале Azure позволяет настраивать дополнительные функции безопасности, такие как управление устройствами MacOS, iPhone и Android, а также расширенное управление устройствами для Windows, которые недоступны в центре администрирования Microsoft 365 Business.
+    Доступ к центру администрирования Intune на портале Azure позволяет настраивать дополнительные функции безопасности, такие как управление устройствами MacOS, iPhone и Android, а также расширенное управление устройствами для Windows, которые недоступны в центре администрирования Microsoft 365.
 - **Такой же [Условный доступ](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) , как и в плане Azure AD Premium P1**
 
 
@@ -95,7 +95,7 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 ## <a name="compliance-features"></a>Функции обеспечения соответствия требованиям
 
-Подписка на Microsoft 365 Business включает функции, помогающие обеспечить соответствие требованиям и нормативным стандартам.
+Подписка на Microsoft 365 Business Premium включает функции, помогающие обеспечить соответствие требованиям и нормативным стандартам.
 
 - **[Обзор политик защиты от потери данных](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
@@ -107,20 +107,20 @@ Microsoft 365 Business предлагает упрощенные функции 
     
 - **[Метки конфиденциальности](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business включает все функции [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). С помощью этого плана можно создавать **метки конфиденциальности** , которые позволяют управлять доступом к конфиденциальным сведениям в сообщениях электронной почты и документов, с элементами управления, такими как "не пересылать" и "не копировать". Вы также можете классифицировать конфиденциальную информацию как "конфиденциально" и указать, как секретную информацию можно совместно использовать снаружи и внутри Организации. Шифрование уровня предприятия легко применить к электронной почте и документам, чтобы обеспечить их конфиденциальность. Вы также можете установить клиентскую надстройку Azure Information Protection для приложений Office. Для получения дополнительных сведений обратитесь к [клиенту единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Для меток конфиденциальности установите **AzInfoProtection_UL. exe**.
+   Microsoft 365 Business Premium включает все функции [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407). С помощью этого плана можно создавать **метки конфиденциальности** , которые позволяют управлять доступом к конфиденциальным сведениям в сообщениях электронной почты и документов, с элементами управления, такими как "не пересылать" и "не копировать". Вы также можете классифицировать конфиденциальную информацию как "конфиденциально" и указать, как секретную информацию можно совместно использовать снаружи и внутри Организации. Шифрование уровня предприятия легко применить к электронной почте и документам, чтобы обеспечить их конфиденциальность. Вы также можете установить клиентскую надстройку Azure Information Protection для приложений Office. Для получения дополнительных сведений обратитесь к [клиенту единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Для меток конфиденциальности установите **AzInfoProtection_UL. exe**.
 
-Вы можете управлять этими функциями в центре безопасности &amp; и управления Intune. Со временем в центр администрирования Microsoft 365 бизнес будут добавлены упрощенные элементы управления.
+Вы можете управлять этими функциями в центре безопасности &amp; и управления Intune. Со временем в центр администрирования Microsoft 365 будут добавлены упрощенные элементы управления.
   
     
 ## <a name="faq"></a>Вопросы и ответы
 
  ### <a name="are-these-security-features-available-in-all-markets"></a>Доступны эти функции безопасности на всех рынках?
   
-Да, эти функции доступны на всех рынках, где продаются Microsoft 365 бизнес.
+Да, эти функции доступны на всех рынках, где реализовано Microsoft 365 бизнес премиум.
   
 ### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Как найти центр соответствия требованиям безопасности &amp; ?
   
-1. [Войдите в Microsoft 365 Business](https://portal.microsoft.com/) , используя учетные данные администратора. 
+1. [Войдите в Microsoft 365 Business Premium](https://portal.microsoft.com/) , используя учетные данные администратора. 
     
 2. В левой панели навигации выберите **центр администрирования** и разверните его. 
     

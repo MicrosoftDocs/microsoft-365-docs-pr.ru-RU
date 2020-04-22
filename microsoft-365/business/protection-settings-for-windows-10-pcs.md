@@ -21,25 +21,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Узнайте о том, как использовать по умолчанию и другие параметры, доступные в Microsoft 365 Business для защиты устройств с Windows 10.
-ms.openlocfilehash: 1b424fe6a85ad23b2914ea29f47d1dc16b333c94
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте о том, как использовать по умолчанию и другие параметры, доступные в Microsoft 365 для бизнеса, для защиты устройств с Windows 10.
+ms.openlocfilehash: a3b7f0a8572a215491b32101a30c306b54571b6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064978"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633024"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Настройка параметров защиты устройств для компьютеров с Windows 10
 
 ## <a name="secure-windows-10-devices"></a>Защита устройств с Windows 10
 
-Просмотрите видео о том, как защитить устройства с Windows 10 с помощью Office 365 бизнес:
+Посмотрите видео о том, как защитить устройства с Windows 10 с помощью Microsoft 365 для бизнеса.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. В левой панели навигации выберите пункт **** \> **политики** \> устройств **Добавить**.
+2. В левой панели навигации выберите пункт **Devices** \> **политики** \> устройств **Добавить**.
   
 3. На панели **Добавить политику** введите уникальное имя политики. 
     
@@ -59,7 +59,7 @@ ms.locfileid: "42064978"
 
 Все параметры **включены** по умолчанию. Доступные параметры перечислены ниже.
   
-Дополнительные сведения см. в статье [Как функции защиты в Microsoft 365 бизнес соотносятся с параметрами Intune](map-protection-features-to-intune-settings.md). 
+Дополнительные сведения о [функциях защиты в Microsoft 365 Premium сопоставляются с параметрами Intune](map-protection-features-to-intune-settings.md). 
   
 |||
 |:-----|:-----|

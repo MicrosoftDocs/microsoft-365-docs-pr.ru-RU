@@ -1,7 +1,7 @@
 ---
 title: Таблица EmailAttachmentInfo в схеме расширенного поиска
 description: Сведения о вложениях электронной почты в таблице EmailAttachmentInfo схемы расширенного поиска
-keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, Емаилаттачментинфо, идентификатор сетевого сообщения, отправитель получатель, идентификатор вложения, имя вложения, вредоносности вредоносных программ
+keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справка по схеме, Кусто, таблица, столбец, тип данных, описание, Емаилаттачментинфо, идентификатор сетевого сообщения, отправитель, имя получателя, идентификатор вложения, имя вложения и вредоносная вредоносности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d35313cf481ecd6892725ae385e7db1032565611
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 5cfda9a581e03c91815bdcbd2508fcc6c52d2652
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234798"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633635"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -39,7 +39,7 @@ ms.locfileid: "42234798"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
 | `AttachmentId` | string | Уникальный идентификатор вложения электронной почты |
-| `NetworkMessageId` | string | Уникальный идентификатор сообщения электронной почты, сформированный в Office 365 |
+| `NetworkMessageId` | string | Уникальный идентификатор электронного сообщения, созданного Microsoft 365 |
 | `SenderFromAddress` | string | Адрес электронной почты отправителя в заголовке "ОТ", который получатели электронной почты видят в своих почтовых клиентах |
 | `RecipientEmailAddress` | string | Адрес электронной почты получателя или адрес электронной почты получателя после расширения списка рассылки |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |

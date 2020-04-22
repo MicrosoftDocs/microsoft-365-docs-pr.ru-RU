@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как установить и использовать надстройку создания отчетов о нежелательной почте (Майкрософт), чтобы сообщать корпорации Майкрософт о нежелательной почте, сообщениях о нежелательной почте и фишинге.
-ms.openlocfilehash: e39fb2f4ecba806c2d26d989fbbe6ddec137adc1
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: be087a15071114b2d1ec564cbb118dcd85e32429
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033951"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638504"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook-in-office-365"></a>Установка и использование надстройки создания отчетов о нежелательной почте для Microsoft Outlook в Office 365
 
@@ -30,14 +30,14 @@ ms.locfileid: "43033951"
 
 В этом разделе объясняется, как установить и использовать надстройку создания отчетов о нежелательной почте.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
 
 - Чтобы установить надстройку создания отчетов о нежелательной почте, обратитесь к разделу [Установка надстройки создания отчетов о нежелательной почте](#install-the-junk-email-reporting-add-in) далее в этом разделе.
 
 - Надстройка создания отчетов о нежелательной почте работает со следующими версиями Outlook:
 
   - Outlook 2013 или более поздней версии
-  - Outlook, включенный в Office 365 профессиональный плюс
+  - Outlook, входящий в состав приложений Microsoft 365 для предприятий
 
 - Дополнительные сведения о сообщениях отчетов в корпорацию Майкрософт можно найти [в статье сообщения и файлы отчетов в корпорацию Майкрософт в Office 365](report-junk-email-messages-to-microsoft.md).
 
@@ -156,7 +156,7 @@ ms.locfileid: "43033951"
    msiexec /qn /i "C:\Downloads\Junk Reporting Add-in for Office 2007, 2010, 2013, and 2016 (32-bit).msi" MaxMessageSelection=20 BccEmailAddress="junkreports@contoso.com; hollyd@treyresearch.net"
    ```
 
-### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 
 Чтобы убедиться, что вы успешно установили надстройку создания отчетов о нежелательной почте, выполните одно из указанных ниже действий в Outlook.
 

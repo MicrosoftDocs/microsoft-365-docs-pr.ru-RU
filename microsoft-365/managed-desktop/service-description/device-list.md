@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: b851f3f698abd34d4964c79a68be050ad9f0a4db
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: 354845e3bfebee5e6c67b53ba5ef6f55a9c419f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198365"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637880"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -75,7 +75,6 @@ ms.locfileid: "43198365"
 - Для получения дополнительных вопросов на устройствах Dell свяжитесь с <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>.
 
 - Для получения дополнительных вопросов о устройствах HP и инструкциях по упорядочиванию устройств обратитесь по адресу: Америки (<a href="mailto:mmd-americas@hp.com">MMD-Americas@hp.com</a>); Европа, Ближний Восток и Африка (<a href="mailto:mmd-emea@hp.com">MMD-EMEA@hp.com</a>); Азиатско-Тихоокеанский регион/Япония (<a href="mailto:mmd-apj@hp.com">MMD-APJ@hp.com</a>); Глобальная (<a href="mailto:mmd@hp.com">MMD@hp.com</a>)
-
 
 
 

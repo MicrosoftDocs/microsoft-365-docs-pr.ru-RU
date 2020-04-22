@@ -1,5 +1,5 @@
 ---
-title: Управление защищенными устройствами с помощью Microsoft 365 Business
+title: Управление защищенными устройствами с помощью Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -27,14 +27,14 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Изучите удаление данных компании с устройств, управляемых с помощью политик защиты, а также восстановление заводских настроек устройств с Windows 10.
-ms.openlocfilehash: 97c9751d020d7f2aecb1e64718721c1ca25189e1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 180887dca3226512ab558e98d2b5a78da3521e53
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561527"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634295"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business"></a>Управление защищенными устройствами с помощью Microsoft 365 Business
+# <a name="manage-protected-devices-with-microsoft-365-for-business"></a>Управление защищенными устройствами с помощью Microsoft 365 для бизнеса
 
 После того как пользователь подключил устройство к Организации, войдя с помощью своей рабочей учетной записи на устройство или в приложения Office на устройстве, вы можете защитить это устройство с помощью настроенных политик. Подключенные устройства перечислены на странице " **устройства** ". Если устройство утрачено или украдено, вы можете управлять им с этой страницы, чтобы удалить все данные компании. Вы также можете сбросить устройства Windows 10 в соответствии с их фабричными настройками, чтобы очистить все настраиваемые параметры. 
 

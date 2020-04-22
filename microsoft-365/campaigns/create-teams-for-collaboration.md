@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создайте пространство для совместной работы для группы с помощью Microsoft Teams.
-ms.openlocfilehash: d057dbf0afca31b91e8792b3e0ca13d45b5e3455
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a89d7a87a18431dfef72c6f7ca4d6c7fbce21f7c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42056358"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635652"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Создание Teams для совместной работы в Microsoft Teams
 
@@ -48,7 +48,7 @@ Microsoft Teams — это приложение для совместной ра
 
 Когда вы создаете команду, вот что еще создаете:
 
-- Новая [Группа Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
+- Новая [группа Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
 - Сайт [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) и библиотека документов для хранения файлов группы
 - Общий почтовый ящик [Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) и календарь
 - Записная книжка OneNote

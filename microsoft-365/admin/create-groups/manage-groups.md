@@ -1,5 +1,5 @@
 ---
-title: Управление группой Office 365 в центре администрирования
+title: Управление группой в центре администрирования
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: Сведения об управлении группами Office 365, в том числе добавление участников группы, изменение адреса электронной почты, имени группы или описания и настройка работы группы.
-ms.openlocfilehash: 34682d3d06babca04a9b2541e3f33ec79d934f50
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Сведения об управлении группами Microsoft 365, в том числе добавление участников группы, изменение адреса электронной почты, имени группы или описания и настройка работы группы.
+ms.openlocfilehash: 230a449bad22d0b872983a8c911955f4d00153ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212073"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630397"
 ---
-# <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a>Управление группой Office 365 в центре администрирования Microsoft 365
+# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Управление группой в центре администрирования Microsoft 365
 
-Создав [группу Office 365](create-groups.md) и добавив участников группы, вы можете настроить группу. Вы можете изменить имя или описание группы, управлять владельцами или членами и указать, могут ли внешние отправители отправлять почту группе, а также отправлять копии групповых бесед участникам. 
+Создав группу [Microsoft 365](create-groups.md) и добавив участников группы, вы можете настроить группу. Вы можете изменить имя или описание группы, управлять владельцами или членами и указать, могут ли внешние отправители отправлять почту группе, а также отправлять копии групповых бесед участникам. 
 
 ## <a name="edit-the-group-name-or-description"></a>Изменение имени или описания группы
 
@@ -192,14 +192,14 @@ ms.locfileid: "43212073"
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Создание группы Office 365](create-groups.md)
+[Создание группы Microsoft 365](create-groups.md)
 
-[Управление гостевым доступом к группам Office 365](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[Выбор домена, который будет использоваться при создании групп Office 365](choose-domain-to-create-groups.md)
+[Выбор домена, который будет использоваться при создании групп Microsoft 365](choose-domain-to-create-groups.md)
 
-[Разрешение пользователям отправлять сообщения от имени группы Office 365 или отправлять от него](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[Разрешить участникам отправлять сообщения от имени группы Microsoft 365 или отправлять от него](allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
-[Обновление списков рассылки до групп Office 365](../manage/upgrade-distribution-lists.md)
+[Обновление списков рассылки до групп Майкрософт 365](../manage/upgrade-distribution-lists.md)
 
-[Управление группами Office 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Управление группами Microsoft 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)

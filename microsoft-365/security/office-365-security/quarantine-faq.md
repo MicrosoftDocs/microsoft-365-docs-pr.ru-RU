@@ -16,24 +16,24 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: Ответы на часто задаваемые вопросы о карантине в Office 365.
-ms.openlocfilehash: 58800d5645241c2115356bc9899ce53302d1e37e
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 3947fbed2a17380a18320a8bffd08a8178ad2b3f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42856909"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634428"
 ---
-# <a name="quarantine-faq-in-office-365"></a>Вопросы и ответы о карантине в Office 365
+# <a name="quarantine-faq"></a>Вопросы и ответы, посвященные карантину
 
-В этом разделе приведены часто задаваемые вопросы и ответы о карантине для пользователей Office 365 с почтовыми ящиками в Exchange Online или отдельных клиентах Exchange Online Protection (EOP) без почтовых ящиков Exchange Online.
+В этом разделе приведены часто задаваемые вопросы и ответы о карантине для пользователей Microsoft 365 с почтовыми ящиками в Exchange Online или отдельных клиентах Exchange Online Protection (EOP) без почтовых ящиков Exchange Online.
 
 ## <a name="q-how-do-i-manage-messages-that-were-quarantined-for-malware"></a>Вопрос: как управлять сообщениями, помещенными в карантин для вредоносных программ?
 
-Только администраторы могут управлять сообщениями, помещенными в карантин для вредоносных программ. Дополнительные сведения см. [в статье Manage a карантинных сообщений и файлов в качестве администратора в Office 365](manage-quarantined-messages-and-files.md).
+Только администраторы могут управлять сообщениями, помещенными в карантин для вредоносных программ. Дополнительные сведения см. в разделе [Управление сообщениями и файлами на карантине в качестве администратора Office 365](manage-quarantined-messages-and-files.md).
 
 ## <a name="q-how-do-i-quarantine-spam"></a>В. как помещать спам?
 
-О. По умолчанию при фильтрации нежелательной почты сообщения, которые классифицируются как спам, отправляются в почтовый ящик пользователя и перемещаются в папку нежелательной почты. Но вы можете создавать и настраивать политики защиты от нежелательной почты для помещения нежелательной почты в карантин или массовых сообщений электронной почты. Дополнительные сведения см в разделе [Настройка политик защиты от нежелательной почты в Office 365](configure-your-spam-filter-policies.md).
+О. По умолчанию при фильтрации нежелательной почты сообщения, которые классифицируются как спам, отправляются в почтовый ящик пользователя и перемещаются в папку нежелательной почты. Но вы можете создавать и настраивать политики защиты от нежелательной почты для помещения нежелательной почты в карантин или массовых сообщений электронной почты. Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
 
 ## <a name="q-how-do-i-give-users-access-to-the-quarantine"></a>Вопрос: как предоставить пользователям доступ к карантину?
 
@@ -70,7 +70,7 @@ $CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contos
 Затем выполните следующую команду, чтобы освободить сообщения всем исходным получателям:
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $CQ.Identity -ReleaseToAll}
+$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
 ```
 
 После освобождения сообщения его невозможно будет снова освободить.

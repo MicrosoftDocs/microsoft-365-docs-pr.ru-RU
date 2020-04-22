@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: Узнайте, как добавить лицензии в подписку.
-ms.openlocfilehash: aa924c3c485f33fa831d140413ebfd2d872f30ff
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 694b8ac57e28bbe6b03e5f8aeef87bda1bcc73ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632429"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Добавление лицензий или расширение подписки с помощью ключа продукта
 
@@ -41,6 +41,7 @@ ms.locfileid: "43142243"
 ## <a name="add-licenses-to-your-subscription"></a>Добавление лицензий в подписку
 
 ::: moniker range="o365-worldwide"
+
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
 
@@ -98,6 +99,7 @@ ms.locfileid: "43142243"
 ## <a name="extend-the-expiration-date-of-your-subscription"></a>Увеличьте срок действия подписки
 
 ::: moniker range="o365-worldwide"
+
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
 

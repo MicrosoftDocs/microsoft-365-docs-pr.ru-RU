@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Используйте это руководство по лаборатории тестирования для включения дополнительных параметров безопасности Microsoft 365 для тестовой среды Microsoft 365 Enterprise.
-ms.openlocfilehash: 166388de138f5268eb29b8a427bad61ec6ab7cda
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: 53205f0626ce55c5a9627339f3631964e3374a19
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058885"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631673"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Повышенная безопасность Microsoft 365 для тестовой среды Microsoft 365 корпоративный
 
@@ -43,7 +43,7 @@ ms.locfileid: "43058885"
 
 ## <a name="phase-2-configure-increased-microsoft-365-security"></a>Этап 2: Настройка усиленной безопасности Microsoft 365
 
-На этом этапе вы включите повышенную безопасность Microsoft 365 для тестовой среды Microsoft 365 Enterprise. Дополнительные сведения и параметры можно найти [в статье Настройка клиента Office 365 для повышения безопасности](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+На этом этапе вы включите повышенную безопасность Microsoft 365 для тестовой среды Microsoft 365 Enterprise. Дополнительные сведения и параметры можно найти [в статье Настройка клиента для повышения безопасности](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>Настройка SharePoint Online для блокирования приложений, не поддерживающих современные проверки подлинности
 
@@ -64,7 +64,7 @@ ms.locfileid: "43058885"
 
 Office 365 Advanced Threat protection (ATP) для SharePoint, OneDrive и Microsoft Teams защищает организацию от случайного предоставления вредоносных файлов.
 
-1. Перейдите в [Центр безопасности & безопасности Office 365](https://protection.office.com) и войдите в свою учетную запись глобального администратора.
+1. Перейдите в [Центр безопасности & соответствия требованиям](https://protection.office.com) и войдите в свою учетную запись глобального администратора.
 
 2. В левой области навигации в разделе **Управление угрозами**щелкните **Политика**, а затем щелкните **безопасные вложения ATP**. 
 
@@ -94,7 +94,7 @@ Office 365 Advanced Threat protection (ATP) для SharePoint, OneDrive и Micro
 
 Чтобы просмотреть панель мониторинга безопасности:
 
-1. При необходимости перейдите в [Центр безопасности & безопасности Office 365](https://protection.office.com) и войдите в свою учетную запись глобального администратора.
+1. При необходимости перейдите в [Центр безопасности & соответствия требованиям](https://protection.office.com) и войдите в свою учетную запись глобального администратора.
 
 2. В левой области навигации в разделе **Управление угрозами**щелкните **панель мониторинга**.
 

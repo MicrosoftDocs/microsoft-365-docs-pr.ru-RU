@@ -1,5 +1,5 @@
 ---
-title: Проверка и утверждение ожидающих действий по исправлению в Office 365 автоматизированное исследование и ответ
+title: Проверка и утверждение ожидающих действий по исправлению в автоматическом расследовании и отклике
 keywords: ВОЗДУШный, Аутоир, ATP, автоматизированный, исследование, ответ, исправление, угрозы, усовершенствованный, угроза, защита
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d2b617e29fc36d1f39ab6c9ef6f708d5f608b206
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: d14b8827bd3c69461d832d66bb371b5d62d9802e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826461"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634644"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Просмотр ожидающих или завершенных действий по исправлению, следующих за автоматическим исследованием в Office 365
 

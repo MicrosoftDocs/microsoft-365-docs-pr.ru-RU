@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Сведения о том, как читать и изучать продукты Майкрософт для бизнеса.
 keywords: счета выставления счетов, сведения об организации, счета
-ms.openlocfilehash: 0ccf8484ba5f8badd29e1a8a54e1b570dd1e0548
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 3028b0e8aa952b932e7d56a5ecceaad5931dee30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409714"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634984"
 ---
 # <a name="understand-your-invoice"></a>Расшифровка счета
 
 В счете представлена сводная информация о расходах и инструкциях по оплате. Вы можете [Просмотреть свою электронную накладную](#view-your-online-invoice) в центре администрирования Microsoft 365. Вы также можете скачать его в формате переносимых документов (. PDF) для отправки по электронной почте.
 
-Если у вас есть подписка на Office 365, ознакомьтесь со статьей [Просмотр счета для office 365 для бизнеса](view-your-bill-or-invoice.md).
+Если у вас есть только подписка на Microsoft 365, ознакомьтесь со статьей [Просмотр счета для microsoft 365 для бизнеса](view-your-bill-or-invoice.md).
 
 ## <a name="understand-the-invoice-header"></a>Общие сведения о заголовке счета
 

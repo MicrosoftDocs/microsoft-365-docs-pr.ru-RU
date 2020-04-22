@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 ms.assetid: 093a6d0d-890b-489e-9f46-b15687d3fe4f
 description: Сведения об активных пользователях аналитики использования Microsoft 365, отчетах об активности и метриках внедрения.
-ms.openlocfilehash: 0e2f5f5112593c142b4a7829977221c5542adf49
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2117bae32913ad713318c1df25be66d6ef6859e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247280"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631795"
 ---
 # <a name="active-user-in-microsoft-365-usage-reports"></a>Активные пользователи в отчетах об использовании Microsoft 365
 
-## <a name="active-user-in-usage-reports"></a>Активные пользователи в отчетах об использовании
+## <a name="active-user-in-usage-reports"></a>Активный пользователь в отчетах об использовании
 
 Активный пользователь продуктов Microsoft 365 для [аналитики использования microsoft 365](usage-analytics.md) и [отчеты об активности в центре администрирования](../activity-reports/activity-reports.md) определены следующим образом. 
   

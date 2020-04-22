@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: В этом разделе объясняется, как настроить Microsoft Exchange Online Protection (EOP). Если вы приступите отсюда в мастере доменов Office 365, вернитесь к мастеру доменов Office 365, если вы не хотите использовать Exchange Online Protection. Если вы ищете дополнительные сведения о настройке соединителей, обратитесь к разделу Настройка обработки почты с помощью соединителей в Office 365.
-ms.openlocfilehash: 6686e95f343a116a53991957e7746ef841e858ba
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 9a2c876ac7696adfcabf87d4ad13e29374509f1b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081236"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638312"
 ---
 # <a name="set-up-your-eop-service"></a>Настройка службы EOP
 
@@ -30,7 +30,7 @@ ms.locfileid: "43081236"
 
 - Предполагаемое время выполнения задачи: 1 час.
 
-- Чтобы вы могли настраивать соединители, у вашей учетной записи должны быть права глобального администратора Office 365 или администратора организации Exchange (группа ролей "Управление организацией"). Дополнительные сведения см. [в разделе разрешения функций в EOP](feature-permissions-in-eop.md).
+- Чтобы настроить соединители, ваша учетная запись должна быть глобальным администратором или администратором компании Exchange (группа ролей управления организацией). Дополнительные сведения см. [в разделе разрешения функций в EOP](feature-permissions-in-eop.md).
 
 - Если вы не подписаны на EOP, посетите [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection) и приобретите службу или получите ее пробную версию.
 
@@ -54,11 +54,11 @@ ms.locfileid: "43081236"
 
 ## <a name="step-3-use-the-eac-to-set-up-mail-flow"></a>Действие 3. Использование Центра администрирования Exchange для настройки потока обработки почты
 
-В Центр администрирования Exchange создайте соединители, необходимые для работы потока обработки почты между Exchange Online Protection и локальными почтовыми серверами. Подробные сведения о том, как это сделать, см. в разделе [Set up connectors to route mail between Office 365 and your own email servers](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail).
+Создайте соединители в центре администрирования Exchange, которые обеспечивают почтовые потоки между EOP и локальными почтовыми серверами. Подробные инструкции приведены в разделе [Настройка соединителей для маршрутизации почты между microsoft 365 и вашими серверами электронной почты](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail).
 
 ### <a name="how-do-you-know-this-task-worked"></a>Как убедиться, что это сработало?
 
-Проверьте потоки обработки почты между службой и вашей средой. Дополнительные сведения см. [в статье Проверка почтовых ящиков путем проверки соединителей Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
+Проверьте потоки обработки почты между службой и вашей средой. Дополнительные сведения см. [в разделе Проверка почтовых ящиков с помощью проверки соединителей Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
 
 ## <a name="step-4-allow-inbound-port-25-smtp-access"></a>Действие 4. Разрешение доступа к входящему порту 25 для трафика SMTP
 
@@ -75,13 +75,13 @@ ms.locfileid: "43081236"
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6: использование центра администрирования Microsoft 365 для направления записи MX на EOP
 
-Выполните инструкции по настройке домена Office 365 для обновления записи MX своего домена, чтобы входящая электронная почта проходила через службу EOP. Убедитесь, что запись MX указывает напрямую на EOP. Не используйте службу фильтрации стороннего поставщика для ретрансляции почты в EOP. Дополнительные сведения также можно найти в статье [Создание записей DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Выполните действия по настройке домена, чтобы обновить запись MX для вашего домена, чтобы входящая электронная почта направляется через EOP. Убедитесь, что запись MX прямо указана в EOP, а не в EOP от сторонней службы фильтрации электронной почты. Для получения дополнительных сведений можно снова ссылаться на [Создание записей DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 ### <a name="how-do-you-know-this-task-worked"></a>Как убедиться, что это сработало?
 
 На этот момент выполнена проверка правильности настройки локального исходящего соединителя предоставляемой службы, а также проверка того, что запись MX указывает на EOP. Теперь можно выполнить следующие дополнительные тесты, чтобы убедиться, что служба успешно доставляет электронную почту в локальную среду.
 
-- Проверьте потоки обработки почты между службой и вашей средой. Дополнительные сведения см. [в статье Проверка почтовых ящиков путем проверки соединителей Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
+- Проверьте потоки обработки почты между службой и вашей средой. Дополнительные сведения см. [в разделе Проверка почтовых ящиков с помощью проверки соединителей Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow).
 
 - Отправьте сообщение с любой учетной записи электронной почты в Интернете получателю в вашей организации, чей домен соответствует добавленному в службу. Подтвердите доставку сообщения в локальный почтовый ящик с помощью Microsoft Outlook или другого почтового клиента.
 

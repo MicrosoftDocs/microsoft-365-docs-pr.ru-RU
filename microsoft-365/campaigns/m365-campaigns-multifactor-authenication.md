@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка многофакторной проверки подлинности.
-ms.openlocfilehash: b0594551b9efb907dfba374f781f21b8850f85d1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 35171688f9e224bdcb9ce8a592cc80124d253d2d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594844"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633705"
 ---
 # <a name="set-up-multifactor-authentication"></a>Настройка многофакторной проверки подлинности
 
@@ -36,7 +36,7 @@ ms.locfileid: "41594844"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR] 
 
-Дополнительные сведения о [настройке многофакторной проверки подлинности в Microsoft 365 Business](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
+Дополнительные сведения о [настройке многофакторной проверки подлинности в Microsoft 365](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225)
 
 ## <a name="use-the-outlook-app-in-your-devices"></a>Использование приложения Outlook на устройствах
 

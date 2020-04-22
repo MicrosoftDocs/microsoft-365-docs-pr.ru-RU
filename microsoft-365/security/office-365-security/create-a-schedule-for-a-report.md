@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как настроить расписание для отчета в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 3e09dee36e14ca1e25f6ea20c8f2b5843dc7edaa
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: a5160c564373711521635d3a206d5501b0b2c8f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030168"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637704"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>Создание расписания для отчета в центре безопасности &amp; и соответствия требованиям
 
@@ -31,7 +31,7 @@ ms.locfileid: "43030168"
 ## <a name="create-a-schedule-for-a-report"></a>Создание расписания для отчета
 
 > [!IMPORTANT]
-> Убедитесь, что у вас есть необходимые разрешения для выполнения этой задачи. В общем случае пользователи Office 365 глобальные администраторы, администраторы безопасности и средства чтения безопасности могут получать доступ к отчетам в центре безопасности &amp; и соответствия требованиям. Дополнительные сведения о разрешениях приведены [в разделе разрешения в центре безопасности &amp; и соответствия требованиям Office 365](permissions-in-the-security-and-compliance-center.md).
+> Убедитесь, что у вас есть необходимые разрешения для выполнения этой задачи. В общем случае глобальные администраторы, администраторы безопасности и средства чтения безопасности могут получать доступ к отчетам &amp; в центре безопасности и соответствия требованиям. Дополнительные сведения о разрешениях приведены [в разделе разрешения в &amp; центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
   
 1. В [центре безопасности &amp; и соответствия требованиям](https://protection.office.com)откройте **панель мониторинга** **отчетов** \> .
     
@@ -72,7 +72,7 @@ ms.locfileid: "43030168"
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md)
+[Отчеты и аналитика в центре безопасности &amp; и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   
 [Управление расписаниями для отчетов в центре &amp; безопасности и соответствия требованиям](manage-schedules-for-multiple-reports.md)
   

@@ -14,17 +14,17 @@ layout: LandingPage
 ms.service: o365-administration
 localization_priority: Priority
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
-description: Узнайте, как управлять электронной почтой в почтовых ящиках Office 365.
-ms.openlocfilehash: ca1fba8c89f7c647a0bb6d4f846ebb12f82a7abd
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+description: Узнайте, как управлять электронной почтой в почтовых ящиках Microsoft 365.
+ms.openlocfilehash: 25d34ed4f86a918daea5e04c89b9b79c91bebc08
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126015"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628859"
 ---
 # <a name="email"></a>Электронная почта
 
-Узнайте, как управлять электронной почтой в почтовых ящиках Office 365.
+Узнайте, как управлять электронной почтой в почтовых ящиках Microsoft 365.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -146,7 +146,7 @@ ms.locfileid: "43126015"
                 <div class="card">
                     <div class="cardText">
                         <h3>Устранение проблем с подключением и доставкой электронной почты</a></h3>
-                        <p><a href="https://diagnostics.outlook.com/#/">Устранение проблем с подключением Outlook в Office 365 и Exchange Online</a></p>
+                        <p><a href="https://diagnostics.outlook.com/#/">Устранение проблем c подключением Outlook в Microsoft 365 и Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox">Восстановление элементов, удаленных из почтового ящика пользователя</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues">Поиск и устранение проблем с доставкой электронной почты</a></p>
                         <p><a href="../get-help-with-domains/find-and-fix-issues.md">Поиск и устранение проблем (в том числе связанных с электронной почтой) после добавления домена или записей DNS</a></p>
@@ -162,8 +162,8 @@ ms.locfileid: "43126015"
             <div class="card">
                 <div class="cardText">
                         <h3>Ресурсы для предприятий</h3>
-                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Рекомендации в отношении потока обработки почты в Exchange Online и Office 365</a></p>
-                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Способы переноса электронной почты в Office 365</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Рекомендации в отношении потока обработки почты в Exchange Online и Microsoft 365</a></p>
+                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Способы переноса нескольких учетных записей электронной почты в Microsoft 365</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-hybrid">Материалы по гибридному развертыванию Exchange</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-online">Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview">Exchange Online Protection</a></p>

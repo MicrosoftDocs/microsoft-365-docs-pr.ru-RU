@@ -17,16 +17,16 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как можно переходить с панели мониторинга в представление о рекомендуемых действиях &amp; в центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 52fc933133cee4b060a08516b64a46c1c24a13cb
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 22ca34696bc46e0142818be715d68f0b469c6255
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537501"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638098"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>Пошаговое руководство. Из панели мониторинга к аналитике
 
-Если вы не знакомы с [отчетами и аналитическими сведениями в центре безопасности &amp; и соответствия требованиям Office 365](reports-and-insights-in-security-and-compliance.md), то можете понять, как легко переходить с панели мониторинга на подробные и рекомендуемые действия. 
+Если вы не знакомы с [отчетами и аналитическими сведениями в &amp; центре безопасности](reports-and-insights-in-security-and-compliance.md), то можете понять, как можно легко переходить с панели мониторинга на подробные и рекомендуемые действия. 
   
 Это одно из нескольких пошаговых руководств для центра &amp; безопасности и соответствия требованиям. Дополнительные пошаговые руководства можно найти в разделе [связанные темы](#related-topics) . 
   
@@ -46,7 +46,7 @@ ms.locfileid: "43537501"
   
 Таким образом, мы можем перейти с панели мониторинга к ценным и рекомендуемым действиям.
   
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Пошаговое руководство: из подробного отчета](from-an-insight-to-a-detailed-report.md)
   

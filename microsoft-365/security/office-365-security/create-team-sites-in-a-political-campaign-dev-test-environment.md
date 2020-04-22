@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Сводка. Сведения о том, как создавать общедоступные, частные, конфиденциальные и строго конфиденциальные сайты групп SharePoint Online в среде разработки и тестирования для политической кампании.
-ms.openlocfilehash: d36b2c74cc7accadf5bbbde1b52f94c5e998ea8a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 14ba5b00754a9e55c797edd0835658ac81b7e647
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599496"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637668"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Создание сайтов групп в среде разработки и тестирования для политической кампании
 
@@ -35,11 +35,11 @@ ms.locfileid: "41599496"
 
 Сначала создайте подписки, пользователей и группы, следуя инструкциям из статьи [Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md).
   
-## <a name="phase-2-create-office-365-labels"></a>Этап 2. Создание меток Office 365
+## <a name="phase-2-create-labels"></a>Этап 2. Создание меток.
 
 На этом этапе вы создадите метки разных уровней защиты для папок документов на сайтах групп SharePoint Online.
   
-1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Справку см. в статье [Вход в Microsoft 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. На вкладке **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
     
