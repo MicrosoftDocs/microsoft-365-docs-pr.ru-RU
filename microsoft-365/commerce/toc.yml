@@ -2,11 +2,11 @@
   href: index.yml
 - name: Центр справки для администраторов Microsoft 365
   href: ../admin/admin-home.md
-- name: Использование пробной версии или приобретение подписки
+- name: Пробное использование или приобретение
   items:
-    - name: Регистрация пробной версии Office 365
+    - name: Регистрация для пробного использования Microsoft 365
       href: sign-up-for-office-365-trial.md
-    - name: Использование пробной версии или приобретение подписки на Microsoft 365
+    - name: Пробное использование или приобретение Microsoft 365
       href: try-or-buy-microsoft-365.md
     - name: Продление пробной версии
       href: extend-your-trial.md
@@ -64,8 +64,6 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: Директива о платежных услугах 2 и строгая проверка подлинности клиентов
       href: billing-and-payments/psd2.md
-    - name: Сведения о налогах
-      href: billing-and-payments/tax-information.md
 - name: Учетные записи выставления счетов
   items:
     - name: Управление учетными записями выставления счетов

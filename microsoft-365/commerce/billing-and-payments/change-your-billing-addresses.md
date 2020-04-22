@@ -1,5 +1,5 @@
 ---
-title: Изменение адресов выставления счета в Office 365 для бизнеса
+title: Изменение адресов выставления счетов
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,185 +21,182 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
-description: Узнайте, как обновить свои адреса для выставления счетов для Office 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
+description: Узнайте, как обновить свои адреса для выставления счетов для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
 ms.custom: okr_SMB
-ms.openlocfilehash: 6b11e38de33bf6d66c5847643790603b9ce7b0af
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142315"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632723"
 ---
-# <a name="change-your-billing-addresses-for-office-365-for-business"></a><span data-ttu-id="6e841-104">Изменение адресов выставления счета в Office 365 для бизнеса</span><span class="sxs-lookup"><span data-stu-id="6e841-104">Change your billing addresses for Office 365 for business</span></span>
+# <a name="change-your-billing-addresses"></a><span data-ttu-id="61182-104">Изменение адресов выставления счетов</span><span class="sxs-lookup"><span data-stu-id="61182-104">Change your billing addresses</span></span>
 
-<span data-ttu-id="6e841-105">Ваш счет или счет содержит три адреса:</span><span class="sxs-lookup"><span data-stu-id="6e841-105">Your bill or invoice contains three addresses:</span></span>
+<span data-ttu-id="61182-105">Ваш счет или счет содержит три адреса:</span><span class="sxs-lookup"><span data-stu-id="61182-105">Your bill or invoice contains three addresses:</span></span>
   
-- <span data-ttu-id="6e841-106">**Адрес покупателя**  название и адрес вашей организации, как они указаны в ее профиле.</span><span class="sxs-lookup"><span data-stu-id="6e841-106">**Sold-To Address** Your company name and address, as shown in your organization profile.</span></span>
+- <span data-ttu-id="61182-106">**Адрес покупателя**  название и адрес вашей организации, как они указаны в ее профиле.</span><span class="sxs-lookup"><span data-stu-id="61182-106">**Sold-To Address** Your company name and address, as shown in your organization profile.</span></span>
 
-- <span data-ttu-id="6e841-107">**Адрес выставления счета**  адрес вашего подразделения по работе со счетами; обычно совпадает с адресом **покупателя**.</span><span class="sxs-lookup"><span data-stu-id="6e841-107">**Bill-To address** The address of your billing department, usually the same as the **Sold-To** address.</span></span>
+- <span data-ttu-id="61182-107">**Адрес выставления счета**  адрес вашего подразделения по работе со счетами; обычно совпадает с адресом **покупателя**.</span><span class="sxs-lookup"><span data-stu-id="61182-107">**Bill-To address** The address of your billing department, usually the same as the **Sold-To** address.</span></span>
 
-- <span data-ttu-id="6e841-p102">**Адрес использования службы**  адрес, по которому используется служба. Обычно он совпадает с адресом **покупателя**. Если в организации есть удаленные пользователи или несколько офисов, укажите адрес большинства пользователей.</span><span class="sxs-lookup"><span data-stu-id="6e841-p102">**Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.</span></span>
+- <span data-ttu-id="61182-p102">**Адрес использования службы**  адрес, по которому используется служба. Обычно он совпадает с адресом **покупателя**. Если в организации есть удаленные пользователи или несколько офисов, укажите адрес большинства пользователей.</span><span class="sxs-lookup"><span data-stu-id="61182-p102">**Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.</span></span>
 
-<span data-ttu-id="6e841-p103">Как правило, эти адреса совпадают. При необходимости вы можете изменить один или несколько из них. Кроме того, можно указать запасной адрес электронной почты для получения уведомлений о выставлении счетов и изменить этот адрес для других администраторов.</span><span class="sxs-lookup"><span data-stu-id="6e841-p103">In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.</span></span>
+<span data-ttu-id="61182-p103">Как правило, эти адреса совпадают. При необходимости вы можете изменить один или несколько из них. Кроме того, можно указать запасной адрес электронной почты для получения уведомлений о выставлении счетов и изменить этот адрес для других администраторов.</span><span class="sxs-lookup"><span data-stu-id="61182-p103">In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.</span></span>
   
 ::: moniker range="o365-worldwide"
 
-<span data-ttu-id="6e841-113">Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [понимание счета](understand-your-invoice2.md).</span><span class="sxs-lookup"><span data-stu-id="6e841-113">To learn more about your bill or invoice, see [View your bill or invoice](view-your-bill-or-invoice.md) and [Understand your invoice](understand-your-invoice2.md).</span></span>
+<span data-ttu-id="61182-113">Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [понимание счета](understand-your-invoice2.md).</span><span class="sxs-lookup"><span data-stu-id="61182-113">To learn more about your bill or invoice, see [View your bill or invoice](view-your-bill-or-invoice.md) and [Understand your invoice](understand-your-invoice2.md).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-<span data-ttu-id="6e841-114">Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [понимание счета](understand-your-invoice2.md).</span><span class="sxs-lookup"><span data-stu-id="6e841-114">To learn more about your bill or invoice, see [View your bill or invoice](view-your-bill-or-invoice.md) and [Understand your invoice](understand-your-invoice2.md).</span></span>
+<span data-ttu-id="61182-114">Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [понимание счета](understand-your-invoice2.md).</span><span class="sxs-lookup"><span data-stu-id="61182-114">To learn more about your bill or invoice, see [View your bill or invoice](view-your-bill-or-invoice.md) and [Understand your invoice](understand-your-invoice2.md).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-<span data-ttu-id="6e841-115">Если вы используете Office 365 под управлением 21Vianet в Китае, ознакомьтесь со [статьей Просмотр счета или получение фапиаос для Office 365](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)под управлением 21vianet.</span><span class="sxs-lookup"><span data-stu-id="6e841-115">If you're using Office 365 operated by 21Vianet in China, see [View your bill or get Fapiaos for Office 365 operated by 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).</span></span>
+<span data-ttu-id="61182-115">Если вы используете Office 365 под управлением 21Vianet в Китае, ознакомьтесь со [статьей Просмотр счета или получение фапиаос для Office 365](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md)под управлением 21vianet.</span><span class="sxs-lookup"><span data-stu-id="61182-115">If you're using Office 365 operated by 21Vianet in China, see [View your bill or get Fapiaos for Office 365 operated by 21Vianet](../../admin/services-in-china/view-your-bill-or-get-a-fapiao.md).</span></span>
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
 
-::: moniker-end
+## <a name="change-your-sold-to-address"></a><span data-ttu-id="61182-116">Изменение адреса покупателя</span><span class="sxs-lookup"><span data-stu-id="61182-116">Change your Sold-To address</span></span>
 
-## <a name="change-your-sold-to-address"></a><span data-ttu-id="6e841-116">Изменение адреса покупателя</span><span class="sxs-lookup"><span data-stu-id="6e841-116">Change your Sold-To address</span></span>
+1. <span data-ttu-id="61182-117">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">счета выставления</a> счетов для **выставления** \> счетов.</span><span class="sxs-lookup"><span data-stu-id="61182-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Billing accounts</a> page.</span></span>
 
-1. <span data-ttu-id="6e841-117">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">счета выставления</a> счетов для **выставления** \> счетов.</span><span class="sxs-lookup"><span data-stu-id="6e841-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Billing accounts</a> page.</span></span>
+2. <span data-ttu-id="61182-118">Выберите пункт **изменить сведения об учетной записи выставления счетов**.</span><span class="sxs-lookup"><span data-stu-id="61182-118">select **Edit billing account information**.</span></span>
 
-2. <span data-ttu-id="6e841-118">Выберите пункт **изменить сведения об учетной записи выставления счетов**.</span><span class="sxs-lookup"><span data-stu-id="6e841-118">select **Edit billing account information**.</span></span>
-
-3. <span data-ttu-id="6e841-119">Обновите сведения об организации, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6e841-119">Update your organization information, then select **Save**.</span></span>
+3. <span data-ttu-id="61182-119">Обновите сведения об организации, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="61182-119">Update your organization information, then select **Save**.</span></span>
   
-## <a name="change-your-bill-to-address"></a><span data-ttu-id="6e841-120">Изменение адреса выставления счетов</span><span class="sxs-lookup"><span data-stu-id="6e841-120">Change your Bill-To address</span></span>
+## <a name="change-your-bill-to-address"></a><span data-ttu-id="61182-120">Изменение адреса выставления счетов</span><span class="sxs-lookup"><span data-stu-id="61182-120">Change your Bill-To address</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="6e841-121">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">способы оплаты</a> **выставления счетов** \> .</span><span class="sxs-lookup"><span data-stu-id="6e841-121">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> page.</span></span>
+1. <span data-ttu-id="61182-121">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">способы оплаты</a> **выставления счетов** \> .</span><span class="sxs-lookup"><span data-stu-id="61182-121">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> page.</span></span>
 
-2. <span data-ttu-id="6e841-122">Выберите кредитную карту или банковский счет, которые требуется изменить.</span><span class="sxs-lookup"><span data-stu-id="6e841-122">Select the credit card or bank account that you want to change.</span></span>
+2. <span data-ttu-id="61182-122">Выберите кредитную карту или банковский счет, которые требуется изменить.</span><span class="sxs-lookup"><span data-stu-id="61182-122">Select the credit card or bank account that you want to change.</span></span>
 
-3. <span data-ttu-id="6e841-123">На странице " **сведения о методе оплаты** " нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="6e841-123">On the **Payment method details** page, select **Edit**.</span></span>
+3. <span data-ttu-id="61182-123">На странице " **сведения о методе оплаты** " нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="61182-123">On the **Payment method details** page, select **Edit**.</span></span>
 
-4. <span data-ttu-id="6e841-124">Обновите адрес для выставления счетов, а затем нажмите кнопку **сохранить** \> **выполнен**.</span><span class="sxs-lookup"><span data-stu-id="6e841-124">Update your billing address, then select **Save** \> **Done**.</span></span>
+4. <span data-ttu-id="61182-124">Обновите адрес для выставления счетов, а затем нажмите кнопку **сохранить** \> **выполнен**.</span><span class="sxs-lookup"><span data-stu-id="61182-124">Update your billing address, then select **Save** \> **Done**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="6e841-125">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-125">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="61182-125">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-125">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="6e841-126">Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.</span><span class="sxs-lookup"><span data-stu-id="6e841-126">Select the subscription you want to change, then select **Change payment details**.</span></span>
+2. <span data-ttu-id="61182-126">Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.</span><span class="sxs-lookup"><span data-stu-id="61182-126">Select the subscription you want to change, then select **Change payment details**.</span></span>
 
     ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
   
-3. <span data-ttu-id="6e841-128">*Клиенты кредитных карт и банковских счетов:*  На странице **изменение сведений об оплате** выберите кредитную карту или банковский счет, который необходимо обновить, щелкните **изменить сведения**, обновите адрес выставления счетов, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="6e841-128">*Credit card and bank account customers:*  On the **Change payment details** page, select the credit card or bank account that you want to update, select **Edit details**, update your billing address, then select **Submit**.</span></span>
+3. <span data-ttu-id="61182-128">*Клиенты кредитных карт и банковских счетов:*  На странице **изменение сведений об оплате** выберите кредитную карту или банковский счет, который необходимо обновить, щелкните **изменить сведения**, обновите адрес выставления счетов, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="61182-128">*Credit card and bank account customers:*  On the **Change payment details** page, select the credit card or bank account that you want to update, select **Edit details**, update your billing address, then select **Submit**.</span></span>
   
     > [!NOTE]
-    > <span data-ttu-id="6e841-129">Возможность оплаты по банковскому счету недоступна в некоторых странах или регионах.</span><span class="sxs-lookup"><span data-stu-id="6e841-129">The ability to pay by bank account isn't available in some countries or regions.</span></span>
+    > <span data-ttu-id="61182-129">Возможность оплаты по банковскому счету недоступна в некоторых странах или регионах.</span><span class="sxs-lookup"><span data-stu-id="61182-129">The ability to pay by bank account isn't available in some countries or regions.</span></span>
 
-     <span data-ttu-id="6e841-130">*Счета клиентов:*  На странице **изменение сведений об оплате** обновите адрес для выставления счетов, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="6e841-130">*Invoice customers:*  On the **Change payment details** page, update your billing address, then select **Submit**.</span></span>
+     <span data-ttu-id="61182-130">*Счета клиентов:*  На странице **изменение сведений об оплате** обновите адрес для выставления счетов, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="61182-130">*Invoice customers:*  On the **Change payment details** page, update your billing address, then select **Submit**.</span></span>
   
     > [!NOTE]
-    > <span data-ttu-id="6e841-131">Возможность оплаты счета недоступна в некоторых странах или регионах.</span><span class="sxs-lookup"><span data-stu-id="6e841-131">The ability to pay an invoice by check isn't available in some countries or regions.</span></span>
+    > <span data-ttu-id="61182-131">Возможность оплаты счета недоступна в некоторых странах или регионах.</span><span class="sxs-lookup"><span data-stu-id="61182-131">The ability to pay an invoice by check isn't available in some countries or regions.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="6e841-132">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-132">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="61182-132">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-132">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="6e841-133">Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.</span><span class="sxs-lookup"><span data-stu-id="6e841-133">Select the subscription you want to change, then select **Change payment details**.</span></span>
+2. <span data-ttu-id="61182-133">Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.</span><span class="sxs-lookup"><span data-stu-id="61182-133">Select the subscription you want to change, then select **Change payment details**.</span></span>
 
     ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
   
-3. <span data-ttu-id="6e841-135">На странице **изменение сведений об оплате** обновите адрес для выставления счетов, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="6e841-135">On the **Change payment details** page, update your billing address, and then select **Submit**.</span></span>
+3. <span data-ttu-id="61182-135">На странице **изменение сведений об оплате** обновите адрес для выставления счетов, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="61182-135">On the **Change payment details** page, update your billing address, and then select **Submit**.</span></span>
 
-    <span data-ttu-id="6e841-136">Вы можете [изменить метод оплаты для службы Office 365, предоставляемой 21Vianet](change-payment-method.md), со счета-фактуры на оплату через Интернет с помощью Alipay или China UnionPay и наоборот.</span><span class="sxs-lookup"><span data-stu-id="6e841-136">You can [Change your payment method for Office 365 operated by 21Vianet](change-payment-method.md) from Invoice to Online payment using Alipay or China UnionPay, or vice versa.</span></span>
+    <span data-ttu-id="61182-136">Вы можете [изменить метод оплаты для службы Office 365, предоставляемой 21Vianet](change-payment-method.md), со счета-фактуры на оплату через Интернет с помощью Alipay или China UnionPay и наоборот.</span><span class="sxs-lookup"><span data-stu-id="61182-136">You can [Change your payment method for Office 365 operated by 21Vianet](change-payment-method.md) from Invoice to Online payment using Alipay or China UnionPay, or vice versa.</span></span>
 
 ::: moniker-end
 
-## <a name="change-your-service-usage-address"></a><span data-ttu-id="6e841-137">Изменение адреса использования службы</span><span class="sxs-lookup"><span data-stu-id="6e841-137">Change your service usage address</span></span>
+## <a name="change-your-service-usage-address"></a><span data-ttu-id="61182-137">Изменение адреса использования службы</span><span class="sxs-lookup"><span data-stu-id="61182-137">Change your service usage address</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="6e841-138">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-138">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
+1. <span data-ttu-id="61182-138">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-138">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
 
-2. <span data-ttu-id="6e841-139">Найдите подписку, которую вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="6e841-139">Find the subscription you want to change.</span></span> <span data-ttu-id="6e841-140">В разделе **параметры & действий** выберите **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="6e841-140">In the **Settings & Actions** section, select **Edit service usage address**.</span></span>
+2. <span data-ttu-id="61182-139">Найдите подписку, которую вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="61182-139">Find the subscription you want to change.</span></span> <span data-ttu-id="61182-140">В разделе **параметры & действий** выберите **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="61182-140">In the **Settings & Actions** section, select **Edit service usage address**.</span></span>
 
-3. <span data-ttu-id="6e841-141">В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6e841-141">In the **Edit your service usage address** pane, update your address, then select **Save**.</span></span>
+3. <span data-ttu-id="61182-141">В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="61182-141">In the **Edit your service usage address** pane, update your address, then select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="6e841-142">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-142">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="61182-142">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-142">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="6e841-143">Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="6e841-143">Select the subscription you want to change, select **More actions**, then choose **Edit service usage address**.</span></span>
+2. <span data-ttu-id="61182-143">Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="61182-143">Select the subscription you want to change, select **More actions**, then choose **Edit service usage address**.</span></span>
 
     ![Закрытие меню "другие действия".](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
   
-3. <span data-ttu-id="6e841-145">В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="6e841-145">In the **Edit your service usage address** pane, update your address, then select **Submit**.</span></span>
+3. <span data-ttu-id="61182-145">В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="61182-145">In the **Edit your service usage address** pane, update your address, then select **Submit**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="6e841-146">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-146">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="61182-146">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-146">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="6e841-147">Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="6e841-147">Select the subscription you want to change, select **More actions**, then choose **Edit service usage address**.</span></span>
+2. <span data-ttu-id="61182-147">Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.</span><span class="sxs-lookup"><span data-stu-id="61182-147">Select the subscription you want to change, select **More actions**, then choose **Edit service usage address**.</span></span>
 
     ![Закрытие меню "другие действия".](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
   
-3. <span data-ttu-id="6e841-149">В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="6e841-149">In the **Edit your service usage address** pane, update your address, then select **Submit**.</span></span>
+3. <span data-ttu-id="61182-149">В области **изменить адрес использования службы** обновите адрес, а затем нажмите кнопку **послать**.</span><span class="sxs-lookup"><span data-stu-id="61182-149">In the **Edit your service usage address** pane, update your address, then select **Submit**.</span></span>
 
 ::: moniker-end
 
-## <a name="change-the-alternate-email-address-your-billing-notifications-are-sent-to"></a><span data-ttu-id="6e841-150">Изменение запасного адреса электронной почты, на который отправляются уведомления о выставлении счетов</span><span class="sxs-lookup"><span data-stu-id="6e841-150">Change the alternate email address your billing notifications are sent to</span></span>
+## <a name="change-the-alternate-email-address-your-billing-notifications-are-sent-to"></a><span data-ttu-id="61182-150">Изменение запасного адреса электронной почты, на который отправляются уведомления о выставлении счетов</span><span class="sxs-lookup"><span data-stu-id="61182-150">Change the alternate email address your billing notifications are sent to</span></span>
 
-<span data-ttu-id="6e841-p105">По умолчанию уведомления о выставлении счетов организации отправляются на адрес электронной почты Office 365 и запасной адрес каждого администратора выставления счетов и глобального администратора вашей организации. Каждый администратор может изменить свой запасной адрес электронной почты в данных своего профиля.</span><span class="sxs-lookup"><span data-stu-id="6e841-p105">By default, your organization's billing notifications are sent to the Office 365 email address and the alternate email address of every global and billing admin in your organization. Each admin can change their alternate email address by updating their profile information.</span></span>
+<span data-ttu-id="61182-151">По умолчанию уведомления о выставлении счетов Организации отправляются на адрес электронной почты Майкрософт, а альтернативный адрес электронной почты каждого глобального администратора и администратора выставления счетов в Организации.</span><span class="sxs-lookup"><span data-stu-id="61182-151">By default, your organization's billing notifications are sent to the Microsoft email address and the alternate email address of every global and billing admin in your organization.</span></span> <span data-ttu-id="61182-152">Каждый администратор может изменить свой запасной адрес электронной почты в данных своего профиля.</span><span class="sxs-lookup"><span data-stu-id="61182-152">Each admin can change their alternate email address by updating their profile information.</span></span>
   
-1. <span data-ttu-id="6e841-153">Войдите в Office 365 с помощью рабочая или учебная учетная запись глобального администратора. [Узнайте о том, как выполнить вход](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).</span><span class="sxs-lookup"><span data-stu-id="6e841-153">Sign in to Office 365 with your work or school account as a global admin. [Learn how to sign in](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).</span></span>
+1. <span data-ttu-id="61182-153">Войдите в Microsoft 365, указав свою рабочую или учебную учетную запись в качестве глобального администратора. [Узнайте, как войти в систему](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).</span><span class="sxs-lookup"><span data-stu-id="61182-153">Sign in to Microsoft 365 with your work or school account as a global admin. [Learn how to sign in](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).</span></span>
 
-2. <span data-ttu-id="6e841-154">Нажмите **значок пользователя**, а затем выберите **Моя учетная запись**.</span><span class="sxs-lookup"><span data-stu-id="6e841-154">Select the **User icon**, then select **My account**.</span></span>
+2. <span data-ttu-id="61182-154">Нажмите **значок пользователя**, а затем выберите **Моя учетная запись**.</span><span class="sxs-lookup"><span data-stu-id="61182-154">Select the **User icon**, then select **My account**.</span></span>
   
-3. <span data-ttu-id="6e841-155">Выберите **личные сведения**.</span><span class="sxs-lookup"><span data-stu-id="6e841-155">Select **Personal info**.</span></span>
+3. <span data-ttu-id="61182-155">Выберите **личные сведения**.</span><span class="sxs-lookup"><span data-stu-id="61182-155">Select **Personal info**.</span></span>
   
-4. <span data-ttu-id="6e841-156">В поле **сведения о контакте** нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="6e841-156">In the **Contact details** box, select **Edit**.</span></span>
+4. <span data-ttu-id="61182-156">В поле **сведения о контакте** нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="61182-156">In the **Contact details** box, select **Edit**.</span></span>
 
-5. <span data-ttu-id="6e841-157">В поле **альтернативный адрес электронной почты** введите запасной адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6e841-157">In the **Alternate email** box, type the alternate email address you want to use, then select **Save**.</span></span>
+5. <span data-ttu-id="61182-157">В поле **альтернативный адрес электронной почты** введите запасной адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="61182-157">In the **Alternate email** box, type the alternate email address you want to use, then select **Save**.</span></span>
   
-## <a name="change-the-alternate-email-address-for-another-admin"></a><span data-ttu-id="6e841-158">Изменение запасного адреса электронной почты для другого администратора</span><span class="sxs-lookup"><span data-stu-id="6e841-158">Change the alternate email address for another admin</span></span>
+## <a name="change-the-alternate-email-address-for-another-admin"></a><span data-ttu-id="61182-158">Изменение запасного адреса электронной почты для другого администратора</span><span class="sxs-lookup"><span data-stu-id="61182-158">Change the alternate email address for another admin</span></span>
 
-<span data-ttu-id="6e841-159">Вы также можете изменить запасные адреса электронной почты других глобальных администраторов и администраторов выставления счетов в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="6e841-159">You can also change the alternate email address of other global and billing admins in your organization.</span></span>
-
-::: moniker range="o365-worldwide"
-
-1. <span data-ttu-id="6e841-160">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Уведомления о выставлении счетов</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-160">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Billing notifications</a> page.</span></span>
+<span data-ttu-id="61182-159">Вы также можете изменить запасные адреса электронной почты других глобальных администраторов и администраторов выставления счетов в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="61182-159">You can also change the alternate email address of other global and billing admins in your organization.</span></span>
+  
+1. <span data-ttu-id="61182-160">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Уведомления о выставлении счетов</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-160">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Billing notifications</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="6e841-161">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Уведомления о выставлении счетов</a>.</span><span class="sxs-lookup"><span data-stu-id="6e841-161">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Billing notifications</a> page.</span></span>
+1. <span data-ttu-id="61182-161">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Уведомления о выставлении счетов</a>.</span><span class="sxs-lookup"><span data-stu-id="61182-161">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">Billing notifications</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="6e841-162">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">уведомления о выставлении счетов</a> для **выставления** \> счетов.</span><span class="sxs-lookup"><span data-stu-id="6e841-162">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Billing Notifications</a> page.</span></span>
+1. <span data-ttu-id="61182-162">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">уведомления о выставлении счетов</a> для **выставления** \> счетов.</span><span class="sxs-lookup"><span data-stu-id="61182-162">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">Billing Notifications</a> page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="6e841-163">На странице **уведомления о выставлении счетов** выберите администратора, которого вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="6e841-163">On the **Billing notifications** page, select the admin you want to change.</span></span>
+2. <span data-ttu-id="61182-163">На странице **уведомления о выставлении счетов** выберите администратора, которого вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="61182-163">On the **Billing notifications** page, select the admin you want to change.</span></span>
 
-3. <span data-ttu-id="6e841-164">В области **изменение ролей пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6e841-164">In the **Edit user roles** pane, type the alternate email address you want to use, then select **Save**.</span></span>
+3. <span data-ttu-id="61182-164">В области **изменение ролей пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="61182-164">In the **Edit user roles** pane, type the alternate email address you want to use, then select **Save**.</span></span>
 
-## <a name="related-articles"></a><span data-ttu-id="6e841-165">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="6e841-165">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="61182-165">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="61182-165">Related articles</span></span>
 
-[<span data-ttu-id="6e841-166">Просмотр счетов</span><span class="sxs-lookup"><span data-stu-id="6e841-166">View your bill or invoice</span></span>](view-your-bill-or-invoice.md)
+[<span data-ttu-id="61182-166">Просмотр счетов</span><span class="sxs-lookup"><span data-stu-id="61182-166">View your bill or invoice</span></span>](view-your-bill-or-invoice.md)
 
-[<span data-ttu-id="6e841-167">Знакомство со счетом</span><span class="sxs-lookup"><span data-stu-id="6e841-167">Understand your invoice</span></span>](understand-your-invoice2.md)
+[<span data-ttu-id="61182-167">Знакомство со счетом</span><span class="sxs-lookup"><span data-stu-id="61182-167">Understand your invoice</span></span>](understand-your-invoice2.md)
 
-[<span data-ttu-id="6e841-168">Оплата подписки</span><span class="sxs-lookup"><span data-stu-id="6e841-168">Pay for your subscription</span></span>](pay-for-your-subscription.md)
+[<span data-ttu-id="61182-168">Оплата подписки</span><span class="sxs-lookup"><span data-stu-id="61182-168">Pay for your subscription</span></span>](pay-for-your-subscription.md)
+
+[<span data-ttu-id="61182-169">Подписки и выставление счетов — Справка для администраторов</span><span class="sxs-lookup"><span data-stu-id="61182-169">Subscriptions and billing - Admin Help</span></span>](../index.yml)

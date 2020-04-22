@@ -149,10 +149,6 @@
           href: document-fingerprinting.md
         - name: Функции защиты от потери данных для конфиденциальной информации
           href: what-the-dlp-functions-look-for.md
-    - name: Шифрование в Microsoft 365
-      href: encryption.md
-    - name: Шифрование служб Office 365
-      href: office-365-service-encryption.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -163,7 +159,7 @@
           href: customer-key-manage.md
         - name: Смена или ротация ключа клиента или ключа доступности
           href: customer-key-availability-key-roll.md
-        - name: Сведения о ключе доступности для ключа клиента Office 365
+        - name: Сведения о ключе доступности для ключа клиента
           href: customer-key-availability-key-understand.md
     - name: Шифрование электронной почты
       href: email-encryption.md
@@ -204,8 +200,6 @@
               href: legacy-information-for-message-encryption.md
             - name: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
               href: set-up-azure-rms-for-previous-version-message-encryption.md
-    - name: Настройка IRM в Центре администрирования SharePoint
-      href: set-up-irm-in-sp-admin-center.md
     - name: Общие сведения о классификации данных (предварительная версия)
       href: data-classification-overview.md
       items:
@@ -345,6 +339,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=867039'
 - name: Управление обнаружением электронных данных
   items:
+    - name: eDiscovery в Microsoft 365
+      href: ediscovery.md
     - name: Поиск контента
       items:
         - name: Общие сведения о поиске контента
@@ -414,8 +410,16 @@
               href: clone-a-content-search.md
     - name: Core eDiscovery
       items:
-        - name: Управление делами по обнаружению электронных данных
-          href: ediscovery-cases.md
+        - name: Начало работы с Core eDiscovery
+          href: get-started-core-ediscovery.md
+        - name: Создание удержаний eDiscovery
+          href: create-ediscovery-holds.md
+        - name: Поиск контента в деле
+          href: search-for-content-in-core-ediscovery.md
+        - name: Экспорт контента из дела
+          href: export-content-in-core-ediscovery.md
+        - name: 'Закрытие, повторное открытие и удаление дела'
+          href: close-reopen-delete-core-ediscovery-cases.md
         - name: Справочник по Core eDiscovery
           items:
             - name: Назначение разрешений на обнаружение электронных данных
@@ -430,6 +434,12 @@
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
             - name: Создание отчета об удержаниях электронных данных
               href: create-a-report-on-holds-in-ediscovery-cases.md
+            - name: Экспорт отчета о поиске
+              href: export-a-content-search-report.md
+            - name: Просмотр статистики ключевых слов для результатов поиска
+              href: view-keyword-statistics-for-content-search.md
+            - name: Подготовка результатов поиска для Advanced eDiscovery (classic)
+              href: prepare-search-results-for-advanced-ediscovery.md
             - name: Поиск и очистка утечки данных
               href: data-spillage-scenariosearch-and-purge.md
             - name: Сохранение получателей скрытой копии для поиска
@@ -784,7 +794,7 @@
         - name: Диспетчер соответствия требованиям (предварительная версия)
           href: compliance-manager-overview.md
           items:
-            - name: Заметки о выпуске диспетчера соответствия требованиям (предварительная версия)
+            - name: Что изменилось в диспетчере соответствия требованиям (предварительная версия)
               href: compliance-manager-release-notes.md
             - name: Работа с диспетчером соответствия требованиям (предварительная версия)
               href: working-with-compliance-manager.md
@@ -1202,7 +1212,7 @@
               href: offering-pdpa-argentina.md
 - name: Office 365 корпоративный
   href: 'https://docs.microsoft.com/Office365/Enterprise'
-- name: Office 365 бизнес
+- name: Приложения Microsoft 365 для бизнеса
   href: 'https://docs.microsoft.com/office365/admin/admin-home'
 - name: "Безопасность Microsoft\_365"
   href: 'https://docs.microsoft.com/microsoft-365/security/'

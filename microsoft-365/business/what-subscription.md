@@ -1,5 +1,7 @@
 ---
 title: Какая подписка подходит для вашего бизнеса?
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -15,14 +17,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Определите, подходит ли Office 365 E3, Office 365 бизнес премиум или Microsoft 365 бизнес для бизнеса.
-ms.openlocfilehash: f3adf67cf164b14596bc0cedf1cacd7dec41955e
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+description: Определите, подходит ли для вашей компании Office 365 E3, Microsoft 365 бизнес Standard или Microsoft 365 бизнес премиум.
+ms.openlocfilehash: 480129ad8251770a4153b7ecc0777bdf03759012
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748328"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635671"
 ---
-# <a name="what-subscription-is-right-for-your-small-business"></a><span data-ttu-id="e0045-103">Какая подписка подходит для малого бизнеса?</span><span class="sxs-lookup"><span data-stu-id="e0045-103">What subscription is right for your small business?</span></span>
+# <a name="what-subscription-is-right-for-your-small-business"></a><span data-ttu-id="4da2e-103">Какая подписка подходит для малого бизнеса?</span><span class="sxs-lookup"><span data-stu-id="4da2e-103">What subscription is right for your small business?</span></span>
 
-<span data-ttu-id="e0045-104">Корпорация Майкрософт предлагает несколько планов для малых предприятий.</span><span class="sxs-lookup"><span data-stu-id="e0045-104">Microsoft offers several plans for small businesses.</span></span> <span data-ttu-id="e0045-105">Рекомендуемые подписки: Office 365 бизнес премиум или Microsoft 365 бизнес, с до 300 пользователей.</span><span class="sxs-lookup"><span data-stu-id="e0045-105">The recommended subscriptions are either Office 365 Business Premium or Microsoft 365 Business with up to 300 users.</span></span> <span data-ttu-id="e0045-106">Microsoft 365 Business предлагает больше возможностей обеспечения безопасности, чем Office 365 бизнес премиум для дополнительной стоимости.</span><span class="sxs-lookup"><span data-stu-id="e0045-106">Microsoft 365 Business offers more security features than Office 365 Business Premium for an added cost.</span></span>
+<span data-ttu-id="4da2e-104">Корпорация Майкрософт предлагает несколько планов для малых предприятий.</span><span class="sxs-lookup"><span data-stu-id="4da2e-104">Microsoft offers several plans for small businesses.</span></span> <span data-ttu-id="4da2e-105">Рекомендуемые подписки: Microsoft 365 бизнес Standard или Microsoft 365 бизнес премиум, у которых не более 300 пользователей.</span><span class="sxs-lookup"><span data-stu-id="4da2e-105">The recommended subscriptions are either Microsoft 365 Business Standard or Microsoft 365 Business Premium with up to 300 users.</span></span> <span data-ttu-id="4da2e-106">Microsoft 365 Business Premium предоставляет больше возможностей обеспечения безопасности, чем Microsoft 365 Business Standard для дополнительной стоимости.</span><span class="sxs-lookup"><span data-stu-id="4da2e-106">Microsoft 365 Business Premium offers more security features than Microsoft 365 Business Standard for an added cost.</span></span>
