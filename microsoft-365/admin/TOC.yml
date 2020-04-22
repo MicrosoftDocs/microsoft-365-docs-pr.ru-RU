@@ -87,7 +87,7 @@
       items:
         - name: "Электронная почта в Office\_365"
           href: email/email.md
-        - name: "Параметры электронной почты пользователей Office\_365"
+        - name: Параметры электронной почты пользователей
           href: email/office-365-user-email-settings.md
         - name: Добавление дополнительных псевдонимов электронной почты для пользователя
           href: email/add-another-email-alias-for-a-user.md
@@ -189,6 +189,8 @@
           href: manage/remove-licenses-from-users.md
         - name: Устранение конфликтов лицензий
           href: manage/resolve-license-conflicts.md
+        - name: Управление сообщениями в Центре сообщений
+          href: manage/manage-messages.md
         - name: Отображение и скрытие новых функций с помощью управления новыми возможностями
           href: manage/show-hide-new-features.md
     - name: Подписки и выставление счетов
@@ -235,11 +237,11 @@
           href: create-groups/office-365-groups.md
         - name: Сравнение групп
           href: create-groups/compare-groups.md
-        - name: "Создание группы Office\_365"
+        - name: Создание группы Microsoft 365
           href: create-groups/create-groups.md
-        - name: "Управление группой Office\_365"
+        - name: Управление группой Microsoft 365
           href: create-groups/manage-groups.md
-        - name: Планирование управления в группах Office 365
+        - name: Планирование управления в группах Microsoft 365
           href: create-groups/plan-for-groups-governance.md
         - name: Управление созданием групп
           href: create-groups/manage-creation-of-groups.md
@@ -251,7 +253,7 @@
           href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
         - name: Добавление и удаление участников группы
           href: create-groups/add-or-remove-members-from-groups.md
-        - name: "Политика срока действия группы Office\_365"
+        - name: Политика срока действия группы Microsoft 365
           href: create-groups/office-365-groups-expiration-policy.md
         - name: Восстановление удаленной группы
           href: create-groups/restore-deleted-group.md
