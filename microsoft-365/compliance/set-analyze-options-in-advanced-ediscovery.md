@@ -1,5 +1,5 @@
 ---
-title: Настройка параметров анализа в Office 365 Advanced eDiscovery
+title: Настройка параметров анализа в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
-description: 'Ознакомьтесь с инструкциями по настройке параметров для процесса анализа в Office 365 Advanced eDiscovery, включая почти повторяющиеся, почтовые потоки и темы.  '
-ms.openlocfilehash: 8897099d7531b48f7c6618c106eeb6f051dac546
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Изучите действия по настройке параметров для процесса анализа в Advanced eDiscovery, включая почти повторяющиеся, почтовые потоки и темы.  '
+ms.openlocfilehash: 5f50e2863398679d1381c66009ff1daec40623f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557789"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631266"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>Настройка параметров анализа в Advanced eDiscovery (классический)
 
@@ -78,7 +78,7 @@ ms.locfileid: "42557789"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

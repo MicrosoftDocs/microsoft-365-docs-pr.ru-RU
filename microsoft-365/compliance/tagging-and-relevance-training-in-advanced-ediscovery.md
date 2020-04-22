@@ -1,5 +1,5 @@
 ---
-title: Маркировка и обучение по релевантности в Office 365 Advanced eDiscovery
+title: Расстановка тегов и релевантности в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
-description: 'В этой статье рассказывается о том, как пометить и затем работать с обучающим образцом, в котором находится 40 файлов, на этапе обучения для Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 6362aef6f4e0e17b39429dfeebca796d58d2d13e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'В этой статье рассказывается о том, как отмечать тегами, а затем работать с обучающим образцом, в котором находится 40 файлов, на этапе обучающего обучения Advanced eDiscovery.  '
+ms.openlocfilehash: 8d03061401cab2014d33e9e3238af42a4d01738a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557719"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636267"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>Расстановка тегов и релевантности в Advanced eDiscovery (классический)
 
@@ -100,7 +100,7 @@ ms.locfileid: "42557719"
     
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   

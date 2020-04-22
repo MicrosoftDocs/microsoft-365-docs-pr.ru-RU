@@ -1,5 +1,5 @@
 ---
-title: Технические сведения о шифровании в Office 365
+title: Технические справочные сведения о шифровании
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Просмотрите технические сведения о шифровании в Office 365.
-ms.openlocfilehash: afd02ba6480e692bf16bf6dd94f192a5889590ee
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: cdfd3765fb7bf15835d200a539241d928225d22e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610586"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637213"
 ---
-# <a name="technical-reference-details-about-encryption-in-office-365"></a>Технические сведения о шифровании в Office 365
+# <a name="technical-reference-details-about-encryption"></a>Технические справочные сведения о шифровании
 
 Ознакомьтесь с этой статьей, чтобы узнать о сертификатах, технологиях и комплектах шифров TLS, используемых для [шифрования в Office 365](encryption.md). В этой статье также приводятся сведения о запланированных устаревших параметрах.
   
@@ -103,7 +103,7 @@ ms.locfileid: "42610586"
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
    
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 [Комплекты шифров TLS в Windows 10 v1903](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)
 
 [Шифрование в Office 365](encryption.md)

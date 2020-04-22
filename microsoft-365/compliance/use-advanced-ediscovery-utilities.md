@@ -1,5 +1,5 @@
 ---
-title: Использование расширенных средств обнаружения электронных данных в Office 365
+title: Использование служебных программ Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
-description: 'Сведения о служебных программах в Office 365 Advanced eDiscovery, включая журнал обращений, очистку данных, ошибки процессов, изменение релевантности и анализ прозрачности.  '
-ms.openlocfilehash: ce8eb00382bd6ff0514dfef99d18a8e4b2679cec
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Узнайте о служебных программах в Advanced eDiscovery, включая журнал обращений, очистку данных, ошибки процессов, изменение релевантности и анализ прозрачности.  '
+ms.openlocfilehash: d4495920110916fdd5b07201d50080605ba177b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557659"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633394"
 ---
-# <a name="use-advanced-ediscovery-classic-utilities"></a>Использование расширенных служебных программ обнаружения электронных данных (Classic)
+# <a name="use-advanced-ediscovery-classic-utilities"></a>Использование служебных программ Advanced eDiscovery (классическая версия)
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -109,7 +109,7 @@ ms.locfileid: "42557659"
     
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Определение параметров дел и клиента](define-case-and-tenant-settings-in-advanced-ediscovery.md)
 

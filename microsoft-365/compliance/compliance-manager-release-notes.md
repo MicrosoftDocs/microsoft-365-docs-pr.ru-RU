@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Диспетчер соответствия требованиям Майкрософт — бесплатное средство оценки рисков на основе рабочих процессов на портале доверия службы Майкрософт. Диспетчер соответствия требованиям позволяет отслеживать, назначать и проверять нормативные действия, связанные с облачными службами Майкрософт.
-ms.openlocfilehash: de69d4c7e5938d8bfd3fed74b9ae44288e48019c
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 3e710f83bebd94719ef66cde7844f1301611adf4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141544"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637539"
 ---
 # <a name="microsoft-compliance-manager-preview-release-notes"></a>Заметки о выпуске Microsoft соответствие требованиям (Предварительная версия)
 

@@ -1,5 +1,5 @@
 ---
-title: Выбытие средств прежних версий электронных данных
+title: Прекращение поддержки устаревших средств обнаружения электронных данных
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -10,22 +10,22 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлеты Search — Mailbox и Office 365 Advanced eDiscovery 1.0 также отменяются в течение одного периода времени.
-ms.openlocfilehash: 2d1f319986d761135e2c22b1d5882797f90f910c
-ms.sourcegitcommit: 9ba28b255640c7b22f627613430dc69191bfaede
+description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлет Search – Mailbox и Advanced eDiscovery версии 1.0 также удаляются за один и тот же период времени.
+ms.openlocfilehash: 23ff43dfc2131073425deb947aee41662e30616a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158440"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635573"
 ---
-# <a name="retirement-of-legacy-ediscovery-tools"></a>Выбытие средств прежних версий электронных данных
+# <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
 > [!IMPORTANT]
 > Корпорация Майкрософт оценивает ситуацию с общественностью о работоспособности, и мы понимаем, что у наших клиентов возникли проблемы. Мы хотим быть надежными партнерами и ответственными глобальными гражданами. Чтобы упростить одну из многочисленных накладных расходов, мы будем отложить запланированное выбытие для стандартных средств обнаружения электронных данных, описанных в этой статье, на три месяца. **Обновленные даты выбытия показаны ниже.**
 
-В течение нескольких лет корпорация Майкрософт предоставила средства обнаружения электронных данных, которые позволяют выполнять поиск, предварительный просмотр и экспорт содержимого электронной почты из Exchange Online. Тем не менее, эти средства не предоставляют эффективный способ поиска контента, не относящегося к Exchange, в других службах Office 365, таких как SharePoint Online и группы Office 365. Для решения этой вопросы Корпорация Майкрософт предлагает другие средства обнаружения электронных данных, которые помогут вам найти широкий спектр содержимого Office 365. Мы работаем над внедрением самых последних и мощных функций обнаружения электронных [данных в центре соответствия требованиям Microsoft 365](https://compliance.microsoft.com). Это позволяет организациям отвечать на юридические, внутренние и другие запросы к содержимому во многих службах Office 365, в том числе Exchange Online.
+В течение нескольких лет корпорация Майкрософт предоставила средства обнаружения электронных данных, которые позволяют выполнять поиск, предварительный просмотр и экспорт содержимого электронной почты из Exchange Online. Тем не менее, эти средства не предоставляют эффективный способ поиска контента, не относящегося к Exchange, в других службах Microsoft 365, таких как группы SharePoint Online и Microsoft 365. Для решения этой вопросы Корпорация Майкрософт предлагает другие средства обнаружения электронных данных, которые помогают искать широкий спектр содержимого Microsoft 365. Мы работаем над внедрением самых последних и мощных функций обнаружения электронных [данных в центре соответствия требованиям Microsoft 365](https://compliance.microsoft.com). Это позволяет организациям отвечать на юридические, внутренние и другие запросы на документы для контента во многих службах Microsoft 365, в том числе Exchange Online.
 
-В результате этой новой и улучшенной функции обнаружения электронных данных в центре соответствия требованиям Microsoft 365 мы проделам следующие функции, связанные с обнаружением электронных данных, и функциональные возможности, связанные с поиском содержимого электронной почты в Exchange Online и Office 365:
+В результате этой новой и улучшенной функции обнаружения электронных данных в центре соответствия требованиям Microsoft 365 мы проделам следующие функции, связанные с обнаружением электронных данных, и функциональные возможности, связанные с поиском сообщений электронной почты в Exchange Online и Microsoft 365:
 
 - [Обнаружение электронных](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) данных на месте и [удержание на месте](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) в центре администрирования Exchange.
 
@@ -108,7 +108,7 @@ ms.locfileid: "43158440"
 <p>Повышенная надежность поиска, экспорта и размещения содержимого на удержании</p>
 </li>
 <li>
-<p>Поиск контента для Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams, группы Yammer, группы Office 365 и другое содержимое, хранящееся в приложениях Office 365</p></li></ul>
+<p>Поиск контента в Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams, группы Yammer, Microsoft 365, а также другие материалы, хранящиеся в приложениях Office 365</p></li></ul>
 <p>Дополнительные сведения: <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations">Управление юридическими исследованиями в Office 365</a>.</td>
 </tr>
 <tr class="even">
@@ -204,7 +204,7 @@ ms.locfileid: "43158440"
 <td><p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch"><span class="underline">* — ComplianceSearch</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction"><span class="underline">* — ComplianceSearchAction</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase"><span class="underline">* — ComplianceCase</span></a></p>
-<p> </p></td>
+<p> </p></td>
 <td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и экспорт контента. Вы можете создать новый поиск и просмотреть оценку поиска с помощью командлетов <strong>New</strong>, <strong>Get</strong>и <strong>Start – ComplianceSearch</strong> . Затем вы можете использовать командлет <strong>New – ComplianceSearchAction</strong> для экспорта результатов поиска. Чтобы скачать результаты поиска на локальный компьютер, вам по-прежнему придется использовать основное средство обнаружения электронных данных в центре соответствия требованиям Microsoft 365.</p>
 <p>
 <p><strong>Примечание:</strong> При использовании этих командлетов для создания поисковых запросов, не связанных с основным вариантом обнаружения электронных данных, эти запросы будут отображаться на странице " <strong>Поиск контента</strong> " в центре соответствия требованиям Microsoft 365.</p></td>
@@ -214,13 +214,13 @@ ms.locfileid: "43158440"
 <td><p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy"><span class="underline">* — Caseholdpolicy позволяет</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdrule"><span class="underline">* — Caseholdrule позволяет</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase"><span class="underline">* — ComplianceCase</span></a></p>
-<p> </p></td>
+<p> </p></td>
 <td><p>Удержания в центре соответствия требованиям Microsoft 365 должны быть связаны с ComplianceCase. Сначала создайте регистр соответствия требованиям, а затем создайте Caseholdpolicy позволяет и Caseholdrule позволяет.</p>
 <p><strong>Примечание:</strong> Создание Caseholdpolicy позволяет без создания Caseholdrule позволяет будет отрисовывать неработоспособное удержание, пока не будет создано Caseholdrule позволяет и не сопоставлено с Caseholdpolicy позволяет. Для получения дополнительных сведений обратитесь к документации по командлетам.</p></td>
 </tr>
 <tr class="odd">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
-<td>Нет</td>
+<td>Нет.</td>
 <td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Ниже приведены вопросы и ответы по альтернативным решениям.</td>
 </tr>
   <tr class=even>
@@ -303,7 +303,7 @@ ms.locfileid: "43158440"
 </tr>
 <tr class="even">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
-<td> </td>
+<td> </td>
 <td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Альтернативные решения можно найти в разделе вопросы и ответы в разделе <strong>командлетов * – MailboxSearch</strong> . </td>
 </tr>
 </tbody>

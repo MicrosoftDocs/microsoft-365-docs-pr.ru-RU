@@ -1,5 +1,5 @@
 ---
-title: Цепочки шифрования Office 365
+title: Цепочки шифрования
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -17,14 +17,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Просмотрите полный список корневых сертификатов и центров сертификации в Office 365.
-ms.openlocfilehash: fd92c8833eab3d816b3f01eccf0502f77663e4a5
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 4fa98f417968229a0ba5382b7b1e8b4067db2e36
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131512"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631704"
 ---
-# <a name="office-365-encryption-chains"></a>Цепочки шифрования Office 365
+# <a name="encryption-chains"></a>Цепочки шифрования
 
 Office 365 использует несколько различных поставщиков сертификатов. Ниже приведен полный список известных корневых сертификатов Office 365, с которыми могут столкнуться пользователи при доступе к Office 365. Для получения сведений о сертификатах, которые могут потребоваться установить в собственной инфраструктуре, ознакомьтесь со статьей [Plan for СТОРОННЕГО SSL Certificates for Office 365](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates). Следующие сведения о сертификате применимы ко всем языковым и национальным облачным экземплярам Office 365.
 

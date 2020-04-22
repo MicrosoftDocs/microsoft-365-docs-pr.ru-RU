@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: Узнайте, как администраторы могут использовать Exchange Online PowerShell и CSV-файл для массового импорта внешних контактов в глобальный список адресов.
-ms.openlocfilehash: c74e8932f7ed2feeca472848c88bdddbc740fe28
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4d0b1a826583a032fd27c216367e99a6b7f8b371
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078956"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636347"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Массовый импорт внешних контактов в Exchange Online
 
@@ -71,7 +71,7 @@ ms.locfileid: "42078956"
 
 Следующий шаг — использование CSV-файла, созданного в шаге 1, и PowerShell для массового импорта внешних контактов, указанных в CSV-файле, в Exchange Online. 
   
-1.  Подключите PowerShell к организации Exchange Online. Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554). При подключении к Exchange Online PowerShell обязательно используйте имя пользователя и пароль для учетной записи глобального администратора Office 365. 
+1.  Подключите PowerShell к организации Exchange Online. Пошаговые инструкции приведены [в статье подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554). При подключении к Exchange Online PowerShell обязательно используйте имя пользователя и пароль для своей учетной записи глобального администратора. 
     
 2. После подключения PowerShell к Exchange Online перейдите в папку рабочего стола, в которой был сохранен CSV-файл на шаге 1. например `C:\Users\Administrator\desktop`:.
     

@@ -1,5 +1,5 @@
 ---
-title: Шифрование Office 365 в Microsoft Dynamics 365
+title: Шифрование в Microsoft Dynamics 365
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: Сводка. Общие сведения о шифровании в Microsoft Dynamics 365.
-ms.openlocfilehash: 288f739182f8419cf7fbbfb6dfd7ad0a2c7838a5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d5116d957f8d9e51309a9605bb82c4ffd76386e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597856"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637243"
 ---
-# <a name="office-365-encryption-in-microsoft-dynamics-365"></a>Шифрование Office 365 в Microsoft Dynamics 365
+# <a name="encryption-in-microsoft-dynamics-365"></a>Шифрование в Microsoft Dynamics 365
 
 Корпорация Майкрософт использует технологию шифрования для защиты данных клиентов в Dynamics 365, находясь в любом месте базы данных Майкрософт и находясь между устройствами пользователя и нашими центрами обработки данных. Подключения между клиентами и центрами обработки данных Майкрософт шифруются, а все общедоступные конечные точки защищены с помощью отраслевого стандарта TLS. Протокол TLS обеспечивает повышенную безопасность подключения браузера к серверу, обеспечивающее конфиденциальность и целостность данных между настольными компьютерами и центрами обработки данных. После активации шифрования данных его невозможно отключить. Дополнительные сведения можно найти в разделе [Шифрование данных на уровне полей](https://msdn.microsoft.com/library/dn481562.aspx).
 

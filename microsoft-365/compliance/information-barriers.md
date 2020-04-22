@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте информационные барьеры, чтобы обеспечить соответствие требованиям, используя Microsoft Teams в вашей организации.
-ms.openlocfilehash: f063a18dcadf5de74b43b2efeba3910f65e40102
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 344c2b6999a8fd890358a25b39ef3a37abc9ef58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153501"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636107"
 ---
 # <a name="information-barriers"></a>Информационные барьеры
 
@@ -91,7 +91,7 @@ For the PowerPoint slide of this Click-Through, click [here](https://github.com/
 - Microsoft 365 E5
 - Office 365 E5
 - Office 365 Advanced Compliance
-- Microsoft 365, защита информации и соответствие требованиям
+- Защита информации и соответствие требованиям в Microsoft 365 E5
 
 Дополнительные сведения [см.](https://products.office.com/business/security-and-compliance/compliance-solutions)
 

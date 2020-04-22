@@ -1,5 +1,5 @@
 ---
-title: Настройка дополнительных параметров анализа в Office 365 Advanced eDiscovery
+title: Настройка дополнительных параметров для расширенного обнаружения электронных данных
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
-description: 'Узнайте, как настроить дополнительные параметры, включая почти повторяющиеся, почтовые потоки и темы для процесса анализа в Office 365 Advanced eDiscovery. '
-ms.openlocfilehash: effb573165abea0d4f9939fbf7c367cbdf333f57
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Узнайте, как настроить дополнительные параметры, включая почти повторяющиеся, почтовые потоки и темы для процесса анализа в Advanced eDiscovery. '
+ms.openlocfilehash: 91faf9e39fe7b8a7fada7b05ccd88351d813b148
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557799"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631276"
 ---
-# <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Настройка дополнительных параметров анализа в Office 365 Advanced eDiscovery
+# <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>Настройка дополнительных параметров для расширенного обнаружения электронных данных
 
 > [!NOTE]
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
@@ -48,7 +48,7 @@ Advanced eDiscovery предоставляет расширенные парам
     
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

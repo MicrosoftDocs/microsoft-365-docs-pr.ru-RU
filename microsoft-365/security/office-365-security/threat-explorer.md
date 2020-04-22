@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: a7958d516177534cafc9d40fe335abbff06b4db6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2d75a5e05bb3fce85d52856afabc6aba13594f26
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631173"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708563"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 
@@ -240,4 +240,4 @@ ms.locfileid: "43631173"
 - Представление " **все сообщения электронной почты** " доступно в **обозревателе угроз** (не в отчете об **обнаружении в режиме реального времени** ).
 - В **обозревателе угроз**включены дополнительные возможности фильтрации и доступные действия.
 
-Более подробную информацию можно узнать в статье [Office 365 ATP Service Description: сведения о доступности функций в планах расширенной защиты от угроз (ATP)](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).
+Более подробную информацию можно узнать в статье [Office 365 ATP Service Description: сведения о доступности функций в планах расширенной защиты от угроз (ATP)](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans).

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как настроить разрешение DNS для повышения производительности.
-ms.openlocfilehash: 8b4302c06e75c59a1b99eb60399c9df897ad17ea
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bc1460ec40cda26d4784c7af5e909e4dca3c1f24
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066672"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583441"
 ---
 # <a name="step-2-configure-local-internet-connections-for-each-office"></a>Шаг 2. Настройка локальных подключений к Интернету для всех офисов
 
@@ -56,6 +56,8 @@ ms.locfileid: "42066672"
 - Каждое локальное подключение к Интернету должно использовать региональный DNS-сервер для исходящего интернет-трафика из этого места.
 
 Дополнительную информацию см. в разделе [Локальная организация исходящего трафика для сетевых подключений](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#egress-network-connections-locally). 
+
+Чтобы протестировать, насколько близко вы находитесь к точке входа в глобальную сеть Майкрософт, а также к точке подключения сети организации к поставщику услуг Интернета, воспользуйтесь [средством подключения сети Office 365](https://connectivity.office.com/).
 
 Прежде чем перейти к следующему шагу, проверьте [условия](networking-exit-criteria.md#crit-networking-step2), при выполнении которых можно считать данный шаг завершенным.
 

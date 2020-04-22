@@ -1,5 +1,5 @@
 ---
-title: Экспорт полей отчета в Office 365 Advanced eDiscovery
+title: Экспорт полей отчета в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: Описывает все поля, включенные в отчеты по экспорту для расширенного обнаружения электронных данных.
-ms.openlocfilehash: 8c932dac9218e2020bfcd57d21483728325e488f
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: a7ee8e3971ab2fc921085ca63f7a8451a1597be2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558210"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637811"
 ---
 # <a name="export-report-fields-in-advanced-ediscovery-classic"></a>Экспорт полей отчета в Advanced eDiscovery (классический)
 
@@ -47,7 +47,7 @@ ms.locfileid: "42558210"
 |Marked_as_pivot  <br/> |Ближайшие дубликаты  <br/> |Указывает, является ли файл сводным.  <br/> |Да  <br/> |Да  <br/> |
 |Similarity_percent  <br/> |Ближайшие дубликаты  <br/> |Процент сходства относительно Pivot.  <br/> |Да  <br/> |Да  <br/> |
 |Duplicate_subset  <br/> |Ближайшие дубликаты  <br/> |Уникальный идентификатор повторяющегося подмножества. Указывает, содержит ли файл точные дубликаты текста.  <br/> |Да  <br/> |Да  <br/> |
-|Date  <br/> |Общие  <br/> |Дата файла (зависит от типа файла — Электронная почта: Дата отправки; документ: Дата изменения).  <br/> |Да  <br/> |Да  <br/> |
+|Дата  <br/> |Общие  <br/> |Дата файла (зависит от типа файла — Электронная почта: Дата отправки; документ: Дата изменения).  <br/> |Да  <br/> |Да  <br/> |
 |Dominant_theme  <br/> |Анализ  <br/> |Основная тема файла.  <br/> |Да  <br/> |Да  <br/> |
 |Themes_list  <br/> |Темы  <br/> |Список названий тем.  <br/> |Да  <br/> |Да  <br/> |
 |ND_set  <br/> |екуисет  <br/> |Уникальный числовой идентификатор набора Неардупликате.  <br/> |Да  <br/> |Да  <br/> |
@@ -137,7 +137,7 @@ ms.locfileid: "42558210"
    
 ## <a name="related-topics"></a>Статьи по теме
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Экспорт данных дела с расширенным обнаружением электронных данных](export-case-data-in-advanced-ediscovery.md)
   

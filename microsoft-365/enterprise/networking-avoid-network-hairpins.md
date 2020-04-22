@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Удалите развороты пакетов для повышения производительности.
-ms.openlocfilehash: f9499fdb8e8c3f7b77e3349d6cc99f6dbf465870
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1d5e10bdd8b79f5c7ccd646ac08f83bb2c48b6ee
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066722"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583429"
 ---
 # <a name="step-3-avoid-network-hairpins"></a>Шаг 3. Удаление разворотов пакетов
 
@@ -48,7 +48,9 @@ ms.locfileid: "42066722"
 
 ![Пример обхода разворота пакетов](../media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
 
-Прежде чем переходить к следующему этапу, проверьте [условия](networking-exit-criteria.md#crit-networking-step3), при выполнении которых можно считать данный этап завершенным.
+Чтобы протестировать, насколько близко вы находитесь к точке входа в глобальную сеть Майкрософт, а также к точке подключения сети организации к поставщику услуг Интернета, воспользуйтесь [средством подключения сети Office 365](https://connectivity.office.com/).
+
+Прежде чем перейти к следующему шагу, проверьте [условия](networking-exit-criteria.md#crit-networking-step3), при выполнении которых можно считать данный шаг завершенным.
 
 ## <a name="next-step"></a>Следующий шаг
 

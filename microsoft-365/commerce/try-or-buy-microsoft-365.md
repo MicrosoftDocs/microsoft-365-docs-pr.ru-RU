@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Узнайте, как получить бесплатную пробную версию или приобрести подписку на Microsoft 365.
-ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631909"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707539"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Попробуйте или купите подписку на Microsoft 365
 
@@ -32,9 +32,9 @@ Microsoft 365 — это полное решение, объединяющее O
   
 - Microsoft 365 бизнес премиум
 
-- Microsoft 365 корпоративный E3
+- Office 365 корпоративный E3
 
-- Microsoft 365 корпоративный E5
+- Office 365 корпоративный E5
 
 Когда вы добавляете подписку с помощью центра администрирования, Новая подписка связывается с той же организацией (пространством имен домена), что и существующая подписка. Это упрощает перемещение пользователей в Организации между подписками или назначение им лицензии на дополнительные подписки, которые им необходимы.
   
@@ -132,7 +132,7 @@ Microsoft 365 — это полное решение, объединяющее O
 
 После получения новой подписки необходимо назначить лицензию пользователям, которые будут использовать эту подписку. Сведения о том, как [назначить лицензии пользователям](../admin/manage/assign-licenses-to-users.md) .
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Приобретение другой подписки на Microsoft 365 для бизнеса](buy-another-subscription.md)
 

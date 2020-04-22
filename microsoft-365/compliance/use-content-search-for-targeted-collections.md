@@ -1,5 +1,5 @@
 ---
-title: Использование поиска контента в Office 365 для целевых коллекций
+title: Использование поиска контента для целевых коллекций
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Используйте поиск контента в центре безопасности & соответствия требованиям для выполнения целевых коллекций. Целевая коллекция означает, что вы уверены, что элементы, реагирующие на обращение или привилегированные элементы, расположены в определенном почтовом ящике или папке сайта. Используйте сценарий, описанный в этой статье, чтобы получить идентификатор или путь к определенному почтовому ящику или папкам сайтов, в которых требуется выполнить поиск.
-ms.openlocfilehash: b8afe9e65aa65c697d9c5cefbeaf89638c1782d4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e6de817e7ec324e6aa80ef596340906c2f86d126
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080821"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633384"
 ---
-# <a name="use-content-search-in-office-365-for-targeted-collections"></a>Использование поиска контента в Office 365 для целевых коллекций
+# <a name="use-content-search-for-targeted-collections"></a>Использование поиска контента для целевых коллекций
 
-Функция поиска контента в центре безопасности &amp; Office 365 не предоставляет прямой способ для поиска определенных папок в почтовых ящиках Exchange, а также на сайтах SharePoint и OneDrive для бизнеса. Тем не менее, можно выполнять поиск по определенным папкам (называемым *целевой коллекцией*), УКАЗАВ свойство ID папки для свойства email или Path (документлинк) для сайтов в фактическом синтаксисе поискового запроса. Использование функции поиска контента для выполнения целевой коллекции полезно, если вы уверены, что элементы, реагирующие на обращение или привилегированные элементы, расположены в определенном почтовом ящике или папке сайта. С помощью сценария, описанного в этой статье, можно получить идентификатор папки для папок почтовых ящиков или путь (Документлинк) для папок на сайте SharePoint и OneDrive для бизнеса. Затем вы можете использовать идентификатор или путь к папке в запросе поиска, чтобы вернуть элементы, расположенные в папке.
+Функция поиска контента в центре соответствия требованиям &amp; безопасности не предоставляет прямой способ для поиска определенных папок в почтовых ящиках Exchange, а также на сайтах SharePoint и OneDrive для бизнеса. Тем не менее, можно выполнять поиск по определенным папкам (называемым *целевой коллекцией*), УКАЗАВ свойство ID папки для свойства email или Path (документлинк) для сайтов в фактическом синтаксисе поискового запроса. Использование функции поиска контента для выполнения целевой коллекции полезно, если вы уверены, что элементы, реагирующие на обращение или привилегированные элементы, расположены в определенном почтовом ящике или папке сайта. С помощью сценария, описанного в этой статье, можно получить идентификатор папки для папок почтовых ящиков или путь (Документлинк) для папок на сайте SharePoint и OneDrive для бизнеса. Затем вы можете использовать идентификатор или путь к папке в запросе поиска, чтобы вернуть элементы, расположенные в папке.
 
 > [!NOTE]
 > Чтобы получить контент, расположенный в папке на сайте SharePoint или OneDrive для бизнеса, сценарий в этом разделе использует управляемое свойство Документлинк вместо свойства Path. Свойство Документлинк является более надежным, чем свойство Path, так как оно возвращает весь контент в папке, а свойство Path не возвращает некоторые файлы мультимедиа.
@@ -68,22 +68,22 @@ ms.locfileid: "42080821"
     
   ```powershell
   #########################################################################################################
-  # This PowerShell script will prompt you for:                             #
+  # This PowerShell script will prompt you for:                                #
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
-  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.           #
-  # The script will then:                                           #
-  #    * If an email address is supplied: list the folders for the target mailbox.          #
+  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.            #
+  # The script will then:                                            #
+  #    * If an email address is supplied: list the folders for the target mailbox.            #
   #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
-  #    * for the site.                                                                                  #
-  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)  #
-  #      appended to the folder ID or documentlink to use in a Content Search.              #
-  # Notes:                                              #
-  #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the   #
-  #      the current folder and all sub-folders are searched.                       #
-  #    * For Exchange, only the specified folder will be searched; this means sub-folders in the folder #
+  #    * for the site.                                                                                    #
+  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)    #
+  #      appended to the folder ID or documentlink to use in a Content Search.                #
+  # Notes:                                                #
+  #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the     #
+  #      the current folder and all sub-folders are searched.                        #
+  #    * For Exchange, only the specified folder will be searched; this means sub-folders in the folder    #
   #      will not be searched.  To search sub-folders, you need to use the specify the folder ID for    #
-  #      each sub-folder that you want to search.                               #
-  #    * For Exchange, only folders in the user's primary mailbox will be returned by the script.       #
+  #      each sub-folder that you want to search.                                #
+  #    * For Exchange, only folders in the user's primary mailbox will be returned by the script.        #
   #########################################################################################################
   # Collect the target email address or SharePoint Url
   $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
@@ -219,7 +219,7 @@ ms.locfileid: "42080821"
   
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365, используя учетную запись и учетные данные, которые использовались для запуска скрипта на шаге 1.
+2. Войдите в систему, используя учетную запись и учетные данные, которые использовались для запуска скрипта на шаге 1.
     
 3. В левой области центра безопасности & соответствия **требованиям выберите** \> поиск **контента**поиска и нажмите **создать** ![значок](../media/O365-MDM-CreatePolicy-AddIcon.gif)добавления.
     
@@ -229,7 +229,7 @@ ms.locfileid: "42080821"
     
     - Щелкните **выбрать конкретные почтовые ящики для поиска** , а затем добавьте тот же почтовый ящик, который вы указали при выполнении сценария, описанного в шаге 1. 
     
-      ИЛИ
+      или
     
     - Щелкните **выбрать конкретные сайты для поиска** , а затем добавьте тот же URL-адрес сайта, который вы указали при выполнении сценария, описанного в шаге 1. 
     

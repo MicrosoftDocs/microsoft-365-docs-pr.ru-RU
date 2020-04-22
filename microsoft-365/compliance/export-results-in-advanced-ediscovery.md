@@ -1,5 +1,5 @@
 ---
-title: Экспорт результатов в Office 365 Advanced eDiscovery
+title: Экспорт результатов в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
-description: 'Узнайте, как определить параметры экспорта результатов из Office 365 Advanced eDiscovery, включая процедуру указания параметров для пакета экспорта. '
-ms.openlocfilehash: e439753b427a4e4a90e219912f8d3c1fcf4cfff3
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Узнайте, как определить параметры для экспорта результатов из расширенного обнаружения электронных данных, включая процедуру указания параметров для пакета экспорта. '
+ms.openlocfilehash: 4d94b7d1f1d475916e7b0b44a98dd878a1bd5fde
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558200"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43616003"
 ---
 # <a name="export-results-in-advanced-ediscovery-classic"></a>Экспорт результатов в Advanced eDiscovery (классический)
 
@@ -194,11 +194,11 @@ ms.locfileid: "42558200"
    
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Просмотр журнала пакетной обработки и экспорт прошлых результатов](view-batch-history-and-export-past-results.md)
   
-[Быстрая настройка для Office 365 Advanced eDiscovery](quick-setup-for-advanced-ediscovery.md)
+[Быстрая настройка для расширенного обнаружения электронных данных](quick-setup-for-advanced-ediscovery.md)
 
 [Экспорт полей отчетов](export-report-fields-in-advanced-ediscovery.md)
   

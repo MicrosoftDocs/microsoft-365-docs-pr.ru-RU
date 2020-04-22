@@ -1,5 +1,5 @@
 ---
-title: Настройка нагрузок для добавления импортированных файлов в Office 365 Advanced eDiscovery
+title: Настройка нагрузок для добавления импортированных файлов в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
-description: 'Ознакомьтесь с инструкциями по добавлению импортированных файлов в последнюю заданную загрузку или пакет, прежде чем выполнять обучение по релевантности в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 3dd302e107b10726dd0110dfcb19bf59a3703add
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Изучите шаги, необходимые для добавления импортированных файлов в последнюю заданную загрузку или пакет, прежде чем выполнять обучение по релевантности в Advanced eDiscovery.  '
+ms.openlocfilehash: 7914013d21cfd7bba0e474a0e8d831bcfad0239d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557769"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636297"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>Настройка нагрузок для добавления импортированных файлов в Advanced eDiscovery (классический)
 
@@ -138,7 +138,7 @@ ms.locfileid: "42557769"
     
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Определение вопросов и назначение пользователей](define-issues-and-assign-users.md)
   

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут настроить собственный соединитель для импорта и архивации данных Twitter в Microsoft 365. После импорта этих данных в Microsoft 365 вы можете использовать такие функции обеспечения соответствия, как судебное хранение, поиск контента и политики хранения, для управления управлением данными Twitter Организации.
-ms.openlocfilehash: 80c3ca71204b6050a1944250c20df4ff13bbd71e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 1143239635aed64847c12a3d8c61c430a677e037
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635017"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636127"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data"></a>Развертывание соединителя для архивации данных Twitter
 
@@ -26,7 +26,7 @@ ms.locfileid: "42635017"
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>Шаг 1: создание приложения в Azure Active Directory
 
-1. Перейдите на <https://portal.azure.com> страницу и войдите, используя учетные данные глобального администратора Office 365.
+1. Перейдите на <https://portal.azure.com> страницу и войдите, используя учетные данные глобального администратора.
 
    ![Вход в Azure](../media/TCimage01.png)
 

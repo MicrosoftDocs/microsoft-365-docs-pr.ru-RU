@@ -1,5 +1,5 @@
 ---
-title: Оценка соответствия в Office 365 Advanced eDiscovery
+title: Оценка релевантности в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
-description: Ознакомьтесь с обзором этапа оценки и его роли в определении богатости проблем во время обучения по релевантности в Office 365 Advanced eDiscovery.
-ms.openlocfilehash: 46aef7300a6021e603edb8708ae01d8147b02722
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Ознакомьтесь с обзором этапа оценки и его роли в определении богатости проблем во время обучения по релевантности в Advanced eDiscovery.
+ms.openlocfilehash: e1e090a9b3aceecad8451657d7a8e5d26e92ed6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556797"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636157"
 ---
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Оценка соответствия в расширенных средствах обнаружения электронных данных (классический)
 
@@ -55,7 +55,7 @@ ms.locfileid: "42556797"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Маркировка и оценка](tagging-and-assessment-in-advanced-ediscovery.md)
   

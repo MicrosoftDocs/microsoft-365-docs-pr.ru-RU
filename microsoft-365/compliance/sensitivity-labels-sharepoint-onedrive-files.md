@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 8f57a680bf5cbd53153cedc339b35bc2712c3f73
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 3127b4ac7b661cd5143052d298424e24d26071a5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43188973"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635787"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive (общедоступная предварительная версия)
 
@@ -58,7 +58,7 @@ ms.locfileid: "43188973"
 
 Вы всегда можете отказаться от этого предварительного просмотра в любое время.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Эти функции работают только с [метками конфиденциальности](sensitivity-labels.md) . Если у вас есть метки Azure Information Protection, сначала необходимо перенести их в метки конфиденциальности, чтобы можно было включить эти функции для новых файлов, которые вы отправляете. Инструкции можно посмотреть, [как перенести метки Azure Information Protection в единые метки конфиденциальности](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -156,7 +156,7 @@ ms.locfileid: "43188973"
 
 Чтобы отключить предварительный просмотр, используйте командлет Set – SPOTenant:
 
-1. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора или администратора SharePoint в Office 365, подключитесь к SharePoint. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора или администратора SharePoint, подключитесь к SharePoint. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 2. Выполните следующую команду:
 

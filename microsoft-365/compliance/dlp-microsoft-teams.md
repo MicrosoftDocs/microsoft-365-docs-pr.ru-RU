@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Теперь политики защиты от потери данных можно применять к разговорам и каналам Microsoft Teams. Прочтите эту статью, чтобы узнать больше о том, как она работает.
-ms.openlocfilehash: 2c530279dde03f357386f11b9e9af5d68be5ee7f
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 290e1e7a7c3fd395c1f7e1739b08eba64c8d2d8d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170559"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633058"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>Защита от потери данных и Microsoft Teams
 
@@ -67,7 +67,7 @@ ms.locfileid: "42170559"
 
 Для выполнения этой задачи необходимо назначить роль с разрешениями на изменение политик защиты от потери данных. Дополнительные сведения см. в статье [Разрешения](data-loss-prevention-policies.md#permissions).
 
-1. Перейдите в центр безопасности & безопасности Office 365 ([https://protection.office.com](https://protection.office.com)) и войдите в систему.
+1. Перейдите в центр безопасности & соответствия требованиям ([https://protection.office.com](https://protection.office.com)) и войдите в систему.
 
 2. Выберите > **Политика** **защиты от потери данных**.
 
@@ -87,7 +87,7 @@ ms.locfileid: "42170559"
 
 Для выполнения этой задачи необходимо назначить роль с разрешениями на изменение политик защиты от потери данных. Дополнительные сведения см. в статье [Разрешения](data-loss-prevention-policies.md#permissions).
 
-1. Перейдите в центр безопасности & безопасности Office 365 ([https://protection.office.com](https://protection.office.com)) и войдите в систему.
+1. Перейдите в центр безопасности & соответствия требованиям ([https://protection.office.com](https://protection.office.com)) и войдите в систему.
 
 2. Выберите > **Политика** **защиты от потери данных**.
 
@@ -105,9 +105,9 @@ ms.locfileid: "42170559"
 
 Для выполнения этой задачи необходимо назначить роль с разрешениями на изменение политик защиты от потери данных. Дополнительные сведения см. в статье [Разрешения](data-loss-prevention-policies.md#permissions).
 
-1. Перейдите в центр безопасности & безопасности Office 365 ([https://protection.office.com](https://protection.office.com)) и войдите в систему.
+1. Перейдите в центр безопасности & соответствия требованиям ([https://protection.office.com](https://protection.office.com)) и войдите в систему.
 
-2. Выберите > **** политика >  **защиты от потери данных****и создайте политику**.
+2. Выберите > **Policy**политика >  **защиты от потери данных****и создайте политику**.
 
 3. Выберите [шаблон](data-loss-prevention-policies.md#dlp-policy-templates), а затем нажмите кнопку **Далее**.<br/>В нашем примере мы выбрали шаблон данных личных сведений США.<br/>![Шаблон конфиденциальности для политики защиты от потери данных](../media/dlp-teams-createnewpolicy-template.png)<br/>
 
@@ -129,7 +129,7 @@ ms.locfileid: "42170559"
 
 Предоставьте примерно один час, чтобы новая политика работала через центр обработки данных и синхронизирует учетные записи пользователей.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 

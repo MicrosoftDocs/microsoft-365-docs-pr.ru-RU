@@ -1,5 +1,5 @@
 ---
-title: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
+title: Настройка управления правами Azure для предыдущей версии шифрования сообщений
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: Предыдущая версия шифрования сообщений Office 365 зависит от Microsoft Azure Rights Management (ранее известной как Windows Azure Active Directory Rights Management).
-ms.openlocfilehash: be0fad248465927ee7cc59b31a36e65ce5c053db
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3d98fff1987548292699972cedb4e3aa34d20b13
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601486"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635481"
 ---
-# <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
+# <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>Настройка управления правами Azure для предыдущей версии шифрования сообщений
 
 В этом разделе описываются действия, которые необходимо выполнить, чтобы активировать и затем настроить Azure Rights Management (RMS), часть Azure Information Protection для использования с предыдущей версией Office 365 Message encryption (OME).
 
 ## <a name="this-article-only-applies-to-the-previous-version-of-ome"></a>Эта статья относится только к предыдущей версии OME
-Если вы еще не переместили организацию Office 365 в новые возможности OME, но вы уже развернули OME, то сведения, приведенные в этой статье, применимы к вашей организации. Корпорация Майкрософт рекомендует создавать план для перехода на новые возможности OME, как только она будет приемлема для вашей организации. Инструкции приведены в разделе [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md). Если вы хотите узнать больше о том, как новые возможности работают первыми, ознакомьтесь со статьей [Office 365 Message Encryption](ome.md). В оставшейся части этой статьи рассматривается поведение OME перед выпуском новых возможностей OME.
+Если вы еще не переместили свою организацию в новые возможности OME, но вы уже развернули OME, то сведения, приведенные в этой статье, применимы к вашей организации. Корпорация Майкрософт рекомендует создавать план для перехода на новые возможности OME, как только она будет приемлема для вашей организации. Инструкции приведены в разделе [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md). Если вы хотите узнать больше о том, как новые возможности работают первыми, ознакомьтесь со статьей [Office 365 Message Encryption](ome.md). В оставшейся части этой статьи рассматривается поведение OME перед выпуском новых возможностей OME.
 
 ## <a name="prerequisites-for-using-the-previous-version-of-office-365-message-encryption"></a>Необходимые условия для использования предыдущей версии Office 365 шифрования сообщений
 <a name="warmprereqs"> </a>
 
-Шифрование сообщений Office 365 (OME), в том числе IRM, зависит от управления правами Azure (Azure RMS). Azure RMS — это технология защиты, используемая службой Azure Information Protection. Чтобы использовать OME, ваша организация Office 365 должна включать подписку на Exchange Online или Exchange Online Protection, которая, в свою очередь, включает подписку на Azure Rights Management.
+Шифрование сообщений Office 365 (OME), в том числе IRM, зависит от управления правами Azure (Azure RMS). Azure RMS — это технология защиты, используемая службой Azure Information Protection. Чтобы использовать OME, ваша организация должна включать подписку на Exchange Online или Exchange Online Protection, которая, в свою очередь, включает подписку на Azure Rights Management.
   
 - Если вы не знаете, что включает подписка, ознакомьтесь со статьей описание службы Exchange Online для [политики сообщений, восстановления и соответствия требованиям](https://technet.microsoft.com/library/exchange-online-message-policy-recovery-and-compliance.aspx).
 
@@ -50,16 +50,16 @@ ms.locfileid: "41601486"
   
 ## <a name="set-up-the-previous-version-of-ome-to-use-azure-rms-by-importing-trusted-publishing-domains-tpds"></a>Настройка предыдущей версии OME для использования Azure RMS путем импорта доверенных доменов публикации (TPD)
 
-TPD — это XML-файл, который содержит сведения о параметрах управления правами организации. Например, TPD содержит сведения о сертификате лицензиара сервера (лицензиар), используемом для подписи и шифрования сертификатов и лицензий, URL-адресов, используемых для лицензирования и публикации, и т. д. Вы импортируете TPD в организацию Office 365 с помощью Windows PowerShell.
+TPD — это XML-файл, который содержит сведения о параметрах управления правами организации. Например, TPD содержит сведения о сертификате лицензиара сервера (лицензиар), используемом для подписи и шифрования сертификатов и лицензий, URL-адресов, используемых для лицензирования и публикации, и т. д. Вы импортируете TPD в организацию с помощью Windows PowerShell.
   
 > [!IMPORTANT]
-> Ранее вы можете импортировать TPD из службы управления правами Active Directory (AD RMS) в организацию Office 365. Тем не менее, это предотвратит использование новых возможностей OME и не рекомендуется. Если ваша организация Office 365 в данный момент настроена таким образом, корпорация Майкрософт рекомендует создать план для миграции из локальной службы управления правами Active Directory в облачную службу Azure Information Protection. Дополнительные сведения см. [в статье миграция из AD RMS в Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms). Вы не сможете использовать новые возможности OME, пока миграция не будет завершена в Azure Information Protection.
+> Ранее вы можете импортировать TPD из службы управления правами Active Directory (AD RMS) в организацию. Тем не менее, это предотвратит использование новых возможностей OME и не рекомендуется. Если ваша организация в данный момент настроена таким образом, корпорация Майкрософт рекомендует создать план для миграции из локальной службы Active Directory RMS в облачную службу Azure Information Protection. Дополнительные сведения см. [в статье миграция из AD RMS в Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms). Вы не сможете использовать новые возможности OME, пока миграция не будет завершена в Azure Information Protection.
   
  **Импорт TPD из службы управления правами Azure**
   
 1. [Подключитесь к Exchange Online с помощью удаленной оболочки PowerShell](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx).
 
-2. Выберите URL-адрес для общего доступа к ключам, соответствующий географическому расположению организации Office 365:
+2. Выберите URL-адрес для общего доступа к ключам, соответствующий географическому расположению вашей организации:
 
 |**Location**|**URL-адрес расположения для общего доступа к ключам**|
 |:-----|:-----|
@@ -89,7 +89,7 @@ TPD — это XML-файл, который содержит сведения о
 
     Где *тпднаме* — это имя, которое вы хотите использовать для TPD. Например, "Contoso Северная Америка TPD". 
 
-5. Чтобы убедиться, что ваша организация Office 365 успешно настроена на использование службы управления правами Azure, запустите командлет [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.160%29.aspx) с параметром-рмсонлине следующим образом: 
+5. Чтобы убедиться, что ваша организация успешно настроена для использования службы управления правами Azure, запустите командлет [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.160%29.aspx) с параметром-рмсонлине следующим образом: 
 
   ```powershell
   Test-IRMConfiguration -RMSOnline

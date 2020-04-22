@@ -1,5 +1,5 @@
 ---
-title: Поиск содержимого в Office 365
+title: Поиск контента
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,16 +13,16 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: С помощью средства обнаружения электронных данных поиска контента в центре безопасности & соответствия требованиям можно быстро находить электронную почту в почтовых ящиках Exchange, документов на сайтах SharePoint и в папках OneDrive, а также беседах в Skype для бизнеса.
-ms.openlocfilehash: d5acdf5bba50d002876491ee0488c1f28a2c51ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2b874181fdfc5bce69227acc279e12bffe70c069
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601546"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632924"
 ---
-# <a name="search-for-content-in-office-365"></a>Поиск содержимого в Office 365
+# <a name="search-for-content"></a>Поиск контента
 
-Используйте средство "поиск контента" в центре безопасности & соответствия требованиям для быстрого поиска электронной почты в почтовых ящиках Exchange, документов на сайтах SharePoint и расположениях OneDrive, а также бесед в Skype для бизнеса. С помощью средства "поиск контента" можно искать сообщения электронной почты, документы и беседы в средствах совместной работы в Office 365, такие как Microsoft Teams и группы Office 365.
+Используйте средство "поиск контента" в центре безопасности & соответствия требованиям для быстрого поиска электронной почты в почтовых ящиках Exchange, документов на сайтах SharePoint и расположениях OneDrive, а также бесед в Skype для бизнеса. Средство поиска контента можно использовать для поиска сообщений электронной почты, документов и мгновенных сообщений в средствах совместной работы, таких как Microsoft Teams и Microsoft 365 Groups.
   
 ## <a name="search-for-content"></a>Поиск контента
 
@@ -36,11 +36,11 @@ ms.locfileid: "41601546"
     
 - [Запуск поиска по списку идентификаторов](csv-file-for-an-id-list-content-search.md) для поиска определенных сообщений электронной почты 
     
-- [Поиск в облачных почтовых ящиках](search-cloud-based-mailboxes-for-on-premises-users.md) для локальных пользователей в Office 365
+- [Поиск в облачных почтовых ящиках](search-cloud-based-mailboxes-for-on-premises-users.md) для локальных пользователей в Microsoft 365
 
 - [Просмотр статистики ключевых слов](view-keyword-statistics-for-content-search.md) для результатов поиска и уточнение запроса при необходимости 
     
-- [Поиск сторонних данных](use-content-search-to-search-third-party-data-that-was-imported.md) , импортированных в вашу организацию в Office 365 
+- [Поиск сторонних данных](use-content-search-to-search-third-party-data-that-was-imported.md) , импортированных вашей организацией в Microsoft 365 
     
 - [Массовое изменение](bulk-edit-content-searches.md) расположения запросов и контента для нескольких поисков 
     

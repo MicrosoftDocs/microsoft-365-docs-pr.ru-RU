@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить собственный соединитель для импорта данных из средства мгновенных Bloomberg чата в Microsoft 365. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения для управления сторонними данными Организации.
-ms.openlocfilehash: 6d267959f9086830282e9d1f018e4e58f90bc830
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: a6b748cdb33b34c7fc48b0167728f78cf7ae1099
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42941261"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637119"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>Настройка соединителя для архивации данных Instant Bloomberg
 
@@ -43,7 +43,7 @@ ms.locfileid: "42941261"
 
 Многие действия по реализации, необходимые для архивации данных Bloomberg, являются внешними по отношению к Microsoft 365 и должны быть завершены до того, как вы сможете создать соединитель в центре соответствия требованиям.
 
-- Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора Office 365 и примите запрос. Необходимо выполнить это действие, прежде чем вы сможете успешно создать соединитель Bloomberg в действии 3.
+- Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора, а затем примите запрос. Необходимо выполнить это действие, прежде чем вы сможете успешно создать соединитель Bloomberg в действии 3.
 
 - Подпишитесь на [Bloomberg Anywhere](https://www.bloomberg.com/professional/product/remote-access/?bbgsum-page=DG-WS-PROF-PROD-BBA). Это необходимо, чтобы можно было войти в Bloomberg везде, чтобы получить доступ к сайту SFTP Bloomberg, который необходимо установить и настроить.
 

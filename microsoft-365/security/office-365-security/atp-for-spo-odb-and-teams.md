@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Расширьте Office 365 Advanced Threat protection to Files in SharePoint Online, OneDrive для бизнеса и Microsoft Teams, чтобы обеспечить более безопасную совместную работу для вашей организации.
-ms.openlocfilehash: 4c64a4934a472fa5c6ac0f1f718d63300560f6c8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 71e404a402db8c0c0ad01bf1daa415788dfa717b
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636026"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708387"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -63,7 +63,7 @@ ms.locfileid: "43636026"
 
  Начиная с опоздания, Май 2018, функции [карантина](quarantine-email-messages.md) в центре безопасности &amp; соответствуют расширению ATP для SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
 
-Если файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams определен как вредоносный, помимо того, что ATP блокирует файл из-за открытия или предоставления общего доступа, этот файл включается в список элементов, помещенных в карантин. (В центре соответствия &amp; требованиям безопасности перейдите к разделу \> **Обзор** \> **управления угрозами** **карантина** и отфильтруйте **содержимое**.)
+Если файл в SharePoint Online, OneDrive для бизнеса или Microsoft Teams определен как вредоносный, помимо того, что ATP блокирует файл из-за открытия или предоставления общего доступа, этот файл включается в список элементов, помещенных в карантин. (В центре соответствия &amp; требованиям безопасности перейдите к разделу \> **Обзор** \> **управления угрозами** **карантина** и отфильтруйте **файлы**.)
 
 Если вы участвуете в работе группы безопасности Microsoft 365 для бизнеса и обладаете необходимыми [разрешениями в центре безопасности &amp; ](permissions-in-the-security-and-compliance-center.md), можно загружать, освобождать, отчитываться и удалять файлы, обнаруженные как вредоносные, из карантина.
 
@@ -75,7 +75,7 @@ ms.locfileid: "43636026"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-1. [Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
+ - [Включение Office 365 ATP для SharePoint, OneDrive и Microsoft Teams](turn-on-atp-for-spo-odb-and-teams.md)
 
-2. [Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
+ - [Просмотр сведений о вредоносных файлах, обнаруженных в SharePoint, OneDrive или Microsoft Teams](malicious-files-detected-in-spo-odb-or-teams.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Управление ключом клиента для Office 365
+title: Управление ключом клиента
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: После настройки ключа клиента Узнайте, как управлять им с помощью восстановления ключей АКВ и управления разрешениями и политиками шифрования данных.
-ms.openlocfilehash: 112bdee7658334c251418903761866841625ff17
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: 4796fcef69e052725b635acb4170d73bb36de787
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804856"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635605"
 ---
-# <a name="manage-customer-key-for-office-365"></a>Управление ключом клиента для Office 365
+# <a name="manage-customer-key"></a>Управление ключом клиента
 
 После того как вы настроили ключ клиента для Office 365, вы можете управлять ключами, как описано в этой статье. Дополнительные сведения о ключе клиента см.
 
@@ -70,7 +70,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 ## <a name="manage-data-encryption-policies-deps-with-customer-key"></a>Управление политиками шифрования данных (ДЕПС) с помощью ключа клиента
 
-Ключевые обработчики клиентов ДЕПС отличаются в разных службах Office 365. Например, вы можете создать другое количество ДЕПС для разных служб.
+Ключевые обработчики клиентов ДЕПС отличаются в разных службах. Например, вы можете создать другое количество ДЕПС для разных служб.
 
 **Exchange Online и Skype для бизнеса:** Можно создать до 50 ДЕПС. Инструкции приведены в разделе [Создание политики шифрования данных (DEP) для использования с Exchange Online и Skype для бизнеса](customer-key-set-up.md#create-a-data-encryption-policy-dep-for-use-with-exchange-online-and-skype-for-business).
 
@@ -80,7 +80,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 Чтобы просмотреть список всех ДЕПС, созданных для Exchange Online и Skype для бизнеса с помощью командлета Get-Dataencryptionpolicy используется PowerShell, выполните указанные ниже действия.
 
-1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в организации Office 365, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
 2. Чтобы возвратить все ДЕПС в Организации, выполните командлет Get – Dataencryptionpolicy используется без параметров.
 
@@ -92,11 +92,11 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>Назначение функции DEP перед переносом почтового ящика в облако
 
-При назначении функции DEP Office 365 шифрует содержимое почтового ящика с помощью назначенной функции DEP во время миграции. Этот процесс является более эффективным, чем перенос почтового ящика, назначение DEP, а затем ожидание выполнения шифрования, что может занять несколько часов или, возможно, дней.
+При назначении функции DEP Microsoft 365 шифрует содержимое почтового ящика с помощью назначенной функции DEP во время миграции. Этот процесс является более эффективным, чем перенос почтового ящика, назначение DEP, а затем ожидание выполнения шифрования, что может занять несколько часов или, возможно, дней.
 
 Чтобы назначить средство предотвращения выполнения данных для почтового ящика перед его переносом в Office 365, выполните командлет Set-MailUser в Exchange Online PowerShell:
 
-1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в организации Office 365, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
 2. Выполните командлет Set – MailUser.
 
@@ -110,7 +110,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
 
 Чтобы определить, какая функция DEP назначена почтовому ящику, используйте командлет Get – MailboxStatistics. Командлет возвращает уникальный идентификатор (GUID).
   
-1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в организации Office 365, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+1. С помощью рабочей или учебной учетной записи, имеющей разрешения глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
    ```powershell
    Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataEncryptionPolicyID
@@ -178,13 +178,13 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 
 Вы управляете отзывами всех корневых ключей, включая ключ доступности. Ключ клиента обеспечивает управление аспектом планирования выхода нормативных требований. Если вы решили отозвать ключи для очистки данных и выйти из службы, служба удаляет ключ доступности после завершения процесса очистки данных.
 
-Office 365 выполняет аудит и проверку пути очистки данных. Для получения дополнительных сведений посетите отчет ССАЕ 18 SOC 2, доступный на [портале доверия службы](https://servicetrust.microsoft.com/). Кроме того, корпорация Майкрософт рекомендует следующие документы:
+Microsoft 365 выполняет аудит и проверку пути очистки данных. Для получения дополнительных сведений посетите отчет ССАЕ 18 SOC 2, доступный на [портале доверия службы](https://servicetrust.microsoft.com/). Кроме того, корпорация Майкрософт рекомендует следующие документы:
 
 - [Оценка риска и рекомендации по соответствию финансовых учреждениям в облаке Майкрософт](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
 - [Рекомендации по планированию выхода O365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=77ea7ebf-ce1b-4a5f-9972-d2d81a951d99&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
-Путь очистки данных слегка различается в разных службах Office 365.
+Путь очистки данных слегка различается для разных служб.
 
 ### <a name="revoke-your-customer-keys-and-the-availability-key-for-exchange-online-and-skype-for-business"></a>Отзыв ключей клиентов и ключа доступности для Exchange Online и Skype для бизнеса
 
@@ -199,7 +199,7 @@ Office 365 выполняет аудит и проверку пути очист
 
 1. Удалите разрешения для переноса и переноса для "O365 Exchange Online" из Azure Key Vault.
 
-2. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора в организации Office 365, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+2. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
 3. Для каждого компонента DEP, содержащего почтовые ящики, которые необходимо удалить, выполните командлет [Set – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-dataencryptionpolicy) следующим образом.
 
@@ -233,16 +233,16 @@ Office 365 выполняет аудит и проверку пути очист
 
    Когда корпорация Майкрософт получает юридический документ, мы выполняем командлеты для запуска очистки данных, которая выполняет удаление шифрования ключа клиента, ключа сайта и всех отдельных ключей документа, ирревокабли нарушая иерархию ключей. После завершения командлетов по очистке данных данные очищаются.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-- [Шифрование службы с помощью ключа клиента для Office 365](customer-key-overview.md)
+- [Шифрование службы с помощью ключа клиента](customer-key-overview.md)
 
 - [Сведения о ключе доступности](customer-key-availability-key-understand.md)
 
-- [Настройка ключа клиента для Office 365](customer-key-set-up.md)
+- [Настройка ключа клиента](customer-key-set-up.md)
 
-- [Вращение или поворот ключа клиента или ключа доступности](customer-key-availability-key-roll.md)
+- [Смена или ротация ключа клиента или ключа доступности](customer-key-availability-key-roll.md)
 
-- [Защищенное хранилище для клиентов в Office 365](customer-lockbox-requests.md)
+- [Защищенное хранилище пользователя](customer-lockbox-requests.md)
 
-- [Шифрование служб Office 365](office-365-service-encryption.md)
+- [Шифрование службы](office-365-service-encryption.md)

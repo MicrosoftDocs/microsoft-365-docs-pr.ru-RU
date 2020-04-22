@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить соединитель для импорта сторонних данных из источников данных, таких как страницы Facebook бизнес, Twitter, LinkedIn Company и Instant Bloomberg. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: 8bd689f7a77497961948d8e94b160aca8bbb43ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c8bb4c1330af0f9c10dd93f9cedd47b3d3b34b0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596316"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637129"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data"></a>Настройка соединителя для архивации данных Facebook
 
@@ -38,9 +38,9 @@ ms.locfileid: "41596316"
     - [Подписка на подписку "Оплата с учетной записью".](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > [Бесплатная подписка на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) , включенная в вашу подписку на Office 365, не поддерживает соединители в центре безопасности & соответствия требованиям.
+    > [Бесплатная подписка на Azure Active Directory](use-your-free-azure-ad-subscription-in-office-365.md) , включенная в вашу подписку на Microsoft 365, не поддерживает соединители в центре безопасности & соответствия требованиям.
 
-- Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора Office 365 и примите запрос.
+- Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора, а затем примите запрос.
 
 - Пользователю, который настраивает настраиваемый соединитель в центре соответствия требованиям Microsoft 365 (на шаге 5), должна быть назначена роль импорта почтовых ящиков в Exchange Online. По умолчанию эта роль не назначена ни одной группе ролей в Exchange Online. Вы можете добавить роль экспорта для импорта почтовых ящиков в группу ролей Управление организацией в Exchange Online. Вы также можете создать группу ролей, назначить роль импорта для импорта почтовых ящиков, а затем добавить соответствующих пользователей в качестве участников. Для получения дополнительных сведений обратитесь к разделу [Создание](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) групп ролей или [изменение групп ролей](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) статьи "Управление группами ролей в Exchange Online".
 
@@ -106,7 +106,7 @@ ms.locfileid: "41596316"
 
 ## <a name="step-5-set-up-a-facebook-business-pages-connector-in-the-microsoft-365-compliance-center"></a>Шаг 5: Настройка соединителя для бизнес-страниц Facebook в центре соответствия требованиям Microsoft 365
 
-Последним шагом является настройка соединителя в центре соответствия требованиям Microsoft 365, который импортирует данные из бизнес-страниц Facebook в указанный почтовый ящик в Microsoft 365. После выполнения этого шага служба импорта Microsoft 365 начнет импортировать данные из бизнес-страниц Facebook в Microsoft 365.
+Последним шагом является настройка соединителя в центре соответствия требованиям Microsoft 365, который импортирует данные из бизнес-страниц Facebook в указанный почтовый ящик в Microsoft 365. После выполнения этого шага служба импорта Office 365 начнет импортировать данные из бизнес-страниц Facebook в Microsoft 365.
 
 Пошаговые инструкции приведены [в разделе Шаг 5: Настройка соединителя Facebook в центре соответствия требованиям Microsoft 365](deploy-facebook-connector.md#step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center). 
 

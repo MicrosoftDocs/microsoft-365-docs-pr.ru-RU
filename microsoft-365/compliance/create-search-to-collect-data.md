@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 47d30cb2da91eff1260ffcf07838bd066917b4a1
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: 4b740b07b59b7500b8f57584767796b7f31ae87d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610646"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635979"
 ---
 # <a name="create-a-search"></a>Создание поискового запроса
 
@@ -39,7 +39,7 @@ ms.locfileid: "42610646"
 
 ## <a name="choose-non-custodial-locations"></a>Выбор расположений, не являющихся кустодиалми
 
-В некоторых случаях может потребоваться поиск в источниках данных, не связанных с хранитель. В этом случае можно указать расположения для поиска или выбрать поиск по всем расположениям для определенной службы Office 365 (например, поиск по всем почтовым ящикам Exchange или всем сайтам SharePoint и учетным записям OneDrive).
+В некоторых случаях может потребоваться поиск в источниках данных, не связанных с хранитель. В этом случае можно указать расположения, в которых следует выполнять поиск, или выбрать поиск всех расположений содержимого для определенной службы Майкрософт (например, поиск по всем почтовым ящикам Exchange или всем сайтам SharePoint и учетным записям OneDrive).
 
 ## <a name="define-the-search-query-and-conditions"></a>Определение запроса и условий поиска
 

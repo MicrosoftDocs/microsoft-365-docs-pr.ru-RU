@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Сведения о том, что происходит с данными при истечении срока действия подписки на Microsoft 365 для бизнеса, отключается или при отмене.
-ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634878"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707611"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Что происходит с данными и доступом при завершении подписки Microsoft 365 для бизнеса?
 
@@ -220,7 +220,7 @@ ms.locfileid: "43634878"
 Сведения о том, как отменить, можно найти в разделе [Отмена подписки](cancel-your-subscription.md).
   
 > [!IMPORTANT]
-> Если вы хотите, чтобы данные подписки были удалены до того, как будет отключен типичный отключенный период, можно запрашивать срочный отмену. Когда вы запрашиваете срочный отмену, данные подписки удаляются в течение 3 дней с момента отмены. Чтобы использовать упрощенную отмену подготовки, [обратитесь в службу поддержки](../../admin/contact-support-for-business-products.md).
+> Если вы хотите, чтобы данные подписки были удалены до выключения обычного отключенного периода, можно [Закрыть учетную запись](../close-your-account.md).
 
 > [!NOTE]
 > Сведения на этой странице распространяются на [заявление об отказе политики корпорации Майкрософт и уведомление об изменении](https://go.microsoft.com/fwlink/p/?LinkId=613651). Периодически вернитесь на этот сайт, чтобы просмотреть изменения.

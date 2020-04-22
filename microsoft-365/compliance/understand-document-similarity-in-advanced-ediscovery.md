@@ -1,5 +1,5 @@
 ---
-title: Сведения о сходстве документов в Office 365 Advanced eDiscovery
+title: Принцип подобия документов в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
-description: 'Проверьте, как значение подобия документа — минимальный уровень сходства для двух файлов, которые должны рассматриваться как почти повторяющиеся, работает в Office 365 Advanced eDiscovery. '
-ms.openlocfilehash: e15eb119a569c7cd296f9d3546969848808652da
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Проверьте, как значение подобия документа — минимальный уровень сходства для двух файлов, которые должны рассматриваться как почти повторяющиеся, работает в Advanced eDiscovery. '
+ms.openlocfilehash: bfce2e3018c690fc0a25bcda8e2c03690a334dc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557669"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633414"
 ---
 # <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Принцип подобия документов в Advanced eDiscovery (классический)
 
@@ -57,7 +57,7 @@ ms.locfileid: "42557669"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Настройка параметров анализа](set-analyze-options-in-advanced-ediscovery.md)
   
