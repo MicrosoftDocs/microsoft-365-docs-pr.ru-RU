@@ -1,5 +1,5 @@
 ---
-title: 'Предоставление разрешений для почтового ящика другому пользователю Office 365: справка для администраторов'
+title: Предоставление другому пользователю разрешений доступа к почтовому ящику — справка для администраторов
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Узнайте, как предоставить пользователю право доступа к почтовому ящику другого пользователя. В результате пользователь будет иметь право на чтение почты и отправку почты из почтового ящика другого пользователя. '
-ms.openlocfilehash: 695068d2002b20637b6df6a2514b74828f273965
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 5a0677844e8503253561c57f926c9c4fadadd76d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151351"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617174"
 ---
-# <a name="give-mailbox-permissions-to-another-user-in-office-365---admin-help"></a>Предоставление разрешений для почтового ящика другому пользователю Office 365: справка для администраторов
+# <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Предоставление другому пользователю разрешений доступа к почтовому ящику — справка для администраторов
 
 ::: moniker range="o365-worldwide"
 
@@ -49,11 +49,11 @@ ms.locfileid: "43151351"
   
 перед предоставлением разрешений нужно решить, какие действия другие пользователи смогут выполнять в определенном почтовом ящике. Вы можете разрешить им читать сообщения, отправлять письма от имени другого пользователя или отправлять сообщения с адреса этого почтового ящика. Сведения о том, как настроить разрешения таких типов, см. в следующих статьях:
   
-- [Чтение сообщений электронной почты из почтового ящика другого пользователя](https://support.office.com/article/Read-email-from-another-user-s-mailbox-in-Office-365-cb3b6a8a-c6e8-4342-803c-3e54b6428cc2?#bkmk_reademailanotheruser)
+- [Чтение сообщений электронной почты из почтового ящика другого пользователя](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
-- [Отправка почты из почтового ящика другого пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
-    
-- [Отправка сообщения электронной почты от имени пользователя](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
+- [Отправка почты из почтового ящика другого пользователя](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)
+
+- [Отправка почты от имени другого пользователя](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)
     
  **Распространение изменений**:
   

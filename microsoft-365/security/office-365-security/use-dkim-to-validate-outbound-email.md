@@ -16,12 +16,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: Сводка. В этой статье описано, как обеспечить доверие целевых почтовых систем к сообщениям, отправляемым из личного домена, с помощью технологии DKIM (DomainKeys Identified Mail) в Office 365.
-ms.openlocfilehash: d76c31c6a3f0ce1550f0259ee40996189b60cb79
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4df887fc7db0ef968cc06d0b1b680b9bd91686ec
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084397"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608154"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM
 
@@ -80,25 +80,33 @@ Office 365 автоматически настраивает DKIM для сво�
 Так как ключи DKIM могут быть 1024- и 2048-разрядными, эти инструкции предназначены для перехода с 1024- на 2048-разрядные ключи. Описанные ниже действия относятся к двум вариантам использования. Выберите вариант, подходящий для вашей конфигурации.
 
 1. Если вы **уже настроили DKIM**, измените разрядность следующим образом:
-    1. [Подключитесь к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Командлет из Exchange Online.)
-    1. Затем выполните следующий командлет:
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}`
+   1. [Подключитесь к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Командлет из Exchange Online.)
+   1. Выполните следующую команду:
+
+      ```powershell 
+      Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
+      ```
 
 1. В случае **новой реализации DKIM**:
-    1. [Подключитесь к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Это командлет Exchange Online.)
-    1. Выполните следующий командлет:
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True`
+   1. [Подключитесь к рабочим нагрузкам Office 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Это командлет Exchange Online.)
+   1. Выполните следующую команду:
 
-Сохраняйте подключение к Office 365, чтобы *проверить* настройку.
+      ```powershell
+      New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True
+      ```
 
-2. Выполните командлет:
+   Сохраняйте подключение к Office 365, чтобы *проверить* настройку.
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Get-DkimSigningConfig | fl`
+1. Выполните следующую команду:
+
+   ```powershell
+   Get-DkimSigningConfig | Format-List
+   ```
 
 > [!TIP]
->Этот новый 2048-разрядный ключ вступает в силу с даты, указанной в параметре RotateOnDate. Пока же сообщения электронной почты будут отправляться с использованием 1024-разрядного ключа. Через четыре дня вы снова можете выполнить проверку с использованием 2048-разрядного ключа (то есть после применения изменения ко второму селектору).
+> Этот новый 2048-разрядный ключ вступает в силу с даты, указанной в параметре RotateOnDate. Пока же сообщения электронной почты будут отправляться с использованием 1024-разрядного ключа. Через четыре дня вы снова можете выполнить проверку с использованием 2048-разрядного ключа (то есть после применения изменения ко второму селектору).
 
 Если нужно выполнить изменение для второго селектора, доступны следующие варианты: а) позвольте службе Office 365 изменить селектор и выполнить обновление до 2048-разрядных ключей в течение следующих 6 месяцев или б) после 4 дней и подтверждения применения 2048-разрядных ключей вручную измените ключ второго селектора с помощью соответствующего командлета, указанного выше.
 
@@ -119,14 +127,8 @@ Office 365 автоматически настраивает DKIM для сво�
 Чтобы создать записи селектора, выполните следующие команды:
 
 ```powershell
-    New-DkimSigningConfig -DomainName <domain> -Enabled $false
-    Get-DkimSigningConfig -Identity <domain> | fl Selector1CNAME, Selector2CNAME
-```
-
-Создание записей CNAME, на которые имеется ссылка в выходных данных команды Get-DkimSigningConfig
-
-```powershell
-    Set-DkimSigningConfig -Identity <domain> -Enabled $true
+New-DkimSigningConfig -DomainName <domain> -Enabled $false
+Get-DkimSigningConfig -Identity <domain> | Format-List Selector1CNAME, Selector2CNAME
 ```
 
 Office 365 выполняет автоматическую ротацию ключей, используя две заданные записи. Для каждого дополнительного домена в Office 365 необходимо опубликовать две записи CNAME. Таким образом, если у вас есть два домена, необходимо опубликовать две дополнительные записи CNAME и так далее.
@@ -152,9 +154,7 @@ TTL:                3600
 
 - Значение _domainGUID_ — такое же, как и значение _domainGUID_ в пользовательской записи MX для вашего личного домена, которое указывается перед адресом mail.protection.outlook.com. Например, в следующей записи MX для домена contoso.com значение _domainGUID_ равно contoso-com:
 
-    ```text
-    contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
-    ```
+  > contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
 - _initialDomain_ — это домен, который вы использовали при регистрации в Office 365. Исходные домены всегда заканчиваются на onmicrosoft.com. О том, как узнать свой исходный домен, читайте в разделе [часто задаваемых вопросов](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain).
 
@@ -204,17 +204,17 @@ TTL:                3600
 
 2. Выполните следующую команду:
 
-    ```powershell
-    Set-DkimSigningConfig -Identity <domain> -Enabled $true
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity <domain> -Enabled $true
+   ```
 
    Где _domain_ — имя личного домена, для которого требуется включить функцию подписывания с помощью DKIM.
 
    Например, для домена contoso.com:
 
-    ```powershell
-    Set-DkimSigningConfig -Identity contoso.com -Enabled $true
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity contoso.com -Enabled $true
+   ```
 
 #### <a name="to-confirm-dkim-signing-is-configured-properly-for-office-365"></a>Как проверить настройку подписи с помощью DKIM для Office 365
 
@@ -255,29 +255,29 @@ TTL:                3600
 
 2. Выполните одну из указанных ниже команд для каждого домена, для которого требуется отключить подпись с помощью DKIM.
 
-    ```powershell
-    $p = Get-DkimSigningConfig -Identity <domain>
-    $p[0] | Set-DkimSigningConfig -Enabled $false
-    ```
+   ```powershell
+   $p = Get-DkimSigningConfig -Identity <domain>
+   $p[0] | Set-DkimSigningConfig -Enabled $false
+   ```
 
    Пример:
 
-    ```powershell
-    $p = Get-DkimSigningConfig -Identity contoso.com
-    $p[0] | Set-DkimSigningConfig -Enabled $false
-    ```
+   ```powershell
+   $p = Get-DkimSigningConfig -Identity contoso.com
+   $p[0] | Set-DkimSigningConfig -Enabled $false
+   ```
 
    или
 
-    ```powershell
-    Set-DkimSigningConfig -Identity $p[<number>].Identity -Enabled $false
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity $p[<number>].Identity -Enabled $false
+   ```
 
-    Где _number_ — индекс политики. Пример:
+   Где _number_ — индекс политики. Пример:
 
-    ```powershell
-    Set-DkimSigningConfig -Identity $p[0].Identity -Enabled $false
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity $p[0].Identity -Enabled $false
+   ```
 
 ## <a name="default-behavior-for-dkim-and-office-365"></a>Настройка по умолчанию для DKIM и Office 365
 <a name="DefaultDKIMbehavior"> </a>
@@ -323,9 +323,9 @@ Return-Path: <communication@bulkemailprovider.com>
 
 4. Почтовые системы получателей выполняют проверку DKIM путем сравнения значения DKIM-Signature d=\<domain\> с доменом в поле "От" (5322.From) сообщения. В этом примере значения совпадают:
 
-    отправитель@**contoso.com**
+   > отправитель@**contoso.com**
 
-    d=**contoso.com**
+   > d=**contoso.com**
 
 ## <a name="next-steps-after-you-set-up-dkim-for-office-365"></a>Дальнейшие действия: после настройки инфраструктуры политики отправителей для Office 365
 <a name="DKIMNextSteps"> </a>
