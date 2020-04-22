@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как специалисты компании Contoso используют функции защиты информации в Microsoft 365 корпоративный для защиты цифровых ресурсов компании в облаке.
-ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068424"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625306"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Защита информации в корпорации Contoso
 
@@ -107,10 +107,10 @@ ms.locfileid: "42068424"
 
 |||||
 |:-------|:-----|:-----|:-----|
-| | **Office 365** | **Windows 10 и Office 365 профессиональный плюс** | **EMS** |
+| | **Office 365** | **Windows 10 и приложения Microsoft 365 для предприятий** | **EMS** |
 | Уровень 1: базовая защита  | Политики условного доступа для SharePoint и Exchange Online <BR> Разрешения на сайтах SharePoint | Метки конфиденциальности <BR> BitLocker <BR> Windows Information Protection | Политики условного доступа для устройств и политики управления мобильными приложениями |
-| Уровень 2: защита конфиденциальной информации | Уровень 1+: <BR> <BR> Метки конфиденциальности <BR> Метки хранения Office 365 на сайтах SharePoint <BR> Система защиты от потери данных в Office 365 для SharePoint и Exchange Online <BR> Изолированные сайты SharePoint  | Уровень 1+: <BR> <BR> метки конфиденциальности для цифровых ресурсов  | Уровень 1 |
-| Уровень 3: защита строго контролируемой информации | Уровень 2+: <BR><BR> Шифрование Bring Your Own Key (BYOK) и защита секретной коммерческой информации <BR> Azure Key Vault для бизнес-приложений, взаимодействующих со службами Office 365 | Уровень 2 | Уровень 1 |
+| Уровень 2: защита конфиденциальной информации | Уровень 1+: <BR> <BR> Метки конфиденциальности <BR> Метки хранения Microsoft 365 на сайтах SharePoint <BR> Защита от потери данных для SharePoint и Exchange Online <BR> Изолированные сайты SharePoint  | Уровень 1+: <BR> <BR> метки конфиденциальности для цифровых ресурсов  | Уровень 1 |
+| Уровень 3: защита строго контролируемой информации | Уровень 2+: <BR><BR> Шифрование Bring Your Own Key (BYOK) и защита секретной коммерческой информации <BR> Azure Key Vault для бизнес-приложений, взаимодействующих со службами Microsoft 365 | Уровень 2 | Уровень 1 |
 |||||
 
 Ниже представлена итоговая конфигурация компании Contoso для защиты информации.

@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Узнайте о ресурсах, доступных для администраторов Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: b087007d99c16f06cfdacaf8021e32a9566da5d5
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 02d1afa763eda2edd7a0fba5624ab5a168b80a14
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105697"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624004"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Центр справки для администраторов Microsoft 365
 
@@ -182,7 +182,7 @@ ms.locfileid: "43105697"
                     </div>
                     <div class="cardText">
                         <h3>Для малого бизнеса</h3>
-                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Развитие малого бизнеса с использованием Office 365.</a></p>
+                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Развитие малого бизнеса с использованием Microsoft 365.</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ ms.locfileid: "43105697"
                     </div>
                     <div class="cardText">
                         <h3>Для предприятий</h3>
-                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">Руководства для ИТ-специалистов, которые развертывают, настраивают Office 365 и управляют этой подпиской в корпоративной организации.</a></p>
+                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">Руководства для ИТ-специалистов, которые развертывают, настраивают Microsoft 365 и управляют этой подпиской в корпоративных организациях.</a></p>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ ms.locfileid: "43105697"
                     <div class="cardText">
                         <h3>Устранение неполадок</h3>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=522692">Устранение проблем с установкой Office</a></p>
-                        <p><a href="https://diagnostics.outlook.com/">Устранение проблем с Outlook и Office 365 с помощью помощника по поддержке и восстановлению (Майкрософт)</a></p>
+                        <p><a href="https://diagnostics.outlook.com/">Устранение проблем с Outlook и Microsoft 365 с помощью помощника по поддержке и восстановлению (Майкрософт)</a></p>
                         <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">Устранение неполадок с электронной почтой</a></p>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=866431">Устранение проблем с синхронизацией OneDrive для бизнеса</a></p>
                     </div>

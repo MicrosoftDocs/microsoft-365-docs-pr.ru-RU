@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье описана базовая структура локальной ИТ-инфраструктуры компании Contoso и способы удовлетворения потребностей компании с помощью Microsoft 365 корпоративный.
-ms.openlocfilehash: 3cee0f3e6cd20b0d93038595cdab9270c8eb30aa
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 38d2b8df611cb06e19abba074f49e00d95496c30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068394"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625294"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -126,7 +126,7 @@ ms.locfileid: "42068394"
 | Безопасность |  |  |
 |  | Управление удостоверениями и доступом | Выделенные учетные записи глобальных администраторов с многофакторной проверкой подлинности (MFA) Azure и Azure AD Privileged Identity Management (PIM) <BR> Многофакторная проверка подлинности для всех учетных записей пользователей <BR> Условный доступ <BR> Windows Hello <BR> Credential Guard в Защитнике Windows |
 |  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Расширенная защита от угроз <BR> Office 365 Advanced Threat Protection <BR> Анализ угроз и реагирование на них в Office 365 <BR> |
-|  | Защита информации | Azure Information Protection <BR> Защита от потери данных в Office 365 (DLP) <BR> Windows Information Protection (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
+|  | Защита информации | Azure Information Protection <BR> Защита от потери данных (DLP) <BR> Windows Information Protection (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Управление безопасностью | Центр безопасности Azure  <BR> Центр безопасности Защитника Windows |
 | Удаленный доступ, доступ с мобильных устройств и работа с бизнес-партнерами |  |  |
 |  | Повышение уровня безопасности для удаленных и мобильных сотрудников | Microsoft Intune |
@@ -135,7 +135,7 @@ ms.locfileid: "42068394"
 | Соответствие требованиям |  |  |
 |  | Соответствие требованиям региональных нормативных актов | Функции, необходимые для выполнения требований GDPR, в Office 365 |
 | Управление |  |  |
-|  | Снижение затрат, связанных с ИТ, на установку обновлений клиентов | Круги развертывания <BR> Обновления Windows 10 Корпоративная <BR> Обновления Office 365 профессиональный плюс |
+|  | Снижение затрат, связанных с ИТ, на установку обновлений клиентов | Круги развертывания <BR> Обновления Windows 10 Корпоративная <BR> Обновления приложений Microsoft 365 для предприятий |
 ||||
 
 ## <a name="next-step"></a>Следующий шаг
