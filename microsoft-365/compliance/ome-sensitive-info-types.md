@@ -1,5 +1,5 @@
 ---
-title: Создание политики типов конфиденциальной информации для организации с помощью шифрования сообщений Office 365
+title: Создание политики типов конфиденциальной информации для Организации с помощью шифрования сообщений
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: 'Сводка: политика шифрования сообщений Office 365 для типов конфиденциальной информации.'
-ms.openlocfilehash: a3767fb0f9fe5e565c49db4f9da94d75a3cee8a7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a36ab68eb649c84a46fa96de8ee400632c5c1d26
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601796"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626877"
 ---
-# <a name="create-a-sensitive-information-type-policy-for-your-organization-using-office-365-message-encryption"></a>Создание политики типов конфиденциальной информации для организации с помощью шифрования сообщений Office 365
+# <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>Создание политики типов конфиденциальной информации для Организации с помощью шифрования сообщений
 
-Для создания политики типов конфиденциальной информации с помощью шифрования сообщений Office 365 можно использовать правила для обработки почты Exchange или предотвращение потери данных (DLP) Office 365. Чтобы создать правило для процесса обработки почты Exchange, можно использовать центр администрирования Exchange или PowerShell.
+Для создания политики типов конфиденциальной информации с помощью шифрования сообщений Office 365 можно использовать правила или предотвращение потери данных Exchange (DLP). Чтобы создать правило для процесса обработки почты Exchange, можно использовать центр администрирования Exchange или PowerShell.
 
 ## <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>Создание политики с помощью правил для почтового процесса в центре администрирования Exchange
 
@@ -34,7 +34,7 @@ ms.locfileid: "41601796"
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>Создание политики с помощью правил для почтового процесса в PowerShell
 
-Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в организации Office 365, запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell). Используйте командлеты Set – IRMConfiguration и New – TransportRule для создания политики.
+Используйте рабочую или учебную учетную запись с разрешениями глобального администратора в Организации, запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell). Используйте командлеты Set – IRMConfiguration и New – TransportRule для создания политики.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>Пример правила для процесса обработки почты, созданного с помощью PowerShell
 
@@ -57,21 +57,21 @@ New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -S
 
 ## <a name="how-recipients-access-attachments"></a>Как получатели обращаются к вложениям
 
-После того как Office 365 шифрует сообщение, получатели имеют неограниченный доступ к вложениям при обращении к зашифрованным электронным сообщениям и их открытии.
+После того как корпорация Майкрософт шифрует сообщение, получатели имеют неограниченный доступ к вложениям при обращении к зашифрованным сообщениям и их открытии.
 
 ## <a name="to-prepare-for-this-change"></a>Подготовка к выполнению этого изменения
 
 Вам может потребоваться обновить любую документацию конечного пользователя и обучающие материалы, чтобы подготовить пользователей в Организации к этому изменению. Предоставьте им доступ к этим ресурсам по шифрованию сообщений Office 365, используя соответствующие пользователи:
 
 - [Отправка, просмотр зашифрованных сообщений и ответ на них в Outlook для компьютера](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980)
-- [Видео Office 365 Essentials: шифрование сообщений Office](https://youtu.be/CQR0cG_iEUc)
+- [Видео о Microsoft 365 Essentials: шифрование сообщений Office](https://youtu.be/CQR0cG_iEUc)
 
 ## <a name="view-these-changes-in-the-audit-log"></a>Просмотр изменений в журнале аудита
 
-Office 365 выполняет аудит этого действия и делает его доступным для администраторов Office 365. Операция — "New-TransportRule", а фрагмент примера записи аудита из поиска в журнале аудита в центре безопасности & соответствия требованиям ниже:
+Microsoft 365 выполняет аудит этого действия и делает его доступным для администраторов. Операция — "New-TransportRule", а фрагмент примера записи аудита из поиска в журнале аудита в центре безопасности & соответствия требованиям ниже:
 
 ```text
-*{"CreationTime":"2018-11-28T23:35:01","Id":"a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c","Operation":"New-TransportRule","OrganizationId":"123456-221d-12345 ","RecordType":1,"ResultStatus":"True","UserKey":"Microsoft Operator","UserType":3,"Version":1,"Workload":"Exchange","ClientIP":"123.456.147.68:17584","ObjectId":"","UserId":"Microsoft Operator","ExternalAccess":true,"OrganizationName":"contoso.onmicrosoft.com","OriginatingServer":"CY4PR13MBXXXX (15.20.1382.008)","Parameters": {"Name":"Organization","Value":"123456-221d-12346"{"Name":"ApplyRightsProtectionTemplate","Value":"Encrypt"},{"Name":"Name","Value":"Encrypt outbound sensitive emails (out of box rule)"},{"Name":"MessageContainsDataClassifications”…etc.*
+*{"CreationTime":"2018-11-28T23:35:01","Id":"a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c","Operation":"New-TransportRule","OrganizationId":"123456-221d-12345 ","RecordType":1,"ResultStatus":"True","UserKey":"Microsoft Operator","UserType":3,"Version":1,"Workload":"Exchange","ClientIP":"123.456.147.68:17584","ObjectId":"","UserId":"Microsoft Operator","ExternalAccess":true,"OrganizationName":"contoso.onmicrosoft.com","OriginatingServer":"CY4PR13MBXXXX (15.20.1382.008)","Parameters": {"Name":"Organization","Value":"123456-221d-12346"{"Name":"ApplyRightsProtectionTemplate","Value":"Encrypt"},{"Name":"Name","Value":"Encrypt outbound sensitive emails (out of box rule)"},{"Name":"MessageContainsDataClassifications"…etc.*
 ```
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>Отключение или Настройка политики типов конфиденциальной информации

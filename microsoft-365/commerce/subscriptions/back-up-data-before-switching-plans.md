@@ -1,5 +1,5 @@
 ---
-title: Резервное копирование данных перед переключением Microsoft 365 для бизнес-планов
+title: Резервное копирование данных перед изменением планов
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,13 +20,13 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
-description: Создайте резервную копию Outlook, OneDrive, Yammer и SharePoint перед переключением подписок Microsoft 365 или при выходе пользователя из Организации.
-ms.openlocfilehash: fbebe72ec47fb6745cee6a12d81117ad08c50846
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Резервное копирование содержимого Outlook, OneDrive, Yammer и SharePoint перед изменением планов Microsoft 365.
+ms.openlocfilehash: a482d59e92cd7055362663ed92630322e4ccf68a
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636084"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708099"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Резервное копирование данных перед переключением Microsoft 365 для бизнес-планов
 

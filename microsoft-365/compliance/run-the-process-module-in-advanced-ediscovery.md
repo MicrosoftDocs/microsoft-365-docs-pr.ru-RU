@@ -1,5 +1,5 @@
 ---
-title: Запуск модуля Process в Office 365 Advanced eDiscovery
+title: Запуск модуля процесса в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
-description: 'Изучите рекомендации по подготовке файлов Office 365 для анализа с помощью Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: eb608eeac33e0d5d06dce9d0c35cd86f4e0bc280
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Ознакомьтесь с рекомендациями по подготовке файлов дел для анализа с помощью расширенного обнаружения электронных данных.  '
+ms.openlocfilehash: c0c0b8c3477f8c3fdbe0437659a88f14fbcad1cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557819"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626465"
 ---
 # <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>Запуск модуля процесса в Advanced eDiscovery (классический)
 
@@ -74,7 +74,7 @@ ms.locfileid: "42557819"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Запуск модуля Process и загрузка данных](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Установка параметра игнорировать текст для анализа в Office 365 Advanced eDiscovery
+title: Установка параметра игнорировать текст для анализа в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
-description: 'Узнайте, как определить правило для игнорирования определенного текста при использовании модулей анализа и обработки в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 0253ce619901e5fec34da234e005f2c3b6ece090
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Узнайте, как определить правило для игнорирования определенного текста при использовании модулей анализа и обработки в Advanced eDiscovery.  '
+ms.openlocfilehash: cd425c71c06074b5d12851dd126692c914b95489
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557779"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631256"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Установка параметра игнорировать текст для анализа в Advanced eDiscovery (классический)
 
@@ -126,7 +126,7 @@ ms.locfileid: "42557779"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

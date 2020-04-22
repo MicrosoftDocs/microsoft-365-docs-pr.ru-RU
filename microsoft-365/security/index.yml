@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Документация по безопасности Microsoft 365
-summary: Узнайте о надежных решениях и службах безопасности в Microsoft 365, чтобы вы могли улучшить защиту предприятия в областях атак.
+summary: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак.
 metadata:
   title: Документация по безопасности Microsoft 365
-  description: Узнайте о надежных решениях и службах обеспечения безопасности в Microsoft 365, чтобы вы могли улучшить защиту предприятия в областях атак
+  description: Узнайте о надежных решениях и службах безопасности в Microsoft 365 для улучшения защиты вашей организации от разных направлений атак
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: de1824abe2b35cb80552c6c261f1389db9b48ca0
-  ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+  ms.openlocfilehash: 202a01b439755211cbf3d8b06ea1ef874a58c3c1
+  ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/09/2020
-  ms.locfileid: "43198353"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43708671"
 landingContent:
 - title: Защита от угроз (Майкрософт)
   linkLists:
@@ -32,11 +32,17 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое ATP для защитника Майкрософт?
+    - text: Что такое ATP в Microsoft Defender?
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: Общие сведения о возможностях
+    - text: Обзор возможностей
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
-- title: Office 365 ATP
+- title: Защита удаленных сотрудников
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Защита удаленных сотрудников
+      url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
+- title: Office 365 ATP
   linkLists:
   - linkListType: overview
     links:
@@ -68,11 +74,11 @@ landingContent:
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
     - text: Начало работы с Microsoft Cloud App Security
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Метка Azure
+- title: Azure Sentinel
   linkLists:
   - linkListType: overview
     links:
-    - text: Что такое Sentinel Azure?
+    - text: Что такое Azure Sentinel?
       url: https://docs.microsoft.com/azure/sentinel/overview
 - title: Управление безопасностью
   linkLists:

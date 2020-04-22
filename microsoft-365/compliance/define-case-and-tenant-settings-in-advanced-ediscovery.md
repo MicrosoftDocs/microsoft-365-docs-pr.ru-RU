@@ -1,5 +1,5 @@
 ---
-title: Определение параметров дел и клиента в Office 365 Advanced eDiscovery
+title: Определение параметров дел и клиента в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
-description: 'Сведения о метках, кроссном модуле и параметрах клиента, которые можно определить на уровне вариантов в Office 365 Advanced eDiscovery.  '
-ms.openlocfilehash: 3f206feaa48f13db48552fb7d1be1445609edeae
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Сведения о метках, кроссном модуле и параметрах клиента, которые можно определить на уровне вариантов в Advanced eDiscovery.  '
+ms.openlocfilehash: b4092c7fd60b9ae82e4f97edcfa7f4aaf60ac622
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556947"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630566"
 ---
 # <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>Определение параметров дел и клиента в Advanced eDiscovery (классический)
 
@@ -90,7 +90,7 @@ ms.locfileid: "42556947"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Использование служебных программ](use-advanced-ediscovery-utilities.md)
 

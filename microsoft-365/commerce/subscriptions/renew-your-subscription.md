@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: 'Узнайте, как продлить подписку на Microsoft 365 для бизнеса с помощью ключа продукта, а также включить или отключить периодическую выставление счетов. '
-ms.openlocfilehash: 1c3fc5f9648c814d300cd65ac872f1e28e90ca0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9a44f8e65aad46e82134d8f088f6955bcd37ad3b
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636563"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707659"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Обновление Microsoft 365 для бизнеса
 
@@ -48,11 +48,10 @@ ms.locfileid: "43636563"
 
 ::: moniker range="o365-worldwide"
 
-
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
 
 2. Выберите подписку, для которой нужно настроить автоматическое продление.
- 
+
 3. В разделе **выставление счетов**нажмите кнопку Изменить **, а затем** **нажмите кнопку** **изменить**.
 
 4. В области **типовые параметры выставления счетов** выберите пункт **Отключить** , чтобы отключить ее. Если периодическое выставление счетов уже отключено, установите флажок **ежемесячно** или **один раз** , чтобы включить его.
@@ -68,11 +67,7 @@ ms.locfileid: "43636563"
 
 ::: moniker range="o365-germany"
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
-
-    Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
-
-    Если вы используете Служба Office 365, предоставляемая 21Vianet, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. Выберите подписку, для которой нужно настроить автоматическое продление.
  
@@ -91,14 +86,10 @@ ms.locfileid: "43636563"
 
 ::: moniker range="o365-21vianet"
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
-
-    Если вы используете Office 365 Germany, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
-
-    Если вы используете Служба Office 365, предоставляемая 21Vianet, перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. Выберите подписку, для которой нужно настроить автоматическое продление.
- 
+
 3. Чтобы включить **периодическое выставление счетов**, установите переключатель в значение **вкл**.
 
     ![Закрытие карточки подписки с включенной периодическим выставлением счетов.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
@@ -112,7 +103,7 @@ ms.locfileid: "43636563"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Повторная активация подписки](reactivate-your-subscription.md)
   

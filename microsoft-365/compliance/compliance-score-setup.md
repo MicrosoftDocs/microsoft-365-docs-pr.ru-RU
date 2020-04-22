@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как настроить и начать использование оценки соответствия требованиям Майкрософт, что помогает упростить и автоматизировать оценку риска.
-ms.openlocfilehash: 334eb47ebf5057bfa1c426715e8f404979ceaf5b
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 4ccd89647540aeda8ba6253f6e5eefab1dc81791
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141524"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632394"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Настройка оценки соответствия требованиям Майкрософт (Предварительная версия)
 

@@ -1,5 +1,5 @@
 ---
-title: Определение выделенных ключевых слов и дополнительных параметров в Office 365 Advanced eDiscovery
+title: Определение выделенных ключевых слов и дополнительных параметров в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
-description: 'Узнайте, как добавлять определяемые пользователем ключевые слова в релевантность для определения релевантных файлов при разметке в Office 365 Advanced eDiscovery и указать параметры затрат.  '
-ms.openlocfilehash: bec34867e7dfdb86848fd1fd2126d5cf96129802
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: 'Узнайте, как добавлять определяемые пользователем ключевые слова в релевантность для определения релевантных файлов при разметке в расширенном режиме обнаружения электронных данных, а также для указания параметров затрат.  '
+ms.openlocfilehash: b36032c148e5819440bc31cbf4692db51abf1add
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42556767"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630556"
 ---
 # <a name="define-highlighted-keywords-and-advanced-options-in-advanced-ediscovery-classic"></a>Определение выделенных ключевых слов и дополнительных параметров в Advanced eDiscovery (классический)
 

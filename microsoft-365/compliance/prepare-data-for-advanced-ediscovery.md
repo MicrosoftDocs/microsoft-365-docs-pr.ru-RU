@@ -1,5 +1,5 @@
 ---
-title: Подготовка данных для Office 365 Advanced eDiscovery
+title: Подготовка данных для Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,29 +15,29 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
-description: 'Узнайте, как использовать центр обеспечения безопасности &amp; Microsoft 365 для подготовки данных Office 365 для анализа с помощью Office 365 Advanced eDiscovery. '
-ms.openlocfilehash: 44ccb6250e28e0fa75f6d1a037236a100fca102c
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Узнайте, как использовать центр соответствия &amp; требованиям безопасности для подготовки данных для анализа с помощью расширенного обнаружения электронных данных. '
+ms.openlocfilehash: edc92aeac0c76e64d1d2dcfd6ceae08d766b9397
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557869"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626663"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>Подготовка данных для расширенного обнаружения электронных данных (классический)
 
 В этом разделе описывается, как загружать результаты поиска контента в случае с дополнительным обнаружением электронных данных (Classic). 
   
 > [!IMPORTANT]
-> Так как мы продолжим вкладывать новые версии расширенного обнаружения электронных данных, мы сообщаем выбытие Office 365 Advanced eDiscovery, также известное как *Advanced eDiscovery (классическая)* или *Advanced eDiscovery версии 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
+> Так как мы продолжим вкладывать новые версии расширенного обнаружения электронных данных, мы сообщаем выбытие расширенного обнаружения электронных данных, также известного как *Advanced eDiscovery (классический)* или *Advanced eDiscovery версии 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10).  
   
-## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>Шаг 1: подготовка данных Office 365 для расширенного обнаружения электронных данных
+## <a name="step-1-prepare-data-for-advanced-ediscovery"></a>Шаг 1: подготовка данных для расширенного обнаружения электронных данных
 
 Для анализа данных с помощью расширенного обнаружения электронных данных можно использовать результаты поиска контента, который вы используете в &amp; центре безопасности Майкрософт 365 (на странице " **Поиск контента** " в центре безопасности &amp; соответствия требованиям Microsoft 365), или при поиске, связанном с вариантом обнаружения электронных данных, на странице **Обнаружение электронных** данных &amp; в центре безопасности и соответствия требованиям. 
   
-Подробное описание действий по подготовке результатов поиска для анализа в Advanced eDiscovery приведено в статье [Подготовка результатов поиска для Office 365 Advanced eDiscovery](prepare-search-results-for-advanced-ediscovery.md).
+Подробные инструкции по подготовке результатов поиска для анализа в Advanced eDiscovery приведены в статье [Подготовка результатов поиска для расширенного обнаружения электронных](prepare-search-results-for-advanced-ediscovery.md)данных.
   
 > [!NOTE]
-> Если у вас есть данные за пределами Office 365 и хотите импортировать их в Office 365, чтобы вы могли подготовить и проанализировать их в Advanced eDiscovery, ознакомьтесь со статьей [Обзор импорта PST-файлов в office 365](https://support.office.com/article/ba688e0a-0fcb-4bd7-8e57-2b669564ea84) и [архивации сторонних данных в Office 365](https://go.microsoft.com/fwlink/p/?linkid=716918). 
+> Если у вас есть данные за пределами Microsoft 365 и хотите импортировать их в Microsoft 365, чтобы вы могли подготовить и проанализировать их в Advanced eDiscovery, ознакомьтесь со статьей [Обзор импорта PST-файлов в microsoft 365](https://support.office.com/article/ba688e0a-0fcb-4bd7-8e57-2b669564ea84) и [архивации сторонних данных](https://go.microsoft.com/fwlink/p/?linkid=716918). 
   
 ## <a name="step-2-load-search-result-data-in-to-a-case-in-advanced-ediscovery"></a>Шаг 2: Загрузка данных результатов поиска в дело с дополнительным обнаружением электронных данных
 
@@ -45,7 +45,7 @@ ms.locfileid: "42557869"
   
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите в Office 365 с помощью своей рабочей или учебной учетной записи.
+2. Войдите с помощью рабочей или учебной учетной записи.
     
 3. Чтобы отобразился список дел в организации, в Центре безопасности и соответствия требованиям выберите **Поиск и исследование** \> **Обнаружение электронных данных**. 
     
@@ -67,7 +67,7 @@ ms.locfileid: "42557869"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Настройка пользователей и обращений](set-up-users-and-cases-in-advanced-ediscovery.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Просмотр результатов анализа в Office 365 Advanced eDiscovery
+title: Просмотр результатов анализа в Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
-description: 'Сведения о том, как просматривать результаты анализа в Office 365 Advanced eDiscovery, включая определения отображаемых параметров задачи.  '
-ms.openlocfilehash: adee00d2b7826827cc14f4ca945952f4892511a1
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Сведения о том, как просматривать результаты анализа в Advanced eDiscovery, в том числе определения отображаемых параметров задачи.  '
+ms.openlocfilehash: 09bb682e753730a4c01581e71f05b5b8ef3d4779
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557627"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626365"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Просмотр результатов анализа в Advanced eDiscovery (классический)
 
@@ -77,7 +77,7 @@ ms.locfileid: "42557627"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Сведения о сходстве документов](understand-document-similarity-in-advanced-ediscovery.md)
   

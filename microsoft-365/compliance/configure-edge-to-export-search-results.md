@@ -1,5 +1,5 @@
 ---
-title: Использование средства экспорта eDiscovery Office 365 в Microsoft Edge
+title: Использование средства экспорта eDiscovery в Microsoft Edge
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,16 +12,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Для загрузки результатов поиска из поиска контента и обнаружения электронных данных в центре безопасности и соответствия требованиям необходимо включить поддержку ClickOnce, чтобы использовать последнюю версию Microsoft Edge.
-ms.openlocfilehash: 80924b124521b24ffabf1e0273802265cd715500
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: c48e3fb04747306693364a2cdbc6f18047a0fd9e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710348"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632384"
 ---
-# <a name="use-the-office-365-ediscovery-export-tool-in-microsoft-edge"></a>Использование средства экспорта eDiscovery Office 365 в Microsoft Edge
+# <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Использование средства экспорта eDiscovery в Microsoft Edge
 
-В результате последних изменений, внесенных в последнюю версию Microsoft EDGE, поддержка ClickOnce больше не включена по умолчанию. Чтобы продолжить использование средства экспорта обнаружения электронных данных Microsoft Office 365 для загрузки результатов поиска и обнаружения электронных данных, необходимо использовать [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) или включить поддержку ClickOnce в последней версии Microsoft Edge.
+В результате последних изменений, внесенных в последнюю версию Microsoft EDGE, поддержка ClickOnce больше не включена по умолчанию. Чтобы продолжить использование средства экспорта eDiscovery для загрузки результатов поиска или обнаружения электронных данных, необходимо использовать [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) или включить поддержку ClickOnce в последней версии Microsoft Edge.
 
 ## <a name="enable-clickonce-support-in-microsoft-edge"></a>Включение поддержки ClickOnce в Microsoft Edge
 
@@ -49,11 +49,11 @@ ms.locfileid: "42710348"
 
    ![Нажмите кнопку Открыть, чтобы запустить средство экспорта eDiscovery](../media/ClickOnceimage4.png)
 
-   Если средство экспорта обнаружения электронных данных Microsoft Office 365 не установлено, появится предупреждение системы безопасности, 
+   Если средство экспорта eDiscovery не установлено, появится предупреждение системы безопасности, 
 
    ![Нажмите кнопку установить, чтобы установить средство экспорта обнаружения электронных данных](../media/ClickOnceimage5.png)
 
-3. Нажмите кнопку **Установить**. После установки средство экспорта будет запущено автоматически.
+3. Нажать кнопку **Установить**. После установки средство экспорта будет запущено автоматически.
 
 Дополнительную информацию см. в следующих статьях:
 

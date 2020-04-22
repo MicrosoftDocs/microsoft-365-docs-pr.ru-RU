@@ -1,5 +1,5 @@
 ---
-title: Решение на основе результатов в Office 365 Advanced eDiscovery
+title: Решение на основе результатов расширенного обнаружения электронных данных
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 'Узнайте, как на вкладке "выбор" в Office 365 Advanced eDiscovery содержатся данные, которые помогут определить правильный размер набора файлов для проверки. '
-ms.openlocfilehash: 6d515305b01b0273bb2acffaad19c497fc5c82d2
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Сведения о том, как вкладка "выбор" в Advanced eDiscovery предоставляет данные, которые помогут вам определить правильный размер набора файлов вариантов проверки. '
+ms.openlocfilehash: 279b689e830089c683b8cd575a231635ca32de76
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557547"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630576"
 ---
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>Решение на основе результатов расширенного обнаружения электронных данных (классический)
 
@@ -55,7 +55,7 @@ ms.locfileid: "42557547"
   
 ## <a name="see-also"></a>См. также
 
-[Расширенное обнаружение электронных данных (классический)](office-365-advanced-ediscovery.md)
+[Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
 [Понимание оценки релевантности](assessment-in-relevance-in-advanced-ediscovery.md)
   

@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Ресурсы Microsoft 365 бизнес премиум
-summary: Microsoft 365 Business Premium — это служба подписки, включающая в себя средства повышения производительности Office 365 и расширенные возможности для защиты бизнеса от киберугрозами, защиты данных и управления устройствами.
+summary: Microsoft 365 бизнес премиум (ранее Microsoft 365 Business) - это комплексная служба подписки для предприятий с числом сотрудников менее 300. Он интегрирует избранные приложения Office и службы совместной работы Office, такие как Microsoft Teams, с расширенными возможностями обеспечения безопасности и управления устройствами.
 brand: m365
 metadata:
   title: Ресурсы Microsoft 365 бизнес премиум
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.openlocfilehash: 59478fceee0017321c59607f589fe464ac95077d
+  ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43627114"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43665624"
 productDirectory:
   title: Безопасная удаленная работа с Microsoft 365 Business Premium
   items:
@@ -188,7 +188,7 @@ conceptualContent:
       text: Регистрация в Microsoft 365 бизнес премиум
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Миграция из Microsoft 365 бизнес Standard
+      text: Миграция с Microsoft 365 бизнес стандарт
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Миграция с Office 365 E3
