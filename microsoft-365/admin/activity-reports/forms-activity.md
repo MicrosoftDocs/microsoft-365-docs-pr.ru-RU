@@ -16,14 +16,13 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Узнайте, как получить отчет об активности Microsoft Forms с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: 28520bf931df9f909a933be19800ee45fd863cd6
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 63eb8613879849201876b237c659a4529ce2ca0f
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151421"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781509"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия с формами
 
