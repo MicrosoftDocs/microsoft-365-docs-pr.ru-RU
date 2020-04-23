@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0bfd6e61a08d8db2e6226a004006be9750b94a10
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 61bf3b54b5499321288793acea9552b48d7bd492
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "37595595"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790615"
 ---
 # <a name="get-ready-for-enrollment-in-microsoft-managed-desktop"></a>Подготовка к регистрации для получения услуги предоставления компьютеров, управляемых Майкрософт
 
@@ -21,5 +21,6 @@ ms.locfileid: "37595595"
 - [Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт](network.md)
 - [Подготовка подключенных дисков для компьютеров, управляемых Майкрософт](mapped-drives.md)
 - [Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт](certs-wifi-lan.md)
+- [Подготовка ресурсов печати для настольных компьютеров, управляемых Майкрософт](printing.md)
 - [Приложения на настольном компьютере, управляемом Майкрософт](apps.md)
 
