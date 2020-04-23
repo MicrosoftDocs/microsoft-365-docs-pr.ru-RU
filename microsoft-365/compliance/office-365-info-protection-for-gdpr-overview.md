@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Ознакомьтесь с защитой информации в Office 365 в соответствии с регламентом GDPR. Узнайте, как искать, классифицировать, защищать и отслеживать персональные данные.
-ms.openlocfilehash: dbb420cce572b2e03260f9f5b1be63e65504276b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b838ae96c8b93dced8b4da898ed04effc0586463
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071182"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637223"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>Общие сведения о защите информации в Office 365 в соответствии с регламентом GDPR
 
@@ -103,4 +103,4 @@ ms.locfileid: "42071182"
 
 ### <a name="step-5--monitor-for-leaks-of-personal-data"></a>Шаг 5. Отслеживание утечек персональных данных
 
-Отчеты о защите от потери данных в Office 365 включают больше всего сведений для отслеживания конфиденциальных данных. Вы можете настроить автоматические оповещения и исследовать нарушения с помощью журнала аудита Office 365. Cloud App Security включает возможность поиска и отслеживания конфиденциальных данных для других поставщиков SaaS. Дополнительные сведения об этих средствах см. в статье, посвященной [отслеживанию нарушений в отношении персональных данных](/security/office-365-security/monitor-for-leaks-of-personal-data.md).
+Отчеты о защите от потери данных в Office 365 включают больше всего сведений для отслеживания конфиденциальных данных. Вы можете настроить автоматические оповещения и исследовать нарушения с помощью журнала аудита. Cloud App Security включает возможность поиска и отслеживания конфиденциальных данных для других поставщиков SaaS. Дополнительные сведения об этих средствах см. в статье, посвященной [отслеживанию нарушений в отношении персональных данных](/security/office-365-security/monitor-for-leaks-of-personal-data.md).

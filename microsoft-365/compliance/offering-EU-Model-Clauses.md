@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d35c6ee17c326f98179e882bb8752cd38f14ec6a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c792653cf8434a14bc89776a4ec870bc0d9a67ca
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602486"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637983"
 ---
 # <a name="european-union-model-clauses"></a>Типовые условия ЕС
 
@@ -47,7 +47,7 @@ ms.locfileid: "41602486"
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - Cloud App Security
-- Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для предприятий среднего бизнеса и корпоративных клиентов с Office 365
+- Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune: облачная часть службы, а именно продукт-надстройка Intune и Управление мобильными устройствами для Office 365
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365

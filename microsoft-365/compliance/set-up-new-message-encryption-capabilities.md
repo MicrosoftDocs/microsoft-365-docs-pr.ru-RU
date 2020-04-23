@@ -1,5 +1,5 @@
 ---
-title: Настройка новых возможностей шифрования сообщений Office 365
+title: Настройка новых возможностей шифрования сообщений
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,25 +16,25 @@ ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Новые возможности шифрования сообщений Office 365, основанные на Azure Information Protection, помогают защитить переписку с людьми внутри вашей организации и вне ее. Они поддерживают другие организации Office 365, Outlook.com, Gmail и прочие почтовые службы.
-ms.openlocfilehash: 766e1d2ae054a5a5e91786a360177492ee9ba1b7
-ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
+description: Новые возможности шифрования сообщений Office 365, основанные на Azure Information Protection, помогают защитить переписку с людьми внутри вашей организации и вне ее. Они поддерживают другие организации, Outlook.com, Gmail и прочие почтовые службы.
+ms.openlocfilehash: 95ac1528c59dc3f59e0d0e923d78ffb7138456d5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680088"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635471"
 ---
-# <a name="set-up-new-office-365-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений Office 365
+# <a name="set-up-new-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений
 
-Новые возможности шифрования сообщений в Office 365 (OME) позволяют организациям обмениваться защищенными сообщениями с кем угодно с любого устройства. Пользователи могут обмениваться защищенными сообщениями с другими организациями Office 365, а также с сотрудниками других организаций, использующих Outlook.com, Gmail и прочие почтовые службы.
+Новые возможности шифрования сообщений в Office 365 (OME) позволяют организациям обмениваться защищенными сообщениями с кем угодно с любого устройства. Пользователи могут обмениваться защищенными сообщениями с другими организациями Microsoft 365, а также с сотрудниками других организаций, использующих Outlook.com, Gmail и прочие почтовые службы.
 
-Чтобы убедиться, что новые возможности OME доступны в вашей организации Office 365, выполните указанные ниже действия.
+Чтобы убедиться, что новые возможности OME доступны в вашей организации, выполните указанные ниже действия.
 
 ## <a name="verify-that-azure-rights-management-is-active"></a>Проверьте, активна ли служба Azure Rights Management
 
 Новые возможности OME используют функции защиты в [службе управления правами Azure (Azure RMS)](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) — технологию, используемую службой [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) для защиты электронной почты и документов с помощью шифрования и управления доступом.
 
-Единственное обязательное условие для использования новых возможностей OME — [служба управления правами Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) должна быть активирована в клиенте вашей организации. Если это так, Office 365 автоматически активирует новые возможности OME, а от вас не потребуется никаких действий.
+Единственное обязательное условие для использования новых возможностей OME — [служба управления правами Azure](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms) должна быть активирована в клиенте вашей организации. Если это так, Microsoft 365 автоматически активирует новые возможности OME, а от вас не потребуется никаких действий.
 
 Кроме того, служба Azure RMS автоматически активируется для большинства соответствующих планов. В этом случае от вас тоже не потребуется никаких действий. Дополнительные сведения см. в статье [Активация службы управления правами Azure](https://docs.microsoft.com/azure/information-protection/activate-service).
 
@@ -55,15 +55,15 @@ ms.locfileid: "41680088"
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Настройка управления ключом клиента для службы Azure Information Protection
 
-Это действие не является обязательным. По умолчанию корпорации Майкрософт разрешено управлять корневым ключом для службы Azure Information Protection. Этот вариант рекомендуется для большинства клиентов Office 365. В таком случае от вас не требуется никаких действий.
+Это действие не является обязательным. По умолчанию корпорации Майкрософт разрешено управлять корневым ключом для службы Azure Information Protection. Этот вариант рекомендуется для большинства организаций. В таком случае от вас не требуется никаких действий.
 
 Существует множество причин, по которым вам может потребоваться создать собственный корневой ключ (BYOK), а также управлять им, например для обеспечения соответствия требованиям. В таком случае перед настройкой новых возможностей OME рекомендуется выполнить необходимые действия. Дополнительные сведения см. в статье [Планирование и реализация ключа клиента Azure Information Protection](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key).
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Проверка новой конфигурации OME в Exchange Online PowerShell
 
-Вы можете убедиться, что клиент Office 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
+Вы можете убедиться, что клиент Microsoft 365 настроен для использования новых возможностей OME, с помощью [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps).
   
-1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Office 365.
+1. [Подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) с помощью учетной записи с разрешениями глобального администратора в клиенте Microsoft 365.
 
 2. Запустите командлет Get-IRMConfiguration.
 
@@ -81,7 +81,7 @@ ms.locfileid: "41680088"
      Test-IRMConfiguration -Sender securityadmin@contoso.com
      ```
 
-     - Указывать электронный адрес отправителя необязательно, но это позволит системе выполнить дополнительные проверки. Используйте электронный адрес любого пользователя в клиенте Office 365.
+     - Указывать электронный адрес отправителя необязательно, но это позволит системе выполнить дополнительные проверки. Используйте электронный адрес любого пользователя в клиенте Microsoft 365.
 
      Результаты должны выглядеть примерно так:
 
@@ -99,7 +99,7 @@ ms.locfileid: "41680088"
             OVERALL RESULT: PASS
      ```
 
-   - Название вашей организации Office 365 заменит *Contoso*.
+   - Название вашей организации заменит *Contoso*.
 
    - Заданные по умолчанию имена шаблонов могут отличаться от указанных выше. Дополнительные сведения см. в статье [Настройка шаблонов для Azure Information Protection и управление ими](https://docs.microsoft.com/azure/information-protection/configure-policy-templates).
 
@@ -111,7 +111,7 @@ ms.locfileid: "41680088"
 
 ## <a name="next-steps-define-mail-flow-rules-to-use-new-ome-capabilities"></a>Дальнейшие действия: определение правил потока обработки почты для использования новых возможностей OME
 
-Если правила потока обработки почты для шифрования почты в организации Office 365 уже настроены, то для использования новых возможностей OME их необходимо обновить. Для выполнения новых развертываний необходимо создать новые правила потока обработки почты.
+Если правила потока обработки почты для шифрования почты в организации уже настроены, то для использования новых возможностей OME их необходимо обновить. Для выполнения новых развертываний необходимо создать новые правила потока обработки почты.
 
 >[!IMPORTANT]
 >Если не обновить существующие правила потока обработки почты, пользователи будут и дальше получать зашифрованные сообщения с вложениями в формате HTML без новых возможностей OME.

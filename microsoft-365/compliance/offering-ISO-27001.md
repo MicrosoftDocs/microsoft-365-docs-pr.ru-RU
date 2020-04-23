@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5bb3820222258a5b0b4b28c7476541b5d338f4b6
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 19f9e5dc72231093b279d39b8bf38f5cea0a9c18
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222101"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583546"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>Стандарты управления информационной безопасностью ISO/IEC 27001:2013
 
@@ -56,7 +56,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 - [Профессиональные услуги Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2100022)
 - Stream
 - Azure DevOps Services
-- ATP в Защитнике Windows — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности
+- ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
@@ -84,9 +84,9 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 - [Профессиональные услуги Майкрософт](https://www.bsigroup.com/Our-services/Certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002)
 
-### <a name="windows-defender-atp"></a>ATP в Защитнике Windows
+### <a name="microsoft-defender-atp"></a>ATP в Microsoft Defender
 
-- [ATP в Защитнике Windows — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — сертификат ISO 27001](https://aka.ms/windowsdefenderatpiso27001certificate)
+- [ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — сертификат ISO 27001](https://aka.ms/windowsdefenderatpiso27001certificate)
 
 ## <a name="assessments-and-reports"></a>Оценки и отчеты
 
@@ -110,10 +110,10 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 - [Azure DevOps Services — ISO 27001 сертификат IS 619017](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dVisual%2bStudio%2bTeam%2bServices&licencenumber=IS%20619017)
 
-### <a name="windows-defender-atp"></a>ATP в Защитнике Windows
+### <a name="microsoft-defender-atp"></a>ATP в Microsoft Defender
 
-- [ATP в Защитнике Windows — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — ISO 27001, отчет по оценке аудита](https://aka.ms/windowsdefenderatpiso27001auditreport)
-- [ATP в Защитнике Windows — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — положение о применимости ISO 27001 и 27018](https://aka.ms/windowsdefenderatpiso27001SOA)
+- [ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — ISO 27001, отчет по оценке аудита](https://aka.ms/windowsdefenderatpiso27001auditreport)
+- [ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — положение о применимости ISO 27001 и 27018](https://aka.ms/windowsdefenderatpiso27001SOA)
 
 [См. дополнительные отчеты по аудиту](https://aka.ms/auditreports)
 
