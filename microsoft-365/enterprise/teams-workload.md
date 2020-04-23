@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое изучение с последующим развертыванием Microsoft Teams в организации.
-ms.openlocfilehash: 8220d06fe90bc4bc793ab33d6121e93bb855f973
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d34673a412539dfc73296f0139fa2eb555c17099
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801244"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636703"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Развертывание Microsoft Teams для Microsoft 365 корпоративный
 
@@ -34,7 +34,7 @@ ms.locfileid: "40801244"
 
 - Настройте правильные этапы [базовой инфраструктуры](deploy-foundation-infrastructure.md), чтобы в ваших командах имелись учетные записи пользователей и нужные функции безопасности. Этапы идентификации и защиты данных являются наиболее важными для входа и использования защиты почты и файлов с помощью меток хранения и конфиденциальности.
 - Сведения о безопасности и соответствии требованиям в Teams см. в [этой статье](https://docs.microsoft.com/microsoftteams/security-compliance-overview).
-- Сведения о лицензировании Office 365 для Teams см. в [этой статье](https://docs.microsoft.com/microsoftteams/office-365-licensing).
+- Сведения о лицензировании для Teams см. в [этой статье](https://docs.microsoft.com/microsoftteams/office-365-licensing).
 
 Чтобы развернуть Teams в организации, ознакомьтесь со статьей [Способ развертывания Teams](https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams).
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Information Protection для Microsoft 365 корпоративный.
-ms.openlocfilehash: 418506927885948cd917061d99bb69163b1e44a5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0e6fdf1a9c63200bfb57fc9f833515553c1609f4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067153"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631625"
 ---
 # <a name="phase-6-information-protection"></a>Этап 6. Защита данных
 
@@ -44,7 +44,7 @@ Information Protection — это набор политик и технолог
 |![Шаг 2](../media/stepnumbers/Step2.png)|[Настройка классификации для среды](infoprotect-configure-classification.md)|
 |![Шаг 3](../media/stepnumbers/Step3.png)|[Настройка усиленной защиты для Microsoft 365](infoprotect-configure-increased-security-office-365.md)|
 |![Шаг 4](../media/stepnumbers/Step4.png)|[Настройка Windows Information Protection](infoprotect-deploy-windows-information-protection.md)|
-|![Шаг 5](../media/stepnumbers/Step5.png)|[Настройка защиты от потери данных Office 365](infoprotect-data-loss-prevention.md)|
+|![Шаг 5](../media/stepnumbers/Step5.png)|[Настройка защиты от потери данных](infoprotect-data-loss-prevention.md)|
 |![Шаг 6](../media/stepnumbers/Step6.png)|[Настройка шифрования электронной почты](infoprotect-email-encryption.md)|
 |![Шаг 7](../media/stepnumbers/Step7.png)|[Настройка управления привилегированным доступом для Office 365](infoprotect-configure-privileged-access-management.md)|
 |||

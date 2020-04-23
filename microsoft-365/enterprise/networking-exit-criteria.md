@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для сетевой инфраструктуры.
-ms.openlocfilehash: 1ace68fd19c62e4dc389604c1b0c02ddc18b52dc
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 6d9133fa6f3c993efe88ea53b412b9a272c1b98b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633207"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631493"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>Шаг 1. Условия, при выполнении которых можно считать сетевую инфраструктуру настроенной
 
@@ -32,7 +32,7 @@ ms.locfileid: "42633207"
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>Обязательное: ваша сеть готова к Microsoft 365 корпоративный
 
 - Пропускная способность интернет-канала в ваших офисах является достаточной для трафика Microsoft 365, в том числе установки и обновлений Office 365, Microsoft Intune и Windows 10 Корпоративная.
-- В целом ваша сеть соответствует [эталонной архитектуре Office 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
+- В целом ваша сеть соответствует [эталонной архитектуре Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2).
 - Выполнено пилотное развертывание и тестирование изменений в вашей сети, и они соответствуют вашим требованиям к задержке трафика.
 
 Чтобы выполнить это требование, см. [шаг 1](networking-provide-bandwidth-cloud-services.md).
@@ -73,7 +73,7 @@ ms.locfileid: "42633207"
 
 
 <a name="crit-networking-step5"></a>
-## <a name="optional-your-clients-and-office-365-applications-are-configured-for-optimal-performance"></a>Необязательное требование: ваши клиенты и приложения Office 365 настроены для оптимальной производительности
+## <a name="optional-your-clients-and-microsoft-365-applications-are-configured-for-optimal-performance"></a>Требование выполнять не обязательно: ваши клиенты и приложения Microsoft 365 настроены для оптимальной производительности
 
 Вы оптимизировали параметры протокола TCP на своих клиентских устройствах, а также для служб Exchange Online, Skype для бизнеса Online, SharePoint Online и Project Online.
 

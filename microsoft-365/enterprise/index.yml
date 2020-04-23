@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 365 для корпоративных документации и ресурсов
-summary: Лучшие приложения для продуктивной работы с интеллектуальными облачными службами, которые преобразуют способ работы.
+title: Документация и ресурсы по Microsoft 365 для предприятий
+summary: Наилучшие приложения для повышения производительности с интеллектуальными облачными службами, преобразующие способ выполнения работы.
 brand: m365
 metadata:
-  title: Microsoft 365 для корпоративных документации и ресурсов
-  description: Сведения о документации по продукту и ресурсах, доступных для Microsoft 365 для корпоративных ИТ-специалистов, информационных работников и партнеров.
+  title: Документация и ресурсы по Microsoft 365 для предприятий
+  description: Сведения о документации по продуктам и доступных ресурсах, связанных с Microsoft 365 для предприятий и предназначенных для ИТ-специалистов, информационных работников и партнеров.
   services: service
   ms.prod: microsoft-365-enterprise
   ms.service: O365-seccomp
@@ -13,12 +13,12 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/29/2019
-  ms.openlocfilehash: d7c4eccccc47a9264cdd14fab2b7740789dd33b0
-  ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
-  ms.translationtype: MT
+  ms.openlocfilehash: b9cefc03e590b5f8ab94af9d86e01ba53f76334a
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 12/19/2019
-  ms.locfileid: "40801674"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43631661"
 highlightedContent:
   items:
   - title: Сведения о Microsoft 365 для предприятий
@@ -31,24 +31,24 @@ highlightedContent:
     itemType: learn
     url: https://docs.microsoft.com/learn/m365/
 conceptualContent:
-  title: Получение справки по Microsoft 365 для корпоративных и других ресурсов
-  summary: Ознакомьтесь с рекомендациями по развертыванию, функциями и службами корпоративного развертывания Microsoft 365.
+  title: Получение справки по Microsoft 365 для предприятий и другие ресурсы
+  summary: Ознакомьтесь с инструкциями по развертыванию Microsoft 365 для предприятий, компонентами и службами.
   items:
-  - title: Следуйте плану развертывания
+  - title: Выполнение плана развертывания
     links:
     - url: deploy-microsoft-365-enterprise.md
       itemType: deploy
-      text: Обзор процедуры развертывания
+      text: Обзор развертывания
     - url: deploy-foundation-infrastructure.md
       itemType: how-to-guide
-      text: Инфраструктура фундамента
+      text: Базовая инфраструктура
     - url: deploy-workloads.md
       itemType: how-to-guide
       text: Рабочие нагрузки и сценарии
     - url: desktop-deployment-center-home.md
       itemType: get-started
       text: Центр развертывания компьютеров
-  - title: Развертывание ключевых элементов
+  - title: Развертывание основных элементов
     links:
     - url: identity-infrastructure.md
       itemType: how-to-guide
@@ -58,24 +58,24 @@ conceptualContent:
       text: Windows 10 Корпоративная
     - url: https://docs.microsoft.com/deployoffice/plan-office-365-proplus
       itemType: deploy
-      text: Office 365 профессиональный плюс
+      text: Приложения Microsoft 365 для предприятий
     - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
       itemType: deploy
       text: Microsoft Intune
-  - title: Развертывание ключевых сценариев
+  - title: Развертывание основных сценариев
     links:
     - url: secure-teams-highly-regulated-data-scenario.md
       itemType: how-to-guide
       text: Microsoft Teams для строго регулируемых данных
     - url: teams-sharepoint-online-sites-highly-regulated-data.md
       itemType: how-to-guide
-      text: Сайты SharePoint для жестко регламентированных данных
+      text: Сайты SharePoint для строго регулируемых данных
     - url: empower-people-to-work-remotely.md
       itemType: how-to-guide
-      text: Удаленные работники
+      text: Удаленные сотрудники
     - url: migration-microsoft-365-enterprise-workload.md
       itemType: deploy
-      text: Миграция клиента Office и сервера и Windows
+      text: Миграция клиента и сервера Office, а также Windows
   - title: Управление Microsoft 365 для предприятий
     links:
     - url: https://docs.microsoft.com/windows/deployment/update/
@@ -83,24 +83,24 @@ conceptualContent:
       text: Windows 10 Корпоративная
     - url: https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus
       itemType: concept
-      text: Office 365 профессиональный плюс
+      text: Приложения Microsoft 365 для предприятий
     - url: https://docs.microsoft.com/intune/apps/app-management
       itemType: get-started
       text: Приложения с Intune
     - url: https://docs.microsoft.com/office365/
       itemType: get-started
-      text: Службы Office 365
+      text: Службы Microsoft 365
 additionalContent:
   sections:
   - title: Дополнительные ресурсы
-    summary: Узнайте больше о других возможностях и ресурсах Microsoft 365.
+    summary: Узнайте больше о других компонентах и ресурсах Microsoft 365.
     items:
     - title: Соответствие требованиям Microsoft 365
-      summary: Помогите вашей организации управлять информацией, защищаться от рисков и соблюдать юридический или нормативный стандарт.
+      summary: Содействуйте вашей организации в управлении информацией, устранении рисков и соблюдении правовых или нормативных стандартов.
       url: https://docs.microsoft.com/microsoft-365/compliance/index
-    - title: Microsoft 365 Security
-      summary: Защитите свою организацию между областями атак с помощью надежных служб и решений безопасности.
+    - title: Безопасность Microsoft 365
+      summary: Защитите свою организацию от различных направлений атак с помощью надежных служб и решений по обеспечению безопасности.
       url: https://docs.microsoft.com/microsoft-365/security/index
-    - title: Техническое сообщество Майкрософт 365
-      summary: 'Подключение и совместная работа с коллегами и экспертами в сообществе Майкрософт и совместное использование Microsoft 365: рекомендации.'
+    - title: Техническое сообщество Microsoft 365
+      summary: Общайтесь и взаимодействуйте с коллегами и экспертами в техническом сообществе Microsoft Tech Community и делитесь рекомендациями по Microsoft 365.
       url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ef19b106d5b00bb8b436b56b6da8bb653873f3a
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: 02be641b93ffdb245ae6073358b66c1204e46093
+ms.sourcegitcommit: 4581afb3116ccd7d0144398e83cd6a6990e3683b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583326"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43772520"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Политика безопасности преступных информационных служб (CJIS)
 
@@ -43,7 +43,7 @@ ms.locfileid: "43583326"
 
 Узнайте, как ускорить политику безопасности CJIS с помощью плана безопасности и соответствия требованиям Azure: [Скачайте рекомендации по реализации CJIS для облачных служб Microsoft для государственных организаций](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)
@@ -82,7 +82,6 @@ ms.locfileid: "43583326"
 
 - [Информационные службы министерства юстиции](https://aka.ms/cjis)
 - [Политика безопасности CJIS](https://aka.ms/cjis-security-policy)
-- [CJIS (фон) политики безопасности для версии 5,3](https://aka.ms/cjis-backgrounder)
 - [Рекомендации по реализации CJIS для государственных организаций Azure](https://aka.ms/cjisimplementationguidelines)
 - [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/?linkid=2087246)

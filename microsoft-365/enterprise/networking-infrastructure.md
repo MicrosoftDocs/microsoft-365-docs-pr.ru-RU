@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть сетевую инфраструктуру для Microsoft 365 корпоративный.
-ms.openlocfilehash: 9a805ffbdbdc19ef5943a0c0ba0ff8f010d3e19b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 341e5530b159d4ba78b94001d92427e36224ab04
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066606"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631481"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>Шаг 1. Сетевая инфраструктура для Microsoft 365 корпоративный
 
@@ -28,7 +28,7 @@ ms.locfileid: "42066606"
 
 Microsoft 365 корпоративный включает Office 365, Microsoft Intune и различные службы удостоверений и безопасности Microsoft Azure. Для всех этих облачных служб используются безопасные, производительные и надежные подключения с клиентских устройств через Интернет или выделенные каналы. Чтобы разместить эти службы и сделать их доступными клиентам по всему миру, корпорация Майкрософт разработала сетевую инфраструктуру, в которой основное внимание уделено производительности и интеграции. 
 
-На этом шаге вы постепенно рассмотрите ключевые вопросы создания производительного подключения к облачным службам Microsoft 365 корпоративный. Общие сведения см. в статье [Принципы работы сети Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+На этом шаге вы постепенно рассмотрите ключевые вопросы создания эффективного подключения к облачным службам Microsoft 365 корпоративный. Общие сведения см. в статье [Принципы работы сети Microsoft 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 >[!Note]
 >Если вы уже развернули сетевую инфраструктуру, см. перечень обязательных и необязательных [условий](networking-exit-criteria.md), при выполнении которых можно считать сетевую инфраструктуру для Microsoft 365 корпоративный настроенной.
@@ -43,7 +43,7 @@ Microsoft 365 корпоративный включает Office 365, Microsoft 
 |![Шаг 2](../media/stepnumbers/Step2.png)|[Настройка локальных подключений к Интернету для всех офисов](networking-dns-resolution-same-location.md)|
 |![Шаг 3](../media/stepnumbers/Step3.png)|[Удаление разворотов пакетов](networking-avoid-network-hairpins.md)|
 |![Шаг 4](../media/stepnumbers/Step4.png)|[Настройка обхода трафика](networking-configure-proxies-firewalls.md)|
-|![Шаг 5](../media/stepnumbers/Step5.png)|[Оптимизация производительности клиентов и служб Office 365](networking-optimize-tcp-performance.md)|
+|![Шаг 5](../media/stepnumbers/Step5.png)|[Оптимизация производительности клиентов и служб](networking-optimize-tcp-performance.md)|
 
 
 Выполнив эти шаги, перейдите к перечню обязательных и необязательных [условий](networking-exit-criteria.md) для соответствия требованиям Microsoft 365 корпоративный, при выполнении которых можно считать данный шаг завершенным.

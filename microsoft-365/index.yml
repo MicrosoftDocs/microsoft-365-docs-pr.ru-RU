@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 4c66e2c398adfc67ec28661ed654ca891a846534
-  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.openlocfilehash: 0b5b128a0d4ea756a6cc6f926d1496de16520377
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/19/2020
-  ms.locfileid: "42857325"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43636655"
 highlightedContent:
   items:
   - title: Обучение для администраторов и ИТ-специалистов
@@ -45,9 +45,9 @@ additionalContent:
     summary: Выберите карточку, чтобы больше узнать о Microsoft 365.
     items:
     - title: Центр администрирования Microsoft 365
-      summary: Настройте службы Office 365 и Microsoft 365 для своей организации и управляйте ими.
-      url: ./admin/admin-home.yml
-    - title: Microsoft 365 бизнес
+      summary: Настройка служб Microsoft 365 для организации и управление ими.
+      url: ./admin/admin-home.md
+    - title: Microsoft 365 бизнес премиум
       summary: Для предприятий малого и среднего бизнеса. Ведите свой бизнес с помощью последних версий Windows и приложений Office, таких как Excel и Outlook. Воспользуйтесь преимуществами защиты данных и обеспечения безопасности, действующими для всех устройств в вашей компании.
       url: ./business/index.yml
     - title: Microsoft 365 корпоративный
@@ -63,7 +63,7 @@ additionalContent:
       summary: Узнайте о надежных решениях и службах безопасности в Microsoft 365, чтобы усилить защиту вашей организации во всех зонах, подверженных атакам.
       url: ./security/index.yml
     - title: Microsoft 365 для кампаний
-      summary: Обеспечьте безопасность данных и коммуникации при проведении кампании или ведении бизнеса с помощью этой рекомендуемой конфигурации Microsoft 365 бизнес.
+      summary: Microsoft 365 для бизнеса в этой конфигурации рекомендуется для обеспечения безопасности данных и коммуникации при проведении кампании или ведении бизнеса.
       url: ./campaigns/index.md
     - title: Компьютеры, управляемые Майкрософт
       summary: Компьютеры, управляемые Microsoft — это сочетание Microsoft 365 корпоративного с облачным управлением устройствами, осуществляемым Microsoft, и мониторингом безопасности, позволяющее вам высвободить группы ИТ для нужд основного бизнеса.
