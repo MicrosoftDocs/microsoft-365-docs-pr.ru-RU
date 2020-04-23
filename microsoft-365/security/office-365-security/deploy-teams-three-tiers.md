@@ -19,85 +19,85 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сведения о создании и настройке команд с помощью Microsoft Teams для применения различных уровней защиты информации, содержащейся в файлах.
-ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d8912900a02149d198222a4402e101b0dce53310
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083354"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637644"
 ---
-# <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a><span data-ttu-id="32b75-103">Развертывание команд с тремя уровнями защиты файлов</span><span class="sxs-lookup"><span data-stu-id="32b75-103">Deploy teams for three tiers of protection for files</span></span>
+# <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a><span data-ttu-id="fb3f0-103">Развертывание команд с тремя уровнями защиты файлов</span><span class="sxs-lookup"><span data-stu-id="fb3f0-103">Deploy teams for three tiers of protection for files</span></span>
 
-<span data-ttu-id="32b75-104">В этой статье показано создание и развертывание базовых, конфиденциальных и строго конфиденциальных команд.</span><span class="sxs-lookup"><span data-stu-id="32b75-104">Use the steps in this article to design and deploy baseline, sensitive, and highly confidential teams.</span></span> <span data-ttu-id="32b75-105">Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита файлов в Microsoft Teams](secure-files-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="32b75-105">For more information about these three tiers of protection, see [Secure files in Microsoft Teams](secure-files-in-teams.md).</span></span>
+<span data-ttu-id="fb3f0-104">В этой статье показано создание и развертывание базовых, конфиденциальных и строго конфиденциальных команд.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-104">Use the steps in this article to design and deploy baseline, sensitive, and highly confidential teams.</span></span> <span data-ttu-id="fb3f0-105">Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита файлов в Microsoft Teams](secure-files-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="fb3f0-105">For more information about these three tiers of protection, see [Secure files in Microsoft Teams](secure-files-in-teams.md).</span></span>
 
-## <a name="baseline-teams"></a><span data-ttu-id="32b75-106">Команды базового уровня</span><span class="sxs-lookup"><span data-stu-id="32b75-106">Baseline teams</span></span>
+## <a name="baseline-teams"></a><span data-ttu-id="fb3f0-106">Команды базового уровня</span><span class="sxs-lookup"><span data-stu-id="fb3f0-106">Baseline teams</span></span>
 
-<span data-ttu-id="32b75-107">Базовая защита распространяется на общедоступные и закрытые команды.</span><span class="sxs-lookup"><span data-stu-id="32b75-107">Baseline protection includes both public and private teams.</span></span> <span data-ttu-id="32b75-108">Обнаруживать общедоступные команды и получать к ним доступ может любой пользователь в организации.</span><span class="sxs-lookup"><span data-stu-id="32b75-108">Public teams can be discovered and accessed by anybody in the organization.</span></span> <span data-ttu-id="32b75-109">Частный сайт могут найти и открыть только члены группы Office 365, связанной с этой командой.</span><span class="sxs-lookup"><span data-stu-id="32b75-109">Private sites can only be discovered and accessed by members of the Office 365 group associated with the team.</span></span> <span data-ttu-id="32b75-110">Оба типа команд позволяют участникам делиться содержимым сайта.</span><span class="sxs-lookup"><span data-stu-id="32b75-110">Both of these types of teams allow members to share the site with others.</span></span>
+<span data-ttu-id="fb3f0-107">Базовая защита распространяется на общедоступные и закрытые команды.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-107">Baseline protection includes both public and private teams.</span></span> <span data-ttu-id="fb3f0-108">Обнаруживать общедоступные команды и получать к ним доступ может любой пользователь в организации.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-108">Public teams can be discovered and accessed by anybody in the organization.</span></span> <span data-ttu-id="fb3f0-109">Частный сайт могут найти и открыть только члены группы Microsoft 365, связанной с этой командой.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-109">Private sites can only be discovered and accessed by members of the Microsoft 365 group associated with the team.</span></span> <span data-ttu-id="fb3f0-110">Оба типа команд позволяют участникам делиться содержимым сайта.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-110">Both of these types of teams allow members to share the site with others.</span></span>
 
-### <a name="public"></a><span data-ttu-id="32b75-111">Общедоступное</span><span class="sxs-lookup"><span data-stu-id="32b75-111">Public</span></span>
+### <a name="public"></a><span data-ttu-id="fb3f0-111">Общедоступное</span><span class="sxs-lookup"><span data-stu-id="fb3f0-111">Public</span></span>
 
-<span data-ttu-id="32b75-112">Следуйте инструкциям, приведенным в [этой статье](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b), чтобы создать команду базового уровня с открытым доступом и соответствующими разрешениями.</span><span class="sxs-lookup"><span data-stu-id="32b75-112">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline Team with public access and permissions.</span></span>
+<span data-ttu-id="fb3f0-112">Следуйте инструкциям, приведенным в [этой статье](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b), чтобы создать команду базового уровня с открытым доступом и соответствующими разрешениями.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-112">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline Team with public access and permissions.</span></span>
 
-<span data-ttu-id="32b75-113">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="32b75-113">Here is your resulting configuration.</span></span>
+<span data-ttu-id="fb3f0-113">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-113">Here is your resulting configuration.</span></span>
 
 ![Базовый уровень защиты для общедоступной команды.](../../media/baseline-public-team.png)
 
-### <a name="private"></a><span data-ttu-id="32b75-115">Личные сведения</span><span class="sxs-lookup"><span data-stu-id="32b75-115">Private</span></span>
+### <a name="private"></a><span data-ttu-id="fb3f0-115">Личные сведения</span><span class="sxs-lookup"><span data-stu-id="fb3f0-115">Private</span></span>
 
-<span data-ttu-id="32b75-116">Следуйте инструкциям, приведенным в [этой статье](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b), чтобы создать команду базового уровня с закрытым доступом и соответствующими разрешениями.</span><span class="sxs-lookup"><span data-stu-id="32b75-116">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline Team with private access and permissions.</span></span>
+<span data-ttu-id="fb3f0-116">Следуйте инструкциям, приведенным в [этой статье](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b), чтобы создать команду базового уровня с закрытым доступом и соответствующими разрешениями.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-116">Follow the instructions in [this article](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b) to create a baseline Team with private access and permissions.</span></span>
 
-<span data-ttu-id="32b75-117">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="32b75-117">Here is your resulting configuration.</span></span>
+<span data-ttu-id="fb3f0-117">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-117">Here is your resulting configuration.</span></span>
 
 ![Базовый уровень защиты для закрытой команды.](../../media/baseline-private-team.png)
 
-## <a name="sensitive-teams"></a><span data-ttu-id="32b75-119">Конфиденциальные команды</span><span class="sxs-lookup"><span data-stu-id="32b75-119">Sensitive teams</span></span>
+## <a name="sensitive-teams"></a><span data-ttu-id="fb3f0-119">Конфиденциальные команды</span><span class="sxs-lookup"><span data-stu-id="fb3f0-119">Sensitive teams</span></span>
 
-<span data-ttu-id="32b75-120">Для работы с конфиденциальными командами необходимо сначала [создать закрытую команду](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="32b75-120">For a sensitive team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
+<span data-ttu-id="fb3f0-120">Для работы с конфиденциальными командами необходимо сначала [создать закрытую команду](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="fb3f0-120">For a sensitive team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
 
-<span data-ttu-id="32b75-121">После этого настройте базовый сайт SharePoint таким образом, чтобы предотвратить общий доступ к нему для участников команды.</span><span class="sxs-lookup"><span data-stu-id="32b75-121">Next, you configure the underlying SharePoint site to prevent sharing by team members.</span></span>
+<span data-ttu-id="fb3f0-121">После этого настройте базовый сайт SharePoint таким образом, чтобы предотвратить общий доступ к нему для участников команды.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-121">Next, you configure the underlying SharePoint site to prevent sharing by team members.</span></span>
 
-1. <span data-ttu-id="32b75-122">На панели инструментов команды щелкните **Файлы**.</span><span class="sxs-lookup"><span data-stu-id="32b75-122">In the tool bar for the team, click **Files**.</span></span>
+1. <span data-ttu-id="fb3f0-122">На панели инструментов команды щелкните **Файлы**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-122">In the tool bar for the team, click **Files**.</span></span>
 
-2. <span data-ttu-id="32b75-123">Щелкните многоточие, а затем — **Открыть в SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="32b75-123">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
+2. <span data-ttu-id="fb3f0-123">Щелкните многоточие, а затем — **Открыть в SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-123">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
 
-3. <span data-ttu-id="32b75-124">На панели инструментов базового сайта SharePoint щелкните значок параметров и выберите вариант **Разрешения для сайта**.</span><span class="sxs-lookup"><span data-stu-id="32b75-124">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
+3. <span data-ttu-id="fb3f0-124">На панели инструментов базового сайта SharePoint щелкните значок параметров и выберите вариант **Разрешения для сайта**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-124">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
 
-4. <span data-ttu-id="32b75-125">В области **Разрешения для сайта** в разделе **Параметры общего доступа** щелкните **Изменить параметры общего доступа**.</span><span class="sxs-lookup"><span data-stu-id="32b75-125">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
+4. <span data-ttu-id="fb3f0-125">В области **Разрешения для сайта** в разделе **Параметры общего доступа** щелкните **Изменить параметры общего доступа**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-125">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
 
-5. <span data-ttu-id="32b75-126">В разделе **Разрешения на предоставление общего доступа** выберите **Только владельцы сайта могут делиться файлами, папками и сайтом** и щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="32b75-126">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**, and then click **Save**.</span></span>
+5. <span data-ttu-id="fb3f0-126">В разделе **Разрешения на предоставление общего доступа** выберите **Только владельцы сайта могут делиться файлами, папками и сайтом** и щелкните **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-126">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**, and then click **Save**.</span></span>
 
-<span data-ttu-id="32b75-127">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="32b75-127">Here is your resulting configuration.</span></span>
+<span data-ttu-id="fb3f0-127">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-127">Here is your resulting configuration.</span></span>
 
 ![Конфиденциальный уровень защиты для команды.](../../media/sensitive-team.png)
 
-## <a name="highly-confidential-teams"></a><span data-ttu-id="32b75-129">Строго конфиденциальные команды</span><span class="sxs-lookup"><span data-stu-id="32b75-129">Highly confidential teams</span></span>
+## <a name="highly-confidential-teams"></a><span data-ttu-id="fb3f0-129">Строго конфиденциальные команды</span><span class="sxs-lookup"><span data-stu-id="fb3f0-129">Highly confidential teams</span></span>
 
-<span data-ttu-id="32b75-130">Для работы со строго конфиденциальными командами необходимо сначала [создать закрытую команду](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="32b75-130">With a highly confidential team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
+<span data-ttu-id="fb3f0-130">Для работы со строго конфиденциальными командами необходимо сначала [создать закрытую команду](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span><span class="sxs-lookup"><span data-stu-id="fb3f0-130">With a highly confidential team, you start by [creating a private team](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).</span></span>
 
-<span data-ttu-id="32b75-131">После этого настройте базовый сайт SharePoint таким образом, чтобы предотвратить общий доступ к нему для участников команды и запретить запросы на доступ от лиц, не являющихся участниками команды.</span><span class="sxs-lookup"><span data-stu-id="32b75-131">Next, you configure the underlying SharePoint site to prevent sharing by team members and the requesting of access by non-members of the team.</span></span>
+<span data-ttu-id="fb3f0-131">После этого настройте базовый сайт SharePoint таким образом, чтобы предотвратить общий доступ к нему для участников команды и запретить запросы на доступ от лиц, не являющихся участниками команды.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-131">Next, you configure the underlying SharePoint site to prevent sharing by team members and the requesting of access by non-members of the team.</span></span>
 
-1. <span data-ttu-id="32b75-132">На панели инструментов команды щелкните **Файлы**.</span><span class="sxs-lookup"><span data-stu-id="32b75-132">In the tool bar for the team, click **Files**.</span></span>
+1. <span data-ttu-id="fb3f0-132">На панели инструментов команды щелкните **Файлы**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-132">In the tool bar for the team, click **Files**.</span></span>
 
-2. <span data-ttu-id="32b75-133">Щелкните многоточие, а затем — **Открыть в SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="32b75-133">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
+2. <span data-ttu-id="fb3f0-133">Щелкните многоточие, а затем — **Открыть в SharePoint**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-133">Click the ellipsis, and then click **Open in SharePoint**.</span></span>
 
-3. <span data-ttu-id="32b75-134">На панели инструментов базового сайта SharePoint щелкните значок параметров и выберите вариант **Разрешения для сайта**.</span><span class="sxs-lookup"><span data-stu-id="32b75-134">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
+3. <span data-ttu-id="fb3f0-134">На панели инструментов базового сайта SharePoint щелкните значок параметров и выберите вариант **Разрешения для сайта**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-134">In the tool bar of the underlying SharePoint site, click the settings icon, and then click **Site permissions**.</span></span>
 
-4. <span data-ttu-id="32b75-135">В области **Разрешения для сайта** в разделе **Параметры общего доступа** щелкните **Изменить параметры общего доступа**.</span><span class="sxs-lookup"><span data-stu-id="32b75-135">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
+4. <span data-ttu-id="fb3f0-135">В области **Разрешения для сайта** в разделе **Параметры общего доступа** щелкните **Изменить параметры общего доступа**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-135">In the **Site permissions** pane, under **Sharing Settings**, click **Change sharing settings**.</span></span>
 
-5. <span data-ttu-id="32b75-136">В разделе **Разрешения на предоставление общего доступа** установите флажок **Только владельцы сайта могут делиться файлами, папками и сайтом**.</span><span class="sxs-lookup"><span data-stu-id="32b75-136">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**.</span></span>
+5. <span data-ttu-id="fb3f0-136">В разделе **Разрешения на предоставление общего доступа** установите флажок **Только владельцы сайта могут делиться файлами, папками и сайтом**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-136">Under **Sharing permissions**, choose **Only site owners can share files, folders, and the site**.</span></span>
 
-6. <span data-ttu-id="32b75-137">Отключите параметр **Разрешить запросы на доступ** и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="32b75-137">Turn off **Allow access requests**, and then click **Save**.</span></span>
+6. <span data-ttu-id="fb3f0-137">Отключите параметр **Разрешить запросы на доступ** и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-137">Turn off **Allow access requests**, and then click **Save**.</span></span>
 
-<span data-ttu-id="32b75-138">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="32b75-138">Here is your resulting configuration.</span></span>
+<span data-ttu-id="fb3f0-138">Ниже показана итоговая конфигурация.</span><span class="sxs-lookup"><span data-stu-id="fb3f0-138">Here is your resulting configuration.</span></span>
 
 ![Строго конфиденциальный уровень защиты для команды.](../../media/highly-confidential-team.png)
 
-## <a name="next-step"></a><span data-ttu-id="32b75-140">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="32b75-140">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="fb3f0-140">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="fb3f0-140">Next step</span></span>
 
-[<span data-ttu-id="32b75-141">Защита файлов в командах с помощью меток хранения и политики защиты от потери данных</span><span class="sxs-lookup"><span data-stu-id="32b75-141">Protect files in teams with retention labels and DLP</span></span>](deploy-teams-retention-DLP.md)
+[<span data-ttu-id="fb3f0-141">Защита файлов в командах с помощью меток хранения и политики защиты от потери данных</span><span class="sxs-lookup"><span data-stu-id="fb3f0-141">Protect files in teams with retention labels and DLP</span></span>](deploy-teams-retention-DLP.md)
 
-## <a name="see-also"></a><span data-ttu-id="32b75-142">См. также</span><span class="sxs-lookup"><span data-stu-id="32b75-142">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fb3f0-142">См. также</span><span class="sxs-lookup"><span data-stu-id="fb3f0-142">See also</span></span>
 
-[<span data-ttu-id="32b75-143">Защита файлов в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="32b75-143">Secure files in Microsoft Teams</span></span>](secure-files-in-teams.md)
+[<span data-ttu-id="fb3f0-143">Защита файлов в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fb3f0-143">Secure files in Microsoft Teams</span></span>](secure-files-in-teams.md)
 
-[<span data-ttu-id="32b75-144">Освоение облака и гибридные решения</span><span class="sxs-lookup"><span data-stu-id="32b75-144">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
+[<span data-ttu-id="fb3f0-144">Освоение облака и гибридные решения</span><span class="sxs-lookup"><span data-stu-id="fb3f0-144">Cloud adoption and hybrid solutions</span></span>](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
