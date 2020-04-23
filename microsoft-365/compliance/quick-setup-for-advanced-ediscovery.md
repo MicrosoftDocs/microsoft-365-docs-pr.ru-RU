@@ -1,5 +1,5 @@
 ---
-title: Быстрая настройка для Office 365 Advanced eDiscovery
+title: Быстрая настройка Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
-description: 'Сведения о том, как получать доступ к Office 365 Advanced eDiscovery из Центра безопасности и соответствия требованиям Office 365 и просматривать типичный рабочий процесс для использования Advanced eDiscovery.  '
-ms.openlocfilehash: 1f434fe87fd93ebee03c4300c67214011f646134
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Сведения о том, как получать доступ к Advanced eDiscovery из Центра безопасности и соответствия требованиям и просматривать типичный рабочий процесс для использования Advanced eDiscovery.  '
+ms.openlocfilehash: 62c2ef316daafebeba6f91483277ea344039a271
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557849"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632174"
 ---
 # <a name="quick-setup-advanced-ediscovery-classic"></a>Быстрая настройка Advanced eDiscovery (классическая версия)
 
 > [!IMPORTANT]
-> Мы продолжаем инвестирование более новых версий Advanced eDiscovery и сообщаем о прекращении поддержки версии Office 365 Advanced eDiscovery, также известной как *Advanced eDiscovery (классическая версия)* или *Advanced eDiscovery 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
+> Продолжая инвестировать в разработку новых версий Advanced eDiscovery, мы сообщаем о прекращении поддержки версии Advanced eDiscovery, также известной как *Advanced eDiscovery (классическая версия)* или *Advanced eDiscovery 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
 
 Этот раздел о настройках содержит сведения для менеджера обнаружения электронных данных в Центре безопасности и соответствия требованиям Microsoft 365 о том, как начать работу с Advanced eDiscovery. Предполагается, что есть общее представление об обеих службах.
   
@@ -37,7 +37,7 @@ ms.locfileid: "42557849"
   
 Чтобы перейти к делу в Advanced eDiscovery: 
   
-1. [Откройте Центр безопасности и соответствия требованиям Office 365](go-to-the-securitycompliance-center.md). 
+1. [Откройте Центр безопасности и соответствия требованиям](go-to-the-securitycompliance-center.md). 
     
 2. Чтобы отобразился список дел в организации, в Центре безопасности и соответствия требованиям выберите **Поиск и исследование** \> **Обнаружение электронных данных**. 
     
@@ -51,7 +51,7 @@ ms.locfileid: "42557849"
 
 На приведенной ниже схеме показан типичный рабочий процесс для использования дел обнаружения электронных данных и управления ими в Центре безопасности и соответствия требованиям и Advanced eDiscovery. 
   
-![На схеме показан рабочий процесс Office 365 Advanced eDiscovery, состоящий из четырех этапов настройки (настройки пользователей и дел, определения данных дела, экспорта и обработки), а также этапов анализа и экспорта на локальный компьютер.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
+![На схеме показан рабочий процесс Advanced eDiscovery, состоящий из четырех этапов (настройки пользователей и дел, определения данных дела, экспорта и обработки), а также этапов анализа и экспорта на локальный компьютер.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   
 Этот раздел о настройках содержит сведения о первых четырех этапах рабочего процесса. Описание других этапов см. далее.
   

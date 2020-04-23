@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Убедитесь, что используемая вами конфигурация соответствует критериям Microsoft 365 корпоративный для Windows 10 Корпоративная.
-ms.openlocfilehash: 42d8ec912a70aecef49672682c25f5e42c4bbe21
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: cf4a813a6cf89029eebde8e5947caf7b3c2ea553
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632997"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636691"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>Этап 3. Условия, при выполнении которых можно считать инфраструктуру Windows 10 Корпоративная настроенной
 
@@ -127,4 +127,4 @@ Windows Autopilot настраивает устройство и подключ�
 
 |||
 |:-------|:-----|
-|![Этап 4. Office 365 профессиональный плюс](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап — [Office 365 профессиональный плюс](office365proplus-infrastructure.md). |
+|![Этап 4. Приложения Microsoft 365 для предприятий](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, следующий этап —[Приложения Microsoft 365 для предприятий](office365proplus-infrastructure.md). |

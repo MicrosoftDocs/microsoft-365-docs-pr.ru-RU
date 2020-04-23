@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В Office 365 можно использовать метки хранения для настройки расписания хранения в вашей организации. Благодаря сценарию и CSV-файлам можно выполнить пакетное создание и публикацию меток хранения и политик меток хранения с использованием PowerShell.
-ms.openlocfilehash: e7b992b8464e5c505d048b5b945d154a770fd59c
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 055bc785c492e2fa37bc60ce4e383f79111c551a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105981"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636357"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>Пакетное создание и публикация меток хранения с помощью PowerShell
 
@@ -716,7 +716,7 @@ if ($ResultCSV)
 
 Выполните действия, описанные в следующей статье:
   
-- [Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](https://go.microsoft.com/fwlink/?linkid=799771)
+- [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://go.microsoft.com/fwlink/?linkid=799771).
     
 ## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a>Шаг 5. Запуск скрипта PowerShell для создания и публикации меток хранения
 

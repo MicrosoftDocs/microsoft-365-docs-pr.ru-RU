@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Ознакомьтесь с новым и измененным содержимым в руководстве по развертыванию Microsoft 365.
-ms.openlocfilehash: fb9768be38ef215b22c81bcf10b19b58e37fb124
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3374ee742982b1c7f451448674feed5f7d803031
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951814"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631577"
 ---
 # <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>Изменения содержимого развертывания Microsoft 365 для предприятий
 
@@ -38,7 +38,7 @@ ms.locfileid: "42951814"
 
 ### <a name="new-content"></a>Новое содержимое 
 
-- [Миграция с Microsoft 365 бизнес на Microsoft 365 E3](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+- [Миграция с Microsoft 365 бизнес премиум на Microsoft 365 E3](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
 
 - [Команда для сверхсекретного проекта корпорации Contoso](contoso-team-for-top-secret-project.md)
 
@@ -86,7 +86,7 @@ ms.locfileid: "42951814"
 
 ### <a name="updates-and-enhancements"></a>Обновления и улучшения
 
-- Обновление [этапа 4 (Office 365 профессиональный плюс)](office365proplus-infrastructure.md)
+- Обновление раздела [Этап 4. "Приложения Microsoft 365 для предприятий"](office365proplus-infrastructure.md)
 - Обновление [практического примера Contoso](contoso-case-study.md)
 - Обновление рабочих нагрузок [Microsoft Teams](teams-workload.md), [Exchange Online](exchangeonline-workload.md) и [SharePoint Online](sharepoint-online-onedrive-workload.md)
 - Обновление сценария [сайтов SharePoint для жестко регламентированных данных](teams-sharepoint-online-sites-highly-regulated-data.md)
@@ -170,7 +170,7 @@ ms.locfileid: "42951814"
 ### <a name="new-content"></a>Новое содержимое 
 
 - Предварительное требование [Удостоверение и доступ к устройству](identity-device-access-m365-test-environment.md) руководств по лаборатории тестирования
-- Шаги [Windows Information Protection](infoprotect-deploy-windows-information-protection.md) и [Защита от потери данных Office 365](infoprotect-data-loss-prevention.md) для [этапа 6 (защита данных)](infoprotect-infrastructure.md)
+- Шаги [Windows Information Protection](infoprotect-deploy-windows-information-protection.md) и [Защита от потери данных](infoprotect-data-loss-prevention.md) для раздела [Этап 6. Защита данных](infoprotect-infrastructure.md) 
 
 
 ## <a name="see-also"></a>См. также

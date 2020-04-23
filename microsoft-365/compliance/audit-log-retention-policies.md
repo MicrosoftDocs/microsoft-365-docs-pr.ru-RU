@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Политики хранения журналов аудита являются частью новых возможностей расширенного аудита в Microsoft 365. Политика хранения журнала аудита позволяет задавать срок хранения журналов аудита в Организации.
-ms.openlocfilehash: d19e18fa2c701996306f5b2e567ea01708d96144
-ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
+ms.openlocfilehash: 25fbabd4c7524702a985616797b31730b14a2d8f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42091330"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636377"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Управление политиками хранения журнала аудита
 
@@ -85,7 +85,7 @@ ms.locfileid: "42091330"
 
 ## <a name="create-an-audit-log-retention-policy-in-powershell"></a>Создание политики хранения журнала аудита в PowerShell
 
-Вы также можете использовать Office 365 Центр безопасности и соответствия требованиям PowerShell для создания политик хранения журнала аудита. 
+Вы также можете использовать PowerShell в Центре безопасности и соответствия требованиям для создания политик хранения журнала аудита. 
 
 1. [Подключитесь к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: При наличии существующей инфраструктуры проверьте условия, необходимые для развертывания Microsoft 365 для предприятий.
-ms.openlocfilehash: ce9c9343ff6983968f3ed96b1e1558788d04ffc1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ace84e53da9b62b39a557b670c54c1be31d0b61a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597066"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638216"
 ---
 # <a name="deployment-of-microsoft-365-for-enterprise-with-existing-infrastructure"></a>Развертывание Microsoft 365 для предприятий в существующей инфраструктуре
 
@@ -49,11 +49,11 @@ ms.locfileid: "41597066"
 
 [!INCLUDE [Deployment exit criteria for identity](./includes/deployment-exit-criteria-windows10.md)]
 
-## <a name="exit-criteria-for-office-365-proplus-phase-4"></a>Условия, при выполнении которых можно считать Office 365 профессиональный плюс настроенным (шаг 4)
+## <a name="exit-criteria-for-microsoft-365-apps-for-enterprise-phase-4"></a>Условия выхода для Приложений Microsoft 365 для предприятий (этап 4)
 
-Обеспечьте соответствие требованиям для планирования развертывания, оценки, а также развертывания инфраструктуры Office 365 профессиональный плюс.
+Обеспечьте соответствие требованиям для оценки, планирования развертывания, а также развертывания инфраструктуры Приложений Microsoft 365 для предприятий.
 
-[!INCLUDE [Deployment exit criteria for Office 365 ProPlus](./includes/deployment-exit-criteria-office365proplus.md)]
+[!INCLUDE [Deployment exit criteria for Microsoft 365 Apps for enterprise](./includes/deployment-exit-criteria-office365proplus.md)]
 
 ## <a name="exit-criteria-for-mobile-device-management-phase-5"></a>Условия, при выполнении которых можно считать управление мобильными устройствами настроенным (шаг 5)
 

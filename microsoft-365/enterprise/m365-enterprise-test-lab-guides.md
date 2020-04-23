@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 на крупных предприятиях.
-ms.openlocfilehash: 1ea41cd3553c70b2a8bb99e08da43fd45b1aa558
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 582068e84d82bfa681d1e1e64234698544ce3b9d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153920"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631601"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях
 
@@ -116,16 +116,16 @@ ms.locfileid: "43153920"
 
 Функции и возможности, связанные с защитой информации, продемонстрированы в следующих статьях:
 
-- [Усиленная защита Office 365](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+- [Повышенная безопасность в Microsoft 365](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
     
-   Настройка параметров для усиления защиты Office 365 и изучение встроенных средств безопасности.
+   Настройка параметров для усиления защиты Microsoft 365 и изучение встроенных средств безопасности.
   
 - [Классификация данных](data-classification-microsoft-365-enterprise-dev-test-environment.md)
     
-   Настройка и присвоение метки Office 365 документу на сайте группы SharePoint Online.
+   Настройка меток и присвоение их документу на сайте группы SharePoint Online.
     
 - [Управление привилегированным доступом](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
-   Настройка управления привилегированным доступом для своевременного доступа к задачам, требующим привилегий и разрешений повышенного уровня, в вашей организации Office 365.
+   Настройка управления привилегированным доступом для своевременного доступа к задачам, требующим привилегий и разрешений повышенного уровня, в вашей организации.
 
 

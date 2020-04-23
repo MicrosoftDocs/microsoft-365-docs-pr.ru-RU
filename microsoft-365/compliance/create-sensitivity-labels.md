@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 39e83c74d2df8d0efe12225600813ef8007833e2
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: ea9b8d119f431079ff0558eddfae3caf0ec0fffb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528352"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635959"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в центр администрирования меток, например в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности Microsoft 365 или Центр безопасности и соответствия требованиям Office 365.
+Все решения Microsoft Information Protection (сокращенное название — MIP) реализуются с помощью [меток конфиденциальности](sensitivity-labels.md). Чтобы создать и опубликовать эти метки, перейдите в центр администрирования меток, например в [Центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). Вы также можете использовать Центр безопасности Microsoft 365 или Центр безопасности и соответствия требованиям.
 
 Сначала создайте и настройте метки конфиденциальности, которые должны быть доступны для приложений и других служб. Например, метки, которые пользователям нужно найти и применить из приложений Office. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "43528352"
     - Центр безопасности Microsoft 365: 
         - **Классификация** > **Метки конфиденциальности**
     
-    - Центр безопасности и соответствия требованиям Office 365:
+    - Центр безопасности и соответствия требованиям:
         - **Классификация** > **Метки конфиденциальности**
 
 2. На вкладке **Метки** нажмите **+ Создать метку**, чтобы запустить мастер **Создание метки конфиденциальности**.
@@ -73,9 +73,9 @@ ms.locfileid: "43528352"
 > [!IMPORTANT]
 > На этой вкладке **Метки** не нажимайте вкладку **Опубликовать метки** (или кнопку **Опубликовать метку** при изменении метки), если не нужно создавать политику меток. Несколько политик меток требуются только в том случае, если пользователям необходимы разные метки или другие параметры политики. Целью является минимально возможное число политик меток. Часто в организациях используется только одна политика меток.
 
-### <a name="additional-label-settings-with-office-365-security--compliance-center-powershell"></a>Дополнительные параметры меток, доступные с помощью PowerShell Центра безопасности и соответствия требованиям Office 365
+### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры меток, доступные в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры меток доступны с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
 Используйте параметр *LocaleSettings* для развертывания в многоязычной среде, чтобы пользователи видели имя метки и подсказку на своем языке. Пример настройки представлен в следующем разделе. 
 
@@ -89,7 +89,7 @@ ms.locfileid: "43528352"
 
 Для языков, которые вам нужны, используйте [идентификаторы языков](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers) в Office (также именуемые тегами языков) и укажите свой перевод для имени метки и подсказки.
 
-Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+Перед выполнением команд в PowerShell необходимо сначала [подключиться к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 
 ```powershell
@@ -123,7 +123,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
     - Центр безопасности Microsoft 365: 
         - **Классификация** > **Метки конфиденциальности**
     
-    - Центр безопасности и соответствия требованиям Office 365:
+    - Центр безопасности и соответствия требованиям:
         - **Классификация** > **Метки конфиденциальности**
 
 2. Откройте вкладку **Политики меток**.
@@ -150,9 +150,9 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 
 Как правило, пользователи видят метки в своих приложениях Office через несколько часов. Однако репликация политик меток и изменений, внесенных в них, для всех пользователей и служб может занять до 24 часов.
 
-### <a name="additional-label-policy-settings-with-office-365-security--compliance-center-powershell"></a>Дополнительные параметры политики меток, доступные с помощью PowerShell Центра безопасности и соответствия требованиям Office 365
+### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры политики меток доступны с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
 С помощью этого командлета вы можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) для клиента унифицированных меток Azure Information Protection. К этим дополнительным параметрам относится настройка другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels). 
 

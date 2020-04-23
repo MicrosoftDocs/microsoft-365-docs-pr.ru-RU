@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225935"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631517"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
-Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная или Office 365 профессиональный плюс. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, включая Microsoft Endpoint Configuration Manager, Аналитика компьютеров, центр развертывания Office, OneDrive, Windows Autopilot и т. д.
+Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная и Приложениями Microsoft 365 для предприятий. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, включая Microsoft Endpoint Configuration Manager, Аналитика компьютеров, центр развертывания Office, OneDrive, Windows Autopilot и т. д.
 
 Этот курс обучения настоятельно рекомендуется организациям, которые ведут подготовку к завершению срока службы Windows 7, а также тем организациям, в которых уже используется Windows 10 и Office 365 Plus или Office 2019. Кроме того, представляя собой изолированную среду, эти занятия дают отличную возможность изучить обновления средств развертывания и протестировать средства автоматизации, связанные с развертыванием.
 
@@ -69,7 +69,7 @@ ms.locfileid: "43225935"
 
 ### <a name="office-and-lob-app-delivery"></a>Доставка приложений Office и бизнес-приложений
 
-  - Развертывание Office 365 профессиональный плюс 
+  - Приложения Microsoft 365 для предприятий
   - Корпоративное управляемое развертывание с помощью Configuration Manager и Microsoft Intune
   - Развертывание приложений и управление ими с помощью Microsoft Intune
   - Развертывание приложений и установка их по принципу самообслуживания с помощью Microsoft Store для бизнеса
@@ -113,7 +113,7 @@ ms.locfileid: "43225935"
 
 [Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 5 июля 2020 г. До этой даты будет опубликована новая версия занятия.*
+*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 18 апреля 2020 г. До этой даты будет опубликована новая версия занятия.*
 
 ## <a name="additional-guidance"></a>Дополнительные рекомендации
 
@@ -125,7 +125,7 @@ ms.locfileid: "43225935"
 
   - [<span class="underline">Планирование развертывания Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span class="underline">Руководство по развертыванию Office 365 профессиональный плюс</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">Руководство по развертыванию Приложений Microsoft 365 для предприятий</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 
   - [<span class="underline">Начало работы с Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 

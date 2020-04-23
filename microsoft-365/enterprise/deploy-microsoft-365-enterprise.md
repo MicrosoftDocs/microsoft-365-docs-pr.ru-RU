@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 для предприятий в организации.
-ms.openlocfilehash: 9ea96af7cef0e497e8f7560ef87239828789b117
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3f6ddb1caf270f2ba261bd7b9c8f8cd938187705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951938"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638240"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Развертывание Microsoft 365 для предприятий
 
@@ -124,7 +124,7 @@ FastTrack — это текущая и стандартная возможнос
 
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-for-enterprise"></a>Как корпорация Contoso выполнила развертывание Microsoft 365 для предприятий
 
-Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат с главным офисом в Париже. Узнайте, [как в корпорации Contoso развертывали Microsoft 365 для предприятий](contoso-case-study.md) и рассматривали основные проектные решения и детали внедрения сети, удостоверений, Windows 10 Корпоративная, Office 365 профессиональный плюс, управления мобильными устройствами, защиты информации и системы безопасности. 
+Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат с главным офисом в Париже. Узнайте, [как в корпорации Contoso развертывали Microsoft 365 для предприятий](contoso-case-study.md) и рассматривали основные проектные решения и детали внедрения сети, удостоверений, Windows 10 Корпоративная, Приложений Microsoft 365 для предприятий, управления мобильными устройствами, защиты информации и системы безопасности. 
 
 ## <a name="stay-current-with-deployment-content"></a>Отслеживание содержимого развертывания
 

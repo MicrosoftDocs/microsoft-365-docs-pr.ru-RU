@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: Сводка. Сведения о создании и настройке сайтов группы в SharePoint Online для применения различных уровней защиты информации.
-ms.openlocfilehash: 1827c4a19cfd31a236dfbd58e454c610cae14477
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 44aa7c126e3ac4b077868c055f35c0b99d678b58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075541"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636137"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>Развертывание сайтов SharePoint Online с тремя уровнями защиты
 
@@ -33,9 +33,9 @@ ms.locfileid: "42075541"
   
 ## <a name="baseline-sharepoint-online-team-sites"></a>Сайты групп SharePoint Online с базовым уровнем защиты
 
-Базовый уровень защиты распространяется на закрытые и общедоступные сайты групп. Обнаруживать общедоступные сайты групп и получать к ним доступ может любой пользователь в организации. Обнаруживать закрытые сайты и получать к ним доступ могут только участники группы Office 365, связанной с сайтом группы. Оба этих типа сайтов групп позволяют участникам предоставлять доступ к сайту другим пользователям.
+Базовый уровень защиты распространяется на частные и общедоступные сайты групп. Обнаруживать общедоступные сайты групп и получать к ним доступ может любой пользователь в организации. Обнаруживать частные сайты и получать к ним доступ могут только участники группы Microsoft 365, связанной с сайтом группы. Оба этих типа сайтов групп позволяют участникам предоставлять доступ к сайту другим пользователям.
   
-### <a name="public"></a>Общедоступное
+### <a name="public"></a>Открытый
 
 Чтобы создать сайт группы SharePoint Online с базовым уровнем защиты и общим доступом и разрешениями, выполните [эти инструкции](https://support.office.com/article/create-a-team-site-in-sharepoint-ef10c1e7-15f3-42a3-98aa-b5972711777d).
 
@@ -98,9 +98,9 @@ ms.locfileid: "42075541"
   
 Благодаря членству в одной из групп доступа участники сайта теперь могут безопасно работать с ресурсами сайта.
   
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
-[Защита файлов SharePoint Online с помощью меток Office 365 и DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
+[Защита файлов SharePoint Online с помощью меток и DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 
 ## <a name="see-also"></a>См. также
 

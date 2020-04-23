@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: Сводка. Создание конфиденциальных и строго конфиденциальных сайтов группы SharePoint Online в среде разработки и тестирования.
-ms.openlocfilehash: 6294daa943c3815b86a9e12154901ed0b58d5e8d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 016fd99423305e0d11272f3d25115dcffe29ecae
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088117"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631993"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>Защита сайтов SharePoint Online в среде разработки и тестирования
 
@@ -66,7 +66,7 @@ ms.locfileid: "42088117"
 
 6. Выполните действия 3–5 для новой группы с названием **Персонал отдела маркетинга**.
 
-После этого настройте автоматическое лицензирование, чтобы членам групп автоматически назначались лицензии на подписки Office 365 и EMS.
+После этого настройте автоматическое лицензирование, чтобы членам групп автоматически назначались лицензии для подписок Microsoft 365 и EMS.
 
 1. На портале Azure последовательно выберите **Azure Active Directory > Лицензии > Все продукты**.
 
@@ -125,7 +125,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 4. В области, в которой расположен список свойств учетной записи пользователя **Генеральный директор**, проверьте, что этой учетной записи назначена лицензия **Microsoft 365 корпоративный E5** (в списке **Лицензии на продукты**).
 
-## <a name="phase-3-create-office-365-retention-labels"></a>Этап 3. Создание меток хранения Office 365
+## <a name="phase-3-create-retention-labels"></a>Этап 3. Создание меток хранения
 
 На этом этапе создаются метки хранения для документов на сайтах группы SharePoint.
 

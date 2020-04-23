@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройте и протестируйте эффективный единый вход Azure AD для тестовой среды Microsoft 365.
-ms.openlocfilehash: d2b17acb2b57e379fe204e3ea4402b3f00ef7d6c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: ba3f943a53f05c452a8e01e40bb6924dc42a866e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633167"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636872"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Эффективный единый вход Azure AD для тестовой среды Microsoft 365
 
@@ -35,8 +35,8 @@ ms.locfileid: "42633167"
 
 Эта настройка состоит из двух этапов:
 
-1.  Создание тестовой среды с синхронизацией хэшей паролей для имитации корпоративной среды Microsoft 365.
-2.  Настройка эффективного единого входа Azure AD через Azure AD Connect на APP1.
+1.    Создание тестовой среды с синхронизацией хэшей паролей для имитации корпоративной среды Microsoft 365.
+2.    Настройка эффективного единого входа Azure AD через Azure AD Connect на APP1.
     
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -53,7 +53,7 @@ ms.locfileid: "42633167"
   
 - Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для периодической синхронизации домена TESTLAB доменных служб Active Directory (AD DS) с клиентом Azure AD, связанным с подпиской на Microsoft 365 или Office 365.
+- Azure AD Connect работает на APP1 для периодической синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подпиской на Microsoft 365.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso"></a>Этап 2. Настройка эффективного единого входа Azure AD через Azure AD Connect на APP1
 
@@ -110,7 +110,7 @@ ms.locfileid: "42633167"
 
 - Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS testlab.\<доменное имя>.
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
-- Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Microsoft 365 или Office 365, с доменом AD DS TESTLAB. 
+- Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Microsoft 365, с доменом AD DS TESTLAB. 
 - Эффективный единый вход Azure AD включен, поэтому при входе в облачные ресурсы Microsoft 365 с компьютеров в моделируемой интрасети не требуется указывать пароль учетной записи пользователя.
 
 Информацию и ссылки для настройки эффективного единого входа Azure AD в эксплуатационной среде вы найдете в описании шага [Упрощение входа пользователей](identity-secure-your-passwords.md#identity-sso) этапа "Идентификация".
