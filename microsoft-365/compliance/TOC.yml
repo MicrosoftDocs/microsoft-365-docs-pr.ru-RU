@@ -149,6 +149,10 @@
           href: document-fingerprinting.md
         - name: Функции защиты от потери данных для конфиденциальной информации
           href: what-the-dlp-functions-look-for.md
+    - name: Шифрование в Microsoft 365
+      href: encryption.md
+    - name: Office 365 Сервис шифрования
+      href: office-365-service-encryption.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -200,6 +204,8 @@
               href: legacy-information-for-message-encryption.md
             - name: Настройка Microsoft Azure AD Rights Management для предыдущей версии шифрования сообщений Office 365
               href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: Настройка IRM в Центре администрирования SharePoint
+      href: set-up-irm-in-sp-admin-center.md
     - name: Общие сведения о классификации данных (предварительная версия)
       href: data-classification-overview.md
       items:
