@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: Узнайте, как обновить новую подписку.
 monikerRange: o365-worldwide
-ms.openlocfilehash: a5cede13a64ea1a6562a326c32dc902d14c3dfe5
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
+ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707527"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43796516"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Переход на другой план 
 
@@ -63,7 +63,7 @@ ms.locfileid: "43707527"
 
 ## <a name="the-upgrade-tab-is-empty"></a>Вкладка "обновление" пуста
 
-Если вкладка **Обновление** пуста, вы увидите объяснение того, почему вы не можете выполнить обновление в данный момент. Вы можете попробовать [изменить планы вручную](change-plans-manually.md) или [позвонить в службу поддержки](../../admin/contact-support-for-business-products.md). Дополнительные сведения см. [почему не удается обновить планы?](#why-cant-i-upgrade-plans).
+Если вкладка **Обновление** пуста, вы увидите объяснение того, почему вы не можете выполнить обновление в данный момент. Вы можете попробовать [изменить планы вручную](change-plans-manually.md). Дополнительные сведения см. [почему не удается обновить планы?](#why-cant-i-upgrade-plans).
 
 ## <a name="i-dont-see-the-plan-i-want"></a>Я не вижу желаемого плана
 
@@ -172,7 +172,7 @@ ms.locfileid: "43707527"
 
 [Позвонить в службу поддержки Майкрософт](../../admin/contact-support-for-business-products.md)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Изменение планов вручную](change-plans-manually.md)
 
