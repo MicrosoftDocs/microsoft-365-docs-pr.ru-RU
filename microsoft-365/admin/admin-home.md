@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Узнайте о ресурсах, доступных для администраторов Microsoft 365.
 ms.custom: okr_smb
-ms.openlocfilehash: 02d1afa763eda2edd7a0fba5624ab5a168b80a14
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 631c6640efeb6bebd8e091712b030ed61047042e
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43624004"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781497"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Центр справки для администраторов Microsoft 365
 
@@ -38,8 +38,8 @@ ms.locfileid: "43624004"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office 365 станет Microsoft 365</h3>
-                        <p>Будут изменены некоторые названия подписок на Office 365 и Microsoft 365. Вам ничего не нужно делать. Службы, приложения и функции остаются такими же, как и цена подписки. Имя вашей подписки будет автоматически обновлено в Центре администрирования Microsoft 365. Выписки по счету будут обновляться, начиная с 21 апреля 2020 г.</p>
+                        <h3>Теперь Office 365 называется Microsoft 365</h3>
+                        <p>Мы изменили некоторые названия подписок на Office 365 и Microsoft 365. Вам ничего не нужно делать. Службы, приложения и функции остаются такими же, как и цена подписки. Имя вашей подписки будет автоматически обновлено в Центре администрирования Microsoft 365. Выписки по счету будут обновляться, начиная с 21 апреля 2020 г.</p>
                         <ul>
                             <li><p><b>Office 365 бизнес базовый</b> теперь называется <b>Microsoft 365 бизнес базовый</b>.</p></li>
                             <li><p><b>Office 365 бизнес премиум</b> теперь называется <b>Microsoft 365 бизнес стандарт</b>.</p></li>
