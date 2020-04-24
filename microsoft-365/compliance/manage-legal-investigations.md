@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Используйте случаи обнаружения электронных данных в центре соответствия требованиям Microsoft 365 для управления юридическим исследованием в Организации. Если у вас есть подписка на "а", вы можете проанализировать данные дела с помощью аналитики текста, машинного обучения и прогнозирования возможностей кодирования расширенного обнаружения электронных данных.
-ms.openlocfilehash: 41eaa4ca4428c21b905d63365a9b3af7da1df9aa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1e7279fed51e108886ff0b4a6d64788d6424720e
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635909"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43799910"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Управление юридическим расследованиям в Microsoft 365
 
@@ -64,7 +64,7 @@ ms.locfileid: "43635909"
 
 - [Индексирование данных хранитель](processing-data-for-case.md) и исправление ошибок индексирования, чтобы можно было эффективно собрать данные для расследования
 
-- [Сбор данных](collecting-data-for-ediscovery.md) для обращения и добавление [его в набор проверки](collecting-data-for-ediscovery.md#adding-search-results-to-a-review-set) для дальнейшего изучения
+- [Сбор данных](collecting-data-for-ediscovery.md) для обращения и добавление [его в набор проверки](collecting-data-for-ediscovery.md#add-search-results-to-a-review-set) для дальнейшего изучения
 
 - [Просмотр](view-documents-in-review-set.md) документов, данных [запросов](review-set-search.md) и элементов [тегов](tagging-documents.md) в наборе рецензирования
 
