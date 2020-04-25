@@ -16,12 +16,12 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: Сводка. В этой статье описано, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365. С помощью инфраструктуры политики отправителей можно проверять исходящую почту, отправляемую из личного домена.
-ms.openlocfilehash: c1424ed9da6a36128d9f4502aadb475068ad029b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d84fb60886dd1518beb8a94438d5168c869a8c8
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638324"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808980"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
@@ -49,7 +49,7 @@ ms.locfileid: "43638324"
 
 - Текущая запись SPF TXT для личного домена. Сведения о том, как это сделать, см. в статье [Сбор необходимых сведений для создания записей DNS в Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/information-for-dns-records).
 
-- IP-адреса всех локальных серверов обмена сообщениями. Пример: **192.168.0.1**.
+- Внешние IP-адреса всех локальных серверов обмена сообщениями. Пример: **131.107.2.200**.
 
 - Доменные имена, используемые для всех сторонних доменов, которые требуется включить в запись SPF TXT. Некоторые поставщики массовых рассылок настраивают поддомены для своих клиентов. Например, компания MailChimp создала поддомен **servers.mcsv.net**.
 
