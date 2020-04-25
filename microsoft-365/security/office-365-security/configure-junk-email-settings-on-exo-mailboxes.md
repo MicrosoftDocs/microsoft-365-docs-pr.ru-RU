@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать параметры нежелательной почты в почтовых ящиках Exchange Online. Многие из этих параметров доступны пользователям в Outlook или Outlook в Интернете.
-ms.openlocfilehash: a18706c4bf63d9d96ba5e2f9bcbb803bddec36db
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 55597c45f093a5b9a0b860c6987454f926025e28
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800071"
+ms.locfileid: "43804796"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
 
@@ -54,7 +54,7 @@ ms.locfileid: "43800071"
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Включение или отключение правила нежелательной почты в почтовом ящике с помощью Exchange Online PowerShell
 
 > [!NOTE]
-> Командлет **Set-MailboxJunkEmailConfiguration** можно использовать только для отключения правила нежелательной почты для почтового ящика, открытого в Outlook (в режиме кэширования Exchange) или Outlook в Интернете. Если почтовый ящик еще не был открыт, появится сообщение об ошибке `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` : Если вы хотите отключить эту ошибку для массовых операций, можно добавить `-ErrorAction SlientlyContinue` команду **Set – MailboxJunkEmailConfiguration**
+> Командлет **Set-MailboxJunkEmailConfiguration** можно использовать только для отключения правила нежелательной почты для почтового ящика, открытого в Outlook (в режиме кэширования Exchange) или Outlook в Интернете. Если почтовый ящик еще не был открыт, появится сообщение об ошибке `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` : Если вы хотите отключить эту ошибку для массовых операций, можно добавить `-ErrorAction SlientlyContinue` команду **Set – MailboxJunkEmailConfiguration** .
 
 Чтобы включить или отключить правило нежелательной почты для почтового ящика, используйте следующий синтаксис:
 
@@ -76,11 +76,11 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration).
 
- **Примечания.**
-
-- Если пользователь еще не открыл свой почтовый ящик, при выполнении предыдущей команды может возникнуть ошибка. Чтобы отключить эту ошибку для массовых операций, `-ErrorAction SlientlyContinue` добавьте команду **Set – MailboxJunkEmailConfiguration** .
-
-- Даже если отключить правило нежелательной почты, фильтр нежелательной почты Outlook (в зависимости от того, как он настроен) может также определить, является ли сообщение нежелательным, и может переместить сообщения в папку "Входящие" или "Нежелательная почта" на основе собственной нежелательной почты вредоносности и коллекции списков надежных отправителей в почтовом ящике. Дополнительные сведения см. в разделе [Сведения о параметрах нежелательной почты в Outlook](#about-junk-email-settings-in-outlook) данной статьи.
+> [!NOTE]
+> 
+> - Если пользователь еще не открыл свой почтовый ящик, при выполнении предыдущей команды может возникнуть ошибка. Чтобы отключить эту ошибку для массовых операций, `-ErrorAction SlientlyContinue` добавьте команду **Set – MailboxJunkEmailConfiguration** .
+> 
+> - Даже если отключить правило нежелательной почты, фильтр нежелательной почты Outlook (в зависимости от того, как он настроен) может также определить, является ли сообщение нежелательным, и может переместить сообщения в папку "Входящие" или "Нежелательная почта" на основе собственной нежелательной почты вредоносности и коллекции списков надежных отправителей в почтовом ящике. Дополнительные сведения см. в разделе [Сведения о параметрах нежелательной почты в Outlook](#about-junk-email-settings-in-outlook) данной статьи.
 
 ### <a name="how-do-you-know-this-worked"></a>Как проверить, что все получилось?
 
@@ -145,13 +145,13 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration).
 
- **Примечания.**
-
-- Если пользователь еще не открыл свой почтовый ящик, при выполнении предыдущих команд может возникнуть ошибка. Чтобы отключить эту ошибку для массовых операций, `-ErrorAction SlientlyContinue` добавьте команду **Set – MailboxJunkEmailConfiguration** .
-
-- Даже если правило нежелательной почты отключено для почтового ящика, вы можете настроить коллекцию списков надежных отправителей, а фильтр нежелательной почты Outlook может перемещать сообщения в папку "Входящие" или в папку "Нежелательная почта". Дополнительные сведения см. в разделе [Сведения о параметрах нежелательной почты в Outlook](#about-junk-email-settings-in-outlook) данной статьи.
-
-- В фильтре нежелательной почты Outlook есть дополнительные параметры коллекции списков надежных отправителей (например, **автоматически добавляйте людей в список надежных отправителей**). Более подробную информацию [можно узнать в статье Использование фильтров нежелательной почты для управления отображенными сообщениями](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077).
+> [!NOTE]
+> 
+> - Если пользователь еще не открыл свой почтовый ящик, при выполнении предыдущих команд может возникнуть ошибка. Чтобы отключить эту ошибку для массовых операций, `-ErrorAction SlientlyContinue` добавьте команду **Set – MailboxJunkEmailConfiguration** .
+> 
+> - Даже если правило нежелательной почты отключено для почтового ящика, вы можете настроить коллекцию списков надежных отправителей, а фильтр нежелательной почты Outlook может перемещать сообщения в папку "Входящие" или в папку "Нежелательная почта". Дополнительные сведения см. в разделе [Сведения о параметрах нежелательной почты в Outlook](#about-junk-email-settings-in-outlook) данной статьи.
+> 
+> - В фильтре нежелательной почты Outlook есть дополнительные параметры коллекции списков надежных отправителей (например, **автоматически добавляйте людей в список надежных отправителей**). Более подробную информацию [можно узнать в статье Использование фильтров нежелательной почты для управления отображенными сообщениями](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077).
 
 ### <a name="how-do-you-know-this-worked"></a>Как проверить, что все получилось?
 

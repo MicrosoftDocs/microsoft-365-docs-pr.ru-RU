@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: af7ed71f2257578e4d4fb063b27cb81ed9802b1a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f8adb04e968f19c6b0577127e4f9c0ceb7d9e315
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087883"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804884"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг устройств и создание отчетов в центре безопасности Майкрософт 365
 
@@ -206,8 +206,8 @@ Microsoft Intune предоставляет функции управления 
 Чтобы найти исходное приложение, выполните следующий [Расширенный запрос поиска](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) для этого конкретного правила (определяемого с помощью идентификатора правила 9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2):
 
 ```kusto
-MiscEvents
-| where EventTime > ago(7d)
+DeviceEvents
+| where Timestamp > ago(7d)
 | where ActionType startswith "Asr"
 | where AdditionalFields contains "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2"
 | project InitiatingProcessFolderPath, InitiatingProcessFileName

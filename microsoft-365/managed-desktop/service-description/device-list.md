@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 354845e3bfebee5e6c67b53ba5ef6f55a9c419f8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d481a53da541b28975071a9dff6b7cdcc671345b
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637880"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804808"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -50,7 +50,7 @@ ms.locfileid: "43637880"
 | [HP Елитедеск 800 G4 DM DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | 18 июля 2020 г. | 18 июля 2023 г. |
 | [HP Елитедеск 800 G4 СФФ](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | 18 июля 2020 г. | 18 июля 2023 г. |
 | [HP Елитеоне 800 G4 G4 23.8 в АИО](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | 18 июля 2020 г. | 18 июля 2023 г. |
-| **\*[HP елите Драгонфли](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html--1#!&tab=features)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 31 декабря 2020 г. | 31 декабря 2023 г. |
+| **\*[HP елите Драгонфли](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 9MZ21AV | 31 декабря 2020 г. | 31 декабря 2023 г. |
 | [HP Пробук x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV, необходима ИК-камера или считыватель отпечатков пальцев | 6 июня 2020 г. | 6 июня 2023 г. |
 | [HP Z2 Mini G4 Workstation](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8QR48AV| 31 января 2021 г. | 31 января 2024 г. |
 |[HP Збук 14U/15U G6 Mobile Workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS02AV, необходима ИК-камера | 30 ноября 2020 г. | 30 ноября 2023 г. |

@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Сведения о действиях по исправлению в автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
-ms.openlocfilehash: d14b8827bd3c69461d832d66bb371b5d62d9802e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c44b0a535e6838258d3efa63010d7ccc63009af9
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634644"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804825"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Просмотр ожидающих или завершенных действий по исправлению, следующих за автоматическим исследованием в Office 365
 
-## <a name="approve-or-reject-pending-actions"></a>Утверждение (или отклонение) ожидающих действий
 
 ![Страница "действия по расследованию воздуха"](../../media/air-investigationactionspage.png)
+
+## <a name="approve-or-reject-pending-actions"></a>Утверждение (или отклонение) ожидающих действий
 
 При просмотре [сведений об исследовании](air-view-investigation-results.md)вы можете утвердить или отклонить все ожидающие действия по исправлению. Мы рекомендуем сделать это как можно скорее, чтобы завершить автоматическое расследование.
 
@@ -44,8 +45,8 @@ ms.locfileid: "43634644"
 5. Выберите элемент в списке. (При этом становятся активными кнопки утвердить и отклонить.)
 
 6. Просмотрите доступные сведения о выбранных элементах, а затем либо утвердите, либо отклоните действия. 
- - **Одобрить** разрешает запуск исправления.
- - **Отклонить** не предпринимать дальнейших действий
+   - **Одобрить** разрешает запуск исправления.
+   - **Отклонить** не предпринимать дальнейших действий
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

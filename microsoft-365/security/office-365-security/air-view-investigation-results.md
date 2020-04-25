@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Во время и после автоматического исследования в Microsoft 365 вы можете просматривать результаты и основные результаты.
-ms.openlocfilehash: e0ecea63260fae474973b39e7069029a2ec93dcb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b109c3e8a8dc92f2aaf91e40e620da8f1574af6f
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634632"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804866"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Сведения и результаты автоматического исследования в Microsoft 365
 
@@ -40,7 +40,7 @@ ms.locfileid: "43634632"
 |Ожидание выполнения действия | Исследование обнаружило угрозу, например вредоносную почту, вредоносный URL-адрес или параметр рискованного почтового ящика, а также действие по исправлению этой [угрозы.](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)<br/><br/>Состояние ожидающего действия инициируется, когда обнаруживается любая угроза с соответствующим действием. Тем не менее, список ожидающих действий может увеличиваться по мере выполнения расследования. Просмотрите [Журнал расследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) , чтобы узнать, существуют ли еще элементы, ожидающие завершения. |
 |Исправлено | Исследование завершено, и все действия были утверждены (полностью исправлено).<br/><br/>**Примечание**. утвержденные действия по исправлению могут содержать ошибки, препятствующие выполнению действий. Независимо от того, успешно ли завершено действие по исправлению, состояние расследования не изменяется. Просмотрите подробные результаты в [журнале расследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) . |
 |Частично исправлено | Исследование привело к действиям по исправлению, а некоторые были утверждены и завершены. Другие действия все еще [ожидают выполнения](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions). |
-|Failed | По крайней мере один анализатор расследований столкнулся с проблемой, в которой она не может быть выполнена должным образом. <br/><br/>**Note**: Если после утверждения действий по исправлению не удается, действия по исправлению могут быть выполнены. Просмотрите подробные результаты в [журнале расследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) . |
+|Ошибка | По крайней мере один анализатор расследований столкнулся с проблемой, в которой она не может быть выполнена должным образом. <br/><br/>**Note**: Если после утверждения действий по исправлению не удается, действия по исправлению могут быть выполнены. Просмотрите подробные результаты в [журнале расследования](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) . |
 |Помещено в очередь регулирования | В очереди хранятся расследования. При выполнении других операций расследования начинается расследование в очереди. Регулирование помогает избежать снижения производительности службы. <br/><br/>**Совет**. действия, ожидающие выполнения, могут ограничивать количество новых исследований. Обязательно [утвердите (или отклоните) ожидающие действия](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions). |
 |Завершено регулированиями | Если в очереди слишком большая продолжительность расследования, она останавливается. <br/><br/>**Совет**: вы можете [начать исследование с помощью обозревателя угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer). |
 
@@ -250,6 +250,6 @@ ms.locfileid: "43634632"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Просмотр и утверждение ожидающих действий](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)
+- [Просмотр и утверждение ожидающих действий](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions?view=o365-worldwide#approve-or-reject-pending-actions)
 
 - [Сведения об автоматическом расследовании и ответе в защите от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
