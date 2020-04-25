@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Чтобы защитить контент на сайтах SharePoint и Microsoft Teams, а также в группах Microsoft 365, используйте метки конфиденциальности.
-ms.openlocfilehash: 9252fa5a5096e8a0768277f0c72d78e4743f51dc
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: ac4e95c8356149ce9e5c719837820f84332d2a80
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790686"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804848"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>Использование меток конфиденциальности для защиты контента на сайтах Microsoft Teams, в группах Microsoft 365 и на сайтах SharePoint (общедоступная предварительная версия)
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-Создав метки конфиденциальности в [Центре соответствия требованиям Microsoft 365](https://protection.office.com/), вы можете применять их к следующим контейнерам: сайты Microsoft Teams, группы Microsoft 365 (бывшее название — группы Office 365) и сайты SharePoint. Используйте следующие параметры метки, чтобы защитить содержимое этих контейнеров:
+Создав метки конфиденциальности в [Центре соответствия требованиям Microsoft 365](https://protection.office.com/), вы можете применять их к следующим контейнерам: сайты Microsoft Teams, группы Microsoft 365 ([прежнее название — группы Office 365](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-365-groups-will-become-microsoft-365-groups/ba-p/1303601)) и сайты SharePoint. Используйте следующие параметры метки, чтобы защитить содержимое этих контейнеров:
 
 - Конфиденциальность сайтов групп (общедоступных или закрытых), подключенных к группам Microsoft 365
 - Доступ внешних пользователей
