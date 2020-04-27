@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Бизнес-подписки и документация по выставлению счетов
-summary: Сведения о том, как покупать бизнес-подписки и управлять ими, выполнять задачи управления лицензиями и управлять выставлением счетов и платежами для деловых учетных записей с помощью корпорации Майкрософт.
+title: Подписки для бизнеса и документация по выставлению счетов
+summary: Узнайте, как приобрести подписки для бизнеса и управлять ими, выполнять задачи по управлению лицензиями, а также управлять выставлением счетов и платежами для корпоративных учетных записей с помощью Майкрософт.
 metadata:
-  title: Бизнес-подписки и документация по выставлению счетов
-  description: Сведения о том, как покупать бизнес-подписки и управлять ими, выполнять задачи управления лицензиями и управлять выставлением счетов и платежами для деловых учетных записей с помощью корпорации Майкрософт.
+  title: Подписки для бизнеса и документация по выставлению счетов
+  description: Узнайте, как приобрести подписки для бизнеса и управлять ими, выполнять задачи по управлению лицензиями, а также управлять выставлением счетов и платежами для корпоративных учетных записей с помощью Майкрософт.
   ms.service: o365-administration
   ms.topic: landing-page
   ms.collection: commerce
@@ -14,12 +14,12 @@ metadata:
   search.appverid: MET150
   ms.openlocfilehash: 76f86bcd65fe1d5894777d8263f8c48f5fc5493b
   ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 02/29/2020
   ms.locfileid: "42341592"
 landingContent:
-- title: Управление векселями и платежами
+- title: Управление счетами и платежами
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -45,7 +45,7 @@ landingContent:
       url: licenses/buy-licenses.md
     - text: Удаление лицензий из подписки
       url: licenses/remove-licenses-from-subscription.md
-- title: Обновление, продление и Отмена
+- title: Обновление, продление или отмена
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -59,15 +59,15 @@ landingContent:
       url: subscriptions/reactivate-your-subscription.md
     - text: Закрытие учетной записи
       url: close-your-account.md
-- title: Использование пробной версии или приобретение подписки
+- title: Пробное использование или приобретение
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Использование пробной версии или приобретение подписки на Microsoft 365
+    - text: Пробное использование или приобретение Microsoft 365
       url: try-or-buy-microsoft-365.md
-    - text: Приобретение подписки из бесплатной пробной версии
+    - text: Приобретение подписок из бесплатной пробной версии
       url: buy-a-subscription-from-your-free-trial.md
     - text: Продление пробной версии
       url: extend-your-trial.md
-    - text: Приобретение доменного имени
+    - text: Приобретение имени домена
       url: ../admin/get-help-with-domains/buy-a-domain-name.md
