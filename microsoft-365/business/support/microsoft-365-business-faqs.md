@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 бизнес премиум, Microsoft 365, SMB, FAQ, часто задаваемые вопросы, ответы, бизнес
 ms.date: 06/08/2018
-ms.openlocfilehash: e456719d393dc911a6f28455e530c90e8ab9ff5a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 2ace43e0a3bab466d102740434b2a126fb8e099d
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635091"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43900697"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Ответы на часто задаваемые вопросы о Microsoft 365 бизнес премиум
 
@@ -48,7 +48,7 @@ Microsoft 365 - это интегрированное решение, объед
 * Оптимизированное развертывание ПК с Windows AutoPilot.
 
 **Другие права** 
-- Клиенты Microsoft 365 бизнес премиум также имеют доступ к возможностям активации виртуального рабочего стола Windows и общего компьютера Office. Прочтите [блог Microsoft 365 бизнес премиум](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog), чтобы узнать больше. См. также [Microsoft 365 для описания бизнес-услуг](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
+- Клиенты Microsoft 365 бизнес премиум также имеют доступ к возможностям активации виртуального рабочего стола Windows и общего компьютера Office. Прочтите [блог Microsoft 365 бизнес премиум](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog), чтобы узнать больше. [Описание службы Microsoft 365 для бизнеса](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
 
 ### <a name="who-should-consider-adopting-microsoft-365-business-premium"></a>Кто должен рассмотреть вопрос о принятии Microsoft 365 бизнес премиум? 
 Microsoft 365 бизнес премиум - это комплексное облачное решение для обеспечения безопасности, которое позволяет:  
@@ -85,7 +85,7 @@ Microsoft 365 бизнес премиум была разработана для
 ### <a name="what-is-windows-10-business"></a>Что такое Windows 10 для бизнеса? 
 Windows 10 для бизнеса- это набор облачных сервисов и возможностей управления устройствами, которые дополняют Windows 10 Pro и обеспечивают централизованное управление и контроль безопасности в Microsoft 365 бизнес премиум.
 
-Windows 10 для бизнеса также поставляется с некоторыми дополнительными функциями Microsoft Defender, такими как доступ к управляемым папкам и защита сети для веб-потоков. Он также включает в себя Windows AutoPilot, сервис, который оптимизирует развертывание новых компьютеров с Windows 10.
+В Windows 10 бизнес также включены некоторые функции защитника Майкрософт, такие как контролируемый доступ к папкам и защита сети для веб-угроз. Он также включает в себя Windows AutoPilot, сервис, который оптимизирует развертывание новых компьютеров с Windows 10.
 
 Если у вас есть устройства, лицензированные для Windows 7, 8 и 8.1 Professional, Microsoft 365 бизнес премиум предоставляет обновление до Windows 10 Pro, что является обязательным условием для развертывания Windows 10 для бизнеса.
 > [!IMPORTANT]
