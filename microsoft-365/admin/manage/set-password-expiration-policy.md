@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365. '
-ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dd925ee3a5d2aadb07dceed5a0e896e77921e2a1
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628056"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901014"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
 
@@ -67,7 +67,7 @@ ms.locfileid: "43628056"
     
 ## <a name="prevent-last-password-from-being-used-again"></a>Предотвращение повторного использования последнего пароля
 
-Если вы хотите запретить пользователям повторно использовать старые пароли, это можно сделать в Azure AD. См. статью [Установка политики срока действия паролей в организации](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide).
+Если вы хотите запретить пользователям повторно использовать старые пароли, это можно сделать в Azure AD. См. статью [Вести журнал паролей](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/enforce-password-history).
 
 Кроме того, если сотрудник использовал мобильное устройство для доступа к Microsoft 365, можно очистить это устройство, чтобы убедиться, что пароль больше не хранится на устройстве и не может быть использован повторно. Дополнительные сведения см. в статье [Очистка и блокирование мобильного устройства бывшего сотрудника](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device).
 
