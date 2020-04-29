@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как можно сбросить пароли с помощью средства самостоятельного сброса пароля.
-ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d9a1f97f9f6fc59b54f2f9bdce9c337c7d57b13
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617150"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919439"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
@@ -46,7 +46,7 @@ ms.locfileid: "43617150"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="let-people-reset-their-own-passwords"></a>Разрешить пользователям сбрасывать собственные пароли 
 
@@ -65,12 +65,12 @@ ms.locfileid: "43617150"
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **Параметры** \> **конфиденциальности безопасности &amp; ** .
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на **Settings** \>страницу **Параметры** \> **конфиденциальности безопасности параметров безопасности &amp; ** .
 
 ::: moniker-end
 
    
-2. В разделе **Разрешить пользователям сбрасывать собственные пароли**выберите ссылку для **центра администрирования Azure AD**. Вы получите Azure бесплатно!
+2. Выберите команду **самостоятельный сброс пароля**, а затем **перейдите к порталу Azure, чтобы включить функцию самостоятельного сброса пароля**. Вы получите Azure бесплатно!
   
 3. В области навигации слева выберите пункт **Пользователи** , а затем нажмите кнопку **Сброс пароля**.
   

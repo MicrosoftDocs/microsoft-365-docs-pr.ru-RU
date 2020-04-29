@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: 'Центр администрирования Microsoft 365: сведения о возможностях, добавленных в этом месяце.'
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: e0f7242ff144b5e4b42a6cb1713b2ad5df41f2f3
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907241"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919764"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Новые возможности центра администрирования Microsoft 365
 
@@ -49,6 +49,7 @@ ms.locfileid: "43907241"
 - [Новые возможности Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Новые возможности центра соответствия требованиям Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Новые возможности в центре администрирования Exchange](https://docs.microsoft.com/Exchange/whats-new)
 - [Обновления Office](https://docs.microsoft.com/OfficeUpdates/)
 
 ## <a name="march-2020"></a>Март 2020 г.
@@ -96,6 +97,7 @@ ms.locfileid: "43907241"
 ### <a name="videos-training-and-docs"></a>Видео, обучающие материалы и документы
 
 [Новые возможности microsoft 365 Web Series](https://go.microsoft.com/fwlink/p/?linkid=2118096): в этой статье мы выделим годовщину работы с Microsoft Teams и наплывим новые функции, в том числе улучшение качества звука в собраниях по сети, целевые коммуникации для руководителей задействование с помощью приложения "смены", Teams и взаимодействия с пользователем Skype и т. д.
+
 
 ## <a name="february-2020"></a>Февраль 2020 г.
 
@@ -259,7 +261,7 @@ ms.locfileid: "43907241"
 > [!IMPORTANT]
 > Теперь вы можете открыть свой центр администрирования SharePoint с помощью обычного URL-адреса:[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
-Дополнительные сведения см. [в статье новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+Для получения дополнительных сведений просмотрите [новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center).
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 

@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: af00a516-dd39-4eda-af3e-1eaf686c8dc9
 description: 'Узнайте, как изменить или добавить настраиваемую запись DNS в Майкрософт. '
-ms.openlocfilehash: 05b1024be658d26a758711177c4a89629e875445
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: b8f0cd859b73641a4f6e4c21c9e74fe0a25e2daa
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800039"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919461"
 ---
 # <a name="add-or-edit-custom-dns-records-in-microsoft"></a>Добавление и изменение настраиваемых записей DNS в Microsoft
 
@@ -35,7 +35,7 @@ ms.locfileid: "43800039"
 
 1. Войдите в центр администрирования Майкрософт по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.   
 
-2. Перейдите на страницу "**домены** **параметров**  > ".
+2. Перейдите на страницу " **домены** **установки** \> ".
 
 3. На странице **Домены** выберите домен. 
     
