@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Средство "Поиск контента" можно использовать в Центре соответствия требованиям в Office 365 или Microsoft 365 для поиска содержимого в почтовых ящиках, на сайтах SharePoint Online, в учетных записях OneDrive, Microsoft Teams, группах Microsoft 365, группах Yammer и беседах Skype для бизнеса. Чтобы сузить результаты поиска, можно использовать поиск по ключевым словам и условиям поиска. Затем можно предварительно просмотреть и экспортировать результаты поиска. Поиск контента также является эффективным средством поиска содержимого, связанного с запросом субъекта данных GDPR.
-ms.openlocfilehash: d601db20cbfc8c5ea5a4fcc64d181a99a7f8f940
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: 61e8b15af29bf02849a83f6a68bdd1c0accd7e8d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900743"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943178"
 ---
 # <a name="content-search"></a>Поиск контента
 
@@ -302,6 +302,8 @@ ms.locfileid: "43900743"
   В результатах поиска сводка по собраниям обозначается как **Собрание** в поле **Тип**, а сводка по звонкам обозначается как **Звонок**. Кроме того, беседы из канала Teams и чатов обозначаются как **Мгновенное сообщение** в поле **Тип**.
   
   ![Собрания Teams, звонки и чаты, обозначенные в поле "Тип"](../media/O365-ContentSearch-Teams-MessageKind.png)
+
+   Подробнее см. в статье [Запуск eDiscovery в Microsoft Teams для звонков и собраний](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-launches-ediscovery-for-calling-and-meetings/ba-p/210947).
 
 - Чтобы специально выполнить поиск контента Teams, можно использовать свойство электронной почты **Kind** или условие поиска **Тип сообщения**. 
   
