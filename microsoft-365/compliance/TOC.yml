@@ -165,6 +165,8 @@
           href: customer-key-availability-key-roll.md
         - name: Сведения о ключе доступности для ключа клиента
           href: customer-key-availability-key-understand.md
+    - name: Шифрование данных при передаче
+      href: office-365-encryption-for-data-in-transit.md
     - name: Шифрование электронной почты
       href: email-encryption.md
       items:
@@ -283,8 +285,8 @@
           href: automate-event-driven-retention.md
         - name: Управление жизненным циклом документов SharePoint
           href: auto-apply-retention-labels-scenario.md
-    - name: Удаление данных
-      href: disposition-reviews.md
+    - name: Ликвидация данных
+      href: disposition.md
     - name: Управление неактивными почтовыми ящиками
       items:
         - name: Общие сведения о неактивных почтовых ящиках
@@ -338,7 +340,7 @@
             - name: Автоматизация хранения на основе событий
               href: automate-event-driven-retention.md
         - name: Ликвидация
-          href: disposition-reviews.md
+          href: disposition.md
         - name: Дополнительные сведения об управлении записями
           items:
             - name: Посмотрите видео об управлении записями
@@ -1204,6 +1206,8 @@
               href: offering-lopd-spain.md
             - name: PASF (Соединенное Королевство)
               href: offering-pasf-uk.md
+            - name: Локализация персональных данных (Россия)
+              href: offering-russia-data-localization.md
         - name: Северная Америка
           items:
             - name: Закон Калифорнии о защите персональных данных потребителей (CCPA)
