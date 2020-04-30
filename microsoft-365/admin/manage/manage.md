@@ -13,14 +13,16 @@ ms.collection:
 layout: LandingPage
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 9f818d7a-78b5-4490-b36c-e3bfe328dfc3
 description: Быстрые ссылки на наиболее распространенные задачи администрирования в Microsoft 365.
-ms.openlocfilehash: 876652b932579718cb1d1313bca6b98bad2b92c1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 102466b142d35125ab85d31cdf313ea6e9d9ba7e
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628140"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942191"
 ---
 # <a name="manage"></a>Управление
 
@@ -163,7 +165,7 @@ ms.locfileid: "43628140"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>OneDrive;</h3>
+                        <h3>OneDrive</h3>
                             <p><a href="https://go.microsoft.com/fwlink/p/?LinkId=798319">Получение клиента синхронизации OneDrive и мобильных приложений</a></p>
                             <p><a href="https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49">Начало работы с новым клиентом синхронизации OneDrive в системе Windows</a></p>
                             <p><a href="https://docs.microsoft.com/onedrive/manage-sharing">Управление общим доступом в OneDrive и SharePoint</a></p>
