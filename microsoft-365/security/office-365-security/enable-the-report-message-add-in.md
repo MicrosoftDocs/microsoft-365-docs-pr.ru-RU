@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: Сведения о том, как включить надстройку сообщения отчета для Outlook и Outlook в Интернете для отдельных пользователей или всей Организации.
-ms.openlocfilehash: 0024e8c87ef6326c1df4547349631c4f1fd4cab8
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921580"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939479"
 ---
 # <a name="enable-the-report-message-add-in"></a>Включение надстройки "Пожаловаться на сообщение"
 
@@ -133,7 +133,7 @@ ms.locfileid: "43921580"
 
    ![Страница надстройки объявления](../../media/announce-add-in-page.png)
 
-### <a name="learn-how-to-use-the-report-message-add-in"></a>Узнайте, как использовать надстройку "сообщение отчета"
+## <a name="learn-how-to-use-the-report-message-add-in"></a>Узнайте, как использовать надстройку "сообщение отчета"
 
 Пользователи, которым назначена надстройка, увидят следующие значки:
 
@@ -147,7 +147,7 @@ ms.locfileid: "43921580"
 
 При уведомлении пользователей о надстройке сообщения отчета добавьте ссылку для [использования надстройки Report Message](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2).
 
-### <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Просмотр или изменение параметров для надстройки "сообщение отчета"
+## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>Просмотр или изменение параметров для надстройки "сообщение отчета"
 
 1. В центре администрирования Microsoft 365 перейдите на страницу " **службы &** надстроек" по адресу <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>.
 
@@ -158,3 +158,11 @@ ms.locfileid: "43921580"
 3. В появившемся всплывающем окне **изменение сообщения отчета** просмотрите и измените параметры в соответствии с требованиями Организации. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
    ![Параметры для надстройки сообщений отчета](../../media/EditReportMessageAddIn.png)
+
+## <a name="view-and-review-reported-messages"></a>Просмотр и просмотр сообщений, о которых получено сообщение
+
+Чтобы просмотреть сообщения, отправляемые пользователями в корпорацию Майкрософт, выполните следующие действия.
+
+- Используйте портал отправки администратором. Дополнительную информацию можно узнать [в статье Просмотр отправок пользователей в корпорацию Майкрософт](admin-submission.md#view-user-submissions-to-microsoft).
+
+- Создайте правило для почтового процесса (также называемое правилом транспорта), чтобы отправлять копии сообщений, отправленных в отчет. Инструкции можно найти в статье [Использование правил для обработки почтового ящика для просмотра отчетов о пользователях в Майкрософт](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).

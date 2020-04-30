@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: Частично индексированные элементы (Кроме того, вызывают неиндексированные элементы) — это элементы почтовых ящиков Exchange и документы на сайтах SharePoint и OneDrive, по которым не удалось полностью индексироваться для поиска контента. В этой статье рассказывается, почему элементы невозможно индексировать для поиска и возвращаются как частично индексированные элементы, Идентифицируйте ошибки поиска для частично индексированных элементов и используйте скрипт PowerShell для определения экспозиции Организации для частично индексированных элементов электронной почты.
-ms.openlocfilehash: 64b052e5c04019d5937c3763094529ae5c4c9e42
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0053ec5b03f5d32af1a39be94474c05f74ec3234
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637467"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942132"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>Исследование частично индексированных элементов в eDiscovery
 
@@ -166,7 +168,7 @@ ms.locfileid: "43637467"
   
 ```
 
-2. [Подключитесь к Центру безопасности и соответствия требованиям PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627084).
+2. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://go.microsoft.com/fwlink/p/?linkid=627084).
     
 3. В PowerShell центра безопасности & соответствия требованиям перейдите в папку, в которой сохранен сценарий на шаге 1, а затем запустите сценарий. Например:
 

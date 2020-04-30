@@ -2,8 +2,8 @@
 title: Национальный идентификационный номер ЕС
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС по национальному идентификационному номеру. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: f001d23ec3d6d8a2b3aa9575d4a9d602c4315e13
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4dac77f129b45f457a82e709cb5a3b846a95cdf4
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41592240"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938765"
 ---
 # <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
 
@@ -211,7 +211,7 @@ national identification number
   
 ταυτοτητασ
   
-## <a name="czech-republic"></a>Чешская Республика
+## <a name="czech-republic"></a>Чехия
 
 Для получения дополнительных сведений обратитесь к разделу "Чешский Национальный идентификационный номер", в котором [ищутся типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md).
   
@@ -362,7 +362,7 @@ identification number
   
 сземéлязоносíтó игазолвáни
   
-## <a name="ireland"></a>Ireland (Ирландия)
+## <a name="ireland"></a>Ирландия
 
 ### <a name="format"></a>Format
 

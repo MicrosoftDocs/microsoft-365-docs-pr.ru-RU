@@ -10,14 +10,16 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: Администраторы могут настроить соединитель для импорта сторонних данных из источников данных, таких как страницы Facebook бизнес, Twitter, LinkedIn Company и Instant Bloomberg. Это позволяет архивировать данные из сторонних источников данных в Microsoft 365, чтобы можно было использовать такие функции обеспечения соответствия, как юридическая служба, поиск контента и политики хранения, для управления данными сторонних организаций.
-ms.openlocfilehash: 5c8bb4c1330af0f9c10dd93f9cedd47b3d3b34b0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 21023e380e4065f40edd4c3dea3f4c461d743f04
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637129"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943238"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data"></a>Настройка соединителя для архивации данных Facebook
 

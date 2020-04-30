@@ -9,14 +9,16 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлет Search – Mailbox и Advanced eDiscovery версии 1.0 также удаляются за один и тот же период времени.
-ms.openlocfilehash: 23ff43dfc2131073425deb947aee41662e30616a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 48dbbd86071f8b07fa3dbf3a699f0d7e085fd50b
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635573"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943348"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
@@ -180,7 +182,7 @@ ms.locfileid: "43635573"
 
 - Office 365 Germany
 
-### <a name="timeline"></a>Сроки
+### <a name="timeline"></a>Временная шкала
 
 - 1 июля 2020 г.: вы не сможете использовать командлет **New-MailboxSearch** для создания новых поисков на месте и удержания на месте, но вы по-прежнему можете использовать командлеты для запуска, изменения и удаления существующих поисков и удержания на вашем собственном риске. Служба поддержки Майкрософт больше не будет предоставлять помощь для таких типов поиска и удержаний.
 
@@ -220,7 +222,7 @@ ms.locfileid: "43635573"
 </tr>
 <tr class="odd">
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
-<td>Нет.</td>
+<td>Нет</td>
 <td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Ниже приведены вопросы и ответы по альтернативным решениям.</td>
 </tr>
   <tr class=even>
@@ -261,7 +263,7 @@ ms.locfileid: "43635573"
 
 - Office 365 Germany
 
-### <a name="timeline"></a>Сроки
+### <a name="timeline"></a>Временная шкала
 
 -  1 июля 2020 г.: командлет **Search — Mailbox** больше не будет доступен, и служба поддержки Майкрософт больше не будет предоставлять помощь.
 
@@ -323,7 +325,7 @@ ms.locfileid: "43635573"
 
 - Office 365 Germany
 
-### <a name="timeline"></a>Сроки
+### <a name="timeline"></a>Временная шкала
 
 - 1 июля 2020: операции GetSearchableMailboxes, SearchMailboxes, SetHoldOnMailboxes и GetHoldOnMailboxes больше не будут доступны, и служба поддержки Майкрософт больше не будет предоставлять помощь.
 
@@ -357,7 +359,7 @@ Advanced eDiscovery 1.0, которая является версией расш
 
 - Office 365 Germany
 
-### <a name="timeline"></a>Сроки
+### <a name="timeline"></a>Временная шкала
 
 - 1 июля 2020 г.: вы не сможете создавать новые расширенные варианты обнаружения электронных данных версии 1.0.
 

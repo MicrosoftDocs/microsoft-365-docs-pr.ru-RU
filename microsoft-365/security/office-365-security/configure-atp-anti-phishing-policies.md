@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как создавать, изменять и удалять расширенные политики защиты от фишинга, доступные в организациях с Office 365 Advanced Threat protection (ATP).
-ms.openlocfilehash: 358abc2835e8d1fba39d72021f03b75775528bcf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1a7d3b9d401d8bb5bec08d7b5d58546bbd382aa
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638468"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949263"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Настройка политик защиты от фишинга в ATP
 
@@ -29,9 +29,9 @@ ms.locfileid: "43638468"
 
 Политики защиты от фишинга ATP можно настроить в центре безопасности & соответствия требованиям или в Exchange Online PowerShell.
 
-Сведения о настройке более ограниченной встроенной политики защиты от фишинга, доступной в организациях Exchange Online Protection (то есть в организациях Office 365 без пакета ATP), можно узнать [в статье Настройка защиты от фишинга по умолчанию в EOP](configure-anti-phishing-policies-eop.md).
+Дополнительные сведения о настройке политик защиты от фишинга, доступных в организациях Exchange Online Protection (то есть в организациях Office 365 без пакета ATP), можно узнать в статье [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md).
 
-## <a name="atp-anti-phishing-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell"></a>Политики защиты от фишинга ATP в центре безопасности & безопасности Office 365 и Exchange Online PowerShell
+## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>Политики защиты от фишинга ATP в центре безопасности & соответствия требованиям VS Exchange Online PowerShell
 
 Основные элементы политики защиты от фишинга ATP:
 
@@ -69,11 +69,11 @@ ms.locfileid: "43638468"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **защиты от фишинга ATP** , используйте <https://protection.office.com/antiphishing>.
+- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **защиты от фишинга ATP** , используйте <https://protection.office.com/antiphishing>.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
-- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Для добавления, изменения и удаления политик защиты от фишинга необходимо быть членом группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политикам защиты от фишинга необходимо быть участником группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в центре безопасности & соответствия требованиям приведены в разделе [разрешения в центре безопасности &](permissions-in-the-security-and-compliance-center.md).
+- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Для добавления, изменения и удаления политик защиты от фишинга необходимо быть членом группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политикам защиты от фишинга необходимо быть участником группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 - Рекомендуемые параметры политик защиты от фишинга ATP приведены в статье [Параметры политики защиты от фишинга в Office ATP](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings).
 
@@ -203,7 +203,7 @@ ms.locfileid: "43638468"
      - **Показывать подсказку для олицетворенных доменов**: значение по умолчанию: **отключено**. Чтобы включить его, установите переключатель в значение **вкл**.
      - **Показывать подсказку для нестандартных символов**: значение по умолчанию: **отключено**. Чтобы включить его, установите переключатель в значение **вкл**.
 
-     По завершении нажмите кнопку **Сохранить**.
+     Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
    - **Аналитика почтовых ящиков**:
 
@@ -244,7 +244,7 @@ ms.locfileid: "43638468"
 
 6. **Подделка**: нажмите кнопку **изменить** , чтобы включить или отключить логику операций подделки, Отключить идентификацию отправителей, не прошедших проверку подлинности, в Outlook, а также настроить действие, применяемое к сообщениям от заблокированных поддельных отправителей. Дополнительные сведения см в разделе [Параметры подделки в политиках защиты от фишинга](set-up-anti-phishing-policies.md#spoof-settings).
 
-   Обратите внимание, что эти параметры идентичны параметрам, доступным в политике защиты от фишинга по умолчанию в EOP.
+   Обратите внимание, что эти же параметры также доступны в политиках защиты от фишинга в EOP.
 
    - **Параметры фильтра подделки**: значение по умолчанию — **включено**, и мы рекомендуем оставить его. Чтобы отключить его, установите переключатель в значение **выкл**. Дополнительные сведения см. в статье [Настройка аналитики подделки в Office 365](learn-about-spoof-intelligence.md).
 
@@ -377,7 +377,7 @@ ms.locfileid: "43638468"
 
 2. Создайте правило защиты от фишинга, которое определяет политику защиты от фишинга, к которой применяется правило.
 
- **Примечания**:
+ **Примечания.**
 
 - Вы можете создать новое правило защиты от фишинга и назначить для него существующую, несвязанную политику защиты от фишинга. Правило защиты от фишинга не может быть связано с несколькими политиками защиты от фишинга.
 
@@ -408,7 +408,7 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Addit
 - Включает советы по безопасности.
 
 ```powershell
-New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Default monitoring policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
+New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [New – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishPolicy).

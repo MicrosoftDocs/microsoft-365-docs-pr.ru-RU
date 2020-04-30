@@ -15,16 +15,16 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Сведения о том, как закрыть учетную запись с помощью корпорации Майкрософт.
-ms.openlocfilehash: 3a193aea92ff384d53ce320a98cd9043d990b678
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080386"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942857"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
-При закрытии учетной записи Майкрософт все сведения, связанные с вашей учетной записью, будут удалены. Эти сведения включают подписки, лицензии, способы оплаты, пользователей и данные пользователя. Прежде чем приступать к этому процессу, обязательно выполните резервное копирование всех данных, которые необходимо сохранить.
+Когда вы закрываете свою учетную запись в Microsoft, вся информация, связанная с вашей учетной записью, удаляется. Эта информация включает в себя подписки, лицензии, способы оплаты, пользователей и пользовательские данные. Прежде чем приступать к этому процессу, обязательно выполните резервное копирование всех данных, которые необходимо сохранить.
 
 ## <a name="step-1-delete-users"></a>Шаг 1: удаление пользователей
 
@@ -72,7 +72,7 @@ ms.locfileid: "42080386"
 
 3. На странице многофакторная проверка подлинности отключите все учетные записи, кроме учетной записи глобального администратора, которую вы используете в текущий момент.
 
-Вы также можете <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#use-powershell">Отключить многофакторную проверку подлинности для нескольких пользователей с помощью PowerShell</a>.
+Вы также можете <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">Отключить многофакторную проверку подлинности для нескольких пользователей с помощью PowerShell</a>.
 
 ## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>Шаг 5: Удаление каталога в Azure Active Directory
 

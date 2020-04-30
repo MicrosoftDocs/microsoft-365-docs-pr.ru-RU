@@ -10,15 +10,17 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: Отредактируйте реестр Windows на локальном компьютере, чтобы отключить отчеты при экспорте результатов поиска контента из центра безопасности & соответствия требованиям в Office 365. Отключение этих отчетов может ускорить загрузку и сэкономить место на диске.
-ms.openlocfilehash: 3bd5fadda750c709c463fbc4d84668b43e0d3a10
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 89ea5e073a2c33d5f04fe3eef74b5b26510eef2f
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633454"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943012"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>Отключение отчетов при экспорте результатов поиска контента
 

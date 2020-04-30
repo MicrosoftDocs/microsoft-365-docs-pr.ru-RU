@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу eNomCentral для Майкрософт.
-ms.openlocfilehash: 2a1d32f0152b0c8a38b1a9e1c3fc46237708480d
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: b43261c601b953eef7f98170f04b51d8dcf97d8d
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919497"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939275"
 ---
 # <a name="create-dns-records-at-enomcentral-for-microsoft"></a>Создание записей DNS на сайте eNomCentral для Майкрософт
 
@@ -34,8 +34,7 @@ ms.locfileid: "43919497"
 Если ваш поставщик услуг размещения DNS  eNomCentral, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса online и других служб.
   
 Когда вы добавите эти записи на сайте eNomCentral, ваш домен будет настроен для работы со службами Майкрософт.
-  
-Дополнительные сведения о веб-хостинге и DNS для веб-сайтов при работе с продуктами корпорации Майкрософт см. в статье [Использование общедоступного веб-сайта при работе с продуктами корпорации Майкрософт](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9).
+
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
@@ -64,7 +63,7 @@ ms.locfileid: "43919497"
   
 4. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-    \(В раскрывающемся списке выберите значение **тип записи** .\) 
+    В раскрывающемся списке выберите значение **тип записи** .
     
     ||||
     |:-----|:-----|:-----|
@@ -165,7 +164,7 @@ ms.locfileid: "43919497"
   
 5. В поля для шести новых записей введите (или скопируйте и вставьте) следующие значения.
     
-        (Choose the **Record Type** value from the drop-down list.) 
+В раскрывающемся списке выберите значение **тип записи** .
         
     |**Host Name**|**Record Type**|**Address (Адрес)**|
     |:-----|:-----|:-----|
@@ -175,13 +174,13 @@ ms.locfileid: "43919497"
     |enterpriseregistration  <br/> |CNAME (Alias)  <br/> |enterpriseregistration.windows.net.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
     |enterpriseenrollment  <br/> |CNAME (Alias)  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
    
-    ![eNom Central — BP — configure – 3-2](../../media/672371c0-51af-44ba-bb18-80286b7676c1.png)
+    ![eNom-BP-Configure-3-2](../../media/672371c0-51af-44ba-bb18-80286b7676c1.png)
   
 6. Нажмите кнопку **сохранить**.
     
     ![eNom Central — BP — configure – 3-3](../../media/027b57ce-5699-408b-993b-e46a9ac31090.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -203,7 +202,7 @@ ms.locfileid: "43919497"
   
 4. В поля для новой записи введите (или скопируйте и вставьте) значения из приведенной ниже таблицы.
     
-    (Choose the **Record Type** value from the drop-down list.) 
+В раскрывающемся списке выберите значение **тип записи** .
     
     |**Host Name**|**Record Type**|**Address** (Адрес)|
     |:-----|:-----|:-----|

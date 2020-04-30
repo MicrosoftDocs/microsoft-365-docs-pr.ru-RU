@@ -13,15 +13,17 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: Администраторы могут импортировать сторонние данные с платформ социальных сетей, платформы обмена мгновенными сообщениями и платформы совместной работы с документами в почтовые ящики в организации Microsoft 365. Это позволяет архивировать данные из Facebook, Twitter и других сторонних источников данных в Microsoft 365. Затем вы можете использовать и применять функции обеспечения соответствия требованиям Microsoft 365 (например, хранение на месте, обнаружение электронных данных, Архивация на месте и политики хранения) для сторонних данных.
-ms.openlocfilehash: 72afb48f74a30bac2904e857a33487a83eba48cd
-ms.sourcegitcommit: f9b5eca20e025acc36635cbd1786ff3407295857
+ms.openlocfilehash: e9276a845a29f5c047e303e9e04051ec9f77da1e
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43027659"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943188"
 ---
 # <a name="archive-third-party-data"></a>Архивация сторонних данных
 

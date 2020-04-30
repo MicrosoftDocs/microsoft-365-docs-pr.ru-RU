@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: Узнайте, как настроить реестр Windows для увеличения пропускной способности данных при загрузке результатов поиска и поиске данных из центра безопасности & соответствия требованиям и расширенного обнаружения электронных данных.
-ms.openlocfilehash: b19de5728917e6eb6054e6a6be76d9b678aa1430
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a5e08f2fe7d8840cfe8f176080c90b8b40d16af6
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637921"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943358"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results"></a>Увеличение скорости скачивания при экспорте результатов поиска обнаружения электронных данных
 

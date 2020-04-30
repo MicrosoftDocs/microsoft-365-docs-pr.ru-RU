@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: Используйте CSV-файл Results. CSV или неиндексированные элементы из существующего поиска контента, чтобы создать поиск списка ИДЕНТИФИКАТОРов, который возвращает определенные сообщения электронной почты. Поиск в списке ИДЕНТИФИКАТОРов обычно используется для возврата частично индексированных элементов почтового ящика.
-ms.openlocfilehash: f37715858e6785e75343f5b11f73332de08b5d3b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f3b815f2268121e9adc47de2c24a4e23b44adce5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630706"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942892"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>Подготовка CSV-файла для поиска контента по списку идентификаторов
 
@@ -29,7 +31,7 @@ ms.locfileid: "43630706"
 
 1. Создание и запуск нового или интерактивного поиска контента в центре безопасности & соответствия требованиям.
 
-2. Экспорт результатов поиска контента или экспорт отчета о поиске контента. Дополнительные сведения см. в указанных ниже статьях.
+2. Экспорт результатов поиска контента или экспорт отчета о поиске контента. Дополнительные сведения см. в статье:
 
     - [Экспорт результатов поиска контента](export-search-results.md)
 

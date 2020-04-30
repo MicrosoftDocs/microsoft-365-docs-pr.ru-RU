@@ -12,17 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
+- MET150
 - BCS160
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
 description: Сведения об оповещениях, которые можно настроить для обеспечения безопасности в Office 365.
-ms.openlocfilehash: b8fe746ef18ade5f8e35d5a51ab132377e813915
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 24e36b6867600985a9ca0f9cb3cbafc5a8c6029e
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634620"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943559"
 ---
 # <a name="alerts-in-the-security-amp-compliance-center"></a>Оповещения в центре безопасности &amp; и соответствия требованиям
 
@@ -36,13 +37,13 @@ ms.locfileid: "43634620"
   
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите с помощью рабочей или учебной учетной записи. 
+2. Выполните вход с помощью рабочей или учебной учетной записи. 
     
 3. В левой области щелкните **оповещения** , чтобы увидеть функции оповещений. 
     
  **Чтобы перейти в центр соответствия &amp; требованиям безопасности с помощью средства запуска приложений:**
   
-1. Войдите с помощью рабочей или учебной учетной записи. 
+1. Выполните вход с помощью учетной записи вашей организации или учебного заведения. 
     
 2. Щелкните средство запуска приложений в левом верхнем углу, а затем выберите **соответствие требованиям &amp; безопасности**.
     

@@ -12,14 +12,15 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - SPO160
+- MET150
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: Вашей организации может потребоваться сохранять документы в течение определенного периода времени согласно требованиям соответствия, законодательным или деловым нормам. Тем не менее если сохранять документы дольше, чем требуется, организация может быть подвержена ненужному юридическому риску. С помощью политики удаления документов вы можете снизить риск, удалив документы на сайте по истечении определенного периода времени, например, вы можете удалять документы в OneDrive для бизнеса сайтов пользователей через пять лет после создания документов.
-ms.openlocfilehash: 55d4616b4185ebdbbf0f132803d1b7414eaabac8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fba7af2c58b373e51aed93ce9a353a45528bb9f9
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633048"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943002"
 ---
 # <a name="overview-of-document-deletion-policies"></a>Обзор политик удаления документов
 

@@ -2,22 +2,22 @@
 title: Идентификационный номер налогоплательщика ЕС
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
-ms.date: 8/17/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации для идентификационного номера ЕС. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: 5467db921bd518eeeab18a36ee2de473f9017358
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5f779974266045d7099b599700c7168162d9d81e
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41591020"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938675"
 ---
 # <a name="eu-tax-identification-number"></a>Идентификационный номер налогоплательщика ЕС
 
@@ -347,7 +347,7 @@ tax id
   
 κωδικός φορολογικού μητρώου
   
-## <a name="czech-republic"></a>Чешская Республика
+## <a name="czech-republic"></a>Чехия
 
 ### <a name="format"></a>Format
 
@@ -895,7 +895,7 @@ tax id
   
 адóхатóсáг сзáм
   
-## <a name="ireland"></a>Ireland (Ирландия)
+## <a name="ireland"></a>Ирландия
 
 ### <a name="format"></a>Format
 

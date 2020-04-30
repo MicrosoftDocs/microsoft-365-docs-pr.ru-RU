@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Сведения о том, как читать и изучать продукты Майкрософт для бизнеса.
 keywords: счета выставления счетов, сведения об организации, счета
-ms.openlocfilehash: 3028b0e8aa952b932e7d56a5ecceaad5931dee30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b16af7c6ef39743aa8d0a4e927786f64f47c4cd
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634984"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942881"
 ---
 # <a name="understand-your-invoice"></a>Расшифровка счета
 
 В счете представлена сводная информация о расходах и инструкциях по оплате. Вы можете [Просмотреть свою электронную накладную](#view-your-online-invoice) в центре администрирования Microsoft 365. Вы также можете скачать его в формате переносимых документов (. PDF) для отправки по электронной почте.
 
-Если у вас есть только подписка на Microsoft 365, ознакомьтесь со статьей [Просмотр счета для microsoft 365 для бизнеса](view-your-bill-or-invoice.md).
+Если у вас есть только подписка на Microsoft 365, ознакомьтесь со статьей [сведения о счете для microsoft 365 для бизнеса](understand-your-invoice2.md).
 
 ## <a name="understand-the-invoice-header"></a>Общие сведения о заголовке счета
 
@@ -78,7 +78,7 @@ ms.locfileid: "43634984"
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-Если у вас есть расходы на поставку Azure по счету, о которых вы хотели бы больше узнать, ознакомьтесь со статьей общие сведения о [соглашении о клиентах корпорации Майкрософт](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill).
+Если у вас есть дополнительные сведения о накладной за Azure, ознакомьтесь со статьей [Проверка счета в соглашении о клиентах корпорации Майкрософт](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill).
 
 ## <a name="understand-the-last-invoice-page"></a>Знакомство со страницей последней накладной
 

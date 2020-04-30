@@ -9,16 +9,18 @@ audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - M365-security-compliance
 - remotework
 description: Защита бизнес-сообщений и данных от угроз кибератак, в том числе от атак, фишинга и вредоносных вложений.
-ms.openlocfilehash: f2d76fd92ac6d439fd6400a0478028c99ae935eb
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.openlocfilehash: 04f59d4f87bda9460930b54818d2ab43933d11e5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43808843"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943547"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>12 самых популярных задач по обеспечению безопасности Teams для поддержки работы из дома
 
@@ -33,7 +35,7 @@ ms.locfileid: "43808843"
 - Microsoft 365 E3 включает Enterprise Mobility + Security (EMS) E3 и Azure AD P1.
 - Microsoft 365, в том числе EMS и Azure AD P2
   
-||**Task**| Все планы Office 365 для предприятий|**Microsoft 365 E3** |**Microsoft 365 E5**|
+||**Задача**| Все планы Office 365 для предприятий|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1,1      |[Включение многофакторной проверки подлинности Azure (MFA)](#1-enable-azure-multi-factor-authentication-mfa)   |   ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |2     | [Защита от угроз](#2-protect-against-threats) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -45,7 +47,7 @@ ms.locfileid: "43808843"
 |8       |  [Регистрация компьютеров в управлении устройствами и потребовать соответствия требованиям компьютеров](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [Оптимизация сети для подключения к облаку](#9-optimize-your-network-for-cloud-connectivity)  |  ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [Обучение пользователей](#10-train-users) |    ![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11  |[Начало работы с Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Начало работы с Microsoft Cloud App Security](#11-get-started-with-microsoft-cloud-app-security) |  |  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[Отслеживание угроз и выполнение действий](#12-monitor-for-threats-and-take-action) |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![Включена](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 

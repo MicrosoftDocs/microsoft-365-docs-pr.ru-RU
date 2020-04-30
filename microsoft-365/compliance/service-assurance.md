@@ -13,14 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - BCS160
+- MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Скачайте сторонние средства аудита, Узнайте, как корпорация Майкрософт обеспечивает безопасность данных клиентов, и Узнайте, как вы можете соблюдать ISO, HIPAA, ФИНРА и FedRAMP при использовании Office 365.
-ms.openlocfilehash: e5d33f063d9e375c12346d245067be2b2b41de77
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9a9198d8206b2693f0634355c926856c1327d9d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631286"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943592"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Гарантия обслуживания в центре безопасности & соответствия требованиям
 
@@ -57,7 +58,7 @@ ms.locfileid: "43631286"
   
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите с помощью рабочей или учебной учетной записи. 
+2. Выполните вход с помощью рабочей или учебной учетной записи. 
     
 3. В левой области выберите пункт **гарантия обслуживания**. Затем [выберите параметры отрасли и региональных стандартов](service-assurance.md#Chooseyourindustryregional) , а также [других пользователей или групп гарантии на обслуживание](service-assurance.md#addother).
     

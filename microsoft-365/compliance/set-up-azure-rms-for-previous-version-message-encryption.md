@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: Предыдущая версия шифрования сообщений Office 365 зависит от Microsoft Azure Rights Management (ранее известной как Windows Azure Active Directory Rights Management).
-ms.openlocfilehash: 3d98fff1987548292699972cedb4e3aa34d20b13
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 234115a76116fe9033e8da7868f846658d0d3eee
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635481"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943268"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-message-encryption"></a>Настройка управления правами Azure для предыдущей версии шифрования сообщений
 
 В этом разделе описываются действия, которые необходимо выполнить, чтобы активировать и затем настроить Azure Rights Management (RMS), часть Azure Information Protection для использования с предыдущей версией Office 365 Message encryption (OME).
 
 ## <a name="this-article-only-applies-to-the-previous-version-of-ome"></a>Эта статья относится только к предыдущей версии OME
+
 Если вы еще не переместили свою организацию в новые возможности OME, но вы уже развернули OME, то сведения, приведенные в этой статье, применимы к вашей организации. Корпорация Майкрософт рекомендует создавать план для перехода на новые возможности OME, как только она будет приемлема для вашей организации. Инструкции приведены в разделе [Настройка новых возможностей шифрования сообщений Office 365](set-up-new-message-encryption-capabilities.md). Если вы хотите узнать больше о том, как новые возможности работают первыми, ознакомьтесь со статьей [Office 365 Message Encryption](ome.md). В оставшейся части этой статьи рассматривается поведение OME перед выпуском новых возможностей OME.
 
 ## <a name="prerequisites-for-using-the-previous-version-of-office-365-message-encryption"></a>Необходимые условия для использования предыдущей версии Office 365 шифрования сообщений
@@ -35,10 +36,6 @@ ms.locfileid: "43635481"
 Шифрование сообщений Office 365 (OME), в том числе IRM, зависит от управления правами Azure (Azure RMS). Azure RMS — это технология защиты, используемая службой Azure Information Protection. Чтобы использовать OME, ваша организация должна включать подписку на Exchange Online или Exchange Online Protection, которая, в свою очередь, включает подписку на Azure Rights Management.
   
 - Если вы не знаете, что включает подписка, ознакомьтесь со статьей описание службы Exchange Online для [политики сообщений, восстановления и соответствия требованиям](https://technet.microsoft.com/library/exchange-online-message-policy-recovery-and-compliance.aspx).
-
-- Если у вас нет подписки Azure RMS для Exchange Online или Exchange Online Protection, вы должны приобрести подписку и активировать ее первым.
-
-    Сведения о приобретении подписки на Azure Rights Management можно найти в статье [Управление правами Azure](https://portal.office.com/Signup/MainSignUp15.aspx?&amp;OfferId=9DF77AF9-DAAE-4d51-8E0E-EEEADD4866B8&amp;dl=RIGHTSMANAGEMENT). В следующем разделе приводятся сведения об активации службы управления правами Azure.
 
 - Если у вас есть служба управления правами Azure, но она не настроена для Exchange Online или Exchange Online Protection, в этой статье описывается активация службы управления правами Azure, а затем описывается лучший способ настройки OME для работы с управлением правами Azure.
 
@@ -68,46 +65,46 @@ TPD — это XML-файл, который содержит сведения о
 |Азия  <br/> |https://sp-rms.ap.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Южная Америка  <br/> |https://sp-rms.sa.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
 |Office 365 для государственных организаций (облако сообщества госучреждений)  <br/> Это расположение для общего доступа к ключам RMS зарезервировано для клиентов, которые приобрели Office 365 для государственных учреждений.  <br/> |https://sp-rms.govus.aadrm.com/TenantManagement/ServicePartner.svc  <br/> |
-   
+  
 3. Настройте расположение для общего доступа к ключам, выполнив командлет [Set – IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.160%29.aspx) следующим образом: 
-    
-  ```powershell
-  Set-IRMConfiguration -RMSOnlineKeySharingLocation "<RMSKeySharingURL >"
-  ```
 
-    Например, чтобы настроить расположение для общего доступа к ключам, если ваша организация находится в Северной Америке:
+   ```powershell
+   Set-IRMConfiguration -RMSOnlineKeySharingLocation "<RMSKeySharingURL >"
+   ```
+  
+   Например, чтобы настроить расположение для общего доступа к ключам, если ваша организация находится в Северной Америке:
 
-  ```powershell
-  Set-IRMConfiguration -RMSOnlineKeySharingLocation "https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc"
-  ```
+   ```powershell
+   Set-IRMConfiguration -RMSOnlineKeySharingLocation "https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc"
+   ```
 
 4. Выполните командлет [Import – RMSTrustedPublishingDomain](https://technet.microsoft.com/library/jj200724%28v=exchg.150%29.aspx) с параметром – рмсонлине, чтобы импортировать TPD из службы управления правами Azure: 
 
-  ```powershell
-  Import-RMSTrustedPublishingDomain -RMSOnline -Name "<TPDName> "
-  ```
+   ```powershell
+   Import-RMSTrustedPublishingDomain -RMSOnline -Name "<TPDName> "
+   ```
 
-    Где *тпднаме* — это имя, которое вы хотите использовать для TPD. Например, "Contoso Северная Америка TPD". 
+   Где *тпднаме* — это имя, которое вы хотите использовать для TPD. Например, "Contoso Северная Америка TPD". 
 
-5. Чтобы убедиться, что ваша организация успешно настроена для использования службы управления правами Azure, запустите командлет [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.160%29.aspx) с параметром-рмсонлине следующим образом: 
+5. Чтобы убедиться, что ваша организация успешно настроена для использования службы управления правами Azure, запустите командлет [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.160%29.aspx) с параметром-рмсонлине следующим образом:
 
-  ```powershell
-  Test-IRMConfiguration -RMSOnline
-  ```
+   ```powershell
+   Test-IRMConfiguration -RMSOnline
+   ```
 
-    Помимо прочего, этот командлет проверяет возможность подключения к службе управления правами Azure, загружает TPD и проверяет его допустимость.
+   Помимо прочего, этот командлет проверяет возможность подключения к службе управления правами Azure, загружает TPD и проверяет его допустимость.
 
 6. Выполните командлет [Set-IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) , как показано ниже, чтобы отключить доступ к шаблонам управления правами Azure в Outlook в Интернете и Outlook: 
 
-  ```powershell
-  Set-IRMConfiguration -ClientAccessServerEnabled $false
-  ```
+   ```powershell
+   Set-IRMConfiguration -ClientAccessServerEnabled $false
+   ```
 
-7. Выполните командлет [Set – IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) , как показано ниже, чтобы включить управление правами Azure для облачной организации электронной почты и настроить его для использования службы управления правами Azure для шифрования сообщений Office 365: 
+7. Выполните командлет [Set – IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) , как показано ниже, чтобы включить управление правами Azure для облачной организации электронной почты и настроить его для использования службы управления правами Azure для шифрования сообщений Office 365:
 
-  ```powershell
-  Set-IRMConfiguration -InternalLicensingEnabled $true
-  ```
+   ```powershell
+   Set-IRMConfiguration -InternalLicensingEnabled $true
+   ```
 
 8. Чтобы убедиться, что вы успешно импортировали TPD и включили управление правами Azure, используйте командлет Test-IRMConfiguration для проверки функции управления правами Azure. Дополнительные сведения: "Пример 1" в разделе [Test-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.150%29.aspx).
 

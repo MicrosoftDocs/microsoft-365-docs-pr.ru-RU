@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: ITPro
 ms.prod: Microsoft-365-enterprise
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 59e2c36e87232efcda29f9d5abe41b4c37a17a62
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 57faa73d6c3cb5bbe92c1cea4fab7dd810abbeec
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071272"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943328"
 ---
 # <a name="microsoft-compliance-offerings"></a>Предложения Майкрософт для соответствия требованиям
 
@@ -49,7 +49,7 @@ ms.locfileid: "42071272"
                         <p><a href="offering-ISO-27701.md">ISO 27701</a></p>
                         <p><a href="offering-ISO-9001.md">ISO 9001</a></p>
                         <p><a href="offering-soc.md">SOC</a></p>
-                        <p><a href="offering-wcag-2-1.md">НОРМАТИВ</a></p>
+                        <p><a href="offering-wcag-2-1.md">WCAG</a></p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ ms.locfileid: "42071272"
                         <p><a href="offering-pci-dss.md">PCI DSS</a></p>
                         <p><a href="offering-rbi-irdai-india.md">RBI + IRDAI (Индия)</a></p>
                         <p><a href="offering-sec-17a-4.md">SEC 17a-4</a></p>
-                        <p><a href="offering-sec-reg-sci.md">С регулированием SCI</a></p>
+                        <p><a href="offering-sec-reg-sci.md">SEC Regulation SCI</a></p>
                         <p><a href="offering-shared-assessments.md">Общие оценки</a></p>
                         <p><a href="offering-sox.md">SOX</a></p>
                         <p><a href="offering-tisax-germany.md">TISAX (Германия)</a></p>
@@ -182,6 +182,7 @@ ms.locfileid: "42071272"
                         <p><a href="offering-nz-cc-framework-nz.md">Платформа NZ CC (Новая Зеландия)</a></p>
                         <p><a href="offering-pasf-uk.md">PASF (Соединенное королевство)</a></p>
                         <p><a href="offering-pdpa-argentina.md">PDPA (Аргентина)</a></p>
+                        <p><a href="offering-russia-data-localization.md">Локализация персональных данных (Россия)</a></p>
                         <p><a href="https://aka.ms/TRUCS-Compliance">TRUCS (Китай)</a></p>
                     </div>
                 </div>

@@ -2,8 +2,8 @@
 title: Номер водительского удостоверения для драйвера ЕС
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации номера лицензии для драйвера ЕС. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: c54fcefcda08d0bc2ec500d25c74bb5789e27398
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2e75a8724dc91ef2d895c977fdd5fcc21e7a1da4
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41592660"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938833"
 ---
 # <a name="eu-drivers-license-number"></a>Номер водительского удостоверения для драйвера ЕС
 
@@ -222,7 +222,7 @@ ms.locfileid: "41592660"
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> άδεια οδήγησης  <br/> |
    
-## <a name="czech-republic"></a>Чешская Республика
+## <a name="czech-republic"></a>Чехия
 
 ### <a name="format"></a>Format
 
@@ -486,7 +486,7 @@ ms.locfileid: "41592660"
 |:-----|
 |DL #  <br/> driver license  <br/> номер водительского удостоверения  <br/> Лицензия на драйвер  <br/> Drivers лик.  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> номер водительского удостоверения  <br/> номер лицензии на драйвер  <br/> номер водительского удостоверения  <br/> длно #  <br/> везетои енжедели  <br/> |
    
-## <a name="ireland"></a>Ireland (Ирландия)
+## <a name="ireland"></a>Ирландия
 
 ### <a name="format"></a>Format
 

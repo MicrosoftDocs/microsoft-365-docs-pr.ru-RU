@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: 'Вы и ваши пользователи могут отправлять ложные сообщения о нежелательной почте в корпорацию Майкрософт для анализа. '
-ms.openlocfilehash: f6dbd808fac54ae273c21773bf8caeabce09b7fb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 928809a8d00e082bf3150abb27dc493c2b82c070
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631245"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939431"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>Отправка сообщений в корпорацию Майкрософт для анализа вручную
 
@@ -79,75 +79,4 @@ ms.locfileid: "43631245"
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Создание правила обработки почтового ящика для получения копий сообщений, отправленных в корпорацию Майкрософт
 
-Вы можете создать правило для обработки почтового ящика (также называемое правилом транспорта), которое ищет сообщения электронной почты, отправленные в корпорацию Майкрософт, с помощью методов, описанных в этой статье, и вы можете настроить получателей скрытой копии для получения копий этих сообщений, о которых получено сообщение.
-
-Вы можете создать правило для почтового процесса в центре администрирования Exchange и PowerShell (Exchange Online PowerShell для Microsoft 365 клиентов; Exchange Online Protection PowerShell для автономных клиентов EOP).
-
-### <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
-
-- Прежде чем выполнять эти процедуры, вам необходимо назначить разрешения в Exchange Online. В частности, необходимо назначить роль " **правила транспорта** ", которая назначается для ролей управления **организацией**, **управления соответствием требованиям**и управления **записями** по умолчанию. Дополнительные сведения см. в статье [Управление группами ролей в Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
-
-- Чтобы открыть центр администрирования Exchange в Exchange Online, обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center).
-
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
-
-- Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
-
-  - [Правила потока обработки почты (правила транспорта) в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
-
-  - [Условия и исключения правила для обработки почтового процесса (предикаты) в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
-
-  - [Действия правил обработки почты в Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
-
-### <a name="use-the-eac-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>Использование центра администрирования Exchange для создания правила обработки почтового ящика для получения копий отчетных сообщений
-
-1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
-
-2. Щелкните **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png) добавить, а затем выберите **создать новое правило**.
-
-3. На открывшейся странице **Новое правило** настройте следующие параметры:
-
-   - **Name**: введите уникальное описательное имя правила. Например, сообщения скрытой копии в корпорацию Майкрософт.
-
-   - Нажмите кнопку **Дополнительные параметры**.
-
-   - **Применять это правило, если**: выберите адрес **получателя** \> **содержит любое из этих слов**: в появившемся диалоговом окне **Укажите слова или фразы** введите одно из следующих значений, нажмите **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png)"Добавить" и повторяйте до тех пор, пока не ввели все значения.
-
-     - `junk@office365.microsoft.com`
-     - `abuse@messaging.microsoft.com`
-     - `phish@office365.microsoft.com`
-     - `false_positive@messaging.microsoft.com`
-
-     Чтобы изменить запись, выберите ее и нажмите кнопку **изменить** ![значок](../../media/ITPro-EAC-EditIcon.png)редактирования. Чтобы удалить запись, выберите ее и нажмите кнопку **Удалить** ![значок](../../media/ITPro-EAC-DeleteIcon.png)"Удалить".
-
-     После этого нажмите кнопку **ОК**.
-
-   - **Выполните следующие**действия: выберите **добавить получателей** \> **в поле "СК**". В появившемся диалоговом окне найдите и выберите получателей, которых вы хотите добавить. После этого нажмите кнопку **ОК**.
-
-4. Вы можете выбрать дополнительные параметры для аудита правила, проверки правила, активации правила в течение определенного периода времени и других параметров. Рекомендуем проверить правило перед его применением.
-
-5. По завершении нажмите кнопку **Сохранить**.
-
-### <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>Создание правила для обработки почтового сообщения для получения копий отчетов с помощью PowerShell
-
-В этом примере создается правило для почтового процесса с именем BCC messages, отправленное в корпорацию Майкрософт, которое ищет сообщения электронной почты, сообщаемые в корпорацию Майкрософт, с помощью методов, описанных в этом разделе, и добавляет пользователей laura@contoso.com и julia@contoso.com как получателей скрытой копии.
-
-```powershell
-New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
-```
-
-Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
-
-### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
-
-Чтобы убедиться, что вы настроили правила обработки почты для получения копий сообщений, выполните одно из указанных ниже действий.
-
-- В центре администрирования Exchange перейдите к разделу **правила** \> для обработки **почтового ящика** \> ,](../../media/ITPro-EAC-EditIcon.png)выберите правило \> щелкните **изменить** ![значок редактирования и проверьте параметры.
-
-- В PowerShell выполните следующую команду, чтобы проверить параметры:
-
-  ```powershell
-  Get-TransportRule -Identity "Bcc Messages Reported to Microsoft" | Format-List
-  ```
-
-- Отправьте тестовые сообщения на один из электронных адресов отчетов и проверьте результаты.
+Инструкции можно найти в статье [Использование правил для обработки почтового ящика для просмотра отчетов о пользователях в Майкрософт](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md).
