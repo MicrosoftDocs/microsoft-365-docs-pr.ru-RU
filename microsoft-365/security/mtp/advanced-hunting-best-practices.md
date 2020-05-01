@@ -97,7 +97,7 @@ DeviceProcessEvents
 ## <a name="related-topics"></a>См. также
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
-- [Работать с результатами запроса](advanced-hunting-query-results.md)
+- [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

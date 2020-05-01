@@ -28,7 +28,7 @@ ms.locfileid: "43212225"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Зачем нужна запись CNAME в Office 365 для MSOID?
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
 > [!NOTE]
 > Следующий пример относится только к * * Office 365 под управлением 21Vianet.
   

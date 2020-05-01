@@ -47,7 +47,7 @@ ms.locfileid: "43116006"
 --- | ---
 [Подготовка пользователей к работе с устройствами](get-started/get-started-devices.md)| Обновленная статья
 [Добавление и проверка контактов администратора на портале администрирования](get-started/add-admin-contacts.md) | Обновленная статья
-[Конфигурация устройства](service-description/device-policies.md) | Обновленная статья
+[Конфигурация устройств](service-description/device-policies.md) | Обновленная статья
 
 
 ## <a name="december-2019"></a>Декабрь 2019 г.
@@ -116,7 +116,7 @@ ms.locfileid: "43116006"
 --- | ---
 [Работа с консультационными службами Майкрософт](get-ready/apps-mcs.md) | Обновленная статья
 [Компьютеры, управляемые Майкрософт](MMD-and-ITSM.md) | Новая статья
-[Конфигурация устройства](service-description/device-policies.md) | Обновленная статья
+[Конфигурация устройств](service-description/device-policies.md) | Обновленная статья
 
 
 ## <a name="june-2019"></a>Июнь 2019 г.

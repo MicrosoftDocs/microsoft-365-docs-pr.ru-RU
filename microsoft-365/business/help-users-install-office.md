@@ -64,4 +64,4 @@ ms.locfileid: "43627202"
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business Premium
 
-[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2020
 ms.locfileid: "42929520"
 ---
-# <a name="alertinfo"></a>алертинфо
+# <a name="alertinfo"></a>AlertInfo
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

@@ -207,7 +207,7 @@ ms.locfileid: "43617138"
 >При изменении политики срока действия служба пересчитывает дату окончания срока действия для каждой группы. Он всегда начинает отсчет с даты создания группы, а затем применяет новую политику срока действия.
 
 #### <a name="resources"></a>*Ресурсы*
-- [Политика истечения срока действия групп Microsoft 365](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
+- [Политика срока действия группы Microsoft 365](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
 - [Настройка политики истечения срока действия для групп Microsoft 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 ### <a name="group-guest-access"></a><a name="group-guest-access"></a>Гостевой доступ к группе
@@ -296,7 +296,7 @@ ms.locfileid: "43617138"
 
 
 #### <a name="resources"></a>*Ресурсы*
-- [Отчеты Microsoft 365 в центре администрирования](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
+- [Отчеты по Microsoft 365 в Центре администрирования](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
 - [Пакет содержимого для оценки внедрения Office 365](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 - [Пакет содержимого Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-power-bi-content-pack-how-to)
 - [API действий для групп Microsoft Graph](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/office_365_groups_activity_reports)

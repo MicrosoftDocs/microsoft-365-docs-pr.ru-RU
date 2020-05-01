@@ -45,7 +45,7 @@ ms.locfileid: "43621286"
 > [!TIP]
 > Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики защиты от нежелательной почты в EOP для помещения нежелательных сообщений в карантин в EOP. Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Прежде чем выполнять эти процедуры, необходимо назначить разрешения в локальной среде Exchange. В частности, необходимо назначить роль " **правила транспорта** ", которая назначается для ролей управления **организацией**, **управления соответствием требованиям**и управления **записями** по умолчанию. Дополнительные сведения см в разделе [Добавление членов в группу ролей](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group).
 
@@ -77,7 +77,7 @@ ms.locfileid: "43621286"
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-   - **Name**: введите уникальное описательное имя правила. Например,
+   - **Name**: введите уникальное описательное имя правила. Пример:
 
      - EOP SFV: SPM на SCL 6
 
@@ -111,7 +111,7 @@ ms.locfileid: "43621286"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-Например,
+Пример:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6

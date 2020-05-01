@@ -1,5 +1,5 @@
 ---
-title: Вопросы и ответы по защите от спуфинга
+title: Вопросы и ответы о защите от спуфинга
 f1.keywords:
 - NOCSH
 ms.author: chrisda

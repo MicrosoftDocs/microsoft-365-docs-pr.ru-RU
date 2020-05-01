@@ -69,7 +69,7 @@ ms.locfileid: "43630047"
 
 К группам Microsoft 365 применяются следующие пределы:
 
-|Максимум...|Значение|
+|Максимум...|Value|
 |:---------|:----|
 |Owners per group|100|
 |Groups a user can create|250|

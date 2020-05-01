@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 03/24/2020
 ms.locfileid: "42929271"
 ---
-# <a name="identityqueryevents"></a>идентитикуеревентс
+# <a name="identityqueryevents"></a>IdentityQueryEvents
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

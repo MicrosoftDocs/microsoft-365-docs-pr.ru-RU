@@ -49,7 +49,7 @@ Windows 10 предоставляет функции безопасности д
 * [Развертывание, управление и составление отчетов о Защитнике Windows (AV)](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/deploy-manage-report-windows-defender-antivirus)
 * [Справочные разделы, посвященные средствам управления и настройки](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/configuration-management-reference-windows-defender-antivirus)
 
-### <a name="configuration"></a>Конфигурация
+### <a name="configuration"></a>Настройка
 Пользователи могут настраивать ряд функций. Более подробную информацию можно найти в следующих ресурсах:
 
 * [Настройка антивирусной функции защитника Windows](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features)
