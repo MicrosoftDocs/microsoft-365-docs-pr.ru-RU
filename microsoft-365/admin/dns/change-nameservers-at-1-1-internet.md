@@ -81,7 +81,7 @@ ms.locfileid: "43939418"
     
 3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Проверка домена** выберите **Проверить**.
+4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если при добавлении записей DNS возникают проблемы с почтовыми сообщениями или другими проблемами, ознакомьтесь со статьей [Поиск и устранение проблем после добавления домена или записей DNS в Microsoft 365](../get-help-with-domains/find-and-fix-issues.md). 

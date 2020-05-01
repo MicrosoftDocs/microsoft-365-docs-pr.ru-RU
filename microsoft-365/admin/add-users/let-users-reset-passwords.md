@@ -46,7 +46,7 @@ ms.locfileid: "43919439"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="let-people-reset-their-own-passwords"></a>Разрешить пользователям сбрасывать собственные пароли 
 

@@ -158,7 +158,7 @@ ms.locfileid: "43939147"
   
 6. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-    |**Priority** (Приоритет)|**TTL** (Срок жизни)|**Mail Server (Почтовый сервер)**|
+    |**Priority**|**TTL** (Срок жизни)|**Mail Server (Почтовый сервер)**|
     |:-----|:-----|:-----|
     |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |3600  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
        
@@ -234,7 +234,7 @@ ms.locfileid: "43939147"
     
     ![Нажмите кнопку Сохранить изменения](../../media/f005c38a-0d8d-4c61-bec6-15e60c89aa5a.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]

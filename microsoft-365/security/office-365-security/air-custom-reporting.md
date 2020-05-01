@@ -28,7 +28,7 @@ ms.locfileid: "43634722"
 
 Используйте следующие ресурсы для настройки:
 
-|Ресурс  |Описание  |
+|Resource  |Описание  |
 |---------|---------|
 |[Обзор API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview)     |API действий управления Office 365 предоставляет сведения о различных действиях и событиях пользователя, администратора, системы и политики из Microsoft 365 и журналов активности Azure Active Directory.         |
 |[Начало работы с API управления Office 365](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)     |API управления Office 365 использует Azure AD для предоставления службам проверки подлинности приложениям доступа к данным Microsoft 365. Выполните действия, описанные в этой статье, чтобы настроить ее.          |

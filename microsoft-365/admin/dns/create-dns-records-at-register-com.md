@@ -123,7 +123,7 @@ ms.locfileid: "43939123"
     
     |****Host Name** (Имя узла)**|****Priority** (Приоритет)**|****Mail Server** (Почтовый сервер)**|
     |:-----|:-----|:-----|
-    |@  <br/> |Высокий  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |Высокая  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Скопируйте и вставьте значение из таблицы](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   
@@ -182,7 +182,7 @@ ms.locfileid: "43939123"
     
     ![Нажмите кнопку продолжить.](../../media/3342b570-0633-49c5-9175-5cc8e4a67b53.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]

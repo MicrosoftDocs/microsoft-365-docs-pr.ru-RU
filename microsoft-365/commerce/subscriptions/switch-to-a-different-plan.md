@@ -1,5 +1,5 @@
 ---
-title: Переключение на другой план Microsoft 365 для бизнеса
+title: Переход на другой план Microsoft 365 для бизнеса
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -31,7 +31,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43707503"
 ---
-# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Переключение на другой план Microsoft 365 для бизнеса
+# <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Переход на другой план Microsoft 365 для бизнеса
 
 Вы можете переключить планы, когда вы измените бизнес или вам нужны дополнительные функции.  
 

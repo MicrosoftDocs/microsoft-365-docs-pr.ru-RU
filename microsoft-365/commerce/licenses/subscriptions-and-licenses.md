@@ -61,7 +61,7 @@ ms.locfileid: "43635440"
 |Exchange Online  <br/> |Для пользователя создается почтовый ящик.  <br/> |
 |SharePoint Online  <br/> |Назначаются разрешения на изменение стандартного сайта группы SharePoint Online.  <br/> |
 |Skype для бизнеса online  <br/> |Пользователь получает доступ к возможностям, связанным с лицензией.  <br/> |
-|Приложения Microsoft 365 для предприятий  <br/> |Пользователь сможет скачать Microsoft Office для 5 ПК с Windows или компьютеров Mac, 5 планшетов и 5 смартфонов.  <br/> |
+|Приложения Microsoft 365 для предприятий  <br/> |Пользователь сможет скачать Microsoft Office для 5 ПК с Windows или компьютеров Mac, 5 планшетов и 5 смартфонов.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>На скольких устройствах можно установить Office?
 
@@ -69,7 +69,7 @@ ms.locfileid: "43635440"
   
 - Приложения Microsoft 365 для бизнеса
     
-- Microsoft 365 бизнес Standard
+- Microsoft 365 бизнес стандарт
     
 - Приложения Microsoft 365 для предприятий
     

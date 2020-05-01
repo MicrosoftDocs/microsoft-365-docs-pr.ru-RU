@@ -70,7 +70,7 @@ Office 365 Advanced Threat protection (ATP) для SharePoint, OneDrive и Micro
 
 3. В разделе **Защита файлов в SharePoint, OneDrive и Microsoft Teams**. Выберите **включить ATP для SharePoint, OneDrive и Microsoft Teams**.
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
 
 ### <a name="enable-anti-malware"></a>Включение защиты от вредоносных программ

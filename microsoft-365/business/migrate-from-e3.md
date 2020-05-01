@@ -41,7 +41,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 | Компонент    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Office 365 E3 | 
 |:-------|:-----|:-----|
 | **Локальная среда**        | | | 
-| Приложения Office<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий | 
+| Приложения Office<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий | 
 | **Облачные приложения для работы**        | | | 
 | Exchange Online и Outlook    | 50 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online    | 100 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online | 
 | Teams    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Входит в состав Office 365 E3](../media/check-mark.png) | 
@@ -113,7 +113,7 @@ Microsoft 365 Business Premium содержит все необходимое д
     
   - Выполните действия, описанные в статье [Настройка мобильных устройств для пользователей Microsoft 365 Business Premium](set-up-mobile-devices.md) для телефонов с Android и iPhone. 
 
-### <a name="threat-protection"></a>защита от угроз;
+### <a name="threat-protection"></a>Защита от угроз
 
 После перехода на Microsoft 365 бизнес премиум у вас есть Office 365 ATP. Обзор [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) для просмотра. Чтобы настроить, ознакомьтесь со статьей [Настройка безопасных ссылок ATP](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa), [Настройка безопасных вложений ATP](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)и [Настройка антифишинга ATP](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c).
 

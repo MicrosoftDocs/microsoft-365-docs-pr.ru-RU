@@ -188,7 +188,7 @@ ms.locfileid: "43939443"
   
 7. Повторяйте три описанных выше шага, используя значения из пяти других строк таблицы, чтобы добавить остальные записи CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]

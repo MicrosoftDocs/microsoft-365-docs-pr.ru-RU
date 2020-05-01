@@ -108,7 +108,7 @@ ms.locfileid: "43939287"
     
     |**Host (Узел)**|**TTL (Срок жизни)**|**Type (Тип)**|**Data (Данные)**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **10**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      <br>    Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |
+    |(Leave this field empty.)  <br/> |600  <br/> |MX  <br/> |10  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **10**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      <br>    Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |
    
     ![Дин — BP — configure – 2-1](../../media/62ac77b7-c84d-426d-9ec4-a28d6479ad04.png)
   
@@ -163,7 +163,7 @@ ms.locfileid: "43939287"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]

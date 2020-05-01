@@ -65,9 +65,9 @@ ms.locfileid: "43631137"
 
   Инструкции по настройке можно найти в следующих статьях:
   
-  - [Настройка SPF для защиты от спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  - [Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  - [Проверка исходящей электронной почты, отправленной из личного домена, с помощью DKIM](use-dkim-to-validate-outbound-email.md)
+  - [Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена](use-dkim-to-validate-outbound-email.md)
 
   - [Использование протокола DMARC для проверки электронной почты](use-dmarc-to-validate-email.md)
 

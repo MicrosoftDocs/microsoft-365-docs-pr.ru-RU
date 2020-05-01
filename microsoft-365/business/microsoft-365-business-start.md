@@ -44,7 +44,7 @@ Microsoft 365 для бизнеса — это комплексный набор
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Microsoft 365 для бизнеса предназначено для лицензий на 300. Дополнительные сведения о том, как получить дополнительные лицензии, можно найти в [статье Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) Documentation. 
+Microsoft 365 для бизнеса предназначено для лицензий на 300. Если вам нужно больше лицензий, см. Документацию [Microsoft 365 корпоративный](https://go.microsoft.com/fwlink/p/?linkid=860986) для получения дополнительной информации. 
   
 ## <a name="get-microsoft-365-for-business"></a>Получение Microsoft 365 для бизнеса
 
@@ -98,7 +98,7 @@ Microsoft 365 для бизнеса предназначено для лицен
 Если вы сохранили локальную службу Active Directory, которая содержит некоторые локальные ресурсы (например, файловые ресурсы и принтеры), вы можете предоставить **подключенным устройствам Azure AD** доступ к этим ресурсам, выполнив действия, описанные здесь: [доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 для бизнеса](access-resources.md).
   
   
-## <a name="contact-support"></a>Обращение в службу поддержки
+## <a name="contact-support"></a>Обратитесь в службу поддержки
 
  **Если вам нужно обратиться в службу поддержки:**
   
@@ -112,4 +112,4 @@ Microsoft 365 для бизнеса предназначено для лицен
   
 Перенесите [microsoft 365 для бизнеса](manage.md)[в Microsoft 365 для бизнеса](migrate-to-microsoft-365-business.md)
 
-[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

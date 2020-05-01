@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43900797"
 ---
-# <a name="devicefilecertificateinfo"></a>девицефилецертификатеинфо
+# <a name="devicefilecertificateinfo"></a>DeviceFileCertificateInfo
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

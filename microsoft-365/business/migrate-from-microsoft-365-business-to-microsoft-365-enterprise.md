@@ -28,7 +28,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2020
 ms.locfileid: "43633179"
 ---
-# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Миграция из Microsoft 365 бизнес премиум в Microsoft 365 E3
+# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Миграция с Microsoft 365 бизнес премиум на Microsoft 365 E3
 
 Microsoft 365 Business Premium содержит все необходимое для малого бизнеса, объединяя высококачественные облачные приложения для повышения производительности с простым управлением устройствами и безопасностью, которые позволяют сотрудникам выполнять свои действия. Однако в некоторых случаях вам может потребоваться перенести подписку на Microsoft 365 Business Premium на Microsoft 365 E3. 
 
@@ -50,7 +50,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 |:-------|:-----|:-----|
 | **Локальная среда**        | | | 
 | Windows 10    | Windows 10 для бизнеса  |     Windows 10 Корпоративная E3| 
-| Приложения Office *    | [Приложения Microsoft 365 для бизнеса](#office-365-business)    | Приложения Microsoft 365 для предприятий | 
+| Приложения Office *    | [Приложения Microsoft 365 для бизнеса](#office-365-business)    | Приложения Microsoft 365 для предприятий | 
 | **Облачные приложения для работы**        | | | 
 | Exchange Online и Outlook    | 50 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online    | 100 ГБ дискового пространства для почтового ящика и неограниченная Архивация на базе Exchange Online | 
 | Teams    | ![Включено в Microsoft 365 бизнес премиум](../media/check-mark.png)    | ![Входит в состав Microsoft 365 E3](../media/check-mark.png) | 
@@ -109,7 +109,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 >
 
 <a name="threat-protection"></a>
-### <a name="threat-protection"></a>защита от угроз;
+### <a name="threat-protection"></a>Защита от угроз
 
 Windows 10 бизнес включает следующие средства защиты:
 

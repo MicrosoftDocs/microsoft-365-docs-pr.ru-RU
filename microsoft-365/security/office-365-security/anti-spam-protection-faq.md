@@ -133,7 +133,7 @@ ms.locfileid: "43636062"
 
   Записи SPF — это механизм проверки того, что почта, отправленная из домена, на самом деле приходит с этого домена и не подделана. Дополнительные сведения о записях SPF см. по следующим ссылкам.
 
-  [Настройка SPF для защиты от спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  [Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   [Вопросы и ответы о доменах](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 

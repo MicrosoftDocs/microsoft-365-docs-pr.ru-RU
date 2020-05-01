@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: В этом разделе показано, как будет выглядеть политика защиты от потери данных (DLP), когда она обнаруживает тип конфиденциальной информации ЕС по национальному идентификационному номеру. Этот тип конфиденциальной информации определяет различные шаблоны, ключевые слова и другие доказательства для каждой страны.
-ms.openlocfilehash: 4dac77f129b45f457a82e709cb5a3b846a95cdf4
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: c83644fc8870975634651e44e114f2a8e0cf7692
+ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938765"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43955306"
 ---
 # <a name="eu-national-identification-number"></a>Национальный идентификационный номер ЕС
 
@@ -103,18 +103,18 @@ national id
 
 Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция `Func_bulgaria_national_number` находит содержимое, которое соответствует шаблону. 
+- Функция `Func_bulgaria_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 - Найдено ключевое `Keywords_bulgaria_national_number` слово FROM. 
     
 Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
   
-- Функция `Func_bulgaria_national_number` находит содержимое, которое соответствует шаблону. 
+- Функция `Func_bulgaria_eu_national_id_card` находит содержимое, которое соответствует шаблону. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_bulgaria_national_number" />
+          <IdMatch idRef="Func_bulgaria_eu_national_id_card" />
           <Match idRef="Keywords_bulgaria_national_number" />
         </Pattern>
 <Pattern confidenceLevel="75">

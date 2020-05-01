@@ -72,7 +72,7 @@ ms.locfileid: "43939335"
     
     ![Кразидомаинс — BP — Verify – 1-1](../../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — Verify – 1-2](../../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
   
@@ -139,7 +139,7 @@ ms.locfileid: "43939335"
     
     ![Кразидомаинс — BP — configure – 2-1](../../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 2-2](../../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
   
@@ -198,7 +198,7 @@ ms.locfileid: "43939335"
     
     ![Кразидомаинс — BP — configure – 3-1](../../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 3-2](../../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
   
@@ -230,7 +230,7 @@ ms.locfileid: "43939335"
     
     ![Кразидомаинс — BP — configure – 3-5](../../media/dbe578f6-359c-428c-b296-ca624cecfc3c.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -260,7 +260,7 @@ ms.locfileid: "43939335"
     
     ![Кразидомаинс — BP — configure – 4-1](../../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 4-2](../../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
   
@@ -303,7 +303,7 @@ ms.locfileid: "43939335"
     
     ![Кразидомаинс — BP — configure – 5-1](../../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 5-2](../../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
   

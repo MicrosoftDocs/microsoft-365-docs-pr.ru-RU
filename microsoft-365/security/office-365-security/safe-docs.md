@@ -26,7 +26,7 @@ ms.locfileid: "43634320"
 
 Безопасные документы — это функция в Office 365 Advanced Threat protection (ATP), использующая [Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для сканирования документов и файлов, которые открываются в [режиме защищенного просмотра](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности Microsoft 365 и Microsoft 365.
 
@@ -34,9 +34,9 @@ ms.locfileid: "43634320"
 
 - Только регион США, который в настоящее время поддерживает обработку файлов в соответствии с требованиями (все файлы перемещаются в регион США для сканирования). Поддержка региона UK/ЕС запланирована в будущем.
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Перед выполнением процедур, описанных в этом разделе, необходимо назначить разрешения. Чтобы включить и настроить безопасные документы, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Дополнительные сведения о группах ролей в центре безопасности & соответствия требованиям приведены в разделе [разрешения в центре безопасности &](permissions-in-the-security-and-compliance-center.md).
+- Перед выполнением процедур, описанных в этом разделе, необходимо назначить разрешения. Чтобы включить и настроить безопасные документы, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Использование центра безопасности & соответствия требованиям для настройки безопасных документов
 
@@ -50,7 +50,7 @@ ms.locfileid: "43634320"
 
    - **Разрешить пользователям щелкать в режиме защищенного просмотра, даже если документы распознает файл как вредоносный**: не рекомендуется включать этот параметр.
 
-4. По завершении нажмите кнопку **Сохранить**.
+4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ![Страница безопасных вложений ATP](../../media/safe-docs.png)
 

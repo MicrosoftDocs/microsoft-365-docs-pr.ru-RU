@@ -52,7 +52,7 @@ ms.locfileid: "43630741"
 
 Современные сайты SharePoint используют группы Microsoft 365 для управления доступом к сайту. Для работы гостевых сайтов SharePoint необходимо включить параметры гостевых групп Microsoft 365.
 
-![Снимок экрана: параметры гостя групп Microsoft 365 в центре администрирования Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Снимок экрана: гостевые параметры для групп Microsoft 365 в Центре администрирования Microsoft 365](../media/office-365-groups-guest-settings.png)
 
 Настройка параметров гостя для групп Microsoft 365
 

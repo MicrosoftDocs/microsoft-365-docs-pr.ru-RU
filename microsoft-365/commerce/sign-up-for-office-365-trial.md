@@ -52,4 +52,4 @@ ms.locfileid: "43708111"
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

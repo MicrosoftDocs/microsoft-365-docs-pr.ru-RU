@@ -57,7 +57,7 @@ ms.locfileid: "43939219"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -108,7 +108,7 @@ ms.locfileid: "43939219"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -139,7 +139,7 @@ ms.locfileid: "43939219"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -166,7 +166,7 @@ ms.locfileid: "43939219"
 
 6. Повторите эти действия, чтобы добавить следующую запись CNAME, пока не будут созданы все шесть записей CNAME.
 
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -182,7 +182,7 @@ ms.locfileid: "43939219"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -216,7 +216,7 @@ ms.locfileid: "43939219"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 

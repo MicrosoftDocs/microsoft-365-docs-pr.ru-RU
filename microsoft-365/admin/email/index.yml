@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Управление электронной почтой и календарями
+summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+metadata:
+  title: Управление электронной почтой и календарями
+  description: Управление параметрами электронной почты, группами рассылки, параметрами безопасности и настройками общих почтовых ящиков
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 65b0a249c5574ca149c0abe1e0ed879f649143fe
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952768"
+landingContent:
+- title: Управление электронной почтой
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Управление параметрами электронной почты пользователя
+      url: office-365-user-email-settings.md
+    - text: Совместная работа с электронной почтой
+      url: email-collaboration.md
+  - linkListType: how-to-guide
+    links:
+    - text: Добавление другого псевдонима электронной почты
+      url: add-another-email-alias-for-a-user.md
+    - text: Использование личного домена
+      url: change-email-address.md
+    - text: Настройка переадресации электронной почты
+      url: configure-email-forwarding.md
+    - text: Работать с группами безопасности
+      url: create-edit-or-delete-a-security-group.md
+- title: Управление календарями
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Управление календарем и контактами в Outlook
+      url: https://support.office.com/article/631a182a-21e0-4e41-8fa2-0d83e55da02d
+  - linkListType: video
+    links:
+    - text: Создание общего календаря
+      url: https://support.office.com/article/8385667b-d758-4489-a53f-f542dd01e6ff
+- title: Управление общими почтовыми ящиками
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Настройка общего почтового ящика
+      url: configure-a-shared-mailbox.md
+    - text: Преобразование почтового ящика пользователя в общий почтовый ящик
+      url: convert-user-mailbox-to-shared-mailbox.md
+    - text: Удаление лицензии из общего почтового ящика
+      url: remove-license-from-shared-mailbox.md
+    - text: Решение проблем с общими почтовыми ящиками
+      url: resolve-issues-with-shared-mailboxes.md
+- title: Устранение проблем с подключением и доставкой электронной почты
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Поиск и устранение проблем с доставкой электронной почты
+      url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
+    - text: Устранение проблем и поиск проблем после добавления домена или записей DNS
+      url: ../get-help-with-domains/find-and-fix-issues.md
+    - text: Восстановление удаленных сообщений электронной почты в почтовом ящике пользователя
+      url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
+    - text: Устранение проблем c подключением Outlook в Microsoft 365 и Exchange Online
+      url: https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f

@@ -17,16 +17,15 @@ search.appverid:
 - MET150
 - MOE150
 - FRP150
-ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: 'Центр администрирования Microsoft 365: сведения о возможностях, добавленных в этом месяце.'
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 03fae5d2a9b8adc9859eb16bfd9d98740e7d8bf2
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: bd701f8ea2a6187f73fff91ea1ca2ccf2641f6e3
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939455"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952655"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Новые возможности центра администрирования Microsoft 365
 
@@ -181,7 +180,7 @@ ms.locfileid: "43939455"
 
 ![Снимок экрана: раздел "выставление счетов" карточки подписки с использованием кредитной карты в качестве способа оплаты.](../media/MAC-BillingEditCreditCard.png)
 
-Хотите узнать больше? [Переход с кредитной карты или банковского счета на счет](../commerce/billing-and-payments/change-payment-method.md)
+Хотите узнать больше? [Переход с кредитной карты или банковского счета на счет-фактуру](../commerce/billing-and-payments/change-payment-method.md)
 
 ### <a name="global-reader"></a>Глобальный читатель
 

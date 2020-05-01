@@ -49,7 +49,7 @@ Microsoft 365 | Служба OneDrive для бизнеса должна быт
 |Microsoft Intune | — Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Enterprise Mobility + Security/Security<br>— Enterprise Mobility + Security E3<br>— Microsoft Intune  |  Необходимые для регистрации устройств, развертывания обновлений и управления устройствами       |
 |Windows 10 Корпоративная  |— Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Windows 10 Корпоративная E3<br>— Windows 10 Корпоративная ~ | Функции корпоративного выпуска Windows 10       |
 |Advanced Threat Protection в Microsoft Defender | — Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Windows 10 Корпоративная ~<br>— Advanced Threat Protection в защитнике Майкрософт   |  Обеспечивает обнаружение, мониторинг, оповещение и реагирование на угрозы  |
-|Приложения Microsoft 365 для предприятий  |— Microsoft 365<br>— Microsoft 365 E3<br>— Office 365<br>— Office 365 E3| Активация средств Office и продуктивности и совместной работы    |
+|Приложения Microsoft 365 для предприятий  |— Microsoft 365<br>— Microsoft 365 E3<br>— Office 365<br>— Office 365 E3| Активация средств Office и продуктивности и совместной работы    |
 
 > [!TIP]
 > Ваш менеджер учетных записей Майкрософт поможет вам ознакомиться с текущими лицензиями и планами обслуживания и найти самый эффективный путь для получения дополнительных лицензий или планов обслуживания, в то же время не пробегая дублирования.

@@ -30,7 +30,7 @@ ms.locfileid: "43631077"
 
 В этом разделе объясняется, как создавать эти правила для этих почтовых ящиков в центре администрирования Exchange и PowerShell (Exchange Online PowerShell для Microsoft 365 клиентов; Exchange Online Protection PowerShell для автономных клиентов EOP).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Прежде чем выполнять эти процедуры, вам необходимо назначить разрешения в Exchange Online. В частности, необходимо назначить роль " **правила транспорта** ", которая назначается для ролей управления **организацией**, **управления соответствием требованиям**и управления **записями** по умолчанию. Дополнительные сведения см. в статье [Управление группами ролей в Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).
 
