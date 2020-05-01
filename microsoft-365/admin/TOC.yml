@@ -1,264 +1,49 @@
-- name: Домашняя страница администратора
-  href: admin-home.md
+- name: "Справка по Центру администрирования Microsoft\_365"
+  href: index.yml
   items:
-    - name: Обзор
+    - name: Начало работы
+      href: setup/index.yml
       items:
-        - name: Общие сведения об администрировании
-          href: admin-overview/admin-overview.md
-        - name: Регистрация в Office 365
+        - name: Регистрация
           href: admin-overview/sign-up-for-office-365.md
-        - name: Обучающее видео
-          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816'
-        - name: Сведения о Центре администрирования
-          href: admin-overview/about-the-admin-center.md
-        - name: Какая у меня подписка?
-          href: admin-overview/what-subscription-do-i-have.md
-        - name: Сведения об Office 365 Germany
-          href: admin-overview/learn-about-office-365-germany.md
-        - name: Мобильное приложение "Администратор"
-          href: admin-overview/admin-mobile-app.md
-    - name: Настройка
-      items:
+        - name: Пробное использование или приобретение Microsoft 365
+          href: ../commerce/try-or-buy-microsoft-365.md
         - name: Планирование настройки
           href: setup/plan-your-setup.md
-        - name: Настройка Office 365
+        - name: Подготовка организации с помощью инструкций по настройке
           href: setup/setup.md
-        - name: Разница между мастером настройки и страницей настройки
+        - name: Изучение страницы и мастера настройки
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: Добавление доменов
-          href: setup/add-domain.md
-        - name: Вопросы и ответы о доменах
-          href: setup/domains-faq.md
-        - name: Установка приложений
-          href: setup/install-applications.md
-        - name: Перенос электронной почты и контактов
+        - name: Перенос данных
           href: setup/migrate-email-and-contacts-admin.md
+        - name: Установка приложений Office
+          href: setup/install-applications.md
         - name: Развертывание Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
-        - name: Настройка хранилища файлов с функцией общего доступа
-          href: setup/set-up-file-storage-and-sharing.md
-        - name: Настройка сайта группы
-          href: setup/customize-team-site.md
-        - name: Обновление пользователей до последней версии клиента Office
-          href: setup/upgrade-users-to-latest-office-client.md
+        - name: Обучение приложениям для всех
+          href: 'https://support.office.com/en-us/office-training-center'
+        - name: Какая у меня подписка?
+          href: admin-overview/what-subscription-do-i-have.md
         - name: Настройка страницы входа
           href: setup/customize-sign-in-page.md
-        - name: Создание групп рассылки
-          href: setup/create-distribution-lists.md
         - name: Настройка темы организации
           href: setup/customize-your-organization-theme.md
-    - name: Пользователи и роли
+        - name: Сведения об Office 365 Germany
+          href: admin-overview/learn-about-office-365-germany.md
+    - name: "Обзор Центра администрирования Microsoft\_365"
       items:
-        - name: Добавление пользователей
-          href: add-users/add-users.md
-        - name: Создание и использование шаблона для добавления пользователей
-          href: add-users/create-and-use-a-template-to-add-users.md
-        - name: Удаление пользователя
-          href: add-users/delete-a-user.md
-        - name: Восстановление пользователя
-          href: add-users/restore-user.md
-        - name: Сброс паролей
-          href: add-users/reset-passwords.md
-        - name: Установка бессрочного пароля
-          href: add-users/set-password-to-never-expire.md
-        - name: Разрешение пользователям сбрасывать пароли
-          href: add-users/let-users-reset-passwords.md
-        - name: Повторная отправка пароля пользователя
-          href: add-users/resend-user-password.md
-        - name: Предоставление разрешений для почтового ящика другому пользователю
-          href: add-users/give-mailbox-permissions-to-another-user.md
-        - name: Изменение имени пользователя и адреса электронной почты
-          href: add-users/change-a-user-name-and-email-address.md
-        - name: 'Создание, изменение и удаление настраиваемых представлений пользователей'
-          href: add-users/create-edit-or-delete-a-custom-user-view.md
-        - name: Добавление нового сотрудника
-          href: add-users/add-new-employee.md
-        - name: Удаление бывшего сотрудника
-          href: add-users/remove-former-employee.md
-        - name: Получение доступа к данным бывшего пользователя и создание их резервной копии
-          href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
+        - name: Обзор Центра администрирования
+          href: admin-overview/about-the-admin-center.md
+        - name: Сведения о новом Центре администрирования
+          href: microsoft-365-admin-center-preview.md
         - name: Роли администраторов
           href: add-users/about-admin-roles.md
-        - name: Назначение ролей администратора
-          href: add-users/assign-admin-roles.md
-        - name: Роль администратора Exchange Online
-          href: add-users/about-exchange-online-admin-role.md
-    - name: Электронная почта
-      items:
-        - name: "Электронная почта в Office\_365"
-          href: email/email.md
-        - name: Параметры электронной почты пользователей
-          href: email/office-365-user-email-settings.md
-        - name: Добавление дополнительных псевдонимов электронной почты для пользователя
-          href: email/add-another-email-alias-for-a-user.md
-        - name: Общие почтовые ящики
-          items:
-            - name: Сведения об общих почтовых ящиках
-              href: email/about-shared-mailboxes.md
-            - name: Создание общего почтового ящика
-              href: email/create-a-shared-mailbox.md
-            - name: Настройка общего почтового ящика
-              href: email/configure-a-shared-mailbox.md
-            - name: Преобразование почтового ящика пользователя в общий почтовый ящик
-              href: email/convert-user-mailbox-to-shared-mailbox.md
-            - name: Удаление лицензии из общего почтового ящика
-              href: email/remove-license-from-shared-mailbox.md
-            - name: Решение проблем с общими почтовыми ящиками
-              href: email/resolve-issues-with-shared-mailboxes.md
-        - name: Изменение адреса электронной почты
-          href: email/change-email-address.md
-        - name: Настройка сортировки почты
-          href: setup/configure-focused-inbox.md
-        - name: Создание подписей и заявлений об отказе
-          href: setup/create-signatures-and-disclaimers.md
-        - name: 'Создание, изменение и удаление группы безопасности'
-          href: email/create-edit-or-delete-a-security-group.md
-        - name: Настройка переадресации электронной почты
-          href: email/configure-email-forwarding.md
-        - name: Совместная работа в электронной почте
-          href: email/email-collaboration.md
-        - name: Добавление пользователя или контакта в группу рассылки
-          href: email/add-user-or-contact-to-distribution-list.md
-        - name: Настройка папки "Несрочные"
-          href: email/configure-clutter.md
-    - name: Защита бизнес-данных
-      items:
-        - name: 10 основных способов защиты данных
-          href: security-and-compliance/secure-your-business-data.md
-        - name: Настройка многофакторной проверки подлинности
-          href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Настройка многофакторной проверки подлинности (в Office 2013)
-          href: security-and-compliance/enable-modern-authentication.md
-        - name: Соответствие требованиям GDPR
-          href: security-and-compliance/gdpr-compliance.md
-    - name: Отчеты об активности в Центре администрирования
-      href: activity-reports/activity-reports.md
-    - name: Анализ использования Power BI
-      items:
-        - name: Анализ использования
-          href: usage-analytics/usage-analytics.md
-        - name: Включение анализа использования
-          href: usage-analytics/enable-usage-analytics.md
-        - name: Получение последней версии анализа использования
-          href: usage-analytics/get-the-latest-version-of-usage-analytics.md
-        - name: Поиск и использование отчетов
-          href: usage-analytics/navigate-and-utilize-reports.md
-        - name: Активный пользователь в отчетах об использовании
-          href: usage-analytics/active-user-in-usage-reports.md
-        - name: Настройка отчетов
-          href: usage-analytics/customize-reports.md
-        - name: Модель данных анализа использования
-          href: usage-analytics/usage-analytics-data-model.md
-        - name: Ошибки анализа использования
-          href: usage-analytics/usage-analytics-errors.md
-    - name: Управление
-      items:
-        - name: Управление Office 365
-          href: manage/manage.md
-        - name: Изменение настроек контакта
-          href: manage/change-contact-preferences.md
-        - name: 'Изменение адреса, контакта и многого другого'
-          href: manage/change-address-contact-and-more.md
-        - name: Обновление номера телефона и адреса электронной почты
-          href: manage/update-phone-number-and-email-address.md
-        - name: Установка срока действия пароля
-          href: manage/set-password-expiration-policy.md
-        - name: Настройка средства запуска приложений
-          href: manage/customize-the-app-launcher.md
-        - name: Требования для централизованного развертывания
-          href: manage/centralized-deployment-of-add-ins.md
-        - name: Централизованное развертывание надстроек
-          href: manage/manage-deployment-of-add-ins.md
-        - name: Вопросы и ответы о централизованном развертывании
-          href: manage/centralized-deployment-FAQ.md
-        - name: Поиск партнера или торгового посредника
-          href: manage/find-your-partner-or-reseller.md
-        - name: Почтовые ящики помещений и оборудования
-          href: manage/room-and-equipment-mailboxes.md
-        - name: Отправка сообщений электронной почты от списка рассылки
-          href: manage/send-email-as-distribution-list.md
-        - name: Обновление списков рассылки
-          href: manage/upgrade-distribution-lists.md
-        - name: Предоставление внешнего общего доступа к сайтам и файлам
-          href: manage/share-sites-with-external-users.md
-        - name: Совместное использование календарей с внешними пользователями
-          href: manage/share-calendars-with-external-users.md
-        - name: Назначение лицензий пользователям
-          href: manage/assign-licenses-to-users.md
-        - name: Отмена назначения лицензий пользователям
-          href: manage/remove-licenses-from-users.md
-        - name: Устранение конфликтов лицензий
-          href: manage/resolve-license-conflicts.md
-        - name: Управление сообщениями в Центре сообщений
-          href: manage/manage-messages.md
-        - name: Отображение и скрытие новых функций с помощью управления новыми возможностями
-          href: manage/show-hide-new-features.md
-    - name: Подписки и выставление счетов
-      items:
-        - name: Управление подписками
-          href: ../commerce/index.yml
-        - name: Просмотр счета
-          href: ../commerce/billing-and-payments/view-your-bill-or-invoice.md
-        - name: Управление методами оплаты
-          href: ../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
-        - name: Отмена подписки
-          href: ../commerce/subscriptions/cancel-your-subscription.md
-    - name: Домены
-      items:
-        - name: Домены в Office 365
-          href: get-help-with-domains/get-help-with-domains.md
-        - name: Что такое домен?
-          href: get-help-with-domains/what-is-a-domain.md
-        - name: Приобретение имени домена
-          href: get-help-with-domains/buy-a-domain-name.md
-        - name: Поиск регистратора доменных имен
-          href: get-help-with-domains/find-your-domain-registrar.md
-        - name: Основы DNS
-          href: get-help-with-domains/dns-basics.md
-        - name: Сведения для записей DNS
-          href: get-help-with-domains/information-for-dns-records.md
-        - name: Поиск и устранение проблем
-          href: get-help-with-domains/find-and-fix-issues.md
-        - name: Настройка домена (инструкции для конкретных узлов)
-          href: get-help-with-domains/set-up-your-domain-host-specific-instructions.md
-        - name: Изменение серверов имен в любом регистраторе доменных имен
-          href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
-        - name: Создание записей DNS у любого поставщика услуг размещения DNS
-          href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
-        - name: Удаление домена
-          href: get-help-with-domains/remove-a-domain.md
-        - name: Перенос данных вручную
-          href: get-help-with-domains/transfer-data-manually.md
-    - name: Группы
-      items:
-        - name: Обзор групп
-          href: create-groups/office-365-groups.md
-        - name: Сравнение групп
-          href: create-groups/compare-groups.md
-        - name: Создание группы Microsoft 365
-          href: create-groups/create-groups.md
-        - name: Управление группой Microsoft 365
-          href: create-groups/manage-groups.md
-        - name: Планирование управления в группах Microsoft 365
-          href: create-groups/plan-for-groups-governance.md
-        - name: Управление созданием групп
-          href: create-groups/manage-creation-of-groups.md
-        - name: Выбор домена для создания групп
-          href: create-groups/choose-domain-to-create-groups.md
-        - name: Политика именования групп
-          href: create-groups/groups-naming-policy.md
-        - name: Предоставление разрешения участникам группы на отправку сообщений от группы или от ее имени
-          href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
-        - name: Добавление и удаление участников группы
-          href: create-groups/add-or-remove-members-from-groups.md
-        - name: Политика срока действия группы Microsoft 365
-          href: create-groups/office-365-groups-expiration-policy.md
-        - name: Восстановление удаленной группы
-          href: create-groups/restore-deleted-group.md
-        - name: Управление гостевым доступом в группах
-          href: create-groups/manage-guest-access-in-groups.md
-        - name: Использование меток конфиденциальности в группах
-          href: 'https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?toc=/office365/admin/toc.json'
+        - name: Мобильное приложение для администрирования
+          href: admin-overview/admin-mobile-app.md
+        - name: Новые возможности Центра администрирования
+          href: whats-new-in-preview.md
+        - name: Отслеживание изменений
+          href: manage/stay-on-top-of-updates.md
     - name: 'Служба Office 365, предоставляемая 21Vianet'
       items:
         - name: 'Сведения о службе Office 365, предоставляемой 21Vianet'
@@ -275,19 +60,194 @@
           href: services-in-china/apply-for-a-fapiao.md
         - name: Сравнение с Azure Information Protection
           href: services-in-china/parity-between-azure-information-protection.md
-    - name: Получение новых функций
+    - name: Управление пользователями и группами
+      href: add-users/index.yml
       items:
-        - name: Сведения о новом Центре администрирования
-          href: microsoft-365-admin-center-preview.md
-        - name: Новые возможности нового Центра администрирования
-          href: whats-new-in-preview.md
-        - name: Отслеживание изменений
-          href: manage/stay-on-top-of-updates.md
-        - name: "Варианты получения выпусков Office\_365"
-          href: manage/release-options-in-office-365.md
-        - name: Центр сообщений
+        - name: Пользователи
+          items:
+            - name: Добавление пользователей
+              href: add-users/add-users.md
+            - name: Добавление нового сотрудника
+              href: add-users/add-new-employee.md
+            - name: Назначение ролей администратора
+              href: add-users/assign-admin-roles.md
+            - name: Удаление лицензий пользователей
+              href: manage/remove-licenses-from-users.md
+            - name: Устранение конфликтов лицензий
+              href: manage/resolve-license-conflicts.md
+            - name: Изменение имени пользователя и адреса электронной почты
+              href: add-users/change-a-user-name-and-email-address.md
+            - name: Удаление бывшего сотрудника
+              href: add-users/remove-former-employee.md
+            - name: Доступ к данным бывшего пользователя и создание их резервной копии
+              href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
+            - name: Восстановление пользователя
+              href: add-users/restore-user.md
+            - name: Сброс паролей
+              href: add-users/reset-passwords.md
+            - name: Установка бессрочных паролей
+              href: add-users/set-password-to-never-expire.md
+            - name: Разрешение пользователям сбрасывать пароли
+              href: add-users/let-users-reset-passwords.md
+            - name: Повторная отправка паролей пользователей
+              href: add-users/resend-user-password.md
+            - name: Создание шаблона для добавления пользователей
+              href: add-users/create-and-use-a-template-to-add-users.md
+        - name: Группы
+          items:
+            - name: Обзор групп
+              href: create-groups/office-365-groups.md
+            - name: Сравнение групп
+              href: create-groups/compare-groups.md
+            - name: Создание группы
+              href: create-groups/create-groups.md
+            - name: Управление группами
+              href: create-groups/manage-groups.md
+            - name: Добавление и удаление участников группы
+              href: create-groups/add-or-remove-members-from-groups.md
+            - name: Восстановление удаленной группы
+              href: create-groups/restore-deleted-group.md
+            - name: Планирование управления группами
+              href: create-groups/plan-for-groups-governance.md
+            - name: Управление созданием групп
+              href: create-groups/manage-creation-of-groups.md
+            - name: Выбор домена для групп
+              href: create-groups/choose-domain-to-create-groups.md
+            - name: Обзор политик именования групп
+              href: create-groups/groups-naming-policy.md
+            - name: Разрешение участникам отправлять и получать письма из групп
+              href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
+            - name: Управление гостевым доступом к группам
+              href: create-groups/manage-guest-access-in-groups.md
+            - name: Использование меток конфиденциальности в группах
+              href: ../compliance/sensitivity-labels-teams-groups-sites.md
+    - name: Управление электронной почтой и календарями
+      href: email/index.yml
+      items:
+        - name: Сведения о параметрах электронной почты пользователей
+          href: email/office-365-user-email-settings.md
+        - name: Добавление дополнительных псевдонимов электронной почты для пользователя
+          href: email/add-another-email-alias-for-a-user.md
+        - name: Использование личного домена
+          href: email/change-email-address.md
+        - name: Создание подписей и заявлений об отказе
+          href: setup/create-signatures-and-disclaimers.md
+        - name: 'Создание, изменение и удаление группы безопасности'
+          href: email/create-edit-or-delete-a-security-group.md
+        - name: Настройка переадресации
+          href: email/configure-email-forwarding.md
+        - name: Общие почтовые ящики
+          items:
+            - name: Сведения об общих почтовых ящиках
+              href: email/about-shared-mailboxes.md
+            - name: Создание общего почтового ящика
+              href: email/create-a-shared-mailbox.md
+            - name: Настройка общего почтового ящика
+              href: email/configure-a-shared-mailbox.md
+            - name: Преобразование почтового ящика пользователя в общий почтовый ящик
+              href: email/convert-user-mailbox-to-shared-mailbox.md
+            - name: Удаление лицензии из общего почтового ящика
+              href: email/remove-license-from-shared-mailbox.md
+            - name: Решение проблем с общими почтовыми ящиками
+              href: email/resolve-issues-with-shared-mailboxes.md
+        - name: Настройка сортировки почты
+          href: setup/configure-focused-inbox.md
+        - name: Сведения о совместной работе в электронной почте
+          href: email/email-collaboration.md
+        - name: Добавление пользователя или контакта в группу рассылки
+          href: email/add-user-or-contact-to-distribution-list.md
+        - name: Управление функцией "Несрочные" для организации
+          href: email/configure-clutter.md
+    - name: Управление доменами
+      href: get-help-with-domains/what-is-a-domain.md
+      items:
+        - name: Добавление домена
+          href: setup/add-domain.md
+        - name: Приобретение домена
+          href: get-help-with-domains/buy-a-domain-name.md
+        - name: Удаление домена
+          href: get-help-with-domains/remove-a-domain.md
+        - name: Вопросы и ответы о доменах
+          href: setup/domains-faq.md
+        - name: Инструкции для конкретных узлов
+          items:
+            - name: Изменение серверов имен в любом узле DNS
+              href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
+            - name: Создание записей DNS в любом узле DNS
+              href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
+        - name: Устранение неполадок с доменом
+          href: get-help-with-domains/find-and-fix-issues.md
+    - name: Управление данными и службами
+      href: manage/index.yml
+      items:
+        - name: Обновление организации до последних версий приложений
+          href: setup/upgrade-users-to-latest-office-client.md
+        - name: Отслеживание активности пользователей с помощью отчетов
+          href: activity-reports/activity-reports.md
+        - name: Изменение контактных данных организации
+          href: manage/change-address-contact-and-more.md
+        - name: Обновление контактных данных администратора
+          href: manage/update-phone-number-and-email-address.md
+        - name: Установка срока действия пароля
+          href: manage/set-password-expiration-policy.md
+        - name: Настройка средства запуска приложений
+          href: manage/customize-the-app-launcher.md
+        - name: Требования для централизованного развертывания надстроек
+          href: manage/centralized-deployment-of-add-ins.md
+        - name: Установка надстроек и управление ими с помощью централизованного развертывания
+          href: manage/manage-deployment-of-add-ins.md
+        - name: Поиск партнера или торгового посредника
+          href: manage/find-your-partner-or-reseller.md
+        - name: Сведения о Центре сообщений
           href: manage/message-center.md
-        - name: Использование пробной версии или приобретение подписки на Microsoft 365
-          href: ../commerce/try-or-buy-microsoft-365.md
-    - name: Обращение в службу поддержки решений для бизнеса
+        - name: Управление сообщениями Центра сообщений
+          href: manage/manage-messages.md
+        - name: Настройка вариантов получения выпусков
+          href: manage/release-options-in-office-365.md
+        - name: Анализ использования Power BI
+          items:
+            - name: Сведения об анализе использования
+              href: usage-analytics/usage-analytics.md
+            - name: Включение анализа использования
+              href: usage-analytics/enable-usage-analytics.md
+            - name: Получение последней версии анализа использования
+              href: usage-analytics/get-the-latest-version-of-usage-analytics.md
+            - name: Поиск и использование отчетов
+              href: usage-analytics/navigate-and-utilize-reports.md
+            - name: Сведения об активных пользователях в отчетах об использовании
+              href: usage-analytics/active-user-in-usage-reports.md
+            - name: Настройка отчетов
+              href: usage-analytics/customize-reports.md
+            - name: Сведения о модели данных анализа использования
+              href: usage-analytics/usage-analytics-data-model.md
+            - name: Устранение ошибок анализа использования
+              href: usage-analytics/usage-analytics-errors.md
+    - name: Управление подписками и выставлением счетов
+      href: ../commerce/index.yml
+    - name: Защита организации
+      items:
+        - name: 10 основных способов защиты данных
+          href: security-and-compliance/secure-your-business-data.md
+        - name: Настройка многофакторной проверки подлинности
+          href: security-and-compliance/set-up-multi-factor-authentication.md
+        - name: Настройка многофакторной проверки подлинности (в Office 2013)
+          href: security-and-compliance/enable-modern-authentication.md
+        - name: Руководство по соответствию требованиям GDPR
+          href: security-and-compliance/gdpr-compliance.md
+    - name: Работа с клиентами
+      href: work-with-customers/index.yml
+      items:
+        - name: Предоставление внешнего общего доступа к сайтам и файлам
+          href: manage/share-sites-with-external-users.md
+        - name: Совместное использование календарей с гостевыми пользователями
+          href: manage/share-calendars-with-external-users.md
+        - name: Создание команды с доступом для гостей
+          href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
+        - name: Планирование собрания Teams с гостями
+          href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
+        - name: Присоединение к собранию Teams с гостями
+          href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
+    - name: Устранение неполадок
+      href: 'https://docs.microsoft.com/office/troubleshoot/'
+    - name: Обратитесь в службу поддержки
       href: contact-support-for-business-products.md
