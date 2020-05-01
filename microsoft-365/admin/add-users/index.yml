@@ -1,0 +1,80 @@
+### YamlMime:Landing
+title: Управление пользователями и группами
+summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+metadata:
+  title: Управление пользователями и группами
+  description: Управление паролями, Добавление и удаление пользователей, Настройка групп и управление лицензиями
+  ms.service: O365-administration
+  ms.subservice: subservice
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 01/27/2020
+  localization_priority: Priority
+  ms.openlocfilehash: fc4300d57f3a14a7f71b0ff61a3aedf4c54bbac6
+  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43955317"
+landingContent:
+- title: Управление пользователями
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Добавление пользователя
+      url: add-users.md
+    - text: Изменение пользователя
+      url: add-users.md
+    - text: Добавление другого адреса электронной почты
+      url: ../email/add-another-email-alias-for-a-user.md
+    - text: Создание общего почтового ящика
+      url: ../email/create-a-shared-mailbox.md
+    - text: Назначение лицензий пользователям
+      url: ../manage/assign-licenses-to-users.md
+    - text: Удаление лицензий у пользователей
+      url: ../manage/remove-licenses-from-users.md
+    - text: Использование личного домена
+      url: ../email/change-email-address.md
+- title: Управление группами
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Создание групп
+      url: ../create-groups/create-groups.md
+    - text: Добавление элементов
+      url: ../create-groups/add-or-remove-members-from-groups.md
+    - text: Восстановление или восстановление удаленной группы
+      url: ../create-groups/restore-deleted-group.md
+    - text: Управление гостевым доступом в группах
+      url: ../create-groups/manage-guest-access-in-groups.md
+- title: Управление паролями
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Сброс пароля пользователя
+      url: reset-passwords.md
+    - text: Установка срока действия паролей не ограничена
+      url: set-password-to-never-expire.md
+    - text: Предоставление пользователям прав на самостоятельный сброс пароля
+      url: let-users-reset-passwords.md
+    - text: Настройка политики истечения срока действия паролей для Организации
+      url: ../manage/set-password-expiration-policy.md
+    - text: Сброс пароля администратора
+      url: reset-passwords.md#reset-my-admin-password
+- title: Удаление сотрудника
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Удаление пользователя
+      url: delete-a-user.md
+    - text: Доступ к данным предыдущего пользователя и их резервное копирование
+      url: get-access-to-and-back-up-a-former-user-s-data.md
+    - text: Пересылка электронной почты другому пользователю
+      url: ../email/configure-email-forwarding.md
+    - text: Удаление лицензии
+      url: ../manage/remove-licenses-from-users.md
+    - text: Восстановление удаленного пользователя
+      url: restore-user.md
+    - text: Удаление данных компании с устройств (Microsoft 365 бизнес премиум)
+      url: ../../business/remove-company-data.md

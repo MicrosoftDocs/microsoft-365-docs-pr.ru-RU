@@ -1,0 +1,39 @@
+### YamlMime:Landing
+title: Взаимодействие с клиентами
+summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+metadata:
+  title: Взаимодействие с клиентами
+  description: Совместное использование документов и использование Teams для совместной работы и удовлетворения
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 299b7fa4cb98f05a1f5a3248fad59d3e8ea414ed
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952723"
+landingContent:
+- title: Взаимодействие с клиентами
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Предоставление внешнего общего доступа к сайтам и файлам
+      url: ../manage/share-sites-with-external-users.md
+    - text: Общий доступ к календарям для гостевых пользователей
+      url: ../manage/share-calendars-with-external-users.md
+  - linkListType: video
+    links:
+    - text: Создание группы с гостями
+      url: https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7
+    - text: Присоединение к команде в качестве гостя
+      url: https://support.office.com/article/928d1eef-61e2-49ec-b754-c2fe86b34824
+    - text: Чат с сотрудниками и клиентами
+      url: https://support.office.com/article/65748808-a403-462c-a6e1-b169e5bc6c92
+    - text: Планирование собрания Teams с гостями
+      url: https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
+    - text: Присоединение к собранию Teams с гостями
+      url: https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8

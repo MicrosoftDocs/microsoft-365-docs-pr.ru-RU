@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 0b5b128a0d4ea756a6cc6f926d1496de16520377
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-  ms.translationtype: HT
+  ms.openlocfilehash: bc20119ab3bda4a277a9c1085b7b71b8320019c6
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43636655"
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952611"
 highlightedContent:
   items:
   - title: Обучение для администраторов и ИТ-специалистов
@@ -46,7 +46,7 @@ additionalContent:
     items:
     - title: Центр администрирования Microsoft 365
       summary: Настройка служб Microsoft 365 для организации и управление ими.
-      url: ./admin/admin-home.md
+      url: ./admin/index.yml
     - title: Microsoft 365 бизнес премиум
       summary: Для предприятий малого и среднего бизнеса. Ведите свой бизнес с помощью последних версий Windows и приложений Office, таких как Excel и Outlook. Воспользуйтесь преимуществами защиты данных и обеспечения безопасности, действующими для всех устройств в вашей компании.
       url: ./business/index.yml

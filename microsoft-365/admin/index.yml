@@ -1,0 +1,72 @@
+### YamlMime:Hub
+title: Справка центра администрирования Microsoft 365
+summary: Изучите ресурсы для работы в центре администрирования Microsoft 365.
+brand: m365
+metadata:
+  title: Справка центра администрирования Microsoft 365
+  description: Настройте Office 365 и Microsoft 365 в центре администрирования Microsoft 365 и управляйте ими.
+  ms.service: O365-administration
+  ms.prod: microsoft-365-business
+  ms.topic: hub-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 11/08/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 8299bf7fa32e6a1678185370e2ae994d80ecf270
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952734"
+productDirectory:
+  title: Начало работы
+  summary: Настройте свою подписку и электронную почту, добавьте пользователей и установите приложения.
+  items:
+  - title: Начало работы
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: Регистрация и настройка Microsoft 365.
+    url: setup/index.yml
+  - title: Миграция данных
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-blue.svg
+    summary: Перемещение данных из другой службы в Microsoft 365.
+    url: setup/migrate-email-and-contacts-admin.md
+  - title: Установка приложений
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
+    summary: Установите Office и другие приложения Майкрософт для пользователей в Организации.
+    url: setup/install-applications.md
+  - title: Обучение пользователей
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: Помогите пользователям в вашей организации Узнайте, как хранить и совместно использовать файлы и использовать приложения Office.
+    url: https://support.office.com/office-training-center
+additionalContent:
+  sections:
+  - title: Управление
+    summary: Управляйте своей подпиской, службами и пользователями, обеспечьте защиту бизнеса и получите помощь в устранении неполадок.
+    items:
+    - title: Обзор центра администрирования Microsoft 365
+      summary: Сведения о ролях администратора, о том, как сохранить изменения и как настроить свою подписку.
+      url: admin-overview/about-the-admin-center.md
+    - title: Пользователи и группы
+      summary: Управлять паролями, добавлять и удалять пользователей, настраивать группы, управлять доступом гостей и назначать пользовательские лицензии.
+      url: add-users/index.yml
+    - title: Электронная почта и календари
+      summary: Управление параметрами электронной почты, группами рассылки и параметрами безопасности и настройка общих почтовых ящиков.
+      url: email/index.yml
+    - title: Домены
+      summary: Сведения о доменах, настройке и управлении доменами, а так же обновлении DNS-записей.
+      url: setup/add-domain.md
+    - title: Данные и службы
+      summary: Отслеживайте состояние службы, создайте резервную копию данных, установите надстройки и обновите их до последних версий приложений.
+      url: manage/index.yml
+    - title: Подписки и выставление счетов
+      summary: Управление векселями, подписками и лицензиями на продукты, обновление способов оплаты и приобретение дополнительных служб и хранилищ.
+      url: ../commerce/index.yml
+    - title: Защита Организации
+      summary: Создайте политики защиты от потери данных (DLP), настройте многофакторную проверку подлинности (MFA) и Узнайте о безопасности Майкрософт и GDPR.
+      url: security-and-compliance/secure-your-business-data.md
+    - title: Взаимодействие с клиентами
+      summary: Совместное использование документов и использование Teams для совместной работы и обеспечения соответствия.
+      url: work-with-customers/index.yml
+    - title: Устранение неполадок
+      summary: Доступ к ресурсам, которые помогут вам устранить проблемы с продуктами и службами Office.
+      url: https://docs.microsoft.com/office/troubleshoot/
