@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/24/2020
 ms.locfileid: "42234808"
 ---
-# <a name="deviceregistryevents"></a>девицерегистревентс
+# <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

@@ -72,7 +72,7 @@ ms.locfileid: "43630753"
 
 Teams использует группы Microsoft 365 для членства в группах. Чтобы гостевой доступ в Teams работали в Teams, необходимо включить параметры гостей для группы Microsoft 365.
 
-![Снимок экрана: параметры гостя групп Microsoft 365 в центре администрирования Microsoft 365](../media/office-365-groups-guest-settings.png)
+![Снимок экрана: гостевые параметры для групп Microsoft 365 в Центре администрирования Microsoft 365](../media/office-365-groups-guest-settings.png)
 
 Настройка параметров гостя для групп Microsoft 365
 

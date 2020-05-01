@@ -31,7 +31,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/21/2020
 ms.locfileid: "43627234"
 ---
-# <a name="get-microsoft-365-business-premium"></a>Получение Microsoft 365 бизнес премиум
+# <a name="get-microsoft-365-business-premium"></a>Получить Microsoft 365 бизнес премиум
 
 ## <a name="get-microsoft-365-business-premium-from-microsoft"></a>Получение Microsoft 365 бизнес премиум от Майкрософт
 

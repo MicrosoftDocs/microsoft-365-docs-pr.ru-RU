@@ -31,7 +31,7 @@ ms.locfileid: "43638062"
 
 Для получения дополнительных сведений о различных разрешениях, которые вы можете предоставить пользователям в центре безопасности & соответствия требованиям, изучите [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Чтобы выполнить действия, описанные в этой статье, необходимо быть глобальным администратором или членом группы ролей Организатионманажемент в центре безопасности & соответствия требованиям.
 
@@ -67,7 +67,7 @@ ms.locfileid: "43638062"
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Предоставление другому пользователю доступа к центру безопасности & соответствия требованиям с помощью PowerShell
 
-1. [Подключитесь к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 2. Воспользуйтесь командой **Add-RoleGroupMember**, чтобы добавить пользователя в группу ролей Organization Management (Управление организацией), как показано в следующем примере.
 

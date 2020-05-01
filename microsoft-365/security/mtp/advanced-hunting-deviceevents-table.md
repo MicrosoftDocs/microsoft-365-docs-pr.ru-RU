@@ -24,7 +24,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 02/24/2020
 ms.locfileid: "42235048"
 ---
-# <a name="deviceevents"></a>девицеевентс
+# <a name="deviceevents"></a>DeviceEvents
 
 **Область применения:**
 - Защита от угроз (Майкрософт)

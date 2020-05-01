@@ -103,7 +103,7 @@ ms.locfileid: "43707659"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Повторная активация подписки](reactivate-your-subscription.md)
   

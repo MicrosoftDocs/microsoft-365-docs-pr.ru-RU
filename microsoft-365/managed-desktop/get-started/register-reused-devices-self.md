@@ -43,7 +43,7 @@ ms.locfileid: "42250449"
 - Запустите сценарий Windows PowerShell, используя [Active Directory](#active-directory-powershell-script-method) или [вручную](#manual-powershell-script-method) на каждом устройстве, и соберите результаты в файл.
 - Запустите каждое устройство, но не завершите работу с программой установки Windows, и [Соберите хэши на съемном носителе флэш-памяти](#flash-drive-method).
 
-#### <a name="configuration-manager"></a>Configuration Manager
+#### <a name="configuration-manager"></a>Диспетчер конфигураций
 
 С помощью диспетчера конфигураций конечных точек Майкрософт можно собирать аппаратные хэши с существующих устройств, которые вы хотите зарегистрировать с помощью управляемого рабочего стола Майкрософт.
 

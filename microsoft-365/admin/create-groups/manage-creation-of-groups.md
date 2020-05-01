@@ -120,7 +120,7 @@ ms.locfileid: "43630409"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Например,
+Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Пример:
 
 `$GroupName = "Group Creators"`
 
