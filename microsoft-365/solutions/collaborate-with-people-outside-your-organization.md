@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Узнайте, как настроить Microsoft 365 для совместной работы с пользователями, не входящими в вашу организацию.
-ms.openlocfilehash: 1b2a15312dcaacc398bb521f3ecfb6e7453f66bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 338b486725f727506d654a4507d8ea47c6fa2bab
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630729"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002256"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Совместное работа с людьми за прев Организации
 
@@ -42,7 +46,7 @@ ms.locfileid: "43630729"
 
 - Рекомендации [по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку](best-practices-anonymous-sharing.md) подлинности. рекомендации по предоставлению общего доступа пользователям, не прошедшим проверку подлинности.
 - [Ограничение случайной экспозиции](share-limit-accidental-exposure.md) — Узнайте, как уменьшить вероятность случайного предоставления конфиденциального содержимого пользователям за пределами вашей организации.
-- [Создание безопасной среды общего доступа гостей](create-secure-guest-sharing-environment.md)) -Сведения о средствах, предоставляемых в Microsoft 365, чтобы обеспечить надежную и безопасную совместную работу пользователей, не входящих в вашу организацию, и соответствующих требованиям к управлению.
+- [Создание безопасной среды общего доступа](create-secure-guest-sharing-environment.md) : сведения о средствах, предоставляемых в Microsoft 365, чтобы обеспечить надежную и безопасную работу с пользователями, не связанными с вашей организацией, а также соответствие требованиям к управлению.
 
 ## <a name="collaborate-with-partner-companies"></a>Совместное сотрудничество с компаниями-партнерами
 
