@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как доставлять приложения Office и бизнес-приложения.
-ms.openlocfilehash: bf610f6d6684cf8fb6211301468747fbecf3d8f1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab40e59face9e8c4b37db15a9c815ea5579b4a2c
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636800"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011643"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>Этап 3. Доставка приложений Office и бизнес-приложений
 
@@ -63,9 +63,9 @@ ms.locfileid: "43636800"
 
 Если вы хотите включить в свой образ приложения Microsoft 365 для предприятий, помните, что для этого используется активация на основе пользователя; он не может быть предварительно активирован системным администратором. Используйте средство развертывания Office, чтобы предварительно установить Office на устройство, на которое вы создаете образ, и пропустить вход пользователя. После развертывания образа конечные пользователи могут войти в систему, используя свои учетные данные, и активировать приложения Microsoft 365 для предприятий.
 
-[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[Развертывание приложений Microsoft 365 для предприятия как части образа операционной системы](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[Развертывание приложений Microsoft 365 как части образа операционной системы](https://docs.microsoft.com/deployoffice/deploy-microsoft-365-apps-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Технология "нажми и работай" в Office 
 
@@ -81,11 +81,11 @@ ms.locfileid: "43636800"
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[Руководство по развертыванию приложений Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+[Руководство по развертыванию приложений Microsoft 365](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[Удалите существующие версии MSI Office при обновлении до приложений Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
+[Удаление существующих MSI-версий Office при обновлении до приложений Microsoft 365](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Управление приложениями Microsoft 365 для предприятий с помощью диспетчера конфигураций](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Управление приложениями Microsoft 365 для предприятий с помощью диспетчера конфигураций](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 [Назначение приложений Office 365 устройствам на базе Windows 10 с помощью Microsoft Intune](https://docs.microsoft.com/intune/apps-add-office365)
 
@@ -107,7 +107,7 @@ Microsoft Store для бизнеса предоставляет гибкий с
 
 ## <a name="msix-containerization"></a>Контейнеризация MSIX
 
-Новый вариант упаковывания приложений — MSIX. MSIX использует технологию контейнеризации, доступную в Windows, собирая воедино лучшие аспекты технологии "нажми и работай", UWP и пакетов MSI. Благодаря средствам для миграции имеющихся установщиков (например, EXE, MSI, APPV и APPX) непосредственно в MSIX, контейнеризация MSIX предоставляет единый путь для многих используемых в настоящее время технологий установки. Поддержка MSIX включена в текущие версии Windows: любое устройство под управлением Windows 10 RS5 или более поздней версии включает все необходимое для установки и запуска приложений из пакетов MSIX. Windows 10 динамически интегрирует полученные контейнеры MSIX, отделяя приложения от операционной системы.
+Новый вариант упаковывания приложений — MSIX. MSIX использует технологию контейнеризации, доступную в Windows, собирая воедино лучшие аспекты технологии "нажми и работай", UWP и пакетов MSI. Благодаря средствам для миграции имеющихся установщиков (например, EXE, MSI, APPV и APPX) непосредственно в MSIX, контейнеризация MSIX обеспечивает единый путь для многих используемых в настоящее время технологий установки. Поддержка MSIX включена в текущие версии Windows: любое устройство под управлением Windows 10 RS5 или более поздней версии включает все необходимое для установки и запуска приложений из пакетов MSIX. Windows 10 динамически интегрирует полученные контейнеры MSIX, отделяя приложения от операционной системы.
 
 Контейнеризация обеспечивает чистое удаление программ и пакетов, в отличие от многих современных пакетов MSI и EXE, которые могут оставлять элементы в системе. Кроме того, благодаря ей для установки достаточно учетных данных обычного пользователя — вам не нужны учетные данные администратора, чтобы устанавливать контейнеры MSIX. Контейнеры MSIX также обеспечивают более эффективное обновление. При публикации обновления использование дифференциалов на уровне блоков означает, что применяются только новые двоичные файлы, что снижает полезную нагрузку обновления, время развертывания и потребление полосы пропускания сети.
 

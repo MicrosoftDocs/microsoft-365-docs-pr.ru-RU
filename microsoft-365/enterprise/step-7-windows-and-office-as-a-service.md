@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовиться к обслуживанию Windows и Office в вашей среде.
-ms.openlocfilehash: 422cbd4fd8310a9bc63696c0ea6e9da858c51230
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636739"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011619"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Этап 7. Обслуживание Windows и Office
 
@@ -83,7 +83,7 @@ ms.locfileid: "43636739"
 
 [Развертывание обновлений Windows 10 с помощью Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Управление приложениями Microsoft 365 для предприятий с помощью диспетчера конфигураций](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Управление приложениями Microsoft 365 для предприятий с помощью диспетчера конфигураций](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Общие сведения о каналах для Windows и Office
 
@@ -103,7 +103,7 @@ ms.locfileid: "43636739"
 Подробные сведения о каналах обслуживания Windows и Office см. в указанных ниже статьях.
 
 - [Обзор модели "Windows как услуга"](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels)
-- [Обзор каналов обновления для приложений Microsoft 365 для предприятий](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- [Обзор каналов обновления для приложений Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>Поэтапное развертывание обновлений
 
@@ -141,7 +141,7 @@ ms.locfileid: "43636739"
 
 [Windows Semi-Annual Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Semi-Annual Channel для приложений Microsoft 365 для предприятий](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+[Semi-Annual Channel для приложений Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Последовательности задач обновления
 
@@ -153,7 +153,7 @@ ms.locfileid: "43636739"
 
 Если вы уже используете последовательности задач для переноса компьютеров с Windows 7 на Windows 10 и хорошо владеете этими инструментами, то это отличная отправная точка, предоставляющая полный контроль. Вы можете использовать одну последовательность задач для всего обновления, но во многих организациях используется две последовательности. Одна гарантирует, что компьютеры готовы к обновлению, незаметно подготавливая все необходимые установочные файлы на целевых компьютерах, а другая выполняет само обновление. Этот подход обеспечивает меньшее воздействие на продуктивность пользователей.
 
-[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>Поддержка обновлений компонентов в полугодовом канале
 

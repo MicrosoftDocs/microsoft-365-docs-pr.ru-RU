@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7df489b75f1c104bb9ad541bbdc2ce09e7a669de
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631517"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011963"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -104,7 +104,7 @@ ms.locfileid: "43631517"
 ### <a name="windows-and-office-as-a-service"></a>Windows и Office как служба
   - Управление Центром обновления Windows с помощью групповой политики
   - Обслуживание Windows 10 с помощью Configuration Manager и Intune
-  - Обслуживание Office 365 профессиональный плюс с помощью Configuration Manager
+  - Обслуживание приложений Microsoft 365 для предприятий с помощью Configuration Manager
 
 ### <a name="new-windows-virtual-desktop"></a>НОВИНКА! Виртуальный рабочий стол Windows
   - Виртуальный рабочий стол Windows: подготовка, развертывание, оптимизация 
@@ -121,11 +121,11 @@ ms.locfileid: "43631517"
 
   - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 
-  - [Развертывание ОС в Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
+  - [Развертывание ОС в Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Планирование развертывания Windows 10</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span class="underline">Руководство по развертыванию Приложений Microsoft 365 для предприятий</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">Руководство по развертыванию приложений Microsoft 365</span>](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
   - [<span class="underline">Начало работы с Intune</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 
