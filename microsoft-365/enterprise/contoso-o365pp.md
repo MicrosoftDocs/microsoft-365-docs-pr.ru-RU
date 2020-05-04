@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Здесь объясняется, как в компании Contoso используют Microsoft Endpoint Configuration Manager для развертывания приложений Microsoft 365 для предприятий.
-ms.openlocfilehash: eca3978103ca1e590d747b3549a3c9e393f871ca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ff05a079d83389ed94445fc011b9f7902c6de56
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625258"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011891"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Развертывание приложений Microsoft 365 для предприятий в компании Contoso
 
@@ -40,7 +40,7 @@ ms.locfileid: "43625258"
 - Функция интеллектуального развертывания языковых пакетов, поддерживающая развертывание языка, который используется в операционной системе.
 - Полностью поддерживаемый и простой в использовании метод удаления существующих версий Office из клиента в процессе развертывания.
 
-Помимо Configuration Manager в компании Contoso использовали [Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro) (бесплатное средство корпорации Майкрософт) для оценки проблем совместимости с макросами и надстройками Office компании.
+Помимо Configuration Manager в компании Contoso использовали [Readiness Toolkit](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps) (бесплатное средство корпорации Майкрософт) для оценки проблем совместимости с макросами и надстройками Office компании.
 
 ## <a name="managing-the-deployment-and-updates"></a>Управление развертыванием и обновлениями
 
@@ -51,7 +51,7 @@ ms.locfileid: "43625258"
 
 Вместо того чтобы управлять обновлениями Office с помощью Configuration Manager, в компании Contoso включили автоматические обновления из облака. Использование облачных обновлений позволило сократить затраты на администрирование и обеспечить актуальность устройств. 
 
-Для обновления функций специалисты компании Contoso использовали тот же двухэтапный подход, который они применяли при развертывании Office: устройства, входящие в пилотную группу, получали обновления функций на 4 месяца раньше, чем остальные устройства организации (в широкой группе). Для реализации такого подхода для Office в компании Contoso использовали два указанных ниже рекомендованных [канала обновления](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus). 
+Для обновления функций специалисты компании Contoso использовали тот же двухэтапный подход, который они применяли при развертывании Office: устройства, входящие в пилотную группу, получали обновления функций на 4 месяца раньше, чем остальные устройства организации (в широкой группе). Для реализации такого подхода для Office в компании Contoso использовали два указанных ниже рекомендованных [канала обновления](https://docs.microsoft.com/DeployOffice/overview-update-channels). 
 
 - Канал Semi-Annual Channel (Targeted) для обновлений устройств пилотной группы. 
 - Канал Semi-Annual Channel для обновлений в широкой группе. 

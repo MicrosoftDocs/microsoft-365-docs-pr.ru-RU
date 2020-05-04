@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте о возможностях развертывания ОС и обновления компонентов.
-ms.openlocfilehash: d22a0993b256a1bea1a6a5ac61f14b144c6ac6c7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f372c41b113286d4ecff679f16581200264a9bdd
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636763"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011631"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>Шаг 6. Обновления компонентов и развертывание ОС
 
@@ -57,7 +57,7 @@ ms.locfileid: "43636763"
 
 [Создание эталонного образа Windows 10](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[Создание последовательности задач для установки операционной системы](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>Типы развертывания
 
@@ -89,7 +89,7 @@ ms.locfileid: "43636763"
 
 [Обновление на месте до Windows 10 с помощью Configuration Manager](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>Поэтапное развертывание
 
@@ -101,7 +101,7 @@ ms.locfileid: "43636763"
 
 Любой выбранный вариант развертывания нужно максимально автоматизировать, чтобы добиться прогнозируемых и повторяемых результатов. Корпорация Майкрософт предлагает два решения для автоматизации развертывания операционной системы с помощью автоматизированных последовательностей задач, описанные ниже.
 
-  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/core/understand/introduction)** (ConfigMgr), помимо средств управления распространением программного обеспечения и его обновлением, имеет встроенные возможности развертывания операционной системы. ConfigMgr широко применяется организациями всех размеров и поддерживает все четыре типа развертывания Windows. При желании можно интегрировать ConfigMgr в Microsoft Intune, добавив дополнительные возможности развертывания и управления устройствами.
+  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction)** (ConfigMgr), помимо средств управления распространением программного обеспечения и его обновлением, имеет встроенные возможности развертывания операционной системы. ConfigMgr широко применяется организациями всех размеров и поддерживает все четыре типа развертывания Windows. При желании можно интегрировать ConfigMgr в Microsoft Intune, добавив дополнительные возможности развертывания и управления устройствами.
 
   - Другой популярный вариант развертывания — бесплатное средство **[Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)** (MDT), с помощью которого обычно развертывают операционные системы в компаниях малого и среднего бизнеса. В этом случае требуется очень небольшая инфраструктура. MDT интегрируется со службами развертывания Windows (WDS) для загрузки из сети и поддерживает все четыре типа развертывания, а также установку приложений, драйверов и параметров. Разумеется, MDT можно интегрировать с Configuration Manager.
 
