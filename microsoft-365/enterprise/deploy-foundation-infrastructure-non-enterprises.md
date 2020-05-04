@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Предлагаем упрощенную пошаговую инструкцию для базовой инфраструктуры Microsoft 365 для предприятий для некорпоративных организаций.
-ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638264"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011903"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Базовая инфраструктура Microsoft 365 для предприятий для некорпоративных организаций
 
@@ -215,7 +215,7 @@ Azure AD проверяет условия входа пользователей
 
 ## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>Этап 4. Приложения Microsoft 365 для предприятий
 
-В состав Microsoft 365 для предприятий входят приложения Microsoft 365 для предприятий — это версия Microsoft Office, доступная по подписке. Приложения Microsoft 365 для предприятий, как и Office 2016 или Office 2019, устанавливается непосредственно на клиентских устройствах. При этом приложения Microsoft 365 для предприятий получают обновления, регулярно включающие новые функции. Дополнительные сведения см. в статье [Приложения Microsoft 365 для предприятий на предприятии](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise).
+В состав Microsoft 365 для предприятий входят приложения Microsoft 365 для предприятий — это версия Microsoft Office, доступная по подписке. Приложения Microsoft 365 для предприятий, как и Office 2016 или Office 2019, устанавливается непосредственно на клиентских устройствах. При этом приложения Microsoft 365 для предприятий получают обновления, регулярно включающие новые функции. Дополнительные сведения см. в статье [О приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps).
 
 В некорпоративной организации необходимо вручную установить приложения Microsoft 365 для предприятий на устройствах, в том числе устройствах с Windows, iOS и Android. Это можно сделать при подготовке новых устройств к использованию, также это могут сделать пользователи в процессе перехода на новую инфраструктуру.
 

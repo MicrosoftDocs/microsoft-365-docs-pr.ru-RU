@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье описана базовая структура локальной ИТ-инфраструктуры компании Contoso и способы удовлетворения потребностей компании с помощью Microsoft 365 корпоративный.
-ms.openlocfilehash: 38d2b8df611cb06e19abba074f49e00d95496c30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3899466e6c8ad50ad3a3d97863d1368ba1d8af20
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625294"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011201"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -110,7 +110,7 @@ ms.locfileid: "43625294"
 
 - Снижение издержек на ИТ-инфраструктуру в части управления программным обеспечением, работающим на клиентских ПК и устройствах
 
-  Автоматизация установки обновлений в ОС Windows и Microsoft Office профессиональный плюс в организации.
+  Автоматизация установки в организации обновлений в ОС Windows и приложений Microsoft 365 для предприятий.
 
 ## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>Сопоставление бизнес-потребностей компании Contoso с возможностями, предоставляемыми Microsoft 365 корпоративный
 

@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 53d50321ffa2870fb0e94e9f6b7f005b8c666c2d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631541"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011799"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
 
@@ -49,7 +49,7 @@ ms.locfileid: "43631541"
 - Эти старые версии не оптимизированы для использования облачных технологий Майкрософт и перехода предприятия на цифровые технологии.
 - Эти старые версии не содержат новые функции.
  
-Microsoft 365 корпоративный включает Приложения Microsoft 365 для предприятий, версию клиента Office, которая доступна по лицензии на Microsoft 365 корпоративный, а также устанавливается и обновляется из облака Microsoft. Приложения Microsoft 365 для предприятий включает обновления системы безопасности и новейшие функции. Дополнительные сведения см. в статье [О Приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise).
+Microsoft 365 корпоративный включает Приложения Microsoft 365 для предприятий, версию клиента Office, которая доступна по лицензии на Microsoft 365 корпоративный, а также устанавливается и обновляется из облака Microsoft. Приложения Microsoft 365 для предприятий включает обновления системы безопасности и новейшие функции. Дополнительные сведения см. в статье [О приложениях Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps).
 
 ### <a name="office-2007"></a>Office 2007
 
