@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 53b5bc1bad9a67543fccaa8dcb3223307d2634b9
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 8b792fa659866682df32130992340d9089aebfe7
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003136"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011855"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Примеры производительности Microsoft 365
 
@@ -124,12 +124,12 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 <a name="msd"></a>
 ### <a name="deploy-a-modern-and-secure-desktop-with-microsoft"></a>Развертывание современной и безопасной настольной системы с помощью Майкрософт
 
-Что ИТ-архитекторам нужно знать о развертывании обновлений для Office 365 профессиональный плюс в Windows 10 и управлении ими.
+Какие ИТ-архитекторы должны знать о развертывании и управлении обновлениями для приложений Microsoft 365 для предприятий (ранее именуемых Office 365 профессиональный плюс) в Windows 10.
   
 
 |**Элемент**|**Описание**|
 |:-----|:-----|
-|[![Эскиз модели развертывания современной и безопасной настольной системы с помощью Майкрософт](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Обновлено 2017 сентября | Эта модель содержит: <ul><li>  Развертывание Windows 10 и Office профессиональный плюс из облака Майкрософт </li><li>  Развертывание Windows 10 и Office профессиональный плюс с помощью Microsoft Endpoint Configuration Manager </li><li>  Управление обновлениями для Windows 10 и Office профессиональный плюс из облака Майкрософт </li><li>  Управление обновлениями для Windows 10 и Office профессиональный плюс с помощью Microsoft Endpoint Configuration Manager </li><li>  Встроенные и дополнительные механизмы защиты Windows 10 </li></ul><br/> |
+|[![Эскиз модели развертывания современной и безопасной настольной системы с помощью Майкрософт](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Обновлено 2017 сентября | Эта модель содержит: <ul><li>  Развертывание приложений Windows 10 и Microsoft 365 для предприятий из Microsoft Cloud </li><li>  Развертывание приложений Windows 10 и Microsoft 365 для предприятий с помощью диспетчера конфигураций конечных точек Майкрософт </li><li>  Управление обновлениями для приложений Windows 10 и Microsoft 365 для предприятий из Microsoft Cloud </li><li>  Управление обновлениями для приложений для Windows 10 и Microsoft 365 для корпоративных приложений с помощью диспетчера конфигураций конечных точек Майкрософт </li><li>  Встроенные и дополнительные механизмы защиты Windows 10 </li></ul><br/> |
    
 ## <a name="see-also"></a>См. также
 

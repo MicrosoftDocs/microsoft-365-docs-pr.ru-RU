@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Ознакомьтесь с ответами на часто задаваемые вопросы о централизованном развертывании в центре администрирования Microsoft 365.
-ms.openlocfilehash: 39df2ec5a1671f800572bc845581bdbe2716d209
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209668"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011739"
 ---
 # <a name="centralized-deployment-faq"></a>Вопросы и ответы о централизованном развертывании
 
@@ -31,7 +31,7 @@ ms.locfileid: "43209668"
   
 ## <a name="how-do-i-know-if-my-organization-is-set-up-for-centralized-deployment"></a>Как узнать, настроена ли Организация для централизованного развертывания?  
 
-Для централизованного развертывания надстроек необходимо, чтобы пользователи выполняли Office 365 профессиональный плюс (а также вошли в Office с помощью учетных данных Организации) и иметь почтовые ящики Exchange Online. Каталог подписки должен находиться в службе Azure Active Directory или быть Федеративной для нее.  
+Для централизованного развертывания надстроек необходимо, чтобы пользователи выполняли приложения Microsoft 365 для предприятий (и вошли в Office с помощью учетных данных Организации) и иметь почтовые ящики Exchange Online. Каталог подписки должен находиться в службе Azure Active Directory или быть Федеративной для нее.  
  
 Централизованное развертывание поддерживается только для веб-почтовых ящиков. Он не поддерживает развертывание для локальных почтовых ящиков Exchange.
  

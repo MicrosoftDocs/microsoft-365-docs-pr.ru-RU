@@ -1,6 +1,6 @@
 ---
 title: Центр решений и архитектуры Microsoft 365
-description: Описание.
+description: Ознакомьтесь с техническими рекомендациями, необходимыми для изучения, планирования и внедрения решений Microsoft 365 для обеспечения безопасности и соответствия требованиям современного взаимодействия.
 ms.author: samanro
 author: samanro
 manager: bcarter
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 3442e51a3487be859ba546f5be2cab6e8e574de4
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: d621586e5ff50bce7be68117a940fc54607362c2
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002940"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011751"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Центр решений и архитектуры Microsoft 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "44002940"
 
 ![На](https://docs.microsoft.com/office/media/icons/cloud-architecture2.png) **[иллюстрациях и архитектурах,](productivity-illustrations.md)** приведенных в облаке и архитектуре, вы можете просмотреть или загрузить эти иллюстрации, чтобы ознакомиться с возможностями Microsoft 365 и архитектурой облачных служб Microsoft 365.
 
-![Рекомендации по работе](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) с лентой, **[относящиеся к отраслевым](industry-specific-guidance-overview.md)** рекомендациям, чтобы найти рекомендации по работе с финансами, здравоохранение и образованием.
+![Рекомендации по работе](https://docs.microsoft.com/office/media/icons/best-practices-blue.png) с лентой, **[относящиеся к отраслевым](industry-specific-guidance-overview.md)** рекомендациям, чтобы найти рекомендации по вашей отрасли (финансы, здравоохранение и образование).
 
 ![](https://docs.microsoft.com/office/media/icons/layout-navigation-blue.png) **[Принципы проектирования](design-principles.md)** символов структуры и навигации Познакомьтесь с ключевыми принципами, необходимыми для изучения архитектур сети, удостоверений, безопасности и многоязычности.
 

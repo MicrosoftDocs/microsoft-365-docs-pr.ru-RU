@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 763a9f3c7c517a5d093b9691310720468053bf24
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02e6eb5914af9ad72971029913d31b214ebbd190
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636478"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011939"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Способ обработки обновлений на настольных компьютерах, управляемых Майкрософт
 
@@ -64,7 +64,7 @@ ms.locfileid: "43636478"
 <tr><td>Приложения Microsoft 365 для предприятий</td><td colspan="4">Следующий месячный канал Office
 </table>
 
-Дополнительные сведения о месячном канале для приложений Microsoft 365 для предприятий можно найти в статье [Обзор каналов обновления для приложений microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus).
+Дополнительные сведения о месячном канале для приложений Microsoft 365 для предприятий можно найти в статье [Обзор каналов обновления для приложений microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-channels).
 
 >[!NOTE]
 >Эти периоды задержки предназначены специально для обеспечения высокого уровня безопасности и производительности для всех пользователей. Кроме того, на основе данных, собранных на компьютерах с управляемыми службами Майкрософт и различной области и влиянии на обновления, для настольных систем, управляемых Майкрософт, резервируется гибкость для изменения длины указанных выше периодов задержки для всех групп развертывания на основе ad hoc.

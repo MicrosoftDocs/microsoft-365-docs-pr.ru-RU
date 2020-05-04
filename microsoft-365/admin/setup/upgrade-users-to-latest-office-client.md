@@ -19,12 +19,12 @@ ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Узнайте, как обновить пользователей до последней версии клиента Office.
-ms.openlocfilehash: 148069011784b822c5ce366190afd60bf278772f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2140e246882d9d9b30481bc20b78142708408f88
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627538"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011280"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Обновление Microsoft 365 для бизнеса пользователей до последней версии клиента Office
 
@@ -124,4 +124,4 @@ ms.locfileid: "43627538"
 Если вы проверили, что у всех пользователей есть лицензии, на последнем этапе необходимо установить Office, ознакомиться в статье [Загрузка и установка или повторная установка Office на компьютере или Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).
   
 > [!TIP]
-> Если вы не хотите, чтобы пользователи установили Office самостоятельно, ознакомьтесь со статьей [Управление параметрами загрузки программ в office 365](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365). [Средство развертывания Office](https://docs.microsoft.com/DeployOffice/overview-of-the-office-2016-deployment-tool) можно использовать для загрузки программного обеспечения Office в локальную сеть и последующего развертывания Office с помощью метода развертывания программного обеспечения, который обычно используется.
+> Если вы не хотите, чтобы пользователи установили Office самостоятельно, ознакомьтесь со статьей [Управление параметрами загрузки программ в office 365](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365). [Средство развертывания Office](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool) можно использовать для загрузки программного обеспечения Office в локальную сеть и последующего развертывания Office с помощью метода развертывания программного обеспечения, который обычно используется.

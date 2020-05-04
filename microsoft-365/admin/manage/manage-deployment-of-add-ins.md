@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте, как развертывать надстройки для пользователей и групп в Организации с помощью централизованного развертывания в центре администрирования.
-ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628164"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011715"
 ---
-# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Управление развертыванием надстроек в центре администрирования Microsoft 365
+# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Управление развертыванием надстроек в Центре администрирования Microsoft 365
 
 Надстройки Office помогают настраивать документы и оптимизировать способ доступа к данным в Интернете (см. раздел [Начало работы с надстройкой Office](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx)). Как администратор вы можете развертывать надстройки Office для пользователей в Организации. Это можно сделать с помощью функции централизованного развертывания в центре администрирования Microsoft 365.
   
@@ -211,8 +211,8 @@ ms.locfileid: "43628164"
 |||
 |:-----|:-----|
 |**Платформа** <br/> |**Номер сборки** <br/> |
-|Office 2016 профессиональный плюс ежемесячно для Windows  <br/> |9001,2138   <br/> |
-|Office 2016 профессиональный плюс в полугодии  <br/> |8431,2159  <br/> |
+|Приложения Microsoft 365 для предприятий (месячный канал)  <br/> |9001,2138   <br/> |
+|Приложения Microsoft 365 для предприятий (половина канала)  <br/> |8431,2159  <br/> |
 |Office 2016 для Windows  <br/> |16.0.4672.1000  <br/> |
 |Office 2013 для Windows  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 для Mac  <br/> |16.11.18020200  <br/> |

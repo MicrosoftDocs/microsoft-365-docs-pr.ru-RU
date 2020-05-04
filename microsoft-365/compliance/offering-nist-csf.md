@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b380604e908d91feacefe6b54ed3d3f08dcea0fa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49eb9ae31ab913be30b2b96735f15ae57e85a10f
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637801"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011236"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>Национальный институт стандартов и технологий (NIST) Циберсекурити Framework (CSF)
 
@@ -88,7 +88,7 @@ NIST Циберсекурити Framework (CSF) — это невольная п
 
 **Каковы службы в области для Office 365?**
 
-Службы, доступные в области сертификации NIST CSF, — это Архивация на базе Exchange Online, Exchange Online Protection, Exchange Online, Skype для бизнеса, центр администрирования, SharePoint Online, Project Online, OneDrive для бизнеса, Office Online, MyAnalytics, Microsoft Teams, Office профессиональный плюс в Office 365 многопользовательское облако и Office 365 GCC.
+Службы, доступные в области сертификации NIST CSF, — это Архивация на базе Exchange Online, Exchange Online Protection, Exchange Online, Skype для бизнеса, центр администрирования, SharePoint Online, Project Online, OneDrive для бизнеса, Office Online, MyAnalytics, Microsoft Teams, Microsoft 365 приложения для предприятий в Office 365 с несколькими клиентами и Office 365 GCC.
 
 > [!NOTE]
 > Приложения Microsoft 365 для предприятий обеспечивают доступ к различным облачным службам, таким как параметры роуминга, лицензирование и облачное хранилище для потребителей OneDrive, и могут включать доступ к дополнительным облачным службам в будущем. Параметры и лицензирование роуминга обеспечивают стандарты для HITRUST. Облачное хранилище для потребителей OneDrive не работает, а другие облачные службы, доступные через приложения Microsoft 365 для предприятий и которые корпорация Майкрософт может предоставить в будущем, также могут не поддерживать эти стандарты. *

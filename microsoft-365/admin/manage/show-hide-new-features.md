@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 'Определите, какие компоненты и сведения о содержимом: будут отображаться или скрыты от конечных пользователей в разделе "новые возможности управления Office для настольных приложений Office".'
-ms.openlocfilehash: de4191529c58dd471c6f24e86bdff2177a38b51d
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 7399da493f8e6878a92dc13d92482d7ddece0ba3
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131980"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011703"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Отображение и скрытие новых функций с помощью управления новыми возможностями
 
@@ -62,8 +62,8 @@ ms.locfileid: "43131980"
 |**Половина года (Целевая)** <br/> |1 сентября и 1 марта <br/> | 2 недели перед основным выпуском, в котором переносятся новые функции
 |**Половина года** <br/> |1 января и 1 июля <br/> | 2 недели перед основным выпуском, в котором переносятся новые функции<br/> |
 
-Дополнительные сведения о расписаниях обновления каналов можно узнать [в статье журнал обновлений для Office 365 профессиональный плюс (указывается по дате)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
+Для получения дополнительных сведений о расписаниях обновления каналов ознакомьтесь с разработкой [журнала обновлений для приложений Microsoft 365 (в порядке даты)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Новые возможности управления в Office теперь доступны в целом](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-is-now-generally-available/ba-p/1179954)

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать командлет PowerShell Алловселфсервицепурчасе для включения или отключения самостоятельной покупки.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0e9f9e3ee87f62b903e4bf7069f31319253de62d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6c0bcec70eab4266674ca2a22f1b2054807a26e8
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080346"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011679"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Использование Алловселфсервицепурчасе для модуля PowerShell Мскоммерце
 
@@ -33,7 +33,7 @@ ms.locfileid: "42080346"
 - Просмотр списка доступных продуктов и включение или отключение самостоятельной покупки
 - Просмотр или изменение текущего значения для конкретного продукта, чтобы включить или отключить его
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Чтобы использовать модуль PowerShell **мскоммерце** , вам потребуется следующее:
 
@@ -139,7 +139,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 **Решение**
 
-Обновление до TLS 1,2:[https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2)
+Обновление до TLS 1,2:[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)
 
 <!--
 ## Uninstall the MSCommerce module
