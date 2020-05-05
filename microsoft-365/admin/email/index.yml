@@ -23,7 +23,7 @@ landingContent:
     links:
     - text: Управление параметрами электронной почты пользователя
       url: office-365-user-email-settings.md
-    - text: Совместная работа с электронной почтой
+    - text: Сведения о совместной работе в электронной почте
       url: email-collaboration.md
   - linkListType: how-to-guide
     links:
@@ -31,7 +31,7 @@ landingContent:
       url: add-another-email-alias-for-a-user.md
     - text: Использование личного домена
       url: change-email-address.md
-    - text: Настройка переадресации электронной почты
+    - text: Настройка переадресации
       url: configure-email-forwarding.md
     - text: Работать с группами безопасности
       url: create-edit-or-delete-a-security-group.md

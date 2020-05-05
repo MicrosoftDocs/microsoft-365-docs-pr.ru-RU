@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 8b792fa659866682df32130992340d9089aebfe7
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 8482c6591958e36f2c764d61f3fa7116f348f8d8
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011855"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022136"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Примеры производительности Microsoft 365
 
@@ -121,18 +121,9 @@ This guidance includes Test Lab Guides. For more information, see [Microsoft Sec
 
 Дополнительные сведения см. в статье [Решения Майкрософт для телефонии](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
-<a name="msd"></a>
-### <a name="deploy-a-modern-and-secure-desktop-with-microsoft"></a>Развертывание современной и безопасной настольной системы с помощью Майкрософт
-
-Какие ИТ-архитекторы должны знать о развертывании и управлении обновлениями для приложений Microsoft 365 для предприятий (ранее именуемых Office 365 профессиональный плюс) в Windows 10.
   
-
-|**Элемент**|**Описание**|
-|:-----|:-----|
-|[![Эскиз модели развертывания современной и безопасной настольной системы с помощью Майкрософт](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>Обновлено 2017 сентября | Эта модель содержит: <ul><li>  Развертывание приложений Windows 10 и Microsoft 365 для предприятий из Microsoft Cloud </li><li>  Развертывание приложений Windows 10 и Microsoft 365 для предприятий с помощью диспетчера конфигураций конечных точек Майкрософт </li><li>  Управление обновлениями для приложений Windows 10 и Microsoft 365 для предприятий из Microsoft Cloud </li><li>  Управление обновлениями для приложений для Windows 10 и Microsoft 365 для корпоративных приложений с помощью диспетчера конфигураций конечных точек Майкрософт </li><li>  Встроенные и дополнительные механизмы защиты Windows 10 </li></ul><br/> |
-   
 ## <a name="see-also"></a>См. также
 
 [Архитектурные модели для SharePoint, Exchange, Skype для бизнеса и Lync](https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync)
   
-[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по созданию сред разработки и тестирования облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)

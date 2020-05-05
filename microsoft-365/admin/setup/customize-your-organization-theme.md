@@ -2,8 +2,8 @@
 title: Настройка темы для Организации
 f1.keywords:
 - CSH
-ms.author: twerner
-author: twernermsft
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Сведения о том, как изменить тему по умолчанию Microsoft 365 и настроить ее на использование логотипа или цвета вашей компании. '
-ms.openlocfilehash: 06b247da1a8ac1f330f2ad36c8b29897963819f3
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: cfde26e2b7f6d74a59b7431091fbc3c2f6049ec6
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900778"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022124"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Настройка темы Microsoft 365 для Организации
 
@@ -94,7 +94,7 @@ ms.locfileid: "43900778"
       - **Цвет текста и значков**: выберите цвет, отличающийся от цвета фирменного стиля, выбранного для **цвета панели навигации**. Рекомендуется #252423 для темного цвета и #FAF9F7 для светлого цвета.
       - **Контрастный цвет**: темный цвет фирменной символики. В некоторых приложениях этот цвет должен быть виден на светлом фоне.
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление настраиваемых плиток в средство запуска приложений](../manage/customize-the-app-launcher.md)
   
