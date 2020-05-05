@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: 48e6b000110014637afbf032f81b23703a763f4d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 7d31d77bdb08ce5ae7ef5580301b0432747da2a1
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943248"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952632"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -188,7 +188,7 @@ ms.locfileid: "43943248"
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>Настройка политик автоматического применения меток для SharePoint, OneDrive и Exchange
 > [!NOTE]
-> Политики автоматического применения меток постепенно развертываются для клиентов на стадии общедоступной предварительной версии и могут изменяться.
+> Политики автоматического присвоения меток присутствуют в общедоступной предварительной версии и могут изменяться.
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>Предварительные требования для политик автоматического применения меток
 
@@ -241,7 +241,6 @@ ms.locfileid: "43943248"
     
     ![Вкладка "Автоматическое применение меток (предварительная версия)"](../media/auto-labeling-tab.png)
     
-    Новая вкладка развертывается для клиентов. Если она не отображается, повторите попытку через несколько дней.
 
 3. Нажмите кнопку **+ Создать политику**. 
 
