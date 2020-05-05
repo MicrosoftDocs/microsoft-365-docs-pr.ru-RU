@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Взаимодействие с клиентами
+title: Работа с клиентами
 summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
 metadata:
-  title: Взаимодействие с клиентами
+  title: Работа с клиентами
   description: Совместное использование документов и использование Teams для совместной работы и удовлетворения
   ms.service: O365-administration
   ms.topic: landing-page
@@ -17,13 +17,13 @@ metadata:
   ms.lasthandoff: 04/30/2020
   ms.locfileid: "43952723"
 landingContent:
-- title: Взаимодействие с клиентами
+- title: Работа с клиентами
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Предоставление внешнего общего доступа к сайтам и файлам
       url: ../manage/share-sites-with-external-users.md
-    - text: Общий доступ к календарям для гостевых пользователей
+    - text: Совместное использование календарей с гостевыми пользователями
       url: ../manage/share-calendars-with-external-users.md
   - linkListType: video
     links:

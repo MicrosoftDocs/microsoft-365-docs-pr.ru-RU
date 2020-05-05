@@ -32,7 +32,7 @@ landingContent:
       url: ../email/create-a-shared-mailbox.md
     - text: Назначение лицензий пользователям
       url: ../manage/assign-licenses-to-users.md
-    - text: Удаление лицензий у пользователей
+    - text: Удаление лицензий пользователей
       url: ../manage/remove-licenses-from-users.md
     - text: Использование личного домена
       url: ../email/change-email-address.md
@@ -54,7 +54,7 @@ landingContent:
     links:
     - text: Сброс пароля пользователя
       url: reset-passwords.md
-    - text: Установка срока действия паролей не ограничена
+    - text: Установка бессрочных паролей
       url: set-password-to-never-expire.md
     - text: Предоставление пользователям прав на самостоятельный сброс пароля
       url: let-users-reset-passwords.md
@@ -68,7 +68,7 @@ landingContent:
     links:
     - text: Удаление пользователя
       url: delete-a-user.md
-    - text: Доступ к данным предыдущего пользователя и их резервное копирование
+    - text: Доступ к данным бывшего пользователя и создание их резервной копии
       url: get-access-to-and-back-up-a-former-user-s-data.md
     - text: Пересылка электронной почты другому пользователю
       url: ../email/configure-email-forwarding.md

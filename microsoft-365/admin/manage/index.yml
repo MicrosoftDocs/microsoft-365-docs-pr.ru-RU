@@ -21,23 +21,23 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Мониторинг активности пользователей с помощью отчетов
+    - text: Отслеживание активности пользователей с помощью отчетов
       url: ../activity-reports/activity-reports.md
     - text: Аналитика использования мониторинга
       url: ../usage-analytics/usage-analytics.md
     - text: Включение анализа использования
       url: ../usage-analytics/enable-usage-analytics.md
-    - text: Изменение контактной информации Организации
+    - text: Изменение контактных данных организации
       url: change-address-contact-and-more.md
-    - text: Обновление сведений о контакте для администратора
+    - text: Обновление контактных данных администратора
       url: update-phone-number-and-email-address.md
-    - text: Настройка параметров выпуска
+    - text: Настройка вариантов получения выпусков
       url: release-options-in-office-365.md
 - title: Блокировка доступа пользователей и резервное копирование данных
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Доступ к данным предыдущего пользователя и их резервное копирование
+    - text: Доступ к данным бывшего пользователя и создание их резервной копии
       url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
     - text: Настройка хранения электронной почты (Microsoft 365 бизнес премиум)
       url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
@@ -47,7 +47,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Обновление вашей организации до последних версий приложений
+    - text: Обновление организации до последних версий приложений
       url: ../setup/upgrade-users-to-latest-office-client.md
     - text: Настройка средства запуска приложений
       url: customize-the-app-launcher.md
