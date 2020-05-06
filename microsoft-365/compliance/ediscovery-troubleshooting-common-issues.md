@@ -16,14 +16,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных.
+description: Сведения об основных этапах устранения неполадок, которые можно предпринять для решения распространенных проблем, связанных с обнаружением электронных данных в Office 365.
 siblings_only: true
-ms.openlocfilehash: 5bcbe498cb650268dc8ff6f2b41a6201e75a8192
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f8b73e886e9aa639ff5575f10822417411a0784e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631774"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035671"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -51,7 +52,7 @@ ms.locfileid: "43631774"
    > |Имя  |RecipientType  |
    > |---------|---------|
    > |Псевдоним, пользователь     |MailUser         |
-   > |Псевдоним, пользователь     |User         |
+   > |Псевдоним, пользователь     |Пользователь         |
 
 3. Если возвращается несколько пользователей, разместите и устраните конфликтующий объект.
 

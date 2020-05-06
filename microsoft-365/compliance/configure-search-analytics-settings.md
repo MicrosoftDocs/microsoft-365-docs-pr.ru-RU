@@ -1,5 +1,5 @@
 ---
-title: Настройка параметров поиска и аналитики
+title: Настройка параметров поиска и аналитики — расследования данных
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: bfd7c89531c2c1592f5e48f0c7656560831b392d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте, как настроить параметры поиска и аналитики, такие как почти повторяющиеся, почтовые потоки и темы при управлении расследованиями данных.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 06f39a3dd52ecb872c671035460bab9a34956e49
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078306"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033669"
 ---
 # <a name="configure-search-and-analytics-settings"></a>Настройка параметров поиска и аналитики
 

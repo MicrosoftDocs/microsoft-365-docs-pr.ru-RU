@@ -1,5 +1,5 @@
 ---
-title: Настройка параметров поиска и аналитики
+title: Настройка параметров поиска и аналитики — обнаружение электронных данных
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
+ms.custom: seo-marvel-mar2020
 description: Настройка дополнительных параметров обнаружения электронных данных, которые применяются ко всем наборам проверки в случае. К ним относятся параметры для аналитики и распознавания текста.
-ms.openlocfilehash: 9a7568fac91fa9c021d05b255fc0a145002e7f29
-ms.sourcegitcommit: 0b2c41dad19da5f0513097c36a4ff32a5868836c
+ms.openlocfilehash: eb934146b065454b54d797e47f7a643b95be546d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42588812"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033679"
 ---
 # <a name="configure-search-and-analytics-settings"></a>Настройка параметров поиска и аналитики
 

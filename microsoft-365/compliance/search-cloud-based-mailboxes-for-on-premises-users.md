@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Используйте инструмент поиска контента в Центре безопасности и соответствия требованиям для поиска и экспорта данных чата MicrosoftTeams (называемых чатами 1xN) для локальных пользователей в гибридном развертывании Exchange.
-ms.openlocfilehash: 9dc9219d6ef1a387e1514deb672386d7d3c18290
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b05460bb41ff97c8571a96b38a8eebd50a206fd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626455"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034576"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Поиск облачных почтовых ящиков для локальных пользователей
 
@@ -47,7 +47,7 @@ ms.locfileid: "43626455"
   
 На следующем рисунке показан рабочий процесс того, как данные чата Команд для локальных пользователей доступны для поиска, предварительного просмотра и экспорта.
   
-![Облачное хранилище для локальных пользователей в Microsoft Teams](../media/895845f8-2ceb-47ed-96c9-5ab7f1aea916.png)
+![Облачное хранилище для локальных пользователей в Microsoft Teams](../media/EHAMShard1.png)
   
 В дополнение к этой новой возможности вы по-прежнему можете использовать поиск контента для поиска, предварительного просмотра и экспорта контента команд на облачном сайте SharePoint и в почтовом ящике Exchange, связанном с каждой командой Microsoft Team и данными чата команд 1xN в почтовом ящике Exchange Online для облака. основанные пользователи.
 
