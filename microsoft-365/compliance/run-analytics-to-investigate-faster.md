@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: c71f3a31c49c92a24d449fae151b858645ad2df6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте, как использовать аналитические инструменты, такие как поиск повторяющихся сообщений, почтовые потоки и темы для ускорения расследования.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e7c5103adabadf88028351f0314bcdfaa2cd4d0f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081546"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035851"
 ---
 # <a name="run-analytics-to-investigate-faster"></a>Запуск аналитики для ускорения исследования
 

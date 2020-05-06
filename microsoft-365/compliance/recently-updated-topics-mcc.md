@@ -1,5 +1,5 @@
 ---
-title: Новые возможности центра соответствия требованиям Microsoft 365
+title: Последние обновления в центре соответствия требованиям
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -17,12 +17,13 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Мы постоянно создаем новые статьи, обновляя существующие и внося изменения в соответствии с вашими отзывами. Узнайте о новых возможностях, которые были обновлены в этом месяце.
-ms.openlocfilehash: 4a07327f9ea830483aa3abbaa1b6bd52ca825230
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b7edcf8c4c530c926d323fddbf795cd930efd649
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632164"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036022"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 
@@ -79,11 +80,11 @@ ms.locfileid: "43632164"
 [Контрольный список готовности к подотчетности для Dynamics 365 в рамках GDPR](gdpr-arc-Dynamics365.md)<br>
 [Контрольный список готовности к подотчетности для Microsoft Office 365](gdpr-arc-Office365.md)<br>
 
-### <a name="insider-risk-management"></a>Управление рисками, связанными с инсайдерами
+### <a name="insider-risk-management"></a>Внутреннее управление рисками
 
 Обновлены следующие статьи для поддержки официального выпуска управления рисками для оценки.<br>
 [Сведения об управлении рисками для оценки в Microsoft 365](insider-risk-management.md)<br>
-[Начало работы с управлением внутренними рисками](insider-risk-management-configure.md)<br>
+[Приступая к управлению рисками утечки внутренней информации](insider-risk-management-configure.md)<br>
 [Создание политик в отношении внутренних рисков и управление ими](insider-risk-management-policies.md)<br>
 [Расследование оповещений о внутренних рисках](insider-risk-management-alerts.md)<br>
 [Принятие мер в случае внутренних рисков](insider-risk-management-cases.md)<br>

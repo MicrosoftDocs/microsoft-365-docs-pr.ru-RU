@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: В этой статье описывается новое средство расследования данных (Preview) в Microsoft 365.
-ms.openlocfilehash: 89bd9e637a74ac1b972b00f794eca408828c076d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: В этой статье рассказывается о средстве расследования данных (Предварительная версия) в Microsoft 365. Средство анализа данных помогает оценить и исправить ненужные данные.
+ms.openlocfilehash: 6975d554e939481c6ee1c32ec4e76bb25c7bf36c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626775"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036052"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Общие сведения о расследовании данных (Предварительная версия) в Microsoft 365
 
