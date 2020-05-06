@@ -14,13 +14,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
-description: Перед выполнением поиска проверьте запрос ключевого слова на поиск содержимого на наличие ошибок и опечаток, таких как неподдерживаемые символы и логические операторы нижнего регистра. Если мы нашли сообщение об ошибке, мы предлагаем исправленный запрос.
-ms.openlocfilehash: bd87faa774f8449833287ff0c583f9e15a4298ff
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как проверить запрос ключевого слова для поиска контента для ошибок и опечаток, таких как неподдерживаемые символы и логические операторы нижнего регистра.
+ms.openlocfilehash: 489afd8b2fe19742b63232d323197afecc257ccc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942912"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035631"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>Проверка запроса веб-части "Поиск контента" на ошибки
 

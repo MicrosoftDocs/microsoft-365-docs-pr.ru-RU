@@ -1,5 +1,5 @@
 ---
-title: 'Создание отчета о группе ролей администраторов в EOP '
+title: Создание отчета о группе ролей администраторов в EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
-description: Администраторы могут узнать, как запустить отчет о группе ролей администратора в Exchange Online Protection (EOP). Этот отчет заносится в журнал, когда администратор добавляет или удаляет участников из групп ролей администраторов, Microsoft Exchange Online Protection (EOP) записывает каждый экземпляр.
-ms.openlocfilehash: d9e7db8accae259b3eb332ce17c52c6749c2bec2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье рассказывается, как запустить отчет о группе ролей администратора в Exchange Online Protection (EOP).
+ms.openlocfilehash: d3c4db8079a71ba054f323617d3ade65083a3a04
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598546"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034460"
 ---
 # <a name="run-an-administrator-role-group-report-in-eop"></a>Создание отчета о группе ролей администраторов в EOP
 

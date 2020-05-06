@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: Узнайте о Microsoft 365 для бизнеса по электронной счете для Тайваня.
-ms.openlocfilehash: 4603d9f39a4421b6711d056d0646981732353c5c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0b57ce0cb6b30b4c9dcd37c3b6931a3389b50b68
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632711"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045884"
 ---
 # <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Знакомство с электронной накладной для Microsoft 365 для бизнеса (Тайвань)
 
@@ -55,7 +55,7 @@ ms.locfileid: "43632711"
   
 После создания учетной записи вы можете обновить свой идентификатор НДС через центр администрирования, выполнив указанные ниже действия.
   
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
     
 2. Выберите подписку, а затем нажмите кнопку **Дополнительные действия**.
     

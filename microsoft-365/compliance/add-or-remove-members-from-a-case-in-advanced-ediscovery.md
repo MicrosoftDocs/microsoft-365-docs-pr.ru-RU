@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 6991cfaa0cc174d3cee7cc441ab12195719b7056
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Узнайте, как добавить или удалить участников, которые могут получить доступ к обращению при управлении дополнительным вариантом обнаружения электронных данных.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 0f54953c77f3350746f3853ba128b2d5c08d4321
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594042"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034663"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>Добавление и удаление участников дела
 

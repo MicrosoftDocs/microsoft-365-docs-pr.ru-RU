@@ -19,13 +19,14 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
-description: Создание политики архивации и удаления, которая автоматически перемещает элементы в архивный почтовый ящик пользователя.
-ms.openlocfilehash: b8d156ec9340e644e8f0bf213f04135e756421eb
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: Создание политики архивации и удаления в Microsoft 365, которая автоматически перемещает элементы в архивный почтовый ящик пользователя.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0d2dd6d95018742247655f085553ad6583f8843d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943582"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034321"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>Настройка политики архивации и удаления для почтовых ящиков в организации
 
@@ -47,7 +48,7 @@ ms.locfileid: "43943582"
     
 Вы можете выполнить некоторые или все действия, описанные в этой статье, чтобы настроить политику архивирования и удаления для почтовых ящиков в своей организации. Рекомендуется протестировать этот процесс на нескольких почтовых ящиках, прежде чем внедрять его во все почтовые ящики в Организации.
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 - Для выполнения действий, описанных в этом разделе, необходимо быть глобальным администратором в Организации. 
     

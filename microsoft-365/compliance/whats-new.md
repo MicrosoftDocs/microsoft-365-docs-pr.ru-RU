@@ -1,5 +1,5 @@
 ---
-title: Новые возможности центра соответствия требованиям Microsoft 365
+title: Новые возможности Центра соответствия требованиям
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -17,12 +17,13 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
-ms.openlocfilehash: 2f172c8639215285a793f16f4913917be6a58614
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 940d316c97370a477c963785ae7e90482b35a46c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626265"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034271"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -91,7 +92,7 @@ ms.locfileid: "43626265"
 
 ### <a name="just-launched"></a>Только что запущено
 
-**Соответствие требованиям к обмену данными**
+**Соответствие коммуникациям**
 
 При переходе с этапа предварительной версии к полному уровню доступности обеспечение соответствия требованиям является важнейшим компонентом нового набора решений для оценки. Это надежное решение позволяет свести к минимуму риски, связанные с обменом данными, используя рабочие процессы для обнаружения, исследования и принятия действий по исправлению сообщений, которые не удовлетворяют стандартам вашей организации.
 
@@ -161,7 +162,7 @@ ms.locfileid: "43626265"
 |**Функция**|**Центр безопасности и соответствия требованиям Office 365**|**Центр соответствия требованиям Microsoft 365**|**Подробнее**|
 |:-----|:-----|:-----|:-----|
 |Advanced eDiscovery|Обнаружение электронных данных > Advanced eDiscovery <br/> https://protection.office.com/advancedediscoverycases |Расширенный > обнаружения электронных данных <br/> https://compliance.microsoft.com/advancedediscovery | [Обзор расширенного решения обнаружения электронных данных в Microsoft 365](overview-ediscovery-20.md) |
-|Политики оповещений|Оповещения > политик оповещений <br/> https://protection.office.com/alertpolicies |В настоящее время политики оповещения управляются только в центре безопасности Office 365 & соответствия требованиям. |[Политики оповещений в центре безопасности и соответствия требованиям](alert-policies.md) |
+|Политики оповещений|Оповещения > политик оповещений <br/> https://protection.office.com/alertpolicies |В настоящее время политики оповещения управляются только в центре безопасности Office 365 & соответствия требованиям. |[Политики оповещений в центре безопасности и соответствия](alert-policies.md) |
 |Оповещения|Оповещения > Просмотр оповещений <br/> https://protection.office.com/viewalerts |Оповещения <br/> https://compliance.microsoft.com/compliancealerts |[Просмотр оповещений](alert-policies.md#viewing-alerts)|
 |Архив|Архив > управления сведениями <br/> https://protection.office.com/archiving |Вкладка > "Управление сведениями" <br/> https://compliance.microsoft.com/informationgovernance?viewid=archive |[Включение архивных почтовых ящиков](enable-archive-mailboxes.md)|
 |Поиск в журнале аудита|Поиск > поиска в журнале аудита <br/> https://protection.office.com/unifiedauditlog |Включить <br/> https://compliance.microsoft.com/auditlogsearch | [Поиск в журнале аудита в центре безопасности & соответствия требованиям](search-the-audit-log-in-security-and-compliance.md)|
@@ -172,14 +173,14 @@ ms.locfileid: "43626265"
 |Обнаружение электронных данных|Обнаружение электронных данных > обнаружения электронных данных <br/> https://protection.office.com/ediscoveryv1 |Ядро > обнаружения электронных данных <br/> https://compliance.microsoft.com/classicediscovery |[Управление делами по обнаружению электронных данных](ediscovery-cases.md) |
 |События|События > управления записями <br/> https://protection.office.com/events |Вкладка "события управления записями >" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Общие сведения о хранении, зависящем от возникновения события](event-driven-retention.md)|
 |План хранения|Управление записями > плане файлов <br/> https://protection.office.com/fileplan |> "Управление записями" на вкладке "план файлов" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Общие сведения о диспетчере плана хранения](file-plan-manager.md)|
-|Импорт PST-файлов|Управление сведениями > Импорт PST-файлов <br/> https://protection.office.com/importV2 |Вкладка "Управление сведениями >" <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Общие сведения об импорте PST-файлов Организации](importing-pst-files-to-office-365.md)|
+|Импорт PST-файлов|Управление сведениями > Импорт PST-файлов <br/> https://protection.office.com/importV2 |Вкладка "Управление сведениями >" <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Обзор импорта файлов PST вашей организации](importing-pst-files-to-office-365.md)|
 |Обозреватель действий с метками|> "Управление сведениями" Обозреватель действий меток <br/> https://protection.office.com/labelexplorer |Вкладка "> классификации данных" обозревателя действий <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Просмотр действий над содержимым с метками (предварительная версия)](data-classification-activity-explorer.md)|
 |Метки хранения и политики меток |Классификация > метки хранения > метки и политики меток <br/> https://protection.office.com/retentionlabels |Вкладки "Управление сведениями > метки и политики меток" <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Обзор меток хранения](labels.md)|
 |Политики хранения|Хранение > управления сведениями <br/> https://protection.office.com/retention |Вкладка "Управление сведениями > хранения" <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Обзор политик хранения](retention-policies.md)|
 |Типы конфиденциальной информации|Классификация > типы конфиденциальной информации <br/> https://protection.office.com/sensitivetypes |Классификация данных > вкладка "типы конфиденциальной информации" <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[Что позволяют искать типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md)|
 |Метки конфиденциальности и политики меток|Классификация > меток чувствительности > меток и политик меток <br/> https://protection.office.com/sensitivity |Вкладки "Защита информации > меток и политик меток" <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[Сведения о метках конфиденциальности](sensitivity-labels.md) |
 |Контроль качества обслуживания|Контроль качества обслуживания <br/> https://protection.office.com/serviceassurance/dashboard |На данный момент ресурсы контроля качества обслуживания доступны только в центре безопасности Office 365 & соответствия требованиям. |[Гарантия обслуживания в центре безопасности & соответствия требованиям](service-assurance.md)|
-|Контроль|Контроль <br/> https://protection.office.com/supervisoryreviewv2 |Соответствие требованиям к обмену данными <br/> https://compliance.microsoft.com/supervisoryreview |[Соответствие требованиям в Microsoft 365 (Предварительная версия)](communication-compliance.md) |
+|Контроль|Контроль <br/> https://protection.office.com/supervisoryreviewv2 |Соответствие коммуникациям <br/> https://compliance.microsoft.com/supervisoryreview |[Соответствие требованиям в Microsoft 365 (Предварительная версия)](communication-compliance.md) |
 
 ## <a name="september-2019"></a>Сентябрь 2019 г.
 
