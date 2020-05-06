@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: a6bd4672c75e2e633ede2ad54effb4c6562b822c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте, как выбирать документы из одного набора проверки и работать с ними по отдельности в другом наборе в расширенном случае обнаружения электронных данных.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 636e76b1740cfa07254e4c56165cfafa8f1fad5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080193"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034683"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>Добавление данных в набор проверки из другого набора проверки
 
@@ -29,7 +30,7 @@ ms.locfileid: "42080193"
 
 Выполните действия, описанные в этой статье, чтобы добавить контент из одного набора проверки в другой.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 Прежде чем начать, вам потребуется создать новый набор рецензирования, чтобы добавить данные в.  Новый набор проверки можно добавить на вкладке " **наборы проверки** ". Дополнительные сведения можно найти [в статье Создание набора проверки](managing-review-sets.md#create-a-review-set).
 
