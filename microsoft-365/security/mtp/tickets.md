@@ -1,6 +1,6 @@
 ---
 title: Создание и отслеживание билетов с помощью ServiceNow
-description: Microsoft 365 Security Center обеспечивает возможность самостоятельно создавать и отслеживать билеты в ServiceNow. Администраторы безопасности могут отправлять рекомендации по безопасной оценке непосредственно в ServiceNow и создавать билет.
+description: Узнайте, как создавать и отслеживать билеты в ServiceNow из центра безопасности Майкрософт 365.
 keywords: безопасность, Microsoft 365, M365, Оценка безопасности, центр безопасности, ServiceNow, билеты, задачи
 ms.prod: w10
 ms.mktglfcycl: deploy
@@ -17,12 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: eb6af6b11d2d932f3bd2165aa3f597c14feb5ae8
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: 6070878d6cf0efd8a85d05ff6ef89ee49baf4144
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901026"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034192"
 ---
 # <a name="manage-tickets-through-servicenow"></a>Управление билетами с помощью ServiceNow
 

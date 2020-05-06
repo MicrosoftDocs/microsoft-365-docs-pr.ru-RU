@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб DNS для Microsoft на основе Windows.
-ms.openlocfilehash: 3207a319880a23b71a17e80f3e9e77398fa79ef0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631373"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048847"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Создание DNS-записей для Майкрософт с помощью DNS на базе Windows
 
@@ -200,7 +200,7 @@ ms.locfileid: "43631373"
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>Использование адреса электронной почты, не поддерживающего маршрутизацию, в качестве имени участника-пользователя в локальной службе Active Directory
 <a name="BKMK_ADNote"> </a>
 
-Если вы планируете синхронизировать локальную службу Active Directory с корпорацией Майкрософт, необходимо убедиться в том, что суффикс имени участника-пользователя Active Directory (UPN) является допустимым суффиксом домена, а не суффиксом домена, таким как @contoso. local. Если вам нужно изменить суффикс UPN, ознакомьтесь со статьей [Подготовка домена, не поддерживающего маршрутизацию, для синхронизации службы каталогов](https://support.office.com/article/e7968303-c234-46c4-b8b0-b5c93c6d57a7).
+Если вы планируете синхронизировать локальную службу Active Directory с корпорацией Майкрософт, необходимо убедиться в том, что суффикс имени участника-пользователя Active Directory (UPN) является допустимым суффиксом домена, а не суффиксом домена, таким как @contoso. local. Если вам нужно изменить суффикс UPN, ознакомьтесь со статьей [Подготовка домена, не поддерживающего маршрутизацию, для синхронизации службы каталогов](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization).
   
 > [!NOTE]
 >  Обычно на вступление изменений DNS в силу требуется около 15 минут. Однако иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Устранение неполадок после смены имени домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 

@@ -1,5 +1,5 @@
 ---
-title: Автоматическая очистка (ZAP) с нулевой назначением (ZAP) — ретроактиве защита от нежелательной почты, вредоносных программ и фишинга.
+title: Автоматическая очистка (ZAP) — функция защиты электронной почты с нулевым временем
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,13 +18,15 @@ search.appverid:
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
-description: Автоматическая очистка (ZAP) с нулевым временем (ZAP) — это функция защиты электронной почты в Microsoft 365, которая обнаруживает сообщения о нежелательной почте, вредоносных программах или сообщениях фишинга, которые уже были доставлены в Exchange Online. Принцип работы ZAP зависит от типа обнаруженного вредоносного содержимого.
-ms.openlocfilehash: f1b36f1152882f446c8f611ceafb44a085cc0a5d
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Сведения об автоматической очистке с нулевой ставкой (ZAP), функции защиты электронной почты в Microsoft 365, которая обнаруживает сообщения о нежелательной почте, вредоносных программах или сообщениях фишинга, которые уже были доставлены в Exchange Online.
+ms.openlocfilehash: a6f21147e7beaadb3aa6430b299dea8b248561c1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708455"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034930"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>Автоматическая очистка (ZAP) от спама и вредоносных программ в Microsoft 365
 

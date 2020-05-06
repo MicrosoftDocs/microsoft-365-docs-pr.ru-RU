@@ -13,14 +13,14 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
-ms.custom: ''
-description: Изучите ресурсы, которые можно использовать для развертывания Microsoft 365 для предприятий в организации.
-ms.openlocfilehash: b37e7fa844a27596904e5684c5692c0193c35513
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.custom: seo-marvel-apr2020
+description: Ознакомьтесь с разными ресурсами, которые можно использовать для развертывания Microsoft 365 для предприятий в организации.
+ms.openlocfilehash: 0e588816cb2393af05b48900821d7aae92b6853d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002359"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031430"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>Развертывание Microsoft 365 для предприятий
 
@@ -117,7 +117,7 @@ FastTrack — это текущая и стандартная возможнос
 
 В то же время интеллектуальные функции безопасности и интеграция продуктов помогают оптимизировать управление и уменьшить общую стоимость владения в течение жизненного цикла ИТ-службы. 
 
-Узнайте, как группа проектирования основных служб и операций (прежнее название — ИТ-отдел Майкрософт) [создает современное рабочее место с Microsoft 365](https://www.microsoft.com/en-us/itshowcase/microsoft-365).
+Узнайте, как группа проектирования основных служб и операций (прежнее название — ИТ-отдел Майкрософт) [создает современное рабочее место с Microsoft 365](https://www.microsoft.com/ru-RU/itshowcase/microsoft-365).
 
 > [!Note]
 > Эта веб-страница доступна только на английском языке.

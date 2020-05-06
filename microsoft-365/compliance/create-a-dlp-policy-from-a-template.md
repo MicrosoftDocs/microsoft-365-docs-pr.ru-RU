@@ -16,13 +16,15 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: 'Самый простой и распространенный способ приступить к работе с политиками защиты от потери данных — использовать один из шаблонов, включенных в Office 365. '
-ms.openlocfilehash: 956359695978953445237afaa21af028ae8b4c6c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: В этой статье вы узнаете, как создавать политики защиты от потери данных с помощью одного из шаблонов, включенных в Office 365.
+ms.openlocfilehash: be063c8ee8605db94fe3a68f7ca42b7135553f5e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631338"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035721"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>Создание политики защиты от потери данных на основе шаблона
 
@@ -58,7 +60,7 @@ ms.locfileid: "43631338"
 
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите с помощью рабочей или учебной учетной записи. Теперь вы находитесь в центре безопасности &amp; и соответствия требованиям.
+2. Выполните вход с помощью рабочей или учебной учетной записи. Теперь вы находитесь в центре безопасности &amp; и соответствия требованиям.
     
 3. В центре &amp; \> соответствия требованиям безопасности политика защиты \> от потери данных в левой панели и **Политика** \> **защиты** \> от потери данных **+ создать политику**.
     

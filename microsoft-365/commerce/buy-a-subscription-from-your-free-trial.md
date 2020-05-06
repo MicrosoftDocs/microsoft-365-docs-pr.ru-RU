@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: Приобретите подписку на Microsoft 365 для бизнеса. Вы можете купить тот же тип подписки, который вы пробовали, или другой план.
-ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634948"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045804"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>Приобретение подписки на Microsoft 365 для бизнеса из бесплатной пробной версии
 
@@ -50,9 +50,9 @@ ms.locfileid: "43634948"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
-2. На странице " **продукты & Services** " Найдите подписку, которую вы хотите купить. В разделе **лицензии** выберите пункт **приобрести подписку**.
+2. На странице " **продукты** " Найдите подписку, которую вы хотите купить. В разделе **лицензии** выберите пункт **приобрести подписку**.
 
 3. Выберите ежемесячное или годовое обязательство для подписки, а затем выберите пункт **Checkout**.
 
@@ -159,7 +159,7 @@ ms.locfileid: "43634948"
 ::: moniker-end
 
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Продление пробного периода](extend-your-trial.md)
   

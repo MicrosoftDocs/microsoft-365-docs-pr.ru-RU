@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: Узнайте, как аналитика подделки работает в Office 365 Advanced Threat protection.
-ms.openlocfilehash: 4ad3de8812e09b73018c02232e3e66e4bec9d041
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как работает новая аналитика подделки, в том числе как быстро определить, какие отправители подлиннее отправляют вам сообщения, не прошедшие проверку подлинности.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 481d248b833c7910152cd39113ff32fdc1217a5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630933"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033648"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Пошаговое руководство по подделке анализа сведений о подделке в Microsoft 365
 

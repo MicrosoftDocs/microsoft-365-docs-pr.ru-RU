@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
-description: В этом разделе объясняется различие между нежелательной почтой и пакетными сообщениями электронной почты и связанными с ними элементами управления в Office 365.
-ms.openlocfilehash: 15ca00b007ef0b8470e1b30608a695a90bd638b2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Сведения о разнице между нежелательными & массовых сообщений электронной почты. Кроме того, Узнайте о различных параметрах, доступных в Exchange Online & Exchange Online Protection (EOP).
+ms.openlocfilehash: 5d9d3b513de64d2a150d9e0a1c94bc5ca746b617
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630837"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036600"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>В чем разница между нежелательной почтой и массовой рассылкой электронной почты?
 

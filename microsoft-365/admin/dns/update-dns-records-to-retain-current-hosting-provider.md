@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Узнайте, как маршрутизировать трафик на существующий общедоступный веб-сайт, размещенный вне корпорации Майкрософт, если вы настроили DNS для управления записями DNS для вашего личного домена.
-ms.openlocfilehash: 08a4e505f4e2a50b3e92cae00b62415e6d02551f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 58b58479a2c880cc0193058abc328cc5feea4af1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629123"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048835"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>Обновление DNS-записей для сохранения веб-сайта у текущего поставщика услуг размещения веб-сайтов
 
@@ -64,7 +64,7 @@ ms.locfileid: "43629123"
     
 Напоследок выполните следующее:
   
-[Обновите записи сервера доменных имен](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) , чтобы они ссылались на корпорацию Майкрософт. 
+[Обновите записи сервера доменных имен](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) , чтобы они ссылались на корпорацию Майкрософт. 
   
 Когда записи NS были обновлены, чтобы указать на корпорацию Майкрософт, весь домен настраивается. Электронная почта будет направляться в корпорацию Майкрософт, а трафик на адрес веб-сайта будет продолжаться на текущем узле веб-сайта.
  

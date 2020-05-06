@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 54ae2002-b38e-43a1-82fa-3e49d78fda56
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Namecheap для Майкрософт.
-ms.openlocfilehash: 2b55e529ab4a66dbada95914f213807884b4b6c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 57ba92f3ad31a54abae6a6a212a84d3b7a665da1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629339"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048955"
 ---
 # <a name="create-dns-records-at-namecheap-for-microsoft"></a>Создание записей DNS на сайте Namecheap для Майкрософт
 
@@ -150,7 +150,7 @@ ms.locfileid: "43629339"
     
     |**Type (Тип)**|**Host (Узел)**|**Value** (Значение)|**Priority** (Приоритет)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX Record (Запись MX)  <br/> |@  <br/> |\<*Domain — Key*\>. mail.Protection.Outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |30 мин  <br/> |
+    |MX Record (Запись MX)  <br/> |@  <br/> |\<*Domain — Key*\>. mail.Protection.Outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |30 мин  <br/> |
        
     ![Namecheap — BP — configure – 2-2-2](../../media/f3b76d62-5022-48c1-901b-8615a8571309.png)
   

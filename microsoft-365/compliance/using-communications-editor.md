@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 2f445e4449fb20f0d13d857bb83d3dc85d7b7387
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Используйте редактор взаимодействий, чтобы изменить текст и переменные поля слияния при форматировании контента.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 0cb415da9aa09452176bd8aa9be4575cfc827582
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069206"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034481"
 ---
 # <a name="use-the-communications-editor"></a>Использование редактора взаимодействия
 

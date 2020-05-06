@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Узнайте, как обновить свои адреса для выставления счетов для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
 ms.custom: okr_SMB
-ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7edef65eb1cf45192188316b13acfd87eac5a490
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632723"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048029"
 ---
 # <a name="change-your-billing-addresses"></a>Изменение адресов выставления счетов
 
@@ -121,7 +121,7 @@ ms.locfileid: "43632723"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, которую вы хотите изменить. В разделе **параметры & действий** выберите **изменить адрес использования службы**.
 
@@ -170,6 +170,8 @@ ms.locfileid: "43632723"
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>Изменение запасного адреса электронной почты для другого администратора
 
 Вы также можете изменить запасные адреса электронной почты других глобальных администраторов и администраторов выставления счетов в вашей организации.
+
+::: moniker range="o365-worldwide"
   
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">Уведомления о выставлении счетов</a>.
 
@@ -191,7 +193,7 @@ ms.locfileid: "43632723"
 
 3. В области **изменение ролей пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Просмотр счетов](view-your-bill-or-invoice.md)
 

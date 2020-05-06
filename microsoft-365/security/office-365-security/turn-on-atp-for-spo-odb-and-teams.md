@@ -1,5 +1,5 @@
 ---
-title: Включить ATP для SharePoint, OneDrive и Microsoft Teams
+title: 'Включение Office 365 ATP: SharePoint, OneDrive & Teams'
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,12 +18,13 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
-ms.openlocfilehash: 95886cb6a7f081e4565a6455951aedf68a3e741e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7708697f191107176173f2bfaced576c024954c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631125"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036732"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -54,7 +55,7 @@ ms.locfileid: "43631125"
 
    ![Включение расширенной защиты от угроз для SharePoint Online, OneDrive для бизнеса и Microsoft Teams](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
 
-4. Щелкните **Сохранить**.
+4. Нажмите кнопку **Сохранить**.
 
 5. Просмотрите (и, соответственно, измените) [политики безопасных вложений](set-up-atp-safe-attachments-policies.md) в Организации и [политики безопасных ссылок](set-up-atp-safe-links-policies.md).
 
@@ -88,11 +89,11 @@ ms.locfileid: "43631125"
 
    а. В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
 
-   б) Оставьте поле **Пользователи** пустым.
+   б. Оставьте поле **Пользователи** пустым.
 
 6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
 
-7. Щелкните **Сохранить**.
+7. Нажмите кнопку **Сохранить**.
 
 Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям](../../compliance/create-activity-alerts.md).
 

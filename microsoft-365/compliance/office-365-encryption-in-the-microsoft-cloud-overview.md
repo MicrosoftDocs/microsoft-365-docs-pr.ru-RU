@@ -15,13 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: Общие сведения о шифровании в Microsoft Cloud.
-ms.openlocfilehash: 34ec910e60ceb718daa42dc31aa8a5a3440dbdd6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: В этой статье представлен обзор различных форм шифрования, используемых для обеспечения безопасности данных клиентов в Microsoft Cloud.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 62353725073f5010db1a8681bebad18bc671d81f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626927"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031389"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Шифрование в Microsoft Cloud
 

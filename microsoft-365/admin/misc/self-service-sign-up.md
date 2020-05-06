@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Сведения о самообслуживаниях Microsoft 365 и самостоятельных программах самообслуживания, таких как Microsoft Power Apps, Microsoft Flow и Dynamics 365, для финансовых данных.
 ms.custom: okr_SMB
-ms.openlocfilehash: d20609d48c71795205940546bef752c236ae3e81
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627804"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045277"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Использование функции самостоятельной регистрации в организации
 
@@ -42,7 +42,7 @@ ms.locfileid: "43627804"
 
 3. Мы проверяем свой адрес электронной почты, а затем они могут начать использовать Microsoft 365, Power BI или другие службы сразу же.
 
-4. Как администратор бизнеса видит, кто зарегистрировался для подписки, просматривая страницу **products & Services** в центре администрирования. Таким образом, вы можете увидеть, когда в клиенте есть новые или неопознанные лицензии для служб. Чтобы указать, могут ли пользователи регистрироваться для самостоятельной подписки, используйте командлет PowerShell [Set – мсолкомпанисеттингс](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) с параметром **алловадхоксубскриптионс** . Дополнительные сведения можно найти в [статье как управлять параметрами самообслуживания?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
+4. Администратор бизнес-подразделения видит, кто зарегистрировался для подписки, просматривая страницу " **продукты** " в центре администрирования. Таким образом, вы можете увидеть, когда в клиенте есть новые или неопознанные лицензии для служб. Чтобы указать, могут ли пользователи регистрироваться для самостоятельной подписки, используйте командлет PowerShell [Set – мсолкомпанисеттингс](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) с параметром **алловадхоксубскриптионс** . Дополнительные сведения можно найти в [статье как управлять параметрами самообслуживания?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide)
 
 ## <a name="available-self-service-programs"></a>Доступные программы самостоятельной регистрации
 
@@ -64,5 +64,5 @@ ms.locfileid: "43627804"
 |**Центр поддержки корпоративных лицензий Майкрософт** <br/> |В центре поддержки корпоративных лицензий Майкрософт отображаются лицензии, приобретенные в корпоративной среде, "выбрать", "образование" (кампус или учебного заведения), "Open Value", "Open License" и "ISV".  <br/> |[Обучение и ресурсы по VLSC](https://www.microsoft.com/en-us/Licensing/existing-customer/vlsc-training-and-resources.aspx) <br/> |[Центр поддержки корпоративных лицензий](https://www.microsoft.com/Licensing/servicecenter/default.aspx) <br/> |
 |**Minecraft Education Edition** <br/> |Платформа Minecraft помогает преподавателям мотивировать учащихся и увлечь их учебой. Присоединитесь к сообществу преподавателей, чтобы узнать, как они раскрывают потенциал учащихся с помощью Minecraft.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |Выкладывайте видео и делитесь ими с другими сотрудниками, чтобы улучшить взаимодействие, совместную работу и обучение.  <br/> |[Sign up &amp; Day 0 experience](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
-|**Автоматизация управления питанием** <br/> |Автоматизация управления питанием это продукт, который поможет вам настроить автоматические рабочие процессы между вашими избранными приложениями и службами, чтобы синхронизировать файлы, получать уведомления, собирать данные и многое другое.  <br/> |[Регистрация и вход в систему для автоматизации управления питанием](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Автоматизация управления питанием](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
+|**Power Automate** <br/> |Автоматизация управления питанием это продукт, который поможет вам настроить автоматические рабочие процессы между вашими избранными приложениями и службами, чтобы синхронизировать файлы, получать уведомления, собирать данные и многое другое.  <br/> |[Регистрация и вход в систему для автоматизации управления питанием](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
 |**Виртуальные агенты управления питанием** <br/> |Power Virtual Agents позволяет Teams легко создавать мощные боты с помощью интерактивного графического интерфейса без необходимости работы с данными и разработчиками. Виртуальные агенты управления питанием решает многие основные проблемы, связанные с строительством ленты на современном рынке. Она устраняет зазор между экспертами по теме и группами разработки, Боты, а также с большой задержкой между командами, распознающей ошибку и обновлением Bot для ее устранения.  <br/> |[Сведения о лицензировании и доступе](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Подписка на виртуальные агенты управления питанием](https://aka.ms/TryPVA) <br/> |

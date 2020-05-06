@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 группы в Outlook, а также как использовать PowerShell для одновременного обновления нескольких списков рассылки.
-ms.openlocfilehash: 14eeedcc898c13c31362731699f575bc06f96878
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3f364de1e863cef542fb8342e61f537bcd113535
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627996"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048177"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки до Microsoft 365 группы в Outlook
 
-Вы можете обновить списки рассылки до Microsoft 365 группы с Outlook. Это отличный способ предоставить всем организациям, перечисленным в Организации, все функции и функции групп Microsoft 365. [Причины для перехода со списков рассылки на группы в Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
+Вы можете обновить списки рассылки до Microsoft 365 группы с Outlook. Это отличный способ предоставить всем организациям, перечисленным в Организации, все функции и функции групп Microsoft 365. [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 Вы можете обновить один или сразу несколько списков рассылки.
 

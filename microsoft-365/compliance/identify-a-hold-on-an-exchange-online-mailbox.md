@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Узнайте, как определить различные типы удержаний, которые можно разместить в почтовом ящике Microsoft 365. Эти типы удержаний включают хранение для судебного разбирательства, удержания электронных данных и политики хранения Microsoft 365. Кроме того, можно определить, исключен ли пользователь из политики хранения на уровне Организации.
-ms.openlocfilehash: 0f16b027f5c97871b490ce028a4c0b9e2d5e7f80
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 232173b82033f7372ef54411a04f3ee891a42bbb
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634171"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048007"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Как определить тип удержания, примененного для почтового ящика Exchange Online
 
@@ -55,7 +55,7 @@ Microsoft 365 предлагает несколько способов пред�
 
 - **Get — OrganizationConfig:** Используйте этот командлет, чтобы получить идентификаторы GUID для политик хранения на уровне Организации.
 
-Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
+Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -200,7 +200,7 @@ Get-Mailbox <username> | FL *HoldApplied*
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-или
+ИЛИ
  
 ```powershell
 Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
@@ -214,7 +214,7 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 
-или
+ИЛИ
 
 ```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplied
@@ -235,7 +235,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 
 Определив удержания, которые применяются к почтовому ящику, можно выполнить такие задачи, как изменение длительности хранения, временное или окончательное удаление удержания или исключение неактивного почтового ящика из политики хранения Microsoft 365. Дополнительные сведения о выполнении задач, связанных с удержаниями, можно найти в следующих статьях:
 
-- Выполните команду [Set – RetentionCompliancePolicy аддексчанжелокатионексцептион \<User почтовые>ящики пользователей](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/Set-RetentionCompliancePolicy?view=exchange-ps) в центре безопасности & соответствие требованиям в PowerShell, чтобы исключить почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации. Эту команду можно использовать только для политик хранения, значение свойства *ExchangeLocation* которых равно `All`.
+- Выполните команду [Set – RetentionCompliancePolicy аддексчанжелокатионексцептион \<User почтовые>ящики пользователей](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps) в центре безопасности & соответствие требованиям в PowerShell, чтобы исключить почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации. Эту команду можно использовать только для политик хранения, значение свойства *ExchangeLocation* которых равно `All`.
 
 - Выполните команду [Set-Mailbox-ексклудефроморгхолдс \<Hold GUID без префикса или суффикса>](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps) команду в Exchange Online PowerShell, чтобы исключить неактивный почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации.
 

@@ -1,5 +1,5 @@
 ---
-title: Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям
+title: Загрузка существующих отчетов — центр безопасности & соответствия требованиям
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,13 +14,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
-description: Узнайте, как скачать один или несколько существующих отчетов в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 62f87c3a11e35bd6dae25c786ac2360e9937c84d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как скачать один или несколько существующих отчетов в центре безопасности & соответствия требованиям для устранения угроз в Организации и устранения угроз.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 53daaf5bdcb6b9f471e70c6f9451ebcf33d6393d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637584"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034808"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>Загрузка существующих отчетов в центре безопасности &amp; и соответствия требованиям
 

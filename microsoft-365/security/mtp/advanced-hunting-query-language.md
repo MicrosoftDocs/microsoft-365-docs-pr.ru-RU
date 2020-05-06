@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5715baaccd95d975f7d15196906a6326177bbc2e
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 14de9d84ef19be3dcf1e630b2814a6060bfe7f27
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982015"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036503"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -147,6 +147,11 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | `bool` | Истина или ложь |
 | `int` | 32-разрядное числовое значение  |
 | `long` | 64-разрядное числовое значение |
+
+## <a name="get-help-as-you-write-queries"></a>Помощь при написании запросов
+Ниже перечислены функции, благодаря которым запросы можно создавать быстрее.
+- Автозаполнение **— при** написании запросов Расширенный поиск предоставляет рекомендации от IntelliSense. 
+- **Справочник по схеме** — справочник по схеме со списком таблиц и их столбцов, расположенный рядом с рабочей областью. Чтобы получить об элементе дополнительные сведения, нужно навести на него указатель мыши. Чтобы вставить элемент в редактор запросов, нужно дважды щелкнуть по нему.
 
 ## <a name="use-sample-queries"></a>Использование примеров запросов
 

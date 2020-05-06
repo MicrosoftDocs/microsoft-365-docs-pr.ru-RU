@@ -1,6 +1,6 @@
 ---
-title: Мониторинг приложений и создание отчетов в центре безопасности Майкрософт 365
-description: В этой статье описывается, как можно получить более подробные сведения об использовании облачных приложений в Организации.
+title: Мониторинг приложений & отчеты — центр обеспечения безопасности
+description: Узнайте, как можно получить более подробные сведения об использовании облачных приложений в Организации, в том числе о типах приложений, их степени риска и оповещениях.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, приложения
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f7b3f2fcaac71eefa2579a0c3fd66666fe00f605
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cd7a86751ac58f60051891544c9fd68c51b439e1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087702"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034026"
 ---
 # <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг приложений и создание отчетов в центре безопасности Майкрософт 365
 

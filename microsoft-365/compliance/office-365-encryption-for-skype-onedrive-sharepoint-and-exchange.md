@@ -16,13 +16,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - SPO_Content
-description: 'Сводка: описание шифрования для Skype, OneDrive, SharePoint и Exchange Online.'
-ms.openlocfilehash: 13c46df74861120b6f5c2fbe7132f912ef29dde3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: В этой статье описано, как найти описание шифрования Office 365 для Skype, OneDrive, SharePoint и Exchange Online.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e250f3fe63875f2f1d65f2765e114f212e72f35
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637289"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031399"
 ---
 # <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>Шифрование для Skype для бизнеса, OneDrive для бизнеса, SharePoint Online и Exchange Online
 

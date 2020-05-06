@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
-description: Администраторы могут узнать, как вероятность нежелательной почты зависит от вероятности нежелательной почты, а также о действиях по умолчанию, применяемых при фильтрации нежелательной почты к сообщениям на основе вероятности нежелательной почты.
-ms.openlocfilehash: 519bc48e7285283ad0570b8f3ac598615b132875
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье администраторы могут узнать, как вероятность нежелательной почты определяет ликелинесс сообщения как нежелательную почту.
+ms.openlocfilehash: 9448b1fd99878dbb85bc8699afc0719bc62dd951
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638288"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035252"
 ---
 # <a name="spam-confidence-level-scl-in-office-365"></a>Уровень вероятности нежелательной почты в Office 365
 

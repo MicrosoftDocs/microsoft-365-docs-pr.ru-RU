@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Сведения о том, как интерпретировать сведения о расходах, выставлении счетов и платежах в Microsoft 365 для бизнеса, а также о том, как изменить номер заказа на покупку.
-ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5cb2f961fa11f25e160ddd978783c7744776307e
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634972"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045816"
 ---
 # <a name="understand-your-invoice-for-microsoft-365-for-business"></a>Сведения о выставлении счетов для Microsoft 365 для бизнеса
 
@@ -104,7 +104,7 @@ ms.locfileid: "43634972"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Если вы находитесь в **табличном** представлении, выберите **карточки** , чтобы переключить представления.
 
@@ -136,7 +136,7 @@ ms.locfileid: "43634972"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Оплата подписки на Microsoft 365 для бизнеса](pay-for-your-subscription.md)
 

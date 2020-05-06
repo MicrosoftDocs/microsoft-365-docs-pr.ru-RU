@@ -1,7 +1,7 @@
 ---
 title: Специалист по защите данных корпорации Майкрософт
-description: Сведения о специалисте по защите данных корпорации Майкрософт в ЕС, действующем в рамках GDPR
-keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
+description: Ознакомьтесь с положением и квалификациями специалиста по защите данных корпорации Майкрософт в ЕС, действующем в рамках GDPR.
+keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -15,16 +15,17 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 8e517db11806085339f6f431c9b942b468a211ed
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b09458bfba65a196ff9be4d9bfd7f3fbfda25fda
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558069"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036097"
 ---
 # <a name="microsofts-data-protection-officer"></a>Специалист по защите данных корпорации Майкрософт
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Корпорация Майкрософт назвала специалиста по защите данных в ЕС, который будет независимым советником групп разработки и бизнес-групп Майкрософт. Он будет следить за тем, чтобы все предлагаемые процедуры обработки персональных данных соответствовали требованиям законов ЕС и корпоративных стандартов Майкрософт. Эта должность была создана для выполнения критериев GDPR, указанных в статьях 37–39.
 

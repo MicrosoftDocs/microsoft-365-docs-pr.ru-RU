@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте о Microsoft 365 для бизнеса, о том, как настроить его и как подготовить устройства и компьютеры пользователей, чтобы убедиться, что они защищены Microsoft 365 для бизнеса.
-ms.openlocfilehash: 17b142fb704d1b0be088a649490e751effb19517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633210"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048092"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Начало работы с Microsoft 365 для бизнеса
 
@@ -83,7 +83,7 @@ Microsoft 365 для бизнеса предназначено для лицен
     
     - Используйте мастер синхронизации каталогов для синхронизации пользователей с облаком. Выполните действия, описанные в статье [Настройка синхронизации каталогов для Microsoft 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) , чтобы завершить этот процесс. После синхронизации пользователей с облаком необходимо [Отключить синхронизацию каталогов для Office 365](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
     
-    Кроме того, вам потребуется предоставить каждому пользователю, который был добавлен таким образом, как лицензия на Microsoft 365 для бизнеса. Это можно сделать в [мастере установки](set-up.md) или [назначить лицензии пользователям в Microsoft 365 для бизнеса](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC).
+    Кроме того, вам потребуется предоставить каждому пользователю, который был добавлен таким образом, как лицензия на Microsoft 365 для бизнеса. Это можно сделать в [мастере установки](set-up.md) или [назначить лицензии пользователям в Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
     
 ### <a name="2-prepare-mobile-devices"></a>2: Подготовка мобильных устройств
 

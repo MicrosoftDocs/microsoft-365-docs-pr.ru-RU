@@ -14,13 +14,15 @@ search.appverid:
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
-description: Часто задаваемые вопросы и ответы для администраторов о защите от нежелательной почты в Exchange Online и автономной службе Exchange Online Protection (EOP).
-ms.openlocfilehash: 0bd34639d717b979a02272e3c2f5de243c68d3ab
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: В этом разделе приведены ответы на часто задаваемые вопросы & о защите от нежелательной почты. Ответы применяются для клиентов Microsoft Exchange Online & Exchange Online Protection (EOP).
+ms.openlocfilehash: 33fb1fb5d73f0d686a72e89d460c0973d2bbdabe
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636062"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033742"
 ---
 # <a name="anti-spam-protection-faq"></a>Часто задаваемые вопросы о защите от нежелательной почты
 

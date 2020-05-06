@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу name.com для Майкрософт.
-ms.openlocfilehash: 8518ca2570b3be1cb3abcd5c57b8309e989481cb
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: e9133b3701c2b454cad11b9579dc7463f1a74460
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938664"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048967"
 ---
 # <a name="create-dns-records-at-namecom-for-microsoft"></a>Создание записей DNS на сайте name.com для Майкрософт
 
@@ -118,7 +118,7 @@ ms.locfileid: "43938664"
     
     |**Type (Тип)**|**Host (Узел)**|**Answer** (Ответ)|**TTL (Срок жизни)**|**Prio (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |Используйте значение по умолчанию (300).  <br/> |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> |
+    |MX  <br/> |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |Используйте значение по умолчанию (300).  <br/> |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
    
    ![Name — BP — configure – 2-1](../../media/11ba2160-fc8e-4196-bb15-2b7c6d49c8fc.png)
   

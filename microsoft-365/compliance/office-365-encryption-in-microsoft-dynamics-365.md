@@ -12,13 +12,14 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: Сводка. Общие сведения о шифровании в Microsoft Dynamics 365.
-ms.openlocfilehash: 7d5116d957f8d9e51309a9605bb82c4ffd76386e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как корпорация Майкрософт использует технологию шифрования для защиты данных клиентов в Microsoft Dynamics 365, находясь в REST в базе данных Майкрософт и в транзитном месте.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: bd349890fc7fc1ae7f1f7eaf07f90c22423637cf
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637243"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031419"
 ---
 # <a name="encryption-in-microsoft-dynamics-365"></a>Шифрование в Microsoft Dynamics 365
 

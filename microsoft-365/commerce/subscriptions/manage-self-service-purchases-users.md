@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Пользователи могут узнать, как управлять покупками самостоятельной службы.
-ms.openlocfilehash: f4be2176d970af426817e975b9942ce5e2b89a9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ed84bfc215d000eaa144aaf1f6eac281fc5a0c16
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636643"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046172"
 ---
 # <a name="manage-self-service-purchases-users"></a>Управление самостоятельно приобретенными лицензиями (пользователи)
 
@@ -30,11 +30,11 @@ ms.locfileid: "43636643"
 
 ## <a name="view-your-subscriptions"></a>Просмотр подписок
 
-Вы можете просмотреть список всех купленных подписок на самостоятельную обслуживание. В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".
+Вы можете просмотреть список всех купленных подписок на самостоятельную обслуживание. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Как приобрести дополнительные или уменьшить количество лицензий
 
-1. В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".
+1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, для которой вы хотите купить больше или снизить количество лицензий.
 
@@ -74,7 +74,7 @@ ms.locfileid: "43636643"
 
 ## <a name="cancel-a-subscription"></a>Отмена подписки
 
-1. В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".
+1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, которую вы хотите отменить.
 

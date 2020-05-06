@@ -22,20 +22,20 @@ search.appverid:
 ms.assetid: 82ba88fa-ebdf-4d44-a7b3-cea82b25d71a
 ROBOTS: NOINDEX
 description: Узнайте, как добавить лицензии в Microsoft 365, приобретенные по стороннему партнеру, которые распознаются корпорацией Майкрософт.
-ms.openlocfilehash: 3e8a6ce968727cea6aec6140e7d3f354ed68bc94
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 9e463e53d51e7fc0a3828cc6163296084995f9c9
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708147"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045756"
 ---
 # <a name="add-licenses-to-a-subscription-purchased-through-the-volume-licensing-service-center"></a>Добавление лицензий для подписки, приобретенной в Центре обслуживания для корпоративного лицензирования
 
 Если вы приобрели план Microsoft 365 для бизнеса или Office 365 корпоративный по стороннему партнеру, вы должны приобрести дополнительные лицензии через этот партнер. Если Майкрософт известно о партнере, у которого была приобретена подписка, вы можете узнать, как связаться с ним, выполнив следующие действия.
 
 ::: moniker range="o365-worldwide"
-
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+  
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Выберите подписку, к которой вы хотите добавить лицензии, а затем выберите ссылку **центр обслуживания корпоративных лицензий (VLSC)** .
 

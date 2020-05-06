@@ -13,15 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: Ent_O365
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
-description: Сводка. Пошаговое руководство по разработке изолированных сайтов групп SharePoint Online.
-ms.openlocfilehash: 5efd5fb0501d88fda37f1530ef62e4c5110e4da2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Разработайте изолированные сайты групп SharePoint Online, в том числе определение уровней разрешений, назначение разрешений пользователям с помощью групп доступа и вложенные группы Azure AD.
+ms.openlocfilehash: 4663a0b9710fc05d0b063a3100d3b5ac223a2161
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638516"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034844"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>Разработка изолированного сайта группы SharePoint Online
 
@@ -130,7 +132,7 @@ ms.locfileid: "43638516"
   
 Так как все учетные записи пользователей в группах "исследование", "Проектирование" и "руководители проектов" предназначены для участников сайта, проще добавить свои группы Azure AD в группу доступа к участникам ProjectX.
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Сведения о создании и настройке изолированного сайта в рабочей среде см. в статье [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md).
   

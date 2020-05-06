@@ -1,5 +1,5 @@
 ---
-title: Мониторинг и просмотр отчетов в центре безопасности Microsoft 365
+title: Мониторинг и просмотр отчетов — центр безопасности
 description: В этой статье описано, как центр безопасности Microsoft 365 предоставляет краткий обзор защиты и состояния безопасности.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, состояние
 ms.prod: microsoft-365-enterprise
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 5acc122b827a9d715782923d03cef7fd0e0417e4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 987f3a60b514874bd970b93bdcc2c08832345b4b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086988"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033990"
 ---
 # <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Мониторинг и просмотр отчетов в центре безопасности Microsoft 365
 

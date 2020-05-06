@@ -15,14 +15,16 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
+ms.custom:
+- seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
-description: 'Самый простой и распространенный способ приступить к работе с политиками защиты от потери данных — использовать один из шаблонов, включенных в Office 365. '
-ms.openlocfilehash: 819320b8170c652a6cdb32e191ebca5174eb0329
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: В этой статье вы узнаете, как создать, протестировать и настроить политику DLP в соответствии с потребностями Организации.
+ms.openlocfilehash: 2a7ef029d00aff8450d9e8cf41253c2a86606807
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635969"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035761"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>Создание, тестирование и настройка политики защиты от потери данных
 

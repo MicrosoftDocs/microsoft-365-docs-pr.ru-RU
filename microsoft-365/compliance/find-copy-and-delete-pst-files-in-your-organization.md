@@ -1,5 +1,5 @@
 ---
-title: Поиск, копирование и удаление PST-файлов в Организации с помощью средства сбора PST-файлов
+title: Поиск, копирование и удаление PST-файлов с помощью средства сбора PST-файлов
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,12 +15,13 @@ search.appverid:
 - MET150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: С помощью средства Microsoft PST Collection выполните поиск по сети организации, чтобы получить список PST-файлов, которые размещаются в пределах организации. После того как вы найдете PST-файлы, вы можете использовать средство сбора PST-файлов, чтобы скопировать их в центральном расположении, чтобы их можно было импортировать в Office 365.
-ms.openlocfilehash: 3d28db482bc3c17570b4cf4a952939c3c221d94b
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fd547d0d5244df40bd5fa118bccdfe95fcba9341
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942202"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033813"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>Поиск, копирование и удаление PST-файлов в Организации с помощью средства сбора PST-файлов
 
@@ -47,7 +48,7 @@ ms.locfileid: "43942202"
     
 5. **[Шаг 5: Удаление PST-файлов, найденных в сети](#step-5-delete-the-pst-files-found-on-your-network)** — после импорта PST-файлов, которые вы нашли и собрали, в почтовые ящики Exchange Online в Office 365 можно использовать средство коллекция PST-файлов для удаления PST-файлов из исходных расположений, где они были найдены на этапе 1. 
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 - Выполните следующие действия, чтобы скачать средство сбора PST-данных на локальный компьютер. 
     

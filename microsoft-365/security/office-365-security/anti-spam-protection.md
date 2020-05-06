@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: Сведения о параметрах и фильтрах защиты от нежелательной почты, которые помогут предотвратить нежелательную почту в Exchange Online и Microsoft 365. Слишком много спама в Microsoft 365? Вы можете настроить фильтры нежелательной почты и параметры защиты от нежелательной почты.
-ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Сведения о параметрах и фильтрах защиты от нежелательной почты, которые помогут предотвратить нежелательную почту в Exchange Online и Microsoft 365.
+ms.openlocfilehash: 96132bf66438861eb117aedd841f7912de1258cc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708575"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034062"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Защита от нежелательной почты в Microsoft 365
 

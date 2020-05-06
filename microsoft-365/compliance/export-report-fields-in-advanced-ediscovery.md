@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
-description: Описывает все поля, включенные в отчеты по экспорту для расширенного обнаружения электронных данных.
-ms.openlocfilehash: a7ee8e3971ab2fc921085ca63f7a8451a1597be2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: В этой статье описываются все поля, включенные в отчеты по экспорту для расширенного обнаружения электронных данных.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a971c19563741520a85d6120cb69d13d9b764b8d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637811"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035903"
 ---
 # <a name="export-report-fields-in-advanced-ediscovery-classic"></a>Экспорт полей отчета в Advanced eDiscovery (классический)
 
@@ -75,7 +76,7 @@ ms.locfileid: "43637811"
 |Marked_as_seed  <br/> |Важность  <br/> |Расстановка тегов для файла, если он был задан как начальный файл, релевантность в соответствии с вопросом или категорией.  <br/> |Да  <br/> |Да  <br/> |
 |Marked_as_pre с тегами  <br/> |Важность  <br/> |Разметка файла, если он был задан как предварительно отмеченный в соответствии с вопросом или категорией.  <br/> |Да  <br/> |Да  <br/> |
 |Relevance_status_description  <br/> |Важность  <br/> |Описание состояния релевантности.  <br/> |Да  <br/> |Да  <br/> |
-|Comment  <br/> |Общие  <br/> |Комментарий, введенный пользователем.  <br/> |Да  <br/> |Да  <br/> |
+|Комментарий  <br/> |Общие  <br/> |Комментарий, введенный пользователем.  <br/> |Да  <br/> |Да  <br/> |
 |Export_input_path  <br/> |Обработка  <br/> |Путь для экспорта входных данных.  <br/> |Да  <br/> |Да  <br/> |
 |Pivot_ID  <br/> |Ближайшие дубликаты  <br/> |Идентификатор файла сведения.  <br/> |Да  <br/> |Да  <br/> |
 |Family_size  <br/> |Обработка  <br/> |Количество файлов в семействе.  <br/> |Да  <br/> |Да  <br/> |

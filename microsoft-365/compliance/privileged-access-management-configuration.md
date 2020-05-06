@@ -14,21 +14,23 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: ''
-description: Используйте этот раздел для получения дополнительных сведений о настройке управления привилегированным доступом.
-ms.openlocfilehash: 196685eda6818b399c778363ee458f6f2792a33a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: В этой статье представлены дополнительные сведения о том, как использовать и настраивать управление привилегированным доступом в Office 365.
+ms.openlocfilehash: cbb38c2edff0c85e24855e3f6a1613ad8a92043e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626515"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036424"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Начало работы с управлением привилегированным доступом
 
 В этом разделе описывается включение и Настройка управления привилегированным доступом в Организации. Для управления привилегированным доступом можно использовать центр администрирования Microsoft 365 или PowerShell управления Exchange.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 Прежде чем приступить к управлению привилегированным доступом, необходимо подтвердить вашу [подписку на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и любую надстройку. Чтобы получить доступ к управлению привилегированным доступом и использовать ее, ваша организация должна иметь одну из следующих подписок или надстроек:
 
@@ -296,7 +298,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 5. Выберите политику, которую нужно удалить, а затем нажмите кнопку **удалить политику**.
 
-6. Нажмите **Закрыть**.
+6. Нажмите кнопку **Закрыть**.
 
 ### <a name="in-exchange-management-powershell"></a>В PowerShell для управления Exchange
 

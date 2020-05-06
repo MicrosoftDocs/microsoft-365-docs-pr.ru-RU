@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Узнайте, как создавать и удалять группы Microsoft 365, добавлять и удалять членов групп, а также настраивать работу группы.
-ms.openlocfilehash: d37058fa3ef3803f3a8f6099d46e1262f314e501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a691f2363547c5bffb4c674d61cddde0cdb0266a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630459"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049219"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Создание группы в центре администрирования Microsoft 365
   
 Несмотря на то, что пользователи могут создать группу Microsoft 365 из Outlook или других приложений, как администратор, вам может потребоваться создать или удалить группы, добавить или удалить участников и настроить их работу. Это можно сделать с помощью центра администрирования Microsoft 365. 
 
 > [!TIP]
-> Подключенные к Microsoft 365 группы Yammer должны создаваться в Yammer, но их можно управлять в центре администрирования Microsoft 365, как и другие группы Microsoft 365. Дополнительные сведения см. в статье [Yammer and Microsoft 365 Groups](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx). 
+> Подключенные к Microsoft 365 группы Yammer должны создаваться в Yammer, но их можно управлять в центре администрирования Microsoft 365, как и другие группы Microsoft 365. Дополнительные сведения см. в статье [Yammer and Microsoft 365 Groups](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups). 
 
 ## <a name="create-a-microsoft-365-group"></a>Создание группы Microsoft 365
 
@@ -49,7 +49,7 @@ ms.locfileid: "43630459"
     
 7. После проверки параметров и внесения изменений выберите **создать группу**.
 
-8. Нажмите **Закрыть**.
+8. Нажмите кнопку **Закрыть**.
     
 ## <a name="add-members-to-the-group"></a>Добавление участников в группу
 
@@ -57,7 +57,7 @@ ms.locfileid: "43630459"
 
 ::: moniker range="o365-worldwide"
 
-Пользователи могут [добавить себя или запросить утверждение](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
+Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
 
 1. В центре администрирования обновите страницу, чтобы появилась новая группа, а затем выберите имя группы, в которую вы хотите добавить участников.
     
@@ -75,7 +75,7 @@ ms.locfileid: "43630459"
 
 ::: moniker range="o365-germany"
 
-Пользователи могут [добавить себя или запросить утверждение](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
+Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
 1. В центре администрирования обновите страницу, чтобы появилась новая группа **, выберите** \> группы группы, а затем выберите <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группу, в</a>которую вы хотите добавить участников.
     
 2. Рядом с элементом **элементы**нажмите кнопку **изменить**.
@@ -91,7 +91,7 @@ ms.locfileid: "43630459"
 
 ::: moniker range="o365-21vianet"
 
-Пользователи могут [добавить себя или запросить утверждение](https://support.office.com/article/Join-a-group-in-Outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
+Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
 1. В центре администрирования обновите страницу, чтобы появилась новая группа **, выберите** \> группы группы, а затем выберите <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группу, в</a>которую вы хотите добавить участников.
     
 2. Рядом с элементом **элементы**нажмите кнопку **изменить**.
@@ -117,9 +117,9 @@ ms.locfileid: "43630459"
 
 После создания новой группы и добавления ее участников можно выполнить дальнейшую настройку группы, например изменить имя или описание группы, изменить владельцев или участников, а также указать, могут ли внешние отправители отправлять сообщения группе и как отправлять копии групповых бесед участникам. Сведения об [управлении группой Microsoft 365](manage-groups.md) .
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Выбор домена, который будет использоваться при создании групп Microsoft 365](choose-domain-to-create-groups.md)
 

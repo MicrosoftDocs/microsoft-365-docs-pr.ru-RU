@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в WiX для Майкрософт.
-ms.openlocfilehash: 2cbc4887f276e63f09b433225e09315c227c961c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6f88cc65ae19f747a9fc3740ea1578f30d18b5e2
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629243"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048859"
 ---
 # <a name="create-dns-records-at-wix-for-microsoft"></a>Создание записей DNS в WiX для Майкрософт
 
@@ -109,7 +109,7 @@ ms.locfileid: "43629243"
     
 |**Host Name**|**Points to (Указывает на)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
 |:-----|:-----|:-----|:-----|
-|Заполняется автоматически <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/What-is-MX-priority-2784cc4d-95be-443d-b5f7-bb5dd867ba83). | 1 Hour|
+|Заполняется автоматически <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). | 1 Hour|
    
 6. Если в списке есть другие записи MX, удалите их. 
     

@@ -12,13 +12,15 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: 'Сводка: сведения о устойчивости данных в Microsoft 365.'
-ms.openlocfilehash: 365cde7137247e20bb4fd2b57039057398deafd5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: В этой статье рассказывается о технологиях шифрования, которыми можно управлять и настраивать в Microsoft 365.
+ms.openlocfilehash: 3c7050ba0417473b4b387937336aae02c1eba778
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637345"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033617"
 ---
 # <a name="customer-managed-encryption-features"></a>Функции шифрования, управляемые клиентами
 
@@ -66,6 +68,6 @@ Exchange Online Protection (EOP) и Exchange Online поддерживают в�
 
 - [Настройка SPF для предотвращения спуфинга](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)
 
-- [Проверка исходящей электронной почты, отправленной из личного домена, с помощью DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)
+- [Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)
 
 - [Использование протокола DMARC для проверки электронной почты](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email)
