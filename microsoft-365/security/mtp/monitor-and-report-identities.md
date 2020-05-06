@@ -1,5 +1,5 @@
 ---
-title: Мониторинг удостоверений и создание отчетов в центре безопасности Майкрософт 365
+title: Наблюдение за удостоверениями и отчеты — центр безопасности
 description: Описание способов мониторинга пользователей в Организации и отслеживания подозрительных и рискованных поведений.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, центр безопасности, монитор, отчет, удостоверение, пользователи
 ms.prod: microsoft-365-enterprise
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 2a84cc9c275db1579dfab5050672faf2463698e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6e884e6fc67670f25e48747324c15b158cc5c284
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084977"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034038"
 ---
 # <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Мониторинг удостоверений и создание отчетов в центре безопасности Майкрософт 365
 

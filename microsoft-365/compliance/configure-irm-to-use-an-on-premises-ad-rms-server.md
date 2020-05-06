@@ -15,15 +15,16 @@ search.appverid:
 ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
-description: В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory.
-ms.openlocfilehash: d9d1dee8ca0992f1e2f9cb344baba4f245d3ca37
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Узнайте, как настроить управление правами на доступ к данным (IRM) в Exchange Online для использования сервера службы управления правами Active Directory (AD RMS).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 510dc7ea628a46bc5bedfc04ba3b197407d5d67d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078505"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033699"
 ---
-# <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб Active Directory Rights Management
+# <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
   
 Для использования в локальных развертываниях управление правами на доступ к данным (IRM) в Exchange Online использует службы управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версий. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
   

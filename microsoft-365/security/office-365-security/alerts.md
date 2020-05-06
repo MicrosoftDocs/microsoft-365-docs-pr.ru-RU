@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
-description: Сведения об оповещениях, которые можно настроить для обеспечения безопасности в Office 365.
-ms.openlocfilehash: 24e36b6867600985a9ca0f9cb3cbafc5a8c6029e
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: Сведения о том, как использовать функции оповещений в центре безопасности & соответствия требованиям Office 365 для просмотра оповещений и управления ими, в том числе для управления расширенными оповещениями.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8b0c2d89f7f91e1dfcae644663c43bc6e8640f37
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943559"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033778"
 ---
 # <a name="alerts-in-the-security-amp-compliance-center"></a>Оповещения в центре безопасности &amp; и соответствия требованиям
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Управление custodians в расширенном случае обнаружения электронных данных.
-ms.openlocfilehash: b497aef50c2bafd58e3b9cf8643a1ecc038520a4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как просмотреть сведения, изменить и массово изменить список custodians в расширенном случае обнаружения электронных данных.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 895383f72259fa5e46a46df35925bcc73f62e3a5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635899"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034181"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Управление custodians в расширенном случае обнаружения электронных данных
 
@@ -126,9 +127,9 @@ ms.locfileid: "43635899"
 
 1. Перейдите на **Обнаружение электронных данных > Advanced eDiscovery** и откройте обращение.
 
-2.  Перейдите на вкладку **custodians** .
+2.    Перейдите на вкладку **custodians** .
 
-3.  Перейдите на **вкладку custodians**, а затем выберите хранитель, который выпускается из этого случая.
+3.    Перейдите на **вкладку custodians**, а затем выберите хранитель, который выпускается из этого случая.
 
 4. На всплывающей странице нажмите кнопку **Release хранитель**.
 

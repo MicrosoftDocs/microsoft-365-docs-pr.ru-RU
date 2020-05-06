@@ -1,5 +1,5 @@
 ---
-title: 'Создание отчетов о нежелательной почте и мошеннических сообщениях (фишинге) в Outlook в Интернете '
+title: Отправка отчетов о мошенничестве в Outlook в Интернете
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Пользователи Microsoft 365 с почтовыми ящиками Exchange Online могут использовать Outlook в Интернете (Outlook Web App) для отправки нежелательной почты, нежелательной почты и фишинговых сообщений в корпорацию Майкрософт для анализа.
-ms.openlocfilehash: 9fc17abafe219a450e0fb6e45438211ea03fb337
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 32e60aa707bcaea9e35cc3bb8ded3aefb7fe46ab
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921484"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031494"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Отправка нежелательных и фишинговых сообщений электронной почты в Outlook в Интернете в Office 365
 
