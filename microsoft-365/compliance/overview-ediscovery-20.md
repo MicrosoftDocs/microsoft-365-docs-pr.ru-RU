@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: В этой статье описывается новая версия расширенного обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: 3296fbbd04f2baa635fdf0330fc65b927a21448a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: В этой статье представлен обзор расширенного обнаружения электронных данных в Microsoft 365, средство для внутреннего и внешнего расследования.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fae09b33364f9ff57233ee25ccf40e4956dfd408
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626765"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034909"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Обзор расширенного решения обнаружения электронных данных в Microsoft 365
 

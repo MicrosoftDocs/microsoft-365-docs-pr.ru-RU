@@ -15,17 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 1c0eaed5d5971a55e4e9851bac3133bcd961eb36
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Маркировка документов в наборе рецензирования помогает удалить ненужные материалы и определить релевантный контент в расширенном случае обнаружения электронных данных.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 445bf9a0ee5959c4972920a74e7bd1596d9edca1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557699"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034553"
 ---
 # <a name="tag-documents-in-a-review-set"></a>Добавление тегов к документам в наборе для проверки
 
-Организация контента в наборе проверки важна для выполнения различных рабочих процессов в процессе обнаружения электронных данных. В частности, импорт позволяет:
+Организация контента в наборе проверки важна для выполнения различных рабочих процессов в процессе обнаружения электронных данных. Это включает:
 
 - Отбор ненужного контента
 

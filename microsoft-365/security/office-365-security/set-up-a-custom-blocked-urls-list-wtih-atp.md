@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
-description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection. Заблокированные URL-адреса будут применяться к сообщениям электронной почты и документам Office в соответствии с политиками безопасных ссылок ATP.
-ms.openlocfilehash: ff8709a8bf0f8afc27ace2b3977be975f42c33a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection.
+ms.openlocfilehash: 9e0c6e75358c97a21ab0765edf5a15bafe53d75e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638408"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035376"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок ATP
 

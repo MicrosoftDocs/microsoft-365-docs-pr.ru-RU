@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2041a048-8d78-4b76-a91f-43ea43a858bd
-description: Microsoft Exchange Online Protection (EOP) предлагает несколько способов управления получателями электронной почты. В следующих разделах и связанных подразделах представлены сведения и процедуры настройки для управления получателями и назначения разрешений групп ролей администраторов.
-ms.openlocfilehash: a56151167bdc2500af461dbcd188cfe635c6d866
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: Сведения о процедурах настройки для управления получателями почты & назначения разрешений группы ролей администратора в Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: 4e5ed4d19ec25eeb93da919a0f56c06dc1154d98
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598966"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036165"
 ---
 # <a name="manage-recipients-and-admin-role-groups-in-eop"></a>Управление получателями и группами ролей администратора в EOP
 
