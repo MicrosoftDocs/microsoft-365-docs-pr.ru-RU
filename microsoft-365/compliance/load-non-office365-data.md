@@ -15,19 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 9eef3b38ceef7efc42e1f66c45069f51a0a95d45
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как использовать компонент импорта содержимого, не относящийся к Office 365, для отправки документов, отличных от Office 365, в доказательства, проводимые при расследовании данных.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 499b1074b9a1e2026804eab2ac958fe7392e98ea
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632634"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034417"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Загрузка данных, отличных от Microsoft 365, в свидетельство
 
 Не все документы, которые могут потребоваться анализировать при расследовании данных, будут размещены в Microsoft 365. С помощью функции импорта содержимого, отличной от Microsoft 365, вы можете отправлять в доказательства документы, которые не находятся в Microsoft 365, поэтому их можно проанализировать при расследовании данных.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 Для использования функции отправки, отличной от Microsoft 365, как описано в этой процедуре, необходимо следующее:
 

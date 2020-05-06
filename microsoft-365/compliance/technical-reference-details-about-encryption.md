@@ -15,13 +15,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
-description: Просмотрите технические сведения о шифровании в Office 365.
-ms.openlocfilehash: cdfd3765fb7bf15835d200a539241d928225d22e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте о различных сертификатах, технологиях и комплектах шифров TLS, используемых для шифрования в Office 365.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f15f55c4a66d579d547a164633613175f254640b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637213"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034533"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Технические справочные сведения о шифровании
 
