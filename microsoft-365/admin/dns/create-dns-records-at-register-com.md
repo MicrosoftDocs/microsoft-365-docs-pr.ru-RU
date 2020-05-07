@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55bd8c38-3316-48ae-a368-4959b2c1684e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Register.com для Майкрософт.
-ms.openlocfilehash: 7d1293368a9a7ab94a5556ca266c716280ae85f5
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 125baf224cc9f3f21746a2f802b17f2572b65316
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939123"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048907"
 ---
 # <a name="create-dns-records-at-registercom-for-microsoft"></a>Создание записей DNS на сайте Register.com для Майкрософт
 
@@ -123,7 +123,7 @@ ms.locfileid: "43939123"
     
     |****Host Name** (Имя узла)**|****Priority** (Приоритет)**|****Mail Server** (Почтовый сервер)**|
     |:-----|:-----|:-----|
-    |@  <br/> |Высокая  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |Высокая  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/>  <br/>**Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт. <br> [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Скопируйте и вставьте значение из таблицы](../../media/a1a15a14-c3dc-45dc-adcd-90fdb3f7455d.png)
   

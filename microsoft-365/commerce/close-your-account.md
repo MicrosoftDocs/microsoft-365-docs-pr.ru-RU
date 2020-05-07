@@ -15,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Сведения о том, как закрыть учетную запись с помощью корпорации Майкрософт.
-ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 43ec3fe2eedc354c0494818f97b01e8de63694c7
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942857"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045780"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
@@ -40,7 +40,7 @@ ms.locfileid: "43942857"
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Шаг 2: Отмена всех активных подписок
 
-1. В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".
+1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Если список подписок находится в представлении **таблицы** , справа выберите **карточки**.
 
@@ -52,7 +52,7 @@ ms.locfileid: "43942857"
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>Шаг 3: удаление всех отключенных подписок
 
-1. В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".
+1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Если список подписок находится в представлении **таблицы** , справа выберите **карточки**.
 

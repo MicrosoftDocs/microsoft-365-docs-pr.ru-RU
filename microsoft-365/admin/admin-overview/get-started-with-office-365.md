@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Узнайте, как настроить и использовать Microsoft 365 на компьютере, телефоне и планшете.
-ms.openlocfilehash: fd52b12ab008e2c8d7b7a4476ae2212e01e1bb10
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6db85e57757d627c22767289761b4cb3120b3716
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623922"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049427"
 ---
 # <a name="get-started"></a>Начало работы
 
@@ -60,11 +60,11 @@ ms.locfileid: "43623922"
   
 - [Учебные курсы для администраторов](https://support.office.com/article/e990f8ff-56d7-450e-ad9f-74ae8718ef09.aspx): получите ссылки на бесплатные онлайн-классы для администраторов.
     
-- [Справка для администраторов](https://support.office.com/article/17d3ff3f-3601-466e-b5a1-482b31cfb791.aspx): получение сведений о самых основных задачах, начало работы с инструментами администрирования и устранение неполадок.
+- [Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/admin-home): получение сведений о самых основных задачах, начало работы с инструментами администрирования и устранение неполадок.
     
 - [Обратитесь в службу поддержки — Справка для администраторов](../contact-support-for-business-products.md) : позвоните нам, откройте онлайн-запрос или предоставьте справку сообщества. 
     
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Настройка Microsoft 365 для бизнеса Справка для администраторов](../setup/setup.md)
 
