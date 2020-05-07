@@ -1,5 +1,5 @@
 ---
-title: Создание поисковых запросов
+title: Создание поисковых запросов — расследования данных
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
+ms.custom: seo-marvel-mar2020
 description: Использование ключевых слов и условий для сужения области поиска при поиске данных с помощью расследования данных в Microsoft 365.
-ms.openlocfilehash: b6769d662f843622a537a5ce93c1c5331b00fc3f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 95466d0e7c7109001fef001cc0d5bca5b6d658ed
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079034"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034117"
 ---
 # <a name="build-search-queries"></a>Создание поисковых запросов
 

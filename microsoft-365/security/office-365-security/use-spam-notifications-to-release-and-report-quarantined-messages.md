@@ -1,5 +1,5 @@
 ---
-title: Использование уведомлений о нежелательной почте для освобождения и отправки отчетов о сообщениях, помещенных в карантин
+title: Уведомления конечных пользователей о нежелательной почте в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,13 +17,15 @@ search.appverid:
 ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
-description: Когда администратор включает уведомления конечного пользователя о нежелательной почте в политиках защиты от нежелательной почты, получатели сообщения будут получать периодические уведомления о сообщениях, помещенных в карантин.
-ms.openlocfilehash: 641efc024a2842f30f7754c52f624a9f668851de
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье вы узнаете о уведомлениях о нежелательной почте для конечных пользователей о сообщениях, помещенных в карантин.
+ms.openlocfilehash: 2a865130bf1fa0c09b5b68254fb604795b204c22
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636420"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035002"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Использование уведомлений о нежелательной почте для освобождения и отправки отчетов о сообщениях, помещенных в карантин
 

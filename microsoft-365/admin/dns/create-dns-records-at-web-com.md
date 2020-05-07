@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу web.com для Майкрософт.
-ms.openlocfilehash: e90d052332af7b1ec58b8da0b47db810c71974ee
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: a7567688ad9935b30c0749cb7aeffdbe128506ef
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938822"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048883"
 ---
 # <a name="create-dns-records-at-webcom-for-microsoft"></a>Создание записей DNS на сайте web.com для Майкрософт
 
@@ -130,7 +130,7 @@ ms.locfileid: "43938822"
     
     |**Priority** (Приоритет)|**TTL** (Срок жизни)|**Mail Server (Почтовый сервер)**|
     |:-----|:-----|:-----|
-    |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/> |3600  <br/> |*\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |
+    |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |3600  <br/> |*\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. Нажмите кнопку **Сохранить**.

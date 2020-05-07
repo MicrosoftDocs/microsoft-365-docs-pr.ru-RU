@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
-description: Поскольку вы являетесь пользователем Exchange Online Protection (EOP), все сообщения, отправляемые в организацию, проходят через службу EOP перед доставкой сотрудникам. Если все ваши почтовые ящики находятся в облаке с Exchange Online или хранятся локально (т. е. используется изолированный сценарий), возможно, для дальнейшего использования текущей инфраструктуры у вас есть возможности направлять сообщения, проходящие через службу EOP, для обработки, прежде чем они будут доставлены в папки "Входящие" ваших сотрудников.
-ms.openlocfilehash: cbe369e5bf522cb966fd448970f07a34a141d610
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье Exchange Online Protection (EOP) пользователи могут узнать о настройке настраиваемой маршрутизации почты, которая может соответствовать бизнес-требованиям.
+ms.openlocfilehash: cdc919c628f2254ffc971678f7887c37786d2528
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630483"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034236"
 ---
 # <a name="mail-flow-in-eop"></a>Поток обработки почты в службе EOP
 

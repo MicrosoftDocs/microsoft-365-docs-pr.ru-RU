@@ -1,5 +1,5 @@
 ---
-title: Обозреватель угроз и обнаружение в режиме реального времени, новые возможности в обозревателе угроз, изменения в обозревателе угроз, новые возможности для Office 365, безопасность, облачная безопасность, новые возможности для обеспечения безопасности в ATP, новые функции ATP
+title: Обозреватель угроз и обнаружение в режиме реального времени
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
-description: Сведения о Explorer и обнаружения в режиме реального времени в центре безопасности &amp; и соответствия требованиям.
-ms.openlocfilehash: 2d75a5e05bb3fce85d52856afabc6aba13594f26
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+description: Сведения об использовании Explorer и обнаружения в режиме реального времени в центре соответствия &amp; требованиям безопасности для эффективного и эффективного изучения угроз и реагирования на них.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7d540b52a403e43be06fc731590d183d5edfa7f9
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708563"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036756"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>Обозреватель угроз и обнаружение в режиме реального времени
 

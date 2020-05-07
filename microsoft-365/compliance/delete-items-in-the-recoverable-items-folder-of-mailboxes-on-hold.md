@@ -1,5 +1,5 @@
 ---
-title: Удаление элементов из папки "элементы с возможностью восстановления" в облачных почтовых ящиках в справке для удержания
+title: Удаление элементов в облачном почтовом ящике в папке "элементы с возможностью восстановления" — Справка для администраторов
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,12 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Для администраторов: удаление элементов из папки "элементы с возможностью восстановления" для почтового ящика Exchange Online, даже если этот почтовый ящик размещен на удержании по юридическим причинам. Это эффективный способ удаления данных, которые были случайно перенесены в Microsoft 365.'
-ms.openlocfilehash: 4cf568c06fc3b6ee886ff1823d8771a64c0286d8
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0e42249fb2ba7143c4c833193b31c72f0fb73137
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022089"
+ms.locfileid: "44035893"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Удаление элементов из папки "элементы с возможностью восстановления" в облачных почтовых ящиках в справке для удержания
 

@@ -20,12 +20,12 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Сведения о том, как добавить участника в группу, удалить участника из группы и управлять состоянием владельца группы в центре администрирования Microsoft 365.
-ms.openlocfilehash: 9191f9a29f9d4c1589feda66c9ca482180229bd6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b4df54e3dc54baf2f9e770f42333b95af391e90
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631317"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049403"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление и удаление участников из групп Microsoft 365 с помощью центра администрирования
 
@@ -276,16 +276,16 @@ ms.locfileid: "43631317"
     
 - Чтобы добавить в группы сотни или тысячи пользователей, используйте [Add – унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616191).
     
-- [Назначение владельца для бесхозной группы](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732.aspx)
+- [Назначение владельца для бесхозной группы](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
     
 ## <a name="articles-about-managing-groups"></a>Статьи об управлении группами
     
 - [Обновление списков рассылки до Microsoft 365 группы в Outlook](../manage/upgrade-distribution-lists.md)
     
-- [Причины для перехода со списков рассылки на группы в Outlook](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx)
+- [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - [Управление гостевым доступом в группах Microsoft 365](manage-guest-access-in-groups.md)    
     
-- [Управление группами Microsoft 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540): в этой статье описываются ключевые командлеты и приводятся примеры
+- [Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell): в этой статье описываются ключевые командлеты и приводятся примеры
     
 - [Политика именования групп Microsoft 365](groups-naming-policy.md)

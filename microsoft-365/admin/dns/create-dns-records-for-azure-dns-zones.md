@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в зонах DNS Azure для Майкрософт.
-ms.openlocfilehash: 7104fb18a6581b7ebc853f938b85171ae1886cfd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3d50051e2302b6ef49762cad6682f15c90dd74a1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629147"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048871"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>Создание записей DNS для зон DNS Azure
 
@@ -107,7 +107,7 @@ ms.locfileid: "43629147"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Значение**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Значение**|
     |:-----|:-----|:-----|:-----|:-----|
     |@  <br/> |TXT  <br/> |1,1  <br/> |Часы  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
@@ -157,9 +157,9 @@ ms.locfileid: "43629147"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Preference (Предпочтение)**|**Обмен сообщениями**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Preference (Предпочтение)**|**Обмен сообщениями**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1,1  <br/> |Часы  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1,1  <br/> |Часы  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure — BP — configure – 2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   
@@ -206,7 +206,7 @@ ms.locfileid: "43629147"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Alias (Псевдоним)**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Alias (Псевдоним)**|
     |:-----|:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |sipdir.online.lync.com  <br/> |
@@ -230,7 +230,7 @@ ms.locfileid: "43629147"
 > [!IMPORTANT]
 > Если у вас есть управление мобильными устройствами (MDM) для Майкрософт, необходимо создать две дополнительные записи CNAME. Follow the procedure that you used for the other four CNAME records, but supply the values from the following table. (Если MDM нет, вы можете пропустить этот шаг.) 
   
-|**Имя**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Alias (Псевдоним)**|
+|**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Alias (Псевдоним)**|
 |:-----|:-----|:-----|:-----|:-----|
 |enterpriseregistration  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |enterpriseregistration.windows.net  <br/> |
 |enterpriseenrollment  <br/> |CNAME  <br/> |1,1  <br/> |Часы  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
@@ -257,7 +257,7 @@ ms.locfileid: "43629147"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Значение**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Значение**|
     |:-----|:-----|:-----|:-----|:-----|
     |@  <br/> |TXT  <br/> |1,1  <br/> |Часы  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               
 
@@ -288,7 +288,7 @@ ms.locfileid: "43629147"
     
     В раскрывающихся списках выберите значения **Type (тип** ) и **TTL (TTL** ). 
     
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**Единица срока жизни**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip. _tls  <br/> |SRV  <br/> |1,1  <br/> |Часы  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
     |_sipfederationtls. _tcp  <br/> |SRV  <br/> |1,1  <br/> |Часы  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> 

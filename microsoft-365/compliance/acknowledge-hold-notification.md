@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Вам может потребоваться уведомить custodians о своих обязательствах, чтобы сохранить электронную информацию в ходе судебного разбирательства. Расширенное обнаружение электронных данных позволяет легко управлять процессом уведомления об удержаниях.
-ms.openlocfilehash: 703034088b03badae309961c2abda9db80425b99
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как использовать Расширенное обнаружение электронных данных для отправки и отслеживания уведомлений о юридических удержаниях через электронную почту, а также для отслеживания состояния обязательства.
+ms.openlocfilehash: 393d8884a4d4d39056267666fdce6a2754cb582b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080284"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034889"
 ---
 # <a name="acknowledge-a-hold-notification"></a>Подтверждение уведомления об удержании
 

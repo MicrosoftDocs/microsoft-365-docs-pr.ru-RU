@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d621017a125a43fc0fc9523e6ce8700b66077f2e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4f97b0c0d5af681ed55a119f7ebbaf6c89fb1393
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602536"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066636"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>Цифровое партнерство с цифровым производством (ДПП) (Великобритания)
 
@@ -35,7 +35,7 @@ Microsoft Azure настроила ДПП на отметку безопасно
   
 Это означает, что средства вещания и другие пользователи мультимедиа, использующие Azure, могут быть уверены, что его надежная безопасность и надежная служба могут помочь удовлетворить уникальные требования отрасли вещания от разработки до передачи.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 
@@ -56,7 +56,3 @@ Microsoft Azure настроила ДПП на отметку безопасно
 - [Руководство пользователя в контрольном списке вещания ДПП по безопасности](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
 - [НАБА и ДПП, которые передаются Уните, чтобы повысить требования к безопасности для поставщиков](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/C/6/3C63143B-41BA-4ED7-A2A8-DDE6B0B04036/DPP-Compliance.pdf).

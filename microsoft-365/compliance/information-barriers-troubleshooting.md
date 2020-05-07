@@ -13,12 +13,13 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Используйте эту статью в качестве руководства по устранению проблем со сведениями.
-ms.openlocfilehash: c57f9a14e3089f52ad0eab0a0634d7d58f74e6cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f73493f53937c38f33eeab9595ddb07ef4813c89
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621353"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035035"
 ---
 # <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
@@ -146,7 +147,7 @@ ms.locfileid: "43621353"
 
 2. В зависимости от результатов предыдущего действия выполните одно из указанных ниже действий.
   
-    |Состояние  |Следующий шаг  |
+    |Состояние  |Следующий этап  |
     |---------|---------|
     |**Не запущено**.     |Если после выполнения командлета **Start – информатионбарриерполиЦиесаппликатион** использовался более 45 минут, просмотрите журнал аудита, чтобы проверить наличие ошибок в определениях политик, или причину, по которой приложение не запущено. |
     |**Не удалось выполнить**     |Если произошел сбой приложения, просмотрите журнал аудита. Кроме того, проверьте сегменты и политики. Все пользователи назначены нескольким сегментам? Все сегменты назначены более чем одному полиици? При необходимости [измените сегменты](information-barriers-edit-segments-policies.md#edit-a-segment) и/или [измените политики](information-barriers-edit-segments-policies.md#edit-a-policy), а затем снова запустите командлет **Start-информатионбарриерполиЦиесаппликатион** .  |
@@ -164,7 +165,7 @@ ms.locfileid: "43621353"
 
 2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/get-addressbookpolicy?view=exchange-ps) и просмотрите результаты.
 
-    |Результаты  |Следующий шаг  |
+    |Результаты  |Следующий этап  |
     |---------|---------|
     |Политики адресных книг Exchange перечислены     |[Удаление политик адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy)         |
     |Политика адресных книг не существует |Просмотрите журналы аудита, чтобы выяснить причину сбоя приложения политики |
@@ -199,7 +200,7 @@ $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDat
 ```powershell
    $DetailedLogs[1] |fl
 ```
- Например:
+ Пример:
 
 > "UserId": Пользователь1
 > 

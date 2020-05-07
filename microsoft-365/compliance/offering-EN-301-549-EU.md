@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9cf5d3eed1854dbf715a9574b4efaa666c934a52
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: ac8829d681e27609a505e7539e835c5c58c8474e
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42313774"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064728"
 ---
 # <a name="european-standards-en-301-549"></a>Европейские стандарты EN 301 549
 
@@ -53,7 +53,3 @@ ms.locfileid: "42313774"
 - [Центр специальных возможностей Office 365](https://go.microsoft.com/fwlink/p/?linkid=2051801). Ресурсы Office 365 для людей с ограниченными возможностями.
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890). Поддержка для корпоративных клиентов с вопросами о специальных возможностях наших продуктов и служб или о соответствии требованиям.
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/F/B/B/FBB0D35E-A1B3-4078-A75D-702368311649/China-Compliance.pdf).

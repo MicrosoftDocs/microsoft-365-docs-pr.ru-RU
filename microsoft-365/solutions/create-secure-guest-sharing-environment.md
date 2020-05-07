@@ -11,15 +11,16 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
-description: Сведения о создании безопасной среды гостевого общего доступа в Microsoft 365.
-ms.openlocfilehash: 73d3e2a9a55ead5447d2c6d640123ee3befd8373
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: В этой статье вы ознакомитесь с доступными параметрами создания безопасной среды гостевого общего доступа в Microsoft 365.
+ms.openlocfilehash: 848bdef888ab6d6fb20db2a461912f180bfa212c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003751"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036128"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Создание безопасной среды гостевого общего доступа
 

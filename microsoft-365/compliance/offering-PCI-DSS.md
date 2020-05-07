@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 12b3f0c94a3d391d5116af0c6eba366550a83040
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 85fa3c8a8e8ac2dda725227235512385bf991c12
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602086"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036358"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Стандарт безопасности данных в сфере платежных карт (PCI-DSS)
 
@@ -44,6 +44,7 @@ ms.locfileid: "41602086"
 - Облачная служба Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Graph
 - Intune
+- [Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
 - OneDrive для бизнеса и SharePoint Online (только Соединенные Штаты)
@@ -55,7 +56,7 @@ ms.locfileid: "41602086"
 
 ## <a name="get-your-pci-dss-solution-running-on-azure"></a>Пусть ваше решение PCI DSS работает на Azure
 
-Создавайте и выполняйте развертывание своего решения PCI DSS в облаке еще быстрее с планом безопасности и соответствия Azure PCI DSS. Получите эталонные архитектуры, руководство по развертыванию, сопоставления средств реализации управления, автоматизированные сценарии и многое другое. [Начало работы со схемой Azure PCI DSS](https://aka.ms/pciblueprint)
+Создавайте и выполняйте развертывание своего решения PCI DSS в облаке еще быстрее с планом безопасности и соответствия Azure PCI DSS. Получите эталонные архитектуры, руководство по развертыванию, сопоставления средств реализации управления, автоматизированные сценарии и многое другое. [Начало работы со схемой Azure PCI DSS](https://aka.ms/pciblueprint).
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 

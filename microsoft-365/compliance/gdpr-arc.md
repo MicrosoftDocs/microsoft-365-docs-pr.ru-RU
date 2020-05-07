@@ -1,6 +1,6 @@
 ---
 title: Контрольный список готовности к подотчетности в рамках GDPR
-description: Сведения о том, как службы Майкрософт обеспечивают защиту от нарушений безопасности персональных данных и как корпорация Майкрософт реагирует на такие нарушения и оповещает вас о них.
+description: В этой статье рассматриваются контрольные списки готовности к подотчетности, предназначенные для получения доступа к информации, необходимой для соблюдения требований GDPR при использовании продуктов и служб Майкрософт.
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -13,14 +13,16 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - GDPR
-- M365-security-compliance
+- M365-security-complianc
+ms.custom:
+- seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: b34221c45acc3d2918ed1a397e9e1ff0e726c152
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 154ba945db3bd5cfab25881bfdbbdc6738a3dfd7
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558129"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036117"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Поддержка программы GDPR с контрольными списками готовности к подотчетности
 

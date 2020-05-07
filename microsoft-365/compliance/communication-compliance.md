@@ -1,5 +1,5 @@
 ---
-title: Соответствие требованиям к обмену данными
+title: Соответствие коммуникациям
 description: Сведения о требованиях к общению в Microsoft 365
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b8e25b55ea20514e452b2c26ee0ad1569dbc3c85
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 71226634f17e8e801c409e513494dfdcc19d0719
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919696"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046297"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Соответствие требованиям в Microsoft 365
 
@@ -156,4 +156,6 @@ ms.locfileid: "43919696"
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?
 
-Чтобы настроить соответствие требованиям для вашей организации Microsoft 365, ознакомьтесь с [разделом](communication-compliance-case-study.md) [Настройка обеспечения соответствия требованиям для Microsoft 365](communication-compliance-configure.md) или Узнайте, как быстро настроить политику соответствия в соответствии с нежелательным языком в Microsoft Teams, Exchange Online и в Yammer для обмена данными в Yammer.
+- Сведения о планировании приведены в статье [Plan for Communication для обеспечения соответствия требованиям](communication-compliance-plan.md).
+- Ознакомьтесь с [практическими примерами для Contoso](communication-compliance-case-study.md) и Узнайте, как быстро настроили политику соответствия требованиям к связи для отслеживания нежелательных языков в Microsoft Teams, Exchange Online и коммуникаций в Yammer.
+- Чтобы настроить соответствие требованиям для организации Microsoft 365, ознакомьтесь со статьей [Настройка соответствия требованиям для microsoft 365](communication-compliance-configure.md).

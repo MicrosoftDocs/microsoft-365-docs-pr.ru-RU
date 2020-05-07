@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Администраторы могут узнать, как управлять самостоятельными покупками пользователей в Организации.
-ms.openlocfilehash: ab0e98963e1274925fcf678307907a93eafc9663
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409634"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046184"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Управление самостоятельно приобретенными лицензиями (администратор)
 
@@ -29,7 +29,7 @@ ms.locfileid: "42409634"
 
 ## <a name="view-self-service-subscriptions"></a>Просмотр подписок на самостоятельную обслуживание
 
-1. В центре администрирования откройте страницу "Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">& услуг</a> ".
+1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Рядом с **уточнением результатов**в раскрывающемся списке **тип учетной записи** выберите пункт **самостоятельная служба**.
 

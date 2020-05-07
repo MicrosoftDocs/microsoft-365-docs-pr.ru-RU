@@ -11,13 +11,14 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
-description: Прежде чем приступить к работе с EOP, необходимо знать несколько моментов.
-ms.openlocfilehash: c86d8dbf71cdfddf0562e9c572dc8d65043e1c69
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Сведения о службе фильтрации электронной почты, размещенной в Microsoft Exchange Online Protection (EOP), в том числе о настройке службы EOP.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ee39e051d3be0e3b27013929bdc3d3a948457c9b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032868"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036540"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection
 

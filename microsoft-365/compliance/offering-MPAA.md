@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d6f817ed755237a49d792ca66f78977729c5d13f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 47aabfdff1973b3edff21c858d25c158ce39c6a7
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602166"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065640"
 ---
 # <a name="motion-picture-association-of-america-mpaa"></a>Американская ассоциация кинокомпаний (MPAA)
 
@@ -34,8 +34,6 @@ ms.locfileid: "41602166"
 Оценка MPAA охватывает 48 разделов безопасности в общем руководстве и дополнительные шесть разделов руководствах для приложений и облачной безопасности. Они созданы на основе отраслевых стандартов безопасности, таких как ISO/IEC 27001 и NIST 800-53, и соответствуют рекомендациям, таким как облачная матрица управления Cloud Security Alliance (CSA).
 
 Формальная оценка Azure на соответствие требованиям означает, что компании, сотрудничающие с основными студиями, могут использовать Azure для снижения затрат на ИТ, которые обычно связаны с обеспечением безопасного создания, управления, хранения и распространения контента с соблюдением требований MPAA. Службы мультимедиа Azure, хранилище, виртуальные сети и более 30 других служб предоставляют модуль работы с контентом в облачной среде, который более безопасен и удобен в масштабировании по сравнению с традиционными локальными рабочими процессами и эффективно защищает медиаресурсы при дальнейшем использовании.
-
-Узнайте о преимуществах MPAA в Microsoft Cloud: [скачайте информационный документ MPAA](https://aka.ms/mpaa-backgrounder).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
@@ -70,7 +68,3 @@ ms.locfileid: "41602166"
 - [Самостоятельная оценка CSA STAR для Azure](https://www.microsoft.com/TrustCenter/Compliance/CSA-self-assessment)
 - [Ответы Azure на CSA CAIQ версии 3.0.1](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/A/1/7A19B051-3399-4222-BEF1-E6E3E0A17961/MPAA_Backgrounder.pdf).

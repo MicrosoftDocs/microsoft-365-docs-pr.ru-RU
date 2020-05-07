@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Используйте кнопку Retry (повторить) для разрешения поиска контента с ошибками расположения контента.
-ms.openlocfilehash: 6eb08c006f206e3ad7850d67e541f6fc3f496441
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Во время расследования можно использовать кнопку повторить, чтобы разрешить поиск контента с ошибками расположения контента.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b2d26cd51c30f2c273abb59199cf4a89f5b7a37
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634177"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034633"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Повторный поиск контента для устранения ошибки размещения контента
 

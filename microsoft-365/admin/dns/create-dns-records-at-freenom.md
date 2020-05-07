@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Freenom для Майкрософт.
-ms.openlocfilehash: a7ad45d3d785478966df5120567836200de316da
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 39963b5c0f5f3f82fe193160e8aa8ab03894cedd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939231"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049039"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Создание записей DNS на сайте Freenom для Майкрософт
 
@@ -70,7 +70,7 @@ ms.locfileid: "43939231"
   
 6. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
-    |**Имя**|**Тип**|**TTL**|**Target (Назначение)**|
+    |**Name**|**Тип**|**TTL**|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|
     |(Оставьте пустым)  <br/> |TXT  <br/> |3600 (секунд)  <br/> |MS = Мскскскскскскскскс  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
@@ -137,9 +137,9 @@ ms.locfileid: "43939231"
   
 8. В поля для новой записи введите (или скопируйте и вставьте) значения из первой строки таблицы ниже. 
     
-    |**Имя**|**Тип**|**TTL**|**Target (Назначение)**|**Priority (Приоритет)**|
+    |**Name**|**Тип**|**TTL**|**Target (Назначение)**|**Priority (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |MX (почтовый обменник)  <br/> |3600 (секунд)  <br/> |\<Domain — key\>. mail.Protection.Outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [What is MX priority?](https://support.office.com/article/17d415c1-067e-4974-84d5-aaeaf3a0c0a9).    <br/> |
+    |(оставьте пустым)  <br/> |MX (почтовый обменник)  <br/> |3600 (секунд)  <br/> |\<Domain — key\>. mail.Protection.Outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |
    
    ![Freenom MX record](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   

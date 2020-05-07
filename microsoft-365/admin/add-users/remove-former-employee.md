@@ -1,5 +1,5 @@
 ---
-title: Удаление бывшего сотрудника из среды Office 365
+title: Удаление бывшего сотрудника
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -24,14 +24,14 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Используйте этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и защищенных данных. '
-ms.openlocfilehash: 593460c2e49b7136972c084a9927544e6194cb90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 74da58878259275d9b39849bd917f7ef35dce82b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617126"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045300"
 ---
-# <a name="remove-a-former-employee"></a>Удаление бывшего сотрудника из среды Office 365
+# <a name="remove-a-former-employee"></a>Удаление бывшего сотрудника
   
 ## <a name="sign-out-now"></a>Немедленный выход
 
@@ -318,7 +318,7 @@ ms.locfileid: "43617126"
 
 
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 
 ::: moniker-end
@@ -425,7 +425,7 @@ ms.locfileid: "43617126"
   
  **Самый быстрый способ для пользователя, присутствующего в локальной среде и в центре обработки данных Exchange.** Завершите сеанс с помощью Центра администрирования Azure Active Directory или Центра администрирования Exchange И внесите это изменение в локальной среде. В противном случае изменение, внесенное в Центре администрирования Azure Active Directory или Центре администрирования Exchange, будет перезаписано средством DirSync. 
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Восстановление пользователя](restore-user.md)
   

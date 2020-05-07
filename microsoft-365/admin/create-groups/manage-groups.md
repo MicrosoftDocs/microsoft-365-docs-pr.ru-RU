@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Сведения об управлении группами Microsoft 365, в том числе добавление участников группы, изменение адреса электронной почты, имени группы или описания и настройка работы группы.
-ms.openlocfilehash: 230a449bad22d0b872983a8c911955f4d00153ea
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 332d0dce46b94a3b69169183afb0c75ec537af8c
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630397"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049207"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Управление группой в центре администрирования Microsoft 365
 
@@ -190,11 +190,11 @@ ms.locfileid: "43630397"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Создание группы Microsoft 365](create-groups.md)
 
-[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Выбор домена, который будет использоваться при создании групп Microsoft 365](choose-domain-to-create-groups.md)
 
@@ -202,4 +202,4 @@ ms.locfileid: "43630397"
 
 [Обновление списков рассылки до групп Майкрософт 365](../manage/upgrade-distribution-lists.md)
 
-[Управление группами Microsoft 365 с помощью PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)

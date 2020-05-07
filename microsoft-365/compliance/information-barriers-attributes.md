@@ -12,13 +12,14 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: None
-description: Используйте эту статью в качестве справки по различным атрибутам, которые можно использовать в политиках барьера информации.
-ms.openlocfilehash: ff7b6e22370c086f6b685fce4de8b61396017bf9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Эта справочная статья по атрибутам учетной записи пользователя Azure Active Directory, используемой для определения сегментов барьера информации.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 75a568b4d54432de0b72c379e83077c222acb687
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600626"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035055"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>Атрибуты для политик информационных барьеров
 
@@ -52,7 +53,7 @@ ms.locfileid: "41600626"
     > [!TIP]
     > При определении сегментов используйте один и тот же атрибут для всех сегментов. Например, если вы определили некоторые сегменты с помощью *отдела*, определите все сегменты с помощью *отдела*. Не определяйте некоторые сегменты, используя *Отдел* и другие, используя *MemberOf*. Убедитесь, что сегменты не перекрываются; Каждый пользователь должен быть назначен только одному сегменту. 
 
-## <a name="reference"></a>Справочник
+## <a name="reference"></a>Ссылки
 
 В следующей таблице перечислены атрибуты, которые можно использовать с барьерами информации.
 
@@ -88,12 +89,12 @@ ms.locfileid: "41600626"
 |StreetAddress |StreetAddress |
 |TargetAddress |ExternalEmailAddress |
 |UsageLocation |UsageLocation |
-|UserPrincipalName  |UserPrincipalName  |
-|Почта   |WindowsEmailAddress    |
+|UserPrincipalName    |UserPrincipalName    |
+|Почта    |WindowsEmailAddress    |
 |Описание    |Описание    |
-|Групп   |мемберофграуп  |
+|Групп    |мемберофграуп    |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Определение политик для барьеров информации в Microsoft Teams](information-barriers-policies.md)
 
