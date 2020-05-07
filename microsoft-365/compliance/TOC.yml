@@ -22,6 +22,8 @@
       items:
         - name: Сведения об управлении внутренними рисками
           href: insider-risk-management.md
+        - name: Планирование управления внутренними рисками
+          href: insider-risk-management-plan.md
         - name: Начало работы с управлением внутренними рисками
           href: insider-risk-management-configure.md
         - name: Создание политик в отношении внутренних рисков и управление ими
@@ -40,6 +42,8 @@
       items:
         - name: Сведения о соответствии требованиям к обмену данными
           href: communication-compliance.md
+        - name: Планирование соответствия требованиям к обмену данными
+          href: communication-compliance-plan.md
         - name: Начало работы с соответствием требованиям к обмену данными
           href: communication-compliance-configure.md
         - name: Анализ и устранений оповещений соответствия требованиям к обмену данными
