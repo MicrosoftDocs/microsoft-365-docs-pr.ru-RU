@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу OVH для Майкрософт.
-ms.openlocfilehash: a1f29b6f6464e781768997be0969914771ec5703
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 18ddcba9cdb4f45f624d32369db07b24f9a357cf
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939135"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048919"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>Создание записей DNS на сайте OVH для Майкрософт
 
@@ -142,7 +142,7 @@ ms.locfileid: "43939135"
   
     |**Примечание.** По умолчанию в OVH используется относительная нотация, при которой в конец целевой записи добавляется доменное имя. Чтобы использовать абсолютную нотацию, добавьте точку в целевую запись, как показано в таблице ниже.|**Sub-domain (Поддомен)**|**Sub-domain (Поддомен)**|**TTL**|**Priority (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(оставьте пустым)  <br/> |(Оставьте пустым)  <br/> |10   <br/> For more information about priority, see [What is MX priority?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx) <br/> |\<ключ_домена\>.mail.protection.outlook.com.  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(оставьте пустым)  <br/> |(Оставьте пустым)  <br/> |10   <br/> For more information about priority, see [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |\<ключ_домена\>.mail.protection.outlook.com.  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![Запись MX OVH для почты](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   

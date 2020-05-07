@@ -1,6 +1,6 @@
 ---
 title: Запросы субъектов данных Intune в рамках GDPR и CCPA
-description: Руководство по использованию продуктов, служб и средств администрирования Майкрософт, позволяющих управляющим находить персональные данные и выполнять с ними действия в ответ на запросы DSR и CCPA.
+description: Это руководство поможет нашим пользователям контроллеров понять, как находить и обрабатывать личные данные и отвечать на запросы DSR и CCPA от клиентов, использующих Microsoft Intune.
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -14,14 +14,16 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
+ms.custom:
+- seo-marvel-mar2020
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 3d30b2187199b223086d53a144d711537fd7e59d
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 6c39450169f835b3d558f14d248d425cb20f939f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557999"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035435"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Intune в рамках GDPR и CCPA
 

@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Узнайте, как управлять способами оплаты в центре администрирования Microsoft 365.
-ms.openlocfilehash: be03d4b779c0592d47b23c4cf1fd491b7c8f455e
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b15381ee4eba7c1a91e108743fc326c890ab1820
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106052"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045932"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>Добавление, удаление и обновление способов оплаты
 
@@ -66,7 +66,7 @@ ms.locfileid: "43106052"
 
 ### <a name="change-the-payment-method-used-for-a-single-subscription"></a>Изменение способа оплаты, используемого для одной подписки
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** > по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 2. Выберите подписку, которую вы хотите оплатить, с помощью новой карточки или банковского счета. В разделе **выставление счетов**рядом с пунктом метод оплаты нажмите кнопку **изменить**.
 3. Рядом с существующим методом оплаты нажмите кнопку **изменить**.
 4. В раскрывающемся меню выберите другой способ оплаты или нажмите, чтобы добавить метод оплаты.
@@ -378,7 +378,7 @@ ms.locfileid: "43106052"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Изменение адреса выставления счета](change-your-billing-addresses.md)
   

@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Сведения о том, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
-ms.openlocfilehash: 56ffeae38b3cba94efacbb52bf2d9beb9af90ebb
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c12b574d29b50432cdb480dca711588ad1f0df32
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708087"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046208"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
@@ -43,7 +43,7 @@ ms.locfileid: "43708087"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, которую нужно отменить, и в разделе **параметры & действий**выберите **Отменить подписку**.
 
@@ -138,7 +138,7 @@ ms.locfileid: "43708087"
 
 Если вы отменили подписку и не переместит пользователей в другую подписку, которая включает Microsoft 365, Microsoft 365 работает в режиме ограниченной функциональности. В этом случае пользователи могут читать и печатать документы, а приложения Microsoft 365 — [уведомления о нелицензированных продуктах](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Во избежание недоразумений нужно [удалить Office](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) с компьютеров пользователей.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Обновление подписки](renew-your-subscription.md)
 

@@ -13,19 +13,21 @@ localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
-description: Узнайте о базовой политике защиты от фишинга в Exchange Online Protection (EOP) и расширенных политиках защиты от фишинга ATP в Office 365 Advanced Threat protection.
-ms.openlocfilehash: 32214d24c7ed030b3bc7aad36bf3ac99f68a17fb
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье рассказывается, как настроить защиту от фишинга в Microsoft 365, чтобы защитить организацию от вредоносных фишинговых атак.
+ms.openlocfilehash: bbde781114cadb6535bdb09c133d834ce23793a3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949385"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035336"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Политики защиты от фишинга в Microsoft 365
 
 Политики для настройки параметров защиты от фишинга доступны в организациях Microsoft 365 с почтовыми ящиками Exchange Online, отдельными организациями Exchange Online Protection (EOP) без почтовых ящиков Exchange Online и в организациях Office 365 Advanced Threat protection (ATP).
 
-Политики защиты от фишинга ATP доступны только в организациях с Office 365 ATP. Пример.
+Политики защиты от фишинга ATP доступны только в организациях с Office 365 ATP. Пример:
 
 - Microsoft 365 корпоративный и т. д., Microsoft 365 для образования A5 и т. д.
 - [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home)

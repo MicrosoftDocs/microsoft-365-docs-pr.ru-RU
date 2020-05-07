@@ -15,15 +15,17 @@ ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
-ms.custom: TopSMBIssues
+ms.custom:
+- TopSMBIssues
+- seo-marvel-apr2020
 localization_priority: Priority
-description: ''
-ms.openlocfilehash: e66a0b7965212ef65663208efd73378d8c14a726
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+description: В этой статье вы узнаете о защите от спуфинга в Microsoft 365, помогающей снизить риск фишинговых атак из поддельных доменов.
+ms.openlocfilehash: a5236161e1df6df1d007135c9ae700e87a06ccf0
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805225"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034074"
 ---
 # <a name="anti-spoofing-protection"></a>Защита от спуфинга
 

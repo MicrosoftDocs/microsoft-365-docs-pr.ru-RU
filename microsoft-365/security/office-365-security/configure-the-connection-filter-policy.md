@@ -1,5 +1,5 @@
 ---
-title: Настройка политики фильтрации подключений по умолчанию, списка разрешенных IP-адресов, списка заблокированных IP-адресов, включения или отключения списка надежных отправителей
+title: Настройка политики фильтрации подключений по умолчанию
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
-description: Чтобы убедиться, что электронная почта, отправленная от пользователей, которым вы доверяете, не заблокирована, можно использовать политику фильтра подключений, чтобы создать белый список IP-адресов, которым вы доверяете. Вы также можете создать черный список IP-адресов заблокированных отправителей.
-ms.openlocfilehash: 54e68c79f78bb1408684ac583edff137cb687b53
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как настроить фильтрацию подключений в Office 365, чтобы разрешить или заблокировать электронную почту с почтовых серверов.
+ms.openlocfilehash: 0848e9a59df8c312891add29d14eec2dfed420df
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637750"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035086"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -96,7 +98,7 @@ ms.locfileid: "43637750"
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**Примечания.**
+**Примечания**:
 
 - Допустимые значения IP-адреса или диапазона адресов:
 

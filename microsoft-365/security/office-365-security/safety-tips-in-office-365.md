@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
-description: В этой статье представлены советы по безопасности для сообщений электронной почты, фильтруемых EOP и фильтром нежелательной почты.
-ms.openlocfilehash: c7d7e6819e1374fd941d6eeb992ecf63726d4127
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+description: Узнайте, как EOP и Office 365 защищают вас от нежелательной почты, фишинга и предотвращения вредоносных программ, добавив Совет по безопасности в верхнюю часть сообщений электронной почты.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 77722b564dc73829947593405b04a2086fb800bf
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43809026"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035946"
 ---
 # <a name="safety-tips-in-email-messages"></a>Советы по безопасности в сообщениях электронной почты
 

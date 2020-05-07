@@ -1,5 +1,5 @@
 ---
-title: Управление рисками, связанными с инсайдерами
+title: Внутреннее управление рисками
 description: Узнайте, как минимизировать риски в Организации с помощью управления рисками в Microsoft 365.
 keywords: Microsoft 365, риск для участников, управление рисками, соответствие требованиям
 localization_priority: Normal
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 509b8643ffd2b9ee8b364615e2ed3f56afe84733
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e820eed8e47adf040b267ffc0a3cf3e23410d7ef
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637477"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043310"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Предварительная оценка управления рисками в Microsoft 365
 
@@ -132,4 +132,5 @@ ms.locfileid: "43637477"
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?
 
-Готовы к настройке управления рисками для участников вашей организации? Чтобы настроить необходимые компоненты, создать политики и начать получать оповещения, ознакомьтесь с разпрограммным обеспечением [управления рисками для участников программы предварительной оценки](insider-risk-management-configure.md) .
+- В статье [Plan for Preview риски Management](insider-risk-management-plan.md) , как подготовиться к включению политик управления рисками для оценки в Организации.
+- Чтобы настроить необходимые компоненты, создать политики и начать получать оповещения, ознакомьтесь с разпрограммным обеспечением [управления рисками для участников программы предварительной оценки](insider-risk-management-configure.md) .

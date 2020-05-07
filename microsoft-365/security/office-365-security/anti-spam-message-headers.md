@@ -14,13 +14,14 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: Узнайте о полях заголовков и значениях, которые добавляются в сообщения в Exchange Online Protection.
-ms.openlocfilehash: 8b034da9e6c4ac138e804e07e4654c1e269aeda1
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+description: Сведения о полях заголовков, добавляемых службой Exchange Online Protection в сообщения для предоставления информации о сообщении и способе его обработки.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 035b081980e52d1e68d21e6227636ed78697b4cc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805217"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033754"
 ---
 # <a name="anti-spam-message-headers"></a>Заголовки сообщений по защите от нежелательной почты
 

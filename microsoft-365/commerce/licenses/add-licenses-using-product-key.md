@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: Узнайте, как добавить лицензии в подписку.
-ms.openlocfilehash: 694b8ac57e28bbe6b03e5f8aeef87bda1bcc73ba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 20e822d6124b3a4383df5308e7a5d47a34d49ed6
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632429"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045408"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Добавление лицензий или расширение подписки с помощью ключа продукта
 
@@ -42,8 +42,7 @@ ms.locfileid: "43632429"
 
 ::: moniker range="o365-worldwide"
 
-
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, к которой вы хотите добавить лицензии. В разделе **лицензии** выберите **добавить дополнительные лицензии**.
 
@@ -100,8 +99,7 @@ ms.locfileid: "43632429"
 
 ::: moniker range="o365-worldwide"
 
-
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, которую вы хотите расширить. В разделе **Оплата** выберите **расширить дату окончания**.
 
@@ -154,6 +152,6 @@ ms.locfileid: "43632429"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md)

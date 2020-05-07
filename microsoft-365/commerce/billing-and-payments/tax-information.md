@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: 'Узнайте, какой объем налога будет взиматься за вашу подписку на Microsoft 365 для бизнеса в разных регионах. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708135"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045828"
 ---
 # <a name="tax-information"></a>Сведения о налогах
 
@@ -114,7 +114,7 @@ ms.locfileid: "43708135"
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>Как ввести свой ИНН (только для стран ЕС)
 
-1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Продукты и службы</a>.
+1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите карточку подписки, которую вы хотите обновить.
 
@@ -182,7 +182,7 @@ ms.locfileid: "43708135"
 | Международные организации, которые выносят решение об освобождении от налога | Подтверждение сертификатов и писем от местных налоговых органов |
 | Пуэрто-Рико | Цертификадо де Компрас Ексентас |
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
   
 [Просмотр счета](view-your-bill-or-invoice.md)
   

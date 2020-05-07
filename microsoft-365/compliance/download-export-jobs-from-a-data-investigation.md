@@ -1,5 +1,5 @@
 ---
-title: Загрузка заданий экспорта из расследования данных
+title: Загрузка заданий экспорта для проведения расследования
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,12 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Установка и использование обозревателя хранилищ Azure для скачивания документов, экспортированных из доказательств при расследовании данных.
-ms.openlocfilehash: 1f528101140a97df0161638be14e503a05b18f2c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b9f3ee173fd9068f459e10b95fd497b7cf5015fc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074936"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035691"
 ---
 # <a name="download-export-jobs"></a>Скачивание заданий экспорта
 

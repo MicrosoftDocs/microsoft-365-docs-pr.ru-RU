@@ -16,12 +16,13 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Благодаря расширенным функциям шифрования сообщений Office 365 в начале шифрования сообщений Office 365 (OME) вы можете расширить безопасность электронной почты, установив срок действия электронной почты через настраиваемый шаблон фирменного стиля.
-ms.openlocfilehash: c9b639c016e86c3883191b04d4c7480625745e91
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f555e707cb377033c3bf643785e18b9203be0560
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626907"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036062"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Установка срока действия для электронных писем, зашифрованных с помощью расширенного шифрования сообщений Office 365
 

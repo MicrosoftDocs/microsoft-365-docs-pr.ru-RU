@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: В этой статье приведены инструкции по настройке Microsoft 365 Business Premium, в том числе добавление домена и пользователей, Настройка политик безопасности и многое другое.
-ms.openlocfilehash: a34ede0002e7e78c5dc437c663fe527cf94e46c5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cfc8523fe88ebca6b8c03db0ad0f6caeba662923
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635764"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048041"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
 
@@ -124,7 +124,7 @@ ms.locfileid: "43635764"
 
 ## <a name="secure-windows-10-pcs"></a>Защита компьютеров с Windows 10
 
-В левой панели навигации выберите пункт **Настройка** , а затем в разделе "один **элемент управления" и "безопасность**" выберите элемент **безопасность компьютеров с Windows 10**. Чтобы приступить к работе, нажмите кнопку **Просмотр** . Выполните инструкции [в статье Защита компьютеров с Windows 10](secure-win-10-pcs.md) .
+В левой панели навигации выберите пункт **Настройка** , а затем в разделе **Вход и безопасность**выберите **безопасность компьютеров с Windows 10**. Чтобы приступить к работе, нажмите кнопку **Просмотр** . Выполните инструкции [в статье Защита компьютеров с Windows 10](secure-win-10-pcs.md) .
 
 ## <a name="deploy-office-365-client-apps"></a>Развертывание клиентских приложений Office 365
 

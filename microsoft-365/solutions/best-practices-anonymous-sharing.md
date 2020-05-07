@@ -11,15 +11,16 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
-description: Ознакомьтесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
-ms.openlocfilehash: 31df8820346d14fc945c68f0d295fc1dcaa585d9
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: В этой статье вы ознакомитесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
+ms.openlocfilehash: 4660d1ab34172bf73e6bea0de3065d2c946a7d2c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44001714"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036768"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Рекомендации по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности
 

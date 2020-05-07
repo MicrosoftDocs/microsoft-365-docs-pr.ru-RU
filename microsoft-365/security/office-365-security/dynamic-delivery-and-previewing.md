@@ -17,12 +17,13 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: Когда вы настраиваете политики безопасных вложений ATP, вы выбираете динамическое предоставление, чтобы избежать задержки сообщений и разрешить пользователям просматривать сканируемые вложения.
-ms.openlocfilehash: c8e0a60912244a636fbbe6ca62f7c1b9c260e0f6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637572"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034796"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Динамическая Доставка и предварительный просмотр с безопасными вложениями ATP
 
@@ -65,7 +66,7 @@ ms.locfileid: "43637572"
 
 - Электронная почта вашей организации должна размещаться в Office 365. Несмотря на то что [Office 365 Advanced Threat Protection можно использовать с любым агентом передачи почты SMTP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#requirements-for-office-365-advanced-threat-protection-atp) (например, Exchange Server), для параметра динамической доставки для безопасных вложений ATP необходимо, чтобы электронная почта Организации была размещена в Office 365. Если ваша электронная почта не размещена в Office 365, выберите другую [политику безопасных вложений ATP](set-up-atp-safe-attachments-policies.md#step-3-learn-about-atp-safe-attachments-policy-options)(например, **блок**).
 
-## <a name="additional-considerations"></a>Дополнительные сведения
+## <a name="additional-considerations"></a>Дополнительные рекомендации
 
 Существует несколько сценариев, в которых динамическая доставка не поддерживается. К ним относятся:
 

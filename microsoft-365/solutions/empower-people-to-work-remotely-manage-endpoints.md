@@ -17,18 +17,20 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Используйте Microsoft Endpoint Manager для управления устройствами, компьютерами и другими конечными точками.
-ms.openlocfilehash: 76e18d65865f4ec2bbc8a8d1554bb4cad6fee553
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011607"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049586"
 ---
 # <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
 
 При наличии удаленных сотрудников вам потребуется поддерживать растущее количество личных устройств. Управление конечными точками — это основанный на политике подход к безопасности, требующий соответствия устройств определенным условиям, прежде чем им будет предоставлен доступ к ресурсам. Microsoft Endpoint Manager обеспечивает современное рабочее пространство и современные возможности управления для защиты ваших данных в облачной и локальной среде. 
 
 Endpoint Manager предоставляет службы и инструменты для управления мобильными устройствами, компьютерами, виртуальными машинами, встроенными устройствами и серверами путем сочетания следующих служб, которые вам могут быть уже знакомы.
+
+![Компоненты для управления конечными точками](../media/empower-people-to-work-remotely/endpoint-managment-step-grid.png)
 
 ## <a name="microsoft-intune"></a>Microsoft Intune
 

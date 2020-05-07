@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу cloudflare для Майкрософт.
-ms.openlocfilehash: 116132d096db61e7004315dcf159fc78dd790d43
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 36578d8eed2c5630a9ce5abfb355983a26028888
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939323"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049075"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Создание записей DNS на сайте cloudflare для Майкрософт
 
@@ -131,7 +131,7 @@ ms.locfileid: "43939323"
     
     |**Тип**|**Имя**|**Mail Server (Почтовый сервер)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<ключ-домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Microsoft 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx).    <br/>|30 мин.  <br/> |
+    |MX  <br/> |@  <br/> |*\<ключ-домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Microsoft 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/>|30 мин.  <br/> |
    
 
   
