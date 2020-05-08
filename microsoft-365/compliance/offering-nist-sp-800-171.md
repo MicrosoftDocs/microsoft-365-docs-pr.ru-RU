@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e1bd69e7038ce3bf6372a3f53cd985ce54f350a8
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: 47e001fafedbdcaab6e1aa6365789bc309d9f65c
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781454"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065814"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -42,7 +42,7 @@ NIST SP 800 – 171 изначально был опубликован в июн
 
 Любая сущность, которая обрабатывает или хранит США CUI — исследовательские учреждения, консалтинговые компании, производственные подрядчики, должны соответствовать строгим требованиям NIST SP 800 – 171. Эта аттестация означает, что облачные службы Майкрософт находятся в облачных службах, которые хотят развертывать рабочие нагрузки CUI с гарантией, что Майкрософт полностью соответствует требованиям. Например, все подрядчики DoD, которые обрабатывают, хранят или передают информацию об информации о защите с помощью облачных служб Майкрософт в своих информационных системах, соответствуют требованиям к защите ДФАРС, которые требуют соответствия требованиям безопасности NIST SP 800 – 171.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Правительственные учреждения Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 для государственных учреждений США](https://aka.ms/d365-compliance-list)
@@ -76,7 +76,3 @@ NIST SP 800 – 171 изначально был опубликован в июн
 - [Майкрософт и NIST Циберсекурити Framework](offering-nist-csf.md)
 - [Облако Майкрософт для государственных организаций](https://www.microsoft.com/enterprise/government)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf ).

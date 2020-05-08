@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Узнайте о политиках истечения срока действия в Microsoft 365 групп.
-ms.openlocfilehash: 82938caf083cd5b5fa330fd047686ae6a8b5300d
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 0cb67b87a542d021387365802bd5969f4c4332b8
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049183"
+ms.locfileid: "44064825"
 ---
 # <a name="microsoft-365-group-expiration-policy"></a>Политика истечения срока действия групп Microsoft 365
 
@@ -53,7 +53,7 @@ ms.locfileid: "44049183"
 |Role|Возможности|
 |---------|---------|
 |Глобальный администратор (в Azure, администратор компании), администратор пользователей|Создание, чтение, обновление и удаление параметров политики истечения срока действия групп Microsoft 365.|
-|Пользователь|Продление или [Восстановление](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) группы Microsoft 365, которой они владеют|
+|User|Продление или [Восстановление](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted) группы Microsoft 365, которой они владеют|
 
 ## <a name="how-to-set-the-expiration-policy"></a>Настройка политики истечения срока действия
 
@@ -77,9 +77,9 @@ ms.locfileid: "44049183"
 
 за 30 дней до истечения срока действия группы Владельцы группы (или адреса электронной почты, указанные для групп, которым не назначен владелец), получат сообщение электронной почты, что позволит им легко продлить группу. Если они не возобновляют его, они получат еще одно продление срока действия до истечения срока действия через 15 дней. Если они по-прежнему не возобновлены, в течение дня до истечения срока их действия будет получено еще одно уведомление.
 
-Если по какой-либо причине владельцы или Администраторы не обновляют группу до истечения срока ее действия, администратор может восстановить группу в течение 30 дней после истечения срока действия. Дополнительные сведения см. [в статье Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group).
+Если по какой-либо причине владельцы или Администраторы не обновляют группу до истечения срока ее действия, администратор может восстановить группу в течение 30 дней после истечения срока действия. Дополнительные сведения см. [в статье Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Обзор политик хранения](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Узнайте, как создать, изменить или удалить группу безопасности.
-ms.openlocfilehash: 689adb46bdec4d4f669482af6b5467fdcf63482c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b6138a36890ec4b0408339fbb1510fa7677a7040
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628883"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053816"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, изменение и удаление группы безопасности в центре администрирования Microsoft 365
 
@@ -145,7 +145,7 @@ ms.locfileid: "43628883"
     
 После создания групп рассылки и групп безопасности с включенной поддержкой почты в центре администрирования Exchange их имена и списки пользователей отобразятся на странице " **группы безопасности** ". Удалить эти группы можно в обоих местах, но изменить  только в Центре администрирования Exchange. Динамические группы рассылки не отображаются на странице " **группы безопасности** ". 
   
- Группы SharePoint создаются автоматически при создании семейства веб-сайтов. Группы по умолчанию используют уровни разрешений по умолчанию в SharePoint, иногда называемые ролями SharePoint, чтобы предоставить пользователям права и доступ. Дополнительные сведения см. [в разделе группы SharePoint по умолчанию в SharePoint Online](https://support.office.com/article/13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3.aspx).
+ Группы SharePoint создаются автоматически при создании семейства веб-сайтов. Группы по умолчанию используют уровни разрешений по умолчанию в SharePoint, иногда называемые ролями SharePoint, чтобы предоставить пользователям права и доступ. Дополнительные сведения см. [в разделе группы SharePoint по умолчанию в SharePoint Online](https://docs.microsoft.com/sharepoint/default-sharepoint-groups).
   
 ## <a name="how-is-a-security-group-different-from-security-groups-i-create-in-sharepoint"></a>Чем отличается группа безопасности от групп безопасности, созданных в SharePoint?
 
