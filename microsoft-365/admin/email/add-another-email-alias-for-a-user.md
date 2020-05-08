@@ -22,14 +22,21 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Узнайте, как можно использовать несколько адресов электронной почты, называемых псевдонимами электронной почты, связанными с учетной записью Microsoft 365 для бизнеса. '
-ms.openlocfilehash: efd0dbf5ae072c803b52d94dd41f16db9bb0413a
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 603b2f42d603ae5172c66b6f78bc55f8d44c81f5
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048811"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140516"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Добавление дополнительных псевдонимов электронной почты для пользователя
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
   
 Эта статья предназначена для администраторов Microsoft 365, у которых есть бизнес-подписки. Она не предназначена для домашних пользователей.
   
@@ -155,7 +162,7 @@ ms.locfileid: "44048811"
 
 Если вы приобрели подписку у GoDaddy или другого партнера, для настройки нового псевдонима в качестве основного следует использовать консоль управления GoDaddy или партнера.
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Отправка почты с другого адреса](https://support.office.com/article/ccba89cb-141c-4a36-8c56-6d16a8556d2e.aspx)
 

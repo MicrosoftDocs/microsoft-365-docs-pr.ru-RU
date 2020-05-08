@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Узнайте, как сбросить пароль для пользователя в Microsoft 365 для бизнес-подписки. '
-ms.openlocfilehash: 99ec6423b835204624f91977b6f138fa7c8ba8cd
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 14226927680c70035a01d9390f114cb0bfddbf38
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049451"
+ms.locfileid: "44064813"
 ---
 # <a name="reset-passwords"></a>Сброс паролей
 
@@ -93,7 +93,7 @@ ms.locfileid: "44049451"
     
 - Обратитесь к другому глобальному администратору, чтобы сбросить пароль.
     
-- Или [позвоните в службу поддержки Майкрософт](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products). 
+- Или [позвоните в службу поддержки Майкрософт](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). 
     
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Одновременное восстановление всех бизнес-паролей для всех пользователей в Организации
 <a name="bkmk_forgot"> </a>
@@ -131,7 +131,7 @@ ms.locfileid: "44049451"
 
 Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 <a name="bkmk_forgot"> </a>
   
 [Разрешить пользователям сбрасывать собственные пароли](let-users-reset-passwords.md)
