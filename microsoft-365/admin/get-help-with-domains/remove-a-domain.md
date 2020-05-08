@@ -21,214 +21,221 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: 0a3c6af0c22b5e77df82e8e443cfaebe8a835c90
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: ef0209d6ccb7534745172585fe599f627e386cb4
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053768"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140409"
 ---
-# <a name="remove-a-domain"></a><span data-ttu-id="095d0-103">Удаление домена</span><span class="sxs-lookup"><span data-stu-id="095d0-103">Remove a domain</span></span>
-  
- <span data-ttu-id="095d0-104">Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.</span><span class="sxs-lookup"><span data-stu-id="095d0-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
-  
-<span data-ttu-id="095d0-105">Вы удаляете домен, так как хотите добавить его в другой план подписки Microsoft 365?</span><span class="sxs-lookup"><span data-stu-id="095d0-105">Are you removing your domain because you want to add it to a different Microsoft 365 subscription plan?</span></span> <span data-ttu-id="095d0-106">Или вам нужно просто отменить свою подписку?</span><span class="sxs-lookup"><span data-stu-id="095d0-106">Or do you just want to cancel your subscription?</span></span> <span data-ttu-id="095d0-107">Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="095d0-107">You can [change your plan or subscription](../../commerce/subscriptions/switch-to-a-different-plan.md) or [cancel your subscription](../../commerce/subscriptions/cancel-your-subscription.md).</span></span>
-  
-### <a name="step-1-move-users-to-another-domain"></a><span data-ttu-id="095d0-108">Шаг 1: перемещение пользователей в другой домен</span><span class="sxs-lookup"><span data-stu-id="095d0-108">Step 1: Move users to another domain</span></span>
+# <a name="remove-a-domain"></a><span data-ttu-id="839f2-103">Удаление домена</span><span class="sxs-lookup"><span data-stu-id="839f2-103">Remove a domain</span></span>
 
-#### <a name="move-users"></a><span data-ttu-id="095d0-109">Перемещение пользователей</span><span class="sxs-lookup"><span data-stu-id="095d0-109">Move users</span></span>
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> <span data-ttu-id="839f2-104">Изменяется центр администрирования.</span><span class="sxs-lookup"><span data-stu-id="839f2-104">The admin center is changing.</span></span> <span data-ttu-id="839f2-105">Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="839f2-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+
+::: moniker-end
+  
+ <span data-ttu-id="839f2-106">Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.</span><span class="sxs-lookup"><span data-stu-id="839f2-106">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+  
+<span data-ttu-id="839f2-107">Вы удаляете домен, так как хотите добавить его в другой план подписки Microsoft 365?</span><span class="sxs-lookup"><span data-stu-id="839f2-107">Are you removing your domain because you want to add it to a different Microsoft 365 subscription plan?</span></span> <span data-ttu-id="839f2-108">Или вам нужно просто отменить свою подписку?</span><span class="sxs-lookup"><span data-stu-id="839f2-108">Or do you just want to cancel your subscription?</span></span> <span data-ttu-id="839f2-109">Вы можете [сменить план или подписку](../../commerce/subscriptions/switch-to-a-different-plan.md) либо [отменить подписку](../../commerce/subscriptions/cancel-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="839f2-109">You can [change your plan or subscription](../../commerce/subscriptions/switch-to-a-different-plan.md) or [cancel your subscription](../../commerce/subscriptions/cancel-your-subscription.md).</span></span>
+  
+### <a name="step-1-move-users-to-another-domain"></a><span data-ttu-id="839f2-110">Шаг 1: перемещение пользователей в другой домен</span><span class="sxs-lookup"><span data-stu-id="839f2-110">Step 1: Move users to another domain</span></span>
+
+#### <a name="move-users"></a><span data-ttu-id="839f2-111">Перемещение пользователей</span><span class="sxs-lookup"><span data-stu-id="839f2-111">Move users</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="095d0-110">Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.</span><span class="sxs-lookup"><span data-stu-id="095d0-110">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
+> <span data-ttu-id="839f2-112">Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.</span><span class="sxs-lookup"><span data-stu-id="839f2-112">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
 
-1. <span data-ttu-id="095d0-111">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="095d0-111">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.</span></span>
+1. <span data-ttu-id="839f2-113">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="839f2-113">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.</span></span>
 
-2. <span data-ttu-id="095d0-112">Выберите пункт **Пользователи** > **Активные пользователи**.</span><span class="sxs-lookup"><span data-stu-id="095d0-112">Select **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="839f2-114">Выберите пункт **Пользователи** > **Активные пользователи**.</span><span class="sxs-lookup"><span data-stu-id="839f2-114">Select **Users** > **Active users**.</span></span>
 
-3. <span data-ttu-id="095d0-113">Установите флажки рядом с именами всех пользователей, которых требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="095d0-113">Select the boxes next to the names of all the users you want to move.</span></span>
+3. <span data-ttu-id="839f2-115">Установите флажки рядом с именами всех пользователей, которых требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="839f2-115">Select the boxes next to the names of all the users you want to move.</span></span>
 
-4. <span data-ttu-id="095d0-114">В верхней части страницы нажмите кнопку **Дополнительные параметры** (**...**), а затем выберите команду **изменить домены**.</span><span class="sxs-lookup"><span data-stu-id="095d0-114">Select **More options** (**…**), at the top of the page, and then choose **Change domains**.</span></span>
+4. <span data-ttu-id="839f2-116">В верхней части страницы нажмите кнопку **Дополнительные параметры** (**...**), а затем выберите команду **изменить домены**.</span><span class="sxs-lookup"><span data-stu-id="839f2-116">Select **More options** (**…**), at the top of the page, and then choose **Change domains**.</span></span>
 
-5. <span data-ttu-id="095d0-115">В области **изменить домены** выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-115">In the **Change domains** pane, select a different domain.</span></span>
+5. <span data-ttu-id="839f2-117">В области **изменить домены** выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-117">In the **Change domains** pane, select a different domain.</span></span>
 
-<span data-ttu-id="095d0-p102">Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-p102">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
+<span data-ttu-id="839f2-p103">Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-p103">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="095d0-118">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="095d0-118">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>.</span></span>  
+1. <span data-ttu-id="839f2-120">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="839f2-120">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>.</span></span>  
 
-2. <span data-ttu-id="095d0-119">Выберите пункт **Пользователи** > **Активные пользователи**.</span><span class="sxs-lookup"><span data-stu-id="095d0-119">Select **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="839f2-121">Выберите пункт **Пользователи** > **Активные пользователи**.</span><span class="sxs-lookup"><span data-stu-id="839f2-121">Select **Users** > **Active users**.</span></span>
 
-3. <span data-ttu-id="095d0-120">Установите флажки рядом с именами всех пользователей, которых требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="095d0-120">Select the boxes next to the names of all the users you want to move.</span></span>
+3. <span data-ttu-id="839f2-122">Установите флажки рядом с именами всех пользователей, которых требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="839f2-122">Select the boxes next to the names of all the users you want to move.</span></span>
 
-4. <span data-ttu-id="095d0-121">В верхней части страницы выберите **Дополнительные** > **домены редактирования**.</span><span class="sxs-lookup"><span data-stu-id="095d0-121">At the top of the page, choose **More** > **Edit domains**.</span></span>
+4. <span data-ttu-id="839f2-123">В верхней части страницы выберите **Дополнительные** > **домены редактирования**.</span><span class="sxs-lookup"><span data-stu-id="839f2-123">At the top of the page, choose **More** > **Edit domains**.</span></span>
 
-5. <span data-ttu-id="095d0-122">В области **изменить домены** выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-122">In the **Edit domains** pane, select a different domain.</span></span>
+5. <span data-ttu-id="839f2-124">В области **изменить домены** выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-124">In the **Edit domains** pane, select a different domain.</span></span>
   
-<span data-ttu-id="095d0-p103">Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-p103">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
+<span data-ttu-id="839f2-p104">Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-p104">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="095d0-125">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="095d0-125">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>  
+1. <span data-ttu-id="839f2-127">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="839f2-127">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>  
 
-2. <span data-ttu-id="095d0-126">Выберите пункт **Пользователи** > **Активные пользователи**.</span><span class="sxs-lookup"><span data-stu-id="095d0-126">Select **Users** > **Active users**.</span></span>
+2. <span data-ttu-id="839f2-128">Выберите пункт **Пользователи** > **Активные пользователи**.</span><span class="sxs-lookup"><span data-stu-id="839f2-128">Select **Users** > **Active users**.</span></span>
 
-3. <span data-ttu-id="095d0-127">Установите флажки рядом с именами всех пользователей, которых требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="095d0-127">Select the boxes next to the names of all the users you want to move.</span></span>
+3. <span data-ttu-id="839f2-129">Установите флажки рядом с именами всех пользователей, которых требуется переместить.</span><span class="sxs-lookup"><span data-stu-id="839f2-129">Select the boxes next to the names of all the users you want to move.</span></span>
 
-4. <span data-ttu-id="095d0-128">В верхней части страницы выберите **Дополнительные** > **домены редактирования**.</span><span class="sxs-lookup"><span data-stu-id="095d0-128">At the top of the page, choose **More** > **Edit domains**.</span></span>
+4. <span data-ttu-id="839f2-130">В верхней части страницы выберите **Дополнительные** > **домены редактирования**.</span><span class="sxs-lookup"><span data-stu-id="839f2-130">At the top of the page, choose **More** > **Edit domains**.</span></span>
 
-5. <span data-ttu-id="095d0-129">В области **изменить домены** выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-129">In the **Edit domains** pane, select a different domain.</span></span>
+5. <span data-ttu-id="839f2-131">В области **изменить домены** выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-131">In the **Edit domains** pane, select a different domain.</span></span>
   
-<span data-ttu-id="095d0-p104">Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-p104">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
+<span data-ttu-id="839f2-p105">Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-p105">You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.</span></span>
 
 ::: moniker-end
 
-#### <a name="move-yourself"></a><span data-ttu-id="095d0-132">Самостоятельное перемещение</span><span class="sxs-lookup"><span data-stu-id="095d0-132">Move yourself</span></span>
+#### <a name="move-yourself"></a><span data-ttu-id="839f2-134">Самостоятельное перемещение</span><span class="sxs-lookup"><span data-stu-id="839f2-134">Move yourself</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="095d0-133">Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.</span><span class="sxs-lookup"><span data-stu-id="095d0-133">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
+> <span data-ttu-id="839f2-135">Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.</span><span class="sxs-lookup"><span data-stu-id="839f2-135">If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.</span></span>
 
-1. <span data-ttu-id="095d0-134">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="095d0-134">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>
+1. <span data-ttu-id="839f2-136">Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центр администрирования</a>.</span><span class="sxs-lookup"><span data-stu-id="839f2-136">Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>.</span></span>
 
-2. <span data-ttu-id="095d0-135">Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свою учетную запись из списка.</span><span class="sxs-lookup"><span data-stu-id="095d0-135">Go to **Users** \> **Active Users**, and select your account from the list.</span></span>
+2. <span data-ttu-id="839f2-137">Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свою учетную запись из списка.</span><span class="sxs-lookup"><span data-stu-id="839f2-137">Go to **Users** \> **Active Users**, and select your account from the list.</span></span>
 
-3. <span data-ttu-id="095d0-136">На вкладке **учетная запись** выберите пункт **Управление именем пользователя**, а затем выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-136">On the **Account** tab, select **Manage username**, and then choose a different domain.</span></span>
+3. <span data-ttu-id="839f2-138">На вкладке **учетная запись** выберите пункт **Управление именем пользователя**, а затем выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-138">On the **Account** tab, select **Manage username**, and then choose a different domain.</span></span>
   
-4. <span data-ttu-id="095d0-137">В верхней части выберите имя учетной записи, а затем нажмите **выйти**.</span><span class="sxs-lookup"><span data-stu-id="095d0-137">At the top, select your account name, then select **Sign Out**.</span></span>
+4. <span data-ttu-id="839f2-139">В верхней части выберите имя учетной записи, а затем нажмите **выйти**.</span><span class="sxs-lookup"><span data-stu-id="839f2-139">At the top, select your account name, then select **Sign Out**.</span></span>
 
-5. <span data-ttu-id="095d0-138">Выполните вход с новым доменом и тем же паролем.</span><span class="sxs-lookup"><span data-stu-id="095d0-138">Sign in with the new domain and your same password.</span></span>
+5. <span data-ttu-id="839f2-140">Выполните вход с новым доменом и тем же паролем.</span><span class="sxs-lookup"><span data-stu-id="839f2-140">Sign in with the new domain and your same password.</span></span>
 
-<span data-ttu-id="095d0-139">Вы также можете использовать PowerShell для перемещения пользователей в другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-139">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="095d0-140">Для получения дополнительных сведений см. [Set – мсолусерпринЦипалнаме](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) .</span><span class="sxs-lookup"><span data-stu-id="095d0-140">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="095d0-141">Чтобы задать домен по умолчанию, используйте [Set – мсолдомаин](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="095d0-141">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="839f2-141">Вы также можете использовать PowerShell для перемещения пользователей в другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-141">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="839f2-142">Для получения дополнительных сведений см. [Set – мсолусерпринЦипалнаме](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) .</span><span class="sxs-lookup"><span data-stu-id="839f2-142">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="839f2-143">Чтобы задать домен по умолчанию, используйте [Set – мсолдомаин](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="839f2-143">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="095d0-142">Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свое имя в списке.</span><span class="sxs-lookup"><span data-stu-id="095d0-142">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
+1. <span data-ttu-id="839f2-144">Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свое имя в списке.</span><span class="sxs-lookup"><span data-stu-id="839f2-144">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
 
-2. <span data-ttu-id="095d0-143">В разделе **имя пользователя и электронная почта** нажмите кнопку **изменить**, а затем выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-143">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
+2. <span data-ttu-id="839f2-145">В разделе **имя пользователя и электронная почта** нажмите кнопку **изменить**, а затем выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-145">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
 
-3. <span data-ttu-id="095d0-144">Выберите **задать в качестве основного** > **сохранения** > **закрытия**.</span><span class="sxs-lookup"><span data-stu-id="095d0-144">Select **Set as primary** > **Save** > **Close**.</span></span>
+3. <span data-ttu-id="839f2-146">Выберите **задать в качестве основного** > **сохранения** > **закрытия**.</span><span class="sxs-lookup"><span data-stu-id="839f2-146">Select **Set as primary** > **Save** > **Close**.</span></span>
   
-4. <span data-ttu-id="095d0-145">В верхней части выберите имя учетной записи, а затем нажмите **выйти**.</span><span class="sxs-lookup"><span data-stu-id="095d0-145">At the top, select your account name, then select **Sign Out**.</span></span>
+4. <span data-ttu-id="839f2-147">В верхней части выберите имя учетной записи, а затем нажмите **выйти**.</span><span class="sxs-lookup"><span data-stu-id="839f2-147">At the top, select your account name, then select **Sign Out**.</span></span>
 
-5. <span data-ttu-id="095d0-146">Выполните вход с новым доменом и тем же паролем.</span><span class="sxs-lookup"><span data-stu-id="095d0-146">Sign in with the new domain and your same password.</span></span>
+5. <span data-ttu-id="839f2-148">Выполните вход с новым доменом и тем же паролем.</span><span class="sxs-lookup"><span data-stu-id="839f2-148">Sign in with the new domain and your same password.</span></span>
 
-<span data-ttu-id="095d0-147">Вы также можете использовать PowerShell для перемещения пользователей в другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-147">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="095d0-148">Для получения дополнительных сведений см. [Set – мсолусерпринЦипалнаме](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) .</span><span class="sxs-lookup"><span data-stu-id="095d0-148">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="095d0-149">Чтобы задать домен по умолчанию, используйте [Set – мсолдомаин](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="095d0-149">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="839f2-149">Вы также можете использовать PowerShell для перемещения пользователей в другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-149">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="839f2-150">Для получения дополнительных сведений см. [Set – мсолусерпринЦипалнаме](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) .</span><span class="sxs-lookup"><span data-stu-id="839f2-150">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="839f2-151">Чтобы задать домен по умолчанию, используйте [Set – мсолдомаин](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="839f2-151">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="095d0-150">Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свое имя в списке.</span><span class="sxs-lookup"><span data-stu-id="095d0-150">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
+1. <span data-ttu-id="839f2-152">Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свое имя в списке.</span><span class="sxs-lookup"><span data-stu-id="839f2-152">Go to **Users** \> **Active Users**, and select your name in the list.</span></span>
 
-2. <span data-ttu-id="095d0-151">В разделе **имя пользователя и электронная почта** нажмите кнопку **изменить**, а затем выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-151">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
+2. <span data-ttu-id="839f2-153">В разделе **имя пользователя и электронная почта** нажмите кнопку **изменить**, а затем выберите другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-153">In the **Username / Email** section, select **Edit**, and then choose a different domain.</span></span>
 
-3. <span data-ttu-id="095d0-152">Выберите **задать в качестве основного** > **сохранения** > **закрытия**.</span><span class="sxs-lookup"><span data-stu-id="095d0-152">Select **Set as primary** > **Save** > **Close**.</span></span>
+3. <span data-ttu-id="839f2-154">Выберите **задать в качестве основного** > **сохранения** > **закрытия**.</span><span class="sxs-lookup"><span data-stu-id="839f2-154">Select **Set as primary** > **Save** > **Close**.</span></span>
   
-4. <span data-ttu-id="095d0-153">В верхней части выберите имя учетной записи, а затем нажмите **выйти**.</span><span class="sxs-lookup"><span data-stu-id="095d0-153">At the top, select your account name, then select **Sign Out**.</span></span>
+4. <span data-ttu-id="839f2-155">В верхней части выберите имя учетной записи, а затем нажмите **выйти**.</span><span class="sxs-lookup"><span data-stu-id="839f2-155">At the top, select your account name, then select **Sign Out**.</span></span>
 
-5. <span data-ttu-id="095d0-154">Выполните вход с новым доменом и тем же паролем.</span><span class="sxs-lookup"><span data-stu-id="095d0-154">Sign in with the new domain and your same password.</span></span>
+5. <span data-ttu-id="839f2-156">Выполните вход с новым доменом и тем же паролем.</span><span class="sxs-lookup"><span data-stu-id="839f2-156">Sign in with the new domain and your same password.</span></span>
 
-<span data-ttu-id="095d0-155">Вы также можете использовать PowerShell для перемещения пользователей в другой домен.</span><span class="sxs-lookup"><span data-stu-id="095d0-155">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="095d0-156">Для получения дополнительных сведений см. [Set – мсолусерпринЦипалнаме](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) .</span><span class="sxs-lookup"><span data-stu-id="095d0-156">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="095d0-157">Чтобы задать домен по умолчанию, используйте [Set – мсолдомаин](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="095d0-157">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="839f2-157">Вы также можете использовать PowerShell для перемещения пользователей в другой домен.</span><span class="sxs-lookup"><span data-stu-id="839f2-157">You can also use PowerShell to move users to another domain.</span></span> <span data-ttu-id="839f2-158">Для получения дополнительных сведений см. [Set – мсолусерпринЦипалнаме](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) .</span><span class="sxs-lookup"><span data-stu-id="839f2-158">See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information.</span></span> <span data-ttu-id="839f2-159">Чтобы задать домен по умолчанию, используйте [Set – мсолдомаин](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="839f2-159">To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
 
 ::: moniker-end
 
-### <a name="step-2-move-groups-to-another-domain"></a><span data-ttu-id="095d0-158">Шаг 2: перемещение групп в другой домен</span><span class="sxs-lookup"><span data-stu-id="095d0-158">Step 2: Move groups to another domain</span></span>
+### <a name="step-2-move-groups-to-another-domain"></a><span data-ttu-id="839f2-160">Шаг 2: перемещение групп в другой домен</span><span class="sxs-lookup"><span data-stu-id="839f2-160">Step 2: Move groups to another domain</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="095d0-159">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> **группы** \> .</span><span class="sxs-lookup"><span data-stu-id="095d0-159">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
+1. <span data-ttu-id="839f2-161">В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> **группы** \> .</span><span class="sxs-lookup"><span data-stu-id="839f2-161">In the admin center, go to the **Groups** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a> page.</span></span>
   
-2. <span data-ttu-id="095d0-160">Выберите имя группы, а затем на вкладке **Общие** в разделе **адрес электронной почты, основной**нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="095d0-160">Select the group name, and then on the **General** tab under **Email address, Primary**, select **Edit**.</span></span>
+2. <span data-ttu-id="839f2-162">Выберите имя группы, а затем на вкладке **Общие** в разделе **адрес электронной почты, основной**нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="839f2-162">Select the group name, and then on the **General** tab under **Email address, Primary**, select **Edit**.</span></span>
 
-3. <span data-ttu-id="095d0-161">Используйте раскрывающийся список для выбора другого домена.</span><span class="sxs-lookup"><span data-stu-id="095d0-161">Use the drop-down list to choose another domain.</span></span>
+3. <span data-ttu-id="839f2-163">Используйте раскрывающийся список для выбора другого домена.</span><span class="sxs-lookup"><span data-stu-id="839f2-163">Use the drop-down list to choose another domain.</span></span>
 
-4. <span data-ttu-id="095d0-162">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="095d0-162">Select **Save**, then **Close**.</span></span> <span data-ttu-id="095d0-163">Повторите эти шаги для всех групп или списков рассылки, связанных с доменом, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="095d0-163">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
+4. <span data-ttu-id="839f2-164">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="839f2-164">Select **Save**, then **Close**.</span></span> <span data-ttu-id="839f2-165">Повторите эти шаги для всех групп или списков рассылки, связанных с доменом, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="839f2-165">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="095d0-164">В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **группы** **группы** > .</span><span class="sxs-lookup"><span data-stu-id="095d0-164">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
+1. <span data-ttu-id="839f2-166">В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **группы** **группы** > .</span><span class="sxs-lookup"><span data-stu-id="839f2-166">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
 
-2. <span data-ttu-id="095d0-165">Выберите имя группы, а затем нажмите кнопку **изменить** рядом с **именем**.</span><span class="sxs-lookup"><span data-stu-id="095d0-165">Select the group name, and then select **Edit** next to **Name**.</span></span>
+2. <span data-ttu-id="839f2-167">Выберите имя группы, а затем нажмите кнопку **изменить** рядом с **именем**.</span><span class="sxs-lookup"><span data-stu-id="839f2-167">Select the group name, and then select **Edit** next to **Name**.</span></span>
 
-3. <span data-ttu-id="095d0-166">Используйте раскрывающийся список для выбора другого домена.</span><span class="sxs-lookup"><span data-stu-id="095d0-166">Use the drop-down list to choose another domain.</span></span>
+3. <span data-ttu-id="839f2-168">Используйте раскрывающийся список для выбора другого домена.</span><span class="sxs-lookup"><span data-stu-id="839f2-168">Use the drop-down list to choose another domain.</span></span>
 
-4. <span data-ttu-id="095d0-167">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="095d0-167">Select **Save**, then **Close**.</span></span> <span data-ttu-id="095d0-168">Повторите эти шаги для всех групп или списков рассылки, связанных с доменом, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="095d0-168">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
+4. <span data-ttu-id="839f2-169">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="839f2-169">Select **Save**, then **Close**.</span></span> <span data-ttu-id="839f2-170">Повторите эти шаги для всех групп или списков рассылки, связанных с доменом, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="839f2-170">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="095d0-169">В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **группы** **группы** > .</span><span class="sxs-lookup"><span data-stu-id="095d0-169">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
+1. <span data-ttu-id="839f2-171">В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **группы** **группы** > .</span><span class="sxs-lookup"><span data-stu-id="839f2-171">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>,  go to the **Groups** > **Groups** page.</span></span>
 
-2. <span data-ttu-id="095d0-170">Выберите имя группы, а затем нажмите кнопку **изменить** рядом с **именем**.</span><span class="sxs-lookup"><span data-stu-id="095d0-170">Select the group name, and then select **Edit** next to **Name**.</span></span>
+2. <span data-ttu-id="839f2-172">Выберите имя группы, а затем нажмите кнопку **изменить** рядом с **именем**.</span><span class="sxs-lookup"><span data-stu-id="839f2-172">Select the group name, and then select **Edit** next to **Name**.</span></span>
 
-3. <span data-ttu-id="095d0-171">Используйте раскрывающийся список для выбора другого домена.</span><span class="sxs-lookup"><span data-stu-id="095d0-171">Use the drop-down list to choose another domain.</span></span>
+3. <span data-ttu-id="839f2-173">Используйте раскрывающийся список для выбора другого домена.</span><span class="sxs-lookup"><span data-stu-id="839f2-173">Use the drop-down list to choose another domain.</span></span>
 
-4. <span data-ttu-id="095d0-172">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="095d0-172">Select **Save**, then **Close**.</span></span> <span data-ttu-id="095d0-173">Повторите эти шаги для всех групп или списков рассылки, связанных с доменом, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="095d0-173">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
+4. <span data-ttu-id="839f2-174">Нажмите кнопку **Сохранить**, а затем — **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="839f2-174">Select **Save**, then **Close**.</span></span> <span data-ttu-id="839f2-175">Повторите эти шаги для всех групп или списков рассылки, связанных с доменом, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="839f2-175">Repeat this process for any groups or distribution lists associated with the domain that you want to remove.</span></span>
 
 ::: moniker-end
 
-### <a name="step-3-remove-the-old-domain"></a><span data-ttu-id="095d0-174">Шаг 3: удаление старого домена</span><span class="sxs-lookup"><span data-stu-id="095d0-174">Step 3: Remove the old domain</span></span>
+### <a name="step-3-remove-the-old-domain"></a><span data-ttu-id="839f2-176">Шаг 3: удаление старого домена</span><span class="sxs-lookup"><span data-stu-id="839f2-176">Step 3: Remove the old domain</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="095d0-175">В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).</span><span class="sxs-lookup"><span data-stu-id="095d0-175">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="839f2-177">В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).</span><span class="sxs-lookup"><span data-stu-id="839f2-177">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="095d0-176">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="095d0-176">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="839f2-178">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="839f2-178">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="095d0-177">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="095d0-177">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="839f2-179">В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** \> ".</span><span class="sxs-lookup"><span data-stu-id="839f2-179">In the admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
   
-2. <span data-ttu-id="095d0-178">На странице **Domains (домены** ) выберите домен, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="095d0-178">On the **Domains** page, select the domain that you want to remove.</span></span>
+2. <span data-ttu-id="839f2-180">На странице **Domains (домены** ) выберите домен, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="839f2-180">On the **Domains** page, select the domain that you want to remove.</span></span>
 
-3. <span data-ttu-id="095d0-179">В правой области нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="095d0-179">In the right pane, select **Remove**.</span></span>
+3. <span data-ttu-id="839f2-181">В правой области нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="839f2-181">In the right pane, select **Remove**.</span></span>
 
-4. <span data-ttu-id="095d0-180">Следуйте дополнительным приглашениям, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="095d0-180">Follow any additional prompts, and then select **Close**.</span></span>
+4. <span data-ttu-id="839f2-182">Следуйте дополнительным приглашениям, а затем нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="839f2-182">Follow any additional prompts, and then select **Close**.</span></span>
 
-## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a><span data-ttu-id="095d0-181">Время, необходимое для удаления домена</span><span class="sxs-lookup"><span data-stu-id="095d0-181">How long does it take for a domain to be removed?</span></span>
+## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a><span data-ttu-id="839f2-183">Время, необходимое для удаления домена</span><span class="sxs-lookup"><span data-stu-id="839f2-183">How long does it take for a domain to be removed?</span></span>
 
-<span data-ttu-id="095d0-182">365 для удаления домена в случае отсутствия ссылок на группы безопасности, списки рассылки, пользователей и группы Майкрософт 365 может потребоваться до 5 минут.</span><span class="sxs-lookup"><span data-stu-id="095d0-182">It can take as little as 5 minutes for Microsoft 365 to remove a domain if it's not referenced in a lot of places such as security groups, distribution lists, users, and Microsoft 365 groups.</span></span> <span data-ttu-id="095d0-183">Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.</span><span class="sxs-lookup"><span data-stu-id="095d0-183">If there are many references that use the domain it can take several hours (a day) for the domain to be removed.</span></span>
+<span data-ttu-id="839f2-184">365 для удаления домена в случае отсутствия ссылок на группы безопасности, списки рассылки, пользователей и группы Майкрософт 365 может потребоваться до 5 минут.</span><span class="sxs-lookup"><span data-stu-id="839f2-184">It can take as little as 5 minutes for Microsoft 365 to remove a domain if it's not referenced in a lot of places such as security groups, distribution lists, users, and Microsoft 365 groups.</span></span> <span data-ttu-id="839f2-185">Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.</span><span class="sxs-lookup"><span data-stu-id="839f2-185">If there are many references that use the domain it can take several hours (a day) for the domain to be removed.</span></span>
   
-<span data-ttu-id="095d0-p112">Если у вас сотни или тысячи пользователей, используйте PowerShell, чтобы отправить им всем запрос, а затем перенести их в другой домен. В противном случае может оказаться, что нескольких пользователей нет в интерфейсе. В результате вы не сможете удалить домен и не сумеете определить причину. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="095d0-p112">If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
+<span data-ttu-id="839f2-p113">Если у вас сотни или тысячи пользователей, используйте PowerShell, чтобы отправить им всем запрос, а затем перенести их в другой домен. В противном случае может оказаться, что нескольких пользователей нет в интерфейсе. В результате вы не сможете удалить домен и не сумеете определить причину. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span><span class="sxs-lookup"><span data-stu-id="839f2-p113">If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).</span></span>
   
-## <a name="still-need-help"></a><span data-ttu-id="095d0-188">Остались вопросы?</span><span class="sxs-lookup"><span data-stu-id="095d0-188">Still need help?</span></span>
+## <a name="still-need-help"></a><span data-ttu-id="839f2-190">Остались вопросы?</span><span class="sxs-lookup"><span data-stu-id="839f2-190">Still need help?</span></span>
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
-> <span data-ttu-id="095d0-189">Не удается удалить домен [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) из вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="095d0-189">You can't remove the [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) domain from your account.</span></span>
+> <span data-ttu-id="839f2-191">Не удается удалить домен [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) из вашей учетной записи.</span><span class="sxs-lookup"><span data-stu-id="839f2-191">You can't remove the [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) domain from your account.</span></span>
   
-<span data-ttu-id="095d0-p113">Не получилось? Возможно, ваш домен необходимо удалить вручную. [Позвоните нем](../contact-support-for-business-products.md), и мы поможем вам это сделать.</span><span class="sxs-lookup"><span data-stu-id="095d0-p113">Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!</span></span>
+<span data-ttu-id="839f2-p114">Не получилось? Возможно, ваш домен необходимо удалить вручную. [Позвоните нем](../contact-support-for-business-products.md), и мы поможем вам это сделать.</span><span class="sxs-lookup"><span data-stu-id="839f2-p114">Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!</span></span>
   
 ::: moniker-end
 
-## <a name="related-articles"></a><span data-ttu-id="095d0-193">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="095d0-193">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="839f2-195">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="839f2-195">Related articles</span></span>
 
-[<span data-ttu-id="095d0-194">Вопросы и ответы о доменах</span><span class="sxs-lookup"><span data-stu-id="095d0-194">Domains FAQ</span></span>](../setup/domains-faq.md)
+[<span data-ttu-id="839f2-196">Вопросы и ответы о доменах</span><span class="sxs-lookup"><span data-stu-id="839f2-196">Domains FAQ</span></span>](../setup/domains-faq.md)
 
-[<span data-ttu-id="095d0-195">Получение справки по доменам Office 365</span><span class="sxs-lookup"><span data-stu-id="095d0-195">Get help with Office 365 domains</span></span>](get-help-with-domains.md)
+[<span data-ttu-id="839f2-197">Получение справки по доменам Office 365</span><span class="sxs-lookup"><span data-stu-id="839f2-197">Get help with Office 365 domains</span></span>](get-help-with-domains.md)
 
-[<span data-ttu-id="095d0-196">Переход на другой план Microsoft 365 для бизнеса</span><span class="sxs-lookup"><span data-stu-id="095d0-196">Switch to a different Microsoft 365 for business plan</span></span>](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[<span data-ttu-id="839f2-198">Переход на другой план Microsoft 365 для бизнеса</span><span class="sxs-lookup"><span data-stu-id="839f2-198">Switch to a different Microsoft 365 for business plan</span></span>](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
-[<span data-ttu-id="095d0-197">Отмена подписки</span><span class="sxs-lookup"><span data-stu-id="095d0-197">Cancel your subscription</span></span>](../../commerce/subscriptions/cancel-your-subscription.md)
+[<span data-ttu-id="839f2-199">Отмена подписки</span><span class="sxs-lookup"><span data-stu-id="839f2-199">Cancel your subscription</span></span>](../../commerce/subscriptions/cancel-your-subscription.md)

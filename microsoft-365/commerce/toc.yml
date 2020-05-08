@@ -1,7 +1,7 @@
 - name: Управление подписками для бизнеса
   href: index.yml
 - name: Центр справки для администраторов Microsoft 365
-  href: ../admin/admin-home.md
+  href: ../admin/index.yml
 - name: Пробное использование или приобретение
   items:
     - name: Регистрация для пробного использования Microsoft 365
@@ -51,7 +51,7 @@
     - name: Расшифровка счета
       href: billing-and-payments/understand-your-invoice.md
     - name: Управление методами оплаты
-      href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+      href: billing-and-payments/manage-payment-methods.md
     - name: Оплата подписки
       href: billing-and-payments/pay-for-your-subscription.md
     - name: Изменение способа оплаты
