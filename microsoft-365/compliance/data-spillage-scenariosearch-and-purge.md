@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Использование средств обнаружения электронных данных и средств поиска для управления инцидентом переноса данных в Организации и реагирования на них.
-ms.openlocfilehash: fd230d3e54ca61046a28f60d81d497a413bfa4f7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 708343992d2b8d51d9b10f89cd6b986de00423d6
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630596"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166060"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>серия решений обнаружения электронных данных: сценарий для переноса данных — поиск и очистка
 
@@ -120,7 +120,7 @@ ms.locfileid: "43630596"
   
 Трассировку сообщений можно использовать в центре безопасности и соответствия требованиям или с помощью соответствующих командлетов в Exchange Online PowerShell. Важно отметить, что трассировка сообщений не обеспечивает полную гарантию полноты возвращаемых данных. Более подробную информацию об использовании трассировки сообщений можно узнать в следующих статьях: 
   
-- [Трассировка сообщений в Центре безопасности и соответствия требованиям](https://support.office.com/article/3e64f99d-ac33-4aba-91c5-9cb4ca476803.aspx)
+- [Трассировка сообщений в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/message-trace-scc)
     
 - [Новая трассировка сообщений в центре безопасности & соответствия требованиям](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     

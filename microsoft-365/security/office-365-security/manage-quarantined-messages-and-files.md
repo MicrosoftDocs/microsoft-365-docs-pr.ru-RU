@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
-description: Администраторы могут просматривать, освобождать и удалять все типы сообщений, помещенных в карантин, для всех пользователей. Только администраторы могут управлять сообщениями, помещенными на карантин, высокой достоверностью фишинга, или в результате правил для обработки почтового процесса (правила транспорта).
-ms.openlocfilehash: 1ae64b71d29f9e2d973f5a73cc19790fe0736913
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье рассказывается, как администраторы могут управлять сообщениями в карантине и файлами для пользователей в Office 365.
+ms.openlocfilehash: e69887b54b3e892775c16fa3e306da3b17ab7db3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635363"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036177"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator"></a>Управление сообщениями и файлами на карантине от имени администратора
 

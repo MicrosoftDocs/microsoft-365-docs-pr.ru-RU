@@ -9,17 +9,17 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom: ''
 localization_priority: Priority
 f1.keywords: NOCSH
 description: Узнайте, как ограничить возможность случайного раскрытия информации при предоставлении общего доступа к файлам пользователям за пределами вашей организации.
-ms.openlocfilehash: 93fceaca45a3f814341678c2d29d5feea3653369
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 2687705a9edab9dea486e28d8e417cf890cc0424
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002172"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159387"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>Ограничение возможности случайного раскрытия информации при предоставлении общего доступа к файлам пользователям за пределами организации
 

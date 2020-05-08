@@ -1,5 +1,5 @@
 ---
-title: 4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
+title: Этап 4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom:
 - M365solutions
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: dddc3cac8a6cb955e8a337eed07279ba75c029aa
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 05704cdd08b315b5dbcdf4bf357fc211f9727761
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003196"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141435"
 ---
-# <a name="4-deploy-remote-worker-productivity-apps-and-services"></a>4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
+# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Этап 4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
 Для эффективной работы людям требуется общаться и взаимодействовать друг с другом. Им нужно проводить собрания, общаться в голосовых и текстовых чатах, создавать новые материалы и делиться данными и файлами, обмениваться письмами, а также управлять календарем и задачами. Microsoft 365 предоставляет облачные службы для всех этих основных функций:
 
@@ -32,6 +32,8 @@ ms.locfileid: "44003196"
 - Для почтовой переписки и управления календарями, контактами и задачами используйте Exchange Online и клиент Outlook.
 - Для хранения файлов и совместной работы над ними используйте SharePoint и OneDrive. Их можно использовать в веб-браузере или в Teams.
 - Для создания контента или работы над существующим контентом используются приложения Microsoft 365 — версии Word, PowerPoint, Excel и Outlook, установленные на локальном компьютере и получающие текущие обновления компонентов и системы безопасности.
+
+![Использование Teams, Outlook, SharePoint, OneDrive и приложений Microsoft 365 для эффективной работы](../media/empower-people-to-work-remotely/remote-workers-productivity-grid.png)
 
 ## <a name="keep-people-connected-with-microsoft-teams"></a>Взаимодействие людей в Microsoft Teams
 

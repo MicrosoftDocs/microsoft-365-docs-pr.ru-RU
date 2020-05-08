@@ -1,6 +1,6 @@
 ---
 title: GDPR для Office Online Server и сервера Office Web Apps
-description: Узнайте, как обеспечивать соблюдение требований GDPR в локальном развертывании Exchange Server.
+description: В этой статье объясняется, как соответствовать требованиям GDPR для Office Online Server и сервера Office Web Apps.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -10,13 +10,15 @@ audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
+ms.custom:
+- seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: e16f206c858d35dd2894b44d398e375c0a59fde5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0391fccfd7316b5c3268dd479c16fc2acf37080d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073265"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036274"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>GDPR для сервера Office Web Apps и Office Online Server
 

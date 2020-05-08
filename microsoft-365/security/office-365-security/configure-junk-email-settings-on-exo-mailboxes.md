@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать параметры нежелательной почты в почтовых ящиках Exchange Online. Многие из этих параметров доступны пользователям в Outlook или Outlook в Интернете.
-ms.openlocfilehash: 55597c45f093a5b9a0b860c6987454f926025e28
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: 20112e23ff8bb62b96bdba4e86725c8566af3444
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804796"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066197"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
 
@@ -90,12 +90,6 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
   ```PowerShell
   Get-MailboxJunkEmailConfiguration -Identity "<MailboxIdentity>" | Format-List Enabled
-  ```
-
-- Замените _ \<MailboxIdentity\> _ именем, псевдонимом или адресом электронной почты почтового ящика и выполните следующую команду, чтобы проверить значение свойства **Enabled** правила нежелательной почты.
-
-  ```PowerShell
-  Get-InboxRule "Junk E-mail Rule" -Mailbox "<MailboxIdentity>" -IncludeHidden
   ```
 
 ## <a name="use-exchange-online-powershell-to-configure-the-safelist-collection-on-a-mailbox"></a>Настройка коллекции списков надежных отправителей для почтового ящика с помощью Exchange Online PowerShell

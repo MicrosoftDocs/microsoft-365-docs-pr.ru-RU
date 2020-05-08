@@ -21,14 +21,21 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Узнайте, как удалять лицензии из учетных записей пользователей.
-ms.openlocfilehash: e3c6150c2eb228e29bf6fc2b87d90809a7033660
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49d3b4b6786bc6ab66bc0416aac847ada592664d
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628104"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139641"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 ::: moniker range="o365-worldwide"
 Вы можете удалять или отменять Назначение лицензий для пользователей на странице " **Активные пользователи** " или на странице " **лицензии** ". Выбор используемого метода зависит от того, хотите ли вы отменить назначение лицензий на продукты определенным пользователям или отменить назначение пользователям лицензий на конкретные продукты.

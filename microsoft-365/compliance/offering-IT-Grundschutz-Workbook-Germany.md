@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 63dcc6351b2ba0074bf71583577a34ddcc33ed94
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 90f8a0f9f6cda7462892dc9d7ebd808e263a9259
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602216"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065744"
 ---
 # <a name="it-grundschutz-compliance-workbook"></a>Книга соответствия требованиям IT-Grundschutz
 
@@ -69,7 +69,3 @@ ms.locfileid: "41602216"
 - [Книга соответствия требованиям IT-Grundschutz в Azure для Германии](https://aka.ms/grundschutzworkbook)
 - [Обзор стандарта ISO/IEC 27001:2013 для систем управления информационной безопасностью](offering-iso-27001.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/B/3/5/B35DE78F-C346-4E31-ABC5-FF87BD1FF97F/ITGrundschutz-Compliance.pdf).

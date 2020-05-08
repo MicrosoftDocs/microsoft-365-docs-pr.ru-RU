@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3142ce35cdc55e32cf5f40042967ba60de789dcc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cbf118d918dd5c3bc922fbea157fb56a709fad66
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601886"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065804"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Вопросы безопасности и конфиденциальности Новой Зеландии в облако для государственных учреждений
 
@@ -33,13 +33,11 @@ ms.locfileid: "41601886"
 
 Вопросы безопасности и конфиденциальности облачных решений Майкрософт и Новой Зеландии для государственных организаций
 
-Чтобы помочь учреждениям выполнять анализ и оценку облачных облачных служб Майкрософт, в Microsoft Новая Зеландия была создана серия документов, в которой показано, как корпоративные облачные службы настроили вопросы в разделе "облачные вычисления ИСПК". связывание их со стандартами, для которых сертифицированы облачные службы Майкрософт. Эти сертификаты являются центральным способом того, как корпорация Майкрософт гарантирует, что клиенты общедоступных и закрытых секторов созданы, созданы и работают для эффективного решения проблем конфиденциальности и безопасности, а также устранения проблем с независимость.
-
-Узнайте о преимуществах использования структуры "NZ CC" в Microsoft Cloud: [Скачайте фоновый рисунок NZ CC Cloud Framework](https://aka.ms/nzcc-framework-backgrounder)
+Чтобы помочь учреждениям выполнять анализ и оценку облачных облачных служб Майкрософт, в Microsoft Новая Зеландия была создана серия документов, в которой показано, как мои корпоративные облачные службы направляют вопросы из "облачные вычисления ИСПК", связывая их со стандартами, с которыми сертифицированы облачные службы Майкрософт. Эти сертификаты являются центральным способом того, как корпорация Майкрософт гарантирует, что клиенты общедоступных и закрытых секторов созданы, созданы и работают для эффективного решения проблем конфиденциальности и безопасности, а также устранения проблем с независимость.
 
 Узнайте, как ускорить развертывание развернутой копии с помощью нашего плана безопасности и соответствия требованиям Azure: [скачать ответ Azure для платформы NZ CC](https://gallery.technet.microsoft.com/Response-to-GCIO-Cloud-e117bbb9)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -76,7 +74,3 @@ ms.locfileid: "41601886"
 - [Intune](https://aka.ms/Intune-NZ-response)
 - [Office 365](https://aka.ms/O365-NZ-Response)
 - [Power BI](https://download.microsoft.com/download/5/1/7/51726B9B-2E76-49C4-9D4F-A36BF025CB93/Response-to-GCIO-105-questions-Power-BI.pdf)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf).

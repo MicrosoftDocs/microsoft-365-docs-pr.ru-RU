@@ -20,14 +20,21 @@ search.appverid:
 - MOE150
 ms.assetid: de2da300-dbb6-4725-bb12-b85a9d296e75
 description: 'Защита бизнес-сообщений и данных от угроз кибератак, в том числе от атак, фишинга и вредоносных вложений. '
-ms.openlocfilehash: 2f70bf8d7b3a98416eca288aaa68f12fde1ba211
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 119329289a9c19c2256cf112e82289b55cf9ce07
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627696"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155437"
 ---
 # <a name="top-10-ways-to-secure-microsoft-365-for-business-plans"></a>10 основных способов защиты Microsoft 365 для бизнес-планов
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Если у вас небольшая или средняя организация, использующая один из бизнес-планов корпорации Майкрософт, а ваша организация предназначена для кибератак преступников и хакеров, используйте инструкции, приведенные в этой статье, чтобы повысить уровень безопасности Организации. Это руководство поможет вашей организации выполнить цели, описанные в руководстве по Харвард Кеннеди School [циберсекурити](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409).
   
@@ -90,7 +97,7 @@ ms.locfileid: "43627696"
     
 Кроме того, корпорация Майкрософт рекомендует пользователям защищать свои личные учетные записи электронной почты, выполнив действия, Рекомендуемые в следующих статьях:
   
-- [Защитите свою учетную запись электронной почты Outlook.com](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba.aspx)
+- [Защитите свою учетную запись электронной почты Outlook.com](https://support.microsoft.com/en-us/office/help-protect-your-outlook-com-email-account-a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
     
 - [Защита учетной записи Gmail с помощью 2 шаговой проверки](https://go.microsoft.com/fwlink/?linkid=2015688&amp;clcid=0x409)
     
@@ -160,7 +167,7 @@ ms.locfileid: "43627696"
 > [!TIP]
 > Вы также можете добавить файлы, которые необходимо заблокировать, в список защиты от вредоносных программ на [шаге 4](#4-raise-the-level-of-protection-against-malware-in-mail).
 
-Дополнительные сведения см. в статье:
+Дополнительные сведения см. в указанных ниже статьях.
   
 - [Как работать с программой «шантажистом»](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
     
@@ -222,7 +229,7 @@ ms.locfileid: "43627696"
   
 Если получатель использует другой почтовый клиент или учетную запись электронной почты, например Gmail или Yahoo, он увидит ссылку, которая позволит им либо выполнить вход, чтобы прочитать сообщение электронной почты, либо запросить одноразовый пароль для просмотра сообщения в веб-браузере. Если пользователи не получают электронную почту, попросите их проверить папку нежелательной почты или спама. 
   
-Дополнительные сведения см. [в статье отправка, просмотр и ответ на зашифрованные сообщения в Outlook для компьютера](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980.aspx).
+Дополнительные сведения см. [в статье отправка, просмотр и ответ на зашифрованные сообщения в Outlook для компьютера](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980).
   
 ## <a name="8-protect-your-email-from-phishing-attacks"></a>8. Защитите электронную почту от фишинговых атак
 <a name="phishing"> </a>

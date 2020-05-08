@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a83c744bc9f1335e0ce2993801475fdf16164766
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8e147e26072609a43d962b1d9fc7e71925510da4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627071"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064698"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Контрольные показатели Center for Internet Security (CIS)
 
@@ -46,9 +46,9 @@ Center for Internet Security (CIS) опубликовал контрольные
   
 Как и все контрольные показатели CIS, контрольные показатели для Майкрософт были созданы с использованием процесса консенсусного анализа, основанного на мнениях экспертов в данной области, имеющих разносторонний опыт в области разработки программного обеспечения, аудита и соответствия требованиям, исследований в области безопасности, операций, взаимодействия с государственными организациями и законодательства. Корпорация Майкрософт стала полноправным партнером в рамках таких усилий CIS. В частности, Office 365 был протестирован на соответствие перечисленным службам, и полученный в результате контрольный показатель для ключевых компонентов Microsoft 365 охватывает широкий спектр рекомендаций по настройке соответствующих политик безопасности в отношении учетных записей и проверки подлинности, управления данными, разрешений приложений, хранения и других областей политики безопасности.  
   
-В дополнение к контрольным показателям для продуктов и служб Майкрософт, CIS также опубликовал [CIS Hardened Images, предназначенные для использования на виртуальных машинах Azure](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/), настроенных для соответствия контрольным показателям CIS. В их число входят CIS Hardened Image для Microsoft Windows Server 2016, сертифицированный для запуска на Azure. CIS заявляет, что "все защищенные образы CIS, доступные на [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security), сертифицированы для запуска на Azure. Они были предварительно протестированы на готовность и совместимость с общедоступным облаком Azure, облачной платформой Microsoft, размещенной поставщиками услуг через сеть Cloud OS Network, и развертываниями в локальном частном облаке Windows Server Hyper-V, управляемыми клиентами".
+В дополнение к контрольным показателям для продуктов и служб Майкрософт, CIS также опубликовал [CIS Hardened Images, предназначенные для использования на виртуальных машинах Azure](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/), настроенных для соответствия контрольным показателям CIS. В их число входят CIS Hardened Image для Microsoft Windows Server 2016, сертифицированный для запуска на Azure. Согласно информации CIS, "все защищенные образы CIS, доступные на [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security), сертифицированы для запуска на Azure. Они были предварительно протестированы на готовность и совместимость с общедоступным облаком Azure, облачной платформой Microsoft, размещенной поставщиками услуг через сеть Cloud OS Network, и развертываниями в локальном частном облаке Windows Server Hyper-V, управляемыми клиентами".
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
 - [Office и Microsoft 365](https://aka.ms/o365-compliance-framework)
@@ -84,7 +84,7 @@ Center for Internet Security (CIS) опубликовал контрольные
 
 **Кто внес вклад в разработку контрольных показателей CIS для Майкрософт?**
 
-CIS отмечает, что "его контрольные показатели разрабатываются благодаря бескорыстным усилиям волонтеров – экспертов в данной области, поставщиков технологий, членов сообщества CIS Benchmark из государственных и частных организаций, а также команды разработчиков CIS Benchmark". В частности, вы найдете список участников Azure в разделе [Доступен контрольный показатель CIS для ключевых компонентов Microsoft Azure v1.0.0](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/).
+В CIS отмечает, что "контрольные показатели разрабатываются благодаря бескорыстным усилиям волонтеров-экспертов в данной области, поставщиков технологий, членов сообщества CIS Benchmark из государственных и частных организаций, а также команды разработчиков CIS Benchmark". В частности, вы найдете список участников Azure в разделе [Доступен контрольный показатель CIS для ключевых компонентов Microsoft Azure v1.0.0](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/).
 
 ## <a name="resources"></a>Ресурсы
 
@@ -92,7 +92,3 @@ CIS отмечает, что "его контрольные показатели
 - [Параметры политики безопасности Windows 10](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/security-policy-settings)
 - [Безопасность Windows 10 Корпоративная](https://docs.microsoft.com/windows/security/index)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/9/B/7/9B75D846-BDB9-41CB-86FF-F0ADFD15800B/CIS_Benchmarks-Compliance.pdf).

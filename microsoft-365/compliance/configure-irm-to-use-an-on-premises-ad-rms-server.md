@@ -17,18 +17,18 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить управление правами на доступ к данным (IRM) в Exchange Online для использования сервера службы управления правами Active Directory (AD RMS).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 510dc7ea628a46bc5bedfc04ba3b197407d5d67d
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 92bf92427ed9a0ba55a0f059859d59c11023ea33
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033699"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166120"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>Настройка функции управления правами на доступ к данным для использования локального сервера служб AD RMS
   
 Для использования в локальных развертываниях управление правами на доступ к данным (IRM) в Exchange Online использует службы управления правами Active Directory (AD RMS), технологию защиты информации в Windows Server 2008 и более поздних версий. К сообщению электронной почты применяется шаблон политики прав AD RMS. Права прикрепляются к сообщению, поэтому защита обеспечивается как в сети, так и вне ее, за пределами брандмауэра организации и внутри него.
   
-В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с помощью Azure Active Directory и Azure Rights Management можно найти в статье [вопросы и ответы по шифрованию сообщений в office 365](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e).
+В этом разделе показано, как настроить управление правами на доступ к данным для использования сервера службы управления правами Active Directory. Сведения об использовании новых возможностей шифрования сообщений Office 365 с помощью Azure Active Directory и Azure Rights Management можно найти в статье [вопросы и ответы по шифрованию сообщений в office 365](https://docs.microsoft.com/microsoft-365/compliance/ome-faq).
   
 Дополнительные сведения об управлении правами на доступ к данным в Exchange Online см. в разделе [Управление правами на доступ к данным в Exchange Online](information-rights-management-in-exchange-online.md).
   

@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Подключите пользователей своей организации к рабочим нагрузкам Microsoft 365 для предприятий.
-ms.openlocfilehash: 2bb86ec474f93ea9d5f41fb104c6d533b7ec9561
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7767f01d87029c7fc641a65442a5171b0d03eab5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638168"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066219"
 ---
 # <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Рабочие нагрузки и сценарии Microsoft 365 для предприятий
 
@@ -47,7 +47,7 @@ ms.locfileid: "43638168"
 
 Вот рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 для предприятий:
 
-![Рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 для предприятий:](../media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+![Рабочие нагрузки и сценарии из руководства по общему развертыванию Microsoft 365 для предприятий:](media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
 Дополнительные сценарии см. в [Microsoft 365 Productivity Library](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary). 
 

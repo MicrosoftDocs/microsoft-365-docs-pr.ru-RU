@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: В Office 365 ваш контент шифруется на REST и в транзите с самым надежным шифрованием, протоколами и технологиями. Общие сведения о шифровании в Office 365.
-ms.openlocfilehash: fdd1c50c7fde1892b5bab4ad83cddf8e032f4d61
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 16b7786097690af6a2dbb558582a7cf88e605bec
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631684"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166010"
 ---
 # <a name="encryption"></a>Шифрование
 
@@ -63,7 +63,7 @@ Microsoft 365 предоставляет решения, управляемые 
   
 - [Управление правами Azure](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
-- [Активация Rights Management в центре администрирования](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
+- [Активация Rights Management в центре администрирования](https://docs.microsoft.com/office365/enterprise/activate-rms-in-office-365)
 
 - [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
 
@@ -75,7 +75,7 @@ Microsoft 365 предоставляет решения, управляемые 
 |:-----|:-----|
 |Настройка шифрования для моей организации  <br/> |[Настройка шифрования в Office 365 корпоративный](set-up-encryption.md) <br/> |
 |Просмотр сведений о сертификатах, технологиях и комплектах шифров TLS <br/> |[Технические сведения о шифровании](technical-reference-details-about-encryption.md) <br/> |
-|Работать с зашифрованными сообщениями на мобильном устройстве  <br/> |[Просмотр зашифрованных сообщений на устройстве с Android](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [Просмотр зашифрованных сообщений на iPhone или iPad](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
+|Работать с зашифрованными сообщениями на мобильном устройстве  <br/> |[Просмотр зашифрованных сообщений на устройстве с Android](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [Просмотр зашифрованных сообщений на iPhone или iPad](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
 |Шифрование документа с помощью парольной защиты  <br/><br/>  Защита паролем не поддерживается в браузере. Используйте для настольных ПК версии Word, Excel и PowerPoint, чтобы защитить паролем. |[Добавление и удаление защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> Выберите раздел **добавить защиту** , а затем — **Шифрование с помощью пароля**.  |
 |Удаление шифрования из документа  <br/> |[Добавление и удаление защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> Выберите раздел **удалить защиту** , а затем — раздел **Удаление шифрования пароля**.  |
 

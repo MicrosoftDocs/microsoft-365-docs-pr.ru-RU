@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 728208960932ea8d642ad1604d45ba321f021735
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 0b0c9089d7a61f328e7942aefc605b49148aa454
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42313764"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066352"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Швейцарская служба по надзору за финансовыми рынками (FINMA)
 
@@ -69,7 +69,3 @@ FINMA опубликовала [Циркуляр 2018/3. Аутсорсинг д
 - [Соответствие финансовых услуг требованиям в Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Средство оценки облачных рисков для финансовых услуг в Azure](https://aka.ms/FFIEC-CSDT)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/4/6/A/46AE2B08-49ED-478F-8E64-6BDE9B56C5F4/FINMA-Compliance.pdf).

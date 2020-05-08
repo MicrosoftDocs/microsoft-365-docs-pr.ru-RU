@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 548b331a8ee26434f53b9960fd355feacd45dfde
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cc6f99dea89a5abc7f4c5bc07187c82d8999a064
+ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066322"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44156884"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -77,19 +77,13 @@ ms.locfileid: "44066322"
 
 ### <a name="audit-cycle"></a>Цикл аудита
 
-Облачные службы Майкрософт подлежат аудиту не менее одного раза в год по стандартам SOC 1 (SSAE18, ISAE 3402) и SOC 2 (AT Раздел 101).
+Облачные службы (Майкрософт) проверяются как минимум раз в год на соответствие стандартам SOC 1 (SSAE18, ISAE 3402), SOC 2 (AT 101) и SOC 3.
 
-#### <a name="azure-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream и центры обработки данных Майкрософт
+#### <a name="azure-dynamics-365-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Dynamics 365, Безопасность облачных приложений, Flow, Graph, Intune, Power BI, PowerApps, Stream и Центры обработки данных Microsoft
 
-- [Отчет SOC 1 (тип 2) об Azure и Azure для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2099601)
-- [Отчет SOC 2 (тип 2) об Azure и Azure для государственных организаций](https://aka.ms/azuresoc2auditreport)
-- [Отчет SOC 3 об Azure и Azure для государственных организаций](https://aka.ms/azuresoc3auditreport)
-
-#### <a name="dynamics-365"></a>Dynamics 365
-
-- [Отчет SOC 1 (тип 2) для Dynamics 365](https://aka.ms/Dynamics365SOC1AuditReport)
-- [Отчет о результатах аудита SOC 2 (AT 101, тип II) для Dynamics 365](https://aka.ms/Dynamics365SOC2AuditReport)
-- [См. связывающие письма и дополнительные отчеты аудита](https://aka.ms/auditreports)
+- [Azure + Dynamics 365 и Azure + Dynamics 365 для правительства SOC 1 Тип 2 Отчет](https://aka.ms/azuresoc1auditreport)
+- [Azure + Dynamics 365 и Azure + Dynamics 365 для правительства SOC 2 Тип 2 Отчет](https://aka.ms/azuresoc2auditreport)
+- [Azure + Dynamics 365 и Azure + Dynamics 365 для правительства SOC 3 Отчет](https://aka.ms/azuresoc3auditreport)
 
 #### <a name="office-365"></a>Office 365
 

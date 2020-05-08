@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6bd989a5600252ee60ada4eb4e3d1414ef3853d5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1f44c46046fc107e8059cebda3388fcd775bd31e
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602246"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065694"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 "Свод правил по управлению информационной безопасностью"
 
@@ -41,9 +41,7 @@ ms.locfileid: "41602246"
 
 ISO/IEC 27017 является уникальным стандартом, предоставляющим руководство как поставщикам облачных служб, так и клиентам облачных служб. Он также содержит практические сведения для клиентов облачных служб о том, что следует ожидать от поставщиков облачных служб. Клиенты могут получить прямую выгоду от использования стандарта ISO/IEC 27017, разобравшись с понятием общей ответственности в облаке.
 
-Узнайте о преимуществах стандарта ISO/IEC 27017 в Microsoft Cloud: [скачайте ISO/IEC 27017 "Свод правил по управлению информационной безопасностью"](https://aka.ms/iso27017-backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
 - Cloud App Security
@@ -64,7 +62,7 @@ ISO/IEC 27017 является уникальным стандартом, пре
 
 - [Сертификат Azure ISO 27017](https://go.microsoft.com/fwlink/p/?linkid=2078005)
 - [Отчет по оценке Azure ISO 27017](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Заявление о применимости Azure ISO 27017](https://aka.ms/AzureISO27017StatementofApplicability)
+- [Заявление о применимости Azure ISO 27017](https://aka.ms/azureiso27017StatementofApplicability)
 - [Отчет аудиторской оценки по ISO 27001, 27018 и 27017 в Office 365](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
@@ -90,7 +88,3 @@ ISO/IEC 27017 является уникальным стандартом, пре
 - [Свод правил ISO/IEC 27017:2015](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=43757)
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/7/9/7799D02B-A97A-48E0-A057-C19DD543BB24/ISO-IEC-27017_backgrounder.pdf).

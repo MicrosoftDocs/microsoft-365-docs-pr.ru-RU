@@ -22,14 +22,21 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Узнайте, как приобрести надстройку, чтобы добавить дополнительные функции для подписки на Microsoft 365 для бизнеса. Вы также можете обновить и удалить надстройку.
 ms.custom: okr_SMB
-ms.openlocfilehash: 801da522c9fea9efcc4d3d4a0285a6ffcb5adc0b
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045792"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141294"
 ---
 # <a name="buy-or-edit-an-add-on"></a>Покупка и изменение надстроек
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 В некоторых планах Microsoft 365 для бизнеса есть надстройки, которые можно купить для вашей подписки. Надстройка предоставляет дополнительные функциональные возможности для подписки, которую вы покупаетее.
 
@@ -236,6 +243,6 @@ ms.locfileid: "44045792"
 |План внутренних звонков <br/> | Office 365 корпоративный E5  <br/> |
 |План международных звонков  <br/> | Office 365 корпоративный E5  <br/> |
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Добавление дискового пространства для подписки](add-storage-space.md)

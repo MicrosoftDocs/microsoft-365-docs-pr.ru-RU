@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dd12d261c52f79bf6b9e8de747bb8fcaec775686
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2582dcc9c865ad96390163ffef819811906cf0de
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602206"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066626"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Испанский королевский указ 1720/2007, испанский конституционный закон 15/1999
 
@@ -73,7 +73,3 @@ AEPD — это государственный орган, осуществля�
 - Конституционный закон 15/1999 от 13 декабря о защите личных данных ([на испанском языке](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750))
 - [Условия использования Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/A/2/8/A280F049-3C15-4638-A2FA-EFD2793A956E/LOPD-Compliance.pdf).

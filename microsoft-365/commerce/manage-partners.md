@@ -16,14 +16,21 @@ search.appverid:
 - MET150
 description: Узнайте, как работать с поставщиками решений, сертифицированными корпорацией Майкрософт (партнерами), для приобретения и управления продуктами и службами в организации или учебном заведении.
 keywords: партнер, поставщик решений
-ms.openlocfilehash: ad51ee23b780de33aaaca6ad651816dba89c7bc9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3ba5a62caf199bf1e111ecf921df0f21568d5257
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080366"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141211"
 ---
 # <a name="manage-partner-relationships"></a>Управление отношениями партнеров
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Вы можете работать с поставщиками решений, сертифицированными корпорацией Майкрософт, для приобретения и управления продуктами и службами в организации или учебном заведении. Существует несколько шагов, связанных с настройкой.
 

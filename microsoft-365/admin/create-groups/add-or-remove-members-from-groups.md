@@ -20,14 +20,21 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Сведения о том, как добавить участника в группу, удалить участника из группы и управлять состоянием владельца группы в центре администрирования Microsoft 365.
-ms.openlocfilehash: 8b4df54e3dc54baf2f9e770f42333b95af391e90
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 96d9485821c27f2e9a4696401938da35a9996996
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049403"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140559"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление и удаление участников из групп Microsoft 365 с помощью центра администрирования
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 В Microsoft 365 члены групп обычно создают собственные группы, добавляют себя в группы, к которым они хотят присоединяться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, как администратор, вы также можете сделать это изменение. Эти изменения могут вносить только глобальный администратор, администратор Exchange, администратор групп или администратор пользователей. [Что такое группа Microsoft 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
 

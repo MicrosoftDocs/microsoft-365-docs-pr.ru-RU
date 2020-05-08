@@ -16,13 +16,15 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
-description: В этой статье рассказывается о рекомендуемой настройке параметров на уровне клиента, влияющих на безопасность среды Microsoft 365. Для обеспечения безопасности может потребоваться больше или меньше безопасности. Используйте эти рекомендации в качестве отправной точки.
-ms.openlocfilehash: 0d16011a7abfcaa20d2a053ee9c00b3719a2b3c6
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: В этом разделе описывается рекомендуемая конфигурация параметров на уровне клиента, влияющих на безопасность среды Microsoft 365.
+ms.openlocfilehash: 25338e95a638173abeebd3477955ad16c9116712
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949397"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043361"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>Настройка клиента Microsoft 365 для повышения безопасности
 
@@ -109,7 +111,7 @@ Office 365 Secure Score анализирует безопасность Орга
 
 Чтобы сделать это для SharePoint Online и OneDrive для бизнеса, воспользуйтесь одним из указанных ниже способов.
 
-- С помощью PowerShell можно просмотреть раздел [блокировать приложения, для которых не используется современная проверка подлинности](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication).
+- С помощью PowerShell можно просмотреть раздел [блокировать приложения, для которых не используется современная проверка подлинности (ADAL)](https://docs.microsoft.com/mem/intune/protect/app-modern-authentication-block).
 
 - Настройте этот параметр в центре администрирования SharePoint на странице "доступ к устройству" — "Управление доступом из приложений, для которых не используется современная проверка подлинности". Выберите пункт блокировать.
 

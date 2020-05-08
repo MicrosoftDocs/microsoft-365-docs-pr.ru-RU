@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Узнайте, как получить бесплатную пробную версию или приобрести подписку на Microsoft 365.
-ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707539"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141058"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Пробное использование или приобретение подписки на Microsoft 365
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Microsoft 365 — это полное решение, объединяющее Office 365 и Windows 10 с расширенной безопасностью и управлением устройствами. Если у вас уже есть подписка и вы хотите протестировать или приобрести подписку на Microsoft 365, лучший способ сделать это с помощью центра администрирования. Следующие подписки Microsoft 365 доступны в центре администрирования для последующего приобретения или приобретения:
   

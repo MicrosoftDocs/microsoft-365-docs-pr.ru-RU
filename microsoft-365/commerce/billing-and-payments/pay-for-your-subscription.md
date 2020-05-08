@@ -24,14 +24,21 @@ description: Узнайте, какие варианты оплаты досту
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 599eb7eafda81f59b02ab11c822307d0db0c49c2
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 613bb0fcc776b65090ee66faf6dc0516987947b2
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045840"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140875"
 ---
 # <a name="pay-for-your-subscription"></a>Оплата подписки
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 При настройке подписки можно выбрать оплату с помощью кредитной карты, банковского счета или счета-фактуры (используя чек или электронный платеж). Какой бы метод вы ни выбрали при настройке подписки, он будет использоваться и для оплаты последующих счетов, если только вы не [измените его](change-payment-method.md).
 

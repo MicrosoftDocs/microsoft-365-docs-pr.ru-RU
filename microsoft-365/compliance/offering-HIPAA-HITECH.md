@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 182e3489824c7842f5e9cf6a410d49d574b7462c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8a7a64532aeb7053572b78a6b05a757bf6d1b006
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638003"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066462"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -57,7 +57,7 @@ ms.locfileid: "43638003"
 - Cloud App Security
 - Служба Microsoft Health Bot
 - Microsoft Stream
-- Профессиональные службы Майкрософт: премьер и локально для Azure, Dynamics 365, Intune и среднего бизнеса и корпоративных клиентов Microsoft 365 для бизнеса
+- Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
 - Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Intune
@@ -115,7 +115,3 @@ ms.locfileid: "43638003"
 - [Общие сведения о соответствии требованиям HIPAA с Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 мая, 2016)
 - [Руководство по реализации Azure HIPAA](https://aka.ms/azure-hipaa-guide)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf).

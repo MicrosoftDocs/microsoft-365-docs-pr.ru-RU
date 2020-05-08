@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ad74c8d4ec71587f88a80c3ee109500e230be35
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e2b314934a51c16ab4e907b7d9f6208e7de21641
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071226"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065714"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>Ценные бумаги и Комиссия по Exchange: требования к нормативным системам и их целостность (SCI)
 
@@ -43,7 +43,7 @@ ms.locfileid: "42071226"
 
 В этом документе приводится подробный контрольный список критических областей фокуса на SCI. Этот контрольный список помогает финансовым организациям определить, как можно использовать Azure для обеспечения соответствия нормативным требованиям, клиентам и лидерам, которые они могут соблюдать.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
+## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
 
 - [Azure](https://aka.ms/AzureCompliance)
 
@@ -52,7 +52,7 @@ ms.locfileid: "42071226"
 - [Руководство по внедрению Sci](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a69ce0c1-7b7e-44e9-9143-867241e6b2f9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers): сопоставляет функции Azure с требованиями к нормативам и сведениями о том, что общая ответственность за соответствие требованиям.
 - [Разработка надежных приложений Azure](https://docs.microsoft.com/azure/architecture/resiliency/): краткий обзор процесса создания надежности на каждом этапе разработки приложений Azure.
 - [Разработка высокодоступных приложений](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): сведения о том, как разработчики могут обеспечить высокую доступность своих приложений для хранения Azure.
-- [Руководство по оценке риска и соответствия](https://aka.ms/RiskGovernanceGuide): создание модели управления для оценки риски облачных служб Майкрософт и уведомления контролирующих органов.
+- [Руководство по оценке риска и соответствия требованиям](https://aka.ms/RiskGovernanceGuide). Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов.
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -62,7 +62,7 @@ ms.locfileid: "42071226"
 
 **Какие финансовые учреждения могут использовать преимущества Azure для удовлетворения нормативных требований к SCI?**
 
-Финансовые организации или SCI объекты, которые подчиняются этому нормативу, могут развернуть Azure. В СЕКУНДах указано, что он применяется к "саморегулирующимся организациям (СРОС), в том числе к средствам обмена запасами и вариантам, зарегистрированным клирингом агентств, ФИНРА и МСРБ, альтернативным системным торговым системам (АТСС), для которых превышается указанный пороговые значения громкости, распространение консолидированных данных о рынке (плановых процессоров) и определенных нечистых агентств.
+Финансовые организации или SCI объекты, которые подчиняются этому нормативу, могут развернуть Azure. В СЕКУНДах указано, что он применяется к "саморегулирующимся организациям (СРОС), в том числе к средствам обмена биржевых и видеороликами, зарегистрированным клирингом агентств, ФИНРА и МСРБ, альтернативным торговым системам (АТСС), которые позволяют НМС и не НМС акции превышать указанные пороговые значения громкости, распространения консолидированных данных о рынке (плановых процессоров)
 
 ## <a name="resources"></a>Ресурсы
 
@@ -70,11 +70,7 @@ ms.locfileid: "42071226"
 - [Непрерывность бизнес-задач и аварийное восстановление (БКДР): области, связанные с Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions)
 - [Карта соответствия требованиям к облачным вычислениям нормативным требованиям и Microsoft Online Services](https://aka.ms/FinServ-Guide-US)
 - [Программа Microsoft Cloud Financial Services Compliance Program](https://aka.ms/FSCP-Print)
-- [Соответствие финансовых служб требованиям в Azure](https://aka.ms/FinServ-Compliance-Azure)
+- [Соответствие финансовых услуг требованиям в Azure](https://aka.ms/FinServ-Compliance-Azure)
 - [Финансовые службы Майкрософт](https://aka.ms/FinServ-Compliance)
 - [Microsoft и с — правило 17A — 4](offering-SEC-17a-4.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/8/1/a/81aa04eb-3c1f-4c1a-ba7d-9d30032acc52/SEC_Reg_SCI-Compliance.pdf).

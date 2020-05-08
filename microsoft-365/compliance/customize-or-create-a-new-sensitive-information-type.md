@@ -17,15 +17,15 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: ''
-description: Узнайте, как менять или создавать типы конфиденциальной информации для соблюдения регламента GDPR.
-ms.openlocfilehash: e29193e3fdb7f4d2cd6a5810137bc120fb1171e5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как изменить или создать типы конфиденциальной информации в Office 365 для соблюдения Общего регламента по защите данных (GDPR).
+ms.openlocfilehash: 3eca04fcf949a19615dc574c90d8dbeea0894a23
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637781"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166070"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>Настройка и создание типа конфиденциальной информации
 
@@ -73,7 +73,7 @@ ms.locfileid: "43637781"
 
 7.  Передайте новый тип конфиденциальной информации.
 
-8.  Выполните повторный обход контента, чтобы идентифицировать конфиденциальную информацию. См. статью [Ручной запрос обхода контента и переиндексации сайта](https://support.office.com/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E).
+8.  Выполните повторный обход контента, чтобы идентифицировать конфиденциальную информацию. См. статью [Ручной запрос обхода контента и переиндексации сайта](https://docs.microsoft.com/sharepoint/crawl-site-content).
 
 ## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>Пример: изменение типа конфиденциальной информации "Номер банковской карты для ЕС"
 
@@ -147,11 +147,11 @@ ms.locfileid: "43637781"
 
 - [Выполнение поиска контента](content-search.md)
 
-Поиск контента предоставляет еще один ресурс, который помогает создавать запросы KQL и типы конфиденциальной информации, — ключевые слова. Зачем использовать список ключевых слов? Вы можете получить статистические данные о том, сколько элементов соответствуют каждому ключевому слову. Это поможет быстро определить наиболее (и наименее) эффективные ключевые слова. Дополнительные сведения о статистике поиска см. в статье [Просмотр статистики ключевых слов для результатов поиска контента](https://support.office.com/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
+Поиск контента предоставляет еще один ресурс, который помогает создавать запросы KQL и типы конфиденциальной информации, — ключевые слова. Зачем использовать список ключевых слов? Вы можете получить статистические данные о том, сколько элементов соответствуют каждому ключевому слову. Это поможет быстро определить наиболее (и наименее) эффективные ключевые слова. Дополнительные сведения о статистике поиска см. в статье [Просмотр статистики ключевых слов для результатов поиска контента](https://docs.microsoft.com/microsoft-365/compliance/view-keyword-statistics-for-content-search).
 
 Ключевые слова в каждой строке соединяются с помощью оператора OR в созданном поисковом запросе. В строке также можно использовать ключевую фразу (которая заключается в скобки).
 
-Подробнее см. в статье [Запросы ключевых слов и условия поиска контента](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3).
+Подробнее см. в статье [Запросы ключевых слов и условия поиска контента](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions).
 
 ### <a name="exampleusing-content-search-to-identify-email-addresses"></a>Пример: использование веб-части "Поиск контента" для определения адресов электронной почты
 

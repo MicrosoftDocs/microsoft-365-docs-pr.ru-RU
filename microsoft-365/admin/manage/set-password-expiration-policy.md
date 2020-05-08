@@ -20,14 +20,21 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365. '
-ms.openlocfilehash: dd925ee3a5d2aadb07dceed5a0e896e77921e2a1
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: b5836fb1a9bf7c1a9820214916f4c6158bc44852
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901014"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139665"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Эта статья адресована тем, кто устанавливает политику срока действия паролей в компании, учебном заведении или некоммерческой организации.  
 

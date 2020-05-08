@@ -21,14 +21,21 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Сведения о том, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
-ms.openlocfilehash: c12b574d29b50432cdb480dca711588ad1f0df32
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: f0f635529a7d7c6ee0f9a2d6b15b887e3fd23bfb
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046208"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141173"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 *Приемлемость:* Если пользователям назначено менее 25 лицензий, вы можете в любой момент отказаться от пробной или платной подписки Microsoft 365 для бизнеса в Интернете в центре администрирования Майкрософт 365. Если пользователям назначено более 25 лицензий, [обратитесь в службу поддержки, чтобы отменить подписку](../../admin/contact-support-for-business-products.md).
 
@@ -138,7 +145,7 @@ ms.locfileid: "44046208"
 
 Если вы отменили подписку и не переместит пользователей в другую подписку, которая включает Microsoft 365, Microsoft 365 работает в режиме ограниченной функциональности. В этом случае пользователи могут читать и печатать документы, а приложения Microsoft 365 — [уведомления о нелицензированных продуктах](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Во избежание недоразумений нужно [удалить Office](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) с компьютеров пользователей.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Обновление подписки](renew-your-subscription.md)
 

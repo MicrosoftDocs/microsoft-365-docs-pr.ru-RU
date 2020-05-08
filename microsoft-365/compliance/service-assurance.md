@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: Скачайте сторонние средства аудита, Узнайте, как корпорация Майкрософт обеспечивает безопасность данных клиентов, и Узнайте, как вы можете соблюдать ISO, HIPAA, ФИНРА и FedRAMP при использовании Office 365.
-ms.openlocfilehash: b9a9198d8206b2693f0634355c926856c1327d9d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: d2805ae3532ee01a2515693cac6eb52da209022d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943592"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165930"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>Гарантия обслуживания в центре безопасности & соответствия требованиям
 
@@ -134,7 +134,7 @@ ms.locfileid: "43943592"
 ## <a name="get-help-with-service-assurance"></a>Получение справки о гарантии на обслуживание
 <a name="addother"> </a>
 
-[Обратитесь в службу поддержки для бизнес-продуктов: Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+[Обратитесь в службу поддержки для бизнес-продуктов: Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).
   
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 <a name="addother"> </a>

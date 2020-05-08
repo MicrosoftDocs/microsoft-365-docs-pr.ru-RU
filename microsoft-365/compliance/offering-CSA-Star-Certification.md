@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a13274aea83bf26eca8ecde524eafa14d27b4fca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 37c460732704da4c5904005cf8ebaabf36b92c49
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602566"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066110"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>Сертификация Cloud Security Alliance (CSA) STAR
 
@@ -36,8 +36,6 @@ ms.locfileid: "41602566"
 Microsoft Azure, Microsoft Intune и Microsoft Power BI получили сертификат STAR, предусматривающий строгую независимую оценку состояния безопасности поставщика облачных служб. Сертификация STAR основана на получении сертификата ISO/IEC 27001 и выполнении условий, указанных в CCM. Она демонстрирует, что поставщик облачных служб соответствует применимым требованиям стандарта ISO/IEC 27001, устранил проблемы с облачной безопасностью, как указано в CCM, и был оценен по модели зрелости возможностей создания ПО STAR на предмет управления действиями в областях контроля CCM.  
   
 Во время оценки уполномоченный аудитор сертификации CSA назначает рейтинг зрелости возможностей создания ПО каждой из 16 областей контроля CCM. Средний рейтинг используется для назначения общего уровня зрелости и соответствующей бронзовой, серебряной или золотой награды. Azure, Intune, Power BI и Microsoft Cloud App Security получили сертификаты Cloud Security Alliance (CSA) STAR уровня "Золотой".  
-  
-Узнайте о преимуществах сертификации CSA STAR в Microsoft Cloud: [скачайте информационный документ сертификации CSA STAR](https://aka.ms/csastar-certification-backgrounder).
 
 Узнайте, как ускорить сертификацию CSA STAR с помощью схемы безопасности и соответствия требованиям Azure: [скачайте ответы Microsoft Azure на анкету для общей оценки CSA](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11).
 
@@ -92,7 +90,3 @@ Azure, Cloud App Security, Intune и Power BI получили самую выс
 - [ISO/IEC 27001](offering-iso-27001.md)
 - [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/C/3/6/C36C6DBB-AF39-44A2-B6C6-50CC6E4991D7/CSA-STAR-Certification-Compliance.pdf).

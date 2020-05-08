@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Узнайте, как спланировать управление группами Microsoft 365.
-ms.openlocfilehash: 4427f210bc1691ef04b97fa4802313078f8d0997
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 85dfbb27899d7b79257eba4cff4b7cd715f762a5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049415"
+ms.locfileid: "44064791"
 ---
 # <a name="plan-for-governance-in-groups"></a>Планирование управления в группах
 
@@ -154,7 +154,7 @@ ms.locfileid: "44049415"
 >Если пользователь попытается получить доступ к сайту в период обратимого удаления, возникнет ошибка 403 о запрете доступа. Когда этот период закончится, пользователь получит ошибку 404 о том, что сайт не найден.
 
 #### <a name="resources"></a>*Ресурсы*
-- [Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
+- [Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
 - [Восстановление удаленной группы Microsoft 365 в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Удаление групп с помощью командлета Remove-UnifiedGroup](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
 

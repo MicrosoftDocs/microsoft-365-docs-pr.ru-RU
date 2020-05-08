@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Сведения о том, что происходит с данными при истечении срока действия подписки на Microsoft 365 для бизнеса, отключается или при отмене.
-ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 363d8379bb2fa34e58a81892beadcebb9c6624f2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707611"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165129"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>Что происходит с данными и доступом при завершении подписки Microsoft 365 для бизнеса?
 
@@ -50,7 +50,7 @@ ms.locfileid: "43707611"
 * Для большинства предложений в большинстве стран и регионов.
   
 > [!NOTE]
-> **Что такое "данные клиента"?** Данные клиента, как указано в [терминах Microsoft Online Service](https://go.microsoft.com/fwlink/p/?LinkId=613649), относятся ко всем данным, в том числе ко всем текстовым, звуковым и файловым изображениям, предоставляемым корпорации Майкрософт, или от имени клиента с помощью служб Microsoft 365. Чтобы узнать больше о защите данных клиентов, ознакомьтесь со [статьей начало работы с порталом доверия службы Майкрософт](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662).
+> **Что такое "данные клиента"?** Данные клиента, как указано в [терминах Microsoft Online Service](https://go.microsoft.com/fwlink/p/?LinkId=613649), относятся ко всем данным, в том числе ко всем текстовым, звуковым и файловым изображениям, предоставляемым корпорации Майкрософт, или от имени клиента с помощью служб Microsoft 365. Чтобы узнать больше о защите данных клиентов, ознакомьтесь со [статьей начало работы с порталом доверия службы Майкрософт](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal).
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>Каковы параметры для истечения срока действия подписки?
 

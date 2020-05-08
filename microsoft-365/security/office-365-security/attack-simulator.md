@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
-description: В качестве глобального администратора вы можете использовать Симуляторы для атаки, чтобы выполнять реальные сценарии атаки в Организации. Это поможет определить и найти уязвимых пользователей, прежде чем реальная атака будет возобновлением вашей компании.
-ms.openlocfilehash: cac09ed48a46531ea2246f9c3ef798649dc73196
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как использовать симулятор для атак для запуска имитации атак фишинга и паролей в организации Microsoft 365 в и в Организации с планом ATP 2.
+ms.openlocfilehash: e2c6859291e4a25e56dd8dd20a8ecc5962310680
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638576"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035862"
 ---
 # <a name="attack-simulator-in-atp"></a>Симулятор атак в ATP
 

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 17bfa8ee50fbdb7dce988324f478d88d00600121
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.openlocfilehash: a7e13ae8a3ccffa644a123f57b05c4364d4333d2
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804747"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141351"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Что поступает в показателях безопасности Майкрософт?
 
@@ -30,8 +30,8 @@ ms.locfileid: "43804747"
 
 Чтобы узнать о последних изменениях, ознакомьтесь со статьей " [новые возможности оценки безопасности Майкрософт".](microsoft-secure-score.md#whats-new)
 
-## <a name="may-2020"></a>Май 2020
+## <a name="may-2020"></a>Май 2020 г.
 
-### <a name="adding-azure-advanced-threat-protection-improvement-actions-to-preview"></a>Добавление действий по улучшению защиты от угроз Azure к предварительной версии
+### <a name="adding-additional-azure-advanced-threat-protection-improvement-actions-to-preview"></a>Добавление дополнительных действий по улучшению защиты от угроз Azure для предварительного просмотра
 
 - Включение функций безопасности для доверий Active Directory

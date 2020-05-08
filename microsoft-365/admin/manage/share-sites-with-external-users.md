@@ -20,14 +20,21 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: 'Узнайте, как предоставлять доступ к сайтам и файлам пользователям за презнакомыми пользователями организации. '
-ms.openlocfilehash: c11526ee199cf097053489bb4ab8060dcb2c6bc9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e49cc84314b55f1aacfa47ab28916bae12132a3e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628032"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139617"
 ---
 # <a name="share-sites-and-files-externally"></a>Предоставление внешнего общего доступа к сайтам и файлам
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Чтобы работать совместно с пользователями за пределами вашей организации, вы можете получить доступ ко всем сайтам или отдельным файлам извне. Если вы хотите перейти непосредственно к настройке общего доступа, выберите нужный сценарий:
 

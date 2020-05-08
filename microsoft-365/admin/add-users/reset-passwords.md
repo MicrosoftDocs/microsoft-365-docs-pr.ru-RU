@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Узнайте, как сбросить пароль для пользователя в Microsoft 365 для бизнес-подписки. '
-ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 99ec6423b835204624f91977b6f138fa7c8ba8cd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626950"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049451"
 ---
 # <a name="reset-passwords"></a>Сброс паролей
 
@@ -93,7 +93,7 @@ ms.locfileid: "43626950"
     
 - Обратитесь к другому глобальному администратору, чтобы сбросить пароль.
     
-- Или [позвоните в службу поддержки Майкрософт](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_). 
+- Или [позвоните в службу поддержки Майкрософт](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products). 
     
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>Одновременное восстановление всех бизнес-паролей для всех пользователей в Организации
 <a name="bkmk_forgot"> </a>
@@ -117,9 +117,9 @@ ms.locfileid: "43626950"
 
 Воспользуйтесь PowerShell. Ознакомьтесь со статьей Эяла Дорона (Eyal Doron) [Управление паролями с помощью PowerShell](https://go.microsoft.com/fwlink/?linkid=853696) (на английском языке).
   
-Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password).
+Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
   
-Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx).
+Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Принудительная смена паролей всех пользователей в организации
 <a name="bkmk_forgot"> </a>
@@ -131,7 +131,7 @@ ms.locfileid: "43626950"
 
 Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 <a name="bkmk_forgot"> </a>
   
 [Разрешить пользователям сбрасывать собственные пароли](let-users-reset-passwords.md)

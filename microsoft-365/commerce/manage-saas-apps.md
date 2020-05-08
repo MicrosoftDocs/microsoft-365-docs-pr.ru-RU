@@ -13,14 +13,21 @@ ms.collection:
 - commerce
 search.appverid: MET150
 description: Сведения о том, как активировать сторонние приложения и управлять ими в центре администрирования Microsoft 365.
-ms.openlocfilehash: 521a535115cd3a082348485f4d03dade27c71d92
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: eb2826a4b0c69d61eb35a9dfff37e9dc2dd6ad71
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045968"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141192"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>Управление подписками сторонних приложений для Организации
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Вы можете управлять лицензиями и выставлением счетов для сторонних приложений в центре администрирования Microsoft 365 с включенным режимом предварительного просмотра. Обновленные функции включают расширенные возможности управления подписками, Улучшенный доступ к сведениям о выставлении счетов и улучшенную гибкость для управления ведомостью. Управление подписками основано на обновленной бизнес-платформе Майкрософт. Это относится к приложениям программного обеспечения, которые клиенты приобрели напрямую или от стороннего поставщика.
 

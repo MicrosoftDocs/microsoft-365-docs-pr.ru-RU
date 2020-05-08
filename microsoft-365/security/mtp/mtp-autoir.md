@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: f7ae1a285e22ad18d292d37aab0bba0b4a441461
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 6ac6d74b027cc533f689c1d67c7fce246c73984f
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857455"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166165"
 ---
 # <a name="automated-investigation-and-response-air-capabilities-in-microsoft-threat-protection"></a>Возможности автоматического исследования и реагирования (AIR) в защите от угроз Майкрософт
 
@@ -54,7 +54,7 @@ ms.locfileid: "42857455"
 |Устройства (также называемые конечными точками)     |[ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
 |Содержимое электронной почты (файлы и сообщения в почтовых ящиках)     |[Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-Каждый анализ генерирует заключения (*Вредоносный*, *Подозрительный*или *Чистый*) для каждого проанализированного элемента. В зависимости от типа угрозы и результата вредоносности действия по исправлению происходят автоматически или при утверждении группой операций безопасности Организации. Ожидающие выполнения и завершенные действия отображаются в списке [Центре уведомлений](mtp-action-center.md).
+Каждое исследование создает вердиктс (*вредоносные*, *подозрительные*или *не обнаруженные угрозы*) для каждой части свидетельства. В зависимости от типа угрозы и результата вредоносности действия по исправлению происходят автоматически или при утверждении группой операций безопасности Организации. Ожидающие выполнения и завершенные действия отображаются в списке [Центре уведомлений](mtp-action-center.md).
 
 > [!TIP]
 > Если вы считаете, что что-то пошло не так или неправильно, с помощью автоматизированного расследования и функции ответа в Microsoft Threat Protection, сообщите нам о! Сведения о [том, как сообщить о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования (AIR) в защите от угроз Майкрософт](mtp-autoir-report-false-positives-negatives.md).

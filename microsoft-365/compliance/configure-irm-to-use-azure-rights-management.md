@@ -18,15 +18,15 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье содержатся сведения о новых возможностях шифрования сообщений Office 365 (OME).
-ms.openlocfilehash: e379e4cd9c4a1620dd394541b08c447d62a741ca
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b1a9c58a17b5f8434325191828063ec91a116e88
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033689"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166100"
 ---
 # <a name="configure-irm-to-use-azure-rights-management"></a>Настройка IRM для использования службы Azure Rights Management
 
-Благодаря выпуску новых возможностей для шифрования сообщений Office 365 (OME) больше не нужно настраивать IRM отдельно. Корпорация Майкрософт не рекомендует настраивать новые развертывания при использовании устаревших версий OME и IRM с Azure Rights Management. Дополнительные сведения о новых возможностях OME см. в статье [Вопросы и ответы: шифрование сообщений Office 365](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e). Если вы готовы применить новые возможности OME в организации, см. статью [Как настроить новые возможности шифрования сообщений Office 365 на базе Azure Information Protection](https://support.office.com/article/7ff0c040-b25c-4378-9904-b1b50210d00e).
+Благодаря выпуску новых возможностей для шифрования сообщений Office 365 (OME) больше не нужно настраивать IRM отдельно. Корпорация Майкрософт не рекомендует настраивать новые развертывания при использовании устаревших версий OME и IRM с Azure Rights Management. Дополнительные сведения о новых возможностях OME см. в статье [Вопросы и ответы: шифрование сообщений Office 365](https://docs.microsoft.com/microsoft-365/compliance/ome-faq). Если вы готовы применить новые возможности OME в организации, см. статью [Как настроить новые возможности шифрования сообщений Office 365 на базе Azure Information Protection](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities).
   
 

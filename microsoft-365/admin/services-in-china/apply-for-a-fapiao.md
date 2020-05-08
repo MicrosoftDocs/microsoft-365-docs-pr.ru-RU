@@ -20,14 +20,21 @@ search.appverid:
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Сведения о том, как отправить запрос Фапьяо в систему управления 21Vianet Фапьяо после совершения платежа в Office 365 под управлением 21Vianet в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: fece5448ecd72ad3d0aceabde76d6519bafa917d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 55629654599dd20b813708a148e3ce49f6b6cf88
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360960"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140817"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Применяется к Фапьяо для Office 365 под управлением 21Vianet
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 Вы можете отправить свой запрос Фапьяо в систему управления 21Vianet Фапьяо за три дня после того, как вы оплачиваете. После того как вы отправите запрос Фапьяо, он будет обработан через два дня.
   
@@ -39,7 +46,7 @@ ms.locfileid: "42360960"
   
 1. После выполнения платежа на веб-сайте Office 365 под управлением 21Vianet вы получите по электронной почте подтверждение заказа, которое содержит номер заказа и ссылку на систему управления Фапьяо. Вы можете использовать ссылку в сообщении электронной почты, чтобы создать учетную запись в <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">системе управления сведениями 21Vianet фапьяо</a>.
     
-    ИЛИ
+    или
     
 2. Вы можете использовать Фапьяо в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>.
     

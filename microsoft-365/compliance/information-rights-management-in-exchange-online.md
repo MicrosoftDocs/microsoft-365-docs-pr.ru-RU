@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: Вы можете настроить службу управления правами Exchange Online для использования локальной службы управления правами Active Directory (AD RMS), если это необходимо, для удовлетворения требований Организации. Это нетипичный сценарий. Если у вас нет требования использовать службу управления правами Active Directory, используйте шифрование сообщений Office.
-ms.openlocfilehash: 24a86ad9b1a1f3bbd67e194143fa02cb4040a47e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fa4d950ac52e48ac4fc554dff7e9fb800a8017d1
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600656"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165990"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>Шифрование почты Exchange Online с помощью AD RMS
 
@@ -29,7 +29,7 @@ ms.locfileid: "41600656"
   
 ## <a name="changes-to-how-irm-works-with-office-365-message-encryption-ome-and-azure-active-directory"></a>Изменения в работе IRM со службой шифрования сообщений Office 365 и Azure Active Directory
 
-Начиная с сентября 2017 г. IRM на основе Azure Rights Management (Azure RMS) настраивается вместе с новыми возможностями шифрования сообщений Office 365. Оно больше не настраивается отдельно. Шифрование сообщений и управление правами теперь работают как единое целое. Дополнительные сведения о новых возможностях см. в статье [Шифрование сообщений Office 365: вопросы и ответы](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e). Инструкции по настройке новых возможностей шифрования сообщений Office 365 см. в [этой статье](https://support.office.com/article/7ff0c040-b25c-4378-9904-b1b50210d00e).
+Начиная с сентября 2017 г. IRM на основе Azure Rights Management (Azure RMS) настраивается вместе с новыми возможностями шифрования сообщений Office 365. Оно больше не настраивается отдельно. Шифрование сообщений и управление правами теперь работают как единое целое. Дополнительные сведения о новых возможностях см. в статье [Шифрование сообщений Office 365: вопросы и ответы](https://docs.microsoft.com/microsoft-365/compliance/ome-faq). Инструкции по настройке новых возможностей шифрования сообщений Office 365 см. в [этой статье](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities).
   
 ## <a name="how-irm-works-with-exchange-online-and-active-directory-rights-management-services"></a>Взаимодействие IRM с Exchange Online и службами Active Directory Rights Management
 

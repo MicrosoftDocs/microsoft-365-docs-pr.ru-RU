@@ -18,21 +18,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 990e39484b7f3f5b26b39e52f9344da0a3ffa290
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 35eb63fd5b472f4b58c5f2fb5285ffff012277dd
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919686"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065904"
 ---
 # <a name="get-started-with-communication-compliance"></a>Начало работы с соответствием требованиям к обмену данными
 
->[!IMPORTANT]
->Эта статья относится к настройке обеспечения соответствия связи в подписке Microsoft 365. Если вы хотите настроить политики контроля для подписки на Microsoft 365, ознакомьтесь со статьей [Configure надзор for microsoft 365](supervision-policies.md).
-
 Используйте политики соответствия требованиям для сбора данных о связи сотрудников для изучения внутренними или внешними рецензентами. Для получения дополнительных сведений о том, как политики соответствия требованиям могут помочь отслеживать связи в Организации, ознакомьтесь со статьей [политики соответствия требованиям в Microsoft 365](communication-compliance.md). Если вы хотите узнать, как компания Contoso быстро настроила политику соответствия требованиям на связь для отслеживания нежелательных языков в Microsoft Teams, Exchange Online и коммуникаций в Yammer, ознакомьтесь со статьей этого [примера](communication-compliance-case-study.md).
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Подготовка
 
 Прежде чем приступить к работе с обеспечением соответствия требованиям, необходимо подтвердить вашу [подписку на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и все надстройки. Чтобы получить доступ к условиям связи и использовать ее, ваша организация должна иметь одну из следующих подписок или надстроек:
 

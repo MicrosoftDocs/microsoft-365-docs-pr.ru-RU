@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7e903467a35427e4d1c6fae0b29f41d970d0fbc8
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: b5efda8f6b4b7937b98a9357ad3bb2c661541256
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043320"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065824"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Начало работы с управлением внутренними рисками
 
@@ -34,8 +34,10 @@ ms.locfileid: "44043320"
 
 - Подписка на Microsoft 365 (платная или пробная версия)
 - Подписка на Microsoft 365 E3 + надстройка для обеспечения соответствия требованиям корпорации Майкрософт 365
+- Подписка на Microsoft 365 E3 + надстройка "Управление рисками для Майкрософт 365 для участников программы предварительной оценки"
 - Подписка на Microsoft 365 A5 (платная или пробная версия)
 - Подписка на Microsoft 365 a3 и надстройка Microsoft 365 A5 для обеспечения соответствия требованиям
+- Подписка на Microsoft 365 a3 и надстройка "Управление рисками Майкрософт 365 A5"
 
 Пользователям, включенным в политики управления рисками для предварительной оценки, должна быть назначена одна из указанных выше лицензий.
 

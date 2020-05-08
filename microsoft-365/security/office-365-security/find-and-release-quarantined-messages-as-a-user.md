@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
-description: Будучи получателем Microsoft 365, вы можете просматривать, разблокировать и удалять свои сообщения, находящиеся на карантине (сообщения, в которых вы являетесь получателем, а также сообщения, которые функция фильтрации спама посчитала спамом или массовой рассылкой и поместила на карантин). Вы просматриваете свои карантинные сообщения и управляете ими в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: b8ab5835a29ccf0c58d27f56fe84d29745419b1a
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.custom:
+- seo-marvel-apr2020
+description: В этой статье рассказывается о том, как просматривать сообщения, помещенные в карантин, и управлять ими в Центре безопасности и соответствия требованиям Microsoft 365.
+ms.openlocfilehash: 177f60f1fccc764d74ec0374249a62c602cb84aa
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43809008"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036516"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя
 

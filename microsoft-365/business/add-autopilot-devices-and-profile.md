@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Узнайте, как использовать автопилот Windows для настройки новых устройств с Windows 10 для бизнеса, чтобы они были готовы к использованию сотрудниками.
-ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: de14012ebf9e7cdd22e41505f316ab665773c670
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627501"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165888"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Добавление устройств и профиля AutoPilot с помощью пошагового мастера
 
@@ -69,7 +69,7 @@ ms.locfileid: "43627501"
     
     Эту информацию можно получить у поставщика оборудования или с помощью [сценария PowerShell Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) , чтобы создать CSV-файл. 
     
-    Дополнительные сведения см. в статье [CSV-файл со списком устройств](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). Вы также можете скачать образец файла на странице **Отправка CSV-файла со списком устройств**. 
+    Дополнительные сведения см. в статье [CSV-файл со списком устройств](https://docs.microsoft.com/microsoft-365/admin/misc/device-list). Вы также можете скачать образец файла на странице **Отправка CSV-файла со списком устройств**. 
     
 4. На странице **Назначение профиля** можно выбрать существующий профиль или создать новый. Если у вас еще нет, вам будет предложено создать его. 
     

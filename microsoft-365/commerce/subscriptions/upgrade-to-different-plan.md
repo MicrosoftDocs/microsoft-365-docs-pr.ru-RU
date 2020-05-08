@@ -23,15 +23,21 @@ search.appverid:
 - BEA160
 - GEA150
 description: Узнайте, как обновить новую подписку.
-monikerRange: o365-worldwide
-ms.openlocfilehash: 7739da2d56fa0d37dd64b22b2959ad6dca198e75
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: b0f79233e6a05c2838026093bb0027cd4789b01b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046220"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44141070"
 ---
-# <a name="upgrade-to-a-different-plan"></a>Переход на другой план 
+# <a name="upgrade-to-a-different-plan"></a>Переход на другой план
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 При изменении бизнеса или необходимости дополнительных функций можно обновить планы. Это проще всего сделать с помощью вкладки **Обновление** в центре администрирования. Однако при использовании вкладки " **Обновление** " не поддерживаются все ситуации. В некоторых случаях вы можете изменить планы вручную.
 
@@ -172,7 +178,7 @@ ms.locfileid: "44046220"
 
 [Позвонить в службу поддержки Майкрософт](../../admin/contact-support-for-business-products.md)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Изменение планов вручную](change-plans-manually.md)
 

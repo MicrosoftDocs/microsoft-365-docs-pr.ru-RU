@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Узнайте, как создать политику типов конфиденциальной информации для Организации с помощью шифрования сообщений Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a6baf20d755ed30ce962d7cc6b03f6c9734e4a4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 7ba94923c1f8c6ade6b7bf494636c562b4cc4102
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44031416"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165960"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>Создание политики типов конфиденциальной информации для Организации с помощью шифрования сообщений
 
@@ -64,7 +64,7 @@ New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -S
 
 Вам может потребоваться обновить любую документацию конечного пользователя и обучающие материалы, чтобы подготовить пользователей в Организации к этому изменению. Предоставьте им доступ к этим ресурсам по шифрованию сообщений Office 365, используя соответствующие пользователи:
 
-- [Отправка, просмотр зашифрованных сообщений и ответ на них в Outlook для компьютера](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980)
+- [Отправка, просмотр зашифрованных сообщений и ответ на них в Outlook для компьютера](https://support.microsoft.com/en-us/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
 - [Видео о Microsoft 365 Essentials: шифрование сообщений Office](https://youtu.be/CQR0cG_iEUc)
 
 ## <a name="view-these-changes-in-the-audit-log"></a>Просмотр изменений в журнале аудита

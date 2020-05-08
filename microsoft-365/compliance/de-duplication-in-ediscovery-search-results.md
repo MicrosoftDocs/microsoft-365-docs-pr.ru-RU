@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: Можно отменить экспортированные результаты поиска обнаружения электронных данных, чтобы экспортировать только одну копию сообщения электронной почты, несмотря на то, что в разных почтовых ящиках могут быть найдены несколько экземпляров одного и того же сообщения.
-ms.openlocfilehash: 17bfb7581da1147c7de8cae0437fe91316a3fcb6
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 6a63783efd76d6e598d3f00dd8a683317c261d2d
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943136"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166050"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>Дедупликация результатов поиска, выполненного с помощью функции обнаружения электронных данных
 
@@ -84,4 +84,4 @@ ms.locfileid: "43943136"
 
   - [Экспорт результатов поиска с обнаружением электронных данных на месте в PST-файл](https://go.microsoft.com/fwlink/p/?linkid=832671)
 
-  - [Экспорт контента и создание отчетов в центре обнаружения электронных данных](https://support.office.com/article/7b2ea190-5f9b-4876-86e5-4440354c381a)
+  - [Экспорт контента и создание отчетов в центре обнаружения электронных данных](https://docs.microsoft.com/SharePoint/governance/export-content-and-create-reports-in-the-ediscovery-center)

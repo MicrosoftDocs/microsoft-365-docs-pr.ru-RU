@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Сведения о том, как активировать, продлить или добавить лицензии на подписку Microsoft 365 для бизнеса.
-ms.openlocfilehash: da4e42ae2dadec8d376b9ef8d12c6d4cb4fe7af5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0f8233613f7929dad37167e7237be335d4e8f567
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636456"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165135"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Введите ключ продукта, приобретенный в Microsoft Open
 
@@ -63,7 +63,7 @@ ms.locfileid: "43636456"
 
 Ознакомьтесь со списком типичных ошибок и решений: [проблемы с ключом продукта](product-key-errors-and-solutions.md)
   
-Если вы являетесь партнером, см. [Партнерам: настройка подписки клиента с помощью ключа продукта](https://support.office.com/article/cf22c50f-95c9-4fa2-b959-c264de256d40.aspx).
+Если вы являетесь партнером, см. [Партнерам: настройка подписки клиента с помощью ключа продукта](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40).
   
 Участники программ корпоративного лицензирования могут посетить сайт [Обучающие программы и другие ресурсы Центра обслуживания для корпоративного лицензирования корпорации Майкрософт](https://go.microsoft.com/fwlink/p/?LinkId=618103).
   

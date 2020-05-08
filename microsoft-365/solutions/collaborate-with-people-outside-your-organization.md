@@ -9,17 +9,18 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-ms.custom:
 - M365solutions
+ms.custom:
+- seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Узнайте, как настроить Microsoft 365 для совместной работы с пользователями, не входящими в вашу организацию.
-ms.openlocfilehash: 338b486725f727506d654a4507d8ea47c6fa2bab
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 5d85b164133d235dce410cd6cbda778588fd093a
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002256"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160019"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Совместное работа с людьми за прев Организации
 

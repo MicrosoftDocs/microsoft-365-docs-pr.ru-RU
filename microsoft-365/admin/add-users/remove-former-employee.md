@@ -24,14 +24,21 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Используйте этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и защищенных данных. '
-ms.openlocfilehash: 74da58878259275d9b39849bd917f7ef35dce82b
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: d54a37575c0280ca9ad23fdd4a4b878286dde1ab
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045300"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140597"
 ---
 # <a name="remove-a-former-employee"></a>Удаление бывшего сотрудника
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
   
 ## <a name="sign-out-now"></a>Немедленный выход
 
@@ -425,7 +432,7 @@ ms.locfileid: "44045300"
   
  **Самый быстрый способ для пользователя, присутствующего в локальной среде и в центре обработки данных Exchange.** Завершите сеанс с помощью Центра администрирования Azure Active Directory или Центра администрирования Exchange И внесите это изменение в локальной среде. В противном случае изменение, внесенное в Центре администрирования Azure Active Directory или Центре администрирования Exchange, будет перезаписано средством DirSync. 
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Восстановление пользователя](restore-user.md)
   

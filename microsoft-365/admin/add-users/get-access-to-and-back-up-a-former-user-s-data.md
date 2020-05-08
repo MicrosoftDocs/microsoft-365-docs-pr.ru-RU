@@ -22,14 +22,21 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Сведения о том, как сохранить файлы сотрудника и сообщения электронной почты, когда пользователь покидает организацию.
-ms.openlocfilehash: 9f665b68f50fd9b7f41ac0a6ef4b9e29ef289d7c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f7132b927c05b8339f20b268b48847291e9c710e
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617228"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140637"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Получение доступа к данным бывшего пользователя и создание их резервной копии
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 
 Когда сотрудник покидает организацию, вам, скорее всего, потребуется получить доступ к своим данным (документам и сообщениям электронной почты) и либо просмотреть, либо создать резервную копию или передать его новому сотруднику.

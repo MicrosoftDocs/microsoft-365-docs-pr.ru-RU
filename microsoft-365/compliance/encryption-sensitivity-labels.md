@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: При создании метки конфиденциальности можно ограничить доступ к содержимому, которому будет присвоена метка. Метки конфиденциальности могут использовать шифрование для защиты содержимого.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 11a4ee93835ae39c196cf3f48fc1ae2b9baa6949
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 551223196e5870034cf7c3f69145a7b622932a99
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035923"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166040"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования 
 
@@ -377,7 +377,7 @@ ms.locfileid: "44035923"
 - Следующие действия с зашифрованными файлами не поддерживаются в приложениях Office (Windows, Mac, Android и iOS), а для пользователей отображается сообщение об ошибке. Однако в качестве альтернативы можно использовать возможности SharePoint:
     
     - Просмотр, восстановление и сохранение копий предыдущих версий. В качестве альтернативы пользователи могут выполнять эти действия с помощью Office в Интернете, если [включено и настроено управление версиями для списка или библиотеки](https://support.office.com/article/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37). 
-    - Изменение имени или расположения файлов. В качестве альтернативы пользователи могут [переименовать файл, папку или ссылку в библиотеке документов](https://support.office.com/article/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185) в SharePoint.
+    - Изменение имени или расположения файлов. В качестве альтернативы пользователи могут [переименовать файл, папку или ссылку в библиотеке документов](https://support.microsoft.com/ru-RU/office/rename-a-file-folder-or-link-in-a-document-library-bc493c1a-921f-4bc1-a7f6-985ce11bb185) в SharePoint.
 
 Для оптимальной совместной работы над файлами, зашифрованными с помощью меток конфиденциальности, рекомендуется использовать [метки конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md) и Office в Интернете. 
 

@@ -19,14 +19,21 @@ search.appverid:
 - MOE150
 ms.assetid: 286fcf0b-ffc7-4593-8073-d7a4a5dd2b45
 description: Сведения о том, как просматривать отчеты с помощью вкладок и фильтров навигации.
-ms.openlocfilehash: 3abbd2362cb6216d5dd561c7792fa41588daac66
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dedcaf52a2b5e69d53f8c41494b5fd68ac1f248b
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42355110"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140675"
 ---
 # <a name="navigate-and-utilize-the-reports-in-microsoft-365-usage-analytics"></a>Поиск и использование отчетов в аналитике использования Microsoft 365
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+
+::: moniker-end
 
 На панели мониторинга выводятся основные данные о главных показателях использования и внедрения службы. Выбрав метрики верхнего уровня, можно получить доступ к отчетам, которые предоставляют дополнительные сведения и сведения. На вкладке каждого отчета содержатся представления данных, относящиеся к аспектам использования и внедрения в вашей организации. Собранные данные объясняются в заголовке каждого отчета, и отображается плитка, содержащая дополнительные сведения об зрительных визуализациях, которые просматриваются на вкладке отчета.
 

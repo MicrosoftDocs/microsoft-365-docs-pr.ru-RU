@@ -20,12 +20,12 @@ ms.assetid: 0669bf14-414d-4f51-8231-6b710ce7980b
 ROBOTS: NOINDEX
 description: 'Узнайте, как создавать записи DNS для Office 365 под управлением 21Vianet при управлении записями DNS. '
 monikerRange: o365-21vianet
-ms.openlocfilehash: b81ab3442e7087c4b7ee9bb3b5e5c2160d724986
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: f6ba0f891bbc207bf7d56c4527760a5c8caf90b0
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212001"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155401"
 ---
 # <a name="create-dns-records-for-office-365-when-you-manage-your-dns-records"></a>Создание записей DNS для Office 365 при управлении записями DNS
 
@@ -36,8 +36,8 @@ ms.locfileid: "43212001"
       
 -  Если вы не знаете, какой поставщик услуг размещения DNS или регистратор используется для домена, см. статью [Определение регистратора домена или поставщика услуг размещения DNS](../get-help-with-domains/find-your-domain-registrar.md).     Описание действий, выполняемых DNS-записями, можно узнать в статье [основы DNS](../get-help-with-domains/dns-basics.md).
     
--  Некоторые поставщики услуг хостинга DNS не позволяют создавать все необходимые типы записей, что приводит к [ограничениям службы, когда поставщик услуг хостинга не поддерживает SRV, CNAME, txt или перенаправление](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). Если ваш поставщик не поддерживает записи SRV, TXT или CNAME, рекомендуется [передать домен](https://support.office.com/article/a6689b24-eeca-41f1-afe6-19917936b73c.aspx) [поставщику, который поддерживает все необходимые типы записей](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
+-  Некоторые поставщики услуг хостинга DNS не позволяют создавать все необходимые типы записей, что приводит к [ограничениям службы, когда поставщик услуг хостинга не поддерживает SRV, CNAME, txt или перенаправление](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). Если ваш поставщик не поддерживает записи SRV, TXT или CNAME, рекомендуется [передать домен](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/buy-a-domain-name) [поставщику, который поддерживает все необходимые типы записей](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
     
-- Чтобы узнать, какие записи DNS необходимы, и найти значения, которые необходимо использовать для каждой записи, включая запись MX для электронной почты, ознакомьтесь со статьей [сбор сведений, необходимых для создания записей DNS для Office 365](https://support.office.com/article/ffcc06d2-b50d-4072-95bb-f59013770e0e). Описание действий, выполняемых DNS-записями, можно узнать в статье [основы DNS](../get-help-with-domains/dns-basics.md).
+- Чтобы узнать, какие записи DNS необходимы, и найти значения, которые необходимо использовать для каждой записи, включая запись MX для электронной почты, ознакомьтесь со статьей [сбор сведений, необходимых для создания записей DNS для Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records). Описание действий, выполняемых DNS-записями, можно узнать в статье [основы DNS](../get-help-with-domains/dns-basics.md).
     
 

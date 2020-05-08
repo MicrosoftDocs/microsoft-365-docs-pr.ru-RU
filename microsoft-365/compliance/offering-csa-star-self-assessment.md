@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 576404aadb2328682f10f69f30e58df2cafebe54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 03f80deca7ba9a65dd47ac814d15eb5a8f764f10
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601996"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066452"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>Самостоятельная оценка Cloud Security Alliance (CSA) STAR
 
@@ -41,8 +41,6 @@ STAR обеспечивает три уровня гарантий. Самост
 ## <a name="microsoft-and-csa-star-self-assessment"></a>Майкрософт и самостоятельная оценка CSA STAR
 
 В рамках самостоятельной оценки STAR поставщики облачных служб могут предоставить два разных типа документов, чтобы продемонстрировать свое соответствие рекомендациям CSA: заполненную анкету CAIQ или отчет, демонстрирующий соответствие требованиям CCM. Для самостоятельной оценки CSA STAR корпорация Майкрософт опубликовала анкету CAIQ и отчет на основе CCM для Microsoft Azure, а также отчеты на основе CCM для Microsoft Dynamics 365 и Microsoft Office 365.  
-  
-Узнайте о преимуществах самостоятельной оценки CSA STAR в Microsoft Cloud: [скачайте информационный документ самостоятельной оценки CSA STAR](https://aka.ms/csastar-selfassessment-backgrounder).
 
 Узнайте, как ускорить выполнение самостоятельной оценки CSA STAR с помощью схемы безопасности и соответствия требованиям Azure: [скачайте ответы Azure на анкету для общей оценки CSA](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11).
 
@@ -85,8 +83,3 @@ CCM соответствует отраслевым стандартам без�
 
 - [Azure](https://aka.ms/Azure_STAR)
 - [Dynamics 365](https://aka.ms/DynamicsCRM_Online_STAR)
-
-## <a name="download-the-offering-backgrounder"></a>Скачивание информационного документа предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/C/E/7CE08DFE-86D6-4690-9455-5123DA0A7C09/CSA-STAR-SelfAssessment-Compliance.pdf).
-

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 98f84d40b475c3b07ce618dcc207005fce47e83f
-ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
+ms.openlocfilehash: f024995f63af19efa410cdb02a1f8c8d110902eb
+ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43957299"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44140995"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -81,6 +81,7 @@ ms.locfileid: "43957299"
 |Использование меток конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, группах Microsoft 365 и сайтах SharePoint (общедоступная предварительная версия)](sensitivity-labels-teams-groups-sites.md)|
 |Обнаружение, применение меток и защита файлов, хранящихся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Обнаружение, применение меток и защита файлов, хранящихся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
+|Применение и просмотр меток конфиденциальности в Power BI и защита скачанных отчетов|[Защита данных в Power BI (предварительная версия)](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |Визуализация использования меток конфиденциальности для создания отчетов о состоянии развертывания и точной настройки меток|[Просмотр использования меток с помощью аналитики меток](label-analytics.md)|
 
 
@@ -89,7 +90,7 @@ ms.locfileid: "43957299"
 Наиболее полезной документацией для пользователей будет настроенное руководство и инструкции, предоставленные в отношении имен меток и выбранных вами конфигураций. Для получения основных инструкций также см. приведенные ниже ресурсы.   
 
 - [Применение меток конфиденциальности к файлам и сообщениям электронной почты в Office](https://support.office.com/article/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-    - [Известные проблемы при использовании меток конфиденциальности в Office](https://support.office.com/en-us/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+    - [Известные проблемы при использовании меток конфиденциальности в Office](https://support.office.com/ru-RU/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 - [Автоматическое применение и рекомендации в отношении меток конфиденциальности для файлов и сообщений электронной почты в Office](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [Известные проблемы при автоматическом применении или предоставлении рекомендаций в отношении меток конфиденциальности](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)

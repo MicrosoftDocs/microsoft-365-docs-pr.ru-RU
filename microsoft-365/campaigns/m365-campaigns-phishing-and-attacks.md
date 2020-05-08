@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Защита от фишинга и других атак с помощью Microsoft 365 для кампаний.
-ms.openlocfilehash: 2b0acd42b1c272bba7078bf6bc09944540ca9e42
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6f53cc069de2d9162d81a5049128dd35064003c1
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080606"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165713"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>Защита от фишинга и других атак
 
@@ -43,7 +43,7 @@ ms.locfileid: "42080606"
 
 **Уменьшение количества нежелательных сообщений**
 
-Следуйте этим [десятьм советам по уменьшению нежелательных сообщений](https://support.office.com/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6).
+Следуйте этим [десятьм советам по уменьшению нежелательных сообщений](https://support.microsoft.com/en-us/office/10-tips-on-how-to-help-reduce-spam-55f756e8-688b-41c3-a086-8f68ccc592f6).
 
 **Сообщить!**
 
@@ -74,6 +74,6 @@ ms.locfileid: "42080606"
 ## <a name="set-it-up"></a>Настройка
 
 Узнайте больше о том, как:
-- [Храните файлы и коммуникации в Office](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f).
+- [Храните файлы и коммуникации в Office](https://support.microsoft.com/en-us/office/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f).
 - [Оставайтесь в курсе безопасности и конфиденциальности на работе](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d).
   

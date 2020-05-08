@@ -1056,8 +1056,6 @@
               href: offering-mars-e.md
             - name: NEN-7510 (Нидерланды)
               href: offering-nen-7510-netherlands.md
-            - name: Набор средств NHS IG (Соединенное Королевство)
-              href: offering-nhs-ig-toolkit-uk.md
         - name: Производство
           items:
             - name: FDA CFR Раздел 21 часть 11
@@ -1134,8 +1132,6 @@
               href: offering-mpaa.md
             - name: NBB + FSMA (Бельгия)
               href: offering-nbb-fsma-belgium.md
-            - name: Набор средств NHS IG (Соединенное Королевство)
-              href: offering-nhs-ig-toolkit-uk.md
             - name: NIST CSF
               href: offering-nist-csf.md
             - name: PCI DSS

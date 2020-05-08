@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Сведения о перемещении данных на новый бизнес-идентификатор.
-ms.openlocfilehash: 674b5e1fc8128656733b9586d9bab607df621954
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 64db403b27d661fe812acd209ca6ed8e95961125
+ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627840"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44155367"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>Перемещение электронной почты и данных в Microsoft 365 бизнес Standard
 
@@ -61,14 +61,14 @@ ms.locfileid: "43627840"
 ## <a name="outlookemail"></a>[Данные Outlook](#tab/Outlook)
   
  **Экспорт данных Outlook 2013 в файл данных Outlook**
-1. Для создания файла данных Outlook (PST) учетная запись, из которой требуется экспортировать информацию, должна быть добавлена в классической версии Outlook. Дополнительные сведения о добавлении учетной записи в Outlook 2013 или более поздней версии см. в статье [Как настроить Outlook 2013 и 2010 для работы c Office 365](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) или [Настройка электронной почты в Outlook для Mac 2011](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx).
+1. Для создания файла данных Outlook (PST) учетная запись, из которой требуется экспортировать информацию, должна быть добавлена в классической версии Outlook. Дополнительные сведения о добавлении учетной записи в Outlook 2013 или более поздней версии см. в статье [Как настроить Outlook 2013 и 2010 для работы c Office 365](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) или [Настройка электронной почты в Outlook для Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54).
     
 2. Попросите всех пользователей выполнить действия, описанные в статье [Экспорт и резервное копирование электронной почты, контактов и календаря в PST-файл Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
     
  **Настройка новой учетной записи электронной почты в Outlook**
 1. Каждый пользователь должен настроить свою новую учетную запись электронной почты, входящую в состав подписки на Microsoft 365 для бизнеса. Для этого им нужно знать адреса своих новых учетных записей. Учетная запись электронной почты каждого пользователя совпадает с именем пользователя, используемым для входа в Microsoft 365 для бизнеса. Примеры: olga@contoso.onmicrosoft.com или ivan@contoso.com.
     
-2. Попросите всех пользователей добавить свою учетную запись электронной почты в Outlook. Инструкции см. в статье [Как настроить Outlook 2013 и 2010 для работы c Office 365 (для Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) или [Настройка электронной почты в Outlook для Mac 2011](https://support.office.com/article/d7b404a0-6e18-4d95-bed8-2de7661563ca.aspx).
+2. Попросите всех пользователей добавить свою учетную запись электронной почты в Outlook. Инструкции см. в статье [Как настроить Outlook 2013 и 2010 для работы c Office 365 (для Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) или [Настройка электронной почты в Outlook для Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54).
     
  **Импорт сведений из файла данных Outlook**
 1. При этом будут объединены электронная почта, календарь, задачи и контакты, которые хранятся в PST-файле, в свою учетную запись электронной почты Microsoft 365 для бизнеса.

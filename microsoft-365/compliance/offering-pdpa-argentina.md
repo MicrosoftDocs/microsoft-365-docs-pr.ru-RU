@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f80e9ab25fda70ae723b844691dc129d0b604921
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: d4d794c05498cd40d1a844d1cb402a52f23ad0c6
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42313784"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065784"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>Закон Аргентины о защите персональных данных (PDPA)
 
@@ -62,7 +62,3 @@ PDPA соответствует европейской модели законо
 - [Заявление о конфиденциальности корпорации Майкрософт](https://privacy.microsoft.com/privacystatement)
 - [Конфиденциальность в облаке](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/0/1/7018F836-AE7C-4E98-8159-C6AA04D803CB/PDPA-Compliance.pdf).

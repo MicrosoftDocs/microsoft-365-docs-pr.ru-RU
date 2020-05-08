@@ -10,15 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-ms.custom:
 - M365solutions
+ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: d621586e5ff50bce7be68117a940fc54607362c2
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: f0c80cee878f845aa26a984e8374a911a6da120d
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011751"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159983"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Центр решений и архитектуры Microsoft 365
 
@@ -26,7 +26,7 @@ ms.locfileid: "44011751"
 
 ![](https://docs.microsoft.com/office/media/icons/blocks-blue.png) **[руководство по основам решений](foundation-solutions-overview.md)** . Эти решения позволяют получить полное руководство по определенной бизнес-проблеме или потребности. В них рассказывается об основных понятиях и функциях, а также о возможностях, которые могут привести к работоспособности конечного результата, от планирования до реализации до внедрения. 
 
-- [Повысьте эффективность работы удаленных рабочих процессов с помощью Microsoft 365](empower-people-to-work-remotely.md)
+- [Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365](empower-people-to-work-remotely.md)
 - [Настройка безопасной совместной работы с помощью Microsoft 365](setup-secure-collaboration-with-teams.md)
 - [Развертывание защиты от угроз в Microsoft 365](deploy-threat-protection.md)
 

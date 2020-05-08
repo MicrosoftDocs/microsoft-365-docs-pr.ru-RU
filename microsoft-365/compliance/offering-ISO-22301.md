@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0c3898fd808a588578cba29f7f40b8d5be183e1c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 695471d51e391957a5dfea8770cb1928dd39ee86
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602266"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065914"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 Стандарт управления непрерывностью бизнеса
 
@@ -32,8 +32,6 @@ ms.locfileid: "41602266"
 ## <a name="microsoft-and-iso-22301"></a>Microsoft и ISO 22301
 
 Microsoft является первым поставщиком гипермасштабируемых облачных служб, который получил сертификат ISO 22301 для управления непрерывностью бизнеса. Независимый сертификационный орган выдал сертификат на продукты Microsoft Azure, Microsoft Azure для государственных организаций, Microsoft Office 365 (включая предложения для коммерческих, государственных и образовательных учреждений), Microsoft Cloud App Security, Microsoft Intune и Microsoft Power BI после строгой проверки, которая охватывала все аспекты их процесса непрерывности бизнеса. Проверка охватывала перечисленные ниже в списке соответствующие службы, а также функции управления Azure, портал Azure и системы, используемые для мониторинга, эксплуатации и обновления включенных служб.
-
-Узнайте о преимуществах стандарта ISO/IEC 22301 в Microsoft Cloud: [скачайте документ предложения ISO/IEC 22301](https://aka.ms/iso22301-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
@@ -79,7 +77,3 @@ ISO 22301 - это сертификация, используемая предп
 - [Описание программы по обеспечению управления непрерывностью бизнеса, предоставляемое корпорацией Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2092212)
 - [Рейтинг соответствия требованиям](compliance-score.md)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/0/0/9/009B2F34-96F6-4D85-8BDC-238B91A2C6EE/ISO-22301-Compliance.pdf ).

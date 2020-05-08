@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1ed1703ac30a9c7c8392ad61ec0d126d1e17c17e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f58baecce1d1972c7aee1fdb7121375d5ddd111c
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602476"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066412"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>Соглашения о правилах обмена конфиденциальной информацией между ЕС и США и между Швейцарией и США
 
@@ -82,7 +82,7 @@ ms.locfileid: "41602476"
 
 **Каким образом корпорация Майкрософт обрабатывает жалобы в рамках соглашения о правилах обмена конфиденциальной информацией между ЕС и США и между Швейцарией и США?**
 
-Если у вас есть жалоба, связанная с соглашением о правилах обмена конфиденциальной информацией, сообщите нам об этом в разделе [Контактные сведения](https://privacy.microsoft.com/PrivacyStatement#mainhowtocontactusmodule) [Заявления о конфиденциальности корпорации Майкрософт](https://privacy.microsoft.com/privacystatement). По любым жалобам, которые вы не можете урегулировать непосредственно с корпорацией Майкрософт, мы сотрудничаем с органами по защите данных ЕС и следуем предоставляемым ими рекомендациям. Свяжитесь с нами, чтобы обратиться к соответствующим контактным лицам в органах по защите данных. Как более подробно объясняется в [принципах защиты конфиденциальности](https://www.privacyshield.gov/article?id=Requirements-of-Participation), вы можете воспользоваться преимуществом обязательного арбитража для рассмотрения жалоб, не разрешенных другими способами.
+Если у вас есть жалоба, связанная с соглашением о правилах обмена конфиденциальной информацией, сообщите нам об этом в разделе [Контактные сведения](https://privacy.microsoft.com/privacystatement#mainhowtocontactusmodule) [Заявления о конфиденциальности корпорации Майкрософт](https://privacy.microsoft.com/privacystatement). По любым жалобам, которые вы не можете урегулировать непосредственно с корпорацией Майкрософт, мы сотрудничаем с органами по защите данных ЕС и следуем предоставляемым ими рекомендациям. Свяжитесь с нами, чтобы обратиться к соответствующим контактным лицам в органах по защите данных. Как более подробно объясняется в [принципах защиты конфиденциальности](https://www.privacyshield.gov/article?id=Requirements-of-Participation), вы можете воспользоваться преимуществом обязательного арбитража для рассмотрения жалоб, не разрешенных другими способами.
 
 ## <a name="resources"></a>Ресурсы
 
@@ -92,7 +92,3 @@ ms.locfileid: "41602476"
 - [Правила обеспечения конфиденциальности корпорации Майкрософт](https://privacy.microsoft.com)
 - [Конфиденциальность в облаке](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/3/F/4/3F4C5C35-6653-4E9B-8C4F-917B1064F537/PrivacyShield-Compliance.pdf).

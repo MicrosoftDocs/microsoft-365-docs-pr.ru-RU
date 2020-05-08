@@ -19,16 +19,16 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Узнайте больше о записи CNAME "MSOID" в Office 365, которая направляет вас на лучший сервер для процессов проверки подлинности, чтобы вы могли быстрее отреагировать на них.
 monikerRange: o365-21vianet
-ms.openlocfilehash: f5369b8a723c60691da0e73f2bd8cc32233abbcd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: a7c59829419ac8e7db400b079681ccf5bff199d6
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212225"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053852"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Зачем нужна запись CNAME в Office 365 для MSOID?
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
 > [!NOTE]
 > Следующий пример относится только к * * Office 365 под управлением 21Vianet.
   
@@ -40,7 +40,7 @@ ms.locfileid: "43212225"
   
  **Если Office 365 управляет записями DNS вашего домена,** Office 365 настраивает эту запись CNAME. 
   
- **Если вы управляете записями DNS для своего домена на узле DNS,** вы самостоятельно создадите эту запись, [следуя инструкциям для узла DNS](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx).
+ **Если вы управляете записями DNS для своего домена на узле DNS,** вы самостоятельно создадите эту запись, [следуя инструкциям для узла DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
   
 Если вы планируете развертывание Office 365 и хотите узнать больше о всех записях DNS, которые может потребоваться добавить или обновить, ознакомьтесь со сведениями о них в [справочной системе: внешние DNS-записи службы доменных имен для Office 365](https://go.microsoft.com/fwlink/?LinkId=579013).
   

@@ -513,14 +513,7 @@
                 - name: Создание сайтов групп в среде разработки и тестирования для политической кампании
                   href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
             - name: Защита файлов в Microsoft Teams
-              href: ./office-365-security/secure-files-in-teams.md
               items:
-                - name: Развертывание команд с тремя уровнями защиты файлов
-                  href: ./office-365-security/deploy-teams-three-tiers.md
-                - name: Защита файлов в командах с помощью меток хранения и политики защиты от потери данных
-                  href: ./office-365-security/deploy-teams-retention-DLP.md
-                - name: Защита файлов в командах с помощью меток конфиденциальности
-                  href: ./office-365-security/deploy-teams-sensitivity-labels.md
                 - name: Защита файлов в среде разработки и тестирования в Teams
                   href: ./office-365-security/secure-team-for-files-in-a-dev-test-environment.md
             - name: "Защита сайтов SharePoint\_Online в среде разработки и тестирования"
