@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b62e40ce317bc5a6bc817e5eade5b476542c5f04
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ac5a027225ce0f7c4c719ba3a897f5bc6f5629d5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602176"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065650"
 ---
 # <a name="minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>Инфраструктура минимальных приемлемых стандартов риска для бирж медицинского страхования (MARS-E) 2.0 
 
@@ -34,8 +34,6 @@ ms.locfileid: "41602176"
 ## <a name="microsoft-and-mars-e-20-framework"></a>Майкрософт и инфраструктура MARS-E 2.0
 
 В настоящее время не существует формального процесса авторизации и аккредитации для MARS-E. Тем не менее, службы платформы Microsoft Azure прошли независимый аудит в рамках FedRAMP с умеренным уровнем влияния рисков, а Azure для государственных организаций — с высоким уровнем. Они авторизованы в соответствии со стандартами FedRAMP. Хотя эти стандарты не предназначены специально для MARS-E, требования к управлению и цели MARS-E тесно связаны с ними и обеспечивают конфиденциальность, целостность и доступность данных в Azure.
-
-Подробнее о преимуществах инфраструктуры MARS-E 2.0 в Microsoft Cloud: [загрузите информационный документ MARS-E](https://aka.ms/mars-e-backgrounder).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
@@ -72,7 +70,3 @@ ms.locfileid: "41602176"
 - [Инфраструктура соответствия Майкрософт требованиям для веб-служб (технический документ)](https://aka.ms/compliance-framework)
 - [Условия использования веб-служб Майкрософт](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/7/C/2/7C2690A7-19CC-4EED-A47A-B43CC418790A/MARS-E-Compliance.pdf).
