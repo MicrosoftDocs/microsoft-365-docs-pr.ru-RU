@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 31c67d9beb0a99019ceb204293de50c194a3d2a6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f80167a45379a143d7a96e568aedbc27484090a4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602496"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064718"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>Меры безопасности высокого уровня согласно испанскому стандарту Esquema Nacional de Seguridad (ENS)
 
@@ -38,8 +38,6 @@ ms.locfileid: "41602496"
 ## <a name="microsoft-and-spain-ens-high-level-security-measures"></a>Майкрософт и меры безопасности высокого уровня согласно испанскому стандарту ENS
 
 Microsoft Azure и Microsoft Office 365 прошли строгую оценку компании BDO — независимого аудитора, который опубликовал официальное подтверждение их соответствия требованиям. Она сообщает, что меры безопасности в обеих службах, а также в их информационных системах и центрах обработки данных соответствуют стандарту RD 3/2010 на высоком уровне и не требуют какой-либо коррекции. Корпорация Майкрософт стала первым поставщиком гипермасштабируемых облачных служб в Испании, получившим этот сертификат.
-
-Узнайте о преимуществах мер безопасности высокого уровня согласно испанскому стандарту ENS в Microsoft Cloud: [скачайте информационный документ по испанскому стандарту ENS](https://aka.ms/spainens-backgrounder).
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
@@ -79,7 +77,3 @@ Microsoft Azure и Microsoft Office 365 прошли строгую оценк�
 - Esquema Nacional de Seguridad of Spain (на [испанском](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/pae_Esquema_Nacional_de_Seguridad.html?idioma=sp#.Vwxp82mcGM8) и [английском](https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Seguridad_Inicio/pae_Esquema_Nacional_de_Seguridad.html?idioma=en#.VwvcgmmcGM9) языке)
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>Загрузить информационный документ предложения
-
-Нужен информационный документ для этого предложения? Скачайте [PDF-файл](https://download.microsoft.com/download/2/3/2/23208181-BA86-4011-8B4A-3CA7E8E383A1/ENS-Spain-Compliance.pdf).

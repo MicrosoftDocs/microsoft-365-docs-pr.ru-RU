@@ -21,12 +21,12 @@ ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 ms.custom:
 - seo-marvel-apr2020
 description: Воспользуйтесь средством поиска контента в центре соответствия требованиям в Office 365 или Microsoft 365 для поиска содержимого в различных службах Office 365.
-ms.openlocfilehash: e16b369c2844f75673ac4f6eee1cb3b8f4fdfab4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b2120ed131af48defb87af80e8b38c55dc0a0422
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035507"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44166110"
 ---
 # <a name="content-search"></a>Поиск контента
 
@@ -237,7 +237,7 @@ ms.locfileid: "44035507"
   
 ### <a name="searching-onedrive-accounts"></a>Поиск в учетных записях OneDrive
 
-- Чтобы собрать список URL-адресов сайтов OneDrive в организации, см. статью [Создание списка всех расположений OneDrive в организации](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)/ Скрипт в этой статье создает текстовый файл, содержащий список всех сайтов OneDrive. Чтобы запустить этот скрипт, требуется установить и использовать командную консоль SharePoint Online. Не забудьте добавить URL-адрес домена личного сайта вашей организации к каждому сайту OneDrive, на котором нужно выполнить поиск. Это домен, содержащий все хранилище OneDrive. Пример: `https://contoso-my.sharepoint.com`. Вот пример URL-адреса для сайта OneDrive пользователя: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
+- Чтобы собрать список URL-адресов сайтов OneDrive в организации, см. статью [Создание списка всех расположений OneDrive в организации](https://docs.microsoft.com/onedrive/list-onedrive-urls)/ Скрипт в этой статье создает текстовый файл, содержащий список всех сайтов OneDrive. Чтобы запустить этот скрипт, требуется установить и использовать командную консоль SharePoint Online. Не забудьте добавить URL-адрес домена личного сайта вашей организации к каждому сайту OneDrive, на котором нужно выполнить поиск. Это домен, содержащий все хранилище OneDrive. Пример: `https://contoso-my.sharepoint.com`. Вот пример URL-адреса для сайта OneDrive пользователя: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.
     
     В редких случаях, когда имя участника-пользователя (UPN) изменено, URL-адрес его расположения OneDrive изменяется с учетом нового имени участника-пользователя. В этом случае требуется изменить поиск контента, добавив новый URL-адрес OneDrive пользователя и удалив старый. Дополнительные сведения см. в разделе [Как изменения UPN влияют на URL-адрес OneDrive](https://docs.microsoft.com/onedrive/upn-changes).
   

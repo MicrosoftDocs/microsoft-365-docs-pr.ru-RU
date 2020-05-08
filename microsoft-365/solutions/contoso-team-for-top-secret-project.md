@@ -12,15 +12,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- M365solutions
 ms.custom: Ent_Architecture
 description: Сводка. сведения о том, как компания Contoso использовала группу с изоляцией безопасности для проекта верхнего уровня, чтобы разработать новый набор продуктов и служб.
-ms.openlocfilehash: 2da51890001a2890b2d65bc6b71537b51c335eb4
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 1083c9d3db3be9ca528b2eee40f072aa17c7431e
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003215"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159459"
 ---
 # <a name="isolated-team-for-a-top-secret-project-of-the-contoso-corporation"></a>Изолированная группа для верхнего уровня секретного проекта корпорации Contoso
 
@@ -89,7 +91,7 @@ ms.locfileid: "44003215"
 
 Из-за среды совместной работы Teams и функций безопасности Microsoft 365 сведения о проекте 2X хранятся в секрете в течение проекта. Компания Contoso объявила о своих планах и в процессе развертывания новых продуктов и служб в сведения своих клиентов и инвесторов и Чагрин конкурентов.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [Развертывание группы с изоляцией безопасности](secure-teams-security-isolation.md) в Организации.
 

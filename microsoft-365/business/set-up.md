@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: В этой статье приведены инструкции по настройке Microsoft 365 Business Premium, в том числе добавление домена и пользователей, Настройка политик безопасности и многое другое.
-ms.openlocfilehash: cfc8523fe88ebca6b8c03db0ad0f6caeba662923
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 03f446f790a664af85cc630048bc022d88b6e54f
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048041"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165777"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
 
@@ -42,7 +42,7 @@ ms.locfileid: "44048041"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Добавление домена, пользователей и Настройка политик
 
@@ -97,7 +97,7 @@ ms.locfileid: "44048041"
   
 Для настройки служб вам необходимо обновить некоторые записи узла DNS или регистратора доменных имен.
   
-1. Мастер настройки обычно определяет регистратора и предоставляет ссылку на пошаговые инструкции по обновлению записей NS на его сайте. Если это не так, [измените серверов доменных имен, чтобы настроить Office 365 для любого регистратора доменных](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2)имен. 
+1. Мастер настройки обычно определяет регистратора и предоставляет ссылку на пошаговые инструкции по обновлению записей NS на его сайте. Если это не так, [измените серверов доменных имен, чтобы настроить Office 365 для любого регистратора доменных](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar)имен. 
 
     - Если у вас есть существующие записи DNS, например существующий веб-сайт, но ваш узел DNS включен для [подключения к домену](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), нажмите кнопку **добавить записи**. На странице " **Выбор веб-служб** " примите все параметры по умолчанию и нажмите кнопку **Далее**, а затем — кнопку **авторизовать** на странице узла DNS.
     - Если у вас есть существующие записи DNS с другими узлами DNS (не включены для подключения к домену), вам потребуется управлять собственными записями DNS, чтобы убедиться, что существующие службы остаются подключенными. Более подробную информацию можно узнать в разделе [domain основы доменов](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
