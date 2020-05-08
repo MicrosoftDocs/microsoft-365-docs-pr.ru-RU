@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cdbd14ebd71964728282f5cff2e20f87f5a4a4a0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 548b331a8ee26434f53b9960fd355feacd45dfde
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633434"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066322"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -43,9 +43,7 @@ ms.locfileid: "43633434"
 
 Корпорация Майкрософт получили отчеты SOC 1 (тип 2), SOC 2 (тип 2) и SOC 3. Обычно доступ к отчетам SOC 1 и SOC 2 предоставляется только клиентам, подписавшим соглашение о неразглашении с Майкрософт, а отчет SOC 3 общедоступен.
 
-Узнайте о преимуществах SOC 1, 2, 3 в Microsoft Cloud: [скачайте информационный документ для отчетов SOC 1 и SOC 2 (тип 2)](https://aka.ms/soc_backgrounder)
-
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 ### <a name="covered-services-for-soc-1-and-soc-2"></a>Поддерживаемые службы для SOC 1 и SOC 2
 

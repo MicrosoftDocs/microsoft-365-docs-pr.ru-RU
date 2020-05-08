@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Узнайте, как получить доступ к локальным ресурсам, таким как бизнес-приложения, общие файловые ресурсы и принтеры из Azure Active Directory, подключенной к устройству Windows 10.
-ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 980efbf09349cc0203ac50ae5e028c008d5694ca
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627461"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165908"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Доступ к локальным ресурсам из устройства, подключенного к Azure AD, в Microsoft 365 бизнес премиум
 
@@ -41,7 +41,7 @@ ms.locfileid: "43627461"
 
 Выполните следующие действия, чтобы разрешить подключенным устройствам Azure AD в организации получать доступ к локальным ресурсам.
   
-1. Чтобы синхронизировать пользователей, группы и контакты из локальной службы Active Directory с Azure Active Directory, запустите мастер синхронизации каталогов и Azure AD Connect, как описано в статье [Настройка синхронизации каталогов для Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).
+1. Чтобы синхронизировать пользователей, группы и контакты из локальной службы Active Directory с Azure Active Directory, запустите мастер синхронизации каталогов и Azure AD Connect, как описано в статье [Настройка синхронизации каталогов для Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization).
     
 2. По завершении синхронизации службы каталогов убедитесь, что устройства Windows 10 в вашей организации присоединены к Azure AD. Этот шаг выполняется отдельно для каждого устройства с Windows 10. Для получения дополнительных сведений см. раздел [Настройка устройств Windows для пользователей Microsoft 365 Business Premium](set-up-windows-devices.md) . 
     

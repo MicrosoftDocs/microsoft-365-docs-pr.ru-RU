@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Обзор программы установки для Microsoft 365 для кампаний
-ms.openlocfilehash: 0fa804c46ac3545a7f2d30ffe80b148262cc23cc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 463d7cebf88ea830048c25e2781eac4aa379e30a
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632759"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165701"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>Настройка Microsoft 365 для кампаний
 
@@ -62,6 +62,6 @@ ms.locfileid: "43632759"
 
  **Если вам нужно обратиться в службу поддержки:**
   
-Как администратор Майкрософт 365, у вас есть доступ к группе поддержки клиентов, ** [обратитесь в службу поддержки для бизнеса: Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+Как администратор Майкрософт 365, у вас есть доступ к группе поддержки клиентов, ** [обратитесь в службу поддержки для бизнеса: Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**
     
 
