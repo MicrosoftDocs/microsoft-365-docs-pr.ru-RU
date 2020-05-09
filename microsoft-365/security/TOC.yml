@@ -180,7 +180,9 @@
                       href: mtp/custom-detection-rules.md
             - name: Оценка безопасности
               items:
-                - name: Оценка безопасности
+                - name: Оценка безопасности (новая)
+                  href: mtp/microsoft-secure-score-new.md
+                - name: Безопасная оценка (предыдущая итерация)
                   href: mtp/microsoft-secure-score.md
                 - name: Оценка безопасности (предварительная версия)
                   href: mtp/microsoft-secure-score-preview.md
