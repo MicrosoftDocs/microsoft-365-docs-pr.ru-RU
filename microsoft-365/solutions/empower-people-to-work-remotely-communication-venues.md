@@ -1,5 +1,5 @@
 ---
-title: '# Этап 5. Создание коммуникационных разделов, посвященных кризису, связанному с COVID-19'
+title: Этап 5. Создание коммуникационных разделов, посвященных кризису, связанному с COVID-19
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,14 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
+- M365solutions
 ms.custom: ''
 description: Используйте Microsoft 365 для создания различных способов размещения внутренних и общедоступных новостей о COVID-19.
-ms.openlocfilehash: 189e0bde959ee8ad245b03cb5aca42ab6b19a0b3
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 686cfa12d76bf4122ebe4ae22a49da938322fee9
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003066"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160814"
 ---
 # <a name="step-5-create-covid-19-crisis-communication-venues"></a>Этап 5. Создание коммуникационных разделов, посвященных кризису, связанному с COVID-19
 
@@ -31,6 +32,8 @@ ms.locfileid: "44003066"
 - Обобщение новостей о здравоохранении на одном портале
 - Информационный сайт в SharePoint Online
 - Сообщество Yammer
+
+![Площадки для коммуникации в условиях кризиса, вызванного COVID-19](../media/empower-people-to-work-remotely/comm-venues-grid.png)
 
 ## <a name="employee-surveys"></a>Опросы сотрудников
 

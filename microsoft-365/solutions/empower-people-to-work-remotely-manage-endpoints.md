@@ -1,5 +1,5 @@
 ---
-title: 3. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
+title: Шаг 3. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -14,17 +14,17 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-ms.custom:
 - M365solutions
+ms.custom: ''
 description: Используйте Microsoft Endpoint Manager для управления устройствами, компьютерами и другими конечными точками.
-ms.openlocfilehash: 2a5b047aabb95d0b60c46fe3bec339e723adee0e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 388ac2b7f9f4a31d33c1f4551e215b2b32c8f85f
+ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049586"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44160802"
 ---
-# <a name="3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>3. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
+# <a name="step-3-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Шаг 3. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
 
 При наличии удаленных сотрудников вам потребуется поддерживать растущее количество личных устройств. Управление конечными точками — это основанный на политике подход к безопасности, требующий соответствия устройств определенным условиям, прежде чем им будет предоставлен доступ к ресурсам. Microsoft Endpoint Manager обеспечивает современное рабочее пространство и современные возможности управления для защиты ваших данных в облачной и локальной среде. 
 
