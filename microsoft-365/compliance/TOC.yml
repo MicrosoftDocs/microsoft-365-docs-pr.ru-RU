@@ -247,15 +247,15 @@
       items:
         - name: Обзор архивации сторонних данных
           href: archiving-third-party-data.md
-        - name: Настройка соединителя для архивации данных Facebook
+        - name: Архивация данных Facebook (предварительная версия)
           href: archive-facebook-data-with-sample-connector.md
-        - name: Настройка соединителя для архивации данных Twitter
+        - name: Архивация данных Twitter (предварительная версия)
           href: archive-twitter-data-with-sample-connector.md
-        - name: Настройка соединителя для архивации данных LinkedIn
+        - name: Архивация данных LinkedIn
           href: archive-linkedin-data.md
-        - name: Настройка соединителя для архивации данных Instant Bloomberg
+        - name: Архивация данных Instant Bloomberg
           href: archive-instant-bloomberg-data.md
-        - name: Настройка соединителя для импорта данных о персонале
+        - name: Импорт данных отдела кадров (предварительная версия)
           href: import-hr-data.md
         - name: Архивация сторонних данных при помощи партнера
           href: work-with-partner-to-archive-third-party-data.md
