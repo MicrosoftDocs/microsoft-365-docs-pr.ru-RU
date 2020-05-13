@@ -196,6 +196,8 @@
           href: manage/centralized-deployment-of-add-ins.md
         - name: Установка надстроек и управление ими с помощью централизованного развертывания
           href: manage/manage-deployment-of-add-ins.md
+        - name: Вопросы и ответы о централизованном развертывании
+          href: manage/centralized-deployment-faq.md
         - name: Поиск партнера или торгового посредника
           href: manage/find-your-partner-or-reseller.md
         - name: Сведения о Центре сообщений

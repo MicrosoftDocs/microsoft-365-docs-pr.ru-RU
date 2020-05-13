@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f336c9ef2957374223a8f0d7b64f892c87e1169d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0512d51f2789383c7612c3dbd97c0a77c2c4c7fa
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631553"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214666"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -121,7 +121,7 @@ Azure AD предоставляет полный набор возможност
 В этом руководстве показано, как реализовать набор политик для защиты доступа к Office 365, включая Exchange Online, SharePoint Online и OneDrive для бизнеса. Кроме реализации этих политик, мы рекомендуем также повысить уровень защиты клиента, используя следующие ресурсы:
 
 - [Настройте клиент для повышения безопасности](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): эти рекомендации применимы к базовой безопасности клиента.
-- [План обеспечения безопасности Microsoft 365: основные приоритеты для первых 30 дней, 90 дней и](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)более ранних: эти рекомендации включают ведение журнала, управление данными, административный доступ и защиту от угроз.
+- [План обеспечения безопасности Microsoft 365: основные приоритеты для первых 30 дней, 90 дней и](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)более ранних: эти рекомендации включают ведение журнала, управление данными, административный доступ и защиту от угроз.
 
 
 ### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 и приложения Microsoft 365 для предприятий

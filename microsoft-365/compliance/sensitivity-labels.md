@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте метки конфиденциальности с платформы Microsoft Information Protection, чтобы классифицировать и защищать данные вашей организации, при этом следя за тем, чтобы не пострадали производительность пользователей и их способность к сотрудничеству. Эти метки могут применять параметры защиты, которые включают визуальную маркировку шифрования, такую как нижние колонтитулы и водяные знаки.
-ms.openlocfilehash: b09a107c6b03743eeaddf86e812cc747482d2eb4
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 418a52a8a9798fa0e08a6a2d4951fe91e0685c1a
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022157"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213287"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Сведения о метках конфиденциальности
 
@@ -89,7 +89,7 @@ ms.locfileid: "44022157"
     
     ![Подложка и верхний колонтитул, примененные к документу](../media/Sensitivity-label-watermark-header.png)
     
-    Необходимо проверять, когда применяются маркировки содержимого? Дополнительные сведения см. в разделе [Когда Microsoft 365 применяет маркировку и шифрование содержимого](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption).
+    Необходимо проверять, когда применяются маркировки содержимого? См. [Когда приложения Office применяют маркировку содержимого и шифрование](sensitivity-labels-office-apps.md#when-office-apps-apply-content-marking-and-encryption).
     
     Длина строк: Длина водяных знаков не должна превышать 255 символов. Колонтитулы ограничиваются 1024 знаками за исключением приложения Excel. В Excel общее ограничение для колонтитулов составляет 255 знаков, но оно включает невидимые знаки, например коды форматирования. При достижении этого ограничения введенная строка не отображается в Excel.
 

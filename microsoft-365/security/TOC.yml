@@ -124,38 +124,32 @@
                   items:
                     - name: Сведения о схеме
                       href: mtp/advanced-hunting-schema-tables.md
-                    - name: AlertInfo
-                      href: mtp/advanced-hunting-alertinfo-table.md
                     - name: AlertEvidence
                       href: mtp/advanced-hunting-alertevidence-table.md
-                    - name: AccountInfo
-                      href: mtp/advanced-hunting-accountinfo-table.md
-                    - name: EmailEvents
-                      href: mtp/advanced-hunting-emailevents-table.md
-                    - name: EmailAttachmentInfo
-                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
-                    - name: EmailUrlInfo
-                      href: mtp/advanced-hunting-emailurlinfo-table.md
-                    - name: DeviceInfo
-                      href: mtp/advanced-hunting-deviceinfo-table.md
-                    - name: DeviceNetworkInfo
-                      href: mtp/advanced-hunting-devicenetworkinfo-table.md
-                    - name: DeviceProcessEvents
-                      href: mtp/advanced-hunting-deviceprocessevents-table.md
-                    - name: DeviceNetworkEvents
-                      href: mtp/advanced-hunting-devicenetworkevents-table.md
-                    - name: DeviceFileEvents
-                      href: mtp/advanced-hunting-devicefileevents-table.md
-                    - name: DeviceRegistryEvents
-                      href: mtp/advanced-hunting-deviceregistryevents-table.md
-                    - name: DeviceLogonEvents
-                      href: mtp/advanced-hunting-devicelogonevents-table.md
-                    - name: DeviceImageLoadEvents
-                      href: mtp/advanced-hunting-deviceimageloadevents-table.md
+                    - name: AlertInfo
+                      href: mtp/advanced-hunting-alertinfo-table.md
+                    - name: AppFileEvents
+                      href: mtp/advanced-hunting-appfileevents-table.md
                     - name: DeviceEvents
                       href: mtp/advanced-hunting-deviceevents-table.md
                     - name: DeviceFileCertificateInfo
                       href: mtp/advanced-hunting-devicefilecertificateinfo-table.md
+                    - name: DeviceFileEvents
+                      href: mtp/advanced-hunting-devicefileevents-table.md
+                    - name: DeviceImageLoadEvents
+                      href: mtp/advanced-hunting-deviceimageloadevents-table.md
+                    - name: DeviceInfo
+                      href: mtp/advanced-hunting-deviceinfo-table.md
+                    - name: DeviceLogonEvents
+                      href: mtp/advanced-hunting-devicelogonevents-table.md
+                    - name: DeviceNetworkEvents
+                      href: mtp/advanced-hunting-devicenetworkevents-table.md
+                    - name: DeviceNetworkInfo
+                      href: mtp/advanced-hunting-devicenetworkinfo-table.md
+                    - name: DeviceProcessEvents
+                      href: mtp/advanced-hunting-deviceprocessevents-table.md
+                    - name: DeviceRegistryEvents
+                      href: mtp/advanced-hunting-deviceregistryevents-table.md
                     - name: DeviceTvmSecureConfigurationAssessment
                       href: mtp/advanced-hunting-tvm-configassessment-table.md
                     - name: DeviceTvmSecureConfigurationAssessmentKB
@@ -164,8 +158,14 @@
                       href: mtp/advanced-hunting-tvm-softwareinventory-table.md
                     - name: DeviceTvmSoftwareVulnerabilitiesKB
                       href: mtp/advanced-hunting-tvm-softwarevulnerability-table.md
-                    - name: AppFileEvents
-                      href: mtp/advanced-hunting-appfileevents-table.md
+                    - name: EmailAttachmentInfo
+                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
+                    - name: EmailEvents
+                      href: mtp/advanced-hunting-emailevents-table.md
+                    - name: EmailUrlInfo
+                      href: mtp/advanced-hunting-emailurlinfo-table.md
+                    - name: IdentityInfo
+                      href: mtp/advanced-hunting-identityinfo-table.md
                     - name: IdentityLogonEvents
                       href: mtp/advanced-hunting-identitylogonevents-table.md
                     - name: IdentityQueryEvents
@@ -207,7 +207,7 @@
                 - name: Установка часового пояса
                   href: mtp/mtp-time-zone.md
             - name: Просмотр профилей устройств
-              href: 'mtp:/device-profile.md'
+              href: mtp/device-profile.md
             - name: Оставить отзыв
               href: mtp/feedback.md
             - name: Управление билетами с помощью ServiceNow
@@ -375,15 +375,6 @@
                       href: ./office-365-security/download-existing-reports.md
                 - name: Просмотр сведений о вредоносных файлах
                   href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
-            - name: Что такое EOP?
-              href: ./office-365-security/what-is-eop.md
-              items:
-                - name: Блокирование нежелательной почты в изолированной службе EOP
-                  href: ./office-365-security/block-email-spam-in-EOPStandalone.md
-                - name: Защита локальных почтовых ящиков с помощью Exchange Online Protection
-                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
-                - name: Настройка автономной системы EOP для доставки спама в папку нежелательной почты
-                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Расширенная защита от угроз
           href: ./office-365-security/office-365-atp.md
           items:
@@ -523,14 +514,17 @@
               items: null
             - name: Интеграция сервера SIEM
               href: ./office-365-security/siem-server-integration.md
-            - name: Exchange Online Protection
+            - name: Обзор Exchange Online Protection
               href: ./office-365-security/exchange-online-protection-overview.md
               items:
                 - name: Функции EOP
                   href: ./office-365-security/eop-features.md
-                - name: Разрешения на функции в службе EOP
+                - name: Разрешения в автономном EOP
                   href: ./office-365-security/feature-permissions-in-eop.md
-                - name: Центр администрирования Exchange в Exchange Online Protection
+                  items:
+                    - name: Управление ролевыми группами в автономном EOP
+                      href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
+                - name: Центр администрирования Exchange в автономном EOP
                   href: ./office-365-security/exchange-admin-center-in-exchange-online-protection-eop.md
                 - name: Настройка службы EOP
                   href: ./office-365-security/set-up-your-eop-service.md
@@ -543,46 +537,40 @@
                       href: ./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md
                     - name: Перемещение доменов и настроек из одной организации EOP в другую
                       href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
-                    - name: 'Переход на EOP с Google Postini, Barracuda Spam and Virus Firewall или Cisco IronPort'
+                    - name: 'Переход на EOP с Google Postini, Barracuda Spam и Virus Firewall или Cisco IronPort'
                       href: ./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
-                    - name: Подложные уведомления о недоставленном сообщении и EOP
+                    - name: Обратное рассеяние в EOP
                       href: ./office-365-security/backscatter-messages-and-eop.md
-                - name: Политика обмена сообщениями и соответствие требованиям в службе EOP
-                  href: ./office-365-security/messaging-policy-and-compliance-in-eop.md
+                - name: Аудиторские отчеты в автономном EOP
+                  href: ./office-365-security/auditing-reports-in-eop.md
                   items:
-                    - name: Отчеты аудита в EOP
-                      href: ./office-365-security/auditing-reports-in-eop.md
-                    - name: Создание отчета о группе ролей администраторов в EOP
+                    - name: Запустите отчет группы ролей администратора в автономном EOP
                       href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
-                - name: Управление получателями и группами ролей администратора в EOP
-                  href: ./office-365-security/manage-recipients-and-admin-role-groups-in-eop.md
+                    - name: Просмотр журнала аудита администратора в автономном EOP
+                      href: ./office-365-security/view-the-admin-audit-log-eop.md
+                - name: Управление получателями в автономном EOP
+                  href: ./office-365-security/manage-recipients-in-eop.md
                   items:
-                    - name: Управление получателями в EOP
-                      href: ./office-365-security/manage-recipients-in-eop.md
-                    - name: Управление почтовыми пользователями в EOP
+                    - name: Управление пользователями почты в автономном EOP
                       href: ./office-365-security/manage-mail-users-in-eop.md
-                    - name: Управление группами в EOP
+                    - name: Управление группами в автономном EOP
                       href: ./office-365-security/manage-groups-in-eop.md
-                    - name: Управление разрешениями группы ролей администраторов в EOP
-                      href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
                 - name: Поток обработки почты в службе EOP
                   href: ./office-365-security/mail-flow-in-eop.md
                   items:
-                    - name: 'Как помочь гарантировать, что сообщение не будет помечено как спам'
-                      href: ./office-365-security/how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md
-                    - name: Правила потока обработки почты (правила транспорта)
+                    - name: Правила потока почты (правила транспорта) в автономном EOP
                       href: ./office-365-security/mail-flow-rules-transport-rules-0.md
-                    - name: Использование правил потока обработки почты для массовой фильтрации почтовых сообщений
+                    - name: Используйте правила потока почты для фильтрации массовой почты в EOP
                       href: ./office-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
-                    - name: Устранение угроз вредоносного ПО с помощью блокирования вложенных файлов
+                    - name: Используйте правила потока почты для блокировки сообщений с исполняемыми вложениями в EOP
                       href: ./office-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
-                    - name: Отчеты и трассировка сообщений
+                    - name: Отчеты и трассировка сообщений в автономном EOP
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
-                    - name: Логика потока обработки почты в Office 365
+                    - name: Логика обмена корреспонденцией почты в EOP
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
                 - name: Устранение неполадок и поддержка EOP
                   items:
-                    - name: "Устранение неполадок с отправкой почты в Office\_365"
+                    - name: 'Письмо с устранением неполадок, отправленное в Microsoft 365'
                       href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
                     - name: Справка и поддержка для EOP
                       href: ./office-365-security/help-and-support-for-eop.md
@@ -599,6 +587,10 @@
                       href: ./office-365-security/sending-mail-to-office-365.md
                     - name: 'Службы для лиц, не являющихся клиентами'
                       href: ./office-365-security/services-for-non-customers.md
+                - name: Защита локальных почтовых ящиков в Китае с помощью автономного EOP
+                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
+                - name: Настройка автономной системы EOP для доставки спама в папку нежелательной почты
+                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
         - name: Устаревшие возможности защиты
           items:
             - name: S/MIME;
