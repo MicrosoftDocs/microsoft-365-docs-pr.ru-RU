@@ -2,8 +2,8 @@
 title: Заголовки сообщений по защите от нежелательной почты
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -14,18 +14,18 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: Сведения о полях заголовков, добавляемых службой Exchange Online Protection в сообщения для предоставления информации о сообщении и способе его обработки.
+description: Сведения для администраторов о полях заголовков, добавляемых в сообщения службой Exchange Online Protection (EOP) для предоставления информации о сообщении и способе его обработки.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7f86b5ffa02b6f84c10ab2300f913b5f03726713
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: d63d173b90ffd868cfbeac212f2c9d5a6ee125c6
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173408"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208226"
 ---
-# <a name="anti-spam-message-headers"></a>Заголовки сообщений по защите от нежелательной почты
+# <a name="anti-spam-message-headers-in-microsoft-365"></a>Заголовки сообщений о защите от нежелательной почты в Microsoft 365
 
-Когда служба Exchange Online Protection (EOP) сканирует входящие электронные сообщения, она вставляет заголовок **X-Forefront-Antispam-Report** в каждое из них. Поля в этом заголовке могут предоставить администраторам информацию о сообщении и его обработке. Поля заголовка **X-Microsoft-Antispam** предоставляют дополнительные сведения о массовой рассылке и фишинге. В дополнение к этим двум заголовкам служба Exchange Online Protection также вставляет в каждое сообщение, которое она обрабатывает, заголовок **Authentication-results** с результатами проверки подлинности сообщения.
+В организациях Microsoft 365 с почтовыми ящиками в Exchange Online и в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online служба EOP проверяет входящие электронные сообщения и вставляет заголовок **X-Forefront-Antispam-Report** в каждое из них. Поля в этом заголовке могут предоставить администраторам информацию о сообщении и его обработке. Поля заголовка **X-Microsoft-Antispam** содержат дополнительные сведения о массовой рассылке и фишинге. Помимо этих двух заголовков, служба Exchange Online Protection также вставляет в каждое сообщение, которое она обрабатывает, заголовок **Authentication-results** с результатами проверки подлинности сообщения.
 
 Сведения о том, как просматривать заголовки электронных сообщений в различных почтовых клиентах, см. в статье [Просмотр заголовков сообщений Интернета в Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 
