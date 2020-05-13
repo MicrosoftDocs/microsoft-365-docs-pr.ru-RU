@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
 description: 'Сведения о подписках и лицензиях в Microsoft 365 для бизнеса, а также о том, кто может назначать лицензии и что происходит при назначении лицензии кому-либо. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5178b25de6f66968f8a89c7b2c34ee466f8855bd
+ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635440"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44211442"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Общие сведения о подписках и лицензиях в Microsoft 365 для бизнеса
 
@@ -58,10 +58,10 @@ ms.locfileid: "43635440"
   
 |**Если в подписке есть эта служба**|**Автоматическое действие**|
 |:-----|:-----|
-|Exchange Online  <br/> |Для пользователя создается почтовый ящик.  <br/> |
+|Exchange Online  <br/> |Для пользователя создается почтовый ящик.  <br/> Чтобы узнать о соглашении об уровне обслуживания для завершения этой задачи, ознакомьтесь со статьей ["Настройка..." сообщения в центре администрирования Microsoft 365](https://support.microsoft.com/help/2635238/setting-up-messages-in-the-office-365-admin-center). |
 |SharePoint Online  <br/> |Назначаются разрешения на изменение стандартного сайта группы SharePoint Online.  <br/> |
 |Skype для бизнеса online  <br/> |Пользователь получает доступ к возможностям, связанным с лицензией.  <br/> |
-|Приложения Microsoft 365 для предприятий  <br/> |Пользователь сможет скачать Microsoft Office для 5 ПК с Windows или компьютеров Mac, 5 планшетов и 5 смартфонов.  <br/> |
+|Приложения Microsoft 365 для предприятий  <br/> |Пользователь сможет скачать Microsoft Office для 5 ПК с Windows или компьютеров Mac, 5 планшетов и 5 смартфонов.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>На скольких устройствах можно установить Office?
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: 5ecd48161a751a1558146236d48df13bb0662ad1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55b3ec119e8c74982ce340c58f6b8da684c9ffa8
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630409"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208346"
 ---
 # <a name="manage-who-can-create-groups"></a>Управление пользователями, которые могут создавать группы
 
@@ -96,7 +96,7 @@ ms.locfileid: "43630409"
 > [!IMPORTANT]
 > Обязательно используйте **группу безопасности** , чтобы ограничить круг пользователей, которые могут создавать группы. Если вы попытаетесь использовать группу Microsoft 365, участники не смогут создать группу из SharePoint, так как она проверяет группу безопасности. 
     
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> **группы** \> .
+1. В центре администрирования перейдите на **Groups** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> группы.
 
 2. Нажмите кнопку **Добавить группу**.
 
@@ -120,13 +120,13 @@ ms.locfileid: "43630409"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените * \<секуритиграупнаме\> * именем группы безопасности, которую вы создали. Пример:
+Замените * \< секуритиграупнаме \> * именем группы безопасности, которую вы создали. Например:
 
 `$GroupName = "Group Creators"`
 
 Сохраните файл как Граупкреаторс. ps1. 
 
-В окне PowerShell перейдите к папке, в которую был сохранен файл (введите "CD <FileLocation>").
+В окне PowerShell перейдите к папке, в которую был сохранен файл (введите "CD <FileLocation> ").
 
 Выполните сценарий, введя следующую команду:
 
@@ -174,6 +174,8 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
     
 ## <a name="step-4-verify-that-it-works"></a>Шаг 4: Убедитесь, что он работает
 
+Для вступления изменений в силу может потребоваться 30 минут или более. Вы можете проверить новые параметры, выполнив следующие действия:
+
 1. Войдите с помощью учетной записи пользователя, у которого нет возможности создавать группы. То есть они не являются участниками группы безопасности, созданной или администратором.
     
 2. Выберите плитку **планировщика** . 
@@ -187,7 +189,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > Если участники группы безопасности не могут создавать группы, убедитесь, что они не блокируются с помощью [политики почтовых ящиков OWA](https://go.microsoft.com/fwlink/?linkid=852135).
     
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Начало работы с Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 
