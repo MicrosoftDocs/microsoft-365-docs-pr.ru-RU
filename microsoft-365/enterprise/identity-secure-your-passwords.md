@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Необходимо обеспечить надежность и управляемость ваших паролей в масштабах организации.
-ms.openlocfilehash: b4eb1861eb8d1c483972cf6a7c22a339dc1b0b36
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6e5c2567ee2027be2a84121fdad10ba873ec1c43
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637052"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214654"
 ---
 # <a name="step-2-secure-your-passwords"></a>Шаг 2. Защита паролей
 
@@ -31,7 +31,7 @@ ms.locfileid: "43637052"
 
 *Это необязательная процедура, применимая к версиям Microsoft 365 E3 и E5*
 
-Все ваши пользователи должны применять [Руководство по паролям корпорации Майкрософт](https://www.microsoft.com/research/publication/password-guidance/) для создания своих паролей учетных записей пользователей.
+Все ваши пользователи должны применять [Руководство по паролям корпорации Майкрософт](https://www.microsoft.com/research/publication/password-guidance) для создания своих паролей учетных записей пользователей.
 
 Чтобы запретить пользователям создавать легко подбираемые пароли, применяйте службу защиты паролей Azure AD, в которой используется как глобальный список запрещенных паролей, так и необязательный настраиваемый список запрещенных паролей, указываемый вами. Например, вы можете указать следующие термины, относящиеся к вашей организации:
 

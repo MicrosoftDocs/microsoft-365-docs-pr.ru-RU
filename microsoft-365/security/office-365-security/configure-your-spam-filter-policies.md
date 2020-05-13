@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как просматривать, создавать, изменять и удалять политики защиты от спама в Exchange Online Protection (EOP).
-ms.openlocfilehash: 66266ac79f6f442c8551b9ec15d553d6fb074cdc
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 85517d5caeac900623c61ef8294b416ddbd97eb8
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209563"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213380"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Настройка политик защиты от спама в EOP
 
@@ -31,7 +31,7 @@ ms.locfileid: "44209563"
 
 Вы можете настроить политики защиты от спама в Центре безопасности и соответствия требованиям или в PowerShell (Exchange Online PowerShell для организаций Microsoft 365 с почтовыми ящиками в Exchange Online; автономный EOP PowerShell для организаций без почтовых ящиков Exchange Online).
 
-## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Политики защиты от нежелательной почты в Центре безопасности и соответствия требованиям в сравнении с Exchange Online PowerShell или Exchange Online Protection PowerShell
+## <a name="anti-spam-policies-in-the-security--compliance-center-vs-powershell"></a>Политики по защите от спама в Центре безопасности и соответствия требованиям против PowerShell
 
 Основные элементы политики защиты от нежелательной почты в EOP:
 
@@ -47,7 +47,7 @@ ms.locfileid: "44209563"
 
 - Если политика защиты от нежелательной почты удаляется с помощью Центра безопасности и соответствия требованиям, удаляется правило и соответствующая политика фильтрации нежелательной почты.
 
-В Exchange Online PowerShell или автономной службе Exchange Online Protection PowerShell разница между политиками и правилами фильтрации нежелательной почты очевидна. Для управления политиками фильтрации нежелательной почты используются командлеты **\*-HostedContentFilterPolicy**, а для управления правилами — командлеты **\*-HostedContentFilterRule**.
+В Exchange Online PowerShell или автономной EOP PowerShell разница между политиками фильтра спама и правилами фильтра спама очевидна. Для управления политиками фильтрации нежелательной почты используются командлеты **\*-HostedContentFilterPolicy**, а для управления правилами — командлеты **\*-HostedContentFilterRule**.
 
 - В PowerShell сначала создается политика, а затем — правило фильтрации нежелательной почты, указывающее политику, к которой оно применяется.
 
@@ -71,9 +71,9 @@ ms.locfileid: "44209563"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>.
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы добавлять, изменять и удалять политики защиты от нежелательной почты, необходимо быть участником группы ролей **Управление организацией** или **Администратор безопасности**. Для доступа только для чтения к политикам защиты от нежелательной почты необходимо быть участником группы ролей **Читатель безопасности**. Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы добавлять, изменять и удалять политики защиты от нежелательной почты, необходимо быть участником группы ролей **Управление организацией** или **Администратор безопасности**. Для доступа только для чтения к политикам защиты от нежелательной почты необходимо быть участником группы ролей **Читатель безопасности**. Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 - Рекомендуемые параметры политик защиты от вредоносных программ см. в разделе [Параметры политики защиты от нежелательной почты EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
@@ -363,7 +363,7 @@ ms.locfileid: "44209563"
 
 Политику по умолчанию удалить невозможно.
 
-## <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-anti-spam-policies"></a>Настройка политик защиты от нежелательной почты с помощью Exchange Online PowerShell или Exchange Online Protection PowerShell
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-configure-anti-spam-policies"></a>Используйте Exchange Online PowerShell или автономную EOP PowerShell для настройки политик защиты от спама
 
 Следующие параметры политики защиты от нежелательной почты доступны только в PowerShell:
 
