@@ -14,12 +14,12 @@ ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье вы узнаете, как перемещать домены и параметры из одной организации Microsoft Exchange Online Protection (EOP) в другую организацию (клиент).
-ms.openlocfilehash: c57f8363093c2e1a9bfad5c34f62a0ca2c1ae689
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e9e0bd0d18ad73c08f0bc5b487a46289f67e40ba
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208322"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213452"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Перемещение доменов и параметров из одной организации EOP в другую
 
@@ -59,11 +59,11 @@ ms.locfileid: "44208322"
   > [!NOTE]
   > Поддержка командлетов для экспорта и импорта коллекции правил обработки почты в настоящее время поддерживается только для планов подписки EOP Premium.
 
-Самый простой способ собрать все параметры — использовать PowerShell. Чтобы подключиться к Exchange Online Protection PowerShell, ознакомьтесь [со статьей подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+Самый простой способ собрать все параметры — использовать PowerShell. Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 После этого вы можете собрать все настройки и экспортировать их в XML-файл для импорта в целевой клиент. Как правило, выходные данные командлета **Get** для каждой настройки можно передать в командлет **Export-Clixml**, чтобы сохранить настройки в XML-файлах, как показано в приведенном ниже примере кода.
 
-В PowerShell Exchange Online Protection создайте каталог с именем Export в месте, которое легко найти и изменить в этом каталоге. Например:
+В изолированной EOP PowerShell создайте каталог Export в месте, которое легко найти и изменить в этом каталоге. Например:
 
 ```PowerShell
 mkdir C:\EOP\Export

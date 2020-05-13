@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут научиться настраивать фильтрацию подключений в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения с почтовых серверов.
-ms.openlocfilehash: 9b4f203f11e72b4459c9fa35d3e4fdca544cffbb
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b9fd8c1b365f59647618e397a511873aae40146f
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209587"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213440"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -44,9 +44,9 @@ ms.locfileid: "44209587"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>.
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы изменить политику фильтра подключений по умолчанию, необходимо быть членом группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике фильтра подключений по умолчанию необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы изменить политику фильтра подключений по умолчанию, необходимо быть членом группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике фильтра подключений по умолчанию необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 - Чтобы найти исходные IP-адреса почтовых серверов (отправителей), которые вы хотите разрешить или заблокировать, вы можете проверить поле подключения IP-заголовка (**CIP**) в заголовке сообщения. Чтобы просмотреть заголовок сообщения в различных почтовых клиентах, ознакомьтесь со статьей [Просмотр заголовков сообщений Интернета в Outlook](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c).
 
@@ -90,7 +90,7 @@ ms.locfileid: "44209587"
 
 3. Параметры политики отображаются в открывшемся раскрывающемся списке.
 
-## <a name="use-exchange-online-powershell-or-standalone-exchange-online-protection-powershell-to-modify-the-default-connection-filter-policy"></a>Изменение политики фильтрации подключений по умолчанию с помощью Exchange Online PowerShell или отдельной Exchange Online Protection PowerShell
+## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-modify-the-default-connection-filter-policy"></a>Изменение политики фильтра подключений по умолчанию с помощью Exchange Online PowerShell или изолированной EOP PowerShell
 
 Используйте следующий синтаксис:
 
@@ -134,7 +134,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 - В центре безопасности & соответствия требованиям перейдите к разделу защита **Threat management** \> **Policy** \> **от нежелательной почты** в политике управления угрозами, \> щелкните раскрывающийся список **Политика фильтра подключений (всегда включено**) и проверьте параметры.
 
-- В Exchange Online PowerShell или в автономной службе Exchange Online Protection выполните следующую команду и проверьте параметры:
+- В Exchange Online PowerShell или изолированной EOP PowerShell выполните следующую команду и проверьте параметры:
 
   ```powershell
   Get-HostedConnectionFilterPolicy -Identity Default

@@ -17,17 +17,17 @@ ms.collection:
 - Strat_O365_IP
 ms.custom: TopSMBIssues
 localization_priority: Priority
-description: Узнайте о том, как Exchange Online и Exchange Online Protection (EOP) в Microsoft 365 используют проверку подлинности электронной почты (SPF, DKIM и DMARC) для предотвращения спуфинга, фишинга и спама.
-ms.openlocfilehash: f3a3ea902cb0c4fede4fcfd919f0969765bc4a96
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Администраторы могут узнать об использовании проверки подлинности электронной почты (SPF, DKIM и DMARC) в Exchange Online Protection (EOP) для предотвращения спуфинга, фишинга и спама.
+ms.openlocfilehash: c79a75f1ae520a0c4f885c923b4a56cdb0f7fb87
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637560"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209503"
 ---
-# <a name="email-authentication-in-microsoft-365"></a>Проверка подлинности электронной почты в Microsoft 365
+# <a name="email-authentication-in-eop"></a>Проверка подлинности электронной почты в EOP
 
-Проверка подлинности электронной почты (также известная как проверка адреса электронной почты) — это набор стандартов для борьбы со спуфингом (сообщения электронной почты от поддельных отправителей). В организациях Microsoft 365 с почтовыми ящиками Exchange Online или в организациях с автономной службой Exchange Online Protection (EOP) без почтовых ящиков Exchange Online в целях проверки входящей почты EOP использует следующие стандарты:
+Проверка подлинности электронной почты (также известная как проверка адреса электронной почты) — это набор стандартов для борьбы со спуфингом (сообщения электронной почты от поддельных отправителей). В организациях Microsoft 365 с почтовыми ящиками Exchange Online, а также в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online применяются следующие стандарты для проверки входящей электронной почты с помощью EOP:
 
 - [SPF](how-office-365-uses-spf-to-prevent-spoofing.md)
 

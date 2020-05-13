@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 description: Узнайте, как в Office 365 найти персональные данные, на которые распространяется общий регламент по защите данных (GDPR).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5634437e5212fca6a7caf768d5a66d99497de3c6
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 50c8db59cfd5e9a7de3da0dc696227e85dab1cee
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036414"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208093"
 ---
 # <a name="search-for-and-find-personal-data"></a>Поиск персональных данных
 
@@ -118,7 +118,7 @@ ms.locfileid: "44036414"
 <td align="left"><p>Проверьте запрос на наличие проблем следующего характера, чтобы убедиться в его точности:</p>
 <p><li>большое количество ложных срабатываний;</li></p>
 <p><li>отсутствие известных экземпляров данных.</li></p>
-<p>См. статью <a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Экспорт результатов поиска контента из Центра безопасности и соответствия требованиям</a>.</p>
+<p>См. статью <a href="https://docs.microsoft.com/microsoft-365/compliance/export-search-results">Экспорт результатов поиска контента из Центра безопасности и соответствия требованиям</a>.</p>
 <p>Примечание. Если вы используете Mozilla Firefox или Chrome, возможно, вам потребуется сначала скачать отчеты с помощью браузера Internet Explorer или Edge, чтобы установить необходимую надстройку.</p></td>
 </tr>
 </tbody>

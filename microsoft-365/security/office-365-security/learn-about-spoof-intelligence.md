@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут ознакомиться со сведениями об управлении подменой в Exchange Online Protection (EOP), где можно разрешить или запретить использование определенных поддельных отправителей.
-ms.openlocfilehash: 607c11d82a145828af736d8d1ecab1dff367f94d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 9cbbc263b05e68cc60de31eea35df7086ea15748
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206644"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213344"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Настройка логики подделки в EOP
 
@@ -56,9 +56,9 @@ ms.locfileid: "44206644"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>. Чтобы перейти непосредственно на страницу **защиты от фишинга** , используйте <https://protection.office.com/antiphishing> .
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
-- Для выполнения этих процедур необходимы соответствующие разрешения. Чтобы изменить политику контроля подделки или включить или отключить аналитику подделки, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике подделки необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы изменить политику контроля подделки или включить или отключить аналитику подделки, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике подделки необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
 - Для наших рекомендуемых параметров для логики [EOP по умолчанию политики защиты от фишинговых атак](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 

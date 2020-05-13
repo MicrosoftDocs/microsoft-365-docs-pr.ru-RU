@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: Администраторы могут использовать трассировку сообщений в центре безопасности & соответствия требованиям, чтобы узнать, что произошло с сообщениями.
-ms.openlocfilehash: e78d3361306a93542302e29ff5c1fac4e2262b2f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 22ae7293dfe85fe5354d21e690de6f060a931788
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209431"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44212990"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>Трассировка сообщений в Центре безопасности и соответствия требованиям
 
@@ -27,7 +27,7 @@ ms.locfileid: "44209431"
 Трассировка сообщений в центре безопасности & соответствия требованиям повышается при исходной трассировке сообщений, доступной в центре администрирования Exchange. Сведения из трассировки сообщений можно использовать для эффективного ответа на вопросы пользователей о том, что случилось с сообщениями, устранять проблемы с потоками обработки почты и проверять изменения политики.
 
 > [!NOTE]
-> • Чтобы выполнить трассировку сообщений, необходимо быть участником группы ролей "Управление организацией", "Управление соответствием требованиям" или "служба поддержки". Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md). <br/><br/>• Максимальное количество сообщений, отображаемых в результатах, зависит от выбранного типа отчета (для получения подробных сведений в разделе [Выбор типа отчета](#choose-report-type) ). Командлет [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) в Exchange Online PowerShell или Exchange Online Protection PowerShell возвращает все сообщения в результатах.
+> • Чтобы выполнить трассировку сообщений, необходимо быть участником группы ролей "Управление организацией", "Управление соответствием требованиям" или "служба поддержки". Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md). <br/><br/>• Максимальное количество сообщений, отображаемых в результатах, зависит от выбранного типа отчета (для получения подробных сведений в разделе [Выбор типа отчета](#choose-report-type) ). Командлет [Get-HistoricalSearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) в Exchange Online PowerShell или изолированный EOP PowerShell возвращает все сообщения в результатах.
 
 ## <a name="open-message-trace"></a>Открыть трассировку сообщений
 

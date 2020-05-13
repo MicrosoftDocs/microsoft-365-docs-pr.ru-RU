@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать о параметрах расширенного фильтра нежелательной почты (ASF), доступных в политиках защиты от нежелательной почты в Exchange Online Protection (EOP).
-ms.openlocfilehash: 3193c1ea11d9a470a6b0df72f052bab20dec29f8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 904513780ca472efb91cfcd914ad6c72d6c720f7
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208052"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213416"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-eop"></a>Параметры расширенного фильтра нежелательной почты (ASF) в EOP
 
@@ -35,7 +35,7 @@ ms.locfileid: "44208052"
 > [!NOTE]
 > Включение одного или нескольких параметров ASF является агрессивным подходом к фильтрации нежелательной почты. Сообщения, отфильтрованные в формате ASF, не могут отчитываться как ложные срабатывания. Сообщения, отфильтрованные по ASF, можно определять следующим образом. <ul><li>Периодические уведомления карантина нежелательной почты пользователя.</li><li>Присутствие отфильтрованных сообщений в карантине.</li><li>Конкретные `X-CustomSpam:` поля X заголовков, которые добавляются к сообщениям, как описано в этом разделе.</li></ul>
 
-В следующих разделах описываются параметры и параметры ASF, доступные в политиках защиты от нежелательной почты в центре безопасности & соответствия требованиям, а также в Exchange Online PowerShell или в автономной службе Exchange Online Protection PowerShell ([New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) и [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy)). Дополнительные сведения см. [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
+В следующих разделах описываются параметры и параметры ASF, доступные в политиках защиты от нежелательной почты в центре безопасности & соответствия требованиям, а также в Exchange Online PowerShell или отдельном EOP PowerShell ([New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) и [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy)). Дополнительные сведения см. [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="enable-disable-or-test-asf-settings"></a>Включение, отключение и тестирование параметров ASF
 

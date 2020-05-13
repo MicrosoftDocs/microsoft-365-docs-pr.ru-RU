@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила для обработки почтовых ящиков (правила транспорта) для идентификации и фильтрации массовой почты (серой почты) в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb305551db1e86d8d6eccf5e95cdaad29e6711ef
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: a31030ea2f844cdeb4bee68bf748a2ab8ca29dad
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208529"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213368"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Использование правил обработки почтового процесса для фильтрации массовых сообщений электронной почты в EOP
 
@@ -41,7 +41,7 @@ ms.locfileid: "44208529"
 
 - Чтобы открыть центр администрирования Exchange в Exchange Online, обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center). Чтобы открыть центр администрирования Exchange в автономном EOP, обратитесь к разделу [центр администрирования Exchange в отдельном EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Сведения о подключении к автономной службе Exchange Online Protection PowerShell см. в статье [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
 
