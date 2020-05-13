@@ -14,44 +14,44 @@ ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается, как использовать PowerShell для применения параметров конфигурации к клиентам в Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: b875a6c7ba53f459a73699b250ee5ed4a206f1b1
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c25bafe9ece71264931d8f059dd726147a6d28a4
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035934"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209143"
 ---
-# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="5a278-103">Пример скрипта для применения параметров EOP к нескольким клиентам</span><span class="sxs-lookup"><span data-stu-id="5a278-103">Sample script for applying EOP settings to multiple tenants</span></span>
+# <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a><span data-ttu-id="8e04c-103">Пример скрипта для применения параметров EOP к нескольким клиентам</span><span class="sxs-lookup"><span data-stu-id="8e04c-103">Sample script for applying EOP settings to multiple tenants</span></span>
 
-<span data-ttu-id="5a278-104">Следующий пример скрипта позволяет администраторам Microsoft Exchange Online Protection (EOP), которые управляют несколькими клиентами (компаниями), использовать Windows PowerShell для применения параметров конфигурации к своим клиентам.</span><span class="sxs-lookup"><span data-stu-id="5a278-104">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Windows PowerShell to apply configuration settings to their tenants.</span></span>
+<span data-ttu-id="8e04c-104">Следующий пример скрипта позволяет администраторам Microsoft Exchange Online Protection (EOP), которые управляют несколькими клиентами (компаниями), использовать Windows PowerShell для применения параметров конфигурации к своим клиентам.</span><span class="sxs-lookup"><span data-stu-id="8e04c-104">The following sample script lets Microsoft Exchange Online Protection (EOP) admins who manage multiple tenants (companies) use Windows PowerShell to apply configuration settings to their tenants.</span></span>
 
-## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="5a278-105">Запуск скрипта или командлета для нескольких клиентов</span><span class="sxs-lookup"><span data-stu-id="5a278-105">To run a script or cmdlet on multiple tenants</span></span>
+## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a><span data-ttu-id="8e04c-105">Запуск скрипта или командлета для нескольких клиентов</span><span class="sxs-lookup"><span data-stu-id="8e04c-105">To run a script or cmdlet on multiple tenants</span></span>
 
-1. <span data-ttu-id="5a278-106">С помощью приложения, например Excel, создайте CSV-файл (например, c:\scripts\inputfile.csv):</span><span class="sxs-lookup"><span data-stu-id="5a278-106">Using an application such as Excel, create a .csv file (for example, c:\scripts\inputfile.csv):</span></span>
+1. <span data-ttu-id="8e04c-106">С помощью приложения, например Excel, создайте CSV-файл (например, c:\scripts\inputfile.csv):</span><span class="sxs-lookup"><span data-stu-id="8e04c-106">Using an application such as Excel, create a .csv file (for example, c:\scripts\inputfile.csv):</span></span>
 
-2. <span data-ttu-id="5a278-107">В CSV-файле укажите два столбца: UserName и Cmdlet.</span><span class="sxs-lookup"><span data-stu-id="5a278-107">In the .csv file, specify two column names: UserName and Cmdlet.</span></span>
+2. <span data-ttu-id="8e04c-107">В CSV-файле укажите два столбца: UserName и Cmdlet.</span><span class="sxs-lookup"><span data-stu-id="8e04c-107">In the .csv file, specify two column names: UserName and Cmdlet.</span></span>
 
-3. <span data-ttu-id="5a278-p101">Для каждой строки в CSV-файле добавьте имя администратора клиента в столбец UserName и командлет, который необходимо выполнить для этого клиента, в столбец Cmdlet. Например, введите admin@contoso.com и Get-AcceptedDomain.</span><span class="sxs-lookup"><span data-stu-id="5a278-p101">For each row in the .csv file, add the tenant's admin name in the UserName column and the cmdlet to run for that tenant in the Cmdlet column. For example, use admin@contoso.com and Get-AcceptedDomain.</span></span>
+3. <span data-ttu-id="8e04c-p101">Для каждой строки в CSV-файле добавьте имя администратора клиента в столбец UserName и командлет, который необходимо выполнить для этого клиента, в столбец Cmdlet. Например, введите admin@contoso.com и Get-AcceptedDomain.</span><span class="sxs-lookup"><span data-stu-id="8e04c-p101">For each row in the .csv file, add the tenant's admin name in the UserName column and the cmdlet to run for that tenant in the Cmdlet column. For example, use admin@contoso.com and Get-AcceptedDomain.</span></span>
 
-4. <span data-ttu-id="5a278-110">Скопируйте скрипт [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) в редактор, например Блокнот, и сохраните файл в папке, где вы легко сможете найти PS1-файлы (например, c:\scripts).</span><span class="sxs-lookup"><span data-stu-id="5a278-110">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script to an editor like Notepad, and then save the file to a location (like c:\scripts) that makes .ps1 files easy to find.</span></span>
+4. <span data-ttu-id="8e04c-110">Скопируйте сценарий [Скрипт runcmdletonmultipletenants. ps1](#runcmdletonmultipletenantsps1) в блокнот, а затем сохраните файл в месте, которое легко найти (например, c:\scripts).</span><span class="sxs-lookup"><span data-stu-id="8e04c-110">Copy the [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) script into Notepad, and then save the file to a location that's easy to find  (for example, c:\scripts).</span></span>
 
-5. <span data-ttu-id="5a278-111">Выполните скрипт, используя следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="5a278-111">Run the script by using the following syntax:</span></span>
+5. <span data-ttu-id="8e04c-111">Выполните скрипт, используя следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="8e04c-111">Run the script by using the following syntax:</span></span>
 
-   ```Powershell
+   ```powershell
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
    ```
 
-   <span data-ttu-id="5a278-112">Пример:</span><span class="sxs-lookup"><span data-stu-id="5a278-112">Here's an example:</span></span>
+   <span data-ttu-id="8e04c-112">Пример:</span><span class="sxs-lookup"><span data-stu-id="8e04c-112">Here's an example:</span></span>
 
-   ```Powershell
+   ```powershell
    & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. <span data-ttu-id="5a278-113">Выполняется вход в каждый клиент, после чего запускается командлет.</span><span class="sxs-lookup"><span data-stu-id="5a278-113">Each tenant will be logged on to, and the cmdlet will be run.</span></span>
+6. <span data-ttu-id="8e04c-113">Каждый клиент будет входить в систему, и сценарий будет выполняться.</span><span class="sxs-lookup"><span data-stu-id="8e04c-113">Each tenant will be logged on to, and the script will be run.</span></span>
 
-## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="5a278-114">Скрипт runcmdletonmultipletenants. ps1</span><span class="sxs-lookup"><span data-stu-id="5a278-114">RunCmdletOnMultipleTenants.ps1</span></span>
+## <a name="runcmdletonmultipletenantsps1"></a><span data-ttu-id="8e04c-114">Скрипт runcmdletonmultipletenants. ps1</span><span class="sxs-lookup"><span data-stu-id="8e04c-114">RunCmdletOnMultipleTenants.ps1</span></span>
 
-```Powershell
+```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.
 # Usage: RunCmdletOnMultipleTenants.ps1 inputfile.csv
 #
