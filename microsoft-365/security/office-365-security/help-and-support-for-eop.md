@@ -12,16 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
-ms.openlocfilehash: 6fde3c6cf62f865a17f081c1892d6a5197b037f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ef6bacbce6f46a17abcceb98e40d20ed3ad5363
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638050"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209203"
 ---
 # <a name="help-and-support-for-eop"></a>Справка и поддержка для EOP
 
-Указанные здесь ресурсы технической поддержки помогут найти ответы, если у вас возникнут сложности с Microsoft Exchange Online Protection (EOP). Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
+В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или автономной службе Exchange Online Protection (EOP) без почтовых ящиков Exchange Online справочные материалы, приведенные в этом разделе, помогут вам найти ответы на вопросы, если у вас возникли трудности с EOP. Корпорация Майкрософт предоставляет помощь по EOP различными способами в различных местах, включая самостоятельную поддержку и услуги специалистов.
 
 ## <a name="self-support-options"></a>Варианты самостоятельной поддержки
 

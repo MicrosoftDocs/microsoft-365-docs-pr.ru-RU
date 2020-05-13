@@ -26,12 +26,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье рассказывается, как использовать безопасные ссылки для защиты Организации от фишинга и других атак.
-ms.openlocfilehash: 5f166848fe5c2beb46fedfaa33394e1e73c94a10
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 9f6222889d213c25c7411e39f0714ccf09cfe0d9
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045258"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208951"
 ---
 # <a name="atp-safe-links"></a>Безопасные ссылки ATP
 
@@ -48,7 +48,7 @@ Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-at
          
 ## <a name="how-to-get-atp-safe-links-protection"></a>Как получить защиту от безопасных ссылок ATP
 
-Для **начала убедитесь, что в подписке включена [Расширенная защита от угроз](office-365-atp.md)**. ATP включается в подписки, такие как [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес премиум](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise и Office 365, образование A5 и т. д. Если в вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках: 
+Для **начала убедитесь, что в подписке включена [Расширенная защита от угроз](office-365-atp.md)**. ATP включается в подписки, такие как [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес премиум](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise и Office 365, образование A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках: 
 
 - [Планы и цены Advanced Threat Protection в Office 365](https://products.office.com/exchange/advance-threat-protection)
 
@@ -69,8 +69,8 @@ Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-at
 |Role  |Где/как назначено  |
 |---------|---------|
 |Глобальный администратор |Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) .)         |
-|Администратор безопасности |Центр администрирования Azure Active Directory ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Управление организациями в Exchange Online |Центр администрирования Exchange ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
+|Администратор безопасности |Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Управление организациями в Exchange Online |Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)) |
     
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>Как убедиться в том, что функция защиты безопасных ссылок ATP находится на месте
 
@@ -87,7 +87,7 @@ Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-at
 |Жан является участником группы, имеющей политики безопасных ссылок ATP, охватывающие URL-адреса в электронной почте и документах Office. Жан открывает презентацию PowerPoint, которую отправили кто-то другой, а затем щелкает URL-адрес в презентации.  <br/> |Да. Политики безопасных ссылок ATP применяются к группе Жан, электронной почте Жан и документам Word, Excel, PowerPoint или Visio, которые Жан открыть, до тех пор, пока Жан вошли и используете приложения Microsoft 365 для предприятий на устройствах с Windows, iOS и Android.  <br/> |
 |В Организации Крис ни один администратор глобального или по безопасности не определил политики безопасных ссылок ATP. Крис получает сообщение электронной почты, содержащее URL-адрес вредоносного веб-сайта. Крис не знает, что URL-адрес является вредоносным и щелкает ссылку.  <br/> |Нет. Политика по умолчанию, которая охватывает URL-адреса для всех в Организации, должна быть определена для обеспечения защиты.  <br/> |
 |В Организации Pat нет глобальных или измененных политик безопасных ссылок ATP. Pat открывает документ Word и щелкает URL-адрес в файле.  <br/> |Нет. Политика, включающая документы Office, должна быть определена для обеспечения защиты. Ознакомьтесь со статьей [Настройка политик безопасных ссылок ATP в Office 365](set-up-atp-safe-links-policies.md).  <br/> |
-|У Организации Иванов есть политика безопасных ссылок ATP, `https://tailspintoys.com` указанная в качестве заблокированного веб-сайта. Иванов получает сообщение электронной почты, содержащее URL-адрес `https://tailspintoys.com/aboutus/trythispage`. "Иванов" выбирает URL-адрес.  <br/> |Это зависит от того, включены ли весь сайт и все его дочерние страницы в список заблокированных URL-адресов. [В разделе Настройка настраиваемого списка заблокированных URL-адресов с помощью ссылок ATP Safe](set-up-a-custom-blocked-urls-list-atp.md).  <br/> |
+|У Организации Иванов есть политика безопасных ссылок ATP, `https://tailspintoys.com` указанная в качестве заблокированного веб-сайта. Иванов получает сообщение электронной почты, содержащее URL-адрес `https://tailspintoys.com/aboutus/trythispage` . "Иванов" выбирает URL-адрес.  <br/> |Это зависит от того, включены ли весь сайт и все его дочерние страницы в список заблокированных URL-адресов. [В разделе Настройка настраиваемого списка заблокированных URL-адресов с помощью ссылок ATP Safe](set-up-a-custom-blocked-urls-list-atp.md).  <br/> |
 |Ресурс Жан, коллега отправляет электронную почту в Жан, не зная, что сообщение содержит вредоносный URL-адрес.  <br/> |Это зависит от того, определены ли политики безопасных ссылок ATP для электронной почты, отправляемой в пределах организации. Ознакомьтесь со статьей [Настройка политик безопасных ссылок ATP в Office 365](set-up-atp-safe-links-policies.md).  <br/> |
 
 

@@ -16,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Настройте соединитель для импорта данных Facebook в Microsoft 365, чтобы вы могли использовать такие функции обеспечения соответствия, как судебное удержание, поиск контента и политики хранения.
-ms.openlocfilehash: a1a45b3558e8c5fb77fb1d04a1a38402000bbd1b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e35e4cb8e0f16d3cc95b3f21ce6648bbe087733d
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035161"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210548"
 ---
-# <a name="set-up-a-connector-to-archive-facebook-data"></a>Настройка соединителя для архивации данных Facebook
+# <a name="set-up-a-connector-to-archive-facebook-data-preview"></a>Настройка соединителя для архивации данных Facebook (Предварительная версия)
 
 Используйте соединитель в центре соответствия требованиям Microsoft 365 для импорта и архивирования данных из бизнес-страниц Facebook в Microsoft 365. После настройки и настройки соединителя он подключается к странице Facebook Business (по расписанию), преобразует содержимое элементов Facebook в формат сообщений электронной почты, а затем импортирует их в почтовый ящик в Microsoft 365.
 
@@ -74,7 +74,7 @@ ms.locfileid: "44035161"
 
 - TenantId: идентификатор клиента вашей организации Microsoft 365, который вы скопировали после создания приложения соединителя Facebook в Azure Active Directory на этапе 1.
 
-После выполнения этого действия обязательно скопируйте URL-адрес службы приложений Azure (например, https://fbconnector.azurewebsites.net). Необходимо использовать этот URL-адрес, чтобы выполнить действия 3, шаг 4 и шаг 5.
+После выполнения этого действия обязательно скопируйте URL-адрес службы приложений Azure (например, https://fbconnector.azurewebsites.net) . Необходимо использовать этот URL-адрес, чтобы выполнить действия 3, шаг 4 и шаг 5.
 
 ## <a name="step-3-register-the-web-app-on-facebook"></a>Шаг 3: регистрация веб-приложения в Facebook
 

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Узнайте, как использовать параметры безопасности по умолчанию для настройки многофакторной проверки подлинности для пользователей.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 1000689794b8b5471efa898e731fd75a0e5a8cce
-ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
+ms.openlocfilehash: 4c0df9198db8154c1aa748a68eff29dd9bf3bca1
+ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43665636"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44213014"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -75,7 +75,9 @@ ms.locfileid: "43665636"
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>Включение современной проверки подлинности в Организации
 
-Все клиентские приложения Office 2016 поддерживают многофакторную проверку подлинности с помощью библиотеки проверки подлинности Active Directory (ADAL). Это означает, что для клиентов Office 2016 пароли приложений необязательны. Тем не менее, необходимо убедиться, что для подписки Microsoft 365 включена поддержка ADAL или современная проверка подлинности.
+Все клиентские приложения Office 2016 поддерживают многофакторную проверку подлинности с помощью библиотеки проверки подлинности Active Directory (ADAL). Это означает, что для клиентов Office 2016 пароли приложений необязательны. Для получения дополнительных сведений обратитесь к [этой статье](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-mfasettings#app-passwords) .
+
+Тем не менее, необходимо убедиться, что для подписки Microsoft 365 включена поддержка ADAL или современная проверка подлинности.
 
 1. Чтобы включить современную проверку подлинности, в [Центре администрирования](https://go.microsoft.com/fwlink/p/?linkid=834822) выберите **Параметры** \> **Параметры**, затем на вкладке **Службы** выберите в списке **Современная проверка подлинности**.
 

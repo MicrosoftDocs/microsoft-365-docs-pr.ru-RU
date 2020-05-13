@@ -2,10 +2,10 @@
 title: Справочник политики, правила и рекомендации
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Корпорация Майкрософт разработала различные политики, процедуры и предприняла несколько практических рекомендаций по защите пользователей от нежелательных, нежелательных и вредоносных сообщений электронной почты.
-ms.openlocfilehash: 6e73355c02e0416a80441aff8143fcbf51150b94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9684453503329e955c21051885c5d93e8c927c48
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634392"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208214"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>Справочник: политики, правила и рекомендации
 
@@ -31,9 +31,9 @@ ms.locfileid: "43634392"
 
 ## <a name="general-microsoft-policies"></a>Общие политики Майкрософт
 
-Электронная почта, отправленная пользователям Microsoft 365, должна соответствовать всем политикам Майкрософт, регулирующим передачу электронной почты и использование Office 365.
+Электронная почта, отправленная пользователям Microsoft 365, должна соответствовать всем политикам Майкрософт, регулирующим передачу электронной почты и использование Microsoft 365.
 
-- Условия обслуживания, применимые к Office 365, в частности, запрет на использование службы для рассылки спама или распространения вредоносного ПО.
+- Условия предоставления услуг, применяемые к Microsoft 365; в частности, запрет на использование службы для нежелательной почты или распространения вредоносных программ.
 
 - [Соглашение об использовании служб Microsoft](https://www.microsoft.com/servicesagreement/)
 
@@ -85,7 +85,7 @@ ms.locfileid: "43634392"
 
 - [Online Trust Alliance](https://www.otalliance.org/resources)
 
-- [Email Sender &amp; Provider Coalition](https://www.espcoalition.org/)
+- [Отправитель & поставщика электронной почты Коалитион](https://www.espcoalition.org/)
 
 ## <a name="abuse-and-spam-reporting"></a>Сообщения о применении почтовой системы не по назначению и о спаме
 

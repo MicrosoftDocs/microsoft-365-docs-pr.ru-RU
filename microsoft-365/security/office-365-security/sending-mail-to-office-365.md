@@ -2,10 +2,10 @@
 title: Отправка почты в Microsoft 365
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 04/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -18,16 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Сведения о том, как получить доступ к электронной почте пользователям в Microsoft 365 в виде внешнего отправителя. Кроме того, Узнайте, как сообщить о нежелательной почте & фишинговых атак от имени внешнего пользователя.
-ms.openlocfilehash: c1086088a92240be4bb7bbbd52077cecb1c54476
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c464d09ddd5f6324c9b3e22e9cad6a613862c9a1
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035388"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209827"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>Отправка почты в Microsoft 365
 
-В указанных ниже статьях рассказывается, как внешние отправители могут повысить свою репутацию и шансы на доставку своих сообщений пользователям в Office 365. Кроме того, они содержат сведения о том, как сообщать о нежелательной почте и фишинге, даже если пользователь не имеет Microsoft 365.
+Эти статьи помогают внешним отправителям улучшить свою репутацию и увеличить возможность доставки электронной почты пользователям в Microsoft 365. Кроме того, они содержат сведения о том, как сообщить о нежелательной почте и фишинге, даже если пользователь не является участником Microsoft 365.
 
 Если вы не являетесь клиентом, но пытаетесь отправлять почту кому-то, кто-то из пользователей, у вас есть право. Если вы являетесь администратором и вам нужна помощь в борьбе с нежелательной почтой, это не самый подходящий раздел. Вместо этого перейдите в раздел [Защита от нежелательной почты и вредоносных программ в Microsoft 365](anti-spam-and-anti-malware-protection.md).
 

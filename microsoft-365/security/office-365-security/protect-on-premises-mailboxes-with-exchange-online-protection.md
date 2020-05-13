@@ -1,11 +1,11 @@
 ---
-title: Защита локального почтового ящика — Exchange Online Protection
+title: Защита локальных почтовых ящиков в Китае с помощью автономной EOP
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 6/1/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -20,15 +20,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
-description: В этой статье вы узнаете, как защитить локальные почтовые ящики с помощью Exchange Online Protection (EOP).
-ms.openlocfilehash: bdfebf16d77f26f3e3bb2890bd4aa8ccfa12f27b
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Администраторы в Китае с помощью Office 365 под управлением 21Vianet могут узнать, как использовать автономную защиту Exchange Online (EOP), чтобы защитить свои локальные почтовые ящики.
+ms.openlocfilehash: 6ce85e626f9bf4c960de57ad5cd15ac3148954cb
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033882"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44208298"
 ---
-# <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Защита локальных почтовых ящиков с помощью Exchange Online Protection
+# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Защита локальных почтовых ящиков в Китае с помощью автономной EOP
 
 > [!NOTE]
 > Эта статья относится только к Office 365 под управлением 21Vianet в Китае.
@@ -65,7 +65,7 @@ ms.locfileid: "44033882"
 
 ## <a name="step-5-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>Шаг 5: обеспечение маршрутизации спама в папку нежелательной почты каждого пользователя
 
-Чтобы проверить, правильно ли нежелательная почта маршрутизируется в соответствующие папки каждого пользователя, необходимо выполнить несколько действий по настройке. Инструкции по [настройке изолированных EOP для доставки спама в папку нежелательной почты в гибридных средах](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md). Если вы не хотите перемещать сообщения в папку нежелательной почты каждого пользователя, вы можете выбрать другое действие, отредактировав политики фильтрации содержимого в центре администрирования Exchange. Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
+Чтобы проверить, правильно ли нежелательная почта маршрутизируется в соответствующие папки каждого пользователя, необходимо выполнить несколько действий по настройке. Инструкции по [настройке изолированных EOP для доставки спама в папку нежелательной почты в гибридных средах](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md). Если вы не хотите перемещать сообщения в папку "Нежелательная почта" для каждого пользователя, можно выбрать другое действие, отредактировав политики защиты от нежелательной почты (также называемые политиками фильтрации содержимого). Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6: использование центра администрирования Microsoft 365 для направления записи MX на EOP
 

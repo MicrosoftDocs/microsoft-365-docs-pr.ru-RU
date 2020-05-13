@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться маршрутизировать спам в папки нежелательной почты пользователя в гибридной среде Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036576"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44209479"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки спама в папку нежелательной почты в гибридных средах
 
@@ -44,7 +44,7 @@ ms.locfileid: "44036576"
 В этом разделе описывается, как создать эти правила для почтовых ящиков: центр администрирования Exchange и Командная консоль Exchange (Exchange PowerShell) в локальной организации Exchange.
 
 > [!TIP]
-> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики защиты от нежелательной почты в EOP для помещения нежелательных сообщений в карантин в EOP. Дополнительные сведения см. в разделе [Настройка политик защиты от спама в Office 365](configure-your-spam-filter-policies.md).
+> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики защиты от нежелательной почты в EOP для помещения нежелательных сообщений в карантин в EOP. Дополнительные сведения см. [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -60,7 +60,7 @@ ms.locfileid: "44036576"
 
   - Указывает, включено ли правило нежелательной почты в почтовом ящике (значение параметра _enabled_ $true в командлете [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) в командной консоли Exchange). Это правило нежелательной почты, которое фактически перемещает сообщение в папку "Нежелательная почта" после доставки. По умолчанию правило нежелательной почты включено в почтовых ящиках. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
   
-- Чтобы открыть центр администрирования Exchange на сервере Exchange Server, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Чтобы открыть командную консоль Exchange, ознакомьтесь [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell)со статьей.
+- Чтобы открыть центр администрирования Exchange на сервере Exchange Server, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Чтобы открыть командную консоль Exchange, ознакомьтесь со статьей [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
 - Дополнительные сведения о правилах обработки почтового ящика в локальном Exchange представлены в следующих разделах:
 
@@ -74,11 +74,11 @@ ms.locfileid: "44036576"
 
 1. В Центре администрирования Exchange перейдите в раздел **Поток обработки почты** \> **Правила**.
 
-2. Нажмите **Добавить** ![значок](../../media/ITPro-EAC-AddIcon.png) добавить и выберите **создать новое правило** в раскрывающемся списке.
+2. Нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.png) и выберите **создать новое правило** в раскрывающемся списке.
 
 3. На открывшейся странице **Новое правило** настройте следующие параметры:
 
-   - **Name**: введите уникальное описательное имя правила. Пример:
+   - **Name**: введите уникальное описательное имя правила. Например:
 
      - EOP SFV: SPM на SCL 6
 
@@ -88,15 +88,15 @@ ms.locfileid: "44036576"
 
    - Нажмите кнопку **Дополнительные параметры**.
 
-   - **Применять это правило, если**: выберите **заголовок** \> сообщения, **содержащий любое из этих слов**.
+   - **Применять это правило, если**: выберите **заголовок сообщения** , \> **содержащий любое из этих слов**.
 
      В **заголовке ввод текста содержит предложение ввести слова** , которое появляется, выполните следующие действия:
 
      - Нажмите **Ввод текста**. В появившемся диалоговом окне **Укажите имя заголовка** введите **X — Forefront – защиты от спама – Report** , а затем нажмите кнопку **ОК**.
 
-     - Нажмите кнопку **ввод слов**. В появившемся диалоговом окне **Укажите слова или фразы** введите одно из значений заголовка нежелательной почты EOP (**SFV: SPM**, **SFV: СКС**или **SFV: СКБ**) **Add** ![, нажмите Добавить](../../media/ITPro-EAC-AddIcon.png)значок Добавить, а затем нажмите кнопку **ОК**.
+     - Нажмите кнопку **ввод слов**. В появившемся диалоговом окне **Укажите слова или фразы** введите одно из значений заголовка нежелательной почты EOP (**SFV: SPM**, **SFV: СКС**или **SFV: СКБ**), нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.png) , а затем нажмите кнопку **ОК**.
 
-   - **Выполните следующие**действия: выберите **изменить свойства** \> сообщения **установите уровень вероятности нежелательной почты (SCL)**.
+   - **Выполните следующие**действия: выберите **изменить свойства сообщения** \> **установите уровень вероятности нежелательной почты (SCL)**.
 
      В появившемся диалоговом окне **Указание вероятности нежелательной почты** выберите **6** (значение по умолчанию — **5**).
 
@@ -112,7 +112,7 @@ ms.locfileid: "44036576"
 New-TransportRule -Name "<RuleName>" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "<EOPSpamFilteringVerdict>" -SetSCL 6
 ```
 
-Пример:
+Например:
 
 ```Powershell
 New-TransportRule -Name "EOP SFV:SPM to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SPM" -SetSCL 6
@@ -132,9 +132,9 @@ New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-F
 
 Чтобы убедиться, что вы успешно настроили автономный EOP для доставки спама в папку нежелательной почты в гибридной среде, выполните одно из указанных ниже действий.
 
-- В центре администрирования Exchange перейдите к разделу **правила**обработки **почты** \> , выберите правило, а затем щелкните **изменить** ![значок](../../media/ITPro-EAC-EditIcon.png) редактирования, чтобы проверить параметры.
+- В центре администрирования Exchange перейдите к разделу правила обработки **почты** \> **Rules**, выберите правило, а затем щелкните **изменить** ![ значок редактирования, ](../../media/ITPro-EAC-EditIcon.png) чтобы проверить параметры.
 
-- В командной консоли Exchange замените \<RuleName\> на имя правила для процесса обработки почты и Рул следующую команду, чтобы проверить параметры:
+- В командной консоли Exchange замените \< RuleName \> на имя правила для процесса обработки почты и Рул следующую команду, чтобы проверить параметры:
 
   ```powershell
   Get-TransportRule -Identity "<RuleName>" | Format-List

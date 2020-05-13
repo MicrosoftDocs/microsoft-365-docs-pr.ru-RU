@@ -16,14 +16,14 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Настройте соединитель для импорта данных Twitter в Microsoft 365, чтобы вы могли использовать такие функции обеспечения соответствия, как судебное хранение, поиск контента и политики хранения.
-ms.openlocfilehash: 5fb13b3a5eb79c09c2947292b793fe607dae247f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: efc02dcf7b9c40fafedf230e4786f6f6494c27d6
+ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035131"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210585"
 ---
-# <a name="set-up-a-connector-to-archive-twitter-data"></a>Настройка соединителя для архивации данных Twitter
+# <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Настройка соединителя для архивации данных Twitter (Предварительная версия)
 
 Использование соединителя в центре соответствия требованиям Microsoft 365 для импорта и архивирования данных из Twitter в Microsoft 365. После настройки и настройки соединителя он подключается к учетной записи Twitter Организации (по расписанию), преобразует содержимое элемента в формат электронного письма, а затем импортирует эти элементы в почтовый ящик в Microsoft 365.
 
@@ -82,7 +82,7 @@ ms.locfileid: "44035131"
 
 - tenantId: идентификатор клиента организации Microsoft 365, который вы скопировали после создания приложения Twitter в Azure Active Directory на этапе 1.
 
-После выполнения этого действия обязательно скопируйте URL-адрес службы приложений (например, `https://twitterconnector.azurewebsites.net`). Необходимо использовать этот URL-адрес, чтобы выполнить действия 3, шаг 4 и шаг 5.
+После выполнения этого действия обязательно скопируйте URL-адрес службы приложений (например, `https://twitterconnector.azurewebsites.net` ). Необходимо использовать этот URL-адрес, чтобы выполнить действия 3, шаг 4 и шаг 5.
 
 ## <a name="step-3-create-developer-app-on-twitter"></a>Шаг 3: создание приложения для разработчиков в Twitter
 
@@ -128,6 +128,6 @@ ms.locfileid: "44035131"
 
 По завершении этого этапа (следуя пошаговым инструкциям), вы получите следующие сведения (скопированные в текстовый файл после выполнения этих действий).
 
-- URL-адрес службы приложений Azure (получено на этапе 2; `https://twitterconnector.azurewebsites.net`например,)
+- URL-адрес службы приложений Azure (получено на этапе 2; например, `https://twitterconnector.azurewebsites.net` )
 
 - Аписекреткэй (созданный на этапе 2)

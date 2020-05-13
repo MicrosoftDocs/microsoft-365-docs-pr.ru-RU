@@ -2,10 +2,10 @@
 title: Общие вопросы и ответы по EOP
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 1/2/2018
+ms.date: ''
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
-description: В этом разделе вы найдете наиболее распространенные общие вопросы об облачной службе фильтрации электронной почты Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: 48841e5e68dd560329eadc0a654e6d8fe1b2d09e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+description: Ответы на наиболее распространенные общие вопросы об облачной службе фильтрации электронной почты Exchange Online Protection (EOP).
+ms.openlocfilehash: 02aa7175e95cf706ed13268035953400af2485a7
+ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036564"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44206666"
 ---
 # <a name="eop-general-faq"></a>Общие вопросы и ответы по EOP
 
-Ниже приведены ответы на самые распространенные общие вопросы об облачной службе фильтрации электронной почты Microsoft Exchange Online Protection (EOP). Другие разделы, посвященные вопросам и ответам, можно найти по следующим ссылкам:
+Здесь мы будем отвечать на наиболее распространенные общие вопросы о облачной службе фильтрации электронной почты Exchange Online Protection (EOP). Другие разделы, посвященные вопросам и ответам, можно найти по следующим ссылкам:
 
 - [Поставленные в очередь, отложенные и возвращенные сообщения EOP: вопросы и ответы](eop-queued-deferred-and-bounced-messages-faq.md)
 
@@ -37,56 +37,56 @@ ms.locfileid: "44036564"
 
 - [Вопросы и ответы по трассировке сообщений](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/message-trace-faq)
 
-**Вопрос. Что такое EOP?**
+## <a name="what-is-eop"></a>Что такое EOP?
 
-Ответ. EOP  это облачная служба фильтрации электронной почты, предназначенная для защиты клиентов от нежелательной почты и вредоносных программ, а также для внедрения настраиваемых правил политики.
+EOP  это облачная служба фильтрации электронной почты, предназначенная для защиты клиентов от нежелательной почты и вредоносных программ, а также для внедрения настраиваемых правил политики. EOP включен в любую подписку на Microsoft 365, содержащую почтовые ящики Exchange Online. EOP также можно использовать в качестве автономного предложения для защиты локальных почтовых сред.
 
-**Вопрос. Как подписаться на пробную версию EOP или купить EOP?**
+## <a name="how-do-i-sign-up-for-an-eop-trial-or-purchase-eop"></a>Как подписаться на пробную версию EOP или купить EOP?
 
-Ответ. Получите пробную версию EOP или купите EOP на [домашней странице Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection). Обратите внимание на то, что функциональность пробной версии подписки аналогична платной, но также содержит дополнительные возможности, предоставляемые [Exchange Enterprise CAL со службами](https://products.office.com/exchange/microsoft-exchange-server-licensing-licensing-overview).
+Получите пробную версию EOP или купите EOP на [домашней странице Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection). Обратите внимание на то, что функциональность пробной версии подписки аналогична платной, но также содержит дополнительные возможности, предоставляемые [Exchange Enterprise CAL со службами](https://products.office.com/exchange/microsoft-exchange-server-licensing-licensing-overview).
 
-**Вопрос. Каковы расценки на EOP?**
+## <a name="how-is-eop-priced"></a>Каковы расценки на EOP?
 
-Ответ. EOP лицензируется по количеству пользователей. Последние сведения о ценах см. на [домашней странице Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection).
+EOP лицензируется по количеству пользователей. Последние сведения о ценах можно найти на [домашней странице Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection).
 
-**Вопрос. Сколько времени требуется на ввод EOP в рабочий режим?**
+## <a name="how-long-does-it-take-to-put-eop-into-production"></a>Сколько времени требуется на ввод EOP в рабочий режим?
 
-Ответ. Если поток вашей почты проходит через EOP, фильтрация начинается сразу после изменения записи MX (инструкции по изменению приводятся в разделе [Настройка службы EOP](set-up-your-eop-service.md)). На распространение записи MX через DNS может потребоваться от 24 до 48 часов. Точную настройку параметров защиты можно выполнить в Центре администрирования Exchange во время этого процесса.
+Если поток вашей почты проходит через EOP, фильтрация начинается сразу после изменения записи MX (инструкции по изменению приводятся в разделе [Настройка службы EOP](set-up-your-eop-service.md)). На распространение записи MX через DNS может потребоваться от 24 до 48 часов. Вы можете настроить параметры защиты в любое время в ходе этого процесса.
 
-**В. необходимо ли использовать все функции Microsoft 365, чтобы использовать EOP? Что делать, если я только хочу EOP защиту и все?**
+## <a name="do-i-have-to-use-all-features-of-microsoft-365-to-use-eop-what-if-i-just-want-eop-protection-and-thats-all"></a>Нужно ли использовать все функции Microsoft 365 для использования EOP? Что делать, если я только хочу EOP защиту и все?
 
-О. Вы можете использовать EOP для защиты локальных почтовых ящиков, не используя никакие другие функции Microsoft 365. Это называется "автономной подпиской". Список функций EOP можно найти в статье [Описание службы Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+Вы можете использовать EOP для защиты локальных почтовых ящиков, не используя никакие другие функции Microsoft 365. Это называется "автономной подпиской". Список функций EOP можно найти в статье [Описание службы Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
 
-**В. Зачем нужен клиент Microsoft 365 при регистрации для фильтрации электронной почты через EOP?**
+## <a name="why-do-i-need-a-microsoft-365-tenant-when-signing-up-for-email-filtering-through-eop"></a>Зачем нужен клиент Microsoft 365 при регистрации для фильтрации электронной почты с помощью EOP?
 
-О. Microsoft 365 — это имя, присваиваемое семейству продуктов и служб, доступ к которым можно получить с помощью клиента Microsoft 365. Подумаем о клиенте Microsoft 365 в качестве отправной точки, к которой вы можете добавить лицензии для фильтрации электронной почты.
+Microsoft 365 — это имя, присваиваемое семейству продуктов и служб, доступ к которым можно получить с помощью клиента Microsoft 365. Подумаем о клиенте Microsoft 365 в качестве отправной точки, к которой вы можете добавить лицензии для фильтрации электронной почты.
 
-**Вопрос. Содержит ли служба EOP такой коммуникационный портал, где можно узнать об известных проблемах и предполагаемых решениях? Какие новые функции этой службы?**
+## <a name="does-eop-have-a-communication-portal-where-i-can-find-out-about-known-issues-and-expected-resolutions-what-about-new-features"></a>Содержит ли служба EOP такой коммуникационный портал, где можно узнать об известных проблемах и предполагаемых решениях? Какие новые функции этой службы?
 
-Ответ. В центре администрирования Microsoft 365 будет указана часть этих сведений. Если вы оказываете влияние на событие уровня обслуживания, то после входа в центр администрирования Microsoft 365 вы увидите оповещение о связи (обычно сопровождается значком колокольчика). Рекомендуем прочитать его и выполнить необходимые действия.
+В центре администрирования Microsoft 365 будет указана часть этих сведений. Если вы оказываете влияние на событие уровня обслуживания, то после входа в центр администрирования Microsoft 365 вы увидите оповещение о связи (обычно сопровождается значком колокольчика). Рекомендуем прочитать его и выполнить необходимые действия.
 
 О новых возможностях EOP [корпорация майкрософт 365 для бизнеса](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) — это хороший ресурс для получения сведений о новых возможностях. Кроме того, мы будем отправлять статьи блогов о новых возможностях на веб-сайт [блогов Microsoft 365](https://www.microsoft.com/microsoft-365/blog/) .
 
-**Вопрос. Работает ли служба с прежними версиями Exchange (например, с Exchange Server 2010) и средами, не основанными на Exchange?**
+## <a name="does-the-service-work-with-legacy-exchange-versions-such-as-exchange-server-2010-and-non-exchange-environments"></a>Работает ли служба с прежними версиями Exchange (например, с Exchange Server 2010) и средами, не основанными на Exchange?
 
-Ответ. Да, работа службы не зависит от сервера. Ее можно использовать с любым агентом передачи почты SMTP.
+Да, служба не зависит от сервера и может использоваться с любым агентом передачи почты SMTP.
 
-**Вопрос. Организации какого размера могут использовать службу?**
+## <a name="what-size-organization-can-use-the-service"></a>Организации какого размера могут использовать службу?
 
-Ответ. Любого. Сеть EOP обладает достаточной пропускной способностью, чтобы учесть рост вашей организации, независимо от темпов роста.
+Любого. Сеть EOP обладает достаточной пропускной способностью, чтобы учесть рост вашей организации, независимо от темпов роста.
 
-**Какие разрешения нужны для настройки EOP?**
+## <a name="what-permissions-do-i-need-to-set-up-eop"></a>Какие разрешения нужны для настройки EOP?
 
 Для настройки EOP необходимо быть глобальным администратором или администратором компании Exchange (группа ролей управления организацией).
 
-**Вопрос. Как я могу убедиться в безопасности моих данных и конфиденциальных сведений?**
+## <a name="how-do-i-know-my-data-and-private-information-are-safe"></a>Как я могу убедиться в безопасности моих данных и конфиденциальных сведений?
 
-Ответ. Дополнительные сведения о мерах, которые мы предпринимаем для обеспечения безопасности ваших данных и конфиденциальных сведений, в том числе сведений о соглашениях об уровне обслуживания, можно найти на веб-сайте [Центр управления безопасностью Office 365](https://www.microsoft.com/trust-center).
+Дополнительные сведения о мерах, которые мы предпринимаем для обеспечения безопасности ваших данных и конфиденциальных сведений, в том числе сведений о соглашениях об уровне обслуживания, можно найти на веб-сайте [Центр управления безопасностью Office 365](https://www.microsoft.com/trust-center).
 
-**Вопрос. Существуют ли ограничения, о которых мне следует знать, например ограничения размера сообщения?**
+## <a name="are-there-any-limits-i-should-be-aware-of-such-as-message-size-limitations"></a>Существуют ли ограничения, о которых мне следует знать, например ограничения размера сообщения?
 
-Ответ. Да. Дополнительные сведения об ограничениях в EOP см. в статье [Ограничения Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits).
+Да. Более подробную информацию об ограничении в EOP можно узнать в статье [Exchange Online Protection Limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits).
 
-**В. поддерживает ли EOP PowerShell?**
+## <a name="does-eop-support-powershell"></a>Поддерживает ли EOP PowerShell?
 
-О. Да, все функции EOP доступны через PowerShell. Дополнительные сведения см. в статье [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell).
+Да, полнофункциональные функции EOP доступны через PowerShell: Exchange Online PowerShell для организаций с почтовыми ящиками Exchange Online; Изолированная EOP PowerShell для автономных организаций EOP. Дополнительные сведения см. в статье [Exchange Online PowerShell PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) и [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell).
