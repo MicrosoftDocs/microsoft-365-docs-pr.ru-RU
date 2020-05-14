@@ -210,14 +210,14 @@
               href: set-up-azure-rms-for-previous-version-message-encryption.md
     - name: Настройка IRM в Центре администрирования SharePoint
       href: set-up-irm-in-sp-admin-center.md
-    - name: Общие сведения о классификации данных (предварительная версия)
+    - name: Общие сведения о классификации данных
       href: data-classification-overview.md
       items:
-        - name: Начало работы с обозревателем содержимого (предварительная версия)
+        - name: Начало работы с обозревателем контента
           href: data-classification-content-explorer.md
-        - name: Начало работы с обозревателем действий (предварительная версия)
+        - name: Начало работы с обозревателем действий
           href: data-classification-activity-explorer.md
-        - name: Заметки о выпуске общедоступной предварительной версии классификации данных (предварительная версия)
+        - name: Заметки о выпуске классификации данных
           href: data-classification-pub-preview-relnotes.md
         - name: Начало работы с обучаемыми классификаторами (предварительная версия)
           href: classifier-getting-started-with.md
