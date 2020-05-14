@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3cc92be00eca4f1e90917cadea26df8f10adf267
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: dfbb5ed43c5256109ccc0a137a3d144d084e573e
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066616"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214245"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>Стандарты управления информационной безопасностью ISO/IEC 27001:2013
 
@@ -125,7 +125,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 **Где можно получить отчеты аудита по ISO 27001 и SCOPE для служб Майкрософт?**
 
-На портале [Service Trust Portal](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) представлены отчеты независимых аудитов соответствия требованиям. Вы можете воспользоваться порталом для запроса отчетов, что позволит вашим аудиторам сравнить результаты для облачных служб Майкрософт с вашими юридическими и нормативными требованиями.
+На портале [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) представлены отчеты независимых аудитов соответствия требованиям. Вы можете воспользоваться порталом для запроса отчетов, что позволит вашим аудиторам сравнить результаты для облачных служб Майкрософт с вашими юридическими и нормативными требованиями.
 
 **Проводит ли корпорация Майкрософт ежегодные испытания на ошибки инфраструктуры?**
 

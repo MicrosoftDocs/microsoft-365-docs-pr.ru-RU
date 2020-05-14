@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: Сводка. Защита файлов на строго конфиденциальном сайте группы SharePoint Online с помощью службы Azure Information Protection.
-ms.openlocfilehash: 1c704689518da14bcabb56e81830b8456ebd2951
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f905f673efe050e07ad26728628bce05073a26b8
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632194"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214643"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Защита файлов SharePoint Online с помощью Azure Information Protection
 
@@ -42,7 +42,7 @@ ms.locfileid: "43632194"
 Некоторые важные замечания об этом решении:
 - Когда шифрование Azure Information Protection применяется к файлам в Office 365, служба не может обрабатывать содержимое этих файлов. Совместное редактирование, обнаружение электронных данных, поиск, Delve и другие функции совместной работы неактивны. Политики защиты от потери данных могут работать только с метаданными (включая метки Microsoft 365), но не с содержимым этих файлов (например, номерами кредитных карт в файлах).
 
-- Для этого решения требуется, чтобы пользователь выбрал метку, которая применяет защиту от Azure Information Protection. Если вам требуется автоматическое шифрование, а также возможность индексировать и проверять файлы в SharePoint, рекомендуется использовать управление правами на доступ к данным (IRM) в SharePoint Online. При настройке библиотеки SharePoint для IRM, файлы автоматически шифруются, если они скачиваются для редактирования. Управление правами на доступ к данным SharePoint включает в себя ограничения, которые могут повлиять на ваше решение. Дополнительные сведения см. в статье [Настройка управления правами на доступ к данным (IRM) в центре администрирования SharePoint](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C).
+- Для этого решения требуется, чтобы пользователь выбрал метку, которая применяет защиту от Azure Information Protection. Если вам требуется автоматическое шифрование, а также возможность индексировать и проверять файлы в SharePoint, рекомендуется использовать управление правами на доступ к данным (IRM) в SharePoint Online. При настройке библиотеки SharePoint для IRM, файлы автоматически шифруются, если они скачиваются для редактирования. Управление правами на доступ к данным SharePoint включает в себя ограничения, которые могут повлиять на ваше решение. Дополнительные сведения см. в статье [Настройка управления правами на доступ к данным (IRM) в центре администрирования SharePoint](https://docs.microsoft.com/microsoft-365/compliance/set-up-irm-in-sp-admin-center).
 
 ## <a name="admin-setup"></a>Настройка администратора
 Прежде всего, для настройки подписки на Microsoft 365 выполните действия, описанные в статье [Как активировать Azure RMS в Центре администрирования Microsoft 365](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).

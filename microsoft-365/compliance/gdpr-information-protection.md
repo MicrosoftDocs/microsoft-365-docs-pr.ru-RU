@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9564445f6b5a92479ba264947dbeaa109db76e14
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 196cbc0ebc05683315766b736dd9d5fc2d92afd2
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036222"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214573"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Защита информации в соответствии с Общим регламентом по защите данных (GDPR) при помощи возможностей Microsoft 365
 
@@ -56,8 +56,8 @@ Azure Active Directory и другие компоненты Microsoft 365 пре
 
 Защита от угроз доступна в службах Microsoft 365. Вот несколько ресурсов для начала:
 
-- [Схема для обеспечения безопасности в Office 365: приоритеты на первые 30 и 90 дней, а также на большее количество дней.](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) Эта схема включает рекомендации по реализации возможностей. 
-- [Защита от угроз в Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Сведения о мерах защиты, которые вы можете принять, см. в центре безопасности Microsoft 365.
+- [Схема для обеспечения безопасности в Office 365: приоритеты на первые 30 и 90 дней, а также на большее количество дней.](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) Эта схема включает рекомендации по реализации возможностей. 
+- [Защита от угроз в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Сведения о мерах защиты, которые вы можете принять, см. в центре безопасности Microsoft 365.
 - [Защита от угроз в Windows.](https://docs.microsoft.com/windows/security/threat-protection/) Сведения об Advanced Threat Protection в Защитнике Windows и других возможностях Windows 10.
 
 ## <a name="learn-more"></a>Дополнительные сведения

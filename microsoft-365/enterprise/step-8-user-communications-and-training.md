@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовить пользователей к работе с Windows 10 и приложениями Microsoft 365 для предприятий.
-ms.openlocfilehash: 7497925b7efd66dd4b86dd4d64df81490bbc7d90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e6118e1029186c84bebdb0fee079364f22356c2e
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636751"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222665"
 ---
 # <a name="step-8-user-communications-and-training"></a>Шаг 8. Информирование и обучение пользователей
 
@@ -61,7 +61,7 @@ ms.locfileid: "43636751"
 
 Например, при включенной многофакторной проверке подлинности используется Azure AD. Для безопасного доступа к ресурсам и службам пользователь должен будет выполнить вход с помощью приложения для телефона или PIN-кода. Azure Information Protection упрощает классификацию и маркировку документов.
 
-[Настройка многофакторной проверки подлинности для пользователей](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+[Настройка многофакторной проверки подлинности для пользователей](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)
 
 В распоряжении пользователей появятся новые возможности, некоторые из них станут приятным (или не столь приятным) сюрпризом. Такие сюрпризы, особенно меняющие привычный рабочий процесс, могут привести к увеличению числа звонков и запросов в службу технической поддержки.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Используйте инструмент поиска контента в Центре безопасности и соответствия требованиям для поиска и экспорта данных чата MicrosoftTeams (называемых чатами 1xN) для локальных пользователей в гибридном развертывании Exchange.
-ms.openlocfilehash: 7b05460bb41ff97c8571a96b38a8eebd50a206fd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 488a08067a39ff4bab61696d5faf8b7c849b4ab8
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034576"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214603"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Поиск облачных почтовых ящиков для локальных пользователей
 
@@ -59,7 +59,7 @@ ms.locfileid: "44034576"
   
 - Доменное имя организации по умолчанию.
 
-- Имя и идентификатор клиента организации. Их можно найти на портале Azure Active Directory (в разделе **управление** \> **свойства **). См. статью [Поиск идентификатора клиента Microsoft 365](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b).
+- Имя и идентификатор клиента организации. Их можно найти на портале Azure Active Directory (в разделе **управление** \> **свойства **). См. статью [Поиск идентификатора клиента Microsoft 365](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
 
 - Следующий заголовок или описание цели запроса поддержки: «Включить поиск содержимого приложения для локальных пользователей». Это помогает направить запрос команде разработчиков eDiscovery, которая выполнит запрос.
 

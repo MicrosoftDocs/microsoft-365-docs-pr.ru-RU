@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовиться к обслуживанию Windows и Office в вашей среде.
-ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: f30581408be1c69d7aec7e31e9b5d6461266adb1
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011619"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222677"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Этап 7. Обслуживание Windows и Office
 
@@ -95,7 +95,7 @@ ms.locfileid: "44011619"
 
 Для Microsoft 365 предлагается четыре канала обслуживания:
 
-- [**Программа предварительной оценки Office**](https://support.office.com/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16) для тестирования организациями новых возможностей и функций Office, которые находятся в разработке, и предоставления отзыва о них
+- [**Программа предварительной оценки Office**](https://products.office.com/office-insider) для тестирования организациями новых возможностей и функций Office, которые находятся в разработке, и предоставления отзыва о них
 - **Monthly Channel** для предоставления пользователям новейших возможностей Office по мере их выпуска
 - **Semi-Annual Channel** предоставляет новые функции в новых компонентах только два раза в год
 - **Semi-Annual Channel (Targeted)**  — полностью поддерживаемая сборка Office, которая позволяет пилотным пользователям и тестировщикам совместимости приложений тестировать и проверять следующий выпуск Semi-Annual Channel

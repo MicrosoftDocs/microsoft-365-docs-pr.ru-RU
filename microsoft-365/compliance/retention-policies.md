@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'С помощью политики хранения вы можете заблаговременно решить, как поступить с содержимым. Она позволяет следующее: хранить содержимое, удалить или удалить через какое-то время; применить единую политику ко всей организации или к некоторым расположениям либо пользователям; применить политику ко всему содержимому или к удовлетворяющему определенным условиям.'
-ms.openlocfilehash: 36866f457369248f642a4189f2d9f46e58baa2a3
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a4bf22f7064e74926935a228f84281af9171bedc
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165950"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214613"
 ---
 # <a name="overview-of-retention-policies"></a>Общие сведения о политиках хранения
 
@@ -422,7 +422,7 @@ ms.locfileid: "44165950"
   
 ### <a name="exchange-online"></a>Exchange Online
 
-- [Управление делами обнаружения электронных данных (eDiscovery) в Центре безопасности &amp; соответствия требованиям](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da) (удержание для обнаружения электронных данных) 
+- [Управление делами обнаружения электронных данных (eDiscovery) в Центре безопасности &amp; соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery) (удержание для обнаружения электронных данных) 
     
 - [Удержание на месте и хранение для судебного разбирательства](https://go.microsoft.com/fwlink/?linkid=846124) (удержание для обнаружения электронных данных) 
 
@@ -432,15 +432,15 @@ ms.locfileid: "44165950"
     
 ### <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online и OneDrive для бизнеса
 
-- [Управление делами обнаружения электронных данных (eDiscovery) в Центре безопасности &amp; соответствия требованиям](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da) (удержание для обнаружения электронных данных) 
+- [Управление делами обнаружения электронных данных (eDiscovery) в Центре безопасности &amp; соответствия требованиям](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery) (удержание для обнаружения электронных данных) 
     
-- [Добавление содержимого к делу и настройка удержания источников в Центре обнаружения электронных данных](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479) (удержание для обнаружения электронных данных) 
+- [Добавление содержимого к делу и настройка удержания источников в Центре обнаружения электронных данных](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) (удержание для обнаружения электронных данных) 
     
-- [Обзор политик удаления документов](https://support.office.com/article/55e8d858-f278-482b-a198-2e62d6a2e6e5) (только удаление) 
+- [Обзор политик удаления документов](https://docs.microsoft.com/microsoft-365/compliance/document-deletion-policies) (только удаление) 
     
 - [Настройка управления записями на месте](https://support.office.com/article/7707a878-780c-4be6-9cb0-9718ecde050a) (хранение) 
     
-- [Использование политик для закрытия и удаления сайта](https://support.office.com/article/a8280d82-27fd-48c5-9adf-8a5431208ba5) (только удаление) 
+- [Использование политик для закрытия и удаления сайта](https://support.microsoft.com/ru-RU/office/use-policies-for-site-closure-and-deletion-a8280d82-27fd-48c5-9adf-8a5431208ba5) (только удаление) 
     
 - [Политики управления информацией](intro-to-info-mgmt-policies.md) (только удаление) 
     

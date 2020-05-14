@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 279ecf60b0d9c023449031a3c5f086f15b18049f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: b2542f697edb28c4949b844ae32d606dba5e7a1c
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065754"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214307"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Стандарты ISO 9001:2015 "Системы менеджмента качества"
 
@@ -57,15 +57,15 @@ ISO 9001:2015 — это международный стандарт, опред
 
 **Где можно получить отчеты аудита по ISO 9001:2015 и инструкции о применении для служб Майкрософт?**
 
-На портале [Service Trust Portal](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) представлены отчеты независимых аудитов соответствия требованиям. Вы можете воспользоваться порталом для запроса отчетов, что позволит вашим аудиторам сравнить результаты для облачных служб Майкрософт с вашими юридическими и нормативными требованиями. Доступны [отчет по оценке Microsoft Azure ISO 9001 в 2017 финансовом году](https://aka.ms/Azure9001Report) и [сертификат Microsoft Azure ISO 9001 для 2017 финансового года](https://aka.ms/Azure9001Cert).
+На портале [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) представлены отчеты независимых аудитов соответствия требованиям. Вы можете воспользоваться порталом для запроса отчетов, что позволит вашим аудиторам сравнить результаты для облачных служб Майкрософт с вашими юридическими и нормативными требованиями. Доступны [отчет по оценке Microsoft Azure ISO 9001 в 2017 финансовом году](https://www.microsoft.com/?ref=aka) и [сертификат Microsoft Azure ISO 9001 для 2017 финансового года](https://www.microsoft.com/?ref=aka).
 
 **Проводит ли корпорация Майкрософт ежегодные испытания на ошибки инфраструктуры?**
 
-Да. Ежегодная оценка ISO 9001:2015 включает центр обработки данных базовой физической инфраструктуры. Рассматриваемые сведения см. в [сертификате](https://aka.ms/Azure9001Cert).
+Да. Ежегодная оценка ISO 9001:2015 включает центр обработки данных базовой физической инфраструктуры. Рассматриваемые сведения см. в [сертификате](https://www.microsoft.com/?ref=aka).
 
 **Где можно посмотреть сведения о соответствии Майкрософт требованиям ISO 9001:2015?**
 
-Вы можете скачать [сертификат ISO 9001:2015](https://aka.ms/Azure9001Cert) для Azure и дополнительных служб, включенных в эту оценку.
+Вы можете скачать [сертификат ISO 9001:2015](https://www.microsoft.com/?ref=aka) для Azure и дополнительных служб, включенных в эту оценку.
 
 ## <a name="resources"></a>Ресурсы
 
