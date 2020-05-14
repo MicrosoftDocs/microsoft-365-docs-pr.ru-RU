@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Узнайте, как использовать &amp; центр соответствия требованиям безопасности для подготовки данных для анализа с помощью расширенного обнаружения электронных данных. '
-ms.openlocfilehash: 25b500e88e53dfae9b8fa9d504a402f4e2f7ce12
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 31bf002c275b228de12b7ff9e39fabf7c72be74d
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208103"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214287"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>Подготовка данных для расширенного обнаружения электронных данных (классический)
 
@@ -37,7 +37,7 @@ ms.locfileid: "44208103"
 Подробные инструкции по подготовке результатов поиска для анализа в Advanced eDiscovery приведены в статье [Подготовка результатов поиска для расширенного обнаружения электронных](prepare-search-results-for-advanced-ediscovery.md)данных.
   
 > [!NOTE]
-> Если у вас есть данные за пределами Microsoft 365 и хотите импортировать их в Microsoft 365, чтобы вы могли подготовить и проанализировать их в Advanced eDiscovery, ознакомьтесь со статьей [Обзор импорта PST-файлов в microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) и [архивации сторонних данных](https://go.microsoft.com/fwlink/p/?linkid=716918). 
+> Если у вас есть данные за пределами Microsoft 365 и хотите импортировать их в Microsoft 365, чтобы вы могли подготовить и проанализировать их в Advanced eDiscovery, ознакомьтесь со статьей [Обзор импорта PST-файлов в microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365) и [архивации сторонних данных](https://www.microsoft.com/?ref=go). 
   
 ## <a name="step-2-load-search-result-data-in-to-a-case-in-advanced-ediscovery"></a>Шаг 2: Загрузка данных результатов поиска в дело с дополнительным обнаружением электронных данных
 

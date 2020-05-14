@@ -15,16 +15,16 @@ search.appverid:
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Отправка и ответ на зашифрованное S/MIME-сообщение в Microsoft Outlook очень похоже на взаимодействие с незашифрованными сообщениями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b573cb7a0a299b5b8c942b198e141b98b8301087
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: c6d1e546141474ba263e141bc9a731f3f04ef74d
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035400"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224689"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Отправка и получение зашифрованных и зашифрованных сообщений S/MIME в Exchange Online
 
-Отправка и ответ на зашифрованное S/MIME-сообщение в Microsoft Outlook очень похоже на взаимодействие с незашифрованными сообщениями. Дополнительные сведения о чтении или отправке сообщений, зашифрованных с помощью S/MIME, из программы электронной почты, такой как Outlook Web App (прежнее название Outlook Web App), приведены [в разделе Шифрование сообщений с помощью S/MIME в Outlook в Интернете](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480).
+Отправка и ответ на зашифрованное S/MIME-сообщение в Microsoft Outlook очень похоже на взаимодействие с незашифрованными сообщениями. Дополнительные сведения о чтении или отправке сообщений, зашифрованных с помощью S/MIME, из программы электронной почты, такой как Outlook Web App (прежнее название Outlook Web App), приведены [в разделе Шифрование сообщений с помощью S/MIME в Outlook в Интернете](https://support.microsoft.com/en-us/office/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 

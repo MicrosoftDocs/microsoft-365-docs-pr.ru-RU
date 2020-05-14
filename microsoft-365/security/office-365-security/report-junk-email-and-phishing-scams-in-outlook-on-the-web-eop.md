@@ -1,5 +1,5 @@
 ---
-title: Ррепорт нежелательных и фишинговых сообщений электронной почты в Outlook в Интернете
+title: Отправка нежелательных и фишинговых сообщений электронной почты в Outlook в Интернете
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут изучить встроенные параметры отчетов о нежелательной почте, нежелательной почте и фишинге в Outlook в Интернете (Outlook Web App) в Exchange Online, а также как отключить эти параметры отчетов для пользователей.
-ms.openlocfilehash: 1ec226259ccb3dac9a01ee8d4c5fc635c0fc5702
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: dd4b23efa9e12a02ce69167712bc0466b3445c44
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206482"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224701"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Отправка нежелательных и фишинговых сообщений электронной почты в Outlook в Интернете в Exchange Online
 

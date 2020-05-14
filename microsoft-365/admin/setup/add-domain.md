@@ -25,19 +25,19 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Добавьте свой домен в Office 365 в центре администрирования Microsoft 365, добавив запись DNS на узел DNS. Мастер установки проводит вас через процесс.
-ms.openlocfilehash: bab4da6e4a8191d91ccdd38dd54f62f4d790c3b8
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 336e6ee78d7020d73c7e00f639e8f1e1b20c62cd
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140779"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222343"
 ---
-# <a name="add-a-domain-to-office-365"></a>Добавление домена в Office 365
+# <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ ms.locfileid: "44140779"
 
 ::: moniker-end
     
-2. Перейдите на страницу "**домены** **установки** > ". 
+2. Перейдите на страницу **Setup**"  >  **домены** установки". 
 
 3. Выберите **Добавить домен**.
     
@@ -82,7 +82,7 @@ ms.locfileid: "44140779"
     
 5. Выберите способ проверки того, что вы владеете доменом.
     
-    1. Если ваш домен зарегистрирован на&amp;GoDaddy или 1 1, нажмите кнопку **войти** > **Далее** , чтобы Майкрософт[настроила свои записи автоматически](../get-help-with-domains/domain-connect.md).
+    1. Если ваш домен зарегистрирован на GoDaddy или 1 &amp; 1, нажмите кнопку **войти**  >  **Далее** , чтобы Майкрософт [настроила свои записи автоматически](../get-help-with-domains/domain-connect.md).
     
     2. Вы можете отправить контакту, зарегистрированному для домена, сообщение электронной почты с кодом проверки. Если вы не узнаете или не можете получить доступ к записи электронной почты, вы можете использовать третий вариант.
     
@@ -113,9 +113,9 @@ ms.locfileid: "44140779"
 
 Выполните указанные ниже действия, чтобы добавить настраиваемую запись для веб-сайта или сторонней службы.
 
-1. Войдите в центр администрирования Майкрософт по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
+1. Войдите в центр администрирования Майкрософт по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-2. Перейдите на страницу "**домены** **параметров**  > ".
+2. Перейдите на страницу **Settings**"   >  **домены** параметров".
 
 3. На странице **Домены** выберите домен. 
     
@@ -136,7 +136,7 @@ ms.locfileid: "44140779"
   
 ### <a name="domain-connect-registrars-integrating-with-microsoft-365"></a>Служба регистраторов подключений к доменам интеграция с Microsoft 365
 
-- [1&amp;1 ионос](https://www.1and1.com/)
+- [1 &amp; 1 ионос](https://www.1and1.com/)
 - [123Reg](https://www.123-reg.co.uk/)
 - [GoDaddy](https://www.godaddy.com/)
 - [WordPress](https://wordpress.com/)

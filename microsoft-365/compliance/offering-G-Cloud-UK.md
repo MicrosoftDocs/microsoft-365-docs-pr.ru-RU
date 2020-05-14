@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 66db28688a483aea8c0092202eda258a2032027f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cc6f2a8c52a5fc829a9f04c51f78cf7ea5c2f1e1
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066564"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214503"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Правительство для Великобритании (Россия)
 
@@ -41,7 +41,7 @@ ms.locfileid: "44066564"
 
 Узнайте, как ускорить развертывание по принципу G — Cloud V6 для Великобритании с помощью нашего плана безопасности и соответствия требованиям Azure: [скачайте Руководство по реализации принципов внедрения Azure для Великобритании](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Cloud App Security
@@ -105,7 +105,7 @@ Microsoft Cloud в Великобритании обеспечивает над�
 
 **Как можно получить копии отчетов аудиторов?**
 
-На портале [Service Trust Portal](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) представлены отчеты независимых аудитов соответствия требованиям. С помощью портала можно запрашивать отчеты об аудите, чтобы ваши аудиторы могли сравнивать результаты Майкрософт с вашими юридическими и нормативными требованиями.
+На портале [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) представлены отчеты независимых аудитов соответствия требованиям. С помощью портала можно запрашивать отчеты об аудите, чтобы ваши аудиторы могли сравнивать результаты Майкрософт с вашими юридическими и нормативными требованиями.
 
 ## <a name="resources"></a>Ресурсы
 

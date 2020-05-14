@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: Администраторы могут узнать, как использовать S/MIME (безопасные/многоцелевые расширения почты Интернета) в Exchange Online для шифрования электронной почты и цифровой подписи.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c45df36535e7b5af2648b82f83159315b94bec8
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: cf9859240914e078eb62b0e914f8de79cf647f2d
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036624"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224677"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>S/MIME для подписи и шифрования сообщений в Exchange Online
 
@@ -51,7 +51,7 @@ S/MIME можно настроить для работы со следующим
 5. Настройте конечную точку Outlook или EAS для использования S/MIME.
 
 > [!NOTE]
-> Невозможно установить элемент управления S/MIME в Outlook в Интернете на Mac, iOS, Android или других устройствах, отличных от Windows. Дополнительные сведения см. [в разделе Шифрование сообщений с помощью S/MIME в Outlook в Интернете](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480).
+> Невозможно установить элемент управления S/MIME в Outlook в Интернете на Mac, iOS, Android или других устройствах, отличных от Windows. Дополнительные сведения см. [в разделе Шифрование сообщений с помощью S/MIME в Outlook в Интернете](https://support.microsoft.com/en-us/office/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 ## <a name="setup-smime-with-outlook-on-the-web"></a>Настройка S/MIME с помощью Outlook в Интернете
 

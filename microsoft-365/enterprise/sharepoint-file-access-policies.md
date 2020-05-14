@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 2b0d015485196bc76e7de580c888892967fe5d05
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035127"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222689"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Рекомендации политики по защите сайтов и файлов SharePoint
 
@@ -60,7 +60,7 @@ ms.locfileid: "43035127"
 
 Если вы реализуете элементы управления доступом в SharePoint Online, необходимо создать эту политику условного доступа в Azure AD, чтобы сообщить Azure AD о необходимости применения политик, настроенных в SharePoint Online. Это правило применяется ко всем пользователям, но влияет только на доступ к сайтам, указанным с помощью PowerShell, при создании элементов управления доступом в SharePoint Online.
 
-Чтобы настроить эту политику, обратитесь к разделу "Блокировка или ограничьте доступ к определенным семействам веб-сайтов SharePoint или учетным записям OneDrive" в этой статье: [Управление доступом с неуправляемых устройств](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622).
+Чтобы настроить эту политику, обратитесь к разделу "Блокировка или ограничьте доступ к определенным семействам веб-сайтов SharePoint или учетным записям OneDrive" в этой статье: [Управление доступом с неуправляемых устройств](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="sharepoint-online-access-control-policies"></a>Политики управления доступом SharePoint Online
 
@@ -69,7 +69,7 @@ ms.locfileid: "43035127"
 - Конфиденциальные сайты: разрешить доступ только к браузеру. Это не позволяет пользователям редактировать и загружать файлы.
 - Строго регулируемые сайты: блокировать доступ с неуправляемых устройств.
 
-В этой статье описывается раздел "Блокировка или ограничьте доступ к определенным семействам веб-сайтов SharePoint или учетным записям OneDrive" в этой статье: [Управление доступом с неуправляемых устройств](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622).
+В этой статье описывается раздел "Блокировка или ограничьте доступ к определенным семействам веб-сайтов SharePoint или учетным записям OneDrive" в этой статье: [Управление доступом с неуправляемых устройств](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
 
 ## <a name="how-these-policies-work-together"></a>Совместная работа этих политик
 

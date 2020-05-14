@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: c981ceefde2cedb5f6c8731fd9a5ad9318174120
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab045c2319897a98bffd14f898dd254b06890bee
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634781"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222376"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
@@ -40,7 +40,7 @@ ms.locfileid: "43634781"
     
 2. В левом верхнем углу щелкните ![значок средства запуска приложений в Office 365](../media/e5aee650-c566-4100-aaad-4cc2355d909f.png) и выберите **Администратор**, чтобы открыть Центр администрирования Microsoft 365. Если вы не видите плитку "Администратор", у вас нет разрешений администратора в Организации. 
     
-3. В левой области выберите пункт **центры** \> администрирования **SharePoint**.
+3. В левой области выберите пункт **центры администрирования** \> **SharePoint**.
     
 4. В левой области выберите **Параметры**, а затем **Страница "классические параметры**".
     
@@ -77,6 +77,6 @@ SharePoint Online поддерживает шифрование следующи
 
 После включения службы управления правами на доступ к данным для SharePoint Online можно приступить к применению управления правами к спискам и библиотекам. Сведения см. в статье [применение управления правами на доступ к данным для списка или библиотеки](apply-irm-to-a-list-or-library.md).
   
-Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьей развертывание нового клиента синхронизации OneDrive для Windows](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668).
+Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьей развертывание нового клиента синхронизации OneDrive для Windows](https://docs.microsoft.com/onedrive/deploy-on-windows).
   
 [Top of page](#introduction)  

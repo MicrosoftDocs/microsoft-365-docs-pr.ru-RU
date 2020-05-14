@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Сведения о неиндексированных элементах в Exchange и SharePoint, которые можно включить в поиск контента с помощью центра безопасности & соответствия требованиям. '
-ms.openlocfilehash: c44138c11c2703cda4accba9976c254a0b135d65
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 534f0014a448b4ef280586a724067f1a4f820693
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626683"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214215"
 ---
 # <a name="partially-indexed-items-in-content-search"></a>Частично индексированные элементы в поиске контента
 
@@ -57,11 +57,11 @@ ms.locfileid: "43626683"
   
 Список поддерживаемых и отключенных форматов файлов см. в следующих статьях:
   
-- **Exchange** - [Форматы файлов Exchange, индексируемые службой поиска Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange**  -  [Форматы файлов, индексируемые службой поиска Exchange](https://go.microsoft.com/fwlink/p/?LinkID=386618)
     
-- **Exchange** - [Get — searchdocumentformat используется](https://go.microsoft.com/fwlink/p/?LinkID=724037)
+- **Exchange**  -  [Get — searchdocumentformat используется](https://go.microsoft.com/fwlink/p/?LinkID=724037)
     
-- **SharePoint**Расширения имен[файлов для обхода и анализируемые типы файлов в SharePoint по умолчанию в SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)  - 
+- **SharePoint**  -  [Расширения имен файлов для обхода по умолчанию и проанализированные типы файлов в SharePoint](https://go.microsoft.com/fwlink/p/?LinkID=404033)
     
 
   
@@ -112,7 +112,7 @@ ms.locfileid: "43626683"
 
 В следующей таблице описываются ограничения индексации, которые могут привести к возврату сообщения электронной почты в виде частично индексированного элемента в поиске контента в Office 365.
   
-Список пределов индексации для документов SharePoint представлен в статье [пределы поиска для SharePoint Online](https://support.office.com/article/7c06e9ed-98b6-4304-a900-14773a8fa32f).
+Список пределов индексации для документов SharePoint представлен в статье [пределы поиска для SharePoint Online](https://docs.microsoft.com/sharepoint/search-limits).
   
 |**Предельное число индексации**|**Примечания**|**Описание**|
 |:-----|:-----|:-----|

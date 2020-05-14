@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Инструкции по импорту контента, не хранящегося в Microsoft 365, в большой двоичный объект Azure, чтобы его можно было проанализировать с помощью АЕД
-ms.openlocfilehash: daafcf003ded35868413d99c11ec1bf3941dca9f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: be49e7d44c56988baa3cdc718498a03ee4acd50b
+ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634161"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44214543"
 ---
 # <a name="import-non-microsoft-365-content-for-advanced-ediscovery-classic-analysis"></a>Импорт контента, отличного от Microsoft 365, для расширенного анализа обнаружения электронных данных (классический)
 
@@ -30,7 +30,7 @@ ms.locfileid: "43634161"
 > Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 > [!NOTE]
-> Вы можете приобрести расширенную подписку на надстройку хранилища данных eDiscovery для вашего контента, отличного от Майкрософт 365. Этот параметр доступен только для контента, который необходимо проанализировать с помощью расширенного обнаружения электронных данных. Выполните действия, описанные в статье [Покупка или изменение надстройки для Microsoft 365 для бизнеса](https://support.office.com/article/Buy-or-edit-an-add-on-for-Office-365-for-business-4e7b57d6-b93b-457d-aecd-0ea58bff07a6) , и приобретите расширенную надстройку для хранения электронных данных. 
+> Вы можете приобрести расширенную подписку на надстройку хранилища данных eDiscovery для вашего контента, отличного от Майкрософт 365. Этот параметр доступен только для контента, который необходимо проанализировать с помощью расширенного обнаружения электронных данных. Выполните действия, описанные в статье [Покупка или изменение надстройки для Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/commerce/buy-or-edit-an-add-on) , и приобретите расширенную надстройку для хранения электронных данных. 
   
 ## <a name="before-you-begin"></a>Перед началом работы
 
@@ -71,7 +71,7 @@ ms.locfileid: "43634161"
     
   - Корневая папка — данные К:\коллектед 
     
-  - URL-адрес https://zoomsabcprodeuss114.blob.core.windows.net/ingestion53d059efe5f74784afb308f66cdebf17?sv=2015-04-05&ampконтейнера-; SR&amp;= c Si = NonOfficeData15&amp;% 7C0 SIG = Bk5INP8CUfv1y4CSJiJl3pJt3Ekvu8GS3P8NkOvoQxA% 3D
+  - URL-адрес контейнера- https://zoomsabcprodeuss114.blob.core.windows.net/ingestion53d059efe5f74784afb308f66cdebf17?sv=2015-04-05&amp ; SR = c &amp; Si = NonOfficeData15% 7C0 &amp; SIG = Bk5INP8CUfv1y4CSJiJl3pJt3Ekvu8GS3P8NkOvoQxA% 3D
     
     синтаксис командной строки AzCopy:
     

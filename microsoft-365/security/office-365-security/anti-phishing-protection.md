@@ -19,12 +19,12 @@ ms.custom:
 - TopSMBIssues
 - seo-marvel-apr2020
 description: Администраторы могут узнать о функциях защиты от фишинга в Exchange Online Protection (EOP) и Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: c1b9332fc35997dfe1cbfdfbef79e2d7beed736f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3c15c67f059793c904641a70c12cd072bb69e2aa
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208975"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222733"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Защита от фишинга в Microsoft 365
 
@@ -62,6 +62,6 @@ Office 365 ATP содержит дополнительные и более со�
 
 ## <a name="other-anti-phishing-resources"></a>Другие ресурсы защиты от фишинга
 
-- Для конечных пользователей: [Защитите себя от фишинговых схем и других форм Интернет-мошенничества](https://support.office.com/article/f84750b4-2f2c-46c3-89f6-e65f7f8c3546).
+- Для конечных пользователей: [Защитите себя от фишинговых схем и других форм Интернет-мошенничества](https://support.office.com/article/protect-yourself-from-phishing-schemes-and-other-forms-of-online-fraud-be0de46a-29cd-4c59-aaaf-136cf177d593).
 
 - [Как Microsoft 365 проверяет адрес отправителя для предотвращения фишинга](how-office-365-validates-the-from-address.md).

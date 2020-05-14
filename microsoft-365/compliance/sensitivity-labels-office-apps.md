@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
-ms.openlocfilehash: 39ab61a13af311339174c0e37a10f4637f51ba84
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 2cff14f2de60136b35399225da7cb04bbf9e880c
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213309"
+ms.locfileid: "44222508"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Использование меток конфиденциальности в приложениях Office
 
@@ -50,7 +50,7 @@ ms.locfileid: "44213309"
 
 |Возможность                                                                                                        |Рабочий стол Windows |Настольный компьютер Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
-|[Вручную применить, изменить или удалить метку](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[Вручную применить, изменить или удалить метку](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | Раздел "Рецензирование"                                                        |
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -67,7 +67,7 @@ ms.locfileid: "44213309"
 
 |Возможность                                                                                                        |Рабочий стол Outlook для Windows |Настольные компьютеры с Outlook на Mac  |Outlook для iOS |Outlook для Android |Outlook в Интернете |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
-|[Вручную применить, изменить или удалить метку](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Да               |
+|[Вручную применить, изменить или удалить метку](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Да               |
 |[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Да               |
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Да               |
 |[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше                     | 16.21 +                 | 4.7.1 +         | 4.0.39 +           | Да               |
@@ -167,7 +167,7 @@ ms.locfileid: "44213309"
 
 ## <a name="support-for-sharepoint-and-onedrive-files-protected-by-sensitivity-labels"></a>Поддержка файлов SharePoint и OneDrive, защищенных с помощью меток конфиденциальности
 
-Чтобы использовать встроенный клиент с пометкой Office в Интернете для документов в OneDrive для бизнеса или SharePoint Online, убедитесь, что вы выбрали вариант предварительный просмотр, чтобы [Включить метки конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md).
+Чтобы использовать встроенный клиент с пометкой Office в Интернете для документов в SharePoint или OneDrive, убедитесь, что [метки конфиденциальности для файлов Office в SharePoint и onedrive включены](sensitivity-labels-sharepoint-onedrive-files.md).
 
 ## <a name="when-office-apps-apply-content-marking-and-encryption"></a>Когда приложения Office применяют маркировку и шифрование содержимого
 
@@ -198,6 +198,6 @@ ms.locfileid: "44213309"
 
 ## <a name="end-user-documentation"></a>Документация для конечных пользователей
 
-- [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+- [Присваивание меток конфиденциальности документам и сообщениям электронной почты в Office](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
 
-- [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.office.com/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- [Известные проблемы при присваивании меток конфиденциальности файлам Office](https://support.microsoft.com/en-us/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)

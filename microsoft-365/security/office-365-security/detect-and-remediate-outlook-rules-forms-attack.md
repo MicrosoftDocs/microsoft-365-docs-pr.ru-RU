@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить правила Outlook и функции внедрения пользовательских форм в Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034820"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224593"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Обнаружение и исправление правил Outlook и атак с добавлением пользовательских форм
 
@@ -137,7 +137,7 @@ ms.locfileid: "44034820"
 
 3. Откройте экземпляр PowerShell от имени администратора и откройте папку, в которой сохранен сценарий.
 
-4. Выполните следующую команду PowerShell, выполнив `.\Get-AllTenantRulesAndForms.ps1`указанные ниже .\Get-AllTenantRulesAndForms.ps1
+4. Выполните следующую команду PowerShell, выполнив указанные ниже `.\Get-AllTenantRulesAndForms.ps1` .\Get-AllTenantRulesAndForms.ps1
 
 #### <a name="interpreting-the-output"></a>Интерпретация выходных данных
 
@@ -159,7 +159,7 @@ ms.locfileid: "44034820"
 
 1. Определите все устройства, используемые пользователем в Outlook. Все они должны быть очищены от потенциальных вредоносных программ. Не разрешать пользователю выполнять вход и использовать электронную почту, пока все устройства не будут очищены.
 
-2. Выполните действия, описанные в разделе [Удаление правила](https://support.office.com/article/2f0e7139-f696-4422-8498-44846db9067f) для каждого устройства.
+2. Выполните действия, описанные в разделе [Удаление правила](https://support.microsoft.com/en-us/office/delete-a-rule-2f0e7139-f696-4422-8498-44846db9067f) для каждого устройства.
 
 3. Если вы не знаете о присутствии других вредоносных программ, вы можете отформатировать и повторно установить все программное обеспечение на устройстве. Для мобильных устройств вы можете выполнить действия производителя, чтобы вернуть устройство к заводским изображениям.
 

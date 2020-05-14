@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: 55b3ec119e8c74982ce340c58f6b8da684c9ffa8
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 7a699a01687aec47fd39ce108c5a8c7a888afe65
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208346"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222387"
 ---
 # <a name="manage-who-can-create-groups"></a>Управление пользователями, которые могут создавать группы
 
@@ -154,7 +154,7 @@ $settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
 
 if($GroupName)
 {
-    $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
+    $settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -Filter "DisplayName eq '$GroupName'").objectId
 }
  else {
 $settingsCopy["GroupCreationAllowedGroupId"] = $GroupName
@@ -189,7 +189,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > Если участники группы безопасности не могут создавать группы, убедитесь, что они не блокируются с помощью [политики почтовых ящиков OWA](https://go.microsoft.com/fwlink/?linkid=852135).
     
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Начало работы с Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 

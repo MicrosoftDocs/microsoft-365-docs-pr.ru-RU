@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о диспетчере соответствия требованиям Майкрософт, бесплатное средство оценки рисков на основе рабочих процессов на портале доверия службы Майкрософт.
-ms.openlocfilehash: cc62e989a3ef0a40a05c5f2e34e6e15dc6e7f399
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 84f076a45a3944d1d711a8e04199b357aa52791d
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44046287"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224646"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Диспетчер соответствия требованиям Майкрософт (Предварительная версия)
 
@@ -129,7 +129,7 @@ ms.locfileid: "44046287"
 
 Обратите внимание, что **действия улучшения** в показателе соответствия эквивалентны **элементам Actions** в диспетчере соответствия требованиям.
 
-## <a name="permissions"></a>Разрешения
+## <a name="permissions"></a>Permissions
 
 Диспетчер соответствия требованиям использует модель разрешений с управлением доступом на основе ролей. Только пользователи, которым назначена роль пользователя, могут получить доступ к диспетчеру соответствия требованиям, а действия, разрешенные каждому пользователю, ограничиваются типом роли. [Просмотр таблицы](working-with-compliance-manager.md#permissions) , в которой показаны действия, разрешенные для каждого разрешения.
 
@@ -150,22 +150,25 @@ ms.locfileid: "44046287"
 
 Диспетчер соответствия требованиям предоставляет предварительно настроенные [шаблоны](working-with-compliance-manager.md#templates) для оценок и позволяет создавать настраиваемые шаблоны для элементов управления, управляемых клиентами, в соответствии со своими потребностями. Новые шаблоны создаются путем импорта сведений об элементах управления из файла Excel, а также для создания шаблона на основе копии существующего шаблона.
 
-Предварительно настроенные шаблоны, включенные в Диспетчер соответствия требованиям:
+Предварительно настроенные шаблоны:
 
-1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
-2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
-4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-6. [Инфраструктура NIST Циберсекурити (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-7. [Cloud Controls Alliance (CSA) Cloud Controls (CCM) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
-8. [Буклет информационный Совет по отчетности по федеральным финансовым учреждениям (ФФИЕК)](https://go.microsoft.com/fwlink/?linkid=2109077) 
-9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HiTech](https://go.microsoft.com/fwlink/?linkid=2109079)
-10. [FedRAMP средний](https://go.microsoft.com/fwlink/?linkid=2108869)
-11. [GDPR Европейского союза](https://go.microsoft.com/fwlink/?linkid=2108870)
-12. [Закон о конфиденциальности для потребителей в Калифорнии (ККПА)](https://go.microsoft.com/fwlink/?linkid=2108871) (Предварительная версия)
-13. [Ирап](https://go.microsoft.com/fwlink/?linkid=2113709) / [Австралийский правительством ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (ознакомительная версия)
-14. [Базовый план защиты данных (Майкрософт) 365](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+1. [Общий закон по защите данных в Бразилии (ЛГПД)](https://go.microsoft.com/fwlink/?linkid=2115387)
+2. [Закон о конфиденциальности для потребителей в Калифорнии (ККПА)](https://go.microsoft.com/fwlink/?linkid=2108871) (Предварительная версия)
+3. [Cloud Controls Alliance (CSA) Cloud Controls (CCM) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
+4. [GDPR Европейского союза](https://go.microsoft.com/fwlink/?linkid=2108870)
+5. [Буклет информационный Совет по отчетности по федеральным финансовым учреждениям (ФФИЕК)](https://go.microsoft.com/fwlink/?linkid=2109077)
+6. [FedRAMP средний](https://go.microsoft.com/fwlink/?linkid=2108869)
+7. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078)  /  [HiTech](https://go.microsoft.com/fwlink/?linkid=2109079)
+8. [Ирап](https://go.microsoft.com/fwlink/?linkid=2113709)  /  [Австралийский орган ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (Предварительная версия)
+9. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
+10. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
+11. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+12. [Базовый план защиты данных (Майкрософт) 365](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+13. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+14. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+15. [Инфраструктура NIST Циберсекурити (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+16. [SOC 1;](https://go.microsoft.com/fwlink/?linkid=2115184)
+17. [SOC 2;](https://go.microsoft.com/fwlink/?linkid=2115184)
 
 ## <a name="secure-score-integration"></a>Интеграция безопасного рейтинга
 
