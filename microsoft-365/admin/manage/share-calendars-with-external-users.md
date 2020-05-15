@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: 'Сведения о том, как предоставить пользователям доступ к своим календарям внешним пользователям для собраний и встреч. '
-ms.openlocfilehash: bd297fc2d684357d0500495e5a8263e5279efa39
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6e5a4a3a7e29dcbb6b19aeb1dd3b914ff98eb06e
+ms.sourcegitcommit: 708857a82eab3d37da1dec027399b09bd306a5dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628044"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44249876"
 ---
 # <a name="share-calendars-with-external-users"></a>Совместное использование календарей с внешними пользователями
 
@@ -39,10 +39,9 @@ ms.locfileid: "43628044"
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Включение общего доступа к календарю с помощью центра администрирования Microsoft 365
 
-1. В центре администрирования откройте страницу " **Параметры** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">служб &</a> надстроек". 
+1. В центре администрирования откройте раздел **Settings** \> **Параметры**. 
     
-  
-2. На странице **" &amp; надстройки служб** " выберите пункт **Календарь**.
+2. На вкладке **службы** выберите пункт **Календарь**.
   
 3. На открывшейся странице **календаря** укажите, хотите ли вы предоставить пользователям доступ к своим календарям пользователям за прев Организации, у которой есть Microsoft 365 или Exchange.
     
@@ -55,4 +54,3 @@ ms.locfileid: "43628044"
 
 После включения общего доступа для клиента владельцы календаря могут создать приглашения для конкретных пользователей. Дополнительные инструкции см. в статье [Предоставление общего доступа к календарю в приложении Outlook Web App](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5.aspx). 
   
-
