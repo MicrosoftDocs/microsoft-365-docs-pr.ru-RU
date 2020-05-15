@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: С помощью управления записями в Microsoft 365 вы можете применять определенные графики хранения вашей организации к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией для поддержки полного жизненного цикла контента.
-ms.openlocfilehash: e4454ba5940d9a67d9f160d90d0a9db14563bcf7
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.openlocfilehash: 261ae3286792dde540d9bf648c15e529863091ed
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949252"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231872"
 ---
 # <a name="records-management-in-microsoft-365"></a>Управление записями в Microsoft 365
 
@@ -34,7 +34,7 @@ ms.locfileid: "43949252"
 
 - **Миграция плана хранения и управление им с помощью плана хранения** и использование [диспетчера плана хранения](file-plan-manager.md) для переноса существующего плана хранения или создания нового при помощи дескрипторов файлов и разворачивающихся иерархий.
 
-- **Создание политик хранения и удаления**. Определение сроков [хранения](retention-policies.md#retaining-content-for-a-specific-period-of-time) и [ликвидации](retention-policies.md#deleting-content-thats-older-than-a-specific-age) на основе различных факторов, в том числе даты последнего изменения или создания.
+- **Создание политик хранения и удаления в метке записи**. Определите сроки [хранения](create-retention-policies.md#retaining-content-for-a-specific-period-of-time) и [ликвидации](create-retention-policies.md#deleting-content-thats-older-than-a-specific-age) на основе различных факторов, в том числе даты последнего изменения или создания.
 
 - **Запуск хранения на основе события** с [хранением на основе событий](event-driven-retention.md).
 
