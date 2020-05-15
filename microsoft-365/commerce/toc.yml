@@ -12,7 +12,7 @@
       href: extend-your-trial.md
     - name: Приобретение еще одной подписки
       href: buy-another-subscription.md
-    - name: Приобретение и изменение надстроек
+    - name: Приобретение или изменение надстройки
       href: buy-or-edit-an-add-on.md
     - name: Добавление дискового пространства
       href: add-storage-space.md
@@ -28,7 +28,7 @@
       href: subscriptions/cancel-your-subscription.md
     - name: Что происходит по истечении срока действия подписки?
       href: subscriptions/what-if-my-subscription-expires.md
-    - name: Управление сторонними приложениями
+    - name: Управление подписками сторонних приложений
       href: manage-saas-apps.md
     - name: Управление самостоятельно приобретенными лицензиями (пользователи)
       href: subscriptions/manage-self-service-purchases-users.md
@@ -48,7 +48,7 @@
   items:
     - name: Просмотр счета
       href: billing-and-payments/view-your-bill-or-invoice.md
-    - name: Расшифровка счета
+    - name: Ознакомление со счетом
       href: billing-and-payments/understand-your-invoice.md
     - name: Управление методами оплаты
       href: billing-and-payments/manage-payment-methods.md
@@ -62,7 +62,7 @@
       href: billing-and-payments/manage-billing-profiles.md
     - name: Изменение адресов выставления счетов
       href: billing-and-payments/change-your-billing-addresses.md
-    - name: Директива о платежных услугах 2 и строгая проверка подлинности клиентов
+    - name: Сведения о "Директиве о платежных услугах 2" и строгой аутентификации клиентов
       href: billing-and-payments/psd2.md
 - name: Учетные записи выставления счетов
   items:

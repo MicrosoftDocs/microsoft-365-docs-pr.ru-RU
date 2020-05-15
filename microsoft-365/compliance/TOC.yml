@@ -271,12 +271,22 @@
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
     - name: Хранение данных
       items:
-        - name: Политики хранения
+        - name: Сведения о политиках хранения
           href: retention-policies.md
+        - name: Создание и настройка политик хранения
+          href: create-retention-policies.md
+        - name: Хранение в SharePoint и OneDrive
+          href: retention-policies-sharepoint.md
+        - name: Хранение в Microsoft Teams
+          href: retention-policies-teams.md
+        - name: Хранение в Exchange
+          href: retention-policies-exchange.md
         - name: Диспетчер плана хранения
           href: file-plan-manager.md
-        - name: Метки хранения
+        - name: Сведения о метках хранения
           href: labels.md
+        - name: 'Создание, публикация и автоматическое применение меток хранения'
+          href: create-retention-labels.md
         - name: Соблюдение правила 17a-4 SEC
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: Создание и публикация меток хранения с помощью PowerShell
@@ -325,9 +335,11 @@
           items:
             - name: Диспетчер плана хранения
               href: file-plan-manager.md
-            - name: Метки хранения
+            - name: Сведения о метках хранения
               href: labels.md
-            - name: Создание и публикация меток хранения с помощью PowerShell
+            - name: Создание и публикация меток хранения
+              href: create-retention-labels.md
+            - name: Массовое создание и публикация меток хранения с помощью PowerShell
               href: bulk-create-publish-labels-using-powershell.md
             - name: Просмотр использования меток с помощью аналитики меток
               href: label-analytics.md
