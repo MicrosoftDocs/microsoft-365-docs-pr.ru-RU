@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
 description: 'Здесь вы найдете ответы на ваши лучшие вопросы по выставлению счетов для подписки на Microsoft 365 для бизнеса. '
-ms.openlocfilehash: 3a75f9a754bf4f983ac0aca02b380e55d80be4b9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d5b705c8c283103c09dc13dd13b853ffb3b270b
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634996"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232809"
 ---
 # <a name="top-billing-questions-for-microsoft-365-for-business"></a>Самые распространенные вопросы по выставлению счетов для Microsoft 365 для бизнеса
 
@@ -40,13 +40,13 @@ ms.locfileid: "43634996"
   
 ::: moniker range="o365-worldwide"
 
-Если вам нужна помощь в интерпретации расходов, которые вы видите в счете, или понимание используемых терминов, ознакомьтесь со статьей [сведения о счете](understand-your-invoice2.md).
+Если вам нужна помощь в интерпретации расходов, которые вы видите в счете, или понимание используемых терминов, ознакомьтесь со статьей [сведения](understand-your-invoice2.md)о счете.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Если вам нужна помощь в интерпретации расходов, которые вы видите в счете, или понимание используемых терминов, ознакомьтесь со статьей [сведения о счете](understand-your-invoice2.md).
+Если вам нужна помощь в интерпретации расходов, которые вы видите в счете, или понимание используемых терминов, ознакомьтесь со статьей [сведения](understand-your-invoice2.md)о счете.
 
 ::: moniker-end
 

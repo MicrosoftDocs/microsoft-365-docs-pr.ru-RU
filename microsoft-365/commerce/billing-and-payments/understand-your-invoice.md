@@ -1,5 +1,5 @@
 ---
-title: Расшифровка счета
+title: Общие сведения о счете
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 search.appverid:
 - MET150
-description: Сведения о том, как читать и изучать продукты Майкрософт для бизнеса.
+description: Сведения о том, как читать и изучать выставляемые и накладные для продуктов Microsoft Business.
 keywords: счета выставления счетов, сведения об организации, счета
-ms.openlocfilehash: 63186bb0fc601be786e223fe2e6febbdb48361e2
-ms.sourcegitcommit: 4cfb8a9c3675d0aefcabd690273e2af85f2e38b0
+ms.openlocfilehash: 25e9f2865c5970d11fac14d9427cb54374884541
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44211408"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232821"
 ---
-# <a name="understand-your-invoice"></a>Расшифровка счета
+# <a name="understand-your-bill-or-invoice"></a>Общие сведения о счете
 
 ::: moniker range="o365-21vianet"
 

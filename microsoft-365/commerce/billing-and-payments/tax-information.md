@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: 'Узнайте, какой объем налога будет взиматься за вашу подписку на Microsoft 365 для бизнеса в разных регионах. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 7c071a29fa5cedfc12c69a6471d1321a9167106f
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045828"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232833"
 ---
 # <a name="tax-information"></a>Сведения о налогах
 
@@ -114,7 +114,7 @@ ms.locfileid: "44045828"
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>Как ввести свой ИНН (только для стран ЕС)
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Найдите карточку подписки, которую вы хотите обновить.
 
@@ -128,7 +128,7 @@ ms.locfileid: "44045828"
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>Как ввести свой ИНН (только для стран ЕС)
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. Выберите имя подписки, а затем нажмите кнопку **другие действия** \> **изменить номер НДС**.
   
@@ -160,7 +160,7 @@ ms.locfileid: "44045828"
 
 Налоги рассчитываются в соответствии с ценой единицы, а затем обрабатываются.
 
-Пример:
+Например:
 
 >*(Цена единицы X ставка налога) X количество = общая сумма налогов*
 
@@ -182,8 +182,8 @@ ms.locfileid: "44045828"
 | Международные организации, которые выносят решение об освобождении от налога | Подтверждение сертификатов и писем от местных налоговых органов |
 | Пуэрто-Рико | Цертификадо де Компрас Ексентас |
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
   
-[Просмотр счета](view-your-bill-or-invoice.md)
+[Просмотр счетов](view-your-bill-or-invoice.md)
   
-[Знакомство со счетом](understand-your-invoice.md)
+[Общие сведения о счете](understand-your-invoice.md)

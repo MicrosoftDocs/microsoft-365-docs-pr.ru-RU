@@ -23,19 +23,19 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Узнайте, как обновить свои адреса для выставления счетов для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
 ms.custom: okr_SMB
-ms.openlocfilehash: 09f4ef95c9f8ab3dcce3b3a2511c5e407539020e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 87a9540218f7ef4bef48154930b62bddab7b54e8
+ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140927"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232891"
 ---
 # <a name="change-your-billing-addresses"></a>Изменение адресов выставления счетов
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -51,13 +51,13 @@ ms.locfileid: "44140927"
   
 ::: moniker range="o365-worldwide"
 
-Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [понимание счета](understand-your-invoice2.md).
+Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и знакомство со счетом [или счетом](understand-your-invoice2.md).
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [понимание счета](understand-your-invoice2.md).
+Чтобы узнать больше о счете или счете, ознакомьтесь со статьей [Просмотр счета или счета](view-your-bill-or-invoice.md) и [Знакомство с Билл оринвоице](understand-your-invoice2.md).
 
 ::: moniker-end
 
@@ -70,7 +70,7 @@ ms.locfileid: "44140927"
 
 ## <a name="change-your-sold-to-address"></a>Изменение адреса покупателя
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">счета выставления</a> счетов для **выставления** \> счетов.
+1. В центре администрирования перейдите на **Billing** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">счета выставления</a> счетов для выставления счетов.
 
 2. Выберите пункт **изменить сведения об учетной записи выставления счетов**.
 
@@ -80,7 +80,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">способы оплаты</a> **выставления счетов** \> .
+1. В центре администрирования перейдите на страницу способы оплаты **выставления счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">Payment methods</a> .
 
 2. Выберите кредитную карту или банковский счет, которые требуется изменить.
 
@@ -92,7 +92,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.
 
@@ -112,7 +112,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. Выберите подписку, которую нужно изменить, и нажмите кнопку **изменить сведения об оплате**.
 
@@ -128,7 +128,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Найдите подписку, которую вы хотите изменить. В разделе **параметры & действий** выберите **изменить адрес использования службы**.
 
@@ -138,7 +138,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.
 
@@ -150,7 +150,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. Выберите подписку, которую вы хотите изменить, выберите пункт **Дополнительные действия**и выберите команду **изменить адрес использования службы**.
 
@@ -192,7 +192,7 @@ ms.locfileid: "44140927"
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">уведомления о выставлении счетов</a> для **выставления** \> счетов.
+1. В центре администрирования перейдите на **Billing** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">уведомления о выставлении счетов</a> для выставления счетов.
 
 ::: moniker-end
 
@@ -204,7 +204,7 @@ ms.locfileid: "44140927"
 
 [Просмотр счетов](view-your-bill-or-invoice.md)
 
-[Знакомство со счетом](understand-your-invoice2.md)
+[Общие сведения о счете](understand-your-invoice2.md)
 
 [Оплата подписки](pay-for-your-subscription.md)
 

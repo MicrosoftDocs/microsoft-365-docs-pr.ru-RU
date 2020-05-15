@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c81fedddf5e3553ec4b24353fac43079305c5b2
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 41d56927f3f9c22782b10640330ca9d0167402d2
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035045"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232058"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -57,7 +57,7 @@ ms.locfileid: "44035045"
 |(При необходимости) [Изменение сегмента или политики](information-barriers-edit-segments-policies.md)    |— Изменение сегмента<br/>Изменение или удаление политики<br/>Перезапустите приложение политики повторно.<br/>— Просмотр состояния политики         |
 |(При необходимости) [Устранение неполадок](information-barriers-troubleshooting.md)|— Предпринять действия, если неработаны должным образом|
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 В дополнение к [необходимым лицензиям и разрешениям](information-barriers.md#required-licenses-and-permissions)убедитесь, что выполнены следующие требования: 
      
@@ -72,7 +72,7 @@ ms.locfileid: "44035045"
 
 - Нет политик адресных книг — прежде чем определять и применять политики барьера данных, убедитесь, что не заданы политики адресных книг Exchange. Информационные барьеры основываются на политиках адресных книг, но не поддерживаются два типа политик. При наличии таких политик обязательно сначала [удалите политики адресных книг](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) . После включения политик барьера информации и включения иерархической адресной книги все пользователи, ***не включенные*** в сегмент информационного барьера, увидят [иерархическую адресную книгу](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) в Exchange Online.
 
-- В настоящее время PowerShell политики для информационных барьеров определяются и управляются в центре безопасности & безопасности Office 365 с помощью командлетов PowerShell. Хотя в этой статье представлено несколько примеров, необходимо ознакомиться с командлетами и параметрами PowerShell. Кроме того, вам потребуется модуль Азурерм.
+- В настоящее время PowerShell политики для информационных барьеров определяются и управляются в центре безопасности & безопасности Office 365 с помощью командлетов PowerShell. Хотя в этой статье представлено несколько примеров, необходимо ознакомиться с командлетами и параметрами PowerShell. Кроме того, вам потребуется модуль Azure PowerShell.
     - [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     - [Установка модуля Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
@@ -81,10 +81,10 @@ ms.locfileid: "44035045"
    1. Выполните следующие командлеты PowerShell:
 
       ```powershell
-      Login-AzureRmAccount 
+      Login-AzAccount 
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
-      $sp=Get-AzureRmADServicePrincipal -ServicePrincipalName $appId
-      if ($sp -eq $null) { New-AzureRmADServicePrincipal -ApplicationId $appId }
+      $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
+      if ($sp -eq $null) { New-AzADServicePrincipal -ApplicationId $appId }
       Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
       ```
 
@@ -213,13 +213,13 @@ ms.locfileid: "44035045"
 
     |Синтаксис  |Пример  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR" -State Inactive` <p>    В этом примере мы определили политику под названием " *производство — HR* " для сегмента под названием " *производство*". Если политика активна и применена, эта политика позволяет людям в *производстве* общаться только с людьми в сегменте под названием *HR*. (В этом случае *производство* не сможет общаться с пользователями, не входящими в *HR*.)         |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name","segment1name"`     |`New-InformationBarrierPolicy -Name "Manufacturing-HR" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>    В этом примере мы определили политику под названием " *производство — HR* " для сегмента под названием " *производство*". Если политика активна и применена, эта политика позволяет людям в *производстве* общаться только с людьми в сегменте под названием *HR*. (В этом случае *производство* не сможет общаться с пользователями, не входящими в *HR*.)         |
 
     **При необходимости вы можете указать несколько сегментов с помощью этого командлета, как показано в следующем примере.**
 
     |Синтаксис  |Пример  |
     |---------|---------|
-    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing" -State Inactive` <p>В этом примере мы определили политику, которая позволяет сегменту *исследований* общаться только с *персоналом* и *производством*.        |
+    |`New-InformationBarrierPolicy -Name "policyname" -AssignedSegment "segment1name" -SegmentsAllowed "segment2name", "segment3name","segment1name"`     |`New-InformationBarrierPolicy -Name "Research-HRManufacturing" -AssignedSegment "Research" -SegmentsAllowed "HR","Manufacturing","Research" -State Inactive` <p>В этом примере мы определили политику, которая позволяет сегменту *исследований* общаться только с *персоналом* и *производством*.        |
 
     Повторите это действие для каждой политики, которую необходимо определить, чтобы разрешить определенным сегментам общаться только с определенными сегментами.
 
@@ -248,7 +248,7 @@ ms.locfileid: "44035045"
 
     Инструкции`Start-InformationBarrierPoliciesApplication`
 
-    После выполнения `Start-InformationBarrierPoliciesApplication` параметра Разрешить системе приступить к применению политик в течение 30 минут. Система применяет политики пользователя по пользователям. В разделе Общие системные процессы о 5 000 учетных записей пользователей в час.
+    После выполнения параметра `Start-InformationBarrierPoliciesApplication` Разрешить системе приступить к применению политик в течение 30 минут. Система применяет политики пользователя по пользователям. В разделе Общие системные процессы о 5 000 учетных записей пользователей в час.
 
 ## <a name="view-status-of-user-accounts-segments-policies-or-policy-application"></a>Просмотр состояния учетных записей пользователей, сегментов, политик или приложения политики
 
@@ -256,7 +256,7 @@ ms.locfileid: "44035045"
 
 |Для просмотра этого  |Необходимые действия  |
 |---------|---------|
-|Учетные записи пользователей     |Используйте командлет **Get – информатионбарриерреЦипиентстатус** с параметрами Identity. <p>Инструкции`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>Можно использовать любое значение, однозначно идентифицирующее каждого пользователя, например, имя, псевдоним, различающееся имя, каноническое имя домена, адрес электронной почты или GUID. <p>Пример: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>В этом примере мы будем называть две учетные записи пользователей в Office 365: *меганб* для *Меган*и *алексв* для *Алекс*. <p>(Вы также можете использовать этот командлет для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>`) <p>Этот командлет возвращает сведения о пользователях, такие как значения атрибутов и применяемые политики барьера данных.|
+|Учетные записи пользователей     |Используйте командлет **Get – информатионбарриерреЦипиентстатус** с параметрами Identity. <p>Инструкции`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>Можно использовать любое значение, однозначно идентифицирующее каждого пользователя, например, имя, псевдоним, различающееся имя, каноническое имя домена, адрес электронной почты или GUID. <p>Пример: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>В этом примере мы будем называть две учетные записи пользователей в Office 365: *меганб* для *Меган*и *алексв* для *Алекс*. <p>(Вы также можете использовать этот командлет для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>Этот командлет возвращает сведения о пользователях, такие как значения атрибутов и применяемые политики барьера данных.|
 |Сегменты     |Используйте командлет **Get – организатионсегмент** .<p>Инструкции`Get-OrganizationSegment` <p>Отобразится список всех сегментов, определенных для вашей организации.         |
 |Политики барьера информации     |Используйте командлет **Get – информатионбарриерполици** . <p> Инструкции`Get-InformationBarrierPolicy` <p>Отобразится список определенных политик барьера информации и их состояние.       |
 |Последнее приложение политики барьера информации     | Используйте командлет **Get – информатионбарриерполиЦиесаппликатионстатус** . <p>Инструкции`Get-InformationBarrierPoliciesApplicationStatus`<p>    При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.       |
@@ -321,13 +321,13 @@ Contoso будет использовать атрибут Department в Azure A
 |---------|---------|
 |Политика 1: предотвращение продаж от общения с исследованиями     | `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Research" -State Inactive` <p> В этом примере политика информационного барьера называется *Sales-Research*. Если эта политика активна и применена, она поможет предотвратить связь пользователей, находящихся в сегменте продаж, с пользователями в сегменте исследований. Это односторонняя политика; она не запрещает исследование связи с продажами. Для этого требуется политика 2.      |
 |Политика 2: запрет на исследование связи с продажами     | `New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive` <p> В этом примере политика информационного барьера называется *исследованием продаж*. Если эта политика активна и применена, она поможет предотвратить связь пользователей, находящихся в сегменте исследований, с пользователями в сегменте продаж.       |
-|Политика 3: разрешить производству связываться только с персоналом и маркетингом     | `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Marketing" -State Inactive` <p>В этом случае политика информационного барьера называется " *производство-хрмаркетинг*". Если эта политика активна и применена, производство может общаться только с персоналом и маркетингом. Обратите внимание на то, что персонал и маркетинг не ограничиваются связью с другими сегментами. |
+|Политика 3: разрешить производству связываться только с персоналом и маркетингом     | `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "HR","Marketing","Manufacturing" -State Inactive` <p>В этом случае политика информационного барьера называется " *производство-хрмаркетинг*". Если эта политика активна и применена, производство может общаться только с персоналом и маркетингом. Обратите внимание на то, что персонал и маркетинг не ограничиваются связью с другими сегментами. |
 
 С определенными сегментами и политиками компания Contoso применяет политики, выполняя командлет **Start – информатионбарриерполиЦиесаппликатион** . 
 
 После этого Contoso соответствует юридическим и отраслевым требованиям.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор информационных препятствий](information-barriers.md)
 
