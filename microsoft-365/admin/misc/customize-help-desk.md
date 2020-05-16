@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9dd9b104-68f7-4d49-9a30-82561c7d79a3
 description: Создание настраиваемой карточки справки в центре администрирования и добавление в область справки настраиваемой контактной информации о поддержке.
-ms.openlocfilehash: 2a803e339eef23025e6323ee408c4c442c90951e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dac276290f882aa1bd9f22eb6a3306f7869f4253
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627900"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262275"
 ---
 # <a name="add-customized-help-desk-info-to-the-help-pane"></a>Добавление сведений о службе технической поддержки в область справки
 
@@ -40,7 +40,7 @@ ms.locfileid: "43627900"
 ### <a name="create-the-custom-help-desk-card-in-the-admin-center"></a>Создание карточки службы технической поддержки через Центр администрирования
 <a name="BKMK_HelpDeskPreview"> </a>
 
-1. В центре администрирования перейдите к**Settings**  > разделу Параметры **и**выберите вкладку **сведения о** службе технической поддержки.
+1. В центре администрирования перейдите на вкладку **Параметры**  >  **Организации** и выберите **сведения о** службе технической поддержки.
     
 2. На вкладке **профиль организации** выберите **элемент плитка запуска приложений**.
   

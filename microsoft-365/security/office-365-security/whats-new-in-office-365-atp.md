@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e6dfaa8a6a2a0157e9274c7b25dae6e7aed2395
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 83ae99a75e3c3aa8d109766418abcf0888b8cbf4
+ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036588"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44267171"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -35,6 +35,10 @@ ms.locfileid: "44036588"
 > [!TIP]
 > У вас еще нет Office 365 ATP? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644).
 
+## <a name="marchapril-2020"></a>Март/Апрель 2020
+
+- Возможность [обращаться к скомпрометированным учетным записям пользователей с автоматическим исследованием и откликом](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly?view=o365-worldwide) теперь доступна.
+
 ## <a name="januaryfebruary-2020"></a>Январь/Февраль 2020
 
 - [Общая доступность представлений кампаний в Office 365 ATP](campaigns.md)
@@ -46,7 +50,7 @@ ms.locfileid: "44036588"
     - Advanced NOT Filters (дополнительные параметры фильтрации, включающие не содержащие, не включают и т. д.).
     - Фильтры по детализированному времени (день, час, половина часа) 
 
-- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите в раздел > **Обзор** **управления угрозами**.)
+- Мини-приложение " **происшествия** " теперь является графическим элементом " **центр действий** ". (Чтобы просмотреть мини-приложение безопасности, в центре безопасности & соответствия требованиям перейдите к разделу **Управление**  >  угрозами **Проверка**.)
 
 - [Безопасные документы в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(Предварительная версия)**
 

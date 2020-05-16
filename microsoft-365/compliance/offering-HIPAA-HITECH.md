@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8a7a64532aeb7053572b78a6b05a757bf6d1b006
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 4a774613283c9639e36aa868538b338f60286246
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066462"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254212"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -51,15 +51,15 @@ ms.locfileid: "44066462"
 
 Чтобы узнать, как Microsoft Cloud помогает клиентам поддерживать требования закона об HIPAA и HITECH, посетите [материалы клиентов корпорации Майкрософт](https://customers.microsoft.com).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Служба Microsoft Health Bot
+- Microsoft Cloud App Security
+- Служба Microsoft здравоохранения (Microsoft здравоохранения)
 - Microsoft Stream
 - Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Автоматизация управления питанием (Предыдущая версия Microsoft Flow) как самостоятельная служба или как она входит в план или набор Office 365 или Dynamics 365
 - Intune
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365

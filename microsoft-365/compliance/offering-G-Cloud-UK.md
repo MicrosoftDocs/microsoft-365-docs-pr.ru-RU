@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cc6f2a8c52a5fc829a9f04c51f78cf7ea5c2f1e1
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 5a8d0b95a0abb93eef352a442ff6c8203eda6e0e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214503"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254182"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Правительство для Великобритании (Россия)
 
@@ -44,10 +44,10 @@ ms.locfileid: "44214503"
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Автоматизация управления питанием (Предыдущая версия Microsoft Flow) как самостоятельная служба или как она входит в план или набор Office 365 или Dynamics 365
 - Office 365: Exchange Online, SharePoint Online и Skype для бизнеса Online
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6685a542ac082b97ec771bb14481eecf212f4898
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: c7d3120f7094e91157c5a20df435c1c1438677bf
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066372"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254272"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Права на образованию семьи и заявление о конфиденциальности (ФЕРПА)
 
@@ -41,7 +41,7 @@ ms.locfileid: "44066372"
 
 В результате этих договорных обязательств клиенты, которые подчиняются ФЕРПА — как образовательные учреждения, так и сторонние лица, которым предоставлен доступ к данным с конфиденциальными студентами, могут уверенно использовать в области облачные службы Microsoft Business для обработки, хранения и передачи этих данных.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 Службы, для которых корпорация Майкрософт соглашается назначить официальным официальным учениям в данных клиентов, включают:
 
@@ -49,7 +49,7 @@ ms.locfileid: "44066372"
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI, PowerApps и Microsoft Flow в виде автономной службы или в соответствии с торговым планом Office 365 или набором.
+- Power BI, PowerApps и Автоматизация управления питанием (ранее — Microsoft Flow) — как самостоятельная служба или как она входит в план или набор Office 365.
 - Azure DevOps Services
 - ATP в Защитнике Windows
 
