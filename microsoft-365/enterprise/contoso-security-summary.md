@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует функции безопасности в Microsoft 365 корпоративный.
-ms.openlocfilehash: f8a16b07c6d4cb9a62e0131a1f667b675d5eaf66
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c0f3497eb49a0490fccf6c0ec5174d932a21005e
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636490"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268402"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Сводка по безопасности Microsoft 365 корпоративный для корпорации Contoso
 
@@ -134,9 +134,4 @@ ms.locfileid: "43636490"
 - Центральная панель мониторинга безопасности, доступная пользователям на консоли "Безопасность Windows"
 
   Корпорация Contoso выполнила развертывание приложения [Безопасность Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-security-center/windows-defender-security-center) на компьютерах и других устройствах под управлением Windows 10 Корпоративная, благодаря чему пользователи сразу же видят состояние безопасности и могут предпринять соответствующие действия.
-
-
-## <a name="next-step"></a>Следующий шаг
-
-[Узнайте](contoso-sharepoint-online-site-for-highly-confidential-assets.md), как компания Contoso создала сайт SharePoint для жестко регулируемых данных, чтобы обеспечить возможность взаимодействия исследовательских групп.
 

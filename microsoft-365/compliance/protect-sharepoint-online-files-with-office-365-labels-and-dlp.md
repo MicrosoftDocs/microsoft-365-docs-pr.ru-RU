@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: Сводка. Применяйте метки хранения и политики защиты от потери данных для сайтов групп SharePoint Online с различными уровнями защиты информации.
-ms.openlocfilehash: ab9026fa4c00038abb166677277145c8129e33e2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b924b0d62d7c66a008739dfa12c0d1dd00deac9b
+ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081764"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44262400"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>Защита файлов SharePoint Online с помощью меток хранения и DLP
 
@@ -216,8 +216,12 @@ ms.locfileid: "42081764"
 Ниже показана итоговая конфигурация для строго конфиденциальных сайтов групп SharePoint Online.
   
 ![Политика защиты от потери данных для изолированного сайта группы SharePoint Online с использованием метки хранения "Строго конфиденциальный"](../media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
+
+### <a name="support-for-sensitivity-labels-is-coming"></a>Поддержка меток конфиденциальности появится в ближайшее время
+
+На данный момент в качестве условия можно использовать только метки хранения, а не [метки конфиденциальности](sensitivity-labels.md). Сейчас мы работаем над поддержкой меток конфиденциальности для этого условия.
   
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 [Защита файлов SharePoint Online с помощью меток конфиденциальности](protect-sharepoint-online-files-with-sensitivity-label.md)
     

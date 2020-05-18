@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этом разделе рассказывается, как развернуть инфраструктуру Information Protection для Microsoft 365 корпоративный.
-ms.openlocfilehash: 0e6fdf1a9c63200bfb57fc9f833515553c1609f4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d6e3501e8262a0c3245c6e13da6633ac465276fb
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631625"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268307"
 ---
 # <a name="phase-6-information-protection"></a>Этап 6. Защита данных
 
 ![Этап 6. Защита данных](../media/deploy-foundation-infrastructure/infoprotection_icon.png)
 
-Information Protection — это набор политик и технологий, определяющих порядок передачи, хранения и обработки конфиденциальной информации. На этапе 6 вы постепенно настроите параметры и функции Information Protection в Microsoft 365 корпоративный, которые помогут защитить данные облачных рабочих нагрузок и сценариев.
+Information Protection — это набор политик и технологий, определяющих порядок передачи, хранения и обработки конфиденциальной информации. На шаге 6 вы постепенно настроите параметры и функции Information Protection в Microsoft 365 корпоративный, которые помогут защитить данные облачных нагрузок.
 
 >[!Note]
 >Если вы уже развернули Information Protection, см. перечень обязательных и необязательных [условий](infoprotect-exit-criteria.md), при выполнении которых можно считать Information Protection для Microsoft 365 корпоративный настроенной.
