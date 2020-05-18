@@ -73,6 +73,8 @@
               href: manage/assign-licenses-to-users.md
             - name: Назначение ролей администратора
               href: add-users/assign-admin-roles.md
+            - name: Добавление гостевых пользователей в группу Microsoft 365
+              href: create-groups/manage-guest-access-in-groups.md
             - name: Удаление лицензий пользователей
               href: manage/remove-licenses-from-users.md
             - name: Устранение конфликтов лицензий
