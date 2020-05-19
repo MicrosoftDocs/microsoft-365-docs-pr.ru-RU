@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 66b3f7e446416b6252050e6f41a2b22d99d25767
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 71e7b532e046015dd64e51fd422d276433d65b3a
+ms.sourcegitcommit: 6ea9a910a8106a5f1aa589c55d166bfa67fd12a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209239"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280538"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Предварительные требования для Защиты от угроз (Майкрософт)
 
@@ -79,8 +79,12 @@ ms.locfileid: "44209239"
 ## <a name="browser-requirements"></a>Требования к браузеру
 Доступ к защите от угроз Майкрософт в центре безопасности Microsoft 365 с помощью Microsoft EDGE, Internet Explorer 11 или любого совместимого с HTML 5 веб-браузера.
 
-## <a name="us-gcc-and-gcc-high-availability"></a>Высокая доступность для Майкрософт GCC и GCC
-В настоящее время защита от угроз Майкрософт недоступна для облачных пользователей (GCC) и облачных облаков сообщества сообщества государственных учреждений (GCC High). 
+## <a name="availability-to-us-gcc-gcc-high-and-other-us-government-institutions"></a>Доступность для государственных учреждений США, а также других учреждений и других учреждений США
+В настоящее время защита от угроз Майкрософт *недоступна* для:
+- Облако сообщества для государственных организаций США (GCC)
+- Высококачественное облако сообщества США (GCC High)
+- Отдел обороны США
+- Все правительственные учреждения США с коммерческими лицензиями
 
 ## <a name="related-topics"></a>См. также
 - [Обзор Защиты от угроз (Майкрософт)](microsoft-threat-protection.md)
