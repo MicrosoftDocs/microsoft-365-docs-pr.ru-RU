@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Администраторы Exchange Online управляют электронной почтой и почтовыми ящиками организации. Например, они восстанавливают удаленные элементы в почтовом ящике пользователя. '
-ms.openlocfilehash: e45d6a0e9f2151e03a300b1e36bf53b7c9f8ef68
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 984345dd92e9b9a6da3c803b77b663bd8299c62e
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618912"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322079"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
@@ -37,7 +37,7 @@ ms.locfileid: "43618912"
   
 - [Восстановление элементов, удаленных из почтового ящика пользователя.](https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox)
     
-- [Настройка политики архивации и удаления для почтовых ящиков в Организации](https://docs.microsoft.com/office365/securitycompliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
+- [Настройка политики архивации и удаления для почтовых ящиков в Организации](https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes).
     
 - Настройка функций почтового ящика, например политики общего доступа к нему, которая определяет, как пользователи могут делиться данными календаря и контактов с другими людьми за пределами вашей организации. 
     
@@ -45,7 +45,7 @@ ms.locfileid: "43618912"
     
 - [Создание общего почтового ящика](../email/create-a-shared-mailbox.md) , чтобы группа людей могла отслеживать и отправлять электронную почту с общего адреса электронной почты. 
     
-- [Защита от нежелательной](https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection) почты и фильтры вредоносных программ для Организации. 
+- [Защита от нежелательной](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-protection) почты и фильтры вредоносных программ для Организации. 
     
 - Управление группами Microsoft 365
     

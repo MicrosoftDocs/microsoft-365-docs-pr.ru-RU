@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: В этой статье представлен обзор расширенного обнаружения электронных данных в Microsoft 365, средство для внутреннего и внешнего расследования.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fae09b33364f9ff57233ee25ccf40e4956dfd408
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 84fbf3bbdc4a4ee08901001f7898355e4c8b2705
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034909"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322044"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Обзор расширенного решения обнаружения электронных данных в Microsoft 365
 
@@ -106,7 +106,3 @@ ms.locfileid: "44034909"
 ## <a name="configuring-case-settings"></a>Настройка параметров регистра
 
 С помощью вкладки **Параметры** можно настроить параметры на уровне всего в наличии. Это включает в себя добавление элементов к случаю, закрытие или удаление обращения, а также настройку параметров поиска и аналитики.
-
-## <a name="advanced-ediscovery-reports"></a>Расширенные отчеты обнаружения электронных данных
-
-Вы можете использовать расширенные отчеты обнаружения электронных данных на домашней странице, чтобы обеспечить отслеживание активности и состояния во всех дополнительных случаях обнаружения электронных данных. Функция Advanced eDiscovery Reports объединяет сведения о обращениях, custodians, источниках данных и связях. Вы можете отфильтровать данные отчета на основе различных критериев и экспортировать Объединенные данные в CSV-файл для дальнейшего анализа.  Более подробную информацию можно узнать в статье [Advanced eDiscovery Reports](advanced-ediscovery-reports.md).

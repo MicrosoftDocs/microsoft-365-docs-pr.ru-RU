@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Узнайте, как удалять лицензии из учетных записей пользователей.
-ms.openlocfilehash: 49d3b4b6786bc6ab66bc0416aac847ada592664d
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: d4ac823a7345cb4d04f599c5635248d6ce324257
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139641"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322033"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -159,9 +159,9 @@ ms.locfileid: "44139641"
 
 - Обратите внимание, что файлы, сохраненные в OneDrive для бизнеса, не удаляются, пока пользователь не будет удален из центра администрирования Microsoft 365 или удален с помощью синхронизации Active Directory. Дополнительные сведения см. в разделе " [Хранение и удаление OneDrive](https://docs.microsoft.com/onedrive/retention-and-deletion)".
 
-- Кроме того, почтовый ящик пользователя больше не может быть доступен для поиска с помощью средства обнаружения электронных данных, такого как поиск контента или Расширенное обнаружение электронных данных при удалении лицензии. Дополнительные сведения можно найти в разделе "поиск отключенных или нелицензированных почтовых ящиков" в разделе [Поиск содержимого в Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
+- Кроме того, почтовый ящик пользователя больше не может быть доступен для поиска с помощью средства обнаружения электронных данных, такого как поиск контента или Расширенное обнаружение электронных данных при удалении лицензии. Дополнительные сведения можно найти в разделе "поиск отключенных или нелицензированных почтовых ящиков" в разделе [Поиск содержимого в Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search#searching-disconnected-or-de-licensed-mailboxes).
 
-- Если у вас есть Корпоративная подписка, например Office 365 корпоративный E3, Exchange Online позволяет сохранить данные почтового ящика удаленной учетной записи пользователя с помощью [неактивных почтовых ящиков](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365). Дополнительные сведения см в статье [Создание неактивных почтовых ящиков и управление ими в Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes).
+- Если у вас есть Корпоративная подписка, например Office 365 корпоративный E3, Exchange Online позволяет сохранить данные почтового ящика удаленной учетной записи пользователя с помощью [неактивных почтовых ящиков](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365). Дополнительные сведения см в статье [Создание неактивных почтовых ящиков и управление ими в Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes).
 
 - Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии и получения доступа к данным, приведенные в статье [Удаление бывшего сотрудника](../add-users/remove-former-employee.md).
 

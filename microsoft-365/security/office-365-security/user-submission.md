@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как настроить почтовый ящик для сбора нежелательных сообщений и фишинговых сообщений, сообщаемых пользователями.
-ms.openlocfilehash: 6aa343b337139c4d81f35f78a227634d3b6a8781
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 2a1872aff88cd1cc21c6a6e3258671c303b55e17
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262527"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294197"
 ---
 # <a name="specify-a-mailbox-for-user-submissions-of-spam-and-phishing-messages-in-exchange-online"></a>Выбор почтового ящика для отправки пользователем сообщений о нежелательной почте и фишинговых сообщениях в Exchange Online
 
@@ -31,7 +31,7 @@ ms.locfileid: "44262527"
 - [Встроенные отчеты в Outlook в Интернете](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md) (прежнее название — Outlook Web App)
 
   > [!NOTE]
-  > Если отчетность [отключена в Outlook в Интернете](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop#disable-or-enable-junk-email-reporting-in-outlook-on-the-web), то при включении этой функции переопределяется этот параметр и пользователи могут сообщать о сообщениях в Outlook в Интернете еще раз.
+  > Если отчетность [отключена в Outlook в Интернете](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web), то при включении этой функции переопределяется этот параметр и пользователи могут сообщать о сообщениях в Outlook в Интернете еще раз.
 
 Кроме того, можно настроить сторонние средства создания отчетов для пересылки сообщений в указанный почтовый ящик.
 
@@ -75,8 +75,6 @@ ms.locfileid: "44262527"
 
         Когда все будет готово, нажмите кнопку **подтвердить**.
 
-        ![Отправка сообщений, отправленных в корпорацию Майкрософт, и настраиваемого почтового ящика](../../media/user-submission-enable-outlook-report-message.png)
-
      > [!CAUTION]
      > Если вы [отключили отчеты о нежелательной почте в Outlook в Интернете](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) с помощью Outlook в веб-политиках почтовых ящиков, но настроили любой из предыдущих параметров для отправки отчетов в корпорацию Майкрософт, пользователи смогут отправлять отчеты в корпорацию Майкрософт в Outlook в Интернете с помощью надстройки Report Message.
 
@@ -86,8 +84,6 @@ ms.locfileid: "44262527"
 
       Когда все будет готово, нажмите кнопку **подтвердить**.
 
-      ![Отправка сообщений, отправленных в настраиваемый почтовый ящик, с помощью сторонних средств](../../media/user-submission-disable-outlook-report-message.png)
-     
 ## <a name="message-submission-format"></a>Формат отправки сообщений
 
 Сообщения, отправляемые в пользовательские почтовые ящики, должны соответствовать определенному почтовому формату отправки. Тема (название конверта) отправки должна иметь следующий формат:

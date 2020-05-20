@@ -20,12 +20,12 @@ search.appverid:
 description: 'Центр администрирования Microsoft 365: сведения о возможностях, добавленных в этом месяце.'
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 6dcfa1bac5fa9837f9882a575c3d5eaa6cf3be4f
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6514456a16a6ee2079a1b93e053c21863809db24
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208166"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322139"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Новые возможности центра администрирования Microsoft 365
 
@@ -46,7 +46,7 @@ ms.locfileid: "44208166"
 
 - [Что нового в Exchange Online](https://go.microsoft.com/fwlink/?linkid=2119714)
 - [Новые возможности Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
-- [Новые возможности центра соответствия требованиям Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
+- [Новые возможности центра соответствия требованиям Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/whats-new)
 - [Новые возможности в центре администрирования SharePoint](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
 - [Новые возможности в центре администрирования Exchange](https://docs.microsoft.com/Exchange/whats-new)
 - [Обновления Office](https://docs.microsoft.com/OfficeUpdates/)
@@ -464,7 +464,7 @@ ms.locfileid: "44208166"
 - **Защита устройств Intune** — если ваша лицензия включает Intune и мы определили, что вы еще не завершили настройку Intune или зарегистрировала устройства, мы рекомендуем создать политику Intune для защиты файлов вашей организации, когда пользователи обращаются к ним с мобильных устройств.
 - **Получение ежемесячных обновлений для компонентов Office** — мы получили отзывы от наших очень маленьких клиентов, которые получит ежемесячные обновления компонентов Office, их пользователи довольны. Таким образом, если вы занимаетесь очень маленьким предприятием, и вы в настоящее время получаете обновление компонентов Office каждые шесть месяцев, вы увидите эту рекомендацию.
 
-**Settings** <br>
+**Параметры** <br>
 Как и для параметров, существует несколько изменений. В основном, просто обновите существующие параметры до нового стиля центра администрирования. Так как мы перемещаясь вперед и добавили новые параметры, которые вы никогда не видели, мы начнем их упоминание здесь. И у нас есть один параметр для объявления: **современная проверка подлинности**. Да, существует новый параметр для включения **современной проверки подлинности**! Чтобы извлечь его, перейдите в раздел **Settings**  >  **службы настройки &**  >  **подлинности**надстроек.
 
 ## <a name="april-2019"></a>Апрель 2019 г.

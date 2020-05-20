@@ -24,19 +24,19 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Используйте этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и защищенных данных. '
-ms.openlocfilehash: d54a37575c0280ca9ad23fdd4a4b878286dde1ab
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: bfde2f55f12967e15213ecb12274a215c4190c93
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140597"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322091"
 ---
 # <a name="remove-a-former-employee"></a>Удаление бывшего сотрудника
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
   
@@ -51,7 +51,7 @@ ms.locfileid: "44140597"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы удалить сотрудника, выполните указанные ниже действия.
 
@@ -135,7 +135,7 @@ ms.locfileid: "44140597"
     
     Неактивные почтовые ящики не могут принимать электронную почту и не отображаются в общей адресной книге организации и других списках.
     
-    Чтобы узнать, как разместить удержание в почтовом ящике, ознакомьтесь со статьей [управление неактивными почтовыми ящиками в Exchange Online](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes).
+    Чтобы узнать, как разместить удержание в почтовом ящике, ознакомьтесь со статьей [управление неактивными почтовыми ящиками в Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/create-and-manage-inactive-mailboxes).
     
 ## <a name="forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox"></a>Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик
 <a name="bkmk_forward"> </a>
@@ -218,7 +218,7 @@ ms.locfileid: "44140597"
     
 4. Выберите пользователя и в разделе **мобильные устройства**выберите **Просмотреть сведения**. 
     
-5. На странице " **сведения о мобильном устройстве** " в разделе **мобильные устройства**Выберите мобильное устройство, нажмите кнопку Очистить](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)устройство очистки **данных**![, а затем выберите пункт **блокировать**. 
+5. На странице " **сведения о мобильном устройстве** " в разделе **мобильные устройства**Выберите мобильное устройство, нажмите кнопку **очистить** ![ устройство очистки данных ](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png) , а затем выберите пункт **блокировать**. 
     
 6. Нажмите кнопку **Сохранить**. 
     
@@ -325,20 +325,20 @@ ms.locfileid: "44140597"
 
 
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 ::: moniker-end
     

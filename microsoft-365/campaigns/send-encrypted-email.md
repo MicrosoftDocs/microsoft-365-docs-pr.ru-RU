@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как отправлять зашифрованную электронную почту с помощью Outlook.
-ms.openlocfilehash: fe0835c7b5b3328114ce7820da3336ca9f300d3e
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 5318fbe045c909e3b7f81d195a8e6b4d5eb96dc1
+ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165689"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44322151"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Шифрование или маркировка конфиденциальной электронной почты
 
@@ -52,7 +52,7 @@ ms.locfileid: "44165689"
 
 ## <a name="admin-settings"></a>Параметры администрирования
 
-Вы можете узнать все о настройке шифрования электронной почты при [шифровании электронной почты в Office 365](https://docs.microsoft.com/office365/securitycompliance/email-encryption).
+Вы можете узнать все о настройке шифрования электронной почты при [шифровании электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/compliance/email-encryption).
 
 ### <a name="automatically-encrypt-email-messages"></a>Автоматическое шифрование сообщений электронной почты
 
@@ -64,9 +64,9 @@ ms.locfileid: "44165689"
 2. Выберите плитку администратор. 
 3. В центре администрирования выберите **центр администрирования > Exchange**. 
 
-Дополнительную информацию можно узнать в статье [Определение правил обработки почтового процесса для шифрования сообщений электронной почты в Office 365](https://docs.microsoft.com/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email).
+Дополнительную информацию можно узнать в статье [Определение правил обработки почтового процесса для шифрования сообщений электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 
 ### <a name="brand-your-encryption-messages"></a>Фирменная символика сообщений шифрования
 
-Вы также можете применить фирменную символику кампании для настройки внешнего вида и текста в сообщениях электронной почты. Дополнительную информацию можно узнать [в статье Добавление фирменной символики Организации к зашифрованным сообщениям](https://docs.microsoft.com/office365/securitycompliance/email-encryption).
+Вы также можете применить фирменную символику кампании для настройки внешнего вида и текста в сообщениях электронной почты. Дополнительную информацию можно узнать [в статье Добавление фирменной символики Организации к зашифрованным сообщениям](https://docs.microsoft.com/microsoft-365/compliance/email-encryption).
 

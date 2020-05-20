@@ -6,7 +6,6 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
 audience: Admin
-ms.date: 05/17/2019
 ms.topic: overview
 f1_keywords:
 - "197503"
@@ -26,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье рассказывается, как использовать безопасные ссылки для защиты Организации от фишинга и других атак.
-ms.openlocfilehash: 9f6222889d213c25c7411e39f0714ccf09cfe0d9
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3dfa4016b34f430a260c9af4be2ed0c4126dea34
+ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208951"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44294233"
 ---
 # <a name="atp-safe-links"></a>Безопасные ссылки ATP
 
@@ -40,7 +39,7 @@ ms.locfileid: "44208951"
 > [!IMPORTANT]
 > Эта статья предназначена для бизнес-клиентов, у которых есть [Office 365 Advanced Threat Protection](office-365-atp.md). Если вы используете Outlook.com, семейство Microsoft 365 или Microsoft 365 персональный, а вы ищете сведения о безопасных ссылках в Outlook, ознакомьтесь со статьей [Advanced Outlook.com Security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2).
 
-Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-atp.md)) помогает защитить организацию, предоставляя время на проверку веб-адресов (URL-адресов) в [сообщениях электронной почты](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-email) и [документах Office](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-office-documents). Защита определяется с помощью [политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md) , которые задаются группой безопасности Microsoft 365.
+Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](office-365-atp.md)) поможет защитить организацию, предоставив время на проверку веб-адресов (URL-адресов) в [сообщениях электронной почты](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-email) и [документах Office](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-office-documents). Защита определяется с помощью [политик безопасных ссылок ATP](set-up-atp-safe-links-policies.md) , которые задаются группой безопасности Microsoft 365.
   
 После выполнения политик безопасных ссылок ATP, глобальные администраторы, администраторы безопасности и средства чтения безопасности могут [просматривать отчеты для Advanced Threat protection](view-reports-for-atp.md). Сведения, содержащиеся в этих отчетах, помогут вашей группе по обеспечению безопасности выполнить дальнейшие действия по защите Организации или исследованию инцидентов безопасности.
 
@@ -48,7 +47,7 @@ Office 365 ATP Safe Links (часть [Advanced Threat protection](office-365-at
          
 ## <a name="how-to-get-atp-safe-links-protection"></a>Как получить защиту от безопасных ссылок ATP
 
-Для **начала убедитесь, что в подписке включена [Расширенная защита от угроз](office-365-atp.md)**. ATP включается в подписки, такие как [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес премиум](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise и Office 365, образование A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках: 
+**Сначала убедитесь, что подписка включает [Office 365 Advanced Threat protection](office-365-atp.md) ** План 1 или план 2. Office 365 ATP входит в подписку, например [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес премиум](https://www.microsoft.com/microsoft-365/business), Office 365 корпоративный, Office 365 для образования A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках: 
 
 - [Планы и цены Advanced Threat Protection в Office 365](https://products.office.com/exchange/advance-threat-protection)
 
