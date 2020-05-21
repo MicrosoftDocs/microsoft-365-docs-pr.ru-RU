@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cc6f99dea89a5abc7f4c5bc07187c82d8999a064
-ms.sourcegitcommit: 8a15038a6ac16f41f6b90af52e367f888104cec9
+ms.openlocfilehash: ec4bd2e3244add3b14d614c308fea736c6ceccb6
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44156884"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254302"
 ---
 # <a name="service-organization-controls-soc"></a>Средства контроля обслуживающей организации (SOC)
 
@@ -48,30 +48,30 @@ ms.locfileid: "44156884"
 ### <a name="covered-services-for-soc-1-and-soc-2"></a>Поддерживаемые службы для SOC 1 и SOC 2
 
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- Microsoft Cloud App Security
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- Graph
+- Microsoft Graph
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
-- Stream
+- Microsoft Stream
 - Azure DevOps Services
 
 ### <a name="covered-services-for-soc-3"></a>Поддерживаемые службы для SOC 3
 
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Graph
+- Microsoft Cloud App Security
+- Microsoft Graph
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI
-- Stream
+- Microsoft Stream
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
@@ -79,7 +79,7 @@ ms.locfileid: "44156884"
 
 Облачные службы (Майкрософт) проверяются как минимум раз в год на соответствие стандартам SOC 1 (SSAE18, ISAE 3402), SOC 2 (AT 101) и SOC 3.
 
-#### <a name="azure-dynamics-365-cloud-app-security-flow-graph-intune-power-bi-powerapps-stream-and-microsoft-datacenters"></a>Azure, Dynamics 365, Безопасность облачных приложений, Flow, Graph, Intune, Power BI, PowerApps, Stream и Центры обработки данных Microsoft
+#### <a name="azure-dynamics-365-microsoft-cloud-app-security-flow-microsoft-graph-intune-power-bi-powerapps-microsoft-stream-and-microsoft-datacenters"></a>Azure, Dynamics 365, Microsoft Cloud App Security, Flow, Microsoft Graph, Intune, Power BI, PowerApps, Microsoft Stream и центры обработки данных Майкрософт
 
 - [Azure + Dynamics 365 и Azure + Dynamics 365 для правительства SOC 1 Тип 2 Отчет](https://aka.ms/azuresoc1auditreport)
 - [Azure + Dynamics 365 и Azure + Dynamics 365 для правительства SOC 2 Тип 2 Отчет](https://aka.ms/azuresoc2auditreport)
@@ -107,7 +107,7 @@ ms.locfileid: "44156884"
 
 **Как часто выпускаются отчеты SOC для Azure?**
 
-Отчеты SOC для Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream и центров обработки данных Майкрософт основаны на 12-месячном сроке работы (период аудита), а новые отчеты выпускаются раз в полгода (периоды заканчиваются 31 марта и 30 сентября). Связывающие письма рассылаются в январе (за период от 1.10 до 31.12) и в июле (за период от 1.04 до 30.06). Клиенты могут [скачать](https://aka.ms/stp) последние отчеты с портала Service Trust Portal.
+Отчеты SOC для Azure, Microsoft Cloud App Security, Flow, Microsoft Graph, Intune, Power BI, PowerApps, Microsoft Stream и центров обработки данных Майкрософт основаны на 12-месячном сроке работы (период аудита), а новые отчеты выпускаются раз в полгода (периоды заканчиваются 31 марта и 30 сентября). Связывающие письма рассылаются в январе (за период от 1.10 до 31.12) и в июле (за период от 1.04 до 30.06). Клиенты могут [скачать](https://aka.ms/stp) последние отчеты с портала Service Trust Portal.
 
 **Нужно ли самостоятельно проводить аудит центров обработки данных Майкрософт?**
 

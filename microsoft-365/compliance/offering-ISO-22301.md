@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 695471d51e391957a5dfea8770cb1928dd39ee86
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 64a43fc281e5074314ca2b272306a0733297d34e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065914"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254438"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 Стандарт управления непрерывностью бизнеса
 
@@ -35,21 +35,24 @@ Microsoft является первым поставщиком гипермас�
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
-- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Genomics
-- Graph
+- [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 Germany
+- Advanced Threat Protection в Microsoft Defender
+- Microsoft Graph
+- Бот Microsoft для здравоохранения
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365 для коммерческий, государственных и образовательных организаций](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
+- Power BI Embedded
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
-- [Azure и Azure ISO 22301, сертификат регистрации](https://go.microsoft.com/fwlink/p/?linkid=2099078)
-- [Azure ISO 22301, отчет по оценке](https://go.microsoft.com/fwlink/p/?linkid=2099079)
+- [Azure, Dynamics 365 и веб-службы: сертификат ISO22301](https://aka.ms/azureiso22301cert)
+- [Azure, Dynamics 365 и веб-службы: отчет об оценке ISO22301](https://aka.ms/azureiso22301report)
 - [BSI 22301, сертификат Microsoft Office 365](https://go.microsoft.com/fwlink/p/?linkid=2092109)
 - [БСИ 22301 Microsoft Office 365, дополнение к стадии 2](https://go.microsoft.com/fwlink/p/?linkid=2092209)
 - [Office 365 ISO 22301, отчет по стадии 2](https://go.microsoft.com/fwlink/p/?linkid=2092211)
