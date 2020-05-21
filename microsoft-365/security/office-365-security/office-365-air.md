@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Приступите к работе с автоматизированным исследованием и возможностями реагирования в Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: 4e36e0fa07f825d3259ef9e42b802c81ae929470
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: c2020c3d46fcf17194e2560af53d9a26fca30629
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159411"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327834"
 ---
 # <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Начало работы с автоматизированным исследованием и откликом (AIR) в Office 365
 
@@ -31,7 +31,7 @@ ms.locfileid: "44159411"
 
 ## <a name="the-overall-flow-of-air"></a>Общий поток воздуха
 
-На высоком уровне инициируется оповещение, а также запускается стратегия безопасности и автоматизированное исследование, что приводит к результатам и рекомендациям. Вот общий поток воздуха, пошаговые действия:
+На высоком уровне инициируется оповещение, а стратегия безопасности запускает автоматическое исследование, что приводит к результатам и рекомендациям. Вот общий поток воздуха, пошаговые действия:
 
 1. Автоматическое исследование инициируется одним из следующих способов:
 
@@ -107,7 +107,7 @@ Microsoft 365 предоставляет множество встроенных
 
 - [Просмотр и утверждение ожидающих действий](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-remediation-actions)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Автоматическое исследование и устранение неполадок в Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 

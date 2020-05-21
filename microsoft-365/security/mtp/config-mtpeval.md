@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 80b7e209f87d3612e753127f5d1a1b3c36304cc3
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: a41510deb8bad39e2f871babfbcb91a2e43f6dd8
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209418"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330849"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Настройка принципов защиты от угроз Майкрософт для испытательной лабораторной среды
 
@@ -237,5 +237,14 @@ ms.locfileid: "44209418"
 16. Прокрутите список вниз и нажмите кнопку **сохранить настройки** , чтобы подтвердить новые интеграции.
 <br>![Изображение of_Save кнопка "Параметры", которую нужно щелкнуть](../../media/mtp-eval-72.png) <br>
 
+## <a name="turn-on-microsoft-threat-protection"></a>Включение Защиты от угроз (Майкрософт)
+1. Перейдите в [Центр безопасности Microsoft 365](https://security.microsoft.com/homepage). Перейдите в раздел **Параметры** и выберите **Защита от угроз Майкрософт**.
+<br>![Снимок экрана с вариантом of_Microsoft защиты от угроз на странице параметров центра безопасности Microsoft 365](../../media/mtp-eval-72b.png) <br>
+
+2. Установите флажок **включить защиту от угроз Майкрософт** , а затем нажмите кнопку **сохранить**.
+<br>![Снимок экрана с вариантом of_Microsoft защиты от угроз на странице параметров центра безопасности Microsoft 365](../../media/mtp-eval-72c.png) <br>
+
+Поздравляем! Вы только что создали среду пробной лаборатории Майкрософт по защите от угроз! Теперь вы можете имитировать атаку и узнать, как обнаруживаются возможности, создавать оповещения и автоматически отвечать на атаки, не имеющие файлов в конечной точке.
+
 ## <a name="next-steps"></a>Дальнейшие действия
-[Включите защиту от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-enable?view=o365-worldwide#start-using-the-service) и [Создайте тестовое оповещение](generate-test-alert.md).
+[Создание тестового оповещения](generate-test-alert.md).

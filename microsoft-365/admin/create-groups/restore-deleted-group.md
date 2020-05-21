@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Узнайте, как восстановить удаленную группу Microsoft 365.
-ms.openlocfilehash: 9d432d6ddb7e41b6560329b562c24f392a424412
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 123805750beff88904a8e3874f0d4d46a72e8f01
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140528"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327632"
 ---
 # <a name="restore-a-deleted-group"></a>Восстановление удаленной группы
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -72,6 +72,9 @@ ms.locfileid: "44140528"
 1. Перейдите в [центр администрирования](https://admin.microsoft.com).
 2. Разверните узел **группы**, а затем щелкните **удаленные группы**.
 3. Выберите группу, которую требуется восстановить, и нажмите кнопку **восстановить группу**.
+
+> [!NOTE]
+> В некоторых случаях восстановление группы и всех ее данных может занять до 24 часов. 
   
 ## <a name="permanently-delete-a-microsoft-365-group"></a>Окончательное удаление группы Microsoft 365
 

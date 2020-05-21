@@ -1,5 +1,5 @@
 ---
-title: Планирование управления рисками для участников
+title: Планирование управления внутренними рисками
 description: Сведения о планировании использования политик управления рисками в Организации.
 keywords: Microsoft 365, риск для участников, управление рисками, соответствие требованиям
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 2b2abd68d767f169ea8e20fc349e6314cc6400d5
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: ca15f26cf8eb19990c3252acf66ba50d52567e44
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043409"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327127"
 ---
-# <a name="plan-for-insider-risk-management"></a>Планирование управления рисками для участников
+# <a name="plan-for-insider-risk-management"></a>Планирование управления внутренними рисками
 
 Прежде чем приступать к [управлению рисками](insider-risk-management.md) в Организации, необходимо выполнить важную деятельность по планированию, а также рекомендации, которые следует проанализировать с помощью технологий информации и управления соответствием. Тщательное понимание и планирование развертывания в следующих областях поможет убедиться в том, что ваша реализация и использование функций управления рисками для участников программы можно беспрепятственно относиться и приравниваются к рекомендациям по решению.
 

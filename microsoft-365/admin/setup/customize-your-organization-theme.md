@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Сведения о том, как изменить тему по умолчанию Microsoft 365 и настроить ее на использование логотипа или цвета вашей компании. '
-ms.openlocfilehash: 3674c26be50d622364a4dc077a85eaa974d71fcd
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: dba7003f6624a2635976ac689d608a83e62de5c0
+ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262333"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44327210"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Настройка темы Microsoft 365 для Организации
 
@@ -64,7 +64,7 @@ ms.locfileid: "44262333"
     
 4. Нажмите кнопку **Сохранить изменения**.
     
-Вы увидите новую тему в центре администрирования сразу же после короткой задержки, она будет отображаться в Microsoft 365, включая страницы в Outlook, SharePoint, [мобильное приложение SharePoint для iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)и [мобильное приложение SharePoint для Android](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284). Пример, в котором можно настроить изменения темы в центре администрирования, приведен на рисунке ниже.
+Новая тема будет сразу отображаться в центре администрирования, а после небольшой задержки она будет отображаться в Microsoft 365, включая страницы в Outlook, SharePoint, [мобильное приложение SharePoint для iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)и [мобильное приложение SharePoint для Android](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284). Пример, в котором можно настроить изменения темы в центре администрирования, приведен на рисунке ниже.
 
 ![m365 — Admin — клиент — тема — основные сведения](../../media/m365-admin-tenant-theme-conceptual.png)
 

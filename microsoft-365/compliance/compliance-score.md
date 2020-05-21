@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Оценка соответствия требованиям Майкрософт помогает организациям упростить и автоматизировать оценки рисков и предлагает Рекомендуемые действия по устранению рисков.
-ms.openlocfilehash: 5fced1a9452f2345a678bfef670e1a19b9811e81
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 3c7a4bdfd5de7a9a6dcbede5146ebb517acdb4bb
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140854"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330803"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Оценка соответствия требованиям Майкрософт (Предварительная версия)
 
@@ -111,20 +111,21 @@ ms.locfileid: "44140854"
 1. [Общий закон по защите данных в Бразилии (ЛГПД)](https://go.microsoft.com/fwlink/?linkid=2115387)
 2. [Закон о конфиденциальности для потребителей в Калифорнии (ККПА)](https://go.microsoft.com/fwlink/?linkid=2108871) (Предварительная версия)
 3. [Cloud Controls Alliance (CSA) Cloud Controls (CCM) 3.0.1](https://go.microsoft.com/fwlink/?linkid=2109076)
-4. [GDPR Европейского союза](https://go.microsoft.com/fwlink/?linkid=2108870)
-5. [Буклет информационный Совет по отчетности по федеральным финансовым учреждениям (ФФИЕК)](https://go.microsoft.com/fwlink/?linkid=2109077)
-6. [FedRAMP средний](https://go.microsoft.com/fwlink/?linkid=2108869)
-7. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HiTech](https://go.microsoft.com/fwlink/?linkid=2109079)
-8. [Ирап](https://go.microsoft.com/fwlink/?linkid=2113709) / [Австралийский правительством ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (ознакомительная версия)
-9. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
-10. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-11. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
-12. [Базовый план защиты данных (Майкрософт) 365](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
-13. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-14. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-15. [Инфраструктура NIST Циберсекурити (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-16. [SOC 1;](https://go.microsoft.com/fwlink/?linkid=2115184)
-17. [SOC 2;](https://go.microsoft.com/fwlink/?linkid=2115184)
+4. [Разрешение безопасности данных Дубаи (ДГИСР)](https://go.microsoft.com/fwlink/?linkid=2131193)
+5. [GDPR Европейского союза](https://go.microsoft.com/fwlink/?linkid=2108870)
+6. [Буклет информационный Совет по отчетности по федеральным финансовым учреждениям (ФФИЕК)](https://go.microsoft.com/fwlink/?linkid=2109077)
+7. [FedRAMP средний](https://go.microsoft.com/fwlink/?linkid=2108869)
+8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078)  /  [HiTech](https://go.microsoft.com/fwlink/?linkid=2109079)
+9. [Ирап](https://go.microsoft.com/fwlink/?linkid=2113709)  /  [Австралийский орган ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (Предварительная версия)
+10. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
+11. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
+12. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+13. [Базовый план защиты данных (Майкрософт) 365](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+14. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+15. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+16. [Инфраструктура NIST Циберсекурити (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+17. [SOC 1;](https://go.microsoft.com/fwlink/?linkid=2115184)
+18. [SOC 2;](https://go.microsoft.com/fwlink/?linkid=2115184)
 
 Просмотрите [подробные инструкции по созданию шаблонов](working-with-compliance-manager.md#templates), которые выполняются в диспетчере соответствия требованиям.
 
