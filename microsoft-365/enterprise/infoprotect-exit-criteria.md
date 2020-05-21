@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Изучите условия для служб и инфраструктуры, основанных на Information Protection, и проверьте, соответствует ли используемая вами конфигурация требованиям Microsoft 365 корпоративный.
-ms.openlocfilehash: c0b4ff6a0d289b8a8c63255d817ea455df00bf13
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 19f4fc4ae93c00e33a2f58d8c23582e6e49cf887
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631637"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268225"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>Условия, при выполнении которых можно считать Information Protection настроенной
 
@@ -116,4 +116,4 @@ ms.locfileid: "43631637"
 
 Ваша инфраструктура защиты информации для Microsoft 365 корпоративный использует определенные уровни безопасности, усиленную защиту для Office 365, классификацию с применением типов и меток конфиденциальных данных, Windows Information Protection, защиту от потери данных, шифрование электронной почты и управление привилегированным доступом.
 
-Если вы выполняете этапы полного развертывания Microsoft 365 корпоративный, вы готовы к применению в ваших [полезных нагрузках и сценариях](deploy-workloads.md) всех функций и настроек базовой инфраструктуры.
+Если вы следите за комплексным развертыванием Microsoft 365 Enterprise, теперь вы готовы к тому, чтобы ваши [рабочие нагрузки](deploy-workloads.md) использовали все возможности и конфигурацию вашей базовой инфраструктуры.

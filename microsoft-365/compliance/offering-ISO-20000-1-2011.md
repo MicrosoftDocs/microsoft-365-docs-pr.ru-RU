@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5a30f856f418807025eb450537633aec1616c54f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 00657f3e1e223305c4e4a4202e8ff6f612b5374e
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065924"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254202"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 "Управление службами информационных технологий"
 
@@ -35,26 +35,28 @@ ms.locfileid: "44065924"
   
 Независимая аудиторская компания выполнила строгую проверку службы Microsoft Azure и нескольких веб-служб Майкрософт на соответствие требованиям, установленным стандартом ISO 20000-1:2011. Имеющийся сертификат ISO 20000-1 демонстрирует, что в Azure и охваченных веб-службах Майкрософт реализованы правильные процедуры управления ИТ-службами для предоставления эффективных и надежных ИТ-служб, для которых регулярно применяются мониторинг, проверки и улучшения.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
-- [Azure и Azure для государственных организаций](https://aka.ms/AzureCompliance)
-- Cloud App Security
+- [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
+- Microsoft Cloud App Security
+- Advanced Threat Protection в Microsoft Defender
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Microsoft PowerApps
-- Microsoft Flow
-- Microsoft Graph
-- Microsoft Genomics
 - Служба Office 365, предоставляемая компанией 21Vianet
+- Microsoft PowerApps
+- Power Automate (прежнее название Microsoft Flow)
 - Power BI
+- Power BI Embedded
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
-Документы 2017 г. по ISO 20000-1 для Azure, Intune, управляемых Майкрософт компьютеров, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics и центров обработки данных Майкрософт
+Документация ISO 20000-1:
 
-- [Отчет об оценке](https://go.microsoft.com/fwlink/p/?linkid=2077810)
-- [Сертификат](https://go.microsoft.com/fwlink/p/?linkid=2077815)
-- [Заявление о применимости](https://aka.ms/AzureISO20000StatementofApplicability)
+- [Azure, Dynamics 365 и веб-службы: сертификат ISO20000-1](https://aka.ms/azureiso200001cert)
+- [Azure, Dynamics 365 и веб-службы: отчет об оценке ISO20000-1](https://aka.ms/azureiso200001report)
+- [Azure, Dynamics 365 и веб-службы: заявление о доступности ISO20000-1 (SOA)](https://aka.ms/azureiso200001soa)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -76,6 +78,6 @@ ms.locfileid: "44065924"
 
 ## <a name="resources"></a>Ресурсы
 
-- [ISO 20000-1:2011 — управление службами](https://www.iso.org/standard/51986.html) (требования для покупки)
+- [ISO 20000-1:2011 — управление службами](https://www.iso.org/standard/51986.html) (требования для приобретения)
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)

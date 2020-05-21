@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a305c66aaa3359417bd72b8525ed63787d655f8f
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: ab6f199cd27e56a24641ec52ba640cf5e2f5777b
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065684"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254468"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Стандарт многоуровневой облачной безопасности (MTCS) для Сингапура
 
@@ -46,16 +46,16 @@ MTCS — это первый стандарт облачной безопасн�
 
 - [Azure](https://go.microsoft.com/fwlink/p/?linkid=2092718)
 - [Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2051700)
-- Cloud App Security
+- Microsoft Cloud App Security
 - Genomics
-- Graph
-- Health Bot
+- Microsoft Graph
+- Бот Microsoft для здравоохранения
 - Intune
 - Flow
 - OMS Service Map
 - PowerApps
 - Power BI
-- Stream
+- Microsoft Stream
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты

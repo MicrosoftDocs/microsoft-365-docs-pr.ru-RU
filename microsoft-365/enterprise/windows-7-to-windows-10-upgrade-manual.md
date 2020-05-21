@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Руководство по переходу с Windows 7 на Windows 10 в ручном режиме.
-ms.openlocfilehash: ea1705a91baf6b0526e87bcf04529ab2668aa439
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3840a57e3672bdbe0f9fc3c785e20350646a0102
+ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086156"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44222319"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Пошаговое руководство по переходу с Windows 7 на Windows 10 в ручном режиме
 
@@ -110,6 +110,6 @@ ms.locfileid: "42086156"
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>Переход на Windows 10 на новом компьютере
 
-Другой рекомендуемый вариант: переход на Windows 10 на новом компьютере. Если выбран этот вариант, вы сможете перенести файлы со старого компьютера, используя резервное копирование [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [функцию резервного копирования и восстановления, встроенную в Windows](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), вручную используя [внешнее запоминающее устройство](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10) или такие средства, как [PCmover Express от Laplink](https://www.microsoft.com/windows/transfer-your-data). При использовании любого из этих вариантов по-прежнему потребуется переустановка всех необходимых приложений, не входящих в состав Windows 10. Дополнительные сведения о возможностях ручного перехода с существующего компьютера под управлением Windows 7 на новый компьютер с Windows 10 см. в статье [Переход на компьютер с Windows 10](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) в службе поддержки Windows.
+Другой рекомендуемый вариант: переход на Windows 10 на новом компьютере. Если это ваше предпочтение, вы можете перенести файлы со старого компьютера, используя резервную копию [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10), [встроенную в Windows систему резервного копирования и восстановления](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10), вручную, с помощью [внешнего устройства хранения](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10), или такие инструменты, как PCmover Express от Laplink. При использовании любого из этих вариантов по-прежнему потребуется переустановка всех необходимых приложений, не входящих в состав Windows 10. Дополнительные сведения о возможностях ручного перехода с существующего компьютера под управлением Windows 7 на новый компьютер с Windows 10 см. в статье [Переход на компьютер с Windows 10](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10) в службе поддержки Windows.
 
-## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[Центр развертывания компьютеров](https://aka.ms/howtoshift)
+## <a name="desktop-deployment-center"></a>[Центр развертывания компьютеров](https://aka.ms/howtoshift)

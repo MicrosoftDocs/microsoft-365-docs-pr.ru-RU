@@ -20,12 +20,12 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: ''
 description: Узнайте, как изменить или создать типы конфиденциальной информации в Office 365 для соблюдения Общего регламента по защите данных (GDPR).
-ms.openlocfilehash: 3eca04fcf949a19615dc574c90d8dbeea0894a23
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 70ce61f582cbc952811d01cccc7b958bf1b52dbb
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166070"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224636"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>Настройка и создание типа конфиденциальной информации
 
@@ -165,7 +165,7 @@ ms.locfileid: "44166070"
 
 Примечания.
 
--   Для поиска с учетом расположения можно использовать операторы NEAR и ONEAR.
+-   Вы можете использовать Поблизости для поиска близости.
 
 -   К сожалению, язык KQL не поддерживает запросы с классом Regex (например, IdRef="адрес\_электронной_почты\_Regex")
 

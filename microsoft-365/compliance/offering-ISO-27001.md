@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dfbb5ed43c5256109ccc0a137a3d144d084e573e
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: c02e27ccf6b4c1a1c03849d1f599acef43385668
+ms.sourcegitcommit: dbc9ff159ed41160d8883c8a9787eba50b45f50b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214245"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278462"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>Стандарты управления информационной безопасностью ISO/IEC 27001:2013
 
@@ -35,28 +35,30 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 Международное признание и применимость ISO / IEC 27001 является основной причиной, по которой сертификация по этому стандарту выдвинута на передний план подхода корпорации Майкрософт к внедрению и управлению информационной безопасностью. Получение корпорацией Майкрософт сертификата ISO / IEC 27001 указывает на ее приверженность выполнению обещаний клиентов для бизнеса с точки зрения соответствия требованиям безопасности. В настоящее время как Azure общедоступный, так и Azure для Германии проходят проверку один раз в год на соответствие стандарту ISO / IEC 27001 сторонним уполномоченным органом по сертификации, обеспечивая независимую проверку наличия средств управления безопасностью и их эффективной работы.
 
-Узнайте о преимуществах стандарта ISO/IEC 27001 в Microsoft Cloud: [Загрузите ISO/IEC 27001:2013](https://go.microsoft.com/fwlink/p/?linkid=2100068)
+Узнайте о преимуществах ISO/IEC 27001 в облачной службе Microsoft: [Загрузите ISO/IEC 27001: 2013](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- Genomics
-- Graph
-- Health Bot
+- Azure DevOps Services
+- Microsoft Cloud App Security
+- Advanced Threat Protection в Microsoft Defender
+- [Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 Германия](https://aka.ms/d365-compliance-list)
+- Microsoft Graph
+- Бот Microsoft для здравоохранения
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Germany
 - Клиент OMS Service Map
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
+- Power BI Embedded
+- Power Virtual Agents
 - [Профессиональные услуги Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2100022)
-- Stream
-- Azure DevOps Services
-- ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности
+- Microsoft Stream
+- Microsoft Threat эксперт
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
@@ -64,17 +66,11 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, управляемые Майкрософт компьютеры, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001.](https://go.microsoft.com/fwlink/p/?linkid=2078342)
+- [Azure, Dynamics 365, и веб-службы: Сертификат ISO27001](https://aka.ms/azureiso27001cert)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 — глобальная версия ISO 27001 и версия ISO 27001 для Германии — стандарты управления информационной безопасностью — сертификат](https://aka.ms/o365iso27001cert)
-
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 — (ранее Dynamics CRM) ISO 27001 — стандарты управления информационной безопасностью — сертификат](https://aka.ms/D365ISO27001Cert)
-- [Dynamics 365 — служба Microsoft Dynamics Marketing (MDM) ISO 27001 — стандарты управления информационной безопасностью — сертификат](https://aka.ms/d365mdm27001cert)
-- [Dynamics 365 — служба социального участия Microsoft Social Engagement Service ISO 27001 — стандарты управления информационной безопасностью — сертификат](https://aka.ms/d365siso27001cert)
+- [Office 365—глобальная версия и версия ISO 27001 для Германии: Сертификат стандартов управления информационной безопасностью](https://aka.ms/o365iso27001cert)
 
 ### <a name="azure-devops-services"></a>Azure DevOps Services
 
@@ -84,36 +80,23 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 - [Профессиональные услуги Майкрософт](https://www.bsigroup.com/Our-services/Certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002)
 
-### <a name="microsoft-defender-atp"></a>ATP в Microsoft Defender
-
-- [ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — сертификат ISO 27001](https://aka.ms/windowsdefenderatpiso27001certificate)
-
 ## <a name="assessments-and-reports"></a>Оценки и отчеты
 
 ### <a name="azure"></a>Azure
 
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, управляемые Майкрософт компьютеры, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001 и отчет по оценке аудита 27018.](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Azure, Cloud App Security, Flow, Genomics, Graph, Health Bot, Intune, клиент OMS Service Map, PowerApps, Power BI, Stream и центр обработки данных Майкрософт — сертификат ISO 27001 и положение о применимости 27018.](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Azure, Dynamics 365 и онлайн-сервисы: ISO 27001, 27018 и 27701 Отчет об оценке аудита](https://aka.ms/azureiso27001report)
+- [Azure, Dynamics 365 и онлайн-сервисы: 27001, 27018, 27701 Заявление о применимости (SOA)](https://aka.ms/Azureiso27001soa)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 — ISO 27001, ISO 27018 и ISO 27017, отчет по оценке аудита](https://aka.ms/o365isoreport)
-- [Система управления информационной безопасностью (СУИБ) Office 365 — положение о применимости для обеспечения безопасности и конфиденциальности](https://aka.ms/o365isosoa)
-- [Office 365 — немецкий ISO 27001, ISO 27017 и ISO 27018, отчет по оценке аудита](https://aka.ms/o365gerisoaudit)
-- [Yammer ISO 27001, отчет по оценке аудита](https://aka.ms/yammeriso)
-
-### <a name="dynamics-365"></a>Dynamics 365
-
-- [Dynamics 365 — ISO 27001, положение о применимости стандарта (SOA)](https://aka.ms/d365isosoa)
+- [Office 365: отчет об оценке аудита ISO 27001, 27018 и 27017](https://aka.ms/o365isoreport)
+- [Office 365. Система управления информационной безопасностью (ISMS) - заявление о применимости к безопасности и конфиденциальности](https://aka.ms/o365isosoa)
+- [Office 365 Германия: ISO 27001, 27017 и 27018 Отчет об оценке аудита](https://aka.ms/o365gerisoaudit)
+- [Yammer: отчет по оценке аудита ISO27001](https://aka.ms/yammeriso)
 
 ### <a name="azure-devops-services"></a>Azure DevOps Services
 
 - [Azure DevOps Services — ISO 27001 сертификат IS 619017](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dVisual%2bStudio%2bTeam%2bServices&licencenumber=IS%20619017)
-
-### <a name="microsoft-defender-atp"></a>ATP в Microsoft Defender
-
-- [ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — ISO 27001, отчет по оценке аудита](https://aka.ms/windowsdefenderatpiso27001auditreport)
-- [ATP в Microsoft Defender — обнаружение конечных точек и реагирование, автоматическое исследование и устранение, оценка безопасности — положение о применимости ISO 27001 и 27018](https://aka.ms/windowsdefenderatpiso27001SOA)
 
 [См. дополнительные отчеты по аудиту](https://aka.ms/auditreports)
 
@@ -148,7 +131,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 
 ## <a name="resources"></a>Ресурсы
 
-- [Сопоставление предложений Microsoft по кибербезопасности с: NIST Кибербезопасность (CSF), элементы управления CIS и платформы ISO27001:2013](https://download.microsoft.com/download/B/1/8/B18F4C7D-5CBA-4E68-A437-31F1E908ACBA/Microsoft_Cyber_Offerings_Mapped_to_Security_Frameworks_EN_US.pdf)
+- [Сопоставление предложений Microsoft Cyber с: NIST Cybersecurity (CSF), элементами управления CIS и стандартами ISO27001: 2013](https://download.microsoft.com/download/B/1/8/B18F4C7D-5CBA-4E68-A437-31F1E908ACBA/Microsoft_Cyber_Offerings_Mapped_to_Security_Frameworks_EN_US.pdf)
 - [Каталог ISO/IEC 27000](https://www.27000.org/index.htm)
 - [Стандарт ISO/IEC 27001: 2013](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=54534) (для покупок)
 - [Корпорация Майкрософт устанавливает высокую планку информационной безопасности](https://pages.bsigroup.com/l/73472/2015-07-24/v9btr) (пример внедрения BSI)

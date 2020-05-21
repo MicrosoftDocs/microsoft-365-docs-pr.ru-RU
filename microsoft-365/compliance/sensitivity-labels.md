@@ -16,13 +16,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Используйте метки конфиденциальности с платформы Microsoft Information Protection, чтобы классифицировать и защищать данные вашей организации, при этом следя за тем, чтобы не пострадали производительность пользователей и их способность к сотрудничеству. Эти метки могут применять параметры защиты, которые включают визуальную маркировку шифрования, такую как нижние колонтитулы и водяные знаки.
-ms.openlocfilehash: 418a52a8a9798fa0e08a6a2d4951fe91e0685c1a
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+description: Используйте метки чувствительности из среды Microsoft Information Protection для классификации и защиты данных вашей организации, не снижая продуктивность и совместную работу пользователей.
+ms.openlocfilehash: 76d6a57c02f2623b65287b5429c41728a07724bd
+ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213287"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44292547"
 ---
 # <a name="learn-about-sensitivity-labels"></a>Сведения о метках конфиденциальности
 

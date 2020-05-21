@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: После создания меток хранения и меток конфиденциальности рекомендуется просматривать, как они используется в клиенте. С помощью аналитики меток в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365 можно быстро просмотреть, какие метки используются чаще всего и где они применяются.
-ms.openlocfilehash: 75eb86cb8671c81b80afc67b19d7c54830c4c401
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3905b868ec3815fd9bf63ca131a20ceb1034f2c7
+ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072318"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231992"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Просмотр использования меток с помощью аналитики меток
 
@@ -99,5 +99,5 @@ ms.locfileid: "42072318"
 - Администратор безопасности
 - Читатель безопасности
 
-Также обратите внимание, что эти отчеты используют Azure Monitor для хранения данных в рабочей области Log Analytics, принадлежащей вашей организации. Поэтому пользователя следует добавить как читателя в рабочую область Azure Monitoring, содержащую данные. Дополнительные сведения см. в разделе [Разрешения, необходимые для средств аналитики Azure Information Protection](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
+Также обратите внимание, что эти отчеты используют Azure Monitor для хранения данных в рабочей области Log Analytics, принадлежащей вашей организации. Следовательно, пользователь должен быть добавлен как читатель в рабочую область Azure Monitoring, в которой хранятся данные. Дополнительные сведения см. в разделе [Разрешения, необходимые для аналитики Azure Information Protection](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics).
 

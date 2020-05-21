@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 10/08/2019
+ms.date: 05/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Предлагаем упрощенную пошаговую инструкцию для базовой инфраструктуры Microsoft 365 для предприятий для некорпоративных организаций.
-ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: caca093463e4a180f50c880a77fa18399103f069
+ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011903"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "44268389"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>Базовая инфраструктура Microsoft 365 для предприятий для некорпоративных организаций
 
@@ -436,6 +436,6 @@ Microsoft 365 для предприятий включает Microsoft Intune д
    - На это устройство установлены приложения Microsoft 365 для предприятий, которые автоматически обновляется, получая последние улучшения продуктов и улучшения безопасности Office.
    - Это устройство зарегистрировано в Intune и подчиняется политикам соответствия устройств и политикам защиты приложений в Intune.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
-Развертывание [нагрузок и сценариев](deploy-workloads.md) с использованием возможностей и конфигурации базовой инфраструктуры Microsoft 365 для предприятий.
+Разверните свои [рабочие нагрузки](deploy-workloads.md), чтобы воспользоваться преимуществами функций и конфигурации Microsoft 365 для корпоративной базовой инфраструктуры.
