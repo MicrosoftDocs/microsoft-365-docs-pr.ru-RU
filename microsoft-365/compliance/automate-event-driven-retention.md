@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как настроить операции бизнес-процесса, чтобы автоматизировать хранение с помощью событий, используя REST API Microsoft 365.
-ms.openlocfilehash: b94a607b679c6a03624a5af7a1b61f7d7a29dbee
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 75816512878bc6e42b5330309b99e72095d5546f
+ms.sourcegitcommit: 56772bed89516cebc5eb370e292ccfbb4889cb38
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166130"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330825"
 ---
 # <a name="automate-event-based-retention"></a>Автоматизация хранения на основе событий
 
@@ -183,10 +183,10 @@ Rest API — это конечная точка службы, поддержив
 <tr class="odd">
 <td>Основной текст</td>
 <td><p>&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices'</p>
-<p>xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
-<p>xmlns='https://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
+<p>&lt;entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'</p>
+<p>xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
+<p>xmlns='http://www.w3.org/2005/Atom'&gt;</p>
+<p>&lt;category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
 <p>&lt;updated&gt;9/9/2017 10:50:00 PM&lt;/updated&gt;</p>
 <p>&lt;content type='application/xml'&gt;</p>
 <p>&lt;m:properties&gt;</p>
@@ -374,10 +374,10 @@ Rest API — это конечная точка службы, поддержив
 <p>$EventName=&quot;EventByRESTPost-$(([Guid]::NewGuid()).ToString('N'))&quot;</p>
 <p>Write-Host &quot;Start to create an event with name: $EventName&quot;</p>
 <p>$body = &quot;&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices'</p>
-<p>xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
-<p>xmlns='https://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
+<p>&lt;entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'</p>
+<p>xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'</p>
+<p>xmlns='http://www.w3.org/2005/Atom'&gt;</p>
+<p>&lt;category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
 <p>&lt;updated&gt;7/14/2017 2:03:36 PM&lt;/updated&gt;</p>
 <p>&lt;content type='application/xml'&gt;</p>
 <p>&lt;m:properties&gt;</p>
