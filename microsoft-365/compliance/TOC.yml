@@ -129,8 +129,8 @@
               href: how-dlp-works-between-admin-centers.md
     - name: Типы конфиденциальной информации
       items:
-        - name: Что позволяют искать типы конфиденциальной информации
-          href: what-the-sensitive-information-types-look-for.md
+        - name: Определения типов конфиденциальной информации
+          href: sensitive-information-type-entity-definitions.md
         - name: 'Сведения, для обнаружения которых используются функции защиты от потери данных'
           href: what-the-dlp-functions-look-for.md
         - name: Расширенный обзор настройки защиты от потери данных
