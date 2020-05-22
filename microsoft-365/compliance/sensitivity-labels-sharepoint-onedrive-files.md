@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: bb35d4ed287e87ba17780c0e7106b837beb9666a
-ms.sourcegitcommit: 758263ad484e00f5a561a47c8c22d5787af7671e
+ms.openlocfilehash: 62bc2b748cf004722f94a7231046930d78437603
+ms.sourcegitcommit: b18949de721c6eef3521d5f8286d9b926ad4aabe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170918"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44342513"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -58,7 +58,7 @@ ms.locfileid: "44170918"
 
 Вы всегда можете отключить метки конфиденциальности для файлов Office в SharePoint и OneDrive ([отказаться от отказов](#how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out) в любой момент.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 Эти новые возможности работают только с [метками конфиденциальности](sensitivity-labels.md) . Если у вас есть метки Azure Information Protection, сначала необходимо перенести их в метки конфиденциальности, чтобы можно было включить эти функции для новых файлов, которые вы отправляете. Инструкции можно посмотреть, [как перенести метки Azure Information Protection в единые метки конфиденциальности](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
@@ -106,7 +106,7 @@ ms.locfileid: "44170918"
 
 Глобальный администратор организации имеет все разрешения на создание меток конфиденциальности и управление всеми их аспектами. Если вы входите не как глобальный администратор, см. раздел [Создание меток конфиденциальности и управление ими](get-started-with-sensitivity-labels.md#permissions-required-to-create-and-manage-sensitivity-labels).
 
-1. Войдите в [центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/)и перейдите к разделу**Защита информации о** **решениях** > 
+1. Войдите в [центр соответствия требованиям Microsoft 365](https://compliance.microsoft.com/)и перейдите к разделу **Solutions**  >  **Защита информации о** решениях
     
     Если этот параметр не отображается сразу, сначала выберите пункт **Показать все**. 
 
@@ -117,13 +117,13 @@ ms.locfileid: "44170918"
     Команда выполняется немедленно, и при следующем обновлении страницы сообщение или кнопка перестают отображаться. 
 
 > [!NOTE]
-> Если у вас есть Office 365 с поддержкой нескольких регионов, необходимо использовать PowerShell, чтобы включить эти возможности для всех географических расположений. Подробнее см. в следующем разделе.
+> Если у вас есть Microsoft 365 с поддержкой нескольких регионов, необходимо использовать PowerShell, чтобы включить эти возможности для всех географических расположений. Подробнее см. в следующем разделе.
 
 ### <a name="use-powershell-to-enable-support-for-sensitivity-labels"></a>Включение поддержки меток конфиденциальности с помощью PowerShell
 
 В качестве альтернативы использованию центра соответствия требованиям можно включить поддержку меток конфиденциальности с помощью командлета [Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) в SharePoint Online PowerShell. 
 
-Если у вас есть Office 365 с поддержкой нескольких регионов, необходимо использовать PowerShell, чтобы включить эту поддержку для всех географических расположений.
+Если у вас есть Microsoft 365 с поддержкой нескольких регионов, необходимо использовать PowerShell, чтобы включить эту поддержку для всех географических расположений.
 
 #### <a name="prepare-the-sharepoint-online-management-shell"></a>Подготовка командной консоли SharePoint Online
 
@@ -149,16 +149,16 @@ ms.locfileid: "44170918"
 
 Чтобы включить новые возможности, используйте командлет [Set – SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps) с параметром *енаблеаипинтегратион* :
 
-1. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора или администратора SharePoint в Office 365, подключитесь к SharePoint. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+1. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора или администратора SharePoint в Microsoft 365, подключитесь к SharePoint. Сведения о том, как это сделать, см. в статье [Начало работы с командной консолью SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
     
-    Примечание. Если у вас есть Office 365 с поддержкой нескольких регионов, используйте параметр-URL с параметром [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)и укажите URL-адрес сайта центра администрирования SharePoint Online для одного из географических расположений.
+    Note: если у вас есть Microsoft 365 с поддержкой нескольких регионов, используйте параметр-URL с параметром [Connect-SPOService](https://docs.microsoft.com/powershell/module/sharepoint-online/connect-sposervice?view=sharepoint-ps)и укажите URL-адрес сайта центра администрирования SharePoint Online для одного из географических расположений.
 
 2. Выполните следующую команду и нажмите **Y** , чтобы подтвердить следующее:
 
     ```PowerShell
     Set-SPOTenant -EnableAIPIntegration $true  
     ```
-3. Для Office 365 с поддержкой нескольких регионов повторите шаги 1 и 2 для каждого из остальных географических расположений.
+3. Для Microsoft 365 Multi/Geo: Повторите шаги 1 и 2 для всех остальных географических расположений.
 
 ## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>Планирование развертывания после создания или изменения метки конфиденциальности
 
@@ -182,7 +182,7 @@ ms.locfileid: "44170918"
 Set-SPOTenant -EnableAIPIntegration $false
 ```
 
-Если у вас есть Office 365 с поддержкой нескольких регионов, эту команду необходимо выполнить для всех географических расположений.
+Если у вас есть Microsoft 365 с поддержкой нескольких регионов, эту команду необходимо выполнить для всех географических расположений.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
