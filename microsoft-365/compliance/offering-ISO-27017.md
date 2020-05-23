@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1f44c46046fc107e8059cebda3388fcd775bd31e
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: 329bb7c4662d6449d69c6dca9ad489bdd70a0d3f
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065694"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254232"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 "Свод правил по управлению информационной безопасностью"
 
@@ -44,26 +44,28 @@ ISO/IEC 27017 является уникальным стандартом, пре
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
-- Genomics
-- Graph
+- Microsoft Cloud App Security
+- [Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 — Германия](https://aka.ms/d365-compliance-list)
+- Advanced Threat Protection в Microsoft Defender
+- Microsoft Graph
+- Microsoft Healthcare Bot
 - Intune
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Office 365, Office 365 для государственных организаций США, Office 365 U.S. Government Defense и Office 365 Germany
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
+- Power BI Embedded
+- Microsoft Stream
 - Ознакомьтесь с [подробным списком](https://go.microsoft.com/fwlink/p/?linkid=2077751) поддерживаемых служб в Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
 Аудит облачных служб Майкрософт выполняется раз в год на соответствие своду правил ISO/IEC 27017:2015 в рамках процесса сертификации для ISO/IEC 27001:2013.
 
-- [Сертификат Azure ISO 27017](https://go.microsoft.com/fwlink/p/?linkid=2078005)
-- [Отчет по оценке Azure ISO 27017](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Заявление о применимости Azure ISO 27017](https://aka.ms/azureiso27017StatementofApplicability)
-- [Отчет аудиторской оценки по ISO 27001, 27018 и 27017 в Office 365](https://aka.ms/o365isoreport)
+- [Сертификат Azure ISO 27017](https://aka.ms/azureiso27017cert)
+- [Отчет по оценке Azure ISO 27017](https://aka.ms/azureiso27017report)
+- [Office 365: отчет об оценке аудита ISO 27001, 27018 и 27017](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 

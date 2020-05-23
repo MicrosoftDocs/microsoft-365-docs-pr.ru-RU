@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c4b5d58a006591da23d37aaeccf72cfccc6d1c43
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 3e8f83b943e83c37ecf13af1221c043d413bd6b5
+ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033978"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "44347835"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 
@@ -51,11 +51,19 @@ ms.locfileid: "44033978"
 | **Оптимизация запросов** | Общие сведения о создании эффективных запросов и запросов с объединенными данными из сообщений электронной почты и c устройств. | - [Рекомендации по запросу](advanced-hunting-shared-queries.md) <br>- [Слежение за устройствами и электронными сообщениями](advanced-hunting-best-practices.md) |
 | **Создание настраиваемых правил обнаружения** | Узнайте, как можно использовать расширенные запросы на поиск для автоматического запуска оповещений и автоматического применения действий. | - [Обзор пользовательских обнаружений](custom-detections-overview.md)<br>- [Настраиваемые правила обнаружения](custom-detection-rules.md) |
 
+## <a name="get-access"></a>Получение доступа
+Чтобы использовать расширенные функции обнаружения или другие возможности [защиты от угроз Майкрософт](microsoft-threat-protection.md) , вам необходимо назначить соответствующую роль в Azure AD. Обратите внимание на то, что доступ к данным конечной точки зависит от параметров управления доступом на основе ролей в ATP Microsoft Defender. [Сведения об управлении доступом к защите от угроз Майкрософт](mtp-permissions.md)
+
+## <a name="get-help-as-you-write-queries"></a>Помощь при написании запросов
+Ниже перечислены функции, благодаря которым запросы можно создавать быстрее.
+- Автозаполнение **— при** написании запросов Расширенный поиск предоставляет рекомендации от IntelliSense. 
+- **Справочник по схеме** — справочник по схеме со списком таблиц и их столбцов, расположенный рядом с рабочей областью. Чтобы получить об элементе дополнительные сведения, нужно навести на него указатель мыши. Чтобы вставить элемент в редактор запросов, нужно дважды щелкнуть по нему.
+
 ## <a name="related-topics"></a>См. также
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
-- [Общие сведения о схеме](advanced-hunting-schema-tables.md)
+- [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
 - [Обзор настраиваемых обнаружений](custom-detections-overview.md)

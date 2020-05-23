@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b2542f697edb28c4949b844ae32d606dba5e7a1c
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: 3f733f3baf0db4d01a78e7984f44b17a5d5584e7
+ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214307"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44254312"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Стандарты ISO 9001:2015 "Системы менеджмента качества"
 
@@ -33,21 +33,25 @@ ISO 9001:2015 — это международный стандарт, опред
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
-- [Azure](https://aka.ms/AzureCompliance)
-- Cloud App Security
-- Genomics
-- Graph
+- [Azure, Azure для государственных организаций и Azure для Германии](https://aka.ms/AzureCompliance)
+- Microsoft Cloud App Security
+- Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 — Германия
+- Microsoft Graph
 - Intune
+- Advanced Threat Protection в Microsoft Defender
+- Microsoft Healthcare Bot
 - Компьютеры, управляемые Майкрософт
-- Облачная служба Microsoft Flow в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365
+- Power BI Embedded
+- Microsoft Stream
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
-- [Отчет по оценке Microsoft Azure ISO 9001 в 2019 финансовом году](https://go.microsoft.com/fwlink/p/?linkid=2077661)
-- [Сертификат Microsoft Azure ISO 9001 для 2019 финансового года](https://go.microsoft.com/fwlink/p/?linkid=2077747)
-- [См. дополнительные отчеты по аудиту](https://aka.ms/auditreports)
+- [Azure, Dynamics 365, и веб-службы: сертификат ISO9001](https://aka.ms/azureiso9001cert)
+- [Azure, Dynamics 365 и веб-службы: отчет об оценке ISO9001](https://aka.ms/azureiso9001report)
+- [Azure, Dynamics 365 и веб-службы: заявление о доступности ISO9001-1 (SOA)](https://aka.ms/azureiso9001soa)
 
 ## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
@@ -61,7 +65,7 @@ ISO 9001:2015 — это международный стандарт, опред
 
 **Проводит ли корпорация Майкрософт ежегодные испытания на ошибки инфраструктуры?**
 
-Да. Ежегодная оценка ISO 9001:2015 включает центр обработки данных базовой физической инфраструктуры. Рассматриваемые сведения см. в [сертификате](https://www.microsoft.com/?ref=aka).
+Да. Ежегодная оценка ISO 9001:2015 включает центр обработки данных базовой физической инфраструктуры. Сведения о покрытии [см. в сертификате](https://www.microsoft.com/?ref=aka).
 
 **Где можно посмотреть сведения о соответствии Майкрософт требованиям ISO 9001:2015?**
 
