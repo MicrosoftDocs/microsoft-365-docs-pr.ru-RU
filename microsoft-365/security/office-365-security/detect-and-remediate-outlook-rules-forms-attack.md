@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить правила Outlook и функции внедрения пользовательских форм в Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e18635b9b9d090dbc2808b5b8142b59ec1f29c6e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: b892a72c2016222d34df8c58fcda20d2d2b9ba74
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224593"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351979"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Обнаружение и исправление правил Outlook и атак с добавлением пользовательских форм
 
@@ -175,17 +175,17 @@ ms.locfileid: "44224593"
 
 1. Подключитесь к серверу Exchange Server с помощью удаленной оболочки PowerShell. Выполните действия, описанные в разделе [Подключение к серверам Exchange с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте командлет [Remove – InboxRule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule) .
+2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте командлет [Remove – InboxRule](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) .
 
-3. Если вы хотите сохранить правило и его содержимое для дальнейшего изучения, используйте командлет [Disable – InboxRule](https:https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-inboxrule/library/dd298120(v=exchg.160).aspx) .
+3. Если вы хотите сохранить правило и его содержимое для дальнейшего изучения, используйте командлет [Disable – InboxRule](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) .
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Действия для почтовых ящиков в Exchange Online
 
 1. Выполните действия, описанные в статье [Подключение к Exchange Online с помощью PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
-2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте командлет [Remove – Inbox Rule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule) .
+2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте командлет [Remove – Inbox Rule](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) .
 
-3. Если вы хотите сохранить правило и его содержимое для дальнейшего изучения, используйте командлет [Disable – InboxRule](https:https://docs.microsoft.com/powershell/module/exchange/mailboxes/disable-inboxrule/library/dd298120(v=exchg.160).aspx) .
+3. Если вы хотите сохранить правило и его содержимое для дальнейшего изучения, используйте командлет [Disable – InboxRule](https:https://docs.microsoft.com/powershell/module/exchange/disable-inboxrule/library/dd298120(v=exchg.160).aspx) .
 
 ## <a name="how-to-minimize-future-attacks"></a>Как свести к минимуму атаки на будущее
 

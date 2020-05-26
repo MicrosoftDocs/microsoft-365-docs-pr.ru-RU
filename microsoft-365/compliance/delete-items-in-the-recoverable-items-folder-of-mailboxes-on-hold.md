@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: 'Для администраторов: удаление элементов из папки "элементы с возможностью восстановления" для почтового ящика Exchange Online, даже если этот почтовый ящик размещен на удержании по юридическим причинам. Это эффективный способ удаления данных, которые были случайно перенесены в Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 223c589d191eef14662b7e19aa5ed113db9ff3b2
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: ce363d558e5ce1de600ccf34863cc6524841e78b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232064"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352184"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>Удаление элементов из папки "элементы с возможностью восстановления" в облачных почтовых ящиках в справке для удержания
 
@@ -66,7 +66,7 @@ ms.locfileid: "44232064"
 
 Кроме того, необходимо получить параметры клиентского доступа почтовых ящиков, чтобы их можно было временно отключить, чтобы владелец (или другие пользователи) не мог получить доступ к этому почтовому ящику во время выполнения этой процедуры. Наконец, вы можете получить текущий размер и количество элементов в папке "элементы с возможностью восстановления". После удаления элементов из папки "элементы с возможностью восстановления", описанной в шаге 5, вы будете использовать эти сведения, чтобы убедиться, что элементы были удалены.
   
-1. [Подключение к PowerShell для Exchange Online](https://go.microsoft.com/fwlink/?linkid=396554). Обязательно используйте имя пользователя и пароль для учетной записи администратора, которой назначены соответствующие роли управления в Exchange Online. 
+1. [Подключение к Exchange Online PowerShell](https://go.microsoft.com/fwlink/?linkid=396554). Обязательно используйте имя пользователя и пароль для учетной записи администратора, которой назначены соответствующие роли управления в Exchange Online. 
     
 2. Выполните следующую команду, чтобы получить сведения об использовании восстановления отдельных элементов и периода хранения удаленных элементов.
 
@@ -262,7 +262,7 @@ Get-Mailbox <username> | FL DelayHoldApplied,DelayReleaseHoldApplied
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-ИЛИ
+или
 
 ```powershell
 Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
@@ -272,7 +272,7 @@ Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>Шаг 5: удаление элементов из папки "элементы с возможностью восстановления"
 
-Теперь вы готовы к фактическому удалению элементов в папке "элементы с возможностью восстановления" с помощью командлетов [New – ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch) и [New ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearchaction) в центре безопасности & соответствия требованиям. 
+Теперь вы готовы к фактическому удалению элементов в папке "элементы с возможностью восстановления" с помощью командлетов [New – ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch) и [New ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearchaction) в центре безопасности & соответствия требованиям. 
 
 Для этого обратитесь к разделу [Поиск и удаление сообщений электронной почты](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization).
 
@@ -294,7 +294,7 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | 
 
 ## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>Шаг 6: возврат к предыдущему состоянию почтового ящика
 
-Последним шагом будет возврат к предыдущей конфигурации почтового ящика. Это означает, что вы переопределяете свойства, измененные в шаге 2, и повторно примените удержания, которые вы удалили на шаге 3. Это включает:
+Последним шагом будет возврат к предыдущей конфигурации почтового ящика. Это означает, что вы переопределяете свойства, измененные в шаге 2, и повторно примените удержания, которые вы удалили на шаге 3. К ним относятся:
   
 - Возврат к предыдущему значению срока хранения удаленного элемента. Кроме того, можно просто оставить это значение 30 дней, максимальное значение в Exchange Online.
     

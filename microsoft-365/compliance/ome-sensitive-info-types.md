@@ -18,12 +18,12 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Узнайте, как создать политику типов конфиденциальной информации для Организации с помощью шифрования сообщений Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ba94923c1f8c6ade6b7bf494636c562b4cc4102
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: da459ab5e92592f86bc32d7dd9d648de24b9a3ed
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165960"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352072"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>Создание политики типов конфиденциальной информации для Организации с помощью шифрования сообщений
 
@@ -31,7 +31,7 @@ ms.locfileid: "44165960"
 
 ## <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>Создание политики с помощью правил для почтового процесса в центре администрирования Exchange
 
-Войдите в центр администрирования Exchange и перейдите к разделу**правила**для обработки **почтового процесса** > . На странице Правила создайте правило, которое применяет шифрование сообщений Office 365. Вы можете создать правило на основе таких условий, как присутствие определенных ключевых слов или типов конфиденциальной информации в сообщении или вложении.
+Войдите в центр администрирования Exchange и перейдите к разделу правила для обработки **почтового процесса**  >  **Rules**. На странице Правила создайте правило, которое применяет шифрование сообщений Office 365. Вы можете создать правило на основе таких условий, как присутствие определенных ключевых слов или типов конфиденциальной информации в сообщении или вложении.
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>Создание политики с помощью правил для почтового процесса в PowerShell
 
@@ -54,7 +54,7 @@ Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
 
-Дополнительные сведения см. в статье [Set – IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-irmconfiguration?view=exchange-ps) и [New – TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule?view=exchange-ps).
+Дополнительные сведения см. в статье [Set – IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-irmconfiguration?view=exchange-ps) и [New – TransportRule](https://docs.microsoft.com/powershell/module/exchange/New-TransportRule?view=exchange-ps).
 
 ## <a name="how-recipients-access-attachments"></a>Как получатели обращаются к вложениям
 
@@ -77,4 +77,4 @@ Microsoft 365 выполняет аудит этого действия и де�
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>Отключение или Настройка политики типов конфиденциальной информации
 
-После создания правила для процесса обработки почты Exchange можно [отключить или изменить правило](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) , перейдя к**правилам** обработки **почтового ящика** > в центре администрирования Exchange, и отключить правило "*шифровать исходящие сообщения электронной почты от*".
+После создания правила для процесса обработки почты Exchange можно [отключить или изменить правило](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) , перейдя к правилам обработки **почтового ящика**  >  **Rules** в центре администрирования Exchange, и отключить правило "*шифровать исходящие сообщения электронной почты от*".

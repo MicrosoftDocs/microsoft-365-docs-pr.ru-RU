@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 409afed8ea927f1bdfc602264bbff7bce34e8533
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 216ec3853f1b55c7fb34de3a236f50094202bca5
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943338"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352469"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>Миграция поиска электронных данных прежних версий и удержаний в центре соответствия требованиям Microsoft 365
 
@@ -79,7 +79,7 @@ $search | FL
 ![Пример выходных данных PowerShell с использованием командлета Get – MailboxSearch для отдельного поиска](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
-> Продолжительность удержания на месте в данном примере является неопределенной (*ItemHoldPeriod: Unlimited*). Это типично для сценариев обнаружения электронных данных и судебного разбирательства. Если длительность удержания отличается от значения неопределенности, причина, скорее всего, заключается в том, что удержание используется для хранения контента в сценарии хранения. Вместо использования командлетов обнаружения электронных данных в средстве Security & Center соответствия требованиям PowerShell для сценариев хранения мы рекомендуем использовать командлеты [New – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) и [New – RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) для хранения контента. Результат использования этих командлетов аналогичен использованию командлетов **New – caseholdpolicy позволяет** и **New – caseholdrule позволяет**, но вы можете указать срок хранения и действие хранения, такие как удаление контента после истечения срока хранения. Кроме того, использование командлетов хранения не требует, чтобы привязать удержание к случаю обнаружения электронных данных.
+> Продолжительность удержания на месте в данном примере является неопределенной (*ItemHoldPeriod: Unlimited*). Это типично для сценариев обнаружения электронных данных и судебного разбирательства. Если длительность удержания отличается от значения неопределенности, причина, скорее всего, заключается в том, что удержание используется для хранения контента в сценарии хранения. Вместо использования командлетов обнаружения электронных данных в средстве Security & Center соответствия требованиям PowerShell для сценариев хранения мы рекомендуем использовать командлеты [New – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancepolicy) и [New – RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) для хранения контента. Результат использования этих командлетов аналогичен использованию командлетов **New – caseholdpolicy позволяет** и **New – caseholdrule позволяет**, но вы можете указать срок хранения и действие хранения, такие как удаление контента после истечения срока хранения. Кроме того, использование командлетов хранения не требует, чтобы привязать удержание к случаю обнаружения электронных данных.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>Шаг 4: создание дела в центре соответствия требованиям Microsoft 365
 
@@ -132,7 +132,7 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 ## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>Шаг 8: Проверка регистра, удержания и поиска в центре соответствия требованиям Microsoft 365
 
-Чтобы убедиться, что все настроено правильно, перейдите в центр [https://compliance.microsoft.com](https://compliance.microsoft.com)соответствия требованиям Microsoft 365 и выберите **ядро > обнаружения электронных**данных.
+Чтобы убедиться, что все настроено правильно, перейдите в центр соответствия требованиям Microsoft 365 [https://compliance.microsoft.com](https://compliance.microsoft.com) и выберите **ядро > обнаружения электронных**данных.
 
 ![Обнаружение электронных данных в центре соответствия требованиям Microsoft 365](../media/MigrateLegacyeDiscovery7.png)
 
@@ -156,18 +156,18 @@ New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxe
 
 - Дополнительные сведения о командлетах PowerShell, используемых в этой статье, приведены в статье:
 
-  - [Get — MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-mailboxsearch)
+  - [Get — MailboxSearch](https://docs.microsoft.com/powershell/module/exchange/get-mailboxsearch)
   
-  - [New — ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-compliancecase)
+  - [New — ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/new-compliancecase)
 
-  - [New — Caseholdpolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-caseholdpolicy)
+  - [New — Caseholdpolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/new-caseholdpolicy)
   
-  - [New — Caseholdrule позволяет](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/new-caseholdrule)
+  - [New — Caseholdrule позволяет](https://docs.microsoft.com/powershell/module/exchange/new-caseholdrule)
 
-  - [Get — Caseholdpolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy)
+  - [Get — Caseholdpolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)
   
-  - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch)
+  - [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
 
-  - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/start-compliancesearch)
+  - [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
 
 - Для получения дополнительных сведений о центре соответствия требованиям Microsoft 365, ознакомьтесь со статьей [Обзор центра соответствия требованиям microsoft 365](microsoft-365-compliance-center.md).

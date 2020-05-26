@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как создавать, изменять и удалять расширенные политики защиты от фишинга, доступные в организациях с Office 365 Advanced Threat protection (Office 365 ATP).
-ms.openlocfilehash: 5b67fe1a39f577209d1f10688215722a67d5546a
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 7b1806b20ef5974b83cc4e5ab681c847d826d04b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213464"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352049"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>Настройка политик защиты от фишинга в ATP
 
@@ -69,7 +69,7 @@ ms.locfileid: "44213464"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **защиты от фишинга ATP** , используйте <https://protection.office.com/antiphishing> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **защиты от фишинга ATP** , используйте <https://protection.office.com/antiphishing> .
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
@@ -203,7 +203,7 @@ ms.locfileid: "44213464"
      - **Показывать подсказку для олицетворенных доменов**: значение по умолчанию: **отключено**. Чтобы включить его, установите переключатель в значение **вкл**.
      - **Показывать подсказку для нестандартных символов**: значение по умолчанию: **отключено**. Чтобы включить его, установите переключатель в значение **вкл**.
 
-     Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+     По завершении нажмите кнопку **Сохранить**.
 
    - **Аналитика почтовых ящиков**:
 
@@ -411,7 +411,7 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Addit
 New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [New – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishPolicy).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [New – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishPolicy).
 
 #### <a name="step-2-use-powershell-to-create-an-anti-phish-rule"></a>Шаг 2: использование PowerShell для создания правила защиты от фишинга
 
@@ -431,7 +431,7 @@ New-AntiPhishRule -Name "<RuleName>" -AntiPhishPolicy "<PolicyName>" <Recipient 
 New-AntiPhishRule -Name "Research Department" -AntiPhishPolicy "Research Quarantine" -SentToMemberOf "Research Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [New – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishRule).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [New – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/New-AntiPhishRule).
 
 ### <a name="use-powershell-to-view-anti-phish-policies"></a>Просмотр политик защиты от фишинга с помощью PowerShell
 
@@ -453,7 +453,7 @@ Get-AntiPhishPolicy | Format-Table Name,IsDefault
 Get-AntiPhishPolicy -Identity "Executives"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Get-AntiPhishPolicy).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishPolicy).
 
 ### <a name="use-powershell-to-view-anti-phish-rules"></a>Просмотр правил защиты от фишинга с помощью PowerShell
 
@@ -485,7 +485,7 @@ Get-AntiPhishRule -State Enabled | Format-Table Name,Priority
 Get-AntiPhishRule -Identity "Contoso Executives"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Get-AntiPhishrule).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Get-AntiPhishrule).
 
 ### <a name="use-powershell-to-modify-anti-phish-policies"></a>Использование PowerShell для изменения политик защиты от фишинга
 
@@ -501,7 +501,7 @@ Get-AntiPhishRule -Identity "Contoso Executives"
 Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Set-AntiPhishPolicy).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Set-AntiPhishPolicy).
 
 ### <a name="use-powershell-to-modify-anti-phish-rules"></a>Использование PowerShell для изменения правил защиты от фишинга
 
@@ -515,7 +515,7 @@ Set-AntiPhishPolicy -Identity "<PolicyName>" <Settings>
 Set-AntiPhishRule -Identity "<RuleName>" <Settings>
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishrule).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/set-antiphishrule).
 
 ### <a name="use-powershell-to-enable-or-disable-anti-phish-rules"></a>Включение и отключение правил защиты от фишинга с помощью PowerShell
 
@@ -539,7 +539,7 @@ Disable-AntiPhishRule -Identity "Marketing Department"
 Enable-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Enable – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/enable-AntiPhishrule) and [Disable – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/disable-AntiPhishrule).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Enable – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/enable-AntiPhishrule) and [Disable – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/disable-AntiPhishrule).
 
 ### <a name="use-powershell-to-set-the-priority-of-anti-phish-rules"></a>Настройка приоритета правил защиты от фишинга с помощью PowerShell
 
@@ -579,7 +579,7 @@ Remove-AntiPhishPolicy -Identity "<PolicyName>"
 Remove-AntiPhishPolicy -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Remove-AntiPhishPolicy).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishPolicy).
 
 ### <a name="use-powershell-to-remove-anti-phish-rules"></a>Удаление правил защиты от фишинга с помощью PowerShell
 
@@ -597,7 +597,7 @@ Remove-AntiPhishRule -Identity "<PolicyName>"
 Remove-AntiPhishRule -Identity "Marketing Department"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/Remove-AntiPhishRule).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – AntiPhishRule](https://docs.microsoft.com/powershell/module/exchange/Remove-AntiPhishRule).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

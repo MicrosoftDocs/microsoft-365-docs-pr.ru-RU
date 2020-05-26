@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Политики хранения журналов аудита являются частью новых возможностей расширенного аудита в Microsoft 365. Политика хранения журнала аудита позволяет задавать срок хранения журналов аудита в Организации.
-ms.openlocfilehash: 25fbabd4c7524702a985616797b31730b14a2d8f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0b68eac3dde2f6802d5a5419f8f28b5df26e0a92
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636377"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351044"
 ---
 # <a name="manage-audit-log-retention-policies"></a>Управление политиками хранения журнала аудита
 
@@ -111,7 +111,7 @@ ms.locfileid: "43636377"
 New-UnifiedAuditLogRetentionPolicy -Name "SixMonth retention for admin logons" -RecordTypes AzureActiveDirectoryStsLogon -Operations UserLoggedIn -UserIds admin@contoso.onmicrosoft.com -RetentionDuration SixMonths -Priority 25
 ```
 
-Дополнительные сведения см. в статье [New-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/new-unifiedauditlogretentionpolicy)
+Дополнительные сведения см. в статье [New-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy)
 
 ## <a name="view-audit-log-retention-policies"></a>Просмотр политик хранения журнала аудита
 
@@ -124,13 +124,13 @@ Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending 
 > [!NOTE]
 > В настоящее время cmdlet **, Get-UnifiedAuditLogRetentionPolicy**, не возвращает политику по умолчанию для журнала аудита в организации.
 
-Дополнительные сведения см. в статье [Get-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/get-unifiedauditlogretentionpolicy)
+Дополнительные сведения см. в статье [Get-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/get-unifiedauditlogretentionpolicy)
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-- Чтобы изменить существующую политику хранения журнала аудита, используйте cmdlet **Set-UnifiedAuditLogRetentionPolicy** в центре безопасности и соответствия требованиям (PowerShell) в центре безопасности &. Дополнительные сведения см. в статье [Set-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/set-unifiedauditlogretentionpolicy)
+- Чтобы изменить существующую политику хранения журнала аудита, используйте cmdlet **Set-UnifiedAuditLogRetentionPolicy** в центре безопасности и соответствия требованиям (PowerShell) в центре безопасности &. Дополнительные сведения см. в статье [Set-UnifiedAuditLogRetentionPolicy.](https://docs.microsoft.com/powershell/module/exchange/set-unifiedauditlogretentionpolicy)
 
-- Чтобы удалить политику хранения журнала аудита, используйте cmdlet **Remove-UnifiedAuditLogRetentionPolicy** в центре & безопасности и соответствия требованиям (PowerShell). Полное удаление политики может занять до 30 минут. Дополнительные сведения см. в статье [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/remove-unifiedauditlogretentionpolicy).
+- Чтобы удалить политику хранения журнала аудита, используйте cmdlet **Remove-UnifiedAuditLogRetentionPolicy** в центре & безопасности и соответствия требованиям (PowerShell). Полное удаление политики может занять до 30 минут. Дополнительные сведения см. в статье [Remove-UnifiedAuditLogRetentionPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-unifiedauditlogretentionpolicy).
 
 - Как отмечалось выше, записи аудита для операций в Azure Active Directory, Exchange и SharePoint хранятся на один год. В таблице ниже перечислены все типы записей (для каждой из этих служб), включенные в политику хранения по умолчанию для журнала аудита. Это означает, что журналы аудита для любой операции с этим типом записи сохраняются в течение одного года, если пользовательская политика хранения журналов аудита не имеет приоритета для определенного типа записи, операции или пользователя. Значение Enum (которое отображается как значение для свойства RecordType в записи аудита) для каждого типа записи показано в скобках.
 

@@ -1,5 +1,5 @@
 ---
-title: Запуск отчета о группе ролей администраторов в автономной EOP
+title: Запустите отчет группы ролей администратора в автономном EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,14 +14,14 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как запустить отчет о группе ролей администраторов в автономной службе Exchange Online Protection (EOP). Этот отчет регистрируется, когда администратор добавляет или удаляет участников из групп ролей администраторов, EOP записывает каждое из них.
-ms.openlocfilehash: f5641e9900c786f976d05cdeeec148caab12a03d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 39022892075b295a26645157941195b97897c690
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209179"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350943"
 ---
-# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Запуск отчета о группе ролей администраторов в автономной EOP
+# <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Запустите отчет группы ролей администратора в автономном EOP
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, когда администратор добавляет или удаляет членов из групп административных ролей, служба регистрирует все вхождения. Дополнительные сведения о группах ролей в автономной EOP см [в разделе разрешения в автономной EOP](feature-permissions-in-eop.md).
 
@@ -115,7 +115,7 @@ Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso
 
 Если поиск возвращает много записей журнала, рекомендуется использовать процедуру, описанную в статье **использование Exchange Online PowerShell для поиска записей журнала аудита и отправки результатов получателю** . Действия в этом разделе позволяют отправить XML-файл в виде вложения сообщения электронной почты указанным отправителям, чтобы быстрее извлечь интересующие данные.
 
-Дополнительные сведения о синтаксисе и параметрах см. в разделе [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog).
+Дополнительные сведения о синтаксисе и параметрах см. в разделе [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog).
 
 ### <a name="view-details-of-audit-log-entries"></a>Просмотр подробных сведений о записях журнала аудита
 

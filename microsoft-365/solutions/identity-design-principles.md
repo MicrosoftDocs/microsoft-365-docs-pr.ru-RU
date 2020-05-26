@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: c830e7f7b0366623520d7ba4e5a47a51e73f09ad
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 8b991fb6cf8f03f2ff686c89251f53f53f87a5e1
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160382"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352550"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -183,7 +183,7 @@ XYZ SaaS поддерживает подготовку по требованию
 - Имитация среды клиента, не изменяя производственную среду клиента. 
 - Разработка программного обеспечения для клиентов.
 
-В этих сценариях с несколькими клиентами часто требуется, чтобы некоторые настройки насовпадали между клиентами, или отчет об изменениях конфигурации и смещений. Это часто означает переход от ручных изменений к настройке в качестве кода. Microsoft Premiere support предлагает семинар по этим типам требований на основе этого общедоступного IP- [https://Microsoft365dsc.com](https://Microsoft365dsc.com)адреса:.
+В этих сценариях с несколькими клиентами часто требуется, чтобы некоторые настройки насовпадали между клиентами, или отчет об изменениях конфигурации и смещений. Это часто означает переход от ручных изменений к настройке в качестве кода. Microsoft Premiere support предлагает семинар по этим типам требований на основе этого общедоступного IP-адреса: [https://Microsoft365dsc.com](https://Microsoft365dsc.com) .
 
 
 ### <a name="multi-geo"></a>Поддержка нескольких регионов 
@@ -209,7 +209,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Невозможно делегировать все (хотя зазор уменьшается), что означает, что в некоторых случаях потребуется использовать глобальную роль администратора. Следует рассматривать конфигурацию как код и автоматизацию вместо членства в роли сотрудников.
 
-**Note**: центр администрирования Microsoft 365 имеет более удобный для пользователя интерфейс, но обладает подмножеством возможностей по сравнению с интерфейсом администратора Azure AD. Оба портала используют одни и те же роли Azure AD, поэтому изменения происходят в одном месте. Совет. Если вы хотите использовать пользовательский интерфейс администратора управления удостоверениями без несрочных действий Azure, [https://aad.portal.azure.com](https://aad.portal.azure.com)используйте. 
+**Note**: центр администрирования Microsoft 365 имеет более удобный для пользователя интерфейс, но обладает подмножеством возможностей по сравнению с интерфейсом администратора Azure AD. Оба портала используют одни и те же роли Azure AD, поэтому изменения происходят в одном месте. Совет. Если вы хотите использовать пользовательский интерфейс администратора управления удостоверениями без несрочных действий Azure, используйте [https://aad.portal.azure.com](https://aad.portal.azure.com) . 
 
 Что находится в имени? Не следует делать предположения от имени роли. Язык не является очень точным средством. Цель должен быть определением операций, которые необходимо делегировать перед просмотром необходимых ролей. Добавление роли "средство чтения безопасности" не приводит к отображению параметров безопасности для всех. 
 
@@ -243,29 +243,29 @@ XYZ SaaS поддерживает подготовку по требованию
 
 - **Exchange Online** - [https://docs.microsoft.com/exchange/permissions-exo/permissions-exo](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) 
 - **SharePoint Online** - [https://docs.microsoft.com/sharepoint/manage-site-collection-administrators](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators) 
-- **Microsoft Teams**  -  [ https://docs.microsoft.com/microsoftteams/itadmin-readiness](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
+- **Microsoft Teams**  -  [https://docs.microsoft.com/microsoftteams/itadmin-readiness ](https://docs.microsoft.com/microsoftteams/itadmin-readiness )
 - **Обнаружения электронных данных** - [https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions](https://docs.microsoft.com/microsoft-365/compliance/) 
-  + **Permission Filtering** -  Фильтрация[ разрешенийhttps://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search](https://docs.microsoft.com/microsoft-365/compliance/)
-  + **Compliance Boundaries** -  Ограничения[ соответствияhttps://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries требованиям](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
-  + **Расширенное обнаружение электронных**  -  [ https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 данных](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
+  + **Фильтрация разрешений**  -  [https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search ](https://docs.microsoft.com/microsoft-365/compliance/)
+  + **Ограничения**  -  соответствия требованиям [https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries ](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries )
+  + **Расширенное обнаружение электронных**  -  данных [https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 ](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20 )
 - **Yammer** - [https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins](https://docs.microsoft.com/yammer/manage-yammer-users/manage-yammer-admins) 
 - **Поддержка нескольких регионов** - [https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin](https://docs.microsoft.com/office365/enterprise/add-a-sharepoint-geo-admin) 
 - **Dynamics 365** —[https://docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) <br>
   Примечание: Эта ссылка относится к корневому каталогу документации. Существует несколько типов служб с вариациями в модели администрирования и делегирования.
-- **Power Platform** -  Платформа[ управленияhttps://docs.microsoft.com/power-platform/admin/admin-documentation питанием](https://docs.microsoft.com/power-platform/admin/admin-documentation )
-  + **Power**  -  [ Appshttps://docs.microsoft.com/power-platform/admin/wp-security](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
+- Платформа управления питанием **Power Platform**  -  [https://docs.microsoft.com/power-platform/admin/admin-documentation ](https://docs.microsoft.com/power-platform/admin/admin-documentation )
+  + **Power Apps**  -  [https://docs.microsoft.com/power-platform/admin/wp-security ](https://docs.microsoft.com/power-platform/admin/wp-security ) <br>
     Примечание: существует несколько типов с вариантами в моделях администрирования и делегирования.
-  + **Power Automate** -  Автоматизация[ управленияhttps://docs.microsoft.com/power-automate/environments-overview-admin питанием](https://docs.microsoft.com/power-automate/environments-overview-admin )
-  + **PowerBI** -  [ PowerBIhttps://docs.microsoft.com/power-bi/service-admin-governance](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
+  + Автоматизация управления питанием **Power Automate**  -  [https://docs.microsoft.com/power-automate/environments-overview-admin ](https://docs.microsoft.com/power-automate/environments-overview-admin )
+  + **PowerBI**  -  [https://docs.microsoft.com/power-bi/service-admin-governance ](https://docs.microsoft.com/power-bi/service-admin-governance ) <br>
 Примечание: безопасность платформы данных и делегирование (то есть компонент Power BI является компонентом) — сложная область.
-- **MEM/Intune**  -  [ https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
-- **Пакет**  -  [ ATPhttps://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
+- **Mem/Intune**  -  [https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control ](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control )
+- **Пакет ATP**  -  для защитника Майкрософт [https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles ](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles )
 - **Защита от угроз Майкрософт** - [https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-permissions)
 - **Microsoft Cloud App Security** - [https://docs.microsoft.com/cloud-app-security/manage-admins](https://docs.microsoft.com/cloud-app-security/manage-admins)
-- **Stream (поток**  -  [ https://docs.microsoft.com/stream/assign-administrator-user-role )](https://docs.microsoft.com/stream/assign-administrator-user-role )
-- **Information barriers** -  Препятствия[ дляhttps://docs.microsoft.com/microsoft-365/compliance/information-barriers информации](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
+- **Stream (поток**  -  ) [https://docs.microsoft.com/stream/assign-administrator-user-role ](https://docs.microsoft.com/stream/assign-administrator-user-role )
+- **Препятствия**  -  для информации [https://docs.microsoft.com/microsoft-365/compliance/information-barriers ](https://docs.microsoft.com/microsoft-365/compliance/information-barriers )
 
-Для REST Поиск в документах действительно хорош в последнее: [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers). 
+Для REST Поиск в документах действительно хорош в последнее: [https://docs.microsoft.com/](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) . 
 
 
 ### <a name="activity-logs"></a>Журналы активности
@@ -273,7 +273,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Примеры журналов Microsoft 365, к которым можно получить доступ через другие API, включают следующие:
 - [Azure AD](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) (действия, не связанные с Office 365)
-- [Отслеживание сообщений Exchange](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-messagetrace?view=exchange-ps)
+- [Отслеживание сообщений Exchange](https://docs.microsoft.com/powershell/module/exchange/get-messagetrace?view=exchange-ps)
 - Системы угроз и УЕБА, обсуждаемые выше (например, защита удостоверений Azure AD, Microsoft Cloud App Security, Microsoft Defender ATP и т. д.)
 - [Защита информации Майкрософт](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
 - [ATP в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)

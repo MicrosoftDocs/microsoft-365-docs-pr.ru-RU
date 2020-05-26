@@ -16,22 +16,22 @@ ms.collection:
 - M365-security-compliance
 description: Краткое описание администраторов Exchange Online, необходимых для просмотра и настройки параметров S/MIME в Outlook в Интернете в Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ed3f3c6289c4663c6bebecdf9ab03eacd94e373
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 0b98a853d81d5ce067233314dfc59c7f677656bd
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035098"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352037"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>Настройка параметров S/MIME в Exchange Online для Outlook в Интернете
 
 В качестве администратора Exchange Online можно настроить Outlook в Интернете (прежнее название — Outlook Web App), чтобы разрешить отправку и получение сообщений, защищенных с помощью S/MIME. Используйте командлеты **Get-SmimeConfig** и **Set-SmimeConfig** для просмотра и управления этой функцией в Exchange Online PowerShell. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/get-smimeconfig) и [Set/SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-smimeconfig).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/get-smimeconfig) и [Set/SmimeConfig](https://docs.microsoft.com/powershell/module/exchange/set-smimeconfig).
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Рекомендации по новым Microsoft EDGE (на основе Чромиум)
 
-Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , вы (или другой администратор) должны установить и настроить политику браузера Microsoft Edge с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в новой Microsoft Edge. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`. Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в новом браузере Microsoft Edge необходимы компьютеры, присоединенные к домену.
+Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , вы (или другой администратор) должны установить и настроить политику браузера Microsoft Edge с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в новой Microsoft Edge. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в новом браузере Microsoft Edge необходимы компьютеры, присоединенные к домену.
 
 Подробные сведения о политике **екстенсионинсталлфорцелист** можно найти в статье [екстенсионинсталлфорцелист](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist).
 
@@ -39,7 +39,7 @@ ms.locfileid: "44035098"
 
 ## <a name="considerations-for-chrome"></a>Рекомендации для Chrome
 
-Чтобы использовать S/MIME в Outlook в Интернете в веб-браузере Google Chrome, вы (или другой администратор) должны настроить и настроить политику Чромиум с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в Chrome. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`. Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в Chrome необходимы компьютеры, присоединенные к домену.
+Чтобы использовать S/MIME в Outlook в Интернете в веб-браузере Google Chrome, вы (или другой администратор) должны настроить и настроить политику Чромиум с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в Chrome. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в Chrome необходимы компьютеры, присоединенные к домену.
 
 Подробные сведения о политике **екстенсионинсталлфорцелист** можно найти в статье [екстенсионинсталлфорцелист](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=ExtensionInstallForcelist).
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 description: В этой статье вы найдете заметки о выпуске, содержащие изменения и новые возможности средства расследования данных (Предварительная версия) в Microsoft 365.
-ms.openlocfilehash: 5bb18ccb3354082634780720938fb18164da0ccb
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9567e9d83c6fc952e61271e665b96fad8fc6b69a
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035731"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352286"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Заметки о выпуске для расследования данных (Предварительная версия) в Microsoft 365
 
@@ -50,4 +50,4 @@ ms.locfileid: "44035731"
 
 - **Задания** — отслеживание состояния длительно выполняемых процессов.
 
-- Обратимое **Удаление элементов почтовых ящиков** — в срочных ситуациях может потребоваться окончательно удалить перемещенные элементы. Чтобы удалить элементы из почтовых ящиков, можно выполнить команду **New – ComplianceSearchAction – unrun/PurgeType определяет HardDelete** в PowerShell центра безопасности & соответствия требованиям. Дополнительные сведения см. в статье [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearchaction).
+- Обратимое **Удаление элементов почтовых ящиков** — в срочных ситуациях может потребоваться окончательно удалить перемещенные элементы. Чтобы удалить элементы из почтовых ящиков, можно выполнить команду **New – ComplianceSearchAction – unrun/PurgeType определяет HardDelete** в PowerShell центра безопасности & соответствия требованиям. Дополнительные сведения см. в статье [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearchaction).

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описываются пределы базового случая обнаружения электронных данных в Microsoft 365.
-ms.openlocfilehash: 4d91b81caee31e693ce29c6d8d629d563d973ae7
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 00df8cff683701ce5ee38dca12b6f7af5b31c8b0
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551486"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351900"
 ---
 # <a name="limits-in-core-ediscovery"></a>Пределы в ядре обнаружения электронных данных
 
@@ -38,4 +38,4 @@ ms.locfileid: "43551486"
   |||
 
    > [!NOTE]
-   > <sup>1</sup> чтобы просмотреть список более чем 1 000 обращений, удержаний, поисков или экспортов, вы можете использовать соответствующий командлет PowerShell для безопасности & соответствия требованиям для Office 365:<br/> [Get — ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase) <br/> [Get — Caseholdpolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch)<br/> [Get — ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction)
+   > <sup>1</sup> чтобы просмотреть список более чем 1 000 обращений, удержаний, поисков или экспортов, вы можете использовать соответствующий командлет PowerShell для безопасности & соответствия требованиям для Office 365:<br/> [Get — ComplianceCase](https://docs.microsoft.com/powershell/module/exchange/get-compliancecase) <br/> [Get — Caseholdpolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/get-caseholdpolicy)<br/> [Get-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch)<br/> [Get — ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction)

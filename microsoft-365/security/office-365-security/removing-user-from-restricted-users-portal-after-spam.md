@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как удалять пользователей с портала "Пользователи с ограниченным доступом" в Office 365. Пользователи попадают на портал "Пользователи с ограниченным доступом" за отправку исходящей нежелательной почты. Обычно это происходит в результате компрометации учетных записей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 370d2ff5f98b507cd819a57e4b0de613de7ab395
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f9865b409be6bce14b84a9175e8f17cdad58befe
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035424"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351011"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом" в Office 365
 
@@ -102,7 +102,7 @@ Get-BlockedSenderAddress
 Get-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в статье [Get-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-blockedsenderaddress).
+Подробные сведения о синтаксисе и параметрах см. в статье [Get-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/get-blockedsenderaddress).
 
 Чтобы удалить пользователя из списка "Пользователи с ограниченным доступом", выполните следующую команду, заменив выражение \<emailaddress\> электронным адресом пользователя:
 
@@ -110,4 +110,4 @@ Get-BlockedSenderAddress -SenderAddress <emailaddress>
 Remove-BlockedSenderAddress -SenderAddress <emailaddress>
 ```
 
-Подробные сведения о синтаксисе и параметрах см. в статье [Remove-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-blockedsenderaddress).
+Подробные сведения о синтаксисе и параметрах см. в статье [Remove-BlockedSenderAddress](https://docs.microsoft.com/powershell/module/exchange/remove-blockedsenderaddress).

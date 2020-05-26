@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 45dc5a3e9674ebdf9488d14813abf04fc81b6781
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 0729530537e1d01f2e58633bf67a968a6ae2717b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327257"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352296"
 ---
 # <a name="supervision-policies"></a>Политики контроля
 
@@ -291,11 +291,11 @@ ms.locfileid: "44327257"
 
 |**Действие**|**Связанные команды**|
 |:-----|:-----|
-| **Создание политики** | [New — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [New — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
-| **Изменение политики** | [Set — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
-| **Удаление политики** | [Remove — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
+| **Создание политики** | [New — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [New — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
+| **Изменение политики** | [Set — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |
+| **Удаление политики** | [Remove — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/remove-supervisoryreviewpolicyv2) |
 
-Просмотр действий аудита в едином журнале аудита или с помощью командлета PowerShell [Search — UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) .
+Просмотр действий аудита в едином журнале аудита или с помощью командлета PowerShell [Search — UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) .
 
 Например, в приведенном ниже примере возвращаются действия для всех действий супервизора (политик и правил) и подробные сведения о каждом из них:
 
@@ -309,7 +309,7 @@ Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -Re
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
-В дополнение к сведениям, представленным в разделе Отчеты и журналы, можно также использовать командлет [Get – супервисориревиевактивити](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) PowerShell, чтобы получить полный подробный список всех действий политики контроля.
+В дополнение к сведениям, представленным в разделе Отчеты и журналы, можно также использовать командлет [Get – супервисориревиевактивити](https://docs.microsoft.com/powershell/module/exchange/get-supervisoryreviewactivity?view=exchange-ps) PowerShell, чтобы получить полный подробный список всех действий политики контроля.
 
 ## <a name="ready-to-get-started"></a>Готовы приступить к работе?
 

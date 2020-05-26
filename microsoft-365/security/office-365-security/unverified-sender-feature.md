@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, как предотвратить достижение фишинговых сообщений для почтового ящика, Outlook.com и Outlook в Интернете.
-ms.openlocfilehash: 2172a9890d629dd840c3e2e2591d78546899d17e
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 9583161c9e64d6a24312565d68ae516a2be8606e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224883"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352458"
 ---
 # <a name="unverified-sender"></a>Непроверенный отправитель
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224883"
 
 Если вы являетесь клиентом Office 365, вы можете управлять этим компонентом с помощью центра безопасности & соответствия требованиям Office 365.
 
-- В центре безопасности & соответствия требованиям глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, вы можете использовать командлет **Set-AntiPhishPolicy** в Exchange Online PowerShell. Дополнительные сведения см [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
+- В центре безопасности & соответствия требованиям глобальные администраторы и администраторы безопасности могут включать и отключать эту функцию с помощью защиты от спуфинга в политике защиты от фишинга. Кроме того, вы можете использовать командлет **Set-AntiPhishPolicy** в Exchange Online PowerShell. Дополнительные сведения см [в статье Защита от фишинга в Office 365](anti-phishing-protection.md) и [Set-AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/set-antiphishpolicy).
 
     ![Изменение отправителя, не прошедшего проверку подлинности, в графическом интерфейсе.](../../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
@@ -58,7 +58,7 @@ ms.locfileid: "44224883"
 
   - Добавьте доменную связь с помощью анализа сведений о подделких. Дополнительные сведения [: обзор подделки информации](walkthrough-spoof-intelligence-insight.md).
 
-  - Добавьте доменную комбинацию с помощью командлета **Set-PhishFilterPolicy** в Exchange Online PowerShell. Дополнительные сведения: [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) и [Настройка антифишинга Office 365 ATP и политики защиты от фишинга](set-up-anti-phishing-policies.md).
+  - Добавьте доменную комбинацию с помощью командлета **Set-PhishFilterPolicy** в Exchange Online PowerShell. Дополнительные сведения: [Set-PhishFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-phishfilterpolicy) и [Настройка антифишинга Office 365 ATP и политики защиты от фишинга](set-up-anti-phishing-policies.md).
 
 Кроме того, мы не будем применять непроверенный отправитель, если сообщение было доставлено в папку "Входящие" с помощью правил для почтового процесса (которые также называются правилами транспорта) или списком безопасных доменов (политик защиты от нежелательной почты).
 

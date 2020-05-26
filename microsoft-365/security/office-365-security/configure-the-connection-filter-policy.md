@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут научиться настраивать фильтрацию подключений в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения с почтовых серверов.
-ms.openlocfilehash: b9fd8c1b365f59647618e397a511873aae40146f
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 14221298ed8e85bd776e7a58a1d2e427c3d19438
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213440"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352015"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -44,7 +44,7 @@ ms.locfileid: "44213440"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>.
 
-- Сведения о подключении к Exchange Online PowerShell см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы изменить политику фильтра подключений по умолчанию, необходимо быть членом группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике фильтра подключений по умолчанию необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
@@ -72,15 +72,15 @@ ms.locfileid: "44213440"
 
      - IP-адрес CIDR: например, 192.168.0.1/25. Допустимые значения маски сети — от/24 до/32. Чтобы пропустить фильтрацию нежелательной почты для IP-масок CIDR/1 —/23, ознакомьтесь с разделом [пропускать фильтрацию нежелательной почты для IP-адреса CIDR за пределами раздела доступный диапазон](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) .
 
-     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в поле **разрешенный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в поле **разрешенный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . По завершении нажмите кнопку **Сохранить**.
 
    - **Список заблокированных IP-адресов**: нажмите кнопку **изменить**. В появившемся всплывающем меню **списка заблокированных IP-** адресов введите один IP-адрес, диапазон IP-адресов или IP-адрес CIDR в поле **адрес или диапазон адресов** , как описано в параметрах **белого списка IP-** адресов.
 
-     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в разделе **заблокированный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в разделе **заблокированный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . По завершении нажмите кнопку **Сохранить**.
 
    - **Включить список надежных**отправителей: Включение и отключение использования списка надежных отправителей, которые пропускают фильтрацию нежелательной почты.
 
-4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+4. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>Использование центра безопасности & соответствия требованиям для просмотра политики фильтра подключений по умолчанию
 
@@ -126,7 +126,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList 192.168.1.10,192
 Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2.10","192.169.3.0/24","192.168.4.1-192.168.4.5";Remove="192.168.1.10"}
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – hostedconnectionfilterpolicy используется](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – hostedconnectionfilterpolicy используется](https://docs.microsoft.com/powershell/module/exchange/set-hostedconnectionfilterpolicy).
 
 ## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 

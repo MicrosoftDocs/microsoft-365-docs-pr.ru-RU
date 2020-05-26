@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут просматривать часто задаваемые вопросы и ответы о сообщениях, помещенных в карантин, в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2022a43f1dd89d47fdb4f3898f8f481419962c0
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 0a231e363d5764465547ee1e80cc080c3d7c006c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213108"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351099"
 ---
 # <a name="quarantined-messages-faq"></a>Вопросы и ответы о сообщениях в карантине
 
@@ -40,7 +40,7 @@ ms.locfileid: "44213108"
 
 ## <a name="how-do-i-quarantine-spam"></a>Как помещать спам в карантин?
 
-По умолчанию при фильтрации нежелательной почты сообщения, которые классифицируются как спам, отправляются в почтовый ящик пользователя и перемещаются в папку нежелательной почты. Но вы можете создавать и настраивать политики защиты от нежелательной почты для помещения нежелательной почты в карантин или массовых сообщений электронной почты. Дополнительные сведения см. [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
+По умолчанию при фильтрации нежелательной почты сообщения, которые классифицируются как спам, отправляются в почтовый ящик пользователя и перемещаются в папку нежелательной почты. Но вы можете создавать и настраивать политики защиты от нежелательной почты для помещения нежелательной почты в карантин или массовых сообщений электронной почты. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="how-do-i-give-users-access-to-the-quarantine"></a>Как предоставить пользователям доступ к карантину?
 
@@ -62,7 +62,7 @@ ms.locfileid: "44213108"
 
 В центре безопасности & соответствия требованиям можно выделять и выпустить до 100 сообщений за раз.
 
-Администраторы могут использовать командлеты [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) и [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) в Exchange Online POWERSHELL или изолированном EOP PowerShell для массового обнаружения и освобождения сообщений, помещенных в карантин, а также для отправки отчетов о ложных срабатываниях в пакетном режиме.
+Администраторы могут использовать командлеты [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage) и [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage) в Exchange Online POWERSHELL или изолированном EOP PowerShell для массового обнаружения и освобождения сообщений, помещенных в карантин, а также для отправки отчетов о ложных срабатываниях в пакетном режиме.
 
 ## <a name="are-wildcards-supported-when-searching-for-quarantined-messages-can-i-search-for-quarantined-messages-for-a-specific-domain"></a>Поддерживаются ли подстановочные знаки при поиске сообщений, помещенных на карантин? Можно ли искать помещенные на карантин сообщения для определенного домена?
 

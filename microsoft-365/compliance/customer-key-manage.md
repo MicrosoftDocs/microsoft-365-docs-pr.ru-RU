@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: После настройки ключа клиента Узнайте, как управлять им с помощью восстановления ключей АКВ и управления разрешениями и политиками шифрования данных.
-ms.openlocfilehash: 4796fcef69e052725b635acb4170d73bb36de787
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dbdbd61b4d06e183d8cc5461122e316b2b6b1797
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635605"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352206"
 ---
 # <a name="manage-customer-key"></a>Управление ключом клиента
 
@@ -88,7 +88,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
   Get-DataEncryptionPolicy
   ```
 
-  Дополнительные сведения о командлете Get – Dataencryptionpolicy используется можно найти в статье [Get – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/get-dataencryptionpolicy?view=exchange-ps).
+  Дополнительные сведения о командлете Get – Dataencryptionpolicy используется можно найти в статье [Get – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/get-dataencryptionpolicy?view=exchange-ps).
 
 ### <a name="assign-a-dep-before-you-migrate-a-mailbox-to-the-cloud"></a>Назначение функции DEP перед переносом почтового ящика в облако
 
@@ -104,7 +104,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
   Set-MailUser -Identity <GeneralMailboxOrMailUserIdParameter> -DataEncryptionPolicy <DataEncryptionPolicyIdParameter>
   ```
 
-  Где *женералмаилбоксормаилусеридпараметер* указывает почтовый ящик, а *датаенкриптионполициидпараметер* — идентификатор функции DEP. Дополнительные сведения о командлете Set – MailUser см. в разделе [Set – MailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-mailuser?view=exchange-ps).
+  Где *женералмаилбоксормаилусеридпараметер* указывает почтовый ящик, а *датаенкриптионполициидпараметер* — идентификатор функции DEP. Дополнительные сведения о командлете Set – MailUser см. в разделе [Set – MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser?view=exchange-ps).
 
 ### <a name="determine-the-dep-assigned-to-a-mailbox"></a>Определение функции DEP, назначенной для почтового ящика
 
@@ -116,7 +116,7 @@ Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipa
    Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl DataEncryptionPolicyID
    ```
 
-   Где *женералмаилбоксормаилусеридпараметер* указывает почтовый ящик, а ДАТАЕНКРИПТИОНПОЛИЦИИД Возвращает GUID объекта DEP. Дополнительные сведения о командлете Get – MailboxStatistics можно найти в статье [Get – MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/mailboxes/get-mailboxstatistics?view=exchange-ps).
+   Где *женералмаилбоксормаилусеридпараметер* указывает почтовый ящик, а ДАТАЕНКРИПТИОНПОЛИЦИИД Возвращает GUID объекта DEP. Дополнительные сведения о командлете Get – MailboxStatistics можно найти в статье [Get – MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/get-mailboxstatistics?view=exchange-ps).
   
 2. Выполните командлет Get-Dataencryptionpolicy используется, чтобы узнать понятное имя DEP, которому назначен почтовый ящик.
   
@@ -148,7 +148,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 New-MoveRequest <alias>
 ```
 
-Для получения дополнительных сведений об этом командлете обратитесь к разделу [Get – MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/new-moverequest?view=exchange-ps).
+Для получения дополнительных сведений об этом командлете обратитесь к разделу [Get – MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/new-moverequest?view=exchange-ps).
 
 ### <a name="verify-encryption-completes-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>Проверка того, что шифрование выполнено для SharePoint Online, OneDrive для бизнеса и файлов Teams
 
@@ -201,7 +201,7 @@ Microsoft 365 выполняет аудит и проверку пути очи�
 
 2. С помощью рабочей или учебной учетной записи, имеющей права глобального администратора в Организации, [подключитесь к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 
-3. Для каждого компонента DEP, содержащего почтовые ящики, которые необходимо удалить, выполните командлет [Set – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-dataencryptionpolicy) следующим образом.
+3. Для каждого компонента DEP, содержащего почтовые ящики, которые необходимо удалить, выполните командлет [Set – dataencryptionpolicy используется](https://docs.microsoft.com/powershell/module/exchange/set-dataencryptionpolicy) следующим образом.
 
     ```powershell
     Set-DataEncryptionPolicy <Policy ID> -PermanentDataPurgeRequested -PermanentDataPurgeReason <Reason> -PermanentDataPurgeContact <ContactName>
@@ -233,7 +233,7 @@ Microsoft 365 выполняет аудит и проверку пути очи�
 
    Когда корпорация Майкрософт получает юридический документ, мы выполняем командлеты для запуска очистки данных, которая выполняет удаление шифрования ключа клиента, ключа сайта и всех отдельных ключей документа, ирревокабли нарушая иерархию ключей. После завершения командлетов по очистке данных данные очищаются.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Шифрование службы с помощью ключа клиента](customer-key-overview.md)
 

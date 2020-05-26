@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Примените фирменную символику вашей организации к зашифрованным сообщениям электронной почты в Организации и содержимому портала шифрования.
-ms.openlocfilehash: fc2767c0b7ad67a53e081d60d18ac583b2b4c686
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8d8e0a75a88cfe5dbcd5b1e6ed2c276e2edef904
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034395"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351740"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
 
@@ -63,9 +63,9 @@ ms.locfileid: "44034395"
 
 В шаблоне фирменной символики можно изменить несколько компонентов. Шаблон по умолчанию можно изменить, но не удалить. При наличии расширенного шифрования сообщений можно также создавать, изменять и удалять настраиваемые шаблоны. Используйте Windows PowerShell для работы с одним шаблоном фирменного стиля за раз. Чтобы использовать эти командлеты, вам потребуется рабочая или учебная учетная запись с разрешениями глобального администратора в Организации.
 
-- [Set — OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-omeconfiguration) — изменить шаблон фирменной символики по умолчанию или созданный пользовательский шаблон фирменной символики.
-- [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) — создание нового шаблона фирменного стиля, только расширенного шифрования сообщений.
-- [Remove – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/remove-omeconfiguration) — удалить настраиваемый шаблон фирменного стиля, только расширенное шифрование сообщения. Шаблон фирменной символики по умолчанию удалить невозможно.
+- [Set — OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-omeconfiguration) — изменить шаблон фирменной символики по умолчанию или созданный пользовательский шаблон фирменной символики.
+- [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) — создание нового шаблона фирменного стиля, только расширенного шифрования сообщений.
+- [Remove – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration) — удалить настраиваемый шаблон фирменного стиля, только расширенное шифрование сообщения. Шаблон фирменной символики по умолчанию удалить невозможно.
   
 ## <a name="modify-an-ome-branding-template"></a>Изменение шаблона фирменной символики OME
 
@@ -73,7 +73,7 @@ ms.locfileid: "44034395"
 
 1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Измените шаблон с помощью командлета Set – OMEConfiguration, как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) , или используйте приведенную ниже графику и таблицу, чтобы получить рекомендации.
+2. Измените шаблон с помощью командлета Set – OMEConfiguration, как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration) , или используйте приведенную ниже графику и таблицу, чтобы получить рекомендации.
 
 ![Настраиваемые части электронной почты](../media/ome-template-breakout.png)
 
@@ -92,13 +92,13 @@ ms.locfileid: "44034395"
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Создание шаблона фирменной символики OME (расширенное шифрование сообщений)
 
-Если вы используете расширенное шифрование сообщений Office 365, вы можете создать настраиваемые шаблоны фирменного стиля для своей организации с помощью командлета [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) . После создания шаблона измените шаблон с помощью командлета Set – OMEConfiguration, как описано в статье [изменение шаблона фирменной символики OME](#modify-an-ome-branding-template). Можно создать несколько шаблонов.
+Если вы используете расширенное шифрование сообщений Office 365, вы можете создать настраиваемые шаблоны фирменного стиля для своей организации с помощью командлета [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) . После создания шаблона измените шаблон с помощью командлета Set – OMEConfiguration, как описано в статье [изменение шаблона фирменной символики OME](#modify-an-ome-branding-template). Можно создать несколько шаблонов.
 
 Чтобы создать новый настраиваемый шаблон фирменной символики:
 
 1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Используйте командлет [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) для создания нового шаблона.
+2. Используйте командлет [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) для создания нового шаблона.
 
    ```powershell
    New-OMEConfiguration -Identity <OMEConfigurationIdParameter>
@@ -116,7 +116,7 @@ ms.locfileid: "44034395"
   
 1. С помощью рабочей или учебной учетной записи с разрешениями глобального администратора в Организации запустите сеанс Windows PowerShell и подключитесь к Exchange Online. Инструкции см. в статье [Подключение к Exchange Online PowerShell](https://aka.ms/exopowershell).
 
-2. Используйте командлет **Set – OMEConfiguration** , как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration). Чтобы удалить настройки фирменной символики Организации из значений DisclaimerText, EmailText и PortalText, установите для этого параметра пустую строку `""`. Для всех значений изображений, например Logo, установите значение `"$null"`.
+2. Используйте командлет **Set – OMEConfiguration** , как описано в командлете [Set – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/Set-OMEConfiguration). Чтобы удалить настройки фирменной символики Организации из значений DisclaimerText, EmailText и PortalText, установите для этого параметра пустую строку `""` . Для всех значений изображений, например Logo, установите значение `"$null"` .
 
    В следующей таблице описываются параметры настройки шифрования по умолчанию.
 
@@ -149,7 +149,7 @@ ms.locfileid: "44034395"
    Remove-OMEConfiguration -Identity "Branding template 1"
    ```
 
-   Дополнительные сведения см. в разделе [Remove – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/remove-omeconfiguration).
+   Дополнительные сведения см. в разделе [Remove – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/remove-omeconfiguration).
 
 ## <a name="create-an-exchange-mail-flow-rule-that-applies-your-custom-branding-to-encrypted-emails"></a>Создание правила для процесса обработки почты Exchange, которое применяет настраиваемую фирменную символику к зашифрованным сообщениям электронной почты
 
@@ -165,9 +165,9 @@ ms.locfileid: "44034395"
 
 2. Выберите плитку **Администратор** .
 
-3. В центре администрирования Microsoft 365 выберите \> **Exchange** **центры администрирования** .
+3. В центре администрирования Microsoft 365 выберите Exchange **центры администрирования** \> **Exchange**.
 
-4. В центре администрирования Exchange перейдите к разделу **правила** обработки **почтового процесса** \> и](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> выберите **Новый** ![новый значок **создать новое правило**. Дополнительные сведения об использовании [центра администрирования Exchange можно найти в центре администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
+4. В центре администрирования Exchange перейдите к разделу правила обработки **почтового процесса** \> **Rules** и выберите **Новый** ![ новый значок ](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **создать новое правило**. Дополнительные сведения об использовании [центра администрирования Exchange можно найти в центре администрирования Exchange в Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).
 
 5. В поле **имя**введите имя правила, например фирменный стиль для отдела продаж.
 
@@ -177,7 +177,7 @@ ms.locfileid: "44034395"
    - Зашифрованные сообщения электронной почты, отправленные с определенным ключевым словом, например "External" или "Partner"
    - Зашифрованные сообщения электронной почты, отправленные на определенный домен
 
-7. В **разделе выполните следующие действия**выберите **изменить безопасность** > сообщений**применение настраиваемой фирменной символики к сообщениям OME**. Затем в раскрывающемся списке выберите шаблон фирменной символики из созданного или измененного.
+7. В **разделе выполните следующие действия**выберите **изменить безопасность сообщений**  >  **применение настраиваемой фирменной символики к сообщениям OME**. Затем в раскрывающемся списке выберите шаблон фирменной символики из созданного или измененного.
 
 8. Необязательно Если вы хотите, чтобы правило обработки почтового ящика применяло шифрование в дополнение к настраиваемой фирменной символике, **выполните следующие действия**, выберите **изменить безопасность сообщений**, а затем нажмите **применить шифрование и защиту сообщений Office 365**. Выберите шаблон RMS в списке и нажмите кнопку **сохранить**, а затем нажмите кнопку **ОК**.
   

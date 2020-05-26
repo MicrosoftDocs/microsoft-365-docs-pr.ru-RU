@@ -1,5 +1,5 @@
 ---
-title: Просмотр журнала аудита действий администратора в автономной EOP
+title: Просмотр журнала аудита администратора в автономном EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Администраторы могут узнать, как просматривать и искать журнал аудита действий администратора в автономной службе Exchange Online Protection (EOP).
-ms.openlocfilehash: 3aedebc97ccd32c1641510017a276ddbe4770633
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b3f2f2601be1ce6e2120b60d23f617ae4e174e08
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208480"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351865"
 ---
-# <a name="view-the-admin-audit-log-in-standalone-eop"></a>Просмотр журнала аудита действий администратора в автономной EOP
+# <a name="view-the-admin-audit-log-in-standalone-eop"></a>Просмотр журнала аудита администратора в автономном EOP
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online можно использовать центр администрирования Exchange или изолированный EOP PowerShell для поиска и просмотра записей в журнале аудита действий администратора.
 
@@ -32,7 +32,7 @@ ms.locfileid: "44208480"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. В частности, необходимы журналы аудита или роль только для просмотра журналов аудита, которые назначаются группам ролей Комплианцеманажемент, Организатионманажемент (глобальные администраторы) и Секуритядминистратор по умолчанию. Дополнительные сведения см. [в разделе разрешения в автономных EOP](feature-permissions-in-eop.md) и используйте центр администрирования Exchange для [изменения списка участников в группах ролей](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
@@ -100,7 +100,7 @@ Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Param
 Search-AdminAuditLog -Cmdlets Update-RoleGroupMember -StartDate (Get-Date "08/04/2019").ToUniversalTime() -EndDate (Get-Date "10/03/2019").ToUniversalTime()
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в разделе [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog).
+Дополнительные сведения о синтаксисе и параметрах см. в разделе [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-adminauditlog).
 
 ### <a name="view-details-of-audit-log-entries"></a>Просмотр подробных сведений о записях журнала аудита
 

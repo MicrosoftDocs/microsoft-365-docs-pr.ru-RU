@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
 description: Сведения о том, как поместить почтовый ящик на хранение для судебного разбирательства, сохранив все содержимое почтовых ящиков во время расследования.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3ea5c07065788e342edcd0b5c70ef9dcaae48e16
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 8f4d95e1174c9070dd51f27ae9ab90c64bfeaafd
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035821"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351054"
 ---
 # <a name="create-a-litigation-hold"></a>Создание удержания для судебного разбирательства
 
@@ -35,7 +35,7 @@ ms.locfileid: "44035821"
     
 - Элементы в основном пользователе и архивные почтовые ящики сохраняются
     
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 - Чтобы поместить почтовый ящик Exchange Online на удержание для судебного разбирательства, ему необходимо назначить лицензию на Exchange Online (план 2). Если почтовому ящику назначена лицензия на Exchange Online (план 1), необходимо назначить ему отдельную лицензию на архивацию на базе Exchange Online, чтобы разместить ее на удержании.
     
@@ -44,7 +44,7 @@ ms.locfileid: "44035821"
 
 Ниже описано, как поместить почтовый ящик на удержание для судебного разбирательства с помощью центра администрирования Exchange.
 
-1. Войдите в [https://outlook.office.com/ecp](https://outlook.office.com/ecp) систему, используя свою учетную запись глобального администратора.
+1. Войдите в систему [https://outlook.office.com/ecp](https://outlook.office.com/ecp) , используя свою учетную запись глобального администратора.
 
 2. В левой области навигации щелкните **получатели > почтовые ящики** .
 
@@ -78,7 +78,7 @@ Set-Mailbox <username> -LitigationHoldEnabled $true
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-Дополнительные сведения см. в статье [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+Дополнительные сведения см. в статье [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
 
 ## <a name="how-does-litigation-hold-work"></a>Как работает хранение для судебного разбирательства?
 

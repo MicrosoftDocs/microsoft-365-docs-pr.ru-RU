@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Администраторы могут научиться назначать и удалять разрешения в центре администрирования Exchange в Exchange Online Protection.
-ms.openlocfilehash: 3d7b709304f901c4adc41c67b0d6fe9c6ff382bf
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: ba2d053e1e75bd8867ebb9eb7f426cde92abd3e8
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209683"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352339"
 ---
-# <a name="manage-role-groups-in-standalone-eop"></a>Управление группами ролей в автономной EOP
+# <a name="manage-role-groups-in-standalone-eop"></a>Управление ролевыми группами в автономном EOP
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online можно использовать центр администрирования Exchange для добавления пользователей в группы ролей. Добавление пользователей в группу ролей дает пользователю разрешения на выполнение определенных задач администрирования. Вы также можете удалять пользователей из групп ролей.
 
@@ -72,7 +72,7 @@ ms.locfileid: "44209683"
 
 В центре администрирования Exchange перейдите в **Permissions** раздел \> **роли администратора**разрешений, выберите группу ролей, которую необходимо изменить, и нажмите кнопку **изменить** ![ значок редактирования ](../../media/ITPro-EAC-EditIcon.png) .
 
-Те же параметры доступны при изменении групп ролей в соответствии с созданием групп ролей. Вы можете выполнить указанные ниже действия.
+Те же параметры доступны при изменении групп ролей в соответствии с созданием групп ролей. Варианты действий:
 
 - Измените имя и описание.
 
@@ -92,7 +92,7 @@ ms.locfileid: "44209683"
 
    - Выберите пользователей, которых нужно удалить, а затем нажмите кнопку **Удалить** ![ значок удаления ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
-3. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+3. По завершении нажмите кнопку **Сохранить**.
 
    > [!NOTE]
    > После добавления или удаления членов группы ролей данным пользователям необходимо выйти из системы, а затем снова войти в нее, чтобы изменить административные права.
@@ -135,7 +135,7 @@ Get-RoleGroup -Identity "Recipient Administrators" | Format-List
 Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Microsoft Exchange Hosted Organizations,DC=NAMPR001,DC=PROD,DC=OUTLOOK,DC=COM'"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в разделе [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroup).
+Дополнительные сведения о синтаксисе и параметрах см. в разделе [Get-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroup).
 
 ### <a name="use-standalone-eop-powershell-to-create-role-groups"></a>Создание групп ролей с помощью изолированной EOP PowerShell
 
@@ -184,7 +184,7 @@ Get-RoleGroup -Filter "Members -eq 'CN=Julia,OU=contoso.onmicrosoft.com,OU=Micro
      New-RoleGroup "Limited Organization Management" -Roles $RoleGroup.Roles -Members "Isabelle","Carter","Lukas"
      ```
 
-Для получения подробных сведений о синтаксисе и параметре [New – RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/New-RoleGroup).
+Для получения подробных сведений о синтаксисе и параметре [New – RoleGroup](https://docs.microsoft.com/powershell/module/exchange/New-RoleGroup).
 
 ### <a name="use-standalone-eop-powershell-modify-the-list-of-members-in-role-groups"></a>Использование изолированной EOP PowerShell изменение списка участников в группах ролей
 
@@ -214,7 +214,7 @@ Update-RoleGroupMember -Identity "Help Desk" -Members "Gabriela Laureano","Hyun-
 Update-RoleGroupMember -Identity "Help Desk" -Members @{Add="Daigoro Akai"; Remove="Valeria Barrios"}
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в [статье Update – RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Update-RoleGroupMember).
+Подробные сведения о синтаксисе и параметрах можно найти в [статье Update – RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Update-RoleGroupMember).
 
 ### <a name="use-standalone-eop-powershell-to-remove-role-groups"></a>Удаление групп ролей с помощью изолированной EOP PowerShell
 
@@ -232,7 +232,7 @@ Remove-RoleGroup -Identity "<Role Group Name>" [-BypassSecurityGroupManagerCheck
 Remove-RoleGroup -Identity "Training Administrators"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в разделе [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Remove-RoleGroup).
+Дополнительные сведения о синтаксисе и параметрах см. в разделе [Remove-RoleGroup](https://docs.microsoft.com/powershell/module/exchange/Remove-RoleGroup).
 
 ### <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

@@ -18,16 +18,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как просматривать и управлять сообщениями, помещенными в карантин, для всех пользователей в Exchange Online Protection (EOP). Администраторы в организациях с Office 365 Advanced Threat protection (Office 365 ATP) также могут управлять файлами, помещенными в карантин, в SharePoint Online, OneDrive для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 472a5258c112db7e8b8017e5d2ff19dc4741e93c
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 521268d291c73cc94e8be87f1f2896a17c623678
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213332"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352424"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-admin-in-eop"></a>Управление сообщениями и файлами, помещенными в карантин, в качестве администратора в EOP
 
-В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, на карантине могут быть потенциально опасные или нежелательные сообщения. Дополнительные сведения см. [в статье сообщения электронной почты, помещенные в карантин в EOP](quarantine-email-messages.md).
+В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или в автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online на карантине хранятся потенциально опасные или нежелательные сообщения. Дополнительные сведения см. [в статье сообщения электронной почты, помещенные в карантин в EOP](quarantine-email-messages.md).
 
 Администраторы могут просматривать, освобождать и удалять все типы сообщений, помещенных в карантин, для всех пользователей. Только администраторы могут управлять сообщениями, помещенными на карантин, высокой достоверностью фишинга, или в результате правил для процесса обработки почты (также называемых правилами транспорта). Администраторы также могут сообщать ложные срабатывания корпорации Майкрософт.
 
@@ -39,7 +39,7 @@ ms.locfileid: "44213332"
 
 - Чтобы открыть Центр безопасности и соответствия требованиям, перейдите по ссылке <https://protection.office.com>. Чтобы открыть страницу Карантина напрямую, перейдите на <https://protection.office.com/quarantine>.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Для управления карантином в качестве администратора необходимо назначить разрешения. Управление разрешениями осуществляется ролью **карантина** в центре безопасности & соответствия требованиям. По умолчанию эта роль назначается группам ролей " **Управление организацией** " (глобальными администраторами), " **Администратор карантина**" и " **Администраторы безопасности** " в центре безопасности & соответствия требованиям. Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
@@ -105,7 +105,7 @@ ms.locfileid: "44213332"
 
      - **Массовая рассылка**
 
-     - **Фишинговых писем**
+     - **Фишинг**
 
      - **Вредоносная программа**
 
@@ -338,12 +338,12 @@ ms.locfileid: "44213332"
 
 Для просмотра и управления сообщениями и файлами в карантине используются следующие командлеты:
 
-- [Delete — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/delete-quarantinemessage)
+- [Delete — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/delete-quarantinemessage)
 
-- [Export — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/export-quarantinemessage)
+- [Export — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/export-quarantinemessage)
 
-- [Get — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage)
+- [Get — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/get-quarantinemessage)
 
-- [Preview-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/preview-quarantinemessage): Обратите внимание, что этот командлет предназначен только для сообщений, а не от вредоносных файлов из ATP для SharePoint Online, OneDrive для бизнеса или Teams.
+- [Preview-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/preview-quarantinemessage): Обратите внимание, что этот командлет предназначен только для сообщений, а не от вредоносных файлов из ATP для SharePoint Online, OneDrive для бизнеса или Teams.
 
-- [Release — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage)
+- [Release — QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/release-quarantinemessage)

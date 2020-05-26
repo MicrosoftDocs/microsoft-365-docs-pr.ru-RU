@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы в отдельных организациях Exchange Online Protection (EOP) могут узнать, как создавать, изменять и удалять группы рассылки и группы безопасности с включенной поддержкой почты в центре администрирования Exchange, а также в автономной службе Exchange Online Protection (EOP) PowerShell.
-ms.openlocfilehash: fc3f3807216b269a9868e87c5ec784d75385f878
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 4f1dbdb503f8baf02b7dd763dbf7fc6acdf5771a
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209023"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352195"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -38,7 +38,7 @@ ms.locfileid: "44209023"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - При управлении группами в изолированной EOP PowerShell может возникать регулирование. В процедурах PowerShell, приведенных в этом разделе, используется метод пакетной обработки, который приводит к задержке распространения в течение нескольких минут до того, как результаты команд будут видны.
 
@@ -93,7 +93,7 @@ ms.locfileid: "44209023"
 
 3. На открывшейся странице свойств группы рассылки щелкните одну из указанных ниже вкладок, чтобы просмотреть или изменить свойства.
 
-   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
 #### <a name="general"></a>Общие
 
@@ -147,7 +147,7 @@ Get-Recipient -RecipientType MailUniversalDistributionGroup,MailUniversalSecurit
 Get-DistributionGroupMember -Identity <GroupIdentity>
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) и [Get/DistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-distributiongroupmember).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient) и [Get/DistributionGroupMember](https://docs.microsoft.com/powershell/module/exchange/get-distributiongroupmember).
 
 ### <a name="use-standalone-eop-powershell-to-create-groups"></a>Создание групп с помощью изолированной EOP PowerShell
 
@@ -173,7 +173,7 @@ New-EOPDistributionGroup -Name "<Unique Name>" -ManagedBy @("UserOrGroup1","User
 New-EOPDistributionGroup -Name "IT Administrators" -Alias itadmin -Members @("michelle@contoso.com","laura@contoso.com","julia@contoso.com") -ManagedBy "chris@contoso.com"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [New – eopdistributiongroup используется](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/New-EOPDistributionGroup).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [New – eopdistributiongroup используется](https://docs.microsoft.com/powershell/module/exchange/New-EOPDistributionGroup).
 
 ### <a name="use-standalone-eop-powershell-to-modify-groups"></a>Изменение групп с помощью изолированной EOP PowerShell
 
@@ -207,7 +207,7 @@ $CurrentMemberNames += "Tyson Fawcett"
 Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMemberNames
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set/eopdistributiongroup используется](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopdistributiongroup) и [Update – еопдистрибутионграупмембер](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/update-eopdistributiongroupmember).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set/eopdistributiongroup используется](https://docs.microsoft.com/powershell/module/exchange/set-eopdistributiongroup) и [Update – еопдистрибутионграупмембер](https://docs.microsoft.com/powershell/module/exchange/update-eopdistributiongroupmember).
 
 ### <a name="remove-a-group-using-remote-windows-powershell"></a>Удаление группы с помощью удаленной оболочки Windows PowerShell
 
@@ -217,7 +217,7 @@ Update-EOPDistributionGroupMember -Identity "Security Team" -Members $CurrentMem
 Remove-EOPDistributionGroup -Identity "IT Administrators"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – eopdistributiongroup используется](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopdistributiongroup).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – eopdistributiongroup используется](https://docs.microsoft.com/powershell/module/exchange/remove-eopdistributiongroup).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

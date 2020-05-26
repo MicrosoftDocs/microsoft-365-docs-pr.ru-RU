@@ -15,12 +15,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила поток обработки почты (также называемые правилами транспорта), чтобы получать копии сообщений, отправляемых пользователями в корпорацию Майкрософт.
-ms.openlocfilehash: 3c0ff9556b9800a0c3be22f52d108d6b16cc6657
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: f8e4310fef19a8925640c485d060389352218e0b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213488"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352412"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>Просмотр отчетов, передаваемых пользователями в Майкрософт, с помощью правил для потока обработки почты
 
@@ -36,7 +36,7 @@ ms.locfileid: "44213488"
 
 - Чтобы открыть центр администрирования Exchange, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center) или [центр администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
 
@@ -73,7 +73,7 @@ ms.locfileid: "44213488"
 
 4. Вы можете выбрать дополнительные параметры для аудита правила, проверки правила, активации правила в течение определенного периода времени и других параметров. Рекомендуем проверить правило перед его применением.
 
-5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+5. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>Создание правила для обработки почтового сообщения для получения копий отчетов с помощью PowerShell
 
@@ -83,7 +83,7 @@ ms.locfileid: "44213488"
 New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule).
 
 ## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 

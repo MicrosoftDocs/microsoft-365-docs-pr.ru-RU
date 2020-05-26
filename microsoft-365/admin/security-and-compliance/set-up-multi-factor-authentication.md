@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Узнайте, как настроить многофакторную проверку подлинности для Организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 893a4ae535dfb781a4f77ee57c0ead40fda8454f
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: ca1a8bd47e2fa5bbd7b7aed396debefaad10ea5e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340778"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351719"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   

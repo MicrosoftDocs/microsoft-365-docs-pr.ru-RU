@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Microsoft 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: c9c02f697e04a5cd01ddce1546b6712091712025
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d9438b1578b5708e9b7740f001da3870c3616c39
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634201"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352276"
 ---
 # <a name="set-up-customer-key"></a>Настройка ключа клиента
 
@@ -312,7 +312,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 -OutputFile <filename.backup>
 ```
 
-Убедитесь, что выходной файл использует суффикс `.backup`.
+Убедитесь, что выходной файл использует суффикс `.backup` .
   
 Выходной файл, полученный из этого командлета, шифруется и не может использоваться за пределом Azure Key Vault. Резервное копирование можно восстановить только в подписке Azure, из которой была создана резервная копия.
   
@@ -448,7 +448,7 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
 Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
 ```
 
-Где *маилбоксидпараметер* указывает почтовый ящик. Дополнительные сведения о командлете Set — Mailbox приведены в разделе [Set/Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps).
+Где *маилбоксидпараметер* указывает почтовый ящик. Дополнительные сведения о командлете Set — Mailbox приведены в разделе [Set/Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps).
   
 ### <a name="validate-mailbox-encryption"></a>Проверка шифрования почтового ящика
 
@@ -492,7 +492,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
  Чтобы проверить шифрование SharePoint Online, OneDrive для бизнеса и файлов Teams, [подключитесь к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps), а затем с помощью командлета Get-сподатаенкриптионполици Проверьте состояние клиента. Свойство _State_ возвращает значение " **зарегистрировано** ", если включено шифрование ключей клиентов и все файлы на всех сайтах зашифрованы. Если шифрование все еще выполняется, этот командлет предоставляет сведения о том, какой процент сайтов завершается.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Шифрование службы с помощью ключа клиента](customer-key-overview.md)
 

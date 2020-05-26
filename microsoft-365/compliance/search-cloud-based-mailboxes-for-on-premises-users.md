@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Используйте инструмент поиска контента в Центре безопасности и соответствия требованиям для поиска и экспорта данных чата MicrosoftTeams (называемых чатами 1xN) для локальных пользователей в гибридном развертывании Exchange.
-ms.openlocfilehash: 488a08067a39ff4bab61696d5faf8b7c849b4ab8
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: ab523c0d2d334d3d2366711e241b3bafa2e0002f
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214603"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352122"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>Поиск облачных почтовых ящиков для локальных пользователей
 
@@ -129,11 +129,11 @@ ms.locfileid: "44214603"
   
 Для получения дополнительной информации об использовании этих командлетов см:
   
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch)
+- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)
 
-- [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/set-compliancesearch)
+- [Set-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/set-compliancesearch)
 
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/start-compliancesearch)
+- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/start-compliancesearch)
 
 ## <a name="known-issues"></a>Известные проблемы
 

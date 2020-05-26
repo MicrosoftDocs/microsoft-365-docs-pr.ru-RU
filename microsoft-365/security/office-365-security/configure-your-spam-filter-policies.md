@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как просматривать, создавать, изменять и удалять политики защиты от спама в Exchange Online Protection (EOP).
-ms.openlocfilehash: 4850fa9f44bb4f9b23b40bc4e30c6e8ba4fac0ff
-ms.sourcegitcommit: 185d62f41f6b173894ba6e3e87b11b2b5d02db58
+ms.openlocfilehash: 9ce3ad0bfa7b50dfd5dfa5b5e2a35e6d70600e46
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44340814"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351991"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Настройка политик защиты от спама в EOP
 
@@ -416,7 +416,7 @@ New-HostedContentFilterPolicy -Name "Contoso Executives" -HighConfidenceSpamActi
 > [!NOTE]
 > **New-HostedContentFilterPolicy** и **Set-HostedContentFilterPolicy** содержат старый параметр _ZapEnabled_, а также новые параметры _PhishZapEnabled_ и _SpamZapEnabled_. Поддержка параметра _ZapEnabled_ прекращена в феврале 2020 г. Раньше параметры _PhishZapEnabled_ и _SpamZapEnabled_ наследовали свои значения из параметра _ZapEnabled_. Но если вы используете в команде параметры _PhishZapEnabled_ и _SpamZapEnabled_ или применяете параметры **Автоматическая очистка нежелательной почты** и **Автоматическая очистка фишинговых сообщений** в политике защиты от нежелательной почты в Центре безопасности и соответствия требованиям, значение параметра _ZapEnabled_ игнорируется. Иными словами, не используйте параметр _ZapEnabled_. Применяйте вместо него параметры _PhishZapEnabled_ и _SpamZapEnabled_.
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [New-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterpolicy).
 
 #### <a name="step-2-use-powershell-to-create-a-spam-filter-rule"></a>Шаг 2. Создание правила фильтрации нежелательной почты с помощью PowerShell
 
@@ -436,7 +436,7 @@ New-HostedContentFilterRule -Name "<RuleName>" -HostedContentFilterPolicy "<Poli
 New-HostedContentFilterRule -Name "Contoso Executives" -HostedContentFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [New-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [New-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/new-hostedcontentfilterrule).
 
 ### <a name="use-powershell-to-view-spam-filter-policies"></a>Просмотр политик фильтрации нежелательной почты с помощью PowerShell
 
@@ -458,7 +458,7 @@ Get-HostedContentFilterPolicy -Identity "<PolicyName>" | Format-List [<Specific 
 Get-HostedContentFilterPolicy -Identity "Executives" | Format-List
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedcontentfilterpolicy).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [Get-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/get-hostedcontentfilterpolicy).
 
 ### <a name="use-powershell-to-view-spam-filter-rules"></a>Просмотр правил фильтрации нежелательной почты с помощью PowerShell
 
@@ -496,7 +496,7 @@ Get-HostedContentFilterRule -Identity "<RuleName>" | Format-List [<Specific prop
 Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedcontentfilterrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [Get-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/get-hostedcontentfilterrule).
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>Изменение политик фильтрации нежелательной почты с помощью PowerShell
 
@@ -512,7 +512,7 @@ Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
 Set-HostedContentFilterPolicy -Identity "<PolicyName>" <Settings>
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterpolicy).
 
 ### <a name="use-powershell-to-modify-spam-filter-rules"></a>Изменение правил фильтрации нежелательной почты с помощью PowerShell
 
@@ -532,7 +532,7 @@ Set-HostedContentFilterRule -Identity "<RuleName>" <Settings>
 Set-HostedContentFilterRule -Identity "{Fabrikam Spam Filter}" -Name "Fabrikam Spam Filter"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Set-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [Set-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/set-hostedcontentfilterrule).
 
 ### <a name="use-powershell-to-enable-or-disable-spam-filter-rules"></a>Включение и отключение правил фильтрации нежелательной почты с помощью PowerShell
 
@@ -556,7 +556,7 @@ Disable-HostedContentFilterRule -Identity "Marketing Department"
 Enable-HostedContentFilterRule -Identity "Marketing Department"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статьях [Enable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/enable-hostedcontentfilterrule) и [Disable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/disable-hostedcontentfilterrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статьях [Enable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/enable-hostedcontentfilterrule) и [Disable-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/disable-hostedcontentfilterrule).
 
 ### <a name="use-powershell-to-set-the-priority-of-spam-filter-rules"></a>Установка приоритета для правил фильтрации нежелательной почты с помощью PowerShell
 
@@ -596,7 +596,7 @@ Remove-HostedContentFilterPolicy -Identity "<PolicyName>"
 Remove-HostedContentFilterPolicy -Identity "Marketing Department"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Remove-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedcontentfilterpolicy).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [Remove-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-hostedcontentfilterpolicy).
 
 ### <a name="use-powershell-to-remove-spam-filter-rules"></a>Настройка политик фильтрации нежелательной почты с помощью PowerShell
 
@@ -614,7 +614,7 @@ Remove-HostedContentFilterRule -Identity "<PolicyName>"
 Remove-HostedContentFilterRule -Identity "Marketing Department"
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [Remove-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedcontentfilterrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [Remove-HostedContentFilterRule](https://docs.microsoft.com/powershell/module/exchange/remove-hostedcontentfilterrule).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 

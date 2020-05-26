@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: Используйте это руководство по лаборатории тестирования для включения привилегированного управления доступом в тестовой среде Microsoft 365 корпоративный.
-ms.openlocfilehash: 27f63de138f388b0dcbc1bc896bafcb9abc9ed6a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1a81c62124177a328209f175262ac13455ca0899
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632867"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352526"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Управление привилегированным доступом для вашей тестовой среды Microsoft 365 корпоративный
 
@@ -62,9 +62,9 @@ ms.locfileid: "43632867"
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>Возможность тестирования для выполнения задачи, не определенной в привилегированной политике доступа
 
-Сначала подключитесь к PowerShell с помощью консоли управления Exchange, указав учетные данные пользователя, настроенного в качестве глобального администратора в тестовой среде, и попытайтесь создать новое правило журнала. В настоящее время задача [New-JournalRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-journalrule?view=exchange-ps) не определена в политике привилегированного доступа для вашей организации.
+Сначала подключитесь к PowerShell с помощью консоли управления Exchange, указав учетные данные пользователя, настроенного в качестве глобального администратора в тестовой среде, и попытайтесь создать новое правило журнала. В настоящее время задача [New-JournalRule](https://docs.microsoft.com/powershell/module/exchange/new-journalrule?view=exchange-ps) не определена в политике привилегированного доступа для вашей организации.
 
-1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online, используя учетную запись глобального администратора для тестовой среды.
+1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange Online в удаленном модуле **PowerShell Microsoft**  >  **Exchange Online** , используя учетную запись глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
@@ -81,7 +81,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя учетные данные глобального администратора тестовой среды.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования перейдите к разделу **Settings**  >  **Безопасность & безопасность**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -103,7 +103,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 ### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>Проверка требования утверждения для новой задачи JournalRule, определенной в политике привилегированного доступа
 
-1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online с помощью учетной записи глобального администратора для тестовой среды.
+1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange Online в удаленном модуле **PowerShell Microsoft**  >  **Exchange Online** с помощью учетной записи глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
@@ -125,7 +125,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя учетную запись глобального администратора для тестовой среды.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования перейдите к разделу **Settings**  >  **Безопасность & безопасность**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -147,7 +147,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя учетные данные пользователя 3 в тестовой среде (член группы безопасности "привилегированный доступ" в тестовой среде).
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования перейдите к разделу **Settings**  >  **Безопасность & безопасность**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -155,7 +155,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 ### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Тестирование создания нового правила журнала с привилегированным доступом, утвержденным для задачи New-JournalRule
 
-1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange **Online в** > **удаленном** модуле PowerShell Microsoft Exchange Online, используя учетную запись глобального администратора для тестовой среды.
+1. На локальном компьютере откройте и войдите в модуль удаленного PowerShell Exchange Online в удаленном модуле **PowerShell Microsoft**  >  **Exchange Online** , используя учетную запись глобального администратора для тестовой среды.
 
 2. В PowerShell Management PowerShell создайте новое правило журнала для своей организации.
 
@@ -165,7 +165,7 @@ New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain>
 
 3. Просмотр того, что новое правило журнала успешно создано в Exchange Management PowerShell.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Следующий этап
 
 Узнайте о дополнительных возможностях и возможностях [защиты информации](m365-enterprise-test-lab-guides.md#information-protection) в тестовой среде.
 

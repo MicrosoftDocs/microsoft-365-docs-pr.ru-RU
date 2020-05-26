@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать параметры нежелательной почты в почтовых ящиках Exchange Online. Многие из этих параметров доступны пользователям в Outlook или Outlook в Интернете.
-ms.openlocfilehash: 11c01c289ad00475cfa458d0585f377287c495b0
-ms.sourcegitcommit: 8d9509e617ede7cc5ba933c54fb9300d2d1c6344
+ms.openlocfilehash: 72b2680cb16e9d8d0f33ee3ec8a080206c68bf97
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "44347799"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352514"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
 
@@ -77,7 +77,7 @@ Set-MailboxJunkEmailConfiguration -Identity "Ori Epstein" -Enabled $false
 $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All | foreach {Set-MailboxJunkEmailConfiguration $_.Name -Enabled $false}
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration).
 
 > [!NOTE]
 > 
@@ -140,7 +140,7 @@ Set-MailboxJunkEmailConfiguration "Ori Epstein" -BlockedSendersAndDomains @{Add=
 $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All | foreach {Set-MailboxJunkEmailConfiguration $_.Name -BlockedSendersAndDomains @{Remove="contoso.com"}}
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration).
 
 > [!NOTE]
 > 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: С помощью политики защиты от потери данных (DLP) в Центре безопасности и соответствия требованиям можно выявлять, отслеживать и автоматически защищать конфиденциальную информацию в Office 365.
-ms.openlocfilehash: 705c105853a67d4bb006efbfd0f3d6150f5e7181
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 4328855a4a7332c452d7e2832e1b924c16652f8b
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327707"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351854"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Обзор функции защиты от потери данных
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -522,7 +522,7 @@ DLP сканирует электронную почту иначе, чем эл
   
 1. [Подключитесь к Центру безопасности и соответствия требованиям Office 365 с помощью удаленного сеанса PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     
-2. Воспользуйтесь любыми из этих [командлетов policy-and-compliance-dlp](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/export-dlppolicycollection?view=exchange-ps)
+2. Воспользуйтесь любыми из этих [командлетов policy-and-compliance-dlp](https://docs.microsoft.com/powershell/module/exchange/export-dlppolicycollection?view=exchange-ps)
     
 При этом, чтобы создавать отчеты со сведениями о защите от потери данных, системе потребуется получать данные из Microsoft 365, в том числе из Exchange Online. По этой причине **командлеты для отчетов со сведениями о защите от потери данных доступны в Powershell в Exchange Online, а не только в Powershell в Центре безопасности и соответствия требованиям**. Поэтому, чтобы можно было использовать эти командлеты для отчетов со сведениями о защите от потери данных, необходимо выполнить указанные действия.
   
@@ -530,9 +530,9 @@ DLP сканирует электронную почту иначе, чем эл
     
 2. Используйте следующие командлеты для отчетов со сведениями о защите от потери данных:
     
-    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
+    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetectionsReport?view=exchange-ps)
 
-    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
+    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/Get-DlpDetailReport?view=exchange-ps)
     
 ## <a name="more-information"></a>Дополнительные сведения
 

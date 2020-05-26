@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователям необходимо назначить разрешения в центре безопасности & Microsoft 365, чтобы они могли управлять любыми функциями обеспечения безопасности или соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6071bb6260e0c0f524eb6e5d4e78c78fa8ff750
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 19358e3cca0c4d47338fe5fc72b671e36477ce7e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036672"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351955"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Предоставление пользователям доступа к Центру безопасности и соответствия требованиям
 
@@ -50,11 +50,11 @@ ms.locfileid: "44036672"
 
 3. В центре безопасности & соответствия требованиям перейдите к разделу **разрешения**.
 
-4. В списке выберите группу ролей, в которую нужно добавить пользователя, и нажмите кнопку **изменить** ![значок](../../media/O365-MDM-CreatePolicy-EditIcon.gif)редактирования.
+4. В списке выберите группу ролей, в которую нужно добавить пользователя, и нажмите кнопку **изменить** ![ значок редактирования ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .
 
-5. На странице свойств группы ролей в разделе **Участники**нажмите **Добавить**![значок](../../media/ITPro-EAC-AddIcon.gif) добавить и выберите имя пользователя (или пользователей), которого вы хотите добавить.
+5. На странице свойств группы ролей в разделе **Участники**нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.gif) и выберите имя пользователя (или пользователей), которого вы хотите добавить.
 
-6. Выбрав всех пользователей, которых вы хотите добавить в группу ролей, нажмите кнопку **Add (добавить\> )** , а затем кнопку **ОК**.
+6. Выбрав всех пользователей, которых вы хотите добавить в группу ролей, нажмите кнопку **Add (добавить \> )** , а затем кнопку **ОК**.
 
 7. Нажмите кнопку **Сохранить**, чтобы сохранить изменения в группе ролей.
 
@@ -82,7 +82,7 @@ ms.locfileid: "44036672"
 
    - _Member_ является почтовым ящиком, универсальной группой безопасности (универсальную группу безопасности) или компьютером, который требуется добавить в группу ролей. За один раз можно добавить только одного участника.
 
-Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember).
+Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember).
 
 ### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 
@@ -92,4 +92,4 @@ ms.locfileid: "44036672"
 Get-RoleGroupMember -Identity "Organization Management"
 ```
 
-Подробную информацию о синтаксисе и параметрах можно найти в статье [Get – RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroupMember).
+Подробную информацию о синтаксисе и параметрах можно найти в статье [Get – RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться маршрутизировать спам в папки нежелательной почты пользователя в гибридной среде Exchange Online Protection.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5b4d16c864b25c4d47910f0dd69f0ed3e71a0de
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 1d5d83f8cfb994499be98eccf77b36d83e1f3d7c
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209479"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351967"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>Настройка автономных EOP для доставки спама в папку нежелательной почты в гибридных средах
 
@@ -44,7 +44,7 @@ ms.locfileid: "44209479"
 В этом разделе описывается, как создать эти правила для почтовых ящиков: центр администрирования Exchange и Командная консоль Exchange (Exchange PowerShell) в локальной организации Exchange.
 
 > [!TIP]
-> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики защиты от нежелательной почты в EOP для помещения нежелательных сообщений в карантин в EOP. Дополнительные сведения см. [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
+> Вместо доставки сообщений в папку нежелательной почты локального пользователя можно настроить политики защиты от нежелательной почты в EOP для помещения нежелательных сообщений в карантин в EOP. Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
@@ -52,13 +52,13 @@ ms.locfileid: "44209479"
 
 - Если и когда сообщение доставляется в папку нежелательной почты в локальной организации Exchange, управляется сочетанием следующих параметров:
 
-  - Значение параметра _SCLJunkThreshold_ в командлете [Set – OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) в командной консоли Exchange. Значение по умолчанию — 4, что означает, что сообщение нежелательной почты из 5 или выше должно доставлять сообщение в папку нежелательной почты пользователя.
+  - Значение параметра _SCLJunkThreshold_ в командлете [Set – OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) в командной консоли Exchange. Значение по умолчанию — 4, что означает, что сообщение нежелательной почты из 5 или выше должно доставлять сообщение в папку нежелательной почты пользователя.
 
-  - Значение параметра _SCLJunkThreshold_ командлета [Set — Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) в командной консоли Exchange. Значение по умолчанию — пустое ($null), что означает, что используется параметр Организации.
+  - Значение параметра _SCLJunkThreshold_ командлета [Set — Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox) в командной консоли Exchange. Значение по умолчанию — пустое ($null), что означает, что используется параметр Организации.
 
   Подробнее о [порогах вероятности нежелательной почты Exchange (вероятности нежелательной почты)](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/scl).
 
-  - Указывает, включено ли правило нежелательной почты в почтовом ящике (значение параметра _enabled_ $true в командлете [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) в командной консоли Exchange). Это правило нежелательной почты, которое фактически перемещает сообщение в папку "Нежелательная почта" после доставки. По умолчанию правило нежелательной почты включено в почтовых ящиках. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
+  - Указывает, включено ли правило нежелательной почты в почтовом ящике (значение параметра _enabled_ $true в командлете [Set-MailboxJunkEmailConfiguration](https://docs.microsoft.com/powershell/module/exchange/set-mailboxjunkemailconfiguration) в командной консоли Exchange). Это правило нежелательной почты, которое фактически перемещает сообщение в папку "Нежелательная почта" после доставки. По умолчанию правило нежелательной почты включено в почтовых ящиках. Дополнительные сведения см. в статье [Configure Exchange antispam settings on mailboxes](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/configure-antispam-settings).
   
 - Чтобы открыть центр администрирования Exchange на сервере Exchange Server, ознакомьтесь со статьей [центр администрирования Exchange в Exchange Server](https://docs.microsoft.com/Exchange/architecture/client-access/exchange-admin-center). Чтобы открыть командную консоль Exchange, ознакомьтесь со статьей [https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) .
 
@@ -126,7 +126,7 @@ New-TransportRule -Name "EOP SFV:SKS to SCL 6" -HeaderContainsMessageHeader "X-F
 New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SFV:SKB" -SetSCL 6
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule).
 
 ## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 

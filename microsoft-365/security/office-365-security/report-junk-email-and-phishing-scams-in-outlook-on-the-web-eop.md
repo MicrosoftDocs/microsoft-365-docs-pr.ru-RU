@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут изучить встроенные параметры отчетов о нежелательной почте, нежелательной почте и фишинге в Outlook в Интернете (Outlook Web App) в Exchange Online, а также как отключить эти параметры отчетов для пользователей.
-ms.openlocfilehash: dd4b23efa9e12a02ce69167712bc0466b3445c44
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 514d84d2eb2ac4361a444a6d249b7679af596c47
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224701"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350987"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-exchange-online"></a>Отправка нежелательных и фишинговых сообщений электронной почты в Outlook в Интернете в Exchange Online
 
@@ -113,7 +113,7 @@ ms.locfileid: "44224701"
    Set-OwaMailboxPolicy -Identity "Contoso Managers" -ReportJunkEmailEnabled $true
    ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/get-owamailboxpolicy) и [Set/OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/get-owamailboxpolicy) и [Set/OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/set-owamailboxpolicy).
 
 ### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 

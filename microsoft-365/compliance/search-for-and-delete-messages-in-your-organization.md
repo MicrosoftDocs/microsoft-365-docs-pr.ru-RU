@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: 'Используйте поиск и очистку в Центре безопасности и соответствия требованиям для удаления сообщения из всех почтовых ящиков организации. '
-ms.openlocfilehash: cec7229da0d6bef9af94dfc017794ece21aa0ac8
-ms.sourcegitcommit: 261d51b90a9ad53a6a42348c414b1b1e1230c37f
+ms.openlocfilehash: 3be3b64d7745fe97aae6b2003e0adbcd6aa7d82e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44292445"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352102"
 ---
 # <a name="search-for-and-delete-email-messages"></a>Поиск и удаление сообщений электронной почты
 
@@ -61,9 +61,9 @@ ms.locfileid: "44292445"
     
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
     
-- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearch)
+- [New-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearch)
     
-- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/Start-ComplianceSearch)
+- [Start-ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/Start-ComplianceSearch)
     
 > [!NOTE]
 > В расположения для поиска контента, который создается на этом этапе, нельзя включать сайты SharePoint или OneDrive для бизнеса. В поиск контента, который будет использоваться для сообщений электронной почты, можно включать только почтовые ящики и общедоступные папки. Если поиск контента будет включать сайты, при выполнении командлета **New-ComplianceSearchAction** в шаге 3 произойдет ошибка. 
@@ -129,7 +129,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 При запуске предыдущей команды для обратимого или окончательного удаления сообщений поиск, определяемый параметром *SearchName*, является поиском контента, созданным в шаге 1. 
   
-Дополнительные сведения см. в статье [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction).
+Дополнительные сведения см. в статье [New-ComplianceSearchAction](https://docs.microsoft.com/powershell/module/exchange/New-ComplianceSearchAction).
 
 ## <a name="more-information"></a>Дополнительные сведения
 

@@ -1,5 +1,5 @@
 ---
-title: Управление почтовыми пользователями в автономной EOP
+title: Управление пользователями почты в автономном EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Узнайте, как управлять почтовыми пользователями в Exchange Online Protection (EOP), в том числе с помощью синхронизации каталогов, центра администрирования Exchange и PowerShell для управления пользователями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e40465901747bcbd006d437fa527a9803aad1e24
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208649"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352436"
 ---
-# <a name="manage-mail-users-in-standalone-eop"></a>Управление почтовыми пользователями в автономной EOP
+# <a name="manage-mail-users-in-standalone-eop"></a>Управление пользователями почты в автономном EOP
 
 В автономных организациях Exchange Online Protection (EOP) без почтовых ящиков Exchange Online пользователям почты является основной тип учетной записи пользователя. Почтовые пользователи имеют учетные данные в автономной организации EOP и могут получать доступ к ресурсам (назначены разрешения). Адрес электронной почты пользователя является внешним (например, в локальной почтовой среде).
 
@@ -35,7 +35,7 @@ ms.locfileid: "44208649"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - При создании почтовых пользователей в EOP PowerShell может возникнуть возможность регулирования. Кроме того, командлеты PowerShell EOP используют метод пакетной обработки, который приводит к задержке распространения в течение нескольких минут до того, как результаты команд будут видны.
 
@@ -80,7 +80,7 @@ ms.locfileid: "44208649"
 
 3. На открывшейся странице "Свойства пользователя почты" щелкните одну из следующих вкладок, чтобы просмотреть или изменить свойства.
 
-   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+   По завершении нажмите кнопку **Сохранить**.
 
 #### <a name="general"></a>Общие
 
@@ -113,7 +113,7 @@ ms.locfileid: "44208649"
   - **Office**
   - **Домашний телефон**
   - **Веб-страница**.
-  - **Notes**
+  - **Примечания**
 
 #### <a name="organization"></a>Организация
 
@@ -149,7 +149,7 @@ Get-Recipient -Identity <MailUserIdentity> | Format-List
 Get-User -Identity <MailUserIdentity> | Format-List
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) и [Get – User](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – Recipient](https://docs.microsoft.com/powershell/module/exchange/get-recipient) и [Get – User](https://docs.microsoft.com/powershell/module/exchange/get-user).
 
 ### <a name="use-standalone-eop-powershell-to-create-mail-users"></a>Создание почтовых пользователей с помощью изолированной EOP PowerShell
 
@@ -178,7 +178,7 @@ New-EOPMailUser -Name "<UniqueName>" -MicrosoftOnlineServicesID <Account> -Passw
 New-EOPMailUser -Name JeffreyZeng -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force) -ExternalEmailAddress jeffreyz@tailspintoys.com -DisplayName "Jeffrey Zeng" -Alias jeffreyz -FirstName Jeffrey -LastName Zeng
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [New – EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [New – EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/new-eopmailuser).
 
 ### <a name="use-standalone-eop-powershell-to-modify-mail-users"></a>Изменение почтовых пользователей с помощью изолированной EOP PowerShell
 
@@ -205,7 +205,7 @@ $Recip = Get-Recipient -RecipientType MailUser -ResultSize unlimited
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/set-eopmailuser).
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Удаление почтовых пользователей с помощью изолированной EOP PowerShell
 
@@ -221,7 +221,7 @@ Remove-EOPMailUser -Identity <MailUserIdentity\>
 Remove-EOPMailUser -Identity "Jeffrey Zeng"
 ```
 
-Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser).
+Подробные сведения о синтаксисе и параметрах можно найти в статье [Remove – EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/remove-eopmailuser).
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>Как проверить, что эти процедуры выполнены?
 
@@ -255,7 +255,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
 
 - Синхронизацию службы каталогов рекомендуется использовать с такими функциями:
 
-  - **Списки надежных отправителей Outlook и заблокированные списки отправителей**: при синхронизации со службой эти списки будут иметь приоритет над фильтрацией нежелательной почты в службе. Это позволяет пользователям управлять собственным списком надежных отправителей и списком заблокированных отправителей с отдельными записями отправителя и домена. Дополнительные сведения см. [в статье Настройка параметров нежелательной почты в почтовых ящиках Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes).
+  - **Списки надежных отправителей Outlook и заблокированные списки отправителей**: при синхронизации со службой эти списки будут иметь приоритет над фильтрацией нежелательной почты в службе. Это позволяет пользователям управлять собственным списком надежных отправителей и списком заблокированных отправителей с отдельными записями отправителя и домена. Дополнительные сведения см. в разделе [Настройка параметров нежелательной почты в почтовых ящиках Exchange Online](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-junk-email-settings-on-exo-mailboxes).
 
   - **Пограничная блокировка на основе каталогов (DBEB)**: Дополнительные сведения о DBEB см. [в статье Использование пограничной блокировки на основе каталогов для отклонения сообщений, отправляемых недопустимым получателям](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking).
 

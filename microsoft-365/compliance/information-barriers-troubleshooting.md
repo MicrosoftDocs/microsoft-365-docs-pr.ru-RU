@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Используйте эту статью в качестве руководства по устранению проблем со сведениями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f73493f53937c38f33eeab9595ddb07ef4813c89
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 5aa45e3e9dea5ce413b2b0e62d825003bc24e20e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035035"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352328"
 ---
 # <a name="troubleshooting-information-barriers"></a>Устранение проблем с информационными барьерами
 
@@ -45,7 +45,7 @@ ms.locfileid: "44035035"
 
     |Синтаксис  |Пример  |
     |---------|---------|
-    | `Get-InformationBarrierRecipientStatus -Identity` <p>Можно использовать любое значение Identity, однозначно идентифицирующее каждого получателя, например имя, псевдоним, различающееся имя (DN), каноническое имя, адрес электронной почты или GUID.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>В этом примере используется псевдоним (*меганб*) для параметра Identity. Этот командлет возвращает сведения, указывающие на то, затрагивает ли пользователь политику барьера информации. (Искать * Ексополициид: \<GUID>.)         |
+    | `Get-InformationBarrierRecipientStatus -Identity` <p>Можно использовать любое значение Identity, однозначно идентифицирующее каждого получателя, например имя, псевдоним, различающееся имя (DN), каноническое имя, адрес электронной почты или GUID.     |`Get-InformationBarrierRecipientStatus -Identity meganb` <p>В этом примере используется псевдоним (*меганб*) для параметра Identity. Этот командлет возвращает сведения, указывающие на то, затрагивает ли пользователь политику барьера информации. (Искать * Ексополициид: \< GUID>.)         |
 
     **Если пользователи не включены в политики барьера информации, обратитесь в службу поддержки**. В противном случае перейдите к следующему шагу.
 
@@ -104,7 +104,7 @@ ms.locfileid: "44035035"
     |---------|---------|
     |Не указаны сегменты для выбранных пользователей     |Выполните одно из указанных ниже действий.<br/>— Назначьте пользователей существующему сегменту, изменив профили пользователей в Azure Active Directory. (См. раздел [Настройка свойств учетных записей пользователей с помощью PowerShell для Office 365](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell).)<br/>— Определите сегмент, используя [поддерживаемый атрибут для барьеров информации](information-barriers-attributes.md). Затем либо [Определите новую политику](information-barriers-policies.md#part-2-define-information-barrier-policies) , либо [измените существующую](information-barriers-edit-segments-policies.md#edit-a-policy) , чтобы включить этот сегмент.  |
     |В списке указаны сегменты, но для этих сегментов не назначены политики барьера данных.     |Выполните одно из указанных ниже действий.<br/>- [Определение новой политики барьера информации](information-barriers-policies.md#part-2-define-information-barrier-policies) для каждого рассматриваемого сегмента<br/>- [Изменение существующей политики барьера информации](information-barriers-edit-segments-policies.md#edit-a-policy) для назначения ее подходящего сегмента         |
-    |Указаны сегменты, которые включены в политику барьера информации     |— Выполните `Get-InformationBarrierPolicy` командлет, чтобы убедиться, что политики барьера информации активны<br/>— Запуск `Get-InformationBarrierPoliciesApplicationStatus` командлета для подтверждения применения политик<br/>— Выполните командлет `Start-InformationBarrierPoliciesApplication` , чтобы применить все активные политики барьера информации.          |
+    |Указаны сегменты, которые включены в политику барьера информации     |— Выполните `Get-InformationBarrierPolicy` командлет, чтобы убедиться, что политики барьера информации активны<br/>— Запуск `Get-InformationBarrierPoliciesApplicationStatus` командлета для подтверждения применения политик<br/>— Выполните `Start-InformationBarrierPoliciesApplication` командлет, чтобы применить все активные политики барьера информации.          |
     
 
 ## <a name="issue-i-need-to-remove-a-single-user-from-an-information-barrier-policy"></a>Вопрос: мне необходимо удалить одного пользователя из политики информационных барьеров
@@ -126,7 +126,7 @@ ms.locfileid: "44035035"
 
 3. Чтобы удалить пользователя из сегмента, затрагиваемого информационными барьерами, [обновите сведения о профиле пользователя в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
 
-4. Подождите около 30 минут, пока не Фвдсинк. Или выполните `Start-InformationBarrierPoliciesApplication` командлет, чтобы применить все активные политики барьера информации.
+4. Подождите около 30 минут, пока не Фвдсинк. Или выполните командлет, `Start-InformationBarrierPoliciesApplication` чтобы применить все активные политики барьера информации.
 
 ## <a name="issue-the-information-barrier-application-process-is-taking-too-long"></a>Вопрос: процесс Application барьера занимает слишком много времени
 
@@ -147,7 +147,7 @@ ms.locfileid: "44035035"
 
 2. В зависимости от результатов предыдущего действия выполните одно из указанных ниже действий.
   
-    |Состояние  |Следующий этап  |
+    |Статус  |Следующий этап  |
     |---------|---------|
     |**Не запущено**.     |Если после выполнения командлета **Start – информатионбарриерполиЦиесаппликатион** использовался более 45 минут, просмотрите журнал аудита, чтобы проверить наличие ошибок в определениях политик, или причину, по которой приложение не запущено. |
     |**Не удалось выполнить**     |Если произошел сбой приложения, просмотрите журнал аудита. Кроме того, проверьте сегменты и политики. Все пользователи назначены нескольким сегментам? Все сегменты назначены более чем одному полиици? При необходимости [измените сегменты](information-barriers-edit-segments-policies.md#edit-a-segment) и/или [измените политики](information-barriers-edit-segments-policies.md#edit-a-policy), а затем снова запустите командлет **Start-информатионбарриерполиЦиесаппликатион** .  |
@@ -163,7 +163,7 @@ ms.locfileid: "44035035"
 
 1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps). 
 
-2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/get-addressbookpolicy?view=exchange-ps) и просмотрите результаты.
+2. Выполните командлет [Get – AddressBookPolicy](https://docs.microsoft.com/powershell/module/exchange/get-addressbookpolicy?view=exchange-ps) и просмотрите результаты.
 
     |Результаты  |Следующий этап  |
     |---------|---------|
@@ -189,24 +189,24 @@ ms.locfileid: "44035035"
 
 ### <a name="what-to-do"></a>Действия
 
-1. Выполните поиск в журнале аудита для `<application guid>`. Вы можете скопировать этот код PowerShell и изменить его для своих переменных.
+1. Выполните поиск в журнале аудита для `<application guid>` . Вы можете скопировать этот код PowerShell и изменить его для своих переменных.
 
 ```powershell
 $DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
 ```
 
-2. Просмотрите подробные данные в журнале аудита для значений полей `"UserId"` и. `"ErrorDetails"` Это даст вам причину сбоя. Вы можете скопировать этот код PowerShell и изменить его для своих переменных.
+2. Просмотрите подробные данные в журнале аудита для значений `"UserId"` `"ErrorDetails"` полей и. Это даст вам причину сбоя. Вы можете скопировать этот код PowerShell и изменить его для своих переменных.
 
 ```powershell
    $DetailedLogs[1] |fl
 ```
- Пример:
+ Например:
 
 > "UserId": Пользователь1
 > 
 >"Еррордетаилс": "Status: Ибполициконфликт. Ошибка: сегмент "сегмент id1" и сегмент "сегмент id2" имеет конфликт и не может быть назначен получателю. 
 
-3. Обычно вы обнаружите, что пользователь включен в несколько сегментов. Это можно исправить, обновив `-UserGroupFilter` значение в `OrganizationSegments`файле.
+3. Обычно вы обнаружите, что пользователь включен в несколько сегментов. Это можно исправить, обновив `-UserGroupFilter` значение в файле `OrganizationSegments` .
 
 4. Повторно примените политики барьера информации с помощью этих процедур [политики барьеров информации](information-barriers-policies.md#part-3-apply-information-barrier-policies).
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Расширенный аудит в Microsoft 365 предоставляет новые функции аудита, помогающие организации при расследованиях и анализе соответствия требованиям.
-ms.openlocfilehash: 6fb42e9df35fe025c5c5f292238217aebb4098c7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 451eb2a10074081b6d688754002d4f2e9f50f4b1
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141047"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44351696"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Расширенный аудит в Microsoft 365
 
@@ -69,7 +69,7 @@ ms.locfileid: "44141047"
 
 ![Поиск действий MailItemsAccessed с помощью инструмента поиска в журнале аудита](../media/MailItemsAccessedSCC1.png)
 
-Кроме того, можно запустить команду [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) или [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) в Exchange Online PowerShell.
+Кроме того, можно запустить команду [Search-UnifiedAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) или [Search-MailboxAuditLog -Operations MailItemsAccessed](https://docs.microsoft.com/powershell/module/exchange/search-mailboxauditlog) в Exchange Online PowerShell.
 
 ## <a name="high-bandwidth-access-to-the-office-365-management-activity-api"></a>Доступ с высокой пропускной способностью к API действий управления Office 365
 

@@ -16,16 +16,16 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила для обработки почтовых ящиков (правила транспорта) для идентификации и фильтрации массовой почты (серой почты) в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a31030ea2f844cdeb4bee68bf748a2ab8ca29dad
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: fa2c13aed1fd7f9c34872d05693f88577bbbc9c5
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213368"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352400"
 ---
-# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Использование правил обработки почтового процесса для фильтрации массовых сообщений электронной почты в EOP
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Используйте правила потока почты для фильтрации массовой почты в EOP
 
-В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, EOP использует политики защиты от нежелательной почты (также называемые политиками фильтрации нежелательной почты или фильтрами содержимого) для сканирования входящих сообщений для нежелательной почты и массовой почты (также известной как серый Дополнительные сведения см. [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
+В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или Exchange Online Protection (EOP) без почтовых ящиков Exchange Online, EOP использует политики защиты от нежелательной почты (также называемые политиками фильтрации нежелательной почты или фильтрами содержимого) для сканирования входящих сообщений для нежелательной почты и массовой почты (также известной как серый Дополнительные сведения см. в статье [Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md).
 
 Если вы хотите дополнительно отфильтровать массовую почту, вы можете создать правила для поток обработки почты (также называемые правилами транспорта), чтобы искать текстовые шаблоны или фразы, которые часто встречаются в массовой почте, и помечать эти сообщения как спам. Для получения дополнительных сведений об массовой рассылке почты ознакомьтесь со статьей [различие между нежелательной почтой и массовой](what-s-the-difference-between-junk-email-and-bulk-email.md) почтой и [уровнем жалоб (BCL) в EOP](bulk-complaint-level-values.md).
 
@@ -41,7 +41,7 @@ ms.locfileid: "44213368"
 
 - Чтобы открыть центр администрирования Exchange в Exchange Online, обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center). Чтобы открыть центр администрирования Exchange в автономном EOP, обратитесь к разделу [центр администрирования Exchange в отдельном EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к изолированной EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
 
 - Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
 
@@ -140,7 +140,7 @@ New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatt
 New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWords "to change your preferences or unsubscribe","Modify email preferences or unsubscribe","This is a promotional email","You are receiving this email because you requested a subscription","click here to unsubscribe","You have received this email because you are subscribed","If you no longer wish to receive our email newsletter","to unsubscribe from this newsletter","If you have trouble viewing this email","This is an advertisement","you would like to unsubscribe or change your","view this email as a webpage","You are receiving this email because you are subscribed" -SetSCL 9
 ```
 
-Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).
+Дополнительные сведения о синтаксисе и параметрах см. в статье [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/new-transportrule).
 
 ## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 

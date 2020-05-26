@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: Информационные работники в вашей организации обрабатывают конфиденциальные сведения различных типов в течение обычного рабочего дня. Отпечатки документов упрощают защиту этих сведений путем определения стандартных форм, используемых в пределах всей организации. В этом разделе описываются понятия, связанные с использованием отпечатков документов, и способы их создания с помощью PowerShell.
-ms.openlocfilehash: 61fe5082b4808f153cc4092b429c0c5e6a54b110
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 37b5649e357f24993e41ae93db6737d980ce0c72
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074955"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352026"
 ---
 # <a name="document-fingerprinting"></a>Создание отпечатка документа
 
@@ -65,7 +65,7 @@ ms.locfileid: "42074955"
 
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>Создание пакета правил классификации на основе отпечатков документов с помощью PowerShell
 
-Обратите внимание, что в настоящее время вы можете создать отпечаток документа только &amp; с помощью PowerShell в центре безопасности и соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьей подключение к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Обратите внимание, что в настоящее время вы можете создать отпечаток документа только с помощью PowerShell в центре безопасности и &amp; соответствия требованиям. Чтобы подключиться, ознакомьтесь [со статьей подключение к PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 DLP использует пакеты правил классификации для обнаружения конфиденциального содержимого. Чтобы создать пакет правил классификации на основе отпечатка документа, используйте командлеты **New – длпфинжерпринт** и **New – DlpSensitiveInformationType** . Так как результаты **New-длпфинжерпринт** не хранятся вне правила классификации данных, всегда выполняются командлет **New-длпфинжерпринт** и **New-DlpSensitiveInformationType** или **Set-DlpSensitiveInformationType** в том же сеансе PowerShell. В примере ниже создается новый отпечаток документа на основе файла C:\My Documents\Contoso Employee Template.docx. Новый отпечаток хранится в качестве переменной, поэтому его можно использовать с командлетом **New-DlpSensitiveInformationType** во время одного сеанса PowerShell.
   
@@ -84,13 +84,13 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
 
 Теперь вы можете использовать командлет **Get-DlpSensitiveInformationType** для поиска всех пакетов правил классификации данных защиты от потери данных, а в этом примере "Contoso Customer Confidential" входит в список пакетов правил классификации данных. 
   
-Наконец, добавьте пакет правил классификации данных "Contoso Customer Confidential" в политику защиты от потери данных в центре &amp; соответствия требованиям безопасности. В этом примере показано, как добавить правило к существующей политике защиты от потери данных с именем "Конфидентиалполици".
+Наконец, добавьте пакет правил классификации данных "Contoso Customer Confidential" в политику защиты от потери данных в &amp; центре соответствия требованиям безопасности. В этом примере показано, как добавить правило к существующей политике защиты от потери данных с именем "Конфидентиалполици".
 
 ```powershell
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-Вы также можете использовать пакет правил классификации данных в правилах обработки почтового ящика в Exchange Online, как показано в следующем примере. Чтобы выполнить эту команду, сначала необходимо [подключиться к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Также обратите внимание на то, что пакет правил должен синхронизироваться с центром &amp; безопасности Exchange в центре администрирования Exchange.
+Вы также можете использовать пакет правил классификации данных в правилах обработки почтового ящика в Exchange Online, как показано в следующем примере. Чтобы выполнить эту команду, сначала необходимо [подключиться к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Также обратите внимание на то, что пакет правил должен синхронизироваться с центром безопасности &amp; Exchange в центре администрирования Exchange.
   
 ```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
@@ -100,8 +100,8 @@ New-TransportRule -Name "Notify :External Recipient Contoso confidential" -Notif
   
 Сведения о синтаксисе и параметрах можно найти в следующих статьях:
 
-- [New — Длпфинжерпринт](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/New-DlpFingerprint)
-- [New — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/New-DlpSensitiveInformationType)
-- [Remove — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Remove-DlpSensitiveInformationType)
-- [Set — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Set-DlpSensitiveInformationType)
-- [Get — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpSensitiveInformationType)
+- [New — Длпфинжерпринт](https://docs.microsoft.com/powershell/module/exchange/New-DlpFingerprint)
+- [New — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/New-DlpSensitiveInformationType)
+- [Remove — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Remove-DlpSensitiveInformationType)
+- [Set — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Set-DlpSensitiveInformationType)
+- [Get — DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/Get-DlpSensitiveInformationType)

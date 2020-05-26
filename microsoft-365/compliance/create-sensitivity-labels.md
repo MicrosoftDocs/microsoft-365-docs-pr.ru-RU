@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 358b87fca010aa5e910337b0942df0b33ee38951
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: 50411e04ac04dc0bf00e7b743f3f30d25b9fa12e
+ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232726"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44352216"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -75,7 +75,7 @@ ms.locfileid: "44232726"
 
 ### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры меток, доступные в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
 Используйте параметр *LocaleSettings* для развертывания в многоязычной среде, чтобы пользователи видели имя метки и подсказку на своем языке. Пример настройки представлен в следующем разделе. 
 
@@ -151,7 +151,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
 С помощью этого командлета вы можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) для клиента унифицированных меток Azure Information Protection. К этим дополнительным параметрам относится настройка другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels). 
 
