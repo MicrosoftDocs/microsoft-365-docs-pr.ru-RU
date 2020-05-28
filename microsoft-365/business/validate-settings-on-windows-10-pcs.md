@@ -20,17 +20,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Узнайте, как убедиться в том, что параметры защиты приложений Microsoft 365 для бизнеса применены к устройствам Windows 10 для пользователей.
-ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39aee3bc811cb0090d58f9a282de7a8162c097b3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635711"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403597"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Проверка параметров защиты устройств на компьютерах с Windows 10
 
@@ -38,7 +39,7 @@ ms.locfileid: "43635711"
 
 [Применение политик для устройств](protection-settings-for-windows-10-pcs.md) пользователей может занять до нескольких часов после их настройки. Чтобы убедиться в их применении, вы можете просмотреть несколько экранов параметров Windows на устройствах пользователей. Так как пользователи не смогут изменять параметры Windows Update и антивирусной программы "Защитник Windows" на своих устройствах с Windows 10, многие параметры будут недоступны.
   
-1. Перейдите к разделу **Параметры** \> **обновления &amp; для системы безопасности** \> **центра обновления** \> Windows **и убедитесь** , что все параметры неактивны. 
+1. Перейдите к разделу **Параметры** \> **обновления для &amp; системы безопасности** \> **центра обновления Windows** \> **Restart options** и убедитесь, что все параметры неактивны. 
     
     ![Все варианты перезапуска выделены серым цветом.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   

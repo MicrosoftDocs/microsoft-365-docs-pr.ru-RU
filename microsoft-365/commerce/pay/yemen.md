@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, где отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5af7df78cc83406d1f2b4eeefe5ebbc487ccec92
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f97745d83543de23ae83a574e28c4ff282ef413c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257509"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404566"
 ---
 # <a name="payment-information-for-yemen"></a>Сведения об оплате для Йемен
 

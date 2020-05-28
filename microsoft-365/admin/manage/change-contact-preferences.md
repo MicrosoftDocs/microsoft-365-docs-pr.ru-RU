@@ -9,6 +9,7 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -16,12 +17,12 @@ search.appverid:
 - GEA150
 ms.assetid: 6f70de1b-a64d-4498-bfbd-be8c83a9c0fc
 description: Обновите контактные данные своей организации и выберите данные, связанные с продуктом Microsoft 365, которые вы хотите получить.
-ms.openlocfilehash: 4a667757990ec30f4514b094fd1592831601e679
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: afb69c52ba89c2a9e6ff7af014a74b0abfda4e5e
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628212"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407936"
 ---
 # <a name="change-your-contact-preferences-for-communications-from-microsoft"></a>Изменение контактной информации для общения с корпорацией Майкрософт
 
@@ -50,4 +51,4 @@ ms.locfileid: "43628212"
   
 - [Изменение адресов выставления счетов для Microsoft 365 для бизнеса](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [Добавление, обновление или удаление кредитной карты или банковского счета в Microsoft 365 для бизнеса](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [Управление методами оплаты](../../commerce/billing-and-payments/manage-payment-methods.md)

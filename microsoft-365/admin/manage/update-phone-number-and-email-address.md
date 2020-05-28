@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: Обновите свой номер телефона администратора и адрес электронной почты в центре администрирования. Эти сведения понадобятся вам, если вы хотите сбросить свой пароль администратора.
-ms.openlocfilehash: 6f4303cd637bfb87fc4d35ce49904cedf5bf7f0a
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: bd8ee28cbc7982ea5b057fecb34d362557a5d5a9
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139593"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407924"
 ---
 # <a name="update-your-admin-phone-number-and-email-address"></a>Обновление номера телефона и адреса электронной почты администратора
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 В этой статье описывается, как администратор может изменить рабочий телефон и адрес электронной почты в Microsoft 365.
@@ -44,7 +45,7 @@ ms.locfileid: "44139593"
   
 1. Перейдите в центр администрирования Microsoft 365.
 
-2. В заголовке \> выберите значок профиля **Моя учетная запись** \> **Личная информация**.
+2. В заголовке выберите значок профиля \> **Моя учетная запись** \> **Личная информация**.
 
 3. В разделе **сведения о контакте** нажмите кнопку Изменить. Обновление мобильного, телефонного и альтернативного адреса электронной почты. Убедитесь, что вы используете другой адрес электронной почты Майкрософт для своего альтернативного адреса электронной почты.
 
@@ -57,4 +58,4 @@ ms.locfileid: "44139593"
   
 - [Изменение адресов выставления счетов для Microsoft 365 для бизнеса](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [Добавление, обновление или удаление кредитной карты или банковского счета в Microsoft 365 для бизнеса](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [Управление методами оплаты](../../commerce/billing-and-payments/manage-payment-methods.md)

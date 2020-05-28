@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, где отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e101d46a76904f34875653aca643f7257b5a1163
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 27bfc4d7c4b9c9e1103b2bdce4420b11e528c3c9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257772"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403942"
 ---
 # <a name="payment-information-for-palestinian-authority"></a>Сведения об оплате для палестинского органа
 

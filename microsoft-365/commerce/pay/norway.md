@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, где отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4ae29ea3db71fb68b68adc024b91b40a22ba0469
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 89483e5c51ed602035c2b792dc8295612285cd55
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246050"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403978"
 ---
 # <a name="payment-information-for-norway"></a>Сведения об оплате для Норвегии
 

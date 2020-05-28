@@ -16,6 +16,7 @@ ms.collection:
 - Adm_NonTOC
 ms.custom:
 - TopSMBIssues
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: Узнайте, как добавить лицензии в подписку.
-ms.openlocfilehash: 20e822d6124b3a4383df5308e7a5d47a34d49ed6
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 370ed833a1c7c5142c7725666885a945e1524b53
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045408"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404014"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>Добавление лицензий или расширение подписки с помощью ключа продукта
 
@@ -42,7 +43,7 @@ ms.locfileid: "44045408"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Найдите подписку, к которой вы хотите добавить лицензии. В разделе **лицензии** выберите **добавить дополнительные лицензии**.
 
@@ -99,7 +100,7 @@ ms.locfileid: "44045408"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Найдите подписку, которую вы хотите расширить. В разделе **Оплата** выберите **расширить дату окончания**.
 
@@ -152,6 +153,6 @@ ms.locfileid: "44045408"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Назначение лицензий пользователям](../../admin/manage/assign-licenses-to-users.md)

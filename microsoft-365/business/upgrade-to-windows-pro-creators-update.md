@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: Способы обновления устройств с Windows до Windows 10 Pro с целью использования более сложных функций безопасности и бизнес-сетей.
-ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c982f59ded0b0d2e1cd321f5856b38bd792eebed
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632058"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403537"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Обновление устройств с Windows до Windows 10 Pro
 
@@ -42,13 +43,13 @@ ms.locfileid: "43632058"
 
 ## <a name="upgrade-to-windows-10-pro"></a>Обновление до Windows 10 Pro
   
-Для обновления до Windows 10 Pro доступно несколько вариантов. Вы можете выполнить указанные ниже действия.
+Для обновления до Windows 10 Pro доступно несколько вариантов. Варианты действий:
     
-- Установите обновление на &ndash; [сайте загрузки программного обеспечения Майкрософт](https://go.microsoft.com/fwlink/?LinkID=836951 ) выберите этот параметр, если устройство, на котором вы выполнили вход, находится на том же устройстве, что и то, которое вы хотите обновить. 
+- Установите обновление на [сайте загрузки программного обеспечения Майкрософт](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Выберите этот параметр, если устройство, на котором вы выполнили вход, находится на том же устройстве, что и то, которое вы хотите обновить. 
 
     - На сайте загрузки программного обеспечения нажмите кнопку **Обновить** , чтобы начать обновление устройства до версии Windows 10 Pro Creators. 
     
-- Создание установочного носителя с &ndash; помощью [средства создания носителей](https://go.microsoft.com/fwlink/?LinkID=836960) выберите этот параметр, чтобы создать Windows 10 Pro Creators Update (USB-устройство флэш-памяти или ISO-файл), чтобы установить Windows 10 на компьютер, отличный от того, который вы используете.
+- Создание установочного носителя с помощью [средства создания носителей](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Выберите этот параметр, чтобы создать Windows 10 Pro Creators Update (USB-устройство флэш-памяти или ISO-файл), чтобы установить Windows 10 на компьютер, отличный от того, который вы используете.
 
     - Ознакомьтесь с инструкциями по использованию средства и созданием установочного носителя. 
 
