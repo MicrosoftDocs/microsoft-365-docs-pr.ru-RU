@@ -9,30 +9,31 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d7e0fdedf6dfe88eba0cac341880787ae6d22934
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8235c74248933c903c6b4fab1c94683a27ba2fba
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42355130"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402430"
 ---
-# <a name="contact-support-for-zambia"></a><span data-ttu-id="1cc66-103">Обращение в службу поддержки для Замбия</span><span class="sxs-lookup"><span data-stu-id="1cc66-103">Contact support for Zambia</span></span>
+# <a name="contact-support-for-zambia"></a><span data-ttu-id="a7a6c-103">Обращение в службу поддержки для Замбия</span><span class="sxs-lookup"><span data-stu-id="a7a6c-103">Contact support for Zambia</span></span>
 
-<span data-ttu-id="1cc66-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="1cc66-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="a7a6c-104">[Найдите другую страну или регион](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="a7a6c-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="1cc66-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="1cc66-105">Phone number</span></span>
-<span data-ttu-id="1cc66-106">+ 27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="1cc66-106">+27 21 427 3315</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a7a6c-105">Номер телефона</span><span class="sxs-lookup"><span data-stu-id="a7a6c-105">Phone number</span></span>
+<span data-ttu-id="a7a6c-106">+ 27 21 427 3315</span><span class="sxs-lookup"><span data-stu-id="a7a6c-106">+27 21 427 3315</span></span>
 
-## <a name="hours"></a><span data-ttu-id="1cc66-107">Часы</span><span class="sxs-lookup"><span data-stu-id="1cc66-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="1cc66-108">Поддержка выставления счетов:</span><span class="sxs-lookup"><span data-stu-id="1cc66-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a7a6c-107">Часы</span><span class="sxs-lookup"><span data-stu-id="a7a6c-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a7a6c-108">Поддержка выставления счетов:</span><span class="sxs-lookup"><span data-stu-id="a7a6c-108">Billing Support:</span></span>
 
-<span data-ttu-id="1cc66-109">Английский: Пн – Пятница 9 AM – 5 PM</span><span class="sxs-lookup"><span data-stu-id="1cc66-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a7a6c-109">Английский: Пн – Пятница 9 AM – 5 PM</span><span class="sxs-lookup"><span data-stu-id="a7a6c-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="1cc66-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="1cc66-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a7a6c-110">Техническая поддержка:</span><span class="sxs-lookup"><span data-stu-id="a7a6c-110">Technical Support:</span></span>
 
-<span data-ttu-id="1cc66-111">Английский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="1cc66-111">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a7a6c-111">Английский: 24 часа в сутки, 7 дней в неделю</span><span class="sxs-lookup"><span data-stu-id="a7a6c-111">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="1cc66-112">Применяются тарифы на международные звонки</span><span class="sxs-lookup"><span data-stu-id="1cc66-112">International call charges apply</span></span>
+<span data-ttu-id="a7a6c-112">Применяются тарифы на международные звонки</span><span class="sxs-lookup"><span data-stu-id="a7a6c-112">International call charges apply</span></span>

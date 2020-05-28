@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,52 +22,52 @@ search.appverid:
 - BEA160
 ms.assetid: 75533195-f1f6-4c2c-8ceb-0b5597790d7b
 description: Узнайте, как продлить пробную подписку на другой период в 30 дней.
-ms.openlocfilehash: e634c43c1d6399abc3a88438fe410f5a1a19361e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 50f0548ddcd2eeef36a853cfb08b279cee8095a9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141256"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402158"
 ---
-# <a name="extend-your-trial"></a><span data-ttu-id="68708-103">Продление пробной версии</span><span class="sxs-lookup"><span data-stu-id="68708-103">Extend your trial</span></span>
+# <a name="extend-your-trial"></a><span data-ttu-id="22606-103">Продление пробной версии</span><span class="sxs-lookup"><span data-stu-id="22606-103">Extend your trial</span></span>
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> <span data-ttu-id="68708-104">Изменяется центр администрирования.</span><span class="sxs-lookup"><span data-stu-id="68708-104">The admin center is changing.</span></span> <span data-ttu-id="68708-105">Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="68708-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
+> <span data-ttu-id="22606-104">Изменяется Центр администрирования.</span><span class="sxs-lookup"><span data-stu-id="22606-104">The admin center is changing.</span></span> <span data-ttu-id="22606-105">Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span><span class="sxs-lookup"><span data-stu-id="22606-105">If your experience doesn't match the details presented here, see [About the new Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="68708-106">Вам нужно больше времени для пробного использования компонентов Microsoft 365 для бизнеса перед покупкой?</span><span class="sxs-lookup"><span data-stu-id="68708-106">Do you need more time to try out the features of Microsoft 365 for business before buying?</span></span> <span data-ttu-id="68708-107">Если до истечения срока действия пробной подписки осталось 15 дней и вы не продлевали ее, вы можете увеличить срок ее действия еще на 30 дней.</span><span class="sxs-lookup"><span data-stu-id="68708-107">If your trial subscription is within 15 days of expiring and the trial hasn't been extended before then you can extend your trial for another 30 day period.</span></span> <span data-ttu-id="68708-108">Это можно сделать только один раз.</span><span class="sxs-lookup"><span data-stu-id="68708-108">You can only do this one time.</span></span>
+<span data-ttu-id="22606-106">Вам нужно больше времени для пробного использования компонентов Microsoft 365 для бизнеса перед покупкой?</span><span class="sxs-lookup"><span data-stu-id="22606-106">Do you need more time to try out the features of Microsoft 365 for business before buying?</span></span> <span data-ttu-id="22606-107">Если до истечения срока действия пробной подписки осталось 15 дней и вы не продлевали ее, вы можете увеличить срок ее действия еще на 30 дней.</span><span class="sxs-lookup"><span data-stu-id="22606-107">If your trial subscription is within 15 days of expiring and the trial hasn't been extended before then you can extend your trial for another 30 day period.</span></span> <span data-ttu-id="22606-108">Это можно сделать только один раз.</span><span class="sxs-lookup"><span data-stu-id="22606-108">You can only do this one time.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="68708-109">В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .</span><span class="sxs-lookup"><span data-stu-id="68708-109">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
+1. <span data-ttu-id="22606-109">В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.</span><span class="sxs-lookup"><span data-stu-id="22606-109">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.</span></span>
 
-2. <span data-ttu-id="68708-110">На странице " **продукты** " найдите пробную подписку, которую вы хотите расширить.</span><span class="sxs-lookup"><span data-stu-id="68708-110">On the **Your products** page, find the trial subscription that you want to extend.</span></span> <span data-ttu-id="68708-111">В разделе **параметры & действий** выберите команду **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="68708-111">In the **Settings & Actions** section, select **Extend trial**.</span></span>
+2. <span data-ttu-id="22606-110">На странице " **продукты** " найдите пробную подписку, которую вы хотите расширить.</span><span class="sxs-lookup"><span data-stu-id="22606-110">On the **Your products** page, find the trial subscription that you want to extend.</span></span> <span data-ttu-id="22606-111">В разделе **параметры & действий** выберите команду **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="22606-111">In the **Settings & Actions** section, select **Extend trial**.</span></span>
 
-3. <span data-ttu-id="68708-112">Просмотрите сведения о расширении и при необходимости измените способ оплаты.</span><span class="sxs-lookup"><span data-stu-id="68708-112">Review the extension information, and if necessary, change your payment method.</span></span> <span data-ttu-id="68708-113">По завершении нажмите кнопку **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="68708-113">When you're finished, select **Extend trial**.</span></span>
+3. <span data-ttu-id="22606-112">Просмотрите сведения о расширении и при необходимости измените способ оплаты.</span><span class="sxs-lookup"><span data-stu-id="22606-112">Review the extension information, and if necessary, change your payment method.</span></span> <span data-ttu-id="22606-113">По завершении нажмите кнопку **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="22606-113">When you're finished, select **Extend trial**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="68708-114">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="68708-114">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="22606-114">В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="22606-114">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="68708-115">На странице " **подписки** " выберите пробную подписку, которую нужно расширить, а затем в разделе срок действия выберите команду **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="68708-115">On the **Subscriptions** page, select the trial subscription that you want to extend, and then, under the expiration date, select **Extend trial**.</span></span>
+2. <span data-ttu-id="22606-115">На странице " **подписки** " выберите пробную подписку, которую нужно расширить, а затем в разделе срок действия выберите команду **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="22606-115">On the **Subscriptions** page, select the trial subscription that you want to extend, and then, under the expiration date, select **Extend trial**.</span></span>
 
-3. <span data-ttu-id="68708-116">Следуйте инструкциям мастера.</span><span class="sxs-lookup"><span data-stu-id="68708-116">Complete the steps in the wizard.</span></span>
+3. <span data-ttu-id="22606-116">Следуйте инструкциям мастера.</span><span class="sxs-lookup"><span data-stu-id="22606-116">Complete the steps in the wizard.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="68708-117">В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="68708-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="22606-117">В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.</span><span class="sxs-lookup"><span data-stu-id="22606-117">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="68708-118">На странице " **подписки** " выберите пробную подписку, которую нужно расширить, а затем в разделе срок действия выберите команду **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="68708-118">On the **Subscriptions** page, select the trial subscription that you want to extend, and then, under the expiration date, select **Extend trial**.</span></span>
+2. <span data-ttu-id="22606-118">На странице " **подписки** " выберите пробную подписку, которую нужно расширить, а затем в разделе срок действия выберите команду **расширить пробную версию**.</span><span class="sxs-lookup"><span data-stu-id="22606-118">On the **Subscriptions** page, select the trial subscription that you want to extend, and then, under the expiration date, select **Extend trial**.</span></span>
 
-3. <span data-ttu-id="68708-119">Следуйте инструкциям мастера.</span><span class="sxs-lookup"><span data-stu-id="68708-119">Complete the steps in the wizard.</span></span>
+3. <span data-ttu-id="22606-119">Следуйте инструкциям мастера.</span><span class="sxs-lookup"><span data-stu-id="22606-119">Complete the steps in the wizard.</span></span>
 
 ::: moniker-end
 
-<span data-ttu-id="68708-120">Когда вы будете готовы к приобретению, ознакомьтесь со статьей [приобрести пробную версию](buy-a-subscription-from-your-free-trial.md).</span><span class="sxs-lookup"><span data-stu-id="68708-120">When you're ready to buy, see [Buy your trial version](buy-a-subscription-from-your-free-trial.md).</span></span>
+<span data-ttu-id="22606-120">Когда вы будете готовы к приобретению, ознакомьтесь со статьей [приобрести пробную версию](buy-a-subscription-from-your-free-trial.md).</span><span class="sxs-lookup"><span data-stu-id="22606-120">When you're ready to buy, see [Buy your trial version](buy-a-subscription-from-your-free-trial.md).</span></span>
