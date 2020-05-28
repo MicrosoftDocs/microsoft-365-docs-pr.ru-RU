@@ -3,28 +3,28 @@
   displayName: Home
 - name: Иллюстрации по решению и архитектуре
   items:
-    - name: Примеры производительности Microsoft 365
+    - name: Иллюстрации повышения производительности в Microsoft 365
       href: productivity-illustrations.md
     - name: Модели облачной архитектуры Майкрософт
       href: cloud-architecture-models.md
 - name: Решения Microsoft 365 Foundation
   items:
-    - name: Обзор
+    - name: Общие сведения
       href: foundation-solutions-overview.md
     - name: "Повышение эффективности работы удаленных сотрудников с помощью Microsoft\_365"
       href: empower-people-to-work-remotely.md
       items:
-        - name: Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
+        - name: Этап 1. Повышение безопасности входа
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: "Этап\_2. Предоставление удаленного доступа"
           href: empower-people-to-work-remotely-remote-access.md
-        - name: 'Шаг 3. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек'
+        - name: Шаг 3. Развертывание управления конечными точками
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Этап\_4. Развертывание служб и приложений для повышения производительности удаленных сотрудников"
+        - name: "Этап\_4. Развертывание приложений и служб производительности"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: "Этап\_5. Создание площадок для коммуникации в условиях кризиса, вызванного COVID-19"
+        - name: "Этап\_5. Создание мест для общения"
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: Шаг 6. Обучение сотрудников удаленной работе с учетом их отзывов
+        - name: Шаг 6. Обучение удаленных сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Настройка безопасной совместной работы с помощью Microsoft 365
       href: setup-secure-collaboration-with-teams.md
@@ -71,7 +71,7 @@
       href: deploy-threat-protection.md
 - name: Решения и сценарии рабочей нагрузки
   items:
-    - name: Обзор
+    - name: Общие сведения
       href: workload-solutions-scenarios-overview.md
     - name: Совместная работа и совместная работа
       items:
@@ -125,7 +125,7 @@
           href: team-security-isolation-dev-test.md
 - name: Специализированные отраслевые руководства
   items:
-    - name: Обзор
+    - name: Общие сведения
       href: industry-specific-guidance-overview.md
     - name: Финансы
       items:
@@ -151,7 +151,7 @@
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
 - name: Принципы проектирования корпоративных архитектур
   items:
-    - name: Обзор
+    - name: Общие сведения
       href: design-principles.md
     - name: Для идентификации и за пределами
       href: identity-design-principles.md

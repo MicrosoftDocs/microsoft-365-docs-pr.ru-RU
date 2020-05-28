@@ -9,27 +9,28 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Commerce_Pay
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, где отправить платеж за подписку.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0ac87e51b905bc28a7bd62869f7721dfbe151181
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9099d9ff680a566f29261384f18b3ada61513673
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255615"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44404506"
 ---
-# <a name="payment-information-for-italy"></a><span data-ttu-id="ede63-103">Сведения об оплате для Италии</span><span class="sxs-lookup"><span data-stu-id="ede63-103">Payment information for Italy</span></span>
+# <a name="payment-information-for-italy"></a><span data-ttu-id="3ce66-103">Сведения об оплате для Италии</span><span class="sxs-lookup"><span data-stu-id="3ce66-103">Payment information for Italy</span></span>
 
-<span data-ttu-id="ede63-104">[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="ede63-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
+<span data-ttu-id="3ce66-104">[Найдите другую страну или регион](../billing-and-payments/pay-for-your-subscription.md).</span><span class="sxs-lookup"><span data-stu-id="3ce66-104">[Find another country or region](../billing-and-payments/pay-for-your-subscription.md).</span></span>
 
-<span data-ttu-id="ede63-105">Платите только в EUR, а номера счетов-фактуры на предъявление к оплате платежей.</span><span class="sxs-lookup"><span data-stu-id="ede63-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
+<span data-ttu-id="3ce66-105">Платите только в EUR, а номера счетов-фактуры на предъявление к оплате платежей.</span><span class="sxs-lookup"><span data-stu-id="3ce66-105">Please pay in EUR only and reference invoice number(s) on your payment remittance.</span></span>
 
-## <a name="electronic-funds-transfer"></a><span data-ttu-id="ede63-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="ede63-106">Electronic Funds Transfer</span></span>
+## <a name="electronic-funds-transfer"></a><span data-ttu-id="3ce66-106">Электронный платеж</span><span class="sxs-lookup"><span data-stu-id="3ce66-106">Electronic Funds Transfer</span></span>
 
-<span data-ttu-id="ede63-107">**Банк:** Цитибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="ede63-107">**Bank:** Citibank, London</span></span>  
-<span data-ttu-id="ede63-108">**SWIFT Code/БИК:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="ede63-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
-<span data-ttu-id="ede63-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="ede63-109">**IBAN:** GB31CITI18500812207591</span></span>  
-<span data-ttu-id="ede63-110">**Код сортировки:** 185008</span><span class="sxs-lookup"><span data-stu-id="ede63-110">**SORT Code:** 185008</span></span>  
-<span data-ttu-id="ede63-111">**Номер счета:** 12207591</span><span class="sxs-lookup"><span data-stu-id="ede63-111">**Account Number:** 12207591</span></span>  
-<span data-ttu-id="ede63-112">**Имя учетной записи:** КОРПОРАЦИ</span><span class="sxs-lookup"><span data-stu-id="ede63-112">**Account Name:** MICROSOFT</span></span>  
+<span data-ttu-id="3ce66-107">**Банк:** Цитибанк, Лондон</span><span class="sxs-lookup"><span data-stu-id="3ce66-107">**Bank:** Citibank, London</span></span>  
+<span data-ttu-id="3ce66-108">**SWIFT Code/БИК:** CITIGB2L</span><span class="sxs-lookup"><span data-stu-id="3ce66-108">**SWIFT Code/BIC:** CITIGB2L</span></span>  
+<span data-ttu-id="3ce66-109">**IBAN:** GB31CITI18500812207591</span><span class="sxs-lookup"><span data-stu-id="3ce66-109">**IBAN:** GB31CITI18500812207591</span></span>  
+<span data-ttu-id="3ce66-110">**Код сортировки:** 185008</span><span class="sxs-lookup"><span data-stu-id="3ce66-110">**SORT Code:** 185008</span></span>  
+<span data-ttu-id="3ce66-111">**Номер счета:** 12207591</span><span class="sxs-lookup"><span data-stu-id="3ce66-111">**Account Number:** 12207591</span></span>  
+<span data-ttu-id="3ce66-112">**Имя учетной записи:** КОРПОРАЦИ</span><span class="sxs-lookup"><span data-stu-id="3ce66-112">**Account Name:** MICROSOFT</span></span>  
