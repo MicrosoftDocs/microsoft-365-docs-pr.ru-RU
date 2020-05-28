@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MST160
@@ -20,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
 description: Получите подробные сведения о приложениях Microsoft Teams, используемых в вашей организации, выполнив отчет об использовании приложений Microsoft Teams из Microsoft 365 Reports.
-ms.openlocfilehash: 9c79f83d90905470c56fd62489f1439b3383841f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c2070f13c790f2a66c5849e68fc2fe3579ffa3e3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621214"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387722"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>Отчеты Microsoft 365 в центре администрирования — использование устройств Microsoft Teams
 
@@ -39,7 +40,7 @@ ms.locfileid: "43621214"
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
 
     
-2. В раскрывающемся списке **выберите отчет** выберите **использование устройств** **Microsoft Teams** \> .
+2. В раскрывающемся списке **выберите отчет** выберите использование устройств **Microsoft Teams** \> **Device usage**.
   
 ## <a name="interpret-the-microsoft-teams-app-usage-report"></a>Интерпретация данных в отчете об использовании приложений Microsoft Teams
 

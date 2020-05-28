@@ -22,18 +22,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Узнайте, как создать политику управления приложениями и защитить рабочие файлы на персональных устройствах Windows 10.
-ms.openlocfilehash: bbfb07302f2d77f7e66301723d176cf053f79cc1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: c3e003205da30fa79069946960ef00e4195f0cbc
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561347"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386544"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Настройка параметров защиты приложений для устройств с Windows 10
 
@@ -43,7 +44,7 @@ ms.locfileid: "42561347"
   
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. В левой панели навигации выберите пункт **Devices** \> **политики** \> устройств **Добавить**.
+2. В левой панели навигации выберите пункт **Devices** \> **политики** устройств \> **Добавить**.
 
 3. На панели **Добавить политику** введите уникальное имя политики. 
     

@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MSP160
@@ -21,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: 7a699a01687aec47fd39ce108c5a8c7a888afe65
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: f3de4ac0856f1281151e6d1c686d90559a5e8544
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222387"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387997"
 ---
 # <a name="manage-who-can-create-groups"></a>Управление пользователями, которые могут создавать группы
 
@@ -120,7 +121,7 @@ ms.locfileid: "44222387"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените * \< секуритиграупнаме \> * именем группы безопасности, которую вы создали. Например:
+Замените *\<SecurityGroupName\>* именем группы безопасности, которую вы создали. Например:
 
 `$GroupName = "Group Creators"`
 

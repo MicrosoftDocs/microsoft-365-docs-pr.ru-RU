@@ -11,6 +11,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -18,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Узнайте, как получить отчет об активации Office, чтобы узнать, кто из пользователей активировал свою подписку на Office, и определить пользователей, которым может потребоваться дополнительная помощь.
-ms.openlocfilehash: 632973c8d50dffd50725c46163e0af874c64b0c6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3b7d3e599d31377fb11a07623a53a3c75dced129
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621226"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387745"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>Отчеты Microsoft 365 в центре администрирования — активации Microsoft Office
 
@@ -39,7 +40,7 @@ ms.locfileid: "43621226"
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
 
     
-2. В раскрывающемся списке **выберите отчет** выберите **Активация** **Office 365** \> . 
+2. В раскрывающемся списке **выберите отчет** выберите Активация **Office 365** \> **Activations**. 
   
 ## <a name="interpret-the-office-activations-report"></a>Анализ отчета по активации Office
 
@@ -49,7 +50,7 @@ ms.locfileid: "43621226"
   
 |||
 |:-----|:-----|
-|1,1  <br/> |В отчете "Активации Office" представлены данные об активации лицензий на Office (на дату отчета, указанную в правой верхней части диаграммы).  <br/> |
+|1   <br/> |В отчете "Активации Office" представлены данные об активации лицензий на Office (на дату отчета, указанную в правой верхней части диаграммы).  <br/> |
 |2  <br/> |Данные в каждом отчете обычно закрываются в течение последних 24 – 48 часов.  <br/> |
 |4  <br/> |На диаграмме **Активации** показано количество активаций Office на компьютерах и устройствах.  <br/> |
 |4   <br/> |На диаграмме **Пользователи** показано, сколько пользователей могут активировать подписку и сколько пользователей активировали ее на компьютере или устройстве.  <br/> |

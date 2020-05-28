@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,19 +23,19 @@ search.appverid:
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
 description: Узнайте, как восстановить удаленные учетные записи пользователей и все связанные с ними данные.
-ms.openlocfilehash: 7ac0805024ebf78075a66f77c99496675f20e497
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 27b3f4a0077b5ef0dcfaef1dbe5019a5d69652f2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140571"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387009"
 ---
 # <a name="restore-a-user"></a>Восстановление пользователя
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
    
@@ -59,13 +60,13 @@ ms.locfileid: "44140571"
 
 ::: moniker range="o365-germany"
 
-1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041), а затем выберите **пользователей** \> , **удаленных пользователей**.
+1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041), а затем выберите **пользователей** , \> **удаленных пользователей**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=850627), а затем выберите **пользователей** \> , **удаленных пользователей**.
+1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=850627), а затем выберите **пользователей** , \> **удаленных пользователей**.
 
 ::: moniker-end
 
@@ -94,13 +95,13 @@ ms.locfileid: "44140571"
 
 ::: moniker range="o365-germany"
 
-1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041), а затем выберите **пользователей** \> , **удаленных пользователей**.
+1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041), а затем выберите **пользователей** , \> **удаленных пользователей**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=850627), а затем выберите **пользователей** \> , **удаленных пользователей**.
+1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=850627), а затем выберите **пользователей** , \> **удаленных пользователей**.
 
 ::: moniker-end
 
@@ -135,13 +136,13 @@ ms.locfileid: "44140571"
 
 ::: moniker range="o365-germany"
 
-Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041), а затем выберите **пользователей** \> , **удаленных пользователей**.
+Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=848041), а затем выберите **пользователей** , \> **удаленных пользователей**.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=850627), а затем выберите **пользователей** \> , **удаленных пользователей**.
+1. Перейдите в [центр администрирования](https://go.microsoft.com/fwlink/p/?linkid=850627), а затем выберите **пользователей** , \> **удаленных пользователей**.
 
 ::: moniker-end
 

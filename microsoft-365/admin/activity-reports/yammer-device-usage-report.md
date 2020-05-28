@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b793ffdd-effa-43d0-849a-b1ca2e899f38
 description: 'Получите отчет об использовании устройств Yammer, чтобы узнать, на каких устройствах используются пользователи Yammer. '
-ms.openlocfilehash: 1dfd72c8974aa10b3774d2cdb17ac1bf82b9501b
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 17fcf6c7d46988f0783b5097d3381b9bc08cbbe7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047015"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387457"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>Отчеты Microsoft 365 в центре администрирования — отчет об использовании устройств в Yammer
 
@@ -38,7 +39,7 @@ ms.locfileid: "43047015"
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
 
     
-2. В раскрывающемся списке **выберите отчет** выберите **Использование устройства**в **Yammer** \> .
+2. В раскрывающемся списке **выберите отчет** выберите **Yammer** \> **Использование устройства**в Yammer.
   
 ## <a name="interpret-the-yammer-activity-report"></a>Анализ отчета об активности в Yammer
 

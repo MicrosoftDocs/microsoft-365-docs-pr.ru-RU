@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Получите приложение Microsoft 365 Admin и научитесь управлять своей организацией с телефона или планшета.
-ms.openlocfilehash: aead9f30f2d75e3eab5099596ff80a575e571306
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e0aa16bd01e81e89e80db51c6569009e177ed687
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623992"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386953"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Сведения о мобильном приложении Microsoft 365 Admin
 

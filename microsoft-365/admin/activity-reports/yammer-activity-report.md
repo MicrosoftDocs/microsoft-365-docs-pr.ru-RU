@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Получите отчет о действиях в Yammer и Узнайте больше о числе пользователей, использующих Yammer для публикации, например, или чтения сообщения.
-ms.openlocfilehash: bd128e17b8d435b8d5c6b06f16ff37fea11a6ce3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2bf02c0599f999b0eebb52d119096567bb09508b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618960"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387469"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>Отчеты Microsoft 365 в центре администрирования — отчет об активности в Yammer
 
@@ -38,7 +39,7 @@ ms.locfileid: "43618960"
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
 
     
-2. В раскрывающемся списке **выберите отчет** выберите **действие** **Yammer** \> .
+2. В раскрывающемся списке **выберите отчет** выберите **Yammer** \> **действие**Yammer.
   
 ## <a name="interpret-the-yammer-activity-report"></a>Анализ отчета об активности в Yammer
 

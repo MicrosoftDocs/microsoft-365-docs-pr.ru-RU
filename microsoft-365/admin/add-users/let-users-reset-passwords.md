@@ -17,18 +17,19 @@ ms.custom:
 - MSStore_Link
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как можно сбросить пароли с помощью средства самостоятельного сброса пароля.
-ms.openlocfilehash: 01099f6f678bbaa3b163ac59e0417614352e0e97
-ms.sourcegitcommit: 614666afb104fc97acb4a2ee5577ef63c0de153a
+ms.openlocfilehash: 5c30d1da20998fb7e9681431173070ba57e1b090
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173534"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387037"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
@@ -46,26 +47,26 @@ ms.locfileid: "44173534"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="let-people-reset-their-own-passwords"></a>Разрешить пользователям сбрасывать собственные пароли 
 
 Эта процедура позволяет включить функцию самостоятельного сброса пароля для всех пользователей в организации.
   
 ::: moniker range="o365-worldwide"
-1. В центре администрирования откройте страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Параметры</a> **настройки** \> ".
+1. В центре администрирования откройте страницу " **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">Параметры</a> настройки".
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Параметры** \> **конфиденциальности безопасности &amp; ** .
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **Параметры** \> ** &amp; конфиденциальности безопасности** .
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на **Settings** \>страницу **Параметры** \> **конфиденциальности безопасности параметров безопасности &amp; ** .
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на **Settings** \> страницу **Параметры** \> ** &amp; конфиденциальности безопасности параметров безопасности** .
 
 ::: moniker-end
 
@@ -78,7 +79,7 @@ ms.locfileid: "44173534"
   
 5. Когда пользователи входят в систему, им будет предложено ввести дополнительные контактные данные, которые помогут им сбросить пароль в будущем.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Установка политики срока действия паролей в организации](../manage/set-password-expiration-policy.md)
   

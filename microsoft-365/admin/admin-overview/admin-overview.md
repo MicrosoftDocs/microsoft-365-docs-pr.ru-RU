@@ -1,5 +1,5 @@
 ---
-title: Обзор центра администрирования
+title: Обзор Центра администрирования
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -13,20 +13,21 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: 'Сведения о центре администрирования Microsoft 365: как войти в систему, как войти в систему, а также посмотреть видео о нем.'
-ms.openlocfilehash: 79c43c0f918c8d4793b02bea08aa092e3a5ef421
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 84c8ef52c4cd3bf687a0849e1e3b1a25f9b31f4d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43623968"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386941"
 ---
-# <a name="admin-center-overview"></a>Обзор центра администрирования 
+# <a name="admin-center-overview"></a>Обзор Центра администрирования 
 
   
 При покупке [приложений microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/?linkid=856886) или [плана Microsoft 365 для бизнеса](https://www.microsoft.com/microsoft-365/business)мы предоставляем вам специальную учетную запись с разрешениями администратора. Она называется учетной записью администратора.
@@ -35,19 +36,19 @@ ms.locfileid: "43623968"
   
 ::: moniker range="o365-worldwide"
 
- **Войдите с помощью учетной записи администратора <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>по адресу.**
+ **Войдите с помощью учетной записи администратора по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .**
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-**Войдите с помощью учетной записи администратора в Office 365 Германии <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a>по адресу.**
+**Войдите с помощью учетной записи администратора в Office 365 Германии по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">https://portal.office.de</a> .**
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-**Войдите с помощью учетной записи администратора в Office 365 под управлением 21Vianet <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a>по адресу.**
+**Войдите с помощью учетной записи администратора в Office 365 под управлением 21Vianet по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">https://portal.partner.microsoftonline.cn</a> .**
 
 ::: moniker-end
 

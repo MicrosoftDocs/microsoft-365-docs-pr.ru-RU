@@ -16,18 +16,19 @@ ms.collection:
 - Adm_O365_Setup
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Узнайте, как настроить и использовать Microsoft 365 на компьютере, телефоне и планшете.
-ms.openlocfilehash: 6db85e57757d627c22767289761b4cb3120b3716
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 5510f93a0e282b73405fa066669cdc1b63ea8a28
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049427"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386893"
 ---
 # <a name="get-started"></a>Начало работы
 
@@ -64,7 +65,7 @@ ms.locfileid: "44049427"
     
 - [Обратитесь в службу поддержки — Справка для администраторов](../contact-support-for-business-products.md) : позвоните нам, откройте онлайн-запрос или предоставьте справку сообщества. 
     
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Настройка Microsoft 365 для бизнеса Справка для администраторов](../setup/setup.md)
 

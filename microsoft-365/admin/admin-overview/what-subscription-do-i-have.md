@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - Adm_TOC
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,13 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Сведения о том, как проверить, какие подписки в организации имеют, перейдя на страницу подписки.
-ms.custom: okr_SMB
-ms.openlocfilehash: b855c533627aadf6117e6830d7484276003ea665
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 438d9932b2e0dcce0e75e0d979908cdab5979f13
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045216"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386749"
 ---
 # <a name="what-subscription-do-i-have"></a>Какая у меня подписка?
 
@@ -40,7 +42,7 @@ ms.locfileid: "44045216"
 > [!NOTE]
 > Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. Ваши подписки отображаются на странице " **продукты** ", вместе с именем подписки, сведениями о подписке и ее состоянии. Чтобы просмотреть сжатое представление, выберите **представление таблицы**.
 
@@ -48,7 +50,7 @@ ms.locfileid: "44045216"
   
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">подписки</a> на **выставление счетов** \>.  
+1. В центре администрирования перейдите на страницу подписки на **выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> .  
 
 2. Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана вы видите, что у меня есть подписка на Microsoft 365 приложений для бизнеса.
 
@@ -67,7 +69,7 @@ ms.locfileid: "44045216"
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">подписки</a> на **выставление счетов** \>.  
+1. В центре администрирования перейдите на страницу подписки на **выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> .  
 
 2. Если у вас только одна подписка, она отображается на странице **Подписки** вместе с информацией о ней, в том числе с названием и статусом. На приведенном ниже снимке экрана вы видите, что у меня есть подписка на Microsoft 365 приложений для бизнеса.
 
@@ -84,6 +86,6 @@ ms.locfileid: "44045216"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
   
 [Подписки и выставление счетов](../../commerce/index.yml)

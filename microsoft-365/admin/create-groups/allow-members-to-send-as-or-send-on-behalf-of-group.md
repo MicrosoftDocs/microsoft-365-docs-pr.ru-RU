@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Сведения о том, как разрешить участникам отправлять электронную почту как группу Microsoft 365 или отправлять электронную почту от имени группы Майкрософт 365.
-ms.openlocfilehash: ce4527321468ee01864177fc1a607fab6a474481
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049391"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44388141"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Разрешение пользователям отправлять сообщения от имени группы или отправлять от него
 
@@ -46,7 +47,7 @@ ms.locfileid: "44049391"
   
 1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.
     
-2. Выберите команду **изменить**![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять.   
+2. Выберите команду **изменить** ![ значок редактирования группы для ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) группы, которую нужно разрешить пользователям отправлять.   
     
 3. Выберите пункт **Делегирование группы**.
     
@@ -64,7 +65,7 @@ ms.locfileid: "44049391"
   
 1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">центре администрирования Exchange</a>перейдите в раздел группы **получателей** \> **Groups**.
     
-2. Выберите команду **изменить** ![значок](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) редактирования группы для группы, которую нужно разрешить пользователям отправлять. 
+2. Выберите команду **изменить** ![ значок редактирования группы для ](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) группы, которую нужно разрешить пользователям отправлять. 
     
 3. Выберите пункт **Делегирование группы**.
     
@@ -76,7 +77,7 @@ ms.locfileid: "44049391"
     
     ![Введите текст для поиска или выберите пользователя из списка.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Дополнительные сведения о группах Microsoft 365](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

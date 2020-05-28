@@ -11,18 +11,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 - GEA150
 description: Узнайте, как получить отчет об активности Microsoft Forms с помощью панели мониторинга отчетов Microsoft 365 в центре администрирования Microsoft 365.
-ms.openlocfilehash: 63eb8613879849201876b237c659a4529ce2ca0f
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: f835533fb626c8d6e7bd408b90abaa558304e20b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781509"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387757"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>Отчеты Microsoft 365 в центре администрирования — действия с формами
 
@@ -38,7 +39,7 @@ ms.locfileid: "43781509"
 1. В центре администрирования перейдите в раздел **отчеты о** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">использование</a> страницы.
 
     
-2. В раскрывающемся списке **выберите отчет** выберите **действие** **формы** \> .
+2. В раскрывающемся списке **выберите отчет** выберите **Forms** \> **действие**формы.
 
 ## <a name="interpret-the-forms-activity-report"></a>Интерпретация отчета о действиях с формами
 

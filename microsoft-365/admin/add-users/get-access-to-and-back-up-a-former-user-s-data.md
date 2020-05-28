@@ -16,25 +16,26 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: Сведения о том, как сохранить файлы сотрудника и сообщения электронной почты, когда пользователь покидает организацию.
-ms.openlocfilehash: f7132b927c05b8339f20b268b48847291e9c710e
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 2bf32aa9e7a3dcc76ae2114240bff07d697ce29d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140637"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387205"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>Получение доступа к данным бывшего пользователя и создание их резервной копии
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -129,7 +130,7 @@ ms.locfileid: "44140637"
 
 ::: moniker-end
 
-2. В левой области выберите **центр** \> администрирования **SharePoint**. (Возможно, потребуется щелкнуть элемент **Показать все**, чтобы увидеть список центров администрирования.)
+2. В левой области выберите **центр администрирования** \> **SharePoint**. (Возможно, потребуется щелкнуть элемент **Показать все**, чтобы увидеть список центров администрирования.)
 
 3. Если откроется классическая версия Центра администрирования SharePoint, нажмите кнопку **Открыть** в верхней части страницы, чтобы открыть новый Центр администрирования SharePoint.
 
@@ -156,7 +157,7 @@ ms.locfileid: "44140637"
     
     ![Эта лента выглядит так же, как в Outlook 2016.](../../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
   
-3. Выберите **открыть &amp; экспорт** \> **импорта и экспорта**.
+3. Выберите **открыть &amp; Экспорт** \> **импорта и экспорта**.
     
     ![Команда "Импорт и экспорт" в представлении Backstage](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
   
@@ -204,7 +205,7 @@ ms.locfileid: "44140637"
 > Вы также можете [преобразовать почтовый ящик бывшего пользователя в общий почтовый ящик](https://docs.microsoft.com/office365/admin/email/convert-user-mailbox-to-shared-mailbox) или [переадресовать сообщения от бывшего сотрудника другому сотруднику](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox).
 
   
-1. В Outlook **откройте &amp; ** **файл** \> экспорт \> **импорта и экспорта**.
+1. В Outlook откройте **файл** \> ** &amp; Экспорт** \> **импорта и экспорта**.
     
     Будет запущен мастер импорта и экспорта.
     
