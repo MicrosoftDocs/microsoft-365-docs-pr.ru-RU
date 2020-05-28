@@ -10,6 +10,7 @@ ms.topic: article
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -19,12 +20,12 @@ search.appverid:
 ROBOTS: NOINDEX
 description: Узнайте больше о записи CNAME "MSOID" в Office 365, которая направляет вас на лучший сервер для процессов проверки подлинности, чтобы вы могли быстрее отреагировать на них.
 monikerRange: o365-21vianet
-ms.openlocfilehash: a7c59829419ac8e7db400b079681ccf5bff199d6
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 91643e4d9cf136d0f64aac89a877ee98e373727f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053852"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399030"
 ---
 # <a name="whats-the-purpose-of-the-office-365-cname-record-for-msoid"></a>Зачем нужна запись CNAME в Office 365 для MSOID?
 

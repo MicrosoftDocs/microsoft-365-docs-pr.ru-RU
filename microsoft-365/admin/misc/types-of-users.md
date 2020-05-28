@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -20,13 +23,12 @@ search.appverid:
 ms.assetid: 0dc55430-98d6-4cbe-ba69-1a4ad29a967d
 ROBOTS: NOINDEX
 description: 'Сведения о типах пользователей в центре администрирования. '
-ms.custom: okr_smb
-ms.openlocfilehash: 152be955ffdb5526c974d3b0f4d19693cb29e948
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 4e28715674360dbbed7ef398207e39e45b1fec81
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155357"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399222"
 ---
 # <a name="quick-help-types-of-users"></a>Экспресс-справка: типы пользователей
 
@@ -47,7 +49,7 @@ ms.locfileid: "44155357"
 |Администраторы управления пользователями  <br/> |Пользователи, сбрасывающие пароли, следящие за работоспособностью служб, а также управляющие учетными записями пользователей, группами пользователей и запросами на обслуживание. Они не могут удалять глобальных администраторов, создавать другие роли администраторов и сбрасывать пароли администраторов служб, выставления счетов и глобальных администраторов.  <br/> |
 |Добавление настраиваемого фильтра  <br/> |С помощью этого параметра можно создать настраиваемый фильтр, чтобы просматривать только определенных типов пользователей, например пользователей, включенных в план приложений Microsoft 365 для бизнеса. [Быстрая справка: Фильтрация пользователей](https://docs.microsoft.com/microsoft-365/admin/add-users/create-edit-or-delete-a-custom-user-view).  <br/> |
    
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Добавление пользователей в Microsoft 365](../add-users/add-users.md)
     

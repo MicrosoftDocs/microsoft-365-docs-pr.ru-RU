@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_SMB
 search.appverid:
 - BCS160
 - MET150
@@ -20,13 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Сведения о самообслуживаниях Microsoft 365 и самостоятельных программах самообслуживания, таких как Microsoft Power Apps, Microsoft Flow и Dynamics 365, для финансовых данных.
-ms.custom: okr_SMB
-ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: d2d4d23eeb3ddeda0dc5b66acfe072a66f4ce267
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045277"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399294"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Использование функции самостоятельной регистрации в организации
 
@@ -65,4 +67,4 @@ ms.locfileid: "44045277"
 |**Minecraft Education Edition** <br/> |Платформа Minecraft помогает преподавателям мотивировать учащихся и увлечь их учебой. Присоединитесь к сообществу преподавателей, чтобы узнать, как они раскрывают потенциал учащихся с помощью Minecraft.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |Выкладывайте видео и делитесь ими с другими сотрудниками, чтобы улучшить взаимодействие, совместную работу и обучение.  <br/> |[Sign up &amp; Day 0 experience](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |Автоматизация управления питанием это продукт, который поможет вам настроить автоматические рабочие процессы между вашими избранными приложениями и службами, чтобы синхронизировать файлы, получать уведомления, собирать данные и многое другое.  <br/> |[Регистрация и вход в систему для автоматизации управления питанием](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**Виртуальные агенты управления питанием** <br/> |Power Virtual Agents позволяет Teams легко создавать мощные боты с помощью интерактивного графического интерфейса без необходимости работы с данными и разработчиками. Виртуальные агенты управления питанием решает многие основные проблемы, связанные с строительством ленты на современном рынке. Она устраняет зазор между экспертами по теме и группами разработки, Боты, а также с большой задержкой между командами, распознающей ошибку и обновлением Bot для ее устранения.  <br/> |[Сведения о лицензировании и доступе](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Подписка на виртуальные агенты управления питанием](https://aka.ms/TryPVA) <br/> |
+|**Виртуальные агенты Power** <br/> |Power Virtual Agents позволяет Teams легко создавать мощные боты с помощью интерактивного графического интерфейса без необходимости работы с данными и разработчиками. Виртуальные агенты управления питанием решает многие основные проблемы, связанные с строительством ленты на современном рынке. Она устраняет зазор между экспертами по теме и группами разработки, Боты, а также с большой задержкой между командами, распознающей ошибку и обновлением Bot для ее устранения.  <br/> |[Сведения о лицензировании и доступе](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Подписка на виртуальные агенты управления питанием](https://aka.ms/TryPVA) <br/> |

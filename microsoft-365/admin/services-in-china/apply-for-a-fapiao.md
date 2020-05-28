@@ -14,25 +14,26 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - GEA150
 ms.assetid: c80a315a-af87-4996-94b9-fd2194f58a93
 description: Сведения о том, как отправить запрос Фапьяо в систему управления 21Vianet Фапьяо после совершения платежа в Office 365 под управлением 21Vianet в Китае.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 55629654599dd20b813708a148e3ce49f6b6cf88
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c920f7497c50e7f961028624f9e3ca954a6108f3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140817"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399102"
 ---
 # <a name="apply-for-a-fapiao-for-office-365-operated-by-21vianet"></a>Применяется к Фапьяо для Office 365 под управлением 21Vianet
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -46,7 +47,7 @@ ms.locfileid: "44140817"
   
 1. После выполнения платежа на веб-сайте Office 365 под управлением 21Vianet вы получите по электронной почте подтверждение заказа, которое содержит номер заказа и ссылку на систему управления Фапьяо. Вы можете использовать ссылку в сообщении электронной почты, чтобы создать учетную запись в <a href="https://go.microsoft.com/fwlink/p/?linkid=837466" target="_blank">системе управления сведениями 21Vianet фапьяо</a>.
     
-    или
+    ИЛИ
     
 2. Вы можете использовать Фапьяо в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>.
     

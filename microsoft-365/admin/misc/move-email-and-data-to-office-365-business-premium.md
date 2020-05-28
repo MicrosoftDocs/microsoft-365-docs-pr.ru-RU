@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Сведения о перемещении данных на новый бизнес-идентификатор.
-ms.openlocfilehash: 64db403b27d661fe812acd209ca6ed8e95961125
-ms.sourcegitcommit: d688a296dc2b094b70da55334c9a3ad91236cf6f
+ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44155367"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399330"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>Перемещение электронной почты и данных в Microsoft 365 бизнес Standard
 
@@ -39,7 +40,7 @@ ms.locfileid: "44155367"
  **Копирование данных OneDrive**
 1. Создайте временную папку на жестком диске, чтобы временно сохранить файлы, которые требуется перенести в Microsoft 365 для бизнеса.
     
-2. Перейдите на [https://onedrive.live.com/](https://onedrive.live.com/) страницу и войдите, используя учетную запись Майкрософт, которая используется для доступа к подписке на семейство Microsoft 365. 
+2. Перейдите на страницу [https://onedrive.live.com/](https://onedrive.live.com/) и войдите, используя учетную запись Майкрософт, которая используется для доступа к подписке на семейство microsoft 365. 
     
 3. Скопируйте файлы, которые вы хотите использовать в Microsoft 365 для бизнеса, в локальную папку, созданную на этапе 1.
     

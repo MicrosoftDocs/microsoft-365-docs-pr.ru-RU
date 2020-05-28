@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
 description: Узнайте, как удалить или восстановить учетную запись пользователя Microsoft 365.
-ms.openlocfilehash: 7c6ab070db2821d914a26277b7f5c19043abe39b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3b7e71aa11c153372c9b38c54e45397c5f840c2e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627888"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399390"
 ---
 # <a name="quick-help-deleted-user"></a>Быстрая справка: удаленный пользователь
 
@@ -50,7 +51,7 @@ ms.locfileid: "43627888"
 
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.  
 
-2. Выберите пользователя, а затем над списком пользователей нажмите кнопку **больше** > , чтобы **удалить пользователя**.
+2. Выберите пользователя, а затем над списком пользователей нажмите кнопку **больше** , чтобы > **удалить пользователя**.
   
 3. В области подтверждения удаления нажмите кнопку **удалить пользователя**. <br/>[Читать всю статью.](../add-users/delete-a-user.md)
 
@@ -60,7 +61,7 @@ ms.locfileid: "43627888"
 
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>. 
 
-2. Выберите пользователя, а затем над списком пользователей нажмите кнопку **больше** > , чтобы **удалить пользователя**.
+2. Выберите пользователя, а затем над списком пользователей нажмите кнопку **больше** , чтобы > **удалить пользователя**.
   
 3. В области подтверждения удаления нажмите кнопку **удалить пользователя**. <br/>[Читать всю статью.](../add-users/delete-a-user.md)
 

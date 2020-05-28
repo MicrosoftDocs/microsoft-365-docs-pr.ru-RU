@@ -19,18 +19,19 @@ ms.custom:
 - SaRA
 - MSStore_Link
 - okr_smb
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: Добавьте свой домен в Office 365 в центре администрирования Microsoft 365, добавив запись DNS на узел DNS. Мастер установки проводит вас через процесс.
-ms.openlocfilehash: b40f537ec10b7d2406a9bb2fe281c39342f2d119
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: b5ad21174c0a2ebb3466072ef43fb1ba284d3b59
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327222"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398994"
 ---
 # <a name="add-a-domain-to-microsoft-365"></a>Добавление домена в Microsoft 365
 

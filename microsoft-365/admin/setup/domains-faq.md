@@ -13,6 +13,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,13 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Дополнительные сведения о доменах можно найти в статье ответы на свои вопросы в разделе "вопросы и ответы".
-ms.custom: okr_smb
-ms.openlocfilehash: 1af20ed0052a7bb4f98072a7142bf7e112b8305e
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: c82d5d01d64ad01f68d0c1ba73860511aa1718aa
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327116"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398910"
 ---
 # <a name="domains-faq"></a>Вопросы и ответы о доменах
 
@@ -483,7 +485,7 @@ Office 365 создает домен для вас, например *contoso.on
         
     5. Все сообщения, отправленные в usera@yourcompany.com и userb@yourcompany.com, будут доступны в Office 365.
     
-    6. Примечания:
+    6. Примечания.
         
         - Для получения точных инструкций по настройке переадресации обратитесь к поставщику услуг электронной почты.
             

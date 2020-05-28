@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: Отправлять электронную почту группе людей без необходимости вводить имя каждого получателя с помощью создания распространения (списка).
-ms.openlocfilehash: a845055acbc5428e0e261997f946f75dc4701d57
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cf06d408363a71e43f1a850bf108d667a141af3a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627646"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44398970"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Создание групп рассылки в центре администрирования Microsoft 365
   
@@ -58,7 +59,7 @@ ms.locfileid: "43627646"
     
     Не удается найти приложение, которое вы ищете? В средстве запуска приложений выберите **все приложения** , чтобы просмотреть алфавитный список доступных вам приложений. Отсюда можно искать конкретное приложение. 
     
-2. \> **Groups** Выберите **группы группы в** левой области навигации, а затем нажмите кнопку **Добавить группу**. 
+2. Выберите **группы группы** \> **Groups** в левой области навигации, а затем нажмите кнопку **Добавить группу**. 
       
 3. В поле **Выбор типа группы** выберите **распределение**, а затем нажмите кнопку **Далее**.
   

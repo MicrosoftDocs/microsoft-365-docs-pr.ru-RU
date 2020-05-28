@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
 description: Сведения о настройке разделов реестра для включения современной проверки подлинности для устройств, на которых установлен Microsoft Office 2013.
-ms.openlocfilehash: 8dec8174d5f39d8fecd6b2a7340d69dbcd421357
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8bf6f50068f1a1435897c49656823302df40235e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627732"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399174"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Включение современной проверки подлинности для Office 2013 на устройствах с Windows
 
@@ -39,8 +40,8 @@ ms.locfileid: "43627732"
   
 |**Раздел реестра**|**Тип**|**Значение** |
 |:-------|:------:|--------:|
-|Hkcu\software\microsoft\office\15.0\common\identity\enableadal нулевое  |REG_DWORD  |1,1  |
-|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1,1 |
+|Hkcu\software\microsoft\office\15.0\common\identity\enableadal нулевое  |REG_DWORD  |1   |
+|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1  |
    
 После настройки разделов реестра можно настроить приложения Office 2013 для использования [многофакторной проверки подлинности (MFA)](set-up-multi-factor-authentication.md) с Microsoft 365. 
   

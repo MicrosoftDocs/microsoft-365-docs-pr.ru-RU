@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: d3adf0cf-d581-4452-a5b3-6e0d16a34daa
 ROBOTS: NOINDEX
 description: Получение списка поставщиков облачных решений Майкрософт в России.
-ms.openlocfilehash: 1991f426e28c8850729ab593eaa05984b2c9eab9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4c9a466f946e502cace0588e0d90706965a70140
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627780"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399246"
 ---
 # <a name="microsoft-cloud-solution-provider-partners-in-russia"></a>Партнеры, поставляющие облачные решения Майкрософт в России
 []Вот список поставщиков облачных решений Майкрософт в России:

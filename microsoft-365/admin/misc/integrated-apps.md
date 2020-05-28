@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Узнайте о интегрированных приложениях и о том, как включить их, чтобы предоставить сторонним приложениям доступ к сведениям о пользователях Microsoft 365.
-ms.openlocfilehash: 2e292afc4ab33eef1ace91808f93588b9cec4702
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.openlocfilehash: 070150662daeefb2a4d02c7e0940dfd242bd4b5f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022112"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399342"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>Включение и выключение интегрированных приложений
 
@@ -35,7 +36,7 @@ ms.locfileid: "44022112"
 
 Вот как включать и выключать интегрированные приложения:
 
-1. В центре администрирования Microsoft 365 **перейдите на** \> страницу **Параметры** \> , откройте вкладку **службы** , а затем выберите пункт **интегрированные приложения**.
+1. В центре администрирования Microsoft 365 **перейдите на** \> страницу **Параметры** , \> откройте вкладку **службы** , а затем выберите пункт **интегрированные приложения**.
 
 2. На странице " **интегрированные приложения** " выберите параметр Включить или отключить интегрированные приложения.
 
