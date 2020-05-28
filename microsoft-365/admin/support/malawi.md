@@ -9,15 +9,16 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 ms.collection: Adm_Support
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 description: Узнайте, как связаться со службой поддержки для вашей страны или региона.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 48675dbdcbb58a8fa627d62fd1cb56be0f7a08d8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3b171a7d6ce5659312d071ae463d7d3e8ace839e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42357810"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44397230"
 ---
 # <a name="contact-support-for-malawi"></a>Обращение в службу поддержки для Малави
 
