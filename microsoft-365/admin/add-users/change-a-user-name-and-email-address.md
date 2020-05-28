@@ -16,18 +16,19 @@ ms.collection:
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Узнайте, как глобальный администратор может изменить адрес электронной почты и отображаемое имя. '
-ms.openlocfilehash: 726d1f01203bbaefc529039d3816fb09c892cd90
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4325892a51c9d7a562b628a2bb89e6e1ff966e29
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43618744"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387253"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Изменение имени пользователя и адреса электронной почты
 
