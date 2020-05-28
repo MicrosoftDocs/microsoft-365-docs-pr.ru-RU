@@ -18,6 +18,7 @@ ms.custom:
 - MSStore_Link
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -26,124 +27,124 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Узнайте, как сбросить пароль для пользователя в Microsoft 365 для бизнес-подписки. '
-ms.openlocfilehash: 0cd9bfe2b4f60ed0150e95f35d1f24994724ca60
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 44052ee0c795143d67d832f9528e3eea7232f1cb
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208202"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44386977"
 ---
-# <a name="reset-passwords"></a><span data-ttu-id="6453c-103">Сброс паролей</span><span class="sxs-lookup"><span data-stu-id="6453c-103">Reset passwords</span></span>
+# <a name="reset-passwords"></a><span data-ttu-id="a59b7-103">Сброс паролей</span><span class="sxs-lookup"><span data-stu-id="a59b7-103">Reset passwords</span></span>
 
-<span data-ttu-id="6453c-104">Посмотрите короткое видео о сбросе паролей пользователей.</span><span class="sxs-lookup"><span data-stu-id="6453c-104">Watch a short video about resetting user passwords.</span></span><br><br>
+<span data-ttu-id="a59b7-104">Посмотрите короткое видео о сбросе паролей пользователей.</span><span class="sxs-lookup"><span data-stu-id="a59b7-104">Watch a short video about resetting user passwords.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP] 
 
-<span data-ttu-id="6453c-105">Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="6453c-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="a59b7-105">Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="a59b7-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
   
-## <a name="let-users-reset-their-own-passwords"></a><span data-ttu-id="6453c-106">Предоставление пользователям прав на самостоятельный сброс пароля</span><span class="sxs-lookup"><span data-stu-id="6453c-106">Let users reset their own passwords</span></span>
+## <a name="let-users-reset-their-own-passwords"></a><span data-ttu-id="a59b7-106">Предоставление пользователям прав на самостоятельный сброс пароля</span><span class="sxs-lookup"><span data-stu-id="a59b7-106">Let users reset their own passwords</span></span>
 
-<span data-ttu-id="6453c-p101">Мы настоятельно рекомендуем вам настроить самостоятельный сброс пароля. В таком случае вам не придется сбрасывать пароли вручную для всех пользователей в организации. Сведения о том, как это сделать, см. в статье [Предоставление пользователям прав на самостоятельный сброс пароля в Office 365](let-users-reset-passwords.md).</span><span class="sxs-lookup"><span data-stu-id="6453c-p101">We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).</span></span>
+<span data-ttu-id="a59b7-p101">Мы настоятельно рекомендуем вам настроить самостоятельный сброс пароля. В таком случае вам не придется сбрасывать пароли вручную для всех пользователей в организации. Сведения о том, как это сделать, см. в статье [Предоставление пользователям прав на самостоятельный сброс пароля в Office 365](let-users-reset-passwords.md).</span><span class="sxs-lookup"><span data-stu-id="a59b7-p101">We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).</span></span>
   
-## <a name="reset-a-business-password-for-someone-else"></a><span data-ttu-id="6453c-110">Сброс бизнес-пароля для другого пользователя</span><span class="sxs-lookup"><span data-stu-id="6453c-110">Reset a business password for someone else</span></span>
+## <a name="reset-a-business-password-for-someone-else"></a><span data-ttu-id="a59b7-110">Сброс бизнес-пароля для другого пользователя</span><span class="sxs-lookup"><span data-stu-id="a59b7-110">Reset a business password for someone else</span></span>
 
-<span data-ttu-id="6453c-111">Эти действия предназначены только для пользователей, использующих план Microsoft 365 для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="6453c-111">These steps are only for people using a Microsoft 365 for business plan.</span></span> <span data-ttu-id="6453c-112">Для этого необходимо выполнить вход с помощью учетной записи администратора Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="6453c-112">To do them, you need to sign in with your Microsoft 365 admin account.</span></span> [<span data-ttu-id="6453c-113">Что такое учетная запись администратора?</span><span class="sxs-lookup"><span data-stu-id="6453c-113">What's an admin account?</span></span>](../admin-overview/admin-overview.md)
+<span data-ttu-id="a59b7-111">Эти действия предназначены только для пользователей, использующих план Microsoft 365 для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="a59b7-111">These steps are only for people using a Microsoft 365 for business plan.</span></span> <span data-ttu-id="a59b7-112">Для этого необходимо выполнить вход с помощью учетной записи администратора Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="a59b7-112">To do them, you need to sign in with your Microsoft 365 admin account.</span></span> [<span data-ttu-id="a59b7-113">Что такое учетная запись администратора?</span><span class="sxs-lookup"><span data-stu-id="a59b7-113">What's an admin account?</span></span>](../admin-overview/admin-overview.md)
 
  
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="6453c-114">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="6453c-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="a59b7-114">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="a59b7-114">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="6453c-115">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="6453c-115">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="a59b7-115">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="a59b7-115">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="6453c-116">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="6453c-116">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="a59b7-116">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="a59b7-116">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.</span></span>
 
 ::: moniker-end
 
-2. <span data-ttu-id="6453c-117">На странице **Активные пользователи** выберите пользователя, а затем нажмите кнопку **сбросить пароль**.</span><span class="sxs-lookup"><span data-stu-id="6453c-117">On the **Active users** page, select the user and then select **Reset password**.</span></span>
+2. <span data-ttu-id="a59b7-117">На странице **Активные пользователи** выберите пользователя, а затем нажмите кнопку **сбросить пароль**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-117">On the **Active users** page, select the user and then select **Reset password**.</span></span>
     
-3. <span data-ttu-id="6453c-118">Следуйте инструкциям на странице **сброса пароля** , чтобы автоматически создать новый пароль для пользователя или создать новый пароль, а затем выберите **сбросить**.</span><span class="sxs-lookup"><span data-stu-id="6453c-118">Follow the instructions on the **Reset password** page to auto-generate a new password for the user or create one for them, and then select **Reset**.</span></span>  
+3. <span data-ttu-id="a59b7-118">Следуйте инструкциям на странице **сброса пароля** , чтобы автоматически создать новый пароль для пользователя или создать новый пароль, а затем выберите **сбросить**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-118">Follow the instructions on the **Reset password** page to auto-generate a new password for the user or create one for them, and then select **Reset**.</span></span>  
     
-4. <span data-ttu-id="6453c-119">Введите адрес электронной почты, по которому пользователь может получить новый пароль и подписаться на него, чтобы убедиться, что он получил новый пароль.</span><span class="sxs-lookup"><span data-stu-id="6453c-119">Enter an email address the user can get to so they receive the new password, and follow up with them to make sure they got it.</span></span>
+4. <span data-ttu-id="a59b7-119">Введите адрес электронной почты, по которому пользователь может получить новый пароль и подписаться на него, чтобы убедиться, что он получил новый пароль.</span><span class="sxs-lookup"><span data-stu-id="a59b7-119">Enter an email address the user can get to so they receive the new password, and follow up with them to make sure they got it.</span></span>
  
   
-## <a name="reset-my-admin-password"></a><span data-ttu-id="6453c-120">Сброс пароля администратора</span><span class="sxs-lookup"><span data-stu-id="6453c-120">Reset my admin password</span></span>
+## <a name="reset-my-admin-password"></a><span data-ttu-id="a59b7-120">Сброс пароля администратора</span><span class="sxs-lookup"><span data-stu-id="a59b7-120">Reset my admin password</span></span>
 
-<span data-ttu-id="6453c-121">Выполните указанные ниже действия, если вы забыли пароль, но можете войти в Microsoft 365, так как, например, пароль сохранен в браузере:</span><span class="sxs-lookup"><span data-stu-id="6453c-121">Use these steps if you forgot your password but you're able to sign in to Microsoft 365 because, for example, your password is saved in your browser:</span></span> 
+<span data-ttu-id="a59b7-121">Выполните указанные ниже действия, если вы забыли пароль, но можете войти в Microsoft 365, так как, например, пароль сохранен в браузере:</span><span class="sxs-lookup"><span data-stu-id="a59b7-121">Use these steps if you forgot your password but you're able to sign in to Microsoft 365 because, for example, your password is saved in your browser:</span></span> 
     
-1. <span data-ttu-id="6453c-122">Выберите свое имя (значок) в правом верхнем углу > личную информацию **моей учетной записи**  >  **Personal Info**.</span><span class="sxs-lookup"><span data-stu-id="6453c-122">Select your name (icon) in upper right corner > **My Account** > **Personal Info**.</span></span> 
+1. <span data-ttu-id="a59b7-122">Выберите свое имя (значок) в правом верхнем углу > личную информацию **моей учетной записи**  >  **Personal Info**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-122">Select your name (icon) in upper right corner > **My Account** > **Personal Info**.</span></span> 
           
-2. <span data-ttu-id="6453c-123">В разделе **сведения о контакте**дважды убедитесь, что **запасная электронная почта** точна и что вы указали номер мобильного телефона.</span><span class="sxs-lookup"><span data-stu-id="6453c-123">Under **Contact details**, double-check that your **Alternate email** is accurate and that you've provided a mobile phone number.</span></span> <span data-ttu-id="6453c-124">Если это не так, измените их сейчас.</span><span class="sxs-lookup"><span data-stu-id="6453c-124">If not, change them now.</span></span> 
+2. <span data-ttu-id="a59b7-123">В разделе **сведения о контакте**дважды убедитесь, что **запасная электронная почта** точна и что вы указали номер мобильного телефона.</span><span class="sxs-lookup"><span data-stu-id="a59b7-123">Under **Contact details**, double-check that your **Alternate email** is accurate and that you've provided a mobile phone number.</span></span> <span data-ttu-id="a59b7-124">Если это не так, измените их сейчас.</span><span class="sxs-lookup"><span data-stu-id="a59b7-124">If not, change them now.</span></span> 
         
-3. <span data-ttu-id="6453c-125">Выйти: выберите свое имя в правом верхнем углу (на изображенном рисунке, показанном как **Diane**) выход \> **Sign out**.</span><span class="sxs-lookup"><span data-stu-id="6453c-125">Sign out: select your name in the upper right corner (in the above image, shown as **Diane**) \> **Sign out**.</span></span> 
+3. <span data-ttu-id="a59b7-125">Выйти: выберите свое имя в правом верхнем углу (на изображенном рисунке, показанном как **Diane**) выход \> **Sign out**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-125">Sign out: select your name in the upper right corner (in the above image, shown as **Diane**) \> **Sign out**.</span></span> 
         
-4. <span data-ttu-id="6453c-126">Теперь выполните вход еще раз: введите имя пользователя \> **Next** \> и нажмите кнопку **забыли пароль**.</span><span class="sxs-lookup"><span data-stu-id="6453c-126">Now sign in again: type your user name \> **Next** \> and then select **Forgot password**.</span></span> 
+4. <span data-ttu-id="a59b7-126">Теперь выполните вход еще раз: введите имя пользователя \> **Next** \> и нажмите кнопку **забыли пароль**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-126">Now sign in again: type your user name \> **Next** \> and then select **Forgot password**.</span></span> 
     
-5. <span data-ttu-id="6453c-127">Следуйте указаниям мастера, чтобы сбросить пароль.</span><span class="sxs-lookup"><span data-stu-id="6453c-127">Follow the steps in the wizard to reset your password.</span></span> <span data-ttu-id="6453c-128">Он использует альтернативную контактную информацию, чтобы убедиться, что вы являетесь правильным пользователем для сброса пароля.</span><span class="sxs-lookup"><span data-stu-id="6453c-128">It uses your alternate contact info to verify you're the right person to reset your password.</span></span> 
+5. <span data-ttu-id="a59b7-127">Следуйте указаниям мастера, чтобы сбросить пароль.</span><span class="sxs-lookup"><span data-stu-id="a59b7-127">Follow the steps in the wizard to reset your password.</span></span> <span data-ttu-id="a59b7-128">Он использует альтернативную контактную информацию, чтобы убедиться, что вы являетесь правильным пользователем для сброса пароля.</span><span class="sxs-lookup"><span data-stu-id="a59b7-128">It uses your alternate contact info to verify you're the right person to reset your password.</span></span> 
     
-<span data-ttu-id="6453c-129">Если вы забыли пароль и не можете выполнить вход:</span><span class="sxs-lookup"><span data-stu-id="6453c-129">If you forgot your password and can't sign in:</span></span> 
+<span data-ttu-id="a59b7-129">Если вы забыли пароль и не можете выполнить вход:</span><span class="sxs-lookup"><span data-stu-id="a59b7-129">If you forgot your password and can't sign in:</span></span> 
     
-- <span data-ttu-id="6453c-130">Обратитесь к другому глобальному администратору, чтобы сбросить пароль.</span><span class="sxs-lookup"><span data-stu-id="6453c-130">Ask another global admin in your business to reset your password for you.</span></span>
+- <span data-ttu-id="a59b7-130">Обратитесь к другому глобальному администратору, чтобы сбросить пароль.</span><span class="sxs-lookup"><span data-stu-id="a59b7-130">Ask another global admin in your business to reset your password for you.</span></span>
 
-- <span data-ttu-id="6453c-131">Убедитесь, что вы указали альтернативные контактные данные, в том числе номер мобильного телефона.</span><span class="sxs-lookup"><span data-stu-id="6453c-131">Make sure you've provided alternate contact information, including a mobile phone number.</span></span> 
+- <span data-ttu-id="a59b7-131">Убедитесь, что вы указали альтернативные контактные данные, в том числе номер мобильного телефона.</span><span class="sxs-lookup"><span data-stu-id="a59b7-131">Make sure you've provided alternate contact information, including a mobile phone number.</span></span> 
     
-- <span data-ttu-id="6453c-132">Или [позвоните в службу поддержки Майкрософт](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).</span><span class="sxs-lookup"><span data-stu-id="6453c-132">Or, [call Microsoft Support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).</span></span> 
+- <span data-ttu-id="a59b7-132">Или [позвоните в службу поддержки Майкрософт](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).</span><span class="sxs-lookup"><span data-stu-id="a59b7-132">Or, [call Microsoft Support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products).</span></span> 
     
-## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a><span data-ttu-id="6453c-133">Одновременное восстановление всех бизнес-паролей для всех пользователей в Организации</span><span class="sxs-lookup"><span data-stu-id="6453c-133">Reset all business passwords for everyone in your organization at the same time</span></span>
-<span data-ttu-id="6453c-134"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6453c-134"><a name="bkmk_forgot"> </a></span></span>
+## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a><span data-ttu-id="a59b7-133">Одновременное восстановление всех бизнес-паролей для всех пользователей в Организации</span><span class="sxs-lookup"><span data-stu-id="a59b7-133">Reset all business passwords for everyone in your organization at the same time</span></span>
+<span data-ttu-id="a59b7-134"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="a59b7-134"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6453c-135">Эти действия приработают для бизнеса с десятками пользователей.</span><span class="sxs-lookup"><span data-stu-id="6453c-135">These steps work for a business with tens of users.</span></span> <span data-ttu-id="6453c-136">Если у вас сотни или тысячи пользователей, ознакомьтесь со статьей следующий раздел, посвященный сбросу паролей в массовое время (максимум 40 пользователей одновременно).</span><span class="sxs-lookup"><span data-stu-id="6453c-136">If you have hundreds or thousands of users, see the next section on resetting passwords in bulk (maximum 40 users at a time).</span></span>
+<span data-ttu-id="a59b7-135">Эти действия приработают для бизнеса с десятками пользователей.</span><span class="sxs-lookup"><span data-stu-id="a59b7-135">These steps work for a business with tens of users.</span></span> <span data-ttu-id="a59b7-136">Если у вас сотни или тысячи пользователей, ознакомьтесь со статьей следующий раздел, посвященный сбросу паролей в массовое время (максимум 40 пользователей одновременно).</span><span class="sxs-lookup"><span data-stu-id="a59b7-136">If you have hundreds or thousands of users, see the next section on resetting passwords in bulk (maximum 40 users at a time).</span></span>
   
-1. <span data-ttu-id="6453c-137">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="6453c-137">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
+1. <span data-ttu-id="a59b7-137">В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.</span><span class="sxs-lookup"><span data-stu-id="a59b7-137">In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.</span></span>
     
-2. <span data-ttu-id="6453c-138">Установите флажок рядом с полем **Отображать имя** , чтобы выбрать всех пользователей в Организации.</span><span class="sxs-lookup"><span data-stu-id="6453c-138">Select the option next to **Display name** to select everyone in your business.</span></span> <span data-ttu-id="6453c-139">Затем снимите флажок напротив себя.</span><span class="sxs-lookup"><span data-stu-id="6453c-139">Then unselect yourself.</span></span> <span data-ttu-id="6453c-140">Собственный пароль невозможно сбросить одновременно со всеми остальными пользователями.</span><span class="sxs-lookup"><span data-stu-id="6453c-140">You can't reset your own password at the same time you reset everyone else's password.</span></span>
+2. <span data-ttu-id="a59b7-138">Установите флажок рядом с полем **Отображать имя** , чтобы выбрать всех пользователей в Организации.</span><span class="sxs-lookup"><span data-stu-id="a59b7-138">Select the option next to **Display name** to select everyone in your business.</span></span> <span data-ttu-id="a59b7-139">Затем снимите флажок напротив себя.</span><span class="sxs-lookup"><span data-stu-id="a59b7-139">Then unselect yourself.</span></span> <span data-ttu-id="a59b7-140">Собственный пароль невозможно сбросить одновременно со всеми остальными пользователями.</span><span class="sxs-lookup"><span data-stu-id="a59b7-140">You can't reset your own password at the same time you reset everyone else's password.</span></span>
     
-3. <span data-ttu-id="6453c-141">Выберите **сбросить пароль**.</span><span class="sxs-lookup"><span data-stu-id="6453c-141">Select **Reset password**.</span></span> 
+3. <span data-ttu-id="a59b7-141">Выберите **сбросить пароль**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-141">Select **Reset password**.</span></span> 
 
-4. <span data-ttu-id="6453c-142">Следуйте инструкциям на странице **сброса пароля** и выберите **сбросить**.</span><span class="sxs-lookup"><span data-stu-id="6453c-142">Follow the instructions on the **Reset password** page, and select **Reset**.</span></span>  <span data-ttu-id="6453c-143">Если вы выбрали Автоматическое создание паролей, будут отображены новые временные пароли.</span><span class="sxs-lookup"><span data-stu-id="6453c-143">If you opted for auto-generating the passwords, the new temporary passwords will be displayed.</span></span>   
+4. <span data-ttu-id="a59b7-142">Следуйте инструкциям на странице **сброса пароля** и выберите **сбросить**.</span><span class="sxs-lookup"><span data-stu-id="a59b7-142">Follow the instructions on the **Reset password** page, and select **Reset**.</span></span>  <span data-ttu-id="a59b7-143">Если вы выбрали Автоматическое создание паролей, будут отображены новые временные пароли.</span><span class="sxs-lookup"><span data-stu-id="a59b7-143">If you opted for auto-generating the passwords, the new temporary passwords will be displayed.</span></span>   
     
-5. <span data-ttu-id="6453c-144">Введите адрес электронной почты, на который вы можете получить временные пароли.</span><span class="sxs-lookup"><span data-stu-id="6453c-144">Enter an email address where you can receive the temporary passwords.</span></span> <span data-ttu-id="6453c-145">Вам потребуется уведомить пользователей о временных паролях.</span><span class="sxs-lookup"><span data-stu-id="6453c-145">You'll need to notify your users what their temporary passwords are.</span></span>
+5. <span data-ttu-id="a59b7-144">Введите адрес электронной почты, на который вы можете получить временные пароли.</span><span class="sxs-lookup"><span data-stu-id="a59b7-144">Enter an email address where you can receive the temporary passwords.</span></span> <span data-ttu-id="a59b7-145">Вам потребуется уведомить пользователей о временных паролях.</span><span class="sxs-lookup"><span data-stu-id="a59b7-145">You'll need to notify your users what their temporary passwords are.</span></span>
     
 
   
-## <a name="reset-business-passwords-in-bulk"></a><span data-ttu-id="6453c-146">Массовый сброс бизнес-паролей</span><span class="sxs-lookup"><span data-stu-id="6453c-146">Reset business passwords in bulk</span></span>
-<span data-ttu-id="6453c-147"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6453c-147"><a name="bkmk_forgot"> </a></span></span>
+## <a name="reset-business-passwords-in-bulk"></a><span data-ttu-id="a59b7-146">Массовый сброс бизнес-паролей</span><span class="sxs-lookup"><span data-stu-id="a59b7-146">Reset business passwords in bulk</span></span>
+<span data-ttu-id="a59b7-147"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="a59b7-147"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6453c-p109">Воспользуйтесь PowerShell. Ознакомьтесь со статьей Эяла Дорона (Eyal Doron) [Управление паролями с помощью PowerShell](https://go.microsoft.com/fwlink/?linkid=853696) (на английском языке).</span><span class="sxs-lookup"><span data-stu-id="6453c-p109">Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).</span></span>
+<span data-ttu-id="a59b7-p109">Воспользуйтесь PowerShell. Ознакомьтесь со статьей Эяла Дорона (Eyal Doron) [Управление паролями с помощью PowerShell](https://go.microsoft.com/fwlink/?linkid=853696) (на английском языке).</span><span class="sxs-lookup"><span data-stu-id="a59b7-p109">Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).</span></span>
   
-<span data-ttu-id="6453c-150">Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).</span><span class="sxs-lookup"><span data-stu-id="6453c-150">Here's a related article: [Set the passwords for multiple user accounts](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).</span></span>
+<span data-ttu-id="a59b7-150">Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).</span><span class="sxs-lookup"><span data-stu-id="a59b7-150">Here's a related article: [Set the passwords for multiple user accounts](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).</span></span>
   
-<span data-ttu-id="6453c-151">Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).</span><span class="sxs-lookup"><span data-stu-id="6453c-151">For overview information, see [PowerShell for Microsoft 365 administrators](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).</span></span>
+<span data-ttu-id="a59b7-151">Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).</span><span class="sxs-lookup"><span data-stu-id="a59b7-151">For overview information, see [PowerShell for Microsoft 365 administrators](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).</span></span>
   
-## <a name="force-a-password-change-for-all-users-in-your-business"></a><span data-ttu-id="6453c-152">Принудительная смена паролей всех пользователей в организации</span><span class="sxs-lookup"><span data-stu-id="6453c-152">Force a password change for all users in your business</span></span>
-<span data-ttu-id="6453c-153"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6453c-153"><a name="bkmk_forgot"> </a></span></span>
+## <a name="force-a-password-change-for-all-users-in-your-business"></a><span data-ttu-id="a59b7-152">Принудительная смена паролей всех пользователей в организации</span><span class="sxs-lookup"><span data-stu-id="a59b7-152">Force a password change for all users in your business</span></span>
+<span data-ttu-id="a59b7-153"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="a59b7-153"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6453c-154">Ознакомьтесь со следующей записью блога, опубликованной экспертом со статусом Microsoft MVP Василием Мичевым (Vasil Michev): [Принудительная смена паролей всех пользователей в Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span><span class="sxs-lookup"><span data-stu-id="6453c-154">Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password change for all users in Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span></span>
+<span data-ttu-id="a59b7-154">Ознакомьтесь со следующей записью блога, опубликованной экспертом со статусом Microsoft MVP Василием Мичевым (Vasil Michev): [Принудительная смена паролей всех пользователей в Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span><span class="sxs-lookup"><span data-stu-id="a59b7-154">Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password change for all users in Office 365](https://go.microsoft.com/fwlink/?linkid=853693).</span></span>
   
-## <a name="im-lost"></a><span data-ttu-id="6453c-155">Я не знаю, что делать</span><span class="sxs-lookup"><span data-stu-id="6453c-155">I'm lost!</span></span>
-<span data-ttu-id="6453c-156"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6453c-156"><a name="bkmk_forgot"> </a></span></span>
+## <a name="im-lost"></a><span data-ttu-id="a59b7-155">Я не знаю, что делать</span><span class="sxs-lookup"><span data-stu-id="a59b7-155">I'm lost!</span></span>
+<span data-ttu-id="a59b7-156"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="a59b7-156"><a name="bkmk_forgot"> </a></span></span>
 
-<span data-ttu-id="6453c-157">Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).</span><span class="sxs-lookup"><span data-stu-id="6453c-157">Try this article: [I forgot the username or password for the account I use with Office.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)</span></span>
+<span data-ttu-id="a59b7-157">Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).</span><span class="sxs-lookup"><span data-stu-id="a59b7-157">Try this article: [I forgot the username or password for the account I use with Office.](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp)</span></span>
   
-## <a name="related-articles"></a><span data-ttu-id="6453c-158">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="6453c-158">Related articles</span></span>
-<span data-ttu-id="6453c-159"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="6453c-159"><a name="bkmk_forgot"> </a></span></span>
+## <a name="related-articles"></a><span data-ttu-id="a59b7-158">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="a59b7-158">Related articles</span></span>
+<span data-ttu-id="a59b7-159"><a name="bkmk_forgot"> </a></span><span class="sxs-lookup"><span data-stu-id="a59b7-159"><a name="bkmk_forgot"> </a></span></span>
   
-[<span data-ttu-id="6453c-160">Разрешить пользователям сбрасывать собственные пароли</span><span class="sxs-lookup"><span data-stu-id="6453c-160">Let users reset their own passwords</span></span>](let-users-reset-passwords.md)
+[<span data-ttu-id="a59b7-160">Разрешить пользователям сбрасывать собственные пароли</span><span class="sxs-lookup"><span data-stu-id="a59b7-160">Let users reset their own passwords</span></span>](let-users-reset-passwords.md)
 
-[<span data-ttu-id="6453c-161">Установка бессрочных пользовательских паролей</span><span class="sxs-lookup"><span data-stu-id="6453c-161">Set an individual user's password to never expire</span></span>](set-password-to-never-expire.md)
+[<span data-ttu-id="a59b7-161">Установка бессрочных пользовательских паролей</span><span class="sxs-lookup"><span data-stu-id="a59b7-161">Set an individual user's password to never expire</span></span>](set-password-to-never-expire.md)
 
-[<span data-ttu-id="6453c-162">Установка политики срока действия паролей в организации</span><span class="sxs-lookup"><span data-stu-id="6453c-162">Set the password expiration policy for your organization</span></span>](../manage/set-password-expiration-policy.md)
+[<span data-ttu-id="a59b7-162">Установка политики срока действия паролей в организации</span><span class="sxs-lookup"><span data-stu-id="a59b7-162">Set the password expiration policy for your organization</span></span>](../manage/set-password-expiration-policy.md)
 
-[<span data-ttu-id="6453c-163">Восстановление пользователя</span><span class="sxs-lookup"><span data-stu-id="6453c-163">Restore a user</span></span>](restore-user.md)
+[<span data-ttu-id="a59b7-163">Восстановление пользователя</span><span class="sxs-lookup"><span data-stu-id="a59b7-163">Restore a user</span></span>](restore-user.md)
 
-[<span data-ttu-id="6453c-164">Удаление бывшего сотрудника из среды Office 365</span><span class="sxs-lookup"><span data-stu-id="6453c-164">Remove a former employee</span></span>](remove-former-employee.md)
+[<span data-ttu-id="a59b7-164">Удаление бывшего сотрудника из среды Office 365</span><span class="sxs-lookup"><span data-stu-id="a59b7-164">Remove a former employee</span></span>](remove-former-employee.md)
 
-[<span data-ttu-id="6453c-165">Обучающие видеоролики по Microsoft 365 для бизнеса</span><span class="sxs-lookup"><span data-stu-id="6453c-165">Microsoft 365 for business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="a59b7-165">Обучающие видеоролики по Microsoft 365 для бизнеса</span><span class="sxs-lookup"><span data-stu-id="a59b7-165">Microsoft 365 for business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
