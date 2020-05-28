@@ -14,18 +14,19 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Сведения о том, как отправлять электронную почту в виде списка рассылки в Microsoft 365.
-ms.openlocfilehash: e9f8e52350dfd27e58ee160ed10f5c45e33391d7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a917e59bbac40846fa289a97465f6d6e065b87ee
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628068"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399594"
 ---
 # <a name="send-email-as-a-distribution-list"></a>Отправка электронной почты в виде списка рассылки
 
@@ -45,7 +46,7 @@ ms.locfileid: "43628068"
     
 4. В нижней части сообщения нажмите **Дополнительно** \> **Показать из**.<br/> ![Нажмите кнопку Дополнительно, а затем выберите пункт Показать из](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
   
-5. Щелкните правой кнопкой мыши адрес от адреса, например `Ina@weewalter.me` , и выберите команду **Удалить**.<br/> ![Удаление псевдонима](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
+5. Щелкните правой кнопкой мыши адрес от адреса, например, `Ina@weewalter.me` и выберите команду **Удалить**.<br/> ![Удаление псевдонима](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
   
 6. Затем введите адрес списка рассылки, например support@contoso.com, и отправьте сообщение. В следующий раз, когда вы ответите из списка рассылки, его адрес будет отображаться в списке " **от** ".<br/>![Псевдоним общего почтового ящика отображается](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)
   

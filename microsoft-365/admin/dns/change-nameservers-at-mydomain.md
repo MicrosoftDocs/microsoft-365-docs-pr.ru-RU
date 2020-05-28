@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c5f6140a-4a12-401b-9bbd-7dfb0d6b0ba3
 description: Узнайте, как настроить Майкрософт для управления записями DNS в пользовательском домене на MyDomain.
-ms.openlocfilehash: 8f4a72aa0ece24ed09c4d036239a2a13c196be6c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d8fc61c3adbe8b5b865bd82b8c4e0944198921e7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629795"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400633"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-mydomain"></a>Изменение серверов доменных имен для настройки Майкрософт с параметром MyDomain
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями Microsoft DNS на сервере mydomain](create-dns-records-at-mydomain.md).)
   

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Lync и других служб в доменах Google для Майкрософт.
-ms.openlocfilehash: 6bfe32ba8f77adec97f4ab5ee40e92126be91f10
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: e6b1dd1eb90957a4e7fe22bd4b66ac87b2a51d09
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049015"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400453"
 ---
 # <a name="create-dns-records-at-google-domains-for-microsoft"></a>Создание записей DNS в доменах Google для Майкрософт
 
@@ -119,11 +120,11 @@ ms.locfileid: "44049015"
     
     |**Name**|**Тип**|**TTL (Срок жизни)**|**Data**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1H  <br/> |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **0**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
+    |@  <br/> |MX  <br/> |1H  <br/> |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **0**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получение \<*domain-key*\> учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
    
     ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/b660ca9e-984d-449f-ae59-a65fe4e2c6bd.png)
   
-5. Нажмите кнопку **Добавить**.
+5. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/32f8f23c-0b80-48da-b08e-4e04052971af.png)
   
@@ -145,7 +146,7 @@ ms.locfileid: "44049015"
   
 ## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Добавление пяти записей CNAME, необходимых для Майкрософт
 
-1. Чтобы приступить к работе, перейдите на страницу [домены Googlehttps://domains.google.com/registrar) ] (и войдите в систему.
+1. Чтобы приступить к работе, перейдите на страницу [домены Google] ( https://domains.google.com/registrar) и войдите в систему.
     
 2. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить. 
     
@@ -163,11 +164,11 @@ ms.locfileid: "44049015"
     |sip  <br/> |CNAME  <br/> |1H  <br/> |sipdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
     |lyncdiscover  <br/> |CNAME  <br/> |1H  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
     |enterpriseregistration  <br/> |CNAME  <br/> |1H  <br/> |enterpriseregistration.windows.net.  <br/> **This value MUST end with a period (.)** <br/> |
-    |enterpriseenrollment  <br/> |CNAME  <br/> |1H  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **This value MUST end with a period (.)** <br/> |
+    |enterpriseenrollment  <br/> |CNAME  <br/> |1H  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
    
     ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/cff9832a-6d57-421f-a183-55320974ed87.png)
   
-4. Нажмите кнопку **Добавить**.
+4. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/4a78080a-e0b2-4582-9696-3fe4fea41e91.png)
   
@@ -177,7 +178,7 @@ ms.locfileid: "44049015"
     
     Повторяйте эту процедуру, пока не будут созданы все необходимые записи CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 
 > [!IMPORTANT]
 > Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
@@ -246,7 +247,7 @@ ms.locfileid: "44049015"
    
     ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/429d06a9-c0af-4961-b7d2-7a8dea6db37e.png)
   
-6. Нажмите кнопку **Добавить**.
+6. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/89df6efd-e641-4441-baa2-d9a890424569.png)
   

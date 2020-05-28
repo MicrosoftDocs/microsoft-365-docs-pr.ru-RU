@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: b6c15128-b456-49b4-8b5e-5b823c700f26
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Names.co.uk для Майкрософт.
-ms.openlocfilehash: 2df1a18f00fd7cd48b0d24860ddcf651c2fdac4e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 1b519393e70483aa311354b96ebb11ad0feaa933
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048943"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400380"
 ---
 # <a name="create-dns-records-at-namescouk-for-microsoft"></a>Создание записей DNS на сайте Names.co.uk для Майкрософт
 
@@ -120,7 +121,7 @@ ms.locfileid: "44048943"
     
     |**Host Name (Имя узла)**|**Priority (Приоритет)**|**Результат**|
     |:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> получить * \<ключ\> домена* из учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Оставьте это поле пустым.)  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> > [!NOTE]> получить свою *\<domain-key\>* учетную запись Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![Намесук — BP — configure – 2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
   
@@ -175,7 +176,7 @@ ms.locfileid: "44048943"
     
     ![Намесук — BP — configure – 3-2](../../media/c009795e-7eef-4804-bf23-556f498306cc.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -234,8 +235,8 @@ ms.locfileid: "44048943"
     
     |**Name (Имя)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Result (Результат)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Намесук — BP — configure – 5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
   

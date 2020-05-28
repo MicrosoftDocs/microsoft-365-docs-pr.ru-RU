@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,35 +24,34 @@ search.appverid:
 - GEA150
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Сведения о том, как найти значения и сведения, необходимые для создания записей DNS для Microsoft 365. '
-ms.custom: okr_smb
-ms.openlocfilehash: 9cfefa2620b6a46b7488a29c22a58d70f53c6ad2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fddd1180f2dd80ffeec2aeec49ed821055dd5f15
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628450"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399912"
 ---
 # <a name="gather-the-information-you-need-to-create-dns-records"></a>Сбор сведений, необходимых для создания записей DNS
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>Шаг 1: Найдите значение записи TXT и проверьте
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".
+1. В центре администрирования Microsoft 365 перейдите на страницу " **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> установки".
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** > ".
+1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> установки".
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** > ".
+1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> установки".
 
 ::: moniker-end
     
@@ -69,19 +71,19 @@ ms.locfileid: "43628450"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования Microsoft 365 перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> **установки** \> ".
+1. В центре администрирования Microsoft 365 перейдите на страницу " **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">домены</a> установки".
 
 ::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** > ".
+1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> установки".
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** > ".
+1. В центре администрирования перейдите на страницу " **Setup** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> установки".
 
 ::: moniker-end
     

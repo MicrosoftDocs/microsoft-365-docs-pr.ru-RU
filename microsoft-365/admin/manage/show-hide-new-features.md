@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: 'Определите, какие компоненты и сведения о содержимом: будут отображаться или скрыты от конечных пользователей в разделе "новые возможности управления Office для настольных приложений Office".'
-ms.openlocfilehash: 7399da493f8e6878a92dc13d92482d7ddece0ba3
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0723823e76be2baf15273d23ad343d91bcec8d60
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011703"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399546"
 ---
 # <a name="show-or-hide-new-features-using-whats-new-management"></a>Отображение и скрытие новых функций с помощью управления новыми возможностями
 
@@ -64,6 +65,6 @@ ms.locfileid: "44011703"
 
 Для получения дополнительных сведений о расписаниях обновления каналов ознакомьтесь с разработкой [журнала обновлений для приложений Microsoft 365 (в порядке даты)](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Новые возможности управления в Office теперь доступны в целом](https://techcommunity.microsoft.com/t5/microsoft-365-blog/office-what-s-new-management-is-now-generally-available/ba-p/1179954)

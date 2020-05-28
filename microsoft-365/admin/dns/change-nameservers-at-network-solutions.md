@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
 description: 'Узнайте, как настроить личный домен Майкрософт с сетевыми решениями, если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS. '
-ms.openlocfilehash: 2b3b575943ebd95ffcbd34dd4578133fa7dd4f79
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4a7c1eaab132b0ab41a62ba62d87956ccfafc014
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629759"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400609"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Изменение серверов доменных имен для настройки Microsoft с помощью сетевых решений
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями DNS Microsoft в сетевых решениях](create-dns-records-at-network-solutions.md).)
   

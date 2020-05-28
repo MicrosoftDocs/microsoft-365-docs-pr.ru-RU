@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 1f2d08c9-2a88-4d2f-ae1f-e39f9e358b17
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу 123-reg.co.uk для Майкрософт.
-ms.openlocfilehash: 0c9a6a144a38398e7664f7f2bb317a96b627b640
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 3c188c7e9f2f9390aa45196d798e04441d33bcb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049135"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400585"
 ---
 # <a name="create-dns-records-at-123-regcouk-for-microsoft"></a>Создание записей DNS на сайте 123-reg.co.uk для Майкрософт
 
@@ -101,11 +102,11 @@ ms.locfileid: "44049135"
     
     |**Hostname (Имя узла)**|**Type (Тип)**|**Priority (Приоритет)**|**Destination MX (Запись MX назначения)**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание.**  Получите свой \<domain-key\> (ключ домена) из учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*. mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получение \<domain-key\> учетной записи Майкрософт. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Копирование и вставка значений из таблицы](../../media/65366165-85a6-4a39-b9a7-6c5f47fbe790.png)
   
-6. Нажмите кнопку **Добавить**.
+6. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/a8ae6c0c-4365-4137-af8a-6e003996e3d0.png)
   
@@ -140,7 +141,7 @@ ms.locfileid: "44049135"
    
     ![Скопируйте и вставьте значения из таблицы](../../media/24bf388c-5f7f-4fc0-b4ec-4b17226b6246.png)
   
-6. Нажмите кнопку **Добавить**.
+6. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/825a9854-559d-4a22-90ac-5e7a0a54269a.png)
   
@@ -150,7 +151,7 @@ ms.locfileid: "44049135"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -174,7 +175,7 @@ ms.locfileid: "44049135"
    
     ![123Reg — BP — configure – 4-1](../../media/4697701c-eba0-4b03-8d75-4f7fc3bef94a.png)
   
-6. Нажмите кнопку **Добавить**.
+6. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/7906dd91-fd23-44c3-bb37-ef185655c6eb.png)
   
@@ -203,7 +204,7 @@ ms.locfileid: "44049135"
    
     ![Скопируйте и вставьте значения из таблицы](../../media/c1786b86-52ef-4dca-8b99-b479554fa531.png)
   
-6. Нажмите кнопку **Добавить**.
+6. Нажмите кнопку **Add** (Добавить).
     
     ![Нажмите кнопку Добавить](../../media/5fd9d3a2-a8bb-466b-829f-b3a6e54b5104.png)
   

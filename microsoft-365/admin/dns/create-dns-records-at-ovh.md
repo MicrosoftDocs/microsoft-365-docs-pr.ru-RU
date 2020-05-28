@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу OVH для Майкрософт.
-ms.openlocfilehash: 18ddcba9cdb4f45f624d32369db07b24f9a357cf
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: b462979a3ab1bcf769c78d15d9fd3ad03f307ef0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048919"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400344"
 ---
 # <a name="create-dns-records-at-ovh-for-microsoft"></a>Создание записей DNS на сайте OVH для Майкрософт
 
@@ -142,7 +143,7 @@ ms.locfileid: "44048919"
   
     |**Примечание.** По умолчанию в OVH используется относительная нотация, при которой в конец целевой записи добавляется доменное имя. Чтобы использовать абсолютную нотацию, добавьте точку в целевую запись, как показано в таблице ниже.|**Sub-domain (Поддомен)**|**Sub-domain (Поддомен)**|**TTL**|**Priority (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |(оставьте пустым)  <br/> |(Оставьте пустым)  <br/> |10   <br/> For more information about priority, see [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |\<ключ_домена\>.mail.protection.outlook.com.  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
+    |MX  <br/> |(оставьте пустым)  <br/> |(Оставьте пустым)  <br/> |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |\<domain-key\>. mail.protection.outlook.com.  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  |
    
     ![Запись MX OVH для почты](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
@@ -207,7 +208,7 @@ ms.locfileid: "44048919"
     
     Создайте пять других записей CNAME, как описано выше.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
@@ -276,8 +277,8 @@ ms.locfileid: "44048919"
     
     |**Record Type (Тип записи)**|**Sub-domain (Поддомен)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**TTL** (Срок жизни)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)  <br/> |_sip. _tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |3600 (секунд)  <br/> |sipdir.online.lync.com.  <br/> |
-    |SRV (Service)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |3600 (секунд)  <br/> |sipfed.online.lync.com.  <br/> |
+    |SRV (Service)  <br/> |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (секунд)  <br/> |sipdir.online.lync.com.  <br/> |
+    |SRV (Service)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (секунд)  <br/> |sipfed.online.lync.com.  <br/> |
        
     ![Запись SRV OVH](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   

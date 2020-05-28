@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,12 +26,12 @@ search.appverid:
 - SPB160
 ms.assetid: eb3e840f-ed60-4461-81f5-12381c132b89
 description: Узнайте о различных типах групп и способах их использования с различными функциями совместной работы Microsoft 365.
-ms.openlocfilehash: b5b8030b1f16562007ac2786dca776db6482eecb
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a646a5b2f65b952543fcac0ae2c96d2ec03ec543
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048799"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400080"
 ---
 # <a name="email-collaboration"></a>Совместная работа в электронной почте
 
@@ -66,7 +67,7 @@ Microsoft 365 способствует совместной работе с по
 |**Поддерживаемые клиенты** <br/> | Outlook 2016  <br/>  Outlook 2013 (пересылка после подписки)  <br/>  Outlook Web App  <br/>  Outlook 2010 (пересылка после подписки)  <br/>  Outlook 2007 (пересылка после подписки)  <br/> | Outlook 2016  <br/>  Outlook 2013  <br/>  Outlook Web App  <br/>  Outlook 2010  <br/>  Outlook 2007  <br/> | Outlook 2016  <br/>  Outlook 2013  <br/>  Outlook Web App  <br/>  Outlook 2010  <br/>  Outlook 2007  <br/> | Outlook 2016  <br/>  Outlook 2013  <br/>  Outlook Web App  <br/>  Outlook 2010  <br/>  Outlook 2007  <br/> |
 
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Управление группами рассылки](https://technet.microsoft.com/library/bb124513%28v=exchg.150%29.aspx)
     

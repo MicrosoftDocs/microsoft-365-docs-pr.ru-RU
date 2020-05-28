@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 68a08e94-26c2-4df2-9216-026b8ec907ca
 description: Узнайте, как настроить Майкрософт для управления записями DNS в пользовательском домене в Google Domains.
-ms.openlocfilehash: ac2f98a6ff783917d88a2bd8d28e8242e0ba41a8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 65649632b5e28e97909d91ca3e04355375afe3ac
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629903"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400657"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-google-domains"></a>Изменение серверов доменных имен для настройки Microsoft с помощью доменов Google
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями DNS в Google Domains](create-dns-records-at-google-domains.md).)
   
@@ -57,7 +58,7 @@ ms.locfileid: "43629903"
     
 |||||
 |:-----|:-----|:-----|:-----|
-|**Имя** <br/> |**Тип** <br/> |**TTL (Срок жизни)** <br/> |**Data (Данные)** <br/> |
+|**Name** <br/> |**Тип** <br/> |**TTL (Срок жизни)** <br/> |**Data (Данные)** <br/> |
 |@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)       <br/>  |
    
 4. Нажмите кнопку **Add** (Добавить).

@@ -13,18 +13,19 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 группы в Outlook, а также как использовать PowerShell для одновременного обновления нескольких списков рассылки.
-ms.openlocfilehash: 993b0baf46b702322df64693f682e25b0240a0ab
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: cac0232b721c07ce8e07c7b101e0313eb9cd91df
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065673"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399498"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки до Microsoft 365 группы в Outlook
 
@@ -89,7 +90,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
-Например, если вы хотите обновить пять списков рассылки с `dl1@contoso.com` SMTP-адресом `dl2@contoso.com`и `dl3@contoso.com`, `dl4@contoso.com` , `dl5@contoso.com`и, выполните следующую команду:
+Например, если вы хотите обновить пять списков рассылки с SMTP-адресом `dl1@contoso.com` и `dl2@contoso.com` , `dl3@contoso.com` , `dl4@contoso.com` и, `dl5@contoso.com` выполните следующую команду:
 
 `Upgrade-DistributionGroup -DlIdentities dl1@contoso.com, dl2@contoso.com, dl3@contoso.com, dl4@contoso.com, dl5@contoso.com`
 
@@ -98,7 +99,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 Существует два способа обновления всех подходящих списков рассылки.
 
 > [!NOTE]
-> Командлет Upgrade – DistributionGroup не получает данные из конвейера по этой причине, поэтому для успешного выполнения необходимо использовать оператор ForEach — Object{}.
+> Командлет Upgrade – DistributionGroup не получает данные из конвейера по этой причине, поэтому для успешного выполнения необходимо использовать оператор ForEach — Object {} .
 
 1. Получите подходящие списки рассылки в клиенте и обновите их с помощью команды Upgrade:
 

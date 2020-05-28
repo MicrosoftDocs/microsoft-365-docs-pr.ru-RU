@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу DNSMadeEasy для Майкрософт.
-ms.openlocfilehash: d69a497c08ff905c28b923ebdb0e6fba6c5f82fa
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: db28ac0cb95bd86bc13a1a1ce47f273989aa4436
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049063"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400525"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-microsoft"></a>Создание записей DNS на сайте DNSMadeEasy для Майкрософт
 
@@ -55,7 +56,7 @@ ms.locfileid: "44049063"
     
 2. На странице **консоли управления** в области **Недавно обновленные домены** выберите домен, который необходимо обновить. 
     
-3. На странице **Managed DNS** в области **записи TXT** выберите элемент ( **+** **Добавить новый**).
+3. На странице **Managed DNS** в области **записи TXT** выберите **+** элемент ( **Добавить новый**).
     
     (You may have to scroll down.)
     
@@ -63,7 +64,7 @@ ms.locfileid: "44049063"
     
     ||||
     |:-----|:-----|:-----|
-    |**Имя** <br/> |**Value** (Значение) <br/> |**TTL** (Срок жизни) <br/> |
+    |**Имя** <br/> |**Value** <br/> |**TTL** (Срок жизни) <br/> |
     |(Оставьте это поле пустым.)  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
    
 5. Нажмите кнопку **послать**.
@@ -109,7 +110,7 @@ ms.locfileid: "44049063"
     
     |**Name**|**Server**|**MX Level (Уровень MX)**|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |1800  <br/> |
+    |(Оставьте это поле пустым.)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **This value MUST end with a period (.)** <br/> **Примечание:** Получение \<*domain-key*\> учетной записи Майкрософт. [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |1800  <br/> |
    
     ![DNSMadeEasy — BP — configure – 2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
@@ -166,7 +167,7 @@ ms.locfileid: "44049063"
     
     Повторяйте эту процедуру, пока не будут созданы все пять записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -184,7 +185,7 @@ ms.locfileid: "44049063"
   
 4. In the **Add TXT Records** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    |**Name**|**Value** (Значение)|**TTL** (Срок жизни)|
+    |**Name**|**Value**|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|
     |(Оставьте это поле пустым.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |1800  <br/> |
    
@@ -213,8 +214,8 @@ ms.locfileid: "44049063"
     
     |**Name (Имя)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Host (Узел)**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
-    |_sipfederationtls. _tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
+    |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
+    |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1800  <br/> |
    
     ![DNSMadeEasy — BP — configure – 5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   

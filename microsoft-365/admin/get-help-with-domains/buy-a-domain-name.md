@@ -14,6 +14,9 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
@@ -21,20 +24,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как приобрести доменное имя в Microsoft 365.
-ms.custom: okr_smb
-ms.openlocfilehash: e60947b2f0f2591d09add00bd5aeb2ad3a5aa161
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 9358df6728e1e29228241887be65fb68a4720281
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140421"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400008"
 ---
 # <a name="buy-a-domain-name"></a>Приобретение имени домена
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -42,7 +44,7 @@ ms.locfileid: "44140421"
 
  Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
-### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Вход и переход к разделу \> " \> домены параметров" Покупка домена
+### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>Вход и переход к разделу " \> домены параметров" \> Покупка домена
 
 1. В Центре администрирования перейдите на страницу **Settings** (Параметры) \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> (Домены).
     
@@ -80,7 +82,7 @@ ms.locfileid: "44140421"
 ### <a name="buy-a-domain-from-another-domain-registrar"></a>Приобретение домена у другого регистратора доменных имен
 Если вы хотите приобрести домен у регистратора доменных имен, отличного от [GoDaddy](https://www.godaddy.com), мы рекомендуем использовать один из следующих способов, поддерживающих автоматическую установку (подключение к домену). 
   
-- [1&amp;1 ионос](https://www.1and1.com/)
+- [1 &amp; 1 ионос](https://www.1and1.com/)
 - [WordPress](https://www.wordpress.com) 
 
    

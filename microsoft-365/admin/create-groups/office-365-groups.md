@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Сведения о группах Microsoft 365.
-ms.openlocfilehash: aca6dfee26e05f162b8cc3efb69005d773a9a9dc
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 5260d811f23dd07e096e02214eafcf7f0a757ffd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049171"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400717"
 ---
 # <a name="overview-of-microsoft-365-groups-for-administrators"></a>Обзор групп Microsoft 365 для администраторов
 
@@ -98,7 +99,7 @@ ms.locfileid: "44049171"
 > Для всех функций групп, если у вас есть подписка на Azure AD Premium, пользователи могут присоединиться к группе независимо от того, назначена ли им лицензия AAD P1. Лицензирование не применяется.
 > Периодически будут создаваться отчеты об использовании с указанием пользователей, которым не назначена лицензия, и которым назначена одна из них для соответствия требованиям лицензирования. Например, предположим, что у пользователя нет лицензии и они добавлены в группу, в которой применяется политика именования. Отчет будет помечен для того, что ему нужна лицензия.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Сведения о группах Microsoft 365](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

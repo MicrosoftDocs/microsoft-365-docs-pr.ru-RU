@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Узнайте о различиях между Microsoft 365 Business Standard и Microsoft 365 Business Premium, а также о том, как можно выполнить обновление до Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 20a4162f74a9cb0e943195a589fd2d964f773f48
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: bdab8165623170926b17efa4cae9408b78a2f5f5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045987"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401389"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Обновление до Microsoft 365 бизнес премиум из Microsoft 365 бизнес Standard
 
@@ -55,9 +56,9 @@ ms.locfileid: "44045987"
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Обновление до Microsoft 365 бизнес премиум
 
-1. Войдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Войдите в центр администрирования по адресу <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
-2. Перейдите в область навигации и выберите пункт **выставление счетов** \> для **продуктов**. Найдите текущую подписку и выберите ее, чтобы просмотреть сведения.
+2. Перейдите в область навигации и выберите пункт **выставление счетов** для \> **продуктов**. Найдите текущую подписку и выберите ее, чтобы просмотреть сведения.
 
 3. На следующей странице выберите **Обновить**.
 
@@ -85,7 +86,7 @@ ms.locfileid: "44045987"
 
 Теперь, когда назначены лицензии Microsoft 365 Business Premium, выполните действия, необходимые для запуска защиты устройств и файлов. В области навигации центра администрирования будут использоваться некоторые новые параметры.
   
-1. В центре администрирования в области навигации перейдите к разделу **политики** **устройств** \> .
+1. В центре администрирования в области навигации перейдите к разделу **Devices** \> **политики**устройств.
 
 2. На странице " **политики устройств** " нажмите кнопку **Добавить**.
 

@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 46ab4b10-6857-44b1-b08d-d1b5f45a69c6
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб при наведении курсора на Майкрософт.
-ms.openlocfilehash: 4779b8f6fadcd4b134d3954d2c6c133da40c19e6
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 74662f37c3f72f02767f2434d9b251e3bd37ff1b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048991"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400429"
 ---
 # <a name="create-dns-records-at-hover-for-microsoft"></a>Создание записей DNS при наведении курсора на Майкрософт
 
@@ -127,7 +128,7 @@ ms.locfileid: "44048991"
     
     |**Hostname (Имя узла)**|**Record Type (Тип записи)**|**Priority (Приоритет)**|**Hostname (Имя узла)**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |MX  <br/> |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Введите (или скопируйте и вставьте) значения DNS](../../media/2c8915fa-04a8-4d2a-a8ae-a79de0c8ef99.png)
   
@@ -188,7 +189,7 @@ ms.locfileid: "44048991"
   
 7. Повторяйте три описанных выше шага, используя значения из пяти других строк таблицы, чтобы добавить остальные записи CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -251,8 +252,8 @@ ms.locfileid: "44048991"
     
     |**Hostname (Имя узла)**|**Record Type (Тип записи)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip. _tls  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls. _tcp  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Введите (или скопируйте и вставьте) значения DNS](../../media/67562cd6-c598-4c37-af53-626f153c0197.png)
   

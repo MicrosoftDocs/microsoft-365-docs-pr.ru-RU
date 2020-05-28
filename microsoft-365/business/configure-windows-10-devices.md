@@ -21,18 +21,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
 description: Сведения о настройке политик устройств для Windows 10, которые применяются ко всем пользователям в Организации, обеспечивая безопасный способ подключения.
-ms.openlocfilehash: 1d25e51b1f61f67ca2ebe6180d6c280c23facaa5
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 811e948b33e8d305c88ff3e502c413356178696a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560647"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401021"
 ---
 # <a name="configure-windows-10-devices"></a>Настройка устройств с Windows 10
 

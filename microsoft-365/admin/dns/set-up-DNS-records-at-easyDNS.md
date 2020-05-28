@@ -14,17 +14,18 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу easyDNS для Майкрософт.
-ms.openlocfilehash: b7b29900108ab94f0fd99dcf3404cfa137ce92ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 24f477d240af936975141c53d382e114a24c0ac5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631361"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400236"
 ---
 # <a name="create-dns-records-at-easydns-for-microsoft"></a>Создание записей DNS на сайте easyDNS для Майкрософт
 
@@ -36,7 +37,7 @@ NOTE: записи SRV в настоящее время недоступны в 
   
 ## <a name="verify-that-you-own-the-domain-with-a-txt-record"></a>Проверка принадлежности домена к записи TXT
 
-1. Перейдите на [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) страницу и войдите с помощью учетных данных. 
+1. Перейдите на страницу [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) и войдите с помощью учетных данных. 
     
 2. В заголовке **все домены** выберите **DNS.**
     
@@ -44,7 +45,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 4. Введите в текстовые поля следующие записи:
     
-    |**Host**|**Text**|
+    |**Host** (Узел)|**Text**|
     |:-----|:-----|
     |@  <br/> |MS = Мскскскскскскскскс (используйте значение, указанное на странице "домены центра администрирования")  <br/> |
    
@@ -62,11 +63,11 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 11. На странице **Настройка** выберите пункт **Запуск программы установки.**
     
-12. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить). 
+12. На странице **Проверка домена** выберите **Проверить**. 
     
 ## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Добавление записи MX для маршрутизации электронной почты в корпорацию Майкрософт
 
-1. Перейдите на [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) страницу и войдите с помощью учетных данных. 
+1. Перейдите на страницу [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) и войдите с помощью учетных данных. 
     
 2. В заголовке **все домены** выберите **DNS.**
     
@@ -76,7 +77,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
     |**ПОЧТА ДЛЯ ЗОНЫ**|**ПОЧТОВЫЙ СЕРВЕР**|**преф**|
     |:-----|:-----|:-----|
-    |@  <br/> |\<Domain-key\>. mail.Protection.Outlook.com (получение значения \<ключа\> домена из страницы "домены центра администрирования")  <br/> |нуль  <br/> |
+    |@  <br/> |\<domain-key\>. mail.protection.outlook.com (получите \<domain-key\> значение на странице "домены центра администрирования")  <br/> |нуль  <br/> |
    
 2. Если вы хотите сохранить другие записи MX для целей резервного копирования, скопируйте их в любое место. Перед перемещением удалите все остальные записи MX здесь.
     
@@ -86,7 +87,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 ## <a name="add-the-required-cname-records"></a>Добавление необходимых записей CNAME
 
-1. Перейдите на [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) страницу и войдите с помощью учетных данных. 
+1. Перейдите на страницу [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) и войдите с помощью учетных данных. 
     
 2. В заголовке **все домены** выберите **DNS.**
     
@@ -107,9 +108,9 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 6. Убедитесь, что запись верна, а затем нажмите кнопку **подтвердить**. 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 
-1. Перейдите на [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) страницу и войдите с помощью учетных данных. 
+1. Перейдите на страницу [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) и войдите с помощью учетных данных. 
     
 2. В заголовке **все домены** выберите **DNS.**
     
@@ -117,7 +118,7 @@ NOTE: записи SRV в настоящее время недоступны в 
     
 4. Введите в текстовые поля следующие записи:
     
-    |**Host**|**Text**|
+    |**Host** (Узел)|**Text**|
     |:-----|:-----|
     |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> |
    
@@ -129,7 +130,7 @@ NOTE: записи SRV в настоящее время недоступны в 
 
 NOTE: записи SRV в настоящее время недоступны в easyDNS "домен и служба". Для добавления записей SRV может потребоваться выполнить обновление до более высокого уровня обслуживания с easyDNS 
   
-1. Перейдите на [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) страницу и войдите с помощью учетных данных. 
+1. Перейдите на страницу [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) и войдите с помощью учетных данных. 
     
 2. В заголовке **все домены** выберите **DNS.**
     
@@ -139,8 +140,8 @@ NOTE: записи SRV в настоящее время недоступны в 
     
     |**SERVICE (СЛУЖБА)**|**ЗАДАННОЕ**|**HOST (УЗЕЛ)**|**ОСНОВНОЙ**|**вгт**|**PORT (ПОРТ)**|**TARGET (должно оканчиваться на ".")**|**TTL (Срок жизни)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
-    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com.  <br/> |1800  <br/> |
+    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com.  <br/> |1800  <br/> |
    
 5. Нажмите кнопку **Далее**. 
     

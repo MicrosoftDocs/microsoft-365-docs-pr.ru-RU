@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу cloudflare для Майкрософт.
-ms.openlocfilehash: 36578d8eed2c5630a9ce5abfb355983a26028888
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 9b717ddedaf6435f6599f4f75cc0fa7c4e618d59
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049075"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400549"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Создание записей DNS на сайте cloudflare для Майкрософт
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если ваш поставщик услуг размещения DNS  Cloudflare, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб.
   
@@ -131,7 +132,7 @@ ms.locfileid: "44049075"
     
     |**Тип**|**Имя**|**Mail Server (Почтовый сервер)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<ключ-домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Microsoft 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/>|30 мин.  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получите свою *\<domain-key\>* учетную запись от вашей учетной записи Microsoft 365.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/>|30 мин.  <br/> |
    
 
   
@@ -175,7 +176,7 @@ ms.locfileid: "44049075"
 7. Добавьте остальные пять записей CNAME.
 
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -218,8 +219,8 @@ ms.locfileid: "44049075"
         
     |**Тип**|**Service (Служба)**|**Protocol (Протокол)**|**Name** (Имя)|**TTL (Срок жизни)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|_sip |TLS |Использование *domain_name*; Например, contoso.com  |30 мин. | 100|1,1 |443 |sipfed.online.lync.com  |
-    |SRV|_sipfederationtls | TCP|Использование *domain_name*; Например, contoso.com   |30 мин. |100 |1,1 |5061 | sipfed.online.lync.com |
+    |SRV|_sip |TLS |Использование *domain_name*; Например, contoso.com  |30 мин. | 100|1  |443 |sipfed.online.lync.com  |
+    |SRV|_sipfederationtls | TCP|Использование *domain_name*; Например, contoso.com   |30 мин. |100 |1  |5061 | sipfed.online.lync.com |
 
   
 5. Нажмите кнопку **Сохранить**.

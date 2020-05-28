@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Freenom для Майкрософт.
-ms.openlocfilehash: 39963b5c0f5f3f82fe193160e8aa8ab03894cedd
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: f139c21915d6922c2f77281990dd09949d9db928
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049039"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400477"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Создание записей DNS на сайте Freenom для Майкрософт
 
@@ -139,7 +140,7 @@ ms.locfileid: "44049039"
     
     |**Name**|**Тип**|**TTL**|**Target (Назначение)**|**Priority (Приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |MX (почтовый обменник)  <br/> |3600 (секунд)  <br/> |\<Domain — key\>. mail.Protection.Outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |
+    |(оставьте пустым)  <br/> |MX (почтовый обменник)  <br/> |3600 (секунд)  <br/> |\<domain-key\>. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.   [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [What is MX priority?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |
    
    ![Freenom MX record](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -192,7 +193,7 @@ ms.locfileid: "44049039"
     
     Создайте пять других записей CNAME, как описано выше.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]

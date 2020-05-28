@@ -18,17 +18,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Сведения о том, как перемещать личные рабочие файлы и файлы конфиденциальной компании в OneDrive для бизнеса можно несколькими простыми действиями.
-ms.openlocfilehash: 4c41928ac51950a5a8c372ef0a170a76ff48ed2e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ec225eb43d79bebaa7035178d4d1751c58149e7a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633146"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401369"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 

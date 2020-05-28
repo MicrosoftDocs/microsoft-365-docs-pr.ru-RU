@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 6386d63e-b78f-4736-90e7-b99a2c116a9f
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в доменах Crazy для Майкрософт.
-ms.openlocfilehash: 05f0f281d97d497fe3a6cf9695e5c458492f95aa
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: af154db43f486f71443497180fe64cff89e11b5f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049087"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400537"
 ---
 # <a name="create-dns-records-at-crazy-domains-for-microsoft"></a>Создание записей DNS в доменах Crazy для Майкрософт
 
@@ -72,7 +73,7 @@ ms.locfileid: "44049087"
     
     ![Кразидомаинс — BP — Verify – 1-1](../../media/f0ffdefb-d7a5-47df-bb5e-bf8a3bcc9b01.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — Verify – 1-2](../../media/b0cd623a-67f7-4bae-a5b5-507f5a106123.png)
   
@@ -139,7 +140,7 @@ ms.locfileid: "44049087"
     
     ![Кразидомаинс — BP — configure – 2-1](../../media/63f7ab77-e686-4e7b-a3a2-1ac28a02d5f3.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 2-2](../../media/a60680a1-2513-498c-b42f-8ffa575ee48e.png)
   
@@ -149,7 +150,7 @@ ms.locfileid: "44049087"
     
     |**Mail For Zone (Почта для зоны)**|**Priority (Приоритет)**|**Assigned To Server (Назначено серверу)**|
     |:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> |1,1  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |(Оставьте это поле пустым.)  <br/> |1   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
        
    ![Кразидомаинс — BP — configure – 2-3](../../media/e27df6a6-19a6-4e58-9716-a74be1c3f8da.png)
   
@@ -198,7 +199,7 @@ ms.locfileid: "44049087"
     
     ![Кразидомаинс — BP — configure – 3-1](../../media/2f02538b-fc79-46d2-a2b7-1022eaf0fb08.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 3-2](../../media/4c5929cf-1c21-4af9-899b-e36091f0f14d.png)
   
@@ -230,7 +231,7 @@ ms.locfileid: "44049087"
     
     ![Кразидомаинс — BP — configure – 3-5](../../media/dbe578f6-359c-428c-b296-ca624cecfc3c.png)
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -260,7 +261,7 @@ ms.locfileid: "44049087"
     
     ![Кразидомаинс — BP — configure – 4-1](../../media/7f2461e2-0468-49bd-9eb0-981e9b2f72d6.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 4-2](../../media/64ef9e1f-676d-46e2-9253-a83d9bcd1c4e.png)
   
@@ -303,7 +304,7 @@ ms.locfileid: "44049087"
     
     ![Кразидомаинс — BP — configure – 5-1](../../media/156acebc-7f6d-4b5e-8493-6bc62ca0ee27.png)
   
-7. Нажмите кнопку **Добавить**.
+7. Нажмите кнопку **Add** (Добавить).
     
     ![Кразидомаинс — BP — configure – 5-2](../../media/6a711df7-4215-49b2-b58f-1cf1a242b383.png)
   
@@ -313,8 +314,8 @@ ms.locfileid: "44049087"
     
     |**Record Type (Тип записи)**|**Sub Domain (Поддомен)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV Record (Запись SRV)  <br/> |_sip. _tls  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV Record (Запись SRV)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV Record (Запись SRV)  <br/> |_sip. _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV Record (Запись SRV)  <br/> |_sipfederationtls. _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![Кразидомаинс — BP — configure – 5-3](../../media/cc0ea6eb-7358-434e-bd1a-2737725c6d41.png)
   

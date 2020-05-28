@@ -15,6 +15,7 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
 description: 'Узнайте, как найти нового партнера Microsoft 365 или получить контактную информацию о партнере, с которым вы работали в прошлое. '
-ms.openlocfilehash: 54933174816047188a8c084c63df6c1e8e166d82
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 749f1a12ffbd1512b15a83e7979aea3b0cb3be48
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628188"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399768"
 ---
 # <a name="find-your-partner-or-reseller"></a>Поиск партнера или торгового посредника
 
@@ -50,7 +51,7 @@ ms.locfileid: "43628188"
   
 ## <a name="get-partner-info-in-the-admin-center"></a>Получение сведений о партнере через Центр администрирования
 
-1. В центре администрирования перейдите на страницу связи с **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">партнерами</a> настройки.
+1. В центре администрирования перейдите на страницу связи с **Settings**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2074649" target="_blank">партнерами</a> настройки.
   
 2. Если у вас есть партнер, здесь будут указаны его имя и то, как он связан с вашей организацией. Чтобы просмотреть контактную информацию о партнере (номер телефона и адрес электронной почты), выберите имя партнера.
     

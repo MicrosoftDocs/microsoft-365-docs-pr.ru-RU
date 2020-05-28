@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Ознакомьтесь с ответами на часто задаваемые вопросы о централизованном развертывании в центре администрирования Microsoft 365.
-ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0d0f2163982042f7b8f868a36f5cc115a17295a2
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011739"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399828"
 ---
 # <a name="centralized-deployment-faq"></a>Вопросы и ответы о централизованном развертывании
 
@@ -35,7 +36,7 @@ ms.locfileid: "44011739"
  
 Централизованное развертывание поддерживается только для веб-почтовых ящиков. Он не поддерживает развертывание для локальных почтовых ящиков Exchange.
  
-Можно использовать  [средство проверки совместимости централизованного развертывания Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker), чтобы определить, подходит ли ваша подписка. 
+Можно использовать [средство проверки совместимости централизованного развертывания Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker),   чтобы определить, подходит ли ваша подписка. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Как вы научитесь назначать пользователя надстройки при централизованном развертывании?  
 
@@ -59,7 +60,7 @@ ms.locfileid: "44011739"
 
 Да. Централизованное развертывание предоставляет администраторам гибкие возможности выбора одного из трех методов развертывания надстроек Outlook во время развертывания надстройки:
 
-**FIXED (по умолчанию)**   надстройка автоматически развертывается для назначенных пользователей и не может удалить ее.  
+**Фиксированный (по умолчанию)**   Надстройка автоматически развертывается для назначенных пользователей и не может удаляться.  
  
 **Доступен** Пользователи могут установить надстройку в Outlook, выбрав пункт Домашняя > получить другие надстройки > управляемые администратором.   
  

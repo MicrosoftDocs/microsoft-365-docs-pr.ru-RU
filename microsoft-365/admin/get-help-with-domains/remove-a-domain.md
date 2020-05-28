@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,19 +22,19 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: ef0209d6ccb7534745172585fe599f627e386cb4
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: c5e629f0d683c6dc3e18b1278027ac3a88cc834b
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140409"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399900"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
   
@@ -105,7 +106,7 @@ ms.locfileid: "44140409"
 
 1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центр администрирования</a>.
 
-2. Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свою учетную запись из списка.
+2. Перейдите к **Users** разделу \> **Активные пользователи**пользователей и выберите свою учетную запись из списка.
 
 3. На вкладке **учетная запись** выберите пункт **Управление именем пользователя**, а затем выберите другой домен.
   
@@ -119,7 +120,7 @@ ms.locfileid: "44140409"
 
 ::: moniker range="o365-germany"
 
-1. Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свое имя в списке.
+1. Перейдите к **Users** разделу \> **Активные пользователи**пользователей и выберите свое имя в списке.
 
 2. В разделе **имя пользователя и электронная почта** нажмите кнопку **изменить**, а затем выберите другой домен.
 
@@ -135,7 +136,7 @@ ms.locfileid: "44140409"
 
 ::: moniker range="o365-21vianet"
 
-1. Перейдите к разделу **Активные пользователи** **пользователей** \> и выберите свое имя в списке.
+1. Перейдите к **Users** разделу \> **Активные пользователи**пользователей и выберите свое имя в списке.
 
 2. В разделе **имя пользователя и электронная почта** нажмите кнопку **изменить**, а затем выберите другой домен.
 
@@ -153,7 +154,7 @@ ms.locfileid: "44140409"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> **группы** \> .
+1. В центре администрирования перейдите на **Groups** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> группы.
   
 2. Выберите имя группы, а затем на вкладке **Общие** в разделе **адрес электронной почты, основной**нажмите кнопку **изменить**.
 
@@ -165,7 +166,7 @@ ms.locfileid: "44140409"
 
 ::: moniker range="o365-germany"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на страницу **группы** **группы** > .
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на **Groups** > страницу **группы** группы.
 
 2. Выберите имя группы, а затем нажмите кнопку **изменить** рядом с **именем**.
 
@@ -177,7 +178,7 @@ ms.locfileid: "44140409"
 
 ::: moniker range="o365-21vianet"
 
-1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на страницу **группы** **группы** > .
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на **Groups** > страницу **группы** группы.
 
 2. Выберите имя группы, а затем нажмите кнопку **изменить** рядом с **именем**.
 
@@ -197,13 +198,13 @@ ms.locfileid: "44140409"
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> **установки** \> ".
+1. В центре администрирования перейдите на страницу " **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">домены</a> установки".
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу " <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> **установки** \> ".
+1. В центре администрирования перейдите на страницу " **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">домены</a> установки".
 
 ::: moniker-end
   

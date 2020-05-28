@@ -16,17 +16,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Узнайте, как автоматически установить 32 приложения Office на компьютеры с Windows 10 и оставить их обновленными.
-ms.openlocfilehash: b5f01bc9bb10765929f3c6bdd5908e8b48a51a11
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6f3a80be9729a3818607c0f42e2cc7ece66a07ee
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633106"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401329"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>Подготовка к развертыванию клиента Office с помощью Microsoft 365 для бизнеса
 
@@ -69,5 +70,5 @@ ms.locfileid: "43633106"
 |Есть MSI-версия Office 2013 (или более ранней версии) при наличии или отсутствии автономных приложений Office  <br/> |Нет  <br/> |Сосуществуют 32-разрядная версия Office 2016 "нажми и работай" и предустановленная MSI-версия Office (и автономные приложения)  <br/> |
 ||||
    
- **(\*) Примечание:** Обновление до "нажми и работай" до "нажми и работай" для 32-разрядной версии Office 2016 из-за известной ошибки. Выполняется исправление. 
+ **( \* ) Примечание:** обновление до "нажми и работай" для 32-разрядной версии Office 2016 не выполняется из-за известной ошибки. Выполняется исправление. 
   

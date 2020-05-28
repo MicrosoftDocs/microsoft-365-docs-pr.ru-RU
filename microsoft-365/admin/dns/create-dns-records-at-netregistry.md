@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -21,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: 48e09394-2287-4b3c-9853-21eadf61277e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Netregistry для Майкрософт.
-ms.openlocfilehash: ed3e3bae232dcbb3c8e4eea3d1a3bc4dd0a88799
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: c4e81e92b9f86d0a2974e6f95e397f3584c9a01e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939159"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400368"
 ---
 # <a name="create-dns-records-at-netregistry-for-microsoft"></a>Создание записей DNS на сайте Netregistry для Майкрософт
 
@@ -137,7 +138,7 @@ ms.locfileid: "43939159"
     
     |**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Exchange (указывает на адрес или значение)**|**Является полным узлом?**|**Предпочтения (приоритет)**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      |(установите флажок)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
+    |(оставьте пустым)  <br/> |3600 (секунд)  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)      |(установите флажок)  <br/> |10   <br/> For more information about priority, see What is MX priority?  <br/> |
        
     ![Netregistry_MX_values](../../media/518b3da6-4055-4e2d-b5ce-44a0fee25419.png)
   
@@ -166,7 +167,7 @@ ms.locfileid: "43939159"
   
 5. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**УЗЕЛ (значение "точка" или "адрес")**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**УЗЕЛ (значение "точка" или "адрес")**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |3600 (секунд)  <br/> |autodiscover.outlook.com  <br/> |
     |sip  <br/> |CNAME  <br/> |3600 (секунд)  <br/> |sipdir.online.lync.com  <br/> |
@@ -184,7 +185,7 @@ ms.locfileid: "43939159"
     
     Создайте пять других записей CNAME, как описано выше.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="bkmk_spf"> </a>
 
 > [!IMPORTANT]
@@ -211,7 +212,7 @@ ms.locfileid: "43939159"
     > [!NOTE]
     > Перед и после записи в поле TXT необходимо использовать кавычки. 
   
-    |**Имя**|**Тип**|**TTL (Срок жизни)**|**Данные TXT (Target)**|
+    |**Name**|**Тип**|**TTL (Срок жизни)**|**Данные TXT (Target)**|
     |:-----|:-----|:-----|:-----|
     |(Оставьте пустым)  <br/> |TXT  <br/> |3600 (секунд)  <br/> |"v = spf1 включает:SPF. Protection. Outlook. com-ALL"  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |
    
@@ -247,8 +248,8 @@ ms.locfileid: "43939159"
   
     |**Тип**|**Name (Имя)**|**TTL (SEC) (Срок жизни в секундах)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (служба)  <br/> |_sip. _tls  <br/> |3600 (секунд)  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (служба)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (секунд)  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (служба)  <br/> |_sip. _tls  <br/> |3600 (секунд)  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (служба)  <br/> |_sipfederationtls. _tcp  <br/> |3600 (секунд)  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![Netregistry_SRV_values](../../media/49292846-1598-4b8c-9940-db6e10675753.png)
   

@@ -13,17 +13,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: Узнайте, как вручную перенести данные между двумя учетными записями Microsoft 365, когда вы изменили план или название компании, или объединили несколько подписок в одну.
-ms.openlocfilehash: 1eaaf48f445eb54ebf91b96924c39e9062eea4fb
-ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
+ms.openlocfilehash: 69476687915024accabdce2a603ebdd7e8b653af
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44053744"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399876"
 ---
 # <a name="transfer-data-manually-between-two-accounts"></a>Ручная передача данных между двумя учетными записями
 
@@ -61,10 +62,10 @@ ms.locfileid: "44053744"
   
 |**Расположение**|**Цель**|
 |:-----|:-----|
-|**Параметры службы** **администрирования** \> **Microsoft 365** \> <br/> |Выберите каждую вкладку для параметров почты, сайтов, Lync, пользовательского программного обеспечения, паролей, сообщества, управления правами и мобильных устройств.  <br/> |
+|**Администратор** \> **Microsoft 365** \> **Параметры службы** <br/> |Выберите каждую вкладку для параметров почты, сайтов, Lync, пользовательского программного обеспечения, паролей, сообщества, управления правами и мобильных устройств.  <br/> |
 |**Администратор** \> **Exchange** <br/> | Параметры Exchange Online  <br/> |
 |**Администратор** \> **SharePoint** <br/> | Параметры SharePoint Online  <br/> |
-|**Admin** \> **Skype для бизнеса для** администраторов <br/> |Дополнительные параметры Skype для бизнеса  <br/> |
+|**Администратор** \> **Skype для бизнеса** <br/> |Дополнительные параметры Skype для бизнеса  <br/> |
 
 Для Microsoft 365 для малого бизнеса
   

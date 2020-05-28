@@ -14,19 +14,21 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom:
+- AdminSurgePortfolio
+- okr_smb
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу GoDaddy для Майкрософт.
-ms.custom: okr_smb
-ms.openlocfilehash: b1c5539af6683bbf8f94fd15880fb870caf31342
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 95bc9e1ca522796111bbf5146c93686bbbac1a3d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049027"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400465"
 ---
 # <a name="create-dns-records-at-godaddy-for-microsoft"></a>Создание записей DNS на сайте GoDaddy для Майкрософт
 
@@ -57,7 +59,7 @@ ms.locfileid: "44049027"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -108,7 +110,7 @@ ms.locfileid: "44049027"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -122,7 +124,7 @@ ms.locfileid: "44049027"
 
     |**Record Type (Тип записи)**|**Host (Узел)**|**Points to** (Указывает на)|**Priority** (Приоритет)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX (Mail Exchanger) (Почтовый обменник)  <br/> |@  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |1 час  <br/> |
+    |MX (Mail Exchanger) (Почтовый обменник)  <br/> |@  <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.           [Где это находится?](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq).    <br/> |1 час  <br/> |
 
 6. Нажмите кнопку **Сохранить**.
 
@@ -139,7 +141,7 @@ ms.locfileid: "44049027"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -166,7 +168,7 @@ ms.locfileid: "44049027"
 
 6. Повторите эти действия, чтобы добавить следующую запись CNAME, пока не будут созданы все шесть записей CNAME.
 
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -182,7 +184,7 @@ ms.locfileid: "44049027"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -216,7 +218,7 @@ ms.locfileid: "44049027"
 
     ![GoDaddy — BP — configure – 1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
-3. Нажмите кнопку **Добавить**.
+3. Нажмите кнопку **Add** (Добавить).
 
     ![GoDaddy — BP — configure – 1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
@@ -232,8 +234,8 @@ ms.locfileid: "44049027"
 
     |**Record Type (Тип записи)**|**Name** (Имя)|**Target** (Целевое значение)|**Protocol** (Протокол)|**Service** (Служба)|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**TTL** (Срок жизни)|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1,1  <br/> |443  <br/> |1 час  <br/> |
-    |SRV (Service)  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |1 час  <br/> |
+    |SRV (Service)  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |1   <br/> |443  <br/> |1 час  <br/> |
+    |SRV (Service)  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |1   <br/> |5061  <br/> |1 час  <br/> |
 
     ![GoDaddy — BP — configure – 5-1](../../media/a1b15ab1-eb6a-4672-90d1-7ac3e0beb223.png)
 

@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: Узнайте, как настроить Office 365 под управлением 21Vianet для управления записями DNS, когда 1&1 Интернет-поставщик услуг хостинга DNS.
-ms.openlocfilehash: 99ac40472d0afa0cb734b0e86a0f10d7904133e1
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: b63dc0664791eb4941513f701824b813d77e67bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939418"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400705"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-11-ionos"></a>Измените серверов доменных имен, чтобы настроить Microsoft 365 с 1&1 ИОНОС
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Следуйте этим инструкциям, если вы хотите, чтобы Microsoft 365 управляла записями DNS Майкрософт 365. (При желании вы можете [управлять всеми своими записями DNS для Microsoft 365 на 1&1 ионос](create-dns-records-at-1-1-internet.md).) 
   
@@ -81,7 +82,7 @@ ms.locfileid: "43939418"
     
 3. На странице **Setup** (Настройка) выберите **Start setup** (Начать настройку).
     
-4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
+4. На странице **Проверка домена** выберите **Проверить**.
     
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если при добавлении записей DNS возникают проблемы с почтовыми сообщениями или другими проблемами, ознакомьтесь со статьей [Поиск и устранение проблем после добавления домена или записей DNS в Microsoft 365](../get-help-with-domains/find-and-fix-issues.md). 

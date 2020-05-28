@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
 description: 'Узнайте, как настроить Майкрософт для управления записями DNS в веб-службах Amazon (AWS). '
-ms.openlocfilehash: 6393ef3e0d9603f122685dd3e3904b653fda8c34
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6efe06400652783ffbc6732b5c6327067c5c484c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629999"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400681"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-amazon-web-services-aws"></a>Изменение серверов доменных имен для настройки Майкрософт с помощью веб-служб Amazon (AWS)
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями Microsoft DNS на сайте AWS](create-dns-records-at-aws.md).)
   
@@ -58,10 +59,10 @@ ms.locfileid: "43629999"
   
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Имя** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
+|**Name** <br/> |**Тип** <br/> |**Alias (Псевдоним)** <br/> |**TTL (Seconds) (Срок жизни, в секундах)** <br/> |**Value (Значение)** <br/> |**Routing Policy (Политика маршрутизации)** <br/> |
 |(Оставьте это поле пустым)  <br/> |TXT - Text  <br/> |Нет  <br/> |300  <br/> |MS=ms *XXXXXXXX* <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simple (Простая) <br/> |
    
-6. Нажмите **Создать**.
+6. Нажмите кнопку **Создать**.
     
 7. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     

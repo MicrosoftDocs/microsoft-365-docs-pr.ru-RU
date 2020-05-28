@@ -14,17 +14,18 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Узнайте, как стать администратором и получите подписку на Microsoft 365 для вашей организации. '
-ms.openlocfilehash: ac18b40a1160d58e343df8196881769b7200d5a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627960"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399462"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>Станьте администратором и приобрести Microsoft 365 для своей организации.
 

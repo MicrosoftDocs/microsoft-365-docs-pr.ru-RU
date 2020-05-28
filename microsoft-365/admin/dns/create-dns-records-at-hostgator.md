@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5f0c840e-4140-4571-88ed-cf235ff142d6
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Hostgator для Майкрософт.
-ms.openlocfilehash: fb510bcdcdefb141535e9a1099e18b63adffd2ab
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 8adfc4b6154dad0da7dd2fe037c73fcfc4f84d58
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049003"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400441"
 ---
 # <a name="create-dns-records-at-hostgator-for-microsoft"></a>Создание записей DNS на сайте Hostgator для Майкрософт
 
@@ -91,7 +92,7 @@ ms.locfileid: "44049003"
     |||||
     |:-----|:-----|:-----|:-----|
     |**Name (Имя)** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
-    |Используйте *domain_name*. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1,1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |Используйте *domain_name*. (for example, fourthcoffee.com.)  <br/> **This value MUST end with a period (.)** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Выберите команду **Add Record** (Добавить запись).
     
@@ -136,7 +137,7 @@ ms.locfileid: "44049003"
     
     |**Priority (Приоритет)**|**Destination (Назначение)**|
     |:-----|:-----|
-    |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** \< Получите *ключ* \> домена из учетной записи Майкрософт.    [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение \< *domain-key*  \> учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
   
 6. Нажмите кнопку **Добавить новую запись**.
    
@@ -182,7 +183,7 @@ ms.locfileid: "44049003"
     
     Повторяйте эти действия, пока не будут созданы все шесть записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -234,8 +235,8 @@ ms.locfileid: "44049003"
     
     |**Name (Имя)**|**TTL (Срок жизни)**|**Type (Тип)**|**Priority** (Приоритет)|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip. _tls. *domain_name*. (например, _sip. _tls. fourthcoffee. com).  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls. _tcp. *domain_name*. (например, _sipfederationtls. _tcp. fourthcoffee. com).  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1,1  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip. _tls. *domain_name*. (например, _sip. _tls. fourthcoffee. com).  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls. _tcp. *domain_name*. (например, _sipfederationtls. _tcp. fourthcoffee. com).  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |3600  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
 
 4. Выберите команду **Add Record** (Добавить запись).

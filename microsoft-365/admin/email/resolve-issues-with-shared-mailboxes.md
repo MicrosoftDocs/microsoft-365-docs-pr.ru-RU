@@ -15,17 +15,18 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 - MSStore_Link
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 description: Используйте эти решения при возникновении проблем с общими почтовыми ящиками.
-ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5d6de9ac66b11f0e50b259cdca0b1bb50b8326ee
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628751"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400020"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>Решение проблем с общими почтовыми ящиками
 
@@ -34,7 +35,7 @@ ms.locfileid: "43628751"
 ## <a name="error-when-creating-shared-mailboxes"></a>Ошибка при создании общих почтовых ящиков
 <a name="bkmk_Fix"> </a>
 
-Если отображается сообщение об ошибке, **прокси-адрес "SMTP: <имя\>общего почтового ящика" уже используется прокси-адресами или LegacyExchangeDN "\<Name>". Выберите другой адрес прокси-сервера**, это означает, что вы пытаетесь присвоить общему почтовому ящику имя, которое уже используется. Например, предположим, что вам необходимо завести общие почтовые ящики с именами info@domain1 и info@domain2. Это можно сделать двумя способами:
+Если отображается сообщение об ошибке, то **адрес прокси-сервера "SMTP: <общее имя почтового ящика \> " уже используется прокси-адресами или legacyExchangeDN " \<name> ". Выберите другой адрес прокси-сервера**, это означает, что вы пытаетесь присвоить общему почтовому ящику имя, которое уже используется. Например, предположим, что вам необходимо завести общие почтовые ящики с именами info@domain1 и info@domain2. Это можно сделать двумя способами:
 
   - Используйте Windows PowerShell. В этой записи блога приведены инструкции по [созданию общих почтовых ящиков с одинаковым псевдонимом в разных доменах](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365) .
     

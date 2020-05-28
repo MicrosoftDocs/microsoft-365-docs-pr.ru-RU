@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб по адресу Dreamhost для Майкрософт.
-ms.openlocfilehash: 756889457e802bdd9ee18b239b6986fb69f6b924
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 4b321138892cb4a7b5f67c37ed66f3baf0f6c45a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939299"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400513"
 ---
 # <a name="create-dns-records-at-dreamhost-for-microsoft"></a>Создание записей DNS на сайте Dreamhost для Майкрософт
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если ваш поставщик услуг размещения DNS  DreamHost, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Lync и других служб.
  
@@ -65,7 +66,7 @@ ms.locfileid: "43939299"
     
     (Choose the **Type** value from the drop-down list.) 
     
-    |**Имя**|**Тип**|**Значение**|**Примечание**|
+    |**Name**|**Тип**|**Значение**|**Примечание**|
     |:-----|:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |(Это поле является обязательным.)  <br/> |
    
@@ -126,7 +127,7 @@ ms.locfileid: "43939299"
     
     |**Запись MX (обязательно)**|
     |:-----|
-    |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> 0  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> **This value MUST end with a period (.)** <br/> 0  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.           [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Dreamhost — BP — configure – 2-3](../../media/90da1816-e186-4016-ab22-7962f8b86add.png)
   
@@ -166,7 +167,7 @@ ms.locfileid: "43939299"
     
     (Choose the **Type** value from the drop-down list.) 
     
-    |**Имя**|**Тип**|**Значение**|**Примечание**|
+    |**Name**|**Тип**|**Значение**|**Примечание**|
     |:-----|:-----|:-----|:-----|
     |autodiscover  <br/> |CNAME  <br/> |autodiscover.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |(Это поле является обязательным.)  <br/> |
     |sip  <br/> |CNAME  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |(Это поле является обязательным.)  <br/> |
@@ -183,7 +184,7 @@ ms.locfileid: "43939299"
 6. Используя предыдущие два действия и значения из других пяти строк в таблице, добавьте все остальные пять записей CNAME.
 
   
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
@@ -209,7 +210,7 @@ ms.locfileid: "43939299"
     
     (Choose the **Type** value from the drop-down list.) 
     
-    |**Имя**|**Тип**|**Значение**|**Примечание**|
+    |**Name**|**Тип**|**Значение**|**Примечание**|
     |:-----|:-----|:-----|:-----|
     |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.               |(Это поле является обязательным.)  <br/> |
    
@@ -245,7 +246,7 @@ ms.locfileid: "43939299"
     
     (Choose the **Type** value from the drop-down list.) 
     
-    |**Имя**|**Тип**|**Значение**|**Примечание**|
+    |**Name**|**Тип**|**Значение**|**Примечание**|
     |:-----|:-----|:-----|:-----|
     |_sip. _tls  <br/> |SRV  <br/> |100 1 443  <br/> sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |(Это поле является обязательным.)  <br/> |
     |_sipfederationtls. _tcp  <br/> |SRV  <br/> |100 1 5061  <br/> sipfed.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |(Это поле является обязательным.)  <br/> |

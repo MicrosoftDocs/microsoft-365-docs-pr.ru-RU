@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Мы постоянно создаем новые статьи, обновляя существующие и внося изменения в соответствии с вашими отзывами. Узнайте о новых возможностях, которые были обновлены в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 750165aab3612e3edb6a56f69eebf0778e141fde
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: 94a4025a0a30ce26175a1a598713721aaa835ee7
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231902"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401203"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 
@@ -100,13 +100,6 @@ ms.locfileid: "44231902"
 ### <a name="pst-import"></a>Импорт PST-файла
 
 [Вопросы и ответы об импорте PST-файлов](faqimporting-pst-files-to-office-365.md) (обновленных)<br>Добавлены вопросы и ответы о том, как процесс импорта PST-файлов обрабатывает повторяющиеся элементы электронной почты.
-
-### <a name="retention"></a>Хранение
-
-[Общие сведения о политиках хранения](retention-policies.md) (обновленные)<br>К таким изменениям относятся:
-
-- Добавлены пути к содержимому для политик хранения с сохранением только для сохранения и только для удаления (ранее в описании путей к содержимому "Сохранить" и "Удалить").
-- [Обновлен раздел](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) , объясняющий, что для расположений SharePoint теперь необходимо указать URL-адрес, а не выбрать сайт. Это означает, что вам не нужны разрешения на доступ к сайту, чтобы включить его в политику хранения.
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 

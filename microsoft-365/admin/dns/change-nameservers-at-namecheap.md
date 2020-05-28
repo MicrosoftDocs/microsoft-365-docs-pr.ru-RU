@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 84f467f6-28cf-40f0-94d0-a2a27ddfc2e7
 description: 'Если вы хотите, чтобы Майкрософт управляла своими записями DNS, Узнайте, как настроить свой личный домен Майкрософт с помощью namecheap. '
-ms.openlocfilehash: 6fdec37e837c74666ada82af81d43faaa0a6d589
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 55fde3b0db960d78ad77c9f9189c5367de16c73f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629783"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400621"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-namecheap"></a>Изменение серверов доменных имен для настройки Microsoft с помощью namecheap
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями Microsoft DNS на сайте Namecheap](create-dns-records-at-namecheap.md).)
   

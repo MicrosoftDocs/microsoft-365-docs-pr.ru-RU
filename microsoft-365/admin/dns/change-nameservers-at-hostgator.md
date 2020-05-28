@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
 description: Узнайте, как настроить Майкрософт для управления записями DNS для личного домена по адресу Hostgator.
-ms.openlocfilehash: 09f0409ed2a5f81b450c9aae7bb3699373ce6f22
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 787fe5f5e768d9d93cfca9d1644037142822216e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629891"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400645"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-365-with-hostgator"></a>Изменение серверов доменных имен для настройки Microsoft 365 с помощью Hostgator
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**.
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**.
   
 Если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS, следуйте приведенным ниже инструкциям. (При желании вы можете [управлять всеми своими записями Microsoft DNS на сайте Hostgator](create-dns-records-at-hostgator.md).)
   
@@ -93,7 +94,7 @@ ms.locfileid: "43629891"
 |||||
 |:-----|:-----|:-----|:-----|
 |**Name (Имя)** <br/> |**TTL (Срок жизни)** <br/> |**Type (Тип)** <br/> |**TXT Data (Данные TXT)** <br/> |
-|Используйте свое  *доменное имя*  , например fourthcoffee.com.<br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1,1  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
+|Используйте свое  *доменное имя*  , например fourthcoffee.com.<br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
    
 4. Выберите команду **Add Record** (Добавить запись).
     

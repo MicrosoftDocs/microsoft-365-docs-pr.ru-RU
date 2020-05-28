@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7173c635-58b3-400f-95e0-97abe915565e
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в WiX для Майкрософт.
-ms.openlocfilehash: 6f88cc65ae19f747a9fc3740ea1578f30d18b5e2
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: b5fe216e65954bbcbdd9a1da223258a8362743ca
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048859"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400296"
 ---
 # <a name="create-dns-records-at-wix-for-microsoft"></a>Создание записей DNS в WiX для Майкрософт
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если ваш поставщик услуг размещения DNS  Wix, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб.
   
@@ -109,7 +110,7 @@ ms.locfileid: "44048859"
     
 |**Host Name**|**Points to (Указывает на)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
 |:-----|:-----|:-----|:-----|
-|Заполняется автоматически <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание:** Получите * \<ключ\> домена* из учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). | 1 Hour|
+|Заполняется автоматически <br/> | *\<domain-key\>*. mail.protection.outlook.com  <br/> **Примечание:** Получение *\<domain-key\>* учетной записи Майкрософт.   [Как его найти?](../get-help-with-domains/information-for-dns-records.md) |нуль  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). | 1 Hour|
    
 6. Если в списке есть другие записи MX, удалите их. 
     
@@ -140,7 +141,7 @@ ms.locfileid: "44048859"
     
 6. Подождите несколько минут, пока созданная запись не будет обновлена в Интернете.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_spf"> </a>
 
 > [!IMPORTANT]
@@ -175,8 +176,8 @@ ms.locfileid: "44048859"
     
 |**Служба**|**Protocol (Протокол)**|**Name (Имя)**|**Weight** (Вес)|**Port** (Порт)|**Target (Назначение)**|**Priority** (Приоритет)|**TTL** (Срок жизни)|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|sip  |tls  |Заполняется автоматически |1,1  |443   |sipdir.online.lync.com |100 |1 Hour |
-|sipfed|tcp |Заполняется автоматически|1,1 |5061 |sipfed.online.lync.com|100 | 1 Hour |
+|sip  |tls  |Заполняется автоматически |1   |443   |sipdir.online.lync.com |100 |1 Hour |
+|sipfed|tcp |Заполняется автоматически|1  |5061 |sipfed.online.lync.com|100 | 1 Hour |
    
 5. Нажмите кнопку **Save DNS (сохранить DNS** ) в верхней части редактора DNS. 
     

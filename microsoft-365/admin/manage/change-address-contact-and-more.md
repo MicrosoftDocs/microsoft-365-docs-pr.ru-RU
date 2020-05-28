@@ -13,6 +13,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -20,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: Сведения о том, как вносить изменения в профиль организации, такие как название организации, адрес, номер телефона, технический контакт и электронная почта.
-ms.openlocfilehash: cae24ebb6ad317767c7798b808f166024cd9d73a
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: 117344b2fee9198c6c7de2b26f02fcb647c10ec6
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232903"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44399804"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>Изменение адреса организации и других данных профиля
 

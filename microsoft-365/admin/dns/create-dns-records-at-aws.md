@@ -14,22 +14,23 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб в веб-службах Amazon (AWS) для Майкрософт.
-ms.openlocfilehash: d75822feef5848575b8ec7fe09f834f67cdc6c55
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: fcc4da3a5841e9df2f6edabd540363fe70bb73ad
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049111"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400573"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Создание записей DNS на веб-службах Amazon (AWS) для Майкрософт
 
- Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Если AWS является поставщиком услуг хостинга DNS, выполните действия, описанные в этой статье, чтобы проверить домен и настроить записи DNS для электронной почты, Skype Online для бизнеса и т. д.
   
@@ -105,7 +106,7 @@ ms.locfileid: "44049111"
     
     |**Name**|**Тип**|**Alias (Псевдоним)**|**TTL (Seconds) (Срок жизни, в секундах)**|**Value (Значение)**|**Routing Policy (Политика маршрутизации)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |(Оставьте это поле пустым.)  <br/> |MX  почтовый обменник  <br/> |Нет  <br/> |300  <br/> |0  *\<ключ_домена\>*  .mail.protection.outlook.com.  <br/> 0  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание:** \<Получите *ключ* \> домена из учетной записи Microsoft 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |Simple (Простая)  <br/> |
+    |(Оставьте это поле пустым.)  <br/> |MX  почтовый обменник  <br/> |Нет  <br/> |300  <br/> |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> 0  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **Примечание:** Получите свою \<*domain-key*\> учетную запись от вашей учетной записи Microsoft 365. [Как найти это значение?](../get-help-with-domains/information-for-dns-records.md)          |Simple (Простая)  <br/> |
        
     ![AWS — BP — configure – 2-1](../../media/94a71ce7-1b3b-4b1a-9ad3-9592db133075.png)
   
@@ -167,7 +168,7 @@ ms.locfileid: "44049111"
     
     Повторяйте эту процедуру, пока не будут созданы все пять записей CNAME.
     
-## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавление записи TXT для SPF, предотвращающей рассылку спама
+## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
