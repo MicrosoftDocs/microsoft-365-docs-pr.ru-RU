@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -22,12 +23,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: Вручную переключите подписки на Microsoft 365 для бизнеса, приобретая новую подписку и убедившись, что обе подписки указаны и активны.
-ms.openlocfilehash: f06e6a5f441286cbe048187eea39889772bb4e75
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 6d6f28dc45f1d5c8efc7202f1be718f8517cf12f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707515"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403202"
 ---
 # <a name="switch-microsoft-365-for-business-plans-manually"></a>Переключение планов Microsoft 365 для бизнеса вручную
 
@@ -64,19 +65,19 @@ ms.locfileid: "43707515"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 ::: moniker-end
 

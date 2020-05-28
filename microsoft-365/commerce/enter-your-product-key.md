@@ -22,13 +22,15 @@ search.appverid:
 ms.assetid: 0199dd39-7c46-4875-af9b-588df3a9afea
 ROBOTS: NOINDEX
 description: Сведения о том, как активировать стандартный ключ продукта Microsoft 365, приобретенный в розничном магазине.
-ms.custom: okr_SMB
-ms.openlocfilehash: 9cabc3d3f132ef2e3e56c1209b632f1e10a8637e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: de0a45fe35a53d166eb8d587a6410f91b69e3288
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634912"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402170"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Ввод ключа продукта для Microsoft 365 Business Standard
 

@@ -21,16 +21,17 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Сведения о том, что входит в состав Microsoft 365 Business Premium, и пошаговое руководство по регистрации в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 443363fa673a112ae13eb5b63308115724d9bd00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 50662149ae2faa99c567080d5e914c3300ac3494
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635111"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401565"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Регистрация в Microsoft 365 бизнес премиум
 
@@ -41,7 +42,7 @@ ms.locfileid: "43635111"
 - **Для партнеров Майкрософт**: Если вы являетесь партнером, ознакомьтесь [со статьей получение Microsoft 365 бизнес премиум из центра партнеров корпорации Майкрософт](get-microsoft-365-business.md).
 - **Получение справки в Microsoft Store**: Head to a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2109652). Корпорация Майкрософт может помочь вам с вопросами о планах, которые помогут приобрести план, отвечающий потребностям бизнеса, и помочь вам выполнить настройку.
 
-**Требуется что-то другое?** Вы можете выполнить указанные ниже действия.
+**Требуется что-то другое?** Варианты действий:
 - [Обновите план Office 365 до Microsoft 365 бизнес премиум](migrate-to-microsoft-365-business.md).
 - [Получите бесплатную пробную](https://go.microsoft.com/fwlink/p/?linkid=2102309) версию Microsoft 365 бизнес премиум за один месяц.
 - Если вам нужен план с меньшим количеством компонентов, [Подпишитесь на Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkID=510935) . Узнайте, как каждый бизнес-план включается по адресу [Products.Office.com](https://go.microsoft.com/fwlink/?linkid=2109397).

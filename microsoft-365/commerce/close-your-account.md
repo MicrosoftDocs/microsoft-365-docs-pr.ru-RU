@@ -11,23 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Сведения о том, как закрыть учетную запись с помощью корпорации Майкрософт.
-ms.openlocfilehash: e41d11502b0c0f738cc23405c387bd5fca1cb0fe
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: f399a1ba4d67abf5982c111e9b915f02324150a5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141282"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402182"
 ---
 # <a name="close-your-account"></a>Закрытие учетной записи
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -47,7 +47,7 @@ ms.locfileid: "44141282"
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>Шаг 2: Отмена всех активных подписок
 
-1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Если список подписок находится в представлении **таблицы** , справа выберите **карточки**.
 
@@ -59,7 +59,7 @@ ms.locfileid: "44141282"
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>Шаг 3: удаление всех отключенных подписок
 
-1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Если список подписок находится в представлении **таблицы** , справа выберите **карточки**.
 
@@ -73,7 +73,7 @@ ms.locfileid: "44141282"
 
 ## <a name="step-4-disable-multi-factor-authentication"></a>Шаг 4: отключение многофакторной проверки подлинности
 
-1. В центре администрирования перейдите на страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a> .
+1. В центре администрирования перейдите на страницу **Пользователи**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a> .
 
 2. Выберите **многофакторную проверку подлинности**.
 

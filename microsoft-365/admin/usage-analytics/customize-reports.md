@@ -13,25 +13,26 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: Сведения о настройке отчетов в браузере и Power BI Desktop.
-ms.openlocfilehash: 4f0c85802ecb5db9c57add2fa6dd561827e8fa22
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 121a9be4a83570b7fcf358c48bf558d3bc7c1131
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44140713"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402934"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Настройка отчетов в аналитике использования Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -49,7 +50,7 @@ ms.locfileid: "44140713"
   
 1. В отчете **Активация и лицензирование** перейдите на вкладку **Активация** .
     
-2. Откройте режим редактирования, нажав кнопку **Правка** вверху ![кнопки Дополнительные страницы в Power BI](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
+2. Откройте режим редактирования, нажав кнопку **Правка** вверху кнопки ![ Дополнительные страницы в Power BI ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) . 
     
     ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
@@ -69,7 +70,7 @@ ms.locfileid: "44140713"
   
 1. Перейдите к отчету **об использовании продукта** с помощью левой панели навигации и откройте вкладку **Yammer** .
     
-2. Переключитесь в режим редактирования, нажав ![кнопку More Page (дополнительные страницы)](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) в Power BI и **Edit (изменить**). 
+2. Переключитесь в режим редактирования, нажав ![ кнопку More Page (дополнительные страницы) в Power BI ](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) и **Edit (изменить**). 
     
 3. В нижней части страницы нажмите кнопку ![Кнопка "добавить страницу" в Power BI](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) для создания новой страницы.
   
@@ -95,7 +96,7 @@ ms.locfileid: "44140713"
 
     ![Флажок "выбрать Yammer"](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. Под списком зрительных образов щелкните значок формат ![значка **формата** в Power BI висуализаионс.](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png)
+12. Под списком зрительных образов щелкните значок формат значка **формата** ![ в Power BI висуализаионс ](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png) .
 
 13. Разверните заголовок и измените значение **Title Text** (Текст заголовка) на **First-Time Yammer Users by Month** (Новые пользователи Yammer по месяцам).
     
@@ -115,7 +116,7 @@ ms.locfileid: "44140713"
   
 1. Выберите **get data** (получить данные) \> **Other** (Другое) \> **ODATA Feed** (Веб-канал OData) \> **Connect** (Подключить).
     
-2. В окне "URL-адрес"<i></i>введите\<"\>HTTPS://Reports.Office.com/PBI/v1.0/tenantid"
+2. В окне URL введите "https:// <i></i> Reports.Office.com/PBI/v1.0/ \<tenantid\> "
     
     **Примечание:** API отчетов в предварительной версии и могут изменяться, пока они не переходят в производственную среду. 
   

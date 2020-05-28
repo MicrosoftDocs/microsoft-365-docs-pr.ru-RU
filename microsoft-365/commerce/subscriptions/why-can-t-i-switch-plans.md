@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -23,12 +24,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: Узнайте причины, по которым иногда требуется выполнить переключение планов вручную или путем вызова поддержки.
-ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 9f48ed56f230802ebd305d9b79e8ad694fadcc4c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943147"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403154"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Почему не удается перейти к планам Microsoft 365 для бизнеса?
 
@@ -41,18 +42,18 @@ ms.locfileid: "43943147"
   
 ::: moniker range="o365-worldwide"
 
- **Нужно выполнить другую задачу?** [Приобрести другую подписку](../buy-another-subscription.md) | [Отмена подписки на подписку](cancel-your-subscription.md) | и[Поддержка](../../admin/contact-support-for-business-products.md) по[выставлению счетов](../index.yml) | 
+ **Нужно выполнить другую задачу?** [Приобретение другой подписки](../buy-another-subscription.md)  |  [Отмена подписки](cancel-your-subscription.md)  |  [Подписки и выставление счетов](../index.yml)  |  [Поддержка звонков](../../admin/contact-support-for-business-products.md)
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **Нужно выполнить другую задачу?** [Приобрести другую подписку](../buy-another-subscription.md) | [Отмена подписки на подписку](cancel-your-subscription.md) | и[Поддержка](../../admin/contact-support-for-business-products.md) по[выставлению счетов](../index.yml) | 
+ **Нужно выполнить другую задачу?** [Приобретение другой подписки](../buy-another-subscription.md)  |  [Отмена подписки](cancel-your-subscription.md)  |  [Подписки и выставление счетов](../index.yml)  |  [Поддержка звонков](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- **Нужно выполнить другую задачу?** [Купите или попробуйте подписки на Office 365 под управлением 21vianet](../../admin/services-in-china/buy-or-try-subscriptions.md) | [Отмена](cancel-your-subscription.md) | [поддержки](../../admin/contact-support-for-business-products.md) подписки
+ **Нужно выполнить другую задачу?** [Приобретение или пробные подписки на Office 365 под управлением 21vianet](../../admin/services-in-china/buy-or-try-subscriptions.md)  |  [Отмена подписки](cancel-your-subscription.md)  |  [Поддержка звонков](../../admin/contact-support-for-business-products.md)
 
 ::: moniker-end
 
@@ -83,19 +84,19 @@ ms.locfileid: "43943147"
 
 ::: moniker range="o365-worldwide"
 
-Чтобы узнать, есть ли проблемы при подготовке или работоспособности служб, в центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">работоспособность службы</a> или выберите **работоспособность службы** **работоспособности** \> .
+Чтобы узнать, есть ли проблемы при подготовке или работоспособности служб, в центре администрирования перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=842900" target="_blank">работоспособность службы</a> или выберите **Health** \> **работоспособность службы**работоспособности.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-Чтобы проверить, возникли ли проблемы с обеспечением работоспособности или работоспособности служб, в центре администрирования Microsoft 365 перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">работоспособность службы</a> или выберите **работоспособность службы** **работоспособности** \> .
+Чтобы проверить, возникли ли проблемы с обеспечением работоспособности или работоспособности служб, в центре администрирования Microsoft 365 перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=848042" target="_blank">работоспособность службы</a> или выберите **Health** \> **работоспособность службы**работоспособности.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Чтобы проверить, возникли ли проблемы с обеспечением работоспособности или работоспособности служб, в центре администрирования Microsoft 365 перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">работоспособность службы</a> или выберите **работоспособность службы** **работоспособности** \> .
+Чтобы проверить, возникли ли проблемы с обеспечением работоспособности или работоспособности служб, в центре администрирования Microsoft 365 перейдите на страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=850629" target="_blank">работоспособность службы</a> или выберите **Health** \> **работоспособность службы**работоспособности.
 
 ::: moniker-end
 

@@ -9,19 +9,17 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: None
-search.appverid:
-- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - commerce
-ms.custom: ''
+ms.custom: AdminSurgePortfolio
 description: Сведения о новых функциях.
-ms.openlocfilehash: e6fe91ee2c0e2de58b54e40eddba6d3066999e6d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: c8c472fbf30bb898f9a10eca778ee7c668c8c388
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942179"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402418"
 ---
 # <a name="allotment-basics"></a>Основы объема услуг
 
@@ -31,7 +29,7 @@ ms.locfileid: "43942179"
 
 Вы также можете делегировать управление вашими отправкой. Делегированные владельцы услуг, которые получают доступ к центру администрирования, но могут просматривать и управлять лицензиями только в тех случаях, когда они владеют. Это обеспечивает более детальное делегирование управления лицензиями в пределах организации.
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 Необходимо соблюдение требований лицензирования для [лицензирования на основе групп](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements).
 
@@ -51,4 +49,4 @@ ms.locfileid: "43942179"
 
 ## <a name="getting-started"></a>Начало работы
 
-Функция "предоставление услуг" доступна в частном предварительном просмотре только для небольшого числа клиентов. Если вы хотите присоединиться, заполните эту форму [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup):.
+Функция "предоставление услуг" доступна в частном предварительном просмотре только для небольшого числа клиентов. Если вы хотите присоединиться, заполните эту форму: [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup) .

@@ -8,16 +8,17 @@ ms.author: sirkkuw
 ms.topic: article
 ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
+ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 бизнес премиум, Microsoft 365, SMB, FAQ, часто задаваемые вопросы, ответы, бизнес
 ms.date: 06/08/2018
-ms.openlocfilehash: 68e085313b0344f9e48ddfa9124c1d2d7297ae45
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: a2feb91ddcd2d95da28c3363d983b382cf2aa6dc
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44065842"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403457"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Ответы на часто задаваемые вопросы о Microsoft 365 бизнес премиум
 

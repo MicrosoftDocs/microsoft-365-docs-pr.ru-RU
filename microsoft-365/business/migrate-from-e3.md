@@ -17,16 +17,17 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: 0d23e293d599f5b9d6c829d101f2395d6ac21215
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 23d024ed7f18fe6a5f5dc9b59e3ad20069dc3e6a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633191"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402242"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Переход с Office 365 E3 на Microsoft 365 бизнес премиум 
 
@@ -38,7 +39,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 
 В этой таблице показаны различия между Microsoft 365 Business Premium и Office 365 E3.
 
-| Компонент    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Office 365 E3 | 
+| Функция    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Office 365 E3 | 
 |:-------|:-----|:-----|
 | **Локальная среда**        | | | 
 | Приложения Office<sup>1</sup>    | Приложения Microsoft 365 для бизнеса    | Приложения Microsoft 365 для предприятий | 
@@ -93,7 +94,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 
 Вы также можете выполнить следующие действия на странице "устройства":
   
-1. В левой панели навигации центра администрирования перейдите к разделу **политики** **устройств** \> .
+1. В левой панели навигации центра администрирования перейдите к разделу **Devices** \> **политики**устройств.
     
 2. На странице " **политики устройств** " нажмите кнопку **Добавить**.
     

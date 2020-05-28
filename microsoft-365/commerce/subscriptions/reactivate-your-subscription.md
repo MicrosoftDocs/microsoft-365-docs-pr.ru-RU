@@ -17,6 +17,7 @@ ms.collection:
 ms.custom:
 - TopSMBIssues
 - fwlink 874703
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -25,19 +26,19 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: Сведения о том, как повторно активировать подписку по истечении срока ее действия, или если корпорация Майкрософт ее отключила или отменили ее в центре.
-ms.openlocfilehash: d75ebb3b09ec8b72c60e829406c1341939a4e534
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 922646dc02cbe8ed2072920a92c5c818d9f682a9
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141102"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403238"
 ---
 # <a name="reactivate-your-subscription"></a>Повторная активация подписки
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -47,7 +48,7 @@ ms.locfileid: "44141102"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. На странице " **продукты** " Найдите подписку, которую необходимо повторно активировать. В разделе **выставление счетов** выберите пункт **Реактивизировать**.
   
@@ -66,7 +67,7 @@ ms.locfileid: "44141102"
 
 ::: moniker range="o365-germany"
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. Найдите подписку, которую необходимо повторно активировать, и нажмите кнопку **повторно активировать**.
 
@@ -87,7 +88,7 @@ ms.locfileid: "44141102"
 
 ::: moniker range="o365-21vianet"
   
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. Найдите подписку, которую необходимо повторно активировать, и нажмите кнопку **повторно активировать**.
 

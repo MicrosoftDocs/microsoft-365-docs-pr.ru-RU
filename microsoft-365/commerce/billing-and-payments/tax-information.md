@@ -20,13 +20,15 @@ search.appverid:
 - MOE150
 - BEA160
 description: 'Узнайте, какой объем налога будет взиматься за вашу подписку на Microsoft 365 для бизнеса в разных регионах. '
-ms.custom: okr_SMB
-ms.openlocfilehash: 7c071a29fa5cedfc12c69a6471d1321a9167106f
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: 72939c40ad340e751be30aecc6e102570ea42eb0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232833"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401754"
 ---
 # <a name="tax-information"></a>Сведения о налогах
 
@@ -186,4 +188,4 @@ ms.locfileid: "44232833"
   
 [Просмотр счетов](view-your-bill-or-invoice.md)
   
-[Общие сведения о счете](understand-your-invoice.md)
+[Ознакомление со счетом](understand-your-invoice.md)

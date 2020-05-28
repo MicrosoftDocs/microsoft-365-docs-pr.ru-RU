@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для пользователей Microsoft 365 Business Premium, обеспечивающие централизованное управление и контроль безопасности.
-ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635459"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402965"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business Premium
 
@@ -104,7 +105,7 @@ ms.locfileid: "43635459"
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Проверка подключения устройства к Azure AD
 
-Чтобы проверить состояние синхронизации, на странице **Доступ к учетной записи места работы или учебного заведения** окна **Параметры** щелкните в области **Подключен к** _ \<organization name\> _, чтобы появились кнопки **Сведения** и **Отключить**. Чтобы узнать состояние синхронизации, нажмите кнопку **Сведения**. 
+Чтобы проверить состояние синхронизации, на странице " **Работа с рабочими или учебными заведениями** " в разделе **Параметры**щелкните в области **подключено до** _ \<organization name\> _, чтобы отобразить **сведения о** кнопках и **Отключить**ее. Чтобы узнать состояние синхронизации, нажмите кнопку **Сведения**. 
   
 На странице состояния синхронизации нажмите кнопку "Синхронизировать", чтобы получить сведения о последних политиках мобильных устройств на компьютере.
   

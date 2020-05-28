@@ -1,5 +1,5 @@
 ---
-title: Покупка и изменение надстроек
+title: Приобретение или изменение надстройки
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,20 +21,22 @@ search.appverid:
 - BEA160
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: Узнайте, как приобрести надстройку, чтобы добавить дополнительные функции для подписки на Microsoft 365 для бизнеса. Вы также можете обновить и удалить надстройку.
-ms.custom: okr_SMB
-ms.openlocfilehash: 60bc63d4db84667f00ab0bde95e8541f45a38df7
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.custom:
+- okr_SMB
+- AdminSurgePortfolio
+ms.openlocfilehash: e22c4193fffa1d97334f61e789265e75d55d53a3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141294"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402194"
 ---
-# <a name="buy-or-edit-an-add-on"></a>Покупка и изменение надстроек
+# <a name="buy-or-edit-an-add-on"></a>Приобретение или изменение надстройки
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -62,11 +64,11 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. На странице " **подписки** " выберите подписку, для которой вы хотите приобрести надстройку.
 
-3. В левом нижнем углу сведений о подписке выберите **Add-ons** \> надстройки **приобрести надстройки**.
+3. В левом нижнем углу сведений о подписке **выберите надстройки** \> **приобрести надстройки**.
 
     !["Приобрести надстройки" на странице "подписки" центра администрирования Microsoft 365.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -84,11 +86,11 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. На странице " **подписки** " выберите подписку, для которой вы хотите приобрести надстройку.
 
-3. В левом нижнем углу сведений о подписке выберите **Add-ons** \> надстройки **приобрести надстройки**.
+3. В левом нижнем углу сведений о подписке **выберите надстройки** \> **приобрести надстройки**.
 
     !["Приобрести надстройки" на странице "подписки" центра администрирования Microsoft 365.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
@@ -116,7 +118,7 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. На странице " **продукты** " выберите подписку, для которой вы хотите обновить надстройку.
 
@@ -130,7 +132,7 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. На странице " **подписки** " выберите подписку, для которой вы хотите обновить надстройку.
 
@@ -153,7 +155,7 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. На странице " **подписки** " выберите подписку, для которой вы хотите обновить надстройку.
 
@@ -179,7 +181,7 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **выставление счетов** \> по <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
 2. На странице " **продукты** " выберите подписку на надстройку, которую требуется обновить, а затем выберите **Добавить или удалить лицензии**.
 
@@ -189,7 +191,7 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 2. На странице " **подписки** " выберите подписку на надстройку, которую необходимо обновить, а затем выберите **Добавить или удалить лицензии**.
 
@@ -204,7 +206,7 @@ ms.locfileid: "44141294"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 2. На странице " **подписки** " выберите подписку на надстройку, которую необходимо обновить, а затем выберите **Добавить или удалить лицензии**.
 
@@ -231,14 +233,14 @@ ms.locfileid: "44141294"
 
 |**Надстройка**|**Подписки, в которых она доступна**|
 |:-----|:-----|
-|Защищенное хранилище  <br/> | Office 365 корпоративный E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
-|[Office 365 Online Advanced Threat protection](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 корпоративный E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
-|[Exchange Online Archiving](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | Microsoft 365 бизнес базовый  <br/>  Microsoft 365 бизнес стандарт  <br/>  Office 365 корпоративный E1  <br/>  Office 365 корпоративный F1  <br/> |
-|Microsoft MyAnalytics  <br/> | Office 365 корпоративный E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
-|Office 365 Advanced Compliance  <br/> | Office 365 корпоративный E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
+|Защищенное хранилище  <br/> | Office 365 для предприятий E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
+|[Office 365 Online Advanced Threat protection](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 для предприятий E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
+|[Exchange Online Archiving](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | Microsoft 365 бизнес базовый  <br/>  Microsoft 365 бизнес стандарт  <br/>  Office 365 для предприятий E1  <br/>  Office 365 корпоративный F1  <br/> |
+|Microsoft MyAnalytics  <br/> | Office 365 для предприятий E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
+|Office 365 Advanced Compliance  <br/> | Office 365 для предприятий E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/> |
 |Office 365 с дополнительным хранилищем  <br/> | Приложения Microsoft 365 для бизнеса  <br/>  Microsoft 365 бизнес базовый  <br/>  Microsoft 365 бизнес стандарт  <br/>  Office 365 корпоративный E1  <br/>  Office 365 для предприятий E2  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/>  Office 365 корпоративный E5  <br/>  Office для Интернета с SharePoint (план 1)  <br/>  Office для Интернета с SharePoint (план 2)  <br/>  SharePoint Online (план 1)  <br/>  SharePoint Online (план 2)  <br/> |
-|Телефонная система  <br/> | Office 365 корпоративный E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/>  Office 365 корпоративный E5  <br/> |
-|Аудиоконференции  <br/> |  Microsoft 365 бизнес базовый <br/> Microsoft 365 бизнес стандарт <br/> Office 365 корпоративный E1 <br/> Office 365 корпоративный E3 <br/> Office 365 корпоративный E4 <br/> Office 365 корпоративный E5 без аудиоконференции <br/> Microsoft 365 бизнес премиум <br/> Microsoft 365 E3 <br/> Microsoft 365 E5  <br/> |
+|Телефонная система  <br/> | Office 365 для предприятий E1  <br/>  Office 365 корпоративный E3  <br/>  Office 365 корпоративный E4  <br/>  Office 365 корпоративный E5  <br/> |
+|Аудиоконференции  <br/> |  Microsoft 365 бизнес базовый <br/> Microsoft 365 бизнес стандарт <br/> Office 365 для предприятий E1 <br/> Office 365 корпоративный E3 <br/> Office 365 корпоративный E4 <br/> Office 365 корпоративный E5 без аудиоконференции <br/> Microsoft 365 бизнес премиум <br/> Microsoft 365 E3 <br/> Microsoft 365 E5  <br/> |
 |Кредиты на связь  <br/> | Office 365 корпоративный E5  <br/> |
 |План внутренних звонков <br/> | Office 365 корпоративный E5  <br/> |
 |План международных звонков  <br/> | Office 365 корпоративный E5  <br/> |

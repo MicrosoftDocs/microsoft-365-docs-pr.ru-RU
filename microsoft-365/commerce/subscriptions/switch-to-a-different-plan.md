@@ -16,6 +16,7 @@ ms.collection:
 - commerce
 ms.custom:
 - SaRA
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
@@ -24,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: Узнайте, как переключиться на новую подписку на Microsoft 365 для бизнеса.
-ms.openlocfilehash: 8682ced4aab6fd1b0cbfc132527e977eabc59306
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: c1216f0eb5069610ea63ca1a81d90243d3ef111d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707503"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403190"
 ---
 # <a name="switch-to-a-different-microsoft-365-for-business-plan"></a>Переход на другой план Microsoft 365 для бизнеса
 
@@ -49,25 +50,25 @@ ms.locfileid: "43707503"
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** \><a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Подписки</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Подписки</a>.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования выберите страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
+1. В Центре администрирования перейдите на страницу **Выставление счетов** ><a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Подписки</a>.
 
 ::: moniker-end
 
 2. Выберите **Переключатель переключение планов** , чтобы просмотреть список доступных новых планов.
 
-    [Кнопка Переключить планы не](#the-switch-plans-button-isnt-there) | [отображается в списке нет нужного плана](#i-dont-see-the-plan-i-want)
+    [Кнопка "переключить планы"](#the-switch-plans-button-isnt-there)  |  отсутствует [Я не вижу желаемого плана](#i-dont-see-the-plan-i-want)
 
 3. Выберите план, чтобы просмотреть новые общие затраты в месяц. Обязательно ознакомьтесь с **ключевыми сведениями**, а затем нажмите кнопку **Далее** , чтобы извлечь.
 

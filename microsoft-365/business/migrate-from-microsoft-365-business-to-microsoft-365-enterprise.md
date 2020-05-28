@@ -16,17 +16,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Узнайте, как перенести свой бизнес из Microsoft 365 бизнес премиум в Microsoft 365 E3.
-ms.openlocfilehash: a41b27b91bd049abb2231a397a328f4f53af9500
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6a795d96ccae7e054e7e52d4fd60a4e73b3c71dd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633179"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401994"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Миграция с Microsoft 365 бизнес премиум на Microsoft 365 E3
 
@@ -46,7 +47,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 
 В этой таблице показаны различия между Microsoft 365 Business Premium и Microsoft 365 E3.
 
-| Компонент    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Microsoft 365 E3 | 
+| Функция    | Поддержка в Microsoft 365 Business Premium    | Поддержка в Microsoft 365 E3 | 
 |:-------|:-----|:-----|
 | **Локальная среда**        | | | 
 | Windows 10    | Windows 10 для бизнеса  |     Windows 10 Корпоративная E3| 

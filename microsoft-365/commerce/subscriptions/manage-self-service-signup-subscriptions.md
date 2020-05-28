@@ -14,15 +14,16 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_NonTOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Сведения о том, как управлять бесплатными самостоятельными подписками на услуги для Организации.
-ms.openlocfilehash: 46c77cb32fec4dfa1fb9c3d3f992bd842be1b969
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: 81c67292a394c62d6057022babb88aa8796b9b3d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045265"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403250"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>Управление подписками на самостоятельную регистрацию
 
@@ -43,7 +44,7 @@ ms.locfileid: "44045265"
 > [!IMPORTANT]
 > При удалении подписки на самостоятельную службу подписки все пользователи блокируются для доступа к данным и электронной почте, а также удаляют все данные и электронную почту.
 
-1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 2. Найдите подписку на самостоятельную регистрацию, которую необходимо удалить. В разделе **параметры & действий** выберите **удалить подписку**.
 3. В области **удалить подписку** установите флажок, а затем выберите **удалить подписку**.
 

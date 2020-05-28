@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Пользователи могут узнать, как управлять покупками самостоятельной службы.
-ms.openlocfilehash: 8f141f28c2f1241d19ed34ae234c3b122dd9d69c
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: e8cb319b482ef49090544916b5e76a02083ebf06
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141128"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403262"
 ---
 # <a name="manage-self-service-purchases-users"></a>Управление самостоятельно приобретенными лицензиями (пользователи)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -37,11 +38,11 @@ ms.locfileid: "44141128"
 
 ## <a name="view-your-subscriptions"></a>Просмотр подписок
 
-Вы можете просмотреть список всех купленных подписок на самостоятельную обслуживание. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+Вы можете просмотреть список всех купленных подписок на самостоятельную обслуживание. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>Как приобрести дополнительные или уменьшить количество лицензий
 
-1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, для которой вы хотите купить больше или снизить количество лицензий.
 
@@ -54,7 +55,7 @@ ms.locfileid: "44141128"
 
 ### <a name="to-assign-licenses"></a>Назначение лицензий
 
-1. В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .
+1. В центре администрирования перейдите на страницу лицензии **выставления счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> .
 
 2. Выберите подписку, для которой вы хотите назначить лицензии.
 
@@ -69,7 +70,7 @@ ms.locfileid: "44141128"
 
 ### <a name="to-unassign-licenses"></a>Отмена назначения лицензий
 
-1. В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .
+1. В центре администрирования перейдите на страницу лицензии **выставления счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> .
 
 2. Выберите продукт, для которого требуется отменить назначение лицензий.
 
@@ -81,7 +82,7 @@ ms.locfileid: "44141128"
 
 ## <a name="cancel-a-subscription"></a>Отмена подписки
 
-1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, которую вы хотите отменить.
 
@@ -91,7 +92,7 @@ ms.locfileid: "44141128"
 
 ## <a name="manage-your-payment-details"></a>Управление сведениями об оплате
 
-1. В центре администрирования **перейдите на** > страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Профили выставленных счетов</a> **& платежей платежей** > .
+1. В центре администрирования **перейдите на**  >  страницу профили выставленных счетов **& платежей платежей**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">Billing profiles</a> .
 
 2. Выберите из списка профиль выставления счетов.
 
@@ -104,7 +105,7 @@ ms.locfileid: "44141128"
 
 ### <a name="update-an-existing-payment-method"></a>Обновление существующего способа оплаты
 
-1. В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .
+1. В центре администрирования перейдите на страницу **выставления счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .
 
 2. Чтобы изменить существующий метод оплаты, выберите его в списке.
 
@@ -114,7 +115,7 @@ ms.locfileid: "44141128"
 
 ### <a name="add-a-new-payment-method"></a>Добавление нового метода оплаты
 
-1. В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .
+1. В центре администрирования перейдите на страницу **выставления счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .
 
 2. Нажмите кнопку **Добавить метод оплаты**.
 
@@ -122,7 +123,7 @@ ms.locfileid: "44141128"
 
 ## <a name="view-your-invoices"></a>Просмотр накладных
 
-1. В центре администрирования перейдите на страницу **выставления счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .
+1. В центре администрирования перейдите на страницу **выставления счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">& платежей</a> .
 
 2. В разделе **счета** выберите счет, который необходимо просмотреть.
 

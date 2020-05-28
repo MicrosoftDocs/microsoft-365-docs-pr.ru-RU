@@ -11,22 +11,23 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
 - commerce
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 description: Администраторы могут узнать, как управлять самостоятельными покупками пользователей в Организации.
-ms.openlocfilehash: 991dc87c40f41a6cbd2f1c08d4bc72bbb34d28f1
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 562e0e26d9ca7d10d71a46b8cf2d87c487c1b529
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141154"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403274"
 ---
 # <a name="manage-self-service-purchases-admin"></a>Управление самостоятельно приобретенными лицензиями (администратор)
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -36,7 +37,7 @@ ms.locfileid: "44141154"
 
 ## <a name="view-self-service-subscriptions"></a>Просмотр подписок на самостоятельную обслуживание
 
-1. В центре администрирования перейдите на страницу **выставление счетов** > по<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
+1. В центре администрирования перейдите на страницу **выставление счетов**по  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Рядом с **уточнением результатов**в раскрывающемся списке **тип учетной записи** выберите пункт **самостоятельная служба**.
 
@@ -44,7 +45,7 @@ ms.locfileid: "44141154"
 
 ## <a name="view-who-has-licenses-for-a-self-service-purchase-subscription"></a>Просмотр лицензий на самостоятельную подписку на покупку
 
-1. В центре администрирования перейдите на страницу<a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">лицензии</a> **выставления счетов** > .
+1. В центре администрирования перейдите на страницу лицензии **выставления счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> .
 
 2. Нажмите значок фильтра, а затем выберите пункт **самообслуживание**.
 
@@ -63,7 +64,7 @@ ms.locfileid: "44141154"
 
 С помощью модуля PowerShell **мскоммерце** можно выполнять следующие действия:
 
-- Просмотр состояния значения &mdash; параметра **алловселфсервицепурчасе** по умолчанию независимо от того, включено или отключено по продукту
+- Просмотр состояния значения параметра **алловселфсервицепурчасе** по умолчанию &mdash; независимо от того, включено или отключено по продукту
 - Просмотр списка доступных продуктов и включение или отключение самостоятельной покупки
 - Просмотр или изменение текущего значения для конкретного продукта, чтобы включить или отключить его
 
@@ -75,7 +76,7 @@ ms.locfileid: "44141154"
 
 1. Войдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования</a> с помощью учетной записи глобального администратора или администратора выставления счетов.
 
-2. Перейдите на страницу Услуги по **выставлению счетов** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">покупки</a> .
+2. Перейдите на страницу Услуги по **выставлению счетов**  >  <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">покупки</a> .
 
 3. Найдите и выберите продукт, который вы хотите купить, и нажмите кнопку **купить**.
 

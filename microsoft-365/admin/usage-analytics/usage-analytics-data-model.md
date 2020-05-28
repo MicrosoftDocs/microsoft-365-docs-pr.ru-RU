@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - SPO_Content
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: 'Сведения о том, как аналитика использования подключается к API и обеспечивает месячный тренд использования различных служб Microsoft 365.  '
-ms.openlocfilehash: 2c39edd66bda19233a67c4623044ffc9e0e8046d
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 6b0b005e6e07e52731a84490a6df7c9ead614321
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011775"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402050"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Модель данных аналитики использования Microsoft 365
 
 ## <a name="data-for-the-microsoft-365-usage-analytics-tables"></a>Данные таблиц аналитики использования Microsoft 365
 
-Аналитика использования Microsoft 365 подключается к API, который предоставляет модель многомерных данных. The APIs are in preview and can be accessed at `https://reports.office.com/pbi/v1.0/\<tenantid\>` (replace the \<tenant id\> with your tenant GUID). 
+Аналитика использования Microsoft 365 подключается к API, который предоставляет модель многомерных данных. API находятся в режиме предварительной версии, и к ним можно получить доступ `https://reports.office.com/pbi/v1.0/\<tenantid\>` (замените \<tenant id\> идентификатором GUID клиента). 
   
 > [!NOTE]
 > Дополнительные сведения см. [в статье работа с отчетами об использовании microsoft 365 в Microsoft Graph](https://go.microsoft.com/fwlink/p/?linkid=864336). 

@@ -22,17 +22,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте о Microsoft 365 для бизнеса, о том, как настроить его и как подготовить устройства и компьютеры пользователей, чтобы убедиться, что они защищены Microsoft 365 для бизнеса.
-ms.openlocfilehash: a470f015857117d3cbbc15255e8d815438222509
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: a09b7c676f0e095d2a9db16daa56e19fb7a3baae
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165796"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402013"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Начало работы с Microsoft 365 для бизнеса
 
@@ -64,7 +65,7 @@ Microsoft 365 для бизнеса предназначено для лицен
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Настройка Microsoft 365 для бизнеса (администратор)

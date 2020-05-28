@@ -17,17 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Узнайте о том, как использовать по умолчанию и другие параметры, доступные в Microsoft 365 для бизнеса, для защиты устройств с Windows 10.
-ms.openlocfilehash: 9096fb6a8fc790d9a9432578cfd8623f9cb69c7a
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 0403ea2c30221dd5693b7f3e9b4921ad175399a1
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011574"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402813"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Настройка параметров защиты устройств для компьютеров с Windows 10
 
@@ -39,7 +40,7 @@ ms.locfileid: "44011574"
   
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. В левой панели навигации выберите пункт **Devices** \> **политики** \> устройств **Добавить**.
+2. В левой панели навигации выберите пункт **Devices** \> **политики** устройств \> **Добавить**.
   
 3. На панели **Добавить политику** введите уникальное имя политики. 
     
@@ -63,7 +64,7 @@ ms.locfileid: "44011574"
   
 |||
 |:-----|:-----|
-|Setting  <br/> |Описание  <br/> |
+|Параметр  <br/> |Описание  <br/> |
 |Использование антивирусной программы "Защитник Windows"  <br/> |Требует включения антивирусной программы "Защитник Windows" для защиты компьютеров, подключенных к Интернету.  <br/> |
 |Защитите компьютеры от угроз из Интернета в Microsoft Edge  <br/> |Включает параметры в Microsoft Edge, которые помогают защитить пользователей от вредоносных сайтов и скачиваний.  <br/> |
 |Использовать правила для ограничения направлений атак на устройства  <br/> |Если этот параметр включен, ограничение направлений атак позволяет блокировать действия и приложения, которые вредоносные программы обычно используют для заражения устройств. Этот параметр доступен, только если включена антивирусная программа "Защитник Windows". Дополнительные сведения см. в статье [Уменьшение уязвимой зоны](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection).  <br/> |

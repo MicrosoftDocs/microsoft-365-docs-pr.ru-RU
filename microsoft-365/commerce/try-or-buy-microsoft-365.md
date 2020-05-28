@@ -14,24 +14,25 @@ ms.collection:
 - Adm_O365
 - commerce
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: Узнайте, как получить бесплатную пробную версию или приобрести подписку на Microsoft 365.
-ms.openlocfilehash: 19529192e2fa48ac081a84e9ad54669c3ef16791
-ms.sourcegitcommit: 7ff75a0f45371b247d975fc61cfa286f5b6f42f6
+ms.openlocfilehash: 28ec622d32c3218238edf9c171b1eb0566a93c60
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44141058"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403142"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Пробное использование или приобретение подписки на Microsoft 365
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется центр администрирования. Если ваш интерфейс не отвечает указанным здесь сведениям, ознакомьтесь [со статьей о новом центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -50,7 +51,7 @@ Microsoft 365 — это полное решение, объединяющее O
 ::: moniker range="o365-worldwide"
 
 
-1. Войдите в центр администрирования по адресу [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339), а затем перейдите в раздел Услуги по **выставлению счетов** \> **покупки**.
+1. Войдите в центр администрирования по адресу [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339) , а затем перейдите в раздел Услуги по **выставлению счетов** \> **покупки**.
 
 2. На странице " **Покупка служб** " перечислены подписки, доступные в Организации. Выберите план Microsoft 365, который вы хотите испытать или купить.
 
@@ -79,7 +80,7 @@ Microsoft 365 — это полное решение, объединяющее O
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-1. Войдите в центр администрирования по адресу [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686), а затем перейдите в раздел Услуги по **выставлению счетов** \> **покупки**.
+1. Войдите в центр администрирования по адресу [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686) , а затем перейдите в раздел Услуги по **выставлению счетов** \> **покупки**.
 
 2. На странице " **Покупка служб** " перечислены подписки, доступные в Организации. 
 
@@ -107,7 +108,7 @@ Microsoft 365 — это полное решение, объединяющее O
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-1. Войдите в центр администрирования по адресу [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628), а затем перейдите в раздел Услуги по **выставлению счетов** \> **покупки**.
+1. Войдите в центр администрирования по адресу [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628) , а затем перейдите в раздел Услуги по **выставлению счетов** \> **покупки**.
 
 2. На странице " **Покупка служб** " перечислены подписки, доступные в Организации. 
 
