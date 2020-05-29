@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Узнайте, как использовать &amp; центр соответствия требованиям безопасности для подготовки данных для анализа с помощью расширенного обнаружения электронных данных. '
-ms.openlocfilehash: 31bf002c275b228de12b7ff9e39fabf7c72be74d
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: cf6ace4f88aa18790495b79ed3aa22ebeda75545
+ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214287"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412828"
 ---
 # <a name="prepare-data-for-advanced-ediscovery-classic"></a>Подготовка данных для расширенного обнаружения электронных данных (классический)
 
@@ -51,7 +51,7 @@ ms.locfileid: "44214287"
     
 4. Нажмите кнопку **Открыть** рядом с тем случае, в которое вы хотите загрузить данные в разделе Advanced eDiscovery. 
     
-5. На странице **Главная** для этого дела выберите **Advanced eDiscovery**. 
+5. На **домашней** странице для этого варианта нажмите кнопку **переключиться на дополнительные функции обнаружения электронных**данных. 
     
     ![Нажмите кнопку переключения, чтобы открыть Расширенное обнаружение электронных данных, чтобы открыть дело в Advanced eDiscovery](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

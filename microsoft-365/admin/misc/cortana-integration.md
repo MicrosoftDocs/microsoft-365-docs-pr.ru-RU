@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
-description: 'Узнайте, как использовать Кортану, интегрированные с Office 365. Вы можете отключить Кортану в центре администрирования, чтобы ограничить доступ к данным вашей организации. '
-ms.openlocfilehash: 80c4425814e6015d5a8116a1e8df7f7b528dbd66
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Войдя в систему с действительными рабочими или учебными учетными записями, пользователи могут получать облачные службы помощи с помощью Кортаны в Microsoft 365 взаимодействия, которые отвечают за конфиденциальность, безопасность и соответствие требованиям Office 365 на уровне предприятия.
+ms.openlocfilehash: 6c1eb42ad54c0cfb25f84b9f584171eb7d198bb9
+ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399414"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44411005"
 ---
 # <a name="cortana-in-microsoft-365"></a>Кортана в Microsoft 365
 
