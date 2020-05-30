@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Сведения о том, что происходит при закрытии или удалении судебного разбирательства, поддерживаемого расширенным вариантом обнаружения электронных данных.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: be8d133a8215fc40c6d33025f9f4d1dee0f3b609
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: ffdd93351325be0c4b5d6d8cdfb78e55b710c0be
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412788"
+ms.locfileid: "44419065"
 ---
 # <a name="close-or-delete-an-advanced-ediscovery-case"></a>Закрытие или удаление расширенного случая обнаружения электронных данных
 
@@ -56,7 +56,7 @@ ms.locfileid: "44412788"
 
 Чтобы повторно открыть Закрытое обращение:
 
-1. На странице **Advanced eDiscovery (Advanced eDiscovery** ) выберите вариант, который требуется удалить.
+1. На странице **Advanced eDiscovery (Advanced eDiscovery** ) выберите случай, который необходимо открыть.
 
 2. На вкладке **Параметры** в разделе **сведения о варианте case**нажмите кнопку **выбрать**.
 

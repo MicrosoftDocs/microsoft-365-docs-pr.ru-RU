@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 788021d9bcd531cbd9210299cb90f1cce49db1c7
-ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
+ms.openlocfilehash: e49c2271bd7005c674447cd59d5ccf7439cf4710
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42284370"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44418882"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -42,6 +42,7 @@ ms.locfileid: "42284370"
 |HP об x360 1030 G3| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера |**14 мая 2023 г.** |
 |HP об x360 1040 G5| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера | **23 октября 2023 г.** |
 |Книга Surface 2| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **16 ноября 2022 г.** |
+|Переход на поверхность| 128 ГБ/Intel 4415Y/8 ГБ ОЗУ | Нет | **Авг 2, 2023** |
 |Ноутбук поверхности| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **20 мая 2022 г.** |
 |Surface Pro| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **15 июня 2022 г.** |
 

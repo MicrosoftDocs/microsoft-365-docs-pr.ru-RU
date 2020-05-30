@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Мы постоянно добавляем новые функции в центр соответствия требованиям Microsoft 365, устранять проблемы, которые мы будем изучать, и вносить изменения в соответствии с вашими отзывами. Узнайте, что мы использовали до этого месяца.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: baccff8699f9ec7b38090fb5adc0fcde8811c764
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 314c118673375abcf1e774a8d96d8a17edb505ff
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327741"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44418903"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Новые возможности центра соответствия требованиям Microsoft 365
 
@@ -172,12 +172,12 @@ ms.locfileid: "44327741"
 |Запросы субъектов данных |Конфиденциальность данных > запросов субъектов данных <br/> https://protection.office.com/dsrcases |Запросы субъектов данных <br/> https://compliance.microsoft.com/datasubjectrequest |[Управление запросами субъектов данных GDPR с помощью средства DSR Case](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |Обнаружение электронных данных|Обнаружение электронных данных > обнаружения электронных данных <br/> https://protection.office.com/ediscoveryv1 |Ядро > обнаружения электронных данных <br/> https://compliance.microsoft.com/classicediscovery |[Управление делами по обнаружению электронных данных](ediscovery-cases.md) |
 |События|События > управления записями <br/> https://protection.office.com/events |Вкладка "события управления записями >" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Общие сведения о хранении, зависящем от возникновения события](event-driven-retention.md)|
-|План хранения|Управление записями > плане файлов <br/> https://protection.office.com/fileplan |> "Управление записями" на вкладке "план файлов" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Общие сведения о диспетчере плана хранения](file-plan-manager.md)|
+|План хранения|Управление записями > плане файлов <br/> https://protection.office.com/fileplan |> "Управление записями" на вкладке "план файлов" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Использование плана файлов для управления метками хранения](file-plan-manager.md)|
 |Импорт PST-файлов|Управление сведениями > Импорт PST-файлов <br/> https://protection.office.com/importV2 |Вкладка "Управление сведениями >" <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Обзор импорта файлов PST вашей организации](importing-pst-files-to-office-365.md)|
 |Обозреватель действий с метками|> "Управление сведениями" Обозреватель действий меток <br/> https://protection.office.com/labelexplorer |Вкладка "> классификации данных" обозревателя действий <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Просмотр действий над содержимым с метками (предварительная версия)](data-classification-activity-explorer.md)|
 |Метки хранения и политики меток |Классификация > метки хранения > метки и политики меток <br/> https://protection.office.com/retentionlabels |Вкладки "Управление сведениями > метки и политики меток" <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [Обзор меток хранения](labels.md)|
 |Политики хранения|Хранение > управления сведениями <br/> https://protection.office.com/retention |Вкладка "Управление сведениями > хранения" <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[Обзор политик хранения](retention-policies.md)|
-|Типы конфиденциальной информации|Классификация > типы конфиденциальной информации <br/> https://protection.office.com/sensitivetypes |Классификация данных > вкладка "типы конфиденциальной информации" <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[Определения объектов типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)|
+|Типы конфиденциальной информации|Классификация > типы конфиденциальной информации <br/> https://protection.office.com/sensitivetypes |Классификация данных > вкладка "типы конфиденциальной информации" <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[Определения объектов типов конфиденциальной информации](sensitive-information-type-entity-definitions.md)|
 |Метки конфиденциальности и политики меток|Классификация > меток чувствительности > меток и политик меток <br/> https://protection.office.com/sensitivity |Вкладки "Защита информации > меток и политик меток" <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[Сведения о метках конфиденциальности](sensitivity-labels.md) |
 |Контроль качества обслуживания|Контроль качества обслуживания <br/> https://protection.office.com/serviceassurance/dashboard |На данный момент ресурсы контроля качества обслуживания доступны только в центре безопасности Office 365 & соответствия требованиям. |[Гарантия обслуживания в центре безопасности & соответствия требованиям](service-assurance.md)|
 |Контроль|Контроль <br/> https://protection.office.com/supervisoryreviewv2 |Соответствие требованиям к обмену данными <br/> https://compliance.microsoft.com/supervisoryreview |[Соответствие требованиям в Microsoft 365 (Предварительная версия)](communication-compliance.md) |
