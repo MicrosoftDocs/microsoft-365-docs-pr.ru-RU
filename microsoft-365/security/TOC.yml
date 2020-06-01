@@ -283,7 +283,7 @@
                   items:
                     - name: Настроить фильтрацию исходящего спама
                       href: ./office-365-security/configure-the-outbound-spam-policy.md
-                    - name: Пул доставки сообщений с высоким уровнем опасности
+                    - name: Пулы доставки исходящей почты
                       href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
                     - name: Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом"
                       href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
