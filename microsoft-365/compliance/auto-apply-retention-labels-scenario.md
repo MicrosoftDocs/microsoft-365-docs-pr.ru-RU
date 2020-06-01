@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Этот сценарий решения иллюстрирует управление жизненным циклом связанных с продуктами документов, хранящихся в SharePoint Online с использованием меток хранения. Эта задача решается путем использования метаданных документа для классификации содержимого, в том числе путем автоматического применения меток хранения и настройки хранения на основе событий.
-ms.openlocfilehash: 214384fcdf5099f71c36425102bb62866859f910
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9c8a7044dccdb60f8e579d6dcad64310d1dda0d5
+ms.sourcegitcommit: 6746fae2f68400fd985711b1945b66766d2a59a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636397"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44419105"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>Управление жизненным циклом документов SharePoint с помощью меток хранения
 
@@ -285,25 +285,25 @@ KQL не может использовать свойства для обход�
 Чтобы создать этот поток, начните с соединителя SharePoint и выберите триггер **При создании или изменении элемента**. Укажите адрес сайта и имя списка, затем добавьте условие для столбце **В производстве** этого списка при установке значения **Нет** (или значения "false" в карточке условия). Затем добавьте действие на основе встроенного шаблона HTTP. Для настройки действия HTTP используйте значения, указанные в следующем разделе. Можно скопировать значения свойств "URI" и "Текст" из раздела ниже и вставить их в шаблон.
 
 - **Метод**: POST
-- **URI**: https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+- **URI**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **Заголовки**: Key = Content-Type, Value = application/atom+xml
 - **Текст**:
-
-```HTML
-<?xml version='1.0' encoding='utf-8' standalone='yes'>
-<entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
-<category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
-<updated>9/9/2017 10:50:00 PM</updated>
-<content type='application/xml'>
-<m:properties>
-<d:Name>Cessation Production @{triggerBody()?['Product_x0020_Name']?['Value']}</d:Name>
-<d:EventType>Product Cessation&lt;</d:EventType>
-<d:SharePointAssetIdQuery>ProductName:&quot;@{triggerBody()?['Product_x0020_Name']?['Value']}<d:SharePointAssetIdQuery>
-<d:EventDateTime>@{formatDateTime(utcNow(),'yyyy-MM-dd')}</d:EventDateTime>
-</m:properties>
-</content&gt>
-</entry>
-```
+    
+    ```HTML
+    <?xml version='1.0' encoding='utf-8' standalone='yes'>
+    <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
+    <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
+    <updated>9/9/2017 10:50:00 PM</updated>
+    <content type='application/xml'>
+    <m:properties>
+    <d:Name>Cessation Production @{triggerBody()?['Product_x0020_Name']?['Value']}</d:Name>
+    <d:EventType>Product Cessation&lt;</d:EventType>
+    <d:SharePointAssetIdQuery>ProductName:&quot;@{triggerBody()?['Product_x0020_Name']?['Value']}<d:SharePointAssetIdQuery>
+    <d:EventDateTime>@{formatDateTime(utcNow(),'yyyy-MM-dd')}</d:EventDateTime>
+    </m:properties>
+    </content&gt>
+    </entry>
+    ```
 
 Следующий раздел описывает параметры в свойстве *Текст* действия, которое должно быть настроено для этого сценария.
 
