@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: Сведения об удалении учетной записи пользователя. Определите, что делать с электронной почтой пользователя, контентом OneDrive и следует ли оставить лицензию на продукт или прекратить ее оплату.
-ms.openlocfilehash: 4102fe4ac297a1f426b3bf575e748a72b323ebb6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 81243286b70985082f8b671d7e021735a76cffc4
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387193"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431681"
 ---
 # <a name="delete-a-user-from-your-organization"></a>Удаление пользователя из организации
   
@@ -67,13 +67,6 @@ ms.locfileid: "44387193"
 |Active Directory  <br/> |Если ваша организация использует **службу Active Directory** , которая синхронизируется с Azure AD, необходимо удалить учетную запись пользователя из Active Directory. В Office 365 сделать это нельзя. Инструкции приведены в разделе [Удаление учетной записи пользователя](https://go.microsoft.com/fwlink/p/?linkid=841808).  <br/> |
    
 ### <a name="get-started"></a>Начало работы
-
-::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
-
-::: moniker-end
 
 Так как руководство посвящено удалению пользователя, приведенные ниже инструкции помогут приступить к работе.
 
@@ -185,7 +178,7 @@ ms.locfileid: "44387193"
 |:-----|
 |**Вы хотите удалить Microsoft 365 с компьютера? Перейдите к разделу [Отмена подписки](../../commerce/subscriptions/cancel-your-subscription.md).**|
    
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Восстановление пользователя](restore-user.md)
   

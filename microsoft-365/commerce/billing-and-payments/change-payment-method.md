@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: Узнайте, как изменить способ оплаты для вашей бизнес-подписки.
-ms.openlocfilehash: 7350546da14ebd68182e158c0d15cdfb727f5718
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 41cf16397c4b3d2341721e741c6b293005971909
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407972"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432419"
 ---
 # <a name="change-your-payment-method"></a>Изменение метода оплаты
 
@@ -202,12 +202,6 @@ ms.locfileid: "44407972"
 1. В центре администрирования перейдите на страницу **выставление счетов** по \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">продуктам</a> .
 
 2. Найдите подписку, которую вы хотите проверить. Метод оплаты, настроенный для подписки, отображается в разделе **выставление счетов** .
-
-### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>Использование старого центра администрирования для проверки настройки метода оплаты
-
-1. В центре администрирования перейдите на страницу подписки на **выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Subscriptions</a> .
-
-2. Найдите подписку, которую вы хотите проверить. Метод оплаты, настроенный для подписки, отображается в разделе **метод оплаты**.
 
 ::: moniker-end
 

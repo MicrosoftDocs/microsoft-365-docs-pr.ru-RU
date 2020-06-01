@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: 1dde487ef9dc99b45263a21ce62d556249ada927
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f557d00e21659880a96e4cd1936ab40d4b5a2dec
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387277"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432115"
 ---
 # <a name="get-started-with-the-roles-page"></a>Начало работы со страницей "роли"
 
@@ -99,3 +99,9 @@ ms.locfileid: "44387277"
 :::image type="content" source="../../media/compare-roles-list.png" alt-text="Рисунок, показывающий сравнение ролей администратора":::
 
 ::: moniker-end
+
+## <a name="related-topics"></a>Связанные статьи
+
+[О ролях администратора Microsoft 365](about-admin-roles.md)
+
+[Назначение ролей администратора](assign-admin-roles.md)

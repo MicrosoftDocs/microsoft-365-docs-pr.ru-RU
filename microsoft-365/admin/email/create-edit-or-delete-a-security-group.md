@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Узнайте, как создать, изменить или удалить группу безопасности.
-ms.openlocfilehash: 283f1eca7500bfb1d8172657639bbc7cff76906f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 49fe9b941564f26268045f6e57af329900476b90
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400092"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432281"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, изменение и удаление группы безопасности в центре администрирования Microsoft 365
 
@@ -58,9 +58,6 @@ ms.locfileid: "44400092"
 ### <a name="add-members-to-a-security-group"></a>Добавление участников в группу безопасности
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
     
 1. Выберите имя группы безопасности на странице " **группы** ", а затем на вкладке **Участники** выберите **Просмотр всех элементов и управление ими**. 
     
@@ -95,9 +92,6 @@ ms.locfileid: "44400092"
 
 ::: moniker range="o365-worldwide"
 
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
-
 1. В центре администрирования перейдите на **Groups** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> группы.
   
 2. На странице **группы** выберите имя группы. 
@@ -108,7 +102,7 @@ ms.locfileid: "44400092"
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на **Groups** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> группы.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">центре администрирования</a>перейдите на **Groups** \> страницу **группы** группы.  
   
 2. На странице **группы** выберите имя группы. 
     
@@ -120,7 +114,7 @@ ms.locfileid: "44400092"
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на **Groups** \> страницу <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">группы</a> группы.
+1. В <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центре администрирования</a>перейдите на **Groups** \> страницу **группы** группы.
   
 2. На странице **группы** выберите имя группы. 
     

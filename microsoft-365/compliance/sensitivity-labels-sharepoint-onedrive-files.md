@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: 178359ae993e0db3ec5fd09cae0a13de351a3b94
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: c364c55888165b10de603fd4709e4f82b06f83cc
+ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411016"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432608"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -39,6 +39,8 @@ ms.locfileid: "44411016"
 - Для того чтобы SharePoint удалил шифрование из файла при отправке, пользователь, который отправляет подписанный и зашифрованный файл, должен иметь права на использование по крайней мере для просмотра файла. SharePoint не удаляет шифрование файлов, если пользователь не может открыть их извне SharePoint.
 
 - Используйте Office в Интернете (Word, Excel, PowerPoint), чтобы открывать и редактировать файлы Office с метками конфиденциальности, которые применяют шифрование. Применяются разрешения, которые были назначены для шифрования. С помощью Word в Интернете вы также можете использовать автоматические метки при редактировании этих документов.
+
+- Внешние пользователи могут получать доступ к документам, помеченным с помощью шифрования с помощью учетных записей гостя. Дополнительную информацию можно узнать в статье [Поддержка внешних пользователей и помеченного содержимого](sensitivity-labels-office-apps.md#support-for-external-users-and-labeled-content). 
 
 - Обнаружение электронных данных Office 365 поддерживает полнотекстовый поиск этих файлов. Политики защиты от потери данных охватывают содержимое этих файлов.
 

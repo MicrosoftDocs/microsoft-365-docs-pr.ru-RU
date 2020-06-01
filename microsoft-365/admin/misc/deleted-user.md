@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
 description: Узнайте, как удалить или восстановить учетную запись пользователя Microsoft 365.
-ms.openlocfilehash: 3b7e71aa11c153372c9b38c54e45397c5f840c2e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 13908a83ffa39369b2aea71e7212fd0d41488c44
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399390"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432187"
 ---
 # <a name="quick-help-deleted-user"></a>Быстрая справка: удаленный пользователь
 
@@ -35,9 +35,6 @@ ms.locfileid: "44399390"
 ## <a name="delete-a-user"></a>Удаление пользователя
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
   
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
 

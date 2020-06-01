@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Администраторы Exchange Online управляют электронной почтой и почтовыми ящиками организации. Например, они восстанавливают удаленные элементы в почтовом ящике пользователя. '
-ms.openlocfilehash: cf7bd2a7856017ccf4f17f71ad1845b56b004a10
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6d5596bd572d6fa5d43c79c34f174528fbfb3f1d
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387430"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432139"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Роль администратора Exchange Online
 
@@ -56,9 +56,10 @@ ms.locfileid: "44387430"
   
  Например, администратор Exchange может назначить пользователю группу ролей "Управление обнаружением", чтобы он мог искать в почтовых ящиках данные, которые соответствуют определенным критериям. Дополнительные сведения см. в статьях [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) и [Управление группами ролей](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
   
-## <a name="learn-about-other-admin-roles"></a>Сведения о других ролях администратора
-    
+## <a name="learn-about-other-admin-role"></a>Сведения о других ролях администратора
+
+- [О ролях администратора Microsoft 365](about-admin-roles.md)
+
 - [О роли администратора SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)
-    
+
 - [Роль администратора Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online)
-    

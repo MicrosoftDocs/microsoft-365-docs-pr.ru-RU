@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: c5e629f0d683c6dc3e18b1278027ac3a88cc834b
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fdf0b9db2c23632a213e860bd54097c1d453cf55
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399900"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432395"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
 
@@ -47,9 +47,6 @@ ms.locfileid: "44399900"
 #### <a name="move-users"></a>Перемещение пользователей
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">центр администрирования</a>.
 
@@ -100,9 +97,6 @@ ms.locfileid: "44399900"
 #### <a name="move-yourself"></a>Самостоятельное перемещение
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. Перейдите в <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">центр администрирования</a>.
 
@@ -231,7 +225,7 @@ ms.locfileid: "44399900"
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 

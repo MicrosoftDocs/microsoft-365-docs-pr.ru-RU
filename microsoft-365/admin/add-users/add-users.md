@@ -25,21 +25,18 @@ search.appverid:
 - GEA150
 ms.assetid: 1970f7d6-03b5-442f-b385-5880b9c256ec
 description: Узнайте, как добавлять пользователей в Microsoft 365 один раз в один раз или нескольких пользователей из CSV-файла.
-ms.openlocfilehash: 1b63f09bf34f5ca54be83eedfac9188251578a05
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: af4fead3112a678b1ee7eacb087dddc40ed43d36
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387265"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432127"
 ---
 # <a name="add-users-individually-or-in-bulk"></a>Добавление пользователей по отдельности или в пакетном режиме
 
 Пользователям в вашей группе требуется учетная запись пользователя, прежде чем она сможет войти в систему и получить доступ к [Microsoft 365 для бизнеса](https://go.microsoft.com/fwlink/?LinkID=519395). Самый простой способ добавить учетные записи пользователей — добавить их по одной в центр администрирования Microsoft 365. После выполнения этого действия пользователям будут назначены лицензии Microsoft 365, учетные данные входа и почтовые ящики Microsoft 365.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. Перейдите в Центр администрирования <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>.
 
@@ -146,7 +143,7 @@ ms.locfileid: "44387265"
     
 - **Миграция с Exchange** [Способы переноса нескольких учетных записей электронной почты в Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration). При переносе нескольких почтовых ящиков в Microsoft 365 с помощью прямой, поэтапной или гибридной среды Exchange пользователи будут добавлены автоматически в рамках миграции. При миграции добавляются только учетные записи пользователей. Чтобы пользователи смогли получать доступ к электронной почте и другим приложениям Office, вам потребуется назначить им лицензии.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление нового сотрудника в Microsoft 365](add-new-employee.md)
 

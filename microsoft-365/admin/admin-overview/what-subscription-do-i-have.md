@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: Сведения о том, как проверить, какие подписки в организации имеют, перейдя на страницу подписки.
-ms.openlocfilehash: 438d9932b2e0dcce0e75e0d979908cdab5979f13
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0e2ff42ad75e2006470c441c6c3403fcfd127e93
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386749"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44431609"
 ---
 # <a name="what-subscription-do-i-have"></a>Какая у меня подписка?
 
@@ -38,9 +38,6 @@ ms.locfileid: "44386749"
  **Вы не являетесь администратором?** Узнайте [о продуктах и лицензиях Microsoft 365 для бизнеса?](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx)
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
 
 1. В Центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Ваши продукты</a>.
 
@@ -86,6 +83,6 @@ ms.locfileid: "44386749"
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
   
 [Подписки и выставление счетов](../../commerce/index.yml)

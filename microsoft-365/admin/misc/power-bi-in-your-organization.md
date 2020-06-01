@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Узнайте о Power BI и о том, как пользователи в вашей организации могут использовать эту службу бизнес-аналитики.
-ms.openlocfilehash: cabe489915061a773c0faeb8687695f2672fe478
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5a5e7516800b2010f79296d758aeaeef80194bfd
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399306"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432175"
 ---
 # <a name="power-bi-in-your-organization"></a>Power BI в организации
 
@@ -171,9 +171,6 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 Если пользователь зарегистрировался в службе Power BI, однако вы хотите запретить ему доступ к Power BI, можно удалить лицензию Power BI для этого пользователя.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> Если вы не используете новый Центр администрирования Microsoft 365, можно включить его с помощью переключателя **Попробовать новый Центр администрирования**, расположенного в верхней части главной страницы.
   
 1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
     
