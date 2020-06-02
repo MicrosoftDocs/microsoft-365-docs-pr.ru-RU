@@ -22,18 +22,20 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Узнайте, как автоматически установить 32 приложения Office на компьютеры с Windows 10 и оставить их обновленными.
-ms.openlocfilehash: 6f3a80be9729a3818607c0f42e2cc7ece66a07ee
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2de492914edbde2afe593aac290c4a634b801443
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401329"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470954"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>Подготовка к развертыванию клиента Office с помощью Microsoft 365 для бизнеса
 
+Эта статья относится к Microsoft 365 Business Premium.
+
 ## <a name="prepare-to-automatically-install-office-apps-to-client-computers"></a>Подготовка к автоматической установке приложений Office на клиентские компьютеры
 
-Вы можете использовать Microsoft 365 для бизнеса, чтобы автоматически установить 32-разрядные приложения Office на компьютеры с Windows 10 и оставить их в курсе последних обновлений.
+С помощью Microsoft 365 Business Premium можно автоматически устанавливать 32-разрядные приложения Office на компьютеры с Windows 10 и поддерживать их последние обновления.
   
 Автоматическая установка работает лучше, если компьютер конечного пользователя включен в Windows 10 бизнес и:
   

@@ -5,12 +5,12 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 034305eec75bd369752915084b2857ebea455aa0
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: ccaa0a99dbfe8ce775f078093b9bf6b34e503fa7
+ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327928"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44477188"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Управляемые устройства для настольных компьютеров Майкрософт 
 
@@ -42,6 +42,7 @@ ms.locfileid: "44327928"
 | [Dell Latitude 7300](https://www.dell.com/en-us/work/shop/laptops/13-7300/spd/latitude-13-7300-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 мая 2021 г.  | 1 мая 2024 г.  |
 | [Dell Latitude 7400](https://www.dell.com/en-us/work/shop/laptops/new-14/spd/latitude-14-7400-laptop) | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 мая 2021 г.  | 1 мая 2024 г.  |
 | **\*[Dell Latitude 7400 2 – in – 1](https://www.dell.com/en-us/work/shop/laptops/14-2-in-1/spd/latitude-14-7400-2-in-1-laptop)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | Необходима ИК-камера | 1 мая 2021 г.  | 1 мая 2024 г.  |
+| **\*[Dell OptiPlex 3070](https://www.dell.com/en-us/work/shop/desktops-n-workstations/3070/spd/optiplex-3070-desktop)** | 128 ГБ/Intel i3/8 ГБ ОЗУ | Нет | 1 мая 2022 г.  | 1 мая 2025 г.  |
 | [HP об 830/840/850 G6 Notebook PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 30 ноября 2020 г. | 30 ноября 2023 г. |
 | [HP об x360 830 G6 Notebook PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера или датчик отпечатков пальцев | 30 ноября 2020 г. | 30 ноября 2023 г. |
 | **\*[HP елите x2 G4 для планшетов](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1)** | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS03AV | 31 июля 2021 г. | 31 июля 2024 г. |
@@ -54,11 +55,11 @@ ms.locfileid: "44327928"
 | [HP Пробук x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV, необходима ИК-камера или считыватель отпечатков пальцев | 6 июня 2020 г. | 6 июня 2023 г. |
 | [HP Z2 Mini G4 Workstation](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 8QR48AV| 31 января 2021 г. | 31 января 2024 г. |
 |[HP Збук 14U/15U G6 Mobile Workstation](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS02AV, необходима ИК-камера | 30 ноября 2020 г. | 30 ноября 2023 г. |
-| [Переход на поверхность](https://www.microsoft.com/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 ГБ/Intel 4415Y/8 ГБ ОЗУ | Нет | Авг 2, 2020 | Авг 2, 2023 |
+| [Переход на поверхность 2](https://www.microsoft.com/p/surface-go-2-for-business/8wzd6dhzj7kv?activetab=pivot%3aoverviewtab) | 128 ГБ/с Intel Core M3/8 ГБ ОЗУ | Нет | 21 мая, 2022 | 21 мая, 2027 |
 | [Ноутбук 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
-| **\*[Портативный компьютер Surface 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3)** | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |
+| **\*[Портативный компьютер Surface 3](https://www.microsoft.com/surface/business/surface-laptop-3)** | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 16 октября 2020 г. | 16 октября 2023 г. |
-| **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |
+| **\*[Surface Pro 7](https://www.microsoft.com/surface/business/surface-pro-7)** | 128 ГБ/Intel i5/8 ГБ ОЗУ | Нет | 22 октября, 2021 | 22 октября, 2024 |
 
 Кроме того, устройство также должно удовлетворять следующим условиям:     
 

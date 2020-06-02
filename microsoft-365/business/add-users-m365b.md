@@ -27,14 +27,16 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Сведения о том, как с легкостью добавлять новых пользователей, защищать их устройства и назначать роли в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: bb5c3ffe29448437b6c369fc770281aca3355ee7
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401081"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471226"
 ---
 # <a name="add-more-users"></a>Добавление дополнительных пользователей
+
+Эта статья относится к Microsoft 365 Business Premium.
 
 ## <a name="add-new-users"></a>Добавление новых пользователей
 
@@ -42,7 +44,7 @@ ms.locfileid: "44401081"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы добавить пользователя:
 

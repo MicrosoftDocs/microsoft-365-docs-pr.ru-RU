@@ -27,14 +27,16 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Чтобы защитить данные компании на личных устройствах пользователей, используйте политики, предназначенные для определенных устройств и групп безопасности.
-ms.openlocfilehash: 2407db3309ed0967daa6eef9da14a702079d0487
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 18bf29d82b8020d31fec681b2114af86f52cad9c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400897"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471166"
 ---
 # <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Защита данных Организации политиками в Microsoft 365 для бизнеса
+
+Эта статья относится к Microsoft 365 Business Premium.
 
 Создаваемые вами политики применяются к определенному типу устройств и могут действовать для отдельных групп пользователей. Это означает, что можно создать одну политику для руководителей, а другую  для остальных сотрудников.
   

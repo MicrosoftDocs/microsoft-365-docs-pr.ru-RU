@@ -22,14 +22,16 @@ search.appverid:
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
 description: Узнайте о требованиях к настройке организации с помощью Microsoft 365 для бизнеса и защите рабочих данных на устройствах пользователей.
-ms.openlocfilehash: e170f7ca4fb8373c9070bcbfc1783138c20422c1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401349"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470974"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Необходимые условия для защиты данных на устройствах с помощью Microsoft 365 для бизнеса
+
+Эта статья относится к Microsoft 365 Business Premium.
 
 Первый этап настройки организации с помощью Microsoft 365 для бизнеса состоит в том, чтобы убедиться, что вы можете выполнить необходимые условия.
   

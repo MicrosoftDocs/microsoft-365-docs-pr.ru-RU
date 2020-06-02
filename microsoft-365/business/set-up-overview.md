@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Узнайте о действиях по настройке Microsoft 365 Business Premium, о том, как подписываться, добавлять домен и пользователей, настраивать политики безопасности и т. д.
-ms.openlocfilehash: 80243fac6ca2efcfca030b6ee1c1113c026a80ce
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4670344263ceb64a32962dfa6eb9c1644e61541d
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402985"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470532"
 ---
 # <a name="overview-of-setup"></a>Обзор установки
 
@@ -40,7 +40,7 @@ ms.locfileid: "44402985"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Большинство действий по установке можно выполнить с помощью мастера установки, но есть и другие варианты.
 
@@ -48,7 +48,7 @@ ms.locfileid: "44402985"
 
    - **[Добавьте домен](set-up.md#add-your-domain-to-personalize-sign-in)** (если вы приобрели домен в ходе[регистрации](sign-up.md), то это действие уже выполнено.)
 
-    - **Добавление пользователей**. Добавить пользователей можно тремя способами:
+   - **Добавление пользователей**. Добавить пользователей можно тремя способами:
         - В этом [мастере](set-up.md#add-users-in-the-wizard).
         - Воспользуйтесь синхронизацией каталогов, чтобы [добавить пользователей с помощью Azure AD Connect ](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization), если у вас есть локальная служба каталогов Active Directory.
         - Кроме того, вы сможете [добавить пользователей позже](add-users-m365b.md) в Центре администрирования.

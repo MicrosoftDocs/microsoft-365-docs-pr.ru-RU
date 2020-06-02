@@ -25,16 +25,16 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Сведения о том, как включить Microsoft 365 для защиты локальных подключенных к Active Directory устройств с Windows 10 в всего несколько этапов.
-ms.openlocfilehash: e7f83e620fbb43a478dba98f78d5f471a541aea7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7bfe5da8701a17712fa249eac99a22b8d5a1b2d1
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403065"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471054"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>Включение управления устройствами с Windows 10, подключенными к домену, в Microsoft 365 для бизнеса
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Управление устройствами с Windows 10, подключенными к домену, с помощью Microsoft 365 Business Premium
 
-Если ваша организация использует локальную службу Windows Server Active Directory, вы можете настроить Microsoft 365 для бизнеса, чтобы защитить устройства с Windows 10, сохраняя доступ к локальным ресурсам, требующим локальной проверки подлинности.
+Если ваша организация использует локальную службу Windows Server Active Directory, вы можете настроить Microsoft 365 Business Premium для защиты устройств Windows 10, сохраняя доступ к локальным ресурсам, требующим локальной проверки подлинности.
 Чтобы настроить эту защиту, можно внедрить **гибридные подключенные устройства Azure AD**. Эти устройства присоединяются как к локальной службе Active Directory, так и к Azure Active Directory.
 
 В этом видеоролике описаны действия, которые необходимо выполнить для наиболее распространенного сценария, который также содержит подробные инструкции.
