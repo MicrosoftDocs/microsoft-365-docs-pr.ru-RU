@@ -281,7 +281,7 @@
           href: retention-policies-teams.md
         - name: Хранение в Exchange
           href: retention-policies-exchange.md
-        - name: Диспетчер плана хранения
+        - name: План хранения
           href: file-plan-manager.md
         - name: Сведения о метках хранения
           href: labels.md
@@ -333,7 +333,7 @@
           href: records.md
         - name: План хранения
           items:
-            - name: Диспетчер плана хранения
+            - name: Управление метками хранения
               href: file-plan-manager.md
             - name: Сведения о метках хранения
               href: labels.md
