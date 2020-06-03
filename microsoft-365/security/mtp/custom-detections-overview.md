@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: a9ba61650b69e3c42506735c90ae05b917a53209
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: cdbaf9cfd2172656ed75cb3c0a1a9e361070f25b
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42931748"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498355"
 ---
 # <a name="custom-detections-overview"></a>Обзор настраиваемых обнаружений
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 С помощью пользовательских обнаружений можно отслеживать различные события и состояния системы и отвечать на них, в том числе подозреваемые и неправильно настроенные конечные точки. Это можно сделать с помощью настраиваемых правил обнаружения, которые автоматически запускают оповещения и действия ответа.
 

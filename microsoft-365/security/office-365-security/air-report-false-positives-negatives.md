@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 2dd67af62a400f3e217f146e6d0ee213d74ad99a
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 837232550ca392a364b9842f64a1c3f0d790a502
+ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262418"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44520162"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Составление отчетов о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования
 
@@ -34,7 +34,7 @@ ms.locfileid: "44262418"
 Были ли [автоматизированные функции расследования и реагирования (AIR) в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) пропустили или ошибочно обнаружить что-то? Чтобы устранить эту проблему, выполните указанные ниже действия. Варианты действий:
 - [Сообщить о ложных положительных и отрицательных значениях корпорации Майкрософт](#report-a-false-positivenegative-to-microsoft-for-analysis);
 - [Настройте оповещения](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости); с 
-- [Отмена действий по исправлению, сделанных на устройствах](#undo-a-remediation-action). 
+- [Отмена выполненных действий по исправлению](#undo-a-remediation-action). 
 
 Используйте эту статью в качестве руководства. 
 
@@ -61,7 +61,7 @@ ms.locfileid: "44262418"
 
 В обозревателе угроз группа "операции безопасности" может найти сообщение электронной почты, затронутое действием, и, возможно, отменить действие.
 
-|Сценарий  |Параметры отмены  |Дополнительные сведения |
+|Сценарий  |Параметры отмены  |Подробнее |
 |---------|---------|---------|
 |Сообщение электронной почты было перенаправлено в папку нежелательной почты пользователя     |— Переместить сообщение в папку "Удаленные" пользователя.<br/>— Переместить сообщение в папку "Входящие" пользователя <br/>— Удалить сообщение.          |[Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered) |
 |Сообщение электронной почты или файл помещено в карантин     |— Освободите электронную почту или файл. <br/>— Удаление электронной почты или файла         |[Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files) |
@@ -83,7 +83,7 @@ ms.locfileid: "44262418"
 
 6. Чтобы отменить действие, выберите **Удалить исправление**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 

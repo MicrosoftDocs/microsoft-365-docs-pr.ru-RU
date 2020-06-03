@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: 23d024ed7f18fe6a5f5dc9b59e3ad20069dc3e6a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6571fb3ba53620fbb8b97d8f5fd76832f95b82c3
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402242"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515903"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Переход с Office 365 E3 на Microsoft 365 бизнес премиум 
 
@@ -78,6 +78,7 @@ Microsoft 365 Business Premium содержит все необходимое д
 - Конфигурация подписки, например записи DNS и доменные имена.
 - Учетные записи пользователей и групп и параметры проверки подлинности, такие как многофакторная проверка подлинности или политики условного доступа.
 - Конфигурации служб производительности и их данные, такие как Teams, почтовые ящики Exchange Online, сайты SharePoint Online, папки OneDrive для бизнеса и записные книжки OneNote.
+- Приложения Office будут масштабироваться автоматически. Современное лицензирование Office 365 будет проверять назначение лицензии пользователя каждые 72 часов и преобразовывать приложения Office в версию, которая соответствует подписке пользователя.
 
 ### <a name="windows-10"></a>Windows 10
 

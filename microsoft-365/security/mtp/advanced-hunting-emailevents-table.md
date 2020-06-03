@@ -1,6 +1,6 @@
 ---
 title: Таблица EmailEvents в схеме расширенного поиска
-description: Сведения о событиях, связанных с сообщениями электронной почты Майкрософт, в таблице Емаилевентс расширенной схемы подсистемы Поиск
+description: Сведения о событиях, связанных с сообщениями Microsoft 365, в таблице Емаилевентс расширенной схемы Поиск
 keywords: Расширенный поиск, Поиск угроз, Поиск угроз кибератак, защита от угроз Майкрософт, Microsoft 365, MTP, m365, поиск, запрос, телеметрии, Справочник по схемам, Кусто, таблица, столбец, тип данных, описание, Емаилевентс, идентификатор сетевого сообщения, отправитель, получатель, идентификатор вложения, имя вложения, идентификатор сообщения, отправитель, фишинг вредоносности
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3146c428edcf276d0a4d5e7797ed913be48dd2ae
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: be86f446e05952f7e88dc32e12a6a0d05e380afd
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633535"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515859"
 ---
 # <a name="emailevents"></a>EmailEvents
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: Узнайте о согласии пользователей для приложений и о том, как включить их, чтобы предоставить сторонним приложениям доступ к сведениям о пользователях Microsoft 365.
-ms.openlocfilehash: df81d2cf3e1d796e462d2b9240b8288273ed5372
-ms.sourcegitcommit: ff1af42b036bfdf75729db8c78f10cf4642616ac
+ms.openlocfilehash: 955ae9e58c14dbb8012a440ef6c336f44b0760a4
+ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44477176"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44498321"
 ---
 # <a name="managing-user-consent-to-apps-in-microsoft-365"></a>Управление согласия пользователя для приложений в Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "44477176"
 
 1. В центре администрирования перейдите на **Settings** \> страницу "службы **параметров организации параметров Организации**"  >  [Services](https://go.microsoft.com/fwlink/p/?linkid=2053743) , а затем выберите **согласие пользователя для приложений**.
 
-2. На странице " **согласие пользователя — приложения** " выберите параметр включения и отключения интегрированных приложений.
+2. На странице " **согласие пользователя — приложения** " выберите параметр для включения или отключения согласия пользователя.
 
 ## <a name="more-info"></a>Дополнительные сведения
 <a name="__toc379982114"> </a>

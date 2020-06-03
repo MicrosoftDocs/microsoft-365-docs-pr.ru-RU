@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c4facaac82ff8486c0c3a846e4f577c7888a3161
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: b0703aa14bee3d14d1c3ff4fe46ea9d72de73ce2
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43503987"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515871"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -48,7 +48,7 @@ ms.locfileid: "43503987"
 2. Выберите **Защита от угроз Майкрософт**.
 
 
-3. Нажмите кнопку **Предварительный просмотр компонентов** > , чтобы**включить предварительные функции**. 
+3. Нажмите кнопку **Предварительный просмотр компонентов**  >  , чтобы**включить предварительные функции**. 
 
 3. Нажмите кнопку **Сохранить**.
 
@@ -57,6 +57,8 @@ ms.locfileid: "43503987"
 ## <a name="preview-features"></a>Предварительные функции
 В настоящее время доступны следующие функции и расширения для предварительной версии:
 
-- **[Пользовательские](custom-detections-overview.md)** проверки — используйте расширенные запросы поиска для создания правил, которые автоматически могут выполнять поиск нарушений и других элементов с регулярными интервалами. Соответствия запросам вызываются оповещения и указанные действия ответа.
-
 - **[Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)** — получение представления о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с таблицами [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.
+
+- **[Таблица емаилпостделиверевентс](advanced-hunting-emailpostdeliveryevents-table.md)** — эта таблица используется для создания [расширенных](advanced-hunting-overview.md) запросов поиска, которые проверяют действия, выполненные на сообщениях после их доставки в почтовые ящики получателей.
+
+- **[Функция филепрофиле ()](advanced-hunting-fileprofile-function.md)** — используется в [расширенных](advanced-hunting-overview.md) запросах на поиск для включения исчерпывающей информации о файле.

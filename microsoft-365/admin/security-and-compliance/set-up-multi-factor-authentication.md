@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Узнайте, как настроить многофакторную проверку подлинности для Организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: c84c66cc051363fbc582abfb5521f922440b6801
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 9218e81aaf016c379c6ba8c7ae846a2a2132cf35
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432383"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515811"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -40,6 +40,10 @@ ms.locfileid: "44432383"
 
 - Если у вас есть сторонние службы каталогов со службами федерации Active Directory (AD FS), настройте сервер Azure MFA. Более подробную информацию можно найти [в статье Расширенные сценарии с многофакторной проверкой подлинности Azure и сторонние решения VPN](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) .
 
+
+У всех остальных пользователей дополнительная проверка подлинности будет запрашиваться при необходимости. Для получения дополнительных сведений посетите [метод и параметры двухфакторной проверки](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-manage-settings#turn-on-two-factor-verification-prompts-on-a-trusted-device).
+
+=======
 ## <a name="step-1-decide-on-the-method-of-requiring-your-users-to-use-mfa"></a>Шаг 1: принятие решения о необходимости использовать MFA для пользователей
 
 > [!NOTE]

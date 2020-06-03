@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 46849aa81da5a615a5dff7c5e2ac28566443d3ee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 47486f34f9926d83e52ba206f63d3e85286527dc
+ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633523"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44515823"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
-
-
 
 `EmailUrlInfo`Таблица в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию об адресах URL для сообщений электронной почты или вложений, обрабатываемых Office 365 ATP. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
