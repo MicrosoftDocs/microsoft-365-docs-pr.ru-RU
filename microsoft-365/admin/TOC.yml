@@ -11,7 +11,15 @@
         - name: Планирование настройки
           href: setup/plan-your-setup.md
         - name: Подготовка организации с помощью инструкций по настройке
-          href: setup/setup.md
+          items:
+            - name: Microsoft 365 бизнес базовый
+              href: setup/setup-business-basic.md
+            - name: Microsoft 365 бизнес стандарт
+              href: setup/setup-business-standard.md
+            - name: Microsoft 365 бизнес премиум
+              href: ../business/set-up.md
+            - name: Приложения Microsoft 365 для бизнеса
+              href: setup/setup-apps-for-business.md
         - name: Изучение страницы и мастера настройки
           href: setup/o365-setup-wizard-and-setup-page.md
         - name: Перенос данных
@@ -21,7 +29,7 @@
         - name: Развертывание Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Обучение приложениям для всех
-          href: 'https://support.office.com/en-us/office-training-center'
+          href: 'https://support.office.com/office-training-center'
         - name: Какая у меня подписка?
           href: admin-overview/what-subscription-do-i-have.md
         - name: Настройка страницы входа
@@ -240,10 +248,42 @@
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: "Включение современной проверки подлинности для Office\_2013"
           href: security-and-compliance/enable-modern-authentication.md
+        - name: Защита Microsoft 365 бизнес премиум
+          items:
+            - name: Предварительные требования для защиты данных
+              href: ../business/pre-requisites-for-data-protection.md
+            - name: Функции безопасности
+              href: ../business/security-features.md
+            - name: Улучшение защиты от угроз
+              href: ../business/increase-threat-protection.md
+            - name: Настройка функций обеспечения соответствия требованиям
+              href: ../business/set-up-compliance.md
         - name: Оценка безопасности
           href: 'https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new'
         - name: Руководство по соответствию требованиям GDPR
           href: security-and-compliance/gdpr-compliance.md
+    - name: Управление устройствами
+      items:
+        - name: Просмотр и изменение политик и устройств
+          href: ../business/view-policies-and-devices.md
+        - name: Удаление данных компании
+          href: ../business/remove-company-data.md
+        - name: Восстановление заводских параметров для устройств
+          href: ../business/reset-devices-to-factory-settings.md
+        - name: Сопоставление функций защиты с параметрами Intune
+          href: ../business/map-protection-features-to-intune-settings.md
+        - name: Параметры защиты приложений для Android и iOS
+          href: ../business/app-protection-settings-for-android-and-ios.md
+          items:
+            - name: Проверка параметров на устройствах с Android или iOS
+              href: ../business/validate-settings-on-android-or-ios.md
+        - name: Параметры защиты устройств для компьютеров с Windows 10
+          href: ../business/protection-settings-for-windows-10-pcs.md
+          items:
+            - name: Проверка параметров на компьютерах с Windows 10
+              href: ../business/validate-settings-on-windows-10-pcs.md
+        - name: Параметры защиты приложений для компьютеров с Windows 10
+          href: ../business/protection-settings-for-windows-10-devices.md
     - name: Работа с клиентами
       href: work-with-customers/index.yml
       items:
