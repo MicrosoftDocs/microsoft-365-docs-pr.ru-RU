@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте как метки хранения классифицируют данные в организации для системы управления и применяют правила хранения на основе этой классификации. Вы также можете использовать метки хранения для внедрения решения по управлению записями для Microsoft 365.
-ms.openlocfilehash: fa24bacedf0e8bd3707fa9a6fd87fff81041e2e8
-ms.sourcegitcommit: 21977f5cb6b01aee5cae54979717530b2a31a46a
+ms.openlocfilehash: 4291e32760a585be7610612b81cc54ecfcf0863e
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44411046"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432246"
 ---
 # <a name="learn-about-retention-labels"></a>Сведения о метках хранения
 
@@ -362,4 +362,6 @@ ms.locfileid: "44411046"
     
 - [Политики управления информацией](intro-to-info-mgmt-policies.md) (только удаление) 
     
+## <a name="next-steps"></a>Дальнейшие действия
 
+Если вы готовы создавать и публиковать метки хранения, см. статью [Создание, публикация и автоматическое применение меток хранения](create-retention-labels.md).

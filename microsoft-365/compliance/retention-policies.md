@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте политику хранения, чтобы заранее решить, следует ли сохранить контент, удалить контент или и то, и другое - сохранить, а затем удалить контент; применять единую политику ко всей организации или конкретным местам или пользователям; и применять политику ко всему контенту или контенту, отвечающему определенным условиям.
-ms.openlocfilehash: b91b4be724c3d664cdd237fc01596372a2a6bdcc
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.openlocfilehash: cf38eecaeaf23371c370ad07e723177e3770c7ba
+ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412818"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44432340"
 ---
 # <a name="learn-about-retention-policies"></a>Сведения о политиках хранения
 
@@ -178,8 +178,12 @@ Preservation Lock гарантирует, что ваша организация
 
 ## <a name="related-information"></a>Статьи по теме
 
-- [Создание и настройка политик хранения](create-retention-policies.md)
 - [Узнайте о метках удержания](labels.md)
 - [Ограничения SharePoint Online](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [Ограничения и спецификации для Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
 - [Соблюдение правила 17a-4 SEC](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+
+## <a name="next-steps"></a>Дальнейшие действия
+
+Если вы готовы создать политики хранения, см. статью [Создание и настройка политик хранения](create-retention-policies.md).
+
