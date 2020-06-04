@@ -9,11 +9,12 @@
       href: cloud-architecture-models.md
 - name: Решения Microsoft 365 Foundation
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: foundation-solutions-overview.md
     - name: "Повышение эффективности работы удаленных сотрудников с помощью Microsoft\_365"
-      href: empower-people-to-work-remotely.md
       items:
+        - name: Обзор
+          href: empower-people-to-work-remotely.md
         - name: Этап 1. Повышение безопасности входа
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: "Этап\_2. Предоставление удаленного доступа"
@@ -71,7 +72,7 @@
       href: deploy-threat-protection.md
 - name: Решения и сценарии рабочей нагрузки
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: workload-solutions-scenarios-overview.md
     - name: Совместная работа и совместная работа
       items:
@@ -125,7 +126,7 @@
           href: team-security-isolation-dev-test.md
 - name: Специализированные отраслевые руководства
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: industry-specific-guidance-overview.md
     - name: Финансы
       items:
@@ -151,7 +152,7 @@
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
 - name: Принципы проектирования корпоративных архитектур
   items:
-    - name: Общие сведения
+    - name: Обзор
       href: design-principles.md
     - name: Для идентификации и за пределами
       href: identity-design-principles.md
