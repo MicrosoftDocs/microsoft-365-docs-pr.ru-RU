@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 - FRP150
 description: Сведения о центре администрирования Microsoft 365.
-ms.openlocfilehash: 267a7fe56cbd71734664f085846c8b5a1356cccd
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 720130f01000e1f8845d2fa28dbc2d278a258ebf
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432211"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560427"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Сведения о Центре администрирования Microsoft 365
 
@@ -54,8 +54,6 @@ ms.locfileid: "44432211"
 ### <a name="turn-on-targeted-release"></a>Включение целевого выпуска
 
 1. Войдите в [Admin.Microsoft.com](https://admin.microsoft.com), перейдите в область навигации и выберите **Settings** \> **профиль организации**параметров.
-
-1. Войдите в [Portal.Partner.microsoftonline.CN](https://go.microsoft.com/fwlink/p/?linkid=513813), перейдите в область навигации и выберите **Settings** \> **профиль организации**параметров.
 
 2. Перейдите на карточку **параметры выпуска** и нажмите кнопку **изменить**. 
     

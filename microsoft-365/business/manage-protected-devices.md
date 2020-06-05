@@ -1,5 +1,5 @@
 ---
-title: Управление защищенными устройствами с помощью Microsoft 365 для бизнеса
+title: Управление защищенными устройствами с помощью Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,12 +28,12 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Изучите удаление данных компании с устройств, управляемых с помощью политик защиты, а также восстановление заводских настроек устройств с Windows 10.
-ms.openlocfilehash: 5e6ba7352a6a82811e1c79fe29bff35e3da5639e
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 1f4b267f5a58429d40c5ece7df42a1bb5727c4e2
+ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471146"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44564953"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Управление защищенными устройствами с помощью Microsoft 365 Business Premium
 
