@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности и &amp; соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 857b98c02895f187d8639d991b74ed1fe12622ae
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0d8a5c0231d1ac63573619470be3b786cae9c37a
+ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351877"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44566732"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -169,12 +169,8 @@ ms.locfileid: "44351877"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безопасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Отчеты и аналитика в центре безопасности и &amp; соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   
-[Создание расписания для отчета в центре безопасности и &amp; соответствия требованиям](create-a-schedule-for-a-report.md)
-
-[Настройка и загрузка настраиваемого отчета в центре безопасности и &amp; соответствия требованиям](set-up-and-download-a-custom-report.md)
-
 [Разрешения ролей (Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#role-permissions)

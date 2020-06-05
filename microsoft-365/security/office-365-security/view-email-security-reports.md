@@ -17,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты по обеспечению безопасности электронной почты для вашей организации. Отчеты о безопасности электронной почты доступны в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: ca23f7ba0ce7bc43f8808e213dc79d066316a9ec
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: e62d64ec062653c5292f98c2456cd26275916dca
+ms.sourcegitcommit: 86705d15231c987be2fcf5a295b9b6239fc46077
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208517"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44566744"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
 
@@ -251,12 +251,8 @@ ms.locfileid: "44208517"
 
 Если вы не видите данные в отчетах, дважды проверьте правильность настройки политик. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Защита от нежелательной почты Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
 
 [Отчеты и аналитика в центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
-
-[Создание расписания для отчета в центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-a-schedule-for-a-report)
-
-[Настройка и загрузка настраиваемого отчета в центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-and-download-a-custom-report)
