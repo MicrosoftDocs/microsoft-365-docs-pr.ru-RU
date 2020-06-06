@@ -23,7 +23,7 @@
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: "Этап\_4. Развертывание приложений и служб производительности"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: "Этап\_5. Создание мест для общения"
+        - name: "Этап\_5. Создание информационных объектов"
           href: empower-people-to-work-remotely-communication-venues.md
         - name: Шаг 6. Обучение удаленных сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
@@ -81,7 +81,7 @@
         - name: Решения для телефонии
           items:
             - name: Выбор решения
-              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: Пример использования многонациональной организации
               href: null
         - name: Совместная работа с файлами в SharePoint с помощью Microsoft 365
@@ -89,7 +89,7 @@
         - name: Планирование интеллектуальной интрасети SharePoint
           href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Руководство по OneDrive для предприятий
-          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Безопасность
       items:
         - name: Основные задачи для поддержки Teams в целях обеспечения безопасности
@@ -158,6 +158,8 @@
       href: identity-design-principles.md
     - name: 'Препятствия безопасности, которые вы можете Саил'
       href: security-design-principles.md
+    - name: Работа в сети (в облаке)
+      href: networking-design-principles.md
 - name: Ресурсы по развертыванию Microsoft 365
   items:
     - name: Развертывание Microsoft 365
