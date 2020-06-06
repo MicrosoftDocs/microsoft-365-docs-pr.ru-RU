@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут просматривать часто задаваемые вопросы и ответы о защите от нежелательной почты в Exchange Online Protection (EOP).
-ms.openlocfilehash: 69d9e72e3be53f0ddd5bc5771493564f364bef54
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 11c80a4cb93cf0c37ffbdf917e238960dd8fea80
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209647"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588044"
 ---
 # <a name="anti-spam-protection-faq"></a>Часто задаваемые вопросы о защите от нежелательной почты
 
@@ -59,7 +59,7 @@ ms.locfileid: "44209647"
 
 [Настройка фильтрации подключений в EOP](configure-the-connection-filter-policy.md)
 
-[Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md)
+[Настройка политик защиты от спама в EOP](configure-your-spam-filter-policies.md)
 
 [Настройка политики защиты от нежелательной почты для исходящих сообщений](configure-the-outbound-spam-policy.md)
 
@@ -137,7 +137,7 @@ ms.locfileid: "44209647"
 
   [Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  [Вопросы и ответы о доменах](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
+  [Вопросы и ответы о доменах](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 
 - **Подписывая электронную почту с помощью DKIM, используйте ослабленную канонизацию.**
 

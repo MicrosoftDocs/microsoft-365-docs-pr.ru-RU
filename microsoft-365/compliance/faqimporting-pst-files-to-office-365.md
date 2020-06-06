@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: 'Часто задаваемые вопросы для администраторов об использовании службы импорта Office 365 для импорта PST-файлов Организации в почтовые ящики Microsoft 365. '
-ms.openlocfilehash: e2ddd464f2cfd421766fb9c4d1043533f5561b25
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0d3245c962c2d22f0d500aafe22703bd3e57d504
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208133"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579204"
 ---
 # <a name="faq-about-importing-pst-files"></a>Вопросы и ответы об импорте PST-файлов
 
@@ -50,7 +50,7 @@ ms.locfileid: "44208133"
   
  **В каких регионах доступна отправка по сети?**
   
-В настоящее время в этих регионах доступна сетевая Отправка: США, Канада, Бразилия, Великобритания, Франция, Европа, Индия, Восточная Азия, Юго-Восточная Азия, Япония, Республика Корея и Австралия. Network upload will be available in more regions soon.
+В настоящее время в этих регионах доступна сетевая Отправка: США, Канада, Бразилия, Великобритания, Франция, Европа, Индия, Восточная Азия, Юго-Восток, Япония, Республика Корея, Австралия и Объединенные Арабские Эмираты (ОАЭ). Network upload will be available in more regions soon.
 
 > [!NOTE]
 > В настоящее время отправка PST-файлов по сети недоступна в Германии и Швейцарии. Эти вопросы и ответы будут обновлены, когда отправка по сети станет доступна в этих странах.

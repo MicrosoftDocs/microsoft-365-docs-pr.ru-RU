@@ -14,12 +14,12 @@ ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут узнать, как запустить отчет о группе ролей администраторов в автономной службе Exchange Online Protection (EOP). Этот отчет регистрируется, когда администратор добавляет или удаляет участников из групп ролей администраторов, EOP записывает каждое из них.
-ms.openlocfilehash: 39022892075b295a26645157941195b97897c690
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 0c504460657a153aad7d3dd065c81007a68ba916
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350943"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587368"
 ---
 # <a name="run-an-administrator-role-group-report-in-standalone-eop"></a>Запустите отчет группы ролей администратора в автономном EOP
 
@@ -54,7 +54,7 @@ ms.locfileid: "44350943"
 
 Если будут найдены любые изменения, соответствующие заданным критериям, они появятся в области результатов. Чтобы в области сведений увидеть изменения, выберите группу ролей в результатах поиска.
 
-## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
+## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Если отчет о группе ролей администрирования запущен успешно, группы ролей, измененные в рамках диапазона дат, отображаются в области результатов поиска. Если результатов нет  в указанный диапазон дат группы ролей изменены не были. Если вы считаете, что результаты должны быть, измените диапазон дат и повторно запустите отчет.
 
@@ -74,7 +74,7 @@ ms.locfileid: "44350943"
 
 ## <a name="use-standalone-exchange-online-powershell-to-search-for-audit-log-entries"></a>Поиск записей журнала аудита с помощью автономной консоли PowerShell с Exchange Online
 
-Вы можете использовать Exchange Online PowerShell для поиска записей журнала аудита, соответствующих заданным условиям. Список условий поиска можно найти в разделе [ведение журнала аудита действий администратора](https://technet.microsoft.com/library/22b17eb8-d8ee-4599-b202-d6a7928c20d9.aspx). В этой процедуре используется командлет **Search-AdminAuditLog** , а результаты поиска отображаются в Exchange Online PowerShell. Этот командлет можно использовать для возврата набора результатов, которые выходят за пределы, определенные в командлете **New – AdminAuditLogSearch** или в отчетах об отчетах по аудиту центра администрирования Exchange.
+Вы можете использовать Exchange Online PowerShell для поиска записей журнала аудита, соответствующих заданным условиям. Список критериев поиска представлен в статье Search [— AdminAuditLog Search Criteria](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#search-adminauditlog-cmdlet). В этой процедуре используется командлет **Search-AdminAuditLog** , а результаты поиска отображаются в Exchange Online PowerShell. Этот командлет можно использовать для возврата набора результатов, которые выходят за пределы, определенные в командлете **New – AdminAuditLogSearch** или в отчетах об отчетах по аудиту центра администрирования Exchange.
 
 Чтобы выполнить поиск по указанному критерию журнала аудита, используйте следующий синтаксис.
 
@@ -119,7 +119,7 @@ Search-AdminAuditLog -StartDate 05/01/2018 -EndDate 10/03/2018 -ObjectID contoso
 
 ### <a name="view-details-of-audit-log-entries"></a>Просмотр подробных сведений о записях журнала аудита
 
-Командлет **Search-AdminAuditLog** возвращает поля, описанные в разделе «Содержимое журнала аудита» в [Ведение журнала аудита администратора](https://technet.microsoft.com/library/22b17eb8-d8ee-4599-b202-d6a7928c20d9.aspx). Поля **CmdletParameters** и **ModifiedProperties**, возвращаемые командлетом, содержат дополнительные сведения, которые невозможно просмотреть по умолчанию.
+Командлет **Search – AdminAuditLog** возвращает поля, описанные в разделе [содержимое журнала аудита](https://docs.microsoft.com/Exchange/policy-and-compliance/admin-audit-logging/admin-audit-logging#audit-log-contents). Поля **CmdletParameters** и **ModifiedProperties**, возвращаемые командлетом, содержат дополнительные сведения, которые невозможно просмотреть по умолчанию.
 
 Чтобы просмотреть содержимое полей **CmdletParameters** и **ModifiedProperties**, выполните указанные ниже действия. Кроме того, вы можете использовать процедуру, описанную в статье **Использование PowerShell для Exchange Online, для поиска записей журнала аудита и отправки результатов получателю** в этой статье, чтобы создать XML-файл.
 

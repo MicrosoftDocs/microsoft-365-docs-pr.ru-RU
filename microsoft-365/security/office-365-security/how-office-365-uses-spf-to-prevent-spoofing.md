@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Сведения о том, как Microsoft 365 использует запись в формате TXT инфраструктуры политики отправителей (SPF), чтобы гарантировать, что конечные системы электронной почты доверяют сообщениям, отправленным из личного домена.
-ms.openlocfilehash: 5d09047b51f191947c13a3e6ca64b5cb30d3f6a0
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a86087f510dca328bb5b56af6fd4802f1f42a454
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036393"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587488"
 ---
 # <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Как Microsoft 365 использует инфраструктуру политики отправителей (SPF) для предотвращения спуфинга
 
@@ -51,11 +51,11 @@ ms.locfileid: "44036393"
 
 Рассмотрим базовый синтаксис правила для инфраструктуры политики отправителей:
 
-v=spf1 \<IP-адрес\> \<правило принудительного применения\>
+v = spf1 \<IP\>\<enforcement rule\>
 
 Допустим, для домена contoso.com имеется следующее правило инфраструктуры политики отправителей:
 
-v=spf1 \<IP-адрес №1\> \<IP-адрес №2\> \<IP-адрес №3\> \<правило принудительного применения\>
+v = spf1 \<IP address #1\> \<IP address #2\> \<IP address #3\>\<enforcement rule\>
 
 В этом примере правило инфраструктуры политики отправителей разрешает почтовому серверу получать сообщения только со следующих IP-адресов для домена contoso.com:
 
@@ -131,7 +131,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 Воспользуйтесь сведениями о синтаксисе, представленными в этой статье, чтобы создать запись SPF TXT для личного домена. Здесь описаны наиболее часто используемые варианты синтаксиса, но существуют и другие. После создания записи необходимо обновить ее у регистратора доменных имен.
 
-Для получения сведений о доменах, которые необходимо включить в Microsoft 365, просмотрите [внешние DNS-записи, необходимые для SPF](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Используйте пошаговые [инструкции](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) по обновлению записей SPF (txt) для вашего регистратора доменных имен.
+Для получения сведений о доменах, которые необходимо включить в Microsoft 365, просмотрите [внешние DNS-записи, необходимые для SPF](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records). Используйте пошаговые [инструкции](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) по обновлению записей SPF (txt) для вашего регистратора доменных имен.
 
 ### <a name="spf-txt-record-syntax-for-microsoft-365"></a>Синтаксис записи SPF TXT для Microsoft 365
 <a name="SPFSyntaxO365"> </a>
@@ -248,6 +248,6 @@ cust-spf.exacttarget.com
 ## <a name="for-more-information"></a>Дополнительные сведения
 <a name="SPFTroubleshoot"> </a>
 
-Нужна помощь, чтобы добавить запись TXT инфраструктуры политики отправителей? Ознакомьтесь со статьей [Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) для получения подробных сведений об использовании платформы политики отправителей с настраиваемым доменом в Microsoft 365. [Заголовки сообщений защиты от нежелательной почты](anti-spam-message-headers.md) включает синтаксис и поля заголовков, используемые Microsoft 365 для проверок SPF.
+Нужна помощь, чтобы добавить запись TXT инфраструктуры политики отправителей? Ознакомьтесь со статьей [Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider#add-a-txt-record-for-spf-to-help-prevent-email-spam) для получения подробных сведений об использовании платформы политики отправителей с настраиваемым доменом в Microsoft 365. [Заголовки сообщений защиты от нежелательной почты](anti-spam-message-headers.md) включает синтаксис и поля заголовков, используемые Microsoft 365 для проверок SPF.
 
 

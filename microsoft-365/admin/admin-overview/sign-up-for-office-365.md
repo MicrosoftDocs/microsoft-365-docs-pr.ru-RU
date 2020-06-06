@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Узнайте, что необходимо знать перед продолжением процедуры регистрации для Office 365. '
-ms.openlocfilehash: 2778dda03c517e176fbab044243306fb51355396
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3b3212eeb5e95d4be24029a78f9af4d1b02931ce
+ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386761"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44579173"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Регистрация для получения справки для администраторов
 
@@ -40,21 +40,11 @@ ms.locfileid: "44386761"
 
 Подпишитесь на Microsoft 365 для бизнеса, чтобы ваша команда могла начать использовать последние версии Word, Excel, PowerPoint и других программ Office в вашей организации.
   
-Просмотрите краткий обзор трех планов Microsoft 365 для бизнеса или прокрутите страницу вниз для получения дополнительных сведений.
-<br><br>
-  
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/cf211808-67c3-4d4b-880a-3f582d70b4d1?autoplay=false]
-  
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 Подпишитесь на Microsoft 365 для бизнеса, чтобы ваша команда могла начать использовать последние версии Word, Excel, PowerPoint и других программ Office в вашей организации.
-  
-Просмотрите краткие сведения о трех планах, которые лучше всего подходят для вашего бизнеса. или прокрутите окно вниз, чтобы получить дополнительные сведения.
-<br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/cf211808-67c3-4d4b-880a-3f582d70b4d1?autoplay=false]
   
 ::: moniker-end
 
@@ -80,7 +70,7 @@ ms.locfileid: "44386761"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Нужна помощь в выборе? Консультанты по продажам ответят на любые ваши вопросы. Просто перейдите к разделу [сравнение всех продуктов](https://products.office.com/compare-all-microsoft-office-products?tab=2) и выберите один из вариантов поддержки контактов, перечисленных в левой части страницы.
   

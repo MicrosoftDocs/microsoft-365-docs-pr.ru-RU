@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: Администраторы могут узнать о панели мониторинга почтовых ящиков в центре безопасности & соответствия требованиям, в том числе сведения, отчеты и мини – элементы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6bd3638f9f7cc2c6c8a7c1abe31b2e7655d110af
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 61a3df3016541b170f736d23b9e4b4854964046e
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034150"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588020"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
 
@@ -57,19 +57,19 @@ ms.locfileid: "44034150"
 
 - Члены **роли администратора почтового процесса** в центре безопасности & соответствия требованиям. Если эта роль явным образом назначена пользователю, который не является членом роли глобального администратора или администратора Exchange:
 
-  - Пользователь должен войти в центр безопасности & соответствия требованиям непосредственно по адресу [https://protection.office.com](https://protection.office.com).
+  - Пользователь должен войти в центр безопасности & соответствия требованиям непосредственно по адресу [https://protection.office.com](https://protection.office.com) .
 
   - Пользователь будет иметь разрешение только на чтение для панели мониторинга почтового процесса.
 
   - У пользователя не будет доступа к центру администрирования Microsoft 365.
 
-Дополнительные сведения о роли глобального администратора можно узнать в [статье о ролях администратора Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
+Дополнительные сведения о роли глобального администратора можно узнать в [статье о ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 Сведения о назначении пользователям ролей центра обеспечения безопасности &, приведены в статье [предоставление пользователям доступа к центру безопасности & соответствия требованиям](grant-access-to-the-security-and-compliance-center.md).
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>Где найти панель мониторинга для почтового процесса
 
-1. Перейдите в центр безопасности & соответствия требованиям по [https://protection.office.com](https://protection.office.com)адресу.
+1. Перейдите в центр безопасности & соответствия требованиям по адресу [https://protection.office.com](https://protection.office.com) .
 
 2. Разверните узел **почтовые ящики** и выберите **панель мониторинга**.
 

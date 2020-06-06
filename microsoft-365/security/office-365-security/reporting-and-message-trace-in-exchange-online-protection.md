@@ -14,12 +14,12 @@ ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается о отчетах и средствах устранения неполадок, доступных администраторам Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: af41f1d3b6ccc7632b392f58c36344239200f915
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b33d343d9b7f02e32619031d3ecf72ad12f891fd
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206446"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588172"
 ---
 # <a name="reporting-and-message-trace-in-eop"></a>Отчеты и трассировка сообщений в EOP
 
@@ -37,13 +37,13 @@ ms.locfileid: "44206446"
 
 Дополнительные сведения можно найти в следующих материалах:
 
-- [Отчеты Microsoft 365 в центре администрирования — группы Майкрософт 365](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+- [Отчеты Microsoft 365 в центре администрирования — группы Майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
 
-- [Отчеты Microsoft 365 в центре администрирования — действие электронной почты](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
+- [Отчеты Microsoft 365 в центре администрирования — действие электронной почты](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-activity)
 
-- [Отчеты Microsoft 365 в центре администрирования — использование почтовых приложений](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
+- [Отчеты Microsoft 365 в центре администрирования — использование почтовых приложений](https://docs.microsoft.com/microsoft-365/admin/activity-reports/email-apps-usage)
 
-- [Отчеты Microsoft 365 в центре администрирования — использование почтовых ящиков](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
+- [Отчеты Microsoft 365 в центре администрирования — использование почтовых ящиков](https://docs.microsoft.com/microsoft-365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Отчеты о соответствии & безопасности в центре администрирования Microsoft 365
 

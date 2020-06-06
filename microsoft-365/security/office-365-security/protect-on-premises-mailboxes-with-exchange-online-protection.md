@@ -1,5 +1,5 @@
 ---
-title: Защита локальных почтовых ящиков в Китае с помощью автономной EOP
+title: Защита локальных почтовых ящиков в Китае с помощью автономного EOP
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -21,19 +21,19 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы в Китае с помощью Office 365 под управлением 21Vianet могут узнать, как использовать автономную защиту Exchange Online (EOP), чтобы защитить свои локальные почтовые ящики.
-ms.openlocfilehash: 6ce85e626f9bf4c960de57ad5cd15ac3148954cb
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 3e9ba8400ce9c545dd26f2dadce70595f5c5695e
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208298"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587984"
 ---
-# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Защита локальных почтовых ящиков в Китае с помощью автономной EOP
+# <a name="protect-on-premises-mailboxes-in-china-with-standalone-eop"></a>Защита локальных почтовых ящиков в Китае с помощью автономного EOP
 
 > [!NOTE]
 > Эта статья относится только к Office 365 под управлением 21Vianet в Китае.
 
-Даже если вы планируете размещать некоторые или все почтовые ящики в локальной среде, вы все равно можете защитить почтовые ящики с помощью Exchange Online Protection (EOP). Чтобы настроить соединители, ваша учетная запись должна быть глобальным администратором или администратором компании Exchange (группа ролей управления организацией). Сведения о том, как разрешения Office 365 относятся к разрешениям Exchange, приведены [в статье назначение ролей администратора в Office 365 под управлением 21vianet](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles?&view=o365-21vianet). Если все почтовые ящики Exchange находятся на локальном сервере, выполните указанные ниже действия, чтобы настроить службу EOP.
+Даже если вы планируете размещать некоторые или все почтовые ящики в локальной среде, вы все равно можете защитить почтовые ящики с помощью Exchange Online Protection (EOP). Чтобы настроить соединители, ваша учетная запись должна быть глобальным администратором или администратором компании Exchange (группа ролей управления организацией). Сведения о том, как разрешения Office 365 относятся к разрешениям Exchange, приведены [в статье назначение ролей администратора в Office 365 под управлением 21vianet](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-21vianet). Если все почтовые ящики Exchange находятся на локальном сервере, выполните указанные ниже действия, чтобы настроить службу EOP.
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Шаг 1: использование центра администрирования Microsoft 365 для добавления и проверки домена
 
@@ -42,7 +42,7 @@ ms.locfileid: "44208298"
 2. Выполните действия, описанные на портале, чтобы добавить соответствующие записи DNS для поставщика услуг размещения DNS, чтобы проверить владение доменом.
 
 > [!TIP]
-> [Добавьте свой домен и пользователей в office 365 под управлением 21vianet](https://docs.microsoft.com/office365/admin/setup/add-domain?&view=o365-21vianet) и [Создайте записи dns для Office 365, когда вы управляете записями DNS](https://docs.microsoft.com/office365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?&view=o365-21vianet) , вы можете получить ссылки на ресурсы, которые будут полезны при добавлении домена в службу и настройке DNS.
+> [Добавьте свой домен и пользователей в office 365 под управлением 21vianet](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain?view=o365-21vianet) и [Создайте записи dns для Office 365, когда вы управляете записями DNS](https://docs.microsoft.com/microsoft-365/admin/services-in-china/create-dns-records-when-you-manage-your-dns-records?view=o365-21vianet) , вы можете получить ссылки на ресурсы, которые будут полезны при добавлении домена в службу и настройке DNS.
 
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>Шаг 2: Добавление получателей и настройка типа домена
 
@@ -69,7 +69,7 @@ ms.locfileid: "44208298"
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6: использование центра администрирования Microsoft 365 для направления записи MX на EOP
 
-Выполните действия, описанные в статье Настройка домена Office 365, чтобы обновить запись MX для вашего домена, чтобы входящая электронная почта направляется через EOP. Чтобы получить дополнительные сведения, вы можете снова ссылаться на [Создание записей DNS для Office 365 при управлении записями DNS](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Выполните действия, описанные в статье Настройка домена Office 365, чтобы обновить запись MX для вашего домена, чтобы входящая электронная почта направляется через EOP. Чтобы получить дополнительные сведения, вы можете снова ссылаться на [Создание записей DNS для Office 365 при управлении записями DNS](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 Как убедиться, что это сработало?
 

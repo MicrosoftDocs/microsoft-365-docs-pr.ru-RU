@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для автономной защиты Exchange Online (EOP), чтобы настроить их для успешной работы и избежать распространенных ошибок конфигурации.
-ms.openlocfilehash: ade41b5343e19f75658f01e6c395c470e230b315
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 69b0789612d6490305ff31d89954bc1d9258ac01
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351931"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44587538"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Рекомендации по настройке автономной EOP
 
@@ -56,7 +56,7 @@ ms.locfileid: "44351931"
 |[Подключение PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или почтовых пользователей (объекты пользователей, возвращаемые командлетом [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
 |Использование [логики подделки](learn-about-spoof-intelligence.md) для отправителя белом, когда это возможно|Да|Да||
 |[Пограничная блокировка на основе каталогов (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Включена|Включена|Тип домена = удостоверяющий|
-|[Настройка многофакторной проверки подлинности для всех учетных записей администраторов](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|Включена|Включена||
+|[Настройка многофакторной проверки подлинности для всех учетных записей администраторов](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Включена|Включена||
 |
 
 ## <a name="troubleshooting"></a>Устранение неполадок

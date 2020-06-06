@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: Сводка. Настройка сайта группы SharePoint Online, изолированного от остальной части Организации в среде разработки и тестирования Microsoft 365.
-ms.openlocfilehash: 2a1c728f5cbc1d622bb46ffd7532f1103a7995d3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 07f3ae349f20fd4498e7809955cf0407d8c31d8c
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634126"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588032"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>Среда разработки и тестирования изолированного сайта группы SharePoint Online
 
@@ -56,9 +56,9 @@ ms.locfileid: "43634126"
 
 ## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>Этап 1: создание простой или имитируемой среды для разработки и тестирования Microsoft 365 для предприятий
 
-Если вы хотите просто создать изолированный сайт группы SharePoint Online с минимальными требованиями, следуйте инструкциям в статье этапы 2 и 3 из [среды разработки и тестирования Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
+Если вы хотите просто создать изолированный сайт группы SharePoint Online с минимальными требованиями, выполните инструкции, приведенные в разделе этапы 2 и 3 [упрощенной базовой конфигурации](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
 
-Если вы хотите создать изолированный сайт группы SharePoint Online в смоделированной конфигурации предприятия, следуйте инструкциям в статье [DirSync для среды разработки и тестирования Microsoft 365](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment).
+Если вы хотите создать изолированный сайт группы SharePoint Online в смоделированной конфигурации предприятия, следуйте инструкциям в статье [Синхронизация хэша паролей для тестовой среды Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment).
 
 > [!NOTE]
 > Для создания изолированного сайта SharePoint Online не требуется имитация среды Enterprise dev/test, которая включает имитируемую интрасеть, подключенную к Интернету и синхронизацию каталогов, для леса доменных служб Active Directory (AD DS). Она указана здесь, чтобы вы могли протестировать изолированный сайт SharePoint Online и поэкспериментировать с ним в среде, которая представляет типичную среду для организаций.
@@ -148,7 +148,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Чтобы создать сайт группы SharePoint Online для ProjectX, выполните перечисленные ниже действия.
 
-1. С помощью браузера на локальном компьютере (облегченная настройка) или на компьютере CLIENT1 (смоделированная конфигурация предприятия) Войдите в центр администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)), используя свою учетную запись глобального администратора.
+1. С помощью браузера на локальном компьютере (облегченная настройка) или на компьютере CLIENT1 (смоделированная конфигурация предприятия) Войдите в центр администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ), используя свою учетную запись глобального администратора.
 
 2. В списке плиток выберите **SharePoint**.
 
@@ -216,7 +216,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 2. Щелкните имя глобального администратора и нажмите **Выйти**.
 
-3. Войдите в центр администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)), используя имя и пароль учетной записи ведущего дизайнера.
+3. Войдите в центр администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ), используя имя и пароль учетной записи ведущего дизайнера.
 
 4. В списке плиток выберите **SharePoint**.
 
@@ -246,7 +246,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Теперь рассмотрим доступ, используя учетную запись "вице — президент по разработке":
 
-1. Войдите в центр администрирования Microsoft 365 (),[https://admin.microsoft.com](https://admin.microsoft.com)используя имя и пароль учетной записи вице-президента по разработке.
+1. Войдите в центр администрирования Microsoft 365 (), [https://admin.microsoft.com](https://admin.microsoft.com) используя имя и пароль учетной записи вице-президента по разработке.
 
 2. В списке плиток выберите **SharePoint**.
 
@@ -262,7 +262,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 Теперь рассмотрим доступ с учетной записью пользователя, не имеющей разрешений.
 
-1. Войдите в центр администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)), используя имя учетной записи пользователя 3 и пароль.
+1. Войдите в центр администрирования Microsoft 365 (), [https://admin.microsoft.com](https://admin.microsoft.com) используя имя учетной записи пользователя 3 и пароль.
 
 2. В списке плиток выберите **SharePoint**.
 
@@ -286,14 +286,10 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 [Изолированные сайты групп SharePoint Online](isolated-sharepoint-online-team-sites.md)
 
-[Руководства по созданию сред разработки и тестирования облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Руководства по лаборатории тестирования для облачных решений](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
 
-[Базовая конфигурация среды разработки и тестирования](https://docs.microsoft.com/office365/enterprise/base-configuration-dev-test-environment)
+[Базовая конфигурация "имитация предприятия"](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
 
-[Среда разработки и тестирования Microsoft 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
+[Простая базовая конфигурация](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
 
 [Освоение облака и гибридные решения](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-

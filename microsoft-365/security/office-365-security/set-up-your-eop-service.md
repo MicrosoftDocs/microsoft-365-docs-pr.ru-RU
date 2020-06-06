@@ -14,12 +14,12 @@ ms.custom:
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: Администраторы могут научиться настраивать автономную систему Exchange Online Protection (EOP) для защиты локальных почтовых сред.
-ms.openlocfilehash: bf762eabcfebf34ca8cb8d37935ffac011228df0
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b50ec7e2bca3765bb81e165b74596155da1f7940
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209803"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588068"
 ---
 # <a name="set-up-your-standalone-eop-service"></a>Настройка автономной службы EOP
 
@@ -43,12 +43,12 @@ ms.locfileid: "44209803"
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>Шаг 1: использование центра администрирования Microsoft 365 для добавления и проверки домена
 
-1. В [центре администрирования Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center)перейдите к разделу **Настройка** , чтобы добавить свой домен в службу.
+1. В [центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center)перейдите к разделу **Настройка** , чтобы добавить свой домен в службу.
 
 2. Выполните указанные ниже действия, чтобы добавить применимые записи DNS на сайте поставщика услуг размещения DNS для подтверждения прав владельца домена.
 
 > [!TIP]
-> [Добавление домена в office 365](https://docs.microsoft.com/office365/admin/setup/add-domain) и [Создание записей DNS на любом поставщике услуг хостинга dns для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) полезные материалы помогут вам добавить домен в службу и настроить DNS.
+> [Добавление домена в office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) и [Создание записей DNS на любом поставщике услуг хостинга dns для Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) полезные материалы помогут вам добавить домен в службу и настроить DNS.
 
 ## <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>Действие 2. Добавление получателей и включение при необходимости пограничной блокировки на основе каталогов (DBEB)
 
@@ -77,7 +77,7 @@ ms.locfileid: "44209803"
 
 ## <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>Шаг 6: использование центра администрирования Microsoft 365 для направления записи MX на EOP
 
-Выполните действия по настройке домена, чтобы обновить запись MX для вашего домена, чтобы входящая электронная почта направляется через EOP. Убедитесь, что запись MX прямо указана в EOP, а не в EOP от сторонней службы фильтрации электронной почты. Для получения дополнительных сведений можно снова ссылаться на [Создание записей DNS для Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Выполните действия по настройке домена, чтобы обновить запись MX для вашего домена, чтобы входящая электронная почта направляется через EOP. Убедитесь, что запись MX прямо указана в EOP, а не в EOP от сторонней службы фильтрации электронной почты. Для получения дополнительных сведений можно снова ссылаться на [Создание записей DNS для Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
 
 > [!NOTE]
 > Если необходимо перенаправить запись MX на другой сервер или службу, расположенную перед EOP, ознакомьтесь со статьей [Расширенная фильтрация соединителей в Exchange Online](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors).
