@@ -249,17 +249,19 @@
           href: archiving-third-party-data.md
         - name: Архивация данных Facebook (предварительная версия)
           href: archive-facebook-data-with-sample-connector.md
-        - name: Архивация данных Twitter (предварительная версия)
-          href: archive-twitter-data-with-sample-connector.md
-        - name: Архивация данных LinkedIn
-          href: archive-linkedin-data.md
-        - name: Архивация данных Instant Bloomberg
-          href: archive-instant-bloomberg-data.md
         - name: Импорт данных отдела кадров (предварительная версия)
           href: import-hr-data.md
+        - name: Архивация данных Instant Bloomberg
+          href: archive-instant-bloomberg-data.md
+        - name: Архивация данных LinkedIn
+          href: archive-linkedin-data.md
+        - name: Архивация данных Twitter (предварительная версия)
+          href: archive-twitter-data-with-sample-connector.md
         - name: Архивация сторонних данных при помощи партнера
           href: work-with-partner-to-archive-third-party-data.md
-    - name: Сохранение данных
+        - name: Поиск сторонних данных
+          href: use-content-search-to-search-third-party-data-that-was-imported.md
+    - name: Хранение данных почтовых ящиков
       items:
         - name: Включение архивных почтовых ящиков
           href: enable-archive-mailboxes.md
@@ -388,8 +390,6 @@
               href: bulk-edit-content-searches.md
             - name: Подготовка CSV-файла для поиска по списку идентификаторов
               href: csv-file-for-an-id-list-content-search.md
-            - name: Поиск сторонних данных
-              href: use-content-search-to-search-third-party-data-that-was-imported.md
             - name: Проверка поискового запроса на наличие ошибок
               href: check-your-content-search-query-for-errors.md
             - name: Устранение распространенных проблем с обнаружением электронных данных

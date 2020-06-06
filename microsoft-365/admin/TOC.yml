@@ -42,6 +42,14 @@
           href: setup/customize-your-organization-theme.md
         - name: Сведения об Office 365 Germany
           href: admin-overview/learn-about-office-365-germany.md
+        - name: Доступ к локальным пользователям и ресурсам
+          items:
+            - name: Синхронизация пользователей домена с Microsoft 365
+              href: ../business/manage-domain-users.md
+            - name: 'Возможность управлять устройствами с Windows 10, присоединенными к домену'
+              href: ../business/manage-windows-devices.md
+            - name: 'Доступ к ресурсам с устройства, присоединенного к Azure AD'
+              href: ../business/access-resources.md
     - name: "Обзор Центра администрирования Microsoft\_365"
       items:
         - name: Обзор Центра администрирования
@@ -278,6 +286,8 @@
           href: ../business/reset-devices-to-factory-settings.md
         - name: Сопоставление функций защиты с параметрами Intune
           href: ../business/map-protection-features-to-intune-settings.md
+        - name: Состояния устройств
+          href: ../business/device-states.md
         - name: Параметры защиты приложений для Android и iOS
           href: ../business/app-protection-settings-for-android-and-ios.md
           items:
@@ -290,6 +300,16 @@
               href: ../business/validate-settings-on-windows-10-pcs.md
         - name: Параметры защиты приложений для компьютеров с Windows 10
           href: ../business/protection-settings-for-windows-10-devices.md
+        - name: Autopilot
+          items:
+            - name: Добавление профиля и устройств Autopilot
+              href: ../business/add-autopilot-devices-and-profile.md
+            - name: Создание и изменение профилей AutoPilot
+              href: ../business/create-and-edit-autopilot-profiles.md
+            - name: Создание и изменение устройств AutoPilot
+              href: ../business/create-and-edit-autopilot-devices.md
+            - name: Параметры профилей AutoPilot
+              href: ../business/autopilot-profile-settings.md
     - name: Работа с клиентами
       href: work-with-customers/index.yml
       items:
