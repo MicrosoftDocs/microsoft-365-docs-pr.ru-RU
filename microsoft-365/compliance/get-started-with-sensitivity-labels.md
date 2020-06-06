@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 88b9ad0ea97ff035491f6e2d2ec2ec57b2b8d796
-ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
+ms.openlocfilehash: 47122e4ec6f902e0c84bd223ff771dc5db6fdfa5
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432618"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560486"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -78,9 +78,8 @@ ms.locfileid: "44432618"
 |Использование меток конфиденциальности для защиты содержимого в Teams и SharePoint |[Использование меток конфиденциальности в Microsoft Teams, группах Microsoft 365 и сайтах SharePoint (общедоступная предварительная версия)](sensitivity-labels-teams-groups-sites.md)|
 |Обнаружение, применение меток и защита файлов, хранящихся в локальных хранилищах данных |[Развертывание сканера Azure Information Protection для автоматической классификации и защиты файлов](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |Обнаружение, применение меток и защита файлов, хранящихся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
-|Применение и просмотр меток конфиденциальности в Power BI и защита скачанных отчетов|[Защита данных в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
+|Применение и просмотр меток конфиденциальности в Power BI и защита данных при экспорте|[Защита данных в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |Отслеживание и понимание использования меток конфиденциальности в организации|[Знайте свои данные — обзор классификации данных](data-classification-overview.md) <br /><br /> [Просмотр использования меток с помощью аналитики меток](label-analytics.md)|
-
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Документация по меткам конфиденциальности для пользователей
 
