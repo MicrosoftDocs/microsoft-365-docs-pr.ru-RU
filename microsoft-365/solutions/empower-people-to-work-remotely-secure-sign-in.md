@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 05/20/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Необходимо, чтобы удаленные работники входили в систему с помощью многофакторной проверки подлинности (MFA).
-ms.openlocfilehash: a0350be5cf75024fbefadb21ae56017bf64ca0d8
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: 142f4d42715ae53e411f045f4df09471b7ba63da
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213476"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560415"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
 
@@ -36,9 +36,9 @@ ms.locfileid: "44213476"
 
 |План  |Рекомендация  |
 |---------|---------|
-|Планы Microsoft 365 (без Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
-|Microsoft 365 E3 (с Azure AD Premium P1)     | Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (с Azure AD Premium P2)     | Пользуйтесь преимуществами функции защиты идентификации Azure AD, начните применять [Рекомендуемый набор политики условного доступа и связанных с ней политик](../enterprise/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Необходимость смены пароля для пользователей с высоким риском](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Все планы Microsoft 365 (без лицензий Azure AD Premium P1 или P2)     |[Включите параметры безопасности, по умолчанию заданные в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). По умолчанию в параметры безопасности Azure AD входит MFA для пользователей и администраторов.   |
+|Microsoft 365 E3 (включает лицензии Azure AD Premium P1)     | Используйте [Общие политики условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) для настройки указанных ниже политик. <br>- [Обязательное использование MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Обязательное использование MFA для всех пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Microsoft 365 E5 (включает лицензии Azure AD Premium P2)     | Пользуйтесь преимуществами функции защиты идентификации Azure AD, начните применять [Рекомендуемый набор политики условного доступа и связанных с ней политик](../enterprise/identity-access-policies.md) (Майкрософт), создав две следующие политики.<br> - [Обязательное использование MFA при среднем или высоком риске входа в систему](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [Блокирование клиентов, не поддерживающих современную проверку подлинности](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [Необходимость смены пароля для пользователей с высоким риском](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 ## <a name="security-defaults"></a>Параметры безопасности по умолчанию
@@ -61,7 +61,7 @@ ms.locfileid: "44213476"
 
 Кроме того, вы можете использовать политики условного доступа для более сложных функций, таких как требование выполнения входа с определенного устройства, например ноутбука с Windows 10.
 
-Для использования условного доступа требуется наличие Azure AD Premium P1, который входит в состав Microsoft 365 E3 и E5.
+Для использования условного доступа требуется наличие лицензий Azure AD Premium P1, входящих в состав Microsoft 365 E3 и E5.
 
 Дополнительные сведения см. в статье [Обзор условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
@@ -71,13 +71,13 @@ ms.locfileid: "44213476"
 
 - Если риск входа в систему определяется как средний или высокий, требуется MFA.
 
-Для использования защиты идентификации Azure AD требуется наличие Azure AD Premium P2, который входит в состав Microsoft 365 E5.
+Для использования защиты идентификации Azure AD требуется наличие лицензий Azure AD Premium P2, входящих в состав Microsoft 365 E5.
 
 Для получения дополнительной информации см. [Условный доступ на основе риска](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk#require-mfa-medium-or-high-sign-in-risk-users).
 
 ## <a name="using-these-methods-together"></a>Совместное использование этих методов
 
-Необходимо иметь в виду следующее:
+Учитывайте следующее:
 
 - Если для вас включены политики условного доступа, вы не можете включить параметры безопасности по умолчанию.
 - Если для вас включены параметры безопасности по умолчанию, вы не можете включить никакие политики условного доступа.
@@ -92,13 +92,18 @@ ms.locfileid: "44213476"
 | **Политики условного доступа** | Если включена хотя бы одна из них, то включение параметров безопасности по умолчанию невозможно | Если все отключены, вы можете включить настройки безопасности по умолчанию  | Пользователь указывает при регистрации MFA  |
 ||||
 
-## <a name="admin-training-and-technical-resources-for-mfa-and-identity"></a>Учебные материалы и технические ресурсы для администраторов по MFA и удостоверениям
+## <a name="let-your-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
-- [Планирование MFA для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-plan)
+Самостоятельный сброс пароля (SSPR) позволяет пользователям сбрасывать собственные пароли, не обращаясь к ИТ-персоналу. Пользователи могут быстро сбрасывать свои пароли в любое время и в любом месте. Посмотрите [это видео](https://go.microsoft.com/fwlink/?linkid=2128524), чтобы настроить SSPR.
+
+## <a name="admin-technical-resources-for-mfa-and-identity"></a>Технические ресурсы для администраторов по MFA и удостоверениям
+
+- [MFA для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
 - [5 основных способов использования Azure AD в организации удаленной работы](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
 - [Планирование и развертывание инфраструктуры удостоверений Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure?view=o365-worldwide#plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure)
 - [Учебные видеоматериалы по Azure AD академии Azure](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 - [Настройте политику регистрации многофакторной проверки подлинности Azure](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-configure-mfa-policy)
+- [Планирование развертывания самостоятельного сброса пароля в Azure AD](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-deployment)
 
 ## <a name="results-of-step-1"></a>Результаты этапа 1
 
@@ -106,6 +111,7 @@ ms.locfileid: "44213476"
 
 - должны использовать MFA для входа в систему.
 - должны завершить процесс регистрации в MFA и использовать MFA для всех операций входа.
+- могут использовать SSPR для сброса своих паролей.
 
 ## <a name="next-step"></a>Следующий этап
 

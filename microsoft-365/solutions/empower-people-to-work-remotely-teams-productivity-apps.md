@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/03/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: 2fc55ff9f991c75e8124c710e60fe2ba34ed7f17
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
+ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160742"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44560451"
 ---
 # <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Этап 4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
@@ -39,7 +39,9 @@ ms.locfileid: "44160742"
 
 Приложение Teams позволяет общаться в чате, проводить собрания, звонить и совместно работать в одном месте. Миллионы людей ежедневно выполняют задачи в Teams, так как в этом центре командной работы объединено все необходимое для удаленной работы. 
 
-Вы можете использовать [эту статью](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) в качестве руководства по поддержке удаленных сотрудников с помощью Teams. 
+Используйте [эту статью](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams) в качестве руководства по поддержке удаленных сотрудников с помощью Teams. 
+
+Посмотрите [видео "Часть 1"](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity) в качестве руководства и демонстрации использования Teams для удаленной работы.
 
 ### <a name="chat-and-conversations"></a>Чаты и беседы
 
@@ -63,25 +65,34 @@ Teams предоставляет платформу для приложений 
 
 В Outlook удаленные сотрудники могут в одном месте поддерживать связь и наводить порядок с помощью писем, календарей, контактов, задач и т. д. Приложение Outlook помогает отслеживать и определять приоритеты дня на основе важных задач. Outlook позволяет делиться вложениями прямо из OneDrive, планировать собрания Teams и присоединяться к ним, просматривать календари и делиться ими, а также предоставлять разрешения делегата другим пользователям. Если удаленные сотрудники в курсе предстоящих рабочих и личных обязательств, требующих внимания, это поможет им сосредоточиться на самых важных задачах. Outlook позволяет удаленным сотрудникам управлять своим временем и легко находить нужное, включая файлы, людей в организации и т. д. 
 
+Ознакомьтесь с [этой статьей](../enterprise/secure-email-recommended-policies.md), чтобы узнать о рекомендуемых политиках доступа для удостоверений и устройств, предназначенных для защиты электронной почты и почтовых клиентов организации, поддерживающих современную проверку подлинности и условный доступ.
+
 ## <a name="store-and-collaborate-on-files-with-sharepoint-online-and-onedrive"></a>Хранение и совместное использование файлов с помощью SharePoint Online и OneDrive
 
 При совместной работе над контентом удаленные сотрудники могут использовать папки SharePoint Online и OneDrive как центральное место в облаке для хранения и совместного использования файлов, совместного редактирования, общения и взаимодействия. Удаленные сотрудники могут безопасно работать из любого места с помощью браузера, Teams и приложений Office.
+
+Ознакомьтесь с [этой статьей](../enterprise/sharepoint-file-access-policies.md), чтобы узнать о рекомендуемых политиках доступа для удостоверений и устройств, предназначенных для защиты SharePoint Online и OneDrive для бизнеса.
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Создание и совместное использование контента с помощью приложений Microsoft 365
 
 Приложения Microsoft 365 — это наиболее эффективный и безопасный интерфейс Office для предприятий, позволяющий пользователям легко взаимодействовать откуда угодно и в любое время. Удаленные сотрудники могут совместно работать над документом одновременно с несколькими людьми: просматривать изменения и вносить их в реальном времени, а также совместно редактировать документы на любом ноутбуке, компьютере или мобильном устройстве.
 
+Ознакомьтесь с [этой статьей](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps), чтобы спланировать и развернуть Приложения Microsoft 365 в корпоративной среде, а также управлять ими.
+
 ## <a name="admin-technical-resources-for-productivity-apps-and-services"></a>Технические ресурсы администраторов для приложений и служб повышения производительности
 
 - [Поддержка удаленных сотрудников с помощью Microsoft Teams](https://docs.microsoft.com/microsoftteams/support-remote-work-with-teams)
+- Видео [Часть 1: Teams для удаленных сотрудников](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity)
 - [Скачивание комплекта для эффективной работы в Teams](https://www.microsoft.com/download/details.aspx?id=54244)
 - [Инструменты для внедрения Teams](https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads) 
 - [Создание стратегии управления изменениями для Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy)
 - [Teams с тремя уровнями защиты](configure-teams-three-tiers-protection.md)
+
+## <a name="user-training-resources-for-productivity-apps-and-services"></a>Ресурсы для обучения пользователей работе с приложениями и службами повышения производительности
 
 - [Обучение пользователей работе с Office и Office 365](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
 - [Использование Office в Интернете](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
 ## <a name="next-step"></a>Следующий этап
 
-Перейдите к [этапу 5](empower-people-to-work-remotely-communication-venues.md), чтобы создать дополнительные информационные разделы в условиях кризиса, связанного с COVID-19.
+Перейдите к [этапу 5](empower-people-to-work-remotely-communication-venues.md), чтобы создать дополнительные информационные разделы, предназначенные для удаленных сотрудников.
