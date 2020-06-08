@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Используя Центр безопасности Microsoft 365 или Центр соответствия требованиям Microsoft 365, можно централизованно управлять разрешениями для всех задач, связанных с безопасностью и соответствием требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74139dfef3e0adfccbf16451d3577a8a916a0f97
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 633473206ebe95c14e351607175405988a933540
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033906"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588008"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Разрешения в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365
 
@@ -58,8 +58,8 @@ ms.locfileid: "44033906"
 |**В этой службе…**|**Возможности администратора соответствия требованиям**|
 |:-----|:-----|
 |[**Центр соответствия требованиям Microsoft 365**](https://compliance.microsoft.com/)|Защита данных организации во всех службах Microsoft 365 и управление ими. <br/><br/> Управление оповещениями по соответствию требованиям.|
-|[**Рейтинг соответствия требованиям**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
-|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Управление данными. <br/><br/> Выполнение юридического расследования и анализа данных. <br/><br/> Управление запросом субъекта данных.|
+|[**Рейтинг соответствия требованиям**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
+|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Управление данными. <br/><br/> Выполнение юридического расследования и анализа данных. <br/><br/> Управление запросом субъекта данных.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр всех данных проверки Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Разрешения только для чтения; возможность управления оповещениями. <br/><br/> Возможность создания и изменения файловых политик, а также предоставления разрешения на управление файлом. <br/><br/> Возможность просмотра всех встроенных отчетов в разделе "Управление данными".|
 
@@ -70,8 +70,8 @@ ms.locfileid: "44033906"
 |**В этой службе…**|**Возможности администратора данных соответствия требованиям**|
 |:-----|:-----|
 |[**Центр соответствия требованиям Microsoft 365**](https://compliance.microsoft.com/)|Защита данных организации во всех службах Microsoft 365 и управление ими. <br/><br/> Управление оповещениями по соответствию требованиям. <br/><br/> Управление метками конфиденциальности|
-|[**Рейтинг соответствия требованиям**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
-|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Управление данными. <br/><br/> Выполнение юридического расследования и анализа данных. <br/><br/> Управление запросом субъекта данных. <br/><br/> Управление метками конфиденциальности|
+|[**Рейтинг соответствия требованиям**](https://docs.microsoft.com/microsoft-365/compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|Отслеживание, назначение и проверка деятельности организации на соответствие требованиям.|
+|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Управление данными. <br/><br/> Выполнение юридического расследования и анализа данных. <br/><br/> Управление запросом субъекта данных. <br/><br/> Управление метками конфиденциальности|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control) (ожидается в ближайшее время)|Просмотр всех данных проверки Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Использование разрешений только для чтения с целью просмотра информации. <br/>Управление оповещениями. <br/><br/> Создание и изменение файловых политик, а также предоставление разрешения на управление файлом. <br/><br/> Просмотр всех встроенных отчетов в разделе "Управление данными".|
 
@@ -84,7 +84,7 @@ ms.locfileid: "44033906"
 |[**Центр безопасности Microsoft 365**](https://security.microsoft.com/)|Отслеживание политик, связанных с безопасностью, во всех службах Microsoft 365. <br/><br/>  Управление угрозами безопасности и оповещениями. <br/><br/> Просмотр отчетов. <br/><br/> Управление метками конфиденциальности.|
 |**Центр защиты идентификации**|Все возможности, доступные роли читателя безопасности, плюс выполнение всех операций Центра защиты идентификации, кроме сброса пролей.|
 |[**Управление привилегированными пользователями (PIM)**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Все возможности, доступные роли читателя безопасности. <br/><br/> **Нет возможности** управления назначениями роли Azure Active Directory или ее параметрами.|
-|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Управление политиками безопасности. <br/><br/> Просмотр и изучение угроз безопасности, а также реагирование на них. <br/><br/> Просмотр отчетов. <br/><br/> Управление метками конфиденциальности.|
+|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Управление политиками безопасности. <br/><br/> Просмотр и изучение угроз безопасности, а также реагирование на них. <br/><br/> Просмотр отчетов. <br/><br/> Управление метками конфиденциальности.|
 |**Расширенная защита от угроз Azure**|Отслеживание подозрительных действий и реагирование.|
 |**EDR и ATP в Защитнике Windows**|Назначение ролей. <br/><br/> Управление группами компьютеров. <br/><br/> Настройка выявления угроз в конечной точке и автоматизированного исправления. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
@@ -101,7 +101,7 @@ ms.locfileid: "44033906"
 |[**Центр безопасности Microsoft 365**](https://security.microsoft.com/)|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение оповещений системы безопасности, а также реагирование на них.|
 |**Центр защиты идентификации** (ожидается в ближайшее время)|Все возможности, доступные роли читателя безопасности.|
 |[**Управление привилегированными пользователями (PIM)**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Все возможности, доступные роли читателя безопасности.|
-|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение угроз безопасности, а также реагирование на них.|
+|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение угроз безопасности, а также реагирование на них.|
 |**EDR и ATP в Защитнике Windows**|Все возможности, доступные роли читателя безопасности. <br/><br/> Просмотр и изучение оповещений, а также реагирование на них.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Все возможности, доступные роли читателя безопасности, плюс просмотр и отклонение оповещений.|
@@ -116,7 +116,7 @@ ms.locfileid: "44033906"
 |[**Центр безопасности Microsoft 365**](https://security.microsoft.com/)|Просмотр политик, связанных с безопасностью, во всех службах Microsoft 365. <br/><br/> Просмотр угроз безопасности и оповещений. <br/><br/> Просмотр отчетов.|
 |**Центр защиты идентификации**|Чтение всех отчетов безопасности и сведений о параметрах функций безопасности: защита от спама, шифрование, защита от потери данных (DLP), защита от вредоносных программ, расширенная защита от фишинга и правила обработки почты (также называемые правилами транспорта).|
 |[**Управление привилегированными пользователями (PIM)**](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)|Использует доступ только для чтения для просмотра всех сведений, отображаемых в службе управления привилегированными пользователями (PIM) Azure Active Directory: политик и отчетов для назначения ролей Azure Active Directory, проверок безопасности, а в будущем также данных политик и отчетов, относящихся к сценариям, помимо назначения ролей Azure Active Directory. <br/><br/> **Нет возможности** регистрироваться в службе управления привилегированными пользователями Azure Active Directory или вносить в нее какие-либо изменения. Используя портал службы управления привилегированными пользователями или PowerShell, кто-то в этой роли может активировать дополнительные роли (например, глобальный администратор или администратор привилегированных ролей), если пользователь является допустимым.|
-|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|Просмотр политик безопасности. <br/><br/> Просмотр и изучение угроз безопасности. <br/><br/> Просмотр отчетов.|
+|[**Центр безопасности и соответствия требованиям**](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|Просмотр политик безопасности. <br/><br/> Просмотр и изучение угроз безопасности. <br/><br/> Просмотр отчетов.|
 |**EDR и ATP в Защитнике Windows**|Просмотр и изучение оповещений.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|Просмотр сведений о пользователе, устройстве, регистрации, конфигурации и приложении. <br/><br/> **Нет возможности** внесения изменений в Intune.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|Использование разрешений только для чтения с целью просмотра информации. <br/><br/> Управление оповещениями.|
@@ -149,7 +149,7 @@ ms.locfileid: "44033906"
 
 |**Служба Microsoft 365**|**Сведения о роли**|
 |:-----|:-----|
-|Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)|
+|Роли администратора в планах Office 365 и Microsoft 365 для бизнеса|[Роли администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)|
 |Azure Active Directory (Azure AD) и защита идентификации Azure Active Directory|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Расширенная защита от угроз Azure|[Группы ролей Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
@@ -158,7 +158,7 @@ ms.locfileid: "44033906"
 |Intune|[Управление доступом на основе ролей в Intune](https://docs.microsoft.com/intune/role-based-access-control)|
 |Управляемые компьютеры|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Microsoft Cloud App Security|[Управление доступом на основе ролей](https://docs.microsoft.com/cloud-app-security/manage-admins)|
-|Центр безопасности и соответствия требованиям|[Роли администратора Microsoft 365](https://docs.microsoft.com/office365/SecurityCompliance/permissions-in-the-security-and-compliance-center)|
+|Центр безопасности и соответствия требованиям|[Роли администратора Microsoft 365](permissions-in-the-security-and-compliance-center.md)|
 |Служба Privileged Identity Management|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Оценка безопасности|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |SharePoint Online|[Роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) <br/><br/> [Сведения о роли администратора SharePoint в Office 365](https://docs.microsoft.com/sharepoint/sharepoint-admin-role)|
