@@ -1,13 +1,13 @@
-- name: Центр решений и архитектуры Microsoft 365
+- name: Центр архитектуры и решений Microsoft 365
   href: solution-architecture-center.md
   displayName: Home
-- name: Иллюстрации по решению и архитектуре
+- name: Иллюстрации архитектуры и решений
   items:
     - name: Иллюстрации повышения производительности в Microsoft 365
       href: productivity-illustrations.md
     - name: Модели облачной архитектуры Майкрософт
       href: cloud-architecture-models.md
-- name: Решения Microsoft 365 Foundation
+- name: Основные решения Microsoft 365
   items:
     - name: Обзор
       href: foundation-solutions-overview.md
@@ -17,28 +17,28 @@
           href: empower-people-to-work-remotely.md
         - name: Этап 1. Повышение безопасности входа
           href: empower-people-to-work-remotely-secure-sign-in.md
-        - name: "Этап\_2. Предоставление удаленного доступа"
+        - name: "Этап\_2. Обеспечение удаленного доступа"
           href: empower-people-to-work-remotely-remote-access.md
-        - name: Шаг 3. Развертывание управления конечными точками
+        - name: Этап 3. Развертывание управления конечными точками
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Этап\_4. Развертывание приложений и служб производительности"
+        - name: "Этап\_4. Развертывание служб и приложений для повышения производительности"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
         - name: "Этап\_5. Создание информационных объектов"
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: Шаг 6. Обучение удаленных сотрудников
+        - name: Этап 6. Обучение удаленных сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Настройка безопасной совместной работы с помощью Microsoft 365
       href: setup-secure-collaboration-with-teams.md
       items:
-        - name: Три уровня защиты с помощью Microsoft Teams
+        - name: Три уровня защиты в Microsoft Teams
           items:
-            - name: Общие сведения о трех уровнях защиты
+            - name: Обзор трех уровней защиты
               href: configure-teams-three-tiers-protection.md
-            - name: Настройка базовой защиты
+            - name: Настройка базового уровня защиты
               href: configure-teams-baseline-protection.md
-            - name: Настройка конфиденциальной защиты
+            - name: Настройка защиты конфиденциального уровня
               href: configure-teams-sensitive-protection.md
-            - name: Настройка строго конфиденциальной защиты
+            - name: Настройка защиты строго конфиденциального уровня
               href: configure-teams-highly-sensitive-protection.md
             - name: Настройка команды с изоляцией для обеспечения безопасности
               href: secure-teams-security-isolation.md
@@ -52,7 +52,7 @@
                   href: collaborate-on-documents.md
                 - name: Совместная работа на сайте
                   href: collaborate-in-site.md
-                - name: Совместная работа в группе
+                - name: Совместная работа в команде
                   href: collaborate-as-team.md
                 - name: Создание экстрасети B2B
                   href: b2b-extranet.md
@@ -64,25 +64,25 @@
                   href: best-practices-anonymous-sharing.md
                 - name: Ограничение возможности случайного раскрытия
                   href: share-limit-accidental-exposure.md
-                - name: Создание безопасной среды гостевого общего доступа
+                - name: Безопасная среда гостевого общего доступа
                   href: create-secure-guest-sharing-environment.md
-            - name: Справка по внешнему общему доступу
+            - name: Справочник по внешнему общему доступу
               href: microsoft-365-guest-settings.md
     - name: Развертывание защиты от угроз в Microsoft 365
       href: deploy-threat-protection.md
-- name: Решения и сценарии рабочей нагрузки
+- name: Решения и сценарии для рабочей нагрузки
   items:
     - name: Обзор
       href: workload-solutions-scenarios-overview.md
-    - name: Совместная работа и совместная работа
+    - name: Командная и совместная работа
       items:
-        - name: Плакаты архитектуры Teams
+        - name: Плакаты с архитектурой Teams
           href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Решения для телефонии
           items:
             - name: Выбор решения
               href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-            - name: Пример использования многонациональной организации
+            - name: Практический пример для транснациональной корпорации
               href: null
         - name: Совместная работа с файлами в SharePoint с помощью Microsoft 365
           href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
@@ -92,11 +92,11 @@
           href: 'https://docs.microsoft.com/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Безопасность
       items:
-        - name: Основные задачи для поддержки Teams в целях обеспечения безопасности
+        - name: Основные задачи для отделов обеспечения безопасности при поддержке работы из дома
           href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: 'Microsoft 365 Security для лиц, принимающих решения в Организации (вариантах развертывания)'
+        - name: 'Безопасность Microsoft 365 для лиц, принимающих деловые решения (BDM)'
           href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Развертывание Advanced Threat Protection в защитнике Microsoft
+        - name: Развертывание расширенной защиты от угроз в Microsoft Defender
           href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Соответствие требованиям
       items:
@@ -110,19 +110,19 @@
               href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: 'CCPA: вопросы и ответы'
               href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-            - name: GDPR — Рекомендуемый план действий
+            - name: 'GDPR: рекомендуемый план действий'
               href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-    - name: Истории успеха contoso
+    - name: Примеры Contoso
       items:
         - name: Решения Microsoft 365 для корпорации Contoso
           href: contoso-case-study-solutions.md
-        - name: Изолированная группа для верхнего уровня секретного проекта
+        - name: Изолированная команда для сверхсекретного проекта
           href: contoso-team-for-top-secret-project.md
     - name: Руководства по лаборатории тестирования
       items:
         - name: Руководства по лаборатории тестирования для решений и сценариев
           href: test-lab-guides-overview-solutions.md
-        - name: Группа с изоляцией безопасности
+        - name: Команда с изоляцией для обеспечения безопасности
           href: team-security-isolation-dev-test.md
 - name: Специализированные отраслевые руководства
   items:
@@ -130,35 +130,35 @@
       href: industry-specific-guidance-overview.md
     - name: Финансы
       items:
-        - name: Безопасность и соответствие финансовым службам
+        - name: Безопасность и соответствие требованиям для финансовых услуг
           href: financial-services-secure-collaboration.md
-    - name: Услуги для Energy и служебной программы
+    - name: Энергетика и коммунальное обслуживание
       items:
-        - name: Безопасность и соответствие служб энергопотребления и служебных программ
+        - name: Безопасность и соответствие требованиям для энергетики и коммунального обслуживания
           href: energy-secure-collaboration.md
-    - name: Работать
+    - name: Здравоохранение
       items:
         - name: Teams для сферы здравоохранения
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Образование
       items:
-        - name: Teams для сферы образования
+        - name: Teams для образовательных учреждений
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Государственные организации
       items:
         - name: Teams для государственных организаций
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-        - name: Поддержка удаленных сотрудников государственных организаций с помощью Teams
+        - name: Поддержка удаленных государственных служащих с помощью Teams
           href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
-- name: Принципы проектирования корпоративных архитектур
+- name: Принципы разработки корпоративной архитектуры
   items:
     - name: Обзор
       href: design-principles.md
-    - name: Для идентификации и за пределами
+    - name: Идентификация и не только
       href: identity-design-principles.md
-    - name: 'Препятствия безопасности, которые вы можете Саил'
+    - name: 'Проблемы безопасности, которые можно преодолеть'
       href: security-design-principles.md
-    - name: Работа в сети (в облаке)
+    - name: Оптимизация сети (в облаке)
       href: networking-design-principles.md
 - name: Ресурсы по развертыванию Microsoft 365
   items:
