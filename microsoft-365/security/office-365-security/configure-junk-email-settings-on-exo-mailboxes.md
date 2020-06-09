@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут научиться настраивать параметры нежелательной почты в почтовых ящиках Exchange Online. Многие из этих параметров доступны пользователям в Outlook или Outlook в Интернете.
-ms.openlocfilehash: a0b2bce985c642a2069d51cbd3103b6fd044ff17
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: d5eaadc6d177acf91ea4d9d149c92a4de6cc8dd3
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588456"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616638"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Настройка параметров нежелательной почты в почтовых ящиках Exchange Online
 
@@ -46,9 +46,9 @@ ms.locfileid: "44588456"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Эти процедуры можно выполнять только с помощью Exchange Online PowerShell. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Эти процедуры можно выполнять только с помощью Exchange Online PowerShell. Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
-- Прежде чем выполнять эти процедуры, вам необходимо назначить разрешения. В частности, вам потребуются роли **получателей почты** (которые назначаются группам ролей " **Управление организацией**", " **Управление получателями**" и " **настраиваемые получатели почты** по умолчанию") или роли **параметров пользователя** (которые назначаются группам ролей " **Управление организацией** **" и "служба поддержки"** по умолчанию). Чтобы добавить пользователей в группы ролей в Exchange Online, ознакомьтесь со статьей [изменение групп ролей в Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Обратите внимание, что пользователь с разрешениями по умолчанию может выполнять эти же процедуры в своем почтовом ящике, если у них есть [доступ к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell).
+- Прежде чем выполнять эти процедуры, вам необходимо назначить разрешения. В частности, вам потребуются роли **получателей почты** (которые назначаются группам ролей " **Управление организацией**", " **Управление получателями**" и " **настраиваемые получатели почты** по умолчанию") или роли **параметров пользователя** (которые назначаются группам ролей " **Управление организацией** **" и "служба поддержки"** по умолчанию). Чтобы добавить пользователей в группы ролей в Exchange Online, ознакомьтесь со статьей [изменение групп ролей в Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups). Обратите внимание, что пользователь с разрешениями по умолчанию может выполнять эти же процедуры в своем почтовом ящике, если у них есть [доступ к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell).
 
 - В автономных средах EOP, в которых EOP защищает локальные почтовые ящики Exchange, требуется настроить правила потока обработки почты (также называемые правилами транспорта) в локальной среде Exchange для преобразования решения фильтра нежелательной почты EOP, чтобы правило нежелательной почты могло перемещать сообщение в папку "Нежелательная почта". Дополнительные сведения см. в статье [Настройка автономной службы EOP для доставки спама в папку нежелательной почты в гибридных средах](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).
 

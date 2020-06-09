@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут научиться настраивать фильтрацию подключений в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения с почтовых серверов.
-ms.openlocfilehash: 6fb1fd95a701802d9373c07b7661196271ac1e2c
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 14758161f827cf231a8f3a0415748c7a2dd5981f
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371478"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616594"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -44,7 +44,7 @@ ms.locfileid: "44371478"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы изменить политику фильтра подключений по умолчанию, необходимо быть членом группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике фильтра подключений по умолчанию необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
@@ -98,7 +98,7 @@ ms.locfileid: "44371478"
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**Примечания.**
+**Примечания**:
 
 - Допустимые значения IP-адреса или диапазона адресов:
 
@@ -128,7 +128,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – hostedconnectionfilterpolicy используется](https://docs.microsoft.com/powershell/module/exchange/set-hostedconnectionfilterpolicy).
 
-## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
+## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что политика фильтра подключений по умолчанию успешно изменена, выполните одно из указанных ниже действий.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Администраторы могут включить поддержку меток конфиденциальности для файлов Word, Excel и PowerPoint в SharePoint и OneDrive.
-ms.openlocfilehash: c364c55888165b10de603fd4709e4f82b06f83cc
-ms.sourcegitcommit: 1b560ee45f3b0253fa5c410a4499373c1f92da9c
+ms.openlocfilehash: 0ad4381d4a4004d89dd35aa59098f26d8f12dd56
+ms.sourcegitcommit: bc17d4b2197dd60cdff7c9349bbe19eeaac85ac2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432608"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44604314"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive"></a>Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive
 
@@ -195,6 +195,35 @@ ms.locfileid: "44432608"
 - Если вы включили любые дополнительные параметры библиотеки IRM, которые не позволяют пользователям отправлять документы, не поддерживающие управление правами на доступ к данным, эти параметры применяются принудительно.
 
 Таким образом, вы можете быть уверены, что все файлы Office и PDF защищены от несанкционированного доступа, если они скачаны, даже если они не помечены. Тем не менее, пометки файлов, которые передаются, не будут выгодны в новых возможностях.
+
+## <a name="search-for-documents-by-sensitivity-label"></a>Поиск документов по метке конфиденциальности
+
+Используйте управляемое свойство **информатионпротектионлабелид** , чтобы найти все документы в SharePoint или OneDrive, которые имеют определенную метку чувствительности. Используйте следующий синтаксис:`InformationProtectionLabelId:<GUID>`
+
+Например, чтобы найти все документы, помеченные как "конфиденциальные", и эта метка имеет идентификатор GUID "8faca7b8-8d20-48a3-8ea2-0f96310a848e", в поле поиска введите:
+
+`InformationProtectionLabelId: 8faca7b8-8d20-48a3-8ea2-0f96310a848e`
+
+Чтобы получить идентификаторы GUID для меток конфиденциальности, используйте командлет [Get – Label](https://docs.microsoft.com/powershell/module/exchange/get-label?view=exchange-ps) :
+    
+1. Сначала [подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell). 
+    
+    Например, в сеансе PowerShell, который вы запускаете как администратор, войдите в систему с помощью учетной записи глобального администратора.
+    
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
+
+2. Затем выполните следующую команду:
+    
+    ```powershell
+    Get-Label |ft Name, Guid
+    ```
+
+Дополнительные сведения об использовании управляемых свойств можно найти [в статье Управление схемой поиска в SharePoint](https://docs.microsoft.com/sharepoint/manage-search-schema).
 
 ## <a name="how-to-disable-sensitivity-labels-for-sharepoint-and-onedrive-opt-out"></a>Как отключить метки конфиденциальности для SharePoint и OneDrive (отказаться)
 

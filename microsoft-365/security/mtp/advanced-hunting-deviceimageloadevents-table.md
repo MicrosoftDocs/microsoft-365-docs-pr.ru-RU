@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e3f51cfbe19a7b487f7382f0d2534b4a5efaab95
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 98aac3d231e2c8630cb4721ee8012054ab90feef
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235058"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617144"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
 
@@ -31,7 +31,7 @@ ms.locfileid: "42235058"
 
 
 
-`DeviceImageLoadEvents` Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о событиях загрузки DLL. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`DeviceImageLoadEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о событиях загрузки DLL. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -44,6 +44,7 @@ ms.locfileid: "42235058"
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FolderPath` | string | Папка, содержащая файл, к которому было применено записанное действие |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
+| `SHA256` | string | SHA-256 файла, к которому было применено записанное действие Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `MD5` | string | Хэш MD5 файла, к которому было применено записанное действие |
 | `InitiatingProcessAccountDomain` | string | Домен учетной записи, в которой выполнялся процесс, ответственный за событие. |
 | `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, в которой выполнялся процесс, ответственный за событие. |
@@ -51,6 +52,7 @@ ms.locfileid: "42235058"
 | `InitiatingProcessIntegrityLevel` | string | Уровень целостности процесса, который инициировал событие. Windows назначает уровни целостности процессам на основе определенных характеристик, например, если они были запущены при загрузке из Интернета. Эти уровни целостности влияют на разрешения для ресурсов |
 | `InitiatingProcessTokenElevation` | string | Тип маркера, указывающий на присутствие или отсутствие повышения привилегий контроля доступа пользователей (UAC), примененного к процессу, который инициировал событие. |
 | `InitiatingProcessSHA1` | string | SHA-1 процесса (файл изображения), который инициировал событие |
+| `InitiatingProcessSHA256` | string | SHA-256 процесса (файл изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | Хеш MD5 для процесса (файла изображения), который инициировал событие |
 | `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
 | `InitiatingProcessId` | int | Идентификатор процесса (PID), который инициировал событие |

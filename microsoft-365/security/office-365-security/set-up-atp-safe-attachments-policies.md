@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как определить политики безопасных вложений, чтобы защитить организацию от вредоносных файлов в электронной почте.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d826cb6e0dd4370a1e02722901d083d4f021e2b4
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 581c45c9c5b606b3b4b0ba91bd96740bc838629d
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588124"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617234"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Настройка политик безопасных вложений Office 365 ATP
 
@@ -50,7 +50,7 @@ ms.locfileid: "44588124"
   |---------|---------|
   |Глобальный администратор |Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
   |Администратор безопасности |Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-  |Управление организацией Exchange Online, управление Exchange Online санацией |Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+  |Управление организацией Exchange Online, управление Exchange Online санацией |Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
   |
 
   Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в &amp; центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).

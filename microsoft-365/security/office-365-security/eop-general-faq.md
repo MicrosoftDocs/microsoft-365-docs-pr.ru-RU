@@ -14,12 +14,12 @@ ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 ms.custom:
 - seo-marvel-apr2020
 description: Ответы на наиболее распространенные общие вопросы об облачной службе фильтрации электронной почты Exchange Online Protection (EOP).
-ms.openlocfilehash: 02aa7175e95cf706ed13268035953400af2485a7
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 0908fd5cf3a799f5a253122efac2b4d56d80ee76
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206666"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617034"
 ---
 # <a name="eop-general-faq"></a>Общие вопросы и ответы по EOP
 
@@ -89,4 +89,4 @@ Microsoft 365 — это имя, присваиваемое семейству �
 
 ## <a name="does-eop-support-powershell"></a>Поддерживает ли EOP PowerShell?
 
-Да, полнофункциональные функции EOP доступны через PowerShell: Exchange Online PowerShell для организаций с почтовыми ящиками Exchange Online; Изолированная EOP PowerShell для автономных организаций EOP. Дополнительные сведения см. в статье [Exchange Online PowerShell PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell) и [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell).
+Да, полнофункциональные функции EOP доступны через PowerShell: Exchange Online PowerShell для организаций с почтовыми ящиками Exchange Online; Изолированная EOP PowerShell для автономных организаций EOP. Дополнительные сведения см. в статье [Exchange Online PowerShell PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell) и [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell).

@@ -14,12 +14,12 @@ ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как служба Exchange Online Protection (EOP) помогает защитить локальную почтовую организацию в автономных и гибридных средах.
-ms.openlocfilehash: 7a019b2651eda114bab8dcf9df6d9a6201558704
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: a3f71ea5366224465cdaf3922c6c467fcb49f3cc
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44206690"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616990"
 ---
 # <a name="exchange-online-protection-overview"></a>Обзор Exchange Online Protection
 
@@ -109,6 +109,6 @@ Exchange Online Protection (EOP) — это облачная служба фил
 
 - [Центр администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md): в этой статье описывается, как получить доступ к интерфейсу управления центра администрирования Exchange и перемещаться по нему для управления службой EOP.
 
-- [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell): содержит сведения об удаленной оболочке PowerShell, которая позволяет управлять службой EOP из командной строки.
+- [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-protection-powershell): содержит сведения об удаленной оболочке PowerShell, которая позволяет управлять службой EOP из командной строки.
 
 - [Справка и поддержка для EOP](help-and-support-for-eop.md) В этом разделе представлены сведения о том, как получить помощь и техническую поддержку.

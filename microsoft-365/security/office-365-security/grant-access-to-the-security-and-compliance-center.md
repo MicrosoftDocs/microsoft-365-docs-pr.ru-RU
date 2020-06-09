@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: Пользователям необходимо назначить разрешения в центре безопасности & Microsoft 365, чтобы они могли управлять любыми функциями обеспечения безопасности или соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 19358e3cca0c4d47338fe5fc72b671e36477ce7e
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: bfded9d3f75f57eca1097fec6f18dc55410b65fb
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351955"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616978"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>Предоставление пользователям доступа к Центру безопасности и соответствия требованиям
 
@@ -68,7 +68,7 @@ ms.locfileid: "44351955"
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>Предоставление другому пользователю доступа к центру безопасности & соответствия требованиям с помощью PowerShell
 
-1. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+1. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).
 
 2. Воспользуйтесь командой **Add-RoleGroupMember**, чтобы добавить пользователя в группу ролей Organization Management (Управление организацией), как показано в следующем примере.
 
@@ -84,7 +84,7 @@ ms.locfileid: "44351955"
 
 Подробную информацию о синтаксисе и параметрах можно узнать в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember).
 
-### <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
+### <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
 
 Чтобы убедиться, что у пользователей есть доступ к центру безопасности & соответствия требованиям, используйте командлет **Get – RoleGroupMember** для просмотра членов в группе ролей Управление организацией, как показано в следующем примере.
 

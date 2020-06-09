@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как использовать правила для обработки почтовых ящиков (правила транспорта) для идентификации и фильтрации массовой почты (серой почты) в Exchange Online Protection (EOP).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa2c13aed1fd7f9c34872d05693f88577bbbc9c5
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 860c9a1af2cb560c4fd966b303501686a1cbfea7
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352400"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613316"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-eop"></a>Используйте правила потока почты для фильтрации массовой почты в EOP
 
@@ -41,7 +41,7 @@ ms.locfileid: "44352400"
 
 - Чтобы открыть центр администрирования Exchange в Exchange Online, обратитесь к [центру администрирования Exchange в Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center). Чтобы открыть центр администрирования Exchange в автономном EOP, обратитесь к разделу [центр администрирования Exchange в отдельном EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Дополнительные сведения о правилах обработки почтового ящика в Exchange Online и отдельном EOP содержатся в следующих разделах:
 
@@ -148,7 +148,7 @@ New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWor
 
 - В центре администрирования Exchange перейдите к разделу правила для обработки **почтового ящика** , \> **Rules** \> выберите правило \> щелкните **изменить** ![ значок редактирования ](../../media/ITPro-EAC-EditIcon.png) и проверьте параметры.
 
-- В PowerShell замените \< имя правила \> именем правила и выполните следующую команду, чтобы проверить параметры:
+- В PowerShell замените \<Rule Name\> именем правила и выполните следующую команду, чтобы проверить параметры:
 
   ```powershell
   Get-TransportRule -Identity "<Rule Name>" | Format-List

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для автономной защиты Exchange Online (EOP), чтобы настроить их для успешной работы и избежать распространенных ошибок конфигурации.
-ms.openlocfilehash: 69b0789612d6490305ff31d89954bc1d9258ac01
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: a2ef5d20a79a15e4b1965d352ed0603ac0783121
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587538"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616726"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Рекомендации по настройке автономной EOP
 
@@ -53,7 +53,7 @@ ms.locfileid: "44587538"
 |[Подключение POP к почтовому ящику](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)|Отключено|Отключено||
 |Отправка с проверкой подлинности SMTP|Отключено|Отключено|Для отправки электронной почты клиентам POP3 и IMAP4 требуется отправка с проверкой подлинности по протоколу SMTP клиента (также называемой отправкой SMTP-сообщений или SMTP-АУТЕНТИФИКАЦИей).|
 |Подключение EWS к почтовому ящику|Отключено|Отключено||
-|[Подключение PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или почтовых пользователей (объекты пользователей, возвращаемые командлетом [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
+|[Подключение PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или почтовых пользователей (объекты пользователей, возвращаемые командлетом [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
 |Использование [логики подделки](learn-about-spoof-intelligence.md) для отправителя белом, когда это возможно|Да|Да||
 |[Пограничная блокировка на основе каталогов (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Включена|Включена|Тип домена = удостоверяющий|
 |[Настройка многофакторной проверки подлинности для всех учетных записей администраторов](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Включена|Включена||

@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы в отдельных организациях Exchange Online Protection (EOP) могут узнать, как создавать, изменять и удалять группы рассылки и группы безопасности с включенной поддержкой почты в центре администрирования Exchange, а также в автономной службе Exchange Online Protection (EOP) PowerShell.
-ms.openlocfilehash: 4f1dbdb503f8baf02b7dd763dbf7fc6acdf5771a
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 42086b67e22df4725bf07bf227853c070f936f24
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352195"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616506"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -38,7 +38,7 @@ ms.locfileid: "44352195"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - При управлении группами в изолированной EOP PowerShell может возникать регулирование. В процедурах PowerShell, приведенных в этом разделе, используется метод пакетной обработки, который приводит к задержке распространения в течение нескольких минут до того, как результаты команд будут видны.
 
@@ -93,7 +93,7 @@ ms.locfileid: "44352195"
 
 3. На открывшейся странице свойств группы рассылки щелкните одну из указанных ниже вкладок, чтобы просмотреть или изменить свойства.
 
-   По завершении нажмите кнопку **Сохранить**.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 #### <a name="general"></a>Общие
 
@@ -141,7 +141,7 @@ ms.locfileid: "44352195"
 Get-Recipient -RecipientType MailUniversalDistributionGroup,MailUniversalSecurityGroup -ResultSize unlimited
 ```
 
-Чтобы получить список членов группы, замените \< граупидентити \> на имя, псевдоним или адрес электронной почты группы, а затем выполните следующую команду:
+Чтобы получить список членов группы, замените на \<GroupIdentity\> имя, псевдоним или адрес электронной почты группы, а затем выполните следующую команду:
 
 ```powershell
 Get-DistributionGroupMember -Identity <GroupIdentity>
@@ -231,13 +231,13 @@ Remove-EOPDistributionGroup -Identity "IT Administrators"
   Get-Recipient -RecipientType MailUniversalDistributionGroup,MailUniversalSecurityGroup -ResultSize unlimited
   ```
 
-- Замените \< граупидентити \> именем, псевдонимом или адресом электронной почты группы и выполните следующую команду, чтобы проверить параметры:
+- Замените на \<GroupIdentity\> имя, псевдоним или адрес электронной почты группы и выполните следующую команду, чтобы проверить параметры:
 
   ```PowerShell
   Get-Recipient -Identity <GroupIdentity> | Format-List
   ```
 
-- Чтобы просмотреть членов группы, замените \< граупидентити \> на имя, псевдоним или адрес электронной почты группы и выполните следующую команду:
+- Чтобы просмотреть членов группы, замените на \<GroupIdentity\> имя, псевдоним или адрес электронной почты группы и выполните следующую команду:
 
   ```PowerShell
   Get-DistributionGroupMember -Identity "<GroupIdentity>"

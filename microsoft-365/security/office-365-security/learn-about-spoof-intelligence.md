@@ -19,18 +19,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут ознакомиться со сведениями об управлении подменой в Exchange Online Protection (EOP), где можно разрешить или запретить использование определенных поддельных отправителей.
-ms.openlocfilehash: 638f130c448f14bf7214afc705b5650311866fce
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: fe1e8f8a2e9f0cc792dc802ea5c7362af00687ae
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351943"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613244"
 ---
 # <a name="configure-spoof-intelligence-in-eop"></a>Настройка логики подделки в EOP
 
 В организациях Microsoft 365 с почтовыми ящиками в организациях Exchange Online или в автономной службе Exchange Online Protection (EOP) без почтовых ящиков Exchange Online сообщения входящей электронной почты автоматически защищаются от подмены EOP в течение октября 2018. В EOP используется Аналитика подмены в рамках общей защиты Организации от фишинга. Дополнительную информацию можно узнать [в статье Защита от спуфинга в EOP](anti-spoofing-protection.md).
 
-Когда отправитель подбирает адрес электронной почты, он отображается как пользователь в одном из доменов вашей организации или пользователь во внешнем домене, который отправляет электронную почту в организацию. Злоумышленники, которые подделывать отправители для отправки нежелательной почты или фишинга, должны быть заблокированы. Но существуют сценарии, в которых легальные отправители являются подложными. Например:
+Когда отправитель подбирает адрес электронной почты, он отображается как пользователь в одном из доменов вашей организации или пользователь во внешнем домене, который отправляет электронную почту в организацию. Злоумышленники, которые подделывать отправители для отправки нежелательной почты или фишинга, должны быть заблокированы. Но существуют сценарии, в которых легальные отправители являются подложными. Пример.
 
 - Допустимые сценарии подмены внутренних доменов:
 
@@ -56,7 +56,7 @@ ms.locfileid: "44351943"
 
 - Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы сразу перейти к странице **Параметры защиты от нежелательной почты**, используйте ссылку <https://protection.office.com/antispam>. Чтобы перейти непосредственно на страницу **защиты от фишинга** , используйте <https://protection.office.com/antiphishing> .
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы изменить политику контроля подделки или включить или отключить аналитику подделки, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к политике подделки необходимо быть членом группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
@@ -200,7 +200,7 @@ Get-PhishFilterPolicy -AllowedToSpoof Yes -Detailed -SpoofType Internal
   - Выберите политику из списка. В появившемся всплывающем меню проверьте значения в разделе **подделка** .
   - Щелкните **Политика по умолчанию**. В появившемся всплывающем меню проверьте значения в разделе **подделка** .
 
-- В Exchange Online PowerShell замените \< имя \> на Office365 по умолчанию антифишингом или именем настраиваемой политики и выполните следующую команду, чтобы проверить параметры:
+- В Exchange Online PowerShell замените параметром \<Name\> Office365 по умолчанию или именем особой политики, а затем выполните следующую команду, чтобы проверить параметры:
 
   ```PowerShell
   Get-AntiPhishPolicy -Identity "<Name>" | Format-List EnableAntiSpoofEnforcement,EnableUnauthenticatedSender,AuthenticationFailAction

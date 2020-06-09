@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 description: Сведения о том, как распознать и исправить правила Outlook и функции внедрения пользовательских форм в Office 365
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bc71a358170cdda86d16096c56b9d9660bf6a5be
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 5d8c4495715ef29e1d9b70b993d1216e80461cf7
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588268"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613388"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Обнаружение и исправление правил Outlook и атак с добавлением пользовательских форм
 
@@ -173,7 +173,7 @@ ms.locfileid: "44588268"
 
 #### <a name="steps-for-mailboxes-that-are-on-an-exchange-server"></a>Действия для почтовых ящиков на сервере Exchange Server
 
-1. Подключитесь к серверу Exchange Server с помощью удаленной оболочки PowerShell. Выполните действия, описанные в разделе [Подключение к серверам Exchange с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
+1. Подключитесь к серверу Exchange Server с помощью удаленной оболочки PowerShell. Выполните действия, описанные в разделе [Подключение к серверам Exchange с помощью удаленной оболочки PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-servers-using-remote-powershell).
 
 2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте командлет [Remove – InboxRule](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) .
 
@@ -181,7 +181,7 @@ ms.locfileid: "44588268"
 
 #### <a name="steps-for-mailboxes-in-exchange-online"></a>Действия для почтовых ящиков в Exchange Online
 
-1. Выполните действия, описанные в статье [Подключение к Exchange Online с помощью PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+1. Выполните действия, описанные в статье [Подключение к Exchange Online с помощью PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 2. Если вы хотите полностью удалить одно правило, несколько правил или все правила из почтового ящика, используйте командлет [Remove – Inbox Rule](https://docs.microsoft.com/powershell/module/exchange/Remove-InboxRule) .
 

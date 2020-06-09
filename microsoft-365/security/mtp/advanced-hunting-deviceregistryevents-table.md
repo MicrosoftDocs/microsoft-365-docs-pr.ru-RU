@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: c0b58d41996df2829590d7184615e8f30f4c4e16
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 610cdebaf4e010c78d7356286901fb18c5d740d1
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234808"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616494"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
@@ -31,7 +31,7 @@ ms.locfileid: "42234808"
 
 
 
-`DeviceRegistryEvents` Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о создании и изменении записей реестра. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`DeviceRegistryEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о создании и изменении записей реестра. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -51,6 +51,7 @@ ms.locfileid: "42234808"
 | `InitiatingProcessAccountName` | string | Имя пользователя учетной записи, в которой выполнялся процесс, ответственный за событие. |
 | `InitiatingProcessAccountSid` | string | Идентификатор безопасности (SID) учетной записи, в которой выполнялся процесс, ответственный за событие. |
 | `InitiatingProcessSHA1` | string | SHA-1 процесса (файл изображения), который инициировал событие |
+| `InitiatingProcessSHA256` | string | SHA-256 процесса (файл изображения), который инициировал событие. Это поле обычно не заполняется. Используйте столбец SHA1, если он доступен. |
 | `InitiatingProcessMD5` | string | Хеш MD5 для процесса (файла изображения), который инициировал событие |
 | `InitiatingProcessFileName` | string | Имя процесса, который инициировал событие |
 | `InitiatingProcessId` | int | Идентификатор процесса (PID), который инициировал событие |

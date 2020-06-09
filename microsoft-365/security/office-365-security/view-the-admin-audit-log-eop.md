@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: Администраторы могут узнать, как просматривать и искать журнал аудита действий администратора в автономной службе Exchange Online Protection (EOP).
-ms.openlocfilehash: b3f2f2601be1ce6e2120b60d23f617ae4e174e08
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: e8c12f622c4dc382b11d03424e45c33e3afe3cbf
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351865"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44613328"
 ---
 # <a name="view-the-admin-audit-log-in-standalone-eop"></a>Просмотр журнала аудита администратора в автономном EOP
 
@@ -32,7 +32,7 @@ ms.locfileid: "44351865"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. В частности, необходимы журналы аудита или роль только для просмотра журналов аудита, которые назначаются группам ролей Комплианцеманажемент, Организатионманажемент (глобальные администраторы) и Секуритядминистратор по умолчанию. Дополнительные сведения см. [в разделе разрешения в автономных EOP](feature-permissions-in-eop.md) и используйте центр администрирования Exchange для [изменения списка участников в группах ролей](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
@@ -73,7 +73,7 @@ Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Param
 
 - Параметр _Parameters_ можно использовать только вместе с параметром _командлетов_ .
 
-- Параметр _ObjectIds_ фильтрует результаты по объекту, который был изменен командлетом. Допустимое значение зависит от того, как объект представлен в журнале аудита. Например:
+- Параметр _ObjectIds_ фильтрует результаты по объекту, который был изменен командлетом. Допустимое значение зависит от того, как объект представлен в журнале аудита. Пример.
 
   - Имя
   - Каноническое имя (например, contoso.com/Users/Akia Al-Zuhairi)
@@ -86,7 +86,7 @@ Search-AdminAuditLog [-Cmdlets <Cmdlet1,Cmdlet2,...CmdletN>] [-Parameters <Param
 
   - Укажите значение даты / времени в формате UTC: например, «2016-05-06 14: 30: 00z».
 
-  - Укажите значение даты и времени в виде формулы, преобразующей дату и время в местном часовом поясе в UTC: например, `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . Для получения дополнительной информации см. [Get-Date](https://go.microsoft.com/fwlink/p/?LinkID=113313).
+  - Укажите значение даты и времени в виде формулы, преобразующей дату и время в местном часовом поясе в UTC: например, `(Get-Date "5/6/2016 9:30 AM").ToUniversalTime()` . Для получения дополнительной информации см. [Get-Date](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date).
 
 - По умолчанию командлет возвращает максимум 1 000 записей журнала. Используйте параметр _ResultSize_ , чтобы указать до 250 000 записей журнала. Или используйте значение, `Unlimited` чтобы возвратить все записи.
 

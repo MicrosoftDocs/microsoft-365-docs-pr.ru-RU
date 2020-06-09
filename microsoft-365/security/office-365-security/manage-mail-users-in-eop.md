@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: Узнайте, как управлять почтовыми пользователями в Exchange Online Protection (EOP), в том числе с помощью синхронизации каталогов, центра администрирования Exchange и PowerShell для управления пользователями.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e8a4585a16b579c28de719181eed65b65ec6f4f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: d82170499bcfa6465164ca2644eea43c2558ad18
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352436"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616838"
 ---
 # <a name="manage-mail-users-in-standalone-eop"></a>Управление пользователями почты в автономном EOP
 
@@ -35,7 +35,7 @@ ms.locfileid: "44352436"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - При создании почтовых пользователей в EOP PowerShell может возникнуть возможность регулирования. Кроме того, командлеты PowerShell EOP используют метод пакетной обработки, который приводит к задержке распространения в течение нескольких минут до того, как результаты команд будут видны.
 
@@ -80,7 +80,7 @@ ms.locfileid: "44352436"
 
 3. На открывшейся странице "Свойства пользователя почты" щелкните одну из следующих вкладок, чтобы просмотреть или изменить свойства.
 
-   По завершении нажмите кнопку **Сохранить**.
+   Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 #### <a name="general"></a>Общие
 
@@ -100,7 +100,7 @@ ms.locfileid: "44352436"
 
 Используйте вкладку **контактные сведения** , чтобы просмотреть или изменить контактные данные пользователя. Информация на этой странице отображается в адресной книге.
 
-- **Назван**
+- **Street**
 - **City**
 - **Область, республика, край, округ**
 - **Почтовый индекс**
@@ -139,7 +139,7 @@ ms.locfileid: "44352436"
 Get-Recipient -RecipientType MailUser -ResultSize unlimited
 ```
 
-Чтобы просмотреть подробные сведения о конкретном почтовом пользователе, замените \< маилусеридентити \> на имя, псевдоним или имя учетной записи пользователя почты, а затем выполните следующие команды:
+Чтобы просмотреть подробные сведения о конкретном почтовом пользователе, замените \<MailUserIdentity\> его на имя, псевдоним или имя учетной записи пользователя почты, а затем выполните следующие команды:
 
 ```powershell
 Get-Recipient -Identity <MailUserIdentity> | Format-List
@@ -209,7 +209,7 @@ $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 
 ### <a name="use-standalone-eop-powershell-to-remove-mail-users"></a>Удаление почтовых пользователей с помощью изолированной EOP PowerShell
 
-Чтобы удалить пользователей почты в изолированной EOP PowerShell, замените \< маилусеридентити \> на имя, псевдоним или имя учетной записи пользователя почты и выполните следующую команду:
+Чтобы удалить пользователей почты в изолированной EOP PowerShell, замените на \<MailUserIdentity\> имя, псевдоним или имя учетной записи пользователя почты и выполните следующую команду:
 
 ```PowerShell
 Remove-EOPMailUser -Identity <MailUserIdentity\>
@@ -235,7 +235,7 @@ Remove-EOPMailUser -Identity "Jeffrey Zeng"
   Get-Recipient -RecipientType MailUser -ResultSize unlimited
   ```
 
-- Замените \< маилусеридентити \> именем, псевдонимом или именем учетной записи пользователя почты и выполните следующие команды, чтобы проверить параметры:
+- Замените \<MailUserIdentity\> именем, псевдонимом или именем учетной записи пользователя почты, а затем выполните следующие команды, чтобы проверить параметры:
 
   ```powershell
   Get-Recipient -Identity <MailUserIdentity> | Format-List

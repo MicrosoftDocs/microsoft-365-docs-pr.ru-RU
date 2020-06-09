@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить способ ее использования в Организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4176aabb88d177c7cff0f32f32543a251b558170
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 54500500095392ebfc3d93080701fa4715fc8448
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587996"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617400"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
@@ -58,7 +58,7 @@ Microsoft 365 включает различные функции защиты о
 |---------|---------|
 |Глобальный администратор|[О ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Администратор безопасности|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
+|Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
 |
 
 Чтобы узнать больше, ознакомьтесь [с разрешениями в центре безопасности и &amp; соответствия требованиям](permissions-in-the-security-and-compliance-center.md).

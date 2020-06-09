@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Администраторы могут научиться назначать и удалять разрешения в центре администрирования Exchange в Exchange Online Protection.
-ms.openlocfilehash: ba2d053e1e75bd8867ebb9eb7f426cde92abd3e8
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 3555d3bd7fa4c53802eb214747735223cccc21e5
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352339"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616518"
 ---
 # <a name="manage-role-groups-in-standalone-eop"></a>Управление ролевыми группами в автономном EOP
 
@@ -29,7 +29,7 @@ ms.locfileid: "44352339"
 
 - Чтобы открыть центр администрирования Exchange, обратитесь к [центру администрирования Exchange в автономной EOP](exchange-admin-center-in-exchange-online-protection-eop.md).
 
-- Чтобы открыть автономную среду EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).
+- Чтобы открыть автономную среду EOP PowerShell, ознакомьтесь со статьей [Подключение к PowerShell для Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. В частности, необходима роль управления ролями, которая по умолчанию назначена группе ролей Организатионманажемент (глобальные администраторы). Дополнительные сведения см. [в разделе разрешения в автономных EOP](feature-permissions-in-eop.md) и используйте центр администрирования Exchange для [изменения списка участников в группах ролей](manage-admin-role-group-permissions-in-eop.md#use-the-eac-modify-the-list-of-members-in-role-groups).
 
@@ -72,7 +72,7 @@ ms.locfileid: "44352339"
 
 В центре администрирования Exchange перейдите в **Permissions** раздел \> **роли администратора**разрешений, выберите группу ролей, которую необходимо изменить, и нажмите кнопку **изменить** ![ значок редактирования ](../../media/ITPro-EAC-EditIcon.png) .
 
-Те же параметры доступны при изменении групп ролей в соответствии с созданием групп ролей. Варианты действий:
+Те же параметры доступны при изменении групп ролей в соответствии с созданием групп ролей. Вы можете выполнить указанные ниже действия.
 
 - Измените имя и описание.
 
@@ -92,7 +92,7 @@ ms.locfileid: "44352339"
 
    - Выберите пользователей, которых нужно удалить, а затем нажмите кнопку **Удалить** ![ значок удаления ](../../media/ITPro-EAC-RemoveIcon.gif) .
 
-3. По завершении нажмите кнопку **Сохранить**.
+3. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
    > [!NOTE]
    > После добавления или удаления членов группы ролей данным пользователям необходимо выйти из системы, а затем снова войти в нее, чтобы изменить административные права.
@@ -240,7 +240,7 @@ Remove-RoleGroup -Identity "Training Administrators"
 
 - В центре администрирования Exchange перейдите в **Permissions** раздел \> **роли администратора**разрешений и убедитесь, что группа ролей указана (или не указана в списке). Выберите группу ролей и проверьте параметры в области сведений или нажмите **изменить** ![ значок редактирования ](../../media/ITPro-EAC-EditIcon.png) , чтобы проверить параметры.
 
-- В Exchange Online PowerShell замените \< имя группы ролей на \> имя группы ролей, а затем выполните следующую команду, чтобы убедиться, что группа ролей существует (или не существует), и проверьте параметры:
+- В Exchange Online PowerShell замените \<Role Group Name\> именем группы ролей и выполните следующую команду, чтобы убедиться, что группа ролей существует (или не существует), и проверьте параметры:
 
     ```PowerShell
     Get-RoleGroup -Identity "<Role Group Name>" | Format-List

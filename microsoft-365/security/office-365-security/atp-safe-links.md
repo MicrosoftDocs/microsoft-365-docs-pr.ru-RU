@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье рассказывается, как использовать безопасные ссылки для защиты Организации от фишинга и других атак.
-ms.openlocfilehash: f71ff8d625c6c365f39fd581f3483c8a0384d817
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 5cd5e1331bb16b27cd036d20458355448ee32ae2
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44587548"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44616770"
 ---
 # <a name="atp-safe-links"></a>Безопасные ссылки ATP
 
@@ -69,7 +69,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 |---------|---------|
 |Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ( <https://aad.portal.azure.com> )|
-|Управление организациями в Exchange Online|Центр администрирования Exchange ( <https://outlook.office365.com/ecp> ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell))|
+|Управление организациями в Exchange Online|Центр администрирования Exchange ( <https://outlook.office365.com/ecp> ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
 
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>Как убедиться в том, что функция защиты безопасных ссылок ATP находится на месте
 
