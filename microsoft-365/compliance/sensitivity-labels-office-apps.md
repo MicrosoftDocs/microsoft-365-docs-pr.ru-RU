@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как пользователи работают с метками конфиденциальности в приложениях Office для настольных систем, приложений Office для мобильных устройств и приложений Office для Интернета. Узнайте, какие приложения поддерживают метки конфиденциальности.
-ms.openlocfilehash: 9fca3af2c53c57bbc010c5e95976cbde9ddcbbdc
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 7d37eae65775a79ef49db6c7d13d2ce0d2965acb
+ms.sourcegitcommit: e9cb10d0d617742a5040d7c09d1d36fd1ee25e5d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545920"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44649388"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Использование меток конфиденциальности в приложениях Office
 
@@ -51,7 +51,7 @@ ms.locfileid: "44545920"
 |Возможность                                                                                                        |Рабочий стол Windows |Настольный компьютер Mac |iOS    |Android      |Web                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
 |[Вручную применить, изменить или удалить метку](https://support.microsoft.com/en-us/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | Раздел "Рецензирование"                                                        |
+|[Применение стандартной метки](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | Развертывание                                                        |
 |[Требование обоснования для изменения метки](sensitivity-labels.md#what-label-policies-can-do)                     | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Ссылка справки на настраиваемую страницу справки](sensitivity-labels.md#what-label-policies-can-do)                       | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[Маркировка содержимого](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910 и выше          | 16.21 +     | 2.21 и выше | 16.0.11231 и выше | [Да — согласиться](sensitivity-labels-sharepoint-onedrive-files.md) |
@@ -201,7 +201,7 @@ ms.locfileid: "44545920"
 
 Приложения Office применяют маркировку и шифрование контента с меткой конфиденциальности по-разному в зависимости от используемого приложения.
 
-| Приложение | Маркировка содержимого | Шифрование |
+| App | Маркировка содержимого | Шифрование |
 | --- | --- | --- |
 | Word, Excel, PowerPoint на всех платформах | Сразу | Сразу |
 | Outlook для ПК и Mac | После отправки электронной почты в Exchange Online | Сразу |
