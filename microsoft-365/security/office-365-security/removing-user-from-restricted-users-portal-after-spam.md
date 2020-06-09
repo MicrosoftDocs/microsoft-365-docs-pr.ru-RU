@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как удалять пользователей с портала "Пользователи с ограниченным доступом" в Office 365. Пользователи попадают на портал "Пользователи с ограниченным доступом" за отправку исходящей нежелательной почты. Обычно это происходит в результате компрометации учетных записей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9865b409be6bce14b84a9175e8f17cdad58befe
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: b9e28550c67e20466b18b17d8b49fb1b68997cc4
+ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351011"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44617366"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом" в Office 365
 
@@ -40,7 +40,7 @@ ms.locfileid: "44351011"
 
 - Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Перейдите на страницу **Пользователи с ограниченным доступом** по ссылке <https://protection.office.com/restrictedusers>.
 
-- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
+- Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell).
 
 - Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы удалить каких-либо пользователей с портала "Пользователи с ограниченным доступом", вы должны быть участником групп ролей **Управление организацией** или **Администратор безопасности**. Чтобы получить доступ к порталу "Пользователи с ограниченным доступом" только для чтения, вы должны быть участником группы ролей **Читатель сведений о безопасности**. Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
