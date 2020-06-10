@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 8/28/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: Если новому сотруднику или другому пользователю требуется доступ к содержимому неактивного почтового ящика в Office 365, можно восстановить (или объединить) содержимое неактивного почтового ящика в существующий почтовый ящик.
-ms.openlocfilehash: 3352dfa582fb09a5f0a6c7ecbd807ed80593351f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b3cc574b96f616debec38a2b69406bf20dabf7b9
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621321"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678965"
 ---
 # <a name="restore-an-inactive-mailbox"></a>Восстановление неактивного почтового ящика
 

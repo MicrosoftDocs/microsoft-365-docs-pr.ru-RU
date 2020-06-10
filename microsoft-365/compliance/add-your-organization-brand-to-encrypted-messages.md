@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Примените фирменную символику вашей организации к зашифрованным сообщениям электронной почты в Организации и содержимому портала шифрования.
-ms.openlocfilehash: 8d8e0a75a88cfe5dbcd5b1e6ed2c276e2edef904
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 86636b319151a96e9ec827f85cc943282c30f63c
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351740"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679113"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>Добавление фирменной символики организации в зашифрованные сообщения
 
@@ -79,16 +79,16 @@ ms.locfileid: "44351740"
 
 |**Настройка этой функции шифрования**|**Используйте эти команды**|
 |:-----|:-----|
-|Цвет фона|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -BackgroundColor "<Hexadecimal color code>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"`|
-|Логотип|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Поддерживаемые форматы файлов: PNG, JPG, BMP, TIFF  <br/> Оптимальный размер файла эмблемы: менее 40 КБ  <br/> Оптимальный размер изображения логотипа: 170x70 пикселей. Если изображение превышает эти размеры, служба изменяет размер логотипа для отображения на портале. Служба не изменяет сам графический файл. Для достижения лучших результатов используйте оптимальный размер.|
-|Текст рядом с именем отправителя и адресом электронной почты|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -IntroductionText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
-|Текст, который отображается на кнопке "чтение сообщения"|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -ReadButtonText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
-|Текст, который отображается под кнопкой "прочитать сообщение"|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
-|URL-адрес для ссылки на заявление о конфиденциальности|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PrivacyStatementURL "<URL>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
-|Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
-|Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
-|Включение или отключение проверки подлинности с помощью кода одноразового этапа для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -OTPEnabled <$true|$false>` <br/> **Примеры:** <br/>Включение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
-|Включение или отключение проверки подлинности с помощью удостоверений Microsoft, Google или Yahoo для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -SocialIdSignIn <$true|$false>` <br/> **Примеры:** <br/>Включение социальных идентификаторов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Отключение социальных идентификаторов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
+|Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "<#RRGGBB hexadecimal color code or name value>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"` <br/> Более подробную информацию о цветах фона можно узнать в разделе [цвета фона](#background-color-reference) далее в этом разделе.|
+|Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <Byte[]>` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> Поддерживаемые форматы файлов: PNG, JPG, BMP, TIFF  <br/> Оптимальный размер файла эмблемы: менее 40 КБ  <br/> Оптимальный размер изображения логотипа: 170x70 пикселей. Если изображение превышает эти размеры, служба изменяет размер логотипа для отображения на портале. Служба не изменяет сам графический файл. Для достижения лучших результатов используйте оптимальный размер.|
+|Текст рядом с именем отправителя и адресом электронной почты|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -IntroductionText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
+|Текст, который отображается на кнопке "чтение сообщения"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -ReadButtonText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
+|Текст, который отображается под кнопкой "прочитать сообщение"|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<String up to 1024 characters>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
+|URL-адрес для ссылки на заявление о конфиденциальности|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PrivacyStatementURL "<URL>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -PrivacyStatementURL "https://contoso.com/privacystatement.html"`|
+|Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -DisclaimerText "<Disclaimer statement. String of up to 1024 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -DisclaimerText "This message is confidential for the use of the addressee only."`|
+|Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<Text for your portal. String of up to 128 characters.>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText "ContosoPharma secure email portal."`|
+|Включение или отключение проверки подлинности с помощью кода одноразового этапа для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -OTPEnabled <$true|$false>` <br/> **Примеры:** <br/>Включение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $true` <br/> Отключение одноразовых секретных кодов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -OTPEnabled $false`|
+|Включение или отключение проверки подлинности с помощью удостоверений Microsoft, Google или Yahoo для этого настраиваемого шаблона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -SocialIdSignIn <$true|$false>` <br/> **Примеры:** <br/>Включение социальных идентификаторов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $true` <br/> Отключение социальных идентификаторов для этого настраиваемого шаблона <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -SocialIdSignIn $false`|
 
 ## <a name="create-an-ome-branding-template-advanced-message-encryption"></a>Создание шаблона фирменной символики OME (расширенное шифрование сообщений)
 
@@ -101,7 +101,7 @@ ms.locfileid: "44351740"
 2. Используйте командлет [New – OMEConfiguration](https://docs.microsoft.com/powershell/module/exchange/new-omeconfiguration) для создания нового шаблона.
 
    ```powershell
-   New-OMEConfiguration -Identity <OMEConfigurationIdParameter>
+   New-OMEConfiguration -Identity "<OMEConfigurationName>"
    ```
 
    For example,
@@ -122,11 +122,11 @@ ms.locfileid: "44351740"
 
    **Сброс функции шифрования к тексту и изображению по умолчанию**|**Используйте эти команды**|
    |:-----|:-----|
-   |Текст по умолчанию, сопровождающий зашифрованные сообщения электронной почты.  <br/> Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
-   |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
-   |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **Пример возврата к значению по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
-   |Логотип|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **Пример возврата к значению по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
-   |Цвет фона|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -BackgroundColor <"$null">` <br/> **Пример возврата к значению по умолчанию:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
+   |Текст по умолчанию, сопровождающий зашифрованные сообщения электронной почты.  <br/> Текст по умолчанию, отображающийся над инструкциями по просмотру зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -EmailText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
+   |Заявление об отказе в зашифрованном сообщении электронной почты.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" DisclaimerText "<empty string>"` <br/> **Пример:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
+   |Текст, отображающийся в верхней части портала просмотра зашифрованных сообщений.|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -PortalText "<empty string>"` <br/> **Пример возврата к значению по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
+   |Логотип|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -Image <"$null">` <br/> **Пример возврата к значению по умолчанию:** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
+   |Цвет фона|`Set-OMEConfiguration -Identity "<OMEConfigurationName>" -BackgroundColor "$null">` <br/> **Пример возврата к значению по умолчанию:** <br/> `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
    |
 
 ## <a name="remove-a-custom-branding-template-advanced-message-encryption"></a>Удаление настраиваемого шаблона фирменного стиля (расширенного шифрования сообщений)
@@ -140,7 +140,7 @@ ms.locfileid: "44351740"
 2. Используйте командлет **Remove – OMEConfiguration** следующим образом:
 
    ```powershell
-   Remove-OMEConfiguration -Identity "<OMEConfigurationIdParameter>
+   Remove-OMEConfiguration -Identity ""<OMEConfigurationName>"
    ```
 
    For example,
@@ -184,3 +184,154 @@ ms.locfileid: "44351740"
    Список шаблонов включает все шаблоны и параметры по умолчанию, а также пользовательские шаблоны, созданные для использования в Office 365. Если список пуст, убедитесь, что вы настроили шифрование сообщений Office 365 с помощью новых возможностей, как описано в статье [Настройка новых возможностей шифрования сообщений office 365](set-up-new-message-encryption-capabilities.md). Сведения о шаблонах по умолчанию можно узнать в статье [Настройка шаблонов для Azure Information Protection и управление ими](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates). Сведения о параметре "не **пересылать** " можно узнать в статье не [пересылать сообщения](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails). Для получения дополнительных сведений о параметре " **только шифрование** " в разделе [шифрование только для сообщений электронной почты](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails).
 
    Выберите команду **Добавить действие** , если хотите указать другое действие.
+
+## <a name="background-color-reference"></a>Справочник по цвету фона
+
+Имена цветов, которые можно использовать для фонового цвета, ограничены. Вместо имени цвета можно использовать шестнадцатеричное значение кода (#RRGGBB). Можно использовать шестнадцатеричное значение кода, которое соответствует имени цвета, или можно использовать собственное значение шестнадцатеричного кода. Обязательно заключите шестнадцатеричное значение кода в кавычки (например, `"#f0f8ff"` ).
+
+В приведенной ниже таблице описаны имена доступных фоновых цветов и соответствующие им шестнадцатеричные значения кода.
+
+|||
+|---|---|
+|**Название цвета**|**Код цвета**|
+|алицеблуе|#f0f8ff|
+|антикуевхите|#faebd7|
+|волны|#00ffff|
+|акуамарине|#7fffd4|
+|службу|#f0ffff|
+|цвет|#f5f5dc|
+|бискуе|#ffe4c4|
+|black|#000000|
+|бланчедалмонд|#ffebcd|
+|blue|#0000ff|
+|блуевиолет|#8a2be2|
+|Иванов|#a52a2a|
+|бурливуд|#deb887|
+|кадетблуе|#5f9ea0|
+|чартреусе|#7fff00|
+|рецепт|#d2691e|
+|Территория|#ff7f50|
+|корнфловерблуе|#6495ed|
+|корнсилк|#fff8dc|
+|Crimson|#dc143c|
+|цвет|#00ffff|
+|даркблуе|#00008b|
+|даркциан|#008b8b|
+|даркголденрод|#b8860b|
+|даркграй|#a9a9a9|
+|даркгрин|#006400|
+|дарккхаки|#bdb76b|
+|даркмажента|#8b008b|
+|дарколивегрин|#556b2f|
+|darkorange|#ff8c00|
+|даркорчид|#9932cc|
+|даркред|#8b0000|
+|дарксалмон|#e9967a|
+|дарксеагрин|#8fbc8f|
+|даркслатеблуе|#483d8b|
+|даркслатеграй|#2f4f4f|
+|дарктуркуоисе|#00ced1|
+|дарквиолет|#9400d3|
+|диппинк|#ff1493|
+|дипскиблуе|#00bfff|
+|димграй|#696969|
+|доджерблуе|#1e90ff|
+|фиребрикк|#b22222|
+|флоралвхите|#fffaf0|
+|форестгрин|#228b22|
+|фучсиа|#ff00ff|
+|гаинсборо|#dcdcdc|
+|гхоствхите|#f8f8ff|
+|цвет|#ffd700|
+|голденрод|#daa520|
+|участка|#808080|
+|green|#008000|
+|гринеллов|#adff2f|
+|хонэйдев|#f0fff0|
+|хотпинк|#ff69b4|
+|индианред|#cd5c5c|
+|Индиго|#4b0082|
+|ивори|#fffff0|
+|кхаки|#f0e68c|
+|лавендер|#e6e6fa|
+|лавендерблуш|#fff0f5|
+|лавнгрин|#7cfc00|
+|лемончиффон|#fffacd|
+|lightblue|#add8e6|
+|лигхткорал|#f08080|
+|лигхтциан|#e0ffff|
+|лигхтголденроделлов|#fafad2|
+|лигхтграй|#d3d3d3|
+|лигхтгрэй|#d3d3d3|
+|lightgreen|#90ee90|
+|лигхтпинк|#ffb6c1|
+|лигхтсалмон|#ffa07a|
+|лигхтсеагрин|#20b2aa|
+|лигхтскиблуе|#87cefa|
+|лигхтслатеграй|#778899|
+|лигхтстилблуе|#b0c4de|
+|лигхтеллов|#ffffe0|
+|желт|#00ff00|
+|лимегрин|#32cd32|
+|линен|#faf0e6|
+|фиолетовый|#ff00ff|
+|марун|#800000|
+|медиумакуамарине|#66cdaa|
+|медиумблуе|#0000cd|
+|медиуморчид|#ba55d3|
+|медиумпурпле|#9370db|
+|медиумсеагрин|#3cb371|
+|медиумслатеблуе|#7b68ee|
+|медиумспринггрин|#00fa9a|
+|медиумтуркуоисе|#48d1cc|
+|медиумвиолетред|#c71585|
+|миднигхтблуе|#191970|
+|минткреам|#f5fffa|
+|мистиросе|#ffe4e1|
+|моккасин|#ffe4b5|
+|наважовхите|#ffdead|
+|нави|#000080|
+|олдлаце|#fdf5e6|
+|темно|#808000|
+|оливедраб|#6b8e23|
+|orange|#ffa500|
+|оранжеред|#ff4500|
+|орчид|#da70d6|
+|палеголденрод|#eee8aa|
+|палегрин|#98fb98|
+|палетуркуоисе|#afeeee|
+|палевиолетред|#db7093|
+|папайавхип|#ffefd5|
+|пеачпуфф|#ffdab9|
+|Перу|#cd853f|
+|pink|#ffc0cb|
+|сливовая|#dda0dd|
+|повдерблуе|#b0e0e6|
+|purple|#800080|
+|red|#ff0000|
+|росибровн|#bc8f8f|
+|ройалблуе|#4169e1|
+|саддлебровн|#8b4513|
+|салмон|#fa8072|
+|сандибровн|#f4a460|
+|сеагрин|
+|сеашелл|#fff5ee|
+|сиенна|#a0522d|
+|носят|#c0c0c0|
+|скиблуе|#87ceeb|
+|слатеблуе|#6a5acd|
+|слатеграй|#708090|
+|Snow|#fffafa|
+|спринггрин|#00ff7f|
+|стилблуе|#4682b4|
+|Tan|#d2b48c|
+|teal|#008080|
+|систле|#d8bfd8|
+|томато|#ff6347|
+|Turquoise|#40e0d0|
+|красн|#ee82ee|
+|вхеат|#f5deb3|
+|white|#ffffff|
+|вхитесмоке|#f5f5f5|
+|yellow|#ffff00|
+|елловгрин|#9acd32|

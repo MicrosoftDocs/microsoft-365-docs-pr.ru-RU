@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 02e6eb5914af9ad72971029913d31b214ebbd190
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 7e7889cb1540cb2cb164cbbd44e9ec0e480a6fd5
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011939"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678698"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Способ обработки обновлений на настольных компьютерах, управляемых Майкрософт
 
@@ -61,10 +61,10 @@ ms.locfileid: "44011939"
 <tr><td>Обновления компонентов для операционной системы</td><td>0 дней</td><td>30 дней</td><td>60 дней.</td><td>90 дней</td></tr>
 <tr><td>Драйверы и встроенное по</td><td colspan="4">Соответствует календарному плану для обновлений качества</td></tr>
 <tr><td>Определение антивирусной защиты</td><td colspan="4">Обновлено с каждым сканированием</td></tr>
-<tr><td>Приложения Microsoft 365 для предприятий</td><td colspan="4">Следующий месячный канал Office
+<tr><td>Приложения Microsoft 365 для предприятий</td><td colspan="4">Соответствует текущему каналу Office
 </table>
 
-Дополнительные сведения о месячном канале для приложений Microsoft 365 для предприятий можно найти в статье [Обзор каналов обновления для приложений microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-channels).
+Дополнительные сведения о текущем канале для приложений Microsoft 365 для предприятий можно найти в статье [Обзор каналов обновления для приложений microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-channels).
 
 >[!NOTE]
 >Эти периоды задержки предназначены специально для обеспечения высокого уровня безопасности и производительности для всех пользователей. Кроме того, на основе данных, собранных на компьютерах с управляемыми службами Майкрософт и различной области и влиянии на обновления, для настольных систем, управляемых Майкрософт, резервируется гибкость для изменения длины указанных выше периодов задержки для всех групп развертывания на основе ad hoc.

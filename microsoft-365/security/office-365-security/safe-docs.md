@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Сведения о безопасных документах в Office 365 ATP.
-ms.openlocfilehash: 40554365cf41ac37b9f9b8399b10dc8f6ab81f42
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: e9b1fadd3e9e6dab337a0c3ded380c5c49f53bab
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617290"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44678674"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Безопасные документы в Office 365 Advanced Threat Protection
 
@@ -30,7 +30,7 @@ ms.locfileid: "44617290"
 
 - Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности Microsoft 365 и Microsoft 365.
 
-- Безопасные документы в настоящее время доступны для общедоступной предварительной версии, доступной для пользователей, которые входят в состав [программы предварительной оценки Office](https://insider.office.com/en-us/join) на странице "ежемесячный канал (целевой)" с Office версии 2002 (12527,20092) или более поздней версии. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
+- Безопасные документы в настоящее время доступны для общедоступной предварительной версии, доступной пользователям, которые входят в состав [программы предварительной оценки Office](https://insider.office.com/en-us/join) на текущем канале (Предварительная версия) с office версии 2002 (12527,20092) или выше. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -55,7 +55,7 @@ ms.locfileid: "44617290"
 
    - **Разрешить пользователям щелкать в режиме защищенного просмотра, даже если документы распознает файл как вредоносный**: не рекомендуется включать этот параметр.
 
-4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+4. По завершении нажмите кнопку **Сохранить**.
 
 ![Страница безопасных вложений ATP](../../media/safe-docs.png)
 
