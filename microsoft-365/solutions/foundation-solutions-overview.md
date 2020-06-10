@@ -13,18 +13,19 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 37d0de34bb9a6f138b31e063b76761124c1664a9
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 49d58c8d489906519f0c5e3aab4cec8183a5fe5d
+ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160370"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44664554"
 ---
 # <a name="microsoft-365-foundation-solutions-overview"></a>Общие сведения о решениях Microsoft 365 Foundation
 
 
 ![](https://docs.microsoft.com/office/media/icons/blocks-blue.png) **решения** для блоков. Эти решения позволяют получить полное руководство по определенной бизнес-проблеме или потребности. В них рассказывается об основных понятиях и функциях, а также о возможностях, которые могут привести к работоспособности конечного результата, от планирования до реализации до внедрения. 
 
-- [Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365](empower-people-to-work-remotely.md)
+- [Возможности для удаленных работников](empower-people-to-work-remotely.md)
 - [Безопасная работа в группах, группах и сайтах](setup-secure-collaboration-with-teams.md)
 - [Настройка защиты от угроз и безопасности кибератак в Организации](deploy-threat-protection.md)
+- [Развертывание защиты информации для норм конфиденциальности данных](information-protection-deploy.md)
