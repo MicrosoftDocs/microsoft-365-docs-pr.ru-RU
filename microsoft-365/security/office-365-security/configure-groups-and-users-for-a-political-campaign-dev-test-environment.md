@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: Сводка. Сведения о создании пробных подписок на Office 365 и Enterprise Mobility + Security (EMS) с пользователями и группами в случае среды разработки и тестирования для политической кампании.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d1cd4812cdb8a58062d7c64e73049c080f8b906f
+ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035110"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44588468"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>Настройка групп и пользователей в случае среды разработки и тестирования для политической кампании
 
@@ -35,7 +35,7 @@ ms.locfileid: "44035110"
 
 На этом этапе вы получите пробные подписки на Office 365 E5 и Enterprise Mobility + Security (EMS) E5 для вымышленной организации, которая проводит политическую кампанию.
 
-Сначала следуйте инструкциям для **этапа 2**, указанного в [разделе о среде разработки и тестирования Office 365](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment).
+Сначала выполните инструкции для **этапа 2** из статьи [Простая базовая конфигурация](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
 
 Затем оформите пробную подписку EMS E5 и добавьте ее для той же организации, что и пробную подписку.
 
