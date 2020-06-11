@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b0703aa14bee3d14d1c3ff4fe46ea9d72de73ce2
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 8a3e4b8979a346266336e2729d18465d391c28f9
+ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515871"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689270"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -58,6 +58,8 @@ ms.locfileid: "44515871"
 В настоящее время доступны следующие функции и расширения для предварительной версии:
 
 - **[Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)** — получение представления о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с таблицами [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.
+
+- **[Go Go](advanced-hunting-go-hunt.md)** — быстро изучите сведения об инциденте, чтобы проверить конкретное событие, пользователя, устройства или других типов сущностей с помощью [расширенных](advanced-hunting-overview.md) возможностей поиска на основе запросов.
 
 - **[Таблица емаилпостделиверевентс](advanced-hunting-emailpostdeliveryevents-table.md)** — эта таблица используется для создания [расширенных](advanced-hunting-overview.md) запросов поиска, которые проверяют действия, выполненные на сообщениях после их доставки в почтовые ящики получателей.
 
