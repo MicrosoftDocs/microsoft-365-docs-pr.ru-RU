@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: bfbebf78664cdce34d224c5cc4b24ed6a9ad0646
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 6521bd9c23d8596adb8c86b73a82c3e8aecb85fb
+ms.sourcegitcommit: 03da5464943ef4b9a51644601a229897955dcbb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470666"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44658356"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -135,7 +135,7 @@ ms.locfileid: "44470666"
 
 В течение периода использования предварительной версии следующие приложения поддерживают обучаемые классификаторы для меток конфиденциальности:
 
-- Приложения Microsoft 365 для предприятий (прежнее название — Office 365 профессиональный плюс) для Windows из [программы предварительной оценки Office](https://office.com/insider):
+- Приложения Microsoft 365 для предприятий ([прежнее название — Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/name-change)) для Windows из [бета-канала](https://office.com/insider) ([прежнее название — программа предварительной оценки Office](https://docs.microsoft.com/deployoffice/update-channels-changes)):
     - Word
     - Excel
     - PowerPoint

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте политику хранения, чтобы заранее решить, следует ли сохранить контент, удалить контент или и то, и другое - сохранить, а затем удалить контент; применять единую политику ко всей организации или конкретным местам или пользователям; и применять политику ко всему контенту или контенту, отвечающему определенным условиям.
-ms.openlocfilehash: cf38eecaeaf23371c370ad07e723177e3770c7ba
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 377c5e1f21938204123de298e620a3d0d2bb9755
+ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432340"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44695142"
 ---
 # <a name="learn-about-retention-policies"></a>Сведения о политиках хранения
 
@@ -141,18 +141,17 @@ Preservation Lock гарантирует, что ваша организация
   
 **Старые функции Exchange Online:**
 
-- [Управление делами обнаружения электронных данных в Центре безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery) (удержание для обнаружения электронных данных) 
-    
 - [Удержание на месте и хранение для судебного разбирательства](https://go.microsoft.com/fwlink/?linkid=846124) (удержание для обнаружения электронных данных) 
 
 - [Как определить тип удержания, примененного для почтового ящика Exchange Online](identify-a-hold-on-an-exchange-online-mailbox.md)
     
 - [Теги хранения и политики хранения](https://go.microsoft.com/fwlink/?linkid=846125), также известные как [управление записями обмена сообщениями](https://go.microsoft.com/fwlink/?linkid=846126) (только удаление)
     
+Также см. статью [Прекращение поддержки устаревших средств обнаружения электронных данных](legacy-ediscovery-retirement.md).
+
+
 **Старые функции из SharePoint и OneDrive:**
 
-- [Управление делами обнаружения электронных данных в Центре безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery) (удержание для обнаружения электронных данных) 
-    
 - [Добавление содержимого к делу и настройка удержания источников в Центре обнаружения электронных данных](https://docs.microsoft.com/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) (удержание для обнаружения электронных данных) 
     
 - [Политики удаления документов](https://support.office.com/article/Create-a-document-deletion-policy-in-SharePoint-Server-2016-4fe26e19-4849-4eb9-a044-840ab47458ff) (только удаление)
