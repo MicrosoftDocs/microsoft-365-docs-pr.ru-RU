@@ -130,6 +130,8 @@
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: Слежение за устройствами и сообщениями электронной почты
                   href: mtp/advanced-hunting-query-emails-devices.md
+                - name: Запуск слежения
+                  href: mtp/advanced-hunting-go-hunt.md
                 - name: Схема данных
                   items:
                     - name: Сведения о схеме
