@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Microsoft 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: d9438b1578b5708e9b7740f001da3870c3616c39
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 4d9a6292482a06a4629d394c5ff422ba02bec55e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352276"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717266"
 ---
 # <a name="set-up-customer-key"></a>Настройка ключа клиента
 
@@ -108,15 +108,15 @@ SharePoint Online и OneDrive для бизнеса:
 
 2. Войдя в систему, перейдите на **панель мониторинга**.
 
-3. Выберите **предложения**и просмотрите список текущих предложений.
+3. В **Deploy** панели навигации выберите пункт развертывание **или** **Просмотрите все ресурсы развертывания** в карточке сведения о **развертывании** и просмотрите список текущих предложений.
 
-4. Выберите дополнительные **сведения** о предложении, которое относится к вам:
+4. Выберите информационную карточку, которая относится к вам:
 
-   - **Exchange Online и Skype для бизнеса:** Выберите дополнительные **сведения** в **разделе клиент для Exchange** .
+   - **Exchange Online и Skype для бизнеса:** Нажмите кнопку **запросить ключ шифрования для Exchange Online** .
 
-   - **Файлы SharePoint Online, OneDrive для бизнеса и teams:** Выберите дополнительные **сведения** о **ключе клиента для SharePoint и OneDrive для бизнеса** .
+   - **Файлы SharePoint Online, OneDrive и teams:** Нажмите кнопку **запросить ключ шифрования для SharePoint и OneDrive** .
 
-5. На странице " **сведения о** соотношении" выберите **создать запрос**.
+5. После просмотра сведений о предложении нажмите **продолжить до шага 2**.
 
 6. Заполните все необходимые сведения и требуемые сведения в форме "Предложите". Следует уделить особое внимание выбранным должностным лицам Организации, которым требуется авторизоваться для утверждения постоянных и необратимых уничтожений ключей и данных шифрования. Завершив заполнение формы, нажмите кнопку **послать**.
 
@@ -137,7 +137,7 @@ SharePoint Online и OneDrive для бизнеса:
 
 3. Обратитесь в корпорацию Майкрософт, чтобы завершить процесс. Для команды SharePoint и OneDrive для бизнеса свяжитесь с [Spock@microsoft.com](mailto:spock@microsoft.com). Для Exchange Online и Skype для бизнеса обращайтесь в [exock@microsoft.com](mailto:exock@microsoft.com). Включите в свою электронную почту следующие сообщения:
 
-   **Subject**: ключ клиента для \< *полного доменного имени клиента*\>
+   **Тема**: ключ клиента для\<*Your tenant's fully-qualified domain name*\>
 
    **Body**: идентификаторы подписок, для которых требуется завершать обязательный срок хранения.
    Выходные данные Get – Азпровидерфеатуре для каждой подписки.
@@ -195,7 +195,7 @@ SharePoint Online и OneDrive для бизнеса:
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   Например:
+   Пример:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -319,7 +319,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > В качестве выходного файла выберите сочетание имени хранилища и имени ключа. Это сделает имя файла самоописанием. Кроме того, это гарантирует, что имена файлов резервных копий не будут конфликтовать.
   
-Например:
+Пример:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup

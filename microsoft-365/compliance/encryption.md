@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: В Office 365 ваш контент шифруется на REST и в транзите с самым надежным шифрованием, протоколами и технологиями. Общие сведения о шифровании в Office 365.
-ms.openlocfilehash: 16b7786097690af6a2dbb558582a7cf88e605bec
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 2b1f2927b5d6daeb5e83aae2521d96e329e77c43
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44166010"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717232"
 ---
 # <a name="encryption"></a>Шифрование
 
@@ -54,6 +54,7 @@ ms.locfileid: "44166010"
 |Файлы на устройстве. Эти файлы могут содержать сообщения электронной почты, сохраненные в папке, документы Office, сохраненные на компьютере, планшете или телефоне, или данные, сохраненные в Microsoft Cloud.  <br/> |BitLocker в центрах обработки данных Майкрософт. BitLocker также можно использовать на клиентских компьютерах, например на компьютерах с Windows и планшетах  <br/> Диспетчер распределенных ключей (DKM) в центрах обработки данных Майкрософт  <br/> Клиентский ключ для Microsoft 365  <br/> |[Центр ИТ Windows: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Центр управления безопасностью (Майкрософт): шифрование](https://www.microsoft.com/TrustCenter/Security/Encryption) <br/> [Управление Cloud Security Series: шифрование данных в REST](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Как Exchange Online защищает секреты вашей электронной почты](exchange-online-secures-email-secrets.md) <br/> [Шифрование службы с помощью ключа клиента](customer-key-overview.md) <br/> |
 |Передаваемых между пользователями файлов. Эти файлы могут включать документы Office или элементы списка SharePoint, которые доступны пользователям.  <br/> |TLS для файлов в транзите  <br/> |[Шифрование данных в OneDrive для бизнеса и SharePoint Online](data-encryption-in-odb-and-spo.md) <br/> [Skype для бизнеса Online: безопасность и архивация](https://technet.microsoft.com/library/skype-for-business-online-security-and-archiving.aspx) <br/> |
 |Электронная почта при транзите между получателями. Это сообщение содержит электронную почту, размещенную в Exchange Online.  <br/> |Шифрование сообщений Office 365 с помощью службы управления правами Azure, S/MIME и TLS для электронной почты в пути  <br/> |[Шифрование сообщений Office 365 (OME)](ome.md) <br/> [Шифрование электронной почты в Office 365](email-encryption.md) <br/> [Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365](exchange-online-uses-tls-to-secure-email-connections.md) <br/> |
+|Беседы, сообщения и файлы в пути между получателями с помощью Microsoft Teams. <br/> |Teams использует протоколы TLS и MTLS для шифрования мгновенных сообщений. Трафик мультимедиа шифруется с помощью Secure RTP (SRTP). В Teams для обмена ключами шифрования используются алгоритмы FIPS (стандарты федеральной обработки информации). <br/> |[Шифрование для Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide#encryption-for-teams) <br/> |
 
 ## <a name="what-if-i-need-more-control-over-encryption-to-meet-security-and-compliance-requirements"></a>Что делать, если требуется больший контроль над шифрованием для удовлетворения требований безопасности и соответствия требованиям?
 
@@ -78,6 +79,7 @@ Microsoft 365 предоставляет решения, управляемые 
 |Работать с зашифрованными сообщениями на мобильном устройстве  <br/> |[Просмотр зашифрованных сообщений на устройстве с Android](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [Просмотр зашифрованных сообщений на iPhone или iPad](https://support.microsoft.com/en-us/office/view-protected-messages-on-your-iphone-or-ipad-4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
 |Шифрование документа с помощью парольной защиты  <br/><br/>  Защита паролем не поддерживается в браузере. Используйте для настольных ПК версии Word, Excel и PowerPoint, чтобы защитить паролем. |[Добавление и удаление защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> Выберите раздел **добавить защиту** , а затем — **Шифрование с помощью пароля**.  |
 |Удаление шифрования из документа  <br/> |[Добавление и удаление защиты в документе, книге или презентации](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) <br/> Выберите раздел **удалить защиту** , а затем — раздел **Удаление шифрования пароля**.  |
+
 
 ## <a name="related-topics"></a>Статьи по теме
 

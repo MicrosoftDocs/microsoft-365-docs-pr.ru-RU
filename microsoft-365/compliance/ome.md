@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: С помощью шифрования сообщений Office 365 ваша организация может отправлять и получать зашифрованные сообщения электронной почты между людьми в Организации и за ее пределами. Шифрование сообщений электронной почты гарантирует, что только предназначенные для получателей сообщения могут просматривать содержимое сообщения.
-ms.openlocfilehash: e4210feb2f510507a1d930ffed6ac784566951b5
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.openlocfilehash: f5ce3103a6fc8c9f025d657408814a954cf0a13e
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214235"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717330"
 ---
 # <a name="message-encryption"></a>Шифрование сообщений
 
@@ -33,9 +33,6 @@ ms.locfileid: "44214235"
 ## <a name="how-office-365-message-encryption-works"></a>Как работает шифрование сообщений в Office 365
 
 Оставшаяся часть этой статьи относится к новым возможностям OME.
-
-> [!NOTE]
-> Представители, имеющие права полного доступа к почтовому ящику, могут читать зашифрованные сообщения, отправленные в почтовый ящик.
 
 Служба шифрования сообщений Office 365 — это веб-служба, созданная на основе Microsoft Azure Rights Management (Azure RMS), которая является частью Azure Information Protection. К ним относятся политики шифрования, удостоверения и авторизации для защиты электронной почты. Сообщения можно шифровать с помощью шаблонов управления правами, параметра "не [пересылать](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)" и " [только шифровать](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)".
 

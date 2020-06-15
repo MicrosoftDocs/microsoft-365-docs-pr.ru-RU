@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: После настройки ключа клиента Узнайте, как управлять им с помощью восстановления ключей АКВ и управления разрешениями и политиками шифрования данных.
-ms.openlocfilehash: dbdbd61b4d06e183d8cc5461122e316b2b6b1797
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 21c1fedce1ebc09e6c33b74a1b2c035c90988e12
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352206"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717310"
 ---
 # <a name="manage-customer-key"></a>Управление ключом клиента
 
@@ -32,7 +32,7 @@ ms.locfileid: "44352206"
 Restore-AzKeyVaultKey -VaultName <vault name> -InputFile <filename>
 ```
 
-Например:
+Пример:
   
 ```powershell
 Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -50,7 +50,7 @@ Restore-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O3
 Get-AzKeyVault -VaultName <vault name>
 ```
 
-Например:
+Пример:
 
 ```powershell
 Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -62,7 +62,7 @@ Get-AzKeyVault -VaultName Contoso-O365EX-NA-VaultA1
 Remove-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user>
 ```
 
-Например:
+Пример:
 
 ```powershell
 Remove-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com
@@ -142,13 +142,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
 Свойство IsFalse возвращает значение **true** , если почтовый ящик зашифрован, и значение **false** , если почтовый ящик не зашифрован.
 
-Время на завершение перемещения почтовых ящиков зависит от размера почтового ящика. Если ключ клиента не полностью зашифровал почтовый ящик после 72 часов с момента назначения новой функции DEP, инициируйте перемещение почтового ящика. Для этого используйте командлет New – MoveRequest и укажите псевдоним почтового ящика. Например:
-  
-```powershell
-New-MoveRequest <alias>
-```
-
-Для получения дополнительных сведений об этом командлете обратитесь к разделу [Get – MailboxStatistics](https://docs.microsoft.com/powershell/module/exchange/new-moverequest?view=exchange-ps).
+Время на завершение перемещения почтовых ящиков зависит от размера почтового ящика. Если ключ клиента не полностью зашифровал почтовый ящик после 72 часов с момента назначения новой функции DEP, обратитесь в службу поддержки Майкрософт за помощью. Командлет New-MoveRequest больше недоступен для перемещений локальных почтовых ящиков. Для получения дополнительных сведений обратитесь к [этому уведомлению](https://techcommunity.microsoft.com/t5/exchange-team-blog/disabling-new-moverequest-for-local-mailbox-moves/bc-p/1332141) .
 
 ### <a name="verify-encryption-completes-for-sharepointonlineonedriveforbusinessandteamsfiles"></a>Проверка того, что шифрование выполнено для SharePoint Online, OneDrive для бизнеса и файлов Teams
 
