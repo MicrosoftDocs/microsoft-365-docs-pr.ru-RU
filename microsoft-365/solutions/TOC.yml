@@ -28,9 +28,10 @@
         - name: Этап 6. Обучение удаленных сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Настройка безопасной совместной работы с помощью Microsoft 365
-      href: setup-secure-collaboration-with-teams.md
       items:
-        - name: Три уровня защиты в Microsoft Teams
+        - name: Обзор
+          href: setup-secure-collaboration-with-teams.md
+        - name: Этап 1. Настройка трех уровней защиты в Microsoft Teams
           items:
             - name: Обзор трех уровней защиты
               href: configure-teams-three-tiers-protection.md
@@ -42,7 +43,7 @@
               href: configure-teams-highly-sensitive-protection.md
             - name: Настройка команды с изоляцией для обеспечения безопасности
               href: secure-teams-security-isolation.md
-        - name: Настройка внешнего общего доступа
+        - name: "Этап\_2. Настройка внешнего общего доступа"
           items:
             - name: Обзор внешнего общего доступа
               href: collaborate-with-people-outside-your-organization.md
@@ -69,7 +70,11 @@
             - name: Справочник по внешнему общему доступу
               href: microsoft-365-guest-settings.md
     - name: Развертывание защиты от угроз в Microsoft 365
-      href: deploy-threat-protection.md
+      items:
+        - name: Обзор
+          href: deploy-threat-protection.md
+        - name: Действия по развертыванию защиты от угроз
+          href: deploy-threat-protection-configure.md
     - name: Развертывание защиты информации в нормах конфиденциальности данных
       items:
         - name: Обзор
