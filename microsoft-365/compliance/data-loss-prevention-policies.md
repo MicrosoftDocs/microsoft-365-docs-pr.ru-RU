@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: С помощью политики защиты от потери данных (DLP) в Центре безопасности и соответствия требованиям можно выявлять, отслеживать и автоматически защищать конфиденциальную информацию в Office 365.
-ms.openlocfilehash: 3f4cabab120f418e4c410a1e1f052868ad453f67
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: c6a099924852927a319990d3886a10479e96999b
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679073"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726548"
 ---
 # <a name="overview-of-data-loss-prevention"></a>Обзор функции защиты от потери данных
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -484,6 +484,9 @@ DLP сканирует электронную почту иначе, чем эл
 И, наконец, документы могут не только нарушать политику защиты от потери данных, но и вновь начать соответствовать ей. Например, если пользователь добавляет в документ номера кредитных карт, политика защиты от потери данных может автоматически заблокировать доступ к документу. Но если затем пользователь удалит конфиденциальную информацию, примененное ранее действие (в этом случае блокировка) будет отменено при следующей оценки политики.
   
 Система защиты от потери данных оценивает любой контент, который можно индексировать. Дополнительные сведения о типах файлов, для которых по умолчанию выполняется обход контента, см. в статье [Анализируемые типы файлов и расширения имен файлов для обхода по умолчанию в SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types).
+
+> [!NOTE]
+> Внешний общий доступ к новым файлам в SharePoint можно заблокировать по умолчанию, пока хотя бы одна политика защиты от потери данных не проверит новый элемент. Подробные сведения см. в статье [По умолчанию помечать новые файлы как конфиденциальные](https://docs.microsoft.com/sharepoint/sensitive-by-default). 
   
 ### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Оценка политик в Exchange Online, Outlook и Outlook в Интернете
 
