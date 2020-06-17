@@ -22,14 +22,14 @@
               href: setup/setup-apps-for-business.md
         - name: Изучение страницы и мастера настройки
           href: setup/o365-setup-wizard-and-setup-page.md
-        - name: Перенос данных
-          href: setup/migrate-email-and-contacts-admin.md
         - name: Установка приложений Office
           href: setup/install-applications.md
         - name: Настройка устройств с Windows
           href: ../business/set-up-windows-devices.md
         - name: Настройка мобильных устройств
           href: ../business/set-up-mobile-devices.md
+        - name: Перенос данных в Microsoft 365
+          href: setup/migrate-email-and-contacts-admin.md
         - name: Развертывание Teams
           href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
         - name: Обучение приложениям для всех
@@ -117,6 +117,8 @@
               href: add-users/resend-user-password.md
             - name: Создание шаблона для добавления пользователей
               href: add-users/create-and-use-a-template-to-add-users.md
+            - name: Перевод пользователей на последние версии приложений
+              href: setup/upgrade-users-to-latest-office-client.md
         - name: Группы
           items:
             - name: Обзор групп
@@ -154,6 +156,8 @@
           href: email/add-another-email-alias-for-a-user.md
         - name: Использование личного домена
           href: email/change-email-address.md
+        - name: Перенос электронной почты и контактов в Microsoft 365
+          href: setup/migrate-email-and-contacts-admin.md
         - name: Создание подписей и заявлений об отказе
           href: setup/create-signatures-and-disclaimers.md
         - name: 'Создание, изменение и удаление группы безопасности'
@@ -204,8 +208,6 @@
     - name: Управление данными и службами
       href: manage/index.yml
       items:
-        - name: Обновление организации до последних версий приложений
-          href: setup/upgrade-users-to-latest-office-client.md
         - name: Отслеживание активности пользователей с помощью отчетов
           href: activity-reports/activity-reports.md
         - name: Изменение контактных данных организации
@@ -313,15 +315,15 @@
     - name: Работа с клиентами
       href: work-with-customers/index.yml
       items:
-        - name: Предоставление внешнего общего доступа к сайтам и файлам
+        - name: Совместное использование сайтов и файлов с гостевыми пользователями
           href: manage/share-sites-with-external-users.md
         - name: Совместное использование календарей с гостевыми пользователями
           href: manage/share-calendars-with-external-users.md
-        - name: Создание команды с доступом для гостей
+        - name: Создание команды с доступом для гостевых пользователей
           href: 'https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7'
         - name: Планирование собрания Teams с гостями
           href: 'https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a?ui=en-US&rs=en-US&ad=US'
-        - name: Присоединение к собранию Teams с гостями
+        - name: Присоединение к собранию Teams с гостевыми пользователями
           href: 'https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8?ui=en-US&rs=en-US&ad=US'
     - name: Устранение неполадок
       href: 'https://docs.microsoft.com/office/troubleshoot/'

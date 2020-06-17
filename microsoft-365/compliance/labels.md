@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Узнайте как метки хранения классифицируют данные в организации для системы управления и применяют правила хранения на основе этой классификации. Вы также можете использовать метки хранения для внедрения решения по управлению записями для Microsoft 365.
-ms.openlocfilehash: ab2e1baf553a386009d55e43efdf75b796cc1ffd
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+description: Learn how retention labels classify data across your organization for governance, and enforce retention rules based on that classification. You can also use retention labels to implement a records management solution for Microsoft 365.
+ms.openlocfilehash: 90039930d94de238a784cc4f8cea6463ff4e49b3
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545971"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761699"
 ---
 # <a name="learn-about-retention-labels"></a>Сведения о метках хранения
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-В вашей организации наверняка есть контент различных типов, с которым требуется выполнять разные действия для соблюдения отраслевых нормативов и внутренних политик. Например, у вас могут быть:
+Across your organization, you probably have different types of content that require different actions taken on them in order to comply with industry regulations and internal policies. For example, you might have:
   
 - налоговые декларации, которые необходимо **хранить** не меньше определенного срока; 
     
@@ -38,11 +38,11 @@ ms.locfileid: "44545971"
     
 - рабочие визы, которые требуется **отмечать как записи**, чтобы их невозможно было редактировать и удалять. 
     
-Во всех вышеописанных случаях метки хранения помогут вам выполнять действия с содержимым, соответствующие характеру этого содержимого. Метки хранения дают возможность классифицировать данные в организации для системы управления и применять правила хранения на основе этой классификации.
+In all of these cases, retention labels can help you take the right actions on the right content. With retention labels, you can classify data across your organization for governance, and enforce retention rules based on that classification.
   
 С помощью меток хранения вы можете:
   
-- **Дать возможность пользователям в организации вручную применять метки хранения** к содержимому в Outlook 2010 и более поздних версий, Outlook в Интернете, OneDrive, SharePoint и в группах Microsoft 365. Пользователи часто знают лучше других, с каким содержимым они работают, поэтому могут классифицировать его и применять соответствующие политики. 
+- **Enable people in your organization to apply a retention label manually** to content in Outlook on the web, Outlook 2010 and later, OneDrive, SharePoint, and Microsoft 365 Groups. Users often know best what type of content they're working with, so they can classify it and have the appropriate policy applied. 
     
 - **Обеспечить автоматическое применение меток хранения к контенту**, если он соответствует определенным условиям, например если он содержит: 
     
@@ -62,7 +62,9 @@ ms.locfileid: "44545971"
 
 - **Применить стандартную метку хранения к библиотеке документов, папке или набору документов** в SharePoint, чтобы все документы, хранящиеся в этом расположении, наследовали эту метку.
 
-Кроме того, метки хранения поддерживают [управления записями](records-management.md) для электронных сообщений и документов в приложениях и службах Microsoft 365. Метки хранения можно использовать для классификации контента как записи. После этого метку, как и сам контент, нельзя будет изменить или удалить. 
+Кроме того, метки хранения поддерживают [управления записями](records-management.md) для электронных сообщений и документов в приложениях и службах Microsoft 365. Метки хранения можно использовать для классификации контента как записи. После этого (при сохранении контента в Microsoft 365) метку, как и сам контент, нельзя будет изменить или удалить. 
+
+Метки хранения, в отличие от [меток конфиденциальности](sensitivity-labels.md), не сохраняются, если контент перемещается за пределы Microsoft 365.
 
 Количество меток хранения, поддерживаемых клиентом, не ограничено. Тем не менее 10 000 — это максимальное количество политик, которые поддерживаются клиентом, включая политики, которые применяют метки (политики меток хранения и автоматического применения хранения), а также политики хранения.
 
@@ -125,7 +127,7 @@ ms.locfileid: "44545971"
 
 Метки хранения обеспечивают выполнение тех же действий по хранению, что и политики хранения – сохранение и удаление, либо только сохранение или только удаление. Метки хранения можно использовать для внедрения сложных планов хранения, которые определяют файлы для различных параметров хранения. Дополнительные сведения об обеспечении хранения, смотрите в разделе [Сведения о политиках хранения](retention-policies.md).
 
-Кроме того, для меток хранения предусмотрено два варианта хранения, недоступных в политиках хранения. С помощью метки хранения вы можете:
+In addition, a retention label has two retention options that are available only in a retention label and not in a retention policy. With a retention label, you can:
   
 - Запускать проверку перед ликвидацией в конце периода хранения, чтобы в обязательном порядке проверять документы из SharePoint и OneDrive перед их удалением. Дополнительные сведения см. в статье [Проверки перед ликвидацией](disposition.md#disposition-reviews).
     
@@ -178,7 +180,7 @@ ms.locfileid: "44545971"
   
 ![Меню назначения политики в Outlook в Интернете](../media/146a23cf-e478-4595-b2e8-f707fc4e6ea3.png)
   
-После применения метки хранения ее описание и выполняемые ею действия отображаются в верхней части описания элемента. Если сообщение классифицировано и с ним связан период хранения, вы можете сразу понять, когда истекает срок его действия.
+After the retention label is applied, you can view that retention label and what action it takes at the top of the item. If an email is classified and has an associated retention period, you can know at a glance when the email will expire.
   
 ![Метка, назначенная электронному сообщению в Outlook в Интернете](../media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
   
@@ -285,30 +287,30 @@ ms.locfileid: "44545971"
   
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>Использование метки хранения в качестве условия в политике защиты от потери данных
 
-Метка хранения может применять действия по хранению контента. Кроме того, вы можете использовать метку хранения как условие в политике защиты от потери данных (DLP), и политика защиты от потери данных может применять другие действия (например, ограничение доступа) к контенту с определенной меткой. 
+A retention label can enforce retention actions on content. In addition, you can use a retention label as a condition in a data loss prevention (DLP) policy, and the DLP policy can enforce other actions, such as restricting access, on content that contains a specific label. 
   
 Дополнительные сведения см. в разделе [Использование метки хранения в качестве условия в политике защиты от потери данных](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy).
   
 
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>Принципы хранения и приоритеты
 
-Возможно (и даже вероятно), что к содержимому применено несколько политик хранения с разными действиями (хранением и/или удалением) и периодом хранения. Какая политика имеет приоритет? Во-первых, вы можете быть уверены, что содержимое, сохраняемое одной политикой, не может быть безвозвратно удалено другой.
+It's possible or even likely that content might have several retention policies applied to it, each with a different action (retain, delete, or both) and retention period. What takes precedence? At the highest level, rest assured that content being retained by one policy can't be permanently deleted by another policy.
   
 ![Схема принципов хранения](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 Чтобы понять, как различные метки с действиями хранения применяются к контенту, запомните следующие принципы хранения:
   
-1. **Хранение имеет приоритет перед удалением.** Допустим, одна политика хранения предписывает удаление электронной почты Exchange спустя три года, а другая — ее хранение в течение пяти лет с последующим удалением. Весь контент трехлетней давности будет удален и скрыт от пользователя, но останется в папке "Элементы с возможностью восстановления", пока его возраст не достигнет пяти лет, после чего он будет окончательно удален. 
+1. **Retention wins over deletion.** Suppose that one retention policy says to delete Exchange email after three years, but another retention policy says to retain Exchange email for five years and then delete it. Any content that reaches three years old will be deleted and hidden from the users' view, but still retained in the Recoverable Items folder until the content reaches five years old, when it will be permanently deleted. 
     
-2. **Самый продолжительный период хранения имеет приоритет.** Если к содержимому применено несколько политик, сохраняющих его, оно будет храниться до окончания самого длительного периода хранения. 
+2. **The longest retention period wins.** If content's subject to multiple policies that retain content, it will be retained until the end of the longest retention period. 
     
-3. **Явное включение имеет приоритет перед неявным.** Это означает следующее: 
+3. **Explicit inclusion wins over implicit inclusion.** This means: 
     
     1. Если пользователь вручную присваивает метку хранения с параметрами хранения тому или иному элементу, например сообщению электронной почты Exchange или документу OneDrive, эта метка хранения имеет преимущество как над политикой, которая назначена на уровне сайта или почтового ящика, так и над меткой хранения по умолчанию, которая присваивается библиотекой документов. Например, если в метке хранения явно указан десятилетний срок хранения, а в назначенной сайту политике хранения — пятилетний, приоритет отдается метке хранения. Автоматически присваиваемые метки хранения считаются неявными именно в силу автоматического их присваивания в Microsoft 365.
     
     2. Если политика хранения включает определенное расположение, например учетную запись OneDrive или почтовый ящик конкретного пользователя, то эта политика имеет приоритет перед другой политикой хранения, которая применяется к учетным записям OneDrive или почтовым ящикам всех пользователей, но не включает почтовый ящик именно этого пользователя.
     
-4. **Кратчайший период удаления имеет приоритет.** Если же к содержимому применено несколько политик, удаляющих его (без хранения), то оно будет удалено по истечении кратчайшего периода хранения. 
+4. **The shortest deletion period wins.** Similarly, if content's subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period. 
     
 Следует понимать, что принципы хранения используются как поток разрешения конфликтов (сверху вниз): если правила, применяемые всеми политиками или метками, совпадают на одном уровне, то поток переходит на уровень ниже, чтобы определить приоритет применения правил.
   

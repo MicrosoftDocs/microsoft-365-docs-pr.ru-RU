@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Инструкции по созданию, публикации и автоматическому применению меток хранения для сохранения необходимых или удаления ненужных данных, и объявления элемента записью в среде Office 365.
-ms.openlocfilehash: a3ba321c9eae91bf701646a45271d3edcbc8dccc
-ms.sourcegitcommit: c696852da06d057dba4f5147bbf46521910de3ab
+ms.openlocfilehash: 035038c90179354e0497813326b1fdad01693bec
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44545961"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761655"
 ---
 # <a name="create-publish-and-auto-apply-retention-labels"></a>Создание, публикация и автоматическое применение меток хранения
 
@@ -40,7 +40,7 @@ ms.locfileid: "44545961"
   
 Дополнительные сведения см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   
-Эти разрешения необходимы только для создания и применения меток хранения и соответствующей политики. Для применения политики не требуется доступ к контенту.
+These permissions are required only to create and apply retention labels and a label policy. Policy enforcement does not require access to the content.
 
 ## <a name="create-and-configure-retention-labels"></a>Создание и настройка меток хранения
 
@@ -127,11 +127,11 @@ ms.locfileid: "44545961"
   
 ![Шаблоны политик с типами конфиденциальной информации](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
   
-Выбрав шаблон политики, вы можете добавлять или удалять конфиденциальную информацию любых типов, а также менять количество экземпляров и точность совпадения. В приведенном ниже примере метка хранения будет автоматически применяться, только если:
+After you select a policy template, you can add or remove any types of sensitive information, and you can change the instance count and match accuracy. In the example shown here, a retention label will be auto-applied only when:
   
-- контент содержит от 1 до 9 экземпляров любого из этих трех типов конфиденциальной информации. Вы можете удалить **максимальное** значение, чтобы оно изменилось на **Любое**;
+- The content contains between 1 and 9 instances of any of these three sensitive information types. You can delete the **max** value so that it changes to **any**.
     
-- для определяемого типа конфиденциальной информации задана точность совпадения (или уровень надежности) не менее 75. Для многих типов конфиденциальной информации определяется несколько шаблонов. Чем выше точность совпадения, тем больше признаков (например, ключевых слов, дат или адресов) нужно для обнаружения шаблона. Проще говоря, чем ниже **минимальная** точность совпадения, тем проще сопоставить контент с условием. 
+- The type of sensitive information that's detected has a match accuracy (or confidence level) of at least 75. Many sensitive information types are defined with multiple patterns, where a pattern with a higher match accuracy requires more evidence to be found (such as keywords, dates, or addresses), while a pattern with a lower match accuracy requires less evidence. Simply put, the lower the **min** match accuracy, the easier it is for content to match the condition. 
     
 Дополнительные сведения об этих параметрах см. в разделе [Настройка правил для упрощения или усложнения сопоставления](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match).
     
@@ -139,13 +139,13 @@ ms.locfileid: "44545961"
   
 ### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>Автоматическое применение меток к контенту с ключевыми словами или доступными для поиска свойствами
 
-Вы можете автоматически применять метки к контенту, соответствующему определенным условиям. Имеющиеся в данный момент условия поддерживают применение метки к контенту, содержащему определенные слова, фразы или значения доступных для поиска свойств. Вы можете уточнить запрос с помощью таких операторов поиска, как AND, OR и NOT.
+You can auto-apply labels to content that satisfies certain conditions. The conditions now available support applying a label to content that contains specific words, phrases, or values of searchable properties. You can refine your query by using search operators like AND, OR, and NOT.
 
 Дополнительные сведения о синтаксисе запросов см. в статье:
 
 - [Руководство по синтаксису языка запросов по ключевым словам (KQL)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
-Метки на основе запросов используют индекс поиска для определения контента. Дополнительные сведения о допустимых свойствах, доступных для поиска, см. в статьях:
+Query-based labels use the search index to identify content. For more information on valid searchable properties, see:
 
 - [Запросы ключевых слов и условия поиска контента](keyword-queries-and-search-conditions.md)
 - [Обзор свойств для обхода и управляемых свойств в SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
@@ -184,13 +184,15 @@ ms.locfileid: "44545961"
     
 ### <a name="published-retention-labels"></a>Опубликованные метки хранения
 
-При публикации меток хранения в SharePoint или OneDrive могут потребоваться сутки, чтобы эти метки хранения стали видны пользователям. Кроме того, при публикации меток хранения в Exchange может потребоваться 7 дней, чтобы эти метки хранения стали видны пользователям, а почтовый ящик должен содержать не менее 10 МБ данных.
+If you publish retention labels to SharePoint or OneDrive, those labels  typically appear for end users to select within one day. However, allow up to seven days. If you publish retention labels to Exchange, it can take up to seven days for those retention labels to appear for end users, and the mailbox must contain at least 10 MB of data.
+
+Например:
   
 ![Схема, иллюстрирующая, когда вручную применяемые метки вступают в силу](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 ### <a name="auto-apply-retention-labels"></a>Метки хранения, применяемые автоматически
 
-Если метки хранения автоматически применяются к контенту, соответствующему определенным условиям, может потребоваться семь дней, чтобы метки хранения были применены ко всему существующему контенту, соответствующему условиям.
+Если метки хранения автоматически применяются к контенту, соответствующему определенным условиям, может потребоваться до семи дней, чтобы метки хранения были применены ко всему существующему контенту, соответствующему условиям.
   
 ![Схема, иллюстрирующая, когда автоматически применяемые метки вступают в силу](../media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
   
@@ -211,29 +213,28 @@ ms.locfileid: "44545961"
    ```
 
    ```powershell
-   $xmlprops.Properties.MailboxTable.Property | ? {$_.Name -like "ELC*"}
-   ```
+   $xmlprops.Properties.MailboxTable.Property | ? {$_.Name -like "ELC*"}   ```
 
-В результатах свойство `ELCLastSuccessTimeStamp` (UTC) показывает, когда система в последний раз обрабатывала ваш почтовый ящик. Если этого не происходило с момента создания политики, метки не будут отображаться. Для принудительной обработки выполните команду `Start-ManagedFolderAssistant -Identity <user>`.
+In the results, the `ELCLastSuccessTimeStamp` (UTC) property shows when the system last processed your mailbox. If it has not happened since the time you created the policy, the labels are not going to appear. To force processing, run  `Start-ManagedFolderAssistant -Identity <user>`.
     
-Если метки не отображаются в Outlook в Интернете, хотя они должны быть видны, очистите кэш браузера (CTRL+F5).
+If labels aren't appearing in Outlook on the web and you think they should be, make sure to clear the cache in your browser (CTRL+F5).
     
 
-## <a name="updating-retention-labels-and-their-policies"></a>Обновление меток хранения и их политик
+## Updating retention labels and their policies
 
-При изменении меток хранения, их политику или политику авто-применения когда метка хранения или политика уже применена к контенту, ваши обновленные параметры автоматически применяются к этому контенту, в дополнение к уже определенному.
+When you edit a retention label, retention label policy, or auto-apply policy, and the retention label or policy is already applied to content, your updated settings will automatically be applied to this content in addition to content that's newly identified.
 
-Некоторые параметры невозможно изменить после создания и сохранения метки или политики, в том числе:
-- Параметры хранения, за исключением срока хранения, если только метка не настроена на хранение или удаление содержимого в зависимости от момента его создания.
-- Параметр классификации в качестве записи.
+Some settings can't be changed after the label or policy is created and saved, which include:
+- The retention settings except the retention period, unless you've configured the label to retain or delete the content based on when it was created.
+- The option to classify as a record.
 
-## <a name="find-the-powershell-cmdlets-for-retention-labels"></a>Поиск командлетов PowerShell для меток хранения
+## Find the PowerShell cmdlets for retention labels
 
-Для использования командлетов меток хранения:
+To use the retention label cmdlets:
   
-1. [Подключение к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [Connect to the Office 365 Security & Compliance Center Powershell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
     
-2. Используйте эти командлеты Центра безопасности и соответствия требованиям Office 365:
+2. Use these Office 365 Security & Compliance Center cmdlets:
     
     - [Get-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/get-compliancetag)
     
