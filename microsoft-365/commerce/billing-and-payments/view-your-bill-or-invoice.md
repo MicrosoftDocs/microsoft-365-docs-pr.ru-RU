@@ -25,18 +25,19 @@ ms.custom:
 - BEA160
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
-ms.openlocfilehash: 7425c0b49ff65fa0d5c777e3c7fdb7af99488a9d
-ms.sourcegitcommit: cf7c410268175e2633e9f0d65dc859c5034658e5
+ms.openlocfilehash: d034e59e80af6396867282f3e7c23179c332c251
+ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232785"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407948"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счетов
 
-Эта статья предназначена для подписчиков Microsoft 365 для бизнеса. Для выполнения описанных в этой статье действий необходимы права глобального администратора или администратора по выставлению счетов.
+This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.
   
 Если вам нужна помощь в интерпретации расходов, которые вы видите в своем счете, см. раздел [Понимание вашего счета или Счет-фактуры](understand-your-invoice2.md) для подробного ознакомления.
   
@@ -89,6 +90,6 @@ ms.locfileid: "44232785"
 
 [Оплата с помощью счета-фактуры, кредитной карты или банковского счета](pay-for-your-subscription.md)
   
-[Добавление, удаление и обновление данных кредитной карты или банковского счета](add-update-or-remove-credit-card-or-bank-account.md)
+[Управление методами оплаты](manage-payment-methods.md)
 
 [Варианты оплаты Minecraft: Education Edition](https://go.microsoft.com/fwlink/p/?linkid=838761)

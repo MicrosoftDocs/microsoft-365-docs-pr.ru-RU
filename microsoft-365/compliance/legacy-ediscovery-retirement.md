@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлет Search – Mailbox и Advanced eDiscovery версии 1.0 также удаляются за один и тот же период времени.
-ms.openlocfilehash: 547b58bebf4ade04bc9c1992ed7f0f518924341f
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 8b428b0d90442c937e08d4dc9ca23fb345553178
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44351920"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761689"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
@@ -289,14 +289,6 @@ ms.locfileid: "44351920"
 </td>
 </tr>
 <tr class="even">
-<td>Удаление сообщений из почтового ящика</td>
-<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">* — ComplianceSearch</span></a></p>
-<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">* — ComplianceSearchAction</span></a></p>
-<p></p></td>
-<td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и очистку контента. Вы можете создавать и запускать поиск с помощью командлетов <strong>New – ComplianceSearch</strong> и <strong>New ComplianceSearch</strong> , а затем удалять содержимое можно с помощью команды <strong>New – ComplianceSearchAction/</strong> unpurgetype определяет. Дополнительные сведения см. в статье <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Поиск и удаление сообщений</span></a>.</p>
-</td>
-</tr>
-<tr class="odd">
 <td>Удаление групповых сообщений электронной почты из почтового ящика</td>
 <td><p><a href="https://docs.microsoft.com/microsoft-365/compliance/set-up-an-archive-and-deletion-policy-for-mailboxes?view=o365-worldwide"><span class="underline">Настройка политики архивации и удаления для почтовых ящиков</span></a></p>
 <p></p></td>
@@ -307,6 +299,24 @@ ms.locfileid: "44351920"
 <td>Копирование результатов поиска в почтовый ящик обнаружения</td>
 <td> </td>
 <td>Для этой функции нет прямого замены, так как он не предоставляет доступ ко всем службам Microsoft 365. Альтернативные решения можно найти в разделе вопросы и ответы в разделе <strong>командлетов * – MailboxSearch</strong> . </td>
+</tr>
+<tr class=odd>
+  <td>Копирование сообщений из одного почтового ящика в другой</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
+  <td>Чтобы предоставить пользователю доступ к электронной почте другого пользователя (например, когда сотрудник покидает организацию и вам нужно предоставить другому человеку доступ к электронной почте бывшего сотрудника), мы рекомендуем назначить ему разрешения на доступ к почтовому ящику бывшего сотрудника. Поэтому вместо того чтобы копировать элементы почтового ящика в другой почтовый ящик пользователя или в общий почтовый ящик, просто Назначьте разрешения пользователя на доступ к исходному почтовому ящику.</td>
+</tr>
+<tr class=even>
+  <td>Удаление сообщений из почтового ящика</td>
+<td><p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearch?view=exchange-ps"><span class="underline">* — ComplianceSearch</span></a></p>
+<p><a href="https://docs.microsoft.com/powershell/module/exchange/get-compliancesearchaction?view=exchange-ps"><span class="underline">* — ComplianceSearchAction</span></a></p>
+<p></p></td>
+<td><p>Командлеты ComplianceSearch и ComplianceSearchAction работают вместе, чтобы упростить поиск и очистку контента. Вы можете создавать и запускать поиск с помощью командлетов <strong>New – ComplianceSearch</strong> и <strong>New ComplianceSearch</strong> , а затем удалять содержимое можно с помощью команды <strong>New – ComplianceSearchAction/</strong> unpurgetype определяет. Дополнительные сведения см. в статье <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">Поиск и удаление сообщений</span></a>.</p>
+</td>
+</tr>
+<tr class="odd"> 
+<td>Удаление сообщений из почтового ящика</td>
+<td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Назначение разрешений для почтового ящика</a></td>
+<td>Чтобы удалить сообщения из почтового ящика, назначьте права администратора для доступа к почтовому ящику сотрудника. При необходимости сообщения можно удалять и перезапускать, чтобы использовать встроенные возможности поиска и просмотра в Outlook.</td>
 </tr>
 </tbody>
 </table>
