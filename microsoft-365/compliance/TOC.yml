@@ -2,6 +2,8 @@
   href: index.yml
 - name: Начало работы
   items:
+    - name: Быстрые задачи для начала работы по соответствию требованиям
+      href: compliance-quick-tasks.md
     - name: Новые возможности Центра соответствия требованиям
       href: whats-new.md
     - name: Последние обновления сведений о соответствии требованиям
@@ -155,6 +157,8 @@
       href: encryption.md
     - name: Office 365 Сервис шифрования
       href: office-365-service-encryption.md
+    - name: Технические сведения о шифровании в Office 365
+      href: technical-reference-details-about-encryption.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -198,8 +202,6 @@
           href: exchange-online-secures-email-secrets.md
         - name: Использование протокола TLS службой Exchange Online для защиты электронной почты в Office 365
           href: exchange-online-uses-tls-to-secure-email-connections.md
-        - name: Технические сведения о шифровании в Office 365
-          href: technical-reference-details-about-encryption.md
         - name: BitLocker и распределенный диспетчер ключей (DKM) для шифрования
           href: office-365-bitlocker-and-distributed-key-manager-for-encryption.md
         - name: Устаревшая служба OME
@@ -533,7 +535,7 @@
               href: add-data-to-review-set-from-another-review-set.md
         - name: Просмотр данных дела
           items:
-            - name: Использование панели мониторинга набора для проверки (предварительная версия)
+            - name: Использование панели мониторинга набора для проверки
               href: advanced-ediscovery-dashboard.md
             - name: Просмотр документов в наборе для проверки
               href: view-documents-in-review-set.md
