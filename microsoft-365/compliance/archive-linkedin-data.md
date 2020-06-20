@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: Настройте соединитель для импорта данных LinkedIn в Microsoft 365, чтобы можно было использовать такие средства обеспечения соответствия, как судебное удержание, поиск контента и политики хранения.
-ms.openlocfilehash: 7d88d366ea19be7d158a04edc7d7fb11dca7bab9
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.custom: seo-marvel-apr2020
+description: Узнайте, как администраторы могут настраивать & использовать собственный соединитель для импорта данных со страницы LinkedIn компании в Microsoft 365.
+ms.openlocfilehash: c7801dc7ab00f1193b05a50ae10ee67d78e11065
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043350"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818448"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>Настройка соединителя для архивации данных LinkedIn
 
@@ -29,7 +28,7 @@ ms.locfileid: "44043350"
 
 После того как данные страницы LinkedIn компании хранятся в почтовом ящике, вы можете применять функции соответствия требованиям Microsoft 365, такие как хранение для судебного разбирательства, поиск контента, Архивация на месте, аудит и политики хранения Microsoft 365, в данные LinkedIn. Например, можно выполнить поиск этих элементов с помощью функции поиска контента или связать почтовый ящик хранилища с хранитель в расширенном случае обнаружения электронных данных. Создание соединителя для импорта и архивации данных LinkedIn в Microsoft 365 может помочь организации соответствовать государственным и нормативным политикам.
 
-## <a name="before-you--begin"></a>Перед началом работы
+## <a name="give-consent-assign-roles-and-verify-credentials"></a>Предоставление согласия, назначение ролей и проверка учетных данных
 
 - Ваша организация должна разрешить службе импорта Office 365 доступ к данным почтовых ящиков в Организации. Чтобы согласиться с этим запросом, перейдите на [эту страницу](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent), войдите с помощью учетных данных глобального администратора Microsoft 365 и примите запрос.
 
@@ -39,7 +38,7 @@ ms.locfileid: "44043350"
 
 ## <a name="create-a-linkedin-connector"></a>Создание соединителя LinkedIn
 
-1. Перейдите на <https://compliance.microsoft.com>  > **страницу фирма**и нажмите кнопку **соединители данных**.
+1. Перейдите на <https://compliance.microsoft.com> страницу фирма и нажмите кнопку **соединители данных**  >  **LinkedIn Company pages**.
 
 2. На странице "продукты **компании LinkedIn** " нажмите **Добавить соединитель**.
 

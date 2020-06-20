@@ -16,17 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: 'Узнайте, как настроить дополнительные параметры, включая почти повторяющиеся, почтовые потоки и темы для процесса анализа в Advanced eDiscovery. '
-ms.openlocfilehash: 91faf9e39fe7b8a7fada7b05ccd88351d813b148
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b596ffa4061909ccb5c149553ac8fac169b7fd77
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631276"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819239"
 ---
 # <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>Настройка дополнительных параметров для расширенного обнаружения электронных данных
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Advanced eDiscovery предоставляет расширенные параметры по умолчанию для анализа параметров модуля. В следующей процедуре описываются параметры, которые можно указать.
   
@@ -46,7 +47,7 @@ Advanced eDiscovery предоставляет расширенные парам
     
 4. Нажмите кнопку **Сохранить**. 
     
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

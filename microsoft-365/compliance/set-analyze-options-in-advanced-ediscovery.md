@@ -16,23 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: 'Изучите действия по настройке параметров для процесса анализа в Advanced eDiscovery, включая почти повторяющиеся, почтовые потоки и темы.  '
-ms.openlocfilehash: 5f50e2863398679d1381c66009ff1daec40623f9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 091eb75bea0312e5a06cc60ca915612efc820e6e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631266"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819229"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>Настройка параметров анализа в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 В разделе Advanced eDiscovery задайте параметры анализа перед выполнением анализа.
   
 ## <a name="set-analyze-options"></a>Настройка параметров анализа
 
-Откройте **окно \> подготовка к анализу** \> **программы установки**. Отображается следующее окно.
+Откройте окно **Подготовка к \> анализу** \> **программы установки**. Отображается следующее окно.
   
 ![Настройка параметров анализа](../media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
   
@@ -55,7 +56,7 @@ ms.locfileid: "43631266"
   
 1. Чтобы просмотреть, добавить или изменить предложенные темы, нажмите кнопку **изменить**.
     
-2. На панели **Предлагаемые темы** нажмите значок **Добавить** ![значок](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) , чтобы добавить тему. В области **Добавление предлагаемой темы** добавьте слова, разделяя их запятыми. 
+2. На панели **Предлагаемые темы** нажмите значок **Добавить** ![ значок, ](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) чтобы добавить тему. В области **Добавление предлагаемой темы** добавьте слова, разделяя их запятыми. 
     
 3. В разделе **число тем**выберите значение, чтобы определить число тем, которые будут попытаться создать дополнительное обнаружение электронных данных для этих слов (по умолчанию — 1 тема).
     
@@ -76,7 +77,7 @@ ms.locfileid: "43631266"
   
 После настройки этих параметров нажмите кнопку **анализ** для запуска. Отображаются [результаты анализа просмотра](view-analyze-results-in-advanced-ediscovery.md) . 
   
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

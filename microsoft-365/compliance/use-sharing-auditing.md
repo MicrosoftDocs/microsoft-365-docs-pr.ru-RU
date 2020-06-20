@@ -19,13 +19,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
-description: 'Общий доступ является ключевым действием в SharePoint Online и OneDrive для бизнеса. Теперь администраторы могут использовать аудит общего доступа в журнале аудита для определения ресурсов, доступ к которым имеют пользователи вне Организации. '
-ms.openlocfilehash: 63b56831dc5409cc92a0c4a2f4bf002cd268a878
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Администратор может узнать, как использовать аудит общего доступа в журнале аудита Microsoft 365, чтобы определить ресурсы, доступ к которым предоставлен пользователям вне Организации.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d26a8022f8d59aeb56a03c50ae546777c882ef7a
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626385"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819299"
 ---
 # <a name="use-sharing-auditing-in-the-audit-log"></a>Использование аудита общего доступа в журнале аудита
 
@@ -97,7 +98,7 @@ ms.locfileid: "43626385"
   
 1. Перейдите по ссылке [https://protection.office.com](https://protection.office.com).
     
-2. Войдите с помощью рабочей или учебной учетной записи.
+2. Выполните вход с помощью рабочей или учебной учетной записи.
     
 3. В левой панели центра безопасности & центр соответствия требованиям выберите **Поиск**  > **Поиск по журналу аудита**.
     
@@ -152,4 +153,4 @@ ms.locfileid: "43626385"
     Теперь в Excel отображаются строки для событий общего доступа и конечных пользователей за пределами Организации, так как внешние пользователи определяются значением **таржетусерорграуптипе: гость**. 
   
 > [!TIP]
-> Для отображаемых записей аудита в столбце **ObjectID** указывается ресурс, к которому предоставлен общий доступ конечному пользователю; например `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx`:.
+> Для отображаемых записей аудита в столбце **ObjectID** указывается ресурс, к которому предоставлен общий доступ конечному пользователю; например `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx` :.

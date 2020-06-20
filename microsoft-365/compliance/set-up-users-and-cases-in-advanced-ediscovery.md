@@ -15,12 +15,13 @@ search.appverid:
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: 'Сведения о настройке ролей пользователей, создании обращений и назначении пользователям обращений в Advanced eDiscovery.  '
-ms.openlocfilehash: 386be1201b30e6b0e7a46c9de47dd6cf2fc4b53c
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6cfc8e313816c0c01512dd0d4b71f1dbbd6e6505
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412808"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819179"
 ---
 # <a name="set-up-users-and-cases-in-advanced-ediscovery-classic"></a>Настройка пользователей и обращений в Advanced eDiscovery (классическая)
 
@@ -29,7 +30,7 @@ ms.locfileid: "44412808"
 > [!IMPORTANT]
 > Продолжая инвестировать в разработку новых версий Advanced eDiscovery, мы сообщаем о прекращении поддержки версии Advanced eDiscovery, также известной как *Advanced eDiscovery (классическая версия)* или *Advanced eDiscovery 1.0*. Если вы все еще используете Advanced eDiscovery 1.0, перейдите на версию [Advanced eDiscovery 2.0](overview-ediscovery-20.md) (также известную как *решение Advanced eDiscovery в Microsoft 365*) как можно скорее. Advanced eDiscovery 2.0 имеет те же функции, что и Advanced eDiscovery 1.0, а также множество новых возможностей, таких как управление для хранителя, управление коммуникацией и наборы для проверки. Дополнительные сведения о прекращении поддержки Advanced eDiscovery 1.0 см. в статье [Прекращение поддержки средств прежних версий eDiscovery](legacy-ediscovery-retirement.md#advanced-ediscovery-v10). 
   
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="requirements-to-set-up-users-and-cases"></a>Требования для настройки пользователей и обращений
 
 Перед настройкой обращений и пользователей в Advanced eDiscovery необходимо следующее:
   

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Список поддерживаемых типов файлов в Microsoft 365 Advanced eDiscovery. Это включает список типов файлов изображений, которые поддерживаются функцией оптического распознавания текста в Advanced eDiscovery.
-ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Список поддерживаемых типов файлов в Microsoft 365 Advanced eDiscovery, включая типы файлов изображений, которые поддерживаются функцией оптического распознавания текста в Advanced eDiscovery.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e7c1840642dcc572da8e23bcdde3b7759746b209
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634637"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819159"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>Поддерживаемые типы файлов в Advanced eDiscovery
 
@@ -113,7 +114,7 @@ ms.locfileid: "42634637"
 
 | Тип MIME | Идентификация файлов | Извлечение метаданных | Извлечение текста | Встроенное средство просмотра | Средство просмотра примечаний | Возможные расширения |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
-| приложение/OneNote | Да | Да | Да | Да | Нет | . One |
+| приложение/OneNote | Да | Да | Да | Да | Нет | .one |
 ||||||||
 
 ## <a name="microsoft-powerpoint"></a>Microsoft PowerPoint
@@ -154,7 +155,7 @@ ms.locfileid: "42634637"
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
 | application/msword | Да | Да | Да | Да | Да | . dat;. doc |
 | приложение/RTF | Да | Да | Да | Да | Да | DOC; RTF |
-| Application/ВНД. МС-Ворд. Document. макроенаблед. 12 | Да | Да | Да | Да | Да | DOCM |
+| Application/vnd.ms-word.docумент. макроенаблед. 12 | Да | Да | Да | Да | Да | DOCM |
 | Application/ВНД. МС-Ворд. Template. макроенаблед. 12 | Да | Да | Да | Да | Да | . dotm |
 | application/vnd.openxmlformats-officedocument.wordprocessingml.document | Да | Да | Да | Да | Да | DOCX |
 | Application/ВНД. опенксмлформатс-оффицедокумент. WordprocessingML. Template | Да | Да | Да | Да | Да | . dotx |
@@ -175,7 +176,7 @@ ms.locfileid: "42634637"
 | Application/ВНД. Oasis. OpenDocument. Text | Да | Да | Да | Да | Да | ODT |
 ||||||||
 
-## <a name="other"></a>Другие
+## <a name="other"></a>Другое
 
 | Тип MIME | Идентификация файлов | Извлечение метаданных | Извлечение текста | Встроенное средство просмотра | Средство просмотра примечаний | Возможные расширения |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |

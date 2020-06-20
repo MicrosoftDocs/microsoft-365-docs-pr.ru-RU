@@ -17,16 +17,15 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Узнайте, как использовать IRM SharePoint Online с помощью службы управления правами (RMS) Microsoft Azure Active Directory для защиты списков и библиотек документов SharePoint.
-ms.openlocfilehash: ab045c2319897a98bffd14f898dd254b06890bee
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 33e5a72ea1d0733656379bc4efdca7dd14f78cb1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222376"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819199"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
-
-## <a name="introduction"></a>Введение
 
 В SharePoint Online защита IRM применяется к файлам на уровне списка и библиотеки. Прежде чем ваша организация сможет использовать защиту IRM, сначала необходимо настроить управление правами. Служба управления правами на доступ к данным Azure использует службу управления правами Azure из Azure Information Protection для шифрования и назначения ограничений на использование. Некоторые планы Microsoft 365 включают управление правами Azure, но не все. Чтобы узнать больше, прочитайте [о том, как приложения и службы Office поддерживают управление правами Azure](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support).
   
@@ -79,4 +78,4 @@ SharePoint Online поддерживает шифрование следующи
   
 Новый клиент синхронизации OneDrive для Windows теперь поддерживает синхронизацию библиотек документов SharePoint, защищенных с помощью IRM, и расположений OneDrive (при условии, что для параметра IRM для библиотеки не задан срок действия прав доступа к документу). Чтобы получить дополнительные сведения или приступить к развертыванию нового клиента синхронизации, ознакомьтесь [со статьей развертывание нового клиента синхронизации OneDrive для Windows](https://docs.microsoft.com/onedrive/deploy-on-windows).
   
-[Top of page](#introduction)  
+[Top of page](set-up-irm-in-sp-admin-center.md)

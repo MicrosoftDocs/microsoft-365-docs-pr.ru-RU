@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Во многих организациях уже есть процесс идентификации и классификации конфиденциальной информации с помощью свойств классификации в инфраструктуре классификации файлов Windows Server (FCI), свойств документа в SharePoint или свойств документа, применяемых сторонней системой. Если это описание организации, вы можете создать политику защиты от потери данных, которая распознает свойства, примененные к документам в Windows Server FCI или другой системе, чтобы политика защиты от потери данных могла быть применена к документам Office с определенными FCI или другими значениями свойств.
-ms.openlocfilehash: 3fa28492ef4d19903797741795091561de3fa257
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как использовать политику защиты от потери данных (DLP) для защиты документов, у которых есть свойства из сторонней системы.
+ms.openlocfilehash: 4db6844c6f00856de5893631058c774210344454
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327105"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818724"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>Создание политики защиты от потери данных для защиты документов с помощью FCI или других свойств
 
@@ -149,4 +151,4 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
     
 - [Что входит в шаблоны политики защиты от потери данных](what-the-dlp-policy-templates-include.md)
     
-- [Определения объектов типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
+- [Определения объектов типов конфиденциальной информации](sensitive-information-type-entity-definitions.md)

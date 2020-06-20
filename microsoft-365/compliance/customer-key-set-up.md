@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Microsoft 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: 4d9a6292482a06a4629d394c5ff422ba02bec55e
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 158096216974691bf0caff93a1c95db54b92f6b1
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717266"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44810995"
 ---
 # <a name="set-up-customer-key"></a>Настройка ключа клиента
 
@@ -195,7 +195,7 @@ SharePoint Online и OneDrive для бизнеса:
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   Пример:
+   Например:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -319,7 +319,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > В качестве выходного файла выберите сочетание имени хранилища и имени ключа. Это сделает имя файла самоописанием. Кроме того, это гарантирует, что имена файлов резервных копий не будут конфликтовать.
   
-Пример:
+Например:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -448,7 +448,15 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
 Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
 ```
 
-Где *маилбоксидпараметер* указывает почтовый ящик. Дополнительные сведения о командлете Set — Mailbox приведены в разделе [Set/Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps).
+Где *маилбоксидпараметер* указывает почтовый ящик. Дополнительные сведения о командлете Set — Mailbox приведены в разделе [Set/Mailbox](https://docs.microsoft.com/powershell/module/exchange/set-mailbox).
+
+Для [локальных почтовых ящиков, использующих Outlook для iOS и Android с гибридной современной проверкой подлинности](https://docs.microsoft.com/exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth), данные локальных почтовых ящиков, которые синхронизируются в клиенте Exchange Online, могут использовать DEP с помощью командлета Set-MailUser. 
+
+```powershell
+Set-MailUser -Identity <MailUserIdParameter> -DataEncryptionPolicy <PolicyName>
+```
+
+Где *маилусеридпараметер* указывает пользователя почты (также называемого пользователя с включенной поддержкой почты). Дополнительные сведения о командлете Set – MailUser см. в разделе [Set – MailUser](https://docs.microsoft.com/powershell/module/exchange/set-mailuser).
   
 ### <a name="validate-mailbox-encryption"></a>Проверка шифрования почтового ящика
 
@@ -492,7 +500,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
  Чтобы проверить шифрование SharePoint Online, OneDrive для бизнеса и файлов Teams, [подключитесь к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps), а затем с помощью командлета Get-сподатаенкриптионполици Проверьте состояние клиента. Свойство _State_ возвращает значение " **зарегистрировано** ", если включено шифрование ключей клиентов и все файлы на всех сайтах зашифрованы. Если шифрование все еще выполняется, этот командлет предоставляет сведения о том, какой процент сайтов завершается.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Шифрование службы с помощью ключа клиента](customer-key-overview.md)
 

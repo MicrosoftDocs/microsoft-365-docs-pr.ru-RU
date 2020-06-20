@@ -14,13 +14,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
-description: Узнайте, как определить различные типы удержаний, которые можно разместить в почтовом ящике Microsoft 365. Эти типы удержаний включают хранение для судебного разбирательства, удержания электронных данных и политики хранения Microsoft 365. Кроме того, можно определить, исключен ли пользователь из политики хранения на уровне Организации.
-ms.openlocfilehash: 331fd37f48e42666ceb33a2a751b7d7a7a945e4b
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как определить различные типы удержаний, которые могут быть размещены в почтовом ящике Exchange Online в Microsoft 365.
+ms.openlocfilehash: a1629e96352a8b98d1122e9b31b968cdce9efa33
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352318"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817608"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Как определить тип удержания, примененного для почтового ящика Exchange Online
 
@@ -236,9 +238,9 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 
 Определив удержания, которые применяются к почтовому ящику, можно выполнить такие задачи, как изменение длительности хранения, временное или окончательное удаление удержания или исключение неактивного почтового ящика из политики хранения Microsoft 365. Дополнительные сведения о выполнении задач, связанных с удержаниями, можно найти в следующих статьях:
 
-- Выполните команду [Set – RetentionCompliancePolicy аддексчанжелокатионексцептион \< User почтовые>ящики пользователей](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps) в центре безопасности & соответствие требованиям в PowerShell, чтобы исключить почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации. Эту команду можно использовать только для политик хранения, значение свойства *ExchangeLocation* которых равно `All` .
+- Выполните команду [Set – RetentionCompliancePolicy – аддексчанжелокатионексцептион \<user mailbox> ](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps) в консоли безопасности & соответствия требованиям в PowerShell, чтобы исключить почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации. Эту команду можно использовать только для политик хранения, значение свойства *ExchangeLocation* которых равно `All` .
 
-- Выполните команду [Set-Mailbox-ексклудефроморгхолдс \< Hold GUID без префикса или суффикса>](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps) команду в Exchange Online PowerShell, чтобы исключить неактивный почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации.
+- Выполните команду [Set-Mailbox-ексклудефроморгхолдс \<hold GUID without prefix or suffix> ](https://docs.microsoft.com/powershell/module/exchange/set-mailbox?view=exchange-ps) в Exchange Online PowerShell, чтобы исключить неактивный почтовый ящик из политики хранения Microsoft 365 в масштабе всей Организации.
 
 - [Изменение срока хранения неактивного почтового ящика](change-the-hold-duration-for-an-inactive-mailbox.md)
 

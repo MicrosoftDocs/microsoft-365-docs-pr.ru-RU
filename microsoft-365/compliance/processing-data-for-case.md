@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Обработка в Advanced eDiscovery включает повторное индексирование данных хранитель, расширение внедренных документов и вложений, а также распознавание текста. Обработка также включает исправление ошибок индексирования.
-ms.openlocfilehash: ab0b9d3a92590812531be04f193ef51afa70a1cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Прочитайте обзор обработки различных форм данных в расширенном средстве обнаружения электронных данных в Office 365.
+ms.openlocfilehash: ec39df5ba8f8ad4ce979b2cd110e14f29f7838b4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632224"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818788"
 ---
 # <a name="work-with-processing-errors-in-advanced-ediscovery"></a>Работа с ошибками обработки в Advanced eDiscovery
 

@@ -16,19 +16,21 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Узнайте, как использовать компонент импорта содержимого, не относящийся к Office 365, для отправки документов, отличных от Office 365, в доказательства, проводимые при расследовании данных.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 499b1074b9a1e2026804eab2ac958fe7392e98ea
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 9bfebc6aad9bc37d7d78ec4a0d50e6de967ac7d1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034417"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815486"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Загрузка данных, отличных от Microsoft 365, в свидетельство
 
 Не все документы, которые могут потребоваться анализировать при расследовании данных, будут размещены в Microsoft 365. С помощью функции импорта содержимого, отличной от Microsoft 365, вы можете отправлять в доказательства документы, которые не находятся в Microsoft 365, поэтому их можно проанализировать при расследовании данных.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="requirements-to-upload-non-office-365-content"></a>Требования к отправке контента, отличного от Office 365
 
 Для использования функции отправки, отличной от Microsoft 365, как описано в этой процедуре, необходимо следующее:
 
@@ -42,7 +44,7 @@ ms.locfileid: "44034417"
 
 - Учетная запись, которая является диспетчером eDiscovery или Microsoft Azure Storage Tools, установленных на компьютере, который имеет доступ к структуре папки контента, отличной от Microsoft 365.
 
-- Установите AzCopy, что можно сделать, выполнив указанные ниже действия.https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
+- Установите AzCopy, чтобы начать [работу с AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy).
 
 ## <a name="upload-non-microsoft-365-content-in-to-a-data-investigation"></a>Отправка контента, отличного от Microsoft 365, во временный анализ данных
 

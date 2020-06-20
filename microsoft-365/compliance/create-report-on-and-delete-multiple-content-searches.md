@@ -18,18 +18,19 @@ search.appverid:
 - MET150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Сведения об автоматизации задач поиска контента, таких как создание поисковых запросов и выполнение отчетов с помощью скриптов PowerShell в центре безопасности & соответствия требованиям в Office 365.
-ms.openlocfilehash: 2832b533c6350cdc2ab2852b6dd0d592603af46e
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 389cc9e15bc661e967f7af769ac48c4ae6e27228
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208143"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817988"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>Создание и удаление нескольких поисков содержимого, а также получение отчетов по ним
 
  Быстрое создание и составление отчетов о поиске обнаружения часто является важным шагом при попытке получить сведения о базовых данных, а также полноту и качеству поиска. Чтобы сделать это, в PowerShell центра безопасности & соответствия требованиям предлагается набор командлетов для автоматизации задач поиска контента. Эти сценарии предоставляют быстрый и простой способ создания ряда операций поиска, а затем запускают отчеты по предполагаемым результатам поиска, которые могут помочь определить количество данных. Кроме того, вы можете использовать сценарии для создания различных версий поиска для сравнения результатов, создаваемых каждой из них. Эти сценарии позволяют быстро и эффективно определять и исключать данные. 
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-create-a-content-search"></a>Перед созданием поиска контента
 
 - Для запуска сценариев, описанных в этом разделе, необходимо быть членом группы ролей "Диспетчер обнаружения электронных данных" в центре безопасности & соответствия требованиям. 
     
@@ -39,7 +40,7 @@ ms.locfileid: "44208143"
     
 - Сценарии включают минимальную обработку ошибок. Их основной целью является быстрое создание, составление отчетов и удаление нескольких поисков контента.
     
-- Примеры скриптов, представленные в этой статье, не поддерживаются ни одной из стандартных программ поддержки или служб Майкрософт. Примеры скриптов предоставляются КАК ЕСТЬ и без каких-либо гарантий. Кроме того, корпорация Майкрософт не дает никаких обязательств в отношении подразумеваемых гарантий, в том числе гарантий товарного качества и пригодности для использования по назначению. Ответственность за риск, возникающий в результате выполнения примеров скриптов и использования документации, полностью возлагается на вас. Корпорация Майкрософт, ее авторы и все, кто принимает участие в создании, подготовке и публикации скриптов, не несут ответственности за какой-либо ущерб (в том числе потерю прибыли предприятия, приостановку его деятельности, потерю бизнес-данных и другой денежный ущерб), вызванный использованием или неспособностью использования примеров скриптов или документации, даже если корпорации Майкрософт было известно о возможности такого ущерба.
+- The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.
     
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-searches-you-want-to-run"></a>Шаг 1: создание CSV-файла, содержащего сведения о искомых запросах
 
@@ -61,7 +62,7 @@ ms.locfileid: "44208143"
     
 2. Откройте txt файл в Excel, а затем воспользуйтесь сведениями из следующей таблицы, чтобы изменить файл, используя сведения для каждого поиска. 
     
-    |**Parameter**|**Описание**|
+    |**Параметр**|**Описание**|
     |:-----|:-----|
     | `ExchangeLocation` <br/> |SMTP-адрес почтового ящика пользователя.  <br/> |
     | `SharePointLocation` <br/> |URL-адрес сайта OneDrive для бизнеса пользователя или URL-адрес любого сайта в Организации. В качестве URL-адреса для сайтов OneDrive для бизнеса используйте следующий формат: ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com ` . Пример: `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |

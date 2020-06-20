@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 description: Узнайте, как использовать встроенное средство управления хранитель в Advanced eDiscovery для координации рабочих процессов и определения соответствующих источников данных в случае.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0c85fb080faeeafd5909c033bc95ef14efc2c45
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: adf5df3bba1956ab1bb658590c1fcf9d4f5a814d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034693"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818616"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>Добавление custodians в расширенное дело обнаружения электронных данных
 
@@ -32,7 +32,7 @@ ms.locfileid: "44034693"
 
 ![Вкладка "Управление хранитель"](../media/CustodianMgtPage.png)
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="make-sure-you-have-the-necessary-permissions"></a>Убедитесь, что у вас есть необходимые разрешения.
 
 Чтобы добавить custodians к случаю, необходимо быть участником группы ролей "Диспетчер обнаружения электронных данных". При этом будут предоставлены необходимые разрешения на добавление custodians к случаю и помещение удержания в источники данных кустодиал.
 

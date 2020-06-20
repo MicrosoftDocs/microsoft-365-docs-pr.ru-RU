@@ -19,13 +19,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
-description: 'Сведения об электронной почте и свойствах файлов, которые можно искать в почтовых ящиках Exchange Online и SharePoint или OneDrive для бизнеса с помощью средства поиска контента в центре безопасности & соответствия требованиям.  '
-ms.openlocfilehash: eb733d17b4d14d56bec3fc475735921d72e8ce27
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.custom:
+- seo-marvel-apr2020
+description: Сведения о свойствах электронной почты и файлов, которые можно выполнять в центре безопасности Office 365 & соответствия требованиям.
+ms.openlocfilehash: 9fa68257519860311ffe330eed23bd95468856c4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224500"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817518"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>Запросы ключевых слов и условия поиска контента
 
@@ -52,20 +54,20 @@ ms.locfileid: "44224500"
   
 |**Свойство**|**Описание свойства**|**Примеры**|**Результаты поиска, возвращаемые примерами**|
 |:-----|:-----|:-----|:-----|
-|аттачментнамес|Имена файлов, вложенных в сообщение электронной почты.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> аттачментнамес: PPTX|Сообщения, в которые вложен файл annualreport.ppt. Во втором примере при использовании подстановочного знака возвращаются сообщения со вложениями, в названиях которых есть слово "annual". В третьем примере возвращаются все вложения с расширением файла PPTX.|
+|аттачментнамес|Имена файлов, вложенных в сообщение электронной почты.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames:.pptx|Сообщения, в которые вложен файл annualreport.ppt. Во втором примере при использовании подстановочного знака возвращаются сообщения со вложениями, в названиях которых есть слово "annual". В третьем примере возвращаются все вложения с расширением файла PPTX.|
 |СК|Поле "Скрытая копия" сообщения электронной почты. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|Все примеры возвращают сообщения, в поле "Скрытая копия" которых добавлен пользователь "Pilar Pinilla".|
 |Category| Категории поиска. Категории могут определяться пользователями с помощью Outlook или Outlook в Интернете (прежнее название — Outlook Web App). Возможные значения:  <br/><br/>  blue  <br/>  green  <br/>  orange  <br/>  purple  <br/>  red  <br/>  yellow|`category:"Red Category"`|Сообщения, которым в исходных почтовых ящиках назначена красная категория.|
 |Cc|Поле "копия" сообщения электронной почты. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|В обоих примерах сообщения с Pilar Pinilla, указанные в поле "копия".|
 |Folderid|Идентификатор папки (GUID) для определенной папки почтового ящика. Если вы используете это свойство, не забудьте выполнить поиск в почтовом ящике, в котором находится указанная папка. Будет выполняться поиск только в указанной папке. Поиск во всех вложенных папках в папке выполняться не будет. Чтобы найти вложенные папки, необходимо использовать свойство FolderId для вложенной папки, в которой требуется выполнить поиск.  <br/> Дополнительные сведения о поиске свойства FolderId и использовании скрипта для получения идентификаторов папок для определенного почтового ящика см в разделе [Использование поиска контента для целевых коллекций](use-content-search-for-targeted-collections.md).|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|В первом примере возвращаются все элементы в указанной папке почтового ящика. Второй пример возвращает все элементы в указанной папке почтового ящика, которые были отправлены или получены garthf@contoso.com.|
 |From|Отправитель электронного письма.<sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|Сообщения, отправленные указанным пользователем или с указанного домена.|
 |HasAttachment|Указывает, содержит ли сообщение вложение. Используйте значения **true** или **false**.|`from:pilar@contoso.com AND hasattachment:true`|Сообщения, отправленные указанным пользователем с вложениями.|
-|Importance|Важность сообщения, которую отправитель может указать при отправке. По умолчанию сообщения отправляются с обычной важностью, если отправитель не укажет **высокую** или **низкую** важность.  |`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|Сообщения, которым назначена высокая, средняя или низкая важность.|
+|Importance|The importance of an email message, which a sender can specify when sending a message. By default, messages are sent with normal importance, unless the sender sets the importance as **high** or **low**.|`importance:high`  <br/> `importance:medium`  <br/> `importance:low`|Сообщения, которым назначена высокая, средняя или низкая важность.|
 |IsRead|Указывает, были ли прочитаны сообщения. Используйте значения **true** или **false**.|`isread:true`  <br/> `isread:false`|В первом примере возвращаются сообщения со свойством-Read, для которого задано значение **true**. Во втором примере возвращаются сообщения со свойством-Read, для которого задано значение **false**.|
 |ItemClass|Это свойство используется для поиска определенных сторонних типов данных, которые ваша организация импортировала в Office 365. Используйте следующий синтаксис для этого свойства:`itemclass:ipm.externaldata.<third-party data type>*`|`itemclass:ipm.externaldata.Facebook* AND subject:contoso`  <br/> `itemclass:ipm.externaldata.Twitter* AND from:"Ann Beebe" AND "Northwind Traders"`|В первом примере возвращаются элементы Facebook, содержащие слово "contoso" в свойстве subject. Второй пример возвращает элементы Twitter, которые были отправлены Анна Beebe и содержат ключевую фразу "Northwind Traders".  <br/> Полный список значений, которые необходимо использовать для сторонних типов данных для свойства ItemClass, приведен [в разделе Использование поиска контента для поиска данных сторонних поставщиков, импортированных в Office 365](use-content-search-to-search-third-party-data-that-was-imported.md).|
 |Kind| Тип сообщения электронной почты для поиска. Возможные значения:  <br/>  contacts  <br/>  docs  <br/>  email  <br/>  екстерналдата  <br/>  faxes  <br/>  im  <br/>  journals  <br/>  meetings  <br/>  microsoftteams (Возвращает элементы из бесед, собраний и звонков в Microsoft Teams)  <br/>  notes  <br/>  posts  <br/>  rssfeeds  <br/>  tasks  <br/>  voicemail|`kind:email`  <br/> `kind:email OR kind:im OR kind:voicemail`  <br/> `kind:externaldata`|В первом примере возвращаются сообщения электронной почты, соответствующие условиям поиска. Второй пример возвращает сообщения электронной почты, беседы с обменом мгновенными сообщениями (в том числе беседы и беседы Skype для бизнеса в Microsoft Teams), а также голосовые сообщения, соответствующие условиям поиска. В третьем примере возвращаются элементы, импортированные в почтовые ящики в Microsoft 365 из сторонних источников данных, таких как Twitter, Facebook и Cisco Jabber, которые отвечают условиям поиска. Дополнительные сведения см в разделе [Архивация сторонних данных в Office 365](https://www.microsoft.com/?ref=go).|
-|Participants|Все поля "люди" в сообщении электронной почты. Эти поля: from, to, CC и BCC.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|Сообщения, отправленные с адреса garthf@contoso.com или на него. Второй пример возвращает все сообщения, отправленные или полученные пользователем домена contoso.com.|
+|Participants|Все поля "люди" в сообщении электронной почты. Эти поля: from, to, CC и BCC.<sup>1</sup>|`participants:garthf@contoso.com`  <br/> `participants:contoso.com`|Messages sent by or sent to garthf@contoso.com. The second example returns all messages sent by or sent to a user in the contoso.com domain.|
 |Received|Дата получения сообщения адресатом.|`received:04/15/2016`  <br/> `received>=01/01/2016 AND received<=03/31/2016`|Сообщения, полученные 15 апреля 2016 г. Второй пример возвращает все сообщения, полученные от 1 января 2016 до 31 марта 2016.|
-|Получатели|Все поля получателей в сообщении электронной почты. К этим полям относятся "Кому", "копия" и "СК".<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|Сообщения, отправленные по адресу garthf@contoso.com. Второй пример возвращает все сообщения, адресованные любому получателю в домене contoso.com.|
+|Получатели|Все поля получателей в сообщении электронной почты. К этим полям относятся "Кому", "копия" и "СК".<sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|Messages sent to garthf@contoso.com. The second example returns messages sent to any recipient in the contoso.com domain.|
 |Sent|Дата отправки сообщения отправителем.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|Сообщения, отправленные в указанный день или диапазон дат.|
 |Size|Размер элемента в байтах.|`size>26214400`  <br/> `size:1..1048567`|Сообщения, размер которых превышает 25?? Мегабайт. Второй пример возвращает сообщения размером от 1 до 1 048 567 байт (1 МБ).|
 |Subject|Текст в строке темы сообщения электронной почты.  <br/> **Примечание:** При использовании свойства Subject в запросе поиск возвращает все сообщения, в которых строка темы содержит искомый текст. Другими словами, запрос не возвращает только те сообщения, которые имеют точное совпадение. Например, при поиске в `subject:"Quarterly Financials"` результаты будут включены сообщения с темой "ежеквартальное финансовое планирование 2018".|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|Сообщения, которые содержат фразу "квартальное финансовое финансирование" в тексте строки темы. Второй пример возвращает все сообщения, которые содержат слово northwind в строке темы.|
@@ -84,19 +86,19 @@ ms.locfileid: "44224500"
 |**Свойство**|**Описание свойства**|**Пример**|**Результаты поиска, возвращаемые примерами**|
 |:-----|:-----|:-----|:-----|
 |Автор|Поле автора в документах Microsoft Office, которое сохраняется при копировании документа. Например, если пользователь создает документ и отправляет его по электронной почте другому пользователю, который затем отправляет его в SharePoint, документ по-прежнему будет сохранять оригинального автора. Обязательно используйте отображаемое имя пользователя для этого свойства.|`author:"Garth Fort"`|Все документы, созданные пользователем Garth Fort.|
-|Контент|Тип контента SharePoint элемента, например Item, Document или Video.|`contenttype:document`|Возвращаются все документы.|
+|ContentType|Тип контента SharePoint элемента, например Item, Document или Video.|`contenttype:document`|Возвращаются все документы.|
 |Создано|Дата создания элемента.|`created\>=06/01/2016`|Все элементы, созданные на 1 июня, 2016.|
 |CreatedBy|Пользователь, создавший или загрузивший элемент. Обязательно используйте отображаемое имя пользователя для этого свойства.|`createdby:"Garth Fort"`|Все элементы, созданные или отправленные пользователем Garth Fort.|
 |детектедлангуаже|Язык элемента.|`detectedlanguage:english`|Все элементы на английском языке.|
 |документлинк|Путь (URL-адрес) конкретной папки на сайте SharePoint или OneDrive для бизнеса. Если вы используете это свойство, не забудьте выполнить поиск по сайту, в котором находится указанная папка.  <br/> Чтобы вернуть элементы, расположенные в папках, указанных для свойства документлинк, необходимо добавить \* URL-адрес указанной папки, например`documentlink: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/>Дополнительные сведения о поиске свойства документлинк и использовании скрипта для получения URL-адресов документлинк для папок на определенном сайте см в разделе [Использование поиска контента для целевых коллекций](use-content-search-for-targeted-collections.md).|`documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Private"`  <br/> `documentlink:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/Documents/Shared with Everyone/*" AND filename:confidential`|В первом примере возвращаются все элементы в указанной папке OneDrive для бизнеса. Во втором примере возвращаются документы в указанной папке сайта (и всех вложенных папках), содержащие слово "конфиденциальный" в имени файла.|
 |FileExtension|Расширение файла; Например, DOCX, One, pptx или XLSX.|`fileextension:xlsx`|Все файлы Excel (Excel 2007 и более поздние версии)|
-|FileName|Имя файла.|`filename:"marketing plan"`  <br/> `filename:estimate`|Первый пример возвращает файлы с фразой "marketing plan" в заголовке. Второй пример возвращает файлы со словом "estimate" в имени файла.|
+|FileName|Имя файла.|`filename:"marketing plan"`  <br/> `filename:estimate`|The first example returns files with the exact phrase "marketing plan" in the title. The second example returns files with the word "estimate" in the file name.|
 |LastModifiedTime|Дата последнего изменения элемента.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|В первом примере возвращаются элементы, которые были изменены в течение или после 1 мая 2016 г. Во втором примере возвращаются элементы, измененные между 1 мая, 2016 и 1 июня 2016.|
 |ModifiedBy|Пользователь, который последним изменил элемент. Обязательно используйте отображаемое имя пользователя для этого свойства.|`modifiedby:"Garth Fort"`|Все элементы, которые последним изменил пользователь Garth Fort.|
 |Path|Путь (URL-адрес) определенного сайта на сайте SharePoint или OneDrive для бизнеса.  <br/> Чтобы вернуть элементы, расположенные в папках на сайте, указанном для свойства Path, необходимо добавить URL- \* адрес указанного сайта, например`path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **Примечание:** Использование `Path` свойства для поиска в расположениях OneDrive не приведет к возврату файлов мультимедиа, таких как файлы PNG, TIFF или WAV, в результатах поиска. Используйте другое свойство сайта в поисковом запросе для поиска мультимедийных файлов в папках OneDrive. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|В первом примере возвращаются все элементы указанного сайта OneDrive для бизнеса. Во втором примере возвращаются документы на указанном сайте (и в папках на сайте), которые содержат слово "конфиденциальный" в имени файла.|
 |шаредвисусерсовсусер|Документы, к которым предоставлен доступ указанному пользователю и отображаемые на странице " **общий доступ** " на сайте OneDrive для бизнеса пользователя. Это документы, которые были явным образом предоставлены указанным пользователем пользователями в Организации. При экспорте документов, которые совпадают с поисковым запросом, использующим свойство Шаредвисусерсовсусер, документы экспортируются из исходного расположения содержимого пользователя, который предоставил общий доступ к документу указанному пользователю. Для получения дополнительных сведений обратитесь [к разделу Поиск контента сайта, для которого предоставлен общий доступ в вашей организации](#searching-for-site-content-shared-within-your-organization).|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|В обоих примерах возвращаются все внутренние документы, к которым явным образом предоставлен общий доступ с помощью Garth Fort и которые отображаются на странице " **общий доступ** " в учетной записи Garth Fort в OneDrive для бизнеса.|
-|Сайт|URL-адрес сайта или группы сайтов в организации.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|В первом примере возвращаются элементы из сайтов OneDrive для бизнеса для всех пользователей в Организации. Второй пример возвращает элементы из всех сайтов группы.|
-|Size|Размер элемента в байтах.|`size>=1`  <br/> `size:1..10000`|Первый пример возвращает элементы, размер которых больше 1 байта. Второй пример возвращает элементы размером от 1 до 10 000 байт.|
+|Site|URL-адрес сайта или группы сайтов в организации.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|В первом примере возвращаются элементы из сайтов OneDrive для бизнеса для всех пользователей в Организации. Второй пример возвращает элементы из всех сайтов группы.|
+|Size|Размер элемента в байтах.|`size>=1`  <br/> `size:1..10000`|The first example returns items larger than 1 byte. The second example returns items from 1 through 10,000 bytes in size.|
 |Title|Заголовок документа. Свойство Title — это метаданные, которые указываются в документах Microsoft Office. Он отличается от имени файла документа.|`title:"communication plan"`|Любой документ, который содержит фразу "communication plan" в свойстве метаданных Title документа Office.|
 |||||
    
@@ -112,7 +114,7 @@ ms.locfileid: "44224500"
 |BusinessAddress|Адрес в свойстве " **Рабочий адрес** ". Свойство также называется **рабочим** адресом на странице свойств контакта.|
 |бусинессфоне|Номер телефона в любом из свойств номера **рабочего телефона** .|
 |CompanyName|Имя в свойстве **Company** .|
-|Отдел|Имя в свойстве **Department** .|
+|Department|Имя в свойстве **Department** .|
 |DisplayName|Отображаемое имя контакта. Это имя в свойстве " **полное имя** " контакта.|
 |EmailAddress|Адрес любого свойства адреса электронной почты контакта. Пользователи могут добавлять несколько адресов электронной почты для контакта. При использовании этого свойства возвращаются контакты, которые совпадают с любыми адресами электронной почты контакта.|
 |FileAs|Свойство **File As** . Это свойство используется для указания того, как контакт отображается в списке контактов пользователя. Например, контакт может быть указан как *FirstName, LastName* или *LastName, FirstName*.|
@@ -125,7 +127,7 @@ ms.locfileid: "44224500"
 |Nickname|Имя в свойстве **псевдонима** .|
 |OfficeLocation|Значение в свойстве Location для **Office** или **Office** .|
 |OtherAddress|Значение свойства **other** Address.|
-|ФИО|Имя в свойстве **Last** Name.|
+|Surname|Имя в свойстве **Last** Name.|
 |Title|Заголовок в свойстве **Title** (должность).|
 |||||
 
@@ -147,21 +149,21 @@ ms.locfileid: "44224500"
 |**Оператор**|**Использование**|**Описание**|
 |:-----|:-----|:-----|
 |AND|keyword1 AND keyword2|Возвращает элементы, которые включают все указанные ключевые слова или `property:value` выражения. Например, `from:"Ann Beebe" AND subject:northwind` возвращает все сообщения, отправленные Анна Beebe, которые содержат слово Northwind в строке темы. <sup>2</sup>|
-|+|keyword1 + keyword2 + keyword3|Возвращает элементы, которые содержат  *либо*  `keyword2` , либо  `keyword3`,  *а также*  `keyword1`. Следовательно, этот пример аналогичен запросу  `(keyword2 OR keyword3) AND keyword1`.  <br/> Запрос `keyword1 + keyword2` (с пробелом после **+** символа) не совпадает с оператором **и** . This query would be equivalent to  `"keyword1 + keyword2"` and return items with the exact phase  `"keyword1 + keyword2"`.|
+|+|keyword1 + keyword2 + keyword3|Returns items that contain  *either*  `keyword2` or  `keyword3` *and*  that also contain  `keyword1`. Therefore, this example is equivalent to the query  `(keyword2 OR keyword3) AND keyword1`.  <br/> Запрос `keyword1 + keyword2` (с пробелом после **+** символа) не совпадает с оператором **и** . This query would be equivalent to  `"keyword1 + keyword2"` and return items with the exact phase  `"keyword1 + keyword2"`.|
 |OR|keyword1 OR keyword2|Возвращает элементы, которые включают одно или несколько указанных ключевых слов или `property:value` выражений. <sup>2</sup>|
 |NOT|keyword1 NOT keyword2  <br/> NOT from:"Анна Ермолаева"  <br/> НЕ вид: мгновенные сообщения|Исключает элементы, указанные ключевым словом или `property:value` выражением. Во втором примере исключаются сообщения, отправленные Анна Beebe. В третьем примере исключены беседы с обменом мгновенными сообщениями, такие как беседы Skype для бизнеса, которые сохраняются в папке журнала бесед в почтовом ящике. <sup>2</sup>|
 |-|keyword1 -keyword2|Аналогичен оператору **NOT**. Таким образом, этот запрос возвращает элементы, содержащие элементы, которые содержат `keyword1` `keyword2` .|
 |NEAR|ключевое_слово1 NEAR(n) ключевое_слово2|Возвращает элементы, в которых слова располагаются рядом друг с другом, где n — расстояние между ними. Например, `best NEAR(5) worst` возвращает любой элемент, в котором слово "наихудшее" находится в пределах пяти слов "лучший". Если число не указано, расстояние по умолчанию  восемь слов. <sup>2</sup>|
 |:|свойство:значение|Двоеточие (:) в `property:value` синтаксисе указывает, что значение свойства, в котором выполняется поиск, содержит указанное значение. Например, выражение  `recipients:garthf@contoso.com` возвращает все сообщения, отправленные по адресу garthf@contoso.com.|
 |=|свойство=значение|Аналогично оператору **::** .|
-|\<|свойство\<значение|Указывает, что значение искомого свойства меньше указанного значения.<sup>1</sup>|
+|\<|свойство\<значение|Denotes that the property being searched is less than the specified value. <sup>1</sup>|
 |\>|свойство\>значение|Указывает, что значение искомого свойства больше указанного значения.<sup>1</sup>|
 |\<=|свойство\<=значение|Указывает, что значение искомого свойства меньше или равно указанному значению.<sup>1</sup>|
 |\>=|свойство\>=значение|Указывает, что значение искомого свойства больше или равно указанному значению.<sup>1</sup>|
 |..|свойство: значение1.. value2|Указывает, что значение искомого свойства больше или равно значению 1 и меньше или равно значению 2.<sup>1</sup>|
 |"  "|"реальная стоимость"  <br/> subject:"Квартальное финансирование"|Используйте двойные кавычки (""), чтобы выполнить поиск точной фразы или термина в запросах ключевых слов и `property:value` поиска.|
 |\*|cat\*  <br/> subject:set\*|Поиск со знаками подстановки в конце слова ищет некоторое количество символов в ключевых словах или запросах  `property:value`. Например, `title:set*` возвращает документы, содержащие слова Set, Setup и Setting (а также другие слова, начинающиеся с "Set") в заголовке документа.  <br/><br/> **Примечание:** Можно использовать только поиск по маске префикса; Например, **Cat \* ** или **Set \* **. Поиск суффикса (** \* Cat** ), поиск в инфикс (**c \* t**) и поиск подстрок (** \* Cat \* **) не поддерживаются.|
-|(  )| (реальная OR бесплатная) AND (from:contoso.com)  <br/> (IPO OR первичное) AND (биржа OR акции)  <br/> (квартальное финансирование)|Скобки объединяют логические фразы, элементы  `property:value` и ключевые слова. Например, выражение  `(quarterly financials)` возвращает элементы, которые содержат слова "quarterly" и "financials".  |
+|(  )| (реальная OR бесплатная) AND (from:contoso.com)  <br/> (IPO OR первичное) AND (биржа OR акции)  <br/> (квартальное финансирование)|Parentheses group together Boolean phrases,  `property:value` items, and keywords. For example,  `(quarterly financials)` returns items that contain the words quarterly and financials.|
 |||||
    
 > [!NOTE]
@@ -228,18 +230,18 @@ ms.locfileid: "44224500"
   
 ### <a name="operators-used-with-conditions"></a>Операторы, используемые с условиями
 
-При добавлении условия вы можете выбрать оператор, относящийся к типу свойства для этого условия. В следующей таблице описаны операторы, используемые с условиями, и перечислены эквиваленты, используемые в поисковых запросах.
+When you add a condition, you can select an operator that is relevant to type of property for the condition. The following table describes the operators that are used with conditions and lists the equivalent that is used in the search query.
   
 |**Operator**|**Эквивалент запроса**|**Описание**|
 |:-----|:-----|:-----|
-|After|`property>date`|Используется с условиями даты. Возвращает элементы, отправленные, полученные или измененные после указанной даты. |
-|До|`property<date`|Используется с условиями даты. Возвращает элементы, отправленные, полученные или измененные до указанной даты.|
+|After|`property>date`|Used with date conditions. Returns items that were sent, received, or modified after the specified date.|
+|До|`property<date`|Used with date conditions. Returns items that were sent, received, or modified before the specified date.|
 |Взаимодействие|`date..date`|Используется с условиями даты и размера. При использовании с условием даты возвращает элементы, отправленные, полученные или измененные в указанный временной период. При использовании с условием размера возвращает элементы, размер которых находится в заданном диапазоне.|
 |Contains any of|`(property:value) OR (property:value)`|Используется с условиями для свойств, определяющих строковые значения. Возвращает элементы, которые содержат любую часть одного или нескольких указанных строковых значений.|
 |Doesn't contain any of|`-property:value`  <br/> `NOT property:value`|Используется с условиями для свойств, определяющих строковые значения. Возвращает элементы, которые не содержат ни одной части указанного строкового значения.|
-|Doesn't equal any of|`-property=value`  <br/> `NOT property=value`|Используется с условиями для свойств, определяющих строковые значения. Возвращает элементы, которые не содержат определенную строку.|
+|Doesn't equal any of|`-property=value`  <br/> `NOT property=value`|Used with conditions for properties that specify a string value. Returns items that don't contain the specific string.|
 |Равно|`size=value`|Возвращает элементы, равные заданному размеру. <sup>1</sup>|
-|Equals any of|`(property=value) OR (property=value)`|Используется с условиями для свойств, определяющих строковые значения. Возвращает элементы, которые полностью совпадают с одним или несколькими указанными строковыми значениями.|
+|Equals any of|`(property=value) OR (property=value)`|Used with conditions for properties that specify a string value. Returns items that are an exact match of one or more specified string values.|
 |Превосходящи|`size>value`|Возвращает элементы, в которых указанное свойство больше указанного значения. <sup>1</sup>|
 |Greater or equal|`size>=value`|Возвращает элементы, в которых указанное свойство больше или равно заданному значению. <sup>1</sup>|
 |Снизить|`size<value`|Возвращает элементы, которые больше или равны определенному значению. <sup>1</sup>|
@@ -275,7 +277,7 @@ ms.locfileid: "44224500"
     ![Несколько условий поиска для одного свойства](../media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
   
 > [!TIP]
-> Если условие принимает несколько значений, мы рекомендуем использовать одно условие и указывать несколько значений (разделенных запятыми или точками с запятой). Это помогает обеспечить логику запроса, применяемую в соответствии с вашими намерениями. 
+> If a condition accepts multiple values, we recommend that you use a single condition and specify multiple values (separated by commas or semi-colons). This helps ensure the query logic that's applied is what you intend. 
   
 ### <a name="examples-of-using-conditions-in-search-queries"></a>Примеры
 
@@ -299,7 +301,7 @@ ms.locfileid: "44224500"
   
 #### <a name="example-2"></a>Пример 2
 
-Этот пример возвращает элементы электронной почты или документы, содержащие ключевое слово "report", которые были отправлены или созданы до 1 апреля 2105 г. и которые содержат слово "northwind" в поле темы сообщений или в свойстве Title документов. Этот запрос исключает веб-страницы, которые соответствуют другим условиям поиска. 
+This example returns email items or documents that contain the keyword "report", that were sent or created before April 1, 2105, and that contain the word "northwind" in the subject field of email messages or in the title property of documents. The query excludes Web pages that meet the other search criteria.
   
  **Графический пользовательский интерфейс**
   
@@ -414,7 +416,7 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 
 - Используйте синтаксис, соответствующий `property:value` формату. В значениях регистр не учитывается, а после оператора нельзя ставить пробел. Если есть пробел, ваше предполагаемое значение будет полнотекстовым поиском. Например `to: pilarp` , Поиск "pilarp" в качестве ключевого слова, а не для сообщений, отправленных в pilarp. 
 
-- При поиске свойства получателя, например To, From, Cc или Recipients, можно использовать SMTP-адрес, псевдоним или отображаемое имя получателя. Например, можно указать значение pilarp@contoso.com, pilarp или "Pilar Pinilla".
+- When searching a recipient property, such as To, From, Cc, or Recipients, you can use an SMTP address, alias, or display name to denote a recipient. For example, you can use pilarp@contoso.com, pilarp, or "Pilar Pinilla".
 
 - Можно использовать только поиск по маске префикса; Например, **Cat \* ** или **Set \* **. Поиск суффикса (** \* Cat**), поиск в инфикс (**c \* t**) и поиск подстрок (** \* Cat \* **) не поддерживаются.
 

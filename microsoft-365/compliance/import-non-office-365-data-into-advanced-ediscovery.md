@@ -15,24 +15,25 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: Инструкции по импорту контента, не хранящегося в Microsoft 365, в большой двоичный объект Azure, чтобы его можно было проанализировать с помощью АЕД
-ms.openlocfilehash: be49e7d44c56988baa3cdc718498a03ee4acd50b
-ms.sourcegitcommit: 1c90bcc5c56f24895f01c3e0423c3f6b73715c13
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fbb21f6bc3fdfd2a5251a9ec773a22351db5749e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44214543"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817598"
 ---
 # <a name="import-non-microsoft-365-content-for-advanced-ediscovery-classic-analysis"></a>Импорт контента, отличного от Microsoft 365, для расширенного анализа обнаружения электронных данных (классический)
 
 Не все документы, которые может потребоваться проанализировать с помощью расширенного обнаружения электронных данных, будут находиться в Microsoft 365. С помощью функции импорта содержимого, отличной от Microsoft 365, в Advanced eDiscovery вы можете отправлять документы, не входящие в состав Microsoft 365 (за исключением PST-файлов), в объект, связанный с хранилищем Azure, и анализировать их с помощью расширенного обнаружения электронных данных. В этой процедуре показано, как перенести документы, не относящиеся к Microsoft 365, в Расширенное обнаружение электронных данных для анализа.
   
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 > [!NOTE]
 > Вы можете приобрести расширенную подписку на надстройку хранилища данных eDiscovery для вашего контента, отличного от Майкрософт 365. Этот параметр доступен только для контента, который необходимо проанализировать с помощью расширенного обнаружения электронных данных. Выполните действия, описанные в статье [Покупка или изменение надстройки для Microsoft 365 для бизнеса](https://docs.microsoft.com/microsoft-365/commerce/buy-or-edit-an-add-on) , и приобретите расширенную надстройку для хранения электронных данных. 
   
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="requirements-to-upload-non-office-365-content"></a>Требования к отправке контента, отличного от Office 365
 
 Для использования функции отправки, отличной от Office 365, описанной в этой процедуре, необходимо следующее:
   

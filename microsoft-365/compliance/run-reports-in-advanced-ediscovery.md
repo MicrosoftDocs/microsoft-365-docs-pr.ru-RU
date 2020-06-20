@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: Узнайте, как запустить отчет для выбранного процесса, а затем скачать его CSV-файл в Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e8761277dae8898cfe4c1674beb3f89eeddb48ba
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 9672f8567cdebba357649833187664c2fa8402ab
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034593"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818919"
 ---
 # <a name="run-reports-in-advanced-ediscovery-classic"></a>Запуск отчетов в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 В этом разделе описывается, как запускать отчеты в Advanced eDiscovery.
   
@@ -43,6 +43,6 @@ ms.locfileid: "44034593"
     
 3. Щелкните **загрузить CSV-файл**. Запрошенный отчет создается и загружается.
     
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)

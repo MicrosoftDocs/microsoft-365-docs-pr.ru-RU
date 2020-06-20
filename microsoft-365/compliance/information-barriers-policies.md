@@ -14,16 +14,14 @@ ms.collection:
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41d56927f3f9c22782b10640330ca9d0167402d2
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.openlocfilehash: 88ff728f00709707233b97586d1220ead76eca8c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232058"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817548"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
-
-## <a name="overview"></a>Обзор
 
 С помощью барьеров информации можно определить политики, предназначенные для предотвращения связи определенных сегментов пользователей друг с другом, а также разрешить определенным сегментам взаимодействовать только с определенными другими сегментами. Политики барьера информации помогут вашей организации обеспечить соответствие отраслевым стандартам и нормативам и избежать потенциальных конфликтов интересов. Дополнительные [сведения см.](information-barriers.md) 
 
@@ -57,7 +55,7 @@ ms.locfileid: "44232058"
 |(При необходимости) [Изменение сегмента или политики](information-barriers-edit-segments-policies.md)    |— Изменение сегмента<br/>Изменение или удаление политики<br/>Перезапустите приложение политики повторно.<br/>— Просмотр состояния политики         |
 |(При необходимости) [Устранение неполадок](information-barriers-troubleshooting.md)|— Предпринять действия, если неработаны должным образом|
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Необходимые компоненты
 
 В дополнение к [необходимым лицензиям и разрешениям](information-barriers.md#required-licenses-and-permissions)убедитесь, что выполнены следующие требования: 
      
@@ -303,7 +301,7 @@ ms.locfileid: "44232058"
 
 Contoso будет использовать атрибут Department в Azure Active Directory для определения сегментов, как показано ниже.
 
-|Отдел  |Определение сегмента  |
+|Department  |Определение сегмента  |
 |---------|---------|
 |HR     | `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`        |
 |Sales     | `New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'"`        |
@@ -327,7 +325,7 @@ Contoso будет использовать атрибут Department в Azure A
 
 После этого Contoso соответствует юридическим и отраслевым требованиям.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 - [Обзор информационных препятствий](information-barriers.md)
 

@@ -13,15 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: M365-security-compliance
-ms.custom:
-- seo-marvel-apr2020
-description: Настройте соединитель для импорта данных Twitter в Microsoft 365, чтобы вы могли использовать такие функции обеспечения соответствия, как судебное хранение, поиск контента и политики хранения.
-ms.openlocfilehash: efc02dcf7b9c40fafedf230e4786f6f6494c27d6
-ms.sourcegitcommit: ab0a944159d9349fbc7adc2f51c7f881254d7782
+ms.custom: seo-marvel-apr2020
+description: Узнайте, как администраторы могут настроить и использовать собственный соединитель для импорта данных Twitter в Microsoft 365.
+ms.openlocfilehash: ba6c0786c0861776bad00dc1ed8f859da378a355
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210585"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818428"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data-preview"></a>Настройка соединителя для архивации данных Twitter (Предварительная версия)
 

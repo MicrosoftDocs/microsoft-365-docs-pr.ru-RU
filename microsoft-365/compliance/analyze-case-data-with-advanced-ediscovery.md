@@ -14,20 +14,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
-description: 'Обзор процесса анализа, который позволяет задавать параметры, параметры запуска и просматривать результаты в Advanced eDiscovery. '
-ms.openlocfilehash: 5acd9071477856aa81774efe48d3290c92eb4599
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Обзор процесса анализа, который позволяет задавать параметры, параметры запуска и просматривать результаты в приложении Microsoft 365 Advanced eDiscovery. '
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a5a3dc8d9bb6568545bbe0868a673fd0090f12e8
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637063"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818488"
 ---
 # <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>Анализ данных обращений с помощью расширенного обнаружения электронных данных (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
-Процесс **подготовки** \> к **анализу** в Advanced eDiscovery применяет к включенным файлам следующие функции: 
+Процесс **подготовки** к \> **анализу** в Advanced eDiscovery применяет к включенным файлам следующие функции: 
   
 - Определяет и упорядочивает загруженные файлы в группы уникальных файлов, дубликатов и почти дубликатов.
     
@@ -43,7 +44,7 @@ ms.locfileid: "43637063"
     
 Перед выполнением анализа определите условия для выбора и обработки файлов, в том числе загружаемые файлы, которые будут анализироваться, и тип анализа, в который будет отправлен каждый тип файла. 
   
-## <a name="see-also"></a>См. также
+## <a name="additional-resources-for-advanced-ediscovery-classic-analysis"></a>Дополнительные ресурсы для расширенного анализа обнаружения электронных данных (классический)
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

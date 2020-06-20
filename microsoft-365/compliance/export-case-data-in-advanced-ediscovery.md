@@ -15,17 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: 'Ознакомьтесь с рекомендациями по экспорту данных дел обнаружения электронных данных и результатов для проверки с помощью процесса экспорта в Advanced eDiscovery.  '
-ms.openlocfilehash: 8a46a0c3d04cb89d50486d032a7958ccb779b5e1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 88be4a96720aee2392b6e0972919997f8634054b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615943"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817768"
 ---
 # <a name="export-case-data-in-advanced-ediscovery-classic"></a>Экспорт данных обращений в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Процесс экспорта в Advanced eDiscovery позволяет экспортировать расширенный контент eDiscovery и результаты для внешнего рецензирования. 
   
@@ -37,7 +38,7 @@ ms.locfileid: "43615943"
     
 - Экспорт большого объема данных в базу данных может значительно повлиять на требуемый размер базы данных и требуемую конфигурацию расширенной базы данных обнаружения электронных данных.
     
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

@@ -14,18 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 'Сведения о том, как вкладка "выбор" в Advanced eDiscovery предоставляет данные, которые помогут вам определить правильный размер набора файлов вариантов проверки. '
-ms.openlocfilehash: 279b689e830089c683b8cd575a231635ca32de76
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Узнайте, как на вкладке "выбор" в Microsoft 365 Advanced eDiscovery содержатся данные, которые помогут определить правильный размер набора файлов для проверки. '
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0139bc0505150a4d27aaca97b9b253f2043d649f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630576"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817908"
 ---
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>Решение на основе результатов расширенного обнаружения электронных данных (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
  В Advanced eDiscovery на вкладке "выбор" представлены дополнительные сведения о просмотре и использовании статистики поддержки принятия решений для определения размера набора проверки файлов вариантов. 
   
@@ -53,7 +54,7 @@ ms.locfileid: "43630576"
     
 В области расширенных сведений отображаются дополнительные сведения. Файлы в рисунках коллекции не включают пустые или небулаус файлы. На рисунках с семейными файлами представлены файлы, которые не загружаются по релевантности, но по-прежнему считаются частью семейства.
   
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

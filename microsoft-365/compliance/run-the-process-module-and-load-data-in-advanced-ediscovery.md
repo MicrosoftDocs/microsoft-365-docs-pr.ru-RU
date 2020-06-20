@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: 'Узнайте, как использовать центр соответствия &amp; требованиям безопасности для доступа к расширенному eDiscovery и запуска модуля Process для обращения.  '
-ms.openlocfilehash: efab765a7ed17b1118efe7296fbabe08d51dd1ba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Узнайте, как использовать &amp; центр соответствия требованиям безопасности для доступа к расширенному eDiscovery и запуска модуля Process для обращения.  '
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 47614e8bc25a376f9b51068c151a71e025e2f264
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626475"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818908"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>Запуск модуля процесса и загрузка данных в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 В этом разделе описываются функциональные возможности модуля "расширенный процесс обнаружения электронных данных". 
   
@@ -41,9 +42,9 @@ ms.locfileid: "43626475"
   
 Выполните указанные ниже действия, чтобы выполнить процесс.
   
-1. [Откройте центр безопасности &amp; и соответствия требованиям](go-to-the-securitycompliance-center.md) . 
+1. [Откройте компонент "Безопасность &amp; ". Центр соответствия требованиям](go-to-the-securitycompliance-center.md) . 
     
-2. Перейдите к разделу **Поиск &amp; ** \> с **обнаружением электронных** данных и нажмите кнопку **Перейти к расширенному eDiscovery**.
+2. Перейдите к разделу ** &amp; Поиск** с \> **обнаружением электронных** данных и нажмите кнопку **Перейти к расширенному eDiscovery**.
     
 3. В разделе Расширенные функции обнаружения электронных данных выберите соответствующее обращение на странице отображаемые **варианты** и нажмите кнопку **Перейти к регистру**.
     
@@ -81,7 +82,7 @@ ms.locfileid: "43626475"
     
 Если вы добавляете к этому случаю, вы можете обработать его еще раз.
   
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

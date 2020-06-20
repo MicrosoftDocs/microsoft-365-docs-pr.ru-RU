@@ -17,18 +17,18 @@ search.appverid:
 ms.assetid: ''
 description: Узнайте, как импортировать данные не из Microsoft 365 в набор проверки для анализа в расширенном случае обнаружения электронных данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ed4a26ea1dd68b9198cce67ce0f97580ed4b2a99
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f9b506edc55da1916ae908eaa7ca619ba7300f87
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034427"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815466"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>Загрузка данных, отличных от Microsoft 365, в набор проверки
 
 Не все документы, которые необходимо проанализировать в Advanced eDiscovery, расположены в Microsoft 365. С помощью функции импорта данных, отличной от Microsoft 365, в Advanced eDiscovery можно отправлять документы, не размещенные в Microsoft 365, в набор рецензирования. В этой статье показано, как перенести документы, не относящиеся к Microsoft 365, в Расширенное обнаружение электронных данных для анализа.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="requirements-to-upload-non-office-365-content"></a>Требования к отправке контента, отличного от Office 365
 
 Для использования функции отправки, отличной от Microsoft 365, описанной в этой статье, необходимо следующее:
 

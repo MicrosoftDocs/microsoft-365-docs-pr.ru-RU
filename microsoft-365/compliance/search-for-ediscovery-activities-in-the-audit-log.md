@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
-description: Узнайте, как искать в журнале аудита события, регистрируемые в журнале, когда администраторы соответствия выполняют задачи поиска контента и дела eDiscovery в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: e7ed3ddf16d22750449d3211d96800334676e519
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+description: Узнайте, какие события заносятся в журнал, когда пользователи, которым назначены разрешения eDiscovery, выполняют поиск контента и основные задачи обнаружения электронных данных в центре безопасности & соответствия требованиям.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 671fdebd75dfdaaf09deebf320b9fe4cfab0ca1c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726520"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818878"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>Поиск действий по обнаружению электронных данных в журнале аудита
 

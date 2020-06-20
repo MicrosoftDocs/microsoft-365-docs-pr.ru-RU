@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5a8d0b95a0abb93eef352a442ff6c8203eda6e0e
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 814b04583724b9ab8e6bcb570d51d24467755064
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254182"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773770"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Правительство для Великобритании (Россия)
 
@@ -37,8 +37,6 @@ ms.locfileid: "44254182"
 
 Встреча служб Майкрософт в цифровом магазине означает, что правительственные агентства и партнеры Великобритании могут использовать службы в области для хранения и обработки официальных правительственных данных в Великобритании, в большинстве правительственных данных. Кроме того, в финансовом облаке есть более 450 партнеров Майкрософт, которые являются торговыми посредниками служб Microsoft Cloud Services. Они могут напрямую утверждать соответствие служб в области с 14 принципами в своих приложениях. Тем не менее, клиентам и партнерам потребуется обеспечить собственное соответствие всем компонентам, не включенным в аттестацию и определением соответствия требованиям для облачных служб Майкрософт.
 
-Узнайте больше о преимуществах использования Великобритании (G — Cloud V6) в Microsoft Cloud: [Скачайте фоновый документ для Великобритании g — Cloud 6](https://aka.ms/uk-g-cloud_backgrounder)
-
 Узнайте, как ускорить развертывание по принципу G — Cloud V6 для Великобритании с помощью нашего плана безопасности и соответствия требованиям Azure: [скачайте Руководство по реализации принципов внедрения Azure для Великобритании](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
@@ -47,7 +45,7 @@ ms.locfileid: "44254182"
 - Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Автоматизация управления питанием (Предыдущая версия Microsoft Flow) как самостоятельная служба или как она входит в план или набор Office 365 или Dynamics 365
+- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Office 365: Exchange Online, SharePoint Online и Skype для бизнеса Online
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365

@@ -14,19 +14,20 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения о том, как оценка соответствия требованиям Майкрософт вычисляет персонализированный балл на основе действий, предпринимаемых для решения рисков и повышая уровень соответствия требованиям.
-ms.openlocfilehash: e1a13cee8086e158f3869a00384166366c0a63dc
-ms.sourcegitcommit: 436841236dc41390a3be9f8936d19d3d017fa35c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cf8a691b558614896cc17207e761035e1f360280
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44429194"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818078"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Расчет оценки соответствия требованиям Майкрософт (Предварительная версия)
 
 > [!IMPORTANT]
 > Рекомендации рейтинга соответствия требованиям и диспетчера соответствия требованиям не должны рассматриваться в качестве гарантии соответствия требованиям. Вы можете оценивать и проверять эффективность клиентских элементов управления в соответствии с нормативной средой. В настоящее время эти службы находятся в предварительной версии и подчиняются условиям и условиям в [терминах веб-служб](https://go.microsoft.com/fwlink/?linkid=2108910). Кроме того [, вы также найдете рекомендации по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
-## <a name="overview"></a>Обзор
+## <a name="how-compliance-score-works"></a>Принцип действия оценки соответствия требованиям
 
 На панели мониторинга оценки соответствия отображается показатель, который измеряет выполнение действий по улучшению в элементах управления. Ваши точки начисляются при выполнении действий.
 

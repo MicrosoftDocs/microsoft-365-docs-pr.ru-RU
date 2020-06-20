@@ -16,13 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Узнайте, как выбирать документы из одного набора проверки и работать с ними по отдельности в другом наборе в расширенном случае обнаружения электронных данных.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 636e76b1740cfa07254e4c56165cfafa8f1fad5a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: 433e59629ec40dbdf66b8daf6437ce84e41a3a33
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034683"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818606"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>Добавление данных в набор проверки из другого набора проверки
 
@@ -30,9 +32,9 @@ ms.locfileid: "44034683"
 
 Выполните действия, описанные в этой статье, чтобы добавить контент из одного набора проверки в другой.
 
-## <a name="before-you-begin"></a>Подготовка
+## <a name="create-a-review-set"></a>Создание набора проверки
 
-Прежде чем начать, вам потребуется создать новый набор рецензирования, чтобы добавить данные в.  Новый набор проверки можно добавить на вкладке " **наборы проверки** ". Дополнительные сведения можно найти [в статье Создание набора проверки](managing-review-sets.md#create-a-review-set).
+Прежде чем начать, необходимо создать набор проверки, чтобы добавить данные в.  Новый набор проверки можно добавить на вкладке " **наборы проверки** ". Дополнительные сведения можно найти [в статье Создание набора проверки](managing-review-sets.md#create-a-review-set).
 
 ## <a name="step-1-identify-content-to-add-to-another-review-set"></a>Шаг 1: Определение контента для добавления в другой набор проверки
 

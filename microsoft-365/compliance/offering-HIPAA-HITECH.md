@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4a774613283c9639e36aa868538b338f60286246
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 47343d3e4ae3224556cc22874687da4bea864e8a
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254212"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773720"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -59,7 +59,7 @@ ms.locfileid: "44254212"
 - Microsoft Stream
 - Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- Автоматизация управления питанием (Предыдущая версия Microsoft Flow) как самостоятельная служба или как она входит в план или набор Office 365 или Dynamics 365
+- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Intune
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
@@ -113,5 +113,5 @@ ms.locfileid: "44254212"
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Облако Майкрософт для государственных организаций](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Общие сведения о соответствии требованиям HIPAA с Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19 мая, 2016)
-- [Руководство по реализации Azure HIPAA](https://aka.ms/azure-hipaa-guide)
+- [Пример чертежа Azure HIPAA HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)

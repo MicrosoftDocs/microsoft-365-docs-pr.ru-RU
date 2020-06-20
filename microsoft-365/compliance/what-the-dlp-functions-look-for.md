@@ -15,17 +15,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Типы конфиденциальной информации ищут определенный шаблон и корроборате его, обеспечивая правильное форматирование, заменяя контрольные суммы и ищут соответствующие ключевые слова или другие сведения. Для некоторых из этих проверок используются внешние функции. В этой статье рассказывается о сведениях, для обнаружения которых используются эти функции, что поможет вам разобраться в предопределенных типах конфиденциальной информации.
-ms.openlocfilehash: 710cd371cbf67a03d75a928baab4b63587cdcfc1
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, что ищет функции защиты от потери данных (DLP), чтобы узнать, как работают предопределенные типы конфиденциальной информации.
+ms.openlocfilehash: 838277b2e30696cd00cfc30df49c1d5a29149d92
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327751"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819279"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>Сведения, для обнаружения которых используются функции защиты от потери данных
 
-Защита от потери данных включает различные типы конфиденциальной информации, такие как номер кредитной карты, номер дебетовой карты, выпущенной в ЕС, которые предусмотрены политиками защиты от потери данных. Обычно эти типы конфиденциальной информации используются для поиска данных по определенному шаблону, при этом проводится проверка правильности форматирования, применения контрольных сумм, а также наличия соответствующих ключевых слов и других данных. Для некоторых из этих проверок используются внешние функции. Например, чтобы определить, что число является номером кредитной карты, проводится поиск дат, формат которых соответствует формату даты окончания срока действия.
+Data loss prevention (DLP) includes sensitive information types, such as Credit Card Number and EU Debit Card Number, which are ready for you to use in your DLP policies. These sensitive information types look for a specific pattern and corroborate it by ensuring proper formatting, enforcing checksums, and looking for relevant keywords or other information. Some of this functionality is performed by internal functions. For example, the Credit Card Number sensitive information type uses a function to look for dates formatted like an expiration date, to help corroborate that a number is a credit card number.
   
 В этой статье рассказывается о сведениях, для обнаружения которых используются эти функции, что поможет вам разобраться в предопределенных типах конфиденциальной информации. Более подробную информацию можно узнать в статье [Определение объекта типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
   
@@ -51,7 +53,7 @@ ms.locfileid: "44327751"
     
 Принятые названия месяцев:
   
-- Английский
+- English
     
   - Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь
     
@@ -59,7 +61,7 @@ ms.locfileid: "44327751"
     
 ## <a name="func_eu_date"></a>Func_eu_date
 
-Эта функция служит для поиска даты в формате, который обычно используется в ЕС, а также в большинстве стран за пределами США. Сюда относятся форматы "день/месяц/год", "день-месяц-год" и "день месяц год". Полные или сокращенные названия месяцев вводятся без учета регистра.
+This function looks for a date in the format commonly used in the E.U. (and most places outside the U.S.). This includes the formats "day/month/year", "day-month-year", and "day month year". The names or abbreviations of months are not case sensitive.
   
 Примеры:
   
@@ -79,31 +81,31 @@ ms.locfileid: "44327751"
     
 Принятые названия месяцев:
   
-- Английский
+- English
     
   - Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь
     
   - Февраль. Фев. Март. Апр. Май июня. сентября. Oct. Ноя. Дек.
     
-- Голландский
+- Dutch
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
   - Февраль февраля МАарт апреля Меи июня 2004 Янв, Сен сентября, Окт ноября декабря
     
-- Французский
+- French
     
   - жанвиер, фéвриер, Mars, Аврил, Чиангмай, жуин жуиллет, аоûт, септембре, октобре, Новембре, дéцембре
     
   - жанв. фéвр. режим MARS Аврил Чиангмай жуин жуил. аоûт сентября. развертывания. ноября. дéк.
     
-- Немецкий
+- German
     
   - жäнуар, фебруар, мäрз, Апрель, Чиангмай, жуни Жули, Август, Сентябрь, Октобер, Ноябрь, дезембер
     
   - Янв./Жäн. Фев. Мäрз Apr. Чиангмай Жуни Жули Авг. Сентябрь. Окт. Ноя. дез.
     
-- Итальянский
+- Italian
     
   - женнаио, феббраио, Марзо, Апрель, маггио, гиугно, луглио, Агосто, Сеттембре, Оттобре, Новембре, дицембре
     
@@ -115,7 +117,7 @@ ms.locfileid: "44327751"
     
   - Янв Фев Mar, Чиангмай, 2004 июня, назад, Настройка ноября Ноя дез
     
-- Испанский
+- Spanish
     
   - енеро, фебреро, Марзо, Абрил, Майо, Жунио, Жулио, Агосто, септиембре, Октубре, новиембре, диЦиембре
     
@@ -177,7 +179,7 @@ ms.locfileid: "44327751"
     
 Принятые названия месяцев:
   
-- Голландский
+- Dutch
     
   - januari, februari, maart, April, mei, juni, juli, augustus, September, ocktober, October, November, December
     
@@ -209,7 +211,7 @@ ms.locfileid: "44327751"
     
 Принятые названия месяцев:
   
-- Английский
+- English
     
   - Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь
     
@@ -217,7 +219,7 @@ ms.locfileid: "44327751"
     
 ## <a name="func_us_address"></a>Func_us_address
 
-Эта функция служит для поиска названия штата США или его почтовой аббревиатуры вместе с почтовым индексом в том же виде, в котором они указываются в почтовых адресах. Необходимо указать правильный почтовый индекс, соответствующий названию штата США или его аббревиатуре. Название штата США и почтовый индекс не должны разделяться знаками пунктуации или буквами.
+This function looks for a U.S. state name or postal abbreviation followed by a valid zip code, just as they are used in postal addresses. The zip code must be one of the correct zip codes associated with the U.S. state name or abbreviation. The U.S. state name and zip code cannot be separated by punctuation or letters.
   
 Примеры:
   

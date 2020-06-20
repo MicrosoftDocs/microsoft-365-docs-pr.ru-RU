@@ -14,13 +14,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
-description: Используйте случаи обнаружения электронных данных в центре соответствия требованиям Microsoft 365 для управления юридическим исследованием в Организации. Если у вас есть подписка на "а", вы можете проанализировать данные дела с помощью аналитики текста, машинного обучения и прогнозирования возможностей кодирования расширенного обнаружения электронных данных.
-ms.openlocfilehash: 1e7279fed51e108886ff0b4a6d64788d6424720e
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.custom:
+- seo-marvel-apr2020
+description: Используйте случаи обнаружения электронных данных в центре безопасности & соответствия требованиям в Office 365 для управления юридическим исследованием Организации.
+ms.openlocfilehash: 0e39c2cfb865e6cf649bf1ff7702d97bd29352b9
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43799910"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815506"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Управление юридическим расследованиям в Microsoft 365
 

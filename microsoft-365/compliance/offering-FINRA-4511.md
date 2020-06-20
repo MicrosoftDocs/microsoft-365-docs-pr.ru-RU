@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bcffe85011bad55a458f2359051fe659f5720c8b
-ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.openlocfilehash: af2e5986530ae6b1eb558ed3389f0927d5f912e9
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44066342"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773760"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Правило для финансовых органов здравоохранения (ФИНРА) 4511 (c) США
 
@@ -47,11 +47,11 @@ ms.locfileid: "44066342"
 
 ## <a name="microsoft-office-365"></a>Microsoft Office 365
 
-Чтобы оценить соответствие требованиям Office 365 с помощью правила ФИНРА 4511 (c), корпорация Майкрософт сохраняла начальная независимая фирма, специализирующаяся на нормативных проблемах, Ковингтон & Бурлинг, ЛЛП. В полученном отчете, архивации в Microsoft Office 365, хранения данных и правиле 17A – 4 Ковингтон проверено, что [Office 365 с блокировкой сохранения](https://docs.microsoft.com/office365/securitycompliance/retention-policies#locking-a-retention-policy) включает функции архивации, которые позволяют поднадзорным клиентам, в том числе брокерам брокера, хранить данные так, чтобы они соответствовали требованиям финра для хранения записей.
+Чтобы оценить соответствие требованиям Office 365 с помощью правила ФИНРА 4511 (c), корпорация Майкрософт сохраняла начальная независимая фирма, специализирующаяся на нормативных проблемах, Ковингтон & Бурлинг, ЛЛП. В полученном отчете, архивации в Microsoft Office 365, хранения данных и правиле 17A – 4 Ковингтон проверено, что [Office 365 с блокировкой сохранения](retention-policies.md) включает функции архивации, которые позволяют поднадзорным клиентам, в том числе брокерам брокера, хранить данные так, чтобы они соответствовали требованиям финра для хранения записей.
 
 Архивация в Office 365 помогает сохранять широкий спектр данных, в том числе электронную почту, голосовую почту, Общие документы, мгновенные сообщения и сторонние данные. В частности, архивация в Office 365 позволяет клиентам настраивать глобальные и детализированные политики хранения сообщений для хранения данных за определенный период, а не в неизменяемом формате без удаления.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Поддерживаемые облачные службы Майкрософт
+## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -69,8 +69,8 @@ ms.locfileid: "44066342"
 ## <a name="how-to-implement"></a>Методика реализации
 
 - **Регламентированные финансовые услуги**: карта соответствия требованиям основных принципов и норм США для облачных вычислений и Microsoft Online Services. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **Руководство по оценке риска и соответствия требованиям**. Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **Финансовые варианты использования**. Обзоры вариантов использования, учебные руководства и другие ресурсы для создания решений Azure для сферы финансовых услуг. [Подробнее](https://docs.microsoft.com/azure/industry/financial/)
+- **Руководство по оценке риска и соответствия требованиям.** Создание модели управления для оценки рисков облачных служб Майкрософт и уведомления контролирующих органов. [Подробнее](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **Сценарии финансового использования**: использование обзоров сценариев, учебных руководств и прочих ресурсов для создания решений Azure для сферы финансовых услуг. [Подробнее](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>Ресурсы
 

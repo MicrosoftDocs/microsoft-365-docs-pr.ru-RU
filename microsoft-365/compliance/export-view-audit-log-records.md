@@ -16,13 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: После экспорта и загрузки результатов поиска журнала аудита в CSV-файл можно использовать функцию преобразования JSON в редакторе Power Query в Excel, чтобы разделить каждое свойство в объекте JSON в столбце Аудитдата на отдельный столбец. Это поможет быстро найти конкретные искомые данные аудита. Вы также можете использовать PowerShell для поиска и экспорта записей журнала аудита.
-ms.openlocfilehash: 763a20a7da09007e54c0714b82b86ffe3586e501
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.custom: seo-marvel-apr2020
+description: В этой статье вы узнаете, как экспортировать, настраивать и просматривать записи журнала аудита Microsoft 365.
+ms.openlocfilehash: 833d42ee37722092bddf14d0ef3418fac1ab03bb
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352389"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817748"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>Экспорт, настройка и просмотр записей журнала аудита
 
@@ -116,7 +117,7 @@ $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | 
 
 Можно также использовать имя или значение перечисления для типа записи в качестве значения параметра *RecordType* . Список имен типов записей и соответствующих им значений перечисления представлен в таблице *аудитлогрекордтипе* в [схеме API действий управления Office 365](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#enum-auditlogrecordtype---type-edmint32).
 
-В параметр *RecordType* можно включить только одно значение. Для поиска записей аудита для других типов записей необходимо повторно выполнить две приведенные выше команды, чтобы указать другой тип записи и добавить эти результаты в исходный CSV-файл. Например, чтобы добавить действия с файлами SharePoint из одного диапазона дат в файл Повершеллаудитлог. csv, выполните следующие две команды.
+В параметр *RecordType* можно включить только одно значение. Для поиска записей аудита для других типов записей необходимо повторно выполнить две приведенные выше команды, чтобы указать другой тип записи и добавить эти результаты в исходный CSV-файл. Например, чтобы добавить действия с файлами SharePoint из одного диапазона дат в файл PowerShellAuditlog.csv, выполните следующие две команды.
 
 ```powershell
 $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation

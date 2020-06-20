@@ -16,13 +16,15 @@ ms.assetid: 09f6737e-f03f-4bc8-8281-e46d24ee2a74
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: После завершения настройки шифрования сообщений Office 365 (OME) можно настроить конфигурацию развертывания несколькими способами. Например, вы можете включить одноразовые коды проходов, отобразить кнопку Защита в Outlook в Интернете и многое другое. Задачи, описанные в этой статье, описывают, как.
-ms.openlocfilehash: 25cb5cebda48432afdc670a6dab0a5229167df15
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.custom:
+- seo-marvel-apr2020
+description: После завершения настройки шифрования сообщений Office 365 (OME) Узнайте, как настроить развертывание несколькими способами.
+ms.openlocfilehash: 83fa620852ea9b2e0cd50d50b6715742658b7239
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165980"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815436"
 ---
 # <a name="manage-office-365-message-encryption"></a>Управление шифрованием сообщений Office 365
 
@@ -191,9 +193,9 @@ ms.locfileid: "44165980"
 
    - `mail flow rule name`— Это имя, которое вы хотите использовать для нового правила для почтового процесса.
 
-   - `option name`может иметь `Encrypt` значение `Do Not Forward`или.
+   - `option name`может иметь значение `Encrypt` или `Do Not Forward` .
 
-   - `template name`— Это имя, которое вы присвоили настраиваемому шаблону фирменной символики, например `OME Configuration`.
+   - `template name`— Это имя, которое вы присвоили настраиваемому шаблону фирменной символики, например `OME Configuration` .
 
    Чтобы зашифровать все внешние сообщения электронной почты с помощью шаблона "Конфигурация OME" и применить параметр "только шифрование":
 

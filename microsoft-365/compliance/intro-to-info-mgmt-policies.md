@@ -18,17 +18,19 @@ search.appverid:
 ms.assetid: 63a0b501-ba59-44b7-a35c-999f3be057b2
 ms.collection:
 - M365-security-compliance
-description: Политика управления сведениями представляет собой набор правил для определенного типа контента. С помощью политик управления сведениями организации могут контролировать и отслеживать ряд аспектов, например период хранения контента или действия над ним, которые доступны пользователям. Эти политики могут помочь организациям в соблюдении правовых норм и правительственных постановлений или же просто в реализации внутренних бизнес-процессов.
-ms.openlocfilehash: 7f977090b147eca427fcd2e4b536821890493950
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как использовать политики управления сведениями для контроля и отслеживания длительности хранения контента и действий, которые пользователи могут выполнять с этим содержимым.
+ms.openlocfilehash: dfb1aeb3dbd3a2b17f18bbd03d5f4d3e198e4c47
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072711"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815516"
 ---
 # <a name="introduction-to-information-management-policies"></a>Введение в политики управления сведениями
 
-Политика управления сведениями представляет собой набор правил для определенного типа контента. С помощью политик управления сведениями организации могут контролировать и отслеживать ряд аспектов, например период хранения контента или действия над ним, которые доступны пользователям. Эти политики могут помочь организациям в соблюдении правовых норм и правительственных постановлений или же просто в реализации внутренних бизнес-процессов. 
+An information management policy is a set of rules for a type of content. Information management policies enable organizations to control and track things like how long content is retained or what actions users can take with that content. Information management policies can help organizations comply with legal or governmental regulations, or they can simply enforce internal business processes. 
   
 Например, в организации, которая обязана выполнять правительственное постановление, требующее от нее адекватного контроля финансовой отчетности, можно создать одну или несколько политик управления сведениями, которые будут проверять конкретные действия процесса создания и утверждения всех документов, связанных с финансовыми операциями.
   
@@ -41,40 +43,40 @@ ms.locfileid: "42072711"
   
 ![Типы политик содержимого](../media/19fcb8a3-974b-40d3-a13f-b76088d122f8.png)
   
-Компонент политики "Аудит" служит для анализа использования систем управления контентом путем регистрации событий и операций, выполняемых с документами и элементами списков. Его можно настроить для регистрации событий, связанных с редактированием, просмотром, возвратом, извлечением, удалением документа или элемента и изменением разрешений для него. Все данные аудита хранятся в отдельном журнале на сервере, и администраторы сайта могут создавать отчеты по ним. 
+The Auditing policy feature helps organizations analyze how their content management systems are used by logging events and operations that are performed on documents and list items. You can configure the Auditing policy feature to log events such as when a document or item is edited, viewed, checked in, checked out, deleted, or has its permissions changed. All of the audit information is stored in a single audit log on the server, and site administrators can run reports on it. 
   
-Компонент "Срок действия" служит для последовательного и контролируемого удаления устаревшего содержимого с сайтов организаций. Он сокращает затраты и риски, сопряженные с хранением устаревшего содержимого. Политику "Срок действия" можно настроить таким образом, чтобы срок действия определенных типов контента истекал в конкретный день или в течение заданного периода времени после создания или изменения документа.
+The Expiration policy feature helps organizations delete or remove out-of-date content from their sites in a consistent, trackable way. This helps you manage both the cost and risk associated with retaining out-of-date content. You can configure an Expiration policy to specify that certain types of content expire on a particular date or within a period of time after the document was created or last modified.
   
-В организациях также могут создаваться и развертываться настраиваемые компоненты политики, учитывающие их потребности. Например, производственному предприятию может потребоваться определить политику управления сведениями для всех спецификаций к эскизным проектам изделий, запрещающую пользователям распечатывать копии таких документов на незащищенных принтерах. Чтобы определить этот тип политики управления сведениями, вы можете создать и развернуть компонент политики "Ограничение печати", который можно добавить к политике управления сведениями для типа контента спецификаций к дизайну изделий.
+Organizations can also create and deploy custom policy features to meet specific needs. For example, a manufacturing organization might want to define an information management policy for all draft product-design specification documents that prohibits users from printing copies of these documents on nonsecure printers. To define this kind of information management policy, you can create and deploy a Printing Restriction policy feature that can be added to the relevant information management policy for the product design specification content type.
   
 ## <a name="locations-to-use-an-information-management-policy"></a>Объекты, к которым применяется политика управления сведениями
 <a name="__toc340213528"> </a>
 
-Чтобы внедрить политику управления сведениями, ее необходимо добавить к списку, библиотеке или типу контента сайта. При этом степень распространения и использования политики зависит от местоположения, в котором она создается или к которому добавляется. Ниже описаны доступные варианты.
+To implement an information management policy, you must add it to a list, library, or content type in a site. The location where you create or add an information management policy affects how broadly the policy applies or how broadly it can be used. You can:
   
- **Создание политики семейства веб-сайтов и ее добавление к типу контента, списку или библиотеке.** Вы можете создать политику семейства веб-сайтов в списке "Политики" для сайта верхнего уровня в семействе. Созданную политику можно экспортировать, чтобы администраторы других семейств веб-сайтов могли импортировать ее в свои списки. Создание политики семейства веб-сайтов с возможностью экспорта позволяет стандартизировать политики управления сведениями на всех сайтах организации. 
+ **Create a site collection policy and then add this policy to a content type, list, or library** You can create a site collection policy in the Policies list in the top-level site of a site collection. After you create a site collection policy, you can export it so that administrators of other site collections can import it into their Policies list. Creating an exportable site collection policy enables you to standardize the information management policies across the sites in your organization. 
   
-Когда политика семейства сайтов добавляется к типу контента сайта и экземпляр этого типа контента сайта добавляется к списку или библиотеке, владелец списка или библиотеки не может вносить изменения в политику семейства сайтов, установленную для списка или библиотеки. Добавление политики семейства сайтов к типу контента сайта  это надежный способ гарантировать внедрение политик семейства сайтов на всех уровнях иерархии сайтов.
+When you add a site collection policy to a site content type, and an instance of that site content type is added to a list or library, the owner of that list or library cannot modify the site collection policy for the list or library. Adding a site collection policy to a site content type is a good way to ensure that site collection policies are enforced at each level of your site hierarchy.
   
 ![Ссылка на шаблон политики типа содержимого на странице "Параметры сайта"](../media/26d3466a-23ec-443f-88f0-2aaff38e992b.png)
   
- **Создание политики управления сведениями для типа контента сайта в коллекции типов контента сайта верхнего уровня и добавление этого типа контента к спискам или библиотекам.** Политику управления сведениями можно также создать непосредственно для типа контента сайта, а затем связать его экземпляр с несколькими списками или библиотеками. Если политика создана данным способом, ее могут использовать все элементы семейства веб-сайтов этого типа контента или типа контента, который наследует от него атрибуты. Если политика управления сведениями создается непосредственно для типа контента сайта, ее повторное использование в других семействах веб-сайтов значительно усложняется, так как политики, созданные этим способом, не подлежат экспорту. 
+ **Create an information management policy for a site content type in the top-level site's Site Content Type Gallery, and then add that content type to one or more lists or libraries** You can also create an information management policy directly for a site content type and then associate an instance of that site content type with multiple lists or libraries. If you create an information management policy this way, every item in the site collection of that content type or a content type that inherits from that content type has the policy. However, if you create an information management policy directly for a site content type, it is more difficult to reuse this information management policy in other site collections, because policies that are created this way cannot be exported. 
   
 ![Ссылка "Типы контента сайта" на странице "Параметры сайта"](../media/6f6fa51f-15d7-4782-b06f-a7b36e874cd3.png)
   
 ![Ссылка "Политика управления сведениями" на странице "Параметры" для типа контента сайта](../media/15d83a34-6c8f-4b6e-b6ee-e9b0a70cbb4b.png)
   
-Для контроля за тем, какие политики используются в семействе сайтов, администраторы могут запретить устанавливать компоненты политики непосредственно для типа контента. Если введено данное ограничение, при создании типов контента пользователям для выбора будут доступны только политики в списке «Политики семейства сайтов».
+Note To control which policies are used in a site collection, site collection administrators can disable the ability to set policy features directly on a content type. When this restriction is in effect, users who create content types are limited to selecting policies from the site collection Policies list.
   
- **Создание политики управления сведениями для списка или библиотеки.** Если определенную политику управления сведениями требуется применить к очень ограниченному набору контента, вы можете создать политику для отдельного списка или библиотеки. Данный способ создания наименее гибкий, так как политика применяется только к одному местоположению и не может экспортироваться и использоваться в других местоположениях. Тем не менее иногда могут требоваться уникальные политики управления сведениями для ограниченного применения только в конкретных ситуациях. 
+ **Create an information management policy for a list or library** If your organization needs to apply a specific information management policy to a very limited set of content, you can create an information management policy that applies only to an individual list or library. This method of creating an information management policy is the least flexible, because the policy applies only to one location, and it cannot be exported or reused for other locations. However, sometimes you may need to create unique information management policies with limited applicability to address specific situations. 
   
 ![Ссылка "Политика управления сведениями" на странице "Параметры" для библиотеки документов](../media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
   
 Примечания 
   
-Политику управления сведениями для списка или библиотеки можно создать только в том случае, если они не поддерживают несколько типов контента. В противном случае потребуется определить политику управления сведениями для каждого типа контента списка, связанного с данным списком или библиотекой. Экземпляры типа контента сайта, связанные с конкретным списком или библиотекой, называются типами контента списка.
+You can create an information management policy for a list or library only if that list or library does not support multiple content types. If a list or library supports multiple content types, you need to define an information management policy for each individual list content type that is associated with that list or library. (Instances of a site content type that are associated with a specific list or library are known as list content types.)
   
-Для контроля за тем, какие политики используются в семействе сайтов, администраторы могут запретить устанавливать компоненты политики непосредственно для списка или библиотеки. Если введено данное ограничение, пользователи, управляющие списками и библиотеками, могут выбирать политики только из списка «Политики семейства сайтов».
+To control which policies are used in a site collection, site collection administrators can disable the ability to set policy features directly on a list or library. When this restriction is in effect, users who manage lists or libraries are limited to selecting policies from the site collection Policies list.
   
 [Политика управления сведениями представляет собой набор правил для определенного типа контента. С помощью политик управления сведениями организации могут контролировать и отслеживать ряд аспектов, например период хранения контента или действия над ним, которые доступны пользователям. Эти политики могут помочь организациям в соблюдении правовых норм и правительственных постановлений или же просто в реализации внутренних бизнес-процессов. Например, в организации, которая обязана выполнять правительственное постановление, требующее от нее адекватного контроля финансовой отчетности, можно создать одну или несколько политик управления сведениями, которые будут проверять конкретные действия процесса создания и утверждения всех документов, связанных с финансовыми операциями.Инструкции см. в статье Создание и применение политик управления сведениями.](intro-to-info-mgmt-policies.md#__top)
   

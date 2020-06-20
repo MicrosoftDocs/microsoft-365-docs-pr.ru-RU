@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: С помощью ключа клиента вы можете управлять ключами шифрования вашей организации, а затем настроить Microsoft 365 на их использование для шифрования данных на остальных центрах обработки данных Майкрософт.
-ms.openlocfilehash: 701dc306a81e12db7dd1062d2a840621b710abd3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+description: В этой статье вы узнаете, как шифрование службы работает с ключом клиента в Microsoft 365.
+ms.openlocfilehash: 217e23eff89427e5bd30a1da4dd36729110ed563
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635595"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817958"
 ---
 # <a name="service-encryption-with-customer-key"></a>Шифрование службы с помощью ключа клиента
 

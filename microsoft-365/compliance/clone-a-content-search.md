@@ -18,12 +18,12 @@ ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 ms.custom:
 - seo-marvel-apr2020
 description: С помощью сценария Windows PowerShell в этой статье можно быстро клонировать существующий поиск контента в центре соответствия требованиям в Office 365 или Microsoft 365.
-ms.openlocfilehash: 013a3cd04b665e1da800638a2335adb034878a4a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 28f1264736f158fd686174813b9cefdd087c274c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035651"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818088"
 ---
 # <a name="clone-a-content-search"></a>Клонирование поиска контента
 
@@ -37,7 +37,7 @@ ms.locfileid: "44035651"
     
 - Для уменьшения размера результатов поиска. Например, если у вас есть поиск, возвращающий слишком много результатов для экспорта, можно клонировать Поиск, а затем добавить условие поиска на основе диапазона дат, чтобы уменьшить количество результатов поиска.
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="script-information"></a>Сведения о скрипте
 
 - Для запуска сценария, описанного в этом разделе, необходимо быть членом группы ролей "Диспетчер обнаружения электронных данных" в центре безопасности & соответствия требованиям.
     
@@ -61,7 +61,7 @@ ms.locfileid: "44035651"
     
 Для клонирования поиска:
   
-1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс имени файла PS1; Пример: `CloneSearch.ps1`.
+1. Сохраните приведенный ниже текст в файле скрипта Windows PowerShell, используя суффикс имени файла PS1; Пример: `CloneSearch.ps1` .
     
   ```powershell
   # This PowerShell script clones an existing content search in the Security &amp; Compliance Center.
