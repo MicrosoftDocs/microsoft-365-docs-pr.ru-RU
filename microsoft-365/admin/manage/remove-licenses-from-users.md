@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: Узнайте, как удалять лицензии из учетных записей пользователей.
-ms.openlocfilehash: 18fd23ab2eeb471f29be28cd03daae808c9eccf1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 2918d8263318e9b6ce14076fb121e898249b5c48
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432235"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780077"
 ---
 # <a name="unassign-licenses-from-users"></a>Отмена назначения лицензий пользователям
 
@@ -145,7 +145,7 @@ ms.locfileid: "44432235"
 
 - Вы можете [удалить лицензии из учетных записей пользователей с помощью Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848428).
 
-- Чтобы освободить назначенную лицензию для другого пользователя, вы также можете [удалить учетную запись пользователя](../add-users/delete-a-user.md), которому назначена эта лицензия. Лицензию пользователя после удаления его учетной записи сразу можно назначить другому пользователю.
+- You can also [delete user accounts](../add-users/delete-a-user.md) that have been assigned a license to make their license available to other users. When you delete a user account, their license is immediately available to be assigned to someone else.
 
 - При удалении лицензии у пользователя данные, связанные с этой учетной записью, хранятся в течение 30 дней. По истечении 30-дневного льготного периода данные удаляются и не могут быть восстановлены.
 
@@ -157,7 +157,7 @@ ms.locfileid: "44432235"
 
 - Сведения о том, как заблокировать доступ пользователя к данным Microsoft 365 после удаления лицензии и получения доступа к данным, приведенные в статье [Удаление бывшего сотрудника](../add-users/remove-former-employee.md).
 
-- Если удалить лицензию пользователя, но у нее по-прежнему установлен Office, они увидят [уведомления о нелицензированных продуктах](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx) при использовании Office.
+- Если удалить лицензию пользователя, но у нее по-прежнему установлен Office, они увидят [уведомления о нелицензированных продуктах](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380) при использовании Office.
 
 ## <a name="related-articles"></a>Связанные статьи
 

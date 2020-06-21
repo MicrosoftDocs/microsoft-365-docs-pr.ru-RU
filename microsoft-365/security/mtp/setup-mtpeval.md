@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 117681bd4722615e870594e46d6896e9128d0d0c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 6cba773d0c4bea259db151d5a8f1d8e03954a045
+ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209227"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44717299"
 ---
 # <a name="set-up-your-microsoft-threat-protection-trial-lab-environment"></a>Настройка пробной лабораторной среды Майкрософт для защиты от угроз 
 
@@ -110,7 +110,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 <br>![Image of_Office 365, где можно указать, следует ли переносить сообщения электронной почты или нет](../../media/mtp-eval-20.png) <br>
  
 13. Выберите веб-службы. Выберите **Exchange** и нажмите кнопку **Далее**. 
-<br>![Image of_Office 365, где вы можете выбрать Интернет-службы, такие как Ексчанжем Skype для бизнеса или Мибиле управления устройствами для Office 365](../../media/mtp-eval-21.png) <br>
+<br>![Image of_Office 365, где можно выбрать Интернет-службы](../../media/mtp-eval-21.png) <br>
 
 14. Добавьте записи MX, CNAME и TXT в свой домен. По завершении нажмите кнопку **проверить**.
 <br>![Изображение of_Office 365 в ~ можно добавить записи DNS](../../media/mtp-eval-22.png) <br>
@@ -137,7 +137,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 5. Нажмите кнопку **проверить** , чтобы подтвердить пробную версию Microsoft 365.
 <br>![Image of_Microsoft 365, перейдите на страницу Загрузка бесплатной пробной версии, где следует запустить кнопку Try Now](../../media/mtp-eval-27.png) <br>
  
-6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Щелкните **Сохранить**.
+6. Перейдите в раздел **центр администрирования Microsoft 365**  >  **Users**  >  **Активные пользователи**. Выберите свою учетную запись пользователя, выберите **Управление лицензиями на продукты**, затем замените лицензию из Office 365 в ~ на **Microsoft 365**. Нажмите кнопку **Сохранить**.
 ![Image of_Microsoft 365. страница центра администрирования, на которой можно выбрать лицензию Майкрософт 365](../../media/mtp-eval-28.png) <br>
  
 7. Снова выберите учетную запись глобального администратора и нажмите кнопку **Управление именем пользователя**.
@@ -148,5 +148,7 @@ Configure each Microsoft Threat Protection pillar for your Microsoft Threat Prot
 
 
 
-## <a name="next-step"></a>Следующий этап
-||| |:-------|:-----| конфиг-онбоард. png) <br>[Этап 3: настройка & Onboard](config-mtpeval.md) | Настройте каждый из принципов защиты от угроз Майкрософт для испытательной лаборатории Microsoft Threat Protection и встроенных конечных точек.
+## <a name="next-step"></a>Следующий шаг
+|||
+|:-------|:-----|
+|![Этап 3: Настройка встроенного &](../../media/config-onboard.png) <br>[Этап 3: Настройка встроенного &](config-mtpeval.md) | Настройте каждый из принципов защиты от угроз Майкрософт для лаборатории оценки Microsoft Threat Protection и входящей конечной точки.

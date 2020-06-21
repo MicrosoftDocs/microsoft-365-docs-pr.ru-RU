@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Узнайте, как настроить учетную запись электронной почты в Outlook для Windows и Mac, а также об установке приложений Office и доступе к электронным письмам в Интернете.
-ms.openlocfilehash: 04d14c314fbcda4f8d0edff57a141a89688bec28
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e17e532afca0a552b7e0e2565cd34e9dda256421
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399282"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779993"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Настройка Outlook для чтения электронной почты
 
@@ -33,13 +33,13 @@ ms.locfileid: "44399282"
   
 ## <a name="set-up-an-email-account-in-outlook"></a>Настройка учетной записи электронной почты в Outlook
 
-При первом запуске Outlook открывается мастер автоматической настройки учетной записи. Если этого не произошло, выберите **Файл** и **Добавить учетную запись**.
+The first time you open Outlook, an Auto Account Wizard opens. If not, choose **File** then **Add Account**.
   
 1. На странице **Учетные записи электронной почты** выберите **Далее** \> **Добавить учетную запись**.
     
 2. На странице **Автоматическая настройка учетной записи** введите свое имя, адрес электронной почты и пароль и нажмите кнопки **Далее** \> **Готово**.
     
-[Прочитать статью.](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
+[Прочитать статью.](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)
   
 ## <a name="how-do-i-install-the-office-apps-including-outlook"></a>Как установить приложения Office, включая Outlook?
 
@@ -59,7 +59,7 @@ ms.locfileid: "44399282"
     
 3. На странице **введите данные учетной записи Exchange** введите свое имя, адрес электронной почты и пароль, а затем нажмите кнопку **Добавить учетную запись**.
     
-[Прочитать статью.](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx#PickTab=Outlook_for_Mac) 
+[Прочитать статью.](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac) 
   
 ## <a name="how-do-i-access-my-mail-online"></a>Как получить доступ к почте через Интернет?
 

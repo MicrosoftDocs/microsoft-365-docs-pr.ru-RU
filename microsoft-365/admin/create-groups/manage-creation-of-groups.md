@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: f3de4ac0856f1281151e6d1c686d90559a5e8544
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b64e7ac96c5a0e38583d00f8a61bd47c5304cf45
+ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387997"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761678"
 ---
 # <a name="manage-who-can-create-groups"></a>Управление пользователями, которые могут создавать группы
 
@@ -45,14 +45,12 @@ ms.locfileid: "44387997"
 - Microsoft Teams
 
 - Microsoft Stream
-    
-- StaffHub
-    
+
 - Планировщик
     
 - PowerBI
 
-- План
+- Проект для веб-сайта и плана
     
 Вы можете ограничить создание групп Microsoft 365 членами определенной группы безопасности. Чтобы настроить это, используйте Windows PowerShell. В этой статье рассказывается о необходимых действиях.
   
@@ -125,7 +123,7 @@ ms.locfileid: "44387997"
 
 `$GroupName = "Group Creators"`
 
-Сохраните файл как Граупкреаторс. ps1. 
+Сохраните файл как GroupCreators.ps1. 
 
 В окне PowerShell перейдите к папке, в которую был сохранен файл (введите "CD <FileLocation> ").
 
@@ -173,7 +171,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 Если вы хотите отключить ограничение на создание групп и снова разрешить всем пользователям создавать группы, задайте для параметра $GroupName значение "" и $AllowGroupCreation значение true, а затем повторно запустите сценарий.
     
-## <a name="step-4-verify-that-it-works"></a>Шаг 4: Убедитесь, что он работает
+## <a name="step-3-verify-that-it-works"></a>Шаг 3. Проверка
 
 Для вступления изменений в силу может потребоваться 30 минут или более. Вы можете проверить новые параметры, выполнив следующие действия:
 
@@ -190,7 +188,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 > [!NOTE]
 > Если участники группы безопасности не могут создавать группы, убедитесь, что они не блокируются с помощью [политики почтовых ящиков OWA](https://go.microsoft.com/fwlink/?linkid=852135).
     
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Начало работы с Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=808033)
 

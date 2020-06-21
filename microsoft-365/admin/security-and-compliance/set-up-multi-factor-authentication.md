@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Узнайте, как настроить многофакторную проверку подлинности для Организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 9218e81aaf016c379c6ba8c7ae846a2a2132cf35
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: a8e84746a577b95307d325047f0822e8eb3786f0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515811"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779945"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -75,15 +75,15 @@ ms.locfileid: "44515811"
 
 Работайте с пилотными пользователями, чтобы решить вопросы и проблемы, которые могут быть готовы к развертыванию в Организации.
 
-## <a name="step-3-inform-your-organization-that-mfa-is-coming"></a>Шаг 3. Сообщите вашей организации о том, что MFA поступает
+## <a name="step-3-inform-your-organization-that-mfa-is-coming"></a>Этап 3. Сообщите вашей организации о том, что MFA поступает
 
 Используйте уведомления по электронной почте, афиши халлвай, собрания группы или формальное обучение, чтобы убедиться, что ваши сотрудники понимают:
 
 - Почему MFA необходимо для входа в систему.
-- [Регистрация для дополнительного метода проверки](https://support.office.com/article/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14?ui=en-US&rs=en-001&ad=US)
-- [Вход после регистрации](https://support.office.com/article/sign-in-to-microsoft-365-with-multi-factor-authentication-2b856342-170a-438e-9a4f-3c092394d3cb)
-- [Изменение дополнительного метода проверки](https://support.office.com/article/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
-- [Как работать с такими ситуациями, как новый смарт-телефон](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2)
+- [Регистрация для дополнительного метода проверки](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [Вход после регистрации](https://support.microsoft.com/office/2b856342-170a-438e-9a4f-3c092394d3cb)
+- [Изменение дополнительного метода проверки](https://support.microsoft.com/office/956ec8d0-7081-4518-a701-f8414cc20831)
+- [Как работать с такими ситуациями, как новый смарт-телефон](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2)
 
 Самое важное, убедитесь, что сотрудники понимают, ***когда требование MFA будет направляться*** , чтобы оно не было неожиданным.
 
@@ -120,6 +120,6 @@ ms.locfileid: "44515811"
 
 Когда ваши сотрудники регистрируются и начинают вход с помощью MFA, убедитесь, что ИТ ИТ, ИТ отдела или служба технической поддержки могут быстро ответить на вопросы и устранить проблемы.
 
-В этой статье приведены [сведения об устранении неполадок входа в MFA](https://support.office.com/article/fix-common-problems-with-multi-factor-authentication-6951be76-af50-49a4-847f-21391eaa59f2). 
+В этой статье приведены [сведения об устранении неполадок входа в MFA](https://support.microsoft.com/office/6951be76-af50-49a4-847f-21391eaa59f2). 
 
 

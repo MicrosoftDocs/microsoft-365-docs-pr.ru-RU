@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут научиться настраивать URL-адреса и записи файлов в списке разрешенных и запрещенных клиентов в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 0143ee2601a4cb9593c79f8c6c62d1f06914088f
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 742a44c7ed63c8a3037e2ada295c94f89afa9c93
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613424"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726810"
 ---
 # <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>Управление URL-адресами и файлами в списке разрешенных и запрещенных клиентов
 
@@ -36,7 +36,7 @@ ms.locfileid: "44613424"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Откройте Центр безопасности и соответствия требованиям по ссылке <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **списка разрешенных и заблокированных клиентов** , используйте <https://protection.office.com/tenantAllowBlockList> .
+- Откройте Центр безопасности и соответствия требованиям на сайте <https://protection.office.com/>. Чтобы перейти непосредственно на страницу **списка разрешенных и заблокированных клиентов** , используйте <https://protection.office.com/tenantAllowBlockList> .
 
 - Вы указываете файлы, используя значение хэша SHA256 файла. Чтобы найти хэш-значение SHA256 файла в Windows, выполните следующую команду в командной строки:
 
@@ -58,7 +58,17 @@ ms.locfileid: "44613424"
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы добавить или удалить значения из списка разрешенных и заблокированных клиентов, необходимо быть участником группы ролей " **Управление организацией** " или " **администратор безопасности** ". Для доступа только для чтения к списку разрешенных и запрещенных клиентов необходимо быть участником группы ролей " **читатель безопасности** ". Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Прежде чем выполнять процедуры, описанные в этом разделе, необходимо назначить разрешения.
+
+  - Чтобы добавить или удалить значения из списка разрешенных и заблокированных клиентов, необходимо быть участником одной из следующих групп ролей:
+
+    - **Управление организацией** или **администратор безопасности** в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией** или **Управление санацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+  - Для доступа только для чтения к списку разрешенных и запрещенных клиентов необходимо быть участником одной из следующих групп ролей:
+
+    - **Средство чтения безопасности** в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией только с просмотром** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Использование центра безопасности & соответствия требованиям для создания записей URL-адресов в списке разрешенных и запрещенных клиентов
 
@@ -166,7 +176,7 @@ ms.locfileid: "44613424"
 
    - **Необязательное примечание**: введите описательный текст для записи.
 
-5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
+5. По завершении нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-remove-url-and-file-entries-from-the-tenant-allowblock-list"></a>Использование центра безопасности & соответствия требованиям для удаления записей URL и файлов из списка разрешенных и запрещенных клиентов
 
@@ -262,7 +272,7 @@ Remove-TenantAllowBlockListItems -ListType Url -Ids "RgAAAAAI8gSyI_NmQqzeh-HXJBy
 
 - IP4v и IPv6-адреса разрешены, но порты TCP/UDP — нет.
 
-- Расширения имен файлов не допускаются (например, Test. PDF).
+- Расширения имен файлов не допускаются (например, test.pdf).
 
 - Юникод не поддерживается, но Punycode — Punycode.
 

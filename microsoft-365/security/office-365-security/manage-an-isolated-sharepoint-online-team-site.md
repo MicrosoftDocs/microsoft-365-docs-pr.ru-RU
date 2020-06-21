@@ -16,12 +16,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: Управлять изолированным сайтом группы SharePoint Online, добавлять новых пользователей и группы, удалять пользователей и группы, а также создавать вложенную папку документов с пользовательскими разрешениями.
-ms.openlocfilehash: 05e3cf742482d34c158e14253eed9d1b99c82995
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 43329aa72b3729200007441ce73838a7d6a60f55
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036636"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755382"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>Управление изолированным сайтом группы SharePoint Online
 
@@ -146,11 +146,11 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
 
 ## <a name="create-a-documents-subfolder-with-custom-permissions"></a>Создание вложенной папки документов с настраиваемыми разрешениями
 
-Группе людей, работающих на изолированном сайте, может потребоваться закрытое место для совместной работы. В SharePoint Online вы можете создать вложенную папку в папке сайта "Документы" и назначить ей особые разрешения. Пользователи без разрешений не увидят эту папку.
+In some cases, a subset of the people working within the isolated site need a more private place to collaborate. For SharePoint Online sites, you can create a subfolder in the Documents folder of the site and assign custom permissions. Those without permissions will not see the subfolder.
   
 Чтобы создать вложенную папку документов с настраиваемыми разрешениями, сделайте следующее:
   
-1. Войдите в учетную запись, которая является членом группы доступа "Администраторы" для сайта. Справку см. в статье [Вход в Microsoft 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в учетную запись, которая является членом группы доступа "Администраторы" для сайта. Справку см. в статье [Вход в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Перейдите к изолированному сайту группы и нажмите **Документы**.
     
@@ -168,9 +168,9 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
     
 9. Нажмите **Предоставить разрешения > Доступ > Дополнительно**.
     
-10. На странице разрешений выберите **\<имя сайта> Участники в списке**.
+10. On the permissions page, click **\<site name> Members in the list**.
     
-11. На странице **\<имя сайта> Участники** установите флажок рядом с группой доступа "Участники сайта", выберите **Действия** > **Удалить пользователей из группы** и нажмите кнопку **ОК**.
+11. На странице ** \<site name> Участники** установите флажок рядом с группой доступ участников сайта, щелкните **действия**, выберите **удалить пользователей из группы**и нажмите кнопку **ОК**.
     
 12. Чтобы добавить участников в эту вложенную папку, нажмите **Создать > Добавить пользователей**.
     
@@ -178,9 +178,9 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
     
 14. Обновите веб-страницу, чтобы увидеть новые результаты.
     
-15. В области навигации слева выберите группу **\<имя сайта> Посетители** в разделе **Группы** и выполните действия 11–14, чтобы указать учетные записи пользователей, которые могут просматривать файлы во вложенной папке.
+15. Under **Groups** in the left navigation, click the **\<site name> Visitors** group and use steps 11-14 to specify the set of user accounts that can view the files in the subfolder (as needed).
     
-16. В области навигации слева выберите группу **\<имя сайта> -Владельцы** в разделе **Группы** и выполните действия 11–14, чтобы указать учетные записи пользователей, которые могут управлять разрешениями во вложенной папке.
+16. Under **Groups** in the left navigation, click the **\<site name> Owners** group and use steps 11-14 to specify the set of user accounts that can administer the permissions in the subfolder (as needed).
     
 17. Закройте вкладку **Пользователи и группы** в браузере.
     

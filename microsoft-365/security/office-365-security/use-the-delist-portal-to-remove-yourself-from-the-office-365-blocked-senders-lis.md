@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается, как использовать портал удаления списков для удаления себя из списка заблокированных отправителей Microsoft 365.
-ms.openlocfilehash: 239d30fec4d904af353731974435d377801be6c7
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 2d9dbba12740e62305e1bcfd193175659be34026
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208541"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739244"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
 
@@ -43,7 +43,7 @@ ms.locfileid: "44208541"
 
 1. В веб-браузере перейдите по адресу [https://sender.office.com](https://sender.office.com)
 
-2. и следуйте инструкциям на странице. Убедитесь, что указали тот адрес электронной почты, на который пришло сообщение об ошибке, и введите указанный в нем IP-адрес. За одно посещение можно указать только один адрес электронной почты и IP-адрес.
+2. Follow the instructions on the page. Ensure that you use the email address to which the error message was sent, and the IP address that is specified in the error message. You can only enter one email address and one IP address per visit.
 
 3. Нажмите кнопку **Отправить**.
 
@@ -60,4 +60,4 @@ ms.locfileid: "44208541"
     > [!NOTE]
     > Может потребоваться до 24 часов, а результаты могут сильно различаться до удаления ограничений.
 
-В разделе [Создание списков надежных отправителей в EOP](create-safe-sender-lists-in-office-365.md) и [исходящих сообщениях защиты от нежелательной почты в EOP](outbound-spam-controls.md) , чтобы запретить отправку IP-адресов.
+В разделе [Создание списков надежных отправителей в EOP](create-safe-sender-lists-in-office-365.md) и [исходящих сообщениях защиты от нежелательной почты в EOP](outbound-spam-controls.md) , чтобы запретить блокировку IP-адреса.

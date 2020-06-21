@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Дополнительные сведения о доменах можно найти в статье ответы на свои вопросы в разделе "вопросы и ответы".
-ms.openlocfilehash: c82d5d01d64ad01f68d0c1ba73860511aa1718aa
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: a52513130f9bbbf7c4cd25d4c4827e833700d992
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398910"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739158"
 ---
 # <a name="domains-faq"></a>Вопросы и ответы о доменах
 
@@ -102,7 +102,7 @@ ms.locfileid: "44398910"
 ## <a name="what-is-a-domain-name"></a>Что такое доменное имя?
 
 
-Домен  это уникальное имя, которое указано после символа **@** в адресах электронной почты и после **www.** в веб-адресах. Как правило, за основу берется название вашей организации, к которому добавляется стандартный суффикс, например  *vasha_kompaniya.com*  или  *universitet.edu*  . 
+A domain is a unique name that appears after the **@** sign in email addresses, and after **www.** in web addresses. It typically takes the form of your organization's name and a standard Internet suffix, such as  *yourbusiness.com*  or  *stateuniversity.edu.* 
   
 Использование пользовательского домена, например "**роб \@ contoso.com**", с помощью Office 365 поможет вам создавать сведения о доходе и распознавание для вашей торговой марки. 
   
@@ -154,7 +154,7 @@ ms.locfileid: "44398910"
    
 1. Войдите на сайт регистратора доменных имен для вашего домена.
     
-2. Найдите на веб-сайте регистратора раздел, в котором обновляются записи серверов доменных имен, и обновите их так, чтобы они указывали на узел DNS вашего домена. (Узел DNS часто является регистратором доменных имен.)
+2. Find the area on the registrar's website where you update nameserver records, and update the nameservers to point to your domain's DNS host. (The DNS host is often the domain registrar.)
     
 3. Щелкните ссылку, чтобы перейти к мастеру настройки доменов:
 
@@ -211,13 +211,13 @@ ms.locfileid: "44398910"
     
 4. Если вы еще не проверили домен, выполните сначала проверку.
     
-5. На странице **Обновить параметры DNS** перечислены серверы доменных имен для Office 365. Перейдите к регистратору доменных имен для вашего домена и замените серверы доменных имен на серверы Office 365. 
+5. On the **Update DNS settings** page, we list the nameservers for Office 365. Go to the domain registrar for your domain, and update the nameservers to the Office 365 nameservers. 
     
 4. После изменения серверов доменных имен **подождите как минимум час**. Затем вернитесь к мастеру в Office 365 и нажмите кнопку **проверить**.
     
 ## <a name="what-happens-if-my-dns-provider-doesnt-support-certain-record-types"></a>Что произойдет, если поставщик DNS не поддерживает некоторые типы записей?
 
-Если вы управляете своими записями DNS сами, но ваш узел DNS поддерживает не все записи, необходимые для Office 365, некоторые функции Office 365 не будут работать. Мы рекомендуем передать домен регистратору, который поддерживает все необходимые записи DNS.
+If you manage your own DNS records and your DNS host does not support all the DNS records that Office 365 needs, some Office 365 features won't work. We recommend that you transfer your domain to a registrar that supports all required DNS records.
   
 Поставщики, поддерживающие все необходимые записи DNS:
   
@@ -263,7 +263,7 @@ ms.locfileid: "44398910"
 
 - Федерация Microsoft Teams со Skype для бизнеса в локальной среде или в сети. Для получения дополнительных сведений ознакомьтесь [с разделом Подготовка сети Организации к работе с Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
     
- **Если записи SPF/TXT не поддерживаются**, другие пользователи смогут рассылать спам или вредоносную электронную почту с вашего домена. Записи SPF применяются для определения серверов, которым разрешено отправлять сообщения электронной почты с вашего домена. 
+ **If SPF/TXT records are not supported**, other people may be able to use your domain to send spam or other malicious email. SPF records work by identifying the servers that are authorized to send email from your domain. 
   
 ## <a name="how-do-i-set-or-change-the-default-domain-in-office-365"></a>Как задать или изменить домен по умолчанию в Office 365?
 
@@ -335,7 +335,7 @@ ms.locfileid: "44398910"
   
 При добавлении дочернего домена он автоматически проверяется в соответствии с проверяемым родительским доменом.
   
-При добавлении в Office 365 нескольких доменов в любом из них можно разместить любую службу (например, почтовую).  *После перехода на использование службы электронной почты в Office 365 путем обновления записи MX домена ВСЕ письма, отправляемые в этот домен, будут поступать в Office 365.* 
+When you add multiple domains to Office 365, you can host any of the services (like email) on any of the domains you've added.  *When you change your email to Office 365, by updating a domain's MX record, ALL email sent to that domain will start coming to Office 365.* 
  
 ::: moniker range="o365-worldwide"
 
@@ -348,13 +348,13 @@ Office 365 создает домен для вас, например *contoso.on
   
  **Если вы хотите, чтобы ваша электронная почта выглядела как *Сергей \@ contoso.com*:** [купите домен](../get-help-with-domains/buy-a-domain-name.md) или просто выполните действия, описанные в статье [Добавление пользователей и доменов в Office 365](add-domain.md) , если у вас уже есть. 
   
-- **Домен onmicrosoft невозможно переименовать после регистрации.** Например, если первоначально вы выбрали домен fourthcoffee.onmicrosoft.com, его не удастся переименовать в fabrikam.onmicrosoft.com. Чтобы использовать другое доменное имя в зоне onmicrosoft.com, необходимо приобрести новую подписку на Office 365. 
+- **You can't rename the onmicrosoft domain after sign-up.** For example, if the initial domain you chose was fourthcoffee.onmicrosoft.com, you can't change it to be fabrikam.onmicrosoft.com. To use a different onmicrosoft.com domain, you'd have to start a new subscription with Office 365. 
     
 - **Вы не можете переименовать URL-адрес сайта группы.** URL-адрес сайта группы основан на вашем доменном имени onmicrosoft.com. К сожалению, из-за способа работы архитектуры SharePoint Online нельзя переименовать сайт группы. 
     
-- **Домен onmicrosoft невозможно удалить.** Он требуется для работы вашей подписки в службе Office 365. Несмотря на это, вы можете им не пользоваться, если добавите личный домен. 
+- **You can't remove your onmicrosoft domain.** Office 365 needs to keep it around because it's used behind the scenes for your subscription. But you don't have to use the domain yourself after you've added a custom domain. 
     
-При желании можно продолжить использование исходного домена onmicrosoft.com даже после добавления личного домена. Он будет поддерживаться в электронной почте и других службах.
+You can keep using the initial onmicrosoft.com domain even after you add your domain. It still works for email and other services, so it's your choice.
   
 ::: moniker-end
 
@@ -369,7 +369,7 @@ Office 365 создает домен для вас, например *contoso.on
     
 - **Вы не можете переименовать URL-адрес сайта группы.** URL-адрес сайта группы основан на вашем доменном имени onmicrosoft.de. К сожалению, из-за способа работы архитектуры SharePoint Online нельзя переименовать сайт группы. 
     
-- **Домен onmicrosoft невозможно удалить.** Он требуется для работы вашей подписки в службе Office 365. Несмотря на это, вы можете им не пользоваться, если добавите личный домен. 
+- **You can't remove your onmicrosoft domain.** Office 365 needs to keep it around because it's used behind the scenes for your subscription. But you don't have to use the domain yourself after you've added a custom domain. 
     
 Вы можете продолжить работу с исходным доменом onmicrosoft.de, даже после добавления домена. Он будет поддерживаться в электронной почте и других службах.
   
@@ -439,7 +439,7 @@ Office 365 создает домен для вас, например *contoso.on
     
 4. При необходимости можно разблокировать существующий сервер электронной почты
     
-    1. В Office 365 для защиты от нежелательной почты используется Exchange Online Protection (EOP). Если EOP обнаруживает большой объем нежелательных сообщений, перенаправляемых текущим почтовым сервером, он может заблокировать его, что помешает пересылке. Если вы уверены в защите от нежелательной почты, используемой другим поставщиком электронной почты, вы можете белом их сервер в Office 365. Тем не менее, это также позволит всем нежелательным сообщениям, поступающим через исходный сервер, поступать в почтовые ящики Office 365, и вы не сможете оценить, насколько хорошо Office 365 предотвращает нежелательную почту.
+    1. В Office 365 для защиты от нежелательной почты используется Exchange Online Protection (EOP). Если EOP обнаруживает большой объем нежелательных сообщений, перенаправляемых текущим почтовым сервером, он может заблокировать его, что помешает пересылке. Если вы уверены в защите от нежелательной почты, используемой другим поставщиком электронной почты, вы можете добавить свой сервер в белый список в Office 365. Тем не менее, это также позволит всем нежелательным сообщениям, поступающим через исходный сервер, поступать в почтовые ящики Office 365, и вы не сможете оценить, насколько хорошо Office 365 предотвращает нежелательную почту.
     
     2. Перейдите в центр администрирования Exchange.
         

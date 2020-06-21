@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: 'Сведения о том, как предоставить пользователям доступ к своим календарям внешним пользователям для собраний и встреч. '
-ms.openlocfilehash: 905280d3c23ffcb9fcf281c39b232a3d05ba1ec5
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 972e8376ae3d71b11205d4a6611dc6900c063ffe
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399570"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780065"
 ---
 # <a name="share-calendars-with-external-users"></a>Совместное использование календарей с внешними пользователями
 
@@ -36,7 +36,7 @@ ms.locfileid: "44399570"
 Общий доступ к календарю это глобальный параметр, то есть администратор может включить его для всех пользователей в клиенте. После включения общего доступа пользователи могут использовать Outlook Web App для предоставления общего доступа к своим календарям в пределах организации или за ее пределами. Пользователи в организации могут просматривать общий календарь параллельно с собственными. Пользователям за прев Организации будет отправлен URL-адрес, который можно использовать для просмотра календаря. Пользователи определяют, когда следует предоставлять общий доступ, каковы общие сведения и как хранить календари в частном порядке.
   
 > [!NOTE]
-> Если вы хотите совместно использовать календари с организацией, работающей с Exchange Server 2013 (локально), администратор Exchange должен будет настроить связь проверки подлинности с облаком. Это называется "федерация", и она должна соответствовать минимальным требованиям к программному обеспечению. Дополнительные сведения см. в статье [Предоставление общего доступа](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx). 
+> If you want to share calendars with an organization that uses Exchange Server 2013 (an on-premises solution), the Exchange administrator will need to set up an authentication relationship with the cloud. This is known as "federation" and must meet minimum software requirements. See [Sharing](https://technet.microsoft.com/library/dd638083%28v=exchg.150%29.aspx) for more information. 
   
 ## <a name="enable-calendar-sharing-using-the-microsoft-365-admin-center"></a>Включение общего доступа к календарю с помощью центра администрирования Microsoft 365
 
@@ -53,5 +53,5 @@ ms.locfileid: "44399570"
     
 ## <a name="invite-people-to-access-calendars"></a>Приглашение пользователей для доступа к календарям
 
-После включения общего доступа для клиента владельцы календаря могут создать приглашения для конкретных пользователей. Дополнительные инструкции см. в статье [Предоставление общего доступа к календарю в приложении Outlook Web App](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5.aspx). 
+Once sharing is enabled for the tenant, calendar owners can extend invitations to specific users. See [Sharing your calendar in Outlook Web App](https://support.microsoft.com/office/7ecef8ae-139c-40d9-bae2-a23977ee58d5) for instructions. 
   

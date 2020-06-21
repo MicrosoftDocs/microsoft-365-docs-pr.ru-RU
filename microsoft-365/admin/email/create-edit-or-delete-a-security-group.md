@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: Узнайте, как создать, изменить или удалить группу безопасности.
-ms.openlocfilehash: 49fe9b941564f26268045f6e57af329900476b90
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c7c8d57037d972cd89dad45358dc5a7aa3fb86e8
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432281"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780245"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Создание, изменение и удаление группы безопасности в центре администрирования Microsoft 365
 
@@ -41,7 +41,7 @@ ms.locfileid: "44432281"
 Существуют также [Группы в Exchange Online и SharePoint Online](#groups-in-exchange-online-and-sharepoint-online), которые можно использовать для отправки электронной почты или назначения разрешений группе пользователей, и [Группы в Exchange Online и SharePoint Online](#groups-in-exchange-online-and-sharepoint-online), с помощью которых можно предоставлять пользователям права и доступ к веб-сайтам и их семействам. 
   
 > [!IMPORTANT]
->  Планирование использования почтовых ящиков сайта Все пользователи, которые добавляются на сайт SharePoint через группу безопасности, а не добавляются по отдельности, могут использовать только почтовый ящик сайта из SharePoint. Эти пользователи не смогут получать доступ к почтовому ящику сайта из Outlook. Дополнительные сведения см. в [статье Использование групп Microsoft 365 вместо почтовых ящиков сайта](https://support.office.com/article/737d6b1f-67cc-41fe-8db8-f2d09dd1673b.aspx). 
+>  Планирование использования почтовых ящиков сайта Все пользователи, которые добавляются на сайт SharePoint через группу безопасности, а не добавляются по отдельности, могут использовать только почтовый ящик сайта из SharePoint. Эти пользователи не смогут получать доступ к почтовому ящику сайта из Outlook. Дополнительные сведения см. в [статье Использование групп Microsoft 365 вместо почтовых ящиков сайта](https://support.microsoft.com/office/737d6b1f-67cc-41fe-8db8-f2d09dd1673b). 
   
 ## <a name="manage-security-groups-in-the-admin-center"></a>Управление группами безопасности в центре администрирования
 
@@ -155,7 +155,7 @@ ms.locfileid: "44432281"
   
 ## <a name="do-i-have-to-use-security-groups-for-my-organization-to-be-secure"></a>Нужно ли использовать группы безопасности для защиты Организации?
 
-Нет. Это лишь один из способов управления безопасностью организации. Вы можете предоставлять разрешения и доступ к сайтам каждому пользователю по отдельности. Группы безопасности просто упрощают управление несколькими пользователями.
+No. This is just one more way you can manage security for your organization. You can always grant user permissions and access to sites individually. But with security groups, you can easily manage larger groups of users.
   
 ## <a name="can-i-send-email-to-a-security-group"></a>Можно ли отправлять электронную почту в группу безопасности?
 

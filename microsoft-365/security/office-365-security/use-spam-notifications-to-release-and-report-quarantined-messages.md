@@ -20,12 +20,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут изучить уведомления о нежелательной почте для конечных пользователей в сообщениях, помещенных в карантин, в Exchange Online Protection (EOP).
-ms.openlocfilehash: 7d4cf21ade504e999dc5b53ad9062977369561c6
-ms.sourcegitcommit: 4ce28ad4d17d336106c1720d65349f19f9e90e04
+ms.openlocfilehash: 14dcdfa8373e3826b23bc5574d1b5ae8ff76927b
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44294245"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754788"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>Использование уведомлений о нежелательной почте для освобождения и отправки отчетов о сообщениях, помещенных в карантин
 
@@ -44,7 +44,7 @@ ms.locfileid: "44294245"
 
 - **Дата**: Дата и время (в формате UTC), когда сообщение было помещено в карантин.
 
-- **Блокировать отправителя**: щелкните эту ссылку, чтобы добавить отправителя в список заблокированных отправителей. Дополнительную информацию можно узнать [в статье блокировка отправителя почты в Outlook](https://support.office.com/article/b29fd867-cac9-40d8-aed1-659e06a706e4).
+- **Блокировать отправителя**: щелкните эту ссылку, чтобы добавить отправителя в список заблокированных отправителей. Дополнительные сведения [см.](https://support.microsoft.com/office/b29fd867-cac9-40d8-aed1-659e06a706e4)
 
 - **Выпуск**: сообщения о нежелательной почте (нефишинге) вы можете освободить это сообщение, не открывая центр безопасности & соответствия требованиям.
 

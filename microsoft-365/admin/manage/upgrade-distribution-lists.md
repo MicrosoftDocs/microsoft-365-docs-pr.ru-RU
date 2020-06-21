@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 группы в Outlook, а также как использовать PowerShell для одновременного обновления нескольких списков рассылки.
-ms.openlocfilehash: cac0232b721c07ce8e07c7b101e0313eb9cd91df
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f5748c293d18943c94c3610c0e3c5c33848eb521
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399498"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780029"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки до Microsoft 365 группы в Outlook
 
-Вы можете обновить списки рассылки до Microsoft 365 группы с Outlook. Это отличный способ предоставить всем организациям, перечисленным в Организации, все функции и функции групп Microsoft 365. [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+Вы можете обновить списки рассылки до Microsoft 365 группы с Outlook. Это отличный способ предоставить всем организациям, перечисленным в Организации, все функции и функции групп Microsoft 365. [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 Вы можете обновить один или сразу несколько списков рассылки.
 
@@ -47,21 +47,21 @@ ms.locfileid: "44399498"
 
 5. В диалоговом окне сведения нажмите **кнопку Да** , чтобы подтвердить обновление. Процесс начинается немедленно. В зависимости от размера и количества обновляемых списков документов процесс может занять несколько минут или часов.<br/>Если список рассылки не может быть обновлен, появится диалоговое окно с сообщением. Сведения о [том, какие списки рассылки невозможно обновить?](#which-distribution-lists-cannot-be-upgraded).
 
-6. Если вы обновляете несколько списков рассылки, используйте раскрывающийся список, чтобы отфильтровать, какие списки рассылки были обновлены. Если список не заполнен, подождите некоторое время, а затем нажмите кнопку **Обновить** , чтобы увидеть, что Обновлено успешно.<br/>Уведомление об окончании обновления для всех выбранных списков рассылки не выводится. То, какие списки были обновлены, можно узнать по разделам **Доступны для обновления** и **Обновленные списки рассылки**.
+6. Если вы обновляете несколько списков рассылки, используйте раскрывающийся список, чтобы отфильтровать, какие списки рассылки были обновлены. Если список не заполнен, подождите некоторое время, а затем нажмите кнопку **Обновить** , чтобы увидеть, что Обновлено успешно.<br/>There's no notice that tells you when the upgrade process has completed for all DLs you selected. You can figure this out by looking to see what's listed under **Available for upgrade** or **Upgraded DLs**.
 
-7. Если вы выбрали список рассылки для обновления, но оно по-прежнему отображается на странице "Доступны для обновления", его не удалось обновить. См. раздел [Что делать, если возникает ошибка обновления](#what-to-do-if-the-upgrade-doesnt-work).
+7. If you selected a DL for upgrade, but it's still appears on the page as Available to upgrade, then it failed to upgrade. See [What to do if the upgrade doesn't work](#what-to-do-if-the-upgrade-doesnt-work).
 
 > [!NOTE]
-> Если вы получаете письма с дайджестом сообщений группы, то могли заметить, что в них (в самом низу) иногда предлагается обновить списки рассылки, владельцем которых вы являетесь. Дополнительные сведения о письмах с дайджестом см. в статье [Групповые беседы в Outlook](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22).
+> If you're getting the groups digest emails you may notice at the bottom that it will sometimes offer to let you upgrade any eligible distribution lists that you're the owner of. See [Have a group conversation in Outlook](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) for more information about digest emails.
 
 
 ## <a name="what-to-do-if-the-upgrade-doesnt-work"></a>Что делать, если возникает ошибка обновления
 
 Списки рассылки, которые не удалось обновить, остаются без изменений.
 
-Если не удалось обновить **поддерживаемый** список рассылки, отправьте [запрос в службу поддержки](../contact-support-for-business-products.md). Об этой проблеме необходимо сообщить команде технических специалистов по Группам.
+If one or more **eligible** distribution lists fail to be upgraded, open a [Support ticket](../contact-support-for-business-products.md). The issue will need to be escalated to the Groups Engineering team for them to figure out the problem.
 
-Возможно, список рассылки не удалось обновить из-за сбоя службы, но такое случается довольно редко. Попробуйте подождать немного и повторить попытку.
+It's possible that the distribution list didn't get upgraded because of a service outage, but pretty unlikely. If you want, wait a while and then try to upgrade the DL again.
 
 ## <a name="how-to-use-powershell-to-upgrade-several-distribution-lists-at-the-same-time"></a>Обновление нескольких списков рассылки одновременно с помощью PowerShell
 
@@ -126,7 +126,7 @@ Get-DistributionGroup| Foreach-Object{
 |**Описание**|**Поддерживается?**|
 |:-----|:-----|
 |Список рассылки с локальным управлением.  <br/> |Нет  <br/> |
-|Вложенные списки рассылки. Список рассылки имеет дочерние группы или входит в другую группу.  <br/> |Нет  <br/> |
+|Nested distribution lists. Distribution list either has child groups or is a member of another group.  <br/> |Нет  <br/> |
 |Списки рассылки с членами **RecipientTypeDetails** , отличными от **UserMailbox**, **SharedMailbox**, **TeamMailbox**, **MailUser**  <br/> |Нет  <br/> |
 |Список рассылки с более чем 100 владельцами  <br/> |Нет  <br/> |
 |Список рассылки, у которого нет владельцев.  <br/> |Нет  <br/> |
@@ -156,11 +156,11 @@ Get-DistributionGroup| Foreach-Object{
 
 - Для Outlook: когда кто-то пытается отправить сообщение в Outlook, введя имя группы Microsoft 365 после миграции, получатель будет разрешаться как список рассылки, а не как группа. Карточка контакта этого получателя останется в списке рассылки. Это связано с кэшем получателей или кэшем псевдонимов в Outlook. Сообщение электронной почты будет успешно отправлено в группу, но может привести к путанице отправителя.<br/>Для решения этой проблемы вам нужно сбросить кэш, выполнив действия, описанные в статье [Сведения о списке автозаполнения в Outlook](https://go.microsoft.com/fwlink/?LinkID=798736).
 
-- Для Outlook в Интернете: в случае Outlook в Интернете получатель списка рассылки останется в кэше. Вы можете выполнить действия, описанные в статье [Удаление предлагаемого имени или адреса электронной почты из списка автозавершения](https://support.office.com/article/9E1419D9-E88F-445B-B07F-F558B8A37C58.aspx) , чтобы обновить кэш, чтобы увидеть карточку контакта группы.
+- Для Outlook в Интернете: в случае Outlook в Интернете получатель списка рассылки останется в кэше. Вы можете выполнить действия, описанные в статье [Удаление предлагаемого имени или адреса электронной почты из списка автозавершения](https://support.microsoft.com/office/9E1419D9-E88F-445B-B07F-F558B8A37C58) , чтобы обновить кэш, чтобы увидеть карточку контакта группы.
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>Получат ли участники группы приветственные сообщения?
 
-Нет. По умолчанию параметру, который отвечает за отправку таких сообщений, присвоено значение false. Этот параметр относится как к существующим, так и к новым участникам группы, которые могут присоединиться к ней после переноса. Если владелец группы разрешит гостевым пользователям присоединяться к ней, они не будут получать приветственные сообщения. Несмотря на это они смогут использовать группу.
+No. The setting to enable welcome messages is set to false by default. This setting affects both existing and new group members who may join after the migration is complete. If the group owner later allows guest users, guest users won't receive a welcome email in their inbox. Guest members can continue working with the group.
 
 ### <a name="what-if-one-or-some-of-the-dls-are-not-upgraded"></a>Что делать, если один или несколько списков рассылки не обновляются?
 
@@ -172,6 +172,6 @@ Get-DistributionGroup| Foreach-Object{
 
 ### <a name="what-happens-to-the-dl-if-the-upgrade-from-eac-fails"></a>Что происходит со списком рассылки при сбое обновления, запущенного через EAC?
 
-Обновление происходит только после отправки вызова на сервер. Если обновление завершится сбоем, список рассылки не будет изменен. Он будет работать, как прежде.
+The upgrade will happen only when the call is submitted to the server. If the upgrade fails, your DLs will be intact. They will work like they used to.
 
 

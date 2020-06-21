@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Узнайте, как создать политику именования для групп Microsoft 365.
-ms.openlocfilehash: 38b5bbed0c6e4c12af2f529568a53df329d9a933
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ae216d0d8f3319e9633d300d785b4a8c31702798
+ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388009"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702552"
 ---
 # <a name="groups-naming-policy"></a>Политика именования групп
 
@@ -69,7 +69,7 @@ ms.locfileid: "44388009"
 
 Поддерживаемые атрибуты Azure Active Directory (Azure AD): [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion] и [title].
 
-- Нераспознанные атрибуты считаются фиксированными строками. Пример: "[postalCode]"
+- Unsupported user attributes are considered as fixed strings. E.g. "[postalCode]"
 
 - Атрибуты расширения и настраиваемые атрибуты не поддерживаются.
 
@@ -80,6 +80,9 @@ ms.locfileid: "44388009"
 - При создании политики общая длина строки префиксов и суффиксов ограничена 53 знаками.
 
 - Префиксы и суффиксы могут содержать специальные знаки, поддерживаемые в именах и псевдонимах групп. Если префиксы и суффиксы содержат специальные символы, которые не разрешены в псевдониме группы, они применяются только к имени группы. В этом случае префиксы и суффиксы, применяемые к имени группы, будут отличаться от применяемых к псевдониму.
+
+  > [!NOTE]
+  > Точка (.) или дефис (-) разрешается в любом месте имени группы, за исключением имени в начале или конце имени. Знак подчеркивания (_) разрешается в любом месте имени группы, в том числе в начале или конце имени.
 
 - Если вы используете Объединенные группы Yammer Microsoft 365, не используйте следующие символы в политике именования: @, \# , \[ , \] , \<, and \> . Если эти символы находятся в политике именования, обычные пользователи Yammer не смогут создавать группы.
 
@@ -101,7 +104,7 @@ ms.locfileid: "44388009"
 
 ## <a name="admin-override"></a>Переопределение администраторами
 
-Для некоторых администраторов эти политики не действуют, так что они могут создавать группы, используя запрещенные слова и собственные соглашения об именовании, в любых службах и конечных точках. Из политики именования групп исключаются следующие роли:
+Selective administrators are exempted from these policies, across all group workloads and endpoints, so that they can create groups with these blocked words and with their desired naming conventions. The following are the list of administrator roles exempted from the group naming policy.
 
 - Глобальный администратор
 

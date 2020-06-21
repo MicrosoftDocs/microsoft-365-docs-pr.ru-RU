@@ -23,22 +23,22 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: Сведения о том, как добавить подпись электронной почты, юридическое заявление или раскрытие, во все сообщения электронной почты, которые вводят или выходят из Организации.
-ms.openlocfilehash: 5149f6f4a0276cc1384f15a8134d1ede0b673b8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d7e19c6e3f425f95429aefd769d2b8992fde141e
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398958"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779885"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>Создание подписей на уровне Организации и заявления об отказе
 
- В сообщения электронной почты, принимаемые или отправляемые организацией, можно добавить подпись, юридическое заявление об отказе или заявление о раскрытии информации. Эта подпись может применяться ко всем входящим и исходящим сообщениям (см. инструкции ниже) или выборочно, например лишь к тем сообщениям, которые содержат определенные слова или текстовые шаблоны.
+ You can add an email signature, legal disclaimer, or disclosure statement to the email messages that enter or leave your organization. You can set it up to apply to all incoming and outgoing messages as shown below. Or you can apply it to certain messages like those containing specific words or text patterns.
 
  Посмотрите короткое видео о создании подписи электронной почты на уровне всей компании. <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1IEWf] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="create-a-signature-that-applies-to-all-messages"></a>Создание подписи,применяемой ко всем сообщениям
 
@@ -89,7 +89,7 @@ ms.locfileid: "44398958"
 
 9. Выберите **пункт выбрать один** и выберите параметр **переносить** как резервный. Затем нажмите кнопку **ОК**. Это означает, что если заявление об отказе невозможно добавить из-за шифрования или других настроек почты, оно переносится в конверт сообщения.
     
-10. Оставьте установленным флажок **Проверять выполнение этого правила со степенью серьезности**. Затем выберите степень серьезности **Низкая**, **Средняя** или **Высокая**, которая будет использоваться в журнале сообщений. 
+10. Leave **Audit this rule with severity level** selected. Then choose **Low**, **Medium**, or **High** to be used in the message log. 
     
 11. Установите переключатель **Принудительно**, чтобы включить это правило немедленно, если его не нужно предварительно протестировать. 
     

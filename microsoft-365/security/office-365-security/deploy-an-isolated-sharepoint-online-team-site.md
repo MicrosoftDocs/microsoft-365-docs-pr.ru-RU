@@ -16,25 +16,25 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: В этом пошаговом руководстве по развертыванию можно создать и настроить изолированный сайт группы SharePoint Online в Microsoft Office 365.
-ms.openlocfilehash: 772a9e5ea08871857a70cc840e377046d459a314
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 05fdbcfff792805708bfe0b8027e955d54a1ec6f
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036455"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755228"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>Развертывание изолированного сайта группы SharePoint Online
 
  **Сводка.** С помощью этих пошаговых инструкций можно развернуть новый изолированный сайт группы SharePoint Online.
   
-Эта статья представляет собой пошаговое руководство по созданию и настройке изолированного сайта группы SharePoint Online в Microsoft Office 365. Эти инструкции предполагают использование трех групп SharePoint по умолчанию и соответствующих уровней разрешений (по одной группе доступа на основе Azure Active Directory (AD) для каждого уровня доступа).
+This article is a step-by-step deployment guide for creating and configuring an isolated SharePoint Online team site in Microsoft Office 365. These steps assume the use of the three default SharePoint groups and corresponding permission levels, with a single Azure Active Directory (AD)-based access group for each level of access.
   
 ## <a name="phase-1-create-and-populate-the-team-site-access-groups"></a>Этап 1: создание и заполнение групп доступа к сайту группы
 
 На этом этапе вы создаете три группы доступа на основе Azure AD для трех групп SharePoint по умолчанию и заполняете их соответствующими учетными записями пользователей.
   
 > [!NOTE]
-> При выполнении последующих шагов предполагается, что все необходимые учетные записи пользователей уже существуют и для них назначены соответствующие лицензии. Если это не сделано, завершите требуемые действия, прежде чем переходить к шагу 1. 
+> The following steps assume that all necessary user accounts already exist and are assigned the appropriate licenses. If not, please add them and assign licenses before proceeding to step 1. 
   
 ### <a name="step-1-list-the-sharepoint-online-admins-for-the-site"></a>Шаг 1. Составление списка администраторов сайта SharePoint Online
 
@@ -161,7 +161,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 Сначала создайте сайт группы SharePoint Online, следуя приведенным ниже инструкциям.
   
-1. Войдите в центр администрирования Microsoft 365 с помощью учетной записи, которая также будет использоваться для администрирования сайта группы SharePoint Online (администратор SharePoint Online). Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в центр администрирования Microsoft 365 с помощью учетной записи, которая также будет использоваться для администрирования сайта группы SharePoint Online (администратор SharePoint Online). Дополнительные сведения см. в статье [Вход в Office 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. В центре администрирования Microsoft 365 в разделе **центры администрирования**щелкните **SharePoint**.
 
@@ -191,7 +191,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 6. В области **разрешения** щелкните **Дополнительные параметры разрешений**.
     
-7. На вкладке **разрешения** в браузере щелкните ** \<имя сайта> участников** в списке.
+7. На вкладке **разрешения** в браузере выберите ** \<site name> элементы** в списке.
     
 8. В разделе **Пользователи и группы** нажмите кнопку **Создать**.
     
@@ -199,7 +199,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 10. Нажмите кнопку "Назад" в браузере.
     
-11. В списке выберите ** \<имя сайта> владельцев** .
+11. Выберите в списке пункт ** \<site name> владельцы** .
     
 12. В разделе **Пользователи и группы** нажмите кнопку **Создать**.
     
@@ -207,7 +207,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 14. Нажмите кнопку "Назад" в браузере.
     
-15. Щелкните ** \<имя сайта> посетителей** в списке.
+15. Щелкните элемент ** \<site name> Посетители** в списке.
     
 16. В разделе **Пользователи и группы** нажмите **Создание**.
     
@@ -217,11 +217,11 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 Ознакомьтесь с результатами настройки разрешений.
   
-- Группа SharePoint ** \<имя сайта> владельцы** содержит группу доступа администраторов сайта, в которой все участники имеют уровень разрешений **полный** доступ.
+- Группа SharePoint ** \<site name> Owners** содержит группу доступа "Администраторы сайта", в которой все участники имеют уровень разрешений " **полный** доступ".
     
-- Группа SharePoint ** \<имя сайта> Members** содержит группу доступа "Участники сайта", в которой все участники имеют уровень разрешений " **изменить** ".
+- Группа SharePoint ** \<site name> Members** содержит группу доступа "Участники сайта", в которой все участники имеют уровень разрешений " **изменить** ".
     
-- Группа SharePoint ** \<имя сайта> Посетители** содержит группу доступа посетителей сайта, в которой все участники имеют уровень разрешений **Чтение** .
+- Группа SharePoint Посетители содержит группу доступа ** \<site name> посетителей** сайта, в которой все участники имеют уровень разрешений **Чтение** .
     
 - Участники не могут приглашать других участников, равно как и запрашивать доступ для лиц, не являющихся участниками.
     

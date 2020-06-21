@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Узнайте, как можно использовать несколько адресов электронной почты, называемых псевдонимами электронной почты, связанными с учетной записью Microsoft 365 для бизнеса. '
-ms.openlocfilehash: bab4ace6d497bac8892a29c76b6f2d05c4fa018f
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: c0e71ef150ccf592ea4f808a5e6609e1675767a4
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432329"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780293"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>Добавление дополнительных псевдонимов электронной почты для пользователя
 
@@ -162,7 +162,7 @@ ms.locfileid: "44432329"
   
 ## <a name="related-articles"></a>Связанные статьи
 
-[Отправка почты с другого адреса](https://support.office.com/article/ccba89cb-141c-4a36-8c56-6d16a8556d2e.aspx)
+[Отправка почты с другого адреса](https://support.microsoft.com/office/ccba89cb-141c-4a36-8c56-6d16a8556d2e)
 
 [Изменение имени пользователя и адреса электронной почты](../add-users/change-a-user-name-and-email-address.md)
   

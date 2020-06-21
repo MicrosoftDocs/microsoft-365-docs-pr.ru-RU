@@ -20,12 +20,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: Узнайте, как обновить пользователей до последней версии клиента Office.
-ms.openlocfilehash: 22fe8e12e4aff4f9afe52e913ad57d37866dbb95
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fb2513b2112dd8427222d43d14184895df3b594b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398814"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44778881"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>Обновление Microsoft 365 для бизнеса пользователей до последней версии клиента Office
 
@@ -45,7 +45,7 @@ ms.locfileid: "44398814"
   
  Если вы являетесь администратором, ответственным за подписку на Microsoft 365 для бизнеса в вашей организации, вы находитесь в нужном месте. Администраторы, как правило, несут ответственность за такие задачи, как Управление пользователями, сброс паролей, управление установками Office, а также добавление и удаление лицензий.
 
- Если вы не являетесь администратором и у вас есть продукт [семейства Microsoft 365](https://support.office.com/article/28cbc8cf-1332-4f04-9123-9b660abb629e.aspx#BKMK_OfficePlans) , ознакомьтесь со статьей [Обновление Office](https://support.office.com/article/ee68f6cf-422f-464a-82ec-385f65391350.aspx) для получения сведений об обновлении старой версии Office для дома.
+ Если вы не являетесь администратором и у вас есть продукт [семейства Microsoft 365](https://support.microsoft.com/office/28cbc8cf-1332-4f04-9123-9b660abb629e#BKMK_OfficePlans) , ознакомьтесь со статьей [Обновление Office](https://support.microsoft.com/office/ee68f6cf-422f-464a-82ec-385f65391350) для получения сведений об обновлении старой версии Office для дома.
 
 ## <a name="get-ready-to-upgrade"></a>Подготовка к обновлению
 
@@ -53,7 +53,7 @@ ms.locfileid: "44398814"
 
 ## <a name="upgrade-steps"></a>Действия по обновлению
 
-Ниже приведены пошаговые инструкции, которые помогут вам обновить программное обеспечение пользователей до последней версии классического клиента Office. Рекомендуем ознакомиться с этими шагами до начала обновления.
+The steps below will guide you through the process of upgrading your users to the latest Office desktop client. We recommend you read through these steps before beginning the upgrade process.
   
 ## <a name="step-1---check-system-requirements"></a>Шаг 1. Проверка требований к системе
 
@@ -102,9 +102,9 @@ ms.locfileid: "44398814"
 
 ### <a name="select-the-version-of-office-you-want-to-uninstall"></a>Выберите версию Office, которую нужно удалить
 
-- [С компьютера](https://support.office.com/article/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx)
+- [С компьютера](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8)
 
-- [Из Mac](https://support.office.com/article/eefa1199-5b58-43af-8a3d-b73dc1a8cae3.aspx)
+- [Из Mac](https://support.microsoft.com/office/eefa1199-5b58-43af-8a3d-b73dc1a8cae3)
   
 ### <a name="known-issues-trying-to-reinstall-older-versions-of-office-after-an-uninstall"></a>Известные проблемы при попытке переустановить предыдущие версии Office после удаления
 
@@ -114,7 +114,7 @@ ms.locfileid: "44398814"
 
  **Неподдерживаемые подписки** Если ваша копия Office была получена по прекращенным подпискам, например Office 365 Small Business Premium или Office 365 для среднего бизнеса, вы не сможете установить более старую версию Office, если у вас нет ключа продукта, прилагаемого к вашей подписке.
 
-Если вы хотите установить старую версию Office параллельно с новой, просмотрите список версий, для которых поддерживается эта возможность, в статье [Установка и использование разных версий Office на одном компьютере](https://support.office.com/article/6ebb44ce-18a3-43f9-a187-b78c513788bf.aspx). Параллельная установка может быть хорошим выбором, например, если вы используете в текущей версии Office надстройки сторонних разработчиков и не уверены в их совместимости с новой версией.
+If you'd prefer to install your older version of Office side-by-side with the latest version, you can see a list of versions where this is supported in, [Install and use different versions of Office on the same PC](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf). A side-by-side installation might be the right choice for you, if for example, you've installed third-party add-ins you're using with your older version of Office and you're not yet sure they're compatible with the latest version.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Шаг 4. Назначение лицензий на Office пользователям
 
@@ -122,7 +122,7 @@ ms.locfileid: "44398814"
   
 ## <a name="step-5---install-office"></a>Шаг 5. Установка Office
 
-Если вы проверили, что у всех пользователей есть лицензии, на последнем этапе необходимо установить Office, ознакомиться в статье [Загрузка и установка или повторная установка Office на компьютере или Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).
+Если вы проверили, что у всех пользователей есть лицензии, на последнем этапе необходимо установить Office, ознакомиться в статье [Загрузка и установка или повторная установка Office на компьютере или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
   
 > [!TIP]
 > Если вы не хотите, чтобы пользователи установили Office самостоятельно, ознакомьтесь со статьей [Управление параметрами загрузки программ в office 365](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365). [Средство развертывания Office](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool) можно использовать для загрузки программного обеспечения Office в локальную сеть и последующего развертывания Office с помощью метода развертывания программного обеспечения, который обычно используется.

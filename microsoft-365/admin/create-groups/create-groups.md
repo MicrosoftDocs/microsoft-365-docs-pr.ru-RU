@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Узнайте, как создавать и удалять группы Microsoft 365, добавлять и удалять членов групп, а также настраивать работу группы.
-ms.openlocfilehash: 5e89c89c6b50e58f235877a61eaceaefe2bf6ee8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f6023188df1ae796badbf05b85ebaa1afdd914e5
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388021"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780449"
 ---
 # <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Создание группы в центре администрирования Microsoft 365
   
@@ -50,7 +50,7 @@ ms.locfileid: "44388021"
     
 7. После проверки параметров и внесения изменений выберите **создать группу**.
 
-8. Нажмите кнопку **Закрыть**.
+8. Нажмите **Закрыть**.
     
 ## <a name="add-members-to-the-group"></a>Добавление участников в группу
 
@@ -58,7 +58,7 @@ ms.locfileid: "44388021"
 
 ::: moniker range="o365-worldwide"
 
-Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
+Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
 
 1. В центре администрирования обновите страницу, чтобы появилась новая группа, а затем выберите имя группы, в которую вы хотите добавить участников.
     
@@ -76,7 +76,7 @@ ms.locfileid: "44388021"
 
 ::: moniker range="o365-germany"
 
-Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
+Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
 1. В центре администрирования обновите страницу, чтобы появилась новая группа **, выберите группы группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a>, а затем выберите группу, в которую вы хотите добавить участников.
     
 2. Рядом с элементом **элементы**нажмите кнопку **изменить**.
@@ -92,7 +92,7 @@ ms.locfileid: "44388021"
 
 ::: moniker range="o365-21vianet"
 
-Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/en-us/office/join-a-group-in-outlook-2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
+Пользователи могут [добавить себя или запросить утверждение](https://support.microsoft.com/office/2e59e19c-b872-44c8-ae84-0acc4b79c45d), или вы можете добавить их сейчас.
 1. В центре администрирования обновите страницу, чтобы появилась новая группа **, выберите группы группы** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">Groups</a>, а затем выберите группу, в которую вы хотите добавить участников.
     
 2. Рядом с элементом **элементы**нажмите кнопку **изменить**.
@@ -118,9 +118,9 @@ ms.locfileid: "44388021"
 
 После создания новой группы и добавления ее участников можно выполнить дальнейшую настройку группы, например изменить имя или описание группы, изменить владельцев или участников, а также указать, могут ли внешние отправители отправлять сообщения группе и как отправлять копии групповых бесед участникам. Сведения об [управлении группой Microsoft 365](manage-groups.md) .
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Управление гостевым доступом к группам Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Выбор домена, который будет использоваться при создании групп Microsoft 365](choose-domain-to-create-groups.md)
 

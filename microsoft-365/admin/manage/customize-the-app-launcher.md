@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Создайте быстрые ссылки на электронную почту, документы, приложения, сайты SharePoint, внешние сайты и другие ресурсы, добавив настраиваемые плитки в средство запуска приложений. '
-ms.openlocfilehash: cad78207c5d4025d385a7452fbe86df79a694067
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7220f0be8ad6605b7ad6d30000fde6411948c996
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399780"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780137"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Добавление настраиваемых плиток в средство запуска приложений
 
@@ -37,9 +37,9 @@ ms.locfileid: "44399780"
 
 ::: moniker-end
 
-В Microsoft 365 вы можете быстро и легко получить доступ к электронной почте, календарям, документам и приложениям с помощью средства запуска приложений ([Подробнее](https://support.office.com/article/79f12104-6fed-442f-96a0-eb089a3f476a.aspx)). Это приложения, получаемые с помощью Microsoft 365, а также настраиваемые приложения, которые вы добавляете из [магазина SharePoint](https://support.office.com/article/dd98e50e-d3db-4ecb-9bb7-82b189822d43.aspx) или [Azure AD](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher).
+В Microsoft 365 вы можете быстро и легко получить доступ к электронной почте, календарям, документам и приложениям с помощью средства запуска приложений ([Подробнее](https://support.microsoft.com/office/79f12104-6fed-442f-96a0-eb089a3f476a)). Это приложения, получаемые с помощью Microsoft 365, а также настраиваемые приложения, которые вы добавляете из [магазина SharePoint](https://support.microsoft.com/office/dd98e50e-d3db-4ecb-9bb7-82b189822d43) или [Azure AD](https://msdn.microsoft.com/office/office365/howto/connect-your-app-to-o365-app-launcher).
   
-Кроме того, вы можете добавить в средство запуска приложений собственные плитки, указывающие на сайты SharePoint, внешние сайты, устаревшие приложения и т. д. В средстве запуска приложений настраиваемые плитки по умолчанию отображаются на вкладке **Все**, но вы также можете закрепить их на вкладке **Главная** и рассказать пользователям, как сделать то же самое. Таким образом они смогут быстро получать доступ к нужным сайтам, приложениям и ресурсам для работы. В примере ниже показано, как с помощью настраиваемой плитки "Портал Contoso" можно быстро переходить на основной сайт интрасети SharePoint, используемый в организации. 
+You can add your own custom tiles to the app launcher that point to SharePoint sites, external sites, legacy apps, and more. The custom tile appears under the app launcher's **All** apps, but you can pin it to the **Home** apps and instruct your users to do the same. This makes it easy to find the relevant sites, apps, and resources to do your job. In the below example, a custom tile called "Contoso Portal" is used to access an organization's SharePoint intranet site. 
   
 ![Средство запуска приложений](../../media/7acc06cc-ac7a-4c6e-8ea7-81570a5bdbab.png)
   
@@ -89,6 +89,6 @@ ms.locfileid: "44399780"
   
 ## <a name="whats-next"></a>Что дальше?
 
-В дополнение к добавлению плиток в средство запуска приложений на панель навигации можно добавить плитку запуска приложений ([Подробнее](https://support.office.com/article/personalize-your-office-365-experience-eb34a21b-52fa-4fbf-a8d5-146132242985)). Чтобы настроить внешний вид Microsoft 365 в соответствии с фирменной символикой Организации, ознакомьтесь [со статьей Настройка темы microsoft 365](../setup/customize-your-organization-theme.md).
+В дополнение к добавлению плиток в средство запуска приложений на панель навигации можно добавить плитку запуска приложений ([Подробнее](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985)). Чтобы настроить внешний вид Microsoft 365 в соответствии с фирменной символикой Организации, ознакомьтесь [со статьей Настройка темы microsoft 365](../setup/customize-your-organization-theme.md).
   
 

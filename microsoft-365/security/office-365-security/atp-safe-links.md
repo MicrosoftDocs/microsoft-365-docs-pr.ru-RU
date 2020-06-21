@@ -25,12 +25,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: В этой статье рассказывается, как использовать безопасные ссылки для защиты Организации от фишинга и других атак.
-ms.openlocfilehash: 5cd5e1331bb16b27cd036d20458355448ee32ae2
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 07ec9611a2dca7dff7daf3726b94b0aec638b17c
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616770"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754752"
 ---
 # <a name="atp-safe-links"></a>Безопасные ссылки ATP
 
@@ -47,7 +47,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 
 ## <a name="how-to-get-atp-safe-links-protection"></a>Как получить защиту от безопасных ссылок ATP
 
-**Сначала убедитесь, что подписка включает [Office 365 Advanced Threat protection](office-365-atp.md) ** План 1 или план 2. Office 365 ATP входит в подписку, например [microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес премиум](https://www.microsoft.com/microsoft-365/business), Office 365 корпоративный, Office 365 для образования A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках:
+**Сначала убедитесь, что подписка включает [Office 365 Advanced Threat protection](office-365-atp.md) ** План 1 или план 2. Office 365 ATP входит в подписку, например, [microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 бизнес, Microsoft бизнес](https://www.microsoft.com/microsoft-365/business), Office 365 корпоративный, Office 365 для образования A5 и т. д. Если у вашей организации есть подписка на Microsoft 365, не включающая в себя Office 365 ATP, вы можете приобрести ATP как надстройку. Дополнительные сведения см. в следующих источниках: 
 
 - [Планы и цены Advanced Threat Protection в Office 365](https://products.office.com/exchange/advance-threat-protection)
 
@@ -59,7 +59,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 
 - Клиентские приложения Microsoft 365 настроены для использования современной проверки подлинности (это относится к защите ссылок ATP в документах Office). (См. [современная проверка подлинности для Office 2016](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)).
 
-- Пользователи выполнили вход с помощью рабочей или учебной учетной записи. (См. раздел [Вход в Office или office 365](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426).)
+- Пользователи выполнили вход с помощью рабочей или учебной учетной записи. (См. раздел [Вход в Office](https://support.microsoft.com/office/b9582171-fd1f-4284-9846-bdd72bb28426)).
 
 - Электронная почта Организации проходит через Exchange Online Protection.
 
@@ -81,7 +81,7 @@ Office 365 ATP Safe Links (часть [office 365 Advanced Threat protection](of
 
 В следующей таблице приводятся примеры сценариев, в которых защита ATP может быть недоступна. (Во всех этих случаях предполагается, что у Организации есть Office 365 корпоративный, а).
 
-|**Пример сценария**|**Применяется ли защита ATP с безопасными связями в этом случае?**|
+|Пример сценария|Применяется ли защита ATP с безопасными связями в этом случае?|
 |:-----|:-----|
 |Жан является участником группы, имеющей политики безопасных ссылок ATP, охватывающие URL-адреса в электронной почте и документах Office. Жан открывает презентацию PowerPoint, которую отправили кто-то другой, а затем щелкает URL-адрес в презентации.|Да. Политики безопасных ссылок ATP применяются к группе Жан, электронной почте Жан и документам Word, Excel, PowerPoint или Visio, которые Жан открыть, до тех пор, пока Жан вошли и используете приложения Microsoft 365 для предприятий на устройствах с Windows, iOS и Android.|
 |В Организации Крис ни один администратор глобального или по безопасности не определил политики безопасных ссылок ATP. Крис получает сообщение электронной почты, содержащее URL-адрес вредоносного веб-сайта. Крис не знает, что URL-адрес является вредоносным и щелкает ссылку.|Нет. Политика по умолчанию, которая охватывает URL-адреса для всех в Организации, должна быть определена для обеспечения защиты.|

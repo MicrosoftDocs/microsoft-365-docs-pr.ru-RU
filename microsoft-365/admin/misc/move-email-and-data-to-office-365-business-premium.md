@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1062115d-e312-482a-bb5a-765235990f41
 ROBOTS: NOINDEX
 description: Сведения о перемещении данных на новый бизнес-идентификатор.
-ms.openlocfilehash: 03a8ff6b3cfab43d80401a10825a1c274e278ed9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ebbb680baf36386d7f2dafae61fb262bf0220e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399330"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780005"
 ---
 # <a name="move-email-and-data-to-microsoft-365-business-standard"></a>Перемещение электронной почты и данных в Microsoft 365 бизнес Standard
 
@@ -57,24 +57,24 @@ ms.locfileid: "44399330"
 4. Нажмите кнопку **Отправить** , чтобы скопировать файлы с жесткого диска, на который вы скопировали файлы OneDrive. 
   
     > [!NOTE]
-    >  Вы можете добавлять файлы как по одному, так и по несколько (например, сразу добавить все файлы из определенной папки), однако скопировать в OneDrive для бизнеса саму папку не получится. Все необходимые папки следует создать отдельно в OneDrive для бизнеса. >  Если вы собираетесь скопировать файлы в папку, созданную на шаге 4, сначала откройте ее. В противном случае файлы будут отправлены в корневую папку. После добавления файлов вы также сможете перемещать их между каталогами OneDrive для бизнеса. 
+    >  You can upload individual files and groups of files (such as all files in a particular folder) at one time but you cannot copy a folder to OneDrive for Business. Instead, you'll need to create the folder structure you want on OneDrive for business. >  If you want to copy files to a folder that you created in step 4, open that folder before you upload the files. Otherwise, the files will be uploaded to the root folder. You can also move your files between folders in OneDrive for Business after you've uploaded them. 
   
 ## <a name="outlookemail"></a>[Данные Outlook](#tab/Outlook)
   
  **Экспорт данных Outlook 2013 в файл данных Outlook**
-1. Для создания файла данных Outlook (PST) учетная запись, из которой требуется экспортировать информацию, должна быть добавлена в классической версии Outlook. Дополнительные сведения о добавлении учетной записи в Outlook 2013 или более поздней версии см. в статье [Как настроить Outlook 2013 и 2010 для работы c Office 365](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) или [Настройка электронной почты в Outlook для Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54).
+1. Before you can create your Outlook data file (.pst), the account that you want to export Outlook information from must already be added to the desktop version of Outlook. For information about how to add an account to Outlook 2013 or higher, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
-2. Попросите всех пользователей выполнить действия, описанные в статье [Экспорт и резервное копирование электронной почты, контактов и календаря в PST-файл Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx).
+2. Попросите всех пользователей выполнить действия, описанные в статье [Экспорт и резервное копирование электронной почты, контактов и календаря в PST-файл Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91).
     
  **Настройка новой учетной записи электронной почты в Outlook**
 1. Каждый пользователь должен настроить свою новую учетную запись электронной почты, входящую в состав подписки на Microsoft 365 для бизнеса. Для этого им нужно знать адреса своих новых учетных записей. Учетная запись электронной почты каждого пользователя совпадает с именем пользователя, используемым для входа в Microsoft 365 для бизнеса. Примеры: olga@contoso.onmicrosoft.com или ivan@contoso.com.
     
-2. Попросите всех пользователей добавить свою учетную запись электронной почты в Outlook. Инструкции см. в статье [Как настроить Outlook 2013 и 2010 для работы c Office 365 (для Windows)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx) или [Настройка электронной почты в Outlook для Mac 2011](https://support.microsoft.com/en-us/office/set-up-email-in-mac-os-x-mail-de372dc4-9648-4044-a76c-e8a60e178d54).
+2. Ask each user to add their email account to Outlook. To learn how, see [Set up email in Outlook (for Windows)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b) or [Set up email in Outlook for Mac 2011](https://support.microsoft.com/office/de372dc4-9648-4044-a76c-e8a60e178d54).
     
  **Импорт сведений из файла данных Outlook**
 1. При этом будут объединены электронная почта, календарь, задачи и контакты, которые хранятся в PST-файле, в свою учетную запись электронной почты Microsoft 365 для бизнеса.
     
-2. Чтобы импортировать информацию, хранящуюся в PST-файле, в учетную запись электронной почты Microsoft 365 для бизнеса, каждый пользователь должен выполнить действия, описанные в статье [Импорт электронной почты, контактов и календаря из файла Outlook. pst](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac.aspx).
+2. Чтобы импортировать информацию, хранящуюся в PST-файле, в учетную запись электронной почты Microsoft 365 для бизнеса, каждый пользователь должен выполнить действия, описанные в статье [Импорт электронной почты, контактов и календаря из файла Outlook. pst](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
     
 ---
 

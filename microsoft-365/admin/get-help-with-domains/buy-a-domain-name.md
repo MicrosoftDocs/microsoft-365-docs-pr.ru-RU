@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Узнайте, как приобрести доменное имя в Microsoft 365.
-ms.openlocfilehash: 9358df6728e1e29228241887be65fb68a4720281
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: fcf13314d7206837f10459ed8c0a44e5d41f219b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400008"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780197"
 ---
 # <a name="buy-a-domain-name"></a>Приобретение имени домена
 
@@ -88,9 +88,9 @@ ms.locfileid: "44400008"
    
 ### <a name="transfer-your-domain-to-a-different-domain-registrar"></a>Передача домена другому регистратору
 
-Если вашим доменом управляет поставщик, который не поддерживает все необходимые записи DNS, вы можете передать его другому регистратору. При передаче домена необходимо изменить получателя платежей за продление доменного имени.
+If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.
   
-Отправьте запрос на передачу регистратору, которому хотите передать домен. Найдите на его веб-сайте соответствующую услугу, например **Transfer DNS** (Передача DNS). На то, чтобы после внесения изменений они вступили в силу в Интернете, может потребоваться несколько дней.
+Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.
  
 
 
@@ -100,12 +100,12 @@ ms.locfileid: "44400008"
 
 
 
-Если у вас еще нет домена, его легко можно приобрести в Интернете у регистратора доменных имен, посредника или даже у вашего поставщика услуг Интернета. При регистрации в службе Office 365, предоставляемой 21Vianet, вы получаете доменное имя, например contoso.partner.onmschina.cn. Однако при желании можно использовать собственное доменное имя, например fourthcoffee.com.
+If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.
   
 Чтобы настроить домен в Microsoft 365, необходимо владеть доменом и изменить некоторые записи DNS для своего домена.
   
 > [!CAUTION]
-> Некоторые регистраторы доменных имен или поставщики услуг хостинга DNS не разрешают создавать все записи DNS, необходимые для Microsoft 365. Указанные ниже регистраторы поддерживают все необходимые записи. Если вы планируете воспользоваться услугами другого поставщика услуг размещения, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.office.com/article/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
+> Некоторые регистраторы доменных имен или поставщики услуг хостинга DNS не разрешают создавать все записи DNS, необходимые для Microsoft 365. Указанные ниже регистраторы поддерживают все необходимые записи. Если вы планируете воспользоваться услугами другого поставщика услуг размещения, [Service limitations when your hosting provider does not support SRV, CNAME, TXT, or redirection](https://support.microsoft.com/office/dfbb03e3-08c1-4c4e-b2f0-891665b29b77). 
   
 После регистрации домена (у регистратора доменных имен) вы входите в систему Microsoft 365 как администратор и настроили свой домен, чтобы вы могли использовать его с адресом электронной почты и другими службами.
   
@@ -124,7 +124,7 @@ ms.locfileid: "44400008"
     
 ::: moniker-end
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление домена в Microsoft 365](../setup/add-domain.md)
 

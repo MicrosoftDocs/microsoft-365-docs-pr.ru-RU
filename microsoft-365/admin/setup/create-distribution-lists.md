@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: Отправлять электронную почту группе людей без необходимости вводить имя каждого получателя с помощью создания распространения (списка).
-ms.openlocfilehash: cf06d408363a71e43f1a850bf108d667a141af3a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eaa1051c83f64a6a20d3f27eb17f2a0fef5f2b12
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398970"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779897"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Создание групп рассылки в центре администрирования Microsoft 365
   
@@ -69,7 +69,7 @@ ms.locfileid: "44398970"
     
 6. Чтобы добавить пользователей в группу рассылки, ознакомьтесь со статьей [Добавление пользователя или контакта в группу рассылки](../email/add-user-or-contact-to-distribution-list.md).
     
-Узнайте, как использовать группу в Outlook 2016 и Outlook в Интернете в разделе [use Contact Groups (ранее списки рассылки) в Outlook](https://support.office.com/article/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39.aspx) . 
+Узнайте, как использовать группу в Outlook 2016 и Outlook в Интернете в разделе [use Contact Groups (ранее списки рассылки) в Outlook](https://support.microsoft.com/office/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39) . 
   
 Изучите [проблемы с группами рассылки](https://docs.microsoft.com/office365/troubleshoot/groups/distribution-list-issues) для получения справки по проблемам с группами рассылки. 
   

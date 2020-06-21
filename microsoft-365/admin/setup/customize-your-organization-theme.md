@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Сведения о том, как изменить тему по умолчанию Microsoft 365 и настроить ее на использование логотипа или цвета вашей компании. '
-ms.openlocfilehash: 034e5cff726ea97397d5eee1592265ae3452209b
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: f3ba6021205289426ee78f16c7d0678e4b81ef75
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678618"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779861"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>Настройка темы Microsoft 365 для Организации
 
@@ -67,7 +67,7 @@ ms.locfileid: "44678618"
     
 4. Нажмите кнопку **Сохранить изменения**.
     
-Вы можете сразу увидеть новую тему в центре администрирования. После небольшой задержки вы можете увидеть ее в Microsoft 365, в том числе на страницах в Outlook, SharePoint, [мобильном приложении SharePoint для iOS](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)и [мобильном приложении SharePoint для Android](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284).
+Вы можете сразу увидеть новую тему в центре администрирования. После небольшой задержки вы можете увидеть ее в Microsoft 365, в том числе на страницах в Outlook, SharePoint, [мобильном приложении SharePoint для iOS](https://support.microsoft.com/office/339402ce-16bb-4c97-9475-0c5375ccef7a)и [мобильном приложении SharePoint для Android](https://support.microsoft.com/office/d875654b-fb0a-4dbe-a17a-a676cf936284).
 
 Настраиваемый значок или настраиваемые цвета можно удалить в любое время. Просто вернитесь на страницу тема и выберите команду **удалить настраиваемые настройки**.
   
@@ -81,7 +81,7 @@ ms.locfileid: "44678618"
   
 - **Степень контрастности**: Рекомендуемая степень контрастности текста, значка или кнопки цвет и цвет фона: 4,5:1.
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Добавление настраиваемых плиток в средство запуска приложений](../manage/customize-the-app-launcher.md)
   

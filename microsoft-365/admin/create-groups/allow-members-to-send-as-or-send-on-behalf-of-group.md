@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Сведения о том, как разрешить участникам отправлять электронную почту как группу Microsoft 365 или отправлять электронную почту от имени группы Майкрософт 365.
-ms.openlocfilehash: a4d8cb65feab3fca69824adc8f7b4ef10e705d8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3a93dda83b10d7c38c8c6e7d8fd484b37df565d0
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388141"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780473"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Разрешение пользователям отправлять сообщения от имени группы или отправлять от него
 
@@ -39,7 +39,7 @@ ms.locfileid: "44388141"
 > Вы можете настроить " **Отправить как** " или " **Отправить от имени** " для определенного пользователя, но не для обоих. Если вы настроили оба значения, то по умолчанию будет **отправляться как**.
 
 > [!TIP]
-> Чтобы узнать, как использовать Outlook и Outlook в Интернете для отправки электронной почты из группы, обратитесь к разделу [Отправка сообщений от имени или от имени группы майкрософт 365](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx) .
+> Чтобы узнать, как использовать Outlook и Outlook в Интернете для отправки электронной почты из группы, обратитесь к разделу [Отправка сообщений от имени или от имени группы майкрософт 365](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) .
     
 ## <a name="allow-members-to-send-email-as-a-group"></a>Разрешение участникам отправлять электронную почту как группу
 
@@ -77,9 +77,9 @@ ms.locfileid: "44388141"
     
     ![Введите текст для поиска или выберите пользователя из списка.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
-[Дополнительные сведения о группах Microsoft 365](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Дополнительные сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 [Add — RecipientPermission](https://go.microsoft.com/fwlink/p/?LinkId=723960)
 

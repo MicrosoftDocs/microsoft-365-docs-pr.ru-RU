@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: 'Узнайте, как стать администратором и получите подписку на Microsoft 365 для вашей организации. '
-ms.openlocfilehash: 7d1e5673e6c995d007603d364b22ad81638d1782
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5ecfde457cc04e28ef544701fe623a53a8e610b1
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399462"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780041"
 ---
 # <a name="become-the-admin-and-purchase-microsoft-365-for-your-organization"></a>Станьте администратором и приобрести Microsoft 365 для своей организации.
 
 Сотрудники организации могут регистрироваться для использования инструментов и служб, не дожидаясь формального развертывания.
   
-Им можно разрешить продолжать использовать эти службы "как есть". Но если они также зарегистрировались в Собрания Skype, администратор может переключить их на Skype для бизнеса  более полное решение для проведения собраний, поддерживающее приложения Office, хранение файлов и общий доступ, а также многие другие возможности.
+Your organization can let people continue to use these services "as is." But if people signed up for Skype Meetings as one of those services, you can assign an admin to upgrade and get a more complete meeting solution with Skype for Business and Office applications, file storage and sharing, and more.
   
 ## <a name="why-become-the-admin-and-buy-microsoft-365-for-your-organization"></a>Зачем стать администратором и покупать Microsoft 365 для вашей организации?
 
-Когда сотрудник регистрируется в Собрания Skype с помощью своей рабочей учетной записи, он не может управлять службой. Кроме того, ему будут доступны только основные возможности: неограниченное количество собраний, но не более чем с 10 участниками (а через 60 дней максимальное количество участников уменьшается до трех). 
+When an employee signs up for Skype Meetings with their work account, they can't manage the service. And they get only the most basic features: they can have unlimited meetings but only with 10 or fewer participants (after 60 days, the maximum participants is three people). 
   
 Когда вы настраиваете администратора для службы и покупаете Microsoft 365 для своих пользователей, они получают дополнительные функции. Кроме того, вы сможете управлять службами, а значит применять политики и добавлять новых пользователей.
   
@@ -87,9 +87,9 @@ ms.locfileid: "44399462"
 |:-----|:-----|
 |Добавление и удаление лицензий  <br/> |Вы можете [добавить дополнительные лицензии](../../commerce/licenses/buy-licenses.md) для пользователей, не использующих Microsoft 365, или [Удалить лицензии для пользователей](../manage/remove-licenses-from-users.md) , которые не должны использовать подписку Microsoft 365 для бизнеса в вашей организации.  <br/> |
 |Связь с уже зарегистрированными пользователями  <br/> |Обратитесь к другим пользователям и сообщите им, что вы управляете своей подпиской на Microsoft 365 и обновлены ли они. [Выполните эти действия](../add-users/add-users.md), чтобы просмотреть список **активных пользователей** и их адресов электронной почты.  <br/> |
-|Начало использования Microsoft 365  <br/> |Посетите [центр обучения Office 365](https://support.office.com/learn/office365-for-business) и узнайте, как входить в службу, проверять электронную почту, делиться документами и выполнять другие действия. Вы и ваши пользователи можете использовать этот сайт, чтобы начать работу с Microsoft 365.  <br/> |
+|Начало использования Microsoft 365  <br/> |Посетите [центр обучения Office 365](https://support.microsoft.com/training) и узнайте, как входить в службу, проверять электронную почту, делиться документами и выполнять другие действия. Вы и ваши пользователи можете использовать этот сайт, чтобы начать работу с Microsoft 365.  <br/> |
 |Управление подпиской Microsoft 365  <br/> |Посетите [Справочный центр администрирования Microsoft 365](../admin-home.md) и ознакомьтесь с общими административными задачами, такими как добавление и удаление пользователей, сброс паролей и Настройка мобильных устройств.  <br/> |
 
-## <a name="still-need-help"></a>Остались вопросы?
+## <a name="still-need-help"></a>Требуется дополнительная помощь?
 
 [Позвонить в службу поддержки Майкрософт](../contact-support-for-business-products.md)

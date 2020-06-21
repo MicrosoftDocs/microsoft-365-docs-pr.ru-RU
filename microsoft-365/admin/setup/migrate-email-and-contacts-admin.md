@@ -27,12 +27,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Узнайте, как импортировать контакты, календари, электронные письма из Gmail или другого поставщика электронной почты в Microsoft 365. '
-ms.openlocfilehash: 6fa8ff991bf9c02743b81d7947d9486e8f7b7b0f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 4cc7a68929bdcc4cb79f3c7b78e07023a8952f81
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398874"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44779013"
 ---
 # <a name="migrate-email-and-contacts-to-microsoft-365"></a>Перенос электронной почты и контактов в Microsoft 365
 
@@ -46,11 +46,11 @@ ms.locfileid: "44398874"
 
 Выполните следующие действия, чтобы импортировать электронную почту, контакты и календарь из Gmail в Outlook с помощью Microsoft 365:
   
-- [Импорт Gmail в Outlook](https://support.office.com/article/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7.aspx)
+- [Импорт Gmail в Outlook](https://support.microsoft.com/office/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7)
     
-- [Импорт контактов в Outlook](https://support.office.com/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8.aspx)
+- [Импорт контактов в Outlook](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
-- [Импорт календаря Google](https://support.office.com/article/098ed60c-936b-41fb-83d6-7e3786437330)
+- [Импорт календаря Google](https://support.microsoft.com/office/098ed60c-936b-41fb-83d6-7e3786437330)
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
@@ -58,15 +58,15 @@ ms.locfileid: "44398874"
 
 Выполните указанные ниже действия, чтобы экспортировать электронную почту, контакты и календари из Outlook в PST-файл, а затем импортировать этот файл в Outlook с помощью Microsoft 365:
   
-1. [Экспорт электронной почты, контактов и календаря](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91)
+1. [Экспорт электронной почты, контактов и календаря](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     
-2. [Импорт почты, контактов и календаря](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
+2. [Импорт почты, контактов и календаря](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac)
     
 Если вы хотите только контакты, выполните указанные ниже действия.
   
-1. [Экспорт контактов из Outlook](https://support.office.com/article/10f09abd-643c-4495-bb80-543714eca73f.aspx)
+1. [Экспорт контактов из Outlook](https://support.microsoft.com/office/10f09abd-643c-4495-bb80-543714eca73f)
     
-2. [Импорт контактов в Outlook](https://support.office.com/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8.aspx)
+2. [Импорт контактов в Outlook](https://support.microsoft.com/office/bb796340-b58a-46c1-90c7-b549b8f3c5f8)
     
 Чтобы запустить процесс, откройте Outlook и выберите **файл** \> **открыть &amp; ** \> **Импорт и экспорт**.
   
@@ -82,9 +82,9 @@ ms.locfileid: "44398874"
   
 - Откройте Outlook, а затем в меню **файл** \> **добавьте учетную запись**.
     
-Нужны более подробные инструкции? Ознакомьтесь [со статьей Добавление учетной записи](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b).
+Нужны более подробные инструкции? Ознакомьтесь [со статьей Добавление учетной записи](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b).
   
-[![Снимок экрана: страница сведений об учетной записи Outlook в представлении Backstage.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
+[![Снимок экрана: страница сведений об учетной записи Outlook в представлении Backstage.](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.microsoft.com/office/6e27792a-9267-4aa4-8bb6-c84ef146101b)
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>Несколько почтовых ящиков: Администраторы могут выполнять массовый импорт электронной почты, контактов и календарей в Microsoft 365
 

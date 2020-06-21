@@ -21,12 +21,12 @@ search.appverid:
 - BSA160
 ms.assetid: e186d224-a324-4afa-8300-0e4fc0c3000a
 description: Сведения о том, как добавить участника в группу, удалить участника из группы и управлять состоянием владельца группы в центре администрирования Microsoft 365.
-ms.openlocfilehash: 7a223d6387ca7d261d959c6803a484bc29cdd4b1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: f873d4f4a20804ada3222178b59c4e1cc8ddb6fb
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431597"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780485"
 ---
 # <a name="add-or-remove-members-from-microsoft-365-groups-using-the-admin-center"></a>Добавление и удаление участников из групп Microsoft 365 с помощью центра администрирования
 
@@ -37,10 +37,10 @@ ms.locfileid: "44431597"
 
 ::: moniker-end
 
-В Microsoft 365 члены групп обычно создают собственные группы, добавляют себя в группы, к которым они хотят присоединяться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, как администратор, вы также можете сделать это изменение. Эти изменения могут вносить только глобальный администратор, администратор Exchange, администратор групп или администратор пользователей. [Что такое группа Microsoft 365?](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2.aspx)
+В Microsoft 365 члены групп обычно создают собственные группы, добавляют себя в группы, к которым они хотят присоединяться, или приглашаются владельцами групп. При изменении владельца группы или при определении того, что член должен быть добавлен или удален, как администратор, вы также можете сделать это изменение. Эти изменения могут вносить только глобальный администратор, администратор Exchange, администратор групп или администратор пользователей. [Что такое группа Microsoft 365?](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 > [!TIP]
-> Если вы не являетесь администратором, вы можете [добавлять и удалять участников с помощью Outlook](https://support.office.com/article/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de.aspx).
+> Если вы не являетесь администратором, вы можете [добавлять и удалять участников с помощью Outlook](https://support.microsoft.com/office/3b650f4a-5c9b-4f94-a1bb-0cca4b1091de).
   
 ## <a name="add-a-member-to-a-group-in-the-admin-center"></a>Добавление участника в группу в центре администрирования
 
@@ -179,7 +179,7 @@ ms.locfileid: "44431597"
 
 ## <a name="manage-group-owner-status"></a>Управление состоянием владельца группы
 
-Пользователь, создавший группу, по умолчанию является ее владельцем. По разным причинам у группы может быть несколько владельцев (например, с целью повышения качества ее обслуживания). Участники могут становиться владельцами группы, а владельцы  лишаться своего статуса.
+By default, the person who created the group is the group owner. Often a group will have multiple owners for backup support or other reasons. Members can be promoted to owner status and owners can be demoted to member status.
   
 ### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Повышение состояния участника до состояния владельца в центре администрирования
 
@@ -281,13 +281,13 @@ ms.locfileid: "44431597"
 
 - Чтобы добавить в группы сотни или тысячи пользователей, используйте [Add – унифиедграуплинкс](https://go.microsoft.com/fwlink/p/?LinkId=616191).
 
-- [Назначение владельца для бесхозной группы](https://support.microsoft.com/en-us/office/assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)
+- [Назначение владельца для бесхозной группы](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
 ## <a name="articles-about-managing-groups"></a>Статьи об управлении группами
 
 - [Обновление списков рассылки до Microsoft 365 группы в Outlook](../manage/upgrade-distribution-lists.md)
 
-- [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+- [Причины для перехода со списков рассылки на группы в Outlook](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - [Управление гостевым доступом в группах Microsoft 365](manage-guest-access-in-groups.md)
 

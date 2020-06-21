@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: Узнайте, что нужно сделать для настройки Microsoft 365 для бизнеса.
-ms.openlocfilehash: 7c329e8f4df5076a9f4826d18e8a82bcc7cd6dd8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7509e2c4801adbca492e5f5446c5b97eae31dccf
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44398850"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44778953"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Планирование установки Microsoft 365 для бизнеса
 
@@ -72,7 +72,7 @@ ms.locfileid: "44398850"
 
     1. [Добавьте свои сотрудники в Microsoft 365](../add-users/add-users.md) , чтобы они могли скачать и установить приложения Office.
 
-    2. [Скачайте и установите приложения Office](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx), чтобы использовать Word, Excel и PowerPoint на компьютере и устройствах.
+    2. [Скачайте и установите приложения Office](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658), чтобы использовать Word, Excel и PowerPoint на компьютере и устройствах.
 
     3. [Настройка Microsoft Teams](#plan-for-teams) для собраний.
 
@@ -111,9 +111,9 @@ ms.locfileid: "44398850"
 
 ## <a name="plan-for-file-storage-and-migration"></a>Планирование хранения и переноса файлов
 
-Microsoft 365 предоставляет облачное хранилище для отдельных пользователей, малых организаций и предприятий. Сведения о том, что следует хранить в, [можно узнать, где можно хранить документы в Microsoft 365](https://support.office.com/article/c7c20284-bc94-47f4-9728-d28e9daf0790.aspx).
+Microsoft 365 предоставляет облачное хранилище для отдельных пользователей, малых организаций и предприятий. Сведения о том, что следует хранить в, [можно узнать, где можно хранить документы в Microsoft 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
   
-- **Вы можете переместить сотни файлов** в [OneDrive](https://support.office.com/article/45114744-6D42-45CD-8975-F9617819BDEB.aspx) или на [сайт группы SharePoint](https://support.office.com/article/da549fb1-1fcb-4167-87d0-4693e93cb7a0.aspx#__toc384119242). За один раз можно добавить 100 файлов. Не добавляйте файлы размером более 2 ГБ (по умолчанию это максимальный размер файлов).
+- **Вы можете переместить сотни файлов** в [OneDrive](https://support.microsoft.com/office/45114744-6D42-45CD-8975-F9617819BDEB) или на [сайт группы SharePoint](https://support.microsoft.com/office/da549fb1-1fcb-4167-87d0-4693e93cb7a0#__toc384119242). За один раз можно добавить 100 файлов. Не добавляйте файлы размером более 2 ГБ (по умолчанию это максимальный размер файлов).
   
 - **Если вы хотите переместить несколько тысяч файлов** в хранилище Microsoft 365, ознакомьтесь с разделом " [границы SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkID=856113)". Мы рекомендуем использовать средство миграции или рассмотреть возможность найма [партнерской](https://go.microsoft.com/fwlink/?linkid=391089) компании, которая поможет вам выполнить миграцию. Сведения о том, как перенести большое количество файлов, можно найти в статье [Руководство пользователя по миграции в SharePoint Online и OneDrive](https://go.microsoft.com/fwlink/?LinkId=723574).
   

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: В этой статье рассказывается о том, как предотвратить достижение фишинговых сообщений для почтового ящика, Outlook.com и Outlook в Интернете.
-ms.openlocfilehash: b49cc27685f62f5fb5d123a8a7aa4e51e0065e64
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: ed317f5673aa37b91e8c5092eb127b8df6be944e
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588340"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754836"
 ---
 # <a name="unverified-sender"></a>Непроверенный отправитель
 
@@ -84,10 +84,10 @@ ms.locfileid: "44588340"
 
 Не обязательно. Кроме того, для проверки подлинности отправителя в Office 365 могут быть другими свойствами сообщения.
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Защитите свою учетную запись электронной почты Outlook.com](https://support.microsoft.com/office/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
-[Работа с фишингом или подменой в Outlook.com](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
+[Как работать с фишингом в Outlook.com](https://support.microsoft.com/office/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
 [Фильтрация нежелательной почты и спама в Outlook в Интернете](https://support.microsoft.com/office/db786e79-54e2-40cc-904f-d89d57b7f41d)

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Узнайте, как спланировать управление группами Microsoft 365.
-ms.openlocfilehash: f61d07bbb4434b493ffede47df401da6304d0063
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 37d243b56de363985ecb9463dfe5eb182d9e40b1
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388189"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780497"
 ---
 # <a name="plan-for-governance-in-groups"></a>Планирование управления в группах
 
@@ -51,16 +51,16 @@ ms.locfileid: "44388189"
 > Создание новой группы с помощью других приложений для совместной работы, таких как SharePoint, планировщика или потока, приведет к созданию группы с папкой "Входящие" Outlook и возможности подключения к Microsoft Teams.
 
 В зависимости от того, где создана группа, определенные ресурсы автоматически подготавливаются, например:
-- [Папка "Входящие"](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) — для сообщений электронной почты между участниками группы. В этом почтовом ящике есть адрес электронной почты, который можно настроить на прием сообщений от пользователей вне группы и даже за преходясь в Организации, подобно обычному списку рассылки.
- - [Calendar](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) — для планирования событий, связанных с группой
-- [Сайт группы SharePoint](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) — центральный репозиторий для сведений, ссылок и контента, связанных с группой.
-- [Библиотека документов SharePoint](https://support.microsoft.com/en-us/office/share-group-files-in-outlook-749bc73b-90c9-4760-9b6f-9aa1cf01b403) — центральное место для хранения и совместного использования файлов в группе.
-- [Записная книжка OneNote](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) — для сбора идей, исследований и информации
-- [Планировщик](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) — для назначения и управления задачами проекта среди участников группы
-- [Группа Yammer](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) — общее место для бесед и обмена информацией
+- [Папка "Входящие"](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) — для сообщений электронной почты между участниками группы. В этом почтовом ящике есть адрес электронной почты, который можно настроить на прием сообщений от пользователей вне группы и даже за преходясь в Организации, подобно обычному списку рассылки.
+ - [Calendar](https://support.microsoft.com/office/0cf1ad68-1034-4306-b367-d75e9818376a) — для планирования событий, связанных с группой
+- [Сайт группы SharePoint](https://support.microsoft.com/office/75545757-36c3-46a7-beed-0aaa74f0401e) — центральный репозиторий для сведений, ссылок и контента, связанных с группой.
+- [Библиотека документов SharePoint](https://support.microsoft.com/office/749bc73b-90c9-4760-9b6f-9aa1cf01b403) — центральное место для хранения и совместного использования файлов в группе.
+- [Записная книжка OneNote](https://support.microsoft.com/office/e768fafa-8f9b-4eac-8600-65aa10b2fe97) — для сбора идей, исследований и информации
+- [Планировщик](https://support.microsoft.com/office/4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) — для назначения и управления задачами проекта среди участников группы
+- [Группа Yammer](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2) — общее место для бесед и обмена информацией
 - Microsoft Teams — это Рабочая область на основе чата в Microsoft 365
 
-Дополнительные сведения о том, какие ресурсы создаются для каждой группы, можно узнать в [статье сведения о группах Microsoft 365](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Дополнительные сведения о том, какие ресурсы создаются для каждой группы, можно узнать в [статье сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 > [!NOTE]
 > Когда новая группа Microsoft 365 создана с помощью Yammer или Teams, эта группа не отображается в Outlook или адресной книге, так как основной обмен данными между этими пользователями происходит в соответствующих клиентах. Группы Yammer не могут быть подключены к Microsoft Teams.
@@ -82,7 +82,7 @@ ms.locfileid: "44388189"
 
 - Группы Outlook: современный DL (совместная работа на основе электронной почты)
   - Повсеместный для целевого взаимодействия
-  - Обновление списков рассылки до Microsoft 365 групп — [почему необходимо выполнить обновление?](https://support.microsoft.com/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - Обновление списков рассылки до Microsoft 365 групп — [почему необходимо выполнить обновление?](https://support.microsoft.com/office/7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - SharePoint — основные возможности для совместной работы с контентом для всех групп Microsoft 365
   - Каждая группа получает подключенный сайт группы SharePoint
@@ -135,7 +135,7 @@ ms.locfileid: "44388189"
 #### <a name="resources"></a>*Ресурсы*
 - [Управление пользователями, которые могут создавать группы Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups?view=o365-worldwide)
 - [Динамическое заполнение групп на основе атрибутов объектов](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-with-advanced-rules)
-- [Изменение параметров по умолчанию для Microsoft 365 Groups для Outlook в общедоступной или частной среде](https://support.office.com/article/office-365-groups-in-outlook-private-by-default-36236e39-26d3-420b-b0ac-8072d2d2bedc)
+- [Изменение параметров по умолчанию для Microsoft 365 Groups для Outlook в общедоступной или частной среде](https://support.microsoft.com/office/36236e39-26d3-420b-b0ac-8072d2d2bedc)
 - [Синхронизация групп безопасности с членством в группе](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Syncing-Security-Groups-with-team-membership/ba-p/241959)
 
 ### <a name="group-soft-delete-and-restore"></a><a name="group-soft-delete-and-restore"></a>Обратимое удаление и восстановление группы
@@ -152,7 +152,7 @@ ms.locfileid: "44388189"
 |![изображение DESC](../../media/next_steps.png)|Дальнейшие действия|<ul><li>Обмен и публикация политик удаления и восстановления для информирования пользователей о том, что они могут ожидать </li><li> Задокументируйте требования Организации для мониторинга удаленных групп.</li><li>Запланируйте реализацию этих требований в рамках развертывания групп.</li></ul>|
 
 > [!Important]
->Если пользователь попытается получить доступ к сайту в период обратимого удаления, возникнет ошибка 403 о запрете доступа. Когда этот период закончится, пользователь получит ошибку 404 о том, что сайт не найден.
+>During the "soft-delete" period if a user tries to access the site they will get a 403 forbidden message. After this period if the user tries to access the site they will get a 404 not found message.
 
 #### <a name="resources"></a>*Ресурсы*
 - [Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
@@ -208,7 +208,7 @@ ms.locfileid: "44388189"
 >При изменении политики срока действия служба пересчитывает дату окончания срока действия для каждой группы. Он всегда начинает отсчет с даты создания группы, а затем применяет новую политику срока действия.
 
 #### <a name="resources"></a>*Ресурсы*
-- [Политика срока действия группы Microsoft 365](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
+- [Политика срока действия группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)
 - [Настройка политики истечения срока действия для групп Microsoft 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 ### <a name="group-guest-access"></a><a name="group-guest-access"></a>Гостевой доступ к группе
@@ -227,7 +227,7 @@ ms.locfileid: "44388189"
 #### <a name="resources"></a>*Ресурсы*
 - [Совместное работа с людьми за прев Организации](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 - [Управление гостевым доступом в группах Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups)
-- [Гостевой доступ в группах Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+- [Гостевой доступ в группах Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 - [Проверки доступа Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 - [Функция условий использования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-tou)
 - [Google Federation](https://docs.microsoft.com/azure/active-directory/b2b/google-federation)
@@ -328,7 +328,7 @@ ms.locfileid: "44388189"
 | Этап | Описание |
 | --------------- | ------------------------------------------------------------ |
 | Рекомендации |<ul><li>Решите модель подготовки для открытых или информационных индикаторов.</li><li> Рассмотрите возможность создания определенных групп, привязанных к [правилам динамического членства](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) на основе АТРИБУТОВ Azure AD, таких как Department.</li><li> Определение классификаций в Организации, например, строго конфиденциальных, конфиденциальных (по умолчанию), общих.</li><li>  Определение политик на основе классификации, таких как хранение и чувствительность.</li><li> SharePoint — это служба контента для каждой группы Microsoft 365. Рекомендуется разрабатывать и [развертывать сайты SharePoint Online с тремя уровнями защиты](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) (базовой, конфиденциальной и строго конфиденциальной). Дополнительные сведения об этих трех уровнях защиты см. в статье [Защита сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files).</li><li> Как общедоступные, так и частные группы по умолчанию перечислены в глобальном списке адресов. Определите, какие группы должны отображаться в глобальном списке адресов, в частности, в группах, созданных за пределами Microsoft Teams.  Используйте командлет [Set – UnifiedGroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) "хидденфромаддресслистсенаблед" или "хидефромексчанжеклиентс" для скрытия определенных групп.</li></ul> |
-| Дальнейшие действия      |<ul><li>Определите [рекомендации по использованию](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) для обучения пользователей рекомендациям по обеспечению эффективной работы их групп, а также их обучение по внутренним политикам контента. Например, общие сведения о классификациях, политиках и процедурах. </li><li>Определение периода жизненного цикла групп, в течение которого группы должны обновляться или будут удаляться с истекшим сроком действия.</li><li>Рассмотрите возможность создания следующих пользовательских заданий для реализации политик на основе классификаций.</li><li>Настройка конфиденциальности для личных сведений.</li><li>Отключить внешнее членство/общий доступ. </li><li>Сообщения электронной почты, чтобы уведомить участников группы о группах без [владельца](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).</li><li>Принудительная политика владения (минимальное. 2 владельца).</li><li> Определение политик хранения для групп на основе классификации. </li><li>Общие сведения о политиках хранения.</li><li>Использование PowerShell для определения групп с классификацией и [Set – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps).</li><li>Рекомендуется использовать макеты и скрипты сайтов для определения элементов управления с помощью действий, определенных в [справочнике по схеме JSON](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema).</li><li>Рассмотрите вопрос о создании [простого каталога сайтов с помощью макета сайта](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) и Microsoft Flow. При каждом создании сайта с помощью этого макета сайта, данные сайта захватываются и записываются в список. </li></ul>|
+| Дальнейшие действия      |<ul><li>Определите [рекомендации по использованию](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) для обучения пользователей рекомендациям по обеспечению эффективной работы их групп, а также их обучение по внутренним политикам контента. Например, общие сведения о классификациях, политиках и процедурах. </li><li>Определение периода жизненного цикла групп, в течение которого группы должны обновляться или будут удаляться с истекшим сроком действия.</li><li>Рассмотрите возможность создания следующих пользовательских заданий для реализации политик на основе классификаций.</li><li>Настройка конфиденциальности для личных сведений.</li><li>Отключить внешнее членство/общий доступ. </li><li>Сообщения электронной почты, чтобы уведомить участников группы о группах без [владельца](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732).</li><li>Принудительная политика владения (минимальное. 2 владельца).</li><li> Определение политик хранения для групп на основе классификации. </li><li>Общие сведения о политиках хранения.</li><li>Использование PowerShell для определения групп с классификацией и [Set – RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancepolicy?view=exchange-ps).</li><li>Рекомендуется использовать макеты и скрипты сайтов для определения элементов управления с помощью действий, определенных в [справочнике по схеме JSON](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema).</li><li>Рассмотрите вопрос о создании [простого каталога сайтов с помощью макета сайта](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) и Microsoft Flow. При каждом создании сайта с помощью этого макета сайта, данные сайта захватываются и записываются в список. </li></ul>|
 
 ### <a name="regulated-or-enterprise"></a>Поднадзорный или корпоративный
 В дополнение к приведенным выше рекомендациям примите во внимание следующее для строго регулируемых или больших Присес, таких как государственные, финансовые услуги или здравоохранение, которые развернули Office 365 с помощью лицензий Azure Active Directory Premium P1/P2.

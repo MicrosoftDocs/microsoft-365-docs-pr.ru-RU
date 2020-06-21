@@ -19,19 +19,17 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 110bbe6fe48932217c9bdc009d175161fe9226cd
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: f747737fc94241ca5f65ad9881715f517d5fbe3c
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235198"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773843"
 ---
 # <a name="manage-access-to-microsoft-threat-protection"></a>Управление доступом к службе Защиты от угроз (Майкрософт)
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
-
-
 
 Доступ к данным и функциям Защиты от угроз (Майкрософт) имеют учетные записи, которым назначены следующие роли Azure Active Directory (AD):
 - Глобальный администратор
