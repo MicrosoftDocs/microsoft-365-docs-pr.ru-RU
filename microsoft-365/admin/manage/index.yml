@@ -11,12 +11,12 @@ metadata:
   ms.date: 04/16/2020
   localization_priority: Priority
   ms.custom: AdminSurgePortfolio
-  ms.openlocfilehash: 99441695ad069ffe15f5347991d9dd65976eb23e
-  ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+  ms.openlocfilehash: 3aba9a081fadb85a3c052d0b11d6ff49dbffa0ca
+  ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 06/02/2020
-  ms.locfileid: "44498273"
+  ms.lasthandoff: 06/17/2020
+  ms.locfileid: "44780101"
 landingContent:
 - title: Отслеживание состояния нашей службы
   linkLists:
@@ -34,7 +34,7 @@ landingContent:
       url: update-phone-number-and-email-address.md
     - text: Настройка вариантов получения выпусков
       url: release-options-in-office-365.md
-    - text: Отображение и скрытие новых компонентов
+    - text: Отображение и скрытие новых функций
       url: show-hide-new-features.md
 - title: Блокировка доступа пользователей и резервное копирование данных
   linkLists:
@@ -50,7 +50,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Обновление организации до последних версий приложений
+    - text: Перевод пользователей на последние версии приложений
       url: ../setup/upgrade-users-to-latest-office-client.md
     - text: Настройка средства запуска приложений
       url: customize-the-app-launcher.md
@@ -65,11 +65,11 @@ landingContent:
     - text: Документация для администраторов Microsoft Teams
       url: https://docs.microsoft.com/en-us/microsoftteams/
     - text: Совместное использование Outlook и Teams
-      url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
+      url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
   - linkListType: learn
     links:
     - text: Обучение работе с Microsoft Teams
-      url: https://support.office.com/article/4f108e54-240b-4351-8084-b1089f0d21d7
+      url: https://support.microsoft.com/office/4f108e54-240b-4351-8084-b1089f0d21d7
 - title: OneDrive и SharePoint
   linkLists:
   - linkListType: overview

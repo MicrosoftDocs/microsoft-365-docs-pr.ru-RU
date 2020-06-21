@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для автономной защиты Exchange Online (EOP), чтобы настроить их для успешной работы и избежать распространенных ошибок конфигурации.
-ms.openlocfilehash: a2ef5d20a79a15e4b1965d352ed0603ac0783121
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: e5e87883e9c8aad21552ebf306a9716f14532884
+ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616726"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44739086"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Рекомендации по настройке автономной EOP
 
@@ -54,7 +54,7 @@ ms.locfileid: "44616726"
 |Отправка с проверкой подлинности SMTP|Отключено|Отключено|Для отправки электронной почты клиентам POP3 и IMAP4 требуется отправка с проверкой подлинности по протоколу SMTP клиента (также называемой отправкой SMTP-сообщений или SMTP-АУТЕНТИФИКАЦИей).|
 |Подключение EWS к почтовому ящику|Отключено|Отключено||
 |[Подключение PowerShell](https://docs.microsoft.com/powershell/exchange/disable-access-to-exchange-online-powershell)|Отключено|Отключено|Доступно для пользователей почтовых ящиков или почтовых пользователей (объекты пользователей, возвращаемые командлетом [Get-User](https://docs.microsoft.com/powershell/module/exchange/get-user) ).|
-|Использование [логики подделки](learn-about-spoof-intelligence.md) для отправителя белом, когда это возможно|Да|Да||
+|Добавление отправителей в белый список с помощью [логики анализа подделки](learn-about-spoof-intelligence.md)|Да|Да||
 |[Пограничная блокировка на основе каталогов (DBEB)](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-directory-based-edge-blocking)|Включена|Включена|Тип домена = удостоверяющий|
 |[Настройка многофакторной проверки подлинности для всех учетных записей администраторов](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication)|Включена|Включена||
 |
@@ -71,7 +71,7 @@ ms.locfileid: "44616726"
 
 Создайте правила для обработки почтовых ящиков (также называемые правилами транспорта) или настраиваемые фильтры в соответствии с бизнес-потребностями.
 
-При развертывании нового правила в рабочей среде сначала выберите один из тестовых режимов. Когда вы будете довольны тем, как правило работает, измените режим правила на **Принудительный**.
+When you deploy a new rule to production, select one of the test modes first to see the effect of the rule. Once you are satisfied that the rule is working in the manner intended, change the rule mode to **Enforce**.
 
 При развертывании новых правил рассмотрите возможность добавления действия **Создать отчет об инциденте** для отслеживания используемого правила.
 

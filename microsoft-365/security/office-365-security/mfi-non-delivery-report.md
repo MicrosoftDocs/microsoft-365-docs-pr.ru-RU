@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: Администраторы могут ознакомиться с отчетом о недоставке в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 2ea15237900abd3d73634a9aa744b59ef7bce5ee
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: eddecd1de5675797837aed84a892c43ba36c4c56
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082695"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819513"
 ---
 # <a name="non-delivery-report"></a>Отчет о недоставке
 
@@ -32,6 +34,6 @@ ms.locfileid: "42082695"
 
 ![Выбор строки в таблице сведений отчета о недоставке](../../media/non-delivery-report-details-table-select-row.png)
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями [почтовых ящиков в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: Узнайте, как обновить свои адреса для выставления счетов для Microsoft 365 для бизнеса. Вы также можете обновить адрес электронной почты, используемый для получения уведомлений о выставлении счетов.
-ms.openlocfilehash: 1985299d1ed4388ea8ffa0255935f1ee7c8ac3b7
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6b2da1e947362db432bf036d9799ddef89526030
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401802"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817033"
 ---
 # <a name="change-your-billing-addresses"></a>Изменение адресов выставления счетов
 
@@ -47,9 +47,9 @@ ms.locfileid: "44401802"
 
 - **Адрес выставления счета**  адрес вашего подразделения по работе со счетами; обычно совпадает с адресом **покупателя**.
 
-- **Адрес использования службы**  адрес, по которому используется служба. Обычно он совпадает с адресом **покупателя**. Если в организации есть удаленные пользователи или несколько офисов, укажите адрес большинства пользователей.
+- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
 
-Как правило, эти адреса совпадают. При необходимости вы можете изменить один или несколько из них. Кроме того, можно указать запасной адрес электронной почты для получения уведомлений о выставлении счетов и изменить этот адрес для других администраторов.
+In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
   
 ::: moniker range="o365-worldwide"
 
@@ -166,7 +166,7 @@ ms.locfileid: "44401802"
 
 По умолчанию уведомления о выставлении счетов Организации отправляются на адрес электронной почты Майкрософт, а альтернативный адрес электронной почты каждого глобального администратора и администратора выставления счетов в Организации. Каждый администратор может изменить свой запасной адрес электронной почты в данных своего профиля.
   
-1. Войдите в Microsoft 365, указав свою рабочую или учебную учетную запись в качестве глобального администратора. [Узнайте, как войти в систему](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в Microsoft 365, указав свою рабочую или учебную учетную запись в качестве глобального администратора. [Узнайте, как войти в систему](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. Нажмите **значок пользователя**, а затем выберите **Моя учетная запись**.
   
@@ -202,7 +202,7 @@ ms.locfileid: "44401802"
 
 3. В области **изменение ролей пользователей** введите альтернативный адрес электронной почты, который необходимо использовать, а затем нажмите кнопку **сохранить**.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Просмотр счетов](view-your-bill-or-invoice.md)
 
