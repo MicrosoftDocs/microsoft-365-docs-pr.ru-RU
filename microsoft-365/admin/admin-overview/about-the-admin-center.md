@@ -24,18 +24,18 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: С помощью Центра администрирования можно настроить организацию в облаке, а также управлять пользователями и подписками. Для начала работы войдите в учетную запись с разрешениями администратора.
-ms.openlocfilehash: 77799599dfd93525efe101f7dea02c5fc8408bbf
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 9295d16f19ebaabdd9960331f1d875f436156b79
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678652"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780557"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Сведения о Центре администрирования Microsoft 365
 
 **Если вы приобрели план Microsoft 365 для бизнеса и у вас есть разрешения администратора, у вас есть доступ к центру администрирования**. Эта статья для вас!
 
-**Если у вас есть пользователь или у вас есть план семейства Microsoft 365, у вас нет центра администрирования.** Чтобы настроить Microsoft 365, перейдите на страницу [Загрузка и установка или повторная установка microsoft 365 или Office 2019 на ПК или Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx).
+**If you are a user or have a Microsoft 365 Family plan, you do not have an admin center.** To set up Microsoft 365, go to [Download and install or reinstall Microsoft 365 or Office 2019 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
 
 С помощью Центра администрирования можно настроить организацию в облаке, управлять пользователями, управлять подписками и т. д. Из этой статьи вы узнаете, как войти в Центр администрирования, а также какие возможности и настройки доступны.
 
@@ -43,7 +43,7 @@ ms.locfileid: "44678652"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWfvDL]
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="how-to-get-to-the-admin-center"></a>Переход в Центр администрирования
 
@@ -67,7 +67,7 @@ ms.locfileid: "44678652"
 
 2. В левом верхнем углу щелкните значок средства запуска приложений и выберите элемент **Администрирование**.
 
-    Плитка **Администратор** отображается только для тех пользователей, у которых есть [разрешения администратора](../add-users/about-admin-roles.md)Microsoft 365. Если плитка не отображается, значит, у вас нет разрешений на доступ к центру администрирования для вашей организации.
+    The **Admin** tile appears only to people who have Microsoft 365 [admin permissions](../add-users/about-admin-roles.md). If you don't see the tile, then you don't have permissions to access the admin center for your organization.
 
 ## <a name="admin-center-features-and-settings"></a>Функции и параметры Центра администрирования
 
@@ -83,9 +83,9 @@ ms.locfileid: "44678652"
 |**Поддержка** <br/> | Просматривайте существующие запросы на обслуживание и создавайте новые. Дополнительные сведения см. в статье [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](../contact-support-for-business-products.md). |
 |**Параметры** <br/> |Управляйте глобальными параметрами электронной почты, сайтов, набора Office и других приложений. Настройте политику паролей и задайте срок их действия. Добавляйте и обновляйте доменные имена, такие как contoso.com. Настройте профиль организации и параметры выпуска. Вы также можете разрешить партнерам получать доступ к Центру администрирования.  <br/> |
 |**Установка** <br/> |Управляйте существующими доменами, включайте многофакторную проверку подлинности и управляйте ею, управляйте доступом администратора, переносите почтовые ящики пользователей в Office 365, управляйте обновлениями функций и помогайте пользователям устанавливать приложения Office. |
-|**Отчеты** <br/> |Ознакомьтесь с обзором того, как ваша организация использует Microsoft 365 с подробными отчетами об использовании электронной почты, активации Office и т. д. Узнайте, как использовать [отчеты о новых действиях](../activity-reports/activity-reports.md).<br/> |
+|**Отчеты** <br/> |See at a glance how your organization is using Microsoft 365 with detailed reports on email use, Office activations, and more. Learn how to use the new [activity reports](../activity-reports/activity-reports.md).  <br/> |
 |**Работоспособность** <br/> |Сводная информация о работоспособности служб. Просмотр дополнительных сведений и журнала работоспособность служб. См. статью [Проверка работоспособности службы](https://docs.microsoft.com/office365/enterprise/view-service-health).  <br/> С помощью Центра сообщений можно отслеживать предстоящие изменения функций и служб. В нем публикуются объявления, которые помогут вам спланировать изменения и понять, как они могут повлиять на пользователей. Дополнительные сведения см. в статье [Центр сообщений в Office 365](../manage/message-center.md).  <br/> |
-|**Центры администрирования** <br/> |Переход в центры администрирования Exchange, Skype для бизнеса, SharePoint, Yammer и Azure AD. Каждый Центр администрирования содержит все доступные параметры для соответствующей службы.  <br/> Например, в Центре администрирования Exchange можно настраивать электронную почту, календари, группы рассылки и т. д., а также управлять ими. В центре администрирования SharePoint можно создавать семейства веб-сайтов, параметры сайта и OneDrive для бизнеса. В Центре администрирования Skype для бизнеса можно настраивать уведомления о мгновенных сообщениях, конференции с телефонным подключением и сведения о присутствии в сети.  <br/> Узнайте больше о Центрах администрирования [Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807) и [SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-online).<br/> **Примечание.** Набор доступных центров администрирования зависит от вашего плана и региона.           |
+|**Центры администрирования** <br/> |Переход в центры администрирования Exchange, Skype для бизнеса, SharePoint, Yammer и Azure AD. Каждый Центр администрирования содержит все доступные параметры для соответствующей службы.  <br/> For example, in the Exchange admin center, set up and manage email, calendars, distribution groups, and more. In the SharePoint admin center, create and manage site collections, site settings, and OneDrive for Business. In the Skype for Business admin center, set up instant messaging notifications, dial-in conferencing, and online presence.  <br/> Узнайте больше о Центрах администрирования [Exchange](https://go.microsoft.com/fwlink/p/?LinkID=271807) и [SharePoint](https://docs.microsoft.com/sharepoint/sharepoint-online).<br/> **Примечание.** Набор доступных центров администрирования зависит от вашего плана и региона.           |
    
 ## <a name="common-tasks-in-the-admin-center"></a>Основные задачи в Центре администрирования
 
@@ -101,4 +101,4 @@ ms.locfileid: "44678652"
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

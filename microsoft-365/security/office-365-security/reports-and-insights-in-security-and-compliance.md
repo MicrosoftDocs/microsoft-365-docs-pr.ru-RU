@@ -16,14 +16,14 @@ search.appverid:
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
-description: Сведения о смарт-отчетах и аналитических данных, доступных в центре безопасности и соответствия требованиям, а также о том, как их использовать для просмотра и просмотра данных, а также для выполнения быстрых действий.
+description: Сведения о смарт-отчетах и аналитиках, доступных в &amp; центре безопасности и их использовании для просмотра и просмотра данных, а также для выполнения быстрых действий.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fc969dd9bbcbe049f4fcd065ef9caed51c52fac6
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: c5d159371ba7cd2f43cf0782ba66e71b51ca2ad1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617312"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819501"
 ---
 # <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>Интеллектуальные отчеты и аналитика в центре безопасности и &amp; соответствия требованиям
 
@@ -55,7 +55,7 @@ ms.locfileid: "44617312"
 |**Отчеты о соответствии** <br/> Отчеты FedRAMP, отчеты об управлении, отчеты о рисках и соответствии, отчеты ISO об управлении информационной безопасностью, отчеты об аудите и оценке средств контроля обслуживающей организации.  <br/> |В центре безопасности &amp; и соответствия требованиям выберите **Service assurance** \> **отчеты о соответствии требованиям** службы <br/> |[Планирование &amp; соответствия требованиям безопасности в Office 365](../../compliance/plan-for-security-and-compliance.md) <br/> |
   
     
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Мониторинг и просмотр отчетов в центре безопасности Microsoft 365](../mtp/monitoring-and-reporting.md)
   

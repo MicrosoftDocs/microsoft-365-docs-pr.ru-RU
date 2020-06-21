@@ -13,14 +13,14 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection:
 - M365-security-compliance
-description: Узнайте, как использовать обозреватель угроз и отчет об обнаружении в реальном времени для изучения угроз и реагирования на них в центре безопасности & соответствия требованиям.
+description: Сведения о том, как использовать обозреватель угроз и отчет об обнаружении в реальном времени для изучения угроз и реагирования на них в центре безопасности и &amp; соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 824fde8d6f6a03dd61a46d1f0ccc08c93b85adf8
-ms.sourcegitcommit: 76edb413cbd7436252075ea7e314f5e1d07d8d55
+ms.openlocfilehash: ae063cdcbd3d9b5d371e64513c90ff46503ec982
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44267195"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819477"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>Представления в обозревателе угроз и обнаружения в режиме реального времени
 

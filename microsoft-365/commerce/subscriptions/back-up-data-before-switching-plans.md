@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
 description: Резервное копирование содержимого Outlook, OneDrive, Yammer и SharePoint перед изменением планов Microsoft 365.
-ms.openlocfilehash: b7a29912416bd659f2e0dd40c7aa6b9f6309676e
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9acc97f65bb5b471cb992d7f01cd299192b74a52
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403622"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818535"
 ---
 # <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Резервное копирование данных перед переключением Microsoft 365 для бизнес-планов
 
@@ -35,13 +35,13 @@ ms.locfileid: "44403622"
   
 ## <a name="save-a-copy-of-outlook-information"></a>Сохранение копии данных Outlook
 
-Если у пользователей есть Outlook, они могут [экспортировать или архивировать сообщения электронной почты, контакты и календарь в PST-файл Outlook](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91) перед переключением плана.
+Если у пользователей есть Outlook, они могут [экспортировать или архивировать сообщения электронной почты, контакты и календарь в PST-файл Outlook](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91) перед переключением плана.
   
-По завершении перехода к новому плану пользователи могут [импортировать электронную почту, контакты и календарь из PST-файла Outlook](https://support.office.com/article/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
+По завершении перехода к новому плану пользователи могут [импортировать электронную почту, контакты и календарь из PST-файла Outlook](https://support.microsoft.com/office/431a8e9a-f99f-4d5f-ae48-ded54b3440ac).
   
 ## <a name="save-files-stored-in-onedrive-for-business"></a>Сохранение файлов, хранящихся в OneDrive для бизнеса
 
-Перед переключением на другую подписку пользователи могут [загружать файлы и папки из OneDrive или SharePoint](https://support.office.com/article/5c7397b7-19c7-4893-84fe-d02e8fa5df05) в другое расположение, например папку на жестком диске компьютера или общую папку в сети Организации.
+Перед переключением на другую подписку пользователи могут [загружать файлы и папки из OneDrive или SharePoint](https://support.microsoft.com/office/5c7397b7-19c7-4893-84fe-d02e8fa5df05) в другое расположение, например папку на жестком диске компьютера или общую папку в сети Организации.
   
 ## <a name="save-yammer-information"></a>Сохранение сведений Yammer
 
@@ -51,7 +51,7 @@ ms.locfileid: "44403622"
 
 Если пользователь переключается из подписки с SharePoint Online на ту, у которой она нет, плитка **SharePoint** больше не будет отображаться в меню Microsoft 365.
   
-Однако поскольку обе подписки относятся к одной и той же организации, у пользователя по-прежнему будет доступ к сайту группы SharePoint. Он сможет просматривать и обновлять записные книжки, документы, задачи и календари, переходя на сайт группы непосредственно по URL-адресу.
+However, as long as the new subscription is within the same organization as the one they are switched from, users will still be able to access the SharePoint team site. They can view and update notebooks, documents, tasks, and calendars by using the direct URL to the team site.
   
 > [!TIP]
 > Мы рекомендуем пользователям перейти на сайт группы до смены подписки и сохранить его URL-адрес как избранный элемент или закладку в браузере.

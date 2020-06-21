@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как защитить компьютеры с Windows 10 после настройки Microsoft 365 Business Premium.
-ms.openlocfilehash: 5d5dda9c1faa7d50063c9b2b05bd938c67b54a76
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: f18447db445bf051a44b99053d41e10f3ed34fc3
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470615"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785800"
 ---
 # <a name="secure-windows-10-computers"></a>Защита компьютеров с Windows 10
 
@@ -39,7 +39,7 @@ ms.locfileid: "44470615"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="to-secure-your-windows-10-pcs"></a>Обеспечение безопасности компьютеров с Windows 10
 

@@ -27,12 +27,12 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Узнайте, что необходимо знать перед продолжением процедуры регистрации для Office 365. '
-ms.openlocfilehash: 3b3212eeb5e95d4be24029a78f9af4d1b02931ce
-ms.sourcegitcommit: a418195dc11e6251ae37e788c102bbaa7087e44e
+ms.openlocfilehash: dd374cd12f4e3a041869d17157e7198445f99e69
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44579173"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780521"
 ---
 # <a name="how-to-sign-up---admin-help"></a>Регистрация для получения справки для администраторов
 
@@ -70,7 +70,7 @@ ms.locfileid: "44579173"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Нужна помощь в выборе? Консультанты по продажам ответят на любые ваши вопросы. Просто перейдите к разделу [сравнение всех продуктов](https://products.office.com/compare-all-microsoft-office-products?tab=2) и выберите один из вариантов поддержки контактов, перечисленных в левой части страницы.
   
@@ -115,9 +115,9 @@ ms.locfileid: "44579173"
 
 - **Адрес и контактные данные для подписки**
 
-  - **Страна**, в которой будут использоваться службы. Вы **не сможете** изменить сведения о стране ни позже, ни даже во время процесса регистрации. Чтобы указать другую страну, вам придется начать регистрацию заново.
+  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
 
-  - **Электронная почта** и **номер телефона** для связи с вами в случае необходимости для решения вопросов, связанных с вашей подпиской. Например, если вы забыли пароль, мы используем эти сведения для отправки вам временного пароля. На указанный вами адрес электронной почты мы также будем отправлять вам сведения об оплате.
+  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
 
     > [!NOTE]
     > Адрес электронной почты, который вы вводите здесь, отличается от вашего адреса электронной почты Microsoft 365 (имя для входа ниже). Так как на этот адрес отправляются данные для выставления счетов, рекомендуем использовать адрес, подходящий для деловой переписки.
@@ -137,4 +137,4 @@ ms.locfileid: "44579173"
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

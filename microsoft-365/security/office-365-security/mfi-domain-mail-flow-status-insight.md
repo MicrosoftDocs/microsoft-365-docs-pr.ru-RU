@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
+ms.custom:
+- seo-marvel-apr2020
 description: Администраторы могут узнать о состоянии верхнего уровня почтовых ящиков в почтовых процессах в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 42ce0545dad2804829d15572ce6e1f5a0ca6b49f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 22b0f8cefe8baacac682550126de55dcbf880d73
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082854"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818595"
 ---
 # <a name="top-domain-mail-flow-status-insight"></a>Анализ состояния для потока обработки почты верхнего домена
 
@@ -32,6 +34,6 @@ ms.locfileid: "42082854"
 
 ![Всплывающее окно сведений в самом верхнем состоянии управления состоянием неактивных доменов](../../media/domain-mail-flow-status-flyout.png)
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями [почтовых ящиков в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

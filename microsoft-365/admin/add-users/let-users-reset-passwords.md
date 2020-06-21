@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: Узнайте, как можно сбросить пароли с помощью средства самостоятельного сброса пароля.
-ms.openlocfilehash: 40f094489a1981302e97043b019e8c90a52ffc55
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.openlocfilehash: 288613023ee61626bf12f7090ad0ff73139ef06d
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678686"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780593"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
@@ -39,7 +39,7 @@ ms.locfileid: "44678686"
   
 - Вы получаете возможность самостоятельного сброса паролей для облачных пользователей, которые **бесплатно** посвящены любому плану Microsoft 365 для бизнеса, образованию или некоммерческой плате. Она не работает с пробной версией Microsoft 365.
 
-- Эта функция использует платформу Azure. Она предоставляется в Azure автоматически и **бесплатно** при выполнении описанной ниже процедуры. Если вы не используете другие функции Azure, плата за включение функции самостоятельного сброса пароля не взимается.
+- It uses Azure. You'll automatically get this feature in Azure for **free** when you do these steps. It won't cost you anything to turn on self-service password reset if you don't use other Azure features.
 
 - **Если вы используете локальную службу Active Directory**, приведенные выше две точки не применяются. Это можно сделать, но **для этого требуется платная подписка на Azure AD Premium**.
 
@@ -47,7 +47,7 @@ ms.locfileid: "44678686"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3AY8S]
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="let-people-reset-their-own-passwords"></a>Разрешить пользователям сбрасывать собственные пароли
 
@@ -83,10 +83,10 @@ ms.locfileid: "44678686"
   
 7. Когда пользователи входят в систему, им будет предложено ввести дополнительные контактные данные, которые помогут им сбросить пароль в будущем.
 
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Установка политики срока действия паролей в организации](../manage/set-password-expiration-policy.md)
   
 [Установка бессрочных пользовательских паролей](set-password-to-never-expire.md)
 
-[учебные видео по Microsoft 365 бизнес](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[учебные видео по Microsoft 365 бизнес](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

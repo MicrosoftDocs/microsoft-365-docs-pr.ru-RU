@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
 description: Узнайте, как настроить и использовать Microsoft 365 на компьютере, телефоне и планшете.
-ms.openlocfilehash: 5510f93a0e282b73405fa066669cdc1b63ea8a28
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d3909cdabd0c4f95c44ab5afaf7dba7244bf6eeb
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386893"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780533"
 ---
 # <a name="get-started"></a>Начало работы
 
@@ -45,27 +45,27 @@ ms.locfileid: "44386893"
 ## <a name="training-resources-for-your-users"></a>Учебные ресурсы для пользователей
 
 
-- [Краткий старт для сотрудников](https://support.office.com/article/b9700090-ce64-4046-ab92-ce8488a7bc0f.aspx)
+- [Краткий старт для сотрудников](https://support.microsoft.com/office/b9700090-ce64-4046-ab92-ce8488a7bc0f)
     
-- [Центр обучения Office](https://support.office.com/article/b8f02f81-ec85-4493-a39b-4c48e6bc4bfb.aspx)
+- [Центр обучения Office](https://support.microsoft.com/office/b8f02f81-ec85-4493-a39b-4c48e6bc4bfb)
     
-- [Место входа](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)
+- [Место входа](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4)
     
-- [Установка Office на компьютере Windows или Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)
+- [Установка Office на компьютере Windows или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
     
-- [Настройка мобильных устройств](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f.aspx)
+- [Настройка мобильных устройств](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
     
 ## <a name="training-resources-for-you-the-admin"></a>Учебные ресурсы для администратора
 
 Ниже приведены ресурсы, которые помогут вам приступить к работе.
   
-- [Учебные курсы для администраторов](https://support.office.com/article/e990f8ff-56d7-450e-ad9f-74ae8718ef09.aspx): получите ссылки на бесплатные онлайн-классы для администраторов.
+- [Учебные курсы для администраторов](https://docs.microsoft.com/microsoft-365/admin): получите ссылки на бесплатные онлайн-классы для администраторов.
     
 - [Справка для администраторов](https://docs.microsoft.com/microsoft-365/admin/admin-home): получение сведений о самых основных задачах, начало работы с инструментами администрирования и устранение неполадок.
     
 - [Обратитесь в службу поддержки — Справка для администраторов](../contact-support-for-business-products.md) : позвоните нам, откройте онлайн-запрос или предоставьте справку сообщества. 
     
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Настройка Microsoft 365 для бизнеса Справка для администраторов](../setup/setup.md)
 

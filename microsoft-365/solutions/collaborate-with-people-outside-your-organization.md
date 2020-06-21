@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Узнайте, как настроить Microsoft 365 для совместной работы с пользователями, не входящими в вашу организацию.
-ms.openlocfilehash: 5d85b164133d235dce410cd6cbda778588fd093a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 4d5be2d560017978d08bf9f5b06c9e2011606c6d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160019"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819416"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>Совместное работа с людьми за прев Организации
 
@@ -57,7 +57,7 @@ ms.locfileid: "44160019"
 
 Если некоторые функции общего доступа в Microsoft 365 конфликтуют с политиками управления, ознакомьтесь с [разделом ограничение общего доступа в microsoft 365](microsoft-365-limit-sharing.md) , чтобы узнать о возможностях ограничения общего доступа.
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Введение в совместную работу с файлами в Microsoft 365](https://docs.microsoft.com/sharepoint/intro-to-file-collaboration)
 

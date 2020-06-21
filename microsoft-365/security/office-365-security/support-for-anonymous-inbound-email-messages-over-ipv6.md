@@ -14,13 +14,15 @@ search.appverid:
 ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: Администратор может узнать, как настроить поддержку анонимной входящей электронной почты из источников IPv6 в Exchange Online и Exchange Online Protection.
-ms.openlocfilehash: 86de431f8f46af1c5ddae8ecc91f326c6e3280e6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fbbcba3631c7b2a7060f07011c119ee973fdf4af
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631221"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818713"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Добавление поддержки анонимной входящей электронной почты по протоколу IPv6 в Microsoft 365
 
@@ -48,6 +50,6 @@ ms.locfileid: "43631221"
 
   > 550 5.2.1 служба недоступна, [contoso.com] не принимает сообщения электронной почты по протоколу IPv6.
 
-## <a name="for-more-information"></a>Дополнительные сведения
+## <a name="related-topics"></a>Статьи по теме
 
 [Поддержка проверки сообщений, подписанных с помощью DKIM](support-for-validation-of-dkim-signed-messages.md)

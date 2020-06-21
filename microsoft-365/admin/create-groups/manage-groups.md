@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Сведения об управлении группами Microsoft 365, в том числе добавление участников группы, изменение адреса электронной почты, имени группы или описания и настройка работы группы.
-ms.openlocfilehash: 332d0dce46b94a3b69169183afb0c75ec537af8c
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: ba88e35713e889ca85a264b1da1d34d9e1e30671
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049207"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780653"
 ---
 # <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Управление группой в центре администрирования Microsoft 365
 
@@ -128,7 +128,7 @@ ms.locfileid: "44049207"
 
 ::: moniker range="o365-germany"
 
-1. В центре администрирования перейдите на страницу **группы** **группы** \> , а затем выберите группу, которую нужно изменить.
+1. В центре администрирования перейдите на **Groups** \> страницу **группы** группы, а затем выберите группу, которую нужно изменить.
 
 2. Рядом с полем **имя**выберите **изменить**.
 
@@ -140,7 +140,7 @@ ms.locfileid: "44049207"
 
 ::: moniker range="o365-21vianet"
 
-1. В центре администрирования перейдите на страницу **группы** **группы** \> , а затем выберите группу, которую нужно изменить.
+1. В центре администрирования перейдите на **Groups** \> страницу **группы** группы, а затем выберите группу, которую нужно изменить.
 
 2. Рядом с полем **имя**выберите **изменить**.
 
@@ -194,7 +194,7 @@ ms.locfileid: "44049207"
 
 [Создание группы Microsoft 365](create-groups.md)
 
-[Управление гостевым доступом к группам Microsoft 365](https://support.office.com/article/adding-guests-to-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Управление гостевым доступом к группам Microsoft 365](https://support.microsoft.com/office/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 
 [Выбор домена, который будет использоваться при создании групп Microsoft 365](choose-domain-to-create-groups.md)
 

@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Используйте этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и защищенных данных. '
-ms.openlocfilehash: 1b691d948576a3949d637d2de05b6f931844037c
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: adf5c683828b30a978199145fa2c54f17d1b6b37
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431657"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780581"
 ---
 # <a name="remove-a-former-employee"></a>Удаление бывшего сотрудника
 
@@ -49,7 +49,7 @@ ms.locfileid: "44431657"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы удалить сотрудника, выполните указанные ниже действия.
 
@@ -104,18 +104,18 @@ ms.locfileid: "44431657"
 > [!NOTE]
 > Если вы являетесь глобальным администратором, вы можете удалить сотрудника, переслать его, а затем выбрать, что делать с контентом OneDrive с помощью нового интерактивного интерфейса. Для получения дополнительных сведений см [глобальный администратор: Удаление пользователя](remove-former-employee.md). Тем не менее, мы рекомендуем выполнить все дополнительные действия, указанные в этом разделе, чтобы убедиться, что у сотрудника нет доступа к данным вашей компании. 
   
-Ниже представлен краткий обзор процесса. В этой статье подробно описаны все необходимые действия.
+Here's a quick overview. Each step is explained in detail in this article.
   
 |||
 |:-----|:-----|
 |**Шаг** <br/> |**Причина** <br/> |
 |1. [Сохранение содержимого почтового ящика бывшего сотрудника](#save-the-contents-of-a-former-employees-mailbox) <br/> |Содержимое почтового ящика может пригодиться новому сотруднику, который будет принимать должность, а также в случае судебного разбирательства.  <br/> |
-|2. [Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |Таким образом вы оставите адрес электронной почты бывшего сотрудника активным. Если клиенты или партнеры будут продолжать отправлять письма на адрес электронной почты бывшего сотрудника, они будут пересылаться новому сотруднику, принимающему должность.  <br/> |
+|2. [Переадресация электронной почты бывшего сотрудника другому сотруднику или преобразование в общий почтовый ящик](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |This lets you keep the former employee's email address active. If you have customers or partners still sending email to the former employee's address, this gets them to the person taking over the work.  <br/> |
 |3. [Очистка и блокирование мобильного устройства бывшего сотрудника](#wipe-and-block-a-former-employees-mobile-device) <br/> |Бизнес-данные будут удалены с телефона или планшета.  <br/> |
 |4. [Блокировка доступа бывшего сотрудника к данным Microsoft 365](#block-a-former-employees-access-to-microsoft-365-data)<br/> |Он предотвращает доступ пользователя к своим старым почтовым ящикам и данным Microsoft 365.  <br/><br/> **Совет**: когда вы блокируете доступ пользователя, вы по-прежнему оплачиваете лицензию. Чтобы перестать платить за лицензию, ее необходимо удалить из подписки (шаг 5).           |
-|5. [Перемещение содержимого OneDrive сотрудника](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |Если удалить лицензию пользователя, но не удалять его учетную запись, его содержимое в OneDrive останется доступным для вас даже по истечении 30-дневного периода.  <br/><br/> Прежде чем удалить учетную запись пользователя, переместите содержимое его хранилища OneDrive в другое расположение с удобным доступом. После удаления учетной записи содержимое OneDrive сохраняется в течение **30** дней. За это время вы можете восстановить учетную запись пользователя и получить доступ к содержимому OneDrive. Содержимое OneDrive в восстановленной учетной записи останется доступным для вас даже по истечении 30-дневного периода.  <br/> |
-|5a. Что делать, если доступ к OneDrive и SharePoint осуществлялся с личного компьютера?  <br/> |Если для скачивания файлов из OneDrive и SharePoint использовался не корпоративный, а личный компьютер, удалить сохраненные файлы невозможно.  <br/><br/> У пользователей сохранится доступ к файлам, которые были синхронизированы с их компьютером.  <br/> |
-|6. [Удаление и удаление лицензии Microsoft 365 из бывшего сотрудника](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |После освобождения лицензии ее можно назначить другому пользователю. При удалении лицензии плата за нее не начисляется, пока не будет нанят другой сотрудник.  <br/><br/> После освобождения или удаления лицензии электронная почта, контакты и календарь бывшего пользователя сохраняются в течение **30 дней**, а затем удаляются без возможности восстановления. Если освободить или удалить лицензию, но не удалять учетную запись, содержимое пользователя в OneDrive останется доступным для вас даже по истечении 30-дневного периода.  <br/> |
+|5. [Перемещение содержимого OneDrive сотрудника](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |Если удалить лицензию пользователя, но не удалять его учетную запись, его содержимое в OneDrive останется доступным для вас даже по истечении 30-дневного периода.  <br/><br/> Before you delete the account, you should move the content of their OneDrive to another location that's easy for you to access. After you delete an employee's account, the content in their OneDrive is retained for **30** days. During that 30 days, however, you can restore the user's account, and gain access to their OneDrive content. If you restore the user's account, the OneDrive content will remain accessible to you even after 30 days.  <br/> |
+|5a. What if the person used their personal computer to access OneDrive and SharePoint?  <br/> |Если для скачивания файлов из OneDrive и SharePoint использовался не корпоративный, а личный компьютер, удалить сохраненные файлы невозможно.  <br/><br/> У пользователей сохранится доступ к файлам, которые были синхронизированы с их компьютером.  <br/> |
+|6. [Удаление и удаление лицензии Microsoft 365 из бывшего сотрудника](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |When you remove a license, you can assign it to someone else. Or, you can delete the license so you don't pay for it until you hire another person.  <br/><br/> When you remove or delete a license, the user's old email, contacts, and calendar are retained for **30 days**, then permanently deleted. If you remove or delete a license but don't delete the account, the content in the user's OneDrive will remain accessible to you even after 30 days.  <br/> |
 |7. [Удаление учетной записи бывшего сотрудника](#delete-a-former-employees-user-account)<br/> |Эта учетная запись будет удалена из центра администрирования. Это помогает поддерживать порядок.  <br/> |
    
 ## <a name="save-the-contents-of-a-former-employees-mailbox"></a>Сохранение содержимого почтового ящика бывшего сотрудника
@@ -123,11 +123,11 @@ ms.locfileid: "44431657"
 
 Сохранить содержимое почтового ящика бывшего сотрудника можно двумя способами:
   
-1. Добавить почтовый адрес бывшего сотрудника в свою версию Outlook 2013 или 2016, а затем экспортировать данные в PST-файл. При необходимости можно импортировать данные в другую учетную запись электронной почты. Как это сделать, читайте в статье [Получение доступа к данным бывшего пользователя и создание их резервной копии](get-access-to-and-back-up-a-former-user-s-data.md).
+1. Add the former employee's email address to your version of Outlook 2013 or 2016, and then export the data to a .pst file. You can import the data to another email account as needed. To learn how to do this, see [Get access to and back up a former user's data](get-access-to-and-back-up-a-former-user-s-data.md).
     
     ИЛИ
     
-2. Перед удалением учетной записи пользователя поместить почтовый ящик на удержание для судебного разбирательства или удержание на месте. Этот вариант гораздо сложнее первого, но имеет смысл в следующих случаях: если ваш корпоративный план предусматривает архивацию и удержание по юридическим причинам, если есть вероятность судебного разбирательства и если вы располагаете технически сильным ИТ-отделом.
+2. Place a Litigation Hold or In-Place Hold on the mailbox before the deleting the user account. This is much more complicated than the first option but worth doing if: your Enterprise plan includes archiving and legal hold, litigation is a possibility, and you have a technically strong IT department.
     
     После перевода почтового ящика в неактивное состояние администраторы, документоведы или лица, ответственные за обеспечение соответствия требованиям, могут использовать средства обнаружения электронных данных и удержания на месте в Exchange Online для доступа к нему и поиска в его содержимом.
     
@@ -140,9 +140,9 @@ ms.locfileid: "44431657"
 
 На этом этапе вы назначаете адрес электронной почты бывшего сотрудника другому сотруднику или [преобразуете почтовый ящик пользователя в уже созданный общий почтовый ящик](../email/convert-user-mailbox-to-shared-mailbox.md). 
   
-- Создание общего почтового ящика обойдется дешевле, поскольку вам не придется платить за лицензию, **если он будет занимать меньше 50 ГБ**. Если размер почтового ящика превысит 50 ГБ, ему необходимо будет назначить лицензию. 
+- Creating a shared mailbox is the less expensive way to go because you won't have to pay for a license **as long as the mailbox is smaller than 50GB**. Over 50GB and you'll need to assign a license to it. 
     
-- Если вы преобразуете почтовый ящик в общий, все старые сообщения также будут доступны. Такое решение может потребовать много места.
+- If you convert the mailbox to a shared mailbox, all the old email will be available, too. This can take up a lot of space.
     
 - Если вы настроите переадресацию электронной почты, только  *новые*  сообщения, отправленные бывшему сотруднику, будут отправляться действующему сотруднику. 
     
@@ -159,7 +159,7 @@ ms.locfileid: "44431657"
 
 3. В разделе **переадресация электронной почты**выберите **Управление переадресацией электронной почты**.
 
-4. Включите параметр **Включить переадресацию всей почты, поступающей в этот почтовый ящик**. В поле **Адрес для переадресации** введите адрес электронной почты действующего сотрудника (или общего почтового ящика), который будет получать почту. 
+4. Turn on **Forward all email sent to this mailbox**. In the **Forwarding address** box, type the email address of the current employee (or shared mailbox) who's going to get the email. 
   
 5. Нажмите кнопку **Сохранить**. 
     
@@ -175,7 +175,7 @@ ms.locfileid: "44431657"
 
 3. Рядом с пунктом **переадресация электронной почты**нажмите кнопку **изменить**.
 
-4. Включите параметр **Включить переадресацию всей почты, поступающей в этот почтовый ящик**. В поле **Адрес для переадресации** введите адрес электронной почты действующего сотрудника (или общего почтового ящика), который будет получать почту. 
+4. Turn on **Forward all email sent to this mailbox**. In the **Forwarding address** box, type the email address of the current employee (or shared mailbox) who's going to get the email. 
   
 5. Нажмите кнопку **Сохранить**. 
     
@@ -191,7 +191,7 @@ ms.locfileid: "44431657"
 
 3. Рядом с пунктом **переадресация электронной почты**нажмите кнопку **изменить**.
 
-4. Включите параметр **Включить переадресацию всей почты, поступающей в этот почтовый ящик**. В поле **Адрес для переадресации** введите адрес электронной почты действующего сотрудника (или общего почтового ящика), который будет получать почту. 
+4. Turn on **Forward all email sent to this mailbox**. In the **Forwarding address** box, type the email address of the current employee (or shared mailbox) who's going to get the email. 
   
 5. Нажмите кнопку **Сохранить**. 
     
@@ -217,7 +217,7 @@ ms.locfileid: "44431657"
     
 6. Нажмите кнопку **Сохранить**. 
     
-    **Совет.** Обязательно удалите пользователя из локальной службы Blackberry Enterprise или отключите его от нее. Также следует отключить все устройства Blackberry для пользователя. Инструкции по отключению пользователя см. в руководстве администратора Blackberry Business Cloud Services. 
+    **Tip**: Be sure you remove or disable the user from your on-premises Blackberry Enterprise Service. You should also disable any Blackberry devices for the user. Refer to the Blackberry Business Cloud Services Administration Guide if you need specific steps on how to disable the user. 
     
 ## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Блокировка доступа бывшего сотрудника к данным Microsoft 365
 <a name="bkmk_block"> </a>
@@ -340,16 +340,16 @@ ms.locfileid: "44431657"
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>Как удаление учетной записи сотрудника влияет на Skype для бизнеса
 <a name="bkmk_remove"> </a>
 
-Когда вы удаляете лицензию пользователя в Office 365, освобождается связанный с ним вызывающий номер ТСОП. Вы можете назначить его другому пользователю.
+When you remove a user's license from Office 365, the PSTN calling number associated with the user will be released. You can assign it to another user.
   
-Если пользователь относится к группе очереди, он станет недоступен в качестве цели для агентов, обрабатывающих очереди звонков. Поэтому мы рекомендуем также удалять пользователя из групп, связанных с очередью звонков. 
+If the user belongs to a queue group, they will no longer be a viable target of the call queue agents. So, we recommend also removing the user from the groups associated with the call queue. 
   
 ## <a name="delete-a-former-employees-user-account"></a>Удаление учетной записи бывшего сотрудника
 <a name="bkmk_delete"> </a>
 
 После сохранения всех пользовательских данных бывшего сотрудника и обеспечения доступа к ним вы можете удалить его учетную запись.
   
-Не удаляйте учетную запись, если вы настроили для нее переадресацию электронной почты или преобразовали ее в общий почтовый ящик. Она потребуется для привязки переадресации или общего почтового ящика.
+Don't delete the account if you've set up email forwarding or converted it to a shared mailbox. Both need the account to anchor the forwarding or shared mailbox.
 
 ::: moniker range="o365-worldwide"
 
@@ -381,7 +381,7 @@ ms.locfileid: "44431657"
 
 ::: moniker-end
 
-После удаления пользователя его учетная запись становится неактивной на около 30 дней. Вы можете восстановить ее в течение этого срока.
+When you delete a user, the account becomes inactive for approximately 30 days. You have until then to restore the account before it is permanently deleted.
   
 ### <a name="does-your-organization-use-active-directory"></a>Ваша организация использует Active Directory?
 
@@ -400,8 +400,8 @@ ms.locfileid: "44431657"
 |:-----|:-----|
 |**Возможное действие** <br/> |**Способ выполнения** <br/> |
 |Завершение сеанса (например, Outlook в Интернете, Outlook, Exchange Active Sync и т. д.) и принудительное открытие нового сеанса  <br/> |Сброс пароля  <br/> |
-|Завершение сеанса и блокировка доступа к будущим сеансам (для всех протоколов)  <br/> |Отключение учетной записи. Например (в Центре администрирования Exchange или с помощью PowerShell):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
-|Завершение сеанса для определенного протокола (например, ActiveSync)  <br/> |Отключение протокола. Например (в Центре администрирования Exchange или с помощью PowerShell):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
+|Завершение сеанса и блокировка доступа к будущим сеансам (для всех протоколов)  <br/> |Disable the account. For example (in the Exchange admin center or using PowerShell):  <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true` <br/> |
+|Завершение сеанса для определенного протокола (например, ActiveSync)  <br/> |Disable the protocol. For example (in the Exchange admin center or using PowerShell):  <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false` <br/> |
    
 Описанные выше операции можно выполнить в 3 местах.
   
@@ -414,9 +414,9 @@ ms.locfileid: "44431657"
    
 ### <a name="how-to-get-fastest-response-for-account-termination"></a>Как добиться быстрого прекращения действия учетной записи
 
- **Самый быстрый способ.** Используйте Центр администрирования Exchange (используйте PowerShell) или Центр администрирования Azure Active Directory. В локальной среде синхронизация изменений с помощью DirSync может занять несколько часов. 
+ **Fastest**: Use the Exchange admin center (use PowerShell) or Azure Active Directory admin center. In an on-premises environment, it can take several hours to sync the change through DirSync. 
   
- **Самый быстрый способ для пользователя, присутствующего в локальной среде и в центре обработки данных Exchange.** Завершите сеанс с помощью Центра администрирования Azure Active Directory или Центра администрирования Exchange И внесите это изменение в локальной среде. В противном случае изменение, внесенное в Центре администрирования Azure Active Directory или Центре администрирования Exchange, будет перезаписано средством DirSync. 
+ **Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Azure Active Directory admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Azure Active Directory admin center/Exchange admin center will be overwritten by DirSync. 
   
 ## <a name="related-articles"></a>Связанные статьи
 

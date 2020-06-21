@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Администраторы Microsoft 365 могут узнать, как восстановить систему от атак с помощью функции "атаки с помощью функции".
-ms.openlocfilehash: 29afb66dd90be3917d576a7533900e21a91966c0
-ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
+ms.openlocfilehash: 1471b7b0cacbabaf086e0759e21a46b9cb9929ab
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44224713"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811030"
 ---
 # <a name="recover-from-a-ransomware-attack-in-microsoft-365"></a>Восстановление при атаке программой "шантажистом" в Microsoft 365
 
@@ -42,7 +42,7 @@ ms.locfileid: "44224713"
 
 Если вы подозреваете, что электронная почта является целевой, необходимо временно отключить доступ пользователей к почтовым ящикам. Exchange ActiveSync используется мобильными устройствами для синхронизации данных между устройством и почтовым ящиком Exchange Online.
 
-Чтобы отключить ActiveSync для почтового ящика, Узнайте, [как отключить Exchange ActiveSync для пользователей в Exchange Online](https://support.microsoft.com/help/2795303/how-to-disable-exchange-activesync-for-users-in-office-365).
+Чтобы отключить ActiveSync для почтового ящика, Узнайте, [как отключить Exchange ActiveSync для пользователей в Exchange Online](https://support.microsoft.com/help/2795303).
 
 Чтобы отключить другие типы доступа к почтовому ящику, ознакомьтесь со статьей:
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224713"
 
 - [Включение или отключение доступа по протоколу POP3 или IMAP4 для пользователя](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/enable-or-disable-pop3-or-imap4-access)
 
-Приостановка синхронизации OneDrive поможет защитить облачные данные от обновления потенциально инфицированных устройств. Для получения дополнительных сведений Узнайте, [как приостановить и возобновить синхронизацию в OneDrive](https://support.office.com/article/2152bfa4-a2a5-4d3a-ace8-92912fb4421e).
+Приостановка синхронизации OneDrive поможет защитить облачные данные от обновления потенциально инфицированных устройств. Для получения дополнительных сведений Узнайте, [как приостановить и возобновить синхронизацию в OneDrive](https://support.microsoft.com/office/2152bfa4-a2a5-4d3a-ace8-92912fb4421e).
 
 ## <a name="step-3-remove-the-malware-from-the-affected-devices"></a>Шаг 3: Удаление вредоносных программ с затронутых устройств
 
@@ -60,11 +60,11 @@ ms.locfileid: "44224713"
 
 Кроме того, вы можете удалить программу-шантажистом или вредоносную программу с помощью [средства удаления вредоносных программ (MSRT)](https://www.microsoft.com/download/details.aspx?id=9905).
 
-Если эти параметры не работают, можно попробовать [Отключить Защитник Windows](https://support.microsoft.com/help/17466/windows-defender-offline-help-protect-my-pc) или [устранить неполадки, связанные с обнаружением и удалением вредоносных программ](https://support.microsoft.com/help/4466982/windows-10-troubleshoot-problems-with-detecting-and-removing-malware).
+Если эти параметры не работают, можно попробовать [Отключить Защитник Windows](https://support.microsoft.com/help/17466) или [устранить неполадки, связанные с обнаружением и удалением вредоносных программ](https://support.microsoft.com/help/4466982).
 
 ## <a name="step-4-recover-files-on-a-cleaned-computer-or-device"></a>Шаг 4: восстановление файлов на очищенном компьютере или устройстве
 
-После выполнения предыдущего действия для удаления полезных данных программой-шантажистом из среды (что предотвратит шифрование и удаление файлов программой-шантажистом) можно использовать [историю файлов](https://support.microsoft.com/help/17128/windows-8-file-history) в Windows 10 и Windows 8,1 или системы защиты системы в Windows 7, чтобы попытаться восстановить локальные файлы и папки.
+После выполнения предыдущего действия для удаления полезных данных программой-шантажистом из среды (что предотвратит шифрование и удаление файлов программой-шантажистом) можно использовать [историю файлов](https://support.microsoft.com/help/17128) в Windows 10 и Windows 8,1 или системы защиты системы в Windows 7, чтобы попытаться восстановить локальные файлы и папки.
 
 **Примечания**:
 
@@ -74,7 +74,7 @@ ms.locfileid: "44224713"
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>Шаг 5: восстановление файлов в OneDrive для бизнеса
 
-Восстановление файлов в OneDrive для бизнеса позволяет восстановить в течение последних 30 дней весь OneDrive до предыдущего момента времени. Дополнительные сведения см. в статье [Восстановление OneDrive](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15).
+Восстановление файлов в OneDrive для бизнеса позволяет восстановить в течение последних 30 дней весь OneDrive до предыдущего момента времени. Дополнительные сведения см. в статье [Восстановление OneDrive](https://support.microsoft.com/office/fa231298-759d-41cf-bcd0-25ac53eb8a15).
 
 ## <a name="step-6-recover-deleted-email"></a>Шаг 6: восстановление удаленной почты
 
@@ -82,7 +82,7 @@ ms.locfileid: "44224713"
 
 - [Восстановление удаленных сообщений в почтовом ящике пользователя](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages)
 
-- [Восстановление удаленных элементов в Outlook для Windows](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
+- [Восстановление удаленных элементов в Outlook для Windows](https://support.microsoft.com/office/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
 
 ## <a name="step-7-re-enable-exchange-activesync-and-onedrive-sync"></a>Шаг 7: повторное включение синхронизации Exchange ActiveSync и OneDrive
 
@@ -132,11 +132,11 @@ ms.locfileid: "44224713"
 
 - [Норск Хидро реагирует на атаку с помощью команды "атаку" с прозрачностью](https://www.microsoft.com/security/blog/2019/12/17/norsk-hydro-ransomware-attack-transparency/)
 
-- [Обнаружение и восстановление файлов в OneDrive](https://support.microsoft.com/en-us/office/ransomware-detection-and-recovering-your-files-0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
+- [Обнаружение и восстановление файлов в OneDrive](https://support.microsoft.com/office/0d90ec50-6bfd-40f4-acc7-b8c12c73637f)
 
 - [Отчет Microsoft Security Intelligence](https://www.microsoft.com/securityinsights/)
 
-- [Включение и отключение макросов в файлах Office](https://support.office.com/article/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
+- [Включение и отключение макросов в файлах Office](https://support.microsoft.com/office/12b036fd-d140-4e74-b45e-16fed1a7e5c6)
 
 - [Рекомендуемые параметры для EOP и безопасности ATP 365 для Office](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365-atp)
 

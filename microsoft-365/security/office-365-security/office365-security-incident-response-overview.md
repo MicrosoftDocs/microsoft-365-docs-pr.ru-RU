@@ -16,18 +16,20 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: В этом решении рассказывается о том, какие наиболее распространенные атаки на циберсекурити могут выглядеть в Microsoft 365, и как реагировать на них.
-ms.openlocfilehash: 4c5713a0689dae07fe5300c04754d77912f53976
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+ms.openlocfilehash: c6f5087799a0e3a06d0849f99e9911cf77260e1b
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634512"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818799"
 ---
 # <a name="security-incident-response"></a>Отклик на инцидент безопасности
 
  **Сводка:** В этом решении рассказывается о том, что означают индикаторы для наиболее распространенных атак циберсекурити в Office 365, как однозначно подтверждать любую атаку и как реагировать на нее.
 
-## <a name="overview"></a>Обзор
+## <a name="learn-how-to-respond-to-cyberattacks"></a>Сведения о том, как реагировать на кибератаки
 
 Не все кибератаки могут быть отключены. Злоумышленники постоянно ищет новые слабые места в стратегии защитного обмена или используют старые. Знание того, как распознать атаку, позволяет быстрее реагировать на нее, что сокращает продолжительность инцидента безопасности.
 

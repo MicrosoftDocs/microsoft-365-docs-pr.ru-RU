@@ -26,12 +26,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Сведения о том, что входит в состав Microsoft 365 Business Premium, и пошаговое руководство по регистрации в Microsoft 365 бизнес премиум.
-ms.openlocfilehash: 50662149ae2faa99c567080d5e914c3300ac3494
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 5cee380998b188e7d5845becacfa46383905737f
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401565"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785679"
 ---
 # <a name="sign-up-for-microsoft-365-business-premium"></a>Регистрация в Microsoft 365 бизнес премиум
 
@@ -42,7 +42,7 @@ ms.locfileid: "44401565"
 - **Для партнеров Майкрософт**: Если вы являетесь партнером, ознакомьтесь [со статьей получение Microsoft 365 бизнес премиум из центра партнеров корпорации Майкрософт](get-microsoft-365-business.md).
 - **Получение справки в Microsoft Store**: Head to a [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2109652). Корпорация Майкрософт может помочь вам с вопросами о планах, которые помогут приобрести план, отвечающий потребностям бизнеса, и помочь вам выполнить настройку.
 
-**Требуется что-то другое?** Варианты действий:
+**Требуется что-то другое?** Вы можете выполнить указанные ниже действия.
 - [Обновите план Office 365 до Microsoft 365 бизнес премиум](migrate-to-microsoft-365-business.md).
 - [Получите бесплатную пробную](https://go.microsoft.com/fwlink/p/?linkid=2102309) версию Microsoft 365 бизнес премиум за один месяц.
 - Если вам нужен план с меньшим количеством компонентов, [Подпишитесь на Microsoft 365 Business Standard](https://go.microsoft.com/fwlink/p/?LinkID=510935) . Узнайте, как каждый бизнес-план включается по адресу [Products.Office.com](https://go.microsoft.com/fwlink/?linkid=2109397).
@@ -54,7 +54,7 @@ ms.locfileid: "44401565"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы зарегистрироваться и приобрести Microsoft 365 для бизнеса, выполните следующие действия:
 
@@ -97,4 +97,4 @@ ms.locfileid: "44401565"
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

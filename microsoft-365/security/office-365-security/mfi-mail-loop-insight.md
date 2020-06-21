@@ -10,13 +10,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
+ms.custom:
+- seo-marvel-apr2020
 description: Администраторы могут узнать о цикле обработки почты в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: d17c698cf66be56b6a08fa5efc2aaff78aaece07
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082826"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819320"
 ---
 # <a name="mail-loop-insight"></a>Аналитика почтового цикла
 
@@ -28,6 +30,6 @@ ms.locfileid: "42082826"
 
 ![Раскрывающаяся панель после нажатия кнопки Просмотр сведений в неправильном цикле в панели мониторинга почтового процесса](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями [почтовых ящиков в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

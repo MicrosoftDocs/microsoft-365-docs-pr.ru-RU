@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: 'Узнайте, как сбросить пароль для пользователя в Microsoft 365 для бизнес-подписки. '
-ms.openlocfilehash: 44052ee0c795143d67d832f9528e3eea7232f1cb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d1c17448a1f9993b056fa2dc428980acf8ef82b4
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386977"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780569"
 ---
 # <a name="reset-passwords"></a>Сброс паролей
 
@@ -40,11 +40,11 @@ ms.locfileid: "44386977"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FVVP] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
-Мы настоятельно рекомендуем вам настроить самостоятельный сброс пароля. В таком случае вам не придется сбрасывать пароли вручную для всех пользователей в организации. Сведения о том, как это сделать, см. в статье [Предоставление пользователям прав на самостоятельный сброс пароля в Office 365](let-users-reset-passwords.md).
+We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).
   
 ## <a name="reset-a-business-password-for-someone-else"></a>Сброс бизнес-пароля для другого пользователя
 
@@ -118,11 +118,11 @@ ms.locfileid: "44386977"
 ## <a name="reset-business-passwords-in-bulk"></a>Массовый сброс бизнес-паролей
 <a name="bkmk_forgot"> </a>
 
-Воспользуйтесь PowerShell. Ознакомьтесь со статьей Эяла Дорона (Eyal Doron) [Управление паролями с помощью PowerShell](https://go.microsoft.com/fwlink/?linkid=853696) (на английском языке).
+Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
 Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
   
-Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1).
+Общие сведения см. в [статье PowerShell для администраторов Microsoft 365](https://support.microsoft.com/office/40fdcbd4-c34f-42ab-8678-8b3751137ef1).
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>Принудительная смена паролей всех пользователей в организации
 <a name="bkmk_forgot"> </a>
@@ -132,9 +132,9 @@ ms.locfileid: "44386977"
 ## <a name="im-lost"></a>Я не знаю, что делать
 <a name="bkmk_forgot"> </a>
 
-Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.office.com/article/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
+Ознакомьтесь со статьей [Я не помню имя пользователя или пароль учетной записи для Office](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp).
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 <a name="bkmk_forgot"> </a>
   
 [Разрешить пользователям сбрасывать собственные пароли](let-users-reset-passwords.md)
@@ -147,4 +147,4 @@ ms.locfileid: "44386977"
 
 [Удаление бывшего сотрудника из среды Office 365](remove-former-employee.md)
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Узнайте, как настроить устройства Windows, работающие под управлением Windows 10 профессиональная для пользователей Microsoft 365 Business Premium, обеспечивающие централизованное управление и контроль безопасности.
-ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 85ac3c964792a132d5699703e543289020e38f57
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402965"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785859"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Настройка устройств с Windows для пользователей Microsoft 365 Business Premium
 
@@ -49,7 +49,7 @@ ms.locfileid: "44402965"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Добавление устройств с Windows 10 в каталог Azure AD организации
 
@@ -67,7 +67,7 @@ ms.locfileid: "44402965"
     
 3. Завершите настройку Windows 10 на устройстве.
     
-   После завершения этой процедуры пользователь будет добавлен в каталог Azure AD организации. Чтобы проверить, так ли это, ознакомьтесь со статьей [Проверка подключения устройства к Azure AD](#verify-the-device-is-connected-to-azure-ad). 
+   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Для устройства, на котором уже установлена и настроена система Windows 10 Pro
 
@@ -97,7 +97,7 @@ ms.locfileid: "44402965"
   
 6. Убедитесь, что на странице **ваша организация** указана правильная информация, и нажмите кнопку **присоединиться**.
   
-   На странице **Готово!** нажмите кнопку **Готово**.
+   On the **You're all set!** page, click **Done**.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
@@ -129,4 +129,4 @@ ms.locfileid: "44402965"
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business Premium
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

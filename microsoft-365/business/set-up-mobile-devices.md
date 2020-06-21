@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Установите Office на iPhone или телефоне с Android, и ваши рабочие файлы в приложениях Office будут защищены Microsoft 365 для бизнеса.
-ms.openlocfilehash: e96e2edc0fc2bc25449d8f50239fa25179b345bd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: e847a794d34731c22f7a0fca87d246151a6f80a5
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403005"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785879"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Настройка мобильных устройств для пользователей Microsoft 365 для бизнеса
 
@@ -46,7 +46,7 @@ ms.locfileid: "44403005"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Откройте приложение **App store** и в поле поиска введите Microsoft Outlook.
   
@@ -78,7 +78,7 @@ ms.locfileid: "44403005"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Чтобы запустить программу установки на телефоне с Android, перейдите в магазин для проигрывания.
   
@@ -100,12 +100,12 @@ ms.locfileid: "44403005"
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
-Снова откройте Outlook, затем введите и подтвердите ПИН-код. Теперь приложение Outlook готово к работе.
+Open Outlook again, and enter and confirm a PIN. Your Outlook app is now ready for use.
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

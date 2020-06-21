@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: Узнайте, как восстановить удаленную группу Microsoft 365.
-ms.openlocfilehash: 24e5159dd85ab6ede324b3981e3e592f1c2ead70
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: d7cf548816af1661298458f27c704d654845075d
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400693"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818511"
 ---
 # <a name="restore-a-deleted-group"></a>Восстановление удаленной группы
 
@@ -56,9 +56,9 @@ ms.locfileid: "44400693"
 
 - Группа Yammer и контент группы (если группа Microsoft 365 была создана из Yammer)
 
-## <a name="restore-a-group-that-you-own-by-using-outlook"></a>Восстановление группы, которой владеет пользователь, с помощью Outlook
+## <a name="restore-a-group-that-you-own-by-using-outlook-on-the-web"></a>Восстановление группы, которой владеет пользователь, с помощью Outlook в Интернете
 
-Если вы являетесь владельцем группы Microsoft 365, вы можете восстановить ее самостоятельно в Outlook, выполнив следующие действия:
+Если вы являетесь владельцем группы Microsoft 365, вы можете восстановить эту группу в Outlook в Интернете, выполнив следующие действия:
 
 1. На [странице удаленные группы](https://outlook.office.com/people/group/deleted)выберите пункт **Управление группами** в узле **группы** , а затем нажмите кнопку **Удалить**.
 
@@ -96,18 +96,18 @@ Get-AzureADMSDeletedGroup
 Remove-AzureADMSDeletedDirectoryObject -Id <objectId>
 ```
 
-Чтобы проверить, удалилась ли группа, снова запустите командлет  *Get-AzureADMSDeletedGroup*  и убедитесь, что группа отсутствует в списке обратимо удаленных. В некоторых случаях процесс полного окончательного удаления группы и всех ее данных может длиться до 24 часов. 
+To confirm that the group has been successfully purged, run the  *Get-AzureADMSDeletedGroup*  cmdlet again to confirm that the group no longer appears on the list of soft-deleted groups. In some cases it may take as long as 24 hours for the group and all of its data to be permanently deleted. 
   
 ## <a name="got-questions-about-microsoft-365-groups"></a>У вас есть вопросы по группам Microsoft 365?
 
 Посетите [сообщество Майкрософт](https://techcommunity.microsoft.com/t5/Office-365-Groups/ct-p/Office365Groups) для отправки вопросов и участия в беседах, посвященных группам Microsoft 365. 
   
-## <a name="related-articles"></a>Статьи по теме
+## <a name="related-articles"></a>Связанные статьи
 
 [Управление группами Microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
   
 [Удаление групп с помощью командлета Remove-UnifiedGroup](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
   
-[Управление параметрами сайта группы, подключенного к группе](https://support.office.com/article/8376034d-d0c7-446e-9178-6ab51c58df42.aspx)
+[Управление параметрами сайта группы, подключенного к группе](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42)
   
-[Удаление группы в Outlook](https://support.office.com/article/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f.aspx)
+[Удаление группы в Outlook](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f)

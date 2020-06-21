@@ -18,16 +18,16 @@ ms.collection:
 - M365-security-compliance
 description: Когда вы настраиваете политики безопасных вложений ATP, вы выбираете динамическое предоставление, чтобы избежать задержки сообщений и разрешить пользователям просматривать сканируемые вложения.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c30803efd2dafedd6d988de5374f08bd61f7d2a
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: b22112617ecba191c7ee8d7daab0de3cde1bf8c3
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034796"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819356"
 ---
 # <a name="dynamic-delivery-and-previewing-with-atp-safe-attachments"></a>Динамическая Доставка и предварительный просмотр с безопасными вложениями ATP
 
-## <a name="overview"></a>Обзор
+## <a name="basic-features-of-dynamic-delivery"></a>Основные функции динамической доставки
 
 Динамическая доставка — это параметр, который можно выбрать для [безопасных вложений ATP](atp-safe-attachments.md). В этой статье рассказывается о возможностях динамической доставки и предварительного просмотра вложений в [безопасных вложениях ATP в Office 365](atp-safe-attachments.md).
 
@@ -66,7 +66,7 @@ ms.locfileid: "44034796"
 
 - Электронная почта вашей организации должна размещаться в Office 365. Несмотря на то что [Office 365 Advanced Threat Protection можно использовать с любым агентом передачи почты SMTP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#requirements-for-office-365-advanced-threat-protection-atp) (например, Exchange Server), для параметра динамической доставки для безопасных вложений ATP необходимо, чтобы электронная почта Организации была размещена в Office 365. Если ваша электронная почта не размещена в Office 365, выберите другую [политику безопасных вложений ATP](set-up-atp-safe-attachments-policies.md#step-3-learn-about-atp-safe-attachments-policy-options)(например, **блок**).
 
-## <a name="additional-considerations"></a>Дополнительные рекомендации
+## <a name="additional-considerations"></a>Дополнительные сведения
 
 Существует несколько сценариев, в которых динамическая доставка не поддерживается. К ним относятся:
 
@@ -80,7 +80,7 @@ ms.locfileid: "44034796"
 
 - Папка поиска почтового ящика пользователя в состоянии ошибки
 
-- Среды, в которых администратор Exchange Online включил Ексклаимер. Чтобы устранить эту проблему, в статье [сообщения с вложениями не доставляются при использовании динамической доставки ATP и ексклаимер](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery)
+- Среды, в которых администратор Exchange Online включил Ексклаимер. Чтобы устранить эту проблему, в статье [сообщения с вложениями не доставляются при использовании динамической доставки ATP и ексклаимер](https://support.microsoft.com/help/4014438)
 
 - Сообщения, зашифрованные с помощью протоколов [S/MIME и Secure/многоцелевые расширения почты Интернета (S/MIME](s-mime-for-message-signing-and-encryption.md))
 

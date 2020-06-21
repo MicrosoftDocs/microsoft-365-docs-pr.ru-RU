@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как перенести бизнес в Microsoft 365 бизнес премиум из Office 365 E3.
-ms.openlocfilehash: 6571fb3ba53620fbb8b97d8f5fd76832f95b82c3
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: d72f0c52a745ff973868b6fdaa95efa1a37a3dbd
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515903"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785932"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Переход с Office 365 E3 на Microsoft 365 бизнес премиум 
 
@@ -117,8 +117,8 @@ Microsoft 365 Business Premium содержит все необходимое д
 
 ### <a name="threat-protection"></a>Защита от угроз
 
-После перехода на Microsoft 365 бизнес премиум у вас есть Office 365 ATP. Обзор [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) для просмотра. Чтобы настроить, ознакомьтесь со статьей [Настройка безопасных ссылок ATP](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa), [Настройка безопасных вложений ATP](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)и [Настройка антифишинга ATP](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c).
+После перехода на Microsoft 365 бизнес премиум у вас есть Office 365 ATP. Обзор [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) для просмотра. Чтобы настроить, ознакомьтесь со статьей [Настройка безопасных ссылок ATP](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa), [Настройка безопасных вложений ATP](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)и [Настройка антифишинга ATP](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c).
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 
-Чтобы приступить к использованию меток конфиденциальности, ознакомьтесь со статьей [Обзор меток конфиденциальности](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) , а затем [Создайте видео метки конфиденциальности и управляйте ими](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .
+Чтобы приступить к использованию меток конфиденциальности, ознакомьтесь со статьей [Обзор меток конфиденциальности](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) , а затем [Создайте видео метки конфиденциальности и управляйте ими](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) .

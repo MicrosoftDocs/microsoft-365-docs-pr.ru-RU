@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: В этой статье приведены инструкции по настройке Microsoft 365 Business Premium, в том числе добавление домена и пользователей, Настройка политик безопасности и многое другое.
-ms.openlocfilehash: 58dc5eb71b41f5b9316e8d68cc3fc3c8c91748b3
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 89186fbd00e47385f0320c45f7fc44c258742aa3
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564911"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785704"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Настройка Microsoft 365 бизнес премиум в мастере установки
 
@@ -43,7 +43,7 @@ ms.locfileid: "44564911"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Добавление домена, пользователей и Настройка политик
 
@@ -131,8 +131,8 @@ ms.locfileid: "44564911"
 
 Чтобы установить Office на мобильные устройства с iOS или Android, ознакомьтесь со статьей [Настройка мобильных устройств для пользователей Microsoft 365 Business Premium](set-up-mobile-devices.md).
 
-Вы также можете установить Office по отдельности. Инструкции: [Install Office на ПК или Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) .
+Вы также можете установить Office по отдельности. Инструкции: [Install Office на ПК или Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) .
 
 ## <a name="see-also"></a>См. также
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

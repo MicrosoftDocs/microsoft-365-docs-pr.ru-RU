@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Сведения о том, как перемещать личные рабочие файлы и файлы конфиденциальной компании в OneDrive для бизнеса можно несколькими простыми действиями.
-ms.openlocfilehash: ec225eb43d79bebaa7035178d4d1751c58149e7a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401369"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785919"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
 
@@ -37,7 +37,7 @@ ms.locfileid: "44401369"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Перемещение файлов в OneDrive для бизнеса
@@ -50,8 +50,8 @@ ms.locfileid: "44401369"
     
 3. В строке меню выберите команду **Добавить**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png), затем выберите файлы, которые хотите сохранить. 
     
-Для передачи профиля пользователя и важных данных также можно использовать сторонние программы, например ForensiT. Итоговые файлы тоже нужно добавить в OneDrive для бизнеса.
+To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 для бизнеса
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: d7138188-086e-4a54-a155-11fa953c3930
 ROBOTS: NOINDEX
 description: Сведения о том, как активировать, продлить или добавить лицензии на подписку Microsoft 365 для бизнеса.
-ms.openlocfilehash: 83b4ba3338db4351ef50af687d3632da83f45648
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f0e8de1546c5efdde907209e98f9ee5d710ab2c2
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44404686"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818559"
 ---
 # <a name="enter-your-product-key-purchased-from-microsoft-open"></a>Введите ключ продукта, приобретенный в Microsoft Open
 
@@ -38,7 +38,7 @@ ms.locfileid: "44404686"
   
  **Нужно выполнить другую задачу?**
  
- **Для получения справки по Microsoft 365 Домашняя или персональная**обратитесь к [разделу Использование ключей продуктов с Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx).
+ **Для получения справки по Microsoft 365 Домашняя или персональная**обратитесь к [разделу Использование ключей продуктов с Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).
   
  **Справка по Microsoft 365 Business Standard, приобретенных в розничном магазине**, приведена в разделе [Ввод ключа продукта, приобретенного в розничном магазине](enter-your-product-key.md). 
   
@@ -64,7 +64,7 @@ ms.locfileid: "44404686"
 
 Ознакомьтесь со списком типичных ошибок и решений: [проблемы с ключом продукта](product-key-errors-and-solutions.md)
   
-Если вы являетесь партнером, см. [Партнерам: настройка подписки клиента с помощью ключа продукта](https://support.microsoft.com/en-us/office/partners-use-a-product-key-to-set-up-a-customer-subscription-cf22c50f-95c9-4fa2-b959-c264de256d40).
+Если вы являетесь партнером, см. [Партнерам: настройка подписки клиента с помощью ключа продукта](https://support.microsoft.com/office/cf22c50f-95c9-4fa2-b959-c264de256d40).
   
 Участники программ корпоративного лицензирования могут посетить сайт [Обучающие программы и другие ресурсы Центра обслуживания для корпоративного лицензирования корпорации Майкрософт](https://go.microsoft.com/fwlink/p/?LinkId=618103).
   

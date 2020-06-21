@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
+ms.custom:
+- seo-marvel-apr2020
 description: Администраторы могут узнать о медленных почтовых правилах в панели мониторинга "почтовые потоки" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: d5317f2d45aacb91e51131bc5b8aa6e67d3ae4c7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 52ddb6bf5ab6998309fd3122c59636c14b3da1dd
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088366"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819368"
 ---
 # <a name="slow-mail-flow-rules-insight"></a>Отображение аналитики правил потока обработки почты
 
@@ -37,6 +39,6 @@ ms.locfileid: "42088366"
 
 ![Раскрывающаяся панель после нажатия кнопки Просмотреть сведения в разделе медленные почтовые ящики анализ правил в панели мониторинга почтового процесса](../../media/2cbd43b7-1f21-4338-a70c-7b50de5c69cd.png)
 
-## <a name="see-also"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями [почтовых ящиков в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).

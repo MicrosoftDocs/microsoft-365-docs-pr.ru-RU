@@ -14,23 +14,23 @@ search.appverid:
 ms.assetid: ''
 ms.collection:
 - M365-security-compliance
-description: Сведения о безопасных документах в Office 365 ATP.
-ms.openlocfilehash: e9b1fadd3e9e6dab337a0c3ded380c5c49f53bab
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+description: Сведения о надежных документах в Microsoft 365 и Microsoft 365 для обеспечения безопасности.
+ms.openlocfilehash: 1861671df5cfa9dab4b57d5fb53af8712a2a64ce
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678674"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811066"
 ---
-# <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Безопасные документы в Office 365 Advanced Threat Protection
+# <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365
 
-Безопасные документы — это функция в Office 365 Advanced Threat protection (Office 365 ATP), использующая [Advanced Threat Protection в защитнике Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для сканирования документов и файлов, открытых в [режиме защищенного просмотра](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
+Безопасные документы — это функция Microsoft 365, а также безопасность Microsoft 365, которая использует [Advanced Threat Protection в защитнике Microsoft](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для сканирования документов и файлов, которые открываются в [режиме защищенного просмотра](https://support.microsoft.com/office/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653).
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
 - Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности Microsoft 365 и Microsoft 365.
 
-- Безопасные документы в настоящее время доступны для общедоступной предварительной версии, доступной пользователям, которые входят в состав [программы предварительной оценки Office](https://insider.office.com/en-us/join) на текущем канале (Предварительная версия) с office версии 2002 (12527,20092) или выше. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
+- Безопасные документы в настоящее время доступны для общедоступной предварительной версии, доступной пользователям, которые входят в состав [программы предварительной оценки Office](https://insider.office.com/join) на текущем канале (Предварительная версия) с office версии 2002 (12527,20092) или выше. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 

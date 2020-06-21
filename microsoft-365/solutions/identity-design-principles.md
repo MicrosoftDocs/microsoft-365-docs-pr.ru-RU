@@ -14,12 +14,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 8b991fb6cf8f03f2ff686c89251f53f53f87a5e1
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 99112b70715770b24c1454fbd9442d2b5b6f08ea
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352550"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800135"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -134,7 +134,7 @@ XYZ SaaS поддерживает подготовку по требованию
 - [Защита идентификации Azure AD](https://docs.microsoft.com/azure/active-directory/identity-protection/) 
 - Служба [Advanced Threat Protection в Azure](https://docs.microsoft.com/azure-advanced-threat-protection/) (Azure ATP)
 - [Advanced Threat Protection в защитнике Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) (Майкрософт Defender ATP)
-- [Microsoft 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (Microsoft 365 ATP)
+- [Office 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) (Office 365 ATP)
 - [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/) (МКАС)
 - [Защита от угроз Майкрософт](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection?view=o365-worldwide) (MTP)
 - [Microsoft Intune](https://docs.microsoft.com/mem/intune/)
@@ -310,7 +310,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 :::image type="content" source="../media/solutions-architecture-center/identity-beyond-illustration-5.png" alt-text="высокоуровневое представление компонентов Azure для делегированного администрирования":::
 
-Как видно из предыдущего рисунка, многие другие службы должны рассматриваться как часть проекта (например, [политики Azure](https://docs.microsoft.com/azure/governance/policy/overview), схемы [асуре](https://docs.microsoft.com/azure/governance/blueprints/overview), [группы управления](https://docs.microsoft.com/azure/governance/management-groups/)и т. д.).
+Как видно из предыдущего рисунка, многие другие службы должны рассматриваться как часть проекта (например, [политики Azure](https://docs.microsoft.com/azure/governance/policy/overview), [планы Azure](https://docs.microsoft.com/azure/governance/blueprints/overview), [группы управления](https://docs.microsoft.com/azure/governance/management-groups/)и т. д.).
 
 ## <a name="conclusion"></a>Заключение
 Начало работы в кратком подотчете, закончено дольше, чем ожидалось.  Я надеюсь, что теперь вы готовы к работе с подробными сведениями о создании модели делегирования для своей организации.  Эта беседа очень распространена на пользователей. Нет одной модели, которая подходит для всех. Перед тем как приступить к документированию распространенных шаблонов, ожидающих улучшения, внесенных корпорацией Майкрософт. В то же время вы можете работать с группой учетных записей Майкрософт, чтобы упорядочить посещения ближайшего [центра технологий Майкрософт](https://www.microsoft.com/mtc).  Ознакомьтесь с этой статьей.

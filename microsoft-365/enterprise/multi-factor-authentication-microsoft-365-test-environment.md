@@ -1,5 +1,5 @@
 ---
-title: Многофакторная проверка подлинности для тестовой среды Microsoft 365 корпоративный
+title: Многофакторная проверка подлинности Microsoft 365 Enterprise тестовая среда
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,13 +14,14 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
+- seo-marvel-apr2020
 description: Настройка многофакторной проверки подлинности с помощью текстовых сообщений, отправленных на смарт-телефон в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: ae8cab25a20cc75992eecc600219d9f1dd869b63
-ms.sourcegitcommit: 8e655c6cbb91bfb97efda9a99c39fac33eaa974a
+ms.openlocfilehash: e26fb7470e01397266f5f424ee45941a79a2940c
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44213144"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819380"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Многофакторная проверка подлинности для тестовой среды Microsoft 365 корпоративный
 
@@ -43,7 +44,7 @@ ms.locfileid: "44213144"
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Перейдите к разделу [Test Lab Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для визуальной карты со всеми статьями руководства по лаборатории тестирования Microsoft 365 корпоративный.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1. Создание собственной тестовой среды Microsoft 365 корпоративный
 
@@ -60,7 +61,7 @@ ms.locfileid: "44213144"
   
 1. Откройте отдельный частный экземпляр браузера, перейдите в центр администрирования Microsoft 365 ( [https://portal.microsoft.com](https://portal.microsoft.com) ), а затем войдите с помощью учетной записи глобального администратора.
     
-2. На панели навигации слева выберите **Пользователи > Активные пользователи**.
+2. На панели навигации слева выберите элементы **Пользователи > Активные пользователи**.
     
 3. В области активные пользователи выберите **многофакторную проверку подлинности**.
     
@@ -98,7 +99,7 @@ ms.locfileid: "44213144"
     
 7. На странице **Шаг 3: сохраните существующие приложения** нажмите кнопку **Готово**.
     
-8. При первом входе в учетную запись User 2 вам будет предложено изменить пароль. Введите исходный пароль и новый пароль дважды и нажмите **Обновить пароль и войти**. Запишите новый пароль в надежном месте.
+8. If this is the first time you signed in with the User 2 account, you are prompted to change the password. Type the original password and a new password twice, and then click **Update password and sign in**. Record the new password in a secure location.
     
     Вы должны увидеть портал Office для пользователя 2 на вкладке **Microsoft Office Главная** в браузере.
 
@@ -137,7 +138,7 @@ ms.locfileid: "44213144"
 
 Чтобы получить сведения и ссылки для развертывания многофакторной проверки подлинности в рабочей среде, просмотрите этап " [Настройка многофакторной проверки подлинности](identity-secure-user-sign-ins.md#identity-mfa) " на этапе идентификации.
     
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 

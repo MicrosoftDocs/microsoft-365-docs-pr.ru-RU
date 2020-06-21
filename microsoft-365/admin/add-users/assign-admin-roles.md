@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Сведения о том, как назначать роли администратора пользователю или нескольким пользователям в вашей организации, чтобы они могли выполнять определенные задачи в центре администрирования.
-ms.openlocfilehash: 3dce88f8ea2aecc094eda7e88f2f6c03537e1fa5
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 59fc2211051aa4f122462186753e7f626715722f
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432103"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780641"
 ---
 # <a name="assign-admin-roles"></a>Назначение ролей администратора
 
@@ -46,7 +46,7 @@ ms.locfileid: "44432103"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="assign-admin-roles"></a>Назначение ролей администратора 
 

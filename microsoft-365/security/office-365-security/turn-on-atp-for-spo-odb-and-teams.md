@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1276faf9883fda9bb73674b27f3e5fb1a648d5d3
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 976911abe047be350ae6c64409cd6607ea75de7a
+ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613400"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44811078"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -71,7 +71,7 @@ ms.locfileid: "44613400"
 
 Чтобы узнать больше об использовании PowerShell с Microsoft 365, ознакомьтесь [со статьей управление microsoft 365 с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
 
-Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/en-us/office/what-to-do-when-a-malicious-file-is-found-in-sharepoint-online-onedrive-or-microsoft-teams-01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
+Чтобы узнать больше о пользовательском интерфейсе, когда файл был определен как вредоносный, посмотрите, [что делать, когда вредоносный файл обнаружен в SharePoint Online, OneDrive или Microsoft Teams](https://support.microsoft.com/office/01e902ad-a903-4e0f-b093-1e1ac0c37ad2).
 
 ## <a name="set-up-alerts-for-detected-files"></a>Настройка оповещений для обнаруженных файлов
 
@@ -87,9 +87,9 @@ ms.locfileid: "44613400"
 
 5. В разделе **отправить это оповещение, когда...** выполните следующие действия:
 
-   а) В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
+   а. В списке **действия** выберите **обнаруженная вредоносная программа в файле**.
 
-   б) Оставьте поле **Пользователи** пустым.
+   б. Оставьте поле **Пользователи** пустым.
 
 6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
 

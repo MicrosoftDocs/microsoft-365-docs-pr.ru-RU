@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: Помогите своим пользователям установить приложения Office на устройствах с Windows 10 и легко установить Office на компьютерах с Windows 10 с помощью центра администрирования Microsoft 365.
-ms.openlocfilehash: 617942c08b1fb27e8e864906774b4120486e0bb3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 9c670ba6727d47276291b1d1ba35b6431a293200
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400910"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786238"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Помогите пользователям установить Office на устройствах с Windows 10
 
@@ -46,7 +46,7 @@ ms.locfileid: "44400910"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="manage-office-deployments"></a>Управление развертываниями Office
 
@@ -65,4 +65,4 @@ ms.locfileid: "44400910"
 
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Дополнительные сведения о настройке и использовании Microsoft 365 Business Premium
 
-[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Обучающие видеоролики по Microsoft 365 для бизнеса](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -25,19 +25,19 @@ description: Сведения о том, как активировать ста�
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: de0a45fe35a53d166eb8d587a6410f91b69e3288
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 30c10efdadae1828438ea9cba01cda93adaa4f0f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402170"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818583"
 ---
 # <a name="enter-your-product-key-for-microsoft-365-business-standard"></a>Ввод ключа продукта для Microsoft 365 Business Standard
 
 Если вы приобрели Microsoft 365 бизнес Standard из розничного магазина, эта статья поможет вам активировать подписку. 
   
  **Нужно выполнить другую задачу?**
- **Для получения справки по семейству microsoft 365 или microsoft 365 персональный**обратитесь к [разделу Использование ключей продуктов с Office](https://support.office.com/article/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
+ **Для получения справки по семейству microsoft 365 или microsoft 365 персональный**обратитесь к [разделу Использование ключей продуктов с Office](https://support.microsoft.com/office/12a5763a-d45c-4685-8c95-a44500213759.aspx).  
  **Участвуете в программе корпоративного лицензирования?** Если вы приобрели Microsoft 365 для бизнеса в рамках [программы Microsoft Open License](https://go.microsoft.com/fwlink/p/?LinkID=613298), ознакомьтесь со статьей, чтобы [ввести ключ продукта, приобретенный в Microsoft Open](purchases-from-microsoft-open.md).
   
 ## <a name="activate-a-new-subscription"></a>Активация новой подписки

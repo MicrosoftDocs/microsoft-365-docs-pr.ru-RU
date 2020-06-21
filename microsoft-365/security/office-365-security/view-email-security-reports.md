@@ -1,5 +1,5 @@
 ---
-title: Просмотр отчетов о безопасности электронной почты в центре безопасности & соответствия требованиям, скомпрометированных пользователей, шифрования, состояния защиты от угроз, обнаруженных вредоносных программ, основных вредоносных программ, обнаружения нежелательной почты, отправленных и полученных сообщений, пользователи сообщили о сообщениях, сведения об обнаружении, безопасности, сведения о безопасности
+title: Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,12 +17,13 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты по обеспечению безопасности электронной почты для вашей организации. Отчеты о безопасности электронной почты доступны в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 6fc77696625fb11d4ebfc6f339939c751c7a45f2
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfee1fa2c6e515bfc10ed7a633584c54763fdec4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44613460"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819465"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
 
@@ -251,7 +252,7 @@ ms.locfileid: "44613460"
 
 Если вы не видите данные в отчетах, дважды проверьте правильность настройки политик. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз в Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Защита от нежелательной почты Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
 

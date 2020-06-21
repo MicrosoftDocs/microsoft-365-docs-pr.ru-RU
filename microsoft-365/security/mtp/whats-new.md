@@ -15,19 +15,21 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: d95879816193eb00881835b63f2aae3e232ddfb7
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: 4fc56caa9be59d1a29032ee6e4f32e50918294fe
+ms.sourcegitcommit: 3119b2246001ba06af8264508785352dfb894166
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569073"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44820552"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Что нового в службе защиты от угроз (Майкрософт)?
 
 Приведенные ниже функции обычно доступны в новейшей версии Microsoft Threat protection.
 
-RSS-канал: получите уведомление, когда эта страница будет обновлена, скопировав и вставив следующий URL-адрес в устройство чтения веб-каналов:`https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us`
-
+RSS-канал: получите уведомление, когда эта страница будет обновлена, скопировав и вставив следующий URL-адрес в устройство чтения веб-каналов:
+```http
+https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+functionality+in+Microsoft+Threat+Protection%22&locale=en-us
+```
 ## <a name="february-2020"></a>Февраль 2020 г.
 - [Инциденты](incidents-overview.md) <br> Точно знать, где началась атака, и другие сведения, которые помогут вам понять степень атаки.
 - [Автоматизированный анализ угроз и реакция на угрозы](mtp-autoir.md) <br> Благодаря AIR служба обеспечения безопасности может значительно повысить потенциал вашей организации по работе с оповещениями безопасности и инцидентами.
