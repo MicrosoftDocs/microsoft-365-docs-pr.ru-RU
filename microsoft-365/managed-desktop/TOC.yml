@@ -92,6 +92,8 @@
           items:
             - name: Microsoft Project и Microsoft Visio
               href: get-started/project-visio.md
+            - name: Новые приложения Microsoft Edge
+              href: get-started/edge-browser-app.md
     - name: 'Работа с компьютерами, управляемыми Майкрософт'
       href: working-with-managed-desktop/index.md
       items:
