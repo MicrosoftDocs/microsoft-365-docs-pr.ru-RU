@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: 'Узнайте, как предоставить пользователю право доступа к почтовому ящику другого пользователя. В результате пользователь будет иметь право на чтение почты и отправку почты из почтового ящика другого пользователя. '
-ms.openlocfilehash: 3fb920fb6f15a2ca48c5676e9b25afd1aa5263f1
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: dafe0f8c8f7d65b2721b70f6c132d179c461a89b
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44431669"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780605"
 ---
 # <a name="give-mailbox-permissions-to-another-user---admin-help"></a>Предоставление другому пользователю разрешений доступа к почтовому ящику — справка для администраторов
 
@@ -37,11 +37,11 @@ ms.locfileid: "44431669"
     
 ## <a name="looking-to-set-up-mailbox-permissions"></a>Хотите настроить разрешения для почтового ящика?
 
-Разрешения для почтового ящика позволяют предоставить другому пользователю доступ на чтение и запись к почтовому ящику. В перечисленных ниже статьях вы найдете инструкции по настройке и использованию этой функции:
+Mailbox permissions allow you to give read/write access to a mailbox to another user. The articles below might give you the help you need to set up and use this feature:
   
  **Настройка разрешений**:
   
-перед предоставлением разрешений нужно решить, какие действия другие пользователи смогут выполнять в определенном почтовом ящике. Вы можете разрешить им читать сообщения, отправлять письма от имени другого пользователя или отправлять сообщения с адреса этого почтового ящика. Сведения о том, как настроить разрешения таких типов, см. в следующих статьях:
+The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read emails from the mailbox, send emails on behalf of another user, and send emails as if they were sent from that mailbox. Refer to the following articles on how to set up each type of permissions:
   
 - [Чтение сообщений электронной почты из почтового ящика другого пользователя](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
@@ -55,7 +55,7 @@ ms.locfileid: "44431669"
   
  **Использование почтового ящика после настройки разрешений**:
   
-после предоставления доступа в почтовый ящик можно будет входить несколькими способами. Дополнительные сведения см. в следующей статье: [Доступ к почтовому ящику другого пользователя](https://support.office.com/article/Access-another-person-s-mailbox-A909AD30-E413-40B5-A487-0EA70B763081.aspx)
+There are a few different ways you can access a mailbox once you've been given access. For help on this, refer to this article: [Access another person's mailbox](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
   
 ## <a name="send-email-from-another-users-mailbox"></a>Отправка почты из почтового ящика другого пользователя
 
@@ -200,8 +200,8 @@ ms.locfileid: "44431669"
 ## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Отправка и чтение почты в Outlook и Outlook в Интернете для бизнеса
 
 
-Хотите узнать, как отправлять почту из почтового ящика другого пользователя? Ознакомьтесь со следующими разделами:
+Want to know how to send email from another user's mailbox? Check out the following topics:
   
-- [Управление элементами почты и календаря другого пользователя](https://support.office.com/article/afb79d6b-2967-43b9-a944-a6b953190af5.aspx)
+- [Управление элементами почты и календаря другого пользователя](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     
-- [Отправка почты от имени другого пользователя или группы](https://support.office.com/article/0f4964af-aec6-484b-a65c-0434df8cdb6b.aspx)
+- [Отправка почты от имени другого пользователя или группы](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)

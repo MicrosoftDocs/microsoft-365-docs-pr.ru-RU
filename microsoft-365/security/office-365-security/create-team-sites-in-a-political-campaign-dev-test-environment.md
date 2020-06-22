@@ -18,18 +18,18 @@ search.appverid:
 ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Сводка. Сведения о том, как создавать общедоступные, частные, конфиденциальные и строго конфиденциальные сайты групп SharePoint Online в среде разработки и тестирования для политической кампании.
-ms.openlocfilehash: e3223b059273f0955d7fc11f8ca98d529d946210
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d22ada823877d4c0996be942c379e12929242eaf
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036479"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755240"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>Создание сайтов групп в среде разработки и тестирования для политической кампании
 
  **Сводка.** Сведения о том, как создавать общедоступные, частные, конфиденциальные и строго конфиденциальные сайты групп SharePoint Online в среде разработки и тестирования для политической кампании. 
   
-Инструкции из этой статьи позволят создать среду разработки и тестирования, которая включает четыре разных типа сайтов групп SharePoint Online для решения [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md). Эти сайты подробно описаны в 10-й статье под названием **SharePoint и OneDrive для бизнеса**.
+Use the instructions in this article to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) solution. These sites are described in detail on Topic 10, titled **SharePoint and OneDrive for Business**.
   
 ## <a name="phase-1-create-your-political-campaign-devtest-environment"></a>Этап 1. Создание среды разработки и тестирования для политической кампании
 
@@ -39,7 +39,7 @@ ms.locfileid: "44036479"
 
 На этом этапе вы создадите метки разных уровней защиты для папок документов на сайтах групп SharePoint Online.
   
-1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Справку см. в статье [Вход в Microsoft 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. При необходимости войдите в Центр администрирования, используя учетные данные глобального администратора пробной подписки. Справку см. в статье [Вход в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. На вкладке **Домашняя страница Microsoft Office** щелкните плитку **Администрирование**.
     
@@ -213,7 +213,7 @@ ms.locfileid: "44036479"
     
 4. В разделе **Параметры — применение метки** выберите метку **Конфиденциальный** и нажмите кнопку **Сохранить**.
     
-Настройте политику защиты от потери данных (DLP), которая уведомляет пользователей, когда они предоставляют доступ к документу на сайте группы SharePoint Online с меткой "Конфиденциальный" внешним пользователям. Такая политика будет применяться к ресурсам на сайте "Маркетинг кампании".
+Next, configure a data loss prevention (DLP) policy that notifies users when they share a document on a SharePoint Online team site with the Sensitive label outside the organization. This DLP policy will apply to resources in the Campaign marketing site.
   
 1. На вкладке браузера **Домашняя страница Microsoft Office** щелкните плитку **Безопасность и соответствие требованиям**.
     
@@ -245,7 +245,7 @@ ms.locfileid: "44036479"
     
 15. В текстовом поле введите или вставьте следующее:
     
-  - Чтобы предоставить доступ пользователю за пределами организации, скачайте файл и откройте его. Выберите пункты "Файл > Защитить документ > Зашифровать паролем", а затем укажите надежный пароль. Отправьте пароль в отдельном сообщении или с помощью других средств связи.
+  - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
     
 16. Нажмите кнопку **ОК**.
     
@@ -310,7 +310,7 @@ ms.locfileid: "44036479"
     
 - Участники не могут менять разрешения на уровне сайта (это могут делать только члены группы **Стратегия кампании — владельцы**).
     
-- Другие учетные записи пользователей не могут получать доступ к сайту и его ресурсам, а также запрашивать доступ к нему. Дополнительные разрешения для сайта должен задавать глобальный администратор или участник группы **Стратегия кампании — владельцы**.
+- Other user accounts cannot access the site or its resources or request access to the site. Additional permissions to the site must be done by the global administrator or by a member of the **Campaign strategy-Owners** group.
     
 Затем настройте папку документов на сайте стратегической группы кампании на использование метки "Строго конфиденциальный".
   
@@ -322,7 +322,7 @@ ms.locfileid: "44036479"
     
 4. В разделе **Параметры — применение метки** выберите метку **Строго конфиденциальный** и нажмите кнопку **Сохранить**.
     
-Настройте политику защиты от потери данных, которая блокирует попытки предоставить внешним пользователям доступ к документу на сайте группы SharePoint Online с меткой "Строго конфиденциальный". Такая политика будет применяться к ресурсам на сайте "Стратегия кампании".
+Next, configure a DLP policy that blocks users when they share a document on a SharePoint Online team site with the Highly Confidential label outside the organization. This DLP policy will apply to resources in the Campaign strategy site.
   
 1. При необходимости используйте браузер на локальном компьютере и войдите в центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com)) с помощью учетной записи, у которой есть роль администратора безопасности или администратора компании.
     
@@ -356,7 +356,7 @@ ms.locfileid: "44036479"
     
 16. В текстовом поле введите или вставьте следующее:
     
-  - Чтобы предоставить доступ пользователю за пределами организации, скачайте файл и откройте его. Выберите пункты "Файл > Защитить документ > Зашифровать паролем", а затем укажите надежный пароль. Отправьте пароль в отдельном сообщении или с помощью других средств связи.
+  - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
     
 17. Нажмите кнопку **ОК**.
     
@@ -370,7 +370,7 @@ ms.locfileid: "44036479"
   
 Затем настройте для Azure Information Protection новую политику области и вложенную метку для защиты и разрешений, выполнив следующие действия:
   
-1. Войдите в Центр администрирования, используя учетную запись с ролью администратора компании или администратора безопасности. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Войдите в Центр администрирования, используя учетную запись с ролью администратора компании или администратора безопасности. Дополнительные сведения см. в статье [Вход в Office 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
 2. Перейдите на портал Azure ([https://portal.azure.com](https://portal.azure.com)), открыв отдельную вкладку браузера.
     
@@ -406,7 +406,7 @@ ms.locfileid: "44036479"
     
 19. Щелкните **Выбрать > ОК**.
 
-20. Выберите элемент **Добавить или удалить метки**. На панели **Политики: добавление и удаление меток** нажмите **СтратегияКампании**, а затем — **ОК**.   
+20. Click **Add or remove labels**. In the **Policy: Add or remove labels** pane, click **CampaignStrategy**, and then click **OK**.   
 
 21. Нажмите кнопку **Сохранить**, а затем — **ОК**.
   

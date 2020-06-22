@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a66a5b6f6ad2480dfc3af212e7663ad3f869d10
-ms.sourcegitcommit: daad5f2f1994a812c2b9c78e7dd148d10c51f61d
+ms.openlocfilehash: 9d678ca5ee9b8a8ebf4feadfb27826caa533967e
+ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44254322"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773866"
 ---
 # <a name="european-union-model-clauses"></a>Типовые условия ЕС
 
@@ -86,7 +86,7 @@ ms.locfileid: "44254322"
 - [Директива ЕС о защите данных](https://aka.ms/EU-DPD)
 - [Европейский совет по защите данных](https://edpb.europa.eu/)
 - [Типовые условия ЕС: вопросы и ответы по Dynamics 365 и Office 365](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
-- [Майкрософт и соглашение о правилах обмена конфиденциальной информацией между ЕС и США](https://go.microsoft.com/fwlink/p/?linkid=2099701)
+- [Майкрософт и соглашение о правилах обмена конфиденциальной информацией между ЕС и США](offering-eu-us-privacy-shield.md)
 - [Центральная инфраструктура соответствия требованиям для стандартных элементов управления (Майкрософт)](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Условия использования веб-служб Майкрософт](https://aka.ms/Online-Services-Terms)
 - [Соответствие требованиям в центре управления безопасностью Майкрософт](https://www.microsoft.com/trust-center/compliance/compliance-overview)

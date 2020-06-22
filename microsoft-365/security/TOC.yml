@@ -230,7 +230,7 @@
               href: mtp/feedback.md
             - name: Управление билетами с помощью ServiceNow
               href: ./mtp/tickets.md
-    - name: "Безопасность в Microsoft\_365"
+    - name: "Office\_365 Advanced Threat Protection"
       items:
         - name: Начало работы
           items:

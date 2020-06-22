@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c02e27ccf6b4c1a1c03849d1f599acef43385668
-ms.sourcegitcommit: dbc9ff159ed41160d8883c8a9787eba50b45f50b
+ms.openlocfilehash: da379da565f853561141888c4f275852f0044103
+ms.sourcegitcommit: 89636f35b0194986f156302fc1bb96af25d4805b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278462"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44800004"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>Стандарты управления информационной безопасностью ISO/IEC 27001:2013
 
@@ -45,7 +45,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 - Advanced Threat Protection в Microsoft Defender
 - [Dynamics 365, Dynamics 365 для государственных учреждений и Dynamics 365 Германия](https://aka.ms/d365-compliance-list)
 - Microsoft Graph
-- Бот Microsoft для здравоохранения
+- Microsoft Healthcare Bot
 - Intune
 - Компьютеры, управляемые Майкрософт
 - Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
@@ -59,6 +59,7 @@ ISO/IEC 27001 — это стандарт безопасности, которы
 - [Профессиональные услуги Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=2100022)
 - Microsoft Stream
 - Microsoft Threat эксперт
+- Microsoft Translator
 
 ## <a name="audits-reports-and-certificates"></a>Аудит, отчеты и сертификаты
 
