@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте политику хранения, чтобы заранее решить, следует ли сохранить контент, удалить контент или и то, и другое - сохранить, а затем удалить контент; применять единую политику ко всей организации или конкретным местам или пользователям; и применять политику ко всему контенту или контенту, отвечающему определенным условиям.
-ms.openlocfilehash: 35c93ed6ee942f9553e196d3f15634e53c0bf25d
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 12b0c15186a27a1583403214a657367c1dd3b1a9
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352236"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844755"
 ---
 # <a name="create-and-configure-retention-policies"></a>Создание и настройка политик хранения
 
@@ -34,7 +34,7 @@ ms.locfileid: "44352236"
 
 ## <a name="before-you-begin"></a>Перед началом работы
 
-Членам вашей группы по соответствию, которая будет создавать политики хранения и управлять ими, необходимы разрешения для [Центра соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). По умолчанию ваш администратор клиента имеет доступ к этому местоположению и может предоставить сотрудникам, отвечающим за соблюдение нормативных требований, и другим людям доступ без предоставления им всех разрешений администратора клиента. Для этого мы рекомендуем перейти на страницу **Разрешения** в [Центре соответствия Microsoft 365](https://compliance.microsoft.com/), отредактировать роль **администратора соответствия** и добавить участников в эту группу ролей. 
+Участникам команды по обеспечению соответствия требованиям, которые будут создавать политики хранения и управлять ими, потребуются разрешения для [Центра соответствия требованиям Microsoft 365](https://compliance.microsoft.com/). По умолчанию администратор клиента (глобальный администратор) имеет доступ к этому расположению и может предоставлять сотрудникам, отвечающим за соблюдение требований, и другим пользователям доступ без предоставления им всех разрешений администратора клиента. Чтобы предоставить разрешения для ограниченного администрирования, мы рекомендуем добавить пользователей в группу административных ролей **Администратор соответствия требованиям**. Инструкции см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center).
 
 Эти разрешения необходимы только для создания и применения политики хранения. Лицу, настраивающему политику хранения, не требуется доступ к контенту.
 
@@ -66,7 +66,7 @@ ms.locfileid: "44352236"
 
 Чтобы сохранить или удалить содержимое для группы Microsoft 365 (ранее группы Office 365), выберите расположение **групп Office 365** при выборе местоположений для своей политики хранения. Несмотря на то, что в группе Microsoft 365 есть почтовый ящик Exchange, политика хранения, включающая все расположение **электронной почты Exchange**, не будет включать содержимое в почтовые ящики группы Microsoft 365. Дополнительно, хотя местоположение **электронной почты Exchange** изначально позволяет указать групповой почтовый ящик, который будет включен или исключен, при попытке сохранить политику хранения выдается сообщение о том, что «RemoteGroupMailbox» не является допустимым выбором для местоположения Exchange.
 
-Политика хранения, примененная к группе Microsoft 365, охватывает как сайт, так и почтовый ящик группы. Политика хранения, применяемая к группе Microsoft 365, защищает ресурсы, созданные группой Microsoft 365, в которую входят Microsoft Teams.
+Политика хранения, применяемая к группе Microsoft 365, включает как сайт, так и почтовый ящик группы. Политика хранения, применяемая к группе Microsoft 365, защищает ресурсы, созданные группой Microsoft 365, в которую входят Microsoft Teams.
 
 ### <a name="configuration-information-for-skype-for-business"></a>Информация о конфигурации для Skype для бизнеса
 
@@ -78,7 +78,7 @@ ms.locfileid: "44352236"
   
 ![Выбор страницы пользователей Skype](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
-Обратите внимание, что **Журнал бесед**, папка в Outlook, не имеет отношения к архивам Skype. **Журнал бесед** может быть отключен пользователем, однако архивация для Skype выполняется путем сохранения копии бесед Skype в скрытой папке, не доступной для пользователя, но доступной для обнаружения электронных данных.
+Note that **Conversation History**, a folder in Outlook, is a feature that has nothing to do with Skype archiving. **Conversation History** can be turned off by the end user, but archiving for Skype is done by storing a copy of Skype conversations in a hidden folder that is inaccessible to the user but available to eDiscovery.
 
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>Настройки для сохранения и удаления контента
@@ -113,7 +113,7 @@ ms.locfileid: "44352236"
   
 Представьте, что вы создали политику хранения, согласно которой содержимое удаляется через три года, а затем назначили эту политику всем учетным записям OneDrive, содержащим большой объем данных, которые были созданы четыре или пять лет назад. В этом случае значительная доля содержимого будет удалена вскоре после первого назначения этой политики хранения. По этой причине важно понимать, что политика хранения, которая удаляет контент, может оказать значительное влияние на ваш контент. 
   
-Потому перед первым назначением политики хранения семейству веб-сайтов следует сначала определить возраст содержимого и подумать о том, как может эта политика повлиять на такое содержимое. Кроме того, может потребоваться уведомить ваших пользователей о новой политике, прежде чем назначать ее, чтобы у них было время оценить возможное ее влияние. Обратите внимание на это предупреждение, которое появляется при просмотре параметров политики хранения непосредственно перед ее созданием.
+Therefore, before you assign a retention policy to a site collection for the first time, you should first consider the age of the existing content and how the policy may impact that content. You may also want to communicate the new policy to your users before assigning it, to give them time to assess the possible impact. Note this warning that appears when you review the settings for your retention policy just before creating it.
   
 ![Предупреждение об удалении содержимого](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
@@ -135,7 +135,7 @@ ms.locfileid: "44352236"
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>Определите контент, который содержит конфиденциальную информацию
 
-Политику хранения можно также применить только к содержимому с [определенными типами конфиденциальной информации](what-the-sensitive-information-types-look-for.md). Например, можно установить уникальные требования к хранению только содержимого, которое включает такие персональные данные, как идентификационные номера налогоплательщиков, номера социального страхования или номера паспортов.
+You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personally identifiable information (PII) such as taxpayer identification numbers, social security numbers, or passport numbers.
   
 ![Страница типов конфиденциальной информации](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
@@ -229,7 +229,7 @@ ms.locfileid: "44352236"
 
 ## <a name="lock-a-retention-policy-by-using-powershell"></a>Блокировка политики хранения с помощью PowerShell
 
-Вы должны использовать PowerShell, если вам нужно использовать [Блокировку сохранения](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements) для соответствия нормативным требованиям.
+Вы должны использовать PowerShell, если вам нужно применить [Блокировку для сохранения](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements) для соответствия нормативным требованиям.
 
 1. [Подключитесь к PowerShell Центра безопасности и соответствия требованиям Office 365](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 

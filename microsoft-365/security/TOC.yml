@@ -69,29 +69,20 @@
               href: mtp/setup-mtpeval.md
             - name: Настройка и внедрение
               href: mtp/config-mtpeval.md
-            - name: Включение Защиты от угроз (Майкрософт)
-              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
+            - name: Запуск службы защиты от угроз (Майкрософт)
+              href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#start-the-microsoft-threat-protection-service'
             - name: Создание тестового оповещения
               href: mtp/generate-test-alert.md
         - name: Практические руководства
           items:
             - name: Создание испытательной лабораторной среды
               href: mtp/mtp-evaluation.md
-              items:
-                - name: Подготовка
-                  href: mtp/prepare-mtpeval.md
-                - name: Настройка
-                  href: mtp/setup-mtpeval.md
-                - name: Настройка и внедрение
-                  href: mtp/config-mtpeval.md
-                - name: Включение Защиты от угроз (Майкрософт)
-                  href: 'https://docs.microsoft.com/microsoft-365/security/mtp/config-mtpeval?view=o365-worldwide#turn-on-microsoft-threat-protection'
-                - name: Создание тестового оповещения
-                  href: mtp/generate-test-alert.md
             - name: Развертывание поддерживаемых служб
               href: mtp/deploy-supported-services.md
             - name: Включение Защиты от угроз (Майкрософт)
               href: mtp/mtp-enable.md
+            - name: Включение вопросов и ответов
+              href: mtp/mtp-enable-faq.md
             - name: Инциденты
               items:
                 - name: Обзор
@@ -196,14 +187,10 @@
                       href: mtp/custom-detections-overview.md
                     - name: Создание и управление правилами обнаружения
                       href: mtp/custom-detection-rules.md
-            - name: Оценка безопасности
+            - name: Оценка безопасности (Майкрософт)
               items:
-                - name: Оценка безопасности (новая)
-                  href: mtp/microsoft-secure-score-new.md
-                - name: Безопасная оценка (предыдущая итерация)
+                - name: Обзор оценки безопасности
                   href: mtp/microsoft-secure-score.md
-                - name: Оценка безопасности (предварительная версия)
-                  href: mtp/microsoft-secure-score-preview.md
                 - name: Что вскоре появится
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Отчеты
@@ -324,6 +311,8 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
+                - name: Управление URL-адресами и файлами в списке разрешенных и заблокированных клиентов
+                  href: ./office-365-security/tenant-allow-block-list.md
             - name: Защита от фишинга
               href: ./office-365-security/anti-phishing-protection.md
               items:
