@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Узнайте, как распознать компрометацию учетной записи электронной почты с помощью средств Microsoft 365 и какие принять меры.
-ms.openlocfilehash: adf1ded6fb88cc26e96840dc2a8bfe20300205dc
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 8a7bb98432529bfca70764314d251810d3cdb2a4
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588220"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819489"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>Реагирование на компрометацию учетной записи электронной почты
 
@@ -98,7 +98,7 @@ ms.locfileid: "44588220"
 - Если ваше локальное удостоверение связано федеративным доступом с Microsoft 365, необходимо сменить локальный пароль, а затем оповестить администратора о компрометации.
 
 > [!TIP]
-> Настоятельно рекомендуется включить многофакторную проверку подлинности (MFA), чтобы предотвратить компрометацию, особенно для учетных записей с правами администратора.  Дополнительные сведения о MFA см. [здесь](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
+> Настоятельно рекомендуется включить многофакторную проверку подлинности (MFA), чтобы предотвратить компрометацию, особенно для учетных записей с правами администратора.  Дополнительные сведения о MFA см. в статье [Настройка многофакторной проверки подлинности]((https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>Шаг 2. Удалите подозрительные адреса перенаправления почты
 

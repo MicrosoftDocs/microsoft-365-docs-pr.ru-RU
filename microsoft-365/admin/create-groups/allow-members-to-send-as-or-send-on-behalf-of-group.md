@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: Сведения о том, как разрешить участникам отправлять электронную почту как группу Microsoft 365 или отправлять электронную почту от имени группы Майкрософт 365.
-ms.openlocfilehash: 3a93dda83b10d7c38c8c6e7d8fd484b37df565d0
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 090a5e177ed843c035155cd735e0b7b9560e5631
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780473"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844672"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>Разрешение пользователям отправлять сообщения от имени группы или отправлять от него
 
@@ -76,8 +76,11 @@ ms.locfileid: "44780473"
 5. Введите имя, чтобы найти пользователя, или выберите его из списка. Нажмите кнопку **ОК** и **Сохраните**.
     
     ![Введите текст для поиска или выберите пользователя из списка.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    
+> [!NOTE]
+> Чтобы изменения вступили в силу, может потребоваться до двух часов.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Дополнительные сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 

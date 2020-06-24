@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: 'Используйте этот контрольный список, чтобы удалить сотрудника из Microsoft 365 и защищенных данных. '
-ms.openlocfilehash: adf5c683828b30a978199145fa2c54f17d1b6b37
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 51fd26835cd74fa8403437397d37395fcf1c7301
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780581"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844862"
 ---
 # <a name="remove-a-former-employee"></a>Удаление бывшего сотрудника
 
@@ -49,11 +49,11 @@ ms.locfileid: "44780581"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfR] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Чтобы удалить сотрудника, выполните указанные ниже действия.
+Чтобы запретить сотруднику входить в систему:
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы.
 
 2. Установите флажок рядом с именем пользователя, а затем нажмите кнопку **сбросить пароль**.
 
@@ -65,7 +65,7 @@ ms.locfileid: "44780581"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите пользователя, а затем нажмите кнопку **сбросить пароль**.
 
@@ -77,7 +77,7 @@ ms.locfileid: "44780581"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите пользователя, а затем нажмите кнопку **сбросить пароль**.
 
@@ -153,7 +153,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-worldwide"  
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите имя сотрудника, которого вы хотите заблокировать, а затем перейдите на вкладку **почта** .
 
@@ -169,7 +169,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите сотрудника, для которого вы хотите заблокировать и развернуть **Параметры почты**.
 
@@ -185,7 +185,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите сотрудника, для которого вы хотите заблокировать и развернуть **Параметры почты**.
 
@@ -228,7 +228,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите имя сотрудника, которого вы хотите заблокировать, и под именем пользователя выберите символ для **блокирования этого пользователя**.
 
@@ -238,7 +238,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите сотрудника, которого вы хотите заблокировать, а затем выберите пункт **блокировать вход**.
 
@@ -248,7 +248,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите сотрудника, которого вы хотите заблокировать, а затем выберите пункт **блокировать вход**.
 
@@ -279,7 +279,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите имя сотрудника, которого вы хотите заблокировать, а затем перейдите на вкладку **лицензии и приложения** .
 
@@ -289,7 +289,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите сотрудника, которого вы хотите заблокировать, а затем рядом с пунктом **лицензии на продукты**выберите **изменить**.
 
@@ -299,7 +299,7 @@ Here's a quick overview. Each step is explained in detail in this article.
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите сотрудника, которого вы хотите заблокировать, а затем рядом с пунктом **лицензии на продукты**выберите **изменить**.
 
@@ -353,7 +353,7 @@ Don't delete the account if you've set up email forwarding or converted it to a 
 
 ::: moniker range="o365-worldwide"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите имя сотрудника, которого вы хотите удалить.
 
@@ -363,7 +363,7 @@ Don't delete the account if you've set up email forwarding or converted it to a 
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите имя сотрудника, которого вы хотите удалить.
 
@@ -373,7 +373,7 @@ Don't delete the account if you've set up email forwarding or converted it to a 
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. Выберите имя сотрудника, которого вы хотите удалить.
 
@@ -418,7 +418,7 @@ When you delete a user, the account becomes inactive for approximately 30 days. 
   
  **Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Azure Active Directory admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Azure Active Directory admin center/Exchange admin center will be overwritten by DirSync. 
   
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Восстановление пользователя](restore-user.md)
   

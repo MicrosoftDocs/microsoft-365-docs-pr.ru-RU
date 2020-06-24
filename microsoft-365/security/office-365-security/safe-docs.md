@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Сведения о надежных документах в Microsoft 365 и Microsoft 365 для обеспечения безопасности.
-ms.openlocfilehash: 1861671df5cfa9dab4b57d5fb53af8712a2a64ce
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: c574e28a01dc961d898638184afe9ece90e31133
+ms.sourcegitcommit: aa7f7350d1342ff9713bb840b2cc96d1a4234ef4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811066"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44835355"
 ---
 # <a name="safe-documents-in-microsoft-365-e5"></a>Безопасные документы в Microsoft 365
 
@@ -28,9 +28,9 @@ ms.locfileid: "44811066"
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>Что нужно знать перед началом работы
 
-- Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности Microsoft 365 и Microsoft 365.
+- Безопасные документы теперь доступны пользователям Office версии 2004 (12730. x) или выше. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
 
-- Безопасные документы в настоящее время доступны для общедоступной предварительной версии, доступной пользователям, которые входят в состав [программы предварительной оценки Office](https://insider.office.com/join) на текущем канале (Предварительная версия) с office версии 2002 (12527,20092) или выше. Эта функция отключена по умолчанию и должна быть включена администратором безопасности.
+- Эта функция доступна только пользователям, у которых есть лицензия на систему безопасности *microsoft 365* и *Microsoft 365* (не входит в планы ATP Office 365).
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
@@ -40,7 +40,7 @@ ms.locfileid: "44811066"
 
 Чтобы защититься от вирусов, безопасные документы отправляют файлы в облако [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) для анализа.
 
-- Сведения о том, как служба защитника (Advanced Thread Protection) отвечает [за поиск данных](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- Сведения об обработке данных с помощью Advanced Threat Protection в защитнике Майкрософт можно найти [здесь](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - В дополнение к рекомендациям, описанным выше, файлы, отправленные безопасными документами, не сохраняются в защитнике за пределами времени, необходимого для анализа, что обычно составляет менее 24 часов.
 
 ## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>Использование центра безопасности & соответствия требованиям для настройки безопасных документов
@@ -51,7 +51,7 @@ ms.locfileid: "44811066"
 
 3. В разделе **Помогите людям безопасно оставаться безопасными, когда вы доверяете файлу для открытия раздела "защищенный просмотр в приложениях Office** ", настройте один из следующих параметров:
 
-   - **Включение безопасных документов для клиентов Office (файлы также будут отправляться в облако Майкрософт для глубокого анализа)**
+   - **Включение безопасных документов для клиентов Office**
 
    - **Разрешить пользователям щелкать в режиме защищенного просмотра, даже если документы распознает файл как вредоносный**: не рекомендуется включать этот параметр.
 
@@ -64,7 +64,7 @@ ms.locfileid: "44811066"
 Используйте следующий синтаксис:
 
 ```powershell
-Set-AtpPolicyForO365 -EnableSafeDocs <$true|$false> -AllowSafeDocsOpen <$true|$false>
+Set-AtpPolicyForO365 -EnableSafeDocs <$true | $false> -AllowSafeDocsOpen <$true | $false>
 ```
 
 - Параметр _енаблесафедокс_ включает или отключает безопасные документы для всей Организации.

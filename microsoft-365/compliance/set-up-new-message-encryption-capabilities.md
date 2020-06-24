@@ -16,13 +16,14 @@ ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Новые возможности шифрования сообщений Office 365, основанные на Azure Information Protection, помогают защитить переписку с людьми внутри вашей организации и вне ее. Они поддерживают другие организации, Outlook.com, Gmail и прочие почтовые службы.
-ms.openlocfilehash: 95ac1528c59dc3f59e0d0e923d78ffb7138456d5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте о новых возможностях шифрования сообщений Office 365, позволяющих защитить переписку с людьми внутри и за пределами вашей организации.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6d6e37da7456cfbb0b7cbf8d986b54615aca60f0
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635471"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819189"
 ---
 # <a name="set-up-new-message-encryption-capabilities"></a>Настройка новых возможностей шифрования сообщений
 

@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ba603f3703a7d4b6df567f8299af9f1804e42b96
-ms.sourcegitcommit: 3274b65a3932288721541d2b3fa5ecbf4c51e1ab
+ms.openlocfilehash: 60d0383f3acae73c36383b65daaac405a4e20bd3
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702574"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854368"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Настройка принципов защиты от угроз Майкрософт для испытательной лабораторной среды
 
@@ -237,7 +237,7 @@ ms.locfileid: "44702574"
 16. Прокрутите список вниз и нажмите кнопку **сохранить настройки** , чтобы подтвердить новые интеграции.
 <br>![Изображение of_Save кнопка "Параметры", которую нужно щелкнуть](../../media/mtp-eval-72.png) <br>
 
-## <a name="turn-on-microsoft-threat-protection"></a>Включение Защиты от угроз (Майкрософт)
+## <a name="start-the-microsoft-threat-protection-service"></a>Запуск службы Microsoft Threat protection
 >[!NOTE]
 >Начиная с 1 июня 2020 г. Корпорация Майкрософт автоматически включает функции защиты от угроз Майкрософт для всех соответствующих клиентов. Подробные сведения можно узнать [в этой статье сообщества Майкрософт в конференции](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) . 
 <br>
@@ -245,7 +245,10 @@ ms.locfileid: "44702574"
 Перейдите в [Центр безопасности Microsoft 365](https://security.microsoft.com/homepage). Перейдите в раздел **Параметры** и выберите **Защита от угроз Майкрософт**.
 <br>![Снимок экрана с вариантом of_Microsoft защиты от угроз на странице параметров центра безопасности Microsoft 365](../../media/mtp-eval-72b.png) <br>
 
+Более подробная информация приведена в статье [Включение защиты от угроз Майкрософт](mtp-enable.md). 
+
 Поздравляем! Вы только что создали среду пробной лаборатории Майкрософт по защите от угроз! Теперь вы можете имитировать атаку и узнать, как обнаруживаются возможности, создавать оповещения и автоматически отвечать на атаки, не имеющие файлов в конечной точке.
+
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Создание тестового оповещения](generate-test-alert.md).

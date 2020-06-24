@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: bbc7d5d434765b94b0b2707605be2edfbbc8e423
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: e19e5758f4d42799c96ecec51fd6295e3da19f9b
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661985"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844922"
 ---
 # <a name="troubleshoot-microsoft-threat-protection-service-issues"></a>Устранение проблем службы защиты от угроз (Майкрософт)
 
@@ -44,12 +44,7 @@ ms.locfileid: "41661985"
 
 Дополнительные сведения см. в статье [Интеграция Azure ATP](https://docs.microsoft.com/cloud-app-security/aatp-integration).
 
-## <a name="is-microsoft-threat-protection-available-for-us-government-community-cloud-gcc-or-gcc-high"></a>Доступна ли защита от угроз (Майкрософт) в облаке сообщества для государственных учреждений США (GCC) или GCC High?
-В настоящее время она недоступна.
-
 ## <a name="where-is-the-settings-page-for-turning-the-service-on"></a>Где находится страница параметров для включения службы?
 Чтобы включить защиту от угроз Майкрософт, **Параметры** доступа из области навигации центра безопасности Microsoft 365. Этот элемент навигации отображается, только если у вас есть необходимые [разрешения и лицензии](mtp-enable.md#check-license-eligibility-and-required-permissions).
-
-## <a name="can-i-use-an-add-on-instead-of-the-required-e5-licenses"></a>Можно ли использовать надстройку вместо обязательных лицензий на водопериод?
-В настоящее время нет надстроек для защиты от угроз Майкрософт. [Просмотр требований к лицензированию](prerequisites.md) 
+ 
 

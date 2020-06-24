@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Узнайте, как добавлять гостей в группу Microsoft 365, просматривать гостевых пользователей и использовать PowerShell для управления гостевым доступом.
-ms.openlocfilehash: fe72f5e831215730a1ac79bcce2296d53b969c9c
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 0322bd269f1c5637627461d136b40f6af4fc9540
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761666"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854250"
 ---
 # <a name="manage-guest-access-in-microsoft-365-groups"></a>Управление гостевым доступом в группах Microsoft 365
 
@@ -47,7 +47,7 @@ ms.locfileid: "44761666"
 
 Если вы хотите включить или отключить гостевой доступ в группах, это можно сделать в центре администрирования Microsoft 365.
 
-1. В центре администрирования перейдите к **Settings** \> **параметрам Организации** параметры и на вкладке **службы** выберите пункт **Microsoft 365 группы**.
+1. В центре администрирования перейдите в раздел **Показать все** \> **Параметры** \> **организационных параметров** и на вкладке **службы** выберите пункт **Microsoft 365 группы**.
   
 2. На странице " **группы Microsoft 365** " выберите, следует ли разрешить пользователям, не входящим в организацию, получать доступ к ресурсам группы или разрешить владельцам групп добавлять людей вне Организации в группы.
 
@@ -128,7 +128,7 @@ Get-AzureADUser -Filter "userType eq 'Guest'"
 Set-AzureADUser -ObjectId cfcbd1a0-ed18-4210-9b9d-cf0ba93cf6b2 -ShowInAddressList $true -GivenName 'Megan' -Surname 'Bowen' -DisplayName 'Megan Bowen' -TelephoneNumber '555-555-5555'
 ```
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Управление членством в группах в центре администрирования Microsoft 365](add-or-remove-members-from-groups.md)
   

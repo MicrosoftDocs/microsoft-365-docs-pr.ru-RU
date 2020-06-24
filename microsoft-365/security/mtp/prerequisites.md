@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f63c59403e84e79d1a4a5cf2b8a5544f5646781c
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: c64adf870d3669b983e11093196f59c82b1f59e0
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773855"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844910"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Предварительные требования для Защиты от угроз (Майкрософт)
 
@@ -60,7 +60,7 @@ ms.locfileid: "44773855"
 > Для просмотра сведений о лицензии необходимо назначить роль **администратора выставления счетов** или роль **глобального читателя** [в Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) . Если у вас возникли проблемы с доступом, обратитесь к глобальному администратору.
 
 ## <a name="required-permissions"></a>Обязательные разрешения
-Чтобы получить список необходимых ролей и способ управления доступом к данным, прочитайте сведения об [управлении доступом к защите от угроз Майкрософт](mtp-permissions.md).
+Чтобы включить защиту от угроз Майкрософт, необходимо быть **глобальным администратором** или **администратором безопасности** в Azure Active Directory. Список ролей, необходимых для использования защиты от угроз Майкрософт, и сведения о контролируемом доступе к данным, читайте в статье [Управление доступом к защите от угроз Майкрософт](mtp-permissions.md).
 
 ## <a name="browser-requirements"></a>Требования к браузеру
 Доступ к защите от угроз Майкрософт в центре безопасности Microsoft 365 с помощью Microsoft EDGE, Internet Explorer 11 или любого совместимого с HTML 5 веб-браузера.

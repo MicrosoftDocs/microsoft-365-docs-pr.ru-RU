@@ -16,12 +16,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Развертывание функций обеспечения безопасности и соответствия требованиям Microsoft 365 и защита личных сведений.
-ms.openlocfilehash: 5a6cc6645be6cad4d901922c0a257d2175c85341
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 2ec8d280d650606921becb6120546b52253620f4
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695153"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844696"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Защита данных в соответствии с нормами конфиденциальности данных
 
@@ -283,11 +283,8 @@ DLP используется для идентификации документ�
 
 ![Пример меток конфиденциальности, работающих с DLP](../media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
-<!--
+[Просмотреть увеличенную версию этого изображения](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
 
-[See a larger version of this image](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/information-protection-deploy-protect-information/information-protection-deploy-protect-information-sensitivity-lables-dlp.png)
-
--->
 Ниже приведены сценарии защиты данных с использованием меток защиты от потери данных и меток конфиденциальности, как показано на рисунке.
 
 | Сценарий | Процесс |

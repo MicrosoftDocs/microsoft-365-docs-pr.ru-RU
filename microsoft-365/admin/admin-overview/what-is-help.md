@@ -3,11 +3,10 @@ title: Получение справки в центре администрир�
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-layout: LandingPage
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: landing-page
+ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -22,12 +21,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Узнайте обо всех способах получения справки по использованию центра администрирования Microsoft 365.
-ms.openlocfilehash: eea5e58ba571cebd7d73202fa8f6c01ba06b8e44
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b10eb75e1a7d02c384c915ad814dddc9f3c6954f
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44386773"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844720"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -35,66 +34,11 @@ ms.locfileid: "44386773"
 
 Если вы администратор, [Admin.Microsoft.com](https://admin.microsoft.com) — это место для управления подпиской на Microsoft 365 и ее подготовки. Иногда вам не удастся найти нужную задачу, нужен больший контекст, прежде чем приступать к для рабочего процесса, или просто не уверены в области и влиянии ваших действий в качестве администратора. Чтобы охватить эти ситуации, мы предоставляем современная помощь и интеллектуальную помощь в центре администрирования Microsoft 365 следующим образом:
 
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Интегрированная Справка</h3>
-                            <p>Справка в центре администрирования</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#modern-self-help-powered-by-ai">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Интеллектуальная поддержка</h3>
-                            <p>Самостоятельная помощь на платформе AI</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <a href="what-is-help.md#guides-and-articles">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Руководства и статьи</h3>
-                            <p>Полный контент в Интернете</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
- 
+* **Интегрированная Справка** — Справка в центре администрирования
+
+* **Интеллектуальные помощники** — самостоятельная помощь на платформе AI
+
+* **Руководства и статьи** — исчерпывающее содержимое в Интернете
 
 ## <a name="integrated-help"></a>Интегрированная Справка
 

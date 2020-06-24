@@ -24,18 +24,20 @@ description: 'Сведения о подписках и лицензиях в Mi
 ms.custom:
 - okr_SMB
 - AdminSurgePortfolio
-ms.openlocfilehash: 5ed1925fd51dd1798d4c6ab275494fde01535177
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f83b2069bd1b4c86e2198252a54ed2e8e5c55a04
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402406"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844684"
 ---
 # <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>Общие сведения о подписках и лицензиях в Microsoft 365 для бизнеса
 
 В этой статье объясняется связь между подписками и лицензиями и предоставляются дополнительные сведения о том [, кто может назначать лицензии](#find-out-who-can-assign-licenses), сведения о том, [что происходит при назначении лицензии другому пользователю](#understand-what-happens-when-you-assign-a-license-to-someone), а [также о количестве устройств, на которых пользователи могут устанавливать Office](#how-many-devices-can-people-install-office-on). Здесь также содержатся ссылки на [Общие сведения о лицензиях для почтовых ящиков, не являющихся пользователями](#understand-licenses-for-non-user-mailboxes), а также [статьи об управлении лицензиями](#articles-about-managing-licenses).
   
 При покупке подписки на Microsoft 365 для бизнеса вы регистрируете набор приложений и служб, которые оплачиваются ежемесячно или ежегодно. Приложения и службы, которые вы получаете в рамках вашей подписки, зависят от того, какой продукт вы приобрели, например Microsoft 365 Apps для бизнеса или Microsoft 365 Business Standard. Сведения о том, что поставляется с каждым продуктом, можно узнать на [странице Покупка Microsoft 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1). 
+
+Вы можете просмотреть различные варианты лицензирования в [Microsoft 365 для малых и средних предприятий](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb)
 
 При этом вы можете указать количество лицензий, соответствующее числу пользователей в организации. После этого вы можете создать учетные записи для пользователей, а затем назначить лицензии каждому из них. При необходимости изменения в Организации можно приобрести дополнительные лицензии для новых людей или переназначить лицензии другим пользователям, когда кто-то покидает свою организацию. 
 
@@ -44,7 +46,7 @@ ms.locfileid: "44402406"
   
 ## <a name="find-out-who-can-assign-licenses"></a>Права администраторов на назначение лицензий
 
-Возможности работы с лицензиями, доступные администраторам, зависят от их ролей. Наиболее распространенные варианты указаны в приведенной ниже таблице. Полный список ролей и привилегий администраторов см. в статье [Роли администраторов в Office 365](../../admin/add-users/about-admin-roles.md).
+Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
   
 |**Роль администратора**|**Назначение лицензии**|**Удаление лицензии**|**Покупка новых лицензий**|**Удаление учетной записи**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -81,7 +83,7 @@ ms.locfileid: "44402406"
     
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Лицензии для почтовых ящиков, не относящихся к пользователям
 
-Назначать лицензии почтовым ящикам ресурсов, помещений и общим почтовым ящикам требуется только в том случае, если для них превышена квота хранилища, равная 50 гигабайтам (ГБ). Дополнительные сведения о почтовых ящиках, не связанных с пользователями, см. в приведенных ниже статьях.
+You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
   
 - [Создание общего почтового ящика](../../admin/email/create-a-shared-mailbox.md)
     
