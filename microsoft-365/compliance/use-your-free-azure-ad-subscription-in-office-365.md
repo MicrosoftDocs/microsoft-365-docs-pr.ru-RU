@@ -16,20 +16,21 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Узнайте, как получить доступ к службе Azure Active Directory, которая включена в платную подписку организации.
-ms.openlocfilehash: be8edecd348d0019916f4f1b974a2bd0f8cabbc9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 43c9c03af74d4edc1fb6c762c9ca89594a907920
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626375"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819289"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>Использование бесплатной подписки на Azure Active Directory
 
-Если у вашей организации есть платная подписка на Microsoft 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite или другие службы Майкрософт, у вас есть бесплатная подписка на Microsoft Azure Active Directory. Вы и другие администраторы можете использовать Azure AD для создания учетных записей групп и пользователей, а также для управления ими. Для работы с Azure AD просто войдите на портал Azure, используя свою учетную запись.
+If your organization has a paid subscription to Microsoft 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite, or other Microsoft services, you have a free subscription to Microsoft Azure Active Directory. You and other admins can use Azure AD to create and manage user and group accounts. To use Azure AD, just go to the Azure portal and sign in to your account.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="open-a-private-browsing-session"></a>Открытие частного сеанса просмотра
 
-Используйте частный сеанс просмотра (не обычный сеанс) для доступа к порталу Azure (на шаге 1 ниже), поскольку это предотвращает передачу учетных данных, с которыми вы вошли в систему, в Azure. Чтобы открыть сеанс приватного просмотра:
+Use a private browsing session (not a regular session) to access the Azure portal (in step 1 below) because this prevents the credentials that you're currently logged on with from being passed to Azure. To open an private browsing session:
 
 - В Microsoft Edge (устаревшая версия), Internet Explorer или Mozilla FireFox нажмите клавиши `CTRL+SHIFT+P`.
 

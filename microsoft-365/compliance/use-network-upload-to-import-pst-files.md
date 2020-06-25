@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Для администраторов: узнайте, как использовать сетевую загрузку для массового импорта нескольких файлов PST в почтовые ящики пользователей в Microsoft 365.'
-ms.openlocfilehash: 330195cd9362722fccd5a8f7445abaee8a725857
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0d35a6c77379c528d10510c1959df53c8d81a989
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44678753"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819069"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Используйте загрузку по сети, чтобы импортировать файлы PST вашей организации в Microsoft 365
 
@@ -46,7 +47,7 @@ ms.locfileid: "44678753"
 
 Вы должны выполнить Шаг 1 только один раз, чтобы импортировать файлы PST в почтовые ящики Microsoft 365. После этого каждый раз, когда вам необходимо будет отправить и импортировать пакет PST-файлов, следует выполнить шаги 2–6.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-import-pst-files"></a>Перед импортом PST-файлов
   
 - Для импорта файлов PST в почтовые ящики Microsoft 365 необходимо назначить роль экспорта-импорта почтовых ящиков в Exchange Online. По умолчанию эта роль не назначена ни одной группе ролей в Exchange Online. Вы можете добавить роль "Импорт и экспорт почтовых ящиков" в группу ролей "Управление организацией". Кроме того, вы можете создать группу ролей, назначить ей роль "Импорт и экспорт почтовых ящиков" и добавить себя в качестве участника группы. Дополнительные сведения см. в разделах "Добавление роли в группу ролей" или "Создание группы ролей" статьи [Управление группами ролей](https://go.microsoft.com/fwlink/p/?LinkId=730688).
     
@@ -149,7 +150,7 @@ ms.locfileid: "44678753"
     |:-----|:-----|:-----|
     | `/Source:` <br/> |Задает исходный каталог в вашей организации, содержащий PST-файлы, которые будут отправлены в Office 365.  <br/> Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `/Source:"\\FILESERVER01\PSTs"` <br/> |
     | `/Dest:` <br/> |Задает URL-адрес SAS, полученный на шаге 1.  <br/> Обязательно заключите значение этого параметра в кавычки (" ").<br/><br/>**Примечание.** Если в скрипте или пакетном файле используется URL-адрес SAS, необходимо следить за определенными символами, которые должны пропускаться. Например, `%` необходимо заменить на `%%`, а `&` — на `^&`.<br/><br/>**Совет.** (Необязательно.) Вы можете выбрать в хранилище Azure вложенную папку, в которую будут передаваться PST-файлы. Для этого нужно указать ее расположение в URL-адресе SAS (после "ingestiondata"). В первом примере вложенная папка не указана. Это означает, что PST-файлы отправляются в корневой каталог хранилища Azure (который называется *ingestiondata*). Во втором примере PST-файлы добавляются во вложенную папку *PSTFiles* в корневой папке хранилища Azure.  <br/> | `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> или  <br/>  `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
-    | `/V:` <br/> |Отправляет подробные сообщения о состоянии в файл журнала. По умолчанию подробный файл журнала имеет имя AzCopyVerbose.log и находится в папке %LocalAppData%\Microsoft\Azure\AzCopy. Если для этого параметра указать расположение существующего файла, подробный журнал будет добавлен в него.  <br/> Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `/V:"c:\Users\Admin\Desktop\Uploadlog.log"` <br/> |
+    | `/V:` <br/> |Outputs verbose status messages into a log file. By default, the verbose log file is named AzCopyVerbose.log in %LocalAppData%\Microsoft\Azure\AzCopy. If you specify an existing file location for this option, the verbose log will be appended to that file.  <br/> Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `/V:"c:\Users\Admin\Desktop\Uploadlog.log"` <br/> |
     | `/S` <br/> |Этот необязательный параметр указывает, что необходимо использовать рекурсивный режим, при котором средство AzCopy копирует PST-файлы, расположенные во вложенных папках исходного каталога, который указан параметром `/Source:`.  <br/> **Примечание.** Если включить этот параметр, после отправки PST-файлов из вложенных папок они будут иметь разные пути в хранилище Azure. Потребуется указать точный путь в CSV-файле, который будет создан на шаге 4.  <br/> | `/S` <br/> |
     | `/Y` <br/> |Этот обязательный параметр позволяет использовать маркеры SAS только для чтения при отправке PST-файлов в хранилище Azure. URL-адрес SAS, полученный на шаге 1 (и указанный в параметре `/Dest:`), доступен только для записи. По этой причине необходимо включить данный параметр. URL-адрес SAS, доступный только для записи, не предотвращает просмотр списка PST-файлов, отправленных в хранилище Azure, с помощью обозревателя службы хранилища Microsoft Azure.  <br/> | `/Y` <br/> |
 
@@ -159,7 +160,7 @@ ms.locfileid: "44678753"
   AzCopy.exe /Source:"\\FILESERVER1\PSTs" /Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D" /V:"c:\Users\Admin\Desktop\AzCopy1.log" /Y
 ```
 
-После того как вы запустите команду, будут отображаться сообщения о состоянии, показывающие ход отправки PST-файлов. В последнем сообщении о состоянии будет указано общее количество успешно отправленных файлов. 
+After you run the command, status messages are displayed that show the progress of uploading the PST files. A final status message shows the total number of files that were successfully uploaded.
 
 > [!TIP]
 > После успешного выполнения команды AzCopy.exe и проверки правильности всех параметров сохраните синтаксис командной строки в тот же (защищенный) файл, в котором вы сохранили сведения, полученные на шаге 1. После этого вы сможете копировать эту команду и вставлять ее в командную строку каждый раз, когда необходимо запустить средство AzCopy.exe для отправки PST-файлов в Office 365. Вам может потребоваться изменить только одно значение — значение параметра `/Source:`. Это зависит от исходного каталога, в котором расположены PST-файлы.
@@ -205,7 +206,7 @@ ms.locfileid: "44678753"
   
 1. [Скачайте файл сопоставления для импорта PST-файлов](https://go.microsoft.com/fwlink/p/?LinkId=544717).
 
-2. Откройте или сохраните этот CSV-файл на локальный компьютер. В примере ниже показан готовый файл сопоставления для импорта PST-файлов (открытый в Блокноте). Для редактирования CSV-файла намного удобнее использовать Microsoft Excel.
+2. Open or save the CSV file to your local computer. The following example shows a completed PST Import mapping file (opened in NotePad). It's much easier to use Microsoft Excel to edit the CSV file.
 
     ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl

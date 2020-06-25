@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как просматривать, создавать, изменять и удалять политики защиты от спама в Exchange Online Protection (EOP).
-ms.openlocfilehash: 74e33fe394802050ced64c5c3d9e41dcbd2550f0
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 191f0492293738a9bce486226ca7d87d947a3f65
+ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616530"
+ms.lasthandoff: 06/13/2020
+ms.locfileid: "44726821"
 ---
 # <a name="configure-anti-spam-policies-in-eop"></a>Настройка политик защиты от спама в EOP
 
@@ -73,7 +73,17 @@ ms.locfileid: "44616530"
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Чтобы вы могли выполнить эти процедуры, вам должны быть назначены соответствующие разрешения. Чтобы добавлять, изменять и удалять политики защиты от нежелательной почты, необходимо быть участником группы ролей **Управление организацией** или **Администратор безопасности**. Для доступа только для чтения к политикам защиты от нежелательной почты необходимо быть участником группы ролей **Читатель безопасности**. Дополнительные сведения о группах ролей в Центре безопасности и соответствия требованиям см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+- Чтобы вы могли выполнить процедуры, упомянутые в этой теме, вам должны быть назначены соответствующие разрешения.
+
+  - Чтобы добавить, изменить или удалить политику защиты от нежелательной почты необходимо быть участником одной из следующих групп ролей:
+
+    - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией** или **Управление санацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+
+  - Для доступа только для чтения к политикам защиты от нежелательной почты необходимо быть участником одной из следующих групп ролей:
+
+    - **Средство считывания сведений о безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Рекомендуемые параметры политик защиты от вредоносных программ см. в разделе [Параметры политики защиты от нежелательной почты EOP](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings).
 
@@ -568,7 +578,7 @@ Enable-HostedContentFilterRule -Identity "Marketing Department"
 Set-HostedContentFilterRule -Identity "<RuleName>" -Priority <Number>
 ```
 
-В этом примере для правила Marketing Department задается приоритет 2. Все правила с приоритетом не больше 2 понижаются на один ранг (значения приоритета увеличиваются на 1).
+This example sets the priority of the rule named Marketing Department to 2. All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).
 
 ```PowerShell
 Set-HostedContentFilterRule -Identity "Marketing Department" -Priority 2

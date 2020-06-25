@@ -19,12 +19,12 @@
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: "Этап\_2. Обеспечение удаленного доступа"
           href: empower-people-to-work-remotely-remote-access.md
-        - name: Этап 3. Развертывание управления конечными точками
+        - name: Этап 3. Развертывание служб безопасности и соответствия требованиям
+          href: empower-people-to-work-remotely-security-compliance.md
+        - name: "Этап\_4. Развертывание управления конечными точками"
           href: empower-people-to-work-remotely-manage-endpoints.md
-        - name: "Этап\_4. Развертывание служб и приложений для повышения производительности"
+        - name: "Этап\_5. Развертывание служб и приложений для повышения производительности"
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: "Этап\_5. Создание информационных объектов"
-          href: empower-people-to-work-remotely-communication-venues.md
         - name: Этап 6. Обучение удаленных сотрудников
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Настройка безопасной совместной работы с помощью Microsoft 365
@@ -139,6 +139,8 @@
           href: contoso-case-study-solutions.md
         - name: Изолированная команда для сверхсекретного проекта
           href: contoso-team-for-top-secret-project.md
+        - name: Миграция голосовых служб Teams
+          href: 'https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Руководства по лаборатории тестирования
       items:
         - name: Руководства по лаборатории тестирования для решений и сценариев

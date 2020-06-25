@@ -15,34 +15,35 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 на крупных предприятиях.
-ms.openlocfilehash: 582068e84d82bfa681d1e1e64234698544ce3b9d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5907edd1bc42b9d679ed020331f225ef2d2b2594
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631601"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818745"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях
 
 *Это относится к Microsoft 365 для крупных предприятий и Office 365 корпоративный.*
 
-Руководства по лаборатории тестирования помогают быстро знакомиться с продуктами Майкрософт. Они содержат инструкции по настройке упрощенных и наглядных тестовых сред. Эти среды можно использовать для демонстрации и настройки, а также создания сложных экспериментов на протяжении срока действия пробной или платной подписки. 
+Test Lab Guides (TLGs) help you quickly learn about Microsoft products. They provide prescriptive instructions to configure simplified but representative test environments. You can use these environments for demonstration, customization, or creation of complex proofs of concept for the duration of a trial or paid subscription. 
 
-Руководства по лаборатории тестирования делятся на модули. Каждый из них дополняет предыдущие, отображая несколько конфигураций, наиболее соответствующих вашим требованиям к учебной или тестовой конфигурации. Непосредственное знакомство с новым продуктом или сценарием помогает вам понять требования к его развертыванию, чтобы лучше спланировать его размещение в рабочей среде.
+TLGs are designed to be modular. They build upon each other to create multiple configurations that more closely match your learning or test configuration needs. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or scenario so you can better plan for hosting it in production.
 
 Кроме того, с помощью этих руководств можно создавать типичные среды для разработки и тестирования.
   
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
-Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
+Перейдите в раздел [Руководства по лаборатории тестирования](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)для наглядного отображения всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
 
 [![Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях](../media/m365-enterprise-test-lab-guides/microsoft-365-enterprise-tlg-stack.png)](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)
 
 ## <a name="base-configuration"></a>Базовая настройка
 
-Вначале нужно создать тестовую среду для [Microsoft 365 на крупных предприятиях](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Вы можете создать два типа базовой конфигурации.
+First, you create a test environment for [Microsoft 365 for enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) that includes Office 365 E5, Enterprise Mobility + Security (EMS) E5, and Windows 10 Enterprise. You can create two different types of base configurations:
 
 - Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 для крупных предприятий только в облачной среде, которая не включает каких-либо локальных компонентов.
 
