@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 48d8cf5bc618f4f1e840872c4369bc5cdda19727
-ms.sourcegitcommit: 22e9f54d0d3ead2be91a38d49325308c70f43f90
+ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
+ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44262561"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44869860"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -34,9 +34,9 @@ ms.locfileid: "44262561"
 
 На этих практических занятиях вы будете использовать автоматически подготовленную к работе виртуальную лабораторную среду, которая включает присоединенные к домену клиенты для настольных ПК, контроллер домена, шлюз Интернета и полностью настроенный экземпляр Configuration Manager. В занятия включены ознакомительные версии указанных ниже продуктов.
 
-  - Windows 10 Корпоративная
+  - НОВИНКА! Windows 10 Корпоративная, версия 2004
   - Windows 7 Корпоративная
-  - Microsoft Endpoint Configuration Manager
+  - НОВИНКА! Microsoft Endpoint Configuration Manager, версия 2002
   - Комплект средств для развертывания и оценки Windows для Windows 10
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization (App-V)
@@ -113,7 +113,7 @@ ms.locfileid: "44262561"
 
 [Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 5 июля 2020 г. До этой даты будет опубликована новая версия занятия.*
+*Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 12 сентября 2020 г. До этой даты будет опубликована новая версия занятия.*
 
 ## <a name="additional-guidance"></a>Дополнительные рекомендации
 
