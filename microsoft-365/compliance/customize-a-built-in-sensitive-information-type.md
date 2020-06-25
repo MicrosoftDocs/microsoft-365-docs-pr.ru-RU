@@ -15,53 +15,55 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: При поиске конфиденциальных данных в содержимом необходимо описать эти данные в правиле. Коллекция для защиты от потери данных (DLP) содержит правила для самых распространенных типов конфиденциальных данных, которые вы можете сразу использовать, включив их в политику. Иногда эти встроенные правила требуется скорректировать в соответствии с потребностями организации. Чтобы сделать это, нужно создать специальный тип конфиденциальных данных. В этой статье показано, как изменить XML-файл, содержащий существующую коллекцию правил, для обнаружения более широкого круга данных кредитных карт.
-ms.openlocfilehash: 2aa552fb7a2623aaa7783063e82101a1993b9d1c
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.custom:
+- seo-marvel-apr2020
+description: Получите сведения о том, как создать настраиваемый тип конфиденциальной информации, который позволит пользоваться правилами, соответствующими потребностям вашей организации.
+ms.openlocfilehash: 7c9be91de796ed06ca2bdd71e9e4de0462a92358
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327297"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817938"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>Настройка встроенных типов конфиденциальных данных
 
-При поиске конфиденциальных данных в содержимом необходимо описать эти данные в *правиле*. Коллекция для защиты от потери данных (DLP) содержит правила для самых распространенных типов конфиденциальных данных, которые вы можете сразу использовать, включив их в политику. Иногда эти встроенные правила требуется скорректировать в соответствии с потребностями организации. Чтобы сделать это, нужно создать специальный тип конфиденциальных данных. В этой статье показано, как изменить XML-файл, содержащий существующую коллекцию правил, для обнаружения более широкого круга данных кредитных карт. 
+When looking for sensitive information in content, you need to describe that information in what's called a  *rule*  . Data loss prevention (DLP) includes rules for the most-common sensitive information types that you can use right away. To use these rules, you have to include them in a policy. You might find that you want to adjust these built-in rules to meet your organization's specific needs, and you can do that by creating a custom sensitive information type. This topic shows you how to customize the XML file that contains the existing rule collection to detect a wider range of potential credit-card information. 
   
-Вы можете взять этот пример и применить его к другим встроенным типам конфиденциальной информации. Список типов конфиденциальной информации по умолчанию и определений XML см. в разделе [Определения объектов типа конфиденциальной информации](sensitive-information-type-entity-definitions.md). 
+You can take this example and apply it to other built-in sensitive information types. For a list of default sensitive information types and XML definitions, see [Sensitive information type entity definitions](sensitive-information-type-entity-definitions.md). 
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>Экспорт XML-файла с текущими правилами
 
 Чтобы экспортировать XML-файл, нужно [подключиться к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
   
-1. В PowerShell введите указанную ниже команду, чтобы отобразить правила организации на экране. Если вы не создавали собственные правила, вы увидите только стандартные, встроенные правила, отмеченные как "Пакет правил Майкрософт".
+1. In the PowerShell, type the following to display your organization's rules on screen. If you haven't created your own, you'll only see the default, built-in rules, labeled "Microsoft Rule Package."
 
 ```powershell
 Get-DlpSensitiveInformationTypeRulePackage
 ```    
-2. Сохраните правила организации в переменной, введя указанную ниже команду. Переменные можно затем легко использовать в том формате, который подходит для команд удаленного сеанса PowerShell.
+2. Store your organization's rules in a variable by typing the following. Storing something in a variable makes it easily available later in a format that works for remote PowerShell commands.
 
 ```powershell    
 $ruleCollections = Get-DlpSensitiveInformationTypeRulePackage
 ```
     
-3. Создайте форматированный XML-файл со всеми этими данными, введя указанную ниже команду. (`Set-content` — часть командлета, которая записывает код XML в файл.) 
+3. Make a formatted XML file with all that data by typing the following. ( `Set-content` is the part of the cmdlet that writes the XML to the file.) 
     
 ```powershell
 Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection
 ```
 
 > [!IMPORTANT]
-> Укажите расположение, где фактически хранится пакет правил. `C:\custompath\` — это просто замещающий текст. 
+> Make sure that you use the file location where your rule pack is actually stored.  `C:\custompath\` is a placeholder. 
   
 ## <a name="find-the-rule-that-you-want-to-modify-in-the-xml"></a>Найдите правило, которое требуется изменить, в XML.
 
-Указанные выше командлеты экспортировали всю *коллекцию правил*, состоящую из стандартных правил. После этого вам необходимо найти именно то правило для номера кредитной карты, которое нужно изменить. 
+The cmdlets above exported the entire *rule collection*, which includes the default rules we provide. Next you'll need to look specifically for the Credit Card Number rule that you want to modify. 
   
 1. Откройте в текстовом редакторе XML-файл, экспорт которого показан в предыдущем разделе.
     
-2. Прокрутите вниз до тега `<Rules>`, представляющего начало раздела с правилами DLP. Этот XML-файл содержит сведения для всей коллекции правил, поэтому необходимо пропустить другие данные в начале файла, чтобы добраться до правил.
+2. Scroll down to the  `<Rules>` tag, which is the start of the section that contains the DLP rules. Because this XML file contains the information for the entire rule collection, it contains other information at the top that you need to scroll past to get to the rules.
     
-3. Найдите *Func_credit_card* с определением правила для номера кредитной карты. В XML имена правил не могут содержать пробелы, поэтому они обычно заменяются подчеркиваниями. Кроме того, имена правил иногда сокращаются. Например, имя правила для номера социального страхования США — "SSN". XML для правила номера кредитной карты будет выглядеть, как в следующем примере кода.
+3. Look for *Func_credit_card* to find the Credit Card Number rule definition. In the XML, rule names can't contain spaces, so the spaces are usually replaced with underscores, and rule names are sometimes abbreviated. An example of this is the U.S. Social Security number rule, which is abbreviated "SSN." The Credit Card Number rule XML should look like the following code sample.
     
   ```xml
   <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
@@ -77,13 +79,13 @@ Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCol
       </Entity>
   ```
 
-После того как вы нашли определение правила для номера кредитной карты, вы можете изменить код XML правила в соответствии с вашими потребностями. Сведения об определениях XML см. в разделе [Глоссарий с терминами](#term-glossary) в конце этой статьи.
+Now that you have located the Credit Card Number rule definition in the XML, you can customize the rule's XML to meet your needs. For a refresher on the XML definitions, see the [Term glossary](#term-glossary) at the end of this topic.
   
 ## <a name="modify-the-xml-and-create-a-new-sensitive-information-type"></a>Изменение XML и создание типа конфиденциальных данных
 
-Во-первых, вам потребуется создать тип конфиденциальных данных, так как напрямую правила по умолчанию не могут быть изменены. Над специальными типами конфиденциальных данных можно выполнять различные действия, описанные в статье [Создание специальных типов конфиденциальных данных в PowerShell Центра безопасности и соответствия требованиям](create-a-custom-sensitive-information-type-in-scc-powershell.md). Для простоты в этом примере мы удалим подкрепляющее доказательство и добавим ключевые слова в правило номера кредитной карты.
+First, you need to create a new sensitive information type because you can't directly modify the default rules. You can do a wide variety of things with custom sensitive information types, which are outlined in [Create a custom sensitive information type in Security & Compliance Center PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md). For this example, we'll keep it simple and only remove corroborative evidence and add keywords to the Credit Card Number rule.
   
-Все XML-определения правил основаны на следующем шаблоне. Вам потребуется скопировать и вставить XML-определение правила номера кредитной карты в шаблон, изменить некоторые значения (обратите внимание на заполнители ". . ." в следующем примере) и загрузить измененный XML как новое правило, которое можно использовать в политиках.
+All XML rule definitions are built on the following general template. You need to copy and paste the Credit Card Number definition XML in the template, modify some values (notice the ". . ." placeholders in the following example), and then upload the modified XML as a new rule that can be used in policies.
   
 ```xml
 <?xml version="1.0" encoding="utf-16"?>
@@ -112,7 +114,7 @@ Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCol
 </RulePackage>
 ```
 
-Вы получили код, который похож на следующий XML-фрагмент. Так как пакеты правил и правила идентифицируются по уникальным GUID, необходимо создать два GUID: один для пакета правил и один для замены GUID правила номера кредитной карты. GUID для кода объекта в следующем примере кода — это идентификатор для определения встроенного правила, который необходимо заменить на новый. GUID можно создать несколькими способами, например ввести в PowerShell команду **[guid]::NewGuid()**. 
+Now, you have something that looks similar to the following XML. Because rule packages and rules are identified by their unique GUIDs, you need to generate two GUIDs: one for the rule package and one to replace the GUID for the Credit Card Number rule. The GUID for the entity ID in the following code sample is the one for our built-in rule definition, which you need to replace with a new one. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing **[guid]::NewGuid()**. 
   
 ```xml
 <?xml version="1.0" encoding="utf-16"?>
@@ -166,7 +168,7 @@ Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCol
 
 ## <a name="look-for-keywords-that-are-specific-to-your-organization"></a>Поиск ключевых слов, связанных с вашей организацией
 
-Вам может потребоваться подкрепляющее доказательство, но с другими или дополнительными ключевыми словами. Кроме того, вы можете изменить область поиска этого доказательства. Можно так скорректировать `patternsProximity`, чтобы расширить или сузить окно поиска доказательства для числа из 16 цифр. Чтобы добавить собственные ключевые слова, необходимо задать список ключевых слов и указать его в правиле. Следующий XML-фрагмент добавляет ключевые слова "company card" (карта компании) и "Contoso card" (карта Contoso), чтобы любое сообщение с этими фразами в пределах 150 символов от номера кредитной карты определялось как номер кредитной карты.
+You might want to require corroborative evidence but want different or additional keywords, and perhaps you want to change where to look for that evidence. You can adjust the  `patternsProximity` to expand or shrink the window for corroborative evidence around the 16-digit number. To add your own keywords, you need to define a keyword list and reference it within your rule. The following XML adds the keywords "company card" and "Contoso card" so that any message that contains those phrases within 150 characters of a credit card number will be identified as a credit card number.
   
 ```xml
 <Rules>
@@ -196,7 +198,7 @@ Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCol
 
 Чтобы отправить правило, выполните следующие действия.
   
-1. Сохраните правило как XML-файл с кодировкой Юникод. Это важно, так как правило в другой кодировке работать не будет.
+1. Save it as an .xml file with Unicode encoding. This is important because the rule won't work if the file is saved with a different encoding.
     
 2. [Подключение к Центру безопасности и соответствия требованиям через удаленный сеанс PowerShell.](https://go.microsoft.com/fwlink/?linkid=799771)
     
@@ -206,7 +208,7 @@ Set-Content -path C:\custompath\exportedRules.xml -Encoding Byte -Value $ruleCol
 New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\custompath\MyNewRulePack.xml" -Encoding Byte).
 ```
 > [!IMPORTANT]
-> Укажите расположение, где фактически хранится пакет правил. `C:\custompath\` — это просто замещающий текст. 
+> Make sure that you use the file location where your rule pack is actually stored.  `C:\custompath\` is a placeholder. 
   
 4. Для подтверждения введите Y и нажмите клавишу **ВВОД**.
 5. Убедитесь, что новое правило добавлено, и проверьте его отображаемое имя, введя следующее:
@@ -215,7 +217,7 @@ New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\cust
 Get-DlpSensitiveInformationType
 ```
 
-Чтобы начать использовать новое правило для обнаружения конфиденциальных данных, необходимо добавить правило в политику DLP. Сведения о добавлении правила в политику см. в статье [Создание политики защиты от потери данных на основе шаблона](create-a-dlp-policy-from-a-template.md).
+To start using the new rule to detect sensitive information, you need to add the rule to a DLP policy. To learn how to add the rule to a policy, see [Create a DLP policy from a template](create-a-dlp-policy-from-a-template.md).
   
 ## <a name="term-glossary"></a>Глоссарий с терминами
 
@@ -223,14 +225,14 @@ Get-DlpSensitiveInformationType
   
 |**Термин**|**Определение**|
 |:-----|:-----|
-|Объект|Сущности  это то, что мы называем типами конфиденциальных данных, например номера кредитных карт. У каждой сущности есть уникальный идентификатор GUID. Если скопировать GUID и выполнить его поиск, вы найдете XML-определение правила и его локализованный перевод. Это определение также можно найти, выполнив поиск GUID для перевода, а затем выполнив поиск этого GUID.|
-|Функции|В XML-файле указана ссылка на `Func_credit_card` — функцию в скомпилированном коде. Функции используются для выполнения сложных регулярных выражений и проверки соответствия контрольных сумм для встроенных правил. Так как все происходит в коде, некоторые переменные в XML-файле не отображаются.|
+|Объект|Entities are what we call sensitive information types, such as credit card numbers. Each entity has a unique GUID as its ID. If you copy a GUID and search for it in the XML, you'll find the XML rule definition and all the localized translations of that XML rule. You can also find this definition by locating the GUID for the translation and then searching for that GUID.|
+|Функции|The XML file references  `Func_credit_card`, which is a function in compiled code. Functions are used to run complex regexes and verify that checksums match for our built-in rules.) Because this happens in the code, some of the variables don't appear in the XML file.|
 |IdMatch|Это идентификатор, с которым должен совпасть шаблон, например, номер кредитной карты.|
-|Списки ключевых слов|XML-файл также ссылается на `keyword_cc_verification` и `keyword_cc_name`. Это списки ключевых слов, с которыми мы ищем совпадения в элементе `patternsProximity` сущности. Они в XML не отображаются.|
+|Списки ключевых слов|The XML file also references  `keyword_cc_verification` and  `keyword_cc_name`, which are lists of keywords from which we are looking for matches within the  `patternsProximity` for the entity. These aren't currently displayed in the XML.|
 |Шаблон|Шаблон содержит список искомых типом конфиденциальных данных сведений. К ним относятся ключевые слова, регулярные выражения и внутренние функции, выполняющие различные задачи, такие как проверка контрольных сумм. Типы конфиденциальных данных могут использовать несколько шаблонов с уникальными уровнями вероятности. Это полезно при создании типа конфиденциальных данных, который возвращает высокую вероятность, если найдено подкрепляющее свидетельство, и низкий уровень вероятности, если свидетельств мало или они не найдены.|
-|Параметр confidenceLevel шаблона|Это уровень вероятности совпадения, определенный модулем DLP. Он связан с совпадением с шаблоном, если заданы соответствующие требования. Это значение следует учитывать при использовании правил потока обработки почты (также называемых правилами транспорта) Exchange.|
+|Параметр confidenceLevel шаблона|This is the level of confidence that the DLP engine found a match. This level of confidence is associated with a match for the pattern if the pattern's requirements are met. This is the confidence measure you should consider when using Exchange mail flow rules (also known as transport rules).|
 |patternsProximity|Если мы нашли что-то похожее на шаблон номера кредитной карты, в `patternsProximity` — области возле этого номера — мы будем искать подкрепляющее доказательство.|
-|recommendedConfidence|Это рекомендуемый для правила уровень вероятности. Он применяется к сущностям и соответствиям. В случае сущностей этот номер никогда не сравнивается со значением `confidenceLevel` для шаблона. Это просто дополнительный фактор, помогающий выбрать уровень вероятности. В случае соответствий значение `confidenceLevel` шаблона должно быть больше значения `recommendedConfidence`, чтобы можно было инициировать действие правила потока обработки почты. `recommendedConfidence` — это уровень вероятности по умолчанию, используемый в правилах потока обработки почты, при котором вызывается действие. При необходимости можно вручную изменить правило потока обработки почты так, чтобы вызывать в зависимости от уровня вероятности шаблона.|
+|recommendedConfidence|This is the confidence level we recommend for this rule. The recommended confidence applies to entities and affinities. For entities, this number is never evaluated against the  `confidenceLevel` for the pattern. It's merely a suggestion to help you choose a confidence level if you want to apply one. For affinities, the  `confidenceLevel` of the pattern must be higher than the  `recommendedConfidence` number for a mail flow rule action to be invoked. The  `recommendedConfidence` is the default confidence level used in mail flow rules that invokes an action. If you want, you can manually change the mail flow rule to be invoked based off the pattern's confidence level, instead.|
    
 ## <a name="for-more-information"></a>Дополнительные сведения
 

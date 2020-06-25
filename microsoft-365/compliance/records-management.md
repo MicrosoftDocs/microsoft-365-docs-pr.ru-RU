@@ -14,13 +14,16 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: С помощью управления записями в Microsoft 365 вы можете применять определенные графики хранения вашей организации к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией для поддержки полного жизненного цикла контента.
-ms.openlocfilehash: b7c2febafdfe0b234bedf439236a6a7bd2aec549
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.custom:
+- seo-marvel-apr2020
+- seo-marvel-jun2020
+description: С помощью управления записями в Microsoft 365 вы можете применять графики хранения к плану файлов, чтобы управлять хранением, объявлением записей и ликвидацией.
+ms.openlocfilehash: 48705ac6d0c271ca2646de7c058a340ee3f736ae
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432350"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44818959"
 ---
 # <a name="records-management-in-microsoft-365"></a>Управление записями в Microsoft 365
 

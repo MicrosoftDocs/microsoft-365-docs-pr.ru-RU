@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
-ms.openlocfilehash: 9a2cda171de2b81acdabc2180fe53d8ed4e0f900
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 4ec5f7c8779e9d6b6709c8fc3311ec9c0e99b680
+ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616482"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754848"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -68,13 +68,13 @@ Microsoft 365 автоматически настраивает DKIM для св
 ## <a name="how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing"></a>Как DKIM работает лучше, чем один SPF, для предотвращения злонамеренного подмены
 <a name="HowDKIMWorks"> </a>
 
-Инфраструктура политики отправителей добавляет сведения в конверт сообщения, а технология DKIM шифрует подпись в заголовке сообщения. При пересылке фрагменты конверта этого сообщения могут быть удалены сервером пересылки. Поскольку цифровая подпись остается в заголовке сообщения, технология DKIM работает даже при пересылке, как показано в примере ниже.
+SPF adds information to a message envelope but DKIM actually encrypts a signature within the message header. When you forward a message, portions of that message's envelope can be stripped away by the forwarding server. Since the digital signature stays with the email message because it's part of the email header, DKIM works even when a message has been forwarded as shown in the following example.
 
 ![Схема, на которой показана проверка подлинности DKIM: пересланное сообщение не прошло проверку инфраструктурой политики отправителей](../../media/28f93b4c-97e7-4309-acc4-fd0d2e0e3377.jpg)
 
-Если бы в этом примере вы опубликовали только запись типа TXT инфраструктуры политики отправителей для домена, почтовый сервер получателя мог бы пометить ваше сообщение как спам, что привело бы к ложному срабатыванию. Добавление DKIM в этом сценарии позволяет снизить количество ложных срабатываний. Так как в технологии DKIM для проверки подлинности используется шифрование с помощью открытого ключа, а не только IP-адресов, она считается более надежным способом проверки подлинности, чем инфраструктура политики отправителей. Рекомендуем использовать обе эти технологии, а также DMARC в вашем развертывании.
+In this example, if you had only published an SPF TXT record for your domain, the recipient's mail server could have marked your email as spam and generated a false positive result. The addition of DKIM in this scenario reduces false positive spam reporting. Because DKIM relies on public key cryptography to authenticate and not just IP addresses, DKIM is considered a much stronger form of authentication than SPF. We recommend using both SPF and DKIM, as well as DMARC in your deployment.
 
-Подробности: DKIM использует закрытый ключ для вставки зашифрованной подписи в заголовки сообщений. Имя подписывающего домена (или домена исходящей почты) вставляется в заголовок в качестве значения поля **d=**. Проверяющий домен (или домен получателя) затем использует поле **d=** для поиска открытого ключа в DNS и проверки подлинности сообщения. Так сообщение проходит проверку DKIM.
+The nitty gritty: DKIM uses a private key to insert an encrypted signature into the message headers. The signing domain, or outbound domain, is inserted as the value of the **d=** field in the header. The verifying domain, or recipient's domain, then use the **d=** field to look up the public key from DNS and authenticate the message. If the message is verified, the DKIM check passes.
 
 ## <a name="manually-upgrade-your-1024-bit-keys-to-2048-bit-dkim-encryption-keys"></a>Обновление 1024-разрядных ключей до 2048-разрядных ключей шифрования DKIM вручную
 <a name="1024to2048DKIM"> </a>
@@ -104,7 +104,7 @@ Microsoft 365 автоматически настраивает DKIM для св
 1. Выполните следующую команду:
 
    ```powershell
-   Get-DkimSigningConfig | Format-List
+   Get-DkimSigningConfig -Identity {Domain for which the configuration was set} | Format-List
    ```
 
 > [!TIP]
@@ -140,7 +140,7 @@ Get-DkimSigningConfig -Identity <domain> | Format-List Selector1CNAME, Selector2
 > [!IMPORTANT]
 > Если вы один из наших клиентов GCC High, мы вычисляем _domainGuid_ другим способом. Вместо поиска записи MX для вашего _initialDomain_ с целью вычисления _domainGuid_ мы вычисляем его непосредственно на основании личного домена. Например, если ваш личный домен — contoso.com, ваш domainGuid будет иметь вид contoso-com, то есть все точки будут заменены дефисами. Таким образом, независимо от записи MX, на которую указывает ваш initialDomain, вы всегда можете использовать описанный выше метод для вычисления domainGuid, чтобы использовать его в записях CNAME.
 
-```text
+```console
 Host name:            selector1._domainkey
 Points to address or value:    selector1-<domainGUID>._domainkey.<initialDomain>
 TTL:                3600
@@ -162,7 +162,7 @@ TTL:                3600
 
 Например, если у вас есть исходный домен cohovineyardandwinery.onmicrosoft.com и два личных домена cohovineyard.com и cohowinery.com, вам необходимо настроить две записи CNAME для каждого дополнительного домена (всего четыре записи CNAME).
 
-```text
+```console
 Host name:            selector1._domainkey
 Points to address or value:    selector1-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
@@ -193,7 +193,7 @@ TTL:                3600
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-through-the-admin-center"></a>Включение функции подписывания с помощью DKIM для личного домена в Центре администрирования
 
-1. [Войдите в Microsoft 365](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4), используя свою рабочую или учебную учетную запись.
+1. [Войдите в Microsoft 365](https://support.microsoft.com/office/e9eb7d51-5430-4929-91ab-6157c5a050b4), используя свою рабочую или учебную учетную запись.
 
 2. В левом верхнем углу щелкните значок средства запуска приложений и выберите **Администратор**.
 
@@ -201,7 +201,7 @@ TTL:                3600
 
 4. Перейдите в раздел **Защита** \> **dkim**.
 
-5. Выберите домен, для которого требуется включить DKIM, а затем в разделе **Добавлять подписи DKIM в сообщения для этого домена** нажмите **Включить**. Повторите этот шаг для каждого личного домена.
+5. Select the domain for which you want to enable DKIM and then, for **Sign messages for this domain with DKIM signatures**, choose **Enable**. Repeat this step for each custom domain.
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>Как включить подпись с помощью DKIM для личного домена, используя PowerShell
 
@@ -223,17 +223,17 @@ TTL:                3600
 
 #### <a name="to-confirm-dkim-signing-is-configured-properly-for-microsoft-365"></a>Подтвердить, что подпись DKIM правильно настроена для Microsoft 365
 
-Прежде чем выполнять указанные ниже действия для проверки настройки DKIM, подождите несколько минут. Для распространения информации DKIM о домене по сети требуется время.
+Wait a few minutes before you follow these steps to confirm that you have properly configured DKIM. This allows time for the DKIM information about the domain to be spread throughout the network.
 
 - Отправьте сообщение из учетной записи в домене Microsoft 365 с поддержкой DKIM на другую учетную запись электронной почты, например outlook.com или Hotmail.com.
 
-- Не используйте для проверки учетную запись aol.com. AOL может пропустить проверку DKIM в случае успешной проверки SPF. Такая проверка будет недействительной.
+- Do not use an aol.com account for testing purposes. AOL may skip the DKIM check if the SPF check passes. This will nullify your test.
 
-- Откройте сообщение и посмотрите на заголовок. Инструкции по просмотру заголовка сообщения зависят от вашего почтового клиента. Инструкции по просмотру заголовков сообщений в Outlook см. в статье [Просмотр заголовков сообщений электронной почты](https://support.office.com/article/CD039382-DC6E-4264-AC74-C048563D212C).
+- Open the message and look at the header. Instructions for viewing the header for the message will vary depending on your messaging client. For instructions on viewing message headers in Outlook, see [View internet message headers in Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c).
 
-  Сообщение, подписанное с помощью DKIM, будет содержать имя узла и доменное имя, указанные вами при публикации записей CNAME. Сообщение будет выглядеть примерно так:
+  The DKIM-signed message will contain the host name and domain you defined when you published the CNAME entries. The message will look something like this example:
 
-  ```text
+  ```console
     From: Example User <example@contoso.com>
     DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
         s=selector1; d=contoso.com; t=1429912795;
@@ -242,7 +242,7 @@ TTL:                3600
         b=<signed field>;
   ```
 
-- Найдите заголовок Authentication-Results. Принимающие службы помечают входящую почту по-разному, но результат должен содержать элемент, подобный **DKIM=pass** или **DKIM=OK**.
+- Look for the Authentication-Results header. While each receiving service uses a slightly different format to stamp the incoming mail, the result should include something like **DKIM=pass** or **DKIM=OK**.
 
 ## <a name="to-configure-dkim-for-more-than-one-custom-domain"></a>Чтобы настроить DKIM для нескольких пользовательских доменов
 <a name="DKIMMultiDomain"> </a>
@@ -293,7 +293,7 @@ TTL:                3600
 
 В следующем примере предположим, что DKIM для fabrikam.com был включен Microsoft 365, а не администратором домена. Это означает, что в службе DNS нет требуемых записей CNAME. Подписи DKIM для электронной почты из этого домена будут выглядеть следующим образом:
 
-```text
+```console
 From: Second Example <second.example@fabrikam.com>
 DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
     s=selector1-fabrikam-com; d=contoso.onmicrosoft.com; t=1429912795;
@@ -307,11 +307,11 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>Настройте DKIM таким образом, чтобы сторонняя служба могла отправлять электронные письма от имени вашего личного домена
 <a name="SetUp3rdPartyspoof"> </a>
 
-Некоторые поставщика услуг электронной почты, или поставщики программного обеспечения как службы, позволяют настраивать ключи DKIM для сообщений электронной почты, отправляемых из их службы. Для этого вам необходимо координировать свои действия с третьей стороной, чтобы настроить необходимые записи DNS. В каждой организации это делают по-своему. Процесс полностью зависит от конкретного предприятия.
+Some bulk email service providers, or software-as-a-service providers, let you set up DKIM keys for email that originates from their service. This requires coordination between yourself and the third-party in order to set up the necessary DNS records. No two organizations do it exactly the same way. Instead, the process depends entirely on the organization.
 
 Пример сообщения с правильно настроенными ключами DKIM для доменов contoso.com и bulkemailprovider.com:
 
-```text
+```console
 Return-Path: <communication@bulkemailprovider.com>
  From: <sender@contoso.com>
  DKIM-Signature: s=s1024; d=contoso.com
@@ -324,7 +324,7 @@ Return-Path: <communication@bulkemailprovider.com>
 
 2. Компания Contoso опубликовала ключ DKIM в своей записи DNS.
 
-3. При отправке сообщения поставщик услуг массовой рассылки подписывает ключ соответствующим закрытым ключом. Таким образом он добавляет подпись DKIM в заголовок сообщения.
+3. When sending email, Bulk Email Provider signs the key with the corresponding private key. By doing so, Bulk Email Provider attached the DKIM signature to the message header.
 
 4. Получающие почтовые системы выполняют проверку DKIM путем сравнения значения подписи DKIM-Signature d=\<domain\>с доменом в поле адреса "От" (5322.From) сообщения. В этом примере значения совпадают:
 

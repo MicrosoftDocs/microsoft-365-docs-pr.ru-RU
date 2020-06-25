@@ -1,6 +1,6 @@
 ---
 title: Запросы субъектов данных Intune в рамках GDPR и CCPA
-description: Это руководство поможет нашим пользователям контроллеров понять, как находить и обрабатывать личные данные и отвечать на запросы DSR и CCPA от клиентов, использующих Microsoft Intune.
+description: Узнайте, как находить и обрабатывать личные данные и отвечать на запросы DSR и CCPA от клиентов, использующих Microsoft Intune.
 keywords: Microsoft 365, Microsoft 365 для образования, документация по Microsoft 365, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -18,27 +18,27 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 6c39450169f835b3d558f14d248d425cb20f939f
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: a9dd161edd740aa97e97afa02a6c53933a6ac211
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035435"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817658"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>Запросы субъектов данных Intune в рамках GDPR и CCPA
 
-[Регламент Европейского союза по защите данных (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) предоставляет лицам, упомянутым в регламенте как *субъекты данных*, право управлять персональными данными, собранными работодателем или другой организацией (так называемые *управляющие данными* или просто *управляющие*). Определение персональных данных в GDPR довольно широкое: они представляют собой любые данные, имеющие отношение к идентифицированному или идентифицируемому физическому лицу. GDPR предоставляет субъектам данных особые права в отношении их персональных данных. Они включают права на копирование персональных данных, запрос исправлений, ограничение обработки, удаление и получение данных в электронном формате для передачи другому управляющему. Официальный запрос, отправляемый субъектом данных управляющему для выполнения действия с персональными данными, называется *запросом субъекта данных* (DSR).
+The European Union [General Data Protection Regulation (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) gives rights to people (known in the regulation as *data subjects*) to manage the personal data that has been collected by an employer or other type of agency or organization (known as the *data controller* or just *controller*). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. The GDPR gives data subjects specific rights to their personal data; these rights include obtaining copies of personal data, requesting corrections to it, restricting the processing of it, deleting it, or receiving it in an electronic format so it can be moved to another controller. A formal request by a data subject to a controller to take an action on their personal data is called a *Data Subject Request* or DSR.
 
-В законе Калифорнии о конфиденциальности данных (CCPA) также указаны права и обязательства для пользователей в Калифорнии, включая права, схожие с правами субъектов данных GDPR, такие как право на удаление, доступ и получение (возможность переноса) личных сведений.  CCPA также содержит положения о раскрытии сведений, защите от дискриминации при осуществлении прав и требования по согласию и отказу для некоторых переносов данных, классифицированных как "продажи". Широкое определение продаж включает обмен данными для встречного удовлетворения. Дополнительные сведения о CCPA см. в статьях [Закон Калифорнии о конфиденциальности данных](offering-ccpa.md) и [Вопросы и ответы о законе Калифорнии о конфиденциальности данных](ccpa-faq.md).
+Аналогичным образом, Калифорнийский закон о защите прав потребителей (CCPA) предоставляет права и обязанности в отношении конфиденциальности для калифорнийских потребителей, включая права, аналогичные правам субъектов данных GDPR, такие как право на удаление, доступ и получение (переносимость) их личной информации.  CCPA также предусматривает определенное раскрытие информации, защиту от дискриминации при избрании прав на осуществление и требования «отказаться / подписаться» для определенных передач данных, классифицированных как «продажи». Широкое определение продаж включает обмен данными для встречного удовлетворения. Дополнительные сведения о CCPA см. в статьях [Закон Калифорнии о конфиденциальности данных](offering-ccpa.md) и [Вопросы и ответы о законе Калифорнии о конфиденциальности данных](ccpa-faq.md).
 
-В руководстве рассматривается использование продуктов, служб и средств администрирования Майкрософт, позволяющих управляющим находить персональные данные и выполнять с ними действия в ответ на запросы DSR. В частности, это включает инструкции по поиску персональных данных или личных сведений, которые находятся в облаке Майкрософт, получению к ним доступа и выполнению в отношении них действий. Ниже приведен краткий обзор процессов, описанных в этом руководстве:
+В руководстве рассматривается использование продуктов, служб и средств администрирования Майкрософт, позволяющих управляющим находить персональные данные и выполнять с ними действия в ответ на запросы DSR. В частности, это включает инструкции по поиску персональных данных или личных сведений, которые находятся в облаке Майкрософт, получению к ним доступа и выполнению в отношении них действий. Вот краткий обзор процессов, описанных в этом руководстве:
 
-- **Обнаружение.** Используйте средства поиска и обнаружения, чтобы легко находить клиентские данные, которые могут быть предметом DSR. Собрав соответствующие документы, можно выполнить одно или несколько из описанных в следующих шагах действий DSR, чтобы ответить на запрос. Кроме того, можно определить, что запрос не соответствует рекомендациям вашей организации по ответу на DSR.
+- **Обнаружение.** Используйте средства поиска и обнаружения, чтобы легко находить клиентские данные, которые могут быть предметом DSR. Собрав соответствующие документы, можно выполнить одно или несколько из описанных в следующих шагах действий DSR, чтобы ответить на запрос. В качестве альтернативы вы можете определить, что запрос не соответствует рекомендациям вашей организации по реагированию на DSR.
 - **Доступ.** Получение персональных данных, размещенных в облаке Майкрософт, и предоставление копии этих данных субъекту данных.
 - **Уточнение.** Внесение изменений или выполнение других запрошенных действий с персональными данными (если это возможно).
 - **Ограничение.** Ограничение обработки персональных данных путем удаления лицензий на использование различных служб Azure либо путем выключения соответствующих служб, если это возможно. Вы также можете удалить данные из облака корпорации Майкрософт, сохранив их в локальной среде или в другом расположении.
 - **Удаление.** Безвозвратное удаление персональных данных, хранящихся в облаке Майкрософт.
-- **Экспорт и получение (переносимость).** Предоставление электронной копии персональных данных или личных сведений (в машиночитаемом формате) субъекту данных. В рамках CCPA персональные данные — это любая информация, относящаяся к идентифицированному или идентифицируемому лицу. Частный, публичный или рабочий характер роли конкретного человека не имеет значения. Определение термина "личные сведения" в общих чертах совпадает с определением термина "персональные данные" в GDPR. Кроме того, CCPA также распространяется на данные о семье и домашнем хозяйстве. Дополнительные сведения о CCPA см. в статьях [Закон Калифорнии о конфиденциальности данных](offering-ccpa.md) и [Вопросы и ответы о законе Калифорнии о конфиденциальности данных](ccpa-faq.md).
+- **Экспорт и получение (переносимость).** Предоставление электронной копии персональных данных или личных сведений (в машиночитаемом формате) субъекту данных. В рамках CCPA персональные данные — это любая информация, относящаяся к идентифицированному или идентифицируемому лицу. Нет различия между личными, общественными или рабочими ролями человека. Определение термина "личные сведения" в общих чертах совпадает с определением термина "персональные данные" в GDPR. Кроме того, CCPA также распространяется на данные о семье и домашнем хозяйстве. Дополнительные сведения о CCPA см. в статьях [Закон Калифорнии о конфиденциальности данных](offering-ccpa.md) и [Вопросы и ответы о законе Калифорнии о конфиденциальности данных](ccpa-faq.md).
 
 В каждом разделе этого руководства описываются методы, которыми управляющая данными организация может реагировать на запрос персональных данных в облаке Майкрософт.
 
@@ -61,29 +61,29 @@ ms.locfileid: "44035435"
 
 ### <a name="understanding-dsrs-for-azure-active-directory-and-microsoft-intune"></a>Общие сведения о запросах субъектов данных Azure Active Directory и Microsoft Intune
 
-Рассматривая службы, предоставляемые корпоративным клиентам, выполнение запросов DSR всегда следует воспринимать в контексте определенного клиента Azure Active Directory (AAD). В частности, запросы DSR всегда выполняются в определенном клиенте AAD. Если пользователь участвует в нескольких клиентах, важно понимать, что тот или иной запрос DSR выполняется *только* в контексте конкретного клиента, в котором был получен запрос. Это важно понимать, так как это означает, что выполнение запроса DSR одним клиентом **не** повлияет на данные соседнего корпоративного клиента.
+When considering services provided to enterprise customers, execution of DSRs must always be understood within the context of a specific Azure Active Directory (AAD) tenant. Notably, DSRs are always executed within a given AAD tenant. If a user is participating in multiple tenants, it is important to emphasize that a given DSR is *only* executed within the context of the specific tenant the request was received within. This is critical to understand as it means the execution of a DSR by one enterprise customer **will not** impact the data of an adjacent enterprise customer.
 
-Это же относится и к Microsoft Intune, предоставляемому корпоративному клиенту: выполнение запроса субъекта данных в отношении учетной записи Intune, *сопоставленной с клиентом AAD*, **будет иметь отношение только** к данным в клиенте. Кроме того, при работе с учетными записями Intune в клиенте важно понимать указанные ниже моменты.
+The same also applies for Microsoft Intune provided to an enterprise customer: execution of a DSR against an Intune account *associated with an AAD tenant* **will only** pertain to data within the tenant. In addition, it is important to understand the following when handling Intune accounts within a tenant:
 
-- Если пользователь Intune создает подписку на Azure, подписка будет обрабатываться так, как если бы она была клиентом AAD. Соответственно, область запросов субъектов данных ограничена клиентом, как описано выше.
-- Удаление подписки на Azure, созданной в учетной записи Intune, **не повлияет** на фактическую учетную запись Intune. И опять, как было сказано выше, выполнение запроса субъекта данных в подписке на Azure ограничено областью клиента.
+- If an Intune user creates an Azure subscription, the subscription will be handled as if it were an AAD tenant. Consequently, DSRs are scoped within the tenant as described above.
+- If an Azure subscription created via an Intune account is deleted, **it will not affect** the actual Intune account. Again, as noted above, DSRs executing within the Azure subscription are limited to the scope of the tenant itself.
 
-Запросы субъектов данных к учетной записи Intune **из-за пределов клиента** выполняются на панели мониторинга конфиденциальности клиента. Дополнительные сведения см в руководстве по запросам субъектов пользователей данных Windows.
+DSRs against an Intune account itself, **outside a given tenant**, are executed via the Consumer Privacy Dashboard. Please refer to the Windows Data Subject Request Guide for further details.
 
 ## <a name="part-1-dsr-guide-for-customer-data"></a>Часть 1. Руководство по запросам субъектов данных в отношении данных клиентов
 
 ### <a name="executing-dsrs-against-customer-data"></a>Выполнение запросов данных клиента
 
-Корпорация Майкрософт предоставляет возможность просмотра, удаления и экспорта определенных данных клиента на портале Azure, а также напрямую через готовые программные интерфейсы (API) или пользовательские интерфейсы служб (другое название — *внутренние интерфейсы*). Подробные сведения о таких интерфейсах представлены в справочной документации по соответствующим службам.
+Microsoft provides the ability to access, delete, and export certain Customer Data through the Azure Portal and also directly via pre-existing application programming interfaces (APIs) or user interfaces (UIs) for specific services (also referred to as *in-product experiences*). Details regarding such in-product experiences are described in the respective services' reference documentation.
 
 >[!IMPORTANT]  
->Службы, поддерживающие отправку DSR из продуктов, требуют непосредственного использования программного интерфейса (API) или пользовательского интерфейса (UI) службы, в котором описываются применимые операции CRUD (создание, чтение, обновление, удаление). Следовательно, DSR следует выполнять не только на портале Azure, но и в соответствующей службе, чтобы полностью выполнить запрос определенного субъекта данных. Дополнительные сведения см. в справочной документации по соответствующим службам.
+>Services supporting in-product DSRs require direct usage of the service's application programming interface (API) or user interface (UI), describing applicable CRUD (create, read, update, delete) operations. Consequently, execution of DSRs within a given service must be done in addition to execution of a DSR within the Azure Portal in order to complete a full request for a given data subject. Please refer to specific services' reference documentation for further details.
 
 ### <a name="step-1-discover"></a>Шаг 1. Обнаружение
 
-Прежде чем отвечать на DSR, необходимо найти персональные данные, к которым относится запрос. Обнаружив и изучив эти персональные данные, вы сможете определить, отвечает ли DSR требованиям вашей организации и следует ли выполнить или отклонить его. Например, ознакомившись с персональными данными, вы можете установить, что запрос не отвечает требованиям вашей организации, так как его выполнение отрицательно скажется на правах и свободах других лиц.
+The first step in responding to a DSR is to find the personal data that is the subject of the request. This first step - finding and reviewing the personal data at issue - will help you determine whether a DSR meets your organization's requirements for honoring or declining a DSR. For example, after finding and reviewing the personal data at issue, you may determine the request doesn't meet your organization's requirements because doing so may adversely affect the rights and freedoms of others.
 
-После того как вы найдете необходимые данные, вы можете выполнить определенное действие, чтобы выполнить запрос, полученный от субъекта данных. Дополнительные сведения см. в указанных ниже статьях.
+After you find the data, you can then perform the specific action to satisfy the request by the data subject. For details, see the following:
 
 - [Сбор данных](https://docs.microsoft.com/intune/privacy-data-collect)
 - [Хранение и обработка данных](https://docs.microsoft.com/intune/privacy-data-store-process)
@@ -91,7 +91,7 @@ ms.locfileid: "44035435"
 
 ### <a name="step-2-access"></a>Шаг 2. Доступ
 
-После того как вы нашли данные клиента, содержащие персональные данные, которые, возможно, соответствуют DSR, только вы и ваша организация решаете, какие данные предоставить субъекту. Вы можете предоставить ему копию фактического документа, соответствующим образом отредактированную версию или снимки частей, которые, по вашему мнению, можно предоставить. Для каждого из таких ответов на запрос на доступ вам потребуется получить копию документа или другой элемент, который содержит необходимые данные.
+After you've found Customer Data containing personal data that is potentially responsive to a DSR, it is up to you and your organization to decide which data to provide to the data subject. You can provide them with a copy of the actual document, an appropriately redacted version, or a screenshot of the portions you have deemed appropriate to share. For each of these responses to an access request, you will have to retrieve a copy of the document or other item that contains the responsive data.
 
 Когда вы предоставляете копию данных субъекту данных, вам может потребоваться удалить или отредактировать персональную информацию о других субъектах данных или конфиденциальные сведения.
 
@@ -105,11 +105,11 @@ ms.locfileid: "44035435"
 
 В Microsoft Intune имеется возможность [обнаруживать данные клиентов](#step-1-discover) непосредственно в пользовательских интерфейсах или существующих API.
 
-### <a name="step-3-rectify"></a>Шаг 3. Уточнение
+### <a name="step-3-rectify"></a>Шаг 3. Исправление
 
-Если субъект данных попросил уточнить персональные данные, хранящиеся в вашей организации, то вам и вашей организации необходимо определить, допустимо ли выполнять этот запрос. Для уточнения данных может потребоваться отредактировать, заменить или удалить персональные данные в документе или другом элементе.
+If a data subject has asked you to rectify the personal data that resides in your organization's data, you and your organization will have to determine whether it's appropriate to honor the request. Rectifying the data may include taking actions such as editing, redacting, or removing personal data from a document or other type or item.
 
-Будучи обработчиком данных, корпорация Майкрософт не предоставляет возможность исправлять данные в журналах, созданных системой, так как они отражают фактические действия и события, произошедшие в службах Майкрософт. В отношении Intune администраторам не удастся изменить сведения, зависящие от устройств или приложений. Если пользователю потребуется исправить какие-либо персональные данные (например, имя устройства), он должен сделать это непосредственно на своем устройстве. Такие изменения будут синхронизированы при следующем подключении к Intune.
+As a data processor, Microsoft does not offer the ability to correct system-generated logs as it reflects factual activities and constitutes a historical record of events within Microsoft services. With respect to Intune, admins can't update device or app specific information. If an end user wants to correct any personal data (like the device name), they must do so directly on their device. Such changes are synchronized the next time they connect to Intune.
 
 ### <a name="step-4-restrict"></a>Шаг 4. Ограничение
 
@@ -117,11 +117,11 @@ ms.locfileid: "44035435"
 
 ### <a name="step-5-delete"></a>Шаг 5. Удаление
 
-"Право на стирание" путем удаления персональных данных из данных клиентов организации — это ключевая мера защиты в GDPR. Удаление персональных данных подразумевает удаление всех персональных данных и журналов, созданных системой, за исключением сведений в журналах аудита. Необходимые сведения см. в разделе [Удаление персональных данных пользователей](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
+The "right to erasure" by the removal of personal data from an organization's Customer Data is a key protection in the GDPR. Removing personal data includes removing all personal data and system-generated logs, except audit log information. For details, see [Delete end user personal data](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
 
-## <a name="part-2-system-generated-logs"></a>Часть 2. Журналы, созданные системой
+## <a name="part-2-system-generated-logs"></a>Часть 2. Системные журналы
 
-В журналах аудита администраторы клиентов могут получать доступ к записям о действиях, в результате которых были внесены изменения в Microsoft Intune. В журналах аудита обычно регистрируются многие действия управления. Обычно это действия создания, обновления (редактирования), удаления и назначения. Кроме того, можно просматривать удаленные задачи, создающие события аудита. Эти журналы аудита могут содержать персональные данные пользователей, чьи устройства развернуты в Intune. У администраторов нет возможности удалять журналы аудита. Необходимые сведения см. в разделе [Аудит персональных данных](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data).
+Audit logs provide tenant admins with a record of activities that generate a change in Microsoft Intune. Audit logs are available for many manage activities and typically create, update (edit), delete, and assign actions. Remote tasks that generate audit events can also be reviewed. These audit logs may contain personal data from users whose devices are enrolled in Intune. Admins can't delete audit logs. For details, see [Audit personal data](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data).
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>Уведомление о проблемах при экспорте или удалении
 

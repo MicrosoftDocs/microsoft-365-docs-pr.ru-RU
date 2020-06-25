@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Сведения о типах групп, которые вы можете использовать.
-ms.openlocfilehash: b81bb09efedc503b49d2ed4aa10b1e7153116f14
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 333d929e72647421951eefa50508c23dddc196ac
+ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44388033"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44780461"
 ---
 # <a name="compare-groups"></a>Сравнение групп
 
 В Центре администрирования Microsoft 365 в разделе **Группы** можно создавать и настраивать группы следующих типов: 
 
-- **Группы Microsoft 365** используются для совместной работы пользователей в организации и за ее пределами.
+- **Группы Microsoft 365** (ранее группы Office 365) используются для совместной работы пользователей в организации и за ее пределами.
 - **Группы рассылки** используются для отправки уведомлений группе людей.
 - **Группы безопасности** используются для предоставления доступа к ресурсам, таким как сайты SharePoint.
 - **Группы безопасности, поддерживающие почту** используются для предоставления доступа к ресурсам, например SharePoint, и отправки уведомлений пользователям.
@@ -81,4 +81,4 @@ ms.locfileid: "44388033"
 
 ## <a name="related-articles"></a>Связанные статьи
 
-[Сведения о группах Microsoft 365](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+[Сведения о группах Microsoft 365](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2)

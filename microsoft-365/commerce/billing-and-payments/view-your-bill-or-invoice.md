@@ -28,12 +28,12 @@ ms.custom:
 - AdminSurgePortfolio
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
-ms.openlocfilehash: d034e59e80af6396867282f3e7c23179c332c251
-ms.sourcegitcommit: b95e958df130b5fbbe5d8a8882d1bbf20b27a285
+ms.openlocfilehash: 7360f2bb73f78450143d5f1428ae90aa5bc0e0a1
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407948"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817001"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счетов
 
@@ -49,13 +49,13 @@ This article is for people who have a Microsoft 365 for business subscription. Y
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FGmo] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="view-a-bill-or-invoice"></a>Просмотр счета или счета-фактуры
 
 ::: moniker range="o365-worldwide"
 
-1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">Счета и платежи</a>.
+1. В центре администрирования перейдите на страницу **Выставление счетов** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Счета и платежи</a>.
 
 ::: moniker-end
 
@@ -71,21 +71,20 @@ This article is for people who have a Microsoft 365 for business subscription. Y
 
 ::: moniker-end
 
-2. Выберите диапазон дат из раскрывающегося списка, а затем выберите порядок, который вы хотите просмотреть.
+2. На вкладке **Счета** выберите диапазон дат из раскрывающегося списка, а затем выберите порядок, который вы хотите просмотреть.
 
 3. На странице сводки вы можете увидеть следующее:
 
-  - Общий баланс, текущая сумма к оплате, срок платежа, сумма последнего платежа и дата его получения.
+    - Общий баланс, текущая сумма к оплате, срок платежа, сумма последнего платежа и дата его получения.
 
-  - Инструкции по оплате.
+    - Инструкции по оплате.
 
-  - Журнал с датами последних платежей и их сумм.
+    - Журнал с датами последних платежей и их сумм.
 
-  - Дата создания заказа и его номер.
+    - Дата создания заказа и его номер.
 
 4. Чтобы напечатать или сохранить копию счета в формате PDF, выберите пункт **скачать PDF-файл**.
 
-  
 ## <a name="related-articles"></a>Статьи по теме
 
 [Оплата с помощью счета-фактуры, кредитной карты или банковского счета](pay-for-your-subscription.md)

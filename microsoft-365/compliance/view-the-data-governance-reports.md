@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 description: Отчеты для управления данными в Центре безопасности и соответствия требованиям позволяют быстро проверить, применяются ли метки к содержимому так, как задумано.
-ms.openlocfilehash: dbfa8b698a4f09a8307f3bbec38555193237a48c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a4d0fb70774dfb03dc0bc674edf09c092d8b498f
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626305"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44819009"
 ---
 # <a name="view-the-data-governance-reports"></a>Просмотр отчетов для управления данными
 
-После создания меток нужно проверить, применяются ли они к содержимому так, как задумано. Это можно быстро сделать в Центре безопасности и соответствия требованиям с помощью таких отчетов для управления данными:
+After you create your labels, you'll want to verify that they're being applied to content as you intended. With the data governance reports in the Security &amp; Compliance Center, you can quickly view:
   
-- **5 часто используемых меток**. В этом отчете показан счетчик для пяти часто используемых меток, применяемых к содержимому. Откройте этот отчет, чтобы просмотреть список всех меток, которые недавно применялись к содержимому. Вы можете просмотреть счетчик, действия хранения, расположение, способ применения, тип ликвидации для каждой метки, а также то, является ли она записью. 
+- **Top 5 labels** This report shows the count of the top 5 labels that have been applied to content. Click this report to view a list of all labels that have been recently applied to content. You can see each label's count, location, how it was applied, its retention actions, whether it's a record, and its disposition type. 
     
 - **Применение автоматически или вручную**. В этом отчете показан счетчик для всего содержимого, к которому были применены метки вручную или автоматически, а также процентное соотношение содержимого, к которому были применены метки вручную, и содержимого, к которому были применены метки автоматически. 
     
@@ -40,7 +41,7 @@ ms.locfileid: "43626305"
   
 ![Диаграмма, показывающая тренды для меток за последние 90 дней](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   
-Отчеты для управления данными можно фильтровать по дате (до 90 дней) и расположению (Exchange, SharePoint и OneDrive для бизнеса). Самые новые данные появляются в отчетах в течение 24 часов.
+You can filter the data governance reports by date (up to 90 days) and location (Exchange, SharePoint, and OneDrive for Business). The most recent data can take up to 24 hours to appear in the reports.
   
 ![Фильтрация отчетов для управления данными](../media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
   

@@ -14,14 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
-description: Диспетчер соответствия требованиям на портале Microsoft Service Trust Portal предоставляет средства для отслеживания и реализации средств контроля, а также управления ими, помогая организации обеспечить соответствие требованиям отраслевых стандартов безопасности и защиты данных (например, GDPR, ISO 27001 и 27018, а также HIPAA) в облачных службах (Майкрософт), таких как Office 365 и Microsoft Azure. Диспетчер соответствия требованиям помогает сотруднику организации, который отвечает за стратегию защиты данных и обеспечения конфиденциальности, управлять процессом оценки рисков и обеспечения соответствия требованиям.
+description: Получите сведения о том, как использовать Менеджер по управлению соответствием на портале Microsoft Service Trust Portal для соблюдения требований к защите данных и нормативных требований.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d90e733dad48dc0e979f6d307a9419afd05cf6
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 071da43244f2afae3df29ec84ae98713ed0dc2d7
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165970"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44815600"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Диспетчер соответствия требованиям Майкрософт (классический)
 
@@ -48,16 +48,16 @@ ms.locfileid: "44165970"
 
     
 > [!IMPORTANT]
-> Диспетчер соответствия требованиям — это информационная панель, на которой представлена сводка по защите данных и соответствию требованиям в вашей организации, а также рекомендации по их улучшению. Действия клиентов, предоставляемые в диспетчере соответствия требованиям, — это лишь рекомендации. Каждой организации следует самостоятельно оценивать эффективность этих рекомендаций на своей законодательной базе, прежде чем реализовывать их. Рекомендации в диспетчере соответствия требованиям не следует рассматривать как гарантию соответствия.
+> Compliance Manager is a dashboard that provides a summary of your data protection and compliance stature and recommendations to improve data protection and compliance. The Customer Actions provided in Compliance Manager are recommendations; it is up to each organization to evaluate the effectiveness of these recommendations in their respective regulatory environment prior to implementation. Recommendations found in Compliance Manager should not be interpreted as a guarantee of compliance.
 
     
 ## <a name="what-is-compliance-manager"></a>Что такое диспетчер соответствия требованиям?
 
-Диспетчер соответствия требованиям — это основанное на рабочих процессах средство оценки рисков, призванное помочь вам контролировать соответствие нормативным требованиям в рамках модели общей ответственности для облака. Диспетчер соответствия требованиям предоставляет информационную панель, на которой представлены стандарты, нормативы и оценки, содержащие сведения о реализации средств контроля корпорацией Майкрософт, результаты тестирования, а также рекомендации по реализации клиентских средств контроля и их отслеживанию для вашей организации. В диспетчере соответствия требованиям представлены определения средств оценки сертификатов, рекомендации по реализации и тестированию средств контроля, скорректированный с учетом риска рейтинг средств контроля, возможности управления доступом на основе ролей, а также рабочий процесс для назначения действий на месте, чтобы отслеживать реализацию средств контроля и состояние тестирования, а также управлять свидетельствами. Диспетчер соответствия требованиям оптимизирует рабочую нагрузку обеспечения соответствия требованиям, позволяя клиентам логичным образом группировать оценки и применять имеющиеся результаты тестирования к идентичным или связанным средствам контроля, что помогает избежать повторения действий, которое в ином случае требовалось бы для соблюдения идентичных требований разных сертификатов.
+Compliance Manager is a workflow-based risk assessment tool designed to help you manage regulatory compliance within the shared responsibility model of the cloud. Compliance Manager provides you with a dashboard view of standards and regulations and assessments that contain Microsoft's control implementation details and test results and customer control implementation guidance and tracking for your organization to enter. Compliance Manager provides certification assessment control definitions, guidance on implementation and testing of controls, risk-weighted scoring of controls, role-based access management, and an in-place control action assignment workflow to track control implementation, testing status and evidence management. Compliance Manager optimizes compliance workload by enabling customers to logically group assessments together and apply assessment control testing to identical or related controls, reducing the duplication of effort that might otherwise be required to satisfy identical control requirements across different certifications.
 
 ## <a name="assessments-in-compliance-manager"></a>Оценки в диспетчере соответствия требованиям
 
-Основной компонент диспетчера соответствия требованиям называется *оценкой*. Оценка — это сопоставление службы Майкрософт со стандартом сертификации или нормативом защиты данных (например, ISO 27001:2013 или GDPR). Оценки помогают определить состояние защиты данных и соответствия требованиям определенного отраслевого стандарта для той или иной облачной службы (Майкрософт). Оценки выполняются путем реализации средств контроля, соответствующих оцениваемому стандарту сертификации. 
+The core component of Compliance Manager is called an *Assessment*. An Assessment is an assessment of a Microsoft service against a certification standard or data protection regulation (such as ISO 27001:2013, and the GDPR). Assessments help you to discern your organization's data protection and compliance posture against the selected industry standard for the selected Microsoft cloud service. Assessments are completed by the implementation of the controls that map to the certification standard being assessed. 
   
 Структура оценки основана на обязанностях, разделяемых между корпорацией Майкрософт и вашей организацией, чтобы оценить угрозы безопасности и риски несоответствия в облаке, а также реализовать средства защиты данных, предписываемые стандартом соответствия, стандартом защиты данных, нормативом или законом.
   
@@ -65,13 +65,13 @@ ms.locfileid: "44165970"
   
 - **Службы в области.** Каждая оценка применяется к определенному набору служб Майкрософт, указанных в разделе "Облачные службы в области". 
     
-- **Средства контроля под управлением Майкрософт.** Для каждой облачной службы корпорация Майкрософт реализует набор *средств контроля*, призванных обеспечить соблюдение различных стандартов и нормативов, и управляет им. Эти средства контроля делятся на *семейства*, соответствующие структуре стандарта сертификации или норматива, к которому относится оценка. Для каждого средства контроля под управлением Майкрософт в диспетчере соответствия требованиям представлены сведения о том, как корпорация Майкрософт реализовала средство контроля, а также как и когда реализация была проверена и подтверждена независимым сторонним аудитором. 
+- **Microsoft-Managed Controls** - For each cloud service, Microsoft implements and manages a set of  *controls*  as part of Microsoft's compliance with various standards and regulations. These controls are organized into  *control families*  that align with the structure from the corresponding certification or regulation that the Assessment is aligned to. For each Microsoft-managed control, Compliance Manager provides details about how Microsoft implemented the control, along with how and when that implementation was tested and validated by an independent third-party auditor. 
     
     Ниже приведен пример трех средств контроля под управлением Майкрософт из семейства **Безопасность** для оценки соответствия службы Office 365 требованиям GDPR. 
 
     ![Сведения о средствах контроля под управлением Майкрософт в диспетчере соответствия требованиям](../media/d1351212-1ebf-424e-91b8-930c2b2edef1.png)
   
-  а. Представлена следующая информация о стандарте сертификации или нормативе, соответствующем средству контроля под управлением Майкрософт.
+  a. Specifies the following information from the certification or regulation that maps to the Microsoft-managed control.
 
   - **Идентификатор средства контроля.** Номер раздела или статьи стандарта сертификации или норматива, которому соответствует средство контроля.
     
@@ -81,15 +81,15 @@ ms.locfileid: "44165970"
     
   - **Описание.** Текст стандарта сертификации или норматива, соответствующего выбранному средству контроля под управлением Майкрософт.
 
-  б. Рейтинг соответствия требованиям, который указывает степень риска (по причине несоблюдения или сбоя средства контроля), связанную с каждым средством контроля под управлением Майкрософт. Дополнительные сведения см. в разделе [Общие сведения о рейтинге соответствия требованиям](#understanding-the-compliance-score). Обратите внимание, что соответствие требованиям оценивается по шкале от 1 до 10, а рейтинг сопровождается цветовым обозначением. Желтый цвет обозначает низкий уровень риска, оранжевый — средний, а красный — высокий. 
+  b. The Compliance Score for the control, which indicates the level of risk (due to non-compliance or control failure) associated with each Microsoft-managed control. See [Understanding the Compliance Score](#understanding-the-compliance-score) for more information. Note that Compliance Scores are rated from 1 to 10 and are color-coded. Yellow indicates low risk controls, orange indicates medium-risk controls, and red indicated high-risk controls. 
     
-  c. Сведения о состоянии реализации этого средства контроля, дате его тестирования, тестировщике и результатах.
+  c. Information about the implementation status of a control, the date the control was tested, who performed the test, and the test result.
     
-  d. Для каждого средства контроля можно нажать кнопку **Дополнительно**, чтобы просмотреть дополнительные сведения, в том числе данные о реализации средства контроля корпораций Майкрософт, а также о том, как средство контроля было проверено и подтверждено независимым сторонним аудитором. 
+  d. For each control, you can click **More** to see additional information, including details about Microsoft's implementation of the control and details about how the control was tested and validated by an independent third-party auditor. 
     
-- **Средства контроля под управлением клиента.** Это коллекция средств контроля, которыми управляет ваша организация. Ваша организация отвечает за реализацию этих средств контроля в рамках обеспечения соответствия требованиям определенного стандарта или норматива. Средства контроля под управлением клиента также делятся на семейства, соответствующие разным стандартам сертификации и нормативам. С помощью средств контроля под управлением клиента вы можете принимать меры обеспечения соответствия, рекомендуемые корпорацией Майкрософт. Ваша организация может использовать инструкции и рекомендуемые действия клиента для каждого средства контроля под ее управлением, чтобы контролировать реализацию и оценку этого средства контроля.
+- **Customer-Managed Controls** - This is the collection of controls that are managed by your organization. Your organization is responsible for implementing these controls as part of your compliance process for a given standard or regulation. Customer-managed controls are also organized into control families for the corresponding certification or regulation. Use the customer-managed controls to implement the recommended actions suggested by Microsoft as part of your compliance activities. Your organization can use the prescriptive guidance and recommended Customer Actions in each customer-managed control to manage the implementation and assessment process for that control.
     
-    В средства контроля под управлением клиента в оценках также встроены функции управления рабочими процессами, с помощью которых вы можете контролировать ход выполнения оценки в вашей организации. Например, ответственный за обеспечение соответствия требованиям в вашей организации может назначить поручение ИТ-администратору, который отвечает за выполнение рекомендуемых действий с этим средством контроля и обладает необходимыми для этого разрешениями. После этого ИТ-администратор может отправить свидетельства выполнения своих задач по реализации (например, снимки экрана с конфигурацией или параметрами политики), а затем снова назначить поручение ответственному за обеспечение соответствия требованиям для оценки собранных свидетельств, тестирования средства контроля и занесения даты реализации и результатов тестирования в диспетчер соответствия требованиям. Дополнительные сведения см. в разделе [Управление процессом оценки](#managing-the-assessment-process) в этой статье. 
+    Customer-managed controls in Assessments also have built-in workflow management functionality that you can use to manage and track your organization's progress towards completing the Assessment. For example, a Compliance Officer in your organization can assign an Action Item to an IT admin who has the responsibility and necessary permissions to perform the actions that are recommended for the control. When that work is complete, the IT admin can upload evidence of their implementation tasks (for example, screenshots of configuration or policy settings) and then assign the Action Item back to the Compliance Officer to evaluate the collected evidence, test the implementation of the control, and record the implementation date and test results in Compliance Manager. For more information, see the [Managing the assessment process](#managing-the-assessment-process) section in the article. 
   
 ## <a name="permissions-and-role-based-access-control"></a>Разрешения и управление доступом на основе ролей
 
@@ -97,7 +97,7 @@ ms.locfileid: "44165970"
   
 Обратите внимание, что больше не существует используемой по умолчанию роли **Гостевой доступ**. Каждому пользователю должна быть назначена роль для доступа и работы в диспетчере соответствия требованиям.
   
-В приведенной ниже таблице описывается каждое разрешение в диспетчере соответствия требованиям и указаны действия, которые оно разрешает выполнять пользователям. В этой таблице также указаны роли, которым назначены те или иные разрешения.
+The following table describes each Compliance Manager permission and what it allows the user do. The table also indicates the role that each permission is assigned to.
   
 ||**Читатель в диспетчере соответствия требованиям**|**Участник в диспетчере соответствия требованиям**|**Аудитор в диспетчере соответствия требованиям**|**Администратор диспетчера соответствия требованиям**|**Администратор портала**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -105,7 +105,7 @@ ms.locfileid: "44165970"
 |**Изменение данных.** Пользователи могут редактировать все поля, кроме полей "Результат теста" и "Дата теста".  <br/> ||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |**Изменение результатов тестов.** Пользователи могут редактировать поля "Результат теста" и "Дата теста".  <br/> ||<br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |**Управление оценками.** Пользователи могут создавать, архивировать и удалять оценки.  <br/> |||<br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
-|**Управление пользователями.** Пользователи могут добавлять других пользователей в своей организации к ролям "Читатель", "Участник", "Аудитор" и "Администратор". Только пользователи с ролью "Глобальный администратор" в организации могут добавлять и удалять пользователей из роли "Администратор портала".<br/> ||||<br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
+|**Manage users** - Users can add other users in their organization to the Reader, Contributor, Assessor, and Administrator roles. Only those users with the Global Administrator role in your organization can add or remove users from the Portal Admin role.  <br/> ||||<br/> |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
    
 ## <a name="understanding-the-compliance-score"></a>Общие сведения о рейтинге соответствия требованиям
 
@@ -125,17 +125,17 @@ ms.locfileid: "44165970"
   
 ![Диспетчер соответствия требованиям: средство контроля оценки с низкой серьезностью (3 балла)](../media/11749f20-5f22-40c2-bbc1-eaccbf29e2ae.png)
   
-Диспетчер соответствия требованиям назначает разные ранги разным средствам контроля. Ранги риска вычисляются с учетом следующих критериев:
+The Compliance Manager assigns a default severity ranking to each control. Risk rankings are calculated based on the following criteria:
   
 - Предотвращает ли средство контроля возникновение инцидентов (самый высокий рейтинг), обнаруживает ли возникшие инциденты или исправляет их воздействие (самый низкий рейтинг). Что касается рейтинга серьезности, обязательному средству контроля, предотвращающему угрозы, назначается наибольшее число баллов, а средствам контроля, отвечающим за обнаружение и исправление воздействия угроз (независимо от того, являются они обязательными или дискреционными), назначается наименьшее число.
     
 - Является ли средство контроля (после его реализации) обязательным, что не позволяет пользователям обходить его (например, необходимость сбрасывать пароли, а также соблюдать требования к длине пароля и символам), или необязательным (например, бизнес-правила, требующие блокировать экран, когда пользователь отсутствует на рабочем месте)?
     
-- Для средств контроля, связанных с угрозами конфиденциальности, целостности и доступности данных: являются ли угрозы внутренними или внешними, злонамеренными или случайными? Например, за средства контроля, которые могут помешать внешнему злоумышленнику нарушить безопасность сети и получить доступ к личным сведениям, начисляется больше баллов, чем за те средства, которые не дают сотрудникам по ошибке неправильно настроить сетевой маршрутизатор, вызвав отказ сети.
+- Controls related to risks to data confidentiality, integrity, and availability, whether these risks come from internal or external threats, and whether the threat is malicious or accidental. For example, controls that would help prevent an external attacker from breaching that network and gaining access to personally identifiable information would be assigned more points than a control related to preventing an employee from accidentally mis-configuring a network router setting that results in a network outage).
     
 - Риски, связанные с юридическими и внешними факторами, например контрактами, нормативами и обязательствами перед общественностью, для каждого средства контроля.
     
-Отображаемые значения рейтинга соответствия требованиям для средства контроля *целиком* применяются к общему рейтингу соответствия требованиям по принципу "зачет-незачет" — средство контроля либо внедряется и проходит последующий оценочный тест, либо нет. За неполное внедрение не назначается частичный зачет. Начисленные баллы прибавляются к общему рейтингу соответствия требованиям, только если в поле **Состояние реализации** указано значение **Реализовано** или **Альтернативная реализация**, а в поле **Результат тестирования** — значение **Пройдено**. 
+The displayed Compliance Score values for the control are applied  *in their entirety*  to the Total Compliance Score on a pass/fail basis--either the control is implemented and passes the subsequent assessment test or it does not; there is no partial credit for a partial implementation. Only when the control has its **Implementation Status** set to **Implemented** or **Alternative Implementation** and the **Test Result** is set to **Passed** are the assigned points added to the Total Compliance Score. 
   
 Основная функция рейтинга соответствия требованиям заключается в том, что он помогает определить, реализации каких средств контроля необходимо уделять внимание в первую очередь (он обозначает средства, с отсутствием внедрения которых связан наибольший риск). Кроме того, если средства контроля связаны с другими средствами (в той же оценке или в другой оценке этой группы), успешное прохождение проверки одним из средств может существенно упростить работу по проверке другого благодаря синхронизации результатов тестирования.
   
@@ -145,7 +145,7 @@ ms.locfileid: "44165970"
   
 В рамках оценки средство контроля GDPR 7.5.5 связано с 5 другими (7.4.1, 7.4.3, 7.4.4, 7.4.8 и 7.4.9), каждое из которых имеет средний или высокий рейтинг серьезности (от 6 до 8). Используя фильтр оценок, мы выбрали все эти средства контроля, показав их в представлении оценки. Как видно, ни одно из них не проходило оценку. 
   
-![Представление оценок в диспетчере соответствия требованиям: фильтр средств контроля, ни одно из них не оценено](../media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) Так как эти 6 средств контроля взаимосвязаны, внедрение любого из них приведет к синхронизации результатов тестирования со связанными средствами контроля в этой оценке (а также со связанными средствами контроля из той же группы оценок). По завершении внедрения и тестирования средства контроля GDPR 7.5.5 область сведений о средстве контроля обновится, и вы увидите, что все 6 средств контроля были оценены, количество оцененных средств контроля повысилось до 57 (или 51 %), а общий рейтинг соответствия требованиям вырос на 40 баллов. 
+![Представление оценок в диспетчере соответствия требованиям: фильтр средств контроля, ни одно из них не оценено](../media/b2ae7120-2d7a-4247-b0a9-f5f65433395f.jpg) As those 6 controls are related, the completion of any one them will result in a synchronization of those test results across the related controls within this assessment (just as it will for any related controls in an assessment that is in the same assessment grouping). Upon completion of the implementation and testing of GDPR control 7.5.5, the control detail area refreshes to show that all 6 controls have been assessed, with a corresponding increase in the number of assessed controls to 57 and 51% assessed, and a change in total Compliance Score of +40. 
   
 ![Представление оценок в диспетчере соответствия требованиям: синхронизированные результаты оценки средств контроля](../media/e9da2b30-053a-4d40-ace9-ae1b39cdaf66.jpg)
   
@@ -154,16 +154,16 @@ ms.locfileid: "44165970"
 ![Оценка в диспетчере соответствия требованиям: диалоговое окно подтверждения обновления связанных средств контроля](../media/8be25bd2-1aee-455f-8aa4-10b1184ca4c3.png)
   
 > [!NOTE]
-> В настоящее время рейтинг соответствия требованиям указывается только для оценок, относящихся к облачным службам Office 365. В оценках для Azure и Dynamics показывается состояние оценки. 
+> Currently, only Assessments for Office 365 cloud services include a Compliance Score. Assessments for Azure and Dynamics show an assessment status. 
 
 ## <a name="compliance-score-methodology"></a>Принцип вычисления рейтинга
 
 Рейтинг соответствия требованиям, как и Оценка безопасности (Майкрософт), подобен другим системам оценивания с учетом поведения. Организация может повышать свой рейтинг соответствия требованиям, выполняя действия, связанные с защитой данных, обеспечением конфиденциальности и безопасности.
   
 > [!NOTE]
-> Рейтинг соответствия требованиям не является абсолютным показателем соблюдения определенного стандарта или норматива в организации. Он показывает степень внедрения средств контроля, которые могут снизить угрозу для персональных данных и конфиденциальности. Ни одна служба не может гарантировать соблюдение стандарта или норматива, а рейтинг соответствия требованиям не следует рассматривать как гарантию. 
+> The Compliance Score does not express an absolute measure of organizational compliance with any particular standard or regulation. It expresses the extent to which you have adopted controls which can reduce the risks to personal data and individual privacy. No service can guarantee that you are compliant with a standard or regulation, and the Compliance Score should not be interpreted as a guarantee in any way. 
   
-Оценки в диспетчере соответствия требованиям основаны на модели общей ответственности для работы в облаке. В этой модели корпорация Майкрософт и каждый клиент делят между собой обязанности по защите данных клиента при их хранении в облаке.
+Assessments in Compliance Manager are based on the shared responsibility model for cloud computing. In the shared responsibility model, Microsoft and each customer share responsibility for the protection of the customer's data when that data is stored in our cloud.
   
 Как показано ниже в оценке GDPR для Office 365, корпорация Майкрософт и клиенты несут ответственность за выполнение различных действий, направленных на выполнение требований оцениваемого стандарта или нормативного акта. Чтобы выявить необходимые действия и составить представление о них, в диспетчере соответствия требованиям все стандарты и нормативные акты рассматриваются как платформы контроля. Таким образом, действия, выполняемые корпорацией Майкрософт и клиентами для каждой оценки, включают внедрение и проверку различных средств контроля.
   
@@ -171,7 +171,7 @@ ms.locfileid: "44165970"
   
 Ниже представлен базовый рабочий процесс для типичного действия.
   
-1. Лица, ответственные за соответствие требованиям, риск, конфиденциальность и/или защиту данных в организации назначают тому или иному сотруднику организации задачу по реализации средства контроля. Этим сотрудником может быть:
+1. The Compliance, Risk, Privacy, and/or Data Protection Officer of an organization assigns the task to someone in the organization to implement a control. That person could be:
 
     - владелец бизнес-политики;
     
@@ -179,7 +179,7 @@ ms.locfileid: "44165970"
     
     - другой сотрудник организации, отвечающий за выполнение задачи.
     
-2. Этот сотрудник выполняет задачи, необходимые для реализации средства контроля, отправляет свидетельства реализации в диспетчер соответствия требованиям и помечает средства контроля, связанные с действием, как реализованные. После выполнения задач они назначают действие аудитору для проверки. Аудиторы могут быть:
+2. That individual performs the tasks necessary to implement the control, uploads evidence of implementation into Compliance Manager, and marks the control(s) tied to the Action as implemented. Once these tasks are completed, they assign the Action to an Assessor for validation. Assessors can be:
     
     - внутренними, то есть выполнять проверку средств контроля в рамках организации;
     
@@ -189,13 +189,13 @@ ms.locfileid: "44165970"
     
 После оценки всех средств контроля, связанных с оценкой, оценка считается выполненной.
   
-Каждая оценка в диспетчере соответствия требованиям содержит предварительно загруженные сведения о действиях, выполненных корпорацией Майкрософт для удовлетворения требований средств контроля, за которые она отвечает. Эти данные включают сведения о том, как корпорация Майкрософт реализовала каждое средство контроля, а также как и когда их реализация корпорацией Майкрософт была оценена и подтверждена сторонним аудитором. По этой причине средства контроля под управлением Майкрософт для каждой оценки отмечаются как оцененные, и это сказывается на рейтинге соответствия требованиям для оценки.
+Every Assessment in Compliance Manager comes pre-loaded with information that provides details about the Actions taken by Microsoft to satisfy the requirements of the controls for which Microsoft is responsible. This information includes details about how Microsoft has implemented each control and how and when Microsoft's implementation was assessed and verified by a third-party auditor. For this reason, the Microsoft Managed Controls for each Assessment are marked as Assessed, and the Compliance Score for the Assessment reflects this.
   
-Каждая оценка включает общий рейтинг соответствия требованиям, основанный на модели общей ответственности. За реализацию и тестирование средств контроля Office 365 корпорацией Майкрософт начисляется часть возможных баллов, связанных с оценкой GDPR. По мере того как клиент реализует и тестирует свои действия, рейтинг соответствия требованиям повышается на значение, назначенное средству контроля. 
+Each Assessment includes a total Compliance Score based on the shared responsibility model. Microsoft's implementation and testing of controls for Office 365 contributes a portion of the total possible points associated with a GDPR assessment. As the customer implements and tests each of the customer Actions, the Compliance Score for the Assessment will increase by the value assigned to the control. 
   
  ### <a name="risk-based-scoring-methodology"></a>Принцип оценивания с учетом рисков
   
-В диспетчере соответствия требованиям используется принцип оценивания с учетом рисков по шкале от 1 до 10. Чем выше риск в случае сбоя средства контроля или несоблюдения правила, тем выше значение. Система оценивания, используемая для вычисления рейтинга соответствия требованиям, основана на нескольких ключевых факторах, таких как:
+Compliance Manager uses a risk-based scoring methodology with a scale from 1-10 that assigns a higher value to controls that represent a higher risk in the event the control fails or is non-compliant. The scoring system used by Compliance Score is based on several key factors, such as:
   
 - характер средства контроля;
     
@@ -211,17 +211,17 @@ ms.locfileid: "44165970"
   
  ### <a name="mandatory-or-discretionary"></a>Обязательное или дискреционное
   
- *Обязательные средства контроля* невозможно обходить ни намеренно, ни случайно. К примерам распространенных обязательных средств контроля относится политика паролей с централизованным управлением, которая задает требования к длине, сложности и сроку действия пароля. Пользователи должны соблюдать эти требования для доступа к системе. 
+ *Mandatory controls*  are controls that cannot be bypassed either intentionally or accidentally. An example of a common mandatory control is a centrally-managed password policy that sets requirements for password length, complexity, and expiration. Users must comply with these requirements in order to access the system. 
   
- *Дискреционные средства контроля* применяются с расчетом на то, что пользователи понимают политику и поступают соответствующим образом. Например, политика, которая требует, чтобы пользователи блокировали свои компьютеры, покидая рабочее место, является необязательной, так как ее выполнение зависит от пользователя. 
+ *Discretionary controls*  rely upon users to understand policy and act accordingly. For example, a policy requiring users to lock their computer when they leave it is a discretionary control because it relies on the user. 
   
  ### <a name="preventative-detective-or-corrective"></a>Профилактическое, обнаруживающее или корректирующее
   
- *Профилактические средства контроля* предотвращают определенные риски. Например, защита информации на месте с помощью шифрования — это профилактическая мера против атак, нарушений безопасности и т. д. Разделение обязанностей — это профилактическая мера, призванная контролировать конфликты интересов и предотвращать мошенничество. 
+ *Preventative controls*  are those that prevent specific risks. For example, protecting information at rest using encryption is a preventative control against attacks, breaches, etc. Separation of duties is a preventative control to manage conflict of interest and to guard against fraud. 
   
- *Обнаруживающие средства* активно отслеживают системы, выявляя необычные условия и действия, представляющие риск. С помощью этих средств контроля также можно обнаруживать вторжения и выявлять нарушения безопасности. К мониторинговым средствам контроля относятся аудит доступа к системе и действий привилегированных администраторов. Аудит соответствия требованиям нормативов — это средство контроля, используемое для обнаружения проблем с процессами. 
+ *Detective controls*  are those that actively monitor systems to identify irregular conditions or behaviors that represent risk or that can be used to detect intrusions or determine if a breach has occurred. System access auditing and privileged administrative actions auditing are types of detective monitoring controls; regulatory compliance audits are a type of detective control used to find process issues. 
   
- *Корректирующие средства контроля* пытаются свести к минимуму отрицательное воздействие нарушения безопасности, принимают корректирующие меры для снижения мгновенного влияния и по мере возможности устраняют ущерб. Реагирование на нарушения конфиденциальности — это корректирующее средство контроля, которое ограничивает ущерб и восстанавливает работоспособность систем после нарушения безопасности. 
+ *Corrective controls*  are those that try to keep the adverse effects of a security incident to a minimum, take corrective action to reduce the immediate effect, and reverse the damage, if possible. Privacy incident response is a corrective control to limit damage and restore systems to an operational state after a breach. 
   
 Оценивая каждое средство контроля по этим критериям, мы определяем его характер и назначаем ему значение, соответствующее представляемому им уровню риска.
   
@@ -242,7 +242,7 @@ ms.locfileid: "44165970"
     
 - Доступность означает, что к информации можно в любой момент получить доступ с высоким качеством обслуживания.
     
-Несоответствие какому-либо из этих критериев считается компрометацией системы в целом. Угрозы могут поступать как из внутренних, так и из внешних источников, а также возникать по злому умыслу или непреднамеренно. Предполагаемое влияние этих факторов представлено в таблице угроз, где каждому сочетанию сценариев назначается высокая, средняя или низкая степень риска.
+A failure of any of these characteristics is considered a compromise of the system as a whole. Threats can come from both internal and external sources, and an actor's intent can be accidental or malicious. These factors are estimated in a threat matrix that assigns threat levels of either High, Moderate, or Low to each combination of scenarios.
 
 ||**Внутренняя**<br/>||**Внешняя**<br/>||||
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -274,13 +274,13 @@ ms.locfileid: "44165970"
   
 ### <a name="summary-of-scoring-methodology"></a>Заключение
   
-Рейтинг соответствия требованиям — основной компонент диспетчера соответствия требованиям, помогающий организациям анализировать и контролировать соответствие требованиям. Рейтинг соответствия требованиям для оценки — это числовой показатель соблюдения компанией определенного стандарта или норматива. Чем выше это значение (вплоть до максимально возможного числа баллов), тем больше компания соответствует требованиям. Понимание принципа оценивания соответствия, согласно которому средствам контроля назначается уровень риска от 1 до 10 (в порядке возрастания), и того, как выполненные оценки средств контроля влияют на общий рейтинг соответствия требованиям, критически важно для расстановки приоритетов деятельности в организации.
+The Compliance Score is a core component of the way that Compliance Manager helps organizations understand and manage their compliance. The Compliance Score for an assessment is an expression of the company's compliance with a given standard or regulation as a number, where the higher the score (up to the maximum number of points allocated for the Assessment), the better the company's compliance posture. Understanding the compliance scoring methodology in which assessment controls are assigned risk severity values between 1- 10 (low to high), and how completed control assessments add to the total compliance score is crucial to organizations for prioritizing their actions.
 
 ## <a name="grouping-assessments"></a>Группировка оценок
 
 При создании оценки можно создать для нее группу или присвоить ее существующей группе. Группы также помогают логически организовать оценки и использовать общую информацию и задачи рабочего процесса для оценок с одинаковыми или связанными средствами контроля, управляемыми клиентом.
   
-Например, вы можете группировать оценки по годам, командам, отделам и агентствам в организации. Ниже представлены примеры групп и оценок, которые они могут содержать.
+For example, you could group Assessments by year or teams, departments, or agencies within your organization or group them by year. Here are some examples of groups and the Assessments they might contain.
   
 - Оценки GDPR — 2018 г.
     
@@ -315,7 +315,7 @@ ms.locfileid: "44165970"
   
 - Имена групп (также называемые *идентификаторами групп) должны быть уникальными в рамках организации. 
     
-- Группы могут содержать оценки для одного и того же стандарта сертификации или норматива, но каждая группа может содержать по одной оценке на каждую пару облачной службы и сертификата. Например, группа не может содержать две оценки для Office 365 и GDPR. Аналогичным образом, группа может содержать несколько оценок для одной облачной службы, если им соответствуют разные стандарты сертификации или нормативы.
+- Groups can contain Assessments for the same certification/regulation, but each group can only contain one Assessment for a specific cloud service/certification pair. For example, a group can't contain two Assessments for Office 365 and GDPR. Similarly, a group can contain multiple Assessments for the same cloud service as long as the corresponding certification/regulation for each one is different.
     
 После добавления оценки в группу последнюю невозможно изменить. Вы можете переименовать группу оценок, после чего во всех оценках будет использоваться новое имя группы. Также можно создать новую оценку и новую группу оценок, а затем скопировать в нее сведения из существующей оценки (при этом создается дубликат оценки в другой группе). При архивации оценки нарушается связь между этой оценкой и группой оценок. Дальнейшие обновления других связанных оценок больше не отражаются в архивированной оценке.
   
@@ -346,11 +346,11 @@ ms.locfileid: "44165970"
 Некоторые административные функции доступны только учетной записи администратора клиента и будут видны, только если войти от имени глобального администратора.
   
 > [!NOTE]
-> Разрешение "Доступ к ограниченным документам" в раскрывающемся списке позволяет администраторам предоставлять пользователям доступ к ограниченным документам, к которым корпорация Майкрософт предоставляет доступ на портале Service Trust Portal. Функция "Ограниченные документы" недоступна, но появится в скором времени. 
+> The Access to Restricted Documents permission in the drop-down list will allow administrators to give users access to restricted documents that Microsoft shares on the Service Trust Portal. The Restricted Documents feature isn't available, but is coming soon. 
   
 ### <a name="assigning-compliance-manager-roles-to-users"></a>Назначение пользователям ролей в диспетчере соответствия требованиям
 
-Разрешения разных ролей в диспетчере соответствия требованиям немного различаются. Вы можете просматривать разрешения, назначенные каждой роли, узнавать, какие пользователи относятся к каким ролям, а также добавлять или удалять пользователей из этой роли с помощью портала Service Trust Portal, открыв меню **Администратор** и выбрав пункт **Параметры**. 
+Each Compliance Manager role has slightly different permissions. You can view the permissions assigned to each role, see which users are in which roles, and add or remove users from that role through the Service Trust Portal by selecting the **Admin** menu item, and then choosing **Settings**. 
   
 ![Меню "Администратор" на портале STP — выбранные параметры](../media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
   
@@ -366,7 +366,7 @@ ms.locfileid: "44165970"
     
 5. Пользователи, добавленные к каждой роли, указаны на странице **Выбор роли**. 
     
-6. Чтобы добавить пользователей к этой роли, нажмите кнопку **Добавить**. В диалоговом окне **Добавление пользователей** щелкните поле пользователя. Вы можете прокрутить список доступных пользователей или начать вводить имя, чтобы отфильтровать список по вашему запросу. Выберите пользователя, чтобы добавить его в список **Добавление пользователей** для назначения этой роли. Чтобы добавить нескольких пользователей одновременно, отфильтруйте список, начав вводить имя, а затем выберите пользователя, чтобы добавить его в список. Нажмите кнопку **Сохранить**, чтобы назначить выбранную роль этим пользователям. 
+6. To add users to this role, click **Add**. In the **Add Users** dialog, click the user field. You can scroll through the list of available users or begin typing the user name to filter the list based on your search term. Click the user to add that account to the **Add Users** list to be provisioned with that role. If you would like to add multiple users concurrently, begin typing a user name to filter the list, and then click the user to add to the list. Click **Save** to provision the selected role to these users. 
     
     ![Подготовка ролей в диспетчере соответствия требованиям — добавление пользователей](../media/2f386f82-2bf8-4e95-ab41-1724b752b508.png)
   
@@ -376,7 +376,7 @@ ms.locfileid: "44165970"
  
 ## <a name="user-privacy-settings"></a>Параметры конфиденциальности пользователей
 
-Некоторые нормативы требуют, чтобы организация могла удалять данные журнала пользователей. Для этого в диспетчере соответствия требованиям предоставляется раздел **Параметры конфиденциальности пользователей**, где администраторы могут: 
+Certain regulations require that an organization must be able to delete user history data. To enable this, Compliance Manager provides the **User Privacy Settings** functions, that allow administrators to: 
   
 - [искать пользователей;](#search-for-a-user)
 
@@ -396,7 +396,7 @@ ms.locfileid: "44165970"
     
 2. Правильно указав имя пользователя, нажмите кнопку **Поиск**. 
     
-3. Если учетная запись пользователя не найдена, на странице появится сообщение "Пользователь не найден". Проверьте электронный адрес пользователя, внесите необходимые изменения и нажмите кнопку **Поиск**, чтобы повторить попытку. 
+3. If the user account is not found, the error message 'User not found' will be displayed on the page. Check the user's email address information, make corrections as necessary and click **Search** to try again. 
     
 4. Если учетная запись пользователя найдена, подпись кнопки **Поиск** изменится на **Очистить**. Это означает, что найденная учетная запись пользователя является рабочим контекстом для дополнительных функций, которые показаны ниже, а работа этих функций будет распространяться на данную учетную запись. 
     
@@ -415,11 +415,11 @@ ms.locfileid: "44165970"
 3. Откройте документ, чтобы просмотреть данные отчета.
     
 > [!NOTE]
-> Это не хронологический отчет с данными об изменении состояния в журнале назначения поручений. Создаваемый отчет представляет собой моментальный снимок поручений, назначенных в момент его создания (метка даты и времени заносится в отчет). Например, любое последующее переназначение поручений приведет к созданию другого моментального снимка данных, если другой пользователь снова создаст этот отчет. 
+> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user. 
   
 ### <a name="reassign-action-items"></a>Переназначение поручений
 
-Эта функция позволяет организации удалять активные или просроченные зависимости учетной записи, переназначая все поручения (это относится как к активным, так и к выполненным поручениям) из найденной учетной записи пользователя новому пользователю, выбранному ниже. Это действие не меняет журнал отправки документов для найденной учетной записи. 
+This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account. 
   
  Чтобы переназначить поручения другому пользователю, выполните указанные ниже действия.
   
@@ -432,9 +432,9 @@ ms.locfileid: "44165970"
 4. Если вы хотите продолжить, нажмите кнопку **ОК**. В противном случае нажмите кнопку **Отмена**. 
     
 > [!NOTE]
-> Все поручения (как активные, так и выполненные) будут назначены новому пользователю. Однако это действие не влияет на журнал отправки документов. Во всех документах, отправленных ранее назначенным пользователем, по-прежнему будут отображаться дата и время, а также имя назначенного ранее пользователя. 
+> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
   
-Чтобы удалить назначенного ранее пользователя, необходимо вручную отредактировать журнал отправки документов. В этом случае администратору потребуется:
+Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
   
 1. Открыть загруженный ранее отчет об экспорте.
   
@@ -446,17 +446,17 @@ ms.locfileid: "44165970"
   
 5. Удалить документ их репозитория свидетельств.
   
-6. Повторно отправить документ. Теперь для документа будут указаны новые дата и время отправки, а также имя отправителя. 
+6. Re-upload the document. The document will now have a new upload date, time and Uploaded By username. 
   
 ### <a name="delete-user-data-history"></a>Удаление журнала данных пользователя
 
-При этом все поручения, назначенные найденному пользователю, становятся неназначенными. Кроме того, для всех документов, отправленных этим пользователям, значение имени отправителя меняется на "Пользователь удален".
+This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
   
  Чтобы удалить журнал поручений и отправки документов для учетной записи, выполните указанные ниже действия.
   
 1. Нажмите кнопку **Удалить**. 
 
-    Появится диалоговое окно подтверждения с сообщением "Будут удалены все назначенные поручения и журнал отправки документов для выбранного пользователя. Это действие невозможно отменить. Продолжить?"
+    A confirmation dialog will be displayed, stating "This will remove all control action item assignments and the document upload history for the selected user. This action cannot be undone. Are you sure you want to continue?"
     
 3. Если вы хотите продолжить, нажмите кнопку **ОК**. В противном случае нажмите кнопку **Отмена**. 
   
@@ -468,7 +468,7 @@ ms.locfileid: "44165970"
 
 ## <a name="accessing-compliance-manager"></a>Доступ к диспетчеру соответствия требованиям
 
-Перейти к диспетчеру соответствия требованиям можно с портала Service Trust Portal. Диспетчер соответствия требованиям доступен любому пользователю с учетной записью Майкрософт или организационной учетной записью Azure Active Directory.
+You access Compliance Manager from the Service Trust Portal. Anyone with a Microsoft account or Azure Active Directory organizational account can access Compliance Manager.
   
 ![Диспетчер соответствия требованиям — доступ к диспетчеру соответствия требованиям из меню STP](../media/14be4cac-2380-49bc-9b36-210da8cafdfa.png)
   
@@ -478,7 +478,7 @@ ms.locfileid: "44165970"
     
 3. На портале Service Trust Portal выберите **Диспетчер соответствия требованиям**. 
     
-4. Когда появится соглашение о неразглашении, прочтите его и нажмите кнопку **Принимаю** для продолжения. Это достаточно сделать один раз, после чего появится информационная панель диспетчера соответствия требованиям. 
+4. When the Non-Disclosure Agreement is displayed, read it, and then click **Agree** to continue. You'll only have to do this once, and then the Compliance Manager dashboard is displayed. 
 
     Чтобы помочь вам приступить к работе, мы добавили по умолчанию следующие оценки:
     
@@ -498,7 +498,7 @@ ms.locfileid: "44165970"
     
 2. Перейдите по ссылке **Поручения**, и страница обновится, после чего вы увидите назначенные вам поручения. 
     
-    По умолчанию отображаются все поручения. Если у вас есть поручения для нескольких стандартов сертификации, то назначения этих стандартов будут показаны на вкладках в верхней части области оценки. Чтобы просмотреть поручения, относящиеся к определенному стандарту сертификации, выберите соответствующую вкладку.
+    By default, all action items are shown. If you have action items across multiple certifications, the names of the certifications will be listed in tabs across the top of the assessment control. To see the action items for a specific certification, click that tab.
 
 ## <a name="adding-an-assessment"></a>Добавление оценки
 
@@ -506,7 +506,7 @@ ms.locfileid: "44165970"
   
 1. На информационной панели в диспетчере соответствия требованиям нажмите ![Значок добавления](../media/ITPro-EAC-AddIcon.gif) **Добавить оценку**. 
     
-2. В окне **Добавление оценки** вы можете создать группу, к которой будет добавлена оценка, или добавить оценку к имеющейся группе (встроенная группа называется "Исходная группа"). В зависимости от выбранного варианта введите имя новой группы или выберите существующую из раскрывающегося списка. Дополнительные сведения см. в разделе [Группировка оценок](#grouping-assessments).
+2. In the **Add an Assessment** window, you can create a new group to add the Assessment to or you can add it to an existing group (the built-in group is named "Initial Group".) Depending on the option you choose, either type the name of a new group or select an existing group from the drop-down list. For more information, see [Grouping Assessments](#grouping-assessments).
     
     При создании группы также можно скопировать информацию из существующей группы в новую оценку. Это означает, что информация из полей "Сведения о реализации", "План тестирования" и "Отклик функции управления" средств контроля, управляемых клиентом, для оценок в группе, из которой вы копируете сведения, копируется в те же (или связанные) средства контроля, управляемые клиентом, в новой оценке. Если вы добавляете новую оценку в существующую группу, общая информация об оценках в этой группе копируется в новую оценку. Дополнительные сведения см. в разделе [Копирование информации из существующих оценок](#copying-information-from-existing-assessments).
     
@@ -532,7 +532,7 @@ ms.locfileid: "44165970"
   
 Вы можете скопировать в новую оценку следующие сведения от клиента:
   
-- Пользователи оценки. Пользователь оценки — это пользователь, которому назначено средство контроля.
+- Assessment Users. An Assessment user is a user who the control is assigned to.
     
 - Состояние, дата и результаты тестирования.
     
@@ -548,7 +548,7 @@ ms.locfileid: "44165970"
   
 1. В этом разделе показаны сводные данные об оценке, в том числе имя группы и оценки, а также количество средств контроля.
     
-2. В этом разделе показаны элементы фильтрации оценок. Подробные инструкции по использованию элементов фильтрации оценок см. в разделе [Управление процессом оценки](#managing-the-assessment-process). 
+2. This section shows the Assessment Filter controls. For a more detailed explanation of how to use the Assessment Filter controls see the [Managing the assessment process](#managing-the-assessment-process) section. 
     
 3. В этом разделе показаны отдельные облачные службы, на которые распространяется оценка.
     
@@ -584,19 +584,19 @@ ms.locfileid: "44165970"
     
     - **Результат тестирования.** Возвращает список средств контроля с выбранным результатом тестирования. 
     
-    По мере применения условий фильтра представление применимых средств контроля меняется в соответствии с этими условиями. Разворачивайте разделы семейств средств контроля, чтобы снизу появились сведения об этих средствах. 
+    As you apply filter conditions, the view of applicable controls will change to correspond to your filter conditions. Expand the control family sections to show the control details below. 
     
     ![Представление оценки в диспетчере соответствия требованиям: фильтр по результату тестирования для статьи](../media/e6485d45-d47f-4b25-8b1c-b3c2ee4a8328.png)
   
-2. Если после выбора нужных фильтров результаты не отображаются, это означает, что у вас нет средств контроля, соответствующих указанным условиям фильтра. Например, если выбрать определенного **назначенного пользователя**, а затем выбрать название **средства контроля**, назначенного пользователю, то на странице ниже не будет показано ни одной оценки. 
+2. If after selecting the desired filters no results are shown, that means there are no controls that correspond to the specified filter conditions. For instance, if you select a particular **Assigned User** and then choose a **Control** name that does correspond to the control assigned to that user, no assessments will be shown in the page below. 
     
-3. **Назначение поручения пользователю.** Вы можете назначить поручение пользователю, чтобы внедрить требования стандарта сертификации или норматива либо тестировать, проверять и документировать требования к их внедрению в организации. Назначая поручение, вы можете отправить пользователю электронное сообщение с такими сведениями, как рекомендуемые действия клиента и приоритет поручения. Вы также можете отменить назначение поручения или переназначить его другому пользователю. 
+3. **Assign an Action Item to a user** - You can assign an Action Item to a person to implement the requirements of a certification/regulation, or to test, verify, and document your organization's implementation requirements. When you assign an Action Item, you can choose to send an email to the person that contains details including the recommended Customer Actions and the Action Item priority. You can also unassign or reassign an Action Item to a different person. 
     
 4. **Управление документами**. Для клиентских средств контроля также можно управлять документами, которые относятся к задачам реализации, тестирования и проверки. Любой пользователь с разрешением на изменение данных в диспетчере соответствия требованиям может добавить документы, нажав кнопку **Управление документами**. После добавления документа можно нажать кнопку **Управление документами**, чтобы просмотреть или скачать файлы. 
     
 5. **Предоставление сведений о реализации и тестировании.** Каждое средство контроля под управлением клиента также содержит редактируемое поле, где пользователи могут добавлять сведения о реализации, которые описывают принятые в организации меры по обеспечению соответствия требованиям стандарта сертификации или норматива, а также проверке и документированию соответствия требованиям в организации.
     
-6. **Установка состояния.** Вы можете задать состояние каждого элемента в ходе оценки. Доступные значения состояния: **Реализовано**, **Альтернативная реализация**, **Запланировано** и **За пределами области**. 
+6. **Set Status** - Set the Status for each item as part of the assessment process. Available status values are **Implemented**, **Alternative Implementation**, **Planned**, and **Not in Scope**. 
     
 7. **Ввод даты и результатов тестирования.** Пользователь с ролью аудитора может подтвердить правильность тестирования, изучить сведения о реализации, план тестирования, результаты тестирования и все добавленные доказательства, а затем указать дату и результат тестирования. Доступные результаты тестирования: **Passed** (Пройдено), **Failed-Low Risk** (Не пройдено, низкий риск), **Failed-Medium Risk** (Не пройдено, средний риск) и **Failed-High Risk** (Не пройдено, высокий риск). 
 
@@ -604,7 +604,7 @@ ms.locfileid: "44165970"
 
 Сотрудники, которые участвуют в процессе оценки, могут просматривать в диспетчере клиентские средства контроля для всех оценок, пользователями которых они являются. Когда пользователь входит в диспетчер соответствия требованиям и открывает панель мониторинга **Поручения**, отображается список поручений, назначенных ему. В зависимости от роли пользователя он может ввести сведения о реализации или тестировании, обновить статус или назначить поручения. 
   
-Так как средства контроля сертификации обычно реализует один пользователь, а тестирует другой, можно сначала назначить одному пользователю поручение на реализацию, а когда она будет завершена, этот пользователь может переназначить поручение другому сотруднику для тестирования и отправки свидетельств. Назначать и переназначать действия со средствами контроля могут все пользователи, которым в диспетчере соответствия требованиям назначены роли с достаточными разрешениями для централизованного управления назначениями средств контроля или децентрализованного переназначения поручений — от специалиста по внедрению до тестировщика.
+As certification controls are generally implemented by one person and tested by another, the control action item can be initially assigned to one person for implementation, and once that is complete, that person can reassign the control action item to the next person for control testing and uploading of evidence. This assignment/reassignment of control actions can be performed by any users who have a Compliance Manager role with sufficient permissions, allowing for central management of control assignments, or decentralized routing of control action items, from implementer to tester as appropriate.
   
 Чтобы назначить поручение, выполните указанные ниже действия.
   
@@ -616,7 +616,7 @@ ms.locfileid: "44165970"
     
 4. В столбце **Назначенный пользователь** нажмите кнопку **Назначить**. 
     
-5. В диалоговом окне "Назначение поручения" выберите поле **Назначить для**, чтобы заполнить список пользователей, которым можно назначить действие. Вы можете прокрутить список, чтобы найти целевого пользователя, или начать вводить его имя в поле поиска. 
+5. In the Assign Action Item dialog box, click the **Assign To** field to populate the list of users to whom the action can be assigned. You can scroll through the list to find the target user or start typing in the field to search for the username. 
     
 6. Выберите пользователя, чтобы назначить ему это поручение.
     
@@ -626,7 +626,7 @@ ms.locfileid: "44165970"
  
     Пользователь получит уведомление о том, что ему назначено поручение, и предоставленные вами примечания.
     
-Примечания, связанные с поручением, хранятся в соответствующем разделе и доступны для следующего назначения этого поручения. Эти примечания доступны не только для чтения. Пользователь, назначающий поручение, может редактировать, заменять и удалять их.
+The notes that are associated with the action item are persisted in the notes section, available for the next time the action item is assigned. These notes are not read-only, can be edited, replaced or removed by the person assigning the action item.
 
 ## <a name="exporting-information-from-an-assessment"></a>Экспорт сведений из оценки
 
@@ -640,14 +640,14 @@ ms.locfileid: "44165970"
     
 - Если открыта страница сведений об оценке, нажмите кнопку **Экспорт в Excel**, расположенную в правом верхнем углу страницы над рейтингом соответствия требованиям для этой оценки.
     
-Отчет об оценке будет загружен в сеансе браузера. Если соответствующее всплывающее уведомление не появляется, проверьте папку загрузок браузера.
+The assessment report will be downloaded in your browser session. If you don't see a popup informing you of this, you may wish to check your browser's downloads folder.
 
 ## <a name="archiving-an-assessment"></a>Архивация оценки
 
-Если оценка завершена и больше не требуется для соответствия требованиям, вы можете архивировать ее. Архивируемая оценка удаляется с информационной панели оценок.
+When you have completed an Assessment and no longer need it for compliance purposes, you can archive it. When an Assessment is archived, it is removed from Assessments dashboard.
   
 > [!NOTE]
-> Заархивированную оценку невозможно "разархивировать" или вернуть в состояние чтения или записи. Обратите внимание, что в архивированных оценках не сохраняются ссылки на отправленные документы со свидетельствами, поэтому настоятельно рекомендуем экспортировать оценку, прежде чем архивировать ее, так как экспортированный отчет об оценке будет содержать ссылки на документы со свидетельствами, благодаря чем они по-прежнему будут доступны вам. 
+> When an Assessment is Archived, it cannot be 'unarchived' or restored to a read-write in progress state. Please note that Archived Assessments do not retain their links to uploaded evidence documents, so it is highly recommended that you perform an Export of the Assessment before archiving it, as the exported assessment report will contain links to the evidence documents, enabling you to continue to access them. 
   
 Чтобы архивировать оценку, выполните указанные ниже действия.
   
@@ -673,9 +673,9 @@ ms.locfileid: "44165970"
 
 ![Service Trust Portal: поле для ввода поисковых запросов](../media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
   
-Щелкните значок лупы в правом верхнем углу страницы, чтобы развернуть поле поиска, введите поисковые термины и нажмите клавишу ВВОД. Появится элемент управления "Поиск", где в поле ввода на панели поиска будет указан поисковый термин, а под ним будут показаны результаты поиска.
+Click the magnifying glass in the upper right-hand corner of the page by to expand the Search input field, enter your search terms and press Enter. The Search control will appear, with the search term in the search pane input field, and search results will appear beneath.
   
-По умолчанию при поиске возвращаются документы, а вы можете воспользоваться раскрывающимися списками "Фильтровать по", чтобы уточнить отображаемый список документов, добавляя или удаляя результаты поиска в представлении. Вы можете использовать несколько атрибутов фильтра одновременно, чтобы возвращались только документы, относящиеся к определенным облачным службам, категориям соответствия требованиям или мерам безопасности, географическим регионам или отраслям. Перейдите по ссылке с именем документа, чтобы скачать документ.
+By default, Search returns Document results, and you can use the Filter By dropdown lists to refine the list of documents displayed, to add or remove search results from view. You can use multiple filter attributes at the same time to narrow the returned documents to specific cloud services, categories of compliance or security practices, regions of the world, or industries. Click the document name link to download the document.
   
 ![Service Trust Portal: поиск документов с примененным фильтром](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
   
@@ -688,7 +688,7 @@ ms.locfileid: "44165970"
  
 ## <a name="localization-support"></a>Поддержка локализации
 
-На портале Service Trust Portal можно просматривать содержимое страниц на различных языках. Чтобы изменить язык страницы, просто щелкните значок глобуса в левом нижнем углу страницы и выберите нужный язык. 
+Service Trust Portal enables you to view the page content in different languages. To change the page language, simply click on the globe icon in the lower left corner of the page and select the language of your choice. 
   
 ![Service Trust Portal: локализованные варианты содержимого](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
@@ -697,9 +697,9 @@ ms.locfileid: "44165970"
 
 Диспетчер соответствия требованиям рассчитан на регулярное обновление в соответствии с изменениями нормативных требований и наших облачных служб. Эти обновления включают изменения правил, которыми управляет клиент. Журнал изменений позволяет понимать, какое влияние они оказывают, а также содержит подробные сведения о добавленном или измененном содержимом и влиянии этих изменений на существующие оценки. В целом выделяют два типа изменений:
   
-- **Значительное** изменение действия клиента, например добавление или удаление средства контроля или определенных пронумерованных этапов либо изменение инструкций касательно обязанностей, рекомендаций или свидетельств. Для значительных изменений рекомендуем повторно оценить реализацию и/или оценку затронутого средства контроля.
+- A **Major** change is a significant change to a Customer Action, such as the addition or removal of a control or specific numbered steps, or a change in the guidance around responsibilities, recommendations, or evidence. For Major changes, we recommend that you re-evaluate your implementation and/or assessment of the affected control.
     
-- **Незначительное изменение** действия клиента, например исправление опечатки или проблем с форматированием либо обновление или исправление гиперссылок. Как правило, при незначительных изменениях не требуется повторная оценка средства контроля. Однако мы все же рекомендуем проверить обновленное действие клиента.
+- A **Minor** change is an insignificant change to a Customer Actions, such as fixing a typo or formatting issues, or updating or correcting hyperlinks. Minor changes generally do not require the control to be re-evaluated; however, we do recommend that you review the updated Customer Action.
   
 ### <a name="customer-managed-controls---change-log-for-july-2018"></a>Средства контроля под управлением клиента — журнал изменений за июль 2018 г.
 

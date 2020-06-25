@@ -15,13 +15,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: После создания меток хранения и меток конфиденциальности рекомендуется просматривать, как они используется в клиенте. С помощью аналитики меток в Центре соответствия требованиям Microsoft 365 и Центре безопасности Microsoft 365 можно быстро просмотреть, какие метки используются чаще всего и где они применяются.
-ms.openlocfilehash: 3905b868ec3815fd9bf63ca131a20ceb1034f2c7
-ms.sourcegitcommit: 252b1d1d8ae735b99bf46e27c08353afc330aef3
+ms.custom:
+- seo-marvel-apr2020
+description: Узнайте, как быстро определить, какие метки хранения и конфиденциальности используются чаще всего и где они применяются.
+ms.openlocfilehash: 89ccdce54b0d7e6146260037b8dcb085631b408e
+ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231992"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44817508"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>Просмотр использования меток с помощью аналитики меток
 
