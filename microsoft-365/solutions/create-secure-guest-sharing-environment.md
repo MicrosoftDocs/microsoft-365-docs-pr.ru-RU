@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с доступными параметрами создания безопасной среды гостевого общего доступа в Microsoft 365.
-ms.openlocfilehash: b567be8df8d0b9dc96400627c6607560fefd9c39
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 9997fee5c12b54642304270e379cd09ca75b5033
+ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159483"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874898"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Создание безопасной среды гостевого общего доступа
 
@@ -40,7 +40,7 @@ ms.locfileid: "44159483"
 
 Для некоторых параметров, рассматриваемых в этой статье, требуется наличие у гостей учетной записи в Azure Active Directory. Чтобы обеспечить включение гостей в каталог при совместном использовании файлов и папок с ними, используйте[интеграцию SharePoint и OneDrive с Azure AD B2B (предварительная версия)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
 
-Обратите внимание, что в этой статье не рассматривается включение параметров гостевого общего доступа. Дополнительные сведения о включении гостевого общего доступа для разных сценариев см. в статье [Совместная работа с пользователями не из организации](https://docs.microsoft.com/Office365/Enterprise/collaborate-with-people-outside-your-organization).
+Обратите внимание, что в этой статье не рассматривается включение параметров гостевого общего доступа. Дополнительные сведения о включении гостевого общего доступа для разных сценариев см. в статье [Совместная работа с пользователями не из организации](collaborate-with-people-outside-your-organization.md).
 
 ## <a name="set-up-multi-factor-authentication-for-guests"></a>Настройка многофакторной проверки подлинности для гостей
 
