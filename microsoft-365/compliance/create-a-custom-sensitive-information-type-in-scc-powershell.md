@@ -15,34 +15,37 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать и импортировать пользовательский тип конфиденциальных данных для защиты от потери данных в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 187a95eb460b18fc05b2608f4a3adcfee645c6ab
-ms.sourcegitcommit: 40ec697e27b6c9a78f2b679c6f5a8875dacde943
+ms.openlocfilehash: 4f07b89b2377eea4d8a17cea7a85dea3839ff249
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44352152"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899140"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Создание пользовательского типа конфиденциальной информации в PowerShell Центра безопасности и соответствия требованиям
 
-Система защиты от потери данных (DLP) в Microsoft 365 включает множество встроенных [определений типов объектов конфиденциальной информации](sensitive-information-type-entity-definitions.md), готовых к использованию в политиках DLP. С помощью этих встроенных типов можно обнаруживать и защищать номера кредитных карт, банковских счетов, паспортов и многие другие сведения. 
+Data loss prevention (DLP) in Microsoft 365 includes many built-in [Sensitive information type entity definitions](sensitive-information-type-entity-definitions.md) that are ready for you to use in your DLP policies. These built-in types can help identify and protect credit card numbers, bank account numbers, passport numbers, and more.
   
-Если вам необходимо обнаруживать и защищать конфиденциальные сведения другого типа, например идентификаторы сотрудников, для которых в вашей организации используется особый формат, вы можете создать пользовательский тип конфиденциальных данных, определяемый в XML-файле, который называется *пакетом правил*.
+But what if you need to identify and protect a different type of sensitive information (for example, an employee ID that uses a format specific to your organization)? To do this, you can create a custom sensitive information type that is defined in an XML file called a *rule package*.
   
-В этой статье рассказывается, как создать XML-файл, в котором вы можете определить собственный пользовательский тип конфиденциальных данных. Для этого вы должны уметь создавать регулярные выражения. В качестве примера здесь описан процесс создания пользовательского типа конфиденциальных данных, с помощью которого можно обнаруживать идентификаторы сотрудников. Вы можете использовать этот пример XML-файла в качестве основы для собственного XML-файла.
+This topic shows you how to create an XML file that defines your own custom sensitive information type. You need to know how to create a regular expression. As an example, this topic creates a custom sensitive information type that identifies an employee ID. You can use this example XML as a starting point for your own XML file.
   
-Создав XML-документ правильного формата, вы можете отправить его в Microsoft 365 с помощью Microsoft 365 PowerShell. Затем вы сможете использовать этот пользовательский тип конфиденциальных данных в своих политиках защиты от потери данных и проверить, обнаруживает ли система конфиденциальные данные так, как вы задумали.
+After you've created a well-formed XML file, you can upload it to Microsoft 365 by using Microsoft 365 PowerShell. Then you're ready to use your custom sensitive information type in your DLP policies and test that it's detecting the sensitive information as you intended.
 
 > [!NOTE]
-> Вы также можете создавать менее сложные пользовательские типы конфиденциальных данных в интерфейсе Центра безопасности и соответствия требованиям. Дополнительные сведения см. в статье [Создание пользовательского типа конфиденциальных данных](create-a-custom-sensitive-information-type.md).
+> You can also create less complex custom sensitive information types in the Security & Compliance Center UI. For more information, see [Create a custom sensitive information type](create-a-custom-sensitive-information-type.md).
 
 ## <a name="important-disclaimer"></a>Отказ от ответственности
-<!-- this is worded much better than the previous one is --> В связи с разнообразием сред клиентов и требований к соответствию контента служба поддержки Майкрософт не может помочь в определении заданного клиентом соответствия контента, например в определении пользовательских классов или шаблонов регулярных выражений (также называемых RegEx). В вопросах разработки, тестирования и отладки совпадений содержимого пользователям Microsoft 365 придется рассчитывать только на внутренние ИТ-ресурсы. Кроме того, можно использовать внешние консультационные ресурсы, такие как Консультационные службы Майкрософт (MCS). Специалисты службы поддержки могут в некоторой степени помочь настроить функцию, но они не гарантируют, что разработка в области совпадений содержимого будет соответствовать требованиям или обязательствам клиента. Примером такой возможной поддержки может служить предоставление шаблона регулярного выражения для проведения тестирования. В службе поддержки также могут помочь устранить неполадки в уже имеющемся шаблоне, который не срабатывает должным образом в одном конкретном примере сравнения содержимого.
+<!-- this is worded much better than the previous one is -->
+Due to the variances in customer environments and content match requirements, Microsoft Support cannot assist in providing custom content-matching definitions; e.g., defining custom classifications or regular expression (also known as RegEx) patterns. For custom content-matching development, testing, and debugging, Microsoft 365 customers will need to rely upon internal IT resources, or use an external consulting resource such as Microsoft Consulting Services (MCS). Support engineers can provide limited support for the feature, but cannot provide assurances that any custom content-matching development will fulfill the customer's requirements or obligations.  As an example of the type of support that can be provided, sample regular expression patterns may be provided for testing purposes. Or, support can assist with troubleshooting an existing RegEx pattern which is not triggering as expected with a single specific content example.
 
- Дополнительные сведения о модуле Boost.RegEx (прежнее название — RegEx++), который используется для обработки текста, см. на странице [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/).
-    
+См. раздел [Проблемы, которые могут возникнуть при проверке](#potential-validation-issues-to-be-aware-of) в этой статье.
+
+Дополнительные сведения о модуле Boost.RegEx (прежнее название — RegEx++), который используется для обработки текста, см. на странице [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/).
+
 ## <a name="sample-xml-of-a-rule-package"></a>Пример XML-файла пакета правил
 
-Вот пример XML-файла пакета правил, который мы создадим в этой статье. Его элементы и атрибуты описаны в разделах ниже.
+Here's the sample XML of the rule package that we'll create in this topic. Elements and attributes are explained in the sections below.
   
 ```xml
 <?xml version="1.0" encoding="UTF-16"?>
@@ -125,15 +128,17 @@ ms.locfileid: "44352152"
 </RulePackage>
 ```
 
-## <a name="what-are-your-key-requirements-rule-entity-pattern-elements"></a>Каковы ваши основные требования? [Элементы Rule, Entity, Pattern]
+## <a name="what-are-your-key-requirements-rule-entity-pattern-elements"></a>What are your key requirements? [Rule, Entity, Pattern elements]
 
 Прежде чем приступать к работе, желательно разобраться в базовой структуре схемы XML правила и понять, как с помощью этой структуры определять собственные типы конфиденциальных данных для обнаружения необходимого контента.
   
-Правило определяет один или несколько объектов (типов конфиденциальных данных), а каждый объект определяет один или несколько шаблонов. Шаблон — это то, что ищет система защиты от потери данных, когда оценивает контент, например почту или документы.   <!-- ok then this is going to be really confusing since the terminology changes.... --> (Замечание по терминологии: если вы знакомы с политиками защиты от потери данных, вы знаете, что политика содержит одно или несколько правил, которые состоят из условий и действий. В этой статье в разметке XML используется правило для обозначения шаблонов, которые определяют объект, также называемый типом конфиденциальных данных. Таким образом, когда вы видите правило в данной статье, имейте в виду объект или тип конфиденциальных данных, а не условия и действия.)
+A rule defines one or more entities (sensitive information types), and each entity defines one or more patterns. A pattern is what DLP looks for when it evaluates content such as email and documents.
+  <!-- ok then this is going to be really confusing since the terminology changes.... -->
+(A quick note on terminology - if you're familiar with DLP policies, you know that a policy contains one or more rules comprised of conditions and actions. However, in this topic, the XML markup uses rule to mean the patterns that define an entity, also known as a sensitive information type. So in this topic, when you see rule, think entity or sensitive information type, not conditions and actions.)
   
 ### <a name="simplest-scenario-entity-with-one-pattern"></a>Простейший сценарий: объект с одним шаблоном
 
-Вот простейший сценарий. Вам необходимо, чтобы политика защиты от потери данных обнаруживала контент, содержащий идентификаторы сотрудников вашей организации, которые имеют формат девятизначного числа. Таким образом, шаблон ссылается на регулярное выражение, содержащееся в правиле, которое обнаруживает девятизначные числа. Любой контент, содержащий девятизначные числа, соответствует шаблону.
+Here's the simplest scenario. You want your DLP policy to identify content that contains your organization's employee ID, which is formatted as a nine-digit number. So the pattern refers to a regular expression contained in the rule that identifies nine-digit numbers. Any content containing a nine-digit number satisfies the pattern.
   
 ![Схема объекта с одним шаблоном](../media/4cc82dcf-068f-43ff-99b2-bac3892e9819.png)
   
@@ -149,54 +154,55 @@ ms.locfileid: "44352152"
   
 Обратите внимание на некоторые указанные ниже важные аспекты этой структуры.
   
-- Шаблоны, для которых требуются дополнительные признаки, имеют более высокий уровень надежности. Это удобно, так как когда вы будете использовать этот тип конфиденциальных данных в политике защиты от потери данных, вы сможете применять действия с более строгими ограничениями (например, блокировать контент) c помощью одного соответствия с высоким уровнем надежности и действия с не очень строгими ограничениями (например, отправлять уведомления) для соответствий с низким уровнем надежности.
-    
-- Вспомогательные элементы IdMatch и Match ссылаются на регулярные выражения и ключевые слова, которые фактически являются дочерними элементами элемента Rule, а не элемента Pattern. Элемент Pattern ссылается на эти вспомогательные элементы, но они входят в состав элемента Rule. Это означает, что на одно определение вспомогательного элемента, например регулярного выражения или списка ключевых слов, может ссылаться несколько объектов и шаблонов.
-    
-## <a name="what-entity-do-you-need-to-identify-entity-element-id-attribute"></a>Какой объект вам необходимо определить? [Элемент Entity, атрибут id]
+- Patterns that require more evidence have a higher confidence level. This is useful because when you later use this sensitive information type in a DLP policy, you can use more restrictive actions (such as block content) with only the higher-confidence matches, and you can use less restrictive actions (such as send notification) with the lower-confidence matches.
 
-Объект — это тип конфиденциальной информации, например номер кредитной карты, имеющий правильно определенный шаблон. У каждого объекта имеется уникальный GUID, используемый в качестве идентификатора объекта.
+- The supporting IdMatch and Match elements reference regexes and keywords that are actually children of the Rule element, not the Pattern. These supporting elements are referenced by the Pattern but included in the Rule. This means that a single definition of a supporting element, like a regular expression or a keyword list, can be referenced by multiple entities and patterns.
+
+## <a name="what-entity-do-you-need-to-identify-entity-element-id-attribute"></a>What entity do you need to identify? [Entity element, id attribute]
+
+An entity is a sensitive information type, such as a credit card number, that has a well-defined pattern. Each entity has a unique GUID as its ID.
   
 ### <a name="name-the-entity-and-generate-its-guid"></a>Присваивание объекту имени и создание GUID для него
-<!-- why isn't the following in procedure format? --> Добавьте элементы Rules и Entity. Затем добавьте комментарий, в котором указано имя вашего пользовательского объекта (в этом примере Employee ID). Позже вы добавите имя объекта в раздел локализованных строк, и это имя будет отображаться в пользовательском интерфейсе при создании политики защиты от потери данных.
+<!-- why isn't the following in procedure format? -->
+Add the Rules and Entity elements. Then add a comment that contains the name of your custom entity - in this example, Employee ID. Later, you'll add the entity name to the localized strings section, and that name is what appears in the UI when you create a DLP policy.
   
-Затем создайте GUID для своего объекта. Существует несколько способов создания GUID, но вы можете без труда сделать это в PowerShell, введя [guid]::NewGuid(). Далее вы добавите GUID объекта в раздел локализованных строк.
+Next, generate a GUID for your entity. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing [guid]::NewGuid(). Later, you'll also add the entity GUID to the localized strings section.
   
 ![Разметка XML с элементами Rules и Entity](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
-## <a name="what-pattern-do-you-want-to-match-pattern-element-idmatch-element-regex-element"></a>Соответствие какому шаблону необходимо проверять? [Элемент Pattern, элемент IdMatch, элемент Regex]
+## <a name="what-pattern-do-you-want-to-match-pattern-element-idmatch-element-regex-element"></a>What pattern do you want to match? [Pattern element, IdMatch element, Regex element]
 
-Шаблон содержит список того, для поиска чего следует использовать тип конфиденциальной информации. Он может включать регулярные выражения, ключевые слова и встроенные функции (которые предназначены для различных задач, например они могут выполнять регулярные выражения для поиска дат или адресов). Типы конфиденциальных данных могут иметь несколько шаблонов с уникальными уровнями надежности.
+The pattern contains the list of what the sensitive information type is looking for. This can include regexes, keywords, and built-in functions (which perform tasks like running regexes to find dates or addresses). Sensitive information types can have multiple patterns with unique confidences.
   
-Все указанные ниже шаблоны объединяет то, что они ссылаются на одно и то же регулярное выражение, которое выполняет поиск девятизначного числа (\d{9}) с пробелами в начале и в конце (\s) … (\s). На это регулярное выражение ссылается элемент IdMatch, и оно представляет собой общее требование для всех шаблонов, которые выполняют поиск объекта Employee ID. IdMatch — это идентификатор, соответствие которому пытается найти шаблон, например идентификатор сотрудника, номер кредитной карты или номер социального страхования. У элемента Pattern должен быть строго один элемент IdMatch.
+What all of the below patterns have in common is that they all reference the same regular expression, which looks for a nine-digit number (\d{9}) surrounded by white space (\s) … (\s). This regular expression is referenced by the IdMatch element and is the common requirement for all patterns that look for the Employee ID entity. IdMatch is the identifier that the pattern is to trying to match, such as Employee ID or credit card number or social security number. A Pattern element must have exactly one IdMatch element.
   
 ![Разметка XML c несколькими элементами Pattern, которые ссылаются на один элемент Regex](../media/8f3f497b-3b8b-4bad-9c6a-d9abf0520854.png)
   
-При выполнении условия шаблон возвращает значения количества и уровня надежности, которые вы можете использовать в условиях в своей политике защиты от потери данных DLP. Когда вы добавляете условие для обнаружения типа конфиденциальных данных в политику защиты от потери данных, вы можете изменить значения количества и уровня надежности, как показано здесь. Понятие уровня надежности (также называемого точностью совпадения) мы объясним далее в этой статье.
+When satisfied, a pattern returns a count and confidence level, which you can use in the conditions in your DLP policy. When you add a condition for detecting a sensitive information type to a DLP policy, you can edit the count and confidence level as shown here. Confidence level (also called match accuracy) is explained later in this topic.
   
 ![Пример параметров количества и точности совпадения](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
-Составляя регулярное выражение, вы должны иметь в виду, что имеется ряд потенциальных проблем, о которых вам следует знать. Например, если вы напишете и отправите регулярное выражение, которое обнаруживает слишком большое количество контента, это может ухудшить производительность. Дополнительные сведения об этих потенциальных проблемах см. в разделе [Проблемы, которые могут возникнуть при проверке](#potential-validation-issues-to-be-aware-of) ниже.
+When you create your regular expression, keep in mind that there are potential issues to be aware of. For example, if you write and upload a regex that identifies too much content, this can impact performance. To learn more about these potential issues, see the later section [Potential validation issues to be aware of](#potential-validation-issues-to-be-aware-of).
   
-## <a name="do-you-want-to-require-additional-evidence-match-element-mincount-attribute"></a>Необходимо ли вам требовать дополнительные признаки? [Элемент Match, атрибут minCount]
+## <a name="do-you-want-to-require-additional-evidence-match-element-mincount-attribute"></a>Do you want to require additional evidence? [Match element, minCount attribute]
 
 Помимо элемента IdMatch в шаблоне можно использовать элемент Match, чтобы требовать дополнительные подтверждающие признаки, например ключевое слово, регулярное выражение, дату или адрес.
   
-Элемент Pattern может содержать несколько элементов Match. Их можно включить непосредственно в элемент Pattern либо объединить с помощью элемента Any. Для объединения элементов Match используется неявный оператор AND. Чтобы сработал шаблон, должны быть выполнены условия всех элементов Match. Чтобы использовать операторы AND или OR, можно применить элемент Any (более подробные сведения об этом см. в следующем разделе).
+A Pattern can include multiple Match elements; they can be included directly in the Pattern element or combined by using the Any element. Match elements are joined by an implicit AND operator; all Match elements must be satisfied for the pattern to be matched. You can use the Any element to introduce AND or OR operators (more on that in a later section).
   
-С помощью необязательного атрибута minCount вы можете указать количество экземпляров соответствия, которые необходимо найти для каждого элемента Match. Например, вы можете указать, что шаблон срабатывает, только если найдено не менее двух ключевых слов из списка ключевых слов.
+You can use the optional minCount attribute to specify how many instances of a match need to be found for each of the Match elements. For example, you can specify that a pattern is satisfied only when at least two keywords from a keyword list are found.
   
 ![Разметка XML, в которой используется элемент Match с атрибутом minOccurs](../media/607f6b5e-2c7d-43a5-a131-a649f122e15a.png)
   
 ### <a name="keywords-keyword-group-and-term-elements-matchstyle-and-casesensitive-attributes"></a>Ключевые слова [элементы Keyword, Group и Term, атрибуты matchStyle и caseSensitive]
 
-Если вам необходимо обнаруживать конфиденциальные сведения, например идентификаторы сотрудников, то вам, скорее всего, потребуется использовать ключевые слова в качестве подтверждающих признаков. Например, помимо поиска девятизначного числа вам может потребоваться искать слова "карта", "эмблема" или "идентификатор". Для этого используйте элемент Keyword. У элемента Keyword есть атрибут id, на который могут ссылаться несколько элементов Match в нескольких шаблонах или объектах.
+When you identify sensitive information, like an employee ID, you often want to require keywords as corroborative evidence. For example, in addition to matching a nine-digit number, you may want to look for words like "card", "badge", or "ID". To do this, you use the Keyword element. The Keyword element has an id attribute that can be referenced by multiple Match elements in multiple patterns or entities.
   
-Ключевые слова добавляют в виде списка элементов Term в элементе Group. У элемента Group есть атрибут matchStyle, который может принимать два указанных ниже значения.
+Keywords are included as a list of Term elements in a Group element. The Group element has a matchStyle attribute with two possible values:
   
-- **matchStyle="word"**. Соответствие word позволяет обнаруживать целые слова с пробелами или другими разделителями слева и справа. Вам всегда следует использовать соответствие word кроме случаев, когда необходимо находить соответствия частям слов или словам в азиатских языках. 
+- **matchStyle="word"** Word match identifies whole words surrounded by white space or other delimiters. You should always use word unless you need to match parts of words or match words in Asian languages. 
     
-- **matchStyle="string"** Соответствие string позволяет обнаруживать строки независимо от того, какие символы расположены слева и справа от них. Например, строке "кон" будут соответствовать выражения "консул" и "закон". Используйте соответствие string, только если вам необходимо находить соответствия словам на азиатских языках либо если ключевое слово может быть в составе других строк. 
+- **matchStyle="string"** String match identifies strings no matter what they're surrounded by. For example, "id" will match "bid" and "idea". Use string only when you need to match Asian words or if your keyword may be included as part of other strings. 
     
 И, наконец, с помощью атрибута caseSensitive элемента Term вы можете указать, что контент должен точно соответствовать ключевому слову с учетом регистра символов.
   
@@ -204,11 +210,11 @@ ms.locfileid: "44352152"
   
 ### <a name="regular-expressions-regex-element"></a>Регулярные выражения [элемент Regex]
 
-В этом примере в объекте идентификатора сотрудника уже используется элемент IdMatch для ссылки на регулярное выражение для шаблона — девятизначное число с пробелами слева и справа. Помимо этого, в шаблоне можно использовать элемент Match для ссылки на дополнительный элемент Regex, чтобы обнаруживать подтверждающие признаки, например пяти- или шестизначные числа в формате почтового индекса США.
+In this example, the employee ID entity already uses the IdMatch element to reference a regex for the pattern - a nine-digit number surrounded by whitespace. In addition, a pattern can use a Match element to reference an additional Regex element to identify corroborative evidence, such as a five- or nine-digit number in the format of a US zip code.
   
 ### <a name="additional-patterns-such-as-dates-or-addresses-built-in-functions"></a>Дополнительные шаблоны, например даты или адреса [встроенные функции]
 
-Помимо встроенных типов конфиденциальных данных в системе защиты от потери данных имеются встроенные функции, которые могут обнаруживать подтверждающие признаки, например даты в формате США, даты в формате ЕС, даты окончания сроков действия или адреса в США. Система защиты от потери данных не поддерживает отправку пользовательских функций, но когда вы создаете пользовательский тип конфиденциальных данных, ваш объект может ссылаться на встроенные функции.
+In addition to the built-in sensitive information types, DLP also includes built-in functions that can identify corroborative evidence such as a US date, EU date, expiration date, or US address. DLP does not support uploading your own custom functions, but when you create a custom sensitive information type, your entity can reference the built-in functions.
   
 Например, на эмблеме с идентификатором сотрудника имеется дата найма сотрудника на работу, поэтому этот пользовательский объект может использовать встроенную функцию `Func_us_date`, чтобы обнаруживать дату в формате, обычно применяемом в США. 
   
@@ -218,13 +224,13 @@ ms.locfileid: "44352152"
   
 ## <a name="different-combinations-of-evidence-any-element-minmatches-and-maxmatches-attributes"></a>Различные сочетания признаков [элемент Any, атрибуты minMatches и maxMatches]
 
-В элементе Pattern все элементы IdMatch и Match соединены неявным оператором AND: чтобы сработал шаблон, необходимо, чтобы имели место все совпадения. Тем не менее вы можете создать более гибкую логику совпадений, группируя элементы Match с помощью элемента Any. Например, вы можете использовать элемент Any для соответствия всем, никаким или конкретному подмножеству его дочерних элементов Match.
+In a Pattern element, all IdMatch and Match elements are joined by an implicit AND operator - all of the matches must be satisfied before the pattern can be satisfied. However, you can create more flexible matching logic by using the Any element to group Match elements. For example, you can use the Any element to match all, none, or an exact subset of its children Match elements.
   
-У элемента Any имеется необязательные атрибуты minMatches и maxMatches, с помощью которых вы можете указать, сколько дочерних элементов Match необходимо выполнить, чтобы сработал шаблон. Учтите, что эти атрибуты определяют количество элементов Match, которые необходимо выполнить, а не количество признаков, обнаруженных для соответствий. Чтобы определить минимальное количество экземпляров для определенного совпадения, например два ключевых слова из списка, используйте атрибут minCount для элемента Match (см. выше).
+The Any element has optional minMatches and maxMatches attributes that you can use to define how many of the children Match elements must be satisfied before the pattern is matched. Note that these attributes define the number of Match elements that must be satisfied, not the number of instances of evidence found for the matches. To define a minimum number of instances for a specific match, such as two keywords from a list, use the minCount attribute for a Match element (see above).
   
 ### <a name="match-at-least-one-child-match-element"></a>Совпадение для хотя бы одного дочернего элемента Match
 
-Если необходимо, чтобы выполнялось только минимальное количество элементов Match, можно использовать атрибут minMatches. По сути, эти элементы Match соединены неявным оператором OR. Этот элемент Any выполняется при обнаружении даты в формате США или ключевого слова из любого списка.
+If you want to require that only a minimum number of Match elements must be met, you can use the minMatches attribute. In effect, these Match elements are joined by an implicit OR operator. This Any element is satisfied if a US-formatted date or a keyword from either list is found.
 
 ```xml
 <Any minMatches="1" >
@@ -236,7 +242,7 @@ ms.locfileid: "44352152"
     
 ### <a name="match-an-exact-subset-of-any-children-match-elements"></a>Точное соответствие подмножеству любых дочерних элементов Match
 
-Если необходимо, чтобы выполнялось строго определенное количество элементов Match, вы можете задать одинаковые значения для элементов minMatches и maxMatches. Этот элемент Any будет выполняться только при обнаружении строго одной даты или одного ключевого слова. При обнаружении нескольких дат или ключевых слов шаблон не сработает.
+If you want to require that an exact number of Match elements must be met, you can set minMatches and maxMatches to the same value. This Any element is satisfied only if exactly one date or keyword is found - any more than that, and the pattern won't be matched.
 
 ```xml
 <Any minMatches="1" maxMatches="1" >
@@ -248,9 +254,9 @@ ms.locfileid: "44352152"
   
 ### <a name="match-none-of-children-match-elements"></a>Несоответствие никаким дочерним элементам Match
 
-Если необходимо, чтобы не выполнялся ни один определенный признак для шаблона, вы можете задать для элементов minMatches и maxMatches значение 0. Это может быть удобно, если у вас есть список ключевых слов либо другой признак, которые, скорее всего, приведут к ложному срабатыванию.
+If you want to require the absence of specific evidence for a pattern to be satisfied, you can set both minMatches and maxMatches to 0. This can be useful if you have a keyword list or other evidence that are likely to indicate a false positive.
   
-Например, объект идентификатора сотрудника выполняет поиск ключевого слова "карта", так как это слово может быть связано с выражением "идентификационная карта". Тем не менее если слово "карта" появляется только во фразе "кредитная карта", то в этом контексте маловероятно, что оно будет означать "идентификационная карта". Поэтому вы можете добавить выражение "кредитная карта" в качестве ключевого слова в список терминов, для которых не должно быть совпадений, чтобы сработал шаблон.
+For example, the employee ID entity looks for the keyword "card" because it might refer to an "ID card". However, if card appears only in the phrase "credit card", "card" in this content is unlikely to mean "ID card". So you can add "credit card" as a keyword to a list of terms that you want to exclude from satisfying the pattern.
   
 ```xml
 <Any minMatches="0" maxMatches="0" >
@@ -272,51 +278,51 @@ ms.locfileid: "44352152"
 
 В этом примере определен шаблон для исправления заработной платы с использованием не менее трех уникальных совпадений. 
   
-## <a name="how-close-to-the-entity-must-the-other-evidence-be-patternsproximity-attribute"></a>Насколько близко к объекту должен находиться другой признак? [Атрибут patternsProximity]
+## <a name="how-close-to-the-entity-must-the-other-evidence-be-patternsproximity-attribute"></a>How close to the entity must the other evidence be? [patternsProximity attribute]
 
-Ваш тип конфиденциальных данных используется для поиска шаблона, который представляет идентификатор сотрудника, и в рамках этого шаблона также выполняется поиск подтверждающего признака, например ключевого слова "ID". Это логично, так как чем ближе этот признак, тем больше вероятность того, что шаблон окажется реальным идентификатором сотрудника. Вы можете указать, насколько близко должен находиться другой признак в шаблоне к объекту, используя обязательный атрибут patternsProximity элемента Entity.
+Your sensitive information type is looking for a pattern that represents an employee ID, and as part of that pattern it's also looking for corroborative evidence like a keyword such as "ID". It makes sense that the closer together this evidence is, the more likely the pattern is to be an actual employee ID. You can determine how close other evidence in the pattern must be to the entity by using the required patternsProximity attribute of the Entity element.
   
 ![Разметка XML с атрибутом patternsProximity](../media/e97eb7dc-b897-4e11-9325-91c742d9839b.png)
   
-Для каждого шаблона в объекте значение атрибута patternsProximity определяет расстояние (в количестве символов Юникод) от расположения элемента IdMatch для всех остальных элементов Matches, указанных для этого элемента Pattern. Интервал вероятности закрепляется расположением элемента IdMatch, при этом интервал простирается влево и вправо от этого элемента.
+For each pattern in the entity, the patternsProximity attribute value defines the distance (in Unicode characters) from the IdMatch location for all other Matches specified for that Pattern. The proximity window is anchored by the IdMatch location, with the window extending to the left and right of the IdMatch.
   
 ![Схема интервала вероятности](../media/b593dfd1-5eef-4d79-8726-a28923f7c31e.png)
   
-В примере ниже показано, как интервал вероятности влияет на соответствие шаблону, в котором для элемента IdMatch пользовательского объекта идентификатора сотрудника требуется хотя бы одно подтверждающее соответствие ключевому слову или дате. Срабатывает только соответствие ID1, так как для соответствий ID2 и ID3 не найдено подтверждающих признаков либо найдены частичные подтверждающие признаки в пределах интервала вероятности.
+The example below illustrates how the proximity window affects the pattern matching where IdMatch element for the employee ID custom entity requires at least one corroborating match of keyword or date. Only ID1 matches because for ID2 and ID3, either no or only partial corroborating evidence is found within the proximity window.
   
 ![Схема подтверждающего признака и интервала вероятности](../media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
   
-Обратите внимание, что в случае электронного письма тело сообщения и все вложения обрабатываются как отдельные элементы. Это означает, что интервал вероятности не распространяется за пределы каждого из этих элементов. В каждом элементе (вложении или теле) должен быть и элемент idMatch, и подтверждающий признак.
+Note that for email, the message body and each attachment are treated as separate items. This means that the proximity window does not extend beyond the end of each of these items. For each item (attachment or body), both the idMatch and corroborative evidence needs to reside in that item.
   
-## <a name="what-are-the-right-confidence-levels-for-different-patterns-confidencelevel-attribute-recommendedconfidence-attribute"></a>Каков должен быть уровень надежности для различных шаблонов? [Атрибуты confidenceLevel и recommendedConfidence]
+## <a name="what-are-the-right-confidence-levels-for-different-patterns-confidencelevel-attribute-recommendedconfidence-attribute"></a>What are the right confidence levels for different patterns? [confidenceLevel attribute, recommendedConfidence attribute]
 
-Чем больше признаков требуется для шаблона, тем выше уровень надежности обнаружения необходимого объекта (например, идентификатора сотрудника) при срабатывании шаблона. Например, уровень надежности шаблона, для которого требуется девятизначное число идентификатора, дата найма сотрудника на работу и ключевое слово в непосредственной близости, выше уровня надежности шаблона, для которого требуется только девятизначное число идентификатора.
+The more evidence that a pattern requires, the more confidence you have that an actual entity (such as employee ID) has been identified when the pattern is matched. For example, you have more confidence in a pattern that requires a nine-digit ID number, hire date, and keyword in close proximity, than you do in a pattern that requires only a nine-digit ID number.
   
-Элемент Pattern имеет обязательный атрибут confidenceLevel. Можно считать значение атрибута confidenceLevel (целое число от 1 до 100) уникальным идентификатором для каждого шаблона в объекте: у шаблонов в объекте должны быть разные назначенные вами уровни надежности. Не нужно стараться точно выбирать целые значения, просто выберите числа, которые будут понятны группе, отвечающей за соответствие требованиям в вашей организации. После того как вы отправите свой пользовательский тип конфиденциальных данных и создадите политику защиты от потери данных, вы сможете ссылаться на эти уровни надежности в условиях создаваемых вами правил.
+The Pattern element has a required confidenceLevel attribute. You can think of the value of confidenceLevel (an integer between 1 and 100) as a unique ID for each pattern in an entity - the patterns in an entity must have different confidence levels that you assign. The precise value of the integer doesn't matter - simply pick numbers that make sense to your compliance team. After you upload your custom sensitive information type and then create a DLP policy, you can reference these confidence levels in the conditions of the rules that you create.
   
 ![Разметка XML, в которой используются элементы Pattern с различными значениями атрибута confidenceLevel](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
-Помимо атрибута confidenceLevel для каждого элемента Pattern у элемента Entity имеется атрибут recommendedConfidence. Атрибут рекомендуемого уровня надежности можно считать уровнем надежности, используемым по умолчанию для правила. Если в процессе создания правила для политики защиты от потери данных вы не укажете уровень надежности, который необходимо использовать для правила, это правило будет срабатывать на основании рекомендованного уровня надежности для объекта.
+In addition to confidenceLevel for each Pattern, the Entity has a recommendedConfidence attribute. The recommended confidence attribute can be thought of as the default confidence level for the rule. When you create a rule in a DLP policy, if you don't specify a confidence level for the rule to use, that rule will match based on the recommended confidence level for the entity.
   
-## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-security-amp-compliance-center-localizedstrings-element"></a>Вам необходима поддержка других языков в пользовательском интерфейсе Центра безопасности и соответствия требованиям? [Элемент LocalizedStrings]
+## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-security-amp-compliance-center-localizedstrings-element"></a>Do you want to support other languages in the UI of the Security &amp; Compliance Center? [LocalizedStrings element]
 
-Если группа обеспечения соответствия требованиям вашей организации использует Центр безопасности и соответствия требованиям Microsoft 365 &amp; для создания политик защиты от потери данных для различных языковых стандартов и различных языков, вы можете предоставить локализованные версии имени и описания вашего пользовательского типа конфиденциальных данных. Когда участники группы обеспечения соответствия требованиям будут использовать Microsoft 365 на поддерживаемом вами языке, для них в пользовательском интерфейсе будет отображаться локализованное имя.
+If your compliance team uses the Microsoft 365 Security &amp; Compliance Center to create DLP policies in different locales and in different languages, you can provide localized versions of the name and description of your custom sensitive information type. When your compliance team uses Microsoft 365 in a language that you support, they'll see the localized name in the UI.
   
 ![Пример параметров количества и точности совпадения](../media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
   
-Элемент Rules должен содержать элемент LocalizedStrings, который содержит элемент Resource, ссылающийся на GUID вашего пользовательского объекта. В свою очередь, каждый элемент Resource содержит один или несколько элементов Name и Description, в каждом из которых с помощью атрибута langcode предоставляется локализованная строка для определенного языка.
+The Rules element must contain a LocalizedStrings element, which contains a Resource element that references the GUID of your custom entity. In turn, each Resource element contains one or more Name and Description elements that each use the langcode attribute to provide a localized string for a specific language.
   
 ![Разметка XML с содержимым элемента LocalizedStrings](../media/a96fc34a-b93d-498f-8b92-285b16a7bbe6.png)
   
-Обратите внимание, что локализованные строки определяют только способ отображения пользовательского типа конфиденциальных данных в пользовательском интерфейсе Центра безопасности и соответствия требованиям. Вам не удастся использовать локализованные строки для предоставления различных локализованных версий списка ключевых слов или регулярного выражения.
+Note that you use localized strings only for how your custom sensitive information type appears in the UI of the Security &amp; Compliance Center. You can't use localized strings to provide different localized versions of a keyword list or regular expression.
   
 ## <a name="other-rule-package-markup-rulepack-guid"></a>Еще одна разметка пакета правил [GUID RulePack]
 
-В начале каждого элемента RulePackage содержатся общие сведения, которые вам необходимо внести. Вы можете использовать показанную ниже разметку в качестве шаблона и заменить заполнители ". . ." собственной информацией.
+Finally, the beginning of each RulePackage contains some general information that you need to fill in. You can use the following markup as a template and replace the ". . ." placeholders with your own info.
   
-Самое важное — создать GUID для элемента RulePackage. Ранее вы создали GUID для объекта; это второй GUID для элемента RulePackage. Создавать идентификаторы GUID можно несколькими способами, но проще всего это сделать в PowerShell, введя [guid]::NewGuid().
+Most importantly, you'll need to generate a GUID for the RulePack. Above, you generated a GUID for the entity; this is a second GUID for the RulePack. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing [guid]::NewGuid().
   
-Элемент Version также важен. Когда вы в первый раз отправляете свой пакет правил, Microsoft 365 запоминает номер версии. Если затем вы измените пакет правил и отправите его новую версию, не забудьте изменить номер версии. В противном случае Microsoft 365 не сможет развернуть пакет правил.
+The Version element is also important. When you upload your rule package for the first time, Microsoft 365 notes the version number. Later, if you update the rule package and upload a new version, make sure to update the version number or Microsoft 365 won't deploy the rule package.
   
 ```xml
 <?xml version="1.0" encoding="utf-16"?>
@@ -346,9 +352,9 @@ ms.locfileid: "44352152"
   
 ## <a name="changes-for-exchange-online"></a>Изменения для Exchange Online
 
-Ранее вы, возможно, использовали PowerShell в Exchange Online для импорта своих пользовательских типов конфиденциальных данных для системы защиты от потери данных. Теперь ваши пользовательские типы конфиденциальных данных можно использовать и в Центре администрирования Exchange, и в Центре безопасности и соответствия требованиям. В рамках этого усовершенствования вам следует использовать Центр безопасности и соответствия требованиям для импорта своих пользовательских типов конфиденциальных данных: вам больше не удастся импортировать их из PowerShell в Exchange. Ваши пользовательские типы конфиденциальных данных будут работать, как и раньше. Тем не менее может потребоваться до одного часа, чтобы пользовательские типы конфиденциальных данных в Центре безопасности и соответствия требованиям появились в Центре администрирования Exchange.
+Previously, you might have used Exchange Online PowerShell to import your custom sensitive information types for DLP. Now your custom sensitive information types can be used in both the Exchange admin center and the Security &amp; Compliance Center. As part of this improvement, you should use Security &amp; Compliance Center PowerShell to import your custom sensitive information types - you can't import them from the Exchange PowerShell anymore. Your custom sensitive information types will continue to work just like before; however, it may take up to one hour for changes made to custom sensitive information types in the Security &amp; Compliance Center to appear in the Exchange admin center.
   
-Обратите внимание, что для отправки пакета правил в Центре безопасности и соответствия требованиям необходимо использовать командлет **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage?view=exchange-ps)**. (Ранее в Центре администрирования Exchange вы использовали командлет **ClassificationRuleCollection**.) 
+Note that in the Security &amp; Compliance Center, you use the **[New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/new-dlpsensitiveinformationtyperulepackage?view=exchange-ps)** cmdlet to upload a rule package. (Previously, in the Exchange admin center, you used the  **ClassificationRuleCollection**` cmdlet.) 
   
 ## <a name="upload-your-rule-package"></a>Отправка пакета правил
 
@@ -401,7 +407,7 @@ Get-DlpSensitiveInformationType -Identity "<Name>"
     
 ## <a name="potential-validation-issues-to-be-aware-of"></a>Проблемы, которые могут возникнуть при проверке
 
-Когда вы отправляете XML-файл пакета правил, система проверяет XML и ищет известные неправильные фрагменты и очевидные проблемы производительности. Ниже перечислен ряд известных проблем, возникающих при проверке и связанных с регулярными выражениями.
+When you upload your rule package XML file, the system validates the XML and checks for known bad patterns and obvious performance issues. Here are some known issues that the validation checks for — a regular expression:
   
 - Выражение не должно начинаться или заканчиваться альтернатором |, который имеет универсальное соответствие, так как он считается пустым совпадением.
     
@@ -437,7 +443,7 @@ Get-DlpSensitiveInformationType -Identity "<Name>"
     
 ## <a name="recrawl-your-content-to-identify-the-sensitive-information"></a>Повторный обход контента для обнаружения конфиденциальных данных
 
-Система защиты от потери данных использует программу-обходчик поиска для обнаружения и классификации конфиденциальных данных в контенте сайта. Повторный обход контента на сайтах SharePoint Online и OneDrive для бизнеса выполняется автоматически при обновлении контента. Чтобы можно было обнаруживать конфиденциальные данные вашего нового пользовательского типа во всем существующем контенте, необходимо выполнить повторный обход этого контента.
+DLP uses the search crawler to identify and classify sensitive information in site content. Content in SharePoint Online and OneDrive for Business sites is recrawled automatically whenever it's updated. But to identify your new custom type of sensitive information in all existing content, that content must be recrawled.
   
 В Microsoft 365 вам не удастся вручную запросить повторный обход всего клиента, но вы можете сделать это для набора сайтов, списка или библиотеки. См. статью [Ручной запрос обхода контента и переиндексации сайта, библиотеки или списка](https://docs.microsoft.com/sharepoint/crawl-site-content).
   
@@ -448,7 +454,7 @@ Get-DlpSensitiveInformationType -Identity "<Name>"
 
 В PowerShell Центра безопасности и соответствия требованиям пользовательские типы конфиденциальных данных можно удалить двумя способами.
 
-- **Удаление отдельных пользовательских типов конфиденциальных данных.** Используйте способ, описанный в разделе [Изменение пользовательского типа конфиденциальных данных](#modify-a-custom-sensitive-information-type). При этом экспортируется пакет настраиваемых правил, содержащий пользовательский тип конфиденциальных данных, удаляется тип конфиденциальных данных из XML-файла и импортируется обновленный XML-файл обратно в существующий пакет настраиваемых правил.
+- **Remove individual custom sensitive information types**: Use the method documented in [Modify a custom sensitive information type](#modify-a-custom-sensitive-information-type). You export the custom rule package that contains the custom sensitive information type, remove the sensitive information type from the XML file, and import the updated XML file back into the existing custom rule package.
 
 - **Удаление пакета настраиваемых правил и всех пользовательских типов конфиденциальных данных, содержащихся в нем**. Этот метод описан в текущем разделе.
 
@@ -476,17 +482,17 @@ Remove-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Custom Rule
 
 ```powershell
 Get-DlpSensitiveInformationTypeRulePackage
-``` 
+```
 
-  - Выполните командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы убедиться в отсутствии типов конфиденциальных данных в удаленном пакете правил:
+- Выполните командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы убедиться в отсутствии типов конфиденциальных данных в удаленном пакете правил:
 
 ```powershell
 Get-DlpSensitiveInformationType
-``` 
+```
 
-    For custom sensitive information types, the Publisher property value will be something other than Microsoft Corporation.
+Для пользовательских типов конфиденциальных данных значение свойства Publisher будет отличаться от "Корпорация Майкрософт".
 
-  - Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и запустите командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы убедиться в отсутствии типа конфиденциальных данных:
+- Замените \<Name\> значением Name типа конфиденциальных данных (например, Employee ID) и запустите командлет [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/get-dlpsensitiveinformationtype?view=exchange-ps), чтобы убедиться в отсутствии типа конфиденциальных данных:
 
 ```powershell
 Get-DlpSensitiveInformationType -Identity "<Name>"
@@ -496,7 +502,7 @@ Get-DlpSensitiveInformationType -Identity "<Name>"
 
 Чтобы изменить пользовательский тип конфиденциальных данных в PowerShell Центра безопасности и соответствия требованиям, необходимо выполнить следующие действия.
 
-1. Экспортируйте существующий пакет правил, содержащий пользовательский тип конфиденциальных данных в XML-файл (или используйте существующий XML-файл при наличии). 
+1. Экспортируйте существующий пакет правил, содержащий пользовательский тип конфиденциальных данных в XML-файл (или используйте существующий XML-файл при наличии).
 
 2. Измените пользовательский тип конфиденциальных данных в экспортированном XML-файле.
 
@@ -504,7 +510,7 @@ Get-DlpSensitiveInformationType -Identity "<Name>"
 
 Чтобы подключиться к PowerShell Центра безопасности соответствия требованиям, см. статью [Подключение к PowerShell Центра безопасности и соответствия требованиям](https://go.microsoft.com/fwlink/p/?LinkID=799771).
 
-#### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>Этап 1. Экспорт существующего пакета правил в XML-файл
+### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>Этап 1. Экспорт существующего пакета правил в XML-файл
 
 > [!NOTE]
 > Если у вас есть копия XML-файла (например, вы только что создали и импортировали его), вы можете перейти к следующему этапу по изменению XML-файла.
@@ -536,7 +542,7 @@ $rulepak = Get-DlpSensitiveInformationTypeRulePackage -Identity "Employee ID Cus
 Set-Content -Path "XMLFileAndPath" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
 ```
 
-    This example export the rule package to the file named ExportedRulePackage.xml in the C:\My Documents folder.
+В этом примере пакет правил экспортируется в файл с именем ExportedRulePackage.xml в папку C:\My Documents.
 
 ```powershell
 Set-Content -Path "C:\My Documents\ExportedRulePackage.xml" -Encoding Byte -Value $rulepak.SerializedClassificationRuleCollection
@@ -563,7 +569,7 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:mce="https://schemas.microsoft.com/office/2011/mce"
-           targetNamespace="https://schemas.microsoft.com/office/2011/mce" 
+           targetNamespace="https://schemas.microsoft.com/office/2011/mce"
            xmlns:xs="https://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
@@ -599,7 +605,7 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
         <xs:key name="UniqueResourceIdRef">
           <xs:selector xpath="mce:LocalizedStrings/mce:Resource"/>
           <xs:field xpath="@idRef"/>
-        </xs:key>        
+        </xs:key>
         <xs:keyref name="ReferencedRuleMustExist" refer="mce:UniqueRuleId">
           <xs:selector xpath="mce:LocalizedStrings/mce:Resource"/>
           <xs:field xpath="@idRef"/>
@@ -907,7 +913,7 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
 ## <a name="more-information"></a>Дополнительные сведения
 
 - [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
-    
+
 - [Определения объектов типов конфиденциальной информации](sensitive-information-type-entity-definitions.md)
-    
+
 - [Сведения, для обнаружения которых используются функции защиты от потери данных](what-the-dlp-functions-look-for.md)
