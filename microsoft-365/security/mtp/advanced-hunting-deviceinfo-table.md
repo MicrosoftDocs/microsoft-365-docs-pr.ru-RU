@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 71bd9e9ff1dfb17e4a9266d9ee351799e18888c9
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 526e210a472862593f2652e9b2b21957702c48f0
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235028"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899283"
 ---
 # <a name="deviceinfo"></a>DeviceInfo
 
@@ -31,7 +31,7 @@ ms.locfileid: "42235028"
 
 
 
-`DeviceInfo` Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о машинах в Организации, включая версию ОС, активные пользователи и имя компьютера. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`DeviceInfo`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о машинах в Организации, включая версию ОС, активные пользователи и имя компьютера. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -52,8 +52,8 @@ ms.locfileid: "42235028"
 | `OSVersion` | string | Версия операционной системы, используемой на компьютере |
 | `MachineGroup` | string | Группа компьютеров компьютера. Эта группа используется в управлении доступом на основе ролей для определения доступа к компьютеру. |
 
-## <a name="related-topics"></a>Статьи по теме
-- [Заблаговременный поиск угроз](advanced-hunting-overview.md)
+## <a name="related-topics"></a>Связанные статьи
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)

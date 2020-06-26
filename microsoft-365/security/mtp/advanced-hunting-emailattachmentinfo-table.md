@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5cfda9a581e03c91815bdcbd2508fcc6c52d2652
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c396689942a72a03120f0acd41d0d76abb720702
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633635"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899403"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
@@ -49,7 +49,7 @@ ms.locfileid: "43633635"
 | `MalwareDetectionMethod` | string | Метод, используемый для обнаружения вредоносных программ в сообщении электронной почты: модуль защиты от вредоносных программ, репутация файлов, безопасные вложения ATP |
 
 ## <a name="related-topics"></a>См. также
-- [Заблаговременный поиск угроз](advanced-hunting-overview.md)
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)

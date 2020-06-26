@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f340a34b3c88f1caba83861c4d36ce140846d495
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 0f565e7584a961fcbc48e6a421419cd48a20a963
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617178"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899331"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -85,8 +85,8 @@ ms.locfileid: "44617178"
 | `ReportId` | long | Идентификатор события на основе повторяющегося счетчика. Чтобы определить уникальные события, этот столбец должен использоваться в сочетании со столбцами DeviceName и timestamp |
 | `AppGuardContainerId` | string | Идентификатор виртуального контейнера, используемого Application Guard для изоляции активности браузера |
 
-## <a name="related-topics"></a>Статьи по теме
-- [Заблаговременный поиск угроз](advanced-hunting-overview.md)
+## <a name="related-topics"></a>Связанные статьи
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)

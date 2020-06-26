@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 47486f34f9926d83e52ba206f63d3e85286527dc
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: efe7f7606dce4ceeb9953b0fb3272f1722479306
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515823"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44899105"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -41,7 +41,7 @@ ms.locfileid: "44515823"
 | `Url` | string | Уникальный идентификатор URL в теме, основном тексте или вложении |
 
 ## <a name="related-topics"></a>См. также
-- [Профилактический поиск угроз](advanced-hunting-overview.md)
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)

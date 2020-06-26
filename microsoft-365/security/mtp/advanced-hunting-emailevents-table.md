@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: be86f446e05952f7e88dc32e12a6a0d05e380afd
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: eefd6848e5ae0ddb077db576d55aaf9555e33729
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515859"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44898997"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -65,7 +65,7 @@ ms.locfileid: "44515859"
 | `EmailLanguage` | string | Обнаруженный язык сообщения электронной почты |
 
 ## <a name="related-topics"></a>См. также
-- [Профилактический поиск угроз](advanced-hunting-overview.md)
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)

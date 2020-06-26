@@ -17,14 +17,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 12f8d0995d00daffe8a1ca1c2c8d9dfe25a11581
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: b384e76439ae706520725e7193fa64224b724be0
+ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209779"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44898961"
 ---
-# <a name="identityinfo"></a>идентитинфо
+# <a name="identityinfo"></a>IdentityInfo
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
@@ -55,8 +55,8 @@ ms.locfileid: "44209779"
 | `Country` | string | Страна или регион, где находится пользователь учетной записи |
 | `IsAccountEnabled` | boolean | Указывает, включена ли учетная запись |
 
-## <a name="related-topics"></a>Статьи по теме
-- [Заблаговременный поиск угроз](advanced-hunting-overview.md)
+## <a name="related-topics"></a>Связанные статьи
+- [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
