@@ -34,7 +34,7 @@
           href: insider-risk-management-cases.md
         - name: Просмотр данных с помощью обозревателя содержимого внутреннего риска
           href: insider-risk-management-content-explorer.md
-        - name: 'Добавление пользователей в политики, связанные с внутренними рисками'
+        - name: Управление рабочим процессом с помощью панели мониторинга "Пользователи"
           href: insider-risk-management-users.md
         - name: Создание шаблонов выявления внутренних рисков
           href: insider-risk-management-notices.md
