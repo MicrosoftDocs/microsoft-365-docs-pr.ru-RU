@@ -27,12 +27,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: Сведения о том, как назначать роли администратора пользователю или нескольким пользователям в вашей организации, чтобы они могли выполнять определенные задачи в центре администрирования.
-ms.openlocfilehash: 59fc2211051aa4f122462186753e7f626715722f
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cd50faf5db5e674e865e0913cae14a68a202bd1f
+ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780641"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44900780"
 ---
 # <a name="assign-admin-roles"></a>Назначение ролей администратора
 
@@ -46,7 +46,7 @@ ms.locfileid: "44780641"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfO] 
 
-Если этот видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="assign-admin-roles"></a>Назначение ролей администратора 
 
@@ -78,7 +78,7 @@ ms.locfileid: "44780641"
 
 ::: moniker range="o365-germany"
 
-1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">активные пользователи</a> страницы.
 
 2. На странице **Активные пользователи** выберите пользователя, роль администратора которого требуется изменить. В раскрывающейся области рядом с пунктом **роли**выберите команду **изменить**. 
 
@@ -90,7 +90,7 @@ ms.locfileid: "44780641"
 
 ::: moniker range="o365-21vianet"
 
-1. В Центре администрирования откройте страницу **Пользователи** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Активные пользователи</a>.
+1. В центре администрирования перейдите в раздел **Пользователи ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">активные пользователи</a> страницы.
 
 2. На странице **Активные пользователи** выберите пользователя, роль администратора которого требуется изменить. В раскрывающейся области рядом с пунктом **роли**выберите команду **изменить**.
 
@@ -110,18 +110,18 @@ ms.locfileid: "44780641"
 ::: moniker range="o365-worldwide"
 
 
-## <a name="didnt-work-for-you"></a>Не помогло?
+## <a name="check-your-permissions"></a>Проверка разрешений
 
-Возможно, у вас нет соответствующих разрешений и у вас нет доступа к назначению ролей администратора другим пользователям. Попросите другого администратора назначить роли за вас.
+Возможно, у вас нет необходимых разрешений для назначения ролей администратора другим пользователям. Убедитесь, что у вас есть необходимые разрешения, или попросите другого администратора назначить роли.
 
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [О ролях администратора Microsoft 365](about-admin-roles.md)
+
+[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)
 
 [Назначение ролей учетным записям пользователей с помощью PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 [Авторизация и удаление отношений партнеров](../misc/add-partner.md)
-
-[Добавление альтернативного адреса электронной почты с помощью центра администрирования Exchange](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)

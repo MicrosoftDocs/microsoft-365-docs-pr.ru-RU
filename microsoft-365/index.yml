@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: bc20119ab3bda4a277a9c1085b7b71b8320019c6
-  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
-  ms.translationtype: HT
+  ms.openlocfilehash: a7d2dfe479d51d67c526dbe1bed2bc3dc5c56546
+  ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
+  ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 04/30/2020
-  ms.locfileid: "43952611"
+  ms.lasthandoff: 06/27/2020
+  ms.locfileid: "44909292"
 highlightedContent:
   items:
   - title: Обучение для администраторов и ИТ-специалистов
@@ -53,6 +53,9 @@ additionalContent:
     - title: Microsoft 365 корпоративный
       summary: Для крупных организаций Защитите свой бизнес и работайте по-новому с помощью приложений Office, Windows 10 и Enterprise Mobility + Security.
       url: ./enterprise/index.yml
+    - title: Центр архитектуры и решений Microsoft 365
+      summary: Узнайте, как разработать решение и архитектуру, предназначенные для вашей организации.
+      url: ./solutions/index.yml
     - title: Microsoft 365 для образования
       summary: Единое и доступное решение для образовательных учреждений, позволяющее раскрывать творческий потенциал, стимулировать совместную работу и обеспечивать простую и безопасную работу.
       url: https://docs.microsoft.com/education/
