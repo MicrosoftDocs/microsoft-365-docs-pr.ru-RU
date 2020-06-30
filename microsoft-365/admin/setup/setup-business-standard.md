@@ -60,7 +60,7 @@ ms.locfileid: "44778929"
     > Если вы приобрели домен во время регистрации, шаг **Добавить домен** не будет отображаться. Вместо этого перейдите в раздел [Добавить пользователей](#add-users-and-assign-licenses).
 
     
-4. Выполните шаги, описанные в мастере, по [созданию записей DNS для Office 365 у любого поставщика услуг размещения DNS](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider), который проверяет, являетесь ли вы владельцем домена. Если вы знаете свой узел домена, см. также [инструкции, связанные с узлом](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Выполните шаги, описанные в мастере, по [созданию записей DNS для Office 365 у любого поставщика услуг размещения DNS](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider), который проверяет, являетесь ли вы владельцем домена. Если вы знаете свой узел домена, см. также [инструкции для узла](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
 
     Если ваш поставщик услуг размещения — GoDaddy или другой узел, поддерживающий [подключение доменов](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), все просто: вам будет автоматически предложено войти в систему и разрешить Майкрософт проверить подлинность от вашего имени.
 
