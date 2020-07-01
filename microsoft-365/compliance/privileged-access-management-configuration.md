@@ -19,310 +19,310 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: В этой статье представлены дополнительные сведения о том, как использовать и настраивать управление привилегированным доступом в Office 365.
-ms.openlocfilehash: cbb38c2edff0c85e24855e3f6a1613ad8a92043e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4bae6d311b3447534165ee803d7094e5797a9b1c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036424"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936324"
 ---
-# <a name="get-started-with-privileged-access-management"></a><span data-ttu-id="96ee5-103">Начало работы с управлением привилегированным доступом</span><span class="sxs-lookup"><span data-stu-id="96ee5-103">Get started with privileged access management</span></span>
+# <a name="get-started-with-privileged-access-management"></a><span data-ttu-id="fda34-103">Начало работы с управлением привилегированным доступом</span><span class="sxs-lookup"><span data-stu-id="fda34-103">Get started with privileged access management</span></span>
 
-<span data-ttu-id="96ee5-104">В этом разделе описывается включение и Настройка управления привилегированным доступом в Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-104">This topic guides you through enabling and configuring privileged access management in your organization.</span></span> <span data-ttu-id="96ee5-105">Для управления привилегированным доступом можно использовать центр администрирования Microsoft 365 или PowerShell управления Exchange.</span><span class="sxs-lookup"><span data-stu-id="96ee5-105">You can use either the Microsoft 365 admin center or Exchange Management PowerShell to manage and use privileged access.</span></span>
+<span data-ttu-id="fda34-104">В этом разделе описывается включение и Настройка управления привилегированным доступом в Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-104">This topic guides you through enabling and configuring privileged access management in your organization.</span></span> <span data-ttu-id="fda34-105">Для управления привилегированным доступом можно использовать центр администрирования Microsoft 365 или PowerShell управления Exchange.</span><span class="sxs-lookup"><span data-stu-id="fda34-105">You can use either the Microsoft 365 admin center or Exchange Management PowerShell to manage and use privileged access.</span></span>
 
-## <a name="before-you-begin"></a><span data-ttu-id="96ee5-106">Подготовка</span><span class="sxs-lookup"><span data-stu-id="96ee5-106">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="fda34-106">Подготовка</span><span class="sxs-lookup"><span data-stu-id="fda34-106">Before you begin</span></span>
 
-<span data-ttu-id="96ee5-107">Прежде чем приступить к управлению привилегированным доступом, необходимо подтвердить вашу [подписку на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и любую надстройку.</span><span class="sxs-lookup"><span data-stu-id="96ee5-107">Before you get started with privileged access management, you should confirm your [Microsoft 365 subscription](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) and any add-ons.</span></span> <span data-ttu-id="96ee5-108">Чтобы получить доступ к управлению привилегированным доступом и использовать ее, ваша организация должна иметь одну из следующих подписок или надстроек:</span><span class="sxs-lookup"><span data-stu-id="96ee5-108">To access and use privileged access management, your organization must have one of the following subscriptions or add-ons:</span></span>
+<span data-ttu-id="fda34-107">Прежде чем приступить к управлению привилегированным доступом, необходимо подтвердить вашу [подписку на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) и любую надстройку.</span><span class="sxs-lookup"><span data-stu-id="fda34-107">Before you get started with privileged access management, you should confirm your [Microsoft 365 subscription](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) and any add-ons.</span></span> <span data-ttu-id="fda34-108">Чтобы получить доступ к управлению привилегированным доступом и использовать ее, ваша организация должна иметь одну из следующих подписок или надстроек:</span><span class="sxs-lookup"><span data-stu-id="fda34-108">To access and use privileged access management, your organization must have one of the following subscriptions or add-ons:</span></span>
 
-- <span data-ttu-id="96ee5-109">Подписка на Microsoft 365 (платная или пробная версия)</span><span class="sxs-lookup"><span data-stu-id="96ee5-109">Microsoft 365 E5 subscription (paid or trial version)</span></span>
-- <span data-ttu-id="96ee5-110">Подписка на Microsoft 365 E3 (или подписка на Office 365 E3 и подписка на корпоративную мобильную систему и безопасность E3) + надстройка Майкрософт для обеспечения соответствия клавишам Майкрософт 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-110">Microsoft 365 E3 subscription (or Office 365 E3 subscription + Enterprise Mobility and Security E3 subscription) + the Microsoft 365 E5 Compliance add-on</span></span>
-- <span data-ttu-id="96ee5-111">Любая подписка на Microsoft 365, Office 365, Exchange, SharePoint или OneDrive для бизнеса и надстройка "Управление рисками Майкрософт для участников программы предварительной оценки Майкрософт для Майкрософт 365"</span><span class="sxs-lookup"><span data-stu-id="96ee5-111">Any Microsoft 365, Office 365, Exchange, SharePoint, or OneDrive for Business subscription + the Microsoft 365 E5 Insider Risk Management add-on</span></span>  
-- <span data-ttu-id="96ee5-112">Подписка на Microsoft 365 A5 (платная или пробная версия)</span><span class="sxs-lookup"><span data-stu-id="96ee5-112">Microsoft 365 A5 subscription (paid or trial version)</span></span>
-- <span data-ttu-id="96ee5-113">Подписка на Microsoft 365 A3 (или подписка на Office 365 a3 + корпоративный Mobility and Security a3) + надстройка Microsoft A5 для обеспечения соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="96ee5-113">Microsoft 365 A3 subscription (or Office 365 A3 subscription + Enterprise Mobility and Security A3 subscription) + the Microsoft A5 Compliance add-on</span></span>
-- <span data-ttu-id="96ee5-114">Все подписки Microsoft 365, Office 365, Exchange, SharePoint и OneDrive для образования и надстройка "Управление рисками для Майкрософт 365 A5"</span><span class="sxs-lookup"><span data-stu-id="96ee5-114">Any Microsoft 365, Office 365, Exchange, SharePoint, or OneDrive for Education subscription + the Microsoft 365 A5 Insider Risk Management add-on</span></span>
-- <span data-ttu-id="96ee5-115">Подписка на Office 365 корпоративный (платная или пробная версия)</span><span class="sxs-lookup"><span data-stu-id="96ee5-115">Office 365 Enterprise E5 subscription (paid or trial version)</span></span>
-- <span data-ttu-id="96ee5-116">Подписка на Office 365 корпоративный E3 + расширенное соответствие требованиям Office 365 (для новых подписок больше недоступна. Примечание)</span><span class="sxs-lookup"><span data-stu-id="96ee5-116">Office 365 Enterprise E3 subscription + the Office 365 Advanced Compliance add-on (no longer available for new subscriptions, see note)</span></span>
+- <span data-ttu-id="fda34-109">Подписка на Microsoft 365 (платная или пробная версия)</span><span class="sxs-lookup"><span data-stu-id="fda34-109">Microsoft 365 E5 subscription (paid or trial version)</span></span>
+- <span data-ttu-id="fda34-110">Подписка на Microsoft 365 E3 (или подписка на Office 365 E3 и подписка на корпоративную мобильную систему и безопасность E3) + надстройка Майкрософт для обеспечения соответствия клавишам Майкрософт 365</span><span class="sxs-lookup"><span data-stu-id="fda34-110">Microsoft 365 E3 subscription (or Office 365 E3 subscription + Enterprise Mobility and Security E3 subscription) + the Microsoft 365 E5 Compliance add-on</span></span>
+- <span data-ttu-id="fda34-111">Любая подписка на Microsoft 365, Office 365, Exchange, SharePoint или OneDrive для бизнеса и надстройка "Управление рисками Майкрософт для участников программы предварительной оценки Майкрософт для Майкрософт 365"</span><span class="sxs-lookup"><span data-stu-id="fda34-111">Any Microsoft 365, Office 365, Exchange, SharePoint, or OneDrive for Business subscription + the Microsoft 365 E5 Insider Risk Management add-on</span></span>  
+- <span data-ttu-id="fda34-112">Подписка на Microsoft 365 A5 (платная или пробная версия)</span><span class="sxs-lookup"><span data-stu-id="fda34-112">Microsoft 365 A5 subscription (paid or trial version)</span></span>
+- <span data-ttu-id="fda34-113">Подписка на Microsoft 365 A3 (или подписка на Office 365 a3 + корпоративный Mobility and Security a3) + надстройка Microsoft A5 для обеспечения соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="fda34-113">Microsoft 365 A3 subscription (or Office 365 A3 subscription + Enterprise Mobility and Security A3 subscription) + the Microsoft A5 Compliance add-on</span></span>
+- <span data-ttu-id="fda34-114">Все подписки Microsoft 365, Office 365, Exchange, SharePoint и OneDrive для образования и надстройка "Управление рисками для Майкрософт 365 A5"</span><span class="sxs-lookup"><span data-stu-id="fda34-114">Any Microsoft 365, Office 365, Exchange, SharePoint, or OneDrive for Education subscription + the Microsoft 365 A5 Insider Risk Management add-on</span></span>
+- <span data-ttu-id="fda34-115">Подписка на Office 365 корпоративный (платная или пробная версия)</span><span class="sxs-lookup"><span data-stu-id="fda34-115">Office 365 Enterprise E5 subscription (paid or trial version)</span></span>
+- <span data-ttu-id="fda34-116">Подписка на Office 365 корпоративный E3 + расширенное соответствие требованиям Office 365 (для новых подписок больше недоступна. Примечание)</span><span class="sxs-lookup"><span data-stu-id="fda34-116">Office 365 Enterprise E3 subscription + the Office 365 Advanced Compliance add-on (no longer available for new subscriptions, see note)</span></span>
 
-<span data-ttu-id="96ee5-117">Пользователям, отправляемым и отвечающим на запросы управления привилегированным доступом, должна быть назначена одна из указанных выше лицензий.</span><span class="sxs-lookup"><span data-stu-id="96ee5-117">Users submitting and responding to privileged access management requests must be assigned one of the licenses above.</span></span>
+<span data-ttu-id="fda34-117">Пользователям, отправляемым и отвечающим на запросы управления привилегированным доступом, должна быть назначена одна из указанных выше лицензий.</span><span class="sxs-lookup"><span data-stu-id="fda34-117">Users submitting and responding to privileged access management requests must be assigned one of the licenses above.</span></span>
 
 >[!IMPORTANT]
-><span data-ttu-id="96ee5-118">Расширенное соответствие требованиям Office 365 больше не продается в виде автономной подписки.</span><span class="sxs-lookup"><span data-stu-id="96ee5-118">Office 365 Advanced Compliance is no longer sold as a standalone subscription.</span></span> <span data-ttu-id="96ee5-119">При истечении срока действия текущих подписок клиенты должны переходить на одну из упомянутых выше подписок, которые содержат одинаковые или дополнительные функции соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="96ee5-119">When current subscriptions expire, customers should transition to one of the subscriptions above, which contain the same or additional compliance features.</span></span>
+><span data-ttu-id="fda34-118">Расширенное соответствие требованиям Office 365 больше не продается в виде автономной подписки.</span><span class="sxs-lookup"><span data-stu-id="fda34-118">Office 365 Advanced Compliance is no longer sold as a standalone subscription.</span></span> <span data-ttu-id="fda34-119">При истечении срока действия текущих подписок клиенты должны переходить на одну из упомянутых выше подписок, которые содержат одинаковые или дополнительные функции соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="fda34-119">When current subscriptions expire, customers should transition to one of the subscriptions above, which contain the same or additional compliance features.</span></span>
 
-<span data-ttu-id="96ee5-120">Если у вас нет существующего плана Office 365 корпоративный, а вы хотите испытать возможности управления привилегированным доступом, вы можете [Добавить Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) в существующую подписку на Office 365 или [зарегистрировать пробную](https://www.microsoft.com/microsoft-365/enterprise) версию Microsoft 365 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="96ee5-120">If you don't have an existing Office 365 Enterprise E5 plan and want to try privileged access management, you can [add Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) to your existing Office 365 subscription or [sign up for a trial](https://www.microsoft.com/microsoft-365/enterprise) of Microsoft 365 Enterprise E5.</span></span>
+<span data-ttu-id="fda34-120">Если у вас нет существующего плана Office 365 корпоративный, а вы хотите испытать возможности управления привилегированным доступом, вы можете [Добавить Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) в существующую подписку на Office 365 или [зарегистрировать пробную](https://www.microsoft.com/microsoft-365/enterprise) версию Microsoft 365 Enterprise.</span><span class="sxs-lookup"><span data-stu-id="fda34-120">If you don't have an existing Office 365 Enterprise E5 plan and want to try privileged access management, you can [add Microsoft 365](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) to your existing Office 365 subscription or [sign up for a trial](https://www.microsoft.com/microsoft-365/enterprise) of Microsoft 365 Enterprise E5.</span></span>
 
-## <a name="enable-and-configure-privileged-access-management"></a><span data-ttu-id="96ee5-121">Включение и Настройка управления привилегированным доступом</span><span class="sxs-lookup"><span data-stu-id="96ee5-121">Enable and configure privileged access management</span></span>
+## <a name="enable-and-configure-privileged-access-management"></a><span data-ttu-id="fda34-121">Включение и Настройка управления привилегированным доступом</span><span class="sxs-lookup"><span data-stu-id="fda34-121">Enable and configure privileged access management</span></span>
 
-<span data-ttu-id="96ee5-122">Чтобы настроить и использовать привилегированный доступ в Организации, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="96ee5-122">Follow these steps to set up and use privileged access in your organization:</span></span>
+<span data-ttu-id="fda34-122">Чтобы настроить и использовать привилегированный доступ в Организации, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="fda34-122">Follow these steps to set up and use privileged access in your organization:</span></span>
 
-- [<span data-ttu-id="96ee5-123">Шаг 1: создание группы утверждающего</span><span class="sxs-lookup"><span data-stu-id="96ee5-123">Step 1: Create an approver's group</span></span>](privileged-access-management-configuration.md#step1)
+- [<span data-ttu-id="fda34-123">Шаг 1: создание группы утверждающего</span><span class="sxs-lookup"><span data-stu-id="fda34-123">Step 1: Create an approver's group</span></span>](privileged-access-management-configuration.md#step1)
 
-    <span data-ttu-id="96ee5-124">Прежде чем приступить к работе с правами на доступ к данным, определите, кому требуется центр утверждений для входящих запросов на доступ к привилегированным и привилегированным задачам.</span><span class="sxs-lookup"><span data-stu-id="96ee5-124">Before you start using privilege access, determine who needs approval authority for incoming requests for access to elevated and privileged tasks.</span></span> <span data-ttu-id="96ee5-125">Любой пользователь, являющийся участником группы утверждающих, может утверждать запросы на доступ.</span><span class="sxs-lookup"><span data-stu-id="96ee5-125">Any user who is part of the Approvers' group is able to approve access requests.</span></span> <span data-ttu-id="96ee5-126">Эта группа включена путем создания группы безопасности с включенной поддержкой почты в Office 365.</span><span class="sxs-lookup"><span data-stu-id="96ee5-126">This group is enabled by creating a mail-enabled security group in Office 365.</span></span>
+    <span data-ttu-id="fda34-124">Прежде чем приступить к работе с правами на доступ к данным, определите, кому требуется центр утверждений для входящих запросов на доступ к привилегированным и привилегированным задачам.</span><span class="sxs-lookup"><span data-stu-id="fda34-124">Before you start using privilege access, determine who needs approval authority for incoming requests for access to elevated and privileged tasks.</span></span> <span data-ttu-id="fda34-125">Любой пользователь, являющийся участником группы утверждающих, может утверждать запросы на доступ.</span><span class="sxs-lookup"><span data-stu-id="fda34-125">Any user who is part of the Approvers' group is able to approve access requests.</span></span> <span data-ttu-id="fda34-126">Эта группа включена путем создания группы безопасности с включенной поддержкой почты в Office 365.</span><span class="sxs-lookup"><span data-stu-id="fda34-126">This group is enabled by creating a mail-enabled security group in Office 365.</span></span>
 
-- [<span data-ttu-id="96ee5-127">Шаг 2: включение привилегированного доступа</span><span class="sxs-lookup"><span data-stu-id="96ee5-127">Step 2: Enable privileged access</span></span>](privileged-access-management-configuration.md#step2)
+- [<span data-ttu-id="fda34-127">Шаг 2: включение привилегированного доступа</span><span class="sxs-lookup"><span data-stu-id="fda34-127">Step 2: Enable privileged access</span></span>](privileged-access-management-configuration.md#step2)
 
-    <span data-ttu-id="96ee5-128">Привилегированный доступ должен быть явно включен в Office 365 с группой утверждающих по умолчанию, в том числе набором системных учетных записей, которые необходимо исключить из управления доступом для привилегированного управления доступом.</span><span class="sxs-lookup"><span data-stu-id="96ee5-128">Privileged access must be explicitly enabled in Office 365 with the default approver group, including a set of system accounts that you want excluded from the privileged access management access control.</span></span>
+    <span data-ttu-id="fda34-128">Привилегированный доступ должен быть явно включен в Office 365 с группой утверждающих по умолчанию, в том числе набором системных учетных записей, которые необходимо исключить из управления доступом для привилегированного управления доступом.</span><span class="sxs-lookup"><span data-stu-id="fda34-128">Privileged access must be explicitly enabled in Office 365 with the default approver group, including a set of system accounts that you want excluded from the privileged access management access control.</span></span>
 
-- [<span data-ttu-id="96ee5-129">Шаг 3: Создание политики доступа</span><span class="sxs-lookup"><span data-stu-id="96ee5-129">Step 3: Create an access policy</span></span>](privileged-access-management-configuration.md#step3)
+- [<span data-ttu-id="fda34-129">Шаг 3: Создание политики доступа</span><span class="sxs-lookup"><span data-stu-id="fda34-129">Step 3: Create an access policy</span></span>](privileged-access-management-configuration.md#step3)
 
-    <span data-ttu-id="96ee5-130">Создание политики утверждения позволяет определять конкретные требования к утверждению в рамках отдельных задач.</span><span class="sxs-lookup"><span data-stu-id="96ee5-130">Creating an approval policy allows you to define the specific approval requirements scoped at individual tasks.</span></span> <span data-ttu-id="96ee5-131">Возможные варианты типа утверждения: **Auto** или **вручную**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-131">The approval type options are **Auto** or **Manual**.</span></span>
+    <span data-ttu-id="fda34-130">Создание политики утверждения позволяет определять конкретные требования к утверждению в рамках отдельных задач.</span><span class="sxs-lookup"><span data-stu-id="fda34-130">Creating an approval policy allows you to define the specific approval requirements scoped at individual tasks.</span></span> <span data-ttu-id="fda34-131">Возможные варианты типа утверждения: **Auto** или **вручную**.</span><span class="sxs-lookup"><span data-stu-id="fda34-131">The approval type options are **Auto** or **Manual**.</span></span>
 
-- [<span data-ttu-id="96ee5-132">Шаг 4: передача и утверждение привилегированных запросов доступа</span><span class="sxs-lookup"><span data-stu-id="96ee5-132">Step 4: Submit/approve privileged access requests</span></span>](privileged-access-management-configuration.md#step4)
+- [<span data-ttu-id="fda34-132">Шаг 4: передача и утверждение привилегированных запросов доступа</span><span class="sxs-lookup"><span data-stu-id="fda34-132">Step 4: Submit/approve privileged access requests</span></span>](privileged-access-management-configuration.md#step4)
 
-    <span data-ttu-id="96ee5-133">После включения привилегированный доступ требует утверждения для любой задачи, для которой определена соответствующая политика утверждения.</span><span class="sxs-lookup"><span data-stu-id="96ee5-133">Once enabled, privileged access requires approvals for any task that has an associated approval policy defined.</span></span> <span data-ttu-id="96ee5-134">Для задач, включенных в политику утверждения, пользователям необходимо запросить утверждение доступа, чтобы иметь разрешения, необходимые для выполнения задачи.</span><span class="sxs-lookup"><span data-stu-id="96ee5-134">For tasks included in an approval policy, users must request and be granted access approval to have permissions necessary to execute the task.</span></span>
+    <span data-ttu-id="fda34-133">После включения привилегированный доступ требует утверждения для любой задачи, для которой определена соответствующая политика утверждения.</span><span class="sxs-lookup"><span data-stu-id="fda34-133">Once enabled, privileged access requires approvals for any task that has an associated approval policy defined.</span></span> <span data-ttu-id="fda34-134">Для задач, включенных в политику утверждения, пользователям необходимо запросить утверждение доступа, чтобы иметь разрешения, необходимые для выполнения задачи.</span><span class="sxs-lookup"><span data-stu-id="fda34-134">For tasks included in an approval policy, users must request and be granted access approval to have permissions necessary to execute the task.</span></span>
 
-<span data-ttu-id="96ee5-135">После предоставления утверждения пользователь, выполняющий запрос, может выполнить предполагаемую задачу, а привилегированный доступ будет авторизовать и выполнить задачу от имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="96ee5-135">After approval is granted, the requesting user can execute the intended task and privileged access will authorize and execute the task on behalf of the user.</span></span> <span data-ttu-id="96ee5-136">Утверждение остается действительным в течение запрошенного периода (длительность по умолчанию составляет 4 часа), в течение которого инициатор запроса может выполнить нужную задачу несколько раз.</span><span class="sxs-lookup"><span data-stu-id="96ee5-136">The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times.</span></span> <span data-ttu-id="96ee5-137">Все подобные выполнения записываются в журнал и становятся доступны для аудита безопасности и соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="96ee5-137">All such executions are logged and made available for security and compliance auditing.</span></span> 
+<span data-ttu-id="fda34-135">После предоставления утверждения пользователь, выполняющий запрос, может выполнить предполагаемую задачу, а привилегированный доступ будет авторизовать и выполнить задачу от имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="fda34-135">After approval is granted, the requesting user can execute the intended task and privileged access will authorize and execute the task on behalf of the user.</span></span> <span data-ttu-id="fda34-136">Утверждение остается действительным в течение запрошенного периода (длительность по умолчанию составляет 4 часа), в течение которого инициатор запроса может выполнить нужную задачу несколько раз.</span><span class="sxs-lookup"><span data-stu-id="fda34-136">The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times.</span></span> <span data-ttu-id="fda34-137">Все подобные выполнения записываются в журнал и становятся доступны для аудита безопасности и соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="fda34-137">All such executions are logged and made available for security and compliance auditing.</span></span> 
 
 >[!NOTE]
-><span data-ttu-id="96ee5-138">Если вы хотите включить и настроить привилегированный доступ с помощью PowerShell для управления Exchange, выполните действия, описанные в статье [Подключение к Exchange Online PowerShell с использованием многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) для подключения к Exchange Online PowerShell с помощью учетных данных Office 365.</span><span class="sxs-lookup"><span data-stu-id="96ee5-138">If you want to use Exchange Management PowerShell to enable and configure privileged access, follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) to connect to Exchange Online PowerShell with your Office 365 credentials.</span></span> <span data-ttu-id="96ee5-139">В Организации не требуется включать многофакторную проверку подлинности для включения привилегированного доступа при подключении к Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="96ee5-139">You do not need to enable multi-factor authentication for your organization to use the steps to enable privileged access while connecting to Exchange Online PowerShell.</span></span> <span data-ttu-id="96ee5-140">При подключении с многофакторной проверкой подлинности создается маркер OAuth, используемый привилегированным доступом для подписи запросов.</span><span class="sxs-lookup"><span data-stu-id="96ee5-140">Connecting with multi-factor authentication creates an OAuth token that is used by privileged access for signing your requests.</span></span>
+><span data-ttu-id="fda34-138">Если вы хотите включить и настроить привилегированный доступ с помощью PowerShell для управления Exchange, выполните действия, описанные в статье [Подключение к Exchange Online PowerShell с использованием многофакторной проверки подлинности](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) для подключения к Exchange Online PowerShell с помощью учетных данных Office 365.</span><span class="sxs-lookup"><span data-stu-id="fda34-138">If you want to use Exchange Management PowerShell to enable and configure privileged access, follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) to connect to Exchange Online PowerShell with your Office 365 credentials.</span></span> <span data-ttu-id="fda34-139">В Организации не требуется включать многофакторную проверку подлинности для включения привилегированного доступа при подключении к Exchange Online PowerShell.</span><span class="sxs-lookup"><span data-stu-id="fda34-139">You do not need to enable multi-factor authentication for your organization to use the steps to enable privileged access while connecting to Exchange Online PowerShell.</span></span> <span data-ttu-id="fda34-140">При подключении с многофакторной проверкой подлинности создается маркер OAuth, используемый привилегированным доступом для подписи запросов.</span><span class="sxs-lookup"><span data-stu-id="fda34-140">Connecting with multi-factor authentication creates an OAuth token that is used by privileged access for signing your requests.</span></span>
 
-<span data-ttu-id="96ee5-141"><a name="step1"> </a></span><span class="sxs-lookup"><span data-stu-id="96ee5-141"><a name="step1"> </a></span></span>
+<span data-ttu-id="fda34-141"><a name="step1"> </a></span><span class="sxs-lookup"><span data-stu-id="fda34-141"><a name="step1"> </a></span></span>
 
-## <a name="step-1-create-an-approvers-group"></a><span data-ttu-id="96ee5-142">Шаг 1: создание группы утверждающего</span><span class="sxs-lookup"><span data-stu-id="96ee5-142">Step 1: Create an approver's group</span></span>
+## <a name="step-1-create-an-approvers-group"></a><span data-ttu-id="fda34-142">Шаг 1: создание группы утверждающего</span><span class="sxs-lookup"><span data-stu-id="fda34-142">Step 1: Create an approver's group</span></span>
 
-1. <span data-ttu-id="96ee5-143">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-143">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
+1. <span data-ttu-id="fda34-143">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-143">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
 
-2. <span data-ttu-id="96ee5-144">В центре администрирования последовательно выберите пункты **группы** > **Добавить группу**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-144">In the Admin Center, go to **Groups** > **Add a group**.</span></span>
+2. <span data-ttu-id="fda34-144">В центре администрирования последовательно выберите пункты **группы**  >  **Добавить группу**.</span><span class="sxs-lookup"><span data-stu-id="fda34-144">In the Admin Center, go to **Groups** > **Add a group**.</span></span>
 
-3. <span data-ttu-id="96ee5-145">Выберите пункт **Группа безопасности с включенной поддержкой почты** и заполните поля **имя**, **адрес электронной почты группы**и **Описание** для новой группы.</span><span class="sxs-lookup"><span data-stu-id="96ee5-145">Select **mail-enabled security group** and then complete the **Name**, **Group email address**, and **Description** fields for the new group.</span></span>
+3. <span data-ttu-id="fda34-145">Выберите пункт **Группа безопасности с включенной поддержкой почты** и заполните поля **имя**, **адрес электронной почты группы**и **Описание** для новой группы.</span><span class="sxs-lookup"><span data-stu-id="fda34-145">Select **mail-enabled security group** and then complete the **Name**, **Group email address**, and **Description** fields for the new group.</span></span>
 
-4. <span data-ttu-id="96ee5-146">Сохраните группу.</span><span class="sxs-lookup"><span data-stu-id="96ee5-146">Save the group.</span></span> <span data-ttu-id="96ee5-147">Для полной настройки группы и ее отображения в центре администрирования Microsoft 365 может потребоваться несколько минут.</span><span class="sxs-lookup"><span data-stu-id="96ee5-147">It may take a few minutes for the group to be fully configured and to appear in the Microsoft 365 admin center.</span></span>
+4. <span data-ttu-id="fda34-146">Сохраните группу.</span><span class="sxs-lookup"><span data-stu-id="fda34-146">Save the group.</span></span> <span data-ttu-id="fda34-147">Для полной настройки группы и ее отображения в центре администрирования Microsoft 365 может потребоваться несколько минут.</span><span class="sxs-lookup"><span data-stu-id="fda34-147">It may take a few minutes for the group to be fully configured and to appear in the Microsoft 365 admin center.</span></span>
 
-5. <span data-ttu-id="96ee5-148">Выберите новую группу утверждающего и нажмите кнопку **изменить** , чтобы добавить пользователей в группу.</span><span class="sxs-lookup"><span data-stu-id="96ee5-148">Select the new approver's group and select **edit** to add users to the group.</span></span>
+5. <span data-ttu-id="fda34-148">Выберите новую группу утверждающего и нажмите кнопку **изменить** , чтобы добавить пользователей в группу.</span><span class="sxs-lookup"><span data-stu-id="fda34-148">Select the new approver's group and select **edit** to add users to the group.</span></span>
 
-6. <span data-ttu-id="96ee5-149">Сохраните группу.</span><span class="sxs-lookup"><span data-stu-id="96ee5-149">Save the group.</span></span>
+6. <span data-ttu-id="fda34-149">Сохраните группу.</span><span class="sxs-lookup"><span data-stu-id="fda34-149">Save the group.</span></span>
 
-<span data-ttu-id="96ee5-150"><a name="step2"> </a></span><span class="sxs-lookup"><span data-stu-id="96ee5-150"><a name="step2"> </a></span></span>
+<span data-ttu-id="fda34-150"><a name="step2"> </a></span><span class="sxs-lookup"><span data-stu-id="fda34-150"><a name="step2"> </a></span></span>
 
-## <a name="step-2-enable-privileged-access"></a><span data-ttu-id="96ee5-151">Шаг 2: включение привилегированного доступа</span><span class="sxs-lookup"><span data-stu-id="96ee5-151">Step 2: Enable privileged access</span></span>
+## <a name="step-2-enable-privileged-access"></a><span data-ttu-id="fda34-151">Шаг 2: включение привилегированного доступа</span><span class="sxs-lookup"><span data-stu-id="fda34-151">Step 2: Enable privileged access</span></span>
 
-### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-152">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-152">In the Microsoft 365 Admin Center</span></span>
+### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-152">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-152">In the Microsoft 365 Admin Center</span></span>
 
-1. <span data-ttu-id="96ee5-153">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-153">Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
+1. <span data-ttu-id="fda34-153">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-153">Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
 
-2. <span data-ttu-id="96ee5-154">В центре администрирования перейдите к разделу **Параметры > параметры > безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-154">In the Admin Center, go to **Settings > Settings > Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-154">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-154">In the Admin Center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-155">Включите элемент управления " **требовать утверждения для привилегированных задач** ".</span><span class="sxs-lookup"><span data-stu-id="96ee5-155">Enable the **Require approvals for privileged tasks** control.</span></span>
+3. <span data-ttu-id="fda34-155">Включите элемент управления " **требовать утверждения для привилегированных задач** ".</span><span class="sxs-lookup"><span data-stu-id="fda34-155">Enable the **Require approvals for privileged tasks** control.</span></span>
 
-4. <span data-ttu-id="96ee5-156">Назначьте группу утверждающих, созданную на шаге 1, в качестве **группы утверждающих по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-156">Assign the approver's group you created in Step 1 as the **Default approvers group**.</span></span>
+4. <span data-ttu-id="fda34-156">Назначьте группу утверждающих, созданную на шаге 1, в качестве **группы утверждающих по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="fda34-156">Assign the approver's group you created in Step 1 as the **Default approvers group**.</span></span>
 
-5. <span data-ttu-id="96ee5-157">**Сохраните** и **закройте диалоговое окно**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-157">**Save** and **Close**.</span></span>
+5. <span data-ttu-id="fda34-157">**Сохраните** и **закройте диалоговое окно**.</span><span class="sxs-lookup"><span data-stu-id="fda34-157">**Save** and **Close**.</span></span>
 
-### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-158">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-158">In Exchange Management PowerShell</span></span>
+### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-158">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-158">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-159">Чтобы включить привилегированный доступ и назначить группу утверждающего, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="96ee5-159">To enable privileged access and to assign the approver's group, run the following command in Exchange Online PowerShell:</span></span>
+<span data-ttu-id="fda34-159">Чтобы включить привилегированный доступ и назначить группу утверждающего, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fda34-159">To enable privileged access and to assign the approver's group, run the following command in Exchange Online PowerShell:</span></span>
 
 ```PowerShell
 Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
 
-<span data-ttu-id="96ee5-160">Пример:</span><span class="sxs-lookup"><span data-stu-id="96ee5-160">Example:</span></span>
+<span data-ttu-id="fda34-160">Пример.</span><span class="sxs-lookup"><span data-stu-id="fda34-160">Example:</span></span>
 
 ```PowerShell
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
 ```
 
 >[!NOTE]
-><span data-ttu-id="96ee5-161">Функция "системные учетные записи" доступна, чтобы гарантировать, что определенные автоматизации в организациях могут работать без зависимости от привилегированного доступа, однако рекомендуется, чтобы такие исключения были исключительными и их можно было утверждать и регулярно проверять.</span><span class="sxs-lookup"><span data-stu-id="96ee5-161">System accounts feature is made available to ensure certain automations within your organizations can work without dependency on privileged access, however it is recommended that such exclusions be exceptional and those allowed should be approved and audited regularly.</span></span>
+><span data-ttu-id="fda34-161">Функция "системные учетные записи" доступна, чтобы гарантировать, что определенные автоматизации в организациях могут работать без зависимости от привилегированного доступа, однако рекомендуется, чтобы такие исключения были исключительными и их можно было утверждать и регулярно проверять.</span><span class="sxs-lookup"><span data-stu-id="fda34-161">System accounts feature is made available to ensure certain automations within your organizations can work without dependency on privileged access, however it is recommended that such exclusions be exceptional and those allowed should be approved and audited regularly.</span></span>
 
-<span data-ttu-id="96ee5-162"><a name="step3"> </a></span><span class="sxs-lookup"><span data-stu-id="96ee5-162"><a name="step3"> </a></span></span>
+<span data-ttu-id="fda34-162"><a name="step3"> </a></span><span class="sxs-lookup"><span data-stu-id="fda34-162"><a name="step3"> </a></span></span>
 
-## <a name="step-3-create-an-access-policy"></a><span data-ttu-id="96ee5-163">Шаг 3: Создание политики доступа</span><span class="sxs-lookup"><span data-stu-id="96ee5-163">Step 3: Create an access policy</span></span>
+## <a name="step-3-create-an-access-policy"></a><span data-ttu-id="fda34-163">Шаг 3: Создание политики доступа</span><span class="sxs-lookup"><span data-stu-id="fda34-163">Step 3: Create an access policy</span></span>
 
-<span data-ttu-id="96ee5-164">Вы можете создать и настроить до 30 политик доступа для Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-164">You can create and configure up to 30 privileged access policies for your organization.</span></span>
+<span data-ttu-id="fda34-164">Вы можете создать и настроить до 30 политик доступа для Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-164">You can create and configure up to 30 privileged access policies for your organization.</span></span>
 
-### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-165">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-165">In the Microsoft 365 Admin Center</span></span>
+### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-165">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-165">In the Microsoft 365 Admin Center</span></span>
 
-1. <span data-ttu-id="96ee5-166">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-166">Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
+1. <span data-ttu-id="fda34-166">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-166">Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
 
-2. <span data-ttu-id="96ee5-167">В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-167">In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-167">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-167">In the Admin Center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-168">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-168">Select **Manage access policies and requests**.</span></span>
+3. <span data-ttu-id="fda34-168">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="fda34-168">Select **Manage access policies and requests**.</span></span>
 
-4. <span data-ttu-id="96ee5-169">Выберите пункт **Настройка политик** и нажмите кнопку **Добавить политику**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-169">Select **Configure policies** and select **Add a policy**.</span></span>
+4. <span data-ttu-id="fda34-169">Выберите пункт **Настройка политик** и нажмите кнопку **Добавить политику**.</span><span class="sxs-lookup"><span data-stu-id="fda34-169">Select **Configure policies** and select **Add a policy**.</span></span>
 
-5. <span data-ttu-id="96ee5-170">В раскрывающихся полях выберите соответствующие значения для вашей организации:</span><span class="sxs-lookup"><span data-stu-id="96ee5-170">From the drop-down fields, select the appropriate values for your organization:</span></span>
+5. <span data-ttu-id="fda34-170">В раскрывающихся полях выберите соответствующие значения для вашей организации:</span><span class="sxs-lookup"><span data-stu-id="fda34-170">From the drop-down fields, select the appropriate values for your organization:</span></span>
     
-    <span data-ttu-id="96ee5-171">**Тип политики**: задача, роль или группа ролей</span><span class="sxs-lookup"><span data-stu-id="96ee5-171">**Policy type**: Task, Role, or Role Group</span></span>
+    <span data-ttu-id="fda34-171">**Тип политики**: задача, роль или группа ролей</span><span class="sxs-lookup"><span data-stu-id="fda34-171">**Policy type**: Task, Role, or Role Group</span></span>
 
-    <span data-ttu-id="96ee5-172">**Область действия политики**: Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-172">**Policy scope**: Exchange</span></span>
+    <span data-ttu-id="fda34-172">**Область действия политики**: Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-172">**Policy scope**: Exchange</span></span>
 
-    <span data-ttu-id="96ee5-173">**Имя политики**: выберите из доступных политик</span><span class="sxs-lookup"><span data-stu-id="96ee5-173">**Policy name**: Select from the available policies</span></span>
+    <span data-ttu-id="fda34-173">**Имя политики**: выберите из доступных политик</span><span class="sxs-lookup"><span data-stu-id="fda34-173">**Policy name**: Select from the available policies</span></span>
 
-    <span data-ttu-id="96ee5-174">**Тип утверждения**: вручную или автоматически</span><span class="sxs-lookup"><span data-stu-id="96ee5-174">**Approval type**: Manual or Auto</span></span>
+    <span data-ttu-id="fda34-174">**Тип утверждения**: вручную или автоматически</span><span class="sxs-lookup"><span data-stu-id="fda34-174">**Approval type**: Manual or Auto</span></span>
 
-    <span data-ttu-id="96ee5-175">**Группа утверждения**: выберите группу утверждающих, созданную на шаге 1.</span><span class="sxs-lookup"><span data-stu-id="96ee5-175">**Approval group**: Select the approvers group created in Step 1</span></span>
+    <span data-ttu-id="fda34-175">**Группа утверждения**: выберите группу утверждающих, созданную на шаге 1.</span><span class="sxs-lookup"><span data-stu-id="fda34-175">**Approval group**: Select the approvers group created in Step 1</span></span>
 
-6. <span data-ttu-id="96ee5-176">Выберите **создать** , а затем **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-176">Select **Create** and then **Close**.</span></span> <span data-ttu-id="96ee5-177">Полная настройка и включение политики может занять несколько минут.</span><span class="sxs-lookup"><span data-stu-id="96ee5-177">It may take a few minutes for the policy to be fully configured and enabled.</span></span>
+6. <span data-ttu-id="fda34-176">Выберите **создать** , а затем **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="fda34-176">Select **Create** and then **Close**.</span></span> <span data-ttu-id="fda34-177">Полная настройка и включение политики может занять несколько минут.</span><span class="sxs-lookup"><span data-stu-id="fda34-177">It may take a few minutes for the policy to be fully configured and enabled.</span></span>
 
-### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-178">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-178">In Exchange Management PowerShell</span></span>
+### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-178">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-178">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-179">Чтобы создать и определить политику утверждения, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="96ee5-179">To create and define an approval policy, run the following command in Exchange Online PowerShell:</span></span>
+<span data-ttu-id="fda34-179">Чтобы создать и определить политику утверждения, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fda34-179">To create and define an approval policy, run the following command in Exchange Online PowerShell:</span></span>
 
 ```PowerShell
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
 
-<span data-ttu-id="96ee5-180">Пример:</span><span class="sxs-lookup"><span data-stu-id="96ee5-180">Example:</span></span>
+<span data-ttu-id="fda34-180">Пример.</span><span class="sxs-lookup"><span data-stu-id="fda34-180">Example:</span></span>
 
 ```PowerShell
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
 ```
 
-<span data-ttu-id="96ee5-181"><a name="step4"> </a></span><span class="sxs-lookup"><span data-stu-id="96ee5-181"><a name="step4"> </a></span></span>
+<span data-ttu-id="fda34-181"><a name="step4"> </a></span><span class="sxs-lookup"><span data-stu-id="fda34-181"><a name="step4"> </a></span></span>
 
-## <a name="step-4-submitapprove-privileged-access-requests"></a><span data-ttu-id="96ee5-182">Шаг 4: передача и утверждение привилегированных запросов доступа</span><span class="sxs-lookup"><span data-stu-id="96ee5-182">Step 4: Submit/approve privileged access requests</span></span>
+## <a name="step-4-submitapprove-privileged-access-requests"></a><span data-ttu-id="fda34-182">Шаг 4: передача и утверждение привилегированных запросов доступа</span><span class="sxs-lookup"><span data-stu-id="fda34-182">Step 4: Submit/approve privileged access requests</span></span>
 
-### <a name="requesting-elevation-authorization-to-execute-privileged-tasks"></a><span data-ttu-id="96ee5-183">Запрос разрешения на повышение прав для выполнения привилегированных задач</span><span class="sxs-lookup"><span data-stu-id="96ee5-183">Requesting elevation authorization to execute privileged tasks</span></span>
+### <a name="requesting-elevation-authorization-to-execute-privileged-tasks"></a><span data-ttu-id="fda34-183">Запрос разрешения на повышение прав для выполнения привилегированных задач</span><span class="sxs-lookup"><span data-stu-id="fda34-183">Requesting elevation authorization to execute privileged tasks</span></span>
 
-<span data-ttu-id="96ee5-184">Запросы для привилегированного доступа действительны в течение 24 часов после отправки запроса.</span><span class="sxs-lookup"><span data-stu-id="96ee5-184">Requests for privileged access are valid for up to 24 hours after the request is submitted.</span></span> <span data-ttu-id="96ee5-185">Если оно не утверждено или отклонено, срок действия запросов истечет и доступ не утверждается.</span><span class="sxs-lookup"><span data-stu-id="96ee5-185">If not approved or denied, the requests expire and access is not approved.</span></span>
+<span data-ttu-id="fda34-184">Запросы для привилегированного доступа действительны в течение 24 часов после отправки запроса.</span><span class="sxs-lookup"><span data-stu-id="fda34-184">Requests for privileged access are valid for up to 24 hours after the request is submitted.</span></span> <span data-ttu-id="fda34-185">Если оно не утверждено или отклонено, срок действия запросов истечет и доступ не утверждается.</span><span class="sxs-lookup"><span data-stu-id="fda34-185">If not approved or denied, the requests expire and access is not approved.</span></span>
 
-#### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-186">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-186">In the Microsoft 365 Admin Center</span></span>
+#### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-186">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-186">In the Microsoft 365 Admin Center</span></span>
 
-1. <span data-ttu-id="96ee5-187">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя свои учетные данные.</span><span class="sxs-lookup"><span data-stu-id="96ee5-187">Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using your credentials.</span></span>
+1. <span data-ttu-id="fda34-187">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя свои учетные данные.</span><span class="sxs-lookup"><span data-stu-id="fda34-187">Sign into the [Microsoft 365 Admin Center](https://admin.microsoft.com) using your credentials.</span></span>
 
-2. <span data-ttu-id="96ee5-188">В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-188">In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-188">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-188">In the Admin Center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-189">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-189">Select **Manage access policies and requests**.</span></span>
+3. <span data-ttu-id="fda34-189">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="fda34-189">Select **Manage access policies and requests**.</span></span>
 
-4. <span data-ttu-id="96ee5-190">Выберите пункт **создать запрос**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-190">Select **New request**.</span></span> <span data-ttu-id="96ee5-191">В раскрывающихся полях выберите соответствующие значения для вашей организации:</span><span class="sxs-lookup"><span data-stu-id="96ee5-191">From the drop-down fields, select the appropriate values for your organization:</span></span>
+4. <span data-ttu-id="fda34-190">Выберите пункт **создать запрос**.</span><span class="sxs-lookup"><span data-stu-id="fda34-190">Select **New request**.</span></span> <span data-ttu-id="fda34-191">В раскрывающихся полях выберите соответствующие значения для вашей организации:</span><span class="sxs-lookup"><span data-stu-id="fda34-191">From the drop-down fields, select the appropriate values for your organization:</span></span>
 
-    <span data-ttu-id="96ee5-192">**Тип запроса**: задача, роль или группа ролей</span><span class="sxs-lookup"><span data-stu-id="96ee5-192">**Request type**: Task, Role, or Role Group</span></span>
+    <span data-ttu-id="fda34-192">**Тип запроса**: задача, роль или группа ролей</span><span class="sxs-lookup"><span data-stu-id="fda34-192">**Request type**: Task, Role, or Role Group</span></span>
 
-    <span data-ttu-id="96ee5-193">**Область запроса**: Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-193">**Request scope**: Exchange</span></span>
+    <span data-ttu-id="fda34-193">**Область запроса**: Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-193">**Request scope**: Exchange</span></span>
 
-    <span data-ttu-id="96ee5-194">**Запрос для**: выберите из доступных политик</span><span class="sxs-lookup"><span data-stu-id="96ee5-194">**Request for**: Select from the available policies</span></span>
+    <span data-ttu-id="fda34-194">**Запрос для**: выберите из доступных политик</span><span class="sxs-lookup"><span data-stu-id="fda34-194">**Request for**: Select from the available policies</span></span>
 
-    <span data-ttu-id="96ee5-195">**Продолжительность (часы)**: количество часов запрошенного доступа.</span><span class="sxs-lookup"><span data-stu-id="96ee5-195">**Duration (hours)**: Number of hours of requested access.</span></span> <span data-ttu-id="96ee5-196">Количество часов, которые можно запросить, не ограничено.</span><span class="sxs-lookup"><span data-stu-id="96ee5-196">There isn't a limit on the number of hours that can be requested.</span></span>
+    <span data-ttu-id="fda34-195">**Продолжительность (часы)**: количество часов запрошенного доступа.</span><span class="sxs-lookup"><span data-stu-id="fda34-195">**Duration (hours)**: Number of hours of requested access.</span></span> <span data-ttu-id="fda34-196">Количество часов, которые можно запросить, не ограничено.</span><span class="sxs-lookup"><span data-stu-id="fda34-196">There isn't a limit on the number of hours that can be requested.</span></span>
 
-    <span data-ttu-id="96ee5-197">**Comments**: текстовое поле для комментариев, связанных с вашим запросом на доступ</span><span class="sxs-lookup"><span data-stu-id="96ee5-197">**Comments**: Text field for comments related to your access request</span></span>
+    <span data-ttu-id="fda34-197">**Comments**: текстовое поле для комментариев, связанных с вашим запросом на доступ</span><span class="sxs-lookup"><span data-stu-id="fda34-197">**Comments**: Text field for comments related to your access request</span></span>
 
-5. <span data-ttu-id="96ee5-198">Нажмите кнопку **сохранить** , а затем кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-198">Select **Save** and then **Close**.</span></span> <span data-ttu-id="96ee5-199">Ваш запрос будет отправлен в группу утверждающего через электронную почту.</span><span class="sxs-lookup"><span data-stu-id="96ee5-199">Your request will be sent to the approver's group via email.</span></span>
+5. <span data-ttu-id="fda34-198">Нажмите кнопку **сохранить** , а затем кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="fda34-198">Select **Save** and then **Close**.</span></span> <span data-ttu-id="fda34-199">Ваш запрос будет отправлен в группу утверждающего через электронную почту.</span><span class="sxs-lookup"><span data-stu-id="fda34-199">Your request will be sent to the approver's group via email.</span></span>
 
-#### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-200">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-200">In Exchange Management PowerShell</span></span>
+#### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-200">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-200">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-201">Выполните следующую команду в Exchange Online PowerShell, чтобы создать и отправить запрос на утверждение группе утверждающего.</span><span class="sxs-lookup"><span data-stu-id="96ee5-201">Run the following command in Exchange Online PowerShell to create and submit an approval request to the approver's group:</span></span>
+<span data-ttu-id="fda34-201">Выполните следующую команду в Exchange Online PowerShell, чтобы создать и отправить запрос на утверждение группе утверждающего.</span><span class="sxs-lookup"><span data-stu-id="fda34-201">Run the following command in Exchange Online PowerShell to create and submit an approval request to the approver's group:</span></span>
 
 ```PowerShell
 New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
 
-<span data-ttu-id="96ee5-202">Пример:</span><span class="sxs-lookup"><span data-stu-id="96ee5-202">Example:</span></span>
+<span data-ttu-id="fda34-202">Пример.</span><span class="sxs-lookup"><span data-stu-id="fda34-202">Example:</span></span>
 
 ```PowerShell
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
 ```
 
-### <a name="view-status-of-elevation-requests"></a><span data-ttu-id="96ee5-203">Просмотр состояния запросов на повышение прав</span><span class="sxs-lookup"><span data-stu-id="96ee5-203">View status of elevation requests</span></span>
+### <a name="view-status-of-elevation-requests"></a><span data-ttu-id="fda34-203">Просмотр состояния запросов на повышение прав</span><span class="sxs-lookup"><span data-stu-id="fda34-203">View status of elevation requests</span></span>
 
-<span data-ttu-id="96ee5-204">После создания запроса на утверждение состояние запроса на повышение прав можно просмотреть в центре администрирования или в Exchange Management PowerShell с помощью соответствующего идентификатора запроса.</span><span class="sxs-lookup"><span data-stu-id="96ee5-204">After an approval request is created, elevation request status can be reviewed in the admin center or in Exchange Management PowerShell using the associated with request ID.</span></span>
+<span data-ttu-id="fda34-204">После создания запроса на утверждение состояние запроса на повышение прав можно просмотреть в центре администрирования или в Exchange Management PowerShell с помощью соответствующего идентификатора запроса.</span><span class="sxs-lookup"><span data-stu-id="fda34-204">After an approval request is created, elevation request status can be reviewed in the admin center or in Exchange Management PowerShell using the associated with request ID.</span></span>
 
-#### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-205">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-205">In the Microsoft 365 admin center</span></span>
+#### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-205">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-205">In the Microsoft 365 admin center</span></span>
 
-1. <span data-ttu-id="96ee5-206">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с вашими учетными данными.</span><span class="sxs-lookup"><span data-stu-id="96ee5-206">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) with your credentials.</span></span>
+1. <span data-ttu-id="fda34-206">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с вашими учетными данными.</span><span class="sxs-lookup"><span data-stu-id="fda34-206">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) with your credentials.</span></span>
 
-2. <span data-ttu-id="96ee5-207">В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-207">In the admin center, go to **Settings** > **Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-207">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-207">In the admin center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-208">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-208">Select **Manage access policies and requests**.</span></span>
+3. <span data-ttu-id="fda34-208">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="fda34-208">Select **Manage access policies and requests**.</span></span>
 
-4. <span data-ttu-id="96ee5-209">Выберите **представление** , чтобы отфильтровать отправленные запросы по **очереди**, **утверждению**, **отклонению**или статусу **защищенного хранилища клиента** .</span><span class="sxs-lookup"><span data-stu-id="96ee5-209">Select **View** to filter submitted requests by **Pending**, **Approved**, **Denied**, or **Customer Lockbox** status.</span></span>
+4. <span data-ttu-id="fda34-209">Выберите **представление** , чтобы отфильтровать отправленные запросы по **очереди**, **утверждению**, **отклонению**или статусу **защищенного хранилища клиента** .</span><span class="sxs-lookup"><span data-stu-id="fda34-209">Select **View** to filter submitted requests by **Pending**, **Approved**, **Denied**, or **Customer Lockbox** status.</span></span>
 
-#### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-210">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-210">In Exchange Management PowerShell</span></span>
+#### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-210">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-210">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-211">Выполните следующую команду в Exchange Online PowerShell, чтобы просмотреть состояние запроса на утверждение для определенного идентификатора запроса:</span><span class="sxs-lookup"><span data-stu-id="96ee5-211">Run the following command in Exchange Online PowerShell to view an approval request status for a specific request ID:</span></span>
+<span data-ttu-id="fda34-211">Выполните следующую команду в Exchange Online PowerShell, чтобы просмотреть состояние запроса на утверждение для определенного идентификатора запроса:</span><span class="sxs-lookup"><span data-stu-id="fda34-211">Run the following command in Exchange Online PowerShell to view an approval request status for a specific request ID:</span></span>
 
 ```PowerShell
 Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
 ```
 
-<span data-ttu-id="96ee5-212">Пример:</span><span class="sxs-lookup"><span data-stu-id="96ee5-212">Example:</span></span>
+<span data-ttu-id="fda34-212">Пример.</span><span class="sxs-lookup"><span data-stu-id="fda34-212">Example:</span></span>
 
 ```PowerShell
 Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
 ```
 
-### <a name="approving-an-elevation-authorization-request"></a><span data-ttu-id="96ee5-213">Утверждение запроса на повышение прав на авторизацию</span><span class="sxs-lookup"><span data-stu-id="96ee5-213">Approving an elevation authorization request</span></span>
+### <a name="approving-an-elevation-authorization-request"></a><span data-ttu-id="fda34-213">Утверждение запроса на повышение прав на авторизацию</span><span class="sxs-lookup"><span data-stu-id="fda34-213">Approving an elevation authorization request</span></span>
 
-<span data-ttu-id="96ee5-214">При создании запроса на утверждение участники группы "Утверждающие" получают уведомления по электронной почте и могут утверждать запрос, связанный с ИДЕНТИФИКАТОРом запроса.</span><span class="sxs-lookup"><span data-stu-id="96ee5-214">When an approval request is created, members of the relevant approver group receive an email notification and can approve the request associated with the request ID.</span></span> <span data-ttu-id="96ee5-215">Запрашивающий уведомляет об утверждении или отказе от запроса через сообщение электронной почты.</span><span class="sxs-lookup"><span data-stu-id="96ee5-215">The requestor is notified of the request approval or denial via email message.</span></span>
+<span data-ttu-id="fda34-214">При создании запроса на утверждение участники группы "Утверждающие" получают уведомления по электронной почте и могут утверждать запрос, связанный с ИДЕНТИФИКАТОРом запроса.</span><span class="sxs-lookup"><span data-stu-id="fda34-214">When an approval request is created, members of the relevant approver group receive an email notification and can approve the request associated with the request ID.</span></span> <span data-ttu-id="fda34-215">Запрашивающий уведомляет об утверждении или отказе от запроса через сообщение электронной почты.</span><span class="sxs-lookup"><span data-stu-id="fda34-215">The requestor is notified of the request approval or denial via email message.</span></span>
 
-#### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-216">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-216">In the Microsoft 365 admin center</span></span>
+#### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-216">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-216">In the Microsoft 365 admin center</span></span>
 
-1. <span data-ttu-id="96ee5-217">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с вашими учетными данными.</span><span class="sxs-lookup"><span data-stu-id="96ee5-217">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) with your credentials.</span></span>
+1. <span data-ttu-id="fda34-217">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с вашими учетными данными.</span><span class="sxs-lookup"><span data-stu-id="fda34-217">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) with your credentials.</span></span>
 
-2. <span data-ttu-id="96ee5-218">В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-218">In the admin center, go to **Settings** > **Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-218">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-218">In the admin center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-219">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-219">Select **Manage access policies and requests**.</span></span>
+3. <span data-ttu-id="fda34-219">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="fda34-219">Select **Manage access policies and requests**.</span></span>
 
-4. <span data-ttu-id="96ee5-220">Выберите указанный запрос для просмотра сведений и выполнения действий по запросу.</span><span class="sxs-lookup"><span data-stu-id="96ee5-220">Select a listed request to view the details and to take action on the request.</span></span>
+4. <span data-ttu-id="fda34-220">Выберите указанный запрос для просмотра сведений и выполнения действий по запросу.</span><span class="sxs-lookup"><span data-stu-id="fda34-220">Select a listed request to view the details and to take action on the request.</span></span>
 
-5. <span data-ttu-id="96ee5-221">Выберите **утвердить** , чтобы утвердить запрос, или выберите **запретить** , чтобы отклонить запрос.</span><span class="sxs-lookup"><span data-stu-id="96ee5-221">Select **Approve** to approve the request or select **Deny** to deny the request.</span></span> <span data-ttu-id="96ee5-222">Чтобы получить доступ к ранее утвержденным запросам, нажмите кнопку **отозвать**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-222">Previously approved requests can have access revoked by selecting **Revoke**.</span></span>
+5. <span data-ttu-id="fda34-221">Выберите **утвердить** , чтобы утвердить запрос, или выберите **запретить** , чтобы отклонить запрос.</span><span class="sxs-lookup"><span data-stu-id="fda34-221">Select **Approve** to approve the request or select **Deny** to deny the request.</span></span> <span data-ttu-id="fda34-222">Чтобы получить доступ к ранее утвержденным запросам, нажмите кнопку **отозвать**.</span><span class="sxs-lookup"><span data-stu-id="fda34-222">Previously approved requests can have access revoked by selecting **Revoke**.</span></span>
 
-#### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-223">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-223">In Exchange Management PowerShell</span></span>
+#### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-223">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-223">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-224">Чтобы утвердить запрос на повышение прав на авторизацию, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="96ee5-224">To approve an elevation authorization request, run the following command in Exchange Online PowerShell:</span></span>
+<span data-ttu-id="fda34-224">Чтобы утвердить запрос на повышение прав на авторизацию, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fda34-224">To approve an elevation authorization request, run the following command in Exchange Online PowerShell:</span></span>
 
 ```PowerShell
 Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 
-<span data-ttu-id="96ee5-225">Пример:</span><span class="sxs-lookup"><span data-stu-id="96ee5-225">Example:</span></span>
+<span data-ttu-id="fda34-225">Пример.</span><span class="sxs-lookup"><span data-stu-id="fda34-225">Example:</span></span>
 
 ```PowerShell
 Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
 ```
 
-<span data-ttu-id="96ee5-226">Чтобы запретить запрос на повышение прав на авторизацию, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="96ee5-226">To deny an elevation authorization request, run the following command in Exchange Online PowerShell:</span></span>
+<span data-ttu-id="fda34-226">Чтобы запретить запрос на повышение прав на авторизацию, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fda34-226">To deny an elevation authorization request, run the following command in Exchange Online PowerShell:</span></span>
 
 ```PowerShell
 Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
 
-<span data-ttu-id="96ee5-227">Пример:</span><span class="sxs-lookup"><span data-stu-id="96ee5-227">Example:</span></span>
+<span data-ttu-id="fda34-227">Пример.</span><span class="sxs-lookup"><span data-stu-id="fda34-227">Example:</span></span>
 
 ```PowerShell
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
 ```
 
-## <a name="delete-a-privileged-access-policy-in-office-365"></a><span data-ttu-id="96ee5-228">Удаление политики привилегированного доступа в Office 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-228">Delete a privileged access policy in Office 365</span></span>
+## <a name="delete-a-privileged-access-policy-in-office-365"></a><span data-ttu-id="fda34-228">Удаление политики привилегированного доступа в Office 365</span><span class="sxs-lookup"><span data-stu-id="fda34-228">Delete a privileged access policy in Office 365</span></span>
 
-<span data-ttu-id="96ee5-229">Если в вашей организации больше нет необходимости, можно удалить политику привилегированного доступа.</span><span class="sxs-lookup"><span data-stu-id="96ee5-229">If it is no longer needed in your organization, you can delete a privileged access policy.</span></span>
+<span data-ttu-id="fda34-229">Если в вашей организации больше нет необходимости, можно удалить политику привилегированного доступа.</span><span class="sxs-lookup"><span data-stu-id="fda34-229">If it is no longer needed in your organization, you can delete a privileged access policy.</span></span>
 
-### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-230">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-230">In the Microsoft 365 admin center</span></span>
+### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-230">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-230">In the Microsoft 365 admin center</span></span>
 
-1. <span data-ttu-id="96ee5-231">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-231">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
+1. <span data-ttu-id="fda34-231">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-231">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) using credentials for an admin account in your organization.</span></span>
 
-2. <span data-ttu-id="96ee5-232">В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-232">In the admin center, go to **Settings** > **Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-232">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-232">In the admin center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-233">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-233">Select **Manage access policies and requests**.</span></span>
+3. <span data-ttu-id="fda34-233">Выберите **Управление политиками доступа и запросами**.</span><span class="sxs-lookup"><span data-stu-id="fda34-233">Select **Manage access policies and requests**.</span></span>
 
-4. <span data-ttu-id="96ee5-234">Выберите пункт **Настройка политик**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-234">Select **Configure policies**.</span></span>
+4. <span data-ttu-id="fda34-234">Выберите пункт **Настройка политик**.</span><span class="sxs-lookup"><span data-stu-id="fda34-234">Select **Configure policies**.</span></span>
 
-5. <span data-ttu-id="96ee5-235">Выберите политику, которую нужно удалить, а затем нажмите кнопку **удалить политику**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-235">Select the policy you want to delete, then select **Remove Policy**.</span></span>
+5. <span data-ttu-id="fda34-235">Выберите политику, которую нужно удалить, а затем нажмите кнопку **удалить политику**.</span><span class="sxs-lookup"><span data-stu-id="fda34-235">Select the policy you want to delete, then select **Remove Policy**.</span></span>
 
-6. <span data-ttu-id="96ee5-236">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-236">Select **Close**.</span></span>
+6. <span data-ttu-id="fda34-236">Нажмите **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="fda34-236">Select **Close**.</span></span>
 
-### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-237">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-237">In Exchange Management PowerShell</span></span>
+### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-237">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-237">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-238">Чтобы удалить политику привилегированного доступа, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="96ee5-238">To delete a privileged access policy, run the following command in Exchange Online Powershell:</span></span>
+<span data-ttu-id="fda34-238">Чтобы удалить политику привилегированного доступа, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fda34-238">To delete a privileged access policy, run the following command in Exchange Online Powershell:</span></span>
 
 ```PowerShell
 Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you want to delete>
 ```
 
-## <a name="disable-privileged-access-in-office-365"></a><span data-ttu-id="96ee5-239">Отключение привилегированного доступа в Office 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-239">Disable privileged access in Office 365</span></span>
+## <a name="disable-privileged-access-in-office-365"></a><span data-ttu-id="fda34-239">Отключение привилегированного доступа в Office 365</span><span class="sxs-lookup"><span data-stu-id="fda34-239">Disable privileged access in Office 365</span></span>
 
-<span data-ttu-id="96ee5-240">При необходимости вы можете отключить управление привилегированным доступом для своей организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-240">If needed, you can disable privileged access management for your organization.</span></span> <span data-ttu-id="96ee5-241">При отключении привилегированного доступа не удаляются все связанные с ним политики утверждения или группы утверждающих.</span><span class="sxs-lookup"><span data-stu-id="96ee5-241">Disabling privileged access does not delete any associated approval policies or approver groups.</span></span>
+<span data-ttu-id="fda34-240">При необходимости вы можете отключить управление привилегированным доступом для своей организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-240">If needed, you can disable privileged access management for your organization.</span></span> <span data-ttu-id="fda34-241">При отключении привилегированного доступа не удаляются все связанные с ним политики утверждения или группы утверждающих.</span><span class="sxs-lookup"><span data-stu-id="fda34-241">Disabling privileged access does not delete any associated approval policies or approver groups.</span></span>
 
-### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="96ee5-242">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="96ee5-242">In the Microsoft 365 admin center</span></span>
+### <a name="in-the-microsoft-365-admin-center"></a><span data-ttu-id="fda34-242">В центре администрирования Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="fda34-242">In the Microsoft 365 admin center</span></span>
 
-1. <span data-ttu-id="96ee5-243">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя учетные данные для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="96ee5-243">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) with credentials for an admin account in your organization.</span></span>
+1. <span data-ttu-id="fda34-243">Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя учетные данные для учетной записи администратора в Организации.</span><span class="sxs-lookup"><span data-stu-id="fda34-243">Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) with credentials for an admin account in your organization.</span></span>
 
-2. <span data-ttu-id="96ee5-244">В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="96ee5-244">In the Admin Center, go to **Settings** > **Security & Privacy** > **Privileged access**.</span></span>
+2. <span data-ttu-id="fda34-244">В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.</span><span class="sxs-lookup"><span data-stu-id="fda34-244">In the Admin Center, go to **Settings** > **Org Settings** > **Security & Privacy** > **Privileged access**.</span></span>
 
-3. <span data-ttu-id="96ee5-245">Включите разрешение " **требовать утверждения для контроля привилегированного доступа** ".</span><span class="sxs-lookup"><span data-stu-id="96ee5-245">Enable the **Require approvals for privileged access** control.</span></span>
+3. <span data-ttu-id="fda34-245">Включите разрешение " **требовать утверждения для контроля привилегированного доступа** ".</span><span class="sxs-lookup"><span data-stu-id="fda34-245">Enable the **Require approvals for privileged access** control.</span></span>
 
-### <a name="in-exchange-management-powershell"></a><span data-ttu-id="96ee5-246">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="96ee5-246">In Exchange Management PowerShell</span></span>
+### <a name="in-exchange-management-powershell"></a><span data-ttu-id="fda34-246">В PowerShell для управления Exchange</span><span class="sxs-lookup"><span data-stu-id="fda34-246">In Exchange Management PowerShell</span></span>
 
-<span data-ttu-id="96ee5-247">Чтобы отключить привилегированный доступ, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="96ee5-247">To disable privileged access, run the following command in Exchange Online Powershell:</span></span>
+<span data-ttu-id="fda34-247">Чтобы отключить привилегированный доступ, выполните следующую команду в Exchange Online PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fda34-247">To disable privileged access, run the following command in Exchange Online Powershell:</span></span>
 
 ```PowerShell
 Disable-ElevatedAccessControl
