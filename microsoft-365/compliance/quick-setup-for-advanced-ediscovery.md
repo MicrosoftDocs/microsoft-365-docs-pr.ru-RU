@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
-description: 'Сведения о том, как получать доступ к Advanced eDiscovery из Центра безопасности и соответствия требованиям и просматривать типичный рабочий процесс для использования Advanced eDiscovery.  '
-ms.openlocfilehash: b824183c88e4bbf300c2e07c9e8802dfb704aadf
-ms.sourcegitcommit: 5c96d06496d40d2523edbea336f7355c3c77cc80
+description: Сведения о том, как получать доступ к Advanced eDiscovery из Центра безопасности и соответствия требованиям и просматривать типичный рабочий процесс для использования Advanced eDiscovery.
+ms.openlocfilehash: 5bd183f0f5f1c2f091fb374aab1e54f191665ce6
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412838"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936262"
 ---
 # <a name="quick-setup-advanced-ediscovery-classic"></a>Быстрая настройка Advanced eDiscovery (классическая версия)
 
@@ -32,7 +32,7 @@ ms.locfileid: "44412838"
   
 ## <a name="accessing-a-case-in-advanced-ediscovery"></a>Получение доступа к делу в Advanced eDiscovery
 
-Доступ к Advanced eDiscovery можно получить в Центре безопасности и соответствия требованиям Office 365. Но нужно быть участником дела обнаружения электронных данных в Центре безопасности и соответствия требованиям, чтобы получить доступ к этому делу в Advanced eDiscovery. Сведения о предоставлении разрешений в отношении дела обнаружения электронных данных и добавлении пользователей для такого дела см. в статье [Управление делами обнаружения электронных данных в Office 365](ediscovery-cases.md). 
+You access Advanced eDiscovery from the Security &amp; Compliance Center. You have to be a member of an eDiscovery case in the Security &amp; Compliance Center to access the case in Advanced eDiscovery. For instructions about assigning eDiscovery case permissions and adding users to an eDiscovery case, see [Manage eDiscovery cases in Office 365](ediscovery-cases.md). 
   
 Чтобы перейти к делу в Advanced eDiscovery: 
   
@@ -44,7 +44,7 @@ ms.locfileid: "44412838"
     
 4. На странице **Главная** для этого дела выберите **Перейти на Advanced eDiscovery**.
     
-    Отобразится индикатор выполнения **Подключение к Advanced eDiscovery**. После подключения дело откроется в Advanced eDiscovery. 
+    The **Connecting to Advanced eDiscovery** progress bar is displayed. When you're connected, the case is opened in Advanced eDiscovery. 
     
 ## <a name="workflow"></a>Рабочий процесс
 
@@ -52,15 +52,15 @@ ms.locfileid: "44412838"
   
 ![На схеме показан рабочий процесс Advanced eDiscovery, состоящий из четырех этапов (настройки пользователей и дел, определения данных дела, экспорта и обработки), а также этапов анализа и экспорта на локальный компьютер.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   
-Этот раздел о настройках содержит сведения о первых четырех этапах рабочего процесса. Описание других этапов см. далее.
+This setup section describes the first four steps in the workflow. For a description of the other steps in the workflow, see the following.
   
 ## <a name="analyze"></a>Анализ
 
-[Анализ данных дела](analyze-case-data-with-advanced-ediscovery.md) идентифицирует и упорядочивает файлы по различным параметрам, обеспечивает использование категории "Темы", отображает результаты. Для получения улучшенных результатов можно настроить функциональность анализа с учетом пользователя. 
+[Analyzing case data](analyze-case-data-with-advanced-ediscovery.md) Identifies and organizes the files by various parameters, enables the use of Themes, and displays the results. Analyze functionality can be customized by the user in order to achieve enhanced results. 
   
 ## <a name="relevance-setup-and-relevance"></a>Настройка релевантности и модуль релевантности
 
-[Настройка релевантности](manage-relevance-setup-in-advanced-ediscovery.md) и [Использование модуля релевантности](use-relevance-in-advanced-ediscovery.md) обеспечивают оценку и обучение релевантности на основе случайной выборки файлов и используют их для реализации решений в процессе прогнозирующего кодирования. Вычисляют и отображают промежуточные результаты, отслеживая статистическую достоверность процесса. Отображают результаты для помощи в принятии решений при просмотре. 
+[Relevance Setup](manage-relevance-setup-in-advanced-ediscovery.md) and [Using the Relevance module](use-relevance-in-advanced-ediscovery.md) Enables assessment and relevance training based on a random sample of files and uses them to apply decisions to the predictive coding process. Calculates and displays interim results while monitoring statistical validity of the process. Displays the results to facilitate in making review decisions. 
   
 ## <a name="export"></a>Экспорт
 
