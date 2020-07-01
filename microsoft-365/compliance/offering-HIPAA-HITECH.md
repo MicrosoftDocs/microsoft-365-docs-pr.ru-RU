@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 47343d3e4ae3224556cc22874687da4bea864e8a
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: 825d8bac0d20534310864801b1d8eaef32c9b417
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773720"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936354"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Переносимость и отчетность по страхованию страхования (HIPAA) & HITECH
 
@@ -59,7 +59,7 @@ ms.locfileid: "44773720"
 - Microsoft Stream
 - Профессиональные услуги Майкрософт: Premier и локальная поддержка для Azure, Dynamics 365, Intune, а также для среднего бизнеса и корпоративных клиентов с Microsoft 365 для бизнеса
 - [Dynamics 365 и Dynamics 365 для государственных организаций США](https://aka.ms/d365-compliance-list)
-- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Intune
 - [Office 365, Office 365 для государственных организаций США и Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
@@ -98,7 +98,7 @@ ms.locfileid: "44773720"
 
 Чтобы помочь клиентам в этой задаче, корпорация Майкрософт опубликовала следующие руководства:
 
-- *Рекомендации по реализации ACT/HiTech ACT* для [Azure](https://aka.ms/azurehipaaguidance) и [Dynamics 365 и Office 365](https://go.microsoft.com/fwlink/?LinkID=257510). Написанный для сотрудников о конфиденциальности, безопасности и соблюдении требований, а также других ответственных за реализацию ACT для HIPAA и HITECH, они описывают конкретные действия, которые может предпринять Организация для обеспечения соответствия требованиям.
+- *Рекомендации по реализации ACT/HiTech ACT* для [Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/) и [Dynamics 365 и Office 365](https://go.microsoft.com/fwlink/?LinkID=257510). Написанный для сотрудников о конфиденциальности, безопасности и соблюдении требований, а также других ответственных за реализацию ACT для HIPAA и HITECH, они описывают конкретные действия, которые может предпринять Организация для обеспечения соответствия требованиям.
 - [Практическое руководство по проектированию безопасных решений с использованием Microsoft Azure](https://aka.ms/azureindustrysecurity) помогает лучше понять, что необходимо для успешного внедрения облачной службы в безопасном режиме.
 - Решение [требований к безопасности и конфиденциальности HIPAA в Microsoft Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) предоставляет краткий обзор требований к регулированию. Кроме того, он предоставляет подробные сведения о том, как облачные службы Майкрософт были построены с помощью методологий, соответствующих этим требованиям, и рекомендации по созданию решений, готовых к соответствию требованиям.
 

@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
-description: 'Узнайте, как настроить дополнительные параметры, включая почти повторяющиеся, почтовые потоки и темы для процесса анализа в Advanced eDiscovery. '
+description: Узнайте, как настроить дополнительные параметры, включая почти повторяющиеся, почтовые потоки и темы для процесса анализа в Advanced eDiscovery.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b596ffa4061909ccb5c149553ac8fac169b7fd77
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 39d99609cfff92dcd6e6d2f4483076b8bfe808be
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819239"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936756"
 ---
 # <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>Настройка дополнительных параметров для расширенного обнаружения электронных данных
 
@@ -47,7 +47,7 @@ Advanced eDiscovery предоставляет расширенные парам
     
 4. Нажмите кнопку **Сохранить**. 
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

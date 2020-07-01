@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
-description: 'Сведения о модуле релевантности в Advanced eDiscovery, в том числе о рабочем процессе и рекомендациях и рекомендациях по обучению и проверке файлов.  '
-ms.openlocfilehash: 9fa588a139c992c8f67c99c8e02ff4a8540694b1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Сведения о модуле релевантности в Advanced eDiscovery, в том числе о рабочем процессе и рекомендациях и рекомендациях по обучению и проверке файлов.
+ms.openlocfilehash: 8d5cbfff2b205ba785cda269bb09560b2a813f3c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626395"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936612"
 ---
 # <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>Использование модуля релевантности в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 В Advanced eDiscovery модуль релевантности включает обучение релевантности и обзор файлов, связанных с обращением. Рабочий процесс релевантности отображается и описывается следующим образом:
   
@@ -90,7 +90,7 @@ ms.locfileid: "43626395"
     
 ## <a name="steps-in-relevance-training"></a>Этапы обучения
 
-На вкладке **Отслеживание \> релевантности** Расширенное обнаружение электронных данных содержит рекомендации относительно того, как продолжить обработку, со следующими действиями. Эти следствия описаны ниже, когда рекомендуется выполнить каждое из следующих действий в процессе обучения релевантности. 
+На вкладке ** \> Отслеживание релевантности** Расширенное обнаружение электронных данных содержит рекомендации относительно того, как продолжить обработку, со следующими действиями. Эти следствия описаны ниже, когда рекомендуется выполнить каждое из следующих действий в процессе обучения релевантности. 
   
 - Маркировка и продолжение маркировки: Проверка файлов и маркировка релевантности, выполненные экспертом для каждого файла и выпуска в рамках примера.
     

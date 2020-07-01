@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: В этой статье представлены дополнительные сведения о том, как использовать и настраивать управление привилегированным доступом в Office 365.
-ms.openlocfilehash: cbb38c2edff0c85e24855e3f6a1613ad8a92043e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 4bae6d311b3447534165ee803d7094e5797a9b1c
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44036424"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936324"
 ---
 # <a name="get-started-with-privileged-access-management"></a>Начало работы с управлением привилегированным доступом
 
@@ -81,7 +81,7 @@ ms.locfileid: "44036424"
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.
 
-2. В центре администрирования последовательно выберите пункты **группы** > **Добавить группу**.
+2. В центре администрирования последовательно выберите пункты **группы**  >  **Добавить группу**.
 
 3. Выберите пункт **Группа безопасности с включенной поддержкой почты** и заполните поля **имя**, **адрес электронной почты группы**и **Описание** для новой группы.
 
@@ -99,7 +99,7 @@ ms.locfileid: "44036424"
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.
 
-2. В центре администрирования перейдите к разделу **Параметры > параметры > безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Включите элемент управления " **требовать утверждения для привилегированных задач** ".
 
@@ -115,7 +115,7 @@ ms.locfileid: "44036424"
 Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
 
-Пример:
+Пример.
 
 ```PowerShell
 Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
@@ -134,7 +134,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -162,7 +162,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
 
-Пример:
+Пример.
 
 ```PowerShell
 New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
@@ -180,7 +180,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя свои учетные данные.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -206,7 +206,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
 
-Пример:
+Пример.
 
 ```PowerShell
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
@@ -220,7 +220,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с вашими учетными данными.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -234,7 +234,7 @@ New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting t
 Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
 ```
 
-Пример:
+Пример.
 
 ```PowerShell
 Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
@@ -248,7 +248,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с вашими учетными данными.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -264,7 +264,7 @@ Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | selec
 Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 
-Пример:
+Пример.
 
 ```PowerShell
 Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
@@ -276,7 +276,7 @@ Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -C
 Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
 
-Пример:
+Пример.
 
 ```PowerShell
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
@@ -290,7 +290,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) с помощью учетных данных для учетной записи администратора в Организации.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Выберите **Управление политиками доступа и запросами**.
 
@@ -298,7 +298,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 5. Выберите политику, которую нужно удалить, а затем нажмите кнопку **удалить политику**.
 
-6. Нажмите кнопку **Закрыть**.
+6. Нажмите **Закрыть**.
 
 ### <a name="in-exchange-management-powershell"></a>В PowerShell для управления Exchange
 
@@ -316,7 +316,7 @@ Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you w
 
 1. Войдите в [центр администрирования Microsoft 365](https://admin.microsoft.com) , используя учетные данные для учетной записи администратора в Организации.
 
-2. В центре администрирования **перейдите к** > разделу**Безопасность &** > безопасность с**правами на доступ к данным**.
+2. В центре администрирования **перейдите к разделу Параметры настройки**параметров  >  **Организации**  >  **Безопасность & заявлением о конфиденциальности**с  >  **правами на доступ к данным**.
 
 3. Включите разрешение " **требовать утверждения для контроля привилегированного доступа** ".
 

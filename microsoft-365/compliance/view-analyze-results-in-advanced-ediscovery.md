@@ -15,24 +15,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
-description: 'Сведения о том, как просматривать результаты анализа в Advanced eDiscovery, в том числе определения отображаемых параметров задачи.  '
-ms.openlocfilehash: 09bb682e753730a4c01581e71f05b5b8ef3d4779
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Сведения о том, как просматривать результаты анализа в Advanced eDiscovery, в том числе определения отображаемых параметров задачи.
+ms.openlocfilehash: 24a4b0685ec5dc82aff0b1f0de81080a62e49776
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626365"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936952"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Просмотр результатов анализа в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Во время расширенного обнаружения электронных данных результаты и результаты для процесса анализа можно просматривать в различных экранах, как описано ниже.
   
 ## <a name="view-analyze-task-status"></a>Просмотр состояния задачи анализа
 
-**Состояние задачи \> подготовить \> анализ \> результатов**позволяет отобразить состояние, которое отображается во время и после анализа выполнения процесса. 
+** \> \> \> Состояние задачи подготовить анализ результатов**позволяет отобразить состояние, которое отображается во время и после анализа выполнения процесса. 
   
 ![Состояние задачи анализа](../media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
   

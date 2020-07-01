@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Узнайте о новых возможностях, которые были обновлены в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3bba8d0bbd68c6d28d72bcf32abdc798d7125250
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b3305a2d6fe2d25730b6d39891723675e7243f50
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818969"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936152"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 
@@ -112,7 +112,7 @@ ms.locfileid: "44818969"
 [Использование меток конфиденциальности для защиты контента в Microsoft Teams, microsoft 365 Groups и сайтов SharePoint (общедоступная Предварительная версия)](sensitivity-labels-teams-groups-sites.md) (обновление)<br>К таким изменениям относятся:
 
 - Удалены инструкции Azure AD, а также связанные с ними [достоверные сведения Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
-- В этой статье [описано, как настроить параметры сайтов и групп при создании или редактировании меток учета](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings-when-you-create-or-edit-sensitivity-labels) конфиденциальности со сведениями о конфиденциальности для параметра "сайты групп с **подключением Office 365** ", который включает параметр "новый вариант **отсутствия** ".
+- Обновлен раздел " [Настройка сайтов и групп](sensitivity-labels-teams-groups-sites.md#how-to-configure-site-and-group-settings) " со сведениями о конфиденциальности параметров **сайтов, подключенных к группам Office 365** , в том числе параметр New **None (нет** ).
 - Добавлена заметка, в которой описывается, как будут доступны только метки с параметрами сайта и группы, которые будут доступны для выбора при создании пользователями групп, групп и сайтов. Эта возможность постепенно развертывается в организациях.
 
 [Ограничение доступа к содержимому с помощью меток конфиденциальности для применения шифрования](encryption-sensitivity-labels.md) (Обновлено)<br>[Новый раздел](encryption-sensitivity-labels.md#example-configurations-for-the-encryption-settings) с примерами параметров шифрования для некоторых наиболее часто используемых конфигураций для защиты документов и сообщений электронной почты.

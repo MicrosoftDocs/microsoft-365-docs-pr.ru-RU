@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
-description: 'Ознакомьтесь с рекомендациями по подготовке файлов дел для анализа с помощью расширенного обнаружения электронных данных.  '
-ms.openlocfilehash: c0c0b8c3477f8c3fdbe0437659a88f14fbcad1cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Ознакомьтесь с рекомендациями по подготовке файлов дел для анализа с помощью расширенного обнаружения электронных данных.
+ms.openlocfilehash: 5130bea7da8922fd7e98d07696ffde3930d2ce41
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626465"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936202"
 ---
 # <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>Запуск модуля процесса в Advanced eDiscovery (классический)
 
 Файлы Case загружаются в Расширенное обнаружение электронных данных при **подготовке** \> **процесса**подготовки. 
   
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="guidelines-preparing-data-for-advanced-ediscovery"></a>Рекомендации: подготовка данных для расширенного обнаружения электронных данных
 
@@ -42,7 +42,7 @@ ms.locfileid: "43626465"
     
 - **Тип и имя файла**:
     
-  - Расширенные функции обнаружения электронных данных могут обрабатывать файлы различных форматов и извлекать файлы, загруженные из машинного \*кода, в стандартный формат, например. TXT, HTML или. Язык. Обработка текстовых файлов выполняется быстрее, чем у собственных файлов. Извлеченные текстовые файлы хранятся в папке "Case".
+  - Расширенные функции обнаружения электронных данных могут обрабатывать файлы различных форматов и извлекать файлы, загруженные из машинного кода, в стандартный формат, например \* . TXT, HTML или. Язык. Обработка текстовых файлов выполняется быстрее, чем у собственных файлов. Извлеченные текстовые файлы хранятся в папке "Case".
     
   - Не загружайте файлы, которые не удается извлечь, например системные файлы или графические изображения. Эти файлы могут отложить обработку.
     

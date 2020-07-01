@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
-description: 'Узнайте, как найти результаты работы модуля процесса в Advanced eDiscovery, в том числе состояние задачи и сводка по процессу.  '
-ms.openlocfilehash: b7b88ed291236330c87c96d24fa6f1c22fb3d773
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Узнайте, как найти результаты работы модуля процесса в Advanced eDiscovery, в том числе состояние задачи и сводка по процессу.
+ms.openlocfilehash: 26ef87c762fc5c77f2374978bf4a425940dd5f37
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626315"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936172"
 ---
 # <a name="view-process-module-results-in-advanced-ediscovery-classic"></a>Просмотр модуля обработки результатов в Advanced eDiscovery (классический)
 
-После запуска **процесса** **подготовки** \> можно просмотреть ход выполнения и результаты. 
+После **Prepare** \> запуска **процесса** подготовки можно просмотреть ход выполнения и результаты. 
   
 > [!NOTE]
-> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 ## <a name="process-task-status"></a>Состояние задачи процесса
 
@@ -64,7 +64,7 @@ ms.locfileid: "43626315"
   
 ## <a name="process-summary"></a>Сводка по процессу
 
-В сводке \> по \> процессу \> подготовки результатов процесса подразделение результатов загруженных файлов отображается в соответствии с успешными обработкой файлов и результатами ошибок.
+В \> \> \> сводке по процессу подготовки результатов процесса подразделение результатов загруженных файлов отображается в соответствии с успешными обработкой файлов и результатами ошибок.
   
 В областях отображается графическое представление статистики импортированных файлов, как показано ниже.
   
@@ -104,7 +104,7 @@ ms.locfileid: "43626315"
     
 ## <a name="last-process-errors"></a>Ошибки последней обработки
 
-В процессе \> подготовки \> процесса \> отображаются ошибки последней обработки, сведения об ошибках в последнем сеансе или выполненных действиях.
+В \> процессе подготовки \> процесса \> отображаются ошибки последней обработки, сведения об ошибках в последнем сеансе или выполненных действиях.
   
 ![Ошибки модуля обработки](../media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
   

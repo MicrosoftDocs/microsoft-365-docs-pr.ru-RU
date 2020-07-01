@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Определите, отвечает ли клиент и пользователи требованиям, чтобы можно было использовать централизованное развертывание для развертывания надстроек Office.
-ms.openlocfilehash: 4b9ca7213f36440114d39ef491fe934f13ca96ea
-ms.sourcegitcommit: f80c6c52e5b08290f74baec1d64c4070046c32e4
+ms.openlocfilehash: 4ad2f504c26fcc1f01c958bebf448718500a95b7
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44717277"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936447"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>Определение работы централизованного развертывания надстроек для вашей организации
 
@@ -40,16 +40,12 @@ ms.locfileid: "44717277"
 
 Централизованное развертывание не поддерживает:
   
-- надстройки, ориентированные на Word, Excel или PowerPoint в Office 2013;
-    
+- надстройки, ориентированные на Word, Excel или PowerPoint в Office 2013; 
 - локальную службу каталогов;
-    
+- Развертывание надстроек в локальный почтовый ящик Exchange
 - развертывание надстроек для SharePoint;  
-
 - Приложения Teams
-   
 - развертывание надстроек для модели COM или набора средств Visual Studio для системы Office (VSTO).
-    
 - Развертывания Microsoft 365, которые не включают Exchange, такие как приложения Microsoft 365 для бизнеса
 
 ### <a name="office-requirements"></a>Требования к Office

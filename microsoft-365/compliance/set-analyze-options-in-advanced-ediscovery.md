@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
-description: 'Изучите действия по настройке параметров для процесса анализа в Advanced eDiscovery, включая почти повторяющиеся, почтовые потоки и темы.  '
+description: Изучите действия по настройке параметров для процесса анализа в Advanced eDiscovery, включая почти повторяющиеся, почтовые потоки и темы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 091eb75bea0312e5a06cc60ca915612efc820e6e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: d622e06cdfe9a46f470be46d1a5b9df98347cc0a
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819229"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936886"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>Настройка параметров анализа в Advanced eDiscovery (классический)
 
@@ -77,7 +77,7 @@ ms.locfileid: "44819229"
   
 После настройки этих параметров нажмите кнопку **анализ** для запуска. Отображаются [результаты анализа просмотра](view-analyze-results-in-advanced-ediscovery.md) . 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   

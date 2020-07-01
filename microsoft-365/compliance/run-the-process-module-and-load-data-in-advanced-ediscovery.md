@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: 'Узнайте, как использовать &amp; центр соответствия требованиям безопасности для доступа к расширенному eDiscovery и запуска модуля Process для обращения.  '
+description: Узнайте, как использовать &amp; центр соответствия требованиям безопасности для доступа к расширенному eDiscovery и запуска модуля Process для обращения.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47614e8bc25a376f9b51068c151a71e025e2f264
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 011a8448c36ac9f4726f13471c548b7bb2427000
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818908"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936162"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>Запуск модуля процесса и загрузка данных в Advanced eDiscovery (классический)
 
@@ -82,7 +82,7 @@ ms.locfileid: "44818908"
     
 Если вы добавляете к этому случаю, вы можете обработать его еще раз.
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 
 [Advanced eDiscovery (классическая версия)](office-365-advanced-ediscovery.md)
   
