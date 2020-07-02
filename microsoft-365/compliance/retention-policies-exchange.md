@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о действиях хранения, применяемых специально к почте Exchange и общедоступным папкам Exchange.
-ms.openlocfilehash: e19e790c23c5e61748f38fb22f96d2347acb144e
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 2ecf709c8b2bdd166cd64024ef332a2e0b26b7be
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874887"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45016282"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Сведения о политиках хранения для Exchange
 
@@ -70,13 +70,13 @@ ms.locfileid: "44874887"
 
 ## <a name="excluding-specific-types-of-exchange-items-from-a-retention-policy"></a>Исключение определенных типов элементов Exchange из политики хранения
 
-С помощью PowerShell можно исключить определенные типы элементов Exchange из политики хранения. Например, вы можете исключить сообщения голосовой почты, мгновенные сообщения, а также другой контент Skype для бизнеса Online в почтовых ящиках. Кроме того, можно исключить календарь, заметки и задачи. Эта возможность доступна только через PowerShell, а не при создании политики хранения с помощью мастера в Центре соответствия требованиям Microsoft 365.
+С помощью PowerShell можно исключить определенные типы элементов Exchange из политики хранения, когда установленные параметры хранения предусматривают только хранение. Например, вы можете исключить сообщения голосовой почты, мгновенные сообщения, а также другой контент Skype для бизнеса Online в почтовых ящиках. Кроме того, можно исключить календарь, заметки и задачи. Эта возможность доступна только через PowerShell, а не при создании политики хранения с помощью мастера в Центре соответствия требованиям Microsoft 365.
   
 Чтобы исключить выбранные типы для элементов Exchange в политике хранения, используйте параметр `ExcludedItemClasses` с командлетами [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) и [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule).
 
 Чтобы использовать командлеты политик хранения, сначала требуется [подключиться к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
 
-### <a name="when-a-user-leaves-the-organization"></a>Когда пользователь покидает организацию 
+## <a name="when-a-user-leaves-the-organization"></a>Когда пользователь покидает организацию 
 
 Если пользователь покидает вашу организацию, а почтовый ящик пользователя включается в политику хранения, почтовый ящик становится неактивным почтовым ящиком при удалении учетной записи пользователя Microsoft 365. Содержимое неактивного почтового ящика по-прежнему подчиняется любой политике хранения, которая была помещена в почтовый ящик до того, как он стал неактивным, и содержимое доступно для поиска eDiscovery. Дополнительные сведения см. В разделе [Неактивные почтовые ящики в Exchange Online](inactive-mailboxes-in-office-365.md). 
 

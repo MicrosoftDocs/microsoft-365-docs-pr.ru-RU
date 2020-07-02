@@ -1,5 +1,5 @@
 ---
-title: Этап 4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
+title: Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 f1.keywords:
 - NOCSH
 author: JoeDavies-MSFT
@@ -17,14 +17,14 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: 1c621ae797f32cd5b98af4c1eb7a341d0f976938
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 274780d2b9ea4310eb2cd8c9114bb61c326d33fe
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560451"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005966"
 ---
-# <a name="step-4-deploy-remote-worker-productivity-apps-and-services"></a>Этап 4. Развертывание служб и приложений для повышения производительности удаленных сотрудников
+# <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
 Для эффективной работы людям требуется общаться и взаимодействовать друг с другом. Им нужно проводить собрания, общаться в голосовых и текстовых чатах, создавать новые материалы и делиться данными и файлами, обмениваться письмами, а также управлять календарем и задачами. Microsoft 365 предоставляет облачные службы для всех этих основных функций:
 
@@ -90,9 +90,9 @@ Teams предоставляет платформу для приложений 
 
 ## <a name="user-training-resources-for-productivity-apps-and-services"></a>Ресурсы для обучения пользователей работе с приложениями и службами повышения производительности
 
-- [Обучение пользователей работе с Office и Office 365](https://support.office.com/article/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c2)
+- [Обучение пользователей работе с Office и Microsoft 365](https://support.microsoft.com/office/train-your-users-on-office-and-microsoft-365-7cba3c97-7f19-46ed-a1c6-763971a26c27)
 - [Использование Office в Интернете](https://support.microsoft.com/office/get-started-with-office-for-the-web-in-microsoft-365-5622c7c9-721d-4b3d-8cb9-a7276c2470e5)
 
-## <a name="next-step"></a>Следующий этап
+## <a name="next-step"></a>Следующий шаг
 
-Перейдите к [этапу 5](empower-people-to-work-remotely-communication-venues.md), чтобы создать дополнительные информационные разделы, предназначенные для удаленных сотрудников.
+Перейдите на [этап 6](empower-people-to-work-remotely-train-monitor-usage.md), чтобы приступить к подготовке пользователей и отслеживанию освоения ими материала.
