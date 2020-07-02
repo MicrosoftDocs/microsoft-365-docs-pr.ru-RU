@@ -159,6 +159,8 @@
       href: office-365-service-encryption.md
     - name: Технические сведения о шифровании в Office 365
       href: technical-reference-details-about-encryption.md
+    - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365
+      href: tls-1.0-and-1.1-deprecation-for-office-365.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -249,10 +251,14 @@
       items:
         - name: Обзор архивации сторонних данных
           href: archiving-third-party-data.md
+        - name: Архивация данных Bloomberg Message (предварительная версия)
+          href: archive-bloomberg-message-data.md
         - name: Архивация данных Facebook (предварительная версия)
           href: archive-facebook-data-with-sample-connector.md
         - name: Импорт данных отдела кадров (предварительная версия)
           href: import-hr-data.md
+        - name: Архивация данных ICE Chat (предварительная версия)
+          href: archive-icechat-data.md
         - name: Архивация данных Instant Bloomberg
           href: archive-instant-bloomberg-data.md
         - name: Архивация данных LinkedIn

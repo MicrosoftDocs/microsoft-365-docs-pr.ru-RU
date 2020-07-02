@@ -18,26 +18,26 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как обновить запись службы доменных имен (DNS), чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365.
-ms.openlocfilehash: 6061cd9ea52f4ed4073f510dcba60fba9b4fd23c
-ms.sourcegitcommit: 2de6e07ec55d78a5c5cf2f45732ae68acf058bcf
+ms.openlocfilehash: 93356799967932813252e7db27e7ac796e46cbc6
+ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44588080"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44936941"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>Настройка SPF для предотвращения спуфинга
 
- **Сводка.** В этой статье описано, как обновить запись DNS, чтобы использовать инфраструктуру политики отправителей (SPF) с личным доменом в Office 365. С помощью инфраструктуры политики отправителей можно проверять почту, отправляемую из личного домена.
+ **Summary:** This article describes how to update a Domain Name Service (DNS) record so that you can use Sender Policy Framework (SPF) with your custom domain in Office 365. Using SPF helps to validate outbound email sent from your custom domain.
 
-Чтобы использовать личный домен в Office 365, в запись DNS необходимо добавить запись SPF TXT для предотвращения спуфинга. Инфраструктура политики отправителей определяет, каким почтовым серверам разрешается отправлять сообщения от вашего имени. Инфраструктура политики отправителей, а также DKIM, DMARC и другие технологии, поддерживаемые Office 365, помогают предотвратить спуфинг и фишинг. Инфраструктура политики отправителей добавляется в виде записи TXT, которую служба DNS использует, чтобы определить, какие почтовые серверы могут отправлять сообщения от имени вашего личного домена. Почтовые системы получателей могут просматривать записи SPF TXT, чтобы определить, было ли сообщение из вашего личного домена отправлено с уполномоченного сервера обмена сообщениями.
+In order to use a custom domain, Office 365 requires that you add a Sender Policy Framework (SPF) TXT record to your DNS record to help prevent spoofing. SPF identifies which mail servers are allowed to send mail on your behalf. Basically, SPF, along with DKIM, DMARC, and other technologies supported by Office 365, help prevent spoofing and phishing. SPF is added as a TXT record that is used by DNS to identify which mail servers can send mail on behalf of your custom domain. Recipient mail systems refer to the SPF TXT record to determine whether a message from your custom domain comes from an authorized messaging server.
 
-Допустим, ваш личный домен contoso.com использует Office 365. Мы добавим запись SPF TXT, в которой перечислены серверы обмена сообщениями Office 365, разрешенные для домена. Когда сервер получателя получает сообщение от joe@contoso.com, сервер находит запись SPF TXT для домена contoso.com и определяет, является ли сообщение допустимым. Если сервер получателя определит, что сообщение отправлено с сервера, не указанного в списке серверов обмена сообщениями Office 365 в записи SPF, то сервер получателя может отклонить сообщение как спам.
+For example, let's say that your custom domain contoso.com uses Office 365. You add an SPF TXT record that lists the Office 365 messaging servers as legitimate mail servers for your domain. When the receiving messaging server gets a message from joe@contoso.com, the server looks up the SPF TXT record for contoso.com and finds out whether the message is valid. If the receiving server finds out that the message comes from a server other than the Office 365 messaging servers listed in the SPF record, the receiving mail server can choose to reject the message as spam.
 
-Кроме того, если на вашем личном домене отсутствует запись SPF TXT, некоторые серверы получателей могут сразу отклонить сообщение. Это вызвано тем, что сервер получателя не может проверить, отправлено ли сообщение с уполномоченного сервера обмена сообщениями.
+Also, if your custom domain does not have an SPF TXT record, some receiving servers may reject the message outright. This is because the receiving server cannot validate that the message comes from an authorized messaging server.
 
-Если для Office 365 уже настроена почта, то серверы обмена сообщениями Майкрософт уже включены в службу DNS в виде записи SPF TXT. Но в некоторых случаях может потребоваться обновить запись SPF TXT в службе DNS. Например:
+If you've already set up mail for Office 365, then you have already included Microsoft's messaging servers in DNS as an SPF TXT record. However, there are some cases where you may need to update your SPF TXT record in DNS. For example:
 
-- Раньше, если вы использовали SharePoint Online, в личный домен нужно было добавить другую запись SPF TXT. Этого больше не требуется. Это изменение необходимо для того, чтобы уведомления SharePoint Online не попадали в папку нежелательной почты. Обновите запись SPF TXT, если достигнут предел в 10 запросов и возникают ошибки с сообщениями вроде "превышен предел запросов" и "слишком много прыжков".
+- Previously, you had to add a different SPF TXT record to your custom domain if you were using SharePoint Online. This is no longer required. This change should reduce the risk of SharePoint Online notification messages ending up in the Junk Email folder. Update your SPF TXT record if you are hitting the 10 lookup limit and receiving errors that say things like, "exceeded the lookup limit" and "too many hops".
 
 - Используется гибридная среда с Office 365 и локальной службой Exchange.
 
@@ -45,31 +45,31 @@ ms.locfileid: "44588080"
 
 ## <a name="updating-your-spf-txt-record-for-office-365"></a>Обновление записи SPF TXT для Office 365
 
-Прежде чем обновлять запись TXT в службе DNS, необходимо собрать некоторые сведения и определить формат записи. Это поможет избежать ошибок DNS. Расширенные примеры и подробное обсуждение поддерживаемых команд для инфраструктуры политики отправителей см. в разделе [Как инфраструктура политики отправителей помогает предотвратить спуфинг и фишинг в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks).
+Before you update the TXT record in DNS, you need to gather some information and determine the format of the record. This will help prevent you from generating DNS errors. For advanced examples and a more detailed discussion about supported SPF syntax, see [How SPF works to prevent spoofing and phishing in Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks).
 
 Подготовьте указанные ниже данные.
 
-- Текущая запись SPF TXT для личного домена. Сведения о том, как это сделать, см. в статье [Сбор необходимых сведений для создания записей DNS в Office 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records).
+- The current SPF TXT record for your custom domain. For instructions, see [Gather the information you need to create Office 365 DNS records](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/information-for-dns-records).
 
-- Внешние IP-адреса всех локальных серверов обмена сообщениями. Пример: **131.107.2.200**.
+- External IP addresses of all on-premises messaging servers. For example, **131.107.2.200**.
 
-- Доменные имена, используемые для всех сторонних доменов, которые требуется включить в запись SPF TXT. Некоторые поставщики массовых рассылок настраивают поддомены для своих клиентов. Например, компания MailChimp создала поддомен **servers.mcsv.net**.
+- Domain names to use for all third-party domains that you need to include in your SPF TXT record. Some bulk mail providers have set up subdomains to use for their customers. For example, the company MailChimp has set up **servers.mcsv.net**.
 
-- Определите, какое правило принудительного применения следует использовать для записи SPF TXT. Рекомендуется использовать правило **-all**. Подробные сведения о других вариантах команд см. в разделе [Синтаксис записи SPF TXT для Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFSyntaxO365).
+- Determine what enforcement rule you want to use for your SPF TXT record. We recommend **-all**. For detailed information about other syntax options, see [SPF TXT record syntax for Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFSyntaxO365).
 
 ### <a name="to-add-or-update-your-spf-txt-record"></a>Добавление и обновление записи типа TXT инфраструктуры политики отправителей
 
-1. Убедитесь, что вы знакомы с синтаксисом SFP из следующей таблицы.
+1. Убедитесь, что вы знакомы с синтаксисом SPF из следующей таблицы.
 
    ||**Используемая система**|**Распространенная у клиентов?**|**Добавляемый параметр**|
    |:-----|:-----|:-----|:-----|
-   |1|Любая почтовая система (обязательно)|Распространенная. Все записи SPF TXT начинаются с этого значения|v=spf1|
+   |1|Любая почтовая система (обязательно)|Common. All SPF TXT records start with this value|v=spf1|
    |2|Exchange Online|Распространенная|include:spf.protection.outlook.com|
    |3|Только для Exchange Online|Нераспространенная|ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com|
    |4|Office 365 Germany, только Microsoft Cloud Germany|Нераспространенная|include:spf.protection.outlook.de|
    |5|Сторонняя почтовая система|Нераспространенная|include:\<domain name\>  <br/> где <доменное имя> — это доменное имя сторонней почтовой системы.|
-   |6|Локальная почтовая система, например Exchange Online Protection с другой почтовой системой|Нераспространенная| Используйте один из следующих параметров для каждой дополнительной почтовой системы: <br> ip4:\<_IP address_\>  <br/>  ip6:\<_IP address_\>  <br/>  include:\<_domain name_\>  <br/>  где значение \<_IP address_\> — это IP-адрес другой почтовой системы, а \<_domain name_\> — доменное имя другой почтовой системы, которая отправляет сообщения от имени вашего домена.|
-   |7|Любая почтовая система (обязательно)|Распространенная. Все записи SPF TXT заканчиваются этим значением|\<_enforcement rule_\>  <br/> Это может быть одно из нескольких значений. Рекомендуем использовать значение **-all**.|
+   |6|On-premises mail system. For example, Exchange Online Protection plus another mail system|Нераспространенная| Используйте один из следующих параметров для каждой дополнительной почтовой системы: <br> ip4:\<_IP address_\>  <br/>  ip6:\<_IP address_\>  <br/>  include:\<_domain name_\>  <br/>  где значение \<_IP address_\> — это IP-адрес другой почтовой системы, а \<_domain name_\> — доменное имя другой почтовой системы, которая отправляет сообщения от имени вашего домена.|
+   |7|Любая почтовая система (обязательно)|Common. All SPF TXT records end with this value|\<_enforcement rule_\>  <br/> This can be one of several values. We recommend that you use **-all**.|
 
 2. Создайте запись SPF TXT (если вы еще не сделали этого), используя синтаксис из таблицы:
 
@@ -79,7 +79,7 @@ ms.locfileid: "44588080"
 
    Это одна из самых распространенных записей SPF TXT. Эта запись подходит практически для всех, независимо от того, где находится ваш центр обработки данных Майкрософт — в США, Европе (в том числе в Германии) или другом месте.
 
-   Но если вы приобрели Office 365 Germany в составе Microsoft Cloud Germany, следует использовать оператор include из строки 4, а не из строки 2. Например, если ваша организация целиком размещена в Office 365 Germany (то есть у вас нет локальных почтовых серверов), то в запись SPF TXT будут включены строки 1, 4 и 7, и она будет выглядеть следующим образом:
+   However, if you have purchased Office 365 Germany, part of Microsoft Cloud Germany, you should use the include statement from line 4 instead of line 2. For example, if you are fully-hosted in Office 365 Germany, that is, you have no on-premises mail servers, your SPF TXT record would include rows 1, 4, and 7 and would look like this:
 
    `v=spf1 include:spf.protection.outlook.de -all`
 
@@ -95,6 +95,6 @@ ms.locfileid: "44588080"
 
 ## <a name="next-steps-after-you-set-up-spf-for-office-365"></a>Дальнейшие действия: после настройки инфраструктуры политики отправителей для Office 365
 
-Возникли проблемы с записью типа TXT инфраструктуры политики отправителей? Прочитайте статью [Устранение неполадок: рекомендации по инфраструктуре политики отправителей в Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot).
+Having trouble with your SPF TXT record? Read [Troubleshooting: Best practices for SPF in Office 365](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot).
 
- Несмотря на то что инфраструктура политики отправителей разработана для предотвращения спуфинга, существует ряд методик, позволяющих обойти ее. Чтобы защититься от таких атак, по завершении настройки инфраструктуры политики отправителей необходимо настроить DKIM и DMARC для Office 365. Соответствующие инструкции по началу работы см. в статье [Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md). Дальнейшие действия см. в статье [Использование протокола DMARC для проверки электронной почты в Office 365](use-dmarc-to-validate-email.md).
+ SPF is designed to help prevent spoofing, but there are spoofing techniques that SPF cannot protect against. In order to protect against these, once you have set up SPF, you should also configure DKIM and DMARC for Office 365. To get started, see [Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md). Next, see [Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md).

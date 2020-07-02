@@ -464,6 +464,8 @@
               href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
             - name: Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
               href: ./office-365-security/view-email-security-reports.md
+            - name: Просмотр отчетов потока обработки почты в Центре безопасности и соответствия требованиям
+              href: ./office-365-security/view-mail-flow-reports.md
             - name: Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
               href: ./office-365-security/mail-flow-insights-v2.md
               items:
