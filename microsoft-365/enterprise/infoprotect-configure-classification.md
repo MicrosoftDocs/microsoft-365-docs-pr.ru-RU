@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как настроить различные способы классификации данных в организации.
-ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 57d4c692630826f371ea825d86fc64b959b71df2
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633477"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005814"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>Шаг 2. Настройка классификации для среды
 
@@ -92,7 +92,7 @@ ms.locfileid: "42633477"
 
 Существующие метки Azure Information Protection без проблем работают с метками конфиденциальности. Например, можно одновременно использовать существующие метки Azure Information Protection и метки, которые применяются к документам и электронной почте.
 
-Если имеются как метки конфиденциальности, так и метки Azure Information Protection, следует [перенести метки Azure Information Protection на метки конфиденциальности](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#how-sensitivity-labels-work-with-existing-azure-information-protection-labels).
+Если имеются как метки конфиденциальности, так и метки Azure Information Protection, следует [перенести метки Azure Information Protection на метки конфиденциальности](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels#sensitivity-labels-and-azure-information-protection).
 
 ## <a name="example-classification-for-gdpr"></a>Пример: классификация для GDPR
 
