@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8a3e4b8979a346266336e2729d18465d391c28f9
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: 6287e7c56f79b09a79c75d7e8b8273dbd5569057
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689270"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005894"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -60,7 +60,5 @@ ms.locfileid: "44689270"
 - **[Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)** — получение представления о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с таблицами [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.
 
 - **[Go Go](advanced-hunting-go-hunt.md)** — быстро изучите сведения об инциденте, чтобы проверить конкретное событие, пользователя, устройства или других типов сущностей с помощью [расширенных](advanced-hunting-overview.md) возможностей поиска на основе запросов.
-
-- **[Таблица емаилпостделиверевентс](advanced-hunting-emailpostdeliveryevents-table.md)** — эта таблица используется для создания [расширенных](advanced-hunting-overview.md) запросов поиска, которые проверяют действия, выполненные на сообщениях после их доставки в почтовые ящики получателей.
 
 - **[Функция филепрофиле ()](advanced-hunting-fileprofile-function.md)** — используется в [расширенных](advanced-hunting-overview.md) запросах на поиск для включения исчерпывающей информации о файле.

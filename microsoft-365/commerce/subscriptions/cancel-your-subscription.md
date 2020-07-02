@@ -22,12 +22,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Сведения о том, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
-ms.openlocfilehash: 3f60792446b468aaa5c85d03ab761fd75e607b8b
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818523"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023373"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
@@ -144,10 +144,12 @@ ms.locfileid: "44818523"
 
 ### <a name="uninstall-office-optional"></a>Удаление Office (необязательно)
 
-Если вы отменили подписку и не переместит пользователей в другую подписку, которая включает Microsoft 365, Microsoft 365 работает в режиме ограниченной функциональности. В этом случае пользователи могут читать и печатать документы, а приложения Microsoft 365 — [уведомления о нелицензированных продуктах](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Во избежание недоразумений нужно [удалить Office](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) с компьютеров пользователей.
+Если вы отменили подписку и не [переместит пользователей в другую подписку](move-users-different-subscription.md) , которая включает Microsoft 365, Microsoft 365 работает в режиме ограниченной функциональности. В этом случае пользователи могут читать и печатать документы, а приложения Microsoft 365 — [уведомления о нелицензированных продуктах](https://support.microsoft.com/office/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx). Во избежание недоразумений нужно [удалить Office](https://support.microsoft.com/office/9dd49b83-264a-477a-8fcc-2fdf5dbf61d8.aspx) с компьютеров пользователей.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Обновление подписки](renew-your-subscription.md)
 
 [Повторная активация подписки](reactivate-your-subscription.md)
+
+[Перевод пользователей на другую подписку](move-users-different-subscription.md)

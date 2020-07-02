@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 758befc4-0888-4009-9f14-0d147402fd23
 description: С помощью Центра администрирования можно настроить организацию в облаке, а также управлять пользователями и подписками. Для начала работы войдите в учетную запись с разрешениями администратора.
-ms.openlocfilehash: 9295d16f19ebaabdd9960331f1d875f436156b79
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: e4b1570afd8572df31af970fb168b6d22deee979
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780557"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45022185"
 ---
 # <a name="about-the-microsoft-365-admin-center"></a>Сведения о Центре администрирования Microsoft 365
 
@@ -89,7 +89,7 @@ ms.locfileid: "44780557"
    
 ## <a name="common-tasks-in-the-admin-center"></a>Основные задачи в Центре администрирования
 
-- Управление пользователями: см. [Добавление отдельных пользователей](../add-users/add-users.md), [Удаление или восстановление пользователей](../add-users/delete-a-user.md) и [Сброс пароля пользователя](../add-users/reset-passwords.md).
+- Manage Users: [Добавление пользователей и назначение лицензий одновременно](../add-users/add-users.md), [Удаление или восстановление пользователей](../add-users/delete-a-user.md)или [Сброс пароля пользователя](../add-users/reset-passwords.md).
 
 - Справка по выставлению счетов: [Выставление счетов](../../commerce/index.yml)
 

@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Узнайте, как добавить партнера с помощником по подписке в качестве партнера записи во время приобретения Microsoft 365, изменить партнера или удалить партнера из подписки.
-ms.openlocfilehash: 4ab02e95c2a2330e95f8a54f717e38025d04714c
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 07e0d47d45f20e206fb8ca4c5ff5e81785bc74b9
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432199"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005690"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>Добавление, смена и удаление партнера-консультанта по подпискам
 
@@ -56,7 +56,7 @@ ms.locfileid: "44432199"
 
 ::: moniker range="o365-germany"
 
-Выбор партнера зависит от используемых служб Office 365, а также страны или региона, в которых они будут использоваться. Чтобы добавить или сменить партнера для подписки, сначала необходимо уточнить у него его идентификатор партнера Майкрософт.
+The partner you choose depends on the Office 365 services you use and the country or region where you'll use those services. If you are adding a partner, or changing the partner for your subscription, first you need to get the partner's Microsoft Partner ID by asking the partner for it.
 
 ::: moniker-end
 
@@ -79,7 +79,7 @@ ms.locfileid: "44432199"
     
 4. Если у вас уже есть партнер, на втором шаге мастера оформления заказа на панели справа в разделе сведения о партнере нажмите кнопку **Добавить**.
 
-5. Введите идентификатор добавляемого партнера Майкрософт. Его можно получить, обратившись к партнеру.
+5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 6. Следуйте дальнейшим инструкциям мастера, чтобы завершить приобретение подписок. 
     
@@ -98,7 +98,7 @@ ms.locfileid: "44432199"
     
 4. Если у вас уже есть партнер, на втором шаге мастера оформления заказа на панели справа в разделе сведения о партнере нажмите кнопку **Добавить**.
 
-5. Введите идентификатор добавляемого партнера Майкрософт. Его можно получить, обратившись к партнеру.
+5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 6. Следуйте дальнейшим инструкциям мастера, чтобы завершить приобретение подписок. 
     
@@ -115,7 +115,7 @@ ms.locfileid: "44432199"
   
 3. На странице Подписка Перейдите на вкладку **партнер** и введите идентификатор партнерской сети для добавляемого партнера. Вы можете получить идентификатор партнера Майкрософт для партнера.
     
-4. Нажмите кнопку **Добавить**.
+4. Нажмите **Добавить**.
 
 ::: moniker-end
 
@@ -127,7 +127,7 @@ ms.locfileid: "44432199"
   
 3. Справа в разделе затраты на подписку нажмите кнопку **Дополнительные действия** , чтобы > **добавить партнера записи**.
 
-4. Введите идентификатор добавляемого партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.
+4. Type the Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
 
 5. Идентификатор партнера появится на странице **Подписки**.
     
@@ -159,7 +159,7 @@ ms.locfileid: "44432199"
     
 3. В разделе **Идентификатор партнера** выберите **Изменить зарегистрированного партнера**.
   
-4. Введите новый идентификатор партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
   
 ::: moniker-end
 
@@ -171,7 +171,7 @@ ms.locfileid: "44432199"
     
 3. В разделе **Идентификатор партнера** выберите **Изменить зарегистрированного партнера**.
   
-4. Введите новый идентификатор партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.   
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ ms.locfileid: "44432199"
     
 3. В разделе **Идентификатор партнера** выберите **Изменить зарегистрированного партнера**.
   
-4. Введите новый идентификатор партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.   
+4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
 
 ::: moniker-end
 
@@ -255,10 +255,10 @@ ms.locfileid: "44432199"
 
 Вы не можете удалить связь с торговым посредником самостоятельно.
   
-Если вы удаляете связь с посредником, функция **удаления** неактивна, и вам потребуется попросить партнера по торговому посреднику выполнить следующие инструкции: [Удаление связи между торговыми посредниками с партнером](https://docs.microsoft.com/partner-center/remove-a-relationship).
+Попросите партнера у торгового посредника выполнить следующие инструкции: [Удаление связи между торговыми посредниками и партнерами](https://docs.microsoft.com/partner-center/remove-a-relationship).
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Поиск партнера или торгового посредника Microsoft 365](../manage/find-your-partner-or-reseller.md)

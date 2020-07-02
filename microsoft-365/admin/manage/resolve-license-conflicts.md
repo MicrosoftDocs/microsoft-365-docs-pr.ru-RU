@@ -12,7 +12,7 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Adm_O365
-- Adm_TOC
+- Adm_NonTOC
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: 796f7eda-b1f8-479a-adee-bd9226ca47ec
 description: Узнайте, как устранять конфликты лицензий с подпиской на Microsoft 365 для бизнеса.
-ms.openlocfilehash: 05efe9e75b051ece900ba9defe047f1244b713a9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2270fd3ad831ec0ad92ac4eddec5f08a1d07f8be
+ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399672"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45015975"
 ---
 # <a name="resolve-license-conflicts"></a>Устранение конфликтов лицензий
 
@@ -59,7 +59,6 @@ ms.locfileid: "44399672"
 
 ::: moniker-end
 
-
 2. Чтобы узнать, нет ли конфликтов, проверьте столбец **Состояние**. При возникновении конфликта отображается предупреждающее сообщение о том, что одному или нескольким пользователям требуется действительная лицензия.
 
     > [!NOTE]
@@ -69,7 +68,7 @@ ms.locfileid: "44399672"
 
 Конфликты лицензий можно устранить, [приобретая дополнительные лицензии](../../commerce/licenses/buy-licenses.md) или [удалив лицензии от пользователей, которым они больше не нужны](remove-licenses-from-users.md). Вы также можете [удалить учетную запись пользователя, чтобы высвободить лицензию](../add-users/delete-a-user.md).
   
-## <a name="related-articles"></a>Статьи по теме 
+## <a name="related-articles"></a>Статьи по теме
 
 [Назначение лицензий пользователям](assign-licenses-to-users.md)
   

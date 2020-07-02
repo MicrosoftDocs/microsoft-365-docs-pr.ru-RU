@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1a84c568d1411cf21c23e59cabad955c40c18ac6
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: 7afcf16a42824ff234e53412a0cbd44f997fcaf9
+ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44498367"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45005714"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Создание настраиваемых правил обнаружения и управление ими
 
@@ -118,8 +118,8 @@ DeviceEvents
 
 #### <a name="actions-on-devices"></a>Действия на устройствах
 Эти действия применяются к устройствам в `DeviceId` столбце результатов запроса:
-- **Изолировать устройство** — использует Microsoft Defender ATP для применения полной изоляции сети, что не позволяет устройству подключаться к любому приложению или службе. [Дополнительные сведения о изоляции компьютеров ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-machines-from-the-network)
-- **Собрать пакет для расследования** — собирает сведения об устройствах в ZIP-файле. [Дополнительные сведения о пакете исследования Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-machines)
+- **Изолировать устройство** — использует Microsoft Defender ATP для применения полной изоляции сети, что не позволяет устройству подключаться к любому приложению или службе. [Дополнительные сведения о изоляции компьютеров ATP для защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#isolate-devices-from-the-network)
+- **Собрать пакет для расследования** — собирает сведения об устройствах в ZIP-файле. [Дополнительные сведения о пакете исследования Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#collect-investigation-package-from-devices)
 - **Запустить антивирусное сканирование** — выполняет полную проверку на устройстве антивирусной программы "Защитник Windows"
 - **Initiate расследования** — инициирует [Автоматическое исследование](mtp-autoir.md) на устройстве
 - **Ограничить выполнение приложения** — устанавливает ограничения на устройство, чтобы разрешить запуск только тех файлов, которые подписаны на сертификат, выданный корпорацией Майкрософт. [Дополнительные сведения об ограничениях приложений с помощью защитника Майкрософт для ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/respond-machine-alerts#restrict-app-execution)

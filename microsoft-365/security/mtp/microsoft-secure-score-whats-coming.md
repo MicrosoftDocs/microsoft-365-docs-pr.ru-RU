@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 48ff6d6f5cac0991895c40cae90ca31657cfedff
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 39fbc934dabcb3b0b24bd0b861be8db14b6e0c35
+ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844886"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45023385"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Что поступает в показателях безопасности Майкрософт?
 
@@ -30,26 +30,11 @@ ms.locfileid: "44844886"
 
 Чтобы узнать о последних изменениях, ознакомьтесь со статьей " [новые возможности оценки безопасности Майкрософт".](microsoft-secure-score.md#whats-new)
 
-## <a name="june-2020"></a>Июнь 2020 г.
+## <a name="july-2020"></a>2020 июля
 
-### <a name="remove-improvement-action-for-microsoft-defender-advanced-threat-protection"></a>Удаление действия по улучшению для Advanced Threat Protection в защитнике Майкрософт
+### <a name="add-improvement-actions-for-azure-advanced-threat-protection"></a>Добавление действий улучшения для службы Advanced Threat Protection в Azure
 
-* Включение правил сокращения для уязвимой зоны
-
-### <a name="add-improvement-actions-for-microsoft-defender-advanced-threat-protection"></a>Добавление действий по улучшению для Advanced Threat Protection в защитнике Microsoft
-
-* Блокировка создания дочерних процессов в Adobe Reader
-* Использование расширенной защиты от атаки с помощью средства защиты от атак
-* Блокировка создания дочерних процессов для всех приложений Office
-* Блокировка создания исполняемого контента приложениями Office
-* Блокировка JavaScript или VBScript для запуска загруженного исполняемого контента
-* Блокировка выполнения потенциально запутанных сценариев
-* Блокировать исполняемый контент из почтового клиента и из почтового ящика
-* Блокировка создания дочерних процессов приложением взаимодействия с Office
-* Блокировка недоверенных и неподписанных процессов, выполняемых с USB
-* Блокировка сохраняемости через подписку на события WMI
-* Блокировка приложений Office при вставке кода в другие процессы
-* Блокировать запуск исполняемых файлов, если они не удовлетворяют условию преобладание, возраст или доверенный список.
-* Блокировка создания процессов, исходящих из команд PSExec и WMI
-* Блокировка переноса учетных данных из подсистемы локального центра безопасности Windows (lsass.exe)
-* Блокировка вызовов API Win32 из макросов Office
+- Пути перемещения рискованных Латерал
+- Небезопасные атрибуты учетной записи
+- Включение функций безопасности для доверий Active Directory
+- Удаление атрибутов небезопасного журнала SID из сущностей
