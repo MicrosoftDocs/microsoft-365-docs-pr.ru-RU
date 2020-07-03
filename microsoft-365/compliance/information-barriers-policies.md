@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88ff728f00709707233b97586d1220ead76eca8c
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: a9f8635f65867eb9d9543cc23b984f181030a7f9
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817548"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024699"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -161,7 +161,7 @@ ms.locfileid: "44817548"
 |---------|---------|
 |`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>В этом примере мы определили сегмент под названием *локалфте* , включающий пользователей, которые находятся на локальном компьютере и чьи должности не указаны как *временные*.    |
  |`New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`|  <p>В этом примере мы определили сегмент под названием *Segment1* , включающий людей, которые являются членами group1@contoso.com, а не членами group3@contoso.com.
-|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com'' -or MemberOf -ne 'group3@contoso.com'"` | В этом примере мы определили сегмент под названием *Segment2* , включающий людей, которые являются членами group2@contoso.com, а не членами group3@contoso.com.
+|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com' -or MemberOf -ne 'group3@contoso.com'"` | В этом примере мы определили сегмент под названием *Segment2* , включающий людей, которые являются членами group2@contoso.com, а не членами group3@contoso.com.
 |`New-OrganizationSegment -Name "Segment1and2" -UserGroupFilter "(MemberOf -eq 'group1@contoso.com' -or MemberOf -eq 'group2@contoso.com') -and MemberOf -ne 'group3@contoso.com'"`|  В этом примере мы определили сегмент под названием *Segment1and2* , включающий участников group1@contoso.com и group2@contoso.com, а не членов group3@contoso.com.
 
 
@@ -325,7 +325,7 @@ Contoso будет использовать атрибут Department в Azure A
 
 После этого Contoso соответствует юридическим и отраслевым требованиям.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Обзор информационных препятствий](information-barriers.md)
 

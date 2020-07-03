@@ -1,5 +1,5 @@
 ---
-title: Определения объектов типа конфиденциальной информации
+title: Определения типов конфиденциальной информации
 f1.keywords:
 - CSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: acfec3d92f3f3f3207819a2fe0988e45ae56ae02
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: a91459652d785f6536cb50e381ab139057a3eae8
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327287"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024647"
 ---
-# <a name="sensitive-information-type-entity-definitions"></a>Определения объектов типа конфиденциальной информации
+# <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
 Защита от потери данных (DLP) в центре соответствия требованиям включает множество типов конфиденциальной информации, готовых к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип. Тип конфиденциальной информации определяется шаблоном, который можно идентифицировать регулярным выражением или функцией. Кроме того, для идентификации типа конфиденциальной информации могут использоваться подкрепляющие доказательства, такие как ключевые слова и контрольные суммы. Уровень вероятности и расположение слов и знаков также используются в процессе оценки.
   
@@ -65,7 +65,7 @@ ms.locfileid: "44327287"
 ```
 
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_aba_routing"></a>Keyword_ABA_Routing
 
@@ -122,7 +122,7 @@ ms.locfileid: "44327287"
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
@@ -180,7 +180,7 @@ ms.locfileid: "44327287"
  </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_australia_bank_account_number"></a>Keyword_australia_bank_account_number
 
@@ -246,7 +246,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_australia_drivers_license_number"></a>Keyword_australia_drivers_license_number
 
@@ -397,7 +397,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_australia_medical_account_number"></a>Keyword_Australia_Medical_Account_Number
 
@@ -445,7 +445,7 @@ OR
 </Entity>   
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_passport"></a>Keyword_passport
 
@@ -522,7 +522,7 @@ OR
     </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_australia_tax_file_number"></a>Keyword_Australia_Tax_File_Number
 
@@ -601,7 +601,7 @@ OR
     </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_austria_eu_driver "s_license_number**
 - DL #
@@ -656,7 +656,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
@@ -704,7 +704,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_austria_eu_passport_number**
 - passport number
@@ -757,7 +757,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_austria_eu_ssn_or_equivalent"></a>Keywords_austria_eu_ssn_or_equivalent
 
@@ -820,7 +820,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_austria_eu_tax_file_number"></a>Keywords_austria_eu_tax_file_number
 
@@ -882,7 +882,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
@@ -942,7 +942,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
@@ -1002,7 +1002,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
@@ -1053,7 +1053,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
@@ -1108,7 +1108,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
@@ -1202,7 +1202,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_commonexamplekeywords"></a>CEP_CommonExampleKeywords
 
@@ -1262,7 +1262,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_azureemulatorstorageaccountfilter"></a>CEP_AzureEmulatorStorageAccountFilter
 
@@ -1346,7 +1346,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords__belgium_eu_driver "s_license_number**
 
@@ -1407,7 +1407,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_belgium_national_number"></a>Keyword_belgium_national_number
 
@@ -1503,7 +1503,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_belgium_eu_passport_number**
 - passport number
@@ -1553,7 +1553,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_belgium_eu_ssn_or_equivalent"></a>Keywords_belgium_eu_ssn_or_equivalent
 
@@ -1613,7 +1613,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_belgium_eu_tax_file_number"></a>Keywords_belgium_eu_tax_file_number
 
@@ -1726,7 +1726,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_brazil_cpf"></a>Keyword_brazil_cpf
 
@@ -1786,7 +1786,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_brazil_cnpj"></a>Keyword_brazil_cnpj
 
@@ -1862,7 +1862,7 @@ Registro de identidade (RIC) (новый формат):
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_brazil_rg"></a>Keyword_brazil_rg
 
@@ -1908,7 +1908,7 @@ Registro de identidade (RIC) (новый формат):
 </Entity>    
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_bulgaria_eu_driver "s_license_number**
 - DL #
@@ -1971,7 +1971,7 @@ Registro de identidade (RIC) (новый формат):
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_bulgaria_national_number"></a>Keywords_bulgaria_national_number
 
@@ -2052,7 +2052,7 @@ national id
         </Pattern>
 </Entity>
 ```
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_bulgaria_eu_passport_number**
 - passport number
@@ -2099,7 +2099,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_bulgaria_eu_tax_file_number"></a>Keywords_bulgaria_eu_tax_file_number
 - бнн #
@@ -2196,7 +2196,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_canada_bank_account_number"></a>Keyword_canada_bank_account_number
 
@@ -2299,7 +2299,7 @@ national id
     </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_province_name_drivers_license_name"></a>Keyword_ [province_name] _drivers_license_name
 
@@ -2471,7 +2471,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_canada_health_service_number"></a>Keyword_canada_health_service_number
 
@@ -2518,7 +2518,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_canada_passport_number"></a>Keyword_canada_passport_number
 
@@ -2584,7 +2584,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_canada_phin"></a>Keyword_canada_phin
 
@@ -2675,7 +2675,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_sin"></a>Keyword_sin
 
@@ -2701,7 +2701,7 @@ national id
 - drivers licence 
 - доб 
 - Birthdate 
-- День рождения  
+- Birthday 
 - Date of Birth 
    
 ## <a name="chile-identity-card-number"></a>Номер идентификационной карточки Чили
@@ -2749,7 +2749,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_chile_id_card"></a>Keyword_chile_id_card
 
@@ -2808,7 +2808,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 ### <a name="keyword_china_resident_id"></a>Keyword_china_resident_id
 
@@ -2868,7 +2868,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_cc_verification"></a>Keyword_cc_verification
 
@@ -3099,7 +3099,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_croatia_eu_driver "s_license_number**
 
@@ -3149,7 +3149,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_croatia_id_card"></a>Keyword_croatia_id_card
 
@@ -3214,7 +3214,7 @@ national id
         </Pattern>
 </Entity>
 ```
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_croatia_eu_passport_number**
 
@@ -3264,7 +3264,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_croatia_oib_number"></a>Keyword_croatia_oib_number
 
@@ -3314,7 +3314,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_croatia_eu_ssn_or_equivalent"></a>Keywords_croatia_eu_ssn_or_equivalent
 
@@ -3375,7 +3375,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_croatia_eu_tax_file_number"></a>Keywords_croatia_eu_tax_file_number
 
@@ -3441,7 +3441,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_cyprus_eu_driver "s_license_number**
 
@@ -3489,7 +3489,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_cyprus_eu_national_id_card"></a>Keywords_cyprus_eu_national_id_card
 
@@ -3532,7 +3532,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_cyprus_eu_passport_number**
 
@@ -3584,7 +3584,7 @@ Pattern confidenceLevel="75">
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_cyprus_eu_tax_file_number"></a>Keywords_cyprus_eu_tax_file_number
 
@@ -3653,7 +3653,7 @@ Pattern confidenceLevel="75">
 
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_czech_republic_eu_driver "s_license_number**
 
@@ -3704,7 +3704,7 @@ Pattern confidenceLevel="75">
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_czech_republic_eu_passport_number**
 
@@ -3760,7 +3760,7 @@ OR
    </Pattern>
 </Entity>
 ```
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 - номер личного удостоверения для чешского языка
 - Роднé číсло
@@ -3814,7 +3814,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_czech_republic_eu_ssn_or_equivalent"></a>Keywords_czech_republic_eu_ssn_or_equivalent
 
@@ -3868,7 +3868,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_czech_republic_eu_tax_file_number"></a>Keywords_czech_republic_eu_tax_file_number
 
@@ -3942,7 +3942,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_denmark_eu_driver "s_license_number**
 
@@ -3994,7 +3994,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_denmark_eu_passport_number**
 
@@ -4038,7 +4038,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_denmark_id"></a>Keyword_denmark_id
 
@@ -4137,7 +4137,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_denmark_eu_ssn_or_equivalent"></a>Keywords_denmark_eu_ssn_or_equivalent
 
@@ -4196,7 +4196,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_denmark_eu_tax_file_number"></a>Keywords_denmark_eu_tax_file_number
 
@@ -4285,7 +4285,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 Нет
 
@@ -4324,7 +4324,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_estonia_eu_driver "s_license_number**
 
@@ -4387,7 +4387,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_estonia_eu_national_id_card"></a>Keywords_estonia_eu_national_id_card
 
@@ -4455,7 +4455,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_estonia_eu_passport_number**
 
@@ -4509,7 +4509,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_estonia_eu_tax_file_number"></a>Keywords_estonia_eu_tax_file_number
 
@@ -4587,7 +4587,7 @@ OR
     </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_eu_debit_card"></a>Keyword_eu_debit_card
 
@@ -4902,7 +4902,7 @@ OR
 - [Болгария](#bulgaria-drivers-license-number)
 - [Хорватия](#croatia-drivers-license-number)
 - [Кипр](#cyprus-drivers-license-number)
-- [Чешский](#czech-drivers-license-number)
+- [Czech](#czech-drivers-license-number)
 - [Дания](#denmark-drivers-license-number)
 - [Эстония](#estonia-drivers-license-number)
 - [Финляндия](#finland-drivers-license-number)
@@ -4934,7 +4934,7 @@ OR
 - [Болгария](#bulgaria-national-identification-number)
 - [Хорватия](#croatia-identity-card-number)
 - [Кипр](#cyprus-national-identification-number)
-- [Чешский](#czech-personal-identity-number)
+- [Czech](#czech-personal-identity-number)
 - [Дания](#denmark-personal-identification-number)
 - [Эстония](#estonia-national-identification-number)
 - [Финляндия](#finland-national-identification-number)
@@ -4966,7 +4966,7 @@ OR
 - [Болгария](#bulgaria-passport-number)
 - [Хорватия](#croatia-passport-number)
 - [Кипр](#cyprus-passport-number)
-- [Чешский](#czech-passport-number)
+- [Czech](#czech-passport-number)
 - [Дания](#denmark-passport-number)
 - [Эстония](#estonia-passport-number)
 - [Финляндия](#finland-passport-number)
@@ -4997,7 +4997,7 @@ OR
 - [Австрия](#austria-social-security-number-or-equivalent-identification)
 - [Бельгия](#belgium-social-security-number-or-equivalent-identification)
 - [Хорватия](#croatia-social-security-number-or-equivalent-identification)
-- [Чешский](#czech-social-security-number-or-equivalent-identification)
+- [Czech](#czech-social-security-number-or-equivalent-identification)
 - [Дания](#denmark-social-security-number-or-equivalent-identification)
 - [Финляндия](#finland-social-security-number-or-equivalent-identification)
 - [Франция](#france-social-security-number-insee-or-equivalent-identification)
@@ -5017,7 +5017,7 @@ OR
 - [Болгария](#bulgaria-tax-identification-number)
 - [Хорватия](#croatia-tax-identification-number)
 - [Кипр](#cyprus-tax-identification-number)
-- [Чешский](#czech-tax-identification-number)
+- [Czech](#czech-tax-identification-number)
 - [Дания](#denmark-tax-identification-number)
 - [Эстония](#estonia-tax-identification-number)
 - [Финляндия](#finland-tax-identification-number)
@@ -5079,7 +5079,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_finland_eu_driver "s_license_number**
 
@@ -5133,7 +5133,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 - аинутлаатуинен хенкилöкохтаинен туннус
 - хенкилöкохтаинен туннус
@@ -5212,7 +5212,7 @@ OR
   </Pattern>
 </Entity>
 ```
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 - Keyword_finland_passport_number
 - Службу
 - пасси
@@ -5264,7 +5264,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_finland_eu_ssn_or_equivalent"></a>Keywords_finland_eu_ssn_or_equivalent
 
@@ -5334,7 +5334,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_finland_eu_tax_file_number"></a>Keywords_finland_eu_tax_file_number
 
@@ -5427,7 +5427,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_french_drivers_license"></a>Keyword_french_drivers_license
 
@@ -5470,7 +5470,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 - card number
 
@@ -5520,7 +5520,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_passport"></a>Keyword_passport
 
@@ -5594,7 +5594,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_fr_insee"></a>Keyword_fr_insee
 
@@ -5664,7 +5664,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_france_eu_tax_file_number"></a>Keywords_france_eu_tax_file_number
 
@@ -5731,7 +5731,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_german_drivers_license_number"></a>Keyword_german_drivers_license_number
 
@@ -5869,7 +5869,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_germany_id_card"></a>Keyword_germany_id_card
 
@@ -5945,7 +5945,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_german_passport"></a>Keyword_german_passport
 
@@ -6015,7 +6015,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_germany_eu_tax_file_number"></a>Keywords_germany_eu_tax_file_number
 
@@ -6076,7 +6076,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_greece_eu_driver "s_license_number**
 
@@ -6135,7 +6135,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_greece_id_card"></a>Keyword_greece_id_card
 
@@ -6180,7 +6180,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_greece_eu_passport_number**
 
@@ -6222,7 +6222,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_greece_eu_tax_file_number"></a>Keywords_greece_eu_tax_file_number
 
@@ -6296,10 +6296,11 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_hong_kong_id_card"></a>Keyword_hong_kong_id_card
 
+- hkid
 - идентификационная карточка Гонконг
 - хкидк
 - id card
@@ -6372,7 +6373,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_hungary_eu_driver "s_license_number**
 - DL #
@@ -6432,7 +6433,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_hungary_eu_national_id_card"></a>Keywords_hungary_eu_national_id_card
 
@@ -6476,7 +6477,7 @@ No — Реисепасс НР — Реисепасс
         </Pattern>
 </Entity>
 ```
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_hungary_eu_passport_number**
 
@@ -6524,7 +6525,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_hungary_eu_ssn_or_equivalent"></a>Keywords_hungary_eu_ssn_or_equivalent
 
@@ -6591,7 +6592,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_hungary_eu_tax_file_number"></a>Keywords_hungary_eu_tax_file_number
 
@@ -6654,7 +6655,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_india_permanent_account_number"></a>Keyword_india_permanent_account_number
 
@@ -6699,7 +6700,7 @@ No — Реисепасс НР — Реисепасс
   </Pattern>
 </Entity>
 ```
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_india_aadhar"></a>Keyword_india_aadhar
 - аадхар
@@ -6751,7 +6752,7 @@ No — Реисепасс НР — Реисепасс
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_indonesia_id_card"></a>Keyword_indonesia_id_card
 
@@ -6774,7 +6775,7 @@ No — Реисепасс НР — Реисепасс
 - 1–7 групп из четырех букв или цифр (могут разделяться пробелами)
 - 1–3 буквы или цифры
 
-Формат для названия каждой из стран немного отличается. Тип конфиденциальной информации IBAN применяется к следующим 60 странам:
+The format for each country is slightly different. The IBAN sensitive information type covers these 60 countries:
 
 ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
 
@@ -6796,7 +6797,7 @@ ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, 
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 Нет
 
@@ -6811,7 +6812,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Ключевое слово
+Keyword
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -6839,7 +6840,7 @@ Dictionary
 
 ```
 
-Ключевые слова
+Keywords
 
 Любой термин из словаря Dictionary_icd_10_updated ключевых слов, основанный на [международной классификации Diseases, десятой версии, Клиникал модификации (ICD-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604). Этот тип ищет только термин, а не коды страхования.
 
@@ -6853,7 +6854,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Ключевое слово
+Keyword
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -6880,7 +6881,7 @@ Dictionary
       </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 Любой термин из словаря Dictionary_icd_9_updated ключевых слов, основанный на [международной классификации Diseases, девятой редакции, Клиникал модификации (ICD-9-cm)](https://go.microsoft.com/fwlink/?linkid=852605). Этот тип ищет только термин, а не коды страхования.
 
@@ -6940,7 +6941,7 @@ Dictionary
     </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_ipaddress"></a>Keyword_ipaddress
 
@@ -6985,7 +6986,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_ireland_eu_driver "s_license_number**
 
@@ -7054,7 +7055,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
 
@@ -7120,7 +7121,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_ireland_eu_passport_number**
 
@@ -7186,7 +7187,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_ireland_pps"></a>Keyword_ireland_pps
 
@@ -7245,7 +7246,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_ireland_eu_tax_file_number"></a>Keywords_ireland_eu_tax_file_number
 
@@ -7317,7 +7318,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_israel_bank_account_number"></a>Keyword_israel_bank_account_number
 
@@ -7359,7 +7360,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_israel_national_id"></a>Keyword_Israel_National_ID
 
@@ -7403,7 +7404,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_italy_drivers_license_number"></a>Keyword_italy_drivers_license_number
 
@@ -7457,7 +7458,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_italy_eu_national_id_card"></a>Keywords_italy_eu_national_id_card
 
@@ -7530,7 +7531,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_italy_eu_passport_number**
 
@@ -7591,7 +7592,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_italy_eu_tax_file_number"></a>Keywords_italy_eu_tax_file_number
 
@@ -7682,7 +7683,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_jp_bank_account"></a>Keyword_jp_bank_account
 
@@ -7775,7 +7776,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_jp_drivers_license_number"></a>Keyword_jp_drivers_license_number
 
@@ -7835,7 +7836,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_jp_passport"></a>Keyword_jp_passport
 
@@ -7877,7 +7878,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_jp_residence_card_number"></a>Keyword_jp_residence_card_number
 
@@ -7916,7 +7917,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_jp_resident_registration_number"></a>Keyword_jp_resident_registration_number
 
@@ -7975,7 +7976,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_jp_sin"></a>Keyword_jp_sin
 
@@ -8020,7 +8021,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_latvia_eu_driver "s_license_number**
 
@@ -8082,7 +8083,7 @@ Dictionary
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_latvia_eu_national_id_card"></a>Keywords_latvia_eu_national_id_card
 
@@ -8188,7 +8189,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_latvia_eu_passport_number**
 
@@ -8240,7 +8241,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_latvia_eu_tax_file_number"></a>Keywords_latvia_eu_tax_file_number
 
@@ -8343,7 +8344,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_lithuania_eu_driver "s_license_number**
 
@@ -8405,7 +8406,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
@@ -8475,7 +8476,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_lithuania_eu_passport_number**
 
@@ -8520,7 +8521,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_lithuania_eu_tax_file_number"></a>Keywords_lithuania_eu_tax_file_number
 
@@ -8589,7 +8590,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_luxemburg_eu_driver "s_license_number**
 
@@ -8643,7 +8644,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_luxemburg_eu_national_id_card"></a>Keywords_luxemburg_eu_national_id_card
 
@@ -8700,7 +8701,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_nation_eu_passport_number**
 
@@ -8748,7 +8749,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_luxemburg_eu_tax_file_number"></a>Keywords_luxemburg_eu_tax_file_number
 
@@ -8829,7 +8830,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_malaysia_id_card_number"></a>Keyword_malaysia_id_card_number
 
@@ -8896,7 +8897,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_malta_eu_driver "s_license_number**
 
@@ -8956,7 +8957,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_malta_eu_national_id_card"></a>Keywords_malta_eu_national_id_card
 
@@ -9008,7 +9009,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_malta_eu_passport_number**
 
@@ -9065,7 +9066,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_malta_eu_tax_file_number"></a>Keywords_malta_eu_tax_file_number
 
@@ -9139,7 +9140,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_netherlands_bsn"></a>Keyword_netherlands_bsn
   
@@ -9197,7 +9198,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_netherlands_eu_driver "s_license_number**
 
@@ -9256,7 +9257,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
 
@@ -9314,7 +9315,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_netherlands_eu_passport_number**
 
@@ -9365,7 +9366,7 @@ registration number
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_netherlands_eu_tax_file_number"></a>Keywords_netherlands_eu_tax_file_number
 
@@ -9439,7 +9440,7 @@ registration number
 </Entity>
 ```
 
-Ключевые слова
+Keywords
 
 Keyword_nz_terms
 
@@ -9488,7 +9489,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_norway_id_number"></a>Keyword_norway_id_number
 
@@ -9535,7 +9536,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_philippines_id"></a>Keyword_philippines_id
 
@@ -9582,7 +9583,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_poland_eu_driver "s_license_number**
 
@@ -9630,7 +9631,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_polish_national_id_passport_number"></a>Keyword_polish_national_id_passport_number
 
@@ -9675,7 +9676,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_pesel_identification_number"></a>Keyword_pesel_identification_number
 
@@ -9723,7 +9724,7 @@ Keyword_nz_terms
 </Version>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_polish_national_id_passport_number"></a>Keyword_polish_national_id_passport_number
 
@@ -9770,7 +9771,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_poland_eu_tax_file_number"></a>Keywords_poland_eu_tax_file_number
 
@@ -9837,7 +9838,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_portugal_citizen_card"></a>Keyword_portugal_citizen_card
 
@@ -9899,7 +9900,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_portugal_eu_driver "s_license_number**
 
@@ -9952,7 +9953,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_portugal_eu_passport_number**
 
@@ -9997,7 +9998,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_portugal_eu_tax_file_number"></a>Keywords_portugal_eu_tax_file_number
 
@@ -10061,7 +10062,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_romania_eu_driver "s_license_number**
 
@@ -10118,7 +10119,7 @@ Keyword_nz_terms
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_romania_eu_national_id_card"></a>Keywords_romania_eu_national_id_card
 
@@ -10205,7 +10206,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_romania_eu_passport_number**
 
@@ -10246,7 +10247,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_romania_eu_tax_file_number"></a>Keywords_romania_eu_tax_file_number
 
@@ -10335,7 +10336,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_saudi_arabia_national_id"></a>Keyword_saudi_arabia_national_id
 
@@ -10386,7 +10387,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_singapore_nric"></a>Keyword_singapore_nric
 
@@ -10434,7 +10435,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_slovakia_eu_driver "s_license_number**
 
@@ -10480,7 +10481,7 @@ Drivers License Drivers License Driver Driver водитель номер вод
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_slovakia_eu_national_id_card"></a>Keywords_slovakia_eu_national_id_card
 
@@ -10564,7 +10565,7 @@ Drivers License Drivers License Driver Driver водитель номер вод
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_slovakia_eu_passport_number**
 
@@ -10605,7 +10606,7 @@ Drivers License Drivers License Driver Driver водитель номер вод
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_slovakia_eu_tax_file_number"></a>Keywords_slovakia_eu_tax_file_number
 
@@ -10690,7 +10691,7 @@ Drivers License Drivers License Driver Driver водитель номер вод
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_slovenia_eu_driver "s_license_number**
 
@@ -10752,7 +10753,7 @@ Drivers License Drivers License Driver Driver водитель номер вод
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_slovenia_eu_national_id_card"></a>Keywords_slovenia_eu_national_id_card
 
@@ -10820,7 +10821,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_slovenia_eu_passport_number**
 
@@ -10865,7 +10866,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_slovenia_eu_tax_file_number"></a>Keywords_slovenia_eu_tax_file_number
 
@@ -10930,7 +10931,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_south_africa_identification_number"></a>Keyword_south_africa_identification_number
 
@@ -10982,7 +10983,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_south_korea_resident_number"></a>Keyword_south_korea_resident_number
 
@@ -11027,7 +11028,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_spain_eu_driver "s_license_number**
 
@@ -11102,7 +11103,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_spain_eu_national_id_card"></a>Keywords_spain_eu_national_id_card
 
@@ -11164,7 +11165,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_spain_eu_passport_number**
 
@@ -11214,7 +11215,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 Нет
 
@@ -11284,7 +11285,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_spain_eu_tax_file_number"></a>Keywords_spain_eu_tax_file_number
 
@@ -11361,7 +11362,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="cep_globalfilter"></a>CEP_GlobalFilter
 
@@ -11431,7 +11432,7 @@ national id
 </Entity> 
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 **Keywords_sweden_eu_driver "s_license_number**
 
@@ -11483,7 +11484,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 Нет
    
@@ -11523,7 +11524,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_sweden_passport"></a>Keyword_sweden_passport
 
@@ -11603,7 +11604,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_sweden_eu_ssn_or_equivalent"></a>Keywords_sweden_eu_ssn_or_equivalent
 
@@ -11667,7 +11668,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_sweden_eu_tax_file_number"></a>Keywords_sweden_eu_tax_file_number
 
@@ -11732,7 +11733,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_swift"></a>Keyword_swift
 
@@ -11802,7 +11803,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_taiwanese_national_id"></a>Keyword_taiwanese_national_id
 
@@ -11856,7 +11857,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_taiwan_passport"></a>Keyword_taiwan_passport
 
@@ -11901,7 +11902,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_taiwan_resident_certificate"></a>Keyword_taiwan_resident_certificate
 
@@ -11955,7 +11956,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_thai_citizen_id"></a>Keyword_Thai_Citizen_Id
 
@@ -12002,7 +12003,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_turkish_national_id"></a>Keyword_Turkish_National_Id
 
@@ -12048,7 +12049,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_uk_drivers_license"></a>Keyword_uk_drivers_license
 
@@ -12100,7 +12101,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_uk_electoral"></a>Keyword_uk_electoral
 
@@ -12153,7 +12154,7 @@ national id
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
    
 #### <a name="keyword_uk_nhs_number"></a>Keyword_uk_nhs_number
 
@@ -12236,7 +12237,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_uk_nino"></a>Keyword_uk_nino
 
@@ -12296,7 +12297,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keywords_uk_eu_tax_file_number"></a>Keywords_uk_eu_tax_file_number
 
@@ -12349,7 +12350,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_usa_bank_account"></a>Keyword_usa_Bank_Account
 
@@ -12428,7 +12429,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_us_drivers_license_abbreviations"></a>Keyword_us_drivers_license_abbreviations
 
@@ -12601,7 +12602,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_itin"></a>Keyword_itin
 
@@ -12623,7 +12624,7 @@ OR
 - DL 
 - доб 
 - Birthdate 
-- День рождения  
+- Birthday 
 - Date of Birth 
 
 ## <a name="us-social-security-number-ssn"></a>Номер социального страхования (SSN) США
@@ -12689,7 +12690,7 @@ OR
   </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_ssn"></a>Keyword_ssn
 
@@ -12732,7 +12733,7 @@ OR
 </Entity>
 ```
 
-### <a name="keywords"></a>Ключевые слова
+### <a name="keywords"></a>Keywords
 
 #### <a name="keyword_passport"></a>Keyword_passport
 

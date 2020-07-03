@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Узнайте о новых возможностях, которые были обновлены в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b3305a2d6fe2d25730b6d39891723675e7243f50
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fca455540ed3b01af3b9b4d2a6cd1053535f75b7
+ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936152"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "45035644"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 
@@ -150,7 +150,7 @@ ms.locfileid: "44936152"
 
 [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md#logon-types-and-mailbox-actions) (Обновлено)<br>Добавлены сведения о новом действии почтового ящика Маилитемсакцессед, которое было добавлено с расширенным аудитом.
 
-[Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) (обновленный)<br>Добавлены новые описания действий меток конфиденциальности и дополнительные сведения об аудите [действий с совместным доступом к формам](search-the-audit-log-in-security-and-compliance.md#forms-activities-performed-by-co-authors-and-anonymous-responders).
+[Поиск в журнале аудита](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) (обновленный)<br>Добавлены новые описания действий меток конфиденциальности и дополнительные сведения об аудите [действий с совместным доступом к формам](search-the-audit-log-in-security-and-compliance.md#forms-activities-performed-by-coauthors-and-anonymous-responders).
 
 ### <a name="compliance-offerings"></a>Предложения для соответствия требованиям
 

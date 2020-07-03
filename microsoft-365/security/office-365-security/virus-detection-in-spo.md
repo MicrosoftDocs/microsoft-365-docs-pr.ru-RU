@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Сведения о том, как SharePoint Online обнаруживает вирусы в файлах, отправляемых пользователями, и запрещает пользователям загружать или синхронизировать эти файлы.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a47f52a30f90d7a19cc01dc9e14eb9b534ec244
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 60d696769ea402e6e2d0e52a1f6633e7962b8329
+ms.sourcegitcommit: f2275d2fbc17a8b5b5da723c7353d3f36c6fb2a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034954"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45029612"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>Обнаружение вирусов в SharePoint Online
 
@@ -62,4 +62,10 @@ Microsoft 365 использует общий механизм обнаруже�
 
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>Что происходит, когда клиент синхронизации OneDrive пытается синхронизировать зараженный файл?
 
-Неважно, какой клиент вы используете  новый клиент синхронизации OneDrive (OneDrive.exe) или старый клиент синхронизации OneDrive для бизнеса(Groove.exe),  если файл содержит вирус, он не будет скачан. Клиент выведет уведомление о том, что файл невозможно синхронизировать.
+Whether users sync files with the new OneDrive sync client (OneDrive.exe) or the previous OneDrive for Business sync client (Groove.exe), if a file contains a virus, the sync client won't download it. The sync client will display a notification that the file can't be synced.
+
+## <a name="more-information"></a>Дополнительные сведения
+
+Для получения дополнительных сведений о настройке антивирусной программы SharePoint Online обратитесь к разделу [Защита от угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide#requirements) и [Включение ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams?view=o365-worldwide) .
+
+

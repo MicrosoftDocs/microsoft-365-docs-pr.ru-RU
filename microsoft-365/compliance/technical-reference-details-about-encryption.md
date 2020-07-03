@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Узнайте о различных сертификатах, технологиях и комплектах шифров TLS, используемых для шифрования в Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 298d73551b5eb3d7ad7121075b086ee4630562f4
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: 91fa21fff12c429032af6468ff3024acfc6ca2ab
+ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739114"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45024545"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Технические справочные сведения о шифровании
 
@@ -56,10 +56,9 @@ ms.locfileid: "44739114"
 
 Это не означает, что Office 365 блокирует подключения TLS 1,0 и 1,1.
 
-Протоколы TLS 1,0 и TLS 1,1 официально не рекомендуются для этих дат.
+Несмотря на то, что мы установили дату 1 июня, 2020 для протокола TLS 1,0 и TLS 1,1 для общемировых сред и версий GCC эта дата больше не действительна. Это было вызвано КОВИД-19. Когда у нас новая дата для этого, мы будем публиковать ее здесь. 
 
-- 1 июня 2020 г. в средах мира и GCC.
-- 15 января 2020 в средах GCC High и DoD.
+В средах GCC High и DoD, официальное прекращение возникло 15 января 2020 г.
 
 Необходимо убедиться, что все комбинации "клиент — сервер" и "Обозреватель – сервер" используют протокол TLS 1,2 и современные комплекты шифров для поддержания безопасного подключения к службам Office 365 и Microsoft 365. Возможно, придется обновить определенные сочетания клиент-сервер и браузер-сервер. Сведения о том, как это влияет, можно найти [в статье Подготовка к обязательному использованию протокола TLS 1,2 в Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
   
@@ -91,7 +90,7 @@ ms.locfileid: "44739114"
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные статьи
 [Комплекты шифров TLS в Windows 10 v1903](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)
 
 [Шифрование в Office 365](encryption.md)
