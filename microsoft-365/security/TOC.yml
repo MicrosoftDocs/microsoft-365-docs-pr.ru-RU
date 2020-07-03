@@ -217,7 +217,7 @@
               href: mtp/feedback.md
             - name: Управление билетами с помощью ServiceNow
               href: ./mtp/tickets.md
-    - name: "Office\_365 Advanced Threat Protection"
+    - name: Безопасность Office 365
       items:
         - name: Начало работы
           items:
@@ -366,7 +366,7 @@
               href: ./office-365-security/security-dashboard.md
             - name: Просмотр сведений о вредоносных файлах
               href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
-        - name: Расширенная защита от угроз
+        - name: "Office\_365 Advanced Threat Protection"
           href: ./office-365-security/office-365-atp.md
           items:
             - name: Новые возможности
