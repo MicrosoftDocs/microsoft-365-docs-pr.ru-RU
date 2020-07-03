@@ -93,14 +93,12 @@
               href: manage/assign-licenses-to-users.md
             - name: Назначение ролей администратора
               href: add-users/assign-admin-roles.md
+            - name: Отмена назначения лицензий пользователям
+              href: manage/remove-licenses-from-users.md
             - name: Гостевые пользователи
               href: add-users/about-guest-users.md
             - name: Добавление гостевых пользователей в группу Microsoft 365
               href: create-groups/manage-guest-access-in-groups.md
-            - name: Удаление лицензий пользователей
-              href: manage/remove-licenses-from-users.md
-            - name: Устранение конфликтов лицензий
-              href: manage/resolve-license-conflicts.md
             - name: Изменение имени пользователя и адреса электронной почты
               href: add-users/change-a-user-name-and-email-address.md
             - name: Удаление бывшего сотрудника
