@@ -20,36 +20,36 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Как правило, в рамках решения для управления записями можно настроить метку хранения, чтобы начать период хранения, который зависит от возникновения указанного вами события.
-ms.openlocfilehash: 1e716cc886e8378308054d4f2eedf961045f4486
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 29cf69930cdd99d3023a65e55e1186990a650e85
+ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817808"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44900803"
 ---
 # <a name="overview-of-event-driven-retention"></a>Общие сведения о хранении, зависящем от возникновения события
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-When you retain content, the retention period is often based on the age of the content - for example, you might retain documents for seven years after they're created and then delete them. But with retention labels in Microsoft 365, you can also base a retention period on when a specific type of event occurs. The event triggers the start of the retention period, and all content with a retention label applied for that type of event get the label's retention actions enforced on them.
+When you retain content, the retention period is often based on the age of the content. For example, you might retain documents for seven years after they're created and then delete them. But when you configure [retention labels](labels.md), you can also base a retention period on when a specific type of event occurs. The event triggers the start of the retention period, and all content with a retention label applied for that type of event get the label's retention actions enforced on them.
   
-Метки с хранением, зависящим от возникновения события, можно использовать, например, в таких случаях:
+Примеры использования хранения на основе событий.
   
-- **Employees leaving the organization** Suppose that employee records must be retained for 10 years from the time an employee leaves the organization. After 10 years elapse, all documents related to the hiring, performance, and termination of that employee need to be disposed. The event that triggers the 10-year retention period is the employee leaving the organization. 
+- **Сотрудники, покидающие организацию**. Предположим, что записи сотрудников нужно хранить в течение 10 лет с того момента, когда они покинули организацию. По истечении 10 лет все документы, связанные с наймом, результатами работы и увольнением сотрудника необходимо ликвидировать. Событием, которое активирует 10-летний период хранения, является уход сотрудника из организации. 
     
-- **Contract expiration** Suppose that all records related to contracts need to be retained for five years from the time the contract expires. The event that triggers the five-year retention period is the expiration of the contract. 
+- **Окончание срока действия договора**. Предположим, что все записи, связанные с договорами, нужно хранить в течение пяти лет с момента окончания срока действия договора. Событием, активирующим пятилетний период хранения, будет окончание срока действия договора. 
     
 - **Product lifetime** Your organization might have retention requirements related to the last manufacturing date of products for content such as technical specifications. In this case, the last manufacturing date is the event that triggers the retention period. 
     
 Event-driven retention is typically used as part of a records-management process. This means that:
   
-- Labels based on events also usually classify content as a record. For more information, see [Using Content Search to find all content with a specific retention label applied to it](labels.md#using-content-search-to-find-all-content-with-a-specific-retention-label-applied-to-it).
+- Метки на основе события также обычно определяют контент как запись. Дополнительную информацию см. в статье [Сведения о записях](records.md).
     
-- Документ, который был объявлен записью, но для которого событие-триггер еще не наступило, хранится в течение неограниченного времени (окончательно удалить записи невозможно), пока событие не активирует период его хранения.
+- Документ, который был обозначен как запись, но для которого активирующее событие еще не наступило, хранится в течение неограниченного времени (окончательно удалить записи невозможно), пока некоторое событие не активирует период его хранения.
     
-- Retention labels based on events usually trigger a disposition review at the end of the retention period, so that a records manager can manually review and dispose the content. For more information, see [Disposition of content](disposition.md).
+- Метки хранения на основе события в конце периода хранения обычно активируют проверку перед ликвидацией, что позволяет лицу, ответственному за управление записями, вручную просмотреть и ликвидировать контент. Дополнительные сведения см. в статье [Ликвидация контента](disposition.md).
     
-У меток на основе событий те же возможности, что и у всех других меток хранения в Microsoft 365. Дополнительную информацию см. в статье [Сведения о метках хранения](labels.md).
+Метки хранения на основе события имеют те же возможности, что и все остальные метки хранения в Microsoft 365. Дополнительную информацию см. в статье [Сведения о метках хранения](labels.md).
 
 ## <a name="understanding-the-relationship-between-event-types-labels-events-and-asset-ids"></a>Взаимосвязь между типами событий, метками, событиями и идентификаторами ресурсов
 
@@ -71,7 +71,7 @@ Event-driven retention is typically used as part of a records-management process
     
   - The date when the event occurred. This date is used as the start of the retention period. This date can be the current, a past, or a future date.
     
-4. После создания события эта дата события синхронизируется со всем контентом, который имеет метку хранения этого типа и которая содержит указанный идентификатор актива или ключевое слово. Как и любая метка хранения, эта синхронизация может занять до 7 дней. На предыдущей диаграмме все элементы, обведенные красным, имеют период хранения, инициируемый этим событием. Другими словами, когда срок действия этого продукта истекает, это событие запускает период хранения для записей этого продукта.
+4. После создания события эта дата события синхронизируется со всем контентом, который имеет метку хранения этого типа и которая содержит указанный идентификатор актива или ключевое слово. Как и любая метка хранения, эта синхронизация может занять до 7 дней. На предыдущей схеме все элементы, обведенные красным, имеют период хранения, активированный этим событием. Другими словами, когда срок действия этого продукта истекает, это событие запускает период хранения для записей этого продукта.
     
 Важно понимать, что если вы не укажете идентификатор ресурса или ключевые слова для события, у **всего содержимого**, которому присвоена метка события такого типа, будет период хранения, определяемый событием. Это означает, что на предыдущей диаграмме все содержимое начало бы сохраняться. Это может быть не то, что вы намерены. 
   
@@ -88,27 +88,25 @@ Event-driven retention is typically used as part of a records-management process
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>Шаг 1. Создайте метку, период хранения которой зависит от возникновения события
 
-В Центре соответствия требованиям Microsoft 365 на панели навигации слева выберите **Управление информацией** > **Метки** > **Создать метку**. Если элемент **Управление информацией** не отображается в области навигации, прокрутите вниз и выберите **Показать все**.
+Чтобы создать и настроить метку хранения, следуйте инструкциям, приведенным в статье [Создание и настройка меток хранения](create-retention-labels.md#create-and-configure-retention-labels), а при включении хранения выберите вариант действия с контентом исходя из события — сохранение или удаление. Этот параметр означает, что параметры хранения вступят в силу только после создания вами на шаге 5 события на странице **События**. 
   
-When you create the label, turn on retention, and then choose the option shown below to retain or delete the content based on an event. This means that the retention settings won't go into effect until Step 5, when you create an event on the **Events** page. 
+Хранение на основе событий обычно используется для контента, обозначенного как запись, поэтому рекомендуется также проверить, не нужно ли выбрать параметр, помечающий контент как запись.
   
-Обратите внимание, что управляемое событиями хранение обычно используется для контента, который классифицируется как запись. По этой причине, когда вы создаете метки хранения на основе события, вы обычно выбираете опцию **Использовать метку, чтобы классифицировать контент как "Запись"**.
-  
-Обратите внимание также на то, что для хранения, зависящего от возникновения события, требуются настройки, согласно которым будет выполняться:
+Для хранения на основе событий требуются настройки хранения, согласно которым будет выполняться следующее:
   
 - хранение содержимого;
     
 - автоматическое удаление содержимого или активация проверки перед ликвидацией в конце периода хранения.
     
 ![Возможность создать метку на основе события](../media/a4902281-5196-4194-9737-f30231d95861.png)
-  
+
 ### <a name="step-2-choose-an-event-type-for-that-label"></a>Шаг 2. Выберите тип события для такой метки
 
 После того как вы выберете для метки параметр, позволяющий связать ее с **событием**, вы увидите команду **Выбрать тип события**. Тип события — это просто общее описание события, которое нужно связать с меткой.
   
 Например, если вы создадите тип события с именем Product Lifetime, вы создадите метки хранения на основе событий с именами, которые описывают, к каким типам контента вы хотите применить метки, например «Файлы разработки продукта» или «Бизнес продукта». записи решений ".
   
-Обратите внимание, что после выбора типа события и создания метки хранения тип события не может быть изменен.
+После выбора типа события и создания метки хранения тип события не изменить нельзя.
   
 ![Возможности создания или выбора типа события](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
   
@@ -136,13 +134,13 @@ After an event-driven label is applied to content, you can enter an asset ID for
     
 - идентификаторы сотрудников для хранения содержимого, касающегося только конкретного лица.
     
-Важно понимать, что идентификатор ресурса — это лишь одно из свойств документа в SharePoint и OneDrive для бизнеса. Ваша организация может уже использовать другие свойства и идентификаторы документов для классификации содержимого. Если это так, вы также можете использовать эти свойства и значения при создании события — см. следующий шаг 6. Важно то, что необходимо использовать определенное сочетание "свойство:значение" в свойствах документа, чтобы связать элемент с типом события.
+Идентификатор ресурса — это лишь еще одно свойство документа в SharePoint и OneDrive. Ваша организация может уже использовать другие свойства и идентификаторы документов для классификации содержимого. Если это так, вы также можете использовать эти свойства и значения при создании события — см. следующий шаг 6. Важно то, что необходимо использовать определенное сочетание "свойство:значение" в свойствах документа, чтобы связать элемент с типом события.
   
 ![Текстовое поле для ввода идентификатора ресурса](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
 ### <a name="step-5-create-an-event"></a>Шаг 5. Создайте событие
 
-When a particular instance of that event type occurs - for example, a product reaches its end of life - go to the **Records management** > **Events** page in the Microsoft 365 compliance center and create an event. You need to manually trigger an event by creating it.
+Когда возникнет конкретное событие такого типа (например, когда завершится срок службы продукта), перейдите на страницу **Управление записями** > **События** в Центре соответствия требованиям Microsoft 365 и создайте событие. Вам необходимо вручную активировать событие путем его создания в системе.
   
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Шаг 6. Выберите тип события, который использовался для метки из описания шага 2
 
@@ -154,25 +152,28 @@ When a particular instance of that event type occurs - for example, a product re
 
 Now you narrow the scope of the content by specifying asset IDs for SharePoint and OneDrive content or keywords for Exchange content. For asset IDs, retention will be enforced only on content with the specified property:value pair. If an asset ID is not entered, **all content** with labels of that event type get the same retention date applied to them. 
   
-Важно понимать, что идентификатор ресурса — это лишь одно из свойств документа в SharePoint и OneDrive для бизнеса. Если вы используете свойство Asset ID, в поле для идентификаторов ресурсов следует ввести ComplianceAssetID:\<value\>, как показано ниже.
+Идентификатор ресурса — это лишь еще одно свойство документа в SharePoint и OneDrive. Если вы используете свойство Asset ID, в поле для идентификаторов ресурсов следует ввести `ComplianceAssetID:<value>`, как показано ниже.
   
-Your organization might have applied other properties and IDs to the documents related to this event type. For example, if you need to detect a specific product's records, the ID might be a combination of your custom property ProductID and the value "XYZ". In this case, you'd enter ProductID:XYZ in the box for asset IDs shown below.
+Возможно, к документам, связанным с этим типом события, в вашей организации применяются другие идентификаторы и свойства. Например, если вам нужно найти записи, относящиеся к конкретному продукту, вы можете использовать в качестве идентификатора сочетание настраиваемого свойства ProductID и значения XYZ. В этом случае в поле для идентификаторов ресурса следует ввести `ProductID:XYZ`, как показано ниже.
   
 For Exchange items, you can include keywords. You can refine your query by using search operators like AND, OR, and NOT. For more information on operators, see [Keyword queries and search conditions for Content Search](keyword-queries-and-search-conditions.md).
   
-Наконец, выберите дату, когда произошло событие; эта дата используется как начало срока хранения. После создания события эта дата события синхронизируется со всем содержимым с меткой хранения этого типа события, идентификатором ресурса и ключевыми словами. Как и любая метка хранения, эта синхронизация может занять до 7 дней.
+Наконец, выберите дату, когда произошло событие; эта дата используется как начало срока хранения. После создания события эта дата события синхронизируется со всем содержимым с меткой хранения этого типа события, идентификатором ресурса и ключевыми словами. Как и в случае любой другой метки хранения, эта синхронизация может занять до 7 дней.
   
 ![Страница параметров события](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
-  
-## <a name="use-content-search-to-find-all-content-with-a-specific-label-or-asset-id"></a>Использование средства "Поиск контента" для поиска всего содержимого с определенной меткой или определенным идентификатором ресурса
 
-После назначения меток хранения контенту можно использовать поиск контента, чтобы найти весь контент, классифицированный с определенной меткой хранения или содержащий определенный идентификатор ресурса.
+> [!NOTE]
+> После создания события параметры хранения вступят в силу для контента, который уже снабжен метками и индексирован. Если метка хранения добавляется к новому контенту после создания события, необходимо создать другое событие с теми же данными.
+
+Удаление события не отменяет параметры хранения, которые вступили в действие в отношении контента, который уже снабжен меткой. Чтобы сделать это, создайте событие с теми же данными, но оставьте поле даты пустым. 
+
+## <a name="use-content-search-to-find-all-content-with-a-specific-label-or-asset-id"></a>Использование средства "Поиск контента" для поиска всего контента с определенной меткой или определенным идентификатором ресурса
+
+После назначения меток хранения контенту можно использовать поиск контента, чтобы найти весь контент, обозначенный определенной меткой хранения или содержащий определенный идентификатор ресурса.
   
-Применение запросов на поиск содержимого:
-  
-- Чтобы найти все содержимое с определенной меткой хранения, выберите условие **Метка соответствия**, затем введите полное имя метки или часть имени метки и используйте подстановочный знак. 
+- Чтобы найти весь контент с определенной меткой хранения, выберите условие **Метка соответствия требованиям**, а затем введите полное имя метки или его часть с использованием подстановочного знака. 
     
-- Чтобы найти все содержимое с определенным идентификатором ресурса, введите свойство **ComplianceAssetID** и значение (например, ComplianceAssetID:\<value\>). 
+- Чтобы найти весь контент с определенным идентификатором ресурса, введите свойство **ComplianceAssetID** и значение, используя формат `ComplianceAssetID:<value>`. 
     
 Дополнительные сведения см. в статье [Запросы по ключевым словам и условия для средства "Поиск контента"](keyword-queries-and-search-conditions.md).
   
@@ -184,7 +185,7 @@ To get access to the **Events** page, reviewers must be members of a role group 
   
 ## <a name="automate-events-by-using-powershell"></a>Автоматизация событий с помощью PowerShell
 
-In the admin center, you can only create events manually; it's not possible to automatically trigger an event when it occurs. However, you can use a Rest API to trigger events automatically; for more information, see [Automate event-based retention](automate-event-driven-retention.md).
+Центр соответствия требованиям Microsoft 365 позволяет создавать события вручную и не поддерживает автоматическую активацию события при его возникновении. Однако для автоматической активации событий можно использовать API REST. Дополнительные сведения см. в статье [Автоматизация хранения на основе событий](automate-event-driven-retention.md).
 
 Кроме того, с помощью сценария PowerShell можно автоматизировать хранение на основе событий из бизнес-приложений. Командлеты PowerShell, доступные для хранения на основе событий:
   
