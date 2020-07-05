@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Узнайте, как подготовиться к обслуживанию Windows и Office в вашей среде.
-ms.openlocfilehash: f30581408be1c69d7aec7e31e9b5d6461266adb1
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: e9de339c6bc66e5cd3c02af5f6a53c32b7573b1f
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222677"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679006"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>Этап 7. Обслуживание Windows и Office
 
@@ -30,7 +30,7 @@ ms.locfileid: "44222677"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
 <td><p><strong>Этап 7. Обслуживание Windows и Office</strong></p>
-<p>В Windows 10 и в приложениях Microsoft 365 для предприятий постоянно добавляются новые функции, чтобы развивать пользовательский интерфейс и средства безопасности в соответствии с новейшими инновациями. Узнайте, как обеспечивать актуальность с помощью полугодичных и ежемесячных обновлений, как работают новые модели обслуживания и какие у вас есть инструменты и возможности.</p></td>
+<p>Both Windows 10 and Microsoft 365 Apps for enterprise continually add new capabilities to keep bringing user experiences and security forward with the latest innovations. Learn how to stay current with semi-annual and monthly updates, how the new servicing model works and the tools and options you have.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -45,7 +45,7 @@ ms.locfileid: "44222677"
 
 ## <a name="update-types"></a>Типы обновлений
 
-Обновления делятся на две основные категории: обновления компонентов и исправления с обновлениями для системы безопасности, содержащие накопительные пакеты исправлений ошибок, а также улучшений безопасности и надежности. Что касается частоты, для Windows и Office доступен канал Semi-Annual Channel, предоставляющий новые возможности дважды в год (в марте и сентябре), в то время как исправления и обновления для системы безопасности выпускаются ежемесячно. Кроме того, исключительно для приложений Office 365 мы предоставляем обновления на канале Monthly Channel, которые полностью поддерживаются и содержат как новые возможности, так и исправления.
+Обновления делятся на две основные категории: обновления компонентов и исправления с обновлениями для системы безопасности, содержащие накопительные пакеты исправлений ошибок, а также улучшений безопасности и надежности. Что касается частоты, для Windows и Office доступен канал Semi-Annual Channel, предоставляющий новые возможности дважды в год (в марте и сентябре), в то время как исправления и обновления для системы безопасности выпускаются ежемесячно. Кроме того, исключительно для приложений Office 365 мы предоставляем обновления в Актуальном канале, которые полностью поддерживаются и содержат как новые возможности, так и исправления.
 
 Если вы привыкли более продолжительному циклу обновления ОС и приложений, вы можете спросить:
 
@@ -59,7 +59,7 @@ ms.locfileid: "44222677"
 
 ### <a name="feature-update-benefits"></a>Преимущества обновлений компонентов
 
-Во-первых, мы отказались от старой модели, которая создавала огромные волны перемен примерно каждые три года, в пользу небольших добавочных изменений с выпуском обновлений компонентов дважды в год. Почему? Технологии, как и угрозы безопасности, стремительно развиваются, поэтому возможности и защиту требуется поддерживать в актуальном состоянии. Например, некоторые обновления, связанные с безопасностью, невозможно просто доставлять в ежемесячных обновлениях для системы безопасности или файлах сигнатур антивируса. Это могут быть низкоуровневые изменения платформы, например защиты на основе виртуализации.
+First, we’ve moved away from the model of the past that would introduce huge waves of change around every three years to now incremental smaller changes with feature updates twice per year. Why? With technology trends moving so fast in addition to rapidly evolving security threats, this keeps experiences and protections current. Some of the security related updates for example can’t just be delivered by monthly security updates or antivirus signature files; they may be low-level changes platform, like virtualization-based security.
 
 [Краткое руководство по модели "Windows как услуга"](https://docs.microsoft.com/windows/deployment/update/waas-quick-start)
 
@@ -67,19 +67,19 @@ ms.locfileid: "44222677"
 
 ### <a name="cumulative-update-model-benefits"></a>Преимущества модели накопительных пакетов обновления
 
-Доставка исправлений и обновлений для системы безопасности в виде накопительного пакета обновления исправляет множество возникавших ранее проблем. Раньше каждый месяц приходилось выбирать нужные компоненты из десятков доступных обновлений для Windows и Office. Как вы можете представить, это делает поддержку тестовых матриц практически невозможной. Кроме того, если установить версию Windows или Office, вышедшую более года назад, то применение всех обновлений, выпущенных с момента выхода этой версии, может занять часы или даже дни.
+Second delivering quality and security updates as a cumulative update package corrects many of the issues of the past. It used to be that you might pick and choose sometimes from a dozen updates or more each month for both Windows and Office. As you can imagine, this creates a nearly impossible set of test matrices for support. Also, if you install a version of Windows or Office that is a year or more old, it might take hours or sometimes days to apply all updates delivered since that version was released.
 
-С накопительной моделью от актуальной версии вас всегда отделяет лишь одно обновление, поэтому необходимое количество ежемесячных обновлений снижается. Каждое обновление дополняет выпуски за предыдущие месяцы и содержит все исправления, необходимые для обеспечения актуальности. Накопительные пакеты обновления особенно полезны для тех компьютеров, которые были отключены в течение нескольких месяцев, так как находились на складе, ожидая переназначения другому пользователю.
+With the cumulative model, you’re always one update away from being current and in doing so the number of monthly updates that you need to deploy is reduced. Each update builds upon updates from previous months and contains all of the fixes that you need to get current. Cumulative updates are especially helpful when PCs has been turned off for several months because they are in storage waiting to be reassigned to a different user.
 
 ### <a name="expanded-validation-of-updates"></a>Расширенная проверка обновлений
 
 Еще одно преимущество заключается в том, что перед широким развертыванием обновлений мы сначала выпускаем сборки через программы предварительной оценки [Office](https://products.office.com/office-insider?tab=Windows-Desktop) и [Windows](https://insider.windows.com/), что позволяет нам собирать диагностические данные и отзывы до выпуска общедоступной версии. В настоящее время программы предварительной оценки открыты для всех, поэтому вы можете заранее осваивать новые обновления. К моменту выпуска мы собираем диагностические данные с миллионов конфигураций, поэтому можем быть уверены в качестве общедоступных обновлений.
 
-И еще: сборки для участников программы предварительной оценки приложений Microsoft 365 для предприятий основаны на обновлениях Monthly Channel, поэтому если вы используете Semi-Annual Channel для Office, чтобы доставлять обновления компонентов дважды в год, как и для Windows, то вы можете проверять эти сборки заранее, а также использовать выпуски для Semi-Annual Channel.
+И еще: сборки для участников программы предварительной оценки Приложений Microsoft 365 для предприятий основаны на обновлениях Monthly Channel, поэтому если вы используете Semi-Annual Channel для Office, чтобы доставлять обновления компонентов дважды в год, как и для Windows, то вы можете проверять эти сборки заранее, а также использовать выпуски Полугодового канала (предварительной корпоративной версии).
 
 ### <a name="supporting-management-tools"></a>Вспомогательные средства управления
 
-Мы также продумали удобное развертывание обновлений. Configuration Manager (Current Branch) часто обновляется для поддержки новых возможностей и развертывания этих обновлений в Windows и Office.
+We've also thought through how to make the deployment of updates seamless to you. Configuration Manager (Current Branch) is updated frequently to support the roll-out of these updates to Windows and Office and any new capabilities.
 
 [Развертывание обновлений Windows 10 с помощью Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
@@ -96,9 +96,9 @@ ms.locfileid: "44222677"
 Для Microsoft 365 предлагается четыре канала обслуживания:
 
 - [**Программа предварительной оценки Office**](https://products.office.com/office-insider) для тестирования организациями новых возможностей и функций Office, которые находятся в разработке, и предоставления отзыва о них
-- **Monthly Channel** для предоставления пользователям новейших возможностей Office по мере их выпуска
-- **Semi-Annual Channel** предоставляет новые функции в новых компонентах только два раза в год
-- **Semi-Annual Channel (Targeted)**  — полностью поддерживаемая сборка Office, которая позволяет пилотным пользователям и тестировщикам совместимости приложений тестировать и проверять следующий выпуск Semi-Annual Channel
+- **Актуальный канал** для предоставления пользователям новейших возможностей Office по мере их выпуска
+- **Полугодовой канал (корпоративный)** предоставляет новые функции в новых компонентах только два раза в год
+- **Полугодовой канал (предварительная корпоративная версия)**  — полностью поддерживаемая сборка Office, которая позволяет пилотным пользователям и тестировщикам совместимости приложений тестировать и проверять следующий выпуск Полугодового канала (корпоративного)
 
 Подробные сведения о каналах обслуживания Windows и Office см. в указанных ниже статьях.
 
@@ -107,15 +107,15 @@ ms.locfileid: "44222677"
 
 ## <a name="phased-deployment-of-updates"></a>Поэтапное развертывание обновлений
 
-Теперь перейдем к развертыванию этих обновлений. Для любого выпуска рекомендуем выполнять развертывание как минимум в три этапа: проверка, пилотное тестирование и широкое развертывание в рабочей среде. Когда Windows 10 и приложения Microsoft 365 для предприятий будут готовы к работе, вы будете использовать ежемесячное обслуживание, чтобы поддерживать их актуальность с помощью обновлений для системы безопасности и исправлений, а новые функции будут добавляться в рамках полугодичного обслуживания.
+Now let’s shift gears to how you will roll out these updates. For any release, we recommend at least three deployment phases for IT – validation, piloting and broad production deployment. Once you’re up and running on Windows 10 and Microsoft 365 Apps for enterprise, you'll use monthly servicing to stay current with critical security and quality updates, then you’ll move to semi-annual servicing for new features.
 
 ### <a name="monthly-updating"></a>Ежемесячное обновление
 
-Эта модель обслуживания устроена так, чтобы вы могли сократить частоту развертывания новых функций до двух раз в год, а при необходимости даже пропускать полугодичные обновления и продолжать получать исправления и обновления для системы безопасности. Как уже упоминалось, накопительный характер ежемесячных обновлений означает, что их размер будет увеличиваться каждый месяц.
+The service model is designed so you can choose to limit the roll-out of new features to twice per year, and if needed you can even skip a semi-annual update and continue receiving quality and security updates. As mentioned, the cumulative nature of monthly updates means each will increase in size per month.
 
 #### <a name="express-updates"></a>Экспресс-обновления
 
-С помощью технологии "экспресс-обновлений" в Windows и двоичного разностного сжатия в Office мы можем значительно уменьшать размер скачиваемых файлов. В обоих случаях системы обновления проверяют версию, установленную на компьютере, и находят отличия, которые требуется обновить.
+Using a technology called "Express Updates" in Windows and Binary Delta Compression in Office, we can reduce the download size significantly. In both approaches, the update engines compare what’s on the PC and finds only the differentials needed to update what’s there.
 
 [Описание исправлений Windows 10 и сведения об окончании выпуска разностных обновлений](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-10-quality-updates-explained-amp-the-end-of-delta/ba-p/214426)
 
@@ -127,7 +127,7 @@ ms.locfileid: "44222677"
 
 Двоичное разностное сжатие в Office используется только при обновлении последней версии приложений Microsoft 365 для предприятий. Для использования этого подхода необходимо обновлять предыдущую сборку и нельзя пропускать обновления.
 
-Каналами обновления Windows и Office можно управлять с помощью Configuration Manager, используя стандартный процесс утверждения и таргетинга. Кроме того, вы можете использовать параметры политики в Office и Windows, чтобы принудительно применять определенные каналы обновления, а также связанные с ними параметры.
+Windows and Office update channels can be managed via Configuration Manager using the standard approval and targeting process. Additionally, you can use policy settings in Office and Windows to enforce update channels used, as well as related settings.
 
 ### <a name="semi-annual-updates"></a>Полугодичные обновления
 
@@ -135,13 +135,13 @@ ms.locfileid: "44222677"
 
 Как упоминалось в статье "Готовность устройств и приложений", подготовку к этим крупным обновлениям следует начать с помощью тех же средств обеспечения готовности, которые мы настроили на 1-м этапе развертывания.
 
-Что касается инструментария, вы можете использовать параметры политики в центре обновления Windows для бизнеса, средства управления обновлениями ПО в Microsoft Endpoint Configuration Manager (Current Branch), Windows Server Update Services (WSUS) или политики обновления, заданные в Microsoft Intune. Если вас беспокоит пропускная способность сети, см. статью "Этап 2. Готовность каталогов и сети", чтобы узнать, как вы можете уменьшить сетевой трафик с помощью оптимизации доставки и других технологий однорангового кэширования.
+As for tooling, you can use policy settings with Windows Update for Business, software update management via Microsoft Endpoint Configuration Manager (Current Branch), Windows Server Update Services (WSUS), or update policies set by Microsoft Intune. If you are concerned about network bandwidth, see Step 2: Directory and Network Readiness, to learn about your options to reduce network traffic via Delivery Optimization and other peer to peer caching technologies.
 
 ![](../media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
 
 [Windows Semi-Annual Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Semi-Annual Channel для приложений Microsoft 365](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
+[Полугодовой канал (корпоративный) для Приложений Microsoft 365 для предприятий](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>Последовательности задач обновления
 
@@ -151,7 +151,7 @@ ms.locfileid: "44222677"
 
 ![](../media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-5.png)
 
-Если вы уже используете последовательности задач для переноса компьютеров с Windows 7 на Windows 10 и хорошо владеете этими инструментами, то это отличная отправная точка, предоставляющая полный контроль. Вы можете использовать одну последовательность задач для всего обновления, но во многих организациях используется две последовательности. Одна гарантирует, что компьютеры готовы к обновлению, незаметно подготавливая все необходимые установочные файлы на целевых компьютерах, а другая выполняет само обновление. Этот подход обеспечивает меньшее воздействие на продуктивность пользователей.
+If you’re already using task sequences to migrate your Windows 7 machines to Windows 10 and are well-versed with those tools, this is a great place to start and provides ultimate control. While you can use a single task sequence for the entire upgrade, it is quite common that organizations use two task sequences. One task sequence for making sure the machines are ready for the upgrade, that silently pre-stages all the required setup files on target computers, and one to do the actual upgrade. This approach ensures that your user productivity is less impacted.
 
 [Создание последовательности задач для обновления операционной системы в Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 

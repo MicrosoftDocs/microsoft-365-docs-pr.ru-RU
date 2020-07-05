@@ -13,24 +13,25 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: Получите периодический отчет о том, как сотрудники вашей организации используют службы Microsoft 365. Панель мониторинга «Обзор использования» позволяет детально изучить каждый график.
-ms.openlocfilehash: 665512e322eadd2f590fb5109fd6f1a9e7706e61
-ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
+ms.openlocfilehash: f1902c71b167d6293530eae61fa6c57d63c5f06c
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43794021"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44387805"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>Отчеты по Microsoft 365 в Центре администрирования
 
-Вы можете без труда узнать, как сотрудники вашей компании используют службы Microsoft 365. Например, вы можете выяснить, кто использует службы активно и почти выбрал квоты, а кому лицензия на Microsoft 365, возможно, не нужна совсем.
+You can easily see how people in your business are using Microsoft 365 services. For example, you can identify who is using a service a lot and reaching quotas, or who may not need an Microsoft 365 license at all.
   
-Доступны отчеты за последние 7, 30, 90 и 180 дней. В начале каждого из периодов отчетные данные отсутствуют, поэтому отчеты появляются в течение 48 часов.
+Reports are available for the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
   
 Смотрите это видео на обзор: о том, как вы можете использовать отчеты:
   
@@ -97,6 +98,8 @@ ms.locfileid: "43794021"
 - [Использование почтовых приложений](email-apps-usage.md)
 
 - [Активность в Forms](forms-activity.md)
+
+- [Активность в Forms Pro](forms-pro-activity.md)
   
 - [Группы Microsoft 365](office-365-groups.md)
   
@@ -156,7 +159,7 @@ ms.locfileid: "43794021"
   
 ## <a name="how-to-view-usage-information-for-a-specific-user"></a>Просмотр сведений об использовании для определенного пользователя
 
-Чтобы определить, в каком объеме использует службу конкретный пользователь, используйте отчеты по этой службе. Например, чтобы узнать, какой объем хранилища почтовых ящиков использовал конкретный пользователь, откройте отчет "Использование почтового ящика" и отсортируйте пользователей по имени. Если у вас тысячи пользователей, экспортируйте отчет в Excel, чтобы можно было быстро отфильтровать список.
+Use the service reports to research how much a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel so you filter through the list quickly.
   
 Невозможно создать отчет, в котором указывается учетная запись пользователя и выводится список служб, которые он использует и в каком объеме.
   
@@ -174,7 +177,7 @@ ms.locfileid: "43794021"
   
 ![Отчеты — список анонимных пользователей](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
-Изменения будут применены к отчетам на панели мониторинга через несколько минут. Этот параметр также влияет на API отчетов.
+It'll take a few minutes for these changes to take effect on the reports in the reports dashboard. This setting also applies to the reports API.
   
 ## <a name="what-happens-to-usage-data-when-a-user-account-is-closed"></a>Что происходит с данными об использовании, когда учетная запись пользователя закрыта?
 

@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказывается, как оценить готовность каталогов и сети в среде.
-ms.openlocfilehash: b9b2ed38afd77a5dd487b7e319eeee5300a62a25
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 78087b7e0c1cb7031954d3a9ac4188b59879db20
+ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011655"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44679018"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>Этап 2. Готовность каталогов и сети
 
-Убедитесь, что каталог и сеть настроены и готовы к поддержке перехода на Windows 10 и приложения Microsoft 365 для предприятий. Для этого у пользователей должны быть настроены службы Azure Active Directory, а пропускная способность сети должна быть достаточной как для обычного трафика, так и для передачи больших объемов данных во время обновления компьютеров с восстановлением файлов, параметров и приложений пользователей.
+Ensure your directory and the network are configured and ready to support to your shift to Windows 10 and Microsoft 365 Apps for enterprise. This will require Azure Active Directory Services to be in place for users, and your network must have the capacity to handle both its regular traffic and the movement of potentially vast amounts of data as PCs are upgraded, and users’ files, settings and applications are restored.
 
 ![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "44011655"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
 <td><p><strong>Этап 2. Проверка готовности каталогов и сети</strong></p>
-<p>Облачные службы в приложениях Microsoft 365 для предприятий и новые возможности развертывания, например Windows Autopilot, требуют Azure Active Directory. Сеть и возможности подключения также важны для планирования при перемещении изображений, приложений, драйверов и соответствующих файлов Windows на ваш компьютер. Узнайте, как новые инструменты и возможности развертывания уменьшают и оптимизируют сетевой трафик.</p></td>
+<p>Cloud connected services in Microsoft 365 Apps for enterprise and new deployment options like Windows Autopilot require Azure Active Directory. Your network and connectivity are also important areas to plan when moving Windows images, apps, drivers and related files to your PCs. Learn how new tools and deployment options reduce and streamline network traffic.</p></td>
 <td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -41,9 +41,9 @@ ms.locfileid: "44011655"
 >Обеспечение готовности каталогов и сети — второй этап рекомендуемого нами процесса развертывания, при котором основное внимание уделяется Azure Active Directory и оптимизации сети. Полный процесс развертывания для настольных ПК описан в статье [Центр развертывания компьютеров](https://aka.ms/HowToShift).
 >
 
-Готовность каталогов и сети крайне важна для успешного развертывания ОС и компьютеров. Как и при любом автоматическом развертывании, важно обеспечить доступность сетевых папок, а сеть должна поддерживать передачу очень больших файлов, иногда на сотни или даже на тысячи компьютеров одновременно.
+Directory and Network readiness is fundamental to ensuring a smooth OS and desktop deployment. As with any automated deployment, it is important to ensure your file shares can be reached, and your network will need to be able to support the transfer of very large files, possibly to hundreds or even thousands of PCs at a time.
 
-С переходом на Windows 10 и приложения Microsoft 365 для предприятий вам также необходимо убедиться, что в Azure Active Directory настроены облачные удостоверения. Это не только важно для активации приложений Microsoft 365 для предприятий, но и позволяет пользоваться современными решениями для подготовки, например Windows Autopilot.
+With your shift to Windows 10 and Microsoft 365 Apps for enterprise you also now need to make sure that cloud-based identity is set up with Azure Active Directory. This is key not only to activating Microsoft 365 Apps for enterprise, it also allows you to take advantage of modern provisioning solutions like Windows Autopilot.
 
 В этой статье мы рассмотрим инструменты и варианты подготовки служб каталогов, а также разрешения для пользователей и устройств, готовые к развертыванию в Windows 10 и в приложениях Microsoft 365 для предприятий.
 
@@ -69,21 +69,21 @@ ms.locfileid: "44011655"
 
 Вам потребуется запланировать полосу пропускания для обновлений ПО. В Windows 10 и в приложениях Microsoft 365 для предприятий используется новая модель обслуживания с доставкой ежемесячных и полугодовых обновлений. Если вы не знакомы с этой моделью, дополнительные сведения о принципе ее работы можно найти [здесь](https://docs.microsoft.com/windows/deployment/update/waas-overview).
 
-Новая модель обслуживания включает обновления компонентов для Windows дважды в год, обновления Office из Semi-Annual Channel и ежемесячные исправления. Как правило, обновления компонентов занимают 2–4 ГБ, а обновления Office из Semi-Annual Channel — по 300–400 МБ. Кроме того, каждый месяц выходят исправления, размер которых варьируется от нескольких сотен мегабайт до гигабайта и более. Это связано с тем, что ежемесячные обновления являются накопительными, поэтому их размер увеличивается в течение срока обслуживания каждой версии Windows 10. С другой стороны, существуют средства, которые могут помочь уменьшить объем данных, проходящих по сети для внедрения обновлений. Они подробнее рассматриваются ниже.
+The new servicing model includes Feature Updates for Windows twice a year, Office Semi-Annual Enterprise Channel Updates, and monthly Quality Updates. Feature Updates are typically 2 – 4GB in size, and Office Semi-Annual Enterprise Channel updates are 300 – 400 MB per update. Then there are the monthly Quality Updates. These may range from a few hundred megabytes to over a gigabyte. This is because monthly updates are cumulative, so these increase in size over the servicing lifetime for each Windows 10 version. That said, there are tools that can help reduce the amount of data that must pass over the network to implement updates. We will cover this in more detail below.
 
 ### <a name="user-personalization"></a>Персонализация пользователей
 
-Третий важный компонент — персонализация пользователей. Это означает, что вам нужно запланировать пропускную способность сети для восстановления файлов, параметров и приложений пользователей в ходе восстановления или замены компьютера. Общий размер этих элементов часто превышает 20 ГБ на компьютер. У некоторых пользователей он может превышать 100 ГБ.
+The third component to consider is user personalization. Here you need to plan network bandwidth to accommodate the restoring of user files, their settings, and their applications as part of the PC refresh or replacement process. Together, these items often exceed 20 GB per PC; for some users these may exceed 100 GB.
 
 ## <a name="limiting-bandwidth"></a>Ограничение пропускной способности
 
-Один из способов ограничить влияние сетевого трафика при развертывании — регулировать его при помощи параметров BITS (фоновой интеллектуальной службы передачи) в клиенте. BITS использует переменную скорость (ABR), чтобы регулировать полосу пропускания, доступную для развертывания. Эти параметры можно настраивать в клиентах с помощью групповой политики.
+One way to limit the impact of deployment-related traffic on the network is to throttle it using the BITS (Background Intelligent Transfer Service) setting on clients. BITS uses an Adaptive Bit Rate (ABR) to adjust bandwidth available for deployment purposes; it can be configured on clients using Group Policy.
 
 [Сведения о BITS](https://docs.microsoft.com/windows/desktop/bits/about-bits)
 
 Если вы используете Microsoft Endpoint Configuration Manager (Current Branch), вы также можете настроить точки распространения с поддержкой BITS или включить многоадресную рассылку с WDS.
 
-Регулирование определенного трафика означает, что обычный сетевой трафик меньше подвержен влиянию скачивания обновлений и приложений на компьютерах. Выделив определенный процент полосы пропускания для этих задач, вы гарантируете, что развертывание Windows или Office не повлияет на продуктивность, а процессы продолжат работать должным образом, но это может увеличить время простоя, связанного с развертыванием, во время которого пользователи не могут пользоваться компьютерами.
+Throttling specific traffic means that normal network traffic is less impacted by PCs downloading updates and applications. But carving out a certain percentage of bandwidth for these tasks helps ensure productivity isn’t impacted by Windows or Office deployment and processes continue to run as needed, it can worsen deployment-related downtime, with users locked out of their PCs while a deployment runs.
 
 К счастью существуют новые инструменты, которые помогут вам управлять воздействием крупномасштабного развертывания на сеть, в том числе LEDBAT для оптимизации использования доступной полосы пропускания и параметры одноранговой передачи (P2P), позволяющие отводить трафик развертывания от центра сети к ее периметру.
 
@@ -95,15 +95,15 @@ ms.locfileid: "44011655"
 
 [10 лучших сетевых функций в Windows Server 2019: \#9. LEDBAT — фоновый транспорт с оптимизированной задержкой](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
 
-В отличие от традиционного регулирования, LEDBAT может использовать всю доступную пропускную способность в качестве фоновой задачи, мгновенно освобождая полосу пропускания, когда другой трафик запрашивает ее. В отличие от BITS, здесь отсутствует задержка. Система полностью автоматизирована — ничего не потребуется настраивать или планировать вручную, все настроено на стороне сервера. Благодаря этому возможен огромный рост производительности.
+Unlike traditional throttling, LEDBAT can use all available network bandwidth as a background task, instantly yielding bandwidth when other traffic requests it. Unlike BITS there is no delay; everything is automated – no manual tuning or scheduling required, and everything is setup server side. This affords potentially massive performance gains.
 
 ![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
 
 ## <a name="peer-to-peer-options"></a>Параметры одноранговой передачи
 
-Параметры одноранговой передачи все чаще используются для миграции в Windows 10, создания образов компьютеров, обновлений программного обеспечения и персонализации пользователей. Они также полезны для перехода между сборками после первоначального развертывания Windows 10. В этой статье мы рассмотрим несколько примеров отвода трафика, связанного с Windows 10 и Office, от центра сети, чтобы снизить потребность в классических подходах к регулированию и позволить компьютерам находить файлы нужных обновлений на том же уровне своей локальной сети, а не скачивать их из точки распространения в Интернете.
+Peer-to-Peer options are increasingly being used in Windows 10 migrations, for PC imaging, software updates and user personalization. They are also valuable in facilitating build-to-build upgrades after your initial Windows 10 deployment. Here we will cover several examples to help move Windows 10 and Office-related traffic away from the center of the network, reducing the need for classic throttling approaches, and allowing PCs to find the update files they need on peers in their local network rather than downloading them from a distribution point or the internet.
 
-**BranchCache** может помочь вам скачивать контент в распределенных средах, не перегружая сеть. Доступно два варианта: режим размещенного кэша, позволяющий использовать локальные серверы для кэширования контента, и режим распределенного кэша (поддерживаемый в Configuration Manager), позволяющий клиентам предоставлять друг другу доступ к уже скачанному контенту.
+**BranchCache** can help you download content in distributed environments without saturating the network. It comes in two options: Hosted Cache Mode, which lets you use local servers to cache content, and Distributed Cache Mode (a mode supported in Configuration Manager), which lets clients share already downloaded content with each other.
 
 **Одноранговый кэш.** Клиенты, поддерживаемые в Configuration Manager, также могут использовать одноранговый кэш. Благодаря этому на компьютерах, доступных в сети, можно размещать источники для распространения контента. Его следует включать не на всех компьютерах, а только на тех узлах, где имеется надежное сетевое подключение (например, настольных компьютерах, а также компьютерах в корпусах "мини-башня" или "башня"). Одноранговый кэш может работать даже для задач развертывания, выполняемых на этапах Windows PE во время установки.
 
@@ -119,7 +119,7 @@ ms.locfileid: "44011655"
 
 Можно использовать не только оптимизацию доставки, но и еще три элемента, которые помогут вам сократить нагрузку на сеть во время развертывания приложений Microsoft 365 для предприятий.
 
-**Двоичное разностное сжатие.** В приложениях Microsoft 365 для предприятий используется двоичное разностное сжатие, чтобы уменьшить полосу пропускания, используемую при переходе с последнего выпуска приложений Microsoft 365 для предприятий на новый. При обновлении передаются только изменения по сравнению с предыдущим выпуском на двоичном уровне, за счет чего можно свести к минимуму ежемесячный рост объема накопительных пакетов обновления. Потенциальная экономия трафика достигает несколько сотен мегабайт данных в месяц на каждый компьютер. Тем не менее, чтобы использовать эту функцию, нельзя пропускать выпуски. Если же очередной выпуск будет пропущен, то потребуется скачать весь накопительный пакет обновления.
+**Binary Delta Compression** Microsoft 365 Apps for enterprise uses Binary Delta Compression to reduce bandwidth consumed by software updates when updating from the most recent release of Microsoft 365 Apps for enterprise to the next release. By only pulling the binary level changes from the previous release, the impact from month-over-month growth of cumulative updates is minimized. This has the potential of saving several hundred megabytes of data, per PC, each month. In order to use this capability though, you cannot skip releases. If you do, then the full cumulative update must be downloaded.
 
 [Скачивание обновлений для приложений Microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-process-microsoft-365-apps#download-the-updates-for-microsoft-365-apps)
 
@@ -147,8 +147,8 @@ ms.locfileid: "44011655"
 
 ## <a name="feedback"></a>Отзывы
 
-Мы будем рады вашим отзывам. Выберите нужный тип:
+We'd love to hear your thoughts. Choose the type you'd like to provide:
 
 Отзыв о продукте. Войдите, чтобы оставить отзыв о документации.
 
-Наша новая система отзывов основана на вопросах в GitHub. Сведения об этом изменении вы найдете в записи блога.
+Our new feedback system is built on GitHub Issues. Read about this change in our blog post.

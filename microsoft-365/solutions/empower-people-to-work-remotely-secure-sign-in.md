@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/20/2020
+ms.date: 06/22/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Необходимо, чтобы удаленные работники входили в систему с помощью многофакторной проверки подлинности (MFA).
-ms.openlocfilehash: 142f4d42715ae53e411f045f4df09471b7ba63da
-ms.sourcegitcommit: 9195c83c725a7e6ed395ce0253304da54e2195f0
+ms.openlocfilehash: 57febcb68b09ffcbbb1694100b31d7d75158d872
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44560415"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844964"
 ---
 # <a name="step-1-increase-sign-in-security-for-remote-workers-with-mfa"></a>Этап 1. Повышение безопасности входа для удаленных сотрудников с помощью MFA
 
@@ -95,6 +95,10 @@ ms.locfileid: "44560415"
 ## <a name="let-your-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
 Самостоятельный сброс пароля (SSPR) позволяет пользователям сбрасывать собственные пароли, не обращаясь к ИТ-персоналу. Пользователи могут быстро сбрасывать свои пароли в любое время и в любом месте. Посмотрите [это видео](https://go.microsoft.com/fwlink/?linkid=2128524), чтобы настроить SSPR.
+
+## <a name="sign-in-to-saas-apps-with-azure-ad"></a>Вход в приложения SaaS с помощью Azure AD
+
+Кроме того, чтобы обеспечить облачную проверку подлинности для пользователей, Azure AD также можно использовать в качестве централизованного способа защиты всех приложений: локальных, в облаке Майкрософт или в другом облаке. С помощью [интеграции приложений в Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/plan-an-application-integration) вы можете упростить для удаленных сотрудников поиск нужных приложений и безопасный вход в них.
 
 ## <a name="admin-technical-resources-for-mfa-and-identity"></a>Технические ресурсы для администраторов по MFA и удостоверениям
 

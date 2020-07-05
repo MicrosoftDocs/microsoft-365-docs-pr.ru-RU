@@ -14,18 +14,19 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: Узнайте, как проверить свой домен и настроить записи DNS для электронной почты, Skype для бизнеса Online и других служб корпорации Майкрософт на сайте My Domain.
-ms.openlocfilehash: cc12729e10e651abc2eaa109c47c2a5fbfe5ea1e
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 1c6edc1e3ad03b0467c70741d4097cf3a3b5e196
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048979"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400416"
 ---
 # <a name="create-dns-records-at-mydomain-for-microsoft"></a>Создать записи DNS на сайте MyDomain для работы с продуктами корпорации Майкрософт
 
@@ -34,7 +35,7 @@ ms.locfileid: "44048979"
  Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 > [!CAUTION]
-> На веб-сайте MyDomain не поддерживаются записи SRV, поэтому некоторые функции Skype для бизнеса Online и Outlook Web App работать не будут. Если вы управляете своими записями DNS на сайте MyDomain, то независимо от того, на какой план корпорации Майкрософт вы подписаны, существуют [существенные ограничения в работе служб](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). Поэтому, возможно, стоит задуматься о переходе к другому поставщику услуг размещения DNS. 
+> The MyDomain website doesn't support SRV records, which means several Skype for Business Online and Outlook Web App features won't work. No matter which Microsoft plan you use, if you manage your DNS records at MyDomain, there are [significant service limitations](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq), and you might want to switch to a different DNS hosting provider. 
   
 Если вы хотите управлять своими записями DNS при работе с продуктами корпорации Майкрософт на сайте MyDomain несмотря на ограничения в работе служб, выполните действия, описанные в этой статье, чтобы настроить записи DNS для электронной почты, Skype для бизнеса Online и т. д.
     
@@ -43,17 +44,17 @@ ms.locfileid: "44048979"
 
   
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 <a name="BKMK_verify"> </a>
 
-Прежде чем вы сможете использовать свой домен при работе с продуктами корпорации Майкрософт, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, для корпорации Майкрософт это послужит подтверждением того, что вы владеете доменом.
+Before you use your domain with Microsoft, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain.
   
 > [!NOTE]
-> Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
+> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like. 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется [выполнить вход](https://www.mydomain.com/controlpanel).
+1. To get started, go to your domains page at MyDomain by using [this link](https://www.mydomain.com/controlpanel). You'll be prompted to log in first.
     
 2. В разделе **My Favorites** (Избранное) выберите **Domain Central** (Центральный домен).
     
@@ -87,12 +88,12 @@ ms.locfileid: "44048979"
 4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт.
 <a name="BKMK_add_MX"> </a>
 
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется [выполнить вход](https://www.mydomain.com/controlpanel).
+1. To get started, go to your domains page at MyDomain by using [this link](https://www.mydomain.com/controlpanel). You'll be prompted to log in first.
     
 2. В разделе **My Favorites** (Избранное) выберите **Domain Central** (Центральный домен).
     
@@ -108,7 +109,7 @@ ms.locfileid: "44048979"
     
     |**Priority**|**Host**|**Points To** (Указывает на)|
     |:-----|:-----|:-----|
-    |0  <br/> Дополнительные сведения о приоритете см. в статье [Приоритет записей MX](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |@  <br/> | *\<ключ_домена\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \<*domain-key*\> (ключ домена) из учетной записи Майкрософт. > [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **Примечание.**  Получите свой \<*domain-key*\> из учетной записи Майкрософт. > [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![MyDomain-BP-Configure-2-2](../../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
   
@@ -127,7 +128,7 @@ ms.locfileid: "44048979"
 ## <a name="add-the-cname-records-that-are-required-for-microsoft"></a>Добавление записей CNAME, необходимых для продуктов корпорации Майкрософт
 <a name="BKMK_add_CNAME"> </a>
 
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется [выполнить вход](https://www.mydomain.com/controlpanel).
+1. To get started, go to your domains page at MyDomain by using [this link](https://www.mydomain.com/controlpanel). You'll be prompted to log in first.
     
 2. В разделе **My Favorites** (Избранное) выберите **Domain Central** (Центральный домен).
     
@@ -169,7 +170,7 @@ ms.locfileid: "44048979"
 > [!IMPORTANT]
 > Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте MyDomain по предоставленной ссылке. Сначала вам потребуется [выполнить вход](https://www.mydomain.com/controlpanel).
+1. To get started, go to your domains page at MyDomain by using [this link](https://www.mydomain.com/controlpanel). You'll be prompted to log in first.
     
 2. В разделе **My Favorites** (Избранное) выберите **Domain Central** (Центральный домен).
     
@@ -197,8 +198,8 @@ ms.locfileid: "44048979"
 <a name="BKMK_add_SRV"> </a>
 
 > [!CAUTION]
-> На веб-сайте MyDomain не поддерживаются записи SRV, поэтому некоторые функции Skype для бизнеса Online и Outlook Web App работать не будут. Если вы управляете своими записями DNS на сайте MyDomain, то независимо от того, на какой план корпорации Майкрософт вы подписаны, существуют [существенные ограничения в работе служб](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). Поэтому, возможно, стоит задуматься о переходе к другому поставщику услуг размещения DNS. 
+> The MyDomain website doesn't support SRV records, which means several Skype for Business Online and Outlook Web App features won't work. No matter which Microsoft plan you use, if you manage your DNS records at MyDomain, there are [significant service limitations](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq), and you might want to switch to a different DNS hosting provider. 
   
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   

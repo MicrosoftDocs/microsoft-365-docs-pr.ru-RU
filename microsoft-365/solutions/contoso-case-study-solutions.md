@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,19 +16,24 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Пример развертывания решений Microsoft 365 в вымышленной, но показательной глобальной организации
-ms.openlocfilehash: 7d99a936bcfaddb2032b5f077ea95034e275182a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: dc9fcf667b31af0ab3db9006f545b1f33e091639
+ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159495"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854286"
 ---
 # <a name="microsoft-365-solutions-for-the-contoso-corporation"></a>Решения Microsoft 365 для корпорации Contoso
 
-Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат с главным офисом в Париже, Франция. В корпорации Contoso выполнялось развертывание Microsoft 365 корпоративный и рассматривались основные проектные решения и детали внедрения сети, удостоверений, Windows 10 Корпоративная, приложений Microsoft 365 для предприятий, управления мобильными устройствами, защиты информации и системы безопасности. 
+The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France. Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security. 
 
 Общая цель корпорации Contoso в отношении Microsoft 365 корпоративный состоит в ускорении цифровой трансформации с помощью облачных служб, чтобы объединить сотрудников, партнеров, данные и процессы для создания ценности для клиентов и поддержания конкурентного преимущества в цифровом мире.
 
 Сначала познакомьтесь с [корпорацией Contoso](../enterprise/contoso-overview.md), с ее расположенными по всему миру офисами и особенности среды, учтенные при развертывании Microsoft 365 корпоративный.
 
-Затем ознакомьтесь с [этой статьей](contoso-team-for-top-secret-project.md), где рассказывается о развертывании Contoso изолированной группы для секретного проекта.
+Затем узнайте, как Contoso использует Microsoft 365 для этих решений и сценариев:
+
+- [Изолированная команда для сверхсекретного проекта](contoso-team-for-top-secret-project.md)
+
+- [Миграция локальных пользователей в Teams для централизованного взаимодействия, совместной работы и голосового общения](https://docs.microsoft.com/MicrosoftTeams/voice-case-study-overview)
+
