@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 05/27/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Обеспечьте удаленным сотрудникам доступ к локальным ресурсам, одновременно оптимизируя доступ к облачным службам Microsoft 365.
-ms.openlocfilehash: 363f2a5edb43d294be5a8ecfe0fd02964dd8b945
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 199dc6aa33134cfa0f9ac311d037a934c12ba3b9
+ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160754"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44844982"
 ---
 # <a name="step-2-provide-remote-access-to-on-premises-apps-and-services"></a>Этап 2. Обеспечение удаленного доступа к локальным приложениям и службам
 
@@ -70,7 +70,11 @@ ms.locfileid: "44160754"
 
 ![Компоненты Azure AD Application Proxy](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png)
 
-Дополнительные сведения см. в [обзоре Azure AD Application Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+Дополнительные сведения см. в статье [Общие сведения о прокси приложения Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) и [Видео, часть 3, по использованию прокси приложения Azure AD](https://resources.techcommunity.microsoft.com/enabling-remote-work/#security).
+
+>[!Note]
+>Прокси приложения Azure AD не входит в подписку на Microsoft 365. Вам следует оплачивать использование с отдельной подпиской Azure.
+>
 
 ## <a name="deploy-remote-access-when-not-all-your-apps-are-web-apps"></a>Развертывание удаленного доступа, если не все приложения являются веб-приложениями
 
@@ -82,13 +86,32 @@ ms.locfileid: "44160754"
 
 Дополнительные сведения см. в [обзоре VPN-подключения P2S](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about).
 
+>[!Note]
+>Azure P2S VPN не входит в подписку на Microsoft 365. Вам следует оплачивать использование с отдельной подпиской Azure.
+>
+
 ## <a name="deploy-windows-virtual-desktop-to-provide-remote-access-for-remote-workers-using-personal-devices"></a>Развертывание Виртуального рабочего стола Windows для предоставления удаленного доступа удаленным сотрудникам, использующим личные устройства 
 
-В целях поддержки удаленных сотрудников, использующих только личные и неуправляемые устройства, используйте Виртуальный рабочий стол Windows в Azure, чтобы создавать и назначать виртуальные рабочие столы пользователям для работы из дома.
+В целях поддержки удаленных сотрудников, использующих только личные и неуправляемые устройства, используйте Виртуальный рабочий стол Windows в Azure, чтобы создавать и назначать виртуальные рабочие столы пользователям для работы из дома. Виртуализированные ПК могут работать так же, как компьютеры, подключенные к сети организации.
 
-Виртуализированные ПК могут работать так же, как компьютеры, подключенные к сети организации.
+![Компоненты виртуального рабочего стола для Azure Windows](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-windows-virtual-desktop.png)
 
-Дополнительные сведения см. в [обзоре Виртуального рабочего стола Windows](https://docs.microsoft.com/azure/virtual-desktop/overview).
+Дополнительные сведения см. в указанных ниже статьях. 
+
+- [Это обзор виртуального рабочего стола Windows](https://docs.microsoft.com/azure/virtual-desktop/overview).
+- [Видео, часть 2, по использованию виртуального рабочего стола Windows для удаленных сотрудников](https://resources.techcommunity.microsoft.com/enabling-remote-work/#productivity).
+
+>[!Note]
+>Виртуальный рабочий стол Windows не входит в подписку на Microsoft 365. Вам следует оплачивать использование с отдельной подпиской Azure.
+>
+
+## <a name="protect-your-remote-desktop-services-connections-with-the-remote-desktop-services-gateway"></a>Защитите подключения к службам удаленных рабочих столов с помощью шлюза служб удаленных рабочих столов
+
+Если вы используете службы удаленных рабочих столов (RDS), чтобы разрешить сотрудникам подключаться к компьютерам под управлением Windows в локальной сети, используйте шлюз служб удаленных рабочих столов (Майкрософт) в сети периметра. Шлюз использует протокол SSL для шифрования сообщений и предотвращает размещение системы RDS от непосредственного подключения к Интернету.
+
+![Подключения к службам удаленных рабочих столов с помощью шлюза служб удаленных рабочих столов](../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-remote-desktop.png)
+
+Дополнительные сведения см. в [этой статье](https://www.microsoft.com/security/blog/2020/04/16/security-guidance-remote-desktop-adoption/).
 
 ## <a name="admin-technical-resources-for-remote-access"></a>Технические ресурсы администраторов для предоставления удаленного доступа
 
@@ -105,8 +128,9 @@ ms.locfileid: "44160754"
 | VPN-решение для удаленного доступа не используется, необходим только удаленный доступ к локальным веб-приложениям | Настроена функция Azure Application Proxy. |
 | VPN-решение для удаленного доступа не используется, необходим доступ к локальным приложениям, некоторые из которых не являются веб-приложениями | Настроено VPN-подключение P2S в Azure. |
 | Удаленные сотрудники используют личные устройства из дома | Настроен Виртуальный рабочий стол Windows. |
+| Удаленные работники используют подключения RDS к локальным системам. | Вы развернули шлюз служб удаленных рабочих столов в сети периметра. |
 |||
 
 ## <a name="next-step"></a>Следующий этап
 
-Чтобы перейти к управлению устройствами, ПК и другими конечными точками, см. [этап 3](empower-people-to-work-remotely-manage-endpoints.md).
+Перейдите к [Этапу 3](empower-people-to-work-remotely-security-compliance.md), чтобы развернуть службы безопасности и соответствия требованиям Microsoft 365 для защиты приложений, данных и устройств.
