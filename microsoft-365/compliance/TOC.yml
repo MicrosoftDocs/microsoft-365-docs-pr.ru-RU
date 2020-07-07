@@ -161,6 +161,10 @@
       href: technical-reference-details-about-encryption.md
     - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365
       href: tls-1.0-and-1.1-deprecation-for-office-365.md
+    - name: Прекращение поддержки протоколов TLS 1.0 и 1.1 в Office 365 GCC и DoD
+      href: tls-1-2-in-office-365-gcc.md
+    - name: TLS 1.2 в Office 365
+      href: prepare-tls-1.2-in-office-365.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -488,15 +492,19 @@
           href: overview-ediscovery-20.md
         - name: Начало работы с Advanced eDiscovery
           href: get-started-with-advanced-ediscovery.md
-        - name: Работа с хранителями
+        - name: Взаимодействие с охраняемыми и не охраняемыми источниками данных
           href: managing-custodians.md
           items:
             - name: Добавление хранителей в дело
               href: add-custodians-to-case.md
+            - name: Массовое добавление хранителей в дело
+              href: bulk-add-custodians.md
             - name: Управление хранителями
               href: manage-new-custodians.md
             - name: Просмотр действий хранителя
               href: view-custodian-activity.md
+            - name: Добавление не охраняемых источников данных в дело
+              href: non-custodial-data-sources.md
         - name: Работа с взаимодействием
           href: managing-custodian-communications.md
           items:
@@ -809,19 +817,19 @@
   items:
     - name: Microsoft Service Trust Portal
       href: get-started-with-service-trust-portal.md
-    - name: Рейтинг соответствия требованиям и диспетчер соответствия требованиям
+    - name: Рейтинг соответствия требованиям и диспетчер соответствия требованиям (предварительная версия)
       items:
         - name: Рейтинг соответствия требованиям (предварительная версия)
           href: compliance-score.md
-        - name: Настройка рейтинга соответствия требованиям (предварительная версия)
+        - name: Настройка рейтинга соответствия требованиям
           href: compliance-score-setup.md
-        - name: Работа с рейтингом соответствия требованиям (предварительная версия)
-          href: working-with-compliance-score.md
-        - name: Расчет рейтинга соответствия требованиям (предварительная версия)
+        - name: Настройка рейтинга соответствия требованиям с оценками
+          href: compliance-score-assessments.md
+        - name: Назначение и выполнение работы с действиями по улучшению
+          href: compliance-score-improvement-actions.md
+        - name: Способ вычисления рейтинга
           href: compliance-score-methodology.md
-        - name: Заметки о выпуске рейтинга соответствия требованиям (предварительная версия)
-          href: compliance-score-release-notes.md
-        - name: Вопросы и ответы о рейтинге соответствия требованиям (предварительная версия)
+        - name: Вопросы и ответы
           href: compliance-score-faq.md
         - name: Диспетчер соответствия требованиям (предварительная версия)
           href: compliance-manager-overview.md
