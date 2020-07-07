@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 07b2c2301784f378075e3c9803cebc5bcabf9cb0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 67fa551fd7c2add815d5698a22b5eb3ae607f716
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899271"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048283"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
@@ -31,7 +30,7 @@ ms.locfileid: "44899271"
 
 
 
-`DeviceLogonEvents`Таблица в схеме [Advanced поиске](advanced-hunting-overview.md) содержит сведения о входах пользователей и других событиях проверки подлинности. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`DeviceLogonEvents`Таблица в схеме [Advanced поиске](advanced-hunting-overview.md) содержит сведения о входах пользователей и других событиях проверки подлинности на устройствах. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 

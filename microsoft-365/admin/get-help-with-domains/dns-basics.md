@@ -22,12 +22,11 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Сведения о доменах и связанных с ними записями DNS для обучения управлению доменами.
-ms.openlocfilehash: c9fee3488f7de3c0cc4b93be15ff49bd01469495
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
-ms.translationtype: HT
+ms.openlocfilehash: 2fc581968a4cec3c6e9b5c51f717a8cfa78cd6a3
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035613"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049658"
 ---
 # <a name="dns-basics"></a>Основы DNS
 
@@ -143,10 +142,6 @@ DNS-записи домена могут быть полезны и другим
 Почему файл зоны вашего домена может быть где-то кроме вашего регистратора доменов? Что ж, вы можете зарегистрировать свое доменное имя у регистратора доменов, такого как HiChina, но вашими DNS-записями можно управлять где-то еще, в отдельной DNS-хостинговой компании или в хостинговой компании. Записи NS для вашего домена хранят эту информацию, поэтому все DNS-серверы знают, где искать.
 
 ::: moniker-end
-
-> [!NOTE]
-> Если вы настроили свой домен в Microsoft 365 таким образом, чтобы [корпорация Майкрософт настраивала и управляла вашими записями DNS](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records), то в рамках настройки вам потребуется выполнить [Переключение управления DNS на Microsoft 365](../setup/domains-faq.md#change-dns-management-to-office-365). 
- 
 
 ::: moniker range="o365-worldwide"
 ## <a name="why-add-a-domain-in-office-365"></a>Зачем добавлять домен в Office 365?

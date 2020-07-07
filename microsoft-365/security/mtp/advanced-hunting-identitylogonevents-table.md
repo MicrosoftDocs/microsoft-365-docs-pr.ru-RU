@@ -17,19 +17,18 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 17e12e9095219b7ad7923f7b5664946fff6ce724
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 2116d8f6f1006f5acf9d468006fa07a04e13087b
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899379"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046032"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-`IdentityLogonEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях проверки подлинности, зарегистрированных Azure Active Directory и другими облачными приложениями и службами Майкрософт. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+`IdentityLogonEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях проверки подлинности, выполненных в локальной службе Active Directory, захваченных службой Azure ATP и действиями проверки подлинности, связанными со службами Microsoft Online, записанными в Microsoft Cloud App Security. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 

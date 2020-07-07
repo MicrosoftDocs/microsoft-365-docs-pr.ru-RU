@@ -17,12 +17,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 032368e35cdfc991df4c01643e49cee538549f39
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
-ms.translationtype: MT
+ms.openlocfilehash: 0cb275584acfc2ea0d2a2969694ee189f48a875d
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899367"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046053"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -31,10 +30,22 @@ ms.locfileid: "44899367"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Схема [расширенной охоты на угрозы](advanced-hunting-overview.md) состоит из нескольких таблиц, которые содержат сведения о событиях или информацию о компьютерах и объектах. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
+[Расширенная](advanced-hunting-overview.md) схема подстановки состоит из нескольких таблиц, которые предоставляют либо сведения о событиях, либо сведения об устройствах, оповещениях, удостоверениях и других типах сущностей. Для эффективного построения запросов, охватывающих несколько таблиц, необходимо понимать, что такое таблицы и столбцы в схеме расширенной охоты на угрозы
+
+## <a name="get-schema-information-in-the-security-center"></a>Получение сведений о схеме в центре безопасности
+При построении запросов используйте встроенную ссылку на схему, чтобы быстро получить следующие сведения о каждой таблице в схеме:
+
+- **Описание таблиц** — тип данных, которые содержит таблица, и источник этих данных.
+- **Columns (столбцы** ) — все столбцы таблицы.
+- **Типы действий** — возможные значения в `ActionType` столбце, представляющие типы событий, поддерживаемые в таблице. Это предусмотрено только для таблиц, содержащих сведения о событиях.
+- **Пример запроса** — примеры запросов, в которых описывается, как можно использовать таблицу.
+
+### <a name="access-the-schema-reference"></a>Доступ к Справочнику по схеме
+Для быстрого доступа к ссылке на схему выберите действие **Просмотр ссылки** рядом с именем таблицы в представлении схемы. Вы также можете выбрать **ссылку на схему** , чтобы выполнить поиск таблицы.   
+
+![Изображение, на котором показано, как получить ссылку на схему портала ](../../media/mtp-ah/ah-reference.png) 
 
 ## <a name="schema-tables"></a>Таблицы схем
-
 В приведенной ниже ссылке перечислены все таблицы в схеме. Каждое название таблицы содержит ссылку на страницу, описывающую имена столбцов для этой таблицы. Имена таблиц и столбцов также указаны в центре безопасности в составе схемы на экране расширенной охоты на угрозы
 
 | Имя таблицы | Описание |
@@ -47,7 +58,7 @@ ms.locfileid: "44899367"
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Создание файла, изменение и другие события файловой системы |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
-| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности |
+| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности на устройствах |
 | **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Сетевое подключение и связанные события |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Свойства сети компьютеров, включая адаптеры, IP-и MAC-адреса, а также подключенные сети и домены. |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | Создание процессов и связанных с ними событий |
@@ -61,7 +72,7 @@ ms.locfileid: "44899367"
 | **[EmailPostDeliveryEvents](advanced-hunting-emailpostdeliveryevents-table.md)** | События безопасности, происходящие после доставки, после того как Microsoft 365 доставляет сообщения в почтовый ящик получателя. |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Сведения об URL-адресах в сообщениях электронной почты |
 | **[IdentityInfo](advanced-hunting-identityinfo-table.md)** | Сведения об учетных записях из различных источников, в том числе Azure Active Directory |
-| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности, регистрируемые Active Directory и другими службами Microsoft Online |
+| **[IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md)** | События проверки подлинности в Active Directory и Microsoft Online Services |
 | **[IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)** | Действия запросов, выполняемые для объектов Active Directory, таких как пользователи, группы, устройства и домены |
 
 ## <a name="related-topics"></a>Связанные статьи

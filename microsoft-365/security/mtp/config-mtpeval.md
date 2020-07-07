@@ -15,12 +15,11 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 60d0383f3acae73c36383b65daaac405a4e20bd3
-ms.sourcegitcommit: 4512f54ba80d869d4c04e8f9bd897d1878280852
-ms.translationtype: MT
+ms.openlocfilehash: 8a435b220343bd0353f2e0ef85ddf856ebf3e8aa
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854368"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049944"
 ---
 # <a name="configure-microsoft-threat-protection-pillars-for-your-trial-lab-environment"></a>Настройка принципов защиты от угроз Майкрософт для испытательной лабораторной среды
 
@@ -237,7 +236,7 @@ ms.locfileid: "44854368"
 16. Прокрутите список вниз и нажмите кнопку **сохранить настройки** , чтобы подтвердить новые интеграции.
 <br>![Изображение of_Save кнопка "Параметры", которую нужно щелкнуть](../../media/mtp-eval-72.png) <br>
 
-## <a name="start-the-microsoft-threat-protection-service"></a>Запуск службы Microsoft Threat protection
+## <a name="start-the-microsoft-threat-protection-service"></a>Запуск службы защиты от угроз (Майкрософт)
 >[!NOTE]
 >Начиная с 1 июня 2020 г. Корпорация Майкрософт автоматически включает функции защиты от угроз Майкрософт для всех соответствующих клиентов. Подробные сведения можно узнать [в этой статье сообщества Майкрософт в конференции](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/microsoft-threat-protection-will-automatically-turn-on-for/ba-p/1345426) . 
 <br>
@@ -247,8 +246,9 @@ ms.locfileid: "44854368"
 
 Более подробная информация приведена в статье [Включение защиты от угроз Майкрософт](mtp-enable.md). 
 
-Поздравляем! Вы только что создали среду пробной лаборатории Майкрософт по защите от угроз! Теперь вы можете имитировать атаку и узнать, как обнаруживаются возможности, создавать оповещения и автоматически отвечать на атаки, не имеющие файлов в конечной точке.
+Поздравляем! Вы только что создали среду пробной лаборатории Майкрософт по защите от угроз! Теперь вы можете ознакомиться с пользовательским интерфейсом защиты от угроз Майкрософт! В этой статье представлены сведения о том, как использовать все панели мониторинга для повседневных задач безопасности: [интерактивное руководство по защите от угроз Майкрософт](https://aka.ms/MTP-Interactive-Guide).
 
+Затем вы можете имитировать атаку и узнать, как обнаружение, создание оповещений и автоматический ответ на атаку, не имеющую файлов, на конечную точку.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 [Создание тестового оповещения](generate-test-alert.md).

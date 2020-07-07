@@ -19,12 +19,11 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 6287e7c56f79b09a79c75d7e8b8273dbd5569057
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
-ms.translationtype: MT
+ms.openlocfilehash: 45bc42e825c55ca228b13e8d308f9a1384301d07
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005894"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048271"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -50,12 +49,14 @@ ms.locfileid: "45005894"
 
 3. Нажмите кнопку **Предварительный просмотр компонентов**  >  , чтобы**включить предварительные функции**. 
 
-3. Нажмите кнопку **Сохранить**.
+3. Нажмите **Сохранить**.
 
 Вы узнаете, что функции предварительного просмотра включены, когда вы видите флажок **включить предварительный просмотр компонентов** . 
 
 ## <a name="preview-features"></a>Предварительные функции
 В настоящее время доступны следующие функции и расширения для предварительной версии:
+
+- **[Справочник по схемам на портале](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — сведения о таблицах схемы, доступных непосредственно в центре обеспечения безопасности. В дополнение к описаниям таблиц и столбцов, эта ссылка содержит сведения о поддерживаемых типах событий ( `ActionType` значениях) и примерах запросов.  
 
 - **[Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)** — получение представления о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с таблицами [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.
 

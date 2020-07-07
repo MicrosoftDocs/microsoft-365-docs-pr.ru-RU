@@ -22,19 +22,18 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: Сведения о том, как отменить пробную или платную подписку на Microsoft 365 для бизнеса.
-ms.openlocfilehash: da9a86973c271fce8a9552cfc0ce1b287f7debc8
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
-ms.translationtype: MT
+ms.openlocfilehash: 746060596010fd80816e19dece093d91fe850c30
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023373"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049752"
 ---
 # <a name="cancel-your-subscription"></a>Отмена подписки
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -132,7 +131,7 @@ ms.locfileid: "45023373"
 
 Если вы не переключить записи NS при настройке домена, то при изменении записи MX почта начнет переходить на новый адрес сразу же.
 
-Дополнительные сведения о том, [как Microsoft 365 управляет моими записями DNS?](../../admin/setup/domains-faq.md#how-does-office-365-manage-my-dns-records). Чтобы изменить записи NS, обратитесь к разделу [Удаление домена](../../admin/get-help-with-domains/remove-a-domain.md).
+Чтобы изменить записи NS, обратитесь к разделу [Удаление домена](../../admin/get-help-with-domains/remove-a-domain.md).
 
 ### <a name="save-your-data"></a>Сохранение данных
 
