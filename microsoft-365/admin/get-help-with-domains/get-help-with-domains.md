@@ -21,12 +21,11 @@ search.appverid:
 - GEA150
 ms.assetid: 28343f3a-dcee-41b6-9b97-5b0f4999b7ef
 description: Приступите к работе с собственным доменом для электронной почты, веб-сайтов и учетных записей в Office 365. Сведения о доменах, внесении изменений в домен, интеграции электронной почты и веб-сайтов, а можно получить средства и подсказки.
-ms.openlocfilehash: 1d3e7fb12f497d512693b8289f072106173356bb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: MT
+ms.openlocfilehash: 5586744707580bee18e179a35a5ffd042ebe7579
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399924"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049682"
 ---
 # <a name="get-help-with-office-365-domains"></a>Справка по доменам Office 365
 
@@ -158,7 +157,6 @@ ms.locfileid: "44399924"
                             <p><a href="information-for-dns-records.md">Сбор сведений, необходимых для создания записей DNS</a></p>
                             <p><a href="find-your-domain-registrar.md">Поиск регистратора домена</a></p>
                             <p><a href="buy-a-domain-name.md">Приобретение доменного имени</a></p>
-                            <p><a href="../setup/domains-faq.md#how-to-set-up-an-office-365-pilot">Настройка пилотного развертывания с использованием личного домена для нескольких сотрудников компании</a></p>
                             <p><a href="domain-connect.md">Быстрое добавление домена GoDaddy в Office 365</a></p>
                             <p>Пошаговые инструкции по <a href="create-dns-records-at-any-dns-hosting-provider.md">добавлению необходимых записей DNS для служб Office 365</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization">Сведения о подготовке немаршрутизируемого домена (например, .local) для синхронизации службы каталогов</a></p>
@@ -208,8 +206,7 @@ ms.locfileid: "44399924"
                         <h3>Внесение изменений</h3>
                             <p><a href="find-and-fix-issues.md">Поиск и устранение проблем после изменения имени домена или записей DNS</a></p>
                             <p><a href="../dns/add-or-edit-custom-dns-records.md">Добавление и изменение записей DNS в Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-office-365">Добавление личных поддоменов или нескольких доменов в Office 365</a></p>
-                            <p><a href="../setup/domains-faq.md#how-do-i-change-how-my-dns-records-are-managed-in-office-365">Изменение способа настройки DNS для домена в Office 365</a></p>
+                            <p><a href="../setup/domains-faq.md#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365">Добавление настраиваемых поддоменов или нескольких доменов в Microsoft 365</a></p>
                             <p><a href="remove-a-domain.md">Удаление домена</a></p>
                             <p><a href="https://docs.microsoft.com/office365/enterprise/office-365-integration">Использование домена для интеграции с локальной службой электронной почты, например с помощью службы каталогов</a></p>
                             <p><a href="../contact-support-for-business-products.md">Есть другие вопросы? Позвоните в службу поддержки или отправьте в нее запрос</a></p>
