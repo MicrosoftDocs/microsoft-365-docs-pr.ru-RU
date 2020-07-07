@@ -15,12 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 633e54dc2b3c83d0d6778176318512b03bd073a8
-ms.sourcegitcommit: aab8b94ea8a9d4f7c6b911d6dc5cde70722e00e5
-ms.translationtype: HT
+ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44869860"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049920"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
@@ -52,12 +51,13 @@ ms.locfileid: "44869860"
 
 ## <a name="step-by-step-labs"></a>Пошаговые практические занятия
 
-С помощью подробно проработанного занятия вы выполните несколько сценариев развертывания и управления. Занятия обновлены для последних версий Intune и Configuration Manager (версия 1910). 
+С помощью подробно проработанного занятия вы выполните несколько сценариев развертывания и управления. Занятия обновлены для последних версий Intune и Configuration Manager. 
 
 ### <a name="device-and-app-readiness"></a>Проверка готовности устройств и приложений
 
   - Аналитика компьютеров
   - НОВИНКА! Развертывание и обновление нового Microsoft Edge 
+  - НОВИНКА! Установка и настройка шлюза облачного управления (CMG) 
   - Режим Internet Explorer 
   - Application Guard 
 
@@ -92,6 +92,7 @@ ms.locfileid: "44869860"
   - Exploit Guard в Защитнике Windows
   - Управление приложениями в Защитнике Windows
   - Advanced Threat Protection в Защитнике Windows
+  - НОВИНКА! Безопасность конечной точки 
 
 ### <a name="os-deployment-and-feature-updates"></a>Обновление компонентов и развертывание ОС
 
@@ -105,6 +106,8 @@ ms.locfileid: "44869860"
   - Управление Центром обновления Windows с помощью групповой политики
   - Обслуживание Windows 10 с помощью Configuration Manager и Intune
   - Обслуживание приложений Microsoft 365 для предприятий с помощью Configuration Manager
+  - НОВИНКА! Обновления Office с помощью Configuration Manager и Intune
+  - НОВИНКА! Установка Microsoft Teams 
 
 ### <a name="new-windows-virtual-desktop"></a>НОВИНКА! Виртуальный рабочий стол Windows
   - Виртуальный рабочий стол Windows: подготовка, развертывание, оптимизация 

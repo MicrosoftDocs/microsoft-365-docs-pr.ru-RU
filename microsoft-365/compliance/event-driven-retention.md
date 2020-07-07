@@ -20,12 +20,11 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Как правило, в рамках решения для управления записями можно настроить метку хранения, чтобы начать период хранения, который зависит от возникновения указанного вами события.
-ms.openlocfilehash: 29cf69930cdd99d3023a65e55e1186990a650e85
-ms.sourcegitcommit: 2e9e309ec09e5275ac6b3b425fba48a9ffce8eb2
-ms.translationtype: HT
+ms.openlocfilehash: f2cf60eac1197ed7be3fd8cbbe69e41a37614f86
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44900803"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048294"
 ---
 # <a name="overview-of-event-driven-retention"></a>Общие сведения о хранении, зависящем от возникновения события
 

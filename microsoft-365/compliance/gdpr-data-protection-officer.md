@@ -16,12 +16,11 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 334c6bfaf041b189a127d34e3eacd8997b349394
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: 885055aa0684dc0ad0788a7e056c51b6cfd4c587
+ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817698"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049775"
 ---
 # <a name="microsofts-data-protection-officer"></a>Специалист по защите данных корпорации Майкрософт
 
@@ -49,8 +48,8 @@ South County Business Park<br>
 Leopardstown<br>
 Dublin 18<br>
 D18 P521<br>
-Ireland (Ирландия)<br>
-Телефон: +353 (0) 1 295-3826<br>
+Ирландия<br>
+Телефон: +353 (1) 706-3117<br>
 
 Контактные данные специалиста по защите данных были переданы надзорному органу корпорации Майкрософт.
 

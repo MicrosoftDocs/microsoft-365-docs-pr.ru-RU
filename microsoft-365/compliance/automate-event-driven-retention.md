@@ -15,12 +15,11 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как настроить операции бизнес-процесса, чтобы автоматизировать хранение с помощью событий, используя REST API Microsoft 365.
-ms.openlocfilehash: e3e58aab9bdcb5debcfe805b1ebdfd637c1d3851
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
-ms.translationtype: HT
+ms.openlocfilehash: 15d2dd8417cf0a22b8db63f64c0bbb288e74880c
+ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035654"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45046067"
 ---
 # <a name="automate-event-based-retention"></a>Автоматизация хранения на основе событий
 
@@ -207,7 +206,7 @@ Rest API — это конечная точка службы, поддержив
 
 |Параметры|Описание|Примечания|
 |--- |--- |--- |
-|<d:Name></d:Name>|Указание уникального имени события.|Не может содержать начальные и конечные пробелы и следующие символы: % * \ & < > | # ? , : ;|
+|<d:Name></d:Name>|Указание уникального имени события.|Не может содержать начальные и конечные пробелы и следующие символы: % * \ & < \> \| # ? , : ;|
 |<d:EventType></d:EventType>|Введите название типа события (или Guid).|Example: “Employee termination”. Event type has to be associated with a retention label.|
 |<d:SharePointAssetIdQuery></d:SharePointAssetIdQuery>|Введите "ComplianceAssetId:" + код сотрудника|Пример: "ComplianceAssetId:12345"|
 |<d:EventDateTime></d:EventDateTime>|Дата и время события|Формат: ГГГГ-ММ-ДДTчч:мм:ссZ. Пример: 2018-12-01T00:00:00Z
@@ -224,16 +223,18 @@ Rest API — это конечная точка службы, поддержив
 
 ##### <a name="get-events-based-on-time-range"></a>Получение событий на основе диапазона времени
 
+- **Метод**: GET
 
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent?BeginDateTime=2019-01-11&EndDateTime=2019-01-16`
 
-|Метод|GET||
-|--- |--- |--- |
-|URL-адрес|https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent?BeginDateTime=2019-01-11&EndDateTime=2019-01-16||
-|Заголовки|Content-Type|приложение/atom+xml|
-||||
-|Проверка подлинности|Базовая||
-|Имя пользователя|"Complianceuser"||
-|Пароль|"Compliancepassword"||
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+
+- **Проверка подлинности**: обычная
+
+- **Имя пользователя**: "Complianceuser"
+
+- **Пароль**: "Compliancepassword"
+
 
 ##### <a name="response-codes"></a>Коды ответа
 
@@ -247,13 +248,19 @@ Rest API — это конечная точка службы, поддержив
 
 ##### <a name="get-an-event-by-id"></a>Получение события по идентификатору
 
-| Метод         | GET   |                      |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
-| URL-адрес            | [https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent(‘174e9a86-74ff-4450-8666-7c11f7730f66’)](https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent\('174e9a86-74ff-4450-8666-7c11f7730f66'\)) |                      |
-| Заголовок         | Content-Type                                                                                                                                                                                                                                                       | приложение/atom+xml |
-| Проверка подлинности | Базовая                                                                                                                                                                                                                                                              |                      |
-| Имя пользователя       | "Complianceuser"                                                                                                                                                                                                                                                   |                      |
-| Пароль       | "Compliancepassword"                                                                                                                                                                                                                                               |                      |
+- **Метод**: GET
+
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent('174e9a86-74ff-4450-8666-7c11f7730f66')`
+
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+
+- **Проверка подлинности**: обычная
+
+- **Имя пользователя**: "Complianceuser"
+
+- **Пароль**: "Compliancepassword"
+
+
 
 ##### <a name="response-codes"></a>Коды ответа
 
@@ -267,13 +274,18 @@ Rest API — это конечная точка службы, поддержив
 
 ##### <a name="get-an-event-by-name"></a>Получение события по имени
 
-| Метод         | GET       |                      |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| URL-адрес            | <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent('EventByRESTPost-2226bfebcc2841a8968ba71f9516b763')> |                      |
-| Заголовки        | Content-Type                                                                                                                                 | приложение/atom+xml |
-| Проверка подлинности | Базовая                                                                                                                                        |                      |
-| Имя пользователя       | "Complianceuser"                                                                                                                             |                      |
-| Пароль       | "Compliancepassword"                                                                                                                         |                      |
+- **Метод**: GET
+
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+
+- **Проверка подлинности**: обычная
+
+- **Имя пользователя**: "Complianceuser"
+
+- **Пароль**: "Compliancepassword"
+
 
 ##### <a name="response-codes"></a>Коды ответа
 

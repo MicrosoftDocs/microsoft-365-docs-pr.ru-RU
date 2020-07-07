@@ -115,6 +115,8 @@
                   href: mtp/advanced-hunting-overview.md
                 - name: Сведения о языке запросов
                   href: mtp/advanced-hunting-query-language.md
+                - name: Применение рекомендаций по использованию запросов
+                  href: mtp/advanced-hunting-best-practices.md
                 - name: Работа с результатами запросов
                   href: mtp/advanced-hunting-query-results.md
                 - name: Использование общих запросов
@@ -179,8 +181,6 @@
                   items:
                     - name: FileProfile()
                       href: mtp/advanced-hunting-fileprofile-function.md
-                - name: Применение рекомендаций по использованию запросов
-                  href: mtp/advanced-hunting-best-practices.md
                 - name: Настраиваемое обнаружение
                   items:
                     - name: Обзор настраиваемых обнаружений
