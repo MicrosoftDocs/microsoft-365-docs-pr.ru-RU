@@ -23,23 +23,23 @@ search.appverid:
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
 description: Узнайте, как управлять собственными DNS-записями или управлять записями DNS в Майкрософт.
-ms.openlocfilehash: 1b82fd40556b1bf828f9f367aa1175f21723cc8c
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: ac026ce0dba4eefff2c837da71c18b08aca12ea6
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399888"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079777"
 ---
 # <a name="set-up-your-domain-host-specific-instructions"></a>Настройка домена (инструкции для конкретных узлов)
 
-Чтобы приступить к работе с пользовательским доменом (contoso.com) с Office 365, необходимо проверить домен и настроить записи DNS вашего домена. 
+Чтобы приступить к использованию настраиваемого домена (contoso.com) с Microsoft 365, необходимо проверить домен и настроить записи DNS вашего домена. 
   
 Вы можете добавлять DNS-записи и управлять ими с помощью средств администрирования на узле домена, а также предоставлять Майкрософт управление записями домена, а также настроить их для вас.
   
 Выберите узел домена ниже, чтобы выполнить точные действия. Если вы не знаете, что такое ваш узел, ознакомьтесь со статьей [Поиск регистратора доменных](find-your-domain-registrar.md)имен.
   
 
-## <a name="let-office-365-manage-your-dns-records"></a>Разрешите Office 365 управлять записями DNS
+## <a name="let-microsoft-365-manage-your-dns-records"></a>Разрешить Microsoft 365 управлять записями DNS
 
 ||
 |---|---|
@@ -52,7 +52,7 @@ ms.locfileid: "44399888"
 |[Namecheap](../dns/change-nameservers-at-namecheap.md)|
 |[Network Solutions](../dns/change-nameservers-at-network-solutions.md) |  
 
-Или Узнайте, как [изменить серверов доменных имен, чтобы настроить Office 365 с помощью любого регистратора доменных](change-nameservers-at-any-domain-registrar.md)имен.
+Или Узнайте, как [изменить серверов доменных имен, чтобы настроить Microsoft 365 с помощью любого регистратора доменных](change-nameservers-at-any-domain-registrar.md)имен.
 
 ## <a name="manage-your-own-dns-records"></a>Управление собственными записями DNS
 
@@ -68,7 +68,7 @@ ms.locfileid: "44399888"
 |[DNSMadeEasy](../dns/create-dns-records-at-dnsmadeeasy.md) | [Сетевые решения](../dns/create-dns-records-at-network-solutions.md) |
 |[Dreamhost](../dns/create-dns-records-at-dreamhost.md)  | [OVH](../dns/create-dns-records-at-ovh.md) |
 |  [Dyn.com](../dns/create-dns-records-at-dyn-com.md) | [Register.com](../dns/create-dns-records-at-register-com.md) |
-| [eNomCentral](../dns/create-dns-records-at-enomcentral.md)| [Register365 для Office 365](../dns/create-dns-records-at-register365.md)  |
+| [eNomCentral](../dns/create-dns-records-at-enomcentral.md)| [Register365 для Microsoft 365](../dns/create-dns-records-at-register365.md)  |
 | [Freenom](../dns/create-dns-records-at-freenom.md) | [web.com](../dns/create-dns-records-at-web-com.md)|
 |[GoDaddy](../dns/create-dns-records-at-godaddy.md)|[DNS-сервер под управлением Windows](../dns/create-dns-records-using-windows-based-dns.md)   |
 | [Google Domains](../dns/create-dns-records-at-google-domains.md) |[Технологии](../dns/create-dns-records-at-wix.md) |

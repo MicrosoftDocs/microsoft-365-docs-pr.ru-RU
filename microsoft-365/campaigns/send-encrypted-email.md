@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как отправлять зашифрованную электронную почту с помощью Outlook.
-ms.openlocfilehash: 5318fbe045c909e3b7f81d195a8e6b4d5eb96dc1
-ms.sourcegitcommit: 5c43e89ed94ad9fd1db049446383c65e548189b7
+ms.openlocfilehash: b9d5d32b61c49dcffaab83fb13e46d32f2166552
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44322151"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080031"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>Шифрование или маркировка конфиденциальной электронной почты
 
@@ -52,7 +52,7 @@ ms.locfileid: "44322151"
 
 ## <a name="admin-settings"></a>Параметры администрирования
 
-Вы можете узнать все о настройке шифрования электронной почты при [шифровании электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/compliance/email-encryption).
+Вы можете узнать все о настройке шифрования электронной почты при [шифровании электронной почты в Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/email-encryption).
 
 ### <a name="automatically-encrypt-email-messages"></a>Автоматическое шифрование сообщений электронной почты
 
@@ -60,11 +60,11 @@ ms.locfileid: "44322151"
 
 Правила для обработки почтового ящика создаются для шифрования сообщений электронной почты с помощью новых возможностей шифрования сообщений Office 365 (OME). Определите правила для почтового процесса для запуска шифрования сообщений с новыми возможностями OME с помощью центра администрирования Exchange. 
 
-1. В веб-браузере с помощью рабочей или учебной учетной записи, которой предоставлены разрешения глобального администратора, войдите в Office 365. 
+1. В веб-браузере с помощью рабочей или учебной учетной записи, которой предоставлены разрешения глобального администратора, выполните вход. 
 2. Выберите плитку администратор. 
 3. В центре администрирования выберите **центр администрирования > Exchange**. 
 
-Дополнительную информацию можно узнать в статье [Определение правил обработки почтового процесса для шифрования сообщений электронной почты в Office 365](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
+Дополнительную информацию [можно узнать в статье Определение правил для почтового процесса для шифрования сообщений электронной](https://docs.microsoft.com/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)почты.
 
 ### <a name="brand-your-encryption-messages"></a>Фирменная символика сообщений шифрования
 

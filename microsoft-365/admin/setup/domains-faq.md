@@ -24,11 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: Дополнительные сведения о доменах можно найти в ответах на часто задаваемые вопросы.
-ms.openlocfilehash: 093125d1652355fbd9b624e1f15b5858fd586301
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: c588586ddd3d57fdbe78d7751131f61e6aa53eba
+ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049740"
+ms.locfileid: "45068107"
 ---
 # <a name="domains-faq"></a>Вопросы и ответы о доменах
 
@@ -45,15 +46,15 @@ ms.locfileid: "45049740"
 
 В этой статье
 
-[Что такое приоритет MX?](#what-is-mx-priority) 
- [Как проверить записи SPF для домена?](#how-can-i-validate-spf-records-for-my-domain) 
- [Что такое доменное имя?](#what-is-a-domain-name) 
- [Что произойдет, если поставщик DNS не поддерживает некоторые типы записей?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types) 
- [Как задать или изменить домен по умолчанию в Microsoft 365?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365) 
- [Можно ли добавить настраиваемые поддомены или несколько доменов в Microsoft 365?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365) 
- [Почему у меня есть домен "onmicrosoft.com"?](#why-do-i-have-an-onmicrosoftcom-domain) 
- [Почему у меня есть домен "onmicrosoft.de"?](#why-do-i-have-an-onmicrosoftde-domain) 
- [Как проверить статус некоммерческой или образования?](#how-do-i-verify-my-nonprofit-or-education-status)
+- [Что такое приоритет записей MX?](#what-is-mx-priority)
+- [Как проверить записи SPF для домена?](#how-can-i-validate-spf-records-for-my-domain)
+- [Что такое доменное имя?](#what-is-a-domain-name)
+- [Что произойдет, если поставщик DNS не поддерживает некоторые типы записей?](#what-happens-if-my-dns-provider-doesnt-support-certain-record-types)
+- [Как задать или изменить домен по умолчанию в Microsoft 365?](#how-do-i-set-or-change-the-default-domain-in-microsoft-365)
+- [Можно ли добавить настраиваемые поддомены или несколько доменов в Microsoft 365?](#can-i-add-custom-subdomains-or-multiple-domains-to-microsoft-365)
+- [Почему у меня есть домен onmicrosoft.com?](#why-do-i-have-an-onmicrosoftcom-domain)
+- [Почему у меня есть домен "onmicrosoft.de"?](#why-do-i-have-an-onmicrosoftde-domain)
+- [Как проверить статус некоммерческой или образования?](#how-do-i-verify-my-nonprofit-or-education-status)
     
 ## <a name="what-is-mx-priority"></a>Что такое приоритет записей MX?
 

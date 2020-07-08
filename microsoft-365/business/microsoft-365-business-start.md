@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте о Microsoft 365 для бизнеса, о том, как настроить его и как подготовить устройства и компьютеры пользователей, чтобы убедиться, что они защищены Microsoft 365 для бизнеса.
-ms.openlocfilehash: 08a956cc7e68bbba74d29bafaab77065be1321ce
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45022124"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080050"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Начало работы с Microsoft 365 для бизнеса
 
@@ -65,7 +65,7 @@ Microsoft 365 для бизнеса предназначено для лицен
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Если это видео помогло вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Если этот видеоролик помог вам, ознакомьтесь с [полным учебным курсом для малых предприятий и новых пользователей Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Настройка Microsoft 365 для бизнеса (администратор)
@@ -80,9 +80,9 @@ Microsoft 365 для бизнеса предназначено для лицен
     
     Если вы **безвозвратно переходите из локальной службы Active Directory в облако**, вы можете перейти в центр администрирования Microsoft 365 и использовать мастер установки для добавления пользователей вручную или выполнять однократную синхронизацию с Azure AD Connect. Это можно сделать двумя способами: 
     
-    - Если у вас также есть сервер Exchange 2010, Exchange 2013 или Exchange 2016, вы можете [использовать минимальную гибридную среду для быстрой миграции почтовых ящиков Exchange в Office 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). Минимальными этапами гибридного развертывания являются однократная синхронизация пользователей с Azure AD и миграция электронной почты из локальной среды в облако. После завершения миграции электронной почты при использовании этого метода Синхронизация службы каталогов автоматически отключается.
+    - Если у вас также есть сервер Exchange 2010, Exchange 2013 или Exchange 2016, вы можете [использовать минимальную гибридную среду для быстрой миграции почтовых ящиков Exchange в Microsoft 365](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate). Минимальными этапами гибридного развертывания являются однократная синхронизация пользователей с Azure AD и миграция электронной почты из локальной среды в облако. После завершения миграции электронной почты при использовании этого метода Синхронизация службы каталогов автоматически отключается.
     
-    - Используйте мастер синхронизации каталогов для синхронизации пользователей с облаком. Выполните действия, описанные в статье [Настройка синхронизации каталогов для Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) , чтобы завершить этот процесс. После синхронизации пользователей с облаком необходимо [Отключить синхронизацию каталогов для Office 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
+    - Используйте мастер синхронизации каталогов для синхронизации пользователей с облаком. Выполните действия, описанные в статье [Настройка синхронизации каталогов для Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) , чтобы завершить этот процесс. После синхронизации пользователей с облаком необходимо [Отключить синхронизацию службы каталогов для Microsoft 365](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
     
     Кроме того, вам потребуется предоставить каждому пользователю, который был добавлен таким образом, как лицензия на Microsoft 365 для бизнеса. Это можно сделать в [мастере установки](set-up.md) или [назначить лицензии пользователям](../admin/manage/assign-licenses-to-users.md).
     

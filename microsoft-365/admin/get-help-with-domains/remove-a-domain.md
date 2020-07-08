@@ -22,19 +22,19 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Узнайте, как удалить старый домен из Microsoft 365 и переместить пользователей и группы в другой домен.
-ms.openlocfilehash: fdf0b9db2c23632a213e860bd54097c1d453cf55
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 6f5e36a897316c8cdc057a725957c54e7eb53edc
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432395"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079765"
 ---
 # <a name="remove-a-domain"></a>Удаление домена
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
   
@@ -58,7 +58,7 @@ ms.locfileid: "44432395"
 
 5. В области **изменить домены** выберите другой домен.
 
-Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.
+You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
 
 ::: moniker-end
 
@@ -74,7 +74,7 @@ ms.locfileid: "44432395"
 
 5. В области **изменить домены** выберите другой домен.
   
-Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.
+You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
 
 ::: moniker-end
 
@@ -90,7 +90,7 @@ ms.locfileid: "44432395"
 
 5. В области **изменить домены** выберите другой домен.
   
-Это нужно сделать и для вашей учетной записи, если она находится в домене, который вы хотите удалить. Чтобы продолжить работу после изменения домена для своей учетной записи, выйдите из службы и снова войдите в нее, используя новый домен.
+You'll need to do this for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, you'll have to log out and log back in using the new domain you chose to continue.
 
 ::: moniker-end
 
@@ -212,24 +212,24 @@ ms.locfileid: "44432395"
 
 365 для удаления домена в случае отсутствия ссылок на группы безопасности, списки рассылки, пользователей и группы Майкрософт 365 может потребоваться до 5 минут. Если же домен используется очень широко, на его удаление может потребоваться несколько часов или один день.
   
-Если у вас сотни или тысячи пользователей, используйте PowerShell, чтобы отправить им всем запрос, а затем перенести их в другой домен. В противном случае может оказаться, что нескольких пользователей нет в интерфейсе. В результате вы не сможете удалить домен и не сумеете определить причину. Дополнительные сведения см. в статье о командлете [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0). Чтобы задать домен по умолчанию, используйте командлет [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
+If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for a handful of users to be missed in the UI, and then when you go to remove the domain, you won't be able to and you won't know why. See [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0) for more information. To set the default domain, use [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0).
   
-## <a name="still-need-help"></a>Остались вопросы?
+## <a name="still-need-help"></a>Требуется дополнительная помощь?
 
 ::: moniker range="o365-worldwide"
 
 > [!NOTE]
 > Не удается удалить домен [".onmicrosoft.com"](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) из вашей учетной записи.
   
-Не получилось? Возможно, ваш домен необходимо удалить вручную. [Позвоните нем](../contact-support-for-business-products.md), и мы поможем вам это сделать.
+Still not working? Your domain might need to be manually removed. [Give us a call](../contact-support-for-business-products.md) and we'll help you take care of it!
   
 ::: moniker-end
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Вопросы и ответы о доменах](../setup/domains-faq.md)
 
-[Получение справки по доменам Office 365](get-help-with-domains.md)
+[Получение справки по доменам Microsoft 365](get-help-with-domains.md)
 
 [Переход на другой план Microsoft 365 для бизнеса](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

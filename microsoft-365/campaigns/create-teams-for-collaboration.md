@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Создайте пространство для совместной работы для группы с помощью Microsoft Teams.
-ms.openlocfilehash: a89d7a87a18431dfef72c6f7ca4d6c7fbce21f7c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c5c484b2787bf3e819a723a3b5648106dcf75602
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635652"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079789"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Создание Teams для совместной работы в Microsoft Teams
 
@@ -85,5 +85,5 @@ Microsoft Teams — это приложение для совместной ра
 
 ## <a name="admin-settings"></a>Параметры администрирования
 
-Для создания группы на уровне Организации необходимо быть администратором. Для получения дополнительных сведений Узнайте, [что такое Администратор в Office 365?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).
+Для создания группы на уровне Организации необходимо быть администратором. Для получения дополнительных сведений обратитесь [к администратору Microsoft 365?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US).
   

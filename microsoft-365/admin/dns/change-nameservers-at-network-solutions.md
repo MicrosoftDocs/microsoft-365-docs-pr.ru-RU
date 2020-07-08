@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
 description: 'Узнайте, как настроить личный домен Майкрософт с сетевыми решениями, если вы хотите, чтобы корпорация Майкрософт управляла своими записями DNS. '
-ms.openlocfilehash: 69e63a6e5dac6e75e66cb816538d356fdd922581
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: 502699cf3760460a13ee067b07737037f31fa4ee
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780389"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079881"
 ---
 # <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>Изменение серверов доменных имен для настройки Microsoft с помощью сетевых решений
 
@@ -189,8 +189,7 @@ Before you use your domain with Microsoft, we have to make sure that you own it.
     
     ![Нетворксолутионсбп — redelegate — 1-2-1](../../media/57e22ef1-ac88-4d4a-bc8e-058023255dfd.png)
   
-3. На странице **Domain Names** (Доменные имена) введите (или скопируйте и вставьте) значения серверов из таблицы ниже.
- 
+3. На странице **Domain Names** (Доменные имена) введите (или скопируйте и вставьте) значения серверов из таблицы ниже. 
     
 |||
 |:-----|:-----|

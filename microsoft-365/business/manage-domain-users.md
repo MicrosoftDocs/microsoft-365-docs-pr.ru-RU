@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Синхронизация пользователей, контролируемых доменом, с помощью Microsoft 365 для бизнеса.
-ms.openlocfilehash: a22e567fa99456b35742fcf40c07193c96c83cf0
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: af9cb7c9b2b639edc2375679a73ab41c4cf6de71
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565691"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080063"
 ---
 # <a name="synchronize-domain-users-to-microsoft-365"></a>Синхронизация пользователей домена с Microsoft 365
 
 ## <a name="1-prepare-for-directory-synchronization"></a>1. Подготовка к синхронизации службы каталогов 
 
-Перед синхронизацией пользователей и компьютеров из локального домена Active Directory просмотрите статью подготовка к [синхронизации каталогов в Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). В частности:
+Перед синхронизацией пользователей и компьютеров из локального домена Active Directory просмотрите статью [Подготовка к синхронизации службы каталогов в Microsoft 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). В частности:
 
    - Убедитесь, что в каталоге нет дубликатов для следующих атрибутов: **mail**, **proxyAddresses**и **userPrincipalName**. Эти значения должны быть уникальными и все дубликаты должны быть удалены.
    
@@ -59,7 +59,7 @@ ms.locfileid: "44565691"
  5. Следуйте указаниям мастера, чтобы скачать Azure AD Connect и использовать его для синхронизации пользователей с управлением домена с Microsoft 365.
 
 
-Чтобы узнать больше, ознакомьтесь со статьей [Настройка синхронизации каталогов для Office 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) .
+Более подробную информацию можно узнать в статье [Настройка синхронизации каталогов для Microsoft 365](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) .
 
 При настройке параметров для Azure AD Connect рекомендуется включить **синхронизацию паролей**, **единый вход**и функцию **обратной записи паролей** , которая также поддерживается в Microsoft 365 для бизнеса.
 

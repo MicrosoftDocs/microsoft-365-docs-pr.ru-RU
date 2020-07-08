@@ -22,11 +22,12 @@ search.appverid:
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
 description: Сведения о доменах и связанных с ними записями DNS для обучения управлению доменами.
-ms.openlocfilehash: 2fc581968a4cec3c6e9b5c51f717a8cfa78cd6a3
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: a69f6a34585f7ff033a30e10254f29b89d978d3e
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049658"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079995"
 ---
 # <a name="dns-basics"></a>Основы DNS
 
@@ -144,7 +145,7 @@ DNS-записи домена могут быть полезны и другим
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
-## <a name="why-add-a-domain-in-office-365"></a>Зачем добавлять домен в Office 365?
+## <a name="why-add-a-domain-in-microsoft-365"></a>Зачем добавлять домен в Microsoft 365?
 
 
 При добавлении настраиваемого домена, например fourthcoffee.com, в Microsoft 365 вы можете использовать более короткий, более понятный адрес электронной почты и идентификатор пользователя в службе. При регистрации учетной записи Microsoft 365 вам [предоставляется домен](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq), включающий "onmicrosoft.com". Многие предпочитают добавлять домен организации или предприятия, если планируется использовать Microsoft 365 для работы с электронной почтой. 
