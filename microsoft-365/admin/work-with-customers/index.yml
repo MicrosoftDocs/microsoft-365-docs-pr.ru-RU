@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Работа с клиентами
-summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам с общими задачами, или просмотрите полный список в области навигации слева.
 metadata:
   title: Работа с клиентами
-  description: Совместное использование документов и использование Teams для совместной работы и удовлетворения
+  description: Совместное использование документов и использование Teams для совместной работы и собраний
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 80aea7aef92cd584df0c35b0d14ec71e0ad738b7
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785464"
@@ -32,7 +32,7 @@ landingContent:
       url: https://support.microsoft.com/office/11fbb083-52ee-434d-8c6e-63711fdafac7
     - text: Присоединение к команде в качестве гостя
       url: https://support.microsoft.com/office/928d1eef-61e2-49ec-b754-c2fe86b34824
-    - text: Чат с сотрудниками и клиентами
+    - text: Общение в чате с сотрудниками и клиентами
       url: https://support.microsoft.com/office/65748808-a403-462c-a6e1-b169e5bc6c92
     - text: Планирование собрания Teams с гостевыми пользователями
       url: https://support.microsoft.com/office/c61b4f61-ee62-4a06-8bf7-0a1cd302700a

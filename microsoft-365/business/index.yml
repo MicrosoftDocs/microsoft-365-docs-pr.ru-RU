@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Ресурсы Microsoft 365 бизнес премиум
-summary: Microsoft 365 бизнес премиум (ранее Microsoft 365 Business) - это комплексная служба подписки для предприятий с числом сотрудников менее 300. Он интегрирует избранные приложения Office и службы совместной работы Office, такие как Microsoft Teams, с расширенными возможностями обеспечения безопасности и управления устройствами.
+title: Ресурсы Microsoft 365 бизнес премиум
+summary: Microsoft 365 бизнес премиум (прежнее название — Microsoft 365 бизнес) — это комплексная служба подписки для предприятий с числом сотрудников менее 300. Она объединяет ваши любимые приложения и службы для повышения производительности Office, а также инструменты для совместной работы, такие как Microsoft Teams, с расширенными возможностями обеспечения безопасности и управления устройствами.
 brand: m365
 metadata:
-  title: Ресурсы Microsoft 365 бизнес премиум
-  description: description
+  title: Ресурсы Microsoft 365 бизнес премиум
+  description: (описание)
   ms.service: o365-administration
   ms.topic: hub-page
   ms.collection: collection
@@ -14,35 +14,35 @@ metadata:
   ms.date: 10/01/2019
   ms.openlocfilehash: fe849499da31b3be4ab52144d1a39f8a1bc7a212
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44786194"
 productDirectory:
-  title: Безопасная удаленная работа с Microsoft 365 Business Premium
+  title: Безопасная удаленная работа с помощью Microsoft 365 бизнес премиум
   items:
   - title: Чтение
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Лучшие способы обеспечения безопасной удаленной работы с Microsoft 365 Business Premium.
+    summary: Лучшие способы обеспечения безопасной удаленной работы с помощью Microsoft 365 бизнес премиум.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
-  - title: Получение бесплатной партнерской комплекта
+  - title: Получение бесплатного партнерского комплекта
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
-    summary: Практическое руководство и переход на рынок ресурсов для партнеров по защите удаленных работ.
+    summary: Практические руководства и ресурсы по выходу на рынок для партнеров с целью обеспечения безопасности удаленной работы.
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: Новые возможности
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1 поступает в Microsoft 365 Business Premium.
+    summary: План Azure AD Premium P1 становится доступным в Microsoft 365 бизнес премиум!
     url: https://aka.ms/aadp1smbblog
 conceptualContent:
   items:
-  - title: Что такое Microsoft 365 бизнес премиум?
+  - title: Что такое Microsoft 365 бизнес премиум?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
       text: Обзор
     - url: https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
-      text: Обучение Microsoft 365 бизнес премиум
+      text: Обучение по Microsoft 365 бизнес премиум
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: Сравнение планов
@@ -52,7 +52,7 @@ conceptualContent:
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
       text: Вопросы и ответы
-  - title: Настройка Microsoft 365 бизнес премиум
+  - title: Настройка Microsoft 365 бизнес премиум
     links:
     - url: set-up.md
       itemType: how-to-guide
@@ -82,7 +82,7 @@ conceptualContent:
       text: Технические основы
     - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
       itemType: download
-      text: Контрольный список для обеспечения безопасности удаленных работ
+      text: Контрольный список для обеспечения безопасной удаленной работы
   - title: Управление пользователями
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
@@ -189,10 +189,10 @@ conceptualContent:
     links:
     - url: sign-up.md
       itemType: get-started
-      text: Регистрация в Microsoft 365 бизнес премиум
+      text: Регистрация в Microsoft 365 бизнес премиум
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Миграция с Microsoft 365 бизнес стандарт
+      text: Миграция с Microsoft 365 бизнес стандарт
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Миграция с Office 365 E3
