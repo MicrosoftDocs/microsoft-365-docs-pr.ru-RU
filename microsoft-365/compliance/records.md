@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о записях, которые помогут вам внедрить решение для управления записями в Microsoft 365.
-ms.openlocfilehash: 6807f8b8f76b2bc85835edf0d4402b98ea217037
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 35d1becad78cdb01402ba50ba44b277f8c511567
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470584"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080106"
 ---
 # <a name="learn-about-records"></a>Узнайте о записях
 
@@ -62,7 +62,7 @@ ms.locfileid: "44470584"
 
     Дополнительные сведения о применении меток хранения к папкам SharePoint и OneDrive см. в разделе [Применение метки хранения по умолчанию ко всему содержимому в библиотеке SharePoint, папке или набору документов](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set).
 
-  - **Записи невозможно удалить**. Если пользователь пытается удалить запись в Exchange, элемент перемещается в папку «Элементы для восстановления», как описано в разделе [Как политика хранения работает с расположениями Exchange](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange-locations).
+  - **Записи невозможно удалить**. При попытке пользователя удалить запись в Exchange элемент перемещается в папку "Элементы с возможностью восстановления", как указано в разделе [Как работает политика хранения с Exchange](retention-policies-exchange.md#how-a-retention-policy-works-with-exchange).
 
     При попытке пользователя удалить запись в SharePoint отображается ошибка с сообщением о том, что элемент не был удален и остается в библиотеке.
 

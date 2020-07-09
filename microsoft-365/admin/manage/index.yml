@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Управление данными и службами
-summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+title: Управление данными и службой
+summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам с общими задачами, или просмотрите полный список в области навигации слева.
 metadata:
-  title: Управление данными и службами
-  description: Наблюдение за состоянием службы, резервное копирование данных, установка надстроек и обновление до последних версий приложений
+  title: Управление данными и службой
+  description: Отслеживание состояния службы, резервное копирование данных, установка надстроек и обновление до последних версий приложений
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 3aba9a081fadb85a3c052d0b11d6ff49dbffa0ca
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780101"
@@ -24,7 +24,7 @@ landingContent:
     links:
     - text: Отслеживание активности пользователей с помощью отчетов
       url: ../activity-reports/activity-reports.md
-    - text: Аналитика использования мониторинга
+    - text: Отслеживание данных анализа использования
       url: ../usage-analytics/usage-analytics.md
     - text: Включение анализа использования
       url: ../usage-analytics/enable-usage-analytics.md
@@ -36,7 +36,7 @@ landingContent:
       url: release-options-in-office-365.md
     - text: Отображение и скрытие новых функций
       url: show-hide-new-features.md
-- title: Блокировка доступа пользователей и резервное копирование данных
+- title: Блокировка доступа пользователя и резервное копирование данных
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -44,13 +44,13 @@ landingContent:
       url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
     - text: Настройка хранения электронной почты (Microsoft 365 бизнес премиум)
       url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
-    - text: Удаление данных компании с устройств (Microsoft 365 бизнес премиум)
+    - text: Удаление данных организации с устройств (Microsoft 365 бизнес премиум)
       url: ../../business/remove-company-data.md
 - title: Управление надстройками и приложениями
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Перевод пользователей на последние версии приложений
+    - text: Обновление приложений пользователей до последних версий
       url: ../setup/upgrade-users-to-latest-office-client.md
     - text: Настройка средства запуска приложений
       url: customize-the-app-launcher.md
@@ -62,9 +62,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Документация для администраторов Microsoft Teams
+    - text: Документы для администраторов Microsoft Teams
       url: https://docs.microsoft.com/en-us/microsoftteams/
-    - text: Совместное использование Outlook и Teams
+    - text: Одновременное использование Outlook и Teams
       url: https://support.microsoft.com/office/9bc459c4-ce13-479b-b88b-b8ae49092732
   - linkListType: learn
     links:
@@ -74,9 +74,9 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Документация по SharePoint для ИТ-специалистов и администраторов
+    - text: Документация SharePoint для ИТ-специалистов и администраторов
       url: https://docs.microsoft.com/sharepoint/
-    - text: Документация по OneDrive для ИТ-специалистов и администраторов
+    - text: Документация OneDrive для ИТ-специалистов и администраторов
       url: https://docs.microsoft.com/onedrive/
   - linkListType: how-to-guide
     links:

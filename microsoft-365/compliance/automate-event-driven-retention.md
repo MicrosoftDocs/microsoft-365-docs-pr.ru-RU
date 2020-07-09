@@ -15,11 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: В этой статье описывается, как настроить операции бизнес-процесса, чтобы автоматизировать хранение с помощью событий, используя REST API Microsoft 365.
-ms.openlocfilehash: 15d2dd8417cf0a22b8db63f64c0bbb288e74880c
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: c97106597733460caeab8d1d398ff81e23dd2727
+ms.sourcegitcommit: dc5de2064706137256307f100b8dc61e9797bd1c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45046067"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45068118"
 ---
 # <a name="automate-event-based-retention"></a>Автоматизация хранения на основе событий
 
@@ -158,10 +159,10 @@ Rest API — это конечная точка службы, поддержив
 
 ##### <a name="create-an-event"></a>Создание события
 
-Пример кода для вызова REST API
+Пример кода для вызова REST API:
 
 - **Метод**: POST
-- **URL-адрес**: https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
 - **Заголовки**: Key = Content-Type, Value = application/atom+xml
 - **Текст**:
     
@@ -297,7 +298,7 @@ Rest API — это конечная точка службы, поддержив
 | 401               | Сбой авторизации                                 |
 | 403               | Сбой проверки подлинности                                |
 
-#### <a name="using-powershell-ver6-or-higher-or-any-http-client"></a>Использование PowerShell (версии 6 или выше) или любого HTTP-клиента
+#### <a name="using-powershell-version-6-or-later-or-any-http-client"></a>Использование PowerShell (версии 6 или более поздней) или любого HTTP-клиента
 
 Шаг 1. Подключитесь к PowerShell.
 
@@ -451,7 +452,9 @@ A manufacturing company that produces different lines of products creates many m
 
 ### <a name="using-redirect-302-response-results-to-call-the-rest-api"></a>Использование результатов ответа 302 (перенаправление) для вызова REST API
 
-1. Вызовите событие хранения POST с помощью URL-адреса REST API <https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent> (требуются разрешения глобального администратора).
+1. Вызов события хранения POST с помощью URL-адреса REST API: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+    
+    Требуются разрешения глобального администратора.
 
 2. Проверьте код ответа. Если получен код 302, получите URL-адрес перенаправления из свойства Location (Расположение) заголовка ответа.
 
