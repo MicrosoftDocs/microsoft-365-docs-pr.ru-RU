@@ -20,12 +20,12 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 57e18d68f6f33482fec3880b56ccad52c719a6d9
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: 44c9992be3fe0e6919a498fea0ee1b480a30a2bb
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023407"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086683"
 ---
 # <a name="microsoft-secure-score"></a>Оценка безопасности (Майкрософт)
 
@@ -131,7 +131,7 @@ Microsoft Security Score обновил действия по улучшению
 
 * Выберите **Управление** , чтобы перейти к экрану конфигурации и внесите изменения. Затем вы получите баллы, которые потребуются в действии, видимые в разделе вылет. Обновление точек обычно займет около 24 часов.
 
-* Выберите **общий доступ** , чтобы скопировать прямую ссылку на действие улучшения, или выберите платформу для совместного использования ссылок, таких как электронная почта, Microsoft Teams, Microsoft Planner или ServiceNow. Выбор ServiceNow позволит вам создать билет на изменение, который будет отображаться в ServiceNow и на домашней странице центра безопасности Microsoft 365. Чтобы узнать больше, ознакомьтесь со статьей [Microsoft 365 Security Center and ServiceNow](tickets.md).
+* Выберите **общий доступ** , чтобы скопировать прямую ссылку на действие улучшения, или выберите платформу для совместного использования ссылок, таких как электронная почта, Microsoft Teams, Microsoft Planner или ServiceNow. Выбор ServiceNow позволит вам создать билет на изменение, который будет отображаться в ServiceNow и на домашней странице центра безопасности Microsoft 365. Чтобы узнать больше, ознакомьтесь со статьей [Microsoft 365 Security Center and ServiceNow](tickets-security-center.md).
 
 ### <a name="choose-an-improvement-action-status"></a>Выбор состояния действия по улучшению
 

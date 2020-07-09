@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Управление электронной почтой и календарями
-summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам с общими задачами, или просмотрите полный список в области навигации слева.
 metadata:
   title: Управление электронной почтой и календарями
-  description: Управление параметрами электронной почты, группами рассылки, параметрами безопасности и настройками общих почтовых ящиков
+  description: Управление параметрами электронной почты, группами рассылки, параметрами безопасности и настройка общих почтовых ящиков
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: c35874ec774b0e8753b0bfacb2dd795a4f000188
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44780221"
@@ -22,19 +22,19 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Управление параметрами электронной почты пользователя
+    - text: Управление параметрами электронной почты пользователей
       url: office-365-user-email-settings.md
     - text: Сведения о совместной работе в электронной почте
       url: email-collaboration.md
   - linkListType: how-to-guide
     links:
-    - text: Добавление другого псевдонима электронной почты
+    - text: Добавление псевдонима электронной почты
       url: add-another-email-alias-for-a-user.md
     - text: Использование личного домена
       url: change-email-address.md
     - text: Настройка переадресации
       url: configure-email-forwarding.md
-    - text: Работать с группами безопасности
+    - text: Работа с группами безопасности
       url: create-edit-or-delete-a-security-group.md
     - text: Перенос электронной почты и контактов в Microsoft 365
       url: ../setup/migrate-email-and-contacts-admin.md
@@ -66,9 +66,9 @@ landingContent:
     links:
     - text: Поиск и устранение проблем с доставкой электронной почты
       url: https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues
-    - text: Устранение проблем и поиск проблем после добавления домена или записей DNS
+    - text: Поиск и устранение неполадок после добавления домена и записей DNS
       url: ../get-help-with-domains/find-and-fix-issues.md
-    - text: Восстановление удаленных сообщений электронной почты в почтовом ящике пользователя
+    - text: Восстановление писем, удаленных из почтового ящика пользователя
       url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
     - text: Устранение проблем c подключением Outlook в Microsoft 365 и Exchange Online
       url: https://support.microsoft.com/office/e90bb691-c2a7-4697-a94f-88836856c72f

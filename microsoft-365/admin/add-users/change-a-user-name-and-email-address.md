@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
 description: 'Узнайте, как глобальный администратор может изменить адрес электронной почты и отображаемое имя. '
-ms.openlocfilehash: 0c94114a50ce369ffb809e8f41060994f635a36c
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: fedc1532bfec246392180d386a6960dbb08bd137
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936531"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45079717"
 ---
 # <a name="change-a-user-name-and-email-address"></a>Изменение имени пользователя и адреса электронной почты
 
@@ -50,7 +50,7 @@ ms.locfileid: "44936531"
     
 2. Выберите имя пользователя, а затем на вкладке **Учетная запись** выберите **Управление именем пользователя**.
     
-3. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Office 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке. 
+3. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке. 
 
 4. Нажмите кнопку **Сохранить изменения**.
 
@@ -63,9 +63,9 @@ ms.locfileid: "44936531"
 
 2. Выберите пользователя. Во всплывающей панели рядом с пунктом **Имя пользователя / электронная почта**выберите **Изменить**.
 
-3. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Office 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке.
+3. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке.
 
-4. Нажмите кнопку **Сохранить**.
+4. Нажмите **Сохранить**.
 
 ::: moniker-end
 
@@ -75,9 +75,9 @@ ms.locfileid: "44936531"
 
 2. Выберите пользователя. Во всплывающей панели рядом с пунктом **Имя пользователя / электронная почта**выберите **Изменить**.
 
-3. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Office 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке.
+3. В первом поле введите первую часть нового адреса электронной почты. Если вы добавили в Microsoft 365 собственный домен, его можно выбрать для нового псевдонима в раскрывающемся списке.
 
-4. Нажмите кнопку **Сохранить**.
+4. Нажмите **Сохранить**.
 
 ::: moniker-end
 
@@ -93,7 +93,7 @@ ms.locfileid: "44936531"
 
 3. Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.
   
@@ -121,7 +121,7 @@ ms.locfileid: "44936531"
 
 3. Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.
   
@@ -131,7 +131,7 @@ ms.locfileid: "44936531"
  
   - Для вступления в силу этого изменения может потребоваться время.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - Если он пользуется Skype для бизнеса online, сообщите, что ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.
 
@@ -149,7 +149,7 @@ ms.locfileid: "44936531"
 
 3. Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Office 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
     
     Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.
   
@@ -159,7 +159,7 @@ ms.locfileid: "44936531"
  
   - Для вступления в силу этого изменения может потребоваться время.
   
-  - What their new username is. They'll need it to sign in to Office 365.
+  - What their new username is. They'll need it to sign in to Microsoft 365.
     
   - Если он пользуется Skype для бизнеса online, сообщите, что ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.
 
@@ -234,7 +234,7 @@ Some people might continue to send email to the person's old email address and d
 
 If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Office 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
   
 Чтобы это исправить, войдите в [Модуль Azure Active Directory для PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) с учетными данными администратора Microsoft 365 и используйте следующий синтаксис: 
   

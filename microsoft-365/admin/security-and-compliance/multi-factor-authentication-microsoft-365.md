@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения о многофакторной проверке подлинности в Microsoft 365
-ms.openlocfilehash: e8ba304d145ca7227eea074556ff6efccd751ecf
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 71a61c51d2813880cad782d132679fa413ada987
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399150"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083590"
 ---
 # <a name="multi-factor-authentication-for-microsoft-365"></a>Многофакторная проверка подлинности в Microsoft 365
 
@@ -75,7 +75,7 @@ ms.locfileid: "44399150"
 
 Включить или отключить параметры безопасности по умолчанию можно на портале Azure в области **Свойства** для Azure AD.
 
-![](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
+![Изображение страницы свойств каталога.](../../media/multi-factor-authentication-microsoft-365/security-defaults-mfa.png)
 
 Параметры безопасности по умолчанию можно использовать в любом плане Microsoft 365.
 
@@ -93,7 +93,7 @@ ms.locfileid: "44399150"
 
 Настроить политики условного доступа можно на портале Azure в области**Безопасность ** для Azure AD.
 
-![](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
+![Пикуре команды меню для условного доступа](../../media/multi-factor-authentication-microsoft-365/conditional-access-mfa.png)
 
 Использование политик условного доступа возможно с:
 
@@ -140,7 +140,7 @@ ms.locfileid: "44399150"
 
 MFA для отдельных учетных записей пользователей можно включить в области **Активные пользователи** центра администрирования Microsoft 365.
 
-![](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
+![Изображение параметра многофакторной проверки подлинности на странице "активные пользователи"](../../media/multi-factor-authentication-microsoft-365/per-user-mfa.png)
 
 После включения MFA при следующем входе пользователя ему будет предложено выполнить регистрацию для MFA, а также выбрать и протестировать дополнительный метод проверки.
 

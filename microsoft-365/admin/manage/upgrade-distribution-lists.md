@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Узнайте, как обновить один или несколько списков рассылки до Microsoft 365 группы в Outlook, а также как использовать PowerShell для одновременного обновления нескольких списков рассылки.
-ms.openlocfilehash: f5748c293d18943c94c3610c0e3c5c33848eb521
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: a1fb974be4838ebe98c2c55fe8694e89e27d636e
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780029"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083578"
 ---
 # <a name="upgrade-distribution-lists-to-microsoft-365-groups-in-outlook"></a>Обновление списков рассылки до Microsoft 365 группы в Outlook
 
@@ -71,11 +71,15 @@ It's possible that the distribution list didn't get upgraded because of a servic
 
 Чтобы обновить один DL, выполните следующую команду:
 
-`Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities \<Dl SMTP address\>`
+```
 
 Например, если вы хотите обновить списки рассылки с помощью SMTP-адреса dl1@contoso.com, выполните следующую команду:
 
-`Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```PowerShell
+Upgrade-DistributionGroup -DlIdentities dl1@contoso.com`
+```
 
 > [!NOTE]
 > Вы также можете обновить один список рассылки до группы Microsoft 365 с помощью командлета PowerShell [New – UnifiedGroup](https://go.microsoft.com/fwlink/?LinkID=786379) .
@@ -84,9 +88,8 @@ It's possible that the distribution list didn't get upgraded because of a servic
 
 Вы также можете передать несколько списков рассылки в виде пакета и обновить их вместе:
 
-```
+```PowerShell
 Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address2\>,
-
 \< DL SMTP address3\>, \< DL SMTP address 4\>
 ```
 
@@ -103,7 +106,7 @@ Upgrade-DistributionGroup -DlIdentities \<DL SMTP address1\>, \< DL SMTP address
 
 1. Получите подходящие списки рассылки в клиенте и обновите их с помощью команды Upgrade:
 
-```
+```PowerShell
 Get-EligibleDistributionGroupForMigration | Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }
@@ -111,7 +114,7 @@ Get-EligibleDistributionGroupForMigration | Foreach-Object{
 
 2. Получение списка всех списков рассылки и обновление только соответствующих списков рассылки:
 
-```
+```PowerShell
 Get-DistributionGroup| Foreach-Object{
     Upgrade-DistributionGroup -DlIdentities $_.PrimarySMTPAddress
 }

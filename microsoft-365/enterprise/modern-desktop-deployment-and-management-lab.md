@@ -15,17 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: 7090a9fcc279f9bedc5f86b43952a12e988069e1
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
+ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049920"
+ms.locfileid: "45052729"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
 Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная и Приложениями Microsoft 365 для предприятий. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, включая Microsoft Endpoint Configuration Manager, Аналитика компьютеров, центр развертывания Office, OneDrive, Windows Autopilot и т. д.
 
-Этот курс обучения настоятельно рекомендуется организациям, которые ведут подготовку к завершению срока службы Windows 7, а также тем организациям, в которых уже используется Windows 10 и Office 365 Plus или Office 2019. Кроме того, представляя собой изолированную среду, эти занятия дают отличную возможность изучить обновления средств развертывания и протестировать средства автоматизации, связанные с развертыванием.
+Этот курс обучения настоятельно рекомендуется организациям, которые ведут подготовку к завершению срока службы Windows 7, а также тем организациям, в которых уже используется Windows 10 и Приложения Microsoft 365 (прежнее название — Office 365 профессиональный плюс) или Office 2019. Кроме того, представляя собой изолированную среду, эти занятия дают отличную возможность изучить обновления средств развертывания и протестировать средства автоматизации, связанные с развертыванием.
 
 [Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
@@ -73,6 +74,7 @@ ms.locfileid: "45049920"
   - Корпоративное управляемое развертывание с помощью Configuration Manager и Microsoft Intune
   - Развертывание приложений и управление ими с помощью Microsoft Intune
   - Развертывание приложений и установка их по принципу самообслуживания с помощью Microsoft Store для бизнеса
+  - НОВИНКА! Установка Microsoft Teams 
 
 ### <a name="user-file-and-settings-migration"></a>Перенос файлов и параметров пользователей
 
@@ -107,8 +109,7 @@ ms.locfileid: "45049920"
   - Обслуживание Windows 10 с помощью Configuration Manager и Intune
   - Обслуживание приложений Microsoft 365 для предприятий с помощью Configuration Manager
   - НОВИНКА! Обновления Office с помощью Configuration Manager и Intune
-  - НОВИНКА! Установка Microsoft Teams 
-
+  
 ### <a name="new-windows-virtual-desktop"></a>НОВИНКА! Виртуальный рабочий стол Windows
   - Виртуальный рабочий стол Windows: подготовка, развертывание, оптимизация 
 

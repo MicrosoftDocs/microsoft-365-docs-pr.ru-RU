@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Центр решений и архитектуры Microsoft 365
-summary: Узнайте, как разработать решение и архитектуру, предназначенные для вашей организации.
+title: Центр архитектуры и решений Microsoft 365
+summary: Узнайте, как спроектировать решение и архитектуру, оптимальные для вашей организации.
 brand: m365
 metadata:
-  title: Центр решений и архитектуры Microsoft 365
-  description: Узнайте, как разработать решение и архитектуру, предназначенные для вашей организации.
+  title: Центр архитектуры и решений Microsoft 365
+  description: Узнайте, как спроектировать решение и архитектуру, оптимальные для вашей организации
   ms.service: o365-solutions
   ms.topic: hub-page
   ms.collection:
@@ -18,13 +18,13 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: 7f0da78b7d0c716532c2aca277059ff54478be5f
   ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 05/07/2020
   ms.locfileid: "44160151"
 highlightedContent:
   items:
-  - title: Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
+  - title: Повышение эффективности работы сотрудников, работающих удаленно, с помощью Microsoft 365
     itemType: whats-new
     url: empower-people-to-work-remotely.md
   - title: Настройка безопасной совместной работы с помощью Microsoft 365
@@ -35,46 +35,46 @@ highlightedContent:
     url: deploy-threat-protection.md
 productDirectory:
   items:
-  - title: Решения Microsoft 365 для фундамента
+  - title: Основные решения Microsoft 365
     imageSrc: https://docs.microsoft.com/office/media/icons/blocks-blue.svg
-    summary: Ознакомьтесь с рекомендациями по определению бизнес-проблемы или их необходимости от планирования до внедрения.
+    summary: Ознакомьтесь с полными руководствами по решению конкретных бизнес-задач, от планирования до реализации и внедрения.
     url: foundation-solutions-overview.md
-  - title: Рекомендации по использованию решений и сценариев для рабочих нагрузок
+  - title: Решение задачи рабочей нагрузки и инструкции по сценариям
     imageSrc: https://docs.microsoft.com/office/media/icons/objects-blue.svg
-    summary: Добавьте эти сценарии в основные решения, чтобы добавить возможности в среду.
+    summary: Добавьте эти сценарии в основные решения, расширив возможности вашей среды.
     url: workload-solutions-scenarios-overview.md
-  - title: Иллюстрации по решению и архитектуре
+  - title: Иллюстрации архитектуры и решений
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg
-    summary: Просмотрите или Скачайте эти иллюстрации, чтобы узнать о возможностях и архитектуре служб Microsoft 365.
+    summary: Просмотрите или скачайте эти иллюстрации, дающие представление о возможностях и архитектуре служб Microsoft 365.
     url: productivity-illustrations.md
   - title: Специализированные отраслевые руководства
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-blue.svg
-    summary: Здесь вы найдете инструкции, специально разработанные для вашей отрасли.
+    summary: Ознакомьтесь с руководством, специально разработанным для вашей отрасли.
     url: industry-specific-guidance-overview.md
-  - title: Принципы корпоративного оформления
+  - title: Принципы проектирования для предприятий
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-blue.svg
-    summary: Основные принципы, необходимые для изучения архитектур сети, удостоверения, безопасности и многоязычности.
+    summary: Ознакомьтесь с основными принципами, необходимыми для понимания архитектуры сетей, удостоверений, защиты и транснациональных систем.
     url: design-principles.md
-  - title: Схема развертывания и ресурсы
+  - title: Развертывание дорожной карты и ресурсов
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
-    summary: Ресурсы по настройке совместной работы с защитой и защитой информации.
+    summary: Ресурсы по настройке совместной работы с использованием функций безопасности и защиты информации.
     url: https://docs.microsoft.com/microsoft-365/?view=o365-worldwide
 additionalContent:
   sections:
   - title: Дополнительные ресурсы для Microsoft 365
     items:
-    - title: Центр справки Microsoft 365 для администраторов и ИТ-специалистов
-      summary: Дополнительные ресурсы для ИТ-специалистов находятся на странице Microsoft 365
+    - title: Справочный центр Microsoft 365 для администраторов и ИТ-специалистов
+      summary: Дополнительные ресурсы для ИТ-специалистов размещены на странице Microsoft 365
       url: https://docs.microsoft.com/microsoft-365
-    - title: Обучение для администраторов и ИТ-специалистов
-      summary: Материалы по обучению для управления Microsoft 365
+    - title: Обучение администраторов и ИТ-специалистов
+      summary: Учебные ресурсы по управлению Microsoft 365
       url: https://docs.microsoft.com/learn/m365/
     - title: Обучение пользователей
-      summary: Помогите конечным пользователям узнать, как использовать Microsoft 365
+      summary: Помогите вашим пользователям освоить Microsoft 365
       url: https://support.office.com/modernworkplace
     - title: Сообщество Microsoft 365 Tech Community
-      summary: Участие в конференции технического сообщества
+      summary: Взаимодействие с сообществом Tech Community
       url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
     - title: Ресурсы для разработчиков
-      summary: Сведения о разработке для Microsoft 365
+      summary: Разработка для Microsoft 365
       url: https://developer.microsoft.com/microsoft-365

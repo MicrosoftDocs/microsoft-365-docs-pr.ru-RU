@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Ознакомьтесь с ответами на часто задаваемые вопросы о централизованном развертывании в центре администрирования Microsoft 365.
-ms.openlocfilehash: 0d0f2163982042f7b8f868a36f5cc115a17295a2
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 2d9a3c6f2cfe9418cc83cbd0f29537e5533c4257
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399828"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083566"
 ---
 # <a name="centralized-deployment-faq"></a>Вопросы и ответы о централизованном развертывании
 
@@ -36,7 +36,7 @@ ms.locfileid: "44399828"
  
 Централизованное развертывание поддерживается только для веб-почтовых ящиков. Он не поддерживает развертывание для локальных почтовых ящиков Exchange.
  
-Можно использовать [средство проверки совместимости централизованного развертывания Office 365](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker),   чтобы определить, подходит ли ваша подписка. 
+Можно использовать [средство проверки совместимости централизованного развертывания](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker),   чтобы определить, подходит ли ваша подписка. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Как вы научитесь назначать пользователя надстройки при централизованном развертывании?  
 
