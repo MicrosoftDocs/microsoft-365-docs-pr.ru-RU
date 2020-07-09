@@ -17,21 +17,24 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о действиях хранения, применяемых специально к почте Exchange и общедоступным папкам Exchange.
-ms.openlocfilehash: aa4142db2114b2b58cc391429f1389c6b9fad52d
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 57f0bf7737522b0435b076fee46edd1736efd856
+ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049897"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45080096"
 ---
 # <a name="learn-about-retention-policies-for-exchange"></a>Сведения о политиках хранения для Exchange
 
 Сведения этой статьи дополняют [сведения о политиках хранения](retention-policies.md), так как в них содержится информация, относящаяся к Exchange.
 
-## <a name="how-a-retention-policy-works-with-exchange-locations"></a>Влияние политики хранения на расположения Exchange
+## <a name="how-a-retention-policy-works-with-exchange"></a>Как политика хранения работает с Exchange
 
-Для почты, календаря и других пользовательских элементов политика хранения применяется на уровне почтового ящика.
+Для электронной почты, календаря и других элементов почтового ящика пользователя политика хранения применяется на уровне почтового ящика.
 
-Для общедоступной папки политика хранения применяется на уровне папки, а не почтового ящика. 
+Для общедоступных папок политика хранения применяется ко всем общедоступным папкам, а не на уровне определенной папки или почтового ящика
+
+При настройке политики хранения для этих расположений включаются следующие элементы почты: сообщения почты (в том числе черновики) со всеми вложениями, задачи и элементы календаря с датами окончания, а также заметки. Контакты, задачи и элементы календаря, у которых нет даты окончания, не включаются. Прочие элементы, хранящиеся в почтовом ящике, например, сохраненные сообщения Skype и Teams, включаются с собственной отдельной политикой хранения.
 
 Элементы почтового ящика и общедоступной папки хранятся в папке [Элементы с возможностью восстановления](https://docs.microsoft.com/exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder). Только пользователи, которым назначены разрешения на обнаружение электронных данных, могут просматривать элементы в папках "Элементы с возможностью восстановления" других пользователей.
   
@@ -73,7 +76,7 @@ ms.locfileid: "45049897"
   
 Чтобы исключить выбранные типы для элементов Exchange в политике хранения, используйте параметр `ExcludedItemClasses` с командлетами [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/new-retentioncompliancerule) и [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/set-retentioncompliancerule).
 
-Чтобы использовать командлеты политик хранения, сначала требуется [подключиться к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
+Для использования командлетов политик хранения нужно сначала [установить подключение к PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?view=exchange-ps).
 
 ## <a name="when-a-user-leaves-the-organization"></a>Когда пользователь покидает организацию 
 
