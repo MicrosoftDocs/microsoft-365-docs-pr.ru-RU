@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: f97f9b3eed2ec9eed95b1f4ec57a3b055d8c4925
   ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 05/01/2020
   ms.locfileid: "43997530"
@@ -28,11 +28,11 @@ landingContent:
       url: mtp/microsoft-threat-protection.md
     - text: Центр безопасности Microsoft 365
       url: mtp/overview-security-center.md
-- title: Начало ознакомительной версии
+- title: Начало работы с бесплатными пробными версиями
   linkLists:
   - linkListType: overview
     links:
-    - text: Оценка защиты от угроз Майкрософт
+    - text: Оценка Защиты от угроз (Майкрософт)
       url: mtp/mtp-evaluation.md
 - title: Защита удаленных сотрудников
   linkLists:

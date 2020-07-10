@@ -1,6 +1,6 @@
 ---
-title: Что поступает в показателях безопасности Майкрософт?
-description: В этой статье описывается оценка безопасности Майкрософт в центре безопасности Майкрософт 365, вычисление сведений и возможные Администраторы безопасности.
+title: Что поступает в оценку безопасности Майкрософт?
+description: В этой статье описывается, какие новые изменения поступают в оценку безопасности Майкрософт в центре безопасности Майкрософт 365.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, Оценка безопасности, центр безопасности, действия по улучшению
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -17,24 +17,30 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 39fbc934dabcb3b0b24bd0b861be8db14b6e0c35
-ms.sourcegitcommit: 3ddcf08e8deec087df1fe524147313f1cb12a26d
+ms.openlocfilehash: b8e071aa4f2a9b6cfa8187a588b4f75e499f6328
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45023385"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094778"
 ---
-# <a name="whats-coming-in-microsoft-secure-score"></a><span data-ttu-id="26dbd-104">Что поступает в показателях безопасности Майкрософт?</span><span class="sxs-lookup"><span data-stu-id="26dbd-104">What's coming in Microsoft Secure Score?</span></span>
+# <a name="whats-coming-to-microsoft-secure-score"></a><span data-ttu-id="de29d-104">Что поступает в оценку безопасности Майкрософт?</span><span class="sxs-lookup"><span data-stu-id="de29d-104">What's coming to Microsoft Secure Score?</span></span>
 
-<span data-ttu-id="26dbd-105">Чтобы сделать [Microsoft Secure рейтинг](microsoft-secure-score.md) более подходящим для вашей безопасности и улучшить удобство использования, мы будем вносить некоторые изменения в ближайшем будущем.</span><span class="sxs-lookup"><span data-stu-id="26dbd-105">To make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="26dbd-106">Ваш рейтинг и максимально возможный показатель будут меняться.</span><span class="sxs-lookup"><span data-stu-id="26dbd-106">Your score and the maximum possible score will change.</span></span> <span data-ttu-id="26dbd-107">Однако это не подразумевает изменения в безопасности.</span><span class="sxs-lookup"><span data-stu-id="26dbd-107">However, this does not imply a change in your security posture.</span></span>
+<span data-ttu-id="de29d-105">Чтобы сделать [Microsoft Secure рейтинг](microsoft-secure-score.md) более подходящим для вашей безопасности и улучшить удобство использования, мы будем вносить некоторые изменения в ближайшем будущем.</span><span class="sxs-lookup"><span data-stu-id="de29d-105">To make [Microsoft Secure Score](microsoft-secure-score.md) a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="de29d-106">Ваш рейтинг и максимально возможный показатель будут меняться.</span><span class="sxs-lookup"><span data-stu-id="de29d-106">Your score and the maximum possible score will change.</span></span> <span data-ttu-id="de29d-107">Однако это не подразумевает изменения в безопасности.</span><span class="sxs-lookup"><span data-stu-id="de29d-107">However, this does not imply a change in your security posture.</span></span>
 
-<span data-ttu-id="26dbd-108">Чтобы узнать о последних изменениях, ознакомьтесь со статьей " [новые возможности оценки безопасности Майкрософт".](microsoft-secure-score.md#whats-new)</span><span class="sxs-lookup"><span data-stu-id="26dbd-108">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score.md#whats-new)</span></span>
+<span data-ttu-id="de29d-108">Чтобы узнать о последних изменениях, ознакомьтесь со статьей " [новые возможности оценки безопасности Майкрософт".](microsoft-secure-score.md#whats-new)</span><span class="sxs-lookup"><span data-stu-id="de29d-108">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score.md#whats-new)</span></span>
 
-## <a name="july-2020"></a><span data-ttu-id="26dbd-109">2020 июля</span><span class="sxs-lookup"><span data-stu-id="26dbd-109">July 2020</span></span>
+## <a name="august-2020"></a><span data-ttu-id="de29d-109">Август 2020</span><span class="sxs-lookup"><span data-stu-id="de29d-109">August 2020</span></span>
 
-### <a name="add-improvement-actions-for-azure-advanced-threat-protection"></a><span data-ttu-id="26dbd-110">Добавление действий улучшения для службы Advanced Threat Protection в Azure</span><span class="sxs-lookup"><span data-stu-id="26dbd-110">Add improvement actions for Azure Advanced Threat Protection</span></span>
+### <a name="add-improvement-actions-for-azure-advanced-threat-protection"></a><span data-ttu-id="de29d-110">Добавление действий улучшения для службы Advanced Threat Protection в Azure</span><span class="sxs-lookup"><span data-stu-id="de29d-110">Add improvement actions for Azure Advanced Threat Protection</span></span>
 
-- <span data-ttu-id="26dbd-111">Пути перемещения рискованных Латерал</span><span class="sxs-lookup"><span data-stu-id="26dbd-111">Risky lateral movement paths</span></span>
-- <span data-ttu-id="26dbd-112">Небезопасные атрибуты учетной записи</span><span class="sxs-lookup"><span data-stu-id="26dbd-112">Unsecure account attributes</span></span>
-- <span data-ttu-id="26dbd-113">Включение функций безопасности для доверий Active Directory</span><span class="sxs-lookup"><span data-stu-id="26dbd-113">Enable security features on Active Directory trusts</span></span>
-- <span data-ttu-id="26dbd-114">Удаление атрибутов небезопасного журнала SID из сущностей</span><span class="sxs-lookup"><span data-stu-id="26dbd-114">Remove unsecure SID history attributes from entities</span></span>
+- <span data-ttu-id="de29d-111">Пути перемещения рискованных Латерал</span><span class="sxs-lookup"><span data-stu-id="de29d-111">Risky lateral movement paths</span></span>
+- <span data-ttu-id="de29d-112">Небезопасные атрибуты учетной записи</span><span class="sxs-lookup"><span data-stu-id="de29d-112">Unsecure account attributes</span></span>
+- <span data-ttu-id="de29d-113">Включение функций безопасности для доверий Active Directory</span><span class="sxs-lookup"><span data-stu-id="de29d-113">Enable security features on Active Directory trusts</span></span>
+- <span data-ttu-id="de29d-114">Удаление атрибутов небезопасного журнала SID из сущностей</span><span class="sxs-lookup"><span data-stu-id="de29d-114">Remove unsecure SID history attributes from entities</span></span>
+
+## <a name="related-resources"></a><span data-ttu-id="de29d-115">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="de29d-115">Related resources</span></span>
+
+- [<span data-ttu-id="de29d-116">Обзор оценки безопасности Майкрософт</span><span class="sxs-lookup"><span data-stu-id="de29d-116">Microsoft Secure Score overview</span></span>](microsoft-secure-score.md)
+- [<span data-ttu-id="de29d-117">Понимание уровня безопасности</span><span class="sxs-lookup"><span data-stu-id="de29d-117">Gain visibility into your security posture</span></span>](microsoft-secure-score-improvement-actions.md)
+- [<span data-ttu-id="de29d-118">Отслеживание журнала оценки безопасности Майкрософт и соответствующих целей</span><span class="sxs-lookup"><span data-stu-id="de29d-118">Track your Microsoft Secure Score history and meet goals</span></span>](microsoft-secure-score-history-metrics-trends.md)

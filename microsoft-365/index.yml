@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: a7d2dfe479d51d67c526dbe1bed2bc3dc5c56546
   ms.sourcegitcommit: 7f765670cb6970fdf7ddbad464ed3f8fe704bfaf
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/27/2020
   ms.locfileid: "44909292"
@@ -54,7 +54,7 @@ additionalContent:
       summary: Для крупных организаций Защитите свой бизнес и работайте по-новому с помощью приложений Office, Windows 10 и Enterprise Mobility + Security.
       url: ./enterprise/index.yml
     - title: Центр архитектуры и решений Microsoft 365
-      summary: Узнайте, как разработать решение и архитектуру, предназначенные для вашей организации.
+      summary: Узнайте, как спроектировать решение и архитектуру, оптимальные для вашей организации.
       url: ./solutions/index.yml
     - title: Microsoft 365 для образования
       summary: Единое и доступное решение для образовательных учреждений, позволяющее раскрывать творческий потенциал, стимулировать совместную работу и обеспечивать простую и безопасную работу.
