@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e8c8783a570fe1b747ba8d2cf07f7d7f6f2fe39f
-ms.sourcegitcommit: eee4f651bd51d5aedd64e42d02bfed8ccb9be4cd
+ms.openlocfilehash: 000f5ee96587aeb055db783e11833aefa6335a14
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44515766"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091925"
 ---
 # <a name="get-started-with-insider-risk-management"></a>Начало работы с управлением внутренними рисками
 
@@ -60,7 +60,7 @@ ms.locfileid: "44515766"
 
 Выполните следующие действия, чтобы добавить пользователей в группу ролей "Управление рисками" для участников:
 
-1. Войдите в систему [https://protection.office.com/permissions](https://protection.office.com/permissions) , используя учетные данные для учетной записи администратора в организации Microsoft 365. "" "" "" "" "
+1. Войдите в систему [https://protection.office.com/permissions](https://protection.office.com/permissions) , используя учетные данные для учетной записи администратора в организации Microsoft 365.
 
 2. В центре безопасности &amp; и соответствия требованиям выберите **разрешения**. Выберите ссылку для просмотра ролей в Office 365 и управления ими.
 

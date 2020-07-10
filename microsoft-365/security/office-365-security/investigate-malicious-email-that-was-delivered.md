@@ -1,11 +1,12 @@
 ---
-title: Поиск и исследование вредоносных сообщений электронной почты
+title: Исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365, Поиск и исследование вредоносных сообщений электронной почты
 keywords: Тимаилдата — встроенный, инцидент безопасности, инцидент, пакет ATP PowerShell, вредоносные программы электронной почты, скомпрометированные пользователи, фишинг электронной почты, вредоносные программы электронной почты, чтение заголовков электронной почты, чтение заголовков, открытые заголовки сообщений
 f1.keywords:
 - NOCSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
+ms.date: 07/09/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,18 +19,21 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как использовать функции расследования и реагирования на угрозы для поиска и изучения вредоносных сообщений электронной почты.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ac44ab06aaff1618df2dfc1485d15a68458f385
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: 747b6b875a3b7ebc8125ac27ed00c9a300845427
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039416"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091965"
 ---
-# <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Исследование и исправление вредоносных сообщений электронной почты, доставляемых в Office 365
+# <a name="investigate-malicious-email-that-was-delivered-in-office-365"></a>Исследование вредоносных сообщений электронной почты, доставляемых в Office 365
 
 [Расширенная защита от угроз для Office 365](office-365-atp.md) позволяет исследовать действия, которые приведут к риску людей в вашей организации, а также для защиты Организации. Например, если вы участвуете в группе безопасности Организации, вы можете найти и изучить подозрительные сообщения электронной почты, которые были доставлены. Это можно сделать с помощью [обозревателя угроз (или обнаружения в режиме реального времени)](threat-explorer.md).
+
+> [!NOTE]
+> Перейдите [к статье об](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-21vianet&branch=pr-en-us-4258)исправлении.
   
-## <a name="before-you-begin"></a>Подготовка
+## <a name="before-you-begin"></a>Перед началом работы
 
 Убедитесь, что выполняются следующие требования:
   
@@ -177,6 +181,9 @@ ms.locfileid: "45039416"
   
      **Временная шкала электронной почты** — это поле в обозревателе угроз, которое упрощает поиск команды по обеспечению безопасности. Когда в сообщении электронной почты происходит несколько событий или закрывается одно и то же время, эти события отображаются в представлении временной шкалы. Некоторые события, которые происходят после доставки в электронную почту, фиксируются в столбце " **специальные действия** ". Объединение сведений из временной шкалы сообщения электронной почты с какими-либо специальными действиями, которые были сделаны после доставки, позволяет администраторам контролировать политики и обработку угроз (например, место, в котором была выполнена маршрутизация почты), а в некоторых случаях — последнюю оценку.
 
+> [!IMPORTANT]
+> Перейдите [к разделу, посвященному](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)исправлению.
+
 <!-- Reference material
 
 1. **Navigate to Threat Explorer**: Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center. 
@@ -253,7 +260,9 @@ To access your message header and email download options, follow these steps:
 > This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.
 -->
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
+
+[Исправление вредоносных сообщений электронной почты, доставляемых в Office 365](https://docs.microsoft.com/microsoft-365/security/mtp/article-submission/remediate-malicious-email-delivered-office-365?view=o365-worldwide)
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
   
