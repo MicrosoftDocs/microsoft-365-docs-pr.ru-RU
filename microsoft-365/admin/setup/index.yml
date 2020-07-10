@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Начало работы
-summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам с общими задачами, или просмотрите полный список в области навигации слева.
 metadata:
   title: Начало работы
-  description: Настройте свою подписку и электронную почту. Добавление пользователей и установка приложений
+  description: Настройка подписки и адреса электронной почты. добавление пользователей и установка приложений
   ms.service: O365-administration
   ms.topic: landing-page
   author: sirkkuw
@@ -13,7 +13,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 0af560ae2a7f8aa028e0cb493c9070f78f93e0a4
   ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/17/2020
   ms.locfileid: "44779849"
@@ -26,13 +26,13 @@ landingContent:
       url: ../admin-overview/sign-up-for-office-365.md
   - linkListType: video
     links:
-    - text: Регистрация и настройка Microsoft Business Basic
+    - text: Регистрация и настройка Microsoft бизнес базовый
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-    - text: Подписка на Microsoft Business Standard
+    - text: Регистрация в Microsoft бизнес стандарт
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-    - text: Регистрация в Microsoft Business Premium
+    - text: Регистрация в Microsoft бизнес премиум
       url: https://support.microsoft.com/office/9ac1a0f1-789b-4143-b954-5821d5d89298
-- title: Настройка
+- title: Интерактивная настройка
   linkLists:
   - linkListType: overview
     links:
@@ -40,15 +40,15 @@ landingContent:
       url: plan-your-setup.md
   - linkListType: how-to-guide
     links:
-    - text: Настройка Microsoft Business Basic
+    - text: Настройка Microsoft бизнес базовый
       url: setup-business-basic.md
-    - text: Настройка Microsoft Business Standard
+    - text: Настройка Microsoft бизнес стандарт
       url: setup-business-standard.md
-    - text: Настройка Microsoft Business Premium
+    - text: Настройка Microsoft бизнес премиум
       url: ../../business/set-up.md
     - text: Настройка приложений Майкрософт для бизнеса
       url: setup-apps-for-business.md
-- title: Закончить настройку
+- title: Завершение настройки
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -60,11 +60,11 @@ landingContent:
       url: https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams
   - linkListType: video
     links:
-    - text: Установка приложений на Android
+    - text: Установка приложений на устройстве с Android
       url: https://support.microsoft.com/office/647909af-560f-4977-ae45-3b45ad9e8236
-    - text: Установка приложений на iOS
+    - text: Установка приложений на устройстве с iOS
       url: https://support.microsoft.com/office/d1ad9f23-0fa3-4cf1-bf26-ff35336fd343
     - text: Обучение пользователей
       url: https://support.microsoft.com/training
-    - text: Подключение компьютеров к Microsoft 365 Business Premium
+    - text: Подключение ПК к Microsoft 365 бизнес премиум
       url: https://support.microsoft.com/office/cd5716f6-05de-430b-ac94-662d5ee71d07

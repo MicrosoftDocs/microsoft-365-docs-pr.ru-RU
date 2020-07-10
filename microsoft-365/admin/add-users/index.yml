@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Управление пользователями и группами
-summary: Изучите эти ресурсы, чтобы помочь администраторам с распространенными задачами или просмотреть область навигации слева для полного списка.
+summary: Ознакомьтесь с этими ресурсами, чтобы помочь администраторам с общими задачами, или просмотрите полный список в области навигации слева.
 metadata:
   title: Управление пользователями и группами
-  description: Управление паролями, Добавление и удаление пользователей, Настройка групп и управление лицензиями
+  description: Управление паролями, добавление и удаление пользователей, настройка групп и управление лицензиями
   ms.service: O365-administration
   ms.subservice: subservice
   ms.topic: landing-page
@@ -14,7 +14,7 @@ metadata:
   ms.custom: AdminSurgePortfolio
   ms.openlocfilehash: 25b100e8f685c94d3dccc290e8f80b25e24a6d9b
   ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
   ms.lasthandoff: 06/18/2020
   ms.locfileid: "44785476"
@@ -25,11 +25,11 @@ landingContent:
     links:
     - text: Добавление пользователя
       url: add-users.md
-    - text: Изменение пользователя
+    - text: Изменение сведений о пользователе
       url: add-users.md
-    - text: Добавление гостей в группу Microsoft 365
+    - text: Добавление гостевых пользователей в группу Microsoft 365
       url: ../create-groups/manage-guest-access-in-groups.md
-    - text: Добавление другого адреса электронной почты
+    - text: Добавление дополнительного адреса электронной почты
       url: ../email/add-another-email-alias-for-a-user.md
     - text: Создание общего почтового ящика
       url: ../email/create-a-shared-mailbox.md
@@ -39,7 +39,7 @@ landingContent:
       url: ../manage/remove-licenses-from-users.md
     - text: Гостевые пользователи
       url: about-guest-users.md
-    - text: Использование личного домена
+    - text: Использование настраиваемого домена
       url: ../email/change-email-address.md
     - text: Перевод пользователей на последние версии приложений
       url: ../setup/upgrade-users-to-latest-office-client.md
@@ -49,9 +49,9 @@ landingContent:
     links:
     - text: Создание групп
       url: ../create-groups/create-groups.md
-    - text: Добавление элементов
+    - text: Добавление участников
       url: ../create-groups/add-or-remove-members-from-groups.md
-    - text: Восстановление или восстановление удаленной группы
+    - text: Восстановление удаленной группы
       url: ../create-groups/restore-deleted-group.md
     - text: Управление гостевым доступом в группах
       url: ../create-groups/manage-guest-access-in-groups.md
@@ -65,7 +65,7 @@ landingContent:
       url: set-password-to-never-expire.md
     - text: Предоставление пользователям прав на самостоятельный сброс пароля
       url: let-users-reset-passwords.md
-    - text: Настройка политики истечения срока действия паролей для Организации
+    - text: Установка политики срока действия паролей в организации
       url: ../manage/set-password-expiration-policy.md
     - text: Сброс пароля администратора
       url: reset-passwords.md#reset-my-admin-password
@@ -77,11 +77,11 @@ landingContent:
       url: delete-a-user.md
     - text: Доступ к данным бывшего пользователя и создание их резервной копии
       url: get-access-to-and-back-up-a-former-user-s-data.md
-    - text: Пересылка электронной почты другому пользователю
+    - text: Переадресация электронной почты другому пользователю
       url: ../email/configure-email-forwarding.md
     - text: Удаление лицензии
       url: ../manage/remove-licenses-from-users.md
     - text: Восстановление удаленного пользователя
       url: restore-user.md
-    - text: Удаление данных компании с устройств (Microsoft 365 бизнес премиум)
+    - text: Удаление данных организации с устройств (Microsoft 365 бизнес премиум)
       url: ../../business/remove-company-data.md
