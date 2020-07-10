@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте политику хранения, чтобы заранее решить, следует ли сохранить контент, удалить контент или и то, и другое - сохранить, а затем удалить контент; применять единую политику ко всей организации или конкретным местам или пользователям; и применять политику ко всему контенту или контенту, отвечающему определенным условиям.
-ms.openlocfilehash: 12b0c15186a27a1583403214a657367c1dd3b1a9
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: ab6a61e0cedfd91d642823f0c459a5a1699df000
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844755"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083621"
 ---
 # <a name="create-and-configure-retention-policies"></a>Создание и настройка политик хранения
 
@@ -52,7 +52,7 @@ ms.locfileid: "44844755"
     
     В Microsoft Teams: 
     - Вы должны выбрать опцию, чтобы выбрать определенные местоположения, если вы хотите удалить или сохранить сообщения канала Teams или групповые чаты. При выборе любого из этих параметров в качестве местоположений другие местоположения автоматически исключаются, поскольку политика хранения, включающая эти данные Teams, не может включать другие местоположения. 
-    - Обратите внимание, что для **сообщений канала Teams**, включены сообщения от стандартных каналов, но не от [частных каналов](https://docs.microsoft.com/microsoftteams/private-channels). Сообщения из частных каналов включаются для пользователей в виде групповых чатов при выборе местоположения **чатов Teams**.
+    - Обратите внимание, что для **сообщений канала Teams**, включены сообщения от стандартных каналов, но не от [частных каналов](https://docs.microsoft.com/microsoftteams/private-channels). В настоящее время закрытые каналы не поддерживаются политиками хранения.
     
     Для получения дополнительной информации о выборе между политикой хранения для организации или для определенных расположений см. [Применение политики хранения ко всей организации или определенным расположениям](#applying-a-retention-policy-to-an-entire-organization-or-specific-locations) на этой странице.
     
@@ -238,9 +238,11 @@ You can also apply a retention policy only to content that contains [specific ty
     ![Список политик хранения в PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
     
 3. Чтобы установить блокировку сохранения в политике хранения, запустите `Set-RetentionCompliancePolicy` с параметром `RestrictiveRetention` со значением true. Например,
-    
-        Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
-    
+
+   ```powershell
+   Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
+   ```
+   
     ![Параметр RestrictiveRetention в PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
     После запуска этого командлета выберите **Да для всех**:

@@ -213,10 +213,14 @@
                   href: mtp/mtp-time-zone.md
             - name: Просмотр профилей устройств
               href: mtp/device-profile.md
-            - name: Оставить отзыв
+            - name: Предоставление отзывов
               href: mtp/feedback.md
-            - name: Управление билетами с помощью ServiceNow
-              href: ./mtp/tickets.md
+            - name: Создание запросов и задач ServiceNow
+              items:
+                - name: Общие сведения об интеграции с ServiceNow
+                  href: ./mtp/tickets.md
+                - name: Запросы ServiceNow в Центре безопасности
+                  href: ./mtp/tickets-security-center.md
     - name: Безопасность Office 365
       items:
         - name: Начало работы

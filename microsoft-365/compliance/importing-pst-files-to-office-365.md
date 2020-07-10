@@ -20,12 +20,12 @@ ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 ms.custom:
 - seo-marvel-apr2020
 description: Получите сведения о том, как использовать службу импорта в Центре безопасности и соответствия требованиям для массового импорта данных электронной почты (PST-файлов) в почтовые ящики пользователей.
-ms.openlocfilehash: 8c80f42261ab008d2c3d0957661d5b295695ef6e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 20d7b263a5a5d16d3818e6b0597435f5e7d38b07
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817588"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083531"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files"></a>Обзор импорта файлов PST вашей организации
 
@@ -147,10 +147,7 @@ ms.locfileid: "44817588"
   
  **В каких регионах доступна отправка по сети?**
   
-Network upload is currently available in these regions: United States, Canada, Brazil, the United Kingdom, Europe, India, East Asia, Southeast Asia, Japan, Republic of Korea, Australia, and United Arab Emirates (UAE). Network upload will be available in more regions soon.
-
-> [!NOTE]
-> В настоящее время отправка PST-файлов по сети недоступна в Германии и Швейцарии. Эти вопросы и ответы будут обновлены, когда отправка по сети станет доступна в этих странах.
+Network upload is currently available in these regions: United States, Canada, Brazil, the United Kingdom, Europe, Germany, India, East Asia, Southeast Asia, Japan, Republic of Korea, Australia, and United Arab Emirates (UAE). Network upload will be available in more regions soon.
   
  **Сколько стоит импорт PST-файлов с помощью отправки по сети?**
   

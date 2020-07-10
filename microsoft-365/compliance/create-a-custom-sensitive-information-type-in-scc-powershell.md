@@ -15,11 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте, как создавать и импортировать пользовательский тип конфиденциальных данных для защиты от потери данных в Центре безопасности и соответствия требованиям.
-ms.openlocfilehash: 25b2d972214410df96d3dedbe204b75b6cd0b1d9
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: e0b2cbdad49c19e34237095b7825b4a3496fd570
+ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039393"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086626"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>Создание пользовательского типа конфиденциальной информации в PowerShell Центра безопасности и соответствия требованиям
 
@@ -48,7 +49,7 @@ Here's the sample XML of the rule package that we'll create in this topic. Eleme
   
 ```xml
 <?xml version="1.0" encoding="UTF-16"?>
-<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce">
+<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
 <RulePack id="DAD86A92-AB18-43BB-AB35-96F7C594ADAA">
     <Version build="0" major="1" minor="0" revision="0"/>
     <Publisher id="619DD8C3-7B80-4998-A312-4DF0402BAC04"/>
@@ -165,7 +166,7 @@ An entity is a sensitive information type, such as a credit card number, that ha
 <!-- why isn't the following in procedure format? -->
 Add the Rules and Entity elements. Then add a comment that contains the name of your custom entity - in this example, Employee ID. Later, you'll add the entity name to the localized strings section, and that name is what appears in the UI when you create a DLP policy.
   
-Next, generate a GUID for your entity. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing [guid]::NewGuid(). Later, you'll also add the entity GUID to the localized strings section.
+Next, generate a GUID for your entity. There are several ways to generate GUIDs, but you can do it easily in PowerShell by typing **[guid]::NewGuid()**. Later, you'll also add the entity GUID to the localized strings section.
   
 ![Разметка XML с элементами Rules и Entity](../media/c46c0209-0947-44e0-ac3a-8fd5209a81aa.png)
   
@@ -301,7 +302,7 @@ The Pattern element has a required confidenceLevel attribute. You can think of t
   
 ![Разметка XML, в которой используются элементы Pattern с различными значениями атрибута confidenceLevel](../media/301e0ba1-2deb-4add-977b-f6e9e18fba8b.png)
   
-In addition to confidenceLevel for each Pattern, the Entity has a recommendedConfidence attribute. The recommended confidence attribute can be thought of as the default confidence level for the rule. When you create a rule in a DLP policy, if you don't specify a confidence level for the rule to use, that rule will match based on the recommended confidence level for the entity.
+Помимо атрибута confidenceLevel, у каждого элемента Pattern имеется также атрибут recommendedConfidence. Его можно рассматривать как уровень доверия по умолчанию для данного правила. Когда вы создаете правило политики защиты от потери данных и при этом не указываете для него уровень доверия явным образом, к совпадениям по этому правилу будет применяться рекомендуемый для данной сущности уровень доверия. Обратите внимание, что атрибут recommendedConfidence является обязательным для каждого идентификатора объекта в пакете правил. Если он отсутствует, вы не сможете сохранять политики, использующие конфиденциальный тип информации. 
   
 ## <a name="do-you-want-to-support-other-languages-in-the-ui-of-the-security-amp-compliance-center-localizedstrings-element"></a>Do you want to support other languages in the UI of the Security &amp; Compliance Center? [LocalizedStrings element]
 
@@ -325,7 +326,7 @@ The Version element is also important. When you upload your rule package for the
   
 ```xml
 <?xml version="1.0" encoding="utf-16"?>
-<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce">
+<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
   <RulePack id=". . .">
     <Version major="1" minor="0" build="0" revision="0" />
     <Publisher id=". . ." /> 
@@ -567,8 +568,8 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:mce="https://schemas.microsoft.com/office/2011/mce"
-           targetNamespace="https://schemas.microsoft.com/office/2011/mce"
+<xs:schema xmlns:mce="http://schemas.microsoft.com/office/2011/mce"
+           targetNamespace="http://schemas.microsoft.com/office/2011/mce"
            xmlns:xs="https://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
