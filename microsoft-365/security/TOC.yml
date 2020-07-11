@@ -191,6 +191,10 @@
               items:
                 - name: Обзор оценки безопасности
                   href: mtp/microsoft-secure-score.md
+                - name: Получение информации о состоянии безопасности
+                  href: mtp/microsoft-secure-score-improvement-actions.md
+                - name: Отслеживание истории оценок и достижение целей
+                  href: mtp/microsoft-secure-score-history-metrics-trends.md
                 - name: Что вскоре появится
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: Отчеты
@@ -411,8 +415,10 @@
                   href: ./office-365-security/air-custom-reporting.md
             - name: Быстрый поиск и определение скомпрометированных учетных записей пользователей
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: Исследование и исправление вредоносной электронной почты
+            - name: Исследование вредоносной электронной почты
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: Исправление вредоносной электронной почты
+              href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
             - name: Просмотр и чтение отчетов ATP
               href: ./office-365-security/view-reports-for-atp.md
             - name: Использование аналитики угроз для описания последних атак

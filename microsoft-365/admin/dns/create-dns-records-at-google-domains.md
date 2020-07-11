@@ -1,5 +1,5 @@
 ---
-title: Создание записей DNS в доменах Google для Майкрософт
+title: Создание записей DNS для Майкрософт на сайте Google Domains
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,53 +20,53 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
-description: Узнайте, как проверить домен и настроить записи DNS для электронной почты, Lync и других служб в доменах Google для Майкрософт.
+description: Узнайте, как проверить свой домен и настроить записи DNS для электронной почты, Lync и других служб корпорации Майкрософт на сайте Google Domains.
 ms.openlocfilehash: e6b1dd1eb90957a4e7fe22bd4b66ac87b2a51d09
 ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/27/2020
 ms.locfileid: "44400453"
 ---
-# <a name="create-dns-records-at-google-domains-for-microsoft"></a>Создание записей DNS в доменах Google для Майкрософт
+# <a name="create-dns-records-at-google-domains-for-microsoft"></a>Создание записей DNS для Майкрософт на сайте Google Domains
 
- **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
-Если ваш поставщик услуг размещения DNS  Google Domains, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Lync и других служб.
+Если ваш поставщик услуг размещения DNS — Google Domains, выполните действия, описанные в этой статье, чтобы подтвердить владение доменом и настроить записи DNS для электронной почты, Lync и других служб.
   
-Когда вы добавите эти записи в домены Google, ваш домен будет настроен для работы со службами Майкрософт.
+Когда вы добавите эти записи на сайте Google Domains, ваш домен будет настроен для работы со службами Майкрософт.
   
 
   
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. Если при добавлении записей DNS возникают проблемы с почтовыми сообщениями или другими проблемами, ознакомьтесь со статьей [Поиск и устранение проблем после добавления домена или записей DNS в корпорацию Майкрософт](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. Тем не менее, иногда распространение внесенного изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникла проблема с потоком обработки почты или другие неполадки, см. статью [Поиск и устранение неполадок после добавления в Майкрософт домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
   
 ## <a name="add-a-txt-record-for-verification"></a>Добавление записи TXT для проверки
 <a name="BKMK_verify"> </a>
 
-Прежде чем вы сможете использовать свой домен при работе с продуктами корпорации Майкрософт, мы должны убедиться в том, что вы являетесь его владельцем. Если вы войдете в свою учетную запись на сайте регистратора доменных имен и создадите запись DNS, для корпорации Майкрософт это послужит подтверждением того, что вы владеете доменом.
+Before you use your domain with Microsoft, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain.
   
 > [!NOTE]
-> Эта запись используется исключительно для проверки принадлежности домена. При желании вы сможете удалить ее позже. 
+> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like. 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Google Domains по [этой ссылке](https://domains.google.com/registrar). Сначала вам потребуется войти. Вот как это сделать.
+1. To get started, go to your domains page at Google Domains by using [this link](https://domains.google.com/registrar). You'll be prompted to sign in. To do so:
     
-1. Нажмите кнопку **войти**.
+1. Нажмите **Sign In** (Войти).
     
-2. Введите свои учетные данные для входа, а затем снова нажмите кнопку **войти**.
+2. Введите данные для входа и еще раз нажмите кнопку **Sign In** (Войти).
     
-2. На странице **My Domains (мои домены** ) найдите домен, который вы хотите использовать в Майкрософт, и щелкните ссылку **Управление** рядом с ней. В области навигации слева выберите пункт **DNS**.
+2. На странице **My domains** (Мои домены) выберите домен, который вы хотите использовать в Майкрософт, и щелкните ссылку **MANAGE** (УПРАВЛЕНИЕ) рядом с ним. В области навигации слева выберите **DNS**.
     
-3. In the **Custom resource records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
+3. В разделе **Custom resource records** (Настраиваемые записи ресурсов) в полях для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
     |||||
     |:-----|:-----|:-----|:-----|
-    |**Name** <br/> |**Тип** <br/> |**TTL (Срок жизни)** <br/> |**Data** <br/> |
-    |@  <br/> |TXT  <br/> |1H  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
+    |**Имя** <br/> |**Type** (Тип) <br/> |**TTL** (Срок жизни) <br/> |**Data** (Данные) <br/> |
+    |@  <br/> |TXT  <br/> |1H (1 ч)  <br/> |MS=ms *XXXXXXXX*  <br/> **Примечание.** Это пример. Используйте здесь свое конкретное значение **Назначение или адрес "Указывает на"** из этой таблицы. [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          |
    
 4. Нажмите кнопку **Add** (Добавить).
     
@@ -86,175 +86,175 @@ ms.locfileid: "44400453"
 4. На странице **Verify domain** (Проверка домена) выберите **Verify** (Проверить).
     
 > [!NOTE]
-> Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
 
   
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>Добавьте запись MX, чтобы сообщения электронной почты для вашего домена доставлялись в продукты корпорации Майкрософт.
 <a name="BKMK_add_MX"> </a>
 
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Google Domains по [этой ссылке](https://domains.google.com/registrar). Сначала вам потребуется войти. Вот как это сделать.
+1. To get started, go to your domains page at Google Domains by using [this link](https://domains.google.com/registrar). You'll be prompted to sign in. To do so:
     
-2. Нажмите кнопку **войти**.
+2. Нажмите **Sign In** (Войти).
     
-3. Введите свои учетные данные для входа, а затем снова нажмите кнопку **войти**.
-4. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить.
+3. Введите данные для входа и еще раз нажмите кнопку **Sign In** (Войти).
+4. На странице **Domains** (Домены) в разделе **Domain** (Домен) выберите команду **Configure DNS** (Настроить DNS) для того домена, который вы хотите изменить.
     
     > [!IMPORTANT]
-    > Если вы используете учетную запись электронной почты G Suite, сначала необходимо удалить записи MX, которые с ней связаны. Записи MX набора MX не позволяют добавлять какие-либо другие записи MX, в том числе те, которые необходимы корпорации Майкрософт. Обратите внимание, что при удалении записей для G Suite учетная запись G Suite не удаляется. Чтобы удалить записи MX для G Suite, выполните указанные ниже действия. 
+    > Если вы используете учетную запись электронной почты G Suite, сначала необходимо удалить записи MX, которые с ней связаны. Существующие записи MX для G Suite препятствуют добавлению каких-либо других записей MX, включая те, которые требуются для использования служб Майкрософт. Обратите внимание, что при удалении записей для G Suite учетная запись G Suite не удаляется. Чтобы удалить записи MX для G Suite, выполните указанные ниже действия. 
   
-5. В разделе **искусственные записи** в области **G Suite** нажмите кнопку **Удалить**.
+5. В разделе **Synthetic records** (Синтетические записи) в области **G Suite** нажмите кнопку **Delete** (Удалить).
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    ![Выберите команду Удалить в разделе искусственные записи](../../media/bd276b5d-5667-4bb1-a233-2dc5194e7ace.png)
+    ![Нажатие кнопки Delete (Удалить) в разделе Synthetic records (Синтетические записи)](../../media/bd276b5d-5667-4bb1-a233-2dc5194e7ace.png)
   
-6. Выберите **Удалить**.
+6. Выберите **Delete** (Удалить).
     
-    ![Нажмите кнопку Удалить](../../media/4413a45a-5b82-4ec6-82c6-0091f5be9696.png)
+    ![Выберите Delete (Удалить)](../../media/4413a45a-5b82-4ec6-82c6-0091f5be9696.png)
   
-7. In the **Custom resource records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
+7. В разделе **Custom resource records** (Настраиваемые записи ресурсов) в полях для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Data**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Data** (Данные)|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1H  <br/> |0 *\<domain-key\>* . mail.Protection.Outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> **0**  значение приоритета MX. Добавьте его в начало значения MX, отделив от остальной части пробелом.  <br/> **Примечание:** Получение \<*domain-key*\> учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq). <br/> |
+    |@  <br/> |MX  <br/> |1H (1 ч)  <br/> |0  *\<domain-key\>*  .mail.protection.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> The **0** is the MX priority value. Add it to the beginning of the MX value, separated from the remainder of the value by a space.  <br/> **Примечание.**  Получите свой \<*domain-key*\> из учетной записи Майкрософт.  [Как его найти?](../get-help-with-domains/information-for-dns-records.md)          Дополнительные сведения о приоритете см. в статье [Что такое приоритет записей MX?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq) <br/> |
    
-    ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/b660ca9e-984d-449f-ae59-a65fe4e2c6bd.png)
+    ![Введите или вставьте значения в разделе Custom resource records (Настраиваемые записи ресурсов)](../../media/b660ca9e-984d-449f-ae59-a65fe4e2c6bd.png)
   
 5. Нажмите кнопку **Add** (Добавить).
     
-    ![Нажмите кнопку Добавить](../../media/32f8f23c-0b80-48da-b08e-4e04052971af.png)
+    ![Нажмите кнопку Add (Добавить)](../../media/32f8f23c-0b80-48da-b08e-4e04052971af.png)
   
 6. Если есть другие настраиваемые записи MX, удалите их.
     
-1. Выберите команду **изменить** в строке записи MX. 
+1. В строке записи MX нажмите **Edit** (Изменить). 
     
-    ![Выберите команду изменить в строке записи MX.](../../media/acc53ae9-3b8a-421d-8d11-d4a4108b2353.png)
+    ![В строке записи MX нажмите Edit (Изменить)](../../media/acc53ae9-3b8a-421d-8d11-d4a4108b2353.png)
   
-2. Для каждой из остальных настраиваемых записей MX выберите запись в поле **данные** , а затем нажмите клавишу **Delete** на клавиатуре, чтобы удалить эту запись. 
+2. Для каждой из прочих настраиваемых записей MX выделите содержимое поля **Data** (Данные) и нажмите на клавиатуре клавишу **DELETE**, чтобы удалить его. 
     
     Повторяйте эти действия, чтобы удалить содержимое поля **Data** каждой из лишних записей MX. 
     
     ![Delete entries in the Data box](../../media/28192089-7b38-4d2e-9d52-9b83422c27d5.png)
   
-7. После удаления записи **данных** для каждой из остальных записей MX нажмите кнопку **сохранить** , чтобы сохранить изменения. 
+7. Когда содержимое поля **Data** (Данные) каждой записи MX будет удалено, нажмите кнопку **Save** (Сохранить), чтобы сохранить изменения. 
     
-    ![Нажмите кнопку Сохранить](../../media/bf496d01-ccbe-4800-95f4-7b2283f2e5f6.png)
+    ![Нажмите Save (Сохранить)](../../media/bf496d01-ccbe-4800-95f4-7b2283f2e5f6.png)
   
-## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Добавление пяти записей CNAME, необходимых для Майкрософт
+## <a name="add-the-five-cname-records-that-are-required-for-microsoft"></a>Добавление пяти записей CNAME, необходимых для продуктов корпорации Майкрософт
 
-1. Чтобы приступить к работе, перейдите на страницу [домены Google] ( https://domains.google.com/registrar) и войдите в систему.
+1. Чтобы приступить к работе, перейдите на страницу [страница Google Domains] (https://domains.google.com/registrar) и выполните вход.
     
-2. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить. 
+2. На странице **Domains** (Домены) в разделе **Domain** (Домен) выберите команду **Configure DNS** (Настроить DNS) для того домена, который вы хотите изменить. 
     
 3. Добавьте первую запись CNAME.
     
     В разделе **Custom resource records** (Настраиваемые записи ресурсов) в полях для новой записи введите (или скопируйте и вставьте) значения из первой строки приведенной ниже таблицы. 
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Data**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Data** (Данные)|
     |:-----|:-----|:-----|:-----|
-    |autodiscover  <br/> |CNAME  <br/> |1H  <br/> |autodiscover.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> |
-    |sip  <br/> |CNAME  <br/> |1H  <br/> |sipdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
-    |lyncdiscover  <br/> |CNAME  <br/> |1H  <br/> |webdir.online.lync.com.  <br/> **This value MUST end with a period (.)** <br/> |
-    |enterpriseregistration  <br/> |CNAME  <br/> |1H  <br/> |enterpriseregistration.windows.net.  <br/> **This value MUST end with a period (.)** <br/> |
-    |enterpriseenrollment  <br/> |CNAME  <br/> |1H  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |autodiscover  <br/> |CNAME  <br/> |1H (1 ч)  <br/> |autodiscover.outlook.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |sip  <br/> |CNAME  <br/> |1H (1 ч)  <br/> |sipdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |lyncdiscover  <br/> |CNAME  <br/> |1H (1 ч)  <br/> |webdir.online.lync.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |enterpriseregistration  <br/> |CNAME  <br/> |1H (1 ч)  <br/> |enterpriseregistration.windows.net.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
+    |enterpriseenrollment  <br/> |CNAME  <br/> |1H (1 ч)  <br/> |enterpriseenrollment-s.manage.microsoft.com.  <br/> **Это значение ДОЛЖНО оканчиваться точкой (.).** <br/> |
    
-    ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/cff9832a-6d57-421f-a183-55320974ed87.png)
+    ![Введите или вставьте значения в разделе Custom resource records (Настраиваемые записи ресурсов)](../../media/cff9832a-6d57-421f-a183-55320974ed87.png)
   
 4. Нажмите кнопку **Add** (Добавить).
     
-    ![Нажмите кнопку Добавить](../../media/4a78080a-e0b2-4582-9696-3fe4fea41e91.png)
+    ![Нажмите кнопку Add (Добавить)](../../media/4a78080a-e0b2-4582-9696-3fe4fea41e91.png)
   
 5. Добавьте остальные четыре записи CNAME.
     
-    В разделе **Настраиваемые записи ресурсов** создайте запись, используя значения из следующей строки таблицы, а затем снова нажмите кнопку **Добавить** , чтобы завершить эту запись. 
+    В разделе **Custom resource records** (Настраиваемые записи ресурсов) создайте запись, используя значения из следующей строки таблицы, и снова нажмите **Add** (Добавить), чтобы завершить ввод этой записи. 
     
-    Повторяйте эту процедуру, пока не будут созданы все необходимые записи CNAME.
+    Повторяйте эти действия, пока не будут созданы все требуемые записи CNAME.
     
 ## <a name="add-a-txt-record-for-spf-to-help-prevent-email-spam"></a>Добавьте запись TXT для SPF, чтобы предотвратить рассылку спама
 
 > [!IMPORTANT]
 > Для записи инфраструктуры политики отправителей (SPF) для домена можно указать только одну запись TXT. Если у вашего домена больше одной записи SPF, это приведет к сбоям в работе почты и ошибкам классификации входящих писем и спама. Если вы уже указали запись SPF для домена, не создавайте еще одну для продуктов корпорации Майкрософт. Вместо этого добавьте необходимые значения для продуктов корпорации Майкрософт в текущую запись. Таким образом, в одной записи SPF будут указаны оба набора значений. Нужны примеры? Ознакомьтесь с этими [записями системы внешних доменных имен для продуктов корпорации Майкрософт](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords). To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Google Domains по [этой ссылке](https://domains.google.com/registrar). Сначала вам потребуется войти. Вот как это сделать.
+1. To get started, go to your domains page at Google Domains by using [this link](https://domains.google.com/registrar). You'll be prompted to sign in. To do so:
     
-1. Нажмите кнопку **войти**.
+1. Нажмите **Sign In** (Войти).
     
-2. Введите свои учетные данные для входа, а затем снова нажмите кнопку **войти**.
+2. Введите данные для входа и еще раз нажмите кнопку **Sign In** (Войти).
     
-3. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить. 
+3. На странице **Domains** (Домены) в разделе **Domain** (Домен) выберите команду **Configure DNS** (Настроить DNS) для того домена, который вы хотите изменить. 
     
-4. В разделе " **Настраиваемые записи ресурсов** " в строке запись TXT нажмите кнопку **изменить**. 
+4. В разделе **Custom resource records** (Настраиваемые записи ресурсов) в строке записи TXT нажмите кнопку **Edit** (Изменить). 
     
     > [!IMPORTANT]
-    > Google Domains хранит записи TXT в виде наборов, которые могут содержать сразу несколько записей. Если у вас есть хотя бы еще одна запись TXT, с помощью которой вы подтверждали домен, вам нужно добавлять новые записи TXT к ней. Попытка ввести дополнительные записи TXT отдельно приведет к ошибке **Duplicate record** (Повторяющаяся запись). 
+    > Google Domains stores TXT records as a set that may contain multiple records. When you have at least one other TXT record, such as the TXT record you used to verify your domain, you must add TXT new records to that record set. Any attempt to enter additional TXT records as separate entries will result in a **Duplicate record** error message. 
   
-    ![Выберите команду изменить в строке записи TXT](../../media/eae14850-8d0c-4f29-8587-df8b36129d5f.png)
+    ![В строке записи TXT нажмите Edit (Изменить)](../../media/eae14850-8d0c-4f29-8587-df8b36129d5f.png)
   
-5. Выберите элемент управления **(+)** . 
+5. Щелкните элемент управления **(+)**. 
     
-    ![Выбор элемента управления "плюс"](../../media/628604cc-d2b2-42a5-bb5b-13c327b85d9f.png)
+    ![Щелкните элемент управления "плюс"](../../media/628604cc-d2b2-42a5-bb5b-13c327b85d9f.png)
   
 6. В поля для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже.
     
     (Возможно, потребуется прокрутить страницу вниз.)
     
-    |**Data (Данные)**|
+    |**Данные**|
     |:-----|
     |v=spf1 include:spf.protection.outlook.com -all  <br/> 
 
     > [!NOTE]
     > Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.           
    
-   ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/4645cc4f-9fcc-4626-9674-072ed6fa34c2.png)
+   ![Введите или вставьте значения в разделе Custom resource records (Настраиваемые записи ресурсов)](../../media/4645cc4f-9fcc-4626-9674-072ed6fa34c2.png)
   
-7. Нажмите кнопку **Сохранить**.
+7. Нажмите **Save** (Сохранить).
     
-    ![Нажмите кнопку Сохранить](../../media/20c4c926-f062-4048-9265-bf752be54e0c.png)
+    ![Нажмите Save (Сохранить)](../../media/20c4c926-f062-4048-9265-bf752be54e0c.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Добавление двух записей SRV, необходимых для продуктов корпорации Майкрософт
 <a name="BKMK_add_SRV"> </a>
 
-1. Чтобы приступить к работе, откройте страницу со своими доменами на сайте Google Domains по [этой ссылке](https://domains.google.com/registrar). Сначала вам потребуется войти. Вот как это сделать.
+1. To get started, go to your domains page at Google Domains by using [this link](https://domains.google.com/registrar). You'll be prompted to sign in. To do so:
     
-2. Нажмите кнопку **войти**.
+2. Нажмите **Sign In** (Войти).
     
-3. Введите свои учетные данные для входа, а затем снова нажмите кнопку **войти**.
+3. Введите данные для входа и еще раз нажмите кнопку **Sign In** (Войти).
     
-4. На странице **домены** в разделе **домен** выберите **Настройка DNS** для домена, который требуется изменить. 
+4. На странице **Domains** (Домены) в разделе **Domain** (Домен) выберите команду **Configure DNS** (Настроить DNS) для того домена, который вы хотите изменить. 
     
 5. Добавьте первую запись SRV.
     
-    In the **Custom resource records** section, in the boxes for the new record, type or copy and paste the values from the following table. 
+    В разделе **Custom resource records** (Настраиваемые записи ресурсов) в полях для новой записи введите (или скопируйте и вставьте) значения из таблицы ниже. 
     
-    (You may have to scroll down.)
+    (Возможно, потребуется прокрутить страницу вниз.)
     
-    (Choose the **Type** value from the drop-down list.) 
+    В раскрывающемся списке выберите значение параметра **Type** (Тип). 
     
-    |**Name**|**Тип**|**TTL (Срок жизни)**|**Data (Данные)**|
+    |**Имя**|**Type** (Тип)|**TTL** (Срок жизни)|**Данные**|
     |:-----|:-----|:-----|:-----|
-    |_sip. _tls|SRV|1H|100 1 443 sipdir.online.lync.com. **Это значение должно заканчиваться точкой (.)** . **Примечание:** Мы рекомендуем копировать и вставлять эту запись, чтобы все интервалы оставались правильными.           |
-    |_sipfederationtls. _tcp|SRV|1H|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**
+    |_sip._tls|SRV|1H (1 ч)|100 1 443 sipdir.online.lync.com. **Это значение ДОЛЖНО оканчиваться точкой (.).** **Примечание.** Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.           |
+    |_sipfederationtls._tcp|SRV|1H (1 ч)|100 1 5061 sipfed.online.lync.com. **Это значение ДОЛЖНО оканчиваться точкой (.).**
 
     Рекомендуется скопировать и вставить эту запись, чтобы сохранить все пробелы.       
    
-    ![Введите или вставьте значения в разделе "настраиваемые записи ресурсов"](../../media/429d06a9-c0af-4961-b7d2-7a8dea6db37e.png)
+    ![Введите или вставьте значения в разделе Custom resource records (Настраиваемые записи ресурсов)](../../media/429d06a9-c0af-4961-b7d2-7a8dea6db37e.png)
   
 6. Нажмите кнопку **Add** (Добавить).
     
-    ![Нажмите кнопку Добавить](../../media/89df6efd-e641-4441-baa2-d9a890424569.png)
+    ![Нажмите кнопку Add (Добавить)](../../media/89df6efd-e641-4441-baa2-d9a890424569.png)
   
 7. Добавьте вторую запись SRV.
     
-    В разделе **Настраиваемые записи ресурсов** создайте запись, используя значения из второй строки таблицы, а затем еще раз нажмите кнопку **Добавить** , чтобы завершить эту запись. 
+    В разделе **Custom resource records** (Настраиваемые записи ресурсов) создайте запись, используя значения из второй строки таблицы, и снова нажмите **Add** (Добавить), чтобы завершить ввод этой записи. 
     
     > [!NOTE]
-    > Обычно на применение изменений DNS требуется около 15 минут. Однако иногда распространение изменения в системе DNS по всему Интернету занимает больше времени. Если после добавления записей DNS возникает проблема с обменом почтовыми сообщениями или другие неполадки, см. статью [Поиск и устранение проблем после добавления домена или записей DNS](../get-help-with-domains/find-and-fix-issues.md). 
+    > Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md). 
   
