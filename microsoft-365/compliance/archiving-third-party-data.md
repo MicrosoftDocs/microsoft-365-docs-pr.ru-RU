@@ -20,12 +20,12 @@ ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как импортировать сторонние данные с платформ социальных сетей, платформы обмена мгновенными сообщениями и платформы совместной работы с документами в почтовые ящики Microsoft 365.
-ms.openlocfilehash: 658c71ec05078f745584a63e9a503775b957ff08
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: a8dc69e7e4c7061e048fe49d1e51fd8867654454
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936552"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101640"
 ---
 # <a name="archive-third-party-data"></a>Архивация сторонних данных
 
@@ -40,13 +40,13 @@ Microsoft 365 позволяет администраторам использо
 
 |Сторонние данные  |Удержание для судебного разбирательства|Обнаружение электронных данных  |Политики хранения  |Управление записями  |Соответствие требованиям к обмену данными  |Управление рисками, связанными с инсайдерами  |
 |:---------|:---------|:---------|:---------|:---------|:---------|:---------|
-|[Сообщение Bloomberg](archive-bloomberg-message-data.md)     |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
-|[Facebook](archive-facebook-data-with-sample-connector.md)     |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
-|[Данные о персонале](import-hr-data.md) ||||||![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|[Чат](archive-icechat-data.md)     |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||||
-|[Мгновенный Bloomberg](archive-instant-bloomberg-data.md)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-|[LinkedIn](archive-linkedin-data.md)   |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
-|[Twitter](archive-twitter-data-with-sample-connector.md)     |![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|[Сообщение Bloomberg](archive-bloomberg-message-data.md)     |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Facebook](archive-facebook-data-with-sample-connector.md)     |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|[Данные о персонале](import-hr-data.md) ||||||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|[Чат](archive-icechat-data.md)     |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[Мгновенный Bloomberg](archive-instant-bloomberg-data.md)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|[LinkedIn](archive-linkedin-data.md)   |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|[Twitter](archive-twitter-data-with-sample-connector.md)     |![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 ||||||||
 
 Сторонние данные, приведенные в предыдущей таблице (Кроме данных HR), импортируются в почтовые ящики пользователей. Соответствующие решения для обеспечения соответствия требованиям, которые обеспечивают поддержку сторонних данных, применяются к почтовому ящику пользователя, в котором хранятся данные.

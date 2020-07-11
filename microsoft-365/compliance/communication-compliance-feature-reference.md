@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 844ae00b1881851dc50c68329a999263c09bdbed
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 017946c08bb1c44f31bbcb87b3ce46571ab8b480
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936788"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101610"
 ---
 # <a name="communication-compliance-feature-reference"></a>Справочные материалы по функциям обеспечения соответствия требованиям
 
@@ -92,10 +92,8 @@ ms.locfileid: "44936788"
 - **Сторонние источники**: вы можете сканировать связи из сторонних источников для данных, импортированных в почтовые ящики в организации Microsoft 365. Соединители поддерживают следующие сторонние ресурсы:
 
     - [Мгновенный Bloomberg](archive-instant-bloomberg-data.md)
-    - [Facebook](archive-facebook-data-with-sample-connector.md)
-    - [LinkedIn](archive-linkedin-data.md)
-    - [Twitter](archive-twitter-data-with-sample-connector.md)
-    - [Настраиваемый соединитель данных](archiving-third-party-data.md)
+    - [Сообщение Bloomberg](archive-bloomberg-message-data.md)
+    - [Чат](archive-icechat-data.md)
 
 Перед тем как присвоить соединитель политике соответствия требованиям к связи, необходимо настроить сторонний соединитель для организации Microsoft 365. В разделе **сторонние источники** мастера политики соответствия требованиям к связи отображаются только настроенные соединители сторонних поставщиков.
 
@@ -155,7 +153,7 @@ ms.locfileid: "44936788"
 ### <a name="conditional-settings"></a>Условные параметры
 <a name="ConditionalSettings"> </a>
 
-Условия, которые вы выбираете для политики, применяются к связям из электронной почты и сторонних источников в Организации (например, из Facebook или DropBox).
+Условия, которые вы выбираете для политики, применяются к связям из электронной почты и сторонних источников в Организации (например, из службы мгновенных сообщений Bloomberg или DropBox).
 
 В следующей таблице приводятся более подробные сведения о каждом условии.
   

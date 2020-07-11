@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 0200ec0491104222545becb6c42d51b935fd2df1
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 71e0a631afa596e9cedf939cf3dcb13eec599d5d
+ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936542"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45101674"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Соответствие требованиям в Microsoft 365
 
@@ -101,7 +101,7 @@ ms.locfileid: "44936542"
 - **Exchange Online**: все почтовые ящики, размещенные в [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) в организации Microsoft 365, могут сканироваться. Сообщения электронной почты и вложения, удовлетворяющие условиям политики соответствия требованиям, немедленно доступны для мониторинга и в отчетах о соответствии требованиям. Exchange Online теперь является необязательным исходным каналом и больше не нужен в политиках обеспечения соответствия для связи.
 - **Yammer**: конфиденциальные сообщения и общедоступные беседы сообщества в [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page) поддерживаются в политиках обеспечения соответствия для связи. Yammer — это необязательный канал, который должен находиться в [собственном режиме](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) для поддержки сканирования сообщений и вложений.
 - **Skype для бизнеса Online**: политики соответствия требованиям к связи поддерживают сканирование общения и связанных вложений в [Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online).
-- **Сторонние источники**: вы можете сканировать сообщения из [сторонних источников](archiving-third-party-data.md) для данных, импортированных в почтовые ящики в организации Microsoft 365. Соответствие требованиям связи поддерживает подключения к нескольким популярным платформам, в том числе Bloomberg, Facebook, Twitter и др.
+- **Сторонние источники**: вы можете сканировать сообщения из [сторонних источников](archiving-third-party-data.md) для данных, импортированных в почтовые ящики в организации Microsoft 365. Соответствие требованиям связи поддерживает подключения к нескольким популярным платформам, в том числе Bloomberg и другим.
 
 Дополнительные сведения о поддержке каналов обмена сообщениями в политиках обеспечения соответствия требованиям приведены в разделе [Поддерживаемые типы связи](communication-compliance-feature-reference.md#supported-communication-types).
 

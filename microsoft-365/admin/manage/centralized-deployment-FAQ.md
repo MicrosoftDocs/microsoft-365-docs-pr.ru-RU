@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Ознакомьтесь с ответами на часто задаваемые вопросы о централизованном развертывании в центре администрирования Microsoft 365.
-ms.openlocfilehash: 2d9a3c6f2cfe9418cc83cbd0f29537e5533c4257
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: b1b5ccbb5373bf5d536208efdfe487bc0c872f25
+ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083566"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "45102888"
 ---
 # <a name="centralized-deployment-faq"></a>Вопросы и ответы о централизованном развертывании
 
@@ -35,7 +35,7 @@ ms.locfileid: "45083566"
 Для централизованного развертывания надстроек необходимо, чтобы пользователи выполняли приложения Microsoft 365 для предприятий (и вошли в Office с помощью учетных данных Организации) и иметь почтовые ящики Exchange Online. Каталог подписки должен находиться в службе Azure Active Directory или быть Федеративной для нее.  
  
 Централизованное развертывание поддерживается только для веб-почтовых ящиков. Он не поддерживает развертывание для локальных почтовых ящиков Exchange.
- 
+
 Можно использовать [средство проверки совместимости централизованного развертывания](centralized-deployment-of-add-ins.md#centralized-deployment-compatibility-checker),   чтобы определить, подходит ли ваша подписка. 
   
 ## <a name="how-do-you-target-add-in-user-assignments-with-centralized-deployment"></a>Как вы научитесь назначать пользователя надстройки при централизованном развертывании?  
@@ -54,7 +54,9 @@ ms.locfileid: "45083566"
 
 Для упрощения развертывания надстроек для пользователей, групп или всей Организации мы рекомендуем администраторам использовать централизованное развертывание.
 
-Более подробную информацию об управлении доступом пользователей можно узнать в статье </br>[Запретить загрузку надстроек, отключив магазин Office для всех клиентов (кроме Outlook)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook) и </br>[Укажите администраторов и пользователей, которые могут устанавливать надстройки для Outlook и управлять ими](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins?redirectedfrom=MSDN).
+Более подробную информацию об управлении доступом пользователей можно узнать в следующих статьях:
+ - [Запрет загрузки надстроек путем отключения магазина Office между всеми клиентами (кроме Outlook)](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#prevent-add-in-downloads-by-turning-off-the-office-store-across-all-clients-except-outlook)
+ - [Выбор администраторов и пользователей, которые могут устанавливать надстройки для Outlook и управлять ими](https://docs.microsoft.com/Exchange/specify-who-can-install-and-manage-add-ins-2013-help)
 
 ## <a name="will-centralized-deployment-provide-admins-the-flexibility-to-choose-the-deployment-method-for-outlook-add-ins"></a>Централизованное развертывание позволяет администраторам выбрать способ развертывания надстроек Outlook?  
 
@@ -62,7 +64,7 @@ ms.locfileid: "45083566"
 
 **Фиксированный (по умолчанию)**   Надстройка автоматически развертывается для назначенных пользователей и не может удаляться.  
  
-**Доступен** Пользователи могут установить надстройку в Outlook, выбрав пункт Домашняя > получить другие надстройки > управляемые администратором.   
+**Доступен** Пользователи могут установить надстройку в Outlook, выбрав пункт **домашняя > получить другие надстройки > управляемые администратором**.
  
 **Необязательное требование** Надстройка автоматически развертывается для назначенных пользователей, но может быть удалена.  
     
@@ -70,19 +72,19 @@ ms.locfileid: "45083566"
 
 Да. Администраторы могут отправлять новый файл манифеста для поддержки изменений метаданных для специализированных надстроек, развернутых администратором. Надстройка обновится при следующем запуске приложений Office. Веб-приложение может изменяться в любое время.  
  
-Более подробную информацию можно узнать [в статье надстройка для бизнеса](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#security-of-office-add-ins).  
+Более подробную информацию можно узнать [в статье надстройка для бизнеса](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#more-about-office-add-ins-security).  
 
 ## <a name="can-admins-turn-off-add-ins"></a>Могут администраторы отключить надстройки?  
 
 Да. Администраторы могут включать и отключать надстройки, которые они развертывают, для всех пользователей в центре администрирования Майкрософт.
 
-Дополнительную информацию можно узнать [в статье состояния надстроек](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#add-in-states).  
+Дополнительную информацию можно узнать [в статье состояния надстроек](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#add-in-states).  
 
 ##  <a name="can-admins-delete-or-remove-add-ins"></a>Могут ли администраторы удалять или удалять надстройки?
 
 Да. Администраторы могут удалять надстройки, развернутые для всех пользователей в центре администрирования Майкрософт.
 
-Дополнительные сведения см. [в статье удаление надстройки](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#delete-the-add-in). 
+Дополнительные сведения см. [в статье удаление надстройки](https://docs.microsoft.com/microsoft-365/admin/manage/manage-addins-in-the-admin-center#delete-an-add-in). 
   
 ## <a name="can-admins-deploy-paid-add-ins-from-the-office-store-using-centralized-deployment"></a>Могут администраторы развертывать платные надстройки из магазина Office с помощью централизованного развертывания? 
 
