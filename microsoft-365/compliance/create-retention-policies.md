@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Используйте политику хранения, чтобы заранее решить, следует ли сохранить контент, удалить контент или и то, и другое - сохранить, а затем удалить контент; применять единую политику ко всей организации или конкретным местам или пользователям; и применять политику ко всему контенту или контенту, отвечающему определенным условиям.
-ms.openlocfilehash: ab6a61e0cedfd91d642823f0c459a5a1699df000
-ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
+ms.openlocfilehash: b509c1581f3b4120e9cf70e7603e56da86126539
+ms.sourcegitcommit: a4926e98b6594bbee68bfca90438c9c764499255
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083621"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091999"
 ---
 # <a name="create-and-configure-retention-policies"></a>Создание и настройка политик хранения
 
@@ -135,7 +135,7 @@ Therefore, before you assign a retention policy to a site collection for the fir
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>Определите контент, который содержит конфиденциальную информацию
 
-You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personally identifiable information (PII) such as taxpayer identification numbers, social security numbers, or passport numbers.
+You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personal information, such as taxpayer identification numbers, social security numbers, or passport numbers.
   
 ![Страница типов конфиденциальной информации](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
@@ -235,7 +235,7 @@ You can also apply a retention policy only to content that contains [specific ty
 
 2. Укажите свои политики хранения и найдите название политики, которую вы хотите заблокировать, запустив `Get-RetentionCompliancePolicy`.
     
-    ![Список политик хранения в PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+   ![Список политик хранения в PowerShell](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
     
 3. Чтобы установить блокировку сохранения в политике хранения, запустите `Set-RetentionCompliancePolicy` с параметром `RestrictiveRetention` со значением true. Например,
 
@@ -243,15 +243,17 @@ You can also apply a retention policy only to content that contains [specific ty
    Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true
    ```
    
-    ![Параметр RestrictiveRetention в PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
+   ![Параметр RestrictiveRetention в PowerShell](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
     
-    После запуска этого командлета выберите **Да для всех**:
+   После запуска этого командлета выберите **Да для всех**:
     
-    ![Запрос подтверждения блокировки политики хранения в PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+   ![Запрос подтверждения блокировки политики хранения в PowerShell](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
 После этого для политики хранения установлена блокировка хранения. Если запустить командлет `Get-RetentionCompliancePolicy`, параметр `RestrictiveRetention` будет иметь значение true. Например:
 
-`Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl`
+```powershell
+Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl
+```
 
 ![Заблокированная политика с отображением всех параметров в PowerShell](../media/retention-policy-preservation-lock-locked-policy.PNG)
   
