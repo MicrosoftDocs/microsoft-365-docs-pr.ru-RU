@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте о Microsoft 365 бизнес премиум, сервисе подписки, включающем приложения для повышения производительности Office и расширенную защиту вашего бизнеса от киберугроз.
-ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786181"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138235"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Общие сведения о Microsoft 365 бизнес премиум
 
@@ -110,11 +110,6 @@ Microsoft 365 бизнес премиум помогает **защититьс�
 - Если у вас есть партнер, он получит Microsoft 365 бизнес премиум: [получите Microsoft 365 бизнес премиум от Microsoft Partner Center](get-microsoft-365-business.md).
 
 - Если у вас нет партнера и вы хотите получить Microsoft 365 бизнес премиум, вы можете [купить его здесь](https://www.microsoft.com/microsoft-365/business) и следовать инструкциям по [регистрации](sign-up.md).
-
-- Вы также можете посетить [Microsoft Store](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer), чтобы купить Microsoft 365 бизнес премиум и получить помощь в настройке.
-
-    > [!NOTE]
-    > Эта ссылка только для магазинов в США
 
 ## <a name="see-also"></a>См. также
 

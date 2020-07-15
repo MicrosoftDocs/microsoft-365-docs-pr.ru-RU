@@ -17,12 +17,12 @@ ms.collection: M365-security-compliance
 ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 09e2f69eb5999ea104c62c807d348ca26b9236cf
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: 1d8bd316b847502f9e4b1c94afbf67a0472015a6
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039404"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126413"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Новые возможности Office 365 ATP
 
@@ -34,6 +34,10 @@ ms.locfileid: "45039404"
 
 > [!TIP]
 > У вас еще нет Office 365 ATP? [Свяжитесь с сбытом, чтобы начать пробную версию](https://go.microsoft.com/fwlink/p/?LinkId=518644).
+
+## <a name="julyaugust-2020"></a>Июль/Август 2020 
+
+- [Улучшения, которые могут возникать при поиске](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
 
 ## <a name="marchapril-2020"></a>Март/Апрель 2020
 
@@ -60,7 +64,7 @@ ms.locfileid: "45039404"
 
 - [Использование представлений кампаний в Office 365 ATP (**Предварительная версия**)](campaigns.md)
 
-## <a name="july-2020"></a>2020 июля 
+## <a name="july-2020"></a>Июль 2020 г. 
  
 - [Улучшения, которые могут возникать при поиске](threat-explorer.md#experience-improvements-to-threat-explorer-and-real-time-detections)
 

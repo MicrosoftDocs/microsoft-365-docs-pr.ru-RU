@@ -1,5 +1,5 @@
 ---
-title: Развертывание надстроек в центре администрирования
+title: Развертывание надстроек в Центре администрирования
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте, как развертывать надстройки для пользователей и групп в Организации с помощью централизованного развертывания в центре администрирования.
-ms.openlocfilehash: 51db2bf7b618bddf2c6de417b7f5e53c91a64a1b
-ms.sourcegitcommit: 222fc3f8841de82b1b558f47db8a79aa5054d0ed
+ms.openlocfilehash: 4e9a3a4b7182bfd452c63abd03836623dc77260c
+ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "45102864"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138248"
 ---
-# <a name="deploy-add-ins-in-the-admin-center"></a>Развертывание надстроек в центре администрирования
+# <a name="deploy-add-ins-in-the-admin-center"></a>Развертывание надстроек в Центре администрирования
 
 ::: moniker range="o365-21vianet"
 
@@ -116,9 +116,9 @@ Office add-ins combine an XML manifest file that contains some metadata about th
     
 - Считывать данные из документа пользователя и записывать их в него для предоставления значений.
     
-Дополнительные сведения о типах и возможностях надстроек Office см. в статье [Общие сведения о платформе надстроек Office](https://go.microsoft.com/fwlink/p/?linkid=846362) (на английском языке). Особое внимание обратите на раздел "Структура надстройки Office".
+Дополнительные сведения о типах и возможностях надстроек Office см. в статье [Общие сведения о платформе надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) (на английском языке). Особое внимание обратите на раздел "Структура надстройки Office".
   
-To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in the Office Store are level ReadWriteDocument with almost all add-ins supporting at least the ReadDocument level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](https://go.microsoft.com/fwlink/p/?linkid=848863).
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in the Office Store are level ReadWriteDocument with almost all add-ins supporting at least the ReadDocument level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](https://docs.microsoft.com/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
   
 When updating a manifest, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in do not change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
   
@@ -133,9 +133,9 @@ When updating a manifest, the typical changes are to an add-in's icon and text. 
   
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Создание и создание надстроек [Office](https://go.microsoft.com/fwlink/p/?linkid=846362)
+[Управление надстройками в Центре администрирования](manage-addins-in-the-admin-center.md)
 
-[Управление надстройками в центре администрирования](manage-addins-in-the-admin-center.md)
+[Создание надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins-fundamentals).
 
 [Вспомогательные и приобретение надстроек из магазина](minors-and-acquiring-addins-from-the-store.md)
   
