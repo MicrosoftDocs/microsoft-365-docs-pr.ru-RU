@@ -20,12 +20,12 @@ ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 ms.custom:
 - seo-marvel-apr2020
 description: Когда почтовый ящик Office 365 становится неактивным, измените срок хранения или политику хранения Office 365, назначенную неактивному почтовому ящику.
-ms.openlocfilehash: 113a3af38d83eabef2e3022f47952c2db70f47a9
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 675e6eb36f762a50c3caafce07d09fda9ba9d98e
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818408"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126380"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>Изменение срока хранения неактивного почтового ящика
 
@@ -60,9 +60,6 @@ Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,Litigat
 
 Значение **True** свойства **LitigationHoldEnabled** указывает, что неактивный почтовый ящик находится на хранении для судебного разбирательства. Если для неактивного почтового ящика размещается удержание на месте, удержание eDiscovery или политика хранения Microsoft 365, то в качестве значения свойства **InPlaceHolds** отображается идентификатор GUID для удержания или политики хранения. Например, ниже показаны результаты для пяти неактивных почтовых ящиков. 
   
-||
-|:-----|
-|
 ```text
 DisplayName           : Ann Beebe
 Name                  : annb
@@ -110,7 +107,7 @@ InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 |Carol Olson  <br/> |Политика хранения Microsoft 365 в центре безопасности & соответствия требованиям, применяемых к определенным почтовым ящикам  <br/> |Свойство *InPlaceHolds* содержит GUID политики хранения Microsoft 365, которая применяется к неактивному почтовому ящику. То, что политика хранения применяется к определенному почтовому ящику, можно определить по префиксу GUID  `mbx`. Если идентификатор GUID политики хранения, примененный к неактивному почтовому ящику, запущен с `skp` префиксом, это указывает на то, что политика хранения применяется к беседам Skype для бизнеса.  <br/><br/> Чтобы определить политику хранения Microsoft 365, которая была применена к неактивному почтовому ящику, выполните следующую команду в консоли безопасности & центра соответствия требованиям PowerShell.<br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name` <br/><br/>Не забудьте удалить префикс  `mbx` или  `skp` при выполнении этой команды.  <br/> |
 |Abraham McMahon  <br/> |удержание дел обнаружения электронных данных в центре безопасности & соответствия требованиям  <br/> |The  *InPlaceHolds*  property contains the GUID of the eDiscovery case hold that's placed on the inactive mailbox. You can tell this is an eDiscovery case hold because the GUID starts with the  `UniH` prefix.  <br/> Вы можете использовать `Get-CaseHoldPolicy` командлет в PowerShell центра безопасности & соответствия требованиям, чтобы получить сведения о варианте обнаружения электронных данных, с которым связан удержание для неактивного почтового ящика. For example, you can run the command  `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` to display the name of the case hold that's on the inactive mailbox. Be sure to remove the  `UniH` при выполнении этой команды.  <br/><br/> Чтобы определить дело обнаружения электронных данных, с которым связано удержание для неактивного почтового ящика, выполните следующие команды.  <br/><br/> `$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/> `Get-ComplianceCase $CaseHold.CaseId | FL Name`<br/><br/><br/> **Примечание:** Мы не рекомендуем использовать удержания электронных данных для неактивных почтовых ящиков. Это обусловлено тем, что варианты обнаружения электронных данных предназначены для определенных и ограниченных временных случаев, связанных с юридическим вопросом. В какой-то момент юридический случай, скорее всего, будет удален, и удержания, связанные с этим обращением, будут удалены, а ситуация обнаружения электронных данных будет закрыта (или удалена). На самом деле, если удержание, размещенное на неактивном почтовом ящике, связано с вариантом обнаружения электронных данных, а удержание отключено или закрыто или удалено, неактивный почтовый ящик будет безвозвратно удален. 
 
-Для получения дополнительных сведений о политиках хранения Microsoft 365, ознакомьтесь со статьей [Обзор политик хранения](retention-policies.md).
+Дополнительные сведения о политиках хранения Microsoft 365 можно узнать в [статье сведения о политиках хранения и метках хранения](retention.md).
   
 ## <a name="step-2-change-the-hold-duration-for-an-inactive-mailbox"></a>Этап 2. Изменение срока удержания неактивного почтового ящика
 
@@ -155,7 +152,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
     ![Снимок экрана: изменение длительности параметра хранения на месте.](../media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
   
-6. Нажмите кнопку **Сохранить**.
+6. Нажмите **Save** (Сохранить).
     
 #### <a name="use-exchange-online-powershell-to-change-the-hold-duration"></a>Изменение срока хранения в PowerShell Exchange Online
 

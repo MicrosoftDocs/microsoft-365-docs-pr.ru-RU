@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: 'Для администраторов: узнайте, как использовать сетевую загрузку для массового импорта нескольких файлов PST в почтовые ящики пользователей в Microsoft 365.'
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d35a6c77379c528d10510c1959df53c8d81a989
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: b7c8621859d04f44b58719a86b4c159f8379b961
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819069"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127336"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-microsoft-365"></a>Используйте загрузку по сети, чтобы импортировать файлы PST вашей организации в Microsoft 365
 
@@ -336,7 +336,7 @@ After you run the command, status messages are displayed that show the progress 
     
   - с помощью [средства Microsoft для обнаружения электронных данных](search-for-content.md) проводить поиск в импортированных данных; 
     
-  - Использование [политик хранения Microsoft 365](retention-policies.md) для контроля того, как долго будут храниться импортированные вами данные и какие действия предпринять после истечения срока хранения. 
+  - Использование [политик хранения Microsoft 365](retention.md) для контроля того, как долго будут храниться импортированные вами данные и какие действия предпринять после истечения срока хранения. 
     
   - Поиск в журнале [аудита событий](search-the-audit-log-in-security-and-compliance.md), связанных с почтовыми ящиками, которые влияют на импортированные данные. 
     

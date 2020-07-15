@@ -18,12 +18,12 @@ ms.collection:
 - m365-security-compliance
 description: Как и функции в центре соответствия требованиям Microsoft 365, контент справки всегда развивается. Узнайте о новых возможностях, которые были обновлены в этом месяце.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fca455540ed3b01af3b9b4d2a6cd1053535f75b7
-ms.sourcegitcommit: 8595cb9ffe0ca5556080f24224182381e1d880de
+ms.openlocfilehash: 3060cadb5752d8420667105113e23e235ab6f306
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "45035644"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127516"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Последние обновления содержимого соответствия требованиям Microsoft 365
 
@@ -188,7 +188,7 @@ ms.locfileid: "45035644"
 [Контрольный список готовности к подотчетности для Dynamics 365 в рамках GDPR](gdpr-arc-Dynamics365.md)<br>
 [Контрольный список готовности к подотчетности для Microsoft Office 365](gdpr-arc-Office365.md)<br>
 
-### <a name="insider-risk-management"></a>Управление рисками, связанными с инсайдерами
+### <a name="insider-risk-management"></a>Управление рисками, связанными с инсайдерами.
 
 Обновлены следующие статьи для поддержки официального выпуска управления рисками для оценки.<br>
 [Сведения об управлении рисками для оценки в Microsoft 365](insider-risk-management.md)<br>
@@ -202,7 +202,7 @@ ms.locfileid: "45035644"
 
 ### <a name="records-management"></a>Управление записями
 
-[Обзор меток хранения](labels.md) (обновленных)<br>Раздел, посвященный применению метки хранения на основе условий, теперь включает в себя возможность использовать предназначенные для обучения классификаторы.
+[Обзор меток хранения](retention.md) (обновленных)<br>Раздел, посвященный применению метки хранения на основе условий, теперь включает в себя возможность использовать предназначенные для обучения классификаторы.
 
 ### <a name="sensitivity-labels"></a>Метки конфиденциальности
 

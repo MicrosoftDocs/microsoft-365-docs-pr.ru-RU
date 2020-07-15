@@ -18,12 +18,12 @@ description: Настройте Exchange Online и Центр соответст
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 6dc53ec9dd016a2423ca96886bba400e2f17e17a
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 769e13951ce15fb698131860fa78f25fa133e327
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819079"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127306"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
 
@@ -56,7 +56,7 @@ Highly regulated industries are often required to store electronic communication
 - Записи хранятся в течение обязательного периода хранения, который нельзя сократить, а можно только увеличить.
 - Записи являются неизменяемыми, то есть их нельзя перезаписывать, удалять или изменять в течение обязательного периода хранения.
 
-In Exchange Online, when a [retention policy](retention-policies.md) is applied to a user's mailbox, all the user's content will be retained based on the criteria of the policy. In fact, if a user attempts to delete or modify an email, a copy of the email before the change is made will be preserved in a secure, hidden location in the user's mailbox. Retention policies can help ensure that an organization retains electronic communications, but those policies can be modified.
+In Exchange Online, when a [retention policy](retention.md) is applied to a user's mailbox, all the user's content will be retained based on the criteria of the policy. In fact, if a user attempts to delete or modify an email, a copy of the email before the change is made will be preserved in a secure, hidden location in the user's mailbox. Retention policies can help ensure that an organization retains electronic communications, but those policies can be modified.
 
 By placing a Preservation Lock on a retention policy, an organization ensures that the policy cannot be modified. In fact, after a Preservation Lock is applied to a retention policy, the following actions are restricted:
 
@@ -68,7 +68,7 @@ By placing a Preservation Lock on a retention policy, an organization ensures th
 
 ## <a name="how-to-set-up-preservation-lock"></a>Настройка блокировки для сохранения
 
-Можно заблокировать политику хранения с помощью PowerShell. Дополнительные сведения см. в статье [Использование блокировки для сохранения с целью соблюдения нормативных требований](retention-policies.md#use-preservation-lock-to-comply-with-regulatory-requirements).
+Можно заблокировать политику хранения с помощью PowerShell. Дополнительные сведения см. в статье [Использование блокировки для сохранения с целью соблюдения нормативных требований](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements).
 
 ## <a name="known-limitations"></a>Известные ограничения
 

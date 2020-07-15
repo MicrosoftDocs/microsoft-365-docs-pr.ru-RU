@@ -16,12 +16,12 @@ ms.collection: M365-security-compliance
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как настроить настраиваемый соединитель для импорта сторонних данных из источников данных, таких как Salesforce chatter;, Yahoo Messenger или Yammer.
-ms.openlocfilehash: f76ceda12bf48d26454a47e4b0b5d6ad42fbe55d
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c3b824909ae1243e2dd1f12b799e53d00d9615ca
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817044"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126658"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>Архивация сторонних данных при помощи партнера
 
@@ -499,7 +499,7 @@ ms.locfileid: "44817044"
     
       - [Применение к почтовому ящику функции судебного удержания](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-      - [Обзор политик хранения](retention-policies.md)
+      - [Сведения о политиках хранения и метках хранения](retention.md)
     
     - Включение ведения журнала аудита почтовых ящиков для владельца, представителя и административного доступа к почтовому ящику данных стороннего производителя; в разделе [включить аудит почтовых ящиков](enable-mailbox-auditing.md). Это позволяет выполнять аудит всех действий, выполняемых любым пользователем, имеющим доступ к почтовому ящику данных стороннего производителя.
 
@@ -513,7 +513,7 @@ ms.locfileid: "44817044"
     
     - [Применение к почтовому ящику функции судебного удержания](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
-    - [Обзор политик хранения](retention-policies.md)
+    - [Сведения о политиках хранения и метках хранения](retention.md)
     
     Как отмечалось ранее, при помещении почтовых ящиков на хранение можно указать длительность хранения элементов из источника сторонних данных или выбрать бессрочное хранение.
 

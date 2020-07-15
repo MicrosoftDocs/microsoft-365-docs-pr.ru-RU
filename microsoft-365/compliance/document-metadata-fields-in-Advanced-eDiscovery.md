@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: В этой статье определяются поля метаданных для документов в наборе проверки в случае Advanced eDiscovery в Microsoft 365.
-ms.openlocfilehash: 19a8b4968ea4b1d82cd6a9e9278530e6c155ef3f
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: e419cb14d1b0adbebd6d45aaa5120933b060bdf9
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726450"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126956"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>Поля метаданных документа в Advanced eDiscovery
 
@@ -46,7 +46,7 @@ ms.locfileid: "44726450"
 |Автор|Автор|Doc_authors|Автор из метаданных документа.|
 |BCC|СК|Email_bcc|Поле "СК" для типов сообщений. Формат — **DisplayName \<SMTPAddress> **.|
 |CC|Копия|Email_cc|Поле "копия" для типов сообщений. Формат — **DisplayName \<SMTPAddress> **.|
-|Метки соответствия требованиям|комплианцелабелс|Compliance_labels|[Метки хранения](labels.md) применены к содержимому в Office 365.|
+|Метки соответствия требованиям|комплианцелабелс|Compliance_labels|[Метки хранения](retention.md) применены к содержимому в Office 365.|
 |Составной путь|компаундпас|Compound_path|Доступный для человека путь, который описывает источник элемента.|
 |Справки|Контентная||Извлеченный текст элемента.|
 |Текст беседы|Текст беседы||Текст беседы элемента.|
@@ -103,7 +103,7 @@ ms.locfileid: "44726450"
 |Класс элемента|ItemClass|Item_class|Класс элемента, предоставляемый Exchange Server; Например, **IPM. Note (Примечание** )|
 |Дата последнего изменения|LastModifiedDate|Doc_date_modified|Дата последнего изменения из метаданных документа.|
 |Идентификатор загрузки|лоадид|Load_ID|Идентификатор набора нагрузок, в который был добавлен элемент в набор рецензирования.|
-|Location|Location|Location|Строка, указывающая тип расположения, из которого были получены документы.<br /><br />**Импортированные** данные, не относящиеся к Office 365<br />**Teams** — Microsoft Teams<br />Почтовые ящики **Exchange**<br />**SharePoint** — сайты SharePoint<br />**Onedrive** — учетные записи onedrive|
+|Местоположение|Местоположение|Местоположение|Строка, указывающая тип расположения, из которого были получены документы.<br /><br />**Импортированные** данные, не относящиеся к Office 365<br />**Teams** — Microsoft Teams<br />Почтовые ящики **Exchange**<br />**SharePoint** — сайты SharePoint<br />**Onedrive** — учетные записи onedrive|
 |Имя расположения|локатионнаме|Location_name|Строка, определяющая источник элемента. Для Exchange это будет SMTP-адрес почтового ящика; для SharePoint и OneDrive URL-адрес семейства веб-сайтов.|
 |Помечен как представитель|маркасрепресентативе||Один документ из каждого набора точных дубликатов помечен как представители.|
 |Отмечена как предваряющая ситуация с тегом 1 *||Marked_as_pre_tagged_Case_issue_1|Отмечена как предваряющая ситуация с учетом регистра 1 от релевантности.|

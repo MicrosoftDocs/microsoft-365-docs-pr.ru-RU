@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: M365-security-compliance
 description: Обнаружение электронных данных на месте и удержание на месте (и соответствующие командлеты PowerShell) в Exchange Online будут отменены в первой половине 2020. Командлет Search – Mailbox и Advanced eDiscovery версии 1.0 также удаляются за один и тот же период времени.
-ms.openlocfilehash: 8b428b0d90442c937e08d4dc9ca23fb345553178
-ms.sourcegitcommit: 589f78fc0f39aff9109959ded48d146cc32fc3c5
+ms.openlocfilehash: 12de88fe3c9de7806b12bd610e0dbeeb404524ca
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761689"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126946"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>Прекращение поддержки устаревших средств обнаружения электронных данных
 
@@ -124,7 +124,7 @@ ms.locfileid: "44761689"
 <p>Применение политик к определенным расположениям контента, например Exchange Online, SharePoint Online, OneDrive для бизнеса, Skype для бизнеса, Microsoft Teams и Office 365 Groups</p></li>
 <li>
 <p>Применение политик к определенным пользователям</p></li></ul>
-<p>Для получения дополнительных сведений см раздел <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">Обзор политик хранения</a>.</td>
+<p>Дополнительные сведения см. в <a href="https://docs.microsoft.com/microsoft-365/compliance/retention-policies">статье сведения о политиках хранения и метках хранения</a>.</td>
 </tr>
 <tr class="odd">
 <td>Копирование результатов поиска по электронной почте в почтовый ящик обнаружения для просмотра</td><td>Обзор наборов в Advanced eDiscovery версии 2.0</td>
