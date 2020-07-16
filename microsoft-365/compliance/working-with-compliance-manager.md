@@ -139,11 +139,11 @@ ms.locfileid: "45023396"
 3. Откройте документ, чтобы просмотреть данные отчета.
 
 > [!NOTE]
-> This is not a historical report that retains and displays state changes to action item assignment history. The generated report is a snapshot of the control action items assigned at the time that the report is run (date and time stamp written into the report). For instance, any subsequent reassignment of action items will result in different snapshot report data if this report is generated again for the same user.
+> Это не хронологический отчет с данными об изменении состояния в журнале назначения поручений. Создаваемый отчет представляет собой моментальный снимок поручений, назначенных в момент его создания (метка даты и времени заносится в отчет). Например, любое последующее переназначение поручений приведет к созданию другого моментального снимка данных, если другой пользователь снова создаст этот отчет.
   
 #### <a name="reassign-action-items"></a>Переназначение поручений
 
-This function enables an organization to remove any active or outstanding dependencies on the user account by reassigning all action item ownership (which includes both active and completed action items) from the returned user account to a new user selected below. This action does not change document upload history for the returned user account.
+Эта функция позволяет организации удалять активные или просроченные зависимости учетной записи, переназначая все поручения (это относится как к активным, так и к выполненным поручениям) из найденной учетной записи пользователя новому пользователю, выбранному ниже. Это действие не меняет журнал отправки документов для найденной учетной записи.
   
  Чтобы переназначить поручения другому пользователю, выполните указанные ниже действия.
   
@@ -156,9 +156,9 @@ This function enables an organization to remove any active or outstanding depend
 4. Чтобы продолжить, нажмите кнопку **ОК**, в противном случае нажмите **кнопку Отмена**.
     
 > [!NOTE]
-> All action items (both active and completed) will be assigned to the newly selected user. However, this action does not affect the document upload history; any documents uploaded by the previously assigned user will still show the date/time and name of the previously assigned user. 
+> Все поручения (как активные, так и выполненные) будут назначены новому пользователю. Однако это действие не влияет на журнал отправки документов. Во всех документах, отправленных ранее назначенным пользователем, по-прежнему будут отображаться дата и время, а также имя назначенного ранее пользователя. 
   
-Changing the document upload history to remove the previously assigned user will have to be done as a manual process. In that case, the administrator will need to:
+Чтобы удалить назначенного ранее пользователя, необходимо вручную отредактировать журнал отправки документов. В этом случае администратору потребуется:
   
 1. Открыть загруженный ранее отчет об экспорте.
   
@@ -174,7 +174,7 @@ Changing the document upload history to remove the previously assigned user will
   
 #### <a name="delete-user-data-history"></a>Удаление журнала данных пользователя
 
-This sets control action items to 'unassigned' for all action items assigned to the returned user. This also sets uploaded by value to 'user removed' for any documents uploaded by the returned user
+При этом все поручения, назначенные найденному пользователю, становятся неназначенными. Кроме того, для всех документов, отправленных этим пользователям, значение имени отправителя меняется на "Пользователь удален".
   
  Чтобы удалить журнал поручений и отправки документов для учетной записи, выполните указанные ниже действия.
   

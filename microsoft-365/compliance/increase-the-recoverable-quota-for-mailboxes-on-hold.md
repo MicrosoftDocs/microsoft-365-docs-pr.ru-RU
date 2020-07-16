@@ -82,9 +82,9 @@ ms.locfileid: "45138271"
   
 ## <a name="step-2-create-a-new-exchange-retention-policy-for-mailboxes-on-hold"></a>Шаг 2: создание новой политики хранения Exchange для почтовых ящиков на удержании
 
-The next step is to create a new retention policy and add retention tags to it, including the Recoverable Items RPT that you created in Step 1. This new policy will be applied to mailboxes on hold in the next step. 
+Следующий этап — создание новой политики хранения и добавление в нее тегов хранения, в том числе RPT элементов с возможностью восстановления, созданного на этапе 1. Эта новая политика будет применена к почтовым ящикам на удержании на следующем этапе.  
   
-Before you create the new retention policy, determine the additional retention tags that you want to add. For a list of the retention tags that are added to the Default MRM Policy and for information about creating new retention tags, see the following:
+Прежде чем создавать новую политику хранения, определите дополнительные теги хранения, которые вы хотите добавить. Список тегов хранения, которые будут добавлены к политике управления записями сообщений по умолчанию, а также сведения о создании новых тегов хранения см. в статьях:
   
 - [Политика хранения по умолчанию в Exchange Online ](https://go.microsoft.com/fwlink/p/?LinkId=746954)
     
@@ -106,7 +106,7 @@ Before you create the new retention policy, determine the additional retention t
     
     ![Выберите настраиваемый тег хранения "Элементы с возможностью восстановления"](../media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
   
-5. Select additional retention tags to add to the retention policy. For example, you might want to add the same tags that are included in the Default MRM Policy.
+5. Выберите дополнительные теги, которые необходимо добавить к политике хранения. Например, может потребоваться добавить теги, которые уже включены в политику управления записями сообщений по умолчанию.
     
 6. Добавив все теги хранения, нажмите кнопку **ОК**.
     

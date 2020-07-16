@@ -43,7 +43,7 @@ ms.locfileid: "44739244"
 
 1. В веб-браузере перейдите по адресу [https://sender.office.com](https://sender.office.com)
 
-2. Follow the instructions on the page. Ensure that you use the email address to which the error message was sent, and the IP address that is specified in the error message. You can only enter one email address and one IP address per visit.
+2. и следуйте инструкциям на странице. Убедитесь, что указали тот адрес электронной почты, на который пришло сообщение об ошибке, и введите указанный в нем IP-адрес. За одно посещение можно указать только один адрес электронной почты и IP-адрес.
 
 3. Нажмите кнопку **Отправить**.
 

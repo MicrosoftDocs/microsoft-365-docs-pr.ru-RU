@@ -75,7 +75,7 @@ ms.locfileid: "45126618"
 
 ## <a name="task-6-classify-and-protect-sensitive-data"></a>Задача 6: классификация и защита конфиденциальных данных
 
-To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
+Для выполнения задач пользователи совместно работают с другими людьми внутри и вне организации. Это означает, что контент покидает границы брандмауэра — он может перемещаться куда угодно на устройствах, в приложениях и службах. Необходимо, что его перемещение было безопасным и защищенным в согласии с бизнес-политикой и политикой соответствия требованиям вашей организации.
 
 [Метки конфиденциальности](sensitivity-labels.md) позволяют классифицировать и защищать данные вашей организации, а также обеспечивать продуктивность работы пользователей и возможность сотрудничества. Используйте метки конфиденциальности, чтобы применять ограничения на шифрование и использование, применять визуальные метки и защищать информацию между платформами и устройствами в локальной среде и в облаке.
 

@@ -138,7 +138,7 @@ ms.locfileid: "44778929"
   
 ### <a name="use-a-public-website"></a>Использование общедоступного веб-сайта
 
-Microsoft 365 doesn't include a public website for your business. If you want to set one up, consider using a Microsoft partner, such as GoDaddy or WIX.
+Microsoft 365 не включает общедоступный веб-сайт для организации. Чтобы его настроить, рекомендуется воспользоваться услугами партнера Майкрософт, например GoDaddy или WIX.
   
 1. В Центре администрирования в разделе **Ресурсы** выберите пункт **Общедоступный веб-сайт**.
 

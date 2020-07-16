@@ -67,7 +67,7 @@ ms.locfileid: "44785859"
     
 3. Завершите настройку Windows 10 на устройстве.
     
-   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
+   После завершения этой процедуры пользователь будет добавлен в каталог Azure AD организации. Чтобы проверить, так ли это, ознакомьтесь со статьей [Проверка подключения устройства к Azure AD](#verify-the-device-is-connected-to-azure-ad). 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Для устройства, на котором уже установлена и настроена система Windows 10 Pro
 
@@ -97,7 +97,7 @@ ms.locfileid: "44785859"
   
 6. Убедитесь, что на странице **ваша организация** указана правильная информация, и нажмите кнопку **присоединиться**.
   
-   On the **You're all set!** page, click **Done**.
+   На странице **Готово!** нажмите кнопку **Готово**.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
