@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Заметки о выпуске для классификации данных.
-ms.openlocfilehash: bbef6729680db2c9a6aec4caa9036ec23fad6949
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 71d8e8e4fffddc4c9373a2bdd37d4509337ec231
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327618"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127144"
 ---
 # <a name="data-classification-release-notes"></a>Заметки о выпуске классификации данных
 
@@ -48,6 +48,6 @@ ms.locfileid: "44327618"
 - [Начало работы с классификацией данных (предварительная версия)](data-classification-overview.md)
 - [Просмотр действий с метками (предварительная версия)](data-classification-activity-explorer.md)
 - [Просмотр содержимого с метками (предварительная версия)](data-classification-content-explorer.md)
-- [Метки конфиденциальности](sensitivity-labels.md)
-- [Метки хранения](labels.md)
+- [Сведения о метках конфиденциальности](sensitivity-labels.md)
+- [Сведения о политиках хранения и метках хранения](retention.md)
 - [Определения объектов типов конфиденциальной информации](sensitive-information-type-entity-definitions.md)
