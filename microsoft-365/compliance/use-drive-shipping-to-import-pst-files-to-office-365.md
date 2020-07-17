@@ -160,7 +160,7 @@ ms.locfileid: "45127346"
 1. Откройте окно командной строки на локальном компьютере.
     
     > [!TIP]
-    > If you run the command prompt as an administrator (by selecting "Run as administrator" when you open it) error messages will be displayed in the command prompt window. This can help you troubleshoot problems running the WAImportExport.exe tool. 
+    > Если вы запустите командную строку с правами администратора (выбрав "Запуск от имени администратора"), то в окне командной строки будут отображаться сообщения об ошибках. Это помогает устранить проблемы, возникающие при работе средства WAImportExport.exe. 
   
 2. Перейдите в каталог, в который вы установили средство WAImportExport.exe в действии 1.
     
@@ -176,7 +176,7 @@ ms.locfileid: "45127346"
     |:-----|:-----|:-----|
     | `/j:` <br/> |Указывает имя файла журнала. Этот файл сохраняется в той же папке, в которой расположено средство WAImportExport.exe. Для каждого жесткого диска, отправляемого в корпорацию Майкрософт, должен быть отдельный файл журнала. При каждом запуске средства WAImportTool.exe для копирования PST-файлов на жесткий диск в файл журнала для этого диска будут добавлены соответствующие сведения.  <br/> Сотрудники центра обработки данных Майкрософт используют сведения, содержащиеся в файле журнала, для связи жесткого диска с заданием импорта, созданным на шаге 4, и для отправки PST-файлов в область хранилища Azure в облаке Майкрософт.  <br/> | `/j:PSTHDD1.jrn` <br/> |
     | `/t:` <br/> |Задает букву диска для жесткого диска при его подключении к локальному компьютеру.  <br/> | `/t:h` <br/> |
-    | `/id:` <br/> |Specifies the name of the copy session. A session is defined as each time you run the WAImportExport.exe tool to copy files to the hard drive. The PST files are copied to a folder named with the session name specified by this parameter.  <br/> | `/id:driveship1` <br/> |
+    | `/id:` <br/> |Задает имя сеанса копирования. Сеанс — это каждый запуск средства WAImportExport.exe для копирования файлов на жесткие диски. PST-файлы копируются в папку, в качестве имени которой используется имя сеанса, заданное этим параметром.   <br/> | `/id:driveship1` <br/> |
     | `/srcdir:` <br/> |Задает исходный каталог в вашей организации, содержащий PST-файлы, которые необходимо скопировать во время сеанса. Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `/srcdir:"\\FILESERVER01\PSTs"` <br/> |
     | `/dstdir:` <br/> |Указывает конечный каталог в области хранилища Azure в облаке Майкрософт, в котором будут отправлены PST. Необходимо использовать значение `ingestiondata/` . Обязательно заключите значение этого параметра в кавычки (" ").  <br/> При необходимости вы также можете добавить дополнительный путь к файлу для значения этого параметра. Например, можно использовать путь к исходному каталогу на жестком диске (преобразованный в формат URL), который указан в `/srcdir:` параметре. Например, `\\FILESERVER01\PSTs` изменяется на `FILESERVER01/PSTs` . В этом случае все равно необходимо включить `ingestiondata` в путь к файлу. Таким образом, в этом примере значение `/dstdir:` параметра будет иметь значение `"ingestiondata/FILESERVER01/PSTs"` .  <br/> Одна из причин добавить дополнительный путь к файлу — если у вас есть файлы PST с одинаковым именем файла.  <br/> > [!NOTE]> если указать необязательный путь, то пространство имен для PST-файла после его отправки в область хранилища Azure включает путь и имя PST-файла; Пример: `FILESERVER01/PSTs/annb.pst` . Если путь не указан, пространство имен будет иметь только имя PST-файла. например `annb.pst` :.           | `/dstdir:"ingestiondata/"` <br/> или  <br/>  `/dstdir:"ingestiondata/FILESERVER01/PSTs"` <br/> |
     | `/sk:` <br/> |Задает ключ учетной записи хранения, который вы получили в действии 1. Обязательно заключите значение этого параметра в кавычки (" ").  <br/> | `"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ=="` <br/> |
@@ -190,7 +190,7 @@ ms.locfileid: "45127346"
     WAImportExport.exe PrepImport /j:PSTHDD1.jrn /t:f /id:driveship1 /srcdir:"\\FILESERVER01\PSTs" /dstdir:"ingestiondata/" /sk:"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ==" blobtype:BlockBlob /encrypt /logdir:"c:\users\admin\desktop\PstImportLogs"
     ```
 
-    After you run the command, status messages are displayed that show the progress of copying the PST files to the hard drive. A final status message shows the total number of files that were successfully copied.
+    После запуска команды будут отображаться сообщения о состоянии, показывающие ход копирования PST-файлов на жесткий диск. В окончательном сообщении о состоянии будет отображено общее количество успешно скопированных файлов. 
     
 4. Выполняйте эту команду при каждом последующем запуске средства WAImportExport.exe для копирования PST-файлов на тот же жесткий диск.
 
@@ -210,7 +210,7 @@ ms.locfileid: "45127346"
   
 1. [Скачайте файл сопоставления для импорта PST-файлов](https://go.microsoft.com/fwlink/p/?LinkId=544717).
     
-2. Open or save the CSV file to your local computer. The following example shows a completed PST Import mapping file (opened in NotePad). It's much easier to use Microsoft Excel to edit the CSV file.
+2. Откройте или сохраните этот CSV-файл на локальный компьютер. В примере ниже показан готовый файл сопоставления для импорта PST-файлов (открытый в Блокноте). Для редактирования CSV-файла намного удобнее использовать Microsoft Excel.
 
     ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
@@ -330,7 +330,7 @@ ms.locfileid: "45127346"
     
 - Отгрузите жесткий диск к адресу, который отображался при создании задания импорта на шаге 4. Не забудьте включить службу импорта Office 365 в адрес поставки.
     
-- After you ship the hard drive, be sure to write down the name of the delivery carrier and the tracking number. You'll provide these in the next step.
+- после отправки жестких дисков запишите название поставщика почтовых услуг и номер для отслеживания отправления. Эти данные потребуются вам в следующем действии.
     
 ### <a name="enter-the-tracking-number-and-other-shipping-information"></a>Ввод номера для отслеживания и других сведениях об отправленных дисках
 
@@ -468,7 +468,7 @@ ms.locfileid: "45127346"
     
   - Защита Организации от потери конфиденциальных [данных](data-loss-prevention-policies.md) . 
     
-- Here's an example of the secure storage account key and a BitLocker encryption key. This example also contains the syntax for the WAImportExport.exe command that you run to copy PST files to a hard drive. Be sure to take precautions to protect these just like you would protect passwords or other security-related information.
+- Ниже показаны примеры ключа учетной записи защищенного хранилища и ключа шифрования BitLocker. В этом примере также показан синтаксис команды WAImportExport.exe, которую необходимо запустить для копирования PST-файлов на жесткий диск. Необходимо защитить эти ключи так же, как вы защищаете пароли и другую информацию, связанную с обеспечением безопасности.
     
 
     ```text

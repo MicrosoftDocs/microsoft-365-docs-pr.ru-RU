@@ -561,7 +561,7 @@ Enable-AntiPhishRule -Identity "Marketing Department"
 Set-AntiPhishRule -Identity "<RuleName>" -Priority <Number>
 ```
 
-This example sets the priority of the rule named Marketing Department to 2. All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).
+В этом примере для правила Marketing Department задается приоритет 2. Все правила с приоритетом не больше 2 понижаются на один ранг (значения приоритета увеличиваются на 1).
 
 ```PowerShell
 Set-AntiPhishRule -Identity "Marketing Department" -Priority 2

@@ -29,7 +29,7 @@ ms.locfileid: "45005826"
 ---
 # <a name="manage-messages-in-message-center"></a>Управление уведомлениями в Центре сообщений
 
-Message center posts are important announcements about new and changed features. This article provides more information about the things you can do with messages to help with change management in your organization.
+В Центре сообщений публикуются важные объявления о новых и измененных функциях. В этой статье вы найдете подробные сведения о том, как использовать эти сообщения в рамках управления изменениями.
   
 ## <a name="read-a-message"></a>Чтение сообщения
 

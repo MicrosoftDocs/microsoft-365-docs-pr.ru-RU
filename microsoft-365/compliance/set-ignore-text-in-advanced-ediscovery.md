@@ -26,7 +26,7 @@ ms.locfileid: "44936896"
 # <a name="set-ignore-text-option-for-analyze-in-advanced-ediscovery-classic"></a>Установка параметра игнорировать текст для анализа в Advanced eDiscovery (классический)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Функция ignore Text может быть применена ко всем или любым из следующих дополнительных модулей обнаружения электронных данных: Analyze (почти-дубликаты, цепочки электронной почты, темы) и релевантность. Пропущенный текст не будет отображаться в отображаемых файлах, а анализ и вычисления будут отклонять пропущенный текст.
   

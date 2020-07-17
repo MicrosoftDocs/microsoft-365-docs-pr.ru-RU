@@ -25,9 +25,9 @@ ms.locfileid: "44819009"
 ---
 # <a name="view-the-data-governance-reports"></a>Просмотр отчетов для управления данными
 
-After you create your labels, you'll want to verify that they're being applied to content as you intended. With the data governance reports in the Security &amp; Compliance Center, you can quickly view:
+После создания меток нужно проверить, применяются ли они к содержимому так, как задумано. Это можно быстро сделать в Центре безопасности и соответствия требованиям с помощью таких отчетов для управления данными:
   
-- **Top 5 labels** This report shows the count of the top 5 labels that have been applied to content. Click this report to view a list of all labels that have been recently applied to content. You can see each label's count, location, how it was applied, its retention actions, whether it's a record, and its disposition type. 
+- **5 часто используемых меток**. В этом отчете показан счетчик для пяти часто используемых меток, применяемых к содержимому. Откройте этот отчет, чтобы просмотреть список всех меток, которые недавно применялись к содержимому. Вы можете просмотреть счетчик, действия хранения, расположение, способ применения, тип ликвидации для каждой метки, а также то, является ли она записью. 
     
 - **Применение автоматически или вручную**. В этом отчете показан счетчик для всего содержимого, к которому были применены метки вручную или автоматически, а также процентное соотношение содержимого, к которому были применены метки вручную, и содержимого, к которому были применены метки автоматически. 
     
@@ -41,7 +41,7 @@ After you create your labels, you'll want to verify that they're being applied t
   
 ![Диаграмма, показывающая тренды для меток за последние 90 дней](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   
-You can filter the data governance reports by date (up to 90 days) and location (Exchange, SharePoint, and OneDrive for Business). The most recent data can take up to 24 hours to appear in the reports.
+Отчеты для управления данными можно фильтровать по дате (до 90 дней) и расположению (Exchange, SharePoint и OneDrive для бизнеса). Самые новые данные появляются в отчетах в течение 24 часов.
   
 ![Фильтрация отчетов для управления данными](../media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
   

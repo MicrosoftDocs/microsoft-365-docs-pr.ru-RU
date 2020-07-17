@@ -155,7 +155,7 @@ ms.locfileid: "44780245"
   
 ## <a name="do-i-have-to-use-security-groups-for-my-organization-to-be-secure"></a>Нужно ли использовать группы безопасности для защиты Организации?
 
-No. This is just one more way you can manage security for your organization. You can always grant user permissions and access to sites individually. But with security groups, you can easily manage larger groups of users.
+Нет. Это лишь один из способов управления безопасностью организации. Вы можете предоставлять разрешения и доступ к сайтам каждому пользователю по отдельности. Группы безопасности просто упрощают управление несколькими пользователями.
   
 ## <a name="can-i-send-email-to-a-security-group"></a>Можно ли отправлять электронную почту в группу безопасности?
 

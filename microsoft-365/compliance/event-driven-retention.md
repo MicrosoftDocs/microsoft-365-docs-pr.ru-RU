@@ -31,7 +31,7 @@ ms.locfileid: "45068128"
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-When you retain content, the retention period is often based on the age of the content. For example, you might retain documents for seven years after they're created and then delete them. But when you configure [retention labels](labels.md), you can also base a retention period on when a specific type of event occurs. The event triggers the start of the retention period, and all content with a retention label applied for that type of event get the label's retention actions enforced on them.
+Срок хранения контента часто определяется его возрастом. Например, вы можете хранить документы в течение семи лет после их создания, а затем удалять их. Однако, настроив [метки хранения](labels.md), вы также можете задать период хранения исходя из того, когда происходит событие определенного типа. Событие становится началом периода хранения, а ко всему контенту с меткой, относящейся к этому типу события, применяются предусмотренные ею действия.
   
 Примеры использования хранения на основе событий.
   
@@ -39,9 +39,9 @@ When you retain content, the retention period is often based on the age of the c
     
 - **Окончание срока действия договора**. Предположим, что все записи, связанные с договорами, нужно хранить в течение пяти лет с момента окончания срока действия договора. Событием, активирующим пятилетний период хранения, будет окончание срока действия договора. 
     
-- **Product lifetime** Your organization might have retention requirements related to the last manufacturing date of products for content such as technical specifications. In this case, the last manufacturing date is the event that triggers the retention period. 
+- **Время существования продукта.** У вашей организации могут быть требования к хранению, связанные с датой последнего выпуска продуктов, в отношении такого контента, как технические спецификации. В таком случае последний выпуск — это событие, активирующее начало периода хранения. 
     
-Event-driven retention is typically used as part of a records-management process. This means that:
+Хранение, зависящее от возникновения события, обычно используется в процессе управления записями. Это означает следующее:
   
 - Метки на основе события также обычно определяют контент как запись. Дополнительную информацию см. в статье [Сведения о записях](records.md).
     
@@ -63,13 +63,13 @@ Event-driven retention is typically used as part of a records-management process
     
 2. Пользователи (обычно менеджеры записей) применяют эти метки хранения к контенту и (для документов SharePoint и OneDrive) вводят идентификатор ресурса для каждого элемента. В этом примере идентификатор актива - это название продукта или код, используемый организацией. Таким образом, каждой записи продукта присваивается метка хранения, и каждая запись имеет свойство, которое содержит идентификатор актива. Диаграмма представляет **весь контент** для всех записей продукта в организации, и каждый элемент имеет идентификатор актива продукта, чья запись это. 
     
-3. Product Lifetime is the event type; a specific product reaching end of life is an event. When an event of that event type occurs - in this case, when a product reaches its end of life - you create an event that specifies:
+3. "Время существования продукта" — это тип события, которое наступает при завершении существования продукта. Когда возникает такого рода события, т. е. когда время существования продукта заканчивается, создается событие, для которого указывается следующее:
     
   - Идентификатор ресурса (для документов SharePoint и OneDrive).
     
-  - Keywords (for Exchange items). In this example, the organization uses a product code in messages containing product records, so the keyword for Exchange items is the same as the asset ID for SharePoint and OneDrive documents.
+  - Ключевые слова (для элементов Exchange). В этом примере организация использует код продукта в сообщениях, содержащих записи продукта, поэтому ключевое слово для элементов Exchange совпадает с идентификатором ресурса для документов SharePoint и OneDrive.
     
-  - The date when the event occurred. This date is used as the start of the retention period. This date can be the current, a past, or a future date.
+  - Дата возникновения события. С этой даты начинается период хранения, она может быть текущей, прошедшей или будущей.
     
 4. После создания события эта дата события синхронизируется со всем контентом, который имеет метку хранения этого типа и которая содержит указанный идентификатор актива или ключевое слово. Как и любая метка хранения, эта синхронизация может занять до 7 дней. На предыдущей схеме все элементы, обведенные красным, имеют период хранения, активированный этим событием. Другими словами, когда срок действия этого продукта истекает, это событие запускает период хранения для записей этого продукта.
     
@@ -180,7 +180,7 @@ Event-driven retention is typically used as part of a records-management process
   
 ## <a name="permissions"></a>Разрешения
 
-To get access to the **Events** page, reviewers must be members of a role group with the **Disposition Management** role and the **View-Only Audit Logs** role. We recommend creating a new role group called Disposition Reviewers, adding these two roles to that role group, and then adding members to the role group. 
+Чтобы получить доступ к странице **События**, проверяющие должны быть членами группы ролей, включающей роли **Управление ликвидацией** и **Журналы аудита только для просмотра**. Рекомендуем создать новую группу ролей под названием "Проверяющие ликвидацию" и добавить в нее сначала эти две роли, а затем членов. 
   
 Дополнительные сведения см. в статье [Предоставление пользователям доступа к Центру безопасности и соответствия требованиям Office 365](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md).
   

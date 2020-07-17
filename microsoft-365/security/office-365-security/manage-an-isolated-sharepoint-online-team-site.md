@@ -146,7 +146,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
 
 ## <a name="create-a-documents-subfolder-with-custom-permissions"></a>Создание вложенной папки документов с настраиваемыми разрешениями
 
-In some cases, a subset of the people working within the isolated site need a more private place to collaborate. For SharePoint Online sites, you can create a subfolder in the Documents folder of the site and assign custom permissions. Those without permissions will not see the subfolder.
+Группе людей, работающих на изолированном сайте, может потребоваться закрытое место для совместной работы. В SharePoint Online вы можете создать вложенную папку в папке сайта "Документы" и назначить ей особые разрешения. Пользователи без разрешений не увидят эту папку.
   
 Чтобы создать вложенную папку документов с настраиваемыми разрешениями, сделайте следующее:
   

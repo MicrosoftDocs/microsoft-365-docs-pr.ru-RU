@@ -37,7 +37,7 @@ ms.locfileid: "44817001"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счетов
 
-This article is for people who have a Microsoft 365 for business subscription. You must be a global admin or billing admin to do the steps described in this article.
+Эта статья предназначена для подписчиков Microsoft 365 для бизнеса. Для выполнения описанных в этой статье действий необходимы права глобального администратора или администратора по выставлению счетов.
   
 Если вам нужна помощь в интерпретации расходов, которые вы видите в своем счете, см. раздел [Понимание вашего счета или Счет-фактуры](understand-your-invoice2.md) для подробного ознакомления.
   

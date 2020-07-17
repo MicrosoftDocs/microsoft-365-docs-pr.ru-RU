@@ -88,9 +88,9 @@ ms.locfileid: "44780197"
    
 ### <a name="transfer-your-domain-to-a-different-domain-registrar"></a>Передача домена другому регистратору
 
-If your domain is managed by a provider that doesn't support all the necessary DNS records, you can transfer it to a different registrar. When you transfer the domain, you change who you send payments to in order to renew and keep your domain name.
+Если вашим доменом управляет поставщик, который не поддерживает все необходимые записи DNS, вы можете передать его другому регистратору. При передаче домена необходимо изменить получателя платежей за продление доменного имени.
   
-Request the transfer at the registrar that you want to move your domain to. Look on their website for an option such as **Transfer DNS**. Be aware that after they make the changes, it can take a few days update across the Internet.
+Отправьте запрос на передачу регистратору, которому хотите передать домен. Найдите на его веб-сайте соответствующую услугу, например **Transfer DNS** (Передача DNS). На то, чтобы после внесения изменений они вступили в силу в Интернете, может потребоваться несколько дней.
  
 
 
@@ -100,7 +100,7 @@ Request the transfer at the registrar that you want to move your domain to. Look
 
 
 
-If you don't already have your own domain, you can easily buy one online at a domain name registrar, domain reseller, or even at your current Internet provider. You get a domain name when you sign up for Office 365 operated by 21Vianet, for example, contoso.partner.onmschina.cn. But you may want to use a custom domain name, like fourthcoffee.com.
+Если у вас еще нет домена, его легко можно приобрести в Интернете у регистратора доменных имен, посредника или даже у вашего поставщика услуг Интернета. При регистрации в службе Office 365, предоставляемой 21Vianet, вы получаете доменное имя, например contoso.partner.onmschina.cn. Однако при желании можно использовать собственное доменное имя, например fourthcoffee.com.
   
 Чтобы настроить домен в Microsoft 365, необходимо владеть доменом и изменить некоторые записи DNS для своего домена.
   

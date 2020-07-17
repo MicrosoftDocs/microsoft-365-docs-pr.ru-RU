@@ -6776,7 +6776,7 @@ No — Реисепасс НР — Реисепасс
 - 1–7 групп из четырех букв или цифр (могут разделяться пробелами)
 - 1–3 буквы или цифры
 
-The format for each country is slightly different. The IBAN sensitive information type covers these 60 countries:
+Формат для названия каждой из стран немного отличается. Тип конфиденциальной информации IBAN применяется к следующим 60 странам:
 
 ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, dk, do, ee, es, fi, fo, fr, gb, ge, gi, gl, gr, hr, hu, ie, il, is, it, kw, kz, lb, li, lt, lu, lv, mc, md, me, mk, mr, mt, mu, nl, no, pl, pt, ro, rs, sa, se, si, sk, sm, tn, tr, vg
 

@@ -50,7 +50,7 @@ ms.locfileid: "44785919"
     
 3. В строке меню выберите команду **Добавить**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png), затем выберите файлы, которые хотите сохранить. 
     
-To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
+Для передачи профиля пользователя и важных данных также можно использовать сторонние программы, например ForensiT. Итоговые файлы тоже нужно добавить в OneDrive для бизнеса.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Дополнительные сведения о настройке и использовании Microsoft 365 для бизнеса
 

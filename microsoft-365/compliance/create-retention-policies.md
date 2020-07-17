@@ -78,7 +78,7 @@ ms.locfileid: "45091999"
   
 ![Выбор страницы пользователей Skype](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
-Note that **Conversation History**, a folder in Outlook, is a feature that has nothing to do with Skype archiving. **Conversation History** can be turned off by the end user, but archiving for Skype is done by storing a copy of Skype conversations in a hidden folder that is inaccessible to the user but available to eDiscovery.
+Обратите внимание, что **Журнал бесед**, папка в Outlook, не имеет отношения к архивам Skype. **Журнал бесед** может быть отключен пользователем, однако архивация для Skype выполняется путем сохранения копии бесед Skype в скрытой папке, не доступной для пользователя, но доступной для обнаружения электронных данных.
 
 
 ## <a name="settings-for-retaining-and-deleting-content"></a>Настройки для сохранения и удаления контента
@@ -113,7 +113,7 @@ Note that **Conversation History**, a folder in Outlook, is a feature that has n
   
 Представьте, что вы создали политику хранения, согласно которой содержимое удаляется через три года, а затем назначили эту политику всем учетным записям OneDrive, содержащим большой объем данных, которые были созданы четыре или пять лет назад. В этом случае значительная доля содержимого будет удалена вскоре после первого назначения этой политики хранения. По этой причине важно понимать, что политика хранения, которая удаляет контент, может оказать значительное влияние на ваш контент. 
   
-Therefore, before you assign a retention policy to a site collection for the first time, you should first consider the age of the existing content and how the policy may impact that content. You may also want to communicate the new policy to your users before assigning it, to give them time to assess the possible impact. Note this warning that appears when you review the settings for your retention policy just before creating it.
+Потому перед первым назначением политики хранения семейству веб-сайтов следует сначала определить возраст содержимого и подумать о том, как может эта политика повлиять на такое содержимое. Кроме того, может потребоваться уведомить ваших пользователей о новой политике, прежде чем назначать ее, чтобы у них было время оценить возможное ее влияние. Обратите внимание на это предупреждение, которое появляется при просмотре параметров политики хранения непосредственно перед ее созданием.
   
 ![Предупреждение об удалении содержимого](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
@@ -135,7 +135,7 @@ Therefore, before you assign a retention policy to a site collection for the fir
   
 ### <a name="identify-content-that-contains-sensitive-information"></a>Определите контент, который содержит конфиденциальную информацию
 
-You can also apply a retention policy only to content that contains [specific types of sensitive information](what-the-sensitive-information-types-look-for.md). For example, you can choose to apply unique retention requirements only to content that contains personal information, such as taxpayer identification numbers, social security numbers, or passport numbers.
+Если нужно, вы можете применить политику хранения только к содержимому, в котором есть определенные [типы конфиденциальной информации](what-the-sensitive-information-types-look-for.md). Например, можно установить уникальные требования к хранению содержимого, которое включает такие персональные данные, как идентификационные номера налогоплательщиков, номера социального страхования или номера паспортов.
   
 ![Страница типов конфиденциальной информации](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   

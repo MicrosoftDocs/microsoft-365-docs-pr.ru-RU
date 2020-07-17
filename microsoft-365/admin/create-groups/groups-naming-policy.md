@@ -69,7 +69,7 @@ ms.locfileid: "44702552"
 
 Поддерживаемые атрибуты Azure Active Directory (Azure AD): [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion] и [title].
 
-- Unsupported user attributes are considered as fixed strings. E.g. "[postalCode]"
+- Нераспознанные атрибуты считаются фиксированными строками. Пример: "[postalCode]"
 
 - Атрибуты расширения и настраиваемые атрибуты не поддерживаются.
 
@@ -104,7 +104,7 @@ ms.locfileid: "44702552"
 
 ## <a name="admin-override"></a>Переопределение администраторами
 
-Selective administrators are exempted from these policies, across all group workloads and endpoints, so that they can create groups with these blocked words and with their desired naming conventions. The following are the list of administrator roles exempted from the group naming policy.
+Для некоторых администраторов эти политики не действуют, так что они могут создавать группы, используя запрещенные слова и собственные соглашения об именовании, в любых службах и конечных точках. Из политики именования групп исключаются следующие роли:
 
 - Глобальный администратор
 

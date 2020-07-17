@@ -146,7 +146,7 @@ ms.locfileid: "45127164"
   
  **В каких регионах доступна отправка по сети?**
   
-Network upload is currently available in these regions: United States, Canada, Brazil, the United Kingdom, France, Germany, Europe, India, East Asia, Southeast Asia, Japan, Republic of Korea, Australia, and United Arab Emirates (UAE). Network upload will be available in more regions soon.
+Отправка по сети в настоящее время доступна в следующих регионах: Соединенные Штаты, Канада, Бразилия, Соединенное Королевство, Франция, Германия, Европа, Индия, Восточная Азия, Юго-Восточная Азия, Япония, Республика Корея, Австралия и Объединенные Арабские Эмираты (ОАЭ). Скоро эта возможность станет доступна и в других регионах.
   
  **Сколько стоит импорт PST-файлов с помощью отправки по сети?**
   
@@ -186,7 +186,7 @@ Using network upload to import PST files is free.
   
  **Ограничено ли количество уровней в иерархии папок для PST-файла, который нужно импортировать в почтовый ящик?**
   
-Yes. You can't import a PST file that has 300 or more levels of nested folders.
+Да. Невозможно импортировать PST-файл, содержащий 300 или больше уровней вложенных папок.
   
  **Можно ли использовать отправку по сети для импорта PST-файлов в неактивный почтовый ящик в Office 365?**
   
@@ -245,7 +245,7 @@ Yes. You can't import a PST file that has 300 or more levels of nested folders.
   
  **После того, как я отправлю свой жесткий диск, сколько времени потребуется, чтобы попасть в центр обработки данных Microsoft?**
   
-That depends on a few things, such as your proximity to the Microsoft data center and what kind of shipping option you used to ship your hard drive (such as, next-day delivery, two-day delivery, or ground-delivery). With most shippers, you can use the tracking number to track the status of your delivery.
+Это зависит от нескольких факторов, например от близости к центру обработки данных Майкрософт и от варианта доставки (доставка в тот же день, на следующий день, за два дня или наземной почтой). Большинство служб доставки предоставляют номер для отслеживания отправления.
   
  **После того, как мой жесткий диск попадет в центр обработки данных Microsoft, сколько времени займет загрузка файлов PST в Azure?**
   
@@ -283,7 +283,7 @@ That depends on a few things, such as your proximity to the Microsoft data cente
   
  **Ограничено ли количество уровней в иерархии папок для PST-файла, который нужно импортировать в почтовый ящик?**
   
-Yes. You can't import a PST file that has 300 or more levels of nested folders.
+Да. Невозможно импортировать PST-файл, содержащий 300 или больше уровней вложенных папок.
   
  **Можно ли использовать доставку дисков для импорта файлов PST в неактивный почтовый ящик в Microsoft 365?**
   
@@ -299,19 +299,19 @@ Yes. You can't import a PST file that has 300 or more levels of nested folders.
   
  **Может ли корпорация Майкрософт очистить жесткий диск, прежде чем возвращать его?**
   
-No, Microsoft can't wipe hard drives before shipping them back to customers. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
+Нет, корпорация Майкрософт не очищает жесткие диски перед их отправкой клиентам. Жесткие диски возвращаются в том же состоянии, в котором они были в момент их получения корпорацией Майкрософт.
   
  **Может ли Майкрософт уничтожить жесткий диск, вместо того чтобы возвращать его?**
   
-No, Microsoft can't destroy your hard drive. Hard drives are returned to you in the same state they were in when they were received by Microsoft.
+Нет, корпорация Майкрософт не может уничтожить ваш жесткий диск. Жесткие диски возвращаются в том же состоянии, в котором они были в момент их получения корпорацией Майкрософт.
   
  **Какие курьерские службы используются для возврата дисков?**
   
-If you're a customer in the United States or Europe, Microsoft uses FedEx to return your hard drive. For all other regions, Microsoft uses DHL.
+Если вы находитесь в США или Европе, корпорация Майкрософт использует службу FedEx. Для других регионов используется DHL.
   
  **Какова стоимость обратной доставки?**
   
-Return shipping costs vary, depending on your proximity to the Microsoft data center that you shipped your hard drive to. Microsoft will bill your FedEx or DHL account to return your hard drive. The cost of return shipping is your responsibility.
+Стоимость обратной доставки зависит от удаленности центра обработки данных Майкрософт, в который вы отправили жесткий диск. При возврате диска служба FedEx или DHL выставит вам счет, и вы обязаны его оплатить.
   
  **Можно ли использовать специальные курьерские службы доставки, например FedEx Custom Shipping, для отправки жесткого диска в Майкрософт?**
   
@@ -319,4 +319,4 @@ Return shipping costs vary, depending on your proximity to the Microsoft data ce
   
  **Нужно ли мне сделать что-то дополнительно, если я отправляю жесткий диск в другую страну?**
   
-The hard drive that you ship to Microsoft might have to cross international borders. If this is the case, you're responsible for ensuring that the hard drive and the data it contains are imported and/or exported in accordance with the applicable laws. Before shipping a hard drive, check with your advisors to verify that your drive and data can legally be shipped to the specified Microsoft data center. This will help to ensure that it reaches Microsoft in a timely manner.
+Жесткий диск, отправляемый в Майкрософт, может пересекать международные границы. Если это так, вы несете ответственность за то, что жесткий диск и данные, которые он содержит, пройдут экспорт и импорт в соответствии с требованиями законодательства. Перед отправкой жесткого диска проконсультируйтесь со специалистами, чтобы убедиться, что отправка диска и данных на нем в центр обработки данных Майкрософт будет законной. Это поможет избежать задержек во время доставки диска.

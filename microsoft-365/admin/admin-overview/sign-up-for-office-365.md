@@ -115,9 +115,9 @@ ms.locfileid: "44780521"
 
 - **Адрес и контактные данные для подписки**
 
-  - **Country** where the services will be used. You **won't** be able to change this later, even during the sign up process; you'll have to re-start the sign up wizard.
+  - **Страна**, в которой будут использоваться службы. Вы **не сможете** изменить сведения о стране ни позже, ни даже во время процесса регистрации. Чтобы указать другую страну, вам придется начать регистрацию заново.
 
-  - **Email** and **phone number** so we can contact you if needed about your subscription. For example, if you forget your password, we would use this information to send you a temporary one. We also send your billing information to the email address you specify.
+  - **Электронная почта** и **номер телефона** для связи с вами в случае необходимости для решения вопросов, связанных с вашей подпиской. Например, если вы забыли пароль, мы используем эти сведения для отправки вам временного пароля. На указанный вами адрес электронной почты мы также будем отправлять вам сведения об оплате.
 
     > [!NOTE]
     > Адрес электронной почты, который вы вводите здесь, отличается от вашего адреса электронной почты Microsoft 365 (имя для входа ниже). Так как на этот адрес отправляются данные для выставления счетов, рекомендуем использовать адрес, подходящий для деловой переписки.

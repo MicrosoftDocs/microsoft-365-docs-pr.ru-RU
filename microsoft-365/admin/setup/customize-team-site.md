@@ -110,7 +110,7 @@ SharePoint включает множество шаблонов для спис�
   
 ## <a name="here-are-more-topics-you-might-be-interested-in"></a>Другие статьи по теме:
 
-- **Set up Office apps on your tablets and phones**. You need to do this so you can edit files that are stored on your team site from your tablet or phone. If you don't install the Office apps for your tablet or phone, you'll be able to view the files on your team site, but not edit them. 
+- **Настройка приложений Office на планшетах и телефонах.** Эту настройку необходимо выполнить для того, чтобы файлы, хранящиеся на сайте группы, можно было редактировать с телефона или планшета. Если вы не установите приложения Office для телефона или планшета, вы сможете просматривать файлы на сайте группы, но не редактировать их. 
     
   - [Установка и настройка Office в Android с помощью Microsoft 365](https://support.microsoft.com/office/cafe9d6f-8b0c-4b03-b20a-12438a82a22d)
     

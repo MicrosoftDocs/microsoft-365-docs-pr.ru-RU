@@ -47,9 +47,9 @@ ms.locfileid: "44817033"
 
 - **Адрес выставления счета**  адрес вашего подразделения по работе со счетами; обычно совпадает с адресом **покупателя**.
 
-- **Service Usage Address** The address where the service is being used, usually the same as the **Sold-To** address. If your organization has remote users or multiple offices, use the address where the majority of your users are located.
+- **Адрес использования службы**  адрес, по которому используется служба. Обычно он совпадает с адресом **покупателя**. Если в организации есть удаленные пользователи или несколько офисов, укажите адрес большинства пользователей.
 
-In most cases, these addresses are the same. If you need to change one or more of the addresses, you can do that. You can also provide an alternate email address to receive billing notifications, and change the alternate email address for other admins.
+Как правило, эти адреса совпадают. При необходимости вы можете изменить один или несколько из них. Кроме того, можно указать запасной адрес электронной почты для получения уведомлений о выставлении счетов и изменить этот адрес для других администраторов.
   
 ::: moniker range="o365-worldwide"
 

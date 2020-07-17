@@ -62,7 +62,7 @@ ms.locfileid: "45015963"
 
 ## <a name="understand-licenses-for-non-user-mailboxes"></a>Лицензии для почтовых ящиков, не относящихся к пользователям
 
-You don't need to assign licenses to resource mailboxes, room mailboxes, and shared mailboxes, except when they are over their storage quota of 50 gigabytes (GB). For more about non-user mailboxes, see the following articles:
+Назначать лицензии почтовым ящикам ресурсов, помещений и общим почтовым ящикам требуется только в том случае, если для них превышена квота хранилища, равная 50 гигабайтам (ГБ). Дополнительные сведения о почтовых ящиках, не связанных с пользователями, см. в приведенных ниже статьях.
   
 - [Создание общего почтового ящика](../../admin/email/create-a-shared-mailbox.md)
 - [Удаление лицензии из общего почтового ящика](../../admin/email/remove-license-from-shared-mailbox.md)
@@ -72,7 +72,7 @@ You don't need to assign licenses to resource mailboxes, room mailboxes, and sha
 
 ## <a name="who-can-assign-licenses"></a>Кто может назначать лицензии?
 
-Different types of admins can work with licenses in different ways, depending on their roles. The following table lists the most common options. For a complete list of admin roles and privileges, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+Возможности работы с лицензиями, доступные администраторам, зависят от их ролей. Наиболее распространенные варианты указаны в приведенной ниже таблице. Полный список ролей и привилегий администраторов см. в статье [Роли администраторов в Office 365](../../admin/add-users/about-admin-roles.md).
   
 |**Роль администратора**|**Назначение лицензии**|**Отмена назначения лицензии**|**Приобретение дополнительных лицензий**|**Удаление учетной записи**|
 |:-----|:-----|:-----|:-----|:-----|

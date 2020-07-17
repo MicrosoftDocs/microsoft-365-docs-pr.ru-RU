@@ -97,7 +97,7 @@ ms.locfileid: "44817758"
 5. В области сведений в разделе **Экспорт результатов на компьютер** щелкните **Начать экспорт**.
     
     > [!NOTE]
-    > If the results for a search are older than 7 days, you are prompted to update the search results. If this happens, cancel the export, click **Update search results** in the details pane for the selected search, and then start the export again after the results are updated. 
+    > Если результаты поиска сформированы более 7 дней назад, вам будет предложено обновить их. В этом случае отмените экспорт, в области сведений щелкните **Обновить результаты поиска** для выбранного поиска. После обновления результатов еще раз запустите экспорт.  
   
 6. На странице " **Экспорт результатов поиска"** в разделе **Параметры вывода**выберите один из следующих параметров:
     

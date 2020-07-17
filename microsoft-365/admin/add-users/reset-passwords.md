@@ -44,7 +44,7 @@ ms.locfileid: "44780569"
   
 ## <a name="let-users-reset-their-own-passwords"></a>Предоставление пользователям прав на самостоятельный сброс пароля
 
-We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. To learn how, see [Let users reset their own passwords in Office 365](let-users-reset-passwords.md).
+Мы настоятельно рекомендуем вам настроить самостоятельный сброс пароля. В таком случае вам не придется сбрасывать пароли вручную для всех пользователей в организации. Сведения о том, как это сделать, см. в статье [Предоставление пользователям прав на самостоятельный сброс пароля в Office 365](let-users-reset-passwords.md).
   
 ## <a name="reset-a-business-password-for-someone-else"></a>Сброс бизнес-пароля для другого пользователя
 
@@ -118,7 +118,7 @@ We strongly recommend that you set up self-service password reset. This way you 
 ## <a name="reset-business-passwords-in-bulk"></a>Массовый сброс бизнес-паролей
 <a name="bkmk_forgot"> </a>
 
-Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
+Воспользуйтесь PowerShell. Ознакомьтесь со статьей Эяла Дорона (Eyal Doron) [Управление паролями с помощью PowerShell](https://go.microsoft.com/fwlink/?linkid=853696) (на английском языке).
   
 Другая статья на ту же тему: [Задание паролей для нескольких учетных записей](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell).
   

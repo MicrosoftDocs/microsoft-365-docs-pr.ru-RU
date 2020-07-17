@@ -26,7 +26,7 @@ ms.locfileid: "44854262"
 
 Microsoft 365 корпоративный — это первоклассное облачное предложение корпорации Майкрософт, сочетающее местные и облачные приложения и службы, Windows 10 Корпоративную и дополнительные средства безопасности в одном комплексном интеллектуальном решении, которое открывает перед пользователями возможность безопасной творческой и совместной работы. 
 
-The Contoso Corporation is a fictional but representative global manufacturing conglomerate with its headquarters in Paris, France. Contoso has deployed Microsoft 365 Enterprise and addressed major design decisions and implementation details for networking, identity, Windows 10 Enterprise, Microsoft 365 Apps for enterprise, mobile device management, information protection, and security. 
+Корпорация Contoso — вымышленная показательная транснациональная промышленная компания-конгломерат с главным офисом в Париже, Франция. В корпорации Contoso выполнялось развертывание Microsoft 365 корпоративный и рассматривались основные проектные решения и детали внедрения сети, удостоверений, Windows 10 Корпоративная, приложений Microsoft 365 для предприятий, управления мобильными устройствами, защиты информации и системы безопасности. 
 
 Общая цель корпорации Contoso в отношении Microsoft 365 корпоративный состоит в ускорении цифровой трансформации с помощью облачных служб, чтобы объединить сотрудников, партнеров, данные и процессы для создания ценности для клиентов и поддержания конкурентного преимущества в цифровом мире.
 

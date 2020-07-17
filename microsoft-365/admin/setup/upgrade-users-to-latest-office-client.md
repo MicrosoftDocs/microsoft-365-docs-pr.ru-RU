@@ -53,7 +53,7 @@ ms.locfileid: "44778881"
 
 ## <a name="upgrade-steps"></a>Действия по обновлению
 
-The steps below will guide you through the process of upgrading your users to the latest Office desktop client. We recommend you read through these steps before beginning the upgrade process.
+Ниже приведены пошаговые инструкции, которые помогут вам обновить программное обеспечение пользователей до последней версии классического клиента Office. Рекомендуем ознакомиться с этими шагами до начала обновления.
   
 ## <a name="step-1---check-system-requirements"></a>Шаг 1. Проверка требований к системе
 
@@ -114,7 +114,7 @@ The steps below will guide you through the process of upgrading your users to th
 
  **Неподдерживаемые подписки** Если ваша копия Office была получена по прекращенным подпискам, например Office 365 Small Business Premium или Office 365 для среднего бизнеса, вы не сможете установить более старую версию Office, если у вас нет ключа продукта, прилагаемого к вашей подписке.
 
-If you'd prefer to install your older version of Office side-by-side with the latest version, you can see a list of versions where this is supported in, [Install and use different versions of Office on the same PC](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf). A side-by-side installation might be the right choice for you, if for example, you've installed third-party add-ins you're using with your older version of Office and you're not yet sure they're compatible with the latest version.
+Если вы хотите установить старую версию Office параллельно с новой, просмотрите список версий, для которых поддерживается эта возможность, в статье [Установка и использование разных версий Office на одном компьютере](https://support.microsoft.com/office/6ebb44ce-18a3-43f9-a187-b78c513788bf). Параллельная установка может быть хорошим выбором, например, если вы используете в текущей версии Office надстройки сторонних разработчиков и не уверены в их совместимости с новой версией.
 
 ## <a name="step-4---assign-office-licenses-to-users"></a>Шаг 4. Назначение лицензий на Office пользователям
 

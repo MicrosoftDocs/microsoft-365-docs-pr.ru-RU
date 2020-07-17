@@ -179,7 +179,7 @@ ms.locfileid: "44780485"
 
 ## <a name="manage-group-owner-status"></a>Управление состоянием владельца группы
 
-By default, the person who created the group is the group owner. Often a group will have multiple owners for backup support or other reasons. Members can be promoted to owner status and owners can be demoted to member status.
+Пользователь, создавший группу, по умолчанию является ее владельцем. По разным причинам у группы может быть несколько владельцев (например, с целью повышения качества ее обслуживания). Участники могут становиться владельцами группы, а владельцы  лишаться своего статуса.
   
 ### <a name="promote-a-member-to-owner-status-in-the-admin-center"></a>Повышение состояния участника до состояния владельца в центре администрирования
 

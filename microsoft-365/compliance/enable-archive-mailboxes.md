@@ -46,7 +46,7 @@ ms.locfileid: "44817848"
     
 3. В левой области Центра безопасности и соответствия требованиям выберите **Управление информацией** \> **Архив**.
     
-    The **Archive** page is displayed. The **Archive mailbox** column indicates whether an archive mailbox is enabled or disabled for each user. 
+    Отобразится страница **Архив**. В столбце **Архивный почтовый ящик** указывается, включен ли архивный почтовый ящик для соответствующего пользователя. 
     
 4. В списке почтовых ящиков выберите пользователя, для которого вы хотите включить архивный почтовый ящик.
     
@@ -61,7 +61,7 @@ ms.locfileid: "44817848"
     Создание архивного почтового ящика займет какое-то время. После этого в области сведений для выбранного пользователя появится надпись **Архивный почтовый ящик: включен**. Чтобы данные в области сведений обновились, может потребоваться щелкнуть значок **Обновить** ![значок "Обновить"](../media/O365-MDM-Policy-RefreshIcon.gif). 
     
 > [!TIP]
-> You can also bulk-enable archive mailboxes by selecting multiple users with disabled archive mailboxes (use the Shift or Ctrl keys). After selecting multiple mailboxes, click **Enable** in the details pane. 
+> Вы также можете включить архивные почтовые ящики сразу для нескольких пользователей, выбрав их с помощью клавиши SHIFT или CTRL. Выбрав несколько почтовых ящиков, нажмите кнопку **Включить** в области сведений. 
   
 ## <a name="disable-an-archive-mailbox"></a>Отключение архивного почтового ящика
   
@@ -77,7 +77,7 @@ ms.locfileid: "44817848"
     
 3. В левой области Центра безопасности и соответствия требованиям выберите **Управление информацией** \> **Архив**.
     
-    The **Archive** page is displayed. The **Archive mailbox** column indicates whether an archive mailbox is enabled or disabled for each user. 
+    Отобразится страница **Архив**. В столбце **Архивный почтовый ящик** указывается, включен ли архивный почтовый ящик для соответствующего пользователя. 
     
 4. В списке почтовых ящиков выберите пользователя, для которого вы хотите выключить архивный почтовый ящик.
     
@@ -90,7 +90,7 @@ ms.locfileid: "44817848"
     Отключение может занять несколько секунд. После этого в области сведений для выбранного пользователя появится надпись **Архивный почтовый ящик: отключен**. Чтобы данные в области сведений обновились, может потребоваться щелкнуть значок **Обновить** ![значок "Обновить"](../media/O365-MDM-Policy-RefreshIcon.gif). 
     
 > [!TIP]
-> You can also bulk-disable archive mailboxes by selecting multiple users with enabled archive mailboxes (use the Shift or Ctrl keys). After selecting multiple mailboxes, click **Disable** in the details pane. 
+> Вы также можете отключить архивные почтовые ящики сразу для нескольких пользователей, выбрав их с помощью клавиши SHIFT или CTRL. Выбрав несколько почтовых ящиков, нажмите кнопку **Отключить** в области сведений. 
   
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-archive-mailboxes"></a>Включение и отключение архивных почтовых ящиков с помощью Exchange Online PowerShell
 

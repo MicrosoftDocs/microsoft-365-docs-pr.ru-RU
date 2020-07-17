@@ -33,7 +33,7 @@ ms.locfileid: "44779993"
   
 ## <a name="set-up-an-email-account-in-outlook"></a>Настройка учетной записи электронной почты в Outlook
 
-The first time you open Outlook, an Auto Account Wizard opens. If not, choose **File** then **Add Account**.
+При первом запуске Outlook открывается мастер автоматической настройки учетной записи. Если этого не произошло, выберите **Файл** и **Добавить учетную запись**.
   
 1. На странице **Учетные записи электронной почты** выберите **Далее** \> **Добавить учетную запись**.
     

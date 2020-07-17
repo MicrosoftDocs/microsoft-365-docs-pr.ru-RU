@@ -19,6 +19,7 @@ search.appverid:
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
 ms.openlocfilehash: 465da9f5a3265de01b1108944cd8c6dcfae7912d
 ms.sourcegitcommit: 0b59339167bdc3a69b3d91ae6252dc96bdde7cfe
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/26/2020
 ms.locfileid: "44907022"

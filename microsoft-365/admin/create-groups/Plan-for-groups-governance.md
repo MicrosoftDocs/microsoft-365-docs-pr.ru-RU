@@ -152,7 +152,7 @@ ms.locfileid: "44780497"
 |![изображение DESC](../../media/next_steps.png)|Дальнейшие действия|<ul><li>Обмен и публикация политик удаления и восстановления для информирования пользователей о том, что они могут ожидать </li><li> Задокументируйте требования Организации для мониторинга удаленных групп.</li><li>Запланируйте реализацию этих требований в рамках развертывания групп.</li></ul>|
 
 > [!Important]
->During the "soft-delete" period if a user tries to access the site they will get a 403 forbidden message. After this period if the user tries to access the site they will get a 404 not found message.
+>Если пользователь попытается получить доступ к сайту в период обратимого удаления, возникнет ошибка 403 о запрете доступа. Когда этот период закончится, пользователь получит ошибку 404 о том, что сайт не найден.
 
 #### <a name="resources"></a>*Ресурсы*
 - [Восстановление удаленной группы Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)

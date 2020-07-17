@@ -27,7 +27,7 @@ ms.locfileid: "44818418"
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Оценка соответствия в расширенных средствах обнаружения электронных данных (классический)
 
 > [!NOTE]
-> Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
+> Чтобы можно было использовать Advanced eDiscovery, требуется подписка на Office 365 E3 с надстройкой Advanced Compliance или E5 для организации. Если у вас этого плана нет и вы хотите попробовать Advanced eDiscovery, можете [зарегистрироваться для получения пробной версии Office 365 корпоративный E5](https://go.microsoft.com/fwlink/p/?LinkID=698279). 
   
 Расширенные функции обнаружения электронных данных обеспечивают более раннюю оценку, например, для определенных проблем и данных, импортированных для случая. Advanced eDiscovery позволяет эксперту принимать решения о принятом подходе и применять эти решения к проекту рецензирования документов.
   

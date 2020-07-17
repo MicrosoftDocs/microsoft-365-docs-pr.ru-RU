@@ -28,7 +28,7 @@ ms.locfileid: "44818734"
 ---
 # <a name="message-encryption"></a>Шифрование сообщений
 
-People often use email to exchange sensitive information, such as financial data, legal contracts, confidential product information, sales reports and projections, patient health information, or customer and employee information. As a result, mailboxes can become repositories for large amounts of potentially sensitive information and information leakage can become a serious threat to your organization.
+Электронная почта часто используется для обмена конфиденциальными сведениями, такими как финансовые данные, контракты, конфиденциальные сведения о продуктах, прогнозы объема реализации и отчеты о продажах, сведения о пациентах, а также данные о клиентах и сотрудниках. В результате почтовые ящики превратились в хранилища, содержащие большое количество потенциально конфиденциальных сведений, и утечка информации становится серьезной угрозой для организаций.
 
 С помощью шифрования сообщений Office 365 ваша организация может отправлять и получать зашифрованные сообщения электронной почты между людьми в Организации и за ее пределами. Шифрование сообщений Office 365 работает с Outlook.com, Yahoo!, Gmail и другими почтовыми службами. Шифрование сообщений электронной почты гарантирует, что только предназначенные для получателей сообщения могут просматривать содержимое сообщения.
 

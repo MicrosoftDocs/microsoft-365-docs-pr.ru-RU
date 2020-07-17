@@ -46,7 +46,7 @@ S/MIME можно настроить для работы со следующим
 
 3. Для организаций Exchange Online синхронизируйте сертификаты пользователей из доменных служб Active Directory в Azure Active Directory с помощью соответствующей версии Azure AD Connect. После этого сертификаты будут синхронизированы из Azure Active Directory с каталогом Exchange Online и будут использоваться при шифровании сообщения получателю.
 
-4. Set up a virtual certificate collection in order to validate S/MIME. This information is used by Outlook on the web when validating the signature of an email and ensuring that it was signed by a trusted certificate.
+4. Настройте коллекцию виртуальных сертификатов для проверки S/MIME. Эта информация используется Outlook в Интернете при проверке подписи сообщения электронной почты для подтверждения того, что оно было подписано доверенным сертификатом.
 
 5. Настройте конечную точку Outlook или EAS для использования S/MIME.
 

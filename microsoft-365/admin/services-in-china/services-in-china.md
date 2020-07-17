@@ -108,12 +108,12 @@ ms.locfileid: "45079741"
  Новая возможность с накопительным пакетом обновления 5 (CU5) для Exchange 2013, обеспечивающая поддержку полнофункциональных гибридных развертываний между локальными организациями Exchange 2013 и службами Office 365. Благодаря новым улучшениям в мастере гибридной конфигурации Exchange 2013 CU5 поддерживает следующие гибридные функции между локальной организацией и организацией Exchange Online:  
 
 - Обеспечение безопасной маршрутизации почты между локальной организацией Exchange и организацией Exchange Online. 
-- Mail routing with a shared domain namespace. For example, both on-premises and Exchange Online organizations use the @contoso.com SMTP domain. 
+- Маршрутизация с общим доменным пространством имен. Например, локальная организация и организация Exchange Online используют домен SMTP @contoso.com. 
 - Единый глобальный список адресов (GAL), или общая адресная книга.  
 - Обмен сведениями о доступности и данными календаря между локальной организацией Exchange и организацией Exchange Online.  
-- Centralized control of inbound and outbound mail flow. You can configure all inbound and outbound Exchange Online messages to be routed through the on-premises Exchange organization. 
+- Централизованное управление исходящим и входящим потоком почты. Можно настроить маршрутизацию всех входящих и исходящих сообщений Exchange Online через локальную организацию Exchange. 
 - Один URL-адрес Office Outlook Web App для локальной организации и организации Exchange Online.  
-- The ability to move existing on-premises mailboxes to the Exchange Online organization. Exchange Online mailboxes can also be moved back to the on-premises organization if needed.  
+- Возможность перемещения существующих локальных почтовых ящиков в организацию Exchange Online. При необходимости можно переместить почтовые ящики Exchange Online обратно в локальную организацию.  
 - Централизованное управление почтовыми ящиками с помощью Центра администрирования (EAC) локальной Exchange.  
 - Подсказки, поддержка фотографий HD для контактов Outlook и поиск в нескольких почтовых ящиках в локальной организации и организации Exchange Online. 
 - Архивация облачных сообщений для локальных почтовых ящиков Exchange. 

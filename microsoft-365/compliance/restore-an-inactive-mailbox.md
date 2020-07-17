@@ -28,7 +28,7 @@ ms.locfileid: "45127456"
 
 Неактивный почтовый ящик (который представляет собой тип обратимо удаленного почтового ящика) используется для хранения электронной почты бывшего сотрудника после того, как он покидает организацию. Если другой сотрудник берет на себя обязанности бывшего сотрудника или этот сотрудник возвращается в организацию, вы можете предоставить содержимое неактивного почтового ящика пользователю двумя способами.
   
-- **Restore an inactive mailbox** If another employee takes on the job responsibilities of the departed employee, or if another user needs access to the contents of the inactive mailbox, you can restore (or merge) the contents of the inactive mailbox to an existing mailbox. You can also restore the archive from an inactive mailbox. After it's restored, the inactive mailbox is preserved and is retained as an inactive mailbox. This topic describes the procedures for restoring an inactive mailbox.
+- **Восстановление неактивного почтового ящика**. Если другой сотрудник берет на себя обязанности уволенного сотрудника или другому пользователю требуется доступ к содержимому неактивного почтового ящика, вы можете восстановить содержимое неактивного почтового в существующем почтовом ящике (этот процесс также называют слиянием). Можно также восстановить архив из неактивного почтового ящика. После восстановления неактивный почтовый ящик хранится как неактивный. В этом разделе описаны процедуры восстановления неактивного почтового ящика.
 
 - **Восстановление неактивного почтового ящика** Если отработка, возвращенная в организацию, или сотрудник, нанятый сотрудником, должен принять должностные обязанности отчасти сотрудника, можно восстановить содержимое неактивного почтового ящика. При этом неактивный почтовый ящик преобразуется в новый ящик, который содержит элементы неактивного почтового ящика. После восстановления неактивный почтовый ящик больше не существует. Пошаговые процедуры приведены [в статье восстановление неактивного почтового ящика в Office 365](recover-an-inactive-mailbox.md).
 
@@ -50,7 +50,7 @@ ms.locfileid: "45127456"
 
 ## <a name="restore-an-inactive-mailbox"></a>Восстановление неактивного почтового ящика
 
-Use the **New-MailboxRestoreRequest** cmdlet with the  _SourceMailbox_ and  _TargetMailbox_ parameters to restore the contents of an inactive mailbox to an existing mailbox. For more information about using this cmdlet, see [New-MailboxRestoreRequest](https://go.microsoft.com/fwlink/?linkid=856298).
+Используйте командлет **New-MailboxRestoreRequest** с параметрами  _SourceMailbox_ и  _TargetMailbox_, чтобы восстановить содержимое неактивного почтового ящика в существующем ящике. Дополнительные сведения об использовании данного командлета см. в статье [New-MailboxRestoreRequest](https://go.microsoft.com/fwlink/?linkid=856298).
   
 1. Создайте переменную, содержащую свойства неактивного почтового ящика.
 
@@ -59,15 +59,15 @@ Use the **New-MailboxRestoreRequest** cmdlet with the  _SourceMailbox_ and  _Tar
     ```
 
     > [!IMPORTANT]
-    > In the previous command, use the value of the **DistinguishedName** or **ExchangeGUID** property to identify the inactive mailbox. These properties are unique for each mailbox in your organization, whereas it's possible that an active and an inactive mailbox might have the same primary SMTP address.
+    > В предыдущей команде используйте значение свойства **DistinguishedName** или **ExchangeGUID** для определения неактивного почтового ящика. Эти свойства уникальны для каждого почтового ящика в организации, тогда как у активного и неактивного почтового ящика может быть один и тот же основной SMTP-адрес.
   
-2. Restore the contents of the inactive mailbox to an existing mailbox. The contents of the inactive mailbox (source mailbox) will be merged into the corresponding folders in the existing mailbox (target mailbox).
+2. Восстановление содержимого неактивного почтового ящика в существующем ящике. Содержимое неактивного (исходного) почтового ящика будет добавлено в соответствующие папки существующего (целевого) почтового ящика.
 
     ```powershell
     New-MailboxRestoreRequest -SourceMailbox $InactiveMailbox.DistinguishedName -TargetMailbox newemployee@contoso.com -AllowLegacyDNMismatch
     ```
 
-   Alternatively, you can specify a top-level folder in the target mailbox in which to restore the contents from the inactive mailbox. If the specified target folder or target folder structure doesn't already exist in the target mailbox, it is created during the restore process. 
+   Кроме того, можно указать папку верхнего уровня в целевом почтовом ящике, в которую будет восстановлено содержимое неактивного почтового ящика. Если указанная целевая папка или структура папок еще не существует в целевом почтовом ящике, она будет создана во время процесса восстановления. 
 
     Этот пример копирует элементы и вложенные папки из неактивного почтового ящика в папку "Inactive Mailbox" в структуре папок верхнего уровня в целевом почтовом ящике.
 
@@ -77,7 +77,7 @@ Use the **New-MailboxRestoreRequest** cmdlet with the  _SourceMailbox_ and  _Tar
 
 ## <a name="restore-the-archive-from-an-inactive-mailbox"></a>Восстановление архива из неактивного почтового ящика
 
-If an inactive mailbox has an archive mailbox, you can also restore it to the archive mailbox of an existing mailbox. To restore the archive from an inactive mailbox, you have to add the  _SourceIsArchive_ and  _TargetIsAchive_ switches to the command used to restore an inactive mailbox.
+Если неактивный почтовый ящик содержит архивный почтовый ящик, можно восстановить его в архивный почтовый ящик существующего ящика. Для этого необходимо добавить параметры  _SourceIsArchive_ и  _TargetIsAchive_ в команду, используемую для восстановления неактивного почтового ящика.
   
 1. Создайте переменную, содержащую свойства неактивного почтового ящика.
 
@@ -86,9 +86,9 @@ If an inactive mailbox has an archive mailbox, you can also restore it to the ar
     ```
 
     > [!NOTE]
-    > In the previous command, use the value of the **DistinguishedName** or **ExchangeGUID** property to identify the inactive mailbox. These properties are unique for each mailbox in your organization, whereas it's possible that an active and an inactive mailbox might have the same primary SMTP address. 
+    > В предыдущей команде используйте значение свойства **DistinguishedName** или **ExchangeGUID** для определения неактивного почтового ящика. Эти свойства уникальны для каждого почтового ящика в организации, тогда как у активного и неактивного почтового ящика может быть один и тот же основной SMTP-адрес. 
   
-2. Restore the contents of the archive from the inactive mailbox (source archive) to the archive of an existing mailbox (target archive). In this example, the contents from the source archive are copied to a folder named "Inactive Mailbox Archive" in the archive of the target mailbox.
+2. Восстановление содержимого архива из неактивного почтового ящика (исходного архива) в архив существующего почтового ящика (целевой архив). В этом примере содержимое из исходного архива копируется в папку с именем "Inactive Mailbox Archive" в архиве целевого почтового ящика.
 
     ```powershell
     New-MailboxRestoreRequest -SourceMailbox $InactiveMailbox.DistinguishedName -SourceIsArchive -TargetMailbox newemployee@contoso.com -TargetIsArchive -TargetRootFolder "Inactive Mailbox Archive" -AllowLegacyDNMismatch
@@ -98,7 +98,7 @@ If an inactive mailbox has an archive mailbox, you can also restore it to the ar
 
 - **В чем основное различие между возвратом и восстановление неактивного почтового ящика?** После возврата неактивного почтового ящика он, по сути, преобразуется в новый почтовый ящик, содержимое и структура папок неактивного почтового ящика сохраняются, и он связывается с новой учетной записью пользователя. После возврата неактивный почтовый ящик больше не существует, и любые изменения, внесенные в его содержимое, влияют на содержимое, который изначально удерживался в неактивном почтовом ящике. При восстановлении неактивного почтового ящика его содержимое просто копируется в другой почтовый ящик. Неактивный почтовый ящик сохраняется и остается неактивным. Любые изменения, внесенные в содержимое целевого почтового ящика, не повлияет на исходное содержимое в неактивном почтовом ящике. Для неактивного почтового ящика можно выполнить поиск с помощью [средства поиска контента](content-search.md), его содержимое можно восстановить в другом почтовом ящике, либо его можно восстановить или удалить позже.
 
-- **How do you find inactive mailboxes?** To get a list of the inactive mailboxes in your organization and display information that is useful for restoring an inactive mailbox, you can run this command.
+- **Как найти неактивные почтовые ящики?** Для получения списка неактивных почтовых ящиков в организации и информации, необходимой для восстановления неактивного почтового ящика, выполните эту команду.
 
   ```powershell
   Get-Mailbox -InactiveMailboxOnly | FL Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
@@ -110,7 +110,7 @@ If an inactive mailbox has an archive mailbox, you can also restore it to the ar
 
 - **Что делает параметр AllowLegacyDNMismatch?** В предыдущих примерах для восстановления неактивного почтового ящика параметр **AllowLegacyDNMismatch** использовался, чтобы разрешить восстановление неактивного почтового ящика в другой целевой почтовый ящик. В обычном сценарии восстановления цель заключается в восстановлении содержимого, при этом исходный и целевой почтовые ящики совпадают. Поэтому командлет **New-MailboxRestoreRequest** по умолчанию проверяет, что значение свойства **legacyExchangeDN** в исходном и целевом почтовых ящиках одинаково. Эта позволяет предотвратить случайное восстановление исходного почтового ящика в неправильном целевом почтовом ящике. Если попытаться восстановить неактивный почтовый ящик без параметра **AllowLegacyDNMismatch**, команда может завершиться с ошибкой, если значения свойства **LegacyExchangeDN** исходного и целевого почтового ящика различаются.
 
-- **You can use other parameters with the New-MailboxRestoreRequest cmdlet to implement different restore scenarios for inactive mailboxes.** For example, you can run this command to restore the archive from the inactive mailbox into the primary mailbox of the target mailbox. 
+- **Можно использовать другие параметры с командлетом New-MailboxRestoreRequest для реализации различных сценариев восстановления неактивных почтовых ящиков.** Например, можно выполнить эту команду, чтобы восстановить архив из неактивного почтового ящика в основном почтовом ящике целевого почтового ящика. 
 
   ```powershell
   New-MailboxRestoreRequest -SourceMailbox <inactive mailbox> -SourceIsArchive -TargetMailbox <target mailbox> -TargetRootFolder "Inactive Mailbox Archive" -AllowLegacyDNMismatch
@@ -122,7 +122,7 @@ If an inactive mailbox has an archive mailbox, you can also restore it to the ar
   New-MailboxRestoreRequest -SourceMailbox <inactive mailbox> -TargetMailbox <target mailbox> -TargetIsArchive -TargetRootFolder "Inactive Mailbox" -AllowLegacyDNMismatch
   ```
 
-- **What does the TargetRootFolder parameter do?** As previously explained, you can use the **TargetRootFolder** parameter to specify a folder in the top of the folder structure (also called the root) in the target mailbox in which to restore the contents of the inactive mailbox. If you don't use this parameter, mailbox items from the inactive mailbox are merged into the corresponding default folders of the target mailbox, and custom folders are re-created in the root of the target mailbox. The following illustrations highlight these differences between not using and using the **TargetRootFolder** parameter.
+- **Что делает параметр TargetRootFolder?** Как объяснялось ранее, параметр **TargetRootFolder** можно использовать, чтобы указать папку в верхней части структуры папок ( корневой папке) целевого почтового ящика, в котором требуется восстановить содержимое неактивного почтового ящика. Если этот параметр не используется, элементы неактивного почтового ящика добавляются в соответствующие папки целевого почтового ящика по умолчанию, а пользовательские папки создаются заново в корневой папке целевого ящика. На следующих рисунках показаны различия между использованием и неиспользованием параметра **TargetRootFolder**.
 
     **Иерархия папок в целевом почтовом ящике, если параметр TargetRootFolder не используется**
 

@@ -29,7 +29,7 @@ ms.locfileid: "44755240"
 
  **Сводка.** Сведения о том, как создавать общедоступные, частные, конфиденциальные и строго конфиденциальные сайты групп SharePoint Online в среде разработки и тестирования для политической кампании. 
   
-Use the instructions in this article to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md) solution. These sites are described in detail on Topic 10, titled **SharePoint and OneDrive for Business**.
+Инструкции из этой статьи позволят создать среду разработки и тестирования, которая включает четыре разных типа сайтов групп SharePoint Online для решения [Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md). Эти сайты подробно описаны в 10-й статье под названием **SharePoint и OneDrive для бизнеса**.
   
 ## <a name="phase-1-create-your-political-campaign-devtest-environment"></a>Этап 1. Создание среды разработки и тестирования для политической кампании
 
@@ -213,7 +213,7 @@ Use the instructions in this article to create a dev/test environment that inclu
     
 4. В разделе **Параметры — применение метки** выберите метку **Конфиденциальный** и нажмите кнопку **Сохранить**.
     
-Next, configure a data loss prevention (DLP) policy that notifies users when they share a document on a SharePoint Online team site with the Sensitive label outside the organization. This DLP policy will apply to resources in the Campaign marketing site.
+Настройте политику защиты от потери данных (DLP), которая уведомляет пользователей, когда они предоставляют доступ к документу на сайте группы SharePoint Online с меткой "Конфиденциальный" внешним пользователям. Такая политика будет применяться к ресурсам на сайте "Маркетинг кампании".
   
 1. На вкладке браузера **Домашняя страница Microsoft Office** щелкните плитку **Безопасность и соответствие требованиям**.
     
@@ -245,7 +245,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 15. В текстовом поле введите или вставьте следующее:
     
-  - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
+  - Чтобы предоставить доступ пользователю за пределами организации, скачайте файл и откройте его. Выберите пункты "Файл > Защитить документ > Зашифровать паролем", а затем укажите надежный пароль. Отправьте пароль в отдельном сообщении или с помощью других средств связи.
     
 16. Нажмите кнопку **ОК**.
     
@@ -310,7 +310,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 - Участники не могут менять разрешения на уровне сайта (это могут делать только члены группы **Стратегия кампании — владельцы**).
     
-- Other user accounts cannot access the site or its resources or request access to the site. Additional permissions to the site must be done by the global administrator or by a member of the **Campaign strategy-Owners** group.
+- Другие учетные записи пользователей не могут получать доступ к сайту и его ресурсам, а также запрашивать доступ к нему. Дополнительные разрешения для сайта должен задавать глобальный администратор или участник группы **Стратегия кампании — владельцы**.
     
 Затем настройте папку документов на сайте стратегической группы кампании на использование метки "Строго конфиденциальный".
   
@@ -322,7 +322,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 4. В разделе **Параметры — применение метки** выберите метку **Строго конфиденциальный** и нажмите кнопку **Сохранить**.
     
-Next, configure a DLP policy that blocks users when they share a document on a SharePoint Online team site with the Highly Confidential label outside the organization. This DLP policy will apply to resources in the Campaign strategy site.
+Настройте политику защиты от потери данных, которая блокирует попытки предоставить внешним пользователям доступ к документу на сайте группы SharePoint Online с меткой "Строго конфиденциальный". Такая политика будет применяться к ресурсам на сайте "Стратегия кампании".
   
 1. При необходимости используйте браузер на локальном компьютере и войдите в центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com)) с помощью учетной записи, у которой есть роль администратора безопасности или администратора компании.
     
@@ -356,7 +356,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 16. В текстовом поле введите или вставьте следующее:
     
-  - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
+  - Чтобы предоставить доступ пользователю за пределами организации, скачайте файл и откройте его. Выберите пункты "Файл > Защитить документ > Зашифровать паролем", а затем укажите надежный пароль. Отправьте пароль в отдельном сообщении или с помощью других средств связи.
     
 17. Нажмите кнопку **ОК**.
     
@@ -406,7 +406,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 19. Щелкните **Выбрать > ОК**.
 
-20. Click **Add or remove labels**. In the **Policy: Add or remove labels** pane, click **CampaignStrategy**, and then click **OK**.   
+20. Выберите элемент **Добавить или удалить метки**. На панели **Политики: добавление и удаление меток** нажмите **СтратегияКампании**, а затем — **ОК**.   
 
 21. Нажмите кнопку **Сохранить**, а затем — **ОК**.
   

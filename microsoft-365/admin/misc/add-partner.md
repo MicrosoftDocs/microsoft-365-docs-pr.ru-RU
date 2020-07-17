@@ -56,7 +56,7 @@ ms.locfileid: "45005690"
 
 ::: moniker range="o365-germany"
 
-The partner you choose depends on the Office 365 services you use and the country or region where you'll use those services. If you are adding a partner, or changing the partner for your subscription, first you need to get the partner's Microsoft Partner ID by asking the partner for it.
+Выбор партнера зависит от используемых служб Office 365, а также страны или региона, в которых они будут использоваться. Чтобы добавить или сменить партнера для подписки, сначала необходимо уточнить у него его идентификатор партнера Майкрософт.
 
 ::: moniker-end
 
@@ -79,7 +79,7 @@ The partner you choose depends on the Office 365 services you use and the countr
     
 4. Если у вас уже есть партнер, на втором шаге мастера оформления заказа на панели справа в разделе сведения о партнере нажмите кнопку **Добавить**.
 
-5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+5. Введите идентификатор добавляемого партнера Майкрософт. Его можно получить, обратившись к партнеру.
 
 6. Следуйте дальнейшим инструкциям мастера, чтобы завершить приобретение подписок. 
     
@@ -98,7 +98,7 @@ The partner you choose depends on the Office 365 services you use and the countr
     
 4. Если у вас уже есть партнер, на втором шаге мастера оформления заказа на панели справа в разделе сведения о партнере нажмите кнопку **Добавить**.
 
-5. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+5. Введите идентификатор добавляемого партнера Майкрософт. Его можно получить, обратившись к партнеру.
 
 6. Следуйте дальнейшим инструкциям мастера, чтобы завершить приобретение подписок. 
     
@@ -127,7 +127,7 @@ The partner you choose depends on the Office 365 services you use and the countr
   
 3. Справа в разделе затраты на подписку нажмите кнопку **Дополнительные действия** , чтобы > **добавить партнера записи**.
 
-4. Type the Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
+4. Введите идентификатор добавляемого партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.
 
 5. Идентификатор партнера появится на странице **Подписки**.
     
@@ -159,7 +159,7 @@ The partner you choose depends on the Office 365 services you use and the countr
     
 3. В разделе **Идентификатор партнера** выберите **Изменить зарегистрированного партнера**.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.
+4. Введите новый идентификатор партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.
   
 ::: moniker-end
 
@@ -171,7 +171,7 @@ The partner you choose depends on the Office 365 services you use and the countr
     
 3. В разделе **Идентификатор партнера** выберите **Изменить зарегистрированного партнера**.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
+4. Введите новый идентификатор партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.   
 
 ::: moniker-end
 
@@ -183,7 +183,7 @@ The partner you choose depends on the Office 365 services you use and the countr
     
 3. В разделе **Идентификатор партнера** выберите **Изменить зарегистрированного партнера**.
   
-4. Type the new Microsoft Partner ID for the partner you're adding, select **Check ID**, and then **Submit**. You can get the partner's Microsoft Partner ID by asking the partner for it.   
+4. Введите новый идентификатор партнера Майкрософт, нажмите кнопку **Проверить ИД** и нажмите кнопку **OК**. Идентификатор партнера Майкрософт можно получить, обратившись к партнеру.   
 
 ::: moniker-end
 

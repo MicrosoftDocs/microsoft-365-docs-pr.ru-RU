@@ -47,21 +47,21 @@ ms.locfileid: "45083578"
 
 5. В диалоговом окне сведения нажмите **кнопку Да** , чтобы подтвердить обновление. Процесс начинается немедленно. В зависимости от размера и количества обновляемых списков документов процесс может занять несколько минут или часов.<br/>Если список рассылки не может быть обновлен, появится диалоговое окно с сообщением. Сведения о [том, какие списки рассылки невозможно обновить?](#which-distribution-lists-cannot-be-upgraded).
 
-6. Если вы обновляете несколько списков рассылки, используйте раскрывающийся список, чтобы отфильтровать, какие списки рассылки были обновлены. Если список не заполнен, подождите некоторое время, а затем нажмите кнопку **Обновить** , чтобы увидеть, что Обновлено успешно.<br/>There's no notice that tells you when the upgrade process has completed for all DLs you selected. You can figure this out by looking to see what's listed under **Available for upgrade** or **Upgraded DLs**.
+6. Если вы обновляете несколько списков рассылки, используйте раскрывающийся список, чтобы отфильтровать, какие списки рассылки были обновлены. Если список не заполнен, подождите некоторое время, а затем нажмите кнопку **Обновить** , чтобы увидеть, что Обновлено успешно.<br/>Уведомление об окончании обновления для всех выбранных списков рассылки не выводится. То, какие списки были обновлены, можно узнать по разделам **Доступны для обновления** и **Обновленные списки рассылки**.
 
-7. If you selected a DL for upgrade, but it's still appears on the page as Available to upgrade, then it failed to upgrade. See [What to do if the upgrade doesn't work](#what-to-do-if-the-upgrade-doesnt-work).
+7. Если вы выбрали список рассылки для обновления, но оно по-прежнему отображается на странице "Доступны для обновления", его не удалось обновить. См. раздел [Что делать, если возникает ошибка обновления](#what-to-do-if-the-upgrade-doesnt-work).
 
 > [!NOTE]
-> If you're getting the groups digest emails you may notice at the bottom that it will sometimes offer to let you upgrade any eligible distribution lists that you're the owner of. See [Have a group conversation in Outlook](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22) for more information about digest emails.
+> Если вы получаете письма с дайджестом сообщений группы, то могли заметить, что в них (в самом низу) иногда предлагается обновить списки рассылки, владельцем которых вы являетесь. Дополнительные сведения о письмах с дайджестом см. в статье [Групповые беседы в Outlook](https://support.microsoft.com/office/a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 
 ## <a name="what-to-do-if-the-upgrade-doesnt-work"></a>Что делать, если возникает ошибка обновления
 
 Списки рассылки, которые не удалось обновить, остаются без изменений.
 
-If one or more **eligible** distribution lists fail to be upgraded, open a [Support ticket](../contact-support-for-business-products.md). The issue will need to be escalated to the Groups Engineering team for them to figure out the problem.
+Если не удалось обновить **поддерживаемый** список рассылки, отправьте [запрос в службу поддержки](../contact-support-for-business-products.md). Об этой проблеме необходимо сообщить команде технических специалистов по Группам.
 
-It's possible that the distribution list didn't get upgraded because of a service outage, but pretty unlikely. If you want, wait a while and then try to upgrade the DL again.
+Возможно, список рассылки не удалось обновить из-за сбоя службы, но такое случается довольно редко. Попробуйте подождать немного и повторить попытку.
 
 ## <a name="how-to-use-powershell-to-upgrade-several-distribution-lists-at-the-same-time"></a>Обновление нескольких списков рассылки одновременно с помощью PowerShell
 
@@ -129,7 +129,7 @@ Get-DistributionGroup| Foreach-Object{
 |**Описание**|**Поддерживается?**|
 |:-----|:-----|
 |Список рассылки с локальным управлением.  <br/> |Нет  <br/> |
-|Nested distribution lists. Distribution list either has child groups or is a member of another group.  <br/> |Нет  <br/> |
+|Вложенные списки рассылки. Список рассылки имеет дочерние группы или входит в другую группу.  <br/> |Нет  <br/> |
 |Списки рассылки с членами **RecipientTypeDetails** , отличными от **UserMailbox**, **SharedMailbox**, **TeamMailbox**, **MailUser**  <br/> |Нет  <br/> |
 |Список рассылки с более чем 100 владельцами  <br/> |Нет  <br/> |
 |Список рассылки, у которого нет владельцев.  <br/> |Нет  <br/> |
@@ -163,7 +163,7 @@ Get-DistributionGroup| Foreach-Object{
 
 ### <a name="do-new-group-members-get-a-welcome-email-in-their-inbox"></a>Получат ли участники группы приветственные сообщения?
 
-No. The setting to enable welcome messages is set to false by default. This setting affects both existing and new group members who may join after the migration is complete. If the group owner later allows guest users, guest users won't receive a welcome email in their inbox. Guest members can continue working with the group.
+Нет. По умолчанию параметру, который отвечает за отправку таких сообщений, присвоено значение false. Этот параметр относится как к существующим, так и к новым участникам группы, которые могут присоединиться к ней после переноса. Если владелец группы разрешит гостевым пользователям присоединяться к ней, они не будут получать приветственные сообщения. Несмотря на это они смогут использовать группу.
 
 ### <a name="what-if-one-or-some-of-the-dls-are-not-upgraded"></a>Что делать, если один или несколько списков рассылки не обновляются?
 
@@ -175,6 +175,6 @@ No. The setting to enable welcome messages is set to false by default. This sett
 
 ### <a name="what-happens-to-the-dl-if-the-upgrade-from-eac-fails"></a>Что происходит со списком рассылки при сбое обновления, запущенного через EAC?
 
-The upgrade will happen only when the call is submitted to the server. If the upgrade fails, your DLs will be intact. They will work like they used to.
+Обновление происходит только после отправки вызова на сервер. Если обновление завершится сбоем, список рассылки не будет изменен. Он будет работать, как прежде.
 
 

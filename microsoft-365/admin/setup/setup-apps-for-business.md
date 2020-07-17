@@ -66,7 +66,7 @@ ms.locfileid: "44778893"
 
 ## <a name="install-office"></a>Установка Office
 
-Once you've created accounts for other people in your business, you and your team members will be able to install the full desktop version of Office (Word, Excel, Outlook, etc.). Each person can install Office on up to 5 PCs or Macs.
+Создав учетные записи для других пользователей организации, вы и участники вашей группы можете установить полную классическую версию Office (Word, Excel, Outlook и т. д.). Каждый пользователь может установить Office на 5 ПК с Windows или компьютерах Mac.
   
 ::: moniker range="o365-worldwide"
 
@@ -94,17 +94,17 @@ Once you've created accounts for other people in your business, you and your tea
   
 ## <a name="set-up-mobile"></a>Настройка мобильных приложений
 
-Install Office on your mobile device, and set up Outlook to work with your new Microsoft mailbox. Everyone on your team will need to do this step. Each person can install the Office mobile apps on up to 5 phones and 5 tablets.
+Установите Office на мобильном устройстве и настройте Outlook для работы с новым почтовым ящиком Microsoft. Этот шаг необходимо выполнить каждому участнику вашей группы. Каждый пользователь может установить мобильные приложения Office на 5 телефонах и 5 планшетах.
   
 Получите инструкции для своего устройства: [Android](https://support.microsoft.com/office/6ef2ebf2-fc2d-474a-be4a-5a801365c87f) | [iOS](https://support.microsoft.com/office/0402b37e-49c4-4419-a030-f34c2013041f) | [Windows Phone](https://support.microsoft.com/office/9bccc8b8-a321-4d0d-a45e-6e06a3438e43)
   
 ## <a name="store-files-online"></a>Хранение файлов в Интернете
 
-Microsoft makes online file storage easy. To learn which storage locations are best for your business, see [Where you can store files in Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
+Корпорация Майкрософт упрощает хранение файлов в Интернете. Рекомендации по выбору подходящего хранилища см. в разделе [Где можно хранить документы в Office 365](https://support.microsoft.com/office/c7c20284-bc94-47f4-9728-d28e9daf0790).
   
-Everyone gets a **OneDrive** cloud storage location automatically when you create Microsoft accounts for them. With OneDrive, you can access files across your computers, phones, and tablets.
+При создании учетных записей Microsoft всем пользователям автоматически предоставляется доступ к облачному хранилищу **OneDrive**. OneDrive обеспечивает доступ к файлам на любых компьютерах, телефонах и планшетах.
   
-1. On your computer, use File Explorer to open OneDrive. Or, from [Office 365](https://www.office.com), open **OneDrive** from the app launcher.
+1. На компьютере запустите проводник и откройте OneDrive. Можно также выбрать **OneDrive** в средстве запуска приложений [Office 365](https://www.office.com).
 
 2. Просмотрите и добавьте личные файлы либо предоставьте общий доступ к документам или папкам, нажав кнопку **Поделиться** и пригласив других пользователей для просмотра документов или отправив им ссылку. Дополнительные сведения см. в статье [Общий доступ к файлам и папкам OneDrive](https://support.microsoft.com/office/9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business).
   

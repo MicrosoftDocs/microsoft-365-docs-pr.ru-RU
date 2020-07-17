@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 48512cf2fff802509ebaa14ca69d3ca02908902e
-ms.sourcegitcommit: 41bc923bb31598cea8f02923792c1cd786e39616
+ms.openlocfilehash: 16ee37b1c7bf33c902db35af2d29744f42830ea7
+ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087937"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45094838"
 ---
 # <a name="create-and-track-servicenow-tickets-in-the-microsoft-365-security-center"></a>Создание и отслеживание билетов для ServiceNow в центре безопасности Майкрософт 365
 
@@ -54,9 +54,7 @@ ms.locfileid: "45087937"
 
 ## <a name="create-a-task-and-share-it-to-servicenow"></a>Создание задачи и общий доступ к ней в ServiceNow
 
-После настройки интеграции Создайте задачи ServiceNow на основе определенных действий по улучшению оценки безопасности Майкрософт. Перейдите к любому действию улучшения в поле Оценка безопасности на портале Центра безопасности Microsoft 365 и выберите значок "общий доступ". Один из вариантов раскрывающегося списка — ServiceNow.
-
-![Общий доступ к файлам ServiceNow в безопасной оценке](../../media/servicenow-share.png)
+После настройки интеграции Создайте задачи ServiceNow на основе определенных действий по улучшению [оценки безопасности Майкрософт](microsoft-secure-score.md) . Перейдите к любому действию улучшения в поле Оценка безопасности на портале Центра безопасности Microsoft 365 и выберите **общий доступ**. Один из вариантов раскрывающегося списка — ServiceNow.
 
 Создается задача, в которой можно задать приоритет и изменить имя, описание или срок выполнения. После заполнения всех обязательных полей отправьте задачу в ServiceNow.
 

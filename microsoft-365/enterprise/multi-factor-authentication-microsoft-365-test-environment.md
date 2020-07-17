@@ -99,7 +99,7 @@ ms.locfileid: "44819380"
     
 7. На странице **Шаг 3: сохраните существующие приложения** нажмите кнопку **Готово**.
     
-8. If this is the first time you signed in with the User 2 account, you are prompted to change the password. Type the original password and a new password twice, and then click **Update password and sign in**. Record the new password in a secure location.
+8. При первом входе в учетную запись User 2 вам будет предложено изменить пароль. Введите исходный пароль и новый пароль дважды и нажмите **Обновить пароль и войти**. Запишите новый пароль в надежном месте.
     
     Вы должны увидеть портал Office для пользователя 2 на вкладке **Microsoft Office Главная** в браузере.
 

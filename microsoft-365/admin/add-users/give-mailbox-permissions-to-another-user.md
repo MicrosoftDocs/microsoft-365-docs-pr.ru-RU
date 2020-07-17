@@ -37,11 +37,11 @@ ms.locfileid: "44780605"
     
 ## <a name="looking-to-set-up-mailbox-permissions"></a>Хотите настроить разрешения для почтового ящика?
 
-Mailbox permissions allow you to give read/write access to a mailbox to another user. The articles below might give you the help you need to set up and use this feature:
+Разрешения для почтового ящика позволяют предоставить другому пользователю доступ на чтение и запись к почтовому ящику. В перечисленных ниже статьях вы найдете инструкции по настройке и использованию этой функции:
   
  **Настройка разрешений**:
   
-The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read emails from the mailbox, send emails on behalf of another user, and send emails as if they were sent from that mailbox. Refer to the following articles on how to set up each type of permissions:
+перед предоставлением разрешений нужно решить, какие действия другие пользователи смогут выполнять в определенном почтовом ящике. Вы можете разрешить им читать сообщения, отправлять письма от имени другого пользователя или отправлять сообщения с адреса этого почтового ящика. Сведения о том, как настроить разрешения таких типов, см. в следующих статьях:
   
 - [Чтение сообщений электронной почты из почтового ящика другого пользователя](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
@@ -55,7 +55,7 @@ The first step to setting up permissions is deciding which actions you want to a
   
  **Использование почтового ящика после настройки разрешений**:
   
-There are a few different ways you can access a mailbox once you've been given access. For help on this, refer to this article: [Access another person's mailbox](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
+после предоставления доступа в почтовый ящик можно будет входить несколькими способами. Дополнительные сведения см. в следующей статье: [Доступ к почтовому ящику другого пользователя](https://support.microsoft.com/office/A909AD30-E413-40B5-A487-0EA70B763081)
   
 ## <a name="send-email-from-another-users-mailbox"></a>Отправка почты из почтового ящика другого пользователя
 
@@ -200,7 +200,7 @@ There are a few different ways you can access a mailbox once you've been given a
 ## <a name="send-and-read-from-outlook-and-outlook-on-the-web-for-business"></a>Отправка и чтение почты в Outlook и Outlook в Интернете для бизнеса
 
 
-Want to know how to send email from another user's mailbox? Check out the following topics:
+Хотите узнать, как отправлять почту из почтового ящика другого пользователя? Ознакомьтесь со следующими разделами:
   
 - [Управление элементами почты и календаря другого пользователя](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
     

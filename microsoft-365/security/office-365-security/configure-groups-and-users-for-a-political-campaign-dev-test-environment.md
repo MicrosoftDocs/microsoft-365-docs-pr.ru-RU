@@ -45,7 +45,7 @@ ms.locfileid: "44755276"
 
 3. На вкладке **Центр администрирования Microsoft 365** в браузере, в области навигации слева, щелкните **Выставление счетов > Приобретение служб**.
 
-4. On the **Purchase services** page, find the **Enterprise Mobility + Security E5** item. Hover your mouse pointer over it and click **Start free trial**.
+4. На странице **Приобретение служб** найдите элемент **Enterprise Mobility + Security E5**. Наведите на него указатель мыши и выберите **Начать бесплатный пробный период**.
 
 5. На странице **Подтверждение заказа** нажмите кнопку **Попробовать**.
 
@@ -65,7 +65,7 @@ ms.locfileid: "44755276"
 
 Сначала создайте набор групп для обычной политической кампании на портале Azure.
 
-1. On a separate tab in your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
+1. Откройте портал Azure ([https://portal.azure.com](https://portal.azure.com)) на отдельной вкладке браузера. Если необходимо, выполните вход, используя данные учетной записи глобального администратора для пробной подписки на Office 365 E5.
 
 2. На портале Azure последовательно выберите **Azure Active Directory > Пользователи и группы > Все группы**.
 
@@ -166,7 +166,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 ```
 
 > [!IMPORTANT]
-> The use of a common password here is for automation and ease of configuration for a dev/test environment. This is not recommended for production subscriptions. As you sign in with each of these new user accounts, you will be prompted to change the password.
+> Общий пароль используется для автоматизации и упрощения настройки среды разработки и тестирования. Не рекомендуется для рабочих подписок. При входе в каждую из этих новых учетных записей пользователя вам будут показаны запросы на изменение пароля.
 
 Чтобы проверить динамическое членство в группах и групповое лицензирование:
 

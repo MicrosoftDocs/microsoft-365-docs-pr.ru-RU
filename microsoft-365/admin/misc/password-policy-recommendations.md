@@ -28,7 +28,7 @@ ms.locfileid: "45015927"
 ---
 # <a name="password-policy-recommendations"></a>Рекомендации политики паролей
  
-As the admin of an organization, you're responsible for setting password policy for users in your organization. Setting password policy can be complicated and confusing, and this article provides recommendations to make your organization more secure against password attacks.
+Одной из обязанностей администратора организации является настройка политики паролей для пользователей. Это непростой процесс, но в этой статье вы найдете рекомендации, которые помогут защитить пароли вашей организации от атак.
   
 Сведения о настройке строка действия паролей Microsoft 365 в организации, см. в статье [Настройка политики срока действия паролей для Microsoft 365](../manage/set-password-expiration-policy.md).
 
@@ -40,17 +40,17 @@ As the admin of an organization, you're responsible for setting password policy 
   
 - **Предотвращение распространенных атак.** Этот принцип предполагает ограничение того, где пользователи могут вводить пароли (известные и надежные устройства с надежными средствами обнаружения вредоносных программ, проверенные сайты) и какие пароли можно использовать (длина и уникальность).
 
-- **Containing successful attacks** Containing successful hacker attacks is about limiting exposure to a specific service, or preventing that damage altogether, if a user's password gets stolen. For example, ensuring that a breach of your social networking credentials doesn't make your bank account vulnerable, or not letting a poorly guarded account accept reset links for an important account.
+- **Сдерживание успешных атак.** Если пароль пользователя будет украден, необходимо минимизировать негативные последствия для определенной службы или полностью предотвратить ущерб. Например, важно использовать такие пароли, чтобы разглашение учетных данных социальной сети не делало уязвимым банковский счет, а на плохо защищенную учетную запись не приходили ссылки для сброса пароля от важной учетной записи.
 
-- **Understanding human nature** Many valid password practices fail in the face of natural human behaviors. Understanding human nature is critical because research shows that almost every rule you impose on your users will result in a weakening of password quality. Length requirements, special character requirements, and password change requirements all result in normalization of passwords, which makes it easier for attackers to guess or crack passwords.
+- **Понимание человеческой природы.** Многие разумные рекомендации не дают никакого результата из-за естественного человеческого поведения. Важно понимать психологию пользователей, так как исследования показывают, что практически все вводимые правила приводят к снижению качества паролей. Требования к длине, наличию специальных знаков и частоте изменения паролей приводят к их стандартизации и упрощают их угадывание или взлом.
 
 ## <a name="password-guidelines-for-administrators"></a>Рекомендации по выбору паролей для администраторов
 
-The primary goal of a more secure password system is password diversity. You want your password policy to contain lots of different and hard to guess passwords. Here are a few recommendations for keeping your organization as secure as possible.
+Самый важный шаг к защите паролей — обеспечение их разнообразия. Политика должна позволять создавать множество разных паролей, которые сложно отгадать. Ниже приведено несколько рекомендации, которые помогут защитить организацию.
   
 - Не увеличивайте минимальную длину паролей (8 символов). Больше не значит лучше.
 
-- Don't require character composition requirements. For example, \*&amp;(^%$
+- Не требуйте использовать определенные группы символов, например \*&amp;(^%$.
 
 - Не требуйте регулярной смены паролей для учетных записей пользователей.
 
@@ -64,7 +64,7 @@ The primary goal of a more secure password system is password diversity. You wan
 
 ### <a name="password-guidance-for-your-users"></a>Рекомендации для пользователей по выбору паролей
 
-Here's some password guidance for users in your organization. Make sure to let your users know about these recommendations and enforce the recommended password policies at the organizational level.
+Ниже приведены рекомендации для сотрудников вашей организации. Ознакомьте их с ними и примените рекомендуемые политики паролей на уровне организации.
   
 - Не используйте такие же пароли, как на других сайтах, или аналогичные им.
 
@@ -78,15 +78,15 @@ Here's some password guidance for users in your organization. Make sure to let y
   
 ### <a name="password-expiration-requirements-for-users"></a>Требования к окончанию срока действия паролей
 
-Password expiration requirements do more harm than good, because these requirements make users select predictable passwords, composed of sequential words and numbers which are closely related to each other. In these cases, the next password can be predicted based on the previous password. Password expiration requirements offer no containment benefits because cyber criminals almost always use credentials as soon as they compromise them.
+Требования сменить пароль приносят больше вреда, чем пользы, так как из-за них пользователи выбирают предсказуемые пароли, состоящие из последовательных слов и чисел, которые близко связаны друг с другом. В таких случаях следующий пароль можно легко угадать на основе предыдущего. Требования к окончанию срока действия паролей не сдерживают атаки, так как злоумышленники почти всегда используют учетные данные сразу после их взлома.
   
 ### <a name="requiring-long-passwords"></a>Требование длинных паролей
 
-Password length requirements (greater than about 10 characters) can result in user behavior that is predictable and undesirable. For example, users who are required to have a 16-character password may choose repeating patterns like **fourfourfourfour** or **passwordpassword** that meet the character length requirement but aren't hard to guess. Additionally, length requirements increase the chances that users will adopt other insecure practices, such as writing their passwords down, re-using them, or storing them unencrypted in their documents. To encourage users to think about a unique password, we recommend keeping a reasonable 8-character minimum length requirement. 
+Требование паролей длинной больше 10 знаков может привести к предсказуемым и нежелательным действиям пользователей. Например, если пароль должен быть 16-значным, пользователи могут повторять в паролях слова, например **fourfourfourfour** или **passwordpassword**, из-за чего их нетрудно угадать. Кроме того, требования к длине пароля повышают вероятность других небезопасных действий. Так, пользователи могут записывать пароли, повторно использовать их или хранить их в незашифрованном виде в своих документах. Чтобы пользователям было проще придумывать уникальные пароли, рекомендуем использовать разумную минимальную длину (8 символов). 
   
 ### <a name="requiring-the-use-of-multiple-character-sets"></a>Требование использования нескольких типов символов
 
-Password complexity requirements reduce key space and cause users to act in predictable ways, doing more harm than good. Most systems enforce some level of password complexity requirements. For example, passwords need characters from all three of the following categories:
+Требования к сложности приносят больше вреда, чем пользы, так как из-за них пользователи часто действуют предсказуемо. В большинстве систем есть определенные требования к сложности паролей. Например, пароли должны содержать знаки из всех трех категорий:
   
 - прописные буквы;
 
@@ -94,7 +94,7 @@ Password complexity requirements reduce key space and cause users to act in pred
 
 - небуквенные символы.
 
-Most people use similar patterns, for example, a capital letter in the first position, a symbol in the last, and a number in the last 2. Cyber criminals know this, so they run their dictionary attacks using the most common substitutions, "$" for "s", "@" for "a," "1" for "l". Forcing your users to choose a combination of upper, lower, digits, special characters has a negative effect. Some complexity requirements even prevent users from using secure and memorable passwords, and force them into coming up with less secure and less memorable passwords.
+Большинство людей создают пароли аналогичным образом: начинают их с большой буквы и заканчивают их символом, перед которым стоит число. Киберпреступники знают это, поэтому при атаках перебором по словарю они используют самые популярные замены, например $ вместо s, @ вместо a и 1 вместо l. Если заставить сотрудников использовать в паролях буквы в верхнем и нижнем регистре, цифры и специальные символы, это отрицательно повлияет на безопасность. Некоторые требования к сложности вообще делают невозможным использование надежных и запоминающихся паролей.
   
 ## <a name="successful-patterns"></a>Рекомендации
 
@@ -102,15 +102,15 @@ Most people use similar patterns, for example, a capital letter in the first pos
   
 ### <a name="ban-common-passwords"></a>Запретите распространенные пароли
 
-The most important password requirement you should put on your users when creating passwords is to ban the use of common passwords to reduce your organization's susceptibility to brute force password attacks. Common user passwords include, **abdcefg**, **password**, **monkey**.
+Самое важное, что следует сделать,  это запретить использование распространенных паролей, чтобы снизить уязвимость организации для атак методом перебора. Такими паролями считаются, например, **abdcefg**, **password**, **monkey**.
   
 ### <a name="educate-users-to-not-re-use-organization-passwords-anywhere-else"></a>Попросите сотрудников не использовать пароли организации для других целей
 
-One of the most important messages to get across to users in your organization is to not re-use their organization password anywhere else. The use of organization passwords in external websites greatly increases the likelihood that cyber criminals will compromise these passwords.
+До сотрудников важно донести то, что пароли, используемые в организации, нельзя применять для других целей. Использование паролей организации на внешних сайтах значительно повышает вероятность их взлома.
   
 ### <a name="enforce-multi-factor-authentication-registration"></a>Принудительно применяйте многофакторную проверку подлинности
 
-Make sure your users update contact and security information, like an alternate email address, phone number, or a device registered for push notifications, so they can respond to security challenges and be notified of security events. Updated contact and security information helps users verify their identity if they ever forget their password, or if someone else tries to take over their account. It also provides an out of band notification channel in the case of security events such as login attempts or changed passwords. 
+Убедитесь, что пользователи обновили свои контактные данные и сведения для обеспечения безопасности, такие как запасной адрес электронной почты, номер телефона или устройство, зарегистрированное для получения push-уведомлений, чтобы они могли отвечать на запросы защиты и получать уведомления о событиях, касающихся безопасности. Это позволит им подтвердить свою личность, если они когда-нибудь забудут свой пароль или если кто-то попытается воспользоваться их учетной записью. Кроме того, наличие таких сведений позволяет использовать альтернативный канал для получения уведомлений о таких событиях, как попытки входа или изменение пароля. 
   
 Дополнительные сведения см. в статье [Настройка многофакторной проверки подлинности](../security-and-compliance/set-up-multi-factor-authentication.md).
   

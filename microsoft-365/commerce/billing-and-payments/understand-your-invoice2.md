@@ -36,7 +36,7 @@ ms.locfileid: "44909268"
 
 Ежемесячно или ежегодно (в зависимости от выбранного варианта, когда вы приобрели подписку), вы получите электронное письмо с сообщением о том, что новая выписка выставления счетов доступна в центре администрирования. [Узнайте, как найти и просмотреть свой счет или выписку по счету.](view-your-bill-or-invoice.md)
   
-Your invoice contains two pages. Page 1 is the invoice summary, and contains general information about the invoice, order, amount due, how to make a payment, and how to contact support.
+Счет содержит две страницы. Страница 1 включает общие сведения о счете, заказе, сумме к оплате, способах платежа и способах обращения в службу поддержки.
   
 ![Page 1 of a sample invoice.](../../media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
   
@@ -62,7 +62,7 @@ Your invoice contains two pages. Page 1 is the invoice summary, and contains gen
   
 ## <a name="invoice-field-glossary"></a>Глоссарий полей счета
 
-The following table describes the fields you might see on your invoice. Some fields listed here might not appear in your invoice, depending on whether you pay by invoice or by credit card or bank account.
+В приведенной ниже таблице описаны поля счета. Некоторые из них могут отсутствовать в счете (это зависит от выбранного способа оплаты - с помощью счета либо кредитной картой или банковским переводом).
   
 > [!NOTE]
 > Оплата с помощью банковского счета недоступна в некоторых странах или регионах.
@@ -70,30 +70,30 @@ The following table describes the fields you might see on your invoice. Some fie
 |**Имя**|**Описание**|
 |:-----|:-----|
 |Годовая стоимость|Плата за подписки взимается ежемесячно или ежегодно. Если во время приобретения подписки вы выбрали ежегодное выставление счета, в счете будет отражена годовая цена лицензии. Если вы хотите изменить периодичность выставления счетов, нужно отменить подписку и повторно приобрести ее, выбрав новую периодичность.|
-|Расчетный период|Billing Period is the time period since the last invoice date. Service Period is the time period during which you are charged to use the service.|
+|Расчетный период|Расчетным периодом называется период времени с даты выставления последнего счета. Периодом обслуживания называется период времени, в течение которого с вас взимается плата за использование службы.|
 |Адрес плательщика|Это адрес Отдела выставления счетов, который обычно совпадает с адресом, на который продается. Чтобы обновить адрес для выставления счетов, ознакомьтесь со статьей [изменение адресов для выставления счетов](change-your-billing-addresses.md).|
-|Отчисления|Page 1 of your invoice summarizes all charges for the invoice Billing Period. Page 2 shows the detailed charges for each subscription.|
-|Чек|If you pay by invoice and check payment is offered in your country, the bottom of page 1 includes information about where to send your payment. Please reference the invoice number on your check.|
-|Кредиты|Page 1 of your invoice summarizes all credits for the invoice Billing Period. Page 2 shows the detailed credits for each subscription.|
-|Номер заказа на покупку клиента|Your Purchase Order (PO) number. If you update the PO number, future invoices will include it. [Change your purchase order number](#change-your-purchase-order-number). <br/> **Note (Примечание** ) Вы не можете добавить номер заказа на покупку к существующей накладной.           |
-|Дни|Each billing transaction is associated with a Service Period. The Days column indicates the number of days in that service period.|
-|Скидки|Page 1 of your invoice summarizes all discounts for the invoice Billing Period. Page 2 shows the detailed discounts for each subscription.|
-|Срок|The date when payment is due for the invoice. If your subscription is paid with a credit card or bank account, we will charge your credit card or banking account the day after the Invoice Date. <br/> **Note (Примечание** ) Оплата по банковскому счету недоступна в некоторых странах или регионах.           |
+|Отчисления|На странице 1 счета перечислены все отчисления за его расчетный период. На странице 2 приведен подробный перечень отчислений для каждой подписки.|
+|Чек|Если вы платите по счету, а в вашей стране возможна оплата чеком, внизу страницы 1 приводятся инструкции по отправке платежа. Укажите номер счета в чеке.|
+|Кредиты|На странице 1 счета перечислены все кредиты за его расчетный период. На странице 2 приведен подробный перечень кредитов для каждой подписки.|
+|Номер заказа на покупку клиента|Ваш номер заказа на покупку. Если его обновить, это изменение отразится в новых накладных. [Изменение номера заказа на покупку](#change-your-purchase-order-number)<br/> **Note (Примечание** ) Вы не можете добавить номер заказа на покупку к существующей накладной.           |
+|Дни|Каждая транзакция выставления счетов сопоставляется с периодом обслуживания. В столбце "Дни" указано количество дней в этом периоде.|
+|Скидки|На странице 1 счета перечислены все скидки за его расчетный период. На странице 2 приведен подробный перечень скидок для каждой подписки.|
+|Срок|Дата, до которой нужно оплатить счет. Если вы оплачиваете подписку кредитной картой или банковским переводом, с них будет списана плата на следующий день после выставления счета.<br/> **Note (Примечание** ) Оплата по банковскому счету недоступна в некоторых странах или регионах.           |
 |Электронный платеж|Если в качестве способа оплаты по подписке выбран параметр "счет", страница 1 содержит сведения о банковском счете Майкрософт для оплаты электронных (проводных, Ач, SEPA и т. д.). Как правило, в вашем банке будет составляться Справочное поле, которое вы заполните при отправке платежа. Составьте ссылку на номер счета, показанный в этом поле.|
 |Общий итог|В этой строке указаны итоги по столбцам "Отчисления", "Скидки", "Кредиты", "Промежуточный итог", "Налог" и "Итого" для всех подписок в счете.|
-|Дата выставления счета|The date the invoice was created. The invoice date is the day after the end of your Billing Period. For example, if your Billing Period is Jan 15 - Feb 14, your Invoice Date is Feb 15.|
-|Номер счета|The unique number assigned to your invoice. Please reference the Invoice Number with your payment.|
+|Дата выставления счета|Дата создания счета. Датой выставления счета является день после окончания расчетного периода. Например, если расчетный период  с 15 января по 14 февраля, то датой выставления счета будет 15 февраля.|
+|Номер счета|Уникальный номер, присвоенный счету. Указывайте его при платеже.|
 |Месячная стоимость|Плата за подписки взимается ежемесячно или ежегодно. Если вы выбрали ежемесячное выставление счетов во время приобретения подписки, в счете будет отражена месячная цена лицензии. Если вы хотите изменить периодичность выставления счетов, нужно отменить подписку и повторно приобрести ее, выбрав новую периодичность.|
-|Номер заказа|Every time you buy a new subscription, an order is created. Every month, you'll receive an invoice for each order.|
-|Инструкции по оплате|If you pay by credit card, you'll see "Do not pay - charged to credit card on file." If you pay by invoice, you'll see instructions for paying by Electronic Funds Transfer (EFT) and check (if applicable).|
-|Условия оплаты|The number of days from the Invoice Date when payment is due. The standard is 30 days.|
-|Продукт|On page 1 of your invoice, "Online Services" is the generic term used to describe your subscriptions. On page 2 , you'll see the individual subscription names.|
+|Номер заказа|При каждом приобретении новой подписки создается заказ. Вы будете ежемесячно получать счета для каждого заказа.|
+|Инструкции по оплате|Если вы производите оплату с помощью кредитной карты, здесь будет указано "Не оплачивайте счета, выставленные на зарегистрированную кредитную карту". Если вы платите по счету, в этом поле будут приведены инструкции по оплате с помощью электронного платежа и чека (если применимо).|
+|Условия оплаты|Количество дней от даты выставления счета, в течение которого нужно его оплатить. По умолчанию равняется 30 дням.|
+|Продукт|На странице 1 для описания ваших подписок используется общий термин "Веб-службы". На странице 2 указываются имена отдельных подписок.|
 |Кол-во|Число лицензий, приобретенных за период обслуживания.|
-|Период обслуживания|Service Period is the time period during which you are charged to use the service. A Billing Period is the time period since the last invoice date.|
+|Период обслуживания|Периодом обслуживания называется период времени, в течение которого с вас взимается плата за использование службы. Расчетным периодом называется период времени с даты выставления последнего счета.|
 |Адрес использования службы|Адрес, по которому используется служба, обычно такой же, как и адрес проданной Организации. Чтобы обновить адрес использования службы, ознакомьтесь со статьей [изменение адресов для выставления счетов](change-your-billing-addresses.md).|
-|Покупатель|Your company name and address. To update this information, see [Change your organization's address, technical contact email, and other information](../../admin/manage/change-address-contact-and-more.md).|
+|Покупатель|Название и адрес организации. Сведения о том, как изменить эти данные, см. в статье [Изменение адреса организации и других данных профиля](../../admin/manage/change-address-contact-and-more.md).  |
 |Промежуточные|Данные для каждой подписки в счете указаны на отдельной строке в столбцах "Отчисления", "Скидки", "Кредиты", "Промежуточный итог", "Налог" и "Итого".|
-|Налог|Page 1 of your invoice shows the total tax. Page 2 shows the tax rate applied, and the total tax amount for each line item. If your invoice contains taxes and your company is tax exempt, please [contact support](../../admin/contact-support-for-business-products.md).|
+|Налог|На странице 1 счета указана общая сумма налога. На странице 2 указана применимая ставка налога, а также общая сумма налога для каждой позиции. Если счет содержит налоги, но ваша организация освобождена от их уплаты, [обратитесь в службу поддержки](../../admin/contact-support-for-business-products.md).  |
 |Итого|Сумма к оплате по счету за расчетный период.|
 
 ## <a name="change-your-purchase-order-number"></a>Изменение номера заказа на покупку
@@ -101,7 +101,7 @@ The following table describes the fields you might see on your invoice. Some fie
 Если вы платите по счету, то можете добавить или изменить номер заказа на покупку для своей подписки.
   
 > [!NOTE]
-> You can't add a PO number to an existing invoice. The PO number will appear on all future invoices.
+> Номер заказа на покупку нельзя добавить в существующий счет. Номер заказа на покупку будет отображаться во всех последующих счетах.
 
 ::: moniker range="o365-worldwide"
 

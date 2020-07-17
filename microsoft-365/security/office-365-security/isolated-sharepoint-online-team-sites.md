@@ -29,9 +29,9 @@ ms.locfileid: "44819537"
 
  **Сводка.** Сведения о том, как использовать изолированные сайты групп SharePoint Online.
   
-SharePoint Online team sites are an easy way to quickly create a space for collaboration of notes, documents, articles, a calendar, and other resources in Microsoft Office 365. SharePoint Online team sites are based on a Microsoft 365 group and have a simplified administration model to allow open collaboration with a private set of group members or the entire organization. A default SharePoint Online team site allows members of the Microsoft 365 group to invite other users and control permissions settings.
+Сайты групп SharePoint Online позволяют быстро создать пространство для совместной работы над заметками, статьями и документами. Кроме того, вы получаете доступ к календарю и другим ресурсам Microsoft Office 365. В основе сайтов групп SharePoint Online лежит группа Microsoft 365 и упрощенная модель администрирования, позволяющая организовать совместную работу как отдельных участников группы, так и всех сотрудников организации. Сайт группы SharePoint Online, используемый по умолчанию, позволяет участникам группы Microsoft 365 приглашать других пользователей и настраивать разрешения.
   
-However, in some cases, you want to create a SharePoint Online team site for collaboration where the permissions of that site are more tightly controlled through group membership and SharePoint Online permission levels, which are only managed by SharePoint administrators. We call this an isolated site, which is isolated to the set of users that are either collaborating, viewing its contents, or administering the site. You might need an isolated site for the following:
+Но в некоторых случаях необходимо создать такой сайт группы SharePoint Online для совместной работы, над разрешениями для которого ведется более строгий контроль. Он возможен благодаря настройке членства в группе и уровней разрешений в SharePoint Online, которыми управляют только администраторы SharePoint. Такой сайт называется изолированным. Доступ к нему получает ограниченный круг пользователей, которые могут совместно работать над документами, просматривать содержимое сайта или выполнять роль администраторов. Изолированный сайт предназначен для:
   
 - размещения секретного проекта внутри организации;
     
@@ -47,9 +47,9 @@ However, in some cases, you want to create a SharePoint Online team site for col
     
 - Участники сайта не могут приглашать других членов на сайт группы.
     
-- Users who are not members of the isolated site cannot request access to the site. They will receive an access denied web page when they attempt to access any URL associated with the site.
+- Пользователи, не являющиеся участниками изолированного сайта, не могут запрашивать доступ к сайту. При попытке доступа к любому URL-адресу, связанному с этим сайтом, отображается веб-страница "Отказано в доступе".
     
-The tradeoff of requiring centralized access control and custom permissions by SharePoint Online administrators is that the site remains isolated over time. For example, current members cannot, either intentionally or accidentally, invite or configure custom permissions for other users within the Microsoft 365 subscription who should not be members of the site.
+Обязательное централизованное управление доступом и назначение пользовательских разрешений администраторами SharePoint Online приводит к тому, что сайт остается изолированным все время. Например, существующие участники группы не могут ни намеренно, ни случайно пригласить других пользователей, имеющих подписку Microsoft 365, но не являющихся участниками сайта, или настроить для них пользовательские разрешения.
   
 Доступны также другие функции изолированного сайта, например:
   

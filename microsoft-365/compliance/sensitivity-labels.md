@@ -31,7 +31,7 @@ ms.locfileid: "44936798"
 
 >*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
-To get their work done, people in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall—it can roam everywhere, across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies.
+Для выполнения задач пользователи совместно работают с другими людьми внутри и вне организации. Это означает, что контент покидает границы брандмауэра — он может перемещаться куда угодно на устройствах, в приложениях и службах. Необходимо, что его перемещение было безопасным и защищенным в согласии с бизнес-политикой и политикой соответствия требованиям вашей организации.
 
 Метки конфиденциальности с платформы Microsoft Information Protection позволяют классифицировать и защищать данные вашей организации, при этом следя за тем, чтобы не пострадали производительность пользователей и их способность к сотрудничеству.
 
@@ -48,7 +48,7 @@ To get their work done, people in your organization collaborate with others both
 
 Вы можете использовать метки конфиденциальности для указанных ниже целей.
   
-- **Enforce protection settings such as encryption or watermarks on labeled content.** For example, your users can apply a Confidential label to a document or email, and that label can encrypt the content and apply a Confidential watermark.
+- **Применять параметры защиты, такие как шифрование или подложки для контента с метками.** Например, пользователи могут применять метку "Конфиденциально" к документу или электронному сообщению, и эта метка может зашифровать контент и применить подложку "Конфиденциально".
 
 - **Защита контента в приложениях Office на различных платформах и устройствах.** Список поддерживаемых приложений см. в статье [Использование меток конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md).
 
@@ -64,7 +64,7 @@ To get their work done, people in your organization collaborate with others both
 
 Метка конфиденциальности, назначенная документу или электронному сообщению, похожа на печать, примененную к контенту, со следующими свойствами:
 
-- **Customizable.** You can create categories for different levels of sensitive content in your organization, such as Personal, Public, General, Confidential, and Highly Confidential.
+- **Настраиваемость.** Можно создавать категории для разных уровней конфиденциального контента в вашей организации, например личного, общедоступного, общего, конфиденциально и строго конфиденциального.
 
 - **Обычный текст.** Так как метка сохранена в метаданных контента в виде обычного текста, сторонние приложения и службы могут считывать ее и применять собственные защитные действия при необходимости.
 
@@ -72,7 +72,7 @@ To get their work done, people in your organization collaborate with others both
 
 В приложениях Office метка конфиденциальности отображается для пользователей как тег в сообщении электронной почты или документе.
 
-Each item of content can have a single sensitivity label applied to it. An item can have both a single sensitivity label and a single [retention label](labels.md) applied to it.
+К каждому элементу контента может применяться одна метка конфиденциальности. К элементу может быть применена одна метка конфиденциальности и одна [метка хранения](labels.md) одновременно.
 
 > [!div class="mx-imgBorder"]
 > ![Метка конфиденциальности, примененная к сообщению электронной почты](../media/Sensitivity-label-on-email.png)

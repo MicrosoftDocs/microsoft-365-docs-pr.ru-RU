@@ -31,7 +31,7 @@ ms.locfileid: "44818058"
   
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>Основные этапы создания словаря ключевых слов
 
-The keywords for your dictionary could come from a variety of sources, most commonly from a file (such as a .csv or .txt list) imported in the service or by PowerShell cmdlet, from a list you enter directly in the PowerShell cmdlet, or from an existing dictionary. When you create a keyword dictionary, you follow the same core steps:
+Ключевые слова можно брать из различных источников, наиболее распространенными из которых являются файлы (например, списки в формате CSV или TXT), импортированные в службу или добавленные с помощью командлета PowerShell, списки, вводимые непосредственно в командлете PowerShell, и имеющиеся словари. При создании словаря ключевых слов всегда используются одни и те же основные действия:
   
 1. Используйте **Центр безопасности & соответствия требованиям** ( [https://protection.office.com](https://protection.office.com) ) или подключитесь **к &amp; PowerShell центра соответствия требованиям безопасности**.
     
@@ -69,11 +69,11 @@ The keywords for your dictionary could come from a variety of sources, most comm
     
 ## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>Создание словаря ключевых слов из файла с помощью PowerShell
 
-Often when you need to create a large dictionary, it's to use keywords from a file or a list exported from some other source. In this case, you'll create a keyword dictionary containing a list of inappropriate language to screen in external email. You must first [connect to Security &amp; Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
+Часто при создании большого словаря необходимо использовать ключевые слова из файла или списка, экспортированного из другого источника. В этом случае вы создадите словарь ключевых слов, содержащий список неуместного языка для внешнего сообщения. Сначала необходимо [подключиться к &amp; PowerShell центра соответствия требованиям безопасности](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
   
 1. Скопируйте ключевые слова в текстовый файл и убедитесь, что каждое ключевое слово находится на отдельной строке.
     
-2. Save the text file with Unicode encoding. In Notepad \> **Save As** \> **Encoding** \> **Unicode**.
+2. Сохраните текст с кодировкой Юникода. В Блокноте выберите пункты **Сохранить как** \> **Кодировка** \> **Юникод**.
     
 3. Считайте файл в переменную с помощью следующего командлета:
     
@@ -107,11 +107,11 @@ $dict = Get-DlpKeywordDictionary -Name "Diseases"
 $terms = $dict.KeywordDictionary.split(',').trim()
 ```
 
-Now you'll remove some terms from the dictionary. Because the example dictionary has only a few keywords, you could just as easily skip to exporting the dictionary and editing it in Notepad, but dictionaries generally contain a large amount of text, so you'll first learn this way to edit them easily in PowerShell.
+Теперь мы удалим некоторые термины из словаря. Так как наш словарь содержит лишь несколько ключевых слов, можно просто перейти к экспорту словаря и его редактированию в Блокноте. Однако словари обычно содержат большое количество текста, поэтому сначала следует научиться редактировать их в PowerShell.
   
-In the last step, you saved the keywords to an array. There are several ways to [remove items from an array](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10)), but as a straightforward approach, you'll create an array of the terms you want to remove from the dictionary, and then copy only the dictionary terms to it that aren't in the list of terms to remove.
+На предыдущем этапе мы сохранили ключевые слова в массив. Существует несколько способов [удаления элементов из массива](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-powershell-1.0/ee692802(v=technet.10)), но для простоты мы создадим массив терминов, которые требуется удалить из словаря, а затем скопируем из словаря только те термины, которых нет в этом списке.
   
-Run the command  `$terms` to show the current list of terms. The output of the command looks like this: 
+Выполните команду `$terms`, чтобы вывести текущий список терминов. Выходные данные этой команды выглядят так: 
   
 `aarskog's syndrome`
 `abandonment`
@@ -144,7 +144,7 @@ $termsToRemove = @('abandonment', 'ablatio')
 $updatedTerms = $terms | Where-Object{ $_ -notin $termsToRemove }
 ```
 
-Run the command  `$updatedTerms` to show the updated list of terms. The output of the command looks like this (the specified terms have been removed): 
+Выполните команду `$updatedTerms`, чтобы вывести обновленный список элементов. Выходные данные команды выглядят так (указанные термины были удалены): 
   
 `aarskog's syndrome`
 `abasia`
@@ -172,13 +172,13 @@ Save the dictionary locally by running the following:
 Set-Content $updatedTerms -Path "C:\myPath\terms.txt"
 ```
 
-Now simply open the file, add your additional terms, and save with Unicode encoding (UTF-16). Now you'll upload the updated terms and update the dictionary in place.
+Теперь просто откройте файл, добавьте нужные термины и сохраните его в кодировке Юникода (UTF-16). Затем мы отправим обновленные термины и обновим словарь на месте.
   
 ```powershell
 PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "C:myPath\terms.txt" -Encoding Byte -ReadCount 0)
 ```
 
-Now the dictionary has been updated in place. Note that the  `Identity` field takes the name of the dictionary. If you wanted to also change the name of your dictionary using the  `set-` cmdlet, you would just need to add the  `-Name` parameter to what's above with your new dictionary name. 
+Теперь словарь был обновлен на месте. Обратите внимание, что поле `Identity` принимает имя словаря. Если требуется изменить имя словаря, можно просто добавить в приведенный выше командлет `set-` параметр `-Name` с новым именем. 
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>Использование словарей ключевых слов в типах конфиденциальной информации и политиках защиты от потери данных
 
@@ -210,7 +210,7 @@ Get-DlpKeywordDictionary -Name "Diseases"
 `ObjectState       : Unchanged`
 
 
-Paste the identity into your custom sensitive information type's XML and upload it. Now your dictionary will appear in your list of sensitive information types and you can use it right in your policy, specifying how many keywords are required to match.
+Вставьте идентификатор в XML-код вашего типа конфиденциальной информации и отправьте код. Словарь появится в списке типов конфиденциальной информации, и вы сможете использовать его непосредственно в политике, указав, сколько ключевых слов требуется для совпадения.
   
 ```xml
 <Entity id="d333c6c2-5f4c-4131-9433-db3ef72a89e8" patternsProximity="300" recommendedConfidence="85">

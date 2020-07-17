@@ -51,7 +51,7 @@ ms.locfileid: "44818535"
 
 Если пользователь переключается из подписки с SharePoint Online на ту, у которой она нет, плитка **SharePoint** больше не будет отображаться в меню Microsoft 365.
   
-However, as long as the new subscription is within the same organization as the one they are switched from, users will still be able to access the SharePoint team site. They can view and update notebooks, documents, tasks, and calendars by using the direct URL to the team site.
+Однако поскольку обе подписки относятся к одной и той же организации, у пользователя по-прежнему будет доступ к сайту группы SharePoint. Он сможет просматривать и обновлять записные книжки, документы, задачи и календари, переходя на сайт группы непосредственно по URL-адресу.
   
 > [!TIP]
 > Мы рекомендуем пользователям перейти на сайт группы до смены подписки и сохранить его URL-адрес как избранный элемент или закладку в браузере.

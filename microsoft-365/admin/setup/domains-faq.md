@@ -82,7 +82,7 @@ ms.locfileid: "45068107"
 
 ## <a name="what-is-a-domain-name"></a>Что такое доменное имя?
 
-A domain is a unique name that appears after the **@** sign in email addresses, and after **www.** in web addresses. It typically takes the form of your organization's name and a standard Internet suffix, such as  *yourbusiness.com*  or  *stateuniversity.edu.* 
+Домен  это уникальное имя, которое указано после символа **@** в адресах электронной почты и после **www.** в веб-адресах. Как правило, за основу берется название вашей организации, к которому добавляется стандартный суффикс, например  *vasha_kompaniya.com*  или  *universitet.edu*  . 
   
 Использование собственного домена, например "**роб \@ contoso.com**" с Microsoft 365, поможет вам создавать сведения о доходе и распознавание для вашей фирменной символики. 
   
@@ -207,7 +207,7 @@ Microsoft 365 создает домен, например *contoso.onmicrosoft.c
     
 - **Домен onmicrosoft невозможно удалить.** Microsoft 365 необходимо обойти, так как она используется в фоновом режиме для вашей подписки. Несмотря на это, вы можете им не пользоваться, если добавите личный домен. 
     
-You can keep using the initial onmicrosoft.com domain even after you add your domain. It still works for email and other services, so it's your choice.
+При желании можно продолжить использование исходного домена onmicrosoft.com даже после добавления личного домена. Он будет поддерживаться в электронной почте и других службах.
   
 ::: moniker-end
 

@@ -93,7 +93,7 @@ ms.locfileid: "45079717"
 
 3. Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **Внимание!** Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там. 
     
     Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.
   
@@ -103,7 +103,7 @@ ms.locfileid: "45079717"
  
   - Это изменение может занять некоторое время.
   
-  - Their new username. They'll need it to sign in to Microsoft 365.
+  - Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.
     
   - Если он пользуется Skype для бизнеса online, ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.
 
@@ -121,7 +121,7 @@ ms.locfileid: "45079717"
 
 3. Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **Внимание!** Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там. 
     
     Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.
   
@@ -131,7 +131,7 @@ ms.locfileid: "45079717"
  
   - Для вступления в силу этого изменения может потребоваться время.
   
-  - What their new username is. They'll need it to sign in to Microsoft 365.
+  - Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.
     
   - Если он пользуется Skype для бизнеса online, сообщите, что ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.
 
@@ -149,7 +149,7 @@ ms.locfileid: "45079717"
 
 3. Выберите параметр **Сделать основным** для адреса электронной почты, который необходимо установить основным адресом электронной почты для этого пользователя. 
     
-    **IMPORTANT**: You won't see this option to Set as Primary if you purchased Microsoft 365 from GoDaddy or another Partner service that provides a management console. Instead, sign in to the GoDaddy / partner's management console to set the primary alias. 
+    **Внимание!** Этот параметр не отображается, если вы приобрели Microsoft 365 у GoDaddy или другой партнерской службы, предоставляющей консоль управления. В этом случае войдите в консоль управления GoDaddy или другого партнера и задайте основной псевдоним там. 
     
     Кроме того, этот параметр отображается только для глобального администратора. Если вы не видите его, это означает, что у вас нет разрешения на изменение имени пользователя и его основного адреса электронной почты.
   
@@ -159,7 +159,7 @@ ms.locfileid: "45079717"
  
   - Для вступления в силу этого изменения может потребоваться время.
   
-  - What their new username is. They'll need it to sign in to Microsoft 365.
+  - Новое имя пользователя: оно потребуется ему для входа в Microsoft 365.
     
   - Если он пользуется Skype для бизнеса online, сообщите, что ему потребуется перепланировать все свои организованные собрания в Skype для бизнеса online, а также попросить своих внешних контактов обновить его контактные данные.
 
@@ -181,7 +181,7 @@ ms.locfileid: "45079717"
 
     При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username.
+Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя.
 
 ::: moniker-end
 
@@ -195,7 +195,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
     При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
+Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя, поэтому не забудьте сообщить ему об изменении.
 
 ::: moniker-end
 
@@ -209,7 +209,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
     При отображении сообщения об ошибке "**Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку**" см. статью [Устранение сообщений об ошибке](#resolve-error-messages).
 
-It might take up to 24 hours for this change to take effect across all services. After the change has taken effect, the person will have to sign in to Outlook, Skype for Business and SharePoint with their updated username, so be sure to tell them about this change.
+Для того чтобы это изменение вступило в силу во всех службах, может потребоваться до 24 часов. После этого пользователю будет предлагаться входить в Outlook, Skype для бизнеса и SharePoint с новым именем пользователя, поэтому не забудьте сообщить ему об изменении.
 
 ::: moniker-end
 
@@ -217,7 +217,7 @@ It might take up to 24 hours for this change to take effect across all services.
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"Не удается найти параметр, соответствующий имени параметра EmailAddresses"
 
-If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the set up process has time to finish, and then try again. If the problem persists, call [support](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products) and ask them to do a full sync for you.
+Если вы получили сообщение об ошибке "**Не удается найти параметр, соответствующий имени параметра EmailAddresses**", это означает, что настройка вашего клиента или личного домена, который вы недавно добавили, еще не завершена. Настройка может занять до 4 часов. Дождитесь ее окончания, а затем повторите попытку. Если проблема сохранится, обратитесь в [службу поддержки](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products), и ее специалисты выполнят для вас полную синхронизацию.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>"Не удалось изменить пользователя. Проверьте сведения о пользователе и повторите попытку"
 
@@ -226,15 +226,15 @@ If you get the error message " **A parameter cannot be found that matches parame
 
 ## <a name="what-to-do-with-old-email-addresses"></a>Что делать с устаревшими адресами электронной почты
 
-A person's previous primary email address is retained as an additional email address. **We strongly recommend that you don't remove the old email address.**
+Предыдущий основной адрес электронной почты пользователя сохраняется в качестве дополнительного. **Настоятельно рекомендуем не удалять старый адрес электронной почты.**
   
-Some people might continue to send email to the person's old email address and deleting it may result in NDR failures. Microsoft automatically routes it to the new one. Also, do not reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.
+Некоторые люди могут продолжать отправлять на него письма, поэтому его удаление может повлечь за собой проблемы с доставкой. Корпорация Майкрософт будет автоматически перенаправлять сообщения на новый адрес. Кроме того, не следует продолжать использовать старые SMTP-адреса и указывать их для новых учетных записей. Это тоже может стать причиной недоставки сообщений или их отправки не по адресу.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>Что делать, если автономная адресная книга пользователя не синхронизируется с глобальным списком адресов?
 
-If they are using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
+Если он пользуется Exchange Online или его учетная запись связана с локальной средой Exchange вашей организации, при попытке изменить имя и адрес электронной почты пользователя может отображаться ошибка: "Этот пользователь синхронизирован с локальной службой Active Directory. Некоторые сведения можно изменить только в локальной службе Active Directory".
   
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it cannot be modified or removed in Microsoft 365. You can subsequently change the username in the Active Directory, but it doesn't change the MOERA and you may run into issues displaying the newly changed name in the Global Address List. 
+Эта ошибка возникает из-за адреса маршрутизации электронной почты Microsoft Online (MOERA). MOERA формируется на основе атрибута _userPrincipalName_ пользователя в Active Directory и автоматически назначается облачной учетной записи во время начальной синхронизации. После создания изменить или удалить MOERA в Microsoft 365 невозможно. Вы можете изменить имя пользователя в Active Directory, однако MOERA при этом не меняется, из-за чего могут возникать проблемы с отображением нового имени в глобальном списке адресов. 
   
 Чтобы это исправить, войдите в [Модуль Azure Active Directory для PowerShell]( https://go.microsoft.com/fwlink/?LinkId=823193) с учетными данными администратора Microsoft 365 и используйте следующий синтаксис: 
   

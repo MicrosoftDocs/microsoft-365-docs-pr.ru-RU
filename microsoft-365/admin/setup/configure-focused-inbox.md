@@ -31,7 +31,7 @@ ms.locfileid: "44779933"
 
   Если вы отвечаете за настройку работы электронной почты для всех сотрудников организации, эта статья для вас. В ней объясняется порядок ее настройки или выключения в пределах организации, а также здесь вы найдете [ответы на часто задаваемые вопросы](#faq-for-focused-inbox).  <br/> Если вы хотите выключить сортировку почты только для себя, см. статью [Выключение сортировки почты](https://support.microsoft.com/office/f714d94d-9e63-4217-9ccb-6cb2986aa1b2).  
    
-If you want to be sure that your users receive business-specific email messages, for example, from HR or payroll, you can configure Focused Inbox so these messages reach the Focused view. You can also control whether users in your organization see the Focused Inbox in their mailbox.
+Если вы хотите, чтобы пользователи гарантированно получали рабочие сообщения, например письма из отдела кадров или бухгалтерии, настройте функцию "Сортировка почты" так, чтобы эти сообщения отображались в представлении "Отсортированные". Вы также можете указать, будут ли пользователи в вашей организации видеть представление "Отсортированные" в своих почтовых ящиках.
   
 ## <a name="turn-focused-inbox-on-or-off-in-your-organization"></a>Включение и отключение сортировки почты в организации
 
@@ -39,11 +39,11 @@ If you want to be sure that your users receive business-specific email messages,
   
  **Отключение сортировки почты**
   
-The following PowerShell example turns Focused Inbox **Off** in your organization. However, it doesn't block the availability of the feature for your users. If they want, they can still re-enable Focused Inbox again on each of their clients. 
+В данном примере сортировка **отключается** для организации с помощью PowerShell. Но доступ пользователей к функции не блокируется. При желании они могут снова включить сортировку почты в своих клиентах. 
   
 1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи [Политика обмена сообщениями и разрешения для соответствия требованиям](https://go.microsoft.com/fwlink/p/?LinkId=829796).
     
 3. Запустите командлет **Get-OrganizationConfig**. 
     
@@ -73,23 +73,23 @@ Get-OrganizationConfig
 
 ## <a name="what-do-users-see-after-i-turn-on-focused-inbox"></a>Что увидят пользователи, когда я включу сортировку почты? 
 
-Your users will see the Focused view only after they close and restart Outlook. When they restart Outlook, they'll see a Tip in the Outlook user interface giving them to the option to use the new Focused Inbox.
+Ваши пользователи увидят представление "Отсортированные" только после того, как закроют и снова запустят Outlook. После перезапуска Outlook они увидят в пользовательском интерфейсе подсказку, указывающую на новое представление "Отсортированные".
   
 ![Вид папки "Отсортированные" при первом открытии Outlook в Интернете.](../../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
   
-If you're switching from Clutter to Focused Inbox, they can decide to enable it ("Try it") or dismiss the feature. If the user has multiple (supported) clients, they can enable/disable Focused Inbox individually on each one. The tip looks like this:
+Если вместо функции "Несрочные" вы включите сортировку почты, пользователи могут принять ее ("Попробовать") или отказаться от нее. Если у пользователя есть несколько поддерживаемых клиентов, он может отдельно включать и отключать сортировку почты в каждом из них. Вот как выглядит подсказка:
   
 ![Изображение папки "Отсортированные", которая развернута для пользователей, после повторного открытия Outlook.](../../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
   
-When a user decides to start using Focused Inbox, Clutter gets disabled automatically. The Clutter folder gets converted into a standard folder, that allows the user to rename or delete it.
+Если пользователь выбирает сортировку почты, функция "Несрочные" отключается автоматически. Папка "Несрочные" преобразуется в стандартную папку, которую пользователь может переименовать или удалить.
   
 ## <a name="turn-focused-inbox-on-or-off-for-specific-users"></a>Включение и отключение сортировки почты для определенных пользователей
 
-This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organization. However, it doesn't block the availability of the feature to him. If his wants, he can still re-enable Focused Inbox again on each of his clients. 
+В этом примере сортировка **выключается** для пользователя Tim Matthews в организации Contoso. Но его доступ к этой возможности не блокируется. При желании он может снова включить сортировку почты в своих клиентах. 
   
 1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in the Messaging policy and compliance permissions topic.
+2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи "Политика обмена сообщениями и разрешения для соответствия требованиям".
     
 3. Запустите командлет **Get-FocusedInbox**, например: 
     
@@ -129,7 +129,7 @@ This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organiz
 
 1. [Подключитесь к Exchange Online с помощью удаленного сеанса PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
     
-2. You need to be assigned permissions before you can perform this procedure or procedures. To see what permissions you need, see the "Transport rules" entry in [Messaging policy and compliance permissions](https://go.microsoft.com/fwlink/p/?LinkId=829796).
+2. Для выполнения этих процедур у вас должны быть соответствующие разрешения. Сведения о необходимых разрешениях см. в разделе "Правила транспорта" статьи [Политика обмена сообщениями и разрешения для соответствия требованиям](https://go.microsoft.com/fwlink/p/?LinkId=829796).
 
 3. Чтобы все сообщения, например, с отправителем "Отдел выплат" выводились в представлении "Отсортированные", выполните следующую команду.
     
@@ -147,7 +147,7 @@ This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organiz
  
 ## <a name="turn-onoff-clutter"></a>Включение и отключение функции "Несрочные"
  
-We've received reports that Clutter suddenly stopped working for some users. If this happens, you can enable it again for specific users. See [Configure Clutter for your organization](../email/configure-clutter.md).
+Мы получили сообщения о том, что функция "Несрочные" неожиданно прекращает работу у некоторых пользователей. Если это случится, вы сможете снова включить эту функцию для конкретных пользователей. См. статью [Управление функцией "Несрочные" в Office 365 — справка для администраторов](../email/configure-clutter.md).
  
 ## <a name="faq-for-focused-inbox"></a>Сортировка почты: вопросы и ответы
 
@@ -155,7 +155,7 @@ We've received reports that Clutter suddenly stopped working for some users. If 
 
 ### <a name="can-i-control-how-i-roll-out-focused-inbox-in-my-organization"></a>Можно ли управлять развертыванием функции "Сортировка почты" в организации?
 
-Yes. You can turn Focused Inbox on or off for your entire organization, or you can turn it on or off for specified users. See above.
+Да, вы можете отключить или включить сортировку для всей организации либо для отдельных пользователей. См. описание выше.
   
 ### <a name="is-the-focused-inbox-feature-only-available-for-office-2016-clients"></a>Функция сортировки почты доступна только пользователям Office 2016?
 
@@ -167,17 +167,17 @@ Yes. You can turn Focused Inbox on or off for your entire organization, or you c
   
 ### <a name="what-happens-to-clutter-once-i-turn-on-focused-inbox"></a>Что произойдет с папкой "Несрочные" после включения сортировки почты?
 
-After switching, you'll no longer receive less actionable email in the Clutter folder. Instead, email will be split between the Focused and Other tabs in your inbox. The same algorithm that moved items to the Clutter folder now powers Focused Inbox, meaning that any emails that were set to move to Clutter will now be moved to Other. Any messages already in your Clutter folder will remain there until you decide to delete or move them.
+После переключения менее важные сообщения больше не будут доставляться в папку "Несрочные". Вместо этого почта будет распределяться между вкладками "Отсортированные" и "Другие". Функция "Несрочные" и сортировка почты основаны на одном алгоритме, поэтому все сообщения, которые раньше попадали в папку "Несрочные", теперь будут перемещаться на вкладку "Другие". Все сообщения, которые уже находятся в папке "Несрочные", останутся в ней, если вы не удалите или не переместите их.
   
 Ознакомьтесь со статьей Тони Редмонда ([Tony Redmond](https://www.petri.com/author/tony-redmond)), специалиста со статусом Microsoft MVP: [Как сортировка почты заменяет функцию "Несрочные" в Office 365](https://www.petri.com/focused-inbox-office-365) (на английском языке).
   
 ### <a name="can-i-keep-users-on-clutter-what-is-microsofts-recommendation-when-it-comes-to-using-clutter-vs-focused-inbox"></a>Можно ли оставить пользователям функцию "Несрочные"? Что рекомендует Майкрософт при выборе между функцией "Несрочные" и сортировкой почты?
 
-Yes, you can keep users on Clutter and disable Focused Inbox, however, eventually Clutter will be fully replaced with Focused Inbox so Microsoft's recommends moving to Focused Inbox now. To learn more about when you use Clutter with Exchange Online, see this blog post: [Update on Focused Inbox and our plans for Clutter](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448).
+Да, вы можете оставить пользователям функцию "Несрочные" и отключить сортировку почты, но рано или поздно сортировка почты полностью заменит функцию "Несрочные", поэтому Майкрософт рекомендует перейти на нее уже сейчас. Дополнительные сведения об использовании папки "Несрочные" в Exchange Online см. в этой записи блога: [Новости о сортировке почты и планы относительно папки "Несрочные"](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448).
   
 ### <a name="should-i-disable-clutter-for-my-end-users-if-we-are-going-to-move-everyone-to-focused-inbox"></a>Нужно ли мне отключить функцию "Несрочные" для конечных пользователей, если мы собираемся перевести их всех на сортировку почты?
 
-No. It's possible to disable Clutter for a mailbox explicitly by running the Set-Clutter cmdlet. However, if you do this, the mailbox owner will see messages that were previously redirected to the Clutter folder remain in the Inbox and they'll have to process those messages until their client is upgraded to a version that supports the Focused Inbox. It's therefore best not to disable Clutter until the upgraded clients are available.
+Нет. Функцию "Несрочные" можно отключить для почтового ящика явным образом с помощью командлета Set-Clutter. Но при этом все сообщения, которые раньше перенаправлялись в папку "Несрочные", будут оставаться в папке "Входящие" владельца почтового ящика до тех пор, пока клиент не обновится до версии, поддерживающей сортировку почты. Поэтому лучше не отключать функцию "Несрочные" до появления обновленных клиентов.
   
 ### <a name="why-are-there-two-different-cmdlets-for-managing-focused-inbox"></a>Почему для управления сортировкой используются два разных командлета?
 
@@ -189,12 +189,12 @@ No. It's possible to disable Clutter for a mailbox explicitly by running the Set
     
 ### <a name="how-does-outlook-decide-to-show-the-focused-inbox-experience-with-these-two-states"></a>Как эти два состояния учитываются в Outlook при отображении представления "Отсортированные"?
 
-Outlook decides to show the experience by choosing which cmdlet has the latest time stamp. By default, both time stamps are "null" and in this case, the feature is enabled.
+То, какое из состояний учитывается, зависит от того, какой командлет имеет более новую метку времени. По умолчанию обе метки имеют значение NULL, а функция включена.
   
 ### <a name="why-does-the-get-focusedinbox-cmdlet-return-true-when-ive-turned-focused-inbox-off-in-my-organization"></a>Почему командлет Get-FocusedInbox возвращает значение true, хотя сортировка для организации выключена?
 
-There are two cmdlets for controlling Focused Inbox. When you run Get-FocusedInbox for a mailbox, it returns the mailbox level state of the feature. The experience in Outlook is chosen based on which cmdlet state was last modified.
+Для управления сортировкой используются два командлета. При выполнении командлета Get-FocusedInbox для почтового ящика возвращается состояние этой функции на уровне почтового ящика. Отображение функции в интерфейсе Outlook зависит от последнего изменения состояния командлета.
   
 ### <a name="can-i-run-a-script-to-see-who-has-turned-on-focused-inbox"></a>Можно ли запустить сценарий, чтобы узнать, кто включил сортировку почты?
 
-No, and this is by design. Focused Inbox enablement is a client side setting, so all the cmdlet can do is tell you if the user's mailbox is eligible for the client experience. It is possible for it to be simultaneously enabled in some clients and disabled in others, for example, enabled in Outlook app and Outlook Mobile but disabled in Outlook on the web.
+Нет, и это сделано намеренно. Сортировка почты включается на стороне клиента, поэтому с помощью командлета можно только определить, поддерживает ли почтовый ящик пользователя возможности клиента. Ее можно одновременно включить в одних клиентах и отключить в других, например включить в приложении Outlook и Outlook Mobile, но отключить в Outlook в Интернете.

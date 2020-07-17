@@ -19,6 +19,7 @@ ms.custom: ''
 description: Используйте службы безопасности и соответствия требованиям Microsoft 365 для защиты приложений, данных и устройств для сотрудников, работающих удаленно.
 ms.openlocfilehash: d8419c00bc4d8b99d9456abafbd5869ca26f4556
 ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/07/2020
 ms.locfileid: "45049873"

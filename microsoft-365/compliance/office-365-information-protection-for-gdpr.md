@@ -29,7 +29,7 @@ ms.locfileid: "44818702"
 
  **Сводка.** Это решение демонстрирует, как защитить конфиденциальные данные, которые хранятся в службах Office 365.
   
-This solution includes prescriptive recommendations for discovering, classifying, protecting, and monitoring personal data. This solution uses General Data Protection Regulation (GDPR) as an example, but you can apply the same process to achieve compliance with many other regulations.
+Это решение включает предписывающие рекомендации по обнаружению, классификации, защите и отслеживанию персональных данных. В этом решении в качестве примера используется Общий регламент по защите данных (GDPR), но аналогичный процесс можно применить, чтобы обеспечить соответствие требованиям ряда других нормативов.
 
 [![Эскиз афиши "Защита информации в Office 365 в соответствии с регламентом GDPR".](../media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)
 

@@ -118,7 +118,7 @@ ms.locfileid: "44739200"
 
 ## <a name="allow-everyone-to-see-the-sent-email-the-replies"></a>Предоставление всем пользователям разрешения на просмотр отправленных сообщений (ответов)
 
-By default, messages sent from the shared mailbox aren't saved to the Sent Items folder of the shared mailbox. Instead, they are saved to the Sent Items folder of the person who sent the message.
+По умолчанию сообщения, отправленные с общего почтового ящика, не сохраняются в папке "Отправленные" этого почтового ящика. Вместо этого они сохраняются в папке "Отправленные" отправителя.
 
 Если вы хотите разрешить всем пользователям просматривать отправленные сообщения электронной почты, в центре администрирования, изменить параметры общего почтового ящика и выбрать команду Изменить **Отправленные элементы** \> **Edit**.
 

@@ -52,9 +52,9 @@ ms.locfileid: "44909256"
 
 ## <a name="exchange-online-role-groups"></a>Группы ролей Exchange Online
 
-If you have a large organization, the Exchange admin might want to assign users to Exchange role groups. When an admin adds a user to a role group, the user gets permissions to perform certain business functions only members of that group can do.
+Если вы работаете в крупной организации, администратору Exchange может потребоваться назначить пользователям группы ролей Exchange. Когда администратор добавляет пользователя в группу ролей, этот пользователь получает разрешения на выполнение определенных бизнес-функций, характерных для данной группы.
   
- For example, the Exchange admin might assign someone to the Discovery Management role group so they can perform searches of mailboxes for data that meets certain criteria. To learn more, see [Permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) and [Manage Role Groups](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
+ Например, администратор Exchange может назначить пользователю группу ролей "Управление обнаружением", чтобы он мог искать в почтовых ящиках данные, которые соответствуют определенным критериям. Дополнительные сведения см. в статьях [Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) и [Управление группами ролей](https://docs.microsoft.com/exchange/manage-role-groups-exchange-2013-help).
   
 ## <a name="learn-about-other-admin-role"></a>Сведения о других ролях администратора
 
