@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель содержимого позволяет легко просматривать элементы с присвоенными метками.
-ms.openlocfilehash: 731ae51a02e4a6fbd35b5be7c0bf083c814ddfd3
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: e5041f82d22b62e8b343c62136251e2c69ca9e47
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327855"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127046"
 ---
 # <a name="get-started-with-content-explorer"></a>Начало работы с обозревателем контента
 
@@ -92,7 +92,7 @@ ms.locfileid: "44327855"
 
 ### <a name="retention-labels"></a>Метки хранения
 
-[Метка хранения](labels.md) позволяет определить срок хранения элемента с меткой и действия, которые необходимо выполнить перед его удалением. Они применяются вручную или автоматически с помощью политик. С их помощью можно обеспечивать соблюдение организацией юридических и нормативных требований.
+[Метка хранения](retention.md) позволяет определить срок хранения элемента с меткой и действия, которые необходимо выполнить перед его удалением. Они применяются вручную или автоматически с помощью политик. С их помощью можно обеспечивать соблюдение организацией юридических и нормативных требований.
 
 ### <a name="how-to-use-content-explorer"></a>Использование обозревателя содержимого
 
@@ -139,8 +139,7 @@ ms.locfileid: "44327855"
 
 ## <a name="see-also"></a>См. также
 
-- [Метки конфиденциальности](sensitivity-labels.md)
-- [Метки хранения](labels.md)
+- [Сведения о метках конфиденциальности](sensitivity-labels.md)
+- [Сведения о политиках и метках хранения](retention.md)
 - [Sensitive information type entity definitions.md](sensitive-information-type-entity-definitions.md)
-- [Обзор политик хранения](retention-policies.md)
 - [Общие сведения о защите от потери данных](data-loss-prevention-policies.md)

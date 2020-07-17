@@ -283,34 +283,40 @@
           href: enable-unlimited-archiving.md
         - name: Настройка политики архивации и удаления для почтовых ящиков
           href: set-up-an-archive-and-deletion-policy-for-mailboxes.md
-    - name: Хранение данных
+    - name: Хранение и удаление данных
       items:
-        - name: Сведения о политиках хранения
-          href: retention-policies.md
-        - name: Создание и настройка политик хранения
+        - name: Сведения о хранении
+          items:
+            - name: Политики и метки хранения
+              href: retention.md
+            - name: Хранение в SharePoint и OneDrive
+              href: retention-policies-sharepoint.md
+            - name: Хранение в Microsoft Teams
+              href: retention-policies-teams.md
+            - name: Хранение в Exchange
+              href: retention-policies-exchange.md
+        - name: Начало работы с хранением
+          href: get-started-with-retention.md
+        - name: Создание политик хранения
           href: create-retention-policies.md
-        - name: Хранение в SharePoint и OneDrive
-          href: retention-policies-sharepoint.md
-        - name: Хранение в Microsoft Teams
-          href: retention-policies-teams.md
-        - name: Хранение в Exchange
-          href: retention-policies-exchange.md
-        - name: План хранения
+        - name: Использование плана хранения
           href: file-plan-manager.md
-        - name: Сведения о метках хранения
-          href: labels.md
-        - name: 'Создание, публикация и автоматическое применение меток хранения'
-          href: create-retention-labels.md
-        - name: Соблюдение правила 17a-4 SEC
+        - name: Создание меток хранения и их применение в приложениях
+          href: create-apply-retention-labels.md
+        - name: Автоматическое применение метки хранения к контенту
+          href: apply-retention-labels-automatically.md
+        - name: Соблюдение правила SEC 17a-4
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
-        - name: Создание и публикация меток хранения с помощью PowerShell
+        - name: Создание меток хранения с помощью PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Хранение на основе событий
-          href: event-driven-retention.md
-        - name: Автоматизация хранения на основе событий
-          href: automate-event-driven-retention.md
-        - name: Управление жизненным циклом документов SharePoint
-          href: auto-apply-retention-labels-scenario.md
+        - name: Использование хранения на основе событий
+          items:
+            - name: 'Общие сведения о хранении, зависящем от возникновения события'
+              href: event-driven-retention.md
+            - name: Автоматизация хранения на основе событий
+              href: automate-event-driven-retention.md
+            - name: Управление жизненным циклом документов SharePoint
+              href: auto-apply-retention-labels-scenario.md
     - name: Ликвидация данных
       href: disposition.md
     - name: Управление неактивными почтовыми ящиками
@@ -345,34 +351,6 @@
           href: records-management.md
         - name: Записи
           href: records.md
-        - name: План хранения
-          items:
-            - name: Управление метками хранения
-              href: file-plan-manager.md
-            - name: Сведения о метках хранения
-              href: labels.md
-            - name: Создание и публикация меток хранения
-              href: create-retention-labels.md
-            - name: Массовое создание и публикация меток хранения с помощью PowerShell
-              href: bulk-create-publish-labels-using-powershell.md
-            - name: Просмотр использования меток с помощью аналитики меток
-              href: label-analytics.md
-            - name: Просмотр действий с метками для документов
-              href: view-label-activity-for-documents.md
-            - name: Просмотр отчетов для управления данными
-              href: view-the-data-governance-reports.md
-        - name: События
-          items:
-            - name: Хранение на основе событий
-              href: event-driven-retention.md
-            - name: Автоматизация хранения на основе событий
-              href: automate-event-driven-retention.md
-        - name: Ликвидация
-          href: disposition.md
-        - name: Дополнительные сведения об управлении записями
-          items:
-            - name: Посмотрите видео об управлении записями
-              href: 'https://go.microsoft.com/fwlink/?linkid=867039'
 - name: Управление обнаружением электронных данных
   items:
     - name: eDiscovery в Microsoft 365

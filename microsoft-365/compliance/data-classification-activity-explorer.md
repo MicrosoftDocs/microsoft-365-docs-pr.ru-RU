@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Обозреватель действий обобщает функции компонента классификации данных, позволяя просматривать и фильтровать действия, выполняемые пользователями над содержимым с метками.
-ms.openlocfilehash: 5cb6a8dbfa570b3b0e0d1ce39648d12050d2af81
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 63ecb84c0ae658b0fd3463dba10d56059352910b
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327845"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126648"
 ---
 # <a name="get-started-with-activity-explorer"></a>Начало работы с обозревателем действий
 
@@ -75,7 +75,7 @@ ms.locfileid: "44327845"
 > Обозреватель действий в настоящее время не отслеживает действия по удержанию данных в Exchange Online.
 
 ## <a name="see-also"></a>См. также
-- [Метки конфиденциальности](sensitivity-labels.md)
-- [Метки хранения](labels.md)
+- [Сведения о метках конфиденциальности](sensitivity-labels.md)
+- [Сведения о политиках и метках хранения](retention.md)
 - [Определения объектов типов конфиденциальной информации](sensitive-information-type-entity-definitions.md)
-- [Обзор политик хранения](retention-policies.md)
+

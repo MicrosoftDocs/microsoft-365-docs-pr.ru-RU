@@ -5,7 +5,7 @@ f1.keywords:
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 06/03/2020
+ms.date: 07/13/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: 274780d2b9ea4310eb2cd8c9114bb61c326d33fe
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: a5c1d27afdb7afd8b4ee3052f745c4c986299a2e
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005966"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45127101"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 
@@ -67,11 +67,18 @@ Teams предоставляет платформу для приложений 
 
 Ознакомьтесь с [этой статьей](../enterprise/secure-email-recommended-policies.md), чтобы узнать о рекомендуемых политиках доступа для удостоверений и устройств, предназначенных для защиты электронной почты и почтовых клиентов организации, поддерживающих современную проверку подлинности и условный доступ.
 
-## <a name="store-and-collaborate-on-files-with-sharepoint-online-and-onedrive"></a>Хранение и совместное использование файлов с помощью SharePoint Online и OneDrive
+## <a name="store-and-collaborate-on-files-with-sharepoint-and-onedrive"></a>Хранение и совместное использование файлов с помощью SharePoint и OneDrive
 
-При совместной работе над контентом удаленные сотрудники могут использовать папки SharePoint Online и OneDrive как центральное место в облаке для хранения и совместного использования файлов, совместного редактирования, общения и взаимодействия. Удаленные сотрудники могут безопасно работать из любого места с помощью браузера, Teams и приложений Office.
+При совместной работе над контентом удаленные сотрудники могут использовать папки SharePoint и OneDrive как центральное расположение в облаке для хранения и совместного использования файлов, совместного редактирования, общения и взаимодействия. Удаленные сотрудники могут безопасно работать из любого места с помощью браузера, Teams и приложений Office.
 
-Ознакомьтесь с [этой статьей](../enterprise/sharepoint-file-access-policies.md), чтобы узнать о рекомендуемых политиках доступа для удостоверений и устройств, предназначенных для защиты SharePoint Online и OneDrive для бизнеса.
+Вам может потребоваться перенести документы в SharePoint или OneDrive из:
+
+- [сайтов групп SharePoint Server](https://docs.microsoft.com/sharepointmigration/sp-teams-sites-migration-guide);
+- [личных сайтов](https://docs.microsoft.com/sharepointmigration/mysites-to-onedrive-migration-guide);
+- [общих папок](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide);
+- [Box](https://docs.microsoft.com/sharepointmigration/box-to-onedrive-and-sharepoint-migration-guide).
+
+Рекомендуемые политики удостоверений и доступа с устройств для защиты SharePoint и OneDrive представлены в [этой статье](../enterprise/sharepoint-file-access-policies.md).
 
 ## <a name="create-and-collaborate-on-content-with-microsoft-365-apps"></a>Создание и совместное использование контента с помощью приложений Microsoft 365
 

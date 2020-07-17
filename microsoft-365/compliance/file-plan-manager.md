@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: План хранения предоставляет расширенные возможности управления метками хранения.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85160a859469a5c2dcb1aec8100eed6e25bd7597
-ms.sourcegitcommit: 5e8901e7e571f20ede04f460bd3e7077dda004ca
+ms.openlocfilehash: 96150005421f6c2e28183c6e4417edd64b80a814
+ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874909"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45126882"
 ---
 # <a name="use-file-plan-to-manage-retention-labels"></a>Управление метками хранения с помощью плана хранения
 
@@ -42,7 +42,7 @@ ms.locfileid: "44874909"
 
 ![Страница плана хранения](../media/compliance-file-plan.png)
 
-Сведения о том, что такое метки хранения и как их использовать, см. в статье [Сведения о метках хранения](labels.md).
+Сведения о том, что такое метки хранения и как их использовать, см. в статье [Сведения о политиках и метках хранения](retention.md).
 
 ## <a name="accessing-file-plan"></a>Доступ к плану хранения
 
@@ -182,4 +182,6 @@ ms.locfileid: "44874909"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения о создании и изменении меток хранения и их политик см. в статье [Создание, публикация и автоматическое применение меток хранения](create-retention-labels.md).
+Дополнительные сведения о создании и изменении меток хранения и их политик см. в следующих статьях:
+- [Создание меток хранения и их применение в приложениях](create-apply-retention-labels.md)
+- [Автоматическое применение метки хранения к контенту](apply-retention-labels-automatically.md)
