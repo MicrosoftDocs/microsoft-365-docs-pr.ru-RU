@@ -1,35 +1,33 @@
 ---
 title: Устаревшие протоколы TLS 1,0 и 1,1 в Office 365 GCC High и DoD
 description: Сведения о том, как корпорация Майкрософт перемещает дату вперед для прекращения поддержки протоколов TLS 1,1 и 1,0 в средах GCC High и DoD в Office 365 и готовится к использованию протокола TLS 1,2.
-author: simonxjx
-manager: dcscontentpm
+author: workshay
+manager: laurawi
 localization_priority: Normal
 search.appverid:
 - MET150
 audience: ITPro
-ms.service: O365-seccomp
+ms.collection: M365-security-compliance
+ms.service: information-protection
 ms.topic: article
-ms.author: v-six
-ms.reviewer: lobrion
+ms.reviewer: krowley
+ms.author: shmehta
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: f61c0a809c4666981ee0f2d67eea21474b83a675
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: 76e9b203e58ba7fa23942ea42810456e3bee377d
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024841"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158884"
 ---
 # <a name="deprecating-tls-10-and-11-in-office-365-gcc-high-and-dod"></a>Устаревшие протоколы TLS 1,0 и 1,1 в Office 365 GCC High и DoD
 
-> [!IMPORTANT]
-> Пандемия в мире в разгаре, и мы в Microsoft понимаем, как это влияет на наших клиентов и партнеров. Чтобы снизить нагрузку на наших коммерческих клиентов, мы временно прекратили отключение TLS 1.0 и 1.1. Обновление будет отправлено в новые сроки после того, как текущий кризис стабилизируется. (Эта статья пересматривается с учетом изменений.)
+## <a name="summary"></a>Сводка
 
-## <a name="summary"></a>Аннотация
+Для обеспечения соответствия новейшим стандартам, предъявляемым к федеральным рискам и программам управления авторизацией (FedRAMP), мы не рекомендуем использовать протокол TLS версии 1,1 и 1,0 в Microsoft Office 365 для общедоступных сред со GCC High и DoD. Это изменение было ранее объявлено в службе поддержки Майкрософт при [подготовке обязательного использования протокола TLS 1,2 в Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
 
-Для обеспечения соответствия новейшим стандартам, предъявляемым к федеральным рискам и программам управления авторизацией (FedRAMP), мы перемещаясь на устаревшую версию протокола TLS версии 1,1 и 1,0 в Microsoft Office 365 для сред High и DoD. Это изменение было ранее объявлено в службе поддержки Майкрософт при [подготовке обязательного использования протокола TLS 1,2 в Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
-
-Мы понимаем, что важна безопасность ваших данных, и мы зафиксированы прозрачность изменений, которые могут повлиять на использование службы.
+Важна безопасность ваших данных, и мы зафиксированы прозрачность изменений, которые могут повлиять на использование службы.
 
 Несмотря на то, что [Реализация Microsoft TLS 1,0](https://support.microsoft.com/help/3117336) не содержит известных уязвимостей безопасности, мы сохранили соответствие стандартам соответствия требованиям FedRAMP. Поэтому мы будем использовать протоколы TLS 1,1 и 1,0 в Office 365 в средах GCC High и DoD, начиная с 15 января 2020 г. Сведения о том, как удалять зависимости TLS 1,1 и 1,0, можно найти в следующем техническом документе:
 
