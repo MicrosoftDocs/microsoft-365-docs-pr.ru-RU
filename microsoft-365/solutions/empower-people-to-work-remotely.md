@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 06/08/2020
+ms.date: 07/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ ms.collection:
 - M365solutions
 ms.custom: ''
 description: Настройте инфраструктуру безопасности и служб, которая позволит вашим подчиненным работать удаленно, где бы они ни находились и в любое время.
-ms.openlocfilehash: d4dded6c08e665a2756c45659f179e8252fcacc1
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 58915d80d9eb81009632971bbfc84a7b681e125e
+ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844874"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158903"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 
@@ -68,6 +68,12 @@ Microsoft 365 обеспечивает возможности удаленной
 | Windows Autopilot | Настройка и предварительная конфигурация новых устройств с Windows 10 для эффективной работы.   | Microsoft 365 E3 и E5 |
 | Microsoft Teams, Exchange Online, SharePoint Online и OneDrive, Приложения Microsoft 365, Microsoft Power Platform, Yammer, Power Apps | Создание, общение и совместная работа. | Microsoft 365 E3 и E5 |
 ||||
+
+<a name="poster"></a> 2-страничное краткое описание этого сценария приведено на [плакате "Возможности для удаленных сотрудников"](../downloads/empower-remote-workers.pdf).
+
+[![Плакат "Возможности для удаленных сотрудников"](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../downloads/empower-remote-workers.pdf)
+
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/empower-remote-workers.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
 Следуйте указанным ниже инструкциям, чтобы защитить и оптимизировать доступ к серверам, данным и облачным службам вашей организации и позволить сотрудникам работать с максимальной продуктивностью.
 
