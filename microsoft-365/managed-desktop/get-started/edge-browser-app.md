@@ -4,14 +4,18 @@ description: ''
 keywords: браузер, управляемый Майкрософт Настольный компьютер, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
+manager: laurawi
+audience: ITpro
+ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f4bc5f85b21148c5a923ca1fc18879a193191c4b
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
+ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45094790"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170675"
 ---
 # <a name="new-microsoft-edge-app"></a>Новое приложение Microsoft Edge
 
@@ -38,7 +42,7 @@ ms.locfileid: "45094790"
 #### <a name="extension-installation-blocklist"></a>Расширение установки блокклист
 **Значение по умолчанию:** Ко
 
-Настольные компьютеры, управляемые Майкрософт. задает эту политику, чтобы запретить установку на управляемых конечных точках расширений Chrome. Существует известный рисксассоЦиатед с моделью расширения Чромиум, в том числе защита от потери данных, конфиденциальность и другие риски, которые могут нарушить безопасность устройств. 
+Настольные компьютеры, управляемые Майкрософт. задает эту политику, чтобы запретить установку на управляемых конечных точках расширений Chrome. Существует известная угроза сассоЦиатед с моделью расширения Чромиум, в том числе защита от потери данных, конфиденциальность и другие риски, которые могут нарушить безопасность устройств. 
 
 #### <a name="allow-user-level-native-messaging-hosts-installed-without-admin-permissions"></a>Разрешение встроенных узлов обмена сообщениями на уровне пользователя (устанавливается без разрешений администратора)
 
@@ -119,7 +123,7 @@ ms.locfileid: "45094790"
 
 ## <a name="settings-you-manage"></a>Параметры, которыми вы управляете
 
-Вы можете развернуть все параметры пограничного сервера Microsoft, не описанные ранее с помощью профиля административных шаблонов в Microsoft Intune. Дополнительные сведения см. [в разделе Настройка параметров Microsoft Edge Policy в Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune). Если вы хотите оценить политику, которая в данный момент не включена в административные шаблоны Microsoft EDGE в Intune, вы можете использовать пользовательские параметры для устройств с Windows 10 в Intune.
+Вы можете развернуть все параметры Microsoft EDGE, не описанные ранее с помощью профиля административных шаблонов в Microsoft Intune. Дополнительные сведения см. [в разделе Настройка параметров Microsoft Edge Policy в Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune). Если вы хотите оценить политику, которая в данный момент не включена в административные шаблоны Microsoft EDGE в Intune, вы можете использовать пользовательские параметры для устройств с Windows 10 в Intune.
 
 ### <a name="enabling-specific-chrome-extensions"></a>Включение определенных расширений Chrome
 
