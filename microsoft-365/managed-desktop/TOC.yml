@@ -38,6 +38,8 @@
           href: service-description/operations-and-monitoring.md
         - name: Требования к приложениям
           href: service-description/mmd-app-requirements.md
+        - name: Элемент управления приложениями
+          href: service-description/app-control.md
         - name: Изменения служб и обмен информацией
           href: service-description/servicechanges.md
         - name: Исключения в плане обслуживания
@@ -65,6 +67,8 @@
     - name: 'Начало работы с компьютерами, управляемыми Майкрософт'
       href: get-started/index.md
       items:
+        - name: Доступ к порталу администрирования
+          href: get-started/access-admin-portal.md
         - name: Добавление и проверка контактов администратора на портале администрирования
           href: get-started/add-admin-contacts.md
         - name: Настройка условного доступа
@@ -87,6 +91,8 @@
               href: get-started/register-reused-devices-self.md
         - name: Подготовка пользователей к работе с устройствами
           href: get-started/get-started-devices.md
+        - name: Начало работы с элементом управления приложениями
+          href: get-started/get-started-app-control.md
         - name: Развертывание приложений
           href: get-started/deploy-apps.md
           items:
@@ -114,6 +120,8 @@
           href: working-with-managed-desktop/end-user-support.md
         - name: Управление приложениями
           href: working-with-managed-desktop/manage-apps.md
+        - name: Работа с элементом управления приложениями
+          href: working-with-managed-desktop/work-with-app-control.md
         - name: Настраиваемые параметры
           href: working-with-managed-desktop/config-setting-overview.md
           items:
