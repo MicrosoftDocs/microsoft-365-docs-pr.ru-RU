@@ -1,5 +1,5 @@
 ---
-title: Понимание уровня безопасности с помощью оценки безопасности Майкрософт
+title: Оценка уровня безопасности с помощью оценки безопасности Майкрософт
 description: В этой статье описывается, как выполнить действия для усовершенствования оценки безопасности Майкрософт в центре безопасности Майкрософт 365.
 keywords: безопасность, вредоносные программы, Microsoft 365, M365, Оценка безопасности, центр безопасности, действия по улучшению
 ms.prod: microsoft-365-enterprise
@@ -20,14 +20,14 @@ search.appverid:
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 0ae1a196f11f383c1d3f9fd2056d5d19e7cdd6da
-ms.sourcegitcommit: 09a500a44d8723f8f2be87d9ad4ce7e453c5192b
+ms.openlocfilehash: 469056bbae4627e0b013bfc0f2e965586fd15175
+ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45095075"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45200066"
 ---
-# <a name="gain-visibility-into-your-security-posture-through-microsoft-secure-score"></a>Понимание уровня безопасности с помощью оценки безопасности Майкрософт
+# <a name="assess-your-security-posture-with-microsoft-secure-score"></a>Оценка уровня безопасности с помощью оценки безопасности Майкрософт
 
 Microsoft Secure Score — это измерение степени безопасности Организации с большим номером, указывающим дополнительные действия по улучшению. Его можно найти https://security.microsoft.com/securescore в [центре безопасности Microsoft 365](overview-security-center.md).
 
@@ -40,7 +40,7 @@ Microsoft Secure Score — это измерение степени безопа
 * Инфраструктура (дальнейшие действия по улучшению сейчас отсутствуют)
 
 >[!NOTE]
->В последнем выпуске оценки безопасности Майкрософт была выпущена улучшенная модель определения показателей, которая была временно несовместима с оценками безопасного удостоверения и API Graph. [Просмотреть сведения](microsoft-secure-score.md#incompatibility-with-identity-secure-score-and-graph-api)
+>В последнем выпуске оценки безопасности Майкрософт была выпущена улучшенная модель определения показателей, которая была временно несовместима с оценками безопасного удостоверения и API Graph. [Просмотреть сведения](microsoft-secure-score-whats-new.md)
 
 На странице "Обзор оценки безопасности Майкрософт" можно увидеть, как точки делятся между этими группами и какие точки доступны. На странице "Обзор" также можно получить общее представление о итоговом показателе, хронологической тенденции в сравнении со сравнением производительности и приоритетных действиях, которые можно предпринять для улучшения оценки.
 
@@ -121,3 +121,4 @@ Microsoft Secure Score — это измерение степени безопа
 - [Обзор оценки безопасности Майкрософт](microsoft-secure-score.md)
 - [Отслеживание журнала оценки безопасности Майкрософт и соответствующих целей](microsoft-secure-score-history-metrics-trends.md)
 - [Что вскоре появится](microsoft-secure-score-whats-coming.md)
+- [Новые возможности](microsoft-secure-score-whats-new.md)

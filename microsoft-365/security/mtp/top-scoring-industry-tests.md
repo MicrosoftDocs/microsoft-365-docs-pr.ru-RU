@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 279376288f28e99d5881e5e482470407111c4add
-ms.sourcegitcommit: 42b618231e9f608f3ae7226a313b0366601d0ea2
+ms.openlocfilehash: 64197133386748695fbef5a33c09022ae41f75d3
+ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158873"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185996"
 ---
 # <a name="top-scoring-in-industry-tests"></a>Основные вычисления в отраслевых тестах
 
@@ -44,19 +44,18 @@ ms.locfileid: "45158873"
 [Антивирусная программа "защитник Майкрософт"](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) постоянно выполняет независимые тесты, отображая, как это самый распространенный вариант на рынке антивирусных программ. Помните, что эти тесты предоставляют только результаты для антивирусной программы и не проверяют дополнительные возможности защиты.
 
 Антивирусная программа "защитник Майкрософт" — это функция [защиты следующего поколения](https://www.youtube.com/watch?v=Xy3MOxkX_o4) в [стеке безопасности Windows 10 для защитника Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) , которая в настоящее время обращается к последним и наиболее сложным угрозам. В некоторых случаях клиенты могут даже не знать, что они защищены, так как цибераттакк остановлен в [миллисекундах после начала кампании](https://cloudblogs.microsoft.com/microsoftsecure/2018/03/07/behavior-monitoring-combined-with-machine-learning-spoils-a-massive-dofoil-coin-mining-campaign). Это связано с тем, что антивирусная программа "защитник Майкрософт" и другие возможности [платформы защиты от вирусов (EPP)](https://www.microsoft.com/security/blog/2019/08/23/gartner-names-microsoft-a-leader-in-2019-endpoint-protection-platforms-magic-quadrant/) в защитнике Майкрософт обнаруживают и останавливают вредоносные программы по первому поведению [машинного обучения](https://cloudblogs.microsoft.com/microsoftsecure/2018/06/07/machine-learning-vs-social-engineering), [искусственного интеллекта](https://cloudblogs.microsoft.com/microsoftsecure/2018/02/14/how-artificial-intelligence-stopped-an-emotet-outbreak), анализа поведения и других дополнительных технологий.
-<br><br>
-
-**Скачайте последний отчет о прозрачности: [исследование результатов тестирования AVT, Январь – февраль 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)**
 
 ### <a name="av-test-protection-score-of-5560-in-the-latest-test"></a>AV-TEST: показатель защиты от 5.5/6.0 в последнем тесте
 
 В отчете о проверке и сертификации продукта AV-TEST проверяются три категории: защита, производительность и удобство использования. Следующие показатели предназначены для категории защиты, которая имеет два значения: реальное тестирование и набор справочных материалов "AV-TEST" (называемый распространенной вредоносной программой).
 
+**Скачайте последний отчет о прозрачности: [исследование результатов AV-Test, Январь – февраль 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)**
+
 - Март — Апрель 2020 AV-тестирование тестового пользователя: [показатель защиты 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/) <sup>**последние**</sup>
 
     Антивирусная программа "защитник Майкрософт" заслужила общий показатель защиты от 5.5/6.0, а также примеры использования вредоносных программ для 20 540.
 
-- Январь — Февраль 2020 AV-Test бизнес-тест пользователя: [Protection Score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AwWZ)
+- Январь — Февраль 2020 AV-Test бизнес-тест пользователя: [Protection Score 5.5/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/february-2020/microsoft-windows-defender-antivirus-4.18-200614/)  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4CflZ)
 
 - Ноябрь — Декабрь 2019 AV-тестирование тестового пользователя: [показатель защиты 6.0/6.0](https://www.av-test.org/en/antivirus/business-windows-client/windows-10/december-2019/microsoft-windows-defender-antivirus-4.18-195015/)
 
@@ -84,7 +83,9 @@ ms.locfileid: "45158873"
 
 SE Labs тестирует ряд решений, используемых продуктами и службами для обнаружения и/или защиты от атак, в том числе программного обеспечения, сетевых устройств и облачных служб.
 
-- Корпоративная защита от конечных точек — Март 2020: [AAA премия](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) <sup>**PDF**</sup>
+**Скачайте последний отчет о прозрачности: [исследование результатов тестирования для лаборатории SE, Январь-март 2020](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)**
+
+- Корпоративная защита от конечных точек — [AAA award](https://selabs.uk/download/enterprise/essp/2020/mar-2020-essp.pdf) Март 2020: анализ премии <sup>**PDF**</sup>  |  [Analysis](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4C7Iq)
 
     Для защиты следующего поколения корпорации Майкрософт использовался один из ведущих продуктов, что приведет к остановке всех нацеленных атак и всех открытых угроз, кроме одной.
 
