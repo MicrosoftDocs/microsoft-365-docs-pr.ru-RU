@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: Сведения о настройке многофакторной проверки подлинности для организации.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 597d8383166e0ddae0984573d77ba75cf54dafdd
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 34133f4204c1ee305b0a249a0ff8e0e9edaf5599
+ms.sourcegitcommit: e891c7c25f351f10f250af3f483f68594976ddc9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146234"
+ms.locfileid: "45153681"
 ---
 # <a name="set-up-multi-factor-authentication"></a>Настройка многофакторной проверки подлинности
   
@@ -76,9 +76,11 @@ ms.locfileid: "45146234"
 
 Условный доступ могут использовать клиенты, которые приобрели Azure AD Premium P1 или лицензии, в которые входит эта служба, например Microsoft 365 бизнес премиум или Microsoft 365 E3. Для получения дополнительной информации см. статью [Создание политик условного доступа](https://docs.microsoft.com/azure/active-directory/authentication/tutorial-enable-azure-mfa).
 
-Условный доступ с учетом риска можно получить в рамках лицензии Azure AD Premium P2 или в рамках лицензии, в которую входит эта служба, например Microsoft 365 E5. Для получения дополнительной информации см. [Условный доступ с учетом риска](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
+Условный доступ с учетом риска можно получить в рамках лицензии Azure AD Premium P2 или в рамках лицензии, в которую входит эта служба, например Microsoft 365 E5. Дополнительные сведения см. в статье [Условный доступ на основе рисков](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-risk).
 
-### <a name="turn-on-modern-authentication-for-your-organization"></a>Включение современной проверки подлинности в вашей организации
+Дополнительные сведения об Azure AD P1 и P2 см. в статье [Цены для Azure Active Directory](https://azure.microsoft.com/pricing/details/active-directory/).
+
+### <a name="turn-on-modern-authentication-for-your-organization"></a>Включение современной проверки подлинности для организации
 
 В большинстве подписок современная проверка подлинности автоматически включена, но если вы приобрели подписку давно, то это может быть не так. Ее необходимо включить для того, чтобы MFA работала в приложениях Office надлежащим образом.
 
