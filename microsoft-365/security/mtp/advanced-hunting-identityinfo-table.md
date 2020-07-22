@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b384e76439ae706520725e7193fa64224b724be0
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: e922fc7930d645a7024a0ffc73359277c4b637e4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44898961"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204927"
 ---
 # <a name="identityinfo"></a>IdentityInfo
 
@@ -50,7 +50,7 @@ ms.locfileid: "44898961"
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountDomain` | string | Домен учетной записи |
 | `EmailAddress` | string | SMTP-адрес учетной записи |
-| `SipProxyAddress` | string | Протокол передачи голоса по протоколу IP (VOIP) учетной записи |
+| `SipProxyAddress` | string | SIP-адрес учетной записи протокола передачи голоса по протоколу IP (VOIP) |
 | `City` | string | Город, в котором находится пользователь учетной записи |
 | `Country` | string | Страна или регион, где находится пользователь учетной записи |
 | `IsAccountEnabled` | boolean | Указывает, включена ли учетная запись |

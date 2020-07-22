@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 45bc42e825c55ca228b13e8d308f9a1384301d07
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: 4dde4d1b30fe5bcbe4d3bc63c4d998c804b0ce69
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45048271"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204831"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -50,7 +50,7 @@ ms.locfileid: "45048271"
 
 3. Нажмите кнопку **Предварительный просмотр компонентов**  >  , чтобы**включить предварительные функции**. 
 
-3. Нажмите **Сохранить**.
+3. Нажмите **Save** (Сохранить).
 
 Вы узнаете, что функции предварительного просмотра включены, когда вы видите флажок **включить предварительный просмотр компонентов** . 
 
@@ -59,8 +59,4 @@ ms.locfileid: "45048271"
 
 - **[Справочник по схемам на портале](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — сведения о таблицах схемы, доступных непосредственно в центре обеспечения безопасности. В дополнение к описаниям таблиц и столбцов, эта ссылка содержит сведения о поддерживаемых типах событий ( `ActionType` значениях) и примерах запросов.  
 
-- **[Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)** — получение представления о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с таблицами [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.
-
 - **[Go Go](advanced-hunting-go-hunt.md)** — быстро изучите сведения об инциденте, чтобы проверить конкретное событие, пользователя, устройства или других типов сущностей с помощью [расширенных](advanced-hunting-overview.md) возможностей поиска на основе запросов.
-
-- **[Функция филепрофиле ()](advanced-hunting-fileprofile-function.md)** — используется в [расширенных](advanced-hunting-overview.md) запросах на поиск для включения исчерпывающей информации о файле.

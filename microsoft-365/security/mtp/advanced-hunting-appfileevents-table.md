@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da3b331d4f607aa0961e275db9444aadbec4fcf2
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 663dc2a3de676fa2daeab3d9621254e956d42fc4
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899343"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204759"
 ---
 # <a name="appfileevents"></a>AppFileEvents
 
@@ -41,13 +41,23 @@ ms.locfileid: "44899343"
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FolderPath` | string | Папка, содержащая файл, к которому было применено записанное действие |
 | `PreviousFileName` | string | Исходное имя файла, переименованного в результате действия |
+| `PreviousFolderPath` | string | Исходная папка, содержащая файл перед применением записанного действия |
+| `Protocol` | string | Используемый сетевой протокол |
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountDomain` | string | Домен учетной записи |
 | `AccountUpn` | string | Имя участника-пользователя (UPN) учетной записи |
 | `AccountObjectId` | string | Уникальный идентификатор учетной записи в Azure AD |
 | `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемое в адресной книге. Как правило, это сочетание определенного или имени, посрединное инициирование, фамилия или фамилия. |
+| `DeviceName` | string | Полное доменное имя (FQDN) устройства |
+| `DeviceType` | string | Тип устройства | 
+| `OSPlatform` | string | Платформа операционной системы, запущенной на устройстве. Здесь указываются конкретные операционные системы, включая варианты одного семейства, например Windows 10 и Windows 7. |
 | `IPAddress` | string | IP-адрес, назначенный конечной точке и используемый во время связанных сетевых коммуникаций |
+| `DestinationDeviceName` | string | Имя устройства, на котором работает серверное приложение, которое обработало записанное действие |
+| `DestinationIPAddress` | string | IP-адрес устройства, на котором запущено серверное приложение, которое обработало записанное действие |
 | `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
+| `Isp` | string | Поставщик услуг Интернета (ISP), связанный с IP-адресом конечной точки. |
+| `ReportId` | long | Уникальный идентификатор для события |
+| `AdditionalFields` | string | Дополнительные сведения о сущности или событии |
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)

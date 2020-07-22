@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bec7f13d49e2ccf4e3a9121d5e5a2fecd1b10aa2
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: 436c4d7306f9f5febd614489090a0a10929ba3c9
+ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899117"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204879"
 ---
 # <a name="identityqueryevents"></a>IdentityQueryEvents
 
@@ -38,8 +38,9 @@ ms.locfileid: "44899117"
 | `Timestamp` | datetime | Дата и время записи события |
 | `ActionType` | string | Тип действия, вызвавшего событие |
 | `Application` | string | Приложение, которое выполнило записанное действие |
-| `Query` | string | Тип запроса: Куериграуп, Куерюсер или Енумератеусерс |
-| `QueryObject` | string | Имя пользователя, группы, устройства, домена или любого другого типа сущностей, запрашиваемых |
+| `QueryType` | string | Тип запроса, например Куериграуп, Куерюсер или Енумератеусерс |
+| `QueryTarget` | string | Имя пользователя, группы, устройства, домена или любого другого типа сущностей, запрашиваемых |
+| `Query` | string | Строка, используемая для выполнения запроса |
 | `Protocol` | string | Протокол, используемый при обмене данными |
 | `AccountName` | string | Имя пользователя учетной записи |
 | `AccountDomain` | string | Домен учетной записи |
@@ -49,7 +50,14 @@ ms.locfileid: "44899117"
 | `AccountDisplayName` | string | Имя пользователя учетной записи, отображаемое в адресной книге. Как правило, это сочетание определенного или имени, посрединное инициирование, фамилия или фамилия. |
 | `DeviceName` | string | Полное доменное имя (FQDN) конечной точки |
 | `IPAddress` | string | IP-адрес, назначенный конечной точке и используемый во время связанных сетевых коммуникаций |
+| `DestinationDeviceName` | string | Имя устройства, на котором работает серверное приложение, которое обработало записанное действие |
+| `DestinationIPAddress` | string | IP-адрес устройства, на котором запущено серверное приложение, которое обработало записанное действие |
+| `TargetDeviceName` | string | Полное доменное имя (FQDN) устройства, к которому было применено записанное действие |
+| `TargetAccountUpn` | string | Имя участника-пользователя (UPN) учетной записи, к которой было применено записанное действие |
+| `TargetAccountDisplayName` | string | Отображаемое имя учетной записи, к которой было применено записанное действие |
 | `Location` | string | Город, страна или другое географическое расположение, связанное с событием |
+| `ReportId` | long | Уникальный идентификатор для события |
+| `AdditionalFields` | string | Дополнительные сведения о сущности или событии |
 
 ## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
