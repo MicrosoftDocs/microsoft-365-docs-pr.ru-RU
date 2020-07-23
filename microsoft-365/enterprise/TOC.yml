@@ -88,6 +88,11 @@
           href: deployment-strategies-microsoft-365-enterprise.md
         - name: Развертывание в существующей инфраструктуре
           href: deploy-with-existing-infrastructure.md
+        - name: Примеры конфигураций каналов развертывания и обновления
+          href: deploy-update-channels-examples.md
+          items:
+            - name: Широкое развертывание новых выпусков
+              href: deploy-update-channels-examples-rapid-deploy.md
         - name: Развертывание для некорпоративных организаций
           href: deploy-foundation-infrastructure-non-enterprises.md
     - name: Развертывание рабочих нагрузок

@@ -37,6 +37,18 @@
           href: ../enterprise/secure-email-recommended-policies.md
         - name: "Рекомендуемые политики доступа SharePoint\_Online"
           href: ../enterprise/sharepoint-file-access-policies.md
+    - name: Оценка безопасности (Майкрософт)
+      items:
+        - name: Обзор оценки безопасности
+          href: mtp/microsoft-secure-score.md
+        - name: Оценка уровня безопасности
+          href: mtp/microsoft-secure-score-improvement-actions.md
+        - name: Отслеживание истории оценок и достижение целей
+          href: mtp/microsoft-secure-score-history-metrics-trends.md
+        - name: Что вскоре появится
+          href: mtp/microsoft-secure-score-whats-coming.md
+        - name: Новые возможности
+          href: mtp/microsoft-secure-score-whats-new.md
     - name: Защита от угроз (Майкрософт)
       items:
         - name: Обзор
@@ -187,16 +199,6 @@
                       href: mtp/custom-detections-overview.md
                     - name: Создание и управление правилами обнаружения
                       href: mtp/custom-detection-rules.md
-            - name: Оценка безопасности (Майкрософт)
-              items:
-                - name: Обзор оценки безопасности
-                  href: mtp/microsoft-secure-score.md
-                - name: Получение информации о состоянии безопасности
-                  href: mtp/microsoft-secure-score-improvement-actions.md
-                - name: Отслеживание истории оценок и достижение целей
-                  href: mtp/microsoft-secure-score-history-metrics-trends.md
-                - name: Что вскоре появится
-                  href: mtp/microsoft-secure-score-whats-coming.md
             - name: Отчеты
               items:
                 - name: Мониторинг и просмотр отчетов
