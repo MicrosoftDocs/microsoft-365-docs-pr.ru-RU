@@ -1,28 +1,26 @@
 ---
 title: Подготовка к TLS 1.2 в Office 365 и Office 365 GCC
 description: Как подготовиться к использованию TLS 1.2 для всех сочетаний клиент-сервер и браузер-сервер в Office 365 после отключения поддержки TLS 1.0 и 1.1.
-author: simonxjx
-manager: dcscontentpm
+author: workshay
+manager: laurawi
 localization_priority: Normal
 search.appverid:
 - MET150
 audience: ITPro
 ms.service: O365-seccomp
 ms.topic: article
-ms.author: v-six
+ms.author: shmehta
+ms.reviewer: krowley
 appliesto:
 - Office 365 Business
-ms.openlocfilehash: d3086c85adf76a322775ce53697504b77e672f9a
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: b76854442fd74dddddcef778ae03a9d76ceb3cc6
+ms.sourcegitcommit: a53af7a228bb1f58cb8128a69a19da49f9e28700
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024844"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45372502"
 ---
 # <a name="preparing-for-tls-12-in-office-365-and-office-365-gcc"></a>Подготовка к TLS 1.2 в Office 365 и Office 365 GCC
-
-> [!IMPORTANT]
-> Пандемия в мире в разгаре, и мы в Microsoft понимаем, как это влияет на наших клиентов и партнеров. Чтобы снизить нагрузку на наших коммерческих клиентов, мы временно прекратили отключение TLS 1.0 и 1.1. Обновление будет отправлено в новые сроки после того, как текущий кризис стабилизируется. (Эта статья пересматривается с учетом изменений.)
 
 ## <a name="summary"></a>Аннотация
 
@@ -34,7 +32,7 @@ ms.locfileid: "45024844"
 
 ## <a name="more-information"></a>Дополнительная информация
 
-Мы уже начали отключение TLS 1.0 и 1.1 с января 2020 года. Любые клиенты, устройства или службы, которые подключаются к Office 365 через TLS 1.0 или 1.1 в наших экземплярах DoD или GCC High, не поддерживаются. Для наших коммерческих клиентов Office 365 мы остановим любую амортизацию TLS 1.0 и 1.1 до тех пор, пока ситуация с COVID-19 не стабилизируется.
+Мы уже начали отключение TLS 1.0 и 1.1 с января 2020 года. Любые клиенты, устройства или службы, которые подключаются к Office 365 через TLS 1.0 или 1.1 в наших экземплярах DoD или GCC High, не поддерживаются. Для наших коммерческих клиентов Office 365 устаревшие протоколы TLS 1,0 и 1,1 будут начинаться с 15 октября 2020 г.
 
 Необходимо убедиться в том, что все сочетания клиент-сервер и браузер-сервер используют протокол TLS 1.2 (или более поздней версии) для поддержки подключения к службам Office 365. Возможно, придется обновить определенные сочетания клиент-сервер и браузер-сервер.
 
