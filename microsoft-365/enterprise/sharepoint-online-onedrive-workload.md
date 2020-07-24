@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: Выполните по шагам процесс планирования, развертывания и эффективного использования SharePoint в вашей организации.
-ms.openlocfilehash: 6b0483073a836f29b1faa5a30018848ef7b2df34
-ms.sourcegitcommit: 47c45bd81afdc4867ff2980ced3df31dbad92b84
+ms.openlocfilehash: 77beb26065a9ecfd37acf976e7415cc870ff8ea4
+ms.sourcegitcommit: fe20f5ed07f38786c63df0f73659ca472e69e478
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268213"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201502"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Развертывание SharePoint и OneDrive для Microsoft 365 корпоративный
 
@@ -85,12 +85,11 @@ SharePoint можно использовать для разных целей. �
 
 Если вы самостоятельно выполняете планирование (или совместно с FastTrack), вам потребуется определить готовность вашей сети и организации к использованию SharePoint. Очень важно выполнение [условий готовности для сети](networking-exit-criteria.md) в базовой инфраструктуре, при котором особое внимание уделяется полосе пропускания для Интернета и задержкам трафика. Это необходимо, чтобы достичь максимальной производительности дополнительного трафика для документов SharePoint.
 
-Чтобы подготовиться к развертыванию, см. статью [Миграция в SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online). 
+Чтобы подготовиться к развертыванию, см. статью [Миграция в SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online).
 
 Ознакомьтесь со следующими ресурсами, чтобы лучше понять принципы обеспечения безопасности в SharePoint:
-
--     [Как SharePoint и OneDrive защищают облачные данные](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--     [Шифрование данных в OneDrive и SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+- [Как SharePoint и OneDrive защищают облачные данные](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+- [Шифрование данных в OneDrive и SharePoint](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>Результат
 
