@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: 'Сведения о преобразовании личного почтового ящика в общий почтовый ящик, к которому можно получить доступ несколько пользователей. '
-ms.openlocfilehash: c4f71f12b430e239f5ea5791ba5b98a3109452b0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 7ae00c1d9c901378798f063554a44a3e5b741442
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400116"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391534"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>Преобразование почтового ящика пользователя в общий почтовый ящик
 
@@ -95,6 +95,9 @@ ms.locfileid: "44400116"
     
 Все, что вам нужно знать о общих почтовых ящиках, можно узнать в статье [Общие](about-shared-mailboxes.md) почтовые ящики и [создать общий почтовый ящик](create-a-shared-mailbox.md).
 
+> [!NOTE]
+> Для общих почтовых ящиков не нужна отдельная лицензия. Тем не менее, если вы хотите включить архивацию на месте или разместить на месте общий почтовый ящик, необходимо назначить почтовому ящику Exchange Online Plan 1 с помощью архивации на базе Exchange Online или Exchange Online (план 2).
+
 
 ## <a name="convert-the-mailbox-of-a-deleted-user"></a>Преобразование почтового ящика удаленного пользователя
 
@@ -113,6 +116,7 @@ ms.locfileid: "44400116"
 6. После этого вы можете удалить лицензию из почтового ящика пользователя. Не удаляйте старый почтовый ящик пользователя. К нему привязан общий почтовый ящик.
     
 7. Добавьте участников в общий почтовый ящик.
+
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>Преобразование общего почтового ящика обратно в личный почтовый ящик пользователя
 

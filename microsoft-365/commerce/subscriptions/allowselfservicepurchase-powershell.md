@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать командлет PowerShell Алловселфсервицепурчасе для включения или отключения самостоятельной покупки.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ec5ebe814066916de5cafc176cdcd82bfd416a57
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: b35b62a97f8dc269be5db232e163391a8ce50658
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403694"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391546"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Использование Алловселфсервицепурчасе для модуля PowerShell Мскоммерце
 
@@ -33,7 +33,7 @@ ms.locfileid: "44403694"
 - Просмотр списка доступных продуктов и включение или отключение самостоятельной покупки
 - Просмотр или изменение текущего значения для конкретного продукта, чтобы включить или отключить его
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 Чтобы использовать модуль PowerShell **мскоммерце** , вам потребуется следующее:
 
@@ -132,8 +132,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 Отображается следующее сообщение об ошибке:
 
-    HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying
-    connection was closed: An unexpected error occurred on a send.
+> HandleError: не удалось получить политику с помощью Полициид "Алловселфсервицепурчасе", ErrorMessage — базовое подключение было закрыто: при отправке произошла непредвиденная ошибка.
 
 Это может быть вызвано более старой версией протокола TLS. Чтобы подключить эту службу, необходимо использовать протокол TLS 1,2 или более поздней версии
 

@@ -14,16 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Администраторы могут научиться настраивать URL-адреса и записи файлов в списке разрешенных и запрещенных клиентов в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 742a44c7ed63c8a3037e2ada295c94f89afa9c93
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: db34abf28b5ead8106eb0b1447052d63072b2da3
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726810"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391570"
 ---
-# <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>Управление URL-адресами и файлами в списке разрешенных и запрещенных клиентов
+# <a name="manage-urls-and-files-in-the-tenant-allowblock-list"></a>Управление URL-адресами и файлами в списке разрешенных и заблокированных клиентов
 
 > [!NOTE]
 > Функции, описанные в этой статье, в предварительной версии, могут быть изменены и недоступны во всех организациях.
@@ -58,17 +57,17 @@ ms.locfileid: "44726810"
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Прежде чем выполнять процедуры, описанные в этом разделе, необходимо назначить разрешения.
+- Чтобы вы могли выполнить процедуры, упомянутые в этой теме, вам должны быть назначены соответствующие разрешения.
 
   - Чтобы добавить или удалить значения из списка разрешенных и заблокированных клиентов, необходимо быть участником одной из следующих групп ролей:
 
-    - **Управление организацией** или **администратор безопасности** в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
     - **Управление организацией** или **Управление санацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
   - Для доступа только для чтения к списку разрешенных и запрещенных клиентов необходимо быть участником одной из следующих групп ролей:
 
-    - **Средство чтения безопасности** в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
-    - **Управление организацией только с просмотром** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Средство считывания сведений о безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 ## <a name="use-the-security--compliance-center-to-create-url-entries-in-the-tenant-allowblock-list"></a>Использование центра безопасности & соответствия требованиям для создания записей URL-адресов в списке разрешенных и запрещенных клиентов
 
@@ -176,7 +175,7 @@ ms.locfileid: "44726810"
 
    - **Необязательное примечание**: введите описательный текст для записи.
 
-5. По завершении нажмите кнопку **Сохранить**.
+5. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-remove-url-and-file-entries-from-the-tenant-allowblock-list"></a>Использование центра безопасности & соответствия требованиям для удаления записей URL и файлов из списка разрешенных и запрещенных клиентов
 
