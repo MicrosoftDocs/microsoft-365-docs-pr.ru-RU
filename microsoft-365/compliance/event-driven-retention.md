@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-may2020
 - seo-marvel-jun2020
 description: Как правило, в рамках решения для управления записями можно настроить метку хранения, чтобы начать период хранения, который зависит от возникновения указанного вами события.
-ms.openlocfilehash: 5a04e97b341c66a78010e7255554be72aa073593
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: a3760feafa5307c8c71e83dcc72b988258b94a2a
+ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45199733"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391511"
 ---
 # <a name="start-retention-when-an-event-occurs"></a>Общие сведения о хранении, зависящем от возникновения события
 
@@ -66,16 +66,16 @@ ms.locfileid: "45199733"
     
 3. "Время существования продукта" — это тип события, которое наступает при завершении существования продукта. Когда возникает такого рода события, т. е. когда время существования продукта заканчивается, создается событие, для которого указывается следующее:
     
-  - Идентификатор ресурса (для документов SharePoint и OneDrive).
+   - Идентификатор ресурса (для документов SharePoint и OneDrive).
     
-  - Ключевые слова (для элементов Exchange). В этом примере организация использует код продукта в сообщениях, содержащих записи продукта, поэтому ключевое слово для элементов Exchange совпадает с идентификатором ресурса для документов SharePoint и OneDrive.
+   - Ключевые слова (для элементов Exchange). В этом примере организация использует код продукта в сообщениях, содержащих записи продукта, поэтому ключевое слово для элементов Exchange совпадает с идентификатором ресурса для документов SharePoint и OneDrive.
     
-  - Дата возникновения события. С этой даты начинается период хранения, она может быть текущей, прошедшей или будущей.
-    
-4. После создания события эта дата события синхронизируется со всем контентом, который имеет метку хранения этого типа и которая содержит указанный идентификатор актива или ключевое слово. Как и любая метка хранения, эта синхронизация может занять до 7 дней. На предыдущей схеме все элементы, обведенные красным, имеют период хранения, активированный этим событием. Другими словами, когда срок действия этого продукта истекает, это событие запускает период хранения для записей этого продукта.
-    
+   - Дата возникновения события. С этой даты начинается период хранения, она может быть текущей, прошедшей или будущей.
+
+4. После создания события эта дата события синхронизируется со всем контентом, который имеет метку хранения этого типа и которая содержит указанный идентификатор актива или ключевое слово. Как и в случае любой другой метки хранения, эта синхронизация может занять до 7 дней. На предыдущей схеме все элементы, обведенные красным, имеют период хранения, активированный этим событием. Другими словами, когда срок действия этого продукта истекает, это событие запускает период хранения для записей этого продукта.
+
 Важно понимать, что если вы не укажете идентификатор ресурса или ключевые слова для события, у **всего содержимого**, которому присвоена метка события такого типа, будет период хранения, определяемый событием. Это означает, что на предыдущей диаграмме все содержимое начало бы сохраняться. Это может быть не то, что вы намерены. 
-  
+
 Наконец, помните, что каждая метка хранения имеет свои собственные настройки хранения. В этом примере все они указывают 10 лет, но для события возможно инициировать метки хранения, где каждая метка имеет свой период хранения.
   
 ## <a name="how-to-set-up-event-driven-retention"></a>Настройка хранения, зависящего от возникновения события
@@ -140,7 +140,7 @@ ms.locfileid: "45199733"
     
 - идентификаторы сотрудников для хранения содержимого, касающегося только конкретного лица.
     
-Идентификатор ресурса — это еще одно свойство документа, доступное в SharePoint и OneDrive. Ваша организация может уже использовать другие свойства и идентификаторы документов для классификации содержимого. Если это так, вы также можете использовать эти свойства и значения при создании события — см. следующий шаг 6. Важно использовать какое-либо сочетание*свойство:значение* в свойствах документа, чтобы сопоставить элемент с каким-либо типом событий.
+Идентификатор ресурса — это еще одно свойство документа, доступное в SharePoint и OneDrive. Ваша организация может уже использовать другие свойства и идентификаторы документов для классификации содержимого. В этом случае также можно использовать эти свойства и значения при создании события — см. следующий шаг 6. Важно использовать какое-либо сочетание*свойство:значение* в свойствах документа, чтобы сопоставить элемент с каким-либо типом событий.
   
 ![Текстовое поле для ввода идентификатора ресурса](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
@@ -150,7 +150,7 @@ ms.locfileid: "45199733"
   
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>Шаг 6. Выберите тип события, который использовался для метки из описания шага 2
 
-Когда вы создаете событие, выберите тот же тип события, который используется меткой хранения на шаге 2, например Product Lifetime. Период хранения будет инициирован только для контента с метками хранения, примененными к нему с таким типом события.
+Когда вы создаете событие, выберите тот же тип события, который используется меткой хранения на шаге 2, например "Время существования продукта". Период хранения будет инициирован только для контента с метками хранения, примененными к нему с таким типом события.
   
 ![Возможность выбора типа события в параметрах события](../media/11663591-5628-419e-9537-61eb8f5c741f.png)
   
@@ -190,9 +190,7 @@ ms.locfileid: "45199733"
   
 ## <a name="automate-events-by-using-powershell"></a>Автоматизация событий с помощью PowerShell
 
-Центр соответствия требованиям Microsoft 365 позволяет создавать события вручную и не поддерживает автоматическую активацию события при его возникновении. Однако для автоматической активации событий можно использовать API REST. Дополнительные сведения см. в статье [Автоматизация хранения на основе событий](automate-event-driven-retention.md).
-
-Кроме того, с помощью сценария PowerShell можно автоматизировать хранение на основе событий из бизнес-приложений. Командлеты PowerShell, доступные для хранения на основе событий:
+Для автоматизации хранения на основе событий в бизнес-приложениях можно использовать сценарий PowerShell. Командлеты PowerShell, доступные для хранения на основе событий:
   
 - [Get-ComplianceRetentionEventType](https://go.microsoft.com/fwlink/?linkid=873002)
     
@@ -206,4 +204,257 @@ ms.locfileid: "45199733"
     
 - [New-ComplianceRetentionEvent](https://go.microsoft.com/fwlink/?linkid=873003)
     
+
+## <a name="automate-events-by-using-a-rest-api"></a>Автоматизация событий с помощью REST API
+
+Можно использовать REST API для автоматического создания событий, инициирующих начало срока хранения.
+
+REST API — это конечная точка службы, поддерживающая наборы операций HTTP (методы), которые обеспечивают создание, получение, обновление и удаление доступа к ресурсам службы. Дополнительные сведения см. в статье [Компоненты запросов и откликов REST API](https://docs.microsoft.com/rest/api/gettingstarted/#components-of-a-rest-api-requestresponse). С помощью REST API Microsoft 365 можно создавать и получать события методами POST и GET.
+
+Существует два способа использования REST API:
+
+- **Microsoft Power Automate или аналогичное приложение** для автоматического запуска события. Microsoft Power Automate — это оркестратор для подключения к другим системам, поэтому не потребуется создавать собственное настраиваемое решение. Дополнительные сведения см. на [веб-сайте Power Automate](https://flow.microsoft.com/ru-RU/).
+
+- **PowerShell или HTTP-клиент, вызывающий REST API** для создания событий с помощью PowerShell (версии 6 или более поздней), входящего в состав настраиваемого решения.
+
+Перед использованием REST API пользователю, имеющему права глобального администратора, необходимо подтвердить URL-адрес, используемый для вызова события хранения. Для этого выполните вызов события хранения GET, используя URL-адрес REST API:
+
+```console
+https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+```
+
+Проверьте код отклика. Если это 302, получите перенаправленный URL-адрес в свойстве "Location" заголовка отклика и используйте этот URL-адрес вместо `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent` в приведенных ниже инструкциях.
+
+События, создающиеся автоматически, можно проверить: откройте Центр соответствия требованиям Microsoft 365 > **Управление записями** >  **События**.
+
+### <a name="use-microsoft-power-automate-to-create-the-event"></a>Используйте Microsoft Power Automate для создания события
+
+Создайте процесс, создающий событие с помощью REST API Microsoft 365:
+
+![Использование Flow для создания события](../media/automate-event-driven-retention-flow-1.png)
+
+![Использование Flow для вызова REST API](../media/automate-event-driven-retention-flow-2.png)
+
+#### <a name="create-an-event"></a>Создание события
+
+Пример кода для вызова REST API:
+
+- **Метод**: POST
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+- **Текст**:
+    
+    ```xml
+    <?xml version='1.0' encoding='utf-8' standalone='yes'?>
+    
+    <entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'
+    
+    xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'
+    
+    xmlns='http://www.w3.org/2005/Atom'>
+    
+    <category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' />
+    
+    <updated>9/9/2017 10:50:00 PM</updated>
+    
+    <content type='application/xml'>
+    
+    <m:properties>
+    
+    <d:Name>Employee Termination </d:Name>
+    
+    <d:EventType>99e0ae64-a4b8-40bb-82ed-645895610f56</d:EventType>
+    
+    <d:SharePointAssetIdQuery>1234</d:SharePointAssetIdQuery>
+    
+    <d:EventDateTime>2018-12-01T00:00:00Z </d:EventDateTime>
+    
+    </m:properties>
+    
+    </content>
+    
+    </entry>
+    ```
+    
+- **Проверка подлинности**: обычная
+- **Имя пользователя**: "Complianceuser"
+- **Пароль**: "Compliancepassword"
+
+
+##### <a name="available-parameters"></a>Доступные параметры
+
+
+|Параметры|Описание|Примечания|
+|--- |--- |--- |
+|<d:Name></d:Name>|Указание уникального имени события.|Нельзя использовать конечные пробелы и следующие символы: % * \ & < \> \| # ? , : ;|
+|<d:EventType></d:EventType>|Введите название типа события (или Guid).|Пример: "Увольнение сотрудника". Тип событий должен быть связан с меткой хранения.|
+|<d:SharePointAssetIdQuery></d:SharePointAssetIdQuery>|Введите "ComplianceAssetId:" + идентификатор сотрудника|Пример: "ComplianceAssetId:12345"|
+|<d:EventDateTime></d:EventDateTime>|Дата и время события|Формат: ГГГГ-ММ-ДДTчч:мм:ссZ. Пример: 2018-12-01T00:00:00Z
+|
+
+###### <a name="response-codes"></a>Коды ответа
+
+| Код ответа | Описание       |
+| ----------------- | --------------------- |
+| 302               | Перенаправление              |
+| 201               | Создано               |
+| 403               | Сбой авторизации  |
+| 401               | Сбой проверки подлинности |
+
+##### <a name="get-events-based-on-a-time-range"></a>Получение событий на основе диапазона времени
+
+- **Метод**: GET
+
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent?BeginDateTime=2019-01-11&EndDateTime=2019-01-16`
+
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+
+- **Проверка подлинности**: обычная
+
+- **Имя пользователя**: "Complianceuser"
+
+- **Пароль**: "Compliancepassword"
+
+
+###### <a name="response-codes"></a>Коды ответа
+
+| Код ответа | Описание                   |
+| ----------------- | --------------------------------- |
+| 200               | Все в порядке, список событий в формате atom+xml |
+| 404               | Не найдено                         |
+| 302               | Перенаправление                          |
+| 401               | Сбой авторизации              |
+| 403               | Сбой проверки подлинности             |
+
+##### <a name="get-an-event-by-id"></a>Получение события по идентификатору
+
+- **Метод**: GET
+
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent('174e9a86-74ff-4450-8666-7c11f7730f66')`
+
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+
+- **Проверка подлинности**: обычная
+
+- **Имя пользователя**: "Complianceuser"
+
+- **Пароль**: "Compliancepassword"
+
+###### <a name="response-codes"></a>Коды ответа
+
+| Код ответа | Описание                                      |
+| ----------------- | ---------------------------------------------------- |
+| 200               | Все в порядке, текст ответа содержит событие в формате atom+xml |
+| 404               | Не найдено                                            |
+| 302               | Перенаправление                                             |
+| 401               | Сбой авторизации                                 |
+| 403               | Сбой проверки подлинности                                |
+
+##### <a name="get-an-event-by-name"></a>Получение события по имени
+
+- **Метод**: GET
+
+- **URL-адрес**: `https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent`
+
+- **Заголовки**: Key = Content-Type, Value = application/atom+xml
+
+- **Проверка подлинности**: обычная
+
+- **Имя пользователя**: "Complianceuser"
+
+- **Пароль**: "Compliancepassword"
+
+
+###### <a name="response-codes"></a>Коды ответа
+
+| Код ответа | Описание                                      |
+| ----------------- | ---------------------------------------------------- |
+| 200               | Все в порядке, текст ответа содержит событие в формате atom+xml |
+| 404               | Не найдено                                            |
+| 302               | Перенаправление                                             |
+| 401               | Сбой авторизации                                 |
+| 403               | Сбой проверки подлинности                                |
+
+### <a name="use-powershell-or-any-http-client-to-create-the-event"></a>Используйте PowerShell или любой HTTP-клиент для создания события
+
+Требуется PowerShell версии 6 или более поздней.
+
+В сеансе PowerShell выполните следующий сценарий:
+
+```powershell
+param([string]$baseUri)
+
+$userName = "UserName"
+
+$password = "Password"
+
+$securePassword = ConvertTo-SecureString $password -AsPlainText -Force
+
+$credentials = New-Object System.Management.Automation.PSCredential($userName, $securePassword)
+
+$EventName="EventByRESTPost-$(([Guid]::NewGuid()).ToString('N'))"
+
+Write-Host "Start to create an event with name: $EventName"
+
+$body = "<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+
+<entry xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices'
+
+xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata'
+
+xmlns='http://www.w3.org/2005/Atom'>
+
+<category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' />
+
+<updated>7/14/2017 2:03:36 PM</updated>
+
+<content type='application/xml'>
+
+<m:properties>
+
+<d:Name>$EventName</d:Name>
+
+<d:EventType>e823b782-9a07-4e30-8091-034fc01f9347</d:EventType>
+
+<d:SharePointAssetIdQuery>'ComplianceAssetId:123'</d:SharePointAssetIdQuery>
+
+</m:properties>
+
+</content>
+
+</entry>"
+
+$event = $null
+
+try
+
+{
+
+$event = Invoke-RestMethod -Body $body -Method 'POST' -Uri "$baseUri/ComplianceRetentionEvent" -ContentType "application/atom+xml" -Authentication Basic -Credential $credentials -MaximumRedirection 0
+
+}
+
+catch
+
+{
+
+$response = $_.Exception.Response
+
+if($response.StatusCode -eq "Redirect")
+
+{
+
+$url = $response.Headers.Location
+
+Write-Host "redirected to $url"
+
+$event = Invoke-RestMethod -Body $body -Method 'POST' -Uri $url -ContentType "application/atom+xml" -Authentication Basic -Credential $credentials -MaximumRedirection 0
+
+}
+
+}
+
+$event | fl *
+
+```
 
