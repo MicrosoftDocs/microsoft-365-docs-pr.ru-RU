@@ -169,6 +169,8 @@
       href: tls-1-2-in-office-365-gcc.md
     - name: TLS 1.2 в Office 365
       href: prepare-tls-1.2-in-office-365.md
+    - name: "Шифрование с двойным ключом для общедоступной ознакомительной версии Microsoft\_365"
+      href: double-key-encryption.md
     - name: Ключ клиента
       items:
         - name: Шифрование службы с помощью ключа клиента в Office 365
@@ -313,14 +315,10 @@
           href: use-exchange-online-to-comply-with-sec-rule-17a-4.md
         - name: Создание меток хранения с помощью PowerShell
           href: bulk-create-publish-labels-using-powershell.md
-        - name: Использование хранения на основе событий
-          items:
-            - name: 'Общие сведения о хранении, зависящем от возникновения события'
-              href: event-driven-retention.md
-            - name: Автоматизация хранения на основе событий
-              href: automate-event-driven-retention.md
-            - name: Управление жизненным циклом документов SharePoint
-              href: auto-apply-retention-labels-scenario.md
+        - name: 'Общие сведения о хранении, зависящем от возникновения события'
+          href: event-driven-retention.md
+        - name: Управление жизненным циклом документов SharePoint
+          href: auto-apply-retention-labels-scenario.md
     - name: Ликвидация данных
       href: disposition.md
     - name: Управление неактивными почтовыми ящиками
