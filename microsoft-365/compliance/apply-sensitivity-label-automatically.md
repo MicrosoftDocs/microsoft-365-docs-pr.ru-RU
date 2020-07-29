@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: При создании метки конфиденциальности ее можно автоматически назначить документу или сообщению электронной почты или можно предложить пользователям выбрать рекомендованную метку.
-ms.openlocfilehash: 92811aff70e48992088abf221536684dcff794b8
-ms.sourcegitcommit: e6bf1af2d5cf54c3fcc3fa916abe268fc96bdd4e
+ms.openlocfilehash: 4bebf282f9bdd8f6b785c17c944b145814c80572
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45189514"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503030"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>Автоматическое применение метки конфиденциальности к содержимому
 
@@ -74,7 +74,7 @@ ms.locfileid: "45189514"
 Используйте следующую таблицу, чтобы определить разницу в порядке работы двух взаимодополняющих методов автоматического применения меток:
 
 |Функция или поведение|Настройка меток: автоматическое добавление меток для приложений Office |Политика: автоматическое добавление меток|
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|:-----|
 |Зависимость приложения|[Да](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps) |Нет |
 |Ограничение по расположению|Нет |Да |
 |Условия: обучаемые классификаторы|Да |Нет |
