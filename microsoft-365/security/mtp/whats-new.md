@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: fca4889167dd7eb5f57d4980c4b033e0903209eb
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: 1a2a8cd91d0cc32dc5a10b1eb1dd28714cd4f6c4
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204939"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429970"
 ---
 # <a name="whats-new-in-microsoft-threat-protection"></a>Что нового в службе защиты от угроз (Майкрософт)?
 
@@ -33,6 +33,7 @@ https://docs.microsoft.com/api/search/rss?search=%22Lists+the+new+features+and+f
 ## <a name="july-2020"></a>Июль 2020 г.
 - [Функция Филепрофиле ()](advanced-hunting-fileprofile-function.md) <br> Используйте эту функцию в [расширенных](advanced-hunting-overview.md) запросах поиска, чтобы расширить результаты с полными сведениями о файлах.
 - [Таблицы удостоверений и приложений](advanced-hunting-schema-tables.md)<br> Получите представление о событиях проверки подлинности, запросах Active Directory и действиях, связанных с приложениями, с помощью таблиц [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md), [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)и [аппфиливентс](advanced-hunting-appfileevents-table.md) в схеме расширенного поискового запроса.
+- [Запуск слежения](advanced-hunting-go-hunt.md)<br> Быстрое сведение из исследования инцидента для проверки определенного события, пользователя, устройства или других типов сущностей с помощью [расширенных](advanced-hunting-overview.md) возможностей поиска на основе запросов.
 
 ## <a name="june-2020"></a>Июнь 2020 г.
 - Веб-канал Twitter <br> Получите новейшие исследования безопасности, сведения о угрозах, новости о продуктах и т. д. в панели мониторинга.

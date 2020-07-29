@@ -1,7 +1,7 @@
 ---
-title: Конфигурация сети для настольного компьютера, управляемого Майкрософт
+title: Конфигурация сети для компьютеров, управляемых Майкрософт
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -9,14 +9,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a1cf21fdd53ca90218370fb9c87547c64e867cd8
-ms.sourcegitcommit: bad47f9c69025d76d1e161519640cf7e238bd3b2
+ms.openlocfilehash: 61ee024cc483f9be172063a256cedd3827d6807a
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735518"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430499"
 ---
-#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для настольного компьютера, управляемого Майкрософт
+#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Конфигурация сети для компьютеров, управляемых Майкрософт
 
 <!--Proxy config -->
 
@@ -33,32 +33,33 @@ ms.locfileid: "44735518"
 
 Прокси-сервер или брандмауэр должен поддерживать TLS 1,2. В противном случае может потребоваться отключить обнаружение протокола.
 
-### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>Разрешенные конечные точки — специфичные для компьютера, управляемого корпорацией Майкрософт
+### <a name="endpoints-allowed-that-are-necessary-for-microsoft-managed-desktop"></a>Разрешенные конечные точки, необходимые для управляемого рабочего стола Майкрософт
 
-На рабочем столе Майкрософт используется портал Azure для размещения веб-консоли. Следующие URL-адреса в приведенной ниже таблице должны находиться в списке разрешенных прокси-серверов и брандмауэре, чтобы устройства, управляемые корпорацией Майкрософт, могли общаться со службами Майкрософт.  
+На рабочем столе Майкрософт используется портал Azure для размещения веб-консоли. Следующие URL-адреса должны находиться в списке разрешенных прокси-серверов и брандмауэре, чтобы устройства, управляемые корпорацией Майкрософт, могли общаться со службами Майкрософт.  
 
-Обратите внимание, что ниже указан URL-адрес управляемого рабочего стола Майкрософт для всех служб, выполняемых в API клиента. Необходимо убедиться, что этот URL-адрес всегда доступен в корпоративной сети.
+URL-адрес компьютера, управляемого Майкрософт, используется для всех служб, выполняемых в API клиента. Необходимо убедиться, что этот URL-адрес всегда доступен в корпоративной сети.
 
 Служба Майкрософт  | Для белого списка требуются URL-адреса 
---- | --- | ---
+--- | ---
 Компьютеры, управляемые Майкрософт | prod-mwaas-services-customerapi.azurewebsites.net
 Получение справки | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
 Быстрая помощь | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
 Помощник по поддержке и восстановлению Майкрософт | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
-### <a name="endpoints-allowed---other-microsoft-products"></a>Разрешенные конечные точки — другие продукты Майкрософт
+### <a name="endpoints-allowed-used-by-other-microsoft-products"></a>Конечные точки, которые могут использоваться другими продуктами Майкрософт
 
 Есть URL-адреса от нескольких продуктов Майкрософт, которые должны быть включены в список разрешенных, чтобы устройства, управляемые корпорацией Майкрософт, могли общаться с этими службами Майкрософт. Воспользуйтесь ссылками, чтобы просмотреть полный список для каждого продукта. 
 
-Служба Майкрософт | Источник документации: URL-адреса, необходимые в списке разрешений
+Служба Майкрософт | Документация
 --- | ---
-Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)<br><br>time.windows.com
+Windows 10 Корпоративная, включая обновление Windows для бизнеса | [Управление конечными точками подключений для Windows 10, версия 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 1903](https://docs.microsoft.com/windows/privacy/manage-windows-1903-endpoints)<br><br>[Управление конечными точками подключений для Windows 10, версия 2004](https://docs.microsoft.com/windows/privacy/manage-windows-2004-endpoints)
 Оптимизация доставки | [Настройка оптимизации доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
 Microsoft 365 | [Диапазоны URL-адресов и IP-адресов Microsoft 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | Для [гибридных удостоверений требуются порты и протоколы](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) и [требования к портам доменных служб Active Directory и Active Directory](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Требования к настройке сети Intune](https://docs.microsoft.com/intune/network-bandwidth-use)<br>[Конечные точки сети для Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/intune-endpoints)
 Advanced Threat Protection в защитнике Майкрософт (ATP) | [Конечные точки ATP защитника (Майкрософт)](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+Windows Autopilot | [Требования к сети для автопилота Windows](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

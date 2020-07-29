@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: 5bccbd73806a261cdbd795f200b6b459b536a97e
-ms.sourcegitcommit: c51dd4c659f763ae46c188d3fae90aab8d1d7e88
+ms.openlocfilehash: 9e1b1261bbb58b1ca65818a5ad304ee186561ae6
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45084138"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430522"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -370,30 +370,19 @@ OR
 
 ### <a name="definition"></a>Определение
 
-Политика защиты от потери данных с вероятностью в 95 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
 - функция Func_australian_medical_account_number находит содержимое, которое соответствует шаблону;
 - находится ключевое слово из Keyword_Australia_Medical_Account_Number;
 - Контрольная сумма проходит проверку.
 
-Политика защиты от потери данных с вероятностью в 85 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
-- функция Func_australian_medical_account_number находит содержимое, которое соответствует шаблону;
-- Контрольная сумма проходит проверку.
 
 ```xml
   <!-- Australia Medical Account Number -->
 <Entity id="104a99a0-3d3b-4542-a40d-ab0b9e1efe63" recommendedConfidence="85" patternsProximity="300">
-    <Pattern confidenceLevel="95">
+    <Pattern confidenceLevel="85">
      <IdMatch idRef="Func_australian_medical_account_number"/>
-     <Any minMatches="1">
      <Match idRef="Keyword_Australia_Medical_Account_Number"/>
-     </Any>
-  </Pattern>
-<Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_australian_medical_account_number"/>
-     <Any minMatches="0" maxMatches="0">
-  <Match idRef="Keyword_Australia_Medical_Account_Number"/>
-     </Any>
-  </Pattern>
+    </Pattern>
 </Entity>
 ```
 
@@ -2631,7 +2620,7 @@ national id
 ### <a name="pattern"></a>Шаблон
 
 Форматируемые
-- три цифры;  
+- Три цифры 
 - Дефис или пробел 
 - Три цифры 
 - Дефис или пробел 
@@ -2718,7 +2707,7 @@ national id
 - точка; 
 - три цифры;  
 - точка; 
-- Три цифры 
+- три цифры; 
 - тире; 
 - одна цифра или буква (без учета регистра) — проверочная.
 
@@ -6813,7 +6802,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Keyword
+Ключевое слово
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -6855,7 +6844,7 @@ Dictionary
 
 ### <a name="pattern"></a>Шаблон
 
-Keyword
+Ключевое слово
 
 ### <a name="checksum"></a>Контрольная сумма
 
@@ -11794,6 +11783,10 @@ national id
 - находится ключевое слово из Keyword_taiwanese_national_id;
 - Контрольная сумма проходит проверку.
 
+Политика защиты от потери данных с вероятностью в 75 % верно обнаруживает этот тип конфиденциальной информации, если в расположении, не отдаленном более чем на 300 знаков:
+- функция Func_taiwanese_national_id находит содержимое, которое соответствует шаблону;
+- Контрольная сумма проходит проверку.
+
 ```xml
 <!-- Taiwanese National ID -->
 <Entity id="4C7BFC34-8DD1-421D-8FB7-6C6182C2AF03" patternsProximity="300" recommendedConfidence="85">
@@ -11801,6 +11794,9 @@ national id
           <IdMatch idRef="Func_taiwanese_national_id" />
           <Match idRef="Keyword_taiwanese_national_id" />
       </Pattern>
+       <Pattern confidenceLevel="75">
+         <IdMatch idRef="Func_taiwanese_national_id" />
+       </Pattern>
 </Entity>
 ```
 

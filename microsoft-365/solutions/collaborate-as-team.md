@@ -2,7 +2,7 @@
 title: Совместная работа с гостями в команде
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Сведения о действиях по настройке Microsoft 365, необходимых для настройки группы для совместной работы с гостями в Teams.
-ms.openlocfilehash: 6742409732e1ef9b466dae6854768c3843f33bd0
-ms.sourcegitcommit: 87eff6e8a08cec3cb0464a3b765434717584a4a9
+ms.openlocfilehash: 2a412502af16ff95bf0f1f912ac57d00eb1d382a
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "44371496"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430391"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>Совместная работа с гостями в команде
 
@@ -82,7 +82,7 @@ Teams использует группы Microsoft 365 для членства в
 Настройка параметров гостя для групп Microsoft 365
 
 1. В центре администрирования Microsoft 365 в левой панели навигации разверните узел **Параметры**.
-2. Щелкните **службы & надстройки**.
+2. Щелкните **Параметры организации**.
 3. В списке выберите пункт **Microsoft 365 группы**.
 4. Убедитесь, что установлены флажки для членов группы, не входящих в **вашу организацию** , и **разрешите владельцам групп добавлять людей за пределом Организации в группы** .
 5. Если вы внесли изменения, нажмите кнопку **сохранить изменения**.

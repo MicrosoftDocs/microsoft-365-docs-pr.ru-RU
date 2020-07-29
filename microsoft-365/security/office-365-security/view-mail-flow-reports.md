@@ -1,5 +1,5 @@
 ---
-title: Просмотр отчетов о движении по почте в центре безопасности & соответствия требованиям
+title: Просмотр отчетов потока обработки почты в Центре безопасности и соответствия требованиям
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты безопасности почтовых систем для вашей организации. Отчеты о движении по почте доступны в центре безопасности & соответствия требованиям.
 ms.custom: ''
-ms.openlocfilehash: 70c96bb4f43edb80f98fdc98aa173fed9e54e7d7
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: e891d9373b169dc01cfd89f114e31b23e1bd8480
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44937259"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434183"
 ---
-# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>Просмотр отчетов о движении по почте в центре безопасности & соответствия требованиям
+# <a name="view-mail-flow-reports-in-the-security--compliance-center"></a>Просмотр отчетов потока обработки почты в Центре безопасности и соответствия требованиям
 
 В дополнение к сведениям о [почтовых сообщениях](mail-flow-insights-v2.md) , которые доступны в центре безопасности & соответствия требованиям, доступны разнообразные отчеты о движении почты, которые помогут вам отслеживать свою организацию Microsoft 365. Если у вас есть [необходимые разрешения](#what-permissions-are-needed-to-view-these-reports), вы можете просмотреть эти отчеты в центре безопасности & соответствия требованиям, <https://office.protection.com> перейдя на **Reports** \> **панель мониторинга**отчетов. Чтобы перейти непосредственно к панели мониторинга отчетов, откройте ее <https://office.protection.office.com/insightdashboard> .
 
@@ -310,7 +310,7 @@ ms.locfileid: "44937259"
 
   ![Представление "направление" в отчете о отправленных и полученных сообщениях](../../media/sent-and-received-email-report-direction-view.png)
 
-- **Детализация по** \> **Вредоносные программы (защита от вредоносных программ)**: этот вариант позволяет вернуться к [определению вредоносных программ в отчете по электронной почте](view-email-security-reports.md#malware-detection-in-email-report).
+- **Детализация по** \> **Вредоносные программы (защита от вредоносных программ)**: при выборе этого параметра осуществляется [Поиск вредоносных программ в отчете по электронной почте](view-email-security-reports.md#malware-detections-in-email-report).
 
 - **Детализация по** \> **Обнаружения нежелательной почты)**: при выборе этого параметра откроется [отчет об обнаружении нежелательной почты](view-email-security-reports.md#spam-detections-report).
 

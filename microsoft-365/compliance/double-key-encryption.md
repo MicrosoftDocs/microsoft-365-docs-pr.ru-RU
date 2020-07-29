@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: d9ed155576d69889e53e4e4d1ce03e4233fd08ff
-ms.sourcegitcommit: 4789b261eb029d7c965421a1260acc110e6385db
+ms.openlocfilehash: 7f54832001f80418ffb09bc45da8f32c79f3df53
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45387446"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503040"
 ---
 # <a name="double-key-encryption-dke"></a>Шифрование с двойным ключом (ДКЕ)
 
@@ -33,9 +33,11 @@ ms.locfileid: "45387446"
 
 Дополнительные сведения о корневых ключах облачных клиентов по умолчанию можно найти в статье [планирование и реализация ключа клиента Azure Information Protection](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key).
 
-В следующем видеоролике показано, как работает двойное шифрование для защиты контента.
+<!--
+The following video shows how Double Key Encryption works to secure your content.
 
 > [!VIDEO https://msit.microsoftstream.com/embed/video/f466a1ff-0400-a936-221c-f1eab45dc756]
+-->
 
 Если у вашей организации есть какие – либо из следующих требований, вы можете использовать ДКЕ для защиты своего содержимого:
 
@@ -45,7 +47,7 @@ ms.locfileid: "45387446"
 
 ## <a name="system-and-licensing-requirements-for-dke"></a>Требования к системе и лицензированию для ДКЕ
 
-Двойное ключевое шифрование для Microsoft 365, часть Microsoft 365 об/в и Office 365 Если у вас нет лицензии на Microsoft 365, вы можете зарегистрироваться для получения [пробной версии](https://aka.ms/M365E5ComplianceTrial). Для получения дополнительных сведений об этих лицензиях обратитесь к разделу [руководство по лицензированию Microsoft 365 для обеспечения безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+С двойным ключом шифрования для Microsoft 365 поставляется Microsoft 365 а и Office 365. Если у вас нет лицензии на Microsoft 365, вы можете зарегистрироваться для получения [пробной версии](https://aka.ms/M365E5ComplianceTrial). Для получения дополнительных сведений об этих лицензиях обратитесь к разделу [руководство по лицензированию Microsoft 365 для обеспечения безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 **Предварительная сборка Office** Для использования общедоступной предварительной версии вы должны быть участником программы предварительной оценки Office. Чтобы присоединиться к программе предварительной оценки Office, перейдите на страницу [https://insider.office.com](https://insider.office.com) . Когда вы являетесь участником, подготовьте среду к развертыванию сборок для участников программы предварительной оценки Office, выбрав нужный метод развертывания для своей организации. Инструкции приведены в разделе [Начало работы по развертыванию сборок для участников программы предварительной оценки Office](https://insider.office.com/business/deploy).
 
@@ -69,7 +71,7 @@ ms.locfileid: "45387446"
 
 В этой статье и видео о развертывании используется Azure в качестве места назначения развертывания для службы ДКЕ. При развертывании в другом расположении необходимо указать собственные значения.
 
-Просмотрите [видеоролик о развертывании двойных ключей](https://msit.microsoftstream.com/video/cfdda3ff-0400-a521-1579-f1eacc37fc7e) , чтобы просмотреть пошаговые инструкции по концепциям, представленным в этой статье. Для завершения видеоролика потребуется около 18 минут.
+Просмотрите [видеоролик о развертывании двойных ключей](https://youtu.be/vDWfHN_kygg) , чтобы просмотреть пошаговые инструкции по концепциям, представленным в этой статье. Для завершения видеоролика потребуется около 18 минут.
 
 Ниже приведены общие действия по настройке шифрования с двойным ключом для Организации.
 
@@ -134,11 +136,11 @@ ms.locfileid: "45387446"
 
 1. В правой части экрана выберите **код**. В вашей версии пользовательского интерфейса может отображаться кнопка " **Копировать" или "скачать** ". Затем в появившемся раскрывающемся меню выберите значок Копировать, чтобы скопировать URL-адрес в буфер обмена.
 
-    Пример:
+    Например:
 
     :::image type="content" source="../media/dke-clone.png" alt-text="Клонирование базы данных двойных шифрования ключей из GitHub":::
 
-3. В Visual Studio Code выберите пункт **Просмотреть** \> **палитру команд** и выберите **Git: Clone**. Чтобы перейти к параметру в списке, начните ввод, `git: clone` чтобы отфильтровать записи, а затем выберите его в раскрывающемся списке. Пример:
+3. В Visual Studio Code выберите пункт **Просмотреть** \> **палитру команд** и выберите **Git: Clone**. Чтобы перейти к параметру в списке, начните ввод, `git: clone` чтобы отфильтровать записи, а затем выберите его в раскрывающемся списке. Например:
 
     :::image type="content" source="../media/dke-vscode-clone.png" alt-text="Visual Studio Code GIT: параметр Clone":::
 
@@ -148,7 +150,7 @@ ms.locfileid: "45387446"
 
     Репозиторий открывается в Visual Studio Code и отображается в левом нижнем углу текущей ветви Git. Ветвь должна быть **основной**.
 
-    Пример:
+    Например:
 
     :::image type="content" source="../media/dke-vscode-master.png" alt-text="Ветвь образца кода Visual Studio":::
 
@@ -182,7 +184,7 @@ ms.locfileid: "45387446"
 
 1. Откройте **appsettings.js** файла и выберите `AuthorizedEmailAddress` параметр.
 
-2. Добавьте адрес электронной почты или адреса, которые вы хотите авторизовать. Разделяйте адреса электронной почты двойными кавычками и запятыми. Пример:
+2. Добавьте адрес электронной почты или адреса, которые вы хотите авторизовать. Разделяйте адреса электронной почты двойными кавычками и запятыми. Например:
 
    ```json
    "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
@@ -204,13 +206,13 @@ ms.locfileid: "45387446"
 
 1. Откройте **appsettings.js** файла и выберите `AuthorizedRoles` параметр.
 
-2. Добавьте имена групп Active Directory, которые вы хотите авторизовать. Разделяйте имена групп двойными кавычками и запятыми. Пример:
+2. Добавьте имена групп Active Directory, которые вы хотите авторизовать. Разделяйте имена групп двойными кавычками и запятыми. Например:
 
    ```json
    "AuthorizedRoles": ["group1", "group2", "group3"]
    ```
 
-3. Нахождение `LDAPPath` параметра и добавление домена Active Directory. Пример:
+3. Нахождение `LDAPPath` параметра и добавление домена Active Directory. Например:
 
    ```json
    "LDAPPath": "contoso.com"
@@ -230,7 +232,7 @@ ms.locfileid: "45387446"
 
 1. Откройте **appsettings.jsв** файле.
 
-2. Укажите `ValidIssuers` параметр и замените `<tenantid>` идентификатором клиента. Вы можете определить идентификатор клиента, перейдя на портал Azure и просмотрев [Свойства клиента](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Пример:
+2. Укажите `ValidIssuers` параметр и замените `<tenantid>` идентификатором клиента. Вы можете определить идентификатор клиента, перейдя на портал Azure и просмотрев [Свойства клиента](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Например:
 
    ```json
    "ValidIssuers": [
@@ -238,7 +240,7 @@ ms.locfileid: "45387446"
    ]
    ```
 
-Откройте файл `JwtAudience` . Замените `<yourhostname>` на имя узла компьютера, на котором будет запускаться служба дке. Пример:
+Откройте файл `JwtAudience` . Замените `<yourhostname>` на имя узла компьютера, на котором будет запускаться служба дке. Например:
 
 
 
@@ -347,7 +349,7 @@ ms.locfileid: "45387446"
 
 2. Чтобы отладить процесс, нажмите кнопку **выполнить** \> **Запуск отладки** . Если вам будет предложено выбрать среду, выберите пункт **.NET Core**.
 
-Основной отладчик .NET, как правило, запускается в ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' и добавляет косую черту (/) и имя ключа. Пример:
+Основной отладчик .NET, как правило, запускается в ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' и добавляет косую черту (/) и имя ключа. Например:
 
 ```https
 https://localhost:5001/TestKey1
@@ -371,7 +373,7 @@ https://localhost:5001/TestKey1
 
     - Для **публикации**выберите **код**и для **стека времени выполнения**выберите **.NET Core 3,1**.
 
-    Пример:
+    Например:
 
     :::image type="content" source="../media/dke-azure-add-app-service.png" alt-text="Добавление службы приложений":::
 
@@ -418,7 +420,7 @@ https://localhost:5001/TestKey1
 
 1. Скопируйте строки подключения, отображаемые в локальный файл. Эти строки будут использоваться для подключения к службе веб-приложений и отправки файлов через FTP.
 
-    Пример:
+    Например:
 
     :::image type="content" source="../media/dke-ftp-dashboard.png" alt-text="Копирование строк подключения из панели мониторинга FTP":::
 
@@ -446,7 +448,7 @@ https://localhost:5001/TestKey1
 
 src\customer-key-store\scripts\key_store_tester.ps1 микэйстореурл/микэй
 
-Пример:
+Например:
 
 key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
@@ -466,7 +468,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
     Если вы используете Microsoft Azure с нестандартным доменом, например **onmicrosoft.com**, выберите **учетные записи только в данном организационном каталоге (только Microsoft — один клиент).**
 
-    Пример:
+    Например:
 
     :::image type="content" source="../media/dke-app-registration.png" alt-text="Регистрация нового приложения":::
 
@@ -524,7 +526,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
 В центре соответствия требованиям Microsoft 365 создайте новую метку чувствительности и примените шифрование, как в противном случае. Выберите **использовать шифрование с двойным ключом** и введите URL-адрес конечной точки для своего ключа.
 
-Пример:
+Например:
 
 :::image type="content" source="../media/dke-use-dke.png" alt-text="Выберите использовать шифрование с двойным ключом в центре соответствия требованиям Microsoft 365":::
 
@@ -535,11 +537,9 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
 ### <a name="enable-dke-in-your-client"></a>Включение ДКЕ в клиенте
 
-Если метки ДКЕ не отображаются на ленте чувствительность в Microsoft Office, возможно, у клиента ДКЕ не включена.
-
 Включите ДКЕ для клиента, добавив следующие разделы реестра:
 
-```ini
+```properties
     [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\MSIPC\flighting]
     "DoubleKeyProtection"=dword:00000001
 

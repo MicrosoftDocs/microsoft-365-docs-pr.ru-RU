@@ -17,19 +17,17 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 89d592368d49d767d76865d299ab74a41a052b2f
-ms.sourcegitcommit: efd4dd29af0ea2b71b674534de3b2dcbfd7482db
+ms.openlocfilehash: b9afecb3d0efce93ae5d5725bba71d8d9719d17f
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689430"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430415"
 ---
 # <a name="quickly-hunt-for-entity-or-event-information-with-go-hunt"></a>Быстрый поиск сведений об объекте или событии с помощью службы поиска Go
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 С помощью действия *"Go Go* " можно быстро исследовать события и различные типы сущностей с помощью мощных [расширенных](advanced-hunting-overview.md) возможностей поиска на основе запросов. Это действие автоматически запускает Расширенный запрос поиска для поиска релевантных сведений о выбранном событии или сущности.
 
@@ -103,7 +101,7 @@ Timestamp between ((selectedTimestamp - 1h) .. (selectedTimestamp + 1h))
 - [Просмотр результатов в виде диаграмм](advanced-hunting-query-results.md#view-query-results-as-a-table-or-chart)
 - [Создание настраиваемого правила обнаружения](custom-detection-rules.md)
 
-## <a name="related-topics"></a>Похожие темы
+## <a name="related-topics"></a>Связанные статьи
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)

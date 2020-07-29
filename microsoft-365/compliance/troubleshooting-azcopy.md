@@ -19,12 +19,12 @@ description: Устранение ошибок для Azure AzCopy при заг
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 0185c179039b7aec72bc400709225ef42489f620
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: caec3011c89e027f1b78991a3dad842ff4b8c8aa
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819149"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434282"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Устранение неполадок AzCopy в Advanced eDiscovery
 
@@ -42,7 +42,7 @@ ms.locfileid: "44819149"
 
 Если AzCopy не установлен или он установлен в расположении, отличном от расположения установки по умолчанию (то есть `%ProgramFiles(x86)%` ), при выполнении команды AzCopy может появиться следующее сообщение об ошибке:
 
-    The system cannot find the path specified.
+> Системе не удается найти указанный путь.
 
 Если AzCopy не установлен на локальном компьютере, сведения об установке можно найти в разделе [Transfer Data с помощью AzCopy v 8.1 в Windows](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy). Обязательно установите его в расположении по умолчанию.
 

@@ -9,16 +9,16 @@ ms.topic: article
 audience: ITPro
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b6310849f27200adbbcbcb1584903011fbdf6145
-ms.sourcegitcommit: 9af890ef1b1c95bfc7cc52f7f4e395b62dc5263f
+ms.openlocfilehash: 17696b18b4109b568bb1d616813ba40e2a9dccdc
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146275"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430475"
 ---
 # <a name="access-the-admin-portal"></a>Доступ к порталу администрирования
 
-Ваш шлюз к службе управляемых рабочих столов Майкрософт — портал Microsoft [Azure](https://portal.azure.com). Дополнительные сведения об использовании и настройке взаимодействия с порталом Azure см. в [документации по порталу Azure](https://docs.microsoft.com/azure/azure-portal/). 
+Ваш шлюз к службе управляемых рабочих столов Майкрософт — портал Microsoft [Azure](https://portal.azure.com). Дополнительные сведения об использовании и настройке взаимодействия с порталом Azure см. в [документации по порталу Azure](https://docs.microsoft.com/azure/azure-portal/). Доступно в предварительной версии, вы также можете найти управляемый Майкрософт Рабочий стол в [диспетчере конечных точек Майкрософт](https://endpoint.microsoft.com/). Если вы не знакомы с возможностями этого портала для управления устройствами, ознакомьтесь с [документацией по диспетчеру конечных точек Майкрософт](https://docs.microsoft.com/mem/).
 
 Учетная запись администратора должна иметь специальные разрешения для доступа к порталу администрирования настольных компьютеров Майкрософт. Вы можете управлять административным доступом к этим функциям в Организации с помощью управления доступом на основе ролей (RBAC). Дополнительные сведения о ролях Azure Active Directory приведены в статье [разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).
 

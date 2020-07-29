@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: 5ba6f86ca44fbddf5fb603c5312c9fedebfad225
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 009ea920854cfb88082d1c59ba78ac3531d253cf
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127316"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502930"
 ---
 # <a name="supervision-policies"></a>Политики контроля
 
@@ -286,14 +286,6 @@ ms.locfileid: "45127316"
 ## <a name="audit"></a>Аудит
 
 В некоторых случаях необходимо предоставить сведения для аудиторов или аудиторов соответствия требованиям, чтобы доказать, что действия сотрудников и общения. Эта информация может представлять собой сводку по всем супервизорным действиям, связанным с определенной политикой или при изменении политики контроля. Политики контроля имеют встроенные журналы аудита для полной готовности к внутренним или внешним аудитам. Подробный журнал аудита всех действий, отслеживаемых политиками контроля, предоставляет доказательства процедур для руководителей.
-
-Ниже перечислены действия политики наблюдения, которые подлежат аудиту и доступны в едином журнале аудита.
-
-|**Действие**|**Связанные команды**|
-|:-----|:-----|
-| **Создание политики** | [New — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewpolicyv2) <br> [New — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/new-supervisoryreviewrule) |
-| **Изменение политики** | [Set — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewpolicyv2) <br> [Set — Супервисориревиевруле](https://docs.microsoft.com/powershell/module/exchange/set-supervisoryreviewrule) |
-| **Удаление политики** | [Remove — SupervisoryReviewPolicyV2](https://docs.microsoft.com/powershell/module/exchange/remove-supervisoryreviewpolicyv2) |
 
 Просмотр действий аудита в едином журнале аудита или с помощью командлета PowerShell [Search — UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/search-unifiedauditlog) .
 

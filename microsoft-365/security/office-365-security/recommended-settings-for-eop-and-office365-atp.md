@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Рекомендации по параметрам безопасности Exchange Online Protection (EOP) и Advanced Threat protection (ATP) Каковы текущие рекомендации по стандартной защите? Что следует использовать, если требуется более высокий ранг? И какие дополнительные возможности вы получаете, если вы также используете Advanced Threat protection (ATP)?
-ms.openlocfilehash: 542dce4d2abe9a40fcc5eef57502be5c37a34d57
-ms.sourcegitcommit: 688d62a8c52e4fb0feb721bb92b535effc278f54
+ms.openlocfilehash: f34c4e0aad2413fdeb082c37f980e6e4548db6b3
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45389849"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45430379"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Рекомендуемые параметры для EOP и безопасности ATP 365 для Office
 
@@ -194,7 +194,8 @@ ms.locfileid: "45389849"
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
-|**Используйте безопасные ссылки в: приложения Office 365** <br/><br/> _EnableSafeLinksForO365Clients_|Вкл. <br/><br/> `$true`|Вкл. <br/><br/> `$true`|Используйте безопасные ссылки ATP в приложениях Office 365, Office для iOS и Android.|
+|**Используйте безопасные ссылки в: приложения Office 365** <br/><br/> _EnableSafeLinksForO365Clients_|Вкл. <br/><br/> `$true`|Вкл. <br/><br/> `$true`|Использование безопасных ссылок ATP в клиентах Office 365 для настольных ПК и мобильных устройств (iOS и Android).|
+|**Используйте безопасные ссылки в: "Помощники Office Web Access"** <br/><br/> _енаблесафелинксфорвебакцесскомпанион_|Вкл. <br/><br/> `$true`|Вкл. <br/><br/> `$true`|Используйте безопасные ссылки ATP в Office Web Apps.|
 |**Не отслеживать, когда пользователи щелкают ссылки "безопасные"** <br/><br/> _тракккликкс_|Выкл. <br/><br/> `$true`|Выкл. <br/><br/> `$true`||
 |**Не разрешать пользователям щелкать ссылки с исходным URL-адресом.** <br/><br/> _алловкликксраугх_|Вкл. <br/><br/> `$false`|Вкл. <br/><br/> `$false`||
 |

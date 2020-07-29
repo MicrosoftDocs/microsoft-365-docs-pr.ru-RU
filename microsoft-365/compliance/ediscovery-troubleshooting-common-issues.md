@@ -19,12 +19,12 @@ ms.assetid: ''
 description: Сведения об основных этапах устранения неполадок, которые можно предпринять для решения распространенных проблем, связанных с обнаружением электронных данных в Office 365.
 siblings_only: true
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f8b73e886e9aa639ff5575f10822417411a0784e
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: f643f4c3709b811a10618343a4b37ac4114dd8c0
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035671"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434172"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>Исследование, устранение неполадок и устранение распространенных проблем обнаружения электронных данных
 
@@ -32,9 +32,9 @@ ms.locfileid: "44035671"
 
 ## <a name="errorissue-ambiguous-location"></a>Ошибка/Ошибка: неоднозначное расположение
 
-Если попытаться добавить в поиск расположение почтового ящика пользователя, а в каталоге Exchange Online Protection (EOP) имеются повторяющиеся или конфликтующие объекты с тем же userID, возникает следующая ошибка `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous`:. 
+Если попытаться добавить в поиск расположение почтового ящика пользователя, а в каталоге Exchange Online Protection (EOP) имеются повторяющиеся или конфликтующие объекты с тем же userID, возникает следующая ошибка: `The compliance search contains the following invalid location(s):useralias@contoso.com. The location "useralias@contoso.com" is ambiguous` .
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
 Проверьте наличие дубликатов пользователей или списка рассылки с одинаковым ИДЕНТИФИКАТОРом пользователя.
 
@@ -49,10 +49,10 @@ ms.locfileid: "44035671"
    Выходные данные для "useralias@contoso.com" будут выглядеть следующим образом:
 
    > 
-   > |Имя  |RecipientType  |
-   > |---------|---------|
-   > |Псевдоним, пользователь     |MailUser         |
-   > |Псевдоним, пользователь     |Пользователь         |
+   > |Имя|RecipientType|
+   > |---|---|
+   > |Псевдоним, пользователь|MailUser|
+   > |Псевдоним, пользователь|User|
 
 3. Если возвращается несколько пользователей, разместите и устраните конфликтующий объект.
 
@@ -63,15 +63,15 @@ ms.locfileid: "44035671"
 
 ![Снимок экрана с расположением для поиска со сбоем](../media/edisc-tshoot-specific-location-search-fails.png)
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
 При возникновении этой ошибки рекомендуется проверить расположения, в которых произошел сбой, а затем повторить поиск только в расположениях, на которых не удалось выполнить поиск.
 
 1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
 
-    ```powershell
-    Get-ComplianceSearch <searchname> | FL 
-    ```
+   ```powershell
+   Get-ComplianceSearch <searchname> | FL
+   ```
 
 2. В выходных данных PowerShell просмотрите сведения о неудачных расположениях в поле ошибки или сведения о состоянии, указанные в сообщении об ошибке, из результатов поиска.
 
@@ -81,11 +81,11 @@ ms.locfileid: "44035671"
 
 ## <a name="errorissue-file-not-found"></a>Ошибка/Ошибка: файл не найден
 
-При выполнении поиска обнаружения электронных данных, включающего SharePoint Online и один диск для размещения бизнеса, может появиться сообщение `File Not Found` об ошибке, несмотря на то, что файл находится на сайте. Эта ошибка будет находиться в разделе Экспорт предупреждений и ошибок. CSV или пропущенных элементов. csv. Это может произойти, если не удается найти файл на сайте или индекс устарел. Вот текст фактической ошибки (с добавленным выделением).
-  
+При выполнении поиска обнаружения электронных данных, включающего SharePoint Online и один диск для размещения бизнеса, может появиться сообщение об ошибке, несмотря на то, что `File Not Found` файл находится на сайте. Эта ошибка будет присутствовать в предупреждениях экспорта, errors.csv или пропущенных items.csv. Это может произойти, если не удается найти файл на сайте или индекс устарел. Вот текст фактической ошибки (с добавленным выделением).
+
 > 28.06.2019 10:02:19_FailedToExportItem_Failed для скачивания контента. Дополнительные диагностические сведения: Microsoft. Office. соответствие. EDiscovery. Експортворкер. Exceptions. Контентдовнлоадтемпорарифаилуре: не удалось скачать из контента 6ea52149 — 91cd – 4965 – b5bb – 82ca6a3ec9be типа Document. Идентификатор корреляции: 3bd84722-937b-4c23-b61b-08d6fba9ec32. Серверерроркоде: – 2147024894---> Microsoft. SharePoint. Client. Серверексцептион: ***файл не найден***. в Microsoft. SharePoint. Client. Клиентрекуест. Процессреспонсестреам (Stream Респонсестреам) на сайте Microsoft. SharePoint. Client. Клиентрекуест. Процессреспонсе ()---конец трассировки стека внутренних исключений---
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
 1. Проверьте расположение, указанное в поиске, чтобы убедиться в том, что расположение файла указано правильно и добавляется в расположений для поиска.
 
@@ -93,17 +93,17 @@ ms.locfileid: "44035671"
 
 ## <a name="errorissue-search-fails-because-recipient-is-not-found"></a>Ошибка/Ошибка: не удается выполнить поиск, так как получатель не найден
 
-Сбой поиска обнаружения электронных данных с ошибкой `recipient not found`. Эта ошибка может возникнуть, если объект пользователя не удается найти в Exchange Online Protection (EOP), так как объект не синхронизирован.
+Сбой поиска обнаружения электронных данных с ошибкой `recipient not found` . Эта ошибка может возникнуть, если объект пользователя не удается найти в Exchange Online Protection (EOP), так как объект не синхронизирован.
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
 1. Подключитесь к [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 2. Выполните следующую команду, чтобы проверить, синхронизирован ли пользователь с Exchange Online Protection:
 
-    ```powershell
-    Get-Recipient <userId> | FL
-    ```
+   ```powershell
+   Get-Recipient <userId> | FL
+   ```
 
 3. Для ответа пользователя должен быть объект пользователя почты. Если ничего не возвращается, изучите объект User. Если не удается синхронизировать объект, обратитесь в службу поддержки Майкрософт.
 
@@ -111,27 +111,27 @@ ms.locfileid: "44035671"
 
 При экспорте результатов поиска из обнаружения электронных данных или поиска контента в центре безопасности и соответствия требованиям Загрузка занимает больше времени, чем ожидалось.  Вы можете проверить количество загружаемых данных и, возможно, увеличить скорость экспорта.
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
-1.    Попробуйте использовать шаги, описанные в статье, чтобы [увеличить скорость загрузки](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
+1. Попробуйте использовать шаги, описанные в статье, чтобы [увеличить скорость загрузки](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results).
 
-2.    Если проблема не устранена, подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
+2. Если проблема не устранена, подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
 
-    ```powershell
-    Get-ComplianceSearch <searchname> | FL
-    ```
+   ```powershell
+   Get-ComplianceSearch <searchname> | FL
+   ```
 
-4. Найдите объем данных для загрузки в параметрах SearchResults и Сеарчстатистикс.
+3. Найдите объем данных для загрузки в параметрах SearchResults и Сеарчстатистикс.
 
-5. Выполните следующую команду:
+4. Выполните следующую команду:
 
    ```powershell
    Get-ComplianceSearchAction | FL
    ```
 
-6. В поле Результаты найдите экспортированные данные и просмотрите все обнаруженные ошибки.
+5. В поле Результаты найдите экспортированные данные и просмотрите все обнаруженные ошибки.
 
-7. Проверьте файл Trace. log, находящийся в каталоге, в который вы экспортировали содержимое для любых ошибок.
+6. Проверьте файл Trace. log, находящийся в каталоге, в который вы экспортировали содержимое для любых ошибок.
 
 ## <a name="errorissue-internal-server-error-500-occurred"></a>Ошибка/Ошибка: ошибка "Внутренняя ошибка сервера (500)"
 
@@ -139,15 +139,15 @@ ms.locfileid: "44035671"
 
 ![Снимок экрана "Внутренняя ошибка сервера 500"](../media/edisc-tshoot-error-500.png)
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
 1. Разбейте Поиск на небольшие поиски и снова запустите поиск.  Попробуйте использовать меньший диапазон дат или ограничить количество искомых расположений.
 
 2. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду:
 
-    ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
-    Get-ComplianceSearch <searchname> | FL
-    ```
+   ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
+   Get-ComplianceSearch <searchname> | FL
+   ```
 
 3. Изучите выходные данные для результатов и ошибок.
 
@@ -161,38 +161,37 @@ ms.locfileid: "44035671"
 
 > "Resources: для развертывания политики требуется больше времени, чем ожидалось. Для обновления состояния развертывания может потребоваться еще 2 часа, поэтому выполните проверку в течение нескольких часов. "
 
-### <a name="resolution"></a>Разрешение
+### <a name="resolution"></a>Решение
 
-1.    Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду, чтобы сохранить регистр для обнаружения электронных данных:
+1. Подключитесь к [PowerShell центра безопасности & соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) , а затем выполните следующую команду, чтобы сохранить регистр для обнаружения электронных данных:
 
-    ```powershell
-    Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
-    ```
+   ```powershell
+   Get-CaseHoldPolicy <policyname> - DistributionDetail | FL
+   ```
 
     Для политики хранения выполните следующую команду:
 
-    ```powershell
-    Get-RetentionCompliancePolicy <policyname> - DistributionDetail | FL
-    ```
+   ```powershell
+   Get-RetentionCompliancePolicy <policyname> - DistributionDetail | FL
+   ```
 
 2. Проверьте значение параметра Дистрибутиондетаил на наличие ошибок, как показано ниже.
- 
-   > Ошибка: Resources: для развертывания политики требуется больше времени, чем ожидалось. Для обновления состояния развертывания может потребоваться еще 2 часа, поэтому выполните проверку в течение нескольких часов. " 
-   
+
+   > Ошибка: Resources: для развертывания политики требуется больше времени, чем ожидалось. Для обновления состояния развертывания может потребоваться еще 2 часа, поэтому выполните проверку в течение нескольких часов. "
+
 3. Попробуйте выполнить параметр Ретридистрибутион для рассматриваемой политики:
-   
-    
-    Для дел eDiscovery содержит:
 
-    ```powershell
-    Set-CaseHoldPolicy <policyname> -RetryDistribution
-    ```
+   Для дел eDiscovery содержит:
 
-    Для политик хранения:
+   ```powershell
+   Set-CaseHoldPolicy <policyname> -RetryDistribution
+   ```
 
-    ```powershell
-    Set-RetentionCompliancePolicy <policyname> -RetryDistribution
-    ``` 
+   Для политик хранения:
+
+   ```powershell
+   Set-RetentionCompliancePolicy <policyname> -RetryDistribution
+   ```
 
 4. Обратитесь в службу поддержки корпорации Майкрософт.
 
