@@ -5,9 +5,8 @@ f1.keywords:
 ms.author: samanro
 author: samanro
 manager: scotv
-layout: LandingPage
 ms.audience: Admin
-ms.topic: landing-page
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -24,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 для кампаний
-ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
-ms.sourcegitcommit: 7bb3d8a93a85246172e2499d6c58c390e46f5bb9
+ms.openlocfilehash: d936b05c7668b2fcdeb976e547cde8694b304c27
+ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "43632039"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429982"
 ---
 <a name="microsoft-365-for-campaigns"></a>Microsoft 365 для кампаний
 ===========================
@@ -60,122 +59,25 @@ ms.locfileid: "43632039"
 <a name="get-started"></a>Начало работы
 --------------------------
 
-<ul class="panelContent cardsJ">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <p><b>Чтобы приступить к работе, следуйте указанным ниже инструкциям.</b></p>
-                        <P><a href="get-microsoft-365-campaigns.md">Получить Microsoft 365 для кампаний</a></p>
-                        <P><a href="m365-campaigns-users.md">Узнать, как ваши пользователи будут работать с Microsoft 365</a></p>
-                        <P><a href="microsoft-365-campaigns-setup-overview.md">Настроить Microsoft 365 для кампаний</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+![Схема](https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.png) **Чтобы начать, следуйте изложенным ниже инструкциям.**  
+
+- [Получить Microsoft 365 для кампаний](get-microsoft-365-campaigns.md)
+- [Узнать, как ваши пользователи будут работать с Microsoft 365](m365-campaigns-users.md)
+- [Настроить Microsoft 365 для кампаний](microsoft-365-campaigns-setup-overview.md)
+
+
 
 <a name="solutions-for-your-campaign-or-small-business"></a>Решения для вашей кампании или малого бизнеса
 --------------------------
 
 После настройки безопасной среды Microsoft 365, для начала работы можно использовать следующие решения:
 
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-teams-collab.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Создание команд для совместной работы</h3>
-                        <p>В Microsoft Teams можно создавать и использовать для общения и совместной работы определенные группы для ключевых сотрудников, всех сотрудников, партнеров и поставщиков.</p>
-                        <p><a href="create-teams-for-collaboration.md">Создание группы</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-meetings.png" alt="an online meeting" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Организация собраний по сети</h3>
-                        <p>Запланируйте собрание с помощью звука, видео и общего доступа в Microsoft Teams.</p>
-                        <p><a href="set-up-meetings.md">Организация собрания</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-campaign-email-encrypt.png" alt="Encrypted and labeled email" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Шифрование или обозначение конфиденциальной электронной почты</h3>
-                        <p>Используйте метки шифрования и конфиденциальности для защиты электронной почты, содержащей конфиденциальные или важные данные.</p>
-                        <p><a href="send-encrypted-email.md">Отправка зашифрованных писем</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/sm-m365-democracy-comms-site.png" alt="a SharePoint communications site" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Создание коммуникационного сайта</h3>
-                        <p>Делитесь событиями, сообщениями, изображениями и многим другим с вашей командой на веб-сайте внутренних коммуникаций, созданном с помощью SharePoint.</p>
-                        <p><a href="create-communications-site.md">Создание своего сайта</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/m365-democracy-teams-sharefiles.png" alt="sharing a file in Microsoft Teams" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Общий доступ к файлам и видео</h3>
-                        <p>Сохраняйте свои файлы и видео в облаке, чтобы они были доступны всем соответствующим лицам.</p>
-                        <p><a href="share-files-and-videos.md">Открыть общий доступ</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |
+| ------------- | ------------- |
+| ![информационный сайт SharePoint](../media/sm-m365-democracy-teams-collab.png) | ![собрание по сети](../media/m365-democracy-teams-meetings.png) |
+| **Создание команд для совместной работы**  В Microsoft Teams можно создавать пространство для общения и совместной работы с помощью специальных команд для ключевых сотрудников, всех сотрудников, партнеров или поставщиков. [Создание команды](create-teams-for-collaboration.md) | **Организация собраний по сети**  Назначьте собрание в Microsoft Teams с использованием функций звука, видео и предоставления общего доступа. [Организация собрания](set-up-meetings.md) |
+| ![Зашифрованные и помеченные сообщения электронной почты](../media/sm-m365-campaign-email-encrypt.png) | ![информационный сайт SharePoint](../media/sm-m365-democracy-comms-site.png) |
+| **Шифрование и присвоение меток конфиденциальным сообщениям электронной почты**  Пользуйтесь функциями шифрования и метками конфиденциальности для защиты сообщений электронной почты, содержащих конфиденциальные сведения. [Отправка зашифрованных писем](send-encrypted-email.md) | **Создание информационного сайта**  Делитесь событиями, сообщениями, изображениями, и многим другим на информационном сайте SharePoint. [Создание своего сайта](create-communications-site.md) |
+| ![совместное использование файлов в Microsoft Teams](../media/m365-democracy-teams-sharefiles.png) | |
+| **Делитесь файлами и видео**  Сохраняйте свои файлы и видео в облаке, чтобы они были доступны заданному кругу пользователей. [Открыть общий доступ](share-files-and-videos.md) | |
+
