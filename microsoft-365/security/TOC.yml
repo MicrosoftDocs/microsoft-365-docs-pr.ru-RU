@@ -423,7 +423,7 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Исправление вредоносной электронной почты
               href: ./office-365-security/remediate-malicious-email-delivered-office-365.md
-            - name: Просмотр и чтение отчетов ATP
+            - name: Просмотр отчетов ATP в центре безопасности и соответствия требованиям
               href: ./office-365-security/view-reports-for-atp.md
             - name: Использование аналитики угроз для описания последних атак
               href: ./mtp/latest-attack-campaigns.md
