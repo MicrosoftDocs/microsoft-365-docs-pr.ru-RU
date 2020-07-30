@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,18 +17,15 @@ ms.custom:
 - AdminSurgePortfolio
 - okr_SMB
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
-description: Сведения о самообслуживаниях Microsoft 365 и самостоятельных программах самообслуживания, таких как Microsoft Power Apps, Microsoft Flow и Dynamics 365, для финансовых данных.
-ms.openlocfilehash: d2d4d23eeb3ddeda0dc5b66acfe072a66f4ce267
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Узнайте о функции самообслуживания Microsoft 365 и самостоятельных программах самообслуживания, таких как Microsoft Power Apps, Microsoft Flow и Dynamics 365 для Finance.
+ms.openlocfilehash: 4a95c4b98821100d0a5164b87c1afe02b854608b
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399294"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506301"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>Использование функции самостоятельной регистрации в организации
 
@@ -67,4 +64,5 @@ ms.locfileid: "44399294"
 |**Minecraft Education Edition** <br/> |Платформа Minecraft помогает преподавателям мотивировать учащихся и увлечь их учебой. Присоединитесь к сообществу преподавателей, чтобы узнать, как они раскрывают потенциал учащихся с помощью Minecraft.  <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841480) <br/> |[Minecraft Education Edition](https://go.microsoft.com/fwlink/p/?linkid=841471) <br/> |
 |**Microsoft Stream** <br/> |Выкладывайте видео и делитесь ими с другими сотрудниками, чтобы улучшить взаимодействие, совместную работу и обучение.  <br/> |[Sign up &amp; Day 0 experience](https://go.microsoft.com/fwlink/p/?linkid=841472) <br/> |[Microsoft Stream](https://go.microsoft.com/fwlink/p/?linkid=841473) <br/> |
 |**Power Automate** <br/> |Автоматизация управления питанием это продукт, который поможет вам настроить автоматические рабочие процессы между вашими избранными приложениями и службами, чтобы синхронизировать файлы, получать уведомления, собирать данные и многое другое.  <br/> |[Регистрация и вход в систему для автоматизации управления питанием](https://docs.microsoft.com/power-automate/sign-up-sign-in) <br/> |[Power Automate](https://go.microsoft.com/fwlink/p/?linkid=841465) <br/> |
-|**Виртуальные агенты Power** <br/> |Power Virtual Agents позволяет Teams легко создавать мощные боты с помощью интерактивного графического интерфейса без необходимости работы с данными и разработчиками. Виртуальные агенты управления питанием решает многие основные проблемы, связанные с строительством ленты на современном рынке. Она устраняет зазор между экспертами по теме и группами разработки, Боты, а также с большой задержкой между командами, распознающей ошибку и обновлением Bot для ее устранения.  <br/> |[Сведения о лицензировании и доступе](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Подписка на виртуальные агенты управления питанием](https://aka.ms/TryPVA) <br/> |
+|**Power Virtual Agents** <br/> |Power Virtual Agents позволяет Teams легко создавать мощные боты с помощью интерактивного графического интерфейса без необходимости работы с данными и разработчиками. Виртуальные агенты управления питанием решает многие основные проблемы, связанные с строительством ленты на современном рынке. Она устраняет зазор между экспертами по теме и группами разработки, Боты, а также с большой задержкой между командами, распознающей ошибку и обновлением Bot для ее устранения.  <br/> |[Сведения о лицензировании и доступе](https://go.microsoft.com/fwlink/?linkid=2113708) <br/> |[Подписка на виртуальные агенты управления питанием](https://aka.ms/TryPVA) <br/> |
+|**Azure AD B2B** <br/> |Совместная работа Azure Active Directory (B2B) позволяет пригласить внешних пользователей (или "гостей") на использование платных служб Azure AD. Некоторые функции доступны бесплатно, но для любой платной функции Azure AD можно пригласить до пяти гостевых пользователей для каждой лицензии на Azure AD Edition, которой владеет сотрудник или пользователь, не являющийся гостямй, в клиенте. <br/> |[Регистрация для самостоятельной регистрации в службе совместной работы в Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/self-service-portal) <br/> |[Руководство по лицензированию для совместной работы в Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) <br/> |

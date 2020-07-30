@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c3406ebf5962d6f0ac08c1ee280bab725cf1c3bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 77bc0f088a9779396a56a9cc8cc9ae6ecbdadea7
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626962"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503107"
 ---
 # <a name="the-action-center"></a>Центр уведомлений
 
@@ -59,12 +59,26 @@ ms.locfileid: "43626962"
 
 5. Выберите элемент в списке, чтобы просмотреть дополнительные сведения об исследовании. Откроется представление со сведениями об исследовании.<br/>![Сведения об исследовании](../../media/mtp-air-investdetails.png)
 
-    - Если исследование относится к содержимому электронной почты (например, объект является почтовым ящиком), сведения об исследовании открываются в центре безопасности &[https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation)соответствия требованиям (). 
+    - Если исследование относится к содержимому электронной почты (например, объект является почтовым ящиком), сведения об исследовании открываются в центре безопасности & соответствия требованиям ( [https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation) ). 
 
     - Если исследование затрагивает устройство, сведения об исследовании откроются в Центре безопасности ([https://security.microsoft.com](https://security.microsoft.com)). 
 
 > [!TIP]
 > Если вы считаете, что что-то пошло не так или неправильно, с помощью автоматизированного расследования и функции ответа в Microsoft Threat Protection, сообщите нам о! Сведения о [том, как сообщить о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования (AIR) в защите от угроз Майкрософт](mtp-autoir-report-false-positives-negatives.md).
+
+## <a name="available-actions"></a>Доступные действия
+
+По мере выполнения действий по исправлению они отображаются на вкладке "журнал" в центре уведомлений. К таким действиям относятся следующие:
+
+- Сбор пакетов для расследования 
+- Изолировать устройство (это действие можно отменить) 
+- Компьютер переносе 
+- Запуск кода 
+- Выпуск из карантина 
+- Пример запроса 
+- Ограничение выполнения кода (это действие можно отменить) 
+- Запуск антивирусной проверки 
+- Остановка и карантин 
 
 ## <a name="required-permissions-for-action-center-tasks"></a>Обязательные разрешения для задач центра уведомлений
 
@@ -73,7 +87,7 @@ ms.locfileid: "43626962"
 |Действие по исправлению |Обязательные роли и разрешения |
 |--|----|
 |Исправление в Microsoft Defender ATP (устройства) |Роль администратора безопасности, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- или ---<br/>Роль Активные действия по исправлению, назначенная в Microsoft Defender ATP <br/> <br/> Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Создание ролей и управление ими для контроля доступа на основе ролей (Microsoft Defender ATP)](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles)  |
-|Исправление в Office 365 ATP (почта и содержимое Office)  |Роль администратора безопасности, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- и --- <br/>Роль поиска и очистки, которой назначен центр безопасности & соответствия[https://protection.office.com](https://protection.office.com)требованиям (). <br/><br/>**Важно!** если у вас есть роль администратора безопасности, назначенная только в центре безопасности & соответствия требованиям, вы не сможете получить доступ к центру уведомлений или функциям защиты от угроз Майкрософт. У вас должна быть роль администратора безопасности, назначенная в Azure Active Directory или Центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
+|Исправление в Office 365 ATP (почта и содержимое Office)  |Роль администратора безопасности, назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или Центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com))<br/>--- и --- <br/>Роль поиска и очистки, которой назначен центр безопасности & соответствия требованиям ( [https://protection.office.com](https://protection.office.com) ). <br/><br/>**Важно!** если у вас есть роль администратора безопасности, назначенная только в центре безопасности & соответствия требованиям, вы не сможете получить доступ к центру уведомлений или функциям защиты от угроз Майкрософт. У вас должна быть роль администратора безопасности, назначенная в Azure Active Directory или Центре администрирования Microsoft 365. <br/><br/>Для получения дополнительных сведений ознакомьтесь с приведенными ниже ресурсами. <br/>- [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br/>- [Разрешения в центре безопасности & соответствия требованиям](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center) |
 
 > [!NOTE]
 > Пользователи, которым назначена роль Глобальный администратор в Azure Active Directory, могут утвердить или отклонить любые ожидающие действия в центре уведомлений. Однако рекомендуется ограничить в организации число пользователей, которым назначена роль глобального администратора. Рекомендуем использовать роли Администратор безопасности, Активные действия по исправлению, и Поиск и очистка, указанные выше, в качестве разрешений центра уведомлений.

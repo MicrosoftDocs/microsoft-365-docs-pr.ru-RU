@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection включает безопасные вложения, безопасные ссылки, расширенные антифишинговые средства, инструменты создания отчетов и возможности аналитики угроз.
-ms.openlocfilehash: ffde9288338f14ea23fa39990ccd9363c7fd2a84
-ms.sourcegitcommit: 9ee1261c405f82b49c62390a25dfdea23340d644
+ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
+ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45039382"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45434053"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -87,9 +87,9 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 
 - [отчет о состоянии защиты от угроз](view-reports-for-atp.md#threat-protection-status-report);
 
-- [отчет о типах файлов ATP](view-reports-for-atp.md#atp-file-types-report);
+- [отчет о типах файлов расширенной защиты от угроз](view-reports-for-atp.md#advanced-threat-protection-file-types-report);
 
-- [отчет о действиях с сообщениями в ATP](view-reports-for-atp.md#atp-message-disposition-report);
+- [отчет о ликвидации сообщений расширенной защиты от угроз](view-reports-for-atp.md#advanced-threat-protection-message-disposition-report)
 
 - и некоторые другие.
 

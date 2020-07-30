@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 description: Краткое описание администраторов Exchange Online, необходимых для просмотра и настройки параметров S/MIME в Outlook в Интернете в Exchange Online.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2c1496025124717688cc812e22e0d8fe3a441112
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: b9f4e6c33369640ad66956568959dd02b01c4fb9
+ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616626"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46517489"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>Настройка параметров S/MIME в Exchange Online для Outlook в Интернете
 
@@ -31,7 +31,7 @@ ms.locfileid: "44616626"
 
 ## <a name="considerations-for-new-microsoft-edge-chromium-based"></a>Рекомендации по новым Microsoft EDGE (на основе Чромиум)
 
-Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , вы (или другой администратор) должны установить и настроить политику браузера Microsoft Edge с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в новой Microsoft Edge. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . Обратите внимание, что для применения этой политики требуются компьютеры, присоединенные к домену, поэтому для эффективного использования S/MIME в новом браузере Microsoft Edge необходимы компьютеры, присоединенные к домену.
+Чтобы использовать S/MIME в Outlook в Интернете в новом веб-браузере [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) , вы (или другой администратор) должны установить и настроить политику браузера Microsoft Edge с именем **екстенсионинсталлфорцелист** , чтобы установить расширение Microsoft S/MIME в новой Microsoft Edge. Значение политики — `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` . Обратите внимание, что для применения этой политики необходимо присоединение к домену или устройства, присоединенные к Azure AD, поэтому для эффективного использования S/MIME в новом обозревателе Microsoft Edge необходимо присоединение к домену или устройства, присоединенные к Azure AD.
 
 Подробные сведения о политике **екстенсионинсталлфорцелист** можно найти в статье [екстенсионинсталлфорцелист](https://docs.microsoft.com/DeployEdge/microsoft-edge-policies#extensioninstallforcelist).
 

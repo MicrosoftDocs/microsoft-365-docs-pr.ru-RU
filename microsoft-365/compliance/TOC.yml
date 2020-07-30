@@ -319,8 +319,8 @@
           href: event-driven-retention.md
         - name: Управление жизненным циклом документов SharePoint
           href: auto-apply-retention-labels-scenario.md
-    - name: Ликвидация данных
-      href: disposition.md
+        - name: Управление ликвидацией данных
+          href: disposition.md
     - name: Управление неактивными почтовыми ящиками
       items:
         - name: Общие сведения о неактивных почтовых ящиках

@@ -1,19 +1,19 @@
 ---
 title: Устройства, управляемые корпорацией Майкрософт, архивные устройства
 description: Устройства, которые не могут быть зарегистрированы, но будут иметь сокращенный срок службы поддержки
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: ca6bc91ebf300afe47326985cc923d929b2cd412
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: 4c7ce4e8fd9c41f9ae9417f546e14e7bf8beda5c
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080085"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46503071"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Устройства, управляемые корпорацией Майкрософт, архивные устройства
 
@@ -43,6 +43,9 @@ ms.locfileid: "45080085"
 |HP об x360 1030 G3| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера |**14 мая 2023 г.** |
 |HP об x360 1040 G5| 256 ГБ/Intel i5/8 ГБ ОЗУ | SKU с 5VS01AV, необходима ИК-камера | **23 октября 2023 г.** |
 |HP Пробук x360 440 G1| 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV, необходима ИК-камера или считыватель отпечатков пальцев | **6 июня 2023 г.** |
+|HP Елитедеск 800 G4 DM DM | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | **18 июля 2023 г.** |
+|HP Елитедеск 800 G4 СФФ | 128 ГБ/Intel i3/8 ГБ ОЗУ | SKU с 5VS04AV | **18 июля 2023 г.** |
+|HP Елитеоне 800 G4 G4 23.8 в АИО |128 ГБ/Intel i3/8 ГБ ОЗУ |SKU с 5VS04AV| **18 июля 2023 г.** |
 |Книга Surface 2| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **16 ноября 2022 г.** |
 |Переход на поверхность| 128 ГБ/Intel 4415Y/8 ГБ ОЗУ | Нет | **Авг 2, 2023** |
 |Ноутбук поверхности| 256 ГБ/Intel i5/8 ГБ ОЗУ | Нет | **20 мая 2022 г.** |

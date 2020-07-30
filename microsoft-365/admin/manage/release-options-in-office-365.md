@@ -22,19 +22,19 @@ search.appverid:
 - GEA150
 ms.assetid: 3b3adfa4-1777-4ff0-b606-fb8732101f47
 description: Узнайте, как настроить выпуск для новых обновлений продуктов и компонентов в центре администрирования Microsoft 365.
-ms.openlocfilehash: 4b26a3e95b11feb5c6a5894702b86e74f82bde03
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3baec050f33893357b25c832552643cf3a6d10d0
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399696"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502883"
 ---
 # <a name="set-up-the-standard-or-targeted-release-options"></a>Настройка стандартных или целевых вариантов выпуска
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -42,6 +42,9 @@ ms.locfileid: "44399696"
   
 > [!IMPORTANT]
 > Обновления Microsoft 365, описанные в этой статье, относятся к Microsoft 365, SharePoint Online и Exchange Online. Они не затрагивают Skype для бизнеса и связанные с ним службы. Эти варианты выпуска предназначены для достижения наилучших усилий при выпуске изменений в Microsoft 365, но не всегда и не поддерживаются ни для каких обновлений. 
+
+> [!NOTE]
+> Сведения о каналах обновления для приложений приведены в разделе [Обзор каналов обновления для приложений Microsoft 365](https://docs.microsoft.com/deployoffice/overview-update-channels). 
   
 ## <a name="how-it-works---release-validation"></a>Принцип действия проверки выпуска
 
