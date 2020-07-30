@@ -10,15 +10,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 55cb2e396b4e557a9fc6de2bba4a90b962137d7b
-ms.sourcegitcommit: a3ec91423c352cd5fbf79b46ccd9c169455a03ba
+ms.openlocfilehash: 1f9d2d1a8a1c346214fa58f0f6095683bee0b24f
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44664542"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520973"
 ---
 # <a name="microsoft-365-solution-and-architecture-center"></a>Центр архитектуры и решений Microsoft 365
 
@@ -29,7 +28,7 @@ ms.locfileid: "44664542"
 - [Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365](empower-people-to-work-remotely.md)
 - [Настройка безопасной совместной работы с помощью Microsoft 365](setup-secure-collaboration-with-teams.md)
 - [Развертывание защиты от угроз в Microsoft 365](deploy-threat-protection.md)
-- [Развертывание защиты информации для норм конфиденциальности данных](information-protection-deploy.md)
+- [Развертывание защиты информации в нормах конфиденциальности данных](information-protection-deploy.md)
 
 ![](https://docs.microsoft.com/office/media/icons/objects-blue.png) **[решение по загрузке объектов и рекомендации по сценариям](workload-solutions-scenarios-overview.md)** эти сценарии и решения помогают выполнить определенную бизнес-задачу. Вы можете добавить их в основные решения, чтобы добавить возможности в среду.
 

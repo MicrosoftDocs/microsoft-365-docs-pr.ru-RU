@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: Сведения о действиях по настройке Microsoft 365, необходимых для настройки сайта SharePoint для совместной работы с гостями.
-ms.openlocfilehash: 1f53fa43b6abdfaf21d938bc69db384d173d660e
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 320fb21f19c9616e78f56e519cb804e3e03b2b45
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160007"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527910"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>Совместная работа с гостями на сайте
 
@@ -44,7 +45,7 @@ ms.locfileid: "44160007"
 
 Настройка параметров организационных отношений
 
-1. Выполните вход в Microsoft Azure по [https://portal.azure.com](https://portal.azure.com)адресу.
+1. Выполните вход в Microsoft Azure по адресу [https://portal.azure.com](https://portal.azure.com) .
 2. В области навигации слева выберите **Azure Active Directory**.
 3. В области **Обзор** щелкните **организационные связи**.
 4. В области **организационные связи** щелкните **Параметры**.

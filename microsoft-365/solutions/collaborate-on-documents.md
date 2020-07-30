@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
 description: В этой статье вы узнаете, как совместно работать с гостями в документе в SharePoint и OneDrive.
-ms.openlocfilehash: 82b9d6356144d6d465c7c94f58ec60fe96a1397a
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: cb3c527304f0d286b4a1a0147d07537b0fae4eda
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159995"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527922"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>Совместная работа с гостями над документом
 
@@ -42,7 +43,7 @@ ms.locfileid: "44159995"
 
 Настройка параметров организационных отношений
 
-1. Выполните вход в Microsoft Azure по [https://portal.azure.com](https://portal.azure.com)адресу.
+1. Выполните вход в Microsoft Azure по адресу [https://portal.azure.com](https://portal.azure.com) .
 2. В области навигации слева выберите **Azure Active Directory**.
 3. В области **Обзор** щелкните **организационные связи**.
 4. В области **организационные связи** щелкните **Параметры**.

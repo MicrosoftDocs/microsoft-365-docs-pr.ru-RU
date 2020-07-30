@@ -5,21 +5,40 @@ keywords: журнал изменений
 ms.prod: m365-md
 ms.sitesec: library
 author: jaimeo
+ms.topic: article
+audience: ITPro
+manager: laurawi
 f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.article: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 1402cd8c03baa233ece1051a0ab9d7dc3b96b965
-ms.sourcegitcommit: ada2f1c6ca79177cae975d887107ff8884358e8a
+ms.openlocfilehash: 809f94e6355b7c0fe9155734fd548c9cb466cbe7
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "45107603"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528040"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Журнал изменений документации по компьютерам, управляемым Майкрософт
 
 В этой статье перечислены новые и обновленные статьи, содержащиеся в [управляемой документации на рабочем столе Майкрософт](index.yml). В обновленных статьях, в которые включены дополнения или исправления материалов, незначительные исправления, такие как исправление опечаток, стилей или форматирования, не отображаются. Вы всегда можете просмотреть историю определенных фиксаций (включая сведения об изменениях), посетив [репозиторий на сайте GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+
+
+## <a name="july-2020"></a>Июль 2020 г.
+Новая или измененная статья | Описание
+--- | ---
+[Требования к классическому приложению, управляемому корпорацией Майкрософт](service-description/mmd-app-requirements.md) | Обновленная статья
+[Соответствие требованиям](intro/compliance.md) | Обновленная статья
+[Начало работы с элементом управления приложениями](get-started/get-started-app-control.md) | Обновленная статья
+[Работа с элементом управления приложениями](working-with-managed-desktop/work-with-app-control.md) | Обновленная статья
+[Предварительные условия для компьютеров, управляемых Майкрософт](get-ready/prerequisites.md) | Обновленная статья
+[Элемент управления App](service-description/app-control.md) | Обновленная статья
+[Конфигурация сети для компьютеров, управляемых Майкрософт](get-ready/network.md) | Обновленная статья
+[Новое приложение Microsoft Edge](get-started/edge-browser-app.md) | Обновленная статья
+[Доступ к порталу администрирования](get-started/access-admin-portal.md) | Новая статья
+[Элемент управления App](service-description/app-control.md) | Новая статья
+[Установка Microsoft Project или Microsoft Visio на настольных устройствах, управляемых Майкрософт](get-started/project-visio.md) | Обновленная статья
 
 ## <a name="june-2020"></a>Июнь 2020 г.
 Новая или измененная статья | Описание
