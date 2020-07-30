@@ -10,16 +10,15 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: d966f67bbf04cb7f41d7516b351a6dd5cb8d68fe
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 54139b362fe7f14693dee0808e0f6b36d96b71d6
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160103"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521103"
 ---
-# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="9765d-103">Принципы поддержки нескольких национальных дизайна для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="9765d-103">Multi-national design principles for Microsoft 365</span></span>
+# <a name="multi-national-design-principles-for-microsoft-365"></a><span data-ttu-id="23613-103">Принципы поддержки нескольких национальных дизайна для Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="23613-103">Multi-national design principles for Microsoft 365</span></span>
 
-<span data-ttu-id="9765d-104">Текст</span><span class="sxs-lookup"><span data-stu-id="9765d-104">Text</span></span>
+<span data-ttu-id="23613-104">Текст</span><span class="sxs-lookup"><span data-stu-id="23613-104">Text</span></span>
