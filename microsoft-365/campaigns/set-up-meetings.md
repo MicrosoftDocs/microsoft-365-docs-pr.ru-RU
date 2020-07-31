@@ -1,5 +1,5 @@
 ---
-title: Настройка собраний по сети
+title: Организация собраний по сети
 f1.keywords:
 - NOCSH
 ms.author: stevhord
@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -24,36 +25,36 @@ search.appverid:
 - MET150
 - MOE150
 description: Настройка собраний по сети в Microsoft Teams.
-ms.openlocfilehash: 83ff561b4159ffe6785db8bb03314aa80668023a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ce13dbcc32457263295e0e617b92a2d7e5fc3909
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080445"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526868"
 ---
-# <a name="set-up-meetings"></a><span data-ttu-id="bc518-103">Настройка собраний</span><span class="sxs-lookup"><span data-stu-id="bc518-103">Set up meetings</span></span>
+# <a name="set-up-meetings"></a><span data-ttu-id="64a91-103">Настройка собраний</span><span class="sxs-lookup"><span data-stu-id="64a91-103">Set up meetings</span></span>
 
-<span data-ttu-id="bc518-104">Собрания в Microsoft Teams включают звук, видео и общий доступ.</span><span class="sxs-lookup"><span data-stu-id="bc518-104">Meetings in Microsoft Teams include audio, video, and sharing.</span></span> <span data-ttu-id="bc518-105">А так как они находятся в сети, у вас всегда будет место для собрания и для кампании не требуется комната или проектор.</span><span class="sxs-lookup"><span data-stu-id="bc518-105">And because they're online, you'll always have a meeting space and never need a room or projector for your campaign.</span></span><span data-ttu-id="bc518-106">Собрания Microsoft Teams — это отличный способ совместной работы с сотрудниками и их полагать как внутри организации, так и за ее пределами.</span><span class="sxs-lookup"><span data-stu-id="bc518-106"> Microsoft Teams meetings are a great way to come together with your staff and volunteers both inside and outside of your organization.</span></span> <span data-ttu-id="bc518-107">Чтобы присоединиться к собранию, вам не нужно быть участником вашей организации или даже иметь учетную запись.</span><span class="sxs-lookup"><span data-stu-id="bc518-107">You don’t need to be a member of your organization or even have an account to join a meeting.</span></span> <span data-ttu-id="bc518-108">Для своей собственной кампании вы можете планировать и выполнять собрания по сети с помощью Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="bc518-108">For your political campaign, you can schedule and run online meetings using Microsoft Teams.</span></span> <span data-ttu-id="bc518-109">Вы можете включить сотрудников, спонсоров и гостей за пределом Организации.</span><span class="sxs-lookup"><span data-stu-id="bc518-109">You can include staff, volunteers, and guests outside your organization.</span></span> <span data-ttu-id="bc518-110">Во время собрания можно предоставить общий доступ к экрану, совместно использовать файлы, назначить задачи и многое другое.</span><span class="sxs-lookup"><span data-stu-id="bc518-110">During a meeting, you can share your screen, share files, assign tasks, and more.</span></span>
+<span data-ttu-id="64a91-104">Собрания в Microsoft Teams включают звук, видео и общий доступ.</span><span class="sxs-lookup"><span data-stu-id="64a91-104">Meetings in Microsoft Teams include audio, video, and sharing.</span></span> <span data-ttu-id="64a91-105">А так как они находятся в сети, у вас всегда будет место для собрания и для кампании не требуется комната или проектор.</span><span class="sxs-lookup"><span data-stu-id="64a91-105">And because they're online, you'll always have a meeting space and never need a room or projector for your campaign.</span></span><span data-ttu-id="64a91-106">Собрания Microsoft Teams — это отличный способ совместной работы с сотрудниками и их полагать как внутри организации, так и за ее пределами.</span><span class="sxs-lookup"><span data-stu-id="64a91-106"> Microsoft Teams meetings are a great way to come together with your staff and volunteers both inside and outside of your organization.</span></span> <span data-ttu-id="64a91-107">Чтобы присоединиться к собранию, вам не нужно быть участником вашей организации или даже иметь учетную запись.</span><span class="sxs-lookup"><span data-stu-id="64a91-107">You don’t need to be a member of your organization or even have an account to join a meeting.</span></span> <span data-ttu-id="64a91-108">Для своей собственной кампании вы можете планировать и выполнять собрания по сети с помощью Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="64a91-108">For your political campaign, you can schedule and run online meetings using Microsoft Teams.</span></span> <span data-ttu-id="64a91-109">Вы можете включить сотрудников, спонсоров и гостей за пределом Организации.</span><span class="sxs-lookup"><span data-stu-id="64a91-109">You can include staff, volunteers, and guests outside your organization.</span></span> <span data-ttu-id="64a91-110">Во время собрания можно предоставить общий доступ к экрану, совместно использовать файлы, назначить задачи и многое другое.</span><span class="sxs-lookup"><span data-stu-id="64a91-110">During a meeting, you can share your screen, share files, assign tasks, and more.</span></span>
 
-<span data-ttu-id="bc518-111">[![Иллюстрация двух пользователей в собрании](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span><span class="sxs-lookup"><span data-stu-id="bc518-111">[![An illustration of two users in a meeting](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span></span>
+<span data-ttu-id="64a91-111">[![Иллюстрация двух пользователей в собрании](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span><span class="sxs-lookup"><span data-stu-id="64a91-111">[![An illustration of two users in a meeting](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)</span></span>
 
-<span data-ttu-id="bc518-112">Скачайте инфографики в [формате PDF](https://go.microsoft.com/fwlink/?linkid=2078712) или [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) , чтобы получить краткий обзор присоединения к собранию по сети или размещения в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="bc518-112">Download an infographic in [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) or [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) to get a quick overview of how to join or host an online meeting with Microsoft Teams.</span></span>
+<span data-ttu-id="64a91-112">Скачайте инфографики в [формате PDF](https://go.microsoft.com/fwlink/?linkid=2078712) или [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) , чтобы получить краткий обзор присоединения к собранию по сети или размещения в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="64a91-112">Download an infographic in [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) or [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) to get a quick overview of how to join or host an online meeting with Microsoft Teams.</span></span>
 
-## <a name="best-practices"></a><span data-ttu-id="bc518-113">Рекомендации</span><span class="sxs-lookup"><span data-stu-id="bc518-113">Best practices</span></span>
+## <a name="best-practices"></a><span data-ttu-id="64a91-113">Рекомендации</span><span class="sxs-lookup"><span data-stu-id="64a91-113">Best practices</span></span>
 
-<span data-ttu-id="bc518-114">Следуйте этим рекомендациям для собраний по сети:</span><span class="sxs-lookup"><span data-stu-id="bc518-114">Follow these best practices for your online meetings:</span></span>
-- <span data-ttu-id="bc518-115">Запланируйте собрание по сети прямо в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="bc518-115">Schedule your online meetings right in Microsoft Teams.</span></span> <span data-ttu-id="bc518-116">Вы можете выбрать группу и канал, и участники будут автоматически приглашать участников этой группы или канала.</span><span class="sxs-lookup"><span data-stu-id="bc518-116">You can choose a team and channel, and Teams will invite the participants in that team or channel automatically.</span></span>
-- <span data-ttu-id="bc518-117">Требуется собрание случайные?</span><span class="sxs-lookup"><span data-stu-id="bc518-117">Need an impromptu meeting?</span></span> <span data-ttu-id="bc518-118">Если вы находитесь в одном сеансе беседы, нажмите кнопку начать **собрание** , чтобы начать видеозвонок с помощью беседы с человеком, с которым ведется беседа.</span><span class="sxs-lookup"><span data-stu-id="bc518-118">If you're in a one-on-one chat, choose **Meet now** to start a video or audio call with the person you're chatting with.</span></span> 
+<span data-ttu-id="64a91-114">Следуйте этим рекомендациям для собраний по сети:</span><span class="sxs-lookup"><span data-stu-id="64a91-114">Follow these best practices for your online meetings:</span></span>
+- <span data-ttu-id="64a91-115">Запланируйте собрание по сети прямо в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="64a91-115">Schedule your online meetings right in Microsoft Teams.</span></span> <span data-ttu-id="64a91-116">Вы можете выбрать группу и канал, и участники будут автоматически приглашать участников этой группы или канала.</span><span class="sxs-lookup"><span data-stu-id="64a91-116">You can choose a team and channel, and Teams will invite the participants in that team or channel automatically.</span></span>
+- <span data-ttu-id="64a91-117">Требуется собрание случайные?</span><span class="sxs-lookup"><span data-stu-id="64a91-117">Need an impromptu meeting?</span></span> <span data-ttu-id="64a91-118">Если вы находитесь в одном сеансе беседы, нажмите кнопку начать **собрание** , чтобы начать видеозвонок с помощью беседы с человеком, с которым ведется беседа.</span><span class="sxs-lookup"><span data-stu-id="64a91-118">If you're in a one-on-one chat, choose **Meet now** to start a video or audio call with the person you're chatting with.</span></span> 
 
 
-## <a name="schedule-a-meeting"></a><span data-ttu-id="bc518-119">Планирование собрания</span><span class="sxs-lookup"><span data-stu-id="bc518-119">Schedule a meeting</span></span>
+## <a name="schedule-a-meeting"></a><span data-ttu-id="64a91-119">Планирование собрания</span><span class="sxs-lookup"><span data-stu-id="64a91-119">Schedule a meeting</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOhP]
 
-## <a name="join-a-meeting"></a><span data-ttu-id="bc518-120">Присоединение к собранию</span><span class="sxs-lookup"><span data-stu-id="bc518-120">Join a meeting</span></span>
+## <a name="join-a-meeting"></a><span data-ttu-id="64a91-120">Присоединение к собранию</span><span class="sxs-lookup"><span data-stu-id="64a91-120">Join a meeting</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYWn]
 
-<span data-ttu-id="bc518-121">Дополнительные сведения о собрании в Microsoft teams:</span><span class="sxs-lookup"><span data-stu-id="bc518-121">Learn more about meeting in Microsoft Teams:</span></span>
+<span data-ttu-id="64a91-121">Дополнительные сведения о собрании в Microsoft teams:</span><span class="sxs-lookup"><span data-stu-id="64a91-121">Learn more about meeting in Microsoft Teams:</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWeokQ]
