@@ -2,7 +2,7 @@
 title: Миграция в Microsoft 365 корпоративный
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 07/29/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,14 +12,20 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Пошаговое руководство по переносу версий Microsoft Office, серверов Office и Windows в Microsoft 365 корпоративный для всей организации.
-ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 05654e4714d2328f2f5853ed49df83a907e580f6
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011799"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528064"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Миграция в Microsoft 365 корпоративный
+
+
+>[!Note]
+>Ищете средства для миграции вашего *контента* в Microsoft 365?  Независимо от того, откуда выполняется миграция контента — из сетевых общих папок, SharePoint Server или других облачных служб, у нас есть для вас бесплатное средство миграции. Дополнительные сведения о наших БЕСПЛАТНЫХ средствах миграции можно найти в следующих статьях:
+>
+>[Миграция контента в Microsoft 365](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
 
 В большинстве корпоративных организаций используется разнородная среда с несколькими выпусками операционных систем, а также клиентского и серверного программного обеспечения. Microsoft 365 корпоративный включает наиболее безопасные версии этих ключевых компонентов ИТ-инфраструктуры с функциями для повышения продуктивности, разработанными с применением облачных технологий.
 
