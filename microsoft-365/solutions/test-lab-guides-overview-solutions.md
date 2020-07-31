@@ -14,16 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-- M365solutions
 ms.custom:
 - Ent_Architecture
 description: Используйте руководства по лаборатории тестирования для создания решений и сценариев Microsoft 365 в среде разработки и тестирования.
-ms.openlocfilehash: 38b06678df46189f49b40a5752803786a94784fe
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 7254596da5b2b8b32a01468d3ff1f34d4efd8db8
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159447"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521305"
 ---
 # <a name="test-lab-guides-for-solutions-and-scenarios"></a>Руководства по лаборатории тестирования для решений и сценариев
 

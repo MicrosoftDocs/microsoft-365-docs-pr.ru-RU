@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -21,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Узнайте, как настроить и защитить учетные записи администратора.
-ms.openlocfilehash: 2104697320308b329f9fde1b6984c15f9814f9ef
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dc5f72cda0255641d7d2407d266a6ae584560733
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633657"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527190"
 ---
 # <a name="protect-your-administrator-accounts"></a>Защита учетных записей администраторов
 
@@ -67,7 +68,7 @@ ms.locfileid: "43633657"
 
 ## <a name="create-a-user-account-for-yourself"></a>Самостоятельное создание учетной записи пользователя
 
-Используйте учетную запись пользователя для участия в совместной работе с вашей организацией, включая проверку почты. Это означает, что учетные данные администратора могут быть похожи на *Алиса. чавез<span></span>@Contoso. org* и обычная учетная запись пользователя могут быть похожи на *Алиса<span></span>@Contoso. com*.
+Используйте учетную запись пользователя для участия в совместной работе с вашей организацией, включая проверку почты. Это означает, что учетные данные администратора могут быть похожи на *Алиса. чавез <span></span> @Contoso. org* и обычная учетная запись пользователя могут быть похожи на *Алиса <span></span> @Contoso. com*.
 
 Чтобы создать новую учетную запись пользователя, выполните указанные ниже действия.
 1. Откройте <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">центр администрирования</a> и выберите **Пользователи** \> **Активные пользователи** в левой панели навигации.

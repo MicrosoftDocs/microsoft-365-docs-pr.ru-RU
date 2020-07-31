@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Узнайте, как использовать рейтинг соответствия и диспетчер соответствия требованиям для усовершенствования уровня защиты персональных данных.
-ms.openlocfilehash: d3730f7a91876befc05f749497540fbe9abe9641
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 5b1d465ad03a6aad5370f76b2cdde0657efd2f79
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126555"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521057"
 ---
 # <a name="use-compliance-score-and-compliance-manager-to-manage-improvement-actions"></a>Использование оценки соответствия требованиям и диспетчера соответствия требованиям для управления действиями по улучшению
 

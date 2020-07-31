@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -24,14 +25,14 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Узнайте, как отправлять зашифрованную электронную почту с помощью Outlook.
-ms.openlocfilehash: b9d5d32b61c49dcffaab83fb13e46d32f2166552
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+ms.openlocfilehash: f5184de55ce07d5e669e98afb6e627833071c4ba
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080031"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526880"
 ---
-# <a name="encrypt-or-label-your-sensitive-email"></a>Шифрование или маркировка конфиденциальной электронной почты
+# <a name="encrypt-or-label-your-sensitive-email"></a>Шифрование или обозначение конфиденциальной электронной почты
 
 Данные и сведения о кампании важны и часто конфиденциальны. Защитите эти конфиденциальные данные с помощью меток шифрования и конфиденциальности, чтобы вы и ваши получатели электронной почты израбатывали информацию с учетом требуемой чувствительности.
 

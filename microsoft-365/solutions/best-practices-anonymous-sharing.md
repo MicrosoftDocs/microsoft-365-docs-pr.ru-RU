@@ -9,18 +9,19 @@ ms.prod: microsoft-365-enterprise
 ms.collection:
 - SPO_Content
 - M365-collaboration
-- M365solutions
+- m365solution-3tiersprotection
+- m365solution-securecollab
 ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
-ms.openlocfilehash: 127f50a6a94e35a9f3c8acf655bd260080aa8420
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 72da93a457b91ec7a25e88a0ac2aa8e64b6fe385
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160683"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526938"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Рекомендации по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности
 

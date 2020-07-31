@@ -14,15 +14,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
+- m365solution-overview
 ms.custom: ''
 description: Настройте инфраструктуру безопасности и служб, которая позволит вашим подчиненным работать удаленно, где бы они ни находились и в любое время.
-ms.openlocfilehash: 37306a4e4e820d1a21d83eeabf3712a7f6abc99e
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 76ffc861465508486abebfcd13a84acb2b0379c4
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45429888"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527450"
 ---
 # <a name="empower-remote-workers-with-microsoft-365"></a>Повышение эффективности работы удаленных сотрудников с помощью Microsoft 365
 

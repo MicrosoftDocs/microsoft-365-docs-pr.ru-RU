@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - MiniMaven
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Сведения о том, как запрашивать MFA и настраивать политики условного доступа для Microsoft 365 для бизнеса.
-ms.openlocfilehash: 3caca685d9a96434a0daa2736c322ac1a68b7feb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 917fb52eb5034c3dda28c277b9e86e04db6cac62
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635616"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527202"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>Требуется многофакторная проверка подлинности и Настройка политик условного доступа
 
@@ -70,7 +71,7 @@ ms.locfileid: "43635616"
 
 ## <a name="set-up-baseline-policies"></a>Настройка базовых политик
 
-1. Перейдите на [портал Azure](https://portal.azure.com), а затем перейдите к **условному доступу**к **Azure Active Directory** \> .
+1. Перейдите на [портал Azure](https://portal.azure.com), а затем перейдите к **Azure Active Directory** \> **условному доступу**к Azure Active Directory.
     
     Базовые политики перечислены на странице, и вы можете увидеть, что **запрос MFA для администраторов** и **Защита конечных пользователей** уже включены после выполнения действий, описанных в статье [требования к MFA](#require-mfa).
 
@@ -79,7 +80,7 @@ ms.locfileid: "43635616"
 
     - [Требовать MFA для администраторов](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
     - [Требовать MFA для пользователей](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
-    - [Блокировать устаревшую проверку подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+    - [Блокирование традиционной проверки подлинности](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
     - [Запрос MFA для управления службами](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 Можно настроить дополнительные политики, например требования утвержденных клиентских приложений. Дополнительные сведения см. в [документации по условному доступу](https://docs.microsoft.com/azure/active-directory/conditional-access/).

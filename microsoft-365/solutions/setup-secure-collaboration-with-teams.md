@@ -9,16 +9,17 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- M365solutions
+- m365solution-securecollab
+- m365solution-overview
 ms.custom: ''
 f1.keywords: NOCSH
 description: Узнайте, как настроить Teams для защиты данных в зависимости от их чувствительности
-ms.openlocfilehash: 8978c8602a00dd9c7caecc30ea4746a01680a236
-ms.sourcegitcommit: 92f641cad63379bf16417854a43b16b48a71a30a
+ms.openlocfilehash: ef49e788805139bf82fa5b1b43d2a87323640820
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724808"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527712"
 ---
 # <a name="set-up-secure-collaboration-with-microsoft-365"></a>Настройка безопасной совместной работы с помощью Microsoft 365
 
@@ -62,7 +63,7 @@ ms.locfileid: "44724808"
 | Продукт или компонент | Возможность или функция | Лицензирование |
 |:-------|:-----|:-------|
 | Office 365 Advanced Threat Protection | Безопасные вложения ATP для SPO, OneDrive и Teams; Безопасные документы ATP; Безопасные ссылки ATP для Teams    | Microsoft 365 E1, E3 и/д |
-| SharePoint;    | Политики общего доступа к сайтам и файлам, разрешения для общего доступа к сайтам, ссылки для общего доступа, запросы на доступ, параметры общего доступа к гостям | Microsoft 365 E1, E3 и/д |
+| SharePoint    | Политики общего доступа к сайтам и файлам, разрешения для общего доступа к сайтам, ссылки для общего доступа, запросы на доступ, параметры общего доступа к гостям | Microsoft 365 E1, E3 и/д |
 | Microsoft Teams   | Гостевой доступ, частные команды, частные каналы | Microsoft 365 E1, E3 и/д |
 | Соответствие требованиям Microsoft 365  | Метки конфиденциальности    | Microsoft 365 E3 и E5 |
 

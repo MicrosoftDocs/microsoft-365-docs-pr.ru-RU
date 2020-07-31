@@ -10,15 +10,14 @@ ms.prod: microsoft-365-enterprise
 localization_priority: Normal
 ms.collection:
 - M365-subscription-management
-- M365solutions
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: be79402c7aaf540ba3174e0844b1fe5bdc87a7ec
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 3a8daf7982cf0b28adebee5d4d05a9893faf30ba
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160043"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521913"
 ---
 # <a name="microsoft-cloud-for-enterprise-architects-illustrations"></a>Иллюстрации по Microsoft Cloud для корпоративных архитекторов
 
@@ -30,7 +29,7 @@ ms.locfileid: "44160043"
 
 Сведения для ИТ-архитекторов о сетях для облачных служб и платформ Майкрософт.
   
-|**Элемент**|**Описание**|
+|**Ресурс**|**Описание**|
 |:-----|:-----|
 |[![Эскиз модели организации сети в Microsoft Cloud](../media/solutions-architecture-center/msft-cloud-networking-model-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/MSFT_cloud_architecture_networking.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Network-Poster/MSFT_cloud_architecture_networking.vsdx) <br/>Обновлено 2019 ноября| Эта модель содержит следующие страницы: <ul><li> Развитие сети для облачного подключения </li><li> Общие элементы облачного подключения Майкрософт </li><li> ExpressRoute для подключения к Microsoft Cloud </li><li> Проектирование сети для Microsoft SaaS, Azure PaaS и Azure IaaS </li></ul><br/>  <br/>|
 
@@ -56,7 +55,7 @@ ms.locfileid: "44160043"
 
 Сведения для ИТ-архитекторов о безопасности в облачных службах и платформах Майкрософт.
   
-|**Элемент**|**Описание**|
+|**Ресурс**|**Описание**|
 |:-----|:-----|
 |[![Эскиз модели безопасности в облаке Майкрософт](../media/solutions-architecture-center/msft-cloud-security-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [Другие языки](https://www.microsoft.com/download/details.aspx?id=48121) <br/>Обновлено 2018 декабря | Эта модель содержит: <ul><li>Роль корпорации Майкрософт в предоставлении безопасных служб и платформ.</li><li>Обязанности клиента по снижению угроз безопасности.</li><li>Лучшие варианты сертификации защиты. </li><li>Решения для обеспечения безопасности от консалтинговых служб Майкрософт. </ul><br/>|
 
@@ -65,7 +64,7 @@ ms.locfileid: "44160043"
 ### <a name="common-attacks-and-microsoft-capabilities-that-protect-your-organization"></a>Распространенные атаки и средства Майкрософт для защиты вашей организации
 Узнайте о распространенных кибер-атаках и о том, как Майкрософт поможет вашей организации на каждом этапе атаки. 
 
-|**Элемент**|**Описание**|
+|**Ресурс**|**Описание**|
 |:-----|:-----|
 |[![Эскиз плаката "Распространенные атаки".](../media/solutions-architecture-center/common-attacks-model-thumb.png) ](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](https://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> Обновлено 2017 августа | На этом плакате показаны этапы основных атак и описаны возможности, позволяющие остановить злоумышленников на каждом из них. <br/>|
 
@@ -75,7 +74,7 @@ ms.locfileid: "44160043"
 
 Сведения для ИТ-архитекторов о создании системы удостоверений для организаций, использующих облачные службы и платформы Майкрософт.
   
-|**Элемент**|**Описание**|
+|**Ресурс**|**Описание**|
 |:-----|:-----|
 |[![Эскиз модели идентификации в облаке Майкрософт](../media/solutions-architecture-center/msft-cloud-identity-model-thumb.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| [Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| [Другие языки](https://www.microsoft.com/download/details.aspx?id=54431) <br/>Обновлено 2016 августа | Эта модель содержит: <ul><li>Общие сведения об использовании удостоверений в облаке Майкрософт </li><li>Возможности платформы IDaaS в Azure AD </li><li>Интеграция локальных учетных записей доменных служб Active Directory с Microsoft Azure Active Directory </li><li>Размещение компонентов каталога в Azure </li><li>Варианты доменных служб для рабочих нагрузок в службе Azure IaaS </li></ul><br/>|
    

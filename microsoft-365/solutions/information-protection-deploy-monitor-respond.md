@@ -13,21 +13,21 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Использование политик аудита и оповещений и запросов субъектов данных для отслеживания инцидентов персональных данных и реагирования на них.
-ms.openlocfilehash: 5760bb40eb26e2ff0636ea9604cc7c45b7d0ca63
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: 8fdba5799ca9ee97a013c1322e5e79f6bf38764a
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695071"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522077"
 ---
 # <a name="monitor-and-respond-to-data-privacy-incidents-in-your-organization"></a>Отслеживание инцидентов конфиденциальности данных в Организации и реагирование на них
 
 Функции Microsoft 365 помогут вам отслеживать, изучать и отвечать на инциденты конфиденциальности данных в вашей организации, как вы оператионализее связанные возможности. Процесс, процедуры и другая документация для каждого из них также могут быть важны для демонстрации соответствия нормативным требованиям.
 
-К ним относятся: 
+Они включают: 
 
 - Политики аудита и оповещений
 - Запросы субъектов данных (в том числе поиск контента и обнаружение электронных данных)

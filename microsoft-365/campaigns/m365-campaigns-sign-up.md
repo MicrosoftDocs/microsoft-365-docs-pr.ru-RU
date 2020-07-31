@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-Campaigns
+- m365solution-smb
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -23,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Пошаговая подписка на Microsoft 365 для кампаний. Защитите свою кампанию от угроз циберсекурити для электронной почты, данных и общения.
-ms.openlocfilehash: 34d5b3103666b9cead1c2dfc09400a9eca5e3e40
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0628ac1a2e8bf6d12bd4a196df11775ebcc2d583
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632783"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527118"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>Регистрация в Microsoft 365 для кампаний 
 
@@ -80,7 +81,7 @@ ms.locfileid: "43632783"
 2. На странице **Добро пожаловать, чтобы узнать** , как это сделать, нажмите или коснитесь, **чтобы добавить ее в существующую подписку? Выполните вход**.
     
     ![Выберите вход в правом верхнем углу.](../media/addtoexisting.png)
-3. На странице входа введите псевдоним администратора для существующей подписки, например *Alice@VoteContoso<span></span>. org*, нажмите кнопку **Далее**, введите пароль, а затем нажмите кнопку **войти**.
+3. На странице входа введите псевдоним администратора для существующей подписки, например *Alice@VoteContoso <span></span> . org*, нажмите кнопку **Далее**, введите пароль, а затем нажмите кнопку **войти**.
 4. **Как это выглядит?** введите число пользователей и нажмите кнопку **Далее**. Вам не нужно вводить здесь код рекламного, так как он уже включен в URL-адрес приглашения.
 5. На странице **как вы хотите оплатить?** введите метод оплаты и нажмите кнопку **разместить заказ**.
 

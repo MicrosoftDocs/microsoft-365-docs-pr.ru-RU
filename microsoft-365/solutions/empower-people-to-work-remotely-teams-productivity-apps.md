@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
 ms.custom: ''
 description: Обеспечьте производительность своих пользователей с помощью Teams, Exchange, SharePoint и других служб Microsoft 365.
-ms.openlocfilehash: a5c1d27afdb7afd8b4ee3052f745c4c986299a2e
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 277b3830c20c00209a1860468d58b82b3ec479f2
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127101"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521485"
 ---
 # <a name="step-5-deploy-remote-worker-productivity-apps-and-services"></a>Этап 5. Развертывание служб и приложений для повышения производительности удаленных сотрудников
 

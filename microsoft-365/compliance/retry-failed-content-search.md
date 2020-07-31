@@ -16,12 +16,12 @@ search.appverid:
 ms.assetid: ''
 description: Во время расследования можно использовать кнопку повторить, чтобы разрешить поиск контента с ошибками расположения контента.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b2d26cd51c30f2c273abb59199cf4a89f5b7a37
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 55ef7ff59bfc58809d0e00ff1f2edf7a8455ba13
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44034633"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527637"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>Повторный поиск контента для устранения ошибки размещения контента
 
@@ -29,6 +29,7 @@ ms.locfileid: "44034633"
 
 ```text
 Error
+
 
 The search on the following locations failed:
 
@@ -53,7 +54,7 @@ User2@contoso.com: Application error occurred. Please try again later. (CS012-00
 
 ## <a name="tips-to-avoid-content-location-errors"></a>Советы по предотвращению ошибок расположения контента
 
-Ниже приведено несколько дополнительных причин ошибок в расположении контента, а также некоторые советы, которые помогут избежать их при поиске в большом количество почтовых ящиков.
+Ниже приведены дополнительные причины ошибок в расположении контента и некоторые советы, которые помогут избежать их при поиске в большом количество почтовых ящиков.
 
 - Почтовые ящики, в которых выполняется поиск, могут быть заняты из-за активности пользователя. В этом случае служба поиска может перерегулироваться, чтобы предотвратить недоступность почтового ящика. Чтобы избежать этого, попробуйте выполнить поиск в нерабочие часы.
 

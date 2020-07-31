@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Развертывание функций обеспечения безопасности и соответствия требованиям Microsoft 365 и защита личных сведений.
-ms.openlocfilehash: 99ac0f9e29c161ffa26362976f83584c9b168026
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: 8e7d037218b4d67e9ba7f450bd1a5235b1ae164f
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45126454"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520997"
 ---
 # <a name="protect-information-subject-to-data-privacy-regulation"></a>Защита данных в соответствии с нормами конфиденциальности данных
 

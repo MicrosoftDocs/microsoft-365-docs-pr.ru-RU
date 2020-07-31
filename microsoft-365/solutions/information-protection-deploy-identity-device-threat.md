@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
-- M365solutions
+- m365solution-infoprotection
 ms.custom: ''
 description: Предотвращение нарушений персональных данных с помощью удостоверений, устройств и служб защиты от угроз Microsoft 365.
-ms.openlocfilehash: 74894037ef2fe56aeb5bc44340cd8a946863baff
-ms.sourcegitcommit: b03a7ad0a80f8b839f40b8d396ab3a049491a12f
+ms.openlocfilehash: a309b5d0ba5f939cf89a31d7ac91ca3aac25ce0d
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44695083"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46520985"
 ---
 # <a name="use-identity-device-and-threat-protection-for-data-privacy-regulation"></a>Использование удостоверений, устройств и защиты от угроз для обеспечения конфиденциальности данных
 
@@ -48,7 +48,7 @@ Microsoft 365 предоставляет ряд возможностей, кот
 Используйте [Azure Active Directory (Azure AD)](https://azure.microsoft.com/services/active-directory/) для удостоверения и категории **доступа к управлению** , с помощью которых можно выполнить следующие действия:
 
 - Реализация безвозвратной проверки подлинности (для предотвращения атак "мужчина в середине")
-- Блокировать устаревшую проверку подлинности.
+- Заблокируйте традиционную проверку подлинности.
 - Настройте политики риска для пользователей и пользователей, которые входят в систему.
 - Включение условного доступа и многофакторной проверки подлинности (MFA) для администраторов и администраторов, не являющихся администраторами.
 - Настройка и применение политик паролей.

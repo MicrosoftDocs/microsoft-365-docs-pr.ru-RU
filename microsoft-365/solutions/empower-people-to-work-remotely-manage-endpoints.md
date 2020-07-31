@@ -14,15 +14,15 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
 ms.custom: ''
 description: Используйте Microsoft Endpoint Manager для управления устройствами, компьютерами и другими конечными точками.
-ms.openlocfilehash: 64f9aad04dd562e570d81c3c2993c2641354b95a
-ms.sourcegitcommit: bd5a08785b5ec320b04b02f8776e28bce5fb448f
+ms.openlocfilehash: 0f13d36a2943367e751123c724cda28b503a51d2
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44844970"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521545"
 ---
 # <a name="step-4-deploy-endpoint-management-for-your-devices-pcs-and-other-endpoints"></a>Этап 4. Развертывание управления конечными точками для устройств, компьютеров и других конечных точек
 

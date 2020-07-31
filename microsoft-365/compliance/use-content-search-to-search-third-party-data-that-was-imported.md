@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: Воспользуйтесь средством поиска обнаружения электронных данных поиска контента для поиска элементов, импортированных в почтовые ящики в Microsoft 365, из стороннего источника данных путем создания запросов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 916a780bccc3f24d509991e8ac72f31b374757d4
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: 823d95d6b32a15662004bfc5d92662b130fe4a65
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819099"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46527419"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-by-a-custom-partner-connector"></a>Использование поиска контента для поиска данных сторонних поставщиков, импортированных с помощью настраиваемого соединителя партнера
 
