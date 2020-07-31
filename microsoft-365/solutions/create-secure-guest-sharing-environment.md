@@ -15,12 +15,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с доступными параметрами создания безопасной среды гостевого общего доступа в Microsoft 365.
-ms.openlocfilehash: 4d7c036cccade88bfcd013fe4b31bf4cd02b7b34
-ms.sourcegitcommit: a50260b7c5be7374e8e2bea19cc08406ef51ac47
+ms.openlocfilehash: b720b701ca25dd6b341d4ac5ac696b51af890de5
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45167369"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502919"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>Создание безопасной среды гостевого общего доступа
 
@@ -101,6 +101,9 @@ ms.locfileid: "45167369"
 12. В колонке **Создать** в разделе **Включить политику** установите переключатель в положение **Вкл.** и нажмите кнопку **Создать**.
 
 Теперь при первой попытке гостевого пользователя получить доступ к содержимому, группе или сайту в вашей организации ему потребуется принять условия использования.
+
+> [!NOTE]
+> Для использования условного доступа требуется лицензия Azure AD Premium P1. Дополнительные сведения см. в статье [Что такое условный доступ](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
 ### <a name="more-information"></a>Дополнительные сведения
 [Условия использования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: e76024f1d13e9210b74e2f6c4fc63c9992615099
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 361c6599dfccbe7a80fa520bcd1fa988a1fae536
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45015915"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506289"
 ---
 # <a name="about-admin-roles"></a>Роли администраторов
 
@@ -61,7 +61,7 @@ ms.locfileid: "45015915"
 
 ::: moniker-end
 
-Скорее всего, вам потребуется назначить только следующие роли в организации. По умолчанию сначала отображаются роли, используемые в большинстве организаций. Если не удается найти нужную роль, перейдите в нижнюю часть списка и выберите **Показать другие роли**. (Подробные сведения, включая командлеты, связанные с ролью, см. статье [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
+Скорее всего, вам потребуется назначить только следующие роли в организации. По умолчанию сначала отображаются роли, используемые в большинстве организаций. Если не удается найти нужную роль, перейдите в нижнюю часть списка и выберите **Показать все по категориям**. (Подробные сведения, включая командлеты, связанные с ролью, см. статье [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).)
 
 |Роль администратора     |Кому следует назначить эту роль?  |
 |---------|---------|

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Настройте защиту от потери данных Microsoft 365 Endpoint для отслеживания действий с файлами и внедрения защитных действий для конечных точек этих файлов.
-ms.openlocfilehash: ee276c81a0ebfbf44dd77f6016172f9bf7ed3022
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 67bd00a83314590d1ca1ab71c32d5a325686dc46
+ms.sourcegitcommit: f3a02584c9354a46c082f8f948b34a177adf65bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200009"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46514782"
 ---
 # <a name="get-started-with-endpoint-data-loss-prevention-preview"></a>Начало работы с функцией защиты от потери данных в конечной точке (предварительная версия)
 
@@ -81,7 +81,7 @@ ms.locfileid: "45200009"
 Убедитесь, что устройства с Windows 10, на которых вы планируете развертывание защиты от потери данных в конечных точках, соответствуют следующим требованиям.
 
 1. Устройство работает под управлением Windows 10 сборки 1809 или более поздней версии.
-2. Все устройства подключены к [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join).
+2. Все устройства должны быть подключены к [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join) или иметь гибридное присоединение к Azure AD.
 3. Установите браузер Microsoft Chromium Edge на устройство конечных точек для применения действия политики на загрузку в облако. См. статью [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium).
 
 ## <a name="onboarding-devices-into-device-management"></a>Интеграция устройств в управление устройствами
@@ -162,7 +162,7 @@ ms.locfileid: "45200009"
 - [Создание, тестирование и настройка политики защиты от потери данных](create-test-tune-dlp-policy.md)
 - [Начало работы с обозревателем действий](data-classification-activity-explorer.md)
 - [Microsoft Defender Advanced Threat Protection (ATP в Microsoft Defender)](https://docs.microsoft.com/windows/security/threat-protection/)
-- [Средства и методы подключения ATP Microsoft Defender для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
+- [Средства и методы подключения для компьютеров с Windows 10](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints)
 - [Подписка на Microsoft 365](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1)
 - [Подключено к Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-ad-join)
 - [Загрузка нового браузера Microsoft Edge на основе Chromium](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)

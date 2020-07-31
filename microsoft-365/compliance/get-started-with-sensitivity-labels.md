@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 1b22619b200cd0cdcccfdc9be0d52b0eaa25f303
-ms.sourcegitcommit: c43ebb915fa0eb7eb720b21b62c0d1e58e7cde3d
+ms.openlocfilehash: 50392693b92ac660445d5966168b143c70853291
+ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44936376"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506334"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -90,6 +90,7 @@ ms.locfileid: "44936376"
 |Обнаружение, применение меток и защита файлов, хранящихся в облачных хранилищах данных|[Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |Применение и просмотр меток конфиденциальности в Power BI и защита данных при экспорте|[Защита данных в Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|
 |Отслеживание и понимание использования меток конфиденциальности в организации|[Знайте свои данные — обзор классификации данных](data-classification-overview.md) <br /><br /> [Просмотр использования меток с помощью аналитики меток](label-analytics.md)|
+|Расширение применения меток конфиденциальности на сторонние приложения и службы|[SDK защиты информации (Майкрософт)](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Документация по меткам конфиденциальности для пользователей
 
