@@ -5,10 +5,9 @@ f1.keywords:
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 08/14/19
+ms.date: 08/14/2019
 ms.audience: ITPro
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
@@ -16,142 +15,83 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Обзор центра развертывания компьютеров.
-ms.openlocfilehash: 36506864d932665a2da8fd2dfc94ab276e4fa2ec
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3559a32db71d2cceaf3ab4dc67701d5f5f00e7fe
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638144"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528112"
 ---
-# <a name="desktop-deployment-center"></a>Центр развертывания компьютеров
+# <a name="desktop-deployment-center"></a><span data-ttu-id="846bb-103">Центр развертывания компьютеров</span><span class="sxs-lookup"><span data-stu-id="846bb-103">Desktop Deployment Center</span></span>
 
-<strong>Переход с Windows 7 на Windows 10 </strong>
-<p>Расширенная поддержка Windows 7 завершается 14 января 2020 г. Обновление на месте с Windows 7 до Windows 10 — это самый быстрый способ развертывания. Вы можете <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">обновить один компьютер</a> или <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">тысячи компьютеров с помощью Microsoft Endpoint Configuration Manager</a>. При обновлениях на месте вам не нужно беспокоиться о доставке приложений, переносе файлов, настраиваемых образах и включении облачных служб. Для обновления существующих компьютеров можно использовать имеющиеся инструменты и сосредоточиться на следующих шагах развертывания: </p>
+<span data-ttu-id="846bb-104"><strong>Переход с Windows 7 на Windows 10 </strong></span><span class="sxs-lookup"><span data-stu-id="846bb-104"><strong>Upgrading from Windows 7 to Windows 10</strong></span></span>
+<p><span data-ttu-id="846bb-105">Расширенная поддержка Windows 7 завершается 14 января 2020 г.</span><span class="sxs-lookup"><span data-stu-id="846bb-105">Windows 7 extended support ended on January 14, 2020.</span></span> <span data-ttu-id="846bb-106">Обновление на месте с Windows 7 до Windows 10 — это самый быстрый способ развертывания.</span><span class="sxs-lookup"><span data-stu-id="846bb-106">In-place upgrade from Windows 7 to Windows 10 is the fastest method to deploy.</span></span> <span data-ttu-id="846bb-107">Вы можете <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">обновить один компьютер</a> или <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">тысячи компьютеров с помощью Microsoft Endpoint Configuration Manager</a>.</span><span class="sxs-lookup"><span data-stu-id="846bb-107">You can <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">upgrade a single PC</a> or <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">upgrade thousands of PCs using Microsoft Endpoint Configuration Manager</a>.</span></span> <span data-ttu-id="846bb-108">При обновлениях на месте вам не нужно беспокоиться о доставке приложений, переносе файлов, настраиваемых образах и включении облачных служб.</span><span class="sxs-lookup"><span data-stu-id="846bb-108">You don’t need to focus on app delivery, file migration, custom imaging, or enabling cloud-based services with in-place upgrades.</span></span> <span data-ttu-id="846bb-109">Для обновления существующих компьютеров можно использовать имеющиеся инструменты и сосредоточиться на следующих шагах развертывания:</span><span class="sxs-lookup"><span data-stu-id="846bb-109">You can use tools you already have to upgrade existing PCs and focus on the following deployment steps for upgrades:</span></span> </p>
 
-<p>
-</p>
-
-<ul class="panelContent cardsM">
-    <li>
-        <a href="https://docs.microsoft.com/microsoft-365/enterprise/step-2-directory-and-network-readiness">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Upgrade ConfigMgr" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Обновление ConfigMgr до Current Branch</h3>
-            <p>Часть проверки готовности каталогов и сети для организаций, использующих Configuration Manager</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoft-365/enterprise/step-1-device-and-app-readiness">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Device and App Readiness" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Проверка готовности устройств и приложений</h3>
-            <p>Часть проверки готовности устройств и приложений; справка доступна в службе Assure для классических приложений</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Upgrade Windows 7 PCs" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Обновление компьютеров с Windows 7 до Windows 10</h3>
-            <p>Часть развертывания ОС и обновления компонентов для компьютеров пользователей</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" width="36" height="36" alt="Upgrade ConfigMgr" /> | <span data-ttu-id="846bb-110">**[Обновление ConfigMgr до Current Branch](https://docs.microsoft.com/microsoft-365/enterprise/step-2-directory-and-network-readiness)**</span><span class="sxs-lookup"><span data-stu-id="846bb-110">**[Upgrade ConfigMgr to Current Branch](https://docs.microsoft.com/microsoft-365/enterprise/step-2-directory-and-network-readiness)**</span></span> <p><span data-ttu-id="846bb-111">Часть проверки готовности каталогов и сети для организаций, использующих Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="846bb-111">Part of Directory and Network Readiness for organizations using Configuration Manager</span></span></p> | <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" width="36" height="36" alt="Device and App Readiness" /> | <span data-ttu-id="846bb-112">**[Проверка готовности устройств и приложений](/microsoft-365/enterprise/step-1-device-and-app-readiness)**</span><span class="sxs-lookup"><span data-stu-id="846bb-112">**[Validate device and app readiness](/microsoft-365/enterprise/step-1-device-and-app-readiness)**</span></span> <p><span data-ttu-id="846bb-113">Часть проверки готовности устройств и приложений; справка доступна в службе Assure для классических приложений</span><span class="sxs-lookup"><span data-stu-id="846bb-113">Part of Device and App Readiness; help is available via Desktop App Assure</span></span></p> | <img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" width="36" height="36" alt="Upgrade Windows 7 PCs" /> | <span data-ttu-id="846bb-114">**[Обновление компьютеров с Windows 7 до Windows 10](/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated)**</span><span class="sxs-lookup"><span data-stu-id="846bb-114">**[Upgrade Windows 7 PCs to Windows 10](/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated)**</span></span> <p><span data-ttu-id="846bb-115">Часть проверки готовности устройств и приложений; справка доступна в службе Assure для классических приложений</span><span class="sxs-lookup"><span data-stu-id="846bb-115">Part of Device and App Readiness; help is available via Desktop App Assure</span></span></p> |
 
 <img align="middle" src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
 
 
-Выполните эти инструкции для планирования и выполнения крупномасштабного развертывания Windows 10 и приложений Microsoft 365 для предприятий. Все приведенные ниже шаги являются частью общего процесса планирования и развертывания и обычно выполняются параллельно в рамках поэтапного развертывания. Загрузите бесплатный [комплект для анализа развертывания компьютеров и управления ими](https://aka.ms/howtoshiftlabs), чтобы попрактиковаться с инструментами, применяемыми в процессе развертывания. Также вы можете [обратиться за помощью](https://aka.ms/mddhelp) по развертыванию компьютеров к партнерам Майкрософт и службам FastTrack.
+<span data-ttu-id="846bb-116">Выполните эти инструкции для планирования и выполнения крупномасштабного развертывания Windows 10 и приложений Microsoft 365 для предприятий.</span><span class="sxs-lookup"><span data-stu-id="846bb-116">Follow the steps below to plan and carry out your large-scale deployment of Windows 10 and Microsoft 365 Apps for enterprise.</span></span> <span data-ttu-id="846bb-117">Все приведенные ниже шаги являются частью общего процесса планирования и развертывания и обычно выполняются параллельно в рамках поэтапного развертывания.</span><span class="sxs-lookup"><span data-stu-id="846bb-117">Each step below is part of the overall planning and deployment process with steps typically running in parallel to each other in a phased deployment.</span></span> <span data-ttu-id="846bb-118">Загрузите бесплатный [комплект для анализа развертывания компьютеров и управления ими](https://aka.ms/howtoshiftlabs), чтобы попрактиковаться с инструментами, применяемыми в процессе развертывания.</span><span class="sxs-lookup"><span data-stu-id="846bb-118">Download the free [Desktop Deployment and Management Lab Kit](https://aka.ms/howtoshiftlabs) for hands-on training with the tools highlighted in the deployment process.</span></span> <span data-ttu-id="846bb-119">Также вы можете [обратиться за помощью](https://aka.ms/mddhelp) по развертыванию компьютеров к партнерам Майкрософт и службам FastTrack.</span><span class="sxs-lookup"><span data-stu-id="846bb-119">You can also [find help](https://aka.ms/mddhelp) for your desktop deployment from Microsoft partners and FastTrack services.</span></span>
 
 <br>
 
 <table>
 <tr class="even">
 <td><a href="https://aka.ms/mdd0"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd0">Начало работы. Руководство по пользователям, процессу и технологии</a></strong></p>
-<p>Узнайте о преимуществах перехода на Windows 10 и приложения Microsoft 365 для предприятий, о значительных изменениях и рекомендациях по сравнению с предыдущими развертываниями, а также советах по обеспечению плавного перехода на Windows 10 и приложения Microsoft 365 для предприятий.</p></td>
+<td><p><span data-ttu-id="846bb-120"><strong><a href="https://aka.ms/mdd0">Начало работы. Руководство по пользователям, процессу и технологии</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-120"><strong><a href="https://aka.ms/mdd0">Getting Started: People, Process and Technology Guidance</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-121">Узнайте о преимуществах перехода на Windows 10 и приложения Microsoft 365 для предприятий, о значительных изменениях и рекомендациях по сравнению с предыдущими развертываниями, а также советах по обеспечению плавного перехода на Windows 10 и приложения Microsoft 365 для предприятий.</span><span class="sxs-lookup"><span data-stu-id="846bb-121">Discover the benefits of moving to Windows 10 and Microsoft 365 Apps for enterprise, major changes and considerations versus previous deployments, and best practices to ensure a smooth transition to Windows 10 and Microsoft 365 Apps for enterprise.</span></span></p></td>
 <td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="130" width="231" /></a></td>
 </tr>
 <tbody>
 <tr class="odd">
 <td><a href="https://aka.ms/mdd1"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd1">Шаг 1. Проверка готовности устройств и приложений</a></strong></p>
-<p>Начните проект развертывания компьютера с инвентаризации устройств и приложений, определите приоритеты, протестируйте приоритетные приложения и устройства, а затем исправьте необходимые элементы, чтобы подготовиться к развертыванию.</p></td>
+<td><p><span data-ttu-id="846bb-122"><strong><a href="https://aka.ms/mdd1">Шаг 1. Проверка готовности устройств и приложений</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-122"><strong><a href="https://aka.ms/mdd1">Step 1: Device and App Readiness</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-123">Начните проект развертывания компьютера с инвентаризации устройств и приложений, определите приоритеты, протестируйте приоритетные приложения и устройства, а затем исправьте необходимые элементы, чтобы подготовиться к развертыванию.</span><span class="sxs-lookup"><span data-stu-id="846bb-123">Begin your desktop deployment project with an inventory of your devices and apps, prioritize what you need to move forward, test prioritized apps and devices, then remediate what’s needed to get ready for deployment.</span></span></p></td>
 <td><a href="https://aka.ms/ddev1" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
 <td><a href="https://aka.ms/mdd2"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd2">Шаг 2. Проверка готовности каталогов и сети</a></strong></p>
-<p>Облачные службы в приложениях Microsoft 365 для предприятий и новые возможности развертывания, например Windows Autopilot, требуют Azure Active Directory. Сеть и возможности подключения также важны для планирования при перемещении изображений, приложений, драйверов и соответствующих файлов Windows на ваш компьютер. Узнайте, как новые инструменты и возможности развертывания уменьшают и оптимизируют сетевой трафик.</p></td>
+<td><p><span data-ttu-id="846bb-124"><strong><a href="https://aka.ms/mdd2">Шаг 2. Проверка готовности каталогов и сети</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-124"><strong><a href="https://aka.ms/mdd2">Step 2: Directory and Network Readiness</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-p103">Облачные службы в приложениях Microsoft 365 для предприятий и новые возможности развертывания, например Windows Autopilot, требуют Azure Active Directory. Сеть и возможности подключения также важны для планирования при перемещении изображений, приложений, драйверов и соответствующих файлов Windows на ваш компьютер. Узнайте, как новые инструменты и возможности развертывания уменьшают и оптимизируют сетевой трафик.</span><span class="sxs-lookup"><span data-stu-id="846bb-p103">Cloud connected services in Microsoft 365 Apps for enterprise and new deployment options like Windows Autopilot require Azure Active Directory. Your network and connectivity are also important areas to plan when moving Windows images, apps, drivers and related files to your PCs. Learn how new tools and deployment options reduce and streamline network traffic.</span></span></p></td>
 <td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </tr>
 <tr class="odd">
 <td><a href="https://aka.ms/mdd3"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="Step 3" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd3">Шаг 3. Доставка приложений Office и бизнес-приложений</a></strong></p>
-<p>Убедитесь, что приложения упакованы и готовы к автоматической установке. Узнайте, какие новые возможности для настройки, установки и обновления приложений Office предлагает упаковка по технологии "нажми и работай" с использованием приложений Microsoft 365 для предприятий.</p></td>
+<td><p><span data-ttu-id="846bb-128"><strong><a href="https://aka.ms/mdd3">Шаг 3. Доставка приложений Office и бизнес-приложений</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-128"><strong><a href="https://aka.ms/mdd3">Step 3: Office and LOB App Delivery</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-129">Убедитесь, что приложения упакованы и готовы к автоматической установке.</span><span class="sxs-lookup"><span data-stu-id="846bb-129">Ensure your apps are packaged and ready for automated installation.</span></span> <span data-ttu-id="846bb-130">Узнайте, какие новые возможности для настройки, установки и обновления приложений Office предлагает упаковка по технологии "нажми и работай" с использованием приложений Microsoft 365 для предприятий.</span><span class="sxs-lookup"><span data-stu-id="846bb-130">Learn how Click-to-Run packaging with Microsoft 365 Apps for enterprise gives you new options to configure, deliver, and keep your Office apps up-to-date.</span></span></p></td>
 <td><a href="https://aka.ms/ddev3" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-16.png" alt="Step 3" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
 <td><a href="https://aka.ms/mdd4"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="Step 4" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd4">Шаг 4. Файлы и параметры пользователей</a></strong></p>
-<p>При обновлении или замене компьютеров можно сэкономить время, автоматизировав резервное копирование и обновление состояния пользователя. Новые возможности облачной синхронизации файлов позволяют выполнять для каждого пользователя синхронизацию с OneDrive папок рабочего стола, документов и изображений для удобного доступа к файлам из новых экземпляров Windows.</p></td>
+<td><p><span data-ttu-id="846bb-131"><strong><a href="https://aka.ms/mdd4">Шаг 4. Файлы и параметры пользователей</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-131"><strong><a href="https://aka.ms/mdd4">Step 4: User Files and Settings</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-132">При обновлении или замене компьютеров можно сэкономить время, автоматизировав резервное копирование и обновление состояния пользователя.</span><span class="sxs-lookup"><span data-stu-id="846bb-132">When refreshing or replacing PCs, save time by automating user state backup and restore.</span></span> <span data-ttu-id="846bb-133">Новые возможности облачной синхронизации файлов позволяют выполнять для каждого пользователя синхронизацию с OneDrive папок рабочего стола, документов и изображений для удобного доступа к файлам из новых экземпляров Windows.</span><span class="sxs-lookup"><span data-stu-id="846bb-133">New options for cloud file sync allow you to enforce per user sync of Desktop, Documents, and Pictures folders to OneDrive for seamless file access from new Windows installs.</span></span></p></td>
 <td><a href="https://aka.ms/ddev4" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-17.png" alt="Step 4" height="130" width="231" /></a></td>
 </tr>
 <tr class="odd">
 <td><a href="https://aka.ms/mdd5"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd5">Шаг 5. Вопросы по безопасности и соответствию требованиям</a></strong></p>
-<p>В Windows 10 и приложениях Microsoft 365 для предприятий доступны новые способы защиты данных, устройств и пользователей, а также быстрого обнаружения и сдерживания угроз. Кроме того, вы научитесь реагировать на типичные проблемы, связанные с шифрованием дисков, работать с приложениями для защиты от вредоносных программ и политиками при переходе на Windows 10.</p></td>
+<td><p><span data-ttu-id="846bb-134"><strong><a href="https://aka.ms/mdd5">Шаг 5. Вопросы по безопасности и соответствию требованиям</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-134"><strong><a href="https://aka.ms/mdd5">Step 5: Security and Compliance Considerations</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-135">В Windows 10 и приложениях Microsoft 365 для предприятий доступны новые способы защиты данных, устройств и пользователей, а также быстрого обнаружения и сдерживания угроз.</span><span class="sxs-lookup"><span data-stu-id="846bb-135">Windows 10 and Microsoft 365 Apps for enterprise provide new ways to protect your data, devices and users, and quickly detect and respond to threats.</span></span> <span data-ttu-id="846bb-136">Кроме того, вы научитесь реагировать на типичные проблемы, связанные с шифрованием дисков, работать с приложениями для защиты от вредоносных программ и политиками при переходе на Windows 10.</span><span class="sxs-lookup"><span data-stu-id="846bb-136">Also, learn how to deal with common problems associated with disk encryption, anti-malware apps, and policies when moving to Windows 10.</span></span></p></td>
 <td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
 <td><a href="https://aka.ms/mdd6"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Step 6" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd6">Шаг 6. Обновления компонентов и развертывание ОС</a></strong></p>
-<p>Развертывание на основе последовательности задач позволяет автоматизировать крупномасштабное поэтапное развертывание для начальной установки системы, обновления и замены компьютеров. Последовательность задач при обновлении также помогает не забывать об установке крупных полугодичных обновлений. Windows Autopilot — это недавнее обновление, оптимизирующее процесс переноса образов операционной системы на новые и существующие устройства.</p></td>
+<td><p><span data-ttu-id="846bb-137"><strong><a href="https://aka.ms/mdd6">Шаг 6. Обновления компонентов и развертывание ОС</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-137"><strong><a href="https://aka.ms/mdd6">Step 6: OS Deployment and Feature Updates</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-138">Развертывание на основе последовательности задач позволяет автоматизировать крупномасштабное поэтапное развертывание для начальной установки системы, обновления и замены компьютеров.</span><span class="sxs-lookup"><span data-stu-id="846bb-138">Task sequence-based deployment is used to automate large scale, phased deployment for bare metal installs, PC refresh, and PC replacement.</span></span> <span data-ttu-id="846bb-139">Последовательность задач при обновлении также помогает не забывать об установке крупных полугодичных обновлений.</span><span class="sxs-lookup"><span data-stu-id="846bb-139">Upgrade task sequences will also help you stay current with major semi-annual updates.</span></span> <span data-ttu-id="846bb-140">Windows Autopilot — это недавнее обновление, оптимизирующее процесс переноса образов операционной системы на новые и существующие устройства.</span><span class="sxs-lookup"><span data-stu-id="846bb-140">Windows Autopilot is a recent addition that modernizes imaging new and existing devices.</span></span></p></td>
 <td><a href="https://aka.ms/ddev6" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-19.png" alt="Step 6" height="130" width="231" /></a></td>
 </tr>
 <tr class="odd">
 <td><a href="https://aka.ms/mdd7"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd7">Шаг 7. Обслуживание Windows и Office</a></strong></p>
-<p>В Windows 10 и приложениях Microsoft 365 для предприятий постоянно добавляются новые функции с целью развития пользовательского интерфейса и средства безопасности в соответствии с последними инновациями. Узнайте, как обеспечивать актуальность с помощью полугодичных и ежемесячных обновлений, как работают новые модели обслуживания и какие у вас есть инструменты и возможности.</p></td>
+<td><p><span data-ttu-id="846bb-141"><strong><a href="https://aka.ms/mdd7">Шаг 7. Обслуживание Windows и Office</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-141"><strong><a href="https://aka.ms/mdd7">Step 7: Windows and Office Servicing</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-142">В Windows 10 и приложениях Microsoft 365 для предприятий постоянно добавляются новые функции с целью развития пользовательского интерфейса и средства безопасности в соответствии с последними инновациями.</span><span class="sxs-lookup"><span data-stu-id="846bb-142">Both Windows 10 and Microsoft 365 Apps for enterprise continually add new capabilities to keep bringing user experiences and security forward with the latest innovations.</span></span> <span data-ttu-id="846bb-143">Узнайте, как обеспечивать актуальность с помощью полугодичных и ежемесячных обновлений, как работают новые модели обслуживания и какие у вас есть инструменты и возможности.</span><span class="sxs-lookup"><span data-stu-id="846bb-143">Learn how to stay current with semi-annual and monthly updates, how the new servicing model works, and the tools and options you have.</span></span></p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </tr>
 <tr class="even">
 <td><a href="https://aka.ms/mdd8"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></a></td>
-<td><p><strong><a href="https://aka.ms/mdd8">Шаг 8. Информирование и обучение пользователей</a></strong></p>
-<p>Убедитесь, что пользователи уведомлены о новых возможностях и способах работы при переходе на Windows 10 и приложения Microsoft 365 для предприятий. Узнайте, как воспользоваться помощью по адаптации пользователей с использованием Microsoft FastTrack, обучающих материалов, шаблонов для общения, а также новых способов отслеживать принятие и использование продуктов пользователями.</p></td>
+<td><p><span data-ttu-id="846bb-144"><strong><a href="https://aka.ms/mdd8">Шаг 8. Информирование и обучение пользователей</a></strong></span><span class="sxs-lookup"><span data-stu-id="846bb-144"><strong><a href="https://aka.ms/mdd8">Step 8: User Communication and Training</a></strong></span></span></p>
+<p><span data-ttu-id="846bb-p109">Убедитесь, что пользователи уведомлены о новых возможностях и способах работы при переходе на Windows 10 и приложения Microsoft 365 для предприятий. Узнайте, как воспользоваться помощью по адаптации пользователей с использованием Microsoft FastTrack, обучающих материалов, шаблонов для общения, а также новых способов отслеживать принятие и использование продуктов пользователями.</span><span class="sxs-lookup"><span data-stu-id="846bb-p109">Make sure your users are informed about new experiences and new ways of working as you shift your PCs to Windows 10 and Microsoft 365 Apps for enterprise. Learn how to take advantage of user adoption assistance with Microsoft FastTrack, training materials and communication templates, as well as new ways to monitor user acceptance and usage.</span></span></p></td>
 <td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </tr>
 </tbody>
