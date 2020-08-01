@@ -1,17 +1,20 @@
 ---
 title: Работа с аналитикой
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: dd50e5d7291589d12261396aac62e4d07b06909f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: bcb47a7d5e5dc0880ade6a7e5900d1019e13a8d7
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250429"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529771"
 ---
 # <a name="work-with-insights"></a>Работа с аналитикой
 

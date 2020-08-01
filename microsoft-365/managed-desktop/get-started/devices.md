@@ -1,17 +1,20 @@
 ---
 title: Заказ устройств на настольных компьютерах, управляемых Майкрософт
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c53b5e8002b8217055a29903719bda83e43ce554
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 75514dfc3c5de3c579cc051b830ebdc92a93e531
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982710"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529533"
 ---
 # <a name="order-microsoft-managed-desktop-devices"></a>Заказ управляемых устройств для настольных ПК Майкрософт
 

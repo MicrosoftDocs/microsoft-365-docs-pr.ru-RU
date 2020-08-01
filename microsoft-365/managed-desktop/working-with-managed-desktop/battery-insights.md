@@ -1,17 +1,20 @@
 ---
 title: Аналитика аккумулятора
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 434f62d5ddfc8bc75c54de422aafc8c6325c4086
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: f339fc98ea94c291c533045e9906f626f4b74e2a
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170599"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529843"
 ---
 # <a name="battery-insights"></a>Аналитика аккумулятора
 Это представление предоставляет метрики энергопотребления, аккумулятора и использования приложений для настольных устройств, управляемых Майкрософт. В этих целях приложение считается "используемым", если оно работает и в фокусе.
@@ -40,7 +43,7 @@ ms.locfileid: "42170599"
 - ЦП
 - Отображение
 - Сеть
-- Other
+- Другое
 
 "Другое" может включать энергопотребление в различных источниках, таких как активность диска, использование мобильного широкополосного подключения и энергия, потеряющая доступ к внутренним сопротивлением. 
 

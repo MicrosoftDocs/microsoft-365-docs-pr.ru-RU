@@ -1,17 +1,20 @@
 ---
 title: Включение службы Enterprise State Roaming
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a817e96d899564c3f46ea68088455210480989e3
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 8b9c4a96c3697ed7cfc13872de01ff31c0ec3894
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012506"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530203"
 ---
 # <a name="enable-enterprise-state-roaming"></a>Включение службы Enterprise State Roaming
 

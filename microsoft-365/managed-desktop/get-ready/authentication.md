@@ -1,17 +1,20 @@
 ---
 title: Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт
 description: Важные действия, чтобы убедиться, что Azure AD может общаться с локальной службой AD, чтобы обеспечить проверку подлинности
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c4ebe0c7ad3d1e197cf90cc975366df61d3b0cb5
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 7caeee6f476fea7881884cea20bd2a59db2c13d9
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276920"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530047"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Подготовка доступа к локальным ресурсам для компьютеров, управляемых Майкрософт
 

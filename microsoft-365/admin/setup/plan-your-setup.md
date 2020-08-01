@@ -19,19 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
-description: Узнайте, что нужно сделать для настройки Microsoft 365 для бизнеса.
-ms.openlocfilehash: 7509e2c4801adbca492e5f5446c5b97eae31dccf
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+description: Сведения о требованиях и рекомендациях по переходу на Microsoft 365 для бизнеса.
+ms.openlocfilehash: b7d815da012e1c104561d5fccfb9e1704ac5c447
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44778953"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529664"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>Планирование установки Microsoft 365 для бизнеса
 
 Эта статья предназначена для пользователей, которые подписаны на план Microsoft 365 для бизнеса.
   
-Перед переносом вашей организации в Microsoft 365 вам нужно принять решение о необходимости, а также сведения, которые необходимо иметь в наличии.
+Перед переносом вашей организации в Microsoft 365 необходимо иметь в наличии необходимые требования, сведения, которые необходимо иметь в наличии, и решения, которые необходимо принять.
+
+
   
 ## <a name="info-to-have-on-hand-before-you-run-the-setup-wizard"></a>Сведения, которые должны быть у вас в наличии перед запуском мастера установки
 

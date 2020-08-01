@@ -1,17 +1,20 @@
 ---
 title: Исключения в плане обслуживания
 description: ''
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9dca53ac9e99fd9bc68ee42f78de6a2bc009e42c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 826710bf59acd88494adf1f154e5657d1e039af7
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636188"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529939"
 ---
 # <a name="exceptions-to-the-service-plan"></a>Исключения в плане обслуживания
 
@@ -29,7 +32,7 @@ ms.locfileid: "43636188"
 |Драйверы оборудования или программного обеспечения     |   Драйверы устройств, ограниченные [требованиями приложения](mmd-app-requirements.md)      |
 |Политики     | Приложения Windows 10 или Microsoft 365 для корпоративных параметров на управляемом устройстве        |
 |Устройства     | Устройства, не включенные в список настольных [устройств](device-list.md) , управляемых Майкрософт        |
-|Other     |  Все, что не распространяется на другие области       |
+|Другое     |  Все, что не распространяется на другие области       |
  
 ## <a name="request-an-exception"></a>Запрос исключения
 

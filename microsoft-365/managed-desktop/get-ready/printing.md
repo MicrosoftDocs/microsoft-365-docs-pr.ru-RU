@@ -1,20 +1,22 @@
 ---
-title: Подготовка ресурсов печати для настольных компьютеров, управляемых Майкрософт
+title: Подготовка ресурсов печати для компьютеров, управляемых Майкрософт
 description: Важные действия для обеспечения плавной работы печати
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a90d104915ecdd31d9ac35a6393fba74a3816ea8
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1588a2c91bcbe0bd381acb6be4f9bd5562810860
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826453"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530251"
 ---
-# <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Подготовка ресурсов печати для настольных компьютеров, управляемых Майкрософт
+# <a name="prepare-printing-resources-for-microsoft-managed-desktop"></a>Подготовка ресурсов печати для компьютеров, управляемых Майкрософт
 
 По мере готовности к регистрации на настольном компьютере Майкрософт необходимо оценить требования к печати и определить подходящий подход для вашей среды. У вас есть три варианта:
  

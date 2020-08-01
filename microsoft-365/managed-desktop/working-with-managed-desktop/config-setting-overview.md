@@ -5,18 +5,20 @@ keywords: Настольные компьютеры, управляемые ко
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d8ebe4519d169db5500c55a3337836ca2d0986c0
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1af320ee6151036000e4e8c6fedc4d9152411283
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390726"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530239"
 ---
-# <a name="configurable-settings---microsoft-managed-desktop"></a>Настраиваемые параметры — Рабочий стол, управляемый корпорацией Майкрософт
+# <a name="configurable-settings---microsoft-managed-desktop"></a>Настраиваемые параметры — компьютеры, управляемые Майкрософт
 
-Настольные компьютеры, управляемые корпорацией Майкрософт, развертывают параметры и политики, применяемые ко всем устройствам, управляемым настольным компьютером Майкрософт. Дополнительные сведения см. [](../service-description/device-policies.md)
+Настольные компьютеры, управляемые корпорацией Майкрософт, развертывают параметры и политики, применяемые ко всем устройствам, управляемым настольным компьютером Майкрософт. Дополнительные [сведения см.](../service-description/device-policies.md)
 
 Настраиваемые параметры на рабочем столе, управляемом Майкрософт, позволяют ИТ-администраторам настраивать и развертывать параметры, которые уникальны в соответствии с потребностями Организации и бизнеса. Эти параметры задаются в дополнение к параметрам конфигурации устройств и политикам, управляемым настольным компьютером, управляемым Майкрософт.  
 
@@ -72,5 +74,5 @@ ms.locfileid: "35390726"
 Дополнительные сведения см в разделе [deploy and Track Settings Settings](config-setting-deploy.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
-- [Справочные сведения о настраиваемых параметрах](config-setting-ref.md) 
+- [Справочник по настраиваемым параметрам](config-setting-ref.md) 
 - [Развертывание настраиваемых параметров](config-setting-deploy.md) 

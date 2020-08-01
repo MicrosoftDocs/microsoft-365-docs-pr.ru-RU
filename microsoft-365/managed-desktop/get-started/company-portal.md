@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4e83983ae7b8b936b639382f025f1f88eeca0762
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 371656168f32db86ff32f187736d59dbd5dbe749
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699679"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529699"
 ---
 # <a name="install-intune-company-portal-on-on-devices"></a>Установка корпоративного портала Intune на устройствах
 

@@ -6,12 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0cb4da85b5548ced757197a3af818e212b065b47
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: d2a6c09e1bcb84885e607d133c14e26e08e3c621
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085947"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530167"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Работа с консультационными службами Майкрософт
 
@@ -21,7 +24,7 @@ ms.locfileid: "42085947"
 
 Для работы с упаковкой приложений MCS **необходимо предоставить следующие элементы**:
 
-- Исходные файлы установщика (например, Setup. exe или. msi).
+- Исходные файлы установщика (например, setup.exe или MSI).
 - Инструкции по установке, указывающие сведения о том, как должна выглядеть Последняя установка. Например, должно ли приложение иметь ярлык на рабочем столе? Какова видимость приложения? Должно ли приложение подключиться к серверу, и если да, то какое из них? Дополнительные сведения см. в статье [шаблон запроса упаковки приложений](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx).
 - Чтобы убедиться, что приложение работает так же, как в вашей среде, необходимо выполнить собственный приемочный тест.
 

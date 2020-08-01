@@ -1,7 +1,7 @@
 ---
 title: Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт
 description: certs/Wi/LAN
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 f1.keywords:
@@ -9,12 +9,14 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 0c3edda92e28b45b7f7b48c1d5002014f71116f6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: c7c57861986d275165484ae726140720a75da88e
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596576"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530035"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Подготовка сертификатов и сетевых профилей для компьютеров, управляемых Майкрософт  
  
@@ -53,7 +55,7 @@ ms.locfileid: "41596576"
 2. Откройте командную строку с административными учетными данными. 
 3. Найдите имя интерфейса локальной сети, выполнив **netsh interface show interface**. 
 4. Экспортируйте XML профиля локальной сети, выполнив **команду Netsh LAN Export Profile Folder =.  Interface = "interface_name"**. 
-5. Если необходимо протестировать экспортированный профиль на компьютере, управляемом Майкрософт, запустите **Netsh LAN Add Profile filename = "PATH_AND_FILENAME. XML" Interface = "interface_name"**. 
+5. Если необходимо протестировать экспортированный профиль на настольном устройстве, управляемом Майкрософт, выполните **команду Netsh LAN Add Profile filename = "PATH_AND_FILENAME.xml" Interface = "interface_name"**. 
  
  
 ## <a name="deploy-certificate-infrastructure"></a>Развертывание инфраструктуры сертификатов  

@@ -1,17 +1,20 @@
 ---
 title: Настройка условного доступа
 description: Как исключить некоторые учетные записи Майкрософт
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1bc5d937616cba60c5af43fe22a7c4dccf89a55e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 8844c50f5faba609b3f5f53adc5ab45ba1dbaa74
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085812"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529687"
 ---
 # <a name="adjust-conditional-access"></a>Настройка условного доступа
 

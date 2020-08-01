@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection.
-ms.openlocfilehash: 5c5253aabf5d5235e31f24624fd9e1b3f4adb184
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617268"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533815"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок ATP
 
@@ -84,6 +84,10 @@ ms.locfileid: "44617268"
 |`https://contoso.com/a`|Блокирует сайт, `https://contoso.com/a` но не дополнительные подпути, такие как`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|Блокирует сайт `https://contoso.com/a` и дополнительные подпути, такие как`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Блокирует поддомен (в данном случае — "Toys"), но разрешить переход на другие URL-адреса доменов (например `https://contoso.com` , или `https://home.contoso.com` ).|
+
+
+> [!NOTE]
+> По умолчанию URL-адреса 500 можно добавлять только в список заблокированных URL-адресов в политике по умолчанию безопасных ссылок Office 365 ATP.
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>Определение исключений для определенных пользователей в Организации
 

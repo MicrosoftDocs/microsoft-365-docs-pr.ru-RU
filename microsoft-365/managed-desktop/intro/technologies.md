@@ -1,19 +1,22 @@
 ---
-title: Управляемые технологии для настольных ПК Майкрософт
+title: Технологии компьютеров, управляемых Майкрософт
 description: В этом разделе перечислены технологии и приложения, используемые в Microsoft Managed Desktop.
-keywords: Настольные компьютеры, управляемые корпорацией Майкрософт, Microsoft 365, служба, документация
+keywords: Компьютеры, управляемые Майкрософт, Microsoft 365, служба, документация
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 8a86220e7fcfe4c2e788b28842c77d238d98fda4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.author: jaimeo
+manager: laurawi
+ms.topic: article
+ms.openlocfilehash: 1f82c339e8cbe4426c87eae045107d26201b0025
+ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636200"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46530023"
 ---
-# <a name="microsoft-managed-desktop-technologies"></a>Управляемые технологии для настольных ПК Майкрософт
+# <a name="microsoft-managed-desktop-technologies"></a>Технологии компьютеров, управляемых Майкрософт
 
 В этом разделе перечислены технологии и приложения, используемые в Microsoft Managed Desktop.
 
