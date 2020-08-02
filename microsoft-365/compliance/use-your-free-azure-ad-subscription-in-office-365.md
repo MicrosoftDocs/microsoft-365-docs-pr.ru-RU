@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: Узнайте, как получить доступ к службе Azure Active Directory, которая включена в платную подписку организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43c9c03af74d4edc1fb6c762c9ca89594a907920
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+ms.openlocfilehash: c968d4ae8cc5f0798b6ba7d5bcb52ca6fe7d6116
+ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819289"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46528155"
 ---
 # <a name="use-your-free-azure-active-directory-subscription"></a>Использование бесплатной подписки на Azure Active Directory
 
@@ -30,7 +30,7 @@ ms.locfileid: "44819289"
 
 ## <a name="open-a-private-browsing-session"></a>Открытие частного сеанса просмотра
 
-Используйте частный сеанс просмотра (не обычный сеанс) для доступа к порталу Azure (на шаге 1 ниже), поскольку это предотвращает передачу учетных данных, с которыми вы вошли в систему, в Azure. Чтобы открыть сеанс приватного просмотра:
+Используйте сеанс конфиденциального просмотра вместо обычного для доступа к порталу Azure (на шаге 1 ниже). Это предотвращает передачу учетных данных, с которыми вы вошли в систему, в Azure. Чтобы открыть сеанс конфиденциального просмотра:
 
 - В Microsoft Edge (устаревшая версия), Internet Explorer или Mozilla FireFox нажмите клавиши `CTRL+SHIFT+P`.
 
@@ -48,7 +48,7 @@ ms.locfileid: "44819289"
 
 ## <a name="more-information"></a>Дополнительные сведения
 
-- Бесплатная подписка на Azure Active Directory не включает отчет о действиях входа. Чтобы записывать действия входа (это может быть полезно в случае нарушения безопасности данных), потребуется подписка на Azure Active Directory Premium. Дополнительные сведения см. в статье [Как долго в Azure AD хранятся данные?](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data)
+- Бесплатная подписка на Azure Active Directory не включает отчет о действиях входа. Чтобы записывать действия входа (это может быть полезно при нарушении безопасности данных), потребуется подписка Azure Active Directory Premium. Дополнительные сведения см. в статье [Как долго в Azure AD хранятся данные?](https://docs.microsoft.com/azure/active-directory/reports-monitoring/reference-reports-data-retention#how-long-does-azure-ad-store-the-data)
 
 - Вы также можете открыть Центр администрирования **Azure Active Directory** из Центра администрирования Microsoft 365. В левой области навигации Центра администрирования Microsoft 365 выберите **Центры администрирования** \> **Azure Active Directory**.
 

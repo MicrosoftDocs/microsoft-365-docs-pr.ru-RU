@@ -14,15 +14,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - remotework
-- M365solutions
+- m365solution-remotework
+- m365solution-overview
 ms.custom: ''
 description: Обучайте своих пользователей и обеспечьте быстрое решение возникающих проблем.
-ms.openlocfilehash: bb8c6614ed383136ef5724d45637891ee978c9cd
-ms.sourcegitcommit: 9c828bc27cd73a1bb85e9fe38d818190025ebb3f
+ms.openlocfilehash: 1954a3768d2a35c3193aa523d6383b7b8257a6a0
+ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160730"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521437"
 ---
 # <a name="step-6-train-remote-workers-and-address-usage-feedback"></a>Этап 6. Обучение сотрудников удаленной работе с учетом их отзывов
 
@@ -43,7 +44,7 @@ ms.locfileid: "44160730"
 - Незамедлительно принимайте меры в соответствии с отзывами удаленных сотрудников, регулируйте политики и настройки.
 - Анализируйте использование команд, электронной почты, сайтов SharePoint и папок OneDrive и сравните их с предполагаемым использованием.
 
-При необходимости следует провести повторное обучение пользователей.
+Затем проведите повторное обучение пользователей, если необходимо.
 
 ## <a name="results-of-step-6"></a>Результаты этапа 6
 

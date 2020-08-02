@@ -315,6 +315,8 @@
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: Готовые политики безопасности
                   href: ./office-365-security/preset-security-policies.md
+                - name: Анализатор конфигураций для готовых политик безопасности
+                  href: ./office-365-security/configuration-analyzer-for-security-policies.md
                 - name: Заголовки сообщений по защите от нежелательной почты
                   href: ./office-365-security/anti-spam-message-headers.md
                 - name: Как объединяются политики и средства защиты

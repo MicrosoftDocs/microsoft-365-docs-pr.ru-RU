@@ -1,0 +1,22 @@
+- name: Начало работы со сведениями о контенте
+  items:
+    - name: Общие сведения о документе
+      href: document-understanding-overview.md
+    - name: Обзор обработки форм
+      href: form-processing-overview.md
+    - name: Различия между общими моделями документов и моделями обработки форм
+      href: difference-between-document-understanding-and-form-processing-model.md
+    - name: Создание центра контента
+      href: create-a-content-center.md
+    - name: Создание классификатора
+      href: create-a-classifier.md
+    - name: Создание средства извлечения
+      href: create-an-extractor.md
+    - name: Применение модели
+      href: apply-a-model.md
+    - name: Создание модели обработки форм
+      href: create-a-form-processing-model.md
+- name: Начало работы с программой установки
+  items:
+    - name: Настройка понимания контента
+      href: set-up-content-understanding.md

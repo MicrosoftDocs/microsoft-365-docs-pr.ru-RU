@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 description: Узнайте о создании пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7eb19698cc3dd2d56e05dfbca8759de178f3fc2a
-ms.sourcegitcommit: c4a7b227f7d9abd666dfb93e3ded78ba8288e649
+ms.openlocfilehash: 957bde2112d5a0cf0c20bb28a8341b6f04118fc8
+ms.sourcegitcommit: cfb0c50f1366736cdf031a75f0608246b5640d93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229419"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46536324"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>Создание пользовательских типов конфиденциальной информации с помощью классификации на основе точного совпадения данных
 
-[Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md) используются для предотвращения непреднамеренного или неприемлемого предоставления общего доступа к конфиденциальной информации. Администратор может использовать  [Центр безопасности и соответствия требованиям](create-a-custom-sensitive-information-type.md) или [PowerShell](create-a-custom-sensitive-information-type-in-scc-powershell.md), чтобы определить пользовательский тип конфиденциальной информации на основе шаблонов, признаков (ключевых слов, например *сотрудник*, *эмблема*, *идентификатор* и т. д), расстояния между символами (как близко располагается признак к символам в определенном шаблоне) и доверительных уровней. Такие пользовательские типы конфиденциальной информации соответствуют бизнес-требованиям большинства организаций.
+[Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md) используются для предотвращения непреднамеренного или неприемлемого предоставления общего доступа к конфиденциальной информации. Как администратор вы можете использовать Центр безопасности и соответствия требованиям или PowerShell для определения пользовательского типа конфиденциальной информации на основе шаблонов, признаков (ключевых слов, например  *сотрудник*,  *эмблема*,  *идентификатор* и т. д), расстояния между символами (как близко располагается признак к символам в определенном шаблоне) и доверительных уровней. Такие пользовательские типы конфиденциальной информации соответствуют бизнес-требованиям большинства организаций.
 
 Но что если вам нужен пользовательский тип конфиденциальной информации для сопоставления с точными значениями данных, а не универсальными шаблонами? С помощью классификации на основе точного совпадения данных (EDM) вы можете создать пользовательский тип конфиденциальной информации с такими характеристиками:
 
@@ -51,6 +51,16 @@ ms.locfileid: "45229419"
 - Microsoft 365 E5
 - Соответствие требованиям Microsoft 365 E5
 - Защита информации и управление данными в Microsoft E5/A5
+
+## <a name="portal-links-for-your-subscription"></a>Ссылки на портал для вашей подписки
+
+
+|Портал  |Интернет/GCC  |GCC High  |DOD  |
+|---------|---------|---------|---------|
+|Office SCC     |  protection.office.com       |scc.office365.us         |scc.protection.apps.mil |
+|Центр безопасности Microsoft 365     |security.microsoft.com         |security.microsoft.us         |security.apps.mil|
+|Центр соответствия требованиям Microsoft 365     |compliance.microsoft.com         |compliance.microsoft.us         |compliance.apps.mil|
+
 
 ## <a name="the-work-flow-at-a-glance"></a>Обзор рабочего процесса
 
@@ -100,7 +110,7 @@ ms.locfileid: "45229419"
       </EdmSchema>
       ```
 
-4. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+4. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 5. Чтобы добавить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
@@ -133,7 +143,7 @@ ms.locfileid: "45229419"
 
 1. Измените файл **edm.xml** (файл, обсуждаемый в разделе [Определение схемы](#define-the-schema-for-your-database-of-sensitive-information)  этой статьи).
 
-2. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+2. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 3. Чтобы обновить схему базы данных, выполните по отдельности указанные ниже командлеты.
 
@@ -162,7 +172,7 @@ ms.locfileid: "45229419"
 
 (При необходимости.) Чтобы удалить схему, используемую для классификации на основе EDM, выполните указанные ниже действия.
 
-1. [Подключитесь к PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+1. Подключитесь к Центру безопасности и соответствия требованиям, используя процедуры, описанные в статье [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
 
 2. Выполните приведенные ниже командлеты PowerShell, заменив имя хранилища данных "patientrecords" на имя удаляемого хранилища.
 
@@ -223,7 +233,7 @@ ms.locfileid: "45229419"
             </Pattern>
             <Pattern confidenceLevel="75">
               <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
-              <Any minMatches ="3" maxMatches ="100">
+              <Any minMatches ="3" maxMatches ="6">
                 <match matches="PatientID" />
                 <match matches="MRN"/>
                 <match matches="FirstName"/>
@@ -290,7 +300,7 @@ ms.locfileid: "45229419"
 
 #### <a name="set-up-the-security-group-and-user-account"></a>Настройка группы безопасности и учетной записи пользователя
 
-1. В качестве глобального администратора перейдите в центр администрирования ([https://admin.microsoft.com](https://admin.microsoft.com/)) и [создайте группу безопасности](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем **EDM\_DataUploaders**.
+1. Как глобальный администратор перейдите в центр администрирования с помощью соответствующей [ссылки для вашей подписки](#portal-links-for-your-subscription) и [создайте группу безопасности](https://docs.microsoft.com/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide) с именем **EDM\_DataUploaders**.
 
 2. Добавьте одного или нескольких пользователей в группу безопасности **EDM\_DataUploaders** . (Эти пользователи будут управлять базой данных конфиденциальной информации.)
 
@@ -301,16 +311,25 @@ ms.locfileid: "45229419"
 >[!NOTE]
 > Перед началом этой процедуры убедитесь, что вы являетесь участником группы безопасности **EDM\_DataUploaders** и локальным администратором на своем компьютере.
 
-1. Скачайте [агент отправки EDM](https://go.microsoft.com/fwlink/?linkid=2088639) и установите его. По умолчанию в качестве расположения установки необходимо использовать **C:\\Program Files\\Microsoft\\EdmUploadAgent**.
+#### <a name="links-to-edm-upload-agent-by-subscription-type"></a>Ссылки на агента отправки EDM по типу подписки
 
-      > [!TIP]
-      > Чтобы получить список поддерживаемых параметров команды, запустите агент без аргументов. Например, EdmUploadAgent.exe.
+- [Коммерческий + GCC](https://go.microsoft.com/fwlink/?linkid=2088639)
+- [GCC-High](https://go.microsoft.com/fwlink/?linkid=2137521)
+- [DoD](https://go.microsoft.com/fwlink/?linkid=2137807)
 
-2. Чтобы разрешить работу агента отправки EDM, откройте командную строку Windows (в качестве администратора) и выполните следующую команду:
+1. Скачайте и установите соответствующий [агент отправки EDM](#links-to-edm-upload-agent-by-subscription-type) для своей подписки. По умолчанию в качестве расположения установки необходимо использовать **C:\\Program Files\\Microsoft\\EdmUploadAgent**.
+
+> [!TIP]
+> Чтобы получить список поддерживаемых параметров команды, запустите агент без аргументов. Например, EdmUploadAgent.exe.
+
+> [!NOTE]
+> Вы можете отправлять данные с помощью EDMUploadAgent в любое указанное хранилище данных только дважды в день.
+
+2. Чтобы авторизовать агент отправки EDM, откройте командную строку Windows (как администратор) и выполните следующую команду:
 
     `EdmUploadAgent.exe /Authorize`
 
-3. Войдите с помощью рабочей или учебной учетной записи для Office 365.
+3. Войдите с помощью своей рабочей или учебной учетной записи Office 365, добавленной в группу безопасности EDM_DataUploaders.
 
 Следующий этап состоит в использовании агента отправки EDM для индексации конфиденциальных данных с последующей отправкой индексированных данных.
 
@@ -347,6 +366,10 @@ ms.locfileid: "45229419"
 `EdmUploadAgent.exe /GetDataStore`
 
 Появится список хранилищ данных и время их последнего обновления.
+
+Если вы хотите просмотреть все отправки данных в определенное хранилище, выполните следующую команду в командной строке Windows:
+
+`EdmUploadAgent.exe /GetSession /DataStoreName <DataStoreName>`
 
 Перейдите к настройке процесса и расписания для  [обновления базы данных конфиденциальной информации](#refreshing-your-sensitive-information-database).
 
@@ -459,7 +482,7 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>Создание политики защиты от потери данных с EDM
 
-1. Перейдите в Центр безопасности и соответствия требованиям ([https://protection.office.com](https://protection.office.com/)).
+1. Перейдите в Центр безопасности и соответствия требованиям, воспользовавшись соответствующей [ссылкой для вашей подписки](#portal-links-for-your-subscription).
 
 2. Выберите пункты **Защита от потери данных** \> **Политика**.
 
@@ -497,12 +520,9 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 ## <a name="related-articles"></a>Статьи по теме
 
-[Определения типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
-
-[Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md)
-
-[Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
-
-[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
-
-[New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
+- [Определения типа конфиденциальной информации](sensitive-information-type-entity-definitions.md)
+- [Пользовательские типы конфиденциальной информации](custom-sensitive-info-types.md)
+- [Обзор политик защиты от потери данных](data-loss-prevention-policies.md)
+- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
+- [New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/new-dlpedmschema?view=exchange-ps)
+- [Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).

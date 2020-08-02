@@ -1,0 +1,16 @@
+- name: Приступая к работе с управлением знаниями
+  items:
+    - name: Обзор управления знаниями
+      href: knowledge-management-overview.md
+    - name: Обзор центра разделов
+      href: topic-center-overview.md
+    - name: Работать с разделами в центре разделов
+      href: work-with-topics.md
+    - name: Предоставление пользователям разрешений на доступ к центру разделов
+      href: give-user-permissions-to-the-topic-center.md
+- name: Начало работы с программой установки
+  items:
+    - name: Настройка управления знаниями
+      href: set-up-knowledge-network.md
+    - name: Управление сетью управления знаниями
+      href: manage-knowledge-network.md

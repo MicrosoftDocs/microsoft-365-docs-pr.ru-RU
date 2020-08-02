@@ -4,7 +4,7 @@ summary: Узнайте, как спроектировать решение и �
 brand: m365
 metadata:
   title: Центр архитектуры и решений Microsoft 365
-  description: Узнайте, как спроектировать решение и архитектуру, оптимальные для вашей организации
+  description: В центре справки вы узнаете об учебных курсах по ИТ, а также о разработке решения и архитектуры, подходящих для вашей организации.
   ms.service: o365-solutions
   ms.topic: hub-page
   ms.collection:
@@ -15,12 +15,12 @@ metadata:
   audience: ITPro
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: 0d5268adb566b415b9dfd1ed999f96b58a7991a0
-  ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+  ms.openlocfilehash: 38232c5ef3b64ac114dd8296398ade32bcf12d97
+  ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/29/2020
-  ms.locfileid: "46521115"
+  ms.lasthandoff: 07/30/2020
+  ms.locfileid: "46530215"
 highlightedContent:
   items:
   - title: Повышение эффективности работы сотрудников, работающих удаленно, с помощью Microsoft 365
