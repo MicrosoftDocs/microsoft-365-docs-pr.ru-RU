@@ -18,14 +18,14 @@ ms.custom:
 - AdminSurgePortfolio
 search.appverid:
 - MET150
-description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов, номера телефонов, указанные для вашей страны или региона, или отправив запрос на обслуживание через Интернет, или связавшись с магазином Майкрософт для получения виртуальной клиентской поддержки.
+description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
-ms.openlocfilehash: 4ee5a8adc17bb01a58ba79ccb53714c75af7de99
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: c63e30aa8db9fc4a3ddb6ea394e01db635a1bc23
+ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506313"
+ms.lasthandoff: 08/01/2020
+ms.locfileid: "46536864"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -70,11 +70,6 @@ ms.locfileid: "46506313"
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
 
-## <a name="virtual-support-from-the-microsoft-store"></a>Виртуальная поддержка из магазина Microsoft
-
-Теперь вы можете обратиться в службу продаж и поддержки клиентов Microsoft Store и поговорить со специалистом службы поддержки, который поможет решить вашу проблему с Microsoft 365.
-
-Перейдите на страницу [Связаться со службой поддержки Microsoft Store](https://support.microsoft.com/help/28808/microsoft-store-contact-support?icid=bm_support_5292020)для получения ссылок на справочные материалы и телефонных номеров.
 
 ::: moniker-end
 
