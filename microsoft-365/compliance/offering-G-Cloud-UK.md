@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 814b04583724b9ab8e6bcb570d51d24467755064
-ms.sourcegitcommit: 51e47ca4b355436a2ad3deb154060eb1927428e6
+ms.openlocfilehash: 6392c591ab5db083f00da97c50e6c388e8656815
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44773770"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560776"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Правительство для Великобритании (Россия)
 
@@ -37,7 +37,7 @@ ms.locfileid: "44773770"
 
 Встреча служб Майкрософт в цифровом магазине означает, что правительственные агентства и партнеры Великобритании могут использовать службы в области для хранения и обработки официальных правительственных данных в Великобритании, в большинстве правительственных данных. Кроме того, в финансовом облаке есть более 450 партнеров Майкрософт, которые являются торговыми посредниками служб Microsoft Cloud Services. Они могут напрямую утверждать соответствие служб в области с 14 принципами в своих приложениях. Тем не менее, клиентам и партнерам потребуется обеспечить собственное соответствие всем компонентам, не включенным в аттестацию и определением соответствия требованиям для облачных служб Майкрософт.
 
-Узнайте, как ускорить развертывание по принципу G — Cloud V6 для Великобритании с помощью нашего плана безопасности и соответствия требованиям Azure: [скачайте Руководство по реализации принципов внедрения Azure для Великобритании](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=c3804aba-03a7-4d21-88ad-d9bbe5314a00&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_UK_G-Cloud_Blueprint)
+ [14 Cloud Security Controls for Великобритании Cloud с помощью Microsoft Azure](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/) предоставляет клиентские стратегии для переноса служб в Azure и оказания помощи в обеспечении своих обязательств по Украине, предъявляемых ЦЕСГ/НСКС. В этом техническом документе представлены сведения о том, как Azure можно использовать для решения 14 элементов управления, выставляемых в участниках Cloud Security, и описывает, как клиенты могут быстрее перемещаться и больше при сохранении денег при переходе на Microsoft Azure Services.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Облачные службы Майкрософт, к которым применима оценка
 
@@ -45,7 +45,7 @@ ms.locfileid: "44773770"
 - Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Облачная служба Power Automate (прежнее название Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
+- Облачная служба Power Automate (ранее Microsoft Flow) в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Office 365: Exchange Online, SharePoint Online и Skype для бизнеса Online
 - Облачная служба PowerApps в виде автономной службы или в составе плана либо набора Office 365 или Dynamics 365
 - Облачная служба Power BI в виде автономной службы или в составе плана либо набора Office 365

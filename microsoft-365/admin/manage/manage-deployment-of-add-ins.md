@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: Узнайте, как развертывать надстройки для пользователей и групп в Организации с помощью централизованного развертывания в центре администрирования.
-ms.openlocfilehash: 4e9a3a4b7182bfd452c63abd03836623dc77260c
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: a99847cd24853a8d3d411eed97983b66001287ff
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138248"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560731"
 ---
 # <a name="deploy-add-ins-in-the-admin-center"></a>Развертывание надстроек в Центре администрирования
 
@@ -139,6 +139,6 @@ ms.locfileid: "45138248"
 
 [Вспомогательные и приобретение надстроек из магазина](minors-and-acquiring-addins-from-the-store.md)
   
-[Использование командлетов PowerShell для централизованного развертывания для управления надстройками](https://docs.microsoft.com/office365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
+[Использование командлетов PowerShell для централизованного развертывания для управления надстройками](https://docs.microsoft.com/office365/enterprise/powershell/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins)
   
 [Устранение неполадок: пользователь не видит надстройки](https://docs.microsoft.com/office365/troubleshoot/access-management/user-not-seeing-add-ins)

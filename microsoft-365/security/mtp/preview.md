@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 77f84519c7173aa1f9a4293b222fa5f677ed8159
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: 3559bf3391427d6f6ae0cfc6b6f6e8ed343438fa
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430367"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552666"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -57,5 +57,7 @@ ms.locfileid: "45430367"
 ## <a name="preview-features"></a>Предварительные функции
 В настоящее время доступны следующие функции и расширения для предварительной версии:
 
-- **[Справочник по схемам на портале](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — сведения о таблицах схемы, доступных непосредственно в центре обеспечения безопасности. В дополнение к описаниям таблиц и столбцов, эта ссылка содержит сведения о поддерживаемых типах событий ( `ActionType` значениях) и примерах запросов.
+- **[Выполнение действий в расширенном поиске](advanced-hunting-take-action.md)** — быстрое включение угроз или адресов скомпрометированных ресурсов, которые вы найдете в [расширенном поиске](advanced-hunting-overview.md).
+
+- **[Справочник по схемам на портале](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — получение сведений о расширенных таблицах схемы подпоисков непосредственно в центре обеспечения безопасности. Помимо описаний таблиц и столбцов, Эта удобная справочная информация содержит сведения о поддерживаемых типах событий ( `ActionType` значений) и примерах запросов.
 

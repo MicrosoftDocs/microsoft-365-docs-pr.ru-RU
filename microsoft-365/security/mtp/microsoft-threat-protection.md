@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: b11daf1cc6921e4be87b1bd3965adc2d76d0a0dd
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: afeef8de09e0ee7a727372041791871712ca4e0d
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049932"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560899"
 ---
 # <a name="microsoft-threat-protection"></a>Защита от угроз (Майкрософт)
 
@@ -50,11 +50,13 @@ ms.locfileid: "45049932"
 >Ознакомьтесь с [интерактивным руководством Майкрософт по защите от угроз](https://aka.ms/MTP-Interactive-Guide).
 
 
-Microsoft Threat Protection Suite защищает: 
+Пакет Защиты от угроз (Майкрософт) защищает: 
 - **Конечные точки с помощью защитника (Майкрософт) ATP** — это платформа единой конечной точки для защиты от вирусов, обнаружения нарушений подлинности, автоматического исследования и ответа. 
 - **Электронная почта и совместная работа с office 365 ATP** : Office 365 ATP защищает вашу организацию от вредоносных угроз, исносящихся к сообщениям электронной почты, ссылкам (URL-адресам) и средствам совместной работы. 
 - **Удостоверения с Azure ATP и служба Azure AD Identity Protection** — Azure ATP использует сигналы Active Directory для определения, обнаружения и проверки сложных угроз, скомпрометированных удостоверений и действий по предварительной программе проверки правовируса, направленных в организацию. 
 - **Приложения с Microsoft Cloud App Security** -Microsoft Cloud App Security — это комплексное решение, которое позволяет глубоко отображать, строго управлять данными и улучшенную защиту облачных приложений. 
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Bzww] 
 
 Уникальный межуровневый уровень защиты от угроз Майкрософт дополняет отдельные компоненты набора следующим образом:
 - Защита от атак и координация защитных ответов в наборе через обмен сигналами и автоматические действия

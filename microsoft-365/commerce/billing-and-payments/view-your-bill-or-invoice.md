@@ -27,12 +27,13 @@ ms.custom:
 - OKR_SMB_Videos
 - AdminSurgePortfolio
 description: Найдите свой счет или выписку по счету в центре администрирования Microsoft 365. Вы также можете сохранить и распечатать копию счета.
-ms.openlocfilehash: 81c3a03207fd8f35c975026ebd2a9a0334fc9407
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.date: 07/31/2020
+ms.openlocfilehash: 31d48ea846cbbdfb87cce4042ffea959e30d6fa1
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533617"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552542"
 ---
 # <a name="view-your-bill-or-invoice"></a>Просмотр счета
 

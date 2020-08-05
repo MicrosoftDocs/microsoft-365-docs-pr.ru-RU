@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Поиск и использование отчетов для Office 365 Advanced Threat Protection в центре безопасности и &amp; соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4210ea30457215f9adc2984f24f161dc94985873
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: a2225cbbd9233199e0ce1fc0baf0be5fe59bd258
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434099"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560301"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Просмотр отчетов для Office 365 Advanced Threat protection
 
@@ -31,7 +31,7 @@ ms.locfileid: "45434099"
 
 ![Панель мониторинга отчетов в центре безопасности & соответствия требованиям](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
-## <a name="advanced-threat-protection-file-types-report"></a>Отчет о типах файлов для расширенной защиты от угроз
+## <a name="advanced-threat-protection-file-types-report"></a>отчет о типах файлов расширенной защиты от угроз;
 
 В отчете " **Расширенные типы файлов для защиты от угроз** " отображаются типы файлов, обнаруженных в качестве вредоносных при [безопасном вложении ATP](atp-safe-attachments.md).
 
@@ -115,7 +115,7 @@ ms.locfileid: "45434099"
 
 Чтобы вернуться к представлению отчетов, нажмите кнопку **Просмотреть отчет**.
 
-## <a name="advanced-threat-protection-message-disposition-report"></a>Отчет об ликвидации сообщений Advanced Threat protection
+## <a name="advanced-threat-protection-message-disposition-report"></a>отчет о ликвидации сообщений расширенной защиты от угроз
 
 В отчете об **ликвидации сообщений ATP** отображаются действия, предпринятые для сообщений электронной почты, которые были обнаружены как вредоносный контент.
 
@@ -197,7 +197,7 @@ ms.locfileid: "45434099"
 
 Чтобы вернуться к представлению отчетов, нажмите кнопку **Просмотреть отчет**.
 
-## <a name="threat-protection-status-report"></a>Отчет о состоянии защиты от угроз
+## <a name="threat-protection-status-report"></a>отчет о состоянии защиты от угроз;
 
 Отчет **о состоянии защиты от угроз** — это единое представление, объединяющее сведения о вредоносном содержимом и вредоносных сообщениях, обнаруженных и заблокированных службой [Exchange Online Protection](exchange-online-protection-overview.md) (EOP) и Office 365 ATP. Дополнительные сведения см. в разделе [отчет о состоянии защиты от угроз](view-email-security-reports.md#threat-protection-status-report).
 
@@ -218,7 +218,7 @@ ms.locfileid: "45434099"
 
 - **URL-адрес щелкните действие защиты**: показывает количество щелчков по пользователям в Организации, а также результаты щелчка мыши:
 
-  - **Заблокировано**
+  - **Заблокировано** (пользователь заблокирован для перехода по URL-адресу)
   - **Заблокировано и нажато**
   - **Переход по нажатию во время сканирования**
 
@@ -227,7 +227,7 @@ ms.locfileid: "45434099"
   При нажатии кнопки **фильтры**можно изменить отчет с помощью следующих фильтров:
 
   - **Дата начала** и **Дата окончания**
-  - Доступные действия по защите от щелчка, а также значение, **разрешенное** для просмотра сведений обо всех щелчках URL (а не только заблокированных щелчков).
+  - Доступные действия по защите от щелчка, а также **разрешенное** значение (пользователю разрешено переходить по URL-адресу).
 
   ![URL-адрес — представление действий по защите в отчете по защите от угроз в URL-адресе](../../media/url-threat-protection-report-url-click-protection-action-view.png)
 
@@ -302,7 +302,7 @@ ms.locfileid: "45434099"
 
 Если вы не видите данные в отчетах ATP, дважды проверьте правильность настройки политик. Для вашей организации должны быть определены политики [безопасных ссылок ATP](set-up-atp-safe-links-policies.md) и [политики безопасных вложений ATP](set-up-atp-safe-attachments-policies.md) для обеспечения безопасности ATP. Кроме того, вы можете увидеть [защиту от нежелательной почты и вредоносных программ в Office 365](anti-spam-and-anti-malware-protection.md).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 
 [Интеллектуальные отчеты и аналитика в Центре безопасности и соответствия требованиям](reports-and-insights-in-security-and-compliance.md)
   

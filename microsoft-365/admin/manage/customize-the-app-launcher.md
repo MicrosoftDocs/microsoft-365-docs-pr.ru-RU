@@ -21,19 +21,19 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: 'Создайте быстрые ссылки на электронную почту, документы, приложения, сайты SharePoint, внешние сайты и другие ресурсы, добавив настраиваемые плитки в средство запуска приложений. '
-ms.openlocfilehash: 7220f0be8ad6605b7ad6d30000fde6411948c996
-ms.sourcegitcommit: 659adf65d88ee44f643c471e6202396f1ffb6576
+ms.openlocfilehash: cebb4385e40f2cef68d3ee26dca1cb905c8d91c5
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "44780137"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552498"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>Добавление настраиваемых плиток в средство запуска приложений
 
 ::: moniker range="o365-21vianet"
 
 > [!NOTE]
-> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
+> Изменяется Центр администрирования. Если ваш интерфейс не соответствует приведенным здесь сведениям, см. раздел [О новом Центре администрирования Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/microsoft-365-admin-center-preview?view=o365-21vianet).
 
 ::: moniker-end
 
@@ -45,7 +45,7 @@ ms.locfileid: "44780137"
   
 ## <a name="add-a-custom-tile-to-the-app-launcher"></a>Добавление настраиваемой плитки в средство запуска приложений
 
-1. В центре администрирования перейдите в **раздел Параметры**  >  **Организации** и выберите вкладку **профиль организации** .
+1. Войдите в центр администрирования как глобальный администратор, **перейдите в раздел Параметры**  >  **Организации**и выберите вкладку **профиль организации** .
     
 2. На вкладке **профиль организации** выберите **элемент плитка запуска приложений**.
   
@@ -91,4 +91,3 @@ ms.locfileid: "44780137"
 
 В дополнение к добавлению плиток в средство запуска приложений на панель навигации можно добавить плитку запуска приложений ([Подробнее](https://support.microsoft.com/office/eb34a21b-52fa-4fbf-a8d5-146132242985)). Чтобы настроить внешний вид Microsoft 365 в соответствии с фирменной символикой Организации, ознакомьтесь [со статьей Настройка темы microsoft 365](../setup/customize-your-organization-theme.md).
   
-

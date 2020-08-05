@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9c1b9c1853d80d818d97084e2668d3b12b6da0e6
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 07c010a78d297a4a3c932c0d9a0e32cce0c43bfa
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503224"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560911"
 ---
 # <a name="extend-advanced-hunting-coverage-with-the-right-settings"></a>Расширение расширенного контроля за пресроком действия с помощью правильных параметров
 
@@ -45,8 +45,8 @@ ms.locfileid: "46503224"
 
 | Data | Описание | Таблица схемы | Способ настройки |
 | --- | --- | --- | --- |
-| Контроллер домена. | Данные из локальной службы Active Directory, отправленные в Azure ATP, дополнительные сведения об удостоверении, такие как сведения об учетных записях, действиях входа и запросах Active Directory | Несколько таблиц, включая [идентитинфо](advanced-hunting-identityinfo-table.md), [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md)и [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)  | [Установка датчика Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)|
+| Контроллер домена. | Данные из локальной службы Active Directory, отправленные в Azure ATP, дополнительные сведения об удостоверении, такие как сведения об учетных записях, действиях входа и запросах Active Directory | Несколько таблиц, включая [идентитинфо](advanced-hunting-identityinfo-table.md), [идентитилогоневентс](advanced-hunting-identitylogonevents-table.md)и [идентитикуеревентс](advanced-hunting-identityqueryevents-table.md)  | - [Установка датчика Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step4)<br>- [Включение соответствующих событий Windows](https://docs.microsoft.com/azure-advanced-threat-protection/configure-event-collection) |
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Связанные разделы
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

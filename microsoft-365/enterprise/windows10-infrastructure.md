@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: d1019547fb16fd4fd5669ebd5286e8c9e32668fe
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 3b4a0174e96fec1591bcac7ba58bcc7d57db8c87
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011927"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552690"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>Этап 3. Windows 10 Корпоративная
 
@@ -56,7 +56,7 @@ Microsoft 365 Enterprise включает Windows 10 Корпоративная,
 ## <a name="additional-services-and-features"></a>Дополнительные службы и функции
 В рамках развертывания Windows 10 Корпоративная вы можете добавить эти дополнительные службы и функции.
 
-### <a name="windows-analytics"></a>Windows Analytics
+### <a name="desktop-analytics"></a>Аналитика компьютеров
 
 В Windows используются диагностические данные для предоставления обширных сведений о действиях, которые помогут вам получить глубокие знания о работоспособности и работоспособности устройств с Windows 10 в вашей среде.
 
@@ -64,7 +64,7 @@ Microsoft 365 Enterprise включает Windows 10 Корпоративная,
 * Обновление соответствия требованиям обновление предназначено для ИТ-администратора, желающих получить целостное представление всех своих устройств с Windows 10 без каких-либо дополнительных требований к инфраструктуре.
 * Работоспособность устройства — вы можете использовать проверку работоспособности устройств для профилактического обнаружения и устранения проблем, влияющих на пользователей.
 
-Более подробную информацию можно найти в статье [Windows Analytics Overview](https://docs.microsoft.com/windows/deployment/update/windows-analytics-overview) .
+Более подробную информацию вы найдете в статье [Обзор анализа настольных систем](https://docs.microsoft.com/mem/configmgr/desktop-analytics/overview) .
 
 ### <a name="windows-security"></a>Безопасность Windows
 

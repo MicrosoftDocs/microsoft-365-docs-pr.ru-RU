@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Сведения о том, как включить Microsoft 365 для защиты локальных подключенных к Active Directory устройств с Windows 10 в всего несколько этапов.
-ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 6275c6c4be9cd9631ab095f8b0e1b39683022bb2
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533792"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560850"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Управление устройствами с Windows 10, подключенными к домену, с помощью Microsoft 365 Business Premium
 
@@ -50,8 +50,7 @@ ms.locfileid: "46533792"
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Проверка полномочий MDM в Intune
 
-Перейдите в portal.azure.com и в верхней части страницы поиска для Intune.
-На странице Microsoft Intune выберите элемент **Регистрация устройств** и на странице **Обзор** убедитесь, что **центр MDM** является **Intune**.
+Перейдите к [диспетчеру конечной точки](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) и на странице Microsoft Intune выберите **Регистрация устройств**, а затем на странице **обзора** убедитесь, что **центр управления MDM** является **Intune**.
 
 - Если для **MDM Authority** задано значение **None (нет**), щелкните **центр MDM** , чтобы задать для него значение **Intune**.
 - Если в качестве **шлюза** **MDM** используется **Microsoft Office 365**, перейдите на страницу  >  **Регистрация устройств** и воспользуйтесь диалоговым окном **Добавление центра MDM** справа для добавления центра **Intune MDM** (диалоговое окно **Add MDM Authority** доступно только в том случае, если для шлюза **MDM** установлено значение Microsoft Office 365).

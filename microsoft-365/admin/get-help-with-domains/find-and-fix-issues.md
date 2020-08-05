@@ -22,16 +22,16 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: Сведения о том, как отслеживать все проблемы, возникающие при настройке настраиваемого домена, убедившись, что DNS-записи настроены правильно.
-ms.openlocfilehash: e3c66e10a673d840cfddad81a057739b6dfac721
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 0a315be243395940146479e05de2c7044a5a36ab
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399948"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560255"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records"></a>Поиск и устранение неполадок после добавления домена и записей DNS
 
- Если вы не нашли то, что вы ищете, обратитесь к разделу **[вопросы и ответы по доменам](../setup/domains-faq.md)**. 
+ Если вы не нашли то, что вы ищете, см. раздел **[Вопросы и ответы по доменам](../setup/domains-faq.md)**. 
   
 Настройка домена для работы с Microsoft 365 может быть проблематичной. Система DNS работает с нитпикки, а Настройка DNS для домена влияет на важные бизнес-действия, например на электронную почту.
 
@@ -88,7 +88,7 @@ ms.locfileid: "44399948"
 Мы поможем вам выявить проблемы с настройкой DNS для домена. Средство устранения неполадок с доменами в Microsoft 365 покажет вам все записи, которые необходимо исправить, и точно то, для чего нужно задать записи. 
 
 > [!TIP]
-> DNS настроена правильно, но почта не работает в Outlook на рабочем столе? Узнайте о [различных сценариях обработки почты, которые можно получить с помощью Microsoft 365](https://www.microsoft.com/?ref=go) , чтобы убедиться, что вы правильно настроили свои бизнес. Дополнительную помощь по устранению неполадок с электронной почтой можно найти здесь: [Устранение неполадок в Outlook](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
+> DNS настроена правильно, но почта не работает в Outlook на рабочем столе? Узнайте о [различных сценариях обработки почты, которые можно получить с помощью Microsoft 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices) , чтобы убедиться, что вы правильно настроили свои бизнес. Дополнительную помощь по устранению неполадок с электронной почтой можно найти здесь: [Устранение неполадок в Outlook](https://docs.microsoft.com/exchange/troubleshoot/outlook-connectivity/outlook-connection-issues). 
   
 ## <a name="accessing-your-website-isnt-working"></a>Ваш веб-сайт недоступен?
 <a name="BKMK_Website"> </a>

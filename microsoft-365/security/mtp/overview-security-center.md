@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: f7357c204105772ef1780ef94f211e9d711ec735
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516915"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560887"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Общие сведения о Центре безопасности Microsoft 365
 
@@ -29,7 +29,9 @@ ms.locfileid: "43516915"
 
 Новый центр безопасности Microsoft 365 и [центр соответствия требованиям microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) являются специализированными рабочими областями, которые отвечают потребностям групп безопасности и соответствия требованиям. Эти решения интегрируются в службы Microsoft 365 и предоставляют аналитические сведения, которые помогут снизить риски и защитить ваше цифровое пространство.
 
-Посетите центр безопасности Microsoft 365 по адресу [https://security.microsoft.com](https://security.microsoft.com). 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4BmvV]
+
+Посетите центр безопасности Microsoft 365 по адресу [https://security.microsoft.com](https://security.microsoft.com) . 
 
 > [!NOTE]
 > Вам должна быть назначена соответствующая роль, например "Глобальный администратор", "администратор безопасности", "оператор безопасности" или "читатель безопасности" в Azure Active Directory для доступа к центру безопасности Microsoft 365.
@@ -65,5 +67,5 @@ ms.locfileid: "43516915"
 - [Упреждающий Поиск угроз](advanced-hunting-overview.md) для атак с вторжением и нарушений нарушений, влияющих на вашу электронную почту, данные, устройства и учетные записи
 - [Узнайте о новейших кампаниях](latest-attack-campaigns.md) и методиках атак с помощью средства анализа угроз
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>Связанные разделы
 - [Порталы Microsoft Security](portals.md)

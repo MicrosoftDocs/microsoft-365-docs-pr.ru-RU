@@ -20,12 +20,13 @@ search.appverid:
 - MET150
 description: Обращайтесь в службу поддержки по техническим вопросам и выставлению счетов с помощью указанных телефонных номеров для вашей страны или региона, или отправьте запросы на обслуживание через Интернет.
 feedback_system: None
-ms.openlocfilehash: c63e30aa8db9fc4a3ddb6ea394e01db635a1bc23
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.date: 7/28/2020
+ms.openlocfilehash: 6a7daed145294fa0e1c02ac47144d06cfdf26884
+ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46536864"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552450"
 ---
 # <a name="ways-to-contact-support-for-business-products---admin-help"></a>Способы обращения в службу поддержки продуктов для бизнеса. Справка для администраторов
 
@@ -64,12 +65,9 @@ ms.locfileid: "46536864"
 
 - **В Соединенном Королевстве позвоните по телефону 0800 032 6417.**
 
-### <a name="phone-numbers-for-other-countries"></a>Номера телефонов для других стран
-
 Если подходящий вам номер телефона службы поддержки не указан выше, используйте раскрывающееся меню ниже, чтобы найти номер для вашей страны или региона
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
-
 
 ::: moniker-end
 
