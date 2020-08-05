@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 'Требование для всех решений Microsoft Information Protection: создание, настройка и публикация меток конфиденциальности для классификации и защиты документов и сообщений электронной почты организации.'
-ms.openlocfilehash: 61f6a27172e97cdc3f7890b813a9e2f67a8d3d9a
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
+ms.openlocfilehash: 77d0f99a3e35a62b001395d7491f45d84e95cbd3
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200031"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560514"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>Создание и настройка меток конфиденциальности и соответствующих политик
 
@@ -89,9 +89,15 @@ ms.locfileid: "45200031"
 
 Дополнительные параметры меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
-Используйте параметр *LocaleSettings* для развертывания в многоязычной среде, чтобы пользователи видели имя метки и подсказку на своем языке. Пример настройки представлен в следующем разделе. 
+Например:
 
-С помощью этого командлета вы также можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) для клиента унифицированных меток Azure Information Protection. Эти дополнительные параметры включают настройку цвета метки и применение пользовательского свойства при использовании метки. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies). 
+- Используйте параметр *LocaleSettings* для развертывания в многоязычной среде, чтобы пользователи видели имя метки и подсказку на своем языке. В [следующем разделе](#example-configuration-to-configure-a-sensitivity-label-for-different-languages) содержится пример настройки, определяющей имя метки и текст подсказки для французского, итальянского и немецкого языков.
+
+- Используйте параметр *ApplyContentMarkingFooterFontName*, чтобы указать выбранный шрифт для конкретного нижнего колонтитула. Шрифт Calibri по умолчанию используется для колонтитулов и текста подложки. Если другое имя шрифта недоступно для службы или устройства, отображающего метки, в качестве шрифта снова используется Calibri.
+
+- Используйте параметр *ApplyContentMarkingHeaderFontColor*, чтобы указать собственный выбор цвета для конкретного верхнего колонтитула с помощью кода RGB в шестнадцатеричном формате. Например, #40e0d0 — шестнадцатеричное RGB-значение для бирюзового цвета. Эти коды доступны в нескольких приложениях, позволяющих редактировать изображения. Например, Microsoft Paint позволяет выбрать собственный цвет из палитры и автоматически отображает значения RGB, которые вы можете скопировать.
+
+Только для клиента унифицированных меток Azure Information Protection вы также можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку цвета метки и применение настраиваемого свойства при присвоении метки. Полный список см. в разделе [Доступные дополнительные параметры для меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels) этого руководства для администраторов клиента.
 
 #### <a name="example-configuration-to-configure-a-sensitivity-label-for-different-languages"></a>Пример настройки метки конфиденциальности для различных языков
 
@@ -172,11 +178,22 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $DisplayNameLocaleSet
 
 ### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>Дополнительные параметры политики меток в PowerShell в Центре безопасности и соответствия требованиям
 
-Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps) из [PowerShell в Центре безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
+Дополнительные параметры политики меток можно настраивать с помощью командлета [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?view=exchange-ps) из [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps).
 
-С помощью этого командлета вы можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations) для клиента унифицированных меток Azure Information Protection. К этим дополнительным параметрам относится настройка другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels). 
+Только для клиента унифицированных меток Azure Information Protection вы также можете указать [дополнительные параметры](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations), включающие настройку другой метки по умолчанию для Outlook и внедрение всплывающих сообщений в Outlook для предупреждения, объяснения или блокирования отправляемых сообщений электронной почты. Полный список см. в разделе [Доступные дополнительные параметры для политик меток](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies) этого руководства для администраторов клиента.
 
-С помощью этого командлета вы также можете добавлять и удалять метки в политике меток.
+## <a name="use-powershell-for-sensitivity-labels-and-their-policies"></a>Использование PowerShell для меток конфиденциальности и соответствующих политик
+
+Теперь для создания и настройки всех параметров, отображаемых в центре администрирования меток, вы можете использовать [PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps). Это означает, что в дополнение к использованию PowerShell для параметров, недоступных в центрах администрирования меток, теперь можно использовать полноценный сценарий создания и настройки меток конфиденциальности и политик меток конфиденциальности. 
+
+Поддерживаемые параметры и значения см. в следующих документах:
+
+- [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label?view=exchange-ps)
+- [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy?view=exchange-ps)
+- [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?view=exchange-ps)
+- [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?view=exchange-ps)
+
+Кроме того, вы можете использовать параметры [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label?view=exchange-ps) и [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy?view=exchange-ps), если требуется создать сценарий удаления меток конфиденциальности или политик меток конфиденциальности. Однако перед удалением меток конфиденциальности прочтите следующий раздел.
 
 ## <a name="removing-and-deleting-labels"></a>Удаление меток
 

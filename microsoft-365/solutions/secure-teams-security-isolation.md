@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: 33b84423fa4744c34e184690bcfc3fe8dd435298
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: b16133a02c82c2b2ab0e56a5545e19b160933664
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46528052"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560235"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -41,6 +41,12 @@ ms.locfileid: "46528052"
 
 > [!IMPORTANT]
 > Включите [метки конфиденциальности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), прежде чем продолжить выполнение инструкций из этой статьи.
+
+<a name="poster"></a> 2-страничное краткое описание этого сценария приведено на [плакате "Microsoft Team с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
+
+[![Плакат "Microsoft Team с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
+
+Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
 ## <a name="initial-protections"></a>Начальная защита
 

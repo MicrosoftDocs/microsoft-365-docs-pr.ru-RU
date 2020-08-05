@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Узнайте, как устанавливать политику срока действия паролей для организации в Центре администрирования Microsoft 365. '
-ms.openlocfilehash: a4d5f5240a6d4cca686b4809d05970b5e18b897f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: eec6231d2c6b5d51b25f42c401e367743fdb19ea
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44399582"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560875"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>Установка политики срока действия паролей в организации
 
@@ -75,13 +75,17 @@ ms.locfileid: "44399582"
     
 ## <a name="prevent-last-password-from-being-used-again"></a>Предотвращение повторного использования последнего пароля
 
-Если вы хотите запретить пользователям повторно использовать старые пароли, это можно сделать в Azure AD. См. статью [Вести журнал паролей](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/enforce-password-history).
-
-Кроме того, если сотрудник использовал мобильное устройство для доступа к Microsoft 365, можно очистить это устройство, чтобы убедиться, что пароль больше не хранится на устройстве и не может быть использован повторно. Дополнительные сведения см. в статье [Очистка и блокирование мобильного устройства бывшего сотрудника](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device).
-
+Если вы хотите запретить пользователям повторно использовать старые пароли, это можно сделать, применив журнал паролей в Azure AD. Дополнительные сведения см. в разделе [Создание настраиваемой политики паролей](https://docs.microsoft.com/azure/active-directory-domain-services/password-policy#create-a-custom-password-policy).
 
 ## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>Синхронизация хэшей паролей пользователей из локальной службы каталогов Active Directory c Azure AD (Microsoft 365)
 
 В этой статье описывается настройка политики срока действия паролей только для облачных пользователей (Azure AD). Она не применима к пользователям в гибридной среде, для которых используется синхронизация хэшей паролей, сквозная проверка подлинности или локальная служба федерации, например ADFS.
   
 Сведения о том, как синхронизировать хэши паролей пользователей из локального каталога Active Directory с Azure AD, см. в статье [Реализация синхронизации хэшей паролей с помощью Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization).
+
+
+## <a name="update-password-policy"></a>Обновление политики паролей
+
+Командлет Set-MsolPasswordPolicy обновляет политику паролей в указанном домене или клиенте. Два параметра являются обязательными: первый указывает время, в течение которого пароль остается действительным до того, как его потребуется изменить, а второй указывает количество дней до окончания срока действия пароля, который запускается при получении пользователями первого уведомления о том, что срок действия их пароля скоро истечет.
+
+Сведения о том, как обновить политику паролей для определенного домена или клиента, см. в статье [Set-MsolPasswordPolicy](https://docs.microsoft.com/powershell/module/msonline/set-msolpasswordpolicy?view=azureadps-1.0).

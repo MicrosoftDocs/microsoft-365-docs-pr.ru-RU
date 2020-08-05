@@ -2,7 +2,7 @@
 title: Рекомендации по предоставлению общего доступа без проверки подлинности
 ms.author: mikeplum
 author: MikePlumleyMSFT
-manager: pamgreen
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.custom:
 localization_priority: Priority
 f1.keywords: NOCSH
 description: В этой статье вы ознакомитесь с рекомендациями по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности.
-ms.openlocfilehash: 72da93a457b91ec7a25e88a0ac2aa8e64b6fe385
-ms.sourcegitcommit: 6501e01a9ab131205a3eef910e6cea7f65b3f010
+ms.openlocfilehash: cea60152f06e8fbd242c9641b962bc9a96fdd019
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526938"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560479"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>Рекомендации по предоставлению общего доступа к файлам и папкам пользователям, не прошедшим проверку подлинности
 
@@ -46,6 +46,8 @@ ms.locfileid: "46526938"
 4. Введите в поле количество дней и нажмите кнопку **Сохранить**.
 
 Обратите внимание, что когда срок действия ссылки типа *Любой пользователь* истечет, доступ к файлу или папке можно будет предоставить заново с помощью новой ссылки типа *Любой пользователь*.
+
+Вы можете настроить истечение срока действия ссылки типа *Любой пользователь* для определенного сайта или хранилища OneDrive с помощью командлета [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite).
 
 ## <a name="set-link-permissions"></a>Установка разрешений для ссылок
 

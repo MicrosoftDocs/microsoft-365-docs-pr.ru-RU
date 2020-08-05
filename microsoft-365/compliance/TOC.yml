@@ -317,7 +317,7 @@
           href: bulk-create-publish-labels-using-powershell.md
         - name: 'Общие сведения о хранении, зависящем от возникновения события'
           href: event-driven-retention.md
-        - name: Управление жизненным циклом документов SharePoint
+        - name: Управление жизненным циклом документов с помощью меток хранения
           href: auto-apply-retention-labels-scenario.md
         - name: Управление ликвидацией данных
           href: disposition.md
