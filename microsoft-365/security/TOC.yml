@@ -131,6 +131,8 @@
                   href: mtp/advanced-hunting-best-practices.md
                 - name: Работа с результатами запросов
                   href: mtp/advanced-hunting-query-results.md
+                - name: Выполнение действий с результатами запроса
+                  href: mtp/advanced-hunting-take-action.md
                 - name: Использование общих запросов
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: Слежение за устройствами и сообщениями электронной почты
@@ -327,7 +329,7 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: Удаление себя из списка заблокированных отправителей с помощью портала удаления из списка
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
-                - name: Управление URL-адресами и файлами в списке разрешенных и заблокированных клиентов
+                - name: Управление URL-адресами в списке разрешенных и заблокированных клиентов
                   href: ./office-365-security/tenant-allow-block-list.md
             - name: Защита от фишинга
               href: ./office-365-security/anti-phishing-protection.md
