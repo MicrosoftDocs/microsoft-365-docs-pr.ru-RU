@@ -1,5 +1,5 @@
 ---
-title: Отчет о необслуживаемом домене
+title: Отчет о необслуживаемых доменах в панели мониторинга почтового процесса
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,30 +12,58 @@ localization_priority: Normal
 ms.assetid: ''
 ms.custom:
 - seo-marvel-apr2020
-description: Администраторы могут ознакомиться с отчетом о непринятом домене в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: a630d5b9674dbb136ecc54b23acd4408534d6fbc
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Администраторы могут узнать, как использовать отчет о непринятых доменах в панели мониторинга "почтовые ящики" в центре безопасности & соответствия требованиям для отслеживания сообщений из локальной организации, где домен отправителя не настроен в Microsoft 365.
+ms.openlocfilehash: 649163729bbb73140f9cfb7e75c9fd06f3908cce
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819525"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577481"
 ---
-# <a name="non-accepted-domain-report"></a><span data-ttu-id="935cc-103">Отчет о необслуживаемом домене</span><span class="sxs-lookup"><span data-stu-id="935cc-103">Non-accepted domain report</span></span>
+# <a name="non-accepted-domain-report-in-the-security--compliance-center"></a><span data-ttu-id="71eba-103">Отчет о необслуживаемом домене в центре безопасности & соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="71eba-103">Non-accepted domain report in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="935cc-104">Как и в случае с **доменом отправителя** , **неодобренный Доменная** информация идентифицирует сообщения из локальной организации электронной почты, но домен отправителя не настроен в качестве обслуживаемого домена в Организации.</span><span class="sxs-lookup"><span data-stu-id="935cc-104">Similar to the **Sender domain** insight, the **Non-accepted domain** insight identifies messages from your on-premises email organization, but the sender's domain isn't configured as an accepted domain in your organization.</span></span>
+<span data-ttu-id="71eba-104">Отчет о **непринятом домене** в [панели мониторинга "почтовый](mail-flow-insights-v2.md) индекс" в центре безопасности & соответствия требованиям отображает сведения об сообщениях из локальной организации электронной почты, в которых домен отправителя не настроен как обслуживаемый домен в организации Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="71eba-104">The **Non-accepted domain** report in the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center displays information about messages from your on-premises email organization where the sender's domain isn't configured as an accepted domain in your Microsoft 365 organization.</span></span>
 
-<span data-ttu-id="935cc-105">Microsoft 365 может регулировать эти сообщения, если у нас есть данные для подтверждения того, что назначение этих сообщений является вредоносным.</span><span class="sxs-lookup"><span data-stu-id="935cc-105">Microsoft 365 might throttle these messages if we have data to prove that the intent of these messages is malicious.</span></span> <span data-ttu-id="935cc-106">Поэтому важно понимать, что происходит и как устранить проблему.</span><span class="sxs-lookup"><span data-stu-id="935cc-106">Therefore, it's important for you to understand what's happening and to fix the issue.</span></span>
+<span data-ttu-id="71eba-105">Microsoft 365 может регулировать эти сообщения, если у нас есть данные для подтверждения того, что назначение этих сообщений является вредоносным.</span><span class="sxs-lookup"><span data-stu-id="71eba-105">Microsoft 365 might throttle these messages if we have data to prove that the intent of these messages is malicious.</span></span> <span data-ttu-id="71eba-106">Поэтому важно понимать, что происходит и как устранить проблему.</span><span class="sxs-lookup"><span data-stu-id="71eba-106">Therefore, it's important for you to understand what's happening and to fix the issue.</span></span>
 
-![Отчет о непринятом домене в панели мониторинга "почтовый ящик" в центре безопасности & соответствия требованиям](../../media/non-accepted-domain-report-selected.png)
+![Необслуживаемый мини-приложение домена на панели мониторинга "почтовый ящик" в центре безопасности & соответствия требованиям](../../media/mfi-non-accepted-domain-report-widget.png)
 
-<span data-ttu-id="935cc-108">Если щелкнуть мини-приложение, вы перейдете к полному отчету.</span><span class="sxs-lookup"><span data-stu-id="935cc-108">When you click on the widget, you're taken to the full report.</span></span> <span data-ttu-id="935cc-109">В полном отчете, где можно щелкнуть **Просмотреть сведения** , чтобы просмотреть сведения в таблице, как показано на следующей схеме:</span><span class="sxs-lookup"><span data-stu-id="935cc-109">In the full report, where you can click **View details** to view the information in a table as shown in the following diagram:</span></span>
+## <a name="report-view-for-the-non-accepted-domain-report"></a><span data-ttu-id="71eba-108">Представление отчета для отчета о непринятом домене</span><span class="sxs-lookup"><span data-stu-id="71eba-108">Report view for the Non-accepted domain report</span></span>
 
-![Таблица "Просмотр сведений" в отчете о непринятом домене](../../media/non-accepted-domain-report-view-details.png)
+<span data-ttu-id="71eba-109">Если щелкнуть диаграмму в мини **-приложении необслуживаемого домена** , вы перейдете к отчету о **непринятом домене** .</span><span class="sxs-lookup"><span data-stu-id="71eba-109">Clicking the chart on the **Non-accepted domain** widget will take you to the **Non-accepted domain** report.</span></span>
 
-<span data-ttu-id="935cc-111">Когда вы выбираете строку в таблице, в всплывающем меню появятся дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="935cc-111">When you select a row in the table, a flyout will show you more details.</span></span> <span data-ttu-id="935cc-112">Вы можете щелкнуть **Просмотреть примеры сообщений** , чтобы увидеть некоторые из идентифицированных сообщений.</span><span class="sxs-lookup"><span data-stu-id="935cc-112">You can click **view sample messages** to see some of the identified messages.</span></span>
+<span data-ttu-id="71eba-110">По умолчанию отображается действие для всех затронутых соединителей.</span><span class="sxs-lookup"><span data-stu-id="71eba-110">By default, the activity for all affected connectors is shown.</span></span> <span data-ttu-id="71eba-111">Если нажать кнопку **Показать данные для**, вы можете выбрать конкретный соединитель из раскрывающегося списка.</span><span class="sxs-lookup"><span data-stu-id="71eba-111">If you click **Show data for**, you can select a specific connector from the dropdown.</span></span>
 
-![Выбор строки в таблице сведений в отчете о непринятом домене](../../media/non-accepted-domain-report-select-row-in-table.png)
+<span data-ttu-id="71eba-112">При наведении курсора на точку данных (день) на диаграмме отображается общее число сообщений для соединителя.</span><span class="sxs-lookup"><span data-stu-id="71eba-112">If you hover over a data point (day) in the chart, you'll see the total number of messages for the connector.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="935cc-114">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="935cc-114">Related topics</span></span>
+![Представление отчета в отчете о необслуживаемом домене](../../media/mfi-non-accepted-domain-report-overview-view.png)
 
-<span data-ttu-id="935cc-115">Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями [почтовых ящиков в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="935cc-115">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+## <a name="details-table-view-for-the-non-accepted-domain-report"></a><span data-ttu-id="71eba-114">Представление таблицы сведений для отчета о непринятом домене</span><span class="sxs-lookup"><span data-stu-id="71eba-114">Details table view for the Non-accepted domain report</span></span>
+
+<span data-ttu-id="71eba-115">Если в представлении отчета выбрать **Таблица Просмотр сведений** , отображаются следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="71eba-115">If you click **View details table** in a report view, the following information is shown:</span></span>
+
+- <span data-ttu-id="71eba-116">**Date**</span><span class="sxs-lookup"><span data-stu-id="71eba-116">**Date**</span></span>
+- <span data-ttu-id="71eba-117">**Имя входящего соединителя**</span><span class="sxs-lookup"><span data-stu-id="71eba-117">**Inbound connector name**</span></span>
+- <span data-ttu-id="71eba-118">**Домен отправителя**</span><span class="sxs-lookup"><span data-stu-id="71eba-118">**Sender domain**</span></span>
+- <span data-ttu-id="71eba-119">**Количество сообщений**</span><span class="sxs-lookup"><span data-stu-id="71eba-119">**Message count**</span></span>
+- <span data-ttu-id="71eba-120">**Примеры сообщений**: идентификаторы сообщений с примерами затронутых сообщений.</span><span class="sxs-lookup"><span data-stu-id="71eba-120">**Sample messages**: The message IDs of a sample of affected messages.</span></span>
+
+<span data-ttu-id="71eba-121">Если в представлении Таблица сведений щелкнуть **фильтры** , можно указать диапазон дат с датой **начала** и **датой окончания**.</span><span class="sxs-lookup"><span data-stu-id="71eba-121">If you click **Filters** in a details table view, you can specify a date range with **Start date** and **End date**.</span></span>
+
+<span data-ttu-id="71eba-122">Чтобы отправить отчет по определенному диапазону дат одному или нескольким получателям, щелкните **запросить скачивание**.</span><span class="sxs-lookup"><span data-stu-id="71eba-122">To email the report for a specific date range to one or more recipients, click **Request download**.</span></span>
+
+<span data-ttu-id="71eba-123">При выборе строки в таблице появляется раскрывающееся меню со следующими сведениями:</span><span class="sxs-lookup"><span data-stu-id="71eba-123">When you select a row in the table, a flyout appears with the following information:</span></span>
+
+- <span data-ttu-id="71eba-124">**Date**</span><span class="sxs-lookup"><span data-stu-id="71eba-124">**Date**</span></span>
+- <span data-ttu-id="71eba-125">**Имя входящего соединителя**</span><span class="sxs-lookup"><span data-stu-id="71eba-125">**Inbound connector name**</span></span>
+- <span data-ttu-id="71eba-126">**Домен отправителя**</span><span class="sxs-lookup"><span data-stu-id="71eba-126">**Sender domain**</span></span>
+- <span data-ttu-id="71eba-127">**Количество сообщений**</span><span class="sxs-lookup"><span data-stu-id="71eba-127">**Message count**</span></span>
+- <span data-ttu-id="71eba-128">**Примеры сообщений**: вы можете щелкнуть **Просмотреть примеры сообщений** , чтобы просмотреть результаты [трассировки сообщений](message-trace-scc.md) для примера затронутых сообщений.</span><span class="sxs-lookup"><span data-stu-id="71eba-128">**Sample messages**: You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the affected messages.</span></span>
+
+![Всплывающее меню сведений после выбора строки в представлении таблицы сведений в отчете о неодобренном домене](../../media/mfi-non-accepted-domain-report-details-flyout.png)
+
+<span data-ttu-id="71eba-130">Чтобы вернуться к представлению отчетов, нажмите кнопку **Просмотреть отчет**.</span><span class="sxs-lookup"><span data-stu-id="71eba-130">To go back to the reports view, click **View report**.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="71eba-131">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="71eba-131">Related topics</span></span>
+
+<span data-ttu-id="71eba-132">Сведения о других аналитиках в панели мониторинга для почтового процесса приведены в статье сведения о [почтовых сообщениях в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="71eba-132">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

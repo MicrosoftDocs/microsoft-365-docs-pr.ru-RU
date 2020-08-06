@@ -1,5 +1,5 @@
 ---
-title: Аналитика почтового цикла
+title: Исправление возможного анализа почтового цикла
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,24 +12,32 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 ms.custom:
 - seo-marvel-apr2020
-description: Администраторы могут узнать о цикле обработки почты в панели мониторинга "Управление почтовыми сообщениями" в центре безопасности & соответствия требованиям.
-ms.openlocfilehash: 80767a265734c542db8e24cf58d0a1c0df469780
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
+description: Администраторы могут узнать, как использовать исправление возможных почтовых циклов почты в панели мониторинга "почтовый ящик" в центре безопасности & соответствия требованиям, чтобы определить и устранить почтовые циклы в Организации.
+ms.openlocfilehash: 54240cffc534b4be708492b37b827636edab280e
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819320"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577631"
 ---
-# <a name="mail-loop-insight"></a><span data-ttu-id="362ab-103">Аналитика почтового цикла</span><span class="sxs-lookup"><span data-stu-id="362ab-103">Mail loop insight</span></span>
+# <a name="fix-possible-mail-loop-insight-in-the-security--compliance-center"></a><span data-ttu-id="c9774-103">Исправление возможных почтовых циклов в центре безопасности & соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="c9774-103">Fix possible mail loop insight in the Security & Compliance Center</span></span>
 
-<span data-ttu-id="362ab-104">Почтовый цикл является недопустимым, так как он создает неисправность системных ресурсов, использует квоту почтового ящика организации и отправляет исходным отправителям неправильные отчеты о недоставке (также называемые сообщениями NDR и Bounce).</span><span class="sxs-lookup"><span data-stu-id="362ab-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span> <span data-ttu-id="362ab-105">Эти отчеты отображаются при обнаружении почтового ящика в Организации, о почтовых доменах, участвующих в цикле, а также о количестве сообщений, отправленных с предыдущего дня в цикле.</span><span class="sxs-lookup"><span data-stu-id="362ab-105">This insight reports when a mail loop is found in your organization, the email domains that are involved in the loop, and the number of messages from the previous day that were in the loop.</span></span>
+<span data-ttu-id="c9774-104">Почтовый цикл является недопустимым, так как он создает неисправность системных ресурсов, использует квоту почтового ящика организации и отправляет исходным отправителям неправильные отчеты о недоставке (также называемые сообщениями NDR и Bounce).</span><span class="sxs-lookup"><span data-stu-id="c9774-104">A mail loop is bad because it wastes system resources, consumes your organization's mail volume quota, and sends confusing non-delivery reports (also known as NDRs or bounce messages) to the original senders.</span></span>
 
-![Цикл обработки почты в панели мониторинга почтовых ящиков в центре безопасности & соответствия требованиям](../../media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
+<span data-ttu-id="c9774-105">В центре безопасности & соответствия требованиям уведомление о возможных возможностях почтовых **циклов** в области " **Рекомендуемые для вас** [" панели мониторинга "](mail-flow-insights-v2.md) безопасность соответствия" уведомляет об обнаружении почтового цикла в Организации.</span><span class="sxs-lookup"><span data-stu-id="c9774-105">The **Fix possible mail loop** insight in the **Recommended for you** area of the [Mail flow dashboard](mail-flow-insights-v2.md) in the Security & Compliance Center notifies you when a mail loop is detected in your organization.</span></span> <span data-ttu-id="c9774-106">Эта информация отображается только после того, как будет обнаружено условие (если у вас нет почтовых циклов, вы не увидите сведения).</span><span class="sxs-lookup"><span data-stu-id="c9774-106">This insight appears only after the condition is detected (if you don't have any mail loops, you won't see the insight).</span></span>
 
-<span data-ttu-id="362ab-107">Вы можете щелкнуть **Просмотреть сведения** , чтобы просмотреть подробные сведения в раскрывающейся области.</span><span class="sxs-lookup"><span data-stu-id="362ab-107">You can click **View details** to see the details in a flyout pane.</span></span> <span data-ttu-id="362ab-108">Мы также указываем наиболее распространенные сценарии циклов и предлагаемые действия (если они доступны) для исправления цикла.</span><span class="sxs-lookup"><span data-stu-id="362ab-108">We also identify the most common loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
+![Устранение медленных почтовых правил в области "Рекомендуемые для вас" панели мониторинга почтового процесса](../../media/mfi-fix-possible-mail-loop.png)
 
-![Раскрывающаяся панель после нажатия кнопки Просмотр сведений в неправильном цикле в панели мониторинга почтового процесса](../../media/f7e21300-c62f-41ec-853f-4a2775cd8aa7.png)
+<span data-ttu-id="c9774-108">При нажатии кнопки **Просмотреть сведения** на мини-приложение появляется раскрывающееся меню с дополнительными сведениями:</span><span class="sxs-lookup"><span data-stu-id="c9774-108">When you click **View details** on the widget, a flyout appears with more information:</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="362ab-110">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="362ab-110">Related topics</span></span>
+- <span data-ttu-id="c9774-109">**Домен**</span><span class="sxs-lookup"><span data-stu-id="c9774-109">**Domain**</span></span>
+- <span data-ttu-id="c9774-110">**Количество сообщений**: вы можете щелкнуть **Просмотреть примеры сообщений** , чтобы просмотреть результаты [трассировки сообщений](message-trace-scc.md) для примера сообщений, на которые повлиял цикл.</span><span class="sxs-lookup"><span data-stu-id="c9774-110">**Number of messages**: You can click **View sample messages** to see the [message trace](message-trace-scc.md) results for a sample of the messages that were affected by the loop.</span></span>
+- <span data-ttu-id="c9774-111">**Тип домена**"например, удостоверяющий или недостоверный.</span><span class="sxs-lookup"><span data-stu-id="c9774-111">**Domain type**" For example, Authoritative or Non-authoritative.</span></span>
+- <span data-ttu-id="c9774-112">**Запись MX**: узел (**почтовый сервер**) и значения **приоритета** записи MX для домена.</span><span class="sxs-lookup"><span data-stu-id="c9774-112">**MX record**: The host (**Mail server**) and **Priority** values of the MX record for the domain.</span></span>
+- <span data-ttu-id="c9774-113">**Причина** и **способ исправления**: мы попытаемся определить наиболее распространенные сценарии почтового цикла и предоставить Рекомендуемые действия (если они доступны), чтобы исправить цикл.</span><span class="sxs-lookup"><span data-stu-id="c9774-113">**Loop reason** and **How to fix**: We'll try to identify the most common mail loop scenarios and provide the recommended actions (if available) to fix the loop.</span></span>
 
-<span data-ttu-id="362ab-111">Для получения дополнительных сведений о других аналитиках почтовых ящиков в панели мониторинга обработки почты ознакомьтесь с разрешениями [почтовых ящиков в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="362ab-111">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+![Всплывающее окно со сведениями, которое появляется после нажатия кнопки Просмотр сведений в разделе Устранение возможных сообщений о возможных повторах](../../media/mfi-fix-possible-mail-loop-details.png)
+
+## <a name="related-topics"></a><span data-ttu-id="c9774-115">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="c9774-115">Related topics</span></span>
+
+<span data-ttu-id="c9774-116">Сведения о других аналитиках в панели мониторинга для почтового процесса приведены в статье сведения о [почтовых сообщениях в центре безопасности & соответствия требованиям](mail-flow-insights-v2.md).</span><span class="sxs-lookup"><span data-stu-id="c9774-116">For information about other insights in the Mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
