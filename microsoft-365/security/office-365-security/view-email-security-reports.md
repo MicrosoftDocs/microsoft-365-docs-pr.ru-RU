@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Узнайте, как найти и использовать отчеты по обеспечению безопасности электронной почты для вашей организации. Отчеты о безопасности электронной почты доступны в центре безопасности & соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 762903428245797ecdc0357dc485e8fe25d2203e
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 269e68c1e7f864ba5be84f1dc444a3d7d9c27e55
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434259"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46578034"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>Просмотр отчетов о безопасности почты в Центре безопасности и соответствия требованиям
 
@@ -265,7 +265,7 @@ ms.locfileid: "45434259"
 
 Чтобы вернуться к представлению отчета, нажмите кнопку **Просмотреть отчет**.
 
-## <a name="threat-protection-status-report"></a>Отчет о состоянии защиты от угроз
+## <a name="threat-protection-status-report"></a>отчет о состоянии защиты от угроз;
 
 Отчет **о состоянии защиты от угроз** доступен как в EOP, так и в Office 365 ATP; Тем не менее, отчеты содержат различные данные. Например, пользователи EOP могут просматривать сведения о вредоносных программах, обнаруженных в электронной почте, но не могут получить сведения о [вредоносных файлах, обнаруженных в SharePoint Online, OneDrive или Microsoft Teams](atp-for-spo-odb-and-teams.md).
 
@@ -455,7 +455,7 @@ ms.locfileid: "45434259"
 
 Если вы не видите данные в отчетах, дважды проверьте правильность настройки политик. Чтобы узнать больше, ознакомьтесь [со статьей защита от угроз](protect-against-threats.md).
 
-## <a name="related-topics"></a>Связанные статьи
+## <a name="related-topics"></a>Статьи по теме
 
 [Защита от нежелательной почты и вредоносных программ в EOP](anti-spam-and-anti-malware-protection.md)
 

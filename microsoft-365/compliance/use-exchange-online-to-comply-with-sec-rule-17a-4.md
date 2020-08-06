@@ -18,12 +18,12 @@ description: Настройте Exchange Online и Центр соответст
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 769e13951ce15fb698131860fa78f25fa133e327
-ms.sourcegitcommit: e8b9a4f18330bc09f665aa941f1286436057eb28
+ms.openlocfilehash: bba51bed4409bfb933b577419f48ab6963d4f7d6
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45127306"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577119"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям
 
@@ -70,12 +70,3 @@ ms.locfileid: "45127306"
 
 Можно заблокировать политику хранения с помощью PowerShell. Дополнительные сведения см. в статье [Использование блокировки для сохранения с целью соблюдения нормативных требований](retention.md#use-preservation-lock-to-comply-with-regulatory-requirements).
 
-## <a name="known-limitations"></a>Известные ограничения
-
-В настоящее время существует несколько ограничений для Exchange Online:
-
-- Сообщения в чатах и каналах Teams нельзя объединить в цепочки.
-- Отметки "Мне нравится" не сохраняются для сообщений в чатах и каналах Teams.
-
-> [!NOTE]
-> Аудит на уровне элементов теперь доступен для почтовых ящиков групп Microsoft 365. Дополнительные сведения см. в статье [Управление аудитом почтовых ящиков](enable-mailbox-auditing.md).
