@@ -1,84 +1,53 @@
-### YamlMime:YamlDocument
-documentType: LandingData
-title: 'Документация и ресурсы по компьютерам, управляемым Майкрософт'
+### YamlMime:Landing
+title: Документация по компьютерам, управляемым Майкрософт
+summary: Компьютеры, управляемые Microsoft — это сочетание Microsoft 365 корпоративного с облачным управлением устройствами, осуществляемым Microsoft, и мониторингом безопасности, позволяющее вам высвободить группы ИТ для нужд основного бизнеса.
 metadata:
-  title: 'Документация по компьютерам, управляемым Майкрософт'
-  description: null
-  keywords: 'устройство, приложение, управление'
+  title: Документация по компьютерам, управляемым Майкрософт
+  description: Компьютеры, управляемые Microsoft — это сочетание Microsoft 365 корпоративного с облачным управлением устройствами, осуществляемым Microsoft, и мониторингом безопасности, позволяющее вам высвободить группы ИТ для нужд основного бизнеса.
+  keywords: device, app, management
+  ms.service: m365-md
+  ms.topic: landing-page
   author: jaimeo
   ms.author: jaimeo
-  ms.topic: landing-page
-  ms.devlang: na
-  ms.service: m365-md
-sections:
-  - items:
-      - type: markdown
-        text: "Компьютеры, управляемые Microsoft — это сочетание Microsoft\_365 корпоративный с облачным управлением устройствами, осуществляемым Microsoft, и мониторингом безопасности, позволяющее вам высвободить группы ИТ для основных потребностей организации."
-  - items:
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: intro/index.md
-            html: '<p>Общие сведения о компьютерах, управляемых Майкрософт, для лиц, принимающих решения, — что это такое, как это работает и какие возможности это предоставляет</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_overview.svg'
-              alt: ''
-            title: 'Что собой представляют компьютеры, управляемые Майкрософт?'
-          - href: service-description/index.md
-            html: '<p>Подробное описание всех элементов службы компьютеров, управляемых Майкрософт</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
-              alt: ''
-            title: Описание службы
-          - href: get-ready/index.md
-            html: <p>Все этапы подготовки среды и организации для работы со службой</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_support.svg'
-              alt: ''
-            title: Подготовка
-          - href: get-started/index.md
-            html: '<p>Подготовьте организацию к работе с компьютерами, управляемыми Майкрософт, включая настройку устройств и развертывание приложений</p>'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
-              alt: ''
-            title: Начало работы
-          - href: working-with-managed-desktop/index.md
-            html: <p>Все о повседневных операциях в службе</p>
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_portal.svg'
-              alt: ''
-            title: 'Работа с компьютерами, управляемыми Майкрософт'
-  - title: Новые статьи и записи блогов
-    items:
-      - type: paragraph
-        text: Ознакомьтесь с актуальными полезными сведениями.
-      - type: list
-        style: cards
-        className: cardsM
-        columns: 2
-        items:
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
-            title: '[План] Полный план по компьютерам, управляемым Майкрософт'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
-            title: '[Технический документ] Исследование: растущий спрос на службы управляемых компьютеров'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
-          - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
-            title: '[Электронная книга] Порадуйте свою компанию современным рабочим местом'
-            image:
-              src: 'https://docs.microsoft.com/media/common/i_guide.svg'
-              alt: ''
-  - title: Видео
-    items:
-      - type: paragraph
-        text: 'Узнайте о преимуществах компьютеров, управляемых Майкрософт, от вице-президента по технологиям в Indiana Pacers.'
-      - type: markdown
-        text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
-      - type: paragraph
-        text: 'Генеральный директор службы компьютеров, управляемых Майкрософт, рассказывает обо всех преимуществах службы на ежегодной конференции Ignite.'
-      - type: markdown
-        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
+  ms.date: 07/13/2020
+  ms.openlocfilehash: 08ff51dcc2ecc7bb5f7a11616f011964d99287f2
+  ms.sourcegitcommit: 48f3c002678906189bfba079bbf055d67d08a60f
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 08/05/2020
+  ms.locfileid: "46564147"
+landingContent:
+- title: Сведения о компьютерах, управляемых Майкрософт
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Что собой представляют компьютеры, управляемые Майкрософт?
+      url: /microsoft-365/managed-desktop/intro/
+    - text: Описание службы
+      url: /microsoft-365/managed-desktop/service-description
+  - linkListType: get-started
+    links:
+    - text: Подготовка
+      url: get-ready/index.md
+    - text: Начало работы
+      url: get-started/index.md
+    - text: Работа с компьютерами, управляемыми Майкрософт
+      url: /microsoft-365/managed-desktop/working-with-managed-desktop/
+- title: Новые статьи и записи блогов
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: '[План] Полный план по компьютерам, управляемым Майкрософт'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482
+    - text: '[Технический документ] Исследование: растущий спрос на службы управляемых компьютеров'
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182
+    - text: '[Электронная книга] Порадуйте свою компанию современным рабочим местом'
+      url: https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw
+- title: Видео
+  linkLists:
+  - linkListType: video
+    links:
+    - text: Узнайте о преимуществах использования компьютеров, управляемых Майкрософт, от технического директора Lloyds Banking Group.
+      url: https://www.youtube.com/watch?v=B9Gqj66qxNo&feature=youtu.be
+    - text: Основные сведения о компьютерах, управляемых Майкрософт, в рамках ежегодной конференции Ignite
+      url: /microsoft-365/managed-desktop/service-description
