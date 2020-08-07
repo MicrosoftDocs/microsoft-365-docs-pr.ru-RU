@@ -335,14 +335,6 @@
           href: restore-an-inactive-mailbox.md
         - name: Удаление неактивного почтового ящика
           href: delete-an-inactive-mailbox.md
-    - name: Контроль управления данными
-      items:
-        - name: Просмотр действий с метками для документов
-          href: view-label-activity-for-documents.md
-        - name: Просмотр использования меток с помощью аналитики меток
-          href: label-analytics.md
-        - name: Просмотр отчетов для управления данными
-          href: view-the-data-governance-reports.md
     - name: Дополнительные сведения об управлении данными
       items:
         - name: Просмотр видеороликов от группы управления данными Майкрософт

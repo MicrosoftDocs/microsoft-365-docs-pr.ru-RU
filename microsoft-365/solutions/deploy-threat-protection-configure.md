@@ -1,8 +1,8 @@
 ---
 title: Действия по настройке возможностей защиты от угроз в Microsoft 365
 description: Узнайте, как развертывать службы и возможности защиты от угроз в Microsoft 365.
-ms.author: bcarter
-author: brendacarter
+ms.author: deniseb
+author: denisebmsft
 manager: dansimp
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 30ecb25ca68b23278aa8b2905c5f3aa8703cb7f1
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522089"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588232"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
@@ -95,9 +95,8 @@ Azure ATP позволяет аналитикам и специалистам п
 
 [Office 365 Advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) (Office 365 ATP) защищает организацию от вредоносных угроз в сообщениях электронной почты (вложения и URL-адреса), документов Office и средств для совместной работы. В следующей таблице перечислены функции и возможности Office 365 ATP, включенные в Microsoft 365:
 
-|||
-|---|---|
 |Возможности настройки, защиты и обнаружения|Возможности автоматизации, исследования, исправления и образования|
+|---|---|
 |[Безопасные вложения](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)<br/>[Безопасные ссылки](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)<br/>[Безопасные документы](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)<br/>[ATP для SharePoint, OneDrive и Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)<br/>[Защита от фишинга ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#exclusive-settings-in-atp-anti-phishing-policies)|[Журналы учета угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-trackers)<br/>[Обозреватель угроз](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)<br/>[Автоматизированный анализ угроз и реакция на угрозы](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>[Эмулятор атак](https://docs.microsoft.com/microsoft-365/security/office-365-security/attack-simulator)|
 |
 
@@ -186,7 +185,7 @@ Microsoft 365 предоставляет следующие материалы �
 |---------|---------|
 |Microsoft 365     |[Настраиваемые пути обучения](https://docs.microsoft.com/office365/customlearning/) <p>Эти ресурсы помогут вам объединить учебные курсы для конечных пользователей в Организации.        |
 |Безопасность Microsoft 365 |[Модуль обучения: Защитите свою организацию с помощью встроенной, интеллектуальной системы безопасности от Microsoft 365](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>Этот модуль позволяет описать принципы взаимодействия функций безопасности Microsoft 365 и преимущества этих функций безопасности. |
-|Многофакторная проверка подлинности     | [Две этапа проверки: что такое дополнительная страница проверки?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Эта статья поможет пользователям определить многофакторную проверку подлинности и ее использование в вашей организации.    |
+|многофакторная проверка подлинности;     | [Две этапа проверки: что такое дополнительная страница проверки?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>Эта статья поможет пользователям определить многофакторную проверку подлинности и ее использование в вашей организации.    |
 
 В дополнение к этим рекомендациям Корпорация Майкрософт рекомендует выполнять действия, описанные в этой статье: [Защитите свою учетную запись и устройства от хакеров и вредоносных программ](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx). Сюда входят следующие действия:
 - Использование надежных паролей
