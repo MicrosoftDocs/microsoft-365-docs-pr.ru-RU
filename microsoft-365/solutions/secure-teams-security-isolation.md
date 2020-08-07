@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 description: Узнайте, как создать команду с уникальной меткой конфиденциальности в целях безопасности.
-ms.openlocfilehash: b16133a02c82c2b2ab0e56a5545e19b160933664
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: f540c1fce1c525ab49037ea27b139f10fac76f33
+ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560235"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46577966"
 ---
 # <a name="configure-a-team-with-security-isolation"></a>Настройка команды с изоляцией для обеспечения безопасности
 
@@ -28,7 +28,7 @@ ms.locfileid: "46560235"
 
 Помимо закрытого доступа в этой статье описывается способ настройки соответствующего сайта SharePoint, доступного из раздела **Файлы** канала команды. Это обеспечивает дополнительную защиту, требующуюся для хранения строго регулируемых данных.
 
-Элементы настройки команды для работы со строго регулируемыми данными:
+Ниже перечислены элементы настройки команды с изоляцией для обеспечения безопасности.
 
 - Закрытая команда
 - Дополнительная защита соответствующего сайта SharePoint для команды, которая:
@@ -42,9 +42,9 @@ ms.locfileid: "46560235"
 > [!IMPORTANT]
 > Включите [метки конфиденциальности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites), прежде чем продолжить выполнение инструкций из этой статьи.
 
-<a name="poster"></a> 2-страничное краткое описание этого сценария приведено на [плакате "Microsoft Team с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
+<a name="poster"></a> 2-страничное краткое описание этого сценария приведено на [плакате "Microsoft Teams с изоляцией для обеспечения безопасности"](../downloads/team-security-isolation-poster.pdf).
 
-[![Плакат "Microsoft Team с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
+[![Плакат "Microsoft Teams с изоляцией для обеспечения безопасности"](../media/secure-teams-security-isolation/team-security-isolation-poster.png)](../downloads/team-security-isolation-poster.pdf)
 
 Вы также можете скачать этот плакат в формате [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pdf) или [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/team-security-isolation-poster.pptx) и распечатать его на бумаге размера letter, legal или tabloid (11 x 17).
 
@@ -226,7 +226,7 @@ ms.locfileid: "46560235"
 
 После создания команды нужно обеспечить применение ее возможностей и дополнительной защиты для участников команды.
 
-## <a name="train-your-users"></a>Обучение пользователей
+### <a name="train-your-users"></a>Обучение пользователей
 
 Участники команды могут получить доступ к команде и всем ее ресурсам, включая чаты, собрания и другие приложения. При работе с файлами из раздела **Файлы** канала участники команды должны назначать метку конфиденциальности создаваемым файлам.
 

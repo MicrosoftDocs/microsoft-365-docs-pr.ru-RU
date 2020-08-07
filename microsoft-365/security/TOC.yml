@@ -489,28 +489,30 @@
             - name: Аналитика потока обработки почты в Центре безопасности и соответствия требованиям
               href: ./office-365-security/mail-flow-insights-v2.md
               items:
-                - name: Отчет о карте потока обработки почты
+                - name: Анализ автоматически пересылаемых сообщений
+                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
+                - name: Анализ исправления возможного почтового цикла
+                  href: ./office-365-security/mfi-mail-loop-insight.md
+                - name: Анализ исправления правил потока обработки почты при задержках
+                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Схема потока обработки почты
                   href: ./office-365-security/mfi-mail-flow-map-report.md
-                - name: Анализ состояния для потока обработки почты верхнего домена
-                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
-                - name: Отчет о клиентах проверки подлинности SMTP
-                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
-                - name: Анализ исправления домена отправителя
-                  href: ./office-365-security/mfi-sender-domain-insight.md
+                - name: 'Анализ новых доменов, на которые пересылаются сообщения электронной почты'
+                  href: ./office-365-security/mfi-new-domains-being-forwarded-email.md
+                - name: 'Анализ новых пользователей, которые пересылают сообщения электронной почты'
+                  href: ./office-365-security/mfi-new-users-forwarding-email.md
+                - name: Отчет о необслуживаемых доменах
+                  href: ./office-365-security/mfi-non-accepted-domain-report.md
                 - name: Отчет о недоставке
                   href: ./office-365-security/mfi-non-delivery-report.md
-                - name: Отчет о необслуживаемом домене
-                  href: ./office-365-security/mfi-non-accepted-domain-report.md
-                - name: Поток обработки исходящей и входящей почты
+                - name: Анализ потока обработки исходящей и входящей почты
                   href: ./office-365-security/mfi-outbound-and-inbound-mail-flow.md
-                - name: Очереди и оповещения о них
+                - name: Анализ очередей
                   href: ./office-365-security/mfi-queue-alerts-and-queues.md
-                - name: Отчет по автоматически пересылаемым сообщениям
-                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
-                - name: Аналитика почтового цикла
-                  href: ./office-365-security/mfi-mail-loop-insight.md
-                - name: Отображение аналитики правил потока обработки почты
-                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+                - name: Анализ и отчет о клиентах SMTP-AUTH
+                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
+                - name: Анализ состояния для потока обработки почты верхнего домена
+                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
         - name: Решения по обеспечению безопасности
           items:
             - name: 'Руководство по безопасности (Майкрософт) для политических кампаний, некоммерческих и других динамических организаций'
