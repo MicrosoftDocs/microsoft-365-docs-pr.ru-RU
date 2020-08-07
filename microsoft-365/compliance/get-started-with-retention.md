@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать реализацию политик хранения и меток хранения для управления данными организации, но не знаете, с чего начинать? Перед началом работы ознакомьтесь с некоторыми практическими руководствами.
-ms.openlocfilehash: b390e4594d97e96eadac9541429a838abe006a3f
-ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
+ms.openlocfilehash: 910d5b64addfeda077a5fd34eb2409a9cac2516d
+ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46560766"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588177"
 ---
 # <a name="get-started-with-retention-policies-and-retention-labels"></a>Начало работы с политиками хранения и метками хранения
 
@@ -71,6 +71,7 @@ ms.locfileid: "46560766"
 |Соблюдение правила 17a-4 SEC|[Соблюдение правила 17a-4 SEC с помощью Exchange Online и Центра безопасности и соответствия требованиям](use-exchange-online-to-comply-with-sec-rule-17a-4.md) |
 |Убедитесь в том, что обеспечен просмотр и утверждение до удаления контента по истечении срока его хранения.|[Проверки перед ликвидацией](disposition.md#disposition-reviews) |
 |Подтверждайте ликвидацию контента, который удаляется после истечения срока хранения|[Ликвидация записей](disposition.md#disposition-of-records) |
+| Отслеживание способа и места применения меток хранения | [Отслеживание меток хранения](retention.md#monitoring-retention-labels) |
 
 ## <a name="end-user-documentation-for-retention-labels"></a>Документация конечного пользователя по меткам хранения
 
