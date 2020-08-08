@@ -4,14 +4,10 @@
   href: ../admin/index.yml
 - name: Пробное использование или приобретение
   items:
-    - name: Регистрация для пробного использования Microsoft 365
-      href: sign-up-for-office-365-trial.md
     - name: Пробное использование или приобретение Microsoft 365
       href: try-or-buy-microsoft-365.md
     - name: Продление пробной версии
       href: extend-your-trial.md
-    - name: Приобретение еще одной подписки
-      href: buy-another-subscription.md
     - name: Приобретение или изменение надстройки
       href: buy-or-edit-an-add-on.md
     - name: Добавление дискового пространства
