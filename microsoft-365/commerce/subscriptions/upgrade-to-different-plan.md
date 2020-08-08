@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,14 @@ ms.custom:
 - SaRA
 - AdminSurgePortfolio
 search.appverid:
-- BCS160
 - MET150
-- MOE150
-- BEA160
-- GEA150
-description: Узнайте, как обновить новую подписку.
-ms.openlocfilehash: 2a0dcff5b4326fc75b4e8e4154ee73e0ac17897d
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Узнайте, как выполнить обновление до другой схемы.
+ms.openlocfilehash: 55667646637cfd2ad6dd56e2361b0c41b136a79e
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403178"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597623"
 ---
 # <a name="upgrade-to-a-different-plan"></a>Переход на другой план
 
@@ -78,6 +74,10 @@ ms.locfileid: "44403178"
 
 Если вы хотите перейти к плану с меньшим количеством служб, вы можете [изменить планы вручную](change-plans-manually.md)или [позвонить в службу поддержки](../../admin/contact-support-for-business-products.md) за помощью.
 
+## <a name="i-only-want-to-upgrade-some-of-my-users-how-do-i-do-that"></a>Я хочу обновить только некоторых пользователей. Как это сделать?
+
+Если вы хотите обновить только некоторых пользователей, но сначала необходимо приобрести новую подписку, ознакомьтесь со статьей [изменение планов вручную](change-plans-manually.md). Если у вас уже есть подписка, на которую вы хотите обновить пользователей, ознакомьтесь со статьей [Перемещение пользователей в другую подписку](move-users-different-subscription.md).
+
 ## <a name="why-some-changes-take-longer"></a>Почему некоторые изменения занимают больше длительности
 
 **Количество назначенных пользователей:** Если у вас большое количество назначенных пользователей, обновление для их переноса в новый план займет больше длительности.
@@ -88,7 +88,7 @@ ms.locfileid: "44403178"
 
 Если вы не видите ни одного плана на вкладке **Обновление** , это означает, что ваш план не может быть обновлен автоматически. В некоторых случаях вы можете решить эту проблему, чтобы можно было просматривать планы, доступные для обновления, а также вы можете обновить или изменить планы вручную.
 
- ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Почему в списке для обновления нет планов?
+### <a name="why-are-there-no-plans-listed-to-upgrade"></a>Почему в списке для обновления нет планов?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>Вы не можете обновить подписки, так как у вас больше пользователей, чем лицензий.
 

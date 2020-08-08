@@ -1,5 +1,5 @@
 ---
-title: Новые Microsoft Edge
+title: Новая версия Microsoft Edge
 description: ''
 keywords: браузер, управляемый Майкрософт Настольный компьютер, Microsoft 365, служба, документация
 ms.service: m365-md
@@ -10,12 +10,12 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 916ddaea2bc91c56944d4561771c1e807447d604
-ms.sourcegitcommit: 63887d742c59cc660fc85537b335e98a9dc66fbe
+ms.openlocfilehash: 95bf8ca693ac4b45be569870ff732c4053be39d2
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170675"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597501"
 ---
 # <a name="new-microsoft-edge-app"></a>Новое приложение Microsoft Edge
 
@@ -25,11 +25,18 @@ ms.locfileid: "45170675"
 
 Чтобы перенести управляемые устройства для настольных систем Майкрософт в новый браузер Microsoft EDGE, файл подбирается на портале для настольных компьютеров под управлением Microsoft Edge. Мы развернут пограничный стабильный канал в тестовую группу, когда вы пишете билет, а затем развернете его в каждую последующую группу развертывания каждые 24 часа. Чтобы приостановить развертывание, файл должен содержать операции с запросом на удержание.
 
+[Канал бета-версии] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) также доступен по запросу с представителем проверки в вашей организации. На рабочем столе Майкрософт будет развернуто приложение, необходимое для тестирования и первой группы, чтобы все эти пользователи применялись к каналу бета-тестирования в дополнение к стабильному каналу. Для дополнительных пользователей, которым необходим доступ к каналу бета-версии, добавьте их в группу **пользователей современного рабочего места** и попросите их установить на корпоративном портале.
+
 ## <a name="updates-to-microsoft-edge"></a>Обновления Microsoft Edge
 
-Настольные компьютеры, управляемые Майкрософт, развертывают [стабильный канал](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) Microsoft EDGE, который автоматически обновляется каждые шесть недель. Обновление стабильного канала [выполняется](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) с помощью группы продуктов Microsoft EDGE, чтобы обеспечить оптимальное взаимодействие с клиентами. Канал бета-версии Microsoft EDGE в настоящее время недоступен.
+Настольные компьютеры, управляемые Майкрософт, развертывают [стабильный канал](https://docs.microsoft.com/deployedge/microsoft-edge-channels#stable-channel) Microsoft EDGE, который автоматически обновляется каждые шесть недель. Обновление стабильного канала [выполняется](https://docs.microsoft.com/deployedge/microsoft-edge-update-progressive-rollout) с помощью группы продуктов Microsoft EDGE, чтобы обеспечить оптимальное взаимодействие с клиентами. 
+
+[Beta-канал] ( https://docs.microsoft.com/deployedge/microsoft-edge-channels#beta-channel) разворачивается на устройствах в тестовой и первой группах для репрезентативной проверки в Организации. Этот канал полностью поддерживается и автоматически обновляется с новыми функциями каждые шесть недель.
 
 Чтобы правильно обеспечить правильное обновление Microsoft EDGE, не изменяйте [политики обновления](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)Microsoft Edge.
+
+### <a name="microsoft-edge-beta-channel"></a>Канал бета-версии Microsoft Edge
+
 
 ## <a name="settings-managed-by-microsoft-managed-desktop"></a>Параметры, управляемые настольным компьютером, управляемым Майкрософт
 
@@ -66,19 +73,19 @@ ms.locfileid: "45170675"
 
 ### <a name="microsoft-defender-smart-screen"></a>Интеллектуальный экран защитника (Майкрософт)
 
-#### <a name="configure-microsoft-defender-smartscreen"></a>Настройка фильтра SmartScreen защитника Майкрософт
+#### <a name="configure-windows-defender-smartscreen"></a>Настройка фильтра SmartScreen защитника Windows
 
 **Значение по умолчанию:** Доступ
 
 Включено по умолчанию для защиты конечных пользователей.
 
-#### <a name="microsoft-defender-smartscreen-prompts-for-sites"></a>Запросы SmartScreen защитника Майкрософт для сайтов
+#### <a name="windows-defender-smartscreen-prompts-for-sites"></a>Запросы SmartScreen защитника Windows для сайтов
 
 **Значение по умолчанию:** Доступ
 
 Не рекомендуется отключать этот параметр, так как это позволит пользователям игнорировать предупреждения и продолжать работу потенциально вредоносных веб-сайтов.
 
-#### <a name="prevent-bypassing-of-microsoft-defender-smartscreen-warnings-about-downloads"></a>Запретить обход предупреждений SmartScreen защитника Майкрософт о загружаемых файлах
+#### <a name="prevent-bypassing-of-windows-defender-smartscreen-warnings-about-downloads"></a>Запретить обход предупреждений SmartScreen защитника Windows о загружаемых файлах
 
 **Значение по умолчанию:** Доступ
 
@@ -99,6 +106,19 @@ ms.locfileid: "45170675"
 **Значение по умолчанию:** Активирован
 
 Не рекомендуется предоставлять конечным пользователям возможность сохранять пароли на их устройствах.
+
+### <a name="internet-explorer-mode-in-microsoft-edge"></a>Режим Internet Explorer в Microsoft Edge
+Режим IE в Microsoft Edge упрощает использование всех сайтов, необходимых для Организации, в едином браузере. Он использует интегрированный модуль Чромиум для сайтов, совместимых с модулем отображения Чромиум и использующий обработчик Тридент MSHTML из Internet Explorer 11 (IE11) для сайтов, которые не имеют зависимости от функциональных возможностей IE. [Подробнее] (https://docs.microsoft.com/DeployEdge/edge-ie-mode) 
+
+На рабочем столе Майкрософт для устройств по умолчанию используется режим Internet Explorer. 
+
+#### <a name="internet-explorer-mode-integration"></a>Интеграция в режиме Internet Explorer
+**Значение по умолчанию:** Режим Internet Explorer
+
+По умолчанию устройства настроены на использование режима Internet Explorer, но их можно настроить для открытия сайтов в отдельном окне Internet Explorer 11. Чтобы изменить этот файл, запросите запрос в службу поддержки.
+
+#### <a name="add-sites-to-the-enterprise-mode-site-list"></a>Добавление сайтов в список сайтов в режиме предприятия
+Чтобы сайты открывались в режиме Internet Explorer, их необходимо включить в [список корпоративный сайт](https://docs.microsoft.com/DeployEdge/edge-ie-mode-sitelist). Ответственность за обслуживание и развертывание списка корпоративных сайтов лежит на вашем предприятии. Дополнительные сведения см. [в разделе Настройка с помощью политики "Настройка списка сайтов в режиме предприятия"](https://docs.microsoft.com/DeployEdge/edge-ie-mode-policies#configure-using-the-configure-the-enterprise-mode-site-list-policy)
 
 ### <a name="other-settings"></a>Другие параметры
 
@@ -132,6 +152,9 @@ ms.locfileid: "45170675"
 ### <a name="install-extensions-silently"></a>Автоматическая установка расширений
 
 Вы также можете использовать административный шаблон, чтобы задать Microsoft Edge для установки расширений без оповещения пользователя. Вы можете найти его в **конфигурации компьютера > расширения Microsoft Edge > > управления тем, какие расширения установлены без вмешательства пользователя**.
+
+### <a name="microsoft-edge-update-policies"></a>Политики обновления Microsoft Edge
+Чтобы правильно обеспечить правильное обновление Microsoft EDGE, не изменяйте [политики обновления](https://docs.microsoft.com/deployedge/microsoft-edge-update-policies)Microsoft Edge.
 
 ### <a name="other-common-enterprise-policies"></a>Другие распространенные корпоративные политики
 

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 0a4dd8c3c93402409863b18b400184d4e60eeee6
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 427d266ea46c184a87b8b0b4fbe242adfb8deff1
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521045"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597547"
 ---
 # <a name="to-identity-and-beyond--one-architects-viewpoint"></a>Для идентификации и за пределами — одна точка зрения архитектора
 
@@ -26,7 +26,7 @@ ms.locfileid: "46521045"
 
 ## <a name="about-the-author"></a>Об авторе
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg" alt-text="Штэйнберг Алекс фотография":::
+![Штэйнберг Алекс фотография](../media/solutions-architecture-center/identity-and-beyond-alex-shteynberg.jpg)
 
 Я основной технический архитектор в новом [центральном центре технологий Майкрософт](https://www.microsoft.com/mtc?rtc=1). Я в основном работал с большими клиентами и сложными требованиями. Мои точки зрения и мнения основаны на этих взаимодействиях и могут быть неприменимы к любой ситуации. Тем не менее, если мы можем помочь клиентам с самыми сложными задачами, мы можем помочь всем клиентам. 
 
@@ -78,7 +78,7 @@ ms.locfileid: "46521045"
 
 Существует много документации по платформе идентификации Майкрософт — Azure Active Directory (Azure AD). Для тех, кто только что начал, часто возникает переполнение. Даже после того, как вы узнаете о нем, добавив к ним постоянные инновации и изменить, это может быть затруднительным. В диалоговых окнах "взаимодействие с клиентами" я часто найдут "Переводчик" между бизнес-целями и "хорошим, лучшим, лучшим" подходом к их устранению (а также по Клифф Notes) для этих разделов. Довольно редко отвечает на то, что решение "Right" является балансом различных факторов риска. Ниже приведены некоторые распространенные вопросы и области путаницы, которые я обычно расказываю клиентам.
 
-### <a name="provisioning"></a>Provisioning
+### <a name="provisioning"></a>Подготовка
 Azure AD не решает о нехватке управления в вашем мире идентификации! [Управление удостоверениями](https://docs.microsoft.com/azure/active-directory/governance/identity-governance-overview) должно быть ключевым элементом, не зависящим от любых облачных решений. Требования к управлению изменяются по времени, поэтому это то, что оно является программой, а не средством. 
 
 [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect) vs. [Microsoft Identity Manager](https://docs.microsoft.com/microsoft-identity-manager/microsoft-identity-manager-2016) (MIM) и другие (сторонние или настраиваемые)? Сохраняйте множество нерабочих и в будущем и переходите к Azure AD Connect. В этом средстве есть все виды смарт-адресов, предназначенные для настройки клиентов пекулиар и текущих нововведений. 
@@ -106,7 +106,8 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Как правило, пользователи проходят проверку подлинности клиента для уточнения некоторых непонятных концепций. Результат выглядит так, как показано на рисунке ниже, который не так хорош для интерактивного процесса.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-beyond-whiteboard-example.png" alt-text="Пример беседы с доской":::
+
+![Пример беседы с доской](../media/solutions-architecture-center/identity-beyond-whiteboard-example.png)
 
 Этот тип документа на доске показывает, где применяются политики безопасности в рамках запроса на проверку подлинности. В этом примере политики, принудительно примененные с помощью службы федерации Active Directory (AD FS), применяются к первому запросу службы, но не к дальнейшим запросам на обслуживание. Это по крайней мере одна причина для максимально возможного перемещения элементов управления безопасностью в облако.
 
@@ -116,13 +117,13 @@ XYZ SaaS поддерживает подготовку по требованию
 
 
 
-### <a name="authorization"></a>Авторизация
+### <a name="authorization"></a>Authorization
 
 "Для авторизации" в " [Википедии](https://en.wikipedia.org/wiki/Authorization)" — определение политики доступа. Многие считают, что это возможность определять элементы управления доступом для объекта (файл, служба и т. д.). В текущем мире угроз кибератак эта концепция быстро развивается до динамической политики, которая может реагировать на различные векторы угроз и быстро настраивать управление доступом в ответ на них. Например, если у меня есть доступ к банковскому счету из нестандартного местоположения, я получаю дополнительные действия по подтверждению. Для этого нам нужно рассмотреть не только саму политику, но и экосистему методологии обнаружения и передачи угроз.
 
 Модуль политик Azure AD реализуется с помощью [политик условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Эта система зависит от информации о различных системах обнаружения угроз для выполнения динамических решений. Простое представление будет выглядеть примерно так, как показано на следующем рисунке.
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-illustration-3.png" alt-text="Модуль политики в Azure AD":::
+![Модуль политики в Azure AD](../media/solutions-architecture-center/identity-and-beyond-illustration-3.png)
 
 Объединение всех этих сигналов вместе позволяет использовать динамические политики, подобные следующим:
 - Если на вашем устройстве обнаружена угроза, доступ к данным будет уменьшен только на веб-сайте без возможности загрузки.
@@ -149,12 +150,11 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Не паникуйте! Это не означает, что сервер Exchange устарел (или SharePoint и т. д.). Он по-прежнему является основной службой. Чем я имею в некоторой момент времени, поставщики технологий поменяют пользовательский интерфейс (UX), чтобы охватывать компоненты нескольких служб. В Microsoft 365 простой пример — "[современные вложения](https://support.office.com/article/Attach-files-or-insert-pictures-in-Outlook-email-messages-BDFAFEF5-792A-42B1-9A7B-84512D7DE7FC)", в которых вложения в электронную почту хранятся в SharePoint Online или OneDrive для бизнеса. 
 
-:::image type="content" source="../media/solutions-architecture-center/modern-attachments.png" alt-text="Вложение файла в сообщение электронной почты":::
-
+![Вложение файла в сообщение электронной почты](../media/solutions-architecture-center/modern-attachments.png)
 
 При просмотре клиента Outlook вы видите множество служб, которые подключены как часть этого интерфейса, а не только Exchange. Сюда входят Azure AD, Microsoft Search, приложения, профили, соответствие требованиям и группы Office 365. 
 
-:::image type="content" source="../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png" alt-text="Интерфейс Outlook с выносками":::
+![Интерфейс Outlook с выносками](../media/solutions-architecture-center/identity-and-beyond-conceptual-screenshot.png)
 
 Узнайте о функции " [жидкие платформы Майкрософт](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-ignite-blog-microsoft-fluid-framework-preview/ba-p/978268) " для предварительного ознакомления с будущими возможностями. Теперь вы можете читать и отвечать на беседы Teams прямо в Outlook. На самом деле [клиент Teams](https://products.office.com/microsoft-teams/download-app) является одним из более заметных примеров этой стратегии. 
 
@@ -307,7 +307,7 @@ XYZ SaaS поддерживает подготовку по требованию
 
 Управление доступом на основе ролей в Azure (RBAC) обеспечивает детальное управление доступом для Azure. С помощью RBAC можно управлять доступом к ресурсам, предоставляя пользователям минимальные разрешения, необходимые для выполнения заданий. Сведения выходят за рамки этого документа, но дополнительные сведения об [управлении доступом на основе ролей (RBAC) в Azure можно узнать в статье Управление доступом на основе ролей (RBAC).](https://docs.microsoft.com/azure/role-based-access-control/overview) RBAC имеет важное значение, но только часть рекомендаций по управлению для Azure. [Инфраструктура внедрения в облаке](https://docs.microsoft.com/azure/cloud-adoption-framework/govern/) — отличная отправная точка для получения дополнительных сведений. Мне нравится, как мой дружественный пользователь, Андрес Равинет, пошаговое руководство по использованию различных компонентов для принятия решения по подходу. Представление высокого уровня для различных элементов (не так хорошо, как при возврате к реальной клиентской модели) выглядит примерно так:
 
-:::image type="content" source="../media/solutions-architecture-center/identity-beyond-illustration-5.png" alt-text="высокоуровневое представление компонентов Azure для делегированного администрирования":::
+![Высокоуровневое представление компонентов Azure для делегированного администрирования](../media/solutions-architecture-center/identity-beyond-illustration-5.png)
 
 Как видно из предыдущего рисунка, многие другие службы должны рассматриваться как часть проекта (например, [политики Azure](https://docs.microsoft.com/azure/governance/policy/overview), [планы Azure](https://docs.microsoft.com/azure/governance/blueprints/overview), [группы управления](https://docs.microsoft.com/azure/governance/management-groups/)и т. д.).
 

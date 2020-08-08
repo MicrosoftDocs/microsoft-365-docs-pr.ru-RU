@@ -13,12 +13,12 @@ ms.collection:
 - m365solution-threatprotection
 ms.custom: ''
 f1.keywords: NOCSH
-ms.openlocfilehash: 2bbbe1d1af36333ced4209d889c19e7bad7195d6
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: fb1290a0f0b884fdbc630cbfcd10cd1102c8acae
+ms.sourcegitcommit: 9550298946f8accb90cd59be7b46b71d4bf4f8cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588232"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597513"
 ---
 # <a name="configure-threat-protection-capabilities-across-microsoft-365"></a>Настройка возможностей защиты от угроз в Microsoft 365
 
@@ -156,7 +156,7 @@ Azure ATP позволяет аналитикам и специалистам п
 
 После того как вы настроили и развернули службы защиты от угроз, ваш следующий шаг предназначен для отслеживания обнаружений угроз и выполнения соответствующих действий. Лучший отправную точку является центр безопасности Microsoft 365 ( [https://security.microsoft.com](https://security.microsoft.com) ), на котором можно отслеживать и управлять безопасностью для своих удостоверений, данных, устройств, приложений и инфраструктуры Майкрософт. 
 
-:::image type="content" source="../media/solutions-architecture-center/m365-security-center.png" alt-text="Центр безопасности Microsoft 365":::
+![Центр безопасности Microsoft 365](../media/solutions-architecture-center/m365-security-center.png)
 
 Центр обеспечения безопасности Microsoft 365 специально предназначен для администраторов безопасности и действий по обеспечению безопасности Teams. В центре безопасности Майкрософт 365 можно выполнить следующие действия:
 - Просмотр общей работоспособности системы безопасности Организации с [надежным рейтингом](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
