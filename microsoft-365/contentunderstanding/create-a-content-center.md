@@ -8,15 +8,15 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как создать центр управления контентом.
-ms.openlocfilehash: ced47f8029079910479dd9aa5c43b39870a56aea
-ms.sourcegitcommit: ea5e2f85bd6b609658545b120c7e08789b9686fd
+ms.openlocfilehash: 5332ffa195519aebd5ae8dd2c26d7d62fd9b3267
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46537571"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612754"
 ---
 # <a name="create-a-content-center-preview"></a>Создание центра контента (Предварительная версия)
 

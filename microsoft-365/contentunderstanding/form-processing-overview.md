@@ -8,15 +8,15 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
 description: Сведения об обработке форм в Project кортекс.
-ms.openlocfilehash: 9709c8170f5dc6ce0edbeb2d90cb4e1f6d759c64
-ms.sourcegitcommit: 3a47efcbdf3d2b39caa2798ea5be806839b05ed1
+ms.openlocfilehash: dbea06cdf2dbb232a7ea48c78d7ea968dd18b9c0
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46540062"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612730"
 ---
 # <a name="form-processing-overview-preview"></a>Обзор обработки формы (Предварительная версия)
 > [!Note]

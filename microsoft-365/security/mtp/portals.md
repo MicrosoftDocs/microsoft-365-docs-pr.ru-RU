@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: ac1491a9257ff7169c0e2a10b014897d47a5d14b
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: e44411fdc14279dac92b8829503fd636e3225600
+ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011843"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46608237"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Порталы безопасности Майкрософт и центры администрирования
 Несмотря на то, что [Центр безопасности Microsoft 365](overview-security-center.md) является новым доменом для мониторинга и управления безопасностью для своих удостоверений, данных, устройств и приложений, вам потребуется доступ к различным порталам для определенных специализированных задач.
@@ -53,4 +53,4 @@ ms.locfileid: "44011843"
 | Центр соответствия требованиям Microsoft 365 | Управление политиками обработки данных и обеспечение [соответствия нормативным требованиям](https://docs.microsoft.com/microsoft-365/compliance/offering-home?view=o365-worldwide) | [compliance.microsoft.com](https://compliance.microsoft.com/) |
 | Центр администрирования Microsoft 365 | Настройка служб Microsoft 365; Управление ролями, лицензиями и отслеживание обновлений для служб Microsoft 365 | [admin.microsoft.com](https://admin.microsoft.com/) |
 | Центр администрирования Microsoft Endpoint Manager | Использование [диспетчера конечных точек Майкрософт](https://docs.microsoft.com/mem/configmgr/) для управления устройствами и их защиты с помощью Объединенных возможностей Intune и Configuration Manager | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
-| Портал Microsoft Intune | Использование [Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune) для развертывания политик устройств и отслеживания устройств для обеспечения соответствия требованиям | [#blade portal.azure.com//Microsoft_Intune_DeviceSettings](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
+| Портал Microsoft Intune | Использование [Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune) для развертывания политик устройств и отслеживания устройств для обеспечения соответствия требованиям | [endpoint.microsoft.com](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview)

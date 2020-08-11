@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Роли администратора соответствуют бизнес-функциям и предоставляют разрешения на выполнение определенных задач в Центре администрирования. Например, администратор служб создает запросы в службу поддержки Майкрософт.
-ms.openlocfilehash: f557d00e21659880a96e4cd1936ab40d4b5a2dec
-ms.sourcegitcommit: a005395165db8896f4109674443b5e5e9209861d
+ms.openlocfilehash: 1f662221a2bcd8bc75c8226b2da726966a096be6
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44432115"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46602097"
 ---
 # <a name="get-started-with-the-roles-page"></a>Начало работы со страницей "роли"
 
 На странице роли можно предоставить пользователям разрешения на выполнение задач в центрах администрирования. Это помогает организациям распределять задачи для соответствующих людей и помогает защитить данные.
 
-:::image type="content" source="../../media/roles-main-page.png" alt-text="Рисунок, показывающий роли администратора":::
+![Рисунок, показывающий роли администратора](../../media/roles-main-page.png)
 
 > [!TIP]
 > Нужны подробные описания ролей? Изучите [разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) и [роли администратора](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
@@ -39,7 +39,7 @@ ms.locfileid: "44432115"
 
 Вы можете экспортировать список администраторов, а также поиск и фильтрацию по роли.
 
-:::image type="content" source="../../media/admin-role-page-options.png" alt-text="Фильтрация или импорт ролей администраторов":::
+![Фильтрация или импорт ролей администраторов](../../media/admin-role-page-options.png)
 
 |||
 |:-----|:-----|
@@ -96,7 +96,7 @@ ms.locfileid: "44432115"
 
 - Выберите до 3 ролей и нажмите кнопку **Сравнение ролей** , чтобы просмотреть разрешения для каждой роли.
 
-:::image type="content" source="../../media/compare-roles-list.png" alt-text="Рисунок, показывающий сравнение ролей администратора":::
+![Рисунок, показывающий сравнение ролей администратора](../../media/compare-roles-list.png)
 
 ::: moniker-end
 

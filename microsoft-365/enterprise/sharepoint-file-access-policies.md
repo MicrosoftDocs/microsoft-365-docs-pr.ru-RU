@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 6429c3dee32087d6e82a427b2f374ec49bab5cac
-ms.sourcegitcommit: 98782ee4497d72232462c51a3071fae313282980
+ms.openlocfilehash: 784a4d617d74916ae7b0ec4b431cc298ce45531e
+ms.sourcegitcommit: d6b641d0ef92f4176da9f4a98d3d5aa3d4f2e184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44222689"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46617190"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>Рекомендации политики по защите сайтов и файлов SharePoint
 
@@ -29,13 +29,13 @@ ms.locfileid: "44222689"
 
 Эти рекомендации основаны на трех различных уровнях безопасности и защиты для файлов SharePoint, которые можно применять в зависимости от степени детализации ваших потребностей: **базовый**, **конфиденциальный**и **строго регулируемый**. Вы можете узнать больше об этих уровнях безопасности и рекомендуемых клиентских операционных системах, на которые ссылаются эти рекомендации в [обзоре](microsoft-365-policies-configurations.md).
 
-В дополнение к внедрению этих рекомендаций обязательно настройте сайты SharePoint с использованием правильной защиты, включая установку соответствующих разрешений для конфиденциального и строго регулируемого контента. Дополнительные сведения о создании сайтов для базовой, конфиденциальной и строго регулируемой защиты содержатся в разделе [Защита сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files).
+В дополнение к внедрению этих рекомендаций обязательно настройте сайты SharePoint с использованием правильной защиты, включая установку соответствующих разрешений для конфиденциального и строго регулируемого контента.
 
 ## <a name="updating-common-policies-to-include-sharepoint-and-onedrive-for-business"></a>Обновление общих политик для включения SharePoint и OneDrive для бизнеса
 
 На следующей схеме показан набор рекомендуемых политик для защиты файлов в SharePoint Online и OneDrive для бизнеса. Он указывает, какие политики следует обновить или создать заново, чтобы добавить защиту для SharePoint Online и OneDrive для бизнеса.
 
-![Сводка политик для SharePoint Online и OneDrive](../media/identity-access-ruleset-sharepoint.png)
+[![Сводка политик для SharePoint Online и OneDrive ](../media/identity-access-ruleset-sharepoint.png)](../media/identity-access-ruleset-sharepoint.png#lightbox)
 
 Если вы включили SharePoint Online при создании общих политик, необходимо создать только новые политики. При настройке правил условного доступа SharePoint Online включает OneDrive для бизнеса.
 
@@ -45,7 +45,7 @@ ms.locfileid: "44222689"
 
 |Уровень защиты|Политики|Дополнительные сведения|
 |:---------------|:-------|:----------------|
-|**Базовый**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
+|**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
 |        |[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение SharePoint Online в назначение облачных приложений|
 |        |[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что все Рекомендуемые приложения включены в список приложений. Обязательно обновите политику для каждой платформы (iOS, Android, Windows).|
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение SharePoint Online в список облачных приложений|
@@ -53,7 +53,7 @@ ms.locfileid: "44222689"
 |**Конфиденциально**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначения облачных приложений|
 |         |[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение SharePoint Online в список облачных приложений|
 ||[Политика управления доступом SharePoint Online](#sharepoint-online-access-control-policies): разрешить доступ только браузеру к определенным сайтам SharePoint с неуправляемых устройств|Это предотвращает изменение и скачивание файлов. Указание сайтов с помощью PowerShell|
-|**Строго регулируемый уровень**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
+|**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Включение SharePoint Online в назначение облачных приложений|
 ||[Политика управления доступом SharePoint Online](#use-app-enforced-restrictions-in-sharepoint-online): блокировать доступ к определенным сайтам SharePoint с неуправляемых устройств|Указание сайтов с помощью PowerShell|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint-online"></a>Использование ограничений, примененных к приложениям, в SharePoint Online
@@ -77,7 +77,7 @@ ms.locfileid: "44222689"
 
 На следующем рисунке приведен пример того, как политики доступа к устройствам SharePoint защищают доступ к сайтам.
 
-![Защита сайтов политиками доступа к устройствам SharePoint](../media/SharePoint-rules-scenario.png)
+[![Защита сайтов ](../media/SharePoint-rules-scenario.png) политиками доступа к устройствам SharePoint](../media/SharePoint-rules-scenario.png#lightbox)
 
 На этом рисунке:
 
@@ -86,6 +86,4 @@ ms.locfileid: "44222689"
 - Если Джеймс получает доступ к конфиденциальному сайту, который является участником использования неуправляемого телефона, который разрешен для пользователей базового плана, он будет получать доступ к конфиденциальному сайту только через браузер в соответствии с политикой доступа к устройствам, настроенной для этого сайта.
 - Если Джеймс получит доступ к высоко регулируемому сайту, который является участником использования неуправляемого телефона, он будет заблокирован из-за политики доступа, настроенной для этого сайта. Он может получить доступ только к этому сайту с помощью управляемого и совместимого компьютера.
 
-## <a name="next-steps"></a>Дальнейшие действия
 
-[Безопасность сайтов и файлов SharePoint Online](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)

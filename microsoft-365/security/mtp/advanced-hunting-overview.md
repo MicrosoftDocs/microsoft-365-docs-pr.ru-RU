@@ -18,12 +18,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c09047648f1d6bb6d68be78315a876be4998e595
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: 8dca8cac2c66147975f71c86b91aee7b36c92cf9
+ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552438"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46608337"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Защита от угроз (Майкрософт) позволяет осуществлять их расширенное выслеживание на профилактической основе
 
@@ -39,7 +39,7 @@ ms.locfileid: "46552438"
 
 Вы можете использовать одни и те же запросы на поиск угроз для создания пользовательских правил обнаружения. Эти правила выполняются автоматически для проверки различных событий и состояний системы, включая подозрения на действия нарушения, и реагирования на них.
 
-В центре безопасности Microsoft 365 Расширенный поиск поддерживает запросы, которые ищут данные из различных рабочих областей, в том числе сведения об устройствах, сообщениях электронной почты, приложениях и удостоверениях из пакета ATP для защитника Майкрософт, Office 365 ATP, Microsoft Cloud App Security и Azure ATP. Воспользоваться расширенным выслеживанием можно, [включив Защиту от угроз (Майкрософт)](mtp-enable.md).
+Эта функция аналогична [расширенному поиску в Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview), за исключением того, что в центре безопасности Microsoft 365 Расширенный поиск поддерживает запросы, которые просматривает данные из различных рабочих областей, в том числе сведения об устройствах, сообщениях электронной почты, приложениях и удостоверениях из пакета ATP для Microsoft Defender, Office 365 ATP, Microsoft Cloud App Security и Azure ATP. Воспользоваться расширенным выслеживанием можно, [включив Защиту от угроз (Майкрософт)](mtp-enable.md).
 
 ## <a name="get-started-with-advanced-hunting"></a>Начало работы с расширенным выслеживанием
 
@@ -69,6 +69,6 @@ ms.locfileid: "46552438"
 - [Выполнение действий с результатами запроса](advanced-hunting-take-action.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
 - [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
-- [Общие сведения о схеме](advanced-hunting-schema-tables.md)
+- [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
 - [Обзор настраиваемых обнаружений](custom-detections-overview.md)

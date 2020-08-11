@@ -9,14 +9,14 @@ audience: admin
 ms.topic: article
 ms.service: ''
 search.appverid: ''
-localization_priority: Normal
+localization_priority: None
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fca80e45dfa45ee5da9521854c6eebfbd87d8859
-ms.sourcegitcommit: 91c82a79962387205c4dd4dd8d61322b79fed55f
+ms.openlocfilehash: 5fcc7f78bfc12faae19ce2a3fbc77c4348da01de
+ms.sourcegitcommit: a3a5dc541b0c971608cc86ef480509c25a13ca60
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "46539912"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46612706"
 ---
 # <a name="set-up-content-understanding-preview"></a>Сведения о настройке контента (Предварительная версия)
 
@@ -64,8 +64,8 @@ ms.locfileid: "46539912"
 
     
 5. На странице " **Создание центра содержимого** " можно создать сайт центра контента SharePoint, на котором пользователи могут создавать и управлять моделями документов. </br>
-    а) В поле **имя сайта**введите имя, которое вы хотите присвоить сайту центра контента.</br>
-    б) В поле **адрес сайта** отобразится URL-адрес вашего сайта в зависимости от того, что выбрано для имени сайта.</br>
+    а. В поле **имя сайта**введите имя, которое вы хотите присвоить сайту центра контента.</br>
+    б. В поле **адрес сайта** отобразится URL-адрес вашего сайта в зависимости от того, что выбрано для имени сайта.</br>
 
     > [!Note] 
     > Несмотря на то, что вы можете выбрать любой поддерживаемый язык, обратите внимание на то, что основные сведения о моделях можно создавать только для английского языка.</br>

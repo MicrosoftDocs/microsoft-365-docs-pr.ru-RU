@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Общие сведения об автоматическом расследовании и возможностях реагирования в Office 365 Advanced Threat Protection Plan 2.
 ms.custom: air - seo-marvel-mar2020
-ms.openlocfilehash: d62d24a8f4cbd0541099ece91e46a23d3fbc786c
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: c977aa3f57c981cdc29037ca6f9f7803b7accd03
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44208915"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601901"
 ---
 # <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Обзор автоматизированного исследования и ответа (AIR) в Microsoft 365
 
@@ -127,11 +127,11 @@ ms.locfileid: "44208915"
 
 Например, предположим, что вы используете представление **вредоносных программ** в обозревателе угроз. Используя вкладки под диаграммой, перейдите на вкладку **Электронная почта** . При выборе одного или нескольких элементов в списке активируется кнопка **+ Actions (действия** ). 
 
-:::image type="content" source="../../media/Explorer-Malware-Email-ActionsInvestigate.png" alt-text="Проводник с выбранными сообщениями":::
+![Проводник с выбранными сообщениями](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 С помощью меню **действия** можно выбрать **триггеры для расследования**.
 
-:::image type="content" source="../../media/explorer-malwareview-selectedemails-actions.jpg" alt-text="Меню действий для выбранных сообщений":::
+![Меню действий для выбранных сообщений](../../media/explorer-malwareview-selectedemails-actions.jpg)
 
 Как и в "Playbooks", вызванных оповещением, автоматическое исследование, запущенное из представления в проводнике, включает в себя корневое исследование, действия по определению и корреляции угроз, а также Рекомендуемые действия по устранению этих угроз.
 
