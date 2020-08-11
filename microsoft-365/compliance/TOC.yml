@@ -261,20 +261,22 @@
       items:
         - name: Обзор архивации сторонних данных
           href: archiving-third-party-data.md
-        - name: Архивация данных Bloomberg Message (предварительная версия)
-          href: archive-bloomberg-message-data.md
-        - name: Архивация данных Facebook (предварительная версия)
-          href: archive-facebook-data-with-sample-connector.md
-        - name: Импорт данных отдела кадров (предварительная версия)
-          href: import-hr-data.md
-        - name: Архивация данных ICE Chat (предварительная версия)
-          href: archive-icechat-data.md
-        - name: Архивация данных Instant Bloomberg
-          href: archive-instant-bloomberg-data.md
-        - name: Архивация данных LinkedIn
-          href: archive-linkedin-data.md
-        - name: Архивация данных Twitter (предварительная версия)
-          href: archive-twitter-data-with-sample-connector.md
+        - name: Соединители данных Майкрософт
+          items:
+            - name: Сообщение Bloomberg
+              href: archive-bloomberg-message-data.md
+            - name: Facebook Business
+              href: archive-facebook-data-with-sample-connector.md
+            - name: Данные о персонале
+              href: import-hr-data.md
+            - name: ICE Chat
+              href: archive-icechat-data.md
+            - name: Instant Bloomberg
+              href: archive-instant-bloomberg-data.md
+            - name: LinkedIn
+              href: archive-linkedin-data.md
+            - name: Twitter
+              href: archive-twitter-data-with-sample-connector.md
         - name: Архивация сторонних данных при помощи партнера
           href: work-with-partner-to-archive-third-party-data.md
         - name: Поиск сторонних данных
