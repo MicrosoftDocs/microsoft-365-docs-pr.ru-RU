@@ -12,12 +12,12 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 7f54832001f80418ffb09bc45da8f32c79f3df53
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 0c66afa22c8712455a875bc8ca4ddcad1678e2e7
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46503040"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46602002"
 ---
 # <a name="double-key-encryption-dke"></a>Шифрование с двойным ключом (ДКЕ)
 
@@ -136,13 +136,13 @@ The following video shows how Double Key Encryption works to secure your content
 
 1. В правой части экрана выберите **код**. В вашей версии пользовательского интерфейса может отображаться кнопка " **Копировать" или "скачать** ". Затем в появившемся раскрывающемся меню выберите значок Копировать, чтобы скопировать URL-адрес в буфер обмена.
 
-    Например:
+    Пример:
 
-    :::image type="content" source="../media/dke-clone.png" alt-text="Клонирование базы данных двойных шифрования ключей из GitHub":::
+   ![Клонирование базы данных двойных шифрования ключей из GitHub](../media/dke-clone.png)
 
-3. В Visual Studio Code выберите пункт **Просмотреть** \> **палитру команд** и выберите **Git: Clone**. Чтобы перейти к параметру в списке, начните ввод, `git: clone` чтобы отфильтровать записи, а затем выберите его в раскрывающемся списке. Например:
+3. В Visual Studio Code выберите пункт **Просмотреть** \> **палитру команд** и выберите **Git: Clone**. Чтобы перейти к параметру в списке, начните ввод, `git: clone` чтобы отфильтровать записи, а затем выберите его в раскрывающемся списке. Пример:
 
-    :::image type="content" source="../media/dke-vscode-clone.png" alt-text="Visual Studio Code GIT: параметр Clone":::
+   ![Visual Studio Code GIT: параметр Clone](../media/dke-vscode-clone.png)
 
 4. В текстовом поле вставьте URL-адрес, который вы скопировали из Git, и выберите **клон из GitHub**.
 
@@ -150,9 +150,9 @@ The following video shows how Double Key Encryption works to secure your content
 
     Репозиторий открывается в Visual Studio Code и отображается в левом нижнем углу текущей ветви Git. Ветвь должна быть **основной**.
 
-    Например:
+    Пример:
 
-    :::image type="content" source="../media/dke-vscode-master.png" alt-text="Ветвь образца кода Visual Studio":::
+   ![Ветвь образца кода Visual Studio](../media/dke-vscode-master.png)
 
 6. Выберите образец Word **,** а затем в списке ветвей выберите пункт **public_preview** .
 
@@ -170,7 +170,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 Вы изменяете параметры приложения в appsettings.jsв файле. Этот файл находится в репозитории Даублекэйенкриптионсервице, который вы клонированы локально в Даублекэйенкриптионсервице\срк\кустомер-Кэй-Сторе. Например, в Visual Studio Code можно перейти к файлу, как показано на рисунке ниже.
 
-:::image type="content" source="../media/dke-appsettingsjson.png" alt-text="Поиск appsettings.jsв файле для ДКЕ.":::
+![Поиск appsettings.jsв файле для ДКЕ.](../media/dke-appsettingsjson.png)
 
 #### <a name="key-access-settings"></a>Параметры доступа к ключам
 
@@ -184,7 +184,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 1. Откройте **appsettings.js** файла и выберите `AuthorizedEmailAddress` параметр.
 
-2. Добавьте адрес электронной почты или адреса, которые вы хотите авторизовать. Разделяйте адреса электронной почты двойными кавычками и запятыми. Например:
+2. Добавьте адрес электронной почты или адреса, которые вы хотите авторизовать. Разделяйте адреса электронной почты двойными кавычками и запятыми. Пример:
 
    ```json
    "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
@@ -200,19 +200,19 @@ The following video shows how Double Key Encryption works to secure your content
 
 На этом рисунке показано, как правильно отформатировать **appsettings.jsв** файле для авторизации электронной почты.
 
-   :::image type="content" source="../media/dke-email-accesssetting.png" alt-text="appsettings.jsдля файла с методом авторизации электронной почты":::
+   ![appsettings.jsдля файла с методом авторизации электронной почты](../media/dke-email-accesssetting.png)
 
 **Настройка параметров доступа к ключам для ДКЕ с помощью авторизации ролей**
 
 1. Откройте **appsettings.js** файла и выберите `AuthorizedRoles` параметр.
 
-2. Добавьте имена групп Active Directory, которые вы хотите авторизовать. Разделяйте имена групп двойными кавычками и запятыми. Например:
+2. Добавьте имена групп Active Directory, которые вы хотите авторизовать. Разделяйте имена групп двойными кавычками и запятыми. Пример:
 
    ```json
    "AuthorizedRoles": ["group1", "group2", "group3"]
    ```
 
-3. Нахождение `LDAPPath` параметра и добавление домена Active Directory. Например:
+3. Нахождение `LDAPPath` параметра и добавление домена Active Directory. Пример:
 
    ```json
    "LDAPPath": "contoso.com"
@@ -222,7 +222,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 На этом рисунке показано, как правильно отформатировать **appsettings.jsв** файле для авторизации роли.
 
-   :::image type="content" source="../media/dke-role-accesssetting.png" alt-text="appsettings.jsдля файла с методом авторизации роли":::
+   ![appsettings.jsдля файла с методом авторизации роли](../media/dke-role-accesssetting.png)
 
 #### <a name="tenant-and-key-settings"></a>Параметры клиента и ключа
 
@@ -232,7 +232,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 1. Откройте **appsettings.jsв** файле.
 
-2. Укажите `ValidIssuers` параметр и замените `<tenantid>` идентификатором клиента. Вы можете определить идентификатор клиента, перейдя на портал Azure и просмотрев [Свойства клиента](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Например:
+2. Укажите `ValidIssuers` параметр и замените `<tenantid>` идентификатором клиента. Вы можете определить идентификатор клиента, перейдя на портал Azure и просмотрев [Свойства клиента](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Пример:
 
    ```json
    "ValidIssuers": [
@@ -240,7 +240,7 @@ The following video shows how Double Key Encryption works to secure your content
    ]
    ```
 
-Откройте файл `JwtAudience` . Замените `<yourhostname>` на имя узла компьютера, на котором будет запускаться служба дке. Например:
+Откройте файл `JwtAudience` . Замените `<yourhostname>` на имя узла компьютера, на котором будет запускаться служба дке. Пример:
 
 
 
@@ -252,7 +252,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 На этом рисунке показан правильный формат параметров клиента и ключей в **appsettings.json**. `LDAPPath`настроена для авторизации роли.
 
-:::image type="content" source="../media/dke-appsettingsjson-tenantkeysettings.png" alt-text="Показывает правильные параметры клиента и ключа для ДКЕ в appsettings.jsв файле.":::
+![Показывает правильные параметры клиента и ключа для ДКЕ в appsettings.jsв файле.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
 ### <a name="generate-test-keys"></a>Создание тестовых ключей
 
@@ -311,7 +311,7 @@ The following video shows how Double Key Encryption works to secure your content
 
    Конечный результат должен выглядеть примерно так, как показано ниже.
 
-   :::image type="content" source="../media/dke-startupcs-usetestkeys.png" alt-text="файл startup.cs для общедоступной предварительной версии":::
+   ![файл startup.cs для общедоступной предварительной версии](../media/dke-startupcs-usetestkeys.png)
 
 Теперь вы готовы к [созданию проекта дке](#build-the-project).
 
@@ -325,15 +325,15 @@ The following video shows how Double Key Encryption works to secure your content
 
    Если задач сборки нет, выберите **настроить задачу построения** и создайте ее для .NET Core следующим образом.
 
-   :::image type="content" source="../media/dke-configurebuildtask.png" alt-text="Настройка отсутствующих задач сборки для .NET":::
+   ![Настройка отсутствующих задач сборки для .NET](../media/dke-configurebuildtask.png)
 
    1. Выберите **создать tasks.jsна основе шаблона**.
 
-   :::image type="content" source="../media/dke-createtasksjsonfromtemplate.png" alt-text="Создание tasks.jsдля файла из шаблона для ДКЕ":::
+   ![Создание tasks.jsдля файла из шаблона для ДКЕ](../media/dke-createtasksjsonfromtemplate.png)
 
    2. В списке типов шаблонов выберите **.NET Core**.
 
-   :::image type="content" source="../media/dke-tasksjsontemplate.png" alt-text="Создание tasks.jsдля файла из шаблона для ДКЕ":::
+   ![Создание tasks.jsдля файла из шаблона для ДКЕ](../media/dke-tasksjsontemplate.png)
 
    3. В разделе Build (построение) выберите путь к файлу **кустомеркэйсторе. csproj** . Если это не так, добавьте следующую строку:
 
@@ -349,7 +349,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 2. Чтобы отладить процесс, нажмите кнопку **выполнить** \> **Запуск отладки** . Если вам будет предложено выбрать среду, выберите пункт **.NET Core**.
 
-Основной отладчик .NET, как правило, запускается в ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' и добавляет косую черту (/) и имя ключа. Например:
+Основной отладчик .NET, как правило, запускается в ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' и добавляет косую черту (/) и имя ключа. Пример:
 
 ```https
 https://localhost:5001/TestKey1
@@ -373,9 +373,9 @@ https://localhost:5001/TestKey1
 
     - Для **публикации**выберите **код**и для **стека времени выполнения**выберите **.NET Core 3,1**.
 
-    Например:
+    Пример:
 
-    :::image type="content" source="../media/dke-azure-add-app-service.png" alt-text="Добавление службы приложений":::
+   ![Добавление службы приложений](../media/dke-azure-add-app-service.png)
 
 1. В нижней части страницы выберите пункт Просмотр и **Создание**, а затем нажмите кнопку **Добавить**.
 
@@ -420,9 +420,9 @@ https://localhost:5001/TestKey1
 
 1. Скопируйте строки подключения, отображаемые в локальный файл. Эти строки будут использоваться для подключения к службе веб-приложений и отправки файлов через FTP.
 
-    Например:
+    Пример:
 
-    :::image type="content" source="../media/dke-ftp-dashboard.png" alt-text="Копирование строк подключения из панели мониторинга FTP":::
+   ![Копирование строк подключения из панели мониторинга FTP](../media/dke-ftp-dashboard.png)
 
 1. В базе кода для хранилища ключей перейдите в **Каталог Кустомер-Кэй-сторе\срк\кустомер-Кэй-Сторе**.
 
@@ -444,11 +444,11 @@ https://localhost:5001/TestKey1
 
 После развертывания ДКЕ с помощью одного из методов, описанных выше, проверяйте развертывание и параметры хранилища ключей.
 
-Выполняем
+Выполните команду: 
 
 src\customer-key-store\scripts\key_store_tester.ps1 микэйстореурл/микэй
 
-Например:
+Пример:
 
 key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
@@ -468,9 +468,9 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
     Если вы используете Microsoft Azure с нестандартным доменом, например **onmicrosoft.com**, выберите **учетные записи только в данном организационном каталоге (только Microsoft — один клиент).**
 
-    Например:
+    Пример:
 
-    :::image type="content" source="../media/dke-app-registration.png" alt-text="Регистрация нового приложения":::
+   ![Регистрация нового приложения](../media/dke-app-registration.png)
 
 4. В нижней части страницы выберите пункт **Регистрация** , чтобы создать новую регистрацию приложения.
 
@@ -526,9 +526,9 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
 В центре соответствия требованиям Microsoft 365 создайте новую метку чувствительности и примените шифрование, как в противном случае. Выберите **использовать шифрование с двойным ключом** и введите URL-адрес конечной точки для своего ключа.
 
-Например:
+Пример:
 
-:::image type="content" source="../media/dke-use-dke.png" alt-text="Выберите использовать шифрование с двойным ключом в центре соответствия требованиям Microsoft 365":::
+![Выберите использовать шифрование с двойным ключом в центре соответствия требованиям Microsoft 365](../media/dke-use-dke.png)
 
 Все добавляемые метки ДКЕ будут отображаться для пользователей в последних версиях приложений Microsoft 365 для предприятий.
 

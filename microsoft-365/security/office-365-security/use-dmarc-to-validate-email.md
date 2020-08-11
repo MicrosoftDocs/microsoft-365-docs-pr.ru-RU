@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
-ms.openlocfilehash: adc213ec5c47184f997a812425e53a61d7ac2da3
-ms.sourcegitcommit: 0650da0e54a2b484a3156b3aabe44397fbb38e00
+ms.openlocfilehash: 56e557a3ca970540288c00d5fb8a30549c252776
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45016330"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601877"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
 
@@ -227,7 +227,7 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 Вся или почти вся электронная почта сначала будет перенаправляться в домен mail.contoso.com, поскольку это основная система обмена электронной почтой, а затем в домен EOP. В некоторых случаях вы можете даже не указать EOP в записи MX и просто воспользоваться соединителями для перенаправления почты. Домен EOP не обязательно должен быть первым элементом, для которого требуется выполнить проверку DMARC. Просто это обеспечивает проверку, так как мы не можем быть уверены, что все локальные серверы и серверы, не связанные с Office 365, выполняют проверки DMARC.  DMARC может быть принудительно применен для домена клиента (не сервера) при настройке записи TXT DMARC, но такое применение осуществляется сервером-получателем.  Если настроить EOP как сервер-получатель, EOP принудительно применит DMARC.
 
-:::image type="content" source="../../media/Tp_DMARCTroublehoot.png" alt-text="Изображение устранения неполадок DMARC, предоставленное Дэниелом Манде":::
+![Изображение устранения неполадок DMARC, предоставленное Дэниелом Манде](../../media/Tp_DMARCTroublehoot.png)
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 
