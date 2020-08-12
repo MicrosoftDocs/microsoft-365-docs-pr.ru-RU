@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7afcf16a42824ff234e53412a0cbd44f997fcaf9
-ms.sourcegitcommit: 634abe8a237e27dfe82376e6ef32280aab5d4a27
+ms.openlocfilehash: cea4dbcb42833a14980d092bd0ff168ca97e5934
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45005714"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632155"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>Создание настраиваемых правил обнаружения и управление ими
 
@@ -51,6 +51,10 @@ ms.locfileid: "45005714"
 ### <a name="1-prepare-the-query"></a>1. Подготовьте запрос.
 
 В центре безопасности Microsoft 365 перейдите в раздел **Расширенный** Поиск и выберите существующий или создайте новый запрос. При использовании нового запроса выполните запрос, чтобы выявить ошибки и понять возможные результаты.
+
+>[!IMPORTANT]
+>Чтобы служба не возвращала слишком много оповещений, каждое правило ограничено созданием только 100 оповещений при каждом запуске. Прежде чем создавать правило, необходимо настроить запрос, чтобы избежать оповещений о нормальных действиях в день.
+
 
 #### <a name="required-columns-in-the-query-results"></a>Обязательные столбцы в результатах запроса
 Чтобы создать настраиваемое правило обнаружения, запрос должен возвратить следующие столбцы:
@@ -85,6 +89,7 @@ DeviceEvents
 | summarize Timestamp = max(Timestamp), count() by DeviceId, SHA1, InitiatingProcessAccountObjectId 
 | where count_ > 5
 ```
+
 ### <a name="2-create-new-rule-and-provide-alert-details"></a>2. Создайте новое правило и предоставьте сведения об оповещении.
 
 С помощью запроса в редакторе запросов выберите **создать правило обнаружения** и укажите следующие сведения об оповещении:

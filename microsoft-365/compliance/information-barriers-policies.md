@@ -14,12 +14,12 @@ ms.collection:
 localization_priority: None
 description: Узнайте, как определить политики для барьеров информации в Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9f8635f65867eb9d9543cc23b984f181030a7f9
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: be86816c559d0ac1873618cd51baa2ac24fb2db8
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024699"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632100"
 ---
 # <a name="define-information-barrier-policies"></a>Определение политик информационных барьеров
 
@@ -79,7 +79,7 @@ ms.locfileid: "45024699"
    1. Выполните следующие командлеты PowerShell:
 
       ```powershell
-      Login-AzAccount 
+      Connect-AzureAD 
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
       $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
       if ($sp -eq $null) { New-AzADServicePrincipal -ApplicationId $appId }
@@ -254,7 +254,7 @@ ms.locfileid: "45024699"
 
 |Для просмотра этого  |Необходимые действия  |
 |---------|---------|
-|Учетные записи пользователей     |Используйте командлет **Get – информатионбарриерреЦипиентстатус** с параметрами Identity. <p>Инструкции`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>Можно использовать любое значение, однозначно идентифицирующее каждого пользователя, например, имя, псевдоним, различающееся имя, каноническое имя домена, адрес электронной почты или GUID. <p>Пример: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>В этом примере мы будем называть две учетные записи пользователей в Office 365: *меганб* для *Меган*и *алексв* для *Алекс*. <p>(Вы также можете использовать этот командлет для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>Этот командлет возвращает сведения о пользователях, такие как значения атрибутов и применяемые политики барьера данных.|
+|Учетные записи пользователей     |Используйте командлет **Get – информатионбарриерреЦипиентстатус** с параметрами Identity. <p>Инструкции`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>Можно использовать любое значение, однозначно идентифицирующее каждого пользователя, например, имя, псевдоним, различающееся имя, каноническое имя домена, адрес электронной почты или GUID. <p>Пример: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`. <p>В этом примере мы будем называть две учетные записи пользователей в Office 365: *меганб* для *Меган*и *алексв* для *Алекс*. <p>(Вы также можете использовать этот командлет для одного пользователя: `Get-InformationBarrierRecipientStatus -Identity <value>` ) <p>Этот командлет возвращает сведения о пользователях, такие как значения атрибутов и применяемые политики барьера данных.|
 |Сегменты     |Используйте командлет **Get – организатионсегмент** .<p>Инструкции`Get-OrganizationSegment` <p>Отобразится список всех сегментов, определенных для вашей организации.         |
 |Политики барьера информации     |Используйте командлет **Get – информатионбарриерполици** . <p> Инструкции`Get-InformationBarrierPolicy` <p>Отобразится список определенных политик барьера информации и их состояние.       |
 |Последнее приложение политики барьера информации     | Используйте командлет **Get – информатионбарриерполиЦиесаппликатионстатус** . <p>Инструкции`Get-InformationBarrierPoliciesApplicationStatus`<p>    При этом будут отображены сведения о том, завершено ли выполнение приложения политики, оно завершилось сбоем или находится в процессе выполнения.       |
