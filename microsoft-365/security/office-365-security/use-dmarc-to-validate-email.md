@@ -15,12 +15,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить протокол DMARC (Domain-based Message Authentication, Reporting, and Conformance), чтобы проверять сообщения, отправленные из вашей организации.
-ms.openlocfilehash: 56e557a3ca970540288c00d5fb8a30549c252776
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: 09c06d30d118078e310c5e3d0743ef5236ec77ba
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46601877"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632121"
 ---
 # <a name="use-dmarc-to-validate-email"></a>Использование протокола DMARC для проверки электронной почты
 
@@ -39,7 +39,7 @@ ms.locfileid: "46601877"
 
 Для предоставления списка авторизованных IP-адресов отправки для указанного домена инфраструктура SPF использует запись DNS TXT. Как правило, проверки SPF выполняются только для адреса 5321.MailFrom. Это означает, что если используется только инфраструктура SPF, то проверка подлинности адреса 5322.From не выполняется. Такое поведение приводит к возникновению ситуаций, когда пользователь может получить сообщение с поддельного адреса 5322.From, которое, тем не менее, успешно прошло проверку SPF. Например, рассмотрим следующую запись SMTP:
 
-```text
+```console
 S: Helo woodgrovebank.com
 S: Mail from: phish@phishing.contoso.com
 S: Rcpt to: astobes@tailspintoys.com
@@ -76,7 +76,7 @@ S: .
 
 Запись DMARC TXT корпорации Майкрософт имеет примерно следующий вид:
 
-```text
+```console
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1"
 ```
 
@@ -114,7 +114,7 @@ _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=
 
 Например, предположим, что для отправки почты с домена contoso.com используются Exchange Online, локальный сервер Exchange с IP-адресом 192.168.0.1 и веб-приложение с IP-адресом 192.168.100.100. Тогда запись SPF TXT будет выглядеть следующим образом:
 
-```text
+```console
 contoso.com  IN  TXT  " v=spf1 ip4:192.168.0.1 ip4:192.168.100.100 include:spf.protection.outlook.com -all"
 ```
 
@@ -132,7 +132,7 @@ contoso.com  IN  TXT  " v=spf1 ip4:192.168.0.1 ip4:192.168.100.100 include:spf.p
 
 В этом разделе описаны наиболее часто используемые варианты использования синтаксиса для Microsoft 365, хотя существуют и другие. Создайте запись DMARC TXT для вашего домена в следующем формате:
 
-```text
+```console
 _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 ```
 
@@ -152,19 +152,19 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 - Параметру "policy" присвоено значение "none"
 
-    ```text
+    ```console
     _dmarc.contoso.com 3600 IN  TXT  "v=DMARC1; p=none"
     ```
 
 - Параметру "policy" присвоено значение "quarantine"
 
-    ```text
+    ```console
     _dmarc.contoso.com 3600 IN  TXT  "v=DMARC1; p=quarantine"
     ```
 
 - Параметру "policy" присвоено значение "reject"
 
-    ```text
+    ```console
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
@@ -187,6 +187,16 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 3. Запросите у внешних почтовых систем не принимать сообщения, не прошедшие проверки DMARC
 
     Последним шагом является реализация политики отклонения. Политика отклонения  это запись DMARC TXT, в которой параметру политики присвоено значение "reject" (p=reject). Таким образом вы просите получателей DMARC не принимать сообщения, которые не прошли проверки DMARC.
+    
+4. Как настроить DMARC для поддомена?
+
+DMARC реализуется путем публикации политики в виде TXT-записи в DNS и является иерархическим объектом (например, политика, опубликованная для contoso.com, будет применяться к sub.domain.contonos.com, если для этого поддомена явным образом не определена другая политика). Это удобно, так как организации могут указывать меньшее число записей DMARC для большего покрытия. Следует проявлять осторожность при настройке явных записей DMARC поддомена, где не нужно, чтобы дочерние домены наследовали запись DMARC домена верхнего уровня.
+
+Кроме того, вы можете добавить политику с подстановочным знаком для DMARC, если поддомены не должны отправлять почту, добавив значение `sp=reject`. Например:
+
+```console
+_dmarc.contoso.com. TXT "v=DMARC1; p=reject; sp=reject; ruf=mailto:authfail@contoso.com; rua=mailto:aggrep@contoso.com"
+```
 
 ## <a name="how-microsoft-365-handles-outbound-email-that-fails-dmarc"></a>Как Microsoft 365 обрабатывает исходящую почту, не прошедшую проверку DMARC
 
@@ -220,7 +230,7 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; p=policy; pct=100"
 
 Если вы являетесь клиентом, а ваша основная запись MX не указывает на EOP, вы не сможете воспользоваться преимуществами DMARC. Например, DMARC не будет работать, если вы настроите запись MX таким образом, чтобы она указывала на локальный почтовый сервер, а затем перенаправите почту в EOP с помощью соединителя. В этом случае получающий домен является одним из ваших обслуживающих доменов, тогда как EOP не является основной системой обмена электронной почтой. К примеру, допустим, что в записи MX домен contoso.com указывает сам на себя и использует EOP в качестве вспомогательной записи MX, тогда запись MX для домена contoso.com будет выглядеть следующим образом:
 
-```text
+```console
 contoso.com     3600   IN  MX  0  mail.contoso.com
 contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 ```
