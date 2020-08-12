@@ -243,7 +243,7 @@
   items:
     - name: Организация управления информацией
       href: manage-information-governance.md
-    - name: Импорт данных
+    - name: Импорт данных почтового ящика
       items:
         - name: Общие сведения об импорте PST-файлов
           href: importing-pst-files-to-office-365.md
@@ -251,8 +251,6 @@
           href: use-network-upload-to-import-pst-files.md
         - name: Импорт PST-файлов с помощью отправки дисков
           href: use-drive-shipping-to-import-pst-files-to-office-365.md
-        - name: 'Поиск, копирование и удаление PST-файлов с помощью средства сбора PST-файлов'
-          href: find-copy-and-delete-pst-files-in-your-organization.md
         - name: Фильтрация данных при импорте PST-файлов
           href: filter-data-when-importing-pst-files.md
         - name: Вопросы и ответы об импорте PST-файлов
