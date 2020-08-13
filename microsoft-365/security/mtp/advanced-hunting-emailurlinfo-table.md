@@ -17,33 +17,33 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: efe7f7606dce4ceeb9953b0fb3272f1722479306
-ms.sourcegitcommit: ab10c042e5e9c6a7b2afef930ab0d247a6aa275d
+ms.openlocfilehash: aa81628368cbaac121e2930bde9d5498f8d71f17
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44899105"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649335"
 ---
-# <a name="emailurlinfo"></a><span data-ttu-id="39f05-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="39f05-104">EmailUrlInfo</span></span>
+# <a name="emailurlinfo"></a><span data-ttu-id="b5153-104">EmailUrlInfo</span><span class="sxs-lookup"><span data-stu-id="b5153-104">EmailUrlInfo</span></span>
 
-<span data-ttu-id="39f05-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="39f05-105">**Applies to:**</span></span>
-- <span data-ttu-id="39f05-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="39f05-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="b5153-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="b5153-105">**Applies to:**</span></span>
+- <span data-ttu-id="b5153-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="b5153-106">Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="39f05-107">`EmailUrlInfo`Таблица в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию об адресах URL для сообщений электронной почты или вложений, обрабатываемых Office 365 ATP.</span><span class="sxs-lookup"><span data-stu-id="39f05-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Office 365 ATP.</span></span> <span data-ttu-id="39f05-108">Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.</span><span class="sxs-lookup"><span data-stu-id="39f05-108">Use this reference to construct queries that return information from this table.</span></span>
+<span data-ttu-id="b5153-107">`EmailUrlInfo`Таблица в схеме [расширенного поиска](advanced-hunting-overview.md) содержит информацию об адресах URL для сообщений электронной почты или вложений, обрабатываемых Office 365 ATP.</span><span class="sxs-lookup"><span data-stu-id="b5153-107">The `EmailUrlInfo` table in the [advanced hunting](advanced-hunting-overview.md) schema contains information about URLs on emails and attachments processed by Office 365 ATP.</span></span> <span data-ttu-id="b5153-108">Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.</span><span class="sxs-lookup"><span data-stu-id="b5153-108">Use this reference to construct queries that return information from this table.</span></span>
 
-<span data-ttu-id="39f05-109">Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).</span><span class="sxs-lookup"><span data-stu-id="39f05-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
+<span data-ttu-id="b5153-109">Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).</span><span class="sxs-lookup"><span data-stu-id="b5153-109">For information on other tables in the advanced hunting schema, [see the advanced hunting reference](advanced-hunting-schema-tables.md).</span></span>
 
-| <span data-ttu-id="39f05-110">Имя столбца</span><span class="sxs-lookup"><span data-stu-id="39f05-110">Column name</span></span> | <span data-ttu-id="39f05-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="39f05-111">Data type</span></span> | <span data-ttu-id="39f05-112">Описание</span><span class="sxs-lookup"><span data-stu-id="39f05-112">Description</span></span> |
+| <span data-ttu-id="b5153-110">Имя столбца</span><span class="sxs-lookup"><span data-stu-id="b5153-110">Column name</span></span> | <span data-ttu-id="b5153-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="b5153-111">Data type</span></span> | <span data-ttu-id="b5153-112">Описание</span><span class="sxs-lookup"><span data-stu-id="b5153-112">Description</span></span> |
 |-------------|-----------|-------------|
-| `Timestamp` | <span data-ttu-id="39f05-113">datetime</span><span class="sxs-lookup"><span data-stu-id="39f05-113">datetime</span></span> | <span data-ttu-id="39f05-114">Дата и время записи события</span><span class="sxs-lookup"><span data-stu-id="39f05-114">Date and time when the event was recorded</span></span> |
-| `UrlId` | <span data-ttu-id="39f05-115">string</span><span class="sxs-lookup"><span data-stu-id="39f05-115">string</span></span> | <span data-ttu-id="39f05-116">Уникальный идентификатор URL в теме, основном тексте или вложении сообщения электронной почты</span><span class="sxs-lookup"><span data-stu-id="39f05-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
-| `NetworkMessageId` | <span data-ttu-id="39f05-117">string</span><span class="sxs-lookup"><span data-stu-id="39f05-117">string</span></span> | <span data-ttu-id="39f05-118">Уникальный идентификатор электронного сообщения, созданного Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="39f05-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
-| `Url` | <span data-ttu-id="39f05-119">string</span><span class="sxs-lookup"><span data-stu-id="39f05-119">string</span></span> | <span data-ttu-id="39f05-120">Уникальный идентификатор URL в теме, основном тексте или вложении</span><span class="sxs-lookup"><span data-stu-id="39f05-120">Full URL in the email subject, body, or attachment</span></span> |
+| `Timestamp` | <span data-ttu-id="b5153-113">datetime</span><span class="sxs-lookup"><span data-stu-id="b5153-113">datetime</span></span> | <span data-ttu-id="b5153-114">Дата и время записи события</span><span class="sxs-lookup"><span data-stu-id="b5153-114">Date and time when the event was recorded</span></span> |
+| `UrlId` | <span data-ttu-id="b5153-115">string</span><span class="sxs-lookup"><span data-stu-id="b5153-115">string</span></span> | <span data-ttu-id="b5153-116">Уникальный идентификатор URL в теме, основном тексте или вложении сообщения электронной почты</span><span class="sxs-lookup"><span data-stu-id="b5153-116">Unique identifier for the URL in the email subject, body, or attachment</span></span> |
+| `NetworkMessageId` | <span data-ttu-id="b5153-117">string</span><span class="sxs-lookup"><span data-stu-id="b5153-117">string</span></span> | <span data-ttu-id="b5153-118">Уникальный идентификатор электронного сообщения, созданного Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="b5153-118">Unique identifier for the email, generated by Microsoft 365</span></span> |
+| `Url` | <span data-ttu-id="b5153-119">string</span><span class="sxs-lookup"><span data-stu-id="b5153-119">string</span></span> | <span data-ttu-id="b5153-120">Уникальный идентификатор URL в теме, основном тексте или вложении</span><span class="sxs-lookup"><span data-stu-id="b5153-120">Full URL in the email subject, body, or attachment</span></span> |
 
-## <a name="related-topics"></a><span data-ttu-id="39f05-121">См. также</span><span class="sxs-lookup"><span data-stu-id="39f05-121">Related topics</span></span>
-- [<span data-ttu-id="39f05-122">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="39f05-122">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="39f05-123">Сведения о языке запросов</span><span class="sxs-lookup"><span data-stu-id="39f05-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="39f05-124">Использование общих запросов</span><span class="sxs-lookup"><span data-stu-id="39f05-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="39f05-125">Поиск угроз на устройствах и в сообщениях электронной почты</span><span class="sxs-lookup"><span data-stu-id="39f05-125">Hunt for threats across devices and emails</span></span>](advanced-hunting-query-emails-devices.md)
-- [<span data-ttu-id="39f05-126">Общие сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="39f05-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="39f05-127">Рекомендации по применению запросов</span><span class="sxs-lookup"><span data-stu-id="39f05-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="b5153-121">См. также</span><span class="sxs-lookup"><span data-stu-id="b5153-121">Related topics</span></span>
+- [<span data-ttu-id="b5153-122">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="b5153-122">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="b5153-123">Сведения о языке запросов</span><span class="sxs-lookup"><span data-stu-id="b5153-123">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="b5153-124">Использование общих запросов</span><span class="sxs-lookup"><span data-stu-id="b5153-124">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="b5153-125">Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями</span><span class="sxs-lookup"><span data-stu-id="b5153-125">Hunt across devices, emails, apps, and identities</span></span>](advanced-hunting-query-emails-devices.md)
+- [<span data-ttu-id="b5153-126">Общие сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="b5153-126">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="b5153-127">Рекомендации по применению запросов</span><span class="sxs-lookup"><span data-stu-id="b5153-127">Apply query best practices</span></span>](advanced-hunting-best-practices.md)

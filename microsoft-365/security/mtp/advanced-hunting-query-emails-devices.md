@@ -1,7 +1,7 @@
 ---
-title: Обнаружение угроз на устройствах и сообщениях электронной почты с помощью расширенного выслеживания
-description: В этой статье приводятся примеры распространенных сценариев выслеживания и примеры запросов, применяемых для устройств и сообщений электронной почты.
-keywords: расширенное выслеживание, данные Office365, устройства с Windows, нормализация сообщений электронной почты Office365, сообщения электронной почты, выслеживание угроз, выслеживание киберугроз, поиск, запрос, телеметрия, Microsoft 365, Защита от угроз (Майкрософт)
+title: Поиск угроз для различных устройств, сообщений электронной почты, приложений и удостоверений с помощью расширенного поиска
+description: Исследование распространенных сценариев и примеров запросов, посвященных устройствам, сообщениям электронной почты, приложениям и удостоверениям.
+keywords: Расширенный поиск, Office365 данные, устройства Windows, Office365ные сообщения, нормализация, электронная почта, приложения, удостоверения, Поиск угроз, Поиск угроз кибератак, поиск, запрос, телеметрии, Microsoft 365, защита от угроз Майкрософт
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,86 +17,185 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ec7f9083401fdf7a2114d99ddd2dcc009411e34b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ccb7b049ee3bc2aa25847886b57341ae936d20b9
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633511"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649347"
 ---
-# <a name="hunt-for-threats-across-devices-and-emails"></a><span data-ttu-id="eff43-104">Поиск угроз на устройствах и в сообщениях электронной почты</span><span class="sxs-lookup"><span data-stu-id="eff43-104">Hunt for threats across devices and emails</span></span>
+# <a name="hunt-for-threats-across-devices-emails-apps-and-identities"></a><span data-ttu-id="cc5c2-104">Поиск угроз для различных устройств, сообщений электронной почты, приложений и удостоверений</span><span class="sxs-lookup"><span data-stu-id="cc5c2-104">Hunt for threats across devices, emails, apps, and identities</span></span>
 
-<span data-ttu-id="eff43-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="eff43-105">**Applies to:**</span></span>
-- <span data-ttu-id="eff43-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="eff43-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="cc5c2-105">**Область применения:**</span><span class="sxs-lookup"><span data-stu-id="cc5c2-105">**Applies to:**</span></span>
+- <span data-ttu-id="cc5c2-106">Защита от угроз (Майкрософт)</span><span class="sxs-lookup"><span data-stu-id="cc5c2-106">Microsoft Threat Protection</span></span>
 
+<span data-ttu-id="cc5c2-107">[Расширенные](advanced-hunting-overview.md) функции поиска в защите от угроз Майкрософт позволяют выполнять профилактическое слежение за угрозами:</span><span class="sxs-lookup"><span data-stu-id="cc5c2-107">[Advanced hunting](advanced-hunting-overview.md) in Microsoft Threat Protection allows you to proactively hunt for threats across:</span></span>
+- <span data-ttu-id="cc5c2-108">Устройства, управляемые пакетом анализа "защитник Майкрософт"</span><span class="sxs-lookup"><span data-stu-id="cc5c2-108">Devices managed by Microsoft Defender ATP</span></span>
+- <span data-ttu-id="cc5c2-109">Сообщения электронной почты, обработанные Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="cc5c2-109">Emails processed by Microsoft 365</span></span>
+- <span data-ttu-id="cc5c2-110">Действия облачных приложений, события проверки подлинности и действия с контроллерами домена, отслеживаемые Microsoft Cloud App Security и Azure ATP</span><span class="sxs-lookup"><span data-stu-id="cc5c2-110">Cloud app activities, authentication events, and domain controller activities tracked by Microsoft Cloud App Security and Azure ATP</span></span>
 
+<span data-ttu-id="cc5c2-111">Благодаря такому уровню видимости вы можете быстро находить угрозы, которые просматривают разделы сети, в том числе сложные проникновения, поступающие на электронную почту или Интернет, повышать права на локальные права, получать учетные данные привилегированного домена и перемещать их позже на все устройства.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-111">With this level of visibility, you can quickly hunt for threats that traverse sections of your network, including sophisticated intrusions that arrive on email or the web, elevate local privileges, acquire privileged domain credentials, and move laterally to across your devices.</span></span> 
 
-<span data-ttu-id="eff43-107">[Расширенные](advanced-hunting-overview.md) функции поиска в защите от угроз Майкрософт позволяют осуществлять профилактическое слежение за угрозами на устройствах с Windows и электронными сообщениями Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="eff43-107">[Advanced hunting](advanced-hunting-overview.md) in Microsoft Threat Protection allows you to proactively hunt for threats across your Windows devices and Microsoft emails.</span></span> <span data-ttu-id="eff43-108">Ниже приводится несколько сценариев выслеживания и примеров запросов, позволяющих понять, как создавать запросы, которые будут относиться и к устройствам, и к сообщениям электронной почты.</span><span class="sxs-lookup"><span data-stu-id="eff43-108">Here are some hunting scenarios and sample queries that can help you explore how you might construct queries covering both devices and emails.</span></span>
+<span data-ttu-id="cc5c2-112">Ниже приведены общие методики и примеры запросов, основанные на различных сценариях, которые могут помочь вам понять, как можно создавать запросы при поиске таких сложных угроз.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-112">Here are general techniques and sample queries based on various hunting scenarios that can help you explore how you might construct queries when hunting for such sophisticated threats.</span></span>
 
-## <a name="obtain-user-accounts-from-email-addresses"></a><span data-ttu-id="eff43-109">Получение учетных записей пользователей из адресов электронной почты</span><span class="sxs-lookup"><span data-stu-id="eff43-109">Obtain user accounts from email addresses</span></span>
-<span data-ttu-id="eff43-110">При формировании запросов по [таблицам, относящимся к устройствам и сообщениям электронной почты](advanced-hunting-schema-tables.md) может возникать необходимость получить названия учетных записей пользователей из электронных адресов отправителя или получателя.</span><span class="sxs-lookup"><span data-stu-id="eff43-110">When constructing queries across [tables that cover devices and emails](advanced-hunting-schema-tables.md), you will likely need to obtain user account names from sender or recipient email addresses.</span></span> <span data-ttu-id="eff43-111">Для этого используется *локальный узел* из адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="eff43-111">To do this use the *local-host* from the email address:</span></span>
+## <a name="get-entity-info"></a><span data-ttu-id="cc5c2-113">Получение сведений об объекте</span><span class="sxs-lookup"><span data-stu-id="cc5c2-113">Get entity info</span></span>
+<span data-ttu-id="cc5c2-114">Используйте эти запросы, чтобы узнать, как можно быстро получить сведения об учетных записях пользователей, устройствах и файлах.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-114">Use these queries to learn how you can quickly get information about user accounts, devices, and files.</span></span> 
+
+### <a name="obtain-user-accounts-from-email-addresses"></a><span data-ttu-id="cc5c2-115">Получение учетных записей пользователей из адресов электронной почты</span><span class="sxs-lookup"><span data-stu-id="cc5c2-115">Obtain user accounts from email addresses</span></span>
+<span data-ttu-id="cc5c2-116">При формировании запросов по [таблицам, относящимся к устройствам и сообщениям электронной почты](advanced-hunting-schema-tables.md) может возникать необходимость получить названия учетных записей пользователей из электронных адресов отправителя или получателя.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-116">When constructing queries across [tables that cover devices and emails](advanced-hunting-schema-tables.md), you will likely need to obtain user account names from sender or recipient email addresses.</span></span> <span data-ttu-id="cc5c2-117">Как правило, это можно сделать для адреса получателя или отправителя с помощью *локального узла* и адреса электронной почты.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-117">You can generally do this for either recipient or sender address using the *local-host* from the email address.</span></span>
+
+<span data-ttu-id="cc5c2-118">В приведенном ниже фрагменте мы используем функцию [ToString ()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Кусто, чтобы извлечь право локального узла перед `@` адресами электронной почты получателя в столбце `RecipientEmailAddress` .</span><span class="sxs-lookup"><span data-stu-id="cc5c2-118">In the snippet below, we use the [tostring()](https://docs.microsoft.com/azure/data-explorer/kusto/query/tostringfunction) Kusto function to extract the local-host right before the `@` from recipient email addresses in the column `RecipientEmailAddress`.</span></span>
 
 ```kusto
-AccountName = tostring(split(SenderFromAddress, "@")[0])
+//Query snippet showing how to extract the account name from an email address
+AccountName = tostring(split(RecipientEmailAddress, "@")[0])
+```
+<span data-ttu-id="cc5c2-119">В запросе ниже показано, как можно использовать этот фрагмент:</span><span class="sxs-lookup"><span data-stu-id="cc5c2-119">The query below shows how this snippet can be used:</span></span>
+
+```kusto
+EmailEvents
+| where Timestamp > ago(7d)
+| project RecipientEmailAddress, AccountName = tostring(split(RecipientEmailAddress, "@")[0]);
 ```
 
-<span data-ttu-id="eff43-112">Этот метод нормализации применяется в последующих сценариях.</span><span class="sxs-lookup"><span data-stu-id="eff43-112">This normalization technique is used in the succeeding scenarios.</span></span>
+### <a name="merge-the-identityinfo-table"></a><span data-ttu-id="cc5c2-120">Объединение таблицы Идентитинфо</span><span class="sxs-lookup"><span data-stu-id="cc5c2-120">Merge the IdentityInfo table</span></span>
 
-## <a name="hunting-scenarios"></a><span data-ttu-id="eff43-113">Сценарии выслеживания</span><span class="sxs-lookup"><span data-stu-id="eff43-113">Hunting scenarios</span></span>
+<span data-ttu-id="cc5c2-121">Вы можете получить имена учетных записей и другие сведения об учетных записях, объединив или присоединяясь к [таблице идентитинфо](advanced-hunting-identityinfo-table.md).</span><span class="sxs-lookup"><span data-stu-id="cc5c2-121">You can get account names and other account information by merging or joining the [IdentityInfo table](advanced-hunting-identityinfo-table.md).</span></span> <span data-ttu-id="cc5c2-122">В запросе ниже показано, как получить список обнаруженных вредоносных программ и вредоносных программ из [таблицы емаилевентс](advanced-hunting-emailevents-table.md) , а затем присоединяет эти сведения к `IdentityInfo` таблице для получения подробных сведений о каждом получателе.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-122">The query below obtains the list of phishing and malware detections from the [EmailEvents table](advanced-hunting-emailevents-table.md) and then joins that information with the `IdentityInfo` table to get detailed information about each recipient.</span></span> 
 
-### <a name="check-if-files-from-a-known-malicious-sender-are-on-your-devices"></a><span data-ttu-id="eff43-114">Расскажем о том, как проверить, есть ли на устройствах файлы от известного злоумышленника.</span><span class="sxs-lookup"><span data-stu-id="eff43-114">Check if files from a known malicious sender are on your devices</span></span>
-<span data-ttu-id="eff43-115">Если известен адрес электронной почты, с которого рассылаются вредоносные файлы, этот запрос можно выполнить, чтобы определить, есть ли на устройствах файлы от этого отправителя.</span><span class="sxs-lookup"><span data-stu-id="eff43-115">Assuming you know of an email address sending malicious files, you can run this query to determine if files from this sender exist on your devices.</span></span> <span data-ttu-id="eff43-116">Например, с помощью этого запроса можно определить количество устройств, которые подверглись рассылке вредоносных программ.</span><span class="sxs-lookup"><span data-stu-id="eff43-116">You can use this query, for example, to determine the number of devices affected by a malware distribution campaign.</span></span>
+>[!Tip]
+> <span data-ttu-id="cc5c2-123">В этом запросе `kind=inner` указывается [внутреннее соединение](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor), которое предотвращает дедупликацию значений левой стороны или адресов электронной почты получателей.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-123">This query uses `kind=inner` to specify an [inner-join](https://docs.microsoft.com/azure/data-explorer/kusto/query/joinoperator?pivots=azuredataexplorer#inner-join-flavor), which prevents deduplication of left side values or the recipient email addresses.</span></span>
 
 ```kusto
-//Get prevalence of files sent by a malicious sender in your organization
+EmailEvents
+| where Timestamp > ago(7d)
+//Get email processing events where the messages were identified as either phishing or malware
+| where MalwareFilterVerdict == 'Malware' or PhishFilterVerdict == 'Phish'
+//Merge email events with identity info to get recipient details
+| join (IdentityInfo | distinct AccountUpn, AccountDisplayName, JobTitle, 
+Department, City, Country) on $left.RecipientEmailAddress == $right.AccountUpn 
+//Show important message and recipient details
+| project Timestamp, NetworkMessageId, Subject, PhishFilterVerdict, MalwareFilterVerdict,
+SenderFromAddress, RecipientEmailAddress, AccountDisplayName, JobTitle, 
+Department, City, Country
+```
+
+### <a name="get-device-information"></a><span data-ttu-id="cc5c2-124">Получение сведений об устройстве</span><span class="sxs-lookup"><span data-stu-id="cc5c2-124">Get device information</span></span>
+<span data-ttu-id="cc5c2-125">[Расширенная схема](advanced-hunting-schema-tables.md) подпоиска предоставляет подробные сведения об устройствах в различных таблицах.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-125">The [advanced hunting schema](advanced-hunting-schema-tables.md) provides extensive device information in various tables.</span></span> <span data-ttu-id="cc5c2-126">Например, [Таблица девицеинфо](advanced-hunting-deviceinfo-table.md) предоставляет исчерпывающие сведения об устройствах на основе регулярно собранных данных о событиях.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-126">For example, the [DeviceInfo table](advanced-hunting-deviceinfo-table.md) provides comprehensive device information based on event data aggregated regularly.</span></span> <span data-ttu-id="cc5c2-127">В этом запросе используется `DeviceInfo` Таблица для проверки того, что потенциально скомпрометированный пользователь ( `<account-name>` ) выполнил вход на любые устройства, а затем выдает список оповещений, активированных на этих устройствах.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-127">This query uses the `DeviceInfo` table to check if a potentially compromised user (`<account-name>`) has logged on to any devices and then lists the alerts that have been triggered on those devices.</span></span>
+
+```kusto
+DeviceInfo
+//Query for devices that the potentially compromised account has logged onto
+| where LoggedOnUsers contains '<account-name>'
+| distinct DeviceId
+//Crosscheck devices against alert records in AlertEvidence and AlertInfo tables
+| join kind=inner AlertEvidence on DeviceId
+| project AlertId
+//List all alerts on devices that user has logged on to
+| join AlertInfo on AlertId
+| project AlertId, Timestamp, Title, Severity, Category 
+```
+
+## <a name="hunting-scenarios"></a><span data-ttu-id="cc5c2-128">Сценарии выслеживания</span><span class="sxs-lookup"><span data-stu-id="cc5c2-128">Hunting scenarios</span></span>
+
+### <a name="list-logon-activities-of-users-that-received-emails-that-were-not-zapped-successfully"></a><span data-ttu-id="cc5c2-129">Перечисление действий входа пользователей, которые получали сообщения электронной почты, которые не были успешно заппед</span><span class="sxs-lookup"><span data-stu-id="cc5c2-129">List logon activities of users that received emails that were not zapped successfully</span></span>
+<span data-ttu-id="cc5c2-130">[Автоматическая очистка (ZAP) с нулевым временем](../office-365-security/zero-hour-auto-purge.md) адресов после их получения.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-130">[Zero-hour auto purge (ZAP)](../office-365-security/zero-hour-auto-purge.md) addresses malicious emails after they have been received.</span></span> <span data-ttu-id="cc5c2-131">В противном случае вредоносный код может запуститься на устройстве и оставить учетные записи скомпрометированными.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-131">If ZAP fails, malicious code might eventually run on the device and leave accounts compromised.</span></span> <span data-ttu-id="cc5c2-132">Этот запрос проверяет действия входа в систему, выполняемые получателями сообщений электронной почты, которые не были успешно устранены с помощью ZAP.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-132">This query checks for logon activity made by the recipients of emails that were not successfully addressed by ZAP.</span></span>
+
+```kusto
+EmailPostDeliveryEvents 
+| where Timestamp > ago(7d)
+//List malicious emails that were not zapped successfully
+| where ActionType has "ZAP" and ActionResult == "Error"
+| project ZapTime = Timestamp, ActionType, NetworkMessageId , RecipientEmailAddress 
+//Get logon activity of recipients using RecipientEmailAddress and AccountUpn
+| join kind=inner IdentityLogonEvents on $left.RecipientEmailAddress == $right.AccountUpn
+| where Timestamp between ((ZapTime-24h) .. (ZapTime+24h))
+//Show only pertinent info, such as account name, the app or service, protocol, the target device, and type of logon
+| project ZapTime, ActionType, NetworkMessageId , RecipientEmailAddress, AccountUpn, 
+LogonTime = Timestamp, AccountDisplayName, Application, Protocol, DeviceName, LogonType
+```
+
+### <a name="get-logon-attempts-by-domain-accounts-targeted-by-credential-theft"></a><span data-ttu-id="cc5c2-133">Получение попыток входа для учетных записей домена, нацеленных на хищение учетных данных</span><span class="sxs-lookup"><span data-stu-id="cc5c2-133">Get logon attempts by domain accounts targeted by credential theft</span></span>
+<span data-ttu-id="cc5c2-134">Этот запрос сначала определяет все оповещения о доступе к учетным данным в `AlertInfo` таблице.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-134">This query first identifies all credential access alerts in the `AlertInfo` table.</span></span> <span data-ttu-id="cc5c2-135">Затем он объединяет или присоединяется к `AlertEvidence` таблице, которая анализирует имена целевых учетных записей и фильтров только для учетных записей, присоединенных к домену.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-135">It then merges or joins the `AlertEvidence` table, which it parses for the names of the targeted accounts and filters for domain-joined accounts only.</span></span> <span data-ttu-id="cc5c2-136">Наконец, он проверяет `IdentityLogonEvents` таблицу на получение всех действий входа для целевых учетных записей, присоединенных к домену.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-136">Finally, it checks the `IdentityLogonEvents` table to get all logon activities by the domain-joined targeted accounts.</span></span>
+
+```kusto
+AlertInfo
+| where Timestamp > ago(30d)
+//Get all credential access alerts
+| where Category == "CredentialAccess"
+//Get more info from AlertEvidence table to get the SID of the target accounts
+| join AlertEvidence on AlertId
+| extend IsJoined=(parse_json(AdditionalFields).Account.IsDomainJoined)
+| extend TargetAccountSid=tostring(parse_json(AdditionalFields).Account.Sid)
+//Filter for domain-joined accounts only
+| where IsJoined has "true"
+//Merge with IdentityLogonEvents to get all logon attempts by the potentially compromised target accounts
+| join kind=inner IdentityLogonEvents on $left.TargetAccountSid == $right.AccountSid
+//Show only pertinent info, such as account name, the app or service, protocol, the accessed device, and type of logon
+| project AccountDisplayName, TargetAccountSid, Application, Protocol, DeviceName, LogonType
+```
+
+### <a name="check-if-files-from-a-known-malicious-sender-are-on-your-devices"></a><span data-ttu-id="cc5c2-137">Расскажем о том, как проверить, есть ли на устройствах файлы от известного злоумышленника.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-137">Check if files from a known malicious sender are on your devices</span></span>
+<span data-ttu-id="cc5c2-138">Если вы знаете адрес электронной почты, который отправляет вредоносные файлы ( `MaliciousSender@example.com` ), вы можете выполнить этот запрос, чтобы определить, существуют ли файлы этого отправителя на ваших устройствах.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-138">Assuming you know of an email address sending malicious files (`MaliciousSender@example.com`), you can run this query to determine if files from this sender exist on your devices.</span></span> <span data-ttu-id="cc5c2-139">Этот запрос можно использовать, например, для определения устройств, на которые распространяется кампания по распространению вредоносных программ.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-139">You can use this query, for example, to identify devices affected by a malware distribution campaign.</span></span>
+
+```kusto
 EmailAttachmentInfo
 | where SenderFromAddress =~ "MaliciousSender@example.com"
+//Get emails with attachments identified by a SHA-256
 | where isnotempty(SHA256)
 | join (
+//Check devices for any activity involving the attachments
 DeviceFileEvents
 | project FileName, SHA256
 ) on SHA256
+| project Timestamp, FileName , SHA256, DeviceName, DeviceId,  NetworkMessageId, SenderFromAddress, RecipientEmailAddress
 ```
 
-### <a name="review-logon-attempts-after-receipt-of-malicious-emails"></a><span data-ttu-id="eff43-117">Проверка попыток входа после получения вредоносных сообщений электронной почты</span><span class="sxs-lookup"><span data-stu-id="eff43-117">Review logon attempts after receipt of malicious emails</span></span>
-<span data-ttu-id="eff43-118">Благодаря этому запросу обнаруживается 10 последних случаев входа, выполненных получателями сообщений электронной почты, в течение 30 минут после получения ими известных вредоносных сообщений.</span><span class="sxs-lookup"><span data-stu-id="eff43-118">This query finds the 10 latest logons performed by email recipients within 30 minutes after they received known malicious emails.</span></span> <span data-ttu-id="eff43-119">Этот запрос можно использовать, чтобы проверить, не скомпрометированы ли учетные записи получателей сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="eff43-119">You can use this query to check whether the accounts of the email recipients have been compromised.</span></span>
+### <a name="review-logon-attempts-after-receipt-of-malicious-emails"></a><span data-ttu-id="cc5c2-140">Проверка попыток входа после получения вредоносных сообщений электронной почты</span><span class="sxs-lookup"><span data-stu-id="cc5c2-140">Review logon attempts after receipt of malicious emails</span></span>
+<span data-ttu-id="cc5c2-141">Благодаря этому запросу обнаруживается 10 последних случаев входа, выполненных получателями сообщений электронной почты, в течение 30 минут после получения ими известных вредоносных сообщений.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-141">This query finds the 10 latest logons performed by email recipients within 30 minutes after they received known malicious emails.</span></span> <span data-ttu-id="cc5c2-142">Этот запрос можно использовать, чтобы проверить, не скомпрометированы ли учетные записи получателей сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-142">You can use this query to check whether the accounts of the email recipients have been compromised.</span></span>
 
 ```kusto
-//Find logons that occurred right after malicious email was received
-let MaliciousEmail=EmailEvents
-| where MalwareFilterVerdict == "Malware" 
+//Define new table for malicious emails
+let MaliciousEmails=EmailEvents
+//List emails detected as malware, getting only pertinent columns
+| where MalwareFilterVerdict == "Malware"
 | project TimeEmail = Timestamp, Subject, SenderFromAddress, AccountName = tostring(split(RecipientEmailAddress, "@")[0]);
-MaliciousEmail
+MaliciousEmails
 | join (
-DeviceLogonEvents
+//Merge malicious emails with logon events to find logons by recipients
+IdentityLogonEvents
 | project LogonTime = Timestamp, AccountName, DeviceName
 ) on AccountName 
+//Check only logons within 30 minutes of receipt of an email
 | where (LogonTime - TimeEmail) between (0min.. 30min)
 | take 10
 ```
 
-### <a name="review-powershell-activities-after-receipt-of-emails-from-known-malicious-sender"></a><span data-ttu-id="eff43-120">Проверка действий PowerShell после получения сообщений электронной почты от известного злоумышленника</span><span class="sxs-lookup"><span data-stu-id="eff43-120">Review PowerShell activities after receipt of emails from known malicious sender</span></span>
-<span data-ttu-id="eff43-121">Вредоносные сообщения часто содержат документы и другие специально изготовленные вложения, которые запускают команды PowerShell для создания дополнительных полезных данных.</span><span class="sxs-lookup"><span data-stu-id="eff43-121">Malicious emails often contain documents and other specially crafted attachments that run PowerShell commands to deliver additional payloads.</span></span> <span data-ttu-id="eff43-122">Если стало известно, что приходят сообщения от известного злоумышленника, этот запрос можно использовать для создания списка действий и проверки действий PowerShell, которые произошли в течение 30 минут после получения сообщения от этого отправителя.</span><span class="sxs-lookup"><span data-stu-id="eff43-122">If you are aware of emails coming from a known malicious sender, you can use this query to list and review PowerShell activities that occurred within 30 minutes after an email was received from the sender .</span></span>  
+### <a name="review-powershell-activities-after-receipt-of-emails-from-known-malicious-sender"></a><span data-ttu-id="cc5c2-143">Проверка действий PowerShell после получения сообщений электронной почты от известного злоумышленника</span><span class="sxs-lookup"><span data-stu-id="cc5c2-143">Review PowerShell activities after receipt of emails from known malicious sender</span></span>
+<span data-ttu-id="cc5c2-144">Вредоносные сообщения часто содержат документы и другие специально изготовленные вложения, которые запускают команды PowerShell для создания дополнительных полезных данных.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-144">Malicious emails often contain documents and other specially crafted attachments that run PowerShell commands to deliver additional payloads.</span></span> <span data-ttu-id="cc5c2-145">Если вы осведомлены о сообщениях, поступающих от известных вредоносных отправителей ( `MaliciousSender@example.com` ), вы можете использовать этот запрос для просмотра и просмотра действий PowerShell, которые произошли в течение 30 минут после получения сообщения от отправителя.</span><span class="sxs-lookup"><span data-stu-id="cc5c2-145">If you are aware of emails coming from a known malicious sender (`MaliciousSender@example.com`), you can use this query to list and review PowerShell activities that occurred within 30 minutes after an email was received from the sender.</span></span>  
 
 ```kusto
-//Find PowerShell activities right after email was received from malicious sender
-let x=EmailEvents
+//Define new table for emails from specific sender
+let EmailsFromBadSender=EmailEvents
 | where SenderFromAddress =~ "MaliciousSender@example.com"
 | project TimeEmail = Timestamp, Subject, SenderFromAddress, AccountName = tostring(split(RecipientEmailAddress, "@")[0]);
-x
+//Merge emails from sender with process-related events on devices
+EmailsFromBadSender
 | join (
 DeviceProcessEvents
+//Look for PowerShell activity
 | where FileName =~ "powershell.exe"
+//Add line below to check only events initiated by Outlook
 //| where InitiatingProcessParentFileName =~ "outlook.exe"
 | project TimeProc = Timestamp, AccountName, DeviceName, InitiatingProcessParentFileName, InitiatingProcessFileName, FileName, ProcessCommandLine
 ) on AccountName 
+//Check only PowerShell activities within 30 minutes of receipt of an email
 | where (TimeProc - TimeEmail) between (0min.. 30min)
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="eff43-123">См. также</span><span class="sxs-lookup"><span data-stu-id="eff43-123">Related topics</span></span>
-- [<span data-ttu-id="eff43-124">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="eff43-124">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
-- [<span data-ttu-id="eff43-125">Изучение языка запросов</span><span class="sxs-lookup"><span data-stu-id="eff43-125">Learn the query language</span></span>](advanced-hunting-query-language.md)
-- [<span data-ttu-id="eff43-126">Работа с результатами запросов</span><span class="sxs-lookup"><span data-stu-id="eff43-126">Work with query results</span></span>](advanced-hunting-query-results.md)
-- [<span data-ttu-id="eff43-127">Использование общих запросов</span><span class="sxs-lookup"><span data-stu-id="eff43-127">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
-- [<span data-ttu-id="eff43-128">Сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="eff43-128">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
-- [<span data-ttu-id="eff43-129">Рекомендации по применению запросов</span><span class="sxs-lookup"><span data-stu-id="eff43-129">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
+## <a name="related-topics"></a><span data-ttu-id="cc5c2-146">Связанные статьи</span><span class="sxs-lookup"><span data-stu-id="cc5c2-146">Related topics</span></span>
+- [<span data-ttu-id="cc5c2-147">Обзор расширенной охоты на угрозы</span><span class="sxs-lookup"><span data-stu-id="cc5c2-147">Advanced hunting overview</span></span>](advanced-hunting-overview.md)
+- [<span data-ttu-id="cc5c2-148">Изучение языка запросов</span><span class="sxs-lookup"><span data-stu-id="cc5c2-148">Learn the query language</span></span>](advanced-hunting-query-language.md)
+- [<span data-ttu-id="cc5c2-149">Работа с результатами запросов</span><span class="sxs-lookup"><span data-stu-id="cc5c2-149">Work with query results</span></span>](advanced-hunting-query-results.md)
+- [<span data-ttu-id="cc5c2-150">Использование общих запросов</span><span class="sxs-lookup"><span data-stu-id="cc5c2-150">Use shared queries</span></span>](advanced-hunting-shared-queries.md)
+- [<span data-ttu-id="cc5c2-151">Сведения о схеме</span><span class="sxs-lookup"><span data-stu-id="cc5c2-151">Understand the schema</span></span>](advanced-hunting-schema-tables.md)
+- [<span data-ttu-id="cc5c2-152">Рекомендации по применению запросов</span><span class="sxs-lookup"><span data-stu-id="cc5c2-152">Apply query best practices</span></span>](advanced-hunting-best-practices.md)
