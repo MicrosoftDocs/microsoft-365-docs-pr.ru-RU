@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как использовать технологию DomainKeys Identified Mail (DKIM) для Microsoft 365, чтобы обеспечить доверие конечных почтовых систем к сообщениям, отправленным из вашего личного домена.
-ms.openlocfilehash: 4ec5f7c8779e9d6b6709c8fc3311ec9c0e99b680
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 36e62600836c66b9e7be61ddd07a6081af4ffbeb
+ms.sourcegitcommit: 9489aaf255f8bf165e6debc574e20548ad82e882
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754848"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46632167"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>Используйте DKIM для проверки исходящей электронной почты, отправленной с вашего пользовательского домена
 
@@ -331,6 +331,16 @@ Return-Path: <communication@bulkemailprovider.com>
    > sender@**contoso.com**
 
    > d=**contoso.com**
+   
+## <a name="identify-domains-that-do-not-send-email"></a>Идентификация доменов, с которых не отправляется почта
+
+Организациям следует явно указать, отправляется ли почта с домена, с помощью `v=DKIM1; p=` в записи DKIM для этих доменов. При этом почтовым серверам получателя сообщается об отсутствии допустимых открытых ключей для этого домена и необходимости отклонить любое сообщение из него. Это нужно сделать для каждого домена и поддомена, использующего DKIM.
+
+Например, запись DKIM может выглядеть следующим образом:
+
+```console
+*._domainkey.SubDomainThatShouldntSendMail.contoso.com. TXT "v=DKIM1; p="
+```
 
 ## <a name="next-steps-after-you-set-up-dkim-for-microsoft-365"></a>Следующие шаги: после настройки DKIM для Microsoft 365
 <a name="DKIMNextSteps"> </a>
