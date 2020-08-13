@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: ee256271b3520011db586d42e579b64b439a6210
-ms.sourcegitcommit: b812771805c8b9e92b64deb1928e265e60d80405
+ms.openlocfilehash: ff99e61c82f0427d79d8aca99acc82a338f79b8a
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588211"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649156"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -124,6 +124,8 @@ ms.locfileid: "46588211"
   
 > [!IMPORTANT]
 > Прежде чем заблокировать политику хранения, важно осознать последствия этого действия и выяснить, требуется ли вашей организации соответствовать требованиям регулирующих органов. Администраторы не смогут отключить или удалить политику хранения после применения ее блокировки.
+
+Блокировка для сохранения применяется с помощью PowerShell после создания политики хранения. Инструкции см. в статье [Создание и настройка политик хранения](create-retention-policies.md).
 
 #### <a name="releasing-a-retention-policy"></a>Отключение политики хранения
 
