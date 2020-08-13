@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы могут научиться настраивать фильтрацию подключений в Exchange Online Protection (EOP), чтобы разрешить или заблокировать сообщения с почтовых серверов.
-ms.openlocfilehash: e0cb5161ac33333a0f8cd5f897b4a0a85315c12e
-ms.sourcegitcommit: 2acd9ec5e9d150389975e854c7883efc186a9432
+ms.openlocfilehash: 675247ba1764cb928bec967c581083c6365f635a
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755252"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656795"
 ---
 # <a name="configure-connection-filtering"></a>Настройка фильтрации подключений
 
@@ -46,17 +46,17 @@ ms.locfileid: "44755252"
 
 - Сведения о том, как подключиться к Exchange Online PowerShell, см. в статье [Подключение к Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell). Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
-- Прежде чем выполнять процедуры, описанные в этом разделе, необходимо назначить разрешения.
+- Чтобы вы могли выполнить процедуры, упомянутые в этой теме, вам должны быть назначены соответствующие разрешения.
 
   - Чтобы изменить политику фильтра подключений по умолчанию, необходимо быть участником одной из следующих групп ролей:
 
-    - **Управление организацией** или **администратор безопасности** в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией** или **Администратор безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
     - **Управление организацией** или **Управление санацией** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
   - Для доступа только для чтения к политике фильтра подключений по умолчанию необходимо быть членом одной из следующих групп ролей:
 
-    - **Средство чтения безопасности** в [центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
-    - **Управление организацией только с просмотром** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
+    - **Средство считывания сведений о безопасности** в [Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
+    - **Управление организацией с правами только на просмотр** в [Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/permissions-exo#role-groups).
 
 - Чтобы найти исходные IP-адреса почтовых серверов (отправителей), которые вы хотите разрешить или заблокировать, вы можете проверить поле подключения IP-заголовка (**CIP**) в заголовке сообщения. Чтобы просмотреть заголовок сообщения в различных почтовых клиентах, ознакомьтесь со статьей [Просмотр заголовков сообщений Интернета в Outlook](https://support.microsoft.com/office/cd039382-dc6e-4264-ac74-c048563d212c).
 
@@ -82,15 +82,15 @@ ms.locfileid: "44755252"
 
      - IP-адрес CIDR: например, 192.168.0.1/25. Допустимые значения маски сети — от/24 до/32. Чтобы пропустить фильтрацию нежелательной почты для IP-масок CIDR/1 —/23, ознакомьтесь с разделом [пропускать фильтрацию нежелательной почты для IP-адреса CIDR за пределами раздела доступный диапазон](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) .
 
-     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в поле **разрешенный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . По завершении нажмите кнопку **Сохранить**.
+     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в поле **разрешенный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
    - **Список заблокированных IP-адресов**: нажмите кнопку **изменить**. В появившемся всплывающем меню **списка заблокированных IP-** адресов введите один IP-адрес, диапазон IP-адресов или IP-адрес CIDR в поле **адрес или диапазон адресов** , как описано в параметрах **белого списка IP-** адресов.
 
-     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в разделе **заблокированный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . По завершении нажмите кнопку **Сохранить**.
+     Чтобы добавить IP-адрес или диапазон адресов, нажмите кнопку **Добавить** ![ значок ](../../media/ITPro-EAC-AddIcon.png) . Чтобы удалить запись, выберите запись в разделе **заблокированный IP-адрес** , а затем нажмите кнопку **Удалить** ![ Удаление ](../../media/scc-remove-icon.png) . Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
    - **Включить список надежных**отправителей: Включение и отключение использования списка надежных отправителей, которые пропускают фильтрацию нежелательной почты.
 
-4. По завершении нажмите кнопку **Сохранить**.
+4. Выполнив необходимые действия, нажмите кнопку **Сохранить**.
 
 ## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>Использование центра безопасности & соответствия требованиям для просмотра политики фильтра подключений по умолчанию
 
@@ -102,13 +102,13 @@ ms.locfileid: "44755252"
 
 ## <a name="use-exchange-online-powershell-or-standalone-eop-powershell-to-modify-the-default-connection-filter-policy"></a>Изменение политики фильтра подключений по умолчанию с помощью Exchange Online PowerShell или изолированной EOP PowerShell
 
-Используйте следующий синтаксис:
+Используйте указанный ниже синтаксис.
 
 ```powershell
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**Примечания**:
+**Примечания**.
 
 - Допустимые значения IP-адреса или диапазона адресов:
 
@@ -138,7 +138,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 Подробные сведения о синтаксисе и параметрах можно найти в статье [Set – hostedconnectionfilterpolicy используется](https://docs.microsoft.com/powershell/module/exchange/set-hostedconnectionfilterpolicy).
 
-## <a name="how-do-you-know-this-worked"></a>Как убедиться, что все получилось?
+## <a name="how-do-you-know-this-worked"></a>Как проверить, все ли получилось?
 
 Чтобы убедиться, что политика фильтра подключений по умолчанию успешно изменена, выполните одно из указанных ниже действий.
 
@@ -200,6 +200,7 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 ## <a name="new-to-microsoft-365"></a>Новая возможность для Microsoft 365?
 
-||
-|:-----|
+|<!-- a -->|
+|---|
 |![Короткий значок LinkedIn Learning ](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **, впервые появился в Microsoft 365?** Бесплатные видеокурсы для **администраторов и**ИТ-специалистов, предоставляемые программой LinkedIn Learning.|
+|

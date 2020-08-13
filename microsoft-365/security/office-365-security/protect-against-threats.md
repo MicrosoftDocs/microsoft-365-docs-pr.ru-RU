@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о защите от угроз в Microsoft 365 и настроить способ ее использования в Организации.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 54500500095392ebfc3d93080701fa4715fc8448
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 8c2786ebda18b5730e1cbe93316f0d6cc319f6a9
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617400"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656636"
 ---
 # <a name="protect-against-threats"></a>Защита от угроз
 
@@ -32,15 +32,16 @@ Microsoft 365 включает различные функции защиты о
 > [!IMPORTANT]
 > **Начальные Рекомендуемые параметры включены для каждого типа политики, но многие варианты доступны, и вы можете настроить параметры в соответствии с потребностями конкретной организации**. Разрешите около 30 минут, чтобы политики или изменения работали с центром обработки данных.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
 ### <a name="subscriptions"></a>Подписки
 
-Функции защиты от угроз включены во все подписки Microsoft 365; Однако некоторые подписки включают более сложные функции. В следующей таблице перечислены функции защиты, включенные в эту статью, с минимальными требованиями к подписке.<br/>
+Функции защиты от угроз включены во все подписки Microsoft 365; Однако некоторые подписки включают более сложные функции. В следующей таблице перечислены функции защиты, включенные в эту статью, с минимальными требованиями к подписке.
 
-|||
+****
+
+|Тип защиты|Требование к подписке|
 |---|---|
-|**Тип защиты**|**Требование к подписке**|
 |Защита от вредоносных программ|[Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description) (EOP)|
 |Защита от вредоносных URL-адресов и файлов в электронной почте и документах Office|[Office 365 Advanced Threat protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) (ATP)|
 |Защита от фишинга|[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)|
@@ -54,8 +55,10 @@ Microsoft 365 включает различные функции защиты о
 
 Необходимо назначить соответствующую роль для настройки политик в [центре безопасности & соответствия требованиям](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). В таблице приведено несколько примеров.
 
+****
+
 |Роль или группа ролей|Дополнительные сведения|
-|---------|---------|
+|---|---|
 |Глобальный администратор|[О ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
 |Администратор безопасности|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Управление организациями в Exchange Online|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>и<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
@@ -77,7 +80,7 @@ Microsoft 365 включает различные функции защиты о
 
     - В разделе **фильтр типов вложений** выберите **включено**.
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
 Дополнительные сведения о параметрах политики защиты от вредоносных программ приведены в разделе [Настройка политик защиты от вредоносных](configure-anti-malware-policies.md)программ.
 
@@ -105,7 +108,7 @@ Microsoft 365 включает различные функции защиты о
 
    - В разделе **применено** выберите **домен получателя**. Затем выберите свой домен, нажмите кнопку **Добавить**, а затем нажмите кнопку **ОК**.
 
-5. Нажмите кнопку **Сохранить**.
+5. Щелкните **Сохранить**.
 
 6. (**Рекомендуемое дополнительное действие**) Как глобальный администратор или администратор SharePoint Online выполните командлет **[Set-SPOTenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** с параметром **дисалловинфектедфиледовнлоад** , для которого задано *значение true* для среды Microsoft 365. (Это предотвращает открытие, перемещение, копирование или совместное использование файлов, обнаруженных как вредоносные.)
 
@@ -139,7 +142,7 @@ Microsoft 365 включает различные функции защиты о
 
    - В разделе **применено** выберите **домен получателя**. Затем выберите свой домен, нажмите кнопку **Добавить**, а затем нажмите кнопку **ОК**.
 
-6. Нажмите кнопку **Сохранить**.
+6. Щелкните **Сохранить**.
 
 Дополнительные сведения см. в статье [Настройка политик безопасных ссылок ATP в Office 365](set-up-atp-safe-links-policies.md).
 
@@ -195,7 +198,7 @@ Microsoft 365 включает различные функции защиты о
 
    - В разделе **разрешить списки** просмотрите (и при необходимости измените) разрешенных отправителей и доменов.
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
 Дополнительные сведения о параметрах политики защиты от нежелательной почты приведены [в разделе Настройка политик защиты от нежелательной почты в EOP](configure-your-spam-filter-policies.md).
 
@@ -221,9 +224,10 @@ Microsoft 365 включает различные функции защиты о
 
 После того как вы настроили функции защиты от угроз, следите за тем, как работают эти функции, изучите и измените свои политики, а также следите за новыми функциями и обновлениями служб.
 
-|||
+****
+
+|Действия|Дополнительные ресурсы|
 |---|---|
-|**Действия**|**Дополнительные ресурсы**|
 |Узнайте, как функции защиты от угроз работают в вашей организации, просмотрев отчеты|[Панель мониторинга безопасности](security-dashboard.md)<br/>[Отчеты по безопасности электронной почты](view-email-security-reports.md)<br/>[Отчеты для Office 365 ATP](view-reports-for-atp.md)<br/>[Обозреватель угроз](threat-explorer.md)|
 |При необходимости периодически проверяйте и изменяйте политики защиты от угроз.|[Оценка безопасности](../mtp/microsoft-secure-score.md)<br/>[Интеллектуальные отчеты и аналитика](reports-and-insights-in-security-and-compliance.md)<br/>[Исследование угроз и функции ответа Microsoft 365](keep-users-safe-with-office-365-ti.md)|
 |Просмотр новых компонентов и обновлений служб|[Варианты стандартных и целевых выпусков](https://docs.microsoft.com/microsoft-365/admin/manage/release-options-in-office-365)<br/>[Центр сообщений](https://docs.microsoft.com/microsoft-365/admin/manage/message-center)<br/>[План выпуска Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[Описания служб](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|

@@ -19,19 +19,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 837232550ca392a364b9842f64a1c3f0d790a502
-ms.sourcegitcommit: 33be6075fcc89d4c0a48fa7e59f3b3ebc605d9f3
+ms.openlocfilehash: 826d8561ba0c9618f21458493416b7dbd75af9e1
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44520162"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656865"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>Составление отчетов о ложных положительных и отрицательных значениях при автоматическом расследовании и возможностях реагирования
 
 **Область применения:**
 - Office 365 Advanced Threat Protection
 
-Были ли [автоматизированные функции расследования и реагирования (AIR) в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) пропустили или ошибочно обнаружить что-то? Чтобы устранить эту проблему, выполните указанные ниже действия. Варианты действий:
+Были ли [автоматизированные функции расследования и реагирования (AIR) в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office) пропустили или ошибочно обнаружить что-то? Чтобы устранить эту проблему, выполните указанные ниже действия. Вы можете выполнить указанные ниже действия.
 - [Сообщить о ложных положительных и отрицательных значениях корпорации Майкрософт](#report-a-false-positivenegative-to-microsoft-for-analysis);
 - [Настройте оповещения](#adjust-an-alert-to-prevent-false-positives-from-recurring) (при необходимости); с 
 - [Отмена выполненных действий по исправлению](#undo-a-remediation-action). 
@@ -61,11 +61,13 @@ ms.locfileid: "44520162"
 
 В обозревателе угроз группа "операции безопасности" может найти сообщение электронной почты, затронутое действием, и, возможно, отменить действие.
 
-|Сценарий  |Параметры отмены  |Подробнее |
-|---------|---------|---------|
-|Сообщение электронной почты было перенаправлено в папку нежелательной почты пользователя     |— Переместить сообщение в папку "Удаленные" пользователя.<br/>— Переместить сообщение в папку "Входящие" пользователя <br/>— Удалить сообщение.          |[Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered) |
-|Сообщение электронной почты или файл помещено в карантин     |— Освободите электронную почту или файл. <br/>— Удаление электронной почты или файла         |[Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files) |
+****
 
+|Сценарий|Параметры отмены|Дополнительные сведения|
+|---|---|---|
+|Сообщение электронной почты было перенаправлено в папку нежелательной почты пользователя|— Переместить сообщение в папку "Удаленные" пользователя.<br/>— Переместить сообщение в папку "Входящие" пользователя <br/>— Удалить сообщение.|[Поиск и исследование вредоносных сообщений электронной почты, которые были доставлены в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered)|
+|Сообщение электронной почты или файл помещено в карантин|— Освободите электронную почту или файл. <br/>— Удаление электронной почты или файла|[Управление сообщениями, помещенными в карантин, и файлами в качестве администратора в Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files)|
+|
 
 ### <a name="undo-an-action-using-the-actions-tab-for-an-investigation"></a>Отмена действия с помощью вкладки "действия" для исследования
 
@@ -83,7 +85,7 @@ ms.locfileid: "44520162"
 
 6. Чтобы отменить действие, выберите **Удалить исправление**.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)
 

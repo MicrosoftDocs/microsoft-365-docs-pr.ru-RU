@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Сведения о расследовании угроз и возможностях реагирования в плане Office 365 Advanced Threat Protection Plan.
-ms.openlocfilehash: 61b08dc2b77c874e255547b2bcaef596ee017bf4
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: 6c009a756b30d4b35159b98b145b19b72c9ab541
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44033942"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656675"
 ---
 # <a name="threat-investigation-and-response"></a>Анализ угроз и реагирование на них
 
@@ -41,7 +41,7 @@ ms.locfileid: "44033942"
 Средство расследования угроз и возможности реагирования в центре безопасности & соответствия требованиям в виде набора средств и рабочих процессов ответа, в том числе следующих:
 
 - [Панель мониторинга угроз](#threat-dashboard)
-- [Explorer](#threat-explorer)
+- [Обозреватель](#threat-explorer)
 - [Инциденты](#incidents)
 - [Эмулятор атак](#attack-simulator)
 - [Автоматизированный анализ угроз и реакция на угрозы](automated-investigation-response-office.md)
@@ -52,7 +52,7 @@ ms.locfileid: "44033942"
   
 ![Панель мониторинга угроз](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
-Чтобы просмотреть и использовать эту панель мониторинга, в центре &amp; безопасности и соответствия требованиям перейдите на \> **панель мониторинга** **управления угрозами** .
+Чтобы просмотреть и использовать эту панель мониторинга, в центре безопасности и &amp; соответствия требованиям перейдите на панель мониторинга **управления угрозами** \> **Dashboard**.
   
 ### <a name="threat-explorer"></a>Обозреватель угроз
 
@@ -60,7 +60,7 @@ ms.locfileid: "44033942"
 
 ![Обозреватель угроз](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
   
-Чтобы просмотреть и использовать этот отчет, в центре безопасности &amp; и соответствия требованиям перейдите в раздел \> **Обозреватель** **управления угрозами** .
+Чтобы просмотреть и использовать этот отчет, в центре безопасности &amp; и соответствия требованиям перейдите в раздел Обозреватель **управления угрозами** \> **Explorer**.
   
 ### <a name="incidents"></a>Инциденты
 
@@ -68,9 +68,9 @@ ms.locfileid: "44033942"
 
 ![Список текущих инцидентов угроз в Office 365](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
 
-Чтобы просмотреть список текущих инцидентов в Организации, в центре безопасности & соответствия требованиям перейдите к **инцидентам** \> **проверки** \> **управления угрозами** .
+Чтобы просмотреть список текущих инцидентов в Организации, в центре безопасности & соответствия требованиям перейдите к **Threat management** \> **Review** \> **инцидентам**проверки управления угрозами.
 
-![В центре безопасности & соответствия требованиям выберите Обзор управления \> угрозами](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![В центре безопасности & соответствия требованиям выберите Обзор управления угрозами \>](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulator"></a>Эмулятор атак
 
@@ -96,19 +96,22 @@ Office 365 Advanced Threat protection использует управление 
 
 > [!TIP]
 > Несмотря на то, что некоторые роли, например администратор безопасности, могут быть назначены в центре безопасности & соответствия требованиям, рекомендуется использовать вместо центра администрирования Microsoft 365 или Azure Active Directory. Сведения о ролях, группах ролей и разрешениях можно найти в следующих ресурсах:
-> - [Разрешения в центре безопасности &amp; и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
+>
+> - [Разрешения в центре безопасности и &amp; соответствия требованиям](permissions-in-the-security-and-compliance-center.md)
+>
 > - [Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
+****
 
-|Действие |Роли и разрешения |  
-|:-----|:-----|
-|Использование панели мониторинга угроз (или новой [панели мониторинга безопасности](security-dashboard.md))<br/> <br/>Просмотр сведений о последних и текущих угрозах  <br/> |Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** <br/>- **Средство чтения безопасности** <br/> <br/>Эти роли можно назначить в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или в центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)). |
-|Использование [обозревателя угроз (и обнаружения в реальном времени)](threat-explorer.md) для анализа угроз  <br/> |Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** <br/>- **Средство чтения безопасности** <br/> <br/>Эти роли можно назначить в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или в центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)). |
-|Просмотр инцидентов (также называемых исследованиями) <br/> Добавление сообщений электронной почты в инцидент  <br/> |Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** <br/>- **Средство чтения безопасности** <br/> <br/>Эти роли можно назначить в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или в центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)).  |
-|Запуск действий электронной почты в инциденте <br/> <br/> Поиск и удаление подозрительных сообщений электронной почты  <br/> |Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** , а также роль **поиска и очистки**<br/><br/>Роли **глобального администратора** и **администратора безопасности** можно назначить в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)). <br/><br/>Роль **поиска и очистки** должна быть назначена в центре безопасности & соответствия требованиям ([https://protection.office.com](https://protection.office.com)). |
-|Интеграция Office 365 Advanced Threat Protection Plan 2 с Advanced Threat Protection в защитнике Microsoft  <br/><br/> Интеграция Office 365 Advanced Threat Protection Plan 2 с сервером SIEM  <br/> |Либо **глобальный администратор** , либо роль **администратора безопасности** , назначенная в Azure Active Directory ([https://portal.azure.com](https://portal.azure.com)) или центре администрирования Microsoft 365 ([https://admin.microsoft.com](https://admin.microsoft.com)).<br/>--- **плюс** ---<br/>Соответствующая роль, назначенная в дополнительных приложениях (например, в [центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) или на сервере SIEM).  |
-   
-    
+|Действие|Роли и разрешения|
+|---|---|
+|Использование панели мониторинга угроз (или новой [панели мониторинга безопасности](security-dashboard.md))<br/> <br/>Просмотр сведений о последних и текущих угрозах|Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** <br/>- **Средство чтения безопасности** <br/> <br/>Эти роли можно назначить в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или в центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
+|Использование [обозревателя угроз (и обнаружения в реальном времени)](threat-explorer.md) для анализа угроз|Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** <br/>- **Средство чтения безопасности** <br/> <br/>Эти роли можно назначить в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или в центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
+|Просмотр инцидентов (также называемых исследованиями) <br/> Добавление сообщений электронной почты в инцидент|Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** <br/>- **Средство чтения безопасности** <br/> <br/>Эти роли можно назначить в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или в центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).|
+|Запуск действий электронной почты в инциденте <br/> <br/> Поиск и удаление подозрительных сообщений электронной почты|Один из следующих продуктов: <br/>- **Глобальный администратор**  <br/> - **Администратор безопасности** , а также роль **поиска и очистки**<br/><br/>Роли **глобального администратора** и **администратора безопасности** можно назначить в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ). <br/><br/>Роль **поиска и очистки** должна быть назначена в центре безопасности & соответствия требованиям ( [https://protection.office.com](https://protection.office.com) ).|
+|Интеграция Office 365 Advanced Threat Protection Plan 2 с Advanced Threat Protection в защитнике Microsoft  <br/><br/> Интеграция Office 365 Advanced Threat Protection Plan 2 с сервером SIEM|Либо **глобальный администратор** , либо роль **администратора безопасности** , назначенная в Azure Active Directory ( [https://portal.azure.com](https://portal.azure.com) ) или центре администрирования Microsoft 365 ( [https://admin.microsoft.com](https://admin.microsoft.com) ).<br/>--- **плюс** ---<br/>Соответствующая роль, назначенная в дополнительных приложениях (например, в [центре безопасности защитника Майкрософт](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/user-roles) или на сервере SIEM).|
+|
+
 ## <a name="next-steps"></a>Дальнейшие действия
 
 - [Сведения о средствах отслеживания угроз — новые и полезные](threat-trackers.md)

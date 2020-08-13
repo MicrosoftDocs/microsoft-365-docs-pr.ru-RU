@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0a7ac5a68bcdb12b3cdcd94cac8012c7807a6e2b
-ms.sourcegitcommit: f6840dfcfdbcadc53cda591fd6cf9ddcb749d303
+ms.openlocfilehash: 70b687a185538b11cf0a8975eebf2a5d8b53ec11
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44327994"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648957"
 ---
 # <a name="devicetvmsoftwareinventoryvulnerabilities"></a>DeviceTvmSoftwareInventoryVulnerabilities
 
@@ -55,7 +55,7 @@ ms.locfileid: "44327994"
 - [Заблаговременный поиск угроз](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
 - [Обзор контроля угроз и уязвимостей](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/next-gen-threat-and-vuln-mgt)

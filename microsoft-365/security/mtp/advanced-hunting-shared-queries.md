@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 38eb3c39c5473d0a729b12771b61e965dbc81931
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: d9dcd07a4fc63130d015bf31270d1de9212f9a53
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929484"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649191"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>Использование общих запросов в расширенной охоте
 
@@ -59,16 +59,19 @@ ms.locfileid: "42929484"
 
 2. Нажмите кнопку **Удалить** и подтвердите удаление. Или нажмите кнопку **Переименовать** и введите новое имя запроса.
 
+## <a name="create-a-direct-link-to-a-query"></a>Создание прямой ссылки на запрос
+Чтобы создать ссылку, которая открывает запрос непосредственно в редакторе расширенных запросов поиска, завершите запрос и выберите команду **Share Link**.
+
 ## <a name="access-queries-in-the-github-repository"></a>Доступ к запросам в репозитории GitHub  
-Исследователи безопасности Майкрософт часто делятся запросами расширенной охоты в [специальном общедоступном репозитории в GitHub](https://github.com/microsoft/MTP-AHQ). Этот репозиторий открыт для участия. Чтобы внести свой вклад, [бесплатно присоединяйтесь к GitHub](https://github.com/).
+Исследователи безопасности Майкрософт часто делятся запросами расширенной охоты в [специальном общедоступном репозитории в GitHub](https://aka.ms/hunting-queries). Этот репозиторий открыт для участия. Чтобы внести свой вклад, [бесплатно присоединяйтесь к GitHub](https://github.com/).
 
 >[!tip]
 >Исследователи безопасности Майкрософт также предоставляют запросы расширенной охоты, которые можно использовать для обнаружения действий и индикаторов, связанных с возникающими угрозами. Эти запросы предоставляются в рамках отчетов [аналитики угроз](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) в Центре безопасности в Microsoft Defender.
 
 ## <a name="related-topics"></a>См. также
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
-- [Сведения о языке запросов](advanced-hunting-query-language.md)
-- [Работать с результатами запроса](advanced-hunting-query-results.md)
-- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Изучение языка запросов](advanced-hunting-query-language.md)
+- [Работа с результатами запросов](advanced-hunting-query-results.md)
+- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

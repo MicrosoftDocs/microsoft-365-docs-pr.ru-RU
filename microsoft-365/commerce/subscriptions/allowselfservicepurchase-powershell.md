@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: mnirkhe
+manager: scotv
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Узнайте, как использовать командлет PowerShell Алловселфсервицепурчасе для включения или отключения самостоятельной покупки.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b35b62a97f8dc269be5db232e163391a8ce50658
-ms.sourcegitcommit: 41eb898143286755cd36df9f7e769de641263d73
+ms.openlocfilehash: 79ee2d96fa1ae6f49f0402f49ddec34e69257082
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45391546"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653717"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>Использование Алловселфсервицепурчасе для модуля PowerShell Мскоммерце
 
@@ -92,6 +92,10 @@ Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase
 | Power Apps для каждого пользователя | CFQ7TTC0KP0P |
 | Автоматизация управления питанием на пользователя | CFQ7TTC0KP0N |
 | Power BI Pro | CFQ7TTC0L3PB |
+| План проекта 1 | CFQ7TTC0KXND |
+| План проекта 3 | CFQ7TTC0KXNC |
+| План Visio 1 | CFQ7TTC0KXN9 |
+| Visio (план 2) | CFQ7TTC0KXN8 |
 
 ## <a name="view-or-set-the-status-for-allowselfservicepurchase"></a>Просмотр или установка состояния Алловселфсервицепурчасе
 
@@ -128,7 +132,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 ## <a name="troubleshooting"></a>Устранение неполадок
 
-**Проблема**
+### <a name="problem"></a>Проблема
 
 Отображается следующее сообщение об ошибке:
 
@@ -136,7 +140,7 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $pr
 
 Это может быть вызвано более старой версией протокола TLS. Чтобы подключить эту службу, необходимо использовать протокол TLS 1,2 или более поздней версии
 
-**Решение**
+### <a name="solution"></a>Решение
 
 Обновление до TLS 1,2:[https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2)
 

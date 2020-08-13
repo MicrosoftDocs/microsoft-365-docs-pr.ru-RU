@@ -17,12 +17,12 @@ ms.custom:
 - SIEM
 - seo-marvel-apr2020
 description: Обзор сведений о безопасности и службах управления событиями (SIEM) для интеграции с облачными службами и приложениями Microsoft 365
-ms.openlocfilehash: c52f24c6260c890b1f6d8612efacb78f9b08be86
-ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
+ms.openlocfilehash: d2be5e0127adf25b3884e3717caccf60d4db1d28
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44035264"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653580"
 ---
 # <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Интеграция серверов и управления событиями (SIEM) с помощью служб и приложений Microsoft 365
 
@@ -45,9 +45,10 @@ ms.locfileid: "44035264"
 
 Сервер SIEM может получать данные из разнообразных служб и приложений Microsoft 365. В приведенной ниже таблице перечислены некоторые приложения и службы Microsoft 365, а также входные данные и ресурсы сервера SIEM для получения дополнительных сведений.
 
-||||
+****
+
+|Служба или приложение Microsoft 365|Входные данные и методы сервера SIEM|Дополнительные ресурсы|
 |---|---|---|
-|**Служба или приложение Microsoft 365**|**Входные данные и методы сервера SIEM**|**Дополнительные ресурсы**|
 |[Office 365 Advanced Threat Protection](office-365-atp.md)|Журналы аудита|[Интеграция SIEM с Office 365 Advanced Threat protection](siem-integration-with-office-365-ti.md)|
 |[Advanced Threat Protection в Microsoft Defender](https://docs.microsoft.com/windows/security/threat-protection/)|Конечная точка HTTPS, размещенная в Azure <br/>REST API|[Получение оповещений о средствах SIEM](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem)|
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)|Интеграция журналов|[Интеграция SIEM с Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/siem)|

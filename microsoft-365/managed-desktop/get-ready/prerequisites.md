@@ -9,12 +9,12 @@ ms.collection: M365-modern-desktop
 ms.author: jaimeo
 manager: laurawi
 ms.topic: article
-ms.openlocfilehash: c958101e1f3268c706c27df6fc9e21e9914b3f46
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: 041e7dc89ddd42326ce0a5040364306e26fd2413
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530287"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653393"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Предварительные условия для компьютеров, управляемых Майкрософт
 
@@ -48,7 +48,7 @@ Microsoft 365 | Служба OneDrive для бизнеса должна быт
 
 |Вариант лицензирования |Доступно в *любом* из этих лицензионных продуктов |Использование рабочего стола с управляемыми Майкрософт|
 |-------------|-------------|-------------|
-|Azure Active Directory Premium P1     |— Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Enterprise Mobility + Security/Security<br>— Enterprise Mobility + Security E3<br>— Azure Active Directory Premium P1|  Предоставляет доступ к облачным службам Майкрософт; разрешает автопилоту регистрировать устройства      |
+|Azure Active Directory Premium P2     |— Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Enterprise Mobility + Security/Security<br>— Enterprise Mobility + Security E3<br>— Azure Active Directory Premium P2|  Предоставляет доступ к облачным службам Майкрософт; разрешает автопилоту регистрировать устройства      |
 |Microsoft Intune | — Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Enterprise Mobility + Security/Security<br>— Enterprise Mobility + Security E3<br>— Microsoft Intune  |  Необходимые для регистрации устройств, развертывания обновлений и управления устройствами       |
 |Windows 10 Корпоративная  |— Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Windows 10 Корпоративная E3<br>— Windows 10 Корпоративная ~ | Функции корпоративного выпуска Windows 10       |
 |Advanced Threat Protection в Microsoft Defender | — Microsoft 365<br>— Microsoft 365 E3 + *microsoft 365,* надстройка для обеспечения безопасности<br>— Windows 10 Корпоративная ~<br>— Advanced Threat Protection в защитнике Майкрософт   |  Обеспечивает обнаружение, мониторинг, оповещение и реагирование на угрозы  |

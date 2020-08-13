@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0cb275584acfc2ea0d2a2969694ee189f48a875d
-ms.sourcegitcommit: 11218af1d792af297b4280ca5975d139d2bbe350
+ms.openlocfilehash: 308337f806d54f1beb7ae6112b2ed883707d4513
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45046053"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649299"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>Общие сведения о схеме расширенной охоты на угрозы
 
@@ -58,7 +58,7 @@ ms.locfileid: "45046053"
 | **[DeviceFileCertificateInfo](advanced-hunting-DeviceFileCertificateInfo-table.md)** | Сведения о сертификате подписанных файлов, полученные из событий проверки сертификатов в конечных точках |
 | **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | Создание файла, изменение и другие события файловой системы |
 | **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | События загрузки библиотек DLL |
-| **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
+| **[девицеинфо](advanced-hunting-deviceinfo-table.md)** | Сведения о компьютере, в том числе данные об ОС |
 | **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | Входы и другие события проверки подлинности на устройствах |
 | **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | Сетевое подключение и связанные события |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | Свойства сети компьютеров, включая адаптеры, IP-и MAC-адреса, а также подключенные сети и домены. |
@@ -81,5 +81,5 @@ ms.locfileid: "45046053"
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

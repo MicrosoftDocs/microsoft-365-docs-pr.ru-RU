@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 19437caf4f3b0dcb6eb6ccad81d1ed3917df7996
-ms.sourcegitcommit: b4119682bd3c036289e851fff56fde869c816479
+ms.openlocfilehash: aec5bf5dfe29dd55bf5e5df471126db46fdfcb4c
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45204915"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648831"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -67,6 +67,6 @@ ms.locfileid: "45204915"
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

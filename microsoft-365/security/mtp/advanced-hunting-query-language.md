@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 26b376fe3e804a3ebaa478e484807bea4c33d38b
-ms.sourcegitcommit: 7c1b34205746ff0690ffc774a74bdfd434256cf5
+ms.openlocfilehash: 64f0b19cfd9588e975b06cb43ca73270b00c5e26
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049703"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649395"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -179,6 +179,6 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

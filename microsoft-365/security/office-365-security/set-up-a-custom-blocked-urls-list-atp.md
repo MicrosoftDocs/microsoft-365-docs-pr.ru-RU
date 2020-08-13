@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как настроить список заблокированных URL-адресов для Организации с помощью Office 365 Advanced Threat protection.
-ms.openlocfilehash: 288aea848836a56108872c0e4d36d01f4d59ec42
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 5f863a3ba61278d0bec5304034ed75d343f93c77
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533815"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656651"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка заблокированных URL-адресов с помощью безопасных ссылок ATP
 
@@ -45,11 +45,14 @@ ms.locfileid: "46533815"
 
 Чтобы изменить (или определить) политики ATP, необходимо назначить одну из ролей, описанных в следующей таблице.
 
+****
+
 |Role|Где/как назначено|
-|---------|---------|
+|---|---|
 |Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
 |Управление организациями в Exchange Online|Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 > [!TIP]
 > Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
@@ -78,13 +81,15 @@ ms.locfileid: "46533815"
 
 - В URL-адрес можно добавить до трех подстановочных знаков ( \* ). В следующей таблице приведено несколько примеров того, что можно ввести и какие действия имеют эти записи.
 
+****
+
 |Пример записи|Что он делает|
-|:-----|:-----|
+|---|---|
 |`contoso.com` или `*contoso.com*`|Блокирует домен, дочерние домены и пути, например `https://www.contoso.com` , `https://sub.contoso.com` и`https://contoso.com/abc`|
 |`https://contoso.com/a`|Блокирует сайт, `https://contoso.com/a` но не дополнительные подпути, такие как`https://contoso.com/a/b`|
 |`https://contoso.com/a*`|Блокирует сайт `https://contoso.com/a` и дополнительные подпути, такие как`https://contoso.com/a/b`|
 |`https://toys.contoso.com*`|Блокирует поддомен (в данном случае — "Toys"), но разрешить переход на другие URL-адреса доменов (например `https://contoso.com` , или `https://home.contoso.com` ).|
-
+|
 
 > [!NOTE]
 > По умолчанию URL-адреса 500 можно добавлять только в список заблокированных URL-адресов в политике по умолчанию безопасных ссылок Office 365 ATP.

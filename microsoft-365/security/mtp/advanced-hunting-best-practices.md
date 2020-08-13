@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9d7f6ee67e231ce7aa9bce1decc4de2f2d5a6d41
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: f66b17fbdaaa58cf12bd0373d0fece59349c3a48
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929508"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649503"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>Рекомендации по использованию запросов расширенного выслеживания
 
@@ -99,5 +99,5 @@ DeviceProcessEvents
 - [Сведения о языке запросов](advanced-hunting-query-language.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Поиск угроз на устройствах и в сообщениях электронной почты](advanced-hunting-query-emails-devices.md)
+- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)

@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Рекомендации по параметрам безопасности Exchange Online Protection (EOP) и Advanced Threat protection (ATP) Каковы текущие рекомендации по стандартной защите? Что следует использовать, если требуется более высокий ранг? И какие дополнительные возможности вы получаете, если вы также используете Advanced Threat protection (ATP)?
-ms.openlocfilehash: f34c4e0aad2413fdeb082c37f980e6e4548db6b3
-ms.sourcegitcommit: 583fd1ac1f385c58b93bda648907a1bd8e0a1950
+ms.openlocfilehash: ea1c04c503fa6ecac66a6378ec466c7ea6cc4133
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45430379"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653584"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>Рекомендуемые параметры для EOP и безопасности ATP 365 для Office
 
@@ -46,6 +46,8 @@ ms.locfileid: "45430379"
 ### <a name="eop-anti-spam-policy-settings"></a>Параметры политики защиты от нежелательной почты EOP
 
 Чтобы создать и настроить политики защиты от нежелательной почты, см [в разделе Настройка политик защиты от нежелательной почты в Office 365](configure-your-spam-filter-policies.md).
+
+****
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
@@ -72,6 +74,8 @@ ms.locfileid: "45430379"
 
 Рекомендуется **отключить эти параметры ASF** для **стандартных** и **ограниченных** уровней. Дополнительные сведения о параметрах ASF приведены [в разделе Advanced спам Filtering (ASF) в Office 365](advanced-spam-filtering-asf-options.md).
 
+****
+
 |Имя компонента безопасности|Комментарий|
 |---|---|
 |**Ссылки на изображения с удаленными сайтами** (_инкреасескоревисимажелинкс_)||
@@ -97,6 +101,8 @@ ms.locfileid: "45430379"
 
 Дополнительные сведения о пределах отправки по умолчанию в [службе см.](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-1)
 
+****
+
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
 |**Максимальное количество получателей на одного пользователя: внешнее почасовое ограничение** <br/><br/> _реЦипиентлимитекстерналперхаур_|500|400||
@@ -108,6 +114,8 @@ ms.locfileid: "45430379"
 ### <a name="eop-anti-malware-policy-settings"></a>Параметры политики защиты от вредоносных программ EOP
 
 Чтобы создать и настроить политики защиты от вредоносных программ, ознакомьтесь со статьей [Настройка политик защиты от вредоносных программ в Office 365](configure-anti-malware-policies.md).
+
+****
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
@@ -121,6 +129,8 @@ ms.locfileid: "45430379"
 ### <a name="eop-default-anti-phishing-policy-settings"></a>Параметры политики защиты от фишинга по умолчанию EOP
 
 Дополнительные сведения об этих параметрах приведены в разделе [Параметры подделки](set-up-anti-phishing-policies.md#spoof-settings). Чтобы настроить эти параметры, ознакомьтесь со статьей [Настройка политик защиты от фишинга в EOP](configure-anti-phishing-policies-eop.md).
+
+****
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
@@ -148,6 +158,8 @@ ms.locfileid: "45430379"
 
 Дополнительные сведения об этих параметрах см. [в разделе параметры олицетворения в политиках защиты от фишинга ATP](set-up-anti-phishing-policies.md#impersonation-settings-in-atp-anti-phishing-policies). Чтобы настроить эти параметры, ознакомьтесь со статьей [Настройка политик защиты от фишинга ATP](configure-atp-anti-phishing-policies.md).
 
+****
+
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
 |Защищенные пользователи: **Добавление пользователей для защиты** <br/><br/> _енаблетаржетедусерпротектион_ <br/><br/> _TargetedUsersToProtect_|Вкл. <br/><br/> `$true` <br/><br/> \<list of users\>|Вкл. <br/><br/> `$true` <br/><br/> \<list of users\>|Зависит от вашей организации, но мы рекомендуем добавлять пользователей в ключевые роли. Это может быть ваш исполнитель, финансовый директор, а также другие старшие руководители. Они могут включать в себя участников Совета или ваших директоров.|
@@ -169,6 +181,8 @@ ms.locfileid: "45430379"
 
 Обратите внимание на то, что эти параметры доступны в параметрах [политики защиты от нежелательной почты в EOP](#eop-anti-spam-policy-settings).
 
+****
+
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
 |**Включение защиты от спуфинга** <br/><br/> _енаблеантиспуфенфорцемент_|Вкл. <br/><br/> `$true`|Вкл. <br/><br/> `$true`||
@@ -179,6 +193,8 @@ ms.locfileid: "45430379"
 #### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>Дополнительные параметры в политиках защиты от фишинга ATP
 
 Дополнительные сведения об этом параметре приведены [в разделе Расширенные пороговые значения фишинга в политиках защиты от фишинга ATP](set-up-anti-phishing-policies.md#advanced-phishing-thresholds-in-atp-anti-phishing-policies). Чтобы настроить этот параметр, ознакомьтесь со статьей [Настройка политик защиты от фишинга ATP](configure-atp-anti-phishing-policies.md).
+
+****
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
@@ -192,6 +208,8 @@ ms.locfileid: "45430379"
 
 **Примечание**: в PowerShell для этих параметров используется командлет [Set – AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) .
 
+****
+
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
 |**Используйте безопасные ссылки в: приложения Office 365** <br/><br/> _EnableSafeLinksForO365Clients_|Вкл. <br/><br/> `$true`|Вкл. <br/><br/> `$true`|Использование безопасных ссылок ATP в клиентах Office 365 для настольных ПК и мобильных устройств (iOS и Android).|
@@ -203,6 +221,8 @@ ms.locfileid: "45430379"
 #### <a name="safe-links-policy-settings-in-custom-policies-for-specific-users"></a>Параметры политики безопасных ссылок в пользовательских политиках для определенных пользователей
 
 **Примечание**: в PowerShell используются командлеты [New-Safelinkspolicy позволяет](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy) и [Set-safelinkspolicy позволяет] ( https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy ] для этих параметров.
+
+****
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
@@ -223,6 +243,8 @@ ms.locfileid: "45430379"
 
 **Примечание**: в PowerShell для этих параметров используется командлет [Set – AtpPolicyForO365](https://docs.microsoft.com/powershell/module/exchange/set-atppolicyforo365) .
 
+****
+
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
 |**Включение ATP для SharePoint, OneDrive и Microsoft Teams** <br/><br/> _енаблеатпфорспотеамсодб_|Вкл. <br/><br/> `$true`|Вкл. <br/><br/> `$true`||
@@ -233,6 +255,8 @@ ms.locfileid: "45430379"
 #### <a name="safe-attachments-policy-settings-in-custom-policies-for-specific-users"></a>Параметры политики безопасных вложений в пользовательских политиках для определенных пользователей
 
 **Примечание**: в PowerShell для этих параметров используются командлеты [New – Safeattachmentpolicy используется](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy) и [Set safeattachmentpolicy используется](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy) .
+
+****
 
 |Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|

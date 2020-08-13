@@ -19,12 +19,12 @@ ms.collection:
 - SPO_Content
 description: Узнайте, как включить ATP для SharePoint, OneDrive и Teams, включая настройку оповещений для обнаруженных файлов.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 976911abe047be350ae6c64409cd6607ea75de7a
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: 6109cecc79b4db876ee595d4786d176ae7f42f5d
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44811078"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656555"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
@@ -35,17 +35,20 @@ ms.locfileid: "44811078"
 
 Для определения (или изменения) политик ATP необходимо назначить соответствующую роль. Некоторые примеры описаны в таблице ниже.
 
+****
+
 |Role|Где/как назначено|
-|---------|---------|
+|---|---|
 |Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
 |Администратор безопасности|Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
 |Управление организациями в Exchange Online|Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>Включить ATP для SharePoint, OneDrive и Microsoft Teams
 
 **Прежде чем приступить к этой процедуре, убедитесь, что ведение журнала аудита для вашей среды Microsoft 365 уже включено**. Это обычно делается для пользователей, которым назначена роль "журналы аудита" в Exchange Online. Дополнительные сведения см. в статье [Включение и отключение поиска в журнале аудита](../../compliance/turn-audit-log-search-on-or-off.md).
 
-1. Перейдите на страницу [https://protection.office.com](https://protection.office.com) и войдите с помощью рабочей или учебной учетной записи.
+1. Перейдите на страницу <https://protection.office.com> и войдите с помощью рабочей или учебной учетной записи.
 
 2. В центре управления безопасностью & соответствия требованиям в области навигации слева в разделе **Управление угрозами**выберите пункт **Policy** \> **безопасные вложения**политики.
 
@@ -55,7 +58,7 @@ ms.locfileid: "44811078"
 
    ![Включение расширенной защиты от угроз для SharePoint Online, OneDrive для бизнеса и Microsoft Teams](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
 
-4. Нажмите кнопку **Сохранить**.
+4. Щелкните **Сохранить**.
 
 5. Просмотрите (и, соответственно, измените) [политики безопасных вложений](set-up-atp-safe-attachments-policies.md) в Организации и [политики безопасных ссылок](set-up-atp-safe-links-policies.md).
 
@@ -93,7 +96,7 @@ ms.locfileid: "44811078"
 
 6. В разделе **отправить это оповещение по...** выберите одного или нескольких глобальных администраторов, администраторов безопасности или средств чтения безопасности, которые должны получать уведомление при обнаружении вредоносного файла.
 
-7. Нажмите кнопку **Сохранить**.
+7. Щелкните **Сохранить**.
 
 Чтобы узнать больше об оповещениях, ознакомьтесь со статьей [Создание оповещений о действиях в центре безопасности & соответствия требованиям](../../compliance/create-activity-alerts.md).
 

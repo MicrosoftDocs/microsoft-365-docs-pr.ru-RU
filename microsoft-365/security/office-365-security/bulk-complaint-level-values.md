@@ -16,12 +16,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать о значениях массового уровня соответствия (BCL), используемых в Exchange Online Protection (EOP).
-ms.openlocfilehash: 87ef0787aad12022d9034800c4ddc72e54445f5d
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+ms.openlocfilehash: 19fa7172bd242852d03822c588e163b7a13f9201
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209611"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653213"
 ---
 # <a name="bulk-complaint-level-bcl-in-eop"></a>Уровень жалоб (BCL) в EOP
 
@@ -33,9 +33,10 @@ ms.locfileid: "44209611"
 
 Пороговые значения BCL описаны в следующей таблице.
 
-|||
+****
+
+|BCL|Описание|
 |:---:|---|
-|**BCL**|**Описание**|
 |нуль|Сообщение отправлено без использования систем массовой рассылки.|
 |1, 2, 3|Сообщение от системы массовой рассылки, которое вызывает малое количество жалоб.|
 |4, 5, 6, 7|Сообщение от системы массовой рассылки, которое может вызвать как малое, так и большое количество жалоб.|

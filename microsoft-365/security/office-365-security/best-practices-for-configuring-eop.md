@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: Следуйте этим рекомендациям для автономной защиты Exchange Online (EOP), чтобы настроить их для успешной работы и избежать распространенных ошибок конфигурации.
-ms.openlocfilehash: e5e87883e9c8aad21552ebf306a9716f14532884
-ms.sourcegitcommit: 9ea67fd2e02af760d4fb62e3d09c93b446173f9d
+ms.openlocfilehash: 880e61538f4de588b01a9ec107fcf629a0e7eeed
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44739086"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653201"
 ---
 # <a name="best-practices-for-configuring-standalone-eop"></a>Рекомендации по настройке автономной EOP
 
@@ -39,9 +39,10 @@ ms.locfileid: "44739086"
 
 Эти параметры охватывают ряд функций, которые выходят за пределы политик безопасности.
 
-|||||
+****
+
+|Имя компонента безопасности|Standard|Жестк|Комментарий|
 |---|---|---|---|
-|**Имя компонента безопасности**|**Standard**|**Жестк**|**Comment**|
 |[Настройка SPF для предотвращения спуфинга](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|Да|Да||
 |[Проверка исходящей электронной почты, отправляемой с личного домена в Office 365, с помощью DKIM](use-dkim-to-validate-outbound-email.md)|Да|Да||
 |[Использование протокола DMARC для проверки электронной почты в Office 365](use-dmarc-to-validate-email.md)|Да|Да|Используется `action=quarantine` для стандартных и `action=reject` для ограничений.|

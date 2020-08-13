@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Узнайте, как настроить пользовательские Заблокированные URL-адреса для пользователей и не переписывать список URL-адресов для группы пользователей в политиках безопасных ссылок на Office 365 ATP.
-ms.openlocfilehash: 7d7c8ad3f5ae0f6a79bd839151ed09628e7f2dfd
-ms.sourcegitcommit: df59c83174d845b8ddec48b9be2659fbfb58bb7f
+ms.openlocfilehash: 7909e91b96f8bdbc38ffdceafe11fa47f5ebe897
+ms.sourcegitcommit: fa8e488936a36e4b56e1252cb4061b5bd6c0eafc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46517477"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656973"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-atp-safe-links"></a>Настройка настраиваемого списка "не переписывать" URL-адресов с помощью безопасных ссылок ATP
 
@@ -41,11 +41,12 @@ ms.locfileid: "46517477"
 
 Чтобы изменить (или определить) политики ATP, необходимо назначить соответствующую роль. В следующей таблице приводятся некоторые примеры. Дополнительные сведения см. [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 
-|Role  |Где/как назначено  |
-|---------|---------|
-|Глобальный администратор |Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)         |
-|Администратор безопасности |Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
-|Управление организациями в Exchange Online |Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)) |
+|Role|Где/как назначено|
+|---|---|
+|Глобальный администратор|Сотрудник, который подписывается на приобретение Microsoft 365, по умолчанию является глобальным администратором. (Чтобы узнать больше, ознакомьтесь со статьей [о ролях администратора майкрософт 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) .)|
+|Администратор безопасности|Центр администрирования Azure Active Directory ( [https://aad.portal.azure.com](https://aad.portal.azure.com) )|
+|Управление организациями в Exchange Online|Центр администрирования Exchange ( [https://outlook.office365.com/ecp](https://outlook.office365.com/ecp) ) <br>или <br>  Командлеты PowerShell (см. [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell))|
+|
 
 > [!TIP]
 > Дополнительные сведения о ролях и разрешениях приведены [в разделе разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
@@ -83,9 +84,12 @@ ms.locfileid: "46517477"
 
 В следующей таблице приведены примеры того, что можно ввести и какие действия имеют эти записи.
 
+****
+
 |Пример записи|Что он делает|
-|:-----|:-----|
+|---|---|
 |`contoso.com`|Позволяет получателям посещать сайт, как, например, `https://contoso.com` без поддоменов или путей.|
 |`*.contoso.com/*`|Позволяет получателям посещать домен, дочерние домены и пути, например `https://www.contoso.com` ,, `https://www.contoso.com` , `https://maps.contoso.com` или `https://www.contoso.com/a` . <br/><br/> Эта запись по сути лучше `*contoso.com*` , так как она не включает потенциально мошеннические сайты, например `https://www.falsecontoso.com` или`https://www.false.contoso.completelyfalse.com`|
 |`https://contoso.com/a`|Позволяет конкретным получателям посетить сайт, например `https://contoso.com/a` , недопустимые подпути, такие как`https://contoso.com/a/b`|
 |`https://contoso.com/a/*`|Позволяет конкретным получателям посещать подобные `https://contoso.com/a` и вложенные пути, такие как`https://contoso.com/a/b`|
+|

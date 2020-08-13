@@ -14,12 +14,12 @@ ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 ms.custom:
 - seo-marvel-apr2020
 description: Администраторы в отдельных организациях Exchange Online Protection (EOP) могут узнать, как создавать, изменять и удалять группы рассылки и группы безопасности с включенной поддержкой почты в центре администрирования Exchange, а также в автономной службе Exchange Online Protection (EOP) PowerShell.
-ms.openlocfilehash: 42086b67e22df4725bf07bf227853c070f936f24
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+ms.openlocfilehash: 813735d4024c3b8424a6bbac51ebef7b4c53e590
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44616506"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653657"
 ---
 # <a name="manage-groups-in-eop"></a>Управление группами в EOP
 
@@ -30,7 +30,10 @@ ms.locfileid: "44616506"
 - **Группы безопасности с включенной поддержкой почты**: коллекция почтовых пользователей и других групп безопасности, которым требуются разрешения на доступ для ролей администратора. Например, может потребоваться предоставить определенной группе пользователей разрешения администратора, чтобы они могли настраивать параметры защиты от нежелательной почты и вредоносных программ.
 
     > [!NOTE]
-    > <ul><li>По умолчанию новые группы безопасности, поддерживающие почту, отклоняются сообщения от внешних отправителей (не прошедших проверку подлинности).</li><li>Не добавляйте группы рассылки в группы безопасности с поддержкой электронной почты.</li></ul>.
+    >
+    > - По умолчанию новые группы безопасности, поддерживающие почту, отклоняются сообщения от внешних отправителей (не прошедших проверку подлинности).
+    >
+    > - Не добавляйте группы рассылки в группы безопасности с поддержкой электронной почты.
 
 Вы можете управлять группами в центре администрирования Exchange и в изолированной EOP PowerShell.
 
@@ -157,7 +160,7 @@ Get-DistributionGroupMember -Identity <GroupIdentity>
 New-EOPDistributionGroup -Name "<Unique Name>" -ManagedBy @("UserOrGroup1","UserOrGroup2",..."UserOrGroupN">) [-Alias <text>] [-DisplayName "<Descriptive Name>"] [-Members @("UserOrGroup1","UserOrGroup2",..."UserOrGroupN">)] [-Notes "<Optional Text>"] [-PrimarySmtpAddress <SmtpAddress>] [-Type <Distribution | Security>]
 ```
 
-**Примечания**:
+**Примечания**.
 
 - Параметр _Name_ является обязательным, его длина не должна превышать 64 символов и должна быть уникальной. Если вы не используете параметр _DisplayName_, для отображаемого имени указывается значение параметра _Name_.
 
