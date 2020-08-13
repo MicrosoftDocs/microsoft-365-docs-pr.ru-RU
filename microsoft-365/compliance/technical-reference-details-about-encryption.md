@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Узнайте о различных сертификатах, технологиях и комплектах шифров TLS, используемых для шифрования в Office 365.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91fa21fff12c429032af6468ff3024acfc6ca2ab
-ms.sourcegitcommit: 51a9f34796535309b8ca8b52da92da0a3621327b
+ms.openlocfilehash: c9bc61a7c7a35d84d5e4ff338927ead98a932d9d
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45024545"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46649100"
 ---
 # <a name="technical-reference-details-about-encryption"></a>Технические справочные сведения о шифровании
 
@@ -52,13 +52,7 @@ ms.locfileid: "45024545"
   
 ## <a name="support-for-tls-10-and-11-deprecation-and-what-this-means-for-you"></a>Поддержка устаревшего протокола TLS 1,0 и 1,1 и то, что это означает
 
-С 31 октября 2018 г. Office 365 больше не поддерживает TLS 1,0 и 1,1. Это означает, что корпорация Майкрософт не будет устранять новые проблемы в клиентах, устройствах и службах, которые подключаются к Office 365 по протоколам TLS 1.0 и TLS 1.1.
-
-Это не означает, что Office 365 блокирует подключения TLS 1,0 и 1,1.
-
-Несмотря на то, что мы установили дату 1 июня, 2020 для протокола TLS 1,0 и TLS 1,1 для общемировых сред и версий GCC эта дата больше не действительна. Это было вызвано КОВИД-19. Когда у нас новая дата для этого, мы будем публиковать ее здесь. 
-
-В средах GCC High и DoD, официальное прекращение возникло 15 января 2020 г.
+С 31 октября 2018 г. Office 365 больше не поддерживает TLS 1,0 и 1,1. Это означает, что корпорация Майкрософт не будет устранять новые проблемы в клиентах, устройствах и службах, которые подключаются к Office 365 по протоколам TLS 1.0 и TLS 1.1. Официальное прекращение поддержки GCC High и DoD для общедоступных сред начинается 15 января 2020 г. Устаревшие протоколы TLS 1,0 и 1,1 для международных и GCC сред начинаются с 15 октября 2020 г. 
 
 Необходимо убедиться, что все комбинации "клиент — сервер" и "Обозреватель – сервер" используют протокол TLS 1,2 и современные комплекты шифров для поддержания безопасного подключения к службам Office 365 и Microsoft 365. Возможно, придется обновить определенные сочетания клиент-сервер и браузер-сервер. Сведения о том, как это влияет, можно найти [в статье Подготовка к обязательному использованию протокола TLS 1,2 в Office 365](https://support.microsoft.com/help/4057306/preparing-for-tls-1-2-in-office-365).
   
@@ -76,19 +70,30 @@ ms.locfileid: "45024545"
 
 > [!IMPORTANT]
 > Имейте в виду, что версии протокола TLS устарели, и эти устаревшие версии *не следует использовать* там, где доступны новые версии. TLS 1,3 в настоящее время не поддерживается. Если устаревшие службы не требуют TLS 1,0 или 1,1, их следует отключить.
-  
-|**Протоколы**|**Имя набора шифров**|**Алгоритм/стойкость для обмена ключами**|**Поддержка безопасной пересылки**|**Алгоритм проверки подлинности/стойкость**|**Шифр/стойкость**|
+
+| Комплект шифров | Алгоритм/стойкость для обмена ключами | Безопасная пересылка | Шифр/стойкость | Алгоритм проверки подлинности |
+|:-----|:-----|:-----|:-----|:-----|
+|TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 <br/>     |ECDH/192 <br/>|Да <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 <br/>     |ECDH/128 <br/>|Да <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 <br/>     |ECDH/192 <br/>|Да <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 <br/>     |ECDH/128 <br/>|Да <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA <br/>        |ECDH/192 <br/>|Да <br/>|AES/256 <br/>|RSA/112 <br/> |
+|TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA <br/>        |ECDH/128 <br/>|Да <br/>|AES/128 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_GCM_SHA384 <br/>           |RSA/112 <br/> |Нет <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_GCM_SHA256 <br/>           |RSA/112 <br/> |Нет <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_CBC_SHA256 <br/>           |RSA/112 <br/> |Нет <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_CBC_SHA256 <br/>           |RSA/112 <br/> |Нет <br/> |AES/128 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_256_CBC_SHA <br/>              |RSA/112 <br/> |Нет <br/> |AES/256 <br/>|RSA/112 <br/> |
+|TLS_RSA_WITH_AES_128_CBC_SHA <br/>              |RSA/112 <br/> |Нет <br/> |AES/128 <br/>|RSA/112 <br/> |
+
+Это следующие комплекты шифров, которые по-прежнему поддерживают протоколы TLS 1,0 и 1,1 до даты их устаревания. В средах GCC High и DoD, Дата устаревания которых была 15 января, 2020, а для сред по всему миру и в средах GCC Дата 15 октября 2020.
+
+| Протоколы | Имя набора шифров | Алгоритм/стойкость для обмена ключами | Поддержка безопасной пересылки | Алгоритм проверки подлинности/стойкость | Шифр/стойкость |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> |ECDH/128  <br/> |Да  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256  <br/> |ECDH/128  <br/> |Да  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA_P256  <br/> |ECDH/128  <br/> |Да  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA256  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/256  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |Нет  <br/> |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA  <br/> |ECDH/192  <br/> |Да  <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA  <br/> |ECDH/128  <br/> |Да  <br/> |RSA/112  <br/> |AES/128  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA        <br/> |RSA/112  <br/>  |Нет  <br/>  |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA        <br/> |RSA/112  <br/>  |Нет  <br/>  |RSA/112  <br/> |AES/128  <br/> |
    
 ## <a name="related-topics"></a>Связанные статьи
 [Комплекты шифров TLS в Windows 10 v1903](https://docs.microsoft.com/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903)
@@ -101,5 +106,4 @@ ms.locfileid: "45024545"
   
 [Расширения шифрования TLS/SSL (центр ИТ-Windows)](https://technet.microsoft.com/library/cc766285%28v=ws.10%29.aspx)
   
- [Подготовка к TLS 1.2 в Office 365 и Office 365 GCC](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)
-
+[Подготовка к TLS 1.2 в Office 365 и Office 365 GCC](https://docs.microsoft.com/office365/troubleshoot/security/prepare-tls-1.2-in-office-365)

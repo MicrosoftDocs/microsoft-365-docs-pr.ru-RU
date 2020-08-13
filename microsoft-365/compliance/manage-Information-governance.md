@@ -14,14 +14,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Сведения об управлении сведениями в Microsoft 365.
-ms.openlocfilehash: d8e0c252bfe0b5b5c3361e67b8327d04951eb9c5
-ms.sourcegitcommit: 3f9aac62e79799eca751ba9c8510aad1fc3afc5d
+ms.openlocfilehash: 526f91eb70ec2e249d2f8b83c4238f0f43584db1
+ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/12/2020
-ms.locfileid: "46641612"
+ms.locfileid: "46649146"
 ---
 # <a name="manage-information-governance"></a>Организация управления информацией
+
+>*[Руководство по лицензированию Microsoft 365 для обеспечения безопасности и соответствия требованиям](https://aka.ms/ComplianceSD).*
 
 Используйте возможности управления информацией Майкрософт для управления данными на соответствие требованиям или нормативным требованиям.
 

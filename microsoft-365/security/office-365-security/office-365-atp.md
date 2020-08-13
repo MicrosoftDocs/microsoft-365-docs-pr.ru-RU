@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Office 365 Advanced Threat Protection включает безопасные вложения, безопасные ссылки, расширенные антифишинговые средства, инструменты создания отчетов и возможности аналитики угроз.
-ms.openlocfilehash: d8a8ab2f5c7de5d57f50ec6b1c26e0fc71ac6616
-ms.sourcegitcommit: 50526f81ce3f57d58f0a7c0df4fe21685c5a0236
+ms.openlocfilehash: 2241f48877019cb20484aea0dd1fcf7b9e7b8bb5
+ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "45434053"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46653609"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,11 @@ Office 365 Advanced Threat Protection (ATP) защищает вашу орган
 
 В таблице ниже приведена сводка о содержании каждого плана.
 
-| Office 365 ATP, План 1 | Office 365 ATP, План 2 |
+****
+
+|Office 365 ATP, План 1|Office 365 ATP, План 2|
 |---|---|
-|Конфигурация, защита и возможности обнаружения:<br/>• [Безопасные вложения](atp-safe-attachments.md)<br/>• [Безопасные ссылки](atp-safe-links.md)<br/>• [ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>• [Защита от фишинга ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [Обнаружение в режиме реального времени](threat-explorer.md)|Возможности Office 365 ATP (план 1)<br/>--- плюс ---<br/>Автоматизация, исследование, исправления и возможности образования.<br/>• [Трекеры угроз](threat-trackers.md)<br/>• [Обозреватель угроз](threat-explorer.md)<br/>• [Автоматическое исследование и реагирование](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>• [Эмулятор атак](attack-simulator.md)|
+|<br/>Конфигурация, защита и возможности обнаружения: <ul><li>[Безопасные вложения](atp-safe-attachments.md)</li><li>[Безопасные ссылки](atp-safe-links.md)</li><li>[ATP для SharePoint, OneDrive и Microsoft Teams](atp-for-spo-odb-and-teams.md)</li><li>[Защита от фишинга ATP](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)</li><li>[Обнаружение в режиме реального времени](threat-explorer.md)</li></ul>|Возможности Office 365 ATP (план 1)<br/>--- плюс ---<br/>Автоматизация, исследование, исправления и возможности образования.</li><li>[Трекеры угроз](threat-trackers.md)</li><li>[Обозреватель угроз](threat-explorer.md)</li><li>[Автоматизированный анализ угроз и реагирование на них](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)</li><li>[Эмулятор атак](attack-simulator.md)</li></ul>|
 |
 
 - Пакет Office 365 с Планом 2 входит в состав Office 365 E5, Office 365 A5 и Microsoft 365 E5.
@@ -112,11 +114,11 @@ Office 365 ATP (план 2) включает лучшие [средства ан
 Чтобы получить доступ к возможностям ATP в Центре безопасности и соответствия требованиям, вам нужна соответствующая роль. В таблице приведено несколько примеров.
 
 |Роль или группа ролей|Дополнительные ресурсы|
-|---------|---------|
-|глобальный администратор (назначается Azure Active Directory или Центром безопасности и соответствия требованиям) |[О ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
-|Администратор безопасности (назначается Azure Active Directory или Центром безопасности и соответствия требованиям) |[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
+|---|---|
+|глобальный администратор (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[О ролях администратора Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)|
+|Администратор безопасности (назначается Azure Active Directory или Центром безопасности и соответствия требованиям)|[Разрешения роли администратора в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
 |Управление организациями в Exchange Online (назначается Exchange Online)|[Разрешения в Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell)|
-|Роль "Search and Purge" (поиск и очистка) (назначается только Центром безопасности и соответствия требованиям) |[Разрешения в центре безопасности и соответствия требованиям] (permissions-in-the-security-and-compliance-center.md|
+|Роль "Search and Purge" (поиск и очистка) (назначается только Центром безопасности и соответствия требованиям)|[Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md)|
 
 Дополнительные сведения см. в статье [Разрешения в Центре безопасности и соответствия требованиям](permissions-in-the-security-and-compliance-center.md).
 

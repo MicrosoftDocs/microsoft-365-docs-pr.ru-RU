@@ -135,7 +135,7 @@
                   href: mtp/advanced-hunting-take-action.md
                 - name: Использование общих запросов
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: Слежение за устройствами и сообщениями электронной почты
+                - name: 'Охота на различных устройствах, в письмах, приложениях и удостоверениях'
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: Запуск слежения
                   href: mtp/advanced-hunting-go-hunt.md
