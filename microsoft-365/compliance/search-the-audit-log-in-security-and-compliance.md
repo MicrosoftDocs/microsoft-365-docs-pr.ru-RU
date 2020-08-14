@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Используйте Центр обеспечения безопасности и соответствия требованиям для поиска в едином журнале аудита, чтобы просмотреть активность пользователей и администраторов в вашей организации. '
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5bbcd7c7e3c68b5b5a23736901e5772454e9e10a
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 39c58a86b3f8e3bec2225c4a3df53120fac79eea
+ms.sourcegitcommit: 929ca8f4d5fc006c3827f7a8b7d2b43e54c1b42a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577999"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46674629"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>Поиск по журналу аудита в Центре безопасности и соответствия требованиям
 
@@ -39,8 +39,6 @@ ms.locfileid: "46577999"
 - активность администраторов в Azure Active Directory (служба каталогов для Office 365);
 
 - активность администраторов в Exchange Online (журнал аудита действий администратора Exchange);
-
-- активность пользователей и администраторов в Sway;
 
 - активность по обнаружению электронных данных в Центре безопасности и соответствия требованиям;
 
@@ -129,8 +127,7 @@ ms.locfileid: "46577999"
   |Power BI|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Центр безопасности и соответствия требованиям|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Метки конфиденциальности||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |SharePoint Online и OneDrive для бизнеса|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Sway||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |SharePoint Online и OneDrive для бизнеса|![Галочка](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Рабочая аналитика|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Yammer||![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Forms|![Флажок](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -305,15 +302,15 @@ ms.locfileid: "46577999"
 |:-----|:-----|:-----|
 |[Действия, связанные с файлами и страницами](#file-and-page-activities)|[Действия, связанные с папками](#folder-activities)|[Действия, связанные со списками SharePoint](#sharepoint-list-activities)|
 |[Действия, связанные с общим доступом и запросами на доступ](#sharing-and-access-request-activities)|[Действия, связанные с синхронизацией](#synchronization-activities)|[Действия, связанные с разрешениями для сайтов](#site-permissions-activities)|
-|[Действия, связанные с администрированием сайта](#site-administration-activities)|[Действия, связанные с почтовыми ящиками Exchange](#exchange-mailbox-activities)|[Действия, связанные со Sway](#sway-activities)|
-|[Действия, связанные с администрированием пользователей](#user-administration-activities)|[Действия, связанные с администрированием групп Azure AD](#azure-ad-group-administration-activities)|[Действия, связанные с администрированием приложений](#application-administration-activities)|
-|[Действия, связанные с администрированием ролей](#role-administration-activities)|[Действия, связанные с администрированием каталогов](#directory-administration-activities)|[Действия, связанные с обнаружением электронных данных](#ediscovery-activities)|
-|[Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)|[Действия, связанные с Power BI](#power-bi-activities)|[Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)|
-|[Действия, связанные с Microsoft Teams](#microsoft-teams-activities)|[Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)|[Действия, связанные с приложением "Смены" в Microsoft Teams](#microsoft-teams-shifts-activities)|
-|[Действия, связанные с Yammer](#yammer-activities)|[Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)|[Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)|
-|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|[Действия, связанные с обозревателем содержимого](#content-explorer-activities)|[Карантинная деятельность](#quarantine-activities)|
-|[Действия Microsoft Forms](#microsoft-forms-activities)|[Действия с метками конфиденциальности](#sensitivity-label-activities)|[Действия администратора Exchange](#exchange-admin-audit-log)|
-|[Действия, связанные с политикой хранения и метками хранения](#retention-policy-and-retention-label-activities)|||
+|[Действия, связанные с администрированием сайта](#site-administration-activities)|[Действия, связанные с почтовыми ящиками Exchange](#exchange-mailbox-activities)|[Действия, связанные с администрированием пользователей](#user-administration-activities)|
+|[Действия, связанные с администрированием групп Azure AD](#azure-ad-group-administration-activities)|[Действия, связанные с администрированием приложений](#application-administration-activities)|[Действия, связанные с администрированием ролей](#role-administration-activities)|
+|[Действия, связанные с администрированием каталогов](#directory-administration-activities)|[Действия, связанные с обнаружением электронных данных](#ediscovery-activities)|[Действия, связанные с Advanced eDiscovery](#advanced-ediscovery-activities)|
+|[Действия, связанные с Power BI](#power-bi-activities)|[Рабочая аналитика (Майкрософт)](#microsoft-workplace-analytics-activities)|[Действия, связанные с Microsoft Teams](#microsoft-teams-activities)|
+|[Действия в сфере здравоохранения, связанные с Microsoft Teams](#microsoft-teams-healthcare-activities)|[Действия, связанные с приложением "Смены" в Microsoft Teams](#microsoft-teams-shifts-activities)|[Действия, связанные с Yammer](#yammer-activities)|
+|[Действия, связанные с Microsoft Power Automate](#microsoft-power-automate-activities)|[Действия, связанные с Microsoft Power Apps](#microsoft-power-apps-activities)|[Действия, связанные с Microsoft Stream](#microsoft-stream-activities)|
+|[Действия, связанные с обозревателем содержимого](#content-explorer-activities)|[Карантинная деятельность](#quarantine-activities)|[Действия Microsoft Forms](#microsoft-forms-activities)|
+|[Действия с метками конфиденциальности](#sensitivity-label-activities)|[Действия, связанные с политикой хранения и метками хранения](#retention-policy-and-retention-label-activities)|[Действия администратора Exchange](#exchange-admin-audit-log)
+|||
 
 ### <a name="file-and-page-activities"></a>Действия, связанные с файлами и страницами
 
@@ -557,28 +554,6 @@ ms.locfileid: "46577999"
 |Обновлено сообщение|Update|Сообщение или его свойства были изменены.|
 |Пользователь вошел в почтовый ящик|MailboxLogin|Пользователь выполнил вход в свой почтовый ящик.|
 |Пометка сообщения как записи||Пользователь применил к сообщению электронной почты метку хранения, которая настроена, чтобы пометить элемент как запись. |
-||||
-
-### <a name="sway-activities"></a>Действия, связанные со Sway
-
-В таблице ниже перечислены действия пользователей и администраторов в Sway. Sway — это приложение Microsoft 365, которое помогает пользователям собирать, форматировать и делиться идеями, историями и презентациями на интерактивной веб-основе. Дополнительные сведения см. в статье [Вопросы и ответы о Sway — справка для администраторов](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075).
-
-|Понятное имя|Операция|Описание|
-|:-----|:-----|:-----|
-|Изменен уровень общего доступа к Sway|SwayChangeShareLevel|Пользователь изменяет уровень общего доступа к Sway. Это событие фиксирует изменение пользователем области общего доступа, связанной с презентацией Sway, например, она может стать общедоступной или корпоративной.|
-|Создан Sway|SwayCreate|Пользователь создает Sway.|
-|Удален Sway|SwayDelete|Пользователь удаляет Sway.|
-|Дублирование Sway отключено|SwayDisableDuplication|Пользователь отключает дублирование Sway.|
-|Sway продублирован|SwayDuplicate|Пользователь дублирует Sway.|
-|Sway изменен|SwayEdit|Пользователь изменяет Sway.|
-|Дублирование Sway включено|EnableDuplication|Пользователь включает дублирование Sway. Возможность включения пользователем дублирования презентации Sway поддерживается по умолчанию.|
-|Общий доступ к Sway отменен|SwayRevokeShare|Пользователь отменяет общий доступ к Sway. При этом изменяются ссылки, связанные со Sway.|
-|Предоставлен общий доступ к Sway|SwayShare|Пользователь собирается предоставить общий доступ к Sway. Это событие фиксирует действие пользователя по выбору определенного общего назначения в меню общего доступа Sway. Это событие не указывает, завершил ли пользователь действие по предоставлению общего доступа.|
-|Внешний общий доступ к Sway выключен|SwayExternalSharingOff|Администратор отключает внешний общий доступ к Sway для всей организации с помощью Центра администрирования Microsoft 365.|
-|Включен внешний общий доступ к Sway|SwayExternalSharingOn|Администратор включает внешний общий доступ к Sway для всей организации с помощью Центра администрирования Microsoft 365.|
-|Служба Sway выключена|SwayServiceOff|Администратор отключает Sway для всей организации с помощью Центра администрирования Microsoft 365.|
-|Служба Sway включена|SwayServiceOn|Администратор включает Sway для всей организации с помощью Центра администрирования Microsoft 365 (по умолчанию служба Sway включена).|
-|Sway просмотрен|SwayView|Пользователь просматривает Sway.|
 ||||
 
 ### <a name="user-administration-activities"></a>Действия, связанные с администрированием пользователей

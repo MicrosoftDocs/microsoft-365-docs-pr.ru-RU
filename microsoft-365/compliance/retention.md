@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: ff99e61c82f0427d79d8aca99acc82a338f79b8a
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: b799f35789ac113128ecb1adcbeae48aede7f847
+ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649156"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662313"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -115,7 +115,7 @@ ms.locfileid: "46649156"
   
 Когда политика хранения заблокирована:
 
-- Никто не может выключить
+- Никто не может ее отключить
 - Места могут быть добавлены, но не удалены
 - Контент, на который распространяется политика, не может быть изменен или удален в течение срока хранения
 - Вы можете продлить срок хранения, но не уменьшить его
