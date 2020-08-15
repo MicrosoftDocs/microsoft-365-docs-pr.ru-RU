@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Здесь объясняется, как в компании Contoso используют Microsoft Endpoint Configuration Manager для развертывания приложений Microsoft 365 для предприятий.
-ms.openlocfilehash: 4a36e33a6f2ef6df880864dd852f0f63056946e6
-ms.sourcegitcommit: 584e2e9db8c541fe32624acdca5e12ee327fdb63
-ms.translationtype: HT
+ms.openlocfilehash: de6a5348a49a490afa3c3ac632e66026966e2ef3
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44679042"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695162"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Развертывание приложений Microsoft 365 для предприятий в компании Contoso
 
@@ -79,12 +79,12 @@ ms.locfileid: "44679042"
  
 ## <a name="next-step"></a>Следующий шаг
 
-[Узнайте](contoso-mdm.md), как в компании Contoso используют Microsoft Intune в Microsoft 365 корпоративный для управления устройствами и работающими на них приложениями в организации.
+[Узнайте](contoso-mdm.md) , как компания Contoso использует Microsoft Intune в Microsoft 365 для управления устройствами и приложениями, которые работают на них в своей организации.
 
 ## <a name="see-also"></a>См. также
 
-[Приложения Microsoft 365 для предприятий для Microsoft 365 корпоративный](office365proplus-infrastructure.md)
+[Приложения Microsoft 365 для предприятий](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[Руководство по развертыванию](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
 [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md)

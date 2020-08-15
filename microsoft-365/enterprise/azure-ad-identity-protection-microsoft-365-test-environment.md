@@ -1,5 +1,5 @@
 ---
-title: Защита удостоверений Azure AD для тестовой среды Microsoft 365 корпоративный
+title: Защита удостоверений Azure AD для тестовой среды Microsoft 365 для предприятий
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,31 +14,31 @@ ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Настройка защиты идентификации Azure AD и анализ текущих учетных записей в тестовой среде Microsoft 365 Enterprise.
-ms.openlocfilehash: 3f3740e42c7ec909f44a3c761dfc743359b3f030
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Настройка защиты идентификации Azure AD и анализ текущих учетных записей в тестовой среде Microsoft 365 для предприятия.
+ms.openlocfilehash: bd1e7560e978b13d24e9e93a99a2567adca95c75
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633647"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46694994"
 ---
-# <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Защита удостоверений Azure AD для тестовой среды Microsoft 365 корпоративный
+# <a name="azure-ad-identity-protection-for-your-microsoft-365-for-enterprise-test-environment"></a>Защита удостоверений Azure AD для тестовой среды Microsoft 365 для предприятий
 
-*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для тестовых сред предприятия.*
 
 Защита удостоверений Azure Active Directory (Azure AD) позволяет обнаруживать потенциальные уязвимости, затрагивающие удостоверения вашей организации, настраивать автоматические ответы и изучению инцидентов. В этой статье описано, как использовать защиту удостоверений Azure AD для просмотра анализа учетных записей тестовой среды.
 
-Настройка защиты идентификации Azure AD в тестовой среде Microsoft 365 Enterprise состоит из двух этапов:
+Настройка защиты идентификации Azure AD в среде тестирования Microsoft 365 для предприятия состоит из двух этапов:
 
-1. Создайте среду тестирования Microsoft 365 корпоративный.
+1. Создайте тестовую среду Microsoft 365 для предприятий.
 2. Используйте защиту удостоверений Azure AD.
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1. Создание собственной тестовой среды Microsoft 365 корпоративный
+## <a name="phase-1-build-out-your-microsoft-365-for-enterprise-test-environment"></a>Этап 1: создание тестовой среды Microsoft 365 для предприятий
 
 Если вы хотите просто протестировать защиту удостоверения Azure AD в упрощенном виде с минимальными требованиями, следуйте инструкциям, приведенным в разделе [облегченная базовая конфигурация](lightweight-base-configuration-microsoft-365-enterprise.md).
   
@@ -49,19 +49,17 @@ ms.locfileid: "42633647"
   
 ## <a name="phase-2-use-azure-ad-identity-protection"></a>Этап 2: использование системы защиты удостоверений Azure AD
 
-1. Откройте частный экземпляр браузера и войдите на портал Azure, [https://portal.azure.com](https://portal.azure.com) используя учетную запись глобального администратора вашей тестовой среды Microsoft 365 Enterprise.
+1. Откройте частный экземпляр браузера и войдите на портал Azure, [https://portal.azure.com](https://portal.azure.com) используя учетную запись глобального администратора для тестовой среды Microsoft 365 для предприятия.
 2. На портале Azure введите **Защита удостоверений** в поле поиска, а затем щелкните элемент **Защита удостоверений Azure AD**.
 3. В колонке **Защита удостоверений — обзор** выберите каждый из отчетов, чтобы увидеть их отчеты.
 4. В разделе **уведомите**щелкните **Пользователи под угрозой риск обнаруженные оповещения**.
 5. В области **оповещения пользователей на обнаруженных угрозах** выберите **средний**.
 6. Для **отправки сообщений электронной почты следующим пользователям**выберите **включен** и убедитесь, что ваша учетная запись глобального администратора входит в список выбранных участников.
-7. Щелкните **Сохранить**.
+7. Нажмите кнопку **Сохранить**.
 
 Выберите другие политики в разделе **Защита** , чтобы узнать, как их настроить. Если вы создаете и активируете политику, убедитесь, что она не блокирует доступ к слишком широкому объему условий, или вы не можете войти в систему, даже в качестве глобального администратора.
 
 Дополнительные сведения о тестировании и экспериментах приведены в разделе [моделирование событий риска](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook).
-
-Чтобы получить сведения и ссылки на странице "Защита удостоверений Azure AD" в рабочей среде, ознакомьтесь со статьей " [Защита от кражи учетных данных](identity-secure-user-sign-ins.md#identity-ident-prot) " на этапе идентификации.
 
 ## <a name="next-step"></a>Следующий шаг
 
@@ -69,10 +67,10 @@ ms.locfileid: "42633647"
 
 ## <a name="see-also"></a>См. также
 
-[Шаг 2. Идентификация](identity-infrastructure.md)
+[Схема удостоверений](identity-roadmap-microsoft-365.md)
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)

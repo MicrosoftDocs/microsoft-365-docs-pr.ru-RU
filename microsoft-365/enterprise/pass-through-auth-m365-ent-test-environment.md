@@ -9,7 +9,7 @@ ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка сквозной проверки подлинности для тестовой среды Microsoft 365
-ms.openlocfilehash: 8a9a8847d79e1d114f0ddfb4843cbb7b9f9f0d4c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 1b5540f2e16ac0267bf33faf42defe6bca6d25cd
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631421"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46695198"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Сквозная проверка подлинности для тестовой среды Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать как для Microsoft 365 Enterprise, так и для корпоративных тестовых сред Office 365.*
 
 Организации, которые хотят напрямую использовать свою локальную инфраструктуру доменных служб Active Directory (AD DS) при проверке подлинности для приложений и облачных служб Майкрософт, могут использовать сквозную проверку подлинности. В этой статье описывается, как можно настроить тестовую среду Microsoft 365 для сквозной проверки подлинности с созданием следующей конфигурации:
   
@@ -41,7 +41,7 @@ ms.locfileid: "43631421"
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "43631421"
   
 Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
+- Пробная или платная подписка Microsoft 365:
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. Azure AD Connect работает на APP1 для периодической синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подпиской на Microsoft 365.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-pass-through-authentication"></a>Этап 2. Настройка Azure AD Connect на виртуальной машине APP1 для сквозной проверки подлинности
@@ -80,11 +80,11 @@ ms.locfileid: "43631421"
 
 10.    Выберите пункт **Сквозная проверка подлинности**. На панели **Сквозная проверка подлинности** перечислены серверы, где установлены агенты проверки подлинности. Виртуальная машина APP1 должна отображаться в списке. Закройте панель **Сквозная проверка подлинности**.
 
-Затем проверьте возможность входа в вашу подписку с помощью учетной записи <strong>user1@testlab.</strong>\<общедоступный домен> на имя пользователя User1.
+Затем проверьте возможность входа в подписку с помощью <strong>User1@testlab.</strong>\<your public domain> на имя пользователя учетной записи User1.
 
 1. Находясь в APP1, выйдите и повторно войдите, используя другую учетную запись.
 
-2. При появлении запроса имени пользователя и пароля, укажите <strong>user1@testlab.</strong>\<общедоступный домен> и пароль пользователя User1. Должен осуществиться успешный вход в качестве пользователя User1.
+2. При появлении запроса имени пользователя и пароля, укажите <strong>user1@testlab.</strong>\<your public domain> и пароль пользователя User1. Должен осуществиться успешный вход в качестве пользователя User1.
 
 Обратите внимание, что хотя у пользователя User1 есть разрешения администратора для домена AD DS TESTLAB, он не является глобальным администратором. Следовательно, значок **Администратор** не будет отображаться.
 
@@ -94,7 +94,7 @@ ms.locfileid: "43631421"
  
 Конфигурация состоит из следующих компонентов:
 
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS testlab.\<доменное имя>.
+- Пробную или платную подписку Microsoft 365 в формате testlab с DNS-доменом.\<your domain name> -
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. Агент проверки подлинности работает на компьютере APP1 для обработки запросов сквозной проверки подлинности от клиента Azure AD, связанного с подпиской на Microsoft 365.
 
 ## <a name="next-step"></a>Следующий шаг
@@ -103,8 +103,8 @@ ms.locfileid: "43631421"
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)
