@@ -343,8 +343,12 @@
       items:
         - name: Управление записями
           href: records-management.md
-        - name: Записи
+        - name: Сведения о записях
           href: records.md
+        - name: Объявление записей
+          href: declare-records.md
+        - name: Управление версиями записей
+          href: record-versioning.md
 - name: Управление обнаружением электронных данных
   items:
     - name: eDiscovery в Microsoft 365

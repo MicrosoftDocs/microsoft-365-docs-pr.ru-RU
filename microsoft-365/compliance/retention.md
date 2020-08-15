@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках и метках хранения, которые помогут вам хранить нужный контент и избавляться от ненужного.
-ms.openlocfilehash: b799f35789ac113128ecb1adcbeae48aede7f847
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: b0ce412609ac9c7084c1c598a327cde7c055c101
+ms.sourcegitcommit: 919b5d0f33b41b4beaca5fbb06e1c75d65027b7e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662313"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46757572"
 ---
 # <a name="learn-about-retention-policies-and-retention-labels"></a>Сведения о политиках и метках хранения
 
@@ -58,7 +58,7 @@ ms.locfileid: "46662313"
 
 - Для почтовых ящиков Exchange: копия хранится в папке **Восстанавливаемые элементы**. 
 
-- Для сообщений каналов и чатов Teams: копия хранится в скрытой папке, размещенной в папке**Восстанавливаемые элементы** Exchange.
+- Для сообщений каналов и чатов Teams: копия хранится в скрытой папке **SubstrateHolds**, вложенной в папку **Восстанавливаемые элементы** Exchange.
 
 > [!NOTE]
 > Архивная библиотека использует хранилище, которое не исключается из расчета расхода квоты хранилища на сайте. Возможно, вам придется увеличить объем хранилища при использовании параметров хранения для групп SharePoint и Microsoft 365.

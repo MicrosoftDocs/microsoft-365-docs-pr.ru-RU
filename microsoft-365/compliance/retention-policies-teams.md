@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Узнайте о политиках хранения, применимых к Microsoft Teams.
-ms.openlocfilehash: 9c7232b5e90dd51322755220c40198a5bd077cce
-ms.sourcegitcommit: c04f1207cfaddac2a9abef38967c17d689756a96
+ms.openlocfilehash: 8599774994ccabce716c1366c0ffc6e1773626e9
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46577977"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685811"
 ---
 # <a name="learn-about-retention-for-microsoft-teams"></a>Сведения о хранении в Microsoft Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "46577977"
 
 1. **Если сообщение не удаляется** в течение срока хранения: в конце срока хранения сообщение перемещается в папку SubstrateHolds. 
 
-2. **Если элемент удален пользователем** в течение периода, элемент немедленно перемещается в папку SubstrateHolds. Если пользователь удаляет сообщение оттуда или очищает папку SubstrateHolds, элемент удаляется без возможности восстановления. В противном случае сообщение окончательно удаляется через день после нахождения в папке SubstrateHolds.
+2. **Если элемент удален пользователем** в течение периода, элемент немедленно перемещается в папку SubstrateHolds. Сообщение окончательно удаляется через день после нахождения в папке SubstrateHolds.
 
 
 ## <a name="skype-for-business-and-teams-interop-chats"></a>Skype для бизнеса и чаты Teams
