@@ -9,24 +9,24 @@ ms.date: 04/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Создание среды Microsoft 365 для тестирования удостоверений и доступа к устройствам.
-ms.openlocfilehash: 45749140698553a75df50ed1111cdbfc8eb15684
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
-ms.translationtype: HT
+ms.openlocfilehash: c5bc0fbbb3ae3839cb7aa71e8c840784ae4a4cad
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153742"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685858"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Удостоверения и доступ к устройствам для тестовой среды Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для тестовых сред предприятия.*
 
-[Конфигурации удостоверений и доступа к устройствам](microsoft-365-policies-configurations.md) — это набор функций и политик условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD), включая Office 365 и Microsoft Intune в Microsoft 365 корпоративный.
+[Конфигурации доступа для удостоверений и устройств](microsoft-365-policies-configurations.md) — это набор функций и политик условного доступа для защиты доступа ко всем службам, интегрированным с Azure Active Directory (Azure AD).
 
 Чтобы создать тестовую среду с применением этих политик:
 
@@ -42,10 +42,10 @@ ms.locfileid: "43153742"
 
 [Руководства по лаборатории тестирования для дополнительного удостоверения](m365-enterprise-test-lab-guides.md#identity)
 
-[Шаг 2. Идентификация](identity-infrastructure.md)
+[Схема удостоверений](identity-roadmap-microsoft-365.md)
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)

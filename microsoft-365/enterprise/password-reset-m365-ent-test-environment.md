@@ -9,7 +9,7 @@ ms.date: 12/13/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,29 +18,29 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: 'Сводка: сведения о том, как настроить и проверить сброс пароля для тестовой среды Microsoft 365.'
-ms.openlocfilehash: 96a8b03ca978ac2b2174742c0208444d853ba7c9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 98e6b8d8432c86e9d1c432128ed6d223da83610e
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632891"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686540"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Сброс пароля для тестовой среды Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для тестовых сред предприятия.*
 
 Функция самостоятельного сброса паролей (SSPR) Azure Active Directory (Azure AD) позволяет пользователям сбрасывать пароли и разблокировать учетные записи. 
 
 В этой статье описано, как настроить и проверить сброс паролей в тестовой среде Microsoft 365 в три этапа:
 
-1.    Создайте среду тестирования Microsoft 365 корпоративный.
+1.    Создайте тестовую среду Microsoft 365 для предприятий.
 2.  Включите обратную запись пароля.
 3.    Настройте и проверьте сброс паролей для учетной записи "Пользователь 3".
     
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
 
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
@@ -50,7 +50,7 @@ ms.locfileid: "43632891"
   
 Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
+- Пробная или платная подписка Microsoft 365 E5
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
 - Azure AD Connect работает на APP1 для синхронизации домена TESTLAB доменных служб Active Directory (AD DS) с клиентом Azure AD, связанным с подпиской Microsoft 365.
 
@@ -89,16 +89,14 @@ ms.locfileid: "43632891"
 11. В окне **Вернуться в свою учетную запись** введите новый пароль учетной записи для пользователя 3 и нажмите кнопку **Завершить**. Запишите измененный пароль учетной записи пользователя 3 и храните его в безопасном месте.
 12. На отдельной вкладке того же браузера перейдите к [https://portal.office.com](https://portal.office.com), а затем выполните вход, используя новый пароль и имя учетной записи "Пользователь 3". Откроется **Домашняя страница Microsoft Office**.
 
-Информацию и ссылки для настройки сброса паролей в рабочей среде вы найдете в описании шага [Простой сброс паролей](identity-secure-your-passwords.md#identity-pw-reset) этапа "Идентификация".
-
 ## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)

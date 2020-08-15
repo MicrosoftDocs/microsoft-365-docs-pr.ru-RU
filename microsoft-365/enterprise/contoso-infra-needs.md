@@ -9,18 +9,18 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: В этой статье описана базовая структура локальной ИТ-инфраструктуры компании Contoso и способы удовлетворения потребностей компании с помощью Microsoft 365 корпоративный.
-ms.openlocfilehash: 3899466e6c8ad50ad3a3d97863d1368ba1d8af20
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
-ms.translationtype: HT
+description: Изучите базовую структуру локальной ИТ-инфраструктуры Contoso и то, как ее бизнес-требования были выполнены корпорацией Майкрософт 365 для предприятий.
+ms.openlocfilehash: 3dd744a8d936307c61303bf8ba0f2f198af59d91
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011201"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685834"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>ИТ-инфраструктура и бизнес-потребности компании Contoso
 
@@ -112,20 +112,20 @@ ms.locfileid: "44011201"
 
   Автоматизация установки в организации обновлений в ОС Windows и приложений Microsoft 365 для предприятий.
 
-## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>Сопоставление бизнес-потребностей компании Contoso с возможностями, предоставляемыми Microsoft 365 корпоративный
+## <a name="mapping-contosos-business-needs-to-microsoft-365-for-enterprise"></a>Сопоставление бизнес-потребностей компании Contoso с Microsoft 365 для предприятий
 
 Перед развертыванием ИТ-подразделение компании Contoso сопоставило бизнес-потребности с функциями, имеющимися в плане Microsoft 365 E5, указанным ниже образом.
 
-||||
+
+| Category | Потребности бизнеса | Microsoft 365 для корпоративных продуктов и функций |
 |:-------|:-----|:-----|
-| **Категория** | **Бизнес-потребность** | **Продукты или функции Microsoft 365 корпоративный** |
 | Производительность труда |  |  |
 |  | Упрощение совместной работы | Microsoft Teams, SharePoint, OneDrive |
 |  | Повышение производительности труда удаленных и мобильных сотрудников | Рабочие нагрузки Microsoft 365 и облачные данные |
 |  | Повышение уровня креативности и инноваций | Windows Ink, Кортана на рабочем месте, PowerPoint |
 | Безопасность |  |  |
 |  | Управление удостоверениями и доступом | Выделенные учетные записи глобальных администраторов с многофакторной проверкой подлинности (MFA) Azure и Azure AD Privileged Identity Management (PIM) <BR> Многофакторная проверка подлинности для всех учетных записей пользователей <BR> Условный доступ <BR> Windows Hello <BR> Credential Guard в Защитнике Windows |
-|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Расширенная защита от угроз <BR> Office 365 Advanced Threat Protection <BR> Анализ угроз и реагирование на них в Office 365 <BR> |
+|  | Защита от угроз | Advanced Threat Analytics <BR> Защитник Windows <BR> Расширенная защита от угроз <BR> Office 365 Advanced Threat Protection <BR> Исследование угроз и ответ Microsoft 365 <BR> |
 |  | Защита информации | Azure Information Protection <BR> Защита от потери данных (DLP) <BR> Windows Information Protection (WIP) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | Управление безопасностью | Центр безопасности Azure  <BR> Центр безопасности Защитника Windows |
 | Удаленный доступ, доступ с мобильных устройств и работа с бизнес-партнерами |  |  |
@@ -133,7 +133,7 @@ ms.locfileid: "44011201"
 |  | Уменьшение инфраструктуры удаленного доступа для сотрудников | Рабочие нагрузки Microsoft 365 и облачные данные |
 |  | Повышение качества подключения и снижение издержек на транзакции типа бизнес-бизнес (B2B) | Федеративная проверка подлинности и облачные ресурсы |
 | Соответствие требованиям |  |  |
-|  | Соответствие требованиям региональных нормативных актов | Функции, необходимые для выполнения требований GDPR, в Office 365 |
+|  | Соответствие требованиям региональных нормативных актов | Функции GDPR в Microsoft 365 |
 | Управление |  |  |
 |  | Снижение затрат, связанных с ИТ, на установку обновлений клиентов | Круги развертывания <BR> Обновления Windows 10 Корпоративная <BR> Обновления приложений Microsoft 365 для предприятий |
 ||||
@@ -144,6 +144,6 @@ ms.locfileid: "44011201"
 
 ## <a name="see-also"></a>См. также
 
-[Руководство по развертыванию](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
 [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md)

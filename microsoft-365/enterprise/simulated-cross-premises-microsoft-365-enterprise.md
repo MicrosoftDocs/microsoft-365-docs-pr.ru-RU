@@ -9,7 +9,7 @@ ms.date: 11/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
@@ -17,16 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: seo-marvel-apr2020
 description: Сводка. Создание имитации распределенной виртуальной сети в Microsoft Azure как тестовой среды Microsoft 365.
-ms.openlocfilehash: 6a9eb7377ff7ce3aa5b251d345e57ae2a25ba926
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: afbf294d0637c3454cedadec3268e74411a3c399
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44817075"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685728"
 ---
 # <a name="simulated-cross-premises-virtual-network-in-a-microsoft-365-test-environment"></a>Имитация распределенной виртуальной сети в тестовой среде Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать как для Microsoft 365 Enterprise, так и для корпоративных тестовых сред Office 365.*
 
 В этой статье описаны действия по созданию имитации гибридной облачной среды в Microsoft Azure с помощью двух виртуальных сетей Azure. Ниже показана итоговая конфигурация. 
   
@@ -59,12 +59,12 @@ ms.locfileid: "44817075"
 > [!NOTE]
 > Эта конфигурация требует платной подписки на Azure. 
 
-Вы можете использовать полученную среду для тестирования функций [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise) с дополнительными [руководствами по лаборатории тестирования](m365-enterprise-test-lab-guides.md) или без них.
+Вы можете использовать полученную среду для тестирования функций и функций [Microsoft 365 для предприятий](https://www.microsoft.com/microsoft-365/enterprise) с дополнительными [руководствами по лаборатории тестирования](m365-enterprise-test-lab-guides.md) или собственными разработчиками.
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Перейдите в раздел [Руководства по лаборатории тестирования Microsoft 365 корпоративный](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для наглядного отображения всех статей, относящихся к данной теме.
+> Перейдите в раздел [microsoft 365 for Enterprise Test Guide Guide Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для визуальной карты со всеми статьями, посвященными пошаговым руководством по лаборатории тестирования Microsoft 365 для предприятий.
 
 ## <a name="phase-1-configure-the-testlab-virtual-network"></a>Этап 1. Настройка виртуальной сети TestLab
 
@@ -205,7 +205,7 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
   
 Ваша имитированная гибридная облачная среда Azure готова к тестированию.
   
-Теперь вы можете экспериментировать с дополнительными возможностями [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise).
+Теперь вы можете поэкспериментировать с дополнительными возможностями [Microsoft 365 для предприятий](https://www.microsoft.com/microsoft-365/enterprise).
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -217,8 +217,8 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)

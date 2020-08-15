@@ -9,7 +9,7 @@ ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -17,37 +17,37 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: Это руководство по лаборатории тестирования поможет вам создать имитацию предприятия для Microsoft 365 корпоративный.
-ms.openlocfilehash: 486429bf9e1c0a88c9beb01a092f968256c1fa77
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+description: Используйте это руководство по лаборатории тестирования для создания смоделированной корпоративной тестовой среды для Microsoft 365 для предприятий.
+ms.openlocfilehash: 9f4cbb300946109368759d6ec8f1120332e1ed92
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818499"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685680"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>Базовая конфигурация "имитация предприятия"
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать как для Microsoft 365 Enterprise, так и для корпоративных тестовых сред Office 365.*
 
-В этой статье вы найдете пошаговые инструкции по созданию упрощенной среды для Microsoft 365 корпоративный, которая включает:
+В этой статье представлены пошаговые инструкции по созданию упрощенной среды для Microsoft 365 для предприятий, включающей:
 
 - Пробная или платная подписка Microsoft 365 E5
 - упрощенную интрасеть организации, подключенную к Интернету и состоящую из трех виртуальных машин в виртуальной сети Azure (DC1, APP1 и CLIENT1).
  
 ![Базовая конфигурация "имитация предприятия"](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-Вы можете использовать полученную среду для тестирования функций [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise) с дополнительными [руководствами по лаборатории тестирования](m365-enterprise-test-lab-guides.md) или без них.
+Вы можете использовать полученную среду для тестирования функций и функций [Microsoft 365 для предприятий](https://www.microsoft.com/microsoft-365/enterprise) с дополнительными [руководствами по лаборатории тестирования](m365-enterprise-test-lab-guides.md) или собственными разработчиками.
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> Перейдите в раздел [Руководства по лаборатории тестирования Microsoft 365 корпоративный](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к данной теме.
+> Перейдите в раздел [microsoft 365 for Enterprise Test Guide Guide Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для визуальной карты со всеми статьями, посвященными пошаговым руководством по лаборатории тестирования Microsoft 365 для предприятий.
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>Этап 1. Создание имитированной интрасети
 
 На этом этапе вы создаете имитацию интрасети в службах инфраструктуры Azure, которая включает контроллер домена Active Directory Domain Services (AD DS), сервер приложений и клиентский компьютер. 
 
-Вы будете использовать эти компьютеры в дополнительных [Руководствах по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md) для настройки и демонстрации гибридных удостоверений и других возможностей.
+Вы будете использовать эти компьютеры в дополнительных [руководствах по лаборатории тестирования Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md) , чтобы настроить и продемонстрировать гибридные удостоверения и другие возможности.
 
 ### <a name="method-1-build-your-simulated-intranet-with-an-azure-resource-manager-template"></a>Способ 1. Создание имитированной интрасети с помощью шаблона Azure Resource Manager
 
@@ -371,7 +371,7 @@ Restart-Computer
 
 На портале Azure подключитесь к компьютеру CLIENT1, используя учетную запись CORP\User1.
 
-Чтобы создать пробную подписку на Office 365 E5, выполните инструкции из [этапа 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-office-365-e5-subscription) руководства по лаборатории тестирования простой базовой конфигурации.
+Чтобы создать пробную подписку на Office 365 E5, выполните инструкции из [этапа 1](lightweight-base-configuration-microsoft-365-enterprise.md#phase-1-create-your-microsoft-365-e5-subscription) руководства по лаборатории тестирования простой базовой конфигурации.
 
 Чтобы настроить новую пробную подписку на Office 365 E5, выполните инструкции из [этапа 2](lightweight-base-configuration-microsoft-365-enterprise.md#phase-2-configure-your-office-365-trial-subscription) руководства по лаборатории тестирования простой базовой конфигурации.
 
@@ -379,7 +379,7 @@ Restart-Computer
 
 Если вам требуется только среда тестирования Office 365, на этом можно остановиться. 
 
-См. [Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md) для получения дополнительных руководств по лаборатории тестирования, применимых одновременно к Office 365 и Microsoft 365.
+Дополнительные руководства по лаборатории тестирования, которые относятся как к Microsoft 365, так и к Office 365, можно найти в [статье microsoft 365 for Enterprise Lab Lab Guides](m365-enterprise-test-lab-guides.md) .
 
 ### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Добавление пробной подписки Microsoft 365 E5.
 
@@ -398,7 +398,7 @@ Restart-Computer
   
 ![Этап 2 базовой конфигурации "имитация предприятия"](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
-Теперь вы можете экспериментировать с дополнительными возможностями [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise).
+Теперь вы можете поэкспериментировать с дополнительными возможностями [Microsoft 365 для предприятий](https://www.microsoft.com/microsoft-365/enterprise).
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -410,8 +410,8 @@ Restart-Computer
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)

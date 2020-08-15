@@ -9,7 +9,7 @@ ms.date: 05/26/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: ''
 description: Сводка. Настройте и продемонстрируйте синхронизацию хэшей паролей и вход для тестовой среды Microsoft 365.
-ms.openlocfilehash: 2d5fbd3ed2a2afb994fc36f5ba3a15a8c55a274e
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: 2930d147e2ae3277b0af4d2aa81a602c73128439
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44819392"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686552"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Синхронизация хэшей паролей для тестовой среды Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать как для Microsoft 365 Enterprise, так и для корпоративных тестовых сред Office 365.*
 
 Во многих организациях используются Azure AD Connect и синхронизация хэша паролей в целях синхронизации набора учетных записей в своем локальном лесу доменных служб Active Directory (AD DS) с набором учетных записей в клиенте Azure AD для подписки на Microsoft 365. В этой статье описывается добавление синхронизации хэша паролей в тестовую среду Microsoft 365, в результате чего получается следующая конфигурация:
   
@@ -40,7 +40,7 @@ ms.locfileid: "44819392"
 2. Установка и настройка Azure AD Connect на виртуальной машине APP1.
     
 > [!TIP]
-> Перейдите в раздел [Руководства по лаборатории тестирования Microsoft 365 корпоративный](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к данной теме.
+> Перейдите в раздел [microsoft 365 for Enterprise Test Guide Guide Guide](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для визуальной карты со всеми статьями, посвященными пошаговым руководством по лаборатории тестирования Microsoft 365 для предприятий.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>Этап 1. Создание тестовой среды "имитация предприятия" для Microsoft 365.
 
@@ -50,7 +50,7 @@ ms.locfileid: "44819392"
   
 Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
+- Пробная или платная подписка Microsoft 365 E5
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в виртуальной сети Azure. DC1 — контроллер домена для testlab.\<your public domain name> Домен AD DS.
 
 ## <a name="phase-2-create-and-register-the-testlab-domain"></a>Этап 2. Создание и регистрация домена testlab
@@ -59,7 +59,7 @@ ms.locfileid: "44819392"
 
 Сначала обратитесь к своему поставщику услуг регистрации общедоступных записей DNS, чтобы создать новое имя общедоступного домена DNS на основе текущего доменного имени и добавить его в подписку. Рекомендуем использовать имя **testlab.**\<your public domain>. Например, если имя вашего общедоступного домена — **<span>contoso</span>.com**, добавьте имя **<span>testlab</span>.contoso.com**.
   
-Затем добавьте домен **testlab.**\<your public domain> в пробную или платную подписку на Microsoft 365 или Office 365, пройдя процесс регистрации домена. Он включает добавление дополнительных записей DNS к домену **testlab.**\<your public domain> . Дополнительные сведения см. в статье [Добавление домена в Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain). 
+Затем добавьте домен **testlab.**\<your public domain> подписку на пробную или платную подписку на Microsoft 365, выполнив процедуру регистрации доменов. Он включает добавление дополнительных записей DNS к домену **testlab.**\<your public domain> . Дополнительные сведения см. [в статье Добавление домена в Microsoft 365](../admin/setup/add-domain.md). 
 
 Ниже показана итоговая конфигурация.
   
@@ -67,7 +67,7 @@ ms.locfileid: "44819392"
   
 Конфигурация состоит из следующих компонентов:
 
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS testlab.\<your public domain name> -
+- Пробная подписка Microsoft 365 и платная подписка на DNS-домен testlab.\<your public domain name> -
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure.
 
 Обратите внимание, как домен testlab.\<your public domain name> в настоящее время:
@@ -144,10 +144,10 @@ ms.locfileid: "44819392"
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

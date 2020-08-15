@@ -1,5 +1,5 @@
 ---
-title: Рекомендуемые политики Teams — Microsoft 365 корпоративный | Документы Майкрософт
+title: Рекомендуемые политики Teams — Microsoft 365 для предприятий | Документы Майкрософт
 description: В этой статье описываются политики для рекомендаций Майкрософт по обеспечению безопасности связи в Teams и доступа к файлам.
 author: MicrosoftHeidi
 manager: serdars
@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 41ead64a7a94dcd5afb22a311d7637326949fc7c
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636727"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685658"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>Рекомендации политики по обеспечению безопасности для чатов, групп и файлов в Teams
 
@@ -60,7 +60,7 @@ ms.locfileid: "43636727"
 
 |Уровень защиты|Политики|Дополнительные сведения о реализации Teams|
 |:---------------|:-------|:----------------|
-|**Базовый**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Убедитесь, что в список приложений включены Teams и зависимые службы. Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье.|
+|**Базовый уровень**|[Требовать, чтобы риск входа в систему был *средним* или *высоким*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Убедитесь, что в список приложений включены Teams и зависимые службы. Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье.|
 |        |[Блокирование клиентов, не поддерживающих современную проверку подлинности](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|Включение Teams и зависимых служб при назначении облачных приложений.|
 |        |[Необходимость смены пароля для пользователей с высоким риском](identity-access-policies.md#high-risk-users-must-change-password)|Заставляет пользователей Teams менять свой пароль при входе в учетную запись, если для их учетных записей обнаружено значительное опасное действие. Убедитесь, что в список приложений включены Teams и зависимые службы.|
 |        |[Применение политик защиты данных приложений](identity-access-policies.md#apply-app-data-protection-policies)|Убедитесь, что в список приложений включены Teams и зависимые службы. Обновите политику для каждой платформы (iOS, Android, Windows).|
@@ -69,12 +69,12 @@ ms.locfileid: "43636727"
 |        |[Требовать использования соответствующих политике компьютеров](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Включение Teams и зависимых служб в эту политику.|
 |**Конфиденциально**|[Требовать, когда риск входа в систему *мал*, *средний* или *высокий*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Кроме того, в Teams есть правила гостевого доступа и внешнего доступа, которые также будут рассмотрены далее в этой статье. Включение Teams и зависимых служб в эту политику.|
 |         |[Требовать соответствующие компьютеры *и* мобильные устройства](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Включение Teams и зависимых служб в эту политику.|
-|**Строго регулируемый уровень**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Независимо от удостоверения пользователя, MFA будет использоваться вашей организацией. Включение Teams и зависимых служб в эту политику.
+|**Строго контролируемый**|[*Всегда* требовать MFA](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Независимо от удостоверения пользователя, MFA будет использоваться вашей организацией. Включение Teams и зависимых служб в эту политику.
 | | |
 
 ## <a name="teams-dependent-services-architecture"></a>Архитектура зависимых служб Teams
 
-На приведенной ниже схеме показаны службы, на которые полагаются службы Teams. Для получения дополнительных сведений и дополнительных иллюстраций ознакомьтесь со статьей [Microsoft Teams и соответствующими службами производительности в microsoft 365 для ИТ архитекторов](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects).
+На приведенной ниже схеме показаны службы, на которые полагаются службы Teams. Для получения дополнительных сведений и дополнительных иллюстраций ознакомьтесь со статьей [Microsoft Teams и соответствующими службами производительности в microsoft 365 для ИТ архитекторов](../solutions/productivity-illustrations.md).
 
 ![Диаграмма, на которой показаны зависимости Teams в SharePoint Online, OneDrive для бизнеса и Exchange.](../media/identity-access-logical-architecture-teams.png)
 

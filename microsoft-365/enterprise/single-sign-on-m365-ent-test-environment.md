@@ -9,7 +9,7 @@ ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройте и протестируйте эффективный единый вход Azure AD для тестовой среды Microsoft 365.
-ms.openlocfilehash: ba3f943a53f05c452a8e01e40bb6924dc42a866e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 3ba229a62f66cad715f604bab91cd12032da7be8
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636872"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685776"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Эффективный единый вход Azure AD для тестовой среды Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать как для Microsoft 365 Enterprise, так и для корпоративных тестовых сред Office 365.*
 
 Эффективный единый вход Azure AD обеспечивает автоматический вход пользователей на компьютерах или устройствах, подключенных к сети организации. Эффективный единый вход Azure AD обеспечивает легкий доступ к облачным приложениям без использования дополнительных локальных компонентов.
 
@@ -41,7 +41,7 @@ ms.locfileid: "43636872"
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "43636872"
   
 Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
+- Пробная или платная подписка Microsoft 365 E5
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
 - Azure AD Connect работает на APP1 для периодической синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подпиской на Microsoft 365.
 
@@ -83,7 +83,7 @@ ms.locfileid: "43636872"
 
 11. На портале Azure, в области слева, выберите **Azure Active Directory > Azure AD Connect**. Убедитесь, что функция **Эффективный единый вход** **включена**.
 
-Затем проверьте возможность входа в вашу подписку с помощью учетной записи <strong>user1@testlab.</strong>\<общедоступный домен> на имя пользователя User1.
+Затем проверьте возможность входа в подписку с помощью <strong>User1@testlab.</strong>\<your public domain> на имя пользователя учетной записи User1.
 
 1. В Internet Explorer на APP1 щелкните значок настроек и выберите **Свойства браузера**.
  
@@ -97,7 +97,7 @@ ms.locfileid: "43636872"
 
 6. Выйдите и повторно войдите, используя другую учетную запись.
 
-7. Укажите имя <strong>user1@testlab.</strong>\<общедоступный домен> и нажмите **Далее**. Вход в учетную запись User1 будет выполнен без запроса пароля. Это доказывает, что эффективный единый вход работает.
+7. Когда вам будет предложено выполнить вход, укажите <strong>User1@testlab.</strong>\<your public domain> имя, а затем нажмите кнопку **Далее**. Вход в учетную запись User1 будет выполнен без запроса пароля. Это доказывает, что эффективный единый вход работает.
 
 Обратите внимание, что хотя у пользователя User1 есть разрешения администратора для домена AD DS TESTLAB, он не является глобальным администратором для Azure AD. Следовательно, значок **Администратор** не будет отображаться.
 
@@ -108,12 +108,10 @@ ms.locfileid: "43636872"
  
 Конфигурация состоит из следующих компонентов:
 
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS testlab.\<доменное имя>.
+- Пробную или платную подписку Microsoft 365 в формате testlab с DNS-доменом.\<your domain name> -
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
 - Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской на Microsoft 365, с доменом AD DS TESTLAB. 
 - Эффективный единый вход Azure AD включен, поэтому при входе в облачные ресурсы Microsoft 365 с компьютеров в моделируемой интрасети не требуется указывать пароль учетной записи пользователя.
-
-Информацию и ссылки для настройки эффективного единого входа Azure AD в эксплуатационной среде вы найдете в описании шага [Упрощение входа пользователей](identity-secure-your-passwords.md#identity-sso) этапа "Идентификация".
 
 ## <a name="next-step"></a>Следующий шаг
 
@@ -121,10 +119,10 @@ ms.locfileid: "43636872"
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

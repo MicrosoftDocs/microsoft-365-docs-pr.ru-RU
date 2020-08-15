@@ -9,7 +9,7 @@ ms.date: 11/20/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: С помощью этих руководств по лаборатории тестирования вы можете настраивать демонстрационные и экспериментальные среды, а также среды разработки и тестирования для Microsoft 365 на крупных предприятиях.
-ms.openlocfilehash: 5907edd1bc42b9d679ed020331f225ef2d2b2594
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+ms.openlocfilehash: 685bf25db330b4bf43a3a7258aeb43517c239e81
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818745"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686770"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Руководства по лаборатории тестирования для Microsoft 365 на крупных предприятиях
 
@@ -43,7 +43,7 @@ ms.locfileid: "44818745"
 
 ## <a name="base-configuration"></a>Базовая настройка
 
-Вначале нужно создать тестовую среду для [Microsoft 365 на крупных предприятиях](https://docs.microsoft.com/microsoft-365-enterprise/), включающую Office 365 E5, Enterprise Mobility + Security (EMS) E5 и Windows 10 Корпоративная. Вы можете создать два типа базовой конфигурации.
+Для начала необходимо создать тестовую среду для [Microsoft 365 для предприятий](https://docs.microsoft.com/microsoft-365-enterprise/). Можно создать два различных типа базовых конфигураций:
 
 - Используйте [простую базовую конфигурацию](lightweight-base-configuration-microsoft-365-enterprise.md), если вы хотите настроить и продемонстрировать функции и возможности Microsoft 365 для крупных предприятий только в облачной среде, которая не включает каких-либо локальных компонентов.
 
@@ -63,7 +63,7 @@ ms.locfileid: "44818745"
   
    Включение и тестирование сквозной проверки подлинности на контроллере домена AD DS.
 
-- [Федеративная проверка подлинности](federated-identity-for-your-office-365-dev-test-environment.md)
+- [Федеративная проверка подлинности](federated-identity-for-your-microsoft-365-dev-test-environment.md)
   
    Включение и тестирование федеративной проверки подлинности на контроллере домена AD DS.
 

@@ -9,22 +9,22 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о том, как Contoso использует службу "удостоверение как услуга" (IDaaS) и предоставляет облачную проверку подлинности для сотрудников, а также федеративную проверку подлинности для партнеров и клиентов.
-ms.openlocfilehash: 77c90740fd39080ccc204552bc8407aa107e354a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
-ms.translationtype: HT
+ms.openlocfilehash: 795fb7dcb886c792c80d3bb251c9cb5774f1bf97
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633367"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686038"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Удостоверение для корпорации Contoso
 
-Корпорация Майкрософт предоставляет удостоверение как услугу (IDaaS) в своих облачных предложениях с Azure Active Directory (Azure AD). Для перехода на Microsoft 365 Enterprise в решении IDaaS Contoso нужно было использовать локального поставщика удостоверений и по-прежнему включать федеративную проверку подлинности с помощью существующих надежных сторонних поставщиков удостоверений.
+Корпорация Майкрософт предоставляет удостоверение как услугу (IDaaS) в своих облачных предложениях с Azure Active Directory (Azure AD). Чтобы использовать Microsoft 365 для предприятий, решение компании Contoso IDaaS использовало локальный поставщик удостоверений и по-прежнему включил федеративное проверку подлинности с существующими доверенными сторонними поставщиками удостоверений.
 
 ## <a name="contosos-active-directory-domain-services-forest"></a>Лес доменных служб Active Directory Contoso
 
@@ -55,7 +55,7 @@ Contoso необходимо было использовать учетные з
 
 Contoso необходимо было использовать собственный локальный лес AD DS при проверке подлинности для доступа к облачным ресурсам Microsoft 365. Было решено использовать синхронизацию хэша пароля (PHS).
 
-PHS синхронизирует локальный лес AD DS с клиентом Azure AD подписки на Microsoft 365 Enterprise. При этом копируются учетные записи пользователей и групп, а также хэшированные версии паролей от учетных записей пользователей. 
+ФС синхронизирует локальный лес доменных служб Active Directory с клиентом Azure AD своей подписки Microsoft 365 для предприятия, копируя учетные записи пользователей и групп и хешированную версию паролей учетных записей пользователей. 
 
 Для постоянной синхронизации каталога Contoso развернула средство Azure AD Connect на сервере в собственном ЦОД в Париже. 
 
@@ -81,8 +81,8 @@ PHS синхронизирует локальный лес AD DS с клиент
 
 ## <a name="see-also"></a>См. также
 
-[Удостоверение для Microsoft 365 корпоративный](identity-infrastructure.md)
+[Схема удостоверений для Microsoft 365](identity-roadmap-microsoft-365.md)
 
-[Руководство по развертыванию](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
 [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md)

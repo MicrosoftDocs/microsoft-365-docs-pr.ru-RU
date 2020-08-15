@@ -1,5 +1,5 @@
 ---
-title: Конфигурации доступа для удостоверений и устройств — Microsoft 365 корпоративный
+title: Конфигурации доступа для удостоверений и устройств — Microsoft 365 для предприятий
 description: В этой статье описываются рекомендации Майкрософт и основные понятия, связанные с развертыванием политик и конфигураций Secure электронной почты, документов и приложений.
 author: brendacarter
 manager: laurawi
@@ -17,12 +17,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - m365solution-identitydevice
-ms.openlocfilehash: 1a16fa9a26ab20065d213857614b06fdde6c0af1
-ms.sourcegitcommit: 126d22d8abd190beb7101f14bd357005e4c729f0
+ms.openlocfilehash: f39b5d72de630674ea6d58c30eadf211917de10d
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46530275"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686630"
 ---
 # <a name="identity-and-device-access-configurations"></a>Конфигурации доступа для удостоверений и устройств
 
@@ -87,7 +87,7 @@ ms.locfileid: "46530275"
 
 ## <a name="services-and-concepts-for-identity-and-device-access-protection"></a>Службы и концепции для защиты идентификации и доступа к устройствам
 
-Microsoft 365 корпоративный предназначен для крупных организаций и интегрирует Office 365 корпоративный, Windows 10 Корпоративная и Enterprise Mobility + Security (EMS), чтобы обеспечить возможность безопасного и совместной работы.
+Microsoft 365 для предприятий предназначен для крупных организаций и интегрирует Office 365 корпоративный, Windows 10 Корпоративная и Enterprise Mobility + Security (EMS), чтобы обеспечить возможность безопасного и совместной работы.
 
 В этом разделе представлены общие сведения о службах и возможностях Microsoft 365, важных для доступа к удостоверениям и устройствам.
 

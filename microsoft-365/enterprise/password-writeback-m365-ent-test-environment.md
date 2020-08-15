@@ -9,7 +9,7 @@ ms.date: 11/22/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: Сводка. Настройка обратной записи пароля для тестовой среды Microsoft 365
-ms.openlocfilehash: cc71b581730001d8dc021b5074e300fed636e3d9
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: b8c89ca7ef967c423b89db4559ef04f715a5f869
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632879"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686230"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Обратная запись пароля для тестовой среды Microsoft 365
 
-*Это руководство по лаборатории тестирования можно использовать только для тестовых сред Microsoft 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать только для Microsoft 365 для тестовых сред предприятия.*
 
 Обратная запись пароля позволяет пользователям обновлять свои пароли с помощью Azure Active Directory (Azure AD), которые затем реплицируются в локальных доменных службах Active Directory (AD DS). Благодаря функции обратной записи паролей пользователям не нужно обновлять свои пароли в локальных службах AD DS, где хранятся исходные учетные записи пользователей. Это помогает удаленным пользователям и пользователям, находящимся в пути, у которых нет подключения для удаленного доступа к сети локальной среды.
 
@@ -41,7 +41,7 @@ ms.locfileid: "43632879"
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 корпоративный.
+> Щелкните [здесь](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf), чтобы просмотреть схему всех статей, относящихся к руководствам по лаборатории тестирования Microsoft 365 для крупных предприятий.
   
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Этап 1. Настройка синхронизации хэша паролей для тестовой среды Microsoft 365
 
@@ -51,7 +51,7 @@ ms.locfileid: "43632879"
   
 Конфигурация состоит из следующих компонентов: 
   
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5.
+- Пробная или платная подписка Microsoft 365 E5
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
 - Azure AD Connect работает на APP1 для синхронизации домена AD DS TESTLAB с клиентом Azure AD, связанным с подпиской Microsoft 365.
 
@@ -128,23 +128,21 @@ ms.locfileid: "43632879"
 
 Конфигурация состоит из следующих компонентов:
 
-- Пробные или платные подписки на Microsoft 365 E5 или Office 365 E5 с зарегистрированным доменом DNS TESTLAB.\<доменное имя>.
+- Пробную или платную подписку Microsoft 365 в формате TESTLAB с DNS-доменом.\<your domain name> -
 - Упрощенная интрасеть организации, подключенная к Интернету и состоящая из виртуальных машин DC1, APP1 и CLIENT1 в подсети, входящей в виртуальную сеть Azure. 
 - Azure AD Connect работает на APP1 для синхронизации списка учетных записей и групп из клиента Azure AD, связанного с подпиской Microsoft 365, с доменом AD DS TESTLAB. 
 - Обратная запись паролей включена, поэтому пользователи могут сменить свои пароли через Azure AD без необходимости подключения к упрощенной интрасети.
 
-Информацию и ссылки для настройки обратной записи паролей в рабочей среде вы найдете в описании шага [Упрощение процедуры обновления паролей](identity-add-user-accounts.md#identity-pw-writeback) этапа "Идентификация".
-
-## <a name="next-step"></a>Следующее действие
+## <a name="next-step"></a>Следующий шаг
 
 Ознакомьтесь с дополнительными функциями и возможностями [идентификации](m365-enterprise-test-lab-guides.md#identity) в тестовой среде.
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)
 
 

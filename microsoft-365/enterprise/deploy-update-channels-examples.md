@@ -9,18 +9,18 @@ ms.date: 07/21/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: ''
 description: Как организации используют каналы в развертывании и обновлении.
-ms.openlocfilehash: eaf962d7481027b49f26c79163aaae3753fdbb9b
-ms.sourcegitcommit: a08103bc120bdec7cfeaf67c1be4e221241e69ad
-ms.translationtype: HT
+ms.openlocfilehash: 88567fedd92f01885c4971acc273a676c3e82de8
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45200155"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686158"
 ---
 # <a name="deployment-and-update-channel-example-configurations"></a>Примеры конфигураций каналов развертывания и обновления
 
@@ -49,6 +49,6 @@ ms.locfileid: "45200155"
 
 ## <a name="see-also"></a>См. также
 
-[Руководство по развертыванию](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
 [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md)

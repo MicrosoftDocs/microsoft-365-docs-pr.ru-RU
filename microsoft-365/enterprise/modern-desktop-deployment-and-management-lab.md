@@ -2,31 +2,31 @@
 title: Комплект Deployment Lab Kit для Windows и Office
 f1.keywords:
 - NOCSH
-ms.author: jogruszc
-author: JGruszczyk
-manager: jemed
-ms.date: 06/10/2019
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
+ms.date: 08/10/2020
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Сведения о комплекте Deployment Lab Kit для Windows и Office и способе его получения
-ms.openlocfilehash: a52d2ef1570509150aa1b44c7d7d767287e308f1
-ms.sourcegitcommit: 020b89b0d558a866ea68d35b5170db76f6d8d74d
-ms.translationtype: HT
+ms.openlocfilehash: 751d2a04daa707049c59b9b7cabb18ca06a598d1
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45052729"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46685502"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Комплект Deployment Lab Kit для Windows и Office
 
-Эти занятия предназначены для планирования, тестирования и проверки развертывания и управления для компьютеров с Windows 10 Корпоративная и Приложениями Microsoft 365 для предприятий. В занятиях охвачены шаги и инструменты, описанные в процессе развертывания компьютеров, включая Microsoft Endpoint Configuration Manager, Аналитика компьютеров, центр развертывания Office, OneDrive, Windows Autopilot и т. д.
+Эти семинары призваны помочь вам спланировать, протестировать и проверить развертывание и управление настольными компьютерами, работающими под управлением Windows 10 Корпоративная и Microsoft 365 приложений для предприятий. Обложка Labs с помощью диспетчера конфигураций конечных точек Майкрософт, аналитики для настольных ПК, центра развертывания Office, OneDrive, Windows для автопилота и т. д.
 
-Этот курс обучения настоятельно рекомендуется организациям, которые ведут подготовку к завершению срока службы Windows 7, а также тем организациям, в которых уже используется Windows 10 и Приложения Microsoft 365 (прежнее название — Office 365 профессиональный плюс) или Office 2019. Кроме того, представляя собой изолированную среду, эти занятия дают отличную возможность изучить обновления средств развертывания и протестировать средства автоматизации, связанные с развертыванием.
+Этот набор настоятельно рекомендуется для организаций, подготавливающих обновления для Windows 8, а также применяется в том случае, если вы используете Windows 10, приложения Microsoft 365 для предприятий (ранее Office 365 профессиональный плюс) или Office 2019. Кроме того, представляя собой изолированную среду, эти занятия дают отличную возможность изучить обновления средств развертывания и протестировать средства автоматизации, связанные с развертыванием.
 
 [Скачать комплект Deployment Lab Kit для Windows и Office](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
@@ -46,9 +46,8 @@ ms.locfileid: "45052729"
 
 Кроме того, занятие разработано так, что предполагает подключение к пробным версиям указанных ниже продуктов. 
 
-  - Microsoft 365 E5 или
-  - Office 365 корпоративный E5
-  - Enterprise Mobility + Security
+  - Microsoft 365 E5
+  - Office 365 корпоративный для предприятий и с Enterprise Mobility + Security (EMS)
 
 ## <a name="step-by-step-labs"></a>Пошаговые практические занятия
 
@@ -57,14 +56,14 @@ ms.locfileid: "45052729"
 ### <a name="device-and-app-readiness"></a>Проверка готовности устройств и приложений
 
   - Аналитика компьютеров
-  - НОВИНКА! Развертывание и обновление нового Microsoft Edge 
-  - НОВИНКА! Установка и настройка шлюза облачного управления (CMG) 
+  - Развертывание и обновление нового Microsoft Edge 
+  - Установка и настройка шлюза облачного управления (CMG) 
   - Режим Internet Explorer 
   - Application Guard 
 
 ### <a name="directory-and-network-readiness"></a>Проверка готовности каталогов и сети
 
-  - НОВИНКА! Оптимизация доставки обновления Windows 10 
+  - Оптимизация доставки обновления Windows 10 
   - Совместное управление с помощью Configuration Manager и Microsoft Intune
   - Удаленный доступ (VPN)
 
@@ -110,7 +109,7 @@ ms.locfileid: "45052729"
   - Обслуживание приложений Microsoft 365 для предприятий с помощью Configuration Manager
   - НОВИНКА! Обновления Office с помощью Configuration Manager и Intune
   
-### <a name="new-windows-virtual-desktop"></a>НОВИНКА! Виртуальный рабочий стол Windows
+### <a name="windows-virtual-desktop"></a>Виртуальный рабочий стол Windows
   - Виртуальный рабочий стол Windows: подготовка, развертывание, оптимизация 
 
 ### <a name="download-the-windows-and-office-deployment-lab-kit"></a>Скачать комплект Deployment Lab Kit для Windows и Office
@@ -120,8 +119,6 @@ ms.locfileid: "45052729"
 *Чтобы с максимальным удобством скачать это содержимое и выполнить подготовку к работе за 30–45 минут, используйте широкополосное подключение. Для лабораторной среды требуется не менее 16 ГБ ОЗУ и 150 ГБ свободного места на диске. Для оптимальной производительности рекомендуется использовать ОЗУ с объемом памяти 32 ГБ. Срок действия занятия истекает 12 сентября 2020 г. До этой даты будет опубликована новая версия занятия.*
 
 ## <a name="additional-guidance"></a>Дополнительные рекомендации
-
-  - [Центр развертывания компьютеров](https://www.aka.ms/howtoshift)
 
   - [Видеоролики серии "Развертывание компьютеров" от Microsoft Mechanics](https://www.aka.ms/watchhowtoshift)
 

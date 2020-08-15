@@ -9,7 +9,7 @@ ms.date: 11/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
@@ -17,34 +17,34 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
-description: Это руководство по лаборатории тестирования поможет вам создать простую тестовую среду для Microsoft 365 корпоративный.
-ms.openlocfilehash: 7a4800d374416a1e197536bc1a867d3fbc4b1243
-ms.sourcegitcommit: 973f5449784cb70ce5545bc3cf57bf1ce5209218
-ms.translationtype: HT
+description: Используйте это руководство по лаборатории тестирования для создания облегченной тестовой среды для тестирования Microsoft 365 для предприятия.
+ms.openlocfilehash: 5de9e44f83d4c6bbae2b4148ce39ca371ead2d34
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44818757"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686782"
 ---
 # <a name="the-lightweight-base-configuration"></a>Простая базовая конфигурация
 
-*Это руководство по лаборатории тестирования можно использовать для тестовых сред Microsoft 365 корпоративный и Office 365 корпоративный.*
+*Это руководство по лаборатории тестирования можно использовать как для Microsoft 365 Enterprise, так и для корпоративных тестовых сред Office 365.*
 
 В этой статье представлены пошаговые инструкции по созданию упрощенной среды с подпиской на Microsoft 365 E5 и компьютером с ОС Windows 10 Корпоративная. 
 
 ![Простая среда тестирования Microsoft 365 корпоративный](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-В получившейся среде можно будет тестировать функции [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise).
+Используйте полученную среду для тестирования функций и функций [Microsoft 365 для предприятий](https://www.microsoft.com/microsoft-365/enterprise).
 
 ![Руководства по лаборатории тестирования для облака Майкрософт](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> Щелкните [Руководства по лаборатории тестирования Microsoft 365 корпоративный](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для наглядного отображения всех статей, относящихся к данной теме.
+> Выберите [microsoft 365 для корпоративных руководств по лаборатории тестирования](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) для визуальной карты со всеми статьями руководства по лаборатории тестирования Microsoft 365 для предприятий.
 
-## <a name="phase-1-create-your-office-365-e5-subscription"></a>Этап 1. Создание подписки на Office 365 E5
+## <a name="phase-1-create-your-microsoft-365-e5-subscription"></a>Этап 1: Создание подписки на Microsoft 365
 
-Мы начнем с пробной подписки на Office 365 E5, а затем добавим к ней подписку Microsoft 365 E5.
+Начнем с пробной подписки Microsoft 365 и добавьте к ней подписку на Microsoft 365.
 
-Чтобы оформить пробную подписку на Office 365 E5, потребуются вымышленное название компании и новая учетная запись Майкрософт.
+Чтобы оформить пробную подписку Microsoft 365 E5, потребуется вымышленное название компании и новая учетная запись Майкрософт.
   
 1. Рекомендуем использовать в качестве названия компании какую-нибудь вариацию имени Contoso (вымышленной компании, используемой в примерах от Майкрософт), но это необязательно. Запишите здесь название своей вымышленной компании: ![Линия](../media/Common-Images/TableLine.png)
     
@@ -76,7 +76,7 @@ ms.locfileid: "44818757"
 
 На этом этапе настраивается подписка с дополнительными пользователями, этим пользователям назначаются лицензии Office 365 E5.
   
-Следуйте указаниям в статье [Подключение к Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module), чтобы подключиться к подписке с модулем PowerShell Azure Active Directory для Graph с вашего компьютера.
+Воспользуйтесь инструкциями в статье [Подключение к Microsoft 365 с помощью PowerShell](connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) , чтобы подключиться к подписке с помощью модуля PowerShell Azure Active Directory PowerShell на вашем компьютере.
     
 В диалоговом окне **Запрос учетных данных Windows PowerShell** введите имя глобального администратора (например, jdoe@contosotoycompany.onmicrosoft.com) и пароль.
   
@@ -151,7 +151,7 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 Если вам требуется только среда тестирования Office 365, на этом можно остановиться. 
 
-См. [Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md) для получения дополнительных руководств по лаборатории тестирования, применимых одновременно к Office 365 и Microsoft 365.
+Дополнительные руководства по лаборатории тестирования, применимые к Office 365 и Microsoft 365, представлены в [статье Microsoft 365 for Enterprise Lab Lab Guides](m365-enterprise-test-lab-guides.md) .
   
 ## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a>Этап 3. Добавление пробной подписки Microsoft 365 E5
 
@@ -191,7 +191,7 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 - Пробную подписку Microsoft 365 E5.
 - Все подходящие учетные записи пользователей (либо только глобального администратора или всех пяти пользователей), поддерживающие Microsoft 365 E5.
     
-Здесь показана итоговая конфигурация с добавлением Microsoft 365 E5, включающая Office 365 и Enterprise Security + Management (EMS).
+Ниже показана итоговая конфигурация, в которой добавляется Microsoft 365.
   
 ![Этап 3 разработки тестовой среды, включающей Microsoft 365 корпоративный](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
@@ -294,7 +294,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
     
 Затем установите приложения Microsoft 365 для предприятий на компьютер WIN10.
   
-1. Откройте браузер Microsoft Edge и войдите в портал Office 365 с данными учетной записи глобального администратора. Дополнительные сведения см. в статье [Вход в Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Откройте браузер Microsoft EDGE и войдите в [центр администрирования microsoft 365](https://admin.microsoft.com) с учетной записью глобального администратора.
     
 2. На главной вкладке **Microsoft Office** нажмите **Установить Office**.
     
@@ -312,7 +312,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 - зарегистрирован в Microsoft Intune (EMS) в качестве устройства Azure AD;
 - установлены приложения Microsoft 365 для предприятий.
   
-Теперь вы можете экспериментировать с дополнительными возможностями [Microsoft 365 корпоративный](https://www.microsoft.com/microsoft-365/enterprise).
+Теперь вы можете поэкспериментировать с дополнительными возможностями [Microsoft 365 для предприятий](https://www.microsoft.com/microsoft-365/enterprise).
   
 ## <a name="next-steps"></a>Дальнейшие действия
 
@@ -325,8 +325,8 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 ## <a name="see-also"></a>См. также
 
-[Руководства по лаборатории тестирования для Microsoft 365 корпоративный](m365-enterprise-test-lab-guides.md)
+[Руководства по лаборатории тестирования для Microsoft 365 для предприятий](m365-enterprise-test-lab-guides.md)
 
-[Развертывание Microsoft 365 корпоративный](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
-[Документация по Microsoft 365 корпоративный](https://docs.microsoft.com/microsoft-365-enterprise/)
+[Microsoft 365 для корпоративных документов](https://docs.microsoft.com/microsoft-365-enterprise/)

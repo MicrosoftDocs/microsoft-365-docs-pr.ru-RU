@@ -9,22 +9,22 @@ ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: В этой статье рассказано, как в компании Contoso использовали Microsoft Endpoint Configuration Manager для развертывания обновлений на месте для Windows 10 Корпоративная.
-ms.openlocfilehash: c66be4ad5ee383301c4fb10cf2590f7cbbed033f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: a100eb07408053fd270c26f388265696549fff9f
+ms.sourcegitcommit: 79065e72c0799064e9055022393113dfcf40eb4b
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630685"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46686422"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Развертывание Windows 10 Корпоративная для компании Contoso
 
-До момента выпуска решения Microsoft 365 корпоративный, доступного широкому кругу пользователей, в компании Contoso использовали ПК и устройства, совместимые с ОС Windows. На них были установлены следующие ОС: Windows 7 (10 %), Windows 8.1 (65 %) и Windows 10 (25 %). В компании хотели обновить ПК, чтобы воспользоваться преимуществами, предоставляемыми Windows 10 Корпоративная. Эти преимущества включают возможность повысить уровень безопасности и уменьшить издержки на ИТ-инфраструктуру благодаря системе автоматизированного развертывания обновлений. 
+Перед широким развертыванием Microsoft 365 для предприятий компания Contoso представила компьютеры и устройства, совместимые с Windows, с сочетанием Windows 7 (10%), Windows 8,1 (65%) и Windows 10 (25%). Компания Contoso хотели обновить свои компьютеры для Windows 10 Корпоративная, воспользоваться преимуществами расширенной безопасности и сниженными затратами на ИТ от автоматизированных развертываний обновлений. 
 
 Оценив инфраструктуру и бизнес-потребности, специалисты компании Contoso определили перечисленные ниже основные требования к развертыванию.
 
@@ -95,8 +95,8 @@ ms.locfileid: "43630685"
 
 ## <a name="see-also"></a>См. также
 
-[Windows 10 Корпоративная для Microsoft 365 корпоративный](windows10-infrastructure.md)
+[Windows 10 Корпоративная](https://docs.microsoft.com/windows/deployment/)
 
-[Руководство по развертыванию](deploy-microsoft-365-enterprise.md)
+[Обзор Microsoft 365 для предприятий](microsoft-365-overview.md)
 
 [Руководства по лаборатории тестирования](m365-enterprise-test-lab-guides.md)
