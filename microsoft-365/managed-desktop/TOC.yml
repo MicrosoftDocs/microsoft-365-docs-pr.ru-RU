@@ -106,8 +106,6 @@
         - name: Работа с отчетами
           href: working-with-managed-desktop/reports.md
           items:
-            - name: Отчет о соответствии устройств требованиям
-              href: working-with-managed-desktop/device-compliance-report.md
             - name: Отчет об инвентаризации устройств
               href: working-with-managed-desktop/device-inventory-report.md
         - name: Работа с аналитикой
