@@ -133,20 +133,8 @@
               href: create-groups/add-or-remove-members-from-groups.md
             - name: Восстановление удаленной группы
               href: create-groups/restore-deleted-group.md
-            - name: Планирование управления группами
-              href: create-groups/plan-for-groups-governance.md
-            - name: Управление созданием групп
-              href: create-groups/manage-creation-of-groups.md
-            - name: Выбор домена для групп
-              href: create-groups/choose-domain-to-create-groups.md
-            - name: Обзор политик именования групп
-              href: create-groups/groups-naming-policy.md
-            - name: Разрешение участникам отправлять и получать письма из групп
-              href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
             - name: Управление гостевым доступом к группам
               href: create-groups/manage-guest-access-in-groups.md
-            - name: Использование меток конфиденциальности в группах
-              href: ../compliance/sensitivity-labels-teams-groups-sites.md
     - name: Управление электронной почтой и календарями
       href: email/index.yml
       items:
