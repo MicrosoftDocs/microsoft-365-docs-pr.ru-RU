@@ -12,18 +12,18 @@ ms.reviewer: esaggese
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 0c66afa22c8712455a875bc8ca4ddcad1678e2e7
-ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
+ms.openlocfilehash: f36eeeb1f228bff48088cbbf3241d6866d0b3a21
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46602002"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794168"
 ---
 # <a name="double-key-encryption-dke"></a>Шифрование с двойным ключом (ДКЕ)
 
 > *Применимо к: шифрование с двойным ключом для Microsoft 365 общедоступная Предварительная версия, [соответствие требованиям microsoft 365](https://www.microsoft.com/microsoft-365/business/compliance-management), [Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection)*
 >
-> *Инструкции для: [клиент единой метки Azure Information Protection для Windows](https://docs.microsoft.com/azure/information-protection/faqs.md#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
+> *Инструкции для: [клиент единой метки Azure Information Protection для Windows](https://docs.microsoft.com/azure/information-protection/faqs#whats-the-difference-between-the-azure-information-protection-classic-and-unified-labeling-clients)*
 >
 > *Описание службы: [соответствие требованиям Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
@@ -132,15 +132,15 @@ The following video shows how Double Key Encryption works to secure your content
 
 Следующие инструкции предназначены для неопытных пользователей Git или Visual Studio Code:
 
-1. В браузере перейдите по адресу:[https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService)
+1. В браузере перейдите по адресу: [https://github.com/Azure-Samples/DoubleKeyEncryptionService](https://github.com/Azure-Samples/DoubleKeyEncryptionService)
 
 1. В правой части экрана выберите **код**. В вашей версии пользовательского интерфейса может отображаться кнопка " **Копировать" или "скачать** ". Затем в появившемся раскрывающемся меню выберите значок Копировать, чтобы скопировать URL-адрес в буфер обмена.
 
-    Пример:
+    Например:
 
    ![Клонирование базы данных двойных шифрования ключей из GitHub](../media/dke-clone.png)
 
-3. В Visual Studio Code выберите пункт **Просмотреть** \> **палитру команд** и выберите **Git: Clone**. Чтобы перейти к параметру в списке, начните ввод, `git: clone` чтобы отфильтровать записи, а затем выберите его в раскрывающемся списке. Пример:
+3. В Visual Studio Code выберите пункт **Просмотреть** \> **палитру команд** и выберите **Git: Clone**. Чтобы перейти к параметру в списке, начните ввод, `git: clone` чтобы отфильтровать записи, а затем выберите его в раскрывающемся списке. Например:
 
    ![Visual Studio Code GIT: параметр Clone](../media/dke-vscode-clone.png)
 
@@ -150,7 +150,7 @@ The following video shows how Double Key Encryption works to secure your content
 
     Репозиторий открывается в Visual Studio Code и отображается в левом нижнем углу текущей ветви Git. Ветвь должна быть **основной**.
 
-    Пример:
+    Например:
 
    ![Ветвь образца кода Visual Studio](../media/dke-vscode-master.png)
 
@@ -184,7 +184,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 1. Откройте **appsettings.js** файла и выберите `AuthorizedEmailAddress` параметр.
 
-2. Добавьте адрес электронной почты или адреса, которые вы хотите авторизовать. Разделяйте адреса электронной почты двойными кавычками и запятыми. Пример:
+2. Добавьте адрес электронной почты или адреса, которые вы хотите авторизовать. Разделяйте адреса электронной почты двойными кавычками и запятыми. Например:
 
    ```json
    "AuthorizedEmailAddress": ["email1@company.com", "email2@company.com ", "email3@company.com"]
@@ -206,13 +206,13 @@ The following video shows how Double Key Encryption works to secure your content
 
 1. Откройте **appsettings.js** файла и выберите `AuthorizedRoles` параметр.
 
-2. Добавьте имена групп Active Directory, которые вы хотите авторизовать. Разделяйте имена групп двойными кавычками и запятыми. Пример:
+2. Добавьте имена групп Active Directory, которые вы хотите авторизовать. Разделяйте имена групп двойными кавычками и запятыми. Например:
 
    ```json
    "AuthorizedRoles": ["group1", "group2", "group3"]
    ```
 
-3. Нахождение `LDAPPath` параметра и добавление домена Active Directory. Пример:
+3. Нахождение `LDAPPath` параметра и добавление домена Active Directory. Например:
 
    ```json
    "LDAPPath": "contoso.com"
@@ -232,7 +232,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 1. Откройте **appsettings.jsв** файле.
 
-2. Укажите `ValidIssuers` параметр и замените `<tenantid>` идентификатором клиента. Вы можете определить идентификатор клиента, перейдя на портал Azure и просмотрев [Свойства клиента](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Пример:
+2. Укажите `ValidIssuers` параметр и замените `<tenantid>` идентификатором клиента. Вы можете определить идентификатор клиента, перейдя на портал Azure и просмотрев [Свойства клиента](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Например:
 
    ```json
    "ValidIssuers": [
@@ -240,7 +240,7 @@ The following video shows how Double Key Encryption works to secure your content
    ]
    ```
 
-Откройте файл `JwtAudience` . Замените `<yourhostname>` на имя узла компьютера, на котором будет запускаться служба дке. Пример:
+Откройте файл `JwtAudience` . Замените `<yourhostname>` на имя узла компьютера, на котором будет запускаться служба дке. Например:
 
 
 
@@ -250,7 +250,7 @@ The following video shows how Double Key Encryption works to secure your content
 - `TestKeys:Name`. Введите имя для ключа. Пример: `TestKey1`
 - `TestKeys:Id`. Создайте GUID и введите его в качестве `TestKeys:ID` значения. Например, `DCE1CC21-FF9B-4424-8FF4-9914BD19A1BE`. Для случайного создания GUID можно использовать сайт, например, [генератор GUID в Интернете](https://guidgenerator.com/) .
 
-На этом рисунке показан правильный формат параметров клиента и ключей в **appsettings.json**. `LDAPPath`настроена для авторизации роли.
+На этом рисунке показан правильный формат параметров клиента и ключей в **appsettings.json**. `LDAPPath` настроена для авторизации роли.
 
 ![Показывает правильные параметры клиента и ключа для ДКЕ в appsettings.jsв файле.](../media/dke-appsettingsjson-tenantkeysettings.png)
 
@@ -349,7 +349,7 @@ The following video shows how Double Key Encryption works to secure your content
 
 2. Чтобы отладить процесс, нажмите кнопку **выполнить** \> **Запуск отладки** . Если вам будет предложено выбрать среду, выберите пункт **.NET Core**.
 
-Основной отладчик .NET, как правило, запускается в ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' и добавляет косую черту (/) и имя ключа. Пример:
+Основной отладчик .NET, как правило, запускается в ' ' https://localhost:5001 `. To view your test key, go to ` https://localhost:5001 ' и добавляет косую черту (/) и имя ключа. Например:
 
 ```https
 https://localhost:5001/TestKey1
@@ -373,7 +373,7 @@ https://localhost:5001/TestKey1
 
     - Для **публикации**выберите **код**и для **стека времени выполнения**выберите **.NET Core 3,1**.
 
-    Пример:
+    Например:
 
    ![Добавление службы приложений](../media/dke-azure-add-app-service.png)
 
@@ -420,7 +420,7 @@ https://localhost:5001/TestKey1
 
 1. Скопируйте строки подключения, отображаемые в локальный файл. Эти строки будут использоваться для подключения к службе веб-приложений и отправки файлов через FTP.
 
-    Пример:
+    Например:
 
    ![Копирование строк подключения из панели мониторинга FTP](../media/dke-ftp-dashboard.png)
 
@@ -448,9 +448,9 @@ https://localhost:5001/TestKey1
 
 src\customer-key-store\scripts\key_store_tester.ps1 микэйстореурл/микэй
 
-Пример:
+Например:
 
-key_store_tester.ps1https://mycustomerkeystore.com/mykey
+key_store_tester.ps1 https://mycustomerkeystore.com/mykey
 
 Убедитесь, что в выходных данных не отображаются ошибки. Когда вы будете готовы, [Зарегистрируйте свое хранилище ключей](#register-your-key-store).
 
@@ -468,7 +468,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
     Если вы используете Microsoft Azure с нестандартным доменом, например **onmicrosoft.com**, выберите **учетные записи только в данном организационном каталоге (только Microsoft — один клиент).**
 
-    Пример:
+    Например:
 
    ![Регистрация нового приложения](../media/dke-app-registration.png)
 
@@ -526,7 +526,7 @@ key_store_tester.ps1https://mycustomerkeystore.com/mykey
 
 В центре соответствия требованиям Microsoft 365 создайте новую метку чувствительности и примените шифрование, как в противном случае. Выберите **использовать шифрование с двойным ключом** и введите URL-адрес конечной точки для своего ключа.
 
-Пример:
+Например:
 
 ![Выберите использовать шифрование с двойным ключом в центре соответствия требованиям Microsoft 365](../media/dke-use-dke.png)
 

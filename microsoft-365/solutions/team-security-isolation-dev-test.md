@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 05/01/2020
+ms.date: 08/14/2020
 audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: Настройте группу с изоляцией безопасности в среде разработки/тестирования...
-ms.openlocfilehash: c8d56d3dd6e2c46db6ef1938dee8383b56e8966c
-ms.sourcegitcommit: 0f71042edc7c3a7f10a7b92e1943abf51532cbf5
+ms.openlocfilehash: 62361126ad0b843fd909b98807eeb186f13e75bb
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522257"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778347"
 ---
 # <a name="configure-a-team-with-security-isolation-in-a-devtest-environment"></a>Настройте группу с изоляцией безопасности в среде разработки/тестирования
 
@@ -33,15 +33,15 @@ ms.locfileid: "46522257"
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>Этап 1. Создание собственной тестовой среды Microsoft 365 корпоративный
 
-Если вы просто хотите тестировать чувствительные и высокочувствительные команды легким способом с минимальными требованиями, следуйте инструкциям в [Облегченной базовой конфигурации](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise).
+Если вы просто хотите тестировать чувствительные и высокочувствительные команды легким способом с минимальными требованиями, следуйте инструкциям в [Облегченной базовой конфигурации](../enterprise/lightweight-base-configuration-microsoft-365-enterprise.md).
 
-Если вы хотите протестировать чувствительные и высокочувствительные команды на моделируемом предприятии, следуйте инструкциям в разделе [Синхронизация хэша паролей](https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment).
+Если вы хотите протестировать чувствительные и высокочувствительные команды на моделируемом предприятии, следуйте инструкциям в разделе [Синхронизация хэша паролей](../enterprise/password-hash-sync-m365-ent-test-environment.md).
 
 >[!Note]
->Тестирование группы с изолированной защитой не требует имитированной среды корпоративного тестирования, которая включает симулированную интрасеть, подключенную к Интернету, и синхронизацию каталогов для леса доменных служб Active Directory (AD DS). Он предоставляется здесь как вариант, чтобы вы могли протестировать группу с изоляцией безопасности и поэкспериментировать с ней в среде, представляющей типичную организацию.
+>Тестирование команды с изоляцией для обеспечения безопасности не требует тестовой среды смоделированного предприятия, включающей смоделированную интрасеть, подключенную к Интернету, и синхронизацию службы каталогов для леса доменных служб Active Directory (AD DS). Он предоставляется здесь как вариант, чтобы вы могли протестировать группу с изоляцией безопасности и поэкспериментировать с ней в среде, представляющей типичную организацию.
 >
     
-## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-group-and-users"></a>Этап 2. Создание и настройка группы и пользователей Azure Active Directory (AD)
+## <a name="phase-2-create-and-configure-your-azure-active-directory-azure-ad-group-and-users"></a>Этап 2. Создание и настройка группы и пользователей Azure Active Directory (Azure AD)
 
 На этом этапе вы создаете и настраиваете группу Azure AD и пользователей для вымышленной организации.
   
@@ -77,7 +77,7 @@ ms.locfileid: "46522257"
     
 6. Закройте вкладку портала Azure в браузере.
     
-Затем [подключитесь к модулю PowerShell для Graph Azure Active Directory](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Затем [подключитесь к модулю PowerShell для Graph Azure Active Directory](../enterprise/connect-to-microsoft-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Введите имя своей организации, свое местоположение и общий пароль, а затем выполните эти команды из командной строки PowerShell или интегрированной среды сценариев (ISE), чтобы создать новые учетные записи пользователей и добавить их в группу C-Suite:
   
@@ -115,7 +115,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 На этом этапе вы создаете и настраиваете группу с изоляцией безопасности для членов группы старшего руководства для совместной работы над стратегией компании.
 
-Во-первых, включите метки чувствительности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint, прежде чем продолжить выполнение действий, описанных в [этой статье](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Во-первых, включите метки чувствительности для защиты содержимого в Microsoft Teams, группах Office 365 и сайтах SharePoint, прежде чем продолжить выполнение действий, описанных в [этой статье](../compliance/sensitivity-labels-teams-groups-sites.md).
 
 Затем создайте группу.
 
@@ -126,10 +126,16 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 5. В разделе **Конфиденциальность** нажмите **Приватный**.
 6. Введите **Стратегия компании**, а затем нажмите **Создать** > **Закрыть**.
 
-Далее необходимо настроить метку чувствительности со следующими настройками:
+После этого ограничьте создание частных каналов владельцами группы "Стратегия компании".
 
-- Название метки: "Стратегия компании"
-- Шифрование включено
+1. В группе нажмите **Дополнительные параметры**, а затем нажмите **Управление группой**.
+2. На вкладке **Настройки** разверните **Разрешения участников**.
+3. Снимите флажок **Разрешить участникам создавать частные каналы**.
+
+Далее необходимо настроить метку конфиденциальности со следующими параметрами:
+
+- имя: "Стратегия компании";
+- включено шифрование;
 - У группы "Стратегия компании" имеются разрешения на совместное редактирование
 
 Выполните приведенные ниже действия.
@@ -199,10 +205,6 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 ![Конфигурация для изолированной команды Стратегия компании](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config.png)
 
-Файлы в команде могут иметь метку чувствительности Стратегии компании, назначенную членами группы Стратегии компании. Пример:
+## <a name="next-step"></a>Следующий этап
 
-![Пример файла с примененной меткой чувствительности стратегии компании](../media/team-security-isolation-dev-test/team-security-isolation-dev-test-config-example.png)
- 
-## <a name="next-step"></a>Следующий шаг
-
-Когда вы будете готовы к производственному развертыванию, см. [Настройка группы с изоляцией безопасности](secure-teams-security-isolation.md) для получения подробной информации о конфигурации.
+Когда вы будете готовы к развертыванию в рабочей среде, см. следующие [инструкции по настройке](secure-teams-security-isolation.md).

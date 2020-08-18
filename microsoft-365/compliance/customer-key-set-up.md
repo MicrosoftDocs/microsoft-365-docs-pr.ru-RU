@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Узнайте, как настроить ключ клиента для Microsoft 365 для Exchange Online, Skype для бизнеса, SharePoint Online, OneDrive для бизнеса и файлов Teams.
-ms.openlocfilehash: 158096216974691bf0caff93a1c95db54b92f6b1
-ms.sourcegitcommit: 7a59d83a8660c2344ebdb92e0ea0171c9c2d9498
+ms.openlocfilehash: 346b723a4741e18d161122edecf985a3fb8c7845
+ms.sourcegitcommit: 234726a1795d984c4659da68f852d30a4dda5711
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44810995"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46794224"
 ---
 # <a name="set-up-customer-key"></a>Настройка ключа клиента
 
@@ -132,12 +132,12 @@ SharePoint Online и OneDrive для бизнеса:
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.KeyVault
+   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.Resources
    ```
 
 3. Обратитесь в корпорацию Майкрософт, чтобы завершить процесс. Для команды SharePoint и OneDrive для бизнеса свяжитесь с [Spock@microsoft.com](mailto:spock@microsoft.com). Для Exchange Online и Skype для бизнеса обращайтесь в [exock@microsoft.com](mailto:exock@microsoft.com). Включите в свою электронную почту следующие сообщения:
 
-   **Тема**: ключ клиента для\<*Your tenant's fully-qualified domain name*\>
+   **Тема**: ключ клиента для \<*Your tenant's fully-qualified domain name*\>
 
    **Body**: идентификаторы подписок, для которых требуется завершать обязательный срок хранения.
    Выходные данные Get – Азпровидерфеатуре для каждой подписки.
@@ -213,9 +213,9 @@ SharePoint Online и OneDrive для бизнеса:
 
     - *имя хранилища* — это имя созданного хранилища ключей.
 
-    - Для Exchange Online и Skype для бизнеса замените *Office 365 AppID* на`00000002-0000-0ff1-ce00-000000000000`
+    - Для Exchange Online и Skype для бизнеса замените  *Office 365 AppID* на `00000002-0000-0ff1-ce00-000000000000`
 
-    - Для файлов SharePoint Online, OneDrive для бизнеса и Teams замените *Office 365 AppID* на`00000003-0000-0ff1-ce00-000000000000`
+    - Для файлов SharePoint Online, OneDrive для бизнеса и Teams замените  *Office 365 AppID* на `00000003-0000-0ff1-ce00-000000000000`
 
   Пример: Настройка разрешений для Exchange Online и Skype для бизнеса:
 
@@ -273,19 +273,19 @@ Add-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Destination <HSM|Sof
   
 - Если вы планируете защитить ключ с помощью HSM, убедитесь, что в качестве значения параметра _Destination_ указан **HSM** , в противном случае укажите **программное обеспечение**.
 
-For example,
+Пример.
   
 ```powershell
 Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination Software -KeyOps wrapKey,unwrapKey
 ```
 
-Чтобы импортировать ключ непосредственно в хранилище ключей, необходимо наличие модуля безопасности Салес Ншиелд.
+Чтобы импортировать ключ непосредственно в хранилище ключей, необходимо наличие модуля безопасности НЦифер Ншиелд.
   
-Некоторые организации предпочитают этот подход для определения проверенных ключей, и этот метод также предоставляет следующие сведения:
+Некоторые организации предпочитают этот подход для определения проверенных ключей, а затем этот метод также предоставляет следующие сведения:
   
-- Набор средств, используемый для импорта, включает аттестацию из Салес, что ключ обмена ключами (Кек), используемый для шифрования созданного ключа, не экспортируется и создается в подлинном HSM-сервере, изготовленном Салес.
+- Набор средств, используемый для импорта, включает аттестацию из НЦифер, что ключ обмена ключами (Кек), используемый для шифрования созданного ключа, не экспортируется и создается в подлинном HSM-сервере, изготовленном НЦифер.
 
-- Набор инструментов включает аттестацию из Салес, что мир безопасности Azure Key Vault также был создан в подлинном HSM, изготовленном Салес. Эта аттестация удостоверяется в том, что корпорация Майкрософт также использует подлинное оборудование Салес.
+- Набор инструментов включает аттестацию из НЦифер, что мир безопасности Azure Key Vault также был создан в подлинном HSM, изготовленном НЦифер. Эта аттестация удостоверяется в том, что корпорация Майкрософт также использует подлинное оборудование НЦифер.
 
 Обратитесь к группе безопасности, чтобы определить, требуются ли вышеперечисленные подтверждения. Для получения подробных инструкций по созданию ключа на локальном уровне и его импорту в хранилище ключей ознакомьтесь [со статьей Создание и передача ключей, защищенных с помощью HSM, для Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-hsm-protected-keys/). С помощью инструкций Azure создайте ключ в каждом хранилище ключей.
   
@@ -356,7 +356,7 @@ Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1
   
 ```powershell
 Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1
--PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName TBD
+-PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName 00000003-0000-0ff1-ce00-000000000000
 ```
 
 Чтобы убедиться, что срок действия для ключей не задан, запустите командлет [Get-азкэйваулткэй](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) следующим образом:
@@ -434,7 +434,7 @@ Update-AzKeyVaultKey -VaultName <vault name> -Name <key name> -Expires (Get-Date
 
    - *KeyVaultURI2* — универсальный код ресурса (URI) для второго ключа в политике. Например, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02. Разделяйте два URI запятыми и пробелом.
 
-   Пример:
+   Пример.
   
    ```powershell
    New-DataEncryptionPolicy -Name USA_mailboxes -Description "Root key for mailboxes in USA and its territories" -AzureKeyIDs https://contoso_EastUSvault01.vault.azure.net/keys/USA_key_01, https://contoso_EastUS2vault01.vault.azure.net/keys/USA_Key_02
@@ -500,7 +500,7 @@ Get-MailboxStatistics -Identity <GeneralMailboxOrMailUserIdParameter> | fl IsEnc
 
  Чтобы проверить шифрование SharePoint Online, OneDrive для бизнеса и файлов Teams, [подключитесь к SharePoint Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps), а затем с помощью командлета Get-сподатаенкриптионполици Проверьте состояние клиента. Свойство _State_ возвращает значение " **зарегистрировано** ", если включено шифрование ключей клиентов и все файлы на всех сайтах зашифрованы. Если шифрование все еще выполняется, этот командлет предоставляет сведения о том, какой процент сайтов завершается.
 
-## <a name="related-articles"></a>Связанные статьи
+## <a name="related-articles"></a>Статьи по теме
 
 - [Шифрование службы с помощью ключа клиента](customer-key-overview.md)
 
