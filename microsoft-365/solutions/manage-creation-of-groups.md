@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Узнайте, как определять, какие пользователи могут создавать группы Microsoft 365.
-ms.openlocfilehash: 49fdaa98d0b88b306b9fd3d84e52bcf52d9fdf7f
-ms.sourcegitcommit: 66f1f430b3dcae5f46cb362a32d6fb7da4cff5c1
+ms.openlocfilehash: f2b2837a762398bb065d36c7f849b2fdcbbb5816
+ms.sourcegitcommit: 6fb2a1c404ea3c3573b0f7803bf17459a9387891
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662786"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788888"
 ---
 # <a name="manage-who-can-create-microsoft-365-groups"></a>Управление пользователями, которые могут создавать группы Microsoft 365
 
@@ -111,7 +111,7 @@ ms.locfileid: "46662786"
 
 Скопируйте приведенный ниже скрипт в текстовый редактор, например "Блокнот" или [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
-Замените *\<SecurityGroupName\>* именем группы безопасности, которую вы создали. Например,
+Замените *\<SecurityGroupName\>* именем группы безопасности, которую вы создали. Например:
 
 `$GroupName = "Group Creators"`
 
@@ -163,7 +163,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 Если вы хотите отключить ограничение на создание групп и снова разрешить всем пользователям создавать группы, задайте для параметра $GroupName значение "" и $AllowGroupCreation значение true, а затем повторно запустите сценарий.
     
-## <a name="step-4-verify-that-it-works"></a>Шаг 4: Убедитесь, что он работает
+## <a name="step-3-verify-that-it-works"></a>Шаг 3. Проверка
 
 Для вступления изменений в силу может потребоваться 30 минут или более. Вы можете проверить новые параметры, выполнив следующие действия:
 
