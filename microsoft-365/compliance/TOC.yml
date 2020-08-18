@@ -6,8 +6,6 @@
       href: compliance-quick-tasks.md
     - name: Новые возможности Центра соответствия требованиям
       href: whats-new.md
-    - name: Последние обновления сведений о соответствии требованиям
-      href: recently-updated-topics-mcc.md
     - name: "Центр соответствия требованиям Microsoft\_365"
       href: microsoft-365-compliance-center.md
     - name: "Каталог решений Microsoft\_365"
@@ -341,13 +339,13 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=867039'
     - name: Управление записями
       items:
-        - name: Управление записями
+        - name: Сведения об управлении записями
           href: records-management.md
-        - name: Сведения о записях
-          href: records.md
+        - name: Начало работы с управлением записями
+          href: get-started-with-records-management.md
         - name: Объявление записей
           href: declare-records.md
-        - name: Управление версиями записей
+        - name: Использование управления версиями записей
           href: record-versioning.md
 - name: Управление обнаружением электронных данных
   items:
