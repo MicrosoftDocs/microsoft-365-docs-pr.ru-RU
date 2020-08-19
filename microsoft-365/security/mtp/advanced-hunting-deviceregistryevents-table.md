@@ -17,21 +17,22 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d0024282276e0c67c68a802cf439e90824ec1962
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 90decdbcf3e0a4d767fc57b02259352cd11eaee2
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649017"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797914"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
 **Область применения:**
 - Защита от угроз (Майкрософт)
 
-
-
 `DeviceRegistryEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о создании и изменении записей реестра. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+
+>[!TIP]
+> Для получения подробных сведений о типах событий ( `ActionType` значений), поддерживаемых таблицей, используйте [встроенную справочную](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) информацию о схеме, доступную в центре обеспечения безопасности.
 
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
@@ -40,7 +41,7 @@ ms.locfileid: "46649017"
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
-| `ActionType` | string | Тип действия, вызвавшего событие |
+| `ActionType` | string | Тип действия, вызвавшего событие. Дополнительные сведения см. [в справочнике по схемам на портале](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
 | `RegistryKey` | string | Раздел реестра, к которому было применено записанное действие |
 | `RegistryValueType` | string | Тип данных (например, двоичный или строковый) значения реестра, к которому было применено записанное действие |
 | `RegistryValueName` | string | Имя значения реестра, к которому было применено записанное действие |
@@ -70,6 +71,6 @@ ms.locfileid: "46649017"
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
+- [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

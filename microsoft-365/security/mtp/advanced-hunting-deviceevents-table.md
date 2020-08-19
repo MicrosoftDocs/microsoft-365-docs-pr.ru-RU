@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: ad3cfe34c697cbef09a99efdcbe1c1bd6ced1ca2
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: e5f17da63f7bb0306c4b5899771d2e324770705c
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649467"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798030"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
@@ -33,6 +33,9 @@ ms.locfileid: "46649467"
 
 Прочие события устройств или `DeviceEvents` Таблица в [расширенной](advanced-hunting-overview.md) схеме поиска содержат сведения о различных типах событий, в том числе события, активируемые элементами управления безопасностью, такие как антивирусная программа "Защитник Windows" и защита от эксплойтов. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
 
+>[!TIP]
+> Для получения подробных сведений о типах событий ( `ActionType` значений), поддерживаемых таблицей, используйте [встроенную справочную](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) информацию о схеме, доступную в центре обеспечения безопасности.
+
 Сведения о других таблицах в схеме расширенного поиска см. в [справочнике по расширенному поиску](advanced-hunting-schema-tables.md).
 
 
@@ -41,7 +44,7 @@ ms.locfileid: "46649467"
 | `Timestamp` | datetime | Дата и время записи события |
 | `DeviceId` | string | Уникальный идентификатор для обслуживаемого компьютера |
 | `DeviceName` | string | Полное доменное имя компьютера |
-| `ActionType` | string | Тип действия, вызвавшего событие |
+| `ActionType` | string | Тип действия, вызвавшего событие. Дополнительные сведения см. [в справочнике по схемам на портале](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
 | `FileName` | string | Имя файла, к которому было применено записанное действие |
 | `FolderPath` | string | Папка, содержащая файл, к которому было применено записанное действие |
 | `SHA1` | string | SHA-1 файла, к которому было применено записанное действие |
@@ -89,6 +92,6 @@ ms.locfileid: "46649467"
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
+- [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3559bf3391427d6f6ae0cfc6b6f6e8ed343438fa
-ms.sourcegitcommit: 89178b8f20d59ca88cfca303a13062b91fbeae9d
+ms.openlocfilehash: ff610cee46b2b48815af82fa86d0b30aa99f4b5c
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552666"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46798238"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Функции предварительной версии Microsoft Threat protection
 
@@ -57,7 +57,8 @@ ms.locfileid: "46552666"
 ## <a name="preview-features"></a>Предварительные функции
 В настоящее время доступны следующие функции и расширения для предварительной версии:
 
+- **[Таблица идентитидиректоревентс в расширенном поиске](advanced-hunting-identitydirectoryevents-table.md)** — Поиск событий, связанных с локальным контроллером домена, на котором работает Active Directory (AD). В этой таблице описываются события, связанные с удостоверениями, а также системные события на контроллере домена.
+- **[Функция ассигнедипаддрессес ()](advanced-hunting-assignedipaddresses-function.md)** — эта функция используется в расширенном поиске для быстрого получения последних IP-адресов, назначенных устройству или последним IP-адресам из указанного момента времени.
 - **[Выполнение действий в расширенном поиске](advanced-hunting-take-action.md)** — быстрое включение угроз или адресов скомпрометированных ресурсов, которые вы найдете в [расширенном поиске](advanced-hunting-overview.md).
-
 - **[Справочник по схемам на портале](advanced-hunting-schema-tables.md#get-schema-information-in-the-security-center)** — получение сведений о расширенных таблицах схемы подпоисков непосредственно в центре обеспечения безопасности. Помимо описаний таблиц и столбцов, Эта удобная справочная информация содержит сведения о поддерживаемых типах событий ( `ActionType` значений) и примерах запросов.
 

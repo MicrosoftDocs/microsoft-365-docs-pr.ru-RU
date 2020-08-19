@@ -16,13 +16,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 hideEdit: true
+feedback_system: None
 description: Защита от потери данных (DLP) в центре безопасности для обеспечения &amp; соответствия требованиям включает типы конфиденциальной информации 80, готовые к использованию в политиках защиты от потери данных. В этой статье перечислены все эти типы конфиденциальной информации и показано, каким именно образом политика защиты от потери данных выявляет каждый тип.
-ms.openlocfilehash: b302879b50c06007656aba93b38f8387557d301b
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 71969a58acd64c3e830da398288249cbb8610b5f
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778559"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797797"
 ---
 # <a name="sensitive-information-type-entity-definitions"></a>Определения типов конфиденциальной информации
 
@@ -128,7 +129,7 @@ ms.locfileid: "46778559"
 #### <a name="keyword_argentina_national_id"></a>Keyword_argentina_national_id
 
 - Argentina National Identity number 
-- Удостоверение 
+- Identity 
 - Идентификация национальной идентификационной карточки 
 - DNI 
 - Национальная реестр пользователей NIC 

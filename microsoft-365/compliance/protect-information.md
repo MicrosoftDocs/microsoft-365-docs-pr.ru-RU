@@ -1,5 +1,5 @@
 ---
-title: Защита данных с помощью Microsoft 365
+title: Защита информации Майкрософт в Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -9,26 +9,26 @@ ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: High
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: Определите возможности Microsoft 365 и сопутствующую документацию, чтобы помочь вам защитить важные данные Организации.
-ms.openlocfilehash: eb83655fddf5b59a7a95d2a8b9999ab683305a89
-ms.sourcegitcommit: 20c219332270f1013d48b39773dd0e48dabad9e4
+description: Реализация возможностей Microsoft Information Protection (МИП) в Microsoft 365 помогает находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
+ms.openlocfilehash: 058a1b46f879b2cc4b8ada8f2a5de88717958e94
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592313"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804189"
 ---
-# <a name="protect-information-using-microsoft-365"></a>Защита данных с помощью Microsoft 365
+# <a name="microsoft-information-protection-in-microsoft-365"></a>Защита информации Майкрософт в Microsoft 365
 
 >*[Лицензирование Microsoft 365 Security & соответствие требованиям](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)*
 
-Используйте возможности Microsoft Information Protection для обнаружения, классификации и защиты конфиденциальной информации везде, где она живет или передается.
+Используйте возможности Microsoft Information Protection (часто сокращается до МИП), чтобы помочь вам находить, классифицировать и защищать конфиденциальную информацию везде, где она живет или передается.
 
-## <a name="know-your-data"></a>Сведения о своих данных
+## <a name="know-your-data"></a>Изучение данных
 
 Чтобы понять вашу ориентацию данных и определить важные данные в гибридной среде, используйте следующие возможности:
  
@@ -44,7 +44,7 @@ ms.locfileid: "46592313"
 
 |Возможность|Какие проблемы она решает?|Начало работы|
 |:------|:------------|---------------------|:----------------------------|
-|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для нескольких приложений, служб и устройств для подписи и защиты данных при их пересылке внутри и за пределами Организации <br /><br />Пример сценария: [применение и Просмотр меток конфиденциальности в Power BI и защита данных при экспорте](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
+|[Метки конфиденциальности](sensitivity-labels.md)| Единое решение для нескольких приложений, служб и устройств для подписи и защиты данных при их пересылке внутри и за пределами Организации <br /><br />Пример сценария: [применение и Просмотр меток конфиденциальности в Power BI и защита данных при экспорте](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)|[ Начало работы с метками конфиденциальности](get-started-with-sensitivity-labels.md) |
 |[Клиент единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)| Для компьютеров под управлением Windows дополнительные функции и функции, включающие метки и защиту всех типов файлов из проводника и PowerShell, расширяются метками конфиденциальности.<br /><br /> Примеры дополнительных функций: [настраиваемые конфигурации для клиента единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)| [Руководство по администратору клиентов единой метки Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide)|
 |[Шифрование с двойным ключом](double-key-encryption.md)| Во всех обстоятельствах только вы можете расшифровывать защищенный контент или требования законодательства, которые необходимо удерживать в пределах географической границы | [Развертывание двойного шифрования ключей](double-key-encryption.md#deploy-double-key-encryption)|
 |[Шифрование сообщений в Office 365](ome.md) (OME)| Шифрует сообщения электронной почты и вложенные документы, которые отправляются любому пользователю на любом устройстве, поэтому только авторизованные получатели могут читать электронную информацию.  <br /><br />Пример сценария: [отзыв электронной почты, зашифрованной с помощью расширенного шифрования сообщений](revoke-ome-encrypted-mail.md) | [Начало работы с шифрованием сообщений в Office 365](set-up-new-message-encryption-capabilities.md)|
@@ -55,7 +55,7 @@ ms.locfileid: "46592313"
 |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)| Обнаружение, метки и защита конфиденциальной информации, которая находится в хранилищах данных в облаке | [Обнаружение, классификация, применение меток и защита регламентированных и конфиденциальных данных, хранящихся в облаке](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |[SDK защиты информации (Майкрософт)](https://docs.microsoft.com/information-protection/develop/overview#microsoft-information-protection-sdk)|Расширение меток конфиденциальности для сторонних приложений и служб  <br /><br /> Пример сценария: [Set и получение метки конфиденциальности (C++)](https://docs.microsoft.com/information-protection/develop/quick-file-set-get-label-cpp) |[Установка и настройка пакета SDK Microsoft Information Protection (МИП)](https://docs.microsoft.com/information-protection/develop/setup-configure-mip)|
 
-## <a name="prevent-data-loss"></a>Предотвращение потери данных
+## <a name="prevent-data-loss"></a>Защита от потери данных
 
 Чтобы предотвратить случайный общий доступ к конфиденциальным сведениям, используйте следующие возможности:
 

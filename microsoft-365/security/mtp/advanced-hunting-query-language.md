@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 64f0b19cfd9588e975b06cb43ca73270b00c5e26
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 15e298edfad2d04079322a070615a36bb5df64ad
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46649395"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797856"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>Познакомьтесь с языком запросов расширенной охоты
 
@@ -66,7 +66,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 // Finds PowerShell execution events that could involve a download
 ```
 
-Как правило, запрос начинается с имени таблицы, за которым следует ряд элементов, начинающихся с вертикальной черты (`|`). В этом примере мы начнем с создания объединения двух таблиц `DeviceProcessEvents` и добавления элементов перегрузки `DeviceNetworkEvents` по мере необходимости.
+Как правило, запрос начинается с имени таблицы, за которым следует ряд элементов, начинающихся с вертикальной черты (`|`). В этом примере мы начнем с создания объединения двух таблиц  `DeviceProcessEvents` и добавления элементов перегрузки `DeviceNetworkEvents` по мере необходимости.
 
 ```kusto
 union DeviceProcessEvents, DeviceNetworkEvents
@@ -102,7 +102,7 @@ union DeviceProcessEvents, DeviceNetworkEvents
 ```
 
 ### <a name="customize-result-columns-and-length"></a>Настройка столбцов результатов и длины 
-Теперь, когда ваш запрос четко определяет данные, которые вы хотите найти, вы можете добавить элементы, которые определяют то, как будут выглядеть результаты. `project`Возвращает определенные столбцы и позволяет `top` ограничить количество результатов. Эти операторы помогают убедиться в том, что результаты имеют правильный формат и их достаточно велики и просты в обработке.
+Теперь, когда ваш запрос четко определяет данные, которые вы хотите найти, вы можете добавить элементы, которые определяют то, как будут выглядеть результаты. `project` Возвращает определенные столбцы и позволяет `top` ограничить количество результатов. Эти операторы помогают убедиться в том, что результаты имеют правильный формат и их достаточно велики и просты в обработке.
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
@@ -117,7 +117,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 >[!TIP]
 >Вы можете просматривать результаты запроса в виде диаграмм и быстро настраивать фильтры. Рекомендации по [работе с результатами запросов](advanced-hunting-query-results.md)
 
-## <a name="learn-common-query-operators-for-advanced-hunting"></a>Познакомьтесь с обычными операторами запросов для расширенной охоты
+## <a name="learn-common-query-operators"></a>Общие сведения об операторах запросов
 
 Теперь, когда вы выполнили свой первый запрос и получили общее представление о его компонентах, пришло время вернуться немного назад и изучить некоторые основы. Язык запросов Kusto, используемый в расширенной охоте, поддерживает ряд операторов, включая обычные, описанные ниже.
 
@@ -136,7 +136,7 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 
 Чтобы просмотреть реальные примеры этих операторов, запустите их из пункта **Начать работу** в разделе Расширенная охота.
 
-## <a name="understand-data-types-and-their-query-syntax-implications"></a>Общие сведения о типах данных и их влиянии на синтаксис запроса
+## <a name="understand-data-types"></a>Общие сведения о типах данных
 
 Данные в таблицах расширенной охоты, как правило, относятся к указанным ниже типам данных.
 
@@ -147,6 +147,8 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | `bool` | Истина или ложь |
 | `int` | 32-разрядное числовое значение  |
 | `long` | 64-разрядное числовое значение |
+
+Чтобы узнать больше об этих типах данных и их последствиях, [прочитайте о скалярных типах данных Кусто](https://docs.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/).
 
 ## <a name="get-help-as-you-write-queries"></a>Помощь при написании запросов
 Ниже перечислены функции, благодаря которым запросы можно создавать быстрее.
@@ -179,6 +181,6 @@ FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Работа с результатами запросов](advanced-hunting-query-results.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
+- [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)

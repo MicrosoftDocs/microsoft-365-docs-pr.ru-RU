@@ -183,6 +183,10 @@
           href: get-help-with-domains/buy-a-domain-name.md
         - name: Удаление домена
           href: get-help-with-domains/remove-a-domain.md
+        - name: Перенос домена из Microsoft 365 на другой узел
+          href: get-help-with-domains/transfer-a-domain-from-microsoft-to-another-host.md
+        - name: "Тестирование Microsoft\_365 с личного домена"
+          href: misc/pilot-microsoft-365-from-my-custom-domain.md
         - name: Вопросы и ответы о доменах
           href: setup/domains-faq.md
         - name: Инструкции для конкретных узлов

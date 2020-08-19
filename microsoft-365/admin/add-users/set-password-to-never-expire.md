@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: f493e3af-e1d8-4668-9211-230c245a0466
 description: Сведения о том, как задать срок действия отдельных паролей для отдельных пользователей с помощью Windows PowerShell.
-ms.openlocfilehash: 6562a4092c47d9c4bf7bf294767e6050a3e0577a
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: f85eb2d3aaf5b19779ea8f293e2cbdc28c1535aa
+ms.sourcegitcommit: 5c16d270c7651c2080a5043d273d979a6fcc75c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44387013"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46804212"
 ---
 # <a name="set-an-individual-users-password-to-never-expire"></a>Установка бессрочных пользовательских паролей
 
@@ -63,7 +63,7 @@ ms.locfileid: "44387013"
     }
     ```
 
-    Пример:
+    Пример.
 
     ```powershell
     Get-AzureADUser -ObjectId userUPN@contoso.com | Select-Object UserprincipalName,@{
@@ -79,7 +79,7 @@ ms.locfileid: "44387013"
      }
     ```
 
-- Чтобы получить отчет обо всех пользователях с PasswordNeverExpires в HTML-коде на рабочем столе текущего пользователя с именем **репортпассвордневерекспирес. HTML**
+- Получение отчета обо всех пользователях с PasswordNeverExpires в HTML-коде на рабочем столе текущего пользователя с именем  **ReportPasswordNeverExpires.html**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -87,7 +87,7 @@ ms.locfileid: "44387013"
     } | ConvertTo-Html | Out-File $env:userprofile\Desktop\ReportPasswordNeverExpires.html
     ```  
 
-- Получение отчета обо всех пользователях с PasswordNeverExpires в CSV на рабочем столе текущего пользователя с именем **репортпассвордневерекспирес. csv**
+- Чтобы получить отчет обо всех пользователях с PasswordNeverExpires в CSV на рабочем столе текущего пользователя с именем **ReportPasswordNeverExpires.csv**
 
     ```powershell
     Get-AzureADUser -All $true | Select-Object UserprincipalName,@{
@@ -128,4 +128,4 @@ ms.locfileid: "44387013"
     ```
 
 > [!WARNING]
-> Для паролей устанавливается `-PasswordPolicies DisablePasswordExpiration` срок хранения, основанный на `pwdLastSet` атрибуте. Если вы настроили пароли пользователей, срок действия которых не истечет, а затем — срок действия паролей — 90 + дн. В зависимости от `pwdLastSet` атрибута, если вы измените срок действия на `-PasswordPolicies None` , то все пароли, имеющие `pwdLastSet` старше 90 дней, должны изменить их при следующем входе в систему. Это изменение может повлиять на большое количество пользователей.
+> Учетные записи пользователей, настроенные с `-PasswordPolicies DisablePasswordExpiration` параметром, по-прежнему возрастются на основе `pwdLastSet` атрибута учетной записи пользователя. Например, если вы настроили пароли пользователей, срок действия которых не истечет, а затем — 90 или более дней, срок действия паролей не истечет. На основе `pwdLastSet` атрибута учетной записи пользователя для учетных записей пользователей, настроенных с помощью этого `-PasswordPolicies None` параметра, все пароли, имеющие `pwdLastSet` старше 90 дней, должны изменить их при следующем входе в систему. Это изменение может повлиять на большое количество пользователей.

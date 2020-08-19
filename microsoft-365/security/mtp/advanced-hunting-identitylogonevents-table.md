@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: aec5bf5dfe29dd55bf5e5df471126db46fdfcb4c
-ms.sourcegitcommit: 51097b18d94da20aa727ebfbeb6ec84c263b25c3
+ms.openlocfilehash: 86212bdecb58b2e79a94d0129a0a531ef22bd6e4
+ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648831"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797844"
 ---
 # <a name="identitylogonevents"></a>IdentityLogonEvents
 
@@ -30,6 +30,9 @@ ms.locfileid: "46648831"
 - Защита от угроз (Майкрософт)
 
 `IdentityLogonEvents`Таблица в [расширенной](advanced-hunting-overview.md) схеме Поиск содержит сведения о действиях проверки подлинности, выполненных в локальной службе Active Directory, захваченных службой Azure ATP и действиями проверки подлинности, связанными со службами Microsoft Online, записанными в Microsoft Cloud App Security. Используйте этот справочник для создания запросов, возвращающих данные из этой таблицы.
+
+>[!TIP]
+> Для получения подробных сведений о типах событий ( `ActionType` значений), поддерживаемых таблицей, используйте [встроенную справочную](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) информацию о схеме, доступную в центре обеспечения безопасности.
 
 >[!NOTE]
 >В этой таблице рассматриваются действия входа в систему Azure Active Directory (AD), отслеживаемые Cloud App Security, а именно интерактивные входы и действия проверки подлинности с помощью ActiveSync и других устаревших протоколов. Неинтерактивные входы, недоступные в этой таблице, можно просматривать в журнале аудита Azure AD. [Дополнительные сведения о подключении Cloud App Security к Microsoft 365](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
@@ -39,7 +42,7 @@ ms.locfileid: "46648831"
 | Имя столбца | Тип данных | Описание |
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | Дата и время записи события |
-| `ActionType` | string | Тип действия, вызвавшего событие |
+| `ActionType` | string | Тип действия, вызвавшего событие. Дополнительные сведения см. [в справочнике по схемам на портале](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) |
 | `LogonType` | string | Тип сеанса входа в систему, в частности:<br><br> - **Интерактивный** пользователь физически взаимодействует с компьютером с помощью локальной клавиатуры и экрана<br><br> - **Удаленный интерактивный вход (RDP)** — пользователь взаимодействует с компьютером удаленно с помощью удаленного рабочего стола, служб терминалов, удаленного помощника или других клиентов RDP<br><br> - **Network** — сеанс, запущенный при доступе к компьютеру с помощью PsExec или при доступе к общим ресурсам на компьютере, например принтерам и общим папкам.<br><br> - **Пакетный** сеанс, инициированный запланированными задачами<br><br> - **Служба** — сеанс, инициированный службами при запуске |
 | `Application` | string | Приложение, которое выполнило записанное действие |
 | `Protocol` | string | Используемый сетевой протокол |
@@ -67,6 +70,6 @@ ms.locfileid: "46648831"
 - [Обзор расширенной охоты на угрозы](advanced-hunting-overview.md)
 - [Изучение языка запросов](advanced-hunting-query-language.md)
 - [Использование общих запросов](advanced-hunting-shared-queries.md)
-- [Слежение за устройствами, сообщениями электронной почты, приложениями и удостоверениями](advanced-hunting-query-emails-devices.md)
+- [Охота на различных устройствах, в письмах, приложениях и удостоверениях](advanced-hunting-query-emails-devices.md)
 - [Сведения о схеме](advanced-hunting-schema-tables.md)
 - [Рекомендации по применению запросов](advanced-hunting-best-practices.md)
