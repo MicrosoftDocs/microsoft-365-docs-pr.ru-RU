@@ -871,10 +871,8 @@
           items:
             - name: Контрольные списки готовности к подотчетности
               href: gdpr-arc.md
-            - name: Azure
-              href: gdpr-arc-azure.md
-            - name: "Dynamics\_365"
-              href: gdpr-arc-dynamics365.md
+            - name: Azure и Dynamics 365
+              href: gdpr-arc-azure-dynamics.md
             - name: Служба поддержки и Профессиональные услуги Майкрософт
               href: gdpr-arc-prof-services.md
             - name: Office 365
