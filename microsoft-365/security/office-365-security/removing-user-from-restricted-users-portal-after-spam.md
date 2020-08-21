@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
 - ms.exch.eac.ActionCenter.Restricted.Users.RestrictedUsers
 ms.service: O365-seccomp
@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 description: Администраторы могут узнать, как удалять пользователей с портала "Пользователи с ограниченным доступом" в Office 365. Пользователи попадают на портал "Пользователи с ограниченным доступом" за отправку исходящей нежелательной почты. Обычно это происходит в результате компрометации учетных записей.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43312ee6eff9b56ac4faf8173666a1ba79b9e067
-ms.sourcegitcommit: df6cc8c2eb2a65c7668f2953b0f7ec783a596d15
+ms.openlocfilehash: 0d411cec48ff6704d737850974e832dbe07a3ad3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2020
-ms.locfileid: "44726728"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826533"
 ---
 # <a name="remove-blocked-users-from-the-restricted-users-portal-in-office-365"></a>Удаление заблокированных пользователей с портала "Пользователи с ограниченным доступом" в Office 365
 

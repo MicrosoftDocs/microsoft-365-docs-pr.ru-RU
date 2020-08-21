@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: overview
 ms.service: O365-seccomp
 search.appverid:
 - MET150
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 localization_priority: Priority
 description: Сведения для администраторов о функциях защиты от спуфинга, доступных в Exchange Online Protection (EOP). Эти функции помогут обеспечить защиту от фишинговых атак, источником которых являются поддельные отправители и домены.
-ms.openlocfilehash: 25e1c73a58ffc89ecf4723fbb7cb872ff7d16071
-ms.sourcegitcommit: 6a1a8aa024fd685d04da97bfcbc8eadacc488534
+ms.openlocfilehash: 490d0d137f654e06512622e3fd5825822286ba41
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46653417"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826665"
 ---
 # <a name="anti-spoofing-protection-in-eop"></a>Защита от спуфинга в EOP
 

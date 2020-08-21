@@ -7,19 +7,19 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 ms.custom:
 - seo-marvel-apr2020
-description: В этой статье рассказывается, как использовать PowerShell для применения параметров конфигурации к клиентам в Microsoft Exchange Online Protection (EOP).
-ms.openlocfilehash: c25bafe9ece71264931d8f059dd726147a6d28a4
-ms.sourcegitcommit: 93c0088d272cd45f1632a1dcaf04159f234abccd
+description: Из этой статьи вы узнаете, как использовать PowerShell, чтобы применить параметры конфигурации к клиентам в службе Microsoft Exchange Online Protection (EOP).
+ms.openlocfilehash: 46b7c756171da7687568e5135974841d828f45bd
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44209143"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827461"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>Пример скрипта для применения параметров EOP к нескольким клиентам
 
@@ -33,7 +33,7 @@ ms.locfileid: "44209143"
 
 3. Для каждой строки в CSV-файле добавьте имя администратора клиента в столбец UserName и командлет, который необходимо выполнить для этого клиента, в столбец Cmdlet. Например, введите admin@contoso.com и Get-AcceptedDomain.
 
-4. Скопируйте сценарий [Скрипт runcmdletonmultipletenants. ps1](#runcmdletonmultipletenantsps1) в блокнот, а затем сохраните файл в месте, которое легко найти (например, c:\scripts).
+4. Скопируйте [RunCmdletOnMultipleTenants.ps1в ](#runcmdletonmultipletenantsps1) Блокнот, а затем сохраните файл в легко найти расположение (например, c:\scripts).
 
 5. Выполните скрипт, используя следующий синтаксис:
 
@@ -44,12 +44,12 @@ ms.locfileid: "44209143"
    Пример:
 
    ```powershell
-   & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
+   & "c:\scripts\RunCmdletOnMultipleTenants.ps1" "c:\scripts\inputfile.csv"
    ```
 
-6. Каждый клиент будет входить в систему, и сценарий будет выполняться.
+6. Вход в каждый клиент будет выполнен, а также будет запущен сценарий.
 
-## <a name="runcmdletonmultipletenantsps1"></a>Скрипт runcmdletonmultipletenants. ps1
+## <a name="runcmdletonmultipletenantsps1"></a>RunCmdletOnMultipleTenants.ps1
 
 ```powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.

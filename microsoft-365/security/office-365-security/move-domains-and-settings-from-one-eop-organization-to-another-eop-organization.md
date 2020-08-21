@@ -1,5 +1,5 @@
 ---
-title: Перемещение доменов & параметры из одной организации EOP в другую
+title: Перемещение параметров & доменов из одной организации EOP в другую
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,26 +7,26 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: В этой статье вы узнаете, как перемещать домены и параметры из одной организации Microsoft Exchange Online Protection (EOP) в другую организацию (клиент).
-ms.openlocfilehash: 32a1721a70df88e7e0d558322988e3e64b3f3397
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+description: В этой статье вы узнаете, как перемещать домены и настройки из одной организации Microsoft Exchange Online Protection (EOP) в другую.
+ms.openlocfilehash: a33042631a5a5371e2d120f76f49cb2a46a638a3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617454"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827693"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a>Перемещение доменов и настроек из одной организации EOP в другую
 
 В связи с изменением бизнес-требований иногда может понадобиться разделить отдельную организацию Microsoft Exchange Online Protection (EOP) (клиент) на две отдельные организации, объединить две организации в одну или переместить домены и настройки EOP из одной организации в другую. Перемещение доменов и настроек из одной организации EOP в другую может оказать сложной задачей, но эту операцию можно выполнить в сравнительно краткий период обслуживания, используя несколько основных удаленных сценариев Windows PowerShell и выполнив некоторые подготовительные действия.
 
 > [!NOTE]
-> Настройки можно надежно переместить только из автономной (стандартной) организации EOP в другую стандартную организацию EOP или организацию, использующую клиентскую лицензию Exchange Enterprise CAL со службами (расширенную организацию EOP), а также из расширенной организации EOP в другую организацию аналогичного типа. Так как некоторые функции расширенной версии не поддерживаются в стандартных организациях EOP, перемещение от Организации EOP Premium в EOP Организации может быть неудачным. <br><br> Эти инструкции предназначены для организаций EOP, выполняющих только фильтрацию. При перемещении данных из одной организации Exchange Online в другую следует придерживаться дополнительных рекомендаций. Эти инструкции не распространяются на организации Exchange Online.
+> Настройки можно надежно переместить только из автономной (стандартной) организации EOP в другую стандартную организацию EOP или организацию, использующую клиентскую лицензию Exchange Enterprise CAL со службами (расширенную организацию EOP), а также из расширенной организации EOP в другую организацию аналогичного типа. Так как стандартные организации EOP не поддерживают некоторые расширенные возможности, перейти из расширенной организации EOP в стандартную может не успешно перейти. <br><br> Эти инструкции предназначены для организаций EOP, выполняющих только фильтрацию. При перемещении данных из одной организации Exchange Online в другую следует придерживаться дополнительных рекомендаций. Эти инструкции не распространяются на организации Exchange Online.
 
 В следующем примере организация Contoso, Ltd. была объединена с организацией Contoso Suites. На изображении ниже показан процесс перемещения доменов, настроек, почтовых пользователей и групп из исходной организации EOP (contoso.onmicrosoft.com) в целевую (contososuites.onmicrosoft.com).
 
@@ -46,24 +46,24 @@ ms.locfileid: "44617454"
 
 - Защита от нежелательной почты
 
-  - Политики защиты от нежелательной почты (также называемые политиками фильтрации содержимого)
+  - Политики защиты от нежелательной почты (политики фильтрации содержимого)
   - Политики фильтрации исходящей нежелательной почты
-  - Политики фильтрации подключений
+  - Политики фильтров подключений
 
 - Политики защиты от вредоносных программ
 
 - Соединители
 
-- Правила для поток обработки почты (также называемые правилами транспорта)
+- Правила потока обработки почты (правила транспорта)
 
   > [!NOTE]
-  > Поддержка командлетов для экспорта и импорта коллекции правил обработки почты в настоящее время поддерживается только для планов подписки EOP Premium.
+  > В настоящее время поддержка командлетов для экспорта и импорта коллекции правил потока обработки почты поддерживается только для планов подписки EOP Premium.
 
-Самый простой способ собрать все параметры — использовать PowerShell. Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
+Для этого проще всего собрать все настройки с помощью PowerShell. Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).
 
 После этого вы можете собрать все настройки и экспортировать их в XML-файл для импорта в целевой клиент. Как правило, выходные данные командлета **Get** для каждой настройки можно передать в командлет **Export-Clixml**, чтобы сохранить настройки в XML-файлах, как показано в приведенном ниже примере кода.
 
-В изолированной EOP PowerShell создайте каталог Export в месте, которое легко найти и изменить в этом каталоге. Пример.
+В автономной службе EOP PowerShell создайте каталог под названием Export в расположении, которое вы сможете легко найти. Измените его. Пример:
 
 ```PowerShell
 mkdir C:\EOP\Export
@@ -73,7 +73,7 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-Следующий сценарий можно использовать для сбора всех почтовых пользователей, групп, параметров защиты от нежелательной почты, параметров защиты от вредоносных программ, соединителей и правил обработки почты в исходной организации. Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл под именем Source_EOP_Settings.ps1 в только что созданном каталоге Export, а затем выполните следующую команду.
+С помощью следующего сценария можно собрать всех почтовых пользователей, группы, параметры защиты от нежелательной почты, параметры защиты от вредоносных программ, соединители и правила потока обработки почты в исходной организации. Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл под именем Source_EOP_Settings.ps1 в только что созданном каталоге Export, а затем выполните следующую команду.
 
 ```PowerShell
 & "C:\EOP\Export\Source_EOP_Settings.ps1"
@@ -177,13 +177,13 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-Теперь вы можете просмотреть и собрать сведения из центра администрирования Microsoft 365 для целевой организации, чтобы можно было быстро проверить домены в момент поступления:
+Теперь вы можете просмотреть и собрать сведения в Центре администрирования Microsoft 365 своей целевой организации, чтобы быстро проверить свои домены в нужное время.
 
-1. Войдите в центр администрирования Microsoft 365 по адресу <https://portal.office.com> .
+1. Войдите в Центр администрирования Microsoft 365 в <https://portal.office.com> службе.
 
 2. Щелкните **Домены**.
 
-   Если вы не видите нужные домены, щелкните **настроить навигтион**, выберите пункт **Настройка**, а затем нажмите кнопку **сохранить**.
+   Если домены не видны, нажмите "Настройка **параметров навигации"** и выберите **"Настройка"** и нажмите кнопку **"Сохранить".**
 
 3. Щелкните каждую ссылку **Начать установку**, а затем следуйте указаниям мастера установки.
 
@@ -191,7 +191,7 @@ Foreach ($domain in $Domains) {
 
 5. Запишите запись MX или TXT, которая будет использоваться для проверки домена, и завершите работу мастера установки.
 
-6. Добавьте проверочные записи типа TXT в записи DNS. Это позволит быстрее проверить домены в исходной организации после их удаления из целевой организации. Для получения дополнительных сведений о настройке DNS ознакомьтесь [со статьей Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+6. Добавьте проверочные записи типа TXT в записи DNS. Это позволит быстрее проверить домены в исходной организации после их удаления из целевой организации. Дополнительные сведения о настройке DNS см. в статье ["Создание записей DNS для любого поставщика услуг размещения DNS для Microsoft 365".](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
 
 ## <a name="step-3-force-senders-to-queue-mail"></a>Действие 3. Принудительная постановка почты отправителей в очередь
 
@@ -201,14 +201,14 @@ Foreach ($domain in $Domains) {
 
 Кроме того, можно разместить по недопустимой записи MX в каждом домене, в котором хранятся записи DNS вашего домена (так называемая "служба размещения DNS"). Вследствие этого отправителю придется поставить ваши сообщения в очередь и повторить попытку (обычно повторные попытки выполняются через 48 часов, но поставщики могут задавать различные настройки). В качестве недопустимой целевой записи MX можно использовать адрес invalid.outlook.com. Снижение значения срока жизни к пяти минутам в записи MX обеспечит более быстрое распространение изменения среди поставщиков DNS.
 
-Для получения дополнительных сведений о настройке DNS ознакомьтесь [со статьей Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Дополнительные сведения о настройке DNS см. в статье ["Создание записей DNS для любого поставщика услуг размещения DNS для Microsoft 365".](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)
 
 > [!IMPORTANT]
 > Разные поставщики ставят сообщения в очередь на различные периоды времени. Вам понадобится быстро настроить свой новый клиент и отменить изменения, внесенные в настройки DNS, чтобы предотвратить отправку отчетов о недоставке отправителю в случае завершения срока действия очереди.
 
 ## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a>Действие 4. Удаление пользователей, групп и доменов из исходной организации
 
-Следующий сценарий удаляет пользователей, группы и домены из исходного клиента с помощью Azure Active Directory PowerShell. Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Remove_Users_and_Groups.ps1 и выполните следующую команду.
+Следующий сценарий позволяет удалить пользователей, группы и домены из исходного клиента с помощью Azure Active Directory PowerShell. Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Remove_Users_and_Groups.ps1 и выполните следующую команду.
 
 ```PowerShell
 & "C:\EOP\Export\Remove_Users_and_Groups.ps1"
@@ -249,7 +249,7 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 ## <a name="step-5-verify-domains-for-the-target-organization"></a>Действие 5. Проверка доменов для целевой организации
 
-1. Войдите в центр администрирования по адресу [https://portal.office.com](https://portal.office.com) .
+1. Войдите в Центр администрирования. [https://portal.office.com](https://portal.office.com)
 
 2. Щелкните **Домены**.
 
@@ -257,7 +257,7 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 
 ## <a name="step-6-add-mail-users-and-groups-to-the-target-organization"></a>Действие 6. Добавление почтовых пользователей и групп в целевую организацию
 
-Рекомендуется для EOP использовать Azure Active Directory для синхронизации локального каталога Active Directory с целевым клиентом. Дополнительные сведения о том, как это сделать, можно найти в разделе "использование синхронизации каталогов для управления почтовыми пользователями" в разделе [Управление почтовыми пользователями в EOP](manage-mail-users-in-eop.md). Вы также можете использовать следующий сценарий для повторного создания пользователей и групп из исходного клиента. Note: пароли пользователей нельзя перемещать. Новые пароли пользователей создаются и сохраняются в файле с именем Усерсандграупс. ps1.
+Для EOP рекомендуется использовать Azure Active Directory, чтобы синхронизировать локальную службу Active Directory с целевым клиентом. Дополнительные сведения о том, как это сделать, см. в разделе "Управление почтовыми пользователями с помощью синхронизации службы каталогов" [статьи "Управление почтовыми пользователями в EOP".](manage-mail-users-in-eop.md) Вы также можете воссоздать пользователей и группы из клиента-источника с помощью следующего сценария. Примечание. Пароли пользователей нельзя переместить. Новые пароли пользователей создаются и сохраняются в файле с UsersAndGroups.ps1.
 
 Чтобы использовать сценарий, скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Add_Users_and_Groups.ps1 и выполните следующую команду.
 
@@ -646,11 +646,11 @@ rm -erroraction 'silentlycontinue' $outfile
 #****************************************************************************
 # HostedContentFilterPolicy
 #****************************************************************************
-$HostedContentFilterPolicys = Import-Clixml ".\HostedContentFilterPolicy.xml"
-$HostedContentFilterPolicyCount = $HostedContentFilterPolicys.Name.Count
+$HostedContentFilterPolicies = Import-Clixml ".\HostedContentFilterPolicy.xml"
+$HostedContentFilterPolicyCount = $HostedContentFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $HostedContentFilterPolicyCount Inbound Connectors"
-    ForEach ($HostedContentFilterPolicy in $HostedContentFilterPolicys) {
+    ForEach ($HostedContentFilterPolicy in $HostedContentFilterPolicies) {
         $HostedContentFilterPolicyCmdlet = "New-HostedContentFilterPolicy"
         if($HostedContentFilterPolicy.Name -eq "Default") {$HostedContentFilterPolicyCmdlet = "Set-HostedContentFilterPolicy -Identity Default"}
         else {
@@ -726,11 +726,11 @@ if($HostedContentFilterPolicyCount -gt 0){
 #****************************************************************************
 # HostedOutboundSpamFilterPolicy
 #****************************************************************************
-$HostedOutboundSpamFilterPolicys = Import-Clixml ".\HostedOutboundSpamFilterPolicy.xml"
-$HostedOutboundSpamFilterPolicyCount = $HostedOutboundSpamFilterPolicys.Name.Count
+$HostedOutboundSpamFilterPolicies = Import-Clixml ".\HostedOutboundSpamFilterPolicy.xml"
+$HostedOutboundSpamFilterPolicyCount = $HostedOutboundSpamFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $HostedOutboundSpamFilterPolicyCount Hosted Outbound Spam Filter Policies"
-    ForEach ($HostedOutboundSpamFilterPolicy in $HostedOutboundSpamFilterPolicys) {
+    ForEach ($HostedOutboundSpamFilterPolicy in $HostedOutboundSpamFilterPolicies) {
         $HostedOutboundSpamFilterPolicyCmdlet = "Set-HostedOutboundSpamFilterPolicy Default"
         $HostedOutboundSpamFilterPolicyCmdlet += makeparam "AdminDisplayName" $HostedOutboundSpamFilterPolicy.AdminDisplayName
         $HostedOutboundSpamFilterPolicyCmdlet += makeparam "BccSuspiciousOutboundAdditionalRecipients"
@@ -747,11 +747,11 @@ if($HostedContentFilterPolicyCount -gt 0){
 #****************************************************************************
 # HostedConnectionFilterPolicy
 #****************************************************************************
-$HostedConnectionFilterPolicys = Import-Clixml ".\HostedConnectionFilterPolicy.xml"
-$HostedConnectionFilterPolicyCount = $HostedConnectionFilterPolicys.Name.Count
+$HostedConnectionFilterPolicies = Import-Clixml ".\HostedConnectionFilterPolicy.xml"
+$HostedConnectionFilterPolicyCount = $HostedConnectionFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $HostedConnectionFilterPolicyCount Hosted Connection Filter Policies"
-    ForEach ($HostedConnectionFilterPolicy in $HostedConnectionFilterPolicys) {
+    ForEach ($HostedConnectionFilterPolicy in $HostedConnectionFilterPolicies) {
         $HostedConnectionFilterPolicyCmdlet = "Set-HostedConnectionFilterPolicy"
         $HostedConnectionFilterPolicyCmdlet += makeparam "Identity" $HostedConnectionFilterPolicy.Name
         $HostedConnectionFilterPolicyCmdlet += makeparam "AdminDisplayName" $HostedConnectionFilterPolicy.AdminDisplayName
@@ -768,11 +768,11 @@ if($HostedContentFilterPolicyCount -gt 0){
 #****************************************************************************
 # MalwareFilterPolicy
 #****************************************************************************
-$MalwareFilterPolicys = Import-Clixml ".\MalwareFilterPolicy.xml"
-$MalwareFilterPolicyCount = $MalwareFilterPolicys.Name.Count
+$MalwareFilterPolicies = Import-Clixml ".\MalwareFilterPolicy.xml"
+$MalwareFilterPolicyCount = $MalwareFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $MalwareFilterPolicyCount Malware Filter Policies"
-    ForEach ($MalwareFilterPolicy in $MalwareFilterPolicys) {
+    ForEach ($MalwareFilterPolicy in $MalwareFilterPolicies) {
         $MalwareFilterPolicyCmdlet = "New-MalwareFilterPolicy"
         if($MalwareFilterPolicy.Name -eq "Default") {$MalwareFilterPolicyCmdlet = "Set-MalwareFilterPolicy Default"}
         else {
@@ -931,4 +931,4 @@ if($HostedContentFilterPolicyCount -gt 0){
 
 ## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a>Действие 8. Отмена изменений, внесенных в настройки DNS, для прекращения постановки сообщений в очередь
 
-Если вы решили настроить записи MX на недопустимый адрес, чтобы отправители почтовых ящиков во время перехода, необходимо снова установить для них правильное значение, указанное в [центре администрирования](https://admin.microsoft.com). Для получения дополнительных сведений о настройке DNS ознакомьтесь [со статьей Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+Если вы решили указать записи MX таким образом, чтобы они указывают на недопустимый адрес, чтобы задерживать их в очередь во время перехода, верните им правильное значение, указанное в [Центре администрирования.](https://admin.microsoft.com) Дополнительные сведения о настройке DNS см. в статье ["Создание записей DNS для любого поставщика услуг размещения DNS для Microsoft 365".](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)

@@ -7,7 +7,7 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: Consumer/IW
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-apr2020
 description: Пользователи могут узнать о том, как просматривать сообщения, помещенные на карантин в Exchange Online Protection (EOP), и управлять ими.
-ms.openlocfilehash: afcbcfed4b17b2751759850e339568f5b9a46b6f
-ms.sourcegitcommit: 51f040a4edb8dd52521a5d7b0f7a975986a1af10
+ms.openlocfilehash: 21e04021267d64c48219cbffc46f36739b8035c0
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46608315"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46826617"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-eop"></a>Поиск и разблокирование сообщений, находящихся на карантине, для пользователя в EOP
 
