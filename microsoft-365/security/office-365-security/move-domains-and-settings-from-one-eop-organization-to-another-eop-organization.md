@@ -1,5 +1,5 @@
 ---
-title: Перемещение доменов & параметры из одной организации EOP в другую
+title: Перемещение параметров & доменов из одной организации EOP в другую
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -7,63 +7,63 @@ author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
-ms.topic: article
+ms.topic: how-to
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 ms.custom:
 - seo-marvel-apr2020
-description: В этой статье вы узнаете, как перемещать домены и параметры из одной организации Microsoft Exchange Online Protection (EOP) в другую организацию (клиент).
-ms.openlocfilehash: 32a1721a70df88e7e0d558322988e3e64b3f3397
-ms.sourcegitcommit: 73b2426001dc5a3f4b857366ef51e877db549098
+description: В этой статье вы узнаете, как перемещать домены и настройки из одной организации Microsoft Exchange Online Protection (EOP) в другую.
+ms.openlocfilehash: a33042631a5a5371e2d120f76f49cb2a46a638a3
+ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44617454"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46827693"
 ---
-# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a><span data-ttu-id="c34b5-103">Перемещение доменов и настроек из одной организации EOP в другую</span><span class="sxs-lookup"><span data-stu-id="c34b5-103">Move domains and settings from one EOP organization to another</span></span>
+# <a name="move-domains-and-settings-from-one-eop-organization-to-another"></a><span data-ttu-id="7e7d7-103">Перемещение доменов и настроек из одной организации EOP в другую</span><span class="sxs-lookup"><span data-stu-id="7e7d7-103">Move domains and settings from one EOP organization to another</span></span>
 
-<span data-ttu-id="c34b5-p101">В связи с изменением бизнес-требований иногда может понадобиться разделить отдельную организацию Microsoft Exchange Online Protection (EOP) (клиент) на две отдельные организации, объединить две организации в одну или переместить домены и настройки EOP из одной организации в другую. Перемещение доменов и настроек из одной организации EOP в другую может оказать сложной задачей, но эту операцию можно выполнить в сравнительно краткий период обслуживания, используя несколько основных удаленных сценариев Windows PowerShell и выполнив некоторые подготовительные действия.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p101">Changing business requirements can sometimes require splitting one Microsoft Exchange Online Protection (EOP) organization (tenant) into two separate organizations, merging two organizations into one, or moving your domains and EOP settings from one organization to another organization. Moving from one EOP organization to a second EOP organization can be challenging, but with a few basic remote Windows PowerShell scripts and a small amount of preparation, this can be achieved with a relatively small maintenance window.</span></span>
+<span data-ttu-id="7e7d7-p101">В связи с изменением бизнес-требований иногда может понадобиться разделить отдельную организацию Microsoft Exchange Online Protection (EOP) (клиент) на две отдельные организации, объединить две организации в одну или переместить домены и настройки EOP из одной организации в другую. Перемещение доменов и настроек из одной организации EOP в другую может оказать сложной задачей, но эту операцию можно выполнить в сравнительно краткий период обслуживания, используя несколько основных удаленных сценариев Windows PowerShell и выполнив некоторые подготовительные действия.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p101">Changing business requirements can sometimes require splitting one Microsoft Exchange Online Protection (EOP) organization (tenant) into two separate organizations, merging two organizations into one, or moving your domains and EOP settings from one organization to another organization. Moving from one EOP organization to a second EOP organization can be challenging, but with a few basic remote Windows PowerShell scripts and a small amount of preparation, this can be achieved with a relatively small maintenance window.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c34b5-106">Настройки можно надежно переместить только из автономной (стандартной) организации EOP в другую стандартную организацию EOP или организацию, использующую клиентскую лицензию Exchange Enterprise CAL со службами (расширенную организацию EOP), а также из расширенной организации EOP в другую организацию аналогичного типа.</span><span class="sxs-lookup"><span data-stu-id="c34b5-106">Settings can be reliably moved only from an EOP standalone (Standard) organization to either another EOP Standard or an Exchange Enterprise CAL with Services (EOP Premium) organization, or from an EOP Premium organization to another EOP Premium organization.</span></span> <span data-ttu-id="c34b5-107">Так как некоторые функции расширенной версии не поддерживаются в стандартных организациях EOP, перемещение от Организации EOP Premium в EOP Организации может быть неудачным.</span><span class="sxs-lookup"><span data-stu-id="c34b5-107">Because some premium features are not supported in EOP Standard organizations, moves from an EOP Premium organization to an EOP Standard organization might not be successful.</span></span> <br><br> <span data-ttu-id="c34b5-p103">Эти инструкции предназначены для организаций EOP, выполняющих только фильтрацию. При перемещении данных из одной организации Exchange Online в другую следует придерживаться дополнительных рекомендаций. Эти инструкции не распространяются на организации Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p103">These instructions are for EOP filtering-only organizations. There are additional considerations in moving from one Exchange Online organization to another Exchange Online organization. Exchange Online organizations are out of scope for these instructions.</span></span>
+> <span data-ttu-id="7e7d7-106">Настройки можно надежно переместить только из автономной (стандартной) организации EOP в другую стандартную организацию EOP или организацию, использующую клиентскую лицензию Exchange Enterprise CAL со службами (расширенную организацию EOP), а также из расширенной организации EOP в другую организацию аналогичного типа.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-106">Settings can be reliably moved only from an EOP standalone (Standard) organization to either another EOP Standard or an Exchange Enterprise CAL with Services (EOP Premium) organization, or from an EOP Premium organization to another EOP Premium organization.</span></span> <span data-ttu-id="7e7d7-107">Так как стандартные организации EOP не поддерживают некоторые расширенные возможности, перейти из расширенной организации EOP в стандартную может не успешно перейти.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-107">Because some premium features are not supported in EOP Standard organizations, moves from an EOP Premium organization to an EOP Standard organization might not be successful.</span></span> <br><br> <span data-ttu-id="7e7d7-p103">Эти инструкции предназначены для организаций EOP, выполняющих только фильтрацию. При перемещении данных из одной организации Exchange Online в другую следует придерживаться дополнительных рекомендаций. Эти инструкции не распространяются на организации Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p103">These instructions are for EOP filtering-only organizations. There are additional considerations in moving from one Exchange Online organization to another Exchange Online organization. Exchange Online organizations are out of scope for these instructions.</span></span>
 
-<span data-ttu-id="c34b5-p104">В следующем примере организация Contoso, Ltd. была объединена с организацией Contoso Suites. На изображении ниже показан процесс перемещения доменов, настроек, почтовых пользователей и групп из исходной организации EOP (contoso.onmicrosoft.com) в целевую (contososuites.onmicrosoft.com).</span><span class="sxs-lookup"><span data-stu-id="c34b5-p104">In the following example, Contoso, Ltd. has merged with Contoso Suites. The following image shows the process of moving domains, mail users and groups, and settings from the source EOP organization (contoso.onmicrosoft.com) to the target EOP organization (contososuites.onmicrosoft.com):</span></span>
+<span data-ttu-id="7e7d7-p104">В следующем примере организация Contoso, Ltd. была объединена с организацией Contoso Suites. На изображении ниже показан процесс перемещения доменов, настроек, почтовых пользователей и групп из исходной организации EOP (contoso.onmicrosoft.com) в целевую (contososuites.onmicrosoft.com).</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p104">In the following example, Contoso, Ltd. has merged with Contoso Suites. The following image shows the process of moving domains, mail users and groups, and settings from the source EOP organization (contoso.onmicrosoft.com) to the target EOP organization (contososuites.onmicrosoft.com):</span></span>
 
 ![Перемещение доменов и параметров EOP](../../media/EOP-Move-domains-and-settings.jpg)
 
-<span data-ttu-id="c34b5-p105">Проблема при перемещении доменов из одной организации в другую состоит в том, что проверенный домен не может существовать одновременно в двух организациях. Эту проблему можно решить, выполнив следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p105">The challenge in moving domains from one organization to another is that a verified domain can't exist in two organizations at the same time. The following steps help you work through this.</span></span>
+<span data-ttu-id="7e7d7-p105">Проблема при перемещении доменов из одной организации в другую состоит в том, что проверенный домен не может существовать одновременно в двух организациях. Эту проблему можно решить, выполнив следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p105">The challenge in moving domains from one organization to another is that a verified domain can't exist in two organizations at the same time. The following steps help you work through this.</span></span>
 
-## <a name="step-1-collect-data-from-the-source-organization"></a><span data-ttu-id="c34b5-116">Действие 1. Сбор данных из исходной организации</span><span class="sxs-lookup"><span data-stu-id="c34b5-116">Step 1: Collect data from the source organization</span></span>
+## <a name="step-1-collect-data-from-the-source-organization"></a><span data-ttu-id="7e7d7-116">Действие 1. Сбор данных из исходной организации</span><span class="sxs-lookup"><span data-stu-id="7e7d7-116">Step 1: Collect data from the source organization</span></span>
 
-<span data-ttu-id="c34b5-117">Чтобы воссоздать исходную организацию в целевой, обязательно соберите и сохраните следующие действия об исходной организации:</span><span class="sxs-lookup"><span data-stu-id="c34b5-117">In order to re-create the source organization in the target organization, make sure that you collect and store the following information about the source organization:</span></span>
+<span data-ttu-id="7e7d7-117">Чтобы воссоздать исходную организацию в целевой, обязательно соберите и сохраните следующие действия об исходной организации:</span><span class="sxs-lookup"><span data-stu-id="7e7d7-117">In order to re-create the source organization in the target organization, make sure that you collect and store the following information about the source organization:</span></span>
 
-- <span data-ttu-id="c34b5-118">домены;</span><span class="sxs-lookup"><span data-stu-id="c34b5-118">Domains</span></span>
+- <span data-ttu-id="7e7d7-118">домены;</span><span class="sxs-lookup"><span data-stu-id="7e7d7-118">Domains</span></span>
 
-- <span data-ttu-id="c34b5-119">почтовые пользователи;</span><span class="sxs-lookup"><span data-stu-id="c34b5-119">Mail users</span></span>
+- <span data-ttu-id="7e7d7-119">почтовые пользователи;</span><span class="sxs-lookup"><span data-stu-id="7e7d7-119">Mail users</span></span>
 
-- <span data-ttu-id="c34b5-120">группы;</span><span class="sxs-lookup"><span data-stu-id="c34b5-120">Groups</span></span>
+- <span data-ttu-id="7e7d7-120">группы;</span><span class="sxs-lookup"><span data-stu-id="7e7d7-120">Groups</span></span>
 
-- <span data-ttu-id="c34b5-121">Защита от нежелательной почты</span><span class="sxs-lookup"><span data-stu-id="c34b5-121">Anti-spam</span></span>
+- <span data-ttu-id="7e7d7-121">Защита от нежелательной почты</span><span class="sxs-lookup"><span data-stu-id="7e7d7-121">Anti-spam</span></span>
 
-  - <span data-ttu-id="c34b5-122">Политики защиты от нежелательной почты (также называемые политиками фильтрации содержимого)</span><span class="sxs-lookup"><span data-stu-id="c34b5-122">Anti-spam policies (also known as content filter policies)</span></span>
-  - <span data-ttu-id="c34b5-123">Политики фильтрации исходящей нежелательной почты</span><span class="sxs-lookup"><span data-stu-id="c34b5-123">Outbound spam filter policies</span></span>
-  - <span data-ttu-id="c34b5-124">Политики фильтрации подключений</span><span class="sxs-lookup"><span data-stu-id="c34b5-124">Connection filter policies</span></span>
+  - <span data-ttu-id="7e7d7-122">Политики защиты от нежелательной почты (политики фильтрации содержимого)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-122">Anti-spam policies (also known as content filter policies)</span></span>
+  - <span data-ttu-id="7e7d7-123">Политики фильтрации исходящей нежелательной почты</span><span class="sxs-lookup"><span data-stu-id="7e7d7-123">Outbound spam filter policies</span></span>
+  - <span data-ttu-id="7e7d7-124">Политики фильтров подключений</span><span class="sxs-lookup"><span data-stu-id="7e7d7-124">Connection filter policies</span></span>
 
-- <span data-ttu-id="c34b5-125">Политики защиты от вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="c34b5-125">Anti-malware policies</span></span>
+- <span data-ttu-id="7e7d7-125">Политики защиты от вредоносных программ</span><span class="sxs-lookup"><span data-stu-id="7e7d7-125">Anti-malware policies</span></span>
 
-- <span data-ttu-id="c34b5-126">Соединители</span><span class="sxs-lookup"><span data-stu-id="c34b5-126">Connectors</span></span>
+- <span data-ttu-id="7e7d7-126">Соединители</span><span class="sxs-lookup"><span data-stu-id="7e7d7-126">Connectors</span></span>
 
-- <span data-ttu-id="c34b5-127">Правила для поток обработки почты (также называемые правилами транспорта)</span><span class="sxs-lookup"><span data-stu-id="c34b5-127">Mail flow rules (also known as transport rules)</span></span>
+- <span data-ttu-id="7e7d7-127">Правила потока обработки почты (правила транспорта)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-127">Mail flow rules (also known as transport rules)</span></span>
 
   > [!NOTE]
-  > <span data-ttu-id="c34b5-128">Поддержка командлетов для экспорта и импорта коллекции правил обработки почты в настоящее время поддерживается только для планов подписки EOP Premium.</span><span class="sxs-lookup"><span data-stu-id="c34b5-128">Cmdlet support for the export and import of the mail flow rule collection is currently only supported for EOP Premium subscription plans.</span></span>
+  > <span data-ttu-id="7e7d7-128">В настоящее время поддержка командлетов для экспорта и импорта коллекции правил потока обработки почты поддерживается только для планов подписки EOP Premium.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-128">Cmdlet support for the export and import of the mail flow rule collection is currently only supported for EOP Premium subscription plans.</span></span>
 
-<span data-ttu-id="c34b5-129">Самый простой способ собрать все параметры — использовать PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c34b5-129">The easiest way to collect all of your settings is to use PowerShell.</span></span> <span data-ttu-id="c34b5-130">Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span><span class="sxs-lookup"><span data-stu-id="c34b5-130">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
+<span data-ttu-id="7e7d7-129">Для этого проще всего собрать все настройки с помощью PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-129">The easiest way to collect all of your settings is to use PowerShell.</span></span> <span data-ttu-id="7e7d7-130">Чтобы подключиться к автономному EOP PowerShell, см. раздел [Подключение к PowerShell Exchange Online Protection](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span><span class="sxs-lookup"><span data-stu-id="7e7d7-130">To connect to standalone EOP PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-protection-powershell).</span></span>
 
-<span data-ttu-id="c34b5-p107">После этого вы можете собрать все настройки и экспортировать их в XML-файл для импорта в целевой клиент. Как правило, выходные данные командлета **Get** для каждой настройки можно передать в командлет **Export-Clixml**, чтобы сохранить настройки в XML-файлах, как показано в приведенном ниже примере кода.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p107">Next, you can collect all your settings and export them to an .xml file to be imported into the target tenant. In general, you can pipe the output of the **Get** cmdlet for each setting to the **Export-Clixml** cmdlet to save the settings in .xml files, as shown in the following code sample.</span></span>
+<span data-ttu-id="7e7d7-p107">После этого вы можете собрать все настройки и экспортировать их в XML-файл для импорта в целевой клиент. Как правило, выходные данные командлета **Get** для каждой настройки можно передать в командлет **Export-Clixml**, чтобы сохранить настройки в XML-файлах, как показано в приведенном ниже примере кода.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p107">Next, you can collect all your settings and export them to an .xml file to be imported into the target tenant. In general, you can pipe the output of the **Get** cmdlet for each setting to the **Export-Clixml** cmdlet to save the settings in .xml files, as shown in the following code sample.</span></span>
 
-<span data-ttu-id="c34b5-133">В изолированной EOP PowerShell создайте каталог Export в месте, которое легко найти и изменить в этом каталоге.</span><span class="sxs-lookup"><span data-stu-id="c34b5-133">In standalone EOP PowerShell, create a directory called Export in a location that's easy to find and change to that directory.</span></span> <span data-ttu-id="c34b5-134">Пример.</span><span class="sxs-lookup"><span data-stu-id="c34b5-134">For example:</span></span>
+<span data-ttu-id="7e7d7-133">В автономной службе EOP PowerShell создайте каталог под названием Export в расположении, которое вы сможете легко найти. Измените его.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-133">In standalone EOP PowerShell, create a directory called Export in a location that's easy to find and change to that directory.</span></span> <span data-ttu-id="7e7d7-134">Пример:</span><span class="sxs-lookup"><span data-stu-id="7e7d7-134">For example:</span></span>
 
 ```PowerShell
 mkdir C:\EOP\Export
@@ -73,7 +73,7 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-<span data-ttu-id="c34b5-135">Следующий сценарий можно использовать для сбора всех почтовых пользователей, групп, параметров защиты от нежелательной почты, параметров защиты от вредоносных программ, соединителей и правил обработки почты в исходной организации.</span><span class="sxs-lookup"><span data-stu-id="c34b5-135">The following script can be used to collect all the mail users, groups, anti-spam settings, anti-malware settings, connectors, and mail flow rules in the source organization.</span></span> <span data-ttu-id="c34b5-136">Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл под именем Source_EOP_Settings.ps1 в только что созданном каталоге Export, а затем выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="c34b5-136">Copy and paste the following text into a text editor like Notepad, save the file as Source_EOP_Settings.ps1 in the Export directory you just created, and run the following command:</span></span>
+<span data-ttu-id="7e7d7-135">С помощью следующего сценария можно собрать всех почтовых пользователей, группы, параметры защиты от нежелательной почты, параметры защиты от вредоносных программ, соединители и правила потока обработки почты в исходной организации.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-135">The following script can be used to collect all the mail users, groups, anti-spam settings, anti-malware settings, connectors, and mail flow rules in the source organization.</span></span> <span data-ttu-id="7e7d7-136">Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл под именем Source_EOP_Settings.ps1 в только что созданном каталоге Export, а затем выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-136">Copy and paste the following text into a text editor like Notepad, save the file as Source_EOP_Settings.ps1 in the Export directory you just created, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Source_EOP_Settings.ps1"
@@ -145,22 +145,22 @@ $file = Export-TransportRuleCollection
 Set-Content -Path ".TransportRules.xml" -Value $file.FileData -Encoding Byte
 ```
 
-<span data-ttu-id="c34b5-p110">Выполните приведенные ниже команды в каталоге Export, чтобы обновить XML-файлы в целевой организации. Замените contoso.onmicrosoft.com и contososuites.onmicrosoft.com на имена своих исходной и целевой организаций.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p110">Run the following commands from the Export directory to update the .xml files with the target organization. Replace contoso.onmicrosoft.com and contososuites.onmicrosoft.com with your source and target organization names.</span></span>
+<span data-ttu-id="7e7d7-p110">Выполните приведенные ниже команды в каталоге Export, чтобы обновить XML-файлы в целевой организации. Замените contoso.onmicrosoft.com и contososuites.onmicrosoft.com на имена своих исходной и целевой организаций.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p110">Run the following commands from the Export directory to update the .xml files with the target organization. Replace contoso.onmicrosoft.com and contososuites.onmicrosoft.com with your source and target organization names.</span></span>
 
 ```PowerShell
 $files = ls
 ForEach ($file in $files) { (Get-Content $file.Name) | Foreach-Object {$_ -replace 'contoso.onmicrosoft.com', 'contososuites.onmicrosoft.com'} | Set-Content $file.Name}
 ```
 
-## <a name="step-2-add-domains-to-the-target-organization"></a><span data-ttu-id="c34b5-139">Действие 2. Добавление доменов в целевую организацию</span><span class="sxs-lookup"><span data-stu-id="c34b5-139">Step 2: Add domains to the target organization</span></span>
+## <a name="step-2-add-domains-to-the-target-organization"></a><span data-ttu-id="7e7d7-139">Действие 2. Добавление доменов в целевую организацию</span><span class="sxs-lookup"><span data-stu-id="7e7d7-139">Step 2: Add domains to the target organization</span></span>
 
-<span data-ttu-id="c34b5-p111">Добавьте домены в целевую организацию, используя следующий сценарий. Скопируйте и вставьте текст в текстовый редактор (например, Блокнот), сохраните сценарий как C:\EOP\Export\Add_Domains.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p111">Add domains to the target organization by using the following script. Copy and paste the text into a text editor like Notepad, save the script as C:\EOP\Export\Add_Domains.ps1, and run the following command:</span></span>
+<span data-ttu-id="7e7d7-p111">Добавьте домены в целевую организацию, используя следующий сценарий. Скопируйте и вставьте текст в текстовый редактор (например, Блокнот), сохраните сценарий как C:\EOP\Export\Add_Domains.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p111">Add domains to the target organization by using the following script. Copy and paste the text into a text editor like Notepad, save the script as C:\EOP\Export\Add_Domains.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Add_Domains.ps1"
 ```
 
-<span data-ttu-id="c34b5-142">Эти домены не будут проверены, поэтому их невозможно использовать для маршрутизации почты. Однако после добавления доменов вы сможете собрать сведения, необходимые для проверки доменов, и в конце концов обновить свои записи MX для нового клиента.</span><span class="sxs-lookup"><span data-stu-id="c34b5-142">These domains won't be verified and can't be used to route mail, but after the domains are added, you can collect the information needed to verify the domains and eventually update your MX records for the new tenant.</span></span>
+<span data-ttu-id="7e7d7-142">Эти домены не будут проверены, поэтому их невозможно использовать для маршрутизации почты. Однако после добавления доменов вы сможете собрать сведения, необходимые для проверки доменов, и в конце концов обновить свои записи MX для нового клиента.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-142">These domains won't be verified and can't be used to route mail, but after the domains are added, you can collect the information needed to verify the domains and eventually update your MX records for the new tenant.</span></span>
 
 ```PowerShell
 #***********************************************************************
@@ -177,38 +177,38 @@ Foreach ($domain in $Domains) {
 }
 ```
 
-<span data-ttu-id="c34b5-143">Теперь вы можете просмотреть и собрать сведения из центра администрирования Microsoft 365 для целевой организации, чтобы можно было быстро проверить домены в момент поступления:</span><span class="sxs-lookup"><span data-stu-id="c34b5-143">Now you can review and collect the information from the Microsoft 365 admin center of your target organization so you can quickly verify your domains when the time comes:</span></span>
+<span data-ttu-id="7e7d7-143">Теперь вы можете просмотреть и собрать сведения в Центре администрирования Microsoft 365 своей целевой организации, чтобы быстро проверить свои домены в нужное время.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-143">Now you can review and collect the information from the Microsoft 365 admin center of your target organization so you can quickly verify your domains when the time comes:</span></span>
 
-1. <span data-ttu-id="c34b5-144">Войдите в центр администрирования Microsoft 365 по адресу <https://portal.office.com> .</span><span class="sxs-lookup"><span data-stu-id="c34b5-144">Sign in to the Microsoft 365 admin center at <https://portal.office.com>.</span></span>
+1. <span data-ttu-id="7e7d7-144">Войдите в Центр администрирования Microsoft 365 в <https://portal.office.com> службе.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-144">Sign in to the Microsoft 365 admin center at <https://portal.office.com>.</span></span>
 
-2. <span data-ttu-id="c34b5-145">Щелкните **Домены**.</span><span class="sxs-lookup"><span data-stu-id="c34b5-145">Click **Domains**.</span></span>
+2. <span data-ttu-id="7e7d7-145">Щелкните **Домены**.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-145">Click **Domains**.</span></span>
 
-   <span data-ttu-id="c34b5-146">Если вы не видите нужные домены, щелкните **настроить навигтион**, выберите пункт **Настройка**, а затем нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="c34b5-146">If you don't see domains, click **Customize navigtion**, select **Setup**, and then click **Save**.</span></span>
+   <span data-ttu-id="7e7d7-146">Если домены не видны, нажмите "Настройка **параметров навигации"** и выберите **"Настройка"** и нажмите кнопку **"Сохранить".**</span><span class="sxs-lookup"><span data-stu-id="7e7d7-146">If you don't see domains, click **Customize navigation**, select **Setup**, and then click **Save**.</span></span>
 
-3. <span data-ttu-id="c34b5-147">Щелкните каждую ссылку **Начать установку**, а затем следуйте указаниям мастера установки.</span><span class="sxs-lookup"><span data-stu-id="c34b5-147">Click each **Start setup** link, and then proceed through the setup wizard.</span></span>
+3. <span data-ttu-id="7e7d7-147">Щелкните каждую ссылку **Начать установку**, а затем следуйте указаниям мастера установки.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-147">Click each **Start setup** link, and then proceed through the setup wizard.</span></span>
 
-4. <span data-ttu-id="c34b5-148">На странице **Подтверждение владельца** в разделе **См. пошаговые инструкции по выполнению этого действия для** выберите пункт **Общие инструкции**.</span><span class="sxs-lookup"><span data-stu-id="c34b5-148">On the **Confirm ownership** page, for **See step-by-step instructions for performing this step with**, select **General instructions**.</span></span>
+4. <span data-ttu-id="7e7d7-148">На странице **Подтверждение владельца** в разделе **См. пошаговые инструкции по выполнению этого действия для** выберите пункт **Общие инструкции**.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-148">On the **Confirm ownership** page, for **See step-by-step instructions for performing this step with**, select **General instructions**.</span></span>
 
-5. <span data-ttu-id="c34b5-149">Запишите запись MX или TXT, которая будет использоваться для проверки домена, и завершите работу мастера установки.</span><span class="sxs-lookup"><span data-stu-id="c34b5-149">Record the MX record or TXT record that you'll use to verify your domain, and finish the setup wizard.</span></span>
+5. <span data-ttu-id="7e7d7-149">Запишите запись MX или TXT, которая будет использоваться для проверки домена, и завершите работу мастера установки.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-149">Record the MX record or TXT record that you'll use to verify your domain, and finish the setup wizard.</span></span>
 
-6. <span data-ttu-id="c34b5-150">Добавьте проверочные записи типа TXT в записи DNS.</span><span class="sxs-lookup"><span data-stu-id="c34b5-150">Add the verification TXT records to your DNS records.</span></span> <span data-ttu-id="c34b5-151">Это позволит быстрее проверить домены в исходной организации после их удаления из целевой организации.</span><span class="sxs-lookup"><span data-stu-id="c34b5-151">This will let you more quickly verify the domains in the source organization after they're removed from the target organization.</span></span> <span data-ttu-id="c34b5-152">Для получения дополнительных сведений о настройке DNS ознакомьтесь [со статьей Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span><span class="sxs-lookup"><span data-stu-id="c34b5-152">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
+6. <span data-ttu-id="7e7d7-150">Добавьте проверочные записи типа TXT в записи DNS.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-150">Add the verification TXT records to your DNS records.</span></span> <span data-ttu-id="7e7d7-151">Это позволит быстрее проверить домены в исходной организации после их удаления из целевой организации.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-151">This will let you more quickly verify the domains in the source organization after they're removed from the target organization.</span></span> <span data-ttu-id="7e7d7-152">Дополнительные сведения о настройке DNS см. в статье ["Создание записей DNS для любого поставщика услуг размещения DNS для Microsoft 365".](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-152">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
 
-## <a name="step-3-force-senders-to-queue-mail"></a><span data-ttu-id="c34b5-153">Действие 3. Принудительная постановка почты отправителей в очередь</span><span class="sxs-lookup"><span data-stu-id="c34b5-153">Step 3: Force senders to queue mail</span></span>
+## <a name="step-3-force-senders-to-queue-mail"></a><span data-ttu-id="7e7d7-153">Действие 3. Принудительная постановка почты отправителей в очередь</span><span class="sxs-lookup"><span data-stu-id="7e7d7-153">Step 3: Force senders to queue mail</span></span>
 
-<span data-ttu-id="c34b5-p113">При перемещении доменов из одного клиента в другой вам понадобится удалить домены из исходной организации, а затем проверить их в своей целевой организации. В течение этого времени вы не сможете направлять почту через EOP.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p113">While moving your domains from one tenant to another, you'll need to delete the domains from the source organization and then verify them in your target organization. During this time, you won't be able to route mail through EOP.</span></span>
+<span data-ttu-id="7e7d7-p113">При перемещении доменов из одного клиента в другой вам понадобится удалить домены из исходной организации, а затем проверить их в своей целевой организации. В течение этого времени вы не сможете направлять почту через EOP.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p113">While moving your domains from one tenant to another, you'll need to delete the domains from the source organization and then verify them in your target organization. During this time, you won't be able to route mail through EOP.</span></span>
 
-<span data-ttu-id="c34b5-156">Один из вариантов принудительной постановки почты отправителей в очередь  обновить свои записи MX таким образом, чтобы те указывали непосредственно на ваш локальный почтовый сервер.</span><span class="sxs-lookup"><span data-stu-id="c34b5-156">One option to force senders to queue mail is to update your MX records to point directly to your on-premises mail server.</span></span>
+<span data-ttu-id="7e7d7-156">Один из вариантов принудительной постановки почты отправителей в очередь  обновить свои записи MX таким образом, чтобы те указывали непосредственно на ваш локальный почтовый сервер.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-156">One option to force senders to queue mail is to update your MX records to point directly to your on-premises mail server.</span></span>
 
-<span data-ttu-id="c34b5-p114">Кроме того, можно разместить по недопустимой записи MX в каждом домене, в котором хранятся записи DNS вашего домена (так называемая "служба размещения DNS"). Вследствие этого отправителю придется поставить ваши сообщения в очередь и повторить попытку (обычно повторные попытки выполняются через 48 часов, но поставщики могут задавать различные настройки). В качестве недопустимой целевой записи MX можно использовать адрес invalid.outlook.com. Снижение значения срока жизни к пяти минутам в записи MX обеспечит более быстрое распространение изменения среди поставщиков DNS.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p114">Another option is to put an invalid MX record in each domain where the DNS records for your domain are kept (also known as your DNS hosting service). This will cause the sender to queue your mail and retry (typical retry attempts are for 48 hours, but this might vary from provider to provider). You can use invalid.outlook.com as an invalid MX target. Lowering the Time to Live (TTL) value to five minutes on the MX record will help the change propagate to DNS providers more quickly.</span></span>
+<span data-ttu-id="7e7d7-p114">Кроме того, можно разместить по недопустимой записи MX в каждом домене, в котором хранятся записи DNS вашего домена (так называемая "служба размещения DNS"). Вследствие этого отправителю придется поставить ваши сообщения в очередь и повторить попытку (обычно повторные попытки выполняются через 48 часов, но поставщики могут задавать различные настройки). В качестве недопустимой целевой записи MX можно использовать адрес invalid.outlook.com. Снижение значения срока жизни к пяти минутам в записи MX обеспечит более быстрое распространение изменения среди поставщиков DNS.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p114">Another option is to put an invalid MX record in each domain where the DNS records for your domain are kept (also known as your DNS hosting service). This will cause the sender to queue your mail and retry (typical retry attempts are for 48 hours, but this might vary from provider to provider). You can use invalid.outlook.com as an invalid MX target. Lowering the Time to Live (TTL) value to five minutes on the MX record will help the change propagate to DNS providers more quickly.</span></span>
 
-<span data-ttu-id="c34b5-161">Для получения дополнительных сведений о настройке DNS ознакомьтесь [со статьей Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span><span class="sxs-lookup"><span data-stu-id="c34b5-161">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
+<span data-ttu-id="7e7d7-161">Дополнительные сведения о настройке DNS см. в статье ["Создание записей DNS для любого поставщика услуг размещения DNS для Microsoft 365".](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-161">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="c34b5-p115">Разные поставщики ставят сообщения в очередь на различные периоды времени. Вам понадобится быстро настроить свой новый клиент и отменить изменения, внесенные в настройки DNS, чтобы предотвратить отправку отчетов о недоставке отправителю в случае завершения срока действия очереди.</span><span class="sxs-lookup"><span data-stu-id="c34b5-p115">Different providers queue mail for different periods of time. You'll need to set up your new tenant quickly and revert your DNS settings to avoid non-delivery reports (NDRs) from being sent to the sender if the queuing time expires.</span></span>
+> <span data-ttu-id="7e7d7-p115">Разные поставщики ставят сообщения в очередь на различные периоды времени. Вам понадобится быстро настроить свой новый клиент и отменить изменения, внесенные в настройки DNS, чтобы предотвратить отправку отчетов о недоставке отправителю в случае завершения срока действия очереди.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-p115">Different providers queue mail for different periods of time. You'll need to set up your new tenant quickly and revert your DNS settings to avoid non-delivery reports (NDRs) from being sent to the sender if the queuing time expires.</span></span>
 
-## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a><span data-ttu-id="c34b5-164">Действие 4. Удаление пользователей, групп и доменов из исходной организации</span><span class="sxs-lookup"><span data-stu-id="c34b5-164">Step 4: Remove users, groups, and domains from the source organization</span></span>
+## <a name="step-4-remove-users-groups-and-domains-from-the-source-organization"></a><span data-ttu-id="7e7d7-164">Действие 4. Удаление пользователей, групп и доменов из исходной организации</span><span class="sxs-lookup"><span data-stu-id="7e7d7-164">Step 4: Remove users, groups, and domains from the source organization</span></span>
 
-<span data-ttu-id="c34b5-165">Следующий сценарий удаляет пользователей, группы и домены из исходного клиента с помощью Azure Active Directory PowerShell.</span><span class="sxs-lookup"><span data-stu-id="c34b5-165">The following script removes users, groups, and domains from the source tenant by using Azure Active Directory PowerShell.</span></span> <span data-ttu-id="c34b5-166">Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Remove_Users_and_Groups.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="c34b5-166">Copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Remove_Users_and_Groups.ps1, and run the following command:</span></span>
+<span data-ttu-id="7e7d7-165">Следующий сценарий позволяет удалить пользователей, группы и домены из исходного клиента с помощью Azure Active Directory PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-165">The following script removes users, groups, and domains from the source tenant by using Azure Active Directory PowerShell.</span></span> <span data-ttu-id="7e7d7-166">Скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Remove_Users_and_Groups.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-166">Copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Remove_Users_and_Groups.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Remove_Users_and_Groups.ps1"
@@ -247,19 +247,19 @@ Remove-MsolDomain -DomainName $Domain.Name -Force
 }
 ```
 
-## <a name="step-5-verify-domains-for-the-target-organization"></a><span data-ttu-id="c34b5-167">Действие 5. Проверка доменов для целевой организации</span><span class="sxs-lookup"><span data-stu-id="c34b5-167">Step 5: Verify domains for the target organization</span></span>
+## <a name="step-5-verify-domains-for-the-target-organization"></a><span data-ttu-id="7e7d7-167">Действие 5. Проверка доменов для целевой организации</span><span class="sxs-lookup"><span data-stu-id="7e7d7-167">Step 5: Verify domains for the target organization</span></span>
 
-1. <span data-ttu-id="c34b5-168">Войдите в центр администрирования по адресу [https://portal.office.com](https://portal.office.com) .</span><span class="sxs-lookup"><span data-stu-id="c34b5-168">Sign in to the admin center at [https://portal.office.com](https://portal.office.com).</span></span>
+1. <span data-ttu-id="7e7d7-168">Войдите в Центр администрирования. [https://portal.office.com](https://portal.office.com)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-168">Sign in to the admin center at [https://portal.office.com](https://portal.office.com).</span></span>
 
-2. <span data-ttu-id="c34b5-169">Щелкните **Домены**.</span><span class="sxs-lookup"><span data-stu-id="c34b5-169">Click **Domains**.</span></span>
+2. <span data-ttu-id="7e7d7-169">Щелкните **Домены**.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-169">Click **Domains**.</span></span>
 
-3. <span data-ttu-id="c34b5-170">Щелкните каждую ссылку **Начать установку** для целевого домена, а затем следуйте указаниям мастера установки.</span><span class="sxs-lookup"><span data-stu-id="c34b5-170">Click each **Start setup** link for the target domain and proceed through the setup wizard.</span></span>
+3. <span data-ttu-id="7e7d7-170">Щелкните каждую ссылку **Начать установку** для целевого домена, а затем следуйте указаниям мастера установки.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-170">Click each **Start setup** link for the target domain and proceed through the setup wizard.</span></span>
 
-## <a name="step-6-add-mail-users-and-groups-to-the-target-organization"></a><span data-ttu-id="c34b5-171">Действие 6. Добавление почтовых пользователей и групп в целевую организацию</span><span class="sxs-lookup"><span data-stu-id="c34b5-171">Step 6: Add mail users and groups to the target organization</span></span>
+## <a name="step-6-add-mail-users-and-groups-to-the-target-organization"></a><span data-ttu-id="7e7d7-171">Действие 6. Добавление почтовых пользователей и групп в целевую организацию</span><span class="sxs-lookup"><span data-stu-id="7e7d7-171">Step 6: Add mail users and groups to the target organization</span></span>
 
-<span data-ttu-id="c34b5-172">Рекомендуется для EOP использовать Azure Active Directory для синхронизации локального каталога Active Directory с целевым клиентом.</span><span class="sxs-lookup"><span data-stu-id="c34b5-172">A best practice for EOP is to use Azure Active Directory to sync your on-premises Active Directory to your target tenant.</span></span> <span data-ttu-id="c34b5-173">Дополнительные сведения о том, как это сделать, можно найти в разделе "использование синхронизации каталогов для управления почтовыми пользователями" в разделе [Управление почтовыми пользователями в EOP](manage-mail-users-in-eop.md).</span><span class="sxs-lookup"><span data-stu-id="c34b5-173">For more information about how to do this, see "Use directory synchronization to manage mail users" in [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span> <span data-ttu-id="c34b5-174">Вы также можете использовать следующий сценарий для повторного создания пользователей и групп из исходного клиента.</span><span class="sxs-lookup"><span data-stu-id="c34b5-174">You can also use the following script to recreate your users and groups from your source tenant.</span></span> <span data-ttu-id="c34b5-175">Note: пароли пользователей нельзя перемещать.</span><span class="sxs-lookup"><span data-stu-id="c34b5-175">Note: User passwords cannot be moved.</span></span> <span data-ttu-id="c34b5-176">Новые пароли пользователей создаются и сохраняются в файле с именем Усерсандграупс. ps1.</span><span class="sxs-lookup"><span data-stu-id="c34b5-176">New user passwords are created and saved in the file named UsersAndGroups.ps1.</span></span>
+<span data-ttu-id="7e7d7-172">Для EOP рекомендуется использовать Azure Active Directory, чтобы синхронизировать локальную службу Active Directory с целевым клиентом.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-172">A best practice for EOP is to use Azure Active Directory to sync your on-premises Active Directory to your target tenant.</span></span> <span data-ttu-id="7e7d7-173">Дополнительные сведения о том, как это сделать, см. в разделе "Управление почтовыми пользователями с помощью синхронизации службы каталогов" [статьи "Управление почтовыми пользователями в EOP".](manage-mail-users-in-eop.md)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-173">For more information about how to do this, see "Use directory synchronization to manage mail users" in [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span> <span data-ttu-id="7e7d7-174">Вы также можете воссоздать пользователей и группы из клиента-источника с помощью следующего сценария.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-174">You can also use the following script to recreate your users and groups from your source tenant.</span></span> <span data-ttu-id="7e7d7-175">Примечание. Пароли пользователей нельзя переместить.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-175">Note: User passwords cannot be moved.</span></span> <span data-ttu-id="7e7d7-176">Новые пароли пользователей создаются и сохраняются в файле с UsersAndGroups.ps1.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-176">New user passwords are created and saved in the file named UsersAndGroups.ps1.</span></span>
 
-<span data-ttu-id="c34b5-177">Чтобы использовать сценарий, скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Add_Users_and_Groups.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="c34b5-177">To use the script, copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Add_Users_and_Groups.ps1, and run the following command:</span></span>
+<span data-ttu-id="7e7d7-177">Чтобы использовать сценарий, скопируйте и вставьте приведенный ниже текст в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Add_Users_and_Groups.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-177">To use the script, copy and paste the following text into a text editor like Notepad, save the file as C:\EOP\Export\Add_Users_and_Groups.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Add_Users_and_Groups.ps1"
@@ -607,17 +607,17 @@ if($MailContactsCount -gt 0){
 }
 ```
 
-## <a name="step-7-add-protection-settings-to-the-target-organization"></a><span data-ttu-id="c34b5-178">Действие 7. Добавление настроек защиты в целевую организацию</span><span class="sxs-lookup"><span data-stu-id="c34b5-178">Step 7: Add protection settings to the target organization</span></span>
+## <a name="step-7-add-protection-settings-to-the-target-organization"></a><span data-ttu-id="7e7d7-178">Действие 7. Добавление настроек защиты в целевую организацию</span><span class="sxs-lookup"><span data-stu-id="7e7d7-178">Step 7: Add protection settings to the target organization</span></span>
 
-<span data-ttu-id="c34b5-179">Вы можете выполнить указанный ниже сценарий из каталога Export после входа в целевую организацию, чтобы воссоздать настройки, ранее экспортированные в XML-файлы из исходной организации.</span><span class="sxs-lookup"><span data-stu-id="c34b5-179">You can run the following script from the Export directory while logged in to your target organization to recreate the settings exported to .xml files earlier from the source organization.</span></span>
+<span data-ttu-id="7e7d7-179">Вы можете выполнить указанный ниже сценарий из каталога Export после входа в целевую организацию, чтобы воссоздать настройки, ранее экспортированные в XML-файлы из исходной организации.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-179">You can run the following script from the Export directory while logged in to your target organization to recreate the settings exported to .xml files earlier from the source organization.</span></span>
 
-<span data-ttu-id="c34b5-180">Скопируйте и вставьте текст сценария в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Import_Settings.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="c34b5-180">Copy and paste the script text into a text editor like Notepad, save the file as C:\EOP\Export\Import_Settings.ps1, and run the following command:</span></span>
+<span data-ttu-id="7e7d7-180">Скопируйте и вставьте текст сценария в текстовый редактор (например, Блокнот), сохраните файл как C:\EOP\Export\Import_Settings.ps1 и выполните следующую команду.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-180">Copy and paste the script text into a text editor like Notepad, save the file as C:\EOP\Export\Import_Settings.ps1, and run the following command:</span></span>
 
 ```PowerShell
 & "C:\EOP\Export\Import_Settings.ps1"
 ```
 
-<span data-ttu-id="c34b5-181">Этот сценарий обеспечивает импорт XML-файлов и создание файла сценария Windows PowerShell под именем Settings.ps1, который можно просматривать, редактировать и запускать для воссоздания настроек защиты и потока обработки почты.</span><span class="sxs-lookup"><span data-stu-id="c34b5-181">This script imports the .xml files and create a Windows PowerShell script file called Settings.ps1 that you can review, edit, and then run to recreate your protection and mail-flow settings.</span></span>
+<span data-ttu-id="7e7d7-181">Этот сценарий обеспечивает импорт XML-файлов и создание файла сценария Windows PowerShell под именем Settings.ps1, который можно просматривать, редактировать и запускать для воссоздания настроек защиты и потока обработки почты.</span><span class="sxs-lookup"><span data-stu-id="7e7d7-181">This script imports the .xml files and create a Windows PowerShell script file called Settings.ps1 that you can review, edit, and then run to recreate your protection and mail-flow settings.</span></span>
 
 ```PowerShell
 #***********************************************************************
@@ -646,11 +646,11 @@ rm -erroraction 'silentlycontinue' $outfile
 #****************************************************************************
 # HostedContentFilterPolicy
 #****************************************************************************
-$HostedContentFilterPolicys = Import-Clixml ".\HostedContentFilterPolicy.xml"
-$HostedContentFilterPolicyCount = $HostedContentFilterPolicys.Name.Count
+$HostedContentFilterPolicies = Import-Clixml ".\HostedContentFilterPolicy.xml"
+$HostedContentFilterPolicyCount = $HostedContentFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $HostedContentFilterPolicyCount Inbound Connectors"
-    ForEach ($HostedContentFilterPolicy in $HostedContentFilterPolicys) {
+    ForEach ($HostedContentFilterPolicy in $HostedContentFilterPolicies) {
         $HostedContentFilterPolicyCmdlet = "New-HostedContentFilterPolicy"
         if($HostedContentFilterPolicy.Name -eq "Default") {$HostedContentFilterPolicyCmdlet = "Set-HostedContentFilterPolicy -Identity Default"}
         else {
@@ -726,11 +726,11 @@ if($HostedContentFilterPolicyCount -gt 0){
 #****************************************************************************
 # HostedOutboundSpamFilterPolicy
 #****************************************************************************
-$HostedOutboundSpamFilterPolicys = Import-Clixml ".\HostedOutboundSpamFilterPolicy.xml"
-$HostedOutboundSpamFilterPolicyCount = $HostedOutboundSpamFilterPolicys.Name.Count
+$HostedOutboundSpamFilterPolicies = Import-Clixml ".\HostedOutboundSpamFilterPolicy.xml"
+$HostedOutboundSpamFilterPolicyCount = $HostedOutboundSpamFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $HostedOutboundSpamFilterPolicyCount Hosted Outbound Spam Filter Policies"
-    ForEach ($HostedOutboundSpamFilterPolicy in $HostedOutboundSpamFilterPolicys) {
+    ForEach ($HostedOutboundSpamFilterPolicy in $HostedOutboundSpamFilterPolicies) {
         $HostedOutboundSpamFilterPolicyCmdlet = "Set-HostedOutboundSpamFilterPolicy Default"
         $HostedOutboundSpamFilterPolicyCmdlet += makeparam "AdminDisplayName" $HostedOutboundSpamFilterPolicy.AdminDisplayName
         $HostedOutboundSpamFilterPolicyCmdlet += makeparam "BccSuspiciousOutboundAdditionalRecipients"
@@ -747,11 +747,11 @@ if($HostedContentFilterPolicyCount -gt 0){
 #****************************************************************************
 # HostedConnectionFilterPolicy
 #****************************************************************************
-$HostedConnectionFilterPolicys = Import-Clixml ".\HostedConnectionFilterPolicy.xml"
-$HostedConnectionFilterPolicyCount = $HostedConnectionFilterPolicys.Name.Count
+$HostedConnectionFilterPolicies = Import-Clixml ".\HostedConnectionFilterPolicy.xml"
+$HostedConnectionFilterPolicyCount = $HostedConnectionFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $HostedConnectionFilterPolicyCount Hosted Connection Filter Policies"
-    ForEach ($HostedConnectionFilterPolicy in $HostedConnectionFilterPolicys) {
+    ForEach ($HostedConnectionFilterPolicy in $HostedConnectionFilterPolicies) {
         $HostedConnectionFilterPolicyCmdlet = "Set-HostedConnectionFilterPolicy"
         $HostedConnectionFilterPolicyCmdlet += makeparam "Identity" $HostedConnectionFilterPolicy.Name
         $HostedConnectionFilterPolicyCmdlet += makeparam "AdminDisplayName" $HostedConnectionFilterPolicy.AdminDisplayName
@@ -768,11 +768,11 @@ if($HostedContentFilterPolicyCount -gt 0){
 #****************************************************************************
 # MalwareFilterPolicy
 #****************************************************************************
-$MalwareFilterPolicys = Import-Clixml ".\MalwareFilterPolicy.xml"
-$MalwareFilterPolicyCount = $MalwareFilterPolicys.Name.Count
+$MalwareFilterPolicies = Import-Clixml ".\MalwareFilterPolicy.xml"
+$MalwareFilterPolicyCount = $MalwareFilterPolicies.Name.Count
 if($HostedContentFilterPolicyCount -gt 0){
     Write-Host "Importing $MalwareFilterPolicyCount Malware Filter Policies"
-    ForEach ($MalwareFilterPolicy in $MalwareFilterPolicys) {
+    ForEach ($MalwareFilterPolicy in $MalwareFilterPolicies) {
         $MalwareFilterPolicyCmdlet = "New-MalwareFilterPolicy"
         if($MalwareFilterPolicy.Name -eq "Default") {$MalwareFilterPolicyCmdlet = "Set-MalwareFilterPolicy Default"}
         else {
@@ -929,6 +929,6 @@ if($HostedContentFilterPolicyCount -gt 0){
  }
 ```
 
-## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a><span data-ttu-id="c34b5-182">Действие 8. Отмена изменений, внесенных в настройки DNS, для прекращения постановки сообщений в очередь</span><span class="sxs-lookup"><span data-stu-id="c34b5-182">Step 8: Revert your DNS settings to stop mail queuing</span></span>
+## <a name="step-8-revert-your-dns-settings-to-stop-mail-queuing"></a><span data-ttu-id="7e7d7-182">Действие 8. Отмена изменений, внесенных в настройки DNS, для прекращения постановки сообщений в очередь</span><span class="sxs-lookup"><span data-stu-id="7e7d7-182">Step 8: Revert your DNS settings to stop mail queuing</span></span>
 
-<span data-ttu-id="c34b5-183">Если вы решили настроить записи MX на недопустимый адрес, чтобы отправители почтовых ящиков во время перехода, необходимо снова установить для них правильное значение, указанное в [центре администрирования](https://admin.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="c34b5-183">If you chose to set your MX records to an invalid address to cause the senders to queue mail during your transition, you'll need to set them back to the correct value as specified in the [admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="c34b5-184">Для получения дополнительных сведений о настройке DNS ознакомьтесь [со статьей Создание DNS-записей на любом поставщике услуг хостинга DNS для Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span><span class="sxs-lookup"><span data-stu-id="c34b5-184">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
+<span data-ttu-id="7e7d7-183">Если вы решили указать записи MX таким образом, чтобы они указывают на недопустимый адрес, чтобы задерживать их в очередь во время перехода, верните им правильное значение, указанное в [Центре администрирования.](https://admin.microsoft.com)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-183">If you chose to set your MX records to an invalid address to cause the senders to queue mail during your transition, you'll need to set them back to the correct value as specified in the [admin center](https://admin.microsoft.com).</span></span> <span data-ttu-id="7e7d7-184">Дополнительные сведения о настройке DNS см. в статье ["Создание записей DNS для любого поставщика услуг размещения DNS для Microsoft 365".](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)</span><span class="sxs-lookup"><span data-stu-id="7e7d7-184">For more information about configuring DNS, see [Create DNS records at any DNS hosting provider for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).</span></span>
