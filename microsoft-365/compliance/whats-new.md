@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 description: Следует ли добавлять новые решения в центр соответствия требованиям, обновлять существующие компоненты в соответствии с вашими отзывами или обновлять свежую и обновленную документацию, Microsoft 365 поможет вам оставаться на самом верху постоянно меняющихся нормативных требований. Узнайте, что мы использовали до этого месяца.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9bccaab4c1dd1ac8b4676939d848c0f1a599d86b
-ms.sourcegitcommit: 445b249a6f0420b32e49742fd7744006c7090b2b
+ms.openlocfilehash: 95b23ccdb272c9e91ee4c525fd90679c492efc9b
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46798180"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868976"
 ---
 # <a name="whats-new-in-microsoft-365-compliance"></a>Новые возможности обеспечения соответствия требованиям в Microsoft 365
 
@@ -97,8 +97,6 @@ ms.locfileid: "46798180"
 
 - Раздел "Управление записями" теперь полностью доступен в центре соответствия требованиям. Воспользуйтесь преимуществами обновленных пользовательских интерфейсов и функций для плана файлов, меток хранения и политик меток, событий и расстановки.
 - Говоря об ликвидации, мы также выполнили [пробную расстановку](disposition.md#disposition-of-records) записей в SharePoint и OneDrive. Теперь вы можете просмотреть список элементов в местах, которые были удалены автоматически или после проверки ликвидации.
-
-:::image type="content" source="../media/mcc-records-management-page.png" alt-text="Раздел "Управление записями" в центре соответствия требованиям Microsoft 365":::
 
 ### <a name="sensitivity-labels-preview-auto-labeling-policies"></a>Метки конфиденциальности: предварительный просмотр политик автоматических меток
 
@@ -267,7 +265,7 @@ ms.locfileid: "46798180"
 |Защита от потери данных|Защита от потери данных <br/> https://protection.office.com/datalossprevention |Защита от потери данных <br/> https://compliance.microsoft.com/datalossprevention |[Общие сведения о защите от потери данных](data-loss-prevention-policies.md)|
 |Запросы субъектов данных |Конфиденциальность данных > запросов субъектов данных <br/> https://protection.office.com/dsrcases |Запросы субъектов данных <br/> https://compliance.microsoft.com/datasubjectrequest |[Управление запросами субъектов данных GDPR с помощью средства DSR Case](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |Обнаружение электронных данных|Обнаружение электронных данных > обнаружения электронных данных <br/> https://protection.office.com/ediscoveryv1 |Ядро > обнаружения электронных данных <br/> https://compliance.microsoft.com/classicediscovery |[Управление делами по обнаружению электронных данных](ediscovery-cases.md) |
-|Events|События > управления записями <br/> https://protection.office.com/events |Вкладка "события управления записями >" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Запускайте хранение при возникновении события](event-driven-retention.md)|
+|События|События > управления записями <br/> https://protection.office.com/events |Вкладка "события управления записями >" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[Запускайте хранение при возникновении события](event-driven-retention.md)|
 |План хранения|Управление записями > плане файлов <br/> https://protection.office.com/fileplan |> "Управление записями" на вкладке "план файлов" <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[Управление метками хранения с помощью плана хранения](file-plan-manager.md)|
 |Импорт PST-файлов|Управление сведениями > Импорт PST-файлов <br/> https://protection.office.com/importV2 |Вкладка "Управление сведениями >" <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[Обзор импорта файлов PST вашей организации](importing-pst-files-to-office-365.md)|
 |Обозреватель действий с метками|> "Управление сведениями" Обозреватель действий меток <br/> https://protection.office.com/labelexplorer |Вкладка "> классификации данных" обозревателя действий <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[Просмотр действий над содержимым с метками (предварительная версия)](data-classification-activity-explorer.md)|
