@@ -1,0 +1,71 @@
+---
+title: Отправка нежелательных и фишинговых сообщений электронной почты в Outlook для iOS и Android
+f1.keywords:
+- NOCSH
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.date: ''
+audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
+ms.collection:
+- M365-security-compliance
+description: Администраторы могут изучить встроенные параметры отчетов о нежелательной почте, нежелательной почте и phishing-атаках в Outlook для iOS и Android.
+ms.openlocfilehash: 216f60eb168190603c7c9aba58cef27c2bf15b01
+ms.sourcegitcommit: 787b198765565d54ee73972f664bdbd5023d666b
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46867499"
+---
+# <a name="report-junk-and-phishing-email-in-outlook-for-ios-and-android-in-exchange-online"></a><span data-ttu-id="ffeec-103">Отправка нежелательных и фишинговых сообщений электронной почты в Outlook для iOS и Android в Exchange Online</span><span class="sxs-lookup"><span data-stu-id="ffeec-103">Report junk and phishing email in Outlook for iOS and Android in Exchange Online</span></span>
+
+<span data-ttu-id="ffeec-104">В организациях Microsoft 365 с почтовыми ящиками в Exchange Online или локальных почтовых ящиков с помощью [гибридной современной проверки подлинности](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide)можно использовать встроенные параметры отчетов в Outlook для iOS и Android для отправки ложных срабатываний (хороший адрес электронной почты, помеченный как спам), ложные отрицательные (недопустимые сообщения электронной почты) и фишинговые сообщения для Exchange Online Protection</span><span class="sxs-lookup"><span data-stu-id="ffeec-104">In Microsoft 365 organizations with mailboxes in Exchange Online or on-premises mailboxes using [hybrid modern authentication](https://docs.microsoft.com/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide), you can use the built-in reporting options in Outlook for iOS and Android to submit false positives (good email marked as spam), false negatives (bad email allowed), and phishing messages to Exchange Online Protection (EOP).</span></span>
+
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="ffeec-105">Что нужно знать перед началом работы</span><span class="sxs-lookup"><span data-stu-id="ffeec-105">What do you need to know before you begin</span></span>
+
+- <span data-ttu-id="ffeec-106">Если вы являетесь администратором в Организации с почтовыми ящиками Exchange Online, рекомендуем использовать портал отправки в центре безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="ffeec-106">If you're an admin in an organization with Exchange Online mailboxes, we recommend that you use the Submissions portal in the Security & Compliance Center.</span></span> <span data-ttu-id="ffeec-107">Дополнительные сведения см. в [статье Использование отправки администратором для отправки подозреваемой спама, фишинга, URL-адресов и файлов в корпорацию Майкрософт](admin-submission.md).</span><span class="sxs-lookup"><span data-stu-id="ffeec-107">For more information, see [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).</span></span>
+
+- <span data-ttu-id="ffeec-108">Можно настроить копирование или перенаправление сообщений, отправленных в указанный почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="ffeec-108">You can configure reported messages to be copied or redirected to a mailbox that you specify.</span></span> <span data-ttu-id="ffeec-109">Дополнительные сведения см. [в статье определение почтового ящика для отправленных пользователем сообщений о нежелательной почте и фишинговых сообщениях в Exchange Online](user-submission.md).</span><span class="sxs-lookup"><span data-stu-id="ffeec-109">For more information, see [Specify a mailbox for user submissions of spam and phishing messages in Exchange Online](user-submission.md).</span></span>
+
+- <span data-ttu-id="ffeec-110">Дополнительные сведения о сообщениях отчетов в корпорацию Майкрософт можно найти [в статье сообщения и файлы отчетов в корпорацию Майкрософт](report-junk-email-messages-to-microsoft.md).</span><span class="sxs-lookup"><span data-stu-id="ffeec-110">For more information about reporting messages to Microsoft, see [Report messages and files to Microsoft](report-junk-email-messages-to-microsoft.md).</span></span>
+
+  > [!NOTE]
+  > <span data-ttu-id="ffeec-111">Если в политике отправки пользователей отключена поддержка отчетов о нежелательной почте, Нежелательная почта или фишинговые сообщения перемещаются в папку "Нежелательная почта", а не сообщаются администратору или корпорации Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="ffeec-111">If junk email reporting is disabled for Outlook in the user submission policy, junk or phishing messages will be moved to the Junk folder and not reported to your admin or Microsoft.</span></span>
+
+## <a name="report-spam-and-phishing-messages-in-outlook-for-ios-and-android"></a><span data-ttu-id="ffeec-112">Составление отчетов о нежелательной почте и фишинговых сообщениях в Outlook для iOS и Android</span><span class="sxs-lookup"><span data-stu-id="ffeec-112">Report spam and phishing messages in Outlook for iOS and Android</span></span>
+
+<span data-ttu-id="ffeec-113">Для сообщений в папке "Входящие" или любой другой папке, кроме нежелательной почты, выполните следующие действия, чтобы сообщить о нежелательной почте и мошеннических сообщениях для iOS и Android:</span><span class="sxs-lookup"><span data-stu-id="ffeec-113">For messages in the Inbox, or any other email folder except Junk Email, use the following steps to report spam and phishing messages for iOS and Android:</span></span>
+
+1. <span data-ttu-id="ffeec-114">Выберите одно или несколько сообщений.</span><span class="sxs-lookup"><span data-stu-id="ffeec-114">Select one or more messages.</span></span>
+2. <span data-ttu-id="ffeec-115">В правом верхнем углу коснитесь трех точек по вертикали.</span><span class="sxs-lookup"><span data-stu-id="ffeec-115">In the top-right corner tap on the three vertical dots.</span></span> <span data-ttu-id="ffeec-116">Откроется меню Action (действие).</span><span class="sxs-lookup"><span data-stu-id="ffeec-116">The action menu opens.</span></span>
+
+   ![Сообщить о нежелательных или фишинговых сообщениях из меню действий](../../media/Android-report-as-junk-dialog.png)
+
+3. <span data-ttu-id="ffeec-118">Коснитесь **отчета Нежелательная почта** , а затем выберите **нежелательные** или **Фишинг**.</span><span class="sxs-lookup"><span data-stu-id="ffeec-118">Tap **Report junk** and then select **Junk** or **Phishing**.</span></span>
+
+   ![Сообщить о нежелательных или фишинговых сообщениях](../../media/Android-report-junk-or-phishing.png)
+
+4. <span data-ttu-id="ffeec-120">В появившемся диалоговом окне можно выбрать пункт **отчет** или **нет**.</span><span class="sxs-lookup"><span data-stu-id="ffeec-120">In the dialog that appears, you can choose **Report** or **No Thanks**.</span></span> <span data-ttu-id="ffeec-121">При выборе **нет**, если вы нажали **нежелательную** почту, сообщение перемещается в папку "Нежелательная почта", если вы нажали **поддельное** сообщение перемещается в папку "Удаленные".</span><span class="sxs-lookup"><span data-stu-id="ffeec-121">On selecting **No Thanks**, if you tapped **Junk** the message moves to the Junk Email folder, if you tapped **Phishing** the message moves to the Deleted Items folder.</span></span> <span data-ttu-id="ffeec-122">Выберите **отчет** , чтобы отправить копию сообщения в корпорацию Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="ffeec-122">Select **Report** to also send a copy of the message to Microsoft.</span></span>
+
+   ![Отправка отчетов о нежелательных и фишинговых сообщениях электронной почты](../../media/Android-junk-email-reporting-options.png)
+
+<span data-ttu-id="ffeec-124">Если вы передумали, нажмите кнопку **отменить** в появившемся всплывающем уведомлении.</span><span class="sxs-lookup"><span data-stu-id="ffeec-124">If you change your mind, select **Undo** on the toast notification that appears.</span></span> <span data-ttu-id="ffeec-125">Сообщение остается в папке "Входящие".</span><span class="sxs-lookup"><span data-stu-id="ffeec-125">The message remains in the Inbox folder.</span></span>
+
+## <a name="report-non-spam-messages-from-the-junk-folder-in-outlook-for-ios-and-android"></a><span data-ttu-id="ffeec-126">Отправка сообщений о сообщениях, не являющихся нежелательными, из папки "спам" в Outlook для iOS и Android</span><span class="sxs-lookup"><span data-stu-id="ffeec-126">Report non-spam messages from the Junk folder in Outlook for iOS and Android</span></span>
+
+<span data-ttu-id="ffeec-127">В папке нежелательной почты выполните следующие действия, чтобы сообщить о ложных срабатываниях:</span><span class="sxs-lookup"><span data-stu-id="ffeec-127">In the Junk folder, use the following steps to report spam false positives:</span></span>
+
+1. <span data-ttu-id="ffeec-128">Выберите одно или несколько сообщений.</span><span class="sxs-lookup"><span data-stu-id="ffeec-128">Select one or more messages.</span></span>
+2. <span data-ttu-id="ffeec-129">В правом верхнем углу коснитесь трех точек по вертикали.</span><span class="sxs-lookup"><span data-stu-id="ffeec-129">In the top-right corner tap on the three vertical dots.</span></span> <span data-ttu-id="ffeec-130">Откроется меню Action (действие).</span><span class="sxs-lookup"><span data-stu-id="ffeec-130">The action menu opens.</span></span>
+
+   ![Отчет о нежелательной почте из меню действий](../../media/Android-not-junk-email.png)
+
+3. <span data-ttu-id="ffeec-132">Коснитесь, а **не Нежелательная почта**.</span><span class="sxs-lookup"><span data-stu-id="ffeec-132">Tap **Not junk**.</span></span>
+
+<span data-ttu-id="ffeec-133">Появится всплывающее уведомление о том, что сообщение перемещено в папку "Входящие".</span><span class="sxs-lookup"><span data-stu-id="ffeec-133">A toast notification appears that the email has moved to your Inbox.</span></span> <span data-ttu-id="ffeec-134">Если вы передумали, нажмите кнопку **отменить** в уведомлении.</span><span class="sxs-lookup"><span data-stu-id="ffeec-134">If you change your mind, select **Undo** on the toast notification.</span></span> <span data-ttu-id="ffeec-135">Сообщение электронной почты остается в папке "Нежелательная почта".</span><span class="sxs-lookup"><span data-stu-id="ffeec-135">The email remains in the Junk folder.</span></span>

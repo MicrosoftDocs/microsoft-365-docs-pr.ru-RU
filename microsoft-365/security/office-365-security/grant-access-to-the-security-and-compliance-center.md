@@ -17,79 +17,73 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: Чтобы пользователи могли управлять функциями безопасности и соответствия требованиям, им должны быть назначены соответствующие разрешения в Центре безопасности & требованиям Microsoft 365.
+description: Пользователям необходимо назначить разрешения в центре безопасности & Microsoft 365, чтобы они могли управлять любыми функциями обеспечения безопасности или соответствия требованиям.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d21fef9458c02bd09d6d5ce2129b95571e0f8371
-ms.sourcegitcommit: e12fa502bc216f6083ef5666f693a04bb727d4df
+ms.openlocfilehash: b51007221257b9adac46c31295e13b20b12342ab
+ms.sourcegitcommit: 22dab0f7604cc057a062698005ff901d40771692
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46826605"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868925"
 ---
-# <a name="give-users-access-to-the-security--compliance-center"></a><span data-ttu-id="5f7c1-103">Предоставление пользователям доступа к Центру безопасности и соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="5f7c1-103">Give users access to the Security & Compliance Center</span></span>
+# <a name="give-users-access-to-the-security--compliance-center"></a><span data-ttu-id="c22ab-103">Предоставление пользователям доступа к Центру безопасности и соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="c22ab-103">Give users access to the Security & Compliance Center</span></span>
 
-<span data-ttu-id="5f7c1-104">Чтобы пользователи могли управлять функциями безопасности и соответствия требованиям, им необходимо назначить им соответствующие разрешения в Центре безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-104">Users need to be assigned permissions in the Security & Compliance Center before they can manage any of its security or compliance features.</span></span> <span data-ttu-id="5f7c1-105">Как глобальный администратор или участник группы ролей OrganizationManagement в Центре безопасности & требованиям, вы можете предоставить пользователям эти разрешения.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-105">As a global admin or member of the OrganizationManagement role group in the Security & Compliance Center, you can give these permissions to users.</span></span> <span data-ttu-id="5f7c1-106">Пользователи смогут управлять только теми функциями безопасности и соответствия требованиям, к которым вы предоставите им доступ.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-106">Users will only be able to manage the security or compliance features that you give them access to.</span></span>
+<span data-ttu-id="c22ab-104">Пользователям необходимо назначить разрешения в центре безопасности & соответствия требованиям, прежде чем они смогут управлять любыми функциями обеспечения безопасности или соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c22ab-104">Users need to be assigned permissions in the Security & Compliance Center before they can manage any of its security or compliance features.</span></span> <span data-ttu-id="c22ab-105">В качестве глобального администратора или члена группы ролей Организатионманажемент в центре безопасности & соответствия требованиям вы можете предоставить эти разрешения пользователям.</span><span class="sxs-lookup"><span data-stu-id="c22ab-105">As a global admin or member of the OrganizationManagement role group in the Security & Compliance Center, you can give these permissions to users.</span></span> <span data-ttu-id="c22ab-106">Пользователи смогут управлять только теми функциями безопасности и соответствия требованиям, к которым вы предоставите им доступ.</span><span class="sxs-lookup"><span data-stu-id="c22ab-106">Users will only be able to manage the security or compliance features that you give them access to.</span></span>
 
-<span data-ttu-id="5f7c1-107">Дополнительные сведения о различных разрешениях, предоставляемых пользователям в Центре безопасности &, см. в разделе ["Разрешения" & безопасности.](permissions-in-the-security-and-compliance-center.md)</span><span class="sxs-lookup"><span data-stu-id="5f7c1-107">For more information about the different permissions you can give to users in the Security & Compliance Center, check out [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
+<span data-ttu-id="c22ab-107">Для получения дополнительных сведений о различных разрешениях, которые вы можете предоставить пользователям в центре безопасности & соответствия требованиям, изучите [разрешения в центре безопасности & соответствия требованиям](permissions-in-the-security-and-compliance-center.md).</span><span class="sxs-lookup"><span data-stu-id="c22ab-107">For more information about the different permissions you can give to users in the Security & Compliance Center, check out [Permissions in the Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="5f7c1-108">Что нужно знать перед началом работы</span><span class="sxs-lookup"><span data-stu-id="5f7c1-108">What do you need to know before you begin?</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="c22ab-108">Что нужно знать перед началом работы</span><span class="sxs-lookup"><span data-stu-id="c22ab-108">What do you need to know before you begin?</span></span>
 
-- <span data-ttu-id="5f7c1-109">Для выполнения действий, описанных в этой статье, вы должны быть глобальным администратором или членом группы ролей "Управление организацией" в Центре соответствия требованиям &.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-109">You need to be a global admin, or a member of the OrganizationManagement role group in the Security & Compliance Center, to complete the steps in this article.</span></span>
+- <span data-ttu-id="c22ab-109">Чтобы выполнить действия, описанные в этой статье, необходимо быть глобальным администратором или членом группы ролей Организатионманажемент в центре безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c22ab-109">You need to be a global admin, or a member of the OrganizationManagement role group in the Security & Compliance Center, to complete the steps in this article.</span></span>
 
-- <span data-ttu-id="5f7c1-110">Группы ролей для Центра безопасности & могут иметь имена, похожие на имена групп ролей в Exchange Online, но это не одинаковые.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-110">Role groups for the Security & Compliance Center might have similar names to the role groups in Exchange Online, but they're not the same.</span></span>
+- <span data-ttu-id="c22ab-110">Группы ролей для центра безопасности & соответствия требованиям могут иметь похожие имена для групп ролей в Exchange Online, но они не совпадают.</span><span class="sxs-lookup"><span data-stu-id="c22ab-110">Role groups for the Security & Compliance Center might have similar names to the role groups in Exchange Online, but they're not the same.</span></span>
 
-- <span data-ttu-id="5f7c1-111">Членство в группе ролей Не является членством в службе Exchange Online и Центром безопасности & центра соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-111">Role group memberships aren't shared between Exchange Online and the Security & Compliance Center.</span></span>
+- <span data-ttu-id="c22ab-111">Сведения о членстве в группах ролей не являются общими для Exchange Online и центра безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c22ab-111">Role group memberships aren't shared between Exchange Online and the Security & Compliance Center.</span></span>
 
-- <span data-ttu-id="5f7c1-112">Партнеры по делегированным доступа (DAP) с разрешениями на администрирование от имени (AOBO) не могут получить доступ к Центру безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-112">Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.</span></span>
+- <span data-ttu-id="c22ab-112">Права на делегированный доступ (с правами администратора) с правами администратора от имени (АОБО) не могут получить доступ к центру безопасности & соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="c22ab-112">Delegated Access Permission (DAP) partners with Administer On Behalf Of (AOBO) permissions can't access the Security & Compliance Center.</span></span>
 
-## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="5f7c1-113">Использование Центра администрирования для предоставления другому пользователю доступа к Центру безопасности & соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="5f7c1-113">Use the admin center to give another user access to the Security & Compliance Center</span></span>
+## <a name="use-the-security--compliance-center-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="c22ab-113">Использование центра безопасности & соответствия требованиям для предоставления другому пользователю доступа к центру безопасности & соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="c22ab-113">Use the Security & Compliance Center to give another user access to the Security & Compliance Center</span></span>
 
-1. <span data-ttu-id="5f7c1-114">[Войдите в Систему и перейдите в Центр администрирования.](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)</span><span class="sxs-lookup"><span data-stu-id="5f7c1-114">[Sign in and go to the admin center](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center).</span></span>
+1. <span data-ttu-id="c22ab-114">Откройте центр безопасности & соответствия требованиям <https://protection.office.com> и перейдите к разделу **разрешения**.</span><span class="sxs-lookup"><span data-stu-id="c22ab-114">Open the Security & Compliance Center at <https://protection.office.com> and then go to **Permissions**.</span></span> <span data-ttu-id="c22ab-115">Чтобы перейти непосредственно на вкладку **разрешения** , откройте <https://protection.office.com/permissions> .</span><span class="sxs-lookup"><span data-stu-id="c22ab-115">To go directly to the **Permissions** tab, open <https://protection.office.com/permissions>.</span></span>
 
-2. <span data-ttu-id="5f7c1-115">В Центре администрирования Microsoft 365 откройте Центры администрирования, а **затем** щелкните **"Безопасность & Соответствие требованиям".**</span><span class="sxs-lookup"><span data-stu-id="5f7c1-115">In the Microsoft 365 admin center, open **Admin centers** and then click **Security & Compliance**.</span></span>
+2. <span data-ttu-id="c22ab-116">В списке групп ролей выберите группу ролей, а затем щелкните **изменить** ![ значок редактирования ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) .</span><span class="sxs-lookup"><span data-stu-id="c22ab-116">From the list of role groups, choose the role group, and then click **Edit** ![Edit icon](../../media/O365-MDM-CreatePolicy-EditIcon.gif).</span></span>
 
-3. <span data-ttu-id="5f7c1-116">В Центре безопасности & выберите раздел **"Разрешения".**</span><span class="sxs-lookup"><span data-stu-id="5f7c1-116">In the Security & Compliance Center, go to **Permissions**.</span></span>
+3. <span data-ttu-id="c22ab-117">На странице свойств группы ролей в разделе **Участники**нажмите **Добавить** ![ значок Добавить ](../../media/ITPro-EAC-AddIcon.gif) и выберите имя пользователя (или пользователей), которого вы хотите добавить.</span><span class="sxs-lookup"><span data-stu-id="c22ab-117">In the role group's properties page under **Members**, click **Add**![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and select the name of the user (or users) you want to add.</span></span>
 
-4. <span data-ttu-id="5f7c1-117">В списке выберите группу ролей, в которую необходимо добавить пользователя, и нажмите **значок** ![ ](../../media/O365-MDM-CreatePolicy-EditIcon.gif) редактирования.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-117">From the list, choose the role group that you want to add the user to and click **Edit** ![Edit icon](../../media/O365-MDM-CreatePolicy-EditIcon.gif).</span></span>
+4. <span data-ttu-id="c22ab-118">Выбрав всех пользователей, которых вы хотите добавить в группу ролей, нажмите кнопку **Add (добавить \> )** , а затем кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="c22ab-118">When you've selected all of the users you want to add to the role group, click **add-\>** and then **OK**.</span></span>
 
-5. <span data-ttu-id="5f7c1-118">На странице свойств группы ролей в разделе **"Участники"** нажмите кнопку **"Добавить**значок добавить" и выберите имя ![ ](../../media/ITPro-EAC-AddIcon.gif) пользователя(или пользователей), которых нужно добавить.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-118">In the role group's properties page under **Members**, click **Add**![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and select the name of the user (or users) you want to add.</span></span>
+5. <span data-ttu-id="c22ab-119">По завершении нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="c22ab-119">When you're finished, click **Save**.</span></span>
 
-6. <span data-ttu-id="5f7c1-119">Выбрав всех пользователей, которых нужно добавить в группу ролей, нажмите \*\*кнопку "Добавить", \> \*\* а затем **" ОК".**</span><span class="sxs-lookup"><span data-stu-id="5f7c1-119">When you've selected all of the users you want to add to the role group, click **add-\>** and then **OK**.</span></span>
+## <a name="use-security--compliance-center-powershell-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="c22ab-120">Используйте PowerShell центра безопасности & соответствия требованиям, чтобы предоставить другому пользователю доступ к центру безопасности & соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="c22ab-120">Use Security & Compliance Center PowerShell to give another user access to the Security & Compliance Center</span></span>
 
-7. <span data-ttu-id="5f7c1-120">Нажмите кнопку **Сохранить**, чтобы сохранить изменения в группе ролей.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-120">Click **Save** to save the changes to the role group.</span></span>
+1. <span data-ttu-id="c22ab-121">[Подключитесь к Центру безопасности и соответствия требованиям PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="c22ab-121">[Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
 
-### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="5f7c1-121">Как проверить, что все получилось</span><span class="sxs-lookup"><span data-stu-id="5f7c1-121">How do you know this worked?</span></span>
+2. <span data-ttu-id="c22ab-122">Используйте указанный ниже синтаксис.</span><span class="sxs-lookup"><span data-stu-id="c22ab-122">Use the following syntax:</span></span>
 
-1. <span data-ttu-id="5f7c1-122">В Центре безопасности & выберите раздел **"Разрешения".**</span><span class="sxs-lookup"><span data-stu-id="5f7c1-122">In the Security & Compliance Center, go to **Permissions**.</span></span>
+   ```powershell
+   Add-RoleGroupMember -Identity <RoleGroup> -Member <UserIdentity>
 
-2. <span data-ttu-id="5f7c1-123">В списке выберите группу ролей, чтобы просмотреть ее участников.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-123">From the list, select the role group to view the members.</span></span>
+   - _Identity_ is the role group.
+   - _Member_ is the user or universal security group (USG). You can specify only one member at a time.
 
-3. <span data-ttu-id="5f7c1-124">В правой части области сведений о группе ролей можно просматривать список ее членов.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-124">On the right, in the role group details, you can view the members of the role group.</span></span>
-
-## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a><span data-ttu-id="5f7c1-125">Использование PowerShell для предоставления другому пользователю доступа к Центру безопасности & соответствия требованиям</span><span class="sxs-lookup"><span data-stu-id="5f7c1-125">Use PowerShell to give another user access to the Security & Compliance Center</span></span>
-
-1. <span data-ttu-id="5f7c1-126">[Подключение к интерфейсу PowerShell Центра безопасности и соответствия требованиям](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span><span class="sxs-lookup"><span data-stu-id="5f7c1-126">[Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell).</span></span>
-
-2. <span data-ttu-id="5f7c1-127">Воспользуйтесь командой **Add-RoleGroupMember**, чтобы добавить пользователя в группу ролей Organization Management (Управление организацией), как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-127">Use the **Add-RoleGroupMember** command to add a user to the Organization Management Role, as shown in the following example.</span></span>
+   This example adds MatildaS to the Organization Management role group.
 
    ```PowerShell
    Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
-   <span data-ttu-id="5f7c1-128">**Параметры:**</span><span class="sxs-lookup"><span data-stu-id="5f7c1-128">**Parameters**:</span></span>
+<span data-ttu-id="c22ab-123">Подробные сведения о синтаксисе и параметрах можно найти в статье [Add/RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span><span class="sxs-lookup"><span data-stu-id="c22ab-123">For detailed syntax and parameter issues, see [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/add-rolegroupmember)</span></span>
 
-   - <span data-ttu-id="5f7c1-129">_Identity_ — это группа ролей, в которую добавляются участники.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-129">_Identity_ is the role group to add a member to.</span></span>
+### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="c22ab-124">Как убедиться, что все получилось?</span><span class="sxs-lookup"><span data-stu-id="c22ab-124">How do you know this worked?</span></span>
 
-   - <span data-ttu-id="5f7c1-130">_Участник —_ это почтовый ящик, универсальная группа безопасности или компьютер, которые необходимо добавить в группу ролей.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-130">_Member_ is the mailbox, universal security group (USG), or computer to add to the role group.</span></span> <span data-ttu-id="5f7c1-131">За один раз можно добавить только одного участника.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-131">You can specify only one member at a time.</span></span>
+<span data-ttu-id="c22ab-125">Чтобы убедиться, что вы успешно предоставили доступ к центру безопасности & соответствия требованиям, выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="c22ab-125">To verify that you've successfully granted access to the Security & Compliance Center, do either of the following steps:</span></span>
 
-<span data-ttu-id="5f7c1-132">Дополнительные сведения о синтаксисе и параметрах см. в [статье Add-RoleGroupMember.](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember)</span><span class="sxs-lookup"><span data-stu-id="5f7c1-132">For detailed information on syntax and parameters, see [Add-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Add-RoleGroupMember).</span></span>
+- <span data-ttu-id="c22ab-126">В центре безопасности & соответствия требованиям перейдите к разделу **разрешения** и выберите группу ролей.</span><span class="sxs-lookup"><span data-stu-id="c22ab-126">In the Security & Compliance Center, go to **Permissions** and select the role group.</span></span> <span data-ttu-id="c22ab-127">В открывшемся всплывающем окне сведения проверьте членов группы ролей.</span><span class="sxs-lookup"><span data-stu-id="c22ab-127">In the details flyout that opens, verify the members of the role group.</span></span> 
 
-### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="5f7c1-133">Как убедиться, что все получилось?</span><span class="sxs-lookup"><span data-stu-id="5f7c1-133">How do you know this worked?</span></span>
+- <span data-ttu-id="c22ab-128">В PowerShell центра безопасности & соответствия требованиям замените \<RoleGroupName\> имя группы ролей и выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="c22ab-128">In Security & Compliance Center PowerShell, replace \<RoleGroupName\> with the name of the role group, and run the following command:</span></span>
 
-<span data-ttu-id="5f7c1-134">Чтобы проверить, что вы даете пользователям доступ к Центру безопасности &, используйте **командлет Get-RoleGroupMember** для просмотра членов в группе ролей Управление организацией (Organization Management) как показано в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="5f7c1-134">To verify that you've given users access to the Security & Compliance Center, use the **Get-RoleGroupMember** cmdlet to view the members in the Organization Management role group, as shown in the following example.</span></span>
+  ```powershell
+  Get-RoleGroupMember -Identity "<RoleGroupName>"
+  ```
 
-```PowerShell
-Get-RoleGroupMember -Identity "Organization Management"
-```
-
-<span data-ttu-id="5f7c1-135">Дополнительные сведения о синтаксисе и параметрах см. в [статье Get-RoleGroupMember.](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember)</span><span class="sxs-lookup"><span data-stu-id="5f7c1-135">For detailed information on syntax and parameters, see [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span></span>
+  <span data-ttu-id="c22ab-129">Подробные сведения о синтаксисе и параметрах можно найти в статье [Get – RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span><span class="sxs-lookup"><span data-stu-id="c22ab-129">For detailed syntax and parameter information, see [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/Get-RoleGroupMember).</span></span>
