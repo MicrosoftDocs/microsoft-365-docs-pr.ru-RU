@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Вы готовы начать использование меток конфиденциальности для защиты данных организации, но не знаете, с чего начать? Ознакомьтесь с практическим руководством, которое поможет вам приступить к работе с метками.
-ms.openlocfilehash: 50392693b92ac660445d5966168b143c70853291
-ms.sourcegitcommit: 6cf29958aff90d8bc1df0fe5fb9238d338db8237
+ms.openlocfilehash: 4712cc4f2dd042c3564523a565b71db69a18f5bc
+ms.sourcegitcommit: 260bbb93bbda62db9e88c021ccccfa75ac39a32e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506334"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845769"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>Начало работы с метками конфиденциальности
 
@@ -80,7 +80,7 @@ ms.locfileid: "46506334"
 
 |Я хочу…|Документация|
 |----------------|---------------|
-|Управление метками конфиденциальности в приложениях Office для применения при создании содержимого |[Использование меток конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)|
+|Управление метками конфиденциальности в приложениях Office для их применения к содержимому при его создании — включая поддержку присвоения меток вручную на всех платформах |[Использование меток конфиденциальности в приложениях Office](sensitivity-labels-office-apps.md)|
 |Разрешение пользователям помечать и защищать файлы на компьютерах с Windows с помощью приложений Office, проводника и PowerShell|[Клиент унифицированных меток Azure Information Protection для Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)|
 |Шифрование документов и сообщений электронной почты с помощью меток конфиденциальности, а также ограничение доступа к этому содержимому и его использования |[Ограничение доступа к содержимому при использовании меток конфиденциальности для шифрования](encryption-sensitivity-labels.md)|
 |Включение меток конфиденциальности для Office в Интернете с поддержкой совместного редактирования, обнаружения электронных данных, защиты от потери данных и поиска, даже если документы зашифрованы | [Включение меток конфиденциальности для файлов Office в SharePoint и OneDrive](sensitivity-labels-sharepoint-onedrive-files.md)
@@ -94,7 +94,7 @@ ms.locfileid: "46506334"
 
 ## <a name="end-user-documentation-for-sensitivity-labels"></a>Документация по меткам конфиденциальности для пользователей
 
-Наиболее полезной документацией для пользователей будет настроенное руководство и инструкции, предоставленные в отношении имен меток и выбранных вами конфигураций. Для получения основных инструкций также см. приведенные ниже ресурсы.   
+Наиболее полезной документацией для пользователей будет настроенное руководство и инструкции, предоставленные в отношении имен меток и выбранных вами конфигураций. Для получения основных инструкций также см. приведенные ниже ресурсы.
 
 - [Применение меток конфиденциальности к файлам и сообщениям электронной почты в Office](https://support.microsoft.com/ru-RU/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
     - [Известные проблемы при использовании меток конфиденциальности в Office](https://support.microsoft.com/ru-RU/office/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
@@ -104,4 +104,4 @@ ms.locfileid: "46506334"
 
 - [Руководство пользователя по применению унифицированных меток с помощью Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-user-guide)
 
-
+Если метки конфиденциальности применяют шифрование к PDF-документам, то эти документы можно открыть с помощью Microsoft Edge в Windows или Mac. Дополнительные сведения и альтернативные средства чтения см. в статье [Какие средства чтения PDF-файлов поддерживаются для защищенных PDF-файлов?](https://docs.microsoft.com/azure/information-protection/rms-client/protected-pdf-readers#viewing-protected-pdfs-in-microsoft-edge-on-windows-or-mac)
